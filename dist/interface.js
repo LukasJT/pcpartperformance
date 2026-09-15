@@ -5,7 +5,7 @@ const photos=window.PCP_IMAGES||{};
 const params=new URL(location.href).searchParams;
 const validIDs=list=>[...new Set(list)].filter(id=>catalog.some(p=>p.id===id)).slice(0,4);
 const series=['var(--chart-a)','var(--chart-b)','var(--chart-c)','var(--chart-d)'];
-const photoLabel=a=>a?.kind==='exact'?'Product photo':a?.kind==='family'?'Family photo':'Reference photo';
+const photoLabel=a=>a?.official&&a?.kind==='exact'?'Official product photo':a?.kind==='exact'?'Product photo':a?.kind==='family'?'Family photo':'Reference photo';
 const shortName=p=>p.name.replace('GeForce ','').replace('Radeon ','');
 const categoryHelp={board:'CPU sockets and expansion',hdd:'High-capacity storage',psu:'Power and connectors',case:'Size and component clearance',monitor:'Resolution and refresh rate',mouse:'Shape, sensor, and weight',keyboard:'Layout and switch type',microphone:'Connection and recording pattern',headset:'Audio and microphone features',controller:'Platform and connection',console:'Console generations',phone:'Mobile hardware',handheld:'Portable gaming systems'};
 function announce(message){$('#toast').textContent=message;$('#toast').classList.add('show');clearTimeout(announce.timer);announce.timer=setTimeout(()=>$('#toast').classList.remove('show'),3500);}
