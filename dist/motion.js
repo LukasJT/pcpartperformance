@@ -40,7 +40,7 @@
         observer.unobserve(entry.target);
       }
     }, { threshold: .08, rootMargin: '0px 0px -12px 0px' });
-    const elements = document.querySelectorAll('.hero-copy, .hero-matchup, .home-browse, .page-heading, .guide-card, .part-hero, .record-detail, .guide-terms section, .method-grid details, .library-callout');
+    const elements = document.querySelectorAll('.hero-copy, .hero-matchup, .home-browse, .home-guidance, .home-fit, .page-heading, .guide-card, .part-hero, .record-detail, .guide-terms section, .method-grid details, .library-callout');
     elements.forEach((element, index) => {
       element.classList.add('will-reveal');
       element.style.setProperty('--reveal-delay', Math.min(index % 4 * 55, 165) + 'ms');
