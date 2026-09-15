@@ -2,6 +2,7 @@
 :root{--chart-c:#8450b5;--chart-d:#a86626;--photo-bg:#f1f2ef}
 :root[data-theme=dark]{--chart-c:#c099ed;--chart-d:#e6b47c;--photo-bg:#e6e8e2}
 body{line-height:1.6}main:focus{outline:none}h1{max-width:22ch;text-wrap:balance}h2,h3{text-wrap:balance}p{text-wrap:pretty}
+:root:not([data-theme=dark]) .site-header nav a,:root:not([data-theme=dark]) .brand-sub,:root:not([data-theme=dark]) .theme-toggle{color:#394335}:root:not([data-theme=dark]) .site-header nav a:hover,:root:not([data-theme=dark]) .site-header nav a[aria-current="page"]{color:#11160f}:root:not([data-theme=dark]) .site-header nav a[aria-current="page"]{font-weight:600}
 .site-header{height:100px;gap:28px}.brand-mark{width:44px;height:44px;border-radius:14px;background:var(--ink);color:var(--bg)}.brand-mark svg{width:34px;height:34px}.brand{font-size:1.125rem;letter-spacing:-.035em}.brand-sub{font-size:.8125rem}
 .site-header nav{gap:2px;padding:5px;background:color-mix(in srgb,var(--surface) 68%,transparent);border:1px solid var(--line);border-radius:999px}.site-header nav a{padding:9px 20px;font-size:.875rem;white-space:nowrap;border-radius:999px}.site-header nav [aria-current]:after{display:none}.site-header nav a:hover,.site-header nav a[aria-current]{color:var(--ink)}
 .theme-toggle{border-radius:999px;padding:10px 14px}.footer-brand{display:flex;align-items:center;gap:10px}.footer-logo svg{width:30px;height:30px}.site-footer>a span{display:inline;color:inherit;margin:0}.site-footer>div{font-size:.875rem;gap:23px}.site-footer{margin-top:75px}
