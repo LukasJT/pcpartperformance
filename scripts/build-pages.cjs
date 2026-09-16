@@ -73,3 +73,5 @@ fs.writeFileSync(path.join(root,'assets/logo.svg'),`<svg xmlns="http://www.w3.or
 fs.writeFileSync(path.join(root,'assets/favicon.svg'),`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none"><rect width="48" height="48" rx="6" fill="#17202e"/><g transform="translate(4 4)" color="#ffffff">${logoPaths}</g></svg>`);
 fs.writeFileSync(path.join(root,'404.html'),shell('Page not found','not-found',`<section class="not-found"><span class="error-number">404</span><h1>That page is missing.</h1><p>Try the hardware catalog or start a new comparison.</p><div><a class="button primary" href="/hardware/">Find hardware ${arrow}</a><a class="button secondary" href="/">Back home</a></div></section>`));
 console.log(`Generated ${records.length} part pages, four category pages, four guides, and shared pages.`);
+
+require("./shopping-pages.cjs")({root,records,images,groups:context.groups,shell,esc,write});

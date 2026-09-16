@@ -1,1 +1,8 @@
-{"name":"pcpartperformance","private":true,"scripts":{"build":"node scripts/build-pages.cjs"}}
+{
+  "name": "pcpartperformance",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build-pages.cjs",
+    "prices:refresh": "node scripts/refresh-prices.cjs"
+  }
+}
