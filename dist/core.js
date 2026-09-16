@@ -20,7 +20,7 @@ const buildSlotDefs=[
 const multiBuildSlots=new Set(['ram','ssd','hdd']);
 const starterBuild={cpu:'9800x3d',board:'b650',gpu:'rtx4080s',ram:['ddr5'],ssd:['990pro'],hdd:['barracuda2'],psu:'rm850x',case:'x-case-fractal-design-north'};
 const cloneStarter=()=>Object.fromEntries(Object.entries(starterBuild).map(([slot,value])=>[slot,Array.isArray(value)?[...value]:value]));
-let pcBuild=cloneStarter(),compatibleOnly=true;
+let pcBuild={},compatibleOnly=true;
 const $=(s)=>document.querySelector(s);
 function parts(){return selected.map(id=>catalog.find(p=>p.id===id)).filter(Boolean)}
 function number(v){return v===undefined||v===null?'—':v.toLocaleString('en-US',{maximumFractionDigits:2})}
