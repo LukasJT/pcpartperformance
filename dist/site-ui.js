@@ -7,7 +7,7 @@ function updateThemeLabel(){
   themeButton.title=`Switch to ${dark?'light':'dark'} mode`;
   const label=themeButton.querySelector('.theme-label');
   if(label)label.textContent=dark?'Light mode':'Dark mode';
-  document.querySelector('meta[name="theme-color"]')?.setAttribute('content',dark?'#101310':'#f5f6f3');
+  document.querySelector('meta[name="theme-color"]')?.setAttribute('content',dark?'#101319':'#f7f8fa');
 }
 themeButton?.addEventListener('click',event=>{
   const apply=()=>{
