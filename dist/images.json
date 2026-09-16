@@ -9368,6 +9368,30 @@
     "height": 557,
     "kind": "family"
   },
+  "switchlite": {
+    "src": "/assets/hardware/nintendo-switch-lite.jpg",
+    "picturedModel": "Nintendo Switch Lite",
+    "sourceUrl": "https://www.nintendo.com/us/store/products/nintendo-switch-lite-110672-3/",
+    "attribution": "Nintendo",
+    "license": "Manufacturer product media",
+    "licenseUrl": "https://www.nintendo.com/us/store/products/nintendo-switch-lite-110672-3/",
+    "width": 1240,
+    "height": 697,
+    "official": true,
+    "kind": "exact"
+  },
+  "switch2": {
+    "src": "/assets/hardware/nintendo-switch-2.jpg",
+    "picturedModel": "Nintendo Switch 2",
+    "sourceUrl": "https://www.nintendo.com/us/store/products/nintendo-switch-2-system-123669/",
+    "attribution": "Nintendo",
+    "license": "Manufacturer product media",
+    "licenseUrl": "https://www.nintendo.com/us/store/products/nintendo-switch-2-system-123669/",
+    "width": 2000,
+    "height": 1125,
+    "official": true,
+    "kind": "exact"
+  },
   "rogally": {
     "src": "/assets/hardware/device-new-device-30.webp",
     "picturedModel": "ASUS ROG Ally",
@@ -11543,26 +11567,28 @@
     "kind": "reference"
   },
   "x-console-nintendo-switch-lite": {
-    "src": "/assets/hardware/device-new-device-29.webp",
-    "picturedModel": "Nintendo Switch",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nintendo-Switch-wJoyCons-BlRd-Standing-FL.jpg",
-    "attribution": "Evan-Amos / Wikimedia Commons",
-    "license": "Public domain",
-    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Nintendo-Switch-wJoyCons-BlRd-Standing-FL.jpg#Licensing",
-    "width": 960,
-    "height": 557,
-    "kind": "family"
+    "src": "/assets/hardware/nintendo-switch-lite.jpg",
+    "picturedModel": "Nintendo Switch Lite",
+    "sourceUrl": "https://www.nintendo.com/us/store/products/nintendo-switch-lite-110672-3/",
+    "attribution": "Nintendo",
+    "license": "Manufacturer product media",
+    "licenseUrl": "https://www.nintendo.com/us/store/products/nintendo-switch-lite-110672-3/",
+    "width": 1240,
+    "height": 697,
+    "official": true,
+    "kind": "exact"
   },
   "x-console-nintendo-switch-2": {
-    "src": "/assets/hardware/device-new-device-29.webp",
-    "picturedModel": "Nintendo Switch",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nintendo-Switch-wJoyCons-BlRd-Standing-FL.jpg",
-    "attribution": "Evan-Amos / Wikimedia Commons",
-    "license": "Public domain",
-    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Nintendo-Switch-wJoyCons-BlRd-Standing-FL.jpg#Licensing",
-    "width": 960,
-    "height": 557,
-    "kind": "reference"
+    "src": "/assets/hardware/nintendo-switch-2.jpg",
+    "picturedModel": "Nintendo Switch 2",
+    "sourceUrl": "https://www.nintendo.com/us/store/products/nintendo-switch-2-system-123669/",
+    "attribution": "Nintendo",
+    "license": "Manufacturer product media",
+    "licenseUrl": "https://www.nintendo.com/us/store/products/nintendo-switch-2-system-123669/",
+    "width": 2000,
+    "height": 1125,
+    "official": true,
+    "kind": "exact"
   },
   "x-console-playstation": {
     "src": "/assets/hardware/device-new-device-8.webp",
