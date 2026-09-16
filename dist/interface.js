@@ -13,19 +13,6 @@ function renderEvent(scope){document.dispatchEvent(new CustomEvent('pcp:render',
 function photo(p,cls='',caption=false){const a=photos[p.id];if(!a)return `<div class="photo-unavailable"><span>${escapeHTML(p.brand)}</span><strong>${escapeHTML(p.architecture)}</strong></div>`;const alt=a.picturedModel+(a.kind==='reference'?' — reference photo, not this exact model':a.kind==='family'?' — family photo':'');return `<figure class="hardware-photo ${cls}"><img src="${a.src}" alt="${escapeHTML(alt)}" width="800" height="500" decoding="async" loading="lazy">${caption?`<figcaption>${photoLabel(a)} · ${escapeHTML(a.picturedModel)}</figcaption>`:''}</figure>`;}
 function imageCredits(a){if(!a)return '';return `<a href="${escapeHTML(a.sourceUrl)}" target="_blank" rel="noopener">Photo source ↗</a>${a.attribution?`<span class="image-credit">Photo: ${escapeHTML(a.attribution.replace(/<[^>]*>/g,''))}${a.license?` · <a href="${escapeHTML(a.licenseUrl||a.sourceUrl)}" target="_blank" rel="noopener">${escapeHTML(a.license)}</a>`:''}</span>`:''}`;}
 
-// Keep theme changes responsive, with a circular transition when supported.
-const themeButton=$('.theme-toggle');
-function updateThemeLabel(){const dark=document.documentElement.dataset.theme==='dark';themeButton.setAttribute('aria-label',`Switch to ${dark?'light':'dark'} mode`);themeButton.title=`Switch to ${dark?'light':'dark'} mode`;$('.theme-label').textContent=dark?'Light mode':'Dark mode';document.querySelector('meta[name="theme-color"]')?.setAttribute('content',dark?'#101310':'#f5f6f3');}
-themeButton.addEventListener('click',event=>{
- const apply=()=>{document.documentElement.dataset.theme=document.documentElement.dataset.theme==='dark'?'light':'dark';try{localStorage.setItem('pcp-theme',document.documentElement.dataset.theme)}catch{}updateThemeLabel();};
- if(!document.startViewTransition||matchMedia('(prefers-reduced-motion: reduce)').matches){apply();return;}
- const rect=themeButton.getBoundingClientRect(),x=event.clientX||rect.left+rect.width/2,y=event.clientY||rect.top+rect.height/2;
- document.documentElement.classList.add('theme-transition');
- const transition=document.startViewTransition(apply);
- transition.ready.then(()=>document.documentElement.animate({clipPath:[`circle(0px at ${x}px ${y}px)`,`circle(${Math.hypot(Math.max(x,innerWidth-x),Math.max(y,innerHeight-y))}px at ${x}px ${y}px)`]},{duration:650,easing:'cubic-bezier(.2,.8,.2,1)',pseudoElement:'::view-transition-new(root)'})).catch(()=>{});
- transition.finished.finally(()=>document.documentElement.classList.remove('theme-transition')).catch(()=>{});
-});updateThemeLabel();
-
 function defaultParts(category){const presets={gpu:['rtx5070','rtx5060ti16'],cpu:['7800x3d','9800x3d'],ram:['ddr4','ddr5'],ssd:['990pro','sn850x']};const valid=validIDs(presets[category]||[]).filter(id=>catalog.find(p=>p.id===id)?.cat===category);return valid.length===2?valid:catalog.filter(p=>p.cat===category).sort((a,b)=>(b.year||0)-(a.year||0)).slice(0,2).map(p=>p.id);}
 selected=params.has('parts')?validIDs(params.get('parts').split(',')):defaultParts(categories.some(([id])=>id===params.get('category'))?params.get('category'):'gpu');
 if(parts()[0])activeCategory=parts()[0].cat;
@@ -86,7 +73,7 @@ if(page==='hardware'){
  for(const id of ['catalog-search','catalog-category','catalog-era','catalog-sort'])$('#'+id).addEventListener(id==='catalog-search'?'input':'change',()=>{limit=24;renderLibrary();});$('#catalog-more').addEventListener('click',()=>{limit+=36;renderLibrary();});
  document.addEventListener('click',e=>{const b=e.target.closest('[data-library-add]');if(!b)return;const id=b.dataset.libraryAdd;if(selected.includes(id))selected=selected.filter(x=>x!==id);else if(selected.length<4)selected.push(id);else{announce('Four parts selected. Remove one or open the comparison.');return;}try{sessionStorage.setItem('pcp-comparison',JSON.stringify(selected))}catch{}renderLibrary();document.querySelector(`[data-library-add="${id}"]`)?.focus();announce(`${selected.length} parts selected.`);});renderLibrary();
 }
-function enhanceBuilderPhotos(){if(page!=='builder')return;document.querySelectorAll('.builder-row[data-builder-row]').forEach(row=>{const slot=row.dataset.builderRow,p=buildParts(slot)[0];let el=row.querySelector('.builder-photo');if(el)el.remove();if(p&&photos[p.id]){el=document.createElement('a');el.className='builder-photo';el.href='/learn/'+p.id+'.html';el.setAttribute('aria-label','View '+p.name);el.innerHTML=photo(p,'')+`<span>${photoLabel(photos[p.id])}</span>`;row.querySelector('.builder-type').after(el);}});}
+function enhanceBuilderPhotos(){if(page!=='builder')return;document.querySelectorAll('.builder-row[data-builder-row]').forEach(row=>{const slot=row.dataset.builderRow,p=buildParts(slot)[0];let el=row.querySelector('.builder-photo');if(el)el.remove();if(p&&photos[p.id]){el=document.createElement('a');el.className='builder-photo';el.href='/learn/'+p.id+'.html';el.setAttribute('aria-label','View '+p.name);el.innerHTML=photo(p,'');row.querySelector('.builder-type').after(el);}});}
 if(page==='builder'){
  if(params.has('build')){pcBuild={};const values=params.get('build').split(',');buildSlotDefs.forEach((slot,i)=>{const ids=(values[i]||'').split('~').filter(id=>catalog.some(p=>p.id===id&&p.cat===slot.id));if(ids.length)pcBuild[slot.id]=['cpu','gpu','ram','ssd','hdd'].includes(slot.id)?ids:ids[0];});}if(params.get('compat')==='all')compatibleOnly=false;
  $('#enable-incompatible').addEventListener('change',e=>{compatibleOnly=!e.target.checked;renderBuilder();});
