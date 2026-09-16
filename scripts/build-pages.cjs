@@ -13,13 +13,14 @@ const groupName=id=>context.groups.find(g=>g[0]===id)?.[1]||id;
 
 function shell(title,route,body,options={}){
  const active=route==='record'||route==='guide'?'learn':route;
+ const interactive=['compare','hardware','builder'].includes(route);
  return `<!doctype html>
 <html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${esc(title)} · PC Part Performance</title><meta name="description" content="${esc(options.description||title+'. Compare specifications, explore product photos, and find compatible PC parts.')}">
-<meta name="theme-color" content="#101310"><meta name="color-scheme" content="dark light"><link rel="icon" href="/assets/favicon.svg" type="image/svg+xml"><script src="/theme.js"></script>
+<meta name="theme-color" content="#101310"><meta name="color-scheme" content="dark light"><link rel="icon" href="/assets/favicon.svg" type="image/svg+xml"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><script src="/theme.js"></script>
 ${route==='builder'?'<link rel="stylesheet" href="/builder-legacy.css">':''}<link rel="stylesheet" href="/design.css"><link rel="stylesheet" href="/refinement.css"><link rel="stylesheet" href="/motion.css">
-${['data','history-data','universe-data','component-data','core','image-catalog','interface'].map(f=>`<script src="/${f}.js" defer></script>`).join('\n')}
+<script src="/site-ui.js" defer></script>${interactive?'\n'+['data','history-data','universe-data','component-data','core','image-catalog','interface'].map(f=>`<script src="/${f}.js" defer></script>`).join('\n'):''}
 ${route==='builder'?'<script src="/builder-v2.js" defer></script>':''}<script src="/motion.js" defer></script>
 </head><body data-page="${route}"${options.category?` data-category="${options.category}"`:''}>
 <a class="skip" href="#main">Skip to content</a>

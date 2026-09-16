@@ -1,6 +1,6 @@
 # PC Part Performance
 
-A static hardware comparison site with dedicated comparison, catalog/category, PC builder, learning guides, and part pages. Supports persistent light/dark themes, fluid navigation, page transitions, theme reveal, comparison animations, and reduced-motion preferences.
+A static hardware comparison site with dedicated comparison, catalog/category, PC builder, learning guides, and part pages. Supports persistent light/dark themes, fluid navigation, page transitions, theme reveal, comparison animations, and reduced-motion preferences. Static pages load a small shared UI bundle; catalog data is downloaded only by interactive comparison, hardware, and builder routes.
 
 ## Build and host
 
@@ -20,4 +20,4 @@ The shared vector mark is in `dist/assets/logo.svg`; `scripts/build-pages.cjs` g
 
 ## Validation
 
-Comparison selection/replacement/removal, invalid IDs, the visual category menu, component-category comparison routes, theme persistence, catalog filtering, category pages, guide navigation, builder clear/starter behavior and builder photos passed DOM checks. A structural audit checked 1,119 pages, 31,314 internal link/asset references, one main heading per page, image alternative text, and complete photo coverage for all 1,104 catalog records. No browser visual testing was performed.
+Comparison selection/replacement/removal, invalid IDs, the visual category menu, component-category comparison routes, theme persistence, catalog filtering, category pages, guide navigation, builder clear/starter behavior and builder photos passed DOM checks. A structural audit checked 1,119 pages, 24,649 internal link/asset references, one main heading per page, image alternative text, and complete photo coverage for all 1,104 catalog records. No browser visual testing was performed.
