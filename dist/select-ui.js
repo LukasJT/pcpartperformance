@@ -32,7 +32,7 @@
     cursor = Math.max(0, Math.min(index, rows.length - 1));
     results.querySelectorAll('[role=option]').forEach((el, i) => el.classList.toggle('is-focused', i === cursor));
     const el = results.children[cursor];
-    if (rows.length && el) { search.setAttribute('aria-activedescendant', el.id); el.scrollIntoView({block:'nearest'}); }
+    if (rows.length && el) { search.setAttribute('aria-activedescendant', el.id); results.setAttribute('aria-activedescendant',el.id); el.scrollIntoView({block:'nearest'}); }
     else search.removeAttribute('aria-activedescendant');
   }
   function choose(index) {
@@ -66,7 +66,7 @@
     dialog.style.width = width + 'px'; dialog.style.maxHeight = maxHeight + 'px';
     dialog.style.left = Math.max(12, Math.min(rect.left, innerWidth - width - 12)) + 'px';
     dialog.style.top = Math.max(16, Math.min(rect.bottom + 8, innerHeight - maxHeight - 16)) + 'px';
-    dialog.showModal(); button.setAttribute('aria-expanded', 'true'); render(); search.focus();
+    dialog.showModal(); button.setAttribute('aria-expanded', 'true'); render(); results.tabIndex=0; results.focus({preventScroll:true});
   }
   function enhance() {
     if (!document?.querySelector('main')) return;
@@ -86,7 +86,8 @@
   }
   dialog.id = 'select-dialog';
   search.addEventListener('input',render);
-  search.addEventListener('keydown',event=>{
+  dialog.addEventListener('keydown',event=>{
+    if(event.target!==search&&event.target!==results)return;
     if (['ArrowDown','ArrowUp','Home','End','Enter'].includes(event.key)) {
       event.preventDefault();
       if(event.key==='Enter')choose(cursor);else activate(event.key==='Home'?0:event.key==='End'?rows.length-1:cursor+(event.key==='ArrowDown'?1:-1));

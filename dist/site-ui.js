@@ -23,3 +23,9 @@ themeButton?.addEventListener('click',event=>{
   transition.finished.finally(()=>document.documentElement.classList.remove('theme-transition')).catch(()=>{});
 });
 updateThemeLabel();
+/* Text arrows can render as emoji on iOS. Use the same vector icon everywhere. */
+(()=>{
+const paths={'↗':'M7 17 17 7M7 7h10v10','→':'M4 12h16m-6-6 6 6-6 6','←':'M20 12H4m6-6-6 6 6 6'};
+function replace(root){if(!root||!root.isConnected)return;const texts=[];if(root.nodeType===3)texts.push(root);else{const walk=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);while(walk.nextNode())texts.push(walk.currentNode)}for(const node of texts){if(!/[↗→←]/.test(node.textContent)||node.parentElement?.closest('script,style,textarea,option,svg'))continue;const frag=document.createDocumentFragment();for(const str of node.textContent.split(/([↗→←])/)){if(!paths[str])frag.append(document.createTextNode(str));else{const svg=document.createElementNS('http://www.w3.org/2000/svg','svg');svg.setAttribute('viewBox','0 0 24 24');svg.setAttribute('class','link-icon');svg.setAttribute('fill','none');svg.setAttribute('stroke','currentColor');svg.setAttribute('stroke-width','1.7');svg.setAttribute('aria-hidden','true');const path=document.createElementNS(svg.namespaceURI,'path');path.setAttribute('d',paths[str]);svg.append(path);frag.append(svg)}}node.replaceWith(frag)}}
+replace(document.body);new MutationObserver(records=>{for(const r of records){if(r.type==='characterData')replace(r.target);else for(const node of r.addedNodes)if(node.nodeType===3||node.nodeType===1&&!node.closest('svg'))replace(node)}}).observe(document.body,{subtree:true,childList:true,characterData:true});
+})();

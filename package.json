@@ -3,6 +3,6 @@
   "private": true,
   "scripts": {
     "build": "node scripts/build-pages.cjs",
-    "prices:refresh": "node scripts/refresh-prices.cjs"
+    "prices:refresh": "node --use-system-ca scripts/refresh-prices.cjs"
   }
 }
