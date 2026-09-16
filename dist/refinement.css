@@ -94,6 +94,9 @@ body[data-page=builder] .builder-selected-item>span{white-space:normal;overflow:
 body[data-page=builder] .builder-selected-item button{flex-shrink:0}
 body[data-page=builder] .build-spec{flex-wrap:wrap;gap:6px 16px}
 body[data-page=builder] .build-spec strong{overflow-wrap:anywhere;max-width:100%}
+body[data-page=builder] .site-header{height:82px;min-height:82px;background:transparent}
+body[data-page=builder] .site-header nav,body[data-page=builder] .site-header nav a{height:auto}
+body[data-page=builder] .site-header nav a{display:flex;align-items:center}
 
 @media(max-width:900px){
   .site-header{height:auto;min-height:125px;flex-wrap:wrap;justify-content:space-between;padding-top:16px;padding-bottom:12px;gap:12px}
