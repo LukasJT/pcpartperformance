@@ -75,6 +75,7 @@ body[data-page=builder] .builder-row.is-linked{background:color-mix(in srgb,var(
 body[data-page=builder] .builder-rail{position:sticky;top:18px;gap:18px}
 body[data-page=builder] .builder-analysis,body[data-page=builder] .assembly-panel{border-radius:10px;box-shadow:0 8px 30px #00000008}
 body[data-page=builder] .builder-analysis{padding:22px}
+body[data-page=builder] .builder-fps-link{width:100%;margin-top:18px;min-height:42px;font-size:.75rem}
 body[data-page=builder] .analysis-block summary{padding-block:15px}
 body[data-page=builder] .pc-visual-head{padding:21px 22px 2px}
 body[data-page=builder] .pc-visual-status{padding:0 22px 20px}
