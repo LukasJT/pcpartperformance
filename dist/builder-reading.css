@@ -1,0 +1,35 @@
+/* Shared editorial typography, with the parts list as the main working surface. */
+body[data-page=builder]{font-family:'DM Sans',sans-serif;--mono:'DM Sans',sans-serif}
+body[data-page=builder] main :is(button,input,select,summary){font-family:inherit}
+body[data-page=builder] .page-heading h1{font-size:clamp(2rem,4vw,3rem);font-weight:700;letter-spacing:-.035em;line-height:1.15}
+body[data-page=builder] .page-heading p{font-size:1rem;line-height:1.65}
+body[data-page=builder] .builder-column-head{height:auto;min-height:56px;font-family:inherit;font-size:1rem;font-weight:700;text-transform:none;letter-spacing:0;flex-wrap:wrap;color:var(--ink)}
+body[data-page=builder] .builder-column-head>span:last-child{font-size:.875rem;color:var(--muted)}
+body[data-page=builder] .builder-index{border:0;font-family:inherit;font-size:.875rem;line-height:1.5;font-weight:600;color:var(--muted);height:auto}
+body[data-page=builder] .builder-row{padding:26px 22px;column-gap:18px;row-gap:16px}
+body[data-page=builder] .builder-type strong{font-size:1.0625rem;font-weight:700;line-height:1.4}
+body[data-page=builder] .builder-type small{font-size:.875rem;line-height:1.5;margin-top:5px}
+body[data-page=builder] .select-trigger{font-size:1rem;font-weight:500;min-height:50px;padding:12px 14px;gap:14px}
+body[data-page=builder] .builder-row>.modern-select,body[data-page=builder] .builder-multi-control{max-width:420px}
+body[data-page=builder] .builder-analysis{padding:28px;color:var(--ink)}
+body[data-page=builder] .verdict-code{font:600 .875rem/1.5 'DM Sans',sans-serif;letter-spacing:0;text-transform:none;color:var(--muted)}
+body[data-page=builder] #build-verdict .verdict-line strong{font-size:1.375rem;line-height:1.35;font-weight:700;letter-spacing:-.02em}
+body[data-page=builder] .verdict-line{align-items:flex-start;margin:12px 0}.verdict-line .status-dot{margin-top:9px}
+body[data-page=builder] .builder-analysis>div:first-child p{font-size:.9375rem;line-height:1.7;color:var(--muted)}
+body[data-page=builder] :is(.analysis-block h3,.analysis-block summary){font:600 1rem/1.5 'DM Sans',sans-serif;letter-spacing:0;text-transform:none;color:var(--ink)}
+body[data-page=builder] .check-row{gap:12px;margin:18px 0}
+body[data-page=builder] .check-row strong{font-size:.9375rem;line-height:1.5;font-weight:600}
+body[data-page=builder] .check-row small{font-size:.875rem;line-height:1.6;margin-top:4px;color:var(--muted)}
+body[data-page=builder] .check-mark{margin-top:3px}
+body[data-page=builder] .build-spec{padding:12px 0;gap:20px}
+body[data-page=builder] .build-spec :is(span,strong){font-family:inherit;font-size:.9375rem;line-height:1.5}
+body[data-page=builder] :is(.performance-note,.builder-limit,.builder-toolbar,.performance-lead span,.profile-score span,.profile-score small,.profile-bars>div,.pc-visual-status,.assembly-legend,.assembly-legend button,.assembly-toolbar>span){font-size:.875rem;line-height:1.6;letter-spacing:0;text-transform:none}
+body[data-page=builder] :is(.pc-visual-head h3,.performance-lead strong){font-size:1.125rem;font-weight:700;line-height:1.4}
+body[data-page=builder] :is(.pc-visual-head p,#pc-visual-count,.assembly-view-switch button,.assembly-product small,.assembly-product>span>span,.assembly-empty span){font-size:.875rem;line-height:1.6}
+body[data-page=builder] .assembly-product strong{font-size:1rem;line-height:1.5}
+body[data-page=builder] .builder-parts,body[data-page=builder] .builder-analysis,body[data-page=builder] .assembly-panel{border-radius:10px}
+@media(max-width:760px){body[data-page=builder] .builder-row{padding:22px 16px;column-gap:12px}body[data-page=builder] .builder-analysis{padding:22px}body[data-page=builder] .builder-column-head{padding:16px}body[data-page=builder] .builder-column-head>span:last-child{width:100%}}
+
+body[data-page=builder] .builder-heading{padding-top:24px;margin-top:0}body[data-page=builder] .builder-heading h1{font-size:clamp(2rem,4vw,3rem);font-weight:700;line-height:1.15}body[data-page=builder] .builder-heading p{font-size:1rem;line-height:1.65}body[data-page=builder] :is(.eyebrow,.shopping-summary-label){font-family:inherit;font-size:.875rem;letter-spacing:0;text-transform:none;font-weight:600}body[data-page=builder] .select-option{font-size:1rem}body[data-page=builder] .select-hint{font-size:.875rem}
+
+body[data-page=builder] .builder{padding-top:0;margin-top:0}body[data-page=builder] .builder-heading{padding-top:24px}body[data-page=builder] .builder-heading .eyebrow{display:none}
