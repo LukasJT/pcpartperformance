@@ -11,7 +11,8 @@ const choose=(select,wanted,fallback)=>select.value=[...select.options].some(o=>
 choose(gpuSelect,params.get('gpu'),'rtx5070');choose(cpuSelect,params.get('cpu'),'9800x3d');choose(gameSelect,params.get('game'),'fortnite');
 
 let gameQuery='',gameGenre='all',showAll=false,consoleFamily='all';
-const genreOrder=['all','Esports','Shooter','Battle royale','Open world','RPG','Action RPG','Survival','Simulation','Sandbox'];
+const consoleModels=new Set();
+const genreOrder=['all',...new Set(games.map(g=>g.genre).sort())];
 const resolutionLabel=v=>v==='2160'?'4K':v+'p';
 function estimate(game,gpu,cpu){
  const resolution=$('#fps-resolution').value,quality=$('#fps-quality').value,upscale=$('#fps-upscale').value;
@@ -37,24 +38,47 @@ function renderLibrary(gpu,cpu){
 function calculate(){
  const gpu=gpus.find(p=>p.id===gpuSelect.value),cpu=cpus.find(p=>p.id===cpuSelect.value),game=games.find(g=>g.id===gameSelect.value);if(!gpu||!cpu||!game)return;
  const e=estimate(game,gpu,cpu),resolution=$('#fps-resolution').value,quality=$('#fps-quality').value,upscale=$('#fps-upscale').value,width=Math.min(100,e.average/240*100);
- $('#fps-result').innerHTML=`<div class="result-game-art">${image(game)}<span class="result-art-shade"></span><div><small>${esc(game.series)} · ${game.year}</small><h2>${esc(game.name)}</h2><span>${esc(game.genre)}</span></div></div><div class="fps-result-body"><div class="fps-result-top"><span class="eyebrow">LIVE MODEL / SELECTED HARDWARE</span><span class="fps-rating">${rating(e.average)}</span></div><div class="fps-number"><strong>${e.low}–${e.high}</strong><span>FPS</span></div><p class="fps-combo">${resolutionLabel(resolution)} · ${quality[0].toUpperCase()+quality.slice(1)} · ${upscale==='native'?'Native':upscale+' upscaling'}</p><div class="fps-meter"><i style="width:${width}%"></i><span style="left:25%">60</span><span style="left:50%">120</span><span style="left:100%">240</span></div><div class="fps-stats"><div><span>Average</span><strong>${Math.round(e.average)} FPS</strong></div><div><span>1% low</span><strong>${e.oneLow} FPS</strong></div><div><span>Frame time</span><strong>${e.frame} ms</strong></div><div><span>Likely limit</span><strong>${e.limited}</strong></div></div>${e.warn?`<p class="fps-warning">${esc(e.warn)}</p>`:''}<div class="fps-hardware"><span><small>GPU</small><strong>${esc(gpu.name)}</strong></span><span><small>CPU</small><strong>${esc(cpu.name)}</strong></span></div><p class="fps-disclaimer">Calculated performance range. Drivers, game patches, memory and exact scenes can change real results.</p></div>`;
+ $('#fps-result').innerHTML=`<div class="result-game-art">${image(game)}<span class="result-art-shade"></span><div><small>${esc(game.series)} · ${game.year}</small><h2>${esc(game.name)}</h2><span>${esc(game.genre)}</span></div></div><div class="fps-result-body"><div class="fps-result-top"><span class="eyebrow">ESTIMATED PERFORMANCE</span><span class="fps-rating">${rating(e.average)}</span></div><div class="fps-number"><strong>${e.low}–${e.high}</strong><span>FPS</span></div><p class="fps-combo">${resolutionLabel(resolution)} · ${quality[0].toUpperCase()+quality.slice(1)} · ${upscale==='native'?'Native':upscale+' upscaling'}</p><div class="fps-meter"><i style="width:${width}%"></i><span style="left:25%">60</span><span style="left:50%">120</span><span style="left:100%">240</span></div><div class="fps-stats"><div><span>Average</span><strong>${Math.round(e.average)} FPS</strong></div><div><span>1% low</span><strong>${e.oneLow} FPS</strong></div><div><span>Frame time</span><strong>${e.frame} ms</strong></div><div><span>Likely limit</span><strong>${e.limited}</strong></div></div>${e.warn?`<p class="fps-warning">${esc(e.warn)}</p>`:''}<div class="fps-hardware"><span><small>GPU</small><strong>${esc(gpu.name)}</strong></span><span><small>CPU</small><strong>${esc(cpu.name)}</strong></span></div><p class="fps-disclaimer">Calculated performance range. Drivers, game patches, memory and exact scenes can change real results.</p></div>`;
  const url=new URL(location.href);url.searchParams.set('gpu',gpu.id);url.searchParams.set('cpu',cpu.id);url.searchParams.set('game',game.id);history.replaceState(null,'',url);renderLibrary(gpu,cpu);bindImageFallbacks($('#fps-result'));
 }
 
 $('#fps-controls').addEventListener('change',calculate);
 $('#game-search').addEventListener('input',event=>{gameQuery=event.target.value;showAll=true;calculate()});
 $('#game-show-all').addEventListener('click',()=>{showAll=true;calculate()});
-$('#game-genres').innerHTML=genreOrder.map((g,i)=>`<button type="button" class="${i===0?'active':''}" data-game-genre="${esc(g)}">${g==='all'?'All games':esc(g)}</button>`).join('');
-$$('[data-game-genre]').forEach(button=>button.addEventListener('click',()=>{gameGenre=button.dataset.gameGenre;showAll=true;$$('[data-game-genre]').forEach(b=>b.classList.toggle('active',b===button));calculate()}));
+$('#game-genres').innerHTML=genreOrder.map((g,i)=>`<button type="button" class="${i===0?'active':''}" aria-pressed="${i===0}" data-game-genre="${esc(g)}">${g==='all'?'All games':esc(g)}</button>`).join('');
+$$('[data-game-genre]').forEach(button=>button.addEventListener('click',()=>{gameGenre=button.dataset.gameGenre;showAll=true;$$('[data-game-genre]').forEach(b=>{b.classList.toggle('active',b===button);b.setAttribute('aria-pressed',String(b===button))});calculate()}));
 
 $$('[data-fps-view]').forEach(button=>button.addEventListener('click',()=>{const view=button.dataset.fpsView;$$('[data-fps-view]').forEach(b=>b.setAttribute('aria-selected',String(b===button)));$('#pc-fps-view').hidden=view!=='pc';$('#console-fps-view').hidden=view!=='console';const url=new URL(location.href);url.searchParams.set('view',view);history.replaceState(null,'',url)}));
 function consoleArt(x){const game=games.find(g=>g.id===x.gameId);return x.art||game?.art||''}
-function renderConsoles(){
- const q=$('#console-search').value.trim().toLowerCase(),rows=consoles.filter(x=>(consoleFamily==='all'||x.family===consoleFamily)&&`${x.system} ${x.game}`.toLowerCase().includes(q));
- $('#console-count').textContent=`${rows.length} documented platform mode${rows.length===1?'':'s'}`;
- $('#console-results').innerHTML=rows.map(x=>{const art=consoleArt(x);return `<article class="console-card"><div class="console-art">${art?`<img src="${esc(art)}" alt="${esc(x.game)} artwork" loading="lazy" decoding="async">`:''}<span>${esc(x.family)}</span></div><div class="console-card-body"><div class="console-card-head"><div><h3>${esc(x.game)}</h3><p>${esc(x.system)}</p></div><span class="console-badge">${esc(x.badge)}</span></div><div class="console-modes">${x.modes.map(m=>`<div><span><strong>${esc(m[0])}</strong><small>${esc(m[1])}</small></span><strong>${esc(m[2])}</strong></div>`).join('')}</div><a href="${esc(x.source)}" target="_blank" rel="noopener noreferrer">Source details</a></div></article>`}).join('')||'<p class="console-empty">No matching console game. Try another search.</p>';bindImageFallbacks($('#console-results'));
+function consoleIcon(x){
+ const s=x.system;let shape;
+ if(/Switch/.test(s))shape='<rect x="6" y="16" width="52" height="30" rx="7"/><rect x="17" y="20" width="30" height="22" rx="2"/><path d="M11 23v8m-4-4h8"/><circle cx="53" cy="28" r="2"/>';
+ else if(/Wii U/.test(s))shape='<rect x="5" y="18" width="54" height="29" rx="8"/><rect x="16" y="22" width="32" height="19" rx="2"/><circle cx="11" cy="29" r="2"/><circle cx="53" cy="29" r="2"/>';
+ else if(/Wii/.test(s))shape='<path d="M20 9h23v44H20zM25 48h13M29 18v20"/><circle cx="37" cy="15" r="1"/>';
+ else if(/PlayStation 5/.test(s))shape='<path d="M20 8q5 20 0 46l10-3h5l10 3q-5-26 0-46l-10 5h-5zM30 14v37m5-37v37"/>';
+ else if(/PlayStation/.test(s))shape='<path d="m12 22 37-6 5 11-38 6zm4 11 38-6v12l-38 7zM17 39l30-5"/>';
+ else if(/Series S/.test(s)&&!/Series X/.test(s))shape='<rect x="18" y="8" width="28" height="47" rx="3"/><circle cx="32" cy="25" r="10"/><circle cx="39" cy="49" r="1"/>';
+ else if(/Series X/.test(s))shape='<path d="m20 12 20-5 8 7v39l-21 4-7-6zm0 0 7 7 21-5M27 19v38"/><circle cx="41" cy="24" r="2"/>';
+ else shape='<rect x="9" y="19" width="46" height="28" rx="3"/><path d="M12 33h40M16 39h20"/><circle cx="47" cy="40" r="2"/>';
+ return '<svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true">'+shape+'</svg>';
 }
-$$('[data-console-family]').forEach(button=>button.addEventListener('click',()=>{consoleFamily=button.dataset.consoleFamily;$$('[data-console-family]').forEach(b=>b.classList.toggle('active',b===button));renderConsoles()}));
+function renderModels(){
+ const systems=[...new Set(consoles.filter(x=>consoleFamily==='all'||x.family===consoleFamily).map(x=>x.system))];
+ for(const model of consoleModels)if(!systems.includes(model))consoleModels.delete(model);
+ $('#console-models').innerHTML=systems.map(s=>'<label><input type="checkbox" value="'+esc(s)+'" '+(consoleModels.has(s)?'checked':'')+'><span>'+esc(s)+'</span></label>').join('');
+ $('#console-models').querySelectorAll('input').forEach(input=>input.addEventListener('change',()=>{input.checked?consoleModels.add(input.value):consoleModels.delete(input.value);renderConsoles()}));
+}
+function renderConsoles(){
+ const q=$('#console-search').value.trim().toLowerCase(),high=$('#console-high-fps').checked;
+ const rows=consoles.filter(x=>(consoleFamily==='all'||x.family===consoleFamily)&&(!consoleModels.size||consoleModels.has(x.system))&&(!high||x.modes.some(m=>parseInt(m[2].replace(/[^0-9]/g,''),10)>=60))&&`${x.system} ${x.game}`.toLowerCase().includes(q));
+ $('#console-count').textContent=rows.length+' game and console combinations';
+ $('#console-results').innerHTML=rows.map(x=>{const art=consoleArt(x);return `<article class="console-card"><header class="console-platform" data-platform="${esc(x.family)}">${consoleIcon(x)}<div><small>${esc(x.family)}</small><strong>${esc(x.system)}</strong></div></header><div class="console-art">${art?`<img src="${esc(art)}" alt="${esc(x.game)} artwork" loading="lazy" decoding="async">`:''}</div><div class="console-card-body"><h3>${esc(x.game)}</h3><div class="console-modes">${x.modes.map(m=>`<div><span><strong>${esc(m[0])}</strong><small>${esc(m[1])}</small></span><strong>${esc(m[2])}</strong></div>`).join('')}</div><a href="${esc(x.source)}" target="_blank" rel="noopener noreferrer">View performance source</a></div></article>`}).join('')||'<p class="console-empty">No games match. Try another console or clear your filters.</p>';
+ bindImageFallbacks($('#console-results'));
+}
+$$('[data-console-family]').forEach(button=>{button.setAttribute('aria-pressed',String(button.dataset.consoleFamily==='all'));button.addEventListener('click',()=>{consoleFamily=button.dataset.consoleFamily;$$('[data-console-family]').forEach(b=>{b.classList.toggle('active',b===button);b.setAttribute('aria-pressed',String(b===button))});renderModels();renderConsoles()})});
+$('#console-high-fps').addEventListener('change',renderConsoles);
+$('#console-reset').addEventListener('click',()=>{consoleModels.clear();$('#console-search').value='';$('#console-high-fps').checked=false;$('[data-console-family="all"]').click()});
+renderModels();
 $('#console-search').addEventListener('input',renderConsoles);renderConsoles();calculate();
 if(params.get('view')==='console')$('[data-fps-view="console"]').click();
 })();
