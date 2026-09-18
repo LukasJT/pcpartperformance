@@ -3,6 +3,8 @@
   "private": true,
   "scripts": {
     "build": "node scripts/build-pages.cjs",
-    "prices:refresh": "node --use-system-ca scripts/refresh-prices.cjs"
+    "prices:refresh": "node --use-system-ca scripts/refresh-prices.cjs",
+    "models:build": "node scripts/build-model-library.cjs && node scripts/generate-models.mjs",
+    "check:blog-models": "node scripts/check-blog-models.cjs"
   }
 }
