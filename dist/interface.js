@@ -7,7 +7,7 @@ const validIDs=list=>[...new Set(list)].filter(id=>catalog.some(p=>p.id===id)).s
 const series=['var(--chart-a)','var(--chart-b)','var(--chart-c)','var(--chart-d)'];
 const photoLabel=a=>"";
 const shortName=p=>p.name.replace('GeForce ','').replace('Radeon ','');
-const categoryHelp={board:'CPU sockets and expansion',hdd:'High-capacity storage',psu:'Power and connectors',case:'Size and component clearance',monitor:'Resolution and refresh rate',mouse:'Shape, sensor, and weight',keyboard:'Layout and switch type',microphone:'Connection and recording pattern',headset:'Audio and microphone features',controller:'Platform and connection',console:'Console generations',phone:'Mobile hardware',handheld:'Portable gaming systems'};
+const categoryHelp={fan:'Fan sizes, lighting and connections',board:'CPU sockets and expansion',hdd:'High-capacity storage',psu:'Power and connectors',case:'Size and component clearance',monitor:'Resolution and refresh rate',mouse:'Shape, sensor, and weight',keyboard:'Layout and switch type',microphone:'Connection and recording pattern',headset:'Audio and microphone features',controller:'Platform and connection',console:'Console generations',phone:'Mobile hardware',handheld:'Portable gaming systems'};
 function announce(message){$('#toast').textContent=message;$('#toast').classList.add('show');clearTimeout(announce.timer);announce.timer=setTimeout(()=>$('#toast').classList.remove('show'),3500);}
 function renderEvent(scope){document.dispatchEvent(new CustomEvent('pcp:render',{detail:{scope}}));}
 function photo(p,cls='',caption=false){const a=photos[p.id];if(!a)return `<div class="photo-unavailable"><span>${escapeHTML(p.brand)}</span><strong>${escapeHTML(p.architecture)}</strong></div>`;const alt=a.picturedModel;return `<figure class="hardware-photo ${cls}"><img src="${a.src}" alt="${escapeHTML(alt)}" width="800" height="500" decoding="async" loading="lazy"></figure>`;}
@@ -75,7 +75,7 @@ if(page==='hardware'){
 }
 function enhanceBuilderPhotos(){if(page!=='builder')return;document.querySelectorAll('.builder-row[data-builder-row]').forEach(row=>{const slot=row.dataset.builderRow,p=buildParts(slot)[0];let el=row.querySelector('.builder-photo');if(el)el.remove();if(p&&photos[p.id]){el=document.createElement('a');el.className='builder-photo';el.href='/learn/'+p.id+'.html';el.setAttribute('aria-label','View '+p.name);el.innerHTML=photo(p,'');row.querySelector('.builder-type').after(el);}});}
 if(page==='builder'){
- if(params.has('build')){pcBuild={};const values=params.get('build').split(',');buildSlotDefs.forEach((slot,i)=>{const ids=(values[i]||'').split('~').filter(id=>catalog.some(p=>p.id===id&&p.cat===slot.id));if(ids.length)pcBuild[slot.id]=['cpu','gpu','ram','ssd','hdd'].includes(slot.id)?ids:ids[0];});}if(params.get('compat')==='all')compatibleOnly=false;
+ if(params.has('build')){pcBuild={};const values=params.get('build').split(',');buildSlotDefs.forEach((slot,i)=>{const ids=(values[i]||'').split('~').filter(id=>catalog.some(p=>p.id===id&&p.cat===slot.id));if(ids.length)pcBuild[slot.id]=['cpu','gpu','ram','ssd','hdd','fan'].includes(slot.id)?ids:ids[0];});}if(params.get('compat')==='all')compatibleOnly=false;
  $('#enable-incompatible').addEventListener('change',e=>{compatibleOnly=!e.target.checked;renderBuilder();});
 }
 if(location.hash){const target=document.getElementById(location.hash.slice(1));if(target?.tagName==='DETAILS')target.open=true;}

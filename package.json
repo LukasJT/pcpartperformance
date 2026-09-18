@@ -5,6 +5,9 @@
     "build": "node scripts/build-pages.cjs",
     "prices:refresh": "node --use-system-ca scripts/refresh-prices.cjs",
     "models:build": "node scripts/build-model-library.cjs && node scripts/generate-models.mjs",
-    "check:blog-models": "node scripts/check-blog-models.cjs"
+    "check:blog-models": "node scripts/check-blog-models.cjs",
+    "check:seo": "node scripts/check-seo.cjs",
+    "check:cooling": "node scripts/check-cooling.cjs",
+    "catalog:retail": "node scripts/expand-retail.cjs"
   }
 }

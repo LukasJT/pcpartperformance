@@ -1,0 +1,12 @@
+const fs=require('fs'),path=require('path'),assert=require('node:assert/strict');
+const root=path.resolve('dist'),domain='https://www.pcpartperformance.com',pages=[];
+function walk(d){for(const e of fs.readdirSync(d,{withFileTypes:true})){const f=path.join(d,e.name);if(e.isDirectory())walk(f);else if(e.name.endsWith('.html'))pages.push(f)}}walk(root);
+let checked=0,links=0,aliases=0;const titles=new Map(),sitemap=fs.readFileSync(path.join(root,'sitemap.xml'),'utf8');
+for(const file of pages){const h=fs.readFileSync(file,'utf8');if(h.includes('data-legacy-redirect'))continue;checked++;const route='/'+path.relative(root,file).replaceAll('\\','/').replace(/index\.html$/,'');
+for(const [label,re]of [['h1',/<h1[ >]/g],['title',/<title>/g],['description',/<meta name="description"/g],['canonical',/rel="canonical"/g],['robots',/<meta name="robots"/g],['Open Graph title',/property="og:title"/g],['Twitter title',/name="twitter:title"/g]])assert.equal([...h.matchAll(re)].length,1,route+' '+label);
+const canonical=h.match(/<link rel="canonical" href="([^"]+)"/)[1],noindex=h.includes('content="noindex,follow"'),isAlias=canonical!==domain+route;assert.ok(canonical.startsWith(domain+'/'));if(isAlias)aliases++;
+if(!isAlias&&!noindex){const title=h.match(/<title>(.*?)<\/title>/)[1];assert.ok(!titles.has(title),route+' duplicate canonical title: '+titles.get(title));titles.set(title,route);assert.ok(sitemap.includes('<loc>'+domain+route+'</loc>'),route+' missing sitemap')}else assert.ok(!sitemap.includes('<loc>'+domain+route+'</loc>'),route+' excluded page in sitemap');
+for(const m of h.matchAll(/<script type="application\/ld\+json">(.*?)<\/script>/g))JSON.parse(m[1]);
+for(const m of h.matchAll(/(?:href|src)="(\/(?!\/)[^"?#]*)(?:[?#][^"]*)?"/g)){links++;let f=path.join(root,decodeURIComponent(m[1]));if(fs.existsSync(f)&&fs.statSync(f).isDirectory())f=path.join(f,'index.html');assert.ok(fs.existsSync(f),route+' broken local URL '+m[1])}
+}
+const report={pages:checked,localLinks:links,canonicalProductAliases:aliases,indexablePages:titles.size,checks:['Single title, description, H1, canonical, robots, Open Graph title and Twitter title','Unique titles for canonical indexable pages','Sitemap matches canonical indexing policy','Structured data parses as JSON','Local page, stylesheet, script and image references resolve']};fs.writeFileSync('docs/seo-validation.json',JSON.stringify(report,null,2));console.log(report);

@@ -1,6 +1,6 @@
 const fs=require('fs'),path=require('path');
 const map={'/learn/':'/blog/','/learn/gpu/':'/blog/how-to-choose-a-graphics-card/','/learn/cpu/':'/blog/how-to-choose-a-processor/','/learn/ram/':'/blog/understanding-pc-memory/','/learn/ssd/':'/blog/choosing-an-ssd/'};
-for(const a of [...require('./feature-articles.cjs'),...require('./blog-additions.cjs')])map['/learn/'+a.slug+'/']='/blog/'+a.slug+'/';
+for(const a of [...require('./feature-articles.cjs'),...require('./blog-additions.cjs'),...require('./ai-articles.cjs')])map['/learn/'+a.slug+'/']='/blog/'+a.slug+'/';
 exports.destination=route=>map[route]||route;
 exports.redirects=root=>{
  const file=path.join(root,'_redirects');let previous=fs.existsSync(file)?fs.readFileSync(file,'utf8'):'';previous=previous.replace(/# Blog migration start[\s\S]*?# Blog migration end\n?/,'');

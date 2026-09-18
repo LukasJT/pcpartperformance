@@ -18,7 +18,7 @@ const buildSlotDefs=[
  {id:'ram',label:'Memory kit',required:true},{id:'ssd',label:'Solid-state drive',required:false},{id:'hdd',label:'Hard drive',required:false},{id:'psu',label:'Power supply',required:true},{id:'case',label:'PC case',required:true}
 ];
 const multiBuildSlots=new Set(['ram','ssd','hdd']);
-const starterBuild={cpu:'9800x3d',board:'b650',gpu:'rtx4080s',ram:['ddr5'],ssd:['990pro'],hdd:['barracuda2'],psu:'rm850x',case:'x-case-fractal-design-north'};
+const starterBuild={cpu:'9800x3d',board:'b650',gpu:'retail-msi-geforce-rtx-3060-gaming-x-trio-12g',ram:['ddr5'],ssd:['990pro'],hdd:['barracuda2'],psu:'rm850x',case:'retail-lian-li-o11-air-mini-black',fan:['retail-lian-li-uni-fan-tl-120-wireless-black','retail-lian-li-uni-fan-tl-120-wireless-black']};
 const cloneStarter=()=>Object.fromEntries(Object.entries(starterBuild).map(([slot,value])=>[slot,Array.isArray(value)?[...value]:value]));
 let pcBuild={},compatibleOnly=true;
 const $=(s)=>document.querySelector(s);

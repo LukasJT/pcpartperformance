@@ -1,0 +1,54 @@
+/* Builder workspace: separate selection, preview and validation surfaces. */
+body[data-page=builder] main{max-width:1500px;padding-top:38px}
+body[data-page=builder] .builder-heading{align-items:center;margin-bottom:28px;gap:24px}
+body[data-page=builder] .builder-heading h1{font-size:clamp(2rem,4vw,3.2rem);line-height:1.1;letter-spacing:-.04em;margin-bottom:16px}
+body[data-page=builder] .builder-heading p{font-size:1.05rem;line-height:1.65;max-width:580px}
+body[data-page=builder] .builder-toolbar{padding:18px 22px;margin:0 0 28px;background:var(--surface);border:1px solid var(--line);border-radius:14px}
+body[data-page=builder] .builder-shell{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.06fr);gap:32px;border:0;background:none;overflow:visible;align-items:start}
+body[data-page=builder] .builder-parts{border:0;background:none;min-width:0}
+body[data-page=builder] .builder-column-head{padding:0 0 18px;border:0;background:none;min-height:0}
+body[data-page=builder] .builder-column-head span:last-child{display:none}
+body[data-page=builder] #builder-parts{display:grid;gap:18px}
+body[data-page=builder] .builder-row{display:grid!important;grid-template-columns:32px minmax(0,1fr) 88px!important;gap:18px!important;padding:24px!important;margin:0!important;border:1px solid var(--line)!important;border-radius:16px;background:var(--surface);min-width:0;transition:border-color .18s,box-shadow .18s}
+body[data-page=builder] .builder-row:hover{border-color:var(--accent-ink)!important;box-shadow:0 8px 24px #12355b0c}
+body[data-page=builder] .builder-row.is-linked{border-color:var(--accent-ink)!important;box-shadow:0 0 0 2px color-mix(in srgb,var(--accent-ink) 16%,transparent)}
+body[data-page=builder] .builder-index{grid-column:1;grid-row:1;align-self:center;color:var(--accent-ink)}
+body[data-page=builder] .builder-type{grid-column:2;grid-row:1;min-width:0;gap:12px}
+body[data-page=builder] .builder-type svg{width:26px;height:26px;color:var(--accent-ink);flex-shrink:0}
+body[data-page=builder] .builder-type strong{font-size:1.12rem;line-height:1.35;letter-spacing:0}
+body[data-page=builder] .builder-type small{font-size:.82rem;line-height:1.5;margin-top:5px;color:var(--muted)}
+body[data-page=builder] .builder-row>.builder-multi-control,body[data-page=builder] .builder-row>.modern-select{grid-column:1/-1!important;grid-row:2!important;width:100%;max-width:none;margin:0!important}
+body[data-page=builder] .builder-row .builder-photo{grid-column:3!important;grid-row:1!important;position:static!important;width:88px!important;margin:0!important;align-self:center}
+body[data-page=builder] .builder-photo img{max-width:88px;max-height:68px;object-fit:contain}
+body[data-page=builder] .builder-row-state{display:none!important}
+body[data-page=builder] .part-buying{grid-column:1/-1!important;margin:0!important;border-top:1px solid var(--line);padding-top:14px}
+body[data-page=builder] .select-trigger{border-radius:10px;min-height:56px;padding:13px 15px;gap:16px;background:var(--bg);font-size:.96rem;line-height:1.5;font-weight:600}
+body[data-page=builder] .select-chevron{flex:0 0 28px;width:28px;margin-left:auto;border:0}
+body[data-page=builder] .builder-selected-items{margin:10px 0}
+body[data-page=builder] .builder-rail{display:flex;flex-direction:column;gap:24px;position:sticky;top:104px;background:none;border:0;padding:0;min-width:0}
+body[data-page=builder] .assembly-panel{order:-1;margin:0;border:1px solid var(--line);border-radius:18px;overflow:hidden;background:var(--surface)}
+body[data-page=builder] .pc-visual-head{padding:24px 26px;gap:18px;background:linear-gradient(110deg,color-mix(in srgb,var(--accent-ink) 10%,var(--surface)),var(--surface));border-bottom:1px solid var(--line)}
+body[data-page=builder] .pc-visual-head h3{font-size:1.3rem;font-weight:700;letter-spacing:-.02em}
+body[data-page=builder] .pc-visual-head p{font-size:.88rem;margin-top:7px;line-height:1.5}
+body[data-page=builder] .scene-stage{height:470px;background:radial-gradient(ellipse at 50% 40%,color-mix(in srgb,var(--accent-ink) 12%,var(--surface)),var(--bg))}
+.scene-stage.is-empty:after{content:attr(data-empty-message);position:absolute;inset:30%;width:65%;left:17.5%;display:grid;place-content:center;text-align:center;font-size:1rem;line-height:1.7;color:var(--muted);pointer-events:none}
+body[data-page=builder] .scene-toggles{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;font-size:.87rem}
+body[data-page=builder] .scene-components{grid-template-columns:repeat(3,minmax(0,1fr))}
+body[data-page=builder] .scene-components button{font-size:.82rem;padding:10px 9px}
+body[data-page=builder] .scene-inspector{padding:14px 18px;margin:18px 20px}
+body[data-page=builder] .scene-notes{margin:16px 20px}
+body[data-page=builder] .builder-analysis,body[data-page=builder] .shopping-summary{border:1px solid var(--line);border-radius:16px;padding:24px;background:var(--surface);margin:0}
+body[data-page=builder] .verdict-code,body[data-page=builder] .shopping-summary :is(.eyebrow,.section-label){font:600 .9rem/1.5 inherit;letter-spacing:0;text-transform:none;color:var(--accent-ink)}
+body[data-page=builder] .verdict-line{margin:12px 0;align-items:flex-start;gap:10px}
+body[data-page=builder] .verdict-line strong{font-size:1.2rem;line-height:1.45}
+.fan-layouts{grid-column:1/-1;min-width:0;border-top:1px solid var(--line);padding-top:20px}.fan-layouts h3{font-size:1rem}.fan-layouts>p{font-size:.85rem;line-height:1.6;color:var(--muted);margin:8px 0 16px}.fan-layouts fieldset{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:16px 0 0;border:1px solid var(--line);padding:16px;border-radius:10px;min-width:0}.fan-layouts legend{font-size:.85rem;font-weight:600;line-height:1.6;max-width:100%}.fan-layouts label{display:grid;gap:8px;font-size:.85rem;min-width:0}.fan-layouts :is(p,small){grid-column:1/-1;font-size:.82rem;line-height:1.6;margin:0}.fan-fit.pass{color:#29846c}.fan-fit.fail{color:#d76653}.fan-fit.unknown{color:var(--muted)}
+@media(min-width:1000px){body[data-page=builder] .builder-rail{position:static}.assembly-panel{scroll-margin-top:110px}}
+@media(max-width:1000px){body[data-page=builder] .builder-shell{grid-template-columns:1fr}.builder-rail{position:static!important}body[data-page=builder] .builder-rail{order:-1}body[data-page=builder] .scene-stage{height:400px}}
+@media(max-width:560px){body[data-page=builder] main{padding-top:24px}body[data-page=builder] .builder-heading{display:block}body[data-page=builder] .builder-actions{margin-top:20px;display:flex;flex-wrap:wrap}body[data-page=builder] .builder-row{padding:18px!important;grid-template-columns:22px minmax(0,1fr) 65px!important;gap:14px!important}body[data-page=builder] .builder-type svg{display:none}body[data-page=builder] .builder-photo img{width:65px!important}body[data-page=builder] .scene-stage{height:340px}body[data-page=builder] .scene-components{grid-template-columns:repeat(2,minmax(0,1fr))}body[data-page=builder] .scene-toggles{grid-template-columns:1fr}.fan-layouts fieldset{grid-template-columns:1fr}.fan-layouts label{grid-column:1/-1}body[data-page=builder] .builder-toolbar{display:flex;flex-wrap:wrap;gap:14px}}
+@media(prefers-reduced-motion:reduce){body[data-page=builder] *{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+
+body[data-page=builder] .builder-row .part-buying{grid-row:auto!important;padding-top:14px;margin:0!important}body[data-page=builder] .build-price-card summary{padding:14px}body[data-page=builder] .build-price-card small{font-size:.8rem;text-transform:none;letter-spacing:0}body[data-page=builder] .builder-multi-control:has(.builder-selected-items:empty){gap:0}body[data-page=builder] .builder-selected-items:empty{display:none}
+
+#pc-visual:has(.scene-intro:not([hidden])) :is(.scene-components,.scene-inspector){display:none}
+@media(max-width:1000px){body[data-page=builder] .builder-rail{display:contents}body[data-page=builder] .assembly-panel{grid-row:1}body[data-page=builder] .builder-parts{grid-row:2}body[data-page=builder] .shopping-summary{grid-row:3}body[data-page=builder] .builder-analysis{grid-row:4}}
+body[data-page=builder] .builder-option-note{color:var(--muted);font-size:.86rem;line-height:1.6}.fan-fit.pass{color:#13705a}.fan-fit.fail{color:#b13c28}[data-theme=dark] .fan-fit.pass{color:#7bddb9}[data-theme=dark] .fan-fit.fail{color:#f3ac9b}

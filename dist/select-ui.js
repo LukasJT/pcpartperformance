@@ -1,14 +1,14 @@
 /* Progressively enhance native selects; their values and change events remain canonical. */
 (() => {
   const registry = new WeakMap();
-  let serial = 0, active = null, rows = [], cursor = 0;
+  let serial = 0, active = null, rows = [], cursor = 0;const selectedBrands=new Set();
   const dialog = document.createElement('dialog');
   dialog.className = 'select-dialog';
   dialog.setAttribute('aria-labelledby', 'select-dialog-title');
-  dialog.innerHTML = '<div class="select-dialog-head"><strong id="select-dialog-title">Choose an option</strong><button type="button" class="select-close" aria-label="Close options">×</button></div><div class="select-search-wrap"><input type="search" class="select-search" aria-label="Search options" role="combobox" aria-autocomplete="list" aria-expanded="true" aria-controls="select-options" placeholder="Type to filter…" autocomplete="off"></div><div class="select-results" id="select-options" role="listbox"></div><p class="select-hint" aria-live="polite"></p>';
+  dialog.innerHTML = '<div class="select-dialog-head"><strong id="select-dialog-title">Choose an option</strong><button type="button" class="select-close" aria-label="Close options">×</button></div><div class="select-search-wrap"><input type="search" class="select-search" aria-label="Search options" role="combobox" aria-autocomplete="list" aria-expanded="true" aria-controls="select-options" placeholder="Type to filter…" autocomplete="off"></div><div class="select-brand-filters" aria-label="Filter by brand"></div><div class="select-results" id="select-options" role="listbox"></div><p class="select-hint" aria-live="polite"></p>';
   document.body.append(dialog);
   const search = dialog.querySelector('input'), results = dialog.querySelector('.select-results'), hint = dialog.querySelector('.select-hint');
-  function label(select) { return select.getAttribute('aria-label') || select.labels?.[0]?.textContent?.trim() || 'Choose an option'; }
+  function label(select) { return (select.getAttribute('aria-label') || select.labels?.[0]?.textContent?.trim() || 'Choose an option').replace('Choose primary ', 'Choose ').replace('Case fans', 'case fan'); }
   function sync(select) {
     const item = registry.get(select); if (!item) return;
     const value = select.selectedOptions[0]?.textContent?.trim() || 'Choose an option';
@@ -44,14 +44,14 @@
   function render() {
     if (!active) return;
     const query = search.value.toLocaleLowerCase().trim();
-    rows = [...active.options].filter(option => !option.disabled && !option.hidden && (!query || option.textContent.toLocaleLowerCase().includes(query)));
+    rows = [...active.options].filter(option => !option.disabled && !option.hidden && (!selectedBrands.size||!option.value||selectedBrands.has((typeof catalog!=='undefined'?catalog.find(p=>p.id===option.value):null)?.brand)) && (!query || option.textContent.toLocaleLowerCase().includes(query)));
     results.replaceChildren();
     rows.forEach((option, i) => {
       const button = document.createElement('button'); button.type = 'button'; button.className = 'select-option'; button.id = 'select-option-' + i;
       button.setAttribute('role', 'option'); button.setAttribute('aria-selected', String(option.value === active.value)); button.tabIndex = -1;
       const asset = typeof photos !== 'undefined' ? photos[option.value] : null;
       if (asset) { const img = document.createElement('img'); img.src = asset.src; img.alt = ''; img.width = 52; img.height = 42; img.loading = 'lazy'; button.append(img); }
-      const text = document.createElement('span'); text.textContent = option.textContent; button.append(text);
+      const text = document.createElement('span'); text.textContent = option.textContent;const part=typeof catalog!=='undefined'?catalog.find(p=>p.id===option.value):null;if(part){const details=document.createElement('small');details.textContent=part.brand+' · '+part.summary;text.append(details)}button.append(text);
       const mark = document.createElement('span'); mark.className = 'select-check'; mark.setAttribute('aria-hidden','true'); mark.textContent = option.value === active.value ? '✓' : ''; button.append(mark);
       button.addEventListener('click', () => choose(i)); results.append(button);
     });
@@ -61,8 +61,8 @@
   }
   function open(select) {
     active = select; const button = registry.get(select).button;
-    dialog.querySelector('strong').textContent = label(select); search.value = '';
-    const rect = button.getBoundingClientRect(), width = Math.min(Math.max(rect.width, 350), innerWidth - 24), maxHeight = Math.min(470, innerHeight - 32);
+    dialog.querySelector('strong').textContent = label(select); search.value = '';selectedBrands.clear();const filters=dialog.querySelector('.select-brand-filters');filters.replaceChildren();const brands=[...new Set([...select.options].map(o=>typeof catalog!=='undefined'?catalog.find(p=>p.id===o.value)?.brand:null).filter(Boolean))].sort();for(const brand of brands){const label=document.createElement('label'),input=document.createElement('input');input.type='checkbox';input.addEventListener('change',()=>{input.checked?selectedBrands.add(brand):selectedBrands.delete(brand);render()});label.append(input,document.createTextNode(brand));filters.append(label)}
+    const rect = button.getBoundingClientRect(), width = Math.min(Math.max(rect.width, 460), innerWidth - 24), maxHeight = Math.min(660, innerHeight - 32);
     dialog.style.width = width + 'px'; dialog.style.maxHeight = maxHeight + 'px';
     dialog.style.left = Math.max(12, Math.min(rect.left, innerWidth - width - 12)) + 'px';
     dialog.style.top = Math.max(16, Math.min(rect.bottom + 8, innerHeight - maxHeight - 16)) + 'px';
