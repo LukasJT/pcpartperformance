@@ -1,9 +1,10 @@
 (() => {
   'use strict';
-  // Keep dormant until the vendor provides a tag that works inside the
-  // no-popup/no-redirect sandbox. See docs/ad-vendor-inventory.md.
-  const vendorCompatible=false;
-  if(!vendorCompatible)return;
+  // Load every ad document from the site's alternate origin. The cross-origin
+  // boundary prevents vendor code from changing the parent iframe's sandbox.
+  const adOrigin=location.hostname.endsWith('.chatgpt.site')
+    ? 'https://www.pcpartperformance.com'
+    : 'https://pc-part-performance.lukajt.chatgpt.site';
   const KEY='pcp-ad-consent';
   const allowed=new Set(['home','hardware','record','guide','learn','compare','builder','article']);
   let consent=null;
@@ -27,7 +28,7 @@
     const size=sizeFor(slot);if(!size)return;
     const [name,width,height]=size;
     const label=document.createElement('span');label.className='ad-label';label.textContent='Advertisement';
-    const frame=document.createElement('iframe');frame.className='ad-frame';frame.title='Advertisement';frame.src=`/ads/${name}.html`;frame.width=String(width);frame.height=String(height);frame.loading='lazy';frame.referrerPolicy='no-referrer';frame.sandbox='allow-scripts';frame.setAttribute('allow','');
+    const frame=document.createElement('iframe');frame.className='ad-frame';frame.title='Advertisement';frame.src=`${adOrigin}/ads/${name}.html`;frame.width=String(width);frame.height=String(height);frame.loading='lazy';frame.referrerPolicy='no-referrer';frame.sandbox='allow-scripts allow-same-origin';frame.setAttribute('allow','');
     slot.append(label,frame);slot.dataset.loaded='true';
   }
   const observer='IntersectionObserver'in window?new IntersectionObserver(entries=>{for(const entry of entries)if(entry.isIntersecting){mount(entry.target);observer.unobserve(entry.target)}},{rootMargin:'300px'}):null;
@@ -37,3 +38,4 @@
   document.addEventListener('click',event=>{if(event.target.closest('.manage-ads')){event.preventDefault();try{localStorage.removeItem(KEY)}catch{};consent=null;unload();for(const slot of slots)delete slot.dataset.loaded;banner()}});
   banner();if(canShow())activate();
 })();
+
