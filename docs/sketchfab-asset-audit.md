@@ -1,20 +1,27 @@
 # Sketchfab asset audit
 
-Updated September 23, 2026. The builder catalog has 791 components: 159 graphics cards, 166 processors, 106 motherboards, 80 cases, 74 SSDs, 69 power supplies, 65 memory kits, 44 hard drives, and 28 fans.
+Updated September 23, 2026. The builder has 794 components. Four builder components currently use downloaded, attributed Sketchfab meshes; the other 790 use simplified geometry. Product pages also display four downloaded, attributed peripheral meshes. These are visual previews, not dimension-certified CAD models.
 
-Four records currently use downloaded, credited Sketchfab meshes:
-
-| Builder part | Creator | Match | Source |
+| Site item | Sketchfab model | Creator | Result |
 | --- | --- | --- | --- |
-| MSI GeForce RTX 5070 12G VENTUS 3X OC | Darky Vip 3D | Exact named card | [Sketchfab model](https://sketchfab.com/3d-models/msi-geforce-rtx-5070-ventus-3x-oc-732fd2bb31404894a220904526d13c03) |
-| Ryzen 7 9800X3D | PolyDavid | Exact named processor, low-poly appearance | [Sketchfab model](https://sketchfab.com/3d-models/9800x3d-cpu-low-poly-8b15903087b5432db9cfc789b2cf4d6a) |
-| Corsair VENGEANCE RGB DDR5 96 GB kit | PolyDavid | Family-level appearance; mesh does not identify capacity, speed, or timings | [Sketchfab model](https://sketchfab.com/3d-models/corsair-vengeance-rgb-ddr5-ram-low-poly-5352b17857ea4036ab61980c4c57f265) |
-| Corsair VENGEANCE RGB Pro DDR4 32 GB kit | lime.ball.animations | Family-level appearance; OBJ and texture converted to GLB, kit specifications not depicted | [Sketchfab model](https://sketchfab.com/3d-models/ram-corsair-vengeance-ddr4-rgb-pro-ee5c6e6b2e524d63a7043365e73a2420) |
+| MSI GeForce RTX 5070 12G VENTUS 3X OC | [MSI RTX 5070 Ventus 3X OC](https://sketchfab.com/3d-models/msi-geforce-rtx-5070-ventus-3x-oc-732fd2bb31404894a220904526d13c03) | Darky Vip 3D | In builder |
+| AMD Ryzen 7 9800X3D | [9800x3D CPU](https://sketchfab.com/3d-models/9800x3d-cpu-low-poly-8b15903087b5432db9cfc789b2cf4d6a) | PolyDavid | In builder |
+| Corsair VENGEANCE RGB DDR5 96 GB kit | [VENGEANCE RGB DDR5](https://sketchfab.com/3d-models/corsair-vengeance-rgb-ddr5-ram-low-poly-5352b17857ea4036ab61980c4c57f265) | PolyDavid | In builder; mesh shows the product line, not kit capacity |
+| Corsair VENGEANCE RGB Pro DDR4 32 GB kit | [VENGEANCE DDR4 RGB Pro](https://sketchfab.com/3d-models/ram-corsair-vengeance-ddr4-rgb-pro-ee5c6e6b2e524d63a7043365e73a2420) | lime.ball.animations | In builder; mesh shows the product line, not kit capacity |
+| Logitech G915 | [G915 scan](https://sketchfab.com/3d-models/logitech-g915-scan-d6976a965ed54808aaeff3b609189f01) | o-oualid | On product page |
+| Razer Viper Mini | [Viper Mini](https://sketchfab.com/3d-models/razer-viper-mini-85e1735704c645e5aaead0278a1038fe) | kimberly.h | On product page |
+| Logitech PRO X SUPERLIGHT | [Computer mouse](https://sketchfab.com/3d-models/computer-mouse-6e7940d9e2144efeae3468a906f27e07) | zhe_kan | On product page; creator says it was modeled after this product |
+| Logitech G502 X LIGHTSPEED | [G502 X LIGHTSPEED](https://sketchfab.com/3d-models/logitech-g502-x-lightspeed-cda7107cc1444b4788d747f0361f7d40) | Okopchi | On product page |
 
-All four are credited under CC BY 4.0 in `scripts/sketchfab-models.json` and `/builder/model-credits/`. Each imported GLB was rendered in the browser. The other 787 builder records use generated illustrative geometry and are identified as such in model metadata. A 3D preview is not a dimension-certified fit check.
+These eight assets use CC BY 4.0; credits and source links appear on their pages and at `/builder/model-credits/`. Product photos for the peripherals come from their manufacturers. The G502 X LIGHTSPEED was added to the catalog because the downloaded mesh names that specific variant, and its specifications and photo were checked against Logitech.
 
-Two exact GPU product records were also added to the catalog after finding their names and manufacturer specifications: MSI GeForce RTX 5070 12G GAMING TRIO OC and ASUS ROG Strix GeForce RTX 3090 White OC Edition 24GB. Downloaded Sketchfab files for those names failed the builder's visual check: the first rendered as a retail box and the second as a thin strip even after malformed outlying meshes were removed. Their builder previews therefore remain illustrative geometry; those downloaded meshes were not published.
+## Inspected downloads not published as product models
 
-Other downloaded Sketchfab archives were inspected. [Lian Li UNI FAN SL120 RGB Black](https://sketchfab.com/3d-models/lian-li-uni-fan-sl120-rgb-black-5abd0d8e89ea4241b7216f4b6d5a2ca4) and [White](https://sketchfab.com/3d-models/lian-li-uni-fan-sl120-rgb-white-151c28bb1bc9483a92728815cb0628ea) are exact named models, but the downloaded source archives contain Blender files only, while the builder requires a web-ready GLB. The connected browser did not deliver Sketchfab's converted GLB when requested. The downloaded [NZXT H500](https://sketchfab.com/3d-models/nzxt-h500-pc-case-e0e3dbab28014eb19a123c1be69d42b3) archive contains FBX only. Other archives contained a generic model without an exact part identity, or a noncommercial license. None of those has been silently assigned to a different product.
+- The [ASUS ROG Strix RTX 3090 White](https://sketchfab.com/3d-models/rtx-3090-asus-rog-strix-white-edition-videocard-506b1c68d24f4a9088ea0eaef41f7dd9) source was converted but rendered as a narrow strip in the browser. Its product record and official ASUS photo remain in the catalog; the broken mesh was excluded.
+- The [Lian Li UNI FAN SL120 Black](https://sketchfab.com/3d-models/lian-li-uni-fan-sl120-rgb-black-5abd0d8e89ea4241b7216f4b6d5a2ca4) and [White](https://sketchfab.com/3d-models/lian-li-uni-fan-sl120-rgb-white-151c28bb1bc9483a92728815cb0628ea) files were converted but rendered as featureless slabs in the builder. Both exact fan records and official Lian Li photos remain in the catalog; the meshes were excluded.
+- The [NZXT H500](https://sketchfab.com/3d-models/nzxt-h500-pc-case-e0e3dbab28014eb19a123c1be69d42b3) FBX converted to a blank-looking white shell. Its record remains but the imported mesh was excluded.
+- The downloaded `nvidia-geforce-rtx-5070-msi-gaming-x-trio.zip` depicts a retail package, not the GPU. It was not assigned to the card.
+- The downloaded `nvidia-geforce-rtx-3090.zip` has a noncommercial license and was not included in the commercial site.
+- The AMD Wraith Stealth cooler, Corsair fan, Corsair H150i cooler, and Corsair Dominator RGB files do not establish exact catalog SKU matches. `lian-li.zip` did not convert from its source DAE. None were assigned to a different item.
 
-Sketchfab has many component models. Availability for all 791 exact catalog records has not been established. Matching an individual GPU or board requires the full manufacturer model and visible design, not only its chipset. [Sketchfab's Download API](https://sketchfab.com/developers/download-api/downloading-models) uses authenticated access; its [integration guidelines](https://sketchfab.com/developers/download-api/guidelines) require creator and source attribution. No API credential is stored in this repository.
+Peripheral coverage is currently 23 keyboards, 25 mice, and zero mousepads in the site catalog. Four peripherals have the downloaded 3D views above. Finding 50 accurately named, manufacturer-photographed items in **each** peripheral category with separate commercially usable 3D assets remains outstanding. A generic or mismatched mesh should not be presented as an exact item.

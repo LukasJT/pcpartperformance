@@ -142,5 +142,65 @@
     "height": 500,
     "official": true,
     "kind": "exact"
+  },
+  "retail-lian-li-uni-fan-sl120-rgb-black": {
+    "src": "/assets/hardware/lian-li-sl120-black.jpg",
+    "picturedModel": "Lian Li UNI FAN SL120 RGB Black",
+    "sourceUrl": "https://lian-li.com/product/uni-fan-sl/",
+    "imageUrl": "https://lian-li.com/wp-content/uploads/2020/11/UNI-FAN-black-rgbx1-front.jpg",
+    "attribution": "Lian Li",
+    "license": "Manufacturer product media",
+    "width": 600,
+    "height": 600,
+    "official": true,
+    "kind": "exact"
+  },
+  "retail-lian-li-uni-fan-sl120-rgb-white": {
+    "src": "/assets/hardware/lian-li-sl120-white.jpg",
+    "picturedModel": "Lian Li UNI FAN SL120 RGB White",
+    "sourceUrl": "https://lian-li.com/product/uni-fan-sl/",
+    "imageUrl": "https://lian-li.com/wp-content/uploads/2020/11/UNI-FAN-white-rgbx1-front.jpg",
+    "attribution": "Lian Li",
+    "license": "Manufacturer product media",
+    "width": 600,
+    "height": 600,
+    "official": true,
+    "kind": "exact"
+  },
+  "retail-asus-rog-strix-geforce-rtx-3090-white-oc-edition-24gb": {
+    "src": "/assets/hardware/asus-rog-strix-rtx3090-white.png",
+    "picturedModel": "ASUS ROG Strix GeForce RTX 3090 White OC Edition 24GB",
+    "sourceUrl": "https://rog.asus.com/uk/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3090-o24g-white-model/gallery/",
+    "imageUrl": "https://dlcdnwebimgs.asus.com/gain/3AC07D34-F522-4D8A-98F3-916B1EF037D8/w1000/h732",
+    "attribution": "ASUS",
+    "license": "Manufacturer product media",
+    "width": 1000,
+    "height": 732,
+    "official": true,
+    "kind": "exact"
+  },
+  "retail-logitech-g-g502-x-lightspeed": {
+    "src": "/assets/hardware/logitech-g502-x-lightspeed.png",
+    "picturedModel": "Logitech G502 X LIGHTSPEED",
+    "sourceUrl": "https://www.logitechg.com/en-us/shop/p/g502-x-wireless-lightforce",
+    "imageUrl": "https://resource.logitechg.com/content/dam/gaming/en/products/g502x-lightspeed/gallery/g502-x-lightspeed-mouse-top-angle-black-gallery-1.png",
+    "attribution": "Logitech G",
+    "license": "Manufacturer product media",
+    "width": 2500,
+    "height": 2160,
+    "official": true,
+    "kind": "exact"
+  },
+  "retail-razer-viper-mini": {
+    "src": "/assets/hardware/razer-viper-mini.jpg",
+    "picturedModel": "Razer Viper Mini",
+    "sourceUrl": "https://www.razer.com/gaming-mice/razer-viper-mini",
+    "imageUrl": "https://assets2.razerzone.com/images/razer-viper-mini/razer-viper-mini-OGimg.jpg",
+    "attribution": "Razer",
+    "license": "Manufacturer product media",
+    "width": 1200,
+    "height": 630,
+    "official": true,
+    "kind": "exact"
   }
 }

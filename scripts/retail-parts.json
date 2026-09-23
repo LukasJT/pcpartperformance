@@ -1028,6 +1028,151 @@
     }
   },
   {
+    "id": "retail-lian-li-uni-fan-sl120-rgb-black",
+    "name": "UNI FAN SL120 RGB Black",
+    "brand": "Lian Li",
+    "cat": "fan",
+    "source": "https://lian-li.com/product/uni-fan-sl/",
+    "architecture": "4-pin PWM · 3-pin ARGB",
+    "summary": "120 mm · 25 mm thick · black · single fan",
+    "specs": {
+      "Fan size": 120,
+      "Thickness": 25,
+      "Units per pack": 1
+    },
+    "note": "Exact named variant. Original 3D illustration uses the listed outer dimensions; surface details and mounting positions remain approximate.",
+    "sku": "UF-SL120-1B",
+    "physical": {
+      "size": [
+        120,
+        120,
+        25
+      ],
+      "model": "retail-lian-li-uni-fan-sl120-rgb-black",
+      "color": "#252d36",
+      "rgb": true,
+      "reverse": false,
+      "connector": "4-pin PWM + 3-pin ARGB"
+    }
+  },
+  {
+    "id": "retail-lian-li-uni-fan-sl120-rgb-white",
+    "name": "UNI FAN SL120 RGB White",
+    "brand": "Lian Li",
+    "cat": "fan",
+    "source": "https://lian-li.com/product/uni-fan-sl/",
+    "architecture": "4-pin PWM · 3-pin ARGB",
+    "summary": "120 mm · 25 mm thick · white · single fan",
+    "specs": {
+      "Fan size": 120,
+      "Thickness": 25,
+      "Units per pack": 1
+    },
+    "note": "Exact named variant. Original 3D illustration uses the listed outer dimensions; surface details and mounting positions remain approximate.",
+    "sku": "UF-SL120-1W",
+    "physical": {
+      "size": [
+        120,
+        120,
+        25
+      ],
+      "model": "retail-lian-li-uni-fan-sl120-rgb-white",
+      "color": "#e5eaf1",
+      "rgb": true,
+      "reverse": false,
+      "connector": "4-pin PWM + 3-pin ARGB"
+    }
+  },
+  {
+    "id": "retail-nzxt-h500",
+    "name": "H500",
+    "brand": "NZXT",
+    "cat": "case",
+    "source": "https://assets.cdn.nzxt.com/uploads/download/attachment/711/H500i_H500-manual-ver5-021119_-web.pdf",
+    "architecture": "ATX Micro-ATX Mini-ITX chassis",
+    "summary": "Mid-tower · tempered-glass side panel · 325 mm GPU clearance",
+    "specs": {
+      "Maximum GPU length": 325,
+      "Expansion slots": 7
+    },
+    "note": "Exact named variant. Original 3D illustration uses the listed outer dimensions; surface details and mounting positions remain approximate.",
+    "sku": "CA-H500B-B1",
+    "physical": {
+      "size": [
+        428,
+        460,
+        210
+      ],
+      "model": "retail-nzxt-h500",
+      "color": "#252d36",
+      "psuFormats": [
+        "ATX"
+      ],
+      "mounts": {
+        "front": {
+          "120": 2,
+          "140": 2
+        },
+        "top": {
+          "120": 1,
+          "140": 1
+        },
+        "rear": {
+          "120": 1
+        }
+      }
+    }
+  },
+  {
+    "id": "retail-razer-viper-mini",
+    "name": "Viper Mini",
+    "brand": "Razer",
+    "cat": "mouse",
+    "source": "https://www.razer.com/gaming-mice/razer-viper-mini",
+    "architecture": "Wired gaming mouse",
+    "summary": "61 g · 8,500 DPI optical sensor · six programmable buttons",
+    "specs": {
+      "Weight": 61,
+      "Maximum DPI": 8500,
+      "Programmable buttons": 6
+    },
+    "note": "Razer Viper Mini. Product dimensions and performance come from Razer; the community 3D mesh is a visual preview.",
+    "physical": {
+      "size": [
+        118.3,
+        53.5,
+        38.3
+      ],
+      "model": "retail-razer-viper-mini",
+      "color": "#303843"
+    }
+  },
+  {
+    "id": "retail-logitech-g-g502-x-lightspeed",
+    "name": "G502 X LIGHTSPEED",
+    "brand": "Logitech G",
+    "cat": "mouse",
+    "source": "https://www.logitechg.com/en-us/shop/p/g502-x-wireless-lightforce",
+    "architecture": "LIGHTSPEED wireless · LIGHTFORCE switches",
+    "summary": "102 g wireless gaming mouse · HERO 25K sensor · LIGHTFORCE switches",
+    "specs": {
+      "Weight": 102,
+      "Sensor": "HERO 25K",
+      "Connectivity": "LIGHTSPEED wireless",
+      "Battery life": "Up to 140 hours"
+    },
+    "note": "Check the exact color and regional SKU before ordering.",
+    "physical": {
+      "size": [
+        131.4,
+        79.2,
+        41.1
+      ],
+      "model": "retail-logitech-g-g502-x-lightspeed",
+      "color": "#303843"
+    }
+  },
+  {
     "id": "retail-msi-geforce-rtx-5070-12g-ventus-3x-oc",
     "name": "GeForce RTX 5070 12G VENTUS 3X OC",
     "brand": "MSI",

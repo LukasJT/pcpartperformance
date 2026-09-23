@@ -22,5 +22,29 @@
     "kind": "exact",
     "width": 1200,
     "height": 675
+  },
+  "x-keyboard-logitech-g915": {
+    "src": "/assets/hardware/logitech-g915.png",
+    "picturedModel": "Logitech G915 LIGHTSPEED",
+    "sourceUrl": "https://www.logitechg.com/en-sg/shop/p/g915-low-profile-wireless-mechanical-gaming-keyboard",
+    "imageUrl": "https://resource.logitechg.com/c_fill,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/gaming/en/products/g915/g915-gallery-1.png",
+    "attribution": "Logitech G",
+    "license": "Manufacturer product media",
+    "width": 1384,
+    "height": 1038,
+    "official": true,
+    "kind": "exact"
+  },
+  "x-mouse-logitech-g-pro-x-superlight": {
+    "src": "/assets/hardware/logitech-pro-x-superlight.png",
+    "picturedModel": "Logitech G PRO X SUPERLIGHT",
+    "sourceUrl": "https://www.logitechg.com/en-us/shop/p/pro-x-superlight-wireless-mouse",
+    "imageUrl": "https://resource.logitechg.com/c_fill,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/gaming/en/products/pro-x-superlight/pro-x-superlight-black-gallery-1.png",
+    "attribution": "Logitech G",
+    "license": "Manufacturer product media",
+    "width": 1384,
+    "height": 1038,
+    "official": true,
+    "kind": "exact"
   }
 }
