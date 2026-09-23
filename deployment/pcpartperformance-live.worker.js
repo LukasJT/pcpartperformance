@@ -16,7 +16,11 @@ export default {
     headers.delete('host');
     const response = await fetch(upstream, { method: request.method, headers });
     if (adAsset && response.ok && url.pathname === '/ads.js') {
-      const js = (await response.text()).replace('https://pc-part-performance.lukajt.chatgpt.site', 'https://pcpartperformance-live.lukastadros06.workers.dev');
+      // The vendor's banner bootstrap submits a form inside its own frame.
+      // Keep cross-origin isolation and continue blocking popups/top navigation.
+      const js = (await response.text())
+        .replace('https://pc-part-performance.lukajt.chatgpt.site', 'https://pcpartperformance-live.lukastadros06.workers.dev')
+        .replace("frame.sandbox='allow-scripts allow-same-origin'", "frame.sandbox='allow-scripts allow-same-origin allow-forms'");
       return new Response(js, {headers: {'content-type': 'application/javascript; charset=utf-8', 'cache-control': 'no-cache'}});
     }
     if (adAsset && response.ok && url.pathname.startsWith('/ads/')) {
@@ -33,7 +37,7 @@ export default {
     if (!['home', 'hardware', 'record', 'guide', 'learn', 'compare', 'builder', 'article'].includes(page)) {
       return new Response(html, response);
     }
-    html = html.replace('</head>', '<link rel="stylesheet" href="/ads.css"><script defer src="/ads.js?v=20260922b"></script></head>');
+    html = html.replace('</head>', '<link rel="stylesheet" href="/ads.css"><script defer src="/ads.js?v=20260922c"></script></head>');
     html = html.replace(/(<main\b[^>]*>)/, '$1<div class="ad-slot" data-ad-slot="responsive" aria-label="Advertisement"></div>');
     if (page === 'home') html = html.replace('</main>', '<div class="ad-slot" data-ad-slot="native" aria-label="Advertisement"></div></main>');
     if (page === 'record' || page === 'article') html = html.replace('</main>', '<div class="ad-slot" data-ad-slot="rectangle" aria-label="Advertisement"></div></main>');
@@ -46,4 +50,5 @@ export default {
     return new Response(html, { status: response.status, statusText: response.statusText, headers: resultHeaders });
   }
 };
+
 
