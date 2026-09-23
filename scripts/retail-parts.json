@@ -1056,6 +1056,34 @@
     }
   },
   {
+    "id": "retail-msi-geforce-rtx-5070-12g-gaming-trio-oc",
+    "name": "GeForce RTX 5070 12G GAMING TRIO OC",
+    "brand": "MSI",
+    "cat": "gpu",
+    "source": "https://www.msi.com/Graphics-Card/GeForce-RTX-5070-12G-GAMING-TRIO-OC/Specification",
+    "architecture": "Blackwell · PCIe 5.0",
+    "summary": "12 GB GDDR7 · triple-fan Gaming Trio OC",
+    "specs": {
+      "Memory": 12,
+      "Board power": 250,
+      "Card length": 338,
+      "Card thickness": 50,
+      "Card height": 140
+    },
+    "note": "Exact named variant. Original 3D illustration uses the listed outer dimensions; surface details and mounting positions remain approximate.",
+    "sku": "G5070-12GTC",
+    "physical": {
+      "size": [
+        338,
+        50,
+        140
+      ],
+      "model": "retail-msi-geforce-rtx-5070-12g-gaming-trio-oc",
+      "color": "#363b45",
+      "fans": 3
+    }
+  },
+  {
     "id": "retail-msi-geforce-rtx-5070-ti-16g-ventus-3x-oc",
     "name": "GeForce RTX 5070 Ti 16G VENTUS 3X OC",
     "brand": "MSI",
@@ -1080,6 +1108,33 @@
       ],
       "model": "retail-msi-geforce-rtx-5070-ti-16g-ventus-3x-oc",
       "color": "#363b45",
+      "fans": 3
+    }
+  },
+  {
+    "id": "retail-asus-rog-strix-geforce-rtx-3090-white-oc-edition-24gb",
+    "name": "ROG Strix GeForce RTX 3090 White OC Edition 24GB",
+    "brand": "ASUS",
+    "cat": "gpu",
+    "source": "https://rog.asus.com/uk/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3090-o24g-white-model/spec/",
+    "architecture": "Ampere · PCIe 4.0",
+    "summary": "24 GB GDDR6X · white ROG Strix OC · triple fan",
+    "specs": {
+      "Memory": 24,
+      "Card length": 318.5,
+      "Card thickness": 57.8,
+      "Card height": 140.1
+    },
+    "note": "Exact named variant. Original 3D illustration uses the listed outer dimensions; surface details and mounting positions remain approximate.",
+    "sku": "ROG-STRIX-RTX3090-O24G-WHITE",
+    "physical": {
+      "size": [
+        318.5,
+        57.8,
+        140.1
+      ],
+      "model": "retail-asus-rog-strix-geforce-rtx-3090-white-oc-edition-24gb",
+      "color": "#e8edf3",
       "fans": 3
     }
   },

@@ -9,7 +9,63 @@
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
     "changes": "Scaled and oriented for the PC builder preview.",
-    "orientation": [0, 1.5707963267948966, 1.5707963267948966],
+    "orientation": [
+      0,
+      1.5707963267948966,
+      1.5707963267948966
+    ],
+    "reviewed": "2026-09-23"
+  },
+  {
+    "id": "9800x3d",
+    "asset": "sketchfab-ryzen-7-9800x3d-low-poly.glb",
+    "title": "9800x3D CPU - LOW POLY",
+    "creator": "PolyDavid",
+    "creatorUrl": "https://sketchfab.com/PolyDavid",
+    "sourceUrl": "https://sketchfab.com/3d-models/9800x3d-cpu-low-poly-8b15903087b5432db9cfc789b2cf4d6a",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Normalized scale and centered for the PC builder preview.",
+    "orientation": [
+      1.5707963267948966,
+      0,
+      0
+    ],
+    "dimensionStatus": "Illustrative package envelope; community 3D appearance normalized to approximately 40 × 40 × 5 mm. Not a clearance-certified CAD model.",
+    "reviewed": "2026-09-23"
+  },
+  {
+    "id": "c-ram-corsair-vengeance-rgb-96gb-ddr5-6000-cl30",
+    "identity": "family-or-chip",
+    "asset": "sketchfab-corsair-vengeance-rgb-ddr5.glb",
+    "title": "Corsair VENGEANCE RGB DDR5 Ram - Low Poly",
+    "creator": "PolyDavid",
+    "creatorUrl": "https://sketchfab.com/PolyDavid",
+    "sourceUrl": "https://sketchfab.com/3d-models/corsair-vengeance-rgb-ddr5-ram-low-poly-5352b17857ea4036ab61980c4c57f265",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Scaled and oriented for the PC builder preview. Represents Vengeance RGB DDR5 appearance; the mesh does not establish kit capacity, speed, or timing.",
+    "dimensionStatus": "Family-level appearance only; community low-poly DDR5 module normalized to the selected kit envelope. Capacity, speed, and timings are not represented in the mesh.",
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "reviewed": "2026-09-23"
+  },
+  {
+    "id": "c-ram-corsair-vengeance-rgb-pro-32gb-ddr4-3600-cl18",
+    "identity": "family-or-chip",
+    "asset": "sketchfab-corsair-vengeance-rgb-pro-ddr4.glb",
+    "title": "RAM Corsair Vengeance DDR4 RGB Pro",
+    "creator": "lime.ball.animations",
+    "creatorUrl": "https://sketchfab.com/lime.ball.animations.official",
+    "sourceUrl": "https://sketchfab.com/3d-models/ram-corsair-vengeance-ddr4-rgb-pro-ee5c6e6b2e524d63a7043365e73a2420",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Converted the creator's OBJ and PNG texture to GLB, then normalized its scale for the preview. Capacity, speed and timings are not identifiable from the mesh.",
+    "dimensionStatus": "Family-level Vengeance RGB Pro DDR4 appearance only; 32 GB capacity, 3600 MT/s speed, CL18 timings, and exact dimensions are not verified by the mesh.",
+    "orientation": [0, 0, 0],
     "reviewed": "2026-09-23"
   }
 ]
