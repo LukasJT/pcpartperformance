@@ -1,19 +1,19 @@
 # 3D asset coverage
 
-All 777 catalog components are accounted for. **0 exact verified meshes; 51 approximate meshes; 726 missing meshes.**
+All 778 catalog components are accounted for. **0 clearance-verified meshes; 1 attributed community model; 51 original simplified meshes; 726 missing meshes.**
 
-Approximate geometry must not be presented as a manufacturing or clearance model. Catalog-wide exact modeling remains unfinished.
+Community models and simplified geometry must not be presented as manufacturing or clearance models. Catalog-wide exact modeling remains unfinished.
 
-|Category|Total|Approximate|Missing|
-|---|---:|---:|---:|
-|gpu|145|8|137|
-|cpu|166|1|165|
-|ram|65|1|64|
-|board|106|4|102|
-|case|80|6|74|
-|ssd|74|1|73|
-|hdd|44|1|43|
-|psu|69|1|68|
-|fan|28|28|0|
+|Category|Total|Community|Simplified|Missing|
+|---|---:|---:|---:|---:|
+|gpu|146|1|8|137|
+|cpu|166|0|1|165|
+|ram|65|0|1|64|
+|board|106|0|4|102|
+|case|80|0|6|74|
+|ssd|74|0|1|73|
+|hdd|44|0|1|43|
+|psu|69|0|1|68|
+|fan|28|0|28|0|
 
 Every entry, its source, identity and blockers are in dist/model-library.json.

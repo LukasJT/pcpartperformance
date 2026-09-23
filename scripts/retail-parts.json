@@ -1028,6 +1028,34 @@
     }
   },
   {
+    "id": "retail-msi-geforce-rtx-5070-12g-ventus-3x-oc",
+    "name": "GeForce RTX 5070 12G VENTUS 3X OC",
+    "brand": "MSI",
+    "cat": "gpu",
+    "source": "https://www.msi.com/Graphics-Card/GeForce-RTX-5070-12G-VENTUS-3X-OC/Specification",
+    "architecture": "Blackwell · PCIe 5.0",
+    "summary": "12 GB GDDR7 · triple-fan Ventus 3X OC",
+    "specs": {
+      "Memory": 12,
+      "Board power": 250,
+      "Card length": 302,
+      "Card thickness": 49,
+      "Card height": 121
+    },
+    "note": "Exact named variant. Original 3D illustration uses the listed outer dimensions; surface details and mounting positions remain approximate.",
+    "sku": "G5070-12V3C",
+    "physical": {
+      "size": [
+        302,
+        49,
+        121
+      ],
+      "model": "retail-msi-geforce-rtx-5070-12g-ventus-3x-oc",
+      "color": "#363b45",
+      "fans": 3
+    }
+  },
+  {
     "id": "retail-msi-geforce-rtx-3060-ventus-2x-12g",
     "name": "GeForce RTX 3060 VENTUS 2X 12G",
     "brand": "MSI",
