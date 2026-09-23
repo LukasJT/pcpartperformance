@@ -1,0 +1,86 @@
+{
+  "retail-msi-geforce-rtx-5070-12g-ventus-3x-oc": {
+    "src": "/assets/hardware/msi-rtx5070-ventus-3x-oc.png",
+    "picturedModel": "MSI GeForce RTX 5070 12G VENTUS 3X OC",
+    "sourceUrl": "https://www.msi.com/Graphics-Card/GeForce-RTX-5070-12G-VENTUS-3X-OC/Specification",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-RTX-5070-12G-VENTUS-3X-OC.pdf",
+    "attribution": "MSI",
+    "license": "Manufacturer product media",
+    "width": 1000,
+    "height": 800,
+    "official": true,
+    "kind": "exact"
+  },
+  "retail-asus-prime-geforce-rtx-5070-oc-edition-12gb": {
+    "src": "/assets/hardware/asus-prime-rtx5070-o12g.png",
+    "picturedModel": "ASUS Prime GeForce RTX 5070 OC Edition 12GB",
+    "sourceUrl": "https://www.asus.com/us/motherboards-components/graphics-cards/prime/prime-rtx5070-o12g/",
+    "imageUrl": "https://dlcdnwebimgs.asus.com/gain/67ad565a-a9a5-4692-98b8-a8cb02a1760b/",
+    "attribution": "ASUS",
+    "license": "Manufacturer product media",
+    "width": 1600,
+    "height": 1600,
+    "official": true,
+    "kind": "exact"
+  },
+  "retail-asus-tuf-gaming-geforce-rtx-5070-oc-edition-12gb": {
+    "src": "/assets/hardware/asus-tuf-rtx5070-o12g-gaming.png",
+    "picturedModel": "ASUS TUF Gaming GeForce RTX 5070 OC Edition 12GB",
+    "sourceUrl": "https://www.asus.com/us/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx5070-o12g-gaming/",
+    "imageUrl": "https://dlcdnwebimgs.asus.com/gain/3f23e07e-add3-4fa2-8c96-744d2fe56fa8/",
+    "attribution": "ASUS",
+    "license": "Manufacturer product media",
+    "width": 1600,
+    "height": 1600,
+    "official": true,
+    "kind": "exact"
+  },
+  "retail-asus-tuf-gaming-radeon-rx-9070-xt-oc-edition-16gb": {
+    "src": "/assets/hardware/asus-tuf-rx9070xt-o16g-gaming.png",
+    "picturedModel": "ASUS TUF Gaming Radeon RX 9070 XT OC Edition 16GB",
+    "sourceUrl": "https://www.asus.com/us/motherboards-components/graphics-cards/tuf-gaming/tuf-rx9070xt-o16g-gaming/",
+    "imageUrl": "https://dlcdnwebimgs.asus.com/gain/aa54c1c4-67ba-427d-9b40-488646ae3ed5/",
+    "attribution": "ASUS",
+    "license": "Manufacturer product media",
+    "width": 1600,
+    "height": 1600,
+    "official": true,
+    "kind": "exact"
+  },
+  "retail-zotac-gaming-geforce-rtx-5070-solid": {
+    "src": "/assets/hardware/zotac-rtx5070-solid.png",
+    "picturedModel": "ZOTAC GAMING GeForce RTX 5070 SOLID",
+    "sourceUrl": "https://www.zotac.com/us/product/graphics_card/zotac-gaming-geforce-rtx-5070-solid",
+    "imageUrl": "https://www.zotac.com/download/mediadrivers/External/GraphicsCard/5070/Brochure/ZT-B50700D-10P-brochure.pdf",
+    "attribution": "ZOTAC",
+    "license": "Manufacturer product media",
+    "width": 521,
+    "height": 336,
+    "official": true,
+    "kind": "exact"
+  },
+  "retail-gigabyte-geforce-rtx-5070-windforce-oc-sff-12g": {
+    "src": "/assets/hardware/gigabyte-rtx5070-windforce-oc-sff.webp",
+    "picturedModel": "GIGABYTE GeForce RTX 5070 WINDFORCE OC SFF 12G",
+    "sourceUrl": "https://www.gigabyte.com/Graphics-Card/GV-N5070WF3OC-12GD/gallery",
+    "imageUrl": "https://static.gigabyte.com/StaticFile/Image/Global/25b276c9dba287d84dc3aaef4515a0fc/ProductRemoveBg/44241/webp/670",
+    "attribution": "GIGABYTE",
+    "license": "Manufacturer product media",
+    "width": 670,
+    "height": 453,
+    "official": true,
+    "kind": "exact"
+  },
+  "retail-asrock-radeon-rx-9070-xt-steel-legend-16gb": {
+    "src": "/assets/hardware/asrock-rx9070xt-steel-legend.png",
+    "picturedModel": "ASRock Radeon RX 9070 XT Steel Legend 16GB",
+    "sourceUrl": "https://www.asrock.com/Graphics-Card/AMD/Radeon%20RX%209070%20XT%20Steel%20Legend%2016GB/index.us.asp",
+    "imageUrl": "https://www.asrock.com/Graphics-Card/photo/Radeon%20RX%209070%20XT%20Steel%20Legend%2016GB(M1).png",
+    "attribution": "ASRock",
+    "license": "Manufacturer product media",
+    "width": 600,
+    "height": 500,
+    "official": true,
+    "kind": "exact"
+  }
+}

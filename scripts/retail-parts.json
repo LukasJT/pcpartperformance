@@ -1056,6 +1056,169 @@
     }
   },
   {
+    "id": "retail-asus-prime-geforce-rtx-5070-oc-edition-12gb",
+    "name": "Prime GeForce RTX 5070 OC Edition 12GB",
+    "brand": "ASUS",
+    "cat": "gpu",
+    "source": "https://www.asus.com/us/motherboards-components/graphics-cards/prime/prime-rtx5070-o12g/techspec/",
+    "architecture": "Blackwell · PCIe 5.0",
+    "summary": "12 GB GDDR7 · Prime OC · triple fan",
+    "specs": {
+      "Memory": 12,
+      "Card length": 304,
+      "Card thickness": 50,
+      "Card height": 126
+    },
+    "note": "Exact named variant. Original 3D illustration uses the listed outer dimensions; surface details and mounting positions remain approximate.",
+    "sku": "PRIME-RTX5070-O12G",
+    "physical": {
+      "size": [
+        304,
+        50,
+        126
+      ],
+      "model": "retail-asus-prime-geforce-rtx-5070-oc-edition-12gb",
+      "color": "#292f38",
+      "fans": 3
+    }
+  },
+  {
+    "id": "retail-asus-tuf-gaming-geforce-rtx-5070-oc-edition-12gb",
+    "name": "TUF Gaming GeForce RTX 5070 OC Edition 12GB",
+    "brand": "ASUS",
+    "cat": "gpu",
+    "source": "https://www.asus.com/us/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx5070-o12g-gaming/techspec/",
+    "architecture": "Blackwell · PCIe 5.0",
+    "summary": "12 GB GDDR7 · TUF Gaming OC · triple fan",
+    "specs": {
+      "Memory": 12,
+      "Card length": 329,
+      "Card thickness": 62.5,
+      "Card height": 140
+    },
+    "note": "Exact named variant. Original 3D illustration uses the listed outer dimensions; surface details and mounting positions remain approximate.",
+    "sku": "TUF-RTX5070-O12G-GAMING",
+    "physical": {
+      "size": [
+        329,
+        62.5,
+        140
+      ],
+      "model": "retail-asus-tuf-gaming-geforce-rtx-5070-oc-edition-12gb",
+      "color": "#414850",
+      "fans": 3
+    }
+  },
+  {
+    "id": "retail-asus-tuf-gaming-radeon-rx-9070-xt-oc-edition-16gb",
+    "name": "TUF Gaming Radeon RX 9070 XT OC Edition 16GB",
+    "brand": "ASUS",
+    "cat": "gpu",
+    "source": "https://www.asus.com/us/motherboards-components/graphics-cards/tuf-gaming/tuf-rx9070xt-o16g-gaming/techspec/",
+    "architecture": "RDNA 4 · PCIe 5.0",
+    "summary": "16 GB GDDR6 · TUF Gaming OC · triple fan",
+    "specs": {
+      "Memory": 16,
+      "Card length": 330,
+      "Card thickness": 62.5,
+      "Card height": 140
+    },
+    "note": "Exact named variant. Original 3D illustration uses the listed outer dimensions; surface details and mounting positions remain approximate.",
+    "sku": "TUF-RX9070XT-O16G-GAMING",
+    "physical": {
+      "size": [
+        330,
+        62.5,
+        140
+      ],
+      "model": "retail-asus-tuf-gaming-radeon-rx-9070-xt-oc-edition-16gb",
+      "color": "#414850",
+      "fans": 3
+    }
+  },
+  {
+    "id": "retail-zotac-gaming-geforce-rtx-5070-solid",
+    "name": "GAMING GeForce RTX 5070 SOLID",
+    "brand": "ZOTAC",
+    "cat": "gpu",
+    "source": "https://www.zotac.com/us/product/graphics_card/zotac-gaming-geforce-rtx-5070-solid",
+    "architecture": "Blackwell · PCIe 5.0",
+    "summary": "12 GB GDDR7 · SOLID · triple fan",
+    "specs": {
+      "Memory": 12,
+      "Board power": 250,
+      "Card length": 304.4,
+      "Card thickness": 41.6,
+      "Card height": 115.8
+    },
+    "note": "Exact named variant. Original 3D illustration uses the listed outer dimensions; surface details and mounting positions remain approximate.",
+    "sku": "ZT-B50700D-10P",
+    "physical": {
+      "size": [
+        304.4,
+        41.6,
+        115.8
+      ],
+      "model": "retail-zotac-gaming-geforce-rtx-5070-solid",
+      "color": "#414850",
+      "fans": 3
+    }
+  },
+  {
+    "id": "retail-gigabyte-geforce-rtx-5070-windforce-oc-sff-12g",
+    "name": "GeForce RTX 5070 WINDFORCE OC SFF 12G",
+    "brand": "GIGABYTE",
+    "cat": "gpu",
+    "source": "https://www.gigabyte.com/Graphics-Card/GV-N5070WF3OC-12GD/sp",
+    "architecture": "Blackwell · PCIe 5.0",
+    "summary": "12 GB GDDR7 · WINDFORCE OC SFF · triple fan",
+    "specs": {
+      "Memory": 12,
+      "Card length": 282,
+      "Card thickness": 50,
+      "Card height": 110
+    },
+    "note": "Exact named variant. Original 3D illustration uses the listed outer dimensions; surface details and mounting positions remain approximate.",
+    "sku": "GV-N5070WF3OC-12GD",
+    "physical": {
+      "size": [
+        282,
+        50,
+        110
+      ],
+      "model": "retail-gigabyte-geforce-rtx-5070-windforce-oc-sff-12g",
+      "color": "#313a43",
+      "fans": 3
+    }
+  },
+  {
+    "id": "retail-asrock-radeon-rx-9070-xt-steel-legend-16gb",
+    "name": "Radeon RX 9070 XT Steel Legend 16GB",
+    "brand": "ASRock",
+    "cat": "gpu",
+    "source": "https://www.asrock.com/Graphics-Card/AMD/Radeon%20RX%209070%20XT%20Steel%20Legend%2016GB/index.us.asp",
+    "architecture": "RDNA 4 · PCIe 5.0",
+    "summary": "16 GB GDDR6 · Steel Legend · triple fan",
+    "specs": {
+      "Memory": 16,
+      "Card length": 298,
+      "Card thickness": 58,
+      "Card height": 131
+    },
+    "note": "Exact named variant. Original 3D illustration uses the listed outer dimensions; surface details and mounting positions remain approximate.",
+    "sku": "RX9070XT SL 16G",
+    "physical": {
+      "size": [
+        298,
+        58,
+        131
+      ],
+      "model": "retail-asrock-radeon-rx-9070-xt-steel-legend-16gb",
+      "color": "#dce8e9",
+      "fans": 3
+    }
+  },
+  {
     "id": "retail-msi-geforce-rtx-3060-ventus-2x-12g",
     "name": "GeForce RTX 3060 VENTUS 2X 12G",
     "brand": "MSI",
