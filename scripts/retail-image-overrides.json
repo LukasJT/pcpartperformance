@@ -11,6 +11,18 @@
     "official": true,
     "kind": "exact"
   },
+  "retail-msi-geforce-rtx-5070-ti-16g-ventus-3x-oc": {
+    "src": "/assets/hardware/msi-rtx5070ti-ventus-3x-oc.webp",
+    "picturedModel": "MSI GeForce RTX 5070 Ti 16G VENTUS 3X OC",
+    "sourceUrl": "https://www.msi.com/Graphics-Card/GeForce-RTX-5070-Ti-16G-VENTUS-3X-OC/Specification",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-RTX-5070-Ti-16G-VENTUS-3X-OC.pdf",
+    "attribution": "MSI",
+    "license": "Manufacturer product media",
+    "width": 1000,
+    "height": 800,
+    "official": true,
+    "kind": "exact"
+  },
   "retail-asus-prime-geforce-rtx-5070-oc-edition-12gb": {
     "src": "/assets/hardware/asus-prime-rtx5070-o12g.png",
     "picturedModel": "ASUS Prime GeForce RTX 5070 OC Edition 12GB",
@@ -32,6 +44,30 @@
     "license": "Manufacturer product media",
     "width": 1600,
     "height": 1600,
+    "official": true,
+    "kind": "exact"
+  },
+  "retail-asus-prime-geforce-rtx-5070-ti-oc-edition-16gb": {
+    "src": "/assets/hardware/asus-prime-rtx5070ti-o16g.webp",
+    "picturedModel": "ASUS Prime GeForce RTX 5070 Ti OC Edition 16GB",
+    "sourceUrl": "https://www.asus.com/us/motherboards-components/graphics-cards/prime/prime-rtx5070ti-o16g/",
+    "imageUrl": "https://dlcdnwebimgs.asus.com/gain/11a24dd6-9a6b-415a-9131-afad0064b16c/",
+    "attribution": "ASUS",
+    "license": "Manufacturer product media",
+    "width": 2400,
+    "height": 2400,
+    "official": true,
+    "kind": "exact"
+  },
+  "retail-asus-tuf-gaming-geforce-rtx-5070-ti-oc-edition-16gb": {
+    "src": "/assets/hardware/asus-tuf-rtx5070ti-o16g.webp",
+    "picturedModel": "ASUS TUF Gaming GeForce RTX 5070 Ti OC Edition 16GB",
+    "sourceUrl": "https://www.asus.com/us/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx5070ti-o16g-gaming/",
+    "imageUrl": "https://dlcdnwebimgs.asus.com/gain/a1ff0778-334d-4bc1-8862-7bfd44f2754b/",
+    "attribution": "ASUS",
+    "license": "Manufacturer product media",
+    "width": 2400,
+    "height": 2400,
     "official": true,
     "kind": "exact"
   },
@@ -71,11 +107,35 @@
     "official": true,
     "kind": "exact"
   },
+  "retail-gigabyte-geforce-rtx-5070-ti-windforce-oc-sff-16g": {
+    "src": "/assets/hardware/gigabyte-rtx5070ti-windforce-oc-sff.webp",
+    "picturedModel": "GIGABYTE GeForce RTX 5070 Ti WINDFORCE OC SFF 16G",
+    "sourceUrl": "https://www.gigabyte.com/Graphics-Card/GV-N507TWF3OC-16GD/gallery",
+    "imageUrl": "https://static.gigabyte.com/StaticFile/Image/Global/437ce2f58d3ba194f4d1a261c30355f0/ProductRemoveBg/43098/webp/800",
+    "attribution": "GIGABYTE",
+    "license": "Manufacturer product media",
+    "width": 800,
+    "height": 595,
+    "official": true,
+    "kind": "exact"
+  },
   "retail-asrock-radeon-rx-9070-xt-steel-legend-16gb": {
     "src": "/assets/hardware/asrock-rx9070xt-steel-legend.png",
     "picturedModel": "ASRock Radeon RX 9070 XT Steel Legend 16GB",
     "sourceUrl": "https://www.asrock.com/Graphics-Card/AMD/Radeon%20RX%209070%20XT%20Steel%20Legend%2016GB/index.us.asp",
     "imageUrl": "https://www.asrock.com/Graphics-Card/photo/Radeon%20RX%209070%20XT%20Steel%20Legend%2016GB(M1).png",
+    "attribution": "ASRock",
+    "license": "Manufacturer product media",
+    "width": 600,
+    "height": 500,
+    "official": true,
+    "kind": "exact"
+  },
+  "retail-asrock-radeon-rx-9070-xt-taichi-16gb-oc": {
+    "src": "/assets/hardware/asrock-rx9070xt-taichi-oc-front.png",
+    "picturedModel": "ASRock Radeon RX 9070 XT Taichi 16GB OC",
+    "sourceUrl": "https://www.asrock.com/Graphics-Card/AMD/Radeon%20RX%209070%20XT%20Taichi%2016GB%20OC/index.asp",
+    "imageUrl": "https://www.asrock.com/Graphics-Card/photo/Radeon%20RX%209070%20XT%20Taichi%2016GB%20OC(M2).png",
     "attribution": "ASRock",
     "license": "Manufacturer product media",
     "width": 600,

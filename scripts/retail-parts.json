@@ -1056,6 +1056,34 @@
     }
   },
   {
+    "id": "retail-msi-geforce-rtx-5070-ti-16g-ventus-3x-oc",
+    "name": "GeForce RTX 5070 Ti 16G VENTUS 3X OC",
+    "brand": "MSI",
+    "cat": "gpu",
+    "source": "https://www.msi.com/Graphics-Card/GeForce-RTX-5070-Ti-16G-VENTUS-3X-OC/Specification",
+    "architecture": "Blackwell · PCIe 5.0",
+    "summary": "16 GB GDDR7 · triple-fan Ventus 3X OC",
+    "specs": {
+      "Memory": 16,
+      "Board power": 300,
+      "Card length": 303,
+      "Card thickness": 49,
+      "Card height": 121
+    },
+    "note": "Exact named variant. Original 3D illustration uses the listed outer dimensions; surface details and mounting positions remain approximate.",
+    "sku": "G507T-16V3C",
+    "physical": {
+      "size": [
+        303,
+        49,
+        121
+      ],
+      "model": "retail-msi-geforce-rtx-5070-ti-16g-ventus-3x-oc",
+      "color": "#363b45",
+      "fans": 3
+    }
+  },
+  {
     "id": "retail-asus-prime-geforce-rtx-5070-oc-edition-12gb",
     "name": "Prime GeForce RTX 5070 OC Edition 12GB",
     "brand": "ASUS",
@@ -1105,6 +1133,60 @@
         140
       ],
       "model": "retail-asus-tuf-gaming-geforce-rtx-5070-oc-edition-12gb",
+      "color": "#414850",
+      "fans": 3
+    }
+  },
+  {
+    "id": "retail-asus-prime-geforce-rtx-5070-ti-oc-edition-16gb",
+    "name": "Prime GeForce RTX 5070 Ti OC Edition 16GB",
+    "brand": "ASUS",
+    "cat": "gpu",
+    "source": "https://www.asus.com/us/motherboards-components/graphics-cards/prime/prime-rtx5070ti-o16g/techspec/",
+    "architecture": "Blackwell · PCIe 5.0",
+    "summary": "16 GB GDDR7 · Prime OC · triple fan",
+    "specs": {
+      "Memory": 16,
+      "Card length": 304,
+      "Card thickness": 50,
+      "Card height": 126
+    },
+    "note": "Exact named variant. Original 3D illustration uses the listed outer dimensions; surface details and mounting positions remain approximate.",
+    "sku": "PRIME-RTX5070TI-O16G",
+    "physical": {
+      "size": [
+        304,
+        50,
+        126
+      ],
+      "model": "retail-asus-prime-geforce-rtx-5070-ti-oc-edition-16gb",
+      "color": "#292f38",
+      "fans": 3
+    }
+  },
+  {
+    "id": "retail-asus-tuf-gaming-geforce-rtx-5070-ti-oc-edition-16gb",
+    "name": "TUF Gaming GeForce RTX 5070 Ti OC Edition 16GB",
+    "brand": "ASUS",
+    "cat": "gpu",
+    "source": "https://www.asus.com/us/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx5070ti-o16g-gaming/techspec/",
+    "architecture": "Blackwell · PCIe 5.0",
+    "summary": "16 GB GDDR7 · TUF Gaming OC · triple fan",
+    "specs": {
+      "Memory": 16,
+      "Card length": 329,
+      "Card thickness": 62.5,
+      "Card height": 140
+    },
+    "note": "Exact named variant. Original 3D illustration uses the listed outer dimensions; surface details and mounting positions remain approximate.",
+    "sku": "TUF-RTX5070TI-O16G-GAMING",
+    "physical": {
+      "size": [
+        329,
+        62.5,
+        140
+      ],
+      "model": "retail-asus-tuf-gaming-geforce-rtx-5070-ti-oc-edition-16gb",
       "color": "#414850",
       "fans": 3
     }
@@ -1192,6 +1274,33 @@
     }
   },
   {
+    "id": "retail-gigabyte-geforce-rtx-5070-ti-windforce-oc-sff-16g",
+    "name": "GeForce RTX 5070 Ti WINDFORCE OC SFF 16G",
+    "brand": "GIGABYTE",
+    "cat": "gpu",
+    "source": "https://www.gigabyte.com/Graphics-Card/GV-N507TWF3OC-16GD/sp",
+    "architecture": "Blackwell · PCIe 5.0",
+    "summary": "16 GB GDDR7 · WINDFORCE OC SFF · triple fan",
+    "specs": {
+      "Memory": 16,
+      "Card length": 304,
+      "Card thickness": 50,
+      "Card height": 126
+    },
+    "note": "Exact named variant. Original 3D illustration uses the listed outer dimensions; surface details and mounting positions remain approximate.",
+    "sku": "GV-N507TWF3OC-16GD",
+    "physical": {
+      "size": [
+        304,
+        50,
+        126
+      ],
+      "model": "retail-gigabyte-geforce-rtx-5070-ti-windforce-oc-sff-16g",
+      "color": "#313a43",
+      "fans": 3
+    }
+  },
+  {
     "id": "retail-asrock-radeon-rx-9070-xt-steel-legend-16gb",
     "name": "Radeon RX 9070 XT Steel Legend 16GB",
     "brand": "ASRock",
@@ -1215,6 +1324,33 @@
       ],
       "model": "retail-asrock-radeon-rx-9070-xt-steel-legend-16gb",
       "color": "#dce8e9",
+      "fans": 3
+    }
+  },
+  {
+    "id": "retail-asrock-radeon-rx-9070-xt-taichi-16gb-oc",
+    "name": "Radeon RX 9070 XT Taichi 16GB OC",
+    "brand": "ASRock",
+    "cat": "gpu",
+    "source": "https://www.asrock.com/Graphics-Card/AMD/Radeon%20RX%209070%20XT%20Taichi%2016GB%20OC/index.asp",
+    "architecture": "RDNA 4 · PCIe 5.0",
+    "summary": "16 GB GDDR6 · Taichi OC · triple fan",
+    "specs": {
+      "Memory": 16,
+      "Card length": 330,
+      "Card thickness": 61,
+      "Card height": 140
+    },
+    "note": "Exact named variant. Original 3D illustration uses the listed outer dimensions; surface details and mounting positions remain approximate.",
+    "sku": "RX9070XT TC 16GO",
+    "physical": {
+      "size": [
+        330,
+        61,
+        140
+      ],
+      "model": "retail-asrock-radeon-rx-9070-xt-taichi-16gb-oc",
+      "color": "#252d36",
       "fans": 3
     }
   },

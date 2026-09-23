@@ -1,6 +1,8 @@
 const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path');
 const articles=[...require('./feature-articles.cjs'),...require('./blog-additions.cjs'),...require('./ai-articles.cjs')],models=JSON.parse(fs.readFileSync('dist/model-library.json','utf8'));
 assert.equal(new Set(models.items.map(x=>x.id)).size,models.items.length);assert.equal(models.total,models.verified+models.community+models.approximate+models.missing);
+assert.equal(models.missing,0,'Every builder component needs a loadable 3D preview');
+for(const p of models.items){if(p.estimated){assert.equal(p.identity,'category-silhouette');assert.equal(p.referenceOnly,false);assert.match(p.dimensionStatus,/assumed size/i)}}
 for(const p of models.items){assert.ok(p.source,p.id);if(p.model){assert.ok(p.rights&&p.dimensionStatus);assert.ok(fs.existsSync('dist'+p.model));assert.ok(['approximate','community'].includes(p.status));if(p.status==='community')assert.ok(p.attribution?.creator&&p.attribution?.licenseUrl&&p.attribution?.sourceUrl);const b=fs.readFileSync('dist'+p.model);assert.equal(b.readUInt32LE(0),0x46546c67);assert.equal(b.readUInt32LE(8),b.length)}else assert.equal(p.status,'missing')}
 assert.ok(fs.existsSync('dist/builder/model-credits/index.html'));
 const sitemap=fs.readFileSync('dist/sitemap.xml','utf8'),redirects=fs.readFileSync('dist/_redirects','utf8');
