@@ -532,5 +532,28 @@
       0
     ],
     "reviewed": "2026-09-24"
+  },
+  {
+    "id": "i312100f",
+    "asset": "sketchfab-intel12100f.glb",
+    "title": "Intel12100f",
+    "creator": "PolyDavid",
+    "creatorUrl": "https://sketchfab.com/PolyDavid",
+    "sourceUrl": "https://sketchfab.com/3d-models/intel12100f-0a8d100f3cc2480381abe7256bc7f986",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Consolidated static meshes into twelve drawing primitives and welded duplicate vertices without triangle simplification. Scaled to Intel package width and length; visual thickness remains approximate.",
+    "orientation": [
+      1.5707963267948966,
+      0,
+      0
+    ],
+    "dimensionsMm": [
+      37.5,
+      45,
+      5
+    ],
+    "dimensionStatus": "Intel specifies a 45 x 37.5 mm package. The 5 mm visual thickness and mounting geometry are approximate, not clearance-certified.",
+    "reviewed": "2026-09-24"
   }
 ]
