@@ -900,5 +900,30 @@
     "estimated": true,
     "dimensionStatus": "Approximate visual envelope scaled from scan proportions. Exact retail SKU, dimensions and mounting clearances are unverified.",
     "reviewed": "2026-09-24"
+  },
+  {
+    "id": "gtx1070",
+    "identity": "family-or-chip",
+    "asset": "sketchfab-gtx1070-scan.glb",
+    "title": "GTX 1070",
+    "creator": "johnnokomis",
+    "creatorUrl": "https://sketchfab.com/johnnokomis",
+    "sourceUrl": "https://sketchfab.com/3d-models/gtx-1070-f0300e188e3c4da8adf71329e065d796",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Downloaded the 1K GLB photogrammetry scan. Applied error-bounded simplification (ratio 0.12, error 0.001) and quantization, preserving source textures. Aligned the scan to its principal axes. Scanned fan and surface details are rough; the creator does not identify an exact retail SKU.",
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "dimensionsMm": [
+      270,
+      40,
+      115
+    ],
+    "estimated": true,
+    "dimensionStatus": "Approximate envelope; exact board partner SKU and physical clearances unverified.",
+    "reviewed": "2026-09-24"
   }
 ]
