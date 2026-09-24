@@ -138,3 +138,9 @@ dream_computer_setup.glb was downloaded from Daniel Cardona under CC BY 4.0. scr
 - Plane.004 (17children) is a perforated case panel, NOT motherboard; extracted plane004.glb41,355,388 bytes only for inspection. Plane.003 likely related panel. Full pack retains all source parts; need grouping investigation for board, CPU, RAM and chassis.
 - Temporary inspection HTML/assets removed from dist. Downloaded source remains outside deploy tree. Current integration count unchanged35/802.
 - Other focused source leads: ASUS B550-F original (not WiFiII) https://sketchfab.com/3d-models/asus-strix-b-550-f-gaming-motherboard-realistic-3eba5f45bed74fbeb2647de38047000f ; ASUS PrimeH510M-K https://sketchfab.com/3d-models/pc-motherboard-asus-prime-h510m-k-f9a6af88120f4a0f81cd4107ce533e3e (description incorrectly calls LGA1151, verify actual markings and official LGA1200 specs).
+
+## Extracted GALAX-style RTX2060 integrated — 2026-09-24
+- Used previously downloaded Yolala3D PC pack Cube.101 subtree, source/CCBY4 attribution preserved. Consolidated34 meshes to32 drawing primitives, welded vertices. Final3,785,612bytes.
+- Fan disk geometry is source Material.093 mesh (248tri), not alpha/texture loading failure. Preserved source rather than inventing blades. Creator identifies GALAX RTX2060 but exact retail variant not established; mapped existing generic rtx2060 with family-or-chip identity.
+- Approximate dimensions236.18x36x140.03 derived from source mesh proportions/assumed scale, NOT manufacturer dimensions. Added explicit estimated:true support in community manifest and validator; prevents asserting researched dimensions solely because model was downloaded.
+- Orientation[0,pi/2,0] browser verified back PCB upward, bracket left, side marking readable. Model inventory and SEO checks pass after correcting validator assumption. Coverage36/802 downloaded mappings,766 simplified. Other pack parts still need grouping; no live deploy claim.

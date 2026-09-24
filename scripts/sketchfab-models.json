@@ -668,5 +668,30 @@
     ],
     "dimensionStatus": "Manufacturer lists 160 x 150 x 86 mm for the 620 W version. Source family-level enclosure is normalized to that envelope; mounting coordinates and exact wattage identity remain unverified.",
     "reviewed": "2026-09-24"
+  },
+  {
+    "id": "rtx2060",
+    "identity": "family-or-chip",
+    "asset": "sketchfab-galax-rtx2060.glb",
+    "title": "GALAX RTX 2060 from CUSTOM GAMING PC",
+    "creator": "Yolala3D | Y3D",
+    "creatorUrl": "https://sketchfab.com/Yolala3d",
+    "sourceUrl": "https://sketchfab.com/3d-models/custom-gaming-pc-fbx-file-00bb790319c045058290dfbb4873f3ac",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Extracted the Cube.101 GPU subtree and its textures from the PC scene. Consolidated static geometry and welded duplicate vertices without triangle simplification. Source fan faces are solid disks and retained unchanged. Exact GALAX retail variant is unspecified.",
+    "orientation": [
+      0,
+      1.5707963267948966,
+      0
+    ],
+    "dimensionsMm": [
+      236.18,
+      36,
+      140.03
+    ],
+    "dimensionStatus": "Approximate visual dimensions derived from the source mesh proportions and assumed scene scale, not manufacturer dimensions. Generic RTX 2060 catalog entry; exact GALAX variant and clearances remain unverified.",
+    "reviewed": "2026-09-24",
+    "estimated": true
   }
 ]
