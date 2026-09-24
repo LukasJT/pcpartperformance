@@ -644,5 +644,29 @@
     ],
     "dimensionStatus": "Founders Edition visual envelope: 10.5-inch length and 4.376-inch height; 40.6 mm two-slot thickness is approximate. The generic GTX 1080 Ti entry does not identify a board partner. Not clearance-certified.",
     "reviewed": "2026-09-24"
+  },
+  {
+    "id": "retail-seasonic-m12ii-evo-620w",
+    "identity": "family-or-chip",
+    "asset": "sketchfab-seasonic-m12ii.glb",
+    "title": "Seasonic M12II Evo",
+    "creator": "mistz-ik",
+    "creatorUrl": "https://sketchfab.com/mistz-ik",
+    "sourceUrl": "https://sketchfab.com/3d-models/seasonic-m12ii-evo-c1a6f7445f1a4895a944c709162450c1",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Packed converted glTF into GLB and oriented to the manufacturer envelope. Original untextured enclosure geometry is retained. It omits fan, grille, labels, cables and connector detail; wattage cannot be established from the mesh.",
+    "orientation": [
+      0,
+      0,
+      1.5707963267948966
+    ],
+    "dimensionsMm": [
+      160,
+      86,
+      150
+    ],
+    "dimensionStatus": "Manufacturer lists 160 x 150 x 86 mm for the 620 W version. Source family-level enclosure is normalized to that envelope; mounting coordinates and exact wattage identity remain unverified.",
+    "reviewed": "2026-09-24"
   }
 ]

@@ -2023,5 +2023,29 @@
       "color": "#969a9c",
       "fans": 3
     }
+  },
+  {
+    "id": "retail-seasonic-m12ii-evo-620w",
+    "name": "M12II EVO 620W",
+    "brand": "Seasonic",
+    "cat": "psu",
+    "source": "https://seasonic.com/product/m12ii-evo/",
+    "architecture": "ATX / EPS · Fully modular",
+    "summary": "620 W · 80 PLUS Bronze",
+    "specs": {
+      "Rated output": 620,
+      "Fan size": 120
+    },
+    "note": "Discontinued model. Use specifications and exact cables for this revision. The available community mesh represents only the M12II EVO enclosure.",
+    "physical": {
+      "size": [
+        160,
+        86,
+        150
+      ],
+      "model": "retail-seasonic-m12ii-evo-620w",
+      "color": "#30343a",
+      "format": "ATX"
+    }
   }
 ]

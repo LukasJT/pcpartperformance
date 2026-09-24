@@ -123,3 +123,10 @@ dream_computer_setup.glb was downloaded from Daniel Cardona under CC BY 4.0. scr
 - Mapped gtx1080ti with family-or-chip identity: catalog generic chip does not identify a board partner. FE visual dimensions266.7x40.6x111.15mm, two-slot thickness approximate. NVIDIA official10series page and PNY official1080Ti reference specification support10.5x4.376inch card envelope. Not clearance-certified.
 - Browser checked both cooler and backplate, corrected upside-down orientation to[-pi/2,0,pi/2]. Builder displays backplate up. Model inventory/SEO checks pass. Coverage34/801 downloaded mappings,767 simplified.
 - Rechecked existing MSI5070GamingXTrio archive audit: retail box geometry, not card. No incorrect mapping added. Publishing authentication remains unavailable.
+
+## Seasonic M12II EVO enclosure added — 2026-09-24
+- Downloaded Seasonic M12II Evo by mistz-ik, CC BY4.0: https://sketchfab.com/3d-models/seasonic-m12ii-evo-c1a6f7445f1a4895a944c709162450c1 . ZIP6,006 bytes; extracted ../seasonicm12ii. Packed GLB26,972 bytes. Original source STL; retained converted untextured enclosure geometry.
+- Source bounds87x163x150mm; oriented[0,0,pi/2] and normalized to manufacturer620W envelope[160,86,150]. Official https://seasonic.com/product/m12ii-evo/ specifies160x150x86 for520/620,170x150x86 for750/850. Do not conflate variants.
+- Added620W catalog entry with family-or-chip identity and explicit credits limitation: this is enclosure-only geometry, no fan/grille/cables/labels and no wattage identification or clearance certification. Browser verifies shape and orientation. Added enclosure illustration as thumbnail; official photo not obtained (direct manufacturer request blocked), not misrepresented as photo.
+- Other PSU search findings: TrentPierce119c79e is DC electronics bench supply, unsuitable for PC; MuhammadKholis28df0f2 is unnamed educational PC PSU, no exact match established. Neither substituted for named catalog units.
+- Inventory/SEO checks pass. Coverage35/802 downloaded mappings,767 simplified. No live publication; authentication unavailable.
