@@ -1,6 +1,6 @@
 # Sketchfab asset audit
 
-Updated September 23, 2026. The builder has 794 components. Thirteen builder components currently use downloaded, attributed Sketchfab meshes; the other 781 use simplified geometry. Product pages also display four downloaded, attributed peripheral meshes. These are visual previews, not dimension-certified CAD models.
+Updated September 23, 2026. The builder has 794 components. Fifteen builder components currently use downloaded, attributed Sketchfab meshes; the other 779 use simplified geometry. Product pages also display four downloaded, attributed peripheral meshes. These are visual previews, not dimension-certified CAD models.
 
 | Site item | Sketchfab model | Creator | Result |
 | --- | --- | --- | --- |
@@ -17,12 +17,14 @@ Updated September 23, 2026. The builder has 794 components. Thirteen builder com
 | Lian Li UNI FAN SL120 RGB White | [SL120 White](https://sketchfab.com/3d-models/lian-li-uni-fan-sl120-rgb-white-151c28bb1bc9483a92728815cb0628ea) | DIEKO | In builder |
 | ASUS ROG Strix RTX 3090 White OC | [RTX 3090 White](https://sketchfab.com/3d-models/rtx-3090-asus-rog-strix-white-edition-videocard-506b1c68d24f4a9088ea0eaef41f7dd9) | Marcseus | In builder; stray detached object removed |
 | NZXT H500 | [H500 case](https://sketchfab.com/3d-models/nzxt-h500-pc-case-e0e3dbab28014eb19a123c1be69d42b3) | max.boylen | In builder; low-poly, tinted for black variant |
+| Intel Core i7-9700K | [Dream Computer Setup](https://sketchfab.com/3d-models/dream-computer-setup-82f78bbaf2d34f01af854a52151dbf49) | Daniel Cardona | CPU node extracted; creator names the processor |
+| NVIDIA GeForce RTX 2080 Ti | [Dream Computer Setup](https://sketchfab.com/3d-models/dream-computer-setup-82f78bbaf2d34f01af854a52151dbf49) | Daniel Cardona | RTX2080ti node extracted; generic catalog card |
 | Logitech G915 | [G915 scan](https://sketchfab.com/3d-models/logitech-g915-scan-d6976a965ed54808aaeff3b609189f01) | o-oualid | On product page |
 | Razer Viper Mini | [Viper Mini](https://sketchfab.com/3d-models/razer-viper-mini-85e1735704c645e5aaead0278a1038fe) | kimberly.h | On product page |
 | Logitech PRO X SUPERLIGHT | [Computer mouse](https://sketchfab.com/3d-models/computer-mouse-6e7940d9e2144efeae3468a906f27e07) | zhe_kan | On product page; creator says it was modeled after this product |
 | Logitech G502 X LIGHTSPEED | [G502 X LIGHTSPEED](https://sketchfab.com/3d-models/logitech-g502-x-lightspeed-cda7107cc1444b4788d747f0361f7d40) | Okopchi | On product page |
 
-These seventeen assets use CC BY 4.0; credits and source links appear at `/builder/model-credits/`. Product photos for the peripherals come from their manufacturers. The G502 X LIGHTSPEED was added to the catalog because the downloaded mesh names that specific variant, and its specifications and photo were checked against Logitech.
+These nineteen component assets use CC BY 4.0; credits and source links appear at `/builder/model-credits/`. Product photos for the peripherals come from their manufacturers. The G502 X LIGHTSPEED was added to the catalog because the downloaded mesh names that specific variant, and its specifications and photo were checked against Logitech.
 
 ## Inspected downloads not published as product models
 
@@ -34,3 +36,7 @@ These seventeen assets use CC BY 4.0; credits and source links appear at `/build
 - The AMD Wraith Stealth cooler, Corsair fan, Corsair H150i cooler, and Corsair Dominator RGB files do not establish exact catalog SKU matches. `lian-li.zip` did not convert from its source DAE. None were assigned to a different item.
 
 Peripheral coverage is currently 23 keyboards, 25 mice, and zero mousepads in the site catalog. Four peripherals have the downloaded 3D views above. Finding 50 accurately named, manufacturer-photographed items in **each** peripheral category with separate commercially usable 3D assets remains outstanding. A generic or mismatched mesh should not be presented as an exact item.
+
+## Full-scene extraction follow-up
+
+dream_computer_setup.glb was downloaded from Daniel Cardona under CC BY 4.0. scripts/extract-static-glb.cjs extracts named static nodes while preserving ancestor transforms and only the referenced geometry/material/texture byte ranges. CPU and RTX2080ti are integrated and visually tested. MotherBoard (node 4, creator identifies ASUS Z370-E Gaming) and Case (node 1391, creator identifies Thermaltake Core P5) remain to be extracted, matched to newly researched catalog entries and tested. RAM and other parts need exact identity checks before assignment. The original file is in the user Downloads directory.

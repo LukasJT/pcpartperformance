@@ -82,7 +82,11 @@
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
     "changes": "Converted GLB from Sketchfab. Exterior material tinted charcoal to match the catalog's black H500 variant; normalized to the case envelope. Low-poly model omits fine chassis details.",
-    "orientation": [0, 0, 0],
+    "orientation": [
+      0,
+      0,
+      0
+    ],
     "reviewed": "2026-09-23"
   },
   {
@@ -95,7 +99,11 @@
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
     "changes": "Converted GLB from Sketchfab. Removed detached Cube.281, which lay far outside the card and distorted scaling. Normalized to the card envelope. Creator does not model detailed internal components.",
-    "orientation": [0, 0, 0],
+    "orientation": [
+      0,
+      0,
+      0
+    ],
     "reviewed": "2026-09-23"
   },
   {
@@ -108,7 +116,11 @@
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
     "changes": "Normalized scale and centered for the PC builder preview.",
-    "orientation": [1.5707963267948966, 0, 0],
+    "orientation": [
+      1.5707963267948966,
+      0,
+      0
+    ],
     "reviewed": "2026-09-23"
   },
   {
@@ -121,7 +133,11 @@
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
     "changes": "Normalized scale and centered for the PC builder preview.",
-    "orientation": [1.5707963267948966, 0, 0],
+    "orientation": [
+      1.5707963267948966,
+      0,
+      0
+    ],
     "dimensionStatus": "Community model shows the processor appearance; exact package height is not confirmed by its creator. Normalized to an illustrative 40 × 40 × 5 mm envelope, not a clearance-certified CAD model.",
     "reviewed": "2026-09-23"
   },
@@ -135,7 +151,11 @@
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
     "changes": "Normalized scale and centered for the PC builder preview.",
-    "orientation": [1.5707963267948966, 0, 0],
+    "orientation": [
+      1.5707963267948966,
+      0,
+      0
+    ],
     "dimensionStatus": "Community low-poly appearance normalized to an illustrative 40 × 40 × 5 mm package envelope; not a clearance-certified CAD model.",
     "reviewed": "2026-09-23"
   },
@@ -149,7 +169,11 @@
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
     "changes": "Normalized scale and centered for the PC builder preview.",
-    "orientation": [0, 0, 0],
+    "orientation": [
+      0,
+      0,
+      0
+    ],
     "reviewed": "2026-09-23"
   },
   {
@@ -163,7 +187,11 @@
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
     "changes": "Scaled and oriented for the PC builder preview. The creator did not identify a retail board partner or exact card SKU.",
-    "orientation": [0, 0, 0],
+    "orientation": [
+      0,
+      0,
+      0
+    ],
     "dimensionStatus": "Community interpretation of an RTX 3060 Ti, normalized to an illustrative 240 × 42 × 115 mm envelope. This does not identify an exact retail model or certify clearance.",
     "reviewed": "2026-09-23"
   },
@@ -177,7 +205,11 @@
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
     "changes": "Normalized scale and oriented for the PC builder preview.",
-    "orientation": [1.5707963267948966, 0, 0],
+    "orientation": [
+      1.5707963267948966,
+      0,
+      0
+    ],
     "reviewed": "2026-09-23"
   },
   {
@@ -190,7 +222,49 @@
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
     "changes": "Normalized scale and oriented for the PC builder preview.",
-    "orientation": [1.5707963267948966, 0, 0],
+    "orientation": [
+      1.5707963267948966,
+      0,
+      0
+    ],
+    "reviewed": "2026-09-23"
+  },
+  {
+    "id": "i79700k",
+    "asset": "sketchfab-intel-i7-9700k.glb",
+    "title": "Core i7-9700K from Dream Computer Setup",
+    "identity": "exact-model",
+    "creator": "Daniel Cardona",
+    "creatorUrl": "https://sketchfab.com/DanielCardonaArt",
+    "sourceUrl": "https://sketchfab.com/3d-models/dream-computer-setup-82f78bbaf2d34f01af854a52151dbf49",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Extracted named component from the creator’s full PC scene. Removed unrelated meshes and binary data; retained component geometry, materials and transforms. Normalized for the builder.",
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "dimensionStatus": "Community appearance normalized to an illustrative package envelope; mounting and clearance dimensions are not certified.",
+    "reviewed": "2026-09-23"
+  },
+  {
+    "id": "rtx2080ti",
+    "asset": "sketchfab-rtx2080ti.glb",
+    "title": "GeForce RTX 2080 Ti from Dream Computer Setup",
+    "identity": "family-or-chip",
+    "creator": "Daniel Cardona",
+    "creatorUrl": "https://sketchfab.com/DanielCardonaArt",
+    "sourceUrl": "https://sketchfab.com/3d-models/dream-computer-setup-82f78bbaf2d34f01af854a52151dbf49",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Extracted named component from the creator’s full PC scene. Removed unrelated meshes and binary data; retained component geometry, materials and transforms. Normalized for the builder.",
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "dimensionStatus": "Community appearance normalized to an illustrative package envelope; mounting and clearance dimensions are not certified.",
     "reviewed": "2026-09-23"
   }
 ]
