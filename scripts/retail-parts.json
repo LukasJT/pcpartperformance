@@ -2253,6 +2253,37 @@
     }
   },
   {
+    "id": "retail-asus-maximus-vi-formula",
+    "name": "MAXIMUS VI FORMULA",
+    "brand": "ASUS",
+    "cat": "board",
+    "source": "https://dlcdnets.asus.com/pub/ASUS/mb/LGA1150/MAXIMUS-VI-FORMULA/E8336_Maximus_VI_Formula.pdf",
+    "architecture": "LGA1150 · DDR3 · ATX",
+    "summary": "Intel Z87 · four DIMM slots · ten SATA ports",
+    "specs": {
+      "Socket": "LGA1150",
+      "Memory type": "DDR3",
+      "Form factor": "ATX",
+      "DIMM slots": 4,
+      "M.2 slots": 0,
+      "SATA ports": 10,
+      "Max RAM": 32
+    },
+    "note": "Fourth-generation Intel platform. The optional mPCIe Combo II storage position is not an onboard NVMe slot. Check the manual and CPU support list before assembly.",
+    "year": 2013,
+    "physical": {
+      "size": [
+        244,
+        305,
+        50
+      ],
+      "model": "retail-asus-maximus-vi-formula",
+      "color": "#303438",
+      "board": true,
+      "dimensionStatus": "ASUS board outline 305 × 244 mm. Preview height of 50 mm and mounting coordinates are approximate."
+    }
+  },
+  {
     "id": "retail-asus-rog-maximus-z690-formula",
     "name": "ROG MAXIMUS Z690 FORMULA",
     "brand": "ASUS",

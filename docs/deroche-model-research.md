@@ -11,7 +11,7 @@ Downloaded archive: ../deroche-boards/source.glb (14,761,696 bytes).
 - Texture evidence: ../deroche-boards/texture-readable.png. Original texture unchanged in model.
 - Official specification source: https://dlcdnets.asus.com/pub/ASUS/mb/LGA1150/MAXIMUS-VI-FORMULA/E8336_Maximus_VI_Formula.pdf
 - LGA1150, Z87, DDR3, ATX 305 x 244 mm, 10 SATA connectors. M.2 requires mPCIe Combo II and is not a standard onboard NVMe position.
-- Pending: catalog entry, exact product photo, orientation/render verification, creator credit entry.
+- Integrated as retail-asus-maximus-vi-formula with creator credit and official ASUS product-history image. Browser orientation verified.
 - ASUS support page image currently returns an image-unavailable placeholder. Do not ship it as a product photo.
 - This model uses a shared rear-I/O texture, not an exact port representation.
 

@@ -961,5 +961,23 @@
     ],
     "dimensionStatus": "Manufacturer board outline 305 × 244 mm. The 50 mm preview height, surface details, rear I/O and mounting coordinates are approximate; not clearance-certified.",
     "reviewed": "2026-09-24"
+  },
+  {
+    "id": "retail-asus-maximus-vi-formula",
+    "asset": "sketchfab-asus-maximus-vi-formula.glb",
+    "title": "ASUS Maximus VI Formula from Motherboards",
+    "creator": "Vivien Deroche",
+    "creatorUrl": "https://sketchfab.com/blue-odym",
+    "sourceUrl": "https://sketchfab.com/3d-models/motherboards-1f048989362d402d80302e2f87e3580e",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Extracted Cube.075_2, preserving ancestor transforms. Consolidated static geometry and pruned unused attributes. Model identified from the MAXIMUS VI FORMULA marking and manufacturer imagery. Source uses grayscale surfaces and a shared rear-I/O texture; these differ from the exact retail finish and port arrangement. Reduced high metalness to 0.35 and increased roughness to at least 0.4 for visibility under direct preview lighting.",
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "dimensionStatus": "Manufacturer PCB outline 305 × 244 mm. Preview thickness of 50 mm and mounting coordinates are approximate; not clearance-certified.",
+    "reviewed": "2026-09-24"
   }
 ]
