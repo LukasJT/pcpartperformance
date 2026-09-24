@@ -827,5 +827,28 @@
     ],
     "dimensionStatus": "Manufacturer external envelope 465 × 459 × 285 mm. Community geometry and mounting placements are approximate; not a clearance-certified CAD model.",
     "reviewed": "2026-09-24"
+  },
+  {
+    "id": "i78700",
+    "asset": "sketchfab-intel-i7-8700.glb",
+    "title": "Intel Core i7-8700 from PC For 3D Rendering",
+    "creator": "piksidiksi47",
+    "creatorUrl": "https://sketchfab.com/piksidiksi47",
+    "sourceUrl": "https://sketchfab.com/3d-models/pc-for-3d-rendering-1c45e1c52d4a4c23b9649ec8a6200c81",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Extracted the static CPU_79 subtree, preserving its source materials and modeled markings. Excluded unrelated animated fans and the rest of the PC. Consolidated static meshes and pruned unused attributes without triangle simplification.",
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "dimensionsMm": [
+      37.5,
+      37.5,
+      3.1
+    ],
+    "dimensionStatus": "Intel specifies 37.5 × 37.5 mm package size. Preview thickness of 3.1 mm is approximate; contact and mounting geometry are not clearance-certified.",
+    "reviewed": "2026-09-24"
   }
 ]

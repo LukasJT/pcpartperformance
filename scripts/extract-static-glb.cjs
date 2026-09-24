@@ -14,7 +14,6 @@ function localResource(uri) {
 }
 if(external && (doc.buffers.length!==1 || !doc.buffers[0].uri))throw Error('Expected one external buffer');
 const binary = external ? fs.readFileSync(localResource(doc.buffers[0].uri)) : input.subarray(end + 8);
-if(doc.animations?.length||doc.skins?.length)throw Error('Static scenes only');
 const names=name.startsWith('@')?JSON.parse(fs.readFileSync(name.slice(1),'utf8')):[name];
 const matches=names.map(label=>{
   const ids=doc.nodes.map((n,i)=>n.name===label?i:-1).filter(i=>i>=0);
@@ -29,6 +28,7 @@ for(const selected of matches){
   while (true) { const parent = doc.nodes.findIndex(n => n.children?.includes(root)); if (parent < 0) break; keep.add(parent); root = parent; }
   roots.add(root);
 }
+if((doc.animations||[]).some(a=>a.channels.some(c=>keep.has(c.target.node))))throw Error('Selected component or ancestor is animated');
 const maps = {};
 function take(key, indices) {
   const ids = [...new Set(indices)].sort((a,b) => a-b);
