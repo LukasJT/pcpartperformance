@@ -343,14 +343,14 @@
   },
   {
     "id": "x-case-corsair-4000d-airflow",
-    "asset": "sketchfab-corsair-4000d-airflow.glb",
+    "asset": "sketchfab-corsair-4000d-airflow-v2.glb",
     "title": "Corsair 4000D Airflow (Free)",
     "creator": "Kirigami",
     "creatorUrl": "https://sketchfab.com/kirigami318",
     "sourceUrl": "https://sketchfab.com/3d-models/corsair-4000d-airflow-free-34df3ba96cf94e71accdb5779c4b8694",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-    "changes": "Downloaded glTF packed into a self-contained GLB, preserving geometry and textures. Scaled and oriented for the builder.",
+    "changes": "Downloaded glTF packed into GLB. Pure-black opaque material factors adjusted to dark charcoal for legibility under studio lighting. Geometry, transparency and textures preserved; scaled and oriented for the builder.",
     "orientation": [
       0,
       0,
