@@ -711,5 +711,24 @@
     ],
     "dimensionStatus": "ASUS specifies a 305 x 244 mm board. The 50 mm preview height and component/mounting positions are approximate, not clearance-certified. Original B550-F GAMING appearance, not WIFI II.",
     "reviewed": "2026-09-24"
+  },
+  {
+    "id": "retail-samsung-sm883-960gb",
+    "identity": "family-or-chip",
+    "asset": "sketchfab-samsung-sm883.glb",
+    "title": "Sata Samsung SM883 SSD",
+    "creator": "PolyDavid",
+    "creatorUrl": "https://sketchfab.com/PolyDavid",
+    "sourceUrl": "https://sketchfab.com/3d-models/sata-samsung-sm883-ssd-09cd60eca56e45f38ec670fc8f848b6f",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Downloaded the 2K GLB, consolidated static nodes and pruned unused attributes. Preserved original low-poly enclosure and textures. Source does not identify a capacity-specific label.",
+    "orientation": [
+      1.5707963267948966,
+      0,
+      0
+    ],
+    "dimensionStatus": "Samsung SM883 datasheet specifies 100.20 x 69.85 x 6.80 mm. Enclosure appearance is shared across capacities; connectors and mounting positions remain unverified.",
+    "reviewed": "2026-09-24"
   }
 ]

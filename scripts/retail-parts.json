@@ -1207,6 +1207,34 @@
     }
   },
   {
+    "id": "retail-samsung-sm883-960gb",
+    "name": "SM883 960GB",
+    "brand": "Samsung",
+    "cat": "ssd",
+    "source": "https://semiconductor.samsung.com/ssd/datacenter-ssd/sm883/",
+    "architecture": "SATA 6 Gb/s · 2.5-inch",
+    "summary": "960 GB · enterprise SATA SSD · MLC NAND",
+    "specs": {
+      "Capacity": 960,
+      "Sequential read": 540,
+      "Sequential write": 520,
+      "Form factor": "2.5-inch",
+      "Interface": "SATA 6 Gb/s"
+    },
+    "note": "Discontinued enterprise SSD. Requires SATA data and power connections. Check remaining endurance and condition when buying used.",
+    "sku": "MZ7KH960HAJR-00005",
+    "physical": {
+      "size": [
+        69.85,
+        100.2,
+        6.8
+      ],
+      "model": "retail-samsung-sm883-960gb",
+      "color": "#242629",
+      "dimensionStatus": "Samsung SM883 datasheet lists 100.20 × 69.85 × 6.80 mm. Community mesh shows the enclosure; mounting and connector coordinates are not clearance-verified."
+    }
+  },
+  {
     "id": "retail-msi-geforce-rtx-5070-12g-ventus-3x-oc",
     "name": "GeForce RTX 5070 12G VENTUS 3X OC",
     "brand": "MSI",
