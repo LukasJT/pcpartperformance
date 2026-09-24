@@ -875,5 +875,30 @@
     "estimated": true,
     "dimensionStatus": "Approximate visual envelope of 225 × 40 × 121 mm for this community interpretation. Exact Gigabyte SKU, dimensions and mounting clearances are unverified.",
     "reviewed": "2026-09-24"
+  },
+  {
+    "id": "rx580",
+    "identity": "family-or-chip",
+    "asset": "sketchfab-rx580-scan.glb",
+    "title": "GPU RX 580",
+    "creator": "Alan2738",
+    "creatorUrl": "https://sketchfab.com/Alan2738",
+    "sourceUrl": "https://sketchfab.com/3d-models/gpu-rx-580-6b3db05319be48028321ac94c4834bcb",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Downloaded the 1K GLB of the creator’s RX 580 photogrammetry scan. Applied error-bounded simplification (ratio 0.3, error 0.001) and quantization. Retained scanned surfaces and textures. Exact board-partner SKU is not identified. The scan has an unfinished, flat rear surface; this limitation is retained from the source.",
+    "orientation": [
+      1.5707963267948966,
+      0,
+      0
+    ],
+    "dimensionsMm": [
+      240,
+      35.4,
+      121.5
+    ],
+    "estimated": true,
+    "dimensionStatus": "Approximate visual envelope scaled from scan proportions. Exact retail SKU, dimensions and mounting clearances are unverified.",
+    "reviewed": "2026-09-24"
   }
 ]
