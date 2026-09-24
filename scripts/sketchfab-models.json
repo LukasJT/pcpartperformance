@@ -1055,5 +1055,41 @@
     ],
     "dimensionStatus": "Approximate 7 × 133 × 35 mm module envelope. Heatspreader appearance matches the product family; kit specification and mounting coordinates are not established by the mesh.",
     "reviewed": "2026-09-24"
+  },
+  {
+    "id": "7600",
+    "asset": "sketchfab-ryzen-5-7600.glb",
+    "title": "AMD Ryzen 5 7600 CPU chip (AM5 socket)",
+    "creator": "arsdever",
+    "creatorUrl": "https://sketchfab.com/arsdever",
+    "sourceUrl": "https://sketchfab.com/3d-models/amd-ryzen-5-7600-cpu-chip-am5-socket-a05c2732e0b847c2967e2c9282abd5f9",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Downloaded GLB, flattened transforms and pruned unused attributes. Source heatspreader texture explicitly identifies AMD Ryzen 5 7600. Rotated and normalized for the builder.",
+    "orientation": [
+      1.5707963267948966,
+      0,
+      0
+    ],
+    "dimensionStatus": "Community model normalized to an approximate 40 × 40 × 5 mm package envelope. Mounting, contacts and cooler clearance are not independently certified.",
+    "reviewed": "2026-09-24"
+  },
+  {
+    "id": "i57600k",
+    "asset": "sketchfab-intel-i5-7600k.glb",
+    "title": "intel CPU — Core i5-7600K",
+    "creator": "c261469t",
+    "creatorUrl": "https://sketchfab.com/c261469t",
+    "sourceUrl": "https://sketchfab.com/3d-models/intel-cpu-8c0d548906fa49a4870c9b5d67a610d7",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Downloaded GLB, flattened static transforms and removed unused attributes. Creator explicitly identifies Core i5-7600K in the description. Original stylized colors and geometry retained; normalized to CPU package envelope.",
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "dimensionStatus": "Approximate package envelope used for visualization. Stylized community geometry, contacts and cooler clearance are not independently verified.",
+    "reviewed": "2026-09-24"
   }
 ]
