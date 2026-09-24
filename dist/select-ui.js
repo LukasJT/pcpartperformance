@@ -51,7 +51,7 @@
       button.setAttribute('role', 'option'); button.setAttribute('aria-selected', String(option.value === active.value)); button.tabIndex = -1;
       const asset = typeof photos !== 'undefined' ? photos[option.value] : null;
       if (asset) { const img = document.createElement('img'); img.src = asset.src; img.alt = ''; img.width = 52; img.height = 42; img.loading = 'lazy'; button.append(img); }
-      const text = document.createElement('span'); text.textContent = option.textContent;const part=typeof catalog!=='undefined'?catalog.find(p=>p.id===option.value):null;if(part){const details=document.createElement('small');details.textContent=part.brand+' · '+part.summary;text.append(details)}button.append(text);
+      const text = document.createElement('span'); const part=typeof catalog!=='undefined'?catalog.find(p=>p.id===option.value):null;text.textContent = part ? part.name : option.textContent;if(part){const details=document.createElement('small');const brandInTitle=part.name.toLocaleLowerCase().includes(part.brand.toLocaleLowerCase());details.textContent=[brandInTitle?'':part.brand,part.summary].filter(Boolean).join(' · ');text.append(details)}button.append(text);
       const mark = document.createElement('span'); mark.className = 'select-check'; mark.setAttribute('aria-hidden','true'); mark.textContent = option.value === active.value ? '✓' : ''; button.append(mark);
       button.addEventListener('click', () => choose(i)); results.append(button);
     });
