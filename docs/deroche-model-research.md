@@ -17,7 +17,7 @@ Downloaded archive: ../deroche-boards/source.glb (14,761,696 bytes).
 
 ## NZXT board
 - Source subtree: Cube.074_1 (node 3).
-- NZXT marking and black full-cover armor visible. Exact N7 generation still needs identification before assigning a catalog SKU.
+- Identified as N7 Z370 Black using matching cover and expansion-slot layout. Integrated as retail-nzxt-n7-z370-black, with manufacturer specifications and matching MotherboardDB photo. Browser orientation verified.
 
 ## Already integrated
 - Plane.079_3: ASUS ROG Strix B550-F Gaming Wi-Fi, commit aedf877.

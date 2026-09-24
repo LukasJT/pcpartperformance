@@ -2284,6 +2284,37 @@
     }
   },
   {
+    "id": "retail-nzxt-n7-z370-black",
+    "name": "N7 Z370 Black",
+    "brand": "NZXT",
+    "cat": "board",
+    "source": "https://support.nzxt.com/hc/en-us/articles/4409160779163-NZXT-N7-Z370-Product-Information-and-Downloads",
+    "architecture": "LGA1151 · DDR4 · ATX",
+    "summary": "Intel Z370 · four DIMM slots · two M.2 slots",
+    "specs": {
+      "Socket": "LGA1151",
+      "Memory type": "DDR4",
+      "Form factor": "ATX",
+      "DIMM slots": 4,
+      "M.2 slots": 2,
+      "SATA ports": 4,
+      "Max RAM": 64
+    },
+    "note": "Intel eighth-generation platform; check the NZXT CPU support list and BIOS version for later CPU support. Earlier LGA1151 processors are not compatible.",
+    "year": 2018,
+    "physical": {
+      "size": [
+        244,
+        305,
+        43
+      ],
+      "model": "retail-nzxt-n7-z370-black",
+      "color": "#22272b",
+      "board": true,
+      "dimensionStatus": "NZXT external envelope 305 × 244 × 43 mm. Community geometry and mounting coordinates remain approximate."
+    }
+  },
+  {
     "id": "retail-asus-rog-maximus-z690-formula",
     "name": "ROG MAXIMUS Z690 FORMULA",
     "brand": "ASUS",

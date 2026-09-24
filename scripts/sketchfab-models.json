@@ -979,5 +979,23 @@
     ],
     "dimensionStatus": "Manufacturer PCB outline 305 × 244 mm. Preview thickness of 50 mm and mounting coordinates are approximate; not clearance-certified.",
     "reviewed": "2026-09-24"
+  },
+  {
+    "id": "retail-nzxt-n7-z370-black",
+    "asset": "sketchfab-nzxt-n7-z370-black.glb",
+    "title": "NZXT N7 Z370 Black from Motherboards",
+    "creator": "Vivien Deroche",
+    "creatorUrl": "https://sketchfab.com/blue-odym",
+    "sourceUrl": "https://sketchfab.com/3d-models/motherboards-1f048989362d402d80302e2f87e3580e",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Extracted Cube.074_1 from the downloaded collection, preserving ancestor transforms. Consolidated static geometry and pruned unused attributes. Identified through the matching board cover, slot layout and product photograph. Source includes shared socket and rear-I/O textures rather than exact port detail.",
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "dimensionStatus": "NZXT specifies 305 × 244 × 43 mm. Surface geometry and mounting coordinates are approximate, not clearance-certified.",
+    "reviewed": "2026-09-24"
   }
 ]
