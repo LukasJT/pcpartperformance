@@ -730,5 +730,23 @@
     ],
     "dimensionStatus": "Samsung SM883 datasheet specifies 100.20 x 69.85 x 6.80 mm. Enclosure appearance is shared across capacities; connectors and mounting positions remain unverified.",
     "reviewed": "2026-09-24"
+  },
+  {
+    "id": "retail-asus-prime-h510m-k",
+    "asset": "sketchfab-asus-h510mk.glb",
+    "title": "PC motherboard ASUS Prime H510M-K",
+    "creator": "zhigulinsky",
+    "creatorUrl": "https://sketchfab.com/vladikzhil",
+    "sourceUrl": "https://sketchfab.com/3d-models/pc-motherboard-asus-prime-h510m-k-f9a6af88120f4a0f81cd4107ce533e3e",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Packed glTF into GLB, consolidated static meshes, pruned unused attributes and applied error-bounded simplification and geometry quantization. Original textures retained. Creator description incorrectly states LGA1151; catalog compatibility follows ASUS LGA1200 specifications.",
+    "orientation": [
+      1.5707963267948966,
+      0,
+      0
+    ],
+    "dimensionStatus": "ASUS specifies 226 x 203 mm PCB dimensions. Preview height of 40 mm and mounting geometry remain approximate and are not clearance-certified.",
+    "reviewed": "2026-09-24"
   }
 ]

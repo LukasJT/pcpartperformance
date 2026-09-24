@@ -1235,6 +1235,35 @@
     }
   },
   {
+    "id": "retail-asus-prime-h510m-k",
+    "name": "PRIME H510M-K",
+    "brand": "ASUS",
+    "cat": "board",
+    "source": "https://www.asus.com/motherboards-components/motherboards/prime/prime-h510m-k/techspec/",
+    "architecture": "LGA1200 · DDR4 · Micro-ATX",
+    "summary": "Intel H510 · two memory slots · one M.2 slot",
+    "specs": {
+      "Socket": "LGA1200",
+      "Memory type": "DDR4",
+      "Form factor": "Micro-ATX",
+      "DIMM slots": 2,
+      "M.2 slots": 1,
+      "SATA ports": 4
+    },
+    "note": "Supports selected 10th and 11th generation Intel processors. An M.2 SATA drive disables SATA6G_2. Confirm CPU BIOS support and the exact board revision.",
+    "physical": {
+      "size": [
+        203,
+        226,
+        40
+      ],
+      "model": "retail-asus-prime-h510m-k",
+      "color": "#2b3032",
+      "board": true,
+      "dimensionStatus": "ASUS specifies a 226 × 203 mm PCB. The 40 mm preview height and mounting coordinates are approximate."
+    }
+  },
+  {
     "id": "retail-msi-geforce-rtx-5070-12g-ventus-3x-oc",
     "name": "GeForce RTX 5070 12G VENTUS 3X OC",
     "brand": "MSI",
