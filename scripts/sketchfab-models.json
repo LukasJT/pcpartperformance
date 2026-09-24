@@ -1091,5 +1091,23 @@
     ],
     "dimensionStatus": "Approximate package envelope used for visualization. Stylized community geometry, contacts and cooler clearance are not independently verified.",
     "reviewed": "2026-09-24"
+  },
+  {
+    "id": "3600",
+    "asset": "sketchfab-ryzen-5-3600.glb",
+    "title": "AMD Ryzen — Ryzen 5 3600",
+    "creator": "Zambur",
+    "creatorUrl": "https://sketchfab.com/Zambur",
+    "sourceUrl": "https://sketchfab.com/3d-models/amd-ryzen-a40ff370b7534232864f4ec2f101dd1c",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Downloaded 1K-texture GLB. Heatspreader texture explicitly identifies AMD Ryzen 5 3600. Consolidated 1,771 static meshes into one draw primitive, simplified with ratio 0.4 and error 0.001, quantized attributes and normalized for the builder.",
+    "orientation": [
+      1.5707963267948966,
+      -1.5707963267948966,
+      0
+    ],
+    "dimensionStatus": "Community appearance normalized to an approximate 40 × 40 × 5 mm package envelope. Pin positions and cooler clearance are not independently verified.",
+    "reviewed": "2026-09-24"
   }
 ]
