@@ -1015,5 +1015,45 @@
     ],
     "dimensionStatus": "Manufacturer envelope 80.15 × 22.15 × 2.38 mm. Surface details and connector coordinates are approximate, not clearance-certified.",
     "reviewed": "2026-09-24"
+  },
+  {
+    "id": "kingston6000",
+    "identity": "family-or-chip",
+    "estimated": true,
+    "asset": "sketchfab-kingston-fury-beast-ddr5.glb",
+    "title": "Kingston FURY DDR5 Low Poly",
+    "creator": "cityon360",
+    "creatorUrl": "https://sketchfab.com/cityon360",
+    "sourceUrl": "https://sketchfab.com/3d-models/kingston-fury-ddr5-low-poly-bcb196fb929843f485e61fc75727e915",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Downloaded GLB, rotated and normalized for upright DIMM placement. Source texture identifies the black non-RGB FURY Beast DDR5 heatspreader. Repeated per selected kit module count. Source does not establish capacity, transfer rate or timing.",
+    "orientation": [
+      0,
+      0,
+      1.5707963267948966
+    ],
+    "dimensionStatus": "Approximate 7 × 133 × 35 mm module envelope. Heatspreader appearance matches the product family; kit specification and mounting coordinates are not established by the mesh.",
+    "reviewed": "2026-09-24"
+  },
+  {
+    "id": "c-ram-kingston-fury-beast-32gb-ddr5-5600-cl36",
+    "identity": "family-or-chip",
+    "estimated": true,
+    "asset": "sketchfab-kingston-fury-beast-ddr5.glb",
+    "title": "Kingston FURY DDR5 Low Poly",
+    "creator": "cityon360",
+    "creatorUrl": "https://sketchfab.com/cityon360",
+    "sourceUrl": "https://sketchfab.com/3d-models/kingston-fury-ddr5-low-poly-bcb196fb929843f485e61fc75727e915",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Downloaded GLB, rotated and normalized for upright DIMM placement. Source texture identifies the black non-RGB FURY Beast DDR5 heatspreader. Repeated per selected kit module count. Source does not establish capacity, transfer rate or timing.",
+    "orientation": [
+      0,
+      0,
+      1.5707963267948966
+    ],
+    "dimensionStatus": "Approximate 7 × 133 × 35 mm module envelope. Heatspreader appearance matches the product family; kit specification and mounting coordinates are not established by the mesh.",
+    "reviewed": "2026-09-24"
   }
 ]
