@@ -1264,6 +1264,34 @@
     }
   },
   {
+    "id": "retail-western-digital-caviar-se-wd800jd-80gb",
+    "name": "Caviar SE WD800JD 80GB",
+    "brand": "Western Digital",
+    "cat": "hdd",
+    "source": "https://www.manualsonline.com/manuals/mfg/western_digital/wd800jd.html",
+    "architecture": "SATA 1.5 Gb/s · 3.5-inch",
+    "summary": "80 GB · 7,200 RPM · 8 MB cache",
+    "specs": {
+      "Capacity": 80,
+      "RPM": 7200,
+      "Cache": 8,
+      "Interface": "SATA 1.5 Gb/s",
+      "Form factor": "3.5-inch"
+    },
+    "note": "Legacy drive for older systems. Check the exact suffix, power connectors and condition before use.",
+    "sku": "WD800JD",
+    "physical": {
+      "size": [
+        147,
+        26.1,
+        101.6
+      ],
+      "model": "retail-western-digital-caviar-se-wd800jd-80gb",
+      "color": "#626970",
+      "dimensionStatus": "Approximate 3.5-inch drive envelope of 147 × 101.6 × 26.1 mm; exact revision dimensions and mounting positions remain unverified."
+    }
+  },
+  {
     "id": "retail-msi-geforce-rtx-5070-12g-ventus-3x-oc",
     "name": "GeForce RTX 5070 12G VENTUS 3X OC",
     "brand": "MSI",

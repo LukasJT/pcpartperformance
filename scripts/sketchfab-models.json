@@ -748,5 +748,24 @@
     ],
     "dimensionStatus": "ASUS specifies 226 x 203 mm PCB dimensions. Preview height of 40 mm and mounting geometry remain approximate and are not clearance-certified.",
     "reviewed": "2026-09-24"
+  },
+  {
+    "id": "retail-western-digital-caviar-se-wd800jd-80gb",
+    "asset": "sketchfab-wd800jd.glb",
+    "title": "WD Caviar SE WD800JD from Hard Drive-SF",
+    "creator": "Giannis Galatsis",
+    "creatorUrl": "https://sketchfab.com/johnrock",
+    "sourceUrl": "https://sketchfab.com/3d-models/hard-drive-sf-e03abb1edf7a42d69f99ae5aa7a852c0",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Identified WD800JD 80 GB from the drive label texture. Packed glTF into GLB and pruned unused attributes without simplifying the geometry. Retained original materials and textures; scaled to an approximate 3.5-inch envelope.",
+    "orientation": [
+      0,
+      1.5707963267948966,
+      0
+    ],
+    "estimated": true,
+    "dimensionStatus": "Approximate 147 x 101.6 x 26.1 mm 3.5-inch envelope; exact WD800JD revision dimensions and mounting coordinates remain unverified.",
+    "reviewed": "2026-09-24"
   }
 ]
