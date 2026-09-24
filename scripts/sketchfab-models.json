@@ -943,5 +943,23 @@
     ],
     "dimensionStatus": "Manufacturer outline 244 × 205 mm; preview height of 40 mm, mounting locations and connector geometry are approximate, not clearance-certified.",
     "reviewed": "2026-09-24"
+  },
+  {
+    "id": "retail-asus-rog-strix-b550-f-gaming-wi-fi",
+    "asset": "sketchfab-asus-b550f-wifi.glb",
+    "title": "ROG Strix B550-F Gaming Wi-Fi from Motherboards",
+    "creator": "Vivien Deroche",
+    "creatorUrl": "https://sketchfab.com/blue-odym",
+    "sourceUrl": "https://sketchfab.com/3d-models/motherboards-1f048989362d402d80302e2f87e3580e",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Extracted Plane.079_3 from the downloaded GLB collection, preserving ancestor transforms and materials. Consolidated static meshes and pruned unused attributes. Board identified from its printed model marking. Source rear I/O texture is shared with other boards and is not an exact port representation.",
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "dimensionStatus": "Manufacturer board outline 305 × 244 mm. The 50 mm preview height, surface details, rear I/O and mounting coordinates are approximate; not clearance-certified.",
+    "reviewed": "2026-09-24"
   }
 ]
