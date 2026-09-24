@@ -2047,5 +2047,35 @@
       "color": "#30343a",
       "format": "ATX"
     }
+  },
+  {
+    "id": "retail-asus-rog-strix-b550-f-gaming",
+    "name": "ROG STRIX B550-F GAMING",
+    "brand": "ASUS",
+    "cat": "board",
+    "source": "https://rog.asus.com/us/motherboards/rog-strix/rog-strix-b550-f-gaming-model/spec/",
+    "architecture": "AM4 · DDR4 · ATX",
+    "summary": "AMD B550 · four memory slots · two M.2 slots",
+    "specs": {
+      "Socket": "AM4",
+      "Memory type": "DDR4",
+      "Form factor": "ATX",
+      "DIMM slots": 4,
+      "M.2 slots": 2,
+      "SATA ports": 6,
+      "Max RAM": 128
+    },
+    "note": "Original non-Wi-Fi model. Populating M.2_2 disables SATA ports 5 and 6. Confirm CPU BIOS support before assembly.",
+    "physical": {
+      "size": [
+        244,
+        305,
+        50
+      ],
+      "model": "retail-asus-rog-strix-b550-f-gaming",
+      "color": "#272c32",
+      "board": true,
+      "dimensionStatus": "ASUS specifies a 305 × 244 mm PCB. The 50 mm visual height is approximate; mounting geometry is unverified."
+    }
   }
 ]

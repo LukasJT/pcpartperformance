@@ -693,5 +693,23 @@
     "dimensionStatus": "Approximate visual dimensions derived from the source mesh proportions and assumed scene scale, not manufacturer dimensions. Generic RTX 2060 catalog entry; exact GALAX variant and clearances remain unverified.",
     "reviewed": "2026-09-24",
     "estimated": true
+  },
+  {
+    "id": "retail-asus-rog-strix-b550-f-gaming",
+    "asset": "sketchfab-asus-b550f.glb",
+    "title": "Asus Strix b-550-f Gaming Motherboard Realistic",
+    "creator": "MUSHROOM_BUILDS",
+    "creatorUrl": "https://sketchfab.com/MUSHROOM_BUILDS",
+    "sourceUrl": "https://sketchfab.com/3d-models/asus-strix-b-550-f-gaming-motherboard-realistic-3eba5f45bed74fbeb2647de38047000f",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Downloaded the 1K-texture GLB. Consolidated static meshes, welded vertices, applied error-bounded simplification and quantized geometry for web delivery. Creator notes inaccuracies in the back texture. Scaled and oriented for the builder.",
+    "orientation": [
+      1.5707963267948966,
+      0,
+      0
+    ],
+    "dimensionStatus": "ASUS specifies a 305 x 244 mm board. The 50 mm preview height and component/mounting positions are approximate, not clearance-certified. Original B550-F GAMING appearance, not WIFI II.",
+    "reviewed": "2026-09-24"
   }
 ]
