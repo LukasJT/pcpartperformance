@@ -572,5 +572,53 @@
       0
     ],
     "reviewed": "2026-09-24"
+  },
+  {
+    "id": "tforcedelta6000",
+    "identity": "family-or-chip",
+    "asset": "sketchfab-tforce-ddr5-black.glb",
+    "title": "DDR5 RAM - Teamgroup T-Force Black",
+    "creator": "PolyDavid",
+    "creatorUrl": "https://sketchfab.com/PolyDavid",
+    "sourceUrl": "https://sketchfab.com/3d-models/ddr5-ram-teamgroup-t-force-black-268614943df3411bb6487a9601adc03f",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Consolidated static geometry into eleven drawing primitives and welded duplicate vertices without triangle simplification. Scaled to the manufacturer DELTA RGB DDR5 envelope. The shared black heat spreader does not establish capacity, speed or timings.",
+    "orientation": [
+      0,
+      1.5707963267948966,
+      1.5707963267948966
+    ],
+    "dimensionsMm": [
+      7,
+      144.2,
+      46.1
+    ],
+    "dimensionStatus": "TEAMGROUP specifies 46.1 x 144.2 x 7 mm for DELTA RGB DDR5. Shared black heat-spreader appearance; kit capacity, speed, timings and connector detail are not certified by the mesh.",
+    "reviewed": "2026-09-24"
+  },
+  {
+    "id": "tforce7600",
+    "identity": "family-or-chip",
+    "asset": "sketchfab-tforce-ddr5-black.glb",
+    "title": "DDR5 RAM - Teamgroup T-Force Black",
+    "creator": "PolyDavid",
+    "creatorUrl": "https://sketchfab.com/PolyDavid",
+    "sourceUrl": "https://sketchfab.com/3d-models/ddr5-ram-teamgroup-t-force-black-268614943df3411bb6487a9601adc03f",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Consolidated static geometry into eleven drawing primitives and welded duplicate vertices without triangle simplification. Scaled to the manufacturer DELTA RGB DDR5 envelope. The shared black heat spreader does not establish capacity, speed or timings.",
+    "orientation": [
+      0,
+      1.5707963267948966,
+      1.5707963267948966
+    ],
+    "dimensionsMm": [
+      7,
+      144.2,
+      46.1
+    ],
+    "dimensionStatus": "TEAMGROUP specifies 46.1 x 144.2 x 7 mm for DELTA RGB DDR5. Shared black heat-spreader appearance; kit capacity, speed, timings and connector detail are not certified by the mesh.",
+    "reviewed": "2026-09-24"
   }
 ]
