@@ -997,5 +997,23 @@
     ],
     "dimensionStatus": "NZXT specifies 305 × 244 × 43 mm. Surface geometry and mounting coordinates are approximate, not clearance-certified.",
     "reviewed": "2026-09-24"
+  },
+  {
+    "id": "retail-samsung-970-evo-2-tb",
+    "asset": "sketchfab-samsung-970-evo-2tb.glb",
+    "title": "Samsung 970 EVO 2 TB from MotherBoard + Components",
+    "creator": "Daniel Cardona",
+    "creatorUrl": "https://sketchfab.com/DanielCardonaArt",
+    "sourceUrl": "https://sketchfab.com/3d-models/motherboard-components-3bc94057328243d4b341a55f59160f8a",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Extracted the M2 subtree with ancestor transforms. Consolidated 29 meshes into 6 draw primitives and removed unused resources. Drive identified from the source texture reading 970 EVO 2TB and the creator description. Scaled to manufacturer dimensions for preview.",
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "dimensionStatus": "Manufacturer envelope 80.15 × 22.15 × 2.38 mm. Surface details and connector coordinates are approximate, not clearance-certified.",
+    "reviewed": "2026-09-24"
   }
 ]
