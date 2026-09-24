@@ -1,6 +1,6 @@
 # Sketchfab asset audit
 
-Updated September 23, 2026. The builder has 794 components. Eleven builder components currently use downloaded, attributed Sketchfab meshes; the other 783 use simplified geometry. Product pages also display four downloaded, attributed peripheral meshes. These are visual previews, not dimension-certified CAD models.
+Updated September 23, 2026. The builder has 794 components. Thirteen builder components currently use downloaded, attributed Sketchfab meshes; the other 781 use simplified geometry. Product pages also display four downloaded, attributed peripheral meshes. These are visual previews, not dimension-certified CAD models.
 
 | Site item | Sketchfab model | Creator | Result |
 | --- | --- | --- | --- |
@@ -15,18 +15,20 @@ Updated September 23, 2026. The builder has 794 components. Eleven builder compo
 | GeForce RTX 3060 Ti | [RTX 3060 Ti low poly](https://sketchfab.com/3d-models/rtx-3060-ti-low-poly-b65c5c0807be4ece9a95090d1a1794bb) | Up1x | In builder; generic interpretation, not a specific board-partner SKU |
 | Lian Li UNI FAN SL120 RGB Black | [SL120 Black](https://sketchfab.com/3d-models/lian-li-uni-fan-sl120-rgb-black-5abd0d8e89ea4241b7216f4b6d5a2ca4) | DIEKO | In builder; converted GLB has visible fan geometry |
 | Lian Li UNI FAN SL120 RGB White | [SL120 White](https://sketchfab.com/3d-models/lian-li-uni-fan-sl120-rgb-white-151c28bb1bc9483a92728815cb0628ea) | DIEKO | In builder |
+| ASUS ROG Strix RTX 3090 White OC | [RTX 3090 White](https://sketchfab.com/3d-models/rtx-3090-asus-rog-strix-white-edition-videocard-506b1c68d24f4a9088ea0eaef41f7dd9) | Marcseus | In builder; stray detached object removed |
+| NZXT H500 | [H500 case](https://sketchfab.com/3d-models/nzxt-h500-pc-case-e0e3dbab28014eb19a123c1be69d42b3) | max.boylen | In builder; low-poly, tinted for black variant |
 | Logitech G915 | [G915 scan](https://sketchfab.com/3d-models/logitech-g915-scan-d6976a965ed54808aaeff3b609189f01) | o-oualid | On product page |
 | Razer Viper Mini | [Viper Mini](https://sketchfab.com/3d-models/razer-viper-mini-85e1735704c645e5aaead0278a1038fe) | kimberly.h | On product page |
 | Logitech PRO X SUPERLIGHT | [Computer mouse](https://sketchfab.com/3d-models/computer-mouse-6e7940d9e2144efeae3468a906f27e07) | zhe_kan | On product page; creator says it was modeled after this product |
 | Logitech G502 X LIGHTSPEED | [G502 X LIGHTSPEED](https://sketchfab.com/3d-models/logitech-g502-x-lightspeed-cda7107cc1444b4788d747f0361f7d40) | Okopchi | On product page |
 
-These fifteen assets use CC BY 4.0; credits and source links appear at `/builder/model-credits/`. Product photos for the peripherals come from their manufacturers. The G502 X LIGHTSPEED was added to the catalog because the downloaded mesh names that specific variant, and its specifications and photo were checked against Logitech.
+These seventeen assets use CC BY 4.0; credits and source links appear at `/builder/model-credits/`. Product photos for the peripherals come from their manufacturers. The G502 X LIGHTSPEED was added to the catalog because the downloaded mesh names that specific variant, and its specifications and photo were checked against Logitech.
 
 ## Inspected downloads not published as product models
 
-- The [ASUS ROG Strix RTX 3090 White](https://sketchfab.com/3d-models/rtx-3090-asus-rog-strix-white-edition-videocard-506b1c68d24f4a9088ea0eaef41f7dd9) source was converted but rendered as a narrow strip in the browser. Its product record and official ASUS photo remain in the catalog; the broken mesh was excluded.
+- The ASUS ROG Strix RTX 3090 White now renders in the builder. The source contained a detached Cube.281 far outside the card, which distorted normalization. The preparation script removes only that detached object; the creator’s card geometry and materials remain. Browser inspection confirmed the full card.
 - Earlier local conversions of the Lian Li UNI FAN SL120 files rendered as featureless slabs. Fresh converted GLBs downloaded from the creators' Sketchfab pages were tested in the builder and replaced those attempts.
-- The [NZXT H500](https://sketchfab.com/3d-models/nzxt-h500-pc-case-e0e3dbab28014eb19a123c1be69d42b3) FBX converted to a blank-looking white shell. Its record remains but the imported mesh was excluded.
+- The NZXT H500 now uses the converted Sketchfab GLB with its texture intact. The material is tinted charcoal for the black catalog variant. Browser inspection confirmed the open chassis, PSU shroud and cable bar. It is a 304-triangle model and omits fine chassis details.
 - The downloaded `nvidia-geforce-rtx-5070-msi-gaming-x-trio.zip` depicts a retail package, not the GPU. It was not assigned to the card.
 - The downloaded `nvidia-geforce-rtx-3090.zip` has a noncommercial license and was not included in the commercial site.
 - The AMD Wraith Stealth cooler, Corsair fan, Corsair H150i cooler, and Corsair Dominator RGB files do not establish exact catalog SKU matches. `lian-li.zip` did not convert from its source DAE. None were assigned to a different item.

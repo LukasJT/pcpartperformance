@@ -73,6 +73,32 @@
     "reviewed": "2026-09-23"
   },
   {
+    "id": "retail-nzxt-h500",
+    "asset": "sketchfab-nzxt-h500.glb",
+    "title": "NZXT H500 PC Case",
+    "creator": "max.boylen",
+    "creatorUrl": "https://sketchfab.com/max.boylen",
+    "sourceUrl": "https://sketchfab.com/3d-models/nzxt-h500-pc-case-e0e3dbab28014eb19a123c1be69d42b3",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Converted GLB from Sketchfab. Exterior material tinted charcoal to match the catalog's black H500 variant; normalized to the case envelope. Low-poly model omits fine chassis details.",
+    "orientation": [0, 0, 0],
+    "reviewed": "2026-09-23"
+  },
+  {
+    "id": "retail-asus-rog-strix-geforce-rtx-3090-white-oc-edition-24gb",
+    "asset": "sketchfab-asus-rtx3090-strix-white.glb",
+    "title": "RTX 3090 Asus ROG STRIX White Edition videocard",
+    "creator": "Marcseus",
+    "creatorUrl": "https://sketchfab.com/Marcseus",
+    "sourceUrl": "https://sketchfab.com/3d-models/rtx-3090-asus-rog-strix-white-edition-videocard-506b1c68d24f4a9088ea0eaef41f7dd9",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Converted GLB from Sketchfab. Removed detached Cube.281, which lay far outside the card and distorted scaling. Normalized to the card envelope. Creator does not model detailed internal components.",
+    "orientation": [0, 0, 0],
+    "reviewed": "2026-09-23"
+  },
+  {
     "id": "990pro",
     "asset": "sketchfab-samsung-990-pro-1tb.glb",
     "title": "M.2 NVME SSD Samsung 990 Pro 1TB 3D model",
