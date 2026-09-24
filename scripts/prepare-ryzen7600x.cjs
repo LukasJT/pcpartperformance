@@ -1,0 +1,3 @@
+// Repair the creator-noted stray plane and adapt bare metal to the builder's direct lighting.
+const path=require('path');const root=path.resolve(process.argv[2]);const {NodeIO}=require(path.join(root,'node_modules/@gltf-transform/core'));const {ALL_EXTENSIONS}=require(path.join(root,'node_modules/@gltf-transform/extensions'));
+(async()=>{const io=new NodeIO().registerExtensions(ALL_EXTENSIONS),doc=await io.read(process.argv[3]);const stray=doc.getRoot().listNodes().find(n=>n.getName()==='Object_6');if(!stray)throw Error('Expected source plane missing');stray.dispose();const metal=doc.getRoot().listMaterials().find(m=>m.getName()==='Matte_Metallic');metal.setMetallicFactor(.35).setRoughnessFactor(.55);await io.write(process.argv[4],doc)})();

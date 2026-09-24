@@ -498,5 +498,22 @@
     "dimensionStatus": "NVIDIA length and width; 40.6 mm visual thickness estimated from two-slot design. NVIDIA recommends a 61 mm clearance envelope. Not clearance-certified.",
     "identity": "family-or-chip",
     "reviewed": "2026-09-23"
+  },
+  {
+    "id": "7600x",
+    "asset": "sketchfab-ryzen7600x.glb",
+    "title": "AMD Ryzen 5 7600X",
+    "creator": "PolyDavid",
+    "creatorUrl": "https://sketchfab.com/PolyDavid",
+    "sourceUrl": "https://sketchfab.com/3d-models/amd-ryzen-5-7600x-964e3c2ed57e40c38712d3b67b3be5d2",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Removed the creator-noted stray plane Object_6. Adapted heat-spreader metallic and roughness values for direct lighting. Consolidated static meshes into seven draw primitives without triangle simplification; scaled and oriented for builder preview.",
+    "orientation": [
+      1.5707963267948966,
+      0,
+      0
+    ],
+    "reviewed": "2026-09-23"
   }
 ]

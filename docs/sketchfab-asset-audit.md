@@ -84,3 +84,10 @@ dream_computer_setup.glb was downloaded from Daniel Cardona under CC BY 4.0. scr
 - Sketchfab_model.002_121: RTX5090 Founders Edition -> rtx5090, 5,192,900 bytes, NVIDIA length304 and width137mm; visual two-slot thickness40.6mm estimated. Manufacturer61mm required clearance separately documented, not conflated with geometry thickness.
 - RTX5090 and ArcB580 remain family-or-chip mappings because existing catalog entries do not select a board partner. They do not represent all variants.
 - All use [pi/2,0,0] orientation and render in the builder. Temporary inspection page removed. Coverage27/800 downloaded;773 simplified. No clearance-certified models. Inventory and SEO checks pass. Authenticated publication remains unavailable.
+
+## Ryzen 5 7600X integrated — 2026-09-24
+- Downloaded AMD Ryzen5 7600X by PolyDavid, CC BY4.0: https://sketchfab.com/3d-models/amd-ryzen-5-7600x-964e3c2ed57e40c38712d3b67b3be5d2 . ZIP13,816,099 bytes in Downloads; extracted ../ryzen7600x.
+- Source includes creator-noted unwanted plane. Object_6 has x bounds[-3.6346,-0.0658], extending past the CPU centered near0; removed that node. Preserved substrate and contact geometry.
+- Set Matte_Metallic metallic=.35,roughness=.55 so heat spreader renders under the site's direct lighting; source metal looked black without an environment map.
+- Added scripts/prepare-ryzen7600x.cjs and reusable optimize-static-glb.cjs. Uses @gltf-transform/core,functions,extensions4.5.0 installed outside repo in ../model-tools. Static meshes flattened/joined, no triangle simplification.2,089 meshes reduced to7 draw primitives.
+- Integrated7600x, orientation[pi/2,0,0]. Browser screenshots verify the processor marking, no stray plane, correct orientation in builder. Coverage28/800 downloaded,772 simplified. Model/SEO checks pass. No clearance certification or live publication claimed.
