@@ -2191,5 +2191,83 @@
       "rgb": true,
       "dimensionStatus": "Corsair lists 135 × 8 × 56 mm per DDR5 DOMINATOR PLATINUM RGB module. Community appearance does not establish exact timings or capacity."
     }
+  },
+  {
+    "id": "retail-asus-rog-maximus-z690-formula",
+    "name": "ROG MAXIMUS Z690 FORMULA",
+    "brand": "ASUS",
+    "cat": "board",
+    "source": "https://rog.asus.com/us/motherboards/rog-maximus/rog-maximus-z690-formula-model/spec/",
+    "architecture": "LGA1700 · DDR5 · ATX",
+    "summary": "Intel Z690 · four DIMM slots · Wi-Fi 6E",
+    "specs": {
+      "Socket": "LGA1700",
+      "Memory type": "DDR5",
+      "Form factor": "ATX",
+      "DIMM slots": 4,
+      "M.2 slots": 3,
+      "SATA ports": 6,
+      "Max RAM": 192
+    },
+    "note": "Three onboard M.2 slots; two additional positions require the ROG Hyper M.2 expansion card. CPU and memory support depend on BIOS and configuration. Check ASUS support before assembly.",
+    "physical": {
+      "size": [
+        244,
+        305,
+        50
+      ],
+      "model": "retail-asus-rog-maximus-z690-formula",
+      "color": "#eeeef0",
+      "board": true,
+      "dimensionStatus": "Standard ATX 305 × 244 mm board. Preview height of 50 mm and mounting geometry are approximate."
+    }
+  },
+  {
+    "id": "retail-lian-li-o11-dynamic-evo-white",
+    "name": "O11 Dynamic EVO White",
+    "brand": "Lian Li",
+    "cat": "case",
+    "source": "https://lian-li.com/product/o11-dynamic-evo/",
+    "architecture": "ATX / Micro-ATX / Mini-ITX / E-ATX under 280 mm",
+    "summary": "White dual-chamber case · glass front and side",
+    "specs": {
+      "Maximum GPU length": 426,
+      "Maximum PSU length": 220,
+      "CPU cooler clearance": 167
+    },
+    "note": "Normal chassis orientation. Optional mesh-front and upright-GPU accessories are not included in the preview. Confirm radiator and cable clearances with the manufacturer.",
+    "sku": "O11DEW",
+    "physical": {
+      "size": [
+        465,
+        459,
+        285
+      ],
+      "model": "retail-lian-li-o11-dynamic-evo-white",
+      "color": "#eeeeef",
+      "dual": true,
+      "glassFront": true,
+      "psuFormats": [
+        "ATX"
+      ],
+      "mounts": {
+        "top": {
+          "120": 3,
+          "140": 2
+        },
+        "side": {
+          "120": 3,
+          "140": 2
+        },
+        "bottom": {
+          "120": 3,
+          "140": 2
+        },
+        "rear": {
+          "120": 1
+        }
+      },
+      "dimensionStatus": "Lian Li specifies depth 465 mm, height 459 mm, width 285 mm. Community geometry is normalized to this envelope; mounting details remain approximate."
+    }
   }
 ]

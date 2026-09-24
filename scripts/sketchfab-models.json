@@ -791,5 +791,41 @@
     ],
     "dimensionStatus": "Corsair module dimensions: 135 × 8 × 56 mm. Creator identifies white 64 GB DDR5, but exact speed and timings are not encoded in the mesh. Shared enclosure appearance; not clearance-certified.",
     "reviewed": "2026-09-24"
+  },
+  {
+    "id": "retail-asus-rog-maximus-z690-formula",
+    "asset": "sketchfab-asus-z690-formula.glb",
+    "title": "ASUS ROG MAXIMUS Z690 FORMULA from Gaming Computer",
+    "creator": "Marcseus",
+    "creatorUrl": "https://sketchfab.com/Marcseus",
+    "sourceUrl": "https://sketchfab.com/3d-models/gaming-computer-7cf383ddfe9047f89435b4fc2a6e1053",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Extracted motherboard groups 26–801 using the named-node recipe in scripts/model-extractions/marcseus-z690-formula.json. Excluded case, RAM, GPU and cooler geometry. Consolidated static meshes without triangle simplification. Retained source materials and textures. Reduced very high metalness to 0.35 and roughness to at least 0.4 for readable white surfaces under direct viewer lighting.",
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "dimensionStatus": "ATX 305 × 244 mm outline. The 50 mm visual height and mounting, socket and connector coordinates are approximate, not clearance-certified.",
+    "reviewed": "2026-09-24"
+  },
+  {
+    "id": "retail-lian-li-o11-dynamic-evo-white",
+    "asset": "sketchfab-lianli-o11-evo-white.glb",
+    "title": "Lian Li O11 Dynamic EVO White from Gaming Computer",
+    "creator": "Marcseus",
+    "creatorUrl": "https://sketchfab.com/Marcseus",
+    "sourceUrl": "https://sketchfab.com/3d-models/gaming-computer-7cf383ddfe9047f89435b4fc2a6e1053",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Extracted case chassis and vent panels using scripts/model-extractions/marcseus-o11-evo-white.json. Removed installed components from the scene. Applied error-bounded simplification (ratio 0.02, error 0.002), consolidation and quantization to the extremely dense vent meshes. Adapted high-metalness surfaces to direct viewer lighting. Preview shows an open chassis without glass panels.",
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "dimensionStatus": "Manufacturer external envelope 465 × 459 × 285 mm. Community geometry and mounting placements are approximate; not a clearance-certified CAD model.",
+    "reviewed": "2026-09-24"
   }
 ]
