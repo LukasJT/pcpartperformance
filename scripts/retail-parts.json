@@ -2162,5 +2162,34 @@
       "board": true,
       "dimensionStatus": "ASUS specifies a 305 × 244 mm PCB. The 50 mm visual height is approximate; mounting geometry is unverified."
     }
+  },
+  {
+    "id": "retail-corsair-dominator-platinum-rgb-64gb-ddr5-5200-cl38-white",
+    "name": "DOMINATOR PLATINUM RGB 64GB DDR5-5200 CL38 White",
+    "brand": "CORSAIR",
+    "cat": "ram",
+    "source": "https://www.corsair.com/us/en/p/memory/cmt64gx5m4b5200c38w/dominatora-platinum-rgb-64gb-4x16gb-ddr5-dram-5200mhz-c38-memory-kit-a-white-cmt64gx5m4b5200c38w",
+    "architecture": "DDR5 · Intel XMP 3.0",
+    "summary": "64 GB · 4 × 16 GB · 5200 MT/s · CL38",
+    "specs": {
+      "Memory": 64,
+      "Modules": 4,
+      "Speed": 5200,
+      "Latency": 38,
+      "Memory type": "DDR5"
+    },
+    "note": "Four-DIMM kit. Rated XMP speed depends on CPU and motherboard support. Check the motherboard memory support list.",
+    "sku": "CMT64GX5M4B5200C38W",
+    "physical": {
+      "size": [
+        8,
+        135,
+        56
+      ],
+      "model": "retail-corsair-dominator-platinum-rgb-64gb-ddr5-5200-cl38-white",
+      "color": "#e9e9e7",
+      "rgb": true,
+      "dimensionStatus": "Corsair lists 135 × 8 × 56 mm per DDR5 DOMINATOR PLATINUM RGB module. Community appearance does not establish exact timings or capacity."
+    }
   }
 ]

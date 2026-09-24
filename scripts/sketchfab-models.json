@@ -767,5 +767,29 @@
     "estimated": true,
     "dimensionStatus": "Approximate 147 x 101.6 x 26.1 mm 3.5-inch envelope; exact WD800JD revision dimensions and mounting coordinates remain unverified.",
     "reviewed": "2026-09-24"
+  },
+  {
+    "id": "retail-corsair-dominator-platinum-rgb-64gb-ddr5-5200-cl38-white",
+    "identity": "family-or-chip",
+    "asset": "sketchfab-corsair-dominator-ddr5-white.glb",
+    "title": "White Corsair DOMINATOR PLATINUM RGB DDR5 from Gaming Computer",
+    "creator": "Marcseus",
+    "creatorUrl": "https://sketchfab.com/Marcseus",
+    "sourceUrl": "https://sketchfab.com/3d-models/gaming-computer-7cf383ddfe9047f89435b4fc2a6e1053",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Extracted one complete white memory module from the downloaded scene using the 25 nodes recorded in scripts/model-extractions/marcseus-dominator-white.json. Excluded motherboard sockets and the other three modules. Consolidated static geometry and pruned unused resources. Builder repeats this module four times for the kit.",
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "dimensionsMm": [
+      8,
+      135,
+      56
+    ],
+    "dimensionStatus": "Corsair module dimensions: 135 × 8 × 56 mm. Creator identifies white 64 GB DDR5, but exact speed and timings are not encoded in the mesh. Shared enclosure appearance; not clearance-certified.",
+    "reviewed": "2026-09-24"
   }
 ]
