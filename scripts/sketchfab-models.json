@@ -925,5 +925,23 @@
     "estimated": true,
     "dimensionStatus": "Approximate envelope; exact board partner SKU and physical clearances unverified.",
     "reviewed": "2026-09-24"
+  },
+  {
+    "id": "retail-gigabyte-b450m-s2h",
+    "asset": "sketchfab-gigabyte-b450m-s2h.glb",
+    "title": "Gigabyte B450M S2H (motherboard am4)",
+    "creator": "Temoor",
+    "creatorUrl": "https://sketchfab.com/Temooor",
+    "sourceUrl": "https://sketchfab.com/3d-models/motherboard-am4-783d063a29424571bfb4c9b7b490b75f",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Downloaded the 1K GLB. Consolidated static geometry from 115 meshes to 14 draw primitives and pruned unused attributes without triangle simplification. Retained source textures and materials.",
+    "orientation": [
+      1.5707963267948966,
+      0,
+      0
+    ],
+    "dimensionStatus": "Manufacturer outline 244 × 205 mm; preview height of 40 mm, mounting locations and connector geometry are approximate, not clearance-certified.",
+    "reviewed": "2026-09-24"
   }
 ]

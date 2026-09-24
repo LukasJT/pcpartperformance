@@ -2193,6 +2193,36 @@
     }
   },
   {
+    "id": "retail-gigabyte-b450m-s2h",
+    "name": "B450M S2H",
+    "brand": "GIGABYTE",
+    "cat": "board",
+    "source": "https://www.gigabyte.com/Motherboard/B450M-S2H-rev-1x/sp",
+    "architecture": "AM4 · DDR4 · Micro ATX",
+    "summary": "AMD B450 · two DIMM slots · PCIe 3.0",
+    "specs": {
+      "Socket": "AM4",
+      "Memory type": "DDR4",
+      "Form factor": "Micro ATX",
+      "DIMM slots": 2,
+      "M.2 slots": 1,
+      "SATA ports": 4,
+      "Max RAM": 64
+    },
+    "note": "CPU support depends on BIOS version. Check the Gigabyte CPU support list before assembly.",
+    "physical": {
+      "size": [
+        205,
+        244,
+        40
+      ],
+      "model": "retail-gigabyte-b450m-s2h",
+      "color": "#303438",
+      "board": true,
+      "dimensionStatus": "Manufacturer board outline 244 × 205 mm. Preview height of 40 mm and mounting coordinates are approximate."
+    }
+  },
+  {
     "id": "retail-asus-rog-maximus-z690-formula",
     "name": "ROG MAXIMUS Z690 FORMULA",
     "brand": "ASUS",
