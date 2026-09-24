@@ -1322,6 +1322,35 @@
     }
   },
   {
+    "id": "retail-msi-geforce-gtx-1650-d6-ventus-xs-ocv1",
+    "name": "GeForce GTX 1650 D6 VENTUS XS OCV1",
+    "brand": "MSI",
+    "cat": "gpu",
+    "source": "https://www.msi.com/Graphics-Card/GeForce-GTX-1650-D6-VENTUS-XS-OCV1/Specification",
+    "architecture": "Turing · PCIe 3.0",
+    "summary": "4 GB GDDR6 · dual-fan Ventus XS",
+    "specs": {
+      "Memory": 4,
+      "Board power": 75,
+      "Boost clock": 1.62,
+      "Shader units": 896,
+      "Card length": 179,
+      "Card thickness": 42,
+      "Card height": 115
+    },
+    "note": "This D6 OCV1 model uses GDDR6 and one 6-pin power connector. It is not the GTX 1650 SUPER.",
+    "physical": {
+      "size": [
+        179,
+        42,
+        115
+      ],
+      "model": "retail-msi-geforce-gtx-1650-d6-ventus-xs-ocv1",
+      "color": "#34393e",
+      "fans": 2
+    }
+  },
+  {
     "id": "retail-msi-geforce-rtx-5070-12g-ventus-3x-oc",
     "name": "GeForce RTX 5070 12G VENTUS 3X OC",
     "brand": "MSI",

@@ -1109,5 +1109,23 @@
     ],
     "dimensionStatus": "Community appearance normalized to an approximate 40 × 40 × 5 mm package envelope. Pin positions and cooler clearance are not independently verified.",
     "reviewed": "2026-09-24"
+  },
+  {
+    "id": "retail-msi-geforce-gtx-1650-d6-ventus-xs-ocv1",
+    "asset": "sketchfab-msi-gtx1650-ventus-xs-ocv1.glb",
+    "title": "GTX 1650 — MSI D6 VENTUS XS OCV1",
+    "creator": "ALEKSI",
+    "creatorUrl": "https://sketchfab.com/akosmaev2",
+    "sourceUrl": "https://sketchfab.com/3d-models/gtx-1650-9feed77d8238467f951bd50aa1a13829",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Downloaded GLB. Creator explicitly identifies MSI GeForce GTX 1650 D6 VENTUS XS OCV1. Consolidated 39 meshes into three draw primitives and pruned unused attributes. Retained original untextured geometry; scaled and oriented for the builder.",
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "dimensionStatus": "MSI outer dimensions 179 × 115 × 42 mm. Community surface geometry and mounting coordinates remain approximate, not clearance-certified.",
+    "reviewed": "2026-09-24"
   }
 ]
