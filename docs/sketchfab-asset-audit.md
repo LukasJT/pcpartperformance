@@ -91,3 +91,10 @@ dream_computer_setup.glb was downloaded from Daniel Cardona under CC BY 4.0. scr
 - Set Matte_Metallic metallic=.35,roughness=.55 so heat spreader renders under the site's direct lighting; source metal looked black without an environment map.
 - Added scripts/prepare-ryzen7600x.cjs and reusable optimize-static-glb.cjs. Uses @gltf-transform/core,functions,extensions4.5.0 installed outside repo in ../model-tools. Static meshes flattened/joined, no triangle simplification.2,089 meshes reduced to7 draw primitives.
 - Integrated7600x, orientation[pi/2,0,0]. Browser screenshots verify the processor marking, no stray plane, correct orientation in builder. Coverage28/800 downloaded,772 simplified. Model/SEO checks pass. No clearance certification or live publication claimed.
+
+## Ryzen 5 5600X integrated — 2026-09-24
+- Downloaded PolyDavid AMD Ryzen5 5600X Processor, CC BY4.0: https://sketchfab.com/3d-models/amd-ryzen-5-5600x-processor-1649601de2014dbeab4f201010a7c366 . Extracted ../ryzen5600x, packed original79,218,744 bytes.
+- Consolidated30 meshes into6 drawing primitives; welded duplicates. Added prepare-ryzen5600x.cjs using meshoptimizer1.2.0 (runtime ../model-tools) for simplification target .25/error .001 and14-bit position quantization. Output37,400,660 bytes; still heavy, lazy-loaded only after preview action. Further delivery compression desirable.
+- Adjusted Plastic_Silver/Sweet_Plastic/Metal.002 reflectivity to .35/.55 for direct-light rendering. Browser verified engraving, substrate, pins and builder orientation[pi/2,0,0].
+- Coverage29/800 downloaded,771 simplified. Model inventory and SEO checks pass.
+- Also downloaded Intel12100f by PolyDavid (CC BY4.0) from https://sketchfab.com/3d-models/intel12100f-0a8d100f3cc2480381abe7256bc7f986 via glTF download. Archive intel12100f.zip in Downloads; not integrated or counted yet. Next action: extract, inspect label, optimize, integrate i312100f.
