@@ -426,5 +426,77 @@
       0
     ],
     "reviewed": "2026-09-23"
+  },
+  {
+    "id": "arcb580",
+    "asset": "sketchfab-intel-arc-b580.glb",
+    "title": "Intel Arc B580 Limited Edition",
+    "creator": "PolyDavid",
+    "creatorUrl": "https://sketchfab.com/PolyDavid",
+    "sourceUrl": "https://sketchfab.com/3d-models/gpu-kit-rtx-5090-arc-b580-gigabyte-aero-535139095991416bacce7ac852fdf492",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Individual card extracted from the three-GPU pack; unused meshes and textures removed. Scaled and oriented for the builder.",
+    "orientation": [
+      1.5707963267948966,
+      0,
+      0
+    ],
+    "dimensionsMm": [
+      272,
+      44,
+      115
+    ],
+    "dimensionStatus": "Manufacturer outer dimensions; modeled surface and mounting positions remain unverified.",
+    "identity": "family-or-chip",
+    "reviewed": "2026-09-23"
+  },
+  {
+    "id": "retail-gigabyte-geforce-rtx-4090-aero-oc-24g",
+    "asset": "sketchfab-gigabyte-rtx4090-aero.glb",
+    "title": "GIGABYTE GeForce RTX 4090 AERO OC 24G",
+    "creator": "PolyDavid",
+    "creatorUrl": "https://sketchfab.com/PolyDavid",
+    "sourceUrl": "https://sketchfab.com/3d-models/gpu-kit-rtx-5090-arc-b580-gigabyte-aero-535139095991416bacce7ac852fdf492",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Individual card extracted from the three-GPU pack; unused meshes and textures removed. Scaled and oriented for the builder.",
+    "orientation": [
+      1.5707963267948966,
+      0,
+      0
+    ],
+    "dimensionsMm": [
+      342,
+      75,
+      150
+    ],
+    "dimensionStatus": "Manufacturer outer dimensions; modeled surface and mounting positions remain unverified.",
+    "identity": "exact-model",
+    "reviewed": "2026-09-23"
+  },
+  {
+    "id": "rtx5090",
+    "asset": "sketchfab-rtx5090-fe.glb",
+    "title": "NVIDIA GeForce RTX 5090 Founders Edition",
+    "creator": "PolyDavid",
+    "creatorUrl": "https://sketchfab.com/PolyDavid",
+    "sourceUrl": "https://sketchfab.com/3d-models/gpu-kit-rtx-5090-arc-b580-gigabyte-aero-535139095991416bacce7ac852fdf492",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Individual card extracted from the three-GPU pack; unused meshes and textures removed. Scaled and oriented for the builder.",
+    "orientation": [
+      1.5707963267948966,
+      0,
+      0
+    ],
+    "dimensionsMm": [
+      304,
+      40.6,
+      137
+    ],
+    "dimensionStatus": "NVIDIA length and width; 40.6 mm visual thickness estimated from two-slot design. NVIDIA recommends a 61 mm clearance envelope. Not clearance-certified.",
+    "identity": "family-or-chip",
+    "reviewed": "2026-09-23"
   }
 ]

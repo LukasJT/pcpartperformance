@@ -76,3 +76,11 @@ dream_computer_setup.glb was downloaded from Daniel Cardona under CC BY 4.0. scr
 - Fixed retail-parts.json generation order so newly appended records are included in the source inventory.
 - Downloaded GPU Kit (RTX 5090, ARC B580, Gigabyte AERO), PolyDavid, CC BY 4.0: https://sketchfab.com/3d-models/gpu-kit-rtx-5090-arc-b580-gigabyte-aero-535139095991416bacce7ac852fdf492 . ZIP in Downloads is 8,667,385 bytes; extracted to ../polydavid-gpu-kit. Integration pending exact node/variant identification. Top-level model roots are Sketchfab_model_15, Sketchfab_model.001_36, Sketchfab_model.002_121. Do not count this pack as integrated yet.
 - More candidates: https://sketchfab.com/PolyDavid/collections/free-pc-parts-e602264b03604b7191754dbdbf9e2e8f includes Ryzen7600X,5600X,Intel12100f,7900XTX NITRO+,Teamgroup RAM. Check each license and exact identity before mapping.
+
+## Three-card GPU pack integrated — 2026-09-23
+- Extracted and browser-inspected all three card roots from PolyDavid's GPU pack (CC BY 4.0), preserving transforms/materials and compacting geometry and textures.
+- Sketchfab_model_15: Intel Arc B580 Limited Edition appearance -> arcb580, 4,834,968 bytes, Intel envelope 272 x 44 x 115mm (builder axes).
+- Sketchfab_model.001_36: Gigabyte RTX4090 AERO -> new exact AERO OC24G record, 8,223,740 bytes, manufacturer envelope342 x75 x150mm. Source identity also supported by creator's separately named GIGABYTE AERO RTX4090 listing.
+- Sketchfab_model.002_121: RTX5090 Founders Edition -> rtx5090, 5,192,900 bytes, NVIDIA length304 and width137mm; visual two-slot thickness40.6mm estimated. Manufacturer61mm required clearance separately documented, not conflated with geometry thickness.
+- RTX5090 and ArcB580 remain family-or-chip mappings because existing catalog entries do not select a board partner. They do not represent all variants.
+- All use [pi/2,0,0] orientation and render in the builder. Temporary inspection page removed. Coverage27/800 downloaded;773 simplified. No clearance-certified models. Inventory and SEO checks pass. Authenticated publication remains unavailable.

@@ -1970,5 +1970,32 @@
       "model": "retail-western-digital-wd-black-sn7100-1-tb",
       "color": "#252d36"
     }
+  },
+  {
+    "id": "retail-gigabyte-geforce-rtx-4090-aero-oc-24g",
+    "name": "GeForce RTX 4090 AERO OC 24G",
+    "brand": "GIGABYTE",
+    "cat": "gpu",
+    "source": "https://www.gigabyte.com/ca/Graphics-Card/GV-N4090AERO-OC-24GD/sp",
+    "architecture": "Ada Lovelace · PCIe 4.0",
+    "summary": "24 GB GDDR6X · white triple-fan AERO OC",
+    "specs": {
+      "Memory": 24,
+      "Card length": 342,
+      "Card thickness": 75,
+      "Card height": 150
+    },
+    "note": "Exact named variant. Original 3D illustration uses the listed outer dimensions; surface details and mounting positions remain approximate.",
+    "sku": "GV-N4090AERO OC-24GD",
+    "physical": {
+      "size": [
+        342,
+        75,
+        150
+      ],
+      "model": "retail-gigabyte-geforce-rtx-4090-aero-oc-24g",
+      "color": "#e5e7e9",
+      "fans": 3
+    }
   }
 ]
