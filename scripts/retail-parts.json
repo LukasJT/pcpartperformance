@@ -1856,5 +1856,119 @@
       "board": true,
       "dimensionStatus": "Standard form-factor envelope; exact board details are illustrative."
     }
+  },
+  {
+    "id": "retail-msi-mpg-z790-edge-wifi",
+    "name": "MPG Z790 EDGE WIFI",
+    "brand": "MSI",
+    "cat": "board",
+    "source": "https://www.msi.com/Motherboard/MPG-Z790-EDGE-WIFI/Specification",
+    "architecture": "LGA1700 · DDR5 · ATX",
+    "summary": "Intel Z790 · DDR5 · Wi-Fi 6E · five M.2 slots",
+    "specs": {
+      "Socket": "LGA1700",
+      "Memory type": "DDR5",
+      "Form factor": "ATX",
+      "DIMM slots": 4,
+      "M.2 slots": 5,
+      "SATA ports": 7,
+      "Max RAM": 256
+    },
+    "note": "Exact named variant. Original 3D illustration uses the listed outer dimensions; surface details and mounting positions remain approximate.",
+    "physical": {
+      "size": [
+        243.84,
+        304.8,
+        35
+      ],
+      "model": "retail-msi-mpg-z790-edge-wifi",
+      "color": "#b8bdc4",
+      "board": true,
+      "dimensionStatus": "MSI lists a 243.84 × 304.8 mm PCB. Component height and detailed mounting geometry are unverified."
+    }
+  },
+  {
+    "id": "retail-asus-rog-strix-z370-e-gaming",
+    "name": "ROG STRIX Z370-E GAMING",
+    "brand": "ASUS",
+    "cat": "board",
+    "source": "https://rog.asus.com/motherboards/rog-strix/rog-strix-z370-e-gaming-model/spec/",
+    "architecture": "LGA1151 · DDR4 · ATX",
+    "summary": "Intel Z370 · ATX · Wi-Fi · four memory slots",
+    "specs": {
+      "Socket": "LGA1151",
+      "Memory type": "DDR4",
+      "Form factor": "ATX",
+      "DIMM slots": 4,
+      "M.2 slots": 2,
+      "SATA ports": 6,
+      "Max RAM": 64
+    },
+    "note": "Exact named variant. Original 3D illustration uses the listed outer dimensions; surface details and mounting positions remain approximate.",
+    "physical": {
+      "size": [
+        244,
+        305,
+        35
+      ],
+      "model": "retail-asus-rog-strix-z370-e-gaming",
+      "color": "#272c32",
+      "board": true,
+      "dimensionStatus": "ASUS lists 305 × 244 mm board dimensions. Component height and mounting geometry are unverified."
+    }
+  },
+  {
+    "id": "retail-samsung-990-evo-plus-1-tb",
+    "name": "990 EVO Plus 1 TB",
+    "brand": "Samsung",
+    "cat": "ssd",
+    "source": "https://semiconductor.samsung.com/consumer-storage/internal-ssd/990-evo-plus/",
+    "architecture": "PCIe 4.0 x4 / 5.0 x2 · NVMe 2.0 · M.2 2280",
+    "summary": "1 TB · up to 7,150 MB/s read · 6,300 MB/s write",
+    "specs": {
+      "Storage capacity": 1000,
+      "Sequential read": 7150,
+      "Sequential write": 6300,
+      "Endurance": 600,
+      "Form factor": "M.2 2280"
+    },
+    "note": "Manufacturer specifications are maximum rated performance. The downloaded model carries a 990 EVO Plus 1TB label.",
+    "year": 2024,
+    "sku": "MZ-V9S1T0BW",
+    "physical": {
+      "size": [
+        80.15,
+        22.15,
+        2.38
+      ],
+      "model": "retail-samsung-990-evo-plus-1-tb",
+      "color": "#252d36"
+    }
+  },
+  {
+    "id": "retail-western-digital-wd-black-sn7100-1-tb",
+    "name": "WD_BLACK SN7100 1 TB",
+    "brand": "Western Digital",
+    "cat": "ssd",
+    "source": "https://www.sandisk.com/en-ca/products/ssd/internal-ssd/wd-black-sn7100-nvme-internal-ssd",
+    "architecture": "PCIe 4.0 x4 · NVMe · M.2 2280",
+    "summary": "1 TB · up to 7,250 MB/s read · 6,900 MB/s write",
+    "specs": {
+      "Storage capacity": 1000,
+      "Sequential read": 7250,
+      "Sequential write": 6900,
+      "Form factor": "M.2 2280"
+    },
+    "note": "Manufacturer maximum rated performance. The downloaded model has a 1TB label.",
+    "sku": "WDS100T4X0E-00CJA0",
+    "physical": {
+      "size": [
+        80,
+        22,
+        2.38
+      ],
+      "model": "retail-western-digital-wd-black-sn7100-1-tb",
+      "color": "#252d36"
+    }
   }
 ]

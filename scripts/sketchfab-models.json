@@ -392,5 +392,39 @@
       0
     ],
     "reviewed": "2026-09-23"
+  },
+  {
+    "id": "retail-samsung-990-evo-plus-1-tb",
+    "asset": "sketchfab-samsung-990-evo-plus-1tb.glb",
+    "title": "Samsung 990 EVO SSD",
+    "creator": "PolyDavid",
+    "creatorUrl": "https://sketchfab.com/PolyDavid",
+    "sourceUrl": "https://sketchfab.com/3d-models/samsung-990-evo-ssd-e3fc37002c9240e8ac0516dfec08940a",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Downloaded glTF packed into GLB. The source title says EVO, but its texture explicitly identifies 990 EVO Plus 1TB; assigned only to that capacity and variant. Scaled and oriented for the builder.",
+    "orientation": [
+      1.5707963267948966,
+      1.5707963267948966,
+      0
+    ],
+    "reviewed": "2026-09-23"
+  },
+  {
+    "id": "retail-western-digital-wd-black-sn7100-1-tb",
+    "asset": "sketchfab-wd-sn7100-1tb.glb",
+    "title": "SSD - WD SN7100",
+    "creator": "PolyDavid",
+    "creatorUrl": "https://sketchfab.com/PolyDavid",
+    "sourceUrl": "https://sketchfab.com/3d-models/ssd-wd-sn7100-8287dfa4fd644cb4a044d4dce57968ae",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Downloaded glTF packed into GLB, scaled and oriented for the builder. The front label identifies the 1TB version; no substitution for the 2TB record.",
+    "orientation": [
+      1.5707963267948966,
+      1.5707963267948966,
+      0
+    ],
+    "reviewed": "2026-09-23"
   }
 ]

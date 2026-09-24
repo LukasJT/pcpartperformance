@@ -66,3 +66,13 @@ dream_computer_setup.glb was downloaded from Daniel Cardona under CC BY 4.0. scr
 - Inspector now lists selected component categories only and selects an available component automatically. Secondary camera controls are collapsed by default.
 - Coverage: 22 downloaded models among 797 builder records; 775 remain simplified. No clearance-certified models.
 - Passed model/blog inventory, SEO/link checks, fan-placement checks, and mobile overflow inspection. Publication remains blocked by unavailable authenticated deployment access.
+
+## Storage models and next GPU pack — 2026-09-23
+- Downloaded PolyDavid's Samsung 990 EVO SSD glTF (197,409-byte ZIP). Texture identifies **990 EVO Plus 1TB**, despite source title. Added exact 1TB retail record with Samsung datasheet dimensions/performance and official Samsung 1TB image.
+- Source: https://sketchfab.com/3d-models/samsung-990-evo-ssd-e3fc37002c9240e8ac0516dfec08940a (CC BY 4.0). Packed GLB: 219,172 bytes.
+- Downloaded PolyDavid's WD SN7100 glTF (497,395-byte ZIP). Label explicitly says 1TB, so added that capacity rather than substituting for the catalog's 2TB version. Packed GLB: 512,704 bytes. Thumbnail uses the credited texture supplied with that model.
+- Source: https://sketchfab.com/3d-models/ssd-wd-sn7100-8287dfa4fd644cb4a044d4dce57968ae (CC BY 4.0).
+- Both SSDs browser-verified with [pi/2,pi/2,0] orientation; selected models load and labels are readable. Coverage is 24 downloaded models / 799 records; 775 remain simplified. Model and SEO checks pass.
+- Fixed retail-parts.json generation order so newly appended records are included in the source inventory.
+- Downloaded GPU Kit (RTX 5090, ARC B580, Gigabyte AERO), PolyDavid, CC BY 4.0: https://sketchfab.com/3d-models/gpu-kit-rtx-5090-arc-b580-gigabyte-aero-535139095991416bacce7ac852fdf492 . ZIP in Downloads is 8,667,385 bytes; extracted to ../polydavid-gpu-kit. Integration pending exact node/variant identification. Top-level model roots are Sketchfab_model_15, Sketchfab_model.001_36, Sketchfab_model.002_121. Do not count this pack as integrated yet.
+- More candidates: https://sketchfab.com/PolyDavid/collections/free-pc-parts-e602264b03604b7191754dbdbf9e2e8f includes Ryzen7600X,5600X,Intel12100f,7900XTX NITRO+,Teamgroup RAM. Check each license and exact identity before mapping.

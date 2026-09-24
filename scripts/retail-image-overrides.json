@@ -210,5 +210,27 @@
     "kind": "product",
     "width": 250,
     "height": 250
+  },
+  "retail-samsung-990-evo-plus-1-tb": {
+    "src": "/assets/hardware/samsung-990-evo-plus-1tb.png",
+    "picturedModel": "Samsung 990 EVO Plus 1 TB",
+    "sourceUrl": "https://www.samsung.com/uk/memory-storage/nvme-ssd/990-evo-plus-1tb-nvme-pcie-gen-4-mz-v9s1t0bw/",
+    "imageUrl": "https://images.samsung.com/is/image/samsung/p6pim/uk/mz-v9s1t0bw/gallery/uk-990-evo-plus-nvme-m2-ssd-mz-v9s1t0bw-544057505?$624_468_PNG$",
+    "attribution": "Samsung",
+    "license": "Manufacturer product media",
+    "width": 624,
+    "height": 468,
+    "official": true,
+    "kind": "exact"
+  },
+  "retail-western-digital-wd-black-sn7100-1-tb": {
+    "src": "/assets/hardware/wd-sn7100-1tb.jpeg",
+    "picturedModel": "WD_BLACK SN7100 1 TB",
+    "sourceUrl": "https://sketchfab.com/3d-models/ssd-wd-sn7100-8287dfa4fd644cb4a044d4dce57968ae",
+    "attribution": "PolyDavid",
+    "license": "CC BY 4.0",
+    "width": 512,
+    "height": 336,
+    "kind": "exact"
   }
 }
