@@ -850,5 +850,30 @@
     ],
     "dimensionStatus": "Intel specifies 37.5 × 37.5 mm package size. Preview thickness of 3.1 mm is approximate; contact and mounting geometry are not clearance-certified.",
     "reviewed": "2026-09-24"
+  },
+  {
+    "id": "gtx1660",
+    "identity": "family-or-chip",
+    "asset": "sketchfab-gigabyte-gtx1660.glb",
+    "title": "GeForce GTX 1660 GIGABYTE",
+    "creator": "Kenza9 (atynnikov31)",
+    "creatorUrl": "https://sketchfab.com/atynnikov31",
+    "sourceUrl": "https://sketchfab.com/3d-models/geforce-gtx-1660-gigabyte-2e88f9ca4dcb414d88725bd1d66848b5",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Downloaded the 1K-texture GLB. Consolidated static meshes and pruned unused attributes without triangle simplification. Creator credits ALEKSI and their GTX 1650 as the inspiration and basis. Exact Gigabyte retail SKU is not identified.",
+    "orientation": [
+      3.141592653589793,
+      0,
+      0
+    ],
+    "dimensionsMm": [
+      225,
+      40,
+      121
+    ],
+    "estimated": true,
+    "dimensionStatus": "Approximate visual envelope of 225 × 40 × 121 mm for this community interpretation. Exact Gigabyte SKU, dimensions and mounting clearances are unverified.",
+    "reviewed": "2026-09-24"
   }
 ]
