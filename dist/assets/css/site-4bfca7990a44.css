@@ -569,6 +569,12 @@ body[data-page=builder] .builder-column-head{display:none}body[data-page=builder
 body[data-page=builder] .builder-jump-nav{display:flex!important;position:static;width:auto;overflow:visible;visibility:visible;transform:none;opacity:1}
 body[data-page=builder] .builder-jump-nav a{display:block!important}
 
+/* Keep secondary 3D controls available without crowding the main view. */
+body[data-page=builder] .scene-advanced{width:100%;border-top:1px solid var(--line);padding-top:14px;margin-top:4px}
+body[data-page=builder] .scene-advanced summary{cursor:pointer;font-size:.9rem;font-weight:600;padding:8px 0}
+body[data-page=builder] .scene-advanced[open] summary{margin-bottom:12px}
+body[data-page=builder] .scene-components{grid-template-columns:repeat(auto-fit,minmax(130px,1fr))}
+
 .country-switch{display:flex;align-items:center;gap:3px;padding:4px;border:1px solid var(--line);border-radius:24px;flex-shrink:0;background:var(--surface)}
 .country-switch button{border:0;border-radius:20px;background:transparent;color:var(--muted);display:flex;align-items:center;gap:7px;padding:7px 10px;font-family:inherit;font-size:12px;font-weight:600;cursor:pointer;transition:background .2s,color .2s,box-shadow .2s}
 .country-switch button[aria-pressed=true]{background:var(--ink);color:var(--bg);box-shadow:0 2px 5px #0002}.country-switch img{width:21px;height:14px;object-fit:cover;border-radius:2px}.country-switch button:focus-visible{outline:2px solid var(--accent);outline-offset:3px}

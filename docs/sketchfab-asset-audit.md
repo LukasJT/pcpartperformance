@@ -58,3 +58,11 @@ dream_computer_setup.glb was downloaded from Daniel Cardona under CC BY 4.0. scr
 2026-09-23: Downloaded RTX3080 Founders Edition by Arthur_mf (8d807843f7d84d9088c36143e58ce148), CC BY4.0, official glTF archive 1555134 bytes. Packed GLB 4911740 bytes; bound generic RTX3080 10GB only, identity family-or-chip. Corrected source axes X +90 degrees and browser inspected horizontal shape. Credits included. Coverage 21/796.
 
 2026-09-23: Downloaded cityon360 Motherboard MSI Z790 Low Poly, 7ac2ed91599a4239aba96770a00874ce, CC BY4.0. Official glTF ZIP 2539590 bytes; packed GLB 3034640 bytes at dist/assets/models/sketchfab-msi-z790-edge.glb. Texture Motherboard_Metall_baseColor.png visibly labels MPG/EDGE and matches silver MSI Z790 EDGE series; DDR5 texture present. No existing Z790 EDGE catalog entry. Pending exact DDR5 variant confirmation, official specification/photo entry and browser integration. Source https://sketchfab.com/3d-models/motherboard-msi-z790-low-poly-7ac2ed91599a4239aba96770a00874ce; manufacturer https://www.msi.com/Motherboard/MPG-Z790-EDGE-WIFI. Not counted in installed coverage.
+
+## MSI Z790 integration and preview cleanup — 2026-09-23
+- Integrated cityon360's CC BY 4.0 MSI Z790 model as MPG Z790 EDGE WIFI after inspecting EDGE/DDR5 texture markings and MSI's official specification sheet.
+- Added the exact motherboard catalog record with LGA1700, DDR5, ATX, five M.2 and seven SATA ports. PCB dimensions are manufacturer sourced; component height is approximate.
+- Corrected orientation to [0,0,0] after browser verification. Textured board renders in the desktop and 390px mobile previews.
+- Inspector now lists selected component categories only and selects an available component automatically. Secondary camera controls are collapsed by default.
+- Coverage: 22 downloaded models among 797 builder records; 775 remain simplified. No clearance-certified models.
+- Passed model/blog inventory, SEO/link checks, fan-placement checks, and mobile overflow inspection. Publication remains blocked by unavailable authenticated deployment access.

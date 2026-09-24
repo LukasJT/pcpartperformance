@@ -61,3 +61,9 @@ body[data-page=builder] .builder-column-head{display:none}body[data-page=builder
 @media(max-width:1000px){body[data-page=builder] .builder-rail{order:0}body[data-page=builder] .assembly-panel{grid-row:auto!important}body[data-page=builder] .builder-parts{grid-row:1!important}.builder-jump-nav{gap:6px}.builder-jump-nav a{padding:9px 11px;font-size:.82rem}}
 body[data-page=builder] .builder-jump-nav{display:flex!important;position:static;width:auto;overflow:visible;visibility:visible;transform:none;opacity:1}
 body[data-page=builder] .builder-jump-nav a{display:block!important}
+
+/* Keep secondary 3D controls available without crowding the main view. */
+body[data-page=builder] .scene-advanced{width:100%;border-top:1px solid var(--line);padding-top:14px;margin-top:4px}
+body[data-page=builder] .scene-advanced summary{cursor:pointer;font-size:.9rem;font-weight:600;padding:8px 0}
+body[data-page=builder] .scene-advanced[open] summary{margin-bottom:12px}
+body[data-page=builder] .scene-components{grid-template-columns:repeat(auto-fit,minmax(130px,1fr))}
