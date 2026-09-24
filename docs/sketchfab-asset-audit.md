@@ -116,3 +116,10 @@ dream_computer_setup.glb was downloaded from Daniel Cardona under CC BY 4.0. scr
 - Consolidated20 meshes to11 drawing primitives and welded vertices without triangle simplification. Compared visible heat-spreader branding and contour with existing official TEAMGROUP product photograph; matching black DELTA RGB DDR5 design.
 - Assigned same visual asset to tforcedelta6000 and tforce7600 with identity family-or-chip. Does not certify capacity, transfer rate, timings or mounting detail. Manufacturer DDR5 envelope46.1x144.2x7mm from https://images.teamgroupinc.com/products/memory/u-dimm/ddr5/delta-rgb/edm/delta-rgb-en.pdf . Builder axes[7,144.2,46.1], orientation[0,pi/2,pi/2].
 - Browser verified two-module preview. Coverage33 component mappings/801 (one new asset shared across two kits),768 simplified. Model inventory and SEO checks pass. Publication remains blocked by unavailable authentication; no live claim.
+
+## GTX1080Ti Founders Edition integrated — 2026-09-24
+- Downloaded Nvidia GeForce GTX1080 ti FE - Rev2 by MUSHROOM_BUILDS, CC BY4.0: https://sketchfab.com/3d-models/nvidia-geforce-gtx-1080-ti-fe-rev2-43561a3309854d94858c293e1ba454d4 . ZIP4,474,438 bytes; extracted ../gtx1080tife; packed8,323,152 bytes.
+- Added prepare-gtx1080ti.cjs to adapt highly metallic surfaces for direct lighting, preserving textures. Consolidated24 meshes to17 drawing primitives, welded vertices without triangle simplification.
+- Mapped gtx1080ti with family-or-chip identity: catalog generic chip does not identify a board partner. FE visual dimensions266.7x40.6x111.15mm, two-slot thickness approximate. NVIDIA official10series page and PNY official1080Ti reference specification support10.5x4.376inch card envelope. Not clearance-certified.
+- Browser checked both cooler and backplate, corrected upside-down orientation to[-pi/2,0,pi/2]. Builder displays backplate up. Model inventory/SEO checks pass. Coverage34/801 downloaded mappings,767 simplified.
+- Rechecked existing MSI5070GamingXTrio archive audit: retail box geometry, not card. No incorrect mapping added. Publishing authentication remains unavailable.

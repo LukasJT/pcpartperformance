@@ -620,5 +620,29 @@
     ],
     "dimensionStatus": "TEAMGROUP specifies 46.1 x 144.2 x 7 mm for DELTA RGB DDR5. Shared black heat-spreader appearance; kit capacity, speed, timings and connector detail are not certified by the mesh.",
     "reviewed": "2026-09-24"
+  },
+  {
+    "id": "gtx1080ti",
+    "identity": "family-or-chip",
+    "asset": "sketchfab-gtx1080ti-fe.glb",
+    "title": "Nvidia GeForce GTX 1080 ti FE - Rev2",
+    "creator": "MUSHROOM_BUILDS",
+    "creatorUrl": "https://sketchfab.com/MUSHROOM_BUILDS",
+    "sourceUrl": "https://sketchfab.com/3d-models/nvidia-geforce-gtx-1080-ti-fe-rev2-43561a3309854d94858c293e1ba454d4",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Consolidated static meshes and welded vertices without triangle simplification. Adapted reflective materials for direct lighting, preserving source textures. Scaled and oriented for the builder. This Founders Edition appearance does not represent all partner cards.",
+    "orientation": [
+      -1.5707963267948966,
+      0,
+      1.5707963267948966
+    ],
+    "dimensionsMm": [
+      266.7,
+      40.6,
+      111.15
+    ],
+    "dimensionStatus": "Founders Edition visual envelope: 10.5-inch length and 4.376-inch height; 40.6 mm two-slot thickness is approximate. The generic GTX 1080 Ti entry does not identify a board partner. Not clearance-certified.",
+    "reviewed": "2026-09-24"
   }
 ]
