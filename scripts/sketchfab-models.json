@@ -285,5 +285,24 @@
     ],
     "dimensionStatus": "ASUS board outline is 305 × 244 mm; community mesh mounting and connector positions are not clearance-certified.",
     "reviewed": "2026-09-23"
+  },
+  {
+    "id": "retail-thermaltake-core-p5",
+    "asset": "sketchfab-thermaltake-core-p5.glb",
+    "title": "Thermaltake Core P5 — Dream Computer Setup",
+    "identity": "exact-model",
+    "creator": "Daniel Cardona",
+    "creatorUrl": "https://sketchfab.com/DanielCardonaArt",
+    "sourceUrl": "https://sketchfab.com/3d-models/dream-computer-setup-82f78bbaf2d34f01af854a52151dbf49",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Case subtree extracted from Dream Computer Setup; unused geometry and buffers removed. Includes modeled brackets and riser; excludes separate custom glass panels. Scaled for the builder.",
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "dimensionStatus": "Manufacturer envelope 570 × 608 × 333 mm. Community mesh is illustrative; check mounting and cooling clearance against the manual.",
+    "reviewed": "2026-09-23"
   }
 ]

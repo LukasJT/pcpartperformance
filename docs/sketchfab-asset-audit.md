@@ -44,3 +44,5 @@ dream_computer_setup.glb was downloaded from Daniel Cardona under CC BY 4.0. scr
 2026-09-23: Inspected Daniel Cardona Computer Parts (Built PC), bd6fb0ed93f3475b890a099fedecf351. Current public page exposes no download button and refers free users to Dream Computer Setup. Not downloaded. Builder now groups core/storage/case sections and filters actual downloaded model IDs separately from simplified previews. Desktop selection and 390px mobile layout verified.
 
 2026-09-23: Extracted MotherBoard and Case subtrees from Daniel Cardona Dream Computer Setup. ASUS ROG STRIX Z370-E GAMING added using official ASUS specifications and photo; 7.35 MB mesh renders upright with intact textures and no browser errors. Core P5 3.10 MB mesh extracted, pending catalog integration and inspection; not counted in coverage.
+
+2026-09-23: Core P5 Case subtree now integrated as retail-thermaltake-core-p5. Browser render verified upright and textured with no console errors; external custom glass nodes omitted. Model coverage 17 of 796. Manufacturer manual provides envelope, GPU and PSU limits. New research lead: Noctua official 3D CAD library may cover existing fans.

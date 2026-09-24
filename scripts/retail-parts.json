@@ -1084,6 +1084,40 @@
     }
   },
   {
+    "id": "retail-thermaltake-core-p5",
+    "name": "Core P5",
+    "brand": "Thermaltake",
+    "cat": "case",
+    "source": "https://latam.thermaltake.com/media/productattach/db/support/usermanual/_90b5fa0e321e4f4582eb9f5679077662.pdf",
+    "architecture": "ATX Micro-ATX Mini-ITX open-frame chassis",
+    "summary": "Open-frame tower · vertical, horizontal or wall mounting",
+    "specs": {
+      "Maximum GPU length": 320,
+      "Expansion slots": 8,
+      "Maximum CPU cooler height": 180,
+      "Maximum PSU length": 200
+    },
+    "note": "GPU clearance is 280 mm with a reservoir or 320 mm without one. Check your cooling layout before choosing a card.",
+    "physical": {
+      "size": [
+        570,
+        608,
+        333
+      ],
+      "model": "retail-thermaltake-core-p5",
+      "color": "#252d36",
+      "psuFormats": [
+        "ATX"
+      ],
+      "mounts": {
+        "side": {
+          "120": 4,
+          "140": 3
+        }
+      }
+    }
+  },
+  {
     "id": "retail-nzxt-h500",
     "name": "H500",
     "brand": "NZXT",
