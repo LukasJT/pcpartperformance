@@ -555,5 +555,22 @@
     ],
     "dimensionStatus": "Intel specifies a 45 x 37.5 mm package. The 5 mm visual thickness and mounting geometry are approximate, not clearance-certified.",
     "reviewed": "2026-09-24"
+  },
+  {
+    "id": "retail-sapphire-nitro-radeon-rx-7900-xtx-vapor-x-24gb",
+    "asset": "sketchfab-sapphire7900xtx.glb",
+    "title": "AMD Sapphire NITRO+ Radeon RX 7900 XTX",
+    "creator": "PolyDavid",
+    "creatorUrl": "https://sketchfab.com/PolyDavid",
+    "sourceUrl": "https://sketchfab.com/3d-models/amd-sapphire-nitro-radeon-rx-7900-xtx-34ae089114524c61880235e96b48f7f6",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Removed the creator-noted isolated floating port; consolidated static geometry into 32 drawing primitives and welded duplicate vertices without triangle simplification. Scaled and oriented for the builder.",
+    "orientation": [
+      0,
+      1.5707963267948966,
+      0
+    ],
+    "reviewed": "2026-09-24"
   }
 ]

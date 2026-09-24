@@ -104,3 +104,9 @@ dream_computer_setup.glb was downloaded from Daniel Cardona under CC BY 4.0. scr
 - Consolidated2,137 meshes into12 drawing primitives and welded vertices without triangle simplification. Final23,864,400 bytes; lazy-loaded on preview request.
 - Engraving confirms i3-12100F. Intel package dimensions45x37.5mm override old square placeholder;5mm visual thickness remains approximate. Orientation[pi/2,0,0] verified in builder screenshot.
 - Coverage30/800 downloaded,770 simplified. Model inventory, SEO and fan-placement checks pass. No clearance certification or live deployment claimed.
+
+## Sapphire NITRO+ RX 7900 XTX integrated — 2026-09-24
+- Downloaded AMD Sapphire NITRO+ Radeon RX7900XTX by PolyDavid, CC BY4.0: https://sketchfab.com/3d-models/amd-sapphire-nitro-radeon-rx-7900-xtx-34ae089114524c61880235e96b48f7f6 . ZIP4,211,395 bytes; extracted ../sapphire7900xtx; packed13,475,644 bytes.
+- Creator noted a floating HDMI port. Node Plane.005_Brushed nickel_0 alone extends below y=-1 (bounds y=-3.252..-2.870), isolated from card. Removed it using prepare-sapphire7900xtx.cjs. Consolidated1,188 meshes into32 drawing primitives; welded vertices without triangle simplification. Final GLB8,027,952 bytes.
+- New exact retail entry retail-sapphire-nitro-radeon-rx-7900-xtx-vapor-x-24gb; manufacturer dimensions320x71.6x135.75 in builder axes. Official page https://www.sapphiretech.com/en/consumer/nitro-radeon-rx-7900-xtx-vaporx-24g-gddr6 . Added official800x500 product image from that page; inspected visually. nation subdomain TLS mismatch, used valid www official site instead without disabling TLS.
+- Orientation[0,pi/2,0] verified in builder screenshot; no isolated port. Creator credited. Coverage31/801 downloaded,770 simplified; no clearance-certified geometry. Model inventory/SEO checks pass. Publication remains unavailable.

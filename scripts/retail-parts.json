@@ -1997,5 +1997,31 @@
       "color": "#e5e7e9",
       "fans": 3
     }
+  },
+  {
+    "id": "retail-sapphire-nitro-radeon-rx-7900-xtx-vapor-x-24gb",
+    "name": "NITRO+ Radeon RX 7900 XTX Vapor-X 24GB",
+    "brand": "SAPPHIRE",
+    "cat": "gpu",
+    "source": "https://www.sapphiretech.com/en/consumer/nitro-radeon-rx-7900-xtx-vaporx-24g-gddr6",
+    "architecture": "RDNA 3 · PCIe 4.0",
+    "summary": "24 GB GDDR6 · triple-fan Vapor-X cooler",
+    "specs": {
+      "Memory": 24,
+      "Card length": 320,
+      "Card thickness": 71.6,
+      "Card height": 135.75
+    },
+    "note": "Exact named variant. Original 3D illustration uses the listed outer dimensions; surface details and mounting positions remain approximate.",
+    "physical": {
+      "size": [
+        320,
+        71.6,
+        135.75
+      ],
+      "model": "retail-sapphire-nitro-radeon-rx-7900-xtx-vapor-x-24gb",
+      "color": "#969a9c",
+      "fans": 3
+    }
   }
 ]
