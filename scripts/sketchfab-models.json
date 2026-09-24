@@ -266,5 +266,24 @@
     ],
     "dimensionStatus": "Community appearance normalized to an illustrative package envelope; mounting and clearance dimensions are not certified.",
     "reviewed": "2026-09-23"
+  },
+  {
+    "id": "retail-asus-rog-strix-z370-e-gaming",
+    "asset": "sketchfab-asus-z370-e.glb",
+    "title": "ASUS ROG STRIX Z370-E GAMING — Dream Computer Setup",
+    "identity": "exact-model",
+    "creator": "Daniel Cardona",
+    "creatorUrl": "https://sketchfab.com/DanielCardonaArt",
+    "sourceUrl": "https://sketchfab.com/3d-models/dream-computer-setup-82f78bbaf2d34f01af854a52151dbf49",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "MotherBoard subtree extracted from the credited Dream Computer Setup; unused geometry and buffers removed. Scaled for the builder. Creator identifies the board as ASUS Z370-E Gaming.",
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "dimensionStatus": "ASUS board outline is 305 × 244 mm; community mesh mounting and connector positions are not clearance-certified.",
+    "reviewed": "2026-09-23"
   }
 ]
