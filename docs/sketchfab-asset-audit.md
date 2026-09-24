@@ -40,3 +40,5 @@ Peripheral coverage is currently 23 keyboards, 25 mice, and zero mousepads in th
 ## Full-scene extraction follow-up
 
 dream_computer_setup.glb was downloaded from Daniel Cardona under CC BY 4.0. scripts/extract-static-glb.cjs extracts named static nodes while preserving ancestor transforms and only the referenced geometry/material/texture byte ranges. CPU and RTX2080ti are integrated and visually tested. MotherBoard (node 4, creator identifies ASUS Z370-E Gaming) and Case (node 1391, creator identifies Thermaltake Core P5) remain to be extracted, matched to newly researched catalog entries and tested. RAM and other parts need exact identity checks before assignment. The original file is in the user Downloads directory.
+
+2026-09-23: Inspected Daniel Cardona Computer Parts (Built PC), bd6fb0ed93f3475b890a099fedecf351. Current public page exposes no download button and refers free users to Dream Computer Setup. Not downloaded. Builder now groups core/storage/case sections and filters actual downloaded model IDs separately from simplified previews. Desktop selection and 390px mobile layout verified.

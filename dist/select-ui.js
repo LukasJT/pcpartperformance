@@ -1,11 +1,11 @@
 /* Progressively enhance native selects; their values and change events remain canonical. */
 (() => {
   const registry = new WeakMap();
-  let serial = 0, active = null, rows = [], cursor = 0;const selectedBrands=new Set();
+  let serial = 0, active = null, rows = [], cursor = 0;const selectedBrands=new Set(); let modelsOnly=false; const modelIds=new Set(window.downloadedModelIds||[]); const builderPicker=()=>active&&["buildPrimary","buildAdd","buildSlot"].some(k=>k in active.dataset);
   const dialog = document.createElement('dialog');
   dialog.className = 'select-dialog';
   dialog.setAttribute('aria-labelledby', 'select-dialog-title');
-  dialog.innerHTML = '<div class="select-dialog-head"><strong id="select-dialog-title">Choose an option</strong><button type="button" class="select-close" aria-label="Close options">×</button></div><div class="select-search-wrap"><input type="search" class="select-search" aria-label="Search options" role="combobox" aria-autocomplete="list" aria-expanded="true" aria-controls="select-options" placeholder="Type to filter…" autocomplete="off"></div><div class="select-brand-filters" aria-label="Filter by brand"></div><div class="select-results" id="select-options" role="listbox"></div><p class="select-hint" aria-live="polite"></p>';
+  dialog.innerHTML = '<div class="select-dialog-head"><strong id="select-dialog-title">Choose an option</strong><button type="button" class="select-close" aria-label="Close options">×</button></div><div class="select-search-wrap"><input type="search" class="select-search" aria-label="Search options" role="combobox" aria-autocomplete="list" aria-expanded="true" aria-controls="select-options" placeholder="Type to filter…" autocomplete="off"></div><div class="select-model-tabs" hidden><button type="button" data-model-filter="all" aria-pressed="true">All parts</button><button type="button" data-model-filter="models" aria-pressed="false">With 3D models</button></div><div class="select-brand-filters" aria-label="Filter by brand"></div><div class="select-results" id="select-options" role="listbox"></div><p class="select-hint" aria-live="polite"></p>';
   document.body.append(dialog);
   const search = dialog.querySelector('input'), results = dialog.querySelector('.select-results'), hint = dialog.querySelector('.select-hint');
   function label(select) { return (select.getAttribute('aria-label') || select.labels?.[0]?.textContent?.trim() || 'Choose an option').replace('Choose primary ', 'Choose ').replace('Case fans', 'case fan'); }
@@ -31,7 +31,7 @@
   function activate(index) {
     cursor = Math.max(0, Math.min(index, rows.length - 1));
     results.querySelectorAll('[role=option]').forEach((el, i) => el.classList.toggle('is-focused', i === cursor));
-    const el = results.children[cursor];
+    const el = results.querySelectorAll('[role=option]')[cursor];
     if (rows.length && el) { search.setAttribute('aria-activedescendant', el.id); results.setAttribute('aria-activedescendant',el.id); el.scrollIntoView({block:'nearest'}); }
     else search.removeAttribute('aria-activedescendant');
   }
@@ -45,8 +45,8 @@
     if (!active) return;
     const query = search.value.toLocaleLowerCase().trim();
     rows = [...active.options].filter(option => !option.disabled && !option.hidden && (!selectedBrands.size||!option.value||selectedBrands.has((typeof catalog!=='undefined'?catalog.find(p=>p.id===option.value):null)?.brand)) && (!query || option.textContent.toLocaleLowerCase().includes(query)));
-    results.replaceChildren();
-    rows.forEach((option, i) => {
+    if(builderPicker()){rows=rows.filter(o=>!modelsOnly||modelIds.has(o.value)); rows.sort((a,b)=>!a.value?-1:!b.value?1:Number(modelIds.has(b.value))-Number(modelIds.has(a.value)));} results.replaceChildren(); let lastGroup=null;
+    rows.forEach((option, i) => { if(builderPicker()&&option.value){const group=modelIds.has(option.value)?'With downloaded 3D models':'More components';if(group!==lastGroup){const heading=document.createElement('div');heading.className='select-group-heading';heading.setAttribute('role','presentation');heading.textContent=group;results.append(heading);lastGroup=group;}}
       const button = document.createElement('button'); button.type = 'button'; button.className = 'select-option'; button.id = 'select-option-' + i;
       button.setAttribute('role', 'option'); button.setAttribute('aria-selected', String(option.value === active.value)); button.tabIndex = -1;
       const asset = typeof photos !== 'undefined' ? photos[option.value] : null;
@@ -60,7 +60,7 @@
     activate(Math.max(0, rows.findIndex(option => option.value === active.value)));
   }
   function open(select) {
-    active = select; const button = registry.get(select).button;
+    active = select; modelsOnly=false; const tabs=dialog.querySelector('.select-model-tabs');tabs.hidden=!builderPicker();tabs.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.modelFilter==='all')));const count=[...select.options].filter(o=>!o.disabled&&!o.hidden&&modelIds.has(o.value)).length;tabs.lastElementChild.textContent='With 3D models ('+count+')'; const button = registry.get(select).button;
     dialog.querySelector('strong').textContent = label(select); search.value = '';selectedBrands.clear();const filters=dialog.querySelector('.select-brand-filters');filters.replaceChildren();const brands=[...new Set([...select.options].map(o=>typeof catalog!=='undefined'?catalog.find(p=>p.id===o.value)?.brand:null).filter(Boolean))].sort();for(const brand of brands){const label=document.createElement('label'),input=document.createElement('input');input.type='checkbox';input.addEventListener('change',()=>{input.checked?selectedBrands.add(brand):selectedBrands.delete(brand);render()});label.append(input,document.createTextNode(brand));filters.append(label)}
     const rect = button.getBoundingClientRect(), width = Math.min(Math.max(rect.width, 460), innerWidth - 24), maxHeight = Math.min(660, innerHeight - 32);
     dialog.style.width = width + 'px'; dialog.style.maxHeight = maxHeight + 'px';
@@ -85,7 +85,7 @@
     });
   }
   dialog.id = 'select-dialog';
-  search.addEventListener('input',render);
+  search.addEventListener('input',render); dialog.querySelectorAll('[data-model-filter]').forEach(button=>button.addEventListener('click',()=>{modelsOnly=button.dataset.modelFilter==='models';dialog.querySelectorAll('[data-model-filter]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));render();}));
   dialog.addEventListener('keydown',event=>{
     if(event.target!==search&&event.target!==results)return;
     if (['ArrowDown','ArrowUp','Home','End','Enter'].includes(event.key)) {
