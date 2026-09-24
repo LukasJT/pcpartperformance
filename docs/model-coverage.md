@@ -1,6 +1,6 @@
 # 3D asset coverage
 
-All 796 catalog components are accounted for. **0 clearance-verified meshes; 17 attributed community model; 779 simplified previews, including shared category silhouettes; 0 missing meshes.**
+All 796 catalog components are accounted for. **0 clearance-verified meshes; 19 attributed community model; 777 simplified previews, including shared category silhouettes; 0 missing meshes.**
 
 Shared category silhouettes use assumed sizes; community models and simplified geometry must not be presented as manufacturing or clearance models. Catalog-wide exact modeling remains unfinished.
 
@@ -14,6 +14,6 @@ Shared category silhouettes use assumed sizes; community models and simplified g
 |ssd|74|2|72|0|
 |hdd|44|0|44|0|
 |psu|69|0|69|0|
-|fan|30|2|28|0|
+|fan|30|4|26|0|
 
 Every entry, its source, identity and blockers are in dist/model-library.json.
