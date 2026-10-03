@@ -1,0 +1,372 @@
+{
+  "researchDate": "2026-10-03",
+  "pages": [
+    {
+      "route": "blog/how-to-choose-a-graphics-card",
+      "type": "pillar",
+      "title": "How to choose a graphics card for your PC",
+      "description": "Choose a GPU around your games, monitor and exact card dimensions. Understand VRAM, benchmark settings, power connections and total upgrade cost.",
+      "category": "Graphics cards",
+      "answer": "Start with your games and monitor, then check comparable game tests and the dimensions of the exact card. A GPU chip name, memory capacity or generated-frame headline cannot answer all three questions.",
+      "sources": [
+        "n5070",
+        "n5060",
+        "test5070"
+      ],
+      "links": [
+        "/hardware/graphics-cards/",
+        "/compare/rtx-5070-vs-rtx-5060-ti-16gb/",
+        "/blog/will-a-graphics-card-fit-my-case/",
+        "/builder/"
+      ],
+      "publicationDate": null,
+      "modifiedDate": "2026-10-03",
+      "sectionTitles": [
+        "Set a useful target before shopping",
+        "Read benchmarks with their settings attached",
+        "Treat VRAM as capacity, not a performance score",
+        "Check the complete card and power path",
+        "Compare the whole upgrade cost"
+      ],
+      "wordCount": 481
+    },
+    {
+      "route": "blog/how-to-choose-a-processor",
+      "type": "pillar",
+      "title": "How to choose a processor without overlooking the platform",
+      "description": "Compare CPUs for your games and applications, then check motherboard support, BIOS, memory, cooling and the complete platform upgrade cost.",
+      "category": "Processors",
+      "answer": "Choose a CPU for the work you need it to do, then price and verify the whole platform. Core count and boost clock are useful specifications, but neither replaces application tests or the motherboard support list.",
+      "sources": [
+        "cpuGuide",
+        "clocks",
+        "cpu9800",
+        "board"
+      ],
+      "links": [
+        "/hardware/processors/",
+        "/compare/ryzen-7-9800x3d-vs-7800x3d/",
+        "/blog/am5-upgrade-checklist/",
+        "/builder/"
+      ],
+      "publicationDate": null,
+      "modifiedDate": "2026-10-03",
+      "sectionTitles": [
+        "Separate a new build from an upgrade",
+        "Understand cores, clocks and cache",
+        "Verify motherboard support before ordering",
+        "Budget for memory and cooling",
+        "Make the upgrade decision measurable"
+      ],
+      "wordCount": 433
+    },
+    {
+      "route": "blog/understanding-pc-memory",
+      "type": "pillar",
+      "title": "How to choose PC memory: capacity, DDR generation and timings",
+      "description": "Understand RAM capacity, DDR4 and DDR5 compatibility, kit configuration, transfer rates and CAS latency before choosing a memory upgrade.",
+      "category": "Memory",
+      "answer": "Match the memory generation and physical module type first. Choose capacity for your workload, then compare supported kits and timings. A lower CL number only has meaning alongside its transfer rate.",
+      "sources": [
+        "ram",
+        "board",
+        "cpu9800"
+      ],
+      "links": [
+        "/hardware/memory/",
+        "/tools/ram-latency-calculator/",
+        "/blog/how-to-choose-gaming-ram/",
+        "/builder/"
+      ],
+      "publicationDate": null,
+      "modifiedDate": "2026-10-03",
+      "sectionTitles": [
+        "Identify the platform before the kit",
+        "Use workload evidence to choose capacity",
+        "Compare transfer rate and latency together",
+        "Check the installation and supported profile",
+        "Keep a matched kit and a useful checklist"
+      ],
+      "wordCount": 412
+    },
+    {
+      "route": "blog/choosing-an-ssd",
+      "type": "pillar",
+      "title": "How to choose an SSD: capacity, interface and motherboard fit",
+      "description": "Choose an SSD by capacity, SATA or NVMe interface, M.2 size and motherboard support. Understand speed claims, endurance and storage units.",
+      "category": "Storage",
+      "answer": "Choose enough capacity, then verify the drive’s interface and physical format against your motherboard. M.2 describes the shape; it does not by itself establish SATA or NVMe support.",
+      "sources": [
+        "ssd",
+        "capacity",
+        "board"
+      ],
+      "links": [
+        "/hardware/solid-state-drives/",
+        "/tools/storage-capacity-planner/",
+        "/learn/990pro.html",
+        "/builder/"
+      ],
+      "publicationDate": null,
+      "modifiedDate": "2026-10-03",
+      "sectionTitles": [
+        "Plan capacity around the files you keep",
+        "Match the interface and physical format",
+        "Read the slot notes, not just the slot count",
+        "Interpret speed and endurance honestly",
+        "Understand the capacity shown by software"
+      ],
+      "wordCount": 418
+    },
+    {
+      "route": "compare/rtx-5070-vs-rtx-5060-ti-16gb",
+      "type": "comparison",
+      "title": "RTX 5070 vs RTX 5060 Ti 16 GB: memory, power and buying checks",
+      "description": "Compare RTX 5070 and RTX 5060 Ti 16 GB specifications, understand the VRAM tradeoff, and check exact card fit and benchmark settings before buying.",
+      "category": "GPU comparison",
+      "ids": [
+        "rtx5070",
+        "rtx5060ti16"
+      ],
+      "sources": [
+        "n5070",
+        "n5060",
+        "test5070"
+      ],
+      "answer": "The RTX 5070 has more CUDA cores but 12 GB of memory; the RTX 5060 Ti variant here has 16 GB and a lower reference power rating. Use game tests and the exact local listing to make the purchase decision.",
+      "links": [
+        "/blog/how-to-choose-a-graphics-card/",
+        "/blog/will-a-graphics-card-fit-my-case/",
+        "/hardware/graphics-cards/"
+      ],
+      "rows": [
+        [
+          "Video memory",
+          "12 GB GDDR7",
+          "16 GB GDDR7"
+        ],
+        [
+          "CUDA cores",
+          "6,144",
+          "4,608"
+        ],
+        [
+          "Maximum boost specification",
+          "2.51 GHz",
+          "2.57 GHz"
+        ],
+        [
+          "Reference total graphics power",
+          "250 W",
+          "180 W"
+        ]
+      ],
+      "publicationDate": "2026-10-03",
+      "modifiedDate": "2026-10-03",
+      "sectionTitles": [
+        "More memory and more rendering resources answer different questions",
+        "Keep native FPS separate from generated frames",
+        "Check the card you will actually order"
+      ],
+      "wordCount": 274
+    },
+    {
+      "route": "compare/rtx-5070-vs-rx-9070",
+      "type": "comparison",
+      "title": "RTX 5070 vs RX 9070: specifications and upgrade checks",
+      "description": "Compare GeForce RTX 5070 and Radeon RX 9070 memory and power specifications. Check game testing, application support and exact partner-card fit.",
+      "category": "GPU comparison",
+      "ids": [
+        "rtx5070",
+        "rx9070"
+      ],
+      "sources": [
+        "n5070",
+        "rx9070",
+        "test9070"
+      ],
+      "answer": "The RX 9070 specification lists 16 GB of memory and 220 W typical board power; the RTX 5070 lists 12 GB and 250 W total graphics power. These differences help plan an upgrade, but do not establish a universal game or application winner.",
+      "links": [
+        "/blog/how-to-choose-a-graphics-card/",
+        "/hardware/graphics-cards/",
+        "/methodology/#fps"
+      ],
+      "rows": [
+        [
+          "Video memory",
+          "12 GB GDDR7",
+          "16 GB GDDR6"
+        ],
+        [
+          "Architecture",
+          "Blackwell",
+          "RDNA 4"
+        ],
+        [
+          "Published board-power rating",
+          "250 W total graphics power",
+          "220 W typical board power"
+        ],
+        [
+          "Manufacturer system PSU recommendation",
+          "650 W, subject to system configuration",
+          "650 W, subject to system configuration"
+        ]
+      ],
+      "publicationDate": "2026-10-03",
+      "modifiedDate": "2026-10-03",
+      "sectionTitles": [
+        "Use evidence from the workloads you run",
+        "Check feature and software requirements separately",
+        "Make the purchase comparison about exact models"
+      ],
+      "wordCount": 247
+    },
+    {
+      "route": "compare/ryzen-7-9800x3d-vs-7800x3d",
+      "type": "comparison",
+      "title": "Ryzen 7 9800X3D vs 7800X3D: specifications and platform checks",
+      "description": "Compare AMD Ryzen 7 9800X3D and 7800X3D architecture, clocks and AM5 requirements. Check BIOS and total upgrade cost before changing your CPU.",
+      "category": "CPU comparison",
+      "ids": [
+        "9800x3d",
+        "7800x3d"
+      ],
+      "sources": [
+        "cpu9800",
+        "cpu7800",
+        "cpuGuide"
+      ],
+      "answer": "Both processors use AM5 and have 8 cores, 16 threads and 96 MB of L3 cache. The 9800X3D uses Zen 5 with higher published clocks. Check workload tests and exact motherboard BIOS support before deciding whether an upgrade is worthwhile.",
+      "links": [
+        "/blog/how-to-choose-a-processor/",
+        "/blog/am5-upgrade-checklist/",
+        "/hardware/processors/"
+      ],
+      "rows": [
+        [
+          "Architecture",
+          "Zen 5",
+          "Zen 4"
+        ],
+        [
+          "Cores / threads",
+          "8 / 16",
+          "8 / 16"
+        ],
+        [
+          "Base / maximum boost clock",
+          "4.7 / up to 5.2 GHz",
+          "4.2 / up to 5.0 GHz"
+        ],
+        [
+          "L3 cache",
+          "96 MB",
+          "96 MB"
+        ],
+        [
+          "Socket / memory generation",
+          "AM5 / DDR5",
+          "AM5 / DDR5"
+        ],
+        [
+          "Default TDP",
+          "120 W",
+          "120 W"
+        ]
+      ],
+      "publicationDate": "2026-10-03",
+      "modifiedDate": "2026-10-03",
+      "sectionTitles": [
+        "What the specifications establish",
+        "What an AM5 upgrade still needs",
+        "New build and existing-owner decisions differ"
+      ],
+      "wordCount": 251
+    },
+    {
+      "route": "blog/am5-upgrade-checklist",
+      "type": "guide",
+      "title": "AM5 CPU upgrade checklist: BIOS, memory, cooling and storage",
+      "description": "Plan an AM5 CPU upgrade with an exact motherboard support-list check, BIOS notes, memory configuration, cooler mounts and storage lane checks.",
+      "category": "Compatibility",
+      "answer": "An AM5 socket match starts the check; it does not finish it. Confirm the exact CPU on the board support list, the required BIOS, the cooler mount, memory configuration and any slot-sharing rules before buying.",
+      "sources": [
+        "cpu9800",
+        "cpu7800",
+        "board",
+        "boardSpecs"
+      ],
+      "links": [
+        "/compare/ryzen-7-9800x3d-vs-7800x3d/",
+        "/blog/understanding-pc-memory/",
+        "/builder/",
+        "/builder/model-coverage/"
+      ],
+      "publicationDate": "2026-10-03",
+      "modifiedDate": "2026-10-03",
+      "sectionTitles": [
+        "Record the system you have",
+        "Make CPU support a documented check",
+        "Check memory and cooling as configurations",
+        "Review expansion and storage notes",
+        "Keep a final verification record"
+      ],
+      "wordCount": 436
+    },
+    {
+      "route": "tools/ram-latency-calculator",
+      "type": "tool",
+      "tool": "ram",
+      "title": "RAM latency calculator: compare MT/s and CAS timing",
+      "description": "Calculate first-word CAS latency in nanoseconds from memory transfer rate and CL. Compare two kits with transparent formulas and clear limitations.",
+      "category": "Memory tool",
+      "answer": "Enter a kit’s transfer rate in MT/s and CAS latency in cycles. The calculator returns CL × 2,000 ÷ MT/s in nanoseconds. It compares one timing component, not total memory latency or game FPS.",
+      "sources": [
+        "ram"
+      ],
+      "links": [
+        "/blog/understanding-pc-memory/",
+        "/hardware/memory/",
+        "/builder/"
+      ],
+      "publicationDate": "2026-10-03",
+      "modifiedDate": "2026-10-03",
+      "sectionTitles": [
+        "How the calculation works",
+        "What you can compare",
+        "Inputs and unsupported cases",
+        "Use the result in a purchase decision"
+      ],
+      "wordCount": 297
+    },
+    {
+      "route": "tools/storage-capacity-planner",
+      "type": "tool",
+      "tool": "storage",
+      "title": "SSD capacity planner: storage budget and TB to GiB conversion",
+      "description": "Plan SSD capacity for games, applications and files. Convert advertised decimal TB to binary GiB and set your own free-space allowance.",
+      "category": "Storage tool",
+      "answer": "Enter the advertised drive capacity and the storage you expect to use. The tool converts decimal TB to binary GiB, adds your workload budget and reserves the free-space percentage you choose.",
+      "sources": [
+        "capacity"
+      ],
+      "links": [
+        "/blog/choosing-an-ssd/",
+        "/hardware/solid-state-drives/",
+        "/builder/"
+      ],
+      "publicationDate": "2026-10-03",
+      "modifiedDate": "2026-10-03",
+      "sectionTitles": [
+        "Use one unit throughout the plan",
+        "Build a budget from real workloads",
+        "Read the result as a plan",
+        "Check the drive and backup separately"
+      ],
+      "wordCount": 306
+    }
+  ],
+  "paginationPages": 88,
+  "categories": 18
+}

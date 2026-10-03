@@ -1,0 +1,23 @@
+name: Hardware or content correction
+description: Report an incorrect specification, source, calculation or page statement.
+title: "Data correction: "
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page URL and product ID
+    validations:
+      required: true
+  - type: textarea
+    id: field
+    attributes:
+      label: Incorrect field and suggested correction
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Supporting manufacturer or original-testing source
+      description: Include a URL and exact model number. Do not include personal information.
+    validations:
+      required: true

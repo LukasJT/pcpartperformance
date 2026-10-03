@@ -1,0 +1,47 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "AMD Ryzen 7 9800X3D",
+    "description": "8 cores / 16 threads",
+    "category": "cpu",
+    "brand": {
+      "@type": "Brand",
+      "name": "AMD"
+    },
+    "url": "https://www.pcpartperformance.com/learn/9800x3d.html",
+    "image": "https://www.pcpartperformance.com/assets/hardware/official-core-official-core-9800x3d.jpg",
+    "additionalProperty": [
+      {
+        "@type": "PropertyValue",
+        "name": "CPU cores",
+        "value": 8
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "CPU threads",
+        "value": 16
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Boost clock",
+        "value": 5.2
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Base clock",
+        "value": 4.7
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "L3 cache",
+        "value": 96
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "CPU TDP",
+        "value": 120
+      }
+    ]
+  }
+]

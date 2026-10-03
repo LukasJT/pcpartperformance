@@ -1,0 +1,6 @@
+const fs=require('fs'),path=require('path'),zlib=require('zlib');
+const root=path.resolve('dist');
+const routes=['/','/hardware/graphics-cards/','/shop/','/compare/rtx-5070-vs-rtx-5060-ti-16gb/','/blog/how-to-choose-a-graphics-card/','/tools/ram-latency-calculator/','/builder/','/performance/'];
+const pages=routes.map(route=>{const html=fs.readFileSync(path.join(root,route,'index.html'),'utf8'),scripts=[...html.matchAll(/<script[^>]* src="(\/[^"?]+)(?:\?[^"]*)?"/g)].map(m=>m[1]),css=[...html.matchAll(/<link rel="stylesheet" href="(\/[^"?]+)"/g)].map(m=>m[1]);return{route,htmlBytes:Buffer.byteLength(html),htmlGzipBytes:zlib.gzipSync(html).length,initialScripts:scripts.map(url=>({url,bytes:fs.statSync(path.join(root,url)).size})),initialScriptBytes:scripts.reduce((sum,url)=>sum+fs.statSync(path.join(root,url)).size,0),styles:css.map(url=>({url,bytes:fs.statSync(path.join(root,url)).size})),notes:'File budget only. Excludes images, runtime fetches, fonts, compression at host and field performance.'}});
+fs.writeFileSync('docs/seo-launch/performance-budget.json',JSON.stringify({checkedAt:new Date().toISOString(),pages,fieldCoreWebVitals:null,lighthouse:null},null,2));
+console.log(pages.map(({route,htmlBytes,initialScriptBytes})=>({route,htmlBytes,initialScriptBytes})));

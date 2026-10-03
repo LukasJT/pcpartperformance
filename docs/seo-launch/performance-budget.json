@@ -1,0 +1,439 @@
+{
+  "checkedAt": "2026-10-03T17:11:09.831Z",
+  "pages": [
+    {
+      "route": "/",
+      "htmlBytes": 14027,
+      "htmlGzipBytes": 4291,
+      "initialScripts": [
+        {
+          "url": "/theme.js",
+          "bytes": 228
+        },
+        {
+          "url": "/indexing-policy.js",
+          "bytes": 926
+        },
+        {
+          "url": "/site-ui.js",
+          "bytes": 3155
+        },
+        {
+          "url": "/motion.js",
+          "bytes": 5674
+        },
+        {
+          "url": "/shopping.js",
+          "bytes": 9118
+        }
+      ],
+      "initialScriptBytes": 19101,
+      "styles": [
+        {
+          "url": "/assets/css/site-11183f25f4f0.css",
+          "bytes": 120363
+        }
+      ],
+      "notes": "File budget only. Excludes images, runtime fetches, fonts, compression at host and field performance."
+    },
+    {
+      "route": "/hardware/graphics-cards/",
+      "htmlBytes": 22825,
+      "htmlGzipBytes": 4108,
+      "initialScripts": [
+        {
+          "url": "/theme.js",
+          "bytes": 228
+        },
+        {
+          "url": "/indexing-policy.js",
+          "bytes": 926
+        },
+        {
+          "url": "/site-ui.js",
+          "bytes": 3155
+        },
+        {
+          "url": "/data.js",
+          "bytes": 130787
+        },
+        {
+          "url": "/history-data.js",
+          "bytes": 17872
+        },
+        {
+          "url": "/universe-data.js",
+          "bytes": 16183
+        },
+        {
+          "url": "/component-data.js",
+          "bytes": 22501
+        },
+        {
+          "url": "/core.js",
+          "bytes": 21566
+        },
+        {
+          "url": "/retail-data.js",
+          "bytes": 60639
+        },
+        {
+          "url": "/image-catalog-lite.js",
+          "bytes": 150611
+        },
+        {
+          "url": "/interface.js",
+          "bytes": 17487
+        },
+        {
+          "url": "/select-ui.js",
+          "bytes": 10642
+        },
+        {
+          "url": "/motion.js",
+          "bytes": 5674
+        },
+        {
+          "url": "/shopping.js",
+          "bytes": 9118
+        }
+      ],
+      "initialScriptBytes": 467389,
+      "styles": [
+        {
+          "url": "/assets/css/site-35ec68780ae0.css",
+          "bytes": 122016
+        }
+      ],
+      "notes": "File budget only. Excludes images, runtime fetches, fonts, compression at host and field performance."
+    },
+    {
+      "route": "/shop/",
+      "htmlBytes": 21498,
+      "htmlGzipBytes": 3927,
+      "initialScripts": [
+        {
+          "url": "/theme.js",
+          "bytes": 228
+        },
+        {
+          "url": "/indexing-policy.js",
+          "bytes": 926
+        },
+        {
+          "url": "/site-ui.js",
+          "bytes": 3155
+        },
+        {
+          "url": "/motion.js",
+          "bytes": 5674
+        },
+        {
+          "url": "/shop-filters.js",
+          "bytes": 4672
+        },
+        {
+          "url": "/shopping.js",
+          "bytes": 9118
+        }
+      ],
+      "initialScriptBytes": 23773,
+      "styles": [
+        {
+          "url": "/assets/css/site-57ee582713b6.css",
+          "bytes": 103890
+        }
+      ],
+      "notes": "File budget only. Excludes images, runtime fetches, fonts, compression at host and field performance."
+    },
+    {
+      "route": "/compare/rtx-5070-vs-rtx-5060-ti-16gb/",
+      "htmlBytes": 14013,
+      "htmlGzipBytes": 4252,
+      "initialScripts": [
+        {
+          "url": "/theme.js",
+          "bytes": 228
+        },
+        {
+          "url": "/indexing-policy.js",
+          "bytes": 926
+        },
+        {
+          "url": "/site-ui.js",
+          "bytes": 3155
+        },
+        {
+          "url": "/motion.js",
+          "bytes": 5674
+        },
+        {
+          "url": "/research-tools.js",
+          "bytes": 1085
+        },
+        {
+          "url": "/shopping.js",
+          "bytes": 9118
+        }
+      ],
+      "initialScriptBytes": 20186,
+      "styles": [
+        {
+          "url": "/assets/css/site-b3405625f72f.css",
+          "bytes": 109557
+        }
+      ],
+      "notes": "File budget only. Excludes images, runtime fetches, fonts, compression at host and field performance."
+    },
+    {
+      "route": "/blog/how-to-choose-a-graphics-card/",
+      "htmlBytes": 13753,
+      "htmlGzipBytes": 4465,
+      "initialScripts": [
+        {
+          "url": "/theme.js",
+          "bytes": 228
+        },
+        {
+          "url": "/indexing-policy.js",
+          "bytes": 926
+        },
+        {
+          "url": "/site-ui.js",
+          "bytes": 3155
+        },
+        {
+          "url": "/motion.js",
+          "bytes": 5674
+        },
+        {
+          "url": "/research-tools.js",
+          "bytes": 1085
+        },
+        {
+          "url": "/shopping.js",
+          "bytes": 9118
+        }
+      ],
+      "initialScriptBytes": 20186,
+      "styles": [
+        {
+          "url": "/assets/css/site-b3405625f72f.css",
+          "bytes": 109557
+        }
+      ],
+      "notes": "File budget only. Excludes images, runtime fetches, fonts, compression at host and field performance."
+    },
+    {
+      "route": "/tools/ram-latency-calculator/",
+      "htmlBytes": 12124,
+      "htmlGzipBytes": 3941,
+      "initialScripts": [
+        {
+          "url": "/theme.js",
+          "bytes": 228
+        },
+        {
+          "url": "/indexing-policy.js",
+          "bytes": 926
+        },
+        {
+          "url": "/site-ui.js",
+          "bytes": 3155
+        },
+        {
+          "url": "/motion.js",
+          "bytes": 5674
+        },
+        {
+          "url": "/research-tools.js",
+          "bytes": 1085
+        },
+        {
+          "url": "/shopping.js",
+          "bytes": 9118
+        }
+      ],
+      "initialScriptBytes": 20186,
+      "styles": [
+        {
+          "url": "/assets/css/site-b3405625f72f.css",
+          "bytes": 109557
+        }
+      ],
+      "notes": "File budget only. Excludes images, runtime fetches, fonts, compression at host and field performance."
+    },
+    {
+      "route": "/builder/",
+      "htmlBytes": 8652,
+      "htmlGzipBytes": 2647,
+      "initialScripts": [
+        {
+          "url": "/theme.js",
+          "bytes": 228
+        },
+        {
+          "url": "/indexing-policy.js",
+          "bytes": 926
+        },
+        {
+          "url": "/site-ui.js",
+          "bytes": 3155
+        },
+        {
+          "url": "/data.js",
+          "bytes": 130787
+        },
+        {
+          "url": "/history-data.js",
+          "bytes": 17872
+        },
+        {
+          "url": "/universe-data.js",
+          "bytes": 16183
+        },
+        {
+          "url": "/component-data.js",
+          "bytes": 22501
+        },
+        {
+          "url": "/core.js",
+          "bytes": 21566
+        },
+        {
+          "url": "/retail-data.js",
+          "bytes": 60639
+        },
+        {
+          "url": "/image-catalog-lite.js",
+          "bytes": 150611
+        },
+        {
+          "url": "/interface.js",
+          "bytes": 17487
+        },
+        {
+          "url": "/model-options.js",
+          "bytes": 1568
+        },
+        {
+          "url": "/builder-organize.js",
+          "bytes": 1623
+        },
+        {
+          "url": "/builder-v2.js",
+          "bytes": 28266
+        },
+        {
+          "url": "/builder-cooling.js",
+          "bytes": 4624
+        },
+        {
+          "url": "/assembly-3d.js",
+          "bytes": 9329
+        },
+        {
+          "url": "/select-ui.js",
+          "bytes": 10642
+        },
+        {
+          "url": "/motion.js",
+          "bytes": 5674
+        },
+        {
+          "url": "/shopping.js",
+          "bytes": 9118
+        }
+      ],
+      "initialScriptBytes": 512799,
+      "styles": [
+        {
+          "url": "/assets/css/site-96e7374193d3.css",
+          "bytes": 172551
+        }
+      ],
+      "notes": "File budget only. Excludes images, runtime fetches, fonts, compression at host and field performance."
+    },
+    {
+      "route": "/performance/",
+      "htmlBytes": 10782,
+      "htmlGzipBytes": 3106,
+      "initialScripts": [
+        {
+          "url": "/theme.js",
+          "bytes": 228
+        },
+        {
+          "url": "/indexing-policy.js",
+          "bytes": 926
+        },
+        {
+          "url": "/site-ui.js",
+          "bytes": 3155
+        },
+        {
+          "url": "/data.js",
+          "bytes": 130787
+        },
+        {
+          "url": "/history-data.js",
+          "bytes": 17872
+        },
+        {
+          "url": "/universe-data.js",
+          "bytes": 16183
+        },
+        {
+          "url": "/component-data.js",
+          "bytes": 22501
+        },
+        {
+          "url": "/core.js",
+          "bytes": 21566
+        },
+        {
+          "url": "/retail-data.js",
+          "bytes": 60639
+        },
+        {
+          "url": "/image-catalog-lite.js",
+          "bytes": 150611
+        },
+        {
+          "url": "/interface.js",
+          "bytes": 17487
+        },
+        {
+          "url": "/game-library.js",
+          "bytes": 22736
+        },
+        {
+          "url": "/performance.js",
+          "bytes": 12612
+        },
+        {
+          "url": "/select-ui.js",
+          "bytes": 10642
+        },
+        {
+          "url": "/motion.js",
+          "bytes": 5674
+        },
+        {
+          "url": "/shopping.js",
+          "bytes": 9118
+        }
+      ],
+      "initialScriptBytes": 502737,
+      "styles": [
+        {
+          "url": "/assets/css/site-ecf829531c18.css",
+          "bytes": 151779
+        }
+      ],
+      "notes": "File budget only. Excludes images, runtime fetches, fonts, compression at host and field performance."
+    }
+  ],
+  "fieldCoreWebVitals": null,
+  "lighthouse": null
+}

@@ -1,0 +1,49 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "headline": "RTX 5070 vs RTX 5060 Ti 16 GB: memory, power and buying checks",
+        "author": {
+          "@type": "Organization",
+          "name": "PC Part Performance",
+          "url": "https://www.pcpartperformance.com/about/"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "PC Part Performance",
+          "url": "https://www.pcpartperformance.com/about/"
+        },
+        "datePublished": "2026-10-03",
+        "dateModified": "2026-10-03",
+        "description": "Compare RTX 5070 and RTX 5060 Ti 16 GB specifications, understand the VRAM tradeoff, and check exact card fit and benchmark settings before buying.",
+        "url": "https://www.pcpartperformance.com/compare/rtx-5070-vs-rtx-5060-ti-16gb/",
+        "mainEntityOfPage": "https://www.pcpartperformance.com/compare/rtx-5070-vs-rtx-5060-ti-16gb/"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.pcpartperformance.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Comparisons",
+            "item": "https://www.pcpartperformance.com/compare/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "RTX 5070 vs RTX 5060 Ti 16 GB: memory, power and buying checks",
+            "item": "https://www.pcpartperformance.com/compare/rtx-5070-vs-rtx-5060-ti-16gb/"
+          }
+        ]
+      }
+    ]
+  }
+]
