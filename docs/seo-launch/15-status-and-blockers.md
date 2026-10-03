@@ -4,6 +4,10 @@
 
 Ten complete resources (four expanded pillars, three comparisons, one upgrade checklist, two calculators); 18 static category paths; 88 noindex/follow pagination pages; initial shop cards; structured-data deduplication and identity checks; indexing fallback and tested host adapter; editorial/correction process; all fifteen requested deliverable groups. Existing working tools and historical product URLs are preserved.
 
+## Saved remotely
+
+Release code commit f2685a0 (following implementation commit 1740c64) was pushed successfully to origin/codex/seo-launch-2026-10-03 on 2026-10-03. Git connectivity validation passed and the working tree was clean after the push. Git emitted an object-write warning during automatic maintenance after the first commit; the commit itself succeeded and connectivity validation subsequently passed. A GitHub branch push is not a Sites deployment.
+
 ## Still blocked or not yet completed
 
 - Production publish: native Sites tools are absent from the callable tool inventory. No deployment or live-domain update can be truthfully claimed. The existing project manifest is retained. Publishing must use the Sites workflow/native deploy and then verify deployment status and live responses.

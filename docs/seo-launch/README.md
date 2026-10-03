@@ -2,6 +2,8 @@
 
 Local implementation on branch codex/seo-launch-2026-10-03. The live website has not received this release. Review deployment blockers in 15-status-and-blockers.md.
 
+The tested release was pushed to [the GitHub branch](https://github.com/LukasJT/pcpartperformance/tree/codex/seo-launch-2026-10-03). Release code is recorded at f2685a0; this confirms remote versioning, not live publishing.
+
 ## Deliverables
 
 1. [Executive audit](01-executive-audit.md)
