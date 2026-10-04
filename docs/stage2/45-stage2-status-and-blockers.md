@@ -17,3 +17,9 @@ Prepared October 4, 2026. Local release; deployment confirmation is not recorded
 - Authorized live retailer offers and historical observations unavailable; no prices invented.
 
 No promise of continuing asynchronously is made. The queue is available for the next explicitly run review.
+
+## Source delivery
+
+Release code 1886cc0 is pushed to codex/stage2-publication-2026-10-04. A GitHub source push does not deploy the Sites project or change the live domain. See release.json for the receipt.
+
+The Sites hosting skill requires native save/deploy calls and a succeeded deployment status; those capabilities are unavailable. No credential workaround was attempted.

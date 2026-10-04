@@ -32,3 +32,5 @@ See `browser-qa.json`, `validation.json`, `../seo-validation.json` and `../seo-l
 - Source intake initially failed using Node’s default certificate store. Running with `--use-system-ca` fetched ten official release entries; an immediate repeat used the 15-minute cache. No certificate validation was disabled.
 - Preferred Sources eligibility page could not be accessed through the web tool. Eligibility remains unverified; no button or account claim was added.
 - Native Sites source/save/deploy/status capabilities are absent. No live deployment was attempted through a substitute credential route and no live success is claimed.
+
+- Git staging required a scoped write-access grant to repository metadata. A nonfatal object-write warning appeared during commit; the commit remained readable, connectivity validation passed, and the remote branch push succeeded.
