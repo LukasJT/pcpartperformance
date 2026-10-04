@@ -1127,5 +1127,578 @@
     ],
     "dimensionStatus": "MSI outer dimensions 179 × 115 × 42 mm. Community surface geometry and mounting coordinates remain approximate, not clearance-certified.",
     "reviewed": "2026-09-24"
+  },
+  {
+    "id": "rtx3070",
+    "asset": "sketchfab-rtx3070-datsketch.glb",
+    "title": "Nvidia GeForce RTX 3070 - UPDATED",
+    "creator": "DatSketch",
+    "creatorUrl": "https://sketchfab.com/DatSketch",
+    "sourceUrl": "https://sketchfab.com/3d-models/nvidia-geforce-rtx-3070-updated-29da4e10eb6c427cb72f3ebdf822f89e",
+    "identity": "family-or-chip",
+    "estimated": true,
+    "dimensionsMm": [
+      242,
+      40,
+      112
+    ],
+    "orientation": [
+      1.5707963267948966,
+      0,
+      0
+    ],
+    "dimensionStatus": "Approximate Founders Edition preview envelope; creator explicitly says the source dimensions are inaccurate. Not an arbitrary MSI, ASUS or ZOTAC variant.",
+    "changes": "Consolidated static meshes and retained textures. Oriented and scaled for generic RTX 3070 appearance; mounting and dimensions are not certified.",
+    "origin": "sketchfab",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "reviewed": "2026-10-04",
+    "assetSha256": "5fcf9bcb8b41b2f6c588c352fcc7604b4ebbe87af6cfe33c7b23dfb2a80d3993"
+  },
+  {
+    "id": "rtx4090",
+    "asset": "sketchfab-rtx4090-gihyeon.glb",
+    "title": "RTX 4090 Founders edition",
+    "creator": "GIHYEON",
+    "creatorUrl": "https://sketchfab.com/GIHYEON",
+    "sourceUrl": "https://sketchfab.com/3d-models/rtx-4090-founders-edition-463a9f8002694aa0ac2324637eacc8d3",
+    "identity": "family-or-chip",
+    "estimated": true,
+    "dimensionsMm": [
+      304,
+      61,
+      137
+    ],
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "dimensionStatus": "Approximate Founders Edition preview envelope; outer scaling is not clearance-certified. Generic catalog chip entry does not select a board-partner cooler.",
+    "changes": "Consolidated static meshes while preserving creator materials. Scaled and oriented for the generic RTX 4090 preview.",
+    "origin": "sketchfab",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "reviewed": "2026-10-04",
+    "assetSha256": "2332032bafd164ffe0ad63f6fdd4cc26a35059caf580873d97d82aff804da2e5"
+  },
+  {
+    "id": "rtx4060",
+    "asset": "sketchfab-rtx4060-mrdt.glb",
+    "title": "GeForce RTX 4060",
+    "creator": "MrdT",
+    "creatorUrl": "https://sketchfab.com/mrdt.club",
+    "sourceUrl": "https://sketchfab.com/3d-models/geforce-rtx-4060-f3b953474fc44979ad44a69b7bc8e911",
+    "identity": "family-or-chip",
+    "estimated": true,
+    "dimensionsMm": [
+      245.85,
+      38.83,
+      127.9
+    ],
+    "orientation": [
+      0,
+      1.5707963267948966,
+      1.5707963267948966
+    ],
+    "dimensionStatus": "Assumed millimeter interpretation of creator dimensions, not verified manufacturer dimensions. Source depicts a hollow RTX 4060 exterior without internal components; exact board partner is unknown.",
+    "changes": "Consolidated static meshes, retained creator materials. Used only for the generic RTX 4060 entry, not a named retail SKU.",
+    "origin": "sketchfab",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "reviewed": "2026-10-04",
+    "assetSha256": "37a91ccdc34592731b063832fa0a656ffd9f0cbac242ca7b7a23561f3da7588f"
+  },
+  {
+    "id": "b450",
+    "asset": "sketchfab-msi-b450-tomahawk-max.glb",
+    "title": "MSI B450 TOMAHAWK MAX",
+    "creator": "shig0",
+    "creatorUrl": "https://sketchfab.com/shig0",
+    "sourceUrl": "https://sketchfab.com/3d-models/msi-b450-tomahawk-max-8ea715471e344599a07bbdbbc77dfbdd",
+    "dimensionsMm": [
+      244,
+      305,
+      30
+    ],
+    "orientation": [
+      -1.5707963267948966,
+      0,
+      0
+    ],
+    "dimensionStatus": "MSI lists a 244 × 305 mm PCB. Preview height, connector locations and mounting positions are approximate.",
+    "changes": "Removed presentation rotations and translations from four reviewed ancestor nodes, retaining their authored scale and all child geometry and textures. Consolidated static meshes and oriented for assembly.",
+    "origin": "sketchfab",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "reviewed": "2026-10-04",
+    "assetSha256": "a8da1e2ff0d815970f2bdad77a57ab53d35e5feee7d2009bb2cf26dfb332c6cf"
+  },
+  {
+    "id": "5700x3d",
+    "asset": "sketchfab-ryzen-7-5700x3d.glb",
+    "title": "AMD Ryzen 7 5700X3D",
+    "creator": "shig0",
+    "creatorUrl": "https://sketchfab.com/shig0",
+    "sourceUrl": "https://sketchfab.com/3d-models/amd-ryzen-7-5700x3d-f65c7a88018c4e9ab9de319558f75e32",
+    "dimensionsMm": [
+      40,
+      40,
+      5.7
+    ],
+    "orientation": [
+      0,
+      3.141592653589793,
+      -1.5707963267948966
+    ],
+    "dimensionStatus": "Approximate AM4 preview envelope; label identifies Ryzen 7 5700X3D but package height, pins and mounting are unverified.",
+    "changes": "Verified the Ryzen 7 5700X3D marking. Removed presentation rotations/translations, retained scale, geometry and texture, then consolidated static meshes.",
+    "origin": "sketchfab",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "reviewed": "2026-10-04",
+    "assetSha256": "c3d569b700f6369eb892a35d6c96de792557740be533a27d35cc940a06caa1fa"
+  },
+  {
+    "id": "retail-arctic-p12-pro-pst",
+    "asset": "arctic-p12-pro.glb",
+    "title": "ARCTIC P12 Pro 3D Model Reference",
+    "creator": "ARCTIC (HK) Ltd.",
+    "creatorUrl": "https://www.arctic.de/",
+    "sourceUrl": "https://support.arctic.de/p12-pro-pst/docs",
+    "origin": "manufacturer",
+    "license": "ARCTIC manufacturer reference CAD; copyright ARCTIC (HK) Ltd.",
+    "licenseUrl": "https://support.arctic.de/p12-pro-pst/docs",
+    "identity": "exact-model",
+    "dimensionsMm": [
+      120,
+      120,
+      25
+    ],
+    "orientation": [
+      1.5707963267948966,
+      0,
+      0
+    ],
+    "dimensionStatus": "Manufacturer reference CAD and product envelope. Internal bearing type is not distinguished in the exterior; assembled mounting and cable routing remain unverified.",
+    "changes": "Downloaded the public manufacturer reference STEP file and tessellated to GLB with original face colors. Scaled and oriented for assembly visualization; no manufacturing or simulation claims.",
+    "reviewed": "2026-10-04",
+    "assetSha256": "52958241d02c89848438de123d76bd52bbaf5b4530f5199ba1f099b064c1c126"
+  },
+  {
+    "id": "retail-arctic-p12-pro-pst-co",
+    "asset": "arctic-p12-pro.glb",
+    "title": "ARCTIC P12 Pro 3D Model Reference",
+    "creator": "ARCTIC (HK) Ltd.",
+    "creatorUrl": "https://www.arctic.de/",
+    "sourceUrl": "https://support.arctic.de/p12-pro-pst-co/docs",
+    "origin": "manufacturer",
+    "license": "ARCTIC manufacturer reference CAD; copyright ARCTIC (HK) Ltd.",
+    "licenseUrl": "https://support.arctic.de/p12-pro-pst-co/docs",
+    "identity": "family-or-chip",
+    "dimensionsMm": [
+      120,
+      120,
+      25
+    ],
+    "orientation": [
+      1.5707963267948966,
+      0,
+      0
+    ],
+    "dimensionStatus": "Manufacturer reference CAD and product envelope. Internal bearing type is not distinguished in the exterior; assembled mounting and cable routing remain unverified.",
+    "changes": "Downloaded the public manufacturer reference STEP file and tessellated to GLB with original face colors. Scaled and oriented for assembly visualization; no manufacturing or simulation claims.",
+    "reviewed": "2026-10-04",
+    "assetSha256": "52958241d02c89848438de123d76bd52bbaf5b4530f5199ba1f099b064c1c126"
+  },
+  {
+    "id": "retail-arctic-p14-pro-pst",
+    "asset": "arctic-p14-pro.glb",
+    "title": "ARCTIC P14 Pro 3D Model Reference",
+    "creator": "ARCTIC (HK) Ltd.",
+    "creatorUrl": "https://www.arctic.de/",
+    "sourceUrl": "https://support.arctic.de/p14-pro-pst/docs",
+    "origin": "manufacturer",
+    "license": "ARCTIC manufacturer reference CAD; copyright ARCTIC (HK) Ltd.",
+    "licenseUrl": "https://support.arctic.de/p14-pro-pst/docs",
+    "identity": "exact-model",
+    "dimensionsMm": [
+      140,
+      140,
+      27
+    ],
+    "orientation": [
+      1.5707963267948966,
+      0,
+      0
+    ],
+    "dimensionStatus": "Manufacturer reference CAD and product envelope. Internal bearing type is not distinguished in the exterior; assembled mounting and cable routing remain unverified.",
+    "changes": "Downloaded the public manufacturer reference STEP file and tessellated to GLB with original face colors. Scaled and oriented for assembly visualization; no manufacturing or simulation claims.",
+    "reviewed": "2026-10-04",
+    "assetSha256": "e1b5fd14df6f7ae9ed92fe0ebfa669cc9e82238041b4c4c8443320354ae1864d"
+  },
+  {
+    "id": "i513600k",
+    "asset": "sketchfab-i5-13600k.glb",
+    "title": "Intel Core i5-13600K",
+    "creator": "Txy2u",
+    "creatorUrl": "https://sketchfab.com/Txy2u",
+    "sourceUrl": "https://sketchfab.com/3d-models/none-e03b5f3b18a147a49bc2d6e61bc4bf37",
+    "dimensionsMm": [
+      37.5,
+      45,
+      3.6
+    ],
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "dimensionStatus": "Approximate LGA1700 preview envelope. Package height, contacts and installed placement are not clearance verified.",
+    "changes": "Removed the root presentation rotation; consolidated thousands of meshes; error-bounded simplification, quantization and meshopt compression. Retained authored markings and materials.",
+    "origin": "sketchfab",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "reviewed": "2026-10-04",
+    "assetSha256": "3df4798900e22392ecc743fa2bde2e7ac8fee53a95072e024bc678823c95a27c"
+  },
+  {
+    "id": "i712700k",
+    "asset": "sketchfab-i7-12700k.glb",
+    "title": "Intel Core i7-12700K",
+    "creator": "Txy2u",
+    "creatorUrl": "https://sketchfab.com/Txy2u",
+    "sourceUrl": "https://sketchfab.com/3d-models/none-0e418b5aa4ae4561b8bdbbaa34b34261",
+    "dimensionsMm": [
+      37.5,
+      45,
+      3.6
+    ],
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "dimensionStatus": "Approximate LGA1700 preview envelope. Package height, contacts and installed placement are not clearance verified.",
+    "changes": "Removed the root presentation rotation; consolidated thousands of meshes; error-bounded simplification, quantization and meshopt compression. Retained authored markings and materials.",
+    "origin": "sketchfab",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "reviewed": "2026-10-04",
+    "assetSha256": "bb4d2a4764bda453bc2a8ef97e296287b962e647c2a5d0765f86f8b78cf4dc29"
+  },
+  {
+    "id": "i512400f",
+    "asset": "sketchfab-i5-12400f.glb",
+    "title": "Intel Core i5-12400 exterior",
+    "creator": "Alex",
+    "creatorUrl": "https://sketchfab.com/alex.ars.460",
+    "sourceUrl": "https://sketchfab.com/3d-models/intel-core-i5-12400f-ad8a458fa799483b92d119018f6505f1",
+    "identity": "family-or-chip",
+    "estimated": true,
+    "dimensionsMm": [
+      37.5,
+      45,
+      2.5
+    ],
+    "orientation": [
+      1.5707963267948966,
+      0,
+      0
+    ],
+    "dimensionStatus": "Approximate LGA1700 preview envelope. Listing says 12400F but the source texture reads i5-12400 without F. Only exterior family appearance is represented; exact F marking and package dimensions are unverified.",
+    "changes": "Checked both embedded textures, recorded the listing/marking discrepancy and consolidated static meshes. No substitution claim for an exact F SKU.",
+    "origin": "sketchfab",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "reviewed": "2026-10-04",
+    "assetSha256": "d063dcf23b8b983c627ebf0abafa19c3fca327f479fafcfb468b0a43b48f262a"
+  },
+  {
+    "id": "x-case-fractal-design-meshify-c",
+    "asset": "sketchfab-meshify-c.glb",
+    "title": "Fractal Design Meshify C",
+    "creator": "MUSHROOM_BUILDS",
+    "creatorUrl": "https://sketchfab.com/MUSHROOM_BUILDS",
+    "sourceUrl": "https://sketchfab.com/3d-models/fractal-design-meshify-c-pc-case-a46526af2ac84fa098edc3f01c012450",
+    "dimensionsMm": [
+      409,
+      453,
+      217
+    ],
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "dimensionStatus": "Fractal product sheet gives a 409 × 217 × 453 mm external envelope. Source geometry and installed mounting positions are approximate; panel variant must be checked.",
+    "changes": "Consolidated static meshes, applied error-bounded simplification, quantization and meshopt compression. Source appearance retained; external envelope uses Fractal product sheet https://www.fractal-design.com/app/uploads/2019/07/Meshify-C-PS.pdf.",
+    "origin": "sketchfab",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "reviewed": "2026-10-04",
+    "assetSha256": "0bed3c6c994b64fddfcf26f63595570fa602d9bb52521feb064c1a3df7d29997"
+  },
+  {
+    "id": "rtx3090",
+    "asset": "sketchfab-rtx3090-kirigami.glb",
+    "title": "Nvidia GeForce RTX 3090 Founder’s Edition",
+    "creator": "Kirigami",
+    "creatorUrl": "https://sketchfab.com/kirigami318",
+    "sourceUrl": "https://sketchfab.com/3d-models/nvidia-geforce-rtx-3090-founders-edition-free-9558cdaf901143369d8752b9491c41d2",
+    "identity": "family-or-chip",
+    "estimated": true,
+    "dimensionsMm": [
+      313,
+      61,
+      138
+    ],
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "dimensionStatus": "Approximate Founders Edition exterior envelope, not a named partner cooler or clearance-certified assembly.",
+    "changes": "Downloaded the converted 1k-texture GLB and consolidated static meshes, keeping creator materials and geometry.",
+    "origin": "sketchfab",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "reviewed": "2026-10-04",
+    "assetSha256": "0033b1aec7c3c1d22a234c8dd741704f00089c3d4d6a1d36df5e29217e2d7373"
+  },
+  {
+    "id": "retail-asus-rog-strix-geforce-rtx-4090-white-oc-24gb",
+    "asset": "sketchfab-asus-rtx4090-muha.glb",
+    "title": "ASUS ROG Strix GeForce RTX 4090 OC Edition — white exterior",
+    "creator": "Muha",
+    "creatorUrl": "https://sketchfab.com/ma8671498",
+    "sourceUrl": "https://sketchfab.com/3d-models/asus-rog-strix-geforce-rtx-4090-oc-edition-689ed7f461a44066a7e08c151000740a",
+    "dimensionsMm": [
+      357.6,
+      70.1,
+      149.3
+    ],
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "dimensionStatus": "ASUS White OC product specifications supply the external envelope. Creator depicts a white exterior but does not specify a complete retail SKU; lettering, clearances and mounting remain approximate.",
+    "changes": "Selected the first white GPU group from a two-card scene; excluded the detached PCB display object. Neutralized reviewed presentation ancestors, consolidated static geometry and applied quantization/meshopt compression. Colors and creator textures retained.",
+    "origin": "sketchfab",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "reviewed": "2026-10-04",
+    "assetSha256": "40f0a13254d82af63235a3783a10262beac89bcf58611f2c5e2548f3b0820fb0"
+  },
+  {
+    "id": "ddr4",
+    "asset": "sketchfab-vengeance-lpx.glb",
+    "title": "RAM Corsair Vengeance LPX",
+    "creator": "supahot",
+    "creatorUrl": "https://sketchfab.com/supahot",
+    "sourceUrl": "https://sketchfab.com/3d-models/ram-corsair-vengeance-lpx-ee11e1926e514075a70642ecb5dc5c2d",
+    "identity": "family-or-chip",
+    "estimated": true,
+    "dimensionsMm": [
+      7,
+      133,
+      34
+    ],
+    "orientation": [
+      1.5707963267948966,
+      0,
+      1.5707963267948966
+    ],
+    "dimensionStatus": "Approximate memory-module preview envelope. Source depicts this heat-spreader family; speed, timings, capacity, sticker revision and mounting are not verified for this exact kit.",
+    "changes": "Consolidated one DIMM’s static meshes and retained original textures and materials. Oriented for installation; no claim that sticker capacity or speed matches each kit.",
+    "origin": "sketchfab",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "reviewed": "2026-10-04",
+    "assetSha256": "7c1e073bc00839181762619f1d8f3d3ff5cf852469e31b9be21776ac24e55e33"
+  },
+  {
+    "id": "corsair3600",
+    "asset": "sketchfab-vengeance-lpx.glb",
+    "title": "RAM Corsair Vengeance LPX",
+    "creator": "supahot",
+    "creatorUrl": "https://sketchfab.com/supahot",
+    "sourceUrl": "https://sketchfab.com/3d-models/ram-corsair-vengeance-lpx-ee11e1926e514075a70642ecb5dc5c2d",
+    "identity": "family-or-chip",
+    "estimated": true,
+    "dimensionsMm": [
+      7,
+      133,
+      34
+    ],
+    "orientation": [
+      1.5707963267948966,
+      0,
+      1.5707963267948966
+    ],
+    "dimensionStatus": "Approximate memory-module preview envelope. Source depicts this heat-spreader family; speed, timings, capacity, sticker revision and mounting are not verified for this exact kit.",
+    "changes": "Consolidated one DIMM’s static meshes and retained original textures and materials. Oriented for installation; no claim that sticker capacity or speed matches each kit.",
+    "origin": "sketchfab",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "reviewed": "2026-10-04",
+    "assetSha256": "7c1e073bc00839181762619f1d8f3d3ff5cf852469e31b9be21776ac24e55e33"
+  },
+  {
+    "id": "gskill3600c16",
+    "asset": "sketchfab-trident-z-neo.glb",
+    "title": "G.Skill Trident Z Neo",
+    "creator": "alijon.ganiev2017",
+    "creatorUrl": "https://sketchfab.com/alijon.ganiev2017",
+    "sourceUrl": "https://sketchfab.com/3d-models/ram-gskill-trident-z-neo-7c194f352f0a4d4e9bc1f16358bc3a52",
+    "identity": "family-or-chip",
+    "estimated": true,
+    "dimensionsMm": [
+      8,
+      133,
+      44
+    ],
+    "orientation": [
+      0,
+      1.5707963267948966,
+      0
+    ],
+    "dimensionStatus": "Approximate memory-module preview envelope. Source depicts this heat-spreader family; speed, timings, capacity, sticker revision and mounting are not verified for this exact kit.",
+    "changes": "Extracted one DIMM from the creator’s two-DIMM scene, retaining all ancestor and child transforms, geometry and materials. Consolidated meshes and applied meshopt compression.",
+    "origin": "sketchfab",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "reviewed": "2026-10-04",
+    "assetSha256": "be8bc88f2732dfc440a20561d3998518c8f278d63935ec21f78fa65dd480eec7"
+  },
+  {
+    "id": "c-ram-g-skill-trident-z-neo-32gb-ddr4-3600-cl16",
+    "asset": "sketchfab-trident-z-neo.glb",
+    "title": "G.Skill Trident Z Neo",
+    "creator": "alijon.ganiev2017",
+    "creatorUrl": "https://sketchfab.com/alijon.ganiev2017",
+    "sourceUrl": "https://sketchfab.com/3d-models/ram-gskill-trident-z-neo-7c194f352f0a4d4e9bc1f16358bc3a52",
+    "identity": "family-or-chip",
+    "estimated": true,
+    "dimensionsMm": [
+      8,
+      133,
+      44
+    ],
+    "orientation": [
+      0,
+      1.5707963267948966,
+      0
+    ],
+    "dimensionStatus": "Approximate memory-module preview envelope. Source depicts this heat-spreader family; speed, timings, capacity, sticker revision and mounting are not verified for this exact kit.",
+    "changes": "Extracted one DIMM from the creator’s two-DIMM scene, retaining all ancestor and child transforms, geometry and materials. Consolidated meshes and applied meshopt compression.",
+    "origin": "sketchfab",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "reviewed": "2026-10-04",
+    "assetSha256": "be8bc88f2732dfc440a20561d3998518c8f278d63935ec21f78fa65dd480eec7"
+  },
+  {
+    "id": "i714700k",
+    "asset": "sketchfab-i7-14700k.glb",
+    "title": "Intel Core i7 14700K 3D model",
+    "creator": "lime.ball.animations",
+    "creatorUrl": "https://sketchfab.com/lime.ball.animations.official",
+    "sourceUrl": "https://sketchfab.com/3d-models/intel-core-i7-14700k-3d-model-bdb2c7ecb9c747248a6d961795bf0d2e",
+    "dimensionsMm": [
+      37.5,
+      45,
+      2.5
+    ],
+    "orientation": [
+      1.5707963267948966,
+      0,
+      0
+    ],
+    "dimensionStatus": "Approximate LGA1700 package envelope. The source texture identifies i7-14700K; mounting, contacts and installed height are unverified.",
+    "changes": "Downloaded 1K texture GLB; consolidated static geometry and compressed with meshopt, preserving the creator materials and identifying texture.",
+    "origin": "sketchfab",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "reviewed": "2026-10-04",
+    "assetSha256": "e4cd2b1b38eadc0487d2ed5ff407967d21001a5eda282e7ce62d15a8e01c9bef"
+  },
+  {
+    "id": "i912900k",
+    "asset": "sketchfab-i9-12900k.glb",
+    "title": "Intel core i9 12900k",
+    "creator": "teodor088",
+    "creatorUrl": "https://sketchfab.com/teodor088",
+    "sourceUrl": "https://sketchfab.com/3d-models/intel-core-i9-12900k-5eda490bd3c342788d9c5e590cd65dda",
+    "dimensionsMm": [
+      37.5,
+      45,
+      2.5
+    ],
+    "orientation": [
+      1.5707963267948966,
+      1.5707963267948966,
+      0
+    ],
+    "dimensionStatus": "Approximate LGA1700 package envelope. Front texture identifies Core i9-12900K. Package markings and placement are reviewed for appearance only; not clearance-certified.",
+    "changes": "Downloaded 1K texture GLB; consolidated static meshes and applied meshopt compression. Retained authored geometry and materials.",
+    "origin": "sketchfab",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "reviewed": "2026-10-04",
+    "assetSha256": "4f68300b5e3c5dfa69d5688b8175f86c4f83d204bb91877e4fccc5e40224d169"
+  },
+  {
+    "id": "5600",
+    "asset": "sketchfab-ryzen-5-5600.glb",
+    "title": "Ryzen 5 5600",
+    "creator": "McMiwok",
+    "creatorUrl": "https://sketchfab.com/McMiwok",
+    "sourceUrl": "https://sketchfab.com/3d-models/ryzen-5-5600-358bdc563a264a58a610abd001d36d89",
+    "dimensionsMm": [
+      40,
+      40,
+      6.5
+    ],
+    "orientation": [
+      1.5707963267948966,
+      0,
+      0
+    ],
+    "dimensionStatus": "Approximate AM4 package envelope. Source texture identifies AMD Ryzen 5 5600. Pins, mounting and installed height are not clearance-verified.",
+    "changes": "Converted the source zero-specular legacy material to metallic-roughness PBR without changing textures. Consolidated static meshes and compressed with meshopt.",
+    "origin": "sketchfab",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "reviewed": "2026-10-04",
+    "assetSha256": "163a459b2b066927b4a6a651b1ea1f89cd29a8f505e0a8bdf5f7bf40015b9f21"
+  },
+  {
+    "id": "i911900k",
+    "asset": "sketchfab-i9-11900k.glb",
+    "title": "Intel Core I9-11900K",
+    "creator": "M E U",
+    "creatorUrl": "https://sketchfab.com/meu9MM98",
+    "sourceUrl": "https://sketchfab.com/3d-models/intel-core-i9-11900k-ab316272ebc24b9295fcd502e641d395",
+    "identity": "model-needs-verification",
+    "estimated": true,
+    "dimensionsMm": [
+      37.5,
+      37.5,
+      3
+    ],
+    "orientation": [
+      1.5707963267948966,
+      0,
+      0
+    ],
+    "dimensionStatus": "Approximate LGA1200 exterior. Listing names i9-11900K, but artwork shows an Intel logo without the model designation. Exact markings and mounting need verification.",
+    "changes": "Extracted CPU body, contacts and surface components; removed the floating presentation-logo plane. Retained the source materials; consolidated and compressed with meshopt.",
+    "origin": "sketchfab",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "reviewed": "2026-10-04",
+    "assetSha256": "11a05ac4369183afd16084ef45def0b08219acf5a1629ae498dbe951f0e9e469"
   }
 ]

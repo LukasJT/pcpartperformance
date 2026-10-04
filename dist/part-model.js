@@ -1,6 +1,7 @@
 import * as THREE from '/vendor/three/build/three.module.min.js';
 import {OrbitControls} from '/vendor/three/examples/jsm/controls/OrbitControls.js';
 import {GLTFLoader} from '/vendor/three/examples/jsm/loaders/GLTFLoader.js';
+import {MeshoptDecoder} from '/vendor/meshoptimizer/meshopt_decoder.js';
 
 for (const button of document.querySelectorAll('.part-model-open')) {
   button.addEventListener('click', async () => {
@@ -25,7 +26,7 @@ for (const button of document.querySelectorAll('.part-model-open')) {
       const camera = new THREE.PerspectiveCamera(38, 1, 0.01, 100);
       const controls = new OrbitControls(camera, renderer.domElement);
       controls.enableDamping = false;
-      const gltf = await new GLTFLoader().loadAsync(button.dataset.model);
+      const gltf = await new GLTFLoader().setMeshoptDecoder(MeshoptDecoder).loadAsync(button.dataset.model);
       scene.add(gltf.scene);
       const bounds = new THREE.Box3().setFromObject(gltf.scene);
       if (bounds.isEmpty()) throw new Error('Empty mesh');

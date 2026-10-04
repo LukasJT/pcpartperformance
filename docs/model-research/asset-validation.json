@@ -1,0 +1,2082 @@
+{
+  "checkedAt": "2026-10-04T16:16:43.864Z",
+  "totalComponents": 816,
+  "downloadedMappings": 80,
+  "simplifiedMappings": 736,
+  "uniqueFiles": 148,
+  "method": "Self-contained GLB, chunk lengths, embedded texture ranges, reachable scene transforms, nonzero volume and triangles. This does not certify shape identity or clearance.",
+  "assets": [
+    {
+      "file": "dist/assets/models/gpu-4080-reference.glb",
+      "bytes": 16056,
+      "sha256": "8fb96f1fdc930a995bd7513e0044b34bc1591ef3e934fa3a15a1d08636842676",
+      "meshes": 6,
+      "triangles": 240,
+      "textures": 0,
+      "sourceBounds": [
+        0.30449999512545767,
+        0.06550000036880374,
+        0.13699999451637268
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/silhouette-gpu-3fan.glb",
+      "bytes": 192652,
+      "sha256": "59ab6a9401808d616777de03cfb2b670e07c4e344c5e940dcc32ddf28e3de8dc",
+      "meshes": 36,
+      "triangles": 3276,
+      "textures": 0,
+      "sourceBounds": [
+        0.30100000600796195,
+        0.05850000006053597,
+        0.125
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-vengeance-lpx.glb",
+      "bytes": 1167944,
+      "sha256": "7c1e073bc00839181762619f1d8f3d3ff5cf852469e31b9be21776ac24e55e33",
+      "meshes": 10,
+      "triangles": 5292,
+      "textures": 6,
+      "sourceBounds": [
+        0.979456927808928,
+        0.19436242413814675,
+        4.5685732693930845
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-rtx4090-gihyeon.glb",
+      "bytes": 2367640,
+      "sha256": "2332032bafd164ffe0ad63f6fdd4cc26a35059caf580873d97d82aff804da2e5",
+      "meshes": 4,
+      "triangles": 95472,
+      "textures": 0,
+      "sourceBounds": [
+        7.24458907146925,
+        1.5800000981986502,
+        3.936924503067331
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-gtx1080ti-fe.glb",
+      "bytes": 6430384,
+      "sha256": "527d522c74be1fdaad1287b48563ff28de6417ae10e50e761b2772ce8c4f63d4",
+      "meshes": 17,
+      "triangles": 138462,
+      "textures": 4,
+      "sourceBounds": [
+        1.8292118587997592,
+        4.455242495535085,
+        1.476439409105575
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-ryzen-7-7800x3d.glb",
+      "bytes": 4249196,
+      "sha256": "c7dc454d07cf475870e6b97433ca5f8a9381af69e9660bff3bbcd1e9ecf98403",
+      "meshes": 7,
+      "triangles": 66444,
+      "textures": 0,
+      "sourceBounds": [
+        2.6449222564697266,
+        0.21075314283370972,
+        2.6449222564697266
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-ryzen-7-9800x3d-low-poly.glb",
+      "bytes": 300092,
+      "sha256": "0b6534553f6348fa28500becd6dd64db71858c348dd05a884f2d927bff080f06",
+      "meshes": 3,
+      "triangles": 1312,
+      "textures": 1,
+      "sourceBounds": [
+        3.820098876953125,
+        0.25034485804461504,
+        3.820098876953125
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/board-b650.glb",
+      "bytes": 14952,
+      "sha256": "69774d5475839a37f1eb0fee35f32c87158becfc511d4ca1998989e8e68cb09a",
+      "meshes": 10,
+      "triangles": 120,
+      "textures": 0,
+      "sourceBounds": [
+        0.24383999407291412,
+        0.30480000376701355,
+        0.025300000166054815
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-msi-b450-tomahawk-max.glb",
+      "bytes": 1638096,
+      "sha256": "a8da1e2ff0d815970f2bdad77a57ab53d35e5feee7d2009bb2cf26dfb332c6cf",
+      "meshes": 11,
+      "triangles": 18802,
+      "textures": 2,
+      "sourceBounds": [
+        0.248353511095047,
+        0.030776555433570607,
+        0.30499997735023493
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/ram-vengeance.glb",
+      "bytes": 4604,
+      "sha256": "f864946ad5476bf9ff422a5d07ebb2383175ecb9c4775c3b71db32e3cce85540",
+      "meshes": 3,
+      "triangles": 36,
+      "textures": 0,
+      "sourceBounds": [
+        0.007000000216066837,
+        0.13500000536441803,
+        0.03800000014249236
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-samsung-990-pro-1tb.glb",
+      "bytes": 1916612,
+      "sha256": "045f04ded64d377fac23c22f6fd2648e451e534120a5e263ece9b9240685ee59",
+      "meshes": 2,
+      "triangles": 2038,
+      "textures": 4,
+      "sourceBounds": [
+        4.332269571745329,
+        0.009141934927318017,
+        1.2010372623561845
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-samsung-980-pro-1tb.glb",
+      "bytes": 1191460,
+      "sha256": "edf71dc6ff3ac2cce2f245192d2a996fc272850f9631dff8c12a65214f9d0bad",
+      "meshes": 2,
+      "triangles": 1392,
+      "textures": 3,
+      "sourceBounds": [
+        4.003333002254372,
+        1.1085179839956574,
+        0.05769108280326041
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/hdd-barracuda.glb",
+      "bytes": 3156,
+      "sha256": "c900c90b191d127097ade8be286e16c698871c6a65882a78f528d24c864bdd8c",
+      "meshes": 2,
+      "triangles": 24,
+      "textures": 0,
+      "sourceBounds": [
+        0.14699000120162964,
+        0.02019999921321869,
+        0.1018500030040741
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/silhouette-hdd.glb",
+      "bytes": 3160,
+      "sha256": "5393d83e58f90cabc8b698f38e0ae273718879ff0f6e91b111cad5efb50ac158",
+      "meshes": 2,
+      "triangles": 24,
+      "textures": 0,
+      "sourceBounds": [
+        0.1469999998807907,
+        0.02700000031571835,
+        0.10199999809265137
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/psu-rm850x.glb",
+      "bytes": 6680,
+      "sha256": "64284530fc72003dff8b4c70d91331738c8b994b63041670f2b31247e0f68680",
+      "meshes": 2,
+      "triangles": 108,
+      "textures": 0,
+      "sourceBounds": [
+        0.1599999964237213,
+        0.08800000150781125,
+        0.15000000596046448
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/silhouette-psu-atx.glb",
+      "bytes": 6680,
+      "sha256": "64284530fc72003dff8b4c70d91331738c8b994b63041670f2b31247e0f68680",
+      "meshes": 2,
+      "triangles": 108,
+      "textures": 0,
+      "sourceBounds": [
+        0.1599999964237213,
+        0.08800000150781125,
+        0.15000000596046448
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-rtx5090-fe.glb",
+      "bytes": 5192900,
+      "sha256": "12bcf7ee9e0632fcd3bd5b185b224b433fa7bf85d943e876ff96b32c484ea814",
+      "meshes": 41,
+      "triangles": 113728,
+      "textures": 0,
+      "sourceBounds": [
+        9.030716818500752,
+        4.484583873370795,
+        1.3301080583861988
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/silhouette-gpu-2fan.glb",
+      "bytes": 130032,
+      "sha256": "9ae7bff8c550f09f432a9aebdcd8659a9dd7b6d9c7263aab14acd2eb02132d3d",
+      "meshes": 25,
+      "triangles": 2196,
+      "textures": 0,
+      "sourceBounds": [
+        0.24099999736528843,
+        0.046500000060535965,
+        0.11500000208616257
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-rtx4060-mrdt.glb",
+      "bytes": 308336,
+      "sha256": "37a91ccdc34592731b063832fa0a656ffd9f0cbac242ca7b7a23561f3da7588f",
+      "meshes": 10,
+      "triangles": 11576,
+      "textures": 0,
+      "sourceBounds": [
+        38.8267707824707,
+        127.90462303161627,
+        245.85038757324222
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-rtx3090-kirigami.glb",
+      "bytes": 4672244,
+      "sha256": "0033b1aec7c3c1d22a234c8dd741704f00089c3d4d6a1d36df5e29217e2d7373",
+      "meshes": 13,
+      "triangles": 52404,
+      "textures": 8,
+      "sourceBounds": [
+        8.786843299865723,
+        1.7211707584380633,
+        4.241635322570801
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-rtx3080-fe.glb",
+      "bytes": 4911740,
+      "sha256": "6633709008111f15a3572d4708e1a69903428e4b85cccedbddd5a0bd53441fe5",
+      "meshes": 21,
+      "triangles": 137732,
+      "textures": 0,
+      "sourceBounds": [
+        0.13178757933727364,
+        0.29950000044418135,
+        0.10962637558429744
+      ],
+      "animations": 1
+    },
+    {
+      "file": "dist/assets/models/sketchfab-rtx3070-datsketch.glb",
+      "bytes": 2218592,
+      "sha256": "5fcf9bcb8b41b2f6c588c352fcc7604b4ebbe87af6cfe33c7b23dfb2a80d3993",
+      "meshes": 13,
+      "triangles": 53920,
+      "textures": 1,
+      "sourceBounds": [
+        208.642840385437,
+        90.67459937176494,
+        70.90161914047496
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-rtx-3060-ti-low-poly.glb",
+      "bytes": 938628,
+      "sha256": "b395a22a16cec30e485e1b7685d35c5622be0582999890c802e39aedab293e0f",
+      "meshes": 13,
+      "triangles": 14045,
+      "textures": 0,
+      "sourceBounds": [
+        5.0787881675375885,
+        0.6252537070839814,
+        2.2843415881344384
+      ],
+      "animations": 1
+    },
+    {
+      "file": "dist/assets/models/sketchfab-rtx2080ti.glb",
+      "bytes": 1510792,
+      "sha256": "435579f754d5ffdb746e9c9adea1f838ce3a99d1f90299374765a3f8cdfbbe8d",
+      "meshes": 187,
+      "triangles": 20398,
+      "textures": 5,
+      "sourceBounds": [
+        8.313696491997689,
+        3.9627026319503784,
+        1.290679540178023
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-galax-rtx2060.glb",
+      "bytes": 3785612,
+      "sha256": "96fece347aa87c061a3ca781dadeee63f5d6d5d411251937a73222ff4d31051a",
+      "meshes": 32,
+      "triangles": 31988,
+      "textures": 3,
+      "sourceBounds": [
+        1.400327530564816,
+        0.3599573147692925,
+        2.3617777409710996
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-gtx1070-scan.glb",
+      "bytes": 4838780,
+      "sha256": "a49d05d7174550a70a61b1a5d2335d896eb6379c89972a3f16cf632304e45ee4",
+      "meshes": 15,
+      "triangles": 185096,
+      "textures": 2,
+      "sourceBounds": [
+        0.009875308472050547,
+        0.008555416149771988,
+        0.006786783022838517
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-rx580-scan.glb",
+      "bytes": 2084480,
+      "sha256": "8f805bd67c6418d17157ca57094131196c43f4ad5e5bf5e8172274c2a8365490",
+      "meshes": 3,
+      "triangles": 67381,
+      "textures": 1,
+      "sourceBounds": [
+        83.40258789062501,
+        42.241236226706484,
+        12.302981825991367
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-intel-arc-b580.glb",
+      "bytes": 4834968,
+      "sha256": "ec264bf5de192e815404e867f3381ad25bf103688514281ef04fad8e46a5725e",
+      "meshes": 12,
+      "triangles": 54717,
+      "textures": 4,
+      "sourceBounds": [
+        8.157138595414954,
+        4.271375989065453,
+        3.316495022909576
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/silhouette-cpu.glb",
+      "bytes": 3184,
+      "sha256": "bac1c65f2302ab487844b4b5a6240a6cc775ac54075b243ff61947abf03258ac",
+      "meshes": 2,
+      "triangles": 24,
+      "textures": 0,
+      "sourceBounds": [
+        0.03999999910593033,
+        0.03999999910593033,
+        0.005000000060535968
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-ryzen-5-9600x.glb",
+      "bytes": 547692,
+      "sha256": "489e4a5d50b5f77eb47a64c21af180e863b36c561ecf2210a18b6a460870ece4",
+      "meshes": 3,
+      "triangles": 1296,
+      "textures": 1,
+      "sourceBounds": [
+        3.8218865994475273,
+        0.2503448580446166,
+        3.8218865994475273
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-ryzen7600x.glb",
+      "bytes": 21718540,
+      "sha256": "3eb4c36e12b099de910fc1da22e8c232d56ca0cc89a588e637894a1fccc706f1",
+      "meshes": 7,
+      "triangles": 458912,
+      "textures": 3,
+      "sourceBounds": [
+        4.169257767040035,
+        0.7542613775089071,
+        3.5853773082872062
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-ryzen5600x.glb",
+      "bytes": 37400660,
+      "sha256": "baec8992628a3099936b09a73030a4d40b0ebe56357bbb672d9d9de9d646f0a9",
+      "meshes": 6,
+      "triangles": 823517,
+      "textures": 3,
+      "sourceBounds": [
+        3.3188756461370694,
+        0.4368451736906845,
+        3.3345717334932123
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-ryzen-5-3600.glb",
+      "bytes": 7793372,
+      "sha256": "e50372470e69ba4f8d7b2ebcb72ae47d5137a495c893cb874e2fcd74525a3f1a",
+      "meshes": 1,
+      "triangles": 99743,
+      "textures": 3,
+      "sourceBounds": [
+        6.085651874542236,
+        0.5282019693959814,
+        6.085651874542236
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-i7-14700k.glb",
+      "bytes": 2721192,
+      "sha256": "e4cd2b1b38eadc0487d2ed5ff407967d21001a5eda282e7ce62d15a8e01c9bef",
+      "meshes": 2,
+      "triangles": 5477,
+      "textures": 2,
+      "sourceBounds": [
+        0.14031606785891323,
+        0.007367375473157385,
+        0.16707498922794523
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-i5-13600k.glb",
+      "bytes": 2529216,
+      "sha256": "3df4798900e22392ecc743fa2bde2e7ac8fee53a95072e024bc678823c95a27c",
+      "meshes": 16,
+      "triangles": 330614,
+      "textures": 0,
+      "sourceBounds": [
+        2.3553452537504143,
+        2.811682074298439,
+        0.2229160428751394
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-i9-12900k.glb",
+      "bytes": 2144384,
+      "sha256": "4f68300b5e3c5dfa69d5688b8175f86c4f83d204bb91877e4fccc5e40224d169",
+      "meshes": 3,
+      "triangles": 6035,
+      "textures": 6,
+      "sourceBounds": [
+        0.04557188592415862,
+        0.004888297069388183,
+        0.037993749794271045
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-i7-12700k.glb",
+      "bytes": 4535920,
+      "sha256": "bb4d2a4764bda453bc2a8ef97e296287b962e647c2a5d0765f86f8b78cf4dc29",
+      "meshes": 15,
+      "triangles": 458516,
+      "textures": 0,
+      "sourceBounds": [
+        4.212565517751734,
+        4.985320726031974,
+        0.33358043583438457
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/silhouette-board-atx.glb",
+      "bytes": 13484,
+      "sha256": "f7c4e2324bb83466eab94c2e5072babebe63175b155bb1c28eed9bfaa5316b3e",
+      "meshes": 9,
+      "triangles": 108,
+      "textures": 0,
+      "sourceBounds": [
+        0.24400000274181366,
+        0.3050000071525574,
+        0.025300000166054815
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/silhouette-ram.glb",
+      "bytes": 4580,
+      "sha256": "1465eb93d550118aa7a47ae8c042953a1f3f69cfd5e81c693e12274bb631b338",
+      "meshes": 3,
+      "triangles": 36,
+      "textures": 0,
+      "sourceBounds": [
+        0.007000000216066837,
+        0.13300000131130219,
+        0.03800000014249236
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-trident-z-neo.glb",
+      "bytes": 189900,
+      "sha256": "be8bc88f2732dfc440a20561d3998518c8f278d63935ec21f78fa65dd480eec7",
+      "meshes": 7,
+      "triangles": 38306,
+      "textures": 0,
+      "sourceBounds": [
+        0.6064846469263768,
+        2.725758911242508,
+        0.1782207756606336
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-kingston-fury-beast-ddr5.glb",
+      "bytes": 566664,
+      "sha256": "505b35a763b65f24727fca8ce8045a028e69a4d02aba806b248bea33d9ae170e",
+      "meshes": 1,
+      "triangles": 364,
+      "textures": 1,
+      "sourceBounds": [
+        4.714210033416748,
+        0.10227800160646466,
+        1.2525379657745361
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/silhouette-ssd-m2.glb",
+      "bytes": 4640,
+      "sha256": "791b2c63a1bdeadff5aa821c609ace497ab8be9256507a96365a927b357fb3ab",
+      "meshes": 3,
+      "triangles": 36,
+      "textures": 0,
+      "sourceBounds": [
+        0.07999999920092524,
+        0.02199999988079071,
+        0.0035000000367872417
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/silhouette-ssd-sata.glb",
+      "bytes": 3164,
+      "sha256": "76cdfc6bc54feab6a7deb33b1a402b7952529f68be126fd9f4a287791c26be0b",
+      "meshes": 2,
+      "triangles": 24,
+      "textures": 0,
+      "sourceBounds": [
+        0.10000000149011612,
+        0.07000000029802322,
+        0.007650000109802931
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/silhouette-psu-sfx.glb",
+      "bytes": 6660,
+      "sha256": "3b9390d19289c38504eaf23aac180fca6cd2d5ca60cf50c5483ead2eb33a4fbd",
+      "meshes": 2,
+      "triangles": 108,
+      "textures": 0,
+      "sourceBounds": [
+        0.125,
+        0.0660000015674159,
+        0.10000000149011612
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-ryzen-5-7600.glb",
+      "bytes": 2303116,
+      "sha256": "36f05dcc356fc48ffc315f4a062b4f0322e02eef604f121eeb49bece603f3867",
+      "meshes": 5,
+      "triangles": 5728,
+      "textures": 6,
+      "sourceBounds": [
+        0.03999999910593033,
+        0.005733000187319712,
+        0.03999999910593033
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-ryzen-7-5700x3d.glb",
+      "bytes": 1530184,
+      "sha256": "c3d569b700f6369eb892a35d6c96de792557740be533a27d35cc940a06caa1fa",
+      "meshes": 4,
+      "triangles": 31060,
+      "textures": 1,
+      "sourceBounds": [
+        0.2997202431060825,
+        0.29972025628169485,
+        0.04286694555285167
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-ryzen-5-5600.glb",
+      "bytes": 1476440,
+      "sha256": "163a459b2b066927b4a6a651b1ea1f89cd29a8f505e0a8bdf5f7bf40015b9f21",
+      "meshes": 1,
+      "triangles": 13426,
+      "textures": 2,
+      "sourceBounds": [
+        0.04000000283122063,
+        0.006499228754854163,
+        0.0400000038900778
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-i9-11900k.glb",
+      "bytes": 134360,
+      "sha256": "11a05ac4369183afd16084ef45def0b08219acf5a1629ae498dbe951f0e9e469",
+      "meshes": 7,
+      "triangles": 5332,
+      "textures": 1,
+      "sourceBounds": [
+        4.222921371459961,
+        0.10221585522423035,
+        4.222921371459961
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-intel-i7-9700k.glb",
+      "bytes": 17448,
+      "sha256": "58d4dd602f12f6493ab4042669cf628890153ce7d199e55656dc0efeaa7f9bce",
+      "meshes": 2,
+      "triangles": 245,
+      "textures": 0,
+      "sourceBounds": [
+        1.1249563694000244,
+        1.1249565248763695,
+        0.1362555082622876
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-gigabyte-gtx1660.glb",
+      "bytes": 6454632,
+      "sha256": "433dac2c8d6de0d9ebcd3e5f299f1785b3a26514acfc36c40fdb00674aae4d5b",
+      "meshes": 4,
+      "triangles": 51348,
+      "textures": 11,
+      "sourceBounds": [
+        4.768928050994873,
+        0.75222097337246,
+        2.3668019771575928
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-intel-i7-8700.glb",
+      "bytes": 4218124,
+      "sha256": "53290a14baa127bd5346b7c0cc7fc75fa898667e4940d6f6493f6209f892da17",
+      "meshes": 10,
+      "triangles": 119307,
+      "textures": 0,
+      "sourceBounds": [
+        0.2860075823549668,
+        0.29072210273084576,
+        0.023535340677201533
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-intel-i5-7600k.glb",
+      "bytes": 621272,
+      "sha256": "16fa88105b293adef3b56d5541a8856c3fc27560a06ce1c5d2c1bb7ad5576fc3",
+      "meshes": 5,
+      "triangles": 21849,
+      "textures": 0,
+      "sourceBounds": [
+        50,
+        51,
+        6.2690000087022835
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-tforce-ddr5-black.glb",
+      "bytes": 18501096,
+      "sha256": "145fc1388ba03a71e2ccd554eaee25fb5985d227777b721180913c5457ef053f",
+      "meshes": 11,
+      "triangles": 39770,
+      "textures": 10,
+      "sourceBounds": [
+        22.817258769587696,
+        7.614314077905291,
+        1.1488188921690474
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-i5-12400f.glb",
+      "bytes": 2085988,
+      "sha256": "d063dcf23b8b983c627ebf0abafa19c3fca327f479fafcfb468b0a43b48f262a",
+      "meshes": 3,
+      "triangles": 2623,
+      "textures": 2,
+      "sourceBounds": [
+        4.136815702093095,
+        0.27433897319191275,
+        5.016427399773821
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-intel12100f.glb",
+      "bytes": 23864400,
+      "sha256": "f5f8ba99c27808221f78451496032780562401c2cb4d42fab32864c9969fdba7",
+      "meshes": 12,
+      "triangles": 132143,
+      "textures": 10,
+      "sourceBounds": [
+        3.54335123994243,
+        1.0826007307468553,
+        5.8331996585849115
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/retail-msi-mag-b850-tomahawk-max-wifi.glb",
+      "bytes": 13484,
+      "sha256": "f7c4e2324bb83466eab94c2e5072babebe63175b155bb1c28eed9bfaa5316b3e",
+      "meshes": 9,
+      "triangles": 108,
+      "textures": 0,
+      "sourceBounds": [
+        0.24400000274181366,
+        0.3050000071525574,
+        0.025300000166054815
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/silhouette-board-matx.glb",
+      "bytes": 13488,
+      "sha256": "1b88cad338b048ff371dc278cca99870be344a469c47ecb72468daffc4da1775",
+      "meshes": 9,
+      "triangles": 108,
+      "textures": 0,
+      "sourceBounds": [
+        0.24400000274181366,
+        0.24400000274181366,
+        0.025300000166054815
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/silhouette-case.glb",
+      "bytes": 31408,
+      "sha256": "a7a493e905b92713171336491fe60bf918ef4e0c8a7cb46d2033b1a361e81765",
+      "meshes": 21,
+      "triangles": 252,
+      "textures": 0,
+      "sourceBounds": [
+        0.4499999942295253,
+        0.46000000834465027,
+        0.22150000006053597
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-corsair-4000d-airflow-v2.glb",
+      "bytes": 4263160,
+      "sha256": "0bed08124dc58de60a95e9f33454b966f9fdb82f6170d21da14148c5eebdff1a",
+      "meshes": 25,
+      "triangles": 97968,
+      "textures": 1,
+      "sourceBounds": [
+        0.44941282272338867,
+        0.4645687937736511,
+        0.23002176731824875
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-meshify-c.glb",
+      "bytes": 1219580,
+      "sha256": "0bed3c6c994b64fddfcf26f63595570fa602d9bb52521feb064c1a3df7d29997",
+      "meshes": 7,
+      "triangles": 173451,
+      "textures": 0,
+      "sourceBounds": [
+        4.326023010406116,
+        4.566897765636025,
+        2.1554067405649624
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/case-north-reference.glb",
+      "bytes": 31452,
+      "sha256": "9b35714eaa55f2c69414bf4fbcb30874a73a8ec2a6a52c96b2c939606e583166",
+      "meshes": 21,
+      "triangles": 252,
+      "textures": 0,
+      "sourceBounds": [
+        0.44699999864026907,
+        0.4690000116825104,
+        0.21650000180117784
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/silhouette-board-itx.glb",
+      "bytes": 10536,
+      "sha256": "677b20a78192779831625052a77e58518c6466022979f5a40f8178aa5f8b890c",
+      "meshes": 7,
+      "triangles": 84,
+      "textures": 0,
+      "sourceBounds": [
+        0.17000000178813934,
+        0.17000000178813934,
+        0.02179999975627288
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-corsair-vengeance-rgb-ddr5.glb",
+      "bytes": 86216,
+      "sha256": "e241d7fe1b6f133bb9e9d3a781d77f1b2144be54c7efbcb887ba98ca774dc44f",
+      "meshes": 1,
+      "triangles": 134,
+      "textures": 1,
+      "sourceBounds": [
+        3.619758725166321,
+        0.39345598220825195,
+        11.023185617048398
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-corsair-vengeance-rgb-pro-ddr4.glb",
+      "bytes": 1245504,
+      "sha256": "07a6121ec7d73c9436fd8e7b1e9dfca250ef310a9f14e321a8d306562b569a4b",
+      "meshes": 1,
+      "triangles": 2824,
+      "textures": 1,
+      "sourceBounds": [
+        3.49466,
+        2.529733,
+        0.47124900000000003
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/retail-lian-li-uni-fan-tl-120-wireless-black.glb",
+      "bytes": 77964,
+      "sha256": "cd3c2d72080b0b40a188b4ffed55ee53b24e1f0f5e44e6e5d349f328a689e200",
+      "meshes": 17,
+      "triangles": 1400,
+      "textures": 0,
+      "sourceBounds": [
+        0.12000000037997961,
+        0.12400000037997962,
+        0.030000000479631125
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/retail-lian-li-uni-fan-tl-120-wireless-white.glb",
+      "bytes": 77932,
+      "sha256": "4fae28f7d79287e8caf1a221f742be337fc75cfad955602da31d8fa9788d9d2c",
+      "meshes": 17,
+      "triangles": 1400,
+      "textures": 0,
+      "sourceBounds": [
+        0.12000000037997961,
+        0.12400000037997962,
+        0.030000000479631125
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/retail-lian-li-uni-fan-tl-120-reverse-blade-wireless-black.glb",
+      "bytes": 78232,
+      "sha256": "464926a0f9d81e346970e8d948dc110cd3015e1cdff9bacd6f302a60c2389b0a",
+      "meshes": 17,
+      "triangles": 1400,
+      "textures": 0,
+      "sourceBounds": [
+        0.12000000037997961,
+        0.12400000037997962,
+        0.030000000479631125
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/retail-lian-li-uni-fan-tl-120-reverse-blade-wireless-white.glb",
+      "bytes": 78200,
+      "sha256": "7d71e88f11be3b93eafc1197a41a155891b0f3bd1561014526c9edf60bcd571b",
+      "meshes": 17,
+      "triangles": 1400,
+      "textures": 0,
+      "sourceBounds": [
+        0.12000000037997961,
+        0.12400000037997962,
+        0.030000000479631125
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/retail-lian-li-uni-fan-tl-120-lcd-wireless-black.glb",
+      "bytes": 77960,
+      "sha256": "8c20f426a50132a7d3f0ed06f850016e50a7e4ec4b32cba61d3373c2d257bdbf",
+      "meshes": 17,
+      "triangles": 1400,
+      "textures": 0,
+      "sourceBounds": [
+        0.12000000037997961,
+        0.12400000037997962,
+        0.030000000479631125
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/retail-lian-li-uni-fan-tl-120-lcd-wireless-white.glb",
+      "bytes": 77936,
+      "sha256": "db323eb1d2adbd2f847afde223502187ec4db46390a86366194a5e9144de7e85",
+      "meshes": 17,
+      "triangles": 1400,
+      "textures": 0,
+      "sourceBounds": [
+        0.12000000037997961,
+        0.12400000037997962,
+        0.030000000479631125
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/retail-lian-li-uni-fan-tl-120-lcd-reverse-blade-wireless-black.glb",
+      "bytes": 78228,
+      "sha256": "d59b423ff08ef99a6fcdeac3fee30850e1407a058adf621b35dc467d362c8de8",
+      "meshes": 17,
+      "triangles": 1400,
+      "textures": 0,
+      "sourceBounds": [
+        0.12000000037997961,
+        0.12400000037997962,
+        0.030000000479631125
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/retail-lian-li-uni-fan-tl-120-lcd-reverse-blade-wireless-white.glb",
+      "bytes": 78204,
+      "sha256": "a953a811fa12400c72055af8dc9938f028880f09604fc462c845dd47cf5beec6",
+      "meshes": 17,
+      "triangles": 1400,
+      "textures": 0,
+      "sourceBounds": [
+        0.12000000037997961,
+        0.12400000037997962,
+        0.030000000479631125
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/retail-lian-li-uni-fan-tl-140-wireless-black.glb",
+      "bytes": 77980,
+      "sha256": "1e5a7a9166e6e7a9fccd36adf73298b3f83e69ed3d5037e1afcf9f21f0a8bcb1",
+      "meshes": 17,
+      "triangles": 1400,
+      "textures": 0,
+      "sourceBounds": [
+        0.14200000037997962,
+        0.14000000059604645,
+        0.030000000479631125
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/retail-lian-li-uni-fan-tl-140-wireless-white.glb",
+      "bytes": 77948,
+      "sha256": "a6052eff1817e63e58ed5aafacbffabb0463d7f96a7895511b532d78b4622f8d",
+      "meshes": 17,
+      "triangles": 1400,
+      "textures": 0,
+      "sourceBounds": [
+        0.14200000037997962,
+        0.14000000059604645,
+        0.030000000479631125
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/retail-lian-li-uni-fan-tl-140-reverse-blade-wireless-black.glb",
+      "bytes": 78248,
+      "sha256": "4a841c82eed8a463f62813301027e70b817f3f6db9a0dc1f7ed1a806eac8e82e",
+      "meshes": 17,
+      "triangles": 1400,
+      "textures": 0,
+      "sourceBounds": [
+        0.14200000037997962,
+        0.14000000059604645,
+        0.030000000479631125
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/retail-lian-li-uni-fan-tl-140-reverse-blade-wireless-white.glb",
+      "bytes": 78216,
+      "sha256": "d9fff68ca5dd9b3ccbda6e03721eab0d0051a42be2d650a8fc364050bc7e972c",
+      "meshes": 17,
+      "triangles": 1400,
+      "textures": 0,
+      "sourceBounds": [
+        0.14200000037997962,
+        0.14000000059604645,
+        0.030000000479631125
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/retail-lian-li-uni-fan-tl-140-lcd-wireless-black.glb",
+      "bytes": 77976,
+      "sha256": "751267cd7ef916b8b8743e9511f25d9fef5ef548da26e0bf8354911fbf53ff9b",
+      "meshes": 17,
+      "triangles": 1400,
+      "textures": 0,
+      "sourceBounds": [
+        0.14200000037997962,
+        0.14000000059604645,
+        0.030000000479631125
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/retail-lian-li-uni-fan-tl-140-lcd-wireless-white.glb",
+      "bytes": 77952,
+      "sha256": "3b262dd9bd5d3d41f20e4ff3be0aabc00d7b6a291753d10ab82364829b4cce91",
+      "meshes": 17,
+      "triangles": 1400,
+      "textures": 0,
+      "sourceBounds": [
+        0.14200000037997962,
+        0.14000000059604645,
+        0.030000000479631125
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/retail-lian-li-uni-fan-tl-140-lcd-reverse-blade-wireless-black.glb",
+      "bytes": 78244,
+      "sha256": "0e9a414168d14f85c4f2a2d51c78a2c592203b7fc72d0379e42fee42b17d6d94",
+      "meshes": 17,
+      "triangles": 1400,
+      "textures": 0,
+      "sourceBounds": [
+        0.14200000037997962,
+        0.14000000059604645,
+        0.030000000479631125
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/retail-lian-li-uni-fan-tl-140-lcd-reverse-blade-wireless-white.glb",
+      "bytes": 78220,
+      "sha256": "8dbfb37f4250df7888956d3a45e40927e040a22f4de9b9c6ac55dfba67e5dcf4",
+      "meshes": 17,
+      "triangles": 1400,
+      "textures": 0,
+      "sourceBounds": [
+        0.14200000037997962,
+        0.14000000059604645,
+        0.030000000479631125
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/retail-be-quiet-light-wings-120mm-pwm.glb",
+      "bytes": 77968,
+      "sha256": "6fb8567d23882154fa2acbdcfe27cd075f682fa2760c6fe6d767c7e70871345e",
+      "meshes": 17,
+      "triangles": 1400,
+      "textures": 0,
+      "sourceBounds": [
+        0.12000000037997961,
+        0.12000000037997961,
+        0.027000000233761964
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/arctic-p14-pro.glb",
+      "bytes": 2733016,
+      "sha256": "e1b5fd14df6f7ae9ed92fe0ebfa669cc9e82238041b4c4c8443320354ae1864d",
+      "meshes": 12,
+      "triangles": 83287,
+      "textures": 0,
+      "sourceBounds": [
+        0.14000000000000004,
+        0.027400000000000004,
+        0.14000000000000007
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/noctua-nf-a14x25-g2.glb",
+      "bytes": 6567272,
+      "sha256": "b86adf9fad93d183978a296169178363cec6b0c2f9992f513b035e068cc43f62",
+      "meshes": 11,
+      "triangles": 227098,
+      "textures": 0,
+      "sourceBounds": [
+        0.13980000000000065,
+        0.13980000000000053,
+        0.027000000000054526
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/arctic-p12-pro.glb",
+      "bytes": 2539704,
+      "sha256": "52958241d02c89848438de123d76bd52bbaf5b4530f5199ba1f099b064c1c126",
+      "meshes": 11,
+      "triangles": 74352,
+      "textures": 0,
+      "sourceBounds": [
+        0.1200000000000007,
+        0.025400000000011743,
+        0.12000000000000027
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/noctua-nf-a12x25-g2.glb",
+      "bytes": 7932260,
+      "sha256": "2b117b18769231bea458517c048e0b39dc3e92b60a919d8e06b97e9372107d8f",
+      "meshes": 11,
+      "triangles": 290118,
+      "textures": 0,
+      "sourceBounds": [
+        0.12000000000000012,
+        0.12000000000000009,
+        0.027000000000000902
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/retail-phanteks-t30-120.glb",
+      "bytes": 77964,
+      "sha256": "dfc3f780a7e138483e6ac916e3f6addcc40035a487fe857351f694c1613541e0",
+      "meshes": 17,
+      "triangles": 1400,
+      "textures": 0,
+      "sourceBounds": [
+        0.12000000037997961,
+        0.12000000037997961,
+        0.031999999712221325
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/retail-phanteks-d30-120-black.glb",
+      "bytes": 77956,
+      "sha256": "b2fd9e9fc499ab39623be9f68dd0d098dfb53bca07886c47af52ba22a44c22e6",
+      "meshes": 17,
+      "triangles": 1400,
+      "textures": 0,
+      "sourceBounds": [
+        0.12000000037997961,
+        0.12000000037997961,
+        0.031999999712221325
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/retail-corsair-rs120-argb-black.glb",
+      "bytes": 77968,
+      "sha256": "6fb8567d23882154fa2acbdcfe27cd075f682fa2760c6fe6d767c7e70871345e",
+      "meshes": 17,
+      "triangles": 1400,
+      "textures": 0,
+      "sourceBounds": [
+        0.12000000037997961,
+        0.12000000037997961,
+        0.027000000233761964
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/retail-nzxt-f120-rgb-core-black.glb",
+      "bytes": 77964,
+      "sha256": "a784424a96120a22a759d29d6c254f97a23f4cdb00f6286d11b3e45cb9040fc2",
+      "meshes": 17,
+      "triangles": 1400,
+      "textures": 0,
+      "sourceBounds": [
+        0.12000000037997961,
+        0.12000000037997961,
+        0.02800000031571835
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/retail-cooler-master-mobius-120p-argb.glb",
+      "bytes": 77968,
+      "sha256": "6fb8567d23882154fa2acbdcfe27cd075f682fa2760c6fe6d767c7e70871345e",
+      "meshes": 17,
+      "triangles": 1400,
+      "textures": 0,
+      "sourceBounds": [
+        0.12000000037997961,
+        0.12000000037997961,
+        0.027000000233761964
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/retail-thermaltake-swafan-ex12-argb-sync.glb",
+      "bytes": 77968,
+      "sha256": "6fb8567d23882154fa2acbdcfe27cd075f682fa2760c6fe6d767c7e70871345e",
+      "meshes": 17,
+      "triangles": 1400,
+      "textures": 0,
+      "sourceBounds": [
+        0.12000000037997961,
+        0.12000000037997961,
+        0.027000000233761964
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/retail-lian-li-o11-dynamic-mini-black.glb",
+      "bytes": 16456,
+      "sha256": "1e1e61c8527b6b342defbf5eb764b82b24fdf95de052123869dc2133a665acef",
+      "meshes": 11,
+      "triangles": 132,
+      "textures": 0,
+      "sourceBounds": [
+        0.4270000002160668,
+        0.38000000021606684,
+        0.27650000021606685
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/retail-lian-li-o11-dynamic-mini-white.glb",
+      "bytes": 16404,
+      "sha256": "9c1a2936e8e5d31a35202da4aebfc48d1d9d1cd72c9775cc16d8eda829cd8661",
+      "meshes": 11,
+      "triangles": 132,
+      "textures": 0,
+      "sourceBounds": [
+        0.4270000002160668,
+        0.38000000021606684,
+        0.27650000021606685
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/retail-lian-li-o11-dynamic-mini-snow.glb",
+      "bytes": 16404,
+      "sha256": "4bdc2764e71d59a939a57b619c7a20fa15f08502778306498440c9dd202a852a",
+      "meshes": 11,
+      "triangles": 132,
+      "textures": 0,
+      "sourceBounds": [
+        0.4270000002160668,
+        0.38000000021606684,
+        0.27650000021606685
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/retail-lian-li-o11-air-mini-black.glb",
+      "bytes": 69856,
+      "sha256": "5bba54e4a51c188cc326bfb181c1fa72c54dfc75b2a11132b60e9fa8f36f4587",
+      "meshes": 47,
+      "triangles": 564,
+      "textures": 0,
+      "sourceBounds": [
+        0.40700000021606686,
+        0.3840000033378601,
+        0.2950000002160668
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/retail-lian-li-o11-air-mini-white.glb",
+      "bytes": 69796,
+      "sha256": "ddb2823566a5db5df2a8e1454a28c267f84fa51fb53d757e0400da4c30264c25",
+      "meshes": 47,
+      "triangles": 564,
+      "textures": 0,
+      "sourceBounds": [
+        0.40700000021606686,
+        0.3840000033378601,
+        0.2950000002160668
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-lian-li-sl120-black.glb",
+      "bytes": 340920,
+      "sha256": "23ebc6bd1acc23b708cdf02c52212e49df69518e69571583c398544dacf48c15",
+      "meshes": 13,
+      "triangles": 4648,
+      "textures": 0,
+      "sourceBounds": [
+        0.9045566062038748,
+        0.19002636240765014,
+        0.9059131270465417
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-lian-li-sl120-white.glb",
+      "bytes": 329368,
+      "sha256": "5b16d5dbe65510efb796041a595e81c5f7c317eca3fa657a9d014003d15763d3",
+      "meshes": 13,
+      "triangles": 4648,
+      "textures": 0,
+      "sourceBounds": [
+        0.9045566062038748,
+        0.19002636240765014,
+        0.9059131270465417
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-thermaltake-core-p5.glb",
+      "bytes": 3103352,
+      "sha256": "4860da2670888a800526b5715c2c01e06363ca75f0ed7a5a76ccd1a1f2e7fda8",
+      "meshes": 70,
+      "triangles": 59804,
+      "textures": 1,
+      "sourceBounds": [
+        17.73137450460288,
+        19.587366750059104,
+        10.498659495691957
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-nzxt-h500.glb",
+      "bytes": 18356,
+      "sha256": "6e80af97ac9aa4daf1d918904bb88f71e1a786c16a9cf59d179c56dd1f8e0723",
+      "meshes": 1,
+      "triangles": 288,
+      "textures": 1,
+      "sourceBounds": [
+        8.695011138916016,
+        9.317950725555422,
+        4.570000648498537
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-samsung-sm883.glb",
+      "bytes": 4386640,
+      "sha256": "d8fb44facff4fb31897662df5b503eac5d368b6310722395f30a523c2c0f2bf6",
+      "meshes": 3,
+      "triangles": 198,
+      "textures": 5,
+      "sourceBounds": [
+        11.596878051757812,
+        1.0978434085845947,
+        16.637582778930664
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-asus-h510mk.glb",
+      "bytes": 20346904,
+      "sha256": "6974227e3ef59cd8f1194fae0777bedc912763038935906e5b635ff94438e1d9",
+      "meshes": 13,
+      "triangles": 352002,
+      "textures": 4,
+      "sourceBounds": [
+        4.671370841140316,
+        0.8431872542029528,
+        5.014105681028785
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-wd800jd.glb",
+      "bytes": 17955620,
+      "sha256": "0090d3871e452c934347dab5d7a4dc4832f5e82358bd3d7127acb5ffd2eb76f5",
+      "meshes": 8,
+      "triangles": 64563,
+      "textures": 3,
+      "sourceBounds": [
+        43.14496883043162,
+        11.988099791802313,
+        62.16091178184632
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-samsung-970-evo-2tb.glb",
+      "bytes": 2207968,
+      "sha256": "bbebe2c72fe23a3a369c74e016f44e73395db3225a5e3a4fcee7cca031b029b6",
+      "meshes": 6,
+      "triangles": 1112,
+      "textures": 2,
+      "sourceBounds": [
+        2.3262323141098022,
+        0.6564829051494598,
+        0.08579919347539544
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-msi-gtx1650-ventus-xs-ocv1.glb",
+      "bytes": 532128,
+      "sha256": "c2be215a0af9d70b3f816be5b59c3592b37f3766c73af0936f1d2b93813a7d14",
+      "meshes": 3,
+      "triangles": 15834,
+      "textures": 0,
+      "sourceBounds": [
+        4.75446024074587,
+        1.06167632860488,
+        3.3298116506478976
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-msi-rtx-5070-ventus-3x-oc.glb",
+      "bytes": 2269852,
+      "sha256": "ca8ce7a9d6146922daa83740aa70c62be4a5e2ae3f3727a3b0bd8f4b050d01e9",
+      "meshes": 1,
+      "triangles": 883,
+      "textures": 3,
+      "sourceBounds": [
+        0.3144643380327513,
+        1.2634958195428647,
+        2.9491224595185113
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/retail-msi-geforce-rtx-5070-12g-gaming-trio-oc.glb",
+      "bytes": 193092,
+      "sha256": "d963927e80312c6bc631a3d19eca2da530cfb811311bc6a22b5ffdded1b569d4",
+      "meshes": 36,
+      "triangles": 3276,
+      "textures": 0,
+      "sourceBounds": [
+        0.3389999998090789,
+        0.05450000006053597,
+        0.14000000059604645
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/retail-msi-geforce-rtx-5070-ti-16g-ventus-3x-oc.glb",
+      "bytes": 192840,
+      "sha256": "ae1d0f2aa4bec96249dc90efccf3fdd3c94d5ddb918d253e1b27ecd3ec5f9fdb",
+      "meshes": 36,
+      "triangles": 3276,
+      "textures": 0,
+      "sourceBounds": [
+        0.3040000015972182,
+        0.05350000006053597,
+        0.12099999934434891
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-asus-rtx3090-strix-white.glb",
+      "bytes": 12840216,
+      "sha256": "d9695a4c5aa4a1d523325a4766df5f13f4470bb413b3c236e8bcceed484782fa",
+      "meshes": 219,
+      "triangles": 299648,
+      "textures": 1,
+      "sourceBounds": [
+        3.047006984792492,
+        0.5460514360605973,
+        1.3713502872700287
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/retail-asus-prime-geforce-rtx-5070-oc-edition-12gb.glb",
+      "bytes": 193104,
+      "sha256": "4d6843ac86d6781cf1b1604cfacde4daa6d2b8cf45440f1e4603d211538becfd",
+      "meshes": 36,
+      "triangles": 3276,
+      "textures": 0,
+      "sourceBounds": [
+        0.3049999951599166,
+        0.05450000006053597,
+        0.12600000202655792
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/retail-asus-tuf-gaming-geforce-rtx-5070-oc-edition-12gb.glb",
+      "bytes": 193100,
+      "sha256": "5e019a31af9c76be9c5a1e0f0f65b59edc03d7d362f34a169a7101779a117238",
+      "meshes": 36,
+      "triangles": 3276,
+      "textures": 0,
+      "sourceBounds": [
+        0.3299999981401488,
+        0.06700000006053597,
+        0.14000000059604645
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/retail-asus-prime-geforce-rtx-5070-ti-oc-edition-16gb.glb",
+      "bytes": 193104,
+      "sha256": "4d6843ac86d6781cf1b1604cfacde4daa6d2b8cf45440f1e4603d211538becfd",
+      "meshes": 36,
+      "triangles": 3276,
+      "textures": 0,
+      "sourceBounds": [
+        0.3049999951599166,
+        0.05450000006053597,
+        0.12600000202655792
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/retail-asus-tuf-gaming-geforce-rtx-5070-ti-oc-edition-16gb.glb",
+      "bytes": 193100,
+      "sha256": "5e019a31af9c76be9c5a1e0f0f65b59edc03d7d362f34a169a7101779a117238",
+      "meshes": 36,
+      "triangles": 3276,
+      "textures": 0,
+      "sourceBounds": [
+        0.3299999981401488,
+        0.06700000006053597,
+        0.14000000059604645
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/retail-asus-tuf-gaming-radeon-rx-9070-xt-oc-edition-16gb.glb",
+      "bytes": 192768,
+      "sha256": "4b683d65e61705ce449ef368e474c7c5523d68931867d9afba585461c0a038af",
+      "meshes": 36,
+      "triangles": 3276,
+      "textures": 0,
+      "sourceBounds": [
+        0.3310000066040084,
+        0.06700000006053597,
+        0.14000000059604645
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/retail-zotac-gaming-geforce-rtx-5070-solid.glb",
+      "bytes": 193116,
+      "sha256": "2550ae2896e5c88d2d8eb8d458fb8924548b5133f139cc8bd94eede30771b466",
+      "meshes": 36,
+      "triangles": 3276,
+      "textures": 0,
+      "sourceBounds": [
+        0.3053999985454604,
+        0.04610000006053597,
+        0.11580000072717667
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/retail-gigabyte-geforce-rtx-5070-windforce-oc-sff-12g.glb",
+      "bytes": 192804,
+      "sha256": "b1e15511805c9c5207241974b61fe81dcf80741db648beacd11470510265fa56",
+      "meshes": 36,
+      "triangles": 3276,
+      "textures": 0,
+      "sourceBounds": [
+        0.28300000267010184,
+        0.05450000006053597,
+        0.10999999940395355
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/retail-gigabyte-geforce-rtx-5070-ti-windforce-oc-sff-16g.glb",
+      "bytes": 193104,
+      "sha256": "e81f83eaba70cb702308202d4ab851f1fd7a315bccdf3d56c44c8773b11113ba",
+      "meshes": 36,
+      "triangles": 3276,
+      "textures": 0,
+      "sourceBounds": [
+        0.3049999951599166,
+        0.05450000006053597,
+        0.12600000202655792
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/retail-asrock-radeon-rx-9070-xt-steel-legend-16gb.glb",
+      "bytes": 193060,
+      "sha256": "6908434b8aa4a994a28fc5e25eb8c2a1edd0fddc318408c1020b594f8beae5dc",
+      "meshes": 36,
+      "triangles": 3276,
+      "textures": 0,
+      "sourceBounds": [
+        0.3005809630895949,
+        0.06250000006053597,
+        0.13099999725818634
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/retail-asrock-radeon-rx-9070-xt-taichi-16gb-oc.glb",
+      "bytes": 192788,
+      "sha256": "7f558376fe382d3dce179c25d5994576f7c28731c9ca9ea656c2b7e2c59736c4",
+      "meshes": 36,
+      "triangles": 3276,
+      "textures": 0,
+      "sourceBounds": [
+        0.3310000066040084,
+        0.06550000006053597,
+        0.14000000059604645
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/retail-msi-geforce-rtx-3060-ventus-2x-12g.glb",
+      "bytes": 130120,
+      "sha256": "3ae8c20ee54da47329b8d392aeef5f45ccedd52f457e78190e648c77cd44dca6",
+      "meshes": 25,
+      "triangles": 2196,
+      "textures": 0,
+      "sourceBounds": [
+        0.23599999974947422,
+        0.046500000060535965,
+        0.12399999797344208
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/retail-msi-geforce-rtx-3060-ventus-2x-12g-oc.glb",
+      "bytes": 130120,
+      "sha256": "3ae8c20ee54da47329b8d392aeef5f45ccedd52f457e78190e648c77cd44dca6",
+      "meshes": 25,
+      "triangles": 2196,
+      "textures": 0,
+      "sourceBounds": [
+        0.23599999974947422,
+        0.046500000060535965,
+        0.12399999797344208
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/retail-msi-geforce-rtx-3060-ventus-2x-8g-oc.glb",
+      "bytes": 130120,
+      "sha256": "3ae8c20ee54da47329b8d392aeef5f45ccedd52f457e78190e648c77cd44dca6",
+      "meshes": 25,
+      "triangles": 2196,
+      "textures": 0,
+      "sourceBounds": [
+        0.23599999974947422,
+        0.046500000060535965,
+        0.12399999797344208
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/retail-msi-geforce-rtx-3060-gaming-x-12g.glb",
+      "bytes": 130068,
+      "sha256": "041abfe09cabc2a459850eae0322a8dce82d11382417ee231727d92bac734135",
+      "meshes": 25,
+      "triangles": 2196,
+      "textures": 0,
+      "sourceBounds": [
+        0.27699999659042807,
+        0.055500000060535966,
+        0.13099999725818634
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/retail-msi-geforce-rtx-3060-gaming-x-trio-12g.glb",
+      "bytes": 193072,
+      "sha256": "11bc1239be566fd8a608efe7fb6698c82bc2c68222283d1f9a0098b8056b4d81",
+      "meshes": 36,
+      "triangles": 3276,
+      "textures": 0,
+      "sourceBounds": [
+        0.32465983853250036,
+        0.06050000006053596,
+        0.14000000059604645
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/retail-asus-dual-geforce-rtx-3060-v2-oc-edition.glb",
+      "bytes": 130024,
+      "sha256": "5610d3515e078fe252206fe41f300fee6aab6dca772f37c47c30b78cbf45847a",
+      "meshes": 25,
+      "triangles": 2196,
+      "textures": 0,
+      "sourceBounds": [
+        0.20100000153761358,
+        0.04250000006053597,
+        0.12300000339746475
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/retail-zotac-geforce-rtx-3060-twin-edge.glb",
+      "bytes": 130196,
+      "sha256": "438a8d6730513e2f2df98d249d1041cdd7cd14f863bef935ab057d88b5c51de2",
+      "meshes": 25,
+      "triangles": 2196,
+      "textures": 0,
+      "sourceBounds": [
+        0.2250999969003722,
+        0.04370000006053597,
+        0.11630000174045563
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/retail-msi-mpg-x870e-carbon-wifi.glb",
+      "bytes": 13484,
+      "sha256": "f7c4e2324bb83466eab94c2e5072babebe63175b155bb1c28eed9bfaa5316b3e",
+      "meshes": 9,
+      "triangles": 108,
+      "textures": 0,
+      "sourceBounds": [
+        0.24400000274181366,
+        0.3050000071525574,
+        0.025300000166054815
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/retail-msi-pro-b650m-a-wifi.glb",
+      "bytes": 13488,
+      "sha256": "1b88cad338b048ff371dc278cca99870be344a469c47ecb72468daffc4da1775",
+      "meshes": 9,
+      "triangles": 108,
+      "textures": 0,
+      "sourceBounds": [
+        0.24400000274181366,
+        0.24400000274181366,
+        0.025300000166054815
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-msi-z790-edge.glb",
+      "bytes": 3034640,
+      "sha256": "944a57942efcb1b986427924cb7537d06639d5138aa89afd9441233609884f76",
+      "meshes": 32,
+      "triangles": 4516,
+      "textures": 32,
+      "sourceBounds": [
+        3.457039952278137,
+        4.274840116500855,
+        0.5401810137555012
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-asus-z370-e.glb",
+      "bytes": 7348264,
+      "sha256": "78e8f6e9ed231ed2c7f87dbf3957e4832d003826fa7217b911b9de587951dff4",
+      "meshes": 665,
+      "triangles": 75320,
+      "textures": 11,
+      "sourceBounds": [
+        7.719068914465129,
+        9.375758171081543,
+        1.2669606614812805
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-samsung-990-evo-plus-1tb.glb",
+      "bytes": 219172,
+      "sha256": "bc9731dabf622bff25ca52229d70d582cf6ef1680785c653bc36ffb696aedd72",
+      "meshes": 2,
+      "triangles": 236,
+      "textures": 2,
+      "sourceBounds": [
+        1.1898381557736308,
+        0.10454005176892181,
+        4.28938627243042
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-wd-sn7100-1tb.glb",
+      "bytes": 512704,
+      "sha256": "cf90e27d34b957b36c0b332ad04fe025b7c98fb44982fce4b2fde0051d282279",
+      "meshes": 2,
+      "triangles": 236,
+      "textures": 2,
+      "sourceBounds": [
+        1.1898193359375,
+        0.10432573780417442,
+        4.28938627243042
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-gigabyte-rtx4090-aero.glb",
+      "bytes": 8223740,
+      "sha256": "de7da1b7cec19a5c8e348667168a6fa5e403160b1cc10399f56fa0cd8e95cf16",
+      "meshes": 17,
+      "triangles": 77058,
+      "textures": 7,
+      "sourceBounds": [
+        11.387209069537592,
+        6.28475358273008,
+        1.7789054587451587
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-sapphire7900xtx.glb",
+      "bytes": 8027952,
+      "sha256": "a7591f13c8b6171a34f566dbe6cd642aa68b2fe419b82f13de0d80fe78d7b74a",
+      "meshes": 32,
+      "triangles": 254992,
+      "textures": 0,
+      "sourceBounds": [
+        8.66360383655201,
+        4.385437287653268,
+        19.2225399529422
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-seasonic-m12ii.glb",
+      "bytes": 26972,
+      "sha256": "5e38c5c2b79e830476aef8db192268ef32779498bc81cf7436be8a51a6e9b863",
+      "meshes": 1,
+      "triangles": 444,
+      "textures": 0,
+      "sourceBounds": [
+        86.99999809265137,
+        163.00000000000003,
+        150.00000000000006
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-asus-b550f-wifi.glb",
+      "bytes": 4333948,
+      "sha256": "0e0283230d9d5cb1d4691750b282f76830926b3be23a0b6b94dffbe8bf2e5aaf",
+      "meshes": 16,
+      "triangles": 86338,
+      "textures": 2,
+      "sourceBounds": [
+        3.3239785689773385,
+        4.001657060489833,
+        0.6929024097302205
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-asus-b550f.glb",
+      "bytes": 25574976,
+      "sha256": "d25af9fc2751ccb1842028ef19ce82b317ea70c3ad86b1d21b3ac6f7e81ce942",
+      "meshes": 54,
+      "triangles": 413400,
+      "textures": 25,
+      "sourceBounds": [
+        30.55688750239923,
+        4.9541721583706195,
+        30.85155790709503
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-corsair-dominator-ddr5-white.glb",
+      "bytes": 1543808,
+      "sha256": "1a59fcae2042e3e8ababc241721377793f057ff7861b4723f3318f19d4c643b3",
+      "meshes": 12,
+      "triangles": 42827,
+      "textures": 0,
+      "sourceBounds": [
+        0.07100743082277305,
+        1.2809750950960392,
+        0.5227444115874095
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-gigabyte-b450m-s2h.glb",
+      "bytes": 11394100,
+      "sha256": "9e0d55da4c47f4fc403e92f88078902724ec3567b1d3b2896a64d4aeafdefbc1",
+      "meshes": 14,
+      "triangles": 216914,
+      "textures": 3,
+      "sourceBounds": [
+        4.258922357989656,
+        0.8034517941383288,
+        4.799870449719741
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-asus-maximus-vi-formula.glb",
+      "bytes": 3724624,
+      "sha256": "d3395ec611062ea87dce0b7cc65796f5a1477cbd2e0c8a4131aad576f53eba9a",
+      "meshes": 10,
+      "triangles": 64188,
+      "textures": 3,
+      "sourceBounds": [
+        3.4092604441285346,
+        3.949243197810432,
+        0.6171198039299673
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-nzxt-n7-z370-black.glb",
+      "bytes": 3346864,
+      "sha256": "34a1e1040a5c021f4a6f328f4a658999e587662e56b3de0dd939782f682cf388",
+      "meshes": 15,
+      "triangles": 55243,
+      "textures": 3,
+      "sourceBounds": [
+        3.424280821770009,
+        3.957091817986438,
+        0.6056538969433657
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-asus-z690-formula.glb",
+      "bytes": 7120512,
+      "sha256": "df8cf6345f80721ad6875747de114952e20f0269605ed15a79c0092f86585362",
+      "meshes": 20,
+      "triangles": 180934,
+      "textures": 2,
+      "sourceBounds": [
+        2.8473514191758023,
+        2.937927344686527,
+        0.48853484771404415
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-lianli-o11-evo-white.glb",
+      "bytes": 22292516,
+      "sha256": "6e841065aeedee823ca227f561137651d9e7e9db209699089fecbe86dab49431",
+      "meshes": 2,
+      "triangles": 832162,
+      "textures": 0,
+      "sourceBounds": [
+        3.875186393034008,
+        4.297127995237387,
+        2.611652597850732
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-asus-rtx4090-muha.glb",
+      "bytes": 1705436,
+      "sha256": "40f0a13254d82af63235a3783a10262beac89bcf58611f2c5e2548f3b0820fb0",
+      "meshes": 19,
+      "triangles": 167648,
+      "textures": 2,
+      "sourceBounds": [
+        0.12017230808066008,
+        0.017851520455996524,
+        0.12003784516119002
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-logitech-g915.glb",
+      "bytes": 4551232,
+      "sha256": "e84dcd37939b6f5b9def8259f9afa70ad8fcaf2e7715f82e4a339e27606f513e",
+      "meshes": 2,
+      "triangles": 127448,
+      "textures": 1,
+      "sourceBounds": [
+        0.4906757175922394,
+        0.03789949417114258,
+        0.21826142072677612
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-razer-viper-mini.glb",
+      "bytes": 1888060,
+      "sha256": "57da6fb9389da016957268847e4a553ecd7678d0d323c8580262a98975082c73",
+      "meshes": 5,
+      "triangles": 14478,
+      "textures": 20,
+      "sourceBounds": [
+        1126.8463745117188,
+        396.3189239501954,
+        573.3453979492189
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-logitech-pro-x-superlight.glb",
+      "bytes": 3383348,
+      "sha256": "db124a1f24de1858ee57aaf8e5e4fe77b917439d09b5a91223cf6b29a3595cd8",
+      "meshes": 15,
+      "triangles": 48638,
+      "textures": 14,
+      "sourceBounds": [
+        2.247418165206909,
+        1.448635271313629,
+        4.302012920379639
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-logitech-g502-x-lightspeed.glb",
+      "bytes": 99800,
+      "sha256": "66a87df5cdce03c650814bde8c88c3a3745bc92e3cf8e0f0d0ac0a92fa97171c",
+      "meshes": 3,
+      "triangles": 2334,
+      "textures": 0,
+      "sourceBounds": [
+        3.3208752128286223,
+        1.682662803765851,
+        5.639024157147203
+      ],
+      "animations": 0
+    }
+  ]
+}

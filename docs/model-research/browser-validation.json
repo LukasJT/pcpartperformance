@@ -1,0 +1,323 @@
+{
+  "checkedAt": "2026-10-04T16:21:29.616Z",
+  "host": "http://127.0.0.1:4181",
+  "measurements": "Local cached asset loads; not real-user network or mobile performance benchmarks.",
+  "models": [
+    {
+      "part": "rtx3070",
+      "boundsSize": "0.242,0.040,0.112",
+      "cameraDistance": "0.385",
+      "engine": "three.js r180",
+      "loadMs": "18",
+      "modelCount": "1",
+      "renderCount": "3",
+      "triangles": "53920"
+    },
+    {
+      "part": "rtx4060",
+      "boundsSize": "0.246,0.039,0.128",
+      "cameraDistance": "0.391",
+      "engine": "three.js r180",
+      "loadMs": "8",
+      "modelCount": "1",
+      "renderCount": "2",
+      "triangles": "11576"
+    },
+    {
+      "part": "rtx3090",
+      "boundsSize": "0.313,0.061,0.138",
+      "cameraDistance": "0.498",
+      "engine": "three.js r180",
+      "loadMs": "65",
+      "modelCount": "1",
+      "renderCount": "3",
+      "triangles": "52408"
+    },
+    {
+      "part": "i513600k",
+      "boundsSize": "0.038,0.045,0.004",
+      "cameraDistance": "0.150",
+      "engine": "three.js r180",
+      "loadMs": "49",
+      "modelCount": "1",
+      "renderCount": "3",
+      "triangles": "330614"
+    },
+    {
+      "part": "i712700k",
+      "boundsSize": "0.038,0.045,0.004",
+      "cameraDistance": "0.150",
+      "engine": "three.js r180",
+      "loadMs": "65",
+      "modelCount": "1",
+      "renderCount": "3",
+      "triangles": "458516"
+    },
+    {
+      "part": "i512400f",
+      "boundsSize": "0.038,0.045,0.002",
+      "cameraDistance": "0.150",
+      "engine": "three.js r180",
+      "loadMs": "40",
+      "modelCount": "1",
+      "renderCount": "3",
+      "triangles": "2623"
+    },
+    {
+      "part": "ddr4",
+      "boundsSize": "0.027,0.133,0.034",
+      "cameraDistance": "0.290",
+      "engine": "three.js r180",
+      "loadMs": "19",
+      "modelCount": "2",
+      "renderCount": "3",
+      "triangles": "10584"
+    },
+    {
+      "part": "gskill3600c16",
+      "boundsSize": "0.028,0.133,0.044",
+      "cameraDistance": "0.290",
+      "engine": "three.js r180",
+      "loadMs": "8",
+      "modelCount": "2",
+      "renderCount": "2",
+      "triangles": "76612"
+    },
+    {
+      "part": "x-case-fractal-design-meshify-c",
+      "boundsSize": "0.409,0.453,0.217",
+      "cameraDistance": "0.987",
+      "engine": "three.js r180",
+      "loadMs": "17",
+      "modelCount": "1",
+      "renderCount": "3",
+      "triangles": "173968"
+    },
+    {
+      "part": "retail-asus-rog-strix-geforce-rtx-4090-white-oc-24gb",
+      "boundsSize": "0.358,0.070,0.149",
+      "cameraDistance": "0.568",
+      "engine": "three.js r180",
+      "loadMs": "28",
+      "modelCount": "1",
+      "renderCount": "3",
+      "triangles": "167648"
+    },
+    {
+      "part": "5700x3d",
+      "boundsSize": "0.040,0.040,0.006",
+      "cameraDistance": "0.150",
+      "engine": "three.js r180",
+      "loadMs": "23",
+      "modelCount": "1",
+      "renderCount": "3",
+      "triangles": "31060"
+    },
+    {
+      "part": "b450",
+      "boundsSize": "0.244,0.305,0.030",
+      "cameraDistance": "0.664",
+      "engine": "three.js r180",
+      "loadMs": "40",
+      "modelCount": "1",
+      "renderCount": "4",
+      "triangles": "27835"
+    },
+    {
+      "part": "retail-arctic-p12-pro-pst",
+      "boundsSize": "0.120,0.086,0.120",
+      "cameraDistance": "0.191",
+      "engine": "three.js r180",
+      "loadMs": "16",
+      "modelCount": "1",
+      "renderCount": "3",
+      "triangles": "74362"
+    },
+    {
+      "part": "retail-arctic-p14-pro-pst",
+      "boundsSize": "0.140,0.087,0.140",
+      "cameraDistance": "0.223",
+      "engine": "three.js r180",
+      "loadMs": "27",
+      "modelCount": "1",
+      "renderCount": "3",
+      "triangles": "83297"
+    },
+    {
+      "part": "rtx4060",
+      "boundsSize": "0.246,0.039,0.128",
+      "cameraDistance": "0.391",
+      "engine": "three.js r180",
+      "loadMs": "8",
+      "modelCount": "1",
+      "renderCount": "2",
+      "triangles": "11576"
+    },
+    {
+      "part": "rtx3070",
+      "boundsSize": "0.242,0.040,0.112",
+      "cameraDistance": "0.385",
+      "engine": "three.js r180",
+      "loadMs": "18",
+      "modelCount": "1",
+      "renderCount": "3",
+      "triangles": "53920"
+    },
+    {
+      "part": "retail-arctic-p12-pro-pst",
+      "boundsSize": "0.120,0.086,0.120",
+      "cameraDistance": "0.293",
+      "engine": "three.js r180",
+      "loadMs": "51",
+      "modelCount": "1",
+      "renderCount": "4",
+      "triangles": "74362"
+    },
+    {
+      "part": "5700x3d",
+      "boundsSize": "0.040,0.040,0.006",
+      "cameraDistance": "0.150",
+      "engine": "three.js r180",
+      "loadMs": "25",
+      "modelCount": "1",
+      "renderCount": "3",
+      "triangles": "31060"
+    },
+    {
+      "part": "5700x3d",
+      "boundsSize": "0.040,0.040,0.006",
+      "cameraDistance": "0.150",
+      "engine": "three.js r180",
+      "loadMs": "21",
+      "modelCount": "1",
+      "renderCount": "3",
+      "triangles": "31060"
+    },
+    {
+      "part": "retail-arctic-p14-pro-pst",
+      "boundsSize": "0.140,0.087,0.140",
+      "cameraDistance": "0.367",
+      "engine": "three.js r180",
+      "loadMs": "32",
+      "modelCount": "1",
+      "renderCount": "4",
+      "triangles": "83297"
+    },
+    {
+      "part": "i714700k",
+      "boundsSize": "0.038,0.045,0.003",
+      "cameraDistance": "0.150",
+      "engine": "three.js r180",
+      "loadMs": "55",
+      "modelCount": "1",
+      "renderCount": "4",
+      "triangles": "5477"
+    },
+    {
+      "part": "i912900k",
+      "boundsSize": "0.037,0.045,0.003",
+      "cameraDistance": "0.150",
+      "engine": "three.js r180",
+      "loadMs": "48",
+      "modelCount": "1",
+      "renderCount": "4",
+      "triangles": "6035"
+    },
+    {
+      "part": "i912900k",
+      "boundsSize": "0.038,0.045,0.003",
+      "cameraDistance": "0.150",
+      "engine": "three.js r180",
+      "loadMs": "63",
+      "modelCount": "1",
+      "renderCount": "3",
+      "triangles": "6035"
+    },
+    {
+      "part": "5600",
+      "boundsSize": "0.040,0.040,0.007",
+      "cameraDistance": "0.150",
+      "engine": "three.js r180",
+      "loadMs": "25",
+      "modelCount": "1",
+      "renderCount": "3",
+      "triangles": "13426"
+    },
+    {
+      "part": "i911900k",
+      "boundsSize": "0.038,0.038,0.003",
+      "cameraDistance": "0.150",
+      "engine": "three.js r180",
+      "loadMs": "13",
+      "modelCount": "1",
+      "renderCount": "3",
+      "triangles": "5332"
+    },
+    {
+      "part": "i912900k",
+      "boundsSize": "0.038,0.045,0.003",
+      "cameraDistance": "0.150",
+      "engine": "three.js r180",
+      "loadMs": "86",
+      "modelCount": "1",
+      "renderCount": "4",
+      "triangles": "6035"
+    },
+    {
+      "part": "retail-asus-rog-strix-geforce-rtx-4090-white-oc-24gb",
+      "boundsSize": "0.358,0.070,0.149",
+      "cameraDistance": "0.533",
+      "engine": "three.js r180",
+      "loadMs": "38",
+      "modelCount": "1",
+      "renderCount": "3",
+      "triangles": "167648"
+    },
+    {
+      "part": "i912900k",
+      "boundsSize": "0.038,0.045,0.003",
+      "cameraDistance": "0.150",
+      "engine": "three.js r180",
+      "loadMs": "47",
+      "modelCount": "1",
+      "renderCount": "4",
+      "triangles": "6035"
+    },
+    {
+      "part": "retail-asus-rog-strix-geforce-rtx-4090-white-oc-24gb",
+      "boundsSize": "0.358,0.070,0.149",
+      "cameraDistance": "0.533",
+      "engine": "three.js r180",
+      "loadMs": "44",
+      "modelCount": "1",
+      "renderCount": "3",
+      "triangles": "167648"
+    },
+    {
+      "part": "rtx4090",
+      "boundsSize": "0.304,0.061,0.137",
+      "cameraDistance": "0.610",
+      "engine": "three.js r180",
+      "loadMs": "15",
+      "modelCount": "1",
+      "renderCount": "4",
+      "triangles": "95472"
+    }
+  ],
+  "controls": [
+    "Angled, Side, Front, Reset",
+    "Rotate right and Zoom in/out",
+    "Exploded view, side panel, lower graphics detail",
+    "Downloaded model picker filter",
+    "Desktop 1440x1000 and mobile 390x844",
+    "Light and dark modes"
+  ],
+  "screenshots": [
+    "qa/models-desktop-white-4090.jpg",
+    "qa/models-mobile-build.jpg"
+  ],
+  "remainingLimitations": [
+    "736 builder records still need downloaded models",
+    "Assembly mounting and exact clearances are unverified"
+  ]
+}

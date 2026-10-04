@@ -1,0 +1,207 @@
+{
+  "checkedAt": "2026-10-04T16:16:43.385Z",
+  "validator": "Khronos glTF Validator",
+  "assets": [
+    {
+      "asset": "sketchfab-rtx3070-datsketch.glb",
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    {
+      "asset": "sketchfab-rtx4090-gihyeon.glb",
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    {
+      "asset": "sketchfab-rtx4060-mrdt.glb",
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    {
+      "asset": "sketchfab-msi-b450-tomahawk-max.glb",
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    {
+      "asset": "sketchfab-ryzen-7-5700x3d.glb",
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    {
+      "asset": "arctic-p12-pro.glb",
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    {
+      "asset": "arctic-p14-pro.glb",
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    {
+      "asset": "sketchfab-i5-13600k.glb",
+      "errors": 0,
+      "warnings": 0,
+      "messages": [
+        {
+          "code": "UNSUPPORTED_EXTENSION",
+          "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+          "severity": 2,
+          "pointer": "/extensionsUsed/0"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/buffers/0"
+        }
+      ]
+    },
+    {
+      "asset": "sketchfab-i7-12700k.glb",
+      "errors": 0,
+      "warnings": 0,
+      "messages": [
+        {
+          "code": "UNSUPPORTED_EXTENSION",
+          "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+          "severity": 2,
+          "pointer": "/extensionsUsed/0"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/buffers/0"
+        }
+      ]
+    },
+    {
+      "asset": "sketchfab-i5-12400f.glb",
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    {
+      "asset": "sketchfab-meshify-c.glb",
+      "errors": 0,
+      "warnings": 0,
+      "messages": [
+        {
+          "code": "UNSUPPORTED_EXTENSION",
+          "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+          "severity": 2,
+          "pointer": "/extensionsUsed/0"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/buffers/0"
+        }
+      ]
+    },
+    {
+      "asset": "sketchfab-rtx3090-kirigami.glb",
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    {
+      "asset": "sketchfab-asus-rtx4090-muha.glb",
+      "errors": 0,
+      "warnings": 0,
+      "messages": [
+        {
+          "code": "UNSUPPORTED_EXTENSION",
+          "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+          "severity": 2,
+          "pointer": "/extensionsUsed/0"
+        }
+      ]
+    },
+    {
+      "asset": "sketchfab-vengeance-lpx.glb",
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    {
+      "asset": "sketchfab-trident-z-neo.glb",
+      "errors": 0,
+      "warnings": 0,
+      "messages": [
+        {
+          "code": "UNSUPPORTED_EXTENSION",
+          "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+          "severity": 2,
+          "pointer": "/extensionsUsed/0"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/buffers/0"
+        }
+      ]
+    },
+    {
+      "asset": "sketchfab-i7-14700k.glb",
+      "errors": 0,
+      "warnings": 0,
+      "messages": [
+        {
+          "code": "UNSUPPORTED_EXTENSION",
+          "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+          "severity": 2,
+          "pointer": "/extensionsUsed/0"
+        }
+      ]
+    },
+    {
+      "asset": "sketchfab-i9-12900k.glb",
+      "errors": 0,
+      "warnings": 0,
+      "messages": [
+        {
+          "code": "UNSUPPORTED_EXTENSION",
+          "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+          "severity": 2,
+          "pointer": "/extensionsUsed/0"
+        }
+      ]
+    },
+    {
+      "asset": "sketchfab-ryzen-5-5600.glb",
+      "errors": 0,
+      "warnings": 0,
+      "messages": [
+        {
+          "code": "UNSUPPORTED_EXTENSION",
+          "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+          "severity": 2,
+          "pointer": "/extensionsUsed/0"
+        }
+      ]
+    },
+    {
+      "asset": "sketchfab-i9-11900k.glb",
+      "errors": 0,
+      "warnings": 0,
+      "messages": [
+        {
+          "code": "UNSUPPORTED_EXTENSION",
+          "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+          "severity": 2,
+          "pointer": "/extensionsUsed/0"
+        }
+      ]
+    }
+  ]
+}
