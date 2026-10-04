@@ -26,3 +26,42 @@
 .product-image .phone-interactive>.hardware-photo img{width:100%;height:100%;max-height:340px!important;object-fit:contain}
 @media(max-width:640px){.phone-comparison-views{grid-template-columns:1fr;gap:16px}.phone-comparison-item{padding:16px}.phone-stage{height:310px}.phone-view-controls button{flex:1;padding:8px}.phone-open{width:100%}}
 @media(prefers-reduced-motion:reduce){.phone-open,.phone-view-controls button{transition:none}}
+.phone-workspace{margin:32px 0 24px;padding:28px;border:1px solid var(--line);border-radius:16px;background:var(--surface)}
+.phone-workspace [hidden]{display:none!important}
+.phone-folded-toggle{display:flex;align-items:center;gap:10px;font-size:15px;margin:0 0 20px;min-height:44px;line-height:1.5}
+.phone-folded-toggle input{width:18px;height:18px;accent-color:var(--accent-ink)}
+.phone-picker-row{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:end;gap:20px}
+.phone-picker-row label{display:grid;gap:10px;font-weight:600;line-height:1.5;min-width:0}
+.phone-picker-row select{font:inherit;width:100%;min-height:48px;background:var(--bg);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:12px}
+.phone-picker-row .modern-select{width:100%;max-width:none!important;min-height:48px}
+.phone-swap{min-height:48px;align-self:end}
+.phone-mode-row{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:18px;margin:28px 0 24px;padding:24px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.phone-mode-row p{font-size:15px;line-height:1.5;color:var(--muted);margin:0}
+.phone-mode-switch{display:flex;gap:4px;padding:4px;background:var(--bg);border:1px solid var(--line);border-radius:10px}
+.phone-mode-switch button{border:0;background:transparent;color:var(--ink);font:inherit;font-size:15px;font-weight:600;padding:12px 18px;border-radius:7px;min-height:44px;cursor:pointer;transition:background .15s,color .15s}
+.phone-mode-switch button[aria-pressed=true]{background:var(--accent-ink);color:var(--bg)}
+.phone-size-form .phone-comparison-views{margin:0 0 26px}
+.phone-size-form .phone-comparison-item{background:var(--bg);padding:24px;border-radius:12px}
+.phone-size-form .phone-comparison-item h2{font-size:24px!important;line-height:1.3;letter-spacing:-.02em}
+.phone-size-form .phone-stage,.phone-size-form .phone-comparison-item figure{height:390px}
+.phone-size-toolbar{display:flex;justify-content:space-between;align-items:center;gap:16px;margin:6px 0 22px;flex-wrap:wrap}
+.phone-size-toolbar h2,.phone-measurements h2{font-size:22px;line-height:1.4;margin:0;letter-spacing:-.02em}
+.phone-overlay-toggle{display:flex;align-items:center;gap:10px;min-height:44px;font-size:15px;cursor:pointer}
+.phone-overlay-toggle input{width:20px;height:20px;accent-color:var(--accent-ink)}
+.phone-size-form .phone-scale{border-radius:12px;background:var(--bg);border:1px solid var(--line);padding:28px;min-height:390px;gap:50px}
+.phone-size-form .phone-scale.overlay{min-height:390px}
+.phone-size-form .phone-scale.overlay figure{top:28px}
+.phone-scale-note{color:var(--muted);font-size:14px;line-height:1.6;margin:14px 0 26px}
+.phone-measurements{margin-top:28px}
+.phone-dimensions-table{width:100%;table-layout:fixed;border-collapse:collapse;margin-top:16px;font-variant-numeric:tabular-nums}
+.phone-dimensions-table th,.phone-dimensions-table td{text-align:left;padding:15px 16px;border-bottom:1px solid var(--line);font-size:16px;line-height:1.5;overflow-wrap:anywhere}
+.phone-dimensions-table thead th{font-weight:600;background:var(--bg)}
+.phone-dimensions-table th:first-child{width:28%}
+.phone-dimensions-table tbody th{font-weight:500;color:var(--muted)}
+.phone-difference{display:block;margin-top:22px;padding:18px 20px;border-radius:10px;background:var(--bg);font-size:16px;line-height:1.7;color:var(--ink)}
+.phone-method{max-width:900px;margin:24px auto;line-height:1.8;color:var(--muted)}
+.phone-method summary{cursor:pointer;color:var(--ink);font-weight:600;padding:14px 0}
+.phone-method p{font-size:16px;line-height:1.8}
+.phone-workspace button:focus-visible,.phone-method summary:focus-visible{outline:3px solid var(--accent-ink);outline-offset:3px}
+@media(max-width:740px){.phone-workspace{padding:18px}.phone-picker-row{grid-template-columns:1fr 1fr;gap:16px}.phone-swap{grid-column:1/-1;grid-row:2;justify-self:center}.phone-mode-row{margin-top:20px;padding:20px 0;gap:14px}.phone-mode-switch{width:100%}.phone-mode-switch button{flex:1;padding:10px 12px}.phone-size-form .phone-comparison-item{padding:18px}.phone-size-form .phone-stage,.phone-size-form .phone-comparison-item figure{height:340px}.phone-dimensions-table th,.phone-dimensions-table td{padding:13px 8px;font-size:14px}.phone-size-form .phone-scale{padding:20px 8px;gap:22px;min-height:350px}.phone-size-form .phone-scale.overlay{min-height:350px}.phone-size-form .phone-scale.overlay figure{top:20px}}
+@media(prefers-reduced-motion:reduce){.phone-mode-switch button{transition:none}}

@@ -1,0 +1,126 @@
+{
+  "checkedAt": "2026-10-04T19:57:09.802Z",
+  "categories": {
+    "case": {
+      "targetAdditional": 20,
+      "installedAdditional": 1,
+      "remaining": 19,
+      "ids": [
+        "retail-corsair-4000d-black"
+      ]
+    },
+    "ssd": {
+      "targetAdditional": 20,
+      "installedAdditional": 0,
+      "remaining": 20,
+      "ids": []
+    },
+    "gpu": {
+      "targetAdditional": 20,
+      "installedAdditional": 1,
+      "remaining": 19,
+      "ids": [
+        "retail-msi-geforce-rtx-3080-gaming-x-trio-10g"
+      ]
+    },
+    "cpu": {
+      "targetAdditional": 20,
+      "installedAdditional": 0,
+      "remaining": 20,
+      "ids": []
+    },
+    "fan": {
+      "targetAdditional": 20,
+      "installedAdditional": 20,
+      "remaining": 0,
+      "ids": [
+        "retail-nzxt-aer-p120",
+        "retail-noctua-nf-a12x15-pwm",
+        "retail-noctua-nf-a12x15-pwm-chromax-black-swap",
+        "retail-noctua-nf-a12x25-pwm",
+        "retail-noctua-nf-a14-pwm",
+        "retail-noctua-nf-a14x25-g2-ls-pwm",
+        "retail-noctua-nf-a15-pwm",
+        "retail-noctua-nf-a20-pwm",
+        "retail-noctua-nf-a20-flx",
+        "retail-noctua-nf-a8-pwm",
+        "retail-noctua-nf-a9x14-pwm",
+        "retail-noctua-nf-p12-redux-1700-pwm",
+        "retail-noctua-nf-p14r-redux-1500-pwm",
+        "retail-noctua-nf-p14s-redux-1500-pwm",
+        "retail-noctua-nf-s12a-pwm",
+        "retail-noctua-nf-a4x20-pwm",
+        "retail-noctua-nf-a6x25-pwm",
+        "retail-noctua-nf-r8-redux-1800-pwm",
+        "retail-noctua-nf-s12b-redux-1200-pwm",
+        "retail-noctua-nf-a12x25-flx"
+      ]
+    },
+    "board": {
+      "targetAdditional": 20,
+      "installedAdditional": 1,
+      "remaining": 19,
+      "ids": [
+        "retail-gigabyte-b550-aorus-elite-v2"
+      ]
+    },
+    "phone": {
+      "targetAdditional": 20,
+      "installedAdditional": 18,
+      "remaining": 2,
+      "ids": [
+        "iphone-14-pro",
+        "iphone-12-pro",
+        "iphone-x",
+        "iphone-7",
+        "galaxy-s21-ultra",
+        "pixel-6-pro",
+        "galaxy-s23-ultra",
+        "pixel-7-pro",
+        "pixel-8-pro",
+        "pixel-5",
+        "pixel-6a",
+        "pixel-6",
+        "galaxy-z-flip3",
+        "galaxy-s21",
+        "galaxy-a23-5g",
+        "galaxy-s3",
+        "oneplus-7-pro",
+        "iphone-13"
+      ]
+    }
+  },
+  "replacements": [
+    {
+      "id": "990pro",
+      "previousAsset": "sketchfab-samsung-990-pro-1tb.glb",
+      "asset": "sketchfab-samsung-990-pro-polydavid.glb"
+    },
+    {
+      "id": "5600",
+      "previousAsset": "sketchfab-ryzen-5-5600.glb",
+      "asset": "sketchfab-ryzen5600-polydavid.glb"
+    }
+  ],
+  "totalDownloadedComponentMappings": 103,
+  "totalPhoneModels": 22,
+  "uniqueFanGeometryNote": "New fan coverage includes shared manufacturer CAD for explicitly identified same-frame variants; mappings are not counts of unique shapes.",
+  "blockingConditions": [
+    "Sketchfab account displays its daily download limit; downloads cannot continue until that account permits them.",
+    "Correct Cloudflare account sign-in is still pending; no live-domain deployment claimed."
+  ],
+  "qa": {
+    "desktop": "Phone multi-brand and 3D-only filtering, selection, swap, numerical and folded dimensions; phone model visual review; builder fan selection and complete assembly rendered.",
+    "mobile": "Responsive styles implemented. Browser viewport override was attempted but the connected browser continued rendering at 1280×720; mobile visual verification remains outstanding.",
+    "models": "Structural validation does not certify fit or exact physical geometry."
+  },
+  "hosting": {
+    "buildCommand": "node scripts/build-pages.cjs",
+    "outputDirectory": "dist",
+    "largestAsset": {
+      "name": "sketchfab-intel12100f.glb",
+      "bytes": 23864400
+    },
+    "fileLimitBytes": 26214400
+  }
+}

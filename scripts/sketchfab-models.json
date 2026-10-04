@@ -108,20 +108,21 @@
   },
   {
     "id": "990pro",
-    "asset": "sketchfab-samsung-990-pro-1tb.glb",
-    "title": "M.2 NVME SSD Samsung 990 Pro 1TB 3D model",
-    "creator": "lime.ball.animations",
-    "creatorUrl": "https://sketchfab.com/lime.ball.animations.official",
-    "sourceUrl": "https://sketchfab.com/3d-models/m2-nvme-ssd-samsung-990-pro-1tb-3d-model-41b7bfda7eab40f8b13330913fd66fc2",
+    "asset": "sketchfab-samsung-990-pro-polydavid.glb",
+    "title": "Samsung 990 PRO SSD",
+    "creator": "PolyDavid",
+    "creatorUrl": "https://sketchfab.com/PolyDavid",
+    "sourceUrl": "https://sketchfab.com/3d-models/samsung-990-pro-ssd-6ada64c9ba734e499978a084e68ec3df",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-    "changes": "Normalized scale and centered for the PC builder preview.",
+    "changes": "Pruned unused nodes and compressed geometry. Source texture identifies 990 PRO 1 TB; scaled to the M.2 preview envelope.",
     "orientation": [
       1.5707963267948966,
-      0,
+      1.5707963267948966,
       0
     ],
-    "reviewed": "2026-09-23"
+    "reviewed": "2026-10-04",
+    "assetSha256": "92947682e9abbfc844952e8a5635c7109842014403e727f431deb993d0fcda08"
   },
   {
     "id": "7800x3d",
@@ -308,38 +309,58 @@
   {
     "id": "retail-noctua-nf-a12x25-g2-pwm",
     "asset": "noctua-nf-a12x25-g2.glb",
-    "title": "Noctua NF-A12x25 G2 public CAD",
+    "title": "Noctua NF-A12x25 G2 PWM public CAD",
     "creator": "Noctua / Rascom Ges.m.b.H.",
     "creatorUrl": "https://www.noctua.at/",
     "sourceUrl": "https://www.noctua.at/en/support/downloads",
+    "productUrl": "https://www.noctua.at/en/products/nf-a12x25-g2-pwm/specifications",
+    "cadDownloadPage": "https://www.noctua.at/en/support/downloads?product=nf-a12x25-g2-pwm",
+    "origin": "manufacturer",
     "license": "Noctua public CAD visualization terms",
     "licenseUrl": "https://www.noctua.at/en/3d-cad-models",
-    "changes": "Official STEP geometry tessellated to GLB using occt-import-js 0.0.23; face colors preserved and primitives grouped by material. Scaled and oriented in the builder.",
+    "dimensionsMm": [
+      120,
+      120,
+      27
+    ],
     "orientation": [
       0,
       0,
       0
     ],
-    "reviewed": "2026-09-23",
-    "dimensionStatus": "Manufacturer CAD represents external and mounting dimensions. Noctua modifies impeller/internal details; not suitable for performance simulation or manufacturing."
+    "identity": "exact-model",
+    "changes": "Converted manufacturer STEP geometry to GLB, consolidated materials, and applied Meshopt compression. Manufacturer-supplied colors retained. Noctua modifies impeller details; use for visualization, not performance simulation or manufacture.",
+    "dimensionStatus": "Normalized to the converted CAD bounds without stretching the nominal mounting envelope. Manufacturer CAD depicts external and mounting dimensions; assembled placement and attached cables remain unverified.",
+    "reviewed": "2026-10-04",
+    "assetSha256": "a8a45868c74484822806d7ec3513271443f1b5a8b92cd6abe406d2d86f7a2d97"
   },
   {
     "id": "retail-noctua-nf-a14x25-g2-pwm",
     "asset": "noctua-nf-a14x25-g2.glb",
-    "title": "Noctua NF-A14x25 G2 public CAD",
+    "title": "Noctua NF-A14x25 G2 PWM public CAD",
     "creator": "Noctua / Rascom Ges.m.b.H.",
     "creatorUrl": "https://www.noctua.at/",
     "sourceUrl": "https://www.noctua.at/en/support/downloads",
+    "productUrl": "https://www.noctua.at/en/products/nf-a14x25-g2-pwm/specifications",
+    "cadDownloadPage": "https://www.noctua.at/en/support/downloads?product=nf-a14x25-g2-pwm",
+    "origin": "manufacturer",
     "license": "Noctua public CAD visualization terms",
     "licenseUrl": "https://www.noctua.at/en/3d-cad-models",
-    "changes": "Official STEP geometry tessellated to GLB using occt-import-js 0.0.23; face colors preserved and primitives grouped by material. Scaled and oriented in the builder.",
+    "dimensionsMm": [
+      139.8,
+      139.8,
+      27
+    ],
     "orientation": [
       0,
       0,
       0
     ],
-    "reviewed": "2026-09-23",
-    "dimensionStatus": "Manufacturer CAD represents external and mounting dimensions. Noctua modifies impeller/internal details; not suitable for performance simulation or manufacturing."
+    "identity": "exact-model",
+    "changes": "Converted manufacturer STEP geometry to GLB, consolidated materials, and applied Meshopt compression. Manufacturer-supplied colors retained. Noctua modifies impeller details; use for visualization, not performance simulation or manufacture.",
+    "dimensionStatus": "Normalized to the converted CAD bounds without stretching the nominal mounting envelope. Manufacturer CAD depicts external and mounting dimensions; assembled placement and attached cables remain unverified.",
+    "reviewed": "2026-10-04",
+    "assetSha256": "6af51f8edeb8036d1394c9c0f49475e439278f481627523ce66db72e11ea5de2"
   },
   {
     "id": "x-case-corsair-4000d-airflow",
@@ -525,13 +546,14 @@
     "sourceUrl": "https://sketchfab.com/3d-models/amd-ryzen-5-5600x-processor-1649601de2014dbeab4f201010a7c366",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-    "changes": "Consolidated into six drawing primitives, welded duplicate vertices, applied error-bounded simplification and quantized geometry for web delivery. Adapted metal reflectivity for direct lighting. Scaled and oriented for the builder.",
+    "changes": "Consolidated into six drawing primitives, welded duplicate vertices, applied error-bounded simplification and quantized geometry for web delivery. Adapted metal reflectivity for direct lighting. Scaled and oriented for the builder. Applied Meshopt compression for static hosting; triangle detail retained.",
     "orientation": [
       1.5707963267948966,
       0,
       0
     ],
-    "reviewed": "2026-09-24"
+    "reviewed": "2026-09-24",
+    "assetSha256": "2250e9efe2a354e94dbe918a83ed7151162c0c98a63621df2704874aa81d2cf4"
   },
   {
     "id": "i312100f",
@@ -703,14 +725,15 @@
     "sourceUrl": "https://sketchfab.com/3d-models/asus-strix-b-550-f-gaming-motherboard-realistic-3eba5f45bed74fbeb2647de38047000f",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-    "changes": "Downloaded the 1K-texture GLB. Consolidated static meshes, welded vertices, applied error-bounded simplification and quantized geometry for web delivery. Creator notes inaccuracies in the back texture. Scaled and oriented for the builder.",
+    "changes": "Downloaded the 1K-texture GLB. Consolidated static meshes, welded vertices, applied error-bounded simplification and quantized geometry for web delivery. Creator notes inaccuracies in the back texture. Scaled and oriented for the builder. Meshopt compression applied without reducing triangle detail for hosting.",
     "orientation": [
       1.5707963267948966,
       0,
       0
     ],
     "dimensionStatus": "ASUS specifies a 305 x 244 mm board. The 50 mm preview height and component/mounting positions are approximate, not clearance-certified. Original B550-F GAMING appearance, not WIFI II.",
-    "reviewed": "2026-09-24"
+    "reviewed": "2026-09-24",
+    "assetSha256": "19b363712311e9aa115207a0ecff7abecc2214630cc68b2d36f713311b95b6de"
   },
   {
     "id": "retail-samsung-sm883-960gb",
@@ -1651,11 +1674,11 @@
   },
   {
     "id": "5600",
-    "asset": "sketchfab-ryzen-5-5600.glb",
-    "title": "Ryzen 5 5600",
-    "creator": "McMiwok",
-    "creatorUrl": "https://sketchfab.com/McMiwok",
-    "sourceUrl": "https://sketchfab.com/3d-models/ryzen-5-5600-358bdc563a264a58a610abd001d36d89",
+    "asset": "sketchfab-ryzen5600-polydavid.glb",
+    "title": "AMD Ryzen 5 5600 Processor",
+    "creator": "PolyDavid",
+    "creatorUrl": "https://sketchfab.com/PolyDavid",
+    "sourceUrl": "https://sketchfab.com/3d-models/amd-ryzen-5-5600-processor-211aafa88224480fb03672239e5b5189",
     "dimensionsMm": [
       40,
       40,
@@ -1667,12 +1690,12 @@
       0
     ],
     "dimensionStatus": "Approximate AM4 package envelope. Source texture identifies AMD Ryzen 5 5600. Pins, mounting and installed height are not clearance-verified.",
-    "changes": "Converted the source zero-specular legacy material to metallic-roughness PBR without changing textures. Consolidated static meshes and compressed with meshopt.",
+    "changes": "Pruned unused nodes and compressed geometry. The source presentation pose is preserved; package envelope and pins are not clearance certified.",
     "origin": "sketchfab",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
     "reviewed": "2026-10-04",
-    "assetSha256": "163a459b2b066927b4a6a651b1ea1f89cd29a8f505e0a8bdf5f7bf40015b9f21"
+    "assetSha256": "c4fad459fa709c1396bfb91c46759e874084c2a6931ced1c616340168f32a163"
   },
   {
     "id": "i911900k",
@@ -1700,5 +1723,628 @@
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
     "reviewed": "2026-10-04",
     "assetSha256": "11a05ac4369183afd16084ef45def0b08219acf5a1629ae498dbe951f0e9e469"
+  },
+  {
+    "id": "retail-msi-geforce-rtx-3080-gaming-x-trio-10g",
+    "asset": "sketchfab-msi-rtx3080-gaming-x-trio.glb",
+    "title": "MSI GeForce RTX 3080 Gaming X Trio | Now Free!",
+    "creator": "M E U",
+    "creatorUrl": "https://sketchfab.com/meu9MM98",
+    "sourceUrl": "https://sketchfab.com/3d-models/msi-geforce-rtx-3080-gaming-x-trio-now-free-e5356746dcec48f9868164bb9674ab9a",
+    "dimensionsMm": [
+      323,
+      56,
+      140
+    ],
+    "orientation": [
+      3.141592653589793,
+      0,
+      0
+    ],
+    "changes": "Retained the creator’s default node transforms and removed the presentation animation. Consolidated static geometry and applied Meshopt compression.",
+    "origin": "sketchfab",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "reviewed": "2026-10-04",
+    "assetSha256": "ca2e7ca508d981b8b4f93a5cf063bab31a893ff0f2c30234dd5c57f60aa606c0"
+  },
+  {
+    "id": "retail-gigabyte-b550-aorus-elite-v2",
+    "asset": "sketchfab-b550-aorus-elite-v2.glb",
+    "title": "B550 AORUS ELITE V2 model",
+    "creator": "exitmonad",
+    "creatorUrl": "https://sketchfab.com/exitmonad",
+    "sourceUrl": "https://sketchfab.com/3d-models/b550-aorus-elite-v2-model-59f6b9b39f5d401b8beee8ff0c28e88e",
+    "dimensionsMm": [
+      244,
+      305,
+      45
+    ],
+    "orientation": [
+      1.5707963267948966,
+      0,
+      0
+    ],
+    "changes": "Meshopt compression; source rig and geometry retained. Viewer uses the default pose. PCB revision is not identified by the creator. Rotated source horizontal PCB into the upright motherboard plane.",
+    "origin": "sketchfab",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "reviewed": "2026-10-04",
+    "assetSha256": "3a952757649f2fdd39e73fa3e1b42750d90fb3a2763f94f38c31e90d6f5ddc67",
+    "dimensionStatus": "305 × 244 mm manufacturer footprint. Revision, height, mounting and cable geometry are unverified."
+  },
+  {
+    "id": "retail-nzxt-aer-p120",
+    "asset": "sketchfab-nzxt-aer-p120.glb",
+    "title": "NZXT Aer P120 120mm Case Fan",
+    "creator": "JD24",
+    "creatorUrl": "https://sketchfab.com/jd24",
+    "sourceUrl": "https://sketchfab.com/3d-models/nzxt-aer-p120-120mm-case-fan-1180bc1acfff4e4b8aa5cbd237c67e7e",
+    "dimensionsMm": [
+      120,
+      120,
+      26
+    ],
+    "orientation": [
+      1.5707963267948966,
+      0,
+      0
+    ],
+    "changes": "Consolidated static geometry and applied Meshopt compression. Frame depth and mounting geometry remain approximate.",
+    "origin": "sketchfab",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "reviewed": "2026-10-04",
+    "assetSha256": "822fd4c6b667d7df3e1a27eb71860de04cb0d8f45c0645dd08cddba5eeb14a22"
+  },
+  {
+    "id": "retail-noctua-nf-a12x15-pwm",
+    "asset": "noctua-nf-a12x15.glb",
+    "title": "Noctua NF-A12x15 PWM public CAD",
+    "creator": "Noctua / Rascom Ges.m.b.H.",
+    "creatorUrl": "https://www.noctua.at/",
+    "sourceUrl": "https://www.noctua.at/en/support/downloads",
+    "productUrl": "https://www.noctua.at/en/products/nf-a12x15-pwm/specifications",
+    "cadDownloadPage": "https://www.noctua.at/en/support/downloads?product=nf-a12x15-pwm",
+    "origin": "manufacturer",
+    "license": "Noctua public CAD visualization terms",
+    "licenseUrl": "https://www.noctua.at/en/3d-cad-models",
+    "dimensionsMm": [
+      120,
+      120,
+      16.2
+    ],
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "identity": "exact-model",
+    "changes": "Converted manufacturer STEP geometry to GLB, consolidated materials, and applied Meshopt compression. Manufacturer-supplied colors retained. Noctua modifies impeller details; use for visualization, not performance simulation or manufacture.",
+    "dimensionStatus": "Normalized to the converted CAD bounds without stretching the nominal mounting envelope. Manufacturer CAD depicts external and mounting dimensions; assembled placement and attached cables remain unverified.",
+    "reviewed": "2026-10-04",
+    "assetSha256": "3ebe8945818a54ff91d1d929843ff94de1c637a2e2f12ecc6eab7d264ac1b675"
+  },
+  {
+    "id": "retail-noctua-nf-a12x15-pwm-chromax-black-swap",
+    "asset": "noctua-nf-a12x15-chromax.glb",
+    "title": "Noctua NF-A12x15 PWM chromax.black.swap public CAD",
+    "creator": "Noctua / Rascom Ges.m.b.H.",
+    "creatorUrl": "https://www.noctua.at/",
+    "sourceUrl": "https://www.noctua.at/en/support/downloads",
+    "productUrl": "https://www.noctua.at/en/products/nf-a12x15-pwm-chromax-black-swap/specifications",
+    "cadDownloadPage": "https://www.noctua.at/en/support/downloads?product=nf-a12x15-pwm-chromax-black-swap",
+    "origin": "manufacturer",
+    "license": "Noctua public CAD visualization terms",
+    "licenseUrl": "https://www.noctua.at/en/3d-cad-models",
+    "dimensionsMm": [
+      120,
+      120,
+      16.2
+    ],
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "identity": "exact-model",
+    "changes": "Converted manufacturer STEP geometry to GLB, consolidated materials, and applied Meshopt compression. Manufacturer-supplied colors retained. Noctua modifies impeller details; use for visualization, not performance simulation or manufacture.",
+    "dimensionStatus": "Normalized to the converted CAD bounds without stretching the nominal mounting envelope. Manufacturer CAD depicts external and mounting dimensions; assembled placement and attached cables remain unverified.",
+    "reviewed": "2026-10-04",
+    "assetSha256": "cd4581aa7fad7de24cbf04cc514b1f9aec1dead9ab98a916ac9f1ce2b03a29f6"
+  },
+  {
+    "id": "retail-noctua-nf-a12x25-pwm",
+    "asset": "noctua-nf-a12x25.glb",
+    "title": "Noctua NF-A12x25 PWM public CAD",
+    "creator": "Noctua / Rascom Ges.m.b.H.",
+    "creatorUrl": "https://www.noctua.at/",
+    "sourceUrl": "https://www.noctua.at/en/support/downloads",
+    "productUrl": "https://www.noctua.at/en/products/nf-a12x25-pwm/specifications",
+    "cadDownloadPage": "https://www.noctua.at/en/support/downloads?product=nf-a12x25-pwm",
+    "origin": "manufacturer",
+    "license": "Noctua public CAD visualization terms",
+    "licenseUrl": "https://www.noctua.at/en/3d-cad-models",
+    "dimensionsMm": [
+      120,
+      120,
+      27
+    ],
+    "orientation": [
+      1.5707963267948966,
+      0,
+      0
+    ],
+    "identity": "exact-model",
+    "changes": "Converted manufacturer STEP geometry to GLB, consolidated materials, and applied Meshopt compression. Manufacturer-supplied colors retained. Noctua modifies impeller details; use for visualization, not performance simulation or manufacture.",
+    "dimensionStatus": "Normalized to the converted CAD bounds without stretching the nominal mounting envelope. Manufacturer CAD depicts external and mounting dimensions; assembled placement and attached cables remain unverified.",
+    "reviewed": "2026-10-04",
+    "assetSha256": "50f30d0adf37863e6e6cef6362e24b6e1bd9c26db43bfcee326dbcf8d761d8e2"
+  },
+  {
+    "id": "retail-noctua-nf-a14-pwm",
+    "asset": "noctua-nf-a14.glb",
+    "title": "Noctua NF-A14 PWM public CAD",
+    "creator": "Noctua / Rascom Ges.m.b.H.",
+    "creatorUrl": "https://www.noctua.at/",
+    "sourceUrl": "https://www.noctua.at/en/support/downloads",
+    "productUrl": "https://www.noctua.at/en/products/nf-a14-pwm/specifications",
+    "cadDownloadPage": "https://www.noctua.at/en/support/downloads?product=nf-a14-pwm",
+    "origin": "manufacturer",
+    "license": "Noctua public CAD visualization terms",
+    "licenseUrl": "https://www.noctua.at/en/3d-cad-models",
+    "dimensionsMm": [
+      140,
+      140.1,
+      27
+    ],
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "identity": "exact-model",
+    "changes": "Converted manufacturer STEP geometry to GLB, consolidated materials, and applied Meshopt compression. Manufacturer-supplied colors retained. Noctua modifies impeller details; use for visualization, not performance simulation or manufacture.",
+    "dimensionStatus": "Normalized to the converted CAD bounds without stretching the nominal mounting envelope. Manufacturer CAD depicts external and mounting dimensions; assembled placement and attached cables remain unverified.",
+    "reviewed": "2026-10-04",
+    "assetSha256": "3331709ee765955cc7765357d3656ee50bd59918b739d9a7eab251849d37fb8c"
+  },
+  {
+    "id": "retail-noctua-nf-a14x25-g2-ls-pwm",
+    "asset": "noctua-nf-a14x25-g2.glb",
+    "title": "Noctua NF-A14x25 G2 LS-PWM public CAD",
+    "creator": "Noctua / Rascom Ges.m.b.H.",
+    "creatorUrl": "https://www.noctua.at/",
+    "sourceUrl": "https://www.noctua.at/en/support/downloads",
+    "productUrl": "https://www.noctua.at/en/products/nf-a14x25-g2-ls-pwm/specifications",
+    "cadDownloadPage": "https://www.noctua.at/en/support/downloads?product=nf-a14x25-g2-ls-pwm",
+    "origin": "manufacturer",
+    "license": "Noctua public CAD visualization terms",
+    "licenseUrl": "https://www.noctua.at/en/3d-cad-models",
+    "dimensionsMm": [
+      139.8,
+      139.8,
+      27
+    ],
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "identity": "exact-model",
+    "changes": "Converted manufacturer STEP geometry to GLB, consolidated materials, and applied Meshopt compression. Manufacturer-supplied colors retained. Noctua modifies impeller details; use for visualization, not performance simulation or manufacture.",
+    "dimensionStatus": "Normalized to the converted CAD bounds without stretching the nominal mounting envelope. Manufacturer CAD depicts external and mounting dimensions; assembled placement and attached cables remain unverified.",
+    "reviewed": "2026-10-04",
+    "assetSha256": "6af51f8edeb8036d1394c9c0f49475e439278f481627523ce66db72e11ea5de2"
+  },
+  {
+    "id": "retail-noctua-nf-a15-pwm",
+    "asset": "noctua-nf-a15.glb",
+    "title": "Noctua NF-A15 PWM public CAD",
+    "creator": "Noctua / Rascom Ges.m.b.H.",
+    "creatorUrl": "https://www.noctua.at/",
+    "sourceUrl": "https://www.noctua.at/en/support/downloads",
+    "productUrl": "https://www.noctua.at/en/products/nf-a15-pwm/specifications",
+    "cadDownloadPage": "https://www.noctua.at/en/support/downloads?product=nf-a15-pwm",
+    "origin": "manufacturer",
+    "license": "Noctua public CAD visualization terms",
+    "licenseUrl": "https://www.noctua.at/en/3d-cad-models",
+    "dimensionsMm": [
+      151.2223,
+      140.1,
+      27
+    ],
+    "orientation": [
+      0,
+      1.5707963267948966,
+      0
+    ],
+    "identity": "exact-model",
+    "changes": "Converted manufacturer STEP geometry to GLB, consolidated materials, and applied Meshopt compression. Manufacturer-supplied colors retained. Noctua modifies impeller details; use for visualization, not performance simulation or manufacture.",
+    "dimensionStatus": "Normalized to the converted CAD bounds without stretching the nominal mounting envelope. Manufacturer CAD depicts external and mounting dimensions; assembled placement and attached cables remain unverified.",
+    "reviewed": "2026-10-04",
+    "assetSha256": "eac8ca69287c281a757dbc0179829706643229064b38072bde716bc4a3833642"
+  },
+  {
+    "id": "retail-noctua-nf-a20-pwm",
+    "asset": "noctua-nf-a20.glb",
+    "title": "Noctua NF-A20 PWM public CAD",
+    "creator": "Noctua / Rascom Ges.m.b.H.",
+    "creatorUrl": "https://www.noctua.at/",
+    "sourceUrl": "https://www.noctua.at/en/support/downloads",
+    "productUrl": "https://www.noctua.at/en/products/nf-a20-pwm/specifications",
+    "cadDownloadPage": "https://www.noctua.at/en/support/downloads?product=nf-a20-pwm",
+    "origin": "manufacturer",
+    "license": "Noctua public CAD visualization terms",
+    "licenseUrl": "https://www.noctua.at/en/3d-cad-models",
+    "dimensionsMm": [
+      200,
+      200,
+      32
+    ],
+    "orientation": [
+      1.5707963267948966,
+      0,
+      0
+    ],
+    "identity": "exact-model",
+    "changes": "Converted manufacturer STEP geometry to GLB, consolidated materials, and applied Meshopt compression. Manufacturer-supplied colors retained. Noctua modifies impeller details; use for visualization, not performance simulation or manufacture.",
+    "dimensionStatus": "Normalized to the converted CAD bounds without stretching the nominal mounting envelope. Manufacturer CAD depicts external and mounting dimensions; assembled placement and attached cables remain unverified.",
+    "reviewed": "2026-10-04",
+    "assetSha256": "230470552e5f9aea5fa902629e867ab83b394199b9dae4779246b3d727b079ca"
+  },
+  {
+    "id": "retail-noctua-nf-a20-flx",
+    "asset": "noctua-nf-a20.glb",
+    "title": "Noctua NF-A20 FLX public CAD",
+    "creator": "Noctua / Rascom Ges.m.b.H.",
+    "creatorUrl": "https://www.noctua.at/",
+    "sourceUrl": "https://www.noctua.at/en/support/downloads",
+    "productUrl": "https://www.noctua.at/en/products/nf-a20-flx/specifications",
+    "cadDownloadPage": "https://www.noctua.at/en/support/downloads?product=nf-a20-flx",
+    "origin": "manufacturer",
+    "license": "Noctua public CAD visualization terms",
+    "licenseUrl": "https://www.noctua.at/en/3d-cad-models",
+    "dimensionsMm": [
+      200,
+      200,
+      32
+    ],
+    "orientation": [
+      1.5707963267948966,
+      0,
+      0
+    ],
+    "identity": "exact-model",
+    "changes": "Converted manufacturer STEP geometry to GLB, consolidated materials, and applied Meshopt compression. Manufacturer-supplied colors retained. Noctua modifies impeller details; use for visualization, not performance simulation or manufacture.",
+    "dimensionStatus": "Normalized to the converted CAD bounds without stretching the nominal mounting envelope. Manufacturer CAD depicts external and mounting dimensions; assembled placement and attached cables remain unverified.",
+    "reviewed": "2026-10-04",
+    "assetSha256": "230470552e5f9aea5fa902629e867ab83b394199b9dae4779246b3d727b079ca"
+  },
+  {
+    "id": "retail-noctua-nf-a8-pwm",
+    "asset": "noctua-nf-a8.glb",
+    "title": "Noctua NF-A8 PWM public CAD",
+    "creator": "Noctua / Rascom Ges.m.b.H.",
+    "creatorUrl": "https://www.noctua.at/",
+    "sourceUrl": "https://www.noctua.at/en/support/downloads",
+    "productUrl": "https://www.noctua.at/en/products/nf-a8-pwm/specifications",
+    "cadDownloadPage": "https://www.noctua.at/en/support/downloads?product=nf-a8-pwm",
+    "origin": "manufacturer",
+    "license": "Noctua public CAD visualization terms",
+    "licenseUrl": "https://www.noctua.at/en/3d-cad-models",
+    "dimensionsMm": [
+      81,
+      81,
+      27
+    ],
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "identity": "exact-model",
+    "changes": "Converted manufacturer STEP geometry to GLB, consolidated materials, and applied Meshopt compression. Manufacturer-supplied colors retained. Noctua modifies impeller details; use for visualization, not performance simulation or manufacture.",
+    "dimensionStatus": "Normalized to the converted CAD bounds without stretching the nominal mounting envelope. Manufacturer CAD depicts external and mounting dimensions; assembled placement and attached cables remain unverified.",
+    "reviewed": "2026-10-04",
+    "assetSha256": "ae2edb52ddf3041ce268540555e1572ed18330657d46a93a0230fad60482524f"
+  },
+  {
+    "id": "retail-noctua-nf-a9x14-pwm",
+    "asset": "noctua-nf-a9x14.glb",
+    "title": "Noctua NF-A9x14 PWM public CAD",
+    "creator": "Noctua / Rascom Ges.m.b.H.",
+    "creatorUrl": "https://www.noctua.at/",
+    "sourceUrl": "https://www.noctua.at/en/support/downloads",
+    "productUrl": "https://www.noctua.at/en/products/nf-a9x14-pwm/specifications",
+    "cadDownloadPage": "https://www.noctua.at/en/support/downloads?product=nf-a9x14-pwm",
+    "origin": "manufacturer",
+    "license": "Noctua public CAD visualization terms",
+    "licenseUrl": "https://www.noctua.at/en/3d-cad-models",
+    "dimensionsMm": [
+      92,
+      92,
+      15.25
+    ],
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "identity": "exact-model",
+    "changes": "Converted manufacturer STEP geometry to GLB, consolidated materials, and applied Meshopt compression. Manufacturer-supplied colors retained. Noctua modifies impeller details; use for visualization, not performance simulation or manufacture.",
+    "dimensionStatus": "Normalized to the converted CAD bounds without stretching the nominal mounting envelope. Manufacturer CAD depicts external and mounting dimensions; assembled placement and attached cables remain unverified.",
+    "reviewed": "2026-10-04",
+    "assetSha256": "536d367ebf2ec416c1b96c72e7213c114cc5daf2c0895f8bc4933f42903b4611"
+  },
+  {
+    "id": "retail-noctua-nf-p12-redux-1700-pwm",
+    "asset": "noctua-nf-p12-redux.glb",
+    "title": "Noctua NF-P12 redux-1700 PWM public CAD",
+    "creator": "Noctua / Rascom Ges.m.b.H.",
+    "creatorUrl": "https://www.noctua.at/",
+    "sourceUrl": "https://www.noctua.at/en/support/downloads",
+    "productUrl": "https://www.noctua.at/en/products/nf-p12-redux-1700-pwm/specifications",
+    "cadDownloadPage": "https://www.noctua.at/en/support/downloads?product=nf-p12-redux-1700-pwm",
+    "origin": "manufacturer",
+    "license": "Noctua public CAD visualization terms",
+    "licenseUrl": "https://www.noctua.at/en/3d-cad-models",
+    "dimensionsMm": [
+      119,
+      119,
+      25.2
+    ],
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "identity": "exact-model",
+    "changes": "Converted manufacturer STEP geometry to GLB, consolidated materials, and applied Meshopt compression. Manufacturer-supplied colors retained. Noctua modifies impeller details; use for visualization, not performance simulation or manufacture.",
+    "dimensionStatus": "Normalized to the converted CAD bounds without stretching the nominal mounting envelope. Manufacturer CAD depicts external and mounting dimensions; assembled placement and attached cables remain unverified.",
+    "reviewed": "2026-10-04",
+    "assetSha256": "46ec1620b293c7e3593a75af356c2c8f1a3695dc551cee4b142e420be81afa43"
+  },
+  {
+    "id": "retail-noctua-nf-p14r-redux-1500-pwm",
+    "asset": "noctua-nf-p14r-redux.glb",
+    "title": "Noctua NF-P14r redux-1500 PWM public CAD",
+    "creator": "Noctua / Rascom Ges.m.b.H.",
+    "creatorUrl": "https://www.noctua.at/",
+    "sourceUrl": "https://www.noctua.at/en/support/downloads",
+    "productUrl": "https://www.noctua.at/en/products/nf-p14r-redux-1500-pwm/specifications",
+    "cadDownloadPage": "https://www.noctua.at/en/support/downloads?product=nf-p14r-redux-1500-pwm",
+    "origin": "manufacturer",
+    "license": "Noctua public CAD visualization terms",
+    "licenseUrl": "https://www.noctua.at/en/3d-cad-models",
+    "dimensionsMm": [
+      140.1,
+      140,
+      25.15
+    ],
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "identity": "exact-model",
+    "changes": "Converted manufacturer STEP geometry to GLB, consolidated materials, and applied Meshopt compression. Manufacturer-supplied colors retained. Noctua modifies impeller details; use for visualization, not performance simulation or manufacture.",
+    "dimensionStatus": "Normalized to the converted CAD bounds without stretching the nominal mounting envelope. Manufacturer CAD depicts external and mounting dimensions; assembled placement and attached cables remain unverified.",
+    "reviewed": "2026-10-04",
+    "assetSha256": "7becdafdb49ea6eae2a8478fd29a7d7116ebacf6ed0768adf372ae12fa81c6d7"
+  },
+  {
+    "id": "retail-noctua-nf-p14s-redux-1500-pwm",
+    "asset": "noctua-nf-p14s-redux.glb",
+    "title": "Noctua NF-P14s redux-1500 PWM public CAD",
+    "creator": "Noctua / Rascom Ges.m.b.H.",
+    "creatorUrl": "https://www.noctua.at/",
+    "sourceUrl": "https://www.noctua.at/en/support/downloads",
+    "productUrl": "https://www.noctua.at/en/products/nf-p14s-redux-1500-pwm/specifications",
+    "cadDownloadPage": "https://www.noctua.at/en/support/downloads?product=nf-p14s-redux-1500-pwm",
+    "origin": "manufacturer",
+    "license": "Noctua public CAD visualization terms",
+    "licenseUrl": "https://www.noctua.at/en/3d-cad-models",
+    "dimensionsMm": [
+      139,
+      139,
+      25.3
+    ],
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "identity": "exact-model",
+    "changes": "Converted manufacturer STEP geometry to GLB, consolidated materials, and applied Meshopt compression. Manufacturer-supplied colors retained. Noctua modifies impeller details; use for visualization, not performance simulation or manufacture.",
+    "dimensionStatus": "Normalized to the converted CAD bounds without stretching the nominal mounting envelope. Manufacturer CAD depicts external and mounting dimensions; assembled placement and attached cables remain unverified.",
+    "reviewed": "2026-10-04",
+    "assetSha256": "25046723e4bc593c4cb5ed9a6794d20a88cd8ec14416c24646dc3bf2788aa2f1"
+  },
+  {
+    "id": "retail-noctua-nf-s12a-pwm",
+    "asset": "noctua-nf-s12a.glb",
+    "title": "Noctua NF-S12A PWM public CAD",
+    "creator": "Noctua / Rascom Ges.m.b.H.",
+    "creatorUrl": "https://www.noctua.at/",
+    "sourceUrl": "https://www.noctua.at/en/support/downloads",
+    "productUrl": "https://www.noctua.at/en/products/nf-s12a-pwm/specifications",
+    "cadDownloadPage": "https://www.noctua.at/en/support/downloads?product=nf-s12a-pwm",
+    "origin": "manufacturer",
+    "license": "Noctua public CAD visualization terms",
+    "licenseUrl": "https://www.noctua.at/en/3d-cad-models",
+    "dimensionsMm": [
+      120,
+      120,
+      27
+    ],
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "identity": "exact-model",
+    "changes": "Converted manufacturer STEP geometry to GLB, consolidated materials, and applied Meshopt compression. Manufacturer-supplied colors retained. Noctua modifies impeller details; use for visualization, not performance simulation or manufacture.",
+    "dimensionStatus": "Normalized to the converted CAD bounds without stretching the nominal mounting envelope. Manufacturer CAD depicts external and mounting dimensions; assembled placement and attached cables remain unverified.",
+    "reviewed": "2026-10-04",
+    "assetSha256": "5f99153993592a4ef2199ee87441f7c33711d737c2e1975149c0e3b555dbec5d"
+  },
+  {
+    "id": "retail-noctua-nf-a4x20-pwm",
+    "asset": "noctua-nf-a4x20.glb",
+    "title": "Noctua NF-A4x20 PWM public CAD",
+    "creator": "Noctua / Rascom Ges.m.b.H.",
+    "creatorUrl": "https://www.noctua.at/",
+    "sourceUrl": "https://www.noctua.at/en/support/downloads",
+    "productUrl": "https://www.noctua.at/en/products/nf-a4x20-pwm/specifications",
+    "cadDownloadPage": "https://www.noctua.at/en/support/downloads?product=nf-a4x20-pwm",
+    "origin": "manufacturer",
+    "license": "Noctua public CAD visualization terms",
+    "licenseUrl": "https://www.noctua.at/en/3d-cad-models",
+    "dimensionsMm": [
+      39.999,
+      21.0991,
+      39.999
+    ],
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "identity": "exact-model",
+    "changes": "Converted manufacturer STEP geometry to GLB, consolidated materials, and applied Meshopt compression. Manufacturer-supplied colors retained. Noctua modifies impeller details; use for visualization, not performance simulation or manufacture.",
+    "dimensionStatus": "Normalized to the converted CAD bounds without stretching the nominal mounting envelope. Manufacturer CAD depicts external and mounting dimensions; assembled placement and attached cables remain unverified.",
+    "reviewed": "2026-10-04",
+    "assetSha256": "4e2e181d6f1c379c8ee1718b7e6d9609b4c049d390e8d1227e4493f1b4f7cff2"
+  },
+  {
+    "id": "retail-noctua-nf-a6x25-pwm",
+    "asset": "noctua-nf-a6x25.glb",
+    "title": "Noctua NF-A6x25 PWM public CAD",
+    "creator": "Noctua / Rascom Ges.m.b.H.",
+    "creatorUrl": "https://www.noctua.at/",
+    "sourceUrl": "https://www.noctua.at/en/support/downloads",
+    "productUrl": "https://www.noctua.at/en/products/nf-a6x25-pwm/specifications",
+    "cadDownloadPage": "https://www.noctua.at/en/support/downloads?product=nf-a6x25-pwm",
+    "origin": "manufacturer",
+    "license": "Noctua public CAD visualization terms",
+    "licenseUrl": "https://www.noctua.at/en/3d-cad-models",
+    "dimensionsMm": [
+      60,
+      60,
+      26
+    ],
+    "orientation": [
+      1.5707963267948966,
+      0,
+      0
+    ],
+    "identity": "exact-model",
+    "changes": "Converted manufacturer STEP geometry to GLB, consolidated materials, and applied Meshopt compression. Manufacturer-supplied colors retained. Noctua modifies impeller details; use for visualization, not performance simulation or manufacture.",
+    "dimensionStatus": "Normalized to the converted CAD bounds without stretching the nominal mounting envelope. Manufacturer CAD depicts external and mounting dimensions; assembled placement and attached cables remain unverified.",
+    "reviewed": "2026-10-04",
+    "assetSha256": "43d865f91e7ef06b734cafd5620b7ab9c7fb683e4966c694aea33bcbbb20a013"
+  },
+  {
+    "id": "retail-noctua-nf-r8-redux-1800-pwm",
+    "asset": "noctua-nf-r8-redux.glb",
+    "title": "Noctua NF-R8 redux-1800 PWM public CAD",
+    "creator": "Noctua / Rascom Ges.m.b.H.",
+    "creatorUrl": "https://www.noctua.at/",
+    "sourceUrl": "https://www.noctua.at/en/support/downloads",
+    "productUrl": "https://www.noctua.at/en/products/nf-r8-redux-1800-pwm/specifications",
+    "cadDownloadPage": "https://www.noctua.at/en/support/downloads?product=nf-r8-redux-1800-pwm",
+    "origin": "manufacturer",
+    "license": "Noctua public CAD visualization terms",
+    "licenseUrl": "https://www.noctua.at/en/3d-cad-models",
+    "dimensionsMm": [
+      80,
+      80,
+      25.4
+    ],
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "identity": "exact-model",
+    "changes": "Converted manufacturer STEP geometry to GLB, consolidated materials, and applied Meshopt compression. Manufacturer-supplied colors retained. Noctua modifies impeller details; use for visualization, not performance simulation or manufacture.",
+    "dimensionStatus": "Normalized to the converted CAD bounds without stretching the nominal mounting envelope. Manufacturer CAD depicts external and mounting dimensions; assembled placement and attached cables remain unverified.",
+    "reviewed": "2026-10-04",
+    "assetSha256": "4e921bd82203cb78a935886a7e44c660eeb241c017724932d14575dd77d70ac1"
+  },
+  {
+    "id": "retail-noctua-nf-s12b-redux-1200-pwm",
+    "asset": "noctua-nf-s12b.glb",
+    "title": "Noctua NF-S12B redux-1200 PWM public CAD",
+    "creator": "Noctua / Rascom Ges.m.b.H.",
+    "creatorUrl": "https://www.noctua.at/",
+    "sourceUrl": "https://www.noctua.at/en/support/downloads",
+    "productUrl": "https://www.noctua.at/en/products/nf-s12b-redux-1200-pwm/specifications",
+    "cadDownloadPage": "https://www.noctua.at/en/support/downloads?product=nf-s12b-redux-1200-pwm",
+    "origin": "manufacturer",
+    "license": "Noctua public CAD visualization terms",
+    "licenseUrl": "https://www.noctua.at/en/3d-cad-models",
+    "dimensionsMm": [
+      119,
+      119,
+      25.2
+    ],
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "identity": "exact-model",
+    "changes": "Converted manufacturer STEP geometry to GLB, consolidated materials, and applied Meshopt compression. Manufacturer-supplied colors retained. Noctua modifies impeller details; use for visualization, not performance simulation or manufacture.",
+    "dimensionStatus": "Normalized to the converted CAD bounds without stretching the nominal mounting envelope. Manufacturer CAD depicts external and mounting dimensions; assembled placement and attached cables remain unverified.",
+    "reviewed": "2026-10-04",
+    "assetSha256": "93381cef6c2677d5880f15d2850acb09d199686a29c49688d8abc187714d39d6"
+  },
+  {
+    "id": "retail-noctua-nf-a12x25-flx",
+    "asset": "noctua-nf-a12x25.glb",
+    "title": "Noctua NF-A12x25 FLX public CAD",
+    "creator": "Noctua / Rascom Ges.m.b.H.",
+    "creatorUrl": "https://www.noctua.at/",
+    "sourceUrl": "https://www.noctua.at/en/support/downloads",
+    "productUrl": "https://www.noctua.at/en/products/nf-a12x25-flx/specifications",
+    "cadDownloadPage": "https://www.noctua.at/en/support/downloads?product=nf-a12x25-flx",
+    "origin": "manufacturer",
+    "license": "Noctua public CAD visualization terms",
+    "licenseUrl": "https://www.noctua.at/en/3d-cad-models",
+    "dimensionsMm": [
+      120,
+      120,
+      27
+    ],
+    "orientation": [
+      1.5707963267948966,
+      0,
+      0
+    ],
+    "identity": "exact-model",
+    "changes": "Converted manufacturer STEP geometry to GLB, consolidated materials, and applied Meshopt compression. Manufacturer-supplied colors retained. Noctua modifies impeller details; use for visualization, not performance simulation or manufacture.",
+    "dimensionStatus": "Normalized to the converted CAD bounds without stretching the nominal mounting envelope. Manufacturer CAD depicts external and mounting dimensions; assembled placement and attached cables remain unverified.",
+    "reviewed": "2026-10-04",
+    "assetSha256": "50f30d0adf37863e6e6cef6362e24b6e1bd9c26db43bfcee326dbcf8d761d8e2"
+  },
+  {
+    "id": "retail-corsair-4000d-black",
+    "asset": "sketchfab-corsair-4000d-black.glb",
+    "title": "Corsair 4000D  PC case",
+    "creator": "SzaBa",
+    "creatorUrl": "https://sketchfab.com/SzaBa",
+    "sourceUrl": "https://sketchfab.com/3d-models/corsair-4000d-pc-case-bc15e007d6634579bc0e8ffdf238e665",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "orientation": [
+      0,
+      1.5707963267948966,
+      0
+    ],
+    "changes": "Pruned unused nodes and materials; compressed geometry; glass side panel named for the builder visibility control. Normalized to published exterior dimensions.",
+    "reviewed": "2026-10-04",
+    "assetSha256": "578617928ac9581842308921d12f5c83ff718b8b18b8fcc3ec51cb997b26465c"
   }
 ]

@@ -67,5 +67,352 @@
       0
     ],
     "note": "The creator made a low-polygon, material-shaded Pixel 9. It is not a dimensional fit model."
+  },
+  "iphone-14-pro": {
+    "name": "iPhone 14 Pro",
+    "ids": [
+      "iphone-14-pro",
+      "iphone14pro"
+    ],
+    "asset": "sketchfab-iphone-14-pro.glb",
+    "title": "Iphone 14 Pro",
+    "creator": "mister dude",
+    "sourceUrl": "https://sketchfab.com/3d-models/iphone-14-pro-5cb0778041a34f09b409a38c687bb1d4",
+    "license": "CC BY 4.0",
+    "rotation": [
+      0,
+      3.141592653589793,
+      0
+    ],
+    "reviewed": "2026-10-04",
+    "assetSha256": "707304eab5afe68544364c53bf2c73e166f1114f77d5d18363fa839316f5b4a2"
+  },
+  "iphone-12-pro": {
+    "name": "iPhone 12 Pro",
+    "ids": [
+      "iphone-12-pro",
+      "iphone12pro"
+    ],
+    "asset": "sketchfab-iphone-12-pro.glb",
+    "title": "iPhone 12 Pro",
+    "creator": "DatSketch",
+    "sourceUrl": "https://sketchfab.com/3d-models/iphone-12-pro-05dfc991665e45c68c8b7062136c0c6e",
+    "license": "CC BY 4.0",
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "reviewed": "2026-10-04",
+    "assetSha256": "670f57d6bd77fb8fef46ccab13230ffbfcbe6d1a72ae08d41c362c4c87418e2d"
+  },
+  "iphone-x": {
+    "name": "iPhone X",
+    "ids": [
+      "iphone-x",
+      "x-phone-iphone-x"
+    ],
+    "asset": "sketchfab-iphone-x.glb",
+    "title": "Iphone X",
+    "creator": "KI NG",
+    "sourceUrl": "https://sketchfab.com/3d-models/iphone-x-3f903a7c1f9c4633a3ebf1cf2c71592a",
+    "license": "CC BY 4.0",
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "reviewed": "2026-10-04",
+    "assetSha256": "2d41414d5dffaf67809afe3e8f266b7699643ab8df71757db7d7238f6ac4776e"
+  },
+  "iphone-7": {
+    "name": "iPhone 7",
+    "ids": [
+      "iphone-7",
+      "x-phone-iphone-7"
+    ],
+    "asset": "sketchfab-iphone-7.glb",
+    "title": "iphone 7",
+    "creator": "farhad.Guli",
+    "sourceUrl": "https://sketchfab.com/3d-models/iphone-7-bd03fb7d550e4a609d8261696c25f610",
+    "license": "CC BY 4.0",
+    "rotation": [
+      1.5707963267948966,
+      0,
+      0
+    ],
+    "reviewed": "2026-10-04",
+    "assetSha256": "e50d5397631b5fb2714f057c082aed46ee2822f630992b7f27fba0b55a6913f6"
+  },
+  "galaxy-s21-ultra": {
+    "name": "Galaxy S21 Ultra",
+    "ids": [
+      "galaxy-s21-ultra",
+      "x-phone-samsung-galaxy-s21-ultra"
+    ],
+    "asset": "sketchfab-galaxy-s21-ultra.glb",
+    "title": "Samsung Galaxy S21 Ultra",
+    "creator": "DatSketch",
+    "sourceUrl": "https://sketchfab.com/3d-models/samsung-galaxy-s21-ultra-cd962832be7744efb6b37fe0ee2027e7",
+    "license": "CC BY 4.0",
+    "rotation": [
+      0,
+      3.141592653589793,
+      0
+    ],
+    "reviewed": "2026-10-04",
+    "assetSha256": "d9d9f98f4959e2142a10311532be96c29ec035736c516a3f58d323da066f3666"
+  },
+  "pixel-6-pro": {
+    "name": "Pixel 6 Pro",
+    "ids": [
+      "pixel-6-pro",
+      "x-phone-google-pixel-6-pro"
+    ],
+    "asset": "sketchfab-pixel-6-pro.glb",
+    "title": "Google Pixel 6 Pro",
+    "creator": "DatSketch",
+    "sourceUrl": "https://sketchfab.com/3d-models/google-pixel-6-pro-b9b58ca40c254f8dafd8370869af74fb",
+    "license": "CC BY 4.0",
+    "rotation": [
+      0,
+      3.141592653589793,
+      0
+    ],
+    "reviewed": "2026-10-04",
+    "assetSha256": "fc810ff7b5a2d6d168d61286e97c4440fadc734f7f4b4314f0805d5c492d81b6"
+  },
+  "galaxy-s23-ultra": {
+    "name": "Galaxy S23 Ultra",
+    "ids": [
+      "galaxy-s23-ultra",
+      "s23ultra"
+    ],
+    "asset": "sketchfab-galaxy-s23-ultra.glb",
+    "title": "Samsung S23 Ultra (Free)",
+    "creator": "Imagigoo",
+    "sourceUrl": "https://sketchfab.com/3d-models/samsung-s23-ultra-free-f559464bf0f8453d95a0cd273de3ff0b",
+    "license": "CC BY 4.0",
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "reviewed": "2026-10-04",
+    "assetSha256": "1e364944c2899812bc1a19fc116cc5f0ac17cd2d1195ca467238b8c2bc7f2d14",
+    "note": "One phone extracted from the paired scene; detached S Pen omitted. Authored as S23 Ultra; the community mesh is not dimension certified."
+  },
+  "pixel-7-pro": {
+    "name": "Pixel 7 Pro",
+    "ids": [
+      "pixel-7-pro",
+      "pixel7pro"
+    ],
+    "asset": "sketchfab-pixel-7-pro.glb",
+    "title": "Google Pixel 7 Pro",
+    "creator": "Aborsoft 3D",
+    "sourceUrl": "https://sketchfab.com/3d-models/google-pixel-7-pro-3d5d6ad9b86c462f94bf1d0b08295b30",
+    "license": "CC BY 4.0",
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "reviewed": "2026-10-04",
+    "assetSha256": "c878dd20cd9880ee69cecf0c216f2fc6757f83194553fb23764775a8e3733245"
+  },
+  "pixel-8-pro": {
+    "name": "Pixel 8 Pro",
+    "ids": [
+      "pixel-8-pro",
+      "pixel8pro"
+    ],
+    "asset": "sketchfab-pixel-8-pro.glb",
+    "title": "Google Pixel 8 Pro",
+    "creator": "LagzDesign",
+    "sourceUrl": "https://sketchfab.com/3d-models/google-pixel-8-pro-ac007299da72409fa71fbed827ac686a",
+    "license": "CC BY 4.0",
+    "rotation": [
+      0,
+      -1.5707963267948966,
+      0
+    ],
+    "reviewed": "2026-10-04",
+    "assetSha256": "04950e8e1bf185c5fbdffb01fa894a9a7c2ca4bf92bca9986568f3758d0fddda"
+  },
+  "pixel-5": {
+    "name": "Pixel 5",
+    "ids": [
+      "pixel-5",
+      "x-phone-google-pixel-5"
+    ],
+    "asset": "sketchfab-pixel-5.glb",
+    "title": "Google Pixel 5",
+    "creator": "minhazul_ferdous",
+    "sourceUrl": "https://sketchfab.com/3d-models/google-pixel-5-dae8c347f87d400b82b69a6a33da9ece",
+    "license": "CC BY 4.0",
+    "rotation": [
+      0,
+      -1.5707963267948966,
+      0
+    ],
+    "reviewed": "2026-10-04",
+    "assetSha256": "9b83ddb2fe9d7870c489833674047a838c9c79d67120c40776faa9e06e266173",
+    "note": "undefined Display base reflectance corrected so the original emissive screen artwork remains legible under studio lights."
+  },
+  "pixel-6a": {
+    "name": "Pixel 6a",
+    "ids": [
+      "pixel-6a",
+      "x-phone-google-pixel-6a"
+    ],
+    "asset": "sketchfab-pixel-6a.glb",
+    "title": "Smartphone - Google Pixel 6a",
+    "creator": "visualdiscette",
+    "sourceUrl": "https://sketchfab.com/3d-models/smartphone-google-pixel-6a-075baa58c3c04e61b807a4dbdb2b3d32",
+    "license": "CC BY 4.0",
+    "rotation": [
+      0,
+      -1.5707963267948966,
+      0
+    ],
+    "reviewed": "2026-10-04",
+    "assetSha256": "4009a9d6a35c722950f8eddd3241973fd092a64b7218ccba839c4bd8934c182e"
+  },
+  "pixel-6": {
+    "name": "Pixel 6",
+    "ids": [
+      "pixel-6",
+      "x-phone-google-pixel-6"
+    ],
+    "asset": "sketchfab-pixel-6.glb",
+    "title": "Google Pixel 6",
+    "creator": "edgelooped",
+    "sourceUrl": "https://sketchfab.com/3d-models/google-pixel-6-01f4c735e9824d58813646d9167d5c42",
+    "license": "CC BY 4.0",
+    "rotation": [
+      0,
+      -1.5707963267948966,
+      0
+    ],
+    "reviewed": "2026-10-04",
+    "assetSha256": "692b28f8de9c9bd5d7b11d1a17bebf25578b1e61990dd6b97efd00d1d12c8fae"
+  },
+  "galaxy-z-flip3": {
+    "name": "Galaxy Z Flip3",
+    "ids": [
+      "galaxy-z-flip3",
+      "x-phone-samsung-galaxy-z-flip3"
+    ],
+    "asset": "sketchfab-galaxy-z-flip3.glb",
+    "title": "Samsung Galaxy Z Flip 3",
+    "creator": "DatSketch",
+    "sourceUrl": "https://sketchfab.com/3d-models/samsung-galaxy-z-flip-3-112947cbab7a4f708d0d01adb7d3fa3d",
+    "license": "CC BY 4.0",
+    "rotation": [
+      0,
+      3.141592653589793,
+      0
+    ],
+    "reviewed": "2026-10-04",
+    "assetSha256": "f9df742cf592a7934b474af575393566a3408c42cdbaf2001378691936eb7fae"
+  },
+  "galaxy-s21": {
+    "name": "Galaxy S21",
+    "ids": [
+      "galaxy-s21",
+      "x-phone-samsung-galaxy-s21"
+    ],
+    "asset": "sketchfab-galaxy-s21.glb",
+    "title": "Samsung Galaxy S21",
+    "creator": "Waven",
+    "sourceUrl": "https://sketchfab.com/3d-models/samsung-galaxy-s21-62c074055bc0491aaa4752128087fd88",
+    "license": "CC BY 4.0",
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "reviewed": "2026-10-04",
+    "assetSha256": "b1e6a2adb4510eba531f9a928c125cc4442fec3fde2225bd04a73b2668b23e96"
+  },
+  "galaxy-a23-5g": {
+    "name": "Galaxy A23 5G",
+    "ids": [
+      "galaxy-a23-5g",
+      "x-phone-samsung-galaxy-a23-5g"
+    ],
+    "asset": "sketchfab-galaxy-a23-5g.glb",
+    "title": "Samsung Galaxy A23 5G",
+    "creator": "Asadawut.Kaewma",
+    "sourceUrl": "https://sketchfab.com/3d-models/samsung-galaxy-a23-5g-c817c57d7f504c3b9891581ab4d40766",
+    "license": "CC BY 4.0",
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "reviewed": "2026-10-04",
+    "assetSha256": "a2f51631d77c873be9a30186148376b658bba1417205fa6a90092febc33b0a22",
+    "note": "One complete black phone extracted from the four-color scene. Legacy materials converted to supported PBR shading."
+  },
+  "galaxy-s3": {
+    "name": "Galaxy S III",
+    "ids": [
+      "galaxy-s3",
+      "x-phone-samsung-galaxy-s3"
+    ],
+    "asset": "sketchfab-galaxy-s3.glb",
+    "title": "Samsung Galaxy S3",
+    "creator": "Res1n",
+    "sourceUrl": "https://sketchfab.com/3d-models/samsung-galaxy-s3-a8fa060c6a5b4a6582fe1295d17dd43c",
+    "license": "CC BY 4.0",
+    "rotation": [
+      0,
+      3.141592653589793,
+      0
+    ],
+    "reviewed": "2026-10-04",
+    "assetSha256": "50a72d1bd5934232f6a31827c0b99d3c65ee4cef470a76036143d6ef3cfc2741"
+  },
+  "oneplus-7-pro": {
+    "name": "OnePlus 7 Pro",
+    "ids": [
+      "oneplus-7-pro",
+      "x-phone-oneplus-7-pro"
+    ],
+    "asset": "sketchfab-oneplus-7-pro.glb",
+    "title": "One Plus 7 Pro",
+    "creator": "lazercar",
+    "sourceUrl": "https://sketchfab.com/3d-models/one-plus-7-pro-6dea856656e04a4b89fef3c2572ee238",
+    "license": "CC BY 4.0",
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "reviewed": "2026-10-04",
+    "assetSha256": "6716f83eb4f945117b18172302ed3d6b504a5d5086dabebf76032e049cef91ae",
+    "note": "One complete phone extracted from the paired presentation scene; the popup camera retains its authored raised position."
+  },
+  "iphone-13": {
+    "name": "iPhone 13",
+    "ids": [
+      "iphone-13",
+      "x-phone-apple-iphone-13"
+    ],
+    "asset": "sketchfab-iphone-13.glb",
+    "title": "iPhone 13",
+    "creator": "Peter_D",
+    "sourceUrl": "https://sketchfab.com/3d-models/iphone-13-3771e91e0b6b4df5a6bcda054623c21c",
+    "license": "CC BY 4.0",
+    "rotation": [
+      0,
+      -1.5707963267948966,
+      0
+    ],
+    "reviewed": "2026-10-04",
+    "assetSha256": "8b3c38b0712617bd93fe83815ef45049a7940a70328882810fed2a4690a674d4",
+    "note": "One complete phone extracted from the five-color scene. Texture size reduced and geometry compressed; original mesh and material boundaries retained. Back-glass opacity adjusted for the web viewer. Body roughness and occlusion maps with missing UV data removed; authored paint and clearcoat retained."
   }
 }

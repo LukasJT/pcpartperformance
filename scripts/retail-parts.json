@@ -2450,5 +2450,853 @@
       },
       "dimensionStatus": "Lian Li specifies depth 465 mm, height 459 mm, width 285 mm. Community geometry is normalized to this envelope; mounting details remain approximate."
     }
+  },
+  {
+    "id": "retail-corsair-4000d-black",
+    "name": "4000D Black",
+    "brand": "Corsair",
+    "cat": "case",
+    "sku": "CC-9011198-WW",
+    "source": "https://www.corsair.com/us/en/p/pc-cases/cc-9011198-ww/4000d-tempered-glass-mid-tower-atx-case-black-cc-9011198-ww",
+    "architecture": "ATX / Micro-ATX / Mini-ITX / E-ATX up to 305 × 277 mm",
+    "summary": "Solid front panel · tempered-glass side · two included 120 mm fans",
+    "specs": {
+      "Maximum GPU length": 360,
+      "CPU cooler clearance": 170,
+      "Maximum PSU length": 220,
+      "Expansion slots": 7,
+      "2.5-inch bays": 2,
+      "3.5-inch bays": 2
+    },
+    "note": "The original 4000D uses a solid front panel and differs from the 4000D Airflow and newer FRAME 4000D. Exterior dimensions are 453 × 466 × 230 mm. Front radiator support reaches 360 mm and top support 280 mm; installed radiator thickness, memory height and cable routing still require checking.",
+    "physical": {
+      "size": [
+        453,
+        466,
+        230
+      ],
+      "model": "retail-corsair-4000d-black",
+      "color": "#242b32",
+      "psuFormats": [
+        "ATX"
+      ],
+      "mounts": {
+        "front": {
+          "120": 3,
+          "140": 2
+        },
+        "top": {
+          "120": 2,
+          "140": 2
+        },
+        "rear": {
+          "120": 1
+        }
+      },
+      "dimensionStatus": "Published exterior envelope. Community mounting locations, cable clearances and internal component placement remain approximate."
+    }
+  },
+  {
+    "id": "retail-msi-geforce-rtx-3080-gaming-x-trio-10g",
+    "name": "GeForce RTX 3080 GAMING X TRIO 10G",
+    "brand": "MSI",
+    "cat": "gpu",
+    "year": 2020,
+    "source": "https://www.msi.com/Graphics-Card/GeForce-RTX-3080-GAMING-X-TRIO-10G/Specification",
+    "architecture": "Ampere · PCIe 4.0",
+    "summary": "10 GB GDDR6X · triple-fan cooler · three 8-pin power connectors",
+    "specs": {
+      "Memory": 10,
+      "Shader units": 8704,
+      "Boost clock": 1.815,
+      "Card length": 323,
+      "Card thickness": 56,
+      "Card height": 140,
+      "Recommended PSU": 750,
+      "Board power": 340
+    },
+    "note": "The 10 GB GAMING X TRIO uses a 323 × 140 × 56 mm exterior and three 8-pin power inputs. Allow additional room for power cables. This is distinct from the 12 GB card and other MSI coolers.",
+    "physical": {
+      "size": [
+        323,
+        56,
+        140
+      ],
+      "model": "retail-msi-geforce-rtx-3080-gaming-x-trio-10g",
+      "color": "#242b32",
+      "fans": 3
+    }
+  },
+  {
+    "id": "retail-gigabyte-b550-aorus-elite-v2",
+    "name": "B550 AORUS ELITE V2",
+    "brand": "Gigabyte",
+    "cat": "board",
+    "source": "https://www.gigabyte.com/Motherboard/B550-AORUS-ELITE-V2-rev-12/sp",
+    "architecture": "AMD B550 · AM4 · DDR4",
+    "summary": "ATX motherboard · four DIMM slots · two M.2 slots",
+    "specs": {
+      "Socket": "AM4",
+      "Memory type": "DDR4",
+      "Form factor": "ATX",
+      "DIMM slots": 4,
+      "M.2 slots": 2,
+      "Max RAM": 128
+    },
+    "note": "Listed specifications use the manufacturer’s revision 1.2 documentation. The community mesh does not identify its PCB revision. Confirm the printed revision, processor support list and required BIOS before buying; this is not the Wi-Fi-equipped AX V2.",
+    "physical": {
+      "size": [
+        244,
+        305,
+        45
+      ],
+      "model": "retail-gigabyte-b550-aorus-elite-v2",
+      "color": "#242b32",
+      "board": true,
+      "dimensionStatus": "Published 305 × 244 mm ATX footprint; the 45 mm preview height and mounting positions are approximate."
+    }
+  },
+  {
+    "id": "retail-nzxt-aer-p120",
+    "name": "Aer P120",
+    "brand": "NZXT",
+    "cat": "fan",
+    "source": "https://support.nzxt.com/hc/en-us/articles/39476207193755-Kraken-120-Specs",
+    "architecture": "120 mm · 4-pin PWM",
+    "summary": "Static-pressure fan · 500–2,000 RPM nominal range · no RGB lighting",
+    "specs": {
+      "Fan size": 120,
+      "Connector": "4-pin PWM",
+      "Speed range": "500–2,000 ± 300 RPM",
+      "Airflow": "18.28–73.11 CFM",
+      "Static pressure": "0.18–2.93 mm H₂O"
+    },
+    "note": "NZXT identifies the Aer P120 in its Kraken 120 documentation. Speed, airflow and pressure are manufacturer ranges, not independent test results. The preview uses an approximate 26 mm depth; verify frame dimensions and screw length for your mounting arrangement.",
+    "physical": {
+      "size": [
+        120,
+        120,
+        26
+      ],
+      "model": "retail-nzxt-aer-p120",
+      "color": "#242b32",
+      "rgb": false,
+      "connector": "4-pin PWM",
+      "dimensionStatus": "120 mm frame; 26 mm visual depth and mounting coordinates remain approximate."
+    }
+  },
+  {
+    "id": "retail-noctua-nf-a12x15-pwm",
+    "name": "NF-A12x15 PWM",
+    "brand": "Noctua",
+    "cat": "fan",
+    "source": "https://www.noctua.at/en/products/nf-a12x15-pwm/specifications",
+    "architecture": "120 mm · 4-pin PWM",
+    "summary": "120 mm · 15 mm frame · 4-pin PWM",
+    "specs": {
+      "Fan size": 120,
+      "Thickness": 15,
+      "Connector": "4-pin PWM",
+      "Rated voltage": "12 V",
+      "Speed range": "0 – 1850 rpm",
+      "Maximum airflow": "94.2 m³/h (55.44 CFM)",
+      "Maximum static pressure": "1.53 mm H₂O",
+      "Maximum noise": "23.9 dB(A)",
+      "Mounting hole spacing": "105 x 105 mm",
+      "Units per pack": 1
+    },
+    "note": "120 × 120 × 15 mm nominal frame; 16 mm with anti-vibration pads. Four-pin PWM speed control; verify the motherboard header's voltage and current rating. Check the case mounting-hole spacing and space for pads, cables and screw heads. Airflow, pressure and noise figures are manufacturer ratings; the 3D preview does not calculate temperatures or noise.",
+    "physical": {
+      "size": [
+        120,
+        120,
+        16
+      ],
+      "model": "retail-noctua-nf-a12x15-pwm",
+      "color": "#b39a7b",
+      "connector": "4-pin PWM",
+      "rgb": false,
+      "dimensionStatus": "Manufacturer nominal frame and pad dimensions. Placement, attached cables and assembled clearance have not been certified."
+    }
+  },
+  {
+    "id": "retail-noctua-nf-a12x15-pwm-chromax-black-swap",
+    "name": "NF-A12x15 PWM chromax.black.swap",
+    "brand": "Noctua",
+    "cat": "fan",
+    "source": "https://www.noctua.at/en/products/nf-a12x15-pwm-chromax-black-swap/specifications",
+    "architecture": "120 mm · 4-pin PWM",
+    "summary": "120 mm · 15 mm frame · 4-pin PWM",
+    "specs": {
+      "Fan size": 120,
+      "Thickness": 15,
+      "Connector": "4-pin PWM",
+      "Rated voltage": "12 V",
+      "Speed range": "0 – 1850 rpm",
+      "Maximum airflow": "94.2 m³/h (55.44 CFM)",
+      "Maximum static pressure": "1.53 mm H₂O",
+      "Maximum noise": "23.9 dB(A)",
+      "Mounting hole spacing": "105 x 105 mm",
+      "Units per pack": 1
+    },
+    "note": "120 × 120 × 15 mm nominal frame; 16 mm with anti-vibration pads. Four-pin PWM speed control; verify the motherboard header's voltage and current rating. Check the case mounting-hole spacing and space for pads, cables and screw heads. Airflow, pressure and noise figures are manufacturer ratings; the 3D preview does not calculate temperatures or noise.",
+    "physical": {
+      "size": [
+        120,
+        120,
+        16
+      ],
+      "model": "retail-noctua-nf-a12x15-pwm-chromax-black-swap",
+      "color": "#25272a",
+      "connector": "4-pin PWM",
+      "rgb": false,
+      "dimensionStatus": "Manufacturer nominal frame and pad dimensions. Placement, attached cables and assembled clearance have not been certified."
+    }
+  },
+  {
+    "id": "retail-noctua-nf-a12x25-pwm",
+    "name": "NF-A12x25 PWM",
+    "brand": "Noctua",
+    "cat": "fan",
+    "source": "https://www.noctua.at/en/products/nf-a12x25-pwm/specifications",
+    "architecture": "120 mm · 4-pin PWM",
+    "summary": "120 mm · 25 mm frame · 4-pin PWM",
+    "specs": {
+      "Fan size": 120,
+      "Thickness": 25,
+      "Connector": "4-pin PWM",
+      "Rated voltage": "12 V",
+      "Speed range": "0 – 2000 rpm",
+      "Maximum airflow": "102.1 m³/h (60.09 CFM)",
+      "Maximum static pressure": "2.34 mm H₂O",
+      "Maximum noise": "22.6 dB(A)",
+      "Mounting hole spacing": "105 x 105 mm",
+      "Units per pack": 1
+    },
+    "note": "120 × 120 × 25 mm nominal frame; 27 mm with anti-vibration pads. Four-pin PWM speed control; verify the motherboard header's voltage and current rating. Check the case mounting-hole spacing and space for pads, cables and screw heads. Airflow, pressure and noise figures are manufacturer ratings; the 3D preview does not calculate temperatures or noise.",
+    "physical": {
+      "size": [
+        120,
+        120,
+        27
+      ],
+      "model": "retail-noctua-nf-a12x25-pwm",
+      "color": "#b39a7b",
+      "connector": "4-pin PWM",
+      "rgb": false,
+      "dimensionStatus": "Manufacturer nominal frame and pad dimensions. Placement, attached cables and assembled clearance have not been certified."
+    }
+  },
+  {
+    "id": "retail-noctua-nf-a12x25-g2-pwm",
+    "name": "NF-A12x25 G2 PWM",
+    "brand": "Noctua",
+    "cat": "fan",
+    "source": "https://www.noctua.at/en/products/nf-a12x25-g2-pwm/specifications",
+    "architecture": "120 mm · 4-pin PWM",
+    "summary": "120 mm · 25 mm frame · 4-pin PWM",
+    "specs": {
+      "Fan size": 120,
+      "Thickness": 25,
+      "Connector": "4-pin PWM",
+      "Rated voltage": "12 V",
+      "Speed range": "0 – 1800 rpm",
+      "Maximum airflow": "107.3 m³/h (63.15 CFM)",
+      "Maximum static pressure": "3.14 mm H₂O",
+      "Maximum noise": "22.5 dB(A)",
+      "Mounting hole spacing": "105 x 105 mm",
+      "Units per pack": 1
+    },
+    "note": "120 × 120 × 25 mm nominal frame; 27 mm with anti-vibration pads. Four-pin PWM speed control; verify the motherboard header's voltage and current rating. Check the case mounting-hole spacing and space for pads, cables and screw heads. Airflow, pressure and noise figures are manufacturer ratings; the 3D preview does not calculate temperatures or noise.",
+    "physical": {
+      "size": [
+        120,
+        120,
+        27
+      ],
+      "model": "retail-noctua-nf-a12x25-g2-pwm",
+      "color": "#b39a7b",
+      "connector": "4-pin PWM",
+      "rgb": false,
+      "dimensionStatus": "Manufacturer nominal frame and pad dimensions. Placement, attached cables and assembled clearance have not been certified."
+    }
+  },
+  {
+    "id": "retail-noctua-nf-a14-pwm",
+    "name": "NF-A14 PWM",
+    "brand": "Noctua",
+    "cat": "fan",
+    "source": "https://www.noctua.at/en/products/nf-a14-pwm/specifications",
+    "architecture": "140 mm · 4-pin PWM",
+    "summary": "140 mm · 25 mm frame · 4-pin PWM",
+    "specs": {
+      "Fan size": 140,
+      "Thickness": 25,
+      "Connector": "4-pin PWM",
+      "Rated voltage": "12 V",
+      "Speed range": "0 – 1500 rpm",
+      "Maximum airflow": "140.2 m³/h (82.52 CFM)",
+      "Maximum static pressure": "2.08 mm H₂O",
+      "Maximum noise": "24.6 dB(A)",
+      "Mounting hole spacing": "124.5 x 124.5 mm",
+      "Units per pack": 1
+    },
+    "note": "140 × 140 × 25 mm nominal frame; 27 mm with anti-vibration pads. Four-pin PWM speed control; verify the motherboard header's voltage and current rating. Check the case mounting-hole spacing and space for pads, cables and screw heads. Airflow, pressure and noise figures are manufacturer ratings; the 3D preview does not calculate temperatures or noise.",
+    "physical": {
+      "size": [
+        141,
+        141,
+        27
+      ],
+      "model": "retail-noctua-nf-a14-pwm",
+      "color": "#b39a7b",
+      "connector": "4-pin PWM",
+      "rgb": false,
+      "dimensionStatus": "Manufacturer nominal frame and pad dimensions. Placement, attached cables and assembled clearance have not been certified."
+    }
+  },
+  {
+    "id": "retail-noctua-nf-a14x25-g2-pwm",
+    "name": "NF-A14x25 G2 PWM",
+    "brand": "Noctua",
+    "cat": "fan",
+    "source": "https://www.noctua.at/en/products/nf-a14x25-g2-pwm/specifications",
+    "architecture": "140 mm · 4-pin PWM",
+    "summary": "140 mm · 25 mm frame · 4-pin PWM",
+    "specs": {
+      "Fan size": 140,
+      "Thickness": 25,
+      "Connector": "4-pin PWM",
+      "Rated voltage": "12 V",
+      "Speed range": "0 – 1500 rpm",
+      "Maximum airflow": "155.6 m³/h (91.58 CFM)",
+      "Maximum static pressure": "2.56 mm H₂O",
+      "Maximum noise": "24.8 dB(A)",
+      "Mounting hole spacing": "124.5 x 124.5 mm",
+      "Units per pack": 1
+    },
+    "note": "140 × 140 × 25 mm nominal frame; 27 mm with anti-vibration pads. Four-pin PWM speed control; verify the motherboard header's voltage and current rating. Check the case mounting-hole spacing and space for pads, cables and screw heads. Airflow, pressure and noise figures are manufacturer ratings; the 3D preview does not calculate temperatures or noise.",
+    "physical": {
+      "size": [
+        140,
+        140,
+        27
+      ],
+      "model": "retail-noctua-nf-a14x25-g2-pwm",
+      "color": "#b39a7b",
+      "connector": "4-pin PWM",
+      "rgb": false,
+      "dimensionStatus": "Manufacturer nominal frame and pad dimensions. Placement, attached cables and assembled clearance have not been certified."
+    }
+  },
+  {
+    "id": "retail-noctua-nf-a14x25-g2-ls-pwm",
+    "name": "NF-A14x25 G2 LS-PWM",
+    "brand": "Noctua",
+    "cat": "fan",
+    "source": "https://www.noctua.at/en/products/nf-a14x25-g2-ls-pwm/specifications",
+    "architecture": "140 mm · 4-pin PWM",
+    "summary": "140 mm · 25 mm frame · 4-pin PWM",
+    "specs": {
+      "Fan size": 140,
+      "Thickness": 25,
+      "Connector": "4-pin PWM",
+      "Rated voltage": "12 V",
+      "Speed range": "0 – 800 rpm",
+      "Maximum airflow": "81.6 m³/h (48.03 CFM)",
+      "Maximum static pressure": "0.71 mm H₂O",
+      "Maximum noise": "11.4 dB(A)",
+      "Mounting hole spacing": "124.5 x 124.5 mm",
+      "Units per pack": 1
+    },
+    "note": "140 × 140 × 25 mm nominal frame; 27 mm with anti-vibration pads. Four-pin PWM speed control; verify the motherboard header's voltage and current rating. Check the case mounting-hole spacing and space for pads, cables and screw heads. Airflow, pressure and noise figures are manufacturer ratings; the 3D preview does not calculate temperatures or noise.",
+    "physical": {
+      "size": [
+        140,
+        140,
+        27
+      ],
+      "model": "retail-noctua-nf-a14x25-g2-ls-pwm",
+      "color": "#b39a7b",
+      "connector": "4-pin PWM",
+      "rgb": false,
+      "dimensionStatus": "Manufacturer nominal frame and pad dimensions. Placement, attached cables and assembled clearance have not been certified."
+    }
+  },
+  {
+    "id": "retail-noctua-nf-a15-pwm",
+    "name": "NF-A15 PWM",
+    "brand": "Noctua",
+    "cat": "fan",
+    "source": "https://www.noctua.at/en/products/nf-a15-pwm/specifications",
+    "architecture": "140 mm · 4-pin PWM",
+    "summary": "140 mm · 25 mm frame · 4-pin PWM",
+    "specs": {
+      "Fan size": 140,
+      "Thickness": 25,
+      "Connector": "4-pin PWM",
+      "Rated voltage": "12 V",
+      "Speed range": "0 – 1200 rpm",
+      "Maximum airflow": "115.5 m³/h (67.98 CFM)",
+      "Maximum static pressure": "1.51 mm H₂O",
+      "Maximum noise": "19.2 dB(A)",
+      "Mounting hole spacing": "105 x 105 mm",
+      "Units per pack": 1
+    },
+    "note": "140 × 140 × 25 mm nominal frame; 27 mm with anti-vibration pads. Four-pin PWM speed control; verify the motherboard header's voltage and current rating. Round frame: use the listed mounting-hole pattern rather than assuming a square fan of the same nominal diameter will fit. Airflow, pressure and noise figures are manufacturer ratings; the 3D preview does not calculate temperatures or noise.",
+    "physical": {
+      "size": [
+        141,
+        152,
+        27
+      ],
+      "model": "retail-noctua-nf-a15-pwm",
+      "color": "#b39a7b",
+      "connector": "4-pin PWM",
+      "rgb": false,
+      "dimensionStatus": "Manufacturer nominal frame and pad dimensions. Placement, attached cables and assembled clearance have not been certified."
+    }
+  },
+  {
+    "id": "retail-noctua-nf-a20-pwm",
+    "name": "NF-A20 PWM",
+    "brand": "Noctua",
+    "cat": "fan",
+    "source": "https://www.noctua.at/en/products/nf-a20-pwm/specifications",
+    "architecture": "200 mm · 4-pin PWM",
+    "summary": "200 mm · 30 mm frame · 4-pin PWM",
+    "specs": {
+      "Fan size": 200,
+      "Thickness": 30,
+      "Connector": "4-pin PWM",
+      "Rated voltage": "12 V",
+      "Speed range": "350 – 800 rpm",
+      "Maximum airflow": "146.9 m³/h (86.46 CFM)",
+      "Maximum static pressure": "1.08 mm H₂O",
+      "Maximum noise": "18.1 dB(A)",
+      "Mounting hole spacing": "170 x 170 mm, 154 x 154 mm, 110 x 180 mm",
+      "Units per pack": 1
+    },
+    "note": "200 × 200 × 30 mm nominal frame; 32 mm with anti-vibration pads. Four-pin PWM speed control; verify the motherboard header's voltage and current rating. Check the case mounting-hole spacing and space for pads, cables and screw heads. Airflow, pressure and noise figures are manufacturer ratings; the 3D preview does not calculate temperatures or noise.",
+    "physical": {
+      "size": [
+        200,
+        200,
+        32
+      ],
+      "model": "retail-noctua-nf-a20-pwm",
+      "color": "#b39a7b",
+      "connector": "4-pin PWM",
+      "rgb": false,
+      "dimensionStatus": "Manufacturer nominal frame and pad dimensions. Placement, attached cables and assembled clearance have not been certified."
+    }
+  },
+  {
+    "id": "retail-noctua-nf-a20-flx",
+    "name": "NF-A20 FLX",
+    "brand": "Noctua",
+    "cat": "fan",
+    "source": "https://www.noctua.at/en/products/nf-a20-flx/specifications",
+    "architecture": "200 mm · 3-pin DC",
+    "summary": "200 mm · 30 mm frame · 3-pin DC",
+    "specs": {
+      "Fan size": 200,
+      "Thickness": 30,
+      "Connector": "3-pin DC",
+      "Rated voltage": "12 V",
+      "Speed range": "0 – 800 rpm",
+      "Maximum airflow": "146.9 m³/h (86.46 CFM)",
+      "Maximum static pressure": "1.08 mm H₂O",
+      "Maximum noise": "18.1 dB(A)",
+      "Mounting hole spacing": "170 x 170 mm, 154 x 154 mm, 110 x 180 mm",
+      "Units per pack": 1
+    },
+    "note": "200 × 200 × 30 mm nominal frame; 32 mm with anti-vibration pads. Three-pin DC speed control; verify the motherboard header's voltage and current rating. Check the case mounting-hole spacing and space for pads, cables and screw heads. Airflow, pressure and noise figures are manufacturer ratings; the 3D preview does not calculate temperatures or noise.",
+    "physical": {
+      "size": [
+        200,
+        200,
+        32
+      ],
+      "model": "retail-noctua-nf-a20-flx",
+      "color": "#b39a7b",
+      "connector": "3-pin DC",
+      "rgb": false,
+      "dimensionStatus": "Manufacturer nominal frame and pad dimensions. Placement, attached cables and assembled clearance have not been certified."
+    }
+  },
+  {
+    "id": "retail-noctua-nf-a8-pwm",
+    "name": "NF-A8 PWM",
+    "brand": "Noctua",
+    "cat": "fan",
+    "source": "https://www.noctua.at/en/products/nf-a8-pwm/specifications",
+    "architecture": "80 mm · 4-pin PWM",
+    "summary": "80 mm · 25 mm frame · 4-pin PWM",
+    "specs": {
+      "Fan size": 80,
+      "Thickness": 25,
+      "Connector": "4-pin PWM",
+      "Rated voltage": "12 V",
+      "Speed range": "0 – 2200 rpm",
+      "Maximum airflow": "55.5 m³/h (32.67 CFM)",
+      "Maximum static pressure": "2.37 mm H₂O",
+      "Maximum noise": "17.7 dB(A)",
+      "Mounting hole spacing": "71.5 x 71.5 mm",
+      "Units per pack": 1
+    },
+    "note": "80 × 80 × 25 mm nominal frame; 27 mm with anti-vibration pads. Four-pin PWM speed control; verify the motherboard header's voltage and current rating. Check the case mounting-hole spacing and space for pads, cables and screw heads. Airflow, pressure and noise figures are manufacturer ratings; the 3D preview does not calculate temperatures or noise.",
+    "physical": {
+      "size": [
+        81,
+        81,
+        27
+      ],
+      "model": "retail-noctua-nf-a8-pwm",
+      "color": "#b39a7b",
+      "connector": "4-pin PWM",
+      "rgb": false,
+      "dimensionStatus": "Manufacturer nominal frame and pad dimensions. Placement, attached cables and assembled clearance have not been certified."
+    }
+  },
+  {
+    "id": "retail-noctua-nf-a9x14-pwm",
+    "name": "NF-A9x14 PWM",
+    "brand": "Noctua",
+    "cat": "fan",
+    "source": "https://www.noctua.at/en/products/nf-a9x14-pwm/specifications",
+    "architecture": "92 mm · 4-pin PWM",
+    "summary": "92 mm · 14 mm frame · 4-pin PWM",
+    "specs": {
+      "Fan size": 92,
+      "Thickness": 14,
+      "Connector": "4-pin PWM",
+      "Rated voltage": "12 V",
+      "Speed range": "0 – 2200 rpm",
+      "Maximum airflow": "50.5 m³/h (29.72 CFM)",
+      "Maximum static pressure": "1.64 mm H₂O",
+      "Maximum noise": "19.9 dB(A)",
+      "Mounting hole spacing": "82.5 x 82.5 mm",
+      "Units per pack": 1
+    },
+    "note": "92 × 92 × 14 mm nominal frame; 15 mm with anti-vibration pads. Four-pin PWM speed control; verify the motherboard header's voltage and current rating. Check the case mounting-hole spacing and space for pads, cables and screw heads. Airflow, pressure and noise figures are manufacturer ratings; the 3D preview does not calculate temperatures or noise.",
+    "physical": {
+      "size": [
+        92,
+        92,
+        15
+      ],
+      "model": "retail-noctua-nf-a9x14-pwm",
+      "color": "#b39a7b",
+      "connector": "4-pin PWM",
+      "rgb": false,
+      "dimensionStatus": "Manufacturer nominal frame and pad dimensions. Placement, attached cables and assembled clearance have not been certified."
+    }
+  },
+  {
+    "id": "retail-noctua-nf-p12-redux-1700-pwm",
+    "name": "NF-P12 redux-1700 PWM",
+    "brand": "Noctua",
+    "cat": "fan",
+    "source": "https://www.noctua.at/en/products/nf-p12-redux-1700-pwm/specifications",
+    "architecture": "120 mm · 4-pin PWM",
+    "summary": "120 mm · 25 mm frame · 4-pin PWM",
+    "specs": {
+      "Fan size": 120,
+      "Thickness": 25,
+      "Connector": "4-pin PWM",
+      "Rated voltage": "12 V",
+      "Speed range": "0 – 1700 rpm",
+      "Maximum airflow": "120.2 m³/h (70.75 CFM)",
+      "Maximum static pressure": "2.83 mm H₂O",
+      "Maximum noise": "25.1 dB(A)",
+      "Mounting hole spacing": "105 x 105 mm",
+      "Units per pack": 1
+    },
+    "note": "120 × 120 × 25 mm nominal frame. Four-pin PWM speed control; verify the motherboard header's voltage and current rating. Check the case mounting-hole spacing and space for pads, cables and screw heads. Airflow, pressure and noise figures are manufacturer ratings; the 3D preview does not calculate temperatures or noise.",
+    "physical": {
+      "size": [
+        120,
+        120,
+        25
+      ],
+      "model": "retail-noctua-nf-p12-redux-1700-pwm",
+      "color": "#969698",
+      "connector": "4-pin PWM",
+      "rgb": false,
+      "dimensionStatus": "Manufacturer nominal frame and pad dimensions. Placement, attached cables and assembled clearance have not been certified."
+    }
+  },
+  {
+    "id": "retail-noctua-nf-p14r-redux-1500-pwm",
+    "name": "NF-P14r redux-1500 PWM",
+    "brand": "Noctua",
+    "cat": "fan",
+    "source": "https://www.noctua.at/en/products/nf-p14r-redux-1500-pwm/specifications",
+    "architecture": "140 mm · 4-pin PWM",
+    "summary": "140 mm · 25 mm frame · 4-pin PWM",
+    "specs": {
+      "Fan size": 140,
+      "Thickness": 25,
+      "Connector": "4-pin PWM",
+      "Rated voltage": "12 V",
+      "Speed range": "0 – 1500 rpm",
+      "Maximum airflow": "133.7 m³/h (78.69 CFM)",
+      "Maximum static pressure": "1.91 mm H₂O",
+      "Maximum noise": "25.8 dB(A)",
+      "Mounting hole spacing": "105 x 105 mm",
+      "Units per pack": 1
+    },
+    "note": "140 × 140 × 25 mm nominal frame. Four-pin PWM speed control; verify the motherboard header's voltage and current rating. Round frame: use the listed mounting-hole pattern rather than assuming a square fan of the same nominal diameter will fit. Airflow, pressure and noise figures are manufacturer ratings; the 3D preview does not calculate temperatures or noise.",
+    "physical": {
+      "size": [
+        140,
+        140,
+        25
+      ],
+      "model": "retail-noctua-nf-p14r-redux-1500-pwm",
+      "color": "#969698",
+      "connector": "4-pin PWM",
+      "rgb": false,
+      "dimensionStatus": "Manufacturer nominal frame and pad dimensions. Placement, attached cables and assembled clearance have not been certified."
+    }
+  },
+  {
+    "id": "retail-noctua-nf-p14s-redux-1500-pwm",
+    "name": "NF-P14s redux-1500 PWM",
+    "brand": "Noctua",
+    "cat": "fan",
+    "source": "https://www.noctua.at/en/products/nf-p14s-redux-1500-pwm/specifications",
+    "architecture": "140 mm · 4-pin PWM",
+    "summary": "140 mm · 25 mm frame · 4-pin PWM",
+    "specs": {
+      "Fan size": 140,
+      "Thickness": 25,
+      "Connector": "4-pin PWM",
+      "Rated voltage": "12 V",
+      "Speed range": "0 – 1500 rpm",
+      "Maximum airflow": "133.7 m³/h (78.69 CFM)",
+      "Maximum static pressure": "1.91 mm H₂O",
+      "Maximum noise": "25.8 dB(A)",
+      "Mounting hole spacing": "124.5 x 124.5 mm",
+      "Units per pack": 1
+    },
+    "note": "140 × 140 × 25 mm nominal frame. Four-pin PWM speed control; verify the motherboard header's voltage and current rating. Check the case mounting-hole spacing and space for pads, cables and screw heads. Airflow, pressure and noise figures are manufacturer ratings; the 3D preview does not calculate temperatures or noise.",
+    "physical": {
+      "size": [
+        140,
+        140,
+        25
+      ],
+      "model": "retail-noctua-nf-p14s-redux-1500-pwm",
+      "color": "#969698",
+      "connector": "4-pin PWM",
+      "rgb": false,
+      "dimensionStatus": "Manufacturer nominal frame and pad dimensions. Placement, attached cables and assembled clearance have not been certified."
+    }
+  },
+  {
+    "id": "retail-noctua-nf-s12a-pwm",
+    "name": "NF-S12A PWM",
+    "brand": "Noctua",
+    "cat": "fan",
+    "source": "https://www.noctua.at/en/products/nf-s12a-pwm/specifications",
+    "architecture": "120 mm · 4-pin PWM",
+    "summary": "120 mm · 25 mm frame · 4-pin PWM",
+    "specs": {
+      "Fan size": 120,
+      "Thickness": 25,
+      "Connector": "4-pin PWM",
+      "Rated voltage": "12 V",
+      "Speed range": "0 – 1200 rpm",
+      "Maximum airflow": "107.5 m³/h (63.27 CFM)",
+      "Maximum static pressure": "1.19 mm H₂O",
+      "Maximum noise": "17.8 dB(A)",
+      "Mounting hole spacing": "105 x 105 mm",
+      "Units per pack": 1
+    },
+    "note": "120 × 120 × 25 mm nominal frame; 27 mm with anti-vibration pads. Four-pin PWM speed control; verify the motherboard header's voltage and current rating. Check the case mounting-hole spacing and space for pads, cables and screw heads. Airflow, pressure and noise figures are manufacturer ratings; the 3D preview does not calculate temperatures or noise.",
+    "physical": {
+      "size": [
+        120,
+        120,
+        27
+      ],
+      "model": "retail-noctua-nf-s12a-pwm",
+      "color": "#b39a7b",
+      "connector": "4-pin PWM",
+      "rgb": false,
+      "dimensionStatus": "Manufacturer nominal frame and pad dimensions. Placement, attached cables and assembled clearance have not been certified."
+    }
+  },
+  {
+    "id": "retail-noctua-nf-a4x20-pwm",
+    "name": "NF-A4x20 PWM",
+    "brand": "Noctua",
+    "cat": "fan",
+    "source": "https://www.noctua.at/en/products/nf-a4x20-pwm/specifications",
+    "architecture": "40 mm · 4-pin PWM",
+    "summary": "40 mm · 20 mm frame · 4-pin PWM",
+    "specs": {
+      "Fan size": 40,
+      "Thickness": 20,
+      "Connector": "4-pin PWM",
+      "Rated voltage": "12 V",
+      "Speed range": "0 – 5000 rpm",
+      "Maximum airflow": "9.4 m³/h (5.53 CFM)",
+      "Maximum static pressure": "2.26 mm H₂O",
+      "Maximum noise": "14.9 dB(A)",
+      "Mounting hole spacing": "32 x 32 mm",
+      "Units per pack": 1
+    },
+    "note": "40 × 40 × 20 mm nominal frame; 22 mm with anti-vibration pads. Four-pin PWM speed control; verify the motherboard header's voltage and current rating. Check the case mounting-hole spacing and space for pads, cables and screw heads. This small-format fan is intended for matching specialist mounts; it is not a replacement for a standard 120 or 140 mm case fan. Airflow, pressure and noise figures are manufacturer ratings; the 3D preview does not calculate temperatures or noise.",
+    "physical": {
+      "size": [
+        40,
+        40,
+        22
+      ],
+      "model": "retail-noctua-nf-a4x20-pwm",
+      "color": "#b39a7b",
+      "connector": "4-pin PWM",
+      "rgb": false,
+      "dimensionStatus": "Manufacturer nominal frame and pad dimensions. Placement, attached cables and assembled clearance have not been certified."
+    }
+  },
+  {
+    "id": "retail-noctua-nf-a6x25-pwm",
+    "name": "NF-A6x25 PWM",
+    "brand": "Noctua",
+    "cat": "fan",
+    "source": "https://www.noctua.at/en/products/nf-a6x25-pwm/specifications",
+    "architecture": "60 mm · 4-pin PWM",
+    "summary": "60 mm · 25 mm frame · 4-pin PWM",
+    "specs": {
+      "Fan size": 60,
+      "Thickness": 25,
+      "Connector": "4-pin PWM",
+      "Rated voltage": "12 V",
+      "Speed range": "0 – 3000 rpm",
+      "Maximum airflow": "29.2 m³/h (17.19 CFM)",
+      "Maximum static pressure": "2.18 mm H₂O",
+      "Maximum noise": "19.3 dB(A)",
+      "Mounting hole spacing": "50 x 50 mm",
+      "Units per pack": 1
+    },
+    "note": "60 × 60 × 25 mm nominal frame; 26 mm with anti-vibration pads. Four-pin PWM speed control; verify the motherboard header's voltage and current rating. Check the case mounting-hole spacing and space for pads, cables and screw heads. This small-format fan is intended for matching specialist mounts; it is not a replacement for a standard 120 or 140 mm case fan. Airflow, pressure and noise figures are manufacturer ratings; the 3D preview does not calculate temperatures or noise.",
+    "physical": {
+      "size": [
+        60,
+        60,
+        26
+      ],
+      "model": "retail-noctua-nf-a6x25-pwm",
+      "color": "#b39a7b",
+      "connector": "4-pin PWM",
+      "rgb": false,
+      "dimensionStatus": "Manufacturer nominal frame and pad dimensions. Placement, attached cables and assembled clearance have not been certified."
+    }
+  },
+  {
+    "id": "retail-noctua-nf-r8-redux-1800-pwm",
+    "name": "NF-R8 redux-1800 PWM",
+    "brand": "Noctua",
+    "cat": "fan",
+    "source": "https://www.noctua.at/en/products/nf-r8-redux-1800-pwm/specifications",
+    "architecture": "80 mm · 4-pin PWM",
+    "summary": "80 mm · 25 mm frame · 4-pin PWM",
+    "specs": {
+      "Fan size": 80,
+      "Thickness": 25,
+      "Connector": "4-pin PWM",
+      "Rated voltage": "12 V",
+      "Speed range": "0 – 1800 rpm",
+      "Maximum airflow": "53.3 m³/h (31.37 CFM)",
+      "Maximum static pressure": "1.41 mm H₂O",
+      "Maximum noise": "17.1 dB(A)",
+      "Mounting hole spacing": "71.5 x 71.5 mm",
+      "Units per pack": 1
+    },
+    "note": "80 × 80 × 25 mm nominal frame. Four-pin PWM speed control; verify the motherboard header's voltage and current rating. Check the case mounting-hole spacing and space for pads, cables and screw heads. Airflow, pressure and noise figures are manufacturer ratings; the 3D preview does not calculate temperatures or noise.",
+    "physical": {
+      "size": [
+        80,
+        80,
+        25
+      ],
+      "model": "retail-noctua-nf-r8-redux-1800-pwm",
+      "color": "#969698",
+      "connector": "4-pin PWM",
+      "rgb": false,
+      "dimensionStatus": "Manufacturer nominal frame and pad dimensions. Placement, attached cables and assembled clearance have not been certified."
+    }
+  },
+  {
+    "id": "retail-noctua-nf-s12b-redux-1200-pwm",
+    "name": "NF-S12B redux-1200 PWM",
+    "brand": "Noctua",
+    "cat": "fan",
+    "source": "https://www.noctua.at/en/products/nf-s12b-redux-1200-pwm/specifications",
+    "architecture": "120 mm · 4-pin PWM",
+    "summary": "120 mm · 25 mm frame · 4-pin PWM",
+    "specs": {
+      "Fan size": 120,
+      "Thickness": 25,
+      "Connector": "4-pin PWM",
+      "Rated voltage": "12 V",
+      "Speed range": "400 – 1200 rpm",
+      "Maximum airflow": "100.6 m³/h (59.21 CFM)",
+      "Maximum static pressure": "1.31 mm H₂O",
+      "Maximum noise": "18.1 dB(A)",
+      "Mounting hole spacing": "105 x 105 mm",
+      "Units per pack": 1
+    },
+    "note": "120 × 120 × 25 mm nominal frame. Four-pin PWM speed control; verify the motherboard header's voltage and current rating. Check the case mounting-hole spacing and space for pads, cables and screw heads. Airflow, pressure and noise figures are manufacturer ratings; the 3D preview does not calculate temperatures or noise.",
+    "physical": {
+      "size": [
+        120,
+        120,
+        25
+      ],
+      "model": "retail-noctua-nf-s12b-redux-1200-pwm",
+      "color": "#969698",
+      "connector": "4-pin PWM",
+      "rgb": false,
+      "dimensionStatus": "Manufacturer nominal frame and pad dimensions. Placement, attached cables and assembled clearance have not been certified."
+    }
+  },
+  {
+    "id": "retail-noctua-nf-a12x25-flx",
+    "name": "NF-A12x25 FLX",
+    "brand": "Noctua",
+    "cat": "fan",
+    "source": "https://www.noctua.at/en/products/nf-a12x25-flx/specifications",
+    "architecture": "120 mm · 3-pin DC",
+    "summary": "120 mm · 25 mm frame · 3-pin DC",
+    "specs": {
+      "Fan size": 120,
+      "Thickness": 25,
+      "Connector": "3-pin DC",
+      "Rated voltage": "12 V",
+      "Speed range": "0 – 2000 rpm",
+      "Maximum airflow": "102.1 m³/h (60.09 CFM)",
+      "Maximum static pressure": "2.34 mm H₂O",
+      "Maximum noise": "22.6 dB(A)",
+      "Mounting hole spacing": "105 x 105 mm",
+      "Units per pack": 1
+    },
+    "note": "120 × 120 × 25 mm nominal frame; 27 mm with anti-vibration pads. Three-pin DC speed control; verify the motherboard header's voltage and current rating. Check the case mounting-hole spacing and space for pads, cables and screw heads. Airflow, pressure and noise figures are manufacturer ratings; the 3D preview does not calculate temperatures or noise.",
+    "physical": {
+      "size": [
+        120,
+        120,
+        27
+      ],
+      "model": "retail-noctua-nf-a12x25-flx",
+      "color": "#b39a7b",
+      "connector": "3-pin DC",
+      "rgb": false,
+      "dimensionStatus": "Manufacturer nominal frame and pad dimensions. Placement, attached cables and assembled clearance have not been certified."
+    }
   }
 ]

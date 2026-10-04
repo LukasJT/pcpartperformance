@@ -1,5 +1,18 @@
 const checked='2026-10-04';
 const rows=[
+ ['apple13','Apple','iPhone 13 specifications','https://support.apple.com/en-ie/111872','Ireland specification cohort: body dimensions, display, processor and storage'],
+ ['pixelarchive','Google','Pixel 6–8 hardware specifications','https://support.google.com/pixelphone/answer/7158570?hl=en-CA','body dimensions, weight and named display specifications'],
+ ['pixelold','Google','Earlier Pixel hardware specifications','https://support.google.com/pixelphone/answer/16043605?hl=en','Pixel 5 body dimensions and hardware'],
+ ['s21','Samsung','Galaxy S21 series Hong Kong specifications','https://www.samsung.com/hk_en/news/product/galaxy-s21-5g-series-flagship-phones/','body dimensions, regional weight and display'],
+ ['s23','Samsung','Galaxy S23 Ultra specifications, Africa SM-S918B','https://www.samsung.com/africa_en/smartphones/galaxy-s/galaxy-s23-ultra-green-256gb-sm-s918bzgcafc/','body dimensions and regional weight'],
+ ['flip3','Samsung','Galaxy Z Flip3 Bespoke Edition specifications','https://news.samsung.com/global/an-all-new-custom-galaxy-experience-introducing-galaxy-z-flip3-bespoke-edition','folded/unfolded dimensions, display and weight'],
+ ['a23','Samsung','Galaxy A23 5G Australia specifications','https://www.samsung.com/au/smartphones/galaxy-a/galaxy-a23-5g-awesome-black-128gb-sm-a236ezkvxsa/','SM-A236E body dimensions and weight'],
+ ['s3','Samsung','Original Galaxy S III product specifications','https://www.samsungmobilepress.com/articles/samsung-introduces-the-galaxy-s-iii-the-smartphone-designed-for-humans-and-inspired-by-nature','global variant body dimensions and weight; LTE can differ'],
+ ['oneplus7dxo','DXOMARK','OnePlus 7 Pro test-device specifications','https://www.dxomark.com/smartphones/OnePlus/7-Pro','published device dimensions; display, chipset and storage; weight not listed'],
+ ['apple14pro','Apple','iPhone 14 Pro specifications','https://support.apple.com/en-my/111849','body dimensions; weight; display; storage'],
+ ['apple12pro','Apple','iPhone 12 Pro specifications','https://support.apple.com/en-my/111875','body dimensions; weight; display; storage'],
+ ['applex','Apple','iPhone X specifications','https://support.apple.com/id-id/111864','body dimensions; weight; display; processor; storage'],
+ ['apple7','Apple','iPhone 7 specifications','https://support.apple.com/en-gb/111943','body dimensions; weight; display; storage'],
  ['drivers','Microsoft','Troubleshoot screen flickering in Windows','https://support.microsoft.com/en-us/windows/hardware/display-graphics/troubleshoot-screen-flickering-in-windows','driver rollback prerequisites; symptoms are not proof of cause'],
  ['nvidiadrivers','NVIDIA','Game Ready and Studio driver explanation','https://www.nvidia.com/en-us/geforce/news/ces-2022-nvidia-community-qa/','driver audience and release focus; historical explanation'],
  ['profile','Google Search Help','Create a new Search profile','https://support.google.com/websearch/answer/16904498?hl=en','US availability; follower requirements; no direct ranking effect'],

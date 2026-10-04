@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "checked": "2026-10-04",
+  "dataset": "PC Part Performance local catalog",
+  "license": "CC0-1.0 for site-authored aggregate counts only",
+  "method": "Count unique catalog IDs. A strict exact-image match requires kind=exact and normalized pictured identity matching the named product. Specification completeness counts fields, not correctness.",
+  "limitations": [
+    "Not a market sample, sales ranking or benchmark dataset.",
+    "Inherited fields have not all been independently reverified.",
+    "No individual images or 3D assets are relicensed by this aggregate report."
+  ],
+  "total": 1187,
+  "categories": [
+    {
+      "id": "gpu",
+      "label": "Graphics cards",
+      "items": 163,
+      "atLeastThreeSpecs": 144,
+      "strictExactImages": 23,
+      "missingImages": 106
+    },
+    {
+      "id": "cpu",
+      "label": "Processors",
+      "items": 166,
+      "atLeastThreeSpecs": 166,
+      "strictExactImages": 27,
+      "missingImages": 131
+    },
+    {
+      "id": "board",
+      "label": "Motherboards",
+      "items": 115,
+      "atLeastThreeSpecs": 89,
+      "strictExactImages": 32,
+      "missingImages": 79
+    },
+    {
+      "id": "ram",
+      "label": "Memory",
+      "items": 66,
+      "atLeastThreeSpecs": 64,
+      "strictExactImages": 4,
+      "missingImages": 0
+    },
+    {
+      "id": "ssd",
+      "label": "SSDs",
+      "items": 78,
+      "atLeastThreeSpecs": 78,
+      "strictExactImages": 4,
+      "missingImages": 0
+    },
+    {
+      "id": "hdd",
+      "label": "Hard drives",
+      "items": 45,
+      "atLeastThreeSpecs": 42,
+      "strictExactImages": 1,
+      "missingImages": 0
+    },
+    {
+      "id": "psu",
+      "label": "Power supplies",
+      "items": 70,
+      "atLeastThreeSpecs": 0,
+      "strictExactImages": 3,
+      "missingImages": 0
+    },
+    {
+      "id": "case",
+      "label": "PC cases",
+      "items": 83,
+      "atLeastThreeSpecs": 3,
+      "strictExactImages": 2,
+      "missingImages": 0
+    },
+    {
+      "id": "monitor",
+      "label": "Monitors",
+      "items": 30,
+      "atLeastThreeSpecs": 0,
+      "strictExactImages": 1,
+      "missingImages": 0
+    },
+    {
+      "id": "mouse",
+      "label": "Mice",
+      "items": 25,
+      "atLeastThreeSpecs": 3,
+      "strictExactImages": 6,
+      "missingImages": 0
+    },
+    {
+      "id": "keyboard",
+      "label": "Keyboards",
+      "items": 23,
+      "atLeastThreeSpecs": 1,
+      "strictExactImages": 7,
+      "missingImages": 0
+    },
+    {
+      "id": "microphone",
+      "label": "Microphones",
+      "items": 17,
+      "atLeastThreeSpecs": 0,
+      "strictExactImages": 6,
+      "missingImages": 0
+    },
+    {
+      "id": "headset",
+      "label": "Headsets",
+      "items": 14,
+      "atLeastThreeSpecs": 0,
+      "strictExactImages": 3,
+      "missingImages": 0
+    },
+    {
+      "id": "controller",
+      "label": "Controllers",
+      "items": 18,
+      "atLeastThreeSpecs": 0,
+      "strictExactImages": 6,
+      "missingImages": 0
+    },
+    {
+      "id": "console",
+      "label": "Consoles",
+      "items": 62,
+      "atLeastThreeSpecs": 14,
+      "strictExactImages": 8,
+      "missingImages": 0
+    },
+    {
+      "id": "phone",
+      "label": "Phones",
+      "items": 172,
+      "atLeastThreeSpecs": 17,
+      "strictExactImages": 10,
+      "missingImages": 143
+    },
+    {
+      "id": "handheld",
+      "label": "Handhelds",
+      "items": 10,
+      "atLeastThreeSpecs": 10,
+      "strictExactImages": 3,
+      "missingImages": 0
+    },
+    {
+      "id": "fan",
+      "label": "Case fans",
+      "items": 30,
+      "atLeastThreeSpecs": 30,
+      "strictExactImages": 2,
+      "missingImages": 0
+    }
+  ],
+  "version": "74c2898efc8e"
+}

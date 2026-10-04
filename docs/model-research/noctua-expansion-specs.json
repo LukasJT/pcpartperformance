@@ -1,0 +1,7301 @@
+{
+  "nf-a12x15-pwm": {
+    "images": [
+      {
+        "alt": "logo",
+        "src": "https://cdn.noctua.at/static/images/logo.svg"
+      },
+      {
+        "alt": "",
+        "src": "https://www.noctua.at/_next/image?url=https%3A%2F%2Fcdn.noctua.at%2Fmedia%2Ffans.jpg&w=256&q=75"
+      },
+      {
+        "alt": "",
+        "src": "https://www.noctua.at/_next/image?url=https%3A%2F%2Fcdn.noctua.at%2Fmedia%2Fcoolers.jpg&w=256&q=75"
+      },
+      {
+        "alt": "",
+        "src": "https://www.noctua.at/_next/image?url=https%3A%2F%2Fcdn.noctua.at%2Fmedia%2Faccessories-1.jpg&w=256&q=75"
+      },
+      {
+        "alt": "",
+        "src": "https://www.noctua.at/_next/image?url=https%3A%2F%2Fcdn.noctua.at%2Fmedia%2Fhome.jpg&w=256&q=75"
+      },
+      {
+        "alt": "",
+        "src": "https://www.noctua.at/_next/image?url=https%3A%2F%2Fcdn.noctua.at%2Fmedia%2Fmerch.jpg&w=256&q=75"
+      },
+      {
+        "alt": "",
+        "src": "https://www.noctua.at/_next/image?url=https%3A%2F%2Fcdn.noctua.at%2Fmedia%2Fpartner.jpg&w=256&q=75"
+      },
+      {
+        "alt": "",
+        "src": "https://www.noctua.at/_next/image?url=https%3A%2F%2Fcdn.noctua.at%2Fmedia%2Findustry.jpg&w=256&q=75"
+      },
+      {
+        "alt": "",
+        "src": "https://www.noctua.at/_next/image?url=https%3A%2F%2Fcdn.noctua.at%2Fmedia%2Fe0215787%2Fnl-pna1_pump_noise_absorber_thumbnail.jpg&w=384&q=75"
+      },
+      {
+        "alt": "Antec Flux Pro Noctua Edition noise measurement process",
+        "src": "https://www.noctua.at/_next/image?url=https%3A%2F%2Fcdn.noctua.at%2Fmedia%2F4b200085%2Fantec_flux_pro_further_reading.png&w=384&q=75"
+      },
+      {
+        "alt": "",
+        "src": "https://www.noctua.at/_next/image?url=https%3A%2F%2Fcdn.noctua.at%2Fmedia%2Fcompatibility.png&w=256&q=75"
+      },
+      {
+        "alt": "",
+        "src": "https://www.noctua.at/_next/image?url=https%3A%2F%2Fcdn.noctua.at%2Fmedia%2Fnh_d15_g2_lbc_5.jpg&w=256&q=75"
+      },
+      {
+        "alt": "",
+        "src": "https://www.noctua.at/_next/image?url=https%3A%2F%2Fcdn.noctua.at%2Fmedia%2Fmounting%20kits.jpg&w=256&q=75"
+      },
+      {
+        "alt": "",
+        "src": "https://www.noctua.at/_next/image?url=https%3A%2F%2Fcdn.noctua.at%2Fmedia%2Fcontact.jpg&w=256&q=75"
+      },
+      {
+        "alt": "",
+        "src": "https://www.noctua.at/_next/image?url=https%3A%2F%2Fcdn.noctua.at%2Fmedia%2Fnoctua_nf_a12_15_2.jpg&w=640&q=75"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/slim_design_dark.svg"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/sso2_bearing_dark.svg"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/pwm_dark.svg"
+      },
+      {
+        "alt": "",
+        "src": "https://www.noctua.at/_next/image?url=https%3A%2F%2Fcdn.noctua.at%2Fmedia%2Fnoctua_nf_a12_15_pwm_5.jpg&w=640&q=85"
+      },
+      {
+        "alt": "Illustration of the pin configuration with the following text.: 3 pin 12V fans (non-PWM): Yellow = RPM Speed Signal, Red = +12V, Black = Ground (GND); 4 pin 12V fans (PWM): Blue = PWM Signal (+5V), Green = RPM Speed Signal; Yellow = +12V, Black = Ground (GND)",
+        "src": "https://www.noctua.at/_next/image?url=https%3A%2F%2Fcdn.noctua.at%2Fmedia%2Fpin_configuration_of_12v_fans.jpeg&w=3840&q=85"
+      }
+    ],
+    "rows": [
+      [
+        "Size (Form factor)",
+        "120 x 120 x 15 mm"
+      ],
+      [
+        "Speed range",
+        "0 – 1850 rpm"
+      ],
+      [
+        "Airflow (max.)",
+        "94.2 m³/h (55.44 CFM)"
+      ],
+      [
+        "Acoustical noise (max.)",
+        "23.9 dB(A)"
+      ],
+      [
+        "Static pressure (max.)",
+        "1.53 mm H₂O"
+      ],
+      [
+        "Rated voltage",
+        "12 V"
+      ],
+      [
+        "Input power (typical)",
+        "1.27 W"
+      ],
+      [
+        "Connector",
+        "4-pin"
+      ],
+      [
+        "Colour",
+        "Brown"
+      ],
+      [
+        "Warranty",
+        "6 years"
+      ],
+      [
+        "Dimensions without anti-vibration pads",
+        "120 x 120 x 15 mm"
+      ],
+      [
+        "Dimensions with anti-vibration pads",
+        "120 x 120 x 16 mm"
+      ],
+      [
+        "Frame shape",
+        "Square"
+      ],
+      [
+        "Mounting hole spacing(s)",
+        "105 x 105 mm"
+      ],
+      [
+        "Weight",
+        "130 g"
+      ],
+      [
+        "Material frame",
+        "PBT GF30"
+      ],
+      [
+        "Material impeller",
+        "PBT GF30"
+      ],
+      [
+        "Material anti-vibration pads",
+        "Silicone rubber"
+      ],
+      [
+        "Bearing",
+        "SSO2"
+      ],
+      [
+        "Rotational direction",
+        "Counter-clockwise"
+      ],
+      [
+        "Frame colour",
+        "Beige"
+      ],
+      [
+        "Impeller colour",
+        "Brown"
+      ],
+      [
+        "Anti-vibration pads colour",
+        "Brown"
+      ],
+      [
+        "Connector type",
+        "A2543-4PIN (or equal)"
+      ],
+      [
+        "Cable length",
+        "200 mm"
+      ],
+      [
+        "Cable length with extension cable (included)",
+        "500 mm"
+      ],
+      [
+        "Wire",
+        "28 AWG"
+      ],
+      [
+        "Sleeving",
+        "Fibreglass silicone mesh"
+      ],
+      [
+        "Rotational speed (max.)",
+        "1850 rpm"
+      ],
+      [
+        "Rotational speed with LNA (max.)",
+        "1400 rpm"
+      ],
+      [
+        "Rotational speed @ 20% PWM",
+        "450 rpm"
+      ],
+      [
+        "Rotational speed @ 0% PWM",
+        "0 rpm"
+      ],
+      [
+        "Acoustical noise (max.)",
+        "23.9 dB(A)"
+      ],
+      [
+        "Acoustical noise with LNA (max.)",
+        "16.8 dB(A)"
+      ],
+      [
+        "Airflow (max.)",
+        "94.2 m³/h (55.44 CFM)"
+      ],
+      [
+        "Airflow with LNA (max.)",
+        "70.8 m³/h (41.67 CFM)"
+      ],
+      [
+        "Static pressure (max.)",
+        "1.53 mm H₂O"
+      ],
+      [
+        "Static pressure with LNA (max.)",
+        "0.9 mm H₂O"
+      ],
+      [
+        "Motor type (phases)",
+        "Single phase"
+      ],
+      [
+        "Poles",
+        "4"
+      ],
+      [
+        "Slots",
+        "4"
+      ],
+      [
+        "Driver IC",
+        "NE-FD1"
+      ],
+      [
+        "Rated voltage",
+        "12 V"
+      ],
+      [
+        "Starting voltage",
+        "7 V"
+      ],
+      [
+        "Max. operating voltage",
+        "13.2 V"
+      ],
+      [
+        "Pin configuration",
+        ""
+      ],
+      [
+        "Pin 1",
+        "Black: Ground (GND)"
+      ],
+      [
+        "Pin 2",
+        "Yellow: Voltage (Vcc)"
+      ],
+      [
+        "Pin 3",
+        "Green: RPM Signal"
+      ],
+      [
+        "Pin 4",
+        "Blue: PWM Signal"
+      ],
+      [
+        "Input power (max)",
+        "1.56 W"
+      ],
+      [
+        "Input power (typical)",
+        "1.27 W"
+      ],
+      [
+        "Input current (max)",
+        "0.13 A"
+      ],
+      [
+        "Input current (typical)",
+        "0.11 A"
+      ],
+      [
+        "Safety standards",
+        "EN62368-1"
+      ],
+      [
+        "EMC standards",
+        "EN55032, EN55035"
+      ],
+      [
+        "UL",
+        ""
+      ],
+      [
+        "CE",
+        ""
+      ],
+      [
+        "UKCA",
+        ""
+      ],
+      [
+        "TÜV",
+        ""
+      ],
+      [
+        "Production standards",
+        "ISO 9001 & ISO 14001"
+      ],
+      [
+        "Flammability",
+        "UL 94 V-0"
+      ],
+      [
+        "REACH",
+        ""
+      ],
+      [
+        "RoHS",
+        ""
+      ],
+      [
+        "CMRT",
+        ""
+      ],
+      [
+        "EMRT",
+        ""
+      ],
+      [
+        "Ingress protection",
+        "IP50"
+      ],
+      [
+        "Operating temperature",
+        "-10°C to +70°C"
+      ],
+      [
+        "Operating humidity",
+        "15 – 90 %"
+      ],
+      [
+        "Storage temperature",
+        "-20°C to +75°C"
+      ],
+      [
+        "Storage humidity",
+        "15 – 90 %"
+      ],
+      [
+        "MTTF",
+        "> 150,000 h"
+      ],
+      [
+        "Locked rotor protection",
+        "Auto power off after locked at rated voltage for 1 sec. After auto power off, the circuit attempts to restart in 2 to 6 sec."
+      ],
+      [
+        "Polarity protection",
+        "Open circuit when Vcc & GND are exchanged. Circuit won't be burned within 5 sec when Vcc & GND are exchanged."
+      ],
+      [
+        "Overvoltage protection",
+        ""
+      ],
+      [
+        "Overcurrent protection",
+        ""
+      ],
+      [
+        "Insulation resistance",
+        "10 MΩ / between unshielded wire and frame at 500 VDC/min"
+      ],
+      [
+        "Dielectric strength",
+        "5 mA max. / measured between lead wire (+) and frame at 500 VAC/min"
+      ],
+      [
+        "Packaging weight (including product)",
+        "296 g"
+      ],
+      [
+        "EAN",
+        "9010018100082"
+      ],
+      [
+        "UPC",
+        "841500110086"
+      ],
+      [
+        "Packaging unit",
+        "36 pcs"
+      ],
+      [
+        "Packaging unit weight",
+        "12.1 kg"
+      ]
+    ],
+    "title": "NF-A12x15 PWM"
+  },
+  "nf-a12x15-pwm-chromax-black-swap": {
+    "images": [
+      {
+        "alt": "",
+        "src": "https://www.noctua.at/_next/image?url=https%3A%2F%2Fcdn.noctua.at%2Fmedia%2Fnf_a12_15_chromax_black_2-5.png&w=640&q=75"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/slim_design_light.svg"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/sso2_bearing_light.svg"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/chromax_light.svg"
+      }
+    ],
+    "rows": [
+      [
+        "Size (Form factor)",
+        "120 x 120 x 15 mm"
+      ],
+      [
+        "Speed range",
+        "0 – 1850 rpm"
+      ],
+      [
+        "Airflow (max.)",
+        "94.2 m³/h (55.44 CFM)"
+      ],
+      [
+        "Acoustical noise (max.)",
+        "23.9 dB(A)"
+      ],
+      [
+        "Static pressure (max.)",
+        "1.53 mm H₂O"
+      ],
+      [
+        "Rated voltage",
+        "12 V"
+      ],
+      [
+        "Input power (typical)",
+        "1.27 W"
+      ],
+      [
+        "Connector",
+        "4-pin"
+      ],
+      [
+        "Colour",
+        "Black"
+      ],
+      [
+        "Warranty",
+        "6 years"
+      ],
+      [
+        "Dimensions without anti-vibration pads",
+        "120 x 120 x 15 mm"
+      ],
+      [
+        "Dimensions with anti-vibration pads",
+        "120 x 120 x 16 mm"
+      ],
+      [
+        "Frame shape",
+        "Square"
+      ],
+      [
+        "Mounting hole spacing(s)",
+        "105 x 105 mm"
+      ],
+      [
+        "Weight",
+        "130 g"
+      ],
+      [
+        "Material frame",
+        "PBT GF30"
+      ],
+      [
+        "Material impeller",
+        "PBT GF30"
+      ],
+      [
+        "Material anti-vibration pads",
+        "Silicone rubber"
+      ],
+      [
+        "Bearing",
+        "SSO2"
+      ],
+      [
+        "Rotational direction",
+        "Counter-clockwise"
+      ],
+      [
+        "Frame colour",
+        "Black"
+      ],
+      [
+        "Impeller colour",
+        "Black"
+      ],
+      [
+        "Anti-vibration pads colour",
+        "Multi colour"
+      ],
+      [
+        "Connector type",
+        "A2543-4PIN (or equal)"
+      ],
+      [
+        "Cable length",
+        "10 mm"
+      ],
+      [
+        "Cable length with extension cable (included)",
+        "310 mm"
+      ],
+      [
+        "Wire",
+        "28 AWG"
+      ],
+      [
+        "Sleeving",
+        "Fibreglass silicone mesh"
+      ],
+      [
+        "Rotational speed (max.)",
+        "1850 rpm"
+      ],
+      [
+        "Rotational speed @ 20% PWM",
+        "450 rpm"
+      ],
+      [
+        "Rotational speed @ 0% PWM",
+        "0 rpm"
+      ],
+      [
+        "Acoustical noise (max.)",
+        "23.9 dB(A)"
+      ],
+      [
+        "Airflow (max.)",
+        "94.2 m³/h (55.44 CFM)"
+      ],
+      [
+        "Static pressure (max.)",
+        "1.53 mm H₂O"
+      ],
+      [
+        "Motor type (phases)",
+        "Single phase"
+      ],
+      [
+        "Poles",
+        "4"
+      ],
+      [
+        "Slots",
+        "4"
+      ],
+      [
+        "Driver IC",
+        "NE-FD1"
+      ],
+      [
+        "Rated voltage",
+        "12 V"
+      ],
+      [
+        "Starting voltage",
+        "7 V"
+      ],
+      [
+        "Max. operating voltage",
+        "13.2 V"
+      ],
+      [
+        "Pin configuration",
+        ""
+      ],
+      [
+        "Pin 1",
+        "Black: Ground (GND)"
+      ],
+      [
+        "Pin 2",
+        "Black: Voltage (Vcc)"
+      ],
+      [
+        "Pin 3",
+        "Black: RPM Signal"
+      ],
+      [
+        "Pin 4",
+        "Black: PWM Signal"
+      ],
+      [
+        "Input power (max)",
+        "1.56 W"
+      ],
+      [
+        "Input power (typical)",
+        "1.27 W"
+      ],
+      [
+        "Input current (max)",
+        "0.13 A"
+      ],
+      [
+        "Input current (typical)",
+        "0.11 A"
+      ],
+      [
+        "Safety standards",
+        "EN62368-1"
+      ],
+      [
+        "EMC standards",
+        "EN55032, EN55035"
+      ],
+      [
+        "UL",
+        ""
+      ],
+      [
+        "CE",
+        ""
+      ],
+      [
+        "UKCA",
+        ""
+      ],
+      [
+        "TÜV",
+        ""
+      ],
+      [
+        "Production standards",
+        "ISO 9001 & ISO 14001"
+      ],
+      [
+        "Flammability",
+        "UL 94 V-0"
+      ],
+      [
+        "REACH",
+        ""
+      ],
+      [
+        "RoHS",
+        ""
+      ],
+      [
+        "CMRT",
+        ""
+      ],
+      [
+        "EMRT",
+        ""
+      ],
+      [
+        "Ingress protection",
+        "IP50"
+      ],
+      [
+        "Operating temperature",
+        "-10°C to +70°C"
+      ],
+      [
+        "Operating humidity",
+        "15 – 90 %"
+      ],
+      [
+        "Storage temperature",
+        "-20°C to +75°C"
+      ],
+      [
+        "Storage humidity",
+        "15 – 90 %"
+      ],
+      [
+        "MTTF",
+        "> 150,000 h"
+      ],
+      [
+        "Locked rotor protection",
+        "Auto power off after locked at rated voltage for 1 sec. After auto power off, the circuit attempts to restart in 2 to 6 sec."
+      ],
+      [
+        "Polarity protection",
+        "Open circuit when Vcc & GND are exchanged. Circuit won't be burned within 5 sec when Vcc & GND are exchanged."
+      ],
+      [
+        "Overvoltage protection",
+        ""
+      ],
+      [
+        "Overcurrent protection",
+        ""
+      ],
+      [
+        "Insulation resistance",
+        "10 MΩ / between unshielded wire and frame at 500 VDC/min"
+      ],
+      [
+        "Dielectric strength",
+        "5 mA max. / measured between lead wire (+) and frame at 500 VAC/min"
+      ],
+      [
+        "Packaging weight (including product)",
+        "280 g"
+      ],
+      [
+        "EAN",
+        "9010018100464"
+      ],
+      [
+        "UPC",
+        "841501110467"
+      ],
+      [
+        "Packaging unit",
+        "36 pcs"
+      ],
+      [
+        "Packaging unit weight",
+        "11.32 kg"
+      ]
+    ],
+    "source": "https://www.noctua.at/en/products/nf-a12x15-pwm-chromax-black-swap/specifications",
+    "title": "NF-A12x15 PWM chromax.black.swap"
+  },
+  "nf-a12x25-pwm": {
+    "images": [
+      {
+        "alt": "",
+        "src": "https://www.noctua.at/_next/image?url=https%3A%2F%2Fcdn.noctua.at%2Fmedia%2Fnf_a12x25_1.jpg&w=640&q=75"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/nf-a12x25r_dark.svg"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/highly_optimised_p_q_curve_dark.svg"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/pwm_dark.svg"
+      }
+    ],
+    "rows": [
+      [
+        "Size (Form factor)",
+        "120 x 120 x 25 mm (square)"
+      ],
+      [
+        "Speed range",
+        "0 – 2000 rpm"
+      ],
+      [
+        "Airflow (max.)",
+        "102.1 m³/h (60.09 CFM)"
+      ],
+      [
+        "Acoustical noise (max.)",
+        "22.6 dB(A)"
+      ],
+      [
+        "Static pressure (max.)",
+        "2.34 mm H₂O"
+      ],
+      [
+        "Rated voltage",
+        "12 V"
+      ],
+      [
+        "Input power (typical)",
+        "1.2 W"
+      ],
+      [
+        "Connector",
+        "4-pin"
+      ],
+      [
+        "Colour",
+        "Brown"
+      ],
+      [
+        "Warranty",
+        "6 years"
+      ],
+      [
+        "Dimensions without anti-vibration pads",
+        "120 x 120 x 25 mm"
+      ],
+      [
+        "Dimensions with anti-vibration pads",
+        "120 x 120 x 27 mm"
+      ],
+      [
+        "Frame shape",
+        "Square"
+      ],
+      [
+        "Mounting hole spacing(s)",
+        "105 x 105 mm"
+      ],
+      [
+        "Weight",
+        "200 g"
+      ],
+      [
+        "Material frame",
+        "PBT ABS GF30"
+      ],
+      [
+        "Material impeller",
+        "LCP GF30"
+      ],
+      [
+        "Material anti-vibration pads",
+        "Silicone rubber"
+      ],
+      [
+        "Bearing",
+        "SSO2"
+      ],
+      [
+        "Rotational direction",
+        "Counter-clockwise"
+      ],
+      [
+        "Frame colour",
+        "Beige"
+      ],
+      [
+        "Impeller colour",
+        "Brown"
+      ],
+      [
+        "Anti-vibration pads colour",
+        "Brown"
+      ],
+      [
+        "Connector type",
+        "A2543-4PIN (or equal)"
+      ],
+      [
+        "Cable length",
+        "200 mm"
+      ],
+      [
+        "Cable length with extension cable (included)",
+        "500 mm"
+      ],
+      [
+        "Wire",
+        "26 AWG"
+      ],
+      [
+        "Sleeving",
+        "Fibreglass silicone mesh"
+      ],
+      [
+        "Rotational speed (max.)",
+        "2000 rpm"
+      ],
+      [
+        "Rotational speed with LNA (max.)",
+        "1700 rpm"
+      ],
+      [
+        "Rotational speed @ 20% PWM",
+        "460 rpm"
+      ],
+      [
+        "Rotational speed @ 0% PWM",
+        "0 rpm"
+      ],
+      [
+        "Acoustical noise (max.)",
+        "22.6 dB(A)"
+      ],
+      [
+        "Acoustical noise with LNA (max.)",
+        "18.8 dB(A)"
+      ],
+      [
+        "Airflow (max.)",
+        "102.1 m³/h (60.09 CFM)"
+      ],
+      [
+        "Airflow with LNA (max.)",
+        "84.5 m³/h (49.73 CFM)"
+      ],
+      [
+        "Static pressure (max.)",
+        "2.34 mm H₂O"
+      ],
+      [
+        "Static pressure with LNA (max.)",
+        "1.65 mm H₂O"
+      ],
+      [
+        "Motor type (phases)",
+        "Single phase"
+      ],
+      [
+        "Poles",
+        "4"
+      ],
+      [
+        "Slots",
+        "4"
+      ],
+      [
+        "Driver IC",
+        "NE-FD1"
+      ],
+      [
+        "Rated voltage",
+        "12 V"
+      ],
+      [
+        "Starting voltage",
+        "7 V"
+      ],
+      [
+        "Max. operating voltage",
+        "13.2 V"
+      ],
+      [
+        "Pin configuration",
+        ""
+      ],
+      [
+        "Pin 1",
+        "Black: Ground (GND)"
+      ],
+      [
+        "Pin 2",
+        "Yellow: Voltage (Vcc)"
+      ],
+      [
+        "Pin 3",
+        "Green: RPM Signal"
+      ],
+      [
+        "Pin 4",
+        "Blue: PWM Signal"
+      ],
+      [
+        "Input power (max)",
+        "1.68 W"
+      ],
+      [
+        "Input power (typical)",
+        "1.2 W"
+      ],
+      [
+        "Input current (max)",
+        "0.14 A"
+      ],
+      [
+        "Input current (typical)",
+        "0.1 A"
+      ],
+      [
+        "Safety standards",
+        "EN62368-1"
+      ],
+      [
+        "EMC standards",
+        "EN55032, EN55035"
+      ],
+      [
+        "UL",
+        ""
+      ],
+      [
+        "CE",
+        ""
+      ],
+      [
+        "UKCA",
+        ""
+      ],
+      [
+        "TÜV",
+        ""
+      ],
+      [
+        "Production standards",
+        "ISO 9001 & ISO 14001"
+      ],
+      [
+        "Flammability",
+        "UL 94 V-0"
+      ],
+      [
+        "REACH",
+        ""
+      ],
+      [
+        "RoHS",
+        ""
+      ],
+      [
+        "CMRT",
+        ""
+      ],
+      [
+        "EMRT",
+        ""
+      ],
+      [
+        "Ingress protection",
+        "IP50"
+      ],
+      [
+        "Operating temperature",
+        "-10°C to +60°C"
+      ],
+      [
+        "Operating humidity",
+        "15 – 90 %"
+      ],
+      [
+        "Storage temperature",
+        "-20°C to +65°C"
+      ],
+      [
+        "Storage humidity",
+        "15 – 90 %"
+      ],
+      [
+        "MTTF",
+        "> 150,000 h"
+      ],
+      [
+        "Locked rotor protection",
+        "Auto power off after locked at rated voltage for 1 sec. After auto power off, the circuit attempts to restart in 2 to 6 sec."
+      ],
+      [
+        "Polarity protection",
+        "Open circuit when Vcc & GND are exchanged. Circuit won't be burned within 5 sec when Vcc & GND are exchanged."
+      ],
+      [
+        "Overvoltage protection",
+        ""
+      ],
+      [
+        "Overcurrent protection",
+        ""
+      ],
+      [
+        "Insulation resistance",
+        "10 MΩ / between unshielded wire and frame at 500 VDC/min"
+      ],
+      [
+        "Dielectric strength",
+        "5 mA max. / measured between lead wire (+) and frame at 500 VAC/min"
+      ],
+      [
+        "Packaging weight (including product)",
+        "362 g"
+      ],
+      [
+        "EAN",
+        "9010018100396"
+      ],
+      [
+        "UPC",
+        "841501110399"
+      ],
+      [
+        "Packaging unit",
+        "36 pcs"
+      ],
+      [
+        "Packaging unit weight",
+        "14.76 kg"
+      ]
+    ],
+    "source": "https://www.noctua.at/en/products/nf-a12x25-pwm/specifications",
+    "title": "NF-A12x25 PWM"
+  },
+  "nf-a12x25-g2-pwm": {
+    "images": [
+      {
+        "alt": "",
+        "src": "https://www.noctua.at/_next/image?url=https%3A%2F%2Fcdn.noctua.at%2Fmedia%2Fnoctua_nf_a12x25_g2_pwm.png&w=640&q=75"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/next_generation_performance_light.svg"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/nf-a12x25_g2_light.svg"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/highly_optimised_p_q_curve_light.svg"
+      }
+    ],
+    "rows": [
+      [
+        "Size (Form factor)",
+        "120 x 120 x 25 mm (square)"
+      ],
+      [
+        "Speed range",
+        "0 – 1800 rpm"
+      ],
+      [
+        "Airflow (max.)",
+        "107.3 m³/h (63.15 CFM)"
+      ],
+      [
+        "Acoustical noise (max.)",
+        "22.5 dB(A)"
+      ],
+      [
+        "Static pressure (max.)",
+        "3.14 mm H₂O"
+      ],
+      [
+        "Rated voltage",
+        "12 V"
+      ],
+      [
+        "Connector",
+        "4-pin"
+      ],
+      [
+        "Colour",
+        "Brown"
+      ],
+      [
+        "Warranty",
+        "6 years"
+      ],
+      [
+        "Dimensions without anti-vibration pads",
+        "120 x 120 x 25 mm"
+      ],
+      [
+        "Dimensions with anti-vibration pads",
+        "120 x 120 x 27 mm"
+      ],
+      [
+        "Frame shape",
+        "Square"
+      ],
+      [
+        "Mounting hole spacing(s)",
+        "105 x 105 mm"
+      ],
+      [
+        "Weight",
+        "195 g"
+      ],
+      [
+        "Material frame",
+        "PBT ABS GF30"
+      ],
+      [
+        "Material impeller",
+        "LCP GF30"
+      ],
+      [
+        "Material anti-vibration pads",
+        "Silicone rubber"
+      ],
+      [
+        "Bearing",
+        "SSO2"
+      ],
+      [
+        "Rotational direction",
+        "Counter-clockwise"
+      ],
+      [
+        "Frame colour",
+        "Beige"
+      ],
+      [
+        "Impeller colour",
+        "Brown"
+      ],
+      [
+        "Anti-vibration pads colour",
+        "Brown"
+      ],
+      [
+        "Connector type",
+        "A2543-4PIN (or equal)"
+      ],
+      [
+        "Cable length",
+        "200 mm"
+      ],
+      [
+        "Cable length with extension cable (included)",
+        "500 mm"
+      ],
+      [
+        "Wire",
+        "26 AWG"
+      ],
+      [
+        "Sleeving",
+        "Fibreglass silicone mesh"
+      ],
+      [
+        "Rotational speed (max.)",
+        "1800 rpm"
+      ],
+      [
+        "Rotational speed with LNA (max.)",
+        "1500 rpm"
+      ],
+      [
+        "Rotational speed @ 20% PWM",
+        "360 rpm"
+      ],
+      [
+        "Rotational speed @ 0% PWM",
+        "0 rpm"
+      ],
+      [
+        "Acoustical noise (max.)",
+        "22.5 dB(A)"
+      ],
+      [
+        "Acoustical noise with LNA (max.)",
+        "18.1 dB(A)"
+      ],
+      [
+        "Airflow (max.)",
+        "107.3 m³/h (63.15 CFM)"
+      ],
+      [
+        "Airflow with LNA (max.)",
+        "87.2 m³/h (51.32 CFM)"
+      ],
+      [
+        "Static pressure (max.)",
+        "3.14 mm H₂O"
+      ],
+      [
+        "Static pressure with LNA (max.)",
+        "1.71 mm H₂O"
+      ],
+      [
+        "Motor type (phases)",
+        "Single phase"
+      ],
+      [
+        "Poles",
+        "4"
+      ],
+      [
+        "Slots",
+        "4"
+      ],
+      [
+        "Driver IC",
+        "NE-FD6"
+      ],
+      [
+        "SupraTorque™",
+        ""
+      ],
+      [
+        "Rated voltage",
+        "12 V"
+      ],
+      [
+        "Starting voltage",
+        "7 V"
+      ],
+      [
+        "Max. operating voltage",
+        "13.2 V"
+      ],
+      [
+        "Pin configuration",
+        ""
+      ],
+      [
+        "Pin 1",
+        "Black: Ground (GND)"
+      ],
+      [
+        "Pin 2",
+        "Yellow: Voltage (Vcc)"
+      ],
+      [
+        "Pin 3",
+        "Green: RPM Signal"
+      ],
+      [
+        "Pin 4",
+        "Blue: PWM Signal"
+      ],
+      [
+        "Input power (max)",
+        "1.8 W"
+      ],
+      [
+        "Input current (max)",
+        "0.15 A"
+      ],
+      [
+        "Safety standards",
+        "EN62368-1"
+      ],
+      [
+        "EMC standards",
+        "EN55032, EN55035"
+      ],
+      [
+        "UL",
+        ""
+      ],
+      [
+        "CE",
+        ""
+      ],
+      [
+        "UKCA",
+        ""
+      ],
+      [
+        "TÜV",
+        ""
+      ],
+      [
+        "Production standards",
+        "ISO 9001 & ISO 14001"
+      ],
+      [
+        "Flammability",
+        "UL 94 V-0"
+      ],
+      [
+        "REACH",
+        ""
+      ],
+      [
+        "RoHS",
+        ""
+      ],
+      [
+        "CMRT",
+        ""
+      ],
+      [
+        "EMRT",
+        ""
+      ],
+      [
+        "Ingress protection",
+        "IP50"
+      ],
+      [
+        "Operating temperature",
+        "-10°C to +60°C"
+      ],
+      [
+        "Operating humidity",
+        "15 – 90 %"
+      ],
+      [
+        "Storage temperature",
+        "-20°C to +65°C"
+      ],
+      [
+        "Storage humidity",
+        "15 – 90 %"
+      ],
+      [
+        "MTTF",
+        "> 150,000 h"
+      ],
+      [
+        "Locked rotor protection",
+        "Auto power off after locked at rated voltage for 1 sec. After auto power off, the circuit attempts to restart in 2 to 6 sec."
+      ],
+      [
+        "Polarity protection",
+        "Open circuit when Vcc & GND are exchanged. Circuit won't be burned within 5 sec when Vcc & GND are exchanged."
+      ],
+      [
+        "Overvoltage protection",
+        ""
+      ],
+      [
+        "Overcurrent protection",
+        ""
+      ],
+      [
+        "Insulation resistance",
+        "10 MΩ / between unshielded wire and frame at 500 VDC/min"
+      ],
+      [
+        "Dielectric strength",
+        "5 mA max. / measured between lead wire (+) and frame at 500 VAC/min"
+      ],
+      [
+        "Packaging dimensions",
+        "184 x 130 x 33 mm"
+      ],
+      [
+        "Packaging weight (including product)",
+        "308 g"
+      ],
+      [
+        "EAN",
+        "9010018100686"
+      ],
+      [
+        "UPC",
+        "841501110689"
+      ],
+      [
+        "Packaging unit",
+        "40 pcs"
+      ],
+      [
+        "Packaging unit dimensions",
+        "397 x 376 x 302 mm"
+      ],
+      [
+        "Packaging unit weight",
+        "13.2 kg"
+      ]
+    ],
+    "source": "https://www.noctua.at/en/products/nf-a12x25-g2-pwm/specifications",
+    "title": "NF-A12x25 G2 PWM"
+  },
+  "nf-a14-pwm": {
+    "images": [
+      {
+        "alt": "",
+        "src": "https://www.noctua.at/_next/image?url=https%3A%2F%2Fcdn.noctua.at%2Fmedia%2Fnf_a14_1.jpg&w=640&q=75"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/award_winning_dark.svg"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/reduced_intake_noise_dark.svg"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/pwm_dark.svg"
+      }
+    ],
+    "rows": [
+      [
+        "Size (Form factor)",
+        "140 x 140 x 25 mm (square)"
+      ],
+      [
+        "Speed range",
+        "0 – 1500 rpm"
+      ],
+      [
+        "Airflow (max.)",
+        "140.2 m³/h (82.52 CFM)"
+      ],
+      [
+        "Acoustical noise (max.)",
+        "24.6 dB(A)"
+      ],
+      [
+        "Static pressure (max.)",
+        "2.08 mm H₂O"
+      ],
+      [
+        "Rated voltage",
+        "12 V"
+      ],
+      [
+        "Input power (typical)",
+        "1.19 W"
+      ],
+      [
+        "Connector",
+        "4-pin"
+      ],
+      [
+        "Colour",
+        "Brown"
+      ],
+      [
+        "Warranty",
+        "6 years"
+      ],
+      [
+        "Dimensions without anti-vibration pads",
+        "140 x 140 x 25 mm"
+      ],
+      [
+        "Dimensions with anti-vibration pads",
+        "141 x 141 x 27 mm"
+      ],
+      [
+        "Frame shape",
+        "Square"
+      ],
+      [
+        "Mounting hole spacing(s)",
+        "124.5 x 124.5 mm"
+      ],
+      [
+        "Weight",
+        "190 g"
+      ],
+      [
+        "Material frame",
+        "PBT GF30"
+      ],
+      [
+        "Material impeller",
+        "PBT GF30"
+      ],
+      [
+        "Material anti-vibration pads",
+        "Silicone rubber"
+      ],
+      [
+        "Bearing",
+        "SSO2"
+      ],
+      [
+        "Rotational direction",
+        "Counter-clockwise"
+      ],
+      [
+        "Frame colour",
+        "Beige"
+      ],
+      [
+        "Impeller colour",
+        "Brown"
+      ],
+      [
+        "Anti-vibration pads colour",
+        "Brown"
+      ],
+      [
+        "Connector type",
+        "A2543-4PIN (or equal)"
+      ],
+      [
+        "Cable length",
+        "200 mm"
+      ],
+      [
+        "Cable length with extension cable (included)",
+        "500 mm"
+      ],
+      [
+        "Wire",
+        "26 AWG"
+      ],
+      [
+        "Sleeving",
+        "Fibreglass silicone mesh"
+      ],
+      [
+        "Rotational speed (max.)",
+        "1500 rpm"
+      ],
+      [
+        "Rotational speed with LNA (max.)",
+        "1200 rpm"
+      ],
+      [
+        "Rotational speed @ 20% PWM",
+        "300 rpm"
+      ],
+      [
+        "Rotational speed @ 0% PWM",
+        "0 rpm"
+      ],
+      [
+        "Acoustical noise (max.)",
+        "24.6 dB(A)"
+      ],
+      [
+        "Acoustical noise with LNA (max.)",
+        "19.2 dB(A)"
+      ],
+      [
+        "Airflow (max.)",
+        "140.2 m³/h (82.52 CFM)"
+      ],
+      [
+        "Airflow with LNA (max.)",
+        "115.5 m³/h (67.98 CFM)"
+      ],
+      [
+        "Static pressure (max.)",
+        "2.08 mm H₂O"
+      ],
+      [
+        "Static pressure with LNA (max.)",
+        "1.51 mm H₂O"
+      ],
+      [
+        "Motor type (phases)",
+        "Single phase"
+      ],
+      [
+        "Poles",
+        "4"
+      ],
+      [
+        "Slots",
+        "4"
+      ],
+      [
+        "Driver IC",
+        "NE-FD1"
+      ],
+      [
+        "Rated voltage",
+        "12 V"
+      ],
+      [
+        "Starting voltage",
+        "7 V"
+      ],
+      [
+        "Max. operating voltage",
+        "13.2 V"
+      ],
+      [
+        "Pin configuration",
+        ""
+      ],
+      [
+        "Pin 1",
+        "Black: Ground (GND)"
+      ],
+      [
+        "Pin 2",
+        "Yellow: Voltage (Vcc)"
+      ],
+      [
+        "Pin 3",
+        "Green: RPM Signal"
+      ],
+      [
+        "Pin 4",
+        "Blue: PWM Signal"
+      ],
+      [
+        "Input power (max)",
+        "1.56 W"
+      ],
+      [
+        "Input power (typical)",
+        "1.19 W"
+      ],
+      [
+        "Input current (max)",
+        "0.13 A"
+      ],
+      [
+        "Input current (typical)",
+        "0.1 A"
+      ],
+      [
+        "Safety standards",
+        "EN62368-1"
+      ],
+      [
+        "EMC standards",
+        "EN55032, EN55035"
+      ],
+      [
+        "UL",
+        ""
+      ],
+      [
+        "CE",
+        ""
+      ],
+      [
+        "UKCA",
+        ""
+      ],
+      [
+        "TÜV",
+        ""
+      ],
+      [
+        "Production standards",
+        "ISO 9001 & ISO 14001"
+      ],
+      [
+        "Flammability",
+        "UL 94 V-0"
+      ],
+      [
+        "REACH",
+        ""
+      ],
+      [
+        "RoHS",
+        ""
+      ],
+      [
+        "CMRT",
+        ""
+      ],
+      [
+        "EMRT",
+        ""
+      ],
+      [
+        "Ingress protection",
+        "IP50"
+      ],
+      [
+        "Operating temperature",
+        "-10°C to +70°C"
+      ],
+      [
+        "Operating humidity",
+        "15 – 90 %"
+      ],
+      [
+        "Storage temperature",
+        "-20°C to +75°C"
+      ],
+      [
+        "Storage humidity",
+        "15 – 90 %"
+      ],
+      [
+        "MTTF",
+        "> 150,000 h"
+      ],
+      [
+        "Locked rotor protection",
+        "Auto power off after locked at rated voltage for 1 sec. After auto power off, the circuit attempts to restart in 2 to 6 sec."
+      ],
+      [
+        "Polarity protection",
+        "Open circuit when Vcc & GND are exchanged. Circuit won't be burned within 5 sec when Vcc & GND are exchanged."
+      ],
+      [
+        "Overvoltage protection",
+        ""
+      ],
+      [
+        "Overcurrent protection",
+        ""
+      ],
+      [
+        "Insulation resistance",
+        "10 MΩ / between unshielded wire and frame at 500 VDC/min"
+      ],
+      [
+        "Dielectric strength",
+        "5 mA max. / measured between lead wire (+) and frame at 500 VAC/min"
+      ],
+      [
+        "Packaging weight (including product)",
+        "370 g"
+      ],
+      [
+        "EAN",
+        "4716123314981"
+      ],
+      [
+        "UPC",
+        "842431014337"
+      ],
+      [
+        "Packaging unit",
+        "40 pcs"
+      ],
+      [
+        "Packaging unit weight",
+        "15.2 kg"
+      ]
+    ],
+    "source": "https://www.noctua.at/en/products/nf-a14-pwm/specifications",
+    "title": "NF-A14 PWM"
+  },
+  "nf-a14x25-g2-pwm": {
+    "images": [
+      {
+        "alt": "",
+        "src": "https://www.noctua.at/_next/image?url=https%3A%2F%2Fcdn.noctua.at%2Fmedia%2Fnoctua_nf_a14x25_g2_launch.png&w=640&q=75"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/next_generation_performance_light.svg"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/nf-a14x25_g2_light.svg"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/highly_optimised_p_q_curve_light.svg"
+      }
+    ],
+    "rows": [
+      [
+        "Size (Form factor)",
+        "140 x 140 x 25 mm (square)"
+      ],
+      [
+        "Speed range",
+        "0 – 1500 rpm"
+      ],
+      [
+        "Airflow (max.)",
+        "155.6 m³/h (91.58 CFM)"
+      ],
+      [
+        "Acoustical noise (max.)",
+        "24.8 dB(A)"
+      ],
+      [
+        "Static pressure (max.)",
+        "2.56 mm H₂O"
+      ],
+      [
+        "Rated voltage",
+        "12 V"
+      ],
+      [
+        "Connector",
+        "4-pin"
+      ],
+      [
+        "Colour",
+        "Brown"
+      ],
+      [
+        "Warranty",
+        "6 years"
+      ],
+      [
+        "Dimensions without anti-vibration pads",
+        "140 x 140 x 25 mm"
+      ],
+      [
+        "Dimensions with anti-vibration pads",
+        "140 x 140 x 27 mm"
+      ],
+      [
+        "Frame shape",
+        "Square"
+      ],
+      [
+        "Mounting hole spacing(s)",
+        "124.5 x 124.5 mm"
+      ],
+      [
+        "Weight",
+        "225 g"
+      ],
+      [
+        "Material frame",
+        "PBT ABS GF30"
+      ],
+      [
+        "Material impeller",
+        "LCP GF30"
+      ],
+      [
+        "Material anti-vibration pads",
+        "Silicone rubber"
+      ],
+      [
+        "Bearing",
+        "SSO2"
+      ],
+      [
+        "Rotational direction",
+        "Counter-clockwise"
+      ],
+      [
+        "Frame colour",
+        "Beige"
+      ],
+      [
+        "Impeller colour",
+        "Brown"
+      ],
+      [
+        "Anti-vibration pads colour",
+        "Brown"
+      ],
+      [
+        "Connector type",
+        "A2543-4PIN (or equal)"
+      ],
+      [
+        "Cable length",
+        "200 mm"
+      ],
+      [
+        "Cable length with extension cable (included)",
+        "500 mm"
+      ],
+      [
+        "Wire",
+        "26 AWG"
+      ],
+      [
+        "Sleeving",
+        "Fibreglass silicone mesh"
+      ],
+      [
+        "Rotational speed (max.)",
+        "1500 rpm"
+      ],
+      [
+        "Rotational speed with LNA (max.)",
+        "1250 rpm"
+      ],
+      [
+        "Rotational speed @ 20% PWM",
+        "300 rpm"
+      ],
+      [
+        "Rotational speed @ 0% PWM",
+        "0 rpm"
+      ],
+      [
+        "Acoustical noise (max.)",
+        "24.8 dB(A)"
+      ],
+      [
+        "Acoustical noise with LNA (max.)",
+        "19.7 dB(A)"
+      ],
+      [
+        "Airflow (max.)",
+        "155.6 m³/h (91.58 CFM)"
+      ],
+      [
+        "Airflow with LNA (max.)",
+        "127.1 m³/h (74.81 CFM)"
+      ],
+      [
+        "Static pressure (max.)",
+        "2.56 mm H₂O"
+      ],
+      [
+        "Static pressure with LNA (max.)",
+        "1.3 mm H₂O"
+      ],
+      [
+        "Motor type (phases)",
+        "Single phase"
+      ],
+      [
+        "Poles",
+        "4"
+      ],
+      [
+        "Slots",
+        "4"
+      ],
+      [
+        "Driver IC",
+        "NE-FD6"
+      ],
+      [
+        "SupraTorque™",
+        ""
+      ],
+      [
+        "Rated voltage",
+        "12 V"
+      ],
+      [
+        "Starting voltage",
+        "7 V"
+      ],
+      [
+        "Max. operating voltage",
+        "13.2 V"
+      ],
+      [
+        "Pin configuration",
+        ""
+      ],
+      [
+        "Pin 1",
+        "Black: Ground (GND)"
+      ],
+      [
+        "Pin 2",
+        "Yellow: Voltage (Vcc)"
+      ],
+      [
+        "Pin 3",
+        "Green: RPM Signal"
+      ],
+      [
+        "Pin 4",
+        "Blue: PWM Signal"
+      ],
+      [
+        "Input power (max)",
+        "2.28 W"
+      ],
+      [
+        "Input current (max)",
+        "0.19 A"
+      ],
+      [
+        "Safety standards",
+        "EN62368-1"
+      ],
+      [
+        "EMC standards",
+        "EN55032, EN55035"
+      ],
+      [
+        "UL",
+        ""
+      ],
+      [
+        "CE",
+        ""
+      ],
+      [
+        "UKCA",
+        ""
+      ],
+      [
+        "TÜV",
+        ""
+      ],
+      [
+        "Production standards",
+        "ISO 9001 & ISO 14001"
+      ],
+      [
+        "Flammability",
+        "UL 94 V-0"
+      ],
+      [
+        "REACH",
+        ""
+      ],
+      [
+        "RoHS",
+        ""
+      ],
+      [
+        "CMRT",
+        ""
+      ],
+      [
+        "EMRT",
+        ""
+      ],
+      [
+        "Ingress protection",
+        "IP50"
+      ],
+      [
+        "Operating temperature",
+        "-10°C to +60°C"
+      ],
+      [
+        "Operating humidity",
+        "15 – 90 %"
+      ],
+      [
+        "Storage temperature",
+        "-20°C to +75°C"
+      ],
+      [
+        "Storage humidity",
+        "15 – 90 %"
+      ],
+      [
+        "MTTF",
+        "> 150,000 h"
+      ],
+      [
+        "Locked rotor protection",
+        "Auto power off after locked at rated voltage for 1 sec. After auto power off, the circuit attempts to restart in 2 to 6 sec."
+      ],
+      [
+        "Polarity protection",
+        "Open circuit when Vcc & GND are exchanged. Circuit won't be burned within 5 sec when Vcc & GND are exchanged."
+      ],
+      [
+        "Overvoltage protection",
+        ""
+      ],
+      [
+        "Overcurrent protection",
+        ""
+      ],
+      [
+        "Insulation resistance",
+        "10 MΩ / between unshielded wire and frame at 500 VDC/min"
+      ],
+      [
+        "Dielectric strength",
+        "5 mA max. / measured between lead wire (+) and frame at 500 VAC/min"
+      ],
+      [
+        "Packaging dimensions",
+        "199 x 148 x 33 mm"
+      ],
+      [
+        "Packaging weight (including product)",
+        "362 g"
+      ],
+      [
+        "EAN",
+        "9010018100617"
+      ],
+      [
+        "UPC",
+        "841501110610"
+      ],
+      [
+        "Packaging unit",
+        "40 pcs"
+      ],
+      [
+        "Packaging unit dimensions",
+        "425 x 373 x 342 mm"
+      ],
+      [
+        "Packaging unit weight",
+        "15.4 kg"
+      ]
+    ],
+    "source": "https://www.noctua.at/en/products/nf-a14x25-g2-pwm/specifications",
+    "title": "NF-A14x25 G2 PWM"
+  },
+  "nf-a14x25-g2-ls-pwm": {
+    "images": [
+      {
+        "alt": "",
+        "src": "https://www.noctua.at/_next/image?url=https%3A%2F%2Fcdn.noctua.at%2Fmedia%2Fnoctua_nf_a14x25_g2_launch-1.png&w=640&q=75"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/next_generation_performance_light.svg"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/nf-a14x25_g2_light.svg"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/ls-pwm_light.svg"
+      }
+    ],
+    "rows": [
+      [
+        "Size (Form factor)",
+        "140 x 140 x 25 mm (square)"
+      ],
+      [
+        "Speed range",
+        "0 – 800 rpm"
+      ],
+      [
+        "Airflow (max.)",
+        "81.6 m³/h (48.03 CFM)"
+      ],
+      [
+        "Acoustical noise (max.)",
+        "11.4 dB(A)"
+      ],
+      [
+        "Static pressure (max.)",
+        "0.71 mm H₂O"
+      ],
+      [
+        "Rated voltage",
+        "12 V"
+      ],
+      [
+        "Connector",
+        "4-pin"
+      ],
+      [
+        "Colour",
+        "Brown"
+      ],
+      [
+        "Warranty",
+        "6 years"
+      ],
+      [
+        "Dimensions without anti-vibration pads",
+        "140 x 140 x 25 mm"
+      ],
+      [
+        "Dimensions with anti-vibration pads",
+        "140 x 140 x 27 mm"
+      ],
+      [
+        "Frame shape",
+        "Square"
+      ],
+      [
+        "Mounting hole spacing(s)",
+        "124.5 x 124.5 mm"
+      ],
+      [
+        "Weight",
+        "225 g"
+      ],
+      [
+        "Material frame",
+        "PBT ABS GF30"
+      ],
+      [
+        "Material impeller",
+        "LCP GF30"
+      ],
+      [
+        "Material anti-vibration pads",
+        "Silicone rubber"
+      ],
+      [
+        "Bearing",
+        "SSO2"
+      ],
+      [
+        "Rotational direction",
+        "Counter-clockwise"
+      ],
+      [
+        "Frame colour",
+        "Beige"
+      ],
+      [
+        "Impeller colour",
+        "Brown"
+      ],
+      [
+        "Anti-vibration pads colour",
+        "Brown"
+      ],
+      [
+        "Connector type",
+        "A2543-4PIN (or equal)"
+      ],
+      [
+        "Cable length",
+        "200 mm"
+      ],
+      [
+        "Cable length with extension cable (included)",
+        "500 mm"
+      ],
+      [
+        "Wire",
+        "26 AWG"
+      ],
+      [
+        "Sleeving",
+        "Fibreglass silicone mesh"
+      ],
+      [
+        "Rotational speed (max.)",
+        "800 rpm"
+      ],
+      [
+        "Rotational speed with LNA (max.)",
+        "600 rpm"
+      ],
+      [
+        "Rotational speed @ 0% PWM",
+        "0 rpm"
+      ],
+      [
+        "Acoustical noise (max.)",
+        "11.4 dB(A)"
+      ],
+      [
+        "Acoustical noise with LNA (max.)",
+        "8.6 dB(A)"
+      ],
+      [
+        "Airflow (max.)",
+        "81.6 m³/h (48.03 CFM)"
+      ],
+      [
+        "Airflow with LNA (max.)",
+        "67.5 m³/h (39.73 CFM)"
+      ],
+      [
+        "Static pressure (max.)",
+        "0.71 mm H₂O"
+      ],
+      [
+        "Static pressure with LNA (max.)",
+        "0.43 mm H₂O"
+      ],
+      [
+        "Motor type (phases)",
+        "Single phase"
+      ],
+      [
+        "Poles",
+        "4"
+      ],
+      [
+        "Slots",
+        "4"
+      ],
+      [
+        "Driver IC",
+        "NE-FD6"
+      ],
+      [
+        "SupraTorque™",
+        ""
+      ],
+      [
+        "Rated voltage",
+        "12 V"
+      ],
+      [
+        "Starting voltage",
+        "7 V"
+      ],
+      [
+        "Max. operating voltage",
+        "13.2 V"
+      ],
+      [
+        "Pin configuration",
+        ""
+      ],
+      [
+        "Pin 1",
+        "Black: Ground (GND)"
+      ],
+      [
+        "Pin 2",
+        "Yellow: Voltage (Vcc)"
+      ],
+      [
+        "Pin 3",
+        "Green: RPM Signal"
+      ],
+      [
+        "Pin 4",
+        "Blue: PWM Signal"
+      ],
+      [
+        "Input power (max)",
+        "0.48 W"
+      ],
+      [
+        "Input current (max)",
+        "0.04 A"
+      ],
+      [
+        "Safety standards",
+        "EN62368-1"
+      ],
+      [
+        "EMC standards",
+        "EN55032, EN55035"
+      ],
+      [
+        "UL",
+        ""
+      ],
+      [
+        "CE",
+        ""
+      ],
+      [
+        "UKCA",
+        ""
+      ],
+      [
+        "TÜV",
+        ""
+      ],
+      [
+        "Production standards",
+        "ISO 9001 & ISO 14001"
+      ],
+      [
+        "Flammability",
+        "UL 94 V-0"
+      ],
+      [
+        "REACH",
+        ""
+      ],
+      [
+        "RoHS",
+        ""
+      ],
+      [
+        "CMRT",
+        ""
+      ],
+      [
+        "EMRT",
+        ""
+      ],
+      [
+        "Ingress protection",
+        "IP50"
+      ],
+      [
+        "Operating temperature",
+        "-10°C to +60°C"
+      ],
+      [
+        "Operating humidity",
+        "15 – 90 %"
+      ],
+      [
+        "Storage temperature",
+        "-20°C to +75°C"
+      ],
+      [
+        "Storage humidity",
+        "15 – 90 %"
+      ],
+      [
+        "MTTF",
+        "> 150,000 h"
+      ],
+      [
+        "Locked rotor protection",
+        "Auto power off after locked at rated voltage for 1 sec. After auto power off, the circuit attempts to restart in 2 to 6 sec."
+      ],
+      [
+        "Polarity protection",
+        "Open circuit when Vcc & GND are exchanged. Circuit won't be burned within 5 sec when Vcc & GND are exchanged."
+      ],
+      [
+        "Overvoltage protection",
+        ""
+      ],
+      [
+        "Overcurrent protection",
+        ""
+      ],
+      [
+        "Insulation resistance",
+        "10 MΩ / between unshielded wire and frame at 500 VDC/min"
+      ],
+      [
+        "Dielectric strength",
+        "5 mA max. / measured between lead wire (+) and frame at 500 VAC/min"
+      ],
+      [
+        "Packaging dimensions",
+        "199 x 148 x 33 mm"
+      ],
+      [
+        "Packaging weight (including product)",
+        "365 g"
+      ],
+      [
+        "EAN",
+        "9010018100624"
+      ],
+      [
+        "UPC",
+        "841501110627"
+      ],
+      [
+        "Packaging unit",
+        "40 pcs"
+      ],
+      [
+        "Packaging unit dimensions",
+        "425 x 373 x 342 mm"
+      ],
+      [
+        "Packaging unit weight",
+        "15.4 kg"
+      ]
+    ],
+    "source": "https://www.noctua.at/en/products/nf-a14x25-g2-ls-pwm/specifications",
+    "title": "NF-A14x25 G2 LS-PWM"
+  },
+  "nf-a15-pwm": {
+    "images": [
+      {
+        "alt": "",
+        "src": "https://www.noctua.at/_next/image?url=https%3A%2F%2Fcdn.noctua.at%2Fmedia%2Fnoctua_nf_a15_pwm_1.jpg&w=640&q=75"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/round_140mm_frame_a14_dark.svg"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/sso2_bearing_dark.svg"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/pwm_dark.svg"
+      }
+    ],
+    "rows": [
+      [
+        "Size (Form factor)",
+        "140 x 150 x 25 mm (round)"
+      ],
+      [
+        "Speed range",
+        "0 – 1200 rpm"
+      ],
+      [
+        "Airflow (max.)",
+        "115.5 m³/h (67.98 CFM)"
+      ],
+      [
+        "Acoustical noise (max.)",
+        "19.2 dB(A)"
+      ],
+      [
+        "Static pressure (max.)",
+        "1.51 mm H₂O"
+      ],
+      [
+        "Rated voltage",
+        "12 V"
+      ],
+      [
+        "Input power (typical)",
+        "0.53 W"
+      ],
+      [
+        "Connector",
+        "4-pin"
+      ],
+      [
+        "Colour",
+        "Brown"
+      ],
+      [
+        "Warranty",
+        "6 years"
+      ],
+      [
+        "Dimensions without anti-vibration pads",
+        "140 x 140 x 25 mm"
+      ],
+      [
+        "Dimensions with anti-vibration pads",
+        "141 x 152 x 27 mm"
+      ],
+      [
+        "Frame shape",
+        "Round"
+      ],
+      [
+        "Mounting hole spacing(s)",
+        "105 x 105 mm"
+      ],
+      [
+        "Weight",
+        "170 g"
+      ],
+      [
+        "Material frame",
+        "PBT GF30"
+      ],
+      [
+        "Material impeller",
+        "PBT GF30"
+      ],
+      [
+        "Material anti-vibration pads",
+        "Silicone rubber"
+      ],
+      [
+        "Bearing",
+        "SSO2"
+      ],
+      [
+        "Rotational direction",
+        "Counter-clockwise"
+      ],
+      [
+        "Frame colour",
+        "Beige"
+      ],
+      [
+        "Impeller colour",
+        "Brown"
+      ],
+      [
+        "Anti-vibration pads colour",
+        "Brown"
+      ],
+      [
+        "Connector type",
+        "A2543-4PIN (or equal)"
+      ],
+      [
+        "Cable length",
+        "200 mm"
+      ],
+      [
+        "Cable length with extension cable (included)",
+        "500 mm"
+      ],
+      [
+        "Wire",
+        "26 AWG"
+      ],
+      [
+        "Sleeving",
+        "Fibreglass silicone mesh"
+      ],
+      [
+        "Rotational speed (max.)",
+        "1200 rpm"
+      ],
+      [
+        "Rotational speed with LNA (max.)",
+        "900 rpm"
+      ],
+      [
+        "Rotational speed @ 20% PWM",
+        "300 rpm"
+      ],
+      [
+        "Rotational speed @ 0% PWM",
+        "0 rpm"
+      ],
+      [
+        "Acoustical noise (max.)",
+        "19.2 dB(A)"
+      ],
+      [
+        "Acoustical noise with LNA (max.)",
+        "13.8 dB(A)"
+      ],
+      [
+        "Airflow (max.)",
+        "115.5 m³/h (67.98 CFM)"
+      ],
+      [
+        "Static pressure (max.)",
+        "1.51 mm H₂O"
+      ],
+      [
+        "Static pressure with LNA (max.)",
+        "0.89 mm H₂O"
+      ],
+      [
+        "Motor type (phases)",
+        "Single phase"
+      ],
+      [
+        "Poles",
+        "4"
+      ],
+      [
+        "Slots",
+        "4"
+      ],
+      [
+        "Driver IC",
+        "NE-FD1"
+      ],
+      [
+        "Rated voltage",
+        "12 V"
+      ],
+      [
+        "Starting voltage",
+        "7 V"
+      ],
+      [
+        "Max. operating voltage",
+        "13.2 V"
+      ],
+      [
+        "Pin configuration",
+        ""
+      ],
+      [
+        "Pin 1",
+        "Black: Ground (GND)"
+      ],
+      [
+        "Pin 2",
+        "Yellow: Voltage (Vcc)"
+      ],
+      [
+        "Pin 3",
+        "Green: RPM Signal"
+      ],
+      [
+        "Pin 4",
+        "Blue: PWM Signal"
+      ],
+      [
+        "Input power (max)",
+        "0.96 W"
+      ],
+      [
+        "Input power (typical)",
+        "0.53 W"
+      ],
+      [
+        "Input current (max)",
+        "0.08 A"
+      ],
+      [
+        "Input current (typical)",
+        "0.04 A"
+      ],
+      [
+        "Safety standards",
+        "EN62368-1"
+      ],
+      [
+        "EMC standards",
+        "EN55032, EN55035"
+      ],
+      [
+        "UL",
+        ""
+      ],
+      [
+        "CE",
+        ""
+      ],
+      [
+        "UKCA",
+        ""
+      ],
+      [
+        "TÜV",
+        ""
+      ],
+      [
+        "REACH",
+        ""
+      ],
+      [
+        "RoHS",
+        ""
+      ],
+      [
+        "CMRT",
+        ""
+      ],
+      [
+        "EMRT",
+        ""
+      ],
+      [
+        "Ingress protection",
+        "IP52"
+      ],
+      [
+        "Operating temperature",
+        "-10°C to +70°C"
+      ],
+      [
+        "Operating humidity",
+        "15 – 90 %"
+      ],
+      [
+        "Storage temperature",
+        "-20°C to +75°C"
+      ],
+      [
+        "Storage humidity",
+        "15 – 90 %"
+      ],
+      [
+        "MTTF",
+        "> 150,000 h"
+      ],
+      [
+        "Locked rotor protection",
+        "Auto power off after locked at rated voltage for 1 sec. After auto power off, the circuit attempts to restart in 2 to 6 sec."
+      ],
+      [
+        "Polarity protection",
+        "Open circuit when Vcc & GND are exchanged. Circuit won't be burned within 5 sec when Vcc & GND are exchanged."
+      ],
+      [
+        "Overvoltage protection",
+        ""
+      ],
+      [
+        "Overcurrent protection",
+        ""
+      ],
+      [
+        "Insulation resistance",
+        "10 MΩ / between unshielded wire and frame at 500 VDC/min"
+      ],
+      [
+        "Dielectric strength",
+        "5 mA max. / measured between lead wire (+) and frame at 500 VAC/min"
+      ],
+      [
+        "Packaging weight (including product)",
+        "340 g"
+      ],
+      [
+        "EAN",
+        "4716123314806"
+      ],
+      [
+        "UPC",
+        "842431014191"
+      ],
+      [
+        "Packaging unit",
+        "40 pcs"
+      ],
+      [
+        "Packaging unit weight",
+        "15.2 kg"
+      ]
+    ],
+    "source": "https://www.noctua.at/en/products/nf-a15-pwm/specifications",
+    "title": "NF-A15 PWM"
+  },
+  "nf-a20-pwm": {
+    "images": [
+      {
+        "alt": "",
+        "src": "https://www.noctua.at/_next/image?url=https%3A%2F%2Fcdn.noctua.at%2Fmedia%2Fnoctua_nf_a20_1.jpg&w=640&q=75"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/20cm_fan_dark.svg"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/sso2_bearing_dark.svg"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/pwm_dark.svg"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/static/images/warning.svg"
+      }
+    ],
+    "rows": [
+      [
+        "Size (Form factor)",
+        "200 x 200 x 30 mm"
+      ],
+      [
+        "Speed range",
+        "350 – 800 rpm"
+      ],
+      [
+        "Airflow (max.)",
+        "146.9 m³/h (86.46 CFM)"
+      ],
+      [
+        "Acoustical noise (max.)",
+        "18.1 dB(A)"
+      ],
+      [
+        "Static pressure (max.)",
+        "1.08 mm H₂O"
+      ],
+      [
+        "Rated voltage",
+        "12 V"
+      ],
+      [
+        "Input power (typical)",
+        "0.82 W"
+      ],
+      [
+        "Connector",
+        "4-pin"
+      ],
+      [
+        "Colour",
+        "Brown"
+      ],
+      [
+        "Warranty",
+        "6 years"
+      ],
+      [
+        "Dimensions without anti-vibration pads",
+        "200 x 200 x 30 mm"
+      ],
+      [
+        "Dimensions with anti-vibration pads",
+        "200 x 200 x 32 mm"
+      ],
+      [
+        "Frame shape",
+        "Square"
+      ],
+      [
+        "Mounting hole spacing(s)",
+        "170 x 170 mm, 154 x 154 mm, 110 x 180 mm"
+      ],
+      [
+        "Weight",
+        "370 g"
+      ],
+      [
+        "Material frame",
+        "PBT GF30"
+      ],
+      [
+        "Material impeller",
+        "PP GF10"
+      ],
+      [
+        "Material anti-vibration pads",
+        "Silicone rubber"
+      ],
+      [
+        "Bearing",
+        "SSO2"
+      ],
+      [
+        "Rotational direction",
+        "Counter-clockwise"
+      ],
+      [
+        "Frame colour",
+        "Beige"
+      ],
+      [
+        "Impeller colour",
+        "Brown"
+      ],
+      [
+        "Anti-vibration pads colour",
+        "Brown"
+      ],
+      [
+        "Connector type",
+        "A2543-4PIN (or equal)"
+      ],
+      [
+        "Cable length",
+        "200 mm"
+      ],
+      [
+        "Cable length with extension cable (included)",
+        "500 mm"
+      ],
+      [
+        "Wire",
+        "24 AWG"
+      ],
+      [
+        "Sleeving",
+        "Fibreglass silicone mesh"
+      ],
+      [
+        "Rotational speed (max.)",
+        "800 rpm"
+      ],
+      [
+        "Rotational speed with LNA (max.)",
+        "550 rpm"
+      ],
+      [
+        "Rotational speed @ 20% PWM",
+        "310 rpm"
+      ],
+      [
+        "Rotational speed @ 0% PWM",
+        "350 rpm"
+      ],
+      [
+        "Acoustical noise (max.)",
+        "18.1 dB(A)"
+      ],
+      [
+        "Acoustical noise with LNA (max.)",
+        "10.7 dB(A)"
+      ],
+      [
+        "Airflow (max.)",
+        "146.9 m³/h (86.46 CFM)"
+      ],
+      [
+        "Airflow with LNA (max.)",
+        "100.8 m³/h (59.33 CFM)"
+      ],
+      [
+        "Static pressure (max.)",
+        "1.08 mm H₂O"
+      ],
+      [
+        "Static pressure with LNA (max.)",
+        "0.51 mm H₂O"
+      ],
+      [
+        "Motor type (phases)",
+        "Single phase"
+      ],
+      [
+        "Poles",
+        "4"
+      ],
+      [
+        "Slots",
+        "4"
+      ],
+      [
+        "Driver IC",
+        "NE-FD1"
+      ],
+      [
+        "Rated voltage",
+        "12 V"
+      ],
+      [
+        "Starting voltage",
+        "11 V"
+      ],
+      [
+        "Max. operating voltage",
+        "13.2 V"
+      ],
+      [
+        "Pin configuration",
+        ""
+      ],
+      [
+        "Pin 1",
+        "Black: Ground (GND)"
+      ],
+      [
+        "Pin 2",
+        "Yellow: Voltage (Vcc)"
+      ],
+      [
+        "Pin 3",
+        "Green: RPM Signal"
+      ],
+      [
+        "Pin 4",
+        "Blue: PWM Signal"
+      ],
+      [
+        "Input power (max)",
+        "0.96 W"
+      ],
+      [
+        "Input power (typical)",
+        "0.82 W"
+      ],
+      [
+        "Input current (max)",
+        "0.08 A"
+      ],
+      [
+        "Input current (typical)",
+        "0.07 A"
+      ],
+      [
+        "Safety standards",
+        "EN62368-1"
+      ],
+      [
+        "EMC standards",
+        "EN55032, EN55035"
+      ],
+      [
+        "UL",
+        ""
+      ],
+      [
+        "CE",
+        ""
+      ],
+      [
+        "UKCA",
+        ""
+      ],
+      [
+        "TÜV",
+        ""
+      ],
+      [
+        "Production standards",
+        "ISO 9001 & ISO 14001"
+      ],
+      [
+        "Flammability",
+        "UL 94 V-0"
+      ],
+      [
+        "REACH",
+        ""
+      ],
+      [
+        "RoHS",
+        ""
+      ],
+      [
+        "CMRT",
+        ""
+      ],
+      [
+        "EMRT",
+        ""
+      ],
+      [
+        "Ingress protection",
+        "IP50"
+      ],
+      [
+        "Operating temperature",
+        "-10°C to +70°C"
+      ],
+      [
+        "Operating humidity",
+        "15 – 90 %"
+      ],
+      [
+        "Storage temperature",
+        "-20°C to +75°C"
+      ],
+      [
+        "Storage humidity",
+        "15 – 90 %"
+      ],
+      [
+        "MTTF",
+        "> 150,000 h"
+      ],
+      [
+        "Locked rotor protection",
+        "Auto power off after locked at rated voltage for 1 sec. After auto power off, the circuit attempts to restart in 2 to 6 sec."
+      ],
+      [
+        "Polarity protection",
+        "Open circuit when Vcc & GND are exchanged. Circuit won't be burned within 5 sec when Vcc & GND are exchanged."
+      ],
+      [
+        "Overvoltage protection",
+        ""
+      ],
+      [
+        "Overcurrent protection",
+        ""
+      ],
+      [
+        "Insulation resistance",
+        "10 MΩ / between unshielded wire and frame at 500 VDC/min"
+      ],
+      [
+        "Dielectric strength",
+        "5 mA max. / measured between lead wire (+) and frame at 500 VAC/min"
+      ],
+      [
+        "Packaging weight (including product)",
+        "705 g"
+      ],
+      [
+        "EAN",
+        "9010018100013"
+      ],
+      [
+        "UPC",
+        "841501110016"
+      ],
+      [
+        "Packaging unit",
+        "10 pcs"
+      ],
+      [
+        "Packaging unit weight",
+        "8.1 kg"
+      ]
+    ],
+    "source": "https://www.noctua.at/en/products/nf-a20-pwm/specifications",
+    "title": "NF-A20 PWM"
+  },
+  "nf-a20-flx": {
+    "images": [
+      {
+        "alt": "",
+        "src": "https://www.noctua.at/_next/image?url=https%3A%2F%2Fcdn.noctua.at%2Fmedia%2Fnoctua_nf_a20_1.jpg&w=640&q=75"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/20cm_fan_dark.svg"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/sso2_bearing_dark.svg"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/flx_dark.svg"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/static/images/warning.svg"
+      }
+    ],
+    "rows": [
+      [
+        "Size (Form factor)",
+        "200 x 200 x 30 mm"
+      ],
+      [
+        "Speed range",
+        "0 – 800 rpm"
+      ],
+      [
+        "Airflow (max.)",
+        "146.9 m³/h (86.46 CFM)"
+      ],
+      [
+        "Acoustical noise (max.)",
+        "18.1 dB(A)"
+      ],
+      [
+        "Static pressure (max.)",
+        "1.08 mm H₂O"
+      ],
+      [
+        "Rated voltage",
+        "12 V"
+      ],
+      [
+        "Input power (typical)",
+        "0.82 W"
+      ],
+      [
+        "Connector",
+        "3-pin"
+      ],
+      [
+        "Colour",
+        "Brown"
+      ],
+      [
+        "Warranty",
+        "6 years"
+      ],
+      [
+        "Dimensions without anti-vibration pads",
+        "200 x 200 x 30 mm"
+      ],
+      [
+        "Dimensions with anti-vibration pads",
+        "200 x 200 x 32 mm"
+      ],
+      [
+        "Frame shape",
+        "Square"
+      ],
+      [
+        "Mounting hole spacing(s)",
+        "170 x 170 mm, 154 x 154 mm, 110 x 180 mm"
+      ],
+      [
+        "Weight",
+        "370 g"
+      ],
+      [
+        "Material frame",
+        "PBT GF30"
+      ],
+      [
+        "Material impeller",
+        "PP GF10"
+      ],
+      [
+        "Material anti-vibration pads",
+        "Silicone rubber"
+      ],
+      [
+        "Bearing",
+        "SSO2"
+      ],
+      [
+        "Rotational direction",
+        "Counter-clockwise"
+      ],
+      [
+        "Frame colour",
+        "Beige"
+      ],
+      [
+        "Impeller colour",
+        "Brown"
+      ],
+      [
+        "Anti-vibration pads colour",
+        "Brown"
+      ],
+      [
+        "Connector type",
+        "2510-3PIN (or equal)"
+      ],
+      [
+        "Cable length",
+        "200 mm"
+      ],
+      [
+        "Cable length with extension cable (included)",
+        "500 mm"
+      ],
+      [
+        "Wire",
+        "24 AWG"
+      ],
+      [
+        "Sleeving",
+        "Fibreglass silicone mesh"
+      ],
+      [
+        "Included adaptors",
+        "P-ATA (Molex)"
+      ],
+      [
+        "Rotational speed (max.)",
+        "800 rpm"
+      ],
+      [
+        "Rotational speed with LNA (max.)",
+        "550 rpm"
+      ],
+      [
+        "Acoustical noise (max.)",
+        "18.1 dB(A)"
+      ],
+      [
+        "Acoustical noise with LNA (max.)",
+        "10.7 dB(A)"
+      ],
+      [
+        "Airflow (max.)",
+        "146.9 m³/h (86.46 CFM)"
+      ],
+      [
+        "Airflow with LNA (max.)",
+        "100.8 m³/h (59.33 CFM)"
+      ],
+      [
+        "Static pressure (max.)",
+        "1.08 mm H₂O"
+      ],
+      [
+        "Static pressure with LNA (max.)",
+        "0.51 mm H₂O"
+      ],
+      [
+        "Motor type (phases)",
+        "Single phase"
+      ],
+      [
+        "Poles",
+        "4"
+      ],
+      [
+        "Slots",
+        "4"
+      ],
+      [
+        "Rated voltage",
+        "12 V"
+      ],
+      [
+        "Starting voltage",
+        "11 V"
+      ],
+      [
+        "Max. operating voltage",
+        "13.2 V"
+      ],
+      [
+        "Pin configuration",
+        ""
+      ],
+      [
+        "Pin 1",
+        "Black: Ground (GND)"
+      ],
+      [
+        "Pin 2",
+        "Red: Voltage (Vcc)"
+      ],
+      [
+        "Pin 3",
+        "Yellow: RPM Signal"
+      ],
+      [
+        "Input power (max)",
+        "0.96 W"
+      ],
+      [
+        "Input power (typical)",
+        "0.82 W"
+      ],
+      [
+        "Input current (max)",
+        "0.08 A"
+      ],
+      [
+        "Input current (typical)",
+        "0.07 A"
+      ],
+      [
+        "Safety standards",
+        "EN62368-1"
+      ],
+      [
+        "EMC standards",
+        "EN55032, EN55035"
+      ],
+      [
+        "UL",
+        ""
+      ],
+      [
+        "CE",
+        ""
+      ],
+      [
+        "UKCA",
+        ""
+      ],
+      [
+        "TÜV",
+        ""
+      ],
+      [
+        "Production standards",
+        "ISO 9001 & ISO 14001"
+      ],
+      [
+        "Flammability",
+        "UL 94 V-0"
+      ],
+      [
+        "REACH",
+        ""
+      ],
+      [
+        "RoHS",
+        ""
+      ],
+      [
+        "CMRT",
+        ""
+      ],
+      [
+        "EMRT",
+        ""
+      ],
+      [
+        "Ingress protection",
+        "IP50"
+      ],
+      [
+        "Operating temperature",
+        "-10°C to +70°C"
+      ],
+      [
+        "Operating humidity",
+        "15 – 90 %"
+      ],
+      [
+        "Storage temperature",
+        "-20°C to +75°C"
+      ],
+      [
+        "Storage humidity",
+        "15 – 90 %"
+      ],
+      [
+        "MTTF",
+        "> 150,000 h"
+      ],
+      [
+        "Locked rotor protection",
+        "Auto power off after locked at rated voltage for 1 sec. After auto power off, the circuit attempts to restart in 2 to 6 sec."
+      ],
+      [
+        "Polarity protection",
+        "Open circuit when Vcc & GND are exchanged. Circuit won't be burned within 5 sec when Vcc & GND are exchanged."
+      ],
+      [
+        "Overvoltage protection",
+        ""
+      ],
+      [
+        "Overcurrent protection",
+        ""
+      ],
+      [
+        "Insulation resistance",
+        "10 MΩ / between unshielded wire and frame at 500 VDC/min"
+      ],
+      [
+        "Dielectric strength",
+        "5 mA max. / measured between lead wire (+) and frame at 500 VAC/min"
+      ],
+      [
+        "Packaging weight (including product)",
+        "705 g"
+      ],
+      [
+        "EAN",
+        "9010018100020"
+      ],
+      [
+        "UPC",
+        "841501110023"
+      ],
+      [
+        "Packaging unit",
+        "10 pcs"
+      ],
+      [
+        "Packaging unit weight",
+        "8.1 kg"
+      ]
+    ],
+    "source": "https://www.noctua.at/en/products/nf-a20-flx/specifications",
+    "title": "NF-A20 FLX"
+  },
+  "nf-a8-pwm": {
+    "images": [
+      {
+        "alt": "",
+        "src": "https://www.noctua.at/_next/image?url=https%3A%2F%2Fcdn.noctua.at%2Fmedia%2Fnf_a8_1.jpg&w=640&q=75"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/award_winning_dark.svg"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/reduced_intake_noise_dark.svg"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/pwm_dark.svg"
+      }
+    ],
+    "rows": [
+      [
+        "Size (Form factor)",
+        "80 x 80 x 25 mm"
+      ],
+      [
+        "Speed range",
+        "0 – 2200 rpm"
+      ],
+      [
+        "Airflow (max.)",
+        "55.5 m³/h (32.67 CFM)"
+      ],
+      [
+        "Acoustical noise (max.)",
+        "17.7 dB(A)"
+      ],
+      [
+        "Static pressure (max.)",
+        "2.37 mm H₂O"
+      ],
+      [
+        "Rated voltage",
+        "12 V"
+      ],
+      [
+        "Input power (typical)",
+        "0.75 W"
+      ],
+      [
+        "Connector",
+        "4-pin"
+      ],
+      [
+        "Colour",
+        "Brown"
+      ],
+      [
+        "Warranty",
+        "6 years"
+      ],
+      [
+        "Dimensions without anti-vibration pads",
+        "80 x 80 x 25 mm"
+      ],
+      [
+        "Dimensions with anti-vibration pads",
+        "81 x 81 x 27 mm"
+      ],
+      [
+        "Frame shape",
+        "Square"
+      ],
+      [
+        "Mounting hole spacing(s)",
+        "71.5 x 71.5 mm"
+      ],
+      [
+        "Weight",
+        "90 g"
+      ],
+      [
+        "Material frame",
+        "PBT GF30"
+      ],
+      [
+        "Material impeller",
+        "PBT GF30"
+      ],
+      [
+        "Material anti-vibration pads",
+        "Silicone rubber"
+      ],
+      [
+        "Bearing",
+        "SSO2"
+      ],
+      [
+        "Rotational direction",
+        "Counter-clockwise"
+      ],
+      [
+        "Frame colour",
+        "Beige"
+      ],
+      [
+        "Impeller colour",
+        "Brown"
+      ],
+      [
+        "Anti-vibration pads colour",
+        "Brown"
+      ],
+      [
+        "Connector type",
+        "A2543-4PIN (or equal)"
+      ],
+      [
+        "Cable length",
+        "200 mm"
+      ],
+      [
+        "Cable length with extension cable (included)",
+        "500 mm"
+      ],
+      [
+        "Wire",
+        "26 AWG"
+      ],
+      [
+        "Sleeving",
+        "Fibreglass silicone mesh"
+      ],
+      [
+        "Rotational speed (max.)",
+        "2200 rpm"
+      ],
+      [
+        "Rotational speed with LNA (max.)",
+        "1750 rpm"
+      ],
+      [
+        "Rotational speed @ 20% PWM",
+        "400 rpm"
+      ],
+      [
+        "Rotational speed @ 0% PWM",
+        "0 rpm"
+      ],
+      [
+        "Acoustical noise (max.)",
+        "17.7 dB(A)"
+      ],
+      [
+        "Acoustical noise with LNA (max.)",
+        "13.8 dB(A)"
+      ],
+      [
+        "Airflow (max.)",
+        "55.5 m³/h (32.67 CFM)"
+      ],
+      [
+        "Airflow with LNA (max.)",
+        "43.9 m³/h (25.84 CFM)"
+      ],
+      [
+        "Static pressure (max.)",
+        "2.37 mm H₂O"
+      ],
+      [
+        "Static pressure with LNA (max.)",
+        "1.54 mm H₂O"
+      ],
+      [
+        "Motor type (phases)",
+        "Single phase"
+      ],
+      [
+        "Poles",
+        "4"
+      ],
+      [
+        "Slots",
+        "4"
+      ],
+      [
+        "Driver IC",
+        "NE-FD1"
+      ],
+      [
+        "Rated voltage",
+        "12 V"
+      ],
+      [
+        "Starting voltage",
+        "7 V"
+      ],
+      [
+        "Max. operating voltage",
+        "13.2 V"
+      ],
+      [
+        "Pin configuration",
+        ""
+      ],
+      [
+        "Pin 1",
+        "Black: Ground (GND)"
+      ],
+      [
+        "Pin 2",
+        "Yellow: Voltage (Vcc)"
+      ],
+      [
+        "Pin 3",
+        "Green: RPM Signal"
+      ],
+      [
+        "Pin 4",
+        "Blue: PWM Signal"
+      ],
+      [
+        "Input power (max)",
+        "0.96 W"
+      ],
+      [
+        "Input power (typical)",
+        "0.75 W"
+      ],
+      [
+        "Input current (max)",
+        "0.08 A"
+      ],
+      [
+        "Input current (typical)",
+        "0.06 A"
+      ],
+      [
+        "Safety standards",
+        "EN62368-1"
+      ],
+      [
+        "EMC standards",
+        "EN55032, EN55035"
+      ],
+      [
+        "UL",
+        ""
+      ],
+      [
+        "CE",
+        ""
+      ],
+      [
+        "UKCA",
+        ""
+      ],
+      [
+        "Production standards",
+        "ISO 9001 & ISO 14001"
+      ],
+      [
+        "Flammability",
+        "UL 94 V-0"
+      ],
+      [
+        "REACH",
+        ""
+      ],
+      [
+        "RoHS",
+        ""
+      ],
+      [
+        "CMRT",
+        ""
+      ],
+      [
+        "EMRT",
+        ""
+      ],
+      [
+        "Ingress protection",
+        "IP50"
+      ],
+      [
+        "Operating temperature",
+        "-10°C to +70°C"
+      ],
+      [
+        "Operating humidity",
+        "15 – 90 %"
+      ],
+      [
+        "Storage temperature",
+        "-20°C to +75°C"
+      ],
+      [
+        "Storage humidity",
+        "15 – 90 %"
+      ],
+      [
+        "MTTF",
+        "> 150,000 h"
+      ],
+      [
+        "Locked rotor protection",
+        "Auto power off after locked at rated voltage for 1 sec. After auto power off, the circuit attempts to restart in 2 to 6 sec."
+      ],
+      [
+        "Polarity protection",
+        "Open circuit when Vcc & GND are exchanged. Circuit won't be burned within 5 sec when Vcc & GND are exchanged."
+      ],
+      [
+        "Overvoltage protection",
+        ""
+      ],
+      [
+        "Overcurrent protection",
+        ""
+      ],
+      [
+        "Insulation resistance",
+        "10 MΩ / between unshielded wire and frame at 500 VDC/min"
+      ],
+      [
+        "Dielectric strength",
+        "5 mA max. / measured between lead wire (+) and frame at 500 VAC/min"
+      ],
+      [
+        "Packaging weight (including product)",
+        "245 g"
+      ],
+      [
+        "EAN",
+        "4716123315476"
+      ],
+      [
+        "UPC",
+        "842431014436"
+      ],
+      [
+        "Packaging unit",
+        "40 pcs"
+      ],
+      [
+        "Packaging unit weight",
+        "11.3 kg"
+      ]
+    ],
+    "source": "https://www.noctua.at/en/products/nf-a8-pwm/specifications",
+    "title": "NF-A8 PWM"
+  },
+  "nf-a9x14-pwm": {
+    "images": [
+      {
+        "alt": "",
+        "src": "https://www.noctua.at/_next/image?url=https%3A%2F%2Fcdn.noctua.at%2Fmedia%2Fnoctua_nf_a9x14_pwm_3.jpg&w=640&q=75"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/slim_design_dark.svg"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/reduced_intake_noise_dark.svg"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/pwm_dark.svg"
+      }
+    ],
+    "rows": [
+      [
+        "Size (Form factor)",
+        "92 x 92 x 14 mm"
+      ],
+      [
+        "Speed range",
+        "0 – 2200 rpm"
+      ],
+      [
+        "Airflow (max.)",
+        "50.5 m³/h (29.72 CFM)"
+      ],
+      [
+        "Acoustical noise (max.)",
+        "19.9 dB(A)"
+      ],
+      [
+        "Static pressure (max.)",
+        "1.64 mm H₂O"
+      ],
+      [
+        "Rated voltage",
+        "12 V"
+      ],
+      [
+        "Input power (typical)",
+        "1.32 W"
+      ],
+      [
+        "Connector",
+        "4-pin"
+      ],
+      [
+        "Colour",
+        "Brown"
+      ],
+      [
+        "Warranty",
+        "6 years"
+      ],
+      [
+        "Dimensions without anti-vibration pads",
+        "92 x 92 x 14 mm"
+      ],
+      [
+        "Dimensions with anti-vibration pads",
+        "92 x 92 x 15 mm"
+      ],
+      [
+        "Frame shape",
+        "Square"
+      ],
+      [
+        "Mounting hole spacing(s)",
+        "82.5 x 82.5 mm"
+      ],
+      [
+        "Weight",
+        "70 g"
+      ],
+      [
+        "Material frame",
+        "PBT GF30"
+      ],
+      [
+        "Material impeller",
+        "PBT GF30"
+      ],
+      [
+        "Material anti-vibration pads",
+        "Silicone rubber"
+      ],
+      [
+        "Bearing",
+        "SSO2"
+      ],
+      [
+        "Rotational direction",
+        "Counter-clockwise"
+      ],
+      [
+        "Frame colour",
+        "Beige"
+      ],
+      [
+        "Impeller colour",
+        "Brown"
+      ],
+      [
+        "Anti-vibration pads colour",
+        "Brown"
+      ],
+      [
+        "Connector type",
+        "A2543-4PIN (or equal)"
+      ],
+      [
+        "Cable length",
+        "200 mm"
+      ],
+      [
+        "Cable length with extension cable (included)",
+        "500 mm"
+      ],
+      [
+        "Wire",
+        "26 AWG"
+      ],
+      [
+        "Sleeving",
+        "Fibreglass silicone mesh"
+      ],
+      [
+        "Rotational speed (max.)",
+        "2200 rpm"
+      ],
+      [
+        "Rotational speed with LNA (max.)",
+        "1700 rpm"
+      ],
+      [
+        "Rotational speed @ 20% PWM",
+        "550 rpm"
+      ],
+      [
+        "Rotational speed @ 0% PWM",
+        "0 rpm"
+      ],
+      [
+        "Acoustical noise (max.)",
+        "19.9 dB(A)"
+      ],
+      [
+        "Acoustical noise with LNA (max.)",
+        "13.5 dB(A)"
+      ],
+      [
+        "Airflow (max.)",
+        "50.5 m³/h (29.72 CFM)"
+      ],
+      [
+        "Airflow with LNA (max.)",
+        "38.1 m³/h (22.42 CFM)"
+      ],
+      [
+        "Static pressure (max.)",
+        "1.64 mm H₂O"
+      ],
+      [
+        "Static pressure with LNA (max.)",
+        "0.92 mm H₂O"
+      ],
+      [
+        "Motor type (phases)",
+        "Single phase"
+      ],
+      [
+        "Poles",
+        "4"
+      ],
+      [
+        "Slots",
+        "4"
+      ],
+      [
+        "Driver IC",
+        "NE-FD1"
+      ],
+      [
+        "Rated voltage",
+        "12 V"
+      ],
+      [
+        "Starting voltage",
+        "7 V"
+      ],
+      [
+        "Max. operating voltage",
+        "13.2 V"
+      ],
+      [
+        "Pin configuration",
+        ""
+      ],
+      [
+        "Pin 1",
+        "Black: Ground (GND)"
+      ],
+      [
+        "Pin 2",
+        "Yellow: Voltage (Vcc)"
+      ],
+      [
+        "Pin 3",
+        "Green: RPM Signal"
+      ],
+      [
+        "Pin 4",
+        "Blue: PWM Signal"
+      ],
+      [
+        "Input power (max)",
+        "1.32 W"
+      ],
+      [
+        "Input power (typical)",
+        "1.32 W"
+      ],
+      [
+        "Input current (max)",
+        "0.11 A"
+      ],
+      [
+        "Input current (typical)",
+        "0.11 A"
+      ],
+      [
+        "Safety standards",
+        "EN62368-1"
+      ],
+      [
+        "EMC standards",
+        "EN55032, EN55035"
+      ],
+      [
+        "UL",
+        ""
+      ],
+      [
+        "CE",
+        ""
+      ],
+      [
+        "UKCA",
+        ""
+      ],
+      [
+        "TÜV",
+        ""
+      ],
+      [
+        "Production standards",
+        "ISO 9001 & ISO 14001"
+      ],
+      [
+        "Flammability",
+        "UL 94 V-0"
+      ],
+      [
+        "REACH",
+        ""
+      ],
+      [
+        "RoHS",
+        ""
+      ],
+      [
+        "CMRT",
+        ""
+      ],
+      [
+        "EMRT",
+        ""
+      ],
+      [
+        "Ingress protection",
+        "IP50"
+      ],
+      [
+        "Operating temperature",
+        "-10°C to +70°C"
+      ],
+      [
+        "Operating humidity",
+        "15 – 90 %"
+      ],
+      [
+        "Storage temperature",
+        "-20°C to +75°C"
+      ],
+      [
+        "Storage humidity",
+        "15 – 90 %"
+      ],
+      [
+        "MTTF",
+        "> 150,000 h"
+      ],
+      [
+        "Locked rotor protection",
+        "Auto power off after locked at rated voltage for 1 sec. After auto power off, the circuit attempts to restart in 2 to 6 sec."
+      ],
+      [
+        "Polarity protection",
+        "Open circuit when Vcc & GND are exchanged. Circuit won't be burned within 5 sec when Vcc & GND are exchanged."
+      ],
+      [
+        "Overvoltage protection",
+        ""
+      ],
+      [
+        "Overcurrent protection",
+        ""
+      ],
+      [
+        "Insulation resistance",
+        "10 MΩ / between unshielded wire and frame at 500 VDC/min"
+      ],
+      [
+        "Dielectric strength",
+        "5 mA max. / measured between lead wire (+) and frame at 500 VAC/min"
+      ],
+      [
+        "Packaging weight (including product)",
+        "205 g"
+      ],
+      [
+        "EAN",
+        "4716123314776"
+      ],
+      [
+        "UPC",
+        "842431014177"
+      ],
+      [
+        "Packaging unit",
+        "36 pcs"
+      ],
+      [
+        "Packaging unit weight",
+        "9.8 kg"
+      ]
+    ],
+    "source": "https://www.noctua.at/en/products/nf-a9x14-pwm/specifications",
+    "title": "NF-A9x14 PWM"
+  },
+  "nf-p12-redux-1700-pwm": {
+    "images": [
+      {
+        "alt": "",
+        "src": "https://www.noctua.at/_next/image?url=https%3A%2F%2Fcdn.noctua.at%2Fmedia%2Fnf_p12_redux_1.jpg&w=640&q=75"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/reliability_dark.svg"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/redux_dark.svg"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/pwm_dark.svg"
+      }
+    ],
+    "rows": [
+      [
+        "Size (Form factor)",
+        "120 x 120 x 25 mm (square)"
+      ],
+      [
+        "Speed range",
+        "0 – 1700 rpm"
+      ],
+      [
+        "Airflow (max.)",
+        "120.2 m³/h (70.75 CFM)"
+      ],
+      [
+        "Acoustical noise (max.)",
+        "25.1 dB(A)"
+      ],
+      [
+        "Static pressure (max.)",
+        "2.83 mm H₂O"
+      ],
+      [
+        "Rated voltage",
+        "12 V"
+      ],
+      [
+        "Input power (typical)",
+        "0.95 W"
+      ],
+      [
+        "Connector",
+        "4-pin"
+      ],
+      [
+        "Colour",
+        "Grey"
+      ],
+      [
+        "Warranty",
+        "6 years"
+      ],
+      [
+        "Dimensions without anti-vibration pads",
+        "120 x 120 x 25 mm"
+      ],
+      [
+        "Frame shape",
+        "Square"
+      ],
+      [
+        "Mounting hole spacing(s)",
+        "105 x 105 mm"
+      ],
+      [
+        "Weight",
+        "155 g"
+      ],
+      [
+        "Material frame",
+        "PBT GF30"
+      ],
+      [
+        "Material impeller",
+        "PBT GF30"
+      ],
+      [
+        "Bearing",
+        "SSO"
+      ],
+      [
+        "Rotational direction",
+        "Counter-clockwise"
+      ],
+      [
+        "Frame colour",
+        "Light Grey"
+      ],
+      [
+        "Impeller colour",
+        "Dark Grey"
+      ],
+      [
+        "Connector type",
+        "2510-4PIN (or equal)"
+      ],
+      [
+        "Cable length",
+        "400 mm"
+      ],
+      [
+        "Wire",
+        "26 AWG"
+      ],
+      [
+        "Sleeving",
+        "Fibreglass silicone mesh"
+      ],
+      [
+        "Rotational speed (max.)",
+        "1700 rpm"
+      ],
+      [
+        "Rotational speed @ 20% PWM",
+        "550 rpm"
+      ],
+      [
+        "Rotational speed @ 0% PWM",
+        "0 rpm"
+      ],
+      [
+        "Acoustical noise (max.)",
+        "25.1 dB(A)"
+      ],
+      [
+        "Airflow (max.)",
+        "120.2 m³/h (70.75 CFM)"
+      ],
+      [
+        "Static pressure (max.)",
+        "2.83 mm H₂O"
+      ],
+      [
+        "Motor type (phases)",
+        "Single phase"
+      ],
+      [
+        "Poles",
+        "4"
+      ],
+      [
+        "Slots",
+        "4"
+      ],
+      [
+        "Driver IC",
+        "NE-FD1"
+      ],
+      [
+        "Rated voltage",
+        "12 V"
+      ],
+      [
+        "Starting voltage",
+        "7 V"
+      ],
+      [
+        "Max. operating voltage",
+        "13.2 V"
+      ],
+      [
+        "Pin configuration",
+        ""
+      ],
+      [
+        "Pin 1",
+        "Black: Ground (GND)"
+      ],
+      [
+        "Pin 2",
+        "Yellow: Voltage (Vcc)"
+      ],
+      [
+        "Pin 3",
+        "Green: RPM Signal"
+      ],
+      [
+        "Pin 4",
+        "Blue: PWM Signal"
+      ],
+      [
+        "Input power (max)",
+        "1.08 W"
+      ],
+      [
+        "Input power (typical)",
+        "0.95 W"
+      ],
+      [
+        "Input current (max)",
+        "0.09 A"
+      ],
+      [
+        "Input current (typical)",
+        "0.08 A"
+      ],
+      [
+        "Safety standards",
+        "EN62368-1"
+      ],
+      [
+        "EMC standards",
+        "EN55032, EN55035"
+      ],
+      [
+        "UL",
+        ""
+      ],
+      [
+        "CE",
+        ""
+      ],
+      [
+        "UKCA",
+        ""
+      ],
+      [
+        "TÜV",
+        ""
+      ],
+      [
+        "Production standards",
+        "ISO 9001 & ISO 14001"
+      ],
+      [
+        "Flammability",
+        "UL 94 V-0"
+      ],
+      [
+        "REACH",
+        ""
+      ],
+      [
+        "RoHS",
+        ""
+      ],
+      [
+        "CMRT",
+        ""
+      ],
+      [
+        "EMRT",
+        ""
+      ],
+      [
+        "Ingress protection",
+        "IP50"
+      ],
+      [
+        "Operating temperature",
+        "-10°C to +70°C"
+      ],
+      [
+        "Operating humidity",
+        "15 – 90 %"
+      ],
+      [
+        "Storage temperature",
+        "-20°C to +75°C"
+      ],
+      [
+        "Storage humidity",
+        "15 – 90 %"
+      ],
+      [
+        "MTTF",
+        "> 150,000 h"
+      ],
+      [
+        "Locked rotor protection",
+        "Auto power off after locked at rated voltage for 1 sec. After auto power off, the circuit attempts to restart in 2 to 6 sec."
+      ],
+      [
+        "Polarity protection",
+        "Open circuit when Vcc & GND are exchanged. Circuit won't be burned within 5 sec when Vcc & GND are exchanged."
+      ],
+      [
+        "Overvoltage protection",
+        ""
+      ],
+      [
+        "Overcurrent protection",
+        ""
+      ],
+      [
+        "Insulation resistance",
+        "10 MΩ / between unshielded wire and frame at 500 VDC/min"
+      ],
+      [
+        "Dielectric strength",
+        "5 mA max. / measured between lead wire (+) and frame at 500 VAC/min"
+      ],
+      [
+        "Packaging weight (including product)",
+        "242 g"
+      ],
+      [
+        "EAN",
+        "9010018100365"
+      ],
+      [
+        "UPC",
+        "841501110368"
+      ],
+      [
+        "Packaging unit",
+        "20 pcs"
+      ],
+      [
+        "Packaging unit weight",
+        "5.7 kg"
+      ]
+    ],
+    "source": "https://www.noctua.at/en/products/nf-p12-redux-1700-pwm/specifications",
+    "title": "NF-P12 redux-1700 PWM"
+  },
+  "nf-p14r-redux-1500-pwm": {
+    "images": [
+      {
+        "alt": "",
+        "src": "https://www.noctua.at/_next/image?url=https%3A%2F%2Fcdn.noctua.at%2Fmedia%2Fnoctua_nf_p14r_redux_1.jpg&w=640&q=75"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/reliability_dark.svg"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/redux_dark.svg"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/pwm_dark.svg"
+      }
+    ],
+    "rows": [
+      [
+        "Size (Form factor)",
+        "140 x 140 x 25 mm (round)"
+      ],
+      [
+        "Speed range",
+        "0 – 1500 rpm"
+      ],
+      [
+        "Airflow (max.)",
+        "133.7 m³/h (78.69 CFM)"
+      ],
+      [
+        "Acoustical noise (max.)",
+        "25.8 dB(A)"
+      ],
+      [
+        "Static pressure (max.)",
+        "1.91 mm H₂O"
+      ],
+      [
+        "Rated voltage",
+        "12 V"
+      ],
+      [
+        "Input power (typical)",
+        "2.1 W"
+      ],
+      [
+        "Connector",
+        "4-pin"
+      ],
+      [
+        "Colour",
+        "Grey"
+      ],
+      [
+        "Warranty",
+        "6 years"
+      ],
+      [
+        "Dimensions without anti-vibration pads",
+        "140 x 140 x 25 mm"
+      ],
+      [
+        "Frame shape",
+        "Round"
+      ],
+      [
+        "Mounting hole spacing(s)",
+        "105 x 105 mm"
+      ],
+      [
+        "Weight",
+        "195 g"
+      ],
+      [
+        "Material frame",
+        "PBT GF30"
+      ],
+      [
+        "Material impeller",
+        "PBT GF30"
+      ],
+      [
+        "Bearing",
+        "SSO"
+      ],
+      [
+        "Rotational direction",
+        "Counter-clockwise"
+      ],
+      [
+        "Frame colour",
+        "Light Grey"
+      ],
+      [
+        "Impeller colour",
+        "Dark Grey"
+      ],
+      [
+        "Connector type",
+        "A2543-4PIN (or equal)"
+      ],
+      [
+        "Cable length",
+        "400 mm"
+      ],
+      [
+        "Wire",
+        "26 AWG"
+      ],
+      [
+        "Sleeving",
+        "Fibreglass silicone mesh"
+      ],
+      [
+        "Rotational speed (max.)",
+        "1500 rpm"
+      ],
+      [
+        "Rotational speed @ 20% PWM",
+        "420 rpm"
+      ],
+      [
+        "Rotational speed @ 0% PWM",
+        "0 rpm"
+      ],
+      [
+        "Acoustical noise (max.)",
+        "25.8 dB(A)"
+      ],
+      [
+        "Airflow (max.)",
+        "133.7 m³/h (78.69 CFM)"
+      ],
+      [
+        "Static pressure (max.)",
+        "1.91 mm H₂O"
+      ],
+      [
+        "Motor type (phases)",
+        "Single phase"
+      ],
+      [
+        "Poles",
+        "4"
+      ],
+      [
+        "Slots",
+        "4"
+      ],
+      [
+        "Driver IC",
+        "NE-FD1"
+      ],
+      [
+        "Rated voltage",
+        "12 V"
+      ],
+      [
+        "Starting voltage",
+        "7 V"
+      ],
+      [
+        "Max. operating voltage",
+        "13.2 V"
+      ],
+      [
+        "Pin configuration",
+        ""
+      ],
+      [
+        "Pin 1",
+        "Black: Ground (GND)"
+      ],
+      [
+        "Pin 2",
+        "Yellow: Voltage (Vcc)"
+      ],
+      [
+        "Pin 3",
+        "Green: RPM Signal"
+      ],
+      [
+        "Pin 4",
+        "Blue: PWM Signal"
+      ],
+      [
+        "Input power (max)",
+        "2.4 W"
+      ],
+      [
+        "Input power (typical)",
+        "2.1 W"
+      ],
+      [
+        "Input current (max)",
+        "0.2 A"
+      ],
+      [
+        "Input current (typical)",
+        "0.17 A"
+      ],
+      [
+        "Safety standards",
+        "EN62368-1"
+      ],
+      [
+        "EMC standards",
+        "EN55032, EN55035"
+      ],
+      [
+        "UL",
+        ""
+      ],
+      [
+        "CE",
+        ""
+      ],
+      [
+        "UKCA",
+        ""
+      ],
+      [
+        "TÜV",
+        ""
+      ],
+      [
+        "Production standards",
+        "ISO 9001 & ISO 14001"
+      ],
+      [
+        "Flammability",
+        "UL 94 V-0"
+      ],
+      [
+        "REACH",
+        ""
+      ],
+      [
+        "RoHS",
+        ""
+      ],
+      [
+        "CMRT",
+        ""
+      ],
+      [
+        "EMRT",
+        ""
+      ],
+      [
+        "Ingress protection",
+        "IP50"
+      ],
+      [
+        "Operating temperature",
+        "-10°C to +70°C"
+      ],
+      [
+        "Operating humidity",
+        "15 – 90 %"
+      ],
+      [
+        "Storage temperature",
+        "-20°C to +75°C"
+      ],
+      [
+        "Storage humidity",
+        "15 – 90 %"
+      ],
+      [
+        "MTTF",
+        "> 150,000 h"
+      ],
+      [
+        "Locked rotor protection",
+        "Auto power off after locked at rated voltage for 1 sec. After auto power off, the circuit attempts to restart in 2 to 6 sec."
+      ],
+      [
+        "Polarity protection",
+        "Open circuit when Vcc & GND are exchanged. Circuit won't be burned within 5 sec when Vcc & GND are exchanged."
+      ],
+      [
+        "Overvoltage protection",
+        ""
+      ],
+      [
+        "Overcurrent protection",
+        ""
+      ],
+      [
+        "Insulation resistance",
+        "10 MΩ / between unshielded wire and frame at 500 VDC/min"
+      ],
+      [
+        "Dielectric strength",
+        "5 mA max. / measured between lead wire (+) and frame at 500 VAC/min"
+      ],
+      [
+        "Packaging weight (including product)",
+        "270 g"
+      ],
+      [
+        "EAN",
+        "4716123315278"
+      ],
+      [
+        "UPC",
+        "842431012364"
+      ],
+      [
+        "Packaging unit",
+        "20 pcs"
+      ],
+      [
+        "Packaging unit weight",
+        "6.4 kg"
+      ]
+    ],
+    "source": "https://www.noctua.at/en/products/nf-p14r-redux-1500-pwm/specifications",
+    "title": "NF-P14r redux-1500 PWM"
+  },
+  "nf-p14s-redux-1500-pwm": {
+    "images": [
+      {
+        "alt": "",
+        "src": "https://www.noctua.at/_next/image?url=https%3A%2F%2Fcdn.noctua.at%2Fmedia%2Fnoctua_nf_p14s_3.jpg&w=640&q=75"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/reliability_dark.svg"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/redux_dark.svg"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/pwm_dark.svg"
+      }
+    ],
+    "rows": [
+      [
+        "Size (Form factor)",
+        "140 x 140 x 25 mm (square)"
+      ],
+      [
+        "Speed range",
+        "0 – 1500 rpm"
+      ],
+      [
+        "Airflow (max.)",
+        "133.7 m³/h (78.69 CFM)"
+      ],
+      [
+        "Acoustical noise (max.)",
+        "25.8 dB(A)"
+      ],
+      [
+        "Static pressure (max.)",
+        "1.91 mm H₂O"
+      ],
+      [
+        "Rated voltage",
+        "12 V"
+      ],
+      [
+        "Input power (typical)",
+        "2.1 W"
+      ],
+      [
+        "Connector",
+        "4-pin"
+      ],
+      [
+        "Colour",
+        "Grey"
+      ],
+      [
+        "Warranty",
+        "6 years"
+      ],
+      [
+        "Dimensions without anti-vibration pads",
+        "140 x 140 x 25 mm"
+      ],
+      [
+        "Frame shape",
+        "Square"
+      ],
+      [
+        "Mounting hole spacing(s)",
+        "124.5 x 124.5 mm"
+      ],
+      [
+        "Weight",
+        "195 g"
+      ],
+      [
+        "Material frame",
+        "PBT GF30"
+      ],
+      [
+        "Material impeller",
+        "PBT GF30"
+      ],
+      [
+        "Bearing",
+        "SSO"
+      ],
+      [
+        "Rotational direction",
+        "Counter-clockwise"
+      ],
+      [
+        "Frame colour",
+        "Light Grey"
+      ],
+      [
+        "Impeller colour",
+        "Dark Grey"
+      ],
+      [
+        "Connector type",
+        "A2543-4PIN (or equal)"
+      ],
+      [
+        "Cable length",
+        "400 mm"
+      ],
+      [
+        "Wire",
+        "26 AWG"
+      ],
+      [
+        "Sleeving",
+        "Fibreglass silicone mesh"
+      ],
+      [
+        "Rotational speed (max.)",
+        "1500 rpm"
+      ],
+      [
+        "Rotational speed @ 20% PWM",
+        "420 rpm"
+      ],
+      [
+        "Rotational speed @ 0% PWM",
+        "0 rpm"
+      ],
+      [
+        "Acoustical noise (max.)",
+        "25.8 dB(A)"
+      ],
+      [
+        "Airflow (max.)",
+        "133.7 m³/h (78.69 CFM)"
+      ],
+      [
+        "Static pressure (max.)",
+        "1.91 mm H₂O"
+      ],
+      [
+        "Motor type (phases)",
+        "Single phase"
+      ],
+      [
+        "Poles",
+        "4"
+      ],
+      [
+        "Slots",
+        "4"
+      ],
+      [
+        "Driver IC",
+        "NE-FD1"
+      ],
+      [
+        "Rated voltage",
+        "12 V"
+      ],
+      [
+        "Starting voltage",
+        "7 V"
+      ],
+      [
+        "Max. operating voltage",
+        "13.2 V"
+      ],
+      [
+        "Pin configuration",
+        ""
+      ],
+      [
+        "Pin 1",
+        "Black: Ground (GND)"
+      ],
+      [
+        "Pin 2",
+        "Yellow: Voltage (Vcc)"
+      ],
+      [
+        "Pin 3",
+        "Green: RPM Signal"
+      ],
+      [
+        "Pin 4",
+        "Blue: PWM Signal"
+      ],
+      [
+        "Input power (max)",
+        "2.4 W"
+      ],
+      [
+        "Input power (typical)",
+        "2.1 W"
+      ],
+      [
+        "Input current (max)",
+        "0.2 A"
+      ],
+      [
+        "Input current (typical)",
+        "0.17 A"
+      ],
+      [
+        "Safety standards",
+        "EN62368-1"
+      ],
+      [
+        "EMC standards",
+        "EN55032, EN55035"
+      ],
+      [
+        "UL",
+        ""
+      ],
+      [
+        "CE",
+        ""
+      ],
+      [
+        "UKCA",
+        ""
+      ],
+      [
+        "TÜV",
+        ""
+      ],
+      [
+        "Production standards",
+        "ISO 9001 & ISO 14001"
+      ],
+      [
+        "Flammability",
+        "UL 94 V-0"
+      ],
+      [
+        "REACH",
+        ""
+      ],
+      [
+        "RoHS",
+        ""
+      ],
+      [
+        "CMRT",
+        ""
+      ],
+      [
+        "EMRT",
+        ""
+      ],
+      [
+        "Ingress protection",
+        "IP50"
+      ],
+      [
+        "Operating temperature",
+        "-10°C to +70°C"
+      ],
+      [
+        "Operating humidity",
+        "15 – 90 %"
+      ],
+      [
+        "Storage temperature",
+        "-20°C to +75°C"
+      ],
+      [
+        "Storage humidity",
+        "15 – 90 %"
+      ],
+      [
+        "MTTF",
+        "> 150,000 h"
+      ],
+      [
+        "Locked rotor protection",
+        "Auto power off after locked at rated voltage for 1 sec. After auto power off, the circuit attempts to restart in 2 to 6 sec."
+      ],
+      [
+        "Polarity protection",
+        "Open circuit when Vcc & GND are exchanged. Circuit won't be burned within 5 sec when Vcc & GND are exchanged."
+      ],
+      [
+        "Overvoltage protection",
+        ""
+      ],
+      [
+        "Overcurrent protection",
+        ""
+      ],
+      [
+        "Insulation resistance",
+        "10 MΩ / between unshielded wire and frame at 500 VDC/min"
+      ],
+      [
+        "Dielectric strength",
+        "5 mA max. / measured between lead wire (+) and frame at 500 VAC/min"
+      ],
+      [
+        "Packaging weight (including product)",
+        "305 g"
+      ],
+      [
+        "EAN",
+        "4716123315230"
+      ],
+      [
+        "UPC",
+        "842431012319"
+      ],
+      [
+        "Packaging unit",
+        "20 pcs"
+      ],
+      [
+        "Packaging unit weight",
+        "7 kg"
+      ]
+    ],
+    "source": "https://www.noctua.at/en/products/nf-p14s-redux-1500-pwm/specifications",
+    "title": "NF-P14s redux-1500 PWM"
+  },
+  "nf-s12a-pwm": {
+    "images": [
+      {
+        "alt": "",
+        "src": "https://www.noctua.at/_next/image?url=https%3A%2F%2Fcdn.noctua.at%2Fmedia%2Fnoctua_nf_s12a_1.jpg&w=640&q=75"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/award_winning_dark.svg"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/sso2_bearing_dark.svg"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/pwm_dark.svg"
+      }
+    ],
+    "rows": [
+      [
+        "Size (Form factor)",
+        "120 x 120 x 25 mm (square)"
+      ],
+      [
+        "Speed range",
+        "0 – 1200 rpm"
+      ],
+      [
+        "Airflow (max.)",
+        "107.5 m³/h (63.27 CFM)"
+      ],
+      [
+        "Acoustical noise (max.)",
+        "17.8 dB(A)"
+      ],
+      [
+        "Static pressure (max.)",
+        "1.19 mm H₂O"
+      ],
+      [
+        "Rated voltage",
+        "12 V"
+      ],
+      [
+        "Input power (typical)",
+        "1.19 W"
+      ],
+      [
+        "Connector",
+        "4-pin"
+      ],
+      [
+        "Colour",
+        "Brown"
+      ],
+      [
+        "Warranty",
+        "6 years"
+      ],
+      [
+        "Dimensions without anti-vibration pads",
+        "120 x 120 x 25 mm"
+      ],
+      [
+        "Dimensions with anti-vibration pads",
+        "120 x 120 x 27 mm"
+      ],
+      [
+        "Frame shape",
+        "Square"
+      ],
+      [
+        "Mounting hole spacing(s)",
+        "105 x 105 mm"
+      ],
+      [
+        "Weight",
+        "140 g"
+      ],
+      [
+        "Material frame",
+        "PBT GF30"
+      ],
+      [
+        "Material impeller",
+        "PBT GF30"
+      ],
+      [
+        "Material anti-vibration pads",
+        "Silicone rubber"
+      ],
+      [
+        "Bearing",
+        "SSO2"
+      ],
+      [
+        "Rotational direction",
+        "Counter-clockwise"
+      ],
+      [
+        "Frame colour",
+        "Beige"
+      ],
+      [
+        "Impeller colour",
+        "Brown"
+      ],
+      [
+        "Anti-vibration pads colour",
+        "Brown"
+      ],
+      [
+        "Connector type",
+        "A2543-4PIN (or equal)"
+      ],
+      [
+        "Cable length",
+        "200 mm"
+      ],
+      [
+        "Cable length with extension cable (included)",
+        "500 mm"
+      ],
+      [
+        "Wire",
+        "26 AWG"
+      ],
+      [
+        "Sleeving",
+        "Fibreglass silicone mesh"
+      ],
+      [
+        "Rotational speed (max.)",
+        "1200 rpm"
+      ],
+      [
+        "Rotational speed with LNA (max.)",
+        "900 rpm"
+      ],
+      [
+        "Rotational speed @ 20% PWM",
+        "300 rpm"
+      ],
+      [
+        "Rotational speed @ 0% PWM",
+        "0 rpm"
+      ],
+      [
+        "Acoustical noise (max.)",
+        "17.8 dB(A)"
+      ],
+      [
+        "Acoustical noise with LNA (max.)",
+        "10.7 dB(A)"
+      ],
+      [
+        "Airflow (max.)",
+        "107.5 m³/h (63.27 CFM)"
+      ],
+      [
+        "Airflow with LNA (max.)",
+        "83.2 m³/h (48.97 CFM)"
+      ],
+      [
+        "Static pressure (max.)",
+        "1.19 mm H₂O"
+      ],
+      [
+        "Static pressure with LNA (max.)",
+        "0.73 mm H₂O"
+      ],
+      [
+        "Motor type (phases)",
+        "Single phase"
+      ],
+      [
+        "Poles",
+        "4"
+      ],
+      [
+        "Slots",
+        "4"
+      ],
+      [
+        "Driver IC",
+        "NE-FD1"
+      ],
+      [
+        "Rated voltage",
+        "12 V"
+      ],
+      [
+        "Starting voltage",
+        "7 V"
+      ],
+      [
+        "Max. operating voltage",
+        "13.2 V"
+      ],
+      [
+        "Pin configuration",
+        ""
+      ],
+      [
+        "Pin 1",
+        "Black: Ground (GND)"
+      ],
+      [
+        "Pin 2",
+        "Yellow: Voltage (Vcc)"
+      ],
+      [
+        "Pin 3",
+        "Green: RPM Signal"
+      ],
+      [
+        "Pin 4",
+        "Blue: PWM Signal"
+      ],
+      [
+        "Input power (max)",
+        "1.44 W"
+      ],
+      [
+        "Input power (typical)",
+        "1.19 W"
+      ],
+      [
+        "Input current (max)",
+        "0.12 A"
+      ],
+      [
+        "Input current (typical)",
+        "0.1 A"
+      ],
+      [
+        "Safety standards",
+        "EN62368-1"
+      ],
+      [
+        "EMC standards",
+        "EN55032, EN55035"
+      ],
+      [
+        "UL",
+        ""
+      ],
+      [
+        "CE",
+        ""
+      ],
+      [
+        "UKCA",
+        ""
+      ],
+      [
+        "TÜV",
+        ""
+      ],
+      [
+        "Production standards",
+        "ISO 9001 & ISO 14001"
+      ],
+      [
+        "Flammability",
+        "UL 94 V-0"
+      ],
+      [
+        "REACH",
+        ""
+      ],
+      [
+        "RoHS",
+        ""
+      ],
+      [
+        "CMRT",
+        ""
+      ],
+      [
+        "EMRT",
+        ""
+      ],
+      [
+        "Ingress protection",
+        "IP50"
+      ],
+      [
+        "Operating temperature",
+        "-10°C to +70°C"
+      ],
+      [
+        "Operating humidity",
+        "15 – 90 %"
+      ],
+      [
+        "Storage temperature",
+        "-20°C to +75°C"
+      ],
+      [
+        "Storage humidity",
+        "15 – 90 %"
+      ],
+      [
+        "MTTF",
+        "> 150,000 h"
+      ],
+      [
+        "Locked rotor protection",
+        "Auto power off after locked at rated voltage for 1 sec. After auto power off, the circuit attempts to restart in 2 to 6 sec."
+      ],
+      [
+        "Polarity protection",
+        "Open circuit when Vcc & GND are exchanged. Circuit won't be burned within 5 sec when Vcc & GND are exchanged."
+      ],
+      [
+        "Overvoltage protection",
+        ""
+      ],
+      [
+        "Overcurrent protection",
+        ""
+      ],
+      [
+        "Insulation resistance",
+        "10 MΩ / between unshielded wire and frame at 500 VDC/min"
+      ],
+      [
+        "Dielectric strength",
+        "5 mA max. / measured between lead wire (+) and frame at 500 VAC/min"
+      ],
+      [
+        "Packaging weight (including product)",
+        "280 g"
+      ],
+      [
+        "EAN",
+        "4716123314929"
+      ],
+      [
+        "UPC",
+        "842431014252"
+      ],
+      [
+        "Packaging unit",
+        "40 pcs"
+      ],
+      [
+        "Packaging unit weight",
+        "12 kg"
+      ]
+    ],
+    "source": "https://www.noctua.at/en/products/nf-s12a-pwm/specifications",
+    "title": "NF-S12A PWM"
+  },
+  "nf-a4x20-pwm": {
+    "images": [
+      {
+        "alt": "",
+        "src": "https://www.noctua.at/_next/image?url=https%3A%2F%2Fcdn.noctua.at%2Fmedia%2Fnoctua_nf_a4x20_3.jpg&w=640&q=75"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/nf_a4x20_dark.svg"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/reduced_intake_noise_dark.svg"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/pwm_dark.svg"
+      }
+    ],
+    "rows": [
+      [
+        "Size (Form factor)",
+        "40 x 40 x 20 mm"
+      ],
+      [
+        "Speed range",
+        "0 – 5000 rpm"
+      ],
+      [
+        "Airflow (max.)",
+        "9.4 m³/h (5.53 CFM)"
+      ],
+      [
+        "Acoustical noise (max.)",
+        "14.9 dB(A)"
+      ],
+      [
+        "Static pressure (max.)",
+        "2.26 mm H₂O"
+      ],
+      [
+        "Rated voltage",
+        "12 V"
+      ],
+      [
+        "Input power (typical)",
+        "0.46 W"
+      ],
+      [
+        "Connector",
+        "4-pin"
+      ],
+      [
+        "Colour",
+        "Brown"
+      ],
+      [
+        "Warranty",
+        "6 years"
+      ],
+      [
+        "Dimensions without anti-vibration pads",
+        "40 x 40 x 20 mm"
+      ],
+      [
+        "Dimensions with anti-vibration pads",
+        "40 x 40 x 22 mm"
+      ],
+      [
+        "Mounting hole spacing(s)",
+        "32 x 32 mm"
+      ],
+      [
+        "Weight",
+        "20 g"
+      ],
+      [
+        "Material frame",
+        "PBT GF30"
+      ],
+      [
+        "Material impeller",
+        "PP GF30"
+      ],
+      [
+        "Material anti-vibration pads",
+        "Silicone rubber"
+      ],
+      [
+        "Bearing",
+        "SSO2"
+      ],
+      [
+        "Rotational direction",
+        "Counter-clockwise"
+      ],
+      [
+        "Frame colour",
+        "Beige"
+      ],
+      [
+        "Impeller colour",
+        "Brown"
+      ],
+      [
+        "Anti-vibration pads colour",
+        "Brown"
+      ],
+      [
+        "Connector type",
+        "A2543-4PIN (or equal)"
+      ],
+      [
+        "Cable length",
+        "200 mm"
+      ],
+      [
+        "Cable length with extension cable (included)",
+        "500 mm"
+      ],
+      [
+        "Wire",
+        "26 AWG"
+      ],
+      [
+        "Sleeving",
+        "Fibreglass silicone mesh"
+      ],
+      [
+        "Included adaptors",
+        "OmniJoin™"
+      ],
+      [
+        "Rotational speed (max.)",
+        "5000 rpm"
+      ],
+      [
+        "Rotational speed with LNA (max.)",
+        "4400 rpm"
+      ],
+      [
+        "Rotational speed @ 20% PWM",
+        "1100 rpm"
+      ],
+      [
+        "Rotational speed @ 0% PWM",
+        "0 rpm"
+      ],
+      [
+        "Acoustical noise (max.)",
+        "14.9 dB(A)"
+      ],
+      [
+        "Acoustical noise with LNA (max.)",
+        "12.2 dB(A)"
+      ],
+      [
+        "Airflow (max.)",
+        "9.4 m³/h (5.53 CFM)"
+      ],
+      [
+        "Airflow with LNA (max.)",
+        "8.3 m³/h (4.89 CFM)"
+      ],
+      [
+        "Static pressure (max.)",
+        "2.26 mm H₂O"
+      ],
+      [
+        "Static pressure with LNA (max.)",
+        "1.75 mm H₂O"
+      ],
+      [
+        "Motor type (phases)",
+        "Single phase"
+      ],
+      [
+        "Poles",
+        "4"
+      ],
+      [
+        "Slots",
+        "4"
+      ],
+      [
+        "Driver IC",
+        "NE-FD1"
+      ],
+      [
+        "Rated voltage",
+        "12 V"
+      ],
+      [
+        "Starting voltage",
+        "8 V"
+      ],
+      [
+        "Max. operating voltage",
+        "13.2 V"
+      ],
+      [
+        "Pin configuration",
+        ""
+      ],
+      [
+        "Pin 1",
+        "Black: Ground (GND)"
+      ],
+      [
+        "Pin 2",
+        "Yellow: Voltage (Vcc)"
+      ],
+      [
+        "Pin 3",
+        "Green: RPM Signal"
+      ],
+      [
+        "Pin 4",
+        "Blue: PWM Signal"
+      ],
+      [
+        "Input power (max)",
+        "0.6 W"
+      ],
+      [
+        "Input power (typical)",
+        "0.46 W"
+      ],
+      [
+        "Input current (max)",
+        "0.05 A"
+      ],
+      [
+        "Input current (typical)",
+        "0.04 A"
+      ],
+      [
+        "Safety standards",
+        "EN62368-1"
+      ],
+      [
+        "EMC standards",
+        "EN55032, EN55035"
+      ],
+      [
+        "UL",
+        ""
+      ],
+      [
+        "CE",
+        ""
+      ],
+      [
+        "UKCA",
+        ""
+      ],
+      [
+        "Production standards",
+        "ISO 9001 & ISO 14001"
+      ],
+      [
+        "Flammability",
+        "UL 94 V-0"
+      ],
+      [
+        "REACH",
+        ""
+      ],
+      [
+        "RoHS",
+        ""
+      ],
+      [
+        "CMRT",
+        ""
+      ],
+      [
+        "EMRT",
+        ""
+      ],
+      [
+        "Ingress protection",
+        "IP50"
+      ],
+      [
+        "Operating temperature",
+        "-10°C to +70°C"
+      ],
+      [
+        "Operating humidity",
+        "15 – 90 %"
+      ],
+      [
+        "Storage temperature",
+        "-20°C to +75°C"
+      ],
+      [
+        "Storage humidity",
+        "15 – 90 %"
+      ],
+      [
+        "MTTF",
+        "> 150,000 h"
+      ],
+      [
+        "Locked rotor protection",
+        "Auto power off after locked at rated voltage for 1 sec. After auto power off, the circuit attempts to restart in 2 to 6 sec."
+      ],
+      [
+        "Polarity protection",
+        "Open circuit when Vcc & GND are exchanged. Circuit won't be burned within 5 sec when Vcc & GND are exchanged."
+      ],
+      [
+        "Overvoltage protection",
+        ""
+      ],
+      [
+        "Overcurrent protection",
+        ""
+      ],
+      [
+        "Insulation resistance",
+        "10 MΩ / between unshielded wire and frame at 500 VDC/min"
+      ],
+      [
+        "Dielectric strength",
+        "5 mA max. / measured between lead wire (+) and frame at 500 VAC/min"
+      ],
+      [
+        "Packaging dimensions",
+        "140 x 110 x 23 mm"
+      ],
+      [
+        "Packaging weight (including product)",
+        "86 g"
+      ],
+      [
+        "EAN",
+        "9010018100105"
+      ],
+      [
+        "UPC",
+        "841500110109"
+      ],
+      [
+        "Packaging unit",
+        "36 pcs"
+      ],
+      [
+        "Packaging unit dimensions",
+        "450 x 240 x 170 mm"
+      ],
+      [
+        "Packaging unit weight",
+        "3.5 kg"
+      ]
+    ],
+    "source": "https://www.noctua.at/en/products/nf-a4x20-pwm/specifications",
+    "title": "NF-A4x20 PWM"
+  },
+  "nf-a6x25-pwm": {
+    "images": [
+      {
+        "alt": "",
+        "src": "https://www.noctua.at/_next/image?url=https%3A%2F%2Fcdn.noctua.at%2Fmedia%2Fnoctua_nf_a6x25_1.jpg&w=640&q=75"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/award_winning_dark.svg"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/reduced_intake_noise_dark.svg"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/pwm_dark.svg"
+      }
+    ],
+    "rows": [
+      [
+        "Size (Form factor)",
+        "60 x 60 x 25 mm"
+      ],
+      [
+        "Speed range",
+        "0 – 3000 rpm"
+      ],
+      [
+        "Airflow (max.)",
+        "29.2 m³/h (17.19 CFM)"
+      ],
+      [
+        "Acoustical noise (max.)",
+        "19.3 dB(A)"
+      ],
+      [
+        "Static pressure (max.)",
+        "2.18 mm H₂O"
+      ],
+      [
+        "Rated voltage",
+        "12 V"
+      ],
+      [
+        "Connector",
+        "4-pin"
+      ],
+      [
+        "Colour",
+        "Brown"
+      ],
+      [
+        "Warranty",
+        "6 years"
+      ],
+      [
+        "Dimensions without anti-vibration pads",
+        "60 x 60 x 25 mm"
+      ],
+      [
+        "Dimensions with anti-vibration pads",
+        "60 x 60 x 26 mm"
+      ],
+      [
+        "Mounting hole spacing(s)",
+        "50 x 50 mm"
+      ],
+      [
+        "Weight",
+        "50 g"
+      ],
+      [
+        "Material frame",
+        "PBT GF30"
+      ],
+      [
+        "Material impeller",
+        "PBT GF30"
+      ],
+      [
+        "Material anti-vibration pads",
+        "Silicone rubber"
+      ],
+      [
+        "Bearing",
+        "SSO2"
+      ],
+      [
+        "Rotational direction",
+        "Counter-clockwise"
+      ],
+      [
+        "Frame colour",
+        "Beige"
+      ],
+      [
+        "Impeller colour",
+        "Brown"
+      ],
+      [
+        "Anti-vibration pads colour",
+        "Brown"
+      ],
+      [
+        "Connector type",
+        "A2543-4PIN (or equal)"
+      ],
+      [
+        "Cable length",
+        "200 mm"
+      ],
+      [
+        "Cable length with extension cable (included)",
+        "500 mm"
+      ],
+      [
+        "Wire",
+        "26 AWG"
+      ],
+      [
+        "Sleeving",
+        "Fibreglass silicone mesh"
+      ],
+      [
+        "Rotational speed (max.)",
+        "3000 rpm"
+      ],
+      [
+        "Rotational speed with LNA (max.)",
+        "2300 rpm"
+      ],
+      [
+        "Rotational speed @ 20% PWM",
+        "700 rpm"
+      ],
+      [
+        "Rotational speed @ 0% PWM",
+        "0 rpm"
+      ],
+      [
+        "Acoustical noise (max.)",
+        "19.3 dB(A)"
+      ],
+      [
+        "Acoustical noise with LNA (max.)",
+        "13.7 dB(A)"
+      ],
+      [
+        "Airflow (max.)",
+        "29.2 m³/h (17.19 CFM)"
+      ],
+      [
+        "Airflow with LNA (max.)",
+        "22.6 m³/h (13.30 CFM)"
+      ],
+      [
+        "Static pressure (max.)",
+        "2.18 mm H₂O"
+      ],
+      [
+        "Static pressure with LNA (max.)",
+        "1.29 mm H₂O"
+      ],
+      [
+        "Motor type (phases)",
+        "Single phase"
+      ],
+      [
+        "Poles",
+        "4"
+      ],
+      [
+        "Slots",
+        "4"
+      ],
+      [
+        "Driver IC",
+        "NE-FD1"
+      ],
+      [
+        "Rated voltage",
+        "12 V"
+      ],
+      [
+        "Starting voltage",
+        "7 V"
+      ],
+      [
+        "Max. operating voltage",
+        "13.2 V"
+      ],
+      [
+        "Pin configuration",
+        ""
+      ],
+      [
+        "Pin 1",
+        "Black: Ground (GND)"
+      ],
+      [
+        "Pin 2",
+        "Yellow: Voltage (Vcc)"
+      ],
+      [
+        "Pin 3",
+        "Green: RPM Signal"
+      ],
+      [
+        "Pin 4",
+        "Blue: PWM Signal"
+      ],
+      [
+        "Input power (max)",
+        "0.96 W"
+      ],
+      [
+        "Input current (max)",
+        "0.08 A"
+      ],
+      [
+        "Safety standards",
+        "EN62368-1"
+      ],
+      [
+        "EMC standards",
+        "EN55032, EN55035"
+      ],
+      [
+        "UL",
+        ""
+      ],
+      [
+        "CE",
+        ""
+      ],
+      [
+        "UKCA",
+        ""
+      ],
+      [
+        "Production standards",
+        "ISO 9001 & ISO 14001"
+      ],
+      [
+        "Flammability",
+        "UL 94 V-0"
+      ],
+      [
+        "REACH",
+        ""
+      ],
+      [
+        "RoHS",
+        ""
+      ],
+      [
+        "CMRT",
+        ""
+      ],
+      [
+        "EMRT",
+        ""
+      ],
+      [
+        "Ingress protection",
+        "IP50"
+      ],
+      [
+        "Operating temperature",
+        "-10°C to +70°C"
+      ],
+      [
+        "Operating humidity",
+        "15 – 90 %"
+      ],
+      [
+        "Storage temperature",
+        "-20°C to +75°C"
+      ],
+      [
+        "Storage humidity",
+        "15 – 90 %"
+      ],
+      [
+        "MTTF",
+        "> 150,000 h"
+      ],
+      [
+        "Locked rotor protection",
+        "Auto power off after locked at rated voltage for 1 sec. After auto power off, the circuit attempts to restart in 2 to 6 sec."
+      ],
+      [
+        "Polarity protection",
+        "Open circuit when Vcc & GND are exchanged. Circuit won't be burned within 5 sec when Vcc & GND are exchanged."
+      ],
+      [
+        "Overvoltage protection",
+        ""
+      ],
+      [
+        "Overcurrent protection",
+        ""
+      ],
+      [
+        "Insulation resistance",
+        "10 MΩ / between unshielded wire and frame at 500 VDC/min"
+      ],
+      [
+        "Dielectric strength",
+        "5 mA max. / measured between lead wire (+) and frame at 500 VAC/min"
+      ],
+      [
+        "Packaging dimensions",
+        "140 x 110 x 28 mm"
+      ],
+      [
+        "Packaging weight (including product)",
+        "195 g"
+      ],
+      [
+        "EAN",
+        "4716123315636"
+      ],
+      [
+        "UPC",
+        "842431012524"
+      ],
+      [
+        "Packaging unit",
+        "36 pcs"
+      ],
+      [
+        "Packaging unit dimensions",
+        "440 x 240 x 200 mm"
+      ],
+      [
+        "Packaging unit weight",
+        "8.9 kg"
+      ]
+    ],
+    "source": "https://www.noctua.at/en/products/nf-a6x25-pwm/specifications",
+    "title": "NF-A6x25 PWM"
+  },
+  "nf-r8-redux-1800-pwm": {
+    "images": [
+      {
+        "alt": "",
+        "src": "https://www.noctua.at/_next/image?url=https%3A%2F%2Fcdn.noctua.at%2Fmedia%2Fnoctua_nf_r8_redux_1.jpg&w=640&q=75"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/reliability_dark.svg"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/redux_dark.svg"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/pwm_dark.svg"
+      }
+    ],
+    "rows": [
+      [
+        "Size (Form factor)",
+        "80 x 80 x 25 mm"
+      ],
+      [
+        "Speed range",
+        "0 – 1800 rpm"
+      ],
+      [
+        "Airflow (max.)",
+        "53.3 m³/h (31.37 CFM)"
+      ],
+      [
+        "Acoustical noise (max.)",
+        "17.1 dB(A)"
+      ],
+      [
+        "Static pressure (max.)",
+        "1.41 mm H₂O"
+      ],
+      [
+        "Rated voltage",
+        "12 V"
+      ],
+      [
+        "Connector",
+        "4-pin"
+      ],
+      [
+        "Colour",
+        "Grey"
+      ],
+      [
+        "Warranty",
+        "6 years"
+      ],
+      [
+        "Dimensions without anti-vibration pads",
+        "80 x 80 x 25 mm"
+      ],
+      [
+        "Mounting hole spacing(s)",
+        "71.5 x 71.5 mm"
+      ],
+      [
+        "Weight",
+        "80 g"
+      ],
+      [
+        "Material frame",
+        "PBT GF30"
+      ],
+      [
+        "Material impeller",
+        "PBT GF30"
+      ],
+      [
+        "Bearing",
+        "SSO"
+      ],
+      [
+        "Rotational direction",
+        "Counter-clockwise"
+      ],
+      [
+        "Frame colour",
+        "Light Grey"
+      ],
+      [
+        "Impeller colour",
+        "Dark Grey"
+      ],
+      [
+        "Connector type",
+        "A2543-4PIN (or equal)"
+      ],
+      [
+        "Cable length",
+        "400 mm"
+      ],
+      [
+        "Wire",
+        "28 AWG"
+      ],
+      [
+        "Sleeving",
+        "Fibreglass silicone mesh"
+      ],
+      [
+        "Rotational speed (max.)",
+        "1800 rpm"
+      ],
+      [
+        "Rotational speed @ 20% PWM",
+        "325 rpm"
+      ],
+      [
+        "Rotational speed @ 0% PWM",
+        "0 rpm"
+      ],
+      [
+        "Acoustical noise (max.)",
+        "17.1 dB(A)"
+      ],
+      [
+        "Airflow (max.)",
+        "53.3 m³/h (31.37 CFM)"
+      ],
+      [
+        "Static pressure (max.)",
+        "1.41 mm H₂O"
+      ],
+      [
+        "Motor type (phases)",
+        "Single phase"
+      ],
+      [
+        "Poles",
+        "4"
+      ],
+      [
+        "Slots",
+        "4"
+      ],
+      [
+        "Driver IC",
+        "NE-FD1"
+      ],
+      [
+        "Rated voltage",
+        "12 V"
+      ],
+      [
+        "Starting voltage",
+        "7 V"
+      ],
+      [
+        "Max. operating voltage",
+        "13.2 V"
+      ],
+      [
+        "Pin configuration",
+        ""
+      ],
+      [
+        "Pin 1",
+        "Black: Ground (GND)"
+      ],
+      [
+        "Pin 2",
+        "Yellow: Voltage (Vcc)"
+      ],
+      [
+        "Pin 3",
+        "Green: RPM Signal"
+      ],
+      [
+        "Pin 4",
+        "Blue: PWM Signal"
+      ],
+      [
+        "Input power (max)",
+        "0.72 W"
+      ],
+      [
+        "Input current (max)",
+        "0.06 A"
+      ],
+      [
+        "Safety standards",
+        "EN62368-1"
+      ],
+      [
+        "EMC standards",
+        "EN55032, EN55035"
+      ],
+      [
+        "UL",
+        ""
+      ],
+      [
+        "CE",
+        ""
+      ],
+      [
+        "UKCA",
+        ""
+      ],
+      [
+        "Production standards",
+        "ISO 9001 & ISO 14001"
+      ],
+      [
+        "Flammability",
+        "UL 94 V-0"
+      ],
+      [
+        "REACH",
+        ""
+      ],
+      [
+        "RoHS",
+        ""
+      ],
+      [
+        "CMRT",
+        ""
+      ],
+      [
+        "EMRT",
+        ""
+      ],
+      [
+        "Ingress protection",
+        "IP50"
+      ],
+      [
+        "Operating temperature",
+        "-10°C to +70°C"
+      ],
+      [
+        "Operating humidity",
+        "15 – 90 %"
+      ],
+      [
+        "Storage temperature",
+        "-20°C to +75°C"
+      ],
+      [
+        "Storage humidity",
+        "15 – 90 %"
+      ],
+      [
+        "MTTF",
+        "> 150,000 h"
+      ],
+      [
+        "Locked rotor protection",
+        "Auto power off after locked at rated voltage for 1 sec. After auto power off, the circuit attempts to restart in 2 to 6 sec."
+      ],
+      [
+        "Polarity protection",
+        "Open circuit when Vcc & GND are exchanged. Circuit won't be burned within 5 sec when Vcc & GND are exchanged."
+      ],
+      [
+        "Overvoltage protection",
+        ""
+      ],
+      [
+        "Overcurrent protection",
+        ""
+      ],
+      [
+        "Insulation resistance",
+        "10 MΩ / between unshielded wire and frame at 500 VDC/min"
+      ],
+      [
+        "Dielectric strength",
+        "5 mA max. / measured between lead wire (+) and frame at 500 VAC/min"
+      ],
+      [
+        "Packaging weight (including product)",
+        "145 g"
+      ],
+      [
+        "EAN",
+        "4716123315339"
+      ],
+      [
+        "UPC",
+        "842431012425"
+      ],
+      [
+        "Packaging unit",
+        "30 pcs"
+      ],
+      [
+        "Packaging unit weight",
+        "5 kg"
+      ]
+    ],
+    "source": "https://www.noctua.at/en/products/nf-r8-redux-1800-pwm/specifications",
+    "title": "NF-R8 redux-1800 PWM"
+  },
+  "nf-s12b-redux-1200-pwm": {
+    "images": [
+      {
+        "alt": "",
+        "src": "https://www.noctua.at/_next/image?url=https%3A%2F%2Fcdn.noctua.at%2Fmedia%2Fnoctua_nf_s12b_3.jpg&w=640&q=75"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/reliability_dark.svg"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/redux_dark.svg"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/pwm_dark.svg"
+      }
+    ],
+    "rows": [
+      [
+        "Size (Form factor)",
+        "120 x 120 x 25 mm (square)"
+      ],
+      [
+        "Speed range",
+        "400 – 1200 rpm"
+      ],
+      [
+        "Airflow (max.)",
+        "100.6 m³/h (59.21 CFM)"
+      ],
+      [
+        "Acoustical noise (max.)",
+        "18.1 dB(A)"
+      ],
+      [
+        "Static pressure (max.)",
+        "1.31 mm H₂O"
+      ],
+      [
+        "Rated voltage",
+        "12 V"
+      ],
+      [
+        "Connector",
+        "4-pin"
+      ],
+      [
+        "Colour",
+        "Grey"
+      ],
+      [
+        "Warranty",
+        "6 years"
+      ],
+      [
+        "Dimensions without anti-vibration pads",
+        "120 x 120 x 25 mm"
+      ],
+      [
+        "Frame shape",
+        "Square"
+      ],
+      [
+        "Mounting hole spacing(s)",
+        "105 x 105 mm"
+      ],
+      [
+        "Weight",
+        "140 g"
+      ],
+      [
+        "Material frame",
+        "PBT GF30"
+      ],
+      [
+        "Material impeller",
+        "PBT GF30"
+      ],
+      [
+        "Bearing",
+        "SSO"
+      ],
+      [
+        "Rotational direction",
+        "Counter-clockwise"
+      ],
+      [
+        "Frame colour",
+        "Light Grey"
+      ],
+      [
+        "Impeller colour",
+        "Dark Grey"
+      ],
+      [
+        "Connector type",
+        "A2543-4PIN (or equal)"
+      ],
+      [
+        "Cable length",
+        "400 mm"
+      ],
+      [
+        "Wire",
+        "26 AWG"
+      ],
+      [
+        "Sleeving",
+        "Fibreglass silicone mesh"
+      ],
+      [
+        "Rotational speed (max.)",
+        "1200 rpm"
+      ],
+      [
+        "Rotational speed @ 20% PWM",
+        "270 rpm"
+      ],
+      [
+        "Acoustical noise (max.)",
+        "18.1 dB(A)"
+      ],
+      [
+        "Airflow (max.)",
+        "100.6 m³/h (59.21 CFM)"
+      ],
+      [
+        "Static pressure (max.)",
+        "1.31 mm H₂O"
+      ],
+      [
+        "Motor type (phases)",
+        "Single phase"
+      ],
+      [
+        "Poles",
+        "4"
+      ],
+      [
+        "Slots",
+        "4"
+      ],
+      [
+        "Driver IC",
+        "NE-FD1"
+      ],
+      [
+        "Rated voltage",
+        "12 V"
+      ],
+      [
+        "Starting voltage",
+        "7 V"
+      ],
+      [
+        "Max. operating voltage",
+        "13.2 V"
+      ],
+      [
+        "Pin configuration",
+        ""
+      ],
+      [
+        "Pin 1",
+        "Black: Ground (GND)"
+      ],
+      [
+        "Pin 2",
+        "Yellow: Voltage (Vcc)"
+      ],
+      [
+        "Pin 3",
+        "Green: RPM Signal"
+      ],
+      [
+        "Pin 4",
+        "Blue: PWM Signal"
+      ],
+      [
+        "Input power (max)",
+        "0.9 W"
+      ],
+      [
+        "Input current (max)",
+        "0.075 A"
+      ],
+      [
+        "Safety standards",
+        "EN62368-1"
+      ],
+      [
+        "EMC standards",
+        "EN55032, EN55035"
+      ],
+      [
+        "UL",
+        ""
+      ],
+      [
+        "CE",
+        ""
+      ],
+      [
+        "UKCA",
+        ""
+      ],
+      [
+        "TÜV",
+        ""
+      ],
+      [
+        "Production standards",
+        "ISO 9001 & ISO 14001"
+      ],
+      [
+        "Flammability",
+        "UL 94 V-0"
+      ],
+      [
+        "REACH",
+        ""
+      ],
+      [
+        "RoHS",
+        ""
+      ],
+      [
+        "CMRT",
+        ""
+      ],
+      [
+        "EMRT",
+        ""
+      ],
+      [
+        "Ingress protection",
+        "IP50"
+      ],
+      [
+        "Operating temperature",
+        "-10°C to +70°C"
+      ],
+      [
+        "Operating humidity",
+        "15 – 90 %"
+      ],
+      [
+        "Storage temperature",
+        "-20°C to +75°C"
+      ],
+      [
+        "Storage humidity",
+        "15 – 90 %"
+      ],
+      [
+        "MTTF",
+        "> 150,000 h"
+      ],
+      [
+        "Locked rotor protection",
+        "Auto power off after locked at rated voltage for 1 sec. After auto power off, the circuit attempts to restart in 2 to 6 sec."
+      ],
+      [
+        "Polarity protection",
+        "Open circuit when Vcc & GND are exchanged. Circuit won't be burned within 5 sec when Vcc & GND are exchanged."
+      ],
+      [
+        "Overvoltage protection",
+        ""
+      ],
+      [
+        "Overcurrent protection",
+        ""
+      ],
+      [
+        "Insulation resistance",
+        "10 MΩ / between unshielded wire and frame at 500 VDC/min"
+      ],
+      [
+        "Dielectric strength",
+        "5 mA max. / measured between lead wire (+) and frame at 500 VAC/min"
+      ],
+      [
+        "Packaging weight (including product)",
+        "240 g"
+      ],
+      [
+        "EAN",
+        "4716123315285"
+      ],
+      [
+        "UPC",
+        "842431012371"
+      ],
+      [
+        "Packaging unit",
+        "20 pcs"
+      ],
+      [
+        "Packaging unit weight",
+        "5.8 kg"
+      ]
+    ],
+    "source": "https://www.noctua.at/en/products/nf-s12b-redux-1200-pwm/specifications",
+    "title": "NF-S12B redux-1200 PWM"
+  },
+  "nf-a12x25-flx": {
+    "images": [
+      {
+        "alt": "",
+        "src": "https://www.noctua.at/_next/image?url=https%3A%2F%2Fcdn.noctua.at%2Fmedia%2Fnf_a12x25_1.jpg&w=640&q=75"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/nf-a12x25r_dark.svg"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/highly_optimised_p_q_curve_dark.svg"
+      },
+      {
+        "alt": "",
+        "src": "https://cdn.noctua.at/media/flx_dark.svg"
+      }
+    ],
+    "rows": [
+      [
+        "Size (Form factor)",
+        "120 x 120 x 25 mm (square)"
+      ],
+      [
+        "Speed range",
+        "0 – 2000 rpm"
+      ],
+      [
+        "Airflow (max.)",
+        "102.1 m³/h (60.09 CFM)"
+      ],
+      [
+        "Acoustical noise (max.)",
+        "22.6 dB(A)"
+      ],
+      [
+        "Static pressure (max.)",
+        "2.34 mm H₂O"
+      ],
+      [
+        "Rated voltage",
+        "12 V"
+      ],
+      [
+        "Input power (typical)",
+        "1.32 W"
+      ],
+      [
+        "Connector",
+        "3-pin"
+      ],
+      [
+        "Colour",
+        "Brown"
+      ],
+      [
+        "Warranty",
+        "6 years"
+      ],
+      [
+        "Dimensions without anti-vibration pads",
+        "120 x 120 x 25 mm"
+      ],
+      [
+        "Dimensions with anti-vibration pads",
+        "120 x 120 x 27 mm"
+      ],
+      [
+        "Frame shape",
+        "Square"
+      ],
+      [
+        "Mounting hole spacing(s)",
+        "105 x 105 mm"
+      ],
+      [
+        "Weight",
+        "200 g"
+      ],
+      [
+        "Material frame",
+        "PBT ABS GF30"
+      ],
+      [
+        "Material impeller",
+        "LCP GF30"
+      ],
+      [
+        "Material anti-vibration pads",
+        "Silicone rubber"
+      ],
+      [
+        "Bearing",
+        "SSO2"
+      ],
+      [
+        "Rotational direction",
+        "Counter-clockwise"
+      ],
+      [
+        "Frame colour",
+        "Beige"
+      ],
+      [
+        "Impeller colour",
+        "Brown"
+      ],
+      [
+        "Anti-vibration pads colour",
+        "Brown"
+      ],
+      [
+        "Connector type",
+        "2510-3PIN (or equal)"
+      ],
+      [
+        "Cable length",
+        "200 mm"
+      ],
+      [
+        "Cable length with extension cable (included)",
+        "500 mm"
+      ],
+      [
+        "Wire",
+        "24 AWG"
+      ],
+      [
+        "Sleeving",
+        "Fibreglass silicone mesh"
+      ],
+      [
+        "Included adaptors",
+        "P-ATA (Molex)"
+      ],
+      [
+        "Rotational speed (max.)",
+        "2000 rpm"
+      ],
+      [
+        "Rotational speed with LNA (max.)",
+        "1700 rpm"
+      ],
+      [
+        "Rotational speed with ULNA (max.)",
+        "1350 rpm"
+      ],
+      [
+        "Acoustical noise (max.)",
+        "22.6 dB(A)"
+      ],
+      [
+        "Acoustical noise with LNA (max.)",
+        "18.8 dB(A)"
+      ],
+      [
+        "Acoustical noise with ULNA (max.)",
+        "14.2 dB(A)"
+      ],
+      [
+        "Airflow (max.)",
+        "102.1 m³/h (60.09 CFM)"
+      ],
+      [
+        "Airflow with LNA (max.)",
+        "84.5 m³/h (49.73 CFM)"
+      ],
+      [
+        "Airflow with ULNA (max.)",
+        "64.5 m³/h (37.96 CFM)"
+      ],
+      [
+        "Static pressure (max.)",
+        "2.34 mm H₂O"
+      ],
+      [
+        "Static pressure with LNA (max.)",
+        "1.65 mm H₂O"
+      ],
+      [
+        "Static pressure with ULNA (max.)",
+        "1.05 mm H₂O"
+      ],
+      [
+        "Motor type (phases)",
+        "Single phase"
+      ],
+      [
+        "Poles",
+        "4"
+      ],
+      [
+        "Slots",
+        "4"
+      ],
+      [
+        "Rated voltage",
+        "12 V"
+      ],
+      [
+        "Starting voltage",
+        "7 V"
+      ],
+      [
+        "Max. operating voltage",
+        "13.2 V"
+      ],
+      [
+        "Pin configuration",
+        ""
+      ],
+      [
+        "Pin 1",
+        "Black: Ground (GND)"
+      ],
+      [
+        "Pin 2",
+        "Red: Voltage (Vcc)"
+      ],
+      [
+        "Pin 3",
+        "Yellow: RPM Signal"
+      ],
+      [
+        "Input power (max)",
+        "1.68 W"
+      ],
+      [
+        "Input power (typical)",
+        "1.32 W"
+      ],
+      [
+        "Input current (max)",
+        "0.14 A"
+      ],
+      [
+        "Input current (typical)",
+        "0.11 A"
+      ],
+      [
+        "Safety standards",
+        "EN62368-1"
+      ],
+      [
+        "EMC standards",
+        "EN55032, EN55035"
+      ],
+      [
+        "UL",
+        ""
+      ],
+      [
+        "CE",
+        ""
+      ],
+      [
+        "UKCA",
+        ""
+      ],
+      [
+        "TÜV",
+        ""
+      ],
+      [
+        "Production standards",
+        "ISO 9001 & ISO 14001"
+      ],
+      [
+        "Flammability",
+        "UL 94 V-0"
+      ],
+      [
+        "REACH",
+        ""
+      ],
+      [
+        "RoHS",
+        ""
+      ],
+      [
+        "CMRT",
+        ""
+      ],
+      [
+        "EMRT",
+        ""
+      ],
+      [
+        "Ingress protection",
+        "IP50"
+      ],
+      [
+        "Operating temperature",
+        "-10°C to +60°C"
+      ],
+      [
+        "Operating humidity",
+        "15 – 90 %"
+      ],
+      [
+        "Storage temperature",
+        "-20°C to +65°C"
+      ],
+      [
+        "Storage humidity",
+        "– 90 %"
+      ],
+      [
+        "MTTF",
+        "> 150,000 h"
+      ],
+      [
+        "Locked rotor protection",
+        "Auto power off after locked at rated voltage for 1 sec. After auto power off, the circuit attempts to restart in 2 to 6 sec."
+      ],
+      [
+        "Polarity protection",
+        "Open circuit when Vcc & GND are exchanged. Circuit won't be burned within 5 sec when Vcc & GND are exchanged."
+      ],
+      [
+        "Overvoltage protection",
+        ""
+      ],
+      [
+        "Overcurrent protection",
+        ""
+      ],
+      [
+        "Insulation resistance",
+        "10 MΩ / between unshielded wire and frame at 500 VDC/min"
+      ],
+      [
+        "Dielectric strength",
+        "5 mA max. / measured between lead wire (+) and frame at 500 VAC/min"
+      ],
+      [
+        "Packaging weight (including product)",
+        "362 g"
+      ],
+      [
+        "EAN",
+        "9010018100389"
+      ],
+      [
+        "UPC",
+        "841501110382"
+      ],
+      [
+        "Packaging unit",
+        "36 pcs"
+      ],
+      [
+        "Packaging unit weight",
+        "14.64 kg"
+      ]
+    ],
+    "source": "https://www.noctua.at/en/products/nf-a12x25-flx/specifications",
+    "title": "NF-A12x25 FLX"
+  }
+}

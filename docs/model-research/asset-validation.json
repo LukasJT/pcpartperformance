@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-04T17:22:04.016Z",
-  "totalComponents": 816,
-  "downloadedMappings": 80,
+  "checkedAt": "2026-10-04T20:00:21.758Z",
+  "totalComponents": 839,
+  "downloadedMappings": 103,
   "simplifiedMappings": 736,
-  "uniqueFiles": 152,
+  "uniqueFiles": 190,
   "method": "Self-contained GLB, chunk lengths, embedded texture ranges, reachable scene transforms, nonzero volume and triangles. This does not certify shape identity or clearance.",
   "assets": [
     {
@@ -147,16 +147,16 @@
       "animations": 0
     },
     {
-      "file": "dist/assets/models/sketchfab-samsung-990-pro-1tb.glb",
-      "bytes": 1916612,
-      "sha256": "045f04ded64d377fac23c22f6fd2648e451e534120a5e263ece9b9240685ee59",
+      "file": "dist/assets/models/sketchfab-samsung-990-pro-polydavid.glb",
+      "bytes": 178936,
+      "sha256": "92947682e9abbfc844952e8a5635c7109842014403e727f431deb993d0fcda08",
       "meshes": 2,
-      "triangles": 2038,
-      "textures": 4,
+      "triangles": 236,
+      "textures": 2,
       "sourceBounds": [
-        4.332269571745329,
-        0.009141934927318017,
-        1.2010372623561845
+        1.1898016855409432,
+        0.10443855257908333,
+        4.28938627243042
       ],
       "animations": 0
     },
@@ -442,8 +442,8 @@
     },
     {
       "file": "dist/assets/models/sketchfab-ryzen5600x.glb",
-      "bytes": 37400660,
-      "sha256": "baec8992628a3099936b09a73030a4d40b0ebe56357bbb672d9d9de9d646f0a9",
+      "bytes": 11782336,
+      "sha256": "2250e9efe2a354e94dbe918a83ed7151162c0c98a63621df2704874aa81d2cf4",
       "meshes": 6,
       "triangles": 823517,
       "textures": 3,
@@ -651,16 +651,16 @@
       "animations": 0
     },
     {
-      "file": "dist/assets/models/sketchfab-ryzen-5-5600.glb",
-      "bytes": 1476440,
-      "sha256": "163a459b2b066927b4a6a651b1ea1f89cd29a8f505e0a8bdf5f7bf40015b9f21",
-      "meshes": 1,
-      "triangles": 13426,
-      "textures": 2,
+      "file": "dist/assets/models/sketchfab-ryzen5600-polydavid.glb",
+      "bytes": 9419556,
+      "sha256": "c4fad459fa709c1396bfb91c46759e874084c2a6931ced1c616340168f32a163",
+      "meshes": 6,
+      "triangles": 952348,
+      "textures": 3,
       "sourceBounds": [
-        0.04000000283122063,
-        0.006499228754854163,
-        0.0400000038900778
+        3.3188756461370694,
+        0.4368451736906845,
+        3.3345717334932123
       ],
       "animations": 0
     },
@@ -1156,15 +1156,15 @@
     },
     {
       "file": "dist/assets/models/noctua-nf-a14x25-g2.glb",
-      "bytes": 6567272,
-      "sha256": "b86adf9fad93d183978a296169178363cec6b0c2f9992f513b035e068cc43f62",
-      "meshes": 11,
+      "bytes": 1041076,
+      "sha256": "6af51f8edeb8036d1394c9c0f49475e439278f481627523ce66db72e11ea5de2",
+      "meshes": 4,
       "triangles": 227098,
       "textures": 0,
       "sourceBounds": [
-        0.13980000000000065,
-        0.13980000000000053,
-        0.027000000000054526
+        0.13979999721050262,
+        0.13979999721050262,
+        0.02699833315067173
       ],
       "animations": 0
     },
@@ -1184,15 +1184,15 @@
     },
     {
       "file": "dist/assets/models/noctua-nf-a12x25-g2.glb",
-      "bytes": 7932260,
-      "sha256": "2b117b18769231bea458517c048e0b39dc3e92b60a919d8e06b97e9372107d8f",
-      "meshes": 11,
+      "bytes": 1290428,
+      "sha256": "a8a45868c74484822806d7ec3513271443f1b5a8b92cd6abe406d2d86f7a2d97",
+      "meshes": 4,
       "triangles": 290118,
       "textures": 0,
       "sourceBounds": [
-        0.12000000000000012,
-        0.12000000000000009,
-        0.027000000000000902
+        0.11999999731779099,
+        0.11999999731779099,
+        0.026997893619396196
       ],
       "animations": 0
     },
@@ -1912,15 +1912,15 @@
     },
     {
       "file": "dist/assets/models/sketchfab-asus-b550f.glb",
-      "bytes": 25574976,
-      "sha256": "d25af9fc2751ccb1842028ef19ce82b317ea70c3ad86b1d21b3ac6f7e81ce942",
+      "bytes": 10822884,
+      "sha256": "19b363712311e9aa115207a0ecff7abecc2214630cc68b2d36f713311b95b6de",
       "meshes": 54,
       "triangles": 413400,
       "textures": 25,
       "sourceBounds": [
-        30.55688750239923,
+        30.556887502399235,
         4.9541721583706195,
-        30.85155790709503
+        30.851557907095028
       ],
       "animations": 0
     },
@@ -2009,6 +2009,286 @@
       "animations": 0
     },
     {
+      "file": "dist/assets/models/sketchfab-corsair-4000d-black.glb",
+      "bytes": 6195016,
+      "sha256": "578617928ac9581842308921d12f5c83ff718b8b18b8fcc3ec51cb997b26465c",
+      "meshes": 10,
+      "triangles": 7675,
+      "textures": 9,
+      "sourceBounds": [
+        0.281385620515765,
+        0.5703387789940076,
+        0.5514281630731294
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-msi-rtx3080-gaming-x-trio.glb",
+      "bytes": 1096844,
+      "sha256": "ca2e7ca508d981b8b4f93a5cf063bab31a893ff0f2c30234dd5c57f60aa606c0",
+      "meshes": 27,
+      "triangles": 64709,
+      "textures": 7,
+      "sourceBounds": [
+        7.638253539800644,
+        2.260724789629668,
+        3.376808818259337
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-b550-aorus-elite-v2.glb",
+      "bytes": 2391672,
+      "sha256": "3a952757649f2fdd39e73fa3e1b42750d90fb3a2763f94f38c31e90d6f5ddc67",
+      "meshes": 82,
+      "triangles": 33650,
+      "textures": 15,
+      "sourceBounds": [
+        3.4078650769285534,
+        0.7444809616493874,
+        4.709402417520986
+      ],
+      "animations": 1
+    },
+    {
+      "file": "dist/assets/models/sketchfab-nzxt-aer-p120.glb",
+      "bytes": 1850952,
+      "sha256": "822fd4c6b667d7df3e1a27eb71860de04cb0d8f45c0645dd08cddba5eeb14a22",
+      "meshes": 1,
+      "triangles": 12730,
+      "textures": 5,
+      "sourceBounds": [
+        12.000001430511475,
+        12.000001430511475,
+        2.6660973056466455
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/noctua-nf-a12x15.glb",
+      "bytes": 598376,
+      "sha256": "3ebe8945818a54ff91d1d929843ff94de1c637a2e2f12ecc6eab7d264ac1b675",
+      "meshes": 3,
+      "triangles": 134261,
+      "textures": 0,
+      "sourceBounds": [
+        0.12000000104308128,
+        0.12000000104308128,
+        0.01619810217845777
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/noctua-nf-a12x15-chromax.glb",
+      "bytes": 586160,
+      "sha256": "cd4581aa7fad7de24cbf04cc514b1f9aec1dead9ab98a916ac9f1ce2b03a29f6",
+      "meshes": 2,
+      "triangles": 132132,
+      "textures": 0,
+      "sourceBounds": [
+        0.12000000104308128,
+        0.12000000104308128,
+        0.01620166645144784
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/noctua-nf-a12x25.glb",
+      "bytes": 940260,
+      "sha256": "50f30d0adf37863e6e6cef6362e24b6e1bd9c26db43bfcee326dbcf8d761d8e2",
+      "meshes": 3,
+      "triangles": 212173,
+      "textures": 0,
+      "sourceBounds": [
+        0.11999999731779099,
+        0.026997893619396196,
+        0.11999999731779099
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/noctua-nf-a14.glb",
+      "bytes": 963064,
+      "sha256": "3331709ee765955cc7765357d3656ee50bd59918b739d9a7eab251849d37fb8c",
+      "meshes": 3,
+      "triangles": 214592,
+      "textures": 0,
+      "sourceBounds": [
+        0.13999738685087984,
+        0.14010000228881836,
+        0.02699148669672008
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/noctua-nf-a15.glb",
+      "bytes": 1177012,
+      "sha256": "eac8ca69287c281a757dbc0179829706643229064b38072bde716bc4a3833642",
+      "meshes": 4,
+      "triangles": 267178,
+      "textures": 0,
+      "sourceBounds": [
+        0.026988986421301542,
+        0.14009369739091446,
+        0.1512223184108734
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/noctua-nf-a20.glb",
+      "bytes": 958640,
+      "sha256": "230470552e5f9aea5fa902629e867ab83b394199b9dae4779246b3d727b079ca",
+      "meshes": 3,
+      "triangles": 214263,
+      "textures": 0,
+      "sourceBounds": [
+        0.20000000298023224,
+        0.03200122317399919,
+        0.20000000298023224
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/noctua-nf-a8.glb",
+      "bytes": 1015632,
+      "sha256": "ae2edb52ddf3041ce268540555e1572ed18330657d46a93a0230fad60482524f",
+      "meshes": 3,
+      "triangles": 226311,
+      "textures": 0,
+      "sourceBounds": [
+        0.08100000023841858,
+        0.08100000023841858,
+        0.02699670408043975
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/noctua-nf-a9x14.glb",
+      "bytes": 588256,
+      "sha256": "536d367ebf2ec416c1b96c72e7213c114cc5daf2c0895f8bc4933f42903b4611",
+      "meshes": 3,
+      "triangles": 124226,
+      "textures": 0,
+      "sourceBounds": [
+        0.09200000762939453,
+        0.09200000762939453,
+        0.015247010989945861
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/noctua-nf-p12-redux.glb",
+      "bytes": 433176,
+      "sha256": "46ec1620b293c7e3593a75af356c2c8f1a3695dc551cee4b142e420be81afa43",
+      "meshes": 3,
+      "triangles": 88463,
+      "textures": 0,
+      "sourceBounds": [
+        0.11900000274181366,
+        0.11900000274181366,
+        0.025200817919475125
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/noctua-nf-p14r-redux.glb",
+      "bytes": 206740,
+      "sha256": "7becdafdb49ea6eae2a8478fd29a7d7116ebacf6ed0768adf372ae12fa81c6d7",
+      "meshes": 3,
+      "triangles": 40649,
+      "textures": 0,
+      "sourceBounds": [
+        0.14010000228881836,
+        0.13999738685087984,
+        0.025152470645834545
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/noctua-nf-p14s-redux.glb",
+      "bytes": 372804,
+      "sha256": "25046723e4bc593c4cb5ed9a6794d20a88cd8ec14416c24646dc3bf2788aa2f1",
+      "meshes": 3,
+      "triangles": 74923,
+      "textures": 0,
+      "sourceBounds": [
+        0.13899999856948853,
+        0.13899999856948853,
+        0.025297623732521982
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/noctua-nf-s12a.glb",
+      "bytes": 879132,
+      "sha256": "5f99153993592a4ef2199ee87441f7c33711d737c2e1975149c0e3b555dbec5d",
+      "meshes": 3,
+      "triangles": 194567,
+      "textures": 0,
+      "sourceBounds": [
+        0.11999999731779099,
+        0.11999999731779099,
+        0.026997893619396196
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/noctua-nf-a4x20.glb",
+      "bytes": 524012,
+      "sha256": "4e2e181d6f1c379c8ee1718b7e6d9609b4c049d390e8d1227e4493f1b4f7cff2",
+      "meshes": 3,
+      "triangles": 113876,
+      "textures": 0,
+      "sourceBounds": [
+        0.03999900072813034,
+        0.02110119103324873,
+        0.03999900072813034
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/noctua-nf-a6x25.glb",
+      "bytes": 396972,
+      "sha256": "43d865f91e7ef06b734cafd5620b7ab9c7fb683e4966c694aea33bcbbb20a013",
+      "meshes": 4,
+      "triangles": 81690,
+      "textures": 0,
+      "sourceBounds": [
+        0.05999999865889549,
+        0.025998190415646077,
+        0.05999999865889549
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/noctua-nf-r8-redux.glb",
+      "bytes": 181388,
+      "sha256": "4e921bd82203cb78a935886a7e44c660eeb241c017724932d14575dd77d70ac1",
+      "meshes": 3,
+      "triangles": 35295,
+      "textures": 0,
+      "sourceBounds": [
+        0.07999999821186066,
+        0.07999999821186066,
+        0.025401182487888557
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/noctua-nf-s12b.glb",
+      "bytes": 377580,
+      "sha256": "93381cef6c2677d5880f15d2850acb09d199686a29c49688d8abc187714d39d6",
+      "meshes": 3,
+      "triangles": 76549,
+      "textures": 0,
+      "sourceBounds": [
+        0.11900000274181366,
+        0.11900000274181366,
+        0.025200817919475118
+      ],
+      "animations": 0
+    },
+    {
       "file": "dist/assets/models/sketchfab-asus-rtx4090-muha.glb",
       "bytes": 1705436,
       "sha256": "40f0a13254d82af63235a3783a10262beac89bcf58611f2c5e2548f3b0820fb0",
@@ -2066,14 +2346,14 @@
     },
     {
       "file": "dist/assets/models/sketchfab-logitech-g502-x-lightspeed.glb",
-      "bytes": 99800,
-      "sha256": "66a87df5cdce03c650814bde8c88c3a3745bc92e3cf8e0f0d0ac0a92fa97171c",
+      "bytes": 99504,
+      "sha256": "85b657b158efdf7b31c094655827d529a71d039fcc4766179ce3e65ac6be0e89",
       "meshes": 3,
       "triangles": 2334,
       "textures": 0,
       "sourceBounds": [
         3.3208752128286223,
-        1.682662803765851,
+        1.6826628037658522,
         5.639024157147203
       ],
       "animations": 0
@@ -2131,6 +2411,258 @@
         2.1437249276699504,
         3.915210194530849,
         0.3984554891747043
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-iphone-14-pro.glb",
+      "bytes": 1002816,
+      "sha256": "707304eab5afe68544364c53bf2c73e166f1114f77d5d18363fa839316f5b4a2",
+      "meshes": 1,
+      "triangles": 84740,
+      "textures": 4,
+      "sourceBounds": [
+        0.0835757557614465,
+        0.17093357399883424,
+        0.013041594744623724
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-iphone-12-pro.glb",
+      "bytes": 1036980,
+      "sha256": "670f57d6bd77fb8fef46ccab13230ffbfcbe6d1a72ae08d41c362c4c87418e2d",
+      "meshes": 17,
+      "triangles": 73187,
+      "textures": 4,
+      "sourceBounds": [
+        48.12465498019819,
+        98.50020481505412,
+        5.556950590748179
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-iphone-x.glb",
+      "bytes": 213364,
+      "sha256": "2d41414d5dffaf67809afe3e8f266b7699643ab8df71757db7d7238f6ac4776e",
+      "meshes": 4,
+      "triangles": 1018,
+      "textures": 2,
+      "sourceBounds": [
+        183.2135646781216,
+        365.42685962717337,
+        16.53047921124433
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-iphone-7.glb",
+      "bytes": 1816292,
+      "sha256": "e50d5397631b5fb2714f057c082aed46ee2822f630992b7f27fba0b55a6913f6",
+      "meshes": 12,
+      "triangles": 22825,
+      "textures": 2,
+      "sourceBounds": [
+        71.32092595435836,
+        7.001403068169735,
+        143.9998016357422
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-galaxy-s21-ultra.glb",
+      "bytes": 1151804,
+      "sha256": "d9d9f98f4959e2142a10311532be96c29ec035736c516a3f58d323da066f3666",
+      "meshes": 15,
+      "triangles": 24409,
+      "textures": 5,
+      "sourceBounds": [
+        45.58070506197321,
+        99.08736670728035,
+        5.956980121232622
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-pixel-6-pro.glb",
+      "bytes": 539388,
+      "sha256": "fc810ff7b5a2d6d168d61286e97c4440fadc734f7f4b4314f0805d5c492d81b6",
+      "meshes": 16,
+      "triangles": 10560,
+      "textures": 3,
+      "sourceBounds": [
+        0.10360534708013198,
+        0.22679113128243314,
+        0.015277429639132827
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-galaxy-s23-ultra.glb",
+      "bytes": 468172,
+      "sha256": "1e364944c2899812bc1a19fc116cc5f0ac17cd2d1195ca467238b8c2bc7f2d14",
+      "meshes": 18,
+      "triangles": 36588,
+      "textures": 5,
+      "sourceBounds": [
+        2.5307039485901943,
+        5.274701167644174,
+        0.34058556600418066
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-pixel-7-pro.glb",
+      "bytes": 643768,
+      "sha256": "c878dd20cd9880ee69cecf0c216f2fc6757f83194553fb23764775a8e3733245",
+      "meshes": 15,
+      "triangles": 53633,
+      "textures": 2,
+      "sourceBounds": [
+        0.07718614010681407,
+        0.16366778314113617,
+        0.011480443459385026
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-pixel-8-pro.glb",
+      "bytes": 173280,
+      "sha256": "04950e8e1bf185c5fbdffb01fa894a9a7c2ca4bf92bca9986568f3758d0fddda",
+      "meshes": 2,
+      "triangles": 540,
+      "textures": 2,
+      "sourceBounds": [
+        0.20563035633432342,
+        4.803947046164252,
+        2.2802972704514843
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-pixel-5.glb",
+      "bytes": 263288,
+      "sha256": "9b83ddb2fe9d7870c489833674047a838c9c79d67120c40776faa9e06e266173",
+      "meshes": 14,
+      "triangles": 42344,
+      "textures": 1,
+      "sourceBounds": [
+        1.1186718398822153,
+        2.676334077569569,
+        1.3123982419481086
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-pixel-6a.glb",
+      "bytes": 1401104,
+      "sha256": "4009a9d6a35c722950f8eddd3241973fd092a64b7218ccba839c4bd8934c182e",
+      "meshes": 1,
+      "triangles": 346,
+      "textures": 4,
+      "sourceBounds": [
+        18.421044030828217,
+        287.42970625481405,
+        136.67540820781645
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-pixel-6.glb",
+      "bytes": 610912,
+      "sha256": "692b28f8de9c9bd5d7b11d1a17bebf25578b1e61990dd6b97efd00d1d12c8fae",
+      "meshes": 4,
+      "triangles": 50275,
+      "textures": 3,
+      "sourceBounds": [
+        0.3459109866805017,
+        4.827285419460234,
+        2.2594713157315014
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-galaxy-z-flip3.glb",
+      "bytes": 224148,
+      "sha256": "f9df742cf592a7934b474af575393566a3408c42cdbaf2001378691936eb7fae",
+      "meshes": 17,
+      "triangles": 20269,
+      "textures": 3,
+      "sourceBounds": [
+        0.38719160246664247,
+        0.9129497444894605,
+        0.039284743141299
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-galaxy-s21.glb",
+      "bytes": 457812,
+      "sha256": "b1e6a2adb4510eba531f9a928c125cc4442fec3fde2225bd04a73b2668b23e96",
+      "meshes": 2,
+      "triangles": 4325,
+      "textures": 5,
+      "sourceBounds": [
+        7.392609528473009,
+        16.147832703812078,
+        0.80623616115261
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-galaxy-a23-5g.glb",
+      "bytes": 308564,
+      "sha256": "a2f51631d77c873be9a30186148376b658bba1417205fa6a90092febc33b0a22",
+      "meshes": 12,
+      "triangles": 58670,
+      "textures": 4,
+      "sourceBounds": [
+        1.5418359292678758,
+        3.30355966091156,
+        0.19698206840284477
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-galaxy-s3.glb",
+      "bytes": 1301740,
+      "sha256": "50a72d1bd5934232f6a31827c0b99d3c65ee4cef470a76036143d6ef3cfc2741",
+      "meshes": 2,
+      "triangles": 6245,
+      "textures": 3,
+      "sourceBounds": [
+        263.6207399968134,
+        511.30938720703125,
+        25.716051824005593
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-oneplus-7-pro.glb",
+      "bytes": 1023928,
+      "sha256": "6716f83eb4f945117b18172302ed3d6b504a5d5086dabebf76032e049cef91ae",
+      "meshes": 12,
+      "triangles": 70662,
+      "textures": 5,
+      "sourceBounds": [
+        0.43860822098279306,
+        0.9382957222003772,
+        0.03688267194279689
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-iphone-13.glb",
+      "bytes": 2389076,
+      "sha256": "8b3c38b0712617bd93fe83815ef45049a7940a70328882810fed2a4690a674d4",
+      "meshes": 23,
+      "triangles": 47328,
+      "textures": 12,
+      "sourceBounds": [
+        0.009868135296117419,
+        0.1466639043950161,
+        0.07219281942158925
       ],
       "animations": 0
     }

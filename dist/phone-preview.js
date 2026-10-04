@@ -2,8 +2,8 @@
 (()=>{
  'use strict';
  let registry,engine;const views=new Map();
- const models=()=>registry||(registry=fetch('/data/phone-models.json?v=20261004b').then(r=>{if(!r.ok)throw Error('Model list unavailable');return r.json()}).catch(e=>{registry=null;throw e}));
- const library=()=>engine||(engine=import('/phone-scene.js?v=20261004b').catch(e=>{engine=null;throw e}));
+ const models=()=>registry||(registry=fetch('/data/phone-models.json?v=20261004d').then(r=>{if(!r.ok)throw Error('Model list unavailable');return r.json()}).catch(e=>{registry=null;throw e}));
+ const library=()=>engine||(engine=import('/phone-scene.js?v=20261004d').catch(e=>{engine=null;throw e}));
  const disposeRemoved=()=>{for(const [el,v]of views)if(!el.isConnected){v.close();views.delete(el)}};
  async function mount(){
   disposeRemoved();const targets=[...document.querySelectorAll('[data-phone-preview]:not([data-preview-ready])')];if(!targets.length)return;

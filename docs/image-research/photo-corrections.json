@@ -1,6 +1,6 @@
 {
-  "verifiedOverrides": 50,
-  "verifiedMappings": 58,
+  "verifiedOverrides": 79,
+  "verifiedMappings": 84,
   "unresolvedMappings": [
     {
       "id": "b450",
@@ -1443,12 +1443,6 @@
       "oldAsset": "/assets/hardware/device-new-device-34.webp"
     },
     {
-      "id": "x-phone-iphone-7",
-      "name": "iPhone 7",
-      "picturedModel": "Apple iPhone 4",
-      "oldAsset": "/assets/hardware/device-new-device-34.webp"
-    },
-    {
       "id": "x-phone-iphone-7-plus",
       "name": "iPhone 7 Plus",
       "picturedModel": "Apple iPhone 4",
@@ -1465,12 +1459,6 @@
       "name": "iPhone 8 Plus",
       "picturedModel": "Apple iPhone 4",
       "oldAsset": "/assets/hardware/device-new-device-34.webp"
-    },
-    {
-      "id": "x-phone-iphone-x",
-      "name": "iPhone X",
-      "picturedModel": "iPhone 15 Pro",
-      "oldAsset": "/assets/hardware/device-new-device-1.webp"
     },
     {
       "id": "x-phone-iphone-xr",
@@ -2755,6 +2743,24 @@
       "name": "GeForce RTX 4090 AERO OC 24G",
       "picturedModel": "GeForce RTX 4090 AERO OC 24G — simplified illustration",
       "oldAsset": "/assets/illustrations/retail-gigabyte-geforce-rtx-4090-aero-oc-24g.svg"
+    },
+    {
+      "id": "retail-gigabyte-b550-aorus-elite-v2",
+      "name": "B550 AORUS ELITE V2",
+      "picturedModel": "B550 AORUS ELITE V2 — simplified illustration",
+      "oldAsset": "/assets/illustrations/retail-gigabyte-b550-aorus-elite-v2.svg"
+    },
+    {
+      "id": "iphone-13",
+      "name": "iPhone 13"
+    },
+    {
+      "id": "galaxy-a23-5g",
+      "name": "Galaxy A23 5G"
+    },
+    {
+      "id": "galaxy-s3",
+      "name": "Galaxy S III"
     }
   ],
   "policy": "Do not show another CPU, motherboard or graphics chip as the selected product. Genuine same-chip partner images explicitly name the photographed variant. Unverified products retain specifications with an image-unavailable state."

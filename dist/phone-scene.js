@@ -9,7 +9,7 @@ export async function createPhoneScene(stage,model,onLost){
  const canvas=renderer.domElement;canvas.tabIndex=0;canvas.setAttribute('role','img');canvas.setAttribute('aria-label',model.name+' interactive 3D. Drag or use arrow keys to rotate. Plus and minus zoom.');stage.append(canvas);
  const scene=new THREE.Scene(),camera=new THREE.PerspectiveCamera(35,1,.01,1000),controls=new OrbitControls(camera,canvas);
  controls.enableDamping=false;controls.enablePan=false;controls.enableZoom=true;
- scene.add(new THREE.HemisphereLight(0xffffff,0x748398,3));const key=new THREE.DirectionalLight(0xffffff,3);key.position.set(3,4,5);scene.add(key);
+ scene.add(new THREE.HemisphereLight(0xffffff,0x748398,1.3));const key=new THREE.DirectionalLight(0xfff8ef,2.2);key.position.set(3,4,5);scene.add(key);const rim=new THREE.DirectionalLight(0xd7e5ff,1.5);rim.position.set(-3,2,-4);scene.add(rim);
  const studio=new THREE.Scene();studio.background=new THREE.Color(0xaaaaaa);
  for(const p of [[-3,2,0],[2,3,1],[0,1,-3]]){const panel=new THREE.Mesh(new THREE.PlaneGeometry(3,3),new THREE.MeshBasicMaterial({color:0xffffff,side:THREE.DoubleSide}));panel.position.set(...p);panel.lookAt(0,0,0);studio.add(panel)}
  const pmrem=new THREE.PMREMGenerator(renderer),environment=pmrem.fromScene(studio,.08,.1,20,{size:128});scene.environment=environment.texture;pmrem.dispose();studio.traverse(n=>{n.geometry?.dispose();n.material?.dispose()});
