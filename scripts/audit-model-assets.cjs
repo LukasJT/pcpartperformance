@@ -49,7 +49,8 @@ if(require.main===module)(async()=>{
  if(process.argv[2]) { console.log(JSON.stringify(await inspect(process.argv[2]),null,2));return; }
  const manifest=JSON.parse(fs.readFileSync('dist/model-library.json'));
  const peripherals=require('./peripheral-models.json');
- const files=[...new Set([...manifest.items.map(x=>'dist'+x.model),...Object.values(peripherals).map(x=>'dist/assets/models/'+x.asset)])];
+ const phones=require('./phone-models.json');
+ const files=[...new Set([...manifest.items.map(x=>'dist'+x.model),...Object.values(peripherals).map(x=>'dist/assets/models/'+x.asset),...Object.values(phones).map(x=>'dist/assets/models/'+x.asset)])];
  const assets=[];
  for(const file of files)assets.push({file,...await inspect(file)});
  fs.mkdirSync('docs/model-research',{recursive:true});

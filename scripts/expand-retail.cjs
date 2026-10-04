@@ -81,7 +81,7 @@ for(const [id,image] of Object.entries(JSON.parse(fs.readFileSync('scripts/retai
  images[id]=image;
 }
 for(const [id,image] of Object.entries(JSON.parse(fs.readFileSync('scripts/core-image-overrides.json','utf8')))){
- if(!images[id])throw new Error('Photo override has no core part: '+id);
+ // Core overrides may restore a previously removed fallback mapping.
  if(!fs.existsSync('dist'+image.src))throw new Error('Photo file missing: '+image.src);
  images[id]=image;
 }

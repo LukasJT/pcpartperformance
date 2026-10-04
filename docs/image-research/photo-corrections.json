@@ -1,0 +1,2761 @@
+{
+  "verifiedOverrides": 50,
+  "verifiedMappings": 58,
+  "unresolvedMappings": [
+    {
+      "id": "b450",
+      "name": "B450 TOMAHAWK MAX",
+      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
+      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+    },
+    {
+      "id": "rtx4060ti",
+      "name": "GeForce RTX 4060 Ti 8 GB",
+      "picturedModel": "ASUS TUF GeForce RTX 4080 SUPER OC",
+      "oldAsset": "/assets/hardware/gpu-ada.png"
+    },
+    {
+      "id": "rtx3060ti",
+      "name": "GeForce RTX 3060 Ti",
+      "picturedModel": "NVIDIA GeForce RTX 3090 Founders Edition",
+      "oldAsset": "/assets/hardware/gpu-ampere.optimized.jpg"
+    },
+    {
+      "id": "rtx2080ti",
+      "name": "GeForce RTX 2080 Ti",
+      "picturedModel": "NVIDIA TITAN RTX",
+      "oldAsset": "/assets/hardware/gpu-turing.optimized.jpg"
+    },
+    {
+      "id": "rtx2070s",
+      "name": "GeForce RTX 2070 SUPER",
+      "picturedModel": "NVIDIA TITAN RTX",
+      "oldAsset": "/assets/hardware/gpu-turing.optimized.jpg"
+    },
+    {
+      "id": "gtx1080",
+      "name": "GeForce GTX 1080",
+      "picturedModel": "NVIDIA GeForce GTX 1080 Ti Founders Edition",
+      "oldAsset": "/assets/hardware/gpu-pascal.png"
+    },
+    {
+      "id": "gtx1070",
+      "name": "GeForce GTX 1070",
+      "picturedModel": "NVIDIA GeForce GTX 1080 Ti Founders Edition",
+      "oldAsset": "/assets/hardware/gpu-pascal.png"
+    },
+    {
+      "id": "gtx1060",
+      "name": "GeForce GTX 1060 6 GB",
+      "picturedModel": "NVIDIA GeForce GTX 1080 Ti Founders Edition",
+      "oldAsset": "/assets/hardware/gpu-pascal.png"
+    },
+    {
+      "id": "gtx980ti",
+      "name": "GeForce GTX 980 Ti",
+      "picturedModel": "Gigabyte GeForce GTX 970 Windforce",
+      "oldAsset": "/assets/hardware/gpu-maxwell.jpg"
+    },
+    {
+      "id": "rx7900xt",
+      "name": "Radeon RX 7900 XT",
+      "picturedModel": "ASUS TUF Radeon RX 7900 XTX OC",
+      "oldAsset": "/assets/hardware/gpu-rdna3.png"
+    },
+    {
+      "id": "rx7800xt",
+      "name": "Radeon RX 7800 XT",
+      "picturedModel": "ASUS TUF Radeon RX 7900 XTX OC",
+      "oldAsset": "/assets/hardware/gpu-rdna3.png"
+    },
+    {
+      "id": "rx7700xt",
+      "name": "Radeon RX 7700 XT",
+      "picturedModel": "ASUS TUF Radeon RX 7900 XTX OC",
+      "oldAsset": "/assets/hardware/gpu-rdna3.png"
+    },
+    {
+      "id": "rx7600",
+      "name": "Radeon RX 7600",
+      "picturedModel": "ASUS TUF Radeon RX 7900 XTX OC",
+      "oldAsset": "/assets/hardware/gpu-rdna3.png"
+    },
+    {
+      "id": "rx6950xt",
+      "name": "Radeon RX 6950 XT",
+      "picturedModel": "ASUS TUF Gaming Radeon RX 6800 XT OC",
+      "oldAsset": "/assets/hardware/gpu-rdna2.optimized.jpg"
+    },
+    {
+      "id": "rx6900xt",
+      "name": "Radeon RX 6900 XT",
+      "picturedModel": "ASUS TUF Gaming Radeon RX 6800 XT OC",
+      "oldAsset": "/assets/hardware/gpu-rdna2.optimized.jpg"
+    },
+    {
+      "id": "rx6800",
+      "name": "Radeon RX 6800",
+      "picturedModel": "ASUS TUF Gaming Radeon RX 6800 XT OC",
+      "oldAsset": "/assets/hardware/gpu-rdna2.optimized.jpg"
+    },
+    {
+      "id": "rx6700xt",
+      "name": "Radeon RX 6700 XT",
+      "picturedModel": "ASUS TUF Gaming Radeon RX 6800 XT OC",
+      "oldAsset": "/assets/hardware/gpu-rdna2.optimized.jpg"
+    },
+    {
+      "id": "rx6600",
+      "name": "Radeon RX 6600",
+      "picturedModel": "ASUS TUF Gaming Radeon RX 6800 XT OC",
+      "oldAsset": "/assets/hardware/gpu-rdna2.optimized.jpg"
+    },
+    {
+      "id": "rx5700xt",
+      "name": "Radeon RX 5700 XT",
+      "picturedModel": "ASUS TUF Gaming Radeon RX 6800 XT OC",
+      "oldAsset": "/assets/hardware/gpu-rdna2.optimized.jpg"
+    },
+    {
+      "id": "rx580",
+      "name": "Radeon RX 580",
+      "picturedModel": "XFX Radeon RX 570 RS 8GB XXX Edition",
+      "oldAsset": "/assets/hardware/gpu-polaris.jpg"
+    },
+    {
+      "id": "arca750",
+      "name": "Arc A750",
+      "picturedModel": "Intel Arc A770 Limited Edition",
+      "oldAsset": "/assets/hardware/gpu-arca770.jpg"
+    },
+    {
+      "id": "9950x3d",
+      "name": "Ryzen 9 9950X3D",
+      "picturedModel": "AMD Ryzen 9 9900X3D",
+      "oldAsset": "/assets/hardware/official-core-official-core-9950x3d.jpg"
+    },
+    {
+      "id": "9900x",
+      "name": "Ryzen 9 9900X",
+      "picturedModel": "AMD Ryzen 9 9950X",
+      "oldAsset": "/assets/hardware/official-core-official-core-9900x.jpg"
+    },
+    {
+      "id": "7950x3d",
+      "name": "Ryzen 9 7950X3D",
+      "picturedModel": "AMD Ryzen 9 7900X",
+      "oldAsset": "/assets/hardware/cpu-ryzen-am5.jpg"
+    },
+    {
+      "id": "7950x",
+      "name": "Ryzen 9 7950X",
+      "picturedModel": "AMD Ryzen 9 7900X",
+      "oldAsset": "/assets/hardware/cpu-ryzen-am5.jpg"
+    },
+    {
+      "id": "7700x",
+      "name": "Ryzen 7 7700X",
+      "picturedModel": "AMD Ryzen 9 7900X",
+      "oldAsset": "/assets/hardware/cpu-ryzen-am5.jpg"
+    },
+    {
+      "id": "7600x",
+      "name": "Ryzen 5 7600X",
+      "picturedModel": "AMD Ryzen 9 7900X",
+      "oldAsset": "/assets/hardware/cpu-ryzen-am5.jpg"
+    },
+    {
+      "id": "5950x",
+      "name": "Ryzen 9 5950X",
+      "picturedModel": "AMD Ryzen 7 3700X",
+      "oldAsset": "/assets/hardware/cpu-ryzen-am4.jpg"
+    },
+    {
+      "id": "5900x",
+      "name": "Ryzen 9 5900X",
+      "picturedModel": "AMD Ryzen 7 3700X",
+      "oldAsset": "/assets/hardware/cpu-ryzen-am4.jpg"
+    },
+    {
+      "id": "5800x",
+      "name": "Ryzen 7 5800X",
+      "picturedModel": "AMD Ryzen 7 3700X",
+      "oldAsset": "/assets/hardware/cpu-ryzen-am4.jpg"
+    },
+    {
+      "id": "5600x",
+      "name": "Ryzen 5 5600X",
+      "picturedModel": "AMD Ryzen 7 3700X",
+      "oldAsset": "/assets/hardware/cpu-ryzen-am4.jpg"
+    },
+    {
+      "id": "3950x",
+      "name": "Ryzen 9 3950X",
+      "picturedModel": "AMD Ryzen 7 3700X",
+      "oldAsset": "/assets/hardware/cpu-ryzen-am4.jpg"
+    },
+    {
+      "id": "3600",
+      "name": "Ryzen 5 3600",
+      "picturedModel": "AMD Ryzen 7 3700X",
+      "oldAsset": "/assets/hardware/cpu-ryzen-am4.jpg"
+    },
+    {
+      "id": "2700x",
+      "name": "Ryzen 7 2700X",
+      "picturedModel": "AMD Ryzen 7 3700X",
+      "oldAsset": "/assets/hardware/cpu-ryzen-am4.jpg"
+    },
+    {
+      "id": "1600",
+      "name": "Ryzen 5 1600",
+      "picturedModel": "AMD Ryzen 7 3700X",
+      "oldAsset": "/assets/hardware/cpu-ryzen-am4.jpg"
+    },
+    {
+      "id": "ultra7265k",
+      "name": "Core Ultra 7 265K",
+      "picturedModel": "Intel Core Ultra 9 285K",
+      "oldAsset": "/assets/hardware/cpu-core-ultra.jpg"
+    },
+    {
+      "id": "i914900k",
+      "name": "Core i9-14900K",
+      "picturedModel": "Intel Core i7-13700K",
+      "oldAsset": "/assets/hardware/cpu-core-lga1700.jpg"
+    },
+    {
+      "id": "i714700k",
+      "name": "Core i7-14700K",
+      "picturedModel": "Intel Core i7-13700K",
+      "oldAsset": "/assets/hardware/cpu-core-lga1700.jpg"
+    },
+    {
+      "id": "i514600k",
+      "name": "Core i5-14600K",
+      "picturedModel": "Intel Core i7-13700K",
+      "oldAsset": "/assets/hardware/cpu-core-lga1700.jpg"
+    },
+    {
+      "id": "i913900k",
+      "name": "Core i9-13900K",
+      "picturedModel": "Intel Core i7-13700K",
+      "oldAsset": "/assets/hardware/cpu-core-lga1700.jpg"
+    },
+    {
+      "id": "i513600k",
+      "name": "Core i5-13600K",
+      "picturedModel": "Intel Core i7-13700K",
+      "oldAsset": "/assets/hardware/cpu-core-lga1700.jpg"
+    },
+    {
+      "id": "i912900k",
+      "name": "Core i9-12900K",
+      "picturedModel": "Intel Core i7-13700K",
+      "oldAsset": "/assets/hardware/cpu-core-lga1700.jpg"
+    },
+    {
+      "id": "i712700k",
+      "name": "Core i7-12700K",
+      "picturedModel": "Intel Core i7-13700K",
+      "oldAsset": "/assets/hardware/cpu-core-lga1700.jpg"
+    },
+    {
+      "id": "i512600k",
+      "name": "Core i5-12600K",
+      "picturedModel": "Intel Core i7-13700K",
+      "oldAsset": "/assets/hardware/cpu-core-lga1700.jpg"
+    },
+    {
+      "id": "i910900k",
+      "name": "Core i9-10900K",
+      "picturedModel": "Intel Core i5-10500TE",
+      "oldAsset": "/assets/hardware/cpu-core-lga1200.jpg"
+    },
+    {
+      "id": "i99900k",
+      "name": "Core i9-9900K",
+      "picturedModel": "Intel Core i7-8700K",
+      "oldAsset": "/assets/hardware/cpu-core-coffee.jpg"
+    },
+    {
+      "id": "i77700k",
+      "name": "Core i7-7700K",
+      "picturedModel": "Intel Core i7-8700K",
+      "oldAsset": "/assets/hardware/cpu-core-coffee.jpg"
+    },
+    {
+      "id": "i74790k",
+      "name": "Core i7-4790K",
+      "picturedModel": "Intel Core i7-4771",
+      "oldAsset": "/assets/hardware/cpu-core-haswell.jpg"
+    },
+    {
+      "id": "rtx5060",
+      "name": "GeForce RTX 5060",
+      "picturedModel": "ASUS Prime GeForce RTX 5070 OC",
+      "oldAsset": "/assets/hardware/gpu-blackwell.png"
+    },
+    {
+      "id": "rtx5050",
+      "name": "GeForce RTX 5050",
+      "picturedModel": "ASUS Prime GeForce RTX 5070 OC",
+      "oldAsset": "/assets/hardware/gpu-blackwell.png"
+    },
+    {
+      "id": "rx9060xt16",
+      "name": "Radeon RX 9060 XT 16 GB",
+      "picturedModel": "ASUS TUF Gaming Radeon RX 9070 XT OC",
+      "oldAsset": "/assets/hardware/gpu-rdna4.optimized.jpg"
+    },
+    {
+      "id": "rx6750xt",
+      "name": "Radeon RX 6750 XT",
+      "picturedModel": "ASUS TUF Gaming Radeon RX 6800 XT OC",
+      "oldAsset": "/assets/hardware/gpu-rdna2.optimized.jpg"
+    },
+    {
+      "id": "rx6650xt",
+      "name": "Radeon RX 6650 XT",
+      "picturedModel": "ASUS TUF Gaming Radeon RX 6800 XT OC",
+      "oldAsset": "/assets/hardware/gpu-rdna2.optimized.jpg"
+    },
+    {
+      "id": "rx6600xt",
+      "name": "Radeon RX 6600 XT",
+      "picturedModel": "ASUS TUF Gaming Radeon RX 6800 XT OC",
+      "oldAsset": "/assets/hardware/gpu-rdna2.optimized.jpg"
+    },
+    {
+      "id": "rx6500xt",
+      "name": "Radeon RX 6500 XT",
+      "picturedModel": "ASUS TUF Gaming Radeon RX 6800 XT OC",
+      "oldAsset": "/assets/hardware/gpu-rdna2.optimized.jpg"
+    },
+    {
+      "id": "rx6400",
+      "name": "Radeon RX 6400",
+      "picturedModel": "ASUS TUF Gaming Radeon RX 6800 XT OC",
+      "oldAsset": "/assets/hardware/gpu-rdna2.optimized.jpg"
+    },
+    {
+      "id": "rx5600xt",
+      "name": "Radeon RX 5600 XT",
+      "picturedModel": "ASUS TUF Gaming Radeon RX 6800 XT OC",
+      "oldAsset": "/assets/hardware/gpu-rdna2.optimized.jpg"
+    },
+    {
+      "id": "rx5500xt",
+      "name": "Radeon RX 5500 XT 8 GB",
+      "picturedModel": "ASUS TUF Gaming Radeon RX 6800 XT OC",
+      "oldAsset": "/assets/hardware/gpu-rdna2.optimized.jpg"
+    },
+    {
+      "id": "veg64",
+      "name": "Radeon RX Vega 64",
+      "picturedModel": "VisionTek Radeon HD 7970",
+      "oldAsset": "/assets/hardware/gpu-hd7970.png"
+    },
+    {
+      "id": "arcb570",
+      "name": "Arc B570",
+      "picturedModel": "Intel Arc B580 Limited Edition",
+      "oldAsset": "/assets/hardware/gpu-arcb580.jpg"
+    },
+    {
+      "id": "arca580",
+      "name": "Arc A580",
+      "picturedModel": "Intel Arc A770 Limited Edition",
+      "oldAsset": "/assets/hardware/gpu-arca770.jpg"
+    },
+    {
+      "id": "arca380",
+      "name": "Arc A380",
+      "picturedModel": "Intel Arc A770 Limited Edition",
+      "oldAsset": "/assets/hardware/gpu-arca770.jpg"
+    },
+    {
+      "id": "gtx980",
+      "name": "GeForce GTX 980",
+      "picturedModel": "Gigabyte GeForce GTX 970 Windforce",
+      "oldAsset": "/assets/hardware/gpu-maxwell.jpg"
+    },
+    {
+      "id": "7900x3d",
+      "name": "Ryzen 9 7900X3D",
+      "picturedModel": "AMD Ryzen 9 7900X",
+      "oldAsset": "/assets/hardware/cpu-ryzen-am5.jpg"
+    },
+    {
+      "id": "7900",
+      "name": "Ryzen 9 7900",
+      "picturedModel": "AMD Ryzen 9 7900X",
+      "oldAsset": "/assets/hardware/cpu-ryzen-am5.jpg"
+    },
+    {
+      "id": "7700",
+      "name": "Ryzen 7 7700",
+      "picturedModel": "AMD Ryzen 9 7900X",
+      "oldAsset": "/assets/hardware/cpu-ryzen-am5.jpg"
+    },
+    {
+      "id": "7600",
+      "name": "Ryzen 5 7600",
+      "picturedModel": "AMD Ryzen 9 7900X",
+      "oldAsset": "/assets/hardware/cpu-ryzen-am5.jpg"
+    },
+    {
+      "id": "5700x3d",
+      "name": "Ryzen 7 5700X3D",
+      "picturedModel": "AMD Ryzen 7 3700X",
+      "oldAsset": "/assets/hardware/cpu-ryzen-am4.jpg"
+    },
+    {
+      "id": "5700x",
+      "name": "Ryzen 7 5700X",
+      "picturedModel": "AMD Ryzen 7 3700X",
+      "oldAsset": "/assets/hardware/cpu-ryzen-am4.jpg"
+    },
+    {
+      "id": "5600",
+      "name": "Ryzen 5 5600",
+      "picturedModel": "AMD Ryzen 7 3700X",
+      "oldAsset": "/assets/hardware/cpu-ryzen-am4.jpg"
+    },
+    {
+      "id": "3800x",
+      "name": "Ryzen 7 3800X",
+      "picturedModel": "AMD Ryzen 7 3700X",
+      "oldAsset": "/assets/hardware/cpu-ryzen-am4.jpg"
+    },
+    {
+      "id": "2600x",
+      "name": "Ryzen 5 2600X",
+      "picturedModel": "AMD Ryzen 7 3700X",
+      "oldAsset": "/assets/hardware/cpu-ryzen-am4.jpg"
+    },
+    {
+      "id": "ultra5245k",
+      "name": "Core Ultra 5 245K",
+      "picturedModel": "Intel Core Ultra 9 285K",
+      "oldAsset": "/assets/hardware/cpu-core-ultra.jpg"
+    },
+    {
+      "id": "i911900k",
+      "name": "Core i9-11900K",
+      "picturedModel": "Intel Core i5-10500TE",
+      "oldAsset": "/assets/hardware/cpu-core-lga1200.jpg"
+    },
+    {
+      "id": "i711700k",
+      "name": "Core i7-11700K",
+      "picturedModel": "Intel Core i5-10500TE",
+      "oldAsset": "/assets/hardware/cpu-core-lga1200.jpg"
+    },
+    {
+      "id": "i511600k",
+      "name": "Core i5-11600K",
+      "picturedModel": "Intel Core i5-10500TE",
+      "oldAsset": "/assets/hardware/cpu-core-lga1200.jpg"
+    },
+    {
+      "id": "i710700k",
+      "name": "Core i7-10700K",
+      "picturedModel": "Intel Core i5-10500TE",
+      "oldAsset": "/assets/hardware/cpu-core-lga1200.jpg"
+    },
+    {
+      "id": "i79700k",
+      "name": "Core i7-9700K",
+      "picturedModel": "Intel Core i7-8700K",
+      "oldAsset": "/assets/hardware/cpu-core-coffee.jpg"
+    },
+    {
+      "id": "i76700k",
+      "name": "Core i7-6700K",
+      "picturedModel": "Intel Core i7-8700K",
+      "oldAsset": "/assets/hardware/cpu-core-coffee.jpg"
+    },
+    {
+      "id": "i73770k",
+      "name": "Core i7-3770K",
+      "picturedModel": "Intel Core i7-2600K",
+      "oldAsset": "/assets/hardware/cpu-core-sandy.jpg"
+    },
+    {
+      "id": "b650ehero",
+      "name": "ROG STRIX B650E-E GAMING WIFI",
+      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
+      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+    },
+    {
+      "id": "b550f",
+      "name": "ROG STRIX B550-F GAMING WIFI II",
+      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
+      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+    },
+    {
+      "id": "b760plus",
+      "name": "TUF GAMING B760-PLUS WIFI",
+      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
+      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+    },
+    {
+      "id": "b650aorus",
+      "name": "B650 AORUS ELITE AX",
+      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
+      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+    },
+    {
+      "id": "z790aorus",
+      "name": "Z790 AORUS ELITE AX",
+      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
+      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+    },
+    {
+      "id": "rtx3090ti",
+      "name": "GeForce RTX 3090 Ti",
+      "picturedModel": "NVIDIA GeForce RTX 3090 Founders Edition",
+      "oldAsset": "/assets/hardware/gpu-ampere.optimized.jpg"
+    },
+    {
+      "id": "rtx3080ti",
+      "name": "GeForce RTX 3080 Ti",
+      "picturedModel": "NVIDIA GeForce RTX 3090 Founders Edition",
+      "oldAsset": "/assets/hardware/gpu-ampere.optimized.jpg"
+    },
+    {
+      "id": "rtx3070ti",
+      "name": "GeForce RTX 3070 Ti",
+      "picturedModel": "NVIDIA GeForce RTX 3090 Founders Edition",
+      "oldAsset": "/assets/hardware/gpu-ampere.optimized.jpg"
+    },
+    {
+      "id": "rtx2080s",
+      "name": "GeForce RTX 2080 SUPER",
+      "picturedModel": "NVIDIA TITAN RTX",
+      "oldAsset": "/assets/hardware/gpu-turing.optimized.jpg"
+    },
+    {
+      "id": "rtx2060s",
+      "name": "GeForce RTX 2060 SUPER",
+      "picturedModel": "NVIDIA TITAN RTX",
+      "oldAsset": "/assets/hardware/gpu-turing.optimized.jpg"
+    },
+    {
+      "id": "gtx1660ti",
+      "name": "GeForce GTX 1660 Ti",
+      "picturedModel": "NVIDIA TITAN RTX",
+      "oldAsset": "/assets/hardware/gpu-turing.optimized.jpg"
+    },
+    {
+      "id": "gtx1660s",
+      "name": "GeForce GTX 1660 SUPER",
+      "picturedModel": "NVIDIA TITAN RTX",
+      "oldAsset": "/assets/hardware/gpu-turing.optimized.jpg"
+    },
+    {
+      "id": "gtx1660",
+      "name": "GeForce GTX 1660",
+      "picturedModel": "NVIDIA TITAN RTX",
+      "oldAsset": "/assets/hardware/gpu-turing.optimized.jpg"
+    },
+    {
+      "id": "gtx1650s",
+      "name": "GeForce GTX 1650 SUPER",
+      "picturedModel": "NVIDIA TITAN RTX",
+      "oldAsset": "/assets/hardware/gpu-turing.optimized.jpg"
+    },
+    {
+      "id": "gtx1650",
+      "name": "GeForce GTX 1650",
+      "picturedModel": "NVIDIA TITAN RTX",
+      "oldAsset": "/assets/hardware/gpu-turing.optimized.jpg"
+    },
+    {
+      "id": "gtx1070ti",
+      "name": "GeForce GTX 1070 Ti",
+      "picturedModel": "NVIDIA GeForce GTX 1080 Ti Founders Edition",
+      "oldAsset": "/assets/hardware/gpu-pascal.png"
+    },
+    {
+      "id": "gtx1050ti",
+      "name": "GeForce GTX 1050 Ti",
+      "picturedModel": "NVIDIA GeForce GTX 1080 Ti Founders Edition",
+      "oldAsset": "/assets/hardware/gpu-pascal.png"
+    },
+    {
+      "id": "titanxp",
+      "name": "TITAN Xp",
+      "picturedModel": "NVIDIA GeForce GTX 1080 Ti Founders Edition",
+      "oldAsset": "/assets/hardware/gpu-pascal.png"
+    },
+    {
+      "id": "gtx960",
+      "name": "GeForce GTX 960",
+      "picturedModel": "Gigabyte GeForce GTX 970 Windforce",
+      "oldAsset": "/assets/hardware/gpu-maxwell.jpg"
+    },
+    {
+      "id": "gtx780ti",
+      "name": "GeForce GTX 780 Ti",
+      "picturedModel": "NVIDIA GeForce GTX TITAN",
+      "oldAsset": "/assets/hardware/gpu-kepler.jpg"
+    },
+    {
+      "id": "gtx780",
+      "name": "GeForce GTX 780",
+      "picturedModel": "NVIDIA GeForce GTX TITAN",
+      "oldAsset": "/assets/hardware/gpu-kepler.jpg"
+    },
+    {
+      "id": "gtx770",
+      "name": "GeForce GTX 770",
+      "picturedModel": "NVIDIA GeForce GTX TITAN",
+      "oldAsset": "/assets/hardware/gpu-kepler.jpg"
+    },
+    {
+      "id": "gtx760",
+      "name": "GeForce GTX 760",
+      "picturedModel": "NVIDIA GeForce GTX TITAN",
+      "oldAsset": "/assets/hardware/gpu-kepler.jpg"
+    },
+    {
+      "id": "rx5700",
+      "name": "Radeon RX 5700",
+      "picturedModel": "ASUS TUF Gaming Radeon RX 6800 XT OC",
+      "oldAsset": "/assets/hardware/gpu-rdna2.optimized.jpg"
+    },
+    {
+      "id": "rx590",
+      "name": "Radeon RX 590",
+      "picturedModel": "XFX Radeon RX 570 RS 8GB XXX Edition",
+      "oldAsset": "/assets/hardware/gpu-polaris.jpg"
+    },
+    {
+      "id": "rx560",
+      "name": "Radeon RX 560",
+      "picturedModel": "XFX Radeon RX 570 RS 8GB XXX Edition",
+      "oldAsset": "/assets/hardware/gpu-polaris.jpg"
+    },
+    {
+      "id": "rx480",
+      "name": "Radeon RX 480",
+      "picturedModel": "XFX Radeon RX 570 RS 8GB XXX Edition",
+      "oldAsset": "/assets/hardware/gpu-polaris.jpg"
+    },
+    {
+      "id": "rx470",
+      "name": "Radeon RX 470",
+      "picturedModel": "XFX Radeon RX 570 RS 8GB XXX Edition",
+      "oldAsset": "/assets/hardware/gpu-polaris.jpg"
+    },
+    {
+      "id": "furyx",
+      "name": "Radeon R9 Fury X",
+      "picturedModel": "VisionTek Radeon HD 7970",
+      "oldAsset": "/assets/hardware/gpu-hd7970.png"
+    },
+    {
+      "id": "r9390x",
+      "name": "Radeon R9 390X",
+      "picturedModel": "VisionTek Radeon HD 7970",
+      "oldAsset": "/assets/hardware/gpu-hd7970.png"
+    },
+    {
+      "id": "r9290x",
+      "name": "Radeon R9 290X",
+      "picturedModel": "VisionTek Radeon HD 7970",
+      "oldAsset": "/assets/hardware/gpu-hd7970.png"
+    },
+    {
+      "id": "7500f",
+      "name": "Ryzen 5 7500F",
+      "picturedModel": "AMD Ryzen 9 7900X",
+      "oldAsset": "/assets/hardware/cpu-ryzen-am5.jpg"
+    },
+    {
+      "id": "5500",
+      "name": "Ryzen 5 5500",
+      "picturedModel": "AMD Ryzen 7 3700X",
+      "oldAsset": "/assets/hardware/cpu-ryzen-am4.jpg"
+    },
+    {
+      "id": "5700g",
+      "name": "Ryzen 7 5700G",
+      "picturedModel": "AMD Ryzen 7 3700X",
+      "oldAsset": "/assets/hardware/cpu-ryzen-am4.jpg"
+    },
+    {
+      "id": "5600g",
+      "name": "Ryzen 5 5600G",
+      "picturedModel": "AMD Ryzen 7 3700X",
+      "oldAsset": "/assets/hardware/cpu-ryzen-am4.jpg"
+    },
+    {
+      "id": "3300x",
+      "name": "Ryzen 3 3300X",
+      "picturedModel": "AMD Ryzen 7 3700X",
+      "oldAsset": "/assets/hardware/cpu-ryzen-am4.jpg"
+    },
+    {
+      "id": "3100",
+      "name": "Ryzen 3 3100",
+      "picturedModel": "AMD Ryzen 7 3700X",
+      "oldAsset": "/assets/hardware/cpu-ryzen-am4.jpg"
+    },
+    {
+      "id": "3400g",
+      "name": "Ryzen 5 3400G",
+      "picturedModel": "AMD Ryzen 7 3700X",
+      "oldAsset": "/assets/hardware/cpu-ryzen-am4.jpg"
+    },
+    {
+      "id": "3200g",
+      "name": "Ryzen 3 3200G",
+      "picturedModel": "AMD Ryzen 7 3700X",
+      "oldAsset": "/assets/hardware/cpu-ryzen-am4.jpg"
+    },
+    {
+      "id": "2990wx",
+      "name": "Ryzen Threadripper 2990WX",
+      "picturedModel": "AMD Ryzen Threadripper 3990X",
+      "oldAsset": "/assets/hardware/cpu-threadripper.jpg"
+    },
+    {
+      "id": "1950x",
+      "name": "Ryzen Threadripper 1950X",
+      "picturedModel": "AMD Ryzen Threadripper 3990X",
+      "oldAsset": "/assets/hardware/cpu-threadripper.jpg"
+    },
+    {
+      "id": "fx8350",
+      "name": "FX-8350",
+      "picturedModel": "AMD FX-8310",
+      "oldAsset": "/assets/hardware/cpu-fx.jpg"
+    },
+    {
+      "id": "i914900ks",
+      "name": "Core i9-14900KS",
+      "picturedModel": "Intel Core i7-13700K",
+      "oldAsset": "/assets/hardware/cpu-core-lga1700.jpg"
+    },
+    {
+      "id": "i913900ks",
+      "name": "Core i9-13900KS",
+      "picturedModel": "Intel Core i7-13700K",
+      "oldAsset": "/assets/hardware/cpu-core-lga1700.jpg"
+    },
+    {
+      "id": "i912900ks",
+      "name": "Core i9-12900KS",
+      "picturedModel": "Intel Core i7-13700K",
+      "oldAsset": "/assets/hardware/cpu-core-lga1700.jpg"
+    },
+    {
+      "id": "i911900",
+      "name": "Core i9-11900",
+      "picturedModel": "Intel Core i5-10500TE",
+      "oldAsset": "/assets/hardware/cpu-core-lga1200.jpg"
+    },
+    {
+      "id": "i711700",
+      "name": "Core i7-11700",
+      "picturedModel": "Intel Core i5-10500TE",
+      "oldAsset": "/assets/hardware/cpu-core-lga1200.jpg"
+    },
+    {
+      "id": "i511600",
+      "name": "Core i5-11600",
+      "picturedModel": "Intel Core i5-10500TE",
+      "oldAsset": "/assets/hardware/cpu-core-lga1200.jpg"
+    },
+    {
+      "id": "i910900",
+      "name": "Core i9-10900",
+      "picturedModel": "Intel Core i5-10500TE",
+      "oldAsset": "/assets/hardware/cpu-core-lga1200.jpg"
+    },
+    {
+      "id": "i710700",
+      "name": "Core i7-10700",
+      "picturedModel": "Intel Core i5-10500TE",
+      "oldAsset": "/assets/hardware/cpu-core-lga1200.jpg"
+    },
+    {
+      "id": "i510600",
+      "name": "Core i5-10600",
+      "picturedModel": "Intel Core i5-10500TE",
+      "oldAsset": "/assets/hardware/cpu-core-lga1200.jpg"
+    },
+    {
+      "id": "i510400f",
+      "name": "Core i5-10400F",
+      "picturedModel": "Intel Core i5-10500TE",
+      "oldAsset": "/assets/hardware/cpu-core-lga1200.jpg"
+    },
+    {
+      "id": "i99900ks",
+      "name": "Core i9-9900KS",
+      "picturedModel": "Intel Core i7-8700K",
+      "oldAsset": "/assets/hardware/cpu-core-coffee.jpg"
+    },
+    {
+      "id": "i79700",
+      "name": "Core i7-9700",
+      "picturedModel": "Intel Core i7-8700K",
+      "oldAsset": "/assets/hardware/cpu-core-coffee.jpg"
+    },
+    {
+      "id": "i59600k",
+      "name": "Core i5-9600K",
+      "picturedModel": "Intel Core i7-8700K",
+      "oldAsset": "/assets/hardware/cpu-core-coffee.jpg"
+    },
+    {
+      "id": "i78700",
+      "name": "Core i7-8700",
+      "picturedModel": "Intel Core i7-8700K",
+      "oldAsset": "/assets/hardware/cpu-core-coffee.jpg"
+    },
+    {
+      "id": "i58600k",
+      "name": "Core i5-8600K",
+      "picturedModel": "Intel Core i7-8700K",
+      "oldAsset": "/assets/hardware/cpu-core-coffee.jpg"
+    },
+    {
+      "id": "i77700",
+      "name": "Core i7-7700",
+      "picturedModel": "Intel Core i7-8700K",
+      "oldAsset": "/assets/hardware/cpu-core-coffee.jpg"
+    },
+    {
+      "id": "i57600k",
+      "name": "Core i5-7600K",
+      "picturedModel": "Intel Core i7-8700K",
+      "oldAsset": "/assets/hardware/cpu-core-coffee.jpg"
+    },
+    {
+      "id": "i76700",
+      "name": "Core i7-6700",
+      "picturedModel": "Intel Core i7-8700K",
+      "oldAsset": "/assets/hardware/cpu-core-coffee.jpg"
+    },
+    {
+      "id": "i56600k",
+      "name": "Core i5-6600K",
+      "picturedModel": "Intel Core i7-8700K",
+      "oldAsset": "/assets/hardware/cpu-core-coffee.jpg"
+    },
+    {
+      "id": "i74770k",
+      "name": "Core i7-4770K",
+      "picturedModel": "Intel Core i7-4771",
+      "oldAsset": "/assets/hardware/cpu-core-haswell.jpg"
+    },
+    {
+      "id": "i53570k",
+      "name": "Core i5-3570K",
+      "picturedModel": "Intel Core i7-2600K",
+      "oldAsset": "/assets/hardware/cpu-core-sandy.jpg"
+    },
+    {
+      "id": "i52500k",
+      "name": "Core i5-2500K",
+      "picturedModel": "Intel Core i7-2600K",
+      "oldAsset": "/assets/hardware/cpu-core-sandy.jpg"
+    },
+    {
+      "id": "x570hero",
+      "name": "ROG CROSSHAIR VIII HERO WIFI",
+      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
+      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+    },
+    {
+      "id": "z390hero",
+      "name": "ROG MAXIMUS XI HERO WIFI",
+      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
+      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+    },
+    {
+      "id": "b450aorus",
+      "name": "B450 AORUS ELITE",
+      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
+      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+    },
+    {
+      "id": "s23ultra",
+      "name": "Galaxy S23 Ultra",
+      "picturedModel": "Samsung Galaxy S24",
+      "oldAsset": "/assets/hardware/device-new-device-4.webp"
+    },
+    {
+      "id": "rtx4070ti",
+      "name": "GeForce RTX 4070 Ti",
+      "picturedModel": "ASUS TUF GeForce RTX 4080 SUPER OC",
+      "oldAsset": "/assets/hardware/gpu-ada.png"
+    },
+    {
+      "id": "rtx308012",
+      "name": "GeForce RTX 3080 12 GB",
+      "picturedModel": "NVIDIA GeForce RTX 3090 Founders Edition",
+      "oldAsset": "/assets/hardware/gpu-ampere.optimized.jpg"
+    },
+    {
+      "id": "rtx206012",
+      "name": "GeForce RTX 2060 12 GB",
+      "picturedModel": "NVIDIA TITAN RTX",
+      "oldAsset": "/assets/hardware/gpu-turing.optimized.jpg"
+    },
+    {
+      "id": "gtx1630",
+      "name": "GeForce GTX 1630",
+      "picturedModel": "NVIDIA TITAN RTX",
+      "oldAsset": "/assets/hardware/gpu-turing.optimized.jpg"
+    },
+    {
+      "id": "gtx10603",
+      "name": "GeForce GTX 1060 3 GB",
+      "picturedModel": "NVIDIA GeForce GTX 1080 Ti Founders Edition",
+      "oldAsset": "/assets/hardware/gpu-pascal.png"
+    },
+    {
+      "id": "gtx1050",
+      "name": "GeForce GTX 1050",
+      "picturedModel": "NVIDIA GeForce GTX 1080 Ti Founders Edition",
+      "oldAsset": "/assets/hardware/gpu-pascal.png"
+    },
+    {
+      "id": "titanv",
+      "name": "TITAN V",
+      "picturedModel": "NVIDIA GeForce GTX 1080 Ti Founders Edition",
+      "oldAsset": "/assets/hardware/gpu-pascal.png"
+    },
+    {
+      "id": "titanxpascal",
+      "name": "TITAN X (Pascal)",
+      "picturedModel": "NVIDIA GeForce GTX 1080 Ti Founders Edition",
+      "oldAsset": "/assets/hardware/gpu-pascal.png"
+    },
+    {
+      "id": "gt1030",
+      "name": "GeForce GT 1030 GDDR5",
+      "picturedModel": "NVIDIA GeForce GTX 1080 Ti Founders Edition",
+      "oldAsset": "/assets/hardware/gpu-pascal.png"
+    },
+    {
+      "id": "gtx750ti",
+      "name": "GeForce GTX 750 Ti",
+      "picturedModel": "Gigabyte GeForce GTX 970 Windforce",
+      "oldAsset": "/assets/hardware/gpu-maxwell.jpg"
+    },
+    {
+      "id": "gtx680",
+      "name": "GeForce GTX 680",
+      "picturedModel": "NVIDIA GeForce GTX TITAN",
+      "oldAsset": "/assets/hardware/gpu-kepler.jpg"
+    },
+    {
+      "id": "gtx580",
+      "name": "GeForce GTX 580",
+      "picturedModel": "EVGA GeForce GTX 590",
+      "oldAsset": "/assets/hardware/gpu-fermi.jpg"
+    },
+    {
+      "id": "gtx480",
+      "name": "GeForce GTX 480",
+      "picturedModel": "EVGA GeForce GTX 590",
+      "oldAsset": "/assets/hardware/gpu-fermi.jpg"
+    },
+    {
+      "id": "rx9070gre",
+      "name": "Radeon RX 9070 GRE",
+      "picturedModel": "ASUS TUF Gaming Radeon RX 9070 XT OC",
+      "oldAsset": "/assets/hardware/gpu-rdna4.optimized.jpg"
+    },
+    {
+      "id": "rx6700",
+      "name": "Radeon RX 6700 10 GB",
+      "picturedModel": "ASUS TUF Gaming Radeon RX 6800 XT OC",
+      "oldAsset": "/assets/hardware/gpu-rdna2.optimized.jpg"
+    },
+    {
+      "id": "vega56",
+      "name": "Radeon RX Vega 56",
+      "picturedModel": "VisionTek Radeon HD 7970",
+      "oldAsset": "/assets/hardware/gpu-hd7970.png"
+    },
+    {
+      "id": "r9nano",
+      "name": "Radeon R9 Nano",
+      "picturedModel": "VisionTek Radeon HD 7970",
+      "oldAsset": "/assets/hardware/gpu-hd7970.png"
+    },
+    {
+      "id": "r9380x",
+      "name": "Radeon R9 380X",
+      "picturedModel": "VisionTek Radeon HD 7970",
+      "oldAsset": "/assets/hardware/gpu-hd7970.png"
+    },
+    {
+      "id": "r9280x",
+      "name": "Radeon R9 280X",
+      "picturedModel": "VisionTek Radeon HD 7970",
+      "oldAsset": "/assets/hardware/gpu-hd7970.png"
+    },
+    {
+      "id": "hd7870",
+      "name": "Radeon HD 7870 GHz Edition",
+      "picturedModel": "VisionTek Radeon HD 7970",
+      "oldAsset": "/assets/hardware/gpu-hd7970.png"
+    },
+    {
+      "id": "hd6870",
+      "name": "Radeon HD 6870",
+      "picturedModel": "Sapphire Radeon HD 5870",
+      "oldAsset": "/assets/hardware/gpu-hd5870.jpg"
+    },
+    {
+      "id": "4700g",
+      "name": "Ryzen 7 4700G",
+      "picturedModel": "AMD Ryzen 7 3700X",
+      "oldAsset": "/assets/hardware/cpu-ryzen-am4.jpg"
+    },
+    {
+      "id": "4600g",
+      "name": "Ryzen 5 4600G",
+      "picturedModel": "AMD Ryzen 7 3700X",
+      "oldAsset": "/assets/hardware/cpu-ryzen-am4.jpg"
+    },
+    {
+      "id": "4500",
+      "name": "Ryzen 5 4500",
+      "picturedModel": "AMD Ryzen 7 3700X",
+      "oldAsset": "/assets/hardware/cpu-ryzen-am4.jpg"
+    },
+    {
+      "id": "4100",
+      "name": "Ryzen 3 4100",
+      "picturedModel": "AMD Ryzen 7 3700X",
+      "oldAsset": "/assets/hardware/cpu-ryzen-am4.jpg"
+    },
+    {
+      "id": "5995wx",
+      "name": "Ryzen Threadripper PRO 5995WX",
+      "picturedModel": "AMD Ryzen Threadripper 3990X",
+      "oldAsset": "/assets/hardware/cpu-threadripper.jpg"
+    },
+    {
+      "id": "3970x",
+      "name": "Ryzen Threadripper 3970X",
+      "picturedModel": "AMD Ryzen Threadripper 3990X",
+      "oldAsset": "/assets/hardware/cpu-threadripper.jpg"
+    },
+    {
+      "id": "1700x",
+      "name": "Ryzen 7 1700X",
+      "picturedModel": "AMD Ryzen 7 3700X",
+      "oldAsset": "/assets/hardware/cpu-ryzen-am4.jpg"
+    },
+    {
+      "id": "1600x",
+      "name": "Ryzen 5 1600X",
+      "picturedModel": "AMD Ryzen 7 3700X",
+      "oldAsset": "/assets/hardware/cpu-ryzen-am4.jpg"
+    },
+    {
+      "id": "fx9590",
+      "name": "FX-9590",
+      "picturedModel": "AMD FX-8310",
+      "oldAsset": "/assets/hardware/cpu-fx.jpg"
+    },
+    {
+      "id": "fx6300",
+      "name": "FX-6300",
+      "picturedModel": "AMD FX-8310",
+      "oldAsset": "/assets/hardware/cpu-fx.jpg"
+    },
+    {
+      "id": "i914900",
+      "name": "Core i9-14900",
+      "picturedModel": "Intel Core i7-13700K",
+      "oldAsset": "/assets/hardware/cpu-core-lga1700.jpg"
+    },
+    {
+      "id": "i714700",
+      "name": "Core i7-14700",
+      "picturedModel": "Intel Core i7-13700K",
+      "oldAsset": "/assets/hardware/cpu-core-lga1700.jpg"
+    },
+    {
+      "id": "i514600",
+      "name": "Core i5-14600",
+      "picturedModel": "Intel Core i7-13700K",
+      "oldAsset": "/assets/hardware/cpu-core-lga1700.jpg"
+    },
+    {
+      "id": "i514400f",
+      "name": "Core i5-14400F",
+      "picturedModel": "Intel Core i7-13700K",
+      "oldAsset": "/assets/hardware/cpu-core-lga1700.jpg"
+    },
+    {
+      "id": "i313100f",
+      "name": "Core i3-13100F",
+      "picturedModel": "Intel Core i7-13700K",
+      "oldAsset": "/assets/hardware/cpu-core-lga1700.jpg"
+    },
+    {
+      "id": "i912900",
+      "name": "Core i9-12900",
+      "picturedModel": "Intel Core i7-13700K",
+      "oldAsset": "/assets/hardware/cpu-core-lga1700.jpg"
+    },
+    {
+      "id": "i712700",
+      "name": "Core i7-12700",
+      "picturedModel": "Intel Core i7-13700K",
+      "oldAsset": "/assets/hardware/cpu-core-lga1700.jpg"
+    },
+    {
+      "id": "i512400f",
+      "name": "Core i5-12400F",
+      "picturedModel": "Intel Core i7-13700K",
+      "oldAsset": "/assets/hardware/cpu-core-lga1700.jpg"
+    },
+    {
+      "id": "i312100f",
+      "name": "Core i3-12100F",
+      "picturedModel": "Intel Core i7-13700K",
+      "oldAsset": "/assets/hardware/cpu-core-lga1700.jpg"
+    },
+    {
+      "id": "i910980xe",
+      "name": "Core i9-10980XE",
+      "picturedModel": "Intel Core i7-6800K",
+      "oldAsset": "/assets/hardware/cpu-core-hedt.jpg"
+    },
+    {
+      "id": "i78086k",
+      "name": "Core i7-8086K",
+      "picturedModel": "Intel Core i7-8700K",
+      "oldAsset": "/assets/hardware/cpu-core-coffee.jpg"
+    },
+    {
+      "id": "i58400",
+      "name": "Core i5-8400",
+      "picturedModel": "Intel Core i7-8700K",
+      "oldAsset": "/assets/hardware/cpu-core-coffee.jpg"
+    },
+    {
+      "id": "i76950x",
+      "name": "Core i7-6950X",
+      "picturedModel": "Intel Core i7-6800K",
+      "oldAsset": "/assets/hardware/cpu-core-hedt.jpg"
+    },
+    {
+      "id": "i75960x",
+      "name": "Core i7-5960X",
+      "picturedModel": "Intel Core i7-6800K",
+      "oldAsset": "/assets/hardware/cpu-core-hedt.jpg"
+    },
+    {
+      "id": "x670etuf",
+      "name": "TUF GAMING X670E-PLUS WIFI",
+      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
+      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+    },
+    {
+      "id": "b850aorus",
+      "name": "B850 AORUS ELITE WIFI7",
+      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
+      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+    },
+    {
+      "id": "s22ultra",
+      "name": "Galaxy S22 Ultra",
+      "picturedModel": "Samsung Galaxy S24",
+      "oldAsset": "/assets/hardware/device-new-device-4.webp"
+    },
+    {
+      "id": "intel8008",
+      "name": "Intel 8008",
+      "picturedModel": "Intel C8008-1",
+      "oldAsset": "/assets/hardware/cpu-8008.jpg"
+    },
+    {
+      "id": "intel8085",
+      "name": "Intel 8085",
+      "picturedModel": "Intel P8085AH",
+      "oldAsset": "/assets/hardware/cpu-8085.jpg"
+    },
+    {
+      "id": "intel486dx",
+      "name": "Intel 486DX",
+      "picturedModel": "Intel i486 DX2-66",
+      "oldAsset": "/assets/hardware/cpu-486.jpg"
+    },
+    {
+      "id": "intel486sx",
+      "name": "Intel 486SX",
+      "picturedModel": "Intel i486 DX2-66",
+      "oldAsset": "/assets/hardware/cpu-486.jpg"
+    },
+    {
+      "id": "pentium100",
+      "name": "Intel Pentium 100",
+      "picturedModel": "Intel Pentium 60",
+      "oldAsset": "/assets/hardware/cpu-pentium.jpg"
+    },
+    {
+      "id": "pentiummmx233",
+      "name": "Intel Pentium MMX 233",
+      "picturedModel": "Intel Pentium MMX",
+      "oldAsset": "/assets/hardware/cpu-pentium-mmx.jpg"
+    },
+    {
+      "id": "pentiumii300",
+      "name": "Intel Pentium II 300",
+      "picturedModel": "Intel Pentium II",
+      "oldAsset": "/assets/hardware/cpu-pentium-ii.jpg"
+    },
+    {
+      "id": "celeron266",
+      "name": "Intel Celeron 266",
+      "picturedModel": "Intel Celeron Covington",
+      "oldAsset": "/assets/hardware/cpu-celeron.jpg"
+    },
+    {
+      "id": "pentiumiii600",
+      "name": "Intel Pentium III 600",
+      "picturedModel": "Intel Pentium III Katmai",
+      "oldAsset": "/assets/hardware/cpu-pentium-iii.jpg"
+    },
+    {
+      "id": "am486dx4",
+      "name": "AMD Am486 DX4-100",
+      "picturedModel": "AMD Am486DX-40",
+      "oldAsset": "/assets/hardware/cpu-am486.jpg"
+    },
+    {
+      "id": "amdk5pr100",
+      "name": "AMD K5 PR100",
+      "picturedModel": "AMD K5 PR166",
+      "oldAsset": "/assets/hardware/cpu-k5.jpg"
+    },
+    {
+      "id": "amdk6-233",
+      "name": "AMD K6-233",
+      "picturedModel": "AMD K6-166",
+      "oldAsset": "/assets/hardware/cpu-k6.jpg"
+    },
+    {
+      "id": "amdk62-300",
+      "name": "AMD K6-2 300",
+      "picturedModel": "AMD K6-2 266MHz",
+      "oldAsset": "/assets/hardware/cpu-k6-2.jpg"
+    },
+    {
+      "id": "athlon500",
+      "name": "AMD Athlon 500",
+      "picturedModel": "AMD Athlon Classic Slot A",
+      "oldAsset": "/assets/hardware/cpu-athlon.jpg"
+    },
+    {
+      "id": "athlonxp1800",
+      "name": "AMD Athlon XP 1800+",
+      "picturedModel": "AMD Athlon XP Palomino",
+      "oldAsset": "/assets/hardware/cpu-athlon-xp.jpg"
+    },
+    {
+      "id": "athlon64x23800",
+      "name": "AMD Athlon 64 X2 3800+",
+      "picturedModel": "AMD Athlon 64 X2 4200+",
+      "oldAsset": "/assets/hardware/cpu-athlon64x2.jpg"
+    },
+    {
+      "id": "phenom9500",
+      "name": "AMD Phenom 9500",
+      "picturedModel": "AMD Phenom X3 8650",
+      "oldAsset": "/assets/hardware/cpu-phenom.jpg"
+    },
+    {
+      "id": "phenomii965",
+      "name": "AMD Phenom II X4 965 Black Edition",
+      "picturedModel": "AMD Phenom II X4 840",
+      "oldAsset": "/assets/hardware/cpu-phenomii.jpg"
+    },
+    {
+      "id": "fx8150",
+      "name": "AMD FX-8150",
+      "picturedModel": "AMD FX-8310",
+      "oldAsset": "/assets/hardware/cpu-fx.jpg"
+    },
+    {
+      "id": "ibm-vga",
+      "name": "IBM Video Graphics Array",
+      "picturedModel": "IBM VGA expansion card",
+      "oldAsset": "/assets/hardware/gpu-ibmvga.jpg"
+    },
+    {
+      "id": "voodoo-graphics",
+      "name": "3dfx Voodoo Graphics",
+      "picturedModel": "3dfx Voodoo2 board",
+      "oldAsset": "/assets/hardware/gpu-voodoo2.jpg"
+    },
+    {
+      "id": "voodoo2-12",
+      "name": "3dfx Voodoo2 12 MB",
+      "picturedModel": "3dfx Voodoo2 board",
+      "oldAsset": "/assets/hardware/gpu-voodoo2.jpg"
+    },
+    {
+      "id": "rivatnt",
+      "name": "NVIDIA RIVA TNT",
+      "picturedModel": "Diamond Viper V330 AGP (NVIDIA RIVA 128)",
+      "oldAsset": "/assets/hardware/gpu-riva128.jpg"
+    },
+    {
+      "id": "rivatnt2",
+      "name": "NVIDIA RIVA TNT2",
+      "picturedModel": "Diamond Viper V330 AGP (NVIDIA RIVA 128)",
+      "oldAsset": "/assets/hardware/gpu-riva128.jpg"
+    },
+    {
+      "id": "geforce256ddr",
+      "name": "NVIDIA GeForce 256 DDR",
+      "picturedModel": "VisionTek GeForce 256",
+      "oldAsset": "/assets/hardware/gpu-geforce256.jpg"
+    },
+    {
+      "id": "geforce2gts",
+      "name": "NVIDIA GeForce2 GTS",
+      "picturedModel": "VisionTek GeForce 256",
+      "oldAsset": "/assets/hardware/gpu-geforce256.jpg"
+    },
+    {
+      "id": "geforce3",
+      "name": "NVIDIA GeForce3",
+      "picturedModel": "NVIDIA GeForce3 Ti 500",
+      "oldAsset": "/assets/hardware/gpu-geforce3.jpg"
+    },
+    {
+      "id": "gf4ti4600",
+      "name": "NVIDIA GeForce4 Ti 4600",
+      "picturedModel": "NVIDIA GeForce3 Ti 500",
+      "oldAsset": "/assets/hardware/gpu-geforce3.jpg"
+    },
+    {
+      "id": "geforcefx5800u",
+      "name": "NVIDIA GeForce FX 5800 Ultra",
+      "picturedModel": "NVIDIA GeForce3 Ti 500",
+      "oldAsset": "/assets/hardware/gpu-geforce3.jpg"
+    },
+    {
+      "id": "radeonddr",
+      "name": "ATI Radeon DDR",
+      "picturedModel": "ATI Radeon 7500 AGP",
+      "oldAsset": "/assets/hardware/gpu-radeon7500.jpg"
+    },
+    {
+      "id": "radeon8500",
+      "name": "ATI Radeon 8500",
+      "picturedModel": "ATI Radeon 9600 Pro",
+      "oldAsset": "/assets/hardware/gpu-radeon9600.jpg"
+    },
+    {
+      "id": "radeon9700pro",
+      "name": "ATI Radeon 9700 PRO",
+      "picturedModel": "ATI Radeon 9600 Pro",
+      "oldAsset": "/assets/hardware/gpu-radeon9600.jpg"
+    },
+    {
+      "id": "radeonx800xt",
+      "name": "ATI Radeon X800 XT",
+      "picturedModel": "HIS Radeon X1950 XTX",
+      "oldAsset": "/assets/hardware/gpu-radeonx1950.jpg"
+    },
+    {
+      "id": "radeonx1900xtx",
+      "name": "ATI Radeon X1900 XTX",
+      "picturedModel": "HIS Radeon X1950 XTX",
+      "oldAsset": "/assets/hardware/gpu-radeonx1950.jpg"
+    },
+    {
+      "id": "x-phone-iphone-3g",
+      "name": "iPhone 3G",
+      "picturedModel": "Apple iPhone (1st generation)",
+      "oldAsset": "/assets/hardware/device-new-device-0.webp"
+    },
+    {
+      "id": "x-phone-iphone-3gs",
+      "name": "iPhone 3GS",
+      "picturedModel": "Apple iPhone (1st generation)",
+      "oldAsset": "/assets/hardware/device-new-device-0.webp"
+    },
+    {
+      "id": "x-phone-iphone-5",
+      "name": "iPhone 5",
+      "picturedModel": "Apple iPhone 4",
+      "oldAsset": "/assets/hardware/device-new-device-34.webp"
+    },
+    {
+      "id": "x-phone-iphone-5c",
+      "name": "iPhone 5c",
+      "picturedModel": "Apple iPhone 4",
+      "oldAsset": "/assets/hardware/device-new-device-34.webp"
+    },
+    {
+      "id": "x-phone-iphone-5s",
+      "name": "iPhone 5s",
+      "picturedModel": "Apple iPhone 4",
+      "oldAsset": "/assets/hardware/device-new-device-34.webp"
+    },
+    {
+      "id": "x-phone-iphone-6",
+      "name": "iPhone 6",
+      "picturedModel": "Apple iPhone 4",
+      "oldAsset": "/assets/hardware/device-new-device-34.webp"
+    },
+    {
+      "id": "x-phone-iphone-6-plus",
+      "name": "iPhone 6 Plus",
+      "picturedModel": "Apple iPhone 4",
+      "oldAsset": "/assets/hardware/device-new-device-34.webp"
+    },
+    {
+      "id": "x-phone-iphone-6s",
+      "name": "iPhone 6s",
+      "picturedModel": "Apple iPhone 4",
+      "oldAsset": "/assets/hardware/device-new-device-34.webp"
+    },
+    {
+      "id": "x-phone-iphone-6s-plus",
+      "name": "iPhone 6s Plus",
+      "picturedModel": "Apple iPhone 4",
+      "oldAsset": "/assets/hardware/device-new-device-34.webp"
+    },
+    {
+      "id": "x-phone-iphone-se-1st-generation",
+      "name": "iPhone SE (1st generation)",
+      "picturedModel": "Apple iPhone 4",
+      "oldAsset": "/assets/hardware/device-new-device-34.webp"
+    },
+    {
+      "id": "x-phone-iphone-7",
+      "name": "iPhone 7",
+      "picturedModel": "Apple iPhone 4",
+      "oldAsset": "/assets/hardware/device-new-device-34.webp"
+    },
+    {
+      "id": "x-phone-iphone-7-plus",
+      "name": "iPhone 7 Plus",
+      "picturedModel": "Apple iPhone 4",
+      "oldAsset": "/assets/hardware/device-new-device-34.webp"
+    },
+    {
+      "id": "x-phone-iphone-8",
+      "name": "iPhone 8",
+      "picturedModel": "Apple iPhone 4",
+      "oldAsset": "/assets/hardware/device-new-device-34.webp"
+    },
+    {
+      "id": "x-phone-iphone-8-plus",
+      "name": "iPhone 8 Plus",
+      "picturedModel": "Apple iPhone 4",
+      "oldAsset": "/assets/hardware/device-new-device-34.webp"
+    },
+    {
+      "id": "x-phone-iphone-x",
+      "name": "iPhone X",
+      "picturedModel": "iPhone 15 Pro",
+      "oldAsset": "/assets/hardware/device-new-device-1.webp"
+    },
+    {
+      "id": "x-phone-iphone-xr",
+      "name": "iPhone XR",
+      "picturedModel": "iPhone 15 Pro",
+      "oldAsset": "/assets/hardware/device-new-device-1.webp"
+    },
+    {
+      "id": "x-phone-iphone-xs",
+      "name": "iPhone XS",
+      "picturedModel": "iPhone 15 Pro",
+      "oldAsset": "/assets/hardware/device-new-device-1.webp"
+    },
+    {
+      "id": "x-phone-iphone-xs-max",
+      "name": "iPhone XS Max",
+      "picturedModel": "iPhone 15 Pro",
+      "oldAsset": "/assets/hardware/device-new-device-1.webp"
+    },
+    {
+      "id": "x-phone-iphone-11",
+      "name": "iPhone 11",
+      "picturedModel": "iPhone 15 Pro",
+      "oldAsset": "/assets/hardware/device-new-device-1.webp"
+    },
+    {
+      "id": "x-phone-iphone-11-pro",
+      "name": "iPhone 11 Pro",
+      "picturedModel": "iPhone 15 Pro",
+      "oldAsset": "/assets/hardware/device-new-device-1.webp"
+    },
+    {
+      "id": "x-phone-iphone-11-pro-max",
+      "name": "iPhone 11 Pro Max",
+      "picturedModel": "iPhone 15 Pro",
+      "oldAsset": "/assets/hardware/device-new-device-1.webp"
+    },
+    {
+      "id": "x-phone-iphone-se-2nd-generation",
+      "name": "iPhone SE (2nd generation)",
+      "picturedModel": "Apple iPhone 4",
+      "oldAsset": "/assets/hardware/device-new-device-34.webp"
+    },
+    {
+      "id": "x-phone-iphone-12-mini",
+      "name": "iPhone 12 mini",
+      "picturedModel": "iPhone 15 Pro",
+      "oldAsset": "/assets/hardware/device-new-device-1.webp"
+    },
+    {
+      "id": "x-phone-iphone-12",
+      "name": "iPhone 12",
+      "picturedModel": "iPhone 15 Pro",
+      "oldAsset": "/assets/hardware/device-new-device-1.webp"
+    },
+    {
+      "id": "x-phone-iphone-12-pro-max",
+      "name": "iPhone 12 Pro Max",
+      "picturedModel": "iPhone 15 Pro",
+      "oldAsset": "/assets/hardware/device-new-device-1.webp"
+    },
+    {
+      "id": "x-phone-iphone-13-mini",
+      "name": "iPhone 13 mini",
+      "picturedModel": "iPhone 15 Pro",
+      "oldAsset": "/assets/hardware/device-new-device-1.webp"
+    },
+    {
+      "id": "x-phone-iphone-13",
+      "name": "iPhone 13",
+      "picturedModel": "iPhone 15 Pro",
+      "oldAsset": "/assets/hardware/device-new-device-1.webp"
+    },
+    {
+      "id": "x-phone-iphone-13-pro-max",
+      "name": "iPhone 13 Pro Max",
+      "picturedModel": "iPhone 15 Pro",
+      "oldAsset": "/assets/hardware/device-new-device-1.webp"
+    },
+    {
+      "id": "x-phone-iphone-se-3rd-generation",
+      "name": "iPhone SE (3rd generation)",
+      "picturedModel": "Apple iPhone 4",
+      "oldAsset": "/assets/hardware/device-new-device-34.webp"
+    },
+    {
+      "id": "x-phone-iphone-14",
+      "name": "iPhone 14",
+      "picturedModel": "iPhone 15 Pro",
+      "oldAsset": "/assets/hardware/device-new-device-1.webp"
+    },
+    {
+      "id": "x-phone-iphone-14-plus",
+      "name": "iPhone 14 Plus",
+      "picturedModel": "iPhone 15 Pro",
+      "oldAsset": "/assets/hardware/device-new-device-1.webp"
+    },
+    {
+      "id": "x-phone-iphone-14-pro-max",
+      "name": "iPhone 14 Pro Max",
+      "picturedModel": "iPhone 15 Pro",
+      "oldAsset": "/assets/hardware/device-new-device-1.webp"
+    },
+    {
+      "id": "x-phone-iphone-15",
+      "name": "iPhone 15",
+      "picturedModel": "iPhone 15 Pro",
+      "oldAsset": "/assets/hardware/device-new-device-1.webp"
+    },
+    {
+      "id": "x-phone-iphone-15-plus",
+      "name": "iPhone 15 Plus",
+      "picturedModel": "iPhone 15 Pro",
+      "oldAsset": "/assets/hardware/device-new-device-1.webp"
+    },
+    {
+      "id": "x-phone-iphone-16-plus",
+      "name": "iPhone 16 Plus",
+      "picturedModel": "iPhone 15 Pro",
+      "oldAsset": "/assets/hardware/device-new-device-1.webp"
+    },
+    {
+      "id": "x-phone-iphone-16-pro-max",
+      "name": "iPhone 16 Pro Max",
+      "picturedModel": "iPhone 15 Pro",
+      "oldAsset": "/assets/hardware/device-new-device-1.webp"
+    },
+    {
+      "id": "x-phone-iphone-16e",
+      "name": "iPhone 16e",
+      "picturedModel": "iPhone 15 Pro",
+      "oldAsset": "/assets/hardware/device-new-device-1.webp"
+    },
+    {
+      "id": "x-phone-iphone-17",
+      "name": "iPhone 17",
+      "picturedModel": "iPhone 15 Pro",
+      "oldAsset": "/assets/hardware/device-new-device-1.webp"
+    },
+    {
+      "id": "x-phone-iphone-air",
+      "name": "iPhone Air",
+      "picturedModel": "iPhone 15 Pro",
+      "oldAsset": "/assets/hardware/device-new-device-1.webp"
+    },
+    {
+      "id": "x-phone-iphone-17-pro",
+      "name": "iPhone 17 Pro",
+      "picturedModel": "iPhone 15 Pro",
+      "oldAsset": "/assets/hardware/device-new-device-1.webp"
+    },
+    {
+      "id": "x-phone-iphone-17-pro-max",
+      "name": "iPhone 17 Pro Max",
+      "picturedModel": "iPhone 15 Pro",
+      "oldAsset": "/assets/hardware/device-new-device-1.webp"
+    },
+    {
+      "id": "x-phone-iphone-17e",
+      "name": "iPhone 17e",
+      "picturedModel": "iPhone 15 Pro",
+      "oldAsset": "/assets/hardware/device-new-device-1.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-s",
+      "name": "Samsung Galaxy S",
+      "picturedModel": "Samsung Galaxy S II (removable parts)",
+      "oldAsset": "/assets/hardware/device-new-device-2.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-s-iii",
+      "name": "Samsung Galaxy S III",
+      "picturedModel": "Samsung Galaxy S II (removable parts)",
+      "oldAsset": "/assets/hardware/device-new-device-2.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-s4",
+      "name": "Samsung Galaxy S4",
+      "picturedModel": "Samsung Galaxy S II (removable parts)",
+      "oldAsset": "/assets/hardware/device-new-device-2.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-s5",
+      "name": "Samsung Galaxy S5",
+      "picturedModel": "Samsung Galaxy S II (removable parts)",
+      "oldAsset": "/assets/hardware/device-new-device-2.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-s6",
+      "name": "Samsung Galaxy S6",
+      "picturedModel": "Samsung Galaxy S II (removable parts)",
+      "oldAsset": "/assets/hardware/device-new-device-2.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-s6-edge",
+      "name": "Samsung Galaxy S6 edge",
+      "picturedModel": "Samsung Galaxy S II (removable parts)",
+      "oldAsset": "/assets/hardware/device-new-device-2.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-s6-edge-2015",
+      "name": "Samsung Galaxy S6 edge+",
+      "picturedModel": "Samsung Galaxy S II (removable parts)",
+      "oldAsset": "/assets/hardware/device-new-device-2.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-s7",
+      "name": "Samsung Galaxy S7",
+      "picturedModel": "Samsung Galaxy S II (removable parts)",
+      "oldAsset": "/assets/hardware/device-new-device-2.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-s7-edge",
+      "name": "Samsung Galaxy S7 edge",
+      "picturedModel": "Samsung Galaxy S II (removable parts)",
+      "oldAsset": "/assets/hardware/device-new-device-2.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-s8",
+      "name": "Samsung Galaxy S8",
+      "picturedModel": "Samsung Galaxy S24",
+      "oldAsset": "/assets/hardware/device-new-device-4.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-s8-2017",
+      "name": "Samsung Galaxy S8+",
+      "picturedModel": "Samsung Galaxy S24",
+      "oldAsset": "/assets/hardware/device-new-device-4.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-s9",
+      "name": "Samsung Galaxy S9",
+      "picturedModel": "Samsung Galaxy S24",
+      "oldAsset": "/assets/hardware/device-new-device-4.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-s9-2018",
+      "name": "Samsung Galaxy S9+",
+      "picturedModel": "Samsung Galaxy S24",
+      "oldAsset": "/assets/hardware/device-new-device-4.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-s10e",
+      "name": "Samsung Galaxy S10e",
+      "picturedModel": "Samsung Galaxy S24",
+      "oldAsset": "/assets/hardware/device-new-device-4.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-s10",
+      "name": "Samsung Galaxy S10",
+      "picturedModel": "Samsung Galaxy S24",
+      "oldAsset": "/assets/hardware/device-new-device-4.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-s10-2019",
+      "name": "Samsung Galaxy S10+",
+      "picturedModel": "Samsung Galaxy S24",
+      "oldAsset": "/assets/hardware/device-new-device-4.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-s10-5g",
+      "name": "Samsung Galaxy S10 5G",
+      "picturedModel": "Samsung Galaxy S24",
+      "oldAsset": "/assets/hardware/device-new-device-4.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-s20",
+      "name": "Samsung Galaxy S20",
+      "picturedModel": "Samsung Galaxy S24",
+      "oldAsset": "/assets/hardware/device-new-device-4.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-s20-2020",
+      "name": "Samsung Galaxy S20+",
+      "picturedModel": "Samsung Galaxy S24",
+      "oldAsset": "/assets/hardware/device-new-device-4.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-s20-ultra",
+      "name": "Samsung Galaxy S20 Ultra",
+      "picturedModel": "Samsung Galaxy S24",
+      "oldAsset": "/assets/hardware/device-new-device-4.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-s20-fe",
+      "name": "Samsung Galaxy S20 FE",
+      "picturedModel": "Samsung Galaxy S24",
+      "oldAsset": "/assets/hardware/device-new-device-4.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-s21",
+      "name": "Samsung Galaxy S21",
+      "picturedModel": "Samsung Galaxy S24",
+      "oldAsset": "/assets/hardware/device-new-device-4.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-s21-2021",
+      "name": "Samsung Galaxy S21+",
+      "picturedModel": "Samsung Galaxy S24",
+      "oldAsset": "/assets/hardware/device-new-device-4.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-s21-ultra",
+      "name": "Samsung Galaxy S21 Ultra",
+      "picturedModel": "Samsung Galaxy S24",
+      "oldAsset": "/assets/hardware/device-new-device-4.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-s21-fe",
+      "name": "Samsung Galaxy S21 FE",
+      "picturedModel": "Samsung Galaxy S24",
+      "oldAsset": "/assets/hardware/device-new-device-4.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-s22",
+      "name": "Samsung Galaxy S22",
+      "picturedModel": "Samsung Galaxy S24",
+      "oldAsset": "/assets/hardware/device-new-device-4.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-s22-2022",
+      "name": "Samsung Galaxy S22+",
+      "picturedModel": "Samsung Galaxy S24",
+      "oldAsset": "/assets/hardware/device-new-device-4.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-s23",
+      "name": "Samsung Galaxy S23",
+      "picturedModel": "Samsung Galaxy S24",
+      "oldAsset": "/assets/hardware/device-new-device-4.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-s23-2023",
+      "name": "Samsung Galaxy S23+",
+      "picturedModel": "Samsung Galaxy S24",
+      "oldAsset": "/assets/hardware/device-new-device-4.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-s23-fe",
+      "name": "Samsung Galaxy S23 FE",
+      "picturedModel": "Samsung Galaxy S24",
+      "oldAsset": "/assets/hardware/device-new-device-4.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-s25-edge",
+      "name": "Samsung Galaxy S25 Edge",
+      "picturedModel": "Samsung Galaxy S24",
+      "oldAsset": "/assets/hardware/device-new-device-4.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-s26",
+      "name": "Samsung Galaxy S26",
+      "picturedModel": "Samsung Galaxy S24",
+      "oldAsset": "/assets/hardware/device-new-device-4.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-s26-2026",
+      "name": "Samsung Galaxy S26+",
+      "picturedModel": "Samsung Galaxy S24",
+      "oldAsset": "/assets/hardware/device-new-device-4.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-s26-ultra",
+      "name": "Samsung Galaxy S26 Ultra",
+      "picturedModel": "Samsung Galaxy S24",
+      "oldAsset": "/assets/hardware/device-new-device-4.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-note",
+      "name": "Samsung Galaxy Note",
+      "picturedModel": "Samsung Galaxy S II (removable parts)",
+      "oldAsset": "/assets/hardware/device-new-device-2.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-note-ii",
+      "name": "Samsung Galaxy Note II",
+      "picturedModel": "Samsung Galaxy S II (removable parts)",
+      "oldAsset": "/assets/hardware/device-new-device-2.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-note-3",
+      "name": "Samsung Galaxy Note 3",
+      "picturedModel": "Samsung Galaxy S II (removable parts)",
+      "oldAsset": "/assets/hardware/device-new-device-2.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-note-4",
+      "name": "Samsung Galaxy Note 4",
+      "picturedModel": "Samsung Galaxy S II (removable parts)",
+      "oldAsset": "/assets/hardware/device-new-device-2.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-note-edge",
+      "name": "Samsung Galaxy Note Edge",
+      "picturedModel": "Samsung Galaxy S II (removable parts)",
+      "oldAsset": "/assets/hardware/device-new-device-2.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-note5",
+      "name": "Samsung Galaxy Note5",
+      "picturedModel": "Samsung Galaxy S II (removable parts)",
+      "oldAsset": "/assets/hardware/device-new-device-2.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-note7",
+      "name": "Samsung Galaxy Note7",
+      "picturedModel": "Samsung Galaxy S II (removable parts)",
+      "oldAsset": "/assets/hardware/device-new-device-2.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-note8",
+      "name": "Samsung Galaxy Note8",
+      "picturedModel": "Samsung Galaxy S24",
+      "oldAsset": "/assets/hardware/device-new-device-4.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-note9",
+      "name": "Samsung Galaxy Note9",
+      "picturedModel": "Samsung Galaxy S24",
+      "oldAsset": "/assets/hardware/device-new-device-4.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-note10",
+      "name": "Samsung Galaxy Note10",
+      "picturedModel": "Samsung Galaxy S24",
+      "oldAsset": "/assets/hardware/device-new-device-4.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-note10-2019",
+      "name": "Samsung Galaxy Note10+",
+      "picturedModel": "Samsung Galaxy S24",
+      "oldAsset": "/assets/hardware/device-new-device-4.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-note20",
+      "name": "Samsung Galaxy Note20",
+      "picturedModel": "Samsung Galaxy S24",
+      "oldAsset": "/assets/hardware/device-new-device-4.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-note20-ultra",
+      "name": "Samsung Galaxy Note20 Ultra",
+      "picturedModel": "Samsung Galaxy S24",
+      "oldAsset": "/assets/hardware/device-new-device-4.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-fold",
+      "name": "Samsung Galaxy Fold",
+      "picturedModel": "Samsung Galaxy Z Fold 5",
+      "oldAsset": "/assets/hardware/device-new-device-7.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-z-fold2",
+      "name": "Samsung Galaxy Z Fold2",
+      "picturedModel": "Samsung Galaxy Z Fold 5",
+      "oldAsset": "/assets/hardware/device-new-device-7.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-z-fold3",
+      "name": "Samsung Galaxy Z Fold3",
+      "picturedModel": "Samsung Galaxy Z Fold 5",
+      "oldAsset": "/assets/hardware/device-new-device-7.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-z-fold4",
+      "name": "Samsung Galaxy Z Fold4",
+      "picturedModel": "Samsung Galaxy Z Fold 5",
+      "oldAsset": "/assets/hardware/device-new-device-7.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-z-fold6",
+      "name": "Samsung Galaxy Z Fold6",
+      "picturedModel": "Samsung Galaxy Z Fold 5",
+      "oldAsset": "/assets/hardware/device-new-device-7.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-z-fold7",
+      "name": "Samsung Galaxy Z Fold7",
+      "picturedModel": "Samsung Galaxy Z Fold 5",
+      "oldAsset": "/assets/hardware/device-new-device-7.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-fold8",
+      "name": "Samsung Galaxy Fold8",
+      "picturedModel": "Samsung Galaxy Z Fold 5",
+      "oldAsset": "/assets/hardware/device-new-device-7.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-z-flip",
+      "name": "Samsung Galaxy Z Flip",
+      "picturedModel": "Samsung Galaxy Z Flip5",
+      "oldAsset": "/assets/hardware/device-new-device-42.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-z-flip-5g",
+      "name": "Samsung Galaxy Z Flip 5G",
+      "picturedModel": "Samsung Galaxy Z Flip5",
+      "oldAsset": "/assets/hardware/device-new-device-42.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-z-flip3",
+      "name": "Samsung Galaxy Z Flip3",
+      "picturedModel": "Samsung Galaxy Z Flip5",
+      "oldAsset": "/assets/hardware/device-new-device-42.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-z-flip4",
+      "name": "Samsung Galaxy Z Flip4",
+      "picturedModel": "Samsung Galaxy Z Flip5",
+      "oldAsset": "/assets/hardware/device-new-device-42.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-z-flip6",
+      "name": "Samsung Galaxy Z Flip6",
+      "picturedModel": "Samsung Galaxy Z Flip5",
+      "oldAsset": "/assets/hardware/device-new-device-42.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-z-flip7",
+      "name": "Samsung Galaxy Z Flip7",
+      "picturedModel": "Samsung Galaxy Z Flip5",
+      "oldAsset": "/assets/hardware/device-new-device-42.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-z-flip8",
+      "name": "Samsung Galaxy Z Flip8",
+      "picturedModel": "Samsung Galaxy Z Flip5",
+      "oldAsset": "/assets/hardware/device-new-device-42.webp"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-z-trifold",
+      "name": "Samsung Galaxy Z TriFold",
+      "picturedModel": "Samsung Galaxy Z Fold 5",
+      "oldAsset": "/assets/hardware/device-new-device-7.webp"
+    },
+    {
+      "id": "x-phone-google-pixel-2",
+      "name": "Google Pixel 2",
+      "picturedModel": "Google Pixel and Pixel XL",
+      "oldAsset": "/assets/hardware/device-new-device-5.webp"
+    },
+    {
+      "id": "x-phone-google-pixel-2-xl",
+      "name": "Google Pixel 2 XL",
+      "picturedModel": "Google Pixel and Pixel XL",
+      "oldAsset": "/assets/hardware/device-new-device-5.webp"
+    },
+    {
+      "id": "x-phone-google-pixel-3",
+      "name": "Google Pixel 3",
+      "picturedModel": "Google Pixel and Pixel XL",
+      "oldAsset": "/assets/hardware/device-new-device-5.webp"
+    },
+    {
+      "id": "x-phone-google-pixel-3-xl",
+      "name": "Google Pixel 3 XL",
+      "picturedModel": "Google Pixel and Pixel XL",
+      "oldAsset": "/assets/hardware/device-new-device-5.webp"
+    },
+    {
+      "id": "x-phone-google-pixel-3a",
+      "name": "Google Pixel 3a",
+      "picturedModel": "Google Pixel and Pixel XL",
+      "oldAsset": "/assets/hardware/device-new-device-5.webp"
+    },
+    {
+      "id": "x-phone-google-pixel-4",
+      "name": "Google Pixel 4",
+      "picturedModel": "Google Pixel and Pixel XL",
+      "oldAsset": "/assets/hardware/device-new-device-5.webp"
+    },
+    {
+      "id": "x-phone-google-pixel-4-xl",
+      "name": "Google Pixel 4 XL",
+      "picturedModel": "Google Pixel and Pixel XL",
+      "oldAsset": "/assets/hardware/device-new-device-5.webp"
+    },
+    {
+      "id": "x-phone-google-pixel-4a",
+      "name": "Google Pixel 4a",
+      "picturedModel": "Google Pixel and Pixel XL",
+      "oldAsset": "/assets/hardware/device-new-device-5.webp"
+    },
+    {
+      "id": "x-phone-google-pixel-5",
+      "name": "Google Pixel 5",
+      "picturedModel": "Google Pixel and Pixel XL",
+      "oldAsset": "/assets/hardware/device-new-device-5.webp"
+    },
+    {
+      "id": "x-phone-google-pixel-5a",
+      "name": "Google Pixel 5a",
+      "picturedModel": "Pixel 8",
+      "oldAsset": "/assets/hardware/device-new-device-3.webp"
+    },
+    {
+      "id": "x-phone-google-pixel-6",
+      "name": "Google Pixel 6",
+      "picturedModel": "Pixel 8",
+      "oldAsset": "/assets/hardware/device-new-device-3.webp"
+    },
+    {
+      "id": "x-phone-google-pixel-6-pro",
+      "name": "Google Pixel 6 Pro",
+      "picturedModel": "Google Pixel 8 Pro",
+      "oldAsset": "/assets/hardware/device-new-device-35.webp"
+    },
+    {
+      "id": "x-phone-google-pixel-6a",
+      "name": "Google Pixel 6a",
+      "picturedModel": "Pixel 8",
+      "oldAsset": "/assets/hardware/device-new-device-3.webp"
+    },
+    {
+      "id": "x-phone-google-pixel-7",
+      "name": "Google Pixel 7",
+      "picturedModel": "Pixel 8",
+      "oldAsset": "/assets/hardware/device-new-device-3.webp"
+    },
+    {
+      "id": "x-phone-google-pixel-7a",
+      "name": "Google Pixel 7a",
+      "picturedModel": "Pixel 8",
+      "oldAsset": "/assets/hardware/device-new-device-3.webp"
+    },
+    {
+      "id": "x-phone-google-pixel-9-pro-xl",
+      "name": "Google Pixel 9 Pro XL",
+      "picturedModel": "Google Pixel 8 Pro",
+      "oldAsset": "/assets/hardware/device-new-device-35.webp"
+    },
+    {
+      "id": "x-phone-google-pixel-9a",
+      "name": "Google Pixel 9a",
+      "picturedModel": "Pixel 8",
+      "oldAsset": "/assets/hardware/device-new-device-3.webp"
+    },
+    {
+      "id": "x-phone-google-pixel-10",
+      "name": "Google Pixel 10",
+      "picturedModel": "Pixel 8",
+      "oldAsset": "/assets/hardware/device-new-device-3.webp"
+    },
+    {
+      "id": "x-phone-google-pixel-10-pro",
+      "name": "Google Pixel 10 Pro",
+      "picturedModel": "Google Pixel 8 Pro",
+      "oldAsset": "/assets/hardware/device-new-device-35.webp"
+    },
+    {
+      "id": "x-phone-google-pixel-10-pro-xl",
+      "name": "Google Pixel 10 Pro XL",
+      "picturedModel": "Google Pixel 8 Pro",
+      "oldAsset": "/assets/hardware/device-new-device-35.webp"
+    },
+    {
+      "id": "x-phone-oneplus-2",
+      "name": "OnePlus 2",
+      "picturedModel": "OnePlus One 64GB",
+      "oldAsset": "/assets/hardware/device-new-device-6.webp"
+    },
+    {
+      "id": "x-phone-oneplus-3",
+      "name": "OnePlus 3",
+      "picturedModel": "OnePlus One 64GB",
+      "oldAsset": "/assets/hardware/device-new-device-6.webp"
+    },
+    {
+      "id": "x-phone-oneplus-3t",
+      "name": "OnePlus 3T",
+      "picturedModel": "OnePlus One 64GB",
+      "oldAsset": "/assets/hardware/device-new-device-6.webp"
+    },
+    {
+      "id": "x-phone-oneplus-5",
+      "name": "OnePlus 5",
+      "picturedModel": "OnePlus One 64GB",
+      "oldAsset": "/assets/hardware/device-new-device-6.webp"
+    },
+    {
+      "id": "x-phone-oneplus-5t",
+      "name": "OnePlus 5T",
+      "picturedModel": "OnePlus One 64GB",
+      "oldAsset": "/assets/hardware/device-new-device-6.webp"
+    },
+    {
+      "id": "x-phone-oneplus-6",
+      "name": "OnePlus 6",
+      "picturedModel": "OnePlus One 64GB",
+      "oldAsset": "/assets/hardware/device-new-device-6.webp"
+    },
+    {
+      "id": "x-phone-oneplus-6t",
+      "name": "OnePlus 6T",
+      "picturedModel": "OnePlus One 64GB",
+      "oldAsset": "/assets/hardware/device-new-device-6.webp"
+    },
+    {
+      "id": "x-phone-oneplus-7-pro",
+      "name": "OnePlus 7 Pro",
+      "picturedModel": "OnePlus One 64GB",
+      "oldAsset": "/assets/hardware/device-new-device-6.webp"
+    },
+    {
+      "id": "x-phone-oneplus-7t",
+      "name": "OnePlus 7T",
+      "picturedModel": "OnePlus One 64GB",
+      "oldAsset": "/assets/hardware/device-new-device-6.webp"
+    },
+    {
+      "id": "x-phone-oneplus-8-pro",
+      "name": "OnePlus 8 Pro",
+      "picturedModel": "OnePlus One 64GB",
+      "oldAsset": "/assets/hardware/device-new-device-6.webp"
+    },
+    {
+      "id": "x-phone-oneplus-8t",
+      "name": "OnePlus 8T",
+      "picturedModel": "OnePlus One 64GB",
+      "oldAsset": "/assets/hardware/device-new-device-6.webp"
+    },
+    {
+      "id": "x-phone-oneplus-9-pro",
+      "name": "OnePlus 9 Pro",
+      "picturedModel": "OnePlus One 64GB",
+      "oldAsset": "/assets/hardware/device-new-device-6.webp"
+    },
+    {
+      "id": "x-phone-oneplus-10-pro",
+      "name": "OnePlus 10 Pro",
+      "picturedModel": "OnePlus One 64GB",
+      "oldAsset": "/assets/hardware/device-new-device-6.webp"
+    },
+    {
+      "id": "x-phone-oneplus-11",
+      "name": "OnePlus 11",
+      "picturedModel": "OnePlus One 64GB",
+      "oldAsset": "/assets/hardware/device-new-device-6.webp"
+    },
+    {
+      "id": "x-phone-oneplus-12",
+      "name": "OnePlus 12",
+      "picturedModel": "OnePlus One 64GB",
+      "oldAsset": "/assets/hardware/device-new-device-6.webp"
+    },
+    {
+      "id": "x-phone-oneplus-13",
+      "name": "OnePlus 13",
+      "picturedModel": "OnePlus One 64GB",
+      "oldAsset": "/assets/hardware/device-new-device-6.webp"
+    },
+    {
+      "id": "x-phone-oneplus-open",
+      "name": "OnePlus Open",
+      "picturedModel": "OnePlus One 64GB",
+      "oldAsset": "/assets/hardware/device-new-device-6.webp"
+    },
+    {
+      "id": "x-board-asus-p5b-deluxe",
+      "name": "ASUS P5B Deluxe",
+      "picturedModel": "GIGABYTE Turbo 3D motherboard",
+      "oldAsset": "/assets/hardware/component-new-board-gigabyte-turbo.jpg"
+    },
+    {
+      "id": "x-board-asus-p5k-deluxe",
+      "name": "ASUS P5K Deluxe",
+      "picturedModel": "GIGABYTE Turbo 3D motherboard",
+      "oldAsset": "/assets/hardware/component-new-board-gigabyte-turbo.jpg"
+    },
+    {
+      "id": "x-board-asus-p6t-deluxe",
+      "name": "ASUS P6T Deluxe",
+      "picturedModel": "GIGABYTE Turbo 3D motherboard",
+      "oldAsset": "/assets/hardware/component-new-board-gigabyte-turbo.jpg"
+    },
+    {
+      "id": "x-board-asus-p8p67-deluxe",
+      "name": "ASUS P8P67 Deluxe",
+      "picturedModel": "GIGABYTE Turbo 3D motherboard",
+      "oldAsset": "/assets/hardware/component-new-board-gigabyte-turbo.jpg"
+    },
+    {
+      "id": "x-board-asus-maximus-v-formula",
+      "name": "ASUS Maximus V Formula",
+      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
+      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+    },
+    {
+      "id": "x-board-asus-maximus-vi-hero",
+      "name": "ASUS Maximus VI Hero",
+      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
+      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+    },
+    {
+      "id": "x-board-asus-maximus-vii-hero",
+      "name": "ASUS Maximus VII Hero",
+      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
+      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+    },
+    {
+      "id": "x-board-asus-maximus-viii-hero",
+      "name": "ASUS Maximus VIII Hero",
+      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
+      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+    },
+    {
+      "id": "x-board-asus-maximus-ix-hero",
+      "name": "ASUS Maximus IX Hero",
+      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
+      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+    },
+    {
+      "id": "x-board-asus-rog-crosshair-vi-hero",
+      "name": "ASUS ROG Crosshair VI Hero",
+      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
+      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+    },
+    {
+      "id": "x-board-asus-rog-crosshair-vii-hero",
+      "name": "ASUS ROG Crosshair VII Hero",
+      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
+      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+    },
+    {
+      "id": "x-board-asus-rog-crosshair-viii-hero",
+      "name": "ASUS ROG Crosshair VIII Hero",
+      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
+      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+    },
+    {
+      "id": "x-board-asus-rog-maximus-x-hero",
+      "name": "ASUS ROG Maximus X Hero",
+      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
+      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+    },
+    {
+      "id": "x-board-asus-rog-maximus-xi-hero",
+      "name": "ASUS ROG Maximus XI Hero",
+      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
+      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+    },
+    {
+      "id": "x-board-asus-rog-maximus-xii-hero",
+      "name": "ASUS ROG Maximus XII Hero",
+      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
+      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+    },
+    {
+      "id": "x-board-asus-rog-maximus-xiii-hero",
+      "name": "ASUS ROG Maximus XIII Hero",
+      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
+      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+    },
+    {
+      "id": "x-board-gigabyte-ga-965p-ds3",
+      "name": "GIGABYTE GA-965P-DS3",
+      "picturedModel": "GIGABYTE Turbo 3D motherboard",
+      "oldAsset": "/assets/hardware/component-new-board-gigabyte-turbo.jpg"
+    },
+    {
+      "id": "x-board-gigabyte-ga-p35-ds3r",
+      "name": "GIGABYTE GA-P35-DS3R",
+      "picturedModel": "GIGABYTE Turbo 3D motherboard",
+      "oldAsset": "/assets/hardware/component-new-board-gigabyte-turbo.jpg"
+    },
+    {
+      "id": "x-board-gigabyte-ga-x58a-ud3r",
+      "name": "GIGABYTE GA-X58A-UD3R",
+      "picturedModel": "GIGABYTE Turbo 3D motherboard",
+      "oldAsset": "/assets/hardware/component-new-board-gigabyte-turbo.jpg"
+    },
+    {
+      "id": "x-board-gigabyte-ga-z68x-ud3h-b3",
+      "name": "GIGABYTE GA-Z68X-UD3H-B3",
+      "picturedModel": "GIGABYTE Turbo 3D motherboard",
+      "oldAsset": "/assets/hardware/component-new-board-gigabyte-turbo.jpg"
+    },
+    {
+      "id": "x-board-gigabyte-ga-z77x-ud5h",
+      "name": "GIGABYTE GA-Z77X-UD5H",
+      "picturedModel": "GIGABYTE Turbo 3D motherboard",
+      "oldAsset": "/assets/hardware/component-new-board-gigabyte-turbo.jpg"
+    },
+    {
+      "id": "x-board-gigabyte-ga-z87x-ud3h",
+      "name": "GIGABYTE GA-Z87X-UD3H",
+      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
+      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+    },
+    {
+      "id": "x-board-gigabyte-ga-z97x-gaming-7",
+      "name": "GIGABYTE GA-Z97X-Gaming 7",
+      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
+      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+    },
+    {
+      "id": "x-board-gigabyte-ga-z170x-gaming-7",
+      "name": "GIGABYTE GA-Z170X-Gaming 7",
+      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
+      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+    },
+    {
+      "id": "x-board-gigabyte-x299-aorus-gaming-9",
+      "name": "GIGABYTE X299 AORUS Gaming 9",
+      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
+      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+    },
+    {
+      "id": "x-board-gigabyte-x399-aorus-gaming-7",
+      "name": "GIGABYTE X399 AORUS Gaming 7",
+      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
+      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+    },
+    {
+      "id": "c-board-msi-meg-x870e-godlike",
+      "name": "MSI MEG X870E GODLIKE",
+      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
+      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+    },
+    {
+      "id": "c-board-msi-mpg-b850-edge-ti-wifi",
+      "name": "MSI MPG B850 EDGE TI WIFI",
+      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
+      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+    },
+    {
+      "id": "c-board-msi-mpg-b650i-edge-wifi",
+      "name": "MSI MPG B650I EDGE WIFI",
+      "picturedModel": "Mini-ITX motherboard",
+      "oldAsset": "/assets/hardware/component-new-board-itx.jpg"
+    },
+    {
+      "id": "c-board-msi-meg-z890-godlike",
+      "name": "MSI MEG Z890 GODLIKE",
+      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
+      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+    },
+    {
+      "id": "c-board-msi-mag-z890-tomahawk-wifi",
+      "name": "MSI MAG Z890 TOMAHAWK WIFI",
+      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
+      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+    },
+    {
+      "id": "c-board-msi-mag-b760m-mortar-wifi-ii",
+      "name": "MSI MAG B760M MORTAR WIFI II",
+      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
+      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+    },
+    {
+      "id": "c-board-msi-pro-h610m-g-ddr4",
+      "name": "MSI PRO H610M-G DDR4",
+      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
+      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+    },
+    {
+      "id": "c-board-asrock-x870e-taichi",
+      "name": "ASRock X870E Taichi",
+      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
+      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+    },
+    {
+      "id": "c-board-asrock-x870e-nova-wifi",
+      "name": "ASRock X870E Nova WiFi",
+      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
+      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+    },
+    {
+      "id": "c-board-asrock-x870-steel-legend-wifi",
+      "name": "ASRock X870 Steel Legend WiFi",
+      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
+      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+    },
+    {
+      "id": "c-board-asrock-b850-livemixer-wifi",
+      "name": "ASRock B850 LiveMixer WiFi",
+      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
+      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+    },
+    {
+      "id": "c-board-asrock-b850-steel-legend-wifi",
+      "name": "ASRock B850 Steel Legend WiFi",
+      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
+      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+    },
+    {
+      "id": "c-board-asrock-b650e-taichi-lite",
+      "name": "ASRock B650E Taichi Lite",
+      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
+      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+    },
+    {
+      "id": "c-board-asrock-b650m-pro-rs-wifi",
+      "name": "ASRock B650M Pro RS WiFi",
+      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
+      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+    },
+    {
+      "id": "c-board-asrock-a620i-lightning-wifi",
+      "name": "ASRock A620I Lightning WiFi",
+      "picturedModel": "Mini-ITX motherboard",
+      "oldAsset": "/assets/hardware/component-new-board-itx.jpg"
+    },
+    {
+      "id": "c-board-asrock-z890-taichi-ocf",
+      "name": "ASRock Z890 Taichi OCF",
+      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
+      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+    },
+    {
+      "id": "c-board-asrock-z890-nova-wifi",
+      "name": "ASRock Z890 Nova WiFi",
+      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
+      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+    },
+    {
+      "id": "c-board-asrock-z790-taichi-carrara",
+      "name": "ASRock Z790 Taichi Carrara",
+      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
+      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+    },
+    {
+      "id": "c-board-asrock-z790-pg-itx-tb4",
+      "name": "ASRock Z790 PG-ITX/TB4",
+      "picturedModel": "Mini-ITX motherboard",
+      "oldAsset": "/assets/hardware/component-new-board-itx.jpg"
+    },
+    {
+      "id": "c-board-asrock-b760m-steel-legend-wifi",
+      "name": "ASRock B760M Steel Legend WiFi",
+      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
+      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+    },
+    {
+      "id": "c-board-asrock-b550-taichi",
+      "name": "ASRock B550 Taichi",
+      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
+      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+    },
+    {
+      "id": "c-board-asrock-b450m-steel-legend",
+      "name": "ASRock B450M Steel Legend",
+      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
+      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+    },
+    {
+      "id": "c-board-gigabyte-x870e-aorus-xtreme-ai-top",
+      "name": "GIGABYTE X870E AORUS XTREME AI TOP",
+      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
+      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+    },
+    {
+      "id": "c-board-gigabyte-x870e-aorus-master",
+      "name": "GIGABYTE X870E AORUS MASTER",
+      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
+      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+    },
+    {
+      "id": "c-board-gigabyte-x870-aorus-elite-wifi7",
+      "name": "GIGABYTE X870 AORUS ELITE WIFI7",
+      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
+      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+    },
+    {
+      "id": "c-board-gigabyte-b850-aorus-elite-wifi7",
+      "name": "GIGABYTE B850 AORUS ELITE WIFI7",
+      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
+      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+    },
+    {
+      "id": "c-board-gigabyte-b650-aorus-elite-ax",
+      "name": "GIGABYTE B650 AORUS ELITE AX",
+      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
+      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+    },
+    {
+      "id": "c-board-gigabyte-b650i-aorus-ultra",
+      "name": "GIGABYTE B650I AORUS ULTRA",
+      "picturedModel": "Mini-ITX motherboard",
+      "oldAsset": "/assets/hardware/component-new-board-itx.jpg"
+    },
+    {
+      "id": "c-board-gigabyte-z890-aorus-xtreme-ai-top",
+      "name": "GIGABYTE Z890 AORUS XTREME AI TOP",
+      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
+      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+    },
+    {
+      "id": "c-board-gigabyte-z790-aorus-master-x",
+      "name": "GIGABYTE Z790 AORUS MASTER X",
+      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
+      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+    },
+    {
+      "id": "c-board-gigabyte-z790i-aorus-ultra",
+      "name": "GIGABYTE Z790I AORUS ULTRA",
+      "picturedModel": "Mini-ITX motherboard",
+      "oldAsset": "/assets/hardware/component-new-board-itx.jpg"
+    },
+    {
+      "id": "c-board-gigabyte-b760m-ds3h-ddr4",
+      "name": "GIGABYTE B760M DS3H DDR4",
+      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
+      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+    },
+    {
+      "id": "c-board-biostar-x870e-valkyrie",
+      "name": "Biostar X870E VALKYRIE",
+      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
+      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+    },
+    {
+      "id": "c-board-biostar-b650mp-e-pro",
+      "name": "Biostar B650MP-E PRO",
+      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
+      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+    },
+    {
+      "id": "c-board-biostar-b550mh",
+      "name": "Biostar B550MH",
+      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
+      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+    },
+    {
+      "id": "c-board-biostar-z890-valkyrie",
+      "name": "Biostar Z890 VALKYRIE",
+      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
+      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+    },
+    {
+      "id": "c-board-biostar-z790a-silver",
+      "name": "Biostar Z790A-SILVER",
+      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
+      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+    },
+    {
+      "id": "c-board-biostar-b760mx2-e-d4",
+      "name": "Biostar B760MX2-E D4",
+      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
+      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+    },
+    {
+      "id": "c-board-supermicro-x13dei-t",
+      "name": "Supermicro X13DEI-T",
+      "picturedModel": "Supermicro dual Opteron server motherboard",
+      "oldAsset": "/assets/hardware/component-new-board-server.jpg"
+    },
+    {
+      "id": "c-cpu-intel-xeon-gold-6430",
+      "name": "Intel Xeon Gold 6430",
+      "picturedModel": "Intel Xeon Platinum 8490H",
+      "oldAsset": "/assets/hardware/cpu-xeon.jpg"
+    },
+    {
+      "id": "c-cpu-intel-xeon-gold-6454s",
+      "name": "Intel Xeon Gold 6454S",
+      "picturedModel": "Intel Xeon Platinum 8490H",
+      "oldAsset": "/assets/hardware/cpu-xeon.jpg"
+    },
+    {
+      "id": "c-cpu-intel-xeon-gold-6448y",
+      "name": "Intel Xeon Gold 6448Y",
+      "picturedModel": "Intel Xeon Platinum 8490H",
+      "oldAsset": "/assets/hardware/cpu-xeon.jpg"
+    },
+    {
+      "id": "c-cpu-intel-xeon-platinum-8468",
+      "name": "Intel Xeon Platinum 8468",
+      "picturedModel": "Intel Xeon Platinum 8490H",
+      "oldAsset": "/assets/hardware/cpu-xeon.jpg"
+    },
+    {
+      "id": "c-cpu-intel-xeon-platinum-8470",
+      "name": "Intel Xeon Platinum 8470",
+      "picturedModel": "Intel Xeon Platinum 8490H",
+      "oldAsset": "/assets/hardware/cpu-xeon.jpg"
+    },
+    {
+      "id": "c-cpu-intel-xeon-platinum-8480",
+      "name": "Intel Xeon Platinum 8480+",
+      "picturedModel": "Intel Xeon Platinum 8490H",
+      "oldAsset": "/assets/hardware/cpu-xeon.jpg"
+    },
+    {
+      "id": "c-cpu-amd-epyc-9754",
+      "name": "AMD EPYC 9754",
+      "picturedModel": "AMD EPYC 9654",
+      "oldAsset": "/assets/hardware/cpu-epyc.jpg"
+    },
+    {
+      "id": "c-cpu-amd-epyc-9734",
+      "name": "AMD EPYC 9734",
+      "picturedModel": "AMD EPYC 9654",
+      "oldAsset": "/assets/hardware/cpu-epyc.jpg"
+    },
+    {
+      "id": "c-cpu-amd-epyc-9634",
+      "name": "AMD EPYC 9634",
+      "picturedModel": "AMD EPYC 9654",
+      "oldAsset": "/assets/hardware/cpu-epyc.jpg"
+    },
+    {
+      "id": "c-cpu-amd-epyc-9554",
+      "name": "AMD EPYC 9554",
+      "picturedModel": "AMD EPYC 9654",
+      "oldAsset": "/assets/hardware/cpu-epyc.jpg"
+    },
+    {
+      "id": "c-cpu-amd-epyc-9454",
+      "name": "AMD EPYC 9454",
+      "picturedModel": "AMD EPYC 9654",
+      "oldAsset": "/assets/hardware/cpu-epyc.jpg"
+    },
+    {
+      "id": "c-board-gigabyte-mz73-lm0",
+      "name": "GIGABYTE MZ73-LM0",
+      "picturedModel": "Supermicro dual Opteron server motherboard",
+      "oldAsset": "/assets/hardware/component-new-board-server.jpg"
+    },
+    {
+      "id": "c-board-supermicro-h13dsh",
+      "name": "Supermicro H13DSH",
+      "picturedModel": "Supermicro dual Opteron server motherboard",
+      "oldAsset": "/assets/hardware/component-new-board-server.jpg"
+    },
+    {
+      "id": "retail-asus-prime-h510m-k",
+      "name": "PRIME H510M-K",
+      "picturedModel": "PRIME H510M-K — simplified illustration",
+      "oldAsset": "/assets/illustrations/retail-asus-prime-h510m-k.svg"
+    },
+    {
+      "id": "retail-msi-geforce-rtx-5070-12g-gaming-trio-oc",
+      "name": "GeForce RTX 5070 12G GAMING TRIO OC",
+      "picturedModel": "GeForce RTX 5070 12G GAMING TRIO OC — simplified illustration",
+      "oldAsset": "/assets/illustrations/retail-msi-geforce-rtx-5070-12g-gaming-trio-oc.svg"
+    },
+    {
+      "id": "retail-msi-geforce-rtx-3060-ventus-2x-12g",
+      "name": "GeForce RTX 3060 VENTUS 2X 12G",
+      "picturedModel": "GeForce RTX 3060 VENTUS 2X 12G — simplified illustration",
+      "oldAsset": "/assets/illustrations/retail-msi-geforce-rtx-3060-ventus-2x-12g.svg"
+    },
+    {
+      "id": "retail-msi-geforce-rtx-3060-ventus-2x-12g-oc",
+      "name": "GeForce RTX 3060 VENTUS 2X 12G OC",
+      "picturedModel": "GeForce RTX 3060 VENTUS 2X 12G OC — simplified illustration",
+      "oldAsset": "/assets/illustrations/retail-msi-geforce-rtx-3060-ventus-2x-12g-oc.svg"
+    },
+    {
+      "id": "retail-msi-geforce-rtx-3060-ventus-2x-8g-oc",
+      "name": "GeForce RTX 3060 VENTUS 2X 8G OC",
+      "picturedModel": "GeForce RTX 3060 VENTUS 2X 8G OC — simplified illustration",
+      "oldAsset": "/assets/illustrations/retail-msi-geforce-rtx-3060-ventus-2x-8g-oc.svg"
+    },
+    {
+      "id": "retail-msi-geforce-rtx-3060-gaming-x-12g",
+      "name": "GeForce RTX 3060 GAMING X 12G",
+      "picturedModel": "GeForce RTX 3060 GAMING X 12G — simplified illustration",
+      "oldAsset": "/assets/illustrations/retail-msi-geforce-rtx-3060-gaming-x-12g.svg"
+    },
+    {
+      "id": "retail-msi-geforce-rtx-3060-gaming-x-trio-12g",
+      "name": "GeForce RTX 3060 GAMING X TRIO 12G",
+      "picturedModel": "GeForce RTX 3060 GAMING X TRIO 12G — simplified illustration",
+      "oldAsset": "/assets/illustrations/retail-msi-geforce-rtx-3060-gaming-x-trio-12g.svg"
+    },
+    {
+      "id": "retail-asus-dual-geforce-rtx-3060-v2-oc-edition",
+      "name": "Dual GeForce RTX 3060 V2 OC Edition",
+      "picturedModel": "Dual GeForce RTX 3060 V2 OC Edition — simplified illustration",
+      "oldAsset": "/assets/illustrations/retail-asus-dual-geforce-rtx-3060-v2-oc-edition.svg"
+    },
+    {
+      "id": "retail-zotac-geforce-rtx-3060-twin-edge",
+      "name": "GeForce RTX 3060 Twin Edge",
+      "picturedModel": "GeForce RTX 3060 Twin Edge — simplified illustration",
+      "oldAsset": "/assets/illustrations/retail-zotac-geforce-rtx-3060-twin-edge.svg"
+    },
+    {
+      "id": "retail-gigabyte-geforce-rtx-4090-aero-oc-24g",
+      "name": "GeForce RTX 4090 AERO OC 24G",
+      "picturedModel": "GeForce RTX 4090 AERO OC 24G — simplified illustration",
+      "oldAsset": "/assets/illustrations/retail-gigabyte-geforce-rtx-4090-aero-oc-24g.svg"
+    }
+  ],
+  "policy": "Do not show another CPU, motherboard or graphics chip as the selected product. Genuine same-chip partner images explicitly name the photographed variant. Unverified products retain specifications with an image-unavailable state."
+}

@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-04T16:16:43.864Z",
+  "checkedAt": "2026-10-04T17:22:04.016Z",
   "totalComponents": 816,
   "downloadedMappings": 80,
   "simplifiedMappings": 736,
-  "uniqueFiles": 148,
+  "uniqueFiles": 152,
   "method": "Self-contained GLB, chunk lengths, embedded texture ranges, reachable scene transforms, nonzero volume and triangles. This does not certify shape identity or clearance.",
   "assets": [
     {
@@ -2075,6 +2075,62 @@
         3.3208752128286223,
         1.682662803765851,
         5.639024157147203
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-iphone-16.glb",
+      "bytes": 1825464,
+      "sha256": "63ac5f787ec7da0cc315ec1c8e7c6f9c8ce6d8033c048344c5bb609733c0f9e0",
+      "meshes": 97,
+      "triangles": 60986,
+      "textures": 13,
+      "sourceBounds": [
+        7.252744461177961,
+        14.793101521036029,
+        1.1269154639977668
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-iphone-16-pro.glb",
+      "bytes": 1201392,
+      "sha256": "ae5b212da8e47323408c9d45372ca5b3392529741bcca284bd837ea81b7f9699",
+      "meshes": 4,
+      "triangles": 49568,
+      "textures": 3,
+      "sourceBounds": [
+        0.0724934775348287,
+        0.14953690767288208,
+        0.011861644939423086
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-galaxy-s25.glb",
+      "bytes": 363928,
+      "sha256": "b921e87b5794cbcf316841efacebf4b97c1ccf93fdddd433a53712a2b497cf7a",
+      "meshes": 1,
+      "triangles": 13484,
+      "textures": 3,
+      "sourceBounds": [
+        0.33743411343810836,
+        4.97154006434066,
+        2.4034608410073295
+      ],
+      "animations": 0
+    },
+    {
+      "file": "dist/assets/models/sketchfab-pixel-9.glb",
+      "bytes": 17944,
+      "sha256": "016f2e3595e2fe9b14b0c679fae2adf8fd6e6eec0df86fb118efb407a7bf6cb8",
+      "meshes": 4,
+      "triangles": 1287,
+      "textures": 0,
+      "sourceBounds": [
+        2.1437249276699504,
+        3.915210194530849,
+        0.3984554891747043
       ],
       "animations": 0
     }

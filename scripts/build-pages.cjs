@@ -1,10 +1,11 @@
 const fs=require('fs'),path=require('path'),vm=require('vm');
 const blogMigration=require('./blog-migration.cjs');
 const peripheralModels=require('./peripheral-models.json');
+require('./phone-catalog.cjs')();
 const root=path.resolve('dist'),context={window:{},document:{querySelector(){}}};vm.createContext(context);
-for(const file of ['data','history-data','universe-data','component-data','core','retail-data'])vm.runInContext(fs.readFileSync(path.join(root,file+'.js'),'utf8'),context);
+for(const file of ['data','history-data','universe-data','component-data','core','retail-data','phone-catalog'])vm.runInContext(fs.readFileSync(path.join(root,file+'.js'),'utf8'),context);
 vm.runInContext('globalThis.records=catalog;globalThis.unitMap=units;globalThis.groups=categories;',context);
-const records=context.records,images=fs.existsSync('dist/images.json')?JSON.parse(fs.readFileSync('dist/images.json','utf8')):{};
+const records=context.records,images=require('./apply-verified-photos.cjs')(records);
 // Browsing and builder pages only need the image URL and pictured identity. Attribution
 // remains on product/compare pages; do not transfer the full source registry to every tool.
 fs.writeFileSync(path.join(root,'image-catalog-lite.js'),'window.PCP_IMAGES='+JSON.stringify(Object.fromEntries(records.filter(p=>images[p.id]).map(p=>[p.id,{src:images[p.id].src,picturedModel:images[p.id].picturedModel}]))).replace(/</g,'\\u003c')+';');
@@ -26,7 +27,7 @@ function shell(title,route,body,options={}){
 <meta name="theme-color" content="#101319"><meta name="color-scheme" content="dark light"><link rel="icon" href="/assets/favicon.png" type="image/png" sizes="256x256"><link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" sizes="180x180"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><script src="/theme.js"></script>
 ${route==='builder'?'<link rel="stylesheet" href="/builder-legacy.css">':''}<link rel="stylesheet" href="/design.css"><link rel="stylesheet" href="/refinement.css"><link rel="stylesheet" href="/motion.css">
 <link rel="stylesheet" href="/editorial.css"><link rel="stylesheet" href="/research.css"><script src="/indexing-policy.js" defer></script>${['learn','guide','record','compare','home'].includes(route)?'<link rel="stylesheet" href="/learn.css">':''}${options.model?'<link rel="stylesheet" href="/part-model.css">':''}${interactive?'\n<link rel="stylesheet" href="/builder-refresh.css">':''}${route==='home'?'\n<link rel="stylesheet" href="/homepage.css">':''}${route==='performance'?'\n<link rel="stylesheet" href="/performance.css"><link rel="stylesheet" href="/performance-reading.css">':''}
-${route==='builder'?'<link rel="stylesheet" href="/builder-reading.css"><link rel="stylesheet" href="/build-scene.css"><link rel="stylesheet" href="/builder-studio.css">\n':''}<script src="/site-ui.js" defer></script>${interactive?'\n'+['data','history-data','universe-data','component-data','core','retail-data',route==='compare'?'image-catalog':'image-catalog-lite','interface'].map(f=>`<script src="/${f}.js?v=20260924l" defer></script>`).join('\n'):''}
+${route==='builder'?'<link rel="stylesheet" href="/builder-reading.css"><link rel="stylesheet" href="/build-scene.css"><link rel="stylesheet" href="/builder-studio.css">\n':''}${route==='compare'?'<link rel="stylesheet" href="/phone-preview.css"><script src="/phone-preview.js?v=20261004b" defer></script>':''}<script src="/site-ui.js" defer></script>${interactive?'\n'+['data','history-data','universe-data','component-data','core','retail-data','phone-catalog',route==='compare'?'image-catalog':'image-catalog-lite','interface'].map(f=>`<script src="/${f}.js?v=20261004b" defer></script>`).join('\n'):''}
 ${route==='builder'?'<script src="/model-options.js?v=20261004a" defer></script><script src="/builder-organize.js" defer></script><script src="/builder-v2.js?v=20260923c" defer></script><script src="/builder-cooling.js" defer></script><script src="/assembly-3d.js?v=20261004a" defer></script>':''}${route==='performance'?'<script src="/game-library.js" defer></script><script src="/performance.js" defer></script>':''}${options.model?'<script type="module" src="/part-model.js?v=20261004a"></script>':''}${interactive?'<script src="/select-ui.js?v=20260924l" defer></script>':''}<script src="/motion.js" defer></script>${route==='guide'?'<script src="/research-tools.js" defer></script>':''}
 </head><body data-page="${route}"${options.category?` data-category="${options.category}"`:''}>
 <a class="skip" href="#main">Skip to content</a>
@@ -89,6 +90,7 @@ blogMigration.redirects(root);
 require("./coverage-page.cjs")({root,write,shell,esc});
 require("./seo-launch.cjs")({root,records,images,groups:context.groups,shell,esc,write});
 require("./publication.cjs")({root,records,images,groups:context.groups,shell,esc,write});
+require("./phone-pages.cjs")({root,images,esc});
 require("./shopping-pages.cjs")({root,records,images,groups:context.groups,shell,esc,write});
 
 require("./seo-pass.cjs")({root,records,shell,write,esc});

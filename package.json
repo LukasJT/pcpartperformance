@@ -16,6 +16,7 @@
     "models:audit": "node scripts/audit-model-assets.cjs",
     "models:research": "node --use-system-ca scripts/research-model-candidates.cjs",
     "models:research-broad": "node --use-system-ca scripts/research-broad-models.cjs",
-    "check:model-framing": "node scripts/check-model-framing.cjs"
+    "check:model-framing": "node scripts/check-model-framing.cjs",
+    "check:phone-previews": "node scripts/check-phone-previews.cjs"
   }
 }

@@ -1,0 +1,9 @@
+# Product photography corrections — October 4, 2026
+
+The former category fallbacks assigned one Z390 motherboard to 86 listings, a 3700X to many other AM4 CPUs, and graphics cards to different GPU chips. The build now rejects `family`, `reference` and synthetic `illustration` mappings for CPUs, GPUs and motherboards. Phone reference images also require a matching model name; an iPhone 15 Pro is not used as an iPhone 17e, for example. Unknown photography stays unavailable; specifications and controls remain usable.
+
+`scripts/verified-photo-overrides.json` records each corrected model, source page, original media URL and local optimized WebP. Official MSI datasheet imagery was extracted from the RGB product image at the upper left of the PDF, with its soft transparency mask composited onto white. ASUS imagery came from the exact product page's main board image. AMD images were accepted only when their filenames identified the selected processor or GPU. Several AMD pages reuse a different processor's pack shot; those were rejected. Apple, Google and Samsung imagery identifies the phone being compared.
+
+MSI partner-card photos for generic graphics-chip listings are recorded as `variant` with the exact photographed SKU and matching `gpuModel`. The RTX 3050 6 GB and 8 GB listings have separate official datasheets and distinct images. Actual SKU aliases may correctly share the same product photograph. That is different from sharing a photo across different motherboards or GPU chips.
+
+Contact sheets were visually reviewed. `photo-corrections.json` lists unresolved exact-product photography. The report persists across repeated builds. No claim is made that every older or server product now has a verified image. Manufacturer attribution is retained; product media is not described as Creative Commons licensed.
