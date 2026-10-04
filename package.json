@@ -7,6 +7,10 @@
     "models:build": "node scripts/build-model-library.cjs && node scripts/generate-models.mjs",
     "check:blog-models": "node scripts/check-blog-models.cjs",
     "check:seo": "node scripts/check-seo.cjs",
+    "check:publication": "node scripts/check-stage2.cjs",
+    "publication:docs": "node scripts/write-stage2-docs.cjs",
+    "publication:freshness": "node scripts/audit-publication-freshness.cjs",
+    "news:intake": "node --use-system-ca scripts/monitor-news.cjs",
     "check:cooling": "node scripts/check-cooling.cjs",
     "catalog:retail": "node scripts/expand-retail.cjs"
   }

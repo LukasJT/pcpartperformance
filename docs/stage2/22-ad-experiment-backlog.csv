@@ -1,0 +1,5 @@
+"name","hypothesis","metrics","guardrail","status","decision"
+"Article-end only","Article-end slot versus no ads","Engaged sessions; revenue per 1000 sessions; field INP/CLS","No ads before approval/CMP. No slots beside tools.","Not activated","Do not use invented baseline or revenue projections"
+"One mid-article slot","After section two versus article-end only","Page RPM; completion; scroll engagement; CLS","Reserve slot space only when enabled. Stop on layout shift.","Not activated","Do not use invented baseline or revenue projections"
+"Video secondary link","External verified video link placement","Useful link clicks and article return; not video ad impressions","No autoplay or fake watch-page schema.","Not activated","Do not use invented baseline or revenue projections"
+"Retail evidence panel","Exact verified offer panel versus plain source link","Qualified retailer clicks; mismatch reports","Requires live authorized offers and affiliate disclosure.","Not activated","Do not use invented baseline or revenue projections"

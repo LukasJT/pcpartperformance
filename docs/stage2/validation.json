@@ -1,0 +1,21 @@
+{
+  "checked": "2026-10-04T14:43:53.063Z",
+  "newPages": 36,
+  "guides": 8,
+  "tools": 7,
+  "phones": 5,
+  "jsGzipBytes": {
+    "planning-math.js": 1159,
+    "publication-ui.js": 2870
+  },
+  "checks": [
+    "Calculator arithmetic, boundaries, blanks and unit conversion",
+    "MSI sharing and CPU restriction",
+    "Per-field phone evidence and unknowns",
+    "News review/deployment gates, future dates, two-day aging and deduplication",
+    "Default-off ad/consent/GPC gates",
+    "Optional API GET/HEAD/ETag/404/405/429 and rate-window expiry",
+    "Draft/saved/search exclusions; sitemap; 1200px images; substantive guides; no full catalog JS on new pages",
+    "Unique search IDs and safe local result paths"
+  ]
+}

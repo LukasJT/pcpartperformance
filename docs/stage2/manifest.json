@@ -1,0 +1,594 @@
+{
+  "researchDate": "2026-10-04",
+  "confirmedDeployment": false,
+  "newPages": [
+    {
+      "route": "/blog/graphics-driver-update-rollback-checklist/",
+      "title": "Graphics-driver trouble after an update: preserve the evidence first",
+      "description": "Record the installed driver, symptoms and exact hardware before changing another setting or attempting a rollback.",
+      "image": {
+        "src": "/assets/publication/graphics-driver-update-rollback-checklist.png",
+        "alt": "Graphics-driver trouble after an update: preserve the evidence first"
+      },
+      "noindex": false,
+      "datePrepared": "2026-10-04",
+      "datePublished": null
+    },
+    {
+      "route": "/blog/b650-tomahawk-m2-pcie-lane-sharing/",
+      "title": "B650 TOMAHAWK lane sharing: choose the right M.2 slot",
+      "description": "Understand the M2_3 and PCI_E2 connection, and why some Ryzen processors change which slots are available.",
+      "image": {
+        "src": "/assets/publication/b650-tomahawk-m2-pcie-lane-sharing.png",
+        "alt": "B650 TOMAHAWK lane sharing: choose the right M.2 slot"
+      },
+      "noindex": false,
+      "datePrepared": "2026-10-04",
+      "datePublished": null
+    },
+    {
+      "route": "/blog/rtx-5060-ti-8gb-vs-16gb/",
+      "title": "RTX 5060 Ti 8 GB vs 16 GB: capacity is the key difference",
+      "description": "Compare the published memory configuration, then check game-specific evidence before choosing a particular partner card.",
+      "image": {
+        "src": "/assets/publication/rtx-5060-ti-8gb-vs-16gb.png",
+        "alt": "RTX 5060 Ti 8 GB vs 16 GB: capacity is the key difference"
+      },
+      "noindex": false,
+      "datePrepared": "2026-10-04",
+      "datePublished": null
+    },
+    {
+      "route": "/blog/usb-c-speed-charging-display-checklist/",
+      "title": "USB-C does not tell you the speed: a port and cable checklist",
+      "description": "Separate connector shape, data speed, charging and video support before buying a cable, hub or display.",
+      "image": {
+        "src": "/assets/publication/usb-c-speed-charging-display-checklist.png",
+        "alt": "USB-C does not tell you the speed: a port and cable checklist"
+      },
+      "noindex": false,
+      "datePrepared": "2026-10-04",
+      "datePublished": null
+    },
+    {
+      "route": "/blog/local-ai-memory-weights-kv-cache/",
+      "title": "Local AI memory: model weights are only the starting point",
+      "description": "Estimate weight storage, then budget explicitly for the runtime and KV cache without claiming that a model will fit or run quickly.",
+      "image": {
+        "src": "/assets/publication/local-ai-memory-weights-kv-cache.png",
+        "alt": "Local AI memory: model weights are only the starting point"
+      },
+      "noindex": false,
+      "datePrepared": "2026-10-04",
+      "datePublished": null
+    },
+    {
+      "route": "/blog/pc-upgrade-total-platform-cost/",
+      "title": "A CPU upgrade costs more than the CPU: compare the whole platform",
+      "description": "Build two complete upgrade budgets with a motherboard, memory, cooling and the costs you would otherwise overlook.",
+      "image": {
+        "src": "/assets/publication/pc-upgrade-total-platform-cost.png",
+        "alt": "A CPU upgrade costs more than the CPU: compare the whole platform"
+      },
+      "noindex": false,
+      "datePrepared": "2026-10-04",
+      "datePublished": null
+    },
+    {
+      "route": "/blog/phone-software-support-commitment-vs-end-date/",
+      "title": "Phone update support: a promise is not always an exact end date",
+      "description": "Read update commitments without inventing a countdown or confusing OS upgrades with security patches.",
+      "image": {
+        "src": "/assets/publication/phone-software-support-commitment-vs-end-date.png",
+        "alt": "Phone update support: a promise is not always an exact end date"
+      },
+      "noindex": false,
+      "datePrepared": "2026-10-04",
+      "datePublished": null
+    },
+    {
+      "route": "/blog/memory-market-watch-ai-is-not-a-retail-price/",
+      "title": "Memory market watch: AI demand is not a price quote for your RAM",
+      "description": "Separate company reporting, server-memory products and the delivered price of an exact desktop memory kit.",
+      "image": {
+        "src": "/assets/publication/memory-market-watch-ai-is-not-a-retail-price.png",
+        "alt": "Memory market watch: AI demand is not a price quote for your RAM"
+      },
+      "noindex": false,
+      "datePrepared": "2026-10-04",
+      "datePublished": null
+    },
+    {
+      "route": "/tools/pc-electricity-cost/",
+      "title": "PC electricity cost calculator",
+      "description": "Turn measured wall power, usage time and your electricity rate into a daily, 30-day and annual budget.",
+      "image": {
+        "src": "/assets/publication/pc-electricity-cost.png",
+        "alt": "PC electricity cost calculator"
+      },
+      "noindex": false,
+      "datePrepared": "2026-10-04",
+      "datePublished": null
+    },
+    {
+      "route": "/tools/platform-upgrade-cost/",
+      "title": "Compare complete PC upgrade costs",
+      "description": "Compare two CPU-platform budgets, including the board, memory, cooler and other required spending.",
+      "image": {
+        "src": "/assets/publication/platform-upgrade-cost.png",
+        "alt": "Compare complete PC upgrade costs"
+      },
+      "noindex": false,
+      "datePrepared": "2026-10-04",
+      "datePublished": null
+    },
+    {
+      "route": "/tools/monitor-pixel-density/",
+      "title": "Monitor pixel density and size calculator",
+      "description": "Calculate pixels per inch and rectangular display dimensions from resolution and diagonal size.",
+      "image": {
+        "src": "/assets/publication/monitor-pixel-density.png",
+        "alt": "Monitor pixel density and size calculator"
+      },
+      "noindex": false,
+      "datePrepared": "2026-10-04",
+      "datePublished": null
+    },
+    {
+      "route": "/tools/recording-storage/",
+      "title": "Recording storage budget calculator",
+      "description": "Estimate storage from a combined video/audio bitrate, recording duration and a manual allowance.",
+      "image": {
+        "src": "/assets/publication/recording-storage.png",
+        "alt": "Recording storage budget calculator"
+      },
+      "noindex": false,
+      "datePrepared": "2026-10-04",
+      "datePublished": null
+    },
+    {
+      "route": "/tools/local-ai-memory/",
+      "title": "Local AI model memory planner",
+      "description": "Calculate approximate weight storage and add deliberate budgets for runtime allocations and the KV cache.",
+      "image": {
+        "src": "/assets/publication/local-ai-memory.png",
+        "alt": "Local AI model memory planner"
+      },
+      "noindex": false,
+      "datePrepared": "2026-10-04",
+      "datePublished": null
+    },
+    {
+      "route": "/tools/frame-time-budget/",
+      "title": "FPS and refresh interval calculator",
+      "description": "Translate FPS and display refresh rate into milliseconds per frame and refresh interval.",
+      "image": {
+        "src": "/assets/publication/frame-time-budget.png",
+        "alt": "FPS and refresh interval calculator"
+      },
+      "noindex": false,
+      "datePrepared": "2026-10-04",
+      "datePublished": null
+    },
+    {
+      "route": "/tools/b650-tomahawk-lane-check/",
+      "title": "B650 TOMAHAWK slot-sharing checker",
+      "description": "Check the documented M2_3/PCI_E2 rule and the Ryzen 8500/8300 restriction on M2_2.",
+      "image": {
+        "src": "/assets/publication/b650-tomahawk-lane-check.png",
+        "alt": "B650 TOMAHAWK slot-sharing checker"
+      },
+      "noindex": false,
+      "datePrepared": "2026-10-04",
+      "datePublished": null
+    },
+    {
+      "route": "/phones/iphone-16/",
+      "title": "iPhone 16: dimensions and verified specifications",
+      "description": "Check iPhone 16 body size, sourced hardware specifications and the limits of this research cohort.",
+      "image": null,
+      "noindex": false,
+      "datePrepared": "2026-10-04",
+      "datePublished": null
+    },
+    {
+      "route": "/phones/iphone-16-pro/",
+      "title": "iPhone 16 Pro: dimensions and verified specifications",
+      "description": "Check iPhone 16 Pro body size, sourced hardware specifications and the limits of this research cohort.",
+      "image": null,
+      "noindex": false,
+      "datePrepared": "2026-10-04",
+      "datePublished": null
+    },
+    {
+      "route": "/phones/pixel-9/",
+      "title": "Pixel 9: dimensions and verified specifications",
+      "description": "Check Pixel 9 body size, sourced hardware specifications and the limits of this research cohort.",
+      "image": null,
+      "noindex": false,
+      "datePrepared": "2026-10-04",
+      "datePublished": null
+    },
+    {
+      "route": "/phones/pixel-9-pro/",
+      "title": "Pixel 9 Pro: dimensions and verified specifications",
+      "description": "Check Pixel 9 Pro body size, sourced hardware specifications and the limits of this research cohort.",
+      "image": null,
+      "noindex": false,
+      "datePrepared": "2026-10-04",
+      "datePublished": null
+    },
+    {
+      "route": "/phones/galaxy-s25/",
+      "title": "Galaxy S25: dimensions and verified specifications",
+      "description": "Check Galaxy S25 body size, sourced hardware specifications and the limits of this research cohort.",
+      "image": null,
+      "noindex": false,
+      "datePrepared": "2026-10-04",
+      "datePublished": null
+    },
+    {
+      "route": "/phones/",
+      "title": "Phone specifications and size comparisons",
+      "description": "Compare selected iPhone, Pixel and Galaxy dimensions and verified hardware facts. Check software-support evidence without invented expiry dates.",
+      "image": null,
+      "noindex": false,
+      "datePrepared": "2026-10-04",
+      "datePublished": null
+    },
+    {
+      "route": "/phones/size-compare/",
+      "title": "Phone size comparison: same-scale body outlines",
+      "description": "Compare phone height, width, thickness and weight with side-by-side or overlaid body silhouettes.",
+      "image": null,
+      "noindex": false,
+      "datePrepared": "2026-10-04",
+      "datePublished": null
+    },
+    {
+      "route": "/phones/compare/iphone-16-vs-iphone-16-pro/",
+      "title": "iPhone 16 vs iPhone 16 Pro: size and specification differences",
+      "description": "Compare published body dimensions, selected hardware facts and update-policy evidence for iPhone 16 and iPhone 16 Pro.",
+      "image": null,
+      "noindex": false,
+      "datePrepared": "2026-10-04",
+      "datePublished": null
+    },
+    {
+      "route": "/phones/compare/iphone-16-vs-pixel-9/",
+      "title": "iPhone 16 vs Pixel 9: size and specification differences",
+      "description": "Compare published body dimensions, selected hardware facts and update-policy evidence for iPhone 16 and Pixel 9.",
+      "image": null,
+      "noindex": false,
+      "datePrepared": "2026-10-04",
+      "datePublished": null
+    },
+    {
+      "route": "/phones/software-support/",
+      "title": "Phone software-support evidence tracker",
+      "description": "See the verified update commitment and starting-event evidence for a selected phone cohort, with unknown end dates explicit.",
+      "image": null,
+      "noindex": false,
+      "datePrepared": "2026-10-04",
+      "datePublished": null
+    },
+    {
+      "route": "/data/catalog-coverage/",
+      "title": "Catalog coverage report: what our hardware index contains",
+      "description": "Original counts of catalog categories, specification fields and strictly matched image identities, with the sampling limits explicit.",
+      "image": {
+        "src": "/assets/publication/catalog-coverage.png",
+        "alt": "Catalog coverage report: what our hardware index contains"
+      },
+      "noindex": false,
+      "datePrepared": "2026-10-04",
+      "datePublished": null
+    },
+    {
+      "route": "/data/",
+      "title": "Hardware data and research resources",
+      "description": "Download transparent catalog-coverage data, inspect source records and understand confidence and revisions.",
+      "image": null,
+      "noindex": false,
+      "datePrepared": "2026-10-04",
+      "datePublished": null
+    },
+    {
+      "route": "/data/sources/",
+      "title": "Source registry and confidence levels",
+      "description": "Inspect manufacturer documentation, methods, verification dates and known access limits used by this publication release.",
+      "image": null,
+      "noindex": false,
+      "datePrepared": "2026-10-04",
+      "datePublished": null
+    },
+    {
+      "route": "/data/api/",
+      "title": "Public hardware data API: static JSON and versioning",
+      "description": "Fetch catalog-coverage and phone-specification JSON with explicit verification dates, nulls and dataset limitations.",
+      "image": null,
+      "noindex": false,
+      "datePrepared": "2026-10-04",
+      "datePublished": null
+    },
+    {
+      "route": "/data/changelog/",
+      "title": "Data changelog and verification gaps",
+      "description": "Review the publication release’s material additions and unresolved hardware evidence.",
+      "image": null,
+      "noindex": false,
+      "datePrepared": "2026-10-04",
+      "datePublished": null
+    },
+    {
+      "route": "/news/",
+      "title": "Technology newsroom: evidence-led hardware reporting",
+      "description": "Explore sourced hardware analysis, our reporting standards and the review workflow for news.",
+      "image": null,
+      "noindex": false,
+      "datePrepared": "2026-10-04",
+      "datePublished": null
+    },
+    {
+      "route": "/news/micron-ai-demand-memory-evidence/",
+      "title": "Micron’s AI-demand report: what it does and does not tell PC buyers",
+      "description": "Unpublished reporting draft based on a dated Micron announcement. Review required before publication.",
+      "image": null,
+      "noindex": true,
+      "datePrepared": "2026-10-04",
+      "datePublished": null
+    },
+    {
+      "route": "/resources/",
+      "title": "Technology resources: guides, video and useful data",
+      "description": "Find practical planning tools, downloadable data and verified video resources from PC Part Performance.",
+      "image": null,
+      "noindex": false,
+      "datePrepared": "2026-10-04",
+      "datePublished": null
+    },
+    {
+      "route": "/privacy/",
+      "title": "Privacy and local browser storage",
+      "description": "Understand the local preferences, saved lists and external services used by PC Part Performance.",
+      "image": null,
+      "noindex": false,
+      "datePrepared": "2026-10-04",
+      "datePublished": null
+    },
+    {
+      "route": "/search/",
+      "title": "Search PC Part Performance",
+      "description": "Find an indexed product, sourced guide, phone comparison or planning tool by name or model code.",
+      "image": null,
+      "noindex": true,
+      "datePrepared": "2026-10-04",
+      "datePublished": null
+    },
+    {
+      "route": "/saved/",
+      "title": "Your saved guides and products",
+      "description": "Keep a local reading and product list on this device. No account or email is required.",
+      "image": null,
+      "noindex": true,
+      "datePrepared": "2026-10-04",
+      "datePublished": null
+    }
+  ],
+  "articles": [
+    {
+      "slug": "graphics-driver-update-rollback-checklist",
+      "title": "Graphics-driver trouble after an update: preserve the evidence first",
+      "description": "Record the installed driver, symptoms and exact hardware before changing another setting or attempting a rollback.",
+      "datePublished": null,
+      "dateModified": "2026-10-04",
+      "image": {
+        "src": "/assets/publication/graphics-driver-update-rollback-checklist.png",
+        "alt": "Graphics-driver trouble after an update: preserve the evidence first"
+      },
+      "sectionCount": 4,
+      "wordCount": 382,
+      "sourceIds": [
+        "drivers",
+        "nvidiadrivers"
+      ]
+    },
+    {
+      "slug": "b650-tomahawk-m2-pcie-lane-sharing",
+      "title": "B650 TOMAHAWK lane sharing: choose the right M.2 slot",
+      "description": "Understand the M2_3 and PCI_E2 connection, and why some Ryzen processors change which slots are available.",
+      "datePublished": null,
+      "dateModified": "2026-10-04",
+      "image": {
+        "src": "/assets/publication/b650-tomahawk-m2-pcie-lane-sharing.png",
+        "alt": "B650 TOMAHAWK lane sharing: choose the right M.2 slot"
+      },
+      "sectionCount": 4,
+      "wordCount": 385,
+      "sourceIds": [
+        "msi"
+      ]
+    },
+    {
+      "slug": "rtx-5060-ti-8gb-vs-16gb",
+      "title": "RTX 5060 Ti 8 GB vs 16 GB: capacity is the key difference",
+      "description": "Compare the published memory configuration, then check game-specific evidence before choosing a particular partner card.",
+      "datePublished": null,
+      "dateModified": "2026-10-04",
+      "image": {
+        "src": "/assets/publication/rtx-5060-ti-8gb-vs-16gb.png",
+        "alt": "RTX 5060 Ti 8 GB vs 16 GB: capacity is the key difference"
+      },
+      "sectionCount": 4,
+      "wordCount": 375,
+      "sourceIds": [
+        "n5060"
+      ]
+    },
+    {
+      "slug": "usb-c-speed-charging-display-checklist",
+      "title": "USB-C does not tell you the speed: a port and cable checklist",
+      "description": "Separate connector shape, data speed, charging and video support before buying a cable, hub or display.",
+      "datePublished": null,
+      "dateModified": "2026-10-04",
+      "image": {
+        "src": "/assets/publication/usb-c-speed-charging-display-checklist.png",
+        "alt": "USB-C does not tell you the speed: a port and cable checklist"
+      },
+      "sectionCount": 4,
+      "wordCount": 382,
+      "sourceIds": [
+        "usb",
+        "apple16",
+        "apple16pro"
+      ]
+    },
+    {
+      "slug": "local-ai-memory-weights-kv-cache",
+      "title": "Local AI memory: model weights are only the starting point",
+      "description": "Estimate weight storage, then budget explicitly for the runtime and KV cache without claiming that a model will fit or run quickly.",
+      "datePublished": null,
+      "dateModified": "2026-10-04",
+      "image": {
+        "src": "/assets/publication/local-ai-memory-weights-kv-cache.png",
+        "alt": "Local AI memory: model weights are only the starting point"
+      },
+      "sectionCount": 4,
+      "wordCount": 381,
+      "sourceIds": [
+        "llama"
+      ]
+    },
+    {
+      "slug": "pc-upgrade-total-platform-cost",
+      "title": "A CPU upgrade costs more than the CPU: compare the whole platform",
+      "description": "Build two complete upgrade budgets with a motherboard, memory, cooling and the costs you would otherwise overlook.",
+      "datePublished": null,
+      "dateModified": "2026-10-04",
+      "image": {
+        "src": "/assets/publication/pc-upgrade-total-platform-cost.png",
+        "alt": "A CPU upgrade costs more than the CPU: compare the whole platform"
+      },
+      "sectionCount": 4,
+      "wordCount": 354,
+      "sourceIds": [
+        "msi",
+        "expo"
+      ]
+    },
+    {
+      "slug": "phone-software-support-commitment-vs-end-date",
+      "title": "Phone update support: a promise is not always an exact end date",
+      "description": "Read update commitments without inventing a countdown or confusing OS upgrades with security patches.",
+      "datePublished": null,
+      "dateModified": "2026-10-04",
+      "image": {
+        "src": "/assets/publication/phone-software-support-commitment-vs-end-date.png",
+        "alt": "Phone update support: a promise is not always an exact end date"
+      },
+      "sectionCount": 4,
+      "wordCount": 376,
+      "sourceIds": [
+        "pixelupdates",
+        "apple16"
+      ]
+    },
+    {
+      "slug": "memory-market-watch-ai-is-not-a-retail-price",
+      "title": "Memory market watch: AI demand is not a price quote for your RAM",
+      "description": "Separate company reporting, server-memory products and the delivered price of an exact desktop memory kit.",
+      "datePublished": null,
+      "dateModified": "2026-10-04",
+      "image": {
+        "src": "/assets/publication/memory-market-watch-ai-is-not-a-retail-price.png",
+        "alt": "Memory market watch: AI demand is not a price quote for your RAM"
+      },
+      "sectionCount": 4,
+      "wordCount": 372,
+      "sourceIds": [
+        "micron"
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "id": "electricity",
+      "slug": "pc-electricity-cost",
+      "title": "PC electricity cost calculator",
+      "description": "Turn measured wall power, usage time and your electricity rate into a daily, 30-day and annual budget.",
+      "answer": "Use measured power at the wall. CPU TDP and graphics-card power ratings are not measurements of a complete PC’s electricity consumption.",
+      "inputCount": 3
+    },
+    {
+      "id": "platform",
+      "slug": "platform-upgrade-cost",
+      "title": "Compare complete PC upgrade costs",
+      "description": "Compare two CPU-platform budgets, including the board, memory, cooler and other required spending.",
+      "answer": "This is a manual budget, not a live store-price comparison. Use the same currency and checkout treatment in both options.",
+      "related": "/blog/pc-upgrade-total-platform-cost/",
+      "inputCount": 10
+    },
+    {
+      "id": "display",
+      "slug": "monitor-pixel-density",
+      "title": "Monitor pixel density and size calculator",
+      "description": "Calculate pixels per inch and rectangular display dimensions from resolution and diagonal size.",
+      "answer": "Pixel density describes the number of pixels per inch. It does not measure contrast, input lag, HDR quality or motion clarity.",
+      "inputCount": 3
+    },
+    {
+      "id": "recording",
+      "slug": "recording-storage",
+      "title": "Recording storage budget calculator",
+      "description": "Estimate storage from a combined video/audio bitrate, recording duration and a manual allowance.",
+      "answer": "Use the combined bitrate of the streams you intend to record. Variable-bitrate footage can depart from the chosen average.",
+      "inputCount": 3
+    },
+    {
+      "id": "ai",
+      "slug": "local-ai-memory",
+      "title": "Local AI model memory planner",
+      "description": "Calculate approximate weight storage and add deliberate budgets for runtime allocations and the KV cache.",
+      "answer": "This is a planning lower bound plus your manual allowances. It does not certify that a particular model will load, fit entirely in VRAM or run at a useful speed.",
+      "related": "/blog/local-ai-memory-weights-kv-cache/",
+      "inputCount": 4
+    },
+    {
+      "id": "frametime",
+      "slug": "frame-time-budget",
+      "title": "FPS and refresh interval calculator",
+      "description": "Translate FPS and display refresh rate into milliseconds per frame and refresh interval.",
+      "answer": "This translates rates into intervals. It does not predict your PC’s FPS or measure input latency.",
+      "inputCount": 2
+    },
+    {
+      "id": "lanes",
+      "slug": "b650-tomahawk-lane-check",
+      "title": "B650 TOMAHAWK slot-sharing checker",
+      "description": "Check the documented M2_3/PCI_E2 rule and the Ryzen 8500/8300 restriction on M2_2.",
+      "answer": "This tool applies only to MAG B650 TOMAHAWK WIFI. It is not a general B650 or AM5 compatibility engine.",
+      "sources": [
+        "msi"
+      ],
+      "related": "/blog/b650-tomahawk-m2-pcie-lane-sharing/",
+      "inputCount": 0
+    }
+  ],
+  "phones": 5,
+  "coverageVersion": "37c6768df9b2",
+  "newsDrafts": [
+    {
+      "type": "news",
+      "status": "draft",
+      "editorApproved": false,
+      "confirmedDeployment": false,
+      "datePublished": null,
+      "route": "news/micron-ai-demand-memory-evidence",
+      "title": "Micron’s AI-demand report: what it does and does not tell PC buyers",
+      "sourceIds": [
+        "micron"
+      ]
+    }
+  ],
+  "searchRecords": 1240
+}

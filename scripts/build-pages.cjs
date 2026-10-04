@@ -88,6 +88,7 @@ console.log(`Generated ${records.length} part pages, four category pages, four g
 blogMigration.redirects(root);
 require("./coverage-page.cjs")({root,write,shell,esc});
 require("./seo-launch.cjs")({root,records,images,groups:context.groups,shell,esc,write});
+require("./publication.cjs")({root,records,images,groups:context.groups,shell,esc,write});
 require("./shopping-pages.cjs")({root,records,images,groups:context.groups,shell,esc,write});
 
 require("./seo-pass.cjs")({root,records,shell,write,esc});

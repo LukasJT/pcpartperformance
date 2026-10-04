@@ -1,0 +1,4 @@
+"report","status","unit","sample","method","reproducibility","license","next"
+"Catalog coverage","Implemented","Unique local catalog ID","1186 local records; not representative market data","Deterministic category/spec-field/image-identity counts","publication.cjs; hashed downloadable CSV/JSON","CC0 only for site-authored aggregates","Track material versions without pretending to measure sales"
+"RAM retail observations","Blocked","Exact retailer SKU/time/currency/condition","No verified observation series","Need consistent retailer sampling and stock/shipping rules","Not available","Source agreement required","Connect permitted live price feed and preserve observations"
+"Measured game performance","Blocked","System/game/version/scene/settings/run","No original hardware test set","Repeatable scene with frame-time captures","Not available","Original test data or licensed dataset","Acquire test hardware or licensed independent measurements"

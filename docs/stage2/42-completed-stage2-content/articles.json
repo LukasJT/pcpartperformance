@@ -1,0 +1,342 @@
+[
+  {
+    "slug": "graphics-driver-update-rollback-checklist",
+    "category": "Software",
+    "title": "Graphics-driver trouble after an update: preserve the evidence first",
+    "description": "Record the installed driver, symptoms and exact hardware before changing another setting or attempting a rollback.",
+    "answer": "An update followed by a symptom is a useful clue, not proof of the cause. Record the current version and use the manufacturer and operating-system instructions for your device.",
+    "sources": [
+      "drivers",
+      "nvidiadrivers"
+    ],
+    "links": [
+      "/hardware/graphics-cards/",
+      "/performance/",
+      "/editorial-policy/#corrections"
+    ],
+    "sections": [
+      [
+        "Record the setup before changing it",
+        "Write down the exact GPU, operating-system version, driver version and the application that shows the problem. Record when it occurs: at startup, in one game, on a second monitor or only after resuming sleep. A description such as the newest driver is difficult to reproduce later because the version it refers to changes.",
+        "If you can safely capture the error message or a screenshot, keep it with those notes. Do not publish account identifiers or private desktop content in a public issue. A useful support report narrows the conditions without claiming that every user of the driver has the same fault."
+      ],
+      [
+        "Check the rollback prerequisites",
+        "Microsoft’s display-troubleshooting instructions describe Device Manager rollback after a Windows Update. The action requires administrator permissions. If the rollback option is unavailable, Windows does not have a previous driver available for that operation. Do not describe an unavailable button as a successful rollback.",
+        "The instructions also distinguish updating and uninstalling a device driver. Read the procedure appropriate to your device and symptom before acting. This article does not perform those actions, bypass permissions or recommend downloading a driver from an unverified mirror.",
+        [
+          "drivers"
+        ]
+      ],
+      [
+        "Choose a driver for your actual workflow",
+        "NVIDIA distinguishes Game Ready and Studio driver programs by their intended testing and release focus. That description is not a claim that one branch is always faster or that an individual release fixes your exact problem. Read the release notes and supported-product list for the version you intend to install.",
+        "A laptop can also have manufacturer-specific graphics and power behavior. Check its support page as well as the GPU vendor’s documentation. Record any version change so you can describe what was actually tested rather than mixing results from several updates.",
+        [
+          "nvidiadrivers"
+        ]
+      ],
+      [
+        "Change one variable and test again",
+        "Use the same application, scene and display arrangement before and after a change. Keep other settings stable where possible. If the symptom disappears, record the result as a result for that setup; it does not establish a universal explanation.",
+        "Do not add an unsupported FPS uplift to a driver article or relabel an old release as current. A maintained release report needs an exact version, source publication date, known issues, affected products and a material update history. Those fields are separate from this evergreen troubleshooting checklist."
+      ]
+    ]
+  },
+  {
+    "slug": "b650-tomahawk-m2-pcie-lane-sharing",
+    "category": "Compatibility",
+    "title": "B650 TOMAHAWK lane sharing: choose the right M.2 slot",
+    "description": "Understand the M2_3 and PCI_E2 connection, and why some Ryzen processors change which slots are available.",
+    "answer": "On the MAG B650 TOMAHAWK WIFI, M2_3 and PCI_E2 share bandwidth when both are occupied. PCI_E2 is listed at up to x2; it does not become an x4 slot when the SSD is removed.",
+    "tool": "lanes",
+    "sources": [
+      "msi"
+    ],
+    "links": [
+      "/builder/",
+      "/blog/am5-upgrade-checklist/",
+      "/hardware/motherboards/"
+    ],
+    "sections": [
+      [
+        "Follow the slot names, not their appearance",
+        "A long expansion slot is not necessarily wired with the same number of lanes as the graphics-card slot. Start with the exact board model and its specification page. Locate the printed slot labels on the board before deciding where to install a storage adapter, capture card or network card. Similar names in another motherboard family are not interchangeable rules.",
+        "MSI lists PCI_E2 as a chipset-connected PCIe 4.0 slot with up to two lanes. M2_3 is listed with up to four lanes when used on its own. Occupying both changes the M2_3 connection to two lanes, while PCI_E2 remains at two. This describes the connection, not a measured file-copy speed.",
+        [
+          "msi"
+        ]
+      ],
+      [
+        "Check the CPU group before adding a drive",
+        "The same specification page states that M2_2 is unavailable with Ryzen 8500 and 8300 processors. An unused socket on the board is therefore not enough to establish that a drive will work. Confirm the exact processor, BIOS support and drive interface as separate checks. The tool below covers the stated sharing rule, rather than every possible board restriction.",
+        "If you already own the PC, photograph the slot labels before changing anything. Record which drives are in each socket, rather than describing them only as the first or second SSD. Disconnect power before opening the system and follow the board manual for handling and installation.",
+        [
+          "msi"
+        ]
+      ],
+      [
+        "Decide whether the shared link matters",
+        "An SSD used for a game library and a capture card used only occasionally can have a different workload from a drive receiving sustained video recordings. Check the expansion card’s required link and your workload before rearranging parts. A link-width reduction does not establish an exact percentage loss in application performance.",
+        "After making a change, confirm that the expected devices appear in the operating system and that important files remain accessible. Test with the workload that matters to you. If a device is missing, revisit the slot/CPU restriction first; do not immediately assume the SSD is faulty."
+      ],
+      [
+        "Keep a build record",
+        "Save the board model, CPU, BIOS version, slot layout and relevant manual revision with your build notes. That record makes the next storage upgrade easier and gives a support technician useful evidence. The general PC builder checks indexed compatibility, while this board-specific page explains one documented topology in greater detail."
+      ]
+    ]
+  },
+  {
+    "slug": "rtx-5060-ti-8gb-vs-16gb",
+    "category": "Graphics cards",
+    "title": "RTX 5060 Ti 8 GB vs 16 GB: capacity is the key difference",
+    "description": "Compare the published memory configuration, then check game-specific evidence before choosing a particular partner card.",
+    "answer": "NVIDIA lists the RTX 5060 Ti with either 8 GB or 16 GB of GDDR7 and the same reference 4,608 CUDA-core configuration. Extra memory capacity does not by itself establish an FPS advantage in every game.",
+    "sources": [
+      "n5060"
+    ],
+    "links": [
+      "/compare/",
+      "/blog/how-to-choose-a-graphics-card/",
+      "/hardware/graphics-cards/"
+    ],
+    "sections": [
+      [
+        "What the specifications establish",
+        "The published RTX 5060 Ti family table gives both memory capacities under one GPU entry. It also lists a 128-bit memory interface. Those facts explain why the comparison should begin with memory capacity, rather than treating the 16 GB version as a different GPU tier. They do not prove that every retail card has identical clocks, cooling or power behavior.",
+        "Before paying, read the complete listing and model code. A card named RTX 5060 without Ti is a different product. Partner versions can also differ in length, thickness, fan design and warranty. A photograph that looks similar is not enough to verify the memory capacity.",
+        [
+          "n5060"
+        ]
+      ],
+      [
+        "Use evidence from your actual games",
+        "Look for a test that names the game version, resolution, graphics preset, upscaling mode and both cards. Average FPS alone can miss inconsistent delivery; a useful review also explains frame times, textures and testing scenes. Keep native rendering separate from generated frames when comparing results.",
+        "A test performed at a lower texture setting cannot settle whether a higher setting fits within a particular memory budget. Equally, a memory allocation number alone does not establish that all of it is required or that a card is running out of capacity. Prefer a described symptom and a repeatable test over a single overlay reading."
+      ],
+      [
+        "A practical purchase checklist",
+        "First, decide which games and settings you intend to use. Second, find a comparison at those settings or a clearly explained neighboring workload. Third, compare the complete delivered price of the exact variants. Fourth, check your case clearance, power connections and return policy. Keep unavailable evidence marked as unavailable.",
+        "If you cannot find a reliable result for your workload, do not turn the memory ratio into a performance estimate. Doubling capacity is not doubling processing speed. This site’s PC FPS calculator is an unvalidated model demonstration and should not substitute for those tests."
+      ],
+      [
+        "For workloads outside games",
+        "A creative application or local AI model can have its own memory requirements. Verify the application version and how it uses system memory and GPU memory. Some jobs may be limited by capacity; others by processing, software support or transfer overhead. Use the AI memory planner to understand a lower-bound calculation, then confirm with the actual runtime."
+      ]
+    ]
+  },
+  {
+    "slug": "usb-c-speed-charging-display-checklist",
+    "category": "Connectivity",
+    "title": "USB-C does not tell you the speed: a port and cable checklist",
+    "description": "Separate connector shape, data speed, charging and video support before buying a cable, hub or display.",
+    "answer": "USB-C describes a connector. Check data protocol, power support and display capability separately on both devices and the cable.",
+    "sources": [
+      "usb",
+      "apple16",
+      "apple16pro"
+    ],
+    "links": [
+      "/phones/compare/iphone-16-vs-iphone-16-pro/",
+      "/hardware/motherboards/",
+      "/tools/recording-storage/"
+    ],
+    "sections": [
+      [
+        "Start at both ends of the connection",
+        "Write down the exact source device and destination device. Identify the port you will use, rather than assuming every port on a laptop or motherboard has the same capabilities. Then look for an explicit data-speed specification, a power statement and a video-output statement. A connector drawing alone cannot answer all three questions.",
+        "USB-IF’s language guidance distinguishes USB Type-C from USB Power Delivery and USB data performance. A product can use the same connector shape while supporting a different combination of features. Treat a missing statement as a question to resolve, not permission to assume the highest advertised capability.",
+        [
+          "usb"
+        ]
+      ],
+      [
+        "Why two phones can behave differently",
+        "Apple lists USB 2 up to 480 Mb/s for iPhone 16 and USB 3 up to 10 Gb/s for iPhone 16 Pro. The faster mode on the Pro requires a compatible cable. These are interface maxima, not a measured guarantee for your file transfer. Storage, file sizes, application behavior and the receiving device still matter.",
+        "This is a concrete reason to check the technical specifications even when two devices both have USB-C. It is not a general ranking of the phones or a battery-charging comparison. The same habit applies to docks, external SSDs and monitors.",
+        [
+          "apple16",
+          "apple16pro"
+        ]
+      ],
+      [
+        "Buy for the task you need",
+        "For a storage cable, prioritize a stated data capability and connector compatibility. For charging, confirm the charger, cable and device requirements together. For a display, verify the source’s supported display output, the adapter’s conversion and the monitor input. A dock introduces another device with its own limits.",
+        "Keep the manufacturer’s model code or certification information with the purchase. Marketing phrases such as fast or professional are not a complete specification. When a listing omits a necessary feature, ask the seller for an exact documented answer or choose a listing that provides one."
+      ],
+      [
+        "Diagnose a slow or missing connection",
+        "Change one part at a time: cable, port, hub and destination. Avoid replacing everything at once, because you lose the evidence that isolates the fault. Check whether the device works when connected directly. Record the operating-system message and the exact setup for a support request.",
+        "Do not infer a cable’s capability from its thickness or price. The useful test is whether the documented combination supports your task and behaves consistently in it."
+      ]
+    ]
+  },
+  {
+    "slug": "local-ai-memory-weights-kv-cache",
+    "category": "AI hardware",
+    "title": "Local AI memory: model weights are only the starting point",
+    "description": "Estimate weight storage, then budget explicitly for the runtime and KV cache without claiming that a model will fit or run quickly.",
+    "answer": "Parameter count × average bits per parameter estimates weight storage. Runtime buffers and the KV cache require additional memory; total available VRAM alone is not a performance benchmark.",
+    "tool": "ai",
+    "sources": [
+      "llama"
+    ],
+    "links": [
+      "/hardware/graphics-cards/",
+      "/blog/understanding-pc-memory/",
+      "/tools/local-ai-memory/"
+    ],
+    "sections": [
+      [
+        "Make the units explicit",
+        "A billion parameters stored at an average of four bits each represents 500 million bytes before extra metadata and runtime allocations. Divide bytes by 2 to the power of 30 for GiB. The calculator uses that conversion, so its number will differ from decimal gigabytes shown in some marketing material.",
+        "An average bit width is a simplifying input. Real model formats may use mixed precision, block metadata or tensors with different storage types. If you have an actual model file, its recorded size is stronger evidence for storage planning than a calculation from the name alone."
+      ],
+      [
+        "Budget separately for context",
+        "The KV cache holds runtime state used during generation. llama.cpp exposes context and cache-related options; changing them changes the setup being evaluated. A requirement quoted for a short prompt should not automatically be treated as the requirement for a long conversation. Use the actual runtime configuration when recording a result.",
+        "This calculator deliberately asks for a manual KV-cache budget. It does not invent an architecture-independent amount from token count. Record the model architecture, cache type, context and concurrency beside any measured memory figure you rely on.",
+        [
+          "llama"
+        ]
+      ],
+      [
+        "Distinguish storage from execution",
+        "A model file that fits on a drive does not establish that its tensors and working allocations fit entirely in GPU memory. Offloading can change the balance of GPU memory, system RAM and data movement. A successful load also does not establish the response speed you need.",
+        "For a useful check, run a representative prompt with your intended context and record peak memory, load behavior and token rate. Keep generation settings and runtime version in the test record. Results from another configuration can help form a question, but should not become a promised outcome for your build."
+      ],
+      [
+        "Use a conservative planning workflow",
+        "Enter the weight assumptions, then enter runtime and KV-cache allowances based on documentation or measurements. If either allowance is unknown, leave it unresolved rather than quietly treating it as zero. The form requires a deliberate value for both.",
+        "Compare the resulting budget with memory that is actually available to the application, allowing for the operating system and other active software. Before buying hardware, verify software support and test the intended workload wherever possible. This page supplies arithmetic and a checklist, not a certified hardware recommendation."
+      ]
+    ]
+  },
+  {
+    "slug": "pc-upgrade-total-platform-cost",
+    "category": "PC upgrades",
+    "title": "A CPU upgrade costs more than the CPU: compare the whole platform",
+    "description": "Build two complete upgrade budgets with a motherboard, memory, cooling and the costs you would otherwise overlook.",
+    "answer": "Compare everything you must buy to complete each upgrade. Keep an existing component at zero only after checking that you can actually reuse it.",
+    "tool": "platform",
+    "sources": [
+      "msi",
+      "expo"
+    ],
+    "links": [
+      "/tools/platform-upgrade-cost/",
+      "/blog/am5-upgrade-checklist/",
+      "/builder/"
+    ],
+    "sections": [
+      [
+        "Define a complete upgrade",
+        "A headline CPU price is only one line in the budget. Your chosen path may require a motherboard, another memory generation, a cooler mount, storage migration or other parts. Put those items into both options before comparing the totals. The calculator does not fetch prices and does not treat manual entries as verified offers.",
+        "Use a consistent currency and a comparable tax and shipping treatment. If a store price excludes a required delivery charge, include it in the other-costs line. Record the date and exact retailer SKU with your own notes, especially when a bundle changes what is included."
+      ],
+      [
+        "Check what can be reused",
+        "Write down the exact memory generation, cooler model, power connections and case before setting a budget line to zero. Motherboard specifications describe supported memory and ports; a similar-looking socket or connector is not enough. An older cooler may also need a manufacturer-approved mounting kit.",
+        "Memory profiles require a separate compatibility check. AMD describes EXPO as an overclocking-profile technology, so a profile label is not a universal promise that every board and CPU combination will operate at that setting. Confirm the exact parts and have a plan for testing stability.",
+        [
+          "msi",
+          "expo"
+        ]
+      ],
+      [
+        "Make trade-offs visible",
+        "Compare two budgets that both meet your actual requirements. A lower total is not automatically better if it omits a required feature, introduces an unresolved BIOS issue or prevents a planned expansion. Write those differences next to the arithmetic rather than hiding them in a single value score.",
+        "For an existing build, separate immediate spending from optional upgrades. A drive you may buy next year belongs in a later scenario. This keeps the current decision understandable and avoids making every option look more expensive by adding unrelated wish-list items."
+      ],
+      [
+        "Preserve your evidence",
+        "Save product pages and compatibility notes as well as the quoted prices. Retailer search links can show a different variant later. Before ordering, check the current listing, availability, warranty and complete checkout total again.",
+        "The output is a transparent subtotal and difference, not a performance-per-dollar ranking. Pair it with relevant independent tests and the board-specific compatibility checks that match your intended workload."
+      ]
+    ]
+  },
+  {
+    "slug": "phone-software-support-commitment-vs-end-date",
+    "category": "Phones",
+    "title": "Phone update support: a promise is not always an exact end date",
+    "description": "Read update commitments without inventing a countdown or confusing OS upgrades with security patches.",
+    "answer": "Record the policy, its starting event and the applicable model. If the start or end date is not verified, show the commitment without a made-up expiry date.",
+    "sources": [
+      "pixelupdates",
+      "apple16"
+    ],
+    "links": [
+      "/phones/software-support/",
+      "/phones/size-compare/",
+      "/phones/"
+    ],
+    "sections": [
+      [
+        "Read the policy and its anchor",
+        "Google states that Pixel 8 and later receive seven years of updates from first availability on the US Google Store. That starting event matters. A purchase made later does not restart the policy, and a launch year by itself is not an exact date. Our initial dataset records the policy but does not invent the missing availability-date evidence.",
+        "A fixed commitment should identify whether it covers operating-system updates, security updates or both. Avoid collapsing different promises into a single supported badge. A regional support page can also be relevant to the device you own.",
+        [
+          "pixelupdates"
+        ]
+      ],
+      [
+        "Do not turn missing evidence into an expiry",
+        "For the iPhones in this initial cohort, we have not verified a fixed manufacturer end-of-support date. Their specification pages establish hardware facts but are not an exact future update schedule. The tracker shows that gap rather than assuming a number of years from previous models.",
+        "Historical support can inform a discussion, but it does not create a new guarantee for a particular phone. The same caution applies when a company changes policy for a new generation: confirm that the wording actually includes your model.",
+        [
+          "apple16"
+        ]
+      ],
+      [
+        "Check the device you actually own",
+        "Identify the model and region, open its settings and record the installed software version and security-patch date where available. Then check the manufacturer’s support instructions for updates. A policy window describes eligibility; it does not prove that your phone has already installed every available update.",
+        "If an update is missing, keep the carrier, region and installed version in your support request. Do not assume another owner’s screenshot describes the release available to your device. This dataset does not track rollout status or provide a current software-version feed."
+      ],
+      [
+        "Plan a longer ownership period",
+        "Support is one part of ownership. Check repair availability, battery service, application requirements and the condition of a used device separately. A promised update window is not a battery-health guarantee or an assurance that every new feature will run on older hardware.",
+        "When evaluating a purchase, prefer a written policy with a clear model scope and starting event. Recheck it before ordering. We will add verified end dates only when the source and anchor are recorded, and material changes will appear in the public data changelog."
+      ]
+    ]
+  },
+  {
+    "slug": "memory-market-watch-ai-is-not-a-retail-price",
+    "category": "Memory & AI",
+    "title": "Memory market watch: AI demand is not a price quote for your RAM",
+    "description": "Separate company reporting, server-memory products and the delivered price of an exact desktop memory kit.",
+    "answer": "A memory maker’s business report can explain its outlook. It cannot establish the current checkout price, stock or future price of your desktop RAM kit.",
+    "sources": [
+      "micron"
+    ],
+    "links": [
+      "/hardware/memory/",
+      "/shop/",
+      "/data/"
+    ],
+    "sections": [
+      [
+        "Read company reporting in context",
+        "Micron’s September 30, 2026 fiscal-results announcement describes its business in the context of AI demand and includes forward-looking statements. Treat that as company reporting with a stated period, not an independent survey of desktop retailer prices. A management outlook remains an outlook.",
+        "The relevant distinction for a PC buyer is between a company’s product mix and an exact retail memory kit. Server memory, GPU-related memory and desktop DIMMs are not interchangeable purchase options. A broad demand story does not identify which capacity, speed, timings or retailer you should choose.",
+        [
+          "micron"
+        ]
+      ],
+      [
+        "Build evidence for a retail claim",
+        "A useful price comparison records the exact kit code, capacity, number of modules, currency, seller, condition and observation time. It also checks whether the listing is available and whether shipping changes the total. Without those fields, an apparent price movement may be a different product or an unavailable listing.",
+        "To describe a trend, preserve more than one observation with the same method. A single search result or an old quoted price does not establish a market shortage. An affiliate link or store-search button is not evidence that a current offer was checked."
+      ],
+      [
+        "What this site can establish today",
+        "The hardware catalog is an indexed specification collection, not a representative inventory of retailers. Its category counts tell you about this dataset, not global sales or market share. Our buying interface should keep unavailable prices explicit until an authorized, functioning price source returns an exact match.",
+        "We do not claim a live desktop-memory price series in this article. The market-watch workflow queues source changes for review. A future retail report would need a documented sample, dated observations, stock rules and a currency/tax treatment before it could support a claim about movement."
+      ],
+      [
+        "Make the decision about your workload",
+        "Determine the capacity and platform support your applications require before reacting to a supply headline. Compare compatible kits and your actual delivered prices. If the current system meets your needs, a forecast alone does not create an urgent upgrade requirement.",
+        "Follow manufacturer evidence for technical compatibility and use retail observations for buying decisions. Keeping those two kinds of evidence separate makes a market story more useful and prevents a business headline from becoming a misleading shopping recommendation."
+      ]
+    ]
+  }
+]
