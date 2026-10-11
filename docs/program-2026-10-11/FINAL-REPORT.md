@@ -2,7 +2,7 @@
 
 ## Publication update — October 11
 
-The owner subsequently authorized all twelve October 11 articles with **PC Part Performance** as author. All twelve were independently verified live in commit `e20732e00cd262fa54b1c0507b30f2d6f20585f6` at 22:03 UTC. See [the publication report](editorial/PUBLICATION-REPORT.md) for the current release and feed verification. The feature-release record below is historical; its draft/byline prerequisites are superseded for these twelve exact versions only. No personal reading attestation or named reviewer is invented.
+The owner subsequently authorized all twelve October 11 articles with **PC Part Performance** as author. The final production release `77dda2411e04bb24ce457ba0d4930a445df2ee6f` was independently verified at 22:08 UTC: all twelve pages, article metadata, author labels, discovery links, RSS feeds and sitemaps passed, followed by 26 general site smoke checks. See [the publication report](editorial/PUBLICATION-REPORT.md) for current evidence. The feature-release record below is historical; its draft/byline prerequisites are superseded for these twelve exact versions only. No personal reading attestation or named reviewer is invented.
 
 ## Earlier feature-release record (historical)
 

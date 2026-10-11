@@ -26,7 +26,11 @@
     "Contents link activation",
     "Inspected sources disclosure opens",
     "Mobile and desktop Blog guide cards",
-    "Live Canada article complete content and visible organization author"
+    "Live Canada article complete content and visible organization author",
+    "Final live reload at default desktop width with visible organization author and actual publication date; original dark theme restored and viewport override reset"
   ],
-  "limits": "Representative browser layouts and DOM observations; not every article individually visual-inspected, not physical iPhone Safari or a screen-reader audit."
+  "limits": "Representative browser layouts and DOM observations; not every article individually visual-inspected, not physical iPhone Safari or a screen-reader audit.",
+  "finalLiveCommit": "77dda2411e04bb24ce457ba0d4930a445df2ee6f",
+  "finalLiveScreenshot": "publication-desktop-live.png",
+  "finalBrowserCheckedAt": "2026-10-11T22:10:13.706Z"
 }

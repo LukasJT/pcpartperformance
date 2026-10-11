@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-11T22:05:38.681Z",
+  "updatedAt": "2026-10-11T22:10:13.705Z",
   "deploymentAuthorized": true,
   "tasks": [
     {
@@ -165,12 +165,13 @@
       "files": [
         "scripts/continuation-editorial.cjs"
       ],
-      "status": "publication_verified_feed_metadata_release_pending",
-      "evidence": "Four reports are live and actually inspected. Final NewsArticle/feed/news sitemap timestamp release prepared; no Google News acceptance or submission claim.",
+      "status": "published_verified",
+      "evidence": "Final production 77dda2411e04bb24ce457ba0d4930a445df2ee6f verified at 2026-10-11T22:08:21Z: four NewsArticle reports, real publication timestamps, RSS and news sitemap. No Google News acceptance or submission claim.",
       "tests": [
         "10 news intake tests (synthetic)",
         "normal draft/feed/sitemap exclusion gates",
-        "Exact live publication evidence gate"
+        "Exact live publication evidence gate",
+        "12 final live article/discovery checks and 26 general production smoke checks"
       ]
     },
     {
