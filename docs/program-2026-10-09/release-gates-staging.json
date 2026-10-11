@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-09",
+  "mode": "staging",
+  "retainedExistingPages": 0,
+  "withheldNewDrafts": 0,
+  "drafts": 40,
+  "checks": [
+    "human review/draft gate",
+    "staging meta leakage",
+    "existing pages retained",
+    "PC-only initial catalog",
+    "no fabricated Product offers or ratings",
+    "strict shared shopping offer gate"
+  ],
+  "deployed": false
+}

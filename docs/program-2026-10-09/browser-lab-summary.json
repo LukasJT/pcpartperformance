@@ -1,0 +1,684 @@
+{
+  "preparedAt": "2026-10-09T17:14:08.853Z",
+  "baselineCommit": "dc8200c",
+  "protocol": "Same connected IAB, 1440×900 desktop or 390×844 mobile, light theme, local gzip/no-store, no CPU/network throttling, fixed 2.5-second settling window after DOM snapshot. External font caching uncontrolled. CLS sums observed shifts in that window. Not field p75 or INP.",
+  "rows": [
+    {
+      "route": "/",
+      "width": 1440,
+      "before": {
+        "runs": 3,
+        "dates": [
+          "2026-10-09T16:07:19.043Z",
+          "2026-10-09T16:39:46.361Z",
+          "2026-10-09T16:40:48.588Z"
+        ],
+        "medians": {
+          "lcp": 80,
+          "cls": 0.006669159604664682,
+          "domContentLoaded": 82,
+          "serverWait": 1.0999999940395355,
+          "resourceTransfer": 1075466,
+          "longTaskMs": 0,
+          "threeDRequests": 0
+        },
+        "overflow": false,
+        "brokenImages": []
+      },
+      "after": {
+        "runs": 3,
+        "dates": [
+          "2026-10-09T16:38:50.480Z",
+          "2026-10-09T16:39:49.010Z",
+          "2026-10-09T16:40:51.242Z"
+        ],
+        "medians": {
+          "lcp": 68,
+          "cls": 0.0050499591669231556,
+          "domContentLoaded": 74.59999999403954,
+          "serverWait": 1.100000023841858,
+          "resourceTransfer": 167434,
+          "longTaskMs": 0,
+          "threeDRequests": 0
+        },
+        "overflow": false,
+        "brokenImages": []
+      },
+      "transferChangePercent": -84.4,
+      "limitation": null
+    },
+    {
+      "route": "/hardware/graphics-cards/",
+      "width": 1440,
+      "before": {
+        "runs": 1,
+        "dates": [
+          "2026-10-09T16:07:26.301Z"
+        ],
+        "medians": {
+          "lcp": 68,
+          "cls": 0.025217365847611233,
+          "domContentLoaded": 126.7000000178814,
+          "serverWait": 1.300000011920929,
+          "resourceTransfer": 2328304,
+          "longTaskMs": 0,
+          "threeDRequests": 0
+        },
+        "overflow": false,
+        "brokenImages": []
+      },
+      "after": {
+        "runs": 1,
+        "dates": [
+          "2026-10-09T16:38:58.621Z"
+        ],
+        "medians": {
+          "lcp": 76,
+          "cls": 0.013328132724599024,
+          "domContentLoaded": 91.7000000178814,
+          "serverWait": 1.2000000178813934,
+          "resourceTransfer": 227978,
+          "longTaskMs": 0,
+          "threeDRequests": 0
+        },
+        "overflow": false,
+        "brokenImages": []
+      },
+      "transferChangePercent": -90.2,
+      "limitation": "Single observation; not a repeat-run estimate."
+    },
+    {
+      "route": "/learn/rtx5070.html",
+      "width": 1440,
+      "before": null,
+      "after": {
+        "runs": 1,
+        "dates": [
+          "2026-10-09T17:13:05.172Z"
+        ],
+        "medians": {
+          "lcp": 64,
+          "cls": 0.003945916128039397,
+          "domContentLoaded": 67.19999998807907,
+          "serverWait": 1.2000000178813934,
+          "resourceTransfer": 411397,
+          "longTaskMs": 0,
+          "threeDRequests": 0
+        },
+        "overflow": false,
+        "brokenImages": []
+      },
+      "transferChangePercent": null,
+      "limitation": "After-only observation: this product HTML was unavailable in the tracked baseline."
+    },
+    {
+      "route": "/compare/rtx-5070-vs-rx-9070/",
+      "width": 1440,
+      "before": {
+        "runs": 1,
+        "dates": [
+          "2026-10-09T16:57:06.671Z"
+        ],
+        "medians": {
+          "lcp": 112,
+          "cls": 0.03885737726992921,
+          "domContentLoaded": 90.90000000596046,
+          "serverWait": 1.300000011920929,
+          "resourceTransfer": 427324,
+          "longTaskMs": 0,
+          "threeDRequests": 0
+        },
+        "overflow": false,
+        "brokenImages": []
+      },
+      "after": {
+        "runs": 1,
+        "dates": [
+          "2026-10-09T17:13:02.539Z"
+        ],
+        "medians": {
+          "lcp": 60,
+          "cls": 0.0003843983789884067,
+          "domContentLoaded": 53,
+          "serverWait": 1.300000011920929,
+          "resourceTransfer": 28639,
+          "longTaskMs": 0,
+          "threeDRequests": 0
+        },
+        "overflow": false,
+        "brokenImages": []
+      },
+      "transferChangePercent": -93.3,
+      "limitation": "The after page is a researched text draft, while the baseline is a different specification page. This is not a like-for-like template performance claim."
+    },
+    {
+      "route": "/builder/",
+      "width": 1440,
+      "before": {
+        "runs": 3,
+        "dates": [
+          "2026-10-09T16:20:30.747Z",
+          "2026-10-09T16:39:51.731Z",
+          "2026-10-09T16:40:53.948Z"
+        ],
+        "medians": {
+          "lcp": 144,
+          "cls": 0.2886209244050918,
+          "domContentLoaded": 127.09999999403954,
+          "serverWait": 1.0999999940395355,
+          "resourceTransfer": 145774,
+          "longTaskMs": 0,
+          "threeDRequests": 0
+        },
+        "overflow": false,
+        "brokenImages": []
+      },
+      "after": {
+        "runs": 3,
+        "dates": [
+          "2026-10-09T17:12:51.751Z",
+          "2026-10-09T17:12:54.505Z",
+          "2026-10-09T17:12:57.272Z"
+        ],
+        "medians": {
+          "lcp": 72,
+          "cls": 0.052097663530137304,
+          "domContentLoaded": 163.59999999403954,
+          "serverWait": 1.5,
+          "resourceTransfer": 157046,
+          "longTaskMs": 0,
+          "threeDRequests": 0
+        },
+        "overflow": false,
+        "brokenImages": []
+      },
+      "transferChangePercent": 7.7,
+      "limitation": null
+    },
+    {
+      "route": "/performance/",
+      "width": 1440,
+      "before": {
+        "runs": 3,
+        "dates": [
+          "2026-10-09T16:20:33.462Z",
+          "2026-10-09T16:39:57.187Z",
+          "2026-10-09T16:40:59.411Z"
+        ],
+        "medians": {
+          "lcp": 140,
+          "cls": 0.01551321127868404,
+          "domContentLoaded": 125.59999999403954,
+          "serverWait": 1.0999999940395355,
+          "resourceTransfer": 135203,
+          "longTaskMs": 0,
+          "threeDRequests": 0
+        },
+        "overflow": false,
+        "brokenImages": []
+      },
+      "after": {
+        "runs": 3,
+        "dates": [
+          "2026-10-09T16:38:55.955Z",
+          "2026-10-09T16:39:59.891Z",
+          "2026-10-09T16:41:02.118Z"
+        ],
+        "medians": {
+          "lcp": 116,
+          "cls": 0.0027206396156082215,
+          "domContentLoaded": 102.40000000596046,
+          "serverWait": 1.199999988079071,
+          "resourceTransfer": 73967,
+          "longTaskMs": 0,
+          "threeDRequests": 0
+        },
+        "overflow": false,
+        "brokenImages": []
+      },
+      "transferChangePercent": -45.3,
+      "limitation": null
+    },
+    {
+      "route": "/blog/how-to-choose-a-graphics-card/",
+      "width": 1440,
+      "before": {
+        "runs": 1,
+        "dates": [
+          "2026-10-09T16:20:36.092Z"
+        ],
+        "medians": {
+          "lcp": 68,
+          "cls": 0.0005485098662836429,
+          "domContentLoaded": 67.5,
+          "serverWait": 1.199999988079071,
+          "resourceTransfer": 33722,
+          "longTaskMs": 0,
+          "threeDRequests": 0
+        },
+        "overflow": false,
+        "brokenImages": []
+      },
+      "after": {
+        "runs": 1,
+        "dates": [
+          "2026-10-09T17:12:59.924Z"
+        ],
+        "medians": {
+          "lcp": 64,
+          "cls": 0.0005396539790020861,
+          "domContentLoaded": 75,
+          "serverWait": 1.199999988079071,
+          "resourceTransfer": 36689,
+          "longTaskMs": 0,
+          "threeDRequests": 0
+        },
+        "overflow": false,
+        "brokenImages": []
+      },
+      "transferChangePercent": 8.8,
+      "limitation": "Single observation; not a repeat-run estimate."
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "before": {
+        "runs": 3,
+        "dates": [
+          "2026-10-09T16:35:11.336Z",
+          "2026-10-09T16:36:13.471Z",
+          "2026-10-09T16:38:21.097Z"
+        ],
+        "medians": {
+          "lcp": 60,
+          "cls": 0.0004785089714217261,
+          "domContentLoaded": 76,
+          "serverWait": 1.2000000178813934,
+          "resourceTransfer": 995051,
+          "longTaskMs": 0,
+          "threeDRequests": 0
+        },
+        "overflow": false,
+        "brokenImages": []
+      },
+      "after": {
+        "runs": 3,
+        "dates": [
+          "2026-10-09T16:35:29.793Z",
+          "2026-10-09T16:36:17.609Z",
+          "2026-10-09T16:38:23.731Z"
+        ],
+        "medians": {
+          "lcp": 56,
+          "cls": 0.0007253870247561076,
+          "domContentLoaded": 70.7999999821186,
+          "serverWait": 1.100000023841858,
+          "resourceTransfer": 57802,
+          "longTaskMs": 0,
+          "threeDRequests": 0
+        },
+        "overflow": false,
+        "brokenImages": []
+      },
+      "transferChangePercent": -94.2,
+      "limitation": null
+    },
+    {
+      "route": "/hardware/graphics-cards/",
+      "width": 390,
+      "before": {
+        "runs": 1,
+        "dates": [
+          "2026-10-09T16:35:19.491Z"
+        ],
+        "medians": {
+          "lcp": 60,
+          "cls": 0.01501781181914153,
+          "domContentLoaded": 94.59999999403954,
+          "serverWait": 1.199999988079071,
+          "resourceTransfer": 1803364,
+          "longTaskMs": 0,
+          "threeDRequests": 0
+        },
+        "overflow": false,
+        "brokenImages": []
+      },
+      "after": {
+        "runs": 1,
+        "dates": [
+          "2026-10-09T16:35:37.853Z"
+        ],
+        "medians": {
+          "lcp": 60,
+          "cls": 0.003956305264182446,
+          "domContentLoaded": 85.80000001192093,
+          "serverWait": 1.199999988079071,
+          "resourceTransfer": 175148,
+          "longTaskMs": 0,
+          "threeDRequests": 0
+        },
+        "overflow": false,
+        "brokenImages": []
+      },
+      "transferChangePercent": -90.3,
+      "limitation": "Single observation; not a repeat-run estimate."
+    },
+    {
+      "route": "/learn/rtx5070.html",
+      "width": 390,
+      "before": null,
+      "after": {
+        "runs": 1,
+        "dates": [
+          "2026-10-09T17:13:34.990Z"
+        ],
+        "medians": {
+          "lcp": 56,
+          "cls": 0,
+          "domContentLoaded": 49.400000005960464,
+          "serverWait": 1.2999999821186066,
+          "resourceTransfer": 411397,
+          "longTaskMs": 0,
+          "threeDRequests": 0
+        },
+        "overflow": false,
+        "brokenImages": []
+      },
+      "transferChangePercent": null,
+      "limitation": "After-only observation: this product HTML was unavailable in the tracked baseline."
+    },
+    {
+      "route": "/compare/rtx-5070-vs-rx-9070/",
+      "width": 390,
+      "before": {
+        "runs": 1,
+        "dates": [
+          "2026-10-09T16:57:53.954Z"
+        ],
+        "medians": {
+          "lcp": 52,
+          "cls": 0.016516669275454282,
+          "domContentLoaded": 65.19999998807907,
+          "serverWait": 1.0999999940395355,
+          "resourceTransfer": 427324,
+          "longTaskMs": 0,
+          "threeDRequests": 0
+        },
+        "overflow": false,
+        "brokenImages": []
+      },
+      "after": {
+        "runs": 1,
+        "dates": [
+          "2026-10-09T17:13:32.382Z"
+        ],
+        "medians": {
+          "lcp": 56,
+          "cls": 0,
+          "domContentLoaded": 46.80000001192093,
+          "serverWait": 1.2000000178813934,
+          "resourceTransfer": 28639,
+          "longTaskMs": 0,
+          "threeDRequests": 0
+        },
+        "overflow": false,
+        "brokenImages": []
+      },
+      "transferChangePercent": -93.3,
+      "limitation": "The after page is a researched text draft, while the baseline is a different specification page. This is not a like-for-like template performance claim."
+    },
+    {
+      "route": "/builder/",
+      "width": 390,
+      "before": {
+        "runs": 3,
+        "dates": [
+          "2026-10-09T16:35:14.034Z",
+          "2026-10-09T16:36:20.327Z",
+          "2026-10-09T16:38:26.434Z"
+        ],
+        "medians": {
+          "lcp": 60,
+          "cls": 0.4793436754768447,
+          "domContentLoaded": 122.39999997615814,
+          "serverWait": 1.2000000178813934,
+          "resourceTransfer": 145774,
+          "longTaskMs": 0,
+          "threeDRequests": 0
+        },
+        "overflow": false,
+        "brokenImages": []
+      },
+      "after": {
+        "runs": 3,
+        "dates": [
+          "2026-10-09T17:13:21.680Z",
+          "2026-10-09T17:13:24.427Z",
+          "2026-10-09T17:13:27.166Z"
+        ],
+        "medians": {
+          "lcp": 64,
+          "cls": 0.049750128889316285,
+          "domContentLoaded": 148.90000000596046,
+          "serverWait": 1.199999988079071,
+          "resourceTransfer": 157046,
+          "longTaskMs": 0,
+          "threeDRequests": 0
+        },
+        "overflow": false,
+        "brokenImages": []
+      },
+      "transferChangePercent": 7.7,
+      "limitation": null
+    },
+    {
+      "route": "/performance/",
+      "width": 390,
+      "before": {
+        "runs": 3,
+        "dates": [
+          "2026-10-09T16:35:16.830Z",
+          "2026-10-09T16:36:25.784Z",
+          "2026-10-09T16:38:31.882Z"
+        ],
+        "medians": {
+          "lcp": 64,
+          "cls": 0.002362053862222322,
+          "domContentLoaded": 119.60000002384186,
+          "serverWait": 1.300000011920929,
+          "resourceTransfer": 135203,
+          "longTaskMs": 0,
+          "threeDRequests": 0
+        },
+        "overflow": false,
+        "brokenImages": []
+      },
+      "after": {
+        "runs": 3,
+        "dates": [
+          "2026-10-09T16:35:35.199Z",
+          "2026-10-09T16:36:28.481Z",
+          "2026-10-09T16:38:34.566Z"
+        ],
+        "medians": {
+          "lcp": 60,
+          "cls": 0.00035202863068364745,
+          "domContentLoaded": 97.40000000596046,
+          "serverWait": 1.2999999821186066,
+          "resourceTransfer": 73967,
+          "longTaskMs": 0,
+          "threeDRequests": 0
+        },
+        "overflow": false,
+        "brokenImages": []
+      },
+      "transferChangePercent": -45.3,
+      "limitation": null
+    },
+    {
+      "route": "/blog/how-to-choose-a-graphics-card/",
+      "width": 390,
+      "before": {
+        "runs": 1,
+        "dates": [
+          "2026-10-09T16:57:48.718Z"
+        ],
+        "medians": {
+          "lcp": 72,
+          "cls": 0.02907818331751683,
+          "domContentLoaded": 82.19999998807907,
+          "serverWait": 1.199999988079071,
+          "resourceTransfer": 33722,
+          "longTaskMs": 0,
+          "threeDRequests": 0
+        },
+        "overflow": false,
+        "brokenImages": []
+      },
+      "after": {
+        "runs": 1,
+        "dates": [
+          "2026-10-09T17:13:29.773Z"
+        ],
+        "medians": {
+          "lcp": 52,
+          "cls": 0,
+          "domContentLoaded": 55.19999998807907,
+          "serverWait": 1.199999988079071,
+          "resourceTransfer": 36689,
+          "longTaskMs": 0,
+          "threeDRequests": 0
+        },
+        "overflow": false,
+        "brokenImages": []
+      },
+      "transferChangePercent": 8.8,
+      "limitation": "Single observation; not a repeat-run estimate."
+    }
+  ],
+  "exclusions": [
+    {
+      "at": "2026-10-09T16:06:22.114Z",
+      "reason": "Pilot metrics were missing."
+    },
+    {
+      "at": "2026-10-09T16:06:22.272Z",
+      "reason": "Pilot metrics were missing."
+    },
+    {
+      "at": "2026-10-09T16:06:22.470Z",
+      "reason": "Pilot metrics were missing."
+    },
+    {
+      "at": "2026-10-09T16:06:22.674Z",
+      "reason": "Pilot metrics were missing."
+    },
+    {
+      "at": "2026-10-09T16:07:23.573Z",
+      "path": "/",
+      "reason": "Earlier intermediate run superseded by latest comparable observations."
+    },
+    {
+      "at": "2026-10-09T16:07:28.988Z",
+      "path": "/hardware/graphics-cards/",
+      "reason": "Earlier intermediate run superseded by latest comparable observations."
+    },
+    {
+      "at": "2026-10-09T16:35:32.507Z",
+      "path": "/builder/",
+      "reason": "Earlier intermediate run superseded by latest comparable observations."
+    },
+    {
+      "at": "2026-10-09T16:36:23.070Z",
+      "path": "/builder/",
+      "reason": "Earlier intermediate run superseded by latest comparable observations."
+    },
+    {
+      "at": "2026-10-09T16:38:29.159Z",
+      "path": "/builder/",
+      "reason": "Earlier intermediate run superseded by latest comparable observations."
+    },
+    {
+      "at": "2026-10-09T16:38:53.277Z",
+      "path": "/builder/",
+      "reason": "Earlier intermediate run superseded by latest comparable observations."
+    },
+    {
+      "at": "2026-10-09T16:39:54.453Z",
+      "path": "/builder/",
+      "reason": "Earlier intermediate run superseded by latest comparable observations."
+    },
+    {
+      "at": "2026-10-09T16:40:56.678Z",
+      "path": "/builder/",
+      "reason": "Earlier intermediate run superseded by latest comparable observations."
+    },
+    {
+      "at": "2026-10-09T16:56:56.950Z",
+      "path": "/builder/",
+      "reason": "Earlier intermediate run superseded by latest comparable observations."
+    },
+    {
+      "at": "2026-10-09T16:56:59.722Z",
+      "path": "/builder/",
+      "reason": "Earlier intermediate run superseded by latest comparable observations."
+    },
+    {
+      "at": "2026-10-09T16:57:02.482Z",
+      "path": "/builder/",
+      "reason": "Earlier intermediate run superseded by latest comparable observations."
+    },
+    {
+      "at": "2026-10-09T16:57:09.309Z",
+      "path": "/compare/rtx-5070-vs-rx-9070/",
+      "reason": "Earlier intermediate run superseded by latest comparable observations."
+    },
+    {
+      "at": "2026-10-09T16:57:20.867Z",
+      "path": "/blog/how-to-choose-a-graphics-card/",
+      "reason": "Earlier intermediate run superseded by latest comparable observations."
+    },
+    {
+      "at": "2026-10-09T16:57:23.497Z",
+      "path": "/learn/rtx5070.html",
+      "reason": "Earlier intermediate run superseded by latest comparable observations."
+    },
+    {
+      "at": "2026-10-09T16:57:26.258Z",
+      "path": "/builder/",
+      "reason": "Earlier intermediate run superseded by latest comparable observations."
+    },
+    {
+      "at": "2026-10-09T16:57:28.977Z",
+      "path": "/builder/",
+      "reason": "Earlier intermediate run superseded by latest comparable observations."
+    },
+    {
+      "at": "2026-10-09T16:57:31.711Z",
+      "path": "/builder/",
+      "reason": "Earlier intermediate run superseded by latest comparable observations."
+    },
+    {
+      "at": "2026-10-09T16:57:51.337Z",
+      "path": "/blog/how-to-choose-a-graphics-card/",
+      "reason": "Earlier intermediate run superseded by latest comparable observations."
+    },
+    {
+      "at": "2026-10-09T16:57:56.579Z",
+      "path": "/compare/rtx-5070-vs-rx-9070/",
+      "reason": "Earlier intermediate run superseded by latest comparable observations."
+    },
+    {
+      "at": "2026-10-09T16:57:59.199Z",
+      "path": "/learn/rtx5070.html",
+      "reason": "Earlier intermediate run superseded by latest comparable observations."
+    }
+  ],
+  "limits": [
+    "No CPU/network throttling, real-user p75, field INP, PageSpeed score or remote host comparison.",
+    "Resource transfer is resource entries only; navigation HTML is measured separately in static payload reports.",
+    "External font caching was not cleared or controlled.",
+    "Preview-only instrumentation is injected by the localhost server, not published in site HTML.",
+    "Normal production generation differs from staging: unreviewed drafts and product panels remain withheld."
+  ]
+}

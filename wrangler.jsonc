@@ -1,10 +1,13 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "pcpartperformance-live",
+  "main": "scripts/worker.mjs",
   "compatibility_date": "2026-10-05",
   "assets": {
     "directory": "./dist",
-    "html_handling": "auto-trailing-slash",
+    "binding": "ASSETS",
+    "run_worker_first": true,
+    "html_handling": "none",
     "not_found_handling": "404-page"
   }
 }

@@ -1,0 +1,2233 @@
+{
+  "version": "2026-10-09.1",
+  "sources": {
+    "n5070": {
+      "publisher": "NVIDIA",
+      "title": "GeForce RTX 5070 family specifications",
+      "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family/",
+      "section": "Full specifications; RTX 5070 column and reference-design footnote",
+      "scope": "Base GPU specification. Founders Edition dimensions do not describe partner cards.",
+      "checkedAt": "2026-10-09",
+      "verification": "original_document_inspected",
+      "measurementStatus": "manufacturer_specified",
+      "redistribution": "Paraphrased facts and source links only; no copied benchmark dataset, images or manual redistribution."
+    },
+    "n5060": {
+      "publisher": "NVIDIA",
+      "title": "GeForce RTX 5060 family specifications",
+      "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5060-family/",
+      "section": "Full specifications; RTX 5060 Ti column",
+      "scope": "8 GB and 16 GB configurations explicitly listed; dimensions vary by card manufacturer.",
+      "checkedAt": "2026-10-09",
+      "verification": "original_document_inspected",
+      "measurementStatus": "manufacturer_specified",
+      "redistribution": "Paraphrased facts and source links only; no copied benchmark dataset, images or manual redistribution."
+    },
+    "n3050": {
+      "publisher": "NVIDIA",
+      "title": "GeForce RTX 3050 specifications",
+      "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3050/",
+      "section": "Full specifications; RTX 3050 6 GB column",
+      "scope": "6 GB reference specification, distinct from the 8 GB and OEM designs.",
+      "checkedAt": "2026-10-09",
+      "verification": "original_document_inspected",
+      "measurementStatus": "manufacturer_specified",
+      "redistribution": "Paraphrased facts and source links only; no copied benchmark dataset, images or manual redistribution."
+    },
+    "n3060": {
+      "publisher": "NVIDIA",
+      "title": "GeForce RTX 3060 family specifications",
+      "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3060-3060ti/",
+      "section": "Full specifications; RTX 3060 column and variant footnote",
+      "scope": "The 12 GB configuration uses the listed 192-bit interface; the 8 GB configuration is separate.",
+      "checkedAt": "2026-10-09",
+      "verification": "original_document_inspected",
+      "measurementStatus": "manufacturer_specified",
+      "redistribution": "Paraphrased facts and source links only; no copied benchmark dataset, images or manual redistribution."
+    },
+    "rx9070": {
+      "publisher": "AMD",
+      "title": "Radeon RX 9070 specifications",
+      "url": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070.html",
+      "section": "Requirements; GPU Memory; Connectivity",
+      "scope": "AMD base GPU specification, not exact partner-card geometry.",
+      "checkedAt": "2026-10-09",
+      "verification": "original_document_inspected",
+      "measurementStatus": "manufacturer_specified",
+      "redistribution": "Paraphrased facts and source links only; no copied benchmark dataset, images or manual redistribution."
+    },
+    "m5070": {
+      "publisher": "MSI",
+      "title": "GeForce RTX 5070 12G VENTUS 3X OC specifications",
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5070-12G-VENTUS-3X-OC/Specification",
+      "section": "Model name G5070-12V3C; memory, connector, dimensions and clocks",
+      "scope": "The named OC card. Default boost differs from MSI Center Extreme Performance mode.",
+      "checkedAt": "2026-10-09",
+      "verification": "original_document_inspected",
+      "measurementStatus": "manufacturer_specified",
+      "redistribution": "Paraphrased facts and source links only; no copied benchmark dataset, images or manual redistribution."
+    },
+    "m3060": {
+      "publisher": "MSI",
+      "title": "GeForce RTX 3060 VENTUS 2X 12G OC specifications",
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3060-VENTUS-2X-12G-OC/Specification",
+      "section": "Memory; power connectors; card dimensions; boost",
+      "scope": "VENTUS 2X 12G OC, not the non-OC or 8G version.",
+      "checkedAt": "2026-10-09",
+      "verification": "original_document_inspected",
+      "measurementStatus": "manufacturer_specified",
+      "redistribution": "Paraphrased facts and source links only; no copied benchmark dataset, images or manual redistribution."
+    },
+    "cpu9800": {
+      "publisher": "AMD",
+      "title": "Ryzen 7 9800X3D specifications",
+      "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9800x3d.html",
+      "section": "General Specifications; Connectivity; Product IDs",
+      "scope": "Processor specifications. Boxed and tray packaging IDs are recorded separately.",
+      "checkedAt": "2026-10-09",
+      "verification": "original_document_inspected",
+      "measurementStatus": "manufacturer_specified",
+      "redistribution": "Paraphrased facts and source links only; no copied benchmark dataset, images or manual redistribution."
+    },
+    "cpu7800": {
+      "publisher": "AMD",
+      "title": "Ryzen 7 7800X3D specifications",
+      "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7800x3d.html",
+      "section": "General Specifications; Connectivity",
+      "scope": "Processor specification, not a game benchmark or motherboard BIOS approval.",
+      "checkedAt": "2026-10-09",
+      "verification": "original_document_inspected",
+      "measurementStatus": "manufacturer_specified",
+      "redistribution": "Paraphrased facts and source links only; no copied benchmark dataset, images or manual redistribution."
+    },
+    "cpu5600": {
+      "publisher": "AMD",
+      "title": "Ryzen 5 5600 support and specifications",
+      "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600.html",
+      "section": "Specifications; General Specifications; Connectivity; Graphics Capabilities",
+      "scope": "Official support page retains specifications; original catalog product URL could not be verified by the research tool.",
+      "checkedAt": "2026-10-09",
+      "verification": "original_document_inspected",
+      "measurementStatus": "manufacturer_specified",
+      "redistribution": "Paraphrased facts and source links only; no copied benchmark dataset, images or manual redistribution."
+    },
+    "cpu5700": {
+      "publisher": "AMD",
+      "title": "Ryzen 7 5700X3D support and specifications",
+      "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x3d.html",
+      "section": "Specifications; General Specifications; Connectivity; Graphics Capabilities",
+      "scope": "Official support-page specifications; motherboard CPU support and installed BIOS remain separate checks.",
+      "checkedAt": "2026-10-09",
+      "verification": "original_document_inspected",
+      "measurementStatus": "manufacturer_specified",
+      "redistribution": "Paraphrased facts and source links only; no copied benchmark dataset, images or manual redistribution."
+    },
+    "b650": {
+      "publisher": "MSI",
+      "title": "MAG B650 TOMAHAWK WIFI specifications",
+      "url": "https://www.msi.com/Motherboard/MAG-B650-TOMAHAWK-WIFI/Specification",
+      "section": "CPU; Memory; Storage; Slot; PCB info",
+      "scope": "Exact named board. CPU groups and occupied slots change available lanes.",
+      "checkedAt": "2026-10-09",
+      "verification": "original_document_inspected",
+      "measurementStatus": "manufacturer_specified",
+      "redistribution": "Paraphrased facts and source links only; no copied benchmark dataset, images or manual redistribution."
+    },
+    "b850": {
+      "publisher": "MSI",
+      "title": "MAG B850 TOMAHAWK MAX WIFI specifications",
+      "url": "https://www.msi.com/Motherboard/MAG-B850-TOMAHAWK-MAX-WIFI/Specification",
+      "section": "CPU; Memory; Storage; Slot; PCB info",
+      "scope": "Exact MAX WIFI model. Slot-sharing rules differ from the B650 TOMAHAWK.",
+      "checkedAt": "2026-10-09",
+      "verification": "original_document_inspected",
+      "measurementStatus": "manufacturer_specified",
+      "redistribution": "Paraphrased facts and source links only; no copied benchmark dataset, images or manual redistribution."
+    },
+    "ram4": {
+      "publisher": "CORSAIR",
+      "title": "VENGEANCE LPX 32 GB DDR4-3200 C16 black kit",
+      "url": "https://www.corsair.com/us/en/p/memory/cmk32gx4m2e3200c16/vengeance-lpx-32gb-2-x-16gb-ddr4-dram-3200mhz-c16-memory-kit-black-cmk32gx4m2e3200c16",
+      "section": "SKU; Tech Specs; Memory Tested Speed Disclaimer",
+      "scope": "CMK32GX4M2E3200C16, two 16 GB UDIMMs. Rated profile is not universal CPU/board support.",
+      "checkedAt": "2026-10-09",
+      "verification": "original_document_inspected",
+      "measurementStatus": "manufacturer_specified",
+      "redistribution": "Paraphrased facts and source links only; no copied benchmark dataset, images or manual redistribution."
+    },
+    "ram5": {
+      "publisher": "CORSAIR",
+      "title": "VENGEANCE 32 GB DDR5-6000 CL30 black kit",
+      "url": "https://www.corsair.com/us/en/p/memory/cmk32gx5m2b6000c30/vengeance-32gb-2x16gb-ddr5-dram-6000mt-s-c30-memory-kit-black-cmk32gx5m2b6000c30",
+      "section": "SKU; Tech Specs; tested-speed disclaimer",
+      "scope": "CMK32GX5M2B6000C30, Intel XMP kit. Do not silently substitute a similarly named EXPO kit.",
+      "checkedAt": "2026-10-09",
+      "verification": "original_document_inspected",
+      "measurementStatus": "manufacturer_specified",
+      "redistribution": "Paraphrased facts and source links only; no copied benchmark dataset, images or manual redistribution."
+    },
+    "s990": {
+      "publisher": "Samsung",
+      "title": "990 PRO 1 TB MZ-V9P1T0BW specifications",
+      "url": "https://www.samsung.com/uk/memory-storage/nvme-ssd/990-pro-1tb-nvme-pcie-gen-4-mz-v9p1t0bw/",
+      "section": "Specifications; General Feature; Performance",
+      "scope": "UK non-heatsink 1 TB SKU. Capacity is decimal; maximum sequential results are manufacturer specifications.",
+      "checkedAt": "2026-10-09",
+      "verification": "original_document_inspected",
+      "measurementStatus": "manufacturer_specified",
+      "redistribution": "Paraphrased facts and source links only; no copied benchmark dataset, images or manual redistribution."
+    },
+    "s870": {
+      "publisher": "Samsung",
+      "title": "870 EVO 1 TB SATA SSD",
+      "url": "https://www.samsung.com/us/memory-storage/sata-ssd/870-evo-sata-2-5-ssd-1tb-sku-mz-77e1t0b-am/",
+      "section": "Model MZ-77E1T0B/AM; title; highlights",
+      "scope": "US 1 TB SKU supports capacity, interface and advertised read/write limits; local catalog region is unspecified.",
+      "checkedAt": "2026-10-09",
+      "verification": "original_document_inspected",
+      "measurementStatus": "manufacturer_specified",
+      "redistribution": "Paraphrased facts and source links only; no copied benchmark dataset, images or manual redistribution."
+    },
+    "rmx": {
+      "publisher": "CORSAIR",
+      "title": "RMx series 2021 quick-start guide",
+      "url": "https://assets.corsair.com/image/upload/corsairmedia/sys_master/productcontent/WW_RMx_Series_2021_QSG_Web_AD.pdf",
+      "section": "English introduction and printed pages 5–8; PDF pages 2, 4–5; RM850x column and cable warning",
+      "scope": "RPS0124 / CP-9020200 RM850x 2021. Included cable types and connectors are not a complete modern GPU compatibility verdict.",
+      "checkedAt": "2026-10-09",
+      "verification": "original_document_inspected",
+      "measurementStatus": "manufacturer_specified",
+      "redistribution": "Paraphrased facts and source links only; no copied benchmark dataset, images or manual redistribution."
+    },
+    "c4000": {
+      "publisher": "CORSAIR",
+      "title": "4000D black tempered-glass ATX case",
+      "url": "https://www.corsair.com/us/en/p/pc-cases/cc-9011198-ww/4000d-tempered-glass-mid-tower-atx-case-black-cc-9011198-ww",
+      "section": "SKU; Tech Specs; cooling and fan capacity",
+      "scope": "CC-9011198-WW original solid-front black 4000D, not 4000D Airflow or FRAME 4000D.",
+      "checkedAt": "2026-10-09",
+      "verification": "original_document_inspected",
+      "measurementStatus": "manufacturer_specified",
+      "redistribution": "Paraphrased facts and source links only; no copied benchmark dataset, images or manual redistribution."
+    },
+    "seagate": {
+      "publisher": "Seagate",
+      "title": "BarraCuda 3.5-inch HDD datasheet DS1900.12",
+      "url": "https://www.seagate.com/www-content/datasheets/pdfs/3-5-barracudaDS1900-12-1908US-en_US.pdf",
+      "section": "PDF page 3; ST2000DM008 column",
+      "scope": "The existing catalog architecture identifies ST2000DM008. Its 7200 RPM and 256 MB specifications must not be transferred to ST2000DM005 or ST2000DM006.",
+      "checkedAt": "2026-10-09",
+      "verification": "original_document_inspected",
+      "measurementStatus": "manufacturer_specified",
+      "redistribution": "Paraphrased facts and source links only; no copied benchmark dataset, images or manual redistribution."
+    }
+  },
+  "profiles": [
+    {
+      "id": "rtx5070",
+      "sourceIds": [
+        "n5070"
+      ],
+      "identity": {
+        "scope": "base_gpu",
+        "manufacturer": "NVIDIA",
+        "model": "GeForce RTX 5070",
+        "memoryGB": 12,
+        "partner": null,
+        "revision": null,
+        "sku": null
+      },
+      "answer": "The RTX 5070 is a 12 GB GDDR7 base GPU specification. Pick the exact partner card before deciding whether it fits your case or matches your PSU cables.",
+      "decision": "Compare it with the RX 9070 and an exact RTX 5070 board. The useful questions are your game settings, required software features, delivered price and the physical card you can buy. Memory capacity alone cannot establish a performance winner.",
+      "verify": [
+        "Partner-card length, height, thickness and connector position are not established by this base record.",
+        "Check the exact card manual and the case layout with planned radiators and cables."
+      ],
+      "reuse": "Record your current card and the setting that falls short before spending. Retaining it is a valid option if it still meets the display and workload target.",
+      "facts": [
+        {
+          "key": "memoryCapacity",
+          "label": "Graphics memory",
+          "value": 12,
+          "unit": "GB",
+          "sourceId": "n5070",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "memoryType",
+          "label": "Memory type",
+          "value": "GDDR7",
+          "unit": "",
+          "sourceId": "n5070",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "memoryBus",
+          "label": "Memory interface",
+          "value": 192,
+          "unit": "bit",
+          "sourceId": "n5070",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "graphicsPower",
+          "label": "Total graphics power",
+          "value": 250,
+          "unit": "W",
+          "sourceId": "n5070",
+          "status": "manufacturer_specified",
+          "note": "Reference specification; system power is a different quantity."
+        },
+        {
+          "key": "boostClock",
+          "label": "Boost clock",
+          "value": 2.51,
+          "unit": "GHz",
+          "sourceId": "n5070",
+          "status": "manufacturer_specified",
+          "note": "Reference gaming clock; partner clocks vary."
+        },
+        {
+          "key": "exactDimensions",
+          "label": "Exact partner dimensions",
+          "value": null,
+          "unit": "",
+          "sourceId": "n5070",
+          "status": "unknown",
+          "note": ""
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "rx9070",
+          "reason": "Compare a different GPU design, capacity and feature set using the same workload."
+        },
+        {
+          "id": "retail-msi-geforce-rtx-5070-12g-ventus-3x-oc",
+          "reason": "Inspect a named RTX 5070 card with documented dimensions and connector."
+        }
+      ],
+      "guides": [
+        "how-to-choose-a-graphics-card",
+        "will-a-graphics-card-fit-my-case"
+      ],
+      "priority": {
+        "basis": "provisional",
+        "reason": "Existing catalog/starter-build coverage and a meaningful compatibility or upgrade decision; search demand unmeasured."
+      },
+      "editorial": {
+        "status": "evidence_checked",
+        "humanReview": "required",
+        "reviewer": null,
+        "publishedAt": null,
+        "preparedAt": "2026-10-09"
+      }
+    },
+    {
+      "id": "rtx5060ti16",
+      "sourceIds": [
+        "n5060"
+      ],
+      "identity": {
+        "scope": "base_gpu_memory_variant",
+        "manufacturer": "NVIDIA",
+        "model": "GeForce RTX 5060 Ti",
+        "memoryGB": 16,
+        "partner": null,
+        "sku": null,
+        "revision": null
+      },
+      "answer": "This is the 16 GB RTX 5060 Ti configuration. The 8 GB card is a separate purchase; a shared GPU name does not make their memory capacity interchangeable.",
+      "decision": "Check the workload’s actual memory use and the price difference between exact cards. More capacity can accommodate larger working sets, but it is not a promise of higher FPS in every game. This page has specifications, not comparable measured game tests.",
+      "verify": [
+        "An exact partner-card model is needed for geometry and shipping connector details.",
+        "Keep 8 GB offers out of a 16 GB parts list; compare matching settings and base rendered FPS."
+      ],
+      "reuse": "If a current card has adequate capacity, investigate the observed performance limit before treating a larger memory number as the upgrade reason.",
+      "facts": [
+        {
+          "key": "memoryCapacity",
+          "label": "Graphics memory",
+          "value": 16,
+          "unit": "GB",
+          "sourceId": "n5060",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "memoryType",
+          "label": "Memory type",
+          "value": "GDDR7",
+          "unit": "",
+          "sourceId": "n5060",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "memoryBus",
+          "label": "Memory interface",
+          "value": 128,
+          "unit": "bit",
+          "sourceId": "n5060",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "graphicsPower",
+          "label": "Total graphics power",
+          "value": 180,
+          "unit": "W",
+          "sourceId": "n5060",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "exactDimensions",
+          "label": "Exact partner dimensions",
+          "value": null,
+          "unit": "",
+          "sourceId": "n5060",
+          "status": "unknown",
+          "note": ""
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "rtx5060",
+          "reason": "Compare a different 8 GB GPU design, rather than mistaking it for the Ti 8 GB variant."
+        },
+        {
+          "id": "rtx5070",
+          "reason": "Compare the complete card and cost when considering a different GPU tier."
+        }
+      ],
+      "guides": [
+        "rtx-5060-ti-8gb-vs-16gb",
+        "how-to-choose-a-graphics-card"
+      ],
+      "priority": {
+        "basis": "provisional",
+        "reason": "Existing catalog/starter-build coverage and a meaningful compatibility or upgrade decision; search demand unmeasured."
+      },
+      "editorial": {
+        "status": "evidence_checked",
+        "humanReview": "required",
+        "reviewer": null,
+        "publishedAt": null,
+        "preparedAt": "2026-10-09"
+      }
+    },
+    {
+      "id": "rtx30506",
+      "sourceIds": [
+        "n3050"
+      ],
+      "identity": {
+        "scope": "base_gpu_memory_variant",
+        "manufacturer": "NVIDIA",
+        "model": "GeForce RTX 3050",
+        "memoryGB": 6,
+        "partner": null,
+        "sku": null,
+        "revision": null
+      },
+      "answer": "The RTX 3050 6 GB differs from the 8 GB version in cores, memory interface and power. Keep the capacity in the product name when comparing or ordering.",
+      "decision": "This lower-power design can be worth considering when expansion power is restricted. Check the actual shipping card and the computer manufacturer’s slot-power and physical restrictions. A nominal power value is not proof that it fits an OEM PC.",
+      "verify": [
+        "The reference 6 GB design lists no supplementary power connector; verify the partner card.",
+        "Low-profile brackets, case width and OEM slot support are unknown here."
+      ],
+      "reuse": "For an existing PC, confirm display outputs and software requirements first. Do not assume it is an upgrade merely because the old card predates RTX.",
+      "facts": [
+        {
+          "key": "memoryCapacity",
+          "label": "Graphics memory",
+          "value": 6,
+          "unit": "GB",
+          "sourceId": "n3050",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "memoryType",
+          "label": "Memory type",
+          "value": "GDDR6",
+          "unit": "",
+          "sourceId": "n3050",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "memoryBus",
+          "label": "Memory interface",
+          "value": 96,
+          "unit": "bit",
+          "sourceId": "n3050",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "cudaCores",
+          "label": "CUDA cores",
+          "value": 2304,
+          "unit": "",
+          "sourceId": "n3050",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "graphicsPower",
+          "label": "Reference card power",
+          "value": 70,
+          "unit": "W",
+          "sourceId": "n3050",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "exactDimensions",
+          "label": "Exact partner dimensions",
+          "value": null,
+          "unit": "",
+          "sourceId": "n3050",
+          "status": "unknown",
+          "note": ""
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "rtx3050",
+          "reason": "Compare the distinct 8 GB design and its different power requirement."
+        },
+        {
+          "id": "rtx3060",
+          "reason": "Compare another older GPU option with the PSU and exact used-card condition included."
+        }
+      ],
+      "guides": [
+        "how-to-choose-a-graphics-card",
+        "will-a-graphics-card-fit-my-case"
+      ],
+      "priority": {
+        "basis": "provisional",
+        "reason": "Existing catalog/starter-build coverage and a meaningful compatibility or upgrade decision; search demand unmeasured."
+      },
+      "editorial": {
+        "status": "evidence_checked",
+        "humanReview": "required",
+        "reviewer": null,
+        "publishedAt": null,
+        "preparedAt": "2026-10-09"
+      }
+    },
+    {
+      "id": "rtx3060",
+      "sourceIds": [
+        "n3060"
+      ],
+      "identity": {
+        "scope": "base_gpu_memory_variant",
+        "manufacturer": "NVIDIA",
+        "model": "GeForce RTX 3060",
+        "memoryGB": 12,
+        "partner": null,
+        "sku": null,
+        "revision": null
+      },
+      "answer": "This RTX 3060 record describes the 12 GB design. The 8 GB configuration and every partner cooler need separate identification.",
+      "decision": "For a current owner, use this page to record the card’s capabilities before comparing an upgrade. For a used purchase, inspect the exact model and condition. A chipset specification does not verify a seller’s board, cooling condition or delivered price.",
+      "verify": [
+        "The 12 GB configuration uses a 192-bit memory interface; an 8 GB listing is not an exact match.",
+        "Dimensions and connector layout require the partner manufacturer’s model documentation."
+      ],
+      "reuse": "Keeping a functioning card is reasonable when it meets your needs. A useful upgrade comparison begins with the game, scene, settings and actual problem rather than the launch year.",
+      "facts": [
+        {
+          "key": "memoryCapacity",
+          "label": "Graphics memory",
+          "value": 12,
+          "unit": "GB",
+          "sourceId": "n3060",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "memoryType",
+          "label": "Memory type",
+          "value": "GDDR6",
+          "unit": "",
+          "sourceId": "n3060",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "memoryBus",
+          "label": "Memory interface",
+          "value": 192,
+          "unit": "bit",
+          "sourceId": "n3060",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "cudaCores",
+          "label": "CUDA cores",
+          "value": 3584,
+          "unit": "",
+          "sourceId": "n3060",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "graphicsPower",
+          "label": "Reference graphics power",
+          "value": 170,
+          "unit": "W",
+          "sourceId": "n3060",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "exactDimensions",
+          "label": "Exact partner dimensions",
+          "value": null,
+          "unit": "",
+          "sourceId": "n3060",
+          "status": "unknown",
+          "note": ""
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "retail-msi-geforce-rtx-3060-ventus-2x-12g-oc",
+          "reason": "Open one documented 12 GB partner design for length and connector checks."
+        },
+        {
+          "id": "rtx5070",
+          "reason": "Compare a newer GPU without inferring an FPS improvement from specification ratios."
+        }
+      ],
+      "guides": [
+        "cpu-or-gpu-upgrade-for-gaming",
+        "how-to-choose-a-graphics-card"
+      ],
+      "priority": {
+        "basis": "provisional",
+        "reason": "Existing catalog/starter-build coverage and a meaningful compatibility or upgrade decision; search demand unmeasured."
+      },
+      "editorial": {
+        "status": "evidence_checked",
+        "humanReview": "required",
+        "reviewer": null,
+        "publishedAt": null,
+        "preparedAt": "2026-10-09"
+      }
+    },
+    {
+      "id": "rx9070",
+      "sourceIds": [
+        "rx9070"
+      ],
+      "identity": {
+        "scope": "base_gpu",
+        "manufacturer": "AMD",
+        "model": "Radeon RX 9070",
+        "memoryGB": 16,
+        "partner": null,
+        "sku": null,
+        "revision": null
+      },
+      "answer": "The Radeon RX 9070 base specification lists 16 GB GDDR6 and 220 W typical board power. Exact retail card dimensions and power connectors remain partner-specific.",
+      "decision": "Use application support, comparable game evidence and exact regional offers to decide between this and the RTX 5070. Neither the memory total nor a synthetic throughput figure settles all workloads. There is no measured performance verdict on this specification page.",
+      "verify": [
+        "Read the exact partner-card dimensions and PSU-connector requirements before a fit decision.",
+        "Display output capability must match the monitor, cable and selected mode."
+      ],
+      "reuse": "Check whether changing graphics settings or addressing an existing system issue meets the target first. Include any required PSU or case replacement in the upgrade cost.",
+      "facts": [
+        {
+          "key": "memoryCapacity",
+          "label": "Graphics memory",
+          "value": 16,
+          "unit": "GB",
+          "sourceId": "rx9070",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "memoryType",
+          "label": "Memory type",
+          "value": "GDDR6",
+          "unit": "",
+          "sourceId": "rx9070",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "memoryBus",
+          "label": "Memory interface",
+          "value": 256,
+          "unit": "bit",
+          "sourceId": "rx9070",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "boardPower",
+          "label": "Typical board power",
+          "value": 220,
+          "unit": "W",
+          "sourceId": "rx9070",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "exactDimensions",
+          "label": "Exact partner dimensions",
+          "value": null,
+          "unit": "",
+          "sourceId": "rx9070",
+          "status": "unknown",
+          "note": ""
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "rtx5070",
+          "reason": "Compare GPU features and documented workload evidence at the delivered prices."
+        },
+        {
+          "id": "rx9070xt",
+          "reason": "Inspect the distinct XT design and its power/price implications."
+        }
+      ],
+      "guides": [
+        "how-to-choose-a-graphics-card",
+        "will-a-graphics-card-fit-my-case"
+      ],
+      "priority": {
+        "basis": "provisional",
+        "reason": "Existing catalog/starter-build coverage and a meaningful compatibility or upgrade decision; search demand unmeasured."
+      },
+      "editorial": {
+        "status": "evidence_checked",
+        "humanReview": "required",
+        "reviewer": null,
+        "publishedAt": null,
+        "preparedAt": "2026-10-09"
+      }
+    },
+    {
+      "id": "retail-msi-geforce-rtx-5070-12g-ventus-3x-oc",
+      "sourceIds": [
+        "m5070"
+      ],
+      "identity": {
+        "scope": "partner_variant",
+        "manufacturer": "MSI",
+        "model": "GeForce RTX 5070 12G VENTUS 3X OC",
+        "sku": "G5070-12V3C",
+        "memoryGB": 12,
+        "revision": null
+      },
+      "answer": "G5070-12V3C identifies MSI’s RTX 5070 12G VENTUS 3X OC. Its 302 × 121 × 49 mm body is different from the NVIDIA Founders Edition envelope.",
+      "decision": "Use the measured space in the intended case, including installed radiators and the power cable path. The default listed boost is 2542 MHz; MSI Center’s Extreme Performance mode is a different setting. Neither number is a game FPS result.",
+      "verify": [
+        "One 16-pin GPU power connector is listed; MSI recommends an ATX 3.1 PSU.",
+        "A case length limit alone does not check cable bend space, occupied slots or radiator interference."
+      ],
+      "reuse": "If an existing case and PSU pass exact documentation checks, retain them. Do not replace them solely to match the card’s branding.",
+      "facts": [
+        {
+          "key": "memoryCapacity",
+          "label": "Graphics memory",
+          "value": 12,
+          "unit": "GB",
+          "sourceId": "m5070",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "length",
+          "label": "Card length",
+          "value": 302,
+          "unit": "mm",
+          "sourceId": "m5070",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "height",
+          "label": "Card height",
+          "value": 121,
+          "unit": "mm",
+          "sourceId": "m5070",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "thickness",
+          "label": "Card thickness",
+          "value": 49,
+          "unit": "mm",
+          "sourceId": "m5070",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "powerConnector",
+          "label": "GPU power input",
+          "value": "1 × 16-pin",
+          "unit": "",
+          "sourceId": "m5070",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "boardPower",
+          "label": "Listed power consumption",
+          "value": 250,
+          "unit": "W",
+          "sourceId": "m5070",
+          "status": "manufacturer_specified",
+          "note": ""
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "rtx5070",
+          "reason": "Separate the base GPU specification from this exact cooler and connector."
+        },
+        {
+          "id": "retail-msi-geforce-rtx-5070-ti-16g-ventus-3x-oc",
+          "reason": "Compare a different GPU and memory configuration; it is not an alias of this card."
+        }
+      ],
+      "guides": [
+        "will-a-graphics-card-fit-my-case",
+        "choose-a-pc-power-supply"
+      ],
+      "priority": {
+        "basis": "provisional",
+        "reason": "Existing catalog/starter-build coverage and a meaningful compatibility or upgrade decision; search demand unmeasured."
+      },
+      "editorial": {
+        "status": "evidence_checked",
+        "humanReview": "required",
+        "reviewer": null,
+        "publishedAt": null,
+        "preparedAt": "2026-10-09"
+      }
+    },
+    {
+      "id": "retail-msi-geforce-rtx-3060-ventus-2x-12g-oc",
+      "sourceIds": [
+        "m3060"
+      ],
+      "identity": {
+        "scope": "partner_variant",
+        "manufacturer": "MSI",
+        "model": "GeForce RTX 3060 VENTUS 2X 12G OC",
+        "sku": null,
+        "memoryGB": 12,
+        "revision": null
+      },
+      "answer": "This is the MSI VENTUS 2X 12G OC card, with a documented 235 × 124 × 42 mm body and one 8-pin power input. Non-OC and 8G versions remain separate records.",
+      "decision": "The published connector and dimensions make this a useful card-specific starting point for an upgrade plan. Inspect used-card condition and verify room around the cooler and cable. A small body does not prove a low-profile or OEM system fit.",
+      "verify": [
+        "Match the full 12G OC model name on the board or listing.",
+        "Check the case, mounting slots and PSU’s exact PCIe cable; CPU EPS cables are different."
+      ],
+      "reuse": "A current owner can keep this exact board in the builder while changing other components. Check comparable workload evidence before predicting gains from replacement.",
+      "facts": [
+        {
+          "key": "memoryCapacity",
+          "label": "Graphics memory",
+          "value": 12,
+          "unit": "GB",
+          "sourceId": "m3060",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "length",
+          "label": "Card length",
+          "value": 235,
+          "unit": "mm",
+          "sourceId": "m3060",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "height",
+          "label": "Card height",
+          "value": 124,
+          "unit": "mm",
+          "sourceId": "m3060",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "thickness",
+          "label": "Card thickness",
+          "value": 42,
+          "unit": "mm",
+          "sourceId": "m3060",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "powerConnector",
+          "label": "GPU power input",
+          "value": "1 × 8-pin",
+          "unit": "",
+          "sourceId": "m3060",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "boardPower",
+          "label": "Listed power consumption",
+          "value": 170,
+          "unit": "W",
+          "sourceId": "m3060",
+          "status": "manufacturer_specified",
+          "note": ""
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "retail-msi-geforce-rtx-3060-ventus-2x-8g-oc",
+          "reason": "Keep the separate 8 GB variant visible when checking a retailer listing."
+        },
+        {
+          "id": "retail-msi-geforce-rtx-3060-gaming-x-trio-12g",
+          "reason": "Compare a different 12 GB cooler design and its larger physical envelope."
+        }
+      ],
+      "guides": [
+        "will-a-graphics-card-fit-my-case",
+        "cpu-or-gpu-upgrade-for-gaming"
+      ],
+      "priority": {
+        "basis": "provisional",
+        "reason": "Existing catalog/starter-build coverage and a meaningful compatibility or upgrade decision; search demand unmeasured."
+      },
+      "editorial": {
+        "status": "evidence_checked",
+        "humanReview": "required",
+        "reviewer": null,
+        "publishedAt": null,
+        "preparedAt": "2026-10-09"
+      }
+    },
+    {
+      "id": "9800x3d",
+      "sourceIds": [
+        "cpu9800"
+      ],
+      "identity": {
+        "scope": "processor_model",
+        "manufacturer": "AMD",
+        "model": "Ryzen 7 9800X3D",
+        "sku": null,
+        "boxedPartNumber": "100-100001084WOF",
+        "trayPartNumber": "100-000001084",
+        "revision": null
+      },
+      "answer": "The Ryzen 7 9800X3D uses AM5 and DDR5. It is an eight-core processor, and the listed boxed package does not include a cooler.",
+      "decision": "For an existing AM5 owner, first check exact CPU support and installed BIOS, then compare evidence from your workload with the cost of changing just the processor. For an AM4 owner, include the motherboard, memory and cooling requirements in the platform budget.",
+      "verify": [
+        "An AM5 socket match does not establish the required BIOS version.",
+        "Verify cooler mounting, capacity and clearance for the exact case; motherboard memory configuration also matters."
+      ],
+      "reuse": "Keep compatible AM5 components when support is documented. Retain the current CPU if the observed problem is elsewhere or the upgrade benefit is not established.",
+      "facts": [
+        {
+          "key": "socket",
+          "label": "CPU socket",
+          "value": "AM5",
+          "unit": "",
+          "sourceId": "cpu9800",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "memoryType",
+          "label": "System memory type",
+          "value": "DDR5",
+          "unit": "",
+          "sourceId": "cpu9800",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "cores",
+          "label": "CPU cores",
+          "value": 8,
+          "unit": "",
+          "sourceId": "cpu9800",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "threads",
+          "label": "CPU threads",
+          "value": 16,
+          "unit": "",
+          "sourceId": "cpu9800",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "tdp",
+          "label": "Default TDP",
+          "value": 120,
+          "unit": "W",
+          "sourceId": "cpu9800",
+          "status": "manufacturer_specified",
+          "note": "TDP is not a measured whole-system draw."
+        },
+        {
+          "key": "cooler",
+          "label": "Boxed cooler",
+          "value": "Not included",
+          "unit": "",
+          "sourceId": "cpu9800",
+          "status": "manufacturer_specified",
+          "note": ""
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "7800x3d",
+          "reason": "Compare staying on an existing AM5 processor before replacing it."
+        },
+        {
+          "id": "5700x3d",
+          "reason": "Compare a documented AM4 reuse path with complete AM5 platform costs."
+        }
+      ],
+      "guides": [
+        "am5-upgrade-checklist",
+        "pc-upgrade-total-platform-cost"
+      ],
+      "priority": {
+        "basis": "provisional",
+        "reason": "Existing catalog/starter-build coverage and a meaningful compatibility or upgrade decision; search demand unmeasured."
+      },
+      "editorial": {
+        "status": "evidence_checked",
+        "humanReview": "required",
+        "reviewer": null,
+        "publishedAt": null,
+        "preparedAt": "2026-10-09"
+      }
+    },
+    {
+      "id": "7800x3d",
+      "sourceIds": [
+        "cpu7800"
+      ],
+      "identity": {
+        "scope": "processor_model",
+        "manufacturer": "AMD",
+        "model": "Ryzen 7 7800X3D",
+        "sku": null,
+        "revision": null
+      },
+      "answer": "The Ryzen 7 7800X3D is an eight-core AM5 processor with DDR5 support. AMD lists no cooler in the boxed package.",
+      "decision": "An existing owner should compare the actual workload limitation before replacing it with another AM5 CPU. A buyer should compare complete platform costs and exact motherboard support. This specification page cannot establish a game-specific improvement or a universal winner.",
+      "verify": [
+        "Read the motherboard’s exact CPU-support entry and required BIOS.",
+        "Check cooler mounting and memory population; an advertised kit profile is not the CPU’s guaranteed speed."
+      ],
+      "reuse": "Retaining this CPU and a documented compatible platform may leave more budget for the component that causes the observed limitation.",
+      "facts": [
+        {
+          "key": "socket",
+          "label": "CPU socket",
+          "value": "AM5",
+          "unit": "",
+          "sourceId": "cpu7800",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "memoryType",
+          "label": "System memory type",
+          "value": "DDR5",
+          "unit": "",
+          "sourceId": "cpu7800",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "cores",
+          "label": "CPU cores",
+          "value": 8,
+          "unit": "",
+          "sourceId": "cpu7800",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "threads",
+          "label": "CPU threads",
+          "value": 16,
+          "unit": "",
+          "sourceId": "cpu7800",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "tdp",
+          "label": "Default TDP",
+          "value": 120,
+          "unit": "W",
+          "sourceId": "cpu7800",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "cooler",
+          "label": "Boxed cooler",
+          "value": "Not included",
+          "unit": "",
+          "sourceId": "cpu7800",
+          "status": "manufacturer_specified",
+          "note": ""
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "9800x3d",
+          "reason": "Compare a different AM5 CPU using like-for-like workload evidence."
+        },
+        {
+          "id": "5600",
+          "reason": "Compare an existing AM4 setup without equating sockets or memory generations."
+        }
+      ],
+      "guides": [
+        "am5-upgrade-checklist",
+        "cpu-or-gpu-upgrade-for-gaming"
+      ],
+      "priority": {
+        "basis": "provisional",
+        "reason": "Existing catalog/starter-build coverage and a meaningful compatibility or upgrade decision; search demand unmeasured."
+      },
+      "editorial": {
+        "status": "evidence_checked",
+        "humanReview": "required",
+        "reviewer": null,
+        "publishedAt": null,
+        "preparedAt": "2026-10-09"
+      }
+    },
+    {
+      "id": "5600",
+      "sourceIds": [
+        "cpu5600"
+      ],
+      "identity": {
+        "scope": "processor_model",
+        "manufacturer": "AMD",
+        "model": "Ryzen 5 5600",
+        "sku": null,
+        "revision": null
+      },
+      "answer": "The Ryzen 5 5600 uses AM4 and DDR4 and requires discrete graphics. AMD lists a Wraith Stealth cooler for the processor-in-box package; a tray listing may have different contents.",
+      "decision": "Start with the exact motherboard support list for an existing AM4 upgrade. For a new build, compare the complete platform bill rather than CPU prices alone. A supported CPU on an older board can be a useful reuse choice without replacing working memory.",
+      "verify": [
+        "Confirm the motherboard model, revision and installed BIOS against the support entry.",
+        "The motherboard display outputs cannot replace a graphics card for this CPU."
+      ],
+      "reuse": "A functioning AM4 system can remain useful. Decide from the workload and measured symptom before replacing the platform solely because it is older.",
+      "facts": [
+        {
+          "key": "socket",
+          "label": "CPU socket",
+          "value": "AM4",
+          "unit": "",
+          "sourceId": "cpu5600",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "memoryType",
+          "label": "System memory type",
+          "value": "DDR4",
+          "unit": "",
+          "sourceId": "cpu5600",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "cores",
+          "label": "CPU cores",
+          "value": 6,
+          "unit": "",
+          "sourceId": "cpu5600",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "threads",
+          "label": "CPU threads",
+          "value": 12,
+          "unit": "",
+          "sourceId": "cpu5600",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "tdp",
+          "label": "Default TDP",
+          "value": 65,
+          "unit": "W",
+          "sourceId": "cpu5600",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "graphics",
+          "label": "Display requirement",
+          "value": "Discrete graphics required",
+          "unit": "",
+          "sourceId": "cpu5600",
+          "status": "manufacturer_specified",
+          "note": ""
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "5700x3d",
+          "reason": "Investigate another AM4 CPU only after checking exact board and BIOS support."
+        },
+        {
+          "id": "9800x3d",
+          "reason": "Compare a complete AM5 replacement platform, including new memory."
+        }
+      ],
+      "guides": [
+        "cpu-or-gpu-upgrade-for-gaming",
+        "pc-upgrade-total-platform-cost"
+      ],
+      "priority": {
+        "basis": "provisional",
+        "reason": "Existing catalog/starter-build coverage and a meaningful compatibility or upgrade decision; search demand unmeasured."
+      },
+      "editorial": {
+        "status": "evidence_checked",
+        "humanReview": "required",
+        "reviewer": null,
+        "publishedAt": null,
+        "preparedAt": "2026-10-09"
+      }
+    },
+    {
+      "id": "5700x3d",
+      "sourceIds": [
+        "cpu5700"
+      ],
+      "identity": {
+        "scope": "processor_model",
+        "manufacturer": "AMD",
+        "model": "Ryzen 7 5700X3D",
+        "sku": null,
+        "boxedPartNumber": "100-100001503WOF",
+        "revision": null
+      },
+      "answer": "The Ryzen 7 5700X3D is an eight-core AM4/DDR4 processor. It requires a graphics card, and AMD lists no cooler in the boxed package.",
+      "decision": "For an AM4 owner, compare a supported CPU swap with the full cost of a new platform. The motherboard’s exact CPU support, installed firmware and cooler determine whether a processor-only change is feasible. More cache is not a universal FPS guarantee.",
+      "verify": [
+        "Verify the exact motherboard revision and minimum BIOS for this CPU.",
+        "Review the cooler’s AM4 mount, thermal suitability and clearance; include missing mounting hardware in the budget."
+      ],
+      "reuse": "Retain supported memory, storage and the case when their requirements are satisfied. Keep the current CPU if the actual limitation does not justify this change.",
+      "facts": [
+        {
+          "key": "socket",
+          "label": "CPU socket",
+          "value": "AM4",
+          "unit": "",
+          "sourceId": "cpu5700",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "memoryType",
+          "label": "System memory type",
+          "value": "DDR4",
+          "unit": "",
+          "sourceId": "cpu5700",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "cores",
+          "label": "CPU cores",
+          "value": 8,
+          "unit": "",
+          "sourceId": "cpu5700",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "threads",
+          "label": "CPU threads",
+          "value": 16,
+          "unit": "",
+          "sourceId": "cpu5700",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "tdp",
+          "label": "Default TDP",
+          "value": 105,
+          "unit": "W",
+          "sourceId": "cpu5700",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "cooler",
+          "label": "Boxed cooler",
+          "value": "Not included",
+          "unit": "",
+          "sourceId": "cpu5700",
+          "status": "manufacturer_specified",
+          "note": ""
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "5600",
+          "reason": "Compare retaining a lower-power existing AM4 CPU for the observed workload."
+        },
+        {
+          "id": "9800x3d",
+          "reason": "Calculate the motherboard, DDR5 and cooling implications of replacing the platform."
+        }
+      ],
+      "guides": [
+        "cpu-or-gpu-upgrade-for-gaming",
+        "pc-upgrade-total-platform-cost"
+      ],
+      "priority": {
+        "basis": "provisional",
+        "reason": "Existing catalog/starter-build coverage and a meaningful compatibility or upgrade decision; search demand unmeasured."
+      },
+      "editorial": {
+        "status": "evidence_checked",
+        "humanReview": "required",
+        "reviewer": null,
+        "publishedAt": null,
+        "preparedAt": "2026-10-09"
+      }
+    },
+    {
+      "id": "b650",
+      "sourceIds": [
+        "b650"
+      ],
+      "identity": {
+        "scope": "named_motherboard",
+        "manufacturer": "MSI",
+        "model": "MAG B650 TOMAHAWK WIFI",
+        "sku": null,
+        "revision": null
+      },
+      "answer": "The MAG B650 TOMAHAWK WIFI is an ATX AM5 board with DDR5 slots. Its three M.2 positions do not all behave independently of the CPU and expansion slots.",
+      "decision": "MSI documents bandwidth sharing between M2_3 and PCI_E2: with both populated, each runs at x2. M2_2 is unavailable with the listed Ryzen 8500/8300 processor groups. Plan the actual occupied slots before treating a slot count as a compatibility verdict.",
+      "verify": [
+        "Check the exact processor’s support-list entry and BIOS; a series-level support statement is insufficient.",
+        "The maximum memory total and overclocked speed depend on CPU, BIOS and DIMM configuration."
+      ],
+      "reuse": "Keep this board for a documented supported upgrade. A newer chipset is not itself a reason to replace a board whose connections meet your needs.",
+      "facts": [
+        {
+          "key": "socket",
+          "label": "CPU socket",
+          "value": "AM5",
+          "unit": "",
+          "sourceId": "b650",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "memoryType",
+          "label": "Memory type",
+          "value": "DDR5",
+          "unit": "",
+          "sourceId": "b650",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "formFactor",
+          "label": "Board form factor",
+          "value": "ATX",
+          "unit": "",
+          "sourceId": "b650",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "dimmSlots",
+          "label": "Memory slots",
+          "value": 4,
+          "unit": "",
+          "sourceId": "b650",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "m2Slots",
+          "label": "M.2 positions",
+          "value": 3,
+          "unit": "",
+          "sourceId": "b650",
+          "status": "manufacturer_specified",
+          "note": "CPU and occupied-slot conditions apply."
+        },
+        {
+          "key": "sataPorts",
+          "label": "SATA ports",
+          "value": 6,
+          "unit": "",
+          "sourceId": "b650",
+          "status": "manufacturer_specified",
+          "note": ""
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "b850tomahawk",
+          "reason": "Compare the specific connection and slot differences, rather than assuming a faster CPU."
+        }
+      ],
+      "guides": [
+        "b650-tomahawk-m2-pcie-lane-sharing",
+        "choose-a-motherboard-for-your-cpu"
+      ],
+      "priority": {
+        "basis": "provisional",
+        "reason": "Existing catalog/starter-build coverage and a meaningful compatibility or upgrade decision; search demand unmeasured."
+      },
+      "editorial": {
+        "status": "evidence_checked",
+        "humanReview": "required",
+        "reviewer": null,
+        "publishedAt": null,
+        "preparedAt": "2026-10-09"
+      }
+    },
+    {
+      "id": "b850tomahawk",
+      "sourceIds": [
+        "b850"
+      ],
+      "identity": {
+        "scope": "named_motherboard",
+        "manufacturer": "MSI",
+        "model": "MAG B850 TOMAHAWK MAX WIFI",
+        "sku": null,
+        "revision": null
+      },
+      "answer": "The MAG B850 TOMAHAWK MAX WIFI is the AM5/DDR5 MAX WIFI model. Do not transfer B650 TOMAHAWK slot-sharing rules to it.",
+      "decision": "MSI lists four M.2 positions. Installing a drive in M2_3 leaves PCI_E3 at x2; switching PCI_E3 to x4 in BIOS disables M2_3. CPU groups also change lane capabilities. Check this conditional configuration when planning extra expansion cards and storage.",
+      "verify": [
+        "Verify the exact CPU support entry, installed BIOS and memory configuration.",
+        "Follow the manual’s M.2 heatsink restrictions; body dimensions do not establish accessory clearance."
+      ],
+      "reuse": "Buy or retain this board for connections you will use. Its chipset name alone does not establish a performance improvement over an already suitable board.",
+      "facts": [
+        {
+          "key": "socket",
+          "label": "CPU socket",
+          "value": "AM5",
+          "unit": "",
+          "sourceId": "b850",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "memoryType",
+          "label": "Memory type",
+          "value": "DDR5",
+          "unit": "",
+          "sourceId": "b850",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "formFactor",
+          "label": "Board form factor",
+          "value": "ATX",
+          "unit": "",
+          "sourceId": "b850",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "dimmSlots",
+          "label": "Memory slots",
+          "value": 4,
+          "unit": "",
+          "sourceId": "b850",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "m2Slots",
+          "label": "M.2 positions",
+          "value": 4,
+          "unit": "",
+          "sourceId": "b850",
+          "status": "manufacturer_specified",
+          "note": "Slot speed and availability are conditional."
+        },
+        {
+          "key": "sataPorts",
+          "label": "SATA ports",
+          "value": 4,
+          "unit": "",
+          "sourceId": "b850",
+          "status": "manufacturer_specified",
+          "note": ""
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "b650",
+          "reason": "Compare the exact features and sharing rules on a different AM5 board."
+        }
+      ],
+      "guides": [
+        "am5-upgrade-checklist",
+        "choose-a-motherboard-for-your-cpu"
+      ],
+      "priority": {
+        "basis": "provisional",
+        "reason": "Existing catalog/starter-build coverage and a meaningful compatibility or upgrade decision; search demand unmeasured."
+      },
+      "editorial": {
+        "status": "evidence_checked",
+        "humanReview": "required",
+        "reviewer": null,
+        "publishedAt": null,
+        "preparedAt": "2026-10-09"
+      }
+    },
+    {
+      "id": "ddr4",
+      "sourceIds": [
+        "ram4"
+      ],
+      "identity": {
+        "scope": "memory_kit",
+        "manufacturer": "CORSAIR",
+        "model": "VENGEANCE LPX DDR4-3200 CL16",
+        "sku": "CMK32GX4M2E3200C16",
+        "memoryGB": 32,
+        "modules": 2,
+        "revision": null
+      },
+      "answer": "CMK32GX4M2E3200C16 is a black 32 GB kit containing two 16 GB DDR4 UDIMMs. Its 3200 MT/s CL16 specification is an XMP profile.",
+      "decision": "Match the kit’s generation, total capacity and module count to the board and CPU. Use the motherboard manual’s recommended two-DIMM positions. The rated profile requires firmware settings and depends on the system; it is not the power-on speed of every PC.",
+      "verify": [
+        "DDR4 cannot be substituted into DDR5 slots.",
+        "Check this exact part number and module configuration in support evidence; adding a second kit is not equivalent to a factory-tested four-module kit."
+      ],
+      "reuse": "Retain the kit when supported and capacity is sufficient. Measure memory pressure before buying capacity that your workload does not need.",
+      "facts": [
+        {
+          "key": "memoryCapacity",
+          "label": "Kit capacity",
+          "value": 32,
+          "unit": "GB",
+          "sourceId": "ram4",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "modules",
+          "label": "Modules",
+          "value": 2,
+          "unit": "",
+          "sourceId": "ram4",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "memoryType",
+          "label": "Memory type",
+          "value": "DDR4 UDIMM",
+          "unit": "",
+          "sourceId": "ram4",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "transferRate",
+          "label": "Rated transfer rate",
+          "value": 3200,
+          "unit": "MT/s",
+          "sourceId": "ram4",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "casLatency",
+          "label": "Rated CAS latency",
+          "value": 16,
+          "unit": "cycles",
+          "sourceId": "ram4",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "profile",
+          "label": "Profile",
+          "value": "XMP 2.0",
+          "unit": "",
+          "sourceId": "ram4",
+          "status": "manufacturer_specified",
+          "note": ""
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "ddr5",
+          "reason": "Review a different generation only as part of a supported platform change."
+        }
+      ],
+      "guides": [
+        "how-to-choose-gaming-ram",
+        "understanding-pc-memory"
+      ],
+      "priority": {
+        "basis": "provisional",
+        "reason": "Existing catalog/starter-build coverage and a meaningful compatibility or upgrade decision; search demand unmeasured."
+      },
+      "editorial": {
+        "status": "evidence_checked",
+        "humanReview": "required",
+        "reviewer": null,
+        "publishedAt": null,
+        "preparedAt": "2026-10-09"
+      }
+    },
+    {
+      "id": "ddr5",
+      "sourceIds": [
+        "ram5"
+      ],
+      "identity": {
+        "scope": "memory_kit",
+        "manufacturer": "CORSAIR",
+        "model": "VENGEANCE DDR5-6000 CL30",
+        "sku": "CMK32GX5M2B6000C30",
+        "memoryGB": 32,
+        "modules": 2,
+        "revision": null
+      },
+      "answer": "CMK32GX5M2B6000C30 is the black two-module 32 GB DDR5 kit with an Intel XMP profile. A similarly named EXPO kit is a different part number.",
+      "decision": "Match the exact SKU to the CPU, board support evidence and DIMM population. CORSAIR lists 6000 MT/s CL30 at 1.40 V as the tested profile. It does not guarantee that every board and CPU will run that profile.",
+      "verify": [
+        "Check the motherboard’s memory configuration and firmware instructions before enabling a profile.",
+        "DDR5 does not fit DDR4 slots; a platform change must include the right generation."
+      ],
+      "reuse": "Keep existing supported DDR5 if capacity and stability are adequate. Treat a profile change as a setting to test, not a reason to assume every game gains FPS.",
+      "facts": [
+        {
+          "key": "memoryCapacity",
+          "label": "Kit capacity",
+          "value": 32,
+          "unit": "GB",
+          "sourceId": "ram5",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "modules",
+          "label": "Modules",
+          "value": 2,
+          "unit": "",
+          "sourceId": "ram5",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "memoryType",
+          "label": "Memory type",
+          "value": "DDR5 UDIMM",
+          "unit": "",
+          "sourceId": "ram5",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "transferRate",
+          "label": "Rated transfer rate",
+          "value": 6000,
+          "unit": "MT/s",
+          "sourceId": "ram5",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "casLatency",
+          "label": "Rated CAS latency",
+          "value": 30,
+          "unit": "cycles",
+          "sourceId": "ram5",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "profile",
+          "label": "Profile",
+          "value": "Intel XMP",
+          "unit": "",
+          "sourceId": "ram5",
+          "status": "manufacturer_specified",
+          "note": ""
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "crucialpro6000",
+          "reason": "Compare another exact kit and its supported profile before ordering."
+        },
+        {
+          "id": "ddr4",
+          "reason": "Keep a supported DDR4 kit for an AM4 reuse plan rather than forcing a generation change."
+        }
+      ],
+      "guides": [
+        "how-to-choose-gaming-ram",
+        "understanding-pc-memory"
+      ],
+      "priority": {
+        "basis": "provisional",
+        "reason": "Existing catalog/starter-build coverage and a meaningful compatibility or upgrade decision; search demand unmeasured."
+      },
+      "editorial": {
+        "status": "evidence_checked",
+        "humanReview": "required",
+        "reviewer": null,
+        "publishedAt": null,
+        "preparedAt": "2026-10-09"
+      }
+    },
+    {
+      "id": "990pro",
+      "sourceIds": [
+        "s990"
+      ],
+      "identity": {
+        "scope": "storage_capacity_variant",
+        "manufacturer": "Samsung",
+        "model": "990 PRO 1 TB",
+        "sku": "MZ-V9P1T0BW",
+        "region": "UK source SKU",
+        "revision": null
+      },
+      "answer": "The documented 990 PRO 1 TB SKU is an M.2 2280 NVMe drive with PCIe 4.0 ×4. It needs an appropriate PCIe M.2 position, not a SATA-only M.2 connection.",
+      "decision": "Samsung’s maximum sequential rates describe a particular transfer workload, not a game-loading or FPS result. For an upgrade, separate insufficient space from a speed complaint. Check occupied slots, lane-sharing notes and heatsink clearance before adding the drive.",
+      "verify": [
+        "Confirm the exact 1 TB non-heatsink SKU and regional warranty at purchase.",
+        "Use Samsung’s official tools for health/firmware checks and back up important data before changes."
+      ],
+      "reuse": "Retain an existing working SSD if space and workload needs are met. A secondary drive can add capacity without discarding the boot drive.",
+      "facts": [
+        {
+          "key": "capacity",
+          "label": "Nominal capacity",
+          "value": 1000,
+          "unit": "GB",
+          "sourceId": "s990",
+          "status": "manufacturer_specified",
+          "note": "Decimal capacity; formatted usable space is lower."
+        },
+        {
+          "key": "formFactor",
+          "label": "Form factor",
+          "value": "M.2 2280",
+          "unit": "",
+          "sourceId": "s990",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "interface",
+          "label": "Interface",
+          "value": "PCIe 4.0 ×4 / NVMe 2.0",
+          "unit": "",
+          "sourceId": "s990",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "read",
+          "label": "Advertised sequential read",
+          "value": 7450,
+          "unit": "MB/s",
+          "sourceId": "s990",
+          "status": "manufacturer_specified",
+          "note": "Up to; varies by workload and system."
+        },
+        {
+          "key": "write",
+          "label": "Advertised sequential write",
+          "value": 6900,
+          "unit": "MB/s",
+          "sourceId": "s990",
+          "status": "manufacturer_specified",
+          "note": "Up to; not sustained write proof."
+        },
+        {
+          "key": "endurance",
+          "label": "Rated endurance",
+          "value": 600,
+          "unit": "TBW",
+          "sourceId": "s990",
+          "status": "manufacturer_specified",
+          "note": "A warranty threshold, not a prediction of failure time."
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "samsung870evo",
+          "reason": "Compare a SATA form factor for a system without a suitable PCIe M.2 slot."
+        },
+        {
+          "id": "sn850x",
+          "reason": "Compare another NVMe model with exact capacity, heatsink and SKU specified."
+        }
+      ],
+      "guides": [
+        "nvme-vs-sata-ssd-for-gaming",
+        "choosing-an-ssd"
+      ],
+      "priority": {
+        "basis": "provisional",
+        "reason": "Existing catalog/starter-build coverage and a meaningful compatibility or upgrade decision; search demand unmeasured."
+      },
+      "editorial": {
+        "status": "evidence_checked",
+        "humanReview": "required",
+        "reviewer": null,
+        "publishedAt": null,
+        "preparedAt": "2026-10-09"
+      }
+    },
+    {
+      "id": "samsung870evo",
+      "sourceIds": [
+        "s870"
+      ],
+      "identity": {
+        "scope": "storage_capacity_family",
+        "manufacturer": "Samsung",
+        "model": "870 EVO 1 TB",
+        "sku": null,
+        "documentedExampleSKU": "MZ-77E1T0B/AM",
+        "region": null,
+        "revision": null
+      },
+      "answer": "The 870 EVO 1 TB is a 2.5-inch SATA SSD. This catalog record does not specify a regional SKU; the linked Samsung US page documents MZ-77E1T0B/AM.",
+      "decision": "A SATA SSD can be a useful capacity choice when a system lacks a suitable NVMe slot or when existing bays and cables are available. Compare delivered prices and the actual workload rather than converting maximum sequential rates into game FPS.",
+      "verify": [
+        "Check an available 2.5-inch mount, SATA data connection and PSU SATA power cable.",
+        "Verify the regional SKU and warranty; a SATA SSD is not an M.2 NVMe device."
+      ],
+      "reuse": "Keep a functioning SATA SSD for storage or the current OS when it still meets your needs. Moving to NVMe does not require discarding usable storage.",
+      "facts": [
+        {
+          "key": "capacity",
+          "label": "Nominal capacity",
+          "value": 1000,
+          "unit": "GB",
+          "sourceId": "s870",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "formFactor",
+          "label": "Form factor",
+          "value": "2.5-inch",
+          "unit": "",
+          "sourceId": "s870",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "interface",
+          "label": "Interface",
+          "value": "SATA",
+          "unit": "",
+          "sourceId": "s870",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "read",
+          "label": "Advertised sequential read",
+          "value": 560,
+          "unit": "MB/s",
+          "sourceId": "s870",
+          "status": "manufacturer_specified",
+          "note": "Up to."
+        },
+        {
+          "key": "write",
+          "label": "Advertised sequential write",
+          "value": 530,
+          "unit": "MB/s",
+          "sourceId": "s870",
+          "status": "manufacturer_specified",
+          "note": "Up to."
+        },
+        {
+          "key": "regionalSKU",
+          "label": "Catalog regional SKU",
+          "value": null,
+          "unit": "",
+          "sourceId": "s870",
+          "status": "unknown",
+          "note": ""
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "990pro",
+          "reason": "Compare an NVMe drive only when a suitable PCIe M.2 slot and clearance are available."
+        }
+      ],
+      "guides": [
+        "nvme-vs-sata-ssd-for-gaming",
+        "choosing-an-ssd"
+      ],
+      "priority": {
+        "basis": "provisional",
+        "reason": "Existing catalog/starter-build coverage and a meaningful compatibility or upgrade decision; search demand unmeasured."
+      },
+      "editorial": {
+        "status": "evidence_checked",
+        "humanReview": "required",
+        "reviewer": null,
+        "publishedAt": null,
+        "preparedAt": "2026-10-09"
+      }
+    },
+    {
+      "id": "rm850x",
+      "sourceIds": [
+        "rmx"
+      ],
+      "identity": {
+        "scope": "psu_revision",
+        "manufacturer": "CORSAIR",
+        "model": "RM850x",
+        "revision": "2021",
+        "sku": null,
+        "documentedPartNumber": "CP-9020200",
+        "modelCode": "RPS0124"
+      },
+      "answer": "This RM850x record is the 2021 revision, model RPS0124 / base part CP-9020200. It is separate from later RM850x designs and SHIFT models.",
+      "decision": "Its 850 W rating is output capacity, not a reading of wall power or a guarantee for any GPU. The manual documents a 160 mm body length and the supplied cable set. Include connector requirements and cable space when reusing it.",
+      "verify": [
+        "Use only the included DC cables or replacements that CORSAIR explicitly confirms for this exact cable type.",
+        "Verify the intended GPU adapter/cable against PSU and GPU documentation; do not interchange EPS and PCIe connectors."
+      ],
+      "reuse": "A retained PSU needs an exact model, condition and cable check. Replacement may be unnecessary when those checks satisfy the new build; wattage alone cannot establish that.",
+      "facts": [
+        {
+          "key": "ratedOutput",
+          "label": "Rated output",
+          "value": 850,
+          "unit": "W",
+          "sourceId": "rmx",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "modelCode",
+          "label": "Model code",
+          "value": "RPS0124",
+          "unit": "",
+          "sourceId": "rmx",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "length",
+          "label": "PSU body length",
+          "value": 160,
+          "unit": "mm",
+          "sourceId": "rmx",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "width",
+          "label": "PSU body width",
+          "value": 150,
+          "unit": "mm",
+          "sourceId": "rmx",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "height",
+          "label": "PSU body height",
+          "value": 86,
+          "unit": "mm",
+          "sourceId": "rmx",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "fanSize",
+          "label": "Fan size",
+          "value": 140,
+          "unit": "mm",
+          "sourceId": "rmx",
+          "status": "manufacturer_specified",
+          "note": "2021 series introduction; source-checked correction of the inherited field."
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "focusgx850",
+          "reason": "Compare exact revision and cables before considering another similarly rated supply."
+        }
+      ],
+      "guides": [
+        "choose-a-pc-power-supply",
+        "pc-build-compatibility-checklist"
+      ],
+      "priority": {
+        "basis": "provisional",
+        "reason": "Existing catalog/starter-build coverage and a meaningful compatibility or upgrade decision; search demand unmeasured."
+      },
+      "editorial": {
+        "status": "evidence_checked",
+        "humanReview": "required",
+        "reviewer": null,
+        "publishedAt": null,
+        "preparedAt": "2026-10-09"
+      }
+    },
+    {
+      "id": "retail-corsair-4000d-black",
+      "sourceIds": [
+        "c4000"
+      ],
+      "identity": {
+        "scope": "case_sku",
+        "manufacturer": "CORSAIR",
+        "model": "4000D Black",
+        "sku": "CC-9011198-WW",
+        "revision": "original solid-front design"
+      },
+      "answer": "CC-9011198-WW is the original black 4000D with a solid front panel. It is not the 4000D Airflow or FRAME 4000D.",
+      "decision": "CORSAIR lists 360 mm maximum GPU length and 170 mm CPU-cooler height. Treat these as manufacturer limits for the documented case configuration. Installed radiators, drive cages and cables can affect the useful space; a 3D preview cannot verify those interactions.",
+      "verify": [
+        "Check the exact panel/SKU and the manual’s radiator positions with planned parts.",
+        "Include PSU cable routing and storage-bay occupancy when evaluating a longer power supply."
+      ],
+      "reuse": "Retain a case when the board, cooling and expansion layout still meet the planned build. A new case should solve a documented fit or usability need.",
+      "facts": [
+        {
+          "key": "gpuLength",
+          "label": "Listed maximum GPU length",
+          "value": 360,
+          "unit": "mm",
+          "sourceId": "c4000",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "coolerHeight",
+          "label": "Listed CPU-cooler height",
+          "value": 170,
+          "unit": "mm",
+          "sourceId": "c4000",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "psuLength",
+          "label": "Listed maximum PSU length",
+          "value": 220,
+          "unit": "mm",
+          "sourceId": "c4000",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "height",
+          "label": "Case height",
+          "value": 466,
+          "unit": "mm",
+          "sourceId": "c4000",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "depth",
+          "label": "Case depth",
+          "value": 453,
+          "unit": "mm",
+          "sourceId": "c4000",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "width",
+          "label": "Case width",
+          "value": 230,
+          "unit": "mm",
+          "sourceId": "c4000",
+          "status": "manufacturer_specified",
+          "note": ""
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "x-case-corsair-4000d-airflow",
+          "reason": "Inspect the separately named Airflow design rather than treating it as this SKU."
+        },
+        {
+          "id": "retail-lian-li-o11-air-mini-black",
+          "reason": "Compare another documented layout with your exact board and cooling requirements."
+        }
+      ],
+      "guides": [
+        "will-a-graphics-card-fit-my-case",
+        "pc-build-compatibility-checklist"
+      ],
+      "priority": {
+        "basis": "provisional",
+        "reason": "Existing catalog/starter-build coverage and a meaningful compatibility or upgrade decision; search demand unmeasured."
+      },
+      "editorial": {
+        "status": "evidence_checked",
+        "humanReview": "required",
+        "reviewer": null,
+        "publishedAt": null,
+        "preparedAt": "2026-10-09"
+      }
+    },
+    {
+      "id": "barracuda2",
+      "sourceIds": [
+        "seagate"
+      ],
+      "identity": {
+        "scope": "storage_model",
+        "manufacturer": "Seagate",
+        "model": "BarraCuda 2 TB ST2000DM008",
+        "sku": "ST2000DM008",
+        "revision": null
+      },
+      "answer": "This catalog record identifies the ST2000DM008 2 TB BarraCuda: a 3.5-inch SATA drive rated at 7200 RPM with a 256 MB cache. Other 2 TB BarraCuda model numbers differ.",
+      "decision": "Confirm ST2000DM008 on the drive label when matching a retailer offer or reusing a disk. Seagate lists other 2 TB models with different spindle speeds or caches, so a capacity-only listing is insufficient. Capacity and RPM do not establish game performance or remaining drive life.",
+      "verify": [
+        "Match the exact model number, not only the BarraCuda name or capacity.",
+        "Check a 3.5-inch mount, SATA data port and correct PSU power cable; assess drive health and keep backups."
+      ],
+      "reuse": "A healthy existing HDD can remain bulk storage when the workload allows. Check whether more capacity or a different storage workload justifies a change before replacing usable storage.",
+      "facts": [
+        {
+          "key": "capacity",
+          "label": "Nominal capacity",
+          "value": 2000,
+          "unit": "GB",
+          "sourceId": "seagate",
+          "status": "manufacturer_specified",
+          "note": "Decimal capacity; formatted usable space is lower."
+        },
+        {
+          "key": "interface",
+          "label": "Interface",
+          "value": "SATA 6 Gb/s",
+          "unit": "",
+          "sourceId": "seagate",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "formFactor",
+          "label": "Form factor",
+          "value": "3.5-inch",
+          "unit": "",
+          "sourceId": "seagate",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "sku",
+          "label": "Model number",
+          "value": "ST2000DM008",
+          "unit": "",
+          "sourceId": "seagate",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "spindleSpeed",
+          "label": "Spindle speed",
+          "value": 7200,
+          "unit": "RPM",
+          "sourceId": "seagate",
+          "status": "manufacturer_specified",
+          "note": ""
+        },
+        {
+          "key": "driveCache",
+          "label": "Drive cache",
+          "value": 256,
+          "unit": "MB",
+          "sourceId": "seagate",
+          "status": "manufacturer_specified",
+          "note": ""
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "samsung870evo",
+          "reason": "Compare a SATA SSD capacity option when the mounting and cable requirements are satisfied."
+        },
+        {
+          "id": "990pro",
+          "reason": "Consider NVMe separately when the board has a suitable documented slot."
+        }
+      ],
+      "guides": [
+        "choosing-an-ssd",
+        "nvme-vs-sata-ssd-for-gaming"
+      ],
+      "priority": {
+        "basis": "provisional",
+        "reason": "Existing catalog/starter-build coverage and a meaningful compatibility or upgrade decision; search demand unmeasured."
+      },
+      "editorial": {
+        "status": "evidence_checked",
+        "humanReview": "required",
+        "reviewer": null,
+        "publishedAt": null,
+        "preparedAt": "2026-10-09"
+      }
+    }
+  ]
+}

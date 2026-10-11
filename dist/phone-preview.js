@@ -18,10 +18,13 @@
    const bar=document.createElement('div');bar.className='phone-view-controls';bar.hidden=true;bar.setAttribute('role','group');bar.setAttribute('aria-label',model.name+' viewing angles');
    const help=document.createElement('p');help.className='phone-view-help';help.hidden=true;help.textContent='Drag to rotate · Pinch to zoom';
    const status=document.createElement('p');status.className='phone-view-status';status.setAttribute('role','status');
-   const credit=document.createElement('details');credit.className='phone-model-credit';credit.hidden=true;const summary=document.createElement('summary');summary.textContent='Model credits';const link=document.createElement('a');link.href=model.sourceUrl;link.target='_blank';link.rel='noopener noreferrer';link.textContent=model.title+' by '+model.creator;const license=document.createElement('a');license.href='https://creativecommons.org/licenses/by/4.0/';license.target='_blank';license.rel='noopener noreferrer';license.textContent=model.license;credit.append(summary,link,document.createTextNode(' · '),license,document.createTextNode('. Optimized for the web; appearance does not certify fit. '+(model.note||'')));
+   const credit=document.createElement('details');credit.className='phone-model-credit';const summary=document.createElement('summary');summary.textContent='Creator credits';const link=document.createElement('a');link.href=model.sourceUrl;link.target='_blank';link.rel='noopener noreferrer';link.textContent=model.title+' by '+model.creator;const license=document.createElement('a');license.href=model.licenseUrl||'https://creativecommons.org/licenses/by/4.0/';license.target='_blank';license.rel='noopener noreferrer';license.textContent=model.license;credit.append(summary,link,document.createTextNode(' · '),license,document.createTextNode('. '+(model.changes||'Optimized for the web.')+' '+(model.note||'Appearance preview; not certified fit geometry.')));
+   // Keep all attribution content in an element; raw text nodes escape native
+   // collapsed-details hiding when inherited layouts change its display type.
+   const creditBody=document.createElement('p');while(summary.nextSibling)creditBody.append(summary.nextSibling);credit.append(creditBody);
    let scene=null,generation=0;
-   const close=()=>{generation++;scene?.dispose();scene=null;stage.replaceChildren();stage.hidden=bar.hidden=help.hidden=credit.hidden=true;if(image)image.hidden=false;open.hidden=false;open.disabled=false;open.textContent='View in 3D';status.textContent='';host.removeAttribute('aria-busy')};
-   views.set(host,{close});
+   const close=()=>{generation++;scene?.dispose();scene=null;stage.replaceChildren();stage.hidden=bar.hidden=help.hidden=true;credit.hidden=false;if(image)image.hidden=false;open.hidden=false;open.disabled=false;open.textContent='View in 3D';status.textContent='';host.removeAttribute('aria-busy')};
+   views.set(host,{close,setView:value=>{if(scene){scene.setView(value);for(const b of bar.children)b.setAttribute('aria-pressed','false')}}});
    for(const angle of ['Front','Back','Side','Reset','Photo']){const b=document.createElement('button');b.type='button';b.textContent=angle;b.setAttribute('aria-label',angle==='Photo'?'Return to '+model.name+' photo':angle+' view of '+model.name);b.addEventListener('click',()=>{if(angle==='Photo'){close();open.focus()}else{scene?.pose(angle.toLowerCase());for(const x of bar.children)x.setAttribute('aria-pressed',String(x===b))}});bar.append(b)}
    host.append(open,stage,bar,help,status,credit);
    open.addEventListener('click',async()=>{
@@ -29,7 +32,7 @@
     try{
      const lib=await library();if(run!==generation||!host.isConnected)return;
      if(image)image.hidden=true;stage.hidden=false;
-     const loaded=await lib.createPhoneScene(stage,model,()=>{close();status.textContent='3D is unavailable on this device. The photo and specifications are still available.'});
+     const loaded=await lib.createPhoneScene(stage,model,()=>{close();status.textContent='3D is unavailable on this device. The photo and specifications are still available.'},camera=>{if(document.querySelector('[data-phone-linked]')?.checked)document.dispatchEvent(new CustomEvent('pcp:phone-camera',{detail:{host,camera}}))});
      if(run!==generation||!host.isConnected){loaded.dispose();return}
      scene=loaded;bar.hidden=help.hidden=credit.hidden=false;open.hidden=true;host.removeAttribute('aria-busy');status.textContent='';for(const [i,b]of [...bar.children].entries())b.setAttribute('aria-pressed',String(i===3));stage.querySelector('canvas').focus({preventScroll:true});
     }catch{if(run===generation){close();status.textContent='Could not load 3D. Try again or use the product photo.'}}
@@ -38,6 +41,7 @@
  }
  document.addEventListener('pcp:render',mount);document.addEventListener('pcp:phone-selection',mount);
  new MutationObserver(disposeRemoved).observe(document.body,{childList:true,subtree:true});
+ document.addEventListener('pcp:phone-camera',event=>{if(!document.querySelector('[data-phone-linked]')?.checked)return;for(const [host,v]of views)if(host!==event.detail.host)v.setView(event.detail.camera)});
  window.addEventListener('pagehide',()=>{for(const v of views.values())v.close()});
  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',mount);else mount();
 })();

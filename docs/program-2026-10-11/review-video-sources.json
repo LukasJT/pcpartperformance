@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-11",
+  "method": "Inspected the original publishers' YouTube title, channel, publication-date and description metadata exposed by the web reader. For each GPU review, also inspected GamersNexus's original written adaptation, its video-date note and its tested model. No reposts or third-party performance summaries were used as evidence.",
+  "accessLimit": "Direct YouTube watch-page reads returned the title and footer; indexed original YouTube descriptions provided the channel, exact date and disclosures. Playback, embedding permission, availability in each region and the current in-player paid-promotion label were not tested.",
+  "consumerRule": "Show the component-only label, tested model, original publication date and limitations beside each prebuilt video. These are historical component reviews, not current-price advice or reviews of the linked complete PCs. Load a YouTube player only after the visitor clicks; retain the original watch link if embedding fails.",
+  "defaultPhonePair": ["iphone-16", "pixel-9"],
+  "prebuiltReviews": [
+    {
+      "id": "gn-rtx-5060-2025",
+      "title": "Forbidden Review: NVIDIA RTX 5060 GPU Benchmarks",
+      "channel": "Gamers Nexus",
+      "url": "https://www.youtube.com/watch?v=Z0jjxWRcp_0",
+      "videoId": "Z0jjxWRcp_0",
+      "publishedDate": "2025-06-03",
+      "checkedAt": "2026-10-11",
+      "reviewedModel": "Gigabyte Eagle OC GeForce RTX 5060 8 GB",
+      "gpuFamily": "GeForce RTX 5060",
+      "memoryVariant": "8 GB",
+      "relationship": "component-only",
+      "label": "GPU component review",
+      "scope": "RTX 5060 graphics-card testing on the reviewer's test bench; no listed complete PC was tested.",
+      "prebuiltIds": ["mepc-a96n60v042", "cyberpower-gma6200bstv3-ca", "abs-c1a45n56r2", "zotac-mek5060a5500br1", "msi-codex-a8nvl-484us"],
+      "sourceURL": "https://gamersnexus.net/gpus/forbidden-review-nvidia-rtx-5060-gpu-benchmarks",
+      "sponsorship": {
+        "status": "disclosed",
+        "sponsor": "Thermalright Frozen Prism 360",
+        "details": "The original video description identifies this cooler as its sponsor.",
+        "sourceURL": "https://www.youtube.com/watch?v=Z0jjxWRcp_0"
+      },
+      "affiliateDisclosure": {
+        "status": "disclosed",
+        "details": "The description labels related-product links as affiliate links and explains that retailer purchases may earn a commission.",
+        "sourceURL": "https://www.youtube.com/watch?v=Z0jjxWRcp_0"
+      },
+      "limitations": "The tested Gigabyte card differs from the disclosed MSI and ZOTAC cards; other listings do not identify a partner model. Do not transfer its board acoustics, cooling or benchmark results to a complete PC. Review-era prices are historical.",
+      "verification": {
+        "identityBasis": "Original YouTube metadata names the verified Gamers Nexus channel and matching review title; the publisher's adaptation names the Gigabyte Eagle OC sample.",
+        "dateBasis": "Original YouTube metadata and the adaptation's original-video note both give 2025-06-03; the later written-article date is not used.",
+        "sampleDisclosure": "The original article says GamersNexus purchased its RTX 5060 cards.",
+        "playbackTested": false
+      }
+    },
+    {
+      "id": "gn-rx-9060-xt-16gb-2025",
+      "title": "AMD Needs to Just Shut Up: AMD Radeon RX 9060 XT 16GB GPU Review",
+      "channel": "Gamers Nexus",
+      "url": "https://www.youtube.com/watch?v=O9u3UPkqp_0",
+      "videoId": "O9u3UPkqp_0",
+      "publishedDate": "2025-06-04",
+      "checkedAt": "2026-10-11",
+      "reviewedModel": "Sapphire Pulse Radeon RX 9060 XT 16 GB",
+      "gpuFamily": "Radeon RX 9060 XT",
+      "memoryVariant": "16 GB",
+      "relationship": "component-only",
+      "label": "GPU component review — 16 GB variant",
+      "scope": "RX 9060 XT 16 GB graphics-card review; the description explicitly excludes testing the 8 GB model in this video.",
+      "prebuiltIds": ["mepc-a96a60v047"],
+      "sourceURL": "https://gamersnexus.net/gpus/amd-needs-just-shut-amd-radeon-rx-9060-xt-16gb-gpu-review",
+      "sponsorship": {
+        "status": "disclosed",
+        "sponsor": "Lian Li O11D Evo RGB",
+        "details": "The original video description identifies this case as its sponsor.",
+        "sourceURL": "https://www.youtube.com/watch?v=O9u3UPkqp_0"
+      },
+      "affiliateDisclosure": {
+        "status": "disclosed",
+        "details": "The description labels related-product links as affiliate links; the written adaptation also discloses retailer commissions.",
+        "sourceURL": "https://www.youtube.com/watch?v=O9u3UPkqp_0"
+      },
+      "limitations": "The MEPC listing specifies 16 GB but does not identify the partner card. Sapphire-specific cooler and noise results do not establish this PC's behavior. Review-era prices and software are historical.",
+      "verification": {
+        "identityBasis": "Original YouTube metadata names the verified Gamers Nexus channel; the description and original adaptation identify the 16 GB Sapphire Pulse sample.",
+        "dateBasis": "Original YouTube metadata and the adaptation's original-video note both give 2025-06-04.",
+        "sampleDisclosure": "Whether the tested graphics card was supplied or purchased was not established by the inspected passages.",
+        "playbackTested": false
+      }
+    },
+    {
+      "id": "gn-rx-9070-xt-2025",
+      "title": "AMD Radeon RX 9070 XT GPU Review & Benchmarks vs. 5070 Ti, 5070, 7900 XT (Sapphire Pulse)",
+      "channel": "Gamers Nexus",
+      "url": "https://www.youtube.com/watch?v=yP0axVHdP-U",
+      "videoId": "yP0axVHdP-U",
+      "publishedDate": "2025-03-05",
+      "checkedAt": "2026-10-11",
+      "reviewedModel": "Sapphire Pulse Radeon RX 9070 XT 16 GB",
+      "gpuFamily": "Radeon RX 9070 XT",
+      "memoryVariant": "16 GB",
+      "relationship": "component-only",
+      "label": "GPU component review",
+      "scope": "RX 9070 XT graphics-card gaming, ray-tracing, power and efficiency tests; no listed complete PC was tested.",
+      "prebuiltIds": ["mepc-a78a70v038", "asus-gm700-ca"],
+      "sourceURL": "https://gamersnexus.net/gpus/amd-radeon-rx-9070-xt-gpu-review-benchmarks-vs-5070-ti-5070-7900-xt-sapphire-pulse",
+      "sponsorship": {
+        "status": "disclosed",
+        "sponsor": "Montech HyperFlow 360 Cooler",
+        "details": "The original video description identifies this cooler as its sponsor.",
+        "sourceURL": "https://www.youtube.com/watch?v=yP0axVHdP-U"
+      },
+      "affiliateDisclosure": {
+        "status": "disclosed",
+        "details": "The description labels related-product links as affiliate links; the written adaptation also discloses retailer commissions.",
+        "sourceURL": "https://www.youtube.com/watch?v=yP0axVHdP-U"
+      },
+      "limitations": "ASUS's listing specifies an ASUS Prime card, not the tested Sapphire Pulse; the MEPC partner card is unspecified. Whole-PC performance, cooling and noise require separate evidence. Launch pricing is historical.",
+      "verification": {
+        "identityBasis": "Original YouTube metadata names the verified Gamers Nexus channel and Sapphire Pulse sample; the original adaptation matches the title and model.",
+        "dateBasis": "Original YouTube metadata and the adaptation's original-video note both give 2025-03-05; the adaptation's later update date is not used.",
+        "sampleDisclosure": "Whether the tested graphics card was supplied or purchased was not established by the inspected passages.",
+        "playbackTested": false
+      }
+    },
+    {
+      "id": "gn-rtx-5070-fe-2025",
+      "title": "NVIDIA is Selling Lies | RTX 5070 Founders Edition Review & Benchmarks",
+      "channel": "Gamers Nexus",
+      "url": "https://www.youtube.com/watch?v=ntSylZ1Bp1Y",
+      "videoId": "ntSylZ1Bp1Y",
+      "publishedDate": "2025-03-04",
+      "checkedAt": "2026-10-11",
+      "reviewedModel": "NVIDIA GeForce RTX 5070 Founders Edition 12 GB",
+      "gpuFamily": "GeForce RTX 5070",
+      "memoryVariant": "12 GB",
+      "relationship": "component-only",
+      "label": "GPU component review — Founders Edition",
+      "scope": "RTX 5070 Founders Edition graphics-card testing, including the distinction between rendered and generated frames.",
+      "prebuiltIds": ["msi-aegis-c9nvp-1448us"],
+      "sourceURL": "https://gamersnexus.net/gpus/nvidia-selling-lies-rtx-5070-founders-edition-review-benchmarks",
+      "sponsorship": {
+        "status": "disclosed",
+        "sponsor": "Montech HyperFlow 360 Cooler",
+        "details": "The original video description identifies this cooler as its sponsor.",
+        "sourceURL": "https://www.youtube.com/watch?v=ntSylZ1Bp1Y"
+      },
+      "affiliateDisclosure": {
+        "status": "disclosed",
+        "details": "The description labels related-product links as affiliate links and explains that retailer purchases may earn a commission.",
+        "sourceURL": "https://www.youtube.com/watch?v=ntSylZ1Bp1Y"
+      },
+      "limitations": "The Aegis listing does not establish a Founders Edition card. This is GPU-family context, not a test of the exact MSI system. Partner-card cooling, system power limits and review-era prices may differ.",
+      "verification": {
+        "identityBasis": "Original YouTube metadata names the verified Gamers Nexus channel and Founders Edition sample; the original publisher's written adaptation matches.",
+        "dateBasis": "Original YouTube metadata and the adaptation's original-video note both give 2025-03-04.",
+        "sampleDisclosure": "Whether the tested graphics card was supplied or purchased was not established by the inspected passages.",
+        "playbackTested": false
+      }
+    }
+  ],
+  "phoneReviews": [
+    {
+      "id": "aa-iphone-16-pixel-9-2024",
+      "title": "Pixel 9 VS iPhone 16 BATTLE | Google or Apple? It's not even CLOSE!",
+      "channel": "Android Authority",
+      "url": "https://www.youtube.com/watch?v=3rya2YgfDHs",
+      "videoId": "3rya2YgfDHs",
+      "publishedDate": "2024-10-07",
+      "checkedAt": "2026-10-11",
+      "reviewedModel": "Apple iPhone 16 and Google Pixel 9 (base models)",
+      "relationship": "phone-comparison",
+      "label": "Original base-model phone comparison",
+      "scope": "Comparison of the base iPhone 16 and Pixel 9; description chapters cover display, design, camera samples, software and battery testing.",
+      "phoneIds": ["iphone-16", "pixel-9"],
+      "defaultPair": ["iphone-16", "pixel-9"],
+      "prebuiltIds": [],
+      "sourceURL": "https://www.youtube.com/watch?v=3rya2YgfDHs",
+      "sponsorship": {
+        "status": "unknown",
+        "sponsor": null,
+        "details": "No sponsorship statement was visible in the retrieved original description. An in-video or in-player disclosure was not checked.",
+        "sourceURL": "https://www.youtube.com/watch?v=3rya2YgfDHs"
+      },
+      "affiliateDisclosure": {
+        "status": "unknown",
+        "details": "Buying links and an Amazon recommendation link are visible, but their destinations and an explicit affiliate statement were not exposed by the reader.",
+        "sourceURL": "https://www.youtube.com/watch?v=3rya2YgfDHs"
+      },
+      "limitations": "A 2024 launch-era comparison. Prices, software and available features may have changed. Do not show it as a comparison of Pro, XL, Fold or other models or as evidence for the size tool's specification data.",
+      "verification": {
+        "identityBasis": "Original YouTube metadata names the verified Android Authority channel. The title and description explicitly compare the two non-Pro phones.",
+        "dateBasis": "Original YouTube publication metadata explicitly gives 2024-10-07.",
+        "sampleDisclosure": "Sample purchase, loan and manufacturer-supply details were not exposed by the retrieved description.",
+        "playbackTested": false
+      }
+    }
+  ]
+}

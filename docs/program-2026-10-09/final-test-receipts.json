@@ -1,0 +1,261 @@
+{
+  "recordedAt": "2026-10-09",
+  "kind": "Actual final command receipts; normal generation is not deployed.",
+  "normal": [
+    {
+      "status": "fulfilled",
+      "value": {
+        "cmd": "node scripts/check-stage2.cjs",
+        "chunk_id": "6dba32",
+        "wall_time_seconds": 2.7267042,
+        "exit_code": 0,
+        "original_token_count": 175,
+        "output": "{\n  checked: '2026-10-09T16:58:41.601Z',\n  newPages: 54,\n  guides: 8,\n  tools: 7,\n  phones: 23,\n  jsGzipBytes: { 'planning-math.js': 1159, 'publication-ui.js': 2446 },\n  checks: [\n    'Calculator arithmetic, boundaries, blanks and unit conversion',\n    'MSI sharing and CPU restriction',\n    'Per-field phone evidence and unknowns',\n    'News review/deployment gates, future dates, two-day aging and deduplication',\n    'Default-off ad/consent/GPC gates',\n    'Optional API GET/HEAD/ETag/404/405/429 and rate-window expiry',\n    'Draft/saved/search exclusions; sitemap; 1200px images; substantive guides; no full catalog JS on new pages',\n    'Unique search IDs and safe local result paths'\n  ]\n}\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "cmd": "node scripts/check-blog-models.cjs",
+        "chunk_id": "ed683e",
+        "wall_time_seconds": 3.4166785,
+        "exit_code": 0,
+        "original_token_count": 45,
+        "output": "11 blog articles: metadata, citations, videos, structured data, internal links and redirects OK.\n840 component records: coverage and GLB inventory OK. Exact verified models: 0.\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "cmd": "node scripts/check-cooling.cjs",
+        "chunk_id": "15ec62",
+        "wall_time_seconds": 3.222988,
+        "exit_code": 0,
+        "original_token_count": 26,
+        "output": "Fan placement: supported mounts, capacity, mixed sizes, unsupported sizes and missing case data pass.\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "cmd": "node scripts/check-model-framing.cjs",
+        "chunk_id": "fdc436",
+        "wall_time_seconds": 3.1324663,
+        "exit_code": 0,
+        "original_token_count": 162,
+        "output": "(node:25204) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Users/slowf/Documents/Codex/2026-09-15/lukasjt-pcpartperformance-x20/pcpartperformance/dist/vendor/three/build/three.module.min.js is not specified and it doesn't parse as CommonJS.\nReparsing as ES module because module syntax was detected. This incurs a performance overhead.\nTo eliminate this warning, add \"type\": \"module\" to \\\\?\\C:\\Users\\slowf\\Documents\\Codex\\2026-09-15\\lukasjt-pcpartperformance-x20\\pcpartperformance\\package.json.\n(Use `node --trace-warnings ...` to show where the warning was created)\n60 projected camera/part configurations passed with padding.\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "cmd": "node scripts/check-phone-previews.cjs",
+        "chunk_id": "ea6f51",
+        "wall_time_seconds": 3.3759725,
+        "exit_code": 0,
+        "original_token_count": 34,
+        "output": "Phone model identities, lightweight loading, creator credits, GPU memory variants, board identities and unresolved-photo policy passed.\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "cmd": "node scripts/check-seo.cjs",
+        "chunk_id": "62888b",
+        "wall_time_seconds": 10.0066785,
+        "original_token_count": 0,
+        "output": "1420 pages; 83320 local links; 916 indexable pages; 12 registered unresolved title/identity pairs. Completion observed in session 62992.",
+        "exit_code": 0
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "cmd": "node scripts/check-program-worker.cjs",
+        "chunk_id": "3e64ca",
+        "wall_time_seconds": 3.4578999,
+        "exit_code": 0,
+        "original_token_count": 124,
+        "output": "PASS canonical directories serve the actual index asset without another redirect\nPASS product HTML and extensionless alias use one explicit redirect\nPASS missing routes, direct error page and encoded separators retain correct error status\nPASS assets and HEAD work; state changes are refused\nPASS query states have noindex and no-store; canonical page policy follows build mode\nPASS asset host automatic HTML redirects are disabled when the Worker owns routing\n6 Worker adapter checks passed.\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "cmd": "node scripts/check-program-release.cjs",
+        "chunk_id": "7adbc2",
+        "wall_time_seconds": 3.4220209,
+        "exit_code": 0,
+        "original_token_count": 121,
+        "output": "PASS normal generation restores 13 existing pages, withholds 27 new draft routes and removes staging exclusions\n{\n  date: '2026-10-09',\n  mode: 'production-generation',\n  retainedExistingPages: 13,\n  withheldNewDrafts: 27,\n  drafts: 0,\n  checks: [\n    'human review/draft gate',\n    'staging meta leakage',\n    'existing pages retained',\n    'PC-only initial catalog',\n    'no fabricated Product offers or ratings',\n    'strict shared shopping offer gate'\n  ],\n  deployed: false\n}\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "cmd": "node scripts/program-audit.cjs --after",
+        "chunk_id": "5fe8f1",
+        "wall_time_seconds": 3.488556,
+        "exit_code": 0,
+        "original_token_count": 222,
+        "output": "[\n  {\n    \"route\": \"/\",\n    \"scriptBytes\": 21755,\n    \"scriptGzipBytes\": 8940,\n    \"styleBytes\": 134303\n  },\n  {\n    \"route\": \"/hardware/graphics-cards/\",\n    \"scriptBytes\": 468856,\n    \"scriptGzipBytes\": 93030,\n    \"styleBytes\": 130351\n  },\n  {\n    \"route\": \"/learn/rtx5070.html\",\n    \"scriptBytes\": 29500,\n    \"scriptGzipBytes\": 12412,\n    \"styleBytes\": 123497\n  },\n  {\n    \"route\": \"/compare/rtx-5070-vs-rx-9070/\",\n    \"scriptBytes\": 22840,\n    \"scriptGzipBytes\": 9586,\n    \"styleBytes\": 117312\n  },\n  {\n    \"route\": \"/builder/\",\n    \"scriptBytes\": 557197,\n    \"scriptGzipBytes\": 111319,\n    \"styleBytes\": 191104\n  },\n  {\n    \"route\": \"/performance/\",\n    \"scriptBytes\": 138892,\n    \"scriptGzipBytes\": 37894,\n    \"styleBytes\": 160679\n  },\n  {\n    \"route\": \"/blog/how-to-choose-a-graphics-card/\",\n    \"scriptBytes\": 22840,\n    \"scriptGzipBytes\": 9586,\n    \"styleBytes\": 117312\n  }\n]\n"
+      }
+    }
+  ],
+  "staging": [
+    {
+      "status": "fulfilled",
+      "value": {
+        "cmd": "node scripts/check-program.cjs",
+        "chunk_id": "bb4864",
+        "wall_time_seconds": 2.382712,
+        "exit_code": 0,
+        "original_token_count": 265,
+        "output": "PASS parts parsing bounds inputs, refuses URL fetches and requires exact-match confirmation\nPASS manual fit preserves unknowns and limits a pass to the entered dimensions\nPASS display intervals do not invent an observed FPS or latency\nPASS benchmarks require exact conditions and permission; no automatic averaging or lows\nPASS preferred host and extension normalization use a single redirect\nPASS reversed curated comparisons consolidate; invalid combinations are errors\nPASS explicit interactive comparisons retain editable selection without an editorial redirect\nPASS query indexing, draft protection and actual missing routes are deliberate\nPASS optional analytics requires a real consented adapter and excludes private parameters\nPASS generated staging has honest FPS metadata and no measured dataset claim\nPASS tools, canonical pages, navigation and controlled errors are generated\nPASS unreviewed drafts have no publication claims, feed entries or sitemap discovery\nPASS complete editorial source/review records pass validation\n13 program tests passed.\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "cmd": "node scripts/check-builder-program.cjs",
+        "chunk_id": "a0aa25",
+        "wall_time_seconds": 3.7764831,
+        "exit_code": 0,
+        "original_token_count": 405,
+        "output": "PASS an empty build has missing selections, not false confirmed conflicts\nPASS a researched socket match passes only the narrow check; BIOS stays unresolved\nPASS an inherited catalog number and shared family text are not verification\nPASS exact documented mismatch is a conflict\nPASS GPU nominal length match never proves overall fit or 3D accuracy\nPASS module population and multiple processors respect documented limits\nPASS unknown quantities remain missing instead of becoming zero prices\nPASS offer region, exact stock, future dates and expiration are enforced\nPASS ID migration is idempotent and distinct partner variants survive\nPASS share links preserve exact selections, ownership and safe plan values\nPASS local storage failures retain a working exportable state\nPASS revision comparison checks actual IDs and ownership changes\nPASS duplicate imported revision IDs are separated without losing either exact build\nPASS the same engine loads as a browser global without Node dependencies\nPASS the expert bridge validates IDs, respects locks and exports stable state\nBuilder program: guided planning, source-linked readiness, local revisions and explicit quote worksheet prepared.\nBuilder program: guided planning, source-linked readiness, local revisions and explicit quote worksheet prepared.\nPASS static generation is scoped and idempotent, with source and method visible in HTML\nPASS picker filtering uses documented conflicts and keeps inherited unknowns selectable\nPASS expert candidate filtering shares the readiness engine and invalidates its cache after a swap\n18 builder program behavior tests passed.\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "cmd": "node scripts/check-product-program.cjs",
+        "chunk_id": "631580",
+        "wall_time_seconds": 4.0535414,
+        "exit_code": 0,
+        "original_token_count": 291,
+        "output": "PASS Real catalog keeps explicit IDs and unresolved named duplicates\nPASS Name equality and machine review cannot silently alias\nPASS Reviewed exact aliases migrate without losing quantities, slots, unknowns or notes\nPASS Alias chains are idempotent and cycles are rejected\nPASS SKU, revision, region, manufacturer and memory conflicts block aliases\nPASS Twenty scoped product profiles have traceable original sources and truthful review state\nPASS Readable panels escape supplied text and preserve exact builder positions\nProduct program: 20/20 source-checked staging panels; 0 approved aliases; 24 name-match groups held for exact-identity review.\nProduct program: 20/20 source-checked staging panels; 0 approved aliases; 24 name-match groups held for exact-identity review.\nPASS Preview build renders 20 panels, review flags and source JSON without duplicate output\nProduct program: 0/20 source-checked staging panels; 0 approved aliases; 24 name-match groups held for exact-identity review.\nPASS Normal mode does not publish unreviewed product panels and missing IDs fail clearly\n9 meaningful product identity, source, migration and template checks passed.\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "cmd": "node scripts/check-program-offers.cjs",
+        "chunk_id": "ba17a1",
+        "wall_time_seconds": 3.9051053,
+        "exit_code": 0,
+        "original_token_count": 280,
+        "output": "PASS unknown price and stock remain null; no type coercion creates a price\nPASS only current sourced exact in-stock regional observations qualify\nPASS TTL cannot be relaxed beyond 15 minutes and explicit shorter expiry wins\nPASS stock evidence and preorder states never become available inventory\nPASS later out-of-stock observations supersede earlier cheap snapshots\nPASS identical observations deduplicate, conflicting duplicates are rejected\nPASS tax/shipping basis is explicit and different bases are not ranked together\nPASS history contains actual points, expired observations, stock states and gaps only\nPASS fair-deal comparison is exact-region arithmetic without a deal rating\nPASS retained builds use actual saved observations, quantities and ownership\nPASS changes never compare different currencies or unknown historical charge bases\nPASS record limits and invalid build inputs fail explicitly rather than truncating\nPASS UMD browser policy runs without network or Node dependencies\nPASS legacy checked-price rows cannot silently become current exact stock evidence\n14 offer policy behavior tests passed.\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "cmd": "node scripts/check-upgrade-program.cjs",
+        "chunk_id": "02022c",
+        "wall_time_seconds": 4.6164069,
+        "exit_code": 0,
+        "original_token_count": 170,
+        "output": "PASS the source loads validated choices and preserves the chosen region\nPASS malformed or duplicate catalogs leave the planning state unavailable\nPASS exact alternatives recheck evidence without replacing the current phase\nPASS a phased swap refreshes current readiness and shares the exact state\nPASS changed inventory blocks stale comparison, share and export until regeneration\nPASS parsed selections require a confirmation and invalidate a prior plan\nPASS export keeps exact phases and a numeric budget, excluding free-form notes\nPASS phase count is bounded with explicit feedback\n8 upgrade source-behavior tests passed. These are VM behavior tests, not browser or visual QA.\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "cmd": "node scripts/check-program-worker.cjs",
+        "chunk_id": "50a0f0",
+        "wall_time_seconds": 4.8047669,
+        "exit_code": 0,
+        "original_token_count": 124,
+        "output": "PASS canonical directories serve the actual index asset without another redirect\nPASS product HTML and extensionless alias use one explicit redirect\nPASS missing routes, direct error page and encoded separators retain correct error status\nPASS assets and HEAD work; state changes are refused\nPASS query states have noindex and no-store; canonical page policy follows build mode\nPASS asset host automatic HTML redirects are disabled when the Worker owns routing\n6 Worker adapter checks passed.\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "cmd": "node scripts/check-program-release.cjs",
+        "chunk_id": "a2007d",
+        "wall_time_seconds": 4.7460949,
+        "exit_code": 0,
+        "original_token_count": 105,
+        "output": "PASS all 40 preview drafts are noindex and absent from sitemap\n{\n  date: '2026-10-09',\n  mode: 'staging',\n  retainedExistingPages: 0,\n  withheldNewDrafts: 0,\n  drafts: 40,\n  checks: [\n    'human review/draft gate',\n    'staging meta leakage',\n    'existing pages retained',\n    'PC-only initial catalog',\n    'no fabricated Product offers or ratings',\n    'strict shared shopping offer gate'\n  ],\n  deployed: false\n}\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "cmd": "node scripts/check-program-refresh.cjs",
+        "chunk_id": "3bbbbd",
+        "wall_time_seconds": 4.8462491,
+        "exit_code": 0,
+        "original_token_count": 22,
+        "output": "Offline refresh impact, expired offers, input bounds and no-side-effect gates passed.\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "cmd": "node scripts/check-program-offer-sources.cjs",
+        "chunk_id": "a2b046",
+        "wall_time_seconds": 5.1863251,
+        "exit_code": 0,
+        "original_token_count": 298,
+        "output": "PASS Default durable sources are empty and explicitly unconfigured\nPASS Approved exact records produce public data without private reviews or permission documents\nPASS Stable catalog IDs do not resolve by matching names or partner aliases\nPASS Exact SKU, memory capacity, revision and partner variant are mandatory and isolated\nPASS Source access, redistribution, merchant and origin scope require reviewed permission\nPASS Bounded schema rejects extra fields, credentials, invalid prices and oversized lists\nPASS Dates, review order, exact currency and stock evidence are validated without coercion\nPASS Expired reviewed observations remain history and never become current through regeneration\nPASS Later unavailability supersedes old prices and charge unknowns never rank\nPASS Duplicate observations deduplicate deterministically and conflicts fail closed\nPASS Inherited legacy snapshots cannot enter the approved source schema or history\nPASS Read-only CLI validates; prepare copies public data without rewriting source records\nPASS JSON byte bound and invalid CLI flags fail explicitly\n13 durable offer source tests passed. No external requests or real permission/price records created.\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "cmd": "node scripts/program-editorial-review.cjs self-test",
+        "chunk_id": "232012",
+        "wall_time_seconds": 4.8608365,
+        "exit_code": 0,
+        "original_token_count": 347,
+        "output": "{\n  \"passed\": true,\n  \"tests\": 20,\n  \"scope\": \"Synthetic fixtures only; no real human approval or publication\",\n  \"outcomes\": [\n    \"Matching explicit human fixture decision is eligible without publishing\",\n    \"Missing decision keeps the draft and source route intact\",\n    \"Edited body invalidates the content hash\",\n    \"Changed source applicability invalidates prior review\",\n    \"Stale editorial version stays a draft\",\n    \"Missing named human reviewer cannot approve\",\n    \"Automated decision and reviewer declarations cannot approve\",\n    \"Missing truthful byline decision cannot approve\",\n    \"Future, impossible and before-evidence dates cannot approve\",\n    \"Pure resolver requires an explicit clock context\",\n    \"Bare resolved flags cannot approve empty priced-BOM arrays\",\n    \"Pinned price blockers cannot be deleted from article flags\",\n    \"Populated exact synthetic BOM/offer evidence is structurally usable\",\n    \"Expired, wrong-currency and wrong-variant offers remain blocked\",\n    \"Reject and revision decisions do not publish\",\n    \"Ambiguous duplicate/unknown registry decisions fail closed\",\n    \"Stable hash ignores object key order and workflow status\",\n    \"Forged publishable resolution is not an approval input\",\n    \"Approved revision renderer is explicit, undated and avoids withheld links\",\n    \"Actual default registry approves zero real articles\"\n  ]\n}\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "cmd": "node scripts/check-program-retention.cjs",
+        "chunk_id": "65b6a0",
+        "wall_time_seconds": 4.918807,
+        "exit_code": 0,
+        "original_token_count": 166,
+        "output": "PASS product save uses the existing ID store and one movable button\nPASS legacy watchlist imports safe IDs once and retains its reversible backup\nPASS oversized legacy lists are retained without silently dropping current IDs\nPASS disabled storage reports failure rather than pretending a save succeeded\nPASS invalid persisted identifiers do not become product selectors or export entries\nPASS unresolved saved IDs remain visible, removable and exportable\nPASS watchlist export contains IDs and limits, not private build notes or emails\nPASS a failed index request does not erase local saved data\n8 saved-item behavior tests passed. Synthetic local fixtures only.\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "cmd": "node scripts/check-shopping-program.cjs",
+        "chunk_id": "4fa05f",
+        "wall_time_seconds": 4.9204897,
+        "exit_code": 0,
+        "original_token_count": 109,
+        "output": "PASS shopping consumes reviewed observation history, not inherited prices.json\nPASS exact variant mismatch and newer out-of-stock evidence cannot become a buying quote\nPASS prices expire while a page stays open without fetching or promoting old observations\nPASS network failure preserves clearly labeled retailer searches without invented price or stock\n4 shopping integration tests passed. Synthetic records; no merchant requests.\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "cmd": "node scripts/check-console-evidence.cjs",
+        "chunk_id": "561565",
+        "wall_time_seconds": 4.849296,
+        "exit_code": 0,
+        "original_token_count": 407,
+        "output": "PASS covers all 45 actual console records with no duplicate, missing or extra keys\nPASS unknown records contain no numerical modes or inherited legacy FPS\nPASS lookup is exact; no PS5 to PS5 Pro, Xbox or Switch to Switch 2 extrapolation\nPASS input validation rejects compound delimiter tricks and never uses prototype keys\nPASS every numerical mode has inspected evidence, correct classification and scope\nPASS PS4 Pro performance is unlocked from 30, not a fabricated 60 FPS target\nPASS God of War PS5 HFR and Pro are distinct and do not promise 120 FPS\nPASS Forza Series S quality corrects 1440p to 1080p; performance pixels stay unknown\nPASS Sea of Thieves output Hz does not become FPS; no Series S 120 mode\nPASS Switch resolution documentation is preserved without adding an unsupported FPS\nPASS Switch Lite receives neither TV-mode nor untested Switch observations\nPASS Mario Kart distinguishes two-player from three/four-player observations and editions\nPASS Galaxy Wii evidence comes from the original developers, not the 2025 remaster\nPASS Minecraft PC listing cannot establish console or upcoming native-release performance\nPASS Skyrim retains historical FPS Boost context without 60+ or shared 4K claim\nPASS lookup and source mutations cannot poison later visitors or global audit data\nPASS safe formatting retains unknowns rather than accepting absent source, invalid FPS or unknown metric\nPASS UMD runs in a browser without Node imports, network calls or legacy dataset dependency\nPASS persisted audit covers the same exact keys and does not leak legacy claims into the module\nConsole evidence checks: 19 passed.\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "cmd": "node scripts/check-seo.cjs",
+        "chunk_id": "7d8bcb",
+        "wall_time_seconds": 10.0032109,
+        "original_token_count": 0,
+        "output": "1448 pages; 84780 local links; canonical metadata, sitemap policy, structured JSON and local references passed. Completion observed in session 50971.",
+        "exit_code": 0
+      }
+    }
+  ]
+}

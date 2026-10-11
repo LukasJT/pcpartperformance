@@ -1,0 +1,132 @@
+{
+  "checkedAt": "2026-10-11T17:20:10.103Z",
+  "method": "Actual dist/build-scene.js and bundled glTF loader in an isolated headless Edge profile with software WebGL. Camera fit uses manufacturer or candidate dimensions; screenshots are visual review, not certified fit.",
+  "scenarios": [
+    {
+      "name": "batch-iphone-xr-front",
+      "file": "/assets/models/sketchfab-iphone-xr.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "front",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-xr.glb\",\"asset\":\"sketchfab-iphone-xr.glb\",\"rotation\":[0,0,0]},\"loadMs\":939,\"pose\":\"front\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "front",
+          "model": "sketchfab-iphone-xr.glb"
+        }
+      },
+      "screenshot": "batch-iphone-xr-front.png"
+    },
+    {
+      "name": "batch-iphone-xr-back",
+      "file": "/assets/models/sketchfab-iphone-xr.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "back",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-xr.glb\",\"asset\":\"sketchfab-iphone-xr.glb\",\"rotation\":[0,0,0]},\"loadMs\":677,\"pose\":\"back\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "back",
+          "model": "sketchfab-iphone-xr.glb"
+        }
+      },
+      "screenshot": "batch-iphone-xr-back.png"
+    },
+    {
+      "name": "batch-iphone-xr-side",
+      "file": "/assets/models/sketchfab-iphone-xr.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "side",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-xr.glb\",\"asset\":\"sketchfab-iphone-xr.glb\",\"rotation\":[0,0,0]},\"loadMs\":506,\"pose\":\"side\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "side",
+          "model": "sketchfab-iphone-xr.glb"
+        }
+      },
+      "screenshot": "batch-iphone-xr-side.png"
+    },
+    {
+      "name": "batch-galaxy-s10-front",
+      "file": "/assets/models/sketchfab-galaxy-s10.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "front",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-galaxy-s10.glb\",\"asset\":\"sketchfab-galaxy-s10.glb\",\"rotation\":[0,0,0]},\"loadMs\":304,\"pose\":\"front\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "front",
+          "model": "sketchfab-galaxy-s10.glb"
+        }
+      },
+      "screenshot": "batch-galaxy-s10-front.png"
+    },
+    {
+      "name": "batch-galaxy-s10-back",
+      "file": "/assets/models/sketchfab-galaxy-s10.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "back",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-galaxy-s10.glb\",\"asset\":\"sketchfab-galaxy-s10.glb\",\"rotation\":[0,0,0]},\"loadMs\":315,\"pose\":\"back\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "back",
+          "model": "sketchfab-galaxy-s10.glb"
+        }
+      },
+      "screenshot": "batch-galaxy-s10-back.png"
+    },
+    {
+      "name": "batch-galaxy-s10-side",
+      "file": "/assets/models/sketchfab-galaxy-s10.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "side",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-galaxy-s10.glb\",\"asset\":\"sketchfab-galaxy-s10.glb\",\"rotation\":[0,0,0]},\"loadMs\":346,\"pose\":\"side\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "side",
+          "model": "sketchfab-galaxy-s10.glb"
+        }
+      },
+      "screenshot": "batch-galaxy-s10-side.png"
+    }
+  ]
+}

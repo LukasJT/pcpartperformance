@@ -756,7 +756,7 @@
     "picturedModel": "Apple iPhone 16 Pro color lineup",
     "sourceUrl": "https://support.apple.com/en-us/121031",
     "imageUrl": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/121031-iphone-16-pro.png",
-    "attribution": "Apple Inc. \u2014 official product image",
+    "attribution": "Apple Inc. — official product image",
     "license": "Copyright Apple Inc.; manufacturer media used for product identification",
     "licenseUrl": "https://www.apple.com/legal/intellectual-property/",
     "width": 994,
@@ -1200,5 +1200,21 @@
     "width": 899,
     "height": 424,
     "checked": "2026-10-04"
+  },
+  "retail-msi-geforce-rtx-5070-12g-gaming-trio-oc": {
+    "src": "/assets/hardware/exact-msi-rtx-5070-gaming-trio-oc.webp",
+    "picturedModel": "MSI GeForce RTX 5070 12G GAMING TRIO OC",
+    "catalogName": "GeForce RTX 5070 12G GAMING TRIO OC",
+    "sourceUrl": "https://www.msi.com/Graphics-Card/GeForce-RTX-5070-12G-GAMING-TRIO-OC/Specification",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-RTX-5070-12G-GAMING-TRIO-OC.pdf",
+    "attribution": "MSI",
+    "license": "Manufacturer product media; rights retained by MSI",
+    "licenseUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-RTX-5070-12G-GAMING-TRIO-OC.pdf",
+    "official": true,
+    "kind": "exact",
+    "width": 800,
+    "height": 640,
+    "checked": "2026-10-11",
+    "changes": "Extracted the exact front product image with its original transparency mask; resized and compressed as WebP. Appearance unchanged."
   }
 }

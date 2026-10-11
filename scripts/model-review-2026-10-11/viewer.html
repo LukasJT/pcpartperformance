@@ -1,0 +1,7 @@
+<!doctype html><html><head><meta charset="utf-8"><script type="importmap">{"imports":{"three":"/dist/vendor/three/build/three.module.min.js"}}</script><style>html,body{margin:0;background:#dce4ef;font:16px system-ui;color:#10213b}#host{width:100vw;height:90vh}pre{margin:0 16px;white-space:pre-wrap}</style></head><body><div id="host"></div><pre id="result">Loading model</pre><script type="module">
+import {createBuildScene} from '/dist/build-scene.js';
+const query=new URLSearchParams(location.search),host=document.getElementById('host');
+const scene=createBuildScene(host,()=>{}),slot=query.get('slot')||'gpu';
+const record={status:'community',model:query.get('file'),dimensionsMm:JSON.parse(query.get('size')||'[338,50,140]'),attribution:{orientation:JSON.parse(query.get('rotation')||'[0,0,0]')}};
+try{const result=await scene.update([{id:'review',slot,index:0,name:'Review',record,placement:{ordinal:0,position:'side',flow:'exhaust'}}]);if(query.get('view'))scene.view(query.get('view'));for(let i=0;i<Number(query.get('turns')||0);i++)scene.rotate(1);document.getElementById('result').textContent=JSON.stringify(result);document.title=result.failed.length?'FAILED':'REVIEW_READY';}catch(error){document.title='FAILED';document.getElementById('result').textContent=error.stack;}
+</script></body></html>

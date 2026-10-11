@@ -1,0 +1,398 @@
+{
+  "date": "2026-10-09",
+  "identityBasis": "explicit_catalog_id",
+  "activeAliases": [],
+  "reviewDecisions": {
+    "version": "2026-10-09.1",
+    "policy": "Stable catalog IDs are authoritative. Matching names produce review candidates, never automatic aliases. Revisions, regions, capacity variants and partner cards remain distinct. Unknown is not equal.",
+    "aliases": [
+      {
+        "from": "c-board-msi-mag-b850-tomahawk-max-wifi",
+        "to": "b850tomahawk",
+        "decision": "needs_variant_review",
+        "scope": "named_model_only",
+        "evidence": [
+          "https://www.msi.com/Motherboard/MAG-B850-TOMAHAWK-MAX-WIFI/Specification",
+          "https://us-store.msi.com/MAG-B850-TOMAHAWK-MAX-WIFI"
+        ],
+        "finding": "Both local records name the MSI MAG B850 TOMAHAWK MAX WIFI. The generic component record explicitly lacks a regional SKU/revision and came from a family listing. Official exact-model pages confirm the named model, but do not prove that every unspecified regional/revision identity in the legacy family record is interchangeable.",
+        "action": "Retain both IDs and self canonicals. Link the better documented named model as a related record. Review exact model code/revision from the legacy data source before approving a permanent alias.",
+        "review": {
+          "status": "needs_human_review",
+          "kind": "source_checked_by_agent",
+          "date": "2026-10-09",
+          "reviewer": null
+        }
+      },
+      {
+        "from": "c-board-msi-mag-b650-tomahawk-wifi",
+        "to": "b650",
+        "decision": "needs_variant_review",
+        "scope": "named_model_only",
+        "evidence": [
+          "https://www.msi.com/Motherboard/MAG-B650-TOMAHAWK-WIFI/Specification",
+          "https://us-store.msi.com/MAG-B650-TOMAHAWK-WIFI"
+        ],
+        "finding": "The names agree with official model documentation. The legacy manufacturer-family record has no exact regional SKU or revision. Name agreement alone is insufficient for an automatic saved-build or product-URL migration.",
+        "action": "Retain IDs until the exact identity is reviewed. No destructive consolidation or HTTP redirect is enabled.",
+        "review": {
+          "status": "needs_human_review",
+          "kind": "source_checked_by_agent",
+          "date": "2026-10-09",
+          "reviewer": null
+        }
+      }
+    ],
+    "known_distinct": [
+      {
+        "ids": [
+          "rtx5070",
+          "retail-msi-geforce-rtx-5070-12g-ventus-3x-oc"
+        ],
+        "reason": "Base GPU specification versus MSI partner card G5070-12V3C; different physical dimensions and clocks."
+      },
+      {
+        "ids": [
+          "rtx3050",
+          "rtx30506"
+        ],
+        "reason": "8 GB and 6 GB variants have different memory interfaces, core counts and power specifications."
+      },
+      {
+        "ids": [
+          "rtx3060",
+          "retail-msi-geforce-rtx-3060-ventus-2x-8g-oc",
+          "retail-msi-geforce-rtx-3060-ventus-2x-12g-oc",
+          "retail-msi-geforce-rtx-3060-ventus-2x-12g"
+        ],
+        "reason": "Base GPU versus exact partner cards; 8 GB versus 12 GB and OC versus non-OC remain separate."
+      },
+      {
+        "ids": [
+          "retail-corsair-4000d-black",
+          "x-case-corsair-4000d-airflow",
+          "x-case-corsair-frame-4000d"
+        ],
+        "reason": "Original solid-front 4000D, 4000D Airflow and FRAME 4000D are different case designs."
+      },
+      {
+        "ids": [
+          "b650aorus",
+          "c-board-gigabyte-b650-aorus-elite-ax"
+        ],
+        "reason": "The documented record cites rev 1.2; the other has no revision. Do not equate unknown revision with rev 1.2."
+      },
+      {
+        "ids": [
+          "focusgx850",
+          "c-psu-seasonic-focus-gx-850"
+        ],
+        "reason": "FOCUS GX naming spans revisions; one record lacks a revision and one lists 2024. Wattage and a shared name do not establish the same connectors or generation."
+      },
+      {
+        "ids": [
+          "x-phone-iphone-13",
+          "iphone-13"
+        ],
+        "reason": "Regional manufacturer pages and storage/SIM code are unresolved. Do not merge a family record into a specific phone cohort on name alone."
+      }
+    ]
+  },
+  "duplicateNameCandidates": [
+    {
+      "name": "msi mag b650 tomahawk wifi",
+      "status": "needs_exact_variant_review",
+      "ids": [
+        "b650",
+        "c-board-msi-mag-b650-tomahawk-wifi"
+      ],
+      "sources": [
+        "https://www.msi.com/Motherboard/MAG-B650-TOMAHAWK-WIFI/Specification",
+        "https://us-store.msi.com/Motherboards?limit=48"
+      ]
+    },
+    {
+      "name": "msi mag z790 tomahawk wifi",
+      "status": "needs_exact_variant_review",
+      "ids": [
+        "z790tomahawk",
+        "c-board-msi-mag-z790-tomahawk-wifi"
+      ],
+      "sources": [
+        "https://www.msi.com/Motherboard/MAG-Z790-TOMAHAWK-WIFI/Specification",
+        "https://us-store.msi.com/Motherboards?limit=48"
+      ]
+    },
+    {
+      "name": "corsair ax1600i",
+      "status": "needs_exact_variant_review",
+      "ids": [
+        "ax1600i",
+        "c-psu-corsair-ax1600i"
+      ],
+      "sources": [
+        "https://www.corsair.com/us/en/p/psu/cp-9020087-na/ax1600i-digital-atx-power-supply-1600-watt-fully-modular-psu-cp-9020087-na",
+        "https://www.corsair.com/us/en/c/psu"
+      ]
+    },
+    {
+      "name": "seasonic focus gx-850",
+      "status": "needs_exact_variant_review",
+      "ids": [
+        "focusgx850",
+        "c-psu-seasonic-focus-gx-850"
+      ],
+      "sources": [
+        "https://seasonic.com/focus-gx/",
+        "https://seasonic.com/power-supplies/"
+      ]
+    },
+    {
+      "name": "be quiet! straight power 12 850w",
+      "status": "needs_exact_variant_review",
+      "ids": [
+        "straightpower850",
+        "c-psu-be-quiet-straight-power-12-850w"
+      ],
+      "sources": [
+        "https://www.bequiet.com/en/powersupply/4109",
+        "https://www.bequiet.com/en/powersupply"
+      ]
+    },
+    {
+      "name": "gigabyte b650 aorus elite ax",
+      "status": "needs_exact_variant_review",
+      "ids": [
+        "b650aorus",
+        "c-board-gigabyte-b650-aorus-elite-ax"
+      ],
+      "sources": [
+        "https://www.gigabyte.com/Motherboard/B650-AORUS-ELITE-AX-rev-12/sp#sp",
+        "https://www.gigabyte.com/Motherboard"
+      ]
+    },
+    {
+      "name": "seasonic focus gx-750",
+      "status": "needs_exact_variant_review",
+      "ids": [
+        "focusgx750",
+        "c-psu-seasonic-focus-gx-750"
+      ],
+      "sources": [
+        "https://seasonic.com/focus-gx/",
+        "https://seasonic.com/power-supplies/"
+      ]
+    },
+    {
+      "name": "seasonic focus gx-1000",
+      "status": "needs_exact_variant_review",
+      "ids": [
+        "focusgx1000",
+        "c-psu-seasonic-focus-gx-1000"
+      ],
+      "sources": [
+        "https://seasonic.com/focus-gx/",
+        "https://seasonic.com/power-supplies/"
+      ]
+    },
+    {
+      "name": "be quiet! dark power 13 1000w",
+      "status": "needs_exact_variant_review",
+      "ids": [
+        "darkpower1000",
+        "c-psu-be-quiet-dark-power-13-1000w"
+      ],
+      "sources": [
+        "https://www.bequiet.com/en/powersupply/4046",
+        "https://www.bequiet.com/en/powersupply"
+      ]
+    },
+    {
+      "name": "nintendo switch lite",
+      "status": "needs_exact_variant_review",
+      "ids": [
+        "switchlite",
+        "x-console-nintendo-switch-lite"
+      ],
+      "sources": [
+        "https://www.nintendo.com/us/gaming-systems/switch/tech-specs/",
+        "https://www.nintendo.com/us/gaming-systems/"
+      ]
+    },
+    {
+      "name": "nintendo switch 2",
+      "status": "needs_exact_variant_review",
+      "ids": [
+        "switch2",
+        "x-console-nintendo-switch-2"
+      ],
+      "sources": [
+        "https://www.nintendo.com/us/gaming-systems/switch-2/tech-specs/",
+        "https://www.nintendo.com/us/gaming-systems/"
+      ]
+    },
+    {
+      "name": "corsair rm1200x shift",
+      "status": "needs_exact_variant_review",
+      "ids": [
+        "rm1200xshift",
+        "c-psu-corsair-rm1200x-shift"
+      ],
+      "sources": [
+        "https://www.corsair.com/us/en/p/psu/cp-9020254-na/rm1200x-shift-80-plus-gold-fully-modular-atx-power-supply-cp-9020254-na",
+        "https://www.corsair.com/us/en/c/psu"
+      ]
+    },
+    {
+      "name": "seasonic vertex gx-1000",
+      "status": "needs_exact_variant_review",
+      "ids": [
+        "vertexgx1000",
+        "c-psu-seasonic-vertex-gx-1000"
+      ],
+      "sources": [
+        "https://seasonic.com/vertex-gx/",
+        "https://seasonic.com/power-supplies/"
+      ]
+    },
+    {
+      "name": "msi mag b850 tomahawk max wifi",
+      "status": "needs_exact_variant_review",
+      "ids": [
+        "b850tomahawk",
+        "c-board-msi-mag-b850-tomahawk-max-wifi",
+        "retail-msi-mag-b850-tomahawk-max-wifi"
+      ],
+      "sources": [
+        "https://www.msi.com/Motherboard/MAG-B850-TOMAHAWK-MAX-WIFI/Specification",
+        "https://us-store.msi.com/Motherboards?limit=48",
+        "https://www.msi.com/Motherboard/MAG-B850-TOMAHAWK-MAX-WIFI/Specification"
+      ]
+    },
+    {
+      "name": "msi mag x870 tomahawk wifi",
+      "status": "needs_exact_variant_review",
+      "ids": [
+        "x870tomahawk",
+        "c-board-msi-mag-x870-tomahawk-wifi"
+      ],
+      "sources": [
+        "https://www.msi.com/Motherboard/MAG-X870-TOMAHAWK-WIFI/Specification",
+        "https://us-store.msi.com/Motherboards?limit=48"
+      ]
+    },
+    {
+      "name": "msi mpg z890 carbon wifi",
+      "status": "needs_exact_variant_review",
+      "ids": [
+        "z890carbon",
+        "c-board-msi-mpg-z890-carbon-wifi"
+      ],
+      "sources": [
+        "https://www.msi.com/Motherboard/MPG-Z890-CARBON-WIFI/Specification",
+        "https://us-store.msi.com/Motherboards?limit=48"
+      ]
+    },
+    {
+      "name": "msi mpg z790 carbon wifi",
+      "status": "needs_exact_variant_review",
+      "ids": [
+        "z790carbon",
+        "c-board-msi-mpg-z790-carbon-wifi"
+      ],
+      "sources": [
+        "https://www.msi.com/Motherboard/MPG-Z790-CARBON-WIFI/Specification",
+        "https://us-store.msi.com/Motherboards?limit=48"
+      ]
+    },
+    {
+      "name": "gigabyte b850 aorus elite wifi7",
+      "status": "needs_exact_variant_review",
+      "ids": [
+        "b850aorus",
+        "c-board-gigabyte-b850-aorus-elite-wifi7"
+      ],
+      "sources": [
+        "https://www.gigabyte.com/Motherboard/B850-AORUS-ELITE-WIFI7/sp#sp",
+        "https://www.gigabyte.com/Motherboard"
+      ]
+    },
+    {
+      "name": "seasonic core gx-650",
+      "status": "needs_exact_variant_review",
+      "ids": [
+        "coregx650",
+        "c-psu-seasonic-core-gx-650"
+      ],
+      "sources": [
+        "https://seasonic.com/core-gx/",
+        "https://seasonic.com/power-supplies/"
+      ]
+    },
+    {
+      "name": "seasonic prime tx-1300",
+      "status": "needs_exact_variant_review",
+      "ids": [
+        "primetx1300",
+        "c-psu-seasonic-prime-tx-1300"
+      ],
+      "sources": [
+        "https://seasonic.com/prime-tx/",
+        "https://seasonic.com/power-supplies/"
+      ]
+    },
+    {
+      "name": "be quiet! dark power pro 13 1600w",
+      "status": "needs_exact_variant_review",
+      "ids": [
+        "darkpower1600",
+        "c-psu-be-quiet-dark-power-pro-13-1600w"
+      ],
+      "sources": [
+        "https://www.bequiet.com/en/powersupply/4392",
+        "https://www.bequiet.com/en/powersupply"
+      ]
+    },
+    {
+      "name": "apple iphone 13",
+      "status": "needs_exact_variant_review",
+      "ids": [
+        "x-phone-iphone-13",
+        "iphone-13"
+      ],
+      "sources": [
+        "https://support.apple.com/en-gb/108044",
+        "https://support.apple.com/en-ie/111872"
+      ]
+    },
+    {
+      "name": "samsung galaxy s iii",
+      "status": "needs_exact_variant_review",
+      "ids": [
+        "x-phone-samsung-galaxy-s-iii",
+        "galaxy-s3"
+      ],
+      "sources": [
+        "https://news.samsung.com/global/from-amoled-to-space-zoom-looking-back-at-the-galaxy-s-series-history-of-innovation",
+        "https://www.samsungmobilepress.com/articles/samsung-introduces-the-galaxy-s-iii-the-smartphone-designed-for-humans-and-inspired-by-nature"
+      ]
+    },
+    {
+      "name": "msi mpg x870e carbon wifi",
+      "status": "needs_exact_variant_review",
+      "ids": [
+        "c-board-msi-mpg-x870e-carbon-wifi",
+        "retail-msi-mpg-x870e-carbon-wifi"
+      ],
+      "sources": [
+        "https://us-store.msi.com/Motherboards?limit=48",
+        "https://www.msi.com/Motherboard/MPG-X870E-CARBON-WIFI/Specification"
+      ]
+    }
+  ],
+  "priorityCount": 20,
+  "priorityBasis": "provisional; no Search Console or keyword-volume measurement",
+  "editorialStatus": "evidence_checked; human review required",
+  "preview": false,
+  "productionDeployed": false
+}

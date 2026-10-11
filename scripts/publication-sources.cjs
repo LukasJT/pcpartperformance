@@ -23,7 +23,7 @@ const rows=[
  ['llama','ggml-org','llama.cpp completion documentation','https://github.com/ggml-org/llama.cpp/blob/master/tools/completion/README.md','runtime context and cache options'],
  ['apple16','Apple','iPhone 16 specifications','https://support.apple.com/en-us/121029','body dimensions; display; chip; USB'],
  ['apple16pro','Apple','iPhone 16 Pro specifications','https://support.apple.com/en-us/121031','body dimensions; display; chip; USB'],
- ['pixel','Google','Pixel 9 and Pixel 9 Pro comparison','https://store.google.com/gb/magazine/compare_pixel?hl=en-GB&toggler0=Pixel+9a&toggler1=Pixel+9+Pro&toggler2=Pixel+9','UK specifications; regional limits'],
+ ['pixel','Google','Pixel 9 and Pixel 9 Pro hardware specifications','https://support.google.com/pixelphone/answer/7158570?hl=en-CA','Pixel 9 and 9 Pro body dimensions and named hardware; regional limits'],
  ['pixelupdates','Google','Pixel software-update policy','https://support.google.com/pixelphone/answer/4457705?hl=en','seven years; first US availability anchor'],
  ['s25','Samsung','Galaxy S25 Canada buying guide','https://www.samsung.com/ca/mobile-buying-guide/introducing-galaxy-s25-series/','Canada dimensions; chip; battery'],
  ['micron','Micron','Fiscal 2026 results announcement','https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Fiscal-Fourth-Quarter-and-Full-Year-2026-Results/','company-reported AI business; not desktop retail prices'],

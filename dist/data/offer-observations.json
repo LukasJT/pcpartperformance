@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "policyVersion": "2026-10-09.1",
+  "observations": [],
+  "currentFeedStatus": "not_configured",
+  "recordsStatus": "not_configured",
+  "historicalCoverage": null,
+  "limitations": [
+    "Recorded observations do not imply continuous price or stock coverage.",
+    "Expired observations are retained as history and excluded from current offers.",
+    "No collector, retailer feed or alert job is activated by this preparation."
+  ]
+}

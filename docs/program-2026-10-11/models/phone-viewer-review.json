@@ -1,0 +1,1392 @@
+{
+  "checkedAt": "2026-10-11T17:05:08.155Z",
+  "method": "Actual dist/build-scene.js and bundled glTF loader in an isolated headless Edge profile with software WebGL. Camera fit uses manufacturer or candidate dimensions; screenshots are visual review, not certified fit.",
+  "scenarios": [
+    {
+      "name": "batch-iphone-13-pro-front",
+      "file": "/assets/models/sketchfab-iphone-13-pro.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "front",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-13-pro.glb\",\"asset\":\"sketchfab-iphone-13-pro.glb\",\"rotation\":[0,0,0]},\"loadMs\":1161,\"pose\":\"front\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "front",
+          "model": "sketchfab-iphone-13-pro.glb"
+        }
+      },
+      "screenshot": "batch-iphone-13-pro-front.png"
+    },
+    {
+      "name": "batch-iphone-13-pro-back",
+      "file": "/assets/models/sketchfab-iphone-13-pro.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "back",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-13-pro.glb\",\"asset\":\"sketchfab-iphone-13-pro.glb\",\"rotation\":[0,0,0]},\"loadMs\":370,\"pose\":\"back\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "back",
+          "model": "sketchfab-iphone-13-pro.glb"
+        }
+      },
+      "screenshot": "batch-iphone-13-pro-back.png"
+    },
+    {
+      "name": "batch-iphone-13-pro-side",
+      "file": "/assets/models/sketchfab-iphone-13-pro.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "side",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-13-pro.glb\",\"asset\":\"sketchfab-iphone-13-pro.glb\",\"rotation\":[0,0,0]},\"loadMs\":311,\"pose\":\"side\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "side",
+          "model": "sketchfab-iphone-13-pro.glb"
+        }
+      },
+      "screenshot": "batch-iphone-13-pro-side.png"
+    },
+    {
+      "name": "batch-iphone-13-pro-max-front",
+      "file": "/assets/models/sketchfab-iphone-13-pro-max.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "front",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-13-pro-max.glb\",\"asset\":\"sketchfab-iphone-13-pro-max.glb\",\"rotation\":[0,0,0]},\"loadMs\":319,\"pose\":\"front\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "front",
+          "model": "sketchfab-iphone-13-pro-max.glb"
+        }
+      },
+      "screenshot": "batch-iphone-13-pro-max-front.png"
+    },
+    {
+      "name": "batch-iphone-13-pro-max-back",
+      "file": "/assets/models/sketchfab-iphone-13-pro-max.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "back",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-13-pro-max.glb\",\"asset\":\"sketchfab-iphone-13-pro-max.glb\",\"rotation\":[0,0,0]},\"loadMs\":295,\"pose\":\"back\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "back",
+          "model": "sketchfab-iphone-13-pro-max.glb"
+        }
+      },
+      "screenshot": "batch-iphone-13-pro-max-back.png"
+    },
+    {
+      "name": "batch-iphone-13-pro-max-side",
+      "file": "/assets/models/sketchfab-iphone-13-pro-max.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "side",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-13-pro-max.glb\",\"asset\":\"sketchfab-iphone-13-pro-max.glb\",\"rotation\":[0,0,0]},\"loadMs\":314,\"pose\":\"side\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "side",
+          "model": "sketchfab-iphone-13-pro-max.glb"
+        }
+      },
+      "screenshot": "batch-iphone-13-pro-max-side.png"
+    },
+    {
+      "name": "batch-galaxy-s22-front",
+      "file": "/assets/models/sketchfab-galaxy-s22.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "front",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-galaxy-s22.glb\",\"asset\":\"sketchfab-galaxy-s22.glb\",\"rotation\":[0,0,0]},\"loadMs\":284,\"pose\":\"front\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "front",
+          "model": "sketchfab-galaxy-s22.glb"
+        }
+      },
+      "screenshot": "batch-galaxy-s22-front.png"
+    },
+    {
+      "name": "batch-galaxy-s22-back",
+      "file": "/assets/models/sketchfab-galaxy-s22.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "back",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-galaxy-s22.glb\",\"asset\":\"sketchfab-galaxy-s22.glb\",\"rotation\":[0,0,0]},\"loadMs\":285,\"pose\":\"back\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "back",
+          "model": "sketchfab-galaxy-s22.glb"
+        }
+      },
+      "screenshot": "batch-galaxy-s22-back.png"
+    },
+    {
+      "name": "batch-galaxy-s22-side",
+      "file": "/assets/models/sketchfab-galaxy-s22.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "side",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-galaxy-s22.glb\",\"asset\":\"sketchfab-galaxy-s22.glb\",\"rotation\":[0,0,0]},\"loadMs\":287,\"pose\":\"side\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "side",
+          "model": "sketchfab-galaxy-s22.glb"
+        }
+      },
+      "screenshot": "batch-galaxy-s22-side.png"
+    },
+    {
+      "name": "batch-galaxy-s22-ultra-front",
+      "file": "/assets/models/sketchfab-galaxy-s22-ultra.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "front",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-galaxy-s22-ultra.glb\",\"asset\":\"sketchfab-galaxy-s22-ultra.glb\",\"rotation\":[0,0,0]},\"loadMs\":225,\"pose\":\"front\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "front",
+          "model": "sketchfab-galaxy-s22-ultra.glb"
+        }
+      },
+      "screenshot": "batch-galaxy-s22-ultra-front.png"
+    },
+    {
+      "name": "batch-galaxy-s22-ultra-back",
+      "file": "/assets/models/sketchfab-galaxy-s22-ultra.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "back",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-galaxy-s22-ultra.glb\",\"asset\":\"sketchfab-galaxy-s22-ultra.glb\",\"rotation\":[0,0,0]},\"loadMs\":239,\"pose\":\"back\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "back",
+          "model": "sketchfab-galaxy-s22-ultra.glb"
+        }
+      },
+      "screenshot": "batch-galaxy-s22-ultra-back.png"
+    },
+    {
+      "name": "batch-galaxy-s22-ultra-side",
+      "file": "/assets/models/sketchfab-galaxy-s22-ultra.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "side",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-galaxy-s22-ultra.glb\",\"asset\":\"sketchfab-galaxy-s22-ultra.glb\",\"rotation\":[0,0,0]},\"loadMs\":308,\"pose\":\"side\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "side",
+          "model": "sketchfab-galaxy-s22-ultra.glb"
+        }
+      },
+      "screenshot": "batch-galaxy-s22-ultra-side.png"
+    },
+    {
+      "name": "batch-galaxy-s20-ultra-front",
+      "file": "/assets/models/sketchfab-galaxy-s20-ultra.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "front",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-galaxy-s20-ultra.glb\",\"asset\":\"sketchfab-galaxy-s20-ultra.glb\",\"rotation\":[0,0,0]},\"loadMs\":503,\"pose\":\"front\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "front",
+          "model": "sketchfab-galaxy-s20-ultra.glb"
+        }
+      },
+      "screenshot": "batch-galaxy-s20-ultra-front.png"
+    },
+    {
+      "name": "batch-galaxy-s20-ultra-back",
+      "file": "/assets/models/sketchfab-galaxy-s20-ultra.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "back",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-galaxy-s20-ultra.glb\",\"asset\":\"sketchfab-galaxy-s20-ultra.glb\",\"rotation\":[0,0,0]},\"loadMs\":374,\"pose\":\"back\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "back",
+          "model": "sketchfab-galaxy-s20-ultra.glb"
+        }
+      },
+      "screenshot": "batch-galaxy-s20-ultra-back.png"
+    },
+    {
+      "name": "batch-galaxy-s20-ultra-side",
+      "file": "/assets/models/sketchfab-galaxy-s20-ultra.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "side",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-galaxy-s20-ultra.glb\",\"asset\":\"sketchfab-galaxy-s20-ultra.glb\",\"rotation\":[0,0,0]},\"loadMs\":295,\"pose\":\"side\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "side",
+          "model": "sketchfab-galaxy-s20-ultra.glb"
+        }
+      },
+      "screenshot": "batch-galaxy-s20-ultra-side.png"
+    },
+    {
+      "name": "batch-galaxy-s21-fe-front",
+      "file": "/assets/models/sketchfab-galaxy-s21-fe.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "front",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-galaxy-s21-fe.glb\",\"asset\":\"sketchfab-galaxy-s21-fe.glb\",\"rotation\":[0,0,0]},\"loadMs\":767,\"pose\":\"front\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "front",
+          "model": "sketchfab-galaxy-s21-fe.glb"
+        }
+      },
+      "screenshot": "batch-galaxy-s21-fe-front.png"
+    },
+    {
+      "name": "batch-galaxy-s21-fe-back",
+      "file": "/assets/models/sketchfab-galaxy-s21-fe.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "back",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-galaxy-s21-fe.glb\",\"asset\":\"sketchfab-galaxy-s21-fe.glb\",\"rotation\":[0,0,0]},\"loadMs\":376,\"pose\":\"back\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "back",
+          "model": "sketchfab-galaxy-s21-fe.glb"
+        }
+      },
+      "screenshot": "batch-galaxy-s21-fe-back.png"
+    },
+    {
+      "name": "batch-galaxy-s21-fe-side",
+      "file": "/assets/models/sketchfab-galaxy-s21-fe.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "side",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-galaxy-s21-fe.glb\",\"asset\":\"sketchfab-galaxy-s21-fe.glb\",\"rotation\":[0,0,0]},\"loadMs\":296,\"pose\":\"side\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "side",
+          "model": "sketchfab-galaxy-s21-fe.glb"
+        }
+      },
+      "screenshot": "batch-galaxy-s21-fe-side.png"
+    },
+    {
+      "name": "batch-iphone-11-front",
+      "file": "/assets/models/sketchfab-iphone-11.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "front",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-11.glb\",\"asset\":\"sketchfab-iphone-11.glb\",\"rotation\":[0,0,0]},\"loadMs\":389,\"pose\":\"front\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "front",
+          "model": "sketchfab-iphone-11.glb"
+        }
+      },
+      "screenshot": "batch-iphone-11-front.png"
+    },
+    {
+      "name": "batch-iphone-11-back",
+      "file": "/assets/models/sketchfab-iphone-11.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "back",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-11.glb\",\"asset\":\"sketchfab-iphone-11.glb\",\"rotation\":[0,0,0]},\"loadMs\":318,\"pose\":\"back\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "back",
+          "model": "sketchfab-iphone-11.glb"
+        }
+      },
+      "screenshot": "batch-iphone-11-back.png"
+    },
+    {
+      "name": "batch-iphone-11-side",
+      "file": "/assets/models/sketchfab-iphone-11.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "side",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-11.glb\",\"asset\":\"sketchfab-iphone-11.glb\",\"rotation\":[0,0,0]},\"loadMs\":302,\"pose\":\"side\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "side",
+          "model": "sketchfab-iphone-11.glb"
+        }
+      },
+      "screenshot": "batch-iphone-11-side.png"
+    },
+    {
+      "name": "batch-iphone-11-pro-front",
+      "file": "/assets/models/sketchfab-iphone-11-pro.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "front",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-11-pro.glb\",\"asset\":\"sketchfab-iphone-11-pro.glb\",\"rotation\":[0,0,0]},\"loadMs\":338,\"pose\":\"front\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "front",
+          "model": "sketchfab-iphone-11-pro.glb"
+        }
+      },
+      "screenshot": "batch-iphone-11-pro-front.png"
+    },
+    {
+      "name": "batch-iphone-11-pro-back",
+      "file": "/assets/models/sketchfab-iphone-11-pro.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "back",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-11-pro.glb\",\"asset\":\"sketchfab-iphone-11-pro.glb\",\"rotation\":[0,0,0]},\"loadMs\":374,\"pose\":\"back\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "back",
+          "model": "sketchfab-iphone-11-pro.glb"
+        }
+      },
+      "screenshot": "batch-iphone-11-pro-back.png"
+    },
+    {
+      "name": "batch-iphone-11-pro-side",
+      "file": "/assets/models/sketchfab-iphone-11-pro.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "side",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-11-pro.glb\",\"asset\":\"sketchfab-iphone-11-pro.glb\",\"rotation\":[0,0,0]},\"loadMs\":451,\"pose\":\"side\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "side",
+          "model": "sketchfab-iphone-11-pro.glb"
+        }
+      },
+      "screenshot": "batch-iphone-11-pro-side.png"
+    },
+    {
+      "name": "batch-iphone-11-pro-max-front",
+      "file": "/assets/models/sketchfab-iphone-11-pro-max.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "front",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-11-pro-max.glb\",\"asset\":\"sketchfab-iphone-11-pro-max.glb\",\"rotation\":[0,0,0]},\"loadMs\":915,\"pose\":\"front\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "front",
+          "model": "sketchfab-iphone-11-pro-max.glb"
+        }
+      },
+      "screenshot": "batch-iphone-11-pro-max-front.png"
+    },
+    {
+      "name": "batch-iphone-11-pro-max-back",
+      "file": "/assets/models/sketchfab-iphone-11-pro-max.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "back",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-11-pro-max.glb\",\"asset\":\"sketchfab-iphone-11-pro-max.glb\",\"rotation\":[0,0,0]},\"loadMs\":1544,\"pose\":\"back\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "back",
+          "model": "sketchfab-iphone-11-pro-max.glb"
+        }
+      },
+      "screenshot": "batch-iphone-11-pro-max-back.png"
+    },
+    {
+      "name": "batch-iphone-11-pro-max-side",
+      "file": "/assets/models/sketchfab-iphone-11-pro-max.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "side",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-11-pro-max.glb\",\"asset\":\"sketchfab-iphone-11-pro-max.glb\",\"rotation\":[0,0,0]},\"loadMs\":2128,\"pose\":\"side\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "side",
+          "model": "sketchfab-iphone-11-pro-max.glb"
+        }
+      },
+      "screenshot": "batch-iphone-11-pro-max-side.png"
+    },
+    {
+      "name": "batch-iphone-6-front",
+      "file": "/assets/models/sketchfab-iphone-6.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "front",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-6.glb\",\"asset\":\"sketchfab-iphone-6.glb\",\"rotation\":[0,0,0]},\"loadMs\":530,\"pose\":\"front\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "front",
+          "model": "sketchfab-iphone-6.glb"
+        }
+      },
+      "screenshot": "batch-iphone-6-front.png"
+    },
+    {
+      "name": "batch-iphone-6-back",
+      "file": "/assets/models/sketchfab-iphone-6.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "back",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-6.glb\",\"asset\":\"sketchfab-iphone-6.glb\",\"rotation\":[0,0,0]},\"loadMs\":450,\"pose\":\"back\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "back",
+          "model": "sketchfab-iphone-6.glb"
+        }
+      },
+      "screenshot": "batch-iphone-6-back.png"
+    },
+    {
+      "name": "batch-iphone-6-side",
+      "file": "/assets/models/sketchfab-iphone-6.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "side",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-6.glb\",\"asset\":\"sketchfab-iphone-6.glb\",\"rotation\":[0,0,0]},\"loadMs\":346,\"pose\":\"side\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "side",
+          "model": "sketchfab-iphone-6.glb"
+        }
+      },
+      "screenshot": "batch-iphone-6-side.png"
+    },
+    {
+      "name": "batch-iphone-6s-front",
+      "file": "/assets/models/sketchfab-iphone-6s.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "front",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-6s.glb\",\"asset\":\"sketchfab-iphone-6s.glb\",\"rotation\":[0,0,0]},\"loadMs\":410,\"pose\":\"front\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "front",
+          "model": "sketchfab-iphone-6s.glb"
+        }
+      },
+      "screenshot": "batch-iphone-6s-front.png"
+    },
+    {
+      "name": "batch-iphone-6s-back",
+      "file": "/assets/models/sketchfab-iphone-6s.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "back",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-6s.glb\",\"asset\":\"sketchfab-iphone-6s.glb\",\"rotation\":[0,0,0]},\"loadMs\":304,\"pose\":\"back\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "back",
+          "model": "sketchfab-iphone-6s.glb"
+        }
+      },
+      "screenshot": "batch-iphone-6s-back.png"
+    },
+    {
+      "name": "batch-iphone-6s-side",
+      "file": "/assets/models/sketchfab-iphone-6s.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "side",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-6s.glb\",\"asset\":\"sketchfab-iphone-6s.glb\",\"rotation\":[0,0,0]},\"loadMs\":324,\"pose\":\"side\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "side",
+          "model": "sketchfab-iphone-6s.glb"
+        }
+      },
+      "screenshot": "batch-iphone-6s-side.png"
+    },
+    {
+      "name": "batch-iphone-8-front",
+      "file": "/assets/models/sketchfab-iphone-8.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "front",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-8.glb\",\"asset\":\"sketchfab-iphone-8.glb\",\"rotation\":[0,0,0]},\"loadMs\":865,\"pose\":\"front\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "front",
+          "model": "sketchfab-iphone-8.glb"
+        }
+      },
+      "screenshot": "batch-iphone-8-front.png"
+    },
+    {
+      "name": "batch-iphone-8-back",
+      "file": "/assets/models/sketchfab-iphone-8.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "back",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-8.glb\",\"asset\":\"sketchfab-iphone-8.glb\",\"rotation\":[0,0,0]},\"loadMs\":808,\"pose\":\"back\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "back",
+          "model": "sketchfab-iphone-8.glb"
+        }
+      },
+      "screenshot": "batch-iphone-8-back.png"
+    },
+    {
+      "name": "batch-iphone-8-side",
+      "file": "/assets/models/sketchfab-iphone-8.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "side",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-8.glb\",\"asset\":\"sketchfab-iphone-8.glb\",\"rotation\":[0,0,0]},\"loadMs\":722,\"pose\":\"side\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "side",
+          "model": "sketchfab-iphone-8.glb"
+        }
+      },
+      "screenshot": "batch-iphone-8-side.png"
+    },
+    {
+      "name": "batch-iphone-8-plus-front",
+      "file": "/assets/models/sketchfab-iphone-8-plus.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "front",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-8-plus.glb\",\"asset\":\"sketchfab-iphone-8-plus.glb\",\"rotation\":[0,0,0]},\"loadMs\":679,\"pose\":\"front\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "front",
+          "model": "sketchfab-iphone-8-plus.glb"
+        }
+      },
+      "screenshot": "batch-iphone-8-plus-front.png"
+    },
+    {
+      "name": "batch-iphone-8-plus-back",
+      "file": "/assets/models/sketchfab-iphone-8-plus.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "back",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-8-plus.glb\",\"asset\":\"sketchfab-iphone-8-plus.glb\",\"rotation\":[0,0,0]},\"loadMs\":541,\"pose\":\"back\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "back",
+          "model": "sketchfab-iphone-8-plus.glb"
+        }
+      },
+      "screenshot": "batch-iphone-8-plus-back.png"
+    },
+    {
+      "name": "batch-iphone-8-plus-side",
+      "file": "/assets/models/sketchfab-iphone-8-plus.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "side",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-8-plus.glb\",\"asset\":\"sketchfab-iphone-8-plus.glb\",\"rotation\":[0,0,0]},\"loadMs\":968,\"pose\":\"side\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "side",
+          "model": "sketchfab-iphone-8-plus.glb"
+        }
+      },
+      "screenshot": "batch-iphone-8-plus-side.png"
+    },
+    {
+      "name": "batch-iphone-12-mini-front",
+      "file": "/assets/models/sketchfab-iphone-12-mini.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "front",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-12-mini.glb\",\"asset\":\"sketchfab-iphone-12-mini.glb\",\"rotation\":[0,0,0]},\"loadMs\":856,\"pose\":\"front\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "front",
+          "model": "sketchfab-iphone-12-mini.glb"
+        }
+      },
+      "screenshot": "batch-iphone-12-mini-front.png"
+    },
+    {
+      "name": "batch-iphone-12-mini-back",
+      "file": "/assets/models/sketchfab-iphone-12-mini.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "back",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-12-mini.glb\",\"asset\":\"sketchfab-iphone-12-mini.glb\",\"rotation\":[0,0,0]},\"loadMs\":664,\"pose\":\"back\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "back",
+          "model": "sketchfab-iphone-12-mini.glb"
+        }
+      },
+      "screenshot": "batch-iphone-12-mini-back.png"
+    },
+    {
+      "name": "batch-iphone-12-mini-side",
+      "file": "/assets/models/sketchfab-iphone-12-mini.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "side",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-12-mini.glb\",\"asset\":\"sketchfab-iphone-12-mini.glb\",\"rotation\":[0,0,0]},\"loadMs\":1062,\"pose\":\"side\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "side",
+          "model": "sketchfab-iphone-12-mini.glb"
+        }
+      },
+      "screenshot": "batch-iphone-12-mini-side.png"
+    },
+    {
+      "name": "batch-iphone-xr-front",
+      "file": "/assets/models/sketchfab-iphone-xr.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "front",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-xr.glb\",\"asset\":\"sketchfab-iphone-xr.glb\",\"rotation\":[0,0,0]},\"loadMs\":283,\"pose\":\"front\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "front",
+          "model": "sketchfab-iphone-xr.glb"
+        }
+      },
+      "screenshot": "batch-iphone-xr-front.png"
+    },
+    {
+      "name": "batch-iphone-xr-back",
+      "file": "/assets/models/sketchfab-iphone-xr.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "back",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-xr.glb\",\"asset\":\"sketchfab-iphone-xr.glb\",\"rotation\":[0,0,0]},\"loadMs\":217,\"pose\":\"back\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "back",
+          "model": "sketchfab-iphone-xr.glb"
+        }
+      },
+      "screenshot": "batch-iphone-xr-back.png"
+    },
+    {
+      "name": "batch-iphone-xr-side",
+      "file": "/assets/models/sketchfab-iphone-xr.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "side",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-xr.glb\",\"asset\":\"sketchfab-iphone-xr.glb\",\"rotation\":[0,0,0]},\"loadMs\":214,\"pose\":\"side\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "side",
+          "model": "sketchfab-iphone-xr.glb"
+        }
+      },
+      "screenshot": "batch-iphone-xr-side.png"
+    },
+    {
+      "name": "batch-iphone-xs-front",
+      "file": "/assets/models/sketchfab-iphone-xs.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "front",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-xs.glb\",\"asset\":\"sketchfab-iphone-xs.glb\",\"rotation\":[0,0,0]},\"loadMs\":242,\"pose\":\"front\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "front",
+          "model": "sketchfab-iphone-xs.glb"
+        }
+      },
+      "screenshot": "batch-iphone-xs-front.png"
+    },
+    {
+      "name": "batch-iphone-xs-back",
+      "file": "/assets/models/sketchfab-iphone-xs.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "back",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-xs.glb\",\"asset\":\"sketchfab-iphone-xs.glb\",\"rotation\":[0,0,0]},\"loadMs\":224,\"pose\":\"back\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "back",
+          "model": "sketchfab-iphone-xs.glb"
+        }
+      },
+      "screenshot": "batch-iphone-xs-back.png"
+    },
+    {
+      "name": "batch-iphone-xs-side",
+      "file": "/assets/models/sketchfab-iphone-xs.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "side",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-xs.glb\",\"asset\":\"sketchfab-iphone-xs.glb\",\"rotation\":[0,0,0]},\"loadMs\":216,\"pose\":\"side\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "side",
+          "model": "sketchfab-iphone-xs.glb"
+        }
+      },
+      "screenshot": "batch-iphone-xs-side.png"
+    },
+    {
+      "name": "batch-galaxy-s10-front",
+      "file": "/assets/models/sketchfab-galaxy-s10.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "front",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-galaxy-s10.glb\",\"asset\":\"sketchfab-galaxy-s10.glb\",\"rotation\":[0,0,0]},\"loadMs\":217,\"pose\":\"front\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "front",
+          "model": "sketchfab-galaxy-s10.glb"
+        }
+      },
+      "screenshot": "batch-galaxy-s10-front.png"
+    },
+    {
+      "name": "batch-galaxy-s10-back",
+      "file": "/assets/models/sketchfab-galaxy-s10.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "back",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-galaxy-s10.glb\",\"asset\":\"sketchfab-galaxy-s10.glb\",\"rotation\":[0,0,0]},\"loadMs\":217,\"pose\":\"back\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "back",
+          "model": "sketchfab-galaxy-s10.glb"
+        }
+      },
+      "screenshot": "batch-galaxy-s10-back.png"
+    },
+    {
+      "name": "batch-galaxy-s10-side",
+      "file": "/assets/models/sketchfab-galaxy-s10.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "side",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-galaxy-s10.glb\",\"asset\":\"sketchfab-galaxy-s10.glb\",\"rotation\":[0,0,0]},\"loadMs\":181,\"pose\":\"side\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "side",
+          "model": "sketchfab-galaxy-s10.glb"
+        }
+      },
+      "screenshot": "batch-galaxy-s10-side.png"
+    },
+    {
+      "name": "batch-galaxy-s8-front",
+      "file": "/assets/models/sketchfab-galaxy-s8.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "front",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-galaxy-s8.glb\",\"asset\":\"sketchfab-galaxy-s8.glb\",\"rotation\":[0,0,0]},\"loadMs\":381,\"pose\":\"front\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "front",
+          "model": "sketchfab-galaxy-s8.glb"
+        }
+      },
+      "screenshot": "batch-galaxy-s8-front.png"
+    },
+    {
+      "name": "batch-galaxy-s8-back",
+      "file": "/assets/models/sketchfab-galaxy-s8.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "back",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-galaxy-s8.glb\",\"asset\":\"sketchfab-galaxy-s8.glb\",\"rotation\":[0,0,0]},\"loadMs\":203,\"pose\":\"back\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "back",
+          "model": "sketchfab-galaxy-s8.glb"
+        }
+      },
+      "screenshot": "batch-galaxy-s8-back.png"
+    },
+    {
+      "name": "batch-galaxy-s8-side",
+      "file": "/assets/models/sketchfab-galaxy-s8.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "side",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-galaxy-s8.glb\",\"asset\":\"sketchfab-galaxy-s8.glb\",\"rotation\":[0,0,0]},\"loadMs\":248,\"pose\":\"side\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "side",
+          "model": "sketchfab-galaxy-s8.glb"
+        }
+      },
+      "screenshot": "batch-galaxy-s8-side.png"
+    },
+    {
+      "name": "batch-oneplus-6-front",
+      "file": "/assets/models/sketchfab-oneplus-6.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "front",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-oneplus-6.glb\",\"asset\":\"sketchfab-oneplus-6.glb\",\"rotation\":[0,0,0]},\"loadMs\":214,\"pose\":\"front\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "front",
+          "model": "sketchfab-oneplus-6.glb"
+        }
+      },
+      "screenshot": "batch-oneplus-6-front.png"
+    },
+    {
+      "name": "batch-oneplus-6-back",
+      "file": "/assets/models/sketchfab-oneplus-6.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "back",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-oneplus-6.glb\",\"asset\":\"sketchfab-oneplus-6.glb\",\"rotation\":[0,0,0]},\"loadMs\":193,\"pose\":\"back\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "back",
+          "model": "sketchfab-oneplus-6.glb"
+        }
+      },
+      "screenshot": "batch-oneplus-6-back.png"
+    },
+    {
+      "name": "batch-oneplus-6-side",
+      "file": "/assets/models/sketchfab-oneplus-6.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "side",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-oneplus-6.glb\",\"asset\":\"sketchfab-oneplus-6.glb\",\"rotation\":[0,0,0]},\"loadMs\":217,\"pose\":\"side\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "side",
+          "model": "sketchfab-oneplus-6.glb"
+        }
+      },
+      "screenshot": "batch-oneplus-6-side.png"
+    },
+    {
+      "name": "batch-iphone-15-pro-max-front",
+      "file": "/assets/models/sketchfab-iphone-15-pro-max.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "front",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-15-pro-max.glb\",\"asset\":\"sketchfab-iphone-15-pro-max.glb\",\"rotation\":[0,0,0]},\"loadMs\":989,\"pose\":\"front\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "front",
+          "model": "sketchfab-iphone-15-pro-max.glb"
+        }
+      },
+      "screenshot": "batch-iphone-15-pro-max-front.png"
+    },
+    {
+      "name": "batch-iphone-15-pro-max-back",
+      "file": "/assets/models/sketchfab-iphone-15-pro-max.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "back",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-15-pro-max.glb\",\"asset\":\"sketchfab-iphone-15-pro-max.glb\",\"rotation\":[0,0,0]},\"loadMs\":1046,\"pose\":\"back\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "back",
+          "model": "sketchfab-iphone-15-pro-max.glb"
+        }
+      },
+      "screenshot": "batch-iphone-15-pro-max-back.png"
+    },
+    {
+      "name": "batch-iphone-15-pro-max-side",
+      "file": "/assets/models/sketchfab-iphone-15-pro-max.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "side",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-15-pro-max.glb\",\"asset\":\"sketchfab-iphone-15-pro-max.glb\",\"rotation\":[0,0,0]},\"loadMs\":844,\"pose\":\"side\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "side",
+          "model": "sketchfab-iphone-15-pro-max.glb"
+        }
+      },
+      "screenshot": "batch-iphone-15-pro-max-side.png"
+    },
+    {
+      "name": "batch-iphone-17-pro-front",
+      "file": "/assets/models/sketchfab-iphone-17-pro.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "front",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-17-pro.glb\",\"asset\":\"sketchfab-iphone-17-pro.glb\",\"rotation\":[0,0,0]},\"loadMs\":907,\"pose\":\"front\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "front",
+          "model": "sketchfab-iphone-17-pro.glb"
+        }
+      },
+      "screenshot": "batch-iphone-17-pro-front.png"
+    },
+    {
+      "name": "batch-iphone-17-pro-back",
+      "file": "/assets/models/sketchfab-iphone-17-pro.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "back",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-17-pro.glb\",\"asset\":\"sketchfab-iphone-17-pro.glb\",\"rotation\":[0,0,0]},\"loadMs\":912,\"pose\":\"back\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "back",
+          "model": "sketchfab-iphone-17-pro.glb"
+        }
+      },
+      "screenshot": "batch-iphone-17-pro-back.png"
+    },
+    {
+      "name": "batch-iphone-17-pro-side",
+      "file": "/assets/models/sketchfab-iphone-17-pro.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "side",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-17-pro.glb\",\"asset\":\"sketchfab-iphone-17-pro.glb\",\"rotation\":[0,0,0]},\"loadMs\":1000,\"pose\":\"side\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "side",
+          "model": "sketchfab-iphone-17-pro.glb"
+        }
+      },
+      "screenshot": "batch-iphone-17-pro-side.png"
+    },
+    {
+      "name": "batch-iphone-17-pro-max-front",
+      "file": "/assets/models/sketchfab-iphone-17-pro-max.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "front",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-17-pro-max.glb\",\"asset\":\"sketchfab-iphone-17-pro-max.glb\",\"rotation\":[0,0,0]},\"loadMs\":295,\"pose\":\"front\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "front",
+          "model": "sketchfab-iphone-17-pro-max.glb"
+        }
+      },
+      "screenshot": "batch-iphone-17-pro-max-front.png"
+    },
+    {
+      "name": "batch-iphone-17-pro-max-back",
+      "file": "/assets/models/sketchfab-iphone-17-pro-max.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "back",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-17-pro-max.glb\",\"asset\":\"sketchfab-iphone-17-pro-max.glb\",\"rotation\":[0,0,0]},\"loadMs\":318,\"pose\":\"back\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "back",
+          "model": "sketchfab-iphone-17-pro-max.glb"
+        }
+      },
+      "screenshot": "batch-iphone-17-pro-max-back.png"
+    },
+    {
+      "name": "batch-iphone-17-pro-max-side",
+      "file": "/assets/models/sketchfab-iphone-17-pro-max.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "side",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-17-pro-max.glb\",\"asset\":\"sketchfab-iphone-17-pro-max.glb\",\"rotation\":[0,0,0]},\"loadMs\":311,\"pose\":\"side\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "side",
+          "model": "sketchfab-iphone-17-pro-max.glb"
+        }
+      },
+      "screenshot": "batch-iphone-17-pro-max-side.png"
+    }
+  ]
+}

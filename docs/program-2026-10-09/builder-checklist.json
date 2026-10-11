@@ -1,0 +1,13 @@
+{
+  "preparedAt": "2026-10-09",
+  "productionDeployment": false,
+  "tasks": [
+    { "id": "C02", "dependsOn": ["A03"], "status": "code-complete-automated-tests-passed-browser-qa-pending", "files": ["scripts/program-builder.cjs", "scripts/compatibility-evidence.cjs", "dist/builder-program.js", "dist/builder-program.css", "dist/builder-v2.js"], "evidence": "Exact manufacturer source records in builder-evidence.json; inherited fields remain unverified", "tests": "node scripts/check-builder-program.cjs: 16 cases passed" },
+    { "id": "C03", "dependsOn": ["C02"], "status": "code-complete-automated-tests-passed-browser-qa-pending", "routes": ["/tools/budget-build-lab/"], "evidence": "Explicit user-entered quote arithmetic; no retailer optimizer or currency conversion", "tests": "Missing prices, owned fields, complete and partial quote comparisons tested" },
+    { "id": "E02", "dependsOn": ["C02"], "status": "code-complete-automated-tests-passed-browser-qa-pending", "evidence": "Local-only revisions preserve IDs, repeated entries, ownership and locks; arbitrary share states require noindex", "tests": "Migration idempotency, storage errors, exact variants, URL fields and state differences tested" },
+    { "id": "C02-external", "dependsOn": ["C02"], "status": "blocked", "reason": "Exact BIOS minimum-version dataset, cooler/connector inventory and physical inspection absent; unresolved states stay explicit" },
+    { "id": "E01-policy", "dependsOn": ["A03"], "status": "pure-policy-code-complete-tests-passed-no-feed-or-frontend-activation", "files": ["scripts/program-offers.cjs", "scripts/check-program-offers.cjs", "docs/program-2026-10-09/builder-offer-dependencies.md"], "evidence": "Caller-supplied verified observations only; strict exact identity, rights, region, stock, expiry and charge basis", "tests": "node scripts/check-program-offers.cjs: 14 cases passed" },
+    { "id": "C04-upgrade-state", "dependsOn": ["C02"], "status": "source-behavior-tests-passed-browser-qa-pending", "files": ["dist/upgrade-program.js", "scripts/check-upgrade-program.cjs"], "evidence": "Shared IDs, readiness and buildURL; stale plan guards preserve explicit inventory confirmation", "tests": "node scripts/check-upgrade-program.cjs: 8 VM behavior cases passed; no browser claim" },
+    { "id": "E01-feed", "dependsOn": ["E01-policy"], "status": "blocked", "reason": "No authorized maintained retailer feed or current exact available offer cohort; live budget recommendations cannot run" }
+  ]
+}

@@ -2346,5 +2346,30 @@
     "changes": "Pruned unused nodes and materials; compressed geometry; glass side panel named for the builder visibility control. Normalized to published exterior dimensions.",
     "reviewed": "2026-10-04",
     "assetSha256": "578617928ac9581842308921d12f5c83ff718b8b18b8fcc3ec51cb997b26465c"
+  },
+  {
+    "id": "retail-msi-geforce-rtx-5070-12g-gaming-trio-oc",
+    "asset": "sketchfab-msi-rtx-5070-gaming-trio-oc.glb",
+    "title": "Nvidia GeForce RTX 5070 - MSI Gaming X Trio",
+    "creator": "Darky Vip 3D",
+    "creatorUrl": "https://sketchfab.com/darky.vip21",
+    "sourceUrl": "https://sketchfab.com/3d-models/nvidia-geforce-rtx-5070-msi-gaming-x-trio-26fbe59aa2ab4a749ef71583aefdadd5",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Corrected the vertical UV direction of the five-vertex source side MSI-mark island; retained downward-facing fan orientation. Resized embedded textures to at most 1024 pixels and encoded WebP at quality 90; flattened static transforms, joined compatible primitives, deduplicated resources and used meshopt compression. Builder centers the pivot and applies the registered orientation and manufacturer envelope.",
+    "orientation": [
+      1.5707963267948966,
+      1.5707963267948966,
+      0
+    ],
+    "dimensionsMm": [
+      338,
+      50,
+      140
+    ],
+    "dimensionSource": "https://www.msi.com/Graphics-Card/GeForce-RTX-5070-12G-GAMING-TRIO-OC/Specification",
+    "sourceUid": "26fbe59aa2ab4a749ef71583aefdadd5",
+    "identityNote": "Source title uses Gaming X Trio, but its description links the exact MSI GAMING TRIO OC product. Source visual fan/shroud/backplate and retail SKU G5070-12GTC reviewed. Low-detail textured exterior; fans are largely textures. Appearance preview; not clearance geometry.",
+    "reviewed": "2026-10-11"
   }
 ]

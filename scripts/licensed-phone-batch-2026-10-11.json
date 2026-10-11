@@ -1,0 +1,462 @@
+[
+  {
+    "id": "iphone-13-pro",
+    "name": "iPhone 13 Pro",
+    "uid": "0c34a039d50e42f4b46738ec26929c15",
+    "input": "tmp/model-batch-2026-10-11/raw/objaverse/0c34a039d50e42f4b46738ec26929c15.glb",
+    "asset": "sketchfab-iphone-13-pro.glb",
+    "rotation": [
+      0,
+      3.141592653589793,
+      0
+    ],
+    "dimensionsMm": [
+      71.5,
+      146.7,
+      7.65
+    ],
+    "dimensionSource": "https://support.apple.com/en-us/111871",
+    "ids": [
+      "iphone-13-pro",
+      "iphone13pro"
+    ]
+  },
+  {
+    "id": "iphone-13-pro-max",
+    "name": "iPhone 13 Pro Max",
+    "uid": "4328dea00e47497dbeac73c556121bc9",
+    "input": "tmp/model-batch-2026-10-11/raw/objaverse/4328dea00e47497dbeac73c556121bc9.glb",
+    "asset": "sketchfab-iphone-13-pro-max.glb",
+    "rotation": [
+      0,
+      3.141592653589793,
+      0
+    ],
+    "dimensionsMm": [
+      78.1,
+      160.8,
+      7.65
+    ],
+    "dimensionSource": "https://support.apple.com/en-us/111870",
+    "ids": [
+      "iphone-13-pro-max",
+      "x-phone-iphone-13-pro-max"
+    ]
+  },
+  {
+    "id": "galaxy-s22",
+    "name": "Galaxy S22",
+    "uid": "e825ff74413142afa9ba64c17890ae05",
+    "input": "tmp/model-batch-2026-10-11/raw/objaverse/e825ff74413142afa9ba64c17890ae05.glb",
+    "asset": "sketchfab-galaxy-s22.glb",
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensionsMm": [
+      70.6,
+      146,
+      7.6
+    ],
+    "dimensionSource": "https://news.samsung.com/in/new-samsung-galaxy-s22-and-s22-deliver-revolutionary-camera-experiences-day-and-night",
+    "ids": [
+      "galaxy-s22",
+      "x-phone-samsung-galaxy-s22"
+    ],
+    "simplifyRatio": 0.18
+  },
+  {
+    "id": "galaxy-s22-ultra",
+    "name": "Galaxy S22 Ultra",
+    "uid": "2a0bbcfad6d744cb8fa443bdf209d6a9",
+    "input": "tmp/model-batch-2026-10-11/raw/objaverse/2a0bbcfad6d744cb8fa443bdf209d6a9.glb",
+    "asset": "sketchfab-galaxy-s22-ultra.glb",
+    "rotation": [
+      0,
+      1.5707963267948966,
+      0
+    ],
+    "removeNodes": [
+      "S pen"
+    ],
+    "dimensionsMm": [
+      77.9,
+      163.3,
+      8.9
+    ],
+    "dimensionSource": "https://www.samsung.com/mx/smartphones/galaxy-s/galaxy-s22-ultra-green-256gb-sm-s908ezgmltm/",
+    "ids": [
+      "galaxy-s22-ultra",
+      "s22ultra"
+    ]
+  },
+  {
+    "id": "galaxy-s20-ultra",
+    "name": "Galaxy S20 Ultra",
+    "uid": "8abacf30422f4c48842b8ffef5611e0f",
+    "input": "tmp/model-batch-2026-10-11/raw/objaverse/8abacf30422f4c48842b8ffef5611e0f.glb",
+    "asset": "sketchfab-galaxy-s20-ultra.glb",
+    "rotation": [
+      1.5707963267948966,
+      0,
+      0
+    ],
+    "dimensionsMm": [
+      76,
+      166.9,
+      8.8
+    ],
+    "dimensionSource": "https://news.samsung.com/ca/introducing-the-samsung-galaxy-s20-5g-series-change-the-way-you-experience-the-world",
+    "ids": [
+      "galaxy-s20-ultra",
+      "x-phone-samsung-galaxy-s20-ultra"
+    ]
+  },
+  {
+    "id": "galaxy-s21-fe",
+    "name": "Galaxy S21 FE",
+    "uid": "d67f3d9318c041c7a9a9b67c84c97423",
+    "input": "tmp/model-batch-2026-10-11/raw/objaverse/d67f3d9318c041c7a9a9b67c84c97423.glb",
+    "asset": "sketchfab-galaxy-s21-fe.glb",
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensionsMm": [
+      74.5,
+      155.7,
+      7.9
+    ],
+    "dimensionSource": "https://news.samsung.com/mx/samsung-presenta-el-nuevo-galaxy-s21-fe-fan-edition-5g",
+    "ids": [
+      "galaxy-s21-fe",
+      "x-phone-samsung-galaxy-s21-fe"
+    ]
+  },
+  {
+    "id": "iphone-11",
+    "name": "iPhone 11",
+    "uid": "558b8e99bbd4483b9bb2182d8dc72de2",
+    "input": "tmp/model-batch-2026-10-11/raw/objaverse/558b8e99bbd4483b9bb2182d8dc72de2.glb",
+    "asset": "sketchfab-iphone-11.glb",
+    "rotation": [
+      0,
+      3.141592653589793,
+      0
+    ],
+    "dimensionsMm": [
+      75.7,
+      150.9,
+      8.3
+    ],
+    "dimensionSource": "https://support.apple.com/en-us/111865",
+    "ids": [
+      "iphone-11",
+      "x-phone-iphone-11"
+    ]
+  },
+  {
+    "id": "iphone-11-pro",
+    "name": "iPhone 11 Pro",
+    "uid": "c0cfaae9289343b5ba5b0c5ba0a3ced6",
+    "input": "tmp/model-batch-2026-10-11/raw/objaverse/c0cfaae9289343b5ba5b0c5ba0a3ced6.glb",
+    "asset": "sketchfab-iphone-11-pro.glb",
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensionsMm": [
+      71.4,
+      144,
+      8.1
+    ],
+    "dimensionSource": "https://support.apple.com/en-us/111879",
+    "ids": [
+      "iphone-11-pro",
+      "x-phone-iphone-11-pro"
+    ]
+  },
+  {
+    "id": "iphone-11-pro-max",
+    "name": "iPhone 11 Pro Max",
+    "uid": "a6c98228fe3e4a309dc87481c6970e70",
+    "input": "tmp/model-batch-2026-10-11/raw/objaverse/a6c98228fe3e4a309dc87481c6970e70.glb",
+    "asset": "sketchfab-iphone-11-pro-max.glb",
+    "rotation": [
+      0,
+      3.141592653589793,
+      0
+    ],
+    "dimensionsMm": [
+      77.8,
+      158,
+      8.1
+    ],
+    "dimensionSource": "https://support.apple.com/en-us/111878",
+    "ids": [
+      "iphone-11-pro-max",
+      "x-phone-iphone-11-pro-max"
+    ],
+    "simplifyRatio": 0.16
+  },
+  {
+    "id": "iphone-6",
+    "name": "iPhone 6",
+    "uid": "9f0523f668e24e42ab440a2679d3c5d5",
+    "input": "tmp/model-batch-2026-10-11/raw/objaverse/9f0523f668e24e42ab440a2679d3c5d5.glb",
+    "asset": "sketchfab-iphone-6.glb",
+    "rotation": [
+      0.066237872435,
+      0,
+      0
+    ],
+    "dimensionsMm": [
+      67,
+      138.1,
+      6.9
+    ],
+    "dimensionSource": "https://support.apple.com/en-us/111954",
+    "ids": [
+      "iphone-6",
+      "x-phone-iphone-6"
+    ]
+  },
+  {
+    "id": "iphone-8",
+    "name": "iPhone 8",
+    "uid": "143bd31fd48b4d88a31d05c7ea0770b0",
+    "input": "tmp/model-batch-2026-10-11/raw/objaverse/143bd31fd48b4d88a31d05c7ea0770b0.glb",
+    "asset": "sketchfab-iphone-8.glb",
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "removeNodes": [
+      "Cube.002_11",
+      "Cube.003_12"
+    ],
+    "dimensionsMm": [
+      67.3,
+      138.4,
+      7.3
+    ],
+    "dimensionSource": "https://support.apple.com/en-us/111976",
+    "ids": [
+      "iphone-8",
+      "x-phone-iphone-8"
+    ],
+    "removeAnimations": true
+  },
+  {
+    "id": "iphone-8-plus",
+    "name": "iPhone 8 Plus",
+    "uid": "8c5c176cf83e42d6a12cdf6e84b6bccd",
+    "input": "tmp/model-batch-2026-10-11/raw/objaverse/8c5c176cf83e42d6a12cdf6e84b6bccd.glb",
+    "asset": "sketchfab-iphone-8-plus.glb",
+    "rotation": [
+      0,
+      3.141592653589793,
+      0
+    ],
+    "dimensionsMm": [
+      78.1,
+      158.4,
+      7.5
+    ],
+    "dimensionSource": "https://support.apple.com/en-us/111950",
+    "ids": [
+      "iphone-8-plus",
+      "x-phone-iphone-8-plus"
+    ],
+    "simplifyRatio": 0.3
+  },
+  {
+    "id": "iphone-12-mini",
+    "name": "iPhone 12 mini",
+    "uid": "74c4167debed4390871af8527d369de6",
+    "input": "tmp/model-batch-2026-10-11/raw/objaverse/74c4167debed4390871af8527d369de6.glb",
+    "asset": "sketchfab-iphone-12-mini.glb",
+    "rotation": [
+      0,
+      3.141592653589793,
+      0
+    ],
+    "dimensionsMm": [
+      64.2,
+      131.5,
+      7.4
+    ],
+    "dimensionSource": "https://support.apple.com/en-us/111877",
+    "ids": [
+      "iphone-12-mini",
+      "x-phone-iphone-12-mini"
+    ]
+  },
+  {
+    "id": "iphone-xr",
+    "name": "iPhone XR",
+    "uid": "58494f7d40f14310b4696e7951629960",
+    "input": "tmp/model-batch-2026-10-11/raw/objaverse/58494f7d40f14310b4696e7951629960.glb",
+    "asset": "sketchfab-iphone-xr.glb",
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensionsMm": [
+      75.7,
+      150.9,
+      8.3
+    ],
+    "dimensionSource": "https://support.apple.com/en-us/111868",
+    "ids": [
+      "iphone-xr",
+      "x-phone-iphone-xr"
+    ],
+    "offScreenMaterials": [
+      "Material.003"
+    ]
+  },
+  {
+    "id": "iphone-xs",
+    "name": "iPhone XS",
+    "uid": "3a0d9762a20849c0b3e8e08b947d2114",
+    "input": "tmp/model-batch-2026-10-11/raw/objaverse/3a0d9762a20849c0b3e8e08b947d2114.glb",
+    "asset": "sketchfab-iphone-xs.glb",
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensionsMm": [
+      70.9,
+      143.6,
+      7.7
+    ],
+    "dimensionSource": "https://support.apple.com/en-us/111881",
+    "ids": [
+      "iphone-xs",
+      "x-phone-iphone-xs"
+    ]
+  },
+  {
+    "id": "galaxy-s10",
+    "name": "Galaxy S10",
+    "uid": "e0ce9427df07429aba2ccbd01b52dd11",
+    "input": "tmp/model-batch-2026-10-11/raw/objaverse/e0ce9427df07429aba2ccbd01b52dd11.glb",
+    "asset": "sketchfab-galaxy-s10.glb",
+    "rotation": [
+      1.5707963267948966,
+      0,
+      3.141592653589793
+    ],
+    "dimensionsMm": [
+      70.4,
+      149.9,
+      7.8
+    ],
+    "dimensionSource": "https://www.samsung.com/uk/support/mobile-devices/key-differences-between-the-galaxy-s10-phones/",
+    "ids": [
+      "galaxy-s10",
+      "x-phone-samsung-galaxy-s10"
+    ],
+    "simplifyRatio": 0.4,
+    "offScreenMaterials": [
+      "Material_117"
+    ]
+  },
+  {
+    "id": "galaxy-s8",
+    "name": "Galaxy S8",
+    "uid": "433b6f95a0204546a723524c271f34d3",
+    "input": "tmp/model-batch-2026-10-11/raw/objaverse/433b6f95a0204546a723524c271f34d3.glb",
+    "asset": "sketchfab-galaxy-s8.glb",
+    "rotation": [
+      1.5707963267948966,
+      0,
+      0
+    ],
+    "dimensionsMm": [
+      68.1,
+      148.9,
+      8
+    ],
+    "dimensionSource": "https://news.samsung.com/us/galaxy-s8-galaxy-s8-unlocked-samsung-pre-orders-begin-u-s/",
+    "ids": [
+      "galaxy-s8",
+      "x-phone-samsung-galaxy-s8"
+    ]
+  },
+  {
+    "id": "iphone-15-pro-max",
+    "name": "iPhone 15 Pro Max",
+    "uid": "df17520841214c1792fb8a44c6783ee7",
+    "input": "tmp/model-batch-2026-10-11/raw/phone-mockup-studio/apple_iphone_15_pro_max_black(2).glb",
+    "asset": "sketchfab-iphone-15-pro-max.glb",
+    "rotation": [
+      0,
+      3.141592653589793,
+      0
+    ],
+    "dimensionsMm": [
+      76.7,
+      159.9,
+      8.25
+    ],
+    "dimensionSource": "https://support.apple.com/en-us/111828",
+    "ids": [
+      "iphone-15-pro-max",
+      "x-phone-iphone-15-pro-max"
+    ]
+  },
+  {
+    "id": "iphone-17-pro",
+    "name": "iPhone 17 Pro",
+    "uid": "4541aa8a28324b33a2baaf81d263aaec",
+    "input": "tmp/model-batch-2026-10-11/raw/phone-mockup-studio/iphone_17_pro.glb",
+    "asset": "sketchfab-iphone-17-pro.glb",
+    "textureMaxSize": 864,
+    "textureQuality": 90,
+    "rotation": [
+      0,
+      3.141592653589793,
+      0
+    ],
+    "dimensionsMm": [
+      71.9,
+      150,
+      8.75
+    ],
+    "dimensionSource": "https://support.apple.com/en-us/125090",
+    "ids": [
+      "iphone-17-pro",
+      "x-phone-iphone-17-pro"
+    ]
+  },
+  {
+    "id": "iphone-17-pro-max",
+    "name": "iPhone 17 Pro Max",
+    "uid": "87fc1df741384124a8ce0226d2b2058d",
+    "input": "tmp/model-batch-2026-10-11/raw/phone-mockup-studio/iphone_17_pro_max.glb",
+    "asset": "sketchfab-iphone-17-pro-max.glb",
+    "rotation": [
+      0,
+      1.5707963267948966,
+      0
+    ],
+    "dimensionsMm": [
+      78,
+      163.4,
+      8.75
+    ],
+    "dimensionSource": "https://support.apple.com/en-us/125091",
+    "ids": [
+      "iphone-17-pro-max",
+      "x-phone-iphone-17-pro-max"
+    ]
+  }
+]

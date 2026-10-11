@@ -1,0 +1,82 @@
+{
+  "rtx5070": {
+    "original": "/assets/hardware/gpu-blackwell.png",
+    "originalBytes": 368868,
+    "variants": [
+      {
+        "src": "/assets/optimized/home-rtx5070-1d55735a7a-400.webp",
+        "width": 400,
+        "bytes": 10066
+      },
+      {
+        "src": "/assets/optimized/home-rtx5070-1d55735a7a-800.webp",
+        "width": 800,
+        "bytes": 27860
+      }
+    ]
+  },
+  "rtx5060ti16": {
+    "original": "/assets/hardware/gpu-rtx5060ti.png",
+    "originalBytes": 218599,
+    "variants": [
+      {
+        "src": "/assets/optimized/home-rtx5060ti16-3d4ebb598d-400.webp",
+        "width": 400,
+        "bytes": 8628
+      },
+      {
+        "src": "/assets/optimized/home-rtx5060ti16-3d4ebb598d-800.webp",
+        "width": 800,
+        "bytes": 22288
+      }
+    ]
+  },
+  "9800x3d": {
+    "original": "/assets/hardware/exact-9800x3d.webp",
+    "originalBytes": 15050,
+    "variants": [
+      {
+        "src": "/assets/optimized/home-9800x3d-d20ad641d6-400.webp",
+        "width": 400,
+        "bytes": 3540
+      },
+      {
+        "src": "/assets/optimized/home-9800x3d-d20ad641d6-800.webp",
+        "width": 800,
+        "bytes": 7980
+      }
+    ]
+  },
+  "ddr5": {
+    "original": "/assets/hardware/official-core-official-core-ddr5.webp",
+    "originalBytes": 256388,
+    "variants": [
+      {
+        "src": "/assets/optimized/home-ddr5-0c30393200-400.webp",
+        "width": 400,
+        "bytes": 16046
+      },
+      {
+        "src": "/assets/optimized/home-ddr5-0c30393200-800.webp",
+        "width": 800,
+        "bytes": 46732
+      }
+    ]
+  },
+  "990pro": {
+    "original": "/assets/hardware/memory-storage-samsung990.optimized.jpg",
+    "originalBytes": 99067,
+    "variants": [
+      {
+        "src": "/assets/optimized/home-990pro-efa54d845f-400.webp",
+        "width": 400,
+        "bytes": 6864
+      },
+      {
+        "src": "/assets/optimized/home-990pro-efa54d845f-800.webp",
+        "width": 800,
+        "bytes": 22566
+      }
+    ]
+  }
+}

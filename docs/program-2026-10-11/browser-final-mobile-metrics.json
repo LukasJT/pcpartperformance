@@ -1,0 +1,72 @@
+{
+  "recordedAt": "2026-10-11T18:56:51.980Z",
+  "scope": "Three settled 390x844 empty-builder reloads in the connected in-app browser on a gzip/no-store local server, after static navigation/status-space fixes. Unthrottled; font caches and observation windows are not controlled. Raw windows are retained; no field INP/p75 or real-host improvement claim.",
+  "runs": [
+    {
+      "headerHeight": 116.9375,
+      "metrics": {
+        "cls": 0,
+        "domContentLoaded": 372.5999999996274,
+        "environment": "unthrottled local browser; not field Core Web Vitals",
+        "lcp": 1840,
+        "longTaskMs": 95,
+        "longTasks": 1,
+        "resourceTransfer": 179009,
+        "resources": 36,
+        "sampleWindowMs": 167863.69999999923,
+        "serverWait": 2.699999999254942,
+        "shiftDetails": [],
+        "threeDRequests": 0,
+        "viewport": {
+          "height": 844,
+          "width": 390
+        }
+      },
+      "overflow": -10
+    },
+    {
+      "headerHeight": 116.9375,
+      "metrics": {
+        "cls": 0,
+        "domContentLoaded": 331.59999999962747,
+        "environment": "unthrottled local browser; not field Core Web Vitals",
+        "lcp": 1800,
+        "longTaskMs": 91,
+        "longTasks": 1,
+        "resourceTransfer": 179009,
+        "resources": 36,
+        "sampleWindowMs": 48325,
+        "serverWait": 2.5,
+        "shiftDetails": [],
+        "threeDRequests": 0,
+        "viewport": {
+          "height": 844,
+          "width": 390
+        }
+      },
+      "overflow": -10
+    },
+    {
+      "headerHeight": 116.9375,
+      "metrics": {
+        "cls": 0,
+        "domContentLoaded": 394.4000000003726,
+        "environment": "unthrottled local browser; not field Core Web Vitals",
+        "lcp": 2120,
+        "longTaskMs": 90,
+        "longTasks": 1,
+        "resourceTransfer": 179009,
+        "resources": 36,
+        "sampleWindowMs": 61880.20000000112,
+        "serverWait": 2.599999999627471,
+        "shiftDetails": [],
+        "threeDRequests": 0,
+        "viewport": {
+          "height": 844,
+          "width": 390
+        }
+      },
+      "overflow": -10
+    }
+  ]
+}

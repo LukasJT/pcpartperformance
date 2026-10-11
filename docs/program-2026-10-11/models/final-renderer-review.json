@@ -1,0 +1,234 @@
+{
+  "checkedAt": "2026-10-11T17:24:33.067Z",
+  "method": "Actual dist/build-scene.js and bundled glTF loader in an isolated headless Edge profile with software WebGL. Camera fit uses manufacturer or candidate dimensions; screenshots are visual review, not certified fit.",
+  "scenarios": [
+    {
+      "name": "mobile-iphone-13-pro-front",
+      "file": "/assets/models/sketchfab-iphone-13-pro.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "front",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "deviceScaleFactor": 1,
+        "mobile": true
+      },
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-13-pro.glb\",\"asset\":\"sketchfab-iphone-13-pro.glb\",\"rotation\":[0,0,0]},\"loadMs\":866,\"pose\":\"front\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "front",
+          "model": "sketchfab-iphone-13-pro.glb"
+        }
+      },
+      "screenshot": "mobile-iphone-13-pro-front.png"
+    },
+    {
+      "name": "mobile-galaxy-s22-front",
+      "file": "/assets/models/sketchfab-galaxy-s22.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "front",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "deviceScaleFactor": 1,
+        "mobile": true
+      },
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-galaxy-s22.glb\",\"asset\":\"sketchfab-galaxy-s22.glb\",\"rotation\":[0,0,0]},\"loadMs\":858,\"pose\":\"front\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "front",
+          "model": "sketchfab-galaxy-s22.glb"
+        }
+      },
+      "screenshot": "mobile-galaxy-s22-front.png"
+    },
+    {
+      "name": "mobile-iphone-11-pro-max-front",
+      "file": "/assets/models/sketchfab-iphone-11-pro-max.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "front",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "deviceScaleFactor": 1,
+        "mobile": true
+      },
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-11-pro-max.glb\",\"asset\":\"sketchfab-iphone-11-pro-max.glb\",\"rotation\":[0,0,0]},\"loadMs\":1268,\"pose\":\"front\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "front",
+          "model": "sketchfab-iphone-11-pro-max.glb"
+        }
+      },
+      "screenshot": "mobile-iphone-11-pro-max-front.png"
+    },
+    {
+      "name": "mobile-iphone-15-pro-max-front",
+      "file": "/assets/models/sketchfab-iphone-15-pro-max.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "front",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "deviceScaleFactor": 1,
+        "mobile": true
+      },
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-15-pro-max.glb\",\"asset\":\"sketchfab-iphone-15-pro-max.glb\",\"rotation\":[0,0,0]},\"loadMs\":2242,\"pose\":\"front\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "front",
+          "model": "sketchfab-iphone-15-pro-max.glb"
+        }
+      },
+      "screenshot": "mobile-iphone-15-pro-max-front.png"
+    },
+    {
+      "name": "mobile-iphone-17-pro-front",
+      "file": "/assets/models/sketchfab-iphone-17-pro.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "front",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "deviceScaleFactor": 1,
+        "mobile": true
+      },
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-17-pro.glb\",\"asset\":\"sketchfab-iphone-17-pro.glb\",\"rotation\":[0,0,0]},\"loadMs\":3585,\"pose\":\"front\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "front",
+          "model": "sketchfab-iphone-17-pro.glb"
+        }
+      },
+      "screenshot": "mobile-iphone-17-pro-front.png"
+    },
+    {
+      "name": "final-msi-5070-trio-angled",
+      "file": "/assets/models/sketchfab-msi-rtx-5070-gaming-trio-oc.glb",
+      "rotation": [
+        1.5707963267948966,
+        1.5707963267948966,
+        0
+      ],
+      "size": [
+        338,
+        50,
+        140
+      ],
+      "slot": "gpu",
+      "view": "angled",
+      "turns": 0,
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"failed\":[],\"rendered\":1,\"loadMs\":302}",
+        "canvas": {
+          "engine": "three.js r180",
+          "cameraDistance": "0.451",
+          "boundsSize": "0.338,0.050,0.140",
+          "renderCount": "4",
+          "triangles": "883",
+          "modelCount": "1",
+          "loadMs": "302"
+        }
+      },
+      "screenshot": "final-msi-5070-trio-angled.png"
+    },
+    {
+      "name": "final-msi-5070-trio-side",
+      "file": "/assets/models/sketchfab-msi-rtx-5070-gaming-trio-oc.glb",
+      "rotation": [
+        1.5707963267948966,
+        1.5707963267948966,
+        0
+      ],
+      "size": [
+        338,
+        50,
+        140
+      ],
+      "slot": "gpu",
+      "view": "side",
+      "turns": 0,
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"failed\":[],\"rendered\":1,\"loadMs\":280}",
+        "canvas": {
+          "engine": "three.js r180",
+          "cameraDistance": "0.452",
+          "boundsSize": "0.338,0.050,0.140",
+          "renderCount": "4",
+          "triangles": "883",
+          "modelCount": "1",
+          "loadMs": "279"
+        }
+      },
+      "screenshot": "final-msi-5070-trio-side.png"
+    },
+    {
+      "name": "final-msi-5070-trio-top",
+      "file": "/assets/models/sketchfab-msi-rtx-5070-gaming-trio-oc.glb",
+      "rotation": [
+        1.5707963267948966,
+        1.5707963267948966,
+        0
+      ],
+      "size": [
+        338,
+        50,
+        140
+      ],
+      "slot": "gpu",
+      "view": "top",
+      "turns": 0,
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"failed\":[],\"rendered\":1,\"loadMs\":274}",
+        "canvas": {
+          "engine": "three.js r180",
+          "cameraDistance": "0.451",
+          "boundsSize": "0.338,0.050,0.140",
+          "renderCount": "4",
+          "triangles": "883",
+          "modelCount": "1",
+          "loadMs": "273"
+        }
+      },
+      "screenshot": "final-msi-5070-trio-top.png"
+    }
+  ]
+}

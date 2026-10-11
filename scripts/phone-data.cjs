@@ -20,3 +20,4 @@ for(const [id,name,source,core,region,confidence]of require('./phone-expansion-d
  phone.region=region;if(confidence)for(const field of Object.values(phone.fields))if(field.value!==null)field.confidence=confidence;
  module.exports.push(phone);
 }
+module.exports.push(...require('./phone-model-expansion-2026-10-11.cjs'));

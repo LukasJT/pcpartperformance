@@ -4,9 +4,13 @@ A static hardware comparison site with dedicated comparison, catalog/category, P
 
 ## Build and host
 
-Run `node scripts/expand-retail.cjs`, `node scripts/build-model-library.cjs`, `node scripts/generate-models.mjs`, then `node scripts/build-pages.cjs` to regenerate the static site. Serve the `dist` directory. Generated individual hardware record pages are excluded from Git and recreated by the build command.
+Run `node scripts/build-pages.cjs` with `PROGRAM_PREVIEW` unset to generate normal production output. Licensed model files and prepared image derivatives are retained; do not regenerate the entire model library as part of an ordinary release. Generated individual hardware record pages are excluded from Git and recreated by this build command.
 
-The production build lives in `dist` and is published through Sites. The `CNAME` file retains the live custom domain.
+The production build lives in `dist`. The existing Cloudflare Workers Git integration deploys `codex/stage2-publication-2026-10-04` to pcpartperformance.com using `wrangler.jsonc`. The Worker handles canonical URLs, query indexing controls, assets and the optional price API. The `CNAME` file is historical and does not configure Cloudflare DNS.
+
+See [the current release report](docs/program-2026-10-11/FINAL-REPORT.md) and [deployment checklist](docs/program-2026-10-09/deployment-checklist.md). A successful push must be followed by public release-marker, route, API and browser verification. `node scripts/verify-live-release.cjs <40-character-commit>` runs bounded read-only HTTP smoke checks. `node scripts/release-preflight.cjs` checks production flags, changed JavaScript syntax, asset sizes and recognizable credential leakage.
+
+For local draft review, use `PROGRAM_PREVIEW=1` only on a private review build. Human article review and publication are separate from automated validation. New drafts remain withheld until truthful review and publication records exist.
 
 ## Data and assets
 
@@ -22,4 +26,6 @@ The 3D builder model manifest and peripheral viewer credits are documented in `d
 
 ## Validation
 
-Run `node scripts/check-blog-models.cjs`, `node scripts/check-seo.cjs`, and `node scripts/check-cooling.cjs` after building. The latest build produced 1,196 pages, and local browser checks covered the 3D product viewers and builder scene. The static SEO audit resolves internal page, script, stylesheet, and image references.
+Run the `check:program` and `check:continuation` commands defined in `package.json`, plus `node scripts/check-phone-previews.cjs`, `node scripts/check-program-performance.cjs`, `node scripts/check-stage2.cjs` and `node scripts/check-seo.cjs`. The final normal October 11 build has 1,451 HTML pages, with 948 intended indexable canonical pages. Browser QA and model validation records distinguish actual interactions, synthetic fixtures, lab timings and unknown physical clearances.
+
+The morning-price service is implemented but inactive: there is no source account, approved target registry, D1 binding or cron. It returns `not_configured` and empty offers. See [source-access dependencies](docs/program-2026-10-11/morning-price-source-access.md) before activating any collector. No visitors' requests scrape retailers.

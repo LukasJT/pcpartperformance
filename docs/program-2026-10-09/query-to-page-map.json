@@ -1,0 +1,1521 @@
+{
+  "version": "2026-10-09.1",
+  "researchDate": "2026-10-09",
+  "scope": "18 distinct representative English queries; 20 search requests including two repeated queries to improve source coverage. Bounded qualitative research, not a comprehensive demand or rank audit.",
+  "measurement": {
+    "searchConsoleAccess": false,
+    "analyticsAccess": false,
+    "serverLogAccess": false,
+    "keywordVolume": null,
+    "keywordDifficulty": null,
+    "siteRankings": null,
+    "trafficBaseline": null,
+    "basis": "Public-query qualitative observations plus an explicitly labeled task/usefulness hypothesis.",
+    "limits": [
+      "Research results are not a personalized Google Canada/US rank snapshot.",
+      "Result order, result counts and publication freshness do not establish traffic or site indexing.",
+      "Related questions below come from inspected page headings and visible question-shaped result titles; no complete People Also Ask or autocomplete inventory was captured.",
+      "A research fetch failure is not proof that a public page is broken.",
+      "No copied competitor benchmarks, tables, prose, offers or build datasets were imported."
+    ]
+  },
+  "priorityPolicy": {
+    "P0": "Complete a central visitor journey and prevent consequential cost, compatibility or performance misunderstandings; no traffic superiority implied.",
+    "P1": "Connect an existing useful intent to a specific decision, source record and tool.",
+    "P2": "Expand only after coverage, evidence, review and measured demand justify the work."
+  },
+  "sourceRegister": {
+    "GN-BUILD": {
+      "publisher": "GamersNexus",
+      "url": "https://gamersnexus.net/pc-builds/1491-mid-range-gaming-pc-build-guide-february-2026",
+      "kind": "original_competitor_publication",
+      "inspection": "Original page inspected: parts list, component rationale, alternatives, disclosure and linked reviews. Its historical offers are not current site prices."
+    },
+    "TS-CPU": {
+      "publisher": "TechSpot",
+      "url": "https://www.techspot.com/review/3036-7800x3d-vs-9800x3d/",
+      "kind": "original_competitor_testing_publication",
+      "inspection": "Original CPU comparison inspected: named buying question, per-game sections, presets, test context and conclusions. No numeric results imported."
+    },
+    "TH-VRAM": {
+      "publisher": "Tom's Hardware",
+      "url": "https://www.tomshardware.com/pc-components/gpus/geforce-rtx-5060-ti-8gb-vs-rtx-5060-ti-16gb-gpu-face-off",
+      "kind": "original_competitor_testing_publication",
+      "inspection": "Original capacity comparison inspected: graphics-setting context, workload distinctions, price discussion and verdict. No test table imported."
+    },
+    "TS-GPU": {
+      "publisher": "TechSpot",
+      "url": "https://www.techspot.com/review/2962-amd-radeon-9070/",
+      "kind": "original_testing_publication",
+      "inspection": "Original source inspected for query context: named game/resolution and raster/ray-tracing sections; it is historical test evidence, not a new site FPS measurement."
+    },
+    "MSI-CPU": {
+      "publisher": "MSI",
+      "url": "https://www.msi.com/support/technical_details/MB_CPU_Upgrade_Installation",
+      "kind": "official_support",
+      "inspection": "Original support procedure inspected. Exact CPU support and BIOS need the board's model-specific compatibility table; no minimum BIOS was inferred from the socket."
+    },
+    "MSI-B650": {
+      "publisher": "MSI",
+      "url": "https://www.msi.com/Motherboard/MAG-B650-TOMAHAWK-WIFI/support",
+      "kind": "official_model_support",
+      "inspection": "Official model support URL opened. Extracted content did not provide the exact 9800X3D/minimum-BIOS table, which remains a verification dependency."
+    },
+    "CORSAIR-CABLE": {
+      "publisher": "CORSAIR",
+      "url": "https://www.corsair.com/uk/en/s/psu-cable-compatibility",
+      "kind": "official_support",
+      "inspection": "Original cable compatibility page inspected. Keep exact PSU/cable type checks, not a universal cable claim."
+    },
+    "CORSAIR-4000D": {
+      "publisher": "CORSAIR",
+      "url": "https://assets.corsair.com/image/upload/v1684779868/corsairmedia/sys_master/productcontent/WW_4000D_4000D_Airflow_QSG_AB.pdf",
+      "kind": "official_manual_lead",
+      "inspection": "Official manual appeared in results; research-tool open returned an internal error in this demand pass. Product workstream separately inspected the original exact case SKU page. A radiator-layout verdict requires the actual manual/measurement."
+    },
+    "MSI-NO-DISPLAY": {
+      "publisher": "MSI",
+      "url": "https://us.msi.com/support/technical_details/DT_Boot_No_Display",
+      "kind": "official_support",
+      "inspection": "Original no-display support page inspected. Generic desktop procedure must not replace the exact motherboard/manual instructions."
+    },
+    "EPIC-FORTNITE": {
+      "publisher": "Epic Games",
+      "url": "https://www.epicgames.com/help/c-34254770/c-80/a16548002?lang=en-US",
+      "kind": "official_game_requirements",
+      "inspection": "Original page inspected: minimum, recommended and Epic Quality sections. No exact FPS for arbitrary components inferred."
+    },
+    "CDPR-CP2077": {
+      "publisher": "CD PROJEKT RED",
+      "url": "https://support.cdprojektred.com/en/cyberpunk%20/pc/sp-technical/issue/1556/cyberpunk-2077-system-requirements",
+      "kind": "official_game_requirements",
+      "inspection": "Original page inspected: separate Update 2.0/Phantom Liberty and previous 1.63 requirements, rendering modes and frame-generation caveat."
+    },
+    "TS-STORAGE": {
+      "publisher": "TechSpot",
+      "url": "https://www.techspot.com/article/3023-ssd-gaming-comparison-load-times/",
+      "kind": "original_test_lead",
+      "inspection": "Original publisher article located through search; used only as a research lead for title/intent. Its benchmark conditions require inspection before numeric claims."
+    },
+    "PUGET-RAM": {
+      "publisher": "Puget Systems",
+      "url": "https://www.pugetsystems.com/labs/articles/when-does-ram-capacity-impact-performance/",
+      "kind": "original_workload_testing",
+      "inspection": "Original article inspected: application-specific results, project settings and limits. Do not generalize one project into universal gaming or creator capacity."
+    },
+    "INTEL-BUILD": {
+      "publisher": "Intel",
+      "url": "https://www.intel.com/content/www/us/en/gaming/resources/how-to-build-a-gaming-pc.html",
+      "kind": "official_educational_guide",
+      "inspection": "Original beginner guide inspected: preparation, parts, assembly and setup. Brand-specific marketing is not an independent recommendation."
+    }
+  },
+  "queries": [
+    {
+      "id": "Q01",
+      "query": "1000 CAD gaming PC build Canada 2026",
+      "cluster": "Regional build budgets",
+      "intent": "Buy a complete first tower within a defined Canadian budget",
+      "audience": "Canadian first-time buyers",
+      "regionalRelevance": "CA/CAD; shipping, province-dependent checkout charges, marketplace sellers and warranty context matter",
+      "priority": "P0",
+      "demandBasis": "public_query_qualitative; usefulness hypothesis",
+      "observation": "Searches expose exact-list/video and budget-build formats. A local budget recommendation needs exact current offers rather than a converted US list. No search volume or popularity is measured.",
+      "sourceIds": [
+        "GN-BUILD"
+      ],
+      "existingMatchingPages": [
+        "/builder/",
+        "/shop/",
+        "/tools/platform-upgrade-cost/"
+      ],
+      "targetPage": "/blog/gaming-pc-1000-cad/",
+      "relatedEditorialIds": [
+        "02",
+        "03"
+      ],
+      "relatedQueryVariantsHypotheses": [
+        "1500 CAD gaming PC build; not separately searched in this pass"
+      ],
+      "action": "Keep one durable CAD planning article per chosen scope and connect it to the budget lab; hold a priced recommended revision until every required line and exact regional offer is documented.",
+      "evidenceRequired": [
+        "Exact BOM and quantities",
+        "CPU/BIOS, cooling, power and layout checks",
+        "Available CAD offers with timestamps/expiry",
+        "Budget inclusions and actual checkout charges"
+      ],
+      "nextStep": {
+        "route": "/tools/budget-build-lab/",
+        "label": "Enter complete Canadian purchase quotes"
+      },
+      "releaseState": "Editorial draft; priced recommendation blocked for exact offers/BOM and human review"
+    },
+    {
+      "id": "Q02",
+      "query": "1500 USD gaming PC build parts list",
+      "cluster": "Regional build budgets",
+      "intent": "Understand what a larger US budget buys and open a complete compatible list",
+      "audience": "US midrange gaming buyers",
+      "regionalRelevance": "US/USD; seller/condition and destination-dependent checkout costs",
+      "priority": "P0",
+      "demandBasis": "public_query_qualitative; usefulness hypothesis",
+      "observation": "Results include original build guides with exact lists, component explanations and retailer links. Their historic price basis cannot establish today's site purchase total.",
+      "sourceIds": [
+        "GN-BUILD"
+      ],
+      "existingMatchingPages": [
+        "/builder/",
+        "/shop/"
+      ],
+      "targetPage": "/blog/gaming-pc-1500-usd/",
+      "relatedEditorialIds": [
+        "04",
+        "05"
+      ],
+      "relatedQueryVariantsHypotheses": [
+        "1000 USD gaming PC build; not separately searched in this pass"
+      ],
+      "action": "Improve existing budget guidance, preserve exact revisions and separate a quote worksheet from a verified recommendation. Do not publish every dollar increment as a separate URL.",
+      "evidenceRequired": [
+        "Complete exact US BOM",
+        "Unexpired USD offer coverage",
+        "Included/owned/excluded items",
+        "Documented workload and fit tradeoffs"
+      ],
+      "nextStep": {
+        "route": "/tools/budget-build-lab/",
+        "label": "Compare two complete US purchase plans"
+      },
+      "releaseState": "Editorial draft; priced recommendation blocked for exact offers/BOM and human review"
+    },
+    {
+      "id": "Q03",
+      "query": "RTX 5070 vs RX 9070 1440p",
+      "cluster": "GPU decisions",
+      "intent": "Choose a GPU for named games/rendering modes at actual prices",
+      "audience": "1440p buyers and owners considering replacement",
+      "regionalRelevance": "Specifications are shared; CAD/USD offers and partner variants differ",
+      "priority": "P1",
+      "demandBasis": "public_query_qualitative",
+      "observation": "Original review and comparison results distinguish game, resolution, rasterization and ray tracing. A specification ratio cannot answer that full buying question.",
+      "sourceIds": [
+        "TS-GPU"
+      ],
+      "existingMatchingPages": [
+        "/compare/",
+        "/learn/rtx5070.html",
+        "/learn/rx9070.html",
+        "/blog/how-to-choose-a-graphics-card/"
+      ],
+      "targetPage": "/compare/rtx-5070-vs-rx-9070/",
+      "relatedEditorialIds": [
+        "07",
+        "11"
+      ],
+      "action": "Use one curated pair page with who-it-fits tradeoffs and test context; keep arbitrary interactive states out of the index and normalize reversed equivalent pairs.",
+      "evidenceRequired": [
+        "Exact base/partner distinction",
+        "Comparable original game conditions",
+        "Permitted result use",
+        "Actual regional offers if discussing value"
+      ],
+      "nextStep": {
+        "route": "/builder/",
+        "label": "Open the chosen exact card in a build"
+      },
+      "releaseState": "Research comparison draft; human review required, current price/FPS guarantees unavailable"
+    },
+    {
+      "id": "Q04",
+      "query": "RTX 5060 Ti 8GB vs 16GB games",
+      "cluster": "GPU decisions",
+      "intent": "Decide whether the memory variant changes a specific workload",
+      "audience": "Buyers comparing similarly named desktop cards",
+      "regionalRelevance": "Exact partner/capacity offers must be matched in CA or US",
+      "priority": "P1",
+      "demandBasis": "public_query_qualitative",
+      "observation": "An original capacity face-off answers the question by settings and workload rather than capacity alone. Preserve those conditions when describing its relevance.",
+      "sourceIds": [
+        "TH-VRAM"
+      ],
+      "existingMatchingPages": [
+        "/blog/rtx-5060-ti-8gb-vs-16gb/",
+        "/learn/rtx5060ti16.html",
+        "/compare/"
+      ],
+      "targetPage": "/blog/rtx-5060-ti-8gb-vs-16gb/",
+      "relatedEditorialIds": [
+        "13",
+        "14"
+      ],
+      "action": "Materially improve the matching article, retain exact capacity in identifiers/offers and disclose missing catalog variants. Do not create a duplicate comparison article merely by reversing wording.",
+      "evidenceRequired": [
+        "NVIDIA capacity specifications",
+        "Comparable game/project tests and rendering modes",
+        "Exact 8 GB/16 GB listings",
+        "Source usage permissions"
+      ],
+      "nextStep": {
+        "route": "/compare/",
+        "label": "Compare exact documented variants"
+      },
+      "releaseState": "Matching article draft awaiting human review; no fabricated missing 8 GB catalog record"
+    },
+    {
+      "id": "Q05",
+      "query": "Ryzen 9800X3D vs 7800X3D upgrade worth it",
+      "cluster": "CPU upgrade decisions",
+      "intent": "Separate a new-platform purchase from replacing a working AM5 CPU",
+      "audience": "New buyers and existing 7800X3D owners",
+      "regionalRelevance": "Complete purchase differences in the selected currency; inherited parts have no new purchase charge",
+      "priority": "P1",
+      "demandBasis": "public_query_qualitative",
+      "observation": "The original comparison frames a price-conditioned choice and exposes named game tests. Owner value is a different question from choosing between two new CPUs.",
+      "sourceIds": [
+        "TS-CPU"
+      ],
+      "existingMatchingPages": [
+        "/learn/9800x3d.html",
+        "/learn/7800x3d.html",
+        "/compare/",
+        "/blog/am5-upgrade-checklist/"
+      ],
+      "targetPage": "/compare/ryzen-7-9800x3d-vs-7800x3d/",
+      "relatedEditorialIds": [
+        "12",
+        "22"
+      ],
+      "action": "Keep one curated comparison with separate owner/new-buyer paths, exact BIOS/cooler checks and a no-upgrade option.",
+      "evidenceRequired": [
+        "AMD exact processor specifications",
+        "Board CPU-support/minimum BIOS",
+        "Like-for-like game/application tests",
+        "Full purchase difference"
+      ],
+      "nextStep": {
+        "route": "/upgrade/",
+        "label": "Record the existing PC and test the replacement path"
+      },
+      "releaseState": "Research draft awaiting human review; exact installed BIOS remains user/document verification"
+    },
+    {
+      "id": "Q06",
+      "query": "RTX 3060 upgrade or keep card",
+      "cluster": "Older-PC reuse",
+      "intent": "Choose between retaining a working card and useful replacement routes",
+      "audience": "Desktop RTX 3060 owners",
+      "regionalRelevance": "Replacement, PSU/case changes and used condition differ by local offer",
+      "priority": "P0",
+      "demandBasis": "public_query_qualitative; usefulness hypothesis",
+      "observation": "Results expose upgrade-matrix and owner-decision formats. The site's opportunity is a documented symptom/goal path, not a universal replacement because the card is older.",
+      "sourceIds": [],
+      "existingMatchingPages": [
+        "/blog/rtx-3060-upgrade-or-keep/",
+        "/blog/cpu-or-gpu-upgrade-for-gaming/",
+        "/learn/rtx3060.html"
+      ],
+      "targetPage": "/blog/rtx-3060-upgrade-or-keep/",
+      "relatedEditorialIds": [
+        "19",
+        "20"
+      ],
+      "action": "Strengthen the existing owner guide and carry the exact installed partner/capacity card into the upgrade planner. Include changing nothing or adjusting a supported setting.",
+      "evidenceRequired": [
+        "Exact current card and observed symptom",
+        "Named games/settings baseline",
+        "Comparable replacement evidence",
+        "Complete power/fit/cost implications"
+      ],
+      "nextStep": {
+        "route": "/upgrade/",
+        "label": "Create a keep, replace or verify plan"
+      },
+      "releaseState": "Existing-route draft awaiting human review; any uplift claim blocked without comparable evidence"
+    },
+    {
+      "id": "Q07",
+      "query": "AM4 upgrade vs AM5 whole platform cost",
+      "cluster": "Older-PC reuse",
+      "intent": "Compare a supported drop-in upgrade with full platform replacement",
+      "audience": "Owners of a working AM4 PC",
+      "regionalRelevance": "CAD/USD complete new-purchase totals; owned DDR4, case/storage and cooling are assessed separately",
+      "priority": "P0",
+      "demandBasis": "public_query_qualitative; usefulness hypothesis",
+      "observation": "Visible result titles ask when switching platforms is worthwhile and what the complete change costs. Qualitative signals support the intent, not a measured audience size.",
+      "sourceIds": [
+        "MSI-CPU"
+      ],
+      "existingMatchingPages": [
+        "/blog/pc-upgrade-total-platform-cost/",
+        "/tools/platform-upgrade-cost/",
+        "/learn/5700x3d.html"
+      ],
+      "targetPage": "/blog/am4-upgrade-vs-platform-replacement/",
+      "relatedEditorialIds": [
+        "21",
+        "24",
+        "25"
+      ],
+      "action": "Keep the existing whole-platform calculator and link the researched AM4 decision article to reuse and phased plans. Give each article a distinct decision scope; consolidate if it repeats the cost article.",
+      "evidenceRequired": [
+        "Exact supported old-board/CPU/BIOS path",
+        "New CPU/board/memory/cooling/accessories",
+        "Unknown quotes and owned parts",
+        "Compatibility at each purchase phase"
+      ],
+      "nextStep": {
+        "route": "/tools/budget-build-lab/",
+        "label": "Compare complete keep-platform and change-platform quotes"
+      },
+      "releaseState": "Research draft awaiting human review; no invented complete price or CPU uplift"
+    },
+    {
+      "id": "Q08",
+      "query": "reuse old PC parts new build power supply storage",
+      "cluster": "Older-PC reuse",
+      "intent": "Know what can stay and what needs a model-specific check",
+      "audience": "Owners moving usable parts into a different PC",
+      "regionalRelevance": "Reusable condition/support is model-specific; new spending follows selected region",
+      "priority": "P0",
+      "demandBasis": "public_query_qualitative; usefulness hypothesis",
+      "observation": "Results explicitly frame storage, PSU cables, cooling and exact compatibility as reuse questions. A universal old-part rule would conceal the actual decision.",
+      "sourceIds": [
+        "CORSAIR-CABLE"
+      ],
+      "existingMatchingPages": [
+        "/builder/",
+        "/tools/platform-upgrade-cost/",
+        "/blog/pc-build-compatibility-checklist/"
+      ],
+      "targetPage": "/blog/reuse-pc-components-new-build/",
+      "relatedEditorialIds": [
+        "23",
+        "25",
+        "26"
+      ],
+      "action": "Connect the keep/replace/verify article to owned/locked selections, safe pasted-list confirmation and revision saves; do not duplicate a general assembly article.",
+      "evidenceRequired": [
+        "Exact identity and condition",
+        "Interfaces/mounts/cable approvals",
+        "Support evidence and unresolved checks",
+        "Current PC plus target requirements"
+      ],
+      "nextStep": {
+        "route": "/upgrade/",
+        "label": "Mark owned parts and inspect reuse requirements"
+      },
+      "releaseState": "Research draft awaiting human review; unverified matches require confirmation"
+    },
+    {
+      "id": "Q09",
+      "query": "MSI B650 Tomahawk 9800X3D BIOS CPU support",
+      "cluster": "Exact compatibility",
+      "intent": "Establish whether a specific board/firmware will start the chosen CPU",
+      "audience": "AM5 owners and buyers substituting a CPU",
+      "regionalRelevance": "Exact board revision/installed firmware matter more than purchasing country",
+      "priority": "P0",
+      "demandBasis": "public_query_qualitative; usefulness hypothesis",
+      "observation": "Official board/support pages and firmware questions appear. MSI's original procedure directs readers to CPU Support and BIOS; the extracted board support page did not establish the exact minimum version.",
+      "sourceIds": [
+        "MSI-CPU",
+        "MSI-B650"
+      ],
+      "existingMatchingPages": [
+        "/blog/am5-upgrade-checklist/",
+        "/learn/b650.html",
+        "/learn/9800x3d.html",
+        "/builder/"
+      ],
+      "targetPage": "/blog/check-cpu-bios-support/",
+      "relatedEditorialIds": [
+        "22",
+        "28"
+      ],
+      "action": "Explain the repeatable exact support-list check in one article and route specific selected pairs into the compatibility/readiness system. Keep the BIOS result unknown until documented.",
+      "evidenceRequired": [
+        "Exact board/revision",
+        "Exact CPU support row",
+        "Required and installed BIOS",
+        "Official procedure if an update is needed"
+      ],
+      "nextStep": {
+        "route": "/compatibility/",
+        "label": "Read model sources and the next BIOS verification step"
+      },
+      "releaseState": "Research draft awaiting human review; exact minimum-version dataset remains a dependency"
+    },
+    {
+      "id": "Q10",
+      "query": "Corsair 4000D GPU fit front radiator clearance",
+      "cluster": "Exact compatibility",
+      "intent": "Check an occupied case layout rather than only a GPU length label",
+      "audience": "Builders choosing an exact card, case and radiator",
+      "regionalRelevance": "Original 4000D/Airflow/FRAME and exact GPU variants remain distinct in any region",
+      "priority": "P0",
+      "demandBasis": "public_query_qualitative",
+      "observation": "Question-shaped result titles focus on radiator occupancy and which clearance measurement includes fans. A manual lead surfaced; this pass's fetch limitation does not establish a broken public manual.",
+      "sourceIds": [
+        "CORSAIR-4000D"
+      ],
+      "existingMatchingPages": [
+        "/blog/will-a-graphics-card-fit-my-case/",
+        "/learn/retail-corsair-4000d-black.html",
+        "/builder/"
+      ],
+      "targetPage": "/blog/will-a-graphics-card-fit-my-case/",
+      "relatedEditorialIds": [
+        "08",
+        "18",
+        "27"
+      ],
+      "action": "Improve the existing dimensions guide, keep documented dimensions separate from manual measurements, and use one compatibility center rather than indexing every case/card pair. Treat 3D as visualization.",
+      "evidenceRequired": [
+        "Exact case/card SKU",
+        "Card length/height/thickness and connector path",
+        "Occupied radiator/fan/drive layout",
+        "Documented bounds or explicit manual measurements"
+      ],
+      "nextStep": {
+        "route": "/compatibility/",
+        "label": "Check the layout and record unknown clearances"
+      },
+      "releaseState": "Existing-route draft awaiting human review; specific radiator verdict blocked without evidence"
+    },
+    {
+      "id": "Q11",
+      "query": "reuse modular power supply cables Corsair compatibility",
+      "cluster": "Exact compatibility",
+      "intent": "Know whether an existing cable can be used with the selected PSU safely",
+      "audience": "Owners changing or reusing a modular power supply",
+      "regionalRelevance": "Exact PSU generation and cable family; regional product code must be preserved",
+      "priority": "P0",
+      "demandBasis": "public_query_qualitative",
+      "observation": "The official compatibility chart and manufacturer explanation directly serve this question. Physical connector appearance is insufficient evidence.",
+      "sourceIds": [
+        "CORSAIR-CABLE"
+      ],
+      "existingMatchingPages": [
+        "/blog/choose-a-pc-power-supply/",
+        "/learn/rm850x.html",
+        "/builder/"
+      ],
+      "targetPage": "/blog/choose-a-pc-power-supply/",
+      "relatedEditorialIds": [
+        "23",
+        "29"
+      ],
+      "action": "Improve the matching PSU article with exact model/cable evidence and a clear readiness next step; no generic wattage or universal-cable certification.",
+      "evidenceRequired": [
+        "Exact PSU model/revision",
+        "Original cable part/type",
+        "Official approval chart",
+        "CPU/GPU input and approved replacement-cable documentation"
+      ],
+      "nextStep": {
+        "route": "/builder/#readiness-report",
+        "label": "Record power and cable checks in the build"
+      },
+      "releaseState": "Existing-route draft awaiting human review; cable reuse unknown until approved for the exact model"
+    },
+    {
+      "id": "Q12",
+      "query": "PC games low FPS stuttering troubleshoot",
+      "cluster": "Troubleshooting",
+      "intent": "Identify the observable problem before changing settings or spending",
+      "audience": "Owners with low averages, frame spikes or a recent performance regression",
+      "regionalRelevance": "Software/game/hardware context first; region only matters if a later purchase is justified",
+      "priority": "P0",
+      "demandBasis": "public_query_qualitative",
+      "observation": "Results mix symptom-first diagnostics with universal-fix promises. Page titles distinguish low FPS from stuttering; the site's useful contribution is a baseline and one-change-at-a-time path, not unsupported tweak scripts.",
+      "sourceIds": [],
+      "existingMatchingPages": [
+        "/blog/cpu-or-gpu-upgrade-for-gaming/",
+        "/blog/graphics-driver-update-rollback-checklist/",
+        "/performance/",
+        "/tools/frame-time-budget/"
+      ],
+      "targetPage": "/blog/low-fps-stutter-diagnostic-checklist/",
+      "relatedEditorialIds": [
+        "19",
+        "32",
+        "33",
+        "35"
+      ],
+      "action": "Make the troubleshooting wizard a clear symptom entry and retain one complete checklist article. Reuse driver rollback guidance and explain frame intervals without a fabricated bottleneck percentage.",
+      "evidenceRequired": [
+        "Game/version/settings and prior baseline",
+        "Frame-time/usage observations",
+        "Official game/driver/support procedures",
+        "Rollback and safe stopping points"
+      ],
+      "nextStep": {
+        "route": "/troubleshooting/",
+        "label": "Choose the observed symptom and preserve a baseline"
+      },
+      "releaseState": "Exact route matched to editorial item 32; human review required; no arbitrary component-to-FPS prediction"
+    },
+    {
+      "id": "Q13",
+      "query": "new PC powers on no display troubleshooting official",
+      "cluster": "Troubleshooting",
+      "intent": "Find the next safe check after a failed first boot",
+      "audience": "First-time builders and owners after a part change",
+      "regionalRelevance": "Exact motherboard diagnostics, CPU graphics support and display path",
+      "priority": "P0",
+      "demandBasis": "public_query_qualitative",
+      "observation": "Original manufacturer support provides monitor/connection and change-history checks. Its generic procedure is not a reason to invent the board's connector layout or firmware steps.",
+      "sourceIds": [
+        "MSI-NO-DISPLAY"
+      ],
+      "existingMatchingPages": [
+        "/blog/new-pc-first-boot-setup-checklist/",
+        "/builder/"
+      ],
+      "targetPage": "/blog/new-pc-no-display-safe-checks/",
+      "relatedEditorialIds": [
+        "10",
+        "31"
+      ],
+      "action": "Connect Build School and the first-boot checklist directly to a safe no-display branch with the exact manual, visible diagnostic record and an escalation stop.",
+      "evidenceRequired": [
+        "Exact board/CPU/display path",
+        "Diagnostic LED/beep indication",
+        "Recent changes and power-off checks",
+        "Official model manual and support procedure"
+      ],
+      "nextStep": {
+        "route": "/troubleshooting/",
+        "label": "Follow the no-display path"
+      },
+      "releaseState": "Exact route matched to editorial item 31; human review required; no unsupported BIOS or live-hardware claims"
+    },
+    {
+      "id": "Q14",
+      "query": "Cyberpunk 2077 PC system requirements",
+      "cluster": "Game evidence",
+      "intent": "Know which official requirements apply to the game version and rendering mode",
+      "audience": "New players and owners planning a game-specific upgrade",
+      "regionalRelevance": "Version/mode-specific evidence is shared; purchase cost and available variants are regional",
+      "priority": "P1",
+      "demandBasis": "public_query_qualitative",
+      "observation": "The original support page separates current and historical requirement tables and calls out frame generation for a particular mode. Requirements, developer target context and site-measured FPS are distinct.",
+      "sourceIds": [
+        "CDPR-CP2077"
+      ],
+      "existingMatchingPages": [
+        "/performance/",
+        "/methodology/"
+      ],
+      "targetPage": "/performance/evidence/",
+      "relatedEditorialIds": [
+        "35",
+        "36",
+        "40"
+      ],
+      "action": "Connect the evidence hub and retain the official version/mode source. The current first researched game article is Fortnite, so do not pretend it answers Cyberpunk or invent a new Cyberpunk article. A later game-specific page needs a distinct evidenced brief. Do not create the CPU/GPU/resolution matrix as indexable pages.",
+      "evidenceRequired": [
+        "Official current game/version requirements",
+        "Original compatible test conditions",
+        "Permission to use results",
+        "Coverage/version limits and source date"
+      ],
+      "nextStep": {
+        "route": "/performance/evidence/",
+        "label": "Read what the available evidence can establish"
+      },
+      "releaseState": "Evidence hub is the current target; a separate Cyberpunk editorial guide remains a P2 hypothesis, not implemented content"
+    },
+    {
+      "id": "Q15",
+      "query": "Fortnite PC recommended system requirements FPS",
+      "cluster": "Game evidence",
+      "intent": "Separate hardware support and graphics presets from a target frame-rate claim",
+      "audience": "Competitive players choosing or troubleshooting a PC",
+      "regionalRelevance": "Shared requirements; regional offers only if building or upgrading",
+      "priority": "P1",
+      "demandBasis": "public_query_qualitative",
+      "observation": "Epic's official page has minimum, recommended and Epic Quality sections. It does not establish an arbitrary selected system's measured FPS.",
+      "sourceIds": [
+        "EPIC-FORTNITE"
+      ],
+      "existingMatchingPages": [
+        "/performance/",
+        "/tools/frame-time-budget/",
+        "/tools/display-goal/"
+      ],
+      "targetPage": "/blog/fortnite-pc-requirements-settings-evidence/",
+      "relatedEditorialIds": [
+        "06",
+        "35",
+        "37",
+        "38"
+      ],
+      "action": "Connect the researched Fortnite article to the existing library and evidence explanations. Preserve the game's version/preset record and avoid a thin generated result page.",
+      "evidenceRequired": [
+        "Official preset-specific support record",
+        "Comparable current game/scene tests",
+        "Display mode/output context",
+        "Distinct base/generated-frame reporting"
+      ],
+      "nextStep": {
+        "route": "/tools/display-goal/",
+        "label": "Define the display target and check actual evidence"
+      },
+      "releaseState": "Exact route matched to editorial item 38; human review required; no game-specific measured FPS claim without comparable evidence"
+    },
+    {
+      "id": "Q16",
+      "query": "NVMe vs SATA SSD gaming load times",
+      "cluster": "Storage decisions",
+      "intent": "Choose a compatible interface and decide whether to retain a working SATA SSD",
+      "audience": "Owners adding capacity and buyers comparing storage claims",
+      "regionalRelevance": "Local exact-capacity offers and region-specific warranty; interface evidence is shared",
+      "priority": "P1",
+      "demandBasis": "public_query_qualitative",
+      "observation": "An original loading comparison appears alongside simplified speed-ratio articles. The result title demonstrates the intent; benchmark conditions need inspection before importing any quantitative conclusion.",
+      "sourceIds": [
+        "TS-STORAGE"
+      ],
+      "existingMatchingPages": [
+        "/blog/nvme-vs-sata-ssd-for-gaming/",
+        "/blog/choosing-an-ssd/",
+        "/tools/storage-capacity-planner/"
+      ],
+      "targetPage": "/blog/nvme-vs-sata-ssd-for-gaming/",
+      "relatedEditorialIds": [
+        "16",
+        "26"
+      ],
+      "action": "Improve the exact existing article; distinguish capacity, physical M.2 size, protocol, game requirements, loading and FPS. Connect to slot-sharing and capacity tools without a duplicate SSD primer.",
+      "evidenceRequired": [
+        "Exact board/slot and drive variant",
+        "Current game storage requirements",
+        "Comparable loading/workload tests if numbers used",
+        "Capacity and backup needs"
+      ],
+      "nextStep": {
+        "route": "/tools/storage-capacity-planner/",
+        "label": "Check whether storage capacity is the real problem"
+      },
+      "releaseState": "Existing-route research draft awaiting human review; no maximum sequential speed converted to FPS"
+    },
+    {
+      "id": "Q17",
+      "query": "32GB vs 64GB RAM gaming video editing workload",
+      "cluster": "Memory decisions",
+      "intent": "Choose capacity using actual projects, concurrent applications and supported kit configuration",
+      "audience": "Gamers, editors and multitaskers",
+      "regionalRelevance": "Matched-kit prices/variants differ in CA/US; workload and board support remain explicit",
+      "priority": "P1",
+      "demandBasis": "public_query_qualitative",
+      "observation": "Original application research and user questions distinguish gaming from specific editing projects. A resolution label alone cannot determine every project's memory pressure.",
+      "sourceIds": [
+        "PUGET-RAM"
+      ],
+      "existingMatchingPages": [
+        "/blog/32gb-vs-64gb-ram-workloads/",
+        "/blog/understanding-pc-memory/",
+        "/blog/how-to-choose-gaming-ram/",
+        "/tools/ram-latency-calculator/"
+      ],
+      "targetPage": "/blog/32gb-vs-64gb-ram-workloads/",
+      "relatedEditorialIds": [
+        "15",
+        "26",
+        "34",
+        "39"
+      ],
+      "action": "Improve the matching workload article and link it to exact kit/module support. Consolidate repeated capacity definitions into contextual links rather than another near-identical buying guide.",
+      "evidenceRequired": [
+        "Actual application/project and memory observation",
+        "Comparable original workload studies",
+        "Exact kit generation/modules/profile",
+        "Board/CPU memory configuration and BIOS"
+      ],
+      "nextStep": {
+        "route": "/upgrade/",
+        "label": "Record the capacity problem and verify an exact kit"
+      },
+      "releaseState": "Existing-route draft awaiting human review; no universal gaming uplift from more capacity"
+    },
+    {
+      "id": "Q18",
+      "query": "how to build gaming PC beginner assembly checklist",
+      "cluster": "Build School",
+      "intent": "Move from a clear parts plan through assembly and first boot without losing the next action",
+      "audience": "First-time desktop builders",
+      "regionalRelevance": "Use CAD/USD budget scope; installation follows the exact component manuals",
+      "priority": "P0",
+      "demandBasis": "public_query_qualitative",
+      "observation": "The original manufacturer guide separates preparation, components, assembly and setup. The site's opportunity is to connect that learning path to saved choices, unresolved checks and a usable printable checklist.",
+      "sourceIds": [
+        "INTEL-BUILD"
+      ],
+      "existingMatchingPages": [
+        "/blog/pc-build-compatibility-checklist/",
+        "/blog/new-pc-first-boot-setup-checklist/",
+        "/builder/"
+      ],
+      "targetPage": "/blog/build-your-first-gaming-pc/",
+      "relatedEditorialIds": [
+        "01",
+        "10"
+      ],
+      "action": "Use one master article and the Build School hub with optional local progress and printing. Keep short steps inside the guide unless a lesson provides enough distinct useful evidence to stand alone.",
+      "evidenceRequired": [
+        "Exact manuals for selected hardware",
+        "Safe power-off/cable procedures",
+        "OS and official driver support",
+        "Accessible checklist and tested next-step journeys"
+      ],
+      "nextStep": {
+        "route": "/build-school/",
+        "label": "Follow the learning path and save the checklist"
+      },
+      "releaseState": "Research draft awaiting human review; checklist state is local, not account backed"
+    }
+  ],
+  "hubOwnership": [
+    {
+      "route": "/build-school/",
+      "role": "Learning path and saved/printable progress",
+      "articleHome": "/blog/",
+      "queries": [
+        "Q13",
+        "Q18"
+      ],
+      "avoid": "Duplicating the master assembly article or indexing every tiny checklist step"
+    },
+    {
+      "route": "/upgrade/",
+      "role": "Current-PC intake, reuse choices and explicit alternatives",
+      "articleHome": "/blog/",
+      "queries": [
+        "Q05",
+        "Q06",
+        "Q07",
+        "Q08",
+        "Q17"
+      ],
+      "avoid": "Universal bottleneck scores or replacement solely because of age"
+    },
+    {
+      "route": "/compatibility/",
+      "role": "Source-linked model checks and needs-verification next steps",
+      "articleHome": "/blog/",
+      "queries": [
+        "Q09",
+        "Q10",
+        "Q11"
+      ],
+      "avoid": "A limitless indexable pairing matrix or unknown-as-pass"
+    },
+    {
+      "route": "/troubleshooting/",
+      "role": "Symptom entry and baseline-preserving safe workflow",
+      "articleHome": "/blog/",
+      "queries": [
+        "Q12",
+        "Q13"
+      ],
+      "avoid": "Universal tweak scripts or routing every symptom to a purchase"
+    },
+    {
+      "route": "/performance/evidence/",
+      "role": "Benchmark coverage, conditions, requirements and limitations",
+      "articleHome": "/blog/",
+      "queries": [
+        "Q03",
+        "Q04",
+        "Q14",
+        "Q15"
+      ],
+      "avoid": "Synthetic scores labeled measured FPS or generated frames labeled lower input latency"
+    },
+    {
+      "route": "/tools/budget-build-lab/",
+      "role": "Complete actual-quote worksheet for two scenarios",
+      "articleHome": "/blog/",
+      "queries": [
+        "Q01",
+        "Q02",
+        "Q07"
+      ],
+      "avoid": "A simulated live global price optimizer or partial subtotal labeled a complete build cost"
+    }
+  ],
+  "releaseNotes": [
+    "New hubs and editorial draft routes are staging implementation targets, not claims that they are publicly indexed or deployed.",
+    "Target articles reuse matching established paths where present. Exact checklist/game routes were reconciled against the final 40-item editorial manifest on the research date.",
+    "Budget and same-budget comparisons remain blocked for exact BOM/offers as recorded in the editorial system.",
+    "All substantive new editorial items require truthful human review; these observations do not approve publication.",
+    "Next evidence upgrade: obtain authorized Search Console/analytics/log exports and compare meaningful comparable periods by country, device, cluster and landing page. Do not invent those measurements."
+  ],
+  "editorialCoverage": [
+    {
+      "id": "01",
+      "route": "/blog/build-your-first-gaming-pc/",
+      "intent": "Complete a first build safely without losing the next step",
+      "queryIds": [
+        "Q18"
+      ],
+      "demandBasis": "related public-query qualitative intent; not a volume measurement",
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "blockingDependencies": [
+        "human_editorial_review"
+      ],
+      "indexable": false,
+      "published": false
+    },
+    {
+      "id": "02",
+      "route": "/blog/gaming-pc-1000-cad/",
+      "intent": "Plan a complete Canadian entry gaming budget",
+      "queryIds": [
+        "Q01"
+      ],
+      "demandBasis": "related public-query qualitative intent; not a volume measurement",
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "blockingDependencies": [
+        "exact_regional_offers",
+        "verified_bom_revision",
+        "human_editorial_review"
+      ],
+      "indexable": false,
+      "published": false
+    },
+    {
+      "id": "03",
+      "route": "/blog/gaming-pc-1500-cad/",
+      "intent": "Allocate a Canadian midrange budget using complete costs",
+      "queryIds": [
+        "Q01"
+      ],
+      "demandBasis": "related public-query qualitative intent; not a volume measurement",
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "blockingDependencies": [
+        "exact_regional_offers",
+        "verified_bom_revision",
+        "human_editorial_review"
+      ],
+      "indexable": false,
+      "published": false
+    },
+    {
+      "id": "04",
+      "route": "/blog/gaming-pc-1000-usd/",
+      "intent": "Avoid hidden costs in a US entry gaming build",
+      "queryIds": [
+        "Q02"
+      ],
+      "demandBasis": "related public-query qualitative intent; not a volume measurement",
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "blockingDependencies": [
+        "exact_regional_offers",
+        "verified_bom_revision",
+        "human_editorial_review"
+      ],
+      "indexable": false,
+      "published": false
+    },
+    {
+      "id": "05",
+      "route": "/blog/gaming-pc-1500-usd/",
+      "intent": "Evaluate where a larger US gaming budget adds useful capability",
+      "queryIds": [
+        "Q02"
+      ],
+      "demandBasis": "related public-query qualitative intent; not a volume measurement",
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "blockingDependencies": [
+        "exact_regional_offers",
+        "verified_bom_revision",
+        "human_editorial_review"
+      ],
+      "indexable": false,
+      "published": false
+    },
+    {
+      "id": "06",
+      "route": "/blog/plan-1080p-high-refresh-gaming-pc/",
+      "intent": "Choose a useful competitive-gaming configuration",
+      "queryIds": [
+        "Q15"
+      ],
+      "demandBasis": "related public-query qualitative intent; not a volume measurement",
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "blockingDependencies": [
+        "human_editorial_review"
+      ],
+      "indexable": false,
+      "published": false
+    },
+    {
+      "id": "07",
+      "route": "/blog/plan-balanced-1440p-gaming-pc/",
+      "intent": "Plan a complete system for a defined 1440p display goal",
+      "queryIds": [
+        "Q03"
+      ],
+      "demandBasis": "related public-query qualitative intent; not a volume measurement",
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "blockingDependencies": [
+        "human_editorial_review"
+      ],
+      "indexable": false,
+      "published": false
+    },
+    {
+      "id": "08",
+      "route": "/blog/compact-quiet-pc-fit-cooling/",
+      "intent": "Plan a compact layout without assuming fit or silence",
+      "queryIds": [
+        "Q10"
+      ],
+      "demandBasis": "related public-query qualitative intent; not a volume measurement",
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "blockingDependencies": [
+        "human_editorial_review"
+      ],
+      "indexable": false,
+      "published": false
+    },
+    {
+      "id": "09",
+      "route": "/blog/gaming-streaming-pc-planning/",
+      "intent": "Allocate hardware for simultaneous play, stream and optional recording",
+      "queryIds": [],
+      "demandBasis": "reasoned usefulness hypothesis; no dedicated query searched in this bounded pass",
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "blockingDependencies": [
+        "human_editorial_review"
+      ],
+      "indexable": false,
+      "published": false
+    },
+    {
+      "id": "10",
+      "route": "/blog/new-pc-first-boot-setup-checklist/",
+      "intent": "Move from completed assembly to a supported working system",
+      "queryIds": [
+        "Q13",
+        "Q18"
+      ],
+      "demandBasis": "related public-query qualitative intent; not a volume measurement",
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "blockingDependencies": [
+        "human_editorial_review"
+      ],
+      "indexable": false,
+      "published": false
+    },
+    {
+      "id": "11",
+      "route": "/compare/rtx-5070-vs-rx-9070/",
+      "intent": "Choose between two documented GPU designs",
+      "queryIds": [
+        "Q03"
+      ],
+      "demandBasis": "related public-query qualitative intent; not a volume measurement",
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "blockingDependencies": [
+        "human_editorial_review"
+      ],
+      "indexable": false,
+      "published": false
+    },
+    {
+      "id": "12",
+      "route": "/compare/ryzen-7-9800x3d-vs-7800x3d/",
+      "intent": "Choose an AM5 gaming CPU or evaluate a replacement",
+      "queryIds": [
+        "Q05"
+      ],
+      "demandBasis": "related public-query qualitative intent; not a volume measurement",
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "blockingDependencies": [
+        "human_editorial_review"
+      ],
+      "indexable": false,
+      "published": false
+    },
+    {
+      "id": "13",
+      "route": "/blog/rtx-5060-ti-8gb-vs-16gb/",
+      "intent": "Choose between capacity variants without a blanket rule",
+      "queryIds": [
+        "Q04"
+      ],
+      "demandBasis": "related public-query qualitative intent; not a volume measurement",
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "blockingDependencies": [
+        "human_editorial_review"
+      ],
+      "indexable": false,
+      "published": false
+    },
+    {
+      "id": "14",
+      "route": "/compare/rtx-5060-ti-16gb-vs-rx-9060-xt-16gb/",
+      "intent": "Evaluate two alternatives when local prices make the comparison meaningful",
+      "queryIds": [
+        "Q04"
+      ],
+      "demandBasis": "related public-query qualitative intent; not a volume measurement",
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "blockingDependencies": [
+        "verified_same_budget_offers",
+        "human_editorial_review"
+      ],
+      "indexable": false,
+      "published": false
+    },
+    {
+      "id": "15",
+      "route": "/blog/32gb-vs-64gb-ram-workloads/",
+      "intent": "Decide whether a defined workload needs a larger matched kit",
+      "queryIds": [
+        "Q17"
+      ],
+      "demandBasis": "related public-query qualitative intent; not a volume measurement",
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "blockingDependencies": [
+        "human_editorial_review"
+      ],
+      "indexable": false,
+      "published": false
+    },
+    {
+      "id": "16",
+      "route": "/blog/nvme-vs-sata-ssd-for-gaming/",
+      "intent": "Choose a compatible SSD or evaluate a storage replacement",
+      "queryIds": [
+        "Q16"
+      ],
+      "demandBasis": "related public-query qualitative intent; not a volume measurement",
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "blockingDependencies": [
+        "human_editorial_review"
+      ],
+      "indexable": false,
+      "published": false
+    },
+    {
+      "id": "17",
+      "route": "/blog/choose-a-motherboard-for-your-cpu/",
+      "intent": "Select an AM5 board through exact documented features",
+      "queryIds": [],
+      "demandBasis": "reasoned usefulness hypothesis; no dedicated query searched in this bounded pass",
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "blockingDependencies": [
+        "human_editorial_review"
+      ],
+      "indexable": false,
+      "published": false
+    },
+    {
+      "id": "18",
+      "route": "/blog/ryzen-7800x3d-north-air-vs-aio/",
+      "intent": "Evaluate two cooling layouts for one specified CPU and case",
+      "queryIds": [
+        "Q10"
+      ],
+      "demandBasis": "related public-query qualitative intent; not a volume measurement",
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "blockingDependencies": [
+        "human_editorial_review"
+      ],
+      "indexable": false,
+      "published": false
+    },
+    {
+      "id": "19",
+      "route": "/blog/cpu-or-gpu-upgrade-for-gaming/",
+      "intent": "Identify a useful gaming upgrade from observed evidence",
+      "queryIds": [
+        "Q06",
+        "Q12"
+      ],
+      "demandBasis": "related public-query qualitative intent; not a volume measurement",
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "blockingDependencies": [
+        "human_editorial_review"
+      ],
+      "indexable": false,
+      "published": false
+    },
+    {
+      "id": "20",
+      "route": "/blog/rtx-3060-upgrade-or-keep/",
+      "intent": "Evaluate an RTX 3060 owner’s alternatives",
+      "queryIds": [
+        "Q06"
+      ],
+      "demandBasis": "related public-query qualitative intent; not a volume measurement",
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "blockingDependencies": [
+        "human_editorial_review"
+      ],
+      "indexable": false,
+      "published": false
+    },
+    {
+      "id": "21",
+      "route": "/blog/am4-upgrade-vs-platform-replacement/",
+      "intent": "Compare an AM4 drop-in candidate with full platform replacement",
+      "queryIds": [
+        "Q07"
+      ],
+      "demandBasis": "related public-query qualitative intent; not a volume measurement",
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "blockingDependencies": [
+        "human_editorial_review"
+      ],
+      "indexable": false,
+      "published": false
+    },
+    {
+      "id": "22",
+      "route": "/blog/am5-upgrade-checklist/",
+      "intent": "Prepare a documented AM5 CPU replacement",
+      "queryIds": [
+        "Q05",
+        "Q09"
+      ],
+      "demandBasis": "related public-query qualitative intent; not a volume measurement",
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "blockingDependencies": [
+        "human_editorial_review"
+      ],
+      "indexable": false,
+      "published": false
+    },
+    {
+      "id": "23",
+      "route": "/blog/reuse-pc-components-new-build/",
+      "intent": "Evaluate existing equipment without assuming universal compatibility",
+      "queryIds": [
+        "Q08",
+        "Q11"
+      ],
+      "demandBasis": "related public-query qualitative intent; not a volume measurement",
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "blockingDependencies": [
+        "human_editorial_review"
+      ],
+      "indexable": false,
+      "published": false
+    },
+    {
+      "id": "24",
+      "route": "/blog/pc-upgrade-total-platform-cost/",
+      "intent": "Calculate honest whole-platform purchase scenarios",
+      "queryIds": [
+        "Q07"
+      ],
+      "demandBasis": "related public-query qualitative intent; not a volume measurement",
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "blockingDependencies": [
+        "human_editorial_review"
+      ],
+      "indexable": false,
+      "published": false
+    },
+    {
+      "id": "25",
+      "route": "/blog/phased-pc-upgrade-plan/",
+      "intent": "Sequence purchases while preserving working intermediate PCs",
+      "queryIds": [
+        "Q07",
+        "Q08"
+      ],
+      "demandBasis": "related public-query qualitative intent; not a volume measurement",
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "blockingDependencies": [
+        "human_editorial_review"
+      ],
+      "indexable": false,
+      "published": false
+    },
+    {
+      "id": "26",
+      "route": "/blog/ram-or-storage-capacity-problem/",
+      "intent": "Diagnose capacity symptoms before selecting an upgrade",
+      "queryIds": [
+        "Q08",
+        "Q16",
+        "Q17"
+      ],
+      "demandBasis": "related public-query qualitative intent; not a volume measurement",
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "blockingDependencies": [
+        "human_editorial_review"
+      ],
+      "indexable": false,
+      "published": false
+    },
+    {
+      "id": "27",
+      "route": "/blog/will-a-graphics-card-fit-my-case/",
+      "intent": "Verify physical graphics-card installation with documented or measured dimensions",
+      "queryIds": [
+        "Q10"
+      ],
+      "demandBasis": "related public-query qualitative intent; not a volume measurement",
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "blockingDependencies": [
+        "human_editorial_review"
+      ],
+      "indexable": false,
+      "published": false
+    },
+    {
+      "id": "28",
+      "route": "/blog/check-cpu-bios-support/",
+      "intent": "Verify processor recognition and firmware preparation",
+      "queryIds": [
+        "Q09"
+      ],
+      "demandBasis": "related public-query qualitative intent; not a volume measurement",
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "blockingDependencies": [
+        "human_editorial_review"
+      ],
+      "indexable": false,
+      "published": false
+    },
+    {
+      "id": "29",
+      "route": "/blog/choose-a-pc-power-supply/",
+      "intent": "Select a documented power connection plan",
+      "queryIds": [
+        "Q11"
+      ],
+      "demandBasis": "related public-query qualitative intent; not a volume measurement",
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "blockingDependencies": [
+        "human_editorial_review"
+      ],
+      "indexable": false,
+      "published": false
+    },
+    {
+      "id": "30",
+      "route": "/blog/b650-tomahawk-m2-pcie-lane-sharing/",
+      "intent": "Plan storage and expansion using the exact board topology",
+      "queryIds": [],
+      "demandBasis": "reasoned usefulness hypothesis; no dedicated query searched in this bounded pass",
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "blockingDependencies": [
+        "human_editorial_review"
+      ],
+      "indexable": false,
+      "published": false
+    },
+    {
+      "id": "31",
+      "route": "/blog/new-pc-no-display-safe-checks/",
+      "intent": "Diagnose a first-boot no-display symptom safely",
+      "queryIds": [
+        "Q13"
+      ],
+      "demandBasis": "related public-query qualitative intent; not a volume measurement",
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "blockingDependencies": [
+        "human_editorial_review"
+      ],
+      "indexable": false,
+      "published": false
+    },
+    {
+      "id": "32",
+      "route": "/blog/low-fps-stutter-diagnostic-checklist/",
+      "intent": "Investigate a repeatable gaming symptom without unsafe optimization shortcuts",
+      "queryIds": [
+        "Q12"
+      ],
+      "demandBasis": "related public-query qualitative intent; not a volume measurement",
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "blockingDependencies": [
+        "human_editorial_review"
+      ],
+      "indexable": false,
+      "published": false
+    },
+    {
+      "id": "33",
+      "route": "/blog/graphics-driver-update-rollback-checklist/",
+      "intent": "Investigate a suspected graphics-driver regression",
+      "queryIds": [
+        "Q12"
+      ],
+      "demandBasis": "related public-query qualitative intent; not a volume measurement",
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "blockingDependencies": [
+        "human_editorial_review"
+      ],
+      "indexable": false,
+      "published": false
+    },
+    {
+      "id": "34",
+      "route": "/blog/how-to-choose-gaming-ram/",
+      "intent": "Choose and install a supported memory configuration",
+      "queryIds": [
+        "Q17"
+      ],
+      "demandBasis": "related public-query qualitative intent; not a volume measurement",
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "blockingDependencies": [
+        "human_editorial_review"
+      ],
+      "indexable": false,
+      "published": false
+    },
+    {
+      "id": "35",
+      "route": "/blog/average-fps-one-percent-lows-frame-times/",
+      "intent": "Interpret frame-performance summaries accurately",
+      "queryIds": [
+        "Q12",
+        "Q14",
+        "Q15"
+      ],
+      "demandBasis": "related public-query qualitative intent; not a volume measurement",
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "blockingDependencies": [
+        "human_editorial_review"
+      ],
+      "indexable": false,
+      "published": false
+    },
+    {
+      "id": "36",
+      "route": "/blog/upscaling-vs-frame-generation/",
+      "intent": "Distinguish supported rendering modes in benchmarks and purchase choices",
+      "queryIds": [
+        "Q14"
+      ],
+      "demandBasis": "related public-query qualitative intent; not a volume measurement",
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "blockingDependencies": [
+        "human_editorial_review"
+      ],
+      "indexable": false,
+      "published": false
+    },
+    {
+      "id": "37",
+      "route": "/blog/choose-display-target-game-evidence/",
+      "intent": "Match a monitor goal to hardware evidence and practical setup",
+      "queryIds": [
+        "Q15"
+      ],
+      "demandBasis": "related public-query qualitative intent; not a volume measurement",
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "blockingDependencies": [
+        "human_editorial_review"
+      ],
+      "indexable": false,
+      "published": false
+    },
+    {
+      "id": "38",
+      "route": "/blog/fortnite-pc-requirements-settings-evidence/",
+      "intent": "Plan Fortnite hardware without fabricated FPS",
+      "queryIds": [
+        "Q15"
+      ],
+      "demandBasis": "related public-query qualitative intent; not a volume measurement",
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "blockingDependencies": [
+        "human_editorial_review"
+      ],
+      "indexable": false,
+      "published": false
+    },
+    {
+      "id": "39",
+      "route": "/blog/premiere-creator-pc-workload-guide/",
+      "intent": "Plan application-specific hardware for Premiere editing",
+      "queryIds": [
+        "Q17"
+      ],
+      "demandBasis": "related public-query qualitative intent; not a volume measurement",
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "blockingDependencies": [
+        "application_specific_benchmark_coverage",
+        "verified_bom_revision",
+        "exact_regional_offers",
+        "human_editorial_review"
+      ],
+      "indexable": false,
+      "published": false
+    },
+    {
+      "id": "40",
+      "route": "/blog/read-hardware-benchmarks-test-conditions/",
+      "intent": "Evaluate whether published evidence answers a purchase question",
+      "queryIds": [
+        "Q14"
+      ],
+      "demandBasis": "related public-query qualitative intent; not a volume measurement",
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "blockingDependencies": [
+        "human_editorial_review"
+      ],
+      "indexable": false,
+      "published": false
+    }
+  ],
+  "validation": {
+    "checkedAt": "2026-10-09",
+    "queryCount": 18,
+    "distinctQueryCount": 18,
+    "editorialCount": 40,
+    "exactTargetRoutesMatched": true,
+    "sourceIdsMatched": true,
+    "metricsFabricated": false,
+    "productionDeployed": false
+  }
+}

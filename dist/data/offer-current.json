@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "policyVersion": "2026-10-09.1",
+  "generatedAt": "2026-10-11T18:51:01.618Z",
+  "status": "not_configured",
+  "currentFeedStatus": "not_configured",
+  "ttlMs": 900000,
+  "offers": [],
+  "priceBasis": "item prices with matching explicit tax/shipping basis; current list excludes unknown charges",
+  "notClaimed": [
+    "live quote",
+    "all-retailer coverage",
+    "lowest delivered total",
+    "reservation of stock"
+  ]
+}

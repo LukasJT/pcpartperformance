@@ -1,0 +1,2369 @@
+{
+  "program": "PC Part Performance, console evidence correction",
+  "version": "2026-10-09.1",
+  "checkedAt": "2026-10-09",
+  "review": "Source evidence checked; owner editorial publication review pending",
+  "scope": "All 45 existing game-library console records. Registry performs no network calls or performance estimates.",
+  "counts": {
+    "supported": 19,
+    "partial": 16,
+    "unverified": 10,
+    "withNumericModes": 33,
+    "modes": 66,
+    "sourceCount": 29
+  },
+  "policy": [
+    "Source check date is not a measurement date. Historical target/cap and test-edition scope remains visible.",
+    "Exact game and system keys only. No PS5-to-Pro, Switch-to-Switch-2 or edition fallback.",
+    "An output refresh rate is not rendered FPS. Unknown FPS and internal pixel counts stay null.",
+    "Narrative review observations are labeled separately from instrumented original analysis and manufacturer targets.",
+    "Grouped labels do not prove all submodels were tested; appliesTo constrains exact-model coverage.",
+    "Publications are linked and paraphrased. No benchmark dataset, images or videos are copied; redistribution rights are not established.",
+    "Legacy strings below are audit material only. They must never become a fallback public payload.",
+    "A failed, blocked, unavailable or incomplete research fetch is an evidence limitation, not proof that a public page is broken."
+  ],
+  "primaryChartInspection": {
+    "url": "https://media.gdcvault.com/gdc2023/Slides/Rendering_God_Of_McAuley_Stephen.pdf",
+    "page": 70,
+    "sha256": "35f2ee0e8567941abf14fe97321ef87e776bb9e6e20516902fb0aa4ec8b8a28f",
+    "inspection": "Chart rendered locally at 1800 pixels and visually inspected; PDF image pages are not reliable text-extraction evidence."
+  },
+  "sources": [
+    {
+      "id": "epic-2020",
+      "publisher": "Epic Games",
+      "title": "Fortnite next-generation console modes, v15.10 update",
+      "url": "https://www.fortnite.com/news/day-1-ready-fortnite-arrives-next-week-on-xbox-series-x-s-and-ps5",
+      "publishedAt": null,
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-09",
+      "inspection": "original-publication-inspected",
+      "findings": "PS5 and Series X: 4K/60; 120 mode at maximum 1440p. Series S: maximum 1200p/60, or 1080p/120. This December 2020 update does not mention PS5 Pro.",
+      "redistributionRights": "not-established; linked paraphrase only",
+      "revision": "v15.10, December 2020"
+    },
+    {
+      "id": "epic-switch-2021",
+      "publisher": "Epic Games",
+      "title": "Fortnite Switch resolution update",
+      "url": "https://www.fortnite.com/news/gpu-performance-and-resolution-boost-for-fortnite-on-nintendo-switch",
+      "publishedAt": "2021-03-30",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-09",
+      "inspection": "original-publication-inspected",
+      "findings": "Documents expected dynamic resolution of 1560 × 880 docked and 1170 × 660 handheld, but no numerical frame rate.",
+      "redistributionRights": "not-established; linked paraphrase only"
+    },
+    {
+      "id": "epic-switch2",
+      "publisher": "Epic Games",
+      "title": "Fortnite comes to Nintendo Switch 2",
+      "url": "https://www.fortnite.com/news/fortnite-comes-to-nintendo-switch-2",
+      "publishedAt": "2025-06-04",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-09",
+      "inspection": "original-publication-inspected",
+      "findings": "Switch 2 publication specifies 60 FPS, 2176 × 1224 docked and 1600 × 900 handheld.",
+      "redistributionRights": "not-established; linked paraphrase only"
+    },
+    {
+      "id": "gowr-gdc",
+      "publisher": "Santa Monica Studio / Stephen McAuley",
+      "title": "Rendering God of War Ragnarök, GDC 2023",
+      "url": "https://media.gdcvault.com/gdc2023/Slides/Rendering_God_Of_McAuley_Stephen.pdf",
+      "publishedAt": null,
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-09",
+      "inspection": "original-PDF-chart-visually-inspected",
+      "findings": "Graphics-mode chart on PDF page 70 distinguishes PS4, PS4 Pro and PS5 targets. PS4 Pro performance is unlocked from a 30 FPS base, not a 60 FPS target.",
+      "redistributionRights": "not-established; linked paraphrase only",
+      "revision": "GDC 2023, page 70",
+      "authorshipUrl": "https://www.gdcvault.com/play/1029298/Rendering-God-of-War-Ragnarok"
+    },
+    {
+      "id": "gowr-pro",
+      "publisher": "Santa Monica Studio",
+      "title": "God of War Ragnarök patch notes v06.00",
+      "url": "https://support.sms.playstation.com/hc/en-us/articles/31642737345293-Patch-Notes-v-06-00",
+      "publishedAt": "2024-11-05",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-09",
+      "inspection": "original-publication-inspected",
+      "findings": "PS5 Pro Enhanced uses favour-quality features at 60 FPS. HFR unlocks with VRR; PSSR is optional. Exact pixel dimensions and measured averages are not supplied.",
+      "redistributionRights": "not-established; linked paraphrase only",
+      "revision": "v06.00"
+    },
+    {
+      "id": "insomniac-remaster",
+      "publisher": "Insomniac Games",
+      "title": "Spider-Man Remastered graphics modes",
+      "url": "https://support.insomniac.games/hc/en-us/articles/46670280641299-What-Accessibility-options-does-Marvel-s-Spider-Man-Remastered-have",
+      "publishedAt": "2025-11-24",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-09",
+      "inspection": "original-publication-inspected",
+      "findings": "PS5 fidelity targets 30 FPS; performance targets 60 FPS. Describes temporal 4K from different base resolutions.",
+      "redistributionRights": "not-established; linked paraphrase only",
+      "dateMeaning": "support-page update"
+    },
+    {
+      "id": "insomniac-miles",
+      "publisher": "Insomniac Games",
+      "title": "Miles Morales PS5 graphics modes",
+      "url": "https://support.insomniac.games/hc/en-us/articles/46670895263635-What-Accessibility-options-does-Marvel-s-Spider-Man-Miles-Morales-feature",
+      "publishedAt": "2025-11-19",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-09",
+      "inspection": "original-publication-inspected",
+      "findings": "Explicit PS5 section gives fidelity 30 FPS and performance 60 FPS, with temporal 4K from different base resolutions.",
+      "redistributionRights": "not-established; linked paraphrase only",
+      "dateMeaning": "support-page update"
+    },
+    {
+      "id": "insomniac-vrr",
+      "publisher": "Insomniac Games",
+      "title": "VRR support",
+      "url": "https://support.insomniac.games/hc/en-us/articles/46679539272851-What-is-VRR-support",
+      "publishedAt": "2025-11-19",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-09",
+      "inspection": "original-publication-inspected",
+      "findings": "Compatible 120 Hz displays, VRR and game updates can unlock frame rates. This does not establish a fixed higher average.",
+      "redistributionRights": "not-established; linked paraphrase only",
+      "dateMeaning": "support-page update"
+    },
+    {
+      "id": "nxg-spiderman2",
+      "publisher": "Michael Thompson / Binary Dinosaur (NXG)",
+      "title": "Spider-Man 2 technical performance review",
+      "url": "https://binarydinosaur.co.uk/spider-man-2-technical-performance-review",
+      "publishedAt": "2023-10-22",
+      "kind": "original-analysis",
+      "checkedAt": "2026-10-09",
+      "inspection": "original-publication-inspected",
+      "findings": "Original technical analysis documents fidelity 30, performance 60, and fidelity 40 on 120 Hz displays. Reported modes are caps/targets, not a cross-scene average or 1% low.",
+      "redistributionRights": "not-established; linked paraphrase only"
+    },
+    {
+      "id": "riot-console",
+      "publisher": "Riot Games",
+      "title": "VALORANT console guide",
+      "url": "https://support.riotgames.com/en-us/valorant/gameplay/valorant-console-guide",
+      "publishedAt": "2026-06-02",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-09",
+      "inspection": "original-publication-inspected",
+      "findings": "Confirms console platforms; inspected guide does not establish numerical FPS or internal resolution.",
+      "redistributionRights": "not-established; linked paraphrase only",
+      "dateMeaning": "support-page update"
+    },
+    {
+      "id": "gta5-2022",
+      "publisher": "Rockstar Games / Take-Two Interactive",
+      "title": "Grand Theft Auto V available on PS5 and Xbox Series X|S",
+      "url": "https://ir.take2games.com/node/28526/pdf",
+      "publishedAt": "2022-03-15",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-09",
+      "inspection": "original-publication-inspected",
+      "findings": "Native PS5/Series X edition: fidelity native 4K with ray tracing targets 30; performance upscaled 4K targets 60; performance RT upscaled 4K with ray tracing targets 60.",
+      "redistributionRights": "not-established; linked paraphrase only"
+    },
+    {
+      "id": "rgt-gta5",
+      "publisher": "Paul RGT / RedGamingTech",
+      "title": "GTA V Xbox One versus PlayStation 4 graphics comparison",
+      "url": "https://redgamingtech.com/grand-theft-auto-5-xbox-one-vs-playstation-4-graphics-comparison/",
+      "publishedAt": "2014-11-26",
+      "kind": "original-observation",
+      "checkedAt": "2026-10-09",
+      "inspection": "original-publication-inspected",
+      "findings": "Original launch-build analysis reports native 1080p and a 30 FPS target with busy-scene drops. It does not test the later Xbox One S.",
+      "redistributionRights": "not-established; linked paraphrase only"
+    },
+    {
+      "id": "capcom-wilds",
+      "publisher": "Capcom / PlayStation Blog",
+      "title": "Monster Hunter Wilds ready for the hunt on February 28",
+      "url": "https://blog.playstation.com/2025/02/27/monster-hunter-wilds-ready-for-the-hunt-on-feb-28/",
+      "publishedAt": "2025-02-27",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-09",
+      "inspection": "original-publication-inspected",
+      "findings": "Separate PS5 and PS5 Pro modes target 30, 40 or 60 FPS; balanced requires a 120 Hz display. Pro modes use PSSR. Exact internal pixel counts are absent.",
+      "redistributionRights": "not-established; linked paraphrase only"
+    },
+    {
+      "id": "forza-2021",
+      "publisher": "Playground Games / Forza",
+      "title": "Welcome to Forza Horizon 5",
+      "url": "https://forza.net/news/welcome-to-forza-horizon-5",
+      "publishedAt": null,
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-09",
+      "inspection": "original-publication-inspected",
+      "findings": "Series X quality is 4K/30, Series S quality is 1080p/30. Both have a 60 FPS performance option; this source does not give its exact resolution or old-console numerical targets.",
+      "redistributionRights": "not-established; linked paraphrase only",
+      "revision": "2021 announcement"
+    },
+    {
+      "id": "rare-nextgen",
+      "publisher": "Rare / Joe Neate",
+      "title": "Sea of Thieves on Xbox Series X and S",
+      "url": "https://www.seaofthieves.com/pt-br/news/xbox-series-x-and-s",
+      "publishedAt": "2020-11-04",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-09",
+      "inspection": "original-publication-inspected",
+      "findings": "Developer announcement specifies Series X 4K/60 and Series S 1080p/60.",
+      "redistributionRights": "not-established; linked paraphrase only",
+      "canonicalUrl": "https://www.seaofthieves.com/news/xbox-series-x-and-s",
+      "accessNote": "Equivalent official locale publication inspected; English URL returned access failure in research tool."
+    },
+    {
+      "id": "rare-2-0-21",
+      "publisher": "Rare",
+      "title": "Sea of Thieves release notes 2.0.21",
+      "url": "https://www.seaofthieves.com/pt-br/release-notes/2.0.21",
+      "publishedAt": null,
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-09",
+      "inspection": "original-publication-inspected",
+      "findings": "Documents a Series X 120 Hz performance mode at 1080p and display/HDR conditions. Hz is an output refresh mode; this registry does not convert it into measured or targeted FPS.",
+      "redistributionRights": "not-established; linked paraphrase only",
+      "revision": "2.0.21",
+      "canonicalUrl": "https://www.seaofthieves.com/release-notes/2.0.21"
+    },
+    {
+      "id": "xbox-fps-boost",
+      "publisher": "Xbox Wire / Microsoft",
+      "title": "Five Bethesda titles get FPS Boost",
+      "url": "https://news.xbox.com/en-us/2021/03/15/five-legendary-bethesda-titles-get-fps-boost/",
+      "publishedAt": "2021-03-15",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-09",
+      "inspection": "original-publication-inspected",
+      "findings": "Skyrim Special Edition backward-compatible FPS Boost is described as nearly 60 FPS on Series X|S. No exact per-system resolution is given; this is distinct from the later native edition.",
+      "redistributionRights": "not-established; linked paraphrase only"
+    },
+    {
+      "id": "gaijin-faq",
+      "publisher": "Gaijin Entertainment",
+      "title": "War Thunder FAQ",
+      "url": "https://warthunder.com/en/game/faq",
+      "publishedAt": null,
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-09",
+      "inspection": "original-publication-inspected",
+      "findings": "FAQ specifies optimized Series X at 4K/60 FPS and Series S at 1440p/60 FPS. These are publisher claims, not site measurements.",
+      "redistributionRights": "not-established; linked paraphrase only"
+    },
+    {
+      "id": "botw-switch2",
+      "publisher": "Nintendo",
+      "title": "Breath of the Wild Nintendo Switch 2 Edition",
+      "url": "https://www.nintendo.com/us/store/products/the-legend-of-zelda-breath-of-the-wild-nintendo-switch-2-edition-switch-2/",
+      "publishedAt": null,
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-09",
+      "inspection": "original-publication-inspected",
+      "findings": "Product page describes higher resolution, HDR and improved frame rate, but the inspected text does not establish a numerical FPS target.",
+      "redistributionRights": "not-established; linked paraphrase only"
+    },
+    {
+      "id": "botw-switch",
+      "publisher": "Nintendo",
+      "title": "Breath of the Wild Nintendo Switch edition",
+      "url": "https://www.nintendo.com/us/store/products/the-legend-of-zelda-breath-of-the-wild-switch/",
+      "publishedAt": null,
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-09",
+      "inspection": "original-publication-inspected",
+      "findings": "Product page identifies the Switch edition without supporting the old numerical resolution/FPS table.",
+      "redistributionRights": "not-established; linked paraphrase only"
+    },
+    {
+      "id": "mk-world",
+      "publisher": "Nintendo / programming director Sato",
+      "title": "Ask the Developer volume 18: Mario Kart World, chapter 1",
+      "url": "https://www.nintendo.com/en-gb/News/2025/May/Ask-the-Developer-Vol-18-Mario-Kart-World-Chapter-1-2832687.html",
+      "publishedAt": null,
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-09",
+      "inspection": "original-publication-inspected",
+      "findings": "Programming director discusses maintaining the series 60 FPS goal in this Switch 2 project. This does not establish split-screen performance or exact resolutions.",
+      "redistributionRights": "not-established; linked paraphrase only",
+      "revision": "May 2025 interview"
+    },
+    {
+      "id": "nl-mk8-deluxe",
+      "publisher": "Thomas Whitehead / Nintendo Life",
+      "title": "Mario Kart 8 Deluxe review",
+      "url": "https://www.nintendolife.com/reviews/nintendo-switch/mario_kart_8_deluxe",
+      "publishedAt": "2017-04-20",
+      "kind": "original-observation",
+      "checkedAt": "2026-10-09",
+      "inspection": "original-publication-inspected",
+      "findings": "Launch review reports Switch TV 1080p and handheld 720p; solo/two-player 60 and three/four-player split-screen 30. Review predates Switch Lite.",
+      "redistributionRights": "not-established; linked paraphrase only"
+    },
+    {
+      "id": "nl-mk8-director",
+      "publisher": "Nintendo director Kosuke Yabuki / interview by Nintendo Life",
+      "title": "Mario Kart 8 developer interview",
+      "url": "https://www.nintendolife.com/news/2014/05/interview_mario_kart_8_director_kosuke_yabuki_on_key_features_of_the_wii_us_blockbuster_release",
+      "publishedAt": "2014-05-27",
+      "kind": "manufacturer-interview",
+      "checkedAt": "2026-10-09",
+      "inspection": "original-publication-inspected",
+      "findings": "Original interview identifies 60 FPS as the Wii U single/two-player design goal. It is not an instrumented measurement, or evidence for all split-screen counts.",
+      "redistributionRights": "not-established; linked paraphrase only"
+    },
+    {
+      "id": "galaxy-2025",
+      "publisher": "Nintendo",
+      "title": "Super Mario Galaxy + Super Mario Galaxy 2",
+      "url": "https://www.nintendo.com/us/store/products/super-mario-galaxy-plus-super-mario-galaxy-2-switch/",
+      "publishedAt": null,
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-09",
+      "inspection": "original-publication-inspected",
+      "findings": "2025 remaster listing describes 1080p on Switch and up to 4K TV output on Switch 2 with the free update. No numerical frame rate is supplied.",
+      "redistributionRights": "not-established; linked paraphrase only",
+      "revision": "2025 remaster bundle"
+    },
+    {
+      "id": "xtg-galaxy",
+      "publisher": "Patrick / XTgamer",
+      "title": "Technical check: Super Mario Galaxy 1+2",
+      "url": "https://www.xtgamer.net/2025/10/09/tech-check-super-mario-galaxy-12-rune-factory-goa-kirby/",
+      "publishedAt": "2025-10-09",
+      "kind": "original-observation",
+      "checkedAt": "2026-10-09",
+      "inspection": "original-publication-inspected",
+      "findings": "Author reports both 2025 remasters at 60 FPS on Switch and Switch 2, docked/handheld, with occasional transition stutters. No instrumented dataset, patch or sample count is supplied; Switch Lite is not independently tested.",
+      "redistributionRights": "not-established; linked paraphrase only"
+    },
+    {
+      "id": "galaxy-wii",
+      "publisher": "Nintendo / programmer Aoyagi",
+      "title": "Iwata Asks: Super Mario Galaxy, developers chapter 5",
+      "url": "https://www.nintendo.com/en-gb/Iwata-Asks/Iwata-Asks-Super-Mario-Galaxy/Volume-2-The-Developers/5-Easy-for-Beginners-Tough-for-Pros/5-Easy-for-Beginners-Tough-for-Pros-222714.html",
+      "publishedAt": null,
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-09",
+      "inspection": "original-publication-inspected",
+      "findings": "Programmer describes the original Wii game running at 60 FPS. This is a developer claim for the Wii edition, not evidence from the later remaster.",
+      "redistributionRights": "not-established; linked paraphrase only"
+    },
+    {
+      "id": "galaxy2-wii",
+      "publisher": "Nintendo / programmer Hayakawa",
+      "title": "Iwata Asks: Super Mario Galaxy 2, chapter 6",
+      "url": "https://www.nintendo.com/en-gb/Iwata-Asks/Iwata-Asks-Super-Mario-Galaxy-2/Volume-2-Koizumi-Motokura-Hayakawa-and-Hayashida/6-This-Time-It-s-Really-Fun/6-This-Time-It-s-Really-Fun-238224.html",
+      "publishedAt": null,
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-09",
+      "inspection": "original-publication-inspected",
+      "findings": "Programmer explicitly describes the original Wii game at 60 FPS. No pixel resolution or independent test average is supplied.",
+      "redistributionRights": "not-established; linked paraphrase only"
+    },
+    {
+      "id": "lite-playmode",
+      "publisher": "Nintendo",
+      "title": "Nintendo Switch play modes",
+      "url": "https://www.nintendo.com/sg/support/switch/playmode/index.html",
+      "publishedAt": null,
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-09",
+      "inspection": "original-publication-inspected",
+      "findings": "Switch Lite has no TV mode. Docked observations cannot be presented as Switch Lite measurements.",
+      "redistributionRights": "not-established; linked paraphrase only"
+    },
+    {
+      "id": "minecraft-switch2",
+      "publisher": "Nintendo Australia",
+      "title": "Minecraft for Nintendo Switch 2 preorder announcement",
+      "url": "https://www.nintendo.com/au/news-and-articles/pre-order-minecraft-for-nintendo-switch-2-today/",
+      "publishedAt": "2026-10-08",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-09",
+      "inspection": "original-publication-inspected",
+      "findings": "Regional announcement describes an upcoming native Switch 2 release; it does not verify FPS for either that release or backward compatibility.",
+      "redistributionRights": "not-established; linked paraphrase only"
+    }
+  ],
+  "records": [
+    {
+      "key": "fortnite|PlayStation 5 / PS5 Slim",
+      "game": "Fortnite",
+      "edition": "v15.10 console edition (2020)",
+      "status": "partial",
+      "original": {
+        "sourceUrl": "https://www.fortnite.com/news/day-1-ready-fortnite-arrives-next-week-on-xbox-series-x-s-and-ps5",
+        "claims": [
+          [
+            "Quality",
+            "4K",
+            "60 FPS"
+          ],
+          [
+            "120 FPS",
+            "1440p max",
+            "120 FPS"
+          ]
+        ]
+      },
+      "assessment": "Inspected original Epic publication supports documented historical modes, subject to source revision and display conditions.",
+      "sourceIds": [
+        "epic-2020"
+      ],
+      "limitations": [
+        "Source concerns the PS5 game edition. The grouped Slim label has no independent Slim measurement in this record."
+      ],
+      "supportedModes": [
+        {
+          "name": "Quality",
+          "resolution": "4K",
+          "fps": 60,
+          "metric": "target",
+          "measurementStatus": "manufacturer-target",
+          "sourceId": "epic-2020",
+          "appliesTo": [
+            "PlayStation 5"
+          ]
+        },
+        {
+          "name": "120 FPS mode",
+          "resolution": "1440p maximum",
+          "fps": 120,
+          "metric": "target",
+          "measurementStatus": "manufacturer-target",
+          "sourceId": "epic-2020",
+          "appliesTo": [
+            "PlayStation 5"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "fortnite|PlayStation 5 Pro",
+      "game": "Fortnite",
+      "edition": "PS5 Pro edition",
+      "status": "unverified",
+      "original": {
+        "sourceUrl": "https://www.fortnite.com/news/day-1-ready-fortnite-arrives-next-week-on-xbox-series-x-s-and-ps5",
+        "claims": [
+          [
+            "Quality",
+            "4K class",
+            "60 FPS"
+          ],
+          [
+            "Performance",
+            "1440p class",
+            "120 FPS"
+          ]
+        ]
+      },
+      "assessment": "Original source predates exact model; PS5 modes withheld for Pro.",
+      "sourceIds": [],
+      "limitations": [
+        "The legacy 2020 PS5 source predates PS5 Pro. No inspected exact-Pro FPS source establishes these modes."
+      ],
+      "supportedModes": []
+    },
+    {
+      "key": "gowr|PlayStation 5 / PS5 Slim",
+      "game": "God of War Ragnarök",
+      "edition": "PS5 edition, GDC 2023 configuration",
+      "status": "partial",
+      "original": {
+        "sourceUrl": "https://www.playstation.com/en-us/games/god-of-war-ragnarok/",
+        "claims": [
+          [
+            "Favor quality",
+            "Full 4K",
+            "30 FPS target"
+          ],
+          [
+            "Favor performance",
+            "Dynamic 4K",
+            "60 FPS target"
+          ]
+        ]
+      },
+      "assessment": "Generic game page replaced by developer graphics-mode chart or exact Pro patch. PS4 Pro old 60 FPS claim corrected to unlocked 30 FPS base.",
+      "sourceIds": [
+        "gowr-gdc"
+      ],
+      "limitations": [
+        "Source concerns the PS5 game edition. The grouped Slim label has no independent Slim measurement in this record.",
+        "An unlocked base is not a sustained result or a numerical upper bound."
+      ],
+      "supportedModes": [
+        {
+          "name": "Favour performance",
+          "resolution": "1440p–2160p dynamic",
+          "fps": 60,
+          "metric": "target",
+          "measurementStatus": "manufacturer-target",
+          "sourceId": "gowr-gdc",
+          "appliesTo": [
+            "PlayStation 5"
+          ]
+        },
+        {
+          "name": "Favour quality",
+          "resolution": "2160p native",
+          "fps": 30,
+          "metric": "target",
+          "measurementStatus": "manufacturer-target",
+          "sourceId": "gowr-gdc",
+          "appliesTo": [
+            "PlayStation 5"
+          ]
+        },
+        {
+          "name": "Performance + high frame rate",
+          "resolution": "1440p",
+          "fps": 60,
+          "metric": "unlocked-base",
+          "measurementStatus": "manufacturer-target",
+          "sourceId": "gowr-gdc",
+          "appliesTo": [
+            "PlayStation 5"
+          ]
+        },
+        {
+          "name": "Quality + high frame rate",
+          "resolution": "1800p–2160p dynamic",
+          "fps": 40,
+          "metric": "target",
+          "measurementStatus": "manufacturer-target",
+          "sourceId": "gowr-gdc",
+          "appliesTo": [
+            "PlayStation 5"
+          ]
+        },
+        {
+          "name": "Performance + high frame rate + VRR",
+          "resolution": "1440p",
+          "fps": 60,
+          "metric": "unlocked-base",
+          "measurementStatus": "manufacturer-target",
+          "sourceId": "gowr-gdc",
+          "appliesTo": [
+            "PlayStation 5"
+          ]
+        },
+        {
+          "name": "Quality + high frame rate + VRR",
+          "resolution": "1800p–2160p dynamic",
+          "fps": 40,
+          "metric": "unlocked-base",
+          "measurementStatus": "manufacturer-target",
+          "sourceId": "gowr-gdc",
+          "appliesTo": [
+            "PlayStation 5"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "gowr|PlayStation 5 Pro",
+      "game": "God of War Ragnarök",
+      "edition": "PS5 Pro Enhanced, patch 06.00",
+      "status": "supported",
+      "original": {
+        "sourceUrl": "https://www.playstation.com/en-us/games/god-of-war-ragnarok/",
+        "claims": [
+          [
+            "Enhanced quality",
+            "High resolution / PSSR",
+            "60 FPS target"
+          ]
+        ]
+      },
+      "assessment": "Generic game page replaced by developer graphics-mode chart or exact Pro patch. PS4 Pro old 60 FPS claim corrected to unlocked 30 FPS base.",
+      "sourceIds": [
+        "gowr-pro"
+      ],
+      "limitations": [],
+      "supportedModes": [
+        {
+          "name": "Enhanced quality",
+          "resolution": null,
+          "fps": 60,
+          "metric": "target",
+          "measurementStatus": "manufacturer-target",
+          "sourceId": "gowr-pro",
+          "appliesTo": [
+            "PlayStation 5 Pro"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "gowr|PlayStation 4",
+      "game": "God of War Ragnarök",
+      "edition": "Original PS4 edition",
+      "status": "supported",
+      "original": {
+        "sourceUrl": "https://www.playstation.com/en-us/games/god-of-war-ragnarok/",
+        "claims": [
+          [
+            "Standard",
+            "1080p class",
+            "30 FPS target"
+          ]
+        ]
+      },
+      "assessment": "Generic game page replaced by developer graphics-mode chart or exact Pro patch. PS4 Pro old 60 FPS claim corrected to unlocked 30 FPS base.",
+      "sourceIds": [
+        "gowr-gdc"
+      ],
+      "limitations": [],
+      "supportedModes": [
+        {
+          "name": "Standard",
+          "resolution": "1080p",
+          "fps": 30,
+          "metric": "target",
+          "measurementStatus": "manufacturer-target",
+          "sourceId": "gowr-gdc",
+          "appliesTo": [
+            "PlayStation 4"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "gowr|PlayStation 4 Pro",
+      "game": "God of War Ragnarök",
+      "edition": "Original PS4 Pro edition",
+      "status": "supported",
+      "original": {
+        "sourceUrl": "https://www.playstation.com/en-us/games/god-of-war-ragnarok/",
+        "claims": [
+          [
+            "Quality",
+            "1440p–2160p class",
+            "30 FPS target"
+          ],
+          [
+            "Performance",
+            "1080p class",
+            "Up to 60 FPS"
+          ]
+        ]
+      },
+      "assessment": "Generic game page replaced by developer graphics-mode chart or exact Pro patch. PS4 Pro old 60 FPS claim corrected to unlocked 30 FPS base.",
+      "sourceIds": [
+        "gowr-gdc"
+      ],
+      "limitations": [],
+      "supportedModes": [
+        {
+          "name": "Favour quality",
+          "resolution": "1440p–1656p dynamic",
+          "fps": 30,
+          "metric": "target",
+          "measurementStatus": "manufacturer-target",
+          "sourceId": "gowr-gdc",
+          "appliesTo": [
+            "PlayStation 4 Pro"
+          ]
+        },
+        {
+          "name": "Favour performance",
+          "resolution": "1080p–1656p dynamic",
+          "fps": 30,
+          "metric": "unlocked-base",
+          "measurementStatus": "manufacturer-target",
+          "sourceId": "gowr-gdc",
+          "appliesTo": [
+            "PlayStation 4 Pro"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "spiderman|PlayStation 5 / PS5 Slim",
+      "game": "Marvel’s Spider-Man Remastered",
+      "edition": "Spider-Man Remastered PS5 edition",
+      "status": "partial",
+      "original": {
+        "sourceUrl": "https://www.playstation.com/en-ca/games/marvels-spider-man-remastered/",
+        "claims": [
+          [
+            "Fidelity",
+            "4K class + ray tracing",
+            "30 FPS target"
+          ],
+          [
+            "Performance",
+            "Dynamic 4K",
+            "60 FPS target"
+          ]
+        ]
+      },
+      "assessment": "Generic product page replaced by explicit developer PS5 mode documentation; grouped Slim label is not an independent measurement.",
+      "sourceIds": [
+        "insomniac-remaster",
+        "insomniac-vrr"
+      ],
+      "limitations": [
+        "Source concerns the PS5 game edition. The grouped Slim label has no independent Slim measurement in this record.",
+        "Compatible VRR/120 Hz settings may unlock FPS; normal targets do not describe every mode."
+      ],
+      "supportedModes": [
+        {
+          "name": "Fidelity",
+          "resolution": "Temporal 4K from a 4K base",
+          "fps": 30,
+          "metric": "target",
+          "measurementStatus": "manufacturer-target",
+          "sourceId": "insomniac-remaster",
+          "appliesTo": [
+            "PlayStation 5"
+          ]
+        },
+        {
+          "name": "Performance",
+          "resolution": "Temporal 4K from a lower-resolution base",
+          "fps": 60,
+          "metric": "target",
+          "measurementStatus": "manufacturer-target",
+          "sourceId": "insomniac-remaster",
+          "appliesTo": [
+            "PlayStation 5"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "miles|PlayStation 5 / PS5 Slim",
+      "game": "Marvel’s Spider-Man: Miles Morales",
+      "edition": "Miles Morales PS5 edition",
+      "status": "partial",
+      "original": {
+        "sourceUrl": "https://www.playstation.com/en-ca/games/marvels-spider-man-miles-morales/",
+        "claims": [
+          [
+            "Fidelity",
+            "4K class + ray tracing",
+            "30 FPS target"
+          ],
+          [
+            "Performance",
+            "Dynamic 4K",
+            "60 FPS target"
+          ]
+        ]
+      },
+      "assessment": "Generic product page replaced by explicit developer PS5 mode documentation; grouped Slim label is not an independent measurement.",
+      "sourceIds": [
+        "insomniac-miles",
+        "insomniac-vrr"
+      ],
+      "limitations": [
+        "Source concerns the PS5 game edition. The grouped Slim label has no independent Slim measurement in this record.",
+        "Compatible VRR/120 Hz settings may unlock FPS; normal targets do not describe every mode."
+      ],
+      "supportedModes": [
+        {
+          "name": "Fidelity",
+          "resolution": "Temporal 4K from a 4K base",
+          "fps": 30,
+          "metric": "target",
+          "measurementStatus": "manufacturer-target",
+          "sourceId": "insomniac-miles",
+          "appliesTo": [
+            "PlayStation 5"
+          ]
+        },
+        {
+          "name": "Performance",
+          "resolution": "Temporal 4K from a lower-resolution base",
+          "fps": 60,
+          "metric": "target",
+          "measurementStatus": "manufacturer-target",
+          "sourceId": "insomniac-miles",
+          "appliesTo": [
+            "PlayStation 5"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "spiderman2|PlayStation 5 / PS5 Slim",
+      "game": "Marvel’s Spider-Man 2",
+      "edition": "Spider-Man 2 PS5 launch edition (October 2023 analysis)",
+      "status": "partial",
+      "original": {
+        "sourceUrl": "https://www.playstation.com/en-ca/games/marvels-spider-man-2/",
+        "claims": [
+          [
+            "Fidelity",
+            "4K class",
+            "30 FPS target"
+          ],
+          [
+            "Performance",
+            "Dynamic resolution",
+            "60 FPS target"
+          ]
+        ]
+      },
+      "assessment": "Generic product page replaced by original technical analysis of October 2023 PS5 launch edition. Caps are not averages.",
+      "sourceIds": [
+        "nxg-spiderman2"
+      ],
+      "limitations": [
+        "Source concerns the PS5 game edition. The grouped Slim label has no independent Slim measurement in this record.",
+        "Do not apply these 2023 PS5 results to PS5 Pro or a later PC edition."
+      ],
+      "supportedModes": [
+        {
+          "name": "Fidelity",
+          "resolution": "1800p–2160p internal, reconstructed output",
+          "fps": 30,
+          "metric": "observed-cap",
+          "measurementStatus": "original-measured",
+          "sourceId": "nxg-spiderman2",
+          "appliesTo": [
+            "PlayStation 5"
+          ]
+        },
+        {
+          "name": "Performance",
+          "resolution": "1080p–1440p internal, reconstructed output",
+          "fps": 60,
+          "metric": "observed-cap",
+          "measurementStatus": "original-measured",
+          "sourceId": "nxg-spiderman2",
+          "appliesTo": [
+            "PlayStation 5"
+          ]
+        },
+        {
+          "name": "Fidelity on a 120 Hz display",
+          "resolution": "Dynamic internal resolution",
+          "fps": 40,
+          "metric": "observed-cap",
+          "measurementStatus": "original-measured",
+          "sourceId": "nxg-spiderman2",
+          "appliesTo": [
+            "PlayStation 5"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "valorant|PlayStation 5 / PS5 Slim",
+      "game": "VALORANT",
+      "edition": "VALORANT console edition",
+      "status": "unverified",
+      "original": {
+        "sourceUrl": "https://playvalorant.com/en-us/console/",
+        "claims": [
+          [
+            "Performance",
+            "Dynamic resolution",
+            "120 FPS target"
+          ]
+        ]
+      },
+      "assessment": "Riot console pages establish platforms, not the legacy 120 FPS or resolution claim.",
+      "sourceIds": [
+        "riot-console"
+      ],
+      "limitations": [
+        "The inspected Riot console sources establish platforms, but not a numerical FPS target or exact internal resolution."
+      ],
+      "supportedModes": []
+    },
+    {
+      "key": "gta5|PlayStation 5 / PS5 Slim",
+      "game": "Grand Theft Auto V",
+      "edition": "Native PS5 / Xbox Series edition, March 2022 launch",
+      "status": "partial",
+      "original": {
+        "sourceUrl": "https://www.rockstargames.com/gta-v",
+        "claims": [
+          [
+            "Fidelity",
+            "4K class",
+            "30 FPS target"
+          ],
+          [
+            "Performance",
+            "Dynamic 4K",
+            "60 FPS target"
+          ]
+        ]
+      },
+      "assessment": "Rockstar client-rendered main page did not expose sufficient extractable claim evidence. Replaced with primary publisher release for native PS5/Series editions or original 2014 analysis for old consoles. No One S extrapolation.",
+      "sourceIds": [
+        "gta5-2022"
+      ],
+      "limitations": [
+        "Source concerns the PS5 game edition. The grouped Slim label has no independent Slim measurement in this record."
+      ],
+      "supportedModes": [
+        {
+          "name": "Fidelity",
+          "resolution": "Native 4K",
+          "fps": 30,
+          "metric": "target",
+          "measurementStatus": "manufacturer-target",
+          "sourceId": "gta5-2022",
+          "appliesTo": [
+            "PlayStation 5"
+          ]
+        },
+        {
+          "name": "Performance",
+          "resolution": "Upscaled 4K",
+          "fps": 60,
+          "metric": "target",
+          "measurementStatus": "manufacturer-target",
+          "sourceId": "gta5-2022",
+          "appliesTo": [
+            "PlayStation 5"
+          ]
+        },
+        {
+          "name": "Performance RT",
+          "resolution": "Upscaled 4K",
+          "fps": 60,
+          "metric": "target",
+          "measurementStatus": "manufacturer-target",
+          "sourceId": "gta5-2022",
+          "appliesTo": [
+            "PlayStation 5"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "gta5|PlayStation 4",
+      "game": "Grand Theft Auto V",
+      "edition": "Original PS4 / Xbox One edition, November 2014",
+      "status": "supported",
+      "original": {
+        "sourceUrl": "https://www.rockstargames.com/gta-v",
+        "claims": [
+          [
+            "Standard",
+            "1080p class",
+            "30 FPS target"
+          ]
+        ]
+      },
+      "assessment": "Rockstar client-rendered main page did not expose sufficient extractable claim evidence. Replaced with primary publisher release for native PS5/Series editions or original 2014 analysis for old consoles. No One S extrapolation.",
+      "sourceIds": [
+        "rgt-gta5"
+      ],
+      "limitations": [],
+      "supportedModes": [
+        {
+          "name": "Standard",
+          "resolution": "Native 1080p",
+          "fps": 30,
+          "metric": "reported-target",
+          "measurementStatus": "original-observation",
+          "sourceId": "rgt-gta5",
+          "appliesTo": [
+            "PlayStation 4"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "monster-hunter-wilds|PlayStation 5 / PS5 Slim",
+      "game": "Monster Hunter Wilds",
+      "edition": "Monster Hunter Wilds launch modes, February 2025",
+      "status": "partial",
+      "original": {
+        "sourceUrl": "https://blog.playstation.com/2025/03/14/monster-hunter-wilds-ready-for-the-hunt-on-feb-28/",
+        "claims": [
+          [
+            "Resolution",
+            "High resolution",
+            "30 FPS"
+          ],
+          [
+            "Balanced",
+            "120 Hz display",
+            "40 FPS"
+          ],
+          [
+            "Framerate",
+            "Dynamic resolution",
+            "60 FPS"
+          ]
+        ]
+      },
+      "assessment": "Legacy March 14 URL fetch was unavailable. Correct February 27 Capcom publication supports 30/40/60 targets with exact-model and display conditions. Fetch failure is not an outage diagnosis.",
+      "sourceIds": [
+        "capcom-wilds"
+      ],
+      "limitations": [
+        "Source concerns the PS5 game edition. The grouped Slim label has no independent Slim measurement in this record.",
+        "Exact pixel dimensions are not given; 40 FPS requires the documented display mode. Later updates need separate verification."
+      ],
+      "supportedModes": [
+        {
+          "name": "Resolution",
+          "resolution": null,
+          "fps": 30,
+          "metric": "target",
+          "measurementStatus": "manufacturer-target",
+          "sourceId": "capcom-wilds",
+          "appliesTo": [
+            "PlayStation 5"
+          ]
+        },
+        {
+          "name": "Balanced",
+          "resolution": null,
+          "fps": 40,
+          "metric": "target",
+          "measurementStatus": "manufacturer-target",
+          "sourceId": "capcom-wilds",
+          "appliesTo": [
+            "PlayStation 5"
+          ]
+        },
+        {
+          "name": "Framerate",
+          "resolution": null,
+          "fps": 60,
+          "metric": "target",
+          "measurementStatus": "manufacturer-target",
+          "sourceId": "capcom-wilds",
+          "appliesTo": [
+            "PlayStation 5"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "monster-hunter-wilds|PlayStation 5 Pro",
+      "game": "Monster Hunter Wilds",
+      "edition": "Monster Hunter Wilds launch modes, February 2025",
+      "status": "supported",
+      "original": {
+        "sourceUrl": "https://blog.playstation.com/2025/03/14/monster-hunter-wilds-ready-for-the-hunt-on-feb-28/",
+        "claims": [
+          [
+            "Resolution + RT",
+            "PSSR enhanced",
+            "30 FPS"
+          ],
+          [
+            "Balanced + RT",
+            "PSSR enhanced",
+            "40 FPS"
+          ],
+          [
+            "Framerate",
+            "PSSR enhanced",
+            "60 FPS"
+          ]
+        ]
+      },
+      "assessment": "Legacy March 14 URL fetch was unavailable. Correct February 27 Capcom publication supports 30/40/60 targets with exact-model and display conditions. Fetch failure is not an outage diagnosis.",
+      "sourceIds": [
+        "capcom-wilds"
+      ],
+      "limitations": [
+        "Exact pixel dimensions are not given; 40 FPS requires the documented display mode. Later updates need separate verification."
+      ],
+      "supportedModes": [
+        {
+          "name": "Resolution + ray tracing",
+          "resolution": null,
+          "fps": 30,
+          "metric": "target",
+          "measurementStatus": "manufacturer-target",
+          "sourceId": "capcom-wilds",
+          "appliesTo": [
+            "PlayStation 5 Pro"
+          ]
+        },
+        {
+          "name": "Balanced + ray tracing",
+          "resolution": null,
+          "fps": 40,
+          "metric": "target",
+          "measurementStatus": "manufacturer-target",
+          "sourceId": "capcom-wilds",
+          "appliesTo": [
+            "PlayStation 5 Pro"
+          ]
+        },
+        {
+          "name": "Framerate",
+          "resolution": null,
+          "fps": 60,
+          "metric": "target",
+          "measurementStatus": "manufacturer-target",
+          "sourceId": "capcom-wilds",
+          "appliesTo": [
+            "PlayStation 5 Pro"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "fortnite|Xbox Series X",
+      "game": "Fortnite",
+      "edition": "v15.10 console edition (2020)",
+      "status": "supported",
+      "original": {
+        "sourceUrl": "https://www.fortnite.com/news/day-1-ready-fortnite-arrives-next-week-on-xbox-series-x-s-and-ps5",
+        "claims": [
+          [
+            "Quality",
+            "4K",
+            "60 FPS"
+          ],
+          [
+            "120 FPS",
+            "1440p max",
+            "120 FPS"
+          ]
+        ]
+      },
+      "assessment": "Inspected original Epic publication supports documented historical modes, subject to source revision and display conditions.",
+      "sourceIds": [
+        "epic-2020"
+      ],
+      "limitations": [],
+      "supportedModes": [
+        {
+          "name": "Quality",
+          "resolution": "4K",
+          "fps": 60,
+          "metric": "target",
+          "measurementStatus": "manufacturer-target",
+          "sourceId": "epic-2020",
+          "appliesTo": [
+            "Xbox Series X"
+          ]
+        },
+        {
+          "name": "120 FPS mode",
+          "resolution": "1440p maximum",
+          "fps": 120,
+          "metric": "target",
+          "measurementStatus": "manufacturer-target",
+          "sourceId": "epic-2020",
+          "appliesTo": [
+            "Xbox Series X"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "fortnite|Xbox Series S",
+      "game": "Fortnite",
+      "edition": "v15.10 console edition (2020)",
+      "status": "supported",
+      "original": {
+        "sourceUrl": "https://www.fortnite.com/news/day-1-ready-fortnite-arrives-next-week-on-xbox-series-x-s-and-ps5",
+        "claims": [
+          [
+            "Quality",
+            "1200p max",
+            "60 FPS"
+          ],
+          [
+            "120 FPS",
+            "1080p max",
+            "120 FPS"
+          ]
+        ]
+      },
+      "assessment": "Inspected original Epic publication supports documented historical modes, subject to source revision and display conditions.",
+      "sourceIds": [
+        "epic-2020"
+      ],
+      "limitations": [],
+      "supportedModes": [
+        {
+          "name": "Quality",
+          "resolution": "1200p maximum",
+          "fps": 60,
+          "metric": "target",
+          "measurementStatus": "manufacturer-target",
+          "sourceId": "epic-2020",
+          "appliesTo": [
+            "Xbox Series S"
+          ]
+        },
+        {
+          "name": "120 FPS mode",
+          "resolution": "1080p maximum",
+          "fps": 120,
+          "metric": "target",
+          "measurementStatus": "manufacturer-target",
+          "sourceId": "epic-2020",
+          "appliesTo": [
+            "Xbox Series S"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "forza5|Xbox Series X",
+      "game": "Forza Horizon 5",
+      "edition": "Forza Horizon 5, 2021 Series edition announcement",
+      "status": "supported",
+      "original": {
+        "sourceUrl": "https://www.xbox.com/en-CA/games/forza-horizon-5",
+        "claims": [
+          [
+            "Quality",
+            "4K class",
+            "30 FPS target"
+          ],
+          [
+            "Performance",
+            "4K class",
+            "60 FPS target"
+          ]
+        ]
+      },
+      "assessment": "Generic Xbox listing replaced by Forza developer announcement for Series X/S; Series S quality corrected to 1080p, not 1440p. Insufficient inspected exact evidence for older Xbox models.",
+      "sourceIds": [
+        "forza-2021"
+      ],
+      "limitations": [
+        "Performance-mode pixel dimensions are not established by this source."
+      ],
+      "supportedModes": [
+        {
+          "name": "Quality",
+          "resolution": "4K",
+          "fps": 30,
+          "metric": "target",
+          "measurementStatus": "manufacturer-target",
+          "sourceId": "forza-2021",
+          "appliesTo": [
+            "Xbox Series X"
+          ]
+        },
+        {
+          "name": "Performance",
+          "resolution": null,
+          "fps": 60,
+          "metric": "target",
+          "measurementStatus": "manufacturer-target",
+          "sourceId": "forza-2021",
+          "appliesTo": [
+            "Xbox Series X"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "forza5|Xbox Series S",
+      "game": "Forza Horizon 5",
+      "edition": "Forza Horizon 5, 2021 Series edition announcement",
+      "status": "supported",
+      "original": {
+        "sourceUrl": "https://www.xbox.com/en-CA/games/forza-horizon-5",
+        "claims": [
+          [
+            "Quality",
+            "1440p class",
+            "30 FPS target"
+          ],
+          [
+            "Performance",
+            "1080p class",
+            "60 FPS target"
+          ]
+        ]
+      },
+      "assessment": "Generic Xbox listing replaced by Forza developer announcement for Series X/S; Series S quality corrected to 1080p, not 1440p. Insufficient inspected exact evidence for older Xbox models.",
+      "sourceIds": [
+        "forza-2021"
+      ],
+      "limitations": [
+        "Performance-mode pixel dimensions are not established by this source."
+      ],
+      "supportedModes": [
+        {
+          "name": "Quality",
+          "resolution": "1080p",
+          "fps": 30,
+          "metric": "target",
+          "measurementStatus": "manufacturer-target",
+          "sourceId": "forza-2021",
+          "appliesTo": [
+            "Xbox Series S"
+          ]
+        },
+        {
+          "name": "Performance",
+          "resolution": null,
+          "fps": 60,
+          "metric": "target",
+          "measurementStatus": "manufacturer-target",
+          "sourceId": "forza-2021",
+          "appliesTo": [
+            "Xbox Series S"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "forza5|Xbox One / One S",
+      "game": "Forza Horizon 5",
+      "edition": "Forza Horizon 5 Xbox One edition",
+      "status": "unverified",
+      "original": {
+        "sourceUrl": "https://www.xbox.com/en-CA/games/forza-horizon-5",
+        "claims": [
+          [
+            "Standard",
+            "1080p class",
+            "30 FPS target"
+          ]
+        ]
+      },
+      "assessment": "Generic Xbox listing replaced by Forza developer announcement for Series X/S; Series S quality corrected to 1080p, not 1440p. Insufficient inspected exact evidence for older Xbox models.",
+      "sourceIds": [
+        "forza-2021"
+      ],
+      "limitations": [
+        "The inspected official numerical mode description covers Series X/S. Old-console FPS/resolution need an exact source; Series claims are not transferred."
+      ],
+      "supportedModes": []
+    },
+    {
+      "key": "forza5|Xbox One X",
+      "game": "Forza Horizon 5",
+      "edition": "Forza Horizon 5 Xbox One edition",
+      "status": "unverified",
+      "original": {
+        "sourceUrl": "https://www.xbox.com/en-CA/games/forza-horizon-5",
+        "claims": [
+          [
+            "Quality",
+            "4K class",
+            "30 FPS target"
+          ]
+        ]
+      },
+      "assessment": "Generic Xbox listing replaced by Forza developer announcement for Series X/S; Series S quality corrected to 1080p, not 1440p. Insufficient inspected exact evidence for older Xbox models.",
+      "sourceIds": [
+        "forza-2021"
+      ],
+      "limitations": [
+        "The inspected official numerical mode description covers Series X/S. Old-console FPS/resolution need an exact source; Series claims are not transferred."
+      ],
+      "supportedModes": []
+    },
+    {
+      "key": "sea-thieves|Xbox Series X",
+      "game": "Sea of Thieves",
+      "edition": "Series edition, launch and release notes 2.0.21",
+      "status": "partial",
+      "original": {
+        "sourceUrl": "https://www.xbox.com/en-CA/games/store/sea-of-thieves-2025-edition/9p2n57mc619k",
+        "claims": [
+          [
+            "Quality",
+            "4K class",
+            "60 FPS target"
+          ],
+          [
+            "Performance",
+            "1080p class",
+            "120 FPS target"
+          ]
+        ]
+      },
+      "assessment": "Generic Xbox edition listing does not establish model-specific mode table. Official developer locale publication supplies launch targets. Release notes say Series X 120 Hz output; this is not converted to FPS, and no Series S 120 mode is inherited.",
+      "sourceIds": [
+        "rare-nextgen",
+        "rare-2-0-21"
+      ],
+      "limitations": [
+        "Mode evidence concerns historical releases; exact current-edition behaviour needs retesting."
+      ],
+      "supportedModes": [
+        {
+          "name": "Quality",
+          "resolution": "4K",
+          "fps": 60,
+          "metric": "target",
+          "measurementStatus": "manufacturer-target",
+          "sourceId": "rare-nextgen",
+          "appliesTo": [
+            "Xbox Series X"
+          ]
+        },
+        {
+          "name": "120 Hz output mode",
+          "resolution": "1080p",
+          "fps": null,
+          "metric": "unknown",
+          "measurementStatus": "unknown",
+          "sourceId": "rare-2-0-21",
+          "appliesTo": [
+            "Xbox Series X"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "sea-thieves|Xbox Series S",
+      "game": "Sea of Thieves",
+      "edition": "Series S launch edition",
+      "status": "partial",
+      "original": {
+        "sourceUrl": "https://www.xbox.com/en-CA/games/store/sea-of-thieves-2025-edition/9p2n57mc619k",
+        "claims": [
+          [
+            "Quality",
+            "1080p class",
+            "60 FPS target"
+          ],
+          [
+            "Performance",
+            "Dynamic resolution",
+            "120 FPS target"
+          ]
+        ]
+      },
+      "assessment": "Generic Xbox edition listing does not establish model-specific mode table. Official developer locale publication supplies launch targets. Release notes say Series X 120 Hz output; this is not converted to FPS, and no Series S 120 mode is inherited.",
+      "sourceIds": [
+        "rare-nextgen"
+      ],
+      "limitations": [
+        "The inspected sources do not establish a Series S 120 FPS mode. A Series X mode is not copied across."
+      ],
+      "supportedModes": [
+        {
+          "name": "Quality",
+          "resolution": "1080p",
+          "fps": 60,
+          "metric": "target",
+          "measurementStatus": "manufacturer-target",
+          "sourceId": "rare-nextgen",
+          "appliesTo": [
+            "Xbox Series S"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "valorant|Xbox Series X / Series S",
+      "game": "VALORANT",
+      "edition": "VALORANT console edition",
+      "status": "unverified",
+      "original": {
+        "sourceUrl": "https://playvalorant.com/en-us/console/",
+        "claims": [
+          [
+            "Performance",
+            "Dynamic resolution",
+            "120 FPS target"
+          ]
+        ]
+      },
+      "assessment": "Riot console pages establish platforms, not the legacy 120 FPS or resolution claim.",
+      "sourceIds": [
+        "riot-console"
+      ],
+      "limitations": [
+        "The inspected Riot console sources establish platforms, but not a numerical FPS target or exact internal resolution."
+      ],
+      "supportedModes": []
+    },
+    {
+      "key": "gta5|Xbox Series X",
+      "game": "Grand Theft Auto V",
+      "edition": "Native PS5 / Xbox Series edition, March 2022 launch",
+      "status": "supported",
+      "original": {
+        "sourceUrl": "https://www.rockstargames.com/gta-v",
+        "claims": [
+          [
+            "Fidelity",
+            "4K class",
+            "30 FPS target"
+          ],
+          [
+            "Performance",
+            "Dynamic 4K",
+            "60 FPS target"
+          ]
+        ]
+      },
+      "assessment": "Rockstar client-rendered main page did not expose sufficient extractable claim evidence. Replaced with primary publisher release for native PS5/Series editions or original 2014 analysis for old consoles. No One S extrapolation.",
+      "sourceIds": [
+        "gta5-2022"
+      ],
+      "limitations": [],
+      "supportedModes": [
+        {
+          "name": "Fidelity",
+          "resolution": "Native 4K",
+          "fps": 30,
+          "metric": "target",
+          "measurementStatus": "manufacturer-target",
+          "sourceId": "gta5-2022",
+          "appliesTo": [
+            "Xbox Series X"
+          ]
+        },
+        {
+          "name": "Performance",
+          "resolution": "Upscaled 4K",
+          "fps": 60,
+          "metric": "target",
+          "measurementStatus": "manufacturer-target",
+          "sourceId": "gta5-2022",
+          "appliesTo": [
+            "Xbox Series X"
+          ]
+        },
+        {
+          "name": "Performance RT",
+          "resolution": "Upscaled 4K",
+          "fps": 60,
+          "metric": "target",
+          "measurementStatus": "manufacturer-target",
+          "sourceId": "gta5-2022",
+          "appliesTo": [
+            "Xbox Series X"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "gta5|Xbox One / One S",
+      "game": "Grand Theft Auto V",
+      "edition": "Original PS4 / Xbox One edition, November 2014",
+      "status": "partial",
+      "original": {
+        "sourceUrl": "https://www.rockstargames.com/gta-v",
+        "claims": [
+          [
+            "Standard",
+            "1080p class",
+            "30 FPS target"
+          ]
+        ]
+      },
+      "assessment": "Rockstar client-rendered main page did not expose sufficient extractable claim evidence. Replaced with primary publisher release for native PS5/Series editions or original 2014 analysis for old consoles. No One S extrapolation.",
+      "sourceIds": [
+        "rgt-gta5"
+      ],
+      "limitations": [
+        "2014 original-console observation predates Xbox One S; no independent One S result is established."
+      ],
+      "supportedModes": [
+        {
+          "name": "Standard",
+          "resolution": "Native 1080p",
+          "fps": 30,
+          "metric": "reported-target",
+          "measurementStatus": "original-observation",
+          "sourceId": "rgt-gta5",
+          "appliesTo": [
+            "Xbox One"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "skyrim-se|Xbox Series X / Series S",
+      "game": "The Elder Scrolls V: Skyrim Special Edition",
+      "edition": "Backward-compatible Skyrim Special Edition with FPS Boost (March 2021)",
+      "status": "partial",
+      "original": {
+        "sourceUrl": "https://www.xbox.com/en-US/games/store/the-elder-scrolls-v-skyrim-special-edition/BQ1W1T1FC14W/0001/9ZQR6QQ2KDFC",
+        "claims": [
+          [
+            "Enhanced edition",
+            "Up to 4K",
+            "60 FPS+"
+          ]
+        ]
+      },
+      "assessment": "Store capability labels are not exact per-model measurements. Retains only scoped, historical Microsoft FPS Boost statement; removes shared 4K and 60+ assertion.",
+      "sourceIds": [
+        "xbox-fps-boost"
+      ],
+      "limitations": [
+        "Later native / Anniversary editions and mods need separate evidence; no shared up-to-4K claim is applied."
+      ],
+      "supportedModes": [
+        {
+          "name": "FPS Boost",
+          "resolution": null,
+          "fps": 60,
+          "metric": "approximate-target",
+          "measurementStatus": "manufacturer-target",
+          "sourceId": "xbox-fps-boost",
+          "appliesTo": [
+            "Xbox Series X",
+            "Xbox Series S"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "war-thunder|Xbox Series X",
+      "game": "War Thunder",
+      "edition": "Optimized Xbox Series X edition",
+      "status": "supported",
+      "original": {
+        "sourceUrl": "https://warthunder.com/en/game/faq",
+        "claims": [
+          [
+            "Optimized",
+            "4K",
+            "60 FPS"
+          ]
+        ]
+      },
+      "assessment": "Inspected developer FAQ supports separate Series X and Series S mode specifications. Label as publisher statement, not measured result.",
+      "sourceIds": [
+        "gaijin-faq"
+      ],
+      "limitations": [],
+      "supportedModes": [
+        {
+          "name": "Optimized",
+          "resolution": "4K",
+          "fps": 60,
+          "metric": "target",
+          "measurementStatus": "manufacturer-target",
+          "sourceId": "gaijin-faq",
+          "appliesTo": [
+            "Xbox Series X"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "war-thunder|Xbox Series S",
+      "game": "War Thunder",
+      "edition": "Optimized Xbox Series S edition",
+      "status": "supported",
+      "original": {
+        "sourceUrl": "https://warthunder.com/en/game/faq",
+        "claims": [
+          [
+            "Optimized",
+            "1440p",
+            "60 FPS"
+          ]
+        ]
+      },
+      "assessment": "Inspected developer FAQ supports separate Series X and Series S mode specifications. Label as publisher statement, not measured result.",
+      "sourceIds": [
+        "gaijin-faq"
+      ],
+      "limitations": [],
+      "supportedModes": [
+        {
+          "name": "Optimized",
+          "resolution": "1440p",
+          "fps": 60,
+          "metric": "target",
+          "measurementStatus": "manufacturer-target",
+          "sourceId": "gaijin-faq",
+          "appliesTo": [
+            "Xbox Series S"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "fortnite|Nintendo Switch 2",
+      "game": "Fortnite",
+      "edition": "Native Nintendo Switch 2 edition (2025 launch)",
+      "status": "supported",
+      "original": {
+        "sourceUrl": "https://www.fortnite.com/news/fortnite-comes-to-nintendo-switch-2",
+        "claims": [
+          [
+            "Docked",
+            "2176 × 1224",
+            "60 FPS"
+          ],
+          [
+            "Handheld",
+            "1600 × 900",
+            "60 FPS"
+          ]
+        ]
+      },
+      "assessment": "Inspected original Epic publication supports documented historical modes, subject to source revision and display conditions.",
+      "sourceIds": [
+        "epic-switch2"
+      ],
+      "limitations": [],
+      "supportedModes": [
+        {
+          "name": "Docked",
+          "resolution": "2176 × 1224",
+          "fps": 60,
+          "metric": "target",
+          "measurementStatus": "manufacturer-target",
+          "sourceId": "epic-switch2",
+          "appliesTo": [
+            "Nintendo Switch 2"
+          ]
+        },
+        {
+          "name": "Handheld",
+          "resolution": "1600 × 900",
+          "fps": 60,
+          "metric": "target",
+          "measurementStatus": "manufacturer-target",
+          "sourceId": "epic-switch2",
+          "appliesTo": [
+            "Nintendo Switch 2"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "fortnite|Nintendo Switch",
+      "game": "Fortnite",
+      "edition": "Nintendo Switch renderer update (2021)",
+      "status": "partial",
+      "original": {
+        "sourceUrl": "https://www.fortnite.com/news/gpu-performance-and-resolution-boost-for-fortnite-on-nintendo-switch",
+        "claims": [
+          [
+            "Docked",
+            "Up to 1560 × 880",
+            "30 FPS target"
+          ],
+          [
+            "Handheld",
+            "Up to 1170 × 660",
+            "30 FPS target"
+          ]
+        ]
+      },
+      "assessment": "Official source supports resolution but contains no numeric FPS claim.",
+      "sourceIds": [
+        "epic-switch-2021"
+      ],
+      "limitations": [
+        "The inspected official resolution update contains no numerical FPS target."
+      ],
+      "supportedModes": [
+        {
+          "name": "Docked",
+          "resolution": "Expected dynamic 1560 × 880",
+          "fps": null,
+          "metric": "unknown",
+          "measurementStatus": "unknown",
+          "sourceId": "epic-switch-2021",
+          "appliesTo": [
+            "Nintendo Switch"
+          ]
+        },
+        {
+          "name": "Handheld",
+          "resolution": "Expected dynamic 1170 × 660",
+          "fps": null,
+          "metric": "unknown",
+          "measurementStatus": "unknown",
+          "sourceId": "epic-switch-2021",
+          "appliesTo": [
+            "Nintendo Switch"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "zelda-botw|Nintendo Switch 2",
+      "game": "Zelda: Breath of the Wild",
+      "edition": "Nintendo Switch 2 Edition",
+      "status": "partial",
+      "original": {
+        "sourceUrl": "https://www.nintendo.com/us/store/products/the-legend-of-zelda-breath-of-the-wild-nintendo-switch-2-edition-switch-2/",
+        "claims": [
+          [
+            "TV / handheld",
+            "Higher resolution + HDR",
+            "60 FPS target"
+          ]
+        ]
+      },
+      "assessment": "Inspected Nintendo product listing does not supply exact numerical FPS. Switch 2 enhancements do not establish a 60 FPS measurement; do not transfer resolutions across editions.",
+      "sourceIds": [
+        "botw-switch2"
+      ],
+      "limitations": [
+        "Higher resolution, HDR and improved frame rate are official features. The inspected page does not supply a numerical FPS target."
+      ],
+      "supportedModes": []
+    },
+    {
+      "key": "zelda-botw|Nintendo Switch",
+      "game": "Zelda: Breath of the Wild",
+      "edition": "Original Nintendo Switch edition",
+      "status": "unverified",
+      "original": {
+        "sourceUrl": "https://www.nintendo.com/us/store/products/the-legend-of-zelda-breath-of-the-wild-switch/",
+        "claims": [
+          [
+            "Docked",
+            "900p class",
+            "30 FPS target"
+          ],
+          [
+            "Handheld",
+            "720p class",
+            "30 FPS target"
+          ]
+        ]
+      },
+      "assessment": "Inspected Nintendo product listing does not supply exact numerical FPS. Switch 2 enhancements do not establish a 60 FPS measurement; do not transfer resolutions across editions.",
+      "sourceIds": [
+        "botw-switch"
+      ],
+      "limitations": [
+        "The official product page does not verify the previous numerical resolution and FPS strings."
+      ],
+      "supportedModes": []
+    },
+    {
+      "key": "zelda-botw|Wii U",
+      "game": "Zelda: Breath of the Wild",
+      "edition": "Original Wii U edition",
+      "status": "unverified",
+      "original": {
+        "sourceUrl": "https://www.nintendo.com/us/store/products/the-legend-of-zelda-breath-of-the-wild-wii-u/",
+        "claims": [
+          [
+            "Standard",
+            "720p class",
+            "30 FPS target"
+          ]
+        ]
+      },
+      "assessment": "Legacy Wii U page fetch unavailable; no numerical claim verified. This is not proof of a broken public page.",
+      "sourceIds": [],
+      "limitations": [
+        "Legacy Wii U source could not be verified in the research fetch. That is an evidence gap, not proof the public page is broken."
+      ],
+      "supportedModes": []
+    },
+    {
+      "key": "mario-kart-world|Nintendo Switch 2",
+      "game": "Mario Kart World",
+      "edition": "Mario Kart World, May 2025 developer interview",
+      "status": "supported",
+      "original": {
+        "sourceUrl": "https://www.nintendo.com/us/store/products/mario-kart-world-switch-2/",
+        "claims": [
+          [
+            "Docked",
+            "High resolution",
+            "60 FPS target"
+          ],
+          [
+            "Handheld",
+            "Portable mode",
+            "60 FPS target"
+          ]
+        ]
+      },
+      "assessment": "Generic Nintendo listing replaced by exact-game developer interview identifying 60 FPS design goal. Player-count modes and exact resolution remain unverified.",
+      "sourceIds": [
+        "mk-world"
+      ],
+      "limitations": [],
+      "supportedModes": [
+        {
+          "name": "Developer racing goal",
+          "resolution": null,
+          "fps": 60,
+          "metric": "target",
+          "measurementStatus": "manufacturer-target",
+          "sourceId": "mk-world",
+          "appliesTo": [
+            "Nintendo Switch 2"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mario-kart-8|Nintendo Switch / Switch Lite",
+      "game": "Mario Kart 8 Deluxe",
+      "edition": "Mario Kart 8 Deluxe, original Switch launch review",
+      "status": "partial",
+      "original": {
+        "sourceUrl": "https://www.nintendo.com/us/store/products/mario-kart-8-deluxe-switch/",
+        "claims": [
+          [
+            "Docked",
+            "1080p class",
+            "60 FPS target"
+          ],
+          [
+            "Handheld",
+            "720p class",
+            "60 FPS target"
+          ]
+        ]
+      },
+      "assessment": "Product listing alone does not support legacy numerical table. Original Switch review distinguishes solo/two-player 60 and three/four-player split-screen 30; no Switch Lite observation or TV mode is implied.",
+      "sourceIds": [
+        "nl-mk8-deluxe",
+        "lite-playmode"
+      ],
+      "limitations": [
+        "Measurements cover Nintendo Switch, not an independently tested Switch Lite. Switch Lite has no TV mode."
+      ],
+      "supportedModes": [
+        {
+          "name": "TV: solo or two players",
+          "resolution": "1080p",
+          "fps": 60,
+          "metric": "reported-mode",
+          "measurementStatus": "original-observation",
+          "sourceId": "nl-mk8-deluxe",
+          "appliesTo": [
+            "Nintendo Switch"
+          ]
+        },
+        {
+          "name": "Handheld: solo or two players",
+          "resolution": "720p",
+          "fps": 60,
+          "metric": "reported-mode",
+          "measurementStatus": "original-observation",
+          "sourceId": "nl-mk8-deluxe",
+          "appliesTo": [
+            "Nintendo Switch"
+          ]
+        },
+        {
+          "name": "Three or four players, split screen",
+          "resolution": null,
+          "fps": 30,
+          "metric": "reported-mode",
+          "measurementStatus": "original-observation",
+          "sourceId": "nl-mk8-deluxe",
+          "appliesTo": [
+            "Nintendo Switch"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mario-kart-8|Wii U",
+      "game": "Mario Kart 8",
+      "edition": "Mario Kart 8 original Wii U edition",
+      "status": "supported",
+      "original": {
+        "sourceUrl": "https://www.nintendo.com/us/store/products/mario-kart-8-wii-u/",
+        "claims": [
+          [
+            "Standard",
+            "720p class",
+            "60 FPS target"
+          ]
+        ]
+      },
+      "assessment": "Legacy listing unavailable to research fetch. Original interview with Nintendo director supports single/two-player 60 FPS goal; pixel dimensions and other player counts are not inferred.",
+      "sourceIds": [
+        "nl-mk8-director"
+      ],
+      "limitations": [],
+      "supportedModes": [
+        {
+          "name": "Single or two players",
+          "resolution": null,
+          "fps": 60,
+          "metric": "target",
+          "measurementStatus": "manufacturer-target",
+          "sourceId": "nl-mk8-director",
+          "appliesTo": [
+            "Wii U"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mario-kart-wii|Wii",
+      "game": "Mario Kart Wii",
+      "edition": "Mario Kart Wii",
+      "status": "unverified",
+      "original": {
+        "sourceUrl": "https://www.nintendo.com/en-gb/Games/Wii/Mario-Kart-Wii-281848.html",
+        "claims": [
+          [
+            "Standard",
+            "480p class",
+            "60 FPS target"
+          ]
+        ]
+      },
+      "assessment": "Inspected official title listing does not verify the legacy 480p/60 FPS strings.",
+      "sourceIds": [],
+      "limitations": [
+        "Inspected official game listing does not establish an exact frame rate or output resolution. Do not copy another Mario Kart edition."
+      ],
+      "supportedModes": []
+    },
+    {
+      "key": "mario-galaxy|Nintendo Switch 2",
+      "game": "Super Mario Galaxy",
+      "edition": "2025 Super Mario Galaxy + Super Mario Galaxy 2 remaster bundle",
+      "status": "supported",
+      "original": {
+        "sourceUrl": "https://www.nintendo.com/us/store/products/super-mario-galaxy-plus-super-mario-galaxy-2-switch/",
+        "claims": [
+          [
+            "TV mode",
+            "Up to 4K",
+            "60 FPS target"
+          ]
+        ]
+      },
+      "assessment": "Nintendo 2025 remaster listing supports output-resolution enhancement, not FPS. Original 2025 review supplies explicitly labeled narrative FPS observation; no raw dataset or independent Switch Lite test is established.",
+      "sourceIds": [
+        "xtg-galaxy",
+        "galaxy-2025"
+      ],
+      "limitations": [
+        "Scope is the 2025 remaster with the update, not the Wii game or 2020 3D All-Stars edition."
+      ],
+      "supportedModes": [
+        {
+          "name": "TV mode",
+          "resolution": "Up to 4K with the free Switch 2 update",
+          "fps": 60,
+          "metric": "reported-mode",
+          "measurementStatus": "original-observation",
+          "sourceId": "xtg-galaxy",
+          "resolutionSourceId": "galaxy-2025",
+          "appliesTo": [
+            "Nintendo Switch 2"
+          ]
+        },
+        {
+          "name": "Handheld",
+          "resolution": null,
+          "fps": 60,
+          "metric": "reported-mode",
+          "measurementStatus": "original-observation",
+          "sourceId": "xtg-galaxy",
+          "appliesTo": [
+            "Nintendo Switch 2"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mario-galaxy|Nintendo Switch / Switch Lite",
+      "game": "Super Mario Galaxy",
+      "edition": "2025 Super Mario Galaxy + Super Mario Galaxy 2 remaster bundle",
+      "status": "partial",
+      "original": {
+        "sourceUrl": "https://www.nintendo.com/us/store/products/super-mario-galaxy-plus-super-mario-galaxy-2-switch/",
+        "claims": [
+          [
+            "Docked",
+            "1080p",
+            "60 FPS target"
+          ],
+          [
+            "Handheld",
+            "720p class",
+            "60 FPS target"
+          ]
+        ]
+      },
+      "assessment": "Nintendo 2025 remaster listing supports output-resolution enhancement, not FPS. Original 2025 review supplies explicitly labeled narrative FPS observation; no raw dataset or independent Switch Lite test is established.",
+      "sourceIds": [
+        "xtg-galaxy",
+        "galaxy-2025",
+        "lite-playmode"
+      ],
+      "limitations": [
+        "Measurements cover Nintendo Switch, not an independently tested Switch Lite. Switch Lite has no TV mode."
+      ],
+      "supportedModes": [
+        {
+          "name": "TV mode",
+          "resolution": "1080p output",
+          "fps": 60,
+          "metric": "reported-mode",
+          "measurementStatus": "original-observation",
+          "sourceId": "xtg-galaxy",
+          "resolutionSourceId": "galaxy-2025",
+          "appliesTo": [
+            "Nintendo Switch"
+          ]
+        },
+        {
+          "name": "Handheld",
+          "resolution": null,
+          "fps": 60,
+          "metric": "reported-mode",
+          "measurementStatus": "original-observation",
+          "sourceId": "xtg-galaxy",
+          "appliesTo": [
+            "Nintendo Switch"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mario-galaxy|Wii",
+      "game": "Super Mario Galaxy",
+      "edition": "Super Mario Galaxy original Wii edition",
+      "status": "supported",
+      "original": {
+        "sourceUrl": "https://www.nintendo.com/us/store/products/super-mario-galaxy-plus-super-mario-galaxy-2-switch/",
+        "claims": [
+          [
+            "Standard",
+            "480p class",
+            "60 FPS target"
+          ]
+        ]
+      },
+      "assessment": "Legacy citation is the later 2025 remaster, not the Wii edition. Replaced by exact original Wii developer interview; exact pixel resolution remains unverified.",
+      "sourceIds": [
+        "galaxy-wii"
+      ],
+      "limitations": [],
+      "supportedModes": [
+        {
+          "name": "Original Wii edition",
+          "resolution": null,
+          "fps": 60,
+          "metric": "target",
+          "measurementStatus": "manufacturer-target",
+          "sourceId": "galaxy-wii",
+          "appliesTo": [
+            "Wii"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mario-galaxy-2|Nintendo Switch 2",
+      "game": "Super Mario Galaxy 2",
+      "edition": "2025 Super Mario Galaxy + Super Mario Galaxy 2 remaster bundle",
+      "status": "supported",
+      "original": {
+        "sourceUrl": "https://www.nintendo.com/us/store/products/super-mario-galaxy-plus-super-mario-galaxy-2-switch/",
+        "claims": [
+          [
+            "TV mode",
+            "Up to 4K",
+            "60 FPS target"
+          ]
+        ]
+      },
+      "assessment": "Nintendo 2025 remaster listing supports output-resolution enhancement, not FPS. Original 2025 review supplies explicitly labeled narrative FPS observation; no raw dataset or independent Switch Lite test is established.",
+      "sourceIds": [
+        "xtg-galaxy",
+        "galaxy-2025"
+      ],
+      "limitations": [
+        "Scope is the 2025 remaster with the update, not the Wii game or 2020 3D All-Stars edition."
+      ],
+      "supportedModes": [
+        {
+          "name": "TV mode",
+          "resolution": "Up to 4K with the free Switch 2 update",
+          "fps": 60,
+          "metric": "reported-mode",
+          "measurementStatus": "original-observation",
+          "sourceId": "xtg-galaxy",
+          "resolutionSourceId": "galaxy-2025",
+          "appliesTo": [
+            "Nintendo Switch 2"
+          ]
+        },
+        {
+          "name": "Handheld",
+          "resolution": null,
+          "fps": 60,
+          "metric": "reported-mode",
+          "measurementStatus": "original-observation",
+          "sourceId": "xtg-galaxy",
+          "appliesTo": [
+            "Nintendo Switch 2"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mario-galaxy-2|Nintendo Switch / Switch Lite",
+      "game": "Super Mario Galaxy 2",
+      "edition": "2025 Super Mario Galaxy + Super Mario Galaxy 2 remaster bundle",
+      "status": "partial",
+      "original": {
+        "sourceUrl": "https://www.nintendo.com/us/store/products/super-mario-galaxy-plus-super-mario-galaxy-2-switch/",
+        "claims": [
+          [
+            "Docked",
+            "1080p",
+            "60 FPS target"
+          ],
+          [
+            "Handheld",
+            "720p class",
+            "60 FPS target"
+          ]
+        ]
+      },
+      "assessment": "Nintendo 2025 remaster listing supports output-resolution enhancement, not FPS. Original 2025 review supplies explicitly labeled narrative FPS observation; no raw dataset or independent Switch Lite test is established.",
+      "sourceIds": [
+        "xtg-galaxy",
+        "galaxy-2025",
+        "lite-playmode"
+      ],
+      "limitations": [
+        "Measurements cover Nintendo Switch, not an independently tested Switch Lite. Switch Lite has no TV mode."
+      ],
+      "supportedModes": [
+        {
+          "name": "TV mode",
+          "resolution": "1080p output",
+          "fps": 60,
+          "metric": "reported-mode",
+          "measurementStatus": "original-observation",
+          "sourceId": "xtg-galaxy",
+          "resolutionSourceId": "galaxy-2025",
+          "appliesTo": [
+            "Nintendo Switch"
+          ]
+        },
+        {
+          "name": "Handheld",
+          "resolution": null,
+          "fps": 60,
+          "metric": "reported-mode",
+          "measurementStatus": "original-observation",
+          "sourceId": "xtg-galaxy",
+          "appliesTo": [
+            "Nintendo Switch"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mario-galaxy-2|Wii",
+      "game": "Super Mario Galaxy 2",
+      "edition": "Super Mario Galaxy 2 original Wii edition",
+      "status": "supported",
+      "original": {
+        "sourceUrl": "https://www.nintendo.com/us/store/products/super-mario-galaxy-plus-super-mario-galaxy-2-switch/",
+        "claims": [
+          [
+            "Standard",
+            "480p class",
+            "60 FPS target"
+          ]
+        ]
+      },
+      "assessment": "Legacy citation is the later 2025 remaster, not the Wii edition. Replaced by exact original Wii developer interview; exact pixel resolution remains unverified.",
+      "sourceIds": [
+        "galaxy2-wii"
+      ],
+      "limitations": [],
+      "supportedModes": [
+        {
+          "name": "Original Wii edition",
+          "resolution": null,
+          "fps": 60,
+          "metric": "target",
+          "measurementStatus": "manufacturer-target",
+          "sourceId": "galaxy2-wii",
+          "appliesTo": [
+            "Wii"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "minecraft-bedrock|Nintendo Switch / Switch Lite",
+      "game": "Minecraft",
+      "edition": "Minecraft Bedrock Nintendo Switch edition",
+      "status": "unverified",
+      "original": {
+        "sourceUrl": "https://www.minecraft.net/en-us/store/minecraft-deluxe-collection-pc",
+        "claims": [
+          [
+            "Docked",
+            "1080p class",
+            "60 FPS target"
+          ],
+          [
+            "Handheld",
+            "720p class",
+            "60 FPS target"
+          ]
+        ]
+      },
+      "assessment": "Original PC Deluxe product listing concerns the wrong platform. Upcoming native Switch 2 announcement establishes neither native nor backward-compatible numerical performance.",
+      "sourceIds": [],
+      "limitations": [
+        "Legacy source is a PC Deluxe product listing and cannot establish console FPS or resolution. An exact console source is required."
+      ],
+      "supportedModes": []
+    },
+    {
+      "key": "minecraft-bedrock|Nintendo Switch 2",
+      "game": "Minecraft",
+      "edition": "Switch edition in backward compatibility / upcoming native Switch 2 edition",
+      "status": "unverified",
+      "original": {
+        "sourceUrl": "https://www.minecraft.net/en-us/store/minecraft-deluxe-collection-pc",
+        "claims": [
+          [
+            "TV / handheld",
+            "Compatibility release",
+            "60 FPS target"
+          ]
+        ]
+      },
+      "assessment": "Original PC Deluxe product listing concerns the wrong platform. Upcoming native Switch 2 announcement establishes neither native nor backward-compatible numerical performance.",
+      "sourceIds": [
+        "minecraft-switch2"
+      ],
+      "limitations": [
+        "October 8, 2026 regional announcement describes an upcoming native release without a numerical FPS target. Native and backward-compatible editions must not be conflated. The PC Deluxe page verifies neither."
+      ],
+      "supportedModes": []
+    }
+  ],
+  "tests": {
+    "command": "node scripts/check-console-evidence.cjs",
+    "implementationChecksPassed": 19,
+    "sourceTruthLimitation": "Tests verify coverage, scope and policy. Automated checks do not constitute human editorial review or console hardware testing.",
+    "browserStatus": "Central integration and browser QA assigned to parent; this task does not claim browser testing or deployment."
+  },
+  "nextReview": [
+    "Review exact mode display and limitations in console cards.",
+    "Obtain current exact-edition evidence for the ten unverified records.",
+    "Collect independently permitted measurements before publishing averages, 1% lows or estimated uplifts."
+  ],
+  "fullModeDetails": "Conditions, per-mode limitations and display formatting are maintained in scripts/program-console-evidence.cjs and must be rendered from that registry."
+}

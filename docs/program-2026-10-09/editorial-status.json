@@ -1,0 +1,2111 @@
+{
+  "baseline": "2026-10-09",
+  "codeComplete": true,
+  "deployed": false,
+  "publishedCount": 0,
+  "publishableCount": 0,
+  "humanReviewedCount": 0,
+  "researchDrafts": 40,
+  "sourceRecords": 42,
+  "originalWords": 23713,
+  "wordRange": [
+    549,
+    674
+  ],
+  "publicationGate": {
+    "module": "scripts/program-editorial-review.cjs",
+    "decisions": "scripts/program-editorial-review-decisions.json",
+    "defaultState": "empty_registry_no_publication",
+    "resolver": "Pure eligibility check; actual human identity/factual review remains the owner’s responsibility",
+    "rendering": "renderArticle stays draft-only; renderApprovedRevision requires an explicit matching human decision and actual route inventory; no publication dates/schema/feed/sitemap are assigned",
+    "commands": [
+      "node scripts/program-editorial-review.cjs list",
+      "node scripts/program-editorial-review.cjs check",
+      "node scripts/program-editorial-review.cjs self-test"
+    ],
+    "documentation": "docs/program-2026-10-09/editorial-publication-gate.md"
+  },
+  "materiallyRevisedExistingRoutes": 13,
+  "newDraftIntents": 27,
+  "tests": [
+    {
+      "command": "node scripts/program-editorial.cjs",
+      "result": "passed",
+      "scope": "40 unique IDs/routes, registered sources, source applicability links, review gates, table shape, safe links and rendered draft structure"
+    }
+  ],
+  "externalDependencies": "No retailer feed, delivery service, analytics or external side effect was enabled by this editorial workstream.",
+  "tasks": [
+    {
+      "taskId": "ED-01",
+      "contentVersion": "editorial-program-2026-10-09.v1",
+      "contentHash": "6ffc462ec92d7374043b7d9833bc79e100fbba48e0d9bcfb364d5ac47da1a68d",
+      "dependsOn": [
+        "shared_editorial_rendering",
+        "evidence_register",
+        "human_editorial_review"
+      ],
+      "route": "/blog/build-your-first-gaming-pc/",
+      "title": "Build your first gaming PC: from a plan to first boot",
+      "intent": "Complete a first build safely without losing the next step",
+      "audience": "First-time desktop builders",
+      "wordCount": 674,
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "evidenceType": "Research-based practical guide",
+      "sources": [
+        "intel-build",
+        "msi-b650-manual",
+        "corsair-cables",
+        "windows-media",
+        "windows11"
+      ],
+      "relatedProducts": [],
+      "relatedArticleIds": [
+        "10",
+        "23"
+      ],
+      "nextAction": {
+        "url": "/build-school/",
+        "label": "Follow the Build School checklist"
+      },
+      "files": [
+        "scripts/program-editorial.cjs",
+        "scripts/program-editorial-sources.cjs"
+      ],
+      "humanReview": null,
+      "publishable": false,
+      "published": false,
+      "indexable": false,
+      "datePublished": null,
+      "dateModified": null,
+      "limitations": [
+        "Research and source checking are complete for the stated scope. Independent human editorial review is still required. This site has not performed hardware testing for this draft."
+      ],
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-02",
+      "contentVersion": "editorial-program-2026-10-09.v1",
+      "contentHash": "612d776c69056525559f9d931265ad89d07b929e24c68efa18a6c94cafa4255c",
+      "dependsOn": [
+        "shared_editorial_rendering",
+        "evidence_register",
+        "exact_regional_offers",
+        "verified_bom_revision",
+        "human_editorial_review"
+      ],
+      "route": "/blog/gaming-pc-1000-cad/",
+      "title": "Plan a gaming PC around $1,000 CAD",
+      "intent": "Plan a complete Canadian entry gaming budget",
+      "audience": "Canadian first-time buyers",
+      "wordCount": 671,
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "evidenceType": "Research-based practical guide",
+      "sources": [
+        "intel-build",
+        "msi-b650",
+        "corsair-cables"
+      ],
+      "relatedProducts": [],
+      "relatedArticleIds": [
+        "01",
+        "06"
+      ],
+      "nextAction": {
+        "url": "/tools/budget-build-lab/",
+        "label": "Compare a complete budget worksheet"
+      },
+      "files": [
+        "scripts/program-editorial.cjs",
+        "scripts/program-editorial-sources.cjs"
+      ],
+      "humanReview": null,
+      "publishable": false,
+      "published": false,
+      "indexable": false,
+      "datePublished": null,
+      "dateModified": null,
+      "limitations": [
+        "No verified Canadian offer set or final BOM. The title describes a planning target, not an available $1,000 build."
+      ],
+      "blockers": [
+        "exact_regional_offers",
+        "verified_bom_revision",
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-03",
+      "contentVersion": "editorial-program-2026-10-09.v1",
+      "contentHash": "786a7ae43f54ceb1fa5f9bc45fe6b823306dd0aec3e9e0a422be2d997cd2d88e",
+      "dependsOn": [
+        "shared_editorial_rendering",
+        "evidence_register",
+        "exact_regional_offers",
+        "verified_bom_revision",
+        "human_editorial_review"
+      ],
+      "route": "/blog/gaming-pc-1500-cad/",
+      "title": "Plan a gaming PC around $1,500 CAD",
+      "intent": "Allocate a Canadian midrange budget using complete costs",
+      "audience": "Canadian gaming buyers comparing platform options",
+      "wordCount": 649,
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "evidenceType": "Research-based practical guide",
+      "sources": [
+        "intel-board",
+        "rtx5070",
+        "rx9070",
+        "corsair-cables"
+      ],
+      "relatedProducts": [
+        {
+          "id": "rtx5070",
+          "label": "GeForce RTX 5070",
+          "url": "/learn/rtx5070.html"
+        },
+        {
+          "id": "rx9070",
+          "label": "Radeon RX 9070",
+          "url": "/learn/rx9070.html"
+        }
+      ],
+      "relatedArticleIds": [
+        "07",
+        "24"
+      ],
+      "nextAction": {
+        "url": "/tools/budget-build-lab/",
+        "label": "Compare a complete budget worksheet"
+      },
+      "files": [
+        "scripts/program-editorial.cjs",
+        "scripts/program-editorial-sources.cjs"
+      ],
+      "humanReview": null,
+      "publishable": false,
+      "published": false,
+      "indexable": false,
+      "datePublished": null,
+      "dateModified": null,
+      "limitations": [
+        "Current CAD offers, exact BOM and target-game evidence are not established. No complete $1,500 purchase claim."
+      ],
+      "blockers": [
+        "exact_regional_offers",
+        "verified_bom_revision",
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-04",
+      "contentVersion": "editorial-program-2026-10-09.v1",
+      "contentHash": "4c8e36b5e54e9f6cbf30dc8982e62f6bc73f1683eb669744f72a41c9504c22a0",
+      "dependsOn": [
+        "shared_editorial_rendering",
+        "evidence_register",
+        "exact_regional_offers",
+        "verified_bom_revision",
+        "human_editorial_review"
+      ],
+      "route": "/blog/gaming-pc-1000-usd/",
+      "title": "Plan a gaming PC around $1,000 USD",
+      "intent": "Avoid hidden costs in a US entry gaming build",
+      "audience": "US buyers planning their first tower",
+      "wordCount": 601,
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "evidenceType": "Research-based practical guide",
+      "sources": [
+        "intel-build",
+        "kingston-ram",
+        "kingston-m2",
+        "corsair-cables"
+      ],
+      "relatedProducts": [],
+      "relatedArticleIds": [
+        "01",
+        "06"
+      ],
+      "nextAction": {
+        "url": "/tools/budget-build-lab/",
+        "label": "Compare a complete budget worksheet"
+      },
+      "files": [
+        "scripts/program-editorial.cjs",
+        "scripts/program-editorial-sources.cjs"
+      ],
+      "humanReview": null,
+      "publishable": false,
+      "published": false,
+      "indexable": false,
+      "datePublished": null,
+      "dateModified": null,
+      "limitations": [
+        "No current verified US bill of materials or complete price. Planning target only."
+      ],
+      "blockers": [
+        "exact_regional_offers",
+        "verified_bom_revision",
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-05",
+      "contentVersion": "editorial-program-2026-10-09.v1",
+      "contentHash": "ab2a1f4f50594bd33c6d8b13cc75ec142f3a35c902dc4fe1165297fb499d2ac7",
+      "dependsOn": [
+        "shared_editorial_rendering",
+        "evidence_register",
+        "exact_regional_offers",
+        "verified_bom_revision",
+        "human_editorial_review"
+      ],
+      "route": "/blog/gaming-pc-1500-usd/",
+      "title": "Plan a gaming PC around $1,500 USD",
+      "intent": "Evaluate where a larger US gaming budget adds useful capability",
+      "audience": "US buyers choosing a midrange gaming system",
+      "wordCount": 603,
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "evidenceType": "Research-based practical guide",
+      "sources": [
+        "intel-board",
+        "obs-hardware",
+        "corsair-cables",
+        "presentmon"
+      ],
+      "relatedProducts": [],
+      "relatedArticleIds": [
+        "07",
+        "09"
+      ],
+      "nextAction": {
+        "url": "/tools/budget-build-lab/",
+        "label": "Compare a complete budget worksheet"
+      },
+      "files": [
+        "scripts/program-editorial.cjs",
+        "scripts/program-editorial-sources.cjs"
+      ],
+      "humanReview": null,
+      "publishable": false,
+      "published": false,
+      "indexable": false,
+      "datePublished": null,
+      "dateModified": null,
+      "limitations": [
+        "Final US BOM and current offer coverage are absent. No current shopping recommendation or complete-price claim."
+      ],
+      "blockers": [
+        "exact_regional_offers",
+        "verified_bom_revision",
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-06",
+      "contentVersion": "editorial-program-2026-10-09.v1",
+      "contentHash": "0b7ea2c55dd69e22114901f17010bc31a178510491254df1ff7871adf0e6999f",
+      "dependsOn": [
+        "shared_editorial_rendering",
+        "evidence_register",
+        "human_editorial_review"
+      ],
+      "route": "/blog/plan-1080p-high-refresh-gaming-pc/",
+      "title": "Plan a 1080p high-refresh gaming PC without overspending",
+      "intent": "Choose a useful competitive-gaming configuration",
+      "audience": "Players buying for a high-refresh 1080p display",
+      "wordCount": 611,
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "evidenceType": "Research-based practical guide",
+      "sources": [
+        "intel-limits",
+        "gn9800",
+        "presentmon",
+        "windows-refresh"
+      ],
+      "relatedProducts": [],
+      "relatedArticleIds": [
+        "35",
+        "19"
+      ],
+      "nextAction": {
+        "url": "/builder/",
+        "label": "Plan a game-specific build"
+      },
+      "files": [
+        "scripts/program-editorial.cjs",
+        "scripts/program-editorial-sources.cjs"
+      ],
+      "humanReview": null,
+      "publishable": false,
+      "published": false,
+      "indexable": false,
+      "datePublished": null,
+      "dateModified": null,
+      "limitations": [
+        "No exact build or FPS outcome is verified here. Source results apply only to their documented test conditions. Human editorial review is pending."
+      ],
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-07",
+      "contentVersion": "editorial-program-2026-10-09.v1",
+      "contentHash": "c998849dbb05dd101d1698063d89d1ca5cd32345916da467bac5d929fc31c613",
+      "dependsOn": [
+        "shared_editorial_rendering",
+        "evidence_register",
+        "human_editorial_review"
+      ],
+      "route": "/blog/plan-balanced-1440p-gaming-pc/",
+      "title": "Plan a balanced 1440p gaming PC",
+      "intent": "Plan a complete system for a defined 1440p display goal",
+      "audience": "Players moving to a 2560 × 1440 display",
+      "wordCount": 621,
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "evidenceType": "Research-based practical guide",
+      "sources": [
+        "rtx5070",
+        "rx9070",
+        "ts9070",
+        "dlss",
+        "fsr3",
+        "intel-board"
+      ],
+      "relatedProducts": [
+        {
+          "id": "rtx5070",
+          "label": "GeForce RTX 5070",
+          "url": "/learn/rtx5070.html"
+        },
+        {
+          "id": "rx9070",
+          "label": "Radeon RX 9070",
+          "url": "/learn/rx9070.html"
+        }
+      ],
+      "relatedArticleIds": [
+        "11",
+        "36"
+      ],
+      "nextAction": {
+        "url": "/builder/",
+        "label": "Create a 1440p build plan"
+      },
+      "files": [
+        "scripts/program-editorial.cjs",
+        "scripts/program-editorial-sources.cjs"
+      ],
+      "humanReview": null,
+      "publishable": false,
+      "published": false,
+      "indexable": false,
+      "datePublished": null,
+      "dateModified": null,
+      "limitations": [
+        "Planning guidance, not a tested 1440p system or current regional offer recommendation. Human editorial review is pending."
+      ],
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-08",
+      "contentVersion": "editorial-program-2026-10-09.v1",
+      "contentHash": "5ec2565f60cdafba379242739ac06a213e787198302f5de73195cb35dc6609b8",
+      "dependsOn": [
+        "shared_editorial_rendering",
+        "evidence_register",
+        "human_editorial_review"
+      ],
+      "route": "/blog/compact-quiet-pc-fit-cooling/",
+      "title": "Plan a compact PC with a realistic noise goal",
+      "intent": "Plan a compact layout without assuming fit or silence",
+      "audience": "Buyers with limited desk space or a noise preference",
+      "wordCount": 623,
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "evidenceType": "Research-based practical guide",
+      "sources": [
+        "north-sheet",
+        "nhd15-sheet",
+        "h100i",
+        "corsair-cables"
+      ],
+      "relatedProducts": [],
+      "relatedArticleIds": [
+        "27",
+        "18"
+      ],
+      "nextAction": {
+        "url": "/compatibility/",
+        "label": "Check your planned clearances"
+      },
+      "files": [
+        "scripts/program-editorial.cjs",
+        "scripts/program-editorial-sources.cjs"
+      ],
+      "humanReview": null,
+      "publishable": false,
+      "published": false,
+      "indexable": false,
+      "datePublished": null,
+      "dateModified": null,
+      "limitations": [
+        "The original North and NH-D15 documents are examples; they do not certify other revisions. No acoustic or thermal testing was performed. Human editorial review is pending."
+      ],
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-09",
+      "contentVersion": "editorial-program-2026-10-09.v1",
+      "contentHash": "1154fac4c586c4580d30c01045695fc8fb23d9767c6bd16deb3ba578337d49e1",
+      "dependsOn": [
+        "shared_editorial_rendering",
+        "evidence_register",
+        "human_editorial_review"
+      ],
+      "route": "/blog/gaming-streaming-pc-planning/",
+      "title": "Plan a PC for gaming and streaming together",
+      "intent": "Allocate hardware for simultaneous play, stream and optional recording",
+      "audience": "Players using OBS or starting a stream",
+      "wordCount": 571,
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "evidenceType": "Research-based practical guide",
+      "sources": [
+        "obs-hardware",
+        "obs-start",
+        "presentmon"
+      ],
+      "relatedProducts": [],
+      "relatedArticleIds": [
+        "39",
+        "26"
+      ],
+      "nextAction": {
+        "url": "/builder/",
+        "label": "Plan the full streaming setup"
+      },
+      "files": [
+        "scripts/program-editorial.cjs",
+        "scripts/program-editorial-sources.cjs"
+      ],
+      "humanReview": null,
+      "publishable": false,
+      "published": false,
+      "indexable": false,
+      "datePublished": null,
+      "dateModified": null,
+      "limitations": [
+        "No completed streaming build, encoder quality test or network guarantee is provided. Verify current service requirements separately. Human editorial review is pending."
+      ],
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-10",
+      "contentVersion": "editorial-program-2026-10-09.v1",
+      "contentHash": "7715c2e86f7bf46192441fbbd5b658f1b390685ec90d0fdf25b8edf6089de818",
+      "dependsOn": [
+        "shared_editorial_rendering",
+        "evidence_register",
+        "human_editorial_review"
+      ],
+      "route": "/blog/new-pc-first-boot-setup-checklist/",
+      "title": "First boot and setup: a checklist for a newly built PC",
+      "intent": "Move from completed assembly to a supported working system",
+      "audience": "First-time builders ready to power on",
+      "wordCount": 581,
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "evidenceType": "Research-based practical guide",
+      "sources": [
+        "intel-build",
+        "msi-b650-manual",
+        "asus-nodisplay",
+        "windows-media",
+        "windows11",
+        "expo"
+      ],
+      "relatedProducts": [],
+      "relatedArticleIds": [
+        "31",
+        "34"
+      ],
+      "nextAction": {
+        "url": "/build-school/",
+        "label": "Save or print the build checklist"
+      },
+      "files": [
+        "scripts/program-editorial.cjs",
+        "scripts/program-editorial-sources.cjs"
+      ],
+      "humanReview": null,
+      "publishable": false,
+      "published": false,
+      "indexable": false,
+      "datePublished": null,
+      "dateModified": null,
+      "limitations": [
+        "Exact installation and firmware procedures remain model-specific. No universal startup time, temperature or stability guarantee is implied. Human editorial review is pending."
+      ],
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-11",
+      "contentVersion": "editorial-program-2026-10-09.v1",
+      "contentHash": "98b9463d1bb27d67d4f1af5f245751e9921104287cf17b149f5dbc1c641d144a",
+      "dependsOn": [
+        "shared_editorial_rendering",
+        "evidence_register",
+        "human_editorial_review"
+      ],
+      "route": "/compare/rtx-5070-vs-rx-9070/",
+      "title": "RTX 5070 vs RX 9070: choose by games, features and complete cost",
+      "intent": "Choose between two documented GPU designs",
+      "audience": "Gaming buyers comparing RTX 5070 and RX 9070",
+      "wordCount": 571,
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "evidenceType": "Research-based comparison",
+      "sources": [
+        "rtx5070",
+        "rx9070",
+        "ts9070",
+        "dlss",
+        "fsr3"
+      ],
+      "relatedProducts": [
+        {
+          "id": "rtx5070",
+          "label": "GeForce RTX 5070",
+          "url": "/learn/rtx5070.html"
+        },
+        {
+          "id": "rx9070",
+          "label": "Radeon RX 9070",
+          "url": "/learn/rx9070.html"
+        }
+      ],
+      "relatedArticleIds": [
+        "27",
+        "36"
+      ],
+      "nextAction": {
+        "url": "/compare/?parts=rtx5070%2Crx9070&mode=interactive",
+        "label": "Compare the exact parts in your plan"
+      },
+      "files": [
+        "scripts/program-editorial.cjs",
+        "scripts/program-editorial-sources.cjs"
+      ],
+      "humanReview": null,
+      "publishable": false,
+      "published": false,
+      "indexable": false,
+      "datePublished": null,
+      "dateModified": null,
+      "limitations": [
+        "Specifications are manufacturer claims; game evidence belongs to the linked original publisher and its test conditions. Current regional offers are unverified. Human editorial review is pending."
+      ],
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-12",
+      "contentVersion": "editorial-program-2026-10-09.v1",
+      "contentHash": "f6a8a6b367fd1d05300efbb2291c079554d024c01aab1c9ab36aec626b384dc5",
+      "dependsOn": [
+        "shared_editorial_rendering",
+        "evidence_register",
+        "human_editorial_review"
+      ],
+      "route": "/compare/ryzen-7-9800x3d-vs-7800x3d/",
+      "title": "Ryzen 7 9800X3D vs 7800X3D: a new build or an owner’s upgrade?",
+      "intent": "Choose an AM5 gaming CPU or evaluate a replacement",
+      "audience": "New AM5 buyers and current 7800X3D owners",
+      "wordCount": 585,
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "evidenceType": "Research-based comparison",
+      "sources": [
+        "ryzen9800",
+        "ryzen7800",
+        "gn9800",
+        "msi-bios"
+      ],
+      "relatedProducts": [
+        {
+          "id": "9800x3d",
+          "label": "Ryzen 7 9800X3D",
+          "url": "/learn/9800x3d.html"
+        },
+        {
+          "id": "7800x3d",
+          "label": "Ryzen 7 7800X3D",
+          "url": "/learn/7800x3d.html"
+        }
+      ],
+      "relatedArticleIds": [
+        "22",
+        "19"
+      ],
+      "nextAction": {
+        "url": "/upgrade/",
+        "label": "Compare keeping and upgrading your PC"
+      },
+      "files": [
+        "scripts/program-editorial.cjs",
+        "scripts/program-editorial-sources.cjs"
+      ],
+      "humanReview": null,
+      "publishable": false,
+      "published": false,
+      "indexable": false,
+      "datePublished": null,
+      "dateModified": null,
+      "limitations": [
+        "No current exact regional price pair or first-party test is supplied. Historical benchmarks retain their source conditions. Human editorial review is pending."
+      ],
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-13",
+      "contentVersion": "editorial-program-2026-10-09.v1",
+      "contentHash": "83e794698665672cac77b26b2edd589d41a04b700cf967a8f9c7c0b11c7d4081",
+      "dependsOn": [
+        "shared_editorial_rendering",
+        "evidence_register",
+        "human_editorial_review"
+      ],
+      "route": "/blog/rtx-5060-ti-8gb-vs-16gb/",
+      "title": "RTX 5060 Ti 8 GB vs 16 GB: when capacity changes the decision",
+      "intent": "Choose between capacity variants without a blanket rule",
+      "audience": "Buyers comparing desktop RTX 5060 Ti variants",
+      "wordCount": 559,
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "evidenceType": "Research-based capacity comparison",
+      "sources": [
+        "rtx5060",
+        "ts5060-capacity",
+        "ts9060-5060"
+      ],
+      "relatedProducts": [],
+      "relatedArticleIds": [
+        "14",
+        "40"
+      ],
+      "nextAction": {
+        "url": "/compare/",
+        "label": "Compare exact capacity variants"
+      },
+      "files": [
+        "scripts/program-editorial.cjs",
+        "scripts/program-editorial-sources.cjs"
+      ],
+      "humanReview": null,
+      "publishable": false,
+      "published": false,
+      "indexable": false,
+      "datePublished": null,
+      "dateModified": null,
+      "limitations": [
+        "No copied benchmark dataset, universal FPS ratio or current offer difference. Exact workload and interface conditions must be checked. Human editorial review is pending."
+      ],
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-14",
+      "contentVersion": "editorial-program-2026-10-09.v1",
+      "contentHash": "1bd28b89dd319b528c3fd48a70ab56a2d71ac37042b8ac073fa762505cc18f98",
+      "dependsOn": [
+        "shared_editorial_rendering",
+        "evidence_register",
+        "verified_same_budget_offers",
+        "human_editorial_review"
+      ],
+      "route": "/compare/rtx-5060-ti-16gb-vs-rx-9060-xt-16gb/",
+      "title": "RTX 5060 Ti 16 GB vs RX 9060 XT 16 GB: compare the workload before the deal",
+      "intent": "Evaluate two alternatives when local prices make the comparison meaningful",
+      "audience": "Midrange buyers comparing 16 GB graphics options",
+      "wordCount": 600,
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "evidenceType": "Research-based conditional comparison",
+      "sources": [
+        "rtx5060",
+        "rx9060",
+        "ts9060-5060",
+        "dlss",
+        "fsr3"
+      ],
+      "relatedProducts": [],
+      "relatedArticleIds": [
+        "13",
+        "36"
+      ],
+      "nextAction": {
+        "url": "/compare/",
+        "label": "Compare your available 16 GB options"
+      },
+      "files": [
+        "scripts/program-editorial.cjs",
+        "scripts/program-editorial-sources.cjs"
+      ],
+      "humanReview": null,
+      "publishable": false,
+      "published": false,
+      "indexable": false,
+      "datePublished": null,
+      "dateModified": null,
+      "limitations": [
+        "Current same-budget offers have not been verified. Historical upscaling tests have game-selection and version limits. Human editorial review is pending."
+      ],
+      "blockers": [
+        "verified_same_budget_offers",
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-15",
+      "contentVersion": "editorial-program-2026-10-09.v1",
+      "contentHash": "98476a9a63f3153a1e309c826412f71cd4730b80e56f5aaed1534d06198c2d62",
+      "dependsOn": [
+        "shared_editorial_rendering",
+        "evidence_register",
+        "human_editorial_review"
+      ],
+      "route": "/blog/32gb-vs-64gb-ram-workloads/",
+      "title": "32 GB vs 64 GB RAM: choose capacity for the work you do",
+      "intent": "Decide whether a defined workload needs a larger matched kit",
+      "audience": "Gamers, editors and multitaskers considering 32 or 64 GB",
+      "wordCount": 598,
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "evidenceType": "Research-based practical guide",
+      "sources": [
+        "kingston-ram",
+        "premiere",
+        "expo"
+      ],
+      "relatedProducts": [],
+      "relatedArticleIds": [
+        "34",
+        "26"
+      ],
+      "nextAction": {
+        "url": "/upgrade/",
+        "label": "Check whether a memory upgrade solves your workload"
+      },
+      "files": [
+        "scripts/program-editorial.cjs",
+        "scripts/program-editorial-sources.cjs"
+      ],
+      "humanReview": null,
+      "publishable": false,
+      "published": false,
+      "indexable": false,
+      "datePublished": null,
+      "dateModified": null,
+      "limitations": [
+        "No universal RAM-capacity requirement or measured speed uplift. Application requirements are version-specific; human editorial review is pending."
+      ],
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-16",
+      "contentVersion": "editorial-program-2026-10-09.v1",
+      "contentHash": "765c61126801a77da878bdf0c20f2fec61b1affc7e6609d5c070cf39d8998b7f",
+      "dependsOn": [
+        "shared_editorial_rendering",
+        "evidence_register",
+        "human_editorial_review"
+      ],
+      "route": "/blog/nvme-vs-sata-ssd-for-gaming/",
+      "title": "NVMe vs SATA SSDs: match the interface and the workload",
+      "intent": "Choose a compatible SSD or evaluate a storage replacement",
+      "audience": "Buyers adding storage and owners of working SATA drives",
+      "wordCount": 604,
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "evidenceType": "Research-based practical guide",
+      "sources": [
+        "kingston-m2",
+        "samsung990",
+        "msi-b650",
+        "windows-storage"
+      ],
+      "relatedProducts": [
+        {
+          "id": "990pro",
+          "label": "Samsung 990 PRO 1 TB",
+          "url": "/learn/990pro.html"
+        }
+      ],
+      "relatedArticleIds": [
+        "26",
+        "30"
+      ],
+      "nextAction": {
+        "url": "/tools/storage-capacity-planner/",
+        "label": "Plan the capacity you actually need"
+      },
+      "files": [
+        "scripts/program-editorial.cjs",
+        "scripts/program-editorial-sources.cjs"
+      ],
+      "humanReview": null,
+      "publishable": false,
+      "published": false,
+      "indexable": false,
+      "datePublished": null,
+      "dateModified": null,
+      "limitations": [
+        "No original load-time or sustained-write tests. Exact interface, capacity and heatsink variants must be checked. Human editorial review is pending."
+      ],
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-17",
+      "contentVersion": "editorial-program-2026-10-09.v1",
+      "contentHash": "75ab561124bbe9bf4315e05aed6dcc3db6083a58f3e1c4904979ee41000110d9",
+      "dependsOn": [
+        "shared_editorial_rendering",
+        "evidence_register",
+        "human_editorial_review"
+      ],
+      "route": "/blog/choose-a-motherboard-for-your-cpu/",
+      "title": "MSI B650 TOMAHAWK vs B650 AORUS ELITE AX: compare the connections you use",
+      "intent": "Select an AM5 board through exact documented features",
+      "audience": "Builders comparing mainstream AM5 board features",
+      "wordCount": 602,
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "evidenceType": "Manufacturer-specification comparison",
+      "sources": [
+        "msi-b650",
+        "msi-b650-manual",
+        "gigabyte-b650",
+        "intel-board"
+      ],
+      "relatedProducts": [
+        {
+          "id": "b650",
+          "label": "MSI MAG B650 TOMAHAWK WIFI",
+          "url": "/learn/b650.html"
+        }
+      ],
+      "relatedArticleIds": [
+        "28",
+        "30"
+      ],
+      "nextAction": {
+        "url": "/builder/",
+        "label": "Check the board against your full build"
+      },
+      "files": [
+        "scripts/program-editorial.cjs",
+        "scripts/program-editorial-sources.cjs"
+      ],
+      "humanReview": null,
+      "publishable": false,
+      "published": false,
+      "indexable": false,
+      "datePublished": null,
+      "dateModified": null,
+      "limitations": [
+        "Exact models/revisions only. Feature documentation is not an acoustic, thermal or gaming benchmark. Current offers and human editorial review remain unverified."
+      ],
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-18",
+      "contentVersion": "editorial-program-2026-10-09.v1",
+      "contentHash": "536ba87be10dfd3b2676a06ebb79dc57a2655cf8b9a820439aa32d11e834f2ad",
+      "dependsOn": [
+        "shared_editorial_rendering",
+        "evidence_register",
+        "human_editorial_review"
+      ],
+      "route": "/blog/ryzen-7800x3d-north-air-vs-aio/",
+      "title": "Air cooler or AIO for a Ryzen 7 7800X3D in the original North?",
+      "intent": "Evaluate two cooling layouts for one specified CPU and case",
+      "audience": "Owners planning Ryzen 7 7800X3D in an original Fractal North",
+      "wordCount": 579,
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "evidenceType": "Model-specific specification explainer",
+      "sources": [
+        "ryzen7800",
+        "north-sheet",
+        "nhd15-sheet",
+        "h100i"
+      ],
+      "relatedProducts": [
+        {
+          "id": "7800x3d",
+          "label": "Ryzen 7 7800X3D",
+          "url": "/learn/7800x3d.html"
+        }
+      ],
+      "relatedArticleIds": [
+        "08",
+        "27"
+      ],
+      "nextAction": {
+        "url": "/compatibility/",
+        "label": "Record this cooling layout’s fit checks"
+      },
+      "files": [
+        "scripts/program-editorial.cjs",
+        "scripts/program-editorial-sources.cjs"
+      ],
+      "humanReview": null,
+      "publishable": false,
+      "published": false,
+      "indexable": false,
+      "datePublished": null,
+      "dateModified": null,
+      "limitations": [
+        "Installation questions are documented; thermal and acoustic outcomes are not measured. NH-D15 and North revisions must match the source sheets. Human editorial review is pending."
+      ],
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-19",
+      "contentVersion": "editorial-program-2026-10-09.v1",
+      "contentHash": "7718e908d51c0afdf7b3971f2fd020a364f7f1609be25b4dc06049615d365164",
+      "dependsOn": [
+        "shared_editorial_rendering",
+        "evidence_register",
+        "human_editorial_review"
+      ],
+      "route": "/blog/cpu-or-gpu-upgrade-for-gaming/",
+      "title": "CPU or GPU first? Diagnose before buying",
+      "intent": "Identify a useful gaming upgrade from observed evidence",
+      "audience": "Owners whose current PC misses a gaming goal",
+      "wordCount": 558,
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "evidenceType": "Research-based practical guide",
+      "sources": [
+        "intel-limits",
+        "presentmon",
+        "windows-refresh",
+        "gn9800"
+      ],
+      "relatedProducts": [],
+      "relatedArticleIds": [
+        "32",
+        "24"
+      ],
+      "nextAction": {
+        "url": "/upgrade/",
+        "label": "Compare your keep and upgrade routes"
+      },
+      "files": [
+        "scripts/program-editorial.cjs",
+        "scripts/program-editorial-sources.cjs"
+      ],
+      "humanReview": null,
+      "publishable": false,
+      "published": false,
+      "indexable": false,
+      "datePublished": null,
+      "dateModified": null,
+      "limitations": [
+        "Telemetry is contextual, and no precise upgrade uplift is inferred without comparable measurements. Human editorial review is pending."
+      ],
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-20",
+      "contentVersion": "editorial-program-2026-10-09.v1",
+      "contentHash": "8f7df1ba9a698e78a0ff76483689bcdf1e060f081bf7f27ac963ea203b794793",
+      "dependsOn": [
+        "shared_editorial_rendering",
+        "evidence_register",
+        "human_editorial_review"
+      ],
+      "route": "/blog/rtx-3060-upgrade-or-keep/",
+      "title": "RTX 3060 upgrade options: include keeping the card",
+      "intent": "Evaluate an RTX 3060 owner’s alternatives",
+      "audience": "Desktop RTX 3060 owners considering a graphics purchase",
+      "wordCount": 598,
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "evidenceType": "Research-based practical guide",
+      "sources": [
+        "rtx3060",
+        "intel-limits",
+        "rtx5070",
+        "rx9070",
+        "ts9070",
+        "corsair-cables"
+      ],
+      "relatedProducts": [],
+      "relatedArticleIds": [
+        "19",
+        "27"
+      ],
+      "nextAction": {
+        "url": "/upgrade/",
+        "label": "Plan an RTX 3060 keep-or-upgrade decision"
+      },
+      "files": [
+        "scripts/program-editorial.cjs",
+        "scripts/program-editorial-sources.cjs"
+      ],
+      "humanReview": null,
+      "publishable": false,
+      "published": false,
+      "indexable": false,
+      "datePublished": null,
+      "dateModified": null,
+      "limitations": [
+        "No current offer set or comparable exact-card upgrade measurement is established. No assumed resale credit. Human editorial review is pending."
+      ],
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-21",
+      "contentVersion": "editorial-program-2026-10-09.v1",
+      "contentHash": "2800024ab8262356c750d2c006cfb3c41430399fd22872ed3e4c2b615a3dd586",
+      "dependsOn": [
+        "shared_editorial_rendering",
+        "evidence_register",
+        "human_editorial_review"
+      ],
+      "route": "/blog/am4-upgrade-vs-platform-replacement/",
+      "title": "AM4 CPU upgrade or a new platform? Compare complete routes",
+      "intent": "Compare an AM4 drop-in candidate with full platform replacement",
+      "audience": "Owners of working AM4 systems",
+      "wordCount": 597,
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "evidenceType": "Research-based practical guide",
+      "sources": [
+        "am4-announcement",
+        "msi-bios",
+        "intel-limits",
+        "corsair-cables"
+      ],
+      "relatedProducts": [],
+      "relatedArticleIds": [
+        "24",
+        "23"
+      ],
+      "nextAction": {
+        "url": "/tools/platform-upgrade-cost/",
+        "label": "Compare the entire platform cost"
+      },
+      "files": [
+        "scripts/program-editorial.cjs",
+        "scripts/program-editorial-sources.cjs"
+      ],
+      "humanReview": null,
+      "publishable": false,
+      "published": false,
+      "indexable": false,
+      "datePublished": null,
+      "dateModified": null,
+      "limitations": [
+        "No universal AM4 motherboard support or current CPU offer is implied. Exact owner support and comparable workload evidence must be supplied. Human editorial review is pending."
+      ],
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-22",
+      "contentVersion": "editorial-program-2026-10-09.v1",
+      "contentHash": "da9a292e8283b6b2f759b0c70fb3ce9b65e6bfadf6691b363cc29e72c0b54606",
+      "dependsOn": [
+        "shared_editorial_rendering",
+        "evidence_register",
+        "human_editorial_review"
+      ],
+      "route": "/blog/am5-upgrade-checklist/",
+      "title": "AM5 CPU upgrade checklist: exact support before a socket swap",
+      "intent": "Prepare a documented AM5 CPU replacement",
+      "audience": "AM5 owners considering another processor",
+      "wordCount": 582,
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "evidenceType": "Research-based practical guide",
+      "sources": [
+        "msi-b650",
+        "ryzen9800",
+        "ryzen7800",
+        "msi-bios",
+        "kingston-ram"
+      ],
+      "relatedProducts": [
+        {
+          "id": "b650",
+          "label": "MSI MAG B650 TOMAHAWK WIFI",
+          "url": "/learn/b650.html"
+        },
+        {
+          "id": "9800x3d",
+          "label": "Ryzen 7 9800X3D",
+          "url": "/learn/9800x3d.html"
+        },
+        {
+          "id": "7800x3d",
+          "label": "Ryzen 7 7800X3D",
+          "url": "/learn/7800x3d.html"
+        }
+      ],
+      "relatedArticleIds": [
+        "28",
+        "34"
+      ],
+      "nextAction": {
+        "url": "/compatibility/",
+        "label": "Record the exact CPU and BIOS check"
+      },
+      "files": [
+        "scripts/program-editorial.cjs",
+        "scripts/program-editorial-sources.cjs"
+      ],
+      "humanReview": null,
+      "publishable": false,
+      "published": false,
+      "indexable": false,
+      "datePublished": null,
+      "dateModified": null,
+      "limitations": [
+        "No guessed minimum BIOS or universal AM5 eligibility. CPU support and installed firmware must be verified per board. Human editorial review is pending."
+      ],
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-23",
+      "contentVersion": "editorial-program-2026-10-09.v1",
+      "contentHash": "965d254cf996b78be5248b705a2f4fc593801b52f9a091f917eb3b2a516d6529",
+      "dependsOn": [
+        "shared_editorial_rendering",
+        "evidence_register",
+        "human_editorial_review"
+      ],
+      "route": "/blog/reuse-pc-components-new-build/",
+      "title": "Which PC components can you reuse? Keep, replace or verify",
+      "intent": "Evaluate existing equipment without assuming universal compatibility",
+      "audience": "Owners moving components into a new or upgraded desktop",
+      "wordCount": 601,
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "evidenceType": "Research-based practical guide",
+      "sources": [
+        "corsair-cables",
+        "kingston-ram",
+        "kingston-m2",
+        "north-sheet",
+        "windows-media"
+      ],
+      "relatedProducts": [],
+      "relatedArticleIds": [
+        "25",
+        "24"
+      ],
+      "nextAction": {
+        "url": "/upgrade/",
+        "label": "Mark your components keep, replace or verify"
+      },
+      "files": [
+        "scripts/program-editorial.cjs",
+        "scripts/program-editorial-sources.cjs"
+      ],
+      "humanReview": null,
+      "publishable": false,
+      "published": false,
+      "indexable": false,
+      "datePublished": null,
+      "dateModified": null,
+      "limitations": [
+        "No automatic hardware detection or universal reuse approval. Health, licensing and exact support need owner-specific evidence. Human editorial review is pending."
+      ],
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-24",
+      "contentVersion": "editorial-program-2026-10-09.v1",
+      "contentHash": "4db62f2638769db2b0a7d7937278830c0856d2e131f88d51c90e63a702a42039",
+      "dependsOn": [
+        "shared_editorial_rendering",
+        "evidence_register",
+        "human_editorial_review"
+      ],
+      "route": "/blog/pc-upgrade-total-platform-cost/",
+      "title": "The hidden costs of a CPU and motherboard upgrade",
+      "intent": "Calculate honest whole-platform purchase scenarios",
+      "audience": "Owners evaluating a CPU/board replacement",
+      "wordCount": 605,
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "evidenceType": "Research-based practical guide",
+      "sources": [
+        "intel-board",
+        "kingston-ram",
+        "corsair-cables",
+        "windows11"
+      ],
+      "relatedProducts": [],
+      "relatedArticleIds": [
+        "21",
+        "25"
+      ],
+      "nextAction": {
+        "url": "/tools/platform-upgrade-cost/",
+        "label": "Calculate complete upgrade scenarios"
+      },
+      "files": [
+        "scripts/program-editorial.cjs",
+        "scripts/program-editorial-sources.cjs"
+      ],
+      "humanReview": null,
+      "publishable": false,
+      "published": false,
+      "indexable": false,
+      "datePublished": null,
+      "dateModified": null,
+      "limitations": [
+        "User quotes and observed offers are different evidence types; no current complete purchase list or universal tax estimate is supplied. Human editorial review is pending."
+      ],
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-25",
+      "contentVersion": "editorial-program-2026-10-09.v1",
+      "contentHash": "4071c076c4fb49035df862a31e82ecaa6405d327ddd3088a27a6b1d25f60042a",
+      "dependsOn": [
+        "shared_editorial_rendering",
+        "evidence_register",
+        "human_editorial_review"
+      ],
+      "route": "/blog/phased-pc-upgrade-plan/",
+      "title": "Plan a phased PC upgrade without an incompatible middle step",
+      "intent": "Sequence purchases while preserving working intermediate PCs",
+      "audience": "Owners upgrading over several purchase periods",
+      "wordCount": 597,
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "evidenceType": "Research-based practical guide",
+      "sources": [
+        "intel-board",
+        "kingston-ram",
+        "kingston-m2",
+        "corsair-cables",
+        "msi-bios"
+      ],
+      "relatedProducts": [],
+      "relatedArticleIds": [
+        "23",
+        "28"
+      ],
+      "nextAction": {
+        "url": "/upgrade/",
+        "label": "Record your staged upgrade plan"
+      },
+      "files": [
+        "scripts/program-editorial.cjs",
+        "scripts/program-editorial-sources.cjs"
+      ],
+      "humanReview": null,
+      "publishable": false,
+      "published": false,
+      "indexable": false,
+      "datePublished": null,
+      "dateModified": null,
+      "limitations": [
+        "No universal purchase order or future-price guarantee. Every intermediate configuration requires its own exact support checks. Human editorial review is pending."
+      ],
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-26",
+      "contentVersion": "editorial-program-2026-10-09.v1",
+      "contentHash": "ef5ad9958fe154a5c75083d96004b9cf94fe6d169e1b93c712a6027e2d1f5318",
+      "dependsOn": [
+        "shared_editorial_rendering",
+        "evidence_register",
+        "human_editorial_review"
+      ],
+      "route": "/blog/ram-or-storage-capacity-problem/",
+      "title": "Is RAM or storage capacity the actual problem?",
+      "intent": "Diagnose capacity symptoms before selecting an upgrade",
+      "audience": "Owners seeing stutter, full-storage warnings or difficult projects",
+      "wordCount": 604,
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "evidenceType": "Research-based practical guide",
+      "sources": [
+        "windows-storage",
+        "kingston-ram",
+        "kingston-m2",
+        "premiere"
+      ],
+      "relatedProducts": [],
+      "relatedArticleIds": [
+        "15",
+        "16"
+      ],
+      "nextAction": {
+        "url": "/troubleshooting/",
+        "label": "Identify the capacity symptom"
+      },
+      "files": [
+        "scripts/program-editorial.cjs",
+        "scripts/program-editorial-sources.cjs"
+      ],
+      "humanReview": null,
+      "publishable": false,
+      "published": false,
+      "indexable": false,
+      "datePublished": null,
+      "dateModified": null,
+      "limitations": [
+        "Resource observations require context; no universal capacity threshold or automatic diagnosis. Human editorial review is pending."
+      ],
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-27",
+      "contentVersion": "editorial-program-2026-10-09.v1",
+      "contentHash": "8fe8243198a5d6990ed370ce48f53eec713872e47f473158407e7c98c3299093",
+      "dependsOn": [
+        "shared_editorial_rendering",
+        "evidence_register",
+        "human_editorial_review"
+      ],
+      "route": "/blog/will-a-graphics-card-fit-my-case/",
+      "title": "Will this graphics card fit? Check more than length",
+      "intent": "Verify physical graphics-card installation with documented or measured dimensions",
+      "audience": "Builders changing a graphics card or case",
+      "wordCount": 575,
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "evidenceType": "Research-based practical guide",
+      "sources": [
+        "north-sheet",
+        "msi-b650-manual",
+        "corsair-cables"
+      ],
+      "relatedProducts": [],
+      "relatedArticleIds": [
+        "18",
+        "29"
+      ],
+      "nextAction": {
+        "url": "/compatibility/",
+        "label": "Record the card and case fit check"
+      },
+      "files": [
+        "scripts/program-editorial.cjs",
+        "scripts/program-editorial-sources.cjs"
+      ],
+      "humanReview": null,
+      "publishable": false,
+      "published": false,
+      "indexable": false,
+      "datePublished": null,
+      "dateModified": null,
+      "limitations": [
+        "Original North dimensions apply only to the specified configurations. Approximate or artistic 3D assets are not clearance evidence. Human editorial review is pending."
+      ],
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-28",
+      "contentVersion": "editorial-program-2026-10-09.v1",
+      "contentHash": "fa813d6b72413e86c7a5055cfc3d8055c760018edb9cf7d8fe3e133fced47732",
+      "dependsOn": [
+        "shared_editorial_rendering",
+        "evidence_register",
+        "human_editorial_review"
+      ],
+      "route": "/blog/check-cpu-bios-support/",
+      "title": "Check exact CPU and BIOS support before ordering",
+      "intent": "Verify processor recognition and firmware preparation",
+      "audience": "Buyers ordering a CPU/board pair or planning a socket-compatible swap",
+      "wordCount": 585,
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "evidenceType": "Research-based practical guide",
+      "sources": [
+        "msi-b650",
+        "msi-bios",
+        "ryzen9800"
+      ],
+      "relatedProducts": [],
+      "relatedArticleIds": [
+        "22",
+        "31"
+      ],
+      "nextAction": {
+        "url": "/compatibility/",
+        "label": "Create a sourced CPU-support check"
+      },
+      "files": [
+        "scripts/program-editorial.cjs",
+        "scripts/program-editorial-sources.cjs"
+      ],
+      "humanReview": null,
+      "publishable": false,
+      "published": false,
+      "indexable": false,
+      "datePublished": null,
+      "dateModified": null,
+      "limitations": [
+        "No exact minimum BIOS is guessed. Retail installed firmware and update feasibility require separate evidence. Human editorial review is pending."
+      ],
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-29",
+      "contentVersion": "editorial-program-2026-10-09.v1",
+      "contentHash": "0344c926dc836fb16303f11d1c833000dcbd03c8ca4139ffd959cbc3b90e619e",
+      "dependsOn": [
+        "shared_editorial_rendering",
+        "evidence_register",
+        "human_editorial_review"
+      ],
+      "route": "/blog/choose-a-pc-power-supply/",
+      "title": "Choose a PSU and verify its cables and connections",
+      "intent": "Select a documented power connection plan",
+      "audience": "Builders choosing a supply or reusing one",
+      "wordCount": 563,
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "evidenceType": "Research-based practical guide",
+      "sources": [
+        "corsair-cables",
+        "rtx5070",
+        "rx9070",
+        "north-sheet"
+      ],
+      "relatedProducts": [],
+      "relatedArticleIds": [
+        "23",
+        "27"
+      ],
+      "nextAction": {
+        "url": "/builder/",
+        "label": "Record the full power connection plan"
+      },
+      "files": [
+        "scripts/program-editorial.cjs",
+        "scripts/program-editorial-sources.cjs"
+      ],
+      "humanReview": null,
+      "publishable": false,
+      "published": false,
+      "indexable": false,
+      "datePublished": null,
+      "dateModified": null,
+      "limitations": [
+        "No invented power budget, universal wattage multiplier or PSU-quality winner. Exact cable approval is mandatory. Human editorial review is pending."
+      ],
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-30",
+      "contentVersion": "editorial-program-2026-10-09.v1",
+      "contentHash": "799b7ba952fa29d4dea03ba2b504c9bd7506eb347bdf900a34f0981dde007cd3",
+      "dependsOn": [
+        "shared_editorial_rendering",
+        "evidence_register",
+        "human_editorial_review"
+      ],
+      "route": "/blog/b650-tomahawk-m2-pcie-lane-sharing/",
+      "title": "B650 TOMAHAWK WIFI lane sharing: check M2_3 and PCI_E2",
+      "intent": "Plan storage and expansion using the exact board topology",
+      "audience": "Owners of MSI MAG B650 TOMAHAWK WIFI",
+      "wordCount": 628,
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "evidenceType": "Exact-model manual walkthrough",
+      "sources": [
+        "msi-b650",
+        "msi-b650-manual"
+      ],
+      "relatedProducts": [
+        {
+          "id": "b650",
+          "label": "MSI MAG B650 TOMAHAWK WIFI",
+          "url": "/learn/b650.html"
+        }
+      ],
+      "relatedArticleIds": [
+        "17",
+        "16"
+      ],
+      "nextAction": {
+        "url": "/tools/b650-tomahawk-lane-check/",
+        "label": "Check the documented slot arrangement"
+      },
+      "files": [
+        "scripts/program-editorial.cjs",
+        "scripts/program-editorial-sources.cjs"
+      ],
+      "humanReview": null,
+      "publishable": false,
+      "published": false,
+      "indexable": false,
+      "datePublished": null,
+      "dateModified": null,
+      "limitations": [
+        "Only the named MSI board and documented processor groups. Link width does not predict an exact application slowdown. No original storage tests; human editorial review is pending."
+      ],
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-31",
+      "contentVersion": "editorial-program-2026-10-09.v1",
+      "contentHash": "1b00f057de7061a14be839dce7737d866822487bb74b34eb0fcf33dcde250a88",
+      "dependsOn": [
+        "shared_editorial_rendering",
+        "evidence_register",
+        "human_editorial_review"
+      ],
+      "route": "/blog/new-pc-no-display-safe-checks/",
+      "title": "A new PC powers on but shows no display: safe checks",
+      "intent": "Diagnose a first-boot no-display symptom safely",
+      "audience": "New builders whose system has no usable display",
+      "wordCount": 577,
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "evidenceType": "Research-based practical guide",
+      "sources": [
+        "asus-nodisplay",
+        "msi-b650-manual",
+        "msi-bios",
+        "intel-build"
+      ],
+      "relatedProducts": [],
+      "relatedArticleIds": [
+        "10",
+        "28"
+      ],
+      "nextAction": {
+        "url": "/troubleshooting/",
+        "label": "Follow the no-display diagnostic path"
+      },
+      "files": [
+        "scripts/program-editorial.cjs",
+        "scripts/program-editorial-sources.cjs"
+      ],
+      "humanReview": null,
+      "publishable": false,
+      "published": false,
+      "indexable": false,
+      "datePublished": null,
+      "dateModified": null,
+      "limitations": [
+        "Diagnostic codes and procedures are model-specific. No automatic fault identification or repair guarantee. Human editorial review is pending."
+      ],
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-32",
+      "contentVersion": "editorial-program-2026-10-09.v1",
+      "contentHash": "1499e1cf43c657e53437735e63ec915cd50ffffe9dcade122aed0e46141151bf",
+      "dependsOn": [
+        "shared_editorial_rendering",
+        "evidence_register",
+        "human_editorial_review"
+      ],
+      "route": "/blog/low-fps-stutter-diagnostic-checklist/",
+      "title": "Low FPS or stuttering: a repeatable diagnostic checklist",
+      "intent": "Investigate a repeatable gaming symptom without unsafe optimization shortcuts",
+      "audience": "Players with slow or inconsistent games",
+      "wordCount": 566,
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "evidenceType": "Research-based practical guide",
+      "sources": [
+        "presentmon",
+        "presentmon-console",
+        "intel-limits",
+        "windows-refresh",
+        "windows-storage"
+      ],
+      "relatedProducts": [],
+      "relatedArticleIds": [
+        "33",
+        "35"
+      ],
+      "nextAction": {
+        "url": "/troubleshooting/",
+        "label": "Start a recorded diagnostic path"
+      },
+      "files": [
+        "scripts/program-editorial.cjs",
+        "scripts/program-editorial-sources.cjs"
+      ],
+      "humanReview": null,
+      "publishable": false,
+      "published": false,
+      "indexable": false,
+      "datePublished": null,
+      "dateModified": null,
+      "limitations": [
+        "Telemetry is contextual and capture instrumentation can be incomplete. No guaranteed FPS fix or universal bottleneck score. Human editorial review is pending."
+      ],
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-33",
+      "contentVersion": "editorial-program-2026-10-09.v1",
+      "contentHash": "9b315f7369a48181277d91fd6200e7e74f21d10e950ec26e9c21e369326903bf",
+      "dependsOn": [
+        "shared_editorial_rendering",
+        "evidence_register",
+        "human_editorial_review"
+      ],
+      "route": "/blog/graphics-driver-update-rollback-checklist/",
+      "title": "Driver-update trouble: record, test and roll back safely",
+      "intent": "Investigate a suspected graphics-driver regression",
+      "audience": "Owners seeing new symptoms after a driver or OS update",
+      "wordCount": 577,
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "evidenceType": "Research-based practical guide",
+      "sources": [
+        "windows-display",
+        "presentmon",
+        "windows-refresh"
+      ],
+      "relatedProducts": [],
+      "relatedArticleIds": [
+        "32",
+        "40"
+      ],
+      "nextAction": {
+        "url": "/troubleshooting/",
+        "label": "Record a driver-related diagnostic case"
+      },
+      "files": [
+        "scripts/program-editorial.cjs",
+        "scripts/program-editorial-sources.cjs"
+      ],
+      "humanReview": null,
+      "publishable": false,
+      "published": false,
+      "indexable": false,
+      "datePublished": null,
+      "dateModified": null,
+      "limitations": [
+        "The cited Microsoft procedure is symptom- and OS-specific. Timing alone does not establish causation. Human editorial review is pending."
+      ],
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-34",
+      "contentVersion": "editorial-program-2026-10-09.v1",
+      "contentHash": "9974da97d0d8818a3c518f67c40d1530d7cb0c940d5eea63dac6a39098d6b822",
+      "dependsOn": [
+        "shared_editorial_rendering",
+        "evidence_register",
+        "human_editorial_review"
+      ],
+      "route": "/blog/how-to-choose-gaming-ram/",
+      "title": "RAM compatibility: generation, kits, slots and profiles",
+      "intent": "Choose and install a supported memory configuration",
+      "audience": "Builders selecting RAM or adding modules",
+      "wordCount": 565,
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "evidenceType": "Research-based practical guide",
+      "sources": [
+        "kingston-ram",
+        "expo",
+        "msi-b650-manual",
+        "ryzen9800"
+      ],
+      "relatedProducts": [],
+      "relatedArticleIds": [
+        "15",
+        "10"
+      ],
+      "nextAction": {
+        "url": "/compatibility/",
+        "label": "Check the exact memory configuration"
+      },
+      "files": [
+        "scripts/program-editorial.cjs",
+        "scripts/program-editorial-sources.cjs"
+      ],
+      "humanReview": null,
+      "publishable": false,
+      "published": false,
+      "indexable": false,
+      "datePublished": null,
+      "dateModified": null,
+      "limitations": [
+        "No universal profile-speed or stability guarantee. QVL absence is not automatically incompatible. Human editorial review is pending."
+      ],
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-35",
+      "contentVersion": "editorial-program-2026-10-09.v1",
+      "contentHash": "0219b0484a2209a5c84ac4e9816a53ce0e35ac68a9356d2c354fff3816cdfe32",
+      "dependsOn": [
+        "shared_editorial_rendering",
+        "evidence_register",
+        "human_editorial_review"
+      ],
+      "route": "/blog/average-fps-one-percent-lows-frame-times/",
+      "title": "Average FPS, 1% lows and frame-time plots explained",
+      "intent": "Interpret frame-performance summaries accurately",
+      "audience": "Readers comparing gaming tests or using capture tools",
+      "wordCount": 549,
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "evidenceType": "Metric explainer with calculated illustrations",
+      "sources": [
+        "presentmon",
+        "presentmon-console",
+        "frameview"
+      ],
+      "relatedProducts": [],
+      "relatedArticleIds": [
+        "36",
+        "40"
+      ],
+      "nextAction": {
+        "url": "/performance/evidence/",
+        "label": "Read the benchmark evidence and testing protocol"
+      },
+      "files": [
+        "scripts/program-editorial.cjs",
+        "scripts/program-editorial-sources.cjs"
+      ],
+      "humanReview": null,
+      "publishable": false,
+      "published": false,
+      "indexable": false,
+      "datePublished": null,
+      "dateModified": null,
+      "limitations": [
+        "Illustrated intervals assume evenly spaced frames and are not measured latency. Low-percentile methods and capture versions must be identified. Human editorial review is pending."
+      ],
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-36",
+      "contentVersion": "editorial-program-2026-10-09.v1",
+      "contentHash": "0e6bef76a0a7bc2a03cea240eed044ce98f33db7060c6e8ea7bc7fc9e4dcaf6a",
+      "dependsOn": [
+        "shared_editorial_rendering",
+        "evidence_register",
+        "human_editorial_review"
+      ],
+      "route": "/blog/upscaling-vs-frame-generation/",
+      "title": "Upscaling and frame generation: different benefits, different limits",
+      "intent": "Distinguish supported rendering modes in benchmarks and purchase choices",
+      "audience": "Players comparing native, upscale and generated-frame modes",
+      "wordCount": 596,
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "evidenceType": "Rendering-feature explainer",
+      "sources": [
+        "dlss",
+        "fsr3",
+        "presentmon-console"
+      ],
+      "relatedProducts": [],
+      "relatedArticleIds": [
+        "35",
+        "37"
+      ],
+      "nextAction": {
+        "url": "/performance/evidence/",
+        "label": "Check how rendering modes are recorded"
+      },
+      "files": [
+        "scripts/program-editorial.cjs",
+        "scripts/program-editorial-sources.cjs"
+      ],
+      "humanReview": null,
+      "publishable": false,
+      "published": false,
+      "indexable": false,
+      "datePublished": null,
+      "dateModified": null,
+      "limitations": [
+        "Feature support and versions are game/device-specific. No claimed universal FPS or latency benefit, and no original image-quality testing. Human editorial review is pending."
+      ],
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-37",
+      "contentVersion": "editorial-program-2026-10-09.v1",
+      "contentHash": "d2bf484fb342d0c74653005ac8f712f3f9b25cdeb6b3975c891fb81a40e41104",
+      "dependsOn": [
+        "shared_editorial_rendering",
+        "evidence_register",
+        "human_editorial_review"
+      ],
+      "route": "/blog/choose-display-target-game-evidence/",
+      "title": "Choose a display target using real game evidence",
+      "intent": "Match a monitor goal to hardware evidence and practical setup",
+      "audience": "Buyers selecting a display or planning a graphics upgrade",
+      "wordCount": 564,
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "evidenceType": "Research-based practical guide",
+      "sources": [
+        "windows-refresh",
+        "presentmon",
+        "ts9070"
+      ],
+      "relatedProducts": [],
+      "relatedArticleIds": [
+        "07",
+        "35"
+      ],
+      "nextAction": {
+        "url": "/tools/monitor-pixel-density/",
+        "label": "Compare the geometry of your display options"
+      },
+      "files": [
+        "scripts/program-editorial.cjs",
+        "scripts/program-editorial-sources.cjs"
+      ],
+      "humanReview": null,
+      "publishable": false,
+      "published": false,
+      "indexable": false,
+      "datePublished": null,
+      "dateModified": null,
+      "limitations": [
+        "Geometry and frame-interval calculations are not game or latency measurements. No tested monitor recommendation. Human editorial review is pending."
+      ],
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-38",
+      "contentVersion": "editorial-program-2026-10-09.v1",
+      "contentHash": "dda53585d52712175fa4fe1bc7038b5c4776069393f8bfc1bfcf7392cd673acb",
+      "dependsOn": [
+        "shared_editorial_rendering",
+        "evidence_register",
+        "human_editorial_review"
+      ],
+      "route": "/blog/fortnite-pc-requirements-settings-evidence/",
+      "title": "Fortnite on PC: requirements, settings and performance evidence",
+      "intent": "Plan Fortnite hardware without fabricated FPS",
+      "audience": "PC players considering a first build or an upgrade",
+      "wordCount": 585,
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "evidenceType": "Official-requirements game guide",
+      "sources": [
+        "fortnite",
+        "presentmon",
+        "windows-refresh",
+        "windows11"
+      ],
+      "relatedProducts": [],
+      "relatedArticleIds": [
+        "06",
+        "32"
+      ],
+      "nextAction": {
+        "url": "/performance/",
+        "label": "Check available Fortnite performance evidence"
+      },
+      "files": [
+        "scripts/program-editorial.cjs",
+        "scripts/program-editorial-sources.cjs"
+      ],
+      "humanReview": null,
+      "publishable": false,
+      "published": false,
+      "indexable": false,
+      "datePublished": null,
+      "dateModified": null,
+      "limitations": [
+        "No comparable Fortnite FPS dataset or first-party test is established. Requirements do not promise a frame rate. Human editorial review is pending."
+      ],
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-39",
+      "contentVersion": "editorial-program-2026-10-09.v1",
+      "contentHash": "1e1cfc9554e6212c3b25ef1de8782d68f2a2e6a09f18c80bc5140b29486f56c5",
+      "dependsOn": [
+        "shared_editorial_rendering",
+        "evidence_register",
+        "application_specific_benchmark_coverage",
+        "verified_bom_revision",
+        "exact_regional_offers",
+        "human_editorial_review"
+      ],
+      "route": "/blog/premiere-creator-pc-workload-guide/",
+      "title": "Plan a Premiere editing PC around your actual projects",
+      "intent": "Plan application-specific hardware for Premiere editing",
+      "audience": "Editors building or upgrading a Windows workstation",
+      "wordCount": 568,
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "evidenceType": "Application-requirements planning guide",
+      "sources": [
+        "premiere",
+        "kingston-ram",
+        "kingston-m2",
+        "obs-hardware"
+      ],
+      "relatedProducts": [],
+      "relatedArticleIds": [
+        "15",
+        "16"
+      ],
+      "nextAction": {
+        "url": "/builder/",
+        "label": "Plan a project-specific workstation"
+      },
+      "files": [
+        "scripts/program-editorial.cjs",
+        "scripts/program-editorial-sources.cjs"
+      ],
+      "humanReview": null,
+      "publishable": false,
+      "published": false,
+      "indexable": false,
+      "datePublished": null,
+      "dateModified": null,
+      "limitations": [
+        "No tested workstation, specific export-time claim or current priced BOM. A finished recommendation needs application evidence and verified offers. Human editorial review is pending."
+      ],
+      "blockers": [
+        "application_specific_benchmark_coverage",
+        "verified_bom_revision",
+        "exact_regional_offers",
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-40",
+      "contentVersion": "editorial-program-2026-10-09.v1",
+      "contentHash": "55d63fcbd28b8bf137d479dae475480415ea82992421b18516a7212d011fb2b1",
+      "dependsOn": [
+        "shared_editorial_rendering",
+        "evidence_register",
+        "human_editorial_review"
+      ],
+      "route": "/blog/read-hardware-benchmarks-test-conditions/",
+      "title": "Read hardware benchmarks without comparing unlike tests",
+      "intent": "Evaluate whether published evidence answers a purchase question",
+      "audience": "Readers comparing reviews and planning their own repeatable tests",
+      "wordCount": 570,
+      "status": "evidence_checked",
+      "reviewStatus": "needs_human_review",
+      "evidenceType": "Evidence-methodology guide",
+      "sources": [
+        "presentmon",
+        "presentmon-console",
+        "frameview",
+        "ts9070",
+        "gn9800"
+      ],
+      "relatedProducts": [],
+      "relatedArticleIds": [
+        "35",
+        "36"
+      ],
+      "nextAction": {
+        "url": "/performance/evidence/",
+        "label": "Use the reproducible benchmark protocol"
+      },
+      "files": [
+        "scripts/program-editorial.cjs",
+        "scripts/program-editorial-sources.cjs"
+      ],
+      "humanReview": null,
+      "publishable": false,
+      "published": false,
+      "indexable": false,
+      "datePublished": null,
+      "dateModified": null,
+      "limitations": [
+        "A written protocol does not establish performed tests. No unlicensed dataset is reproduced, and no model error or confidence claim is invented. Human editorial review is pending."
+      ],
+      "blockers": [
+        "human_editorial_review"
+      ]
+    }
+  ],
+  "nextExecutableStep": "Inspect the staging HTML and perform independent human editorial checks. Obtain exact complete regional offers/BOM revisions for ED-02 through ED-05, current same-budget offers for ED-14, and application evidence/BOM/offers for the finished ED-39 workstation recommendation. Record reviewer, decision and substantive date only after that work; release through the parent gate."
+}

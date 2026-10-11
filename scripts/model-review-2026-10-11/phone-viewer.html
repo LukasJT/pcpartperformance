@@ -1,0 +1,10 @@
+<!doctype html><meta charset="utf-8"><title>LOADING</title>
+<style>body{margin:0;background:#f5f8fa;font:11px system-ui;overflow:hidden}.stage{height:90vh;width:100vw}#result{margin:0;white-space:pre-wrap;padding:6px;max-width:100vw}</style>
+<script type="importmap">{"imports":{"three":"/dist/vendor/three/build/three.module.min.js"}}</script>
+<div class="stage"></div><pre id="result"></pre>
+<script type="module">
+import {createPhoneScene} from '/dist/phone-scene.js';
+const q=new URLSearchParams(location.search),file=q.get('file'),rotation=JSON.parse(q.get('rotation')||'[0,0,0]');
+const model={name:file.split('/').pop(),asset:file.split('/').pop(),rotation};
+try{const start=performance.now(),viewer=await createPhoneScene(document.querySelector('.stage'),model,()=>{document.title='FAILED'});viewer.pose(q.get('view')||'front');document.getElementById('result').textContent=JSON.stringify({model,loadMs:Math.round(performance.now()-start),pose:q.get('view')||'front'});document.title='REVIEW_READY';window.viewer=viewer;}catch(error){document.getElementById('result').textContent=error.stack;document.title='FAILED';}
+</script>

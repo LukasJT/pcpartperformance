@@ -17,6 +17,14 @@
     "models:research": "node --use-system-ca scripts/research-model-candidates.cjs",
     "models:research-broad": "node --use-system-ca scripts/research-broad-models.cjs",
     "check:model-framing": "node scripts/check-model-framing.cjs",
-    "check:phone-previews": "node scripts/check-phone-previews.cjs"
+    "check:phone-previews": "node scripts/check-phone-previews.cjs",
+    "build:review": "node -e \"process.env.PROGRAM_PREVIEW='1';require('./scripts/build-pages.cjs')\"",
+    "program:preview": "node scripts/serve-program-preview.cjs",
+    "program:freshness": "node scripts/program-refresh.cjs --offline",
+    "check:program": "node scripts/check-program.cjs && node scripts/check-builder-program.cjs && node scripts/check-product-program.cjs && node scripts/check-program-offers.cjs && node scripts/check-upgrade-program.cjs && node scripts/check-program-worker.cjs && node scripts/check-program-release.cjs && node scripts/check-program-refresh.cjs && node scripts/check-program-offer-sources.cjs && node scripts/program-editorial-review.cjs self-test && node scripts/check-program-retention.cjs && node scripts/check-console-evidence.cjs && node scripts/check-shopping-program.cjs",
+    "program:review": "node scripts/program-editorial-review.cjs check",
+    "program:offers:validate": "node scripts/prepare-program-offers.cjs validate",
+    "check:program-performance": "node scripts/check-program-performance.cjs",
+    "check:continuation": "node scripts/check-continuation.cjs && node scripts/check-continuation-client.cjs && node scripts/check-builder-workspace.cjs && node scripts/check-morning-prices.mjs && node scripts/test-continuation-editorial.cjs && node scripts/test-continuation-news-intake.cjs"
   }
 }

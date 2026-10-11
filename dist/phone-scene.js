@@ -3,7 +3,7 @@ import {OrbitControls} from '/vendor/three/examples/jsm/controls/OrbitControls.j
 import {GLTFLoader} from '/vendor/three/examples/jsm/loaders/GLTFLoader.js';
 import {MeshoptDecoder} from '/vendor/meshoptimizer/meshopt_decoder.js';
 
-export async function createPhoneScene(stage,model,onLost){
+export async function createPhoneScene(stage,model,onLost,onView){
  const renderer=new THREE.WebGLRenderer({alpha:true,antialias:true,powerPreference:'low-power'});
  renderer.setPixelRatio(Math.min(devicePixelRatio||1,1.5));renderer.outputColorSpace=THREE.SRGBColorSpace;renderer.toneMapping=THREE.ACESFilmicToneMapping;
  const canvas=renderer.domElement;canvas.tabIndex=0;canvas.setAttribute('role','img');canvas.setAttribute('aria-label',model.name+' interactive 3D. Drag or use arrow keys to rotate. Plus and minus zoom.');stage.append(canvas);
@@ -16,7 +16,7 @@ export async function createPhoneScene(stage,model,onLost){
  let root,observer,disposed=false;
  const dispose=()=>{if(disposed)return;disposed=true;observer?.disconnect();controls.dispose();canvas.removeEventListener('webglcontextlost',lost);canvas.removeEventListener('keydown',keyboard);const textures=new Set();scene.traverse(n=>{n.geometry?.dispose();for(const mat of Array.isArray(n.material)?n.material:n.material?[n.material]:[]){for(const v of Object.values(mat))if(v?.isTexture)textures.add(v);mat.dispose()}});textures.forEach(t=>t.dispose());environment.dispose();renderer.dispose();renderer.forceContextLoss();canvas.remove()};
  const lost=e=>{e.preventDefault();onLost()};
- const draw=()=>{if(!disposed&&stage.isConnected&&stage.clientWidth)renderer.render(scene,camera)};
+ let applying=false; const draw=()=>{if(!disposed&&stage.isConnected&&stage.clientWidth){renderer.render(scene,camera);if(!applying&&max&&onView){const s=new THREE.Spherical().setFromVector3(camera.position.clone().sub(controls.target));onView({theta:s.theta,phi:s.phi,zoom:s.radius/max})}}};
  let center,size,max,angle='reset';
  const pose=(view='reset')=>{
   angle=view;const direction=new THREE.Vector3(...({front:[0,0,1],back:[0,0,-1],side:[1,0,0],reset:[.55,.15,1]}[view]||[0,0,1])).normalize();
@@ -31,6 +31,7 @@ export async function createPhoneScene(stage,model,onLost){
   camera.near=max/1000;camera.far=max*50;controls.minDistance=max*.7;controls.maxDistance=max*6;
   const resize=()=>{if(!stage.clientWidth||!stage.clientHeight)return;renderer.setSize(stage.clientWidth,stage.clientHeight,false);camera.aspect=stage.clientWidth/stage.clientHeight;camera.updateProjectionMatrix();pose(angle)};
   controls.addEventListener('change',draw);canvas.addEventListener('keydown',keyboard);canvas.addEventListener('webglcontextlost',lost);observer=new ResizeObserver(resize);observer.observe(stage);resize();canvas.dataset.model=model.asset;
-  return {pose,dispose};
+  const setView=value=>{if(!value||![value.theta,value.phi,value.zoom].every(Number.isFinite))return;applying=true;canvas.dataset.angle='linked';const s=new THREE.Spherical(THREE.MathUtils.clamp(value.zoom*max,controls.minDistance,controls.maxDistance),THREE.MathUtils.clamp(value.phi,.05,Math.PI-.05),value.theta);camera.position.copy(controls.target).add(new THREE.Vector3().setFromSpherical(s));controls.update();draw();applying=false};
+  return {pose,dispose,setView};
  }catch(e){dispose();throw e}
 }

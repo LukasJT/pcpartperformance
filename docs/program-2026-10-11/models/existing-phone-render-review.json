@@ -1,0 +1,258 @@
+{
+  "checkedAt": "2026-10-11T18:22:22.705Z",
+  "method": "Actual dist/phone-scene.js and bundled glTF loader in an isolated headless InPrivate Edge profile with software WebGL. Screenshots are visual review, not certified fit.",
+  "scenarios": [
+    {
+      "name": "existing-iphone-13-front",
+      "file": "/assets/models/sketchfab-iphone-13.glb",
+      "rotation": [
+        0,
+        -1.5707963267948966,
+        0
+      ],
+      "phone": true,
+      "view": "front",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-13.glb\",\"asset\":\"sketchfab-iphone-13.glb\",\"rotation\":[0,-1.5707963267948966,0]},\"loadMs\":1973,\"pose\":\"front\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "front",
+          "model": "sketchfab-iphone-13.glb"
+        }
+      },
+      "screenshot": "existing-iphone-13-front.png"
+    },
+    {
+      "name": "existing-pixel-5-front",
+      "file": "/assets/models/sketchfab-pixel-5.glb",
+      "rotation": [
+        0,
+        -1.5707963267948966,
+        0
+      ],
+      "phone": true,
+      "view": "front",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-pixel-5.glb\",\"asset\":\"sketchfab-pixel-5.glb\",\"rotation\":[0,-1.5707963267948966,0]},\"loadMs\":654,\"pose\":\"front\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "front",
+          "model": "sketchfab-pixel-5.glb"
+        }
+      },
+      "screenshot": "existing-pixel-5-front.png"
+    },
+    {
+      "name": "existing-pixel-6-front",
+      "file": "/assets/models/sketchfab-pixel-6.glb",
+      "rotation": [
+        0,
+        -1.5707963267948966,
+        0
+      ],
+      "phone": true,
+      "view": "front",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-pixel-6.glb\",\"asset\":\"sketchfab-pixel-6.glb\",\"rotation\":[0,-1.5707963267948966,0]},\"loadMs\":1227,\"pose\":\"front\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "front",
+          "model": "sketchfab-pixel-6.glb"
+        }
+      },
+      "screenshot": "existing-pixel-6-front.png"
+    },
+    {
+      "name": "existing-pixel-6-pro-front",
+      "file": "/assets/models/sketchfab-pixel-6-pro.glb",
+      "rotation": [
+        0,
+        3.141592653589793,
+        0
+      ],
+      "phone": true,
+      "view": "front",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-pixel-6-pro.glb\",\"asset\":\"sketchfab-pixel-6-pro.glb\",\"rotation\":[0,3.141592653589793,0]},\"loadMs\":674,\"pose\":\"front\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "front",
+          "model": "sketchfab-pixel-6-pro.glb"
+        }
+      },
+      "screenshot": "existing-pixel-6-pro-front.png"
+    },
+    {
+      "name": "existing-pixel-6a-front",
+      "file": "/assets/models/sketchfab-pixel-6a.glb",
+      "rotation": [
+        0,
+        -1.5707963267948966,
+        0
+      ],
+      "phone": true,
+      "view": "front",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-pixel-6a.glb\",\"asset\":\"sketchfab-pixel-6a.glb\",\"rotation\":[0,-1.5707963267948966,0]},\"loadMs\":531,\"pose\":\"front\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "front",
+          "model": "sketchfab-pixel-6a.glb"
+        }
+      },
+      "screenshot": "existing-pixel-6a-front.png"
+    },
+    {
+      "name": "existing-galaxy-s21-front",
+      "file": "/assets/models/sketchfab-galaxy-s21.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "front",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-galaxy-s21.glb\",\"asset\":\"sketchfab-galaxy-s21.glb\",\"rotation\":[0,0,0]},\"loadMs\":937,\"pose\":\"front\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "front",
+          "model": "sketchfab-galaxy-s21.glb"
+        }
+      },
+      "screenshot": "existing-galaxy-s21-front.png"
+    },
+    {
+      "name": "existing-galaxy-s21-ultra-front",
+      "file": "/assets/models/sketchfab-galaxy-s21-ultra.glb",
+      "rotation": [
+        0,
+        3.141592653589793,
+        0
+      ],
+      "phone": true,
+      "view": "front",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-galaxy-s21-ultra.glb\",\"asset\":\"sketchfab-galaxy-s21-ultra.glb\",\"rotation\":[0,3.141592653589793,0]},\"loadMs\":637,\"pose\":\"front\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "front",
+          "model": "sketchfab-galaxy-s21-ultra.glb"
+        }
+      },
+      "screenshot": "existing-galaxy-s21-ultra-front.png"
+    },
+    {
+      "name": "existing-galaxy-s23-ultra-front",
+      "file": "/assets/models/sketchfab-galaxy-s23-ultra.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "front",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-galaxy-s23-ultra.glb\",\"asset\":\"sketchfab-galaxy-s23-ultra.glb\",\"rotation\":[0,0,0]},\"loadMs\":792,\"pose\":\"front\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "front",
+          "model": "sketchfab-galaxy-s23-ultra.glb"
+        }
+      },
+      "screenshot": "existing-galaxy-s23-ultra-front.png"
+    },
+    {
+      "name": "existing-galaxy-z-flip3-front",
+      "file": "/assets/models/sketchfab-galaxy-z-flip3.glb",
+      "rotation": [
+        0,
+        3.141592653589793,
+        0
+      ],
+      "phone": true,
+      "view": "front",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-galaxy-z-flip3.glb\",\"asset\":\"sketchfab-galaxy-z-flip3.glb\",\"rotation\":[0,3.141592653589793,0]},\"loadMs\":817,\"pose\":\"front\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "front",
+          "model": "sketchfab-galaxy-z-flip3.glb"
+        }
+      },
+      "screenshot": "existing-galaxy-z-flip3-front.png"
+    },
+    {
+      "name": "existing-galaxy-a23-5g-front",
+      "file": "/assets/models/sketchfab-galaxy-a23-5g.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "front",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-galaxy-a23-5g.glb\",\"asset\":\"sketchfab-galaxy-a23-5g.glb\",\"rotation\":[0,0,0]},\"loadMs\":859,\"pose\":\"front\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "front",
+          "model": "sketchfab-galaxy-a23-5g.glb"
+        }
+      },
+      "screenshot": "existing-galaxy-a23-5g-front.png"
+    },
+    {
+      "name": "existing-galaxy-s3-front",
+      "file": "/assets/models/sketchfab-galaxy-s3.glb",
+      "rotation": [
+        0,
+        3.141592653589793,
+        0
+      ],
+      "phone": true,
+      "view": "front",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-galaxy-s3.glb\",\"asset\":\"sketchfab-galaxy-s3.glb\",\"rotation\":[0,3.141592653589793,0]},\"loadMs\":585,\"pose\":\"front\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "front",
+          "model": "sketchfab-galaxy-s3.glb"
+        }
+      },
+      "screenshot": "existing-galaxy-s3-front.png"
+    },
+    {
+      "name": "existing-oneplus-7-pro-front",
+      "file": "/assets/models/sketchfab-oneplus-7-pro.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "front",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-oneplus-7-pro.glb\",\"asset\":\"sketchfab-oneplus-7-pro.glb\",\"rotation\":[0,0,0]},\"loadMs\":801,\"pose\":\"front\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "front",
+          "model": "sketchfab-oneplus-7-pro.glb"
+        }
+      },
+      "screenshot": "existing-oneplus-7-pro-front.png"
+    }
+  ]
+}

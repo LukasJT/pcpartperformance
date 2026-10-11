@@ -1,0 +1,106 @@
+[
+  {
+    "id": "f2d9508dd1ed81b29fbcc031",
+    "source": "micronFY26:inspected-2026-10-11",
+    "title": "Micron reports fiscal fourth-quarter and full-year 2026 results",
+    "url": "https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Fiscal-Fourth-Quarter-and-Full-Year-2026-Results/default.aspx",
+    "sourcePublishedAt": null,
+    "firstSeen": "2026-10-11T17:05:10.744Z",
+    "status": "needs-review",
+    "editorApproved": false,
+    "confirmedDeployment": false,
+    "datePublished": null,
+    "kind": "existing_report_review",
+    "sourceId": "micronFY26",
+    "sourceAnnouncementDate": "2026-09-30",
+    "sourceDatePrecision": "day",
+    "evidenceInspected": "2026-10-11",
+    "revision": "inspected-2026-10-11",
+    "affectedArticles": [
+      {
+        "id": "C09",
+        "route": "/news/micron-ai-demand-memory-evidence/"
+      }
+    ],
+    "requiresSourceReinspection": false,
+    "proposal": "Review the original source and decide whether to revise the existing article or report a genuinely new event. Do not refresh dates or publish from this signal."
+  },
+  {
+    "id": "9d5b8306bdc4e637eb3e3a77",
+    "source": "rtxSpark:inspected-2026-10-11",
+    "title": "Local AI goes mainstream with RTX Spark and Microsoft Windows",
+    "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
+    "sourcePublishedAt": null,
+    "firstSeen": "2026-10-11T17:05:10.744Z",
+    "status": "needs-review",
+    "editorApproved": false,
+    "confirmedDeployment": false,
+    "datePublished": null,
+    "kind": "existing_report_review",
+    "sourceId": "rtxSpark",
+    "sourceAnnouncementDate": "2026-10-07",
+    "sourceDatePrecision": "day",
+    "evidenceInspected": "2026-10-11",
+    "revision": "inspected-2026-10-11",
+    "affectedArticles": [
+      {
+        "id": "C10",
+        "route": "/news/nvidia-rtx-spark-windows-october-2026/"
+      }
+    ],
+    "requiresSourceReinspection": false,
+    "proposal": "Review the original source and decide whether to revise the existing article or report a genuinely new event. Do not refresh dates or publish from this signal."
+  },
+  {
+    "id": "6bad2ad0984cdad898de311b",
+    "source": "amdLinux2616:inspected-2026-10-11",
+    "title": "Radeon Software for Linux 26.16 release notes",
+    "url": "https://www.amd.com/en/resources/support-articles/release-notes/RN-AMDGPU-UNIFIED-LINUX-26-16.html",
+    "sourcePublishedAt": null,
+    "firstSeen": "2026-10-11T17:05:10.744Z",
+    "status": "needs-review",
+    "editorApproved": false,
+    "confirmedDeployment": false,
+    "datePublished": null,
+    "kind": "existing_report_review",
+    "sourceId": "amdLinux2616",
+    "sourceAnnouncementDate": "2026-10-05",
+    "sourceDatePrecision": "day",
+    "evidenceInspected": "2026-10-11",
+    "revision": "inspected-2026-10-11",
+    "affectedArticles": [
+      {
+        "id": "C11",
+        "route": "/news/amd-linux-26-16-ubuntu-blender/"
+      }
+    ],
+    "requiresSourceReinspection": false,
+    "proposal": "Review the original source and decide whether to revise the existing article or report a genuinely new event. Do not refresh dates or publish from this signal."
+  },
+  {
+    "id": "5bb0b09d941ff40e1c67ddb7",
+    "source": "pixelOctober:inspected-2026-10-11",
+    "title": "Pixel Update Bulletin — October 2026",
+    "url": "https://source.android.com/docs/security/bulletin/pixel/2026/2026-10-01",
+    "sourcePublishedAt": null,
+    "firstSeen": "2026-10-11T17:05:10.744Z",
+    "status": "needs-review",
+    "editorApproved": false,
+    "confirmedDeployment": false,
+    "datePublished": null,
+    "kind": "existing_report_review",
+    "sourceId": "pixelOctober",
+    "sourceAnnouncementDate": "2026-10-06",
+    "sourceDatePrecision": "day",
+    "evidenceInspected": "2026-10-11",
+    "revision": "inspected-2026-10-11",
+    "affectedArticles": [
+      {
+        "id": "C12",
+        "route": "/news/pixel-october-2026-patch-level/"
+      }
+    ],
+    "requiresSourceReinspection": false,
+    "proposal": "Review the original source and decide whether to revise the existing article or report a genuinely new event. Do not refresh dates or publish from this signal."
+  }
+]

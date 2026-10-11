@@ -1,0 +1,288 @@
+{
+  "checkedAt": "2026-10-11T16:57:30.819Z",
+  "method": "Actual dist/build-scene.js and bundled glTF loader in an isolated headless Edge profile with software WebGL. Camera fit uses manufacturer or candidate dimensions; screenshots are visual review, not certified fit.",
+  "scenarios": [
+    {
+      "name": "msi-5070-trio-fan-side",
+      "file": "/tmp/model-batch-2026-10-11/msi-5070-trio.glb",
+      "rotation": [
+        -1.5707963267948966,
+        1.5707963267948966,
+        0
+      ],
+      "size": [
+        338,
+        50,
+        140
+      ],
+      "slot": "gpu",
+      "view": "angled",
+      "turns": 0,
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"failed\":[],\"rendered\":1,\"loadMs\":180}",
+        "canvas": {
+          "engine": "three.js r180",
+          "cameraDistance": "0.408",
+          "boundsSize": "0.338,0.050,0.140",
+          "renderCount": "4",
+          "triangles": "883",
+          "modelCount": "1",
+          "loadMs": "180"
+        }
+      },
+      "screenshot": "msi-5070-trio-fan-side.png"
+    },
+    {
+      "name": "ryzen9-candidate",
+      "file": "/tmp/model-batch-2026-10-11/ryzen9.glb",
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "size": [
+        40,
+        40,
+        5.7
+      ],
+      "slot": "cpu",
+      "view": "angled",
+      "turns": 0,
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"failed\":[],\"rendered\":1,\"loadMs\":136}",
+        "canvas": {
+          "engine": "three.js r180",
+          "cameraDistance": "0.150",
+          "boundsSize": "0.040,0.040,0.006",
+          "renderCount": "3",
+          "triangles": "3950",
+          "modelCount": "1",
+          "loadMs": "136"
+        }
+      },
+      "screenshot": "ryzen9-candidate.png"
+    },
+    {
+      "name": "lian-li-case-candidate",
+      "file": "/tmp/model-batch-2026-10-11/lian-li-case.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        445,
+        446,
+        272
+      ],
+      "slot": "case",
+      "view": "angled",
+      "turns": 0,
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"failed\":[],\"rendered\":1,\"loadMs\":63}",
+        "canvas": {
+          "engine": "three.js r180",
+          "cameraDistance": "1.149",
+          "boundsSize": "0.445,0.446,0.272",
+          "renderCount": "4",
+          "triangles": "62728",
+          "modelCount": "1",
+          "loadMs": "63"
+        }
+      },
+      "screenshot": "lian-li-case-candidate.png"
+    },
+    {
+      "name": "iphone-15-pro-max-front",
+      "file": "/assets/models/sketchfab-iphone-15-pro-max.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "front",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-15-pro-max.glb\",\"asset\":\"sketchfab-iphone-15-pro-max.glb\",\"rotation\":[0,0,0]},\"loadMs\":1560,\"pose\":\"front\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "front",
+          "model": "sketchfab-iphone-15-pro-max.glb"
+        }
+      },
+      "screenshot": "iphone-15-pro-max-front.png"
+    },
+    {
+      "name": "iphone-15-pro-max-back",
+      "file": "/assets/models/sketchfab-iphone-15-pro-max.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "back",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-15-pro-max.glb\",\"asset\":\"sketchfab-iphone-15-pro-max.glb\",\"rotation\":[0,0,0]},\"loadMs\":1045,\"pose\":\"back\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "back",
+          "model": "sketchfab-iphone-15-pro-max.glb"
+        }
+      },
+      "screenshot": "iphone-15-pro-max-back.png"
+    },
+    {
+      "name": "iphone-15-pro-max-side",
+      "file": "/assets/models/sketchfab-iphone-15-pro-max.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "side",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-15-pro-max.glb\",\"asset\":\"sketchfab-iphone-15-pro-max.glb\",\"rotation\":[0,0,0]},\"loadMs\":878,\"pose\":\"side\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "side",
+          "model": "sketchfab-iphone-15-pro-max.glb"
+        }
+      },
+      "screenshot": "iphone-15-pro-max-side.png"
+    },
+    {
+      "name": "iphone-17-pro-front",
+      "file": "/assets/models/sketchfab-iphone-17-pro.glb",
+      "rotation": [
+        0,
+        3.141592653589793,
+        0
+      ],
+      "phone": true,
+      "view": "front",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-17-pro.glb\",\"asset\":\"sketchfab-iphone-17-pro.glb\",\"rotation\":[0,3.141592653589793,0]},\"loadMs\":2020,\"pose\":\"front\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "front",
+          "model": "sketchfab-iphone-17-pro.glb"
+        }
+      },
+      "screenshot": "iphone-17-pro-front.png"
+    },
+    {
+      "name": "iphone-17-pro-back",
+      "file": "/assets/models/sketchfab-iphone-17-pro.glb",
+      "rotation": [
+        0,
+        3.141592653589793,
+        0
+      ],
+      "phone": true,
+      "view": "back",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-17-pro.glb\",\"asset\":\"sketchfab-iphone-17-pro.glb\",\"rotation\":[0,3.141592653589793,0]},\"loadMs\":1011,\"pose\":\"back\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "back",
+          "model": "sketchfab-iphone-17-pro.glb"
+        }
+      },
+      "screenshot": "iphone-17-pro-back.png"
+    },
+    {
+      "name": "iphone-17-pro-side",
+      "file": "/assets/models/sketchfab-iphone-17-pro.glb",
+      "rotation": [
+        0,
+        3.141592653589793,
+        0
+      ],
+      "phone": true,
+      "view": "side",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-17-pro.glb\",\"asset\":\"sketchfab-iphone-17-pro.glb\",\"rotation\":[0,3.141592653589793,0]},\"loadMs\":836,\"pose\":\"side\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "side",
+          "model": "sketchfab-iphone-17-pro.glb"
+        }
+      },
+      "screenshot": "iphone-17-pro-side.png"
+    },
+    {
+      "name": "iphone-17-pro-max-front",
+      "file": "/assets/models/sketchfab-iphone-17-pro-max.glb",
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "phone": true,
+      "view": "front",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-17-pro-max.glb\",\"asset\":\"sketchfab-iphone-17-pro-max.glb\",\"rotation\":[0,1.5707963267948966,0]},\"loadMs\":328,\"pose\":\"front\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "front",
+          "model": "sketchfab-iphone-17-pro-max.glb"
+        }
+      },
+      "screenshot": "iphone-17-pro-max-front.png"
+    },
+    {
+      "name": "iphone-17-pro-max-back",
+      "file": "/assets/models/sketchfab-iphone-17-pro-max.glb",
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "phone": true,
+      "view": "back",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-17-pro-max.glb\",\"asset\":\"sketchfab-iphone-17-pro-max.glb\",\"rotation\":[0,1.5707963267948966,0]},\"loadMs\":273,\"pose\":\"back\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "back",
+          "model": "sketchfab-iphone-17-pro-max.glb"
+        }
+      },
+      "screenshot": "iphone-17-pro-max-back.png"
+    },
+    {
+      "name": "iphone-17-pro-max-side",
+      "file": "/assets/models/sketchfab-iphone-17-pro-max.glb",
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "phone": true,
+      "view": "side",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-17-pro-max.glb\",\"asset\":\"sketchfab-iphone-17-pro-max.glb\",\"rotation\":[0,1.5707963267948966,0]},\"loadMs\":372,\"pose\":\"side\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "side",
+          "model": "sketchfab-iphone-17-pro-max.glb"
+        }
+      },
+      "screenshot": "iphone-17-pro-max-side.png"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+/* Shared layout refinements: existing design tokens and identity remain authoritative. */
+.site-header{height:auto;min-height:86px;gap:18px;position:relative;z-index:100;flex-wrap:nowrap;padding-top:14px;padding-bottom:14px}
+.site-header .brand{flex:0 0 auto}.site-header .brand-sub{font-size:.72rem}
+.site-header .liquid-nav{display:flex!important;gap:3px;min-width:0;margin-left:auto;margin-right:auto;white-space:nowrap}
+.site-header .liquid-nav>a{padding:11px 10px;font-size:.86rem;font-weight:650}
+.site-header .theme-toggle{flex-shrink:0}.site-header .country-switch{flex-shrink:0}
+.explore-menu{position:relative;flex-shrink:0}.explore-menu>summary{list-style:none;display:flex;align-items:center;gap:7px;font-weight:650;padding:10px 12px;border:1px solid var(--line);border-radius:12px;cursor:pointer;min-height:44px;font-size:.85rem}
+.explore-menu>summary::-webkit-details-marker{display:none}.explore-menu>summary svg{width:17px;height:17px}
+.explore-panel{position:absolute;z-index:90;right:0;top:calc(100% + 12px);width:360px;max-width:calc(100vw - 32px);padding:18px;background:var(--surface);border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow);display:grid;grid-template-columns:1fr 1fr;gap:16px;transform-origin:top right;animation:panel-arrive .22s ease-out}
+.explore-panel strong{font-size:.82rem;color:var(--muted);display:block;padding:6px 9px}.explore-panel a{display:block;padding:10px;border-radius:9px;font-size:.92rem;font-weight:600}.explore-panel a:hover{background:var(--surface-2);color:var(--accent-ink)}
+@media(max-width:1250px){.site-header{flex-wrap:wrap;gap:10px 15px}.site-header .liquid-nav{order:5;width:100%;justify-content:center}.site-header .explore-menu{margin-left:auto}.site-header .brand-sub{display:none}}
+@media(max-width:600px){.site-header{padding:12px 5%;min-height:0;gap:10px}.site-header .brand{font-size:.92rem}.site-header .brand-mark{width:31px;height:31px}.site-header .brand-mark svg{width:23px;height:23px}.site-header .theme-toggle{padding:8px;font-size:0;min-height:36px}.site-header .theme-toggle svg{width:17px;height:17px}.site-header .country-switch button{min-width:33px;padding:5px}.site-header .explore-menu>summary{font-size:.8rem;padding:7px;min-height:36px}.site-header .liquid-nav{overflow-x:auto;justify-content:flex-start;gap:1px;padding:0 0 2px}.site-header .liquid-nav>a{font-size:.84rem;padding:10px 9px}.explore-panel{right:-5px}}
+.site-header .liquid-nav>a{flex:0 0 auto;white-space:nowrap;line-height:1.3}
+@media(max-width:600px){.site-header .liquid-nav{flex-wrap:nowrap;max-width:100%;scrollbar-width:none}.site-header .liquid-nav::-webkit-scrollbar{display:none}.site-header .liquid-nav>a{padding:11px 12px}}
+@view-transition{navigation:auto}
+::view-transition-old(root),::view-transition-new(root){animation-duration:160ms}
+@media(prefers-reduced-motion:reduce){::view-transition-old(root),::view-transition-new(root){animation:none}.review-play{transition:none}}
+@media(prefers-reduced-motion:reduce){.explore-panel{animation:none}}
+@media(max-width:380px){.site-header{gap:7px}.site-header .brand{gap:6px;font-size:.82rem}.site-header .brand-mark{width:29px;height:29px}.site-header .explore-menu>summary{padding:7px 6px;font-size:.76rem}.site-header .country-switch button{min-width:30px;padding:4px}.site-header .theme-toggle{min-width:30px;padding:6px}}
+/* Reserve a fixed control row instead of letting inherited flex margins wrap the theme button. */
+@media(max-width:600px){.site-header{display:grid;grid-template-columns:minmax(0,1fr) auto auto auto;align-items:center}.site-header .brand{grid-column:1;grid-row:1;min-width:0;margin:0}.site-header .explore-menu{grid-column:2;grid-row:1;margin:0}.site-header .country-switch{grid-column:3;grid-row:1;margin:0}.site-header .theme-toggle{grid-column:4;grid-row:1;margin:0}.site-header .liquid-nav{grid-column:1/-1;grid-row:2;order:initial;width:100%;margin:0}}
+@media(max-width:600px){.explore-panel{position:fixed;top:60px;left:16px;right:16px;width:auto;max-width:none;max-height:calc(100svh - 76px);overflow-y:auto;transform-origin:top center}}
+@keyframes panel-arrive{from{opacity:0;transform:translateY(-6px) scale(.98)}to{opacity:1;transform:none}}

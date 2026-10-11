@@ -3,14 +3,16 @@ const icons={gpu:'<rect x="3" y="5" width="18" height="12" rx="1"/><circle cx="1
 const icon=(name)=>`<svg viewBox="0 0 24 24" aria-hidden="true">${icons[name]||icons.cpu}</svg>`;
 const categories=[['gpu','Graphics cards'],['cpu','Processors'],['board','Motherboards'],['ram','Memory'],['ssd','SSDs'],['hdd','Hard drives'],['psu','Power supplies'],['case','PC cases'],['monitor','Monitors'],['mouse','Mice'],['keyboard','Keyboards'],['microphone','Microphones'],['headset','Headsets'],['controller','Controllers'],['console','Consoles'],['phone','Phones'],['handheld','Handhelds']];
 const colors=['#fc8450','#6eb2f1','#b7cf80','#c5a1df'];
-const catalog=[
+const catalog=window.PCP_BUILDER_CATALOG||[
 {id:'rtx4080s',name:'GeForce RTX 4080 SUPER',brand:'NVIDIA',cat:'gpu',year:2024,architecture:'Ada Lovelace',summary:'16 GB GDDR6X',specs:{'Memory':16,'Memory bandwidth':736,'Boost clock':2.55,'Board power':320,'Shader units':10240,'PassMark G3D':34212,'Expansion slots':3,'Power connectors':1},source:'https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/rtx-4080-family/'},
 {id:'rx7900xtx',name:'Radeon RX 7900 XTX',brand:'AMD',cat:'gpu',year:2022,architecture:'RDNA 3',summary:'24 GB GDDR6',specs:{'Memory':24,'Memory bandwidth':960,'Boost clock':2.5,'Board power':355,'Shader units':6144,'Expansion slots':3,'Power connectors':2},source:'https://www.amd.com/en/products/graphics/desktops/radeon/7000-series/amd-radeon-rx-7900xtx.html'}
 ];
-catalog.push(...window.PCP_EXTRA);
-catalog.push(...window.PCP_HISTORY);
-catalog.push(...window.PCP_UNIVERSE.filter(p=>!catalog.some(existing=>existing.name.toLowerCase()===p.name.toLowerCase())));
-catalog.push(...window.PCP_COMPONENTS.filter(p=>!catalog.some(existing=>existing.name.toLowerCase()===p.name.toLowerCase())));
+catalog.push(...(window.PCP_EXTRA||[]));
+catalog.push(...(window.PCP_HISTORY||[]));
+// Stable IDs preserve partner variants, board revisions and regional records.
+// Similar names are evidence for review, never an automatic identity decision.
+catalog.push(...(window.PCP_UNIVERSE||[]).filter(p=>!catalog.some(existing=>existing.id===p.id)));
+catalog.push(...(window.PCP_COMPONENTS||[]).filter(p=>!catalog.some(existing=>existing.id===p.id)));
 const units={'Memory':'GB','Memory bandwidth':'GB/s','Boost clock':'GHz','Base clock':'GHz','Clock speed':'MHz','Data width':'bit','External bus width':'bit','Transistors':'','Board power':'W','Shader units':'','PassMark G3D':'points','CPU cores':'','CPU threads':'','GPU cores':'','GPU FP32':'TFLOPS','L3 cache':'MB','CPU TDP':'W','DIMM slots':'','M.2 slots':'','SATA ports':'','Max RAM':'GB','Transfer rate':'MT/s','CAS latency':'cycles','Modules':'','Storage capacity':'GB','Sequential read':'MB/s','Sequential write':'MB/s','Endurance':'TBW','Spindle speed':'RPM','Drive cache':'MB','Rated output':'W','Fan size':'mm','Display refresh':'Hz','Battery capacity':'Wh','Display size':'in'};
 let selected=['rtx4080s','rx7900xtx'],activeCategory='gpu',catalogCategory='all',metric='Memory bandwidth',visibleRows=7;
 const buildSlotDefs=[
@@ -18,6 +20,7 @@ const buildSlotDefs=[
  {id:'ram',label:'Memory kit',required:true},{id:'ssd',label:'Solid-state drive',required:false},{id:'hdd',label:'Hard drive',required:false},{id:'psu',label:'Power supply',required:true},{id:'case',label:'PC case',required:true}
 ];
 const multiBuildSlots=new Set(['ram','ssd','hdd']);
+if(window.PCP_BUILDER_CATALOG){categories.push(['fan','Case fans']);buildSlotDefs.push({id:'fan',label:'Case fans',required:false});multiBuildSlots.add('fan');icons.fan='<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="2"/><path d="M12 10C3 1 2 14 10 12m4 0c9 9 10-4 2-2m-4 4c-9 9 4 10 2 2m0-4c9-9-4-10-2-2"/>';Object.assign(units,{'Fan size':'mm','Thickness':'mm','Card length':'mm','Card thickness':'mm','Card height':'mm'});}
 const starterBuild={cpu:'9800x3d',board:'b650',gpu:'retail-msi-geforce-rtx-3060-gaming-x-trio-12g',ram:['ddr5'],ssd:['990pro'],hdd:['barracuda2'],psu:'rm850x',case:'retail-lian-li-o11-air-mini-black',fan:['retail-lian-li-uni-fan-tl-120-wireless-black','retail-lian-li-uni-fan-tl-120-wireless-black']};
 const cloneStarter=()=>Object.fromEntries(Object.entries(starterBuild).map(([slot,value])=>[slot,Array.isArray(value)?[...value]:value]));
 let pcBuild={},compatibleOnly=true;

@@ -1,0 +1,489 @@
+{
+  "schema": 1,
+  "preparedAt": "2026-10-09",
+  "engineVersion": "2026-10-09.1",
+  "sources": {
+    "msiB650": {
+      "publisher": "MSI",
+      "url": "https://us.msi.com/Motherboard/MAG-B650-TOMAHAWK-WIFI/Specification",
+      "checked": "2026-10-09",
+      "model": "MAG B650 TOMAHAWK WIFI",
+      "scope": "Socket, memory, form factor and documented storage topology; exact BIOS support is separate."
+    },
+    "amd9800": {
+      "publisher": "AMD",
+      "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9800x3d.html",
+      "checked": "2026-10-09",
+      "model": "Ryzen 7 9800X3D",
+      "scope": "AM5, DDR5, default TDP and no included thermal solution."
+    },
+    "corsairDDR5": {
+      "publisher": "CORSAIR",
+      "url": "https://www.corsair.com/us/en/p/memory/cmk32gx5m2b6000c30/vengeance-32gb-2x16gb-ddr5-dram-6000mt-s-c30-memory-kit-black-cmk32gx5m2b6000c30",
+      "checked": "2026-10-09",
+      "model": "CMK32GX5M2B6000C30",
+      "scope": "Exact memory kit generation, capacity and module count; profile stability is not certified."
+    },
+    "msi3060": {
+      "publisher": "MSI",
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3060-GAMING-X-TRIO-12G/Specification",
+      "checked": "2026-10-09",
+      "model": "GeForce RTX 3060 GAMING X TRIO 12G",
+      "scope": "Exact card dimensions, power connector count and published PSU recommendation."
+    },
+    "lianAir": {
+      "publisher": "Lian Li",
+      "url": "https://lian-li.com/product/o11-air-mini/",
+      "checked": "2026-10-09",
+      "model": "O11AMX / O11AMW",
+      "scope": "Motherboard formats, nominal GPU and cooler clearances, ATX PSU support. Storage-bay text conflicts on this page; bay counts remain unresolved."
+    },
+    "samsung990": {
+      "publisher": "Samsung",
+      "url": "https://www.samsung.com/uk/memory-storage/nvme-ssd/990-pro-1tb-nvme-pcie-gen-4-mz-v9p1t0bw/",
+      "checked": "2026-10-09",
+      "model": "MZ-V9P1T0BW",
+      "scope": "1 TB non-heatsink drive, NVMe PCIe 4.0 x4 and M.2 2280 interface."
+    },
+    "corsairCables": {
+      "publisher": "CORSAIR",
+      "url": "https://www.corsair.com/us/en/explorer/diy-builder/power-supply-units/psu-cable-compatibility/",
+      "checked": "2026-10-09",
+      "model": "Cable compatibility chart",
+      "scope": "Check the exact PSU revision and cable type; a modular connector shape does not establish a safe match."
+    }
+  },
+  "fields": {
+    "b650": {
+      "socket": {
+        "value": "AM5",
+        "source": "https://us.msi.com/Motherboard/MAG-B650-TOMAHAWK-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-09",
+        "model": "MAG B650 TOMAHAWK WIFI",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "ddr": {
+        "value": "DDR5",
+        "source": "https://us.msi.com/Motherboard/MAG-B650-TOMAHAWK-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-09",
+        "model": "MAG B650 TOMAHAWK WIFI",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "modules": {
+        "value": 4,
+        "source": "https://us.msi.com/Motherboard/MAG-B650-TOMAHAWK-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-09",
+        "model": "MAG B650 TOMAHAWK WIFI",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "memoryMax": {
+        "value": 256,
+        "source": "https://us.msi.com/Motherboard/MAG-B650-TOMAHAWK-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-09",
+        "model": "MAG B650 TOMAHAWK WIFI",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "form": {
+        "value": "ATX",
+        "source": "https://us.msi.com/Motherboard/MAG-B650-TOMAHAWK-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-09",
+        "model": "MAG B650 TOMAHAWK WIFI",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "m2": {
+        "value": 3,
+        "source": "https://us.msi.com/Motherboard/MAG-B650-TOMAHAWK-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-09",
+        "model": "MAG B650 TOMAHAWK WIFI",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "sata": {
+        "value": 6,
+        "source": "https://us.msi.com/Motherboard/MAG-B650-TOMAHAWK-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-09",
+        "model": "MAG B650 TOMAHAWK WIFI",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "cpuSockets": {
+        "value": 1,
+        "source": "https://us.msi.com/Motherboard/MAG-B650-TOMAHAWK-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-09",
+        "model": "MAG B650 TOMAHAWK WIFI",
+        "status": "manufacturer-specified",
+        "exact": true
+      }
+    },
+    "c-board-msi-mag-b650-tomahawk-wifi": {
+      "socket": {
+        "value": "AM5",
+        "source": "https://us.msi.com/Motherboard/MAG-B650-TOMAHAWK-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-09",
+        "model": "MAG B650 TOMAHAWK WIFI",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "ddr": {
+        "value": "DDR5",
+        "source": "https://us.msi.com/Motherboard/MAG-B650-TOMAHAWK-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-09",
+        "model": "MAG B650 TOMAHAWK WIFI",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "modules": {
+        "value": 4,
+        "source": "https://us.msi.com/Motherboard/MAG-B650-TOMAHAWK-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-09",
+        "model": "MAG B650 TOMAHAWK WIFI",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "memoryMax": {
+        "value": 256,
+        "source": "https://us.msi.com/Motherboard/MAG-B650-TOMAHAWK-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-09",
+        "model": "MAG B650 TOMAHAWK WIFI",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "form": {
+        "value": "ATX",
+        "source": "https://us.msi.com/Motherboard/MAG-B650-TOMAHAWK-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-09",
+        "model": "MAG B650 TOMAHAWK WIFI",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "m2": {
+        "value": 3,
+        "source": "https://us.msi.com/Motherboard/MAG-B650-TOMAHAWK-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-09",
+        "model": "MAG B650 TOMAHAWK WIFI",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "sata": {
+        "value": 6,
+        "source": "https://us.msi.com/Motherboard/MAG-B650-TOMAHAWK-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-09",
+        "model": "MAG B650 TOMAHAWK WIFI",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "cpuSockets": {
+        "value": 1,
+        "source": "https://us.msi.com/Motherboard/MAG-B650-TOMAHAWK-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-09",
+        "model": "MAG B650 TOMAHAWK WIFI",
+        "status": "manufacturer-specified",
+        "exact": true
+      }
+    },
+    "9800x3d": {
+      "socket": {
+        "value": "AM5",
+        "source": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9800x3d.html",
+        "publisher": "AMD",
+        "checked": "2026-10-09",
+        "model": "Ryzen 7 9800X3D",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "ddr": {
+        "value": "DDR5",
+        "source": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9800x3d.html",
+        "publisher": "AMD",
+        "checked": "2026-10-09",
+        "model": "Ryzen 7 9800X3D",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "tdp": {
+        "value": 120,
+        "source": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9800x3d.html",
+        "publisher": "AMD",
+        "checked": "2026-10-09",
+        "model": "Ryzen 7 9800X3D",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "includedCooler": {
+        "value": false,
+        "source": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9800x3d.html",
+        "publisher": "AMD",
+        "checked": "2026-10-09",
+        "model": "Ryzen 7 9800X3D",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "integratedGraphics": {
+        "value": true,
+        "source": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9800x3d.html",
+        "publisher": "AMD",
+        "checked": "2026-10-09",
+        "model": "Ryzen 7 9800X3D",
+        "status": "manufacturer-specified",
+        "exact": true
+      }
+    },
+    "ddr5": {
+      "ddr": {
+        "value": "DDR5",
+        "source": "https://www.corsair.com/us/en/p/memory/cmk32gx5m2b6000c30/vengeance-32gb-2x16gb-ddr5-dram-6000mt-s-c30-memory-kit-black-cmk32gx5m2b6000c30",
+        "publisher": "CORSAIR",
+        "checked": "2026-10-09",
+        "model": "CMK32GX5M2B6000C30",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "capacity": {
+        "value": 32,
+        "source": "https://www.corsair.com/us/en/p/memory/cmk32gx5m2b6000c30/vengeance-32gb-2x16gb-ddr5-dram-6000mt-s-c30-memory-kit-black-cmk32gx5m2b6000c30",
+        "publisher": "CORSAIR",
+        "checked": "2026-10-09",
+        "model": "CMK32GX5M2B6000C30",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "modules": {
+        "value": 2,
+        "source": "https://www.corsair.com/us/en/p/memory/cmk32gx5m2b6000c30/vengeance-32gb-2x16gb-ddr5-dram-6000mt-s-c30-memory-kit-black-cmk32gx5m2b6000c30",
+        "publisher": "CORSAIR",
+        "checked": "2026-10-09",
+        "model": "CMK32GX5M2B6000C30",
+        "status": "manufacturer-specified",
+        "exact": true
+      }
+    },
+    "retail-msi-geforce-rtx-3060-gaming-x-trio-12g": {
+      "gpuLength": {
+        "value": 323,
+        "source": "https://www.msi.com/Graphics-Card/GeForce-RTX-3060-GAMING-X-TRIO-12G/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-09",
+        "model": "GeForce RTX 3060 GAMING X TRIO 12G",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "gpuHeight": {
+        "value": 140,
+        "source": "https://www.msi.com/Graphics-Card/GeForce-RTX-3060-GAMING-X-TRIO-12G/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-09",
+        "model": "GeForce RTX 3060 GAMING X TRIO 12G",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "gpuThickness": {
+        "value": 56,
+        "source": "https://www.msi.com/Graphics-Card/GeForce-RTX-3060-GAMING-X-TRIO-12G/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-09",
+        "model": "GeForce RTX 3060 GAMING X TRIO 12G",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "gpuPower": {
+        "value": 170,
+        "source": "https://www.msi.com/Graphics-Card/GeForce-RTX-3060-GAMING-X-TRIO-12G/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-09",
+        "model": "GeForce RTX 3060 GAMING X TRIO 12G",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "recommendedPsu": {
+        "value": 550,
+        "source": "https://www.msi.com/Graphics-Card/GeForce-RTX-3060-GAMING-X-TRIO-12G/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-09",
+        "model": "GeForce RTX 3060 GAMING X TRIO 12G",
+        "status": "manufacturer-specified",
+        "exact": true,
+        "condition": "Manufacturer recommendation; actual full-system requirements still need review."
+      },
+      "connectors": {
+        "value": "2 × PCIe 8-pin",
+        "source": "https://www.msi.com/Graphics-Card/GeForce-RTX-3060-GAMING-X-TRIO-12G/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-09",
+        "model": "GeForce RTX 3060 GAMING X TRIO 12G",
+        "status": "manufacturer-specified",
+        "exact": true
+      }
+    },
+    "retail-lian-li-o11-air-mini-black": {
+      "forms": {
+        "value": [
+          "ATX",
+          "MICRO-ATX",
+          "MINI-ITX"
+        ],
+        "source": "https://lian-li.com/product/o11-air-mini/",
+        "publisher": "Lian Li",
+        "checked": "2026-10-09",
+        "model": "O11AMX / O11AMW",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "gpuLengthMax": {
+        "value": 362,
+        "source": "https://lian-li.com/product/o11-air-mini/",
+        "publisher": "Lian Li",
+        "checked": "2026-10-09",
+        "model": "O11AMX / O11AMW",
+        "status": "manufacturer-specified",
+        "exact": true,
+        "condition": "Nominal length only. Radiator, cable and mounting configuration must be checked separately."
+      },
+      "coolerHeightMax": {
+        "value": 170,
+        "source": "https://lian-li.com/product/o11-air-mini/",
+        "publisher": "Lian Li",
+        "checked": "2026-10-09",
+        "model": "O11AMX / O11AMW",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "psuFormats": {
+        "value": [
+          "ATX"
+        ],
+        "source": "https://lian-li.com/product/o11-air-mini/",
+        "publisher": "Lian Li",
+        "checked": "2026-10-09",
+        "model": "O11AMX / O11AMW",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "psuLengthMax": {
+        "value": 200,
+        "source": "https://lian-li.com/product/o11-air-mini/",
+        "publisher": "Lian Li",
+        "checked": "2026-10-09",
+        "model": "O11AMX / O11AMW",
+        "status": "manufacturer-specified",
+        "exact": true
+      }
+    },
+    "retail-lian-li-o11-air-mini-white": {
+      "forms": {
+        "value": [
+          "ATX",
+          "MICRO-ATX",
+          "MINI-ITX"
+        ],
+        "source": "https://lian-li.com/product/o11-air-mini/",
+        "publisher": "Lian Li",
+        "checked": "2026-10-09",
+        "model": "O11AMX / O11AMW",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "gpuLengthMax": {
+        "value": 362,
+        "source": "https://lian-li.com/product/o11-air-mini/",
+        "publisher": "Lian Li",
+        "checked": "2026-10-09",
+        "model": "O11AMX / O11AMW",
+        "status": "manufacturer-specified",
+        "exact": true,
+        "condition": "Nominal length only. Radiator, cable and mounting configuration must be checked separately."
+      },
+      "coolerHeightMax": {
+        "value": 170,
+        "source": "https://lian-li.com/product/o11-air-mini/",
+        "publisher": "Lian Li",
+        "checked": "2026-10-09",
+        "model": "O11AMX / O11AMW",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "psuFormats": {
+        "value": [
+          "ATX"
+        ],
+        "source": "https://lian-li.com/product/o11-air-mini/",
+        "publisher": "Lian Li",
+        "checked": "2026-10-09",
+        "model": "O11AMX / O11AMW",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "psuLengthMax": {
+        "value": 200,
+        "source": "https://lian-li.com/product/o11-air-mini/",
+        "publisher": "Lian Li",
+        "checked": "2026-10-09",
+        "model": "O11AMX / O11AMW",
+        "status": "manufacturer-specified",
+        "exact": true
+      }
+    },
+    "990pro": {
+      "storageInterface": {
+        "value": "NVMe",
+        "source": "https://www.samsung.com/uk/memory-storage/nvme-ssd/990-pro-1tb-nvme-pcie-gen-4-mz-v9p1t0bw/",
+        "publisher": "Samsung",
+        "checked": "2026-10-09",
+        "model": "MZ-V9P1T0BW",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "storageLength": {
+        "value": 80,
+        "source": "https://www.samsung.com/uk/memory-storage/nvme-ssd/990-pro-1tb-nvme-pcie-gen-4-mz-v9p1t0bw/",
+        "publisher": "Samsung",
+        "checked": "2026-10-09",
+        "model": "MZ-V9P1T0BW",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "capacity": {
+        "value": 1000,
+        "source": "https://www.samsung.com/uk/memory-storage/nvme-ssd/990-pro-1tb-nvme-pcie-gen-4-mz-v9p1t0bw/",
+        "publisher": "Samsung",
+        "checked": "2026-10-09",
+        "model": "MZ-V9P1T0BW",
+        "status": "manufacturer-specified",
+        "exact": true
+      }
+    }
+  },
+  "selectedProductCounts": 1216,
+  "status": "implementation-prepared-not-deployed",
+  "review": {
+    "evidenceCheckedBy": "Codex source inspection",
+    "humanEditorialReview": null,
+    "productionDeployment": null
+  },
+  "limitations": [
+    "Registry covers a small exact-model cohort; inherited catalog fields remain unverified.",
+    "No exact BIOS/CPU minimum-version dataset, cooler selector or electrical/physical inspection is claimed.",
+    "Current checked offers lack a continuously refreshed authorized feed and default to unavailable.",
+    "3D assets do not establish geometry or compatibility."
+  ]
+}

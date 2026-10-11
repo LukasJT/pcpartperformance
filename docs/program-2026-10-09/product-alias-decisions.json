@@ -1,0 +1,41 @@
+{
+  "version": "2026-10-09.1",
+  "policy": "Stable catalog IDs are authoritative. Matching names produce review candidates, never automatic aliases. Revisions, regions, capacity variants and partner cards remain distinct. Unknown is not equal.",
+  "aliases": [
+    {
+      "from": "c-board-msi-mag-b850-tomahawk-max-wifi",
+      "to": "b850tomahawk",
+      "decision": "needs_variant_review",
+      "scope": "named_model_only",
+      "evidence": [
+        "https://www.msi.com/Motherboard/MAG-B850-TOMAHAWK-MAX-WIFI/Specification",
+        "https://us-store.msi.com/MAG-B850-TOMAHAWK-MAX-WIFI"
+      ],
+      "finding": "Both local records name the MSI MAG B850 TOMAHAWK MAX WIFI. The generic component record explicitly lacks a regional SKU/revision and came from a family listing. Official exact-model pages confirm the named model, but do not prove that every unspecified regional/revision identity in the legacy family record is interchangeable.",
+      "action": "Retain both IDs and self canonicals. Link the better documented named model as a related record. Review exact model code/revision from the legacy data source before approving a permanent alias.",
+      "review": { "status": "needs_human_review", "kind": "source_checked_by_agent", "date": "2026-10-09", "reviewer": null }
+    },
+    {
+      "from": "c-board-msi-mag-b650-tomahawk-wifi",
+      "to": "b650",
+      "decision": "needs_variant_review",
+      "scope": "named_model_only",
+      "evidence": [
+        "https://www.msi.com/Motherboard/MAG-B650-TOMAHAWK-WIFI/Specification",
+        "https://us-store.msi.com/MAG-B650-TOMAHAWK-WIFI"
+      ],
+      "finding": "The names agree with official model documentation. The legacy manufacturer-family record has no exact regional SKU or revision. Name agreement alone is insufficient for an automatic saved-build or product-URL migration.",
+      "action": "Retain IDs until the exact identity is reviewed. No destructive consolidation or HTTP redirect is enabled.",
+      "review": { "status": "needs_human_review", "kind": "source_checked_by_agent", "date": "2026-10-09", "reviewer": null }
+    }
+  ],
+  "known_distinct": [
+    { "ids": ["rtx5070", "retail-msi-geforce-rtx-5070-12g-ventus-3x-oc"], "reason": "Base GPU specification versus MSI partner card G5070-12V3C; different physical dimensions and clocks." },
+    { "ids": ["rtx3050", "rtx30506"], "reason": "8 GB and 6 GB variants have different memory interfaces, core counts and power specifications." },
+    { "ids": ["rtx3060", "retail-msi-geforce-rtx-3060-ventus-2x-8g-oc", "retail-msi-geforce-rtx-3060-ventus-2x-12g-oc", "retail-msi-geforce-rtx-3060-ventus-2x-12g"], "reason": "Base GPU versus exact partner cards; 8 GB versus 12 GB and OC versus non-OC remain separate." },
+    { "ids": ["retail-corsair-4000d-black", "x-case-corsair-4000d-airflow", "x-case-corsair-frame-4000d"], "reason": "Original solid-front 4000D, 4000D Airflow and FRAME 4000D are different case designs." },
+    { "ids": ["b650aorus", "c-board-gigabyte-b650-aorus-elite-ax"], "reason": "The documented record cites rev 1.2; the other has no revision. Do not equate unknown revision with rev 1.2." },
+    { "ids": ["focusgx850", "c-psu-seasonic-focus-gx-850"], "reason": "FOCUS GX naming spans revisions; one record lacks a revision and one lists 2024. Wattage and a shared name do not establish the same connectors or generation." },
+    { "ids": ["x-phone-iphone-13", "iphone-13"], "reason": "Regional manufacturer pages and storage/SIM code are unresolved. Do not merge a family record into a specific phone cohort on name alone." }
+  ]
+}

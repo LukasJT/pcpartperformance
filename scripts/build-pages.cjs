@@ -6,12 +6,25 @@ const blogMigration=require('./blog-migration.cjs');
 const peripheralModels=require('./peripheral-models.json');
 require('./phone-catalog.cjs')();
 const root=path.resolve('dist'),context={window:{},document:{querySelector(){}}};vm.createContext(context);
+require('./prepare-program.cjs')(root);
 for(const file of ['data','history-data','universe-data','component-data','core','retail-data','phone-catalog'])vm.runInContext(fs.readFileSync(path.join(root,file+'.js'),'utf8'),context);
 vm.runInContext('globalThis.records=catalog;globalThis.unitMap=units;globalThis.groups=categories;',context);
 const records=context.records,images=require('./apply-verified-photos.cjs')(records);
+// A previous intermediate model batch wrote product files before its catalog aliases
+// were settled. Keep old stable IDs; turn only those generated phone remnants into
+// redirects to the existing catalog record instead of indexing a duplicate product.
+for(const phone of require('./phone-data.cjs')){
+ if(records.some(p=>p.id===phone.id))continue;
+ const aliases=require('./phone-models.json')[phone.id]?.ids||[];
+ const existing=records.find(p=>p.cat==='phone'&&aliases.includes(p.id));
+ if(!existing)continue;
+ const file=path.join(root,'learn',phone.id+'.html'),target='https://www.pcpartperformance.com/learn/'+existing.id+'.html';
+ if(fs.existsSync(file))fs.writeFileSync(file,'<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Product page moved</title><link rel="canonical" href="'+target+'"><meta http-equiv="refresh" content="0;url='+target+'"></head><body data-legacy-redirect><p><a href="'+target+'">Continue to the product page</a></p></body></html>');
+}
+const imageDelivery=require('./program-image-delivery.cjs');
 // Browsing and builder pages only need the image URL and pictured identity. Attribution
 // remains on product/compare pages; do not transfer the full source registry to every tool.
-fs.writeFileSync(path.join(root,'image-catalog-lite.js'),'window.PCP_IMAGES='+JSON.stringify(Object.fromEntries(records.filter(p=>images[p.id]).map(p=>[p.id,{src:images[p.id].src,picturedModel:images[p.id].picturedModel}]))).replace(/</g,'\\u003c')+';');
+fs.writeFileSync(path.join(root,'image-catalog-lite.js'),'window.PCP_IMAGES='+JSON.stringify(Object.fromEntries(records.filter(p=>images[p.id]).map(p=>[p.id,{src:imageDelivery.source(p.id,images[p.id],root),picturedModel:images[p.id].picturedModel}]))).replace(/</g,'\\u003c')+';');
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const mark='<svg viewBox="0 0 40 40" fill="none" aria-hidden="true"><path d="M9 29V12a4 4 0 0 1 4-4h8a7 7 0 0 1 0 14h-5" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><path d="M20 32V19a4 4 0 0 1 4-4h3a6 6 0 0 1 0 12h-2" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg>';
 const arrow='<span aria-hidden="true">↗</span>';
@@ -95,5 +108,11 @@ require("./seo-launch.cjs")({root,records,images,groups:context.groups,shell,esc
 require("./publication.cjs")({root,records,images,groups:context.groups,shell,esc,write});
 require("./phone-pages.cjs")({root,images,esc});
 require("./shopping-pages.cjs")({root,records,images,groups:context.groups,shell,esc,write});
-
+require("./program-site.cjs")({root,records,images,shell,write,esc});
+require("./continuation-site.cjs")({root,records,images,shell,write,esc});
+if(require('fs').existsSync(require('path').join(__dirname,'continuation-editorial.cjs')))require("./continuation-editorial.cjs")({root,records,images,shell,write,esc});
+require("./extend-program.cjs")({root,records});
+require("./review-video-pages.cjs")({root,esc});
+require("./continuation-site.cjs").decorate(root);
 require("./seo-pass.cjs")({root,records,shell,write,esc});
+require("./program-routing.cjs").buildManifest({root,records});

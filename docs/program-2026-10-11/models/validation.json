@@ -1,0 +1,527 @@
+{
+  "checkedAt": "2026-10-11T18:35:11.370Z",
+  "validatorVersion": "2.0.0-dev.3.10",
+  "method": "Khronos glTF structural validation plus glTF-Transform Meshopt decode, finite accessor scan, post-transform bounds and source registry/data/render joins. The Khronos validator cannot inspect EXT_meshopt_compression internals; decoded geometry is checked separately.",
+  "phoneDataRecords": 43,
+  "phoneModelMappings": 42,
+  "phoneModelOrphans": [],
+  "assets": [
+    {
+      "id": "iphone-13-pro",
+      "asset": "sketchfab-iphone-13-pro.glb",
+      "bytes": 224072,
+      "numErrors": 0,
+      "numWarnings": 0,
+      "numInfos": 1,
+      "issueCodes": {
+        "UNSUPPORTED_EXTENSION": 1
+      },
+      "decodedFiniteValues": 252877,
+      "bounds": {
+        "min": [
+          -37.2894770334747,
+          -73.35021970790204,
+          -5.493193701748533
+        ],
+        "max": [
+          37.2894770334747,
+          73.3499999993787,
+          5.488938960528246
+        ]
+      }
+    },
+    {
+      "id": "iphone-13-pro-max",
+      "asset": "sketchfab-iphone-13-pro-max.glb",
+      "bytes": 232508,
+      "numErrors": 0,
+      "numWarnings": 0,
+      "numInfos": 1,
+      "issueCodes": {
+        "UNSUPPORTED_EXTENSION": 1
+      },
+      "decodedFiniteValues": 261357,
+      "bounds": {
+        "min": [
+          -39.55590681218821,
+          -80.40000000007035,
+          -5.140993140472638
+        ],
+        "max": [
+          39.55590681218821,
+          80.40000000000668,
+          5.1435337085730435
+        ]
+      }
+    },
+    {
+      "id": "galaxy-s22",
+      "asset": "sketchfab-galaxy-s22.glb",
+      "bytes": 2490712,
+      "numErrors": 0,
+      "numWarnings": 0,
+      "numInfos": 2,
+      "issueCodes": {
+        "UNSUPPORTED_EXTENSION": 1,
+        "UNUSED_OBJECT": 1
+      },
+      "decodedFiniteValues": 4600146,
+      "bounds": {
+        "min": [
+          -36.068538713118556,
+          -72.9999999989184,
+          -4.575238456186143
+        ],
+        "max": [
+          36.066682941620535,
+          72.9999999946675,
+          4.576859649978019
+        ]
+      }
+    },
+    {
+      "id": "galaxy-s22-ultra",
+      "asset": "sketchfab-galaxy-s22-ultra.glb",
+      "bytes": 198396,
+      "numErrors": 0,
+      "numWarnings": 0,
+      "numInfos": 2,
+      "issueCodes": {
+        "UNSUPPORTED_EXTENSION": 1,
+        "UNUSED_OBJECT": 1
+      },
+      "decodedFiniteValues": 259236,
+      "bounds": {
+        "min": [
+          -40.2860919462436,
+          -81.6545066756995,
+          -3.7990422070136702
+        ],
+        "max": [
+          40.28609194623129,
+          81.65450118510087,
+          3.7990422070136196
+        ]
+      }
+    },
+    {
+      "id": "galaxy-s20-ultra",
+      "asset": "sketchfab-galaxy-s20-ultra.glb",
+      "bytes": 674640,
+      "numErrors": 0,
+      "numWarnings": 0,
+      "numInfos": 1,
+      "issueCodes": {
+        "UNSUPPORTED_EXTENSION": 1
+      },
+      "decodedFiniteValues": 958767,
+      "bounds": {
+        "min": [
+          -38.998683126316116,
+          -83.45000000000002,
+          -5.254101218071495
+        ],
+        "max": [
+          38.998683126316116,
+          83.45000000000002,
+          5.254417170048709
+        ]
+      }
+    },
+    {
+      "id": "galaxy-s21-fe",
+      "asset": "sketchfab-galaxy-s21-fe.glb",
+      "bytes": 389336,
+      "numErrors": 0,
+      "numWarnings": 0,
+      "numInfos": 1,
+      "issueCodes": {
+        "UNSUPPORTED_EXTENSION": 1
+      },
+      "decodedFiniteValues": 297693,
+      "bounds": {
+        "min": [
+          -37.52205114902188,
+          -77.85,
+          -4.716510411991019
+        ],
+        "max": [
+          37.52205114902188,
+          77.85,
+          4.714177750723646
+        ]
+      }
+    },
+    {
+      "id": "iphone-11",
+      "asset": "sketchfab-iphone-11.glb",
+      "bytes": 785840,
+      "numErrors": 0,
+      "numWarnings": 0,
+      "numInfos": 1,
+      "issueCodes": {
+        "UNSUPPORTED_EXTENSION": 1
+      },
+      "decodedFiniteValues": 547092,
+      "bounds": {
+        "min": [
+          -38.26496475112156,
+          -75.45,
+          -4.9179688267645565
+        ],
+        "max": [
+          38.26496475112156,
+          75.45,
+          4.914470891562654
+        ]
+      }
+    },
+    {
+      "id": "iphone-11-pro",
+      "asset": "sketchfab-iphone-11-pro.glb",
+      "bytes": 53084,
+      "numErrors": 0,
+      "numWarnings": 0,
+      "numInfos": 1,
+      "issueCodes": {
+        "UNSUPPORTED_EXTENSION": 1
+      },
+      "decodedFiniteValues": 44327,
+      "bounds": {
+        "min": [
+          -36.10217596972563,
+          -71.99999999999999,
+          -4.9433753356703205
+        ],
+        "max": [
+          36.10217596972563,
+          71.99999999999999,
+          4.943375335670322
+        ]
+      }
+    },
+    {
+      "id": "iphone-11-pro-max",
+      "asset": "sketchfab-iphone-11-pro-max.glb",
+      "bytes": 716468,
+      "numErrors": 0,
+      "numWarnings": 0,
+      "numInfos": 1,
+      "issueCodes": {
+        "UNSUPPORTED_EXTENSION": 1
+      },
+      "decodedFiniteValues": 920392,
+      "bounds": {
+        "min": [
+          -38.707368826446945,
+          -79.0000008092661,
+          -4.970890791369386
+        ],
+        "max": [
+          38.71016609656934,
+          78.99245013414323,
+          4.9709827910839035
+        ]
+      }
+    },
+    {
+      "id": "iphone-6",
+      "asset": "sketchfab-iphone-6.glb",
+      "bytes": 1542856,
+      "numErrors": 0,
+      "numWarnings": 0,
+      "numInfos": 2,
+      "issueCodes": {
+        "UNSUPPORTED_EXTENSION": 1,
+        "UNUSED_OBJECT": 1
+      },
+      "decodedFiniteValues": 2413782,
+      "bounds": {
+        "min": [
+          -33.71895657216101,
+          -69.05000000016017,
+          -4.077791451343678
+        ],
+        "max": [
+          33.71895657216101,
+          69.05000000015934,
+          4.076165623182816
+        ]
+      }
+    },
+    {
+      "id": "iphone-8",
+      "asset": "sketchfab-iphone-8.glb",
+      "bytes": 103584,
+      "numErrors": 0,
+      "numWarnings": 0,
+      "numInfos": 7,
+      "issueCodes": {
+        "UNSUPPORTED_EXTENSION": 1,
+        "NODE_EMPTY": 1,
+        "UNUSED_OBJECT": 5
+      },
+      "decodedFiniteValues": 134538,
+      "bounds": {
+        "min": [
+          -34.04562669109745,
+          -69.199999999505,
+          -3.770946856181383
+        ],
+        "max": [
+          34.04562669109745,
+          69.19999999981438,
+          3.768056058263297
+        ]
+      }
+    },
+    {
+      "id": "iphone-8-plus",
+      "asset": "sketchfab-iphone-8-plus.glb",
+      "bytes": 982440,
+      "numErrors": 0,
+      "numWarnings": 0,
+      "numInfos": 1,
+      "issueCodes": {
+        "UNSUPPORTED_EXTENSION": 1
+      },
+      "decodedFiniteValues": 2015636,
+      "bounds": {
+        "min": [
+          -39.374378632905476,
+          -79.1999982479758,
+          -3.129796179286464
+        ],
+        "max": [
+          39.37440679813356,
+          79.17345432750683,
+          3.131817439984388
+        ]
+      }
+    },
+    {
+      "id": "iphone-12-mini",
+      "asset": "sketchfab-iphone-12-mini.glb",
+      "bytes": 783292,
+      "numErrors": 0,
+      "numWarnings": 0,
+      "numInfos": 1,
+      "issueCodes": {
+        "UNSUPPORTED_EXTENSION": 1
+      },
+      "decodedFiniteValues": 725962,
+      "bounds": {
+        "min": [
+          -32.611176303521965,
+          -65.75000026653507,
+          -4.550529067369119
+        ],
+        "max": [
+          32.61117583681349,
+          65.75000068685671,
+          4.548047875201519
+        ]
+      }
+    },
+    {
+      "id": "iphone-xr",
+      "asset": "sketchfab-iphone-xr.glb",
+      "bytes": 318812,
+      "numErrors": 0,
+      "numWarnings": 0,
+      "numInfos": 1,
+      "issueCodes": {
+        "UNSUPPORTED_EXTENSION": 1
+      },
+      "decodedFiniteValues": 427324,
+      "bounds": {
+        "min": [
+          -38.32943815424055,
+          -75.45,
+          -4.934946693431913
+        ],
+        "max": [
+          38.32943815424055,
+          75.45,
+          4.941348810999665
+        ]
+      }
+    },
+    {
+      "id": "iphone-xs",
+      "asset": "sketchfab-iphone-xs.glb",
+      "bytes": 501088,
+      "numErrors": 0,
+      "numWarnings": 0,
+      "numInfos": 1,
+      "issueCodes": {
+        "UNSUPPORTED_EXTENSION": 1
+      },
+      "decodedFiniteValues": 531958,
+      "bounds": {
+        "min": [
+          -35.83610387682078,
+          -71.8,
+          -4.082788193044049
+        ],
+        "max": [
+          35.83610387682078,
+          71.79999999999998,
+          4.082788193044051
+        ]
+      }
+    },
+    {
+      "id": "galaxy-s10",
+      "asset": "sketchfab-galaxy-s10.glb",
+      "bytes": 415604,
+      "numErrors": 0,
+      "numWarnings": 0,
+      "numInfos": 2,
+      "issueCodes": {
+        "UNSUPPORTED_EXTENSION": 1,
+        "UNUSED_OBJECT": 1
+      },
+      "decodedFiniteValues": 662070,
+      "bounds": {
+        "min": [
+          -34.70592685854376,
+          -74.94919968120229,
+          -3.9737431511280916
+        ],
+        "max": [
+          34.705926851597546,
+          74.94984531653489,
+          3.973675025788992
+        ]
+      }
+    },
+    {
+      "id": "galaxy-s8",
+      "asset": "sketchfab-galaxy-s8.glb",
+      "bytes": 104504,
+      "numErrors": 0,
+      "numWarnings": 0,
+      "numInfos": 2,
+      "issueCodes": {
+        "UNSUPPORTED_EXTENSION": 1,
+        "UNUSED_OBJECT": 1
+      },
+      "decodedFiniteValues": 241936,
+      "bounds": {
+        "min": [
+          -34.33829309976501,
+          -74.44999999999997,
+          -3.9898129215369544
+        ],
+        "max": [
+          34.33829309976501,
+          74.44999999999997,
+          3.9898129215368563
+        ]
+      }
+    },
+    {
+      "id": "iphone-15-pro-max",
+      "asset": "sketchfab-iphone-15-pro-max.glb",
+      "bytes": 1682088,
+      "numErrors": 0,
+      "numWarnings": 0,
+      "numInfos": 1,
+      "issueCodes": {
+        "UNSUPPORTED_EXTENSION": 1
+      },
+      "decodedFiniteValues": 638387,
+      "bounds": {
+        "min": [
+          -38.94410046006672,
+          -79.95005260353152,
+          -6.170422065287446
+        ],
+        "max": [
+          38.94410046006672,
+          79.95,
+          6.170099343448024
+        ]
+      }
+    },
+    {
+      "id": "iphone-17-pro",
+      "asset": "sketchfab-iphone-17-pro.glb",
+      "bytes": 2434552,
+      "numErrors": 0,
+      "numWarnings": 0,
+      "numInfos": 9,
+      "issueCodes": {
+        "UNSUPPORTED_EXTENSION": 1,
+        "IMAGE_NPOT_DIMENSIONS": 8
+      },
+      "decodedFiniteValues": 536745,
+      "bounds": {
+        "min": [
+          -36.551255836664936,
+          -75,
+          -6.646750736456738
+        ],
+        "max": [
+          36.551255836664936,
+          75,
+          6.643464783150414
+        ]
+      }
+    },
+    {
+      "id": "iphone-17-pro-max",
+      "asset": "sketchfab-iphone-17-pro-max.glb",
+      "bytes": 252052,
+      "numErrors": 0,
+      "numWarnings": 0,
+      "numInfos": 1,
+      "issueCodes": {
+        "UNSUPPORTED_EXTENSION": 1
+      },
+      "decodedFiniteValues": 285586,
+      "bounds": {
+        "min": [
+          -39.22806752975079,
+          -81.7000000000175,
+          -6.442640315529174
+        ],
+        "max": [
+          39.22806753057894,
+          81.70000000016283,
+          6.442640315529184
+        ]
+      }
+    },
+    {
+      "id": "retail-msi-geforce-rtx-5070-12g-gaming-trio-oc",
+      "asset": "sketchfab-msi-rtx-5070-gaming-trio-oc.glb",
+      "bytes": 105756,
+      "numErrors": 0,
+      "numWarnings": 1,
+      "numInfos": 1,
+      "issueCodes": {
+        "UNSUPPORTED_EXTENSION": 1,
+        "MESH_PRIMITIVE_GENERATED_TANGENT_SPACE": 1
+      },
+      "decodedFiniteValues": 12633,
+      "bounds": {
+        "min": [
+          -0.026839397992283118,
+          -0.6179568280142881,
+          -1.2079205614203188
+        ],
+        "max": [
+          0.21959840378677975,
+          0.41755101433205566,
+          1.2079206778843201
+        ]
+      }
+    }
+  ],
+  "completedMappings": 21,
+  "uniqueNewAssets": 21,
+  "errors": 0,
+  "warnings": 1
+}

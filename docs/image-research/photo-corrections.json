@@ -1,6 +1,6 @@
 {
-  "verifiedOverrides": 79,
-  "verifiedMappings": 84,
+  "verifiedOverrides": 80,
+  "verifiedMappings": 86,
   "unresolvedMappings": [
     {
       "id": "b450",
@@ -885,12 +885,6 @@
       "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
     },
     {
-      "id": "s23ultra",
-      "name": "Galaxy S23 Ultra",
-      "picturedModel": "Samsung Galaxy S24",
-      "oldAsset": "/assets/hardware/device-new-device-4.webp"
-    },
-    {
       "id": "rtx4070ti",
       "name": "GeForce RTX 4070 Ti",
       "picturedModel": "ASUS TUF GeForce RTX 4080 SUPER OC",
@@ -1173,12 +1167,6 @@
       "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
     },
     {
-      "id": "s22ultra",
-      "name": "Galaxy S22 Ultra",
-      "picturedModel": "Samsung Galaxy S24",
-      "oldAsset": "/assets/hardware/device-new-device-4.webp"
-    },
-    {
       "id": "intel8008",
       "name": "Intel 8008",
       "picturedModel": "Intel C8008-1",
@@ -1413,12 +1401,6 @@
       "oldAsset": "/assets/hardware/device-new-device-34.webp"
     },
     {
-      "id": "x-phone-iphone-6",
-      "name": "iPhone 6",
-      "picturedModel": "Apple iPhone 4",
-      "oldAsset": "/assets/hardware/device-new-device-34.webp"
-    },
-    {
       "id": "x-phone-iphone-6-plus",
       "name": "iPhone 6 Plus",
       "picturedModel": "Apple iPhone 4",
@@ -1449,50 +1431,8 @@
       "oldAsset": "/assets/hardware/device-new-device-34.webp"
     },
     {
-      "id": "x-phone-iphone-8",
-      "name": "iPhone 8",
-      "picturedModel": "Apple iPhone 4",
-      "oldAsset": "/assets/hardware/device-new-device-34.webp"
-    },
-    {
-      "id": "x-phone-iphone-8-plus",
-      "name": "iPhone 8 Plus",
-      "picturedModel": "Apple iPhone 4",
-      "oldAsset": "/assets/hardware/device-new-device-34.webp"
-    },
-    {
-      "id": "x-phone-iphone-xr",
-      "name": "iPhone XR",
-      "picturedModel": "iPhone 15 Pro",
-      "oldAsset": "/assets/hardware/device-new-device-1.webp"
-    },
-    {
-      "id": "x-phone-iphone-xs",
-      "name": "iPhone XS",
-      "picturedModel": "iPhone 15 Pro",
-      "oldAsset": "/assets/hardware/device-new-device-1.webp"
-    },
-    {
       "id": "x-phone-iphone-xs-max",
       "name": "iPhone XS Max",
-      "picturedModel": "iPhone 15 Pro",
-      "oldAsset": "/assets/hardware/device-new-device-1.webp"
-    },
-    {
-      "id": "x-phone-iphone-11",
-      "name": "iPhone 11",
-      "picturedModel": "iPhone 15 Pro",
-      "oldAsset": "/assets/hardware/device-new-device-1.webp"
-    },
-    {
-      "id": "x-phone-iphone-11-pro",
-      "name": "iPhone 11 Pro",
-      "picturedModel": "iPhone 15 Pro",
-      "oldAsset": "/assets/hardware/device-new-device-1.webp"
-    },
-    {
-      "id": "x-phone-iphone-11-pro-max",
-      "name": "iPhone 11 Pro Max",
       "picturedModel": "iPhone 15 Pro",
       "oldAsset": "/assets/hardware/device-new-device-1.webp"
     },
@@ -1501,12 +1441,6 @@
       "name": "iPhone SE (2nd generation)",
       "picturedModel": "Apple iPhone 4",
       "oldAsset": "/assets/hardware/device-new-device-34.webp"
-    },
-    {
-      "id": "x-phone-iphone-12-mini",
-      "name": "iPhone 12 mini",
-      "picturedModel": "iPhone 15 Pro",
-      "oldAsset": "/assets/hardware/device-new-device-1.webp"
     },
     {
       "id": "x-phone-iphone-12",
@@ -1529,12 +1463,6 @@
     {
       "id": "x-phone-iphone-13",
       "name": "iPhone 13",
-      "picturedModel": "iPhone 15 Pro",
-      "oldAsset": "/assets/hardware/device-new-device-1.webp"
-    },
-    {
-      "id": "x-phone-iphone-13-pro-max",
-      "name": "iPhone 13 Pro Max",
       "picturedModel": "iPhone 15 Pro",
       "oldAsset": "/assets/hardware/device-new-device-1.webp"
     },
@@ -1605,18 +1533,6 @@
       "oldAsset": "/assets/hardware/device-new-device-1.webp"
     },
     {
-      "id": "x-phone-iphone-17-pro",
-      "name": "iPhone 17 Pro",
-      "picturedModel": "iPhone 15 Pro",
-      "oldAsset": "/assets/hardware/device-new-device-1.webp"
-    },
-    {
-      "id": "x-phone-iphone-17-pro-max",
-      "name": "iPhone 17 Pro Max",
-      "picturedModel": "iPhone 15 Pro",
-      "oldAsset": "/assets/hardware/device-new-device-1.webp"
-    },
-    {
       "id": "x-phone-iphone-17e",
       "name": "iPhone 17e",
       "picturedModel": "iPhone 15 Pro",
@@ -1677,12 +1593,6 @@
       "oldAsset": "/assets/hardware/device-new-device-2.webp"
     },
     {
-      "id": "x-phone-samsung-galaxy-s8",
-      "name": "Samsung Galaxy S8",
-      "picturedModel": "Samsung Galaxy S24",
-      "oldAsset": "/assets/hardware/device-new-device-4.webp"
-    },
-    {
       "id": "x-phone-samsung-galaxy-s8-2017",
       "name": "Samsung Galaxy S8+",
       "picturedModel": "Samsung Galaxy S24",
@@ -1703,12 +1613,6 @@
     {
       "id": "x-phone-samsung-galaxy-s10e",
       "name": "Samsung Galaxy S10e",
-      "picturedModel": "Samsung Galaxy S24",
-      "oldAsset": "/assets/hardware/device-new-device-4.webp"
-    },
-    {
-      "id": "x-phone-samsung-galaxy-s10",
-      "name": "Samsung Galaxy S10",
       "picturedModel": "Samsung Galaxy S24",
       "oldAsset": "/assets/hardware/device-new-device-4.webp"
     },
@@ -1737,44 +1641,14 @@
       "oldAsset": "/assets/hardware/device-new-device-4.webp"
     },
     {
-      "id": "x-phone-samsung-galaxy-s20-ultra",
-      "name": "Samsung Galaxy S20 Ultra",
-      "picturedModel": "Samsung Galaxy S24",
-      "oldAsset": "/assets/hardware/device-new-device-4.webp"
-    },
-    {
       "id": "x-phone-samsung-galaxy-s20-fe",
       "name": "Samsung Galaxy S20 FE",
       "picturedModel": "Samsung Galaxy S24",
       "oldAsset": "/assets/hardware/device-new-device-4.webp"
     },
     {
-      "id": "x-phone-samsung-galaxy-s21",
-      "name": "Samsung Galaxy S21",
-      "picturedModel": "Samsung Galaxy S24",
-      "oldAsset": "/assets/hardware/device-new-device-4.webp"
-    },
-    {
       "id": "x-phone-samsung-galaxy-s21-2021",
       "name": "Samsung Galaxy S21+",
-      "picturedModel": "Samsung Galaxy S24",
-      "oldAsset": "/assets/hardware/device-new-device-4.webp"
-    },
-    {
-      "id": "x-phone-samsung-galaxy-s21-ultra",
-      "name": "Samsung Galaxy S21 Ultra",
-      "picturedModel": "Samsung Galaxy S24",
-      "oldAsset": "/assets/hardware/device-new-device-4.webp"
-    },
-    {
-      "id": "x-phone-samsung-galaxy-s21-fe",
-      "name": "Samsung Galaxy S21 FE",
-      "picturedModel": "Samsung Galaxy S24",
-      "oldAsset": "/assets/hardware/device-new-device-4.webp"
-    },
-    {
-      "id": "x-phone-samsung-galaxy-s22",
-      "name": "Samsung Galaxy S22",
       "picturedModel": "Samsung Galaxy S24",
       "oldAsset": "/assets/hardware/device-new-device-4.webp"
     },
@@ -1959,12 +1833,6 @@
       "oldAsset": "/assets/hardware/device-new-device-42.webp"
     },
     {
-      "id": "x-phone-samsung-galaxy-z-flip3",
-      "name": "Samsung Galaxy Z Flip3",
-      "picturedModel": "Samsung Galaxy Z Flip5",
-      "oldAsset": "/assets/hardware/device-new-device-42.webp"
-    },
-    {
       "id": "x-phone-samsung-galaxy-z-flip4",
       "name": "Samsung Galaxy Z Flip4",
       "picturedModel": "Samsung Galaxy Z Flip5",
@@ -2043,32 +1911,8 @@
       "oldAsset": "/assets/hardware/device-new-device-5.webp"
     },
     {
-      "id": "x-phone-google-pixel-5",
-      "name": "Google Pixel 5",
-      "picturedModel": "Google Pixel and Pixel XL",
-      "oldAsset": "/assets/hardware/device-new-device-5.webp"
-    },
-    {
       "id": "x-phone-google-pixel-5a",
       "name": "Google Pixel 5a",
-      "picturedModel": "Pixel 8",
-      "oldAsset": "/assets/hardware/device-new-device-3.webp"
-    },
-    {
-      "id": "x-phone-google-pixel-6",
-      "name": "Google Pixel 6",
-      "picturedModel": "Pixel 8",
-      "oldAsset": "/assets/hardware/device-new-device-3.webp"
-    },
-    {
-      "id": "x-phone-google-pixel-6-pro",
-      "name": "Google Pixel 6 Pro",
-      "picturedModel": "Google Pixel 8 Pro",
-      "oldAsset": "/assets/hardware/device-new-device-35.webp"
-    },
-    {
-      "id": "x-phone-google-pixel-6a",
-      "name": "Google Pixel 6a",
       "picturedModel": "Pixel 8",
       "oldAsset": "/assets/hardware/device-new-device-3.webp"
     },
@@ -2153,12 +1997,6 @@
     {
       "id": "x-phone-oneplus-6t",
       "name": "OnePlus 6T",
-      "picturedModel": "OnePlus One 64GB",
-      "oldAsset": "/assets/hardware/device-new-device-6.webp"
-    },
-    {
-      "id": "x-phone-oneplus-7-pro",
-      "name": "OnePlus 7 Pro",
       "picturedModel": "OnePlus One 64GB",
       "oldAsset": "/assets/hardware/device-new-device-6.webp"
     },
@@ -2691,12 +2529,6 @@
       "oldAsset": "/assets/illustrations/retail-asus-prime-h510m-k.svg"
     },
     {
-      "id": "retail-msi-geforce-rtx-5070-12g-gaming-trio-oc",
-      "name": "GeForce RTX 5070 12G GAMING TRIO OC",
-      "picturedModel": "GeForce RTX 5070 12G GAMING TRIO OC — simplified illustration",
-      "oldAsset": "/assets/illustrations/retail-msi-geforce-rtx-5070-12g-gaming-trio-oc.svg"
-    },
-    {
       "id": "retail-msi-geforce-rtx-3060-ventus-2x-12g",
       "name": "GeForce RTX 3060 VENTUS 2X 12G",
       "picturedModel": "GeForce RTX 3060 VENTUS 2X 12G — simplified illustration",
@@ -2749,18 +2581,6 @@
       "name": "B550 AORUS ELITE V2",
       "picturedModel": "B550 AORUS ELITE V2 — simplified illustration",
       "oldAsset": "/assets/illustrations/retail-gigabyte-b550-aorus-elite-v2.svg"
-    },
-    {
-      "id": "iphone-13",
-      "name": "iPhone 13"
-    },
-    {
-      "id": "galaxy-a23-5g",
-      "name": "Galaxy A23 5G"
-    },
-    {
-      "id": "galaxy-s3",
-      "name": "Galaxy S III"
     }
   ],
   "policy": "Do not show another CPU, motherboard or graphics chip as the selected product. Genuine same-chip partner images explicitly name the photographed variant. Unverified products retain specifications with an image-unavailable state."

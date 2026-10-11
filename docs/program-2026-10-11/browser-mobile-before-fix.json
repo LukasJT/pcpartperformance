@@ -1,0 +1,69 @@
+{
+  "recordedAt": "2026-10-11T18:43:07.442Z",
+  "scope": "Three settled 390x844 empty-builder reloads in the connected in-app browser on a gzip/no-store local server. Unthrottled; font caches and observation windows are not controlled. No field INP/p75 or real-host improvement claim.",
+  "runs": [
+    {
+      "headerHeight": 116.9375,
+      "metrics": {
+        "cls": 0.061495225789367294,
+        "domContentLoaded": 411,
+        "environment": "unthrottled local browser; not field Core Web Vitals",
+        "lcp": 1296,
+        "longTaskMs": 108,
+        "longTasks": 1,
+        "resourceTransfer": 178823,
+        "resources": 36,
+        "sampleWindowMs": 19390.5,
+        "serverWait": 2.800000000745058,
+        "threeDRequests": 0,
+        "viewport": {
+          "height": 844,
+          "width": 390
+        }
+      },
+      "overflow": -10
+    },
+    {
+      "headerHeight": 116.9375,
+      "metrics": {
+        "cls": 0.061495225789367294,
+        "domContentLoaded": 369.30000000074506,
+        "environment": "unthrottled local browser; not field Core Web Vitals",
+        "lcp": 1616,
+        "longTaskMs": 94,
+        "longTasks": 1,
+        "resourceTransfer": 178823,
+        "resources": 36,
+        "sampleWindowMs": 54354.90000000037,
+        "serverWait": 2.799999998882413,
+        "threeDRequests": 0,
+        "viewport": {
+          "height": 844,
+          "width": 390
+        }
+      },
+      "overflow": -10
+    },
+    {
+      "headerHeight": 116.9375,
+      "metrics": {
+        "cls": 0.13434778413262105,
+        "domContentLoaded": 371.2999999988824,
+        "environment": "unthrottled local browser; not field Core Web Vitals",
+        "lcp": 1160,
+        "longTaskMs": 91,
+        "longTasks": 1,
+        "resourceTransfer": 178823,
+        "resources": 36,
+        "sampleWindowMs": 57864.29999999888,
+        "serverWait": 2.5,
+        "threeDRequests": 0,
+        "viewport": {
+          "height": 844,
+          "width": 390
+        }
+      },
+      "overflow": -10
+    }
+  ]
+}

@@ -9,15 +9,15 @@
     "Inherited fields have not all been independently reverified.",
     "No individual images or 3D assets are relicensed by this aggregate report."
   ],
-  "total": 1213,
+  "total": 1216,
   "categories": [
     {
       "id": "gpu",
       "label": "Graphics cards",
       "items": 164,
       "atLeastThreeSpecs": 145,
-      "strictExactImages": 24,
-      "missingImages": 106
+      "strictExactImages": 25,
+      "missingImages": 105
     },
     {
       "id": "cpu",
@@ -30,9 +30,9 @@
     {
       "id": "board",
       "label": "Motherboards",
-      "items": 116,
-      "atLeastThreeSpecs": 90,
-      "strictExactImages": 32,
+      "items": 117,
+      "atLeastThreeSpecs": 91,
+      "strictExactImages": 33,
       "missingImages": 80
     },
     {
@@ -126,18 +126,18 @@
     {
       "id": "console",
       "label": "Consoles",
-      "items": 62,
+      "items": 64,
       "atLeastThreeSpecs": 14,
-      "strictExactImages": 8,
+      "strictExactImages": 10,
       "missingImages": 0
     },
     {
       "id": "phone",
       "label": "Phones",
       "items": 175,
-      "atLeastThreeSpecs": 28,
+      "atLeastThreeSpecs": 46,
       "strictExactImages": 13,
-      "missingImages": 144
+      "missingImages": 114
     },
     {
       "id": "handheld",
@@ -156,5 +156,5 @@
       "missingImages": 0
     }
   ],
-  "version": "4309e68bd0dd"
+  "version": "78beea7a8d2d"
 }

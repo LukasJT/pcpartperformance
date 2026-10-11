@@ -1,0 +1,211 @@
+[
+  {
+    "id": "SEO-1",
+    "urls": [
+      "https://developers.google.com/search/docs/fundamentals/creating-helpful-content"
+    ],
+    "publisher": "Google",
+    "inspected": "2026-10-09",
+    "interpretation": "Useful original decisions and transparent evidence; no word-count or keyword-density rule.",
+    "materialChange": null
+  },
+  {
+    "id": "SEO-2",
+    "urls": [
+      "https://developers.google.com/search/docs/specialty/ecommerce/write-high-quality-reviews"
+    ],
+    "publisher": "Google",
+    "inspected": "2026-10-09",
+    "interpretation": "Research summaries must not pretend to be first-party tested reviews.",
+    "materialChange": null
+  },
+  {
+    "id": "SEO-3",
+    "urls": [
+      "https://developers.google.com/search/docs/essentials/spam-policies"
+    ],
+    "publisher": "Google",
+    "inspected": "2026-10-09",
+    "interpretation": "No uncontrolled generated matrix, misleading authorship, hidden text or fake activity.",
+    "materialChange": null
+  },
+  {
+    "id": "SEO-4",
+    "urls": [
+      "https://developers.google.com/search/docs/fundamentals/get-started-developers"
+    ],
+    "publisher": "Google",
+    "inspected": "2026-10-09",
+    "interpretation": "Ordinary crawlable links, HTML content, status codes and accessible rendering.",
+    "materialChange": null
+  },
+  {
+    "id": "SEO-5",
+    "urls": [
+      "https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics"
+    ],
+    "publisher": "Google",
+    "inspected": "2026-10-09",
+    "interpretation": "Important content and indexing controls should not depend only on later client execution.",
+    "materialChange": null
+  },
+  {
+    "id": "SEO-6",
+    "urls": [
+      "https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls",
+      "https://developers.google.com/search/docs/crawling-indexing/canonicalization"
+    ],
+    "publisher": "Google",
+    "inspected": "2026-10-09",
+    "interpretation": "Canonicalization reflects exact identities and equivalent pages; it is neither a crawl block nor a universal duplicate penalty.",
+    "materialChange": null
+  },
+  {
+    "id": "SEO-7",
+    "urls": [
+      "https://developers.google.com/crawling/docs/faceted-navigation"
+    ],
+    "publisher": "Google",
+    "inspected": "2026-10-09",
+    "interpretation": "Bound state and filter discovery. Query-state noindex does not prevent crawling.",
+    "materialChange": null
+  },
+  {
+    "id": "SEO-8",
+    "urls": [
+      "https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap",
+      "https://developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl"
+    ],
+    "publisher": "Google",
+    "inspected": "2026-10-09",
+    "interpretation": "Sitemaps contain intended canonical indexable URLs. Submission and recrawl requests do not guarantee indexing.",
+    "materialChange": null
+  },
+  {
+    "id": "SEO-9",
+    "urls": [
+      "https://developers.google.com/search/docs/crawling-indexing/links-crawlable",
+      "https://developers.google.com/search/docs/crawling-indexing/qualify-outbound-links"
+    ],
+    "publisher": "Google",
+    "inspected": "2026-10-09",
+    "interpretation": "Use descriptive anchors. Qualify commercial/user links appropriately, ordinary citations remain normal.",
+    "materialChange": null
+  },
+  {
+    "id": "SEO-10",
+    "urls": [
+      "https://developers.google.com/search/docs/appearance/title-link",
+      "https://developers.google.com/search/docs/appearance/snippet"
+    ],
+    "publisher": "Google",
+    "inspected": "2026-10-09",
+    "interpretation": "Descriptive accurate titles and summaries, no automatic year suffix or fixed ranking length target.",
+    "materialChange": null
+  },
+  {
+    "id": "SEO-11",
+    "urls": [
+      "https://developers.google.com/search/docs/appearance/structured-data/product-snippet",
+      "https://developers.google.com/search/docs/appearance/structured-data/search-gallery"
+    ],
+    "publisher": "Google",
+    "inspected": "2026-10-09",
+    "interpretation": "Product information without an eligible offer/review is not a promise of a product rich result. No invented ratings, stock or direct-merchant status.",
+    "materialChange": null
+  },
+  {
+    "id": "SEO-12",
+    "urls": [
+      "https://developers.google.com/search/updates"
+    ],
+    "publisher": "Google",
+    "inspected": "2026-10-09",
+    "interpretation": "FAQ rich-result support ended May 7, 2026. Do not add retired FAQ/HowTo promises. October 1 generative-AI content guidance update inspected.",
+    "materialChange": "FAQ rich-result support ended May 7, 2026. Do not add retired FAQ/HowTo promises. October 1 generative-AI content guidance update inspected."
+  },
+  {
+    "id": "SEO-13",
+    "urls": [
+      "https://developers.google.com/search/docs/specialty/international/localized-versions",
+      "https://developers.google.com/search/docs/specialty/international/locale-adaptive-pages"
+    ],
+    "publisher": "Google",
+    "inspected": "2026-10-09",
+    "interpretation": "No automatic location redirects or pretend CAD/USD equivalents. Region remains an explicit selection; no duplicated regional article program or hreflang invented.",
+    "materialChange": null
+  },
+  {
+    "id": "SEO-14",
+    "urls": [
+      "https://www.indexnow.org/documentation",
+      "https://developers.google.com/search/apis/indexing-api/v3/using-api"
+    ],
+    "publisher": "IndexNow / Google",
+    "inspected": "2026-10-09",
+    "interpretation": "IndexNow is for participating engines; Google’s Indexing API is restricted and not used for ordinary hardware articles.",
+    "materialChange": null
+  },
+  {
+    "id": "SEO-15",
+    "urls": [
+      "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide"
+    ],
+    "publisher": "Google",
+    "inspected": "2026-10-09",
+    "interpretation": "Ordinary SEO remains the foundation. No special AI schema, wording recipe or llms.txt requirement for Google’s generative search.",
+    "materialChange": "Ordinary SEO remains the foundation. No special AI schema, wording recipe or llms.txt requirement for Google’s generative search."
+  },
+  {
+    "id": "SEO-16",
+    "urls": [
+      "https://developers.google.com/search/docs/appearance/google-images",
+      "https://developers.google.com/search/docs/appearance/google-discover"
+    ],
+    "publisher": "Google",
+    "inspected": "2026-10-09",
+    "interpretation": "Use representative licensed assets, meaningful alt text and reserved dimensions. Discover is supplemental and unpredictable.",
+    "materialChange": null
+  },
+  {
+    "id": "SEO-17",
+    "urls": [
+      "https://web.dev/articles/vitals",
+      "https://developers.google.com/search/docs/appearance/core-web-vitals"
+    ],
+    "publisher": "Google / web.dev",
+    "inspected": "2026-10-09",
+    "interpretation": "Field p75 targets remain LCP <=2.5s, INP <=200ms, CLS <=0.1. Local lab runs are not field INP or proof of p75 success.",
+    "materialChange": null
+  },
+  {
+    "id": "SEO-18",
+    "urls": [
+      "https://support.google.com/webmasters/answer/16984139"
+    ],
+    "publisher": "Google",
+    "inspected": "2026-10-09",
+    "interpretation": "Check actual available report metrics. AI impressions are not visits; property and URL aggregations overlap and must not be added.",
+    "materialChange": "Check actual available report metrics. AI impressions are not visits; property and URL aggregations overlap and must not be added."
+  },
+  {
+    "id": "SEO-19",
+    "urls": [
+      "https://developers.google.com/search/docs/monitor-debug/search-operators"
+    ],
+    "publisher": "Google",
+    "inspected": "2026-10-09",
+    "interpretation": "Public site: queries are not reliable index counts or ranking baselines.",
+    "materialChange": null
+  },
+  {
+    "id": "SEO-20",
+    "urls": [
+      "https://support.google.com/analytics/answer/12253918?hl=en"
+    ],
+    "publisher": "Google",
+    "inspected": "2026-10-09",
+    "interpretation": "User definitions depend on identity, consent, devices and date range. Summed daily users are not a perfect count of unique humans.",
+    "materialChange": null
+  }
+]

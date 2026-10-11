@@ -1,0 +1,234 @@
+{
+  "version": 1,
+  "updatedAt": "2026-10-11T18:57:33.401Z",
+  "deploymentAuthorized": true,
+  "tasks": [
+    {
+      "id": "P01",
+      "title": "Inspect repository, baseline and deployment",
+      "dependencies": [],
+      "files": [
+        "docs/program-2026-10-09/FINAL-REPORT.md",
+        "wrangler.jsonc"
+      ],
+      "status": "verified",
+      "evidence": "Existing repository/stack/instructions and production branch dc8200c verified. Cloudflare dashboard expired; owner authorized Git deployment.",
+      "tests": [
+        "git status",
+        "git ls-remote production branch",
+        "public release marker baseline 404"
+      ]
+    },
+    {
+      "id": "P02",
+      "title": "Navigation, Phones hub and homepage",
+      "dependencies": [
+        "P01"
+      ],
+      "files": [
+        "scripts/continuation-site.cjs",
+        "scripts/continuation.css",
+        "scripts/continuation-ui.js"
+      ],
+      "status": "verified",
+      "evidence": "Shared Phones/Prebuilt destinations, route-scoped CSS, two-row mobile header and fully visible Explore menu verified at 360/390px. Escape closes the menu.",
+      "tests": [
+        "9 continuation integration checks",
+        "mobile and desktop actual navigation"
+      ]
+    },
+    {
+      "id": "P03",
+      "title": "Phone size/specification/3D state and sharing",
+      "dependencies": [
+        "P02"
+      ],
+      "files": [
+        "scripts/phone-comparison.js",
+        "scripts/phone-preview-controller.js",
+        "scripts/phone-scene.js"
+      ],
+      "status": "verified",
+      "evidence": "43 canonical phones, three comparison modes, opt-in linked rotation, actual 3D angle controls and collapsible truthful creator credits.",
+      "tests": [
+        "Final phone-preview identity/size/loading checks passed",
+        "actual mobile model load/front/back/credits",
+        "catalog search and pointer/keyboard model filter"
+      ]
+    },
+    {
+      "id": "P04",
+      "title": "Builder workspace and accessible selectors",
+      "dependencies": [
+        "P01"
+      ],
+      "files": [
+        "scripts/program-builder.cjs",
+        "scripts/builder-workspace.css",
+        "scripts/builder-workspace.js",
+        "scripts/builder-selectors.js"
+      ],
+      "status": "verified",
+      "evidence": "Choose/inspect/review workspace, empty initial selections, stable readiness placement, modern selectors, ownership/locks and exact selection sharing.",
+      "tests": [
+        "10 builder workspace checks",
+        "18 builder program checks",
+        "desktop/mobile empty/starter/selector/save/share journeys"
+      ]
+    },
+    {
+      "id": "P05",
+      "title": "Shared morning-price backend",
+      "dependencies": [
+        "P01"
+      ],
+      "files": [
+        "scripts/morning-price-service.mjs",
+        "migrations/0001_morning_prices.sql"
+      ],
+      "status": "code_complete_activation_blocked",
+      "evidence": "Tested daily observation service, 15-minute response cache and durable schema. No source account/authorization, exact targets, D1 binding or cron configured; no automatic prices.",
+      "tests": [
+        "22 morning service checks",
+        "30 consumer/Worker checks"
+      ]
+    },
+    {
+      "id": "P06",
+      "title": "Prebuilt cohort and Build vs Buy",
+      "dependencies": [
+        "P02",
+        "P05"
+      ],
+      "files": [
+        "scripts/prebuilt-data.cjs",
+        "scripts/prebuilt-pages.cjs",
+        "scripts/prebuilt-ui.js"
+      ],
+      "status": "verified",
+      "evidence": "9 exact researched CA/US systems, unknown offers, max-three shortlist and full-cost manual worksheet with separate countries.",
+      "tests": [
+        "30 consumer/Worker checks",
+        "actual regional filtering/comparison/equal quotes/country switch"
+      ]
+    },
+    {
+      "id": "P07",
+      "title": "Real model research and integrations",
+      "dependencies": [
+        "P01"
+      ],
+      "files": [
+        "scripts/sketchfab-models.json",
+        "scripts/phone-models.json",
+        "docs/program-2026-10-11/models/"
+      ],
+      "status": "verified",
+      "evidence": "21 new licensed models integrated (20 phones, 1 exact MSI GPU), 14,991,684 bytes. 12 additional renders of existing phone models fill missing thumbnails; 42/43 phones have registered models. Exact manufacturer MSI image added. No clearance-certification claim.",
+      "tests": [
+        "21 glTF structural/decode checks",
+        "60 front/back/side + 5 mobile + 3 GPU views",
+        "Final 21 model decode/validator checks: zero errors; one runtime-generated-tangent warning in the low-poly MSI creator asset",
+        "iPhone17Pro geometry-identical texture compression passed",
+        "12 additional front render loads/visual review passed"
+      ]
+    },
+    {
+      "id": "P08",
+      "title": "Twelve complete researched editorial items",
+      "dependencies": [
+        "P06"
+      ],
+      "files": [
+        "scripts/continuation-editorial-content.cjs",
+        "scripts/continuation-editorial-sources.json",
+        "scripts/continuation-editorial.cjs"
+      ],
+      "status": "draft_complete_human_review_pending",
+      "evidence": "12 complete source-backed articles and original illustrations. Zero human approvals; owner requested explanation of review. Normal output excludes them.",
+      "tests": [
+        "7 editorial renderer checks",
+        "source/evidence/hash manifests"
+      ]
+    },
+    {
+      "id": "P09",
+      "title": "News transparency, RSS and sitemap",
+      "dependencies": [
+        "P08"
+      ],
+      "files": [
+        "scripts/continuation-editorial.cjs"
+      ],
+      "status": "code_complete_publication_pending",
+      "evidence": "Real reviewed-publication records gate RSS/news sitemap. Live intake was not successful; no Google News submission or indexing claims.",
+      "tests": [
+        "10 news intake tests (synthetic)",
+        "normal draft/feed/sitemap exclusion gates"
+      ]
+    },
+    {
+      "id": "P10",
+      "title": "SEO, intent map, motion and performance",
+      "dependencies": [
+        "P02",
+        "P03",
+        "P04",
+        "P06"
+      ],
+      "files": [
+        "scripts/seo-pass.cjs",
+        "scripts/continuation.css"
+      ],
+      "status": "verified",
+      "evidence": "Official SEO/News/Discover/Cloudflare sources checked; no keyword-volume invention. Canonicals, alias artifacts, schema, deferred models/video and reduced motion updated.",
+      "tests": [
+        "Final SEO: 1451 pages / 101301 local references; 948 intended indexable pages; 12 unresolved identity pairs recorded",
+        "Seven final static route budgets and zero eager optional 3D script gates passed"
+      ]
+    },
+    {
+      "id": "P11",
+      "title": "Behavior, browser, mobile and release checks",
+      "dependencies": [
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "files": [
+        "scripts/check-continuation.cjs",
+        "docs/program-2026-10-11/"
+      ],
+      "status": "verified",
+      "evidence": "Final normal build, all 13 program check commands and 88 continuation checks passed. Source/asset preflight passed, static route budgets passed, SEO verified 1451 pages/101301 local references. Actual 360/390 mobile and 768/1440 desktop/tablet journeys tested. Legacy nav shifts and hidden/clipped mobile step links fixed; three final local mobile reloads had zero layout-shift sum and zero initial 3D requests.",
+      "tests": [
+        "126 JS syntax checks",
+        "release secret/asset preflight",
+        "desktop1280/1440 and mobile360/390/tablet768 browser checks",
+        "Final three 390x844 local runs: median LCP 1840ms, layout shift sum 0; lab only, uncontrolled font caches",
+        "360px final step labels fit; country/currency consistency and visible Explore menu verified"
+      ]
+    },
+    {
+      "id": "P12",
+      "title": "Production deploy, deep-link/API/domain verification",
+      "dependencies": [
+        "P11"
+      ],
+      "files": [
+        "wrangler.jsonc",
+        "scripts/worker.mjs"
+      ],
+      "status": "release_prepared",
+      "evidence": "Tested normal production files ready. Commit, non-force production-branch push and actual public release/domain/API/browser proof remain.",
+      "tests": [
+        "production branch dc8200c baseline verified"
+      ]
+    }
+  ]
+}

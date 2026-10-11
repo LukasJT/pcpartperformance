@@ -1,0 +1,1236 @@
+{
+  "iphone-13-pro": {
+    "input": "tmp/model-batch-2026-10-11/raw/objaverse/0c34a039d50e42f4b46738ec26929c15.glb",
+    "asset": "sketchfab-iphone-13-pro.glb",
+    "uid": "0c34a039d50e42f4b46738ec26929c15",
+    "sourceExtras": {
+      "author": "DatSketch (https://sketchfab.com/DatSketch)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/iphone-13-pro-0c34a039d50e42f4b46738ec26929c15",
+      "title": "iPhone 13 Pro"
+    },
+    "inputBytes": 1346856,
+    "outputBytes": 224072,
+    "dimensionsMm": [
+      71.5,
+      146.7,
+      7.65
+    ],
+    "dimensionSource": "https://support.apple.com/en-us/111871",
+    "sourceRotation": [
+      0,
+      3.141592653589793,
+      0
+    ],
+    "sourceToMmScale": 171.82077334276343,
+    "boundsBeforeCompression": {
+      "min": [
+        -37.291119945332625,
+        -73.35000000000001,
+        -5.4927064208455025
+      ],
+      "max": [
+        37.291119945332625,
+        73.35000000000001,
+        5.4927064208455025
+      ]
+    },
+    "boundsAfterCompression": {
+      "min": [
+        -37.2894770334747,
+        -73.35021970790204,
+        -5.493193701748533
+      ],
+      "max": [
+        37.2894770334747,
+        73.3499999993787,
+        5.488938960528246
+      ]
+    },
+    "extentMm": [
+      74.5789540669494,
+      146.70021970728072,
+      10.98213266227678
+    ],
+    "triangles": 27615,
+    "modifications": "Baked upright front-facing orientation, centered the asset pivot, and uniformly scaled its overall height to the published body height in millimeters; authored width/depth ratios and camera protrusions retained. Resized embedded textures to at most 1024 pixels, encoded WebP at quality 90, flattened static transforms, joined compatible primitives, deduplicated resources, and used meshopt compression. Creator appearance retained."
+  },
+  "iphone-13-pro-max": {
+    "input": "tmp/model-batch-2026-10-11/raw/objaverse/4328dea00e47497dbeac73c556121bc9.glb",
+    "asset": "sketchfab-iphone-13-pro-max.glb",
+    "uid": "4328dea00e47497dbeac73c556121bc9",
+    "sourceExtras": {
+      "author": "DatSketch (https://sketchfab.com/DatSketch)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/apple-iphone-13-pro-max-4328dea00e47497dbeac73c556121bc9",
+      "title": "Apple iPhone 13 Pro Max"
+    },
+    "inputBytes": 1382880,
+    "outputBytes": 232508,
+    "dimensionsMm": [
+      78.1,
+      160.8,
+      7.65
+    ],
+    "dimensionSource": "https://support.apple.com/en-us/111870",
+    "sourceRotation": [
+      0,
+      3.141592653589793,
+      0
+    ],
+    "sourceToMmScale": 162.3414288330508,
+    "boundsBeforeCompression": {
+      "min": [
+        -39.55765793311089,
+        -80.40000000000002,
+        -5.140540802431548
+      ],
+      "max": [
+        39.55765793311089,
+        80.40000000000002,
+        5.140540802431548
+      ]
+    },
+    "boundsAfterCompression": {
+      "min": [
+        -39.55590681218821,
+        -80.40000000007035,
+        -5.140993140472638
+      ],
+      "max": [
+        39.55590681218821,
+        80.40000000000668,
+        5.1435337085730435
+      ]
+    },
+    "extentMm": [
+      79.11181362437642,
+      160.80000000007703,
+      10.284526849045681
+    ],
+    "triangles": 28063,
+    "modifications": "Baked upright front-facing orientation, centered the asset pivot, and uniformly scaled its overall height to the published body height in millimeters; authored width/depth ratios and camera protrusions retained. Resized embedded textures to at most 1024 pixels, encoded WebP at quality 90, flattened static transforms, joined compatible primitives, deduplicated resources, and used meshopt compression. Creator appearance retained."
+  },
+  "galaxy-s22": {
+    "input": "tmp/model-batch-2026-10-11/raw/objaverse/e825ff74413142afa9ba64c17890ae05.glb",
+    "asset": "sketchfab-galaxy-s22.glb",
+    "uid": "e825ff74413142afa9ba64c17890ae05",
+    "sourceExtras": {
+      "author": "highdefinitionsound (https://sketchfab.com/highdefinitionsound)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/samsung-galaxy-s22-e825ff74413142afa9ba64c17890ae05",
+      "title": "Samsung Galaxy S22"
+    },
+    "inputBytes": 22287188,
+    "outputBytes": 2490712,
+    "dimensionsMm": [
+      70.6,
+      146,
+      7.6
+    ],
+    "dimensionSource": "https://news.samsung.com/in/new-samsung-galaxy-s22-and-s22-deliver-revolutionary-camera-experiences-day-and-night",
+    "sourceRotation": [
+      0,
+      0,
+      0
+    ],
+    "sourceToMmScale": 92.84865639129734,
+    "boundsBeforeCompression": {
+      "min": [
+        -36.06692564037387,
+        -73,
+        -4.575642416079923
+      ],
+      "max": [
+        36.06692564037387,
+        72.99999999999999,
+        4.575642416079923
+      ]
+    },
+    "boundsAfterCompression": {
+      "min": [
+        -36.068538713118556,
+        -73.00000001099376,
+        -4.575239512440085
+      ],
+      "max": [
+        36.066682941620535,
+        73.00000000674287,
+        4.57686274476956
+      ]
+    },
+    "extentMm": [
+      72.1352216547391,
+      146.00000001773662,
+      9.152102257209645
+    ],
+    "triangles": 676656,
+    "modifications": "Baked upright front-facing orientation, centered the asset pivot, and uniformly scaled its overall height to the published body height in millimeters; authored width/depth ratios and camera protrusions retained. Resized embedded textures to at most 1024 pixels, encoded WebP at quality 90, flattened static transforms, joined compatible primitives, deduplicated resources, simplified geometry within a relative error limit of 0.001, and used meshopt compression. Creator appearance retained."
+  },
+  "galaxy-s22-ultra": {
+    "input": "tmp/model-batch-2026-10-11/raw/objaverse/2a0bbcfad6d744cb8fa443bdf209d6a9.glb",
+    "asset": "sketchfab-galaxy-s22-ultra.glb",
+    "uid": "2a0bbcfad6d744cb8fa443bdf209d6a9",
+    "sourceExtras": {
+      "author": "3Ddotcom (https://sketchfab.com/mohd.aldada2)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/samsung-galaxy-s22-ultra-free-2a0bbcfad6d744cb8fa443bdf209d6a9",
+      "title": "Samsung Galaxy S22 Ultra (Free)"
+    },
+    "inputBytes": 1412408,
+    "outputBytes": 198396,
+    "dimensionsMm": [
+      77.9,
+      163.3,
+      8.9
+    ],
+    "dimensionSource": "https://news.samsung.com/global/breaking-the-rules-with-galaxy-s22-ultra",
+    "sourceRotation": [
+      0,
+      1.5707963267948966,
+      0
+    ],
+    "sourceToMmScale": 20.66661847369851,
+    "boundsBeforeCompression": {
+      "min": [
+        -40.286091946114034,
+        -81.65,
+        -3.799042207013635
+      ],
+      "max": [
+        40.28609194611403,
+        81.64999999999999,
+        3.7990422070136356
+      ]
+    },
+    "boundsAfterCompression": {
+      "min": [
+        -40.2860919462436,
+        -81.6545066756995,
+        -3.7990422070136702
+      ],
+      "max": [
+        40.28609194623129,
+        81.65450118510087,
+        3.7990422070136196
+      ]
+    },
+    "extentMm": [
+      80.5721838924749,
+      163.30900786080036,
+      7.59808441402729
+    ],
+    "triangles": 17532,
+    "modifications": "Removed the named presentation extras S pen. Baked upright front-facing orientation, centered the asset pivot, and uniformly scaled its overall height to the published body height in millimeters; authored width/depth ratios and camera protrusions retained. Resized embedded textures to at most 1024 pixels, encoded WebP at quality 90, flattened static transforms, joined compatible primitives, deduplicated resources, and used meshopt compression. Creator materials retained."
+  },
+  "galaxy-s20-ultra": {
+    "input": "tmp/model-batch-2026-10-11/raw/objaverse/8abacf30422f4c48842b8ffef5611e0f.glb",
+    "asset": "sketchfab-galaxy-s20-ultra.glb",
+    "uid": "8abacf30422f4c48842b8ffef5611e0f",
+    "sourceExtras": {
+      "author": "Juanpa Velazquez (https://sketchfab.com/juanpavelazquez123)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/samsung-galaxy-s20-ultra-8abacf30422f4c48842b8ffef5611e0f",
+      "title": "Samsung Galaxy S20 Ultra"
+    },
+    "inputBytes": 4252000,
+    "outputBytes": 674640,
+    "dimensionsMm": [
+      76,
+      166.9,
+      8.8
+    ],
+    "dimensionSource": "https://news.samsung.com/ca/introducing-the-samsung-galaxy-s20-5g-series-change-the-way-you-experience-the-world",
+    "sourceRotation": [
+      1.5707963267948966,
+      0,
+      0
+    ],
+    "sourceToMmScale": 100.09679944794117,
+    "boundsBeforeCompression": {
+      "min": [
+        -39.00169767577428,
+        -83.45000000000002,
+        -5.252823753296875
+      ],
+      "max": [
+        39.00169767577428,
+        83.45000000000002,
+        5.252823753296875
+      ]
+    },
+    "boundsAfterCompression": {
+      "min": [
+        -38.998683126316116,
+        -83.45000000000002,
+        -5.254101218071495
+      ],
+      "max": [
+        38.998683126316116,
+        83.45000000000002,
+        5.254417170048709
+      ]
+    },
+    "extentMm": [
+      77.99736625263223,
+      166.90000000000003,
+      10.508518388120205
+    ],
+    "triangles": 137389,
+    "modifications": "Baked upright front-facing orientation, centered the asset pivot, and uniformly scaled its overall height to the published body height in millimeters; authored width/depth ratios and camera protrusions retained. Resized embedded textures to at most 1024 pixels, encoded WebP at quality 90, flattened static transforms, joined compatible primitives, deduplicated resources, and used meshopt compression. Remaining creator appearance retained."
+  },
+  "galaxy-s21-fe": {
+    "input": "tmp/model-batch-2026-10-11/raw/objaverse/d67f3d9318c041c7a9a9b67c84c97423.glb",
+    "asset": "sketchfab-galaxy-s21-fe.glb",
+    "uid": "d67f3d9318c041c7a9a9b67c84c97423",
+    "sourceExtras": {
+      "author": "Evan.Blass (https://sketchfab.com/Evan.Blass)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/samsung-galaxy-s21-fe-in-white-d67f3d9318c041c7a9a9b67c84c97423",
+      "title": "Samsung Galaxy S21 FE in White"
+    },
+    "inputBytes": 2787140,
+    "outputBytes": 389336,
+    "dimensionsMm": [
+      74.5,
+      155.7,
+      7.9
+    ],
+    "dimensionSource": "https://news.samsung.com/mx/samsung-presenta-el-nuevo-galaxy-s21-fe-fan-edition-5g",
+    "sourceRotation": [
+      0,
+      0,
+      0
+    ],
+    "sourceToMmScale": 1064.153466855108,
+    "boundsBeforeCompression": {
+      "min": [
+        -37.52108399603678,
+        -77.85,
+        -4.714578618767558
+      ],
+      "max": [
+        37.52108399603678,
+        77.85,
+        4.714578618767558
+      ]
+    },
+    "boundsAfterCompression": {
+      "min": [
+        -37.52205114902188,
+        -77.85,
+        -4.716510411991019
+      ],
+      "max": [
+        37.52205114902188,
+        77.85,
+        4.714177750723646
+      ]
+    },
+    "extentMm": [
+      75.04410229804375,
+      155.7,
+      9.430688162714665
+    ],
+    "triangles": 37529,
+    "modifications": "Baked upright front-facing orientation, centered the asset pivot, and uniformly scaled its overall height to the published body height in millimeters; authored width/depth ratios and camera protrusions retained. Resized embedded textures to at most 1024 pixels, encoded WebP at quality 90, flattened static transforms, joined compatible primitives, deduplicated resources, and used meshopt compression. Creator materials retained."
+  },
+  "iphone-11": {
+    "input": "tmp/model-batch-2026-10-11/raw/objaverse/558b8e99bbd4483b9bb2182d8dc72de2.glb",
+    "asset": "sketchfab-iphone-11.glb",
+    "uid": "558b8e99bbd4483b9bb2182d8dc72de2",
+    "sourceExtras": {
+      "author": "atomle (https://sketchfab.com/atomle)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/iphone-11-558b8e99bbd4483b9bb2182d8dc72de2",
+      "title": "Iphone 11"
+    },
+    "inputBytes": 3845752,
+    "outputBytes": 785840,
+    "dimensionsMm": [
+      75.7,
+      150.9,
+      8.3
+    ],
+    "dimensionSource": "https://support.apple.com/en-us/111865",
+    "sourceRotation": [
+      0,
+      3.141592653589793,
+      0
+    ],
+    "sourceToMmScale": 646.817607575514,
+    "boundsBeforeCompression": {
+      "min": [
+        -38.260064503509916,
+        -75.45,
+        -4.914470891562653
+      ],
+      "max": [
+        38.260064503509916,
+        75.45000000000002,
+        4.914470891562653
+      ]
+    },
+    "boundsAfterCompression": {
+      "min": [
+        -38.26496475112156,
+        -75.45,
+        -4.9179688267645565
+      ],
+      "max": [
+        38.26496475112156,
+        75.45,
+        4.914470891562654
+      ]
+    },
+    "extentMm": [
+      76.52992950224312,
+      150.9,
+      9.83243971832721
+    ],
+    "triangles": 53018,
+    "modifications": "Baked upright front-facing orientation, centered the asset pivot, and uniformly scaled its overall height to the published body height in millimeters; authored width/depth ratios and camera protrusions retained. Resized embedded textures to at most 1024 pixels, encoded WebP at quality 90, flattened static transforms, joined compatible primitives, deduplicated resources, and used meshopt compression. Creator appearance retained."
+  },
+  "iphone-11-pro": {
+    "input": "tmp/model-batch-2026-10-11/raw/objaverse/c0cfaae9289343b5ba5b0c5ba0a3ced6.glb",
+    "asset": "sketchfab-iphone-11-pro.glb",
+    "uid": "c0cfaae9289343b5ba5b0c5ba0a3ced6",
+    "sourceExtras": {
+      "author": "matthewgromov199 (https://sketchfab.com/matthewgromov199)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/iphone-11-pro-c0cfaae9289343b5ba5b0c5ba0a3ced6",
+      "title": "iPhone 11 Pro"
+    },
+    "inputBytes": 275740,
+    "outputBytes": 53084,
+    "dimensionsMm": [
+      71.4,
+      144,
+      8.1
+    ],
+    "dimensionSource": "https://support.apple.com/en-us/111879",
+    "sourceRotation": [
+      0,
+      0,
+      0
+    ],
+    "sourceToMmScale": 459.91444340895583,
+    "boundsBeforeCompression": {
+      "min": [
+        -36.1037271243417,
+        -71.99999999999999,
+        -4.943375335670321
+      ],
+      "max": [
+        36.1037271243417,
+        71.99999999999999,
+        4.943375335670322
+      ]
+    },
+    "boundsAfterCompression": {
+      "min": [
+        -36.10217596972563,
+        -71.99999999999999,
+        -4.9433753356703205
+      ],
+      "max": [
+        36.10217596972563,
+        71.99999999999999,
+        4.943375335670322
+      ]
+    },
+    "extentMm": [
+      72.20435193945126,
+      143.99999999999997,
+      9.886750671340643
+    ],
+    "triangles": 5207,
+    "modifications": "Converted legacy specular/glossiness materials to the supported metal/roughness workflow. Baked upright front-facing orientation, centered the asset pivot, and uniformly scaled its overall height to the published body height in millimeters; authored width/depth ratios and camera protrusions retained. Resized embedded textures to at most 1024 pixels, encoded WebP at quality 90, flattened static transforms, joined compatible primitives, deduplicated resources, and used meshopt compression. Creator appearance retained."
+  },
+  "iphone-11-pro-max": {
+    "input": "tmp/model-batch-2026-10-11/raw/objaverse/a6c98228fe3e4a309dc87481c6970e70.glb",
+    "asset": "sketchfab-iphone-11-pro-max.glb",
+    "uid": "a6c98228fe3e4a309dc87481c6970e70",
+    "sourceExtras": {
+      "author": "Alien7878 (https://sketchfab.com/Alien7878)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/iphone-11-pro-max-free-download-a6c98228fe3e4a309dc87481c6970e70",
+      "title": "iPhone 11 Pro Max (free download)"
+    },
+    "inputBytes": 23174696,
+    "outputBytes": 716468,
+    "dimensionsMm": [
+      77.8,
+      158,
+      8.1
+    ],
+    "dimensionSource": "https://support.apple.com/en-us/111878",
+    "sourceRotation": [
+      0,
+      3.141592653589793,
+      0
+    ],
+    "sourceToMmScale": 836.5852933682116,
+    "boundsBeforeCompression": {
+      "min": [
+        -38.70667437875058,
+        -79,
+        -4.970859953976518
+      ],
+      "max": [
+        38.70667437875058,
+        78.99999999999999,
+        4.970859953976518
+      ]
+    },
+    "boundsAfterCompression": {
+      "min": [
+        -38.707368826446945,
+        -79.0000008092661,
+        -4.970890791369386
+      ],
+      "max": [
+        38.71016609656934,
+        78.99245013414323,
+        4.9709827910839035
+      ]
+    },
+    "extentMm": [
+      77.41753492301629,
+      157.99245094340932,
+      9.94187358245329
+    ],
+    "triangles": 124812,
+    "modifications": "Baked upright front-facing orientation, centered the asset pivot, and uniformly scaled its overall height to the published body height in millimeters; authored width/depth ratios and camera protrusions retained. Resized embedded textures to at most 1024 pixels, encoded WebP at quality 90, flattened static transforms, joined compatible primitives, deduplicated resources, simplified geometry within a relative error limit of 0.001, and used meshopt compression. Creator appearance retained."
+  },
+  "iphone-6": {
+    "input": "tmp/model-batch-2026-10-11/raw/objaverse/9f0523f668e24e42ab440a2679d3c5d5.glb",
+    "asset": "sketchfab-iphone-6.glb",
+    "uid": "9f0523f668e24e42ab440a2679d3c5d5",
+    "sourceExtras": {
+      "author": "Dylan.TYL (https://sketchfab.com/dylan.tyl)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/iphone-6-gold-9f0523f668e24e42ab440a2679d3c5d5",
+      "title": "iPhone 6 Gold"
+    },
+    "inputBytes": 9676216,
+    "outputBytes": 1542856,
+    "dimensionsMm": [
+      67,
+      138.1,
+      6.9
+    ],
+    "dimensionSource": "https://support.apple.com/en-us/111954",
+    "sourceRotation": [
+      0.066237872435,
+      0,
+      0
+    ],
+    "sourceToMmScale": 1.0007246376811594,
+    "boundsBeforeCompression": {
+      "min": [
+        -33.72027719884679,
+        -69.05,
+        -4.074488396503563
+      ],
+      "max": [
+        33.72027719884679,
+        69.05,
+        4.074488396503564
+      ]
+    },
+    "boundsAfterCompression": {
+      "min": [
+        -33.71895657216101,
+        -69.05000000016017,
+        -4.077791451343678
+      ],
+      "max": [
+        33.71895657216101,
+        69.05000000015934,
+        4.076165623182816
+      ]
+    },
+    "extentMm": [
+      67.43791314432202,
+      138.1000000003195,
+      8.153957074526495
+    ],
+    "triangles": 138160,
+    "modifications": "Baked upright front-facing orientation, centered the asset pivot, and uniformly scaled its overall height to the published body height in millimeters; authored width/depth ratios and camera protrusions retained. Resized embedded textures to at most 1024 pixels, encoded WebP at quality 90, flattened static transforms, joined compatible primitives, deduplicated resources, and used meshopt compression. Creator materials retained."
+  },
+  "iphone-6s": {
+    "input": "tmp/model-batch-2026-10-11/raw/objaverse/c212720789d14bfd9d98aaffe1461d1c.glb",
+    "asset": "sketchfab-iphone-6s.glb",
+    "uid": "c212720789d14bfd9d98aaffe1461d1c",
+    "sourceExtras": {
+      "author": "HectorValenzuela (https://sketchfab.com/HectorValenzuela)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/iphone-6s-c212720789d14bfd9d98aaffe1461d1c",
+      "title": "Iphone 6s"
+    },
+    "inputBytes": 4751864,
+    "outputBytes": 764372,
+    "dimensionsMm": [
+      67.1,
+      138.3,
+      7.1
+    ],
+    "dimensionSource": "https://support.apple.com/en-us/111952",
+    "sourceRotation": [
+      0,
+      0,
+      0
+    ],
+    "sourceToMmScale": 10.014665223813703,
+    "boundsBeforeCompression": {
+      "min": [
+        -33.69816428324298,
+        -69.14999999999999,
+        -3.6583572033939333
+      ],
+      "max": [
+        33.69816428324299,
+        69.14999999999999,
+        3.6583572033939333
+      ]
+    },
+    "boundsAfterCompression": {
+      "min": [
+        -33.70025788140508,
+        -69.14999999999998,
+        -3.6585138082827133
+      ],
+      "max": [
+        33.700257881405065,
+        69.15,
+        3.658357203393933
+      ]
+    },
+    "extentMm": [
+      67.40051576281014,
+      138.29999999999998,
+      7.316871011676646
+    ],
+    "triangles": 122464,
+    "modifications": "Baked upright front-facing orientation, centered the asset pivot, and uniformly scaled its overall height to the published body height in millimeters; authored width/depth ratios and camera protrusions retained. Resized embedded textures to at most 1024 pixels, encoded WebP at quality 90, flattened static transforms, joined compatible primitives, deduplicated resources, and used meshopt compression. Creator materials retained."
+  },
+  "iphone-8": {
+    "input": "tmp/model-batch-2026-10-11/raw/objaverse/143bd31fd48b4d88a31d05c7ea0770b0.glb",
+    "asset": "sketchfab-iphone-8.glb",
+    "uid": "143bd31fd48b4d88a31d05c7ea0770b0",
+    "sourceExtras": {
+      "author": "felixhumphrys0209 (https://sketchfab.com/felixhumphrys0209)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/realistic-iphone-8-black-143bd31fd48b4d88a31d05c7ea0770b0",
+      "title": "Realistic iPhone 8 black"
+    },
+    "inputBytes": 940500,
+    "outputBytes": 103584,
+    "dimensionsMm": [
+      67.3,
+      138.4,
+      7.3
+    ],
+    "dimensionSource": "https://support.apple.com/en-us/111976",
+    "sourceRotation": [
+      0,
+      0,
+      0
+    ],
+    "sourceToMmScale": 33.95631122052327,
+    "boundsBeforeCompression": {
+      "min": [
+        -34.04435118983531,
+        -69.2,
+        -3.7677221231788653
+      ],
+      "max": [
+        34.04435118983531,
+        69.20000000000002,
+        3.7677221231788653
+      ]
+    },
+    "boundsAfterCompression": {
+      "min": [
+        -34.04562669109745,
+        -69.199999999505,
+        -3.770946856181383
+      ],
+      "max": [
+        34.04562669109745,
+        69.19999999981438,
+        3.768056058263297
+      ]
+    },
+    "extentMm": [
+      68.0912533821949,
+      138.3999999993194,
+      7.53900291444468
+    ],
+    "triangles": 14042,
+    "modifications": "Removed source presentation rotation animations; static rest-pose geometry retained. Removed the named presentation extras Cube.002_11, Cube.003_12. Baked upright front-facing orientation, centered the asset pivot, and uniformly scaled its overall height to the published body height in millimeters; authored width/depth ratios and camera protrusions retained. Resized embedded textures to at most 1024 pixels, encoded WebP at quality 90, flattened static transforms, joined compatible primitives, deduplicated resources, and used meshopt compression. Creator materials retained."
+  },
+  "iphone-8-plus": {
+    "input": "tmp/model-batch-2026-10-11/raw/objaverse/8c5c176cf83e42d6a12cdf6e84b6bccd.glb",
+    "asset": "sketchfab-iphone-8-plus.glb",
+    "uid": "8c5c176cf83e42d6a12cdf6e84b6bccd",
+    "sourceExtras": {
+      "author": "RT3905T (https://sketchfab.com/RT3905T)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/iphone-8-plus-8c5c176cf83e42d6a12cdf6e84b6bccd",
+      "title": "Iphone 8 Plus"
+    },
+    "inputBytes": 16365692,
+    "outputBytes": 982440,
+    "dimensionsMm": [
+      78.1,
+      158.4,
+      7.5
+    ],
+    "dimensionSource": "https://support.apple.com/en-us/111950",
+    "sourceRotation": [
+      0,
+      3.141592653589793,
+      0
+    ],
+    "sourceToMmScale": 43.64767013007511,
+    "boundsBeforeCompression": {
+      "min": [
+        -39.378818188403116,
+        -79.19999999999999,
+        -3.1294039789987727
+      ],
+      "max": [
+        39.37881818840311,
+        79.2,
+        3.1294039789987727
+      ]
+    },
+    "boundsAfterCompression": {
+      "min": [
+        -39.37439449080601,
+        -79.19999933471892,
+        -3.129796179286464
+      ],
+      "max": [
+        39.37439417728692,
+        79.17346366209817,
+        3.131828235524147
+      ]
+    },
+    "extentMm": [
+      78.74878866809294,
+      158.3734629968171,
+      6.261624414810611
+    ],
+    "triangles": 181738,
+    "modifications": "Baked upright front-facing orientation, centered the asset pivot, and uniformly scaled its overall height to the published body height in millimeters; authored width/depth ratios and camera protrusions retained. Resized embedded textures to at most 1024 pixels, encoded WebP at quality 90, flattened static transforms, joined compatible primitives, deduplicated resources, simplified geometry within a relative error limit of 0.001, and used meshopt compression. Creator appearance retained."
+  },
+  "iphone-12-mini": {
+    "input": "tmp/model-batch-2026-10-11/raw/objaverse/74c4167debed4390871af8527d369de6.glb",
+    "asset": "sketchfab-iphone-12-mini.glb",
+    "uid": "74c4167debed4390871af8527d369de6",
+    "sourceExtras": {
+      "author": "tswier (https://sketchfab.com/tswier)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/iphone-12-mini-74c4167debed4390871af8527d369de6",
+      "title": "iPhone 12 Mini"
+    },
+    "inputBytes": 6003940,
+    "outputBytes": 783292,
+    "dimensionsMm": [
+      64.2,
+      131.5,
+      7.4
+    ],
+    "dimensionSource": "https://support.apple.com/en-us/111877",
+    "sourceRotation": [
+      0,
+      3.141592653589793,
+      0
+    ],
+    "sourceToMmScale": 99.92146336254511,
+    "boundsBeforeCompression": {
+      "min": [
+        -32.61004536896654,
+        -65.75000000000001,
+        -4.549909121062377
+      ],
+      "max": [
+        32.61004536896654,
+        65.75,
+        4.549909121062378
+      ]
+    },
+    "boundsAfterCompression": {
+      "min": [
+        -32.611176303521965,
+        -65.75000026653507,
+        -4.550529067369119
+      ],
+      "max": [
+        32.61117583681349,
+        65.75000068685671,
+        4.548047875201519
+      ]
+    },
+    "extentMm": [
+      65.22235214033546,
+      131.50000095339178,
+      9.098576942570638
+    ],
+    "triangles": 82898,
+    "modifications": "Baked upright front-facing orientation, centered the asset pivot, and uniformly scaled its overall height to the published body height in millimeters; authored width/depth ratios and camera protrusions retained. Resized embedded textures to at most 1024 pixels, encoded WebP at quality 90, flattened static transforms, joined compatible primitives, deduplicated resources, and used meshopt compression. Creator appearance retained."
+  },
+  "iphone-xr": {
+    "input": "tmp/model-batch-2026-10-11/raw/objaverse/58494f7d40f14310b4696e7951629960.glb",
+    "asset": "sketchfab-iphone-xr.glb",
+    "uid": "58494f7d40f14310b4696e7951629960",
+    "sourceExtras": {
+      "author": "Sasha (https://sketchfab.com/pupil1983)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/iphone-xr-58494f7d40f14310b4696e7951629960",
+      "title": "iPhone Xr"
+    },
+    "inputBytes": 2093076,
+    "outputBytes": 318812,
+    "dimensionsMm": [
+      75.7,
+      150.9,
+      8.3
+    ],
+    "dimensionSource": "https://support.apple.com/en-us/111868",
+    "sourceRotation": [
+      0,
+      0,
+      0
+    ],
+    "sourceToMmScale": 43.107604799535764,
+    "boundsBeforeCompression": {
+      "min": [
+        -38.32830449224453,
+        -75.45,
+        -4.937326783348135
+      ],
+      "max": [
+        38.32830449224453,
+        75.45,
+        4.937326783348135
+      ]
+    },
+    "boundsAfterCompression": {
+      "min": [
+        -38.32943815424055,
+        -75.45,
+        -4.934946693431913
+      ],
+      "max": [
+        38.32943815424055,
+        75.45,
+        4.941348810999665
+      ]
+    },
+    "extentMm": [
+      76.6588763084811,
+      150.9,
+      9.876295504431578
+    ],
+    "triangles": 58974,
+    "modifications": "Changed only the named display materials Material.003 from a blank luminous panel to a non-emissive black screen-off appearance. Baked upright front-facing orientation, centered the asset pivot, and uniformly scaled its overall height to the published body height in millimeters; authored width/depth ratios and camera protrusions retained. Resized embedded textures to at most 1024 pixels, encoded WebP at quality 90, flattened static transforms, joined compatible primitives, deduplicated resources, and used meshopt compression. Remaining creator appearance retained."
+  },
+  "iphone-xs": {
+    "input": "tmp/model-batch-2026-10-11/raw/objaverse/3a0d9762a20849c0b3e8e08b947d2114.glb",
+    "asset": "sketchfab-iphone-xs.glb",
+    "uid": "3a0d9762a20849c0b3e8e08b947d2114",
+    "sourceExtras": {
+      "author": "Carlos.Maciel (https://sketchfab.com/Carlos.Maciel)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/iphone-xs-3a0d9762a20849c0b3e8e08b947d2114",
+      "title": "iPhone XS"
+    },
+    "inputBytes": 2983204,
+    "outputBytes": 501088,
+    "dimensionsMm": [
+      70.9,
+      143.6,
+      7.7
+    ],
+    "dimensionSource": "https://support.apple.com/en-us/111881",
+    "sourceRotation": [
+      0,
+      0,
+      0
+    ],
+    "sourceToMmScale": 10.453866176107839,
+    "boundsBeforeCompression": {
+      "min": [
+        -35.833688326692965,
+        -71.8,
+        -4.080634095201633
+      ],
+      "max": [
+        35.833688326692965,
+        71.8,
+        4.080634095201634
+      ]
+    },
+    "boundsAfterCompression": {
+      "min": [
+        -35.83610387682078,
+        -71.8,
+        -4.082788193044049
+      ],
+      "max": [
+        35.83610387682078,
+        71.79999999999998,
+        4.082788193044051
+      ]
+    },
+    "extentMm": [
+      71.67220775364156,
+      143.59999999999997,
+      8.1655763860881
+    ],
+    "triangles": 63522,
+    "modifications": "Baked upright front-facing orientation, centered the asset pivot, and uniformly scaled its overall height to the published body height in millimeters; authored width/depth ratios and camera protrusions retained. Resized embedded textures to at most 1024 pixels, encoded WebP at quality 90, flattened static transforms, joined compatible primitives, deduplicated resources, and used meshopt compression. Creator materials retained."
+  },
+  "galaxy-s10": {
+    "input": "tmp/model-batch-2026-10-11/raw/objaverse/e0ce9427df07429aba2ccbd01b52dd11.glb",
+    "asset": "sketchfab-galaxy-s10.glb",
+    "uid": "e0ce9427df07429aba2ccbd01b52dd11",
+    "sourceExtras": {
+      "author": "mxuntain (https://sketchfab.com/mxuntain)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/samsung-galaxy-s10-e0ce9427df07429aba2ccbd01b52dd11",
+      "title": "Samsung Galaxy S10"
+    },
+    "inputBytes": 12152820,
+    "outputBytes": 415604,
+    "dimensionsMm": [
+      70.4,
+      149.9,
+      7.8
+    ],
+    "dimensionSource": "https://www.samsung.com/uk/support/mobile-devices/key-differences-between-the-galaxy-s10-phones/",
+    "sourceRotation": [
+      1.5707963267948966,
+      0,
+      3.141592653589793
+    ],
+    "sourceToMmScale": 60.549627087003444,
+    "boundsBeforeCompression": {
+      "min": [
+        -34.70558591950929,
+        -74.95,
+        -3.972065620391699
+      ],
+      "max": [
+        34.70558591950928,
+        74.95,
+        3.9720656203916995
+      ]
+    },
+    "boundsAfterCompression": {
+      "min": [
+        -34.70592685854376,
+        -74.94919968120229,
+        -3.9737431511280916
+      ],
+      "max": [
+        34.705926851597546,
+        74.94984531653489,
+        3.973675025788992
+      ]
+    },
+    "extentMm": [
+      69.41185371014132,
+      149.89904499773718,
+      7.9474181769170835
+    ],
+    "triangles": 105222,
+    "modifications": "Changed only the named display materials Material_117 from a blank luminous panel to a non-emissive black screen-off appearance. Baked upright front-facing orientation, centered the asset pivot, and uniformly scaled its overall height to the published body height in millimeters; authored width/depth ratios and camera protrusions retained. Resized embedded textures to at most 1024 pixels, encoded WebP at quality 90, flattened static transforms, joined compatible primitives, deduplicated resources, simplified geometry within a relative error limit of 0.001, and used meshopt compression. Remaining creator appearance retained."
+  },
+  "galaxy-s8": {
+    "input": "tmp/model-batch-2026-10-11/raw/objaverse/433b6f95a0204546a723524c271f34d3.glb",
+    "asset": "sketchfab-galaxy-s8.glb",
+    "uid": "433b6f95a0204546a723524c271f34d3",
+    "sourceExtras": {
+      "author": "koeki1234 (https://sketchfab.com/koeki1234)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/galaxy-s8-silver-v2-433b6f95a0204546a723524c271f34d3",
+      "title": "Galaxy s8 silver v2"
+    },
+    "inputBytes": 1114684,
+    "outputBytes": 104504,
+    "dimensionsMm": [
+      68.1,
+      148.9,
+      8
+    ],
+    "dimensionSource": "https://news.samsung.com/us/galaxy-s8-galaxy-s8-unlocked-samsung-pre-orders-begin-u-s/",
+    "sourceRotation": [
+      1.5707963267948966,
+      0,
+      0
+    ],
+    "sourceToMmScale": 0.9614242419480449,
+    "boundsBeforeCompression": {
+      "min": [
+        -34.33591912603425,
+        -74.45,
+        -3.989910581162244
+      ],
+      "max": [
+        34.33591912603425,
+        74.45,
+        3.9899105811622446
+      ]
+    },
+    "boundsAfterCompression": {
+      "min": [
+        -34.33829309976501,
+        -74.44999999999996,
+        -3.989812921536936
+      ],
+      "max": [
+        34.33829309976501,
+        74.44999999999999,
+        3.989812921536875
+      ]
+    },
+    "extentMm": [
+      68.67658619953002,
+      148.89999999999995,
+      7.97962584307381
+    ],
+    "triangles": 20852,
+    "modifications": "Converted legacy specular/glossiness materials to the supported metal/roughness workflow. Baked upright front-facing orientation, centered the asset pivot, and uniformly scaled its overall height to the published body height in millimeters; authored width/depth ratios and camera protrusions retained. Resized embedded textures to at most 1024 pixels, encoded WebP at quality 90, flattened static transforms, joined compatible primitives, deduplicated resources, and used meshopt compression. Creator appearance retained."
+  },
+  "oneplus-6": {
+    "input": "tmp/model-batch-2026-10-11/raw/objaverse/37aa7a8851be4f86b0d2be6a22837d4c.glb",
+    "asset": "sketchfab-oneplus-6.glb",
+    "uid": "37aa7a8851be4f86b0d2be6a22837d4c",
+    "sourceExtras": {
+      "author": "Throndronis (https://sketchfab.com/Throndronis)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/oneplus-6-37aa7a8851be4f86b0d2be6a22837d4c",
+      "title": "OnePlus 6"
+    },
+    "inputBytes": 2861248,
+    "outputBytes": 302644,
+    "dimensionsMm": [
+      75.4,
+      155.7,
+      7.75
+    ],
+    "dimensionSource": "https://www.oneplus.com/6/specs",
+    "sourceRotation": [
+      0,
+      0,
+      0
+    ],
+    "sourceToMmScale": 72.2950881054594,
+    "boundsBeforeCompression": {
+      "min": [
+        -37.612710949275474,
+        -77.85,
+        -4.169570239590146
+      ],
+      "max": [
+        37.612710949275474,
+        77.85,
+        4.169570239590146
+      ]
+    },
+    "boundsAfterCompression": {
+      "min": [
+        -37.60758275729364,
+        -77.85000255247009,
+        -4.1691056496487
+      ],
+      "max": [
+        37.60758275729364,
+        77.84999924274639,
+        4.165081844345987
+      ]
+    },
+    "extentMm": [
+      75.21516551458728,
+      155.70000179521648,
+      8.334187493994687
+    ],
+    "triangles": 56088,
+    "modifications": "Baked upright front-facing orientation, centered the asset pivot, and uniformly scaled its overall height to the published body height in millimeters; authored width/depth ratios and camera protrusions retained. Resized embedded textures to at most 1024 pixels, encoded WebP at quality 90, flattened static transforms, joined compatible primitives, deduplicated resources, and used meshopt compression. Creator materials retained."
+  },
+  "iphone-15-pro-max": {
+    "input": "tmp/model-batch-2026-10-11/raw/phone-mockup-studio/apple_iphone_15_pro_max_black(2).glb",
+    "asset": "sketchfab-iphone-15-pro-max.glb",
+    "uid": "df17520841214c1792fb8a44c6783ee7",
+    "sourceExtras": {
+      "author": "polyman (https://sketchfab.com/Polyman_3D)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/apple-iphone-15-pro-max-black-df17520841214c1792fb8a44c6783ee7",
+      "title": "Apple iPhone 15 Pro Max Black"
+    },
+    "inputBytes": 9865036,
+    "outputBytes": 1682088,
+    "dimensionsMm": [
+      76.7,
+      159.9,
+      8.25
+    ],
+    "dimensionSource": "https://support.apple.com/en-us/111828",
+    "sourceRotation": [
+      0,
+      3.141592653589793,
+      0
+    ],
+    "sourceToMmScale": 1002.2356014047085,
+    "boundsBeforeCompression": {
+      "min": [
+        -38.94151409406371,
+        -79.94999999999999,
+        -6.170124134674726
+      ],
+      "max": [
+        38.94151409406371,
+        79.94999999999999,
+        6.170124134674726
+      ]
+    },
+    "boundsAfterCompression": {
+      "min": [
+        -38.94410046006672,
+        -79.95005260353152,
+        -6.170422065287446
+      ],
+      "max": [
+        38.94410046006672,
+        79.95,
+        6.170099343448024
+      ]
+    },
+    "extentMm": [
+      77.88820092013344,
+      159.90005260353152,
+      12.34052140873547
+    ],
+    "triangles": 64229,
+    "modifications": "Baked upright front-facing orientation, centered the asset pivot, and uniformly scaled its overall height to the published body height in millimeters; authored width/depth ratios and camera protrusions retained. Resized embedded textures to at most 1024 pixels, encoded WebP at quality 90, flattened static transforms, joined compatible primitives, deduplicated resources, and used meshopt compression. Creator materials retained."
+  },
+  "iphone-17-pro": {
+    "input": "tmp/model-batch-2026-10-11/raw/phone-mockup-studio/iphone_17_pro.glb",
+    "asset": "sketchfab-iphone-17-pro.glb",
+    "uid": "4541aa8a28324b33a2baaf81d263aaec",
+    "sourceExtras": {
+      "author": "Ranguel (https://sketchfab.com/Ranguel)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/iphone-17-pro-4541aa8a28324b33a2baaf81d263aaec",
+      "title": "iPhone 17 Pro"
+    },
+    "inputBytes": 24368404,
+    "outputBytes": 2434552,
+    "textureMaxSize": 864,
+    "textureQuality": 90,
+    "dimensionsMm": [
+      71.9,
+      150,
+      8.75
+    ],
+    "dimensionSource": "https://support.apple.com/en-us/125090",
+    "sourceRotation": [
+      0,
+      3.141592653589793,
+      0
+    ],
+    "sourceToMmScale": 999.9999602635718,
+    "boundsBeforeCompression": {
+      "min": [
+        -36.55058186548624,
+        -75,
+        -6.645728337065249
+      ],
+      "max": [
+        36.55058186548624,
+        75,
+        6.645728337065249
+      ]
+    },
+    "boundsAfterCompression": {
+      "min": [
+        -36.551255836664936,
+        -75,
+        -6.646750736456738
+      ],
+      "max": [
+        36.551255836664936,
+        75,
+        6.643464783150414
+      ]
+    },
+    "extentMm": [
+      73.10251167332987,
+      150,
+      13.290215519607152
+    ],
+    "triangles": 51223,
+    "modifications": "Baked upright front-facing orientation, centered the asset pivot, and uniformly scaled its overall height to the published body height in millimeters; authored width/depth ratios and camera protrusions retained. Resized embedded textures to at most 864 pixels, encoded WebP at quality 90, flattened static transforms, joined compatible primitives, deduplicated resources, and used meshopt compression. Remaining creator appearance retained."
+  },
+  "iphone-17-pro-max": {
+    "input": "tmp/model-batch-2026-10-11/raw/phone-mockup-studio/iphone_17_pro_max.glb",
+    "asset": "sketchfab-iphone-17-pro-max.glb",
+    "uid": "87fc1df741384124a8ce0226d2b2058d",
+    "sourceExtras": {
+      "author": "MajdyModels (https://sketchfab.com/MG990)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/iphone-17-pro-max-87fc1df741384124a8ce0226d2b2058d",
+      "title": "iPhone 17 Pro Max"
+    },
+    "inputBytes": 4140064,
+    "outputBytes": 252052,
+    "dimensionsMm": [
+      78,
+      163.4,
+      8.75
+    ],
+    "dimensionSource": "https://support.apple.com/en-us/125091",
+    "sourceRotation": [
+      0,
+      1.5707963267948966,
+      0
+    ],
+    "sourceToMmScale": 97.0450130859072,
+    "boundsBeforeCompression": {
+      "min": [
+        -39.22602049406852,
+        -81.7,
+        -6.440815838378674
+      ],
+      "max": [
+        39.22602049406852,
+        81.69999999999999,
+        6.440815838378674
+      ]
+    },
+    "boundsAfterCompression": {
+      "min": [
+        -39.22806752975079,
+        -81.7000000000175,
+        -6.442640315529174
+      ],
+      "max": [
+        39.22806753057894,
+        81.70000000016283,
+        6.442640315529184
+      ]
+    },
+    "extentMm": [
+      78.45613506032973,
+      163.40000000018034,
+      12.885280631058357
+    ],
+    "triangles": 29544,
+    "modifications": "Baked upright front-facing orientation, centered the asset pivot, and uniformly scaled its overall height to the published body height in millimeters; authored width/depth ratios and camera protrusions retained. Resized embedded textures to at most 1024 pixels, encoded WebP at quality 90, flattened static transforms, joined compatible primitives, deduplicated resources, and used meshopt compression. Creator materials retained."
+  }
+}

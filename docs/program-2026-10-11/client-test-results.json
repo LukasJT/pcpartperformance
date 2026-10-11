@@ -1,0 +1,184 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-11T18:35:11.412Z",
+  "status": "passed",
+  "passed": 30,
+  "failed": 0,
+  "method": "Actual parent browser scripts executed in Node VM with minimal DOM/events/FormData and synthetic Web API responses; actual prebuilt generator executed in memory; actual Worker imported with mocked ASSETS. No browser layout, live provider, cloud deployment or full build.",
+  "fixtures": "All provider prices/models and approval implications are synthetic. Prebuilt specifications are the existing researched source data.",
+  "fixtureLimitations": [
+    "No rendering/layout/viewport checks.",
+    "Countries are standard header fixtures; morning region event tests explicitly simulate shared region storage change.",
+    "All prebuilt controller tests use the actual generated markup without control injection."
+  ],
+  "files": [
+    {
+      "file": "scripts/prebuilt-ui.js",
+      "sha256": "f220c26a9c1b7655bfb457acc47bb3f7c9665123b63cad47fc69db40d1f85f1b"
+    },
+    {
+      "file": "scripts/prebuilt-pages.cjs",
+      "sha256": "564926882d8407139ceb0c3f2cfc0f49fe78c9050f5a89618c4abbe76cec7034"
+    },
+    {
+      "file": "scripts/morning-prices-ui.js",
+      "sha256": "fad1c677ae105572e991bffb6fe314290c56672a0d345d53fe978c4ef2e5b82f"
+    },
+    {
+      "file": "scripts/worker.mjs",
+      "sha256": "4bdf9ee69a3aa3ba569d07ae3fe8e0fdabe403d686e1c47dfe4b1c0926349df5"
+    }
+  ],
+  "tests": [
+    {
+      "id": "prebuilt-initial-markup",
+      "name": "generated prebuilt markup initializes the actual browser controller",
+      "status": "passed"
+    },
+    {
+      "id": "prebuilt-filter",
+      "name": "prebuilt country, case-insensitive search and GPU filters intersect and reset",
+      "status": "passed"
+    },
+    {
+      "id": "prebuilt-cap-save",
+      "name": "shortlist selects up to three, supports removal, saves and restores exact IDs",
+      "status": "passed"
+    },
+    {
+      "id": "prebuilt-comparison",
+      "name": "selected systems render real specification columns and unknown values stay explicit",
+      "status": "passed"
+    },
+    {
+      "id": "prebuilt-quote-unknown",
+      "name": "blank, whitespace and invalid required costs never become known zero totals",
+      "status": "passed"
+    },
+    {
+      "id": "prebuilt-quote-totals",
+      "name": "complete explicit quotes calculate exact totals, zero, equality and USD/CAD labels",
+      "status": "passed"
+    },
+    {
+      "id": "prebuilt-quote-countries",
+      "name": "country switches preserve separate unsaved and saved CAD/USD quote sets",
+      "status": "passed"
+    },
+    {
+      "id": "prebuilt-storage-failure",
+      "name": "unavailable storage preserves interactive filtering and truthful save failure messages",
+      "status": "passed"
+    },
+    {
+      "id": "prebuilt-catalog-failure",
+      "name": "catalog network failure leaves quote calculation usable with a visible error",
+      "status": "passed"
+    },
+    {
+      "id": "morning-disabled-failure",
+      "name": "disabled, unconfigured and failed daily checks display no price rows",
+      "status": "passed"
+    },
+    {
+      "id": "morning-stale-region-stock",
+      "name": "malformed, stale, wrong country/currency and stock missing observations never display a price",
+      "status": "passed"
+    },
+    {
+      "id": "morning-quantity-owned",
+      "name": "daily subtotal multiplies repeated exact parts and excludes owned parts",
+      "status": "passed"
+    },
+    {
+      "id": "morning-owned-change",
+      "name": "toggling an owned part updates the displayed purchase subtotal and price rows",
+      "status": "passed"
+    },
+    {
+      "id": "morning-attribution-link-logo",
+      "name": "daily rows retain the exact provided link, approved logo, seller and checked price basis",
+      "status": "passed"
+    },
+    {
+      "id": "morning-invalid-link-logo",
+      "name": "wrong SKU/direct link and unapproved logo URLs cannot display prices",
+      "status": "passed"
+    },
+    {
+      "id": "morning-valid-direct-local-logo",
+      "name": "exact SKU direct links and reviewed local asset paths supported by the service remain usable",
+      "status": "passed"
+    },
+    {
+      "id": "morning-malformed-identity",
+      "name": "missing exact SKU/model/seller and contradictory stock cannot render a daily checked price",
+      "status": "passed"
+    },
+    {
+      "id": "morning-malformed-attribution",
+      "name": "contradictory or missing merchant and source attribution cannot present a first-party Best Buy price",
+      "status": "passed"
+    },
+    {
+      "id": "morning-lowest",
+      "name": "lowest exact eligible item price is used and complete purchase count is explicit",
+      "status": "passed"
+    },
+    {
+      "id": "morning-disabled-region-change",
+      "name": "changing country retries the regional API after a regional not-configured response",
+      "status": "passed"
+    },
+    {
+      "id": "morning-disabled-return-region",
+      "name": "returning to a cached unavailable country clears the previous country price rows",
+      "status": "passed"
+    },
+    {
+      "id": "morning-region-pending",
+      "name": "previous-country price rows are removed while a changed-country request is pending",
+      "status": "passed"
+    },
+    {
+      "id": "morning-expiry-refresh",
+      "name": "an open page refreshes at the observation expiry and removes an expired snapshot",
+      "status": "passed"
+    },
+    {
+      "id": "morning-expiry-pending",
+      "name": "an expired snapshot is removed while its refresh request remains pending",
+      "status": "passed"
+    },
+    {
+      "id": "morning-timeout",
+      "name": "an API request aborts after eight seconds with a clear unavailable state and no prices",
+      "status": "passed"
+    },
+    {
+      "id": "morning-race",
+      "name": "an older slow response cannot replace a newer build selection",
+      "status": "passed"
+    },
+    {
+      "id": "morning-prebuilt-empty",
+      "name": "prebuilt exact ID uses prices API; an empty builder requests status without inventing parts",
+      "status": "passed"
+    },
+    {
+      "id": "worker-daily-before-assets",
+      "name": "Worker API endpoints return the disabled contract before asset routing and reject unsafe requests",
+      "status": "passed"
+    },
+    {
+      "id": "worker-existing-assets",
+      "name": "Worker keeps existing canonical asset and redirect behavior",
+      "status": "passed"
+    },
+    {
+      "id": "worker-scheduled-gate",
+      "name": "Worker scheduled handler awaits the gated service without provider access or activation",
+      "status": "passed"
+    }
+  ]
+}

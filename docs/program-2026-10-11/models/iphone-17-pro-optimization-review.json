@@ -1,0 +1,96 @@
+{
+  "checkedAt": "2026-10-11T18:16:44.414Z",
+  "method": "Actual dist/phone-scene.js and bundled glTF loader in an isolated headless InPrivate Edge profile with software WebGL. Screenshots are visual review, not certified fit.",
+  "scenarios": [
+    {
+      "name": "batch-iphone-17-pro-front",
+      "file": "/assets/models/sketchfab-iphone-17-pro.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "front",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-17-pro.glb\",\"asset\":\"sketchfab-iphone-17-pro.glb\",\"rotation\":[0,0,0]},\"loadMs\":1658,\"pose\":\"front\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "front",
+          "model": "sketchfab-iphone-17-pro.glb"
+        }
+      },
+      "screenshot": "batch-iphone-17-pro-front.png"
+    },
+    {
+      "name": "batch-iphone-17-pro-back",
+      "file": "/assets/models/sketchfab-iphone-17-pro.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "back",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-17-pro.glb\",\"asset\":\"sketchfab-iphone-17-pro.glb\",\"rotation\":[0,0,0]},\"loadMs\":3477,\"pose\":\"back\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "back",
+          "model": "sketchfab-iphone-17-pro.glb"
+        }
+      },
+      "screenshot": "batch-iphone-17-pro-back.png"
+    },
+    {
+      "name": "batch-iphone-17-pro-side",
+      "file": "/assets/models/sketchfab-iphone-17-pro.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "side",
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-17-pro.glb\",\"asset\":\"sketchfab-iphone-17-pro.glb\",\"rotation\":[0,0,0]},\"loadMs\":3348,\"pose\":\"side\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "side",
+          "model": "sketchfab-iphone-17-pro.glb"
+        }
+      },
+      "screenshot": "batch-iphone-17-pro-side.png"
+    },
+    {
+      "name": "optimized-iphone-17-pro-mobile-front",
+      "file": "/assets/models/sketchfab-iphone-17-pro.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "phone": true,
+      "view": "front",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "deviceScaleFactor": 1,
+        "mobile": true
+      },
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"model\":{\"name\":\"sketchfab-iphone-17-pro.glb\",\"asset\":\"sketchfab-iphone-17-pro.glb\",\"rotation\":[0,0,0]},\"loadMs\":3121,\"pose\":\"front\"}",
+        "canvas": {
+          "engine": "three.js r180",
+          "angle": "front",
+          "model": "sketchfab-iphone-17-pro.glb"
+        }
+      },
+      "screenshot": "optimized-iphone-17-pro-mobile-front.png"
+    }
+  ]
+}

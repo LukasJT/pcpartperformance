@@ -1,0 +1,1466 @@
+{
+  "baseline": "2026-10-09",
+  "demandEvidence": "Provisional intent hypotheses refined from current primary documentation and existing site inventory. No authorized Search Console, keyword volumes or ranking baseline are available to this workstream.",
+  "queries": [
+    {
+      "taskId": "ED-01",
+      "query": "how to build your first gaming PC",
+      "intent": "Complete a first build safely without losing the next step",
+      "audience": "First-time desktop builders",
+      "existingMatchingPage": null,
+      "targetRoute": "/blog/build-your-first-gaming-pc/",
+      "action": "new_research_draft",
+      "evidenceRequired": [
+        {
+          "id": "intel-build",
+          "scope": "PC assembly overview; exact cooler and motherboard manuals take precedence"
+        },
+        {
+          "id": "msi-b650-manual",
+          "scope": "English printed pages 16–17, 29 and 34 (PDF pages 18–19, 31 and 36)"
+        },
+        {
+          "id": "corsair-cables",
+          "scope": "Cable compatibility chart; identify exact PSU and cable type"
+        },
+        {
+          "id": "windows-media",
+          "scope": "Windows installation media; safeguards before erase/reinstall"
+        },
+        {
+          "id": "windows11",
+          "scope": "Supported OS installation requirements; no bypass procedure"
+        }
+      ],
+      "regionalRelevance": "CA and US; no forced regional redirect",
+      "nextStep": {
+        "url": "/build-school/",
+        "label": "Follow the Build School checklist"
+      },
+      "status": "needs_human_review",
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-02",
+      "query": "gaming PC 1000 CAD complete cost",
+      "intent": "Plan a complete Canadian entry gaming budget",
+      "audience": "Canadian first-time buyers",
+      "existingMatchingPage": null,
+      "targetRoute": "/blog/gaming-pc-1000-cad/",
+      "action": "new_research_draft",
+      "evidenceRequired": [
+        {
+          "id": "intel-build",
+          "scope": "PC assembly overview; exact cooler and motherboard manuals take precedence"
+        },
+        {
+          "id": "msi-b650",
+          "scope": "Exact MAG B650 TOMAHAWK WIFI; not B850/MAX or another revision"
+        },
+        {
+          "id": "corsair-cables",
+          "scope": "Cable compatibility chart; identify exact PSU and cable type"
+        }
+      ],
+      "regionalRelevance": "CA",
+      "nextStep": {
+        "url": "/tools/budget-build-lab/",
+        "label": "Compare a complete budget worksheet"
+      },
+      "status": "needs_human_review",
+      "blockers": [
+        "exact_regional_offers",
+        "verified_bom_revision",
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-03",
+      "query": "gaming PC 1500 CAD parts budget",
+      "intent": "Allocate a Canadian midrange budget using complete costs",
+      "audience": "Canadian gaming buyers comparing platform options",
+      "existingMatchingPage": null,
+      "targetRoute": "/blog/gaming-pc-1500-cad/",
+      "action": "new_research_draft",
+      "evidenceRequired": [
+        {
+          "id": "intel-board",
+          "scope": "Socket, chipset, form factor and connections; general planning"
+        },
+        {
+          "id": "rtx5070",
+          "scope": "RTX 5070 reference configuration, exclude Ti and partner geometry"
+        },
+        {
+          "id": "rx9070",
+          "scope": "RX 9070, exclude XT/GRE and partner geometry"
+        },
+        {
+          "id": "corsair-cables",
+          "scope": "Cable compatibility chart; identify exact PSU and cable type"
+        }
+      ],
+      "regionalRelevance": "CA",
+      "nextStep": {
+        "url": "/tools/budget-build-lab/",
+        "label": "Compare a complete budget worksheet"
+      },
+      "status": "needs_human_review",
+      "blockers": [
+        "exact_regional_offers",
+        "verified_bom_revision",
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-04",
+      "query": "gaming PC 1000 USD complete cost",
+      "intent": "Avoid hidden costs in a US entry gaming build",
+      "audience": "US buyers planning their first tower",
+      "existingMatchingPage": null,
+      "targetRoute": "/blog/gaming-pc-1000-usd/",
+      "action": "new_research_draft",
+      "evidenceRequired": [
+        {
+          "id": "intel-build",
+          "scope": "PC assembly overview; exact cooler and motherboard manuals take precedence"
+        },
+        {
+          "id": "kingston-ram",
+          "scope": "FAQs KTM/KTF on kits, overclock profiles, compatibility and installation"
+        },
+        {
+          "id": "kingston-m2",
+          "scope": "Interface versus physical format"
+        },
+        {
+          "id": "corsair-cables",
+          "scope": "Cable compatibility chart; identify exact PSU and cable type"
+        }
+      ],
+      "regionalRelevance": "US",
+      "nextStep": {
+        "url": "/tools/budget-build-lab/",
+        "label": "Compare a complete budget worksheet"
+      },
+      "status": "needs_human_review",
+      "blockers": [
+        "exact_regional_offers",
+        "verified_bom_revision",
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-05",
+      "query": "gaming PC 1500 USD parts budget",
+      "intent": "Evaluate where a larger US gaming budget adds useful capability",
+      "audience": "US buyers choosing a midrange gaming system",
+      "existingMatchingPage": null,
+      "targetRoute": "/blog/gaming-pc-1500-usd/",
+      "action": "new_research_draft",
+      "evidenceRequired": [
+        {
+          "id": "intel-board",
+          "scope": "Socket, chipset, form factor and connections; general planning"
+        },
+        {
+          "id": "obs-hardware",
+          "scope": "Supported encoder families and configuration"
+        },
+        {
+          "id": "corsair-cables",
+          "scope": "Cable compatibility chart; identify exact PSU and cable type"
+        },
+        {
+          "id": "presentmon",
+          "scope": "Capture and interpretation; main branch can change"
+        }
+      ],
+      "regionalRelevance": "US",
+      "nextStep": {
+        "url": "/tools/budget-build-lab/",
+        "label": "Compare a complete budget worksheet"
+      },
+      "status": "needs_human_review",
+      "blockers": [
+        "exact_regional_offers",
+        "verified_bom_revision",
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-06",
+      "query": "1080p high refresh gaming PC",
+      "intent": "Choose a useful competitive-gaming configuration",
+      "audience": "Players buying for a high-refresh 1080p display",
+      "existingMatchingPage": null,
+      "targetRoute": "/blog/plan-1080p-high-refresh-gaming-pc/",
+      "action": "new_research_draft",
+      "evidenceRequired": [
+        {
+          "id": "intel-limits",
+          "scope": "Context-sensitive CPU/GPU limits"
+        },
+        {
+          "id": "gn9800",
+          "scope": "November 2024 review; game-specific tests and production workloads"
+        },
+        {
+          "id": "presentmon",
+          "scope": "Capture and interpretation; main branch can change"
+        },
+        {
+          "id": "windows-refresh",
+          "scope": "Advanced display settings; supported modes only"
+        }
+      ],
+      "regionalRelevance": "CA and US; no forced regional redirect",
+      "nextStep": {
+        "url": "/builder/",
+        "label": "Plan a game-specific build"
+      },
+      "status": "needs_human_review",
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-07",
+      "query": "balanced 1440p gaming PC build",
+      "intent": "Plan a complete system for a defined 1440p display goal",
+      "audience": "Players moving to a 2560 × 1440 display",
+      "existingMatchingPage": null,
+      "targetRoute": "/blog/plan-balanced-1440p-gaming-pc/",
+      "action": "new_research_draft",
+      "evidenceRequired": [
+        {
+          "id": "rtx5070",
+          "scope": "RTX 5070 reference configuration, exclude Ti and partner geometry"
+        },
+        {
+          "id": "rx9070",
+          "scope": "RX 9070, exclude XT/GRE and partner geometry"
+        },
+        {
+          "id": "ts9070",
+          "scope": "March 7, 2025 test system/driver versions; historical tests only"
+        },
+        {
+          "id": "dlss",
+          "scope": "Separate reconstruction, frame generation and supported device/game versions"
+        },
+        {
+          "id": "fsr3",
+          "scope": "FSR 3 algorithm/implementation; do not imply current-version support for every game"
+        },
+        {
+          "id": "intel-board",
+          "scope": "Socket, chipset, form factor and connections; general planning"
+        }
+      ],
+      "regionalRelevance": "CA and US; no forced regional redirect",
+      "nextStep": {
+        "url": "/builder/",
+        "label": "Create a 1440p build plan"
+      },
+      "status": "needs_human_review",
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-08",
+      "query": "small quiet PC case cooling fit",
+      "intent": "Plan a compact layout without assuming fit or silence",
+      "audience": "Buyers with limited desk space or a noise preference",
+      "existingMatchingPage": null,
+      "targetRoute": "/blog/compact-quiet-pc-fit-cooling/",
+      "action": "new_research_draft",
+      "evidenceRequired": [
+        {
+          "id": "north-sheet",
+          "scope": "Original North; exclude North XL and Momentum Edition"
+        },
+        {
+          "id": "nhd15-sheet",
+          "scope": "Original NH-D15, not NH-D15 G2; fan position affects envelope"
+        },
+        {
+          "id": "h100i",
+          "scope": "CW-9060043-WW; exact mounting hardware still requires manual"
+        },
+        {
+          "id": "corsair-cables",
+          "scope": "Cable compatibility chart; identify exact PSU and cable type"
+        }
+      ],
+      "regionalRelevance": "CA and US; no forced regional redirect",
+      "nextStep": {
+        "url": "/compatibility/",
+        "label": "Check your planned clearances"
+      },
+      "status": "needs_human_review",
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-09",
+      "query": "gaming and streaming PC requirements",
+      "intent": "Allocate hardware for simultaneous play, stream and optional recording",
+      "audience": "Players using OBS or starting a stream",
+      "existingMatchingPage": null,
+      "targetRoute": "/blog/gaming-streaming-pc-planning/",
+      "action": "new_research_draft",
+      "evidenceRequired": [
+        {
+          "id": "obs-hardware",
+          "scope": "Supported encoder families and configuration"
+        },
+        {
+          "id": "obs-start",
+          "scope": "Configuration wizard and test recording"
+        },
+        {
+          "id": "presentmon",
+          "scope": "Capture and interpretation; main branch can change"
+        }
+      ],
+      "regionalRelevance": "CA and US; no forced regional redirect",
+      "nextStep": {
+        "url": "/builder/",
+        "label": "Plan the full streaming setup"
+      },
+      "status": "needs_human_review",
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-10",
+      "query": "new PC first boot setup checklist",
+      "intent": "Move from completed assembly to a supported working system",
+      "audience": "First-time builders ready to power on",
+      "existingMatchingPage": null,
+      "targetRoute": "/blog/new-pc-first-boot-setup-checklist/",
+      "action": "new_research_draft",
+      "evidenceRequired": [
+        {
+          "id": "intel-build",
+          "scope": "PC assembly overview; exact cooler and motherboard manuals take precedence"
+        },
+        {
+          "id": "msi-b650-manual",
+          "scope": "English printed pages 16–17, 29 and 34 (PDF pages 18–19, 31 and 36)"
+        },
+        {
+          "id": "asus-nodisplay",
+          "scope": "General troubleshooting; exact motherboard manual overrides labels"
+        },
+        {
+          "id": "windows-media",
+          "scope": "Windows installation media; safeguards before erase/reinstall"
+        },
+        {
+          "id": "windows11",
+          "scope": "Supported OS installation requirements; no bypass procedure"
+        },
+        {
+          "id": "expo",
+          "scope": "DDR5 overclocking profiles on supported AM5 setups"
+        }
+      ],
+      "regionalRelevance": "CA and US; no forced regional redirect",
+      "nextStep": {
+        "url": "/build-school/",
+        "label": "Save or print the build checklist"
+      },
+      "status": "needs_human_review",
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-11",
+      "query": "RTX 5070 vs RX 9070",
+      "intent": "Choose between two documented GPU designs",
+      "audience": "Gaming buyers comparing RTX 5070 and RX 9070",
+      "existingMatchingPage": "/compare/rtx-5070-vs-rx-9070/",
+      "targetRoute": "/compare/rtx-5070-vs-rx-9070/",
+      "action": "materially_improve_existing_intent_staging_override",
+      "evidenceRequired": [
+        {
+          "id": "rtx5070",
+          "scope": "RTX 5070 reference configuration, exclude Ti and partner geometry"
+        },
+        {
+          "id": "rx9070",
+          "scope": "RX 9070, exclude XT/GRE and partner geometry"
+        },
+        {
+          "id": "ts9070",
+          "scope": "March 7, 2025 test system/driver versions; historical tests only"
+        },
+        {
+          "id": "dlss",
+          "scope": "Separate reconstruction, frame generation and supported device/game versions"
+        },
+        {
+          "id": "fsr3",
+          "scope": "FSR 3 algorithm/implementation; do not imply current-version support for every game"
+        }
+      ],
+      "regionalRelevance": "CA and US; no forced regional redirect",
+      "nextStep": {
+        "url": "/compare/?parts=rtx5070%2Crx9070&mode=interactive",
+        "label": "Compare the exact parts in your plan"
+      },
+      "status": "needs_human_review",
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-12",
+      "query": "9800X3D vs 7800X3D upgrade worth it",
+      "intent": "Choose an AM5 gaming CPU or evaluate a replacement",
+      "audience": "New AM5 buyers and current 7800X3D owners",
+      "existingMatchingPage": "/compare/ryzen-7-9800x3d-vs-7800x3d/",
+      "targetRoute": "/compare/ryzen-7-9800x3d-vs-7800x3d/",
+      "action": "materially_improve_existing_intent_staging_override",
+      "evidenceRequired": [
+        {
+          "id": "ryzen9800",
+          "scope": "Ryzen 7 9800X3D boxed ID 100-100001084WOF"
+        },
+        {
+          "id": "ryzen7800",
+          "scope": "Ryzen 7 7800X3D boxed ID 100-100000910WOF"
+        },
+        {
+          "id": "gn9800",
+          "scope": "November 2024 review; game-specific tests and production workloads"
+        },
+        {
+          "id": "msi-bios",
+          "scope": "M-FLASH overview; exact board instructions and support list still required"
+        }
+      ],
+      "regionalRelevance": "CA and US; no forced regional redirect",
+      "nextStep": {
+        "url": "/upgrade/",
+        "label": "Compare keeping and upgrading your PC"
+      },
+      "status": "needs_human_review",
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-13",
+      "query": "RTX 5060 Ti 8GB vs 16GB",
+      "intent": "Choose between capacity variants without a blanket rule",
+      "audience": "Buyers comparing desktop RTX 5060 Ti variants",
+      "existingMatchingPage": "/blog/rtx-5060-ti-8gb-vs-16gb/",
+      "targetRoute": "/blog/rtx-5060-ti-8gb-vs-16gb/",
+      "action": "materially_improve_existing_intent_staging_override",
+      "evidenceRequired": [
+        {
+          "id": "rtx5060",
+          "scope": "RTX 5060 Ti 8 GB/16 GB reference configuration; separate non-Ti"
+        },
+        {
+          "id": "ts5060-capacity",
+          "scope": "June 28, 2025 tests; selected games/settings and host PCIe generations"
+        },
+        {
+          "id": "ts9060-5060",
+          "scope": "July 29, 2025; ASUS Prime variants, 1440p, native and separate upscale modes"
+        }
+      ],
+      "regionalRelevance": "CA and US; no forced regional redirect",
+      "nextStep": {
+        "url": "/compare/",
+        "label": "Compare exact capacity variants"
+      },
+      "status": "needs_human_review",
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-14",
+      "query": "RTX 5060 Ti 16GB vs RX 9060 XT 16GB",
+      "intent": "Evaluate two alternatives when local prices make the comparison meaningful",
+      "audience": "Midrange buyers comparing 16 GB graphics options",
+      "existingMatchingPage": null,
+      "targetRoute": "/compare/rtx-5060-ti-16gb-vs-rx-9060-xt-16gb/",
+      "action": "new_research_draft",
+      "evidenceRequired": [
+        {
+          "id": "rtx5060",
+          "scope": "RTX 5060 Ti 8 GB/16 GB reference configuration; separate non-Ti"
+        },
+        {
+          "id": "rx9060",
+          "scope": "16 GB product entry; do not inherit it onto an 8 GB variant"
+        },
+        {
+          "id": "ts9060-5060",
+          "scope": "July 29, 2025; ASUS Prime variants, 1440p, native and separate upscale modes"
+        },
+        {
+          "id": "dlss",
+          "scope": "Separate reconstruction, frame generation and supported device/game versions"
+        },
+        {
+          "id": "fsr3",
+          "scope": "FSR 3 algorithm/implementation; do not imply current-version support for every game"
+        }
+      ],
+      "regionalRelevance": "CA and US; no forced regional redirect",
+      "nextStep": {
+        "url": "/compare/",
+        "label": "Compare your available 16 GB options"
+      },
+      "status": "needs_human_review",
+      "blockers": [
+        "verified_same_budget_offers",
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-15",
+      "query": "32GB vs 64GB RAM gaming editing",
+      "intent": "Decide whether a defined workload needs a larger matched kit",
+      "audience": "Gamers, editors and multitaskers considering 32 or 64 GB",
+      "existingMatchingPage": null,
+      "targetRoute": "/blog/32gb-vs-64gb-ram-workloads/",
+      "action": "new_research_draft",
+      "evidenceRequired": [
+        {
+          "id": "kingston-ram",
+          "scope": "FAQs KTM/KTF on kits, overclock profiles, compatibility and installation"
+        },
+        {
+          "id": "premiere",
+          "scope": "Version-specific Windows table; platform columns kept separate"
+        },
+        {
+          "id": "expo",
+          "scope": "DDR5 overclocking profiles on supported AM5 setups"
+        }
+      ],
+      "regionalRelevance": "CA and US; no forced regional redirect",
+      "nextStep": {
+        "url": "/upgrade/",
+        "label": "Check whether a memory upgrade solves your workload"
+      },
+      "status": "needs_human_review",
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-16",
+      "query": "NVMe vs SATA SSD compatibility gaming",
+      "intent": "Choose a compatible SSD or evaluate a storage replacement",
+      "audience": "Buyers adding storage and owners of working SATA drives",
+      "existingMatchingPage": "/blog/nvme-vs-sata-ssd-for-gaming/",
+      "targetRoute": "/blog/nvme-vs-sata-ssd-for-gaming/",
+      "action": "materially_improve_existing_intent_staging_override",
+      "evidenceRequired": [
+        {
+          "id": "kingston-m2",
+          "scope": "Interface versus physical format"
+        },
+        {
+          "id": "samsung990",
+          "scope": "MZ-V9P1T0BW, 1 TB without a factory heatsink; UK specs only"
+        },
+        {
+          "id": "msi-b650",
+          "scope": "Exact MAG B650 TOMAHAWK WIFI; not B850/MAX or another revision"
+        },
+        {
+          "id": "windows-storage",
+          "scope": "Storage settings and safe cleanup; not an SSD speed test"
+        }
+      ],
+      "regionalRelevance": "CA and US; no forced regional redirect",
+      "nextStep": {
+        "url": "/tools/storage-capacity-planner/",
+        "label": "Plan the capacity you actually need"
+      },
+      "status": "needs_human_review",
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-17",
+      "query": "B650 Tomahawk vs B650 Aorus Elite AX features",
+      "intent": "Select an AM5 board through exact documented features",
+      "audience": "Builders comparing mainstream AM5 board features",
+      "existingMatchingPage": "/blog/choose-a-motherboard-for-your-cpu/",
+      "targetRoute": "/blog/choose-a-motherboard-for-your-cpu/",
+      "action": "materially_improve_existing_intent_staging_override",
+      "evidenceRequired": [
+        {
+          "id": "msi-b650",
+          "scope": "Exact MAG B650 TOMAHAWK WIFI; not B850/MAX or another revision"
+        },
+        {
+          "id": "msi-b650-manual",
+          "scope": "English printed pages 16–17, 29 and 34 (PDF pages 18–19, 31 and 36)"
+        },
+        {
+          "id": "gigabyte-b650",
+          "scope": "PCB rev. 1.0 and 1.1; exclude rev. 1.2, V2 and ICE"
+        },
+        {
+          "id": "intel-board",
+          "scope": "Socket, chipset, form factor and connections; general planning"
+        }
+      ],
+      "regionalRelevance": "CA and US; no forced regional redirect",
+      "nextStep": {
+        "url": "/builder/",
+        "label": "Check the board against your full build"
+      },
+      "status": "needs_human_review",
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-18",
+      "query": "7800X3D North NH-D15 240mm AIO fit",
+      "intent": "Evaluate two cooling layouts for one specified CPU and case",
+      "audience": "Owners planning Ryzen 7 7800X3D in an original Fractal North",
+      "existingMatchingPage": null,
+      "targetRoute": "/blog/ryzen-7800x3d-north-air-vs-aio/",
+      "action": "new_research_draft",
+      "evidenceRequired": [
+        {
+          "id": "ryzen7800",
+          "scope": "Ryzen 7 7800X3D boxed ID 100-100000910WOF"
+        },
+        {
+          "id": "north-sheet",
+          "scope": "Original North; exclude North XL and Momentum Edition"
+        },
+        {
+          "id": "nhd15-sheet",
+          "scope": "Original NH-D15, not NH-D15 G2; fan position affects envelope"
+        },
+        {
+          "id": "h100i",
+          "scope": "CW-9060043-WW; exact mounting hardware still requires manual"
+        }
+      ],
+      "regionalRelevance": "CA and US; no forced regional redirect",
+      "nextStep": {
+        "url": "/compatibility/",
+        "label": "Record this cooling layout’s fit checks"
+      },
+      "status": "needs_human_review",
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-19",
+      "query": "CPU or GPU upgrade first gaming",
+      "intent": "Identify a useful gaming upgrade from observed evidence",
+      "audience": "Owners whose current PC misses a gaming goal",
+      "existingMatchingPage": "/blog/cpu-or-gpu-upgrade-for-gaming/",
+      "targetRoute": "/blog/cpu-or-gpu-upgrade-for-gaming/",
+      "action": "materially_improve_existing_intent_staging_override",
+      "evidenceRequired": [
+        {
+          "id": "intel-limits",
+          "scope": "Context-sensitive CPU/GPU limits"
+        },
+        {
+          "id": "presentmon",
+          "scope": "Capture and interpretation; main branch can change"
+        },
+        {
+          "id": "windows-refresh",
+          "scope": "Advanced display settings; supported modes only"
+        },
+        {
+          "id": "gn9800",
+          "scope": "November 2024 review; game-specific tests and production workloads"
+        }
+      ],
+      "regionalRelevance": "CA and US; no forced regional redirect",
+      "nextStep": {
+        "url": "/upgrade/",
+        "label": "Compare your keep and upgrade routes"
+      },
+      "status": "needs_human_review",
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-20",
+      "query": "RTX 3060 upgrade or keep",
+      "intent": "Evaluate an RTX 3060 owner’s alternatives",
+      "audience": "Desktop RTX 3060 owners considering a graphics purchase",
+      "existingMatchingPage": null,
+      "targetRoute": "/blog/rtx-3060-upgrade-or-keep/",
+      "action": "new_research_draft",
+      "evidenceRequired": [
+        {
+          "id": "rtx3060",
+          "scope": "RTX 3060 12 GB/8 GB, separate Ti and laptop versions"
+        },
+        {
+          "id": "intel-limits",
+          "scope": "Context-sensitive CPU/GPU limits"
+        },
+        {
+          "id": "rtx5070",
+          "scope": "RTX 5070 reference configuration, exclude Ti and partner geometry"
+        },
+        {
+          "id": "rx9070",
+          "scope": "RX 9070, exclude XT/GRE and partner geometry"
+        },
+        {
+          "id": "ts9070",
+          "scope": "March 7, 2025 test system/driver versions; historical tests only"
+        },
+        {
+          "id": "corsair-cables",
+          "scope": "Cable compatibility chart; identify exact PSU and cable type"
+        }
+      ],
+      "regionalRelevance": "CA and US; no forced regional redirect",
+      "nextStep": {
+        "url": "/upgrade/",
+        "label": "Plan an RTX 3060 keep-or-upgrade decision"
+      },
+      "status": "needs_human_review",
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-21",
+      "query": "AM4 CPU upgrade vs new platform cost",
+      "intent": "Compare an AM4 drop-in candidate with full platform replacement",
+      "audience": "Owners of working AM4 systems",
+      "existingMatchingPage": null,
+      "targetRoute": "/blog/am4-upgrade-vs-platform-replacement/",
+      "action": "new_research_draft",
+      "evidenceRequired": [
+        {
+          "id": "am4-announcement",
+          "scope": "Ryzen 7 5700X3D historical announcement; no current availability claim"
+        },
+        {
+          "id": "msi-bios",
+          "scope": "M-FLASH overview; exact board instructions and support list still required"
+        },
+        {
+          "id": "intel-limits",
+          "scope": "Context-sensitive CPU/GPU limits"
+        },
+        {
+          "id": "corsair-cables",
+          "scope": "Cable compatibility chart; identify exact PSU and cable type"
+        }
+      ],
+      "regionalRelevance": "CA and US; no forced regional redirect",
+      "nextStep": {
+        "url": "/tools/platform-upgrade-cost/",
+        "label": "Compare the entire platform cost"
+      },
+      "status": "needs_human_review",
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-22",
+      "query": "AM5 CPU upgrade BIOS checklist",
+      "intent": "Prepare a documented AM5 CPU replacement",
+      "audience": "AM5 owners considering another processor",
+      "existingMatchingPage": "/blog/am5-upgrade-checklist/",
+      "targetRoute": "/blog/am5-upgrade-checklist/",
+      "action": "materially_improve_existing_intent_staging_override",
+      "evidenceRequired": [
+        {
+          "id": "msi-b650",
+          "scope": "Exact MAG B650 TOMAHAWK WIFI; not B850/MAX or another revision"
+        },
+        {
+          "id": "ryzen9800",
+          "scope": "Ryzen 7 9800X3D boxed ID 100-100001084WOF"
+        },
+        {
+          "id": "ryzen7800",
+          "scope": "Ryzen 7 7800X3D boxed ID 100-100000910WOF"
+        },
+        {
+          "id": "msi-bios",
+          "scope": "M-FLASH overview; exact board instructions and support list still required"
+        },
+        {
+          "id": "kingston-ram",
+          "scope": "FAQs KTM/KTF on kits, overclock profiles, compatibility and installation"
+        }
+      ],
+      "regionalRelevance": "CA and US; no forced regional redirect",
+      "nextStep": {
+        "url": "/compatibility/",
+        "label": "Record the exact CPU and BIOS check"
+      },
+      "status": "needs_human_review",
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-23",
+      "query": "reuse PC parts new build",
+      "intent": "Evaluate existing equipment without assuming universal compatibility",
+      "audience": "Owners moving components into a new or upgraded desktop",
+      "existingMatchingPage": null,
+      "targetRoute": "/blog/reuse-pc-components-new-build/",
+      "action": "new_research_draft",
+      "evidenceRequired": [
+        {
+          "id": "corsair-cables",
+          "scope": "Cable compatibility chart; identify exact PSU and cable type"
+        },
+        {
+          "id": "kingston-ram",
+          "scope": "FAQs KTM/KTF on kits, overclock profiles, compatibility and installation"
+        },
+        {
+          "id": "kingston-m2",
+          "scope": "Interface versus physical format"
+        },
+        {
+          "id": "north-sheet",
+          "scope": "Original North; exclude North XL and Momentum Edition"
+        },
+        {
+          "id": "windows-media",
+          "scope": "Windows installation media; safeguards before erase/reinstall"
+        }
+      ],
+      "regionalRelevance": "CA and US; no forced regional redirect",
+      "nextStep": {
+        "url": "/upgrade/",
+        "label": "Mark your components keep, replace or verify"
+      },
+      "status": "needs_human_review",
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-24",
+      "query": "motherboard CPU upgrade total platform cost",
+      "intent": "Calculate honest whole-platform purchase scenarios",
+      "audience": "Owners evaluating a CPU/board replacement",
+      "existingMatchingPage": "/blog/pc-upgrade-total-platform-cost/",
+      "targetRoute": "/blog/pc-upgrade-total-platform-cost/",
+      "action": "materially_improve_existing_intent_staging_override",
+      "evidenceRequired": [
+        {
+          "id": "intel-board",
+          "scope": "Socket, chipset, form factor and connections; general planning"
+        },
+        {
+          "id": "kingston-ram",
+          "scope": "FAQs KTM/KTF on kits, overclock profiles, compatibility and installation"
+        },
+        {
+          "id": "corsair-cables",
+          "scope": "Cable compatibility chart; identify exact PSU and cable type"
+        },
+        {
+          "id": "windows11",
+          "scope": "Supported OS installation requirements; no bypass procedure"
+        }
+      ],
+      "regionalRelevance": "CA and US; no forced regional redirect",
+      "nextStep": {
+        "url": "/tools/platform-upgrade-cost/",
+        "label": "Calculate complete upgrade scenarios"
+      },
+      "status": "needs_human_review",
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-25",
+      "query": "upgrade PC in stages compatibility",
+      "intent": "Sequence purchases while preserving working intermediate PCs",
+      "audience": "Owners upgrading over several purchase periods",
+      "existingMatchingPage": null,
+      "targetRoute": "/blog/phased-pc-upgrade-plan/",
+      "action": "new_research_draft",
+      "evidenceRequired": [
+        {
+          "id": "intel-board",
+          "scope": "Socket, chipset, form factor and connections; general planning"
+        },
+        {
+          "id": "kingston-ram",
+          "scope": "FAQs KTM/KTF on kits, overclock profiles, compatibility and installation"
+        },
+        {
+          "id": "kingston-m2",
+          "scope": "Interface versus physical format"
+        },
+        {
+          "id": "corsair-cables",
+          "scope": "Cable compatibility chart; identify exact PSU and cable type"
+        },
+        {
+          "id": "msi-bios",
+          "scope": "M-FLASH overview; exact board instructions and support list still required"
+        }
+      ],
+      "regionalRelevance": "CA and US; no forced regional redirect",
+      "nextStep": {
+        "url": "/upgrade/",
+        "label": "Record your staged upgrade plan"
+      },
+      "status": "needs_human_review",
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-26",
+      "query": "RAM or SSD capacity problem",
+      "intent": "Diagnose capacity symptoms before selecting an upgrade",
+      "audience": "Owners seeing stutter, full-storage warnings or difficult projects",
+      "existingMatchingPage": null,
+      "targetRoute": "/blog/ram-or-storage-capacity-problem/",
+      "action": "new_research_draft",
+      "evidenceRequired": [
+        {
+          "id": "windows-storage",
+          "scope": "Storage settings and safe cleanup; not an SSD speed test"
+        },
+        {
+          "id": "kingston-ram",
+          "scope": "FAQs KTM/KTF on kits, overclock profiles, compatibility and installation"
+        },
+        {
+          "id": "kingston-m2",
+          "scope": "Interface versus physical format"
+        },
+        {
+          "id": "premiere",
+          "scope": "Version-specific Windows table; platform columns kept separate"
+        }
+      ],
+      "regionalRelevance": "CA and US; no forced regional redirect",
+      "nextStep": {
+        "url": "/troubleshooting/",
+        "label": "Identify the capacity symptom"
+      },
+      "status": "needs_human_review",
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-27",
+      "query": "will my graphics card fit case",
+      "intent": "Verify physical graphics-card installation with documented or measured dimensions",
+      "audience": "Builders changing a graphics card or case",
+      "existingMatchingPage": "/blog/will-a-graphics-card-fit-my-case/",
+      "targetRoute": "/blog/will-a-graphics-card-fit-my-case/",
+      "action": "materially_improve_existing_intent_staging_override",
+      "evidenceRequired": [
+        {
+          "id": "north-sheet",
+          "scope": "Original North; exclude North XL and Momentum Edition"
+        },
+        {
+          "id": "msi-b650-manual",
+          "scope": "English printed pages 16–17, 29 and 34 (PDF pages 18–19, 31 and 36)"
+        },
+        {
+          "id": "corsair-cables",
+          "scope": "Cable compatibility chart; identify exact PSU and cable type"
+        }
+      ],
+      "regionalRelevance": "CA and US; no forced regional redirect",
+      "nextStep": {
+        "url": "/compatibility/",
+        "label": "Record the card and case fit check"
+      },
+      "status": "needs_human_review",
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-28",
+      "query": "check CPU motherboard BIOS support",
+      "intent": "Verify processor recognition and firmware preparation",
+      "audience": "Buyers ordering a CPU/board pair or planning a socket-compatible swap",
+      "existingMatchingPage": null,
+      "targetRoute": "/blog/check-cpu-bios-support/",
+      "action": "new_research_draft",
+      "evidenceRequired": [
+        {
+          "id": "msi-b650",
+          "scope": "Exact MAG B650 TOMAHAWK WIFI; not B850/MAX or another revision"
+        },
+        {
+          "id": "msi-bios",
+          "scope": "M-FLASH overview; exact board instructions and support list still required"
+        },
+        {
+          "id": "ryzen9800",
+          "scope": "Ryzen 7 9800X3D boxed ID 100-100001084WOF"
+        }
+      ],
+      "regionalRelevance": "CA and US; no forced regional redirect",
+      "nextStep": {
+        "url": "/compatibility/",
+        "label": "Create a sourced CPU-support check"
+      },
+      "status": "needs_human_review",
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-29",
+      "query": "PSU modular cable compatibility",
+      "intent": "Select a documented power connection plan",
+      "audience": "Builders choosing a supply or reusing one",
+      "existingMatchingPage": "/blog/choose-a-pc-power-supply/",
+      "targetRoute": "/blog/choose-a-pc-power-supply/",
+      "action": "materially_improve_existing_intent_staging_override",
+      "evidenceRequired": [
+        {
+          "id": "corsair-cables",
+          "scope": "Cable compatibility chart; identify exact PSU and cable type"
+        },
+        {
+          "id": "rtx5070",
+          "scope": "RTX 5070 reference configuration, exclude Ti and partner geometry"
+        },
+        {
+          "id": "rx9070",
+          "scope": "RX 9070, exclude XT/GRE and partner geometry"
+        },
+        {
+          "id": "north-sheet",
+          "scope": "Original North; exclude North XL and Momentum Edition"
+        }
+      ],
+      "regionalRelevance": "CA and US; no forced regional redirect",
+      "nextStep": {
+        "url": "/builder/",
+        "label": "Record the full power connection plan"
+      },
+      "status": "needs_human_review",
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-30",
+      "query": "B650 Tomahawk M2_3 PCI_E2 lane sharing",
+      "intent": "Plan storage and expansion using the exact board topology",
+      "audience": "Owners of MSI MAG B650 TOMAHAWK WIFI",
+      "existingMatchingPage": "/blog/b650-tomahawk-m2-pcie-lane-sharing/",
+      "targetRoute": "/blog/b650-tomahawk-m2-pcie-lane-sharing/",
+      "action": "materially_improve_existing_intent_staging_override",
+      "evidenceRequired": [
+        {
+          "id": "msi-b650",
+          "scope": "Exact MAG B650 TOMAHAWK WIFI; not B850/MAX or another revision"
+        },
+        {
+          "id": "msi-b650-manual",
+          "scope": "English printed pages 16–17, 29 and 34 (PDF pages 18–19, 31 and 36)"
+        }
+      ],
+      "regionalRelevance": "CA and US; no forced regional redirect",
+      "nextStep": {
+        "url": "/tools/b650-tomahawk-lane-check/",
+        "label": "Check the documented slot arrangement"
+      },
+      "status": "needs_human_review",
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-31",
+      "query": "new PC powers on no display",
+      "intent": "Diagnose a first-boot no-display symptom safely",
+      "audience": "New builders whose system has no usable display",
+      "existingMatchingPage": null,
+      "targetRoute": "/blog/new-pc-no-display-safe-checks/",
+      "action": "new_research_draft",
+      "evidenceRequired": [
+        {
+          "id": "asus-nodisplay",
+          "scope": "General troubleshooting; exact motherboard manual overrides labels"
+        },
+        {
+          "id": "msi-b650-manual",
+          "scope": "English printed pages 16–17, 29 and 34 (PDF pages 18–19, 31 and 36)"
+        },
+        {
+          "id": "msi-bios",
+          "scope": "M-FLASH overview; exact board instructions and support list still required"
+        },
+        {
+          "id": "intel-build",
+          "scope": "PC assembly overview; exact cooler and motherboard manuals take precedence"
+        }
+      ],
+      "regionalRelevance": "CA and US; no forced regional redirect",
+      "nextStep": {
+        "url": "/troubleshooting/",
+        "label": "Follow the no-display diagnostic path"
+      },
+      "status": "needs_human_review",
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-32",
+      "query": "low FPS stuttering diagnostic checklist",
+      "intent": "Investigate a repeatable gaming symptom without unsafe optimization shortcuts",
+      "audience": "Players with slow or inconsistent games",
+      "existingMatchingPage": null,
+      "targetRoute": "/blog/low-fps-stutter-diagnostic-checklist/",
+      "action": "new_research_draft",
+      "evidenceRequired": [
+        {
+          "id": "presentmon",
+          "scope": "Capture and interpretation; main branch can change"
+        },
+        {
+          "id": "presentmon-console",
+          "scope": "CSV metrics; record exact capture version"
+        },
+        {
+          "id": "intel-limits",
+          "scope": "Context-sensitive CPU/GPU limits"
+        },
+        {
+          "id": "windows-refresh",
+          "scope": "Advanced display settings; supported modes only"
+        },
+        {
+          "id": "windows-storage",
+          "scope": "Storage settings and safe cleanup; not an SSD speed test"
+        }
+      ],
+      "regionalRelevance": "CA and US; no forced regional redirect",
+      "nextStep": {
+        "url": "/troubleshooting/",
+        "label": "Start a recorded diagnostic path"
+      },
+      "status": "needs_human_review",
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-33",
+      "query": "graphics driver update rollback checklist",
+      "intent": "Investigate a suspected graphics-driver regression",
+      "audience": "Owners seeing new symptoms after a driver or OS update",
+      "existingMatchingPage": "/blog/graphics-driver-update-rollback-checklist/",
+      "targetRoute": "/blog/graphics-driver-update-rollback-checklist/",
+      "action": "materially_improve_existing_intent_staging_override",
+      "evidenceRequired": [
+        {
+          "id": "windows-display",
+          "scope": "Flicker diagnostics and rollback prerequisites"
+        },
+        {
+          "id": "presentmon",
+          "scope": "Capture and interpretation; main branch can change"
+        },
+        {
+          "id": "windows-refresh",
+          "scope": "Advanced display settings; supported modes only"
+        }
+      ],
+      "regionalRelevance": "CA and US; no forced regional redirect",
+      "nextStep": {
+        "url": "/troubleshooting/",
+        "label": "Record a driver-related diagnostic case"
+      },
+      "status": "needs_human_review",
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-34",
+      "query": "RAM QVL EXPO slots compatible kits",
+      "intent": "Choose and install a supported memory configuration",
+      "audience": "Builders selecting RAM or adding modules",
+      "existingMatchingPage": "/blog/how-to-choose-gaming-ram/",
+      "targetRoute": "/blog/how-to-choose-gaming-ram/",
+      "action": "materially_improve_existing_intent_staging_override",
+      "evidenceRequired": [
+        {
+          "id": "kingston-ram",
+          "scope": "FAQs KTM/KTF on kits, overclock profiles, compatibility and installation"
+        },
+        {
+          "id": "expo",
+          "scope": "DDR5 overclocking profiles on supported AM5 setups"
+        },
+        {
+          "id": "msi-b650-manual",
+          "scope": "English printed pages 16–17, 29 and 34 (PDF pages 18–19, 31 and 36)"
+        },
+        {
+          "id": "ryzen9800",
+          "scope": "Ryzen 7 9800X3D boxed ID 100-100001084WOF"
+        }
+      ],
+      "regionalRelevance": "CA and US; no forced regional redirect",
+      "nextStep": {
+        "url": "/compatibility/",
+        "label": "Check the exact memory configuration"
+      },
+      "status": "needs_human_review",
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-35",
+      "query": "average FPS 1% low frame time explained",
+      "intent": "Interpret frame-performance summaries accurately",
+      "audience": "Readers comparing gaming tests or using capture tools",
+      "existingMatchingPage": null,
+      "targetRoute": "/blog/average-fps-one-percent-lows-frame-times/",
+      "action": "new_research_draft",
+      "evidenceRequired": [
+        {
+          "id": "presentmon",
+          "scope": "Capture and interpretation; main branch can change"
+        },
+        {
+          "id": "presentmon-console",
+          "scope": "CSV metrics; record exact capture version"
+        },
+        {
+          "id": "frameview",
+          "scope": "Versioned frame accounting and metric changes"
+        }
+      ],
+      "regionalRelevance": "CA and US; no forced regional redirect",
+      "nextStep": {
+        "url": "/performance/evidence/",
+        "label": "Read the benchmark evidence and testing protocol"
+      },
+      "status": "needs_human_review",
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-36",
+      "query": "upscaling vs frame generation latency",
+      "intent": "Distinguish supported rendering modes in benchmarks and purchase choices",
+      "audience": "Players comparing native, upscale and generated-frame modes",
+      "existingMatchingPage": null,
+      "targetRoute": "/blog/upscaling-vs-frame-generation/",
+      "action": "new_research_draft",
+      "evidenceRequired": [
+        {
+          "id": "dlss",
+          "scope": "Separate reconstruction, frame generation and supported device/game versions"
+        },
+        {
+          "id": "fsr3",
+          "scope": "FSR 3 algorithm/implementation; do not imply current-version support for every game"
+        },
+        {
+          "id": "presentmon-console",
+          "scope": "CSV metrics; record exact capture version"
+        }
+      ],
+      "regionalRelevance": "CA and US; no forced regional redirect",
+      "nextStep": {
+        "url": "/performance/evidence/",
+        "label": "Check how rendering modes are recorded"
+      },
+      "status": "needs_human_review",
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-37",
+      "query": "monitor resolution refresh game performance",
+      "intent": "Match a monitor goal to hardware evidence and practical setup",
+      "audience": "Buyers selecting a display or planning a graphics upgrade",
+      "existingMatchingPage": null,
+      "targetRoute": "/blog/choose-display-target-game-evidence/",
+      "action": "new_research_draft",
+      "evidenceRequired": [
+        {
+          "id": "windows-refresh",
+          "scope": "Advanced display settings; supported modes only"
+        },
+        {
+          "id": "presentmon",
+          "scope": "Capture and interpretation; main branch can change"
+        },
+        {
+          "id": "ts9070",
+          "scope": "March 7, 2025 test system/driver versions; historical tests only"
+        }
+      ],
+      "regionalRelevance": "CA and US; no forced regional redirect",
+      "nextStep": {
+        "url": "/tools/monitor-pixel-density/",
+        "label": "Compare the geometry of your display options"
+      },
+      "status": "needs_human_review",
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-38",
+      "query": "Fortnite PC requirements settings FPS evidence",
+      "intent": "Plan Fortnite hardware without fabricated FPS",
+      "audience": "PC players considering a first build or an upgrade",
+      "existingMatchingPage": null,
+      "targetRoute": "/blog/fortnite-pc-requirements-settings-evidence/",
+      "action": "new_research_draft",
+      "evidenceRequired": [
+        {
+          "id": "fortnite",
+          "scope": "PC minimum, recommended and Epic Quality columns; no target-FPS claim"
+        },
+        {
+          "id": "presentmon",
+          "scope": "Capture and interpretation; main branch can change"
+        },
+        {
+          "id": "windows-refresh",
+          "scope": "Advanced display settings; supported modes only"
+        },
+        {
+          "id": "windows11",
+          "scope": "Supported OS installation requirements; no bypass procedure"
+        }
+      ],
+      "regionalRelevance": "CA and US; no forced regional redirect",
+      "nextStep": {
+        "url": "/performance/",
+        "label": "Check available Fortnite performance evidence"
+      },
+      "status": "needs_human_review",
+      "blockers": [
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-39",
+      "query": "Premiere PC memory storage requirements",
+      "intent": "Plan application-specific hardware for Premiere editing",
+      "audience": "Editors building or upgrading a Windows workstation",
+      "existingMatchingPage": null,
+      "targetRoute": "/blog/premiere-creator-pc-workload-guide/",
+      "action": "new_research_draft",
+      "evidenceRequired": [
+        {
+          "id": "premiere",
+          "scope": "Version-specific Windows table; platform columns kept separate"
+        },
+        {
+          "id": "kingston-ram",
+          "scope": "FAQs KTM/KTF on kits, overclock profiles, compatibility and installation"
+        },
+        {
+          "id": "kingston-m2",
+          "scope": "Interface versus physical format"
+        },
+        {
+          "id": "obs-hardware",
+          "scope": "Supported encoder families and configuration"
+        }
+      ],
+      "regionalRelevance": "CA and US; no forced regional redirect",
+      "nextStep": {
+        "url": "/builder/",
+        "label": "Plan a project-specific workstation"
+      },
+      "status": "needs_human_review",
+      "blockers": [
+        "application_specific_benchmark_coverage",
+        "verified_bom_revision",
+        "exact_regional_offers",
+        "human_editorial_review"
+      ]
+    },
+    {
+      "taskId": "ED-40",
+      "query": "how to read PC hardware benchmarks",
+      "intent": "Evaluate whether published evidence answers a purchase question",
+      "audience": "Readers comparing reviews and planning their own repeatable tests",
+      "existingMatchingPage": null,
+      "targetRoute": "/blog/read-hardware-benchmarks-test-conditions/",
+      "action": "new_research_draft",
+      "evidenceRequired": [
+        {
+          "id": "presentmon",
+          "scope": "Capture and interpretation; main branch can change"
+        },
+        {
+          "id": "presentmon-console",
+          "scope": "CSV metrics; record exact capture version"
+        },
+        {
+          "id": "frameview",
+          "scope": "Versioned frame accounting and metric changes"
+        },
+        {
+          "id": "ts9070",
+          "scope": "March 7, 2025 test system/driver versions; historical tests only"
+        },
+        {
+          "id": "gn9800",
+          "scope": "November 2024 review; game-specific tests and production workloads"
+        }
+      ],
+      "regionalRelevance": "CA and US; no forced regional redirect",
+      "nextStep": {
+        "url": "/performance/evidence/",
+        "label": "Use the reproducible benchmark protocol"
+      },
+      "status": "needs_human_review",
+      "blockers": [
+        "human_editorial_review"
+      ]
+    }
+  ]
+}

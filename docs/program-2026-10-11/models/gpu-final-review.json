@@ -1,0 +1,99 @@
+{
+  "checkedAt": "2026-10-11T17:29:36.774Z",
+  "method": "Actual dist/build-scene.js and bundled glTF loader in an isolated headless Edge profile with software WebGL. Camera fit uses manufacturer or candidate dimensions; screenshots are visual review, not certified fit.",
+  "scenarios": [
+    {
+      "name": "final-msi-5070-trio-angled",
+      "file": "/assets/models/sketchfab-msi-rtx-5070-gaming-trio-oc.glb",
+      "rotation": [
+        1.5707963267948966,
+        1.5707963267948966,
+        0
+      ],
+      "size": [
+        338,
+        50,
+        140
+      ],
+      "slot": "gpu",
+      "view": "angled",
+      "turns": 0,
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"failed\":[],\"rendered\":1,\"loadMs\":43}",
+        "canvas": {
+          "engine": "three.js r180",
+          "cameraDistance": "0.451",
+          "boundsSize": "0.338,0.050,0.140",
+          "renderCount": "4",
+          "triangles": "883",
+          "modelCount": "1",
+          "loadMs": "43"
+        }
+      },
+      "screenshot": "final-msi-5070-trio-angled.png"
+    },
+    {
+      "name": "final-msi-5070-trio-side",
+      "file": "/assets/models/sketchfab-msi-rtx-5070-gaming-trio-oc.glb",
+      "rotation": [
+        1.5707963267948966,
+        1.5707963267948966,
+        0
+      ],
+      "size": [
+        338,
+        50,
+        140
+      ],
+      "slot": "gpu",
+      "view": "side",
+      "turns": 0,
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"failed\":[],\"rendered\":1,\"loadMs\":45}",
+        "canvas": {
+          "engine": "three.js r180",
+          "cameraDistance": "0.452",
+          "boundsSize": "0.338,0.050,0.140",
+          "renderCount": "3",
+          "triangles": "883",
+          "modelCount": "1",
+          "loadMs": "45"
+        }
+      },
+      "screenshot": "final-msi-5070-trio-side.png"
+    },
+    {
+      "name": "final-msi-5070-trio-top",
+      "file": "/assets/models/sketchfab-msi-rtx-5070-gaming-trio-oc.glb",
+      "rotation": [
+        1.5707963267948966,
+        1.5707963267948966,
+        0
+      ],
+      "size": [
+        338,
+        50,
+        140
+      ],
+      "slot": "gpu",
+      "view": "top",
+      "turns": 0,
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"failed\":[],\"rendered\":1,\"loadMs\":77}",
+        "canvas": {
+          "engine": "three.js r180",
+          "cameraDistance": "0.451",
+          "boundsSize": "0.338,0.050,0.140",
+          "renderCount": "3",
+          "triangles": "883",
+          "modelCount": "1",
+          "loadMs": "77"
+        }
+      },
+      "screenshot": "final-msi-5070-trio-top.png"
+    }
+  ]
+}

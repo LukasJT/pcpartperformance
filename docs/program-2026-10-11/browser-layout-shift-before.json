@@ -1,0 +1,185 @@
+{
+  "recordedAt": "2026-10-11T18:46:16.880Z",
+  "scope": "Diagnostic local mobile startup; section navigation briefly inserted above toolbar and then moved; status text changed from one line to two.",
+  "run": {
+    "cls": 0.13434778413262105,
+    "domContentLoaded": 450.2999999988824,
+    "environment": "unthrottled local browser; not field Core Web Vitals",
+    "lcp": 1596,
+    "longTaskMs": 102,
+    "longTasks": 1,
+    "resourceTransfer": 172469,
+    "resources": 35,
+    "sampleWindowMs": 149939.8999999985,
+    "serverWait": 3.400000000372529,
+    "shiftDetails": [
+      {
+        "at": 357,
+        "sources": [
+          {
+            "class": "program-panel",
+            "current": {
+              "bottom": 844,
+              "height": 130.578125,
+              "left": 16,
+              "right": 364,
+              "top": 713.421875,
+              "width": 348,
+              "x": 16,
+              "y": 713.421875
+            },
+            "id": "build-plan",
+            "previous": {
+              "bottom": 718.1875,
+              "height": 142.515625,
+              "left": 16,
+              "right": 364,
+              "top": 575.671875,
+              "width": 348,
+              "x": 16,
+              "y": 575.671875
+            },
+            "tag": "SECTION"
+          },
+          {
+            "class": "builder-toolbar",
+            "current": {
+              "bottom": 689.421875,
+              "height": 134.5,
+              "left": 16,
+              "right": 364,
+              "top": 554.921875,
+              "width": 348,
+              "x": 16,
+              "y": 554.921875
+            },
+            "id": "",
+            "previous": {
+              "bottom": 551.671875,
+              "height": 112.75,
+              "left": 16,
+              "right": 364,
+              "top": 438.921875,
+              "width": 348,
+              "x": 16,
+              "y": 438.921875
+            },
+            "tag": "DIV"
+          },
+          {
+            "class": "builder-shell",
+            "current": {
+              "bottom": 0,
+              "height": 0,
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "width": 0,
+              "x": 0,
+              "y": 0
+            },
+            "id": "",
+            "previous": {
+              "bottom": 844,
+              "height": 101.8125,
+              "left": 0,
+              "right": 380,
+              "top": 742.1875,
+              "width": 380,
+              "x": 0,
+              "y": 742.1875
+            },
+            "tag": "DIV"
+          }
+        ],
+        "value": 0.07285255834325374
+      },
+      {
+        "at": 464.5,
+        "sources": [
+          {
+            "class": "builder-toolbar",
+            "current": {
+              "bottom": 573.421875,
+              "height": 134.5,
+              "left": 16,
+              "right": 364,
+              "top": 438.921875,
+              "width": 348,
+              "x": 16,
+              "y": 438.921875
+            },
+            "id": "",
+            "previous": {
+              "bottom": 689.421875,
+              "height": 134.5,
+              "left": 16,
+              "right": 364,
+              "top": 554.921875,
+              "width": 348,
+              "x": 16,
+              "y": 554.921875
+            },
+            "tag": "DIV"
+          },
+          {
+            "class": "program-panel",
+            "current": {
+              "bottom": 739.9375,
+              "height": 142.515625,
+              "left": 16,
+              "right": 364,
+              "top": 597.421875,
+              "width": 348,
+              "x": 16,
+              "y": 597.421875
+            },
+            "id": "build-plan",
+            "previous": {
+              "bottom": 844,
+              "height": 130.578125,
+              "left": 16,
+              "right": 364,
+              "top": 713.421875,
+              "width": 348,
+              "x": 16,
+              "y": 713.421875
+            },
+            "tag": "SECTION"
+          },
+          {
+            "class": "builder-shell",
+            "current": {
+              "bottom": 844,
+              "height": 80.0625,
+              "left": 0,
+              "right": 380,
+              "top": 763.9375,
+              "width": 380,
+              "x": 0,
+              "y": 763.9375
+            },
+            "id": "",
+            "previous": {
+              "bottom": 0,
+              "height": 0,
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "width": 0,
+              "x": 0,
+              "y": 0
+            },
+            "tag": "DIV"
+          }
+        ],
+        "value": 0.061495225789367294
+      }
+    ],
+    "threeDRequests": 0,
+    "viewport": {
+      "height": 844,
+      "width": 390
+    }
+  }
+}

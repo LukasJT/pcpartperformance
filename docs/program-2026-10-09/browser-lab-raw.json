@@ -1,0 +1,2168 @@
+{
+  "protocol": "Same connected IAB, 1440×900 desktop or 390×844 mobile, light theme, local gzip/no-store, no CPU/network throttling, fixed 2.5-second settling window after DOM snapshot. External font caching uncontrolled. CLS sums observed shifts in that window. Not field p75 or INP.",
+  "baselineCommit": "dc8200c",
+  "runs": [
+    {
+      "path": "/",
+      "port": 4186,
+      "run": 1,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 1425,
+        "h1": "Make a better upgrade.",
+        "metrics": {
+          "cls": 0.006669159604664682,
+          "domContentLoaded": 77.19999998807907,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 60,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 1075466,
+          "resources": 18,
+          "serverWait": 1,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          }
+        },
+        "scrollWidth": 1425,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T16:07:19.043Z"
+    },
+    {
+      "path": "/",
+      "port": 4185,
+      "run": 1,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 1425,
+        "h1": "Compare PC parts.Plan a better build.",
+        "metrics": {
+          "cls": 0.0050499591669231556,
+          "domContentLoaded": 75.59999999403954,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 56,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 166972,
+          "resources": 16,
+          "serverWait": 1.2000000178813934,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          }
+        },
+        "scrollWidth": 1425,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T16:07:23.573Z"
+    },
+    {
+      "path": "/hardware/graphics-cards/",
+      "port": 4186,
+      "run": 1,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 1425,
+        "h1": "Graphics cards.",
+        "metrics": {
+          "cls": 0.025217365847611233,
+          "domContentLoaded": 126.7000000178814,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 68,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 2328304,
+          "resources": 35,
+          "serverWait": 1.300000011920929,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          }
+        },
+        "scrollWidth": 1425,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T16:07:26.301Z"
+    },
+    {
+      "path": "/hardware/graphics-cards/",
+      "port": 4185,
+      "run": 1,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 1425,
+        "h1": "Graphics cards.",
+        "metrics": {
+          "cls": 0.019137213202352864,
+          "domContentLoaded": 101.7000000178814,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 56,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 2179574,
+          "resources": 34,
+          "serverWait": 1.2999999821186066,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          }
+        },
+        "scrollWidth": 1425,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T16:07:28.988Z"
+    },
+    {
+      "path": "/builder/",
+      "port": 4186,
+      "run": 1,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 1430,
+        "h1": "Build your PC",
+        "metrics": {
+          "cls": 0.2886209244050918,
+          "domContentLoaded": 146.09999999403954,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 164,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 145774,
+          "resources": 27,
+          "serverWait": 1.0999999940395355,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          }
+        },
+        "scrollWidth": 1430,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T16:20:30.747Z"
+    },
+    {
+      "path": "/performance/",
+      "port": 4186,
+      "run": 1,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 1425,
+        "h1": "Game performance",
+        "metrics": {
+          "cls": 0.012794552751273896,
+          "domContentLoaded": 114,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 60,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 135203,
+          "resources": 31,
+          "serverWait": 1.100000023841858,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          }
+        },
+        "scrollWidth": 1425,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T16:20:33.462Z"
+    },
+    {
+      "path": "/blog/how-to-choose-a-graphics-card/",
+      "port": 4186,
+      "run": 1,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 1425,
+        "h1": "How to choose a graphics card for your PC",
+        "metrics": {
+          "cls": 0.0005485098662836429,
+          "domContentLoaded": 67.5,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 68,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 33722,
+          "resources": 13,
+          "serverWait": 1.199999988079071,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          }
+        },
+        "scrollWidth": 1425,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T16:20:36.092Z"
+    },
+    {
+      "path": "/",
+      "port": 4186,
+      "run": 1,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 375,
+        "h1": "Make a better upgrade.",
+        "metrics": {
+          "cls": 0.0004785089714217261,
+          "domContentLoaded": 87.09999999403954,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 68,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 995051,
+          "resources": 15,
+          "serverWait": 1.2000000178813934,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 844,
+            "width": 390
+          }
+        },
+        "scrollWidth": 375,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T16:35:11.336Z"
+    },
+    {
+      "path": "/builder/",
+      "port": 4186,
+      "run": 1,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 380,
+        "h1": "Build your PC",
+        "metrics": {
+          "cls": 0.47902843601895734,
+          "domContentLoaded": 120.40000000596046,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 56,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 145774,
+          "resources": 29,
+          "serverWait": 1.2000000178813934,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 844,
+            "width": 390
+          }
+        },
+        "scrollWidth": 380,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T16:35:14.034Z"
+    },
+    {
+      "path": "/performance/",
+      "port": 4186,
+      "run": 1,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 375,
+        "h1": "Game performance",
+        "metrics": {
+          "cls": 0.0010208890186653489,
+          "domContentLoaded": 136.5,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 60,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 135203,
+          "resources": 25,
+          "serverWait": 1.5,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 844,
+            "width": 390
+          }
+        },
+        "scrollWidth": 375,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T16:35:16.830Z"
+    },
+    {
+      "path": "/hardware/graphics-cards/",
+      "port": 4186,
+      "run": 1,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 375,
+        "h1": "Graphics cards.",
+        "metrics": {
+          "cls": 0.01501781181914153,
+          "domContentLoaded": 94.59999999403954,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 60,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 1803364,
+          "resources": 30,
+          "serverWait": 1.199999988079071,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 844,
+            "width": 390
+          }
+        },
+        "scrollWidth": 375,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T16:35:19.491Z"
+    },
+    {
+      "path": "/",
+      "port": 4185,
+      "run": 1,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 375,
+        "h1": "Compare PC parts.Plan a better build.",
+        "metrics": {
+          "cls": 0.0007253870247561076,
+          "domContentLoaded": 73.5,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 56,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 57802,
+          "resources": 13,
+          "serverWait": 1.300000011920929,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 844,
+            "width": 390
+          }
+        },
+        "scrollWidth": 375,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T16:35:29.793Z"
+    },
+    {
+      "path": "/builder/",
+      "port": 4185,
+      "run": 1,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 380,
+        "h1": "Build your PC",
+        "metrics": {
+          "cls": 0.04103616262199299,
+          "domContentLoaded": 121.30000001192091,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 64,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 156687,
+          "resources": 31,
+          "serverWait": 1.300000011920929,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 844,
+            "width": 390
+          }
+        },
+        "scrollWidth": 380,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T16:35:32.507Z"
+    },
+    {
+      "path": "/performance/",
+      "port": 4185,
+      "run": 1,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 375,
+        "h1": "Game performance",
+        "metrics": {
+          "cls": 0.0000631013079969752,
+          "domContentLoaded": 97.40000000596046,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 80,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 73967,
+          "resources": 19,
+          "serverWait": 1.2999999821186066,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 844,
+            "width": 390
+          }
+        },
+        "scrollWidth": 375,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T16:35:35.199Z"
+    },
+    {
+      "path": "/hardware/graphics-cards/",
+      "port": 4185,
+      "run": 1,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 375,
+        "h1": "Graphics cards.",
+        "metrics": {
+          "cls": 0.003956305264182446,
+          "domContentLoaded": 85.80000001192093,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 60,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 175148,
+          "resources": 30,
+          "serverWait": 1.199999988079071,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 844,
+            "width": 390
+          }
+        },
+        "scrollWidth": 375,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T16:35:37.853Z"
+    },
+    {
+      "path": "/",
+      "port": 4186,
+      "run": 2,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 375,
+        "h1": "Make a better upgrade.",
+        "metrics": {
+          "cls": 0.0004785089714217261,
+          "domContentLoaded": 71.09999999403954,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 56,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 995051,
+          "resources": 15,
+          "serverWait": 1.300000011920929,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 844,
+            "width": 390
+          }
+        },
+        "scrollWidth": 375,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T16:36:13.471Z"
+    },
+    {
+      "path": "/",
+      "port": 4185,
+      "run": 2,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 375,
+        "h1": "Compare PC parts.Plan a better build.",
+        "metrics": {
+          "cls": 0.0007253870247561076,
+          "domContentLoaded": 69.90000000596046,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 52,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 57802,
+          "resources": 13,
+          "serverWait": 1.0999999940395355,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 844,
+            "width": 390
+          }
+        },
+        "scrollWidth": 375,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T16:36:17.609Z"
+    },
+    {
+      "path": "/builder/",
+      "port": 4186,
+      "run": 2,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 380,
+        "h1": "Build your PC",
+        "metrics": {
+          "cls": 0.4793436754768447,
+          "domContentLoaded": 127.60000002384186,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 60,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 145774,
+          "resources": 27,
+          "serverWait": 1.0999999940395355,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 844,
+            "width": 390
+          }
+        },
+        "scrollWidth": 380,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T16:36:20.327Z"
+    },
+    {
+      "path": "/builder/",
+      "port": 4185,
+      "run": 2,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 380,
+        "h1": "Build your PC",
+        "metrics": {
+          "cls": 0.047403944118365494,
+          "domContentLoaded": 144.40000000596046,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 64,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 156687,
+          "resources": 29,
+          "serverWait": 1.4000000059604645,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 844,
+            "width": 390
+          }
+        },
+        "scrollWidth": 380,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T16:36:23.070Z"
+    },
+    {
+      "path": "/performance/",
+      "port": 4186,
+      "run": 2,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 375,
+        "h1": "Game performance",
+        "metrics": {
+          "cls": 0.002362053862222322,
+          "domContentLoaded": 119.60000002384186,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 64,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 135203,
+          "resources": 23,
+          "serverWait": 1.300000011920929,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 844,
+            "width": 390
+          }
+        },
+        "scrollWidth": 375,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T16:36:25.784Z"
+    },
+    {
+      "path": "/performance/",
+      "port": 4185,
+      "run": 2,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 375,
+        "h1": "Game performance",
+        "metrics": {
+          "cls": 0.00035202863068364745,
+          "domContentLoaded": 97.60000002384186,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 60,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 73967,
+          "resources": 17,
+          "serverWait": 1.300000011920929,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 844,
+            "width": 390
+          }
+        },
+        "scrollWidth": 375,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T16:36:28.481Z"
+    },
+    {
+      "path": "/",
+      "port": 4186,
+      "run": 3,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 375,
+        "h1": "Make a better upgrade.",
+        "metrics": {
+          "cls": 0.0004785089714217261,
+          "domContentLoaded": 76,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 60,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 995051,
+          "resources": 15,
+          "serverWait": 1,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 844,
+            "width": 390
+          }
+        },
+        "scrollWidth": 375,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T16:38:21.097Z"
+    },
+    {
+      "path": "/",
+      "port": 4185,
+      "run": 3,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 375,
+        "h1": "Compare PC parts.Plan a better build.",
+        "metrics": {
+          "cls": 0.0007253870247561076,
+          "domContentLoaded": 70.7999999821186,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 56,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 57802,
+          "resources": 13,
+          "serverWait": 1.100000023841858,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 844,
+            "width": 390
+          }
+        },
+        "scrollWidth": 375,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T16:38:23.731Z"
+    },
+    {
+      "path": "/builder/",
+      "port": 4186,
+      "run": 3,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 380,
+        "h1": "Build your PC",
+        "metrics": {
+          "cls": 0.5270142180094787,
+          "domContentLoaded": 122.39999997615814,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 60,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 145774,
+          "resources": 27,
+          "serverWait": 1.4000000059604645,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 844,
+            "width": 390
+          }
+        },
+        "scrollWidth": 380,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T16:38:26.434Z"
+    },
+    {
+      "path": "/builder/",
+      "port": 4185,
+      "run": 3,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 380,
+        "h1": "Build your PC",
+        "metrics": {
+          "cls": 0.04754355520077604,
+          "domContentLoaded": 125,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 60,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 156687,
+          "resources": 29,
+          "serverWait": 1.2999999821186066,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 844,
+            "width": 390
+          }
+        },
+        "scrollWidth": 380,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T16:38:29.159Z"
+    },
+    {
+      "path": "/performance/",
+      "port": 4186,
+      "run": 3,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 375,
+        "h1": "Game performance",
+        "metrics": {
+          "cls": 0.002362053862222322,
+          "domContentLoaded": 116.10000002384186,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 64,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 135203,
+          "resources": 23,
+          "serverWait": 1.2999999821186066,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 844,
+            "width": 390
+          }
+        },
+        "scrollWidth": 375,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T16:38:31.882Z"
+    },
+    {
+      "path": "/performance/",
+      "port": 4185,
+      "run": 3,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 375,
+        "h1": "Game performance",
+        "metrics": {
+          "cls": 0.00035202863068364745,
+          "domContentLoaded": 87.30000001192093,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 52,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 73967,
+          "resources": 17,
+          "serverWait": 1.100000023841858,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 844,
+            "width": 390
+          }
+        },
+        "scrollWidth": 375,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T16:38:34.566Z"
+    },
+    {
+      "path": "/",
+      "port": 4185,
+      "run": 1,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 1425,
+        "h1": "Compare PC parts.Plan a better build.",
+        "metrics": {
+          "cls": 0.0005715748264423241,
+          "domContentLoaded": 72,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 72,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 167434,
+          "resources": 18,
+          "serverWait": 1.100000023841858,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          }
+        },
+        "scrollWidth": 1425,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T16:38:50.480Z"
+    },
+    {
+      "path": "/builder/",
+      "port": 4185,
+      "run": 1,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 1430,
+        "h1": "Build your PC",
+        "metrics": {
+          "cls": 0.0004411513093549807,
+          "domContentLoaded": 159.2999999821186,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 108,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 156687,
+          "resources": 31,
+          "serverWait": 1.199999988079071,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          }
+        },
+        "scrollWidth": 1430,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T16:38:53.277Z"
+    },
+    {
+      "path": "/performance/",
+      "port": 4185,
+      "run": 1,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 1425,
+        "h1": "Game performance",
+        "metrics": {
+          "cls": 0.0016779923737218288,
+          "domContentLoaded": 85.89999997615814,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 84,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 73967,
+          "resources": 25,
+          "serverWait": 1.0999999940395355,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          }
+        },
+        "scrollWidth": 1425,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T16:38:55.955Z"
+    },
+    {
+      "path": "/hardware/graphics-cards/",
+      "port": 4185,
+      "run": 1,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 1425,
+        "h1": "Graphics cards.",
+        "metrics": {
+          "cls": 0.013328132724599024,
+          "domContentLoaded": 91.7000000178814,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 76,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 227978,
+          "resources": 36,
+          "serverWait": 1.2000000178813934,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          }
+        },
+        "scrollWidth": 1425,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T16:38:58.621Z"
+    },
+    {
+      "path": "/",
+      "port": 4186,
+      "run": 2,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 1425,
+        "h1": "Make a better upgrade.",
+        "metrics": {
+          "cls": 0.006669159604664682,
+          "domContentLoaded": 82,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 80,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 1075466,
+          "resources": 18,
+          "serverWait": 1.2000000178813934,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          }
+        },
+        "scrollWidth": 1425,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T16:39:46.361Z"
+    },
+    {
+      "path": "/",
+      "port": 4185,
+      "run": 2,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 1425,
+        "h1": "Compare PC parts.Plan a better build.",
+        "metrics": {
+          "cls": 0.0050499591669231556,
+          "domContentLoaded": 74.59999999403954,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 60,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 167434,
+          "resources": 16,
+          "serverWait": 1.199999988079071,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          }
+        },
+        "scrollWidth": 1425,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T16:39:49.010Z"
+    },
+    {
+      "path": "/builder/",
+      "port": 4186,
+      "run": 2,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 1430,
+        "h1": "Build your PC",
+        "metrics": {
+          "cls": 0.2886209244050918,
+          "domContentLoaded": 126.2000000178814,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 144,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 145774,
+          "resources": 27,
+          "serverWait": 1.0999999940395355,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          }
+        },
+        "scrollWidth": 1430,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T16:39:51.731Z"
+    },
+    {
+      "path": "/builder/",
+      "port": 4185,
+      "run": 2,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 1430,
+        "h1": "Build your PC",
+        "metrics": {
+          "cls": 0.06421735447196548,
+          "domContentLoaded": 127.2000000178814,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 56,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 156687,
+          "resources": 29,
+          "serverWait": 1.100000023841858,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          }
+        },
+        "scrollWidth": 1430,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T16:39:54.453Z"
+    },
+    {
+      "path": "/performance/",
+      "port": 4186,
+      "run": 2,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 1425,
+        "h1": "Game performance",
+        "metrics": {
+          "cls": 0.01551321127868404,
+          "domContentLoaded": 125.59999999403954,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 140,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 135203,
+          "resources": 29,
+          "serverWait": 1,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          }
+        },
+        "scrollWidth": 1425,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T16:39:57.187Z"
+    },
+    {
+      "path": "/performance/",
+      "port": 4185,
+      "run": 2,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 1425,
+        "h1": "Game performance",
+        "metrics": {
+          "cls": 0.0027206396156082215,
+          "domContentLoaded": 102.40000000596046,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 116,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 73967,
+          "resources": 23,
+          "serverWait": 1.199999988079071,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          }
+        },
+        "scrollWidth": 1425,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T16:39:59.891Z"
+    },
+    {
+      "path": "/",
+      "port": 4186,
+      "run": 3,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 1425,
+        "h1": "Make a better upgrade.",
+        "metrics": {
+          "cls": 0.006669159604664682,
+          "domContentLoaded": 85.09999999403954,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 80,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 1075466,
+          "resources": 18,
+          "serverWait": 1.0999999940395355,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          }
+        },
+        "scrollWidth": 1425,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T16:40:48.588Z"
+    },
+    {
+      "path": "/",
+      "port": 4185,
+      "run": 3,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 1425,
+        "h1": "Compare PC parts.Plan a better build.",
+        "metrics": {
+          "cls": 0.0050499591669231556,
+          "domContentLoaded": 81.90000000596046,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 68,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 167434,
+          "resources": 16,
+          "serverWait": 1.100000023841858,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          }
+        },
+        "scrollWidth": 1425,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T16:40:51.242Z"
+    },
+    {
+      "path": "/builder/",
+      "port": 4186,
+      "run": 3,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 1430,
+        "h1": "Build your PC",
+        "metrics": {
+          "cls": 0.2886209244050918,
+          "domContentLoaded": 127.09999999403954,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 140,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 145774,
+          "resources": 27,
+          "serverWait": 1.2999999821186066,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          }
+        },
+        "scrollWidth": 1430,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T16:40:53.948Z"
+    },
+    {
+      "path": "/builder/",
+      "port": 4185,
+      "run": 3,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 1430,
+        "h1": "Build your PC",
+        "metrics": {
+          "cls": 0.06421735447196548,
+          "domContentLoaded": 126.80000001192091,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 60,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 156687,
+          "resources": 29,
+          "serverWait": 1.2000000178813934,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          }
+        },
+        "scrollWidth": 1430,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T16:40:56.678Z"
+    },
+    {
+      "path": "/performance/",
+      "port": 4186,
+      "run": 3,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 1425,
+        "h1": "Game performance",
+        "metrics": {
+          "cls": 0.01551321127868404,
+          "domContentLoaded": 130.80000001192093,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 144,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 135203,
+          "resources": 29,
+          "serverWait": 1.0999999940395355,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          }
+        },
+        "scrollWidth": 1425,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T16:40:59.411Z"
+    },
+    {
+      "path": "/performance/",
+      "port": 4185,
+      "run": 3,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 1425,
+        "h1": "Game performance",
+        "metrics": {
+          "cls": 0.0027206396156082215,
+          "domContentLoaded": 104.60000002384186,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 116,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 73967,
+          "resources": 23,
+          "serverWait": 1.5,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          }
+        },
+        "scrollWidth": 1425,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T16:41:02.118Z"
+    },
+    {
+      "path": "/builder/",
+      "port": 4185,
+      "run": 4,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 1430,
+        "h1": "Build your PC",
+        "metrics": {
+          "cls": 0.05317548368977565,
+          "domContentLoaded": 168.80000001192093,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 92,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 157645,
+          "resources": 31,
+          "serverWait": 4.5,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          }
+        },
+        "scrollWidth": 1430,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T16:56:56.950Z"
+    },
+    {
+      "path": "/builder/",
+      "port": 4185,
+      "run": 5,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 1430,
+        "h1": "Build your PC",
+        "metrics": {
+          "cls": 0.052097663530137304,
+          "domContentLoaded": 161.89999997615814,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 68,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 157645,
+          "resources": 31,
+          "serverWait": 1.2000000178813934,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          }
+        },
+        "scrollWidth": 1430,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T16:56:59.722Z"
+    },
+    {
+      "path": "/builder/",
+      "port": 4185,
+      "run": 6,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 1430,
+        "h1": "Build your PC",
+        "metrics": {
+          "cls": 0.052097663530137304,
+          "domContentLoaded": 169.09999999403954,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 72,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 157645,
+          "resources": 31,
+          "serverWait": 1.199999988079071,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          }
+        },
+        "scrollWidth": 1430,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T16:57:02.482Z"
+    },
+    {
+      "path": "/compare/rtx-5070-vs-rx-9070/",
+      "port": 4186,
+      "run": 1,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 1425,
+        "h1": "RTX 5070 vs RX 9070: specifications and upgrade checks",
+        "metrics": {
+          "cls": 0.03885737726992921,
+          "domContentLoaded": 90.90000000596046,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 112,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 427324,
+          "resources": 13,
+          "serverWait": 1.300000011920929,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          }
+        },
+        "scrollWidth": 1425,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T16:57:06.671Z"
+    },
+    {
+      "path": "/compare/rtx-5070-vs-rx-9070/",
+      "port": 4185,
+      "run": 1,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 1425,
+        "h1": "RTX 5070 vs RX 9070: choose by games, features and complete cost",
+        "metrics": {
+          "cls": 0.006254495690981841,
+          "domContentLoaded": 66.2999999821186,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 64,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 29238,
+          "resources": 9,
+          "serverWait": 2,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          }
+        },
+        "scrollWidth": 1425,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T16:57:09.309Z"
+    },
+    {
+      "path": "/blog/how-to-choose-a-graphics-card/",
+      "port": 4185,
+      "run": 1,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 1425,
+        "h1": "How to choose a graphics card for your PC",
+        "metrics": {
+          "cls": 0.0005396539790020861,
+          "domContentLoaded": 55,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 64,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 37288,
+          "resources": 14,
+          "serverWait": 1.0999999940395355,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          }
+        },
+        "scrollWidth": 1425,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T16:57:20.867Z"
+    },
+    {
+      "path": "/learn/rtx5070.html",
+      "port": 4185,
+      "run": 1,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 1425,
+        "h1": "GeForce RTX 5070",
+        "metrics": {
+          "cls": 0.003945916128039397,
+          "domContentLoaded": 68.69999998807907,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 72,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 411996,
+          "resources": 18,
+          "serverWait": 1.199999988079071,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          }
+        },
+        "scrollWidth": 1425,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T16:57:23.497Z"
+    },
+    {
+      "path": "/builder/",
+      "port": 4185,
+      "run": 4,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 380,
+        "h1": "Build your PC",
+        "metrics": {
+          "cls": 0.049750128889316285,
+          "domContentLoaded": 152.2000000178814,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 60,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 157645,
+          "resources": 31,
+          "serverWait": 1.199999988079071,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 844,
+            "width": 390
+          }
+        },
+        "scrollWidth": 380,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T16:57:26.258Z"
+    },
+    {
+      "path": "/builder/",
+      "port": 4185,
+      "run": 5,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 380,
+        "h1": "Build your PC",
+        "metrics": {
+          "cls": 0.049750128889316285,
+          "domContentLoaded": 140.10000002384186,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 68,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 157645,
+          "resources": 31,
+          "serverWait": 1.2000000178813934,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 844,
+            "width": 390
+          }
+        },
+        "scrollWidth": 380,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T16:57:28.977Z"
+    },
+    {
+      "path": "/builder/",
+      "port": 4185,
+      "run": 6,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 380,
+        "h1": "Build your PC",
+        "metrics": {
+          "cls": 0.049750128889316285,
+          "domContentLoaded": 147.60000002384186,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 68,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 157645,
+          "resources": 31,
+          "serverWait": 1.199999988079071,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 844,
+            "width": 390
+          }
+        },
+        "scrollWidth": 380,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T16:57:31.711Z"
+    },
+    {
+      "path": "/blog/how-to-choose-a-graphics-card/",
+      "port": 4186,
+      "run": 1,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 375,
+        "h1": "How to choose a graphics card for your PC",
+        "metrics": {
+          "cls": 0.02907818331751683,
+          "domContentLoaded": 82.19999998807907,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 72,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 33722,
+          "resources": 11,
+          "serverWait": 1.199999988079071,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 844,
+            "width": 390
+          }
+        },
+        "scrollWidth": 375,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T16:57:48.718Z"
+    },
+    {
+      "path": "/blog/how-to-choose-a-graphics-card/",
+      "port": 4185,
+      "run": 1,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 375,
+        "h1": "How to choose a graphics card for your PC",
+        "metrics": {
+          "cls": 0.02138246002120722,
+          "domContentLoaded": 60.39999997615814,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 52,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 37288,
+          "resources": 12,
+          "serverWait": 1.2000000178813934,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 844,
+            "width": 390
+          }
+        },
+        "scrollWidth": 375,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T16:57:51.337Z"
+    },
+    {
+      "path": "/compare/rtx-5070-vs-rx-9070/",
+      "port": 4186,
+      "run": 1,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 375,
+        "h1": "RTX 5070 vs RX 9070: specifications and upgrade checks",
+        "metrics": {
+          "cls": 0.016516669275454282,
+          "domContentLoaded": 65.19999998807907,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 52,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 427324,
+          "resources": 13,
+          "serverWait": 1.0999999940395355,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 844,
+            "width": 390
+          }
+        },
+        "scrollWidth": 375,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T16:57:53.954Z"
+    },
+    {
+      "path": "/compare/rtx-5070-vs-rx-9070/",
+      "port": 4185,
+      "run": 1,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 375,
+        "h1": "RTX 5070 vs RX 9070: choose by games, features and complete cost",
+        "metrics": {
+          "cls": 0.0013862077844350607,
+          "domContentLoaded": 59.900000005960464,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 52,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 29238,
+          "resources": 9,
+          "serverWait": 1.2000000178813934,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 844,
+            "width": 390
+          }
+        },
+        "scrollWidth": 375,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T16:57:56.579Z"
+    },
+    {
+      "path": "/learn/rtx5070.html",
+      "port": 4185,
+      "run": 1,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 375,
+        "h1": "GeForce RTX 5070",
+        "metrics": {
+          "cls": 0,
+          "domContentLoaded": 64.30000001192093,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 64,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 411996,
+          "resources": 18,
+          "serverWait": 1.2000000178813934,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 844,
+            "width": 390
+          }
+        },
+        "scrollWidth": 375,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T16:57:59.199Z"
+    },
+    {
+      "path": "/builder/",
+      "port": 4185,
+      "run": 7,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 1430,
+        "h1": "Build your PC",
+        "metrics": {
+          "cls": 0.05360009427247189,
+          "domContentLoaded": 182.80000001192093,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 76,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 157046,
+          "resources": 29,
+          "serverWait": 6.300000011920929,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          }
+        },
+        "scrollWidth": 1430,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T17:12:51.751Z"
+    },
+    {
+      "path": "/builder/",
+      "port": 4185,
+      "run": 8,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 1430,
+        "h1": "Build your PC",
+        "metrics": {
+          "cls": 0.052097663530137304,
+          "domContentLoaded": 160.59999999403954,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 72,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 157046,
+          "resources": 31,
+          "serverWait": 1.5,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          }
+        },
+        "scrollWidth": 1430,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T17:12:54.505Z"
+    },
+    {
+      "path": "/builder/",
+      "port": 4185,
+      "run": 9,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 1430,
+        "h1": "Build your PC",
+        "metrics": {
+          "cls": 0.052097663530137304,
+          "domContentLoaded": 163.59999999403954,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 64,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 157046,
+          "resources": 31,
+          "serverWait": 1.4000000059604645,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          }
+        },
+        "scrollWidth": 1430,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T17:12:57.272Z"
+    },
+    {
+      "path": "/blog/how-to-choose-a-graphics-card/",
+      "port": 4185,
+      "run": 2,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 1425,
+        "h1": "How to choose a graphics card for your PC",
+        "metrics": {
+          "cls": 0.0005396539790020861,
+          "domContentLoaded": 75,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 64,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 36689,
+          "resources": 14,
+          "serverWait": 1.199999988079071,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          }
+        },
+        "scrollWidth": 1425,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T17:12:59.924Z"
+    },
+    {
+      "path": "/compare/rtx-5070-vs-rx-9070/",
+      "port": 4185,
+      "run": 2,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 1425,
+        "h1": "RTX 5070 vs RX 9070: choose by games, features and complete cost",
+        "metrics": {
+          "cls": 0.0003843983789884067,
+          "domContentLoaded": 53,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 60,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 28639,
+          "resources": 11,
+          "serverWait": 1.300000011920929,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          }
+        },
+        "scrollWidth": 1425,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T17:13:02.539Z"
+    },
+    {
+      "path": "/learn/rtx5070.html",
+      "port": 4185,
+      "run": 2,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 1425,
+        "h1": "GeForce RTX 5070",
+        "metrics": {
+          "cls": 0.003945916128039397,
+          "domContentLoaded": 67.19999998807907,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 64,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 411397,
+          "resources": 18,
+          "serverWait": 1.2000000178813934,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          }
+        },
+        "scrollWidth": 1425,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T17:13:05.172Z"
+    },
+    {
+      "path": "/builder/",
+      "port": 4185,
+      "run": 7,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 380,
+        "h1": "Build your PC",
+        "metrics": {
+          "cls": 0.049750128889316285,
+          "domContentLoaded": 148.90000000596046,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 64,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 157046,
+          "resources": 31,
+          "serverWait": 1.0999999940395355,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 844,
+            "width": 390
+          }
+        },
+        "scrollWidth": 380,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T17:13:21.680Z"
+    },
+    {
+      "path": "/builder/",
+      "port": 4185,
+      "run": 8,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 380,
+        "h1": "Build your PC",
+        "metrics": {
+          "cls": 0.049750128889316285,
+          "domContentLoaded": 144.69999998807907,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 64,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 157046,
+          "resources": 31,
+          "serverWait": 1.199999988079071,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 844,
+            "width": 390
+          }
+        },
+        "scrollWidth": 380,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T17:13:24.427Z"
+    },
+    {
+      "path": "/builder/",
+      "port": 4185,
+      "run": 9,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 380,
+        "h1": "Build your PC",
+        "metrics": {
+          "cls": 0.049750128889316285,
+          "domContentLoaded": 151.90000000596046,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 64,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 157046,
+          "resources": 31,
+          "serverWait": 1.4000000059604645,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 844,
+            "width": 390
+          }
+        },
+        "scrollWidth": 380,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T17:13:27.166Z"
+    },
+    {
+      "path": "/blog/how-to-choose-a-graphics-card/",
+      "port": 4185,
+      "run": 2,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 375,
+        "h1": "How to choose a graphics card for your PC",
+        "metrics": {
+          "cls": 0,
+          "domContentLoaded": 55.19999998807907,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 52,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 36689,
+          "resources": 14,
+          "serverWait": 1.199999988079071,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 844,
+            "width": 390
+          }
+        },
+        "scrollWidth": 375,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T17:13:29.773Z"
+    },
+    {
+      "path": "/compare/rtx-5070-vs-rx-9070/",
+      "port": 4185,
+      "run": 2,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 375,
+        "h1": "RTX 5070 vs RX 9070: choose by games, features and complete cost",
+        "metrics": {
+          "cls": 0,
+          "domContentLoaded": 46.80000001192093,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 56,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 28639,
+          "resources": 11,
+          "serverWait": 1.2000000178813934,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 844,
+            "width": 390
+          }
+        },
+        "scrollWidth": 375,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T17:13:32.382Z"
+    },
+    {
+      "path": "/learn/rtx5070.html",
+      "port": 4185,
+      "run": 2,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 375,
+        "h1": "GeForce RTX 5070",
+        "metrics": {
+          "cls": 0,
+          "domContentLoaded": 49.400000005960464,
+          "environment": "unthrottled local browser; not field Core Web Vitals",
+          "lcp": 56,
+          "longTaskMs": 0,
+          "longTasks": 0,
+          "resourceTransfer": 411397,
+          "resources": 18,
+          "serverWait": 1.2999999821186066,
+          "threeDRequests": 0,
+          "viewport": {
+            "height": 844,
+            "width": 390
+          }
+        },
+        "scrollWidth": 375,
+        "theme": "light"
+      },
+      "valid": true,
+      "at": "2026-10-09T17:13:34.990Z"
+    }
+  ],
+  "pilots": [
+    {
+      "path": "/",
+      "port": 4186,
+      "run": 1,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 1425,
+        "h1": "Make a better upgrade.",
+        "metrics": null,
+        "scrollWidth": 1425,
+        "theme": "light"
+      },
+      "settled": true,
+      "at": "2026-10-09T16:06:22.114Z"
+    },
+    {
+      "path": "/",
+      "port": 4185,
+      "run": 1,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 1425,
+        "h1": "Compare PC parts.Plan a better build.",
+        "metrics": null,
+        "scrollWidth": 1425,
+        "theme": "light"
+      },
+      "settled": true,
+      "at": "2026-10-09T16:06:22.272Z"
+    },
+    {
+      "path": "/hardware/graphics-cards/",
+      "port": 4186,
+      "run": 1,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 1425,
+        "h1": "Graphics cards.",
+        "metrics": null,
+        "scrollWidth": 1425,
+        "theme": "light"
+      },
+      "settled": true,
+      "at": "2026-10-09T16:06:22.470Z"
+    },
+    {
+      "path": "/hardware/graphics-cards/",
+      "port": 4185,
+      "run": 1,
+      "observed": {
+        "brokenImages": [],
+        "documentWidth": 1425,
+        "h1": "Graphics cards.",
+        "metrics": null,
+        "scrollWidth": 1425,
+        "theme": "light"
+      },
+      "settled": true,
+      "at": "2026-10-09T16:06:22.674Z"
+    }
+  ]
+}

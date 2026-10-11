@@ -4,14 +4,19 @@
   let serial = 0, active = null, rows = [], cursor = 0;const selectedBrands=new Set(); let modelsOnly=false; const modelIds=new Set(window.downloadedModelIds||[]); const builderPicker=()=>active&&["buildPrimary","buildAdd","buildSlot"].some(k=>k in active.dataset); const phonePicker=()=>active?.hasAttribute('data-phone-picker'); const modelPicker=()=>builderPicker()||phonePicker(); const hasModel=option=>phonePicker()?option.dataset.hasModel==='true':modelIds.has(option.value); const optionBrand=option=>(typeof catalog!=='undefined'?catalog.find(p=>p.id===option.value)?.brand:null)||option.dataset.brand;
   const dialog = document.createElement('dialog');
   dialog.className = 'select-dialog';
+  dialog.id = 'select-dialog';
   dialog.setAttribute('aria-labelledby', 'select-dialog-title');
   dialog.innerHTML = '<div class="select-dialog-head"><strong id="select-dialog-title">Choose an option</strong><button type="button" class="select-close" aria-label="Close options">×</button></div><div class="select-search-wrap"><input type="search" class="select-search" aria-label="Search options" role="combobox" aria-autocomplete="list" aria-expanded="true" aria-controls="select-options" placeholder="Type to filter…" autocomplete="off"></div><div class="select-model-tabs" hidden><button type="button" data-model-filter="all" aria-pressed="true">All parts</button><button type="button" data-model-filter="models" aria-pressed="false">With 3D models</button></div><div class="select-brand-filters" aria-label="Filter by brand"></div><div class="select-results" id="select-options" role="listbox"></div><p class="select-hint" aria-live="polite"></p>';
   document.body.append(dialog);
   const search = dialog.querySelector('input'), results = dialog.querySelector('.select-results'), hint = dialog.querySelector('.select-hint');
-  function label(select) { return (select.getAttribute('aria-label') || select.labels?.[0]?.textContent?.trim() || 'Choose an option').replace('Choose primary ', 'Choose ').replace('Case fans', 'case fan'); }
+  const partIndex=new Map(typeof catalog!=='undefined'?catalog.map(p=>[p.id,p]):[]);
+  function optionName(option) { const part=partIndex.get(option.value);return part?part.name:option.textContent.trim(); }
+  function identityGroups(select) { const groups=new Map();for(const option of select.options){if(!option.value)continue;const name=optionName(option).toLocaleLowerCase();if(!groups.has(name))groups.set(name,new Set());groups.get(name).add(option.value)}return groups; }
+  function ambiguousOption(select,option,groups=identityGroups(select)) {return !!option?.value&&(groups.get(optionName(option).toLocaleLowerCase())?.size||0)>1; }
+  function label(select) { const owner=select.labels?.[0],visibleText=owner?[...owner.childNodes].filter(n=>n.nodeType===3).map(n=>n.textContent).join(' ').trim():''; return (select.getAttribute('aria-label') || visibleText || 'Choose an option').replace('Choose primary ', 'Choose ').replace('Case fans', 'case fan'); }
   function sync(select) {
     const item = registry.get(select); if (!item) return;
-    const value = select.selectedOptions[0]?.textContent?.trim() || 'Choose an option';
+    const selected=select.selectedOptions[0];const value = (selected?.textContent?.trim() || 'Choose an option')+(ambiguousOption(select,selected)?' · '+selected.value:'');
     if (item.text.textContent !== value) item.text.textContent = value;
     item.button.setAttribute('aria-label', label(select) + ': ' + value);
     item.button.disabled = select.disabled;
@@ -44,6 +49,7 @@
   function render() {
     if (!active) return;
     const query = search.value.toLocaleLowerCase().trim();
+    const identities=identityGroups(active);
     rows = [...active.options].filter(option => !option.disabled && !option.hidden && (!selectedBrands.size||!option.value||selectedBrands.has(optionBrand(option))) && (!query || option.textContent.toLocaleLowerCase().includes(query)));
     if(modelPicker())rows=rows.filter(o=>!modelsOnly||hasModel(o));if(builderPicker()){rows.sort((a,b)=>!a.value?-1:!b.value?1:Number(modelIds.has(b.value))-Number(modelIds.has(a.value)));} results.replaceChildren(); let lastGroup=null;
     rows.forEach((option, i) => { if(builderPicker()&&option.value){const group=modelIds.has(option.value)?'With downloaded 3D models':'More components';if(group!==lastGroup){const heading=document.createElement('div');heading.className='select-group-heading';heading.setAttribute('role','presentation');heading.textContent=group;results.append(heading);lastGroup=group;}}else if(option.parentElement.tagName==='OPTGROUP'){const group=option.parentElement.label;if(group!==lastGroup){const heading=document.createElement('div');heading.className='select-group-heading';heading.setAttribute('role','presentation');heading.textContent=group;results.append(heading);lastGroup=group;}}
@@ -52,6 +58,7 @@
       const asset = typeof photos !== 'undefined' ? photos[option.value] : option.dataset.image?{src:option.dataset.image}:null;
       if (asset) { const img = document.createElement('img'); img.src = asset.src; img.alt = ''; img.width = 52; img.height = 42; img.loading = 'lazy'; button.append(img); }
       const text = document.createElement('span'); const part=typeof catalog!=='undefined'?catalog.find(p=>p.id===option.value):null;text.textContent = part ? part.name : option.textContent;if(part){const details=document.createElement('small');const brandInTitle=part.name.toLocaleLowerCase().includes(part.brand.toLocaleLowerCase());details.textContent=[brandInTitle?'':part.brand,part.summary].filter(Boolean).join(' · ');text.append(details)}else if(phonePicker()){const details=document.createElement('small');details.textContent=hasModel(option)?'Interactive 3D view':'Dimensions and specifications';text.append(details)}button.append(text);
+      if(ambiguousOption(active,option,identities)){const identity=document.createElement('small');identity.textContent='Catalog ID '+option.value+' · identity review pending';text.append(identity)}
       const mark = document.createElement('span'); mark.className = 'select-check'; mark.setAttribute('aria-hidden','true'); mark.textContent = option.value === active.value ? '✓' : ''; button.append(mark);
       button.addEventListener('click', () => choose(i)); results.append(button);
     });

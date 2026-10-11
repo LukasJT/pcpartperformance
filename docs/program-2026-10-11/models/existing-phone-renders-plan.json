@@ -1,0 +1,797 @@
+{
+  "checked": "2026-10-11",
+  "scope": "Only twelve approved missing phone-card images, rendered from existing exact-model registry assets.",
+  "newlyDownloadedModelCount": 0,
+  "additionalRenderedExistingModels": 12,
+  "pixel9Pro": "No model or substitute image; remains unknown.",
+  "phoneRegistrySha256": "d4a523e8ea1a35e6d63c9c0f01a78cb424816ed17dce0539a1147ed99bad46b9",
+  "phoneDataSha256": "dab180c6fc84d12ba58996a1d1bbced7df8680bc790f722ec024204acb54b614",
+  "protectedPhoneAssets": [
+    {
+      "id": "iphone-16",
+      "asset": "sketchfab-iphone-16.glb",
+      "sha256": "63ac5f787ec7da0cc315ec1c8e7c6f9c8ce6d8033c048344c5bb609733c0f9e0"
+    },
+    {
+      "id": "iphone-16-pro",
+      "asset": "sketchfab-iphone-16-pro.glb",
+      "sha256": "ae5b212da8e47323408c9d45372ca5b3392529741bcca284bd837ea81b7f9699"
+    },
+    {
+      "id": "galaxy-s25",
+      "asset": "sketchfab-galaxy-s25.glb",
+      "sha256": "b921e87b5794cbcf316841efacebf4b97c1ccf93fdddd433a53712a2b497cf7a"
+    },
+    {
+      "id": "pixel-9",
+      "asset": "sketchfab-pixel-9.glb",
+      "sha256": "016f2e3595e2fe9b14b0c679fae2adf8fd6e6eec0df86fb118efb407a7bf6cb8"
+    },
+    {
+      "id": "iphone-14-pro",
+      "asset": "sketchfab-iphone-14-pro.glb",
+      "sha256": "707304eab5afe68544364c53bf2c73e166f1114f77d5d18363fa839316f5b4a2"
+    },
+    {
+      "id": "iphone-12-pro",
+      "asset": "sketchfab-iphone-12-pro.glb",
+      "sha256": "670f57d6bd77fb8fef46ccab13230ffbfcbe6d1a72ae08d41c362c4c87418e2d"
+    },
+    {
+      "id": "iphone-x",
+      "asset": "sketchfab-iphone-x.glb",
+      "sha256": "2d41414d5dffaf67809afe3e8f266b7699643ab8df71757db7d7238f6ac4776e"
+    },
+    {
+      "id": "iphone-7",
+      "asset": "sketchfab-iphone-7.glb",
+      "sha256": "e50d5397631b5fb2714f057c082aed46ee2822f630992b7f27fba0b55a6913f6"
+    },
+    {
+      "id": "galaxy-s21-ultra",
+      "asset": "sketchfab-galaxy-s21-ultra.glb",
+      "sha256": "d9d9f98f4959e2142a10311532be96c29ec035736c516a3f58d323da066f3666"
+    },
+    {
+      "id": "pixel-6-pro",
+      "asset": "sketchfab-pixel-6-pro.glb",
+      "sha256": "fc810ff7b5a2d6d168d61286e97c4440fadc734f7f4b4314f0805d5c492d81b6"
+    },
+    {
+      "id": "galaxy-s23-ultra",
+      "asset": "sketchfab-galaxy-s23-ultra.glb",
+      "sha256": "1e364944c2899812bc1a19fc116cc5f0ac17cd2d1195ca467238b8c2bc7f2d14"
+    },
+    {
+      "id": "pixel-7-pro",
+      "asset": "sketchfab-pixel-7-pro.glb",
+      "sha256": "c878dd20cd9880ee69cecf0c216f2fc6757f83194553fb23764775a8e3733245"
+    },
+    {
+      "id": "pixel-8-pro",
+      "asset": "sketchfab-pixel-8-pro.glb",
+      "sha256": "04950e8e1bf185c5fbdffb01fa894a9a7c2ca4bf92bca9986568f3758d0fddda"
+    },
+    {
+      "id": "pixel-5",
+      "asset": "sketchfab-pixel-5.glb",
+      "sha256": "9b83ddb2fe9d7870c489833674047a838c9c79d67120c40776faa9e06e266173"
+    },
+    {
+      "id": "pixel-6a",
+      "asset": "sketchfab-pixel-6a.glb",
+      "sha256": "4009a9d6a35c722950f8eddd3241973fd092a64b7218ccba839c4bd8934c182e"
+    },
+    {
+      "id": "pixel-6",
+      "asset": "sketchfab-pixel-6.glb",
+      "sha256": "692b28f8de9c9bd5d7b11d1a17bebf25578b1e61990dd6b97efd00d1d12c8fae"
+    },
+    {
+      "id": "galaxy-z-flip3",
+      "asset": "sketchfab-galaxy-z-flip3.glb",
+      "sha256": "f9df742cf592a7934b474af575393566a3408c42cdbaf2001378691936eb7fae"
+    },
+    {
+      "id": "galaxy-s21",
+      "asset": "sketchfab-galaxy-s21.glb",
+      "sha256": "b1e6a2adb4510eba531f9a928c125cc4442fec3fde2225bd04a73b2668b23e96"
+    },
+    {
+      "id": "galaxy-a23-5g",
+      "asset": "sketchfab-galaxy-a23-5g.glb",
+      "sha256": "a2f51631d77c873be9a30186148376b658bba1417205fa6a90092febc33b0a22"
+    },
+    {
+      "id": "galaxy-s3",
+      "asset": "sketchfab-galaxy-s3.glb",
+      "sha256": "50a72d1bd5934232f6a31827c0b99d3c65ee4cef470a76036143d6ef3cfc2741"
+    },
+    {
+      "id": "oneplus-7-pro",
+      "asset": "sketchfab-oneplus-7-pro.glb",
+      "sha256": "6716f83eb4f945117b18172302ed3d6b504a5d5086dabebf76032e049cef91ae"
+    },
+    {
+      "id": "iphone-13",
+      "asset": "sketchfab-iphone-13.glb",
+      "sha256": "8b3c38b0712617bd93fe83815ef45049a7940a70328882810fed2a4690a674d4"
+    },
+    {
+      "id": "iphone-13-pro",
+      "asset": "sketchfab-iphone-13-pro.glb",
+      "sha256": "41cb05a8ebabef7f9c28c539048204f35fc5c3ed1841588458363d9156ce3685"
+    },
+    {
+      "id": "iphone-13-pro-max",
+      "asset": "sketchfab-iphone-13-pro-max.glb",
+      "sha256": "86a4f2ae0826464d3267b98521c347467a63a6bd87146219dd2706c51a4bd804"
+    },
+    {
+      "id": "galaxy-s22",
+      "asset": "sketchfab-galaxy-s22.glb",
+      "sha256": "7a01a911e6ae3e44427a30e1bf53d3f19f0e1b02421096e51cff1c0034687705"
+    },
+    {
+      "id": "galaxy-s22-ultra",
+      "asset": "sketchfab-galaxy-s22-ultra.glb",
+      "sha256": "bee7f78bfa8e076a86612a1360a7fde97c274502896ee50a8c8b7f70cd1db38c"
+    },
+    {
+      "id": "galaxy-s20-ultra",
+      "asset": "sketchfab-galaxy-s20-ultra.glb",
+      "sha256": "45da720243b6766ea8b70afd4ab499332fde1e7b59e580b60ce786678c8a2f12"
+    },
+    {
+      "id": "galaxy-s21-fe",
+      "asset": "sketchfab-galaxy-s21-fe.glb",
+      "sha256": "608eab8d9dec760631baf772e1f41b09a3ce73883b149d48c2d91a25cdd175c3"
+    },
+    {
+      "id": "iphone-11",
+      "asset": "sketchfab-iphone-11.glb",
+      "sha256": "9185648d842a1ffe39884bab7e754d36f33bc4899659b93c4b79db001b0d21ce"
+    },
+    {
+      "id": "iphone-11-pro",
+      "asset": "sketchfab-iphone-11-pro.glb",
+      "sha256": "76d08fc5d684f0420d1980f4f0629664401778ef1d3c426e51c803598eedf3d7"
+    },
+    {
+      "id": "iphone-11-pro-max",
+      "asset": "sketchfab-iphone-11-pro-max.glb",
+      "sha256": "ca482d4d74ee04b70237c08c1b4f2bbcab7cb59c1b2a555ecc76655dc5a7d083"
+    },
+    {
+      "id": "iphone-6",
+      "asset": "sketchfab-iphone-6.glb",
+      "sha256": "be11cf0f0bcf5fae56fae8df343c36c825d0e64cdeb2ced609f43f4fe88fb8c7"
+    },
+    {
+      "id": "iphone-8",
+      "asset": "sketchfab-iphone-8.glb",
+      "sha256": "8169f4953485561f2d5f74ad9b3cc28bafa4eedd12f8ca01d2185f3bc5342cbf"
+    },
+    {
+      "id": "iphone-8-plus",
+      "asset": "sketchfab-iphone-8-plus.glb",
+      "sha256": "358099ee221c4ba1fd6a8313fa06278e6a69323155c1796eebcfb697b0048cf5"
+    },
+    {
+      "id": "iphone-12-mini",
+      "asset": "sketchfab-iphone-12-mini.glb",
+      "sha256": "cb594e572156502465c632c70673da62ad7d551c47b0919e722e158df17aed66"
+    },
+    {
+      "id": "iphone-xr",
+      "asset": "sketchfab-iphone-xr.glb",
+      "sha256": "03ee40af293ce98a7749c8fa94f90298d4cdc7a50518b8a19541d2091bc0aa8c"
+    },
+    {
+      "id": "iphone-xs",
+      "asset": "sketchfab-iphone-xs.glb",
+      "sha256": "d497ca6cbecc368c69252f1c5ce74a05c774c1fa9588523ea491cee8e5539ac5"
+    },
+    {
+      "id": "galaxy-s10",
+      "asset": "sketchfab-galaxy-s10.glb",
+      "sha256": "cbf154b6f11a70caa6ffe0d4aac00c59a99af72d1e2bee6b0ddbb2f9eadf3c9b"
+    },
+    {
+      "id": "galaxy-s8",
+      "asset": "sketchfab-galaxy-s8.glb",
+      "sha256": "0f5bd3603fe98530e9efd6fbb1f0f744bb061ff9f6c1482576a6ef779e7abc8e"
+    },
+    {
+      "id": "iphone-15-pro-max",
+      "asset": "sketchfab-iphone-15-pro-max.glb",
+      "sha256": "cc9a495d93ea9cb550ab600417bc1698d1780e92c0c01c8d64a8aeea3a885847"
+    },
+    {
+      "id": "iphone-17-pro",
+      "asset": "sketchfab-iphone-17-pro.glb",
+      "sha256": "cfa64b18844cec97e6cb3289118d7966b48d4888ed39dd146fd56bcb5ea65431"
+    },
+    {
+      "id": "iphone-17-pro-max",
+      "asset": "sketchfab-iphone-17-pro-max.glb",
+      "sha256": "eaf581dd2c0f34da460b1d0008ec4676c3f698f54d20ae1655207fdd9bcf061a"
+    }
+  ],
+  "protectedManifestEntries": [
+    {
+      "id": "iphone-13-pro",
+      "sha256": "5ec7cab02c34b3f52c3c2d071f5ba2e18ea5d158ebda9facc036e70f0b64f8bc"
+    },
+    {
+      "id": "iphone13pro",
+      "sha256": "5ec7cab02c34b3f52c3c2d071f5ba2e18ea5d158ebda9facc036e70f0b64f8bc"
+    },
+    {
+      "id": "iphone-13-pro-max",
+      "sha256": "30bf22ef22ac35c62e8e827e4948047630593b4fb6a72ef1aa23b6bb2bd30ce2"
+    },
+    {
+      "id": "x-phone-iphone-13-pro-max",
+      "sha256": "30bf22ef22ac35c62e8e827e4948047630593b4fb6a72ef1aa23b6bb2bd30ce2"
+    },
+    {
+      "id": "galaxy-s22",
+      "sha256": "4e236ba37c5e2233d7a3020433818a4ed9b5ce05d28787759a9f95a803fd5fb0"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-s22",
+      "sha256": "4e236ba37c5e2233d7a3020433818a4ed9b5ce05d28787759a9f95a803fd5fb0"
+    },
+    {
+      "id": "galaxy-s22-ultra",
+      "sha256": "06c1f4ebcb93bb04c9bf65aafb65115757083dba720ac5351446fc3e524d20bf"
+    },
+    {
+      "id": "s22ultra",
+      "sha256": "06c1f4ebcb93bb04c9bf65aafb65115757083dba720ac5351446fc3e524d20bf"
+    },
+    {
+      "id": "galaxy-s20-ultra",
+      "sha256": "028e62fbe5fa63a977693287f1e2e478ebce3bd6e890c18d9c24cf9f6b24b9ea"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-s20-ultra",
+      "sha256": "028e62fbe5fa63a977693287f1e2e478ebce3bd6e890c18d9c24cf9f6b24b9ea"
+    },
+    {
+      "id": "galaxy-s21-fe",
+      "sha256": "dd05a1640d04e28d5c56da8431a40bf4b69f94afb3cde081213b24f7a07e1cba"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-s21-fe",
+      "sha256": "dd05a1640d04e28d5c56da8431a40bf4b69f94afb3cde081213b24f7a07e1cba"
+    },
+    {
+      "id": "iphone-11",
+      "sha256": "ce5ebdf193a708ed7455ab560abe7ada8e0c8f81f2d31e3941c9af72ed6a9cd8"
+    },
+    {
+      "id": "x-phone-iphone-11",
+      "sha256": "ce5ebdf193a708ed7455ab560abe7ada8e0c8f81f2d31e3941c9af72ed6a9cd8"
+    },
+    {
+      "id": "iphone-11-pro",
+      "sha256": "00724bfb702b162da1427d164c412b891b5e3d1fdf1462afa010dc0608cfdb02"
+    },
+    {
+      "id": "x-phone-iphone-11-pro",
+      "sha256": "00724bfb702b162da1427d164c412b891b5e3d1fdf1462afa010dc0608cfdb02"
+    },
+    {
+      "id": "iphone-11-pro-max",
+      "sha256": "291f545966e3deb21f9540d9c3d90c2f1860ba62cf3fc93e9044b2d7a3ac169a"
+    },
+    {
+      "id": "x-phone-iphone-11-pro-max",
+      "sha256": "291f545966e3deb21f9540d9c3d90c2f1860ba62cf3fc93e9044b2d7a3ac169a"
+    },
+    {
+      "id": "iphone-6",
+      "sha256": "c2ab86404823d3853326d8aa4b3d6b60922d1554f6d5119ec66a697b83700a6e"
+    },
+    {
+      "id": "x-phone-iphone-6",
+      "sha256": "c2ab86404823d3853326d8aa4b3d6b60922d1554f6d5119ec66a697b83700a6e"
+    },
+    {
+      "id": "iphone-8",
+      "sha256": "612b89a82e9c098b848643630b5fa0ede53f5e1248f215f905bbd354060718ee"
+    },
+    {
+      "id": "x-phone-iphone-8",
+      "sha256": "612b89a82e9c098b848643630b5fa0ede53f5e1248f215f905bbd354060718ee"
+    },
+    {
+      "id": "iphone-8-plus",
+      "sha256": "29891d0f66a8c28eb0e38452aa1faa4ba24110b1496be82820946928f628b39e"
+    },
+    {
+      "id": "x-phone-iphone-8-plus",
+      "sha256": "29891d0f66a8c28eb0e38452aa1faa4ba24110b1496be82820946928f628b39e"
+    },
+    {
+      "id": "iphone-12-mini",
+      "sha256": "dc2c527ea12978bd513d91fe28c14cf5296e205802431a6909f86492e7f143ce"
+    },
+    {
+      "id": "x-phone-iphone-12-mini",
+      "sha256": "dc2c527ea12978bd513d91fe28c14cf5296e205802431a6909f86492e7f143ce"
+    },
+    {
+      "id": "iphone-xr",
+      "sha256": "6319bee1fa83a1580cc92a0c4799f206e8f7167a2b5a9fe9df059fc1532fb922"
+    },
+    {
+      "id": "x-phone-iphone-xr",
+      "sha256": "6319bee1fa83a1580cc92a0c4799f206e8f7167a2b5a9fe9df059fc1532fb922"
+    },
+    {
+      "id": "iphone-xs",
+      "sha256": "902ef93525a924c1ef3ce0f80986b0c29236a9752490d674df9fd98bb5146298"
+    },
+    {
+      "id": "x-phone-iphone-xs",
+      "sha256": "902ef93525a924c1ef3ce0f80986b0c29236a9752490d674df9fd98bb5146298"
+    },
+    {
+      "id": "galaxy-s10",
+      "sha256": "e53bc71f2057005d5ddc7de8b0a2b94d5d03cc629c5612ea1d14b5ecefb62a31"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-s10",
+      "sha256": "e53bc71f2057005d5ddc7de8b0a2b94d5d03cc629c5612ea1d14b5ecefb62a31"
+    },
+    {
+      "id": "galaxy-s8",
+      "sha256": "aface827b4ae0413e549020cb3d2e25df799894922f5f87ff59b065378ef2129"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-s8",
+      "sha256": "aface827b4ae0413e549020cb3d2e25df799894922f5f87ff59b065378ef2129"
+    },
+    {
+      "id": "iphone-15-pro-max",
+      "sha256": "f1da48cb33ddf9eb37f3dacef79f890a4756cfba1d6fdff78897bbe21a2ce918"
+    },
+    {
+      "id": "x-phone-iphone-15-pro-max",
+      "sha256": "f1da48cb33ddf9eb37f3dacef79f890a4756cfba1d6fdff78897bbe21a2ce918"
+    },
+    {
+      "id": "iphone-17-pro",
+      "sha256": "f6532514fa64f143ef1188d36742bec6bf37cd329edd5a8d9f015e3086ea3a15"
+    },
+    {
+      "id": "x-phone-iphone-17-pro",
+      "sha256": "f6532514fa64f143ef1188d36742bec6bf37cd329edd5a8d9f015e3086ea3a15"
+    },
+    {
+      "id": "iphone-17-pro-max",
+      "sha256": "14f15d88c9ba9f2f511c94da0aac10fdc77ee0f9051a1468f2fffb575aa637de"
+    },
+    {
+      "id": "x-phone-iphone-17-pro-max",
+      "sha256": "14f15d88c9ba9f2f511c94da0aac10fdc77ee0f9051a1468f2fffb575aa637de"
+    }
+  ],
+  "protectedExactPhotos": [
+    {
+      "id": "iphone16pro",
+      "src": "/assets/hardware/cropped-iphone16pro.webp",
+      "sha256": "b63ca728556103e01b3ae38a63287b6262f652c5ca2bc24f562815eeb39871cb"
+    },
+    {
+      "id": "iphone13pro",
+      "src": "/assets/hardware/official-device-official-iphone13pro.png",
+      "sha256": "85f4883cf82440c2a73d2e4a48e7d7d36fd3f11ee647ffb328889424de243235"
+    },
+    {
+      "id": "pixel8pro",
+      "src": "/assets/hardware/official-device-official-pixel8pro.webp",
+      "sha256": "7b19f14a51b8da9aef49ff044bbbf3d1062cdcf8a12163207663e1d6ce78497e"
+    },
+    {
+      "id": "iphone12pro",
+      "src": "/assets/hardware/official-iphone-12-pro.webp",
+      "sha256": "a8572a5f84ed751479f033a84e4b39a0037912f3836938526a41e60aeb236fc8"
+    },
+    {
+      "id": "pixel7pro",
+      "src": "/assets/hardware/official-device-official-pixel7pro.jpg",
+      "sha256": "5c21e322111baeab402949a30a5e0ed6c1a99370206ccf6df90d0833a77c98ad"
+    },
+    {
+      "id": "x-phone-iphone-16",
+      "src": "/assets/hardware/cropped-x-phone-iphone-16.webp",
+      "sha256": "bfa99e58175f8844ebb4844480cb62938d980d439568a9ba3cef4fa4bff3f271"
+    },
+    {
+      "id": "x-phone-samsung-galaxy-s25",
+      "src": "/assets/hardware/exact-x-phone-samsung-galaxy-s25.webp",
+      "sha256": "9c7db0b16cffadc662401afcb4fba9fcf93ce33391845e49d17004a554acbad9"
+    },
+    {
+      "id": "x-phone-google-pixel-9",
+      "src": "/assets/hardware/exact-x-phone-google-pixel-9.webp",
+      "sha256": "fcd518be2d2f660db9908b786c77860dfc70250a753ccee76cbd986941e97ab8"
+    },
+    {
+      "id": "x-phone-iphone-7",
+      "src": "/assets/hardware/official-iphone-7.webp",
+      "sha256": "559550e8fe00c87e65299ff361bfcc8953054e46a547d1f0e5c322d73a88d8d2"
+    },
+    {
+      "id": "x-phone-iphone-x",
+      "src": "/assets/hardware/official-iphone-x.webp",
+      "sha256": "f2a2b1bd88e51e278c9579429e4df7b473b6fa1f4e963fb6d2abf25b0a16e4e9"
+    }
+  ],
+  "records": [
+    {
+      "id": "iphone-13",
+      "name": "iPhone 13",
+      "aliases": [
+        "iphone-13",
+        "x-phone-apple-iphone-13"
+      ],
+      "asset": "sketchfab-iphone-13.glb",
+      "sourceAssetSha256": "8b3c38b0712617bd93fe83815ef45049a7940a70328882810fed2a4690a674d4",
+      "sourceAssetBytes": 2389076,
+      "registeredRotation": [
+        0,
+        -1.5707963267948966,
+        0
+      ],
+      "creator": "Peter_D",
+      "sourceCreator": "Peter_D",
+      "creatorUrl": "https://sketchfab.com/better_peter",
+      "sourceUrl": "https://sketchfab.com/3d-models/iphone-13-3771e91e0b6b4df5a6bcda054623c21c",
+      "sourceUid": "3771e91e0b6b4df5a6bcda054623c21c",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "embeddedExtras": {
+        "author": "Peter_D (https://sketchfab.com/better_peter)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/iphone-13-3771e91e0b6b4df5a6bcda054623c21c",
+        "title": "iPhone 13"
+      },
+      "screenshot": "existing-iphone-13-front.png"
+    },
+    {
+      "id": "pixel-5",
+      "name": "Pixel 5",
+      "aliases": [
+        "pixel-5",
+        "x-phone-google-pixel-5"
+      ],
+      "asset": "sketchfab-pixel-5.glb",
+      "sourceAssetSha256": "9b83ddb2fe9d7870c489833674047a838c9c79d67120c40776faa9e06e266173",
+      "sourceAssetBytes": 263288,
+      "registeredRotation": [
+        0,
+        -1.5707963267948966,
+        0
+      ],
+      "creator": "minhazul_ferdous",
+      "sourceCreator": "minhazul_ferdous",
+      "creatorUrl": "https://sketchfab.com/minhazul_ferdous",
+      "sourceUrl": "https://sketchfab.com/3d-models/google-pixel-5-dae8c347f87d400b82b69a6a33da9ece",
+      "sourceUid": "dae8c347f87d400b82b69a6a33da9ece",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "embeddedExtras": {
+        "author": "minhazul_ferdous (https://sketchfab.com/minhazul_ferdous)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/google-pixel-5-dae8c347f87d400b82b69a6a33da9ece",
+        "title": "Google Pixel 5"
+      },
+      "screenshot": "existing-pixel-5-front.png"
+    },
+    {
+      "id": "pixel-6",
+      "name": "Pixel 6",
+      "aliases": [
+        "pixel-6",
+        "x-phone-google-pixel-6"
+      ],
+      "asset": "sketchfab-pixel-6.glb",
+      "sourceAssetSha256": "692b28f8de9c9bd5d7b11d1a17bebf25578b1e61990dd6b97efd00d1d12c8fae",
+      "sourceAssetBytes": 610912,
+      "registeredRotation": [
+        0,
+        -1.5707963267948966,
+        0
+      ],
+      "creator": "edgelooped",
+      "sourceCreator": "edgelooped",
+      "creatorUrl": "https://sketchfab.com/MartinCapkovic",
+      "sourceUrl": "https://sketchfab.com/3d-models/google-pixel-6-01f4c735e9824d58813646d9167d5c42",
+      "sourceUid": "01f4c735e9824d58813646d9167d5c42",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "embeddedExtras": {
+        "author": "edgelooped (https://sketchfab.com/MartinCapkovic)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/google-pixel-6-01f4c735e9824d58813646d9167d5c42",
+        "title": "Google Pixel 6"
+      },
+      "screenshot": "existing-pixel-6-front.png"
+    },
+    {
+      "id": "pixel-6-pro",
+      "name": "Pixel 6 Pro",
+      "aliases": [
+        "pixel-6-pro",
+        "x-phone-google-pixel-6-pro"
+      ],
+      "asset": "sketchfab-pixel-6-pro.glb",
+      "sourceAssetSha256": "fc810ff7b5a2d6d168d61286e97c4440fadc734f7f4b4314f0805d5c492d81b6",
+      "sourceAssetBytes": 539388,
+      "registeredRotation": [
+        0,
+        3.141592653589793,
+        0
+      ],
+      "creator": "DatSketch",
+      "sourceCreator": "DatSketch",
+      "creatorUrl": "https://sketchfab.com/DatSketch",
+      "sourceUrl": "https://sketchfab.com/3d-models/google-pixel-6-pro-b9b58ca40c254f8dafd8370869af74fb",
+      "sourceUid": "b9b58ca40c254f8dafd8370869af74fb",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "embeddedExtras": {
+        "author": "DatSketch (https://sketchfab.com/DatSketch)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/google-pixel-6-pro-b9b58ca40c254f8dafd8370869af74fb",
+        "title": "Google Pixel 6 Pro"
+      },
+      "screenshot": "existing-pixel-6-pro-front.png"
+    },
+    {
+      "id": "pixel-6a",
+      "name": "Pixel 6a",
+      "aliases": [
+        "pixel-6a",
+        "x-phone-google-pixel-6a"
+      ],
+      "asset": "sketchfab-pixel-6a.glb",
+      "sourceAssetSha256": "4009a9d6a35c722950f8eddd3241973fd092a64b7218ccba839c4bd8934c182e",
+      "sourceAssetBytes": 1401104,
+      "registeredRotation": [
+        0,
+        -1.5707963267948966,
+        0
+      ],
+      "creator": "visualdiscette",
+      "sourceCreator": "visualdiscette",
+      "creatorUrl": "https://sketchfab.com/visualdiscette",
+      "sourceUrl": "https://sketchfab.com/3d-models/smartphone-google-pixel-6a-075baa58c3c04e61b807a4dbdb2b3d32",
+      "sourceUid": "075baa58c3c04e61b807a4dbdb2b3d32",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "embeddedExtras": {
+        "author": "visualdiscette (https://sketchfab.com/visualdiscette)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/smartphone-google-pixel-6a-075baa58c3c04e61b807a4dbdb2b3d32",
+        "title": "Smartphone - Google Pixel 6a"
+      },
+      "screenshot": "existing-pixel-6a-front.png"
+    },
+    {
+      "id": "galaxy-s21",
+      "name": "Galaxy S21",
+      "aliases": [
+        "galaxy-s21",
+        "x-phone-samsung-galaxy-s21"
+      ],
+      "asset": "sketchfab-galaxy-s21.glb",
+      "sourceAssetSha256": "b1e6a2adb4510eba531f9a928c125cc4442fec3fde2225bd04a73b2668b23e96",
+      "sourceAssetBytes": 457812,
+      "registeredRotation": [
+        0,
+        0,
+        0
+      ],
+      "creator": "Waven",
+      "sourceCreator": "Waven",
+      "creatorUrl": "https://sketchfab.com/wavenquack24",
+      "sourceUrl": "https://sketchfab.com/3d-models/samsung-galaxy-s21-62c074055bc0491aaa4752128087fd88",
+      "sourceUid": "62c074055bc0491aaa4752128087fd88",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "embeddedExtras": {
+        "author": "Waven (https://sketchfab.com/wavenquack24)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/samsung-galaxy-s21-62c074055bc0491aaa4752128087fd88",
+        "title": "Samsung Galaxy S21"
+      },
+      "screenshot": "existing-galaxy-s21-front.png"
+    },
+    {
+      "id": "galaxy-s21-ultra",
+      "name": "Galaxy S21 Ultra",
+      "aliases": [
+        "galaxy-s21-ultra",
+        "x-phone-samsung-galaxy-s21-ultra"
+      ],
+      "asset": "sketchfab-galaxy-s21-ultra.glb",
+      "sourceAssetSha256": "d9d9f98f4959e2142a10311532be96c29ec035736c516a3f58d323da066f3666",
+      "sourceAssetBytes": 1151804,
+      "registeredRotation": [
+        0,
+        3.141592653589793,
+        0
+      ],
+      "creator": "DatSketch",
+      "sourceCreator": "DatSketch",
+      "creatorUrl": "https://sketchfab.com/DatSketch",
+      "sourceUrl": "https://sketchfab.com/3d-models/samsung-galaxy-s21-ultra-cd962832be7744efb6b37fe0ee2027e7",
+      "sourceUid": "cd962832be7744efb6b37fe0ee2027e7",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "embeddedExtras": {
+        "author": "DatSketch (https://sketchfab.com/DatSketch)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/samsung-galaxy-s21-ultra-cd962832be7744efb6b37fe0ee2027e7",
+        "title": "Samsung Galaxy S21 Ultra"
+      },
+      "screenshot": "existing-galaxy-s21-ultra-front.png"
+    },
+    {
+      "id": "galaxy-s23-ultra",
+      "name": "Galaxy S23 Ultra",
+      "aliases": [
+        "galaxy-s23-ultra",
+        "s23ultra"
+      ],
+      "asset": "sketchfab-galaxy-s23-ultra.glb",
+      "sourceAssetSha256": "1e364944c2899812bc1a19fc116cc5f0ac17cd2d1195ca467238b8c2bc7f2d14",
+      "sourceAssetBytes": 468172,
+      "registeredRotation": [
+        0,
+        0,
+        0
+      ],
+      "creator": "Imagigoo",
+      "sourceCreator": "Imagigoo",
+      "creatorUrl": "https://sketchfab.com/Imagigoo",
+      "sourceUrl": "https://sketchfab.com/3d-models/samsung-s23-ultra-free-f559464bf0f8453d95a0cd273de3ff0b",
+      "sourceUid": "f559464bf0f8453d95a0cd273de3ff0b",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "embeddedExtras": {
+        "author": "Imagigoo (https://sketchfab.com/Imagigoo)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/samsung-s23-ultra-free-f559464bf0f8453d95a0cd273de3ff0b",
+        "title": "Samsung S23 Ultra (Free)"
+      },
+      "screenshot": "existing-galaxy-s23-ultra-front.png"
+    },
+    {
+      "id": "galaxy-z-flip3",
+      "name": "Galaxy Z Flip3",
+      "aliases": [
+        "galaxy-z-flip3",
+        "x-phone-samsung-galaxy-z-flip3"
+      ],
+      "asset": "sketchfab-galaxy-z-flip3.glb",
+      "sourceAssetSha256": "f9df742cf592a7934b474af575393566a3408c42cdbaf2001378691936eb7fae",
+      "sourceAssetBytes": 224148,
+      "registeredRotation": [
+        0,
+        3.141592653589793,
+        0
+      ],
+      "creator": "DatSketch",
+      "sourceCreator": "DatSketch",
+      "creatorUrl": "https://sketchfab.com/DatSketch",
+      "sourceUrl": "https://sketchfab.com/3d-models/samsung-galaxy-z-flip-3-112947cbab7a4f708d0d01adb7d3fa3d",
+      "sourceUid": "112947cbab7a4f708d0d01adb7d3fa3d",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "embeddedExtras": {
+        "author": "DatSketch (https://sketchfab.com/DatSketch)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/samsung-galaxy-z-flip-3-112947cbab7a4f708d0d01adb7d3fa3d",
+        "title": "Samsung Galaxy Z Flip 3"
+      },
+      "screenshot": "existing-galaxy-z-flip3-front.png"
+    },
+    {
+      "id": "galaxy-a23-5g",
+      "name": "Galaxy A23 5G",
+      "aliases": [
+        "galaxy-a23-5g",
+        "x-phone-samsung-galaxy-a23-5g"
+      ],
+      "asset": "sketchfab-galaxy-a23-5g.glb",
+      "sourceAssetSha256": "a2f51631d77c873be9a30186148376b658bba1417205fa6a90092febc33b0a22",
+      "sourceAssetBytes": 308564,
+      "registeredRotation": [
+        0,
+        0,
+        0
+      ],
+      "creator": "Asadawut.Kaewma",
+      "sourceCreator": "Asadawut.Kaewma",
+      "creatorUrl": "https://sketchfab.com/Asadawut.Kaewma",
+      "sourceUrl": "https://sketchfab.com/3d-models/samsung-galaxy-a23-5g-c817c57d7f504c3b9891581ab4d40766",
+      "sourceUid": "c817c57d7f504c3b9891581ab4d40766",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "embeddedExtras": {
+        "author": "Asadawut.Kaewma (https://sketchfab.com/Asadawut.Kaewma)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/samsung-galaxy-a23-5g-c817c57d7f504c3b9891581ab4d40766",
+        "title": "Samsung Galaxy A23 5G"
+      },
+      "screenshot": "existing-galaxy-a23-5g-front.png"
+    },
+    {
+      "id": "galaxy-s3",
+      "name": "Galaxy S III",
+      "aliases": [
+        "galaxy-s3",
+        "x-phone-samsung-galaxy-s3"
+      ],
+      "asset": "sketchfab-galaxy-s3.glb",
+      "sourceAssetSha256": "50a72d1bd5934232f6a31827c0b99d3c65ee4cef470a76036143d6ef3cfc2741",
+      "sourceAssetBytes": 1301740,
+      "registeredRotation": [
+        0,
+        3.141592653589793,
+        0
+      ],
+      "creator": "Res1n",
+      "sourceCreator": "Resinnnn",
+      "creatorUrl": "https://sketchfab.com/Resinnnn",
+      "sourceUrl": "https://sketchfab.com/3d-models/samsung-galaxy-s3-a8fa060c6a5b4a6582fe1295d17dd43c",
+      "sourceUid": "a8fa060c6a5b4a6582fe1295d17dd43c",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "embeddedExtras": {
+        "author": "Resinnnn (https://sketchfab.com/Resinnnn)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/samsung-galaxy-s3-a8fa060c6a5b4a6582fe1295d17dd43c",
+        "title": "Samsung Galaxy S3"
+      },
+      "screenshot": "existing-galaxy-s3-front.png"
+    },
+    {
+      "id": "oneplus-7-pro",
+      "name": "OnePlus 7 Pro",
+      "aliases": [
+        "oneplus-7-pro",
+        "x-phone-oneplus-7-pro"
+      ],
+      "asset": "sketchfab-oneplus-7-pro.glb",
+      "sourceAssetSha256": "6716f83eb4f945117b18172302ed3d6b504a5d5086dabebf76032e049cef91ae",
+      "sourceAssetBytes": 1023928,
+      "registeredRotation": [
+        0,
+        0,
+        0
+      ],
+      "creator": "lazercar",
+      "sourceCreator": "lazercar",
+      "creatorUrl": "https://sketchfab.com/lazercar",
+      "sourceUrl": "https://sketchfab.com/3d-models/one-plus-7-pro-6dea856656e04a4b89fef3c2572ee238",
+      "sourceUid": "6dea856656e04a4b89fef3c2572ee238",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "embeddedExtras": {
+        "author": "lazercar (https://sketchfab.com/lazercar)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/one-plus-7-pro-6dea856656e04a4b89fef3c2572ee238",
+        "title": "One Plus 7 Pro"
+      },
+      "screenshot": "existing-oneplus-7-pro-front.png"
+    }
+  ]
+}

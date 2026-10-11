@@ -1,0 +1,43 @@
+{
+  "version": "2026-10-09.1",
+  "enabledAliases": [],
+  "redirects": [],
+  "blocked": [
+    {
+      "from": "c-board-msi-mag-b850-tomahawk-max-wifi",
+      "to": "b850tomahawk",
+      "decision": "needs_variant_review",
+      "scope": "named_model_only",
+      "evidence": [
+        "https://www.msi.com/Motherboard/MAG-B850-TOMAHAWK-MAX-WIFI/Specification",
+        "https://us-store.msi.com/MAG-B850-TOMAHAWK-MAX-WIFI"
+      ],
+      "finding": "Both local records name the MSI MAG B850 TOMAHAWK MAX WIFI. The generic component record explicitly lacks a regional SKU/revision and came from a family listing. Official exact-model pages confirm the named model, but do not prove that every unspecified regional/revision identity in the legacy family record is interchangeable.",
+      "action": "Retain both IDs and self canonicals. Link the better documented named model as a related record. Review exact model code/revision from the legacy data source before approving a permanent alias.",
+      "review": {
+        "status": "needs_human_review",
+        "kind": "source_checked_by_agent",
+        "date": "2026-10-09",
+        "reviewer": null
+      }
+    },
+    {
+      "from": "c-board-msi-mag-b650-tomahawk-wifi",
+      "to": "b650",
+      "decision": "needs_variant_review",
+      "scope": "named_model_only",
+      "evidence": [
+        "https://www.msi.com/Motherboard/MAG-B650-TOMAHAWK-WIFI/Specification",
+        "https://us-store.msi.com/MAG-B650-TOMAHAWK-WIFI"
+      ],
+      "finding": "The names agree with official model documentation. The legacy manufacturer-family record has no exact regional SKU or revision. Name agreement alone is insufficient for an automatic saved-build or product-URL migration.",
+      "action": "Retain IDs until the exact identity is reviewed. No destructive consolidation or HTTP redirect is enabled.",
+      "review": {
+        "status": "needs_human_review",
+        "kind": "source_checked_by_agent",
+        "date": "2026-10-09",
+        "reviewer": null
+      }
+    }
+  ]
+}

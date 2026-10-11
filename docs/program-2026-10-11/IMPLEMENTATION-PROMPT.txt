@@ -1,0 +1,224 @@
+CONTINUE PC PART PERFORMANCE — ORGANIZATION, 3D, MORNING PRICES, PREBUILTS, CONTENT AND GROWTH
+
+Act as the senior product engineer, hardware research editor, technical SEO lead, designer and QA lead for pcpartperformance.com. Work in the real repository and improve the existing site. Preserve the approved visual identity while making it clearer, more useful, more distinctive and easier to maintain.
+
+The goal is a coherent visitor journey:
+Find a useful answer → compare real choices → build, upgrade or choose a prebuilt → save/share the decision → return for meaningful changes.
+
+Implement working changes, complete researched content and tested integrations. Do not stop at an audit, mockup, navigation cards or article outlines.
+
+1. INSPECT AND CONTINUE THE ACTUAL PROJECT
+
+Read repository instructions, inspect Git status, identify the actual source, generator, runtime and deployment configuration, and preserve unrelated work. Inspect the public site and rendered staging pages before deciding what needs changing.
+
+Start with docs/program-2026-10-09/FINAL-REPORT.md and its supporting records if they remain applicable. Recheck their findings: the previous checkpoint recorded 40 research drafts without human publication approval, an existing phone-size/3D tool, strict offer validation with no qualifying current observations, and substantial staged builder/SEO work.
+
+Distinguish repository changes, generated staging output and the deployed release. Never publish a staging build that excludes every page from indexing. Do not replace the stack or duplicate existing tools.
+
+Maintain a checklist with task IDs, dependencies, files, evidence, tests and status. Use parallel agents for independent research, asset preparation, content and QA when supported; assign non-conflicting ownership and review their work centrally.
+
+Make reasonable implementation decisions and continue independent work while genuine dependencies are missing. Ask only for information or approval that changes what you can actually do. Record precise blockers rather than inventing data.
+
+2. MAKE THE SITE EASY TO NAVIGATE
+
+Make Phones a prominent main navigation destination. Give it a polished hub with:
+- Compare phones.
+- Compare phone size and explore 3D.
+- Browse phones.
+- Relevant buying and support guides.
+
+Reuse the existing /phones/size-compare/ experience and shared product identities. Do not create competing copies of the same tool.
+
+Organize PC Builder, Comparisons, Hardware, Phones, Prebuilt PCs, and Guides/News into a manageable navigation system. Group shopping, FPS, other tools and saved items logically. Decide the final arrangement from the actual site and test whether visitors can find these destinations quickly on mobile and desktop.
+
+Keep the homepage purposeful: explain the site, provide clear build/upgrade/compare actions, and add useful entry points into phone comparison, prebuilts and recent verified content. Avoid turning it into a wall of unrelated feature cards.
+
+Use clear names, breadcrumbs, contextual links and search results labeled by type. Preserve browser back behavior and shareable selections.
+
+3. REORGANIZE PHONE COMPARISON
+
+Make choosing two phones and understanding the result immediately obvious. Separate specifications, physical size and 3D exploration into clear views with one consistent selection state.
+
+Show readable model names, exact variants, verified dimensions, weight and support information where available. Keep same-scale size comparison separate from the appearance of a downloadable model. Do not claim a screen drawing is physically life-size without calibration.
+
+Provide rotate, zoom, reset, angle presets, swap and optional linked rotation. Keep both devices fully visible, controls obvious and touch gestures practical. Handle unavailable or failed models gracefully without breaking the specification comparison.
+
+Use exact official photographs where permitted. Do not assign a different phone generation, camera design or variant to make coverage appear complete.
+
+4. MAKE THE PC BUILDER CLEARER AND MORE BEAUTIFUL
+
+Extend the current builder and preserve its working features. Redesign its layout around three understandable tasks: choose parts, inspect the build, review compatibility and spending.
+
+Use well-spaced component rows or cards, consistent thumbnails, stronger readable typography, aligned labels and clearly contained buttons. Avoid excessively wide selectors, arrows against the edge, crowded status panels and a navigation bar that changes height on this route.
+
+Start empty unless a saved/shared build was intentionally loaded. Provide an obvious starter-build action.
+
+Use modern accessible part selectors with:
+- Search that receives keyboard focus only when deliberately activated.
+- Category, multiple-brand and relevant series filters.
+- Exact partner models, capacities and revisions.
+- Clear selected states, filter reset and helpful empty results.
+- A useful "3D model available" filter.
+- Owned/locked parts, quantities and supported alternatives.
+
+Keep primary actions visible without obstructive sticky panels. On phones, show a logical vertical flow; on desktop, use balanced columns with clear boundaries between selection, preview and readiness.
+
+Explain confirmed compatibility, conflicts and unresolved checks concisely. Keep detailed evidence expandable. Show missing required items and prices where the decision is made. Use proper SVG icons rather than arrow emoji.
+
+5. CONTINUE ADDING REAL 3D MODELS
+
+Audit the existing model registry, local downloads, product mappings, credits and coverage report. Count unique assets separately from products mapped to them.
+
+Search Sketchfab, manufacturers and other legitimate downloadable sources for exact models of GPUs, CPUs, motherboards, cases, RAM, SSDs, hard drives, PSUs, fans and phones. Prioritize components people will actually select, with particular attention to cases, partner GPU variants, fans and phones.
+
+Begin a substantial first batch targeting 20 additional exact product/model integrations where usable licensed downloads exist. Continue documented research for missing products; report actual matches and blockers. Never substitute a different SKU and claim it is exact.
+
+For every integrated asset, record its creator, source, license, download origin, product/variant mapping, modifications, orientation, scale and verification status. Maintain the creator-credit page. Respect license and download permissions; do not bypass access restrictions.
+
+Inspect models in the actual viewer. Correct material, texture, pivot, orientation, scale and placement issues. Use efficient GLB delivery and supported compression without damaging appearance. Load only selected models and defer the renderer until useful.
+
+Distinguish visual resemblance from verified geometry. A community mesh does not prove GPU clearance, cable clearance or physical compatibility. Use manufacturer dimensions and documented fit rules for those conclusions.
+
+Keep the consumer interface clean: remove repetitive "family photo" or "reference photo" captions, but retain required attribution and decision-relevant uncertainty in sensible places. Provide attractive image/2D fallbacks and a truthful model-coverage view.
+
+6. BUILD A REAL MORNING PRICE SYSTEM
+
+Once-per-morning checking is acceptable. Build a shared backend service for components, shop listings, builder totals and prebuilts.
+
+Inspect and extend the existing offer schema and validation. Use authorized retailer APIs/feeds first, or permitted access to exact product pages where suitable. Research actual access requirements and reuse configured credentials safely.
+
+Prioritize Canada Computers, Memory Express, Vuugo, Best Buy, Newegg and Amazon in the regions they actually serve. Investigate Best Buy's official product API as one starting point; verify its permissions and regional coverage. Do not assume a US API covers Canada or that every store exposes the same data.
+
+If PCPartPicker access is authorized and technically available, evaluate it as an adapter. Do not make the whole service depend on an unofficial scraper or bypass Cloudflare protections.
+
+Every observation must identify the exact product variant, retailer SKU, merchant/seller, condition, country, currency, direct listing URL, observed price, availability evidence, checkedAt and expiry. Unknown stock remains unknown.
+
+Use the existing Cloudflare Worker where practical. Add durable storage, a tested scheduled handler and a morning refresh around 7:00 a.m. America/Toronto, correctly accounting for UTC schedules and daylight saving. Make runs idempotent and bounded.
+
+Use a 15-minute response cache and request deduplication where appropriate. A cache duration does not make a once-daily observation live. Keep daily checked snapshots separate from any short-lived current-price policy; do not silently weaken existing expiry rules.
+
+Display concise timestamps such as "Checked today at 7:03 a.m." and explain excluded tax/shipping. Failed checks must not advance the last successful timestamp. Show stale or unavailable states honestly.
+
+Rank the lowest eligible offer among checked stores, not the "cheapest everywhere." Keep CAD and USD explicit behind the existing country control. Recalculate quantities, owned parts, partial totals and missing prices correctly.
+
+Add timeouts, rate limits, bounded retries, backoff, parser-change detection and per-source health. Keep secrets server-side; constrain upstream URLs and validate responses. Do not fetch arbitrary user URLs.
+
+Keep real observation history if permitted. Never synthesize historical prices, discounts, stock or "lowest ever" claims.
+
+Prepare a dry run, request/cost estimate and source-access checklist. Activate the schedule only after the relevant access and release authorization are established. Verify a real deployed execution before describing it as running.
+
+7. ADD A USEFUL PREBUILT PCS SECTION
+
+Create a maintained Prebuilt PCs hub with real configurations, retailer links and transparent selection criteria. Start with up to 12 thoroughly checked systems across Canada and the US, subject to evidence quality.
+
+Include exact system/SKU, CPU, GPU and VRAM, RAM configuration, storage, cooling, PSU and motherboard where disclosed, dimensions, networking, OS, condition, seller, warranty and return information. Mark undisclosed components clearly.
+
+Provide compact filters for country, budget, important components, condition and availability. Let visitors compare shortlisted systems and save them.
+
+Explain what makes a listing worth considering: complete configuration, observed regional price, support, upgrade limitations and relevant performance evidence. Separate editorial recommendations, paid placements and observed offers. Qualify commercial links appropriately.
+
+Use "best among the systems evaluated" with a clear comparison basis. Avoid fake savings, artificial urgency or an unsupported universal best-PC score.
+
+Add a Build vs Buy worksheet comparing a prebuilt with a reasonable DIY configuration. Include OS, assembly/support and missing prices. An approximate DIY counterpart is not the prebuilt's undisclosed internal bill of materials.
+
+Link actual YouTube reviews when they match the system or relevant component. Show channel, title and what was reviewed. Use click-to-load video previews; do not autoplay or load multiple heavy players initially. Do not imply third-party testing was performed by this site.
+
+8. ADD USEFUL CONTENT AND A REAL NEWS WORKFLOW
+
+Research actual search intent using authorized Search Console data when available, plus current public searches and related questions. Treat public results as qualitative evidence, not invented search volume or rankings.
+
+Improve existing matching articles before creating new URLs. Recheck the previous 40-draft program and its publication gates.
+
+Complete a first batch of 12 substantial new or materially improved editorial items: roughly eight evergreen buying/tool guides and four genuinely timely news reports when current evidence supports them. Adjust overlapping or unsupported topics without lowering quality.
+
+Research candidates include:
+- Best prebuilt gaming PC options in Canada for defined budgets.
+- US prebuilt options with a genuinely regional offer basis.
+- Prebuilt versus DIY: full cost, support and upgrade tradeoffs.
+- How to check a prebuilt's PSU, cooling, RAM and upgrade limitations.
+- Comparing phone size beyond screen diagonal.
+- Choosing a smaller phone using dimensions and support needs.
+- What a 3D PC preview can help you decide.
+- Finding better upgrade value using the builder and checked offers.
+- Recent DRAM/DDR5 supply developments and actual consumer-price evidence.
+- AI/data-center GPU demand versus consumer GPU pricing.
+- Current CPU/GPU/platform announcements and their practical implications.
+- Current phone launch or software-support developments.
+
+Open original manufacturer announcements, support documents and original benchmark reporting. Micron's September 30, 2026 results are one research lead for memory demand; recheck them and distinguish company statements from demonstrated retail-price changes.
+
+Write original explanations and buyer implications. Separate announcement, release and observation dates; facts, forecasts and interpretation; measured results and estimates. Do not rewrite press releases into promotional filler.
+
+Each article needs a clear answer, audience, unique contribution, consequential-claim sources, relevant product/tool links, accurate dates, truthful authorship and review status. Add an appropriate verified YouTube link where useful, not a random video to satisfy a quota.
+
+Respect the existing editorial workflow. Automated or AI review is not human approval. Prepare reviewable drafts when required approval is absent and keep them out of production indexing. Continue implementation while review is pending.
+
+9. PREPARE FOR GOOGLE SEARCH, NEWS AND DISCOVER
+
+Create a clear news destination within the publication and keep news, evergreen guides and deals distinguishable. Reuse existing news-policy and monitoring infrastructure.
+
+Implement truthful bylines, publication/update dates, ownership/contact information, corrections, editorial policy and sponsorship disclosures. Use accurate Article/NewsArticle markup where supported by the visible content.
+
+Maintain a news sitemap containing eligible articles from the last two days, at most 1,000 news entries per file. Keep older useful articles in ordinary archives/sitemaps. Add a working RSS feed.
+
+Use representative licensed images, responsive delivery and large-preview eligibility where appropriate. Do not use a generic logo as every lead image.
+
+Google News considers eligible content automatically; an application, schema or sitemap does not guarantee inclusion or ranking. Research current official guidance at execution time and report eligibility preparation separately from actual appearance.
+
+Build an evidence-led monitoring command or job that proposes news leads and affected-content updates. It must not automatically publish unchecked stories.
+
+10. APPLY SEO TO EVERY CHANGE
+
+Create a query-to-page map. Use the words people use naturally in titles, main headings, summaries and descriptive links. Preserve clear writing; do not stuff keywords, imitate typos or create overlapping pages to chase phrasing.
+
+Maintain crawlable essential HTML, unique accurate metadata, canonicals, meaningful internal links, breadcrumbs, legitimate structured data, correct status codes and truthful sitemap dates.
+
+Control search/filter/tool-state URL indexing and preserve saved links. Do not invent offers, ratings, test results, author credentials or special AI-search markup.
+
+Check exact image identity, descriptive alt text, social previews, favicon/site-name consistency and regional currency throughout.
+
+Measure search acquisition separately from useful actions: phone comparisons, completed builds, saves, shares, guide-to-tool journeys and retailer clicks. Reuse consented analytics; do not send private tokens or free-form user data.
+
+11. MAKE THE VISUALS EXPRESSIVE AND FAST
+
+Build on the approved tech style. Use strong readable typography, generous spacing, precise alignment, confident colors, excellent light/dark contrast and consistent image frames.
+
+Add noticeable, polished motion: a liquid active-navigation indicator, smooth selector/filter expansion, transitions between comparison views, responsive card interactions and coherent panel movement.
+
+Make animation serve navigation and feedback. Prefer transforms/opacity, preserve layout space and provide reduced-motion alternatives. Avoid scroll trapping, obstructive overlays and interaction delays.
+
+Keep 3D, videos and large catalogs out of the initial payload when not needed. Measure representative mobile/desktop routes before and after; protect loading, responsiveness and layout stability.
+
+12. TEST, RELEASE AND HAND OVER
+
+Run appropriate build, syntax/type/lint checks and behavior tests. Visually inspect desktop and mobile, including roughly 360, 390, 768 and 1440-pixel widths. Exercise touch, keyboard, focus, contrast and reduced motion.
+
+Verify complete journeys:
+- Main navigation → Phones → select two → size/3D → swap/reset → share/reload.
+- Builder → choose exact parts → owned/quantity changes → readiness → regional offers → save/share.
+- Prebuilt filters → compare → review video → retailer → Build vs Buy.
+- Article/news → useful tool → return with context preserved.
+
+Test price expiry, failed refreshes, currency, stock unknowns, partial totals, malformed responses, missing models, invalid selections, URLs and indexing rules. Reinspect each downloaded model in context.
+
+Inspect the existing Cloudflare deployment and domain before replacing anything. Prepare the correct production build, rollback point and release checklist. Preserve unrelated DNS/email records.
+
+Use existing explicit deployment authorization when it applies. If production approval is absent, finish the tested release and ask once for approval of that concrete result.
+
+After authorized deployment, verify HTTPS on pcpartperformance.com and its preferred host, deep links, metadata, API responses, asset delivery and scheduled refresh execution. Provide a remotely accessible URL usable from a phone; localhost is not a public preview.
+
+Report actual routes/files changed, assets added with sources, articles and review states, observed price coverage, tests run, measured performance, deployment identifier, remaining blockers and next executable steps. Never equate drafted with published, implemented with active, or visual models with verified fit.
+
+Begin inspection and implement in this order:
+Navigation/phone organization → builder presentation → shared morning prices → prebuilts → model integrations → content/news/SEO → complete QA → authorized release.
+
+Official documentation to recheck:
+- https://developers.google.com/search/docs/essentials
+- https://developers.google.com/search/docs/fundamentals/creating-helpful-content
+- https://support.google.com/news/publisher-center/answer/15898024
+- https://support.google.com/news/publisher-center/answer/6204050
+- https://developers.google.com/search/docs/crawling-indexing/sitemaps/news-sitemap
+- https://developers.google.com/search/docs/appearance/google-discover
+- https://developers.cloudflare.com/workers/configuration/cron-triggers/
+- https://developer.bestbuy.com/
+

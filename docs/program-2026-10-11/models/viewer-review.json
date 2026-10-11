@@ -1,0 +1,99 @@
+{
+  "checkedAt": "2026-10-11T16:43:13.807Z",
+  "method": "Actual dist/build-scene.js and bundled glTF loader in an isolated headless Edge profile with software WebGL. Camera fit uses manufacturer or candidate dimensions; screenshots are visual review, not certified fit.",
+  "scenarios": [
+    {
+      "name": "msi-5070-trio",
+      "file": "/tmp/model-batch-2026-10-11/msi-5070-trio.glb",
+      "rotation": [
+        1.5707963267948966,
+        1.5707963267948966,
+        0
+      ],
+      "size": [
+        338,
+        50,
+        140
+      ],
+      "slot": "gpu",
+      "view": "angled",
+      "turns": 0,
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"failed\":[],\"rendered\":1,\"loadMs\":81}",
+        "canvas": {
+          "engine": "three.js r180",
+          "cameraDistance": "0.408",
+          "boundsSize": "0.338,0.050,0.140",
+          "renderCount": "4",
+          "triangles": "883",
+          "modelCount": "1",
+          "loadMs": "81"
+        }
+      },
+      "screenshot": "msi-5070-trio.png"
+    },
+    {
+      "name": "iphone-13-pro-front",
+      "file": "/tmp/model-batch-2026-10-11/iphone-13-pro.glb",
+      "rotation": [
+        0,
+        -1.5707963267948966,
+        0
+      ],
+      "size": [
+        71.5,
+        146.7,
+        7.65
+      ],
+      "slot": "cpu",
+      "view": "side",
+      "turns": 0,
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"failed\":[],\"rendered\":1,\"loadMs\":34}",
+        "canvas": {
+          "engine": "three.js r180",
+          "cameraDistance": "0.261",
+          "boundsSize": "0.071,0.147,0.008",
+          "renderCount": "4",
+          "triangles": "175133",
+          "modelCount": "1",
+          "loadMs": "34"
+        }
+      },
+      "screenshot": "iphone-13-pro-front.png"
+    },
+    {
+      "name": "iphone-13-pro-back",
+      "file": "/tmp/model-batch-2026-10-11/iphone-13-pro.glb",
+      "rotation": [
+        0,
+        -1.5707963267948966,
+        0
+      ],
+      "size": [
+        71.5,
+        146.7,
+        7.65
+      ],
+      "slot": "cpu",
+      "view": "side",
+      "turns": 13,
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"failed\":[],\"rendered\":1,\"loadMs\":38}",
+        "canvas": {
+          "engine": "three.js r180",
+          "cameraDistance": "0.261",
+          "boundsSize": "0.071,0.147,0.008",
+          "renderCount": "4",
+          "triangles": "175133",
+          "modelCount": "1",
+          "loadMs": "38"
+        }
+      },
+      "screenshot": "iphone-13-pro-back.png"
+    }
+  ]
+}

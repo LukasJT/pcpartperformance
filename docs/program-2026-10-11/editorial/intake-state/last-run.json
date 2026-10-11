@@ -1,0 +1,35 @@
+{
+  "checkedAt": "2026-10-11T17:06:04.193Z",
+  "offline": false,
+  "scope": "Four known original announcement pages plus the inspected Pixel monthly-bulletin discovery index. Other future releases need additional inspected sources; no complete live news feed is claimed.",
+  "queued": 4,
+  "published": 0,
+  "approvalsWritten": 0,
+  "report": [
+    {
+      "source": "micronFY26",
+      "status": "failed",
+      "error": "fetch failed"
+    },
+    {
+      "source": "rtxSpark",
+      "status": "failed",
+      "error": "fetch failed"
+    },
+    {
+      "source": "amdLinux2616",
+      "status": "failed",
+      "error": "fetch failed"
+    },
+    {
+      "source": "pixelOctober",
+      "status": "failed",
+      "error": "fetch failed"
+    },
+    {
+      "source": "pixel-bulletin-index",
+      "status": "failed",
+      "error": "fetch failed"
+    }
+  ]
+}

@@ -1,0 +1,452 @@
+{
+  "checkedAt": "2026-10-11T18:17:51.328Z",
+  "id": "iphone-17-pro",
+  "sourceUrl": "https://sketchfab.com/3d-models/iphone-17-pro-4541aa8a28324b33a2baaf81d263aaec",
+  "creator": "Ranguel",
+  "creatorUrl": "https://sketchfab.com/Ranguel",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "sourceUid": "4541aa8a28324b33a2baaf81d263aaec",
+  "sourceBytes": 24368404,
+  "sourceSha256": "46f28404981cbd53b891aad212f2736db582de2ba98296f2dc4109e06c4645c2",
+  "commands": [
+    "node tmp/model-batch-2026-10-11/test-iphone17-textures.cjs",
+    "node scripts/prepare-licensed-phones-2026-10-11.mjs iphone-17-pro",
+    "node scripts/qa-model-batch-2026-10-11.cjs docs/program-2026-10-11/models/iphone-17-pro-optimization-scenarios.json iphone-17-pro-optimization-review.json"
+  ],
+  "before": {
+    "bytes": 3052576,
+    "sha256": "7802feb099c5c92c32eef8d7a96576a95fc7332050dc60b6a4be9eef5157d74f",
+    "imageBytes": 2638700,
+    "nonImageBytes": 413876,
+    "textureMaxSize": 1024,
+    "textureQuality": 90
+  },
+  "after": {
+    "bytes": 2434552,
+    "sha256": "cfa64b18844cec97e6cb3289118d7966b48d4888ed39dd146fd56bcb5ea65431",
+    "imageBytes": 2020684,
+    "nonImageBytes": 413868,
+    "textureMaxSize": 864,
+    "textureQuality": 90
+  },
+  "savedBytes": 618024,
+  "budgetBytes": 2500000,
+  "budgetHeadroomBytes": 65448,
+  "textureTrials": [
+    {
+      "maxSize": 1024,
+      "quality": 85,
+      "imageBytes": 2378932,
+      "estimatedGlbBytes": 2792808,
+      "imageByteLengths": [
+        669278,
+        1005178,
+        155992,
+        155700,
+        105284,
+        109246,
+        156518,
+        21736
+      ]
+    },
+    {
+      "maxSize": 1024,
+      "quality": 80,
+      "imageBytes": 2205856,
+      "estimatedGlbBytes": 2619732,
+      "imageByteLengths": [
+        607274,
+        1005178,
+        114640,
+        135434,
+        87822,
+        101396,
+        136082,
+        18030
+      ]
+    },
+    {
+      "maxSize": 896,
+      "quality": 90,
+      "imageBytes": 2145740,
+      "estimatedGlbBytes": 2559616,
+      "imageByteLengths": [
+        575974,
+        761444,
+        183856,
+        163546,
+        103932,
+        171728,
+        160748,
+        24512
+      ]
+    },
+    {
+      "maxSize": 768,
+      "quality": 90,
+      "imageBytes": 1616826,
+      "estimatedGlbBytes": 2030702,
+      "imageByteLengths": [
+        414058,
+        549616,
+        154620,
+        133752,
+        81774,
+        132108,
+        130786,
+        20112
+      ]
+    },
+    {
+      "maxSize": 864,
+      "quality": 90,
+      "imageBytes": 2020684,
+      "estimatedGlbBytes": 2434560,
+      "imageByteLengths": [
+        533238,
+        705464,
+        174280,
+        154798,
+        98526,
+        178508,
+        152810,
+        23060
+      ]
+    },
+    {
+      "maxSize": 896,
+      "quality": 85,
+      "imageBytes": 1922226,
+      "estimatedGlbBytes": 2336102,
+      "imageByteLengths": [
+        506032,
+        761214,
+        127080,
+        135562,
+        83104,
+        159782,
+        130990,
+        18462
+      ]
+    }
+  ],
+  "decodedAccessors": 64,
+  "decodedFiniteValues": 536745,
+  "decodedGeometryIdentical": true,
+  "triangles": 51223,
+  "bounds": {
+    "min": [
+      -36.551255836664936,
+      -75,
+      -6.646750736456738
+    ],
+    "max": [
+      36.551255836664936,
+      75,
+      6.643464783150414
+    ]
+  },
+  "embeddedCreditUnchanged": true,
+  "validator": {
+    "version": "2.0.0-dev.3.10",
+    "numErrors": 0,
+    "numWarnings": 0,
+    "numInfos": 9,
+    "messages": [
+      {
+        "code": "UNSUPPORTED_EXTENSION",
+        "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+        "severity": 2,
+        "pointer": "/extensionsUsed/0"
+      },
+      {
+        "code": "IMAGE_NPOT_DIMENSIONS",
+        "message": "Image has non-power-of-two dimensions: 864x864.",
+        "severity": 2,
+        "pointer": "/images/0"
+      },
+      {
+        "code": "IMAGE_NPOT_DIMENSIONS",
+        "message": "Image has non-power-of-two dimensions: 864x864.",
+        "severity": 2,
+        "pointer": "/images/1"
+      },
+      {
+        "code": "IMAGE_NPOT_DIMENSIONS",
+        "message": "Image has non-power-of-two dimensions: 864x864.",
+        "severity": 2,
+        "pointer": "/images/2"
+      },
+      {
+        "code": "IMAGE_NPOT_DIMENSIONS",
+        "message": "Image has non-power-of-two dimensions: 864x864.",
+        "severity": 2,
+        "pointer": "/images/3"
+      },
+      {
+        "code": "IMAGE_NPOT_DIMENSIONS",
+        "message": "Image has non-power-of-two dimensions: 864x864.",
+        "severity": 2,
+        "pointer": "/images/4"
+      },
+      {
+        "code": "IMAGE_NPOT_DIMENSIONS",
+        "message": "Image has non-power-of-two dimensions: 864x864.",
+        "severity": 2,
+        "pointer": "/images/5"
+      },
+      {
+        "code": "IMAGE_NPOT_DIMENSIONS",
+        "message": "Image has non-power-of-two dimensions: 864x864.",
+        "severity": 2,
+        "pointer": "/images/6"
+      },
+      {
+        "code": "IMAGE_NPOT_DIMENSIONS",
+        "message": "Image has non-power-of-two dimensions: 432x864.",
+        "severity": 2,
+        "pointer": "/images/7"
+      }
+    ]
+  },
+  "otherNewAssetsUnchanged": [
+    {
+      "id": "iphone-13-pro",
+      "asset": "sketchfab-iphone-13-pro.glb",
+      "bytes": 224072,
+      "sha256": "41cb05a8ebabef7f9c28c539048204f35fc5c3ed1841588458363d9156ce3685",
+      "unchanged": true
+    },
+    {
+      "id": "iphone-13-pro-max",
+      "asset": "sketchfab-iphone-13-pro-max.glb",
+      "bytes": 232508,
+      "sha256": "86a4f2ae0826464d3267b98521c347467a63a6bd87146219dd2706c51a4bd804",
+      "unchanged": true
+    },
+    {
+      "id": "galaxy-s22",
+      "asset": "sketchfab-galaxy-s22.glb",
+      "bytes": 2490712,
+      "sha256": "7a01a911e6ae3e44427a30e1bf53d3f19f0e1b02421096e51cff1c0034687705",
+      "unchanged": true
+    },
+    {
+      "id": "galaxy-s22-ultra",
+      "asset": "sketchfab-galaxy-s22-ultra.glb",
+      "bytes": 198396,
+      "sha256": "bee7f78bfa8e076a86612a1360a7fde97c274502896ee50a8c8b7f70cd1db38c",
+      "unchanged": true
+    },
+    {
+      "id": "galaxy-s20-ultra",
+      "asset": "sketchfab-galaxy-s20-ultra.glb",
+      "bytes": 674640,
+      "sha256": "45da720243b6766ea8b70afd4ab499332fde1e7b59e580b60ce786678c8a2f12",
+      "unchanged": true
+    },
+    {
+      "id": "galaxy-s21-fe",
+      "asset": "sketchfab-galaxy-s21-fe.glb",
+      "bytes": 389336,
+      "sha256": "608eab8d9dec760631baf772e1f41b09a3ce73883b149d48c2d91a25cdd175c3",
+      "unchanged": true
+    },
+    {
+      "id": "iphone-11",
+      "asset": "sketchfab-iphone-11.glb",
+      "bytes": 785840,
+      "sha256": "9185648d842a1ffe39884bab7e754d36f33bc4899659b93c4b79db001b0d21ce",
+      "unchanged": true
+    },
+    {
+      "id": "iphone-11-pro",
+      "asset": "sketchfab-iphone-11-pro.glb",
+      "bytes": 53084,
+      "sha256": "76d08fc5d684f0420d1980f4f0629664401778ef1d3c426e51c803598eedf3d7",
+      "unchanged": true
+    },
+    {
+      "id": "iphone-11-pro-max",
+      "asset": "sketchfab-iphone-11-pro-max.glb",
+      "bytes": 716468,
+      "sha256": "ca482d4d74ee04b70237c08c1b4f2bbcab7cb59c1b2a555ecc76655dc5a7d083",
+      "unchanged": true
+    },
+    {
+      "id": "iphone-6",
+      "asset": "sketchfab-iphone-6.glb",
+      "bytes": 1542856,
+      "sha256": "be11cf0f0bcf5fae56fae8df343c36c825d0e64cdeb2ced609f43f4fe88fb8c7",
+      "unchanged": true
+    },
+    {
+      "id": "iphone-8",
+      "asset": "sketchfab-iphone-8.glb",
+      "bytes": 103584,
+      "sha256": "8169f4953485561f2d5f74ad9b3cc28bafa4eedd12f8ca01d2185f3bc5342cbf",
+      "unchanged": true
+    },
+    {
+      "id": "iphone-8-plus",
+      "asset": "sketchfab-iphone-8-plus.glb",
+      "bytes": 982440,
+      "sha256": "358099ee221c4ba1fd6a8313fa06278e6a69323155c1796eebcfb697b0048cf5",
+      "unchanged": true
+    },
+    {
+      "id": "iphone-12-mini",
+      "asset": "sketchfab-iphone-12-mini.glb",
+      "bytes": 783292,
+      "sha256": "cb594e572156502465c632c70673da62ad7d551c47b0919e722e158df17aed66",
+      "unchanged": true
+    },
+    {
+      "id": "iphone-xr",
+      "asset": "sketchfab-iphone-xr.glb",
+      "bytes": 318812,
+      "sha256": "03ee40af293ce98a7749c8fa94f90298d4cdc7a50518b8a19541d2091bc0aa8c",
+      "unchanged": true
+    },
+    {
+      "id": "iphone-xs",
+      "asset": "sketchfab-iphone-xs.glb",
+      "bytes": 501088,
+      "sha256": "d497ca6cbecc368c69252f1c5ce74a05c774c1fa9588523ea491cee8e5539ac5",
+      "unchanged": true
+    },
+    {
+      "id": "galaxy-s10",
+      "asset": "sketchfab-galaxy-s10.glb",
+      "bytes": 415604,
+      "sha256": "cbf154b6f11a70caa6ffe0d4aac00c59a99af72d1e2bee6b0ddbb2f9eadf3c9b",
+      "unchanged": true
+    },
+    {
+      "id": "galaxy-s8",
+      "asset": "sketchfab-galaxy-s8.glb",
+      "bytes": 104504,
+      "sha256": "0f5bd3603fe98530e9efd6fbb1f0f744bb061ff9f6c1482576a6ef779e7abc8e",
+      "unchanged": true
+    },
+    {
+      "id": "iphone-15-pro-max",
+      "asset": "sketchfab-iphone-15-pro-max.glb",
+      "bytes": 1682088,
+      "sha256": "cc9a495d93ea9cb550ab600417bc1698d1780e92c0c01c8d64a8aeea3a885847",
+      "unchanged": true
+    },
+    {
+      "id": "iphone-17-pro-max",
+      "asset": "sketchfab-iphone-17-pro-max.glb",
+      "bytes": 252052,
+      "sha256": "eaf581dd2c0f34da460b1d0008ec4676c3f698f54d20ae1655207fdd9bcf061a",
+      "unchanged": true
+    },
+    {
+      "id": "retail-msi-geforce-rtx-5070-12g-gaming-trio-oc",
+      "asset": "sketchfab-msi-rtx-5070-gaming-trio-oc.glb",
+      "bytes": 105756,
+      "sha256": "facea94903459b906962e09981076e3c1de5a0bccf5a8c57e620e9148467ec09",
+      "unchanged": true
+    }
+  ],
+  "otherNewRendersUnchanged": [
+    {
+      "id": "iphone-13-pro",
+      "sha256": "5a920b234320c2de55e86369f6690b63936daad6c2dcf42f551c7483e962d97a",
+      "unchanged": true
+    },
+    {
+      "id": "iphone-13-pro-max",
+      "sha256": "cee45669483e65c150b5c997d91d09b018a45aabed24f69e042bb4db8e694b78",
+      "unchanged": true
+    },
+    {
+      "id": "galaxy-s22",
+      "sha256": "b37650f5f9d8fe648ed333b677e6d827abfd3e516898e8b99e68f9fb45cf4072",
+      "unchanged": true
+    },
+    {
+      "id": "galaxy-s22-ultra",
+      "sha256": "2a100341b1b91042985ec72c4959f70f8f591010cf09d1453b906b790c412d99",
+      "unchanged": true
+    },
+    {
+      "id": "galaxy-s20-ultra",
+      "sha256": "d0a4692ec10bf3d78a6de89ced5863b7e9d6e8ea589670c761780d146d433e2d",
+      "unchanged": true
+    },
+    {
+      "id": "galaxy-s21-fe",
+      "sha256": "541ab383da1516a2aa9dea984169df25652fff6507caa2d4df6c25f5fc333464",
+      "unchanged": true
+    },
+    {
+      "id": "iphone-11",
+      "sha256": "e2b308fc8ec5a21dc2474c26f88377a8cd202c9280cb4dae6ee76d41173be1db",
+      "unchanged": true
+    },
+    {
+      "id": "iphone-11-pro",
+      "sha256": "7a86fe923cd576ee7ecc6af077df27158130a90bf27057fc79ac9c7c5059ac27",
+      "unchanged": true
+    },
+    {
+      "id": "iphone-11-pro-max",
+      "sha256": "99171eed7195e96828b332cb9ee4c411e0e7d5cad2bd50c631bba3c6fdd971f1",
+      "unchanged": true
+    },
+    {
+      "id": "iphone-6",
+      "sha256": "717c23452be10b4fe01510bbef3b1251b3af20c8cfcb074a46a82e14560127a6",
+      "unchanged": true
+    },
+    {
+      "id": "iphone-8",
+      "sha256": "7596b7174291382efd7fba709d8f234fb60c5dfaa49602e979f5ea9bef8e2f08",
+      "unchanged": true
+    },
+    {
+      "id": "iphone-8-plus",
+      "sha256": "91d48b25fa1d04102c1d432b28f90da29be3f600d7cd112702a9a4eafd40ceff",
+      "unchanged": true
+    },
+    {
+      "id": "iphone-12-mini",
+      "sha256": "b4ffe770e1146905924f78253bef9ab7a2a49d899a099df41a6bdf37d0f8c99e",
+      "unchanged": true
+    },
+    {
+      "id": "iphone-xr",
+      "sha256": "4508169249908e7407645027942a67e1bc0e6252089e25b5fda06bf5c8e61548",
+      "unchanged": true
+    },
+    {
+      "id": "iphone-xs",
+      "sha256": "9c955ebf9cf1b4307d35a36e626f8c75b3a6c48b105011eab811f3d3c5246bb6",
+      "unchanged": true
+    },
+    {
+      "id": "galaxy-s10",
+      "sha256": "e6f45cf857922a22f3d0fc6c1de1391f59bf78d8d048872f09a174b4757b9f49",
+      "unchanged": true
+    },
+    {
+      "id": "galaxy-s8",
+      "sha256": "b0a8b10a4dc72d9e4777805b05add3592f82a4d1343d120dac19f48e0ed5bf84",
+      "unchanged": true
+    },
+    {
+      "id": "iphone-15-pro-max",
+      "sha256": "3c5681a07b8d94b988fd80fceb1111c10ebc54045baca7933c5dbc5ad906fa33",
+      "unchanged": true
+    },
+    {
+      "id": "iphone-17-pro-max",
+      "sha256": "b22995e20d1ed5f048c505d995d069131e1640edb7ac000ec65ac8308e5ac6a0",
+      "unchanged": true
+    }
+  ]
+}
