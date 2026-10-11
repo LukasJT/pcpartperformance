@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-11T18:57:33.401Z",
+  "updatedAt": "2026-10-11T19:11:37.724Z",
   "deploymentAuthorized": true,
   "tasks": [
     {
@@ -207,7 +207,7 @@
       "status": "verified",
       "evidence": "Final normal build, all 13 program check commands and 88 continuation checks passed. Source/asset preflight passed, static route budgets passed, SEO verified 1451 pages/101301 local references. Actual 360/390 mobile and 768/1440 desktop/tablet journeys tested. Legacy nav shifts and hidden/clipped mobile step links fixed; three final local mobile reloads had zero layout-shift sum and zero initial 3D requests.",
       "tests": [
-        "126 JS syntax checks",
+        "129 JS syntax checks (final preflight)",
         "release secret/asset preflight",
         "desktop1280/1440 and mobile360/390/tablet768 browser checks",
         "Final three 390x844 local runs: median LCP 1840ms, layout shift sum 0; lab only, uncontrolled font caches",
@@ -224,11 +224,17 @@
         "wrangler.jsonc",
         "scripts/worker.mjs"
       ],
-      "status": "release_prepared",
-      "evidence": "Tested normal production files ready. Commit, non-force production-branch push and actual public release/domain/API/browser proof remain.",
+      "status": "deployed_verified",
+      "evidence": "Non-force push through the existing production branch deployed the exact release SHA. Public marker, valid TLS/www redirect, 28 bounded route/API/asset checks and actual desktop/mobile production-browser behavior verified. New drafts remain excluded; prices explicitly not configured.",
       "tests": [
-        "production branch dc8200c baseline verified"
+        "production branch dc8200c baseline retained",
+        "public release marker be022a75641b34fbc6acdad70a9e9fa3a69f1561; staging false",
+        "28 public HTTP/HTML/API/asset smoke checks passed",
+        "live shared phone selections and both interactive models loaded; back view and creator credits checked",
+        "live builder starts empty; compact 360px mobile header and visible workflow links",
+        "live mobile picker focuses the list rather than an input"
       ]
     }
-  ]
+  ],
+  "deployedCommit": "be022a75641b34fbc6acdad70a9e9fa3a69f1561"
 }

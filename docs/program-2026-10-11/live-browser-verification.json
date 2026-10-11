@@ -1,0 +1,61 @@
+{
+  "checkedAt": "2026-10-11T19:10:43.040Z",
+  "releaseCommit": "be022a75641b34fbc6acdad70a9e9fa3a69f1561",
+  "scope": "Actual connected-browser smoke checks on the production domain; mobile viewport emulation, not a physical phone or field-performance measurement.",
+  "phoneComparison": {
+    "url": "https://www.pcpartperformance.com/phones/size-compare/?a=iphone-17-pro&b=iphone-13-pro&view=design",
+    "selectedPhonesRestored": true,
+    "loadedModels": [
+      "iPhone 17 Pro",
+      "iPhone 13 Pro"
+    ],
+    "backAngleChanged": true,
+    "creatorSource": "Ranguel",
+    "license": "CC BY 4.0",
+    "creditsOpenedAndClosed": true,
+    "screenshot": "live-phone-comparison.png"
+  },
+  "builder": {
+    "url": "https://www.pcpartperformance.com/builder/",
+    "emptyInitialSelections": true,
+    "desktopSelectorOpenedAndClosed": true,
+    "mobile": {
+      "contentWidth": 350,
+      "empty": true,
+      "headerHeight": 116.46875,
+      "steps": [
+        {
+          "contentWidth": 99,
+          "label": "Choose parts",
+          "visible": true,
+          "width": 100.65625
+        },
+        {
+          "contentWidth": 99,
+          "label": "Inspect the build",
+          "visible": true,
+          "width": 100.671875
+        },
+        {
+          "contentWidth": 99,
+          "label": "Review and save",
+          "visible": true,
+          "width": 100.65625
+        }
+      ],
+      "viewportWidth": 350
+    },
+    "pickerFocus": {
+      "activeElement": "DIV",
+      "activeLabel": "Available choices",
+      "contentWidth": 350,
+      "searchCollapsed": [],
+      "viewportWidth": 350
+    },
+    "screenshots": [
+      "live-builder-mobile.png",
+      "live-mobile-picker.png"
+    ]
+  },
+  "passed": true
+}

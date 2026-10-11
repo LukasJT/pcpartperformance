@@ -2,7 +2,11 @@
 
 ## Release state
 
-Prepared normal production output; final release verification is in progress. Production deployment is authorized by the owner's later instruction. The October 9 report is a historical checkpoint, not the current authorization or release state.
+**Deployed and verified on https://www.pcpartperformance.com/.** Production commit `be022a75641b34fbc6acdad70a9e9fa3a69f1561` was pushed without force to the existing Cloudflare production branch, `codex/stage2-publication-2026-10-04`. The public release marker returned that exact commit, with `staging: false`; 28 public HTTP/HTML/API/asset checks passed at 2026-10-11 19:02:53 UTC. Actual production-browser checks then verified the phone models and mobile builder.
+
+This is a completed continuation release, not a claim that every workstream in the larger program is finished. Automatic prices remain unconfigured, and the new editorial items remain drafts. Production deployment is authorized by the owner's later instruction. The October 9 report is a historical checkpoint, not the current authorization or release state.
+
+Live entry points: [PC Builder](https://www.pcpartperformance.com/builder/), [Phones](https://www.pcpartperformance.com/phones/), [phone comparison](https://www.pcpartperformance.com/phones/size-compare/), [Prebuilt PCs](https://www.pcpartperformance.com/prebuilts/) and [creator credits](https://www.pcpartperformance.com/builder/model-credits/).
 
 ## Working changes
 
@@ -25,7 +29,7 @@ News intake, feed and news-sitemap publication gates are implemented. No Google 
 
 ## Verification records
 
-See [the task checklist](implementation-checklist.json), [client test receipt](client-test-results.json), [integration receipt](continuation-test-results.json), [model inventory](models/integrated-model-batch.json), [glTF validation](models/validation.json), [source-access dependencies](morning-price-source-access.md), [review-video sources](review-video-sources.json), [release preflight](release-preflight.json), and final QA/release receipts added with the completed deployment.
+See [the task checklist](implementation-checklist.json), [client test receipt](client-test-results.json), [integration receipt](continuation-test-results.json), [model inventory](models/integrated-model-batch.json), [glTF validation](models/validation.json), [source-access dependencies](morning-price-source-access.md), [review-video sources](review-video-sources.json), [release preflight](release-preflight.json), [28 public release checks](live-release-verification.json) and [production browser receipt](live-browser-verification.json).
 
 The final normal build passed all 13 program check commands, 88 continuation integration/behavior checks, phone-preview checks, 21 model structural/decode checks, stage2 checks, seven route regression budgets and the 1,451-page/101,301-reference SEO check. The MSI creator asset has one generated-tangent warning; the loader renders it and all models have zero structural errors.
 
@@ -34,6 +38,8 @@ Broader program checks cover unknown compatibility, alias migration idempotency,
 Three final 390 × 844 empty-builder reloads measured median local LCP **1,840 ms**, zero observed layout-shift sum and zero initial optional 3D requests. A diagnostic run had reached 0.134 before the legacy section-nav insertion/reparenting and changing status-height were fixed. Raw before/after evidence and observation windows are retained in the browser metric JSON files. These unthrottled, variable-window local runs are not field p75, field INP or a controlled real-host speed comparison. Static FPS-route script gzip fell from 98,926 to 38,365 bytes; builder script gzip grew from 104,044 to 119,729 bytes for the added tools. Not every route became lighter.
 
 Actual local browser testing covers desktop and mobile navigation, the empty/starter builder, modern picker focus, owned/locked/share behavior, phone size/spec/3D controls and credits, catalog filtering, country selection, prebuilt comparison, complete quote totals and click-to-load/close video behavior. Layout inspection and local lab metrics are not real-user Core Web Vitals, a physical-phone Safari test or a screen-reader audit.
+
+The production browser restored the shared iPhone 17 Pro/iPhone 13 Pro selections, loaded both interactive models, changed the first model to its back angle, and exposed then collapsed its actual creator/license details. The live builder opened with zero selected parts. At a 360 × 844 emulated viewport, its compact header measured 116.47 px, all three workflow links remained visible, and page content fitted the 350 px area beside the scrollbar. Opening the picker focused the choices list rather than a text input. Screenshots: [phone comparison](live-phone-comparison.png), [mobile builder](live-builder-mobile.png), [mobile picker](live-mobile-picker.png).
 
 ## External dependencies and remaining program work
 
@@ -47,10 +53,16 @@ The [earlier program report](../program-2026-10-09/FINAL-REPORT.md), [query map]
 
 ## Deployment and rollback
 
-Use the existing Cloudflare Git integration on `codex/stage2-publication-2026-10-04`; do not deploy a review/noindex build. The pre-release branch head is `dc8200c19fbba9d778491a41bb888dcca80ca040`. Retain the release commit and its parent for recovery. No destructive database or DNS migration is involved.
+The existing Cloudflare Git integration on `codex/stage2-publication-2026-10-04` deployed the normal production output. The pre-release branch head is `dc8200c19fbba9d778491a41bb888dcca80ca040`; the deployed commit is `be022a75641b34fbc6acdad70a9e9fa3a69f1561`. Both are retained for recovery. No destructive database or DNS migration occurred.
 
-The release marker accepts the documented `WORKERS_CI_COMMIT_SHA` or reads local Git HEAD. [Cloudflare build configuration](https://developers.cloudflare.com/workers/ci-cd/builds/configuration/) and [production branch behavior](https://developers.cloudflare.com/workers/ci-cd/builds/build-branches/) were rechecked October 11, 2026. These documents establish the platform mechanism; the actual live marker must still be verified.
+The release marker accepts the documented `WORKERS_CI_COMMIT_SHA` or reads local Git HEAD. [Cloudflare build configuration](https://developers.cloudflare.com/workers/ci-cd/builds/configuration/) and [production branch behavior](https://developers.cloudflare.com/workers/ci-cd/builds/build-branches/) were rechecked October 11, 2026. The public marker was independently verified after deployment. The historical GitHub check receipt records the build starting; a later GitHub status fetch was unavailable in this environment. Deployment proof comes from the actual public marker, routes, API, assets and browser behavior.
 
-After pushing, verify the public `/data/release.json` commit, canonical www host/TLS, new routes/assets, error responses, production indexing controls, absent draft routes and the price API's truthful disabled state. A successful Git push alone is not proof of deployment.
+Verification passed for the public `/data/release.json` commit, canonical www host/TLS, new routes/assets, real error responses, production indexing controls, absent draft routes and the price API's truthful disabled state. The apex HTTPS host redirects to www in one step. Shared build states are usable and noindex; all twelve unapproved articles are absent from the sitemap, and sampled draft routes return a real 404. A successful Git push alone was not counted as proof of deployment.
 
 Rollback uses the previous Cloudflare deployment with matching assets/Worker configuration, or a reviewed Git revert through the same production build. Do not guess DNS records. Remote Cloudflare version/configuration export is unavailable while the dashboard session is expired; repository configuration and the previous Git SHA are retained.
+
+## Next executable steps
+
+1. The owner can read any complete article in the review packet and record a truthful review decision and public author name. Publish only those approved exact versions through the existing gate, then verify their live routes, RSS and sitemaps.
+2. Connect a supported price source account/feed; approve exact region/SKU targets and retention permissions; configure D1 and the schedule; run a bounded initial collection and verify real observations before enabling morning checks.
+3. Continue the documented evidence/model backlog in small tested batches. Preserve unknown measurements, exact identities and creator attribution.

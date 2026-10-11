@@ -2,6 +2,14 @@
 
 Complete batch: 8 buying guides and 4 news-report drafts; 9,685 article words; 25 inspected source records.
 
+## How to use this packet
+
+The articles are written. Your earlier project instructions require a person to read each new article and its relevant sources before it goes public. Choose a title in the table below, read its complete text and source links, then tell me the IDs you have reviewed and approve. You can review a few at a time.
+
+**Reviewer** means the person who actually read and checked the article. **Byline** means the author name displayed to visitors. Choose a truthful author line and assistance disclosure; the writing was prepared with AI research and writing assistance.
+
+After you have completed that review, a reply can follow this format: “I reviewed C01 and C03 and their sources, and approve them for publication. Reviewer: [your name]. Public author line: [your chosen truthful attribution].” Replace the example IDs and placeholders with your actual decision. The website's working features are already deployed independently of these draft articles.
+
 **Zero human approvals and zero publications are recorded.** Evidence checking is not human editorial approval. Read the entire article and applicable sources before entering a truthful decision.
 
 Prepared through the site research workflow with AI research and writing assistance. No staff identity, expert credentials, hands-on testing or review approval is invented. Each fingerprint includes the current article and applicable source records; edits invalidate the matching decision.
