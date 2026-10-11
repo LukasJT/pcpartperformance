@@ -382,6 +382,8 @@ dialog{border-radius:6px;box-shadow:0 20px 60px #0004}#picker-query{border-radiu
 .oct11-article h2{font-size:clamp(1.35rem,2.4vw,1.9rem);margin:2rem 0 1rem}.oct11-article section{scroll-margin-top:6rem}
 .oct11-kicker{text-transform:uppercase;letter-spacing:.09em;font-size:.8rem;font-weight:700;color:var(--accent,#4779bd)}
 .oct11-summary{font-size:1.15rem;max-width:65ch}.oct11-status{padding:1.2rem 1.5rem;border:1px solid var(--line,#64768c);border-left:4px solid var(--accent,#4779bd);border-radius:.65rem;margin:1.7rem 0;background:var(--surface,#fff)}
+.oct11-attribution{margin:1.5rem 0;border-bottom:1px solid var(--line);padding-bottom:1rem}.oct11-attribution p{margin:.35rem 0}.oct11-byline{font-weight:650}.oct11-date,.oct11-assistance{font-size:.95rem;color:var(--muted)}
+.oct11-library{margin:2.5rem 0 3.5rem}.oct11-library>h2{font-size:1.65rem;letter-spacing:normal}.oct11-grid h3{font-size:1.2rem;line-height:1.45;margin:1rem 0 .65rem}.oct11-library p{line-height:1.65}
 .oct11-status p{margin:.6rem 0}.oct11-hero{margin:2rem 0}.oct11-hero img,.oct11-grid img{display:block;width:100%;height:auto;border-radius:.8rem;aspect-ratio:16/9}
 .oct11-hero figcaption,.oct11-citations,.oct11-video p{font-size:.88rem;line-height:1.65}.oct11-hero figcaption{margin-top:.6rem}
 .oct11-contents{padding:1rem 1.4rem;border:1px solid var(--line,#64768c);border-radius:.65rem}.oct11-contents h2{margin:.4rem 0}

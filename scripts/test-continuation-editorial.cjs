@@ -30,7 +30,7 @@ try{
   fs.mkdirSync(path.join(fixture,'data'),{recursive:true});fs.writeFileSync(path.join(fixture,'data/search-index.json'),'[]');fs.writeFileSync(path.join(fixture,'program-draft-routes.json'),'["/existing-draft/"]');
   test('Preview contains full noindex drafts without publication or Article claims',()=>{
     process.env.PROGRAM_PREVIEW='1';
-    const report=editorial({root:fixture,records:[],images:{},shell,write,esc});
+    const report=editorial({root:fixture,records:[],images:{},shell,write,esc,publicationRegistry:{schemaVersion:1,publications:[]}});
     assert.equal(report.published,0);assert.equal(report.publishable,0);assert.equal(report.draftRoutes.length,13);
     for(const a of editorial.articles){
       const html=fs.readFileSync(file(a.route),'utf8');
@@ -50,7 +50,7 @@ try{
   test('Normal generation removes own drafts and search entries while keeping independent routes',()=>{
     delete process.env.PROGRAM_PREVIEW;
     const unrelated='/blog/an-existing-article/';write(unrelated.slice(1,-1),'<p>Keep published article.</p>');
-    const report=editorial({root:fixture,records:[],images:{},shell,write,esc});
+    const report=editorial({root:fixture,records:[],images:{},shell,write,esc,publicationRegistry:{schemaVersion:1,publications:[]}});
     assert.equal(report.draftRoutes.length,0);assert.equal(report.withheldRoutes.length,12);
     assert.ok(!fs.existsSync(file('/editorial-review/oct11/')));
     for(const a of editorial.articles)assert.ok(!fs.existsSync(file(a.route)),a.id+' leaked to normal output');
@@ -89,7 +89,7 @@ try{
     assert.match(editorial.rss([{...a,title:'CPU & GPU <report>'}],now),/CPU &amp; GPU &lt;report&gt;/);
   });
   test('Review packet hashes reproduce the current articles and inspected sources',()=>{
-    const target=path.join(fixture,'review-packet');editorial.writeDocumentation(target);
+    const target=path.join(fixture,'review-packet');editorial.writeDocumentation(target,{publicationRegistry:{schemaVersion:1,publications:[]}});
     const manifest=json(path.join(target,'manifest.json'));assert.equal(manifest.published,0);assert.equal(manifest.humanApprovals,0);
     for(const a of editorial.articles)assert.equal(manifest.items.find(r=>r.id===a.id).contentHash,gate.contentFingerprint(a,editorial.sources).contentHash);
     const full=fs.readFileSync(path.join(target,'REVIEW-PACKET.md'),'utf8');

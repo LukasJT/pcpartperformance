@@ -3,6 +3,7 @@ const fs=require('node:fs'),path=require('node:path');
 const {articles,sources}=require('./continuation-editorial-content.cjs');
 const humanGate=require('./program-editorial-review.cjs');
 const newsPolicy=require('./news-policy.cjs');
+const ownerPublication=require('./continuation-publication.cjs');
 const DOMAIN='https://www.pcpartperformance.com';
 const evidenceDate='2026-10-11';
 const defaultEsc=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -66,7 +67,8 @@ function resolveReviews(decisions=readJSON(path.join(__dirname,'continuation-edi
 }
 // A separate, explicit publication adapter must record actual release and deployment.
 // Consistency checks do not establish a person's identity or verify a deployed page.
-function publishedNews(publications,{decisions=readJSON(path.join(__dirname,'continuation-editorial-review-decisions.json')),now=Date.now()}={}){
+function publishedNews(publications,{decisions=readJSON(path.join(__dirname,'continuation-editorial-review-decisions.json')),authorization,now=Date.now()}={}){
+  if(publications?.schemaVersion===2)return ownerPublication.resolve(publications,{authorization,now}).filter(a=>a.type==='news'&&a.confirmedDeployment);
   if(!publications||publications.schemaVersion!==1||!Array.isArray(publications.publications))throw Error('Publication registry schema 1 is required');
   const reviews=resolveReviews(decisions,new Date(now).toISOString()),seen=new Set();
   if(!reviews.registryValid||reviews.invalidDecisions.length)throw Error('Human decisions are invalid or stale');
@@ -87,22 +89,28 @@ function publishedNews(publications,{decisions=readJSON(path.join(__dirname,'con
 function rss(rows,now=Date.now()){
   const x=newsPolicy.xml;
   const published=rows.filter(a=>a.type==='news'&&a.status==='published'&&a.editorApproved===true&&a.confirmedDeployment===true&&a.sourceIds?.length&&a.byline?.name&&/^news\/[a-z0-9-]+$/.test(a.route)&&Number.isFinite(Date.parse(a.datePublished))&&Date.parse(a.datePublished)<=now);
-  return`<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>PC Part Performance News</title><link>${DOMAIN}/news/</link><description>Source-led technology reports published after human editorial review.</description><language>en</language>${published.map(a=>`<item><title>${x(a.title)}</title><link>${DOMAIN}/${x(a.route)}/</link><guid isPermaLink="true">${DOMAIN}/${x(a.route)}/</guid><description>${x(a.summary)}</description><pubDate>${x(new Date(a.datePublished).toUTCString())}</pubDate></item>`).join('')}</channel></rss>`;
+  return`<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>PC Part Performance News</title><link>${DOMAIN}/news/</link><description>Source-led technology reports from PC Part Performance.</description><language>en</language>${published.map(a=>`<item><title>${x(a.title)}</title><link>${DOMAIN}/${x(a.route)}/</link><guid isPermaLink="true">${DOMAIN}/${x(a.route)}/</guid><description>${x(a.summary)}</description><pubDate>${x(new Date(a.datePublished).toUTCString())}</pubDate></item>`).join('')}</channel></rss>`;
 }
 function newsSchema(a){
   const base=newsPolicy.newsArticle(a);
   return{...base,description:a.summary,image:[DOMAIN+a.image.src],author:{'@type':a.byline.type==='person'?'Person':'Organization',name:a.byline.name,...(a.byline.type==='person'?{}:{url:DOMAIN+'/about/'})}};
 }
 function renderReleasedNews(a,{root,esc=defaultEsc}={}){
-  const structured=newsSchema(a),review={publishable:true,byline:a.byline};
+  return renderReleasedArticle(a,{root,esc});
+}
+function renderReleasedArticle(a,{root,esc=defaultEsc}={}){
+  const url=DOMAIN+'/'+a.route+'/';
+  const structured=a.type==='news'&&a.confirmedDeployment?newsSchema(a):{'@context':'https://schema.org','@type':'Article',headline:a.title,description:a.summary,url,datePublished:a.datePublished,...(a.dateModified?{dateModified:a.dateModified}:{}),image:[DOMAIN+a.image.src],author:{'@type':'Organization',name:a.byline.name,url:DOMAIN+'/about/'},publisher:{'@type':'Organization',name:'PC Part Performance',url:DOMAIN+'/about/'},citation:a.sourceIds.map(id=>sources[id].url)};
+  const review={publishable:true,byline:a.byline};
   const draft=renderArticle(a,{root,esc,review});
-  const attribution=`<p class="oct11-byline">${esc(a.byline.name)} · ${esc(a.byline.attribution)}</p><p>First published <time datetime="${esc(a.datePublished)}">${esc(a.datePublished)}</time>${a.dateModified?' · Material revision <time datetime="'+esc(a.dateModified)+'">'+esc(a.dateModified)+'</time>':''}. Source announcement: ${esc(a.sourcePublishedAt)}.</p>`;
-  return draft.replace(' data-program-draft','').replace('News report draft','News report').replace(/<aside class="oct11-status"[\s\S]*?<\/aside>/,attribution)+`<script type="application/ld+json">${JSON.stringify(structured).replace(/</g,'\\u003c')}</script>`;
+  const date=value=>new Intl.DateTimeFormat('en-US',{timeZone:value.length===10?'UTC':'America/Toronto',year:'numeric',month:'long',day:'numeric'}).format(new Date(value));
+  const attribution=`<div class="oct11-attribution"><p class="oct11-byline">By <a href="/about/">${esc(a.byline.name)}</a></p><p class="oct11-date">Published <time datetime="${esc(a.datePublished)}">${date(a.datePublished)}</time>${a.dateModified?' · Updated <time datetime="'+esc(a.dateModified)+'">'+date(a.dateModified)+'</time>':''}${a.sourcePublishedAt?' · Source announcement: '+date(a.sourcePublishedAt):''}</p><p class="oct11-assistance">${esc(a.byline.attribution)}</p></div>`;
+  return draft.replace(' data-program-draft','').replace('News report draft','News report').replace('Buying guide draft','Buying guide').replace(/<aside class="oct11-status"[\s\S]*?<\/aside>/,attribution)+`<script type="application/ld+json">${JSON.stringify(structured).replace(/</g,'\\u003c')}</script>`;
 }
 function newsLanding(rows,{preview=false,esc=defaultEsc}={}){
   const newsDrafts=articles.filter(a=>a.type==='news');
   const cards=list=>'<div class="oct11-grid">'+list.map(a=>`<article><img src="${esc(a.image.src)}" alt="${esc(a.image.alt)}" width="1200" height="675" loading="lazy" decoding="async"><h2><a href="${esc(a.route.startsWith('/')?a.route:'/'+a.route+'/')}">${esc(a.title)}</a></h2><p>${esc(a.summary)}</p><p>${a.datePublished?'Published '+esc(a.datePublished):'Review draft · source announcement '+esc(a.sourcePublishedAt)}</p></article>`).join('')+'</div>';
-  return`<section class="oct11-news"><p class="oct11-kicker">PC Part Performance</p><h1>Technology newsroom</h1><p>Hardware and software reporting with original sources, announcement dates and buyer implications visible.</p>${rows.length?cards(rows):'<p>No dated news report has completed human review and confirmed publication in this release. The RSS feed and news sitemap contain no draft stories.</p>'}${preview?'<aside class="oct11-status"><strong>Private review preview</strong><p>The four reports below are complete research drafts. Their announcement dates are source dates; no first publication date or human approval is claimed.</p></aside>'+cards(newsDrafts):''}<h2>Reporting standards</h2><p>We distinguish company announcements, original independent testing and our analysis. A monitored source update enters an editorial queue; software does not approve or publish it. A material correction receives a clear revision record. Headlines and dates must describe the actual report.</p><p><a href="/news/feed.xml">News RSS</a> · <a href="/editorial-policy/">Editorial standards and corrections</a> · <a href="/about/">About this publication</a></p><h2>Background reading</h2><ul><li><a href="/blog/memory-market-watch-ai-is-not-a-retail-price/">Interpreting memory-market claims</a></li><li><a href="/blog/local-ai-memory-weights-kv-cache/">Local-AI memory requirements</a></li><li><a href="/blog/phone-software-support-commitment-vs-end-date/">Phone support commitments and dates</a></li></ul>${preview?'<p><a href="/editorial-review/oct11/">Read the complete 12-item review batch</a></p>':''}</section>`;
+  return`<section class="oct11-news"><p class="oct11-kicker">PC Part Performance</p><h1>Technology newsroom</h1><p>Hardware and software reporting with original sources, announcement dates and buyer implications visible.</p>${rows.length?cards(rows):'<p>No news reports are available in this release.</p>'}${preview?'<aside class="oct11-status"><strong>Private review preview</strong><p>The four reports below are complete research drafts. Their announcement dates are source dates; no first publication date or human approval is claimed.</p></aside>'+cards(newsDrafts):''}<h2>Reporting standards</h2><p>We distinguish company announcements, original independent testing and our analysis. A monitored source update enters an editorial queue; software does not approve or publish it. A material correction receives a clear revision record. Headlines and dates must describe the actual report.</p><p><a href="/news/feed.xml">News RSS</a> · <a href="/editorial-policy/">Editorial standards and corrections</a> · <a href="/about/">About this publication</a></p><h2>Background reading</h2><ul><li><a href="/blog/memory-market-watch-ai-is-not-a-retail-price/">Interpreting memory-market claims</a></li><li><a href="/blog/local-ai-memory-weights-kv-cache/">Local-AI memory requirements</a></li><li><a href="/blog/phone-software-support-commitment-vs-end-date/">Phone support commitments and dates</a></li></ul>${preview?'<p><a href="/editorial-review/oct11/">Read the complete 12-item review batch</a></p>':''}</section>`;
 }
 function reviewLanding(reviews,esc){
   return `<section class="oct11-news" data-program-draft><h1>October 11 editorial review batch</h1><p>Eight complete buying guides and four dated news-report drafts. Read the full articles and their inspected source limits before entering a decision. Software validation is not human editorial approval.</p><p>Prepared with AI research and writing assistance. The owner must decide truthful bylines and review status. No fabricated person, credentials, benchmark or publication date is supplied.</p><div class="oct11-grid">${articles.map(a=>{const r=reviews.items.find(row=>row.articleId===a.id);return `<article><h2><a href="${esc(a.route)}">${esc(a.id+' — '+a.title)}</a></h2><p>${esc(a.summary)}</p><p>${wordCount(a)} words · ${a.sourceIds.length} inspected sources · ${esc(r.reviewStatus)}</p><details><summary>Version and content hash</summary><p>${esc(r.contentVersion)}</p><code>${esc(r.contentHash)}</code></details></article>`}).join('')}</div></section>`;
@@ -113,12 +121,13 @@ function copyAssets(root){
   for(const a of articles)for(const ext of ['png','svg'])fs.copyFileSync(path.join(from,a.slug+'.'+ext),path.join(to,a.slug+'.'+ext));
   fs.copyFileSync(path.join(__dirname,'continuation-editorial.css'),path.join(root,'editorial-oct11.css'));
 }
-function generate({root,records,images,shell,write,esc=defaultEsc}){
+function generate({root,records,images,shell,write,esc=defaultEsc,publicationRegistry,ownerAuthorization}){
   const checked=validate();if(!checked.valid)throw Error(checked.issues.join('\n'));
   const preview=process.env.PROGRAM_PREVIEW==='1',asOf=new Date().toISOString(),reviews=resolveReviews(undefined,asOf);
   if(!reviews.registryValid||reviews.invalidDecisions.length)throw Error('Continuation editorial review decisions are invalid or stale');
-  const releaseRegistry=readJSON(path.join(__dirname,'continuation-editorial-publications.json'));
-  const news=publishedNews(releaseRegistry,{now:Date.parse(asOf)});
+  const releaseRegistry=publicationRegistry||readJSON(path.join(__dirname,'continuation-editorial-publications.json'));
+  const released=releaseRegistry.schemaVersion===2?ownerPublication.resolve(releaseRegistry,{authorization:ownerAuthorization,now:Date.parse(asOf)}):publishedNews(releaseRegistry,{now:Date.parse(asOf)});
+  const news=released.filter(a=>a.type==='news'&&a.confirmedDeployment);
   copyAssets(root);
   const metadata={};
   if(preview){
@@ -141,22 +150,31 @@ function generate({root,records,images,shell,write,esc=defaultEsc}){
     const searchFile=path.join(root,'data/search-index.json');
     if(fs.existsSync(searchFile)){const prior=readJSON(searchFile),own=new Set(articles.map(a=>'oct11_'+a.id));fs.writeFileSync(searchFile,JSON.stringify(prior.filter(row=>!own.has(row.id))));}
   }
-  // Regenerate only already reviewed, actually published and inspected news.
-  // An approval alone never enters this branch or assigns a timestamp.
-  for(const a of news){
-    const html=shell(a.title,'guide',renderReleasedNews(a,{root,esc}),{description:a.summary}).replace('</head>',`<meta name="robots" content="index,follow,max-image-preview:large"><meta property="og:type" content="article"><meta property="og:image" content="${DOMAIN}${esc(a.image.src)}"><meta property="og:image:alt" content="${esc(a.image.alt)}"><meta name="twitter:card" content="summary_large_image"><link rel="stylesheet" href="/editorial-oct11.css"></head>`);
+  // The owner authorized these exact versions. Deployment evidence is recorded separately.
+  for(const a of preview?[]:released){
+    const html=shell(a.title,'guide',renderReleasedArticle(a,{root,esc}),{description:a.summary}).replace('</head>',`<meta name="robots" content="index,follow,max-image-preview:large"><meta property="og:type" content="article"><link rel="stylesheet" href="/editorial-oct11.css"></head>`);
     write(a.route,html);
-    metadata['/'+a.route+'/']={title:a.title,description:a.summary,image:a.image,noindex:false,datePublished:a.datePublished,dateModified:a.dateModified,editorialId:a.id};
+    metadata['/'+a.route+'/']={title:a.title,description:a.summary,image:a.image,noindex:false,datePublished:a.datePublished,dateModified:a.dateModified,editorialId:a.id,publicationAuthorized:!!a.publicationAuthorized,confirmedDeployment:a.confirmedDeployment};
   }
   fs.mkdirSync(path.join(root,'news'),{recursive:true});
   fs.writeFileSync(path.join(root,'news/feed.xml'),rss(news,Date.parse(asOf)));
   fs.writeFileSync(path.join(root,'news-sitemap.xml'),newsPolicy.newsSitemap(news,Date.parse(asOf)));
-  const hub=shell('Technology newsroom: source-led hardware reporting','guide',newsLanding(news,{preview,esc}),{description:'Source-led hardware and software news with original announcements, dates and practical buyer implications.'}).replace('</head>','<link rel="alternate" type="application/rss+xml" title="PC Part Performance News" href="/news/feed.xml"><link rel="stylesheet" href="/editorial-oct11.css"></head>');
+  const hub=shell('Technology newsroom: source-led hardware reporting','guide',newsLanding(preview?[]:released.filter(a=>a.type==='news'),{preview,esc}),{description:'Source-led hardware and software news with original announcements, dates and practical buyer implications.'}).replace('</head>','<link rel="alternate" type="application/rss+xml" title="PC Part Performance News" href="/news/feed.xml"><link rel="stylesheet" href="/editorial-oct11.css"></head>');
   write('news',preview?hub.replace('</head>','<meta name="robots" content="noindex,follow"></head>'):hub);
   metadata['/news/']={title:'Technology newsroom: source-led hardware reporting',description:'Source-led hardware and software news with original announcements, dates and practical buyer implications.',noindex:preview,datePublished:null};
   const draftRoutes=preview?[...articles.map(a=>a.route),'/editorial-review/oct11/']:[];
   fs.writeFileSync(path.join(root,'continuation-editorial-metadata.json'),JSON.stringify(metadata,null,2));
-  const report={...checked,preview,asOf,publishable:reviews.publishable.length,published:news.length,humanDecisions:readJSON(path.join(__dirname,'continuation-editorial-review-decisions.json')).decisions.length,draftRoutes,withheldRoutes:articles.filter(a=>!news.some(n=>'/'+n.route+'/'===a.route)).map(a=>a.route),metadata};
+  const report={...checked,preview,asOf,publishable:reviews.publishable.length,releaseAuthorized:released.length,published:released.filter(a=>a.confirmedDeployment).length,humanDecisions:readJSON(path.join(__dirname,'continuation-editorial-review-decisions.json')).decisions.length,draftRoutes,withheldRoutes:articles.filter(a=>!released.some(n=>'/'+n.route+'/'===a.route)).map(a=>a.route),metadata};
+  if(!preview&&released.length){
+    const blogFile=routeFile(root,'/blog/');
+    let blog=fs.readFileSync(blogFile,'utf8');
+    const cards=rows=>rows.map(a=>`<article><img src="${esc(a.image.src)}" alt="${esc(a.image.alt)}" width="1200" height="675" loading="lazy" decoding="async"><h3><a href="/${esc(a.route)}/">${esc(a.title)}</a></h3><p>${esc(a.summary)}</p></article>`).join('');
+    const section=`<!--oct11-library-start--><section class="oct11-library" aria-labelledby="oct11-guides-title"><h2 id="oct11-guides-title">New buying guides</h2><div class="oct11-grid">${cards(released.filter(a=>a.type==='guide'))}</div><h2>Hardware and software reports</h2><div class="oct11-grid">${cards(released.filter(a=>a.type==='news'))}</div><p><a href="/news/">Explore the newsroom</a></p></section><!--oct11-library-end-->`;
+    blog=blog.replace(/<!--oct11-library-start-->[\s\S]*?<!--oct11-library-end-->/,'').replace(/(<header class="learn-intro">[\s\S]*?<\/header>)/,'$1'+section).replace('</head>','<link rel="stylesheet" href="/editorial-oct11.css"></head>');
+    fs.writeFileSync(blogFile,blog);
+    const searchFile=path.join(root,'data/search-index.json');
+    if(fs.existsSync(searchFile)){const rows=readJSON(searchFile);fs.writeFileSync(searchFile,JSON.stringify([...rows,...released.map(a=>({id:'oct11_'+a.id,title:a.title,url:'/'+a.route+'/',kind:a.type==='news'?'News report':'Buying guide',aliases:[]}))]));}
+  }
   if(preview){
     const file=path.join(root,'program-draft-routes.json');
     const prior=fs.existsSync(file)?readJSON(file):[];
@@ -167,24 +185,36 @@ function generate({root,records,images,shell,write,esc=defaultEsc}){
   }
   return report;
 }
-function markdownArticle(a){
+function markdownArticle(a,publication){
   const fp=humanGate.contentFingerprint(a,sources);
-  const lines=[`<a id="${a.id.toLowerCase()}"></a>`,'',`## ${a.id} — ${a.title}`,'',`**Research draft; needs human editorial review.** ${wordCount(a)} words. Sources inspected ${a.evidenceDate}. No publication date.`, '',`Route: ${a.route}`,'',`Version: ${fp.contentVersion}`,'',`SHA-256: ${fp.contentHash}`,'',a.summary,''];
+  const state=publication?(publication.confirmedDeployment?'**Published by owner authorization.** First observed live '+publication.datePublished+'.':'**Owner-authorized release; deployment not yet confirmed.**'):'**Research draft; needs human editorial review.** No publication date.';
+  const lines=[`<a id="${a.id.toLowerCase()}"></a>`,'',`## ${a.id} — ${a.title}`,'',`${state} ${wordCount(a)} words. Sources inspected ${a.evidenceDate}.`, '',`Route: ${a.route}`,'',`Version: ${fp.contentVersion}`,'',`SHA-256: ${fp.contentHash}`,'',a.summary,''];
   if(a.sourcePublishedAt)lines.push('Original source announcement: '+a.sourcePublishedAt+' (not the site publication date).','');
   for(const s of a.sections){lines.push('### '+s.title,'',...s.paragraphs.flatMap(p=>[p,'']));if(s.table)lines.push('*'+s.table.caption+'*','', '| '+s.table.headers.join(' | ')+' |','| '+s.table.headers.map(()=>'---').join(' | ')+' |',...s.table.rows.map(row=>'| '+row.join(' | ')+' |'),'');if(s.checklist)lines.push(...s.checklist.map(p=>'- '+p),'');if(s.sourceIds.length)lines.push('Sources: '+s.sourceIds.map(id=>'['+sources[id].publisher+' — '+sources[id].title+']('+sources[id].url+')').join('; '), '');if(s.videoSourceId){const v=sources[s.videoSourceId].video;lines.push('Optional original video: ['+v.channel+' — '+v.title+']('+v.url+'). '+v.identityVerification+' '+v.availabilityVerification,'');}}
   lines.push('### Source scope and limitations','',...a.sourceIds.flatMap(id=>{const s=sources[id];return['- ['+s.publisher+' — '+s.title+']('+s.url+'), inspected '+s.checked+'. '+s.scope+' '+s.limitations,''];}));
   return lines.join('\n');
 }
-function writeDocumentation(target=path.join(__dirname,'../docs/program-2026-10-11/editorial')){
+function writeDocumentation(target=path.join(__dirname,'../docs/program-2026-10-11/editorial'),options={}){
   fs.mkdirSync(target,{recursive:true});
-  const report=validate(),reviews=resolveReviews(undefined,evidenceDate),manifest=articles.map(a=>({id:a.id,title:a.title,route:a.route,type:a.type,words:wordCount(a),sourcePublishedAt:a.sourcePublishedAt||null,sourceIds:a.sourceIds,image:a.image,...humanGate.checklist(a,sources),reviewStatus:reviews.items.find(r=>r.articleId===a.id).reviewStatus,datePublished:null,published:false}));
+  const registry=options.publicationRegistry||ownerPublication.read('continuation-editorial-publications.json');
+  const released=registry.schemaVersion===2?ownerPublication.resolve(registry,{authorization:options.ownerAuthorization||ownerPublication.read('continuation-editorial-owner-authorization.json')}):[];
+  const byId=new Map(released.map(a=>[a.id,a]));
+  const report=validate(),reviews=resolveReviews(undefined,evidenceDate),manifest=articles.map(a=>{const p=byId.get(a.id);return{id:a.id,title:a.title,route:a.route,type:a.type,words:wordCount(a),sourcePublishedAt:a.sourcePublishedAt||null,sourceIds:a.sourceIds,image:a.image,...humanGate.checklist(a,sources),reviewStatus:reviews.items.find(r=>r.articleId===a.id).reviewStatus,publicationStatus:p?.status||'draft',ownerAuthorized:!!p,humanReviewClaimed:false,author:p?.byline.name||null,datePublished:p?.confirmedDeployment?p.datePublished:null,published:!!p?.confirmedDeployment};});
   const intro=['# October 11 editorial review packet','',`Complete batch: ${report.guides} buying guides and ${report.news} news-report drafts; ${report.wordCount.toLocaleString('en-US')} article words; ${report.sourceCount} inspected source records.`, '', '**Zero human approvals and zero publications are recorded.** Evidence checking is not human editorial approval. Read the entire article and applicable sources before entering a truthful decision.','', 'Prepared through the site research workflow with AI research and writing assistance. No staff identity, expert credentials, hands-on testing or review approval is invented. Each fingerprint includes the current article and applicable source records; edits invalidate the matching decision.','', 'The existing program-editorial-review.cjs gate requires a named actual human reviewer, full-content/source attestation, a truthful byline, a real nonfuture review date and the exact current version/hash. It checks consistency; it cannot prove who read the articles. The empty continuation-editorial-review-decisions.json is owner-entered only.','', 'Human-review attestation: '+humanGate.HUMAN_ATTESTATION,'','Byline attestation: '+humanGate.BYLINE_ATTESTATION,'', 'After actual approval, a separate release step must record first publication and confirmed deployment. Source dates, inspection dates and review dates never substitute for that timestamp. The continuation generator stages drafts and does not publish an approved article by itself.','', '## Batch index','', '| ID | Full article | Type | Words | Sources | State |','| --- | --- | --- | ---: | ---: | --- |', ...manifest.map(a=>'| '+a.id+' | ['+a.title+'](#'+a.id.toLowerCase()+') | '+a.type+' | '+a.words+' | '+a.sourceIds.length+' | needs human review |'),''];
-  fs.writeFileSync(path.join(target,'REVIEW-PACKET.md'),intro.join('\n')+'\n'+articles.map(markdownArticle).join('\n\n---\n\n')+'\n');
-  fs.writeFileSync(path.join(target,'manifest.json'),JSON.stringify({preparedAt:evidenceDate,...report,humanApprovals:0,published:0,items:manifest},null,2)+'\n');
+  if(released.length){
+    intro.splice(4,intro.indexOf('## Batch index')-4,
+      `**${released.length} exact article versions are authorized by the owner's direct publication instruction; ${released.filter(a=>a.confirmedDeployment).length} have verified live publication records.**`,'',
+      'The owner requested: “okay publish all 12 articles and use PC Part Performance as the author”. This supersedes the pending personal-review prerequisite for these twelve versions only. No personal reading attestation, named reviewer, staff credentials or hands-on testing is claimed. The personal-review registry remains empty.','',
+      'The public author is PC Part Performance. Research and writing prepared with AI assistance. Article and source fingerprints pin the authorized versions; edits invalidate the matching authorization.','',
+      'Publication timestamps come from actual exact-page inspections on the production domain. Source and preparation dates are separate. Release authorization alone never confirms deployment.','');
+    for(let i=0;i<intro.length;i++)if(intro[i].includes('| needs human review |')){const id=intro[i].split('|')[1].trim(),p=byId.get(id);if(p)intro[i]=intro[i].replace('needs human review',p.confirmedDeployment?'published · owner authorized':'owner authorized · release pending');}
+  }
+  fs.writeFileSync(path.join(target,'REVIEW-PACKET.md'),intro.join('\n')+'\n'+articles.map(a=>markdownArticle(a,byId.get(a.id))).join('\n\n---\n\n')+'\n');
+  fs.writeFileSync(path.join(target,'manifest.json'),JSON.stringify({preparedAt:evidenceDate,statusCheckedAt:new Date().toISOString(),...report,humanApprovals:0,ownerAuthorized:released.length,published:released.filter(a=>a.confirmedDeployment).length,items:manifest},null,2)+'\n');
   fs.writeFileSync(path.join(target,'source-evidence.json'),JSON.stringify(sources,null,2)+'\n');
   fs.writeFileSync(path.join(target,'review-checklist.json'),JSON.stringify({schemaVersion:1,asOf:evidenceDate,items:articles.map(a=>humanGate.checklist(a,sources))},null,2)+'\n');
   return report;
 }
-Object.assign(generate,{articles,sources,evidenceDate,wordCount,renderArticle,validate,resolveReviews,publishedNews,rss,newsSchema,newsLanding,writeDocumentation,markdownArticle,toolLinks});
+Object.assign(generate,{articles,sources,evidenceDate,wordCount,renderArticle,renderReleasedArticle,validate,resolveReviews,publishedNews,rss,newsSchema,newsLanding,writeDocumentation,markdownArticle,toolLinks});
 module.exports=generate;
 if(require.main===module){try{const command=process.argv[2]||'check';const report=command==='prepare'?writeDocumentation():command==='review'?resolveReviews(undefined,new Date().toISOString()):validate();console.log(JSON.stringify(report,null,2));if(report.valid===false||report.registryValid===false||report.invalidDecisions?.length)process.exitCode=1;}catch(error){console.error(error.message);process.exitCode=1;}}

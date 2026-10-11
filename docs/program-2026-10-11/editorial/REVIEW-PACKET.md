@@ -2,48 +2,36 @@
 
 Complete batch: 8 buying guides and 4 news-report drafts; 9,685 article words; 25 inspected source records.
 
-## How to use this packet
+**12 exact article versions are authorized by the owner's direct publication instruction; 0 have verified live publication records.**
 
-The articles are written. Your earlier project instructions require a person to read each new article and its relevant sources before it goes public. Choose a title in the table below, read its complete text and source links, then tell me the IDs you have reviewed and approve. You can review a few at a time.
+The owner requested: “okay publish all 12 articles and use PC Part Performance as the author”. This supersedes the pending personal-review prerequisite for these twelve versions only. No personal reading attestation, named reviewer, staff credentials or hands-on testing is claimed. The personal-review registry remains empty.
 
-**Reviewer** means the person who actually read and checked the article. **Byline** means the author name displayed to visitors. Choose a truthful author line and assistance disclosure; the writing was prepared with AI research and writing assistance.
+The public author is PC Part Performance. Research and writing prepared with AI assistance. Article and source fingerprints pin the authorized versions; edits invalidate the matching authorization.
 
-After you have completed that review, a reply can follow this format: “I reviewed C01 and C03 and their sources, and approve them for publication. Reviewer: [your name]. Public author line: [your chosen truthful attribution].” Replace the example IDs and placeholders with your actual decision. The website's working features are already deployed independently of these draft articles.
-
-**Zero human approvals and zero publications are recorded.** Evidence checking is not human editorial approval. Read the entire article and applicable sources before entering a truthful decision.
-
-Prepared through the site research workflow with AI research and writing assistance. No staff identity, expert credentials, hands-on testing or review approval is invented. Each fingerprint includes the current article and applicable source records; edits invalidate the matching decision.
-
-The existing program-editorial-review.cjs gate requires a named actual human reviewer, full-content/source attestation, a truthful byline, a real nonfuture review date and the exact current version/hash. It checks consistency; it cannot prove who read the articles. The empty continuation-editorial-review-decisions.json is owner-entered only.
-
-Human-review attestation: I personally reviewed the complete article, its applicable sources and recommendation conditions. This is a human editorial decision.
-
-Byline attestation: I confirm that this byline and attribution accurately describe the authorship and research assistance.
-
-After actual approval, a separate release step must record first publication and confirmed deployment. Source dates, inspection dates and review dates never substitute for that timestamp. The continuation generator stages drafts and does not publish an approved article by itself.
+Publication timestamps come from actual exact-page inspections on the production domain. Source and preparation dates are separate. Release authorization alone never confirms deployment.
 
 ## Batch index
 
 | ID | Full article | Type | Words | Sources | State |
 | --- | --- | --- | ---: | ---: | --- |
-| C01 | [How to shortlist a prebuilt gaming PC in Canada](#c01) | guide | 1087 | 7 | needs human review |
-| C02 | [Compare US prebuilt PC offers without losing the configuration](#c02) | guide | 1053 | 7 | needs human review |
-| C03 | [Build vs Buy: compare the complete PC cost](#c03) | guide | 821 | 2 | needs human review |
-| C04 | [The prebuilt internals checklist: PSU, RAM, cooling and upgrades](#c04) | guide | 816 | 2 | needs human review |
-| C05 | [Phone body size vs screen diagonal: what to compare](#c05) | guide | 814 | 4 | needs human review |
-| C06 | [Choosing a smaller phone: grip, pockets, case and support](#c06) | guide | 758 | 4 | needs human review |
-| C07 | [What a 3D PC builder preview can tell you](#c07) | guide | 757 | 1 | needs human review |
-| C08 | [Reading a checked PC offer: region, seller, freshness and exclusions](#c08) | guide | 798 | 2 | needs human review |
-| C09 | [Micron’s fiscal 2026 report: server-memory milestones and desktop limits](#c09) | news | 663 | 1 | needs human review |
-| C10 | [NVIDIA announces RTX Spark for Windows: check apps, configuration and availability](#c10) | news | 715 | 1 | needs human review |
-| C11 | [AMD Linux 26.16 adds Ubuntu support and a targeted Blender fix](#c11) | news | 679 | 1 | needs human review |
-| C12 | [Pixel’s October 2026 bulletin: check the patch level before replacing a phone](#c12) | news | 724 | 3 | needs human review |
+| C01 | [How to shortlist a prebuilt gaming PC in Canada](#c01) | guide | 1087 | 7 | owner authorized · release pending |
+| C02 | [Compare US prebuilt PC offers without losing the configuration](#c02) | guide | 1053 | 7 | owner authorized · release pending |
+| C03 | [Build vs Buy: compare the complete PC cost](#c03) | guide | 821 | 2 | owner authorized · release pending |
+| C04 | [The prebuilt internals checklist: PSU, RAM, cooling and upgrades](#c04) | guide | 816 | 2 | owner authorized · release pending |
+| C05 | [Phone body size vs screen diagonal: what to compare](#c05) | guide | 814 | 4 | owner authorized · release pending |
+| C06 | [Choosing a smaller phone: grip, pockets, case and support](#c06) | guide | 758 | 4 | owner authorized · release pending |
+| C07 | [What a 3D PC builder preview can tell you](#c07) | guide | 757 | 1 | owner authorized · release pending |
+| C08 | [Reading a checked PC offer: region, seller, freshness and exclusions](#c08) | guide | 798 | 2 | owner authorized · release pending |
+| C09 | [Micron’s fiscal 2026 report: server-memory milestones and desktop limits](#c09) | news | 663 | 1 | owner authorized · release pending |
+| C10 | [NVIDIA announces RTX Spark for Windows: check apps, configuration and availability](#c10) | news | 715 | 1 | owner authorized · release pending |
+| C11 | [AMD Linux 26.16 adds Ubuntu support and a targeted Blender fix](#c11) | news | 679 | 1 | owner authorized · release pending |
+| C12 | [Pixel’s October 2026 bulletin: check the patch level before replacing a phone](#c12) | news | 724 | 3 | owner authorized · release pending |
 
 <a id="c01"></a>
 
 ## C01 — How to shortlist a prebuilt gaming PC in Canada
 
-**Research draft; needs human editorial review.** 1087 words. Sources inspected 2026-10-11. No publication date.
+**Owner-authorized release; deployment not yet confirmed.** 1087 words. Sources inspected 2026-10-11.
 
 Route: /blog/prebuilt-gaming-pc-canada-shortlist/
 
@@ -143,7 +131,7 @@ The desktop comparison and Build vs Buy tools can organize the decision when the
 
 ## C02 — Compare US prebuilt PC offers without losing the configuration
 
-**Research draft; needs human editorial review.** 1053 words. Sources inspected 2026-10-11. No publication date.
+**Owner-authorized release; deployment not yet confirmed.** 1053 words. Sources inspected 2026-10-11.
 
 Route: /blog/prebuilt-gaming-pc-us-offer-checklist/
 
@@ -244,7 +232,7 @@ Before placing the order, refresh the price, selected variant, availability and 
 
 ## C03 — Build vs Buy: compare the complete PC cost
 
-**Research draft; needs human editorial review.** 821 words. Sources inspected 2026-10-11. No publication date.
+**Owner-authorized release; deployment not yet confirmed.** 821 words. Sources inspected 2026-10-11.
 
 Route: /blog/build-vs-buy-pc-complete-cost/
 
@@ -317,7 +305,7 @@ Save both configurations and the checked offer date. If a component substitution
 
 ## C04 — The prebuilt internals checklist: PSU, RAM, cooling and upgrades
 
-**Research draft; needs human editorial review.** 816 words. Sources inspected 2026-10-11. No publication date.
+**Owner-authorized release; deployment not yet confirmed.** 816 words. Sources inspected 2026-10-11.
 
 Route: /blog/prebuilt-pc-internals-upgrade-checklist/
 
@@ -392,7 +380,7 @@ This checklist helps compare what sellers actually disclose. It does not score r
 
 ## C05 — Phone body size vs screen diagonal: what to compare
 
-**Research draft; needs human editorial review.** 814 words. Sources inspected 2026-10-11. No publication date.
+**Owner-authorized release; deployment not yet confirmed.** 814 words. Sources inspected 2026-10-11.
 
 Route: /blog/phone-body-size-vs-screen-diagonal/
 
@@ -466,7 +454,7 @@ The phone size tool can make the geometry easier to inspect, provided that you k
 
 ## C06 — Choosing a smaller phone: grip, pockets, case and support
 
-**Research draft; needs human editorial review.** 758 words. Sources inspected 2026-10-11. No publication date.
+**Owner-authorized release; deployment not yet confirmed.** 758 words. Sources inspected 2026-10-11.
 
 Route: /blog/choose-smaller-phone-practical-checklist/
 
@@ -533,7 +521,7 @@ Write one sentence about why the selected candidate fits your life and another a
 
 ## C07 — What a 3D PC builder preview can tell you
 
-**Research draft; needs human editorial review.** 757 words. Sources inspected 2026-10-11. No publication date.
+**Owner-authorized release; deployment not yet confirmed.** 757 words. Sources inspected 2026-10-11.
 
 Route: /blog/3d-pc-builder-preview-limits/
 
@@ -605,7 +593,7 @@ The practical outcome is a better inspected plan. You can use the preview to und
 
 ## C08 — Reading a checked PC offer: region, seller, freshness and exclusions
 
-**Research draft; needs human editorial review.** 798 words. Sources inspected 2026-10-11. No publication date.
+**Owner-authorized release; deployment not yet confirmed.** 798 words. Sources inspected 2026-10-11.
 
 Route: /blog/checked-pc-offers-region-freshness/
 
@@ -676,7 +664,7 @@ Before committing to an upgrade, refresh the necessary offers together and revie
 
 ## C09 — Micron’s fiscal 2026 report: server-memory milestones and desktop limits
 
-**Research draft; needs human editorial review.** 663 words. Sources inspected 2026-10-11. No publication date.
+**Owner-authorized release; deployment not yet confirmed.** 663 words. Sources inspected 2026-10-11.
 
 Route: /news/micron-ai-demand-memory-evidence/
 
@@ -733,7 +721,7 @@ The buyer takeaway is specific: Micron's release provides company evidence about
 
 ## C10 — NVIDIA announces RTX Spark for Windows: check apps, configuration and availability
 
-**Research draft; needs human editorial review.** 715 words. Sources inspected 2026-10-11. No publication date.
+**Owner-authorized release; deployment not yet confirmed.** 715 words. Sources inspected 2026-10-11.
 
 Route: /news/nvidia-rtx-spark-windows-october-2026/
 
@@ -798,7 +786,7 @@ The practical response is to build a requirements list now and compare the relea
 
 ## C11 — AMD Linux 26.16 adds Ubuntu support and a targeted Blender fix
 
-**Research draft; needs human editorial review.** 679 words. Sources inspected 2026-10-11. No publication date.
+**Owner-authorized release; deployment not yet confirmed.** 679 words. Sources inspected 2026-10-11.
 
 Route: /news/amd-linux-26-16-ubuntu-blender/
 
@@ -863,7 +851,7 @@ Sources: [AMD Support — Radeon Software for Linux 26.16 release notes](https:/
 
 ## C12 — Pixel’s October 2026 bulletin: check the patch level before replacing a phone
 
-**Research draft; needs human editorial review.** 724 words. Sources inspected 2026-10-11. No publication date.
+**Owner-authorized release; deployment not yet confirmed.** 724 words. Sources inspected 2026-10-11.
 
 Route: /news/pixel-october-2026-patch-level/
 
