@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-11T19:11:37.724Z",
+  "updatedAt": "2026-10-11T22:05:38.681Z",
   "deploymentAuthorized": true,
   "tasks": [
     {
@@ -142,13 +142,18 @@
       "files": [
         "scripts/continuation-editorial-content.cjs",
         "scripts/continuation-editorial-sources.json",
-        "scripts/continuation-editorial.cjs"
+        "scripts/continuation-editorial.cjs",
+        "scripts/continuation-publication.cjs",
+        "scripts/continuation-editorial-owner-authorization.json",
+        "scripts/continuation-editorial-publications.json"
       ],
-      "status": "draft_complete_human_review_pending",
-      "evidence": "12 complete source-backed articles and original illustrations. Zero human approvals; owner requested explanation of review. Normal output excludes them.",
+      "status": "published_verified",
+      "evidence": "Owner explicitly authorized all twelve exact versions and PC Part Performance organization byline. All twelve live pages verified at 2026-10-11T22:03:09Z; personal reading/reviewer claims remain absent.",
       "tests": [
-        "7 editorial renderer checks",
-        "source/evidence/hash manifests"
+        "7 editorial tests",
+        "8 owner-publication tests",
+        "12 live exact-page inspections and 12 image HEAD checks",
+        "desktop/mobile light/dark representative article and Blog inspection"
       ]
     },
     {
@@ -160,11 +165,12 @@
       "files": [
         "scripts/continuation-editorial.cjs"
       ],
-      "status": "code_complete_publication_pending",
-      "evidence": "Real reviewed-publication records gate RSS/news sitemap. Live intake was not successful; no Google News submission or indexing claims.",
+      "status": "publication_verified_feed_metadata_release_pending",
+      "evidence": "Four reports are live and actually inspected. Final NewsArticle/feed/news sitemap timestamp release prepared; no Google News acceptance or submission claim.",
       "tests": [
         "10 news intake tests (synthetic)",
-        "normal draft/feed/sitemap exclusion gates"
+        "normal draft/feed/sitemap exclusion gates",
+        "Exact live publication evidence gate"
       ]
     },
     {

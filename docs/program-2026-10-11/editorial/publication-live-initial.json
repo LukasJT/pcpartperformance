@@ -1,0 +1,234 @@
+{
+  "checkedAt": "2026-10-11T22:03:09.233Z",
+  "expectedCommit": "e20732e00cd262fa54b1c0507b30f2d6f20585f6",
+  "phase": "initial",
+  "release": {
+    "schema": 1,
+    "program": "2026-10-11-continuation",
+    "commit": "e20732e00cd262fa54b1c0507b30f2d6f20585f6",
+    "generatedAt": "2026-10-11T22:02:09.161Z",
+    "staging": false
+  },
+  "scope": "Actual public HTTP/HTML/structured-data/discovery checks. Browser layout is verified separately.",
+  "articles": [
+    {
+      "articleId": "C01",
+      "url": "https://www.pcpartperformance.com/blog/prebuilt-gaming-pc-canada-shortlist/",
+      "contentHash": "e9ab1d00f1538b5e3c37e1c133c09bf3dc2845a4d773f27df1aa9331b07f8bf7",
+      "status": 200,
+      "access": "inspected",
+      "checkedAt": "2026-10-11T22:03:09.331Z",
+      "commit": "e20732e00cd262fa54b1c0507b30f2d6f20585f6",
+      "author": "PC Part Performance",
+      "schema": "Article",
+      "datePublished": "2026-10-11"
+    },
+    {
+      "articleId": "C02",
+      "url": "https://www.pcpartperformance.com/blog/prebuilt-gaming-pc-us-offer-checklist/",
+      "contentHash": "e399bbfa45aef2bbf508d61ad859b7a6a4bf4ddc4c0e59a347852b4dc1c18d1e",
+      "status": 200,
+      "access": "inspected",
+      "checkedAt": "2026-10-11T22:03:09.726Z",
+      "commit": "e20732e00cd262fa54b1c0507b30f2d6f20585f6",
+      "author": "PC Part Performance",
+      "schema": "Article",
+      "datePublished": "2026-10-11"
+    },
+    {
+      "articleId": "C03",
+      "url": "https://www.pcpartperformance.com/blog/build-vs-buy-pc-complete-cost/",
+      "contentHash": "8d15f32e0031c9733ca45874ae2e03ee53ba245539857e5cc2683d8bb4222d42",
+      "status": 200,
+      "access": "inspected",
+      "checkedAt": "2026-10-11T22:03:10.405Z",
+      "commit": "e20732e00cd262fa54b1c0507b30f2d6f20585f6",
+      "author": "PC Part Performance",
+      "schema": "Article",
+      "datePublished": "2026-10-11"
+    },
+    {
+      "articleId": "C04",
+      "url": "https://www.pcpartperformance.com/blog/prebuilt-pc-internals-upgrade-checklist/",
+      "contentHash": "c692994ea07698737c837482688981981fcef6767f75cc351abad15376d81b2e",
+      "status": 200,
+      "access": "inspected",
+      "checkedAt": "2026-10-11T22:03:10.978Z",
+      "commit": "e20732e00cd262fa54b1c0507b30f2d6f20585f6",
+      "author": "PC Part Performance",
+      "schema": "Article",
+      "datePublished": "2026-10-11"
+    },
+    {
+      "articleId": "C05",
+      "url": "https://www.pcpartperformance.com/blog/phone-body-size-vs-screen-diagonal/",
+      "contentHash": "3c0e20b8665f819579f6562e3e89077d0b4eda1c555c6293abbef45772f4cb60",
+      "status": 200,
+      "access": "inspected",
+      "checkedAt": "2026-10-11T22:03:11.268Z",
+      "commit": "e20732e00cd262fa54b1c0507b30f2d6f20585f6",
+      "author": "PC Part Performance",
+      "schema": "Article",
+      "datePublished": "2026-10-11"
+    },
+    {
+      "articleId": "C06",
+      "url": "https://www.pcpartperformance.com/blog/choose-smaller-phone-practical-checklist/",
+      "contentHash": "4590fe79eb3b0acd36a99fe48e640709fb0c04b8d7cd30c699da144774711486",
+      "status": 200,
+      "access": "inspected",
+      "checkedAt": "2026-10-11T22:03:11.600Z",
+      "commit": "e20732e00cd262fa54b1c0507b30f2d6f20585f6",
+      "author": "PC Part Performance",
+      "schema": "Article",
+      "datePublished": "2026-10-11"
+    },
+    {
+      "articleId": "C07",
+      "url": "https://www.pcpartperformance.com/blog/3d-pc-builder-preview-limits/",
+      "contentHash": "cfff117acaa9903e6872b5113b847b925752cdd11f2d86e4a35f5672d56b7918",
+      "status": 200,
+      "access": "inspected",
+      "checkedAt": "2026-10-11T22:03:11.888Z",
+      "commit": "e20732e00cd262fa54b1c0507b30f2d6f20585f6",
+      "author": "PC Part Performance",
+      "schema": "Article",
+      "datePublished": "2026-10-11"
+    },
+    {
+      "articleId": "C08",
+      "url": "https://www.pcpartperformance.com/blog/checked-pc-offers-region-freshness/",
+      "contentHash": "c8852942bc6410510e86bba7dda63c5e634b1edae99905c5c0d69617e000496e",
+      "status": 200,
+      "access": "inspected",
+      "checkedAt": "2026-10-11T22:03:12.206Z",
+      "commit": "e20732e00cd262fa54b1c0507b30f2d6f20585f6",
+      "author": "PC Part Performance",
+      "schema": "Article",
+      "datePublished": "2026-10-11"
+    },
+    {
+      "articleId": "C09",
+      "url": "https://www.pcpartperformance.com/news/micron-ai-demand-memory-evidence/",
+      "contentHash": "50d169173fc53e17e828abe5a58fe92407c74fd120d5b34c81470711d4c83853",
+      "status": 200,
+      "access": "inspected",
+      "checkedAt": "2026-10-11T22:03:12.628Z",
+      "commit": "e20732e00cd262fa54b1c0507b30f2d6f20585f6",
+      "author": "PC Part Performance",
+      "schema": "Article",
+      "datePublished": "2026-10-11"
+    },
+    {
+      "articleId": "C10",
+      "url": "https://www.pcpartperformance.com/news/nvidia-rtx-spark-windows-october-2026/",
+      "contentHash": "95751c7ec716b92fa5ce9d533284c8d979d13bfde83697d8ff58f9d719c39aae",
+      "status": 200,
+      "access": "inspected",
+      "checkedAt": "2026-10-11T22:03:13.120Z",
+      "commit": "e20732e00cd262fa54b1c0507b30f2d6f20585f6",
+      "author": "PC Part Performance",
+      "schema": "Article",
+      "datePublished": "2026-10-11"
+    },
+    {
+      "articleId": "C11",
+      "url": "https://www.pcpartperformance.com/news/amd-linux-26-16-ubuntu-blender/",
+      "contentHash": "4ca3e1b2b329b8627ecda58750f991ecb6a84ef42edbead4fc389f50e9a4cd12",
+      "status": 200,
+      "access": "inspected",
+      "checkedAt": "2026-10-11T22:03:13.446Z",
+      "commit": "e20732e00cd262fa54b1c0507b30f2d6f20585f6",
+      "author": "PC Part Performance",
+      "schema": "Article",
+      "datePublished": "2026-10-11"
+    },
+    {
+      "articleId": "C12",
+      "url": "https://www.pcpartperformance.com/news/pixel-october-2026-patch-level/",
+      "contentHash": "27233b21ac8d55742aeea13c432efb13ee201b7497ac780c55d45b53fc265a07",
+      "status": 200,
+      "access": "inspected",
+      "checkedAt": "2026-10-11T22:03:13.747Z",
+      "commit": "e20732e00cd262fa54b1c0507b30f2d6f20585f6",
+      "author": "PC Part Performance",
+      "schema": "Article",
+      "datePublished": "2026-10-11"
+    }
+  ],
+  "checks": [
+    {
+      "name": "representative article image",
+      "route": "/assets/editorial-oct11/prebuilt-gaming-pc-canada-shortlist.png",
+      "status": 200
+    },
+    {
+      "name": "representative article image",
+      "route": "/assets/editorial-oct11/prebuilt-gaming-pc-us-offer-checklist.png",
+      "status": 200
+    },
+    {
+      "name": "representative article image",
+      "route": "/assets/editorial-oct11/build-vs-buy-pc-complete-cost.png",
+      "status": 200
+    },
+    {
+      "name": "representative article image",
+      "route": "/assets/editorial-oct11/prebuilt-pc-internals-upgrade-checklist.png",
+      "status": 200
+    },
+    {
+      "name": "representative article image",
+      "route": "/assets/editorial-oct11/phone-body-size-vs-screen-diagonal.png",
+      "status": 200
+    },
+    {
+      "name": "representative article image",
+      "route": "/assets/editorial-oct11/choose-smaller-phone-practical-checklist.png",
+      "status": 200
+    },
+    {
+      "name": "representative article image",
+      "route": "/assets/editorial-oct11/3d-pc-builder-preview-limits.png",
+      "status": 200
+    },
+    {
+      "name": "representative article image",
+      "route": "/assets/editorial-oct11/checked-pc-offers-region-freshness.png",
+      "status": 200
+    },
+    {
+      "name": "representative article image",
+      "route": "/assets/editorial-oct11/micron-ai-demand-memory-evidence.png",
+      "status": 200
+    },
+    {
+      "name": "representative article image",
+      "route": "/assets/editorial-oct11/nvidia-rtx-spark-windows-october-2026.png",
+      "status": 200
+    },
+    {
+      "name": "representative article image",
+      "route": "/assets/editorial-oct11/amd-linux-26-16-ubuntu-blender.png",
+      "status": 200
+    },
+    {
+      "name": "representative article image",
+      "route": "/assets/editorial-oct11/pixel-october-2026-patch-level.png",
+      "status": 200
+    },
+    {
+      "name": "all twelve authorizations discovered through canonical sitemap, Blog and site search",
+      "passed": true
+    },
+    {
+      "name": "eight guides in Blog RSS and four reports in Newsroom",
+      "passed": true
+    },
+    {
+      "name": "news feed and news sitemap match actually confirmed publications",
+      "passed": true
+    }
+  ],
+  "passed": true
+}

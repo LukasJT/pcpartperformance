@@ -1,5 +1,11 @@
 # PC Part Performance continuation — release report
 
+## Publication update — October 11
+
+The owner subsequently authorized all twelve October 11 articles with **PC Part Performance** as author. All twelve were independently verified live in commit `e20732e00cd262fa54b1c0507b30f2d6f20585f6` at 22:03 UTC. See [the publication report](editorial/PUBLICATION-REPORT.md) for the current release and feed verification. The feature-release record below is historical; its draft/byline prerequisites are superseded for these twelve exact versions only. No personal reading attestation or named reviewer is invented.
+
+## Earlier feature-release record (historical)
+
 ## Release state
 
 **Deployed and verified on https://www.pcpartperformance.com/.** Production commit `be022a75641b34fbc6acdad70a9e9fa3a69f1561` was pushed without force to the existing Cloudflare production branch, `codex/stage2-publication-2026-10-04`. The public release marker returned that exact commit, with `staging: false`; 28 public HTTP/HTML/API/asset checks passed at 2026-10-11 19:02:53 UTC. Actual production-browser checks then verified the phone models and mobile builder.
