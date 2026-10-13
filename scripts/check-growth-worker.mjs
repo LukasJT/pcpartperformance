@@ -1,0 +1,14 @@
+import assert from 'node:assert/strict';
+import worker from './worker.mjs';
+import publishedNews from './news-publications.mjs';
+import {renderRecentNews} from './news-sitemap-response.mjs';
+const origin='https://www.pcpartperformance.com';
+const env={ASSETS:{fetch(){throw Error('Runtime news sitemap should not require a static asset request.')}}};
+const get=await worker.fetch(new Request(origin+'/news-sitemap.xml'),env);
+assert.equal(get.status,200);assert.match(get.headers.get('Content-Type'),/application\/xml/);
+assert.match(get.headers.get('Cache-Control'),/max-age=0/);
+assert.equal(await get.text(),renderRecentNews(publishedNews));
+const head=await worker.fetch(new Request(origin+'/news-sitemap.xml',{method:'HEAD'}),env);assert.equal(head.status,200);assert.equal(await head.text(),'');
+const post=await worker.fetch(new Request(origin+'/news-sitemap.xml',{method:'POST'}),env);assert.equal(post.status,405);
+const query=await worker.fetch(new Request(origin+'/news-sitemap.xml?test=1'),env);assert.equal(query.headers.get('Cache-Control'),'no-store');assert.match(query.headers.get('X-Robots-Tag'),/noindex/);
+console.log('9 real Worker news-sitemap GET, HEAD, cache, query and method checks passed. No network or source activation.');

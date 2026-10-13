@@ -25,6 +25,7 @@
     "program:review": "node scripts/program-editorial-review.cjs check",
     "program:offers:validate": "node scripts/prepare-program-offers.cjs validate",
     "check:program-performance": "node scripts/check-program-performance.cjs",
-    "check:continuation": "node scripts/check-continuation.cjs && node scripts/check-continuation-client.cjs && node scripts/check-builder-workspace.cjs && node scripts/check-morning-prices.mjs && node scripts/test-continuation-editorial.cjs && node scripts/test-continuation-publication.cjs && node scripts/test-continuation-news-intake.cjs"
+    "check:continuation": "node scripts/check-continuation.cjs && node scripts/check-continuation-client.cjs && node scripts/check-builder-workspace.cjs && node scripts/check-morning-prices.mjs && node scripts/test-continuation-editorial.cjs && node scripts/test-continuation-publication.cjs && node scripts/test-continuation-news-intake.cjs",
+    "check:growth": "node scripts/test-growth-tools.cjs && node scripts/test-growth-evidence.cjs && node scripts/test-growth-editorial.cjs && node scripts/test-growth-search.cjs && node scripts/test-css-compact.cjs && node scripts/test-news-sitemap-response.mjs && node scripts/check-growth-worker.mjs && node scripts/check-growth-release.cjs"
   }
 }

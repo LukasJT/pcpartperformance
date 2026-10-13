@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "preparedAt": "2026-10-09",
-  "engineVersion": "2026-10-09.1",
+  "engineVersion": "2026-10-13.1",
   "sources": {
     "msiB650": {
       "publisher": "MSI",
@@ -51,6 +51,83 @@
       "checked": "2026-10-09",
       "model": "Cable compatibility chart",
       "scope": "Check the exact PSU revision and cable type; a modular connector shape does not establish a safe match."
+    },
+    "msiB850Max": {
+      "publisher": "MSI",
+      "url": "https://www.msi.com/Motherboard/MAG-B850-TOMAHAWK-MAX-WIFI/Specification",
+      "checked": "2026-10-13",
+      "model": "MAG B850 TOMAHAWK MAX WIFI",
+      "scope": "AM5, DDR5, DIMM and nominal storage counts, published memory limit and ATX. BIOS and shared-slot configurations remain separate checks."
+    },
+    "msiX870Carbon": {
+      "publisher": "MSI",
+      "url": "https://www.msi.com/Motherboard/MPG-X870E-CARBON-WIFI/Specification",
+      "checked": "2026-10-13",
+      "model": "MPG X870E CARBON WIFI",
+      "scope": "Facts use the correctly named X870E specification table only, excluding an unrelated legacy Z690 block farther down this page. M2_2 is unavailable with Ryzen 8000; bandwidth sharing is unresolved here."
+    },
+    "msiB650MA": {
+      "publisher": "MSI",
+      "url": "https://www.msi.com/Motherboard/PRO-B650M-A-WIFI/Specification",
+      "checked": "2026-10-13",
+      "model": "PRO B650M-A WIFI",
+      "scope": "AM5, DDR5, DIMMs, published memory limit and mATX. Nominal M.2 count is conditional: M2_2 is unavailable with Ryzen 8500/8300."
+    },
+    "msiZ790": {
+      "publisher": "MSI",
+      "url": "https://www.msi.com/Motherboard/MAG-Z790-TOMAHAWK-WIFI/Specification",
+      "checked": "2026-10-13",
+      "model": "MAG Z790 TOMAHAWK WIFI",
+      "scope": "DDR5 version only. DIMMs, published memory limit, nominal storage counts and ATX; no minimum BIOS is inferred."
+    },
+    "msiZ790Sheet": {
+      "publisher": "MSI",
+      "url": "https://storage-asset.msi.com/datasheet/mb/global/MAG-Z790-TOMAHAWK-WIFI.pdf",
+      "checked": "2026-10-13",
+      "model": "MAG Z790 TOMAHAWK WIFI",
+      "scope": "Exact named datasheet table establishes LGA1700. This is not the DDR4 or MAX model and is not proof of a shipped BIOS version."
+    },
+    "asusB550F": {
+      "publisher": "ASUS",
+      "url": "https://rog.asus.com/us/motherboards/rog-strix/rog-strix-b550-f-gaming-wi-fi-model/spec/",
+      "checked": "2026-10-13",
+      "model": "ROG STRIX B550-F GAMING (WI-FI)",
+      "scope": "Original Wi-Fi model: AM4, DDR4, four DIMMs, 128 GB, ATX and nominal storage counts. WIFI II and the non-Wi-Fi model are distinct and do not inherit this evidence."
+    },
+    "amd7800": {
+      "publisher": "AMD",
+      "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7800x3d.html",
+      "checked": "2026-10-13",
+      "model": "Ryzen 7 7800X3D",
+      "scope": "AM5, DDR5, 128 GB CPU memory limit, default 120 W TDP, graphics capability and no included boxed cooler. Profile operation and board BIOS are separate."
+    },
+    "amd9950X3D": {
+      "publisher": "AMD",
+      "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9950x3d.html",
+      "checked": "2026-10-13",
+      "model": "Ryzen 9 9950X3D",
+      "scope": "AM5, DDR5, 256 GB CPU memory limit, default 170 W TDP, graphics capability and no included boxed cooler."
+    },
+    "amd5700X3D": {
+      "publisher": "AMD",
+      "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x3d.html",
+      "checked": "2026-10-13",
+      "model": "Ryzen 7 5700X3D",
+      "scope": "Official support page specification section: AM4, DDR4, 128 GB limit, default 105 W TDP, discrete graphics required and no included boxed cooler. Product-page fetch failed; no fact is based only on a snippet."
+    },
+    "intel265K": {
+      "publisher": "Intel",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/241063/intel-core-ultra-7-processor-265k-30m-cache-up-to-5-50-ghz/specifications.html",
+      "checked": "2026-10-13",
+      "model": "Core Ultra 7 265K",
+      "scope": "FCLGA1851 normalized to LGA1851; DDR5, 256 GB limit and integrated graphics. Processor base power and maximum turbo power remain separately labeled, not measured consumption."
+    },
+    "intel14700K": {
+      "publisher": "Intel",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/236783/intel-core-i7-processor-14700k-33m-cache-up-to-5-60-ghz/specifications.html",
+      "checked": "2026-10-13",
+      "model": "Core i7-14700K",
+      "scope": "FCLGA1700 normalized to LGA1700; DDR4 or DDR5 depending on motherboard, 192 GB limit and UHD 770 graphics. Uses the inspected 236783 exact K-model page, not KF or the inaccessible inherited 236789 URL."
     }
   },
   "fields": {
@@ -468,6 +545,908 @@
         "publisher": "Samsung",
         "checked": "2026-10-09",
         "model": "MZ-V9P1T0BW",
+        "status": "manufacturer-specified",
+        "exact": true
+      }
+    },
+    "7800x3d": {
+      "socket": {
+        "value": "AM5",
+        "source": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7800x3d.html",
+        "publisher": "AMD",
+        "checked": "2026-10-13",
+        "model": "Ryzen 7 7800X3D",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "ddr": {
+        "value": "DDR5",
+        "source": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7800x3d.html",
+        "publisher": "AMD",
+        "checked": "2026-10-13",
+        "model": "Ryzen 7 7800X3D",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "memoryMax": {
+        "value": 128,
+        "source": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7800x3d.html",
+        "publisher": "AMD",
+        "checked": "2026-10-13",
+        "model": "Ryzen 7 7800X3D",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "tdp": {
+        "value": 120,
+        "source": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7800x3d.html",
+        "publisher": "AMD",
+        "checked": "2026-10-13",
+        "model": "Ryzen 7 7800X3D",
+        "status": "manufacturer-specified",
+        "exact": true,
+        "condition": "Default TDP, not measured system or processor consumption."
+      },
+      "includedCooler": {
+        "value": false,
+        "source": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7800x3d.html",
+        "publisher": "AMD",
+        "checked": "2026-10-13",
+        "model": "Ryzen 7 7800X3D",
+        "status": "manufacturer-specified",
+        "exact": true,
+        "condition": "Boxed processor thermal solution is not included."
+      },
+      "integratedGraphics": {
+        "value": true,
+        "source": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7800x3d.html",
+        "publisher": "AMD",
+        "checked": "2026-10-13",
+        "model": "Ryzen 7 7800X3D",
+        "status": "manufacturer-specified",
+        "exact": true
+      }
+    },
+    "9950x3d": {
+      "socket": {
+        "value": "AM5",
+        "source": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9950x3d.html",
+        "publisher": "AMD",
+        "checked": "2026-10-13",
+        "model": "Ryzen 9 9950X3D",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "ddr": {
+        "value": "DDR5",
+        "source": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9950x3d.html",
+        "publisher": "AMD",
+        "checked": "2026-10-13",
+        "model": "Ryzen 9 9950X3D",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "memoryMax": {
+        "value": 256,
+        "source": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9950x3d.html",
+        "publisher": "AMD",
+        "checked": "2026-10-13",
+        "model": "Ryzen 9 9950X3D",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "tdp": {
+        "value": 170,
+        "source": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9950x3d.html",
+        "publisher": "AMD",
+        "checked": "2026-10-13",
+        "model": "Ryzen 9 9950X3D",
+        "status": "manufacturer-specified",
+        "exact": true,
+        "condition": "Default TDP, not measured system or processor consumption."
+      },
+      "includedCooler": {
+        "value": false,
+        "source": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9950x3d.html",
+        "publisher": "AMD",
+        "checked": "2026-10-13",
+        "model": "Ryzen 9 9950X3D",
+        "status": "manufacturer-specified",
+        "exact": true,
+        "condition": "Boxed processor thermal solution is not included."
+      },
+      "integratedGraphics": {
+        "value": true,
+        "source": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9950x3d.html",
+        "publisher": "AMD",
+        "checked": "2026-10-13",
+        "model": "Ryzen 9 9950X3D",
+        "status": "manufacturer-specified",
+        "exact": true
+      }
+    },
+    "5700x3d": {
+      "socket": {
+        "value": "AM4",
+        "source": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x3d.html",
+        "publisher": "AMD",
+        "checked": "2026-10-13",
+        "model": "Ryzen 7 5700X3D",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "ddr": {
+        "value": "DDR4",
+        "source": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x3d.html",
+        "publisher": "AMD",
+        "checked": "2026-10-13",
+        "model": "Ryzen 7 5700X3D",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "memoryMax": {
+        "value": 128,
+        "source": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x3d.html",
+        "publisher": "AMD",
+        "checked": "2026-10-13",
+        "model": "Ryzen 7 5700X3D",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "tdp": {
+        "value": 105,
+        "source": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x3d.html",
+        "publisher": "AMD",
+        "checked": "2026-10-13",
+        "model": "Ryzen 7 5700X3D",
+        "status": "manufacturer-specified",
+        "exact": true,
+        "condition": "Default TDP, not measured system or processor consumption."
+      },
+      "includedCooler": {
+        "value": false,
+        "source": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x3d.html",
+        "publisher": "AMD",
+        "checked": "2026-10-13",
+        "model": "Ryzen 7 5700X3D",
+        "status": "manufacturer-specified",
+        "exact": true,
+        "condition": "Boxed processor thermal solution is not included."
+      },
+      "integratedGraphics": {
+        "value": false,
+        "source": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x3d.html",
+        "publisher": "AMD",
+        "checked": "2026-10-13",
+        "model": "Ryzen 7 5700X3D",
+        "status": "manufacturer-specified",
+        "exact": true,
+        "condition": "AMD specifies a discrete graphics card is required."
+      }
+    },
+    "ultra7265k": {
+      "socket": {
+        "value": "LGA1851",
+        "source": "https://www.intel.com/content/www/us/en/products/sku/241063/intel-core-ultra-7-processor-265k-30m-cache-up-to-5-50-ghz/specifications.html",
+        "publisher": "Intel",
+        "checked": "2026-10-13",
+        "model": "Core Ultra 7 265K",
+        "status": "manufacturer-specified",
+        "exact": true,
+        "sourceValue": "FCLGA1851",
+        "normalization": "Package prefix FC removed for comparison with board socket naming."
+      },
+      "ddr": {
+        "value": "DDR5",
+        "source": "https://www.intel.com/content/www/us/en/products/sku/241063/intel-core-ultra-7-processor-265k-30m-cache-up-to-5-50-ghz/specifications.html",
+        "publisher": "Intel",
+        "checked": "2026-10-13",
+        "model": "Core Ultra 7 265K",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "memoryMax": {
+        "value": 256,
+        "source": "https://www.intel.com/content/www/us/en/products/sku/241063/intel-core-ultra-7-processor-265k-30m-cache-up-to-5-50-ghz/specifications.html",
+        "publisher": "Intel",
+        "checked": "2026-10-13",
+        "model": "Core Ultra 7 265K",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "integratedGraphics": {
+        "value": true,
+        "source": "https://www.intel.com/content/www/us/en/products/sku/241063/intel-core-ultra-7-processor-265k-30m-cache-up-to-5-50-ghz/specifications.html",
+        "publisher": "Intel",
+        "checked": "2026-10-13",
+        "model": "Core Ultra 7 265K",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "processorBasePower": {
+        "value": 125,
+        "source": "https://www.intel.com/content/www/us/en/products/sku/241063/intel-core-ultra-7-processor-265k-30m-cache-up-to-5-50-ghz/specifications.html",
+        "publisher": "Intel",
+        "checked": "2026-10-13",
+        "model": "Core Ultra 7 265K",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "maximumTurboPower": {
+        "value": 250,
+        "source": "https://www.intel.com/content/www/us/en/products/sku/241063/intel-core-ultra-7-processor-265k-30m-cache-up-to-5-50-ghz/specifications.html",
+        "publisher": "Intel",
+        "checked": "2026-10-13",
+        "model": "Core Ultra 7 265K",
+        "status": "manufacturer-specified",
+        "exact": true
+      }
+    },
+    "i714700k": {
+      "socket": {
+        "value": "LGA1700",
+        "source": "https://www.intel.com/content/www/us/en/products/sku/236783/intel-core-i7-processor-14700k-33m-cache-up-to-5-60-ghz/specifications.html",
+        "publisher": "Intel",
+        "checked": "2026-10-13",
+        "model": "Core i7-14700K",
+        "status": "manufacturer-specified",
+        "exact": true,
+        "sourceValue": "FCLGA1700",
+        "normalization": "Package prefix FC removed for comparison with board socket naming."
+      },
+      "ddr": {
+        "value": [
+          "DDR4",
+          "DDR5"
+        ],
+        "source": "https://www.intel.com/content/www/us/en/products/sku/236783/intel-core-i7-processor-14700k-33m-cache-up-to-5-60-ghz/specifications.html",
+        "publisher": "Intel",
+        "checked": "2026-10-13",
+        "model": "Core i7-14700K",
+        "status": "manufacturer-specified",
+        "exact": true,
+        "condition": "The motherboard selects the memory generation. This does not allow mixing DDR4 and DDR5."
+      },
+      "memoryMax": {
+        "value": 192,
+        "source": "https://www.intel.com/content/www/us/en/products/sku/236783/intel-core-i7-processor-14700k-33m-cache-up-to-5-60-ghz/specifications.html",
+        "publisher": "Intel",
+        "checked": "2026-10-13",
+        "model": "Core i7-14700K",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "integratedGraphics": {
+        "value": true,
+        "source": "https://www.intel.com/content/www/us/en/products/sku/236783/intel-core-i7-processor-14700k-33m-cache-up-to-5-60-ghz/specifications.html",
+        "publisher": "Intel",
+        "checked": "2026-10-13",
+        "model": "Core i7-14700K",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "processorBasePower": {
+        "value": 125,
+        "source": "https://www.intel.com/content/www/us/en/products/sku/236783/intel-core-i7-processor-14700k-33m-cache-up-to-5-60-ghz/specifications.html",
+        "publisher": "Intel",
+        "checked": "2026-10-13",
+        "model": "Core i7-14700K",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "maximumTurboPower": {
+        "value": 253,
+        "source": "https://www.intel.com/content/www/us/en/products/sku/236783/intel-core-i7-processor-14700k-33m-cache-up-to-5-60-ghz/specifications.html",
+        "publisher": "Intel",
+        "checked": "2026-10-13",
+        "model": "Core i7-14700K",
+        "status": "manufacturer-specified",
+        "exact": true
+      }
+    },
+    "b850tomahawk": {
+      "socket": {
+        "value": "AM5",
+        "source": "https://www.msi.com/Motherboard/MAG-B850-TOMAHAWK-MAX-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "MAG B850 TOMAHAWK MAX WIFI",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "ddr": {
+        "value": "DDR5",
+        "source": "https://www.msi.com/Motherboard/MAG-B850-TOMAHAWK-MAX-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "MAG B850 TOMAHAWK MAX WIFI",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "modules": {
+        "value": 4,
+        "source": "https://www.msi.com/Motherboard/MAG-B850-TOMAHAWK-MAX-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "MAG B850 TOMAHAWK MAX WIFI",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "memoryMax": {
+        "value": 256,
+        "source": "https://www.msi.com/Motherboard/MAG-B850-TOMAHAWK-MAX-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "MAG B850 TOMAHAWK MAX WIFI",
+        "status": "manufacturer-specified",
+        "exact": true,
+        "condition": "Published motherboard limit; CPU, firmware and memory population can impose additional limits."
+      },
+      "form": {
+        "value": "ATX",
+        "source": "https://www.msi.com/Motherboard/MAG-B850-TOMAHAWK-MAX-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "MAG B850 TOMAHAWK MAX WIFI",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "m2": {
+        "value": 4,
+        "source": "https://www.msi.com/Motherboard/MAG-B850-TOMAHAWK-MAX-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "MAG B850 TOMAHAWK MAX WIFI",
+        "status": "manufacturer-specified",
+        "exact": true,
+        "condition": "Nominal physical M.2 positions; exact slot, CPU and sharing restrictions require the manual."
+      },
+      "sata": {
+        "value": 4,
+        "source": "https://www.msi.com/Motherboard/MAG-B850-TOMAHAWK-MAX-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "MAG B850 TOMAHAWK MAX WIFI",
+        "status": "manufacturer-specified",
+        "exact": true
+      }
+    },
+    "c-board-msi-mag-b850-tomahawk-max-wifi": {
+      "socket": {
+        "value": "AM5",
+        "source": "https://www.msi.com/Motherboard/MAG-B850-TOMAHAWK-MAX-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "MAG B850 TOMAHAWK MAX WIFI",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "ddr": {
+        "value": "DDR5",
+        "source": "https://www.msi.com/Motherboard/MAG-B850-TOMAHAWK-MAX-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "MAG B850 TOMAHAWK MAX WIFI",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "modules": {
+        "value": 4,
+        "source": "https://www.msi.com/Motherboard/MAG-B850-TOMAHAWK-MAX-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "MAG B850 TOMAHAWK MAX WIFI",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "memoryMax": {
+        "value": 256,
+        "source": "https://www.msi.com/Motherboard/MAG-B850-TOMAHAWK-MAX-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "MAG B850 TOMAHAWK MAX WIFI",
+        "status": "manufacturer-specified",
+        "exact": true,
+        "condition": "Published motherboard limit; CPU, firmware and memory population can impose additional limits."
+      },
+      "form": {
+        "value": "ATX",
+        "source": "https://www.msi.com/Motherboard/MAG-B850-TOMAHAWK-MAX-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "MAG B850 TOMAHAWK MAX WIFI",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "m2": {
+        "value": 4,
+        "source": "https://www.msi.com/Motherboard/MAG-B850-TOMAHAWK-MAX-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "MAG B850 TOMAHAWK MAX WIFI",
+        "status": "manufacturer-specified",
+        "exact": true,
+        "condition": "Nominal physical M.2 positions; exact slot, CPU and sharing restrictions require the manual."
+      },
+      "sata": {
+        "value": 4,
+        "source": "https://www.msi.com/Motherboard/MAG-B850-TOMAHAWK-MAX-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "MAG B850 TOMAHAWK MAX WIFI",
+        "status": "manufacturer-specified",
+        "exact": true
+      }
+    },
+    "retail-msi-mag-b850-tomahawk-max-wifi": {
+      "socket": {
+        "value": "AM5",
+        "source": "https://www.msi.com/Motherboard/MAG-B850-TOMAHAWK-MAX-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "MAG B850 TOMAHAWK MAX WIFI",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "ddr": {
+        "value": "DDR5",
+        "source": "https://www.msi.com/Motherboard/MAG-B850-TOMAHAWK-MAX-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "MAG B850 TOMAHAWK MAX WIFI",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "modules": {
+        "value": 4,
+        "source": "https://www.msi.com/Motherboard/MAG-B850-TOMAHAWK-MAX-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "MAG B850 TOMAHAWK MAX WIFI",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "memoryMax": {
+        "value": 256,
+        "source": "https://www.msi.com/Motherboard/MAG-B850-TOMAHAWK-MAX-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "MAG B850 TOMAHAWK MAX WIFI",
+        "status": "manufacturer-specified",
+        "exact": true,
+        "condition": "Published motherboard limit; CPU, firmware and memory population can impose additional limits."
+      },
+      "form": {
+        "value": "ATX",
+        "source": "https://www.msi.com/Motherboard/MAG-B850-TOMAHAWK-MAX-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "MAG B850 TOMAHAWK MAX WIFI",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "m2": {
+        "value": 4,
+        "source": "https://www.msi.com/Motherboard/MAG-B850-TOMAHAWK-MAX-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "MAG B850 TOMAHAWK MAX WIFI",
+        "status": "manufacturer-specified",
+        "exact": true,
+        "condition": "Nominal physical M.2 positions; exact slot, CPU and sharing restrictions require the manual."
+      },
+      "sata": {
+        "value": 4,
+        "source": "https://www.msi.com/Motherboard/MAG-B850-TOMAHAWK-MAX-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "MAG B850 TOMAHAWK MAX WIFI",
+        "status": "manufacturer-specified",
+        "exact": true
+      }
+    },
+    "c-board-msi-mpg-x870e-carbon-wifi": {
+      "socket": {
+        "value": "AM5",
+        "source": "https://www.msi.com/Motherboard/MPG-X870E-CARBON-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "MPG X870E CARBON WIFI",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "ddr": {
+        "value": "DDR5",
+        "source": "https://www.msi.com/Motherboard/MPG-X870E-CARBON-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "MPG X870E CARBON WIFI",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "modules": {
+        "value": 4,
+        "source": "https://www.msi.com/Motherboard/MPG-X870E-CARBON-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "MPG X870E CARBON WIFI",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "memoryMax": {
+        "value": 256,
+        "source": "https://www.msi.com/Motherboard/MPG-X870E-CARBON-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "MPG X870E CARBON WIFI",
+        "status": "manufacturer-specified",
+        "exact": true,
+        "condition": "Published motherboard limit; CPU, firmware and memory population can impose additional limits."
+      },
+      "form": {
+        "value": "ATX",
+        "source": "https://www.msi.com/Motherboard/MPG-X870E-CARBON-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "MPG X870E CARBON WIFI",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "m2": {
+        "value": 4,
+        "source": "https://www.msi.com/Motherboard/MPG-X870E-CARBON-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "MPG X870E CARBON WIFI",
+        "status": "manufacturer-specified",
+        "exact": true,
+        "condition": "Nominal physical M.2 positions; exact slot, CPU and sharing restrictions require the manual."
+      },
+      "sata": {
+        "value": 4,
+        "source": "https://www.msi.com/Motherboard/MPG-X870E-CARBON-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "MPG X870E CARBON WIFI",
+        "status": "manufacturer-specified",
+        "exact": true
+      }
+    },
+    "retail-msi-mpg-x870e-carbon-wifi": {
+      "socket": {
+        "value": "AM5",
+        "source": "https://www.msi.com/Motherboard/MPG-X870E-CARBON-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "MPG X870E CARBON WIFI",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "ddr": {
+        "value": "DDR5",
+        "source": "https://www.msi.com/Motherboard/MPG-X870E-CARBON-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "MPG X870E CARBON WIFI",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "modules": {
+        "value": 4,
+        "source": "https://www.msi.com/Motherboard/MPG-X870E-CARBON-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "MPG X870E CARBON WIFI",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "memoryMax": {
+        "value": 256,
+        "source": "https://www.msi.com/Motherboard/MPG-X870E-CARBON-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "MPG X870E CARBON WIFI",
+        "status": "manufacturer-specified",
+        "exact": true,
+        "condition": "Published motherboard limit; CPU, firmware and memory population can impose additional limits."
+      },
+      "form": {
+        "value": "ATX",
+        "source": "https://www.msi.com/Motherboard/MPG-X870E-CARBON-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "MPG X870E CARBON WIFI",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "m2": {
+        "value": 4,
+        "source": "https://www.msi.com/Motherboard/MPG-X870E-CARBON-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "MPG X870E CARBON WIFI",
+        "status": "manufacturer-specified",
+        "exact": true,
+        "condition": "Nominal physical M.2 positions; exact slot, CPU and sharing restrictions require the manual."
+      },
+      "sata": {
+        "value": 4,
+        "source": "https://www.msi.com/Motherboard/MPG-X870E-CARBON-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "MPG X870E CARBON WIFI",
+        "status": "manufacturer-specified",
+        "exact": true
+      }
+    },
+    "retail-msi-pro-b650m-a-wifi": {
+      "socket": {
+        "value": "AM5",
+        "source": "https://www.msi.com/Motherboard/PRO-B650M-A-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "PRO B650M-A WIFI",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "ddr": {
+        "value": "DDR5",
+        "source": "https://www.msi.com/Motherboard/PRO-B650M-A-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "PRO B650M-A WIFI",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "modules": {
+        "value": 4,
+        "source": "https://www.msi.com/Motherboard/PRO-B650M-A-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "PRO B650M-A WIFI",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "memoryMax": {
+        "value": 256,
+        "source": "https://www.msi.com/Motherboard/PRO-B650M-A-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "PRO B650M-A WIFI",
+        "status": "manufacturer-specified",
+        "exact": true,
+        "condition": "Published motherboard limit; CPU, firmware and memory population can impose additional limits."
+      },
+      "form": {
+        "value": "MICRO-ATX",
+        "source": "https://www.msi.com/Motherboard/PRO-B650M-A-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "PRO B650M-A WIFI",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "m2": {
+        "value": 2,
+        "source": "https://www.msi.com/Motherboard/PRO-B650M-A-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "PRO B650M-A WIFI",
+        "status": "manufacturer-specified",
+        "exact": true,
+        "condition": "Nominal physical M.2 positions; exact slot, CPU and sharing restrictions require the manual."
+      },
+      "sata": {
+        "value": 4,
+        "source": "https://www.msi.com/Motherboard/PRO-B650M-A-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "PRO B650M-A WIFI",
+        "status": "manufacturer-specified",
+        "exact": true
+      }
+    },
+    "z790tomahawk": {
+      "ddr": {
+        "value": "DDR5",
+        "source": "https://www.msi.com/Motherboard/MAG-Z790-TOMAHAWK-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "MAG Z790 TOMAHAWK WIFI",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "modules": {
+        "value": 4,
+        "source": "https://www.msi.com/Motherboard/MAG-Z790-TOMAHAWK-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "MAG Z790 TOMAHAWK WIFI",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "memoryMax": {
+        "value": 256,
+        "source": "https://www.msi.com/Motherboard/MAG-Z790-TOMAHAWK-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "MAG Z790 TOMAHAWK WIFI",
+        "status": "manufacturer-specified",
+        "exact": true,
+        "condition": "Published motherboard limit; CPU, firmware and memory population can impose additional limits."
+      },
+      "form": {
+        "value": "ATX",
+        "source": "https://www.msi.com/Motherboard/MAG-Z790-TOMAHAWK-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "MAG Z790 TOMAHAWK WIFI",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "m2": {
+        "value": 4,
+        "source": "https://www.msi.com/Motherboard/MAG-Z790-TOMAHAWK-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "MAG Z790 TOMAHAWK WIFI",
+        "status": "manufacturer-specified",
+        "exact": true,
+        "condition": "Nominal physical M.2 positions; exact slot, CPU and sharing restrictions require the manual."
+      },
+      "sata": {
+        "value": 7,
+        "source": "https://www.msi.com/Motherboard/MAG-Z790-TOMAHAWK-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "MAG Z790 TOMAHAWK WIFI",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "socket": {
+        "value": "LGA1700",
+        "source": "https://storage-asset.msi.com/datasheet/mb/global/MAG-Z790-TOMAHAWK-WIFI.pdf",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "MAG Z790 TOMAHAWK WIFI",
+        "status": "manufacturer-specified",
+        "exact": true,
+        "sourceValue": "LGA 1700",
+        "normalization": "Whitespace removed from the printed socket label."
+      }
+    },
+    "c-board-msi-mag-z790-tomahawk-wifi": {
+      "ddr": {
+        "value": "DDR5",
+        "source": "https://www.msi.com/Motherboard/MAG-Z790-TOMAHAWK-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "MAG Z790 TOMAHAWK WIFI",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "modules": {
+        "value": 4,
+        "source": "https://www.msi.com/Motherboard/MAG-Z790-TOMAHAWK-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "MAG Z790 TOMAHAWK WIFI",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "memoryMax": {
+        "value": 256,
+        "source": "https://www.msi.com/Motherboard/MAG-Z790-TOMAHAWK-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "MAG Z790 TOMAHAWK WIFI",
+        "status": "manufacturer-specified",
+        "exact": true,
+        "condition": "Published motherboard limit; CPU, firmware and memory population can impose additional limits."
+      },
+      "form": {
+        "value": "ATX",
+        "source": "https://www.msi.com/Motherboard/MAG-Z790-TOMAHAWK-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "MAG Z790 TOMAHAWK WIFI",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "m2": {
+        "value": 4,
+        "source": "https://www.msi.com/Motherboard/MAG-Z790-TOMAHAWK-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "MAG Z790 TOMAHAWK WIFI",
+        "status": "manufacturer-specified",
+        "exact": true,
+        "condition": "Nominal physical M.2 positions; exact slot, CPU and sharing restrictions require the manual."
+      },
+      "sata": {
+        "value": 7,
+        "source": "https://www.msi.com/Motherboard/MAG-Z790-TOMAHAWK-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "MAG Z790 TOMAHAWK WIFI",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "socket": {
+        "value": "LGA1700",
+        "source": "https://storage-asset.msi.com/datasheet/mb/global/MAG-Z790-TOMAHAWK-WIFI.pdf",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "MAG Z790 TOMAHAWK WIFI",
+        "status": "manufacturer-specified",
+        "exact": true,
+        "sourceValue": "LGA 1700",
+        "normalization": "Whitespace removed from the printed socket label."
+      }
+    },
+    "retail-asus-rog-strix-b550-f-gaming-wi-fi": {
+      "socket": {
+        "value": "AM4",
+        "source": "https://rog.asus.com/us/motherboards/rog-strix/rog-strix-b550-f-gaming-wi-fi-model/spec/",
+        "publisher": "ASUS",
+        "checked": "2026-10-13",
+        "model": "ROG STRIX B550-F GAMING (WI-FI)",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "ddr": {
+        "value": "DDR4",
+        "source": "https://rog.asus.com/us/motherboards/rog-strix/rog-strix-b550-f-gaming-wi-fi-model/spec/",
+        "publisher": "ASUS",
+        "checked": "2026-10-13",
+        "model": "ROG STRIX B550-F GAMING (WI-FI)",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "modules": {
+        "value": 4,
+        "source": "https://rog.asus.com/us/motherboards/rog-strix/rog-strix-b550-f-gaming-wi-fi-model/spec/",
+        "publisher": "ASUS",
+        "checked": "2026-10-13",
+        "model": "ROG STRIX B550-F GAMING (WI-FI)",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "memoryMax": {
+        "value": 128,
+        "source": "https://rog.asus.com/us/motherboards/rog-strix/rog-strix-b550-f-gaming-wi-fi-model/spec/",
+        "publisher": "ASUS",
+        "checked": "2026-10-13",
+        "model": "ROG STRIX B550-F GAMING (WI-FI)",
+        "status": "manufacturer-specified",
+        "exact": true,
+        "condition": "Published motherboard limit; CPU, firmware and memory population can impose additional limits."
+      },
+      "form": {
+        "value": "ATX",
+        "source": "https://rog.asus.com/us/motherboards/rog-strix/rog-strix-b550-f-gaming-wi-fi-model/spec/",
+        "publisher": "ASUS",
+        "checked": "2026-10-13",
+        "model": "ROG STRIX B550-F GAMING (WI-FI)",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "m2": {
+        "value": 2,
+        "source": "https://rog.asus.com/us/motherboards/rog-strix/rog-strix-b550-f-gaming-wi-fi-model/spec/",
+        "publisher": "ASUS",
+        "checked": "2026-10-13",
+        "model": "ROG STRIX B550-F GAMING (WI-FI)",
+        "status": "manufacturer-specified",
+        "exact": true,
+        "condition": "Nominal physical M.2 positions; exact slot, CPU and sharing restrictions require the manual."
+      },
+      "sata": {
+        "value": 6,
+        "source": "https://rog.asus.com/us/motherboards/rog-strix/rog-strix-b550-f-gaming-wi-fi-model/spec/",
+        "publisher": "ASUS",
+        "checked": "2026-10-13",
+        "model": "ROG STRIX B550-F GAMING (WI-FI)",
         "status": "manufacturer-specified",
         "exact": true
       }

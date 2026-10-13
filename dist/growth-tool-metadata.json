@@ -1,0 +1,15 @@
+{
+  "version": "2026-10-13.1",
+  "newRoutes": [
+    "/tools/memory-timing-comparison/",
+    "/tools/storage-transfer-time/"
+  ],
+  "improvedRoutes": [
+    "/troubleshooting/",
+    "/tools/"
+  ],
+  "diagnosticNodes": 24,
+  "sourceCount": 7,
+  "localOnlyNotes": true,
+  "serverRequestsByTools": 0
+}

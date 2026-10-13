@@ -1,0 +1,314 @@
+{
+  "clientDate": "2026-10-13",
+  "updatedAt": "2026-10-13T20:13:02.642Z",
+  "tasks": [
+    {
+      "id": "G01",
+      "title": "Repository/live audit and baseline",
+      "dependencies": [],
+      "status": "verified",
+      "files": [
+        "scripts/growth-audit.cjs",
+        "docs/growth/baseline.json",
+        "docs/growth/site-audit.md"
+      ],
+      "evidence": [
+        "See source register, generated route and release test records"
+      ],
+      "tests": [
+        "check-growth-release.cjs and complete existing program/continuation suites"
+      ]
+    },
+    {
+      "id": "G02",
+      "title": "Official SEO/video research",
+      "dependencies": [
+        "G01"
+      ],
+      "status": "complete_with_transcript_limit",
+      "files": [
+        "docs/growth/seo-research.md",
+        "docs/growth/video-seo-research.md",
+        "docs/growth/source-register.json"
+      ],
+      "evidence": [
+        "34 official source records; 13 video metadata records; no watched-video/transcript claim"
+      ],
+      "tests": [
+        "check-growth-release.cjs and complete existing program/continuation suites"
+      ]
+    },
+    {
+      "id": "G03",
+      "title": "147 query candidates and 56-resource map",
+      "dependencies": [
+        "G02"
+      ],
+      "status": "qualitative_research_complete",
+      "files": [
+        "docs/growth/keyword-opportunities.csv",
+        "docs/growth/search-intent-map.md",
+        "docs/growth/editorial-plan.csv"
+      ],
+      "evidence": [
+        "147 distinct candidate queries; 29 individually searched; 118 inferred, no invented volume or rank"
+      ],
+      "tests": [
+        "check-growth-release.cjs and complete existing program/continuation suites"
+      ]
+    },
+    {
+      "id": "G04",
+      "title": "Primary navigation and homepage destinations",
+      "dependencies": [
+        "G01",
+        "G03"
+      ],
+      "status": "implemented_local_checks_passed_final_release_pending",
+      "files": [
+        "scripts/continuation-site.cjs",
+        "scripts/continuation-common.css",
+        "scripts/growth-site.cjs"
+      ],
+      "evidence": [
+        "See source register, generated route and release test records"
+      ],
+      "tests": [
+        "check-growth-release.cjs and complete existing program/continuation suites"
+      ]
+    },
+    {
+      "id": "G05",
+      "title": "Catalog pagination and exact source correction",
+      "dependencies": [
+        "G01"
+      ],
+      "status": "implemented_local_checks_passed_final_release_pending",
+      "files": [
+        "scripts/seo-launch.cjs",
+        "dist/data.js",
+        "docs/growth/hardware-corrections.json"
+      ],
+      "evidence": [
+        "See source register, generated route and release test records"
+      ],
+      "tests": [
+        "check-growth-release.cjs and complete existing program/continuation suites"
+      ]
+    },
+    {
+      "id": "G06",
+      "title": "Exact compatibility facts and standalone checker",
+      "dependencies": [
+        "G01"
+      ],
+      "status": "implemented_local_checks_passed_final_release_pending",
+      "files": [
+        "scripts/compatibility-evidence.cjs",
+        "scripts/growth-ui.js",
+        "scripts/growth-site.cjs"
+      ],
+      "evidence": [
+        "See source register, generated route and release test records"
+      ],
+      "tests": [
+        "test-growth-evidence.cjs: 14",
+        "actual browser documented socket match/conflict and visible empty-choice validation/focus"
+      ]
+    },
+    {
+      "id": "G07",
+      "title": "24-node diagnostic tree",
+      "dependencies": [
+        "G01"
+      ],
+      "status": "implemented_local_checks_passed_final_release_pending",
+      "files": [
+        "scripts/growth-tools.cjs",
+        "scripts/growth-tools.js",
+        "scripts/growth-tools.css"
+      ],
+      "evidence": [
+        "See source register, generated route and release test records"
+      ],
+      "tests": [
+        "test-growth-tools.cjs: 18",
+        "browser arithmetic and diagnostic local save/restore; export browser download declined"
+      ]
+    },
+    {
+      "id": "G08",
+      "title": "Timing and transfer calculators",
+      "dependencies": [
+        "G01"
+      ],
+      "status": "implemented_local_checks_passed_final_release_pending",
+      "files": [
+        "scripts/growth-tools.cjs",
+        "scripts/growth-tools.js"
+      ],
+      "evidence": [
+        "See source register, generated route and release test records"
+      ],
+      "tests": [
+        "test-growth-tools.cjs: 18",
+        "browser arithmetic and diagnostic local save/restore; export browser download declined"
+      ]
+    },
+    {
+      "id": "G09",
+      "title": "Performance evidence coverage",
+      "dependencies": [
+        "G01"
+      ],
+      "status": "implemented_local_checks_passed_final_release_pending",
+      "files": [
+        "scripts/growth-site.cjs",
+        "dist/performance/coverage/index.html"
+      ],
+      "evidence": [
+        "See source register, generated route and release test records"
+      ],
+      "tests": [
+        "check-growth-release.cjs and complete existing program/continuation suites"
+      ]
+    },
+    {
+      "id": "G10",
+      "title": "Original catalog coverage resource",
+      "dependencies": [
+        "G06"
+      ],
+      "status": "implemented_local_checks_passed_final_release_pending",
+      "files": [
+        "scripts/growth-site.cjs",
+        "dist/resources/hardware-evidence/index.html"
+      ],
+      "evidence": [
+        "See source register, generated route and release test records"
+      ],
+      "tests": [
+        "check-growth-release.cjs and complete existing program/continuation suites"
+      ]
+    },
+    {
+      "id": "G11",
+      "title": "Six complete editorial candidates",
+      "dependencies": [
+        "G03"
+      ],
+      "status": "human_publication_approval_pending",
+      "files": [
+        "scripts/growth-editorial-content.cjs",
+        "docs/growth/editorial/REVIEW-PACKET.md",
+        "docs/growth/editorial/source-records.json"
+      ],
+      "evidence": [
+        "Six full drafts; 5180 words; 14 inspected primary sources; publication approval pending"
+      ],
+      "tests": [
+        "test-growth-editorial.cjs: 8; no publication performed"
+      ]
+    },
+    {
+      "id": "G12",
+      "title": "Search, metadata, links and newsroom",
+      "dependencies": [
+        "G04",
+        "G05"
+      ],
+      "status": "implemented_local_checks_passed_final_release_pending",
+      "files": [
+        "scripts/growth-search.js",
+        "scripts/growth-search-core.cjs",
+        "scripts/news-sitemap-response.mjs",
+        "scripts/worker.mjs",
+        "scripts/continuation-editorial.cjs"
+      ],
+      "evidence": [
+        "See source register, generated route and release test records"
+      ],
+      "tests": [
+        "test-growth-search.cjs: 12",
+        "test-news-sitemap-response.mjs: 9",
+        "check-growth-worker.mjs: 9"
+      ]
+    },
+    {
+      "id": "G13",
+      "title": "CSS bytes and deferred model checks",
+      "dependencies": [
+        "G04"
+      ],
+      "status": "implemented_local_checks_passed_final_release_pending",
+      "files": [
+        "scripts/css-compact.cjs",
+        "docs/growth/after.json",
+        "docs/growth/qa/layout-checks.json"
+      ],
+      "evidence": [
+        "See source register, generated route and release test records"
+      ],
+      "tests": [
+        "test-css-compact.cjs: 12",
+        "seven unchanged route byte budgets",
+        "35 desktop/mobile DOM layout checks"
+      ]
+    },
+    {
+      "id": "G14",
+      "title": "Analytics hooks and distribution readiness",
+      "dependencies": [
+        "G01"
+      ],
+      "status": "adapter_activation_blocked",
+      "files": [
+        "dist/program-events.js",
+        "docs/growth/analytics-plan.md",
+        "docs/growth/90-day-plan.md",
+        "docs/growth/distribution-drafts.md"
+      ],
+      "evidence": [
+        "Disabled consent-gated adapter; no analytics/source/email account activation"
+      ],
+      "tests": [
+        "check-growth-release.cjs and complete existing program/continuation suites"
+      ]
+    },
+    {
+      "id": "G15",
+      "title": "Full tests, desktop/mobile QA and deployment",
+      "dependencies": [
+        "G04",
+        "G05",
+        "G06",
+        "G07",
+        "G08",
+        "G09",
+        "G10",
+        "G12",
+        "G13"
+      ],
+      "status": "local_release_gates_passed_deployment_pending",
+      "files": [
+        "scripts/check-growth-release.cjs",
+        "scripts/check-growth-worker.mjs",
+        "scripts/verify-live-growth.cjs",
+        "docs/growth/test-run.json"
+      ],
+      "evidence": [
+        "See source register, generated route and release test records"
+      ],
+      "tests": [
+        "check-growth-release.cjs and complete existing program/continuation suites"
+      ]
+    }
+  ],
+  "externalBlockers": [
+    "No retailer source account/storage/schedule",
+    "No Search Console/analytics/keyword account",
+    "No permitted measured PC game dataset",
+    "No newly claimed personal editorial review",
+    "No 10-15 accessible video transcripts;13 metadata records inspected"
+  ]
+}

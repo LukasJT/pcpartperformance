@@ -1,0 +1,142 @@
+{
+  "samsung-990": {
+    "publisher": "Samsung",
+    "title": "990 PRO 1 TB specifications",
+    "url": "https://www.samsung.com/ca/memory-storage/nvme-ssd/990-pro-1tb-nvme-pcie-gen-4-mz-v9p1t0b-am/",
+    "scope": "Exact 1 TB model; sequential read/write figures and performance qualifications.",
+    "limitations": "Manufacturer specifications, not site-owned transfer measurements.",
+    "inspected": "2026-10-13",
+    "access": "Official public source text inspected",
+    "rights": "Citation and original paraphrase; no copied images, benchmark tables or datasets."
+  },
+  "samsung-datasheet": {
+    "publisher": "Samsung",
+    "title": "990 PRO datasheet, revision 1.0",
+    "url": "https://download.semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_990_PRO_Datasheet_Rev.1.0_10129514072296.pdf",
+    "scope": "PDF test conditions, secondary-drive testing and TurboWrite qualifications.",
+    "limitations": "Describes its stated 1 TB/2 TB models and test configuration, not every future revision or real copy job.",
+    "inspected": "2026-10-13",
+    "access": "Official public source text inspected",
+    "rights": "Citation and original paraphrase; no copied images, benchmark tables or datasets."
+  },
+  "msi-boot": {
+    "publisher": "MSI",
+    "title": "No power or no display after booting",
+    "url": "https://www.msi.com/support/technical_details/MB_Boot_No_Display",
+    "scope": "External display, CPU-support, memory and EZ Debug troubleshooting.",
+    "limitations": "Generic manufacturer guidance must be checked against the exact board manual.",
+    "inspected": "2026-10-13",
+    "access": "Official public source text inspected",
+    "rights": "Citation and original paraphrase; no copied images, benchmark tables or datasets."
+  },
+  "asus-led": {
+    "publisher": "ASUS",
+    "title": "Motherboard troubleshooting via Q-LED indicators",
+    "url": "https://www.asus.com/support/faq/1042678/",
+    "scope": "Persistent CPU/DRAM/VGA/BOOT indicators and the corresponding investigation paths.",
+    "limitations": "Indicator support and behavior vary by board; no component was diagnosed by this site.",
+    "inspected": "2026-10-13",
+    "access": "Official public source text inspected",
+    "rights": "Citation and original paraphrase; no copied images, benchmark tables or datasets."
+  },
+  "corsair-qvl": {
+    "publisher": "CORSAIR",
+    "title": "What is a QVL? Will my RAM work if it is not on the QVL?",
+    "url": "https://www.corsair.com/uk/en/explorer/diy-builder/memory/what-is-a-qvl-will-my-ram-work-if-it-isnt-on-the-qvl/",
+    "scope": "A tested list is limited; unlisted kits can still be compatible.",
+    "limitations": "Manufacturer advice is not a universal guarantee for an unlisted configuration.",
+    "inspected": "2026-10-13",
+    "access": "Official public source text inspected",
+    "rights": "Citation and original paraphrase; no copied images, benchmark tables or datasets."
+  },
+  "asus-qvl": {
+    "publisher": "ASUS",
+    "title": "How to query the CPU and memory QVL",
+    "url": "https://www.asus.com/us/support/faq/1043883/",
+    "scope": "Exact board, kit part-number lookup and QVL field filters.",
+    "limitations": "A search result must match the applicable CPU/platform and installation conditions.",
+    "inspected": "2026-10-13",
+    "access": "Official public source text inspected",
+    "rights": "Citation and original paraphrase; no copied images, benchmark tables or datasets."
+  },
+  "amd-expo": {
+    "publisher": "AMD",
+    "title": "EXPO technology for AM5 processors",
+    "url": "https://www.amd.com/en/products/processors/technologies/expo.html",
+    "scope": "EXPO is an overclocking memory profile technology.",
+    "limitations": "Profile support does not certify every CPU, board, kit and module-count combination.",
+    "inspected": "2026-10-13",
+    "access": "Official public source text inspected",
+    "rights": "Citation and original paraphrase; no copied images, benchmark tables or datasets."
+  },
+  "corsair-timings": {
+    "publisher": "CORSAIR",
+    "title": "CAS latency and DDR5 timings explained",
+    "url": "https://www.corsair.com/uk/en/explorer/diy-builder/memory/what-is-cas-latency-ddr5-latencies-explained/",
+    "scope": "Cycles, transfer-rate context and the roles of CL, tRCD and tRP.",
+    "limitations": "Use definitions, not the article’s broad best-performance marketing as a universal buying recommendation.",
+    "inspected": "2026-10-13",
+    "access": "Official public source text inspected",
+    "rights": "Citation and original paraphrase; no copied images, benchmark tables or datasets."
+  },
+  "kingston-decoder": {
+    "publisher": "Kingston",
+    "title": "Memory part-number decoder",
+    "url": "https://www.kingston.com/en/memory/memory-part-number-decoder",
+    "scope": "Part-number fields include type, capacity, kit size, speed and latency, with revision details for applicable families.",
+    "limitations": "Field meanings are product-family specific; do not apply one naming scheme to every brand.",
+    "inspected": "2026-10-13",
+    "access": "Official public source text inspected",
+    "rights": "Citation and original paraphrase; no copied images, benchmark tables or datasets."
+  },
+  "windows-refresh": {
+    "publisher": "Microsoft",
+    "title": "Change monitor refresh rate in Windows",
+    "url": "https://support.microsoft.com/en-us/windows/hardware/display-graphics/change-the-refresh-rate-on-your-monitor-in-windows",
+    "scope": "Advanced Display, selected monitor and supported resolution/refresh combinations.",
+    "limitations": "A selected refresh rate is not measured game FPS or end-to-end latency.",
+    "inspected": "2026-10-13",
+    "access": "Official public source text inspected",
+    "rights": "Citation and original paraphrase; no copied images, benchmark tables or datasets."
+  },
+  "vesa-cables": {
+    "publisher": "VESA / DisplayPort",
+    "title": "Choose a DisplayPort cable",
+    "url": "https://www.displayport.org/how-to-choose-a-displayport-cable-and-not-get-a-bad-one/",
+    "scope": "Connector matching and cable-certification considerations.",
+    "limitations": "The article contains older link-rate examples; no universal current maximum-mode claim is taken from it.",
+    "inspected": "2026-10-13",
+    "access": "Official public source text inspected",
+    "rights": "Citation and original paraphrase; no copied images, benchmark tables or datasets."
+  },
+  "msi-5070": {
+    "publisher": "MSI",
+    "title": "GeForce RTX 5070 12G VENTUS 3X OC datasheet",
+    "url": "https://storage-asset.msi.com/datasheet/vga/id/GeForce-RTX-5070-12G-VENTUS-3X-OC.pdf",
+    "scope": "G5070-12V3C; dimensions 302 × 121 × 49 mm, 16-pin connection and output ports.",
+    "limitations": "Dimensions are manufacturer specifications, not a site measurement or proof of complete case clearance.",
+    "inspected": "2026-10-13",
+    "access": "Official public source text inspected",
+    "rights": "Citation and original paraphrase; no copied images, benchmark tables or datasets."
+  },
+  "asus-5070": {
+    "publisher": "ASUS",
+    "title": "PRIME-RTX5070-O12G technical specifications",
+    "url": "https://www.asus.com/motherboards-components/graphics-cards/prime/prime-rtx5070-o12g/techspec/",
+    "scope": "Exact OC model; dimensions 304 × 126 × 50 mm and 2.5-slot designation.",
+    "limitations": "Do not apply this model’s dimensions to white, non-OC, Ti or other partner variants.",
+    "inspected": "2026-10-13",
+    "access": "Official public source text inspected",
+    "rights": "Citation and original paraphrase; no copied images, benchmark tables or datasets."
+  },
+  "north-sheet": {
+    "publisher": "Fractal Design",
+    "title": "Original North English product sheet",
+    "url": "https://www.fractal-design.com/app/uploads/2022/12/North_Product-Sheet_EN.pdf",
+    "scope": "Original North case: 355 mm GPU allowance with front fan; 300 mm with front 360 mm radiator.",
+    "limitations": "Exclude North XL and other editions; this is a conditional length check, not full fit certification.",
+    "inspected": "2026-10-13",
+    "access": "Official public source text inspected",
+    "rights": "Citation and original paraphrase; no copied images, benchmark tables or datasets."
+  }
+}

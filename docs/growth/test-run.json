@@ -1,0 +1,174 @@
+{
+  "checkedAt": "2026-10-13T20:07:51.722Z",
+  "scope": "Actual growth and full existing program/continuation commands. Browser tests recorded separately.",
+  "runs": [
+    {
+      "command": "node scripts/test-growth-tools.cjs",
+      "status": 0,
+      "output": "PASS DDR CAS arithmetic compares absolute timing instead of just cycle counts\nPASS different transfer rates can give equal CAS intervals\nPASS unknown or invalid timings never become zero or a performance verdict\nPASS copy-time example is 1000 seconds plus the deliberate allowance\nPASS bit and byte rates differ by a factor of eight\nPASS binary and decimal inputs retain their explicit definitions\nPASS zero data is valid but unknown, negative and zero throughput are not\nPASS every diagnostic target and source exists and each branch can reach an outcome\nPASS no-display branch records observations, supports back and never declares a failed GPU\nPASS data-bearing or uncertain drives take the preservation branch\nPASS new-empty-drive setup and persistent-light checks remain separate\nPASS saved paths are replay-validated and reject wrong versions, injected steps and nonexistent answers\nPASS export preserves bounded local notes without fetching URLs or executing their content\nPASS node HTML renders actual options, evidence and outcome semantics\nPASS browser bundle can load in a limited document and does not issue network requests\nPASS generator extends existing routes, preserves legacy checks and is repeatable\nPASS diagnostic records reject inherited keys instead of treating them as real nodes\nPASS sub-rounding timing differences never show a zero directional advantage\n18 growth tool tests passed.\n",
+      "errors": ""
+    },
+    {
+      "command": "node scripts/test-growth-evidence.cjs",
+      "status": 0,
+      "output": "PASS all new verified facts attach only to actual existing exact model identities\nPASS original verification dates and model-scoped facts are not mass redated\nPASS B850 MAX and X870E CARBON use the inspected AM5 table rather than an unrelated legacy block\nPASS PRO B650M-A WIFI retains exact micro-ATX form and nominal storage limits\nPASS Z790 socket uses the exact datasheet and its DDR5 facts do not leak to DDR4 or MAX models\nPASS original ASUS B550-F Wi-Fi facts do not transfer to Wi-Fi II or non-Wi-Fi\nPASS a documented socket match is useful but BIOS and memory profile support remain unresolved\nPASS AM4/AM5 and LGA1700/LGA1851 conflicts are evidence-driven instead of generation guesses\nPASS the CPU capacity limit can be lower than a verified board limit\nPASS documented absence of CPU graphics is a display-path conflict, not unknown or a defective CPU\nPASS Intel socket labels normalize FC prefixes but retain source values and separately named power\nPASS partial manual or inherited fields remain unverified when source or exactness is missing\nPASS source-specific evidence works in the browser engine and legacy build revisions stay compatible\nPASS correction record states what changed and preserves distinct exact identities\n14 growth evidence tests passed.\n",
+      "errors": ""
+    },
+    {
+      "command": "node scripts/test-growth-editorial.cjs",
+      "status": 0,
+      "output": "PASS Six substantial drafts remain unreviewed and unpublished\nPASS Four revision candidates preserve existing draft identities and canonicals\nPASS Normal generation adds no public article or review route\nPASS Local preview renders the complete text, source links and noindex on seven pages\nPASS Draft rendering escapes prose and headings instead of executing imported HTML\nPASS Production after preview removes only owned review files and keeps existing articles\nPASS Review packet and manifest pin full text and current source evidence without review claims\nPASS Every proposed tool action exists in the current generated site\nGrowth editorial: 8 checks passed. No publication or central build performed.\n",
+      "errors": ""
+    },
+    {
+      "command": "node scripts/test-growth-search.cjs",
+      "status": 0,
+      "output": "12 compact-model, synonym, token order, result type and safe-link search checks passed.\n",
+      "errors": ""
+    },
+    {
+      "command": "node scripts/test-css-compact.cjs",
+      "status": 0,
+      "output": "12 CSS string, selector, comment boundary, calc, custom-property and invalid-input checks passed.\n",
+      "errors": ""
+    },
+    {
+      "command": "node scripts/test-news-sitemap-response.mjs",
+      "status": 0,
+      "output": "9 runtime news-sitemap publication, escaping, aging and entry-limit checks passed.\n",
+      "errors": ""
+    },
+    {
+      "command": "node scripts/check-growth-worker.mjs",
+      "status": 0,
+      "output": "9 real Worker news-sitemap GET, HEAD, cache, query and method checks passed. No network or source activation.\n",
+      "errors": ""
+    },
+    {
+      "command": "node scripts/check-growth-release.cjs",
+      "status": 0,
+      "output": "PASS four real destinations have canonical readable HTML and enter discovery\nPASS retired pagination is a single permanent redirect to current real page\nPASS shared primary navigation and direct mobile destinations are preserved\nPASS homepage keeps its real hardware feature and removes redundant calculator cards\nPASS coverage totals are original aggregates of the actual catalog\nPASS compatibility models are loaded on demand and use the shared evidence engine\nPASS performance coverage cannot turn empty PC measurements into claimed results\nPASS new calculators are source-linked, scoped and keep optional inputs unknown\nPASS diagnostic notes require explicit local consent and are excluded from events\nPASS search route and arbitrary query states stay noindex while exact pages remain crawlable\nPASS six unapproved candidates do not leak into production HTML or sitemap\nPASS human-readable newsroom dates keep real original machine timestamps\nPASS production is not accidentally staging and local measurement helper stays private\n13 growth release integration checks passed.\n",
+      "errors": ""
+    },
+    {
+      "command": "node scripts/check-program.cjs",
+      "status": 0,
+      "output": "PASS parts parsing bounds inputs, refuses URL fetches and requires exact-match confirmation\nPASS manual fit preserves unknowns and limits a pass to the entered dimensions\nPASS display intervals do not invent an observed FPS or latency\nPASS benchmarks require exact conditions and permission; no automatic averaging or lows\nPASS preferred host and extension normalization use a single redirect\nPASS reversed curated comparisons consolidate; invalid combinations are errors\nPASS explicit interactive comparisons retain editable selection without an editorial redirect\nPASS query indexing, draft protection and actual missing routes are deliberate\nPASS optional analytics requires a real consented adapter and excludes private parameters\nPASS generated staging has honest FPS metadata and no measured dataset claim\nPASS tools, canonical pages, navigation and controlled errors are generated\nPASS unreviewed drafts have no publication claims, feed entries or sitemap discovery\nPASS complete editorial source/review records pass validation\n13 program tests passed.\n",
+      "errors": ""
+    },
+    {
+      "command": "node scripts/check-builder-program.cjs",
+      "status": 0,
+      "output": "PASS an empty build has missing selections, not false confirmed conflicts\nPASS a researched socket match passes only the narrow check; BIOS stays unresolved\nPASS an inherited catalog number and shared family text are not verification\nPASS exact documented mismatch is a conflict\nPASS GPU nominal length match never proves overall fit or 3D accuracy\nPASS module population and multiple processors respect documented limits\nPASS unknown quantities remain missing instead of becoming zero prices\nPASS offer region, exact stock, future dates and expiration are enforced\nPASS ID migration is idempotent and distinct partner variants survive\nPASS share links preserve exact selections, ownership and safe plan values\nPASS local storage failures retain a working exportable state\nPASS revision comparison checks actual IDs and ownership changes\nPASS duplicate imported revision IDs are separated without losing either exact build\nPASS the same engine loads as a browser global without Node dependencies\nPASS the expert bridge validates IDs, respects locks and exports stable state\nBuilder program: guided planning, source-linked readiness, local revisions and explicit quote worksheet prepared.\nBuilder program: guided planning, source-linked readiness, local revisions and explicit quote worksheet prepared.\nPASS static generation is scoped and idempotent, with source and method visible in HTML\nPASS picker filtering uses documented conflicts and keeps inherited unknowns selectable\nPASS expert candidate filtering shares the readiness engine and invalidates its cache after a swap\n18 builder program behavior tests passed.\n",
+      "errors": ""
+    },
+    {
+      "command": "node scripts/check-product-program.cjs",
+      "status": 0,
+      "output": "PASS Real catalog keeps explicit IDs and unresolved named duplicates\nPASS Name equality and machine review cannot silently alias\nPASS Reviewed exact aliases migrate without losing quantities, slots, unknowns or notes\nPASS Alias chains are idempotent and cycles are rejected\nPASS SKU, revision, region, manufacturer and memory conflicts block aliases\nPASS Twenty scoped product profiles have traceable original sources and truthful review state\nPASS Readable panels escape supplied text and preserve exact builder positions\nProduct program: 20/20 source-checked staging panels; 0 approved aliases; 24 name-match groups held for exact-identity review.\nProduct program: 20/20 source-checked staging panels; 0 approved aliases; 24 name-match groups held for exact-identity review.\nPASS Preview build renders 20 panels, review flags and source JSON without duplicate output\nProduct program: 0/20 source-checked staging panels; 0 approved aliases; 24 name-match groups held for exact-identity review.\nPASS Normal mode does not publish unreviewed product panels and missing IDs fail clearly\n9 meaningful product identity, source, migration and template checks passed.\n",
+      "errors": ""
+    },
+    {
+      "command": "node scripts/check-program-offers.cjs",
+      "status": 0,
+      "output": "PASS unknown price and stock remain null; no type coercion creates a price\nPASS only current sourced exact in-stock regional observations qualify\nPASS TTL cannot be relaxed beyond 15 minutes and explicit shorter expiry wins\nPASS stock evidence and preorder states never become available inventory\nPASS later out-of-stock observations supersede earlier cheap snapshots\nPASS identical observations deduplicate, conflicting duplicates are rejected\nPASS tax/shipping basis is explicit and different bases are not ranked together\nPASS history contains actual points, expired observations, stock states and gaps only\nPASS fair-deal comparison is exact-region arithmetic without a deal rating\nPASS retained builds use actual saved observations, quantities and ownership\nPASS changes never compare different currencies or unknown historical charge bases\nPASS record limits and invalid build inputs fail explicitly rather than truncating\nPASS UMD browser policy runs without network or Node dependencies\nPASS legacy checked-price rows cannot silently become current exact stock evidence\n14 offer policy behavior tests passed.\n",
+      "errors": ""
+    },
+    {
+      "command": "node scripts/check-upgrade-program.cjs",
+      "status": 0,
+      "output": "PASS the source loads validated choices and preserves the chosen region\nPASS malformed or duplicate catalogs leave the planning state unavailable\nPASS exact alternatives recheck evidence without replacing the current phase\nPASS a phased swap refreshes current readiness and shares the exact state\nPASS changed inventory blocks stale comparison, share and export until regeneration\nPASS parsed selections require a confirmation and invalidate a prior plan\nPASS export keeps exact phases and a numeric budget, excluding free-form notes\nPASS phase count is bounded with explicit feedback\n8 upgrade source-behavior tests passed. These are VM behavior tests, not browser or visual QA.\n",
+      "errors": ""
+    },
+    {
+      "command": "node scripts/check-program-worker.cjs",
+      "status": 0,
+      "output": "PASS canonical directories serve the actual index asset without another redirect\nPASS product HTML and extensionless alias use one explicit redirect\nPASS missing routes, direct error page and encoded separators retain correct error status\nPASS assets and HEAD work; state changes are refused\nPASS query states have noindex and no-store; canonical page policy follows build mode\nPASS asset host automatic HTML redirects are disabled when the Worker owns routing\n6 Worker adapter checks passed.\n",
+      "errors": ""
+    },
+    {
+      "command": "node scripts/check-program-release.cjs",
+      "status": 0,
+      "output": "PASS normal generation restores 13 existing pages, withholds 27 new draft routes and removes staging exclusions\n{\n  date: '2026-10-09',\n  mode: 'production-generation',\n  retainedExistingPages: 13,\n  withheldNewDrafts: 27,\n  drafts: 0,\n  checks: [\n    'human review/draft gate',\n    'staging meta leakage',\n    'existing pages retained',\n    'PC-only initial catalog',\n    'no fabricated Product offers or ratings',\n    'strict shared shopping offer gate'\n  ],\n  deployed: false\n}\n",
+      "errors": ""
+    },
+    {
+      "command": "node scripts/check-program-refresh.cjs",
+      "status": 0,
+      "output": "Offline refresh impact, expired offers, input bounds and no-side-effect gates passed.\n",
+      "errors": ""
+    },
+    {
+      "command": "node scripts/check-program-offer-sources.cjs",
+      "status": 0,
+      "output": "PASS Default durable sources are empty and explicitly unconfigured\nPASS Approved exact records produce public data without private reviews or permission documents\nPASS Stable catalog IDs do not resolve by matching names or partner aliases\nPASS Exact SKU, memory capacity, revision and partner variant are mandatory and isolated\nPASS Source access, redistribution, merchant and origin scope require reviewed permission\nPASS Bounded schema rejects extra fields, credentials, invalid prices and oversized lists\nPASS Dates, review order, exact currency and stock evidence are validated without coercion\nPASS Expired reviewed observations remain history and never become current through regeneration\nPASS Later unavailability supersedes old prices and charge unknowns never rank\nPASS Duplicate observations deduplicate deterministically and conflicts fail closed\nPASS Inherited legacy snapshots cannot enter the approved source schema or history\nPASS Read-only CLI validates; prepare copies public data without rewriting source records\nPASS JSON byte bound and invalid CLI flags fail explicitly\n13 durable offer source tests passed. No external requests or real permission/price records created.\n",
+      "errors": ""
+    },
+    {
+      "command": "node scripts/program-editorial-review.cjs self-test",
+      "status": 0,
+      "output": "{\n  \"passed\": true,\n  \"tests\": 20,\n  \"scope\": \"Synthetic fixtures only; no real human approval or publication\",\n  \"outcomes\": [\n    \"Matching explicit human fixture decision is eligible without publishing\",\n    \"Missing decision keeps the draft and source route intact\",\n    \"Edited body invalidates the content hash\",\n    \"Changed source applicability invalidates prior review\",\n    \"Stale editorial version stays a draft\",\n    \"Missing named human reviewer cannot approve\",\n    \"Automated decision and reviewer declarations cannot approve\",\n    \"Missing truthful byline decision cannot approve\",\n    \"Future, impossible and before-evidence dates cannot approve\",\n    \"Pure resolver requires an explicit clock context\",\n    \"Bare resolved flags cannot approve empty priced-BOM arrays\",\n    \"Pinned price blockers cannot be deleted from article flags\",\n    \"Populated exact synthetic BOM/offer evidence is structurally usable\",\n    \"Expired, wrong-currency and wrong-variant offers remain blocked\",\n    \"Reject and revision decisions do not publish\",\n    \"Ambiguous duplicate/unknown registry decisions fail closed\",\n    \"Stable hash ignores object key order and workflow status\",\n    \"Forged publishable resolution is not an approval input\",\n    \"Approved revision renderer is explicit, undated and avoids withheld links\",\n    \"Actual default registry approves zero real articles\"\n  ]\n}\n",
+      "errors": ""
+    },
+    {
+      "command": "node scripts/check-program-retention.cjs",
+      "status": 0,
+      "output": "PASS product save uses the existing ID store and one movable button\nPASS legacy watchlist imports safe IDs once and retains its reversible backup\nPASS oversized legacy lists are retained without silently dropping current IDs\nPASS disabled storage reports failure rather than pretending a save succeeded\nPASS invalid persisted identifiers do not become product selectors or export entries\nPASS unresolved saved IDs remain visible, removable and exportable\nPASS watchlist export contains IDs and limits, not private build notes or emails\nPASS a failed index request does not erase local saved data\n8 saved-item behavior tests passed. Synthetic local fixtures only.\n",
+      "errors": ""
+    },
+    {
+      "command": "node scripts/check-console-evidence.cjs",
+      "status": 0,
+      "output": "PASS covers all 45 actual console records with no duplicate, missing or extra keys\nPASS unknown records contain no numerical modes or inherited legacy FPS\nPASS lookup is exact; no PS5 to PS5 Pro, Xbox or Switch to Switch 2 extrapolation\nPASS input validation rejects compound delimiter tricks and never uses prototype keys\nPASS every numerical mode has inspected evidence, correct classification and scope\nPASS PS4 Pro performance is unlocked from 30, not a fabricated 60 FPS target\nPASS God of War PS5 HFR and Pro are distinct and do not promise 120 FPS\nPASS Forza Series S quality corrects 1440p to 1080p; performance pixels stay unknown\nPASS Sea of Thieves output Hz does not become FPS; no Series S 120 mode\nPASS Switch resolution documentation is preserved without adding an unsupported FPS\nPASS Switch Lite receives neither TV-mode nor untested Switch observations\nPASS Mario Kart distinguishes two-player from three/four-player observations and editions\nPASS Galaxy Wii evidence comes from the original developers, not the 2025 remaster\nPASS Minecraft PC listing cannot establish console or upcoming native-release performance\nPASS Skyrim retains historical FPS Boost context without 60+ or shared 4K claim\nPASS lookup and source mutations cannot poison later visitors or global audit data\nPASS safe formatting retains unknowns rather than accepting absent source, invalid FPS or unknown metric\nPASS UMD runs in a browser without Node imports, network calls or legacy dataset dependency\nPASS persisted audit covers the same exact keys and does not leak legacy claims into the module\nConsole evidence checks: 19 passed.\n",
+      "errors": ""
+    },
+    {
+      "command": "node scripts/check-shopping-program.cjs",
+      "status": 0,
+      "output": "PASS shopping consumes reviewed observation history, not inherited prices.json\nPASS exact variant mismatch and newer out-of-stock evidence cannot become a buying quote\nPASS prices expire while a page stays open without fetching or promoting old observations\nPASS network failure preserves clearly labeled retailer searches without invented price or stock\n4 shopping integration tests passed. Synthetic records; no merchant requests.\n",
+      "errors": ""
+    },
+    {
+      "command": "node scripts/check-continuation.cjs",
+      "status": 0,
+      "output": "PASS major destinations use one shared navigation and both country choices\nPASS every registered phone has a usable canonical record and route\nPASS new model cohort has exact credited assets, explicit facts and visible renders\nPASS phone workspaces share three modes without eager 3D code\nPASS prebuilt cohort preserves unknown prices, seller/region and exact listings\nPASS reviews use inspected originals, declared scope and opt-in players\nPASS normal production includes owner-authorized exact articles and excludes remaining drafts\nPASS morning service remains disabled with source secrets kept out of assets\nPASS production marker and metadata are consistent\n9 continuation integration checks passed.\n",
+      "errors": ""
+    },
+    {
+      "command": "node scripts/check-continuation-client.cjs",
+      "status": 0,
+      "output": "PASS generated prebuilt markup initializes the actual browser controller\nPASS prebuilt country, case-insensitive search and GPU filters intersect and reset\nPASS shortlist selects up to three, supports removal, saves and restores exact IDs\nPASS selected systems render real specification columns and unknown values stay explicit\nPASS blank, whitespace and invalid required costs never become known zero totals\nPASS complete explicit quotes calculate exact totals, zero, equality and USD/CAD labels\nPASS country switches preserve separate unsaved and saved CAD/USD quote sets\nPASS unavailable storage preserves interactive filtering and truthful save failure messages\nPASS catalog network failure leaves quote calculation usable with a visible error\nPASS disabled, unconfigured and failed daily checks display no price rows\nPASS malformed, stale, wrong country/currency and stock missing observations never display a price\nPASS daily subtotal multiplies repeated exact parts and excludes owned parts\nPASS toggling an owned part updates the displayed purchase subtotal and price rows\nPASS daily rows retain the exact provided link, approved logo, seller and checked price basis\nPASS wrong SKU/direct link and unapproved logo URLs cannot display prices\nPASS exact SKU direct links and reviewed local asset paths supported by the service remain usable\nPASS missing exact SKU/model/seller and contradictory stock cannot render a daily checked price\nPASS contradictory or missing merchant and source attribution cannot present a first-party Best Buy price\nPASS lowest exact eligible item price is used and complete purchase count is explicit\nPASS changing country retries the regional API after a regional not-configured response\nPASS returning to a cached unavailable country clears the previous country price rows\nPASS previous-country price rows are removed while a changed-country request is pending\nPASS an open page refreshes at the observation expiry and removes an expired snapshot\nPASS an expired snapshot is removed while its refresh request remains pending\nPASS an API request aborts after eight seconds with a clear unavailable state and no prices\nPASS an older slow response cannot replace a newer build selection\nPASS prebuilt exact ID uses prices API; an empty builder requests status without inventing parts\nPASS Worker API endpoints return the disabled contract before asset routing and reject unsafe requests\nPASS Worker keeps existing canonical asset and redirect behavior\nPASS Worker scheduled handler awaits the gated service without provider access or activation\n30 passed, 0 failed continuation client checks.\n",
+      "errors": ""
+    },
+    {
+      "command": "node scripts/check-builder-workspace.cjs",
+      "status": 0,
+      "output": "PASS category choices exclude unavailable options and keep exact partner identities\nPASS multiple brand filters use OR; series and 3D availability then intersect\nPASS search finds capacities, SKU and punctuation without merging adjacent models\nPASS resetting filters restores choices and an empty category is a valid choice\nPASS relevant series filters derive from indexed names and formats\nPASS a photo from another partner model or capacity falls back to a category icon\nPASS empty summaries remain empty, quantities count, and unknown IDs do not appear selected\nPASS the browser modules expose helpers without selecting or restoring a build\nPASS mount keeps server-placed preview and readiness in position\nBuilder program: guided planning, source-linked readiness, local revisions and explicit quote worksheet prepared.\nBuilder program: guided planning, source-linked readiness, local revisions and explicit quote worksheet prepared.\nPASS scoped generation keeps build controls and emits source assets once\n10 builder workspace behavior checks passed.\n",
+      "errors": ""
+    },
+    {
+      "command": "node scripts/check-morning-prices.mjs",
+      "status": 0,
+      "output": "PASS empty reviewed registry cannot request data or activate a schedule\nPASS human source and exact target approvals, retention and credentials gate collection\nPASS feature disabled by default, dry run bounds provider request counts and exposes no secret\nPASS approved logo is mandatory and restricted to the documented official asset or approved repository path\nPASS Toronto date and seven oclock guard choose one DST candidate, including transitions\nPASS provider validation rejects wrong model, SKU, currency, seller, condition, stock and timestamps\nPASS successful run stores durable history and truthful daily checked response and health\nPASS parallel scheduled triggers lease the same date/source once, successful reruns are idempotent\nPASS partial and failed checks never advance last successful timestamp, and backoff bounds retries\nPASS failed daily runs can recover under their lease, with at most three attempts per date\nPASS expired run cannot overwrite a replacement lease, observations or source health\nPASS D1 batch failure rolls back observations and never records a successful check\nPASS upstream transient failures have exactly one retry and only the fixed official endpoint\nPASS timeout is bounded to eight seconds in production and retries once with sanitized health\nPASS oversized, malformed, redirected, partial and duplicate provider payloads fail closed\nPASS stable IDs are bounded to fifty and request fields cannot become upstream URLs\nPASS memory response cache deduplicates concurrent reads, lasts fifteen minutes and stays read only\nPASS snapshot expiry caps both memory and HTTP cache even inside the fifteen minute window\nPASS newest stock unknown observation suppresses older in stock prices and CA never receives US offers\nPASS retention cleanup leaves one day of headroom before the licensed limit, even when disabled\nPASS cached stale content cannot remain visible after its retained deadline\nPASS changed approval invalidates cache and public rows cannot disclose injected fields\n22 morning price service checks passed. Provider fixtures and approval records are synthetic.\n",
+      "errors": ""
+    },
+    {
+      "command": "node scripts/test-continuation-editorial.cjs",
+      "status": 0,
+      "output": "{\n  \"passed\": 7,\n  \"checks\": [\n    \"Complete distinct batch and original image dimensions\",\n    \"Preview contains full noindex drafts without publication or Article claims\",\n    \"Normal generation removes own drafts and search entries while keeping independent routes\",\n    \"A decision can establish eligibility only; changed content and evidence invalidate it\",\n    \"News needs current human review and exact confirmed deployed-page evidence\",\n    \"RSS retains legitimate archives; news sitemap includes only the latest 48 hours and caps at 1000\",\n    \"Review packet hashes reproduce the current articles and inspected sources\"\n  ],\n  \"words\": 9685,\n  \"publicationDecisionsWritten\": 0,\n  \"fullBuildRun\": false\n}\n",
+      "errors": ""
+    },
+    {
+      "command": "node scripts/test-continuation-publication.cjs",
+      "status": 0,
+      "output": "{\n  \"passed\": 8,\n  \"checks\": [\n    \"Owner instruction authorizes exactly twelve current versions without a personal-review claim\",\n    \"Changing article identity, hash or version requires a fresh explicit authorization\",\n    \"Duplicate or unauthorized publication records are rejected\",\n    \"Publication authorization does not invent a human review or substitute a byline\",\n    \"Future or pre-evidence calendar dates are rejected\",\n    \"An authorized release cannot claim a verified timestamp or deployment\",\n    \"Actual exact-page inspection permits confirmed publication and NewsArticle feeds\",\n    \"Released articles contain the organization author, complete final section and escaped structured data\"\n  ],\n  \"scope\": \"Local owner-authorization consistency and rendering fixtures. Tests do not declare a personal review or deployment.\"\n}\n",
+      "errors": ""
+    },
+    {
+      "command": "node scripts/test-continuation-news-intake.cjs",
+      "status": 0,
+      "output": "{\n  \"passed\": 10,\n  \"networkRequests\": 0,\n  \"productionDecisionsWritten\": 0,\n  \"published\": 0,\n  \"notice\": \"All online cases used synthetic Response fixtures.\"\n}\n",
+      "errors": ""
+    }
+  ]
+}

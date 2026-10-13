@@ -1,0 +1,149 @@
+{
+  "schema": 1,
+  "evidenceDate": "2026-10-13",
+  "status": "evidence_checked_human_review_pending",
+  "publicationAuthorization": null,
+  "proposedAuthor": {
+    "type": "Organization",
+    "name": "PC Part Performance"
+  },
+  "valid": true,
+  "errors": [],
+  "articles": 6,
+  "newIntents": 2,
+  "revisedExistingDrafts": [
+    "31",
+    "34",
+    "37",
+    "27"
+  ],
+  "words": 5180,
+  "humanReviewed": 0,
+  "published": 0,
+  "items": [
+    {
+      "id": "G01",
+      "title": "SSD transfer time: why the advertised MB/s is not your copy speed",
+      "canonicalRoute": "/blog/ssd-transfer-time-advertised-speed/",
+      "reviewRoute": "/growth-review/g01/",
+      "existingDraftId": null,
+      "intentDecision": "New narrow utility; existing draft16 and published SSD guides address interface/capacity choice rather than complete transfer-time arithmetic.",
+      "words": 890,
+      "sourceIds": [
+        "samsung-990",
+        "samsung-datasheet"
+      ],
+      "hash": "cf991bf2639aa4658fcc0cb489be2918eea2e8aa22d662e4c2af169a72143f5d",
+      "contentVersion": "2026-10-13.1",
+      "humanReview": null,
+      "published": false,
+      "datePublished": null,
+      "dateModified": null,
+      "indexable": false
+    },
+    {
+      "id": "G02",
+      "title": "A new PC has no display: read debug LEDs without guessing the faulty part",
+      "canonicalRoute": "/blog/new-pc-no-display-safe-checks/",
+      "reviewRoute": "/growth-review/g02/",
+      "existingDraftId": "31",
+      "intentDecision": "Revision candidate for existing draft31; retain the original canonical and do not create a competing no-display article.",
+      "words": 893,
+      "sourceIds": [
+        "msi-boot",
+        "asus-led"
+      ],
+      "hash": "04229d1680f888527d5a629c6fc98a03148ab87ae8182c9265d39cc55e4f7035",
+      "contentVersion": "2026-10-13.1",
+      "humanReview": null,
+      "published": false,
+      "datePublished": null,
+      "dateModified": null,
+      "indexable": false
+    },
+    {
+      "id": "G03",
+      "title": "RAM compatibility: read the exact kit, slots and QVL evidence",
+      "canonicalRoute": "/blog/how-to-choose-gaming-ram/",
+      "reviewRoute": "/growth-review/g03/",
+      "existingDraftId": "34",
+      "intentDecision": "Revision candidate for draft34, retaining the existing RAM-guide canonical and broad compatibility scope.",
+      "words": 889,
+      "sourceIds": [
+        "kingston-decoder",
+        "asus-qvl",
+        "corsair-qvl",
+        "amd-expo"
+      ],
+      "hash": "30440dbd7aa7cf3667fb99533b0bf1907d4cc32e7f8dbfcdd6977702694b6c46",
+      "contentVersion": "2026-10-13.1",
+      "humanReview": null,
+      "published": false,
+      "datePublished": null,
+      "dateModified": null,
+      "indexable": false
+    },
+    {
+      "id": "G04",
+      "title": "CAS, tRCD and tRP: compare RAM timings without inventing game FPS",
+      "canonicalRoute": "/blog/ram-timings-cas-trcd-trp/",
+      "reviewRoute": "/growth-review/g04/",
+      "existingDraftId": null,
+      "intentDecision": "New narrow timing-interpretation article. Draft34 remains the compatibility decision; the existing broad memory explainer is not duplicated.",
+      "words": 847,
+      "sourceIds": [
+        "corsair-timings",
+        "kingston-decoder",
+        "amd-expo"
+      ],
+      "hash": "4fd44b0dc579739c848ccaa4eccf7c1a0c6eba06154851a49481834211f62992",
+      "contentVersion": "2026-10-13.1",
+      "humanReview": null,
+      "published": false,
+      "datePublished": null,
+      "dateModified": null,
+      "indexable": false
+    },
+    {
+      "id": "G05",
+      "title": "Choose a monitor target: verify the output path, refresh rate and game evidence",
+      "canonicalRoute": "/blog/choose-display-target-game-evidence/",
+      "reviewRoute": "/growth-review/g05/",
+      "existingDraftId": "37",
+      "intentDecision": "Revision candidate for draft37; preserve its display-goal canonical and avoid a second competing monitor-target guide.",
+      "words": 833,
+      "sourceIds": [
+        "vesa-cables",
+        "windows-refresh"
+      ],
+      "hash": "f650b585f7fc6a8c757fe0b3ba15631661b9528466842a812f1542fd56510609",
+      "contentVersion": "2026-10-13.1",
+      "humanReview": null,
+      "published": false,
+      "datePublished": null,
+      "dateModified": null,
+      "indexable": false
+    },
+    {
+      "id": "G06",
+      "title": "Will this graphics card fit? Read the exact partner model and installed layout",
+      "canonicalRoute": "/blog/will-a-graphics-card-fit-my-case/",
+      "reviewRoute": "/growth-review/g06/",
+      "existingDraftId": "27",
+      "intentDecision": "Revision candidate for draft27, preserving the existing graphics-card-fit canonical and adding exact partner-card documentary examples.",
+      "words": 828,
+      "sourceIds": [
+        "msi-5070",
+        "asus-5070",
+        "north-sheet"
+      ],
+      "hash": "b33fb0c6b88257e8a836cb4c0bfdd9b249faa5c9c2a97140bd2d2f5de55fef8b",
+      "contentVersion": "2026-10-13.1",
+      "humanReview": null,
+      "published": false,
+      "datePublished": null,
+      "dateModified": null,
+      "indexable": false
+    }
+  ]
+}

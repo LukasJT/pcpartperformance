@@ -1,0 +1,771 @@
+{
+  "schema": 1,
+  "researchDate": "2026-10-13",
+  "scope": "Current official SEO guidance and focused Google Search Central video research",
+  "accountDataAccessed": false,
+  "limitations": [
+    "No Search Console, analytics, keyword-volume or account-specific field data were accessed.",
+    "Thirteen public video metadata/descriptions were inspected; zero videos were watched.",
+    "English caption tracks were advertised for thirteen videos; bounded timedtext requests returned HTTP 200 and zero bytes. Zero transcripts were read.",
+    "Playlist URLs were recovered from the official announcement but their current contents or membership could not be verified.",
+    "Repository observations are not live deployment verification."
+  ],
+  "learningPaths": {
+    "announcement": "G33",
+    "announcementDate": "2026-10-06",
+    "linkedPlaylists": [
+      {
+        "title": "Search fundamentals for beginners",
+        "url": "https://www.youtube.com/playlist?list=PLbrFcZbKqjoI",
+        "contentsVerified": false
+      },
+      {
+        "title": "Technical SEO fundamentals",
+        "url": "https://www.youtube.com/playlist?list=PLeMjPeaUGn9U",
+        "contentsVerified": false
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "G01",
+      "type": "official_documentation",
+      "title": "SEO Starter Guide",
+      "publisher": "Google",
+      "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+      "inspected": "2026-10-13",
+      "access": "Public page text inspected",
+      "finding": "Discovery, useful content and accurate search presentation.",
+      "application": "Preserve real navigation links, concise task-based titles and readable content."
+    },
+    {
+      "id": "G02",
+      "type": "official_documentation",
+      "title": "Creating helpful, reliable, people-first content",
+      "publisher": "Google",
+      "url": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
+      "inspected": "2026-10-13",
+      "access": "Public page text inspected",
+      "finding": "Original utility and truthful who/how/why matter; fabricated author identities are misleading.",
+      "application": "Keep organization authorship and AI assistance transparent; improve decisions rather than page counts."
+    },
+    {
+      "id": "G03",
+      "type": "official_documentation",
+      "title": "Spam policies",
+      "publisher": "Google",
+      "url": "https://developers.google.com/search/docs/essentials/spam-policies",
+      "inspected": "2026-10-13",
+      "access": "Public page text inspected",
+      "finding": "Scaled low-value content for ranking manipulation is abuse irrespective of how it is generated.",
+      "application": "Do not index every product pair or rewrite copied feeds into thin articles."
+    },
+    {
+      "id": "G04",
+      "type": "official_documentation",
+      "title": "JavaScript SEO basics",
+      "publisher": "Google",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics",
+      "inspected": "2026-10-13",
+      "access": "Public page text inspected",
+      "finding": "Crawlable anchors, rendered content and consistent indexing controls are necessary.",
+      "application": "Test raw HTML and rendered output; retain core facts when optional scripts fail."
+    },
+    {
+      "id": "G05",
+      "type": "official_documentation",
+      "title": "Managing crawling of faceted navigation URLs",
+      "publisher": "Google",
+      "url": "https://developers.google.com/crawling/docs/faceted-navigation",
+      "inspected": "2026-10-13",
+      "access": "Public page text inspected",
+      "finding": "Crawl prevention differs from noindex; canonical hints are less dependable for crawl control.",
+      "application": "Keep dynamic states bounded and intentionally noindex; do not robots-block URLs that must reveal noindex without reviewing index state."
+    },
+    {
+      "id": "G06",
+      "type": "official_documentation",
+      "title": "URL canonicalization",
+      "publisher": "Google",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/canonicalization",
+      "inspected": "2026-10-13",
+      "access": "Public page text inspected",
+      "finding": "Canonical preference is a hint, and duplicate content is not automatically a spam violation.",
+      "application": "Consolidate true duplicates while preserving real variants."
+    },
+    {
+      "id": "G07",
+      "type": "official_documentation",
+      "title": "Specifying canonical URLs",
+      "publisher": "Google",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls",
+      "inspected": "2026-10-13",
+      "access": "Public page text inspected",
+      "finding": "Redirects, canonical links and sitemap signals should be consistent.",
+      "application": "Align preferred-host internal links, exact identities and redirect targets."
+    },
+    {
+      "id": "G08",
+      "type": "official_documentation",
+      "title": "Product snippet structured data",
+      "publisher": "Google",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/product-snippet",
+      "inspected": "2026-10-13",
+      "access": "Public page text inspected",
+      "finding": "Name and at least one of offers/review/aggregateRating are required for Product snippets.",
+      "application": "Do not invent offers or ratings; generic Product specification markup is not automatically snippet eligible."
+    },
+    {
+      "id": "G09",
+      "type": "official_documentation",
+      "title": "Ecommerce navigation structure",
+      "publisher": "Google",
+      "url": "https://developers.google.com/search/docs/specialty/ecommerce/help-google-understand-your-ecommerce-site-structure",
+      "inspected": "2026-10-13",
+      "access": "Public page text inspected",
+      "finding": "Products should be discoverable through category and product anchors rather than only a search box.",
+      "application": "Preserve catalog pagination and connect exact-model products to useful guides."
+    },
+    {
+      "id": "G10",
+      "type": "official_documentation",
+      "title": "Generative AI search optimization",
+      "publisher": "Google",
+      "url": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide",
+      "inspected": "2026-10-13",
+      "access": "Public page text inspected",
+      "finding": "Google does not require llms.txt, special AI schema, special prose or artificial chunking.",
+      "application": "Prioritize useful original content, technical clarity and truthful measurement."
+    },
+    {
+      "id": "G11",
+      "type": "official_documentation",
+      "title": "Web Vitals",
+      "publisher": "Google / web.dev",
+      "url": "https://web.dev/articles/vitals",
+      "inspected": "2026-10-13",
+      "access": "Public page text inspected",
+      "finding": "Assess current Core Web Vitals at the 75th percentile separately by device class.",
+      "application": "Do not treat byte counts, lab TBT or one run as real-user INP success."
+    },
+    {
+      "id": "G12",
+      "type": "official_documentation",
+      "title": "Pagination and incremental loading",
+      "publisher": "Google",
+      "url": "https://developers.google.com/search/docs/specialty/ecommerce/pagination-and-incremental-page-loading",
+      "inspected": "2026-10-13",
+      "access": "Public page text inspected",
+      "finding": "Use distinct page URLs, self canonicals and crawlable anchor links; Google does not click load-more controls.",
+      "application": "Retain numbered static catalog pages and test later-page rows."
+    },
+    {
+      "id": "G13",
+      "type": "official_documentation",
+      "title": "Article structured data",
+      "publisher": "Google",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/article",
+      "inspected": "2026-10-13",
+      "access": "Public page text inspected",
+      "finding": "Article has applicable recommended properties rather than required ones; organization authors are supported.",
+      "application": "Match visible author, dates, headline and representative image."
+    },
+    {
+      "id": "G14",
+      "type": "official_documentation",
+      "title": "Organization structured data",
+      "publisher": "Google",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/organization",
+      "inspected": "2026-10-13",
+      "access": "Public page text inspected",
+      "finding": "Add applicable genuine organization details; there are no universally required properties.",
+      "application": "Use actual brand, URL and logo, with no invented staff/address/credentials."
+    },
+    {
+      "id": "G15",
+      "type": "official_documentation",
+      "title": "Site names",
+      "publisher": "Google",
+      "url": "https://developers.google.com/search/docs/appearance/site-names",
+      "inspected": "2026-10-13",
+      "access": "Public page text inspected",
+      "finding": "Homepage WebSite needs name and canonical URL; site names are not tested by Rich Results Test.",
+      "application": "Preserve one homepage WebSite identity and validate its syntax separately."
+    },
+    {
+      "id": "G16",
+      "type": "official_documentation",
+      "title": "Video SEO best practices",
+      "publisher": "Google",
+      "url": "https://developers.google.com/search/docs/appearance/video",
+      "inspected": "2026-10-13",
+      "access": "Public page text inspected",
+      "finding": "Video indexing requires an actual eligible watch page; user-triggered loading alone does not expose it.",
+      "application": "Do not add VideoObject to supplementary external review links."
+    },
+    {
+      "id": "G17",
+      "type": "official_documentation",
+      "title": "Merchant listing structured data",
+      "publisher": "Google",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/merchant-listing",
+      "inspected": "2026-10-13",
+      "access": "Public page text inspected",
+      "finding": "Merchant listing experiences differ from product snippets and concern purchase-capable pages.",
+      "application": "Do not present the comparison site as a retailer without real selling capability."
+    },
+    {
+      "id": "G18",
+      "type": "official_documentation",
+      "title": "Supported structured-data feature gallery",
+      "publisher": "Google",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/search-gallery",
+      "inspected": "2026-10-13",
+      "access": "Public page text inspected",
+      "finding": "Current supported feature documentation governs eligibility.",
+      "application": "Validate against current Google support rather than old tutorial examples."
+    },
+    {
+      "id": "G19",
+      "type": "official_documentation",
+      "title": "Google Search documentation updates",
+      "publisher": "Google",
+      "url": "https://developers.google.com/search/updates",
+      "inspected": "2026-10-13",
+      "access": "Public page text inspected",
+      "finding": "FAQ rich results stopped appearing May 7, 2026.",
+      "application": "Retain helpful answers but do not promise retired FAQ enhancements."
+    },
+    {
+      "id": "G20",
+      "type": "official_documentation",
+      "title": "Localized versions",
+      "publisher": "Google",
+      "url": "https://developers.google.com/search/docs/specialty/international/localized-versions",
+      "inspected": "2026-10-13",
+      "access": "Public page text inspected",
+      "finding": "Corresponding regional pages require proper locale annotations and return links.",
+      "application": "Use CAD/USD clearly; do not create low-value regional copies or infer hreflang from a client selector."
+    },
+    {
+      "id": "G21",
+      "type": "official_documentation",
+      "title": "Core Web Vitals and Search",
+      "publisher": "Google",
+      "url": "https://developers.google.com/search/docs/appearance/core-web-vitals",
+      "inspected": "2026-10-13",
+      "access": "Public page text inspected",
+      "finding": "Current metrics remain LCP, INP and CLS; good boundaries are approximately 2.5 seconds, 200 ms and 0.1.",
+      "application": "Defer optional models and data; measure the actual experience under comparable conditions."
+    },
+    {
+      "id": "G22",
+      "type": "official_documentation",
+      "title": "Discover and your website",
+      "publisher": "Google",
+      "url": "https://developers.google.com/search/docs/appearance/google-discover",
+      "inspected": "2026-10-13",
+      "access": "Public page text inspected",
+      "finding": "Discover eligibility does not guarantee inclusion; representative high-resolution images and large previews help presentation.",
+      "application": "Keep appropriate 1200-pixel-or-wider editorial images without clickbait."
+    },
+    {
+      "id": "G23",
+      "type": "official_documentation",
+      "title": "Link best practices",
+      "publisher": "Google",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/links-crawlable",
+      "inspected": "2026-10-13",
+      "access": "Public page text inspected",
+      "finding": "Real href anchors and meaningful contextual text support discovery.",
+      "application": "Use links for page navigation and buttons for actions."
+    },
+    {
+      "id": "G24",
+      "type": "official_documentation",
+      "title": "Title links",
+      "publisher": "Google",
+      "url": "https://developers.google.com/search/docs/appearance/title-link",
+      "inspected": "2026-10-13",
+      "access": "Public page text inspected",
+      "finding": "Titles should be accurate and descriptive; Google may select alternate text.",
+      "application": "Use task-specific titles without stuffing or automatic current-year suffixes."
+    },
+    {
+      "id": "G25",
+      "type": "official_documentation",
+      "title": "Snippets",
+      "publisher": "Google",
+      "url": "https://developers.google.com/search/docs/appearance/snippet",
+      "inspected": "2026-10-13",
+      "access": "Public page text inspected",
+      "finding": "Useful accurate descriptions inform presentation; Google can derive snippets from page text.",
+      "application": "Avoid generic or misleading descriptions and fixed character-count ranking rules."
+    },
+    {
+      "id": "G26",
+      "type": "official_documentation",
+      "title": "Search Console performance report",
+      "publisher": "Google",
+      "url": "https://support.google.com/webmasters/answer/7576553?hl=en",
+      "inspected": "2026-10-13",
+      "access": "Public page text inspected",
+      "finding": "Clicks, impressions, CTR and position are different measures with aggregation and dimension limitations.",
+      "application": "Measure country/device/query/page changes only with real authorized data."
+    },
+    {
+      "id": "G27",
+      "type": "official_documentation",
+      "title": "URL Inspection",
+      "publisher": "Google",
+      "url": "https://support.google.com/webmasters/answer/9012289?hl=en",
+      "inspected": "2026-10-13",
+      "access": "Public page text inspected",
+      "finding": "Indexed snapshots and live tests differ; a live test does not predict canonical selection.",
+      "application": "Keep actual search observations separate from local/live technical tests."
+    },
+    {
+      "id": "G28",
+      "type": "official_documentation",
+      "title": "Google Trends data FAQ",
+      "publisher": "Google",
+      "url": "https://support.google.com/trends/answer/4365533?hl=en",
+      "inspected": "2026-10-13",
+      "access": "Public page text inspected",
+      "finding": "Trends uses sampled normalized relative interest rather than absolute monthly search volume.",
+      "application": "Record locale, time range, terms/topics and search type; never fabricate volume."
+    },
+    {
+      "id": "G29",
+      "type": "official_documentation",
+      "title": "Build and submit a sitemap",
+      "publisher": "Google",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap",
+      "inspected": "2026-10-13",
+      "access": "Public page text inspected",
+      "finding": "Sitemaps support discovery and should reference intended canonicals; lastmod needs substantive accuracy.",
+      "application": "Exclude drafts and arbitrary states; do not equate submission with indexing."
+    },
+    {
+      "id": "G30",
+      "type": "official_documentation",
+      "title": "General structured-data guidelines",
+      "publisher": "Google",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/sd-policies",
+      "inspected": "2026-10-13",
+      "access": "Public page text inspected",
+      "finding": "Markup must describe visible current truthful content; validity does not guarantee search appearance.",
+      "application": "Test schema syntax, visible-data parity and eligibility separately."
+    },
+    {
+      "id": "G31",
+      "type": "official_documentation",
+      "title": "Favicon in search",
+      "publisher": "Google",
+      "url": "https://developers.google.com/search/docs/appearance/favicon-in-search",
+      "inspected": "2026-10-13",
+      "access": "Public page text inspected",
+      "finding": "Favicons are separate from organization logos and social cards, with crawlability and presentation requirements.",
+      "application": "Check the actual homepage favicon link, stable URL and square asset."
+    },
+    {
+      "id": "G32",
+      "type": "official_documentation",
+      "title": "Generative AI performance report",
+      "publisher": "Google",
+      "url": "https://support.google.com/webmasters/answer/16984139",
+      "inspected": "2026-10-13",
+      "access": "Public page text inspected",
+      "finding": "The report measures generative Search impressions; documentation states worldwide rollout by August 31, 2026.",
+      "application": "Do not label impressions as visits or invent account-specific report data."
+    },
+    {
+      "id": "G33",
+      "type": "official_documentation",
+      "title": "New SEO learning paths announcement",
+      "publisher": "Google",
+      "url": "https://developers.google.com/search/blog/2026/10/seo-learning-paths",
+      "inspected": "2026-10-13",
+      "access": "Public page text inspected",
+      "finding": "The October 6, 2026 announcement links Search fundamentals and Technical SEO curated playlists.",
+      "application": "Use focused research with honest playlist and caption-access limits."
+    },
+    {
+      "id": "G34",
+      "type": "official_documentation",
+      "title": "Google Trends tutorial announcement",
+      "publisher": "Google",
+      "url": "https://developers.google.com/search/blog/2024/09/google-trends-tutorials",
+      "inspected": "2026-10-13",
+      "access": "Public page text inspected",
+      "finding": "The official announcement identifies Trending Now and advanced analysis tutorials.",
+      "application": "Use relevant trend questions as research leads, not unsupported news claims."
+    }
+  ],
+  "videos": [
+    {
+      "id": "V01",
+      "type": "official_video",
+      "title": "Introducing How Search Works",
+      "publisher": "Google Search Central",
+      "url": "https://www.youtube.com/watch?v=5MIAugQ17ks",
+      "publicationDate": "2024-02-15",
+      "publicationDateSource": "Original public YouTube player microformat publishDate",
+      "inspected": "2026-10-13",
+      "materialRead": [
+        "title",
+        "publisher",
+        "publication date",
+        "description"
+      ],
+      "watched": false,
+      "transcriptRead": false,
+      "transcriptSource": "Public YouTube English caption track metadata and api/timedtext request",
+      "captionAccess": {
+        "englishTrackAdvertised": true,
+        "httpStatus": 200,
+        "returnedBytes": 0,
+        "result": "empty_response"
+      },
+      "playlistMembershipVerified": false,
+      "currentGuidance": "G01",
+      "application": "Separate crawling, indexing and serving in technical reports."
+    },
+    {
+      "id": "V02",
+      "type": "official_video",
+      "title": "URL Inspection Tool - Google Search Console Training",
+      "publisher": "Google Search Central",
+      "url": "https://www.youtube.com/watch?v=Pe_-TkdbXN0",
+      "publicationDate": "2020-01-23",
+      "publicationDateSource": "Original public YouTube player microformat publishDate",
+      "inspected": "2026-10-13",
+      "materialRead": [
+        "title",
+        "publisher",
+        "publication date",
+        "description"
+      ],
+      "watched": false,
+      "transcriptRead": false,
+      "transcriptSource": "Public YouTube English caption track metadata and api/timedtext request",
+      "captionAccess": {
+        "englishTrackAdvertised": true,
+        "httpStatus": 200,
+        "returnedBytes": 0,
+        "result": "empty_response"
+      },
+      "playlistMembershipVerified": false,
+      "currentGuidance": "G27",
+      "application": "Distinguish indexed snapshots from live URL tests."
+    },
+    {
+      "id": "V03",
+      "type": "official_video",
+      "title": "Analyzing performance on Google Search",
+      "publisher": "Google Search Central",
+      "url": "https://www.youtube.com/watch?v=5LF6SwB5jZ0",
+      "publicationDate": "2025-12-04",
+      "publicationDateSource": "Original public YouTube player microformat publishDate",
+      "inspected": "2026-10-13",
+      "materialRead": [
+        "title",
+        "publisher",
+        "publication date",
+        "description"
+      ],
+      "watched": false,
+      "transcriptRead": false,
+      "transcriptSource": "Public YouTube English caption track metadata and api/timedtext request",
+      "captionAccess": {
+        "englishTrackAdvertised": true,
+        "httpStatus": 200,
+        "returnedBytes": 0,
+        "result": "empty_response"
+      },
+      "playlistMembershipVerified": false,
+      "currentGuidance": "G26",
+      "application": "Use real country/device/page data and appropriate comparison periods."
+    },
+    {
+      "id": "V04",
+      "type": "official_video",
+      "title": "How to perform a technical SEO audit",
+      "publisher": "Google Search Central",
+      "url": "https://www.youtube.com/watch?v=aLWQqlpwHK8",
+      "publicationDate": "2025-11-06",
+      "publicationDateSource": "Original public YouTube player microformat publishDate",
+      "inspected": "2026-10-13",
+      "materialRead": [
+        "title",
+        "publisher",
+        "publication date",
+        "description"
+      ],
+      "watched": false,
+      "transcriptRead": false,
+      "transcriptSource": "Public YouTube English caption track metadata and api/timedtext request",
+      "captionAccess": {
+        "englishTrackAdvertised": true,
+        "httpStatus": 200,
+        "returnedBytes": 0,
+        "result": "empty_response"
+      },
+      "playlistMembershipVerified": false,
+      "currentGuidance": "G04",
+      "application": "Understand this generator/worker before prioritizing real defects."
+    },
+    {
+      "id": "V05",
+      "type": "official_video",
+      "title": "SEO for vibe-coded websites",
+      "publisher": "Google Search Central",
+      "url": "https://www.youtube.com/watch?v=12yWkqxrYsM",
+      "publicationDate": "2026-04-16",
+      "publicationDateSource": "Original public YouTube player microformat publishDate",
+      "inspected": "2026-10-13",
+      "materialRead": [
+        "title",
+        "publisher",
+        "publication date",
+        "description"
+      ],
+      "watched": false,
+      "transcriptRead": false,
+      "transcriptSource": "Public YouTube English caption track metadata and api/timedtext request",
+      "captionAccess": {
+        "englishTrackAdvertised": true,
+        "httpStatus": 200,
+        "returnedBytes": 0,
+        "result": "empty_response"
+      },
+      "playlistMembershipVerified": false,
+      "currentGuidance": "G01",
+      "application": "Add original value, full canonicals, JavaScript tests and authorized Search Console measurement."
+    },
+    {
+      "id": "V06",
+      "type": "official_video",
+      "title": "Trending Now: Stay on Top of Google Search Trends",
+      "publisher": "Google Search Central",
+      "url": "https://www.youtube.com/watch?v=O-9G9k6ogdw",
+      "publicationDate": "2024-09-11",
+      "publicationDateSource": "Original public YouTube player microformat publishDate",
+      "inspected": "2026-10-13",
+      "materialRead": [
+        "title",
+        "publisher",
+        "publication date",
+        "description"
+      ],
+      "watched": false,
+      "transcriptRead": false,
+      "transcriptSource": "Public YouTube English caption track metadata and api/timedtext request",
+      "captionAccess": {
+        "englishTrackAdvertised": true,
+        "httpStatus": 200,
+        "returnedBytes": 0,
+        "result": "empty_response"
+      },
+      "playlistMembershipVerified": false,
+      "currentGuidance": "G28",
+      "application": "Use rising relevant queries as leads, then verify hardware evidence."
+    },
+    {
+      "id": "V07",
+      "type": "official_video",
+      "title": "Google Trends Advanced Tips",
+      "publisher": "Google Search Central",
+      "url": "https://www.youtube.com/watch?v=Kkd2PkbCdSc",
+      "publicationDate": "2024-08-28",
+      "publicationDateSource": "Original public YouTube player microformat publishDate",
+      "inspected": "2026-10-13",
+      "materialRead": [
+        "title",
+        "publisher",
+        "publication date",
+        "description"
+      ],
+      "watched": false,
+      "transcriptRead": false,
+      "transcriptSource": "Public YouTube English caption track metadata and api/timedtext request",
+      "captionAccess": {
+        "englishTrackAdvertised": true,
+        "httpStatus": 200,
+        "returnedBytes": 0,
+        "result": "empty_response"
+      },
+      "playlistMembershipVerified": false,
+      "currentGuidance": "G28",
+      "application": "Record comparison context and never turn relative interest into monthly volume."
+    },
+    {
+      "id": "V08",
+      "type": "official_video",
+      "title": "Essential JavaScript SEO tips - JavaScript SEO",
+      "publisher": "Google Search Central",
+      "url": "https://www.youtube.com/watch?v=nwGY-9lwTF4",
+      "publicationDate": "2019-03-13",
+      "publicationDateSource": "Original public YouTube player microformat publishDate",
+      "inspected": "2026-10-13",
+      "materialRead": [
+        "title",
+        "publisher",
+        "publication date",
+        "description"
+      ],
+      "watched": false,
+      "transcriptRead": false,
+      "transcriptSource": "Public YouTube English caption track metadata and api/timedtext request",
+      "captionAccess": {
+        "englishTrackAdvertised": true,
+        "httpStatus": 200,
+        "returnedBytes": 0,
+        "result": "empty_response"
+      },
+      "playlistMembershipVerified": false,
+      "currentGuidance": "G04",
+      "application": "Preserve generated facts and ordinary anchors; consult current written requirements."
+    },
+    {
+      "id": "V09",
+      "type": "official_video",
+      "title": "How Robots.txt Works",
+      "publisher": "Google Search Central",
+      "url": "https://www.youtube.com/watch?v=IXNEVt9rZG8",
+      "publicationDate": "2024-12-04",
+      "publicationDateSource": "Original public YouTube player microformat publishDate",
+      "inspected": "2026-10-13",
+      "materialRead": [
+        "title",
+        "publisher",
+        "publication date",
+        "description"
+      ],
+      "watched": false,
+      "transcriptRead": false,
+      "transcriptSource": "Public YouTube English caption track metadata and api/timedtext request",
+      "captionAccess": {
+        "englishTrackAdvertised": true,
+        "httpStatus": 200,
+        "returnedBytes": 0,
+        "result": "empty_response"
+      },
+      "playlistMembershipVerified": false,
+      "currentGuidance": "G05",
+      "application": "Separate crawl control from noindex and authentication."
+    },
+    {
+      "id": "V10",
+      "type": "official_video",
+      "title": "Monitoring Rich Results in Search Console - Google Search Console Training",
+      "publisher": "Google Search Central",
+      "url": "https://www.youtube.com/watch?v=Vmfvf8nG09k",
+      "publicationDate": "2020-02-05",
+      "publicationDateSource": "Original public YouTube player microformat publishDate",
+      "inspected": "2026-10-13",
+      "materialRead": [
+        "title",
+        "publisher",
+        "publication date",
+        "description"
+      ],
+      "watched": false,
+      "transcriptRead": false,
+      "transcriptSource": "Public YouTube English caption track metadata and api/timedtext request",
+      "captionAccess": {
+        "englishTrackAdvertised": true,
+        "httpStatus": 200,
+        "returnedBytes": 0,
+        "result": "empty_response"
+      },
+      "playlistMembershipVerified": false,
+      "currentGuidance": "G08",
+      "application": "Use current eligibility and visible-data truthfulness, not obsolete examples."
+    },
+    {
+      "id": "V11",
+      "type": "official_video",
+      "title": "Sitemaps in Search Console - Google Search Console Training",
+      "publisher": "Google Search Central",
+      "url": "https://www.youtube.com/watch?v=JlamLfyFjTA",
+      "publicationDate": "2020-03-04",
+      "publicationDateSource": "Original public YouTube player microformat publishDate",
+      "inspected": "2026-10-13",
+      "materialRead": [
+        "title",
+        "publisher",
+        "publication date",
+        "description"
+      ],
+      "watched": false,
+      "transcriptRead": false,
+      "transcriptSource": "Public YouTube English caption track metadata and api/timedtext request",
+      "captionAccess": {
+        "englishTrackAdvertised": true,
+        "httpStatus": 200,
+        "returnedBytes": 0,
+        "result": "empty_response"
+      },
+      "playlistMembershipVerified": false,
+      "currentGuidance": "G29",
+      "application": "Keep canonicals and sitemap entries aligned; submission is not indexing."
+    },
+    {
+      "id": "V12",
+      "type": "official_video",
+      "title": "SEO for ecommerce - Google Search Console Training (from home)",
+      "publisher": "Google Search Central",
+      "url": "https://www.youtube.com/watch?v=lB-E6060se0",
+      "publicationDate": "2020-10-20",
+      "publicationDateSource": "Original public YouTube player microformat publishDate",
+      "inspected": "2026-10-13",
+      "materialRead": [
+        "title",
+        "publisher",
+        "publication date",
+        "description"
+      ],
+      "watched": false,
+      "transcriptRead": false,
+      "transcriptSource": "Public YouTube English caption track metadata and api/timedtext request",
+      "captionAccess": {
+        "englishTrackAdvertised": true,
+        "httpStatus": 200,
+        "returnedBytes": 0,
+        "result": "empty_response"
+      },
+      "playlistMembershipVerified": false,
+      "currentGuidance": "G09",
+      "application": "Apply useful catalog hierarchy without pretending to be a merchant."
+    },
+    {
+      "id": "V13",
+      "type": "official_video",
+      "title": "Canonical URLs: How Does Google Pick the One?",
+      "publisher": "Google Search Central",
+      "url": "https://www.youtube.com/watch?v=8j_hxBw5B4E",
+      "publicationDate": "2019-09-04",
+      "publicationDateSource": "Original public YouTube player microformat publishDate",
+      "inspected": "2026-10-13",
+      "materialRead": [
+        "title",
+        "publisher",
+        "publication date",
+        "description"
+      ],
+      "watched": false,
+      "transcriptRead": false,
+      "transcriptSource": "Public YouTube English caption track metadata and api/timedtext request",
+      "captionAccess": {
+        "englishTrackAdvertised": true,
+        "httpStatus": 200,
+        "returnedBytes": 0,
+        "result": "empty_response"
+      },
+      "playlistMembershipVerified": false,
+      "currentGuidance": "G06",
+      "application": "Consolidate true duplicates and preserve distinct variants."
+    }
+  ]
+}

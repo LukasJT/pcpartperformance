@@ -1,0 +1,180 @@
+{
+  "checkedAt": "2026-10-13T18:31:07.636Z",
+  "scope": "Actual public bounded HTTP/HTML observations; a research fetch failure alone is not a site defect.",
+  "rows": [
+    {
+      "route": "/",
+      "status": 200,
+      "location": null,
+      "robots": null,
+      "title": "Compare PC Parts, Check Compatibility &amp; Plan an Upgrade",
+      "staticRows": null,
+      "elapsedMs": 435
+    },
+    {
+      "route": "/builder/",
+      "status": 200,
+      "location": null,
+      "robots": null,
+      "title": "PC Builder &amp; 3D Preview: Parts, Fans and Compatibility",
+      "staticRows": null,
+      "elapsedMs": 180
+    },
+    {
+      "route": "/hardware/",
+      "status": 200,
+      "location": null,
+      "robots": null,
+      "title": "PC Hardware Catalog: Specifications &amp; Model Details",
+      "staticRows": 24,
+      "elapsedMs": 153
+    },
+    {
+      "route": "/learn/rtx5070.html",
+      "status": 200,
+      "location": null,
+      "robots": null,
+      "title": "NVIDIA GeForce RTX 5070: Specs &amp; Compatibility · PC Part Performance",
+      "staticRows": null,
+      "elapsedMs": 138
+    },
+    {
+      "route": "/compare/",
+      "status": 200,
+      "location": null,
+      "robots": null,
+      "title": "Compare PC Parts: GPUs, CPUs, RAM and SSDs",
+      "staticRows": null,
+      "elapsedMs": 75
+    },
+    {
+      "route": "/compare/rtx-5070-vs-rx-9070/",
+      "status": 200,
+      "location": null,
+      "robots": null,
+      "title": "RTX 5070 vs RX 9070: specifications and upgrade checks · PC Part Performance",
+      "staticRows": null,
+      "elapsedMs": 80
+    },
+    {
+      "route": "/performance/",
+      "status": 200,
+      "location": null,
+      "robots": null,
+      "title": "Gaming Performance: Benchmark Evidence &amp; Console Modes",
+      "staticRows": null,
+      "elapsedMs": 141
+    },
+    {
+      "route": "/compatibility/",
+      "status": 200,
+      "location": null,
+      "robots": null,
+      "title": "PC Compatibility Center: Documented Checks and Manual Fit · PC Part Performance",
+      "staticRows": null,
+      "elapsedMs": 65
+    },
+    {
+      "route": "/upgrade/",
+      "status": 200,
+      "location": null,
+      "robots": null,
+      "title": "PC Upgrade and Reuse Planner · PC Part Performance",
+      "staticRows": null,
+      "elapsedMs": 97
+    },
+    {
+      "route": "/prebuilts/",
+      "status": 200,
+      "location": null,
+      "robots": null,
+      "title": "Prebuilt Gaming PCs in Canada &amp; the US: Compare Real Systems · PC Part Performance",
+      "staticRows": null,
+      "elapsedMs": 164
+    },
+    {
+      "route": "/tools/",
+      "status": 200,
+      "location": null,
+      "robots": null,
+      "title": "PC planning calculators and data tools · PC Part Performance",
+      "staticRows": null,
+      "elapsedMs": 84
+    },
+    {
+      "route": "/build-school/",
+      "status": 200,
+      "location": null,
+      "robots": null,
+      "title": "PC Build School: Plan, Assemble and Check Your First PC · PC Part Performance",
+      "staticRows": null,
+      "elapsedMs": 100
+    },
+    {
+      "route": "/troubleshooting/",
+      "status": 200,
+      "location": null,
+      "robots": null,
+      "title": "PC Troubleshooting: Safe Checks Before Buying Parts · PC Part Performance",
+      "staticRows": null,
+      "elapsedMs": 124
+    },
+    {
+      "route": "/search/",
+      "status": 200,
+      "location": null,
+      "robots": "noindex, follow",
+      "title": "Search PC Part Performance · PC Part Performance",
+      "staticRows": null,
+      "elapsedMs": 175
+    },
+    {
+      "route": "/news/",
+      "status": 200,
+      "location": null,
+      "robots": null,
+      "title": "Technology newsroom: source-led hardware reporting · PC Part Performance",
+      "staticRows": null,
+      "elapsedMs": 119
+    },
+    {
+      "route": "/blog/",
+      "status": 200,
+      "location": null,
+      "robots": null,
+      "title": "PC Hardware Blog: Build Guides, Memory &amp; AI Explained",
+      "staticRows": null,
+      "elapsedMs": 90
+    },
+    {
+      "route": "/resources/",
+      "status": 200,
+      "location": null,
+      "robots": null,
+      "title": "Technology resources: guides, video and useful data · PC Part Performance",
+      "staticRows": null,
+      "elapsedMs": 111
+    },
+    {
+      "route": "/data/release.json",
+      "status": 200,
+      "location": null,
+      "robots": null,
+      "title": null,
+      "staticRows": null,
+      "elapsedMs": 246,
+      "release": {
+        "schema": 1,
+        "program": "2026-10-11-continuation",
+        "commit": "77dda2411e04bb24ce457ba0d4930a445df2ee6f",
+        "generatedAt": "2026-10-11T22:06:35.139Z",
+        "staging": false
+      }
+    },
+    {
+      "route": "apex /hardware/",
+      "status": 301,
+      "location": "https://www.pcpartperformance.com/hardware/"
+    }
+  ]
+}

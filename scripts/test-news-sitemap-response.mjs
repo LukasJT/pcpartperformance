@@ -1,0 +1,5 @@
+import assert from 'node:assert/strict';import {createRequire} from 'node:module';import {renderRecentNews} from './news-sitemap-response.mjs';const require=createRequire(import.meta.url),policy=require('./news-policy.cjs');
+const now=Date.parse('2026-10-13T12:00:00Z'),valid={route:'news/source-evidence',title:'CPU & GPU <report>',status:'published',editorApproved:true,confirmedDeployment:true,sourceIds:['official'],type:'news',datePublished:'2026-10-12T12:00:00Z'};
+assert.equal(renderRecentNews([valid],now),policy.newsSitemap([valid],now));assert(!renderRecentNews([valid],now+48*3600e3).includes('<url>'));
+for(const bad of [{...valid,status:'draft'},{...valid,confirmedDeployment:false},{...valid,editorApproved:false},{...valid,sourceIds:[]},{...valid,datePublished:'2026-10-14T12:00:00Z'},{...valid,route:'news/../../private'}])assert(!renderRecentNews([bad],now).includes('<url>'));
+assert.equal((renderRecentNews(Array.from({length:1005},(_,i)=>({...valid,route:'news/report-'+i})),now).match(/<url>/g)||[]).length,1000);console.log('9 runtime news-sitemap publication, escaping, aging and entry-limit checks passed.');

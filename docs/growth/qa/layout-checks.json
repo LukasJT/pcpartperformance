@@ -1,0 +1,321 @@
+{
+  "checkedAt": "2026-10-13T20:00:25.004Z",
+  "scope": "DOM viewport overflow and main heading smoke checks in actual browser, not complete WCAG certification",
+  "checks": [
+    {
+      "route": "/",
+      "size": "mobile",
+      "h1s": 1,
+      "pageWidth": 375,
+      "theme": "light",
+      "title": "Compare PC parts. Plan a better build.",
+      "width": 375
+    },
+    {
+      "route": "/builder/",
+      "size": "mobile",
+      "h1s": 1,
+      "pageWidth": 380,
+      "theme": "light",
+      "title": "Build your PC",
+      "width": 380
+    },
+    {
+      "route": "/compatibility/",
+      "size": "mobile",
+      "h1s": 1,
+      "pageWidth": 375,
+      "theme": "light",
+      "title": "Check what actually matters",
+      "width": 375
+    },
+    {
+      "route": "/tools/memory-timing-comparison/",
+      "size": "mobile",
+      "h1s": 1,
+      "pageWidth": 375,
+      "theme": "light",
+      "title": "Compare RAM timings",
+      "width": 375
+    },
+    {
+      "route": "/tools/storage-transfer-time/",
+      "size": "mobile",
+      "h1s": 1,
+      "pageWidth": 375,
+      "theme": "light",
+      "title": "Plan a storage transfer",
+      "width": 375
+    },
+    {
+      "route": "/search/",
+      "size": "mobile",
+      "h1s": 1,
+      "pageWidth": 375,
+      "theme": "light",
+      "title": "Find the part or answer you need",
+      "width": 375
+    },
+    {
+      "route": "/hardware/",
+      "size": "mobile",
+      "h1s": 1,
+      "pageWidth": 375,
+      "theme": "light",
+      "title": "Explore hardware.",
+      "width": 375
+    },
+    {
+      "route": "/compare/",
+      "size": "mobile",
+      "h1s": 1,
+      "pageWidth": 375,
+      "theme": "light",
+      "title": "Compare hardware",
+      "width": 375
+    },
+    {
+      "route": "/performance/",
+      "size": "mobile",
+      "h1s": 1,
+      "pageWidth": 375,
+      "theme": "light",
+      "title": "Game performance",
+      "width": 375
+    },
+    {
+      "route": "/upgrade/",
+      "size": "mobile",
+      "h1s": 1,
+      "pageWidth": 375,
+      "theme": "light",
+      "title": "Improve the PC you already own",
+      "width": 375
+    },
+    {
+      "route": "/phones/size-compare/",
+      "size": "mobile",
+      "h1s": 1,
+      "pageWidth": 375,
+      "theme": "light",
+      "title": "Compare phones",
+      "width": 375
+    },
+    {
+      "route": "/prebuilts/",
+      "size": "mobile",
+      "h1s": 1,
+      "pageWidth": 375,
+      "theme": "light",
+      "title": "Compare prebuilt PCs",
+      "width": 375
+    },
+    {
+      "route": "/news/",
+      "size": "mobile",
+      "h1s": 1,
+      "pageWidth": 375,
+      "theme": "light",
+      "title": "Technology newsroom",
+      "width": 375
+    },
+    {
+      "route": "/blog/",
+      "size": "mobile",
+      "h1s": 1,
+      "pageWidth": 375,
+      "theme": "light",
+      "title": "Understand your hardware.",
+      "width": 375
+    },
+    {
+      "route": "/resources/hardware-evidence/",
+      "size": "mobile",
+      "h1s": 1,
+      "pageWidth": 375,
+      "theme": "light",
+      "title": "What is documented in this hardware catalog?",
+      "width": 375
+    },
+    {
+      "route": "/performance/coverage/",
+      "size": "mobile",
+      "h1s": 1,
+      "pageWidth": 375,
+      "theme": "light",
+      "title": "Which performance results have evidence?",
+      "width": 375
+    },
+    {
+      "route": "/build-school/",
+      "size": "mobile",
+      "h1s": 1,
+      "pageWidth": 375,
+      "theme": "light",
+      "title": "Build School",
+      "width": 375
+    },
+    {
+      "route": "/",
+      "size": "desktop",
+      "h1s": 1,
+      "pageWidth": 1265,
+      "theme": "dark",
+      "title": "Compare PC parts. Plan a better build.",
+      "width": 1265
+    },
+    {
+      "route": "/hardware/",
+      "size": "desktop",
+      "h1s": 1,
+      "pageWidth": 1265,
+      "theme": "dark",
+      "title": "Explore hardware.",
+      "width": 1265
+    },
+    {
+      "route": "/compare/",
+      "size": "desktop",
+      "h1s": 1,
+      "pageWidth": 1265,
+      "theme": "dark",
+      "title": "Compare hardware",
+      "width": 1265
+    },
+    {
+      "route": "/performance/",
+      "size": "desktop",
+      "h1s": 1,
+      "pageWidth": 1265,
+      "theme": "dark",
+      "title": "Game performance",
+      "width": 1265
+    },
+    {
+      "route": "/compatibility/",
+      "size": "desktop",
+      "h1s": 1,
+      "pageWidth": 1265,
+      "theme": "dark",
+      "title": "Check what actually matters",
+      "width": 1265
+    },
+    {
+      "route": "/upgrade/",
+      "size": "desktop",
+      "h1s": 1,
+      "pageWidth": 1265,
+      "theme": "dark",
+      "title": "Improve the PC you already own",
+      "width": 1265
+    },
+    {
+      "route": "/prebuilts/",
+      "size": "desktop",
+      "h1s": 1,
+      "pageWidth": 1265,
+      "theme": "dark",
+      "title": "Compare prebuilt PCs",
+      "width": 1265
+    },
+    {
+      "route": "/tools/",
+      "size": "desktop",
+      "h1s": 1,
+      "pageWidth": 1265,
+      "theme": "dark",
+      "title": "PC planning tools",
+      "width": 1265
+    },
+    {
+      "route": "/build-school/",
+      "size": "desktop",
+      "h1s": 1,
+      "pageWidth": 1265,
+      "theme": "dark",
+      "title": "Build School",
+      "width": 1265
+    },
+    {
+      "route": "/search/",
+      "size": "desktop",
+      "h1s": 1,
+      "pageWidth": 1265,
+      "theme": "dark",
+      "title": "Find the part or answer you need",
+      "width": 1265
+    },
+    {
+      "route": "/news/",
+      "size": "desktop",
+      "h1s": 1,
+      "pageWidth": 1265,
+      "theme": "dark",
+      "title": "Technology newsroom",
+      "width": 1265
+    },
+    {
+      "route": "/blog/",
+      "size": "desktop",
+      "h1s": 1,
+      "pageWidth": 1265,
+      "theme": "dark",
+      "title": "Understand your hardware.",
+      "width": 1265
+    },
+    {
+      "route": "/resources/",
+      "size": "desktop",
+      "h1s": 1,
+      "pageWidth": 1265,
+      "theme": "dark",
+      "title": "Resource center",
+      "width": 1265
+    },
+    {
+      "route": "/troubleshooting/",
+      "size": "desktop",
+      "h1s": 1,
+      "pageWidth": 1265,
+      "theme": "dark",
+      "title": "Find the cause before replacing parts",
+      "width": 1265
+    },
+    {
+      "route": "/resources/hardware-evidence/",
+      "size": "desktop",
+      "h1s": 1,
+      "pageWidth": 1265,
+      "theme": "dark",
+      "title": "What is documented in this hardware catalog?",
+      "width": 1265
+    },
+    {
+      "route": "/performance/coverage/",
+      "size": "desktop",
+      "h1s": 1,
+      "pageWidth": 1265,
+      "theme": "dark",
+      "title": "Which performance results have evidence?",
+      "width": 1265
+    },
+    {
+      "route": "/learn/rtx5070.html",
+      "size": "desktop",
+      "h1s": 1,
+      "pageWidth": 1265,
+      "theme": "dark",
+      "title": "GeForce RTX 5070",
+      "width": 1265
+    },
+    {
+      "route": "/blog/prebuilt-gaming-pc-canada-shortlist/",
+      "size": "desktop",
+      "h1s": 1,
+      "pageWidth": 1265,
+      "theme": "dark",
+      "title": "How to shortlist a prebuilt gaming PC in Canada",
+      "width": 1265
+    }
+  ]
+}

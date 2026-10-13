@@ -1,0 +1,227 @@
+{
+  "schema": 1,
+  "date": "2026-10-13",
+  "status": "Source-inspected facts implemented in the shared readiness engine; production deployment and browser QA are separate release steps.",
+  "engineVersion": "2026-10-13.1",
+  "identityMigrations": [],
+  "biosSupportAdded": 0,
+  "researchedModels": [
+    {
+      "model": "MSI MAG B850 TOMAHAWK MAX WIFI",
+      "ids": [
+        "b850tomahawk",
+        "c-board-msi-mag-b850-tomahawk-max-wifi",
+        "retail-msi-mag-b850-tomahawk-max-wifi"
+      ],
+      "source": "https://www.msi.com/Motherboard/MAG-B850-TOMAHAWK-MAX-WIFI/Specification",
+      "access": "Full named specification table read",
+      "fields": {
+        "socket": "AM5",
+        "ddr": "DDR5",
+        "modules": 4,
+        "memoryMax": 256,
+        "form": "ATX",
+        "m2": 4,
+        "sata": 4
+      },
+      "notes": "M2_3 and PCI_E3 configuration and CPU-dependent slot rates require the exact manual. A nominal count does not approve every occupied layout."
+    },
+    {
+      "model": "MSI MPG X870E CARBON WIFI",
+      "ids": [
+        "c-board-msi-mpg-x870e-carbon-wifi",
+        "retail-msi-mpg-x870e-carbon-wifi"
+      ],
+      "source": "https://www.msi.com/Motherboard/MPG-X870E-CARBON-WIFI/Specification",
+      "access": "Correctly named top specification table read; unrelated stale Z690 prose block excluded",
+      "fields": {
+        "socket": "AM5",
+        "ddr": "DDR5",
+        "modules": 4,
+        "memoryMax": 256,
+        "form": "ATX",
+        "m2": 4,
+        "sata": 4
+      },
+      "notes": "M2_2 unavailable with Ryzen 8000. PCI_E1/PCI_E2/M2_2 sharing still needs exact slot/CPU configuration."
+    },
+    {
+      "model": "MSI PRO B650M-A WIFI",
+      "ids": [
+        "retail-msi-pro-b650m-a-wifi"
+      ],
+      "source": "https://www.msi.com/Motherboard/PRO-B650M-A-WIFI/Specification",
+      "access": "Full named specification table read",
+      "fields": {
+        "socket": "AM5",
+        "ddr": "DDR5",
+        "modules": 4,
+        "memoryMax": 256,
+        "form": "MICRO-ATX",
+        "m2": 2,
+        "sata": 4
+      },
+      "notes": "Manufacturer mATX normalized to MICRO-ATX. M2_2 is unavailable with Ryzen 8500/8300."
+    },
+    {
+      "model": "MSI MAG Z790 TOMAHAWK WIFI",
+      "ids": [
+        "z790tomahawk",
+        "c-board-msi-mag-z790-tomahawk-wifi"
+      ],
+      "source": "https://www.msi.com/Motherboard/MAG-Z790-TOMAHAWK-WIFI/Specification",
+      "socketSource": "https://storage-asset.msi.com/datasheet/mb/global/MAG-Z790-TOMAHAWK-WIFI.pdf",
+      "access": "Full named table and official one-page datasheet specification text read",
+      "fields": {
+        "socket": "LGA1700",
+        "ddr": "DDR5",
+        "modules": 4,
+        "memoryMax": 256,
+        "form": "ATX",
+        "m2": 4,
+        "sata": 7
+      },
+      "notes": "Socket printed LGA 1700 normalized for engine comparison. Evidence does not apply to DDR4 or MAX variants; exact minimum BIOS remains unresolved."
+    },
+    {
+      "model": "ASUS ROG STRIX B550-F GAMING (WI-FI)",
+      "ids": [
+        "retail-asus-rog-strix-b550-f-gaming-wi-fi"
+      ],
+      "source": "https://rog.asus.com/us/motherboards/rog-strix/rog-strix-b550-f-gaming-wi-fi-model/spec/",
+      "access": "Model, CPU, memory, storage and form-factor sections read",
+      "fields": {
+        "socket": "AM4",
+        "ddr": "DDR4",
+        "modules": 4,
+        "memoryMax": 128,
+        "form": "ATX",
+        "m2": 2,
+        "sata": 6
+      },
+      "notes": "Does not attach to legacy b550f ID (WIFI II) or the distinct non-Wi-Fi variant. Storage sharing and exact CPU-support entry remain separate."
+    },
+    {
+      "model": "AMD Ryzen 7 7800X3D",
+      "ids": [
+        "7800x3d"
+      ],
+      "source": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7800x3d.html",
+      "access": "General, connectivity, graphics and boxed-product sections read",
+      "fields": {
+        "socket": "AM5",
+        "ddr": "DDR5",
+        "memoryMax": 128,
+        "tdp": 120,
+        "includedCooler": false,
+        "integratedGraphics": true
+      },
+      "notes": "128 GB processor memory limit is separate from a board's 256 GB advertised limit. TDP is not measured electricity use."
+    },
+    {
+      "model": "AMD Ryzen 9 9950X3D",
+      "ids": [
+        "9950x3d"
+      ],
+      "source": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9950x3d.html",
+      "access": "General, connectivity, graphics and boxed-product sections read",
+      "fields": {
+        "socket": "AM5",
+        "ddr": "DDR5",
+        "memoryMax": 256,
+        "tdp": 170,
+        "includedCooler": false,
+        "integratedGraphics": true
+      },
+      "notes": "Advertised profile speed, firmware support and populated-module operation are not guaranteed by these fields."
+    },
+    {
+      "model": "AMD Ryzen 7 5700X3D",
+      "ids": [
+        "5700x3d"
+      ],
+      "source": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x3d.html",
+      "access": "Full official support-page Specifications section read after product-page tool fetch failed",
+      "fields": {
+        "socket": "AM4",
+        "ddr": "DDR4",
+        "memoryMax": 128,
+        "tdp": 105,
+        "includedCooler": false,
+        "integratedGraphics": false
+      },
+      "notes": "AMD explicitly says discrete graphics required. General product-page fetch failure was not treated as proof of a broken live page."
+    },
+    {
+      "model": "Intel Core Ultra 7 265K",
+      "ids": [
+        "ultra7265k"
+      ],
+      "source": "https://www.intel.com/content/www/us/en/products/sku/241063/intel-core-ultra-7-processor-265k-30m-cache-up-to-5-50-ghz/specifications.html",
+      "access": "CPU, memory, GPU and package specifications read",
+      "fields": {
+        "socket": "LGA1851",
+        "sourceSocket": "FCLGA1851",
+        "ddr": "DDR5",
+        "memoryMax": 256,
+        "integratedGraphics": true,
+        "processorBasePower": 125,
+        "maximumTurboPower": 250
+      },
+      "notes": "Package prefix FC removed only for socket matching. Processor base power and maximum turbo power are not relabeled as TDP or measured wall power. Included cooler remains unknown."
+    },
+    {
+      "model": "Intel Core i7-14700K",
+      "ids": [
+        "i714700k"
+      ],
+      "source": "https://www.intel.com/content/www/us/en/products/sku/236783/intel-core-i7-processor-14700k-33m-cache-up-to-5-60-ghz/specifications.html",
+      "access": "CPU, memory, GPU and package specifications read; exact processor number checked",
+      "fields": {
+        "socket": "LGA1700",
+        "sourceSocket": "FCLGA1700",
+        "ddr": [
+          "DDR4",
+          "DDR5"
+        ],
+        "memoryMax": 192,
+        "integratedGraphics": true,
+        "processorBasePower": 125,
+        "maximumTurboPower": 253
+      },
+      "notes": "Compatibility field source uses inspected SKU236783. Inherited catalog source SKU236789 failed the initial fetch; its raw catalog URL has not been silently migrated here. K and KF variants are not merged."
+    }
+  ],
+  "behaviorCorrections": [
+    {
+      "id": "cpu-memory-capacity",
+      "before": "Readiness compared selected RAM capacity only with the documented motherboard limit.",
+      "after": "Adds a separate processor-limit check. Unknown CPU limits stay needs-verification; a verified lower CPU limit produces a documented conflict."
+    },
+    {
+      "id": "display-output",
+      "before": "A documented false integratedGraphics field followed the same wording/state as unknown graphics capability.",
+      "after": "A CPU documented without graphics plus no discrete GPU records a narrow display-path conflict; unknown capability stays needs-verification."
+    },
+    {
+      "id": "source-verification-date",
+      "before": "documented() used global Oct9 date even for a source with its own checked date.",
+      "after": "documented() uses the source-specific verification date. Existing Oct9 sources and facts retain their actual original date."
+    }
+  ],
+  "limitations": [
+    "No exact CPU-support-list entry, minimum BIOS or installed/shipped BIOS has been approved for these new pairings.",
+    "Memory profile stability, mixed kits, ECC/buffered behavior and physical mounting remain separate verification tasks.",
+    "M.2/SATA counts are nominal positions; conditional slot availability, CPU groups, occupied connections and lane sharing are not certified by a count.",
+    "No identity merge, redirect or saved-build ID migration was performed.",
+    "No new card dimensions, case geometry, prices or benchmark measurements were invented."
+  ],
+  "tests": "node scripts/test-growth-evidence.cjs; node scripts/check-builder-program.cjs",
+  "catalogSourceCorrection": {
+    "id": "i714700k",
+    "file": "dist/data.js",
+    "oldURL": "https://www.intel.com/content/www/us/en/products/sku/236789/intel-core-i7-processor-14700k-33m-cache-up-to-5-60-ghz/specifications.html",
+    "newURL": "https://www.intel.com/content/www/us/en/products/sku/236783/intel-core-i7-processor-14700k-33m-cache-up-to-5-60-ghz/specifications.html",
+    "scope": "Exact inspected official product URL; no numeric specifications or product identity changed."
+  }
+}

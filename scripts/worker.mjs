@@ -2,11 +2,14 @@ import manifest from './route-manifest.mjs';
 /* Local policy is bundled as ESM from the tested CommonJS policy at build time. */
 import { policy } from './worker-policy.mjs';
 import { handleMorningPriceRequest, scheduledMorningPrices } from './morning-price-service.mjs';
+import publishedNews from './news-publications.mjs';
+import { renderRecentNews } from './news-sitemap-response.mjs';
 export default{async fetch(request,env){
  const morning=await handleMorningPriceRequest(request,env);if(morning)return morning;
  const decision=policy(request.url,manifest,{staging:manifest.staging});
  if(decision.status===301)return new Response(null,{status:301,headers:decision.headers});
  if(!['GET','HEAD'].includes(request.method))return new Response('Method not allowed',{status:405,headers:{Allow:'GET, HEAD','X-Robots-Tag':'noindex, follow'}});
+ if(decision.status===200&&decision.route==='/news-sitemap.xml')return new Response(request.method==='HEAD'?null:renderRecentNews(publishedNews),{headers:{'Content-Type':'application/xml; charset=utf-8','Cache-Control':manifest.staging||decision.headers['X-Robots-Tag']?'no-store':'public, max-age=0, must-revalidate','X-Content-Type-Options':'nosniff',...decision.headers}});
  // The Worker owns URL formatting. Disabling automatic asset HTML redirects
  // avoids an .html -> clean URL -> .html loop for existing product URLs.
  const file=decision.status>=400?'/404.html':decision.route.endsWith('/')?decision.route+'index.html':decision.route;

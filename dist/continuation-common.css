@@ -21,3 +21,5 @@
 @media(max-width:600px){.site-header{display:grid;grid-template-columns:minmax(0,1fr) auto auto auto;align-items:center}.site-header .brand{grid-column:1;grid-row:1;min-width:0;margin:0}.site-header .explore-menu{grid-column:2;grid-row:1;margin:0}.site-header .country-switch{grid-column:3;grid-row:1;margin:0}.site-header .theme-toggle{grid-column:4;grid-row:1;margin:0}.site-header .liquid-nav{grid-column:1/-1;grid-row:2;order:initial;width:100%;margin:0}}
 @media(max-width:600px){.explore-panel{position:fixed;top:60px;left:16px;right:16px;width:auto;max-width:none;max-height:calc(100svh - 76px);overflow-y:auto;transform-origin:top center}}
 @keyframes panel-arrive{from{opacity:0;transform:translateY(-6px) scale(.98)}to{opacity:1;transform:none}}
+/* Keep every primary destination visible on phones, without clipped scrolling labels. */
+@media(max-width:600px){.site-header .liquid-nav{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr));gap:2px;overflow:visible;padding:0}.site-header .liquid-nav>a{text-align:center;padding:11px 3px;min-height:40px;font-size:.82rem}}

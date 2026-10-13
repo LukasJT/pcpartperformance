@@ -1,0 +1,437 @@
+{
+  "checkedAt": "2026-10-13T20:12:19.006Z",
+  "scope": "Unthrottled local browser observations with different sample windows; no field INP or comparable before/after timing claim",
+  "samples": [
+    {
+      "route": "/",
+      "run": 1,
+      "environment": "unthrottled local browser; not field Core Web Vitals",
+      "sampleWindowMs": 67615.79999998212,
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "lcp": 2432,
+      "cls": 0.0010691909536158979,
+      "shiftDetails": [
+        {
+          "at": 117.89999997615814,
+          "value": 0.0010691909536158979,
+          "sources": [
+            {
+              "tag": "NAV",
+              "id": "",
+              "class": "liquid-nav",
+              "previous": {
+                "x": 252.78125,
+                "y": 16.546875,
+                "width": 514.671875,
+                "height": 49.890625,
+                "top": 16.546875,
+                "right": 767.453125,
+                "bottom": 66.4375,
+                "left": 252.78125
+              },
+              "current": {
+                "x": 239.515625,
+                "y": 16.546875,
+                "width": 514.671875,
+                "height": 49.890625,
+                "top": 16.546875,
+                "right": 754.1875,
+                "bottom": 66.4375,
+                "left": 239.515625
+              }
+            },
+            {
+              "tag": "DIV",
+              "id": "",
+              "class": "country-switch",
+              "previous": {
+                "x": 944.96875,
+                "y": 18.90625,
+                "width": 144.28125,
+                "height": 49.1875,
+                "top": 18.90625,
+                "right": 1089.25,
+                "bottom": 68.09375,
+                "left": 944.96875
+              },
+              "current": {
+                "x": 918.421875,
+                "y": 18.90625,
+                "width": 144.28125,
+                "height": 49.1875,
+                "top": 18.90625,
+                "right": 1062.703125,
+                "bottom": 68.09375,
+                "left": 918.421875
+              }
+            },
+            {
+              "tag": "DETAILS",
+              "id": "",
+              "class": "explore-menu",
+              "previous": {
+                "x": 832.296875,
+                "y": 19.5,
+                "width": 99.671875,
+                "height": 44,
+                "top": 19.5,
+                "right": 931.96875,
+                "bottom": 63.5,
+                "left": 832.296875
+              },
+              "current": {
+                "x": 805.75,
+                "y": 19.5,
+                "width": 99.671875,
+                "height": 44,
+                "top": 19.5,
+                "right": 905.421875,
+                "bottom": 63.5,
+                "left": 805.75
+              }
+            },
+            {
+              "tag": "BUTTON",
+              "id": "",
+              "class": "theme-toggle",
+              "previous": {
+                "x": 1105.25,
+                "y": 20.265625,
+                "width": 96.5,
+                "height": 42.46875,
+                "top": 20.265625,
+                "right": 1201.75,
+                "bottom": 62.734375,
+                "left": 1105.25
+              },
+              "current": {
+                "x": 1078.703125,
+                "y": 20.265625,
+                "width": 123.046875,
+                "height": 42.46875,
+                "top": 20.265625,
+                "right": 1201.75,
+                "bottom": 62.734375,
+                "left": 1078.703125
+              }
+            },
+            {
+              "tag": "A",
+              "id": "",
+              "class": "",
+              "previous": {
+                "x": 673.65625,
+                "y": 637.96875,
+                "width": 112.4375,
+                "height": 20.796875,
+                "top": 637.96875,
+                "right": 786.09375,
+                "bottom": 658.765625,
+                "left": 673.65625
+              },
+              "current": {
+                "x": 670.65625,
+                "y": 637.96875,
+                "width": 115.4375,
+                "height": 20.796875,
+                "top": 637.96875,
+                "right": 786.09375,
+                "bottom": 658.765625,
+                "left": 670.65625
+              }
+            }
+          ]
+        }
+      ],
+      "longTasks": 0,
+      "longTaskMs": 0,
+      "domContentLoaded": 114,
+      "serverWait": 2,
+      "resourceTransfer": 168687,
+      "threeDRequests": 0,
+      "resources": 19
+    },
+    {
+      "route": "/",
+      "run": 2,
+      "environment": "unthrottled local browser; not field Core Web Vitals",
+      "sampleWindowMs": 69155.5,
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "lcp": 2112,
+      "cls": 0.0010691909536158979,
+      "shiftDetails": [
+        {
+          "at": 152.10000002384186,
+          "value": 0.0010691909536158979,
+          "sources": [
+            {
+              "tag": "NAV",
+              "id": "",
+              "class": "liquid-nav",
+              "previous": {
+                "x": 252.78125,
+                "y": 16.546875,
+                "width": 514.671875,
+                "height": 49.890625,
+                "top": 16.546875,
+                "right": 767.453125,
+                "bottom": 66.4375,
+                "left": 252.78125
+              },
+              "current": {
+                "x": 239.515625,
+                "y": 16.546875,
+                "width": 514.671875,
+                "height": 49.890625,
+                "top": 16.546875,
+                "right": 754.1875,
+                "bottom": 66.4375,
+                "left": 239.515625
+              }
+            },
+            {
+              "tag": "DIV",
+              "id": "",
+              "class": "country-switch",
+              "previous": {
+                "x": 944.96875,
+                "y": 18.90625,
+                "width": 144.28125,
+                "height": 49.1875,
+                "top": 18.90625,
+                "right": 1089.25,
+                "bottom": 68.09375,
+                "left": 944.96875
+              },
+              "current": {
+                "x": 918.421875,
+                "y": 18.90625,
+                "width": 144.28125,
+                "height": 49.1875,
+                "top": 18.90625,
+                "right": 1062.703125,
+                "bottom": 68.09375,
+                "left": 918.421875
+              }
+            },
+            {
+              "tag": "DETAILS",
+              "id": "",
+              "class": "explore-menu",
+              "previous": {
+                "x": 832.296875,
+                "y": 19.5,
+                "width": 99.671875,
+                "height": 44,
+                "top": 19.5,
+                "right": 931.96875,
+                "bottom": 63.5,
+                "left": 832.296875
+              },
+              "current": {
+                "x": 805.75,
+                "y": 19.5,
+                "width": 99.671875,
+                "height": 44,
+                "top": 19.5,
+                "right": 905.421875,
+                "bottom": 63.5,
+                "left": 805.75
+              }
+            },
+            {
+              "tag": "BUTTON",
+              "id": "",
+              "class": "theme-toggle",
+              "previous": {
+                "x": 1105.25,
+                "y": 20.265625,
+                "width": 96.5,
+                "height": 42.46875,
+                "top": 20.265625,
+                "right": 1201.75,
+                "bottom": 62.734375,
+                "left": 1105.25
+              },
+              "current": {
+                "x": 1078.703125,
+                "y": 20.265625,
+                "width": 123.046875,
+                "height": 42.46875,
+                "top": 20.265625,
+                "right": 1201.75,
+                "bottom": 62.734375,
+                "left": 1078.703125
+              }
+            },
+            {
+              "tag": "A",
+              "id": "",
+              "class": "",
+              "previous": {
+                "x": 673.65625,
+                "y": 637.96875,
+                "width": 112.4375,
+                "height": 20.796875,
+                "top": 637.96875,
+                "right": 786.09375,
+                "bottom": 658.765625,
+                "left": 673.65625
+              },
+              "current": {
+                "x": 670.65625,
+                "y": 637.96875,
+                "width": 115.4375,
+                "height": 20.796875,
+                "top": 637.96875,
+                "right": 786.09375,
+                "bottom": 658.765625,
+                "left": 670.65625
+              }
+            }
+          ]
+        }
+      ],
+      "longTasks": 0,
+      "longTaskMs": 0,
+      "domContentLoaded": 149,
+      "serverWait": 2.4000000059604645,
+      "resourceTransfer": 168687,
+      "threeDRequests": 0,
+      "resources": 19
+    },
+    {
+      "route": "/builder/",
+      "run": 1,
+      "environment": "unthrottled local browser; not field Core Web Vitals",
+      "sampleWindowMs": 64297.5,
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "lcp": 2596,
+      "cls": 0.0010067022833698445,
+      "shiftDetails": [
+        {
+          "at": 128.80000001192093,
+          "value": 0.0010067022833698445,
+          "sources": [
+            {
+              "tag": "NAV",
+              "id": "",
+              "class": "liquid-nav",
+              "previous": {
+                "x": 255.28125,
+                "y": 16.546875,
+                "width": 514.671875,
+                "height": 49.890625,
+                "top": 16.546875,
+                "right": 769.953125,
+                "bottom": 66.4375,
+                "left": 255.28125
+              },
+              "current": {
+                "x": 242.015625,
+                "y": 16.546875,
+                "width": 514.671875,
+                "height": 49.890625,
+                "top": 16.546875,
+                "right": 756.6875,
+                "bottom": 66.4375,
+                "left": 242.015625
+              }
+            },
+            {
+              "tag": "DIV",
+              "id": "",
+              "class": "country-switch",
+              "previous": {
+                "x": 949.71875,
+                "y": 18.90625,
+                "width": 144.28125,
+                "height": 49.1875,
+                "top": 18.90625,
+                "right": 1094,
+                "bottom": 68.09375,
+                "left": 949.71875
+              },
+              "current": {
+                "x": 923.171875,
+                "y": 18.90625,
+                "width": 144.28125,
+                "height": 49.1875,
+                "top": 18.90625,
+                "right": 1067.453125,
+                "bottom": 68.09375,
+                "left": 923.171875
+              }
+            },
+            {
+              "tag": "DETAILS",
+              "id": "",
+              "class": "explore-menu",
+              "previous": {
+                "x": 837.046875,
+                "y": 19.5,
+                "width": 99.671875,
+                "height": 44,
+                "top": 19.5,
+                "right": 936.71875,
+                "bottom": 63.5,
+                "left": 837.046875
+              },
+              "current": {
+                "x": 810.5,
+                "y": 19.5,
+                "width": 99.671875,
+                "height": 44,
+                "top": 19.5,
+                "right": 910.171875,
+                "bottom": 63.5,
+                "left": 810.5
+              }
+            },
+            {
+              "tag": "BUTTON",
+              "id": "",
+              "class": "theme-toggle",
+              "previous": {
+                "x": 1110,
+                "y": 20.265625,
+                "width": 96.5,
+                "height": 42.46875,
+                "top": 20.265625,
+                "right": 1206.5,
+                "bottom": 62.734375,
+                "left": 1110
+              },
+              "current": {
+                "x": 1083.453125,
+                "y": 20.265625,
+                "width": 123.046875,
+                "height": 42.46875,
+                "top": 20.265625,
+                "right": 1206.5,
+                "bottom": 62.734375,
+                "left": 1083.453125
+              }
+            }
+          ]
+        }
+      ],
+      "longTasks": 1,
+      "longTaskMs": 82,
+      "domContentLoaded": 296.2000000178814,
+      "serverWait": 2.199999988079071,
+      "resourceTransfer": 173014,
+      "threeDRequests": 0,
+      "resources": 35
+    }
+  ]
+}

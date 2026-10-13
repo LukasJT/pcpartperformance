@@ -1,0 +1,72 @@
+{
+  "version": "2026-10-13.1",
+  "inspectedAt": "2026-10-13",
+  "scope": "Observable troubleshooting checks and transparent user-input arithmetic; no firsthand hardware testing or measured performance claims.",
+  "sources": [
+    {
+      "id": "asus",
+      "publisher": "ASUS",
+      "url": "https://www.asus.com/us/support/faq/1042632/",
+      "access": "Full official page read",
+      "supports": ["Display input/cable/output checks", "CPU-support and BIOS verification", "Recommended memory slots and one-module check", "Graphics-card seating and required power connections"],
+      "implementationLimits": "Exact model manuals override general steps. No pin shorting, socket cleaning, guessed CMOS/BIOS procedure or automatic defect diagnosis was introduced."
+    },
+    {
+      "id": "led",
+      "publisher": "ASUS",
+      "url": "https://www.asus.com/us/support/faq/1042678/",
+      "access": "Full official page read",
+      "supports": ["Persistent labeled CPU/DRAM/VGA/BOOT indicators", "Recommended RAM configuration", "Storage connections"],
+      "implementationLimits": "LEDs are investigative indicators, not proof of a failed component. Colors and model behavior are not assumed universal."
+    },
+    {
+      "id": "msi",
+      "publisher": "MSI",
+      "url": "https://www.msi.com/support/technical_details/MB_Boot_No_Display",
+      "access": "Full official page read",
+      "supports": ["CPU and required-BIOS support list", "EZ Debug LED observation", "Documented minimal POST and reconnecting one item at a time"],
+      "implementationLimits": "Keep cooling installed, preserve a required discrete GPU, disconnect power before internal work. Board-specific minimal configuration must be verified in its documentation."
+    },
+    {
+      "id": "disk",
+      "publisher": "Microsoft",
+      "url": "https://learn.microsoft.com/en-us/windows-server/storage/disk-management/initialize-new-disks",
+      "access": "Full official page read",
+      "supports": ["Disk initialization applies to a new empty disk", "Existing data must be protected", "Initialization and formatting are separate from firmware detection"],
+      "implementationLimits": "Unknown data state follows the data-protection branch. Tool does not initialize, format, repair or inspect a drive."
+    },
+    {
+      "id": "latency",
+      "publisher": "Kingston",
+      "url": "https://www.kingston.com/en/blog/gaming/cas-latency-cl-ram-timing-explained",
+      "access": "Full official page and timing definitions read",
+      "supports": ["CAS cycles × 2000 ÷ DDR MT/s", "CL, tRCD and tRP are timing-cycle counts", "Profiles exceed standard settings and need supported platforms"],
+      "implementationLimits": "Tool calls output CAS interval rather than complete system access latency. Optional timings remain unknown; timing arithmetic is not FPS or stability evidence."
+    },
+    {
+      "id": "glossary",
+      "publisher": "Kingston",
+      "url": "https://www.kingston.com/en/memory/kingston-glossary",
+      "access": "DDR, MHz, MT/s, memory-channel and Speed sections read",
+      "supports": ["DDR transfers on both clock edges", "MT/s is twice clock frequency in MHz", "Peak module rate from MT/s × 8"],
+      "implementationLimits": "Output identifies a theoretical 64-bit data path and does not infer active channel count or measured system throughput."
+    },
+    {
+      "id": "units",
+      "publisher": "NIST",
+      "url": "https://physics.nist.gov/cuu/Units/binary.html",
+      "access": "Full unit definitions page read",
+      "supports": ["GB and MB use decimal prefixes", "GiB and MiB use powers of two", "A byte contains eight bits"],
+      "implementationLimits": "Copy duration = manually entered bytes divided by manually entered effective bytes/second. Extra allowance is an explicit user choice, not a statistical range."
+    }
+  ],
+  "existingFeatureDecisions": [
+    {"route":"/tools/monitor-pixel-density/","decision":"Preserved; already includes width and height, so no duplicate screen-size calculator created."},
+    {"route":"/tools/ram-latency-calculator/","decision":"Preserved and linked; new comparator adds two-kit comparison, optional tRCD/tRP and separate rate/interval reporting."},
+    {"route":"/tools/storage-capacity-planner/","decision":"Preserved and linked; new transfer planner serves duration rather than capacity."},
+    {"route":"/troubleshooting/","decision":"Extended existing route; original low-FPS, stutter and driver checklists remain present."}
+  ],
+  "privacy": "No hardware auto-detection, network requests, notes analytics or automatic persistence. Local path saving needs an explicit checkbox and save action; restore/remove/export are visible controls.",
+  "integration": "After program-site.cjs and before continuation-site.decorate, seo-pass and program-routing manifest: require('./growth-tools.cjs')({root,records,images,shell,write,esc}). Generator changes only /troubleshooting/, /tools/, its two new tool routes, tool assets, shared search index and growth-tool-metadata.json.",
+  "verification": {"command":"node scripts/test-growth-tools.cjs","browserQA":"Parent integration must inspect desktop/mobile, both themes, branch/back/reset/save/restore, decimal transfer input and both calculator results."}
+}

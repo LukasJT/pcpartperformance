@@ -21,6 +21,18 @@ module.exports=({root,records,images,groups,shell,write,esc})=>{
    const route=base+'/page/'+i;
    write(route,shell(`${label}: page ${i}`,'catalog-page',`<header class="page-heading"><div><h1>${esc(label)}: page ${i}</h1><p>${(i-1)*24+1}–${Math.min(i*24,rows.length)} of ${rows.length} indexed parts</p></div><a class="button secondary" href="/${base}/">Search catalog</a></header>${directory}<div class="table-scroll"><table class="hardware-table"><thead><tr><th>Hardware</th><th>Category</th><th>Released</th><th>Specification</th><th>Compare</th></tr></thead><tbody>${rows.slice((i-1)*24,i*24).map(row).join('')}</tbody></table></div>${pagination(base,i,count)}`,{description:`Browse page ${i} of the ${label.toLowerCase()}. Open model specifications and source documentation.`}));paginationPages++;
   }
+  // Retained files from an earlier, larger catalog must not masquerade as a
+  // current extra page. Preserve each URL with one related permanent redirect.
+  const pageRoot=path.join(root,base,'page');
+  if(fs.existsSync(pageRoot))for(const entry of fs.readdirSync(pageRoot,{withFileTypes:true})){
+   if(!entry.isDirectory()||!/^\d+$/.test(entry.name)||Number(entry.name)<=count)continue;
+   const file=path.join(pageRoot,entry.name,'index.html');
+   if(!fs.existsSync(file))continue;
+   const old=fs.readFileSync(file,'utf8');
+   if(!old.includes('data-page="catalog-page"')&&!old.includes('data-catalog-page-retired'))continue;
+   const target='/'+base+'/'+(count>1?'page/'+count+'/':'');
+   fs.writeFileSync(file,`<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Catalog page moved</title><link rel="canonical" href="${domain+target}"></head><body data-legacy-redirect data-catalog-page-retired><p><a href="${target}">Continue to the current last catalog page</a></p></body></html>`);
+  }
  }
  const tools={
   ram:`<form class="research-calculator" data-calculator="ram"><h2>Compare two memory profiles</h2><div class="calculator-inputs">${['A','B'].map((letter,i)=>`<fieldset><legend>Profile ${letter}</legend><label>Transfer rate (MT/s)<input name="rate${letter}" type="number" min="1" max="100000" step="1" value="6000" required></label><label>CAS latency (cycles)<input name="cl${letter}" type="number" min="1" max="1000" step="1" value="${i?36:30}" required></label></fieldset>`).join('')}</div><button class="button primary" type="submit">Calculate latency</button><output aria-live="polite">Profile A: 10.00 ns. Profile B: 12.00 ns. Calculated first-word CAS interval.</output><noscript><p>Use CL × 2,000 ÷ MT/s manually. Interactive inputs need JavaScript.</p></noscript></form>`,
