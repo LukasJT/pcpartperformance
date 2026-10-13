@@ -1,0 +1,96 @@
+{
+  "checkedAt": "2026-10-13T20:19:46.438Z",
+  "commit": "02e9eeb3df23a38b93682b3a8f5caf1a263fe345",
+  "release": {
+    "schema": 1,
+    "program": "2026-10-11-continuation",
+    "commit": "02e9eeb3df23a38b93682b3a8f5caf1a263fe345",
+    "generatedAt": "2026-10-13T20:16:24.750Z",
+    "staging": false
+  },
+  "checks": [
+    {
+      "route": "/",
+      "status": 200,
+      "check": "actual new content and canonical HTML"
+    },
+    {
+      "route": "/troubleshooting/",
+      "status": 200,
+      "check": "actual new content and canonical HTML"
+    },
+    {
+      "route": "/compatibility/",
+      "status": 200,
+      "check": "actual new content and canonical HTML"
+    },
+    {
+      "route": "/tools/memory-timing-comparison/",
+      "status": 200,
+      "check": "actual new content and canonical HTML"
+    },
+    {
+      "route": "/tools/storage-transfer-time/",
+      "status": 200,
+      "check": "actual new content and canonical HTML"
+    },
+    {
+      "route": "/resources/hardware-evidence/",
+      "status": 200,
+      "check": "actual new content and canonical HTML"
+    },
+    {
+      "route": "/performance/coverage/",
+      "status": 200,
+      "check": "actual new content and canonical HTML"
+    },
+    {
+      "route": "/search/",
+      "status": 200,
+      "check": "actual new content and canonical HTML"
+    },
+    {
+      "route": "/news/",
+      "status": 200,
+      "check": "actual new content and canonical HTML"
+    },
+    {
+      "route": "/builder/",
+      "status": 200,
+      "check": "actual new content and canonical HTML"
+    },
+    {
+      "route": "/hardware/page/52/",
+      "status": 301,
+      "destination": "https://www.pcpartperformance.com/hardware/page/51/"
+    },
+    {
+      "route": "/hardware/phones/page/9/",
+      "status": 301,
+      "destination": "https://www.pcpartperformance.com/hardware/phones/page/8/"
+    },
+    {
+      "route": "/search/?q=RTX5070",
+      "check": "query noindex and no-store"
+    },
+    {
+      "route": "/growth-review/g01/",
+      "status": 404,
+      "check": "unapproved draft unavailable"
+    },
+    {
+      "route": "/data/hardware-evidence-coverage.json",
+      "check": "actual original coverage counts"
+    },
+    {
+      "route": "/news-sitemap.xml",
+      "check": "runtime 48-hour age policy and HEAD; archive dates unchanged"
+    },
+    {
+      "route": "/api/v1/morning-prices/status",
+      "check": "prices honestly disabled without a source account",
+      "status": "not_configured"
+    }
+  ],
+  "passed": true
+}

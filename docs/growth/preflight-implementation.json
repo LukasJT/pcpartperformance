@@ -1,0 +1,14 @@
+{
+  "checkedAt": "2026-10-13T20:11:44.661Z",
+  "changedOrNewFiles": 391,
+  "syntaxFiles": 38,
+  "syntaxFailures": [],
+  "secretCandidates": [],
+  "unwantedTrackedCandidates": [],
+  "distFiles": 2795,
+  "distBytes": 514736746,
+  "filesOver25MiB": [],
+  "staging": false,
+  "releaseStaging": false,
+  "scope": "Changed/new JavaScript syntax, recognizable credential patterns, ignored-file leakage, asset upload sizes and normal production build. Not a complete security audit."
+}

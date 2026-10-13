@@ -1,7 +1,7 @@
 {
   "phase": "after",
   "clientDate": "2026-10-13",
-  "checkedAt": "2026-10-13T20:11:46.991Z",
+  "checkedAt": "2026-10-13T20:29:06.559Z",
   "stack": "Node static HTML generation plus Cloudflare Worker routing; existing browser scripts and source-driven modules. No framework/CMS change.",
   "hardwareRecords": 1216,
   "categories": {
@@ -650,7 +650,7 @@
       "bytes": 12178,
       "htmlGzip": 3694,
       "scriptGzip": 32305,
-      "styleBytes": 145119,
+      "styleBytes": 145359,
       "links": [
         "/",
         "/builder/",
@@ -1011,9 +1011,9 @@
       "redirect": null,
       "noindex": false,
       "h1": 1,
-      "bytes": 34627,
-      "htmlGzip": 8440,
-      "scriptGzip": 24258,
+      "bytes": 34663,
+      "htmlGzip": 8445,
+      "scriptGzip": 24277,
       "styleBytes": 128736,
       "links": [
         "/",
@@ -1083,7 +1083,7 @@
       "bytes": 8897,
       "htmlGzip": 2805,
       "scriptGzip": 10899,
-      "styleBytes": 113259,
+      "styleBytes": 113499,
       "links": [
         "/",
         "/builder/",
@@ -1330,9 +1330,9 @@
       "noindex": false,
       "h1": 1,
       "bytes": 10222,
-      "htmlGzip": 3310,
+      "htmlGzip": 3308,
       "scriptGzip": 13671,
-      "styleBytes": 132848,
+      "styleBytes": 133088,
       "links": [
         "/",
         "/builder/",

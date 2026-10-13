@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-10-13T20:07:51.722Z",
-  "scope": "Actual growth and full existing program/continuation commands. Browser tests recorded separately.",
+  "checkedAt": "2026-10-13T20:27:44.804Z",
+  "scope": "Actual final growth and full program/continuation commands; browser tests separate.",
   "runs": [
     {
       "command": "node scripts/test-growth-tools.cjs",
