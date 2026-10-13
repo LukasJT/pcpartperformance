@@ -1,0 +1,286 @@
+{
+  "schema": 1,
+  "evidenceDate": "2026-10-13",
+  "valid": true,
+  "errors": [],
+  "articles": 8,
+  "words": 6211,
+  "newIntents": 1,
+  "revisedIntents": 7,
+  "humanReviewClaimed": false,
+  "published": 0,
+  "publicationAuthorization": null,
+  "items": [
+    {
+      "id": "M01",
+      "title": "RX 9070 vs RX 9070 XT: specifications, power and the price decision",
+      "route": "/compare/rx-9070-vs-rx-9070-xt/",
+      "existingIntent": null,
+      "intentDecision": "New curated pair requested in the master plan; existing RTX 5070/RX 9070 pages answer a different choice.",
+      "words": 723,
+      "sourceIds": [
+        "rx9070",
+        "rx9070xt",
+        "north",
+        "cables"
+      ],
+      "hash": "6936d81333e37854bc5a3339a5e5298585b92555eedb98b95cb35838410c75ce",
+      "contentVersion": "2026-10-13.master1",
+      "status": "complete_source_checked",
+      "reviewStatus": "AI_source_checked_owner_release_pending",
+      "humanReview": null,
+      "imagePlan": {
+        "kind": "original_editorial_diagram",
+        "width": 1200,
+        "height": 675,
+        "concept": "Two labeled GPU design columns with equal 16 GB memory blocks and separately labeled 220 W / 304 W specification bars",
+        "alt": "Two labeled GPU design columns with equal 16 GB memory blocks and separately labeled 220 W / 304 W specification bars",
+        "generated": false
+      },
+      "limits": [
+        "No current price comparison, measured gaming dataset or partner-card acoustic testing is supplied."
+      ]
+    },
+    {
+      "id": "M02",
+      "title": "DDR5-6000 CL30 vs CL36: what the 2 ns calculation can tell you",
+      "route": "/blog/ram-timings-cas-trcd-trp/",
+      "existingIntent": {
+        "program": "growth",
+        "id": "G04",
+        "route": "/blog/ram-timings-cas-trcd-trp/"
+      },
+      "intentDecision": "Material upgrade of growth G04; preserve the timing guide canonical rather than adding a competing CL30/CL36 article.",
+      "words": 769,
+      "sourceIds": [
+        "timing",
+        "kitIdentity",
+        "expo"
+      ],
+      "hash": "b15d8121ffd1641421b9346a06d568bb396d63a544d6943b703daeb818e681a4",
+      "contentVersion": "2026-10-13.master1",
+      "status": "complete_source_checked",
+      "reviewStatus": "AI_source_checked_owner_release_pending",
+      "humanReview": null,
+      "imagePlan": {
+        "kind": "original_editorial_diagram",
+        "width": 1200,
+        "height": 675,
+        "concept": "A labeled 6000 MT/s clock-cycle diagram showing CL30 equals 10 ns and CL36 equals 12 ns; both explicitly marked calculated",
+        "alt": "A labeled 6000 MT/s clock-cycle diagram showing CL30 equals 10 ns and CL36 equals 12 ns; both explicitly marked calculated",
+        "generated": false
+      },
+      "limits": [
+        "No measured game uplift, total memory-access latency or profile-stability guarantee is supplied."
+      ]
+    },
+    {
+      "id": "M03",
+      "title": "Samsung 990 PRO 1 TB vs 870 EVO 1 TB: choose the supported interface",
+      "route": "/blog/nvme-vs-sata-ssd-for-gaming/",
+      "existingIntent": {
+        "program": "prior",
+        "id": "16",
+        "route": "/blog/nvme-vs-sata-ssd-for-gaming/"
+      },
+      "intentDecision": "Material replacement for prior draft16 and its existing SSD-interface guide canonical; no extra product-pair URL.",
+      "words": 797,
+      "sourceIds": [
+        "ssd990",
+        "ssd870",
+        "ssd990Sheet"
+      ],
+      "hash": "a38b47bbac5cb2872d81f72d83357fb0f4eca26d689da5d023a00c0ab19f61ea",
+      "contentVersion": "2026-10-13.master1",
+      "status": "complete_source_checked",
+      "reviewStatus": "AI_source_checked_owner_release_pending",
+      "humanReview": null,
+      "imagePlan": {
+        "kind": "original_editorial_diagram",
+        "width": 1200,
+        "height": 675,
+        "concept": "A connection map contrasting an M.2 PCIe/NVMe slot with a 2.5-inch SATA data-and-power route, labeled with the exact two model codes",
+        "alt": "A connection map contrasting an M.2 PCIe/NVMe slot with a 2.5-inch SATA data-and-power route, labeled with the exact two model codes",
+        "generated": false
+      },
+      "limits": [
+        "Exact-machine support, current offers and measured workload gains must be established separately."
+      ]
+    },
+    {
+      "id": "M04",
+      "title": "AM4 CPU upgrade or AM5 replacement? Compare the whole platform",
+      "route": "/blog/am4-upgrade-vs-platform-replacement/",
+      "existingIntent": {
+        "program": "prior",
+        "id": "21",
+        "route": "/blog/am4-upgrade-vs-platform-replacement/"
+      },
+      "intentDecision": "Expand prior draft21 at the same canonical rather than publishing a second AM4/AM5 upgrade guide.",
+      "words": 800,
+      "sourceIds": [
+        "cpu5700",
+        "cpu7600",
+        "cpuList",
+        "biosMSI",
+        "bitlocker"
+      ],
+      "hash": "ba17670e4ceb5af348055e7bcc916c2e02bc3eafaddf2599f34b7604b7ccb04b",
+      "contentVersion": "2026-10-13.master1",
+      "status": "complete_source_checked",
+      "reviewStatus": "AI_source_checked_owner_release_pending",
+      "humanReview": null,
+      "imagePlan": {
+        "kind": "original_editorial_diagram",
+        "width": 1200,
+        "height": 675,
+        "concept": "Three decision columns: keep the current PC, supported AM4 CPU change, AM5 CPU-board-DDR5 bundle; no invented prices",
+        "alt": "Three decision columns: keep the current PC, supported AM4 CPU change, AM5 CPU-board-DDR5 bundle; no invented prices",
+        "generated": false
+      },
+      "limits": [
+        "No exact motherboard BIOS verdict, current complete price or measured uplift is supplied."
+      ]
+    },
+    {
+      "id": "M05",
+      "title": "First boot for a new PC: a safe checklist from power-on to a working baseline",
+      "route": "/blog/new-pc-first-boot-setup-checklist/",
+      "existingIntent": {
+        "program": "prior",
+        "id": "10",
+        "route": "/blog/new-pc-first-boot-setup-checklist/"
+      },
+      "intentDecision": "Materially expand prior draft10 with a staged first-boot checklist while preserving the established intent and URL.",
+      "words": 753,
+      "sourceIds": [
+        "cables",
+        "boot",
+        "expo",
+        "windows11",
+        "windowsMedia",
+        "ubuntu",
+        "bitlocker"
+      ],
+      "hash": "db9f2bf160e025388b45bc0712b4f74934f504e8a6ccfc5f0e736cff66c5e44a",
+      "contentVersion": "2026-10-13.master1",
+      "status": "complete_source_checked",
+      "reviewStatus": "AI_source_checked_owner_release_pending",
+      "humanReview": null,
+      "imagePlan": {
+        "kind": "original_editorial_diagram",
+        "width": 1200,
+        "height": 675,
+        "concept": "A six-stage checklist from power-off inspection through firmware recognition, supported OS media, ordinary-task baseline and recovery record",
+        "alt": "A six-stage checklist from power-off inspection through firmware recognition, supported OS media, ordinary-task baseline and recovery record",
+        "generated": false
+      },
+      "limits": [
+        "No model-specific connector position, universal initialization delay or hands-on assembly claim is supplied."
+      ]
+    },
+    {
+      "id": "M06",
+      "title": "Check CPU and BIOS support: exact model, minimum version and update method",
+      "route": "/blog/check-cpu-bios-support/",
+      "existingIntent": {
+        "program": "prior",
+        "id": "28",
+        "route": "/blog/check-cpu-bios-support/"
+      },
+      "intentDecision": "Upgrade prior draft28 at the same canonical; do not generate a CPU-by-board URL matrix.",
+      "words": 784,
+      "sourceIds": [
+        "cpuList",
+        "biosMSI",
+        "biosASUS",
+        "bitlocker"
+      ],
+      "hash": "c705942fde69116e200731be48c32c6307c0b95b3e5c88cde87cb2ad7f281110",
+      "contentVersion": "2026-10-13.master1",
+      "status": "complete_source_checked",
+      "reviewStatus": "AI_source_checked_owner_release_pending",
+      "humanReview": null,
+      "imagePlan": {
+        "kind": "original_editorial_diagram",
+        "width": 1200,
+        "height": 675,
+        "concept": "An evidence chain: exact board identity → CPU-support row → known installed version → supported update route → observed recognition; unknowns remain explicit",
+        "alt": "An evidence chain: exact board identity → CPU-support row → known installed version → supported update route → observed recognition; unknowns remain explicit",
+        "generated": false
+      },
+      "limits": [
+        "No minimum BIOS version is asserted for an unspecified board, and no automatic firmware update is performed."
+      ]
+    },
+    {
+      "id": "M07",
+      "title": "Plan a phased PC upgrade: make every intermediate build usable",
+      "route": "/blog/phased-pc-upgrade-plan/",
+      "existingIntent": {
+        "program": "prior",
+        "id": "25",
+        "route": "/blog/phased-pc-upgrade-plan/"
+      },
+      "intentDecision": "Material upgrade of prior draft25; retain its canonical and phased-purchase intent.",
+      "words": 773,
+      "sourceIds": [
+        "cpu5700",
+        "cpu7600",
+        "bitlocker",
+        "cables"
+      ],
+      "hash": "6046c3473f1590db2880f959468a84acb1c8bc939ecbbe3e67b149c5f971e6e6",
+      "contentVersion": "2026-10-13.master1",
+      "status": "complete_source_checked",
+      "reviewStatus": "AI_source_checked_owner_release_pending",
+      "humanReview": null,
+      "imagePlan": {
+        "kind": "original_editorial_diagram",
+        "width": 1200,
+        "height": 675,
+        "concept": "A three-stage timeline showing complete configurations at each stage, with CPU-board-memory dependencies joined and explicit unresolved-check gates",
+        "alt": "A three-stage timeline showing complete configurations at each stage, with CPU-board-memory dependencies joined and explicit unresolved-check gates",
+        "generated": false
+      },
+      "limits": [
+        "No future prices, universal sequence, automatic firmware rollback or measured upgrade gain is claimed."
+      ]
+    },
+    {
+      "id": "M08",
+      "title": "Choose a PC power supply: wattage, connectors, fit and the correct cables",
+      "route": "/blog/choose-a-pc-power-supply/",
+      "existingIntent": {
+        "program": "prior",
+        "id": "29",
+        "route": "/blog/choose-a-pc-power-supply/"
+      },
+      "intentDecision": "Replace the matching prior draft29/public guide intent with more explicit evidence checks; preserve the canonical.",
+      "words": 812,
+      "sourceIds": [
+        "rx9070",
+        "rx9070xt",
+        "cableChart",
+        "cables",
+        "north"
+      ],
+      "hash": "b533129d4e0c40031fdd868ca3b83e8324bf20b9ec20335404f9a4f59e3d22d4",
+      "contentVersion": "2026-10-13.master1",
+      "status": "complete_source_checked",
+      "reviewStatus": "AI_source_checked_owner_release_pending",
+      "humanReview": null,
+      "imagePlan": {
+        "kind": "original_editorial_diagram",
+        "width": 1200,
+        "height": 675,
+        "concept": "A PSU evidence checklist separating rated output, required device connections, exact cable compatibility and case-layout checks; no exposed internal-PSU illustration",
+        "alt": "A PSU evidence checklist separating rated output, required device connections, exact cable compatibility and case-layout checks; no exposed internal-PSU illustration",
+        "generated": false
+      },
+      "limits": [
+        "No measured efficiency/noise, current price, remote failure diagnosis or universal cable interchangeability is claimed."
+      ]
+    }
+  ]
+}

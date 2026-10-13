@@ -1,0 +1,105 @@
+{
+  "checkedAt": "2026-10-13T21:04:33.112Z",
+  "method": "Actual dist/build-scene.js and bundled glTF loader in an isolated headless InPrivate Edge profile with software WebGL. Screenshots are visual review, not certified fit.",
+  "scenarios": [
+    {
+      "name": "master-rx6900xt-angled",
+      "file": "/assets/models/sketchfab-radeon-rx-6900-xt.glb",
+      "rotation": [
+        3.141592653589793,
+        0,
+        0
+      ],
+      "size": [
+        267,
+        40.22,
+        125.82
+      ],
+      "slot": "gpu",
+      "view": "angled",
+      "turns": 0,
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"failed\":[],\"rendered\":1,\"loadMs\":18}",
+        "canvas": {
+          "engine": "three.js r180",
+          "cameraDistance": "0.361",
+          "boundsSize": "0.267,0.040,0.126",
+          "renderCount": "4",
+          "triangles": "18525",
+          "modelCount": "1",
+          "loadMs": "18"
+        }
+      },
+      "screenshot": "master-rx6900xt-angled.png"
+    },
+    {
+      "name": "master-rx6900xt-fans",
+      "file": "/assets/models/sketchfab-radeon-rx-6900-xt.glb",
+      "rotation": [
+        3.141592653589793,
+        0,
+        0
+      ],
+      "size": [
+        267,
+        40.22,
+        125.82
+      ],
+      "slot": "gpu",
+      "view": "side",
+      "turns": 13,
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"failed\":[],\"rendered\":1,\"loadMs\":16}",
+        "canvas": {
+          "engine": "three.js r180",
+          "cameraDistance": "0.365",
+          "boundsSize": "0.267,0.040,0.126",
+          "renderCount": "4",
+          "triangles": "18525",
+          "modelCount": "1",
+          "loadMs": "16"
+        }
+      },
+      "screenshot": "master-rx6900xt-fans.png"
+    },
+    {
+      "name": "master-rx6900xt-mobile",
+      "file": "/assets/models/sketchfab-radeon-rx-6900-xt.glb",
+      "rotation": [
+        3.141592653589793,
+        0,
+        0
+      ],
+      "size": [
+        267,
+        40.22,
+        125.82
+      ],
+      "slot": "gpu",
+      "view": "angled",
+      "turns": 0,
+      "viewport": {
+        "width": 390,
+        "height": 720,
+        "deviceScaleFactor": 1,
+        "mobile": true
+      },
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"failed\":[],\"rendered\":1,\"loadMs\":16}",
+        "canvas": {
+          "engine": "three.js r180",
+          "cameraDistance": "0.871",
+          "boundsSize": "0.267,0.040,0.126",
+          "renderCount": "3",
+          "triangles": "18525",
+          "modelCount": "1",
+          "loadMs": "16"
+        }
+      },
+      "screenshot": "master-rx6900xt-mobile.png"
+    }
+  ]
+}

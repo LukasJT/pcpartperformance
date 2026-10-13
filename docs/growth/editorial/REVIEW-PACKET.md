@@ -1,3 +1,5 @@
+> Historical preparation packet. The later owner-authorized release and actual production receipt are documented in docs/master/README.md and docs/master/qa/live-release.json. No personal human review is claimed.
+
 # October 13 complete editorial review packet
 
 Six fully written candidates are prepared. Four improve existing draft intents (27, 31, 34, 37) and preserve their proposed canonical URLs; two answer distinct transfer-time and timing-interpretation questions. No existing public article or earlier draft source has been overwritten.
@@ -180,7 +182,7 @@ Research-based guidance; no site-owned hardware test results, current prices, st
 **Review route:** /growth-review/g03/
 **Intent decision:** Revision candidate for draft34, retaining the existing RAM-guide canonical and broad compatibility scope.
 **Source-inspection date:** 2026-10-13; publication and update dates remain unset.
-**Content and evidence SHA-256:** 30440dbd7aa7cf3667fb99533b0bf1907d4cc32e7f8dbfcdd6977702694b6c46
+**Content and evidence SHA-256:** 9ae2d5dd0ec3b05cb76d5f1727da279d3e21890bd766ab81cfdc7ac172b8592b
 
 ### Answer
 
@@ -239,7 +241,7 @@ Source context: [AMD — EXPO technology for AM5 processors](https://www.amd.com
 
 The useful memory decision is a sequence: choose enough capacity for your task, verify the platform and installation, compare actual kit offers, then evaluate performance evidence if it matters to the workload. A smaller CAS number alone does not answer all those questions. Use the latency calculator only to understand the stated arithmetic, not to infer a game-performance result.
 
-Save the exact kit, support evidence and remaining question in the builder or compatibility workflow. If you cannot resolve an essential requirement, select a better-documented alternative or contact support before ordering. Keeping an already adequate working kit is also a valid outcome. This revision adds a QVL decision method to the existing RAM guide; it is not a new competing article or a claim that this site tested memory.
+Save the exact kit, support evidence and remaining question in the builder or compatibility workflow. If you cannot resolve an essential requirement, select a better-documented alternative or contact support before ordering. Keeping an already adequate working kit is also a valid outcome.
 
 ### Working tool connections
 
@@ -427,7 +429,7 @@ Research-based guidance; no site-owned hardware test results, current prices, st
 **Review route:** /growth-review/g06/
 **Intent decision:** Revision candidate for draft27, preserving the existing graphics-card-fit canonical and adding exact partner-card documentary examples.
 **Source-inspection date:** 2026-10-13; publication and update dates remain unset.
-**Content and evidence SHA-256:** b33fb0c6b88257e8a836cb4c0bfdd9b249faa5c9c2a97140bd2d2f5de55fef8b
+**Content and evidence SHA-256:** a39f084ca163206b2300cd87289703d06234f564755917b2dd305f21cf2b7a96
 
 ### Answer
 
@@ -482,7 +484,7 @@ Keep the visual preview connected to the same exact card and case records used f
 
 A reusable fit record lists card SKU, case model/revision, cooling arrangement, sourced dimensions, connector instructions, supporting hardware and unresolved measurements. Note where each source applies. If a retailer substitutes a different card or a radiator is added later, rerun the affected checks instead of carrying a green verdict forward.
 
-Use the compatibility workflow to separate documented conflicts from unknowns, then keep the exact configuration in the builder. Before ordering, resolve any essential missing measurement with the manufacturer or seller. The outcome is an understandable installation plan, not “100% compatible.” This revision strengthens the existing graphics-card fit guide; it does not create another URL for the same reader question.
+Use the compatibility workflow to separate documented conflicts from unknowns, then keep the exact configuration in the builder. Before ordering, resolve any essential missing measurement with the manufacturer or seller. The outcome is an understandable installation plan, not “100% compatible.”
 
 ### Working tool connections
 

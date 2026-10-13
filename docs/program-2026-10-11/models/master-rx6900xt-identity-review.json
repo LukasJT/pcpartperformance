@@ -1,0 +1,68 @@
+{
+  "checkedAt": "2026-10-13T21:05:19.737Z",
+  "method": "Actual dist/build-scene.js and bundled glTF loader in an isolated headless InPrivate Edge profile with software WebGL. Screenshots are visual review, not certified fit.",
+  "scenarios": [
+    {
+      "name": "master-rx6900xt-identity-fans",
+      "file": "/assets/models/sketchfab-radeon-rx-6900-xt.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        267,
+        40.22,
+        125.82
+      ],
+      "slot": "gpu",
+      "view": "angled",
+      "turns": 0,
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"failed\":[],\"rendered\":1,\"loadMs\":20}",
+        "canvas": {
+          "engine": "three.js r180",
+          "cameraDistance": "0.361",
+          "boundsSize": "0.267,0.040,0.126",
+          "renderCount": "4",
+          "triangles": "18525",
+          "modelCount": "1",
+          "loadMs": "20"
+        }
+      },
+      "screenshot": "master-rx6900xt-identity-fans.png"
+    },
+    {
+      "name": "master-rx6900xt-installed-front",
+      "file": "/assets/models/sketchfab-radeon-rx-6900-xt.glb",
+      "rotation": [
+        3.141592653589793,
+        0,
+        0
+      ],
+      "size": [
+        267,
+        40.22,
+        125.82
+      ],
+      "slot": "gpu",
+      "view": "front",
+      "turns": 0,
+      "state": {
+        "title": "REVIEW_READY",
+        "result": "{\"failed\":[],\"rendered\":1,\"loadMs\":13}",
+        "canvas": {
+          "engine": "three.js r180",
+          "cameraDistance": "0.276",
+          "boundsSize": "0.267,0.040,0.126",
+          "renderCount": "3",
+          "triangles": "18525",
+          "modelCount": "1",
+          "loadMs": "13"
+        }
+      },
+      "screenshot": "master-rx6900xt-installed-front.png"
+    }
+  ]
+}

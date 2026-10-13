@@ -220,6 +220,16 @@
       "verification": "original_document_inspected",
       "measurementStatus": "manufacturer_specified",
       "redistribution": "Paraphrased facts and source links only; no copied benchmark dataset, images or manual redistribution."
+    },
+    "rmxSku": {
+      "publisher": "CORSAIR",
+      "title": "RM850x (2021) CP-9020200-NA exact SKU specifications",
+      "url": "https://www.corsair.com/us/en/p/psu/cp-9020200-na/rmx-series-rm850x-850-watt-80-plus-gold-fully-modular-atx-psu-cp-9020200-na",
+      "scope": "Exact CP-9020200-NA / RPS0124 specification confirms 135 mm fan and 150 × 86 × 160 mm dimensions; not SHIFT or another year.",
+      "checkedAt": "2026-10-13",
+      "verification": "original_document_inspected",
+      "measurementStatus": "manufacturer_specified",
+      "redistribution": "Paraphrased facts and source links only."
     }
   },
   "profiles": [
@@ -1931,7 +1941,8 @@
     {
       "id": "rm850x",
       "sourceIds": [
-        "rmx"
+        "rmx",
+        "rmxSku"
       ],
       "identity": {
         "scope": "psu_revision",
@@ -1998,11 +2009,11 @@
         {
           "key": "fanSize",
           "label": "Fan size",
-          "value": 140,
+          "value": 135,
           "unit": "mm",
-          "sourceId": "rmx",
+          "sourceId": "rmxSku",
           "status": "manufacturer_specified",
-          "note": "2021 series introduction; source-checked correction of the inherited field."
+          "note": "Exact SKU technical specification, rechecked October 13, 2026."
         }
       ],
       "alternatives": [

@@ -56,3 +56,7 @@ The descriptions helped choose implementation topics; they are not evidence for 
 - Current written primary guidance inspected and applied to the handoff: **yes**.
 
 If the owner later wants transcript review, use YouTube's normal accessible transcript/caption interface or an authorized export and record the actual text accessed. That work remains incomplete; it is not represented as finished here. Website implementation does not depend on pretending these transcripts were available.
+
+## Completion-pass browser check
+
+On October 13, normal connected-browser transcript export was attempted for V05 and V01. Both returned “No transcript is available for this YouTube video”. No transcript text was read and no watched-video claim is added. Current written guidance remains the implementation authority.

@@ -5,7 +5,10 @@ if(manifest.staging){assert.equal(drafts.length,40);assert.equal(Object.values(m
 else{
  assert.equal(drafts.length,0);assert(!Object.values(manifest.routes).some(r=>r.draft));assert(fs.readFileSync('dist/sitemap.xml','utf8').includes('<loc>'));
  for(const a of editorial.articles){const file=path.join('dist',a.route,'index.html');if(fs.existsSync(file)){assert(!fs.readFileSync(file,'utf8').includes('data-program-draft'));retained++}else withheld++}
- assert.equal(retained,13);assert.equal(withheld,27);assert(!manifest.routes['/program-review/']);
+ const originalIds=new Set(['11','12','13','16','17','19','22','24','27','29','30','33','34']);
+ const newlyAuthorized=new Set(require('./master-publication.cjs').resolve(require('./master-release-authorization.json')).articles.map(a=>a.canonicalRoute));
+ const expected=editorial.articles.filter(a=>originalIds.has(a.id)||newlyAuthorized.has(a.route)).length;
+ assert.equal(retained,expected);assert.equal(withheld,40-expected);assert(!manifest.routes['/program-review/']);
  for(const route of ['/','/builder/','/build-school/','/upgrade/']){const h=fs.readFileSync(path.join('dist',route,'index.html'),'utf8');assert(!h.includes('data-program-staging'));assert(!h.includes('content="noindex,follow"'),route)}
  console.log('PASS normal generation restores 13 existing pages, withholds 27 new draft routes and removes staging exclusions');
 }

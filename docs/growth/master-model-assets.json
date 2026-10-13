@@ -1,0 +1,58 @@
+{
+  "checked": "2026-10-13",
+  "status": "Repository integration complete; common build, full builder journey and deployment owned by the parent task.",
+  "method": "Current public Sketchfab metadata and individually verified CC BY 4.0 licensing, public Objaverse distribution, source GLB provenance, source-specific identity review, actual bundled build-scene renderer and Khronos validation plus decoded geometry checks.",
+  "newDistinctAssets": 1,
+  "newComponentMappings": 1,
+  "additions": [
+    {
+      "id": "rx6900xt",
+      "catalogName": "Radeon RX 6900 XT",
+      "sourceUid": "f21fc17d04404bf897a7b1727ee95f15",
+      "asset": "sketchfab-radeon-rx-6900-xt.glb",
+      "sha256": "4d2d934ba3393b986a80cb180354f74b86f04c450cdcfa1faaee32521540eaee",
+      "sourceBytes": 1228524,
+      "sourceSha256": "f1855ca3bf77fe3d238fefbddced23f19aeabe92bf1eb89544302359a225cf9a",
+      "bytes": 193812,
+      "triangles": 18525,
+      "sourceUrl": "https://sketchfab.com/3d-models/rx6900xt-f21fc17d04404bf897a7b1727ee95f15",
+      "metadataUrl": "https://api.sketchfab.com/v3/models/f21fc17d04404bf897a7b1727ee95f15",
+      "creator": "sanketrules911",
+      "creatorUrl": "https://sketchfab.com/sanketrules911",
+      "title": "Rx6900XT",
+      "description": "3D model of AMD Radeon RX6900XT graphics card.",
+      "currentMetadata": {
+        "isDownloadable": true,
+        "license": {"label": "CC Attribution", "slug": "by", "url": "http://creativecommons.org/licenses/by/4.0/", "requirements": "Author must be credited. Commercial use is allowed."},
+        "checked": "2026-10-13"
+      },
+      "dimensionEvidence": {
+        "source": "https://www.amd.com/en/products/graphics/desktops/radeon/6000-series/amd-radeon-rx-6900-xt.html",
+        "publisher": "AMD",
+        "checked": "2026-10-13",
+        "referenceLengthMm": 267,
+        "referenceSlots": 2.5,
+        "application": "Only the 267 mm published reference-card length is used for display normalization. The other axes preserve the community model's proportions; slot width, height and complete fit geometry have not been verified."
+      },
+      "identity": "family-or-chip",
+      "review": "Creator identifies RX 6900 XT; actual source mesh has three fans, Radeon markings, a stylized reference shroud/backplate and two power connectors. Low-detail appearance with creator colors retained. No exact partner SKU is established. Only rx6900xt is mapped.",
+      "rendererReports": [
+        "docs/program-2026-10-11/models/master-rx6900xt-viewer-review.json",
+        "docs/program-2026-10-11/models/master-rx6900xt-identity-review.json"
+      ],
+      "limitations": "Appearance only, not certified CAD, installation, clearance or thermals. Exact partner appearance, mounting positions, cable bend space and material accuracy remain unverified."
+    }
+  ],
+  "boundedResearch": {
+    "searchReport": "docs/growth/master-model-research.json",
+    "queriesInspected": 18,
+    "selection": "Exclude installed UIDs; require an individually current downloadable CC BY asset and a matching existing catalog identity. Unnamed family models, packaging, unrelated scenes and mismatched H500i/H500 cases are not counted as new coverage.",
+    "notIntegrated": [
+      {"sourceUid": "bec7d56c66e64de4909b897190af063b", "name": "MSI GeForce GTX 750 Ti", "reason": "Only a generic GTX 750 Ti chip record currently exists. Exact MSI partner identity and relevant envelope not yet inspected."},
+      {"sourceUid": "a6b1c621905b451f8bc3e4ec7f1464b2", "name": "NZXT H500i", "reason": "The existing exact catalog case is H500, not H500i; no assumed variant substitution."},
+      {"sourceUid": "7be09e98ba2b40e69c0d6f17b0a5679b", "name": "NZXT N7 Z490", "reason": "No matching existing exact catalog model identified."},
+      {"name": "Pixel 9 Pro", "reason": "Remains the only canonical phone without an installed model; a generic Pixel 9 is not an exact substitute. Current exact signed download has not been available through public redistribution."}
+    ],
+    "claim": "One additional asset was downloaded, processed and integrated. This is a bounded increment, not catalog-wide exact-model completion."
+  }
+}

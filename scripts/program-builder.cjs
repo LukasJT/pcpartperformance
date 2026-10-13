@@ -4,7 +4,13 @@ const engine = require('./compatibility-evidence.cjs');
 
 /* This augments the established expert picker; it does not create a second build state. */
 module.exports = function programBuilder({ root, records, shell, write, esc }) {
-  fs.writeFileSync(path.join(root, 'compatibility-evidence.js'), fs.readFileSync(path.join(__dirname, 'compatibility-evidence.cjs'), 'utf8'));
+  const evidenceSource=fs.readFileSync(path.join(__dirname,'compatibility-evidence.cjs'),'utf8').replace(/\r\n/g,'\n');
+  const preparedEvidence=require('./compatibility-evidence.browser.json');
+  if(require('node:crypto').createHash('sha256').update(evidenceSource).digest('hex')!==preparedEvidence.sourceHash)throw Error('Compatibility browser output is stale. Run node scripts/prepare-master-runtime.cjs.');
+  fs.copyFileSync(path.join(__dirname,'compatibility-evidence.browser.cjs'),path.join(root,'compatibility-evidence.js'));
+  const builderSource=fs.readFileSync(path.join(__dirname,'builder-program.js'),'utf8').replace(/\r\n/g,'\n'),preparedBuilder=require('./builder-program.browser.json');
+  if(require('node:crypto').createHash('sha256').update(builderSource).digest('hex')!==preparedBuilder.sourceHash)throw Error('Builder browser output is stale. Run node scripts/prepare-master-runtime.cjs.');
+  fs.copyFileSync(path.join(__dirname,'builder-program.browser.js'),path.join(root,'builder-program.js'));
   // Dedicated source assets keep builder design changes reproducible without changing shared selectors.
   for (const asset of ['builder-workspace.css', 'builder-workspace.js', 'builder-selectors.js']) {
     fs.writeFileSync(path.join(root, asset), fs.readFileSync(path.join(__dirname, asset), 'utf8'));

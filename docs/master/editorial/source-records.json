@@ -1,0 +1,233 @@
+{
+  "rx9070": {
+    "publisher": "AMD",
+    "title": "Radeon RX 9070 specifications",
+    "url": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070.html",
+    "scope": "RX 9070 design: 56 compute units, 16 GB GDDR6, 256-bit memory, 220 W typical board power and 650 W minimum PSU recommendation.",
+    "limitations": "Manufacturer design specifications; exclude XT/GRE and exact partner geometry. No game-chart values are reused.",
+    "checked": "2026-10-13",
+    "inspected": "2026-10-13",
+    "access": "Official public source text inspected",
+    "rights": "Source-linked original paraphrase and factual analysis; no copied photographs, benchmark tables or datasets."
+  },
+  "rx9070xt": {
+    "publisher": "AMD",
+    "title": "Radeon RX 9070 XT specifications",
+    "url": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070xt.html",
+    "scope": "RX 9070 XT design: 64 compute units, 16 GB GDDR6, 256-bit memory, 304 W typical board power and 750 W minimum PSU recommendation.",
+    "limitations": "Manufacturer design specifications, not a measured FPS or whole-system power result. Partner requirements can differ.",
+    "checked": "2026-10-13",
+    "inspected": "2026-10-13",
+    "access": "Official public source text inspected",
+    "rights": "Source-linked original paraphrase and factual analysis; no copied photographs, benchmark tables or datasets."
+  },
+  "timing": {
+    "publisher": "CORSAIR",
+    "title": "CAS latency and DDR5 timings explained",
+    "url": "https://www.corsair.com/uk/en/explorer/diy-builder/memory/what-is-cas-latency-ddr5-latencies-explained/",
+    "scope": "Clock cycles, transfer-rate context and distinct CL/tRCD/tRP timing operations.",
+    "limitations": "Do not turn the source’s broad performance marketing into a universal recommendation or measured game claim.",
+    "checked": "2026-10-13",
+    "inspected": "2026-10-13",
+    "access": "Official public source text inspected",
+    "rights": "Source-linked original paraphrase and factual analysis; no copied photographs, benchmark tables or datasets."
+  },
+  "kitIdentity": {
+    "publisher": "Kingston",
+    "title": "Memory part-number decoder",
+    "url": "https://www.kingston.com/en/memory/memory-part-number-decoder",
+    "scope": "Product-family fields can distinguish speed, latency, capacity, module type, kit count and revisions.",
+    "limitations": "Naming conventions differ by family and brand.",
+    "checked": "2026-10-13",
+    "inspected": "2026-10-13",
+    "access": "Official public source text inspected",
+    "rights": "Source-linked original paraphrase and factual analysis; no copied photographs, benchmark tables or datasets."
+  },
+  "expo": {
+    "publisher": "AMD",
+    "title": "EXPO memory profiles",
+    "url": "https://www.amd.com/en/products/processors/technologies/expo.html",
+    "scope": "EXPO is memory overclocking profile technology for supported AM5 configurations.",
+    "limitations": "A profile is not proof of operation on every board/CPU/module configuration.",
+    "checked": "2026-10-13",
+    "inspected": "2026-10-13",
+    "access": "Official public source text inspected",
+    "rights": "Source-linked original paraphrase and factual analysis; no copied photographs, benchmark tables or datasets."
+  },
+  "ssd990": {
+    "publisher": "Samsung",
+    "title": "990 PRO 1 TB technical specifications",
+    "url": "https://www.samsung.com/ca/memory-storage/nvme-ssd/990-pro-1tb-nvme-pcie-gen-4-mz-v9p1t0b-am/",
+    "scope": "MZ-V9P1T0B/AM 1 TB; M.2 2280, PCIe 4.0 x4/NVMe 2.0; specification and performance qualifications.",
+    "limitations": "Exact capacity/model only; retailer-review text is not used as evidence.",
+    "checked": "2026-10-13",
+    "inspected": "2026-10-13",
+    "access": "Official public source text inspected",
+    "rights": "Source-linked original paraphrase and factual analysis; no copied photographs, benchmark tables or datasets."
+  },
+  "ssd990Sheet": {
+    "publisher": "Samsung",
+    "title": "990 PRO datasheet revision 1.0",
+    "url": "https://download.semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_990_PRO_Datasheet_Rev.1.0_10129514072296.pdf",
+    "scope": "1 TB/2 TB model identities and manufacturer test conditions; stated PCIe 3.0 backward compatibility.",
+    "limitations": "Revision-scoped manufacturer document, not a current third-party benchmark.",
+    "checked": "2026-10-13",
+    "inspected": "2026-10-13",
+    "access": "Official public source text inspected",
+    "rights": "Source-linked original paraphrase and factual analysis; no copied photographs, benchmark tables or datasets."
+  },
+  "ssd870": {
+    "publisher": "Samsung",
+    "title": "870 EVO 1 TB technical specifications",
+    "url": "https://www.samsung.com/ca/memory-storage/sata-ssd/870-evo-1tb-sata-3-2-5-ssd-mz-77e1t0b-am/",
+    "scope": "MZ-77E1T0B/AM 1 TB; 2.5-inch form factor, SATA 6 Gb/s, published dimensions.",
+    "limitations": "Use the specification section, not customer testimonials or implied live prices.",
+    "checked": "2026-10-13",
+    "inspected": "2026-10-13",
+    "access": "Official public source text inspected",
+    "rights": "Source-linked original paraphrase and factual analysis; no copied photographs, benchmark tables or datasets."
+  },
+  "cpu5700": {
+    "publisher": "AMD",
+    "title": "Ryzen 7 5700X3D support specifications",
+    "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x3d.html",
+    "scope": "AM4, DDR4, discrete graphics required and no included boxed thermal solution.",
+    "limitations": "The old desktop product URL returns 404; this live official support page includes the model specification table. No installed-board BIOS is inferred.",
+    "checked": "2026-10-13",
+    "inspected": "2026-10-13",
+    "access": "Official public source text inspected",
+    "rights": "Source-linked original paraphrase and factual analysis; no copied photographs, benchmark tables or datasets."
+  },
+  "cpu7600": {
+    "publisher": "AMD",
+    "title": "Ryzen 5 7600 specifications",
+    "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600.html",
+    "scope": "AM5, DDR5, AMD Radeon integrated graphics and Wraith Stealth listed for the boxed package.",
+    "limitations": "Package contents, board outputs and exact firmware support still require their own checks.",
+    "checked": "2026-10-13",
+    "inspected": "2026-10-13",
+    "access": "Official public source text inspected",
+    "rights": "Source-linked original paraphrase and factual analysis; no copied photographs, benchmark tables or datasets."
+  },
+  "cpuList": {
+    "publisher": "ASUS",
+    "title": "How to query CPU and memory support lists",
+    "url": "https://www.asus.com/us/support/faq/1043883/",
+    "scope": "Locate the exact board and applicable CPU/memory support resources.",
+    "limitations": "Method guidance does not establish a minimum BIOS version for an unspecified board.",
+    "checked": "2026-10-13",
+    "inspected": "2026-10-13",
+    "access": "Official public source text inspected",
+    "rights": "Source-linked original paraphrase and factual analysis; no copied photographs, benchmark tables or datasets."
+  },
+  "biosMSI": {
+    "publisher": "MSI",
+    "title": "How to update BIOS",
+    "url": "https://www.msi.com/support/technical_details/MB_BIOS_Update",
+    "scope": "Exact-model official download and M-FLASH procedure; protect USB contents and do not interrupt the update.",
+    "limitations": "Use the exact board instructions. This is not a generic firmware file or a universal recovery method.",
+    "checked": "2026-10-13",
+    "inspected": "2026-10-13",
+    "access": "Official public source text inspected",
+    "rights": "Source-linked original paraphrase and factual analysis; no copied photographs, benchmark tables or datasets."
+  },
+  "biosASUS": {
+    "publisher": "ASUS",
+    "title": "How to use USB BIOS FlashBack",
+    "url": "https://www.asus.com/support/faq/1038568/",
+    "scope": "Check feature support; follow model-specific file naming, port, power and completion instructions.",
+    "limitations": "Do not transplant this procedure to a board without the feature or to MSI M-FLASH.",
+    "checked": "2026-10-13",
+    "inspected": "2026-10-13",
+    "access": "Official public source text inspected",
+    "rights": "Source-linked original paraphrase and factual analysis; no copied photographs, benchmark tables or datasets."
+  },
+  "boot": {
+    "publisher": "MSI",
+    "title": "Motherboard boot and no-display checks",
+    "url": "https://www.msi.com/support/technical_details/MB_Boot_No_Display",
+    "scope": "Display-path, support, memory and diagnostic-indicator investigation.",
+    "limitations": "Guidance is conditional on the exact motherboard and installed components; no failed component is diagnosed by this article.",
+    "checked": "2026-10-13",
+    "inspected": "2026-10-13",
+    "access": "Official public source text inspected",
+    "rights": "Source-linked original paraphrase and factual analysis; no copied photographs, benchmark tables or datasets."
+  },
+  "windowsMedia": {
+    "publisher": "Microsoft",
+    "title": "Create Windows installation media",
+    "url": "https://support.microsoft.com/en-us/windows/deployment/install-upgrade/create-installation-media-for-windows",
+    "scope": "Official media creation, supported download and deletion of the selected USB contents.",
+    "limitations": "Media creation and operating-system installation are separate operations; protect existing data.",
+    "checked": "2026-10-13",
+    "inspected": "2026-10-13",
+    "access": "Official public source text inspected",
+    "rights": "Source-linked original paraphrase and factual analysis; no copied photographs, benchmark tables or datasets."
+  },
+  "windows11": {
+    "publisher": "Microsoft",
+    "title": "Windows 11 requirements",
+    "url": "https://learn.microsoft.com/en-us/windows/whats-new/windows-11-requirements",
+    "scope": "Compatible processor, firmware/Secure Boot capability and TPM requirements.",
+    "limitations": "Requirements are not a performance guarantee; no bypass is recommended.",
+    "checked": "2026-10-13",
+    "inspected": "2026-10-13",
+    "access": "Official public source text inspected",
+    "rights": "Source-linked original paraphrase and factual analysis; no copied photographs, benchmark tables or datasets."
+  },
+  "bitlocker": {
+    "publisher": "Microsoft",
+    "title": "Find your BitLocker recovery key",
+    "url": "https://support.microsoft.com/en-us/windows/security/encryption/find-your-bitlocker-recovery-key",
+    "scope": "Recovery access after relevant security or hardware changes; preserve the legitimate recovery key.",
+    "limitations": "A key is sensitive. Do not paste it into site forms, shared builds or analytics.",
+    "checked": "2026-10-13",
+    "inspected": "2026-10-13",
+    "access": "Official public source text inspected",
+    "rights": "Source-linked original paraphrase and factual analysis; no copied photographs, benchmark tables or datasets."
+  },
+  "ubuntu": {
+    "publisher": "Canonical",
+    "title": "Install Ubuntu Desktop",
+    "url": "https://ubuntu.com/tutorials/install-ubuntu-desktop",
+    "scope": "Official supported installation workflow and storage-selection precautions.",
+    "limitations": "Linux compatibility for an exact device is not established merely by linking the installer.",
+    "checked": "2026-10-13",
+    "inspected": "2026-10-13",
+    "access": "Official public source text inspected",
+    "rights": "Source-linked original paraphrase and factual analysis; no copied photographs, benchmark tables or datasets."
+  },
+  "cables": {
+    "publisher": "CORSAIR",
+    "title": "PSU cable compatibility explainer",
+    "url": "https://www.corsair.com/us/en/explorer/diy-builder/power-supply-units/psu-cable-compatibility/",
+    "scope": "Modular cable compatibility must come from the applicable manufacturer documentation.",
+    "limitations": "Scope is CORSAIR’s documented families; do not apply its type names to other brands.",
+    "checked": "2026-10-13",
+    "inspected": "2026-10-13",
+    "access": "Official public source text inspected",
+    "rights": "Source-linked original paraphrase and factual analysis; no copied photographs, benchmark tables or datasets."
+  },
+  "cableChart": {
+    "publisher": "CORSAIR",
+    "title": "PSU cable compatibility chart",
+    "url": "https://www.corsair.com/us/en/s/psu-cable-compatibility",
+    "scope": "Warning that Type 3/4 modular cables are not compatible with Type 5 supplies; connector-family conditions.",
+    "limitations": "No generic interchangeability claim. Check exact PSU/revision and cable part.",
+    "checked": "2026-10-13",
+    "inspected": "2026-10-13",
+    "access": "Official public source text inspected",
+    "rights": "Source-linked original paraphrase and factual analysis; no copied photographs, benchmark tables or datasets."
+  },
+  "north": {
+    "publisher": "Fractal Design",
+    "title": "Original North English product sheet",
+    "url": "https://www.fractal-design.com/app/uploads/2022/12/North_Product-Sheet_EN.pdf",
+    "scope": "Conditional component allowances in the original North, including its cooling layout.",
+    "limitations": "Exclude North XL and other editions; a dimensional allowance is not total-build certification.",
+    "checked": "2026-10-13",
+    "inspected": "2026-10-13",
+    "access": "Official public source text inspected",
+    "rights": "Source-linked original paraphrase and factual analysis; no copied photographs, benchmark tables or datasets."
+  }
+}

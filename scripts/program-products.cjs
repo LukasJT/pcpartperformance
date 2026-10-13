@@ -25,6 +25,7 @@ const sources = {
   seagate: {publisher:'Seagate',title:'BarraCuda 3.5-inch HDD datasheet DS1900.12',url:'https://www.seagate.com/www-content/datasheets/pdfs/3-5-barracudaDS1900-12-1908US-en_US.pdf',section:'PDF page 3; ST2000DM008 column',scope:'The existing catalog architecture identifies ST2000DM008. Its 7200 RPM and 256 MB specifications must not be transferred to ST2000DM005 or ST2000DM006.'}
 };
 for (const source of Object.values(sources)) Object.assign(source, {checkedAt:date,verification:'original_document_inspected',measurementStatus:'manufacturer_specified',redistribution:'Paraphrased facts and source links only; no copied benchmark dataset, images or manual redistribution.'});
+sources.rmxSku={publisher:'CORSAIR',title:'RM850x (2021) CP-9020200-NA exact SKU specifications',url:'https://www.corsair.com/us/en/p/psu/cp-9020200-na/rmx-series-rm850x-850-watt-80-plus-gold-fully-modular-atx-psu-cp-9020200-na',scope:'Exact CP-9020200-NA / RPS0124 specification confirms 135 mm fan and 150 × 86 × 160 mm dimensions; not SHIFT or another year.',checkedAt:'2026-10-13',verification:'original_document_inspected',measurementStatus:'manufacturer_specified',redistribution:'Paraphrased facts and source links only.'};
 const fact = (key, label, value, unit, sourceId, note = '') => ({key,label,value,unit,sourceId,status:value == null?'unknown':'manufacturer_specified',note});
 const profile = (id, sourceId, identity, answer, decision, verify, reuse, facts, alternatives, guides) => ({id,sourceIds:[sourceId],identity,answer,decision,verify,reuse,facts,alternatives,guides,priority:{basis:'provisional',reason:'Existing catalog/starter-build coverage and a meaningful compatibility or upgrade decision; search demand unmeasured.'},editorial:{status:'evidence_checked',humanReview:'required',reviewer:null,publishedAt:null,preparedAt:date}});
 
@@ -153,7 +154,7 @@ const profiles = [
     'Its 850 W rating is output capacity, not a reading of wall power or a guarantee for any GPU. The manual documents a 160 mm body length and the supplied cable set. Include connector requirements and cable space when reusing it.',
     ['Use only the included DC cables or replacements that CORSAIR explicitly confirms for this exact cable type.','Verify the intended GPU adapter/cable against PSU and GPU documentation; do not interchange EPS and PCIe connectors.'],
     'A retained PSU needs an exact model, condition and cable check. Replacement may be unnecessary when those checks satisfy the new build; wattage alone cannot establish that.',
-    [fact('ratedOutput','Rated output',850,'W','rmx'),fact('modelCode','Model code','RPS0124','','rmx'),fact('length','PSU body length',160,'mm','rmx'),fact('width','PSU body width',150,'mm','rmx'),fact('height','PSU body height',86,'mm','rmx'),fact('fanSize','Fan size',140,'mm','rmx','2021 series introduction; source-checked correction of the inherited field.')],
+    [fact('ratedOutput','Rated output',850,'W','rmx'),fact('modelCode','Model code','RPS0124','','rmx'),fact('length','PSU body length',160,'mm','rmx'),fact('width','PSU body width',150,'mm','rmx'),fact('height','PSU body height',86,'mm','rmx'),fact('fanSize','Fan size',135,'mm','rmxSku','Exact SKU technical specification, rechecked October 13, 2026.')],
     [{id:'focusgx850',reason:'Compare exact revision and cables before considering another similarly rated supply.'}],['choose-a-pc-power-supply','pc-build-compatibility-checklist']),
   profile('retail-corsair-4000d-black','c4000',{scope:'case_sku',manufacturer:'CORSAIR',model:'4000D Black',sku:'CC-9011198-WW',revision:'original solid-front design'},
     'CC-9011198-WW is the original black 4000D with a solid front panel. It is not the 4000D Airflow or FRAME 4000D.',
@@ -192,6 +193,8 @@ function renderPanel(profile, record, records, esc) {
   </section><!-- program-product:end -->`;
 }
 
+if(!profiles.find(p=>p.id==='rm850x').sourceIds.includes('rmxSku'))profiles.find(p=>p.id==='rm850x').sourceIds.push('rmxSku');
+
 const css = `.product-program{margin:3rem 0;padding:clamp(1.25rem,3vw,2.5rem);border:1px solid var(--line,#ccd3da);border-radius:16px;background:var(--panel,var(--surface));font-size:1rem;line-height:1.65}.product-program h2{font-size:clamp(1.45rem,2.8vw,2rem);line-height:1.2;margin:0 0 1rem;letter-spacing:-.025em}.product-program h3{font-size:1.2rem;line-height:1.3;margin:1.5rem 0 .8rem;letter-spacing:0}.product-program h4{font-size:1.06rem;margin:0 0 .6rem;letter-spacing:0}.product-answer{font-size:1.12rem;max-width:72ch}.product-program-summary>p{max-width:82ch}.product-program-columns{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:clamp(1.5rem,4vw,3rem)}.product-program-table{overflow:auto}.product-program table{width:100%;border-collapse:collapse;text-align:left;font-size:.95rem}.product-program caption{text-align:left;padding:0 0 .75rem;color:var(--muted,#526170)}.product-program th,.product-program td{padding:.8rem .6rem;vertical-align:top;border-bottom:1px solid var(--line,#ccd3da)}.product-program th:first-child{padding-left:0}.product-program td:last-child{min-width:7rem}.product-fact-note{display:block;font-size:.875rem;line-height:1.45;color:var(--muted,#526170);margin-top:.3rem}.product-program li{margin:.6rem 0}.product-alternatives{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:1rem}.product-alternatives article{border:1px solid var(--line,#ccd3da);border-radius:12px;padding:1.25rem}.product-alternatives article p{margin:.5rem 0 1rem}.product-program-actions{display:flex;gap:.75rem;flex-wrap:wrap;margin:1.5rem 0}.product-program-actions .button{min-height:44px;white-space:normal;text-align:center}.product-evidence{border-top:1px solid var(--line,#ccd3da);padding-top:1rem;margin-top:1.5rem}.product-evidence summary{cursor:pointer;min-height:44px;display:list-item;align-content:center;font-weight:600}.product-evidence p,.product-evidence li{font-size:.925rem}.product-program a:focus-visible,.product-program summary:focus-visible{outline:3px solid var(--accent,#1765b2);outline-offset:4px}.product-program a{text-underline-offset:.2em}@media(max-width:760px){.product-program-columns{grid-template-columns:1fr;gap:.5rem}.product-program table{font-size:.9rem}.product-program-actions .button{flex:1 1 100%}.product-program{margin:2rem 0}.product-program td:last-child{min-width:6rem}}`;
 
 function programProducts({root,records,esc,documentationRoot}) {
@@ -227,7 +230,7 @@ function programProducts({root,records,esc,documentationRoot}) {
       html = html.replace('</head>','<link rel="stylesheet" href="/program-products.css"></head>');
       if(!html.includes('data-stage2-noindex')) html = html.replace(/<body\b/,'<body data-stage2-noindex data-program-added-noindex');
       html=html.replace(/<body\b/,'<body data-program-product-preview');
-      if(record.id==='rm850x') html=html.replace(/(<th scope="row">Fan size<\/th><td>)135(?=\s*mm<\/td>)/,(_,prefix)=>prefix+'140');
+
       const panel = renderPanel(p,record,records,esc);
       html = html.includes('<div class="record-detail">')?html.replace('<div class="record-detail">',panel+'<div class="record-detail">'):html.replace('</main>',panel+'</main>');
       enhanced++;
@@ -246,4 +249,4 @@ function programProducts({root,records,esc,documentationRoot}) {
   return {enhanced,profiles,sources,audit};
 }
 module.exports = programProducts;
-Object.assign(module.exports,{profiles,sources,renderPanel,openBuilder});
+Object.assign(module.exports,{profiles,sources,renderPanel,openBuilder,css});

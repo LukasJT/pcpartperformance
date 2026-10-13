@@ -26,6 +26,9 @@
     "program:offers:validate": "node scripts/prepare-program-offers.cjs validate",
     "check:program-performance": "node scripts/check-program-performance.cjs",
     "check:continuation": "node scripts/check-continuation.cjs && node scripts/check-continuation-client.cjs && node scripts/check-builder-workspace.cjs && node scripts/check-morning-prices.mjs && node scripts/test-continuation-editorial.cjs && node scripts/test-continuation-publication.cjs && node scripts/test-continuation-news-intake.cjs",
-    "check:growth": "node scripts/test-growth-tools.cjs && node scripts/test-growth-evidence.cjs && node scripts/test-growth-editorial.cjs && node scripts/test-growth-search.cjs && node scripts/test-css-compact.cjs && node scripts/test-news-sitemap-response.mjs && node scripts/check-growth-worker.mjs && node scripts/check-growth-release.cjs"
+    "check:growth": "node scripts/test-growth-tools.cjs && node scripts/test-growth-evidence.cjs && node scripts/test-growth-editorial.cjs && node scripts/test-growth-search.cjs && node scripts/test-css-compact.cjs && node scripts/test-news-sitemap-response.mjs && node scripts/check-growth-worker.mjs && node scripts/check-growth-release.cjs",
+    "check:master": "node scripts/test-master-publication.cjs && node scripts/test-master-evidence.cjs && node scripts/check-master-decisions.cjs && node scripts/check-master-generated.cjs",
+    "typecheck": "node tools/quality/node_modules/typescript/bin/tsc -p tools/quality/tsconfig.json",
+    "lint": "node tools/quality/node_modules/eslint/bin/eslint.js --config tools/quality/eslint.config.cjs scripts/master-publication.cjs scripts/master-release-policy.cjs scripts/master-editorial-content.cjs scripts/master-decisions.cjs scripts/master-decisions.js scripts/compatibility-evidence.cjs scripts/news-sitemap-response.mjs"
   }
 }

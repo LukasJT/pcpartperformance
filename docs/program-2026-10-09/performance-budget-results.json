@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-13T20:20:45.437Z",
+  "checkedAt": "2026-10-13T21:15:05.444Z",
   "passed": true,
   "scope": "Static route regression budgets, not real-user performance",
   "results": [
@@ -12,7 +12,7 @@
     },
     {
       "route": "/hardware/graphics-cards/",
-      "scriptGzip": 95101,
+      "scriptGzip": 95098,
       "scriptLimit": 98000,
       "styleBytes": 133223,
       "styleLimit": 138000
@@ -21,7 +21,7 @@
       "route": "/learn/rtx5070.html",
       "scriptGzip": 12892,
       "scriptLimit": 13100,
-      "styleBytes": 126461,
+      "styleBytes": 128838,
       "styleLimit": 133000
     },
     {
@@ -33,7 +33,7 @@
     },
     {
       "route": "/builder/",
-      "scriptGzip": 121826,
+      "scriptGzip": 121406,
       "scriptLimit": 122000,
       "styleBytes": 219345,
       "styleLimit": 224000

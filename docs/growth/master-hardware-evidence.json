@@ -1,0 +1,185 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-13",
+  "engineVersion": "2026-10-13.2",
+  "status": "Implemented exact hardware facts; parent build, browser QA and deployment remain release steps.",
+  "newDistinctModels": 10,
+  "totalDistinctModels": 26,
+  "stableIdentitiesWithFacts": 32,
+  "countMethod": "Distinct manufacturer model labels among FACTS entries, not product URLs or stable ID count. Original baseline 6 + initial October 13 batch 10 + this batch 10. Duplicate IDs for the same exact marketed model count once.",
+  "identityMigrations": [],
+  "biosVersionsVerified": 0,
+  "models": [
+    {
+      "id": "retail-msi-geforce-rtx-5070-12g-ventus-3x-oc",
+      "model": "GeForce RTX 5070 12G VENTUS 3X OC / G5070-12V3C",
+      "source": "https://www.msi.com/Graphics-Card/GeForce-RTX-5070-12G-VENTUS-3X-OC/Specification",
+      "inspected": "Full named specification table",
+      "facts": {
+        "gpuLength": 302,
+        "gpuHeight": 121,
+        "gpuThickness": 49,
+        "gpuPower": 250,
+        "connectors": "1 × 16-pin",
+        "recommendedPsu": 650
+      },
+      "limits": "Exact OC model only. Dimensions are nominal millimeters. The PSU recommendation is a manufacturer statement, not a complete system load or cable certification."
+    },
+    {
+      "id": "retail-asus-prime-geforce-rtx-5070-oc-edition-12gb",
+      "model": "PRIME-RTX5070-O12G",
+      "source": "https://www.asus.com/motherboards-components/graphics-cards/prime/prime-rtx5070-o12g/techspec/",
+      "inspected": "Exact model identifier, dimensions, connector and PSU recommendation; global official endpoint resolved after the US endpoint timed out",
+      "facts": {
+        "gpuLength": 304,
+        "gpuHeight": 126,
+        "gpuThickness": 50,
+        "connectors": "1 × 16-pin",
+        "recommendedPsu": 750
+      },
+      "limits": "No board power added because this source does not specify it. ASUS bases its PSU recommendation on an overclocked CPU and GPU system."
+    },
+    {
+      "id": "retail-msi-geforce-rtx-3060-ventus-2x-12g-oc",
+      "model": "GeForce RTX 3060 VENTUS 2X 12G OC",
+      "source": "https://www.msi.com/Graphics-Card/GeForce-RTX-3060-VENTUS-2X-12G-OC/Specification",
+      "inspected": "Full specification table for the exact 12 GB OC card",
+      "facts": {
+        "gpuLength": 235,
+        "gpuHeight": 124,
+        "gpuThickness": 42,
+        "gpuPower": 170,
+        "connectors": "1 × PCIe8-pin",
+        "recommendedPsu": 550
+      },
+      "limits": "Evidence does not apply to the 8 GB, non-OC, GAMING X or other partner models."
+    },
+    {
+      "id": "x870etomahawk",
+      "model": "MAG X870E TOMAHAWK WIFI",
+      "source": "https://www.msi.com/Motherboard/MAG-X870E-TOMAHAWK-WIFI/Specification",
+      "inspected": "CPU, memory, storage, PCB and CPU-dependent restrictions in the current exact product table",
+      "facts": {
+        "socket": "AM5",
+        "ddr": "DDR5",
+        "modules": 4,
+        "memoryMax": 256,
+        "form": "ATX",
+        "m2": 4,
+        "sata": 4
+      },
+      "limits": "M2_2 is unavailable with Ryzen 8500/8300 and shares bandwidth with USB4. Nominal counts do not verify occupied slots. Exact CPU support and shipped or installed BIOS remain unknown."
+    },
+    {
+      "id": "rm850x",
+      "model": "RM850x (2021) / CP-9020200-NA / RPS0124",
+      "source": "https://www.corsair.com/us/en/p/psu/cp-9020200-na/rmx-series-rm850x-850-watt-80-plus-gold-fully-modular-atx-psu-cp-9020200-na",
+      "secondarySource": "https://assets.corsair.com/image/upload/corsairmedia/sys_master/productcontent/WW_RMx_Series_2021_QSG_Web_AD.pdf",
+      "inspected": "Exact SKU power table and technical specifications. English manual pages 4–5 read; a translated length conflict was resolved using the exact SKU product page",
+      "facts": {
+        "psuOutput": 850,
+        "psuFormat": "ATX",
+        "psuLength": 160,
+        "cableType": "CORSAIR Type4",
+        "fanSize": 135
+      },
+      "limits": "No cable or adapter inventory is certified. Distinct from 2018, newer revisions and SHIFT. Raw catalog fan size 140 mm conflicts with the exact SKU value of 135 mm; the verified fanSize now records 135 mm. Parent integration can correct the raw record separately."
+    },
+    {
+      "id": "purepower850",
+      "model": "Pure Power 12 M 850W / BN344",
+      "source": "https://www.bequiet.com/en/powersupply/4067",
+      "inspected": "Named article number, rated output, casing dimensions and current connector specifications",
+      "facts": {
+        "psuOutput": 850,
+        "psuLength": 160,
+        "psuWidth": 150,
+        "psuHeight": 86
+      },
+      "limits": "Current page advertises ATX 3.1 and 12V-2x6 while the inherited catalog dates to 2023. Native 16-pin cable revision, electrical standard and remaining connector inventory are not asserted for that unspecified revision."
+    },
+    {
+      "id": "980pro",
+      "model": "980 PRO 1 TB / MZ-V8P1T0BW",
+      "source": "https://www.samsung.com/nz/memory-storage/nvme-ssd/980-pro-pcle-4-0-nvme-m-2-ssd-1tb-mz-v8p1t0bw/",
+      "inspected": "General Feature table for the exact 1 TB model without a heatsink",
+      "facts": {
+        "storageInterface": "NVMe",
+        "storageLength": 80,
+        "storageForm": "M.2 2280",
+        "storageProtocol": "NVMe1.3c",
+        "pcieLink": "PCIe4.0 ×4",
+        "capacity": 1000
+      },
+      "limits": "80 mm is the nominal 2280 mounting class; published body length is 80.15 mm. Decimal GB capacity is not formatted space. No measured transfer result was added."
+    },
+    {
+      "id": "990evoplus",
+      "model": "990 EVO Plus 2 TB / MZ-V9S2T0BW",
+      "source": "https://www.samsung.com/sg/memory-storage/nvme-ssd/990-evo-plus-2tb-mz-v9s2t0bw/",
+      "inspected": "Exact 2 TB SKU specification table; used this official page after the Samsung Semiconductor endpoint failed",
+      "facts": {
+        "storageInterface": "NVMe",
+        "storageLength": 80,
+        "storageForm": "M.2 2280",
+        "storageProtocol": "NVMe2.0",
+        "pcieLink": "PCIe4.0 ×4 /5.0 ×2",
+        "capacity": 2000
+      },
+      "limits": "Evidence does not apply to 990 EVO, 990 PRO or another capacity. Interface capability does not approve every motherboard slot or establish measured transfer rate."
+    },
+    {
+      "id": "retail-lian-li-o11-dynamic-evo-white",
+      "model": "O11 Dynamic EVO White / O11DEW",
+      "source": "https://lian-li.com/product/o11-dynamic-evo/",
+      "inspected": "Explicit White model column and final specification table",
+      "facts": {
+        "forms": [
+          "ATX",
+          "MICRO-ATX",
+          "MINI-ITX",
+          "E-ATX"
+        ],
+        "boardWidthMax": 280,
+        "boardWidthComparison": "lt",
+        "gpuLengthMax": 426,
+        "coolerHeightMax": 167,
+        "psuLengthMax": 220
+      },
+      "limits": "E-ATX width must be strictly under 280 mm. The separate width check remains unknown without verified board width. Nominal GPU and PSU allowances do not approve cables, radiators or alternate brackets. Physical PSU format is not inferred from photographs."
+    },
+    {
+      "id": "retail-lian-li-o11-dynamic-mini-snow",
+      "model": "O11 Dynamic Mini Snow / O11DMINI-S",
+      "source": "https://lian-li.com/product/o11-dynamic-mini/",
+      "inspected": "Explicit Snow model column, motherboard, PSU, cooler and conflicting GPU rows",
+      "facts": {
+        "forms": [
+          "ATX",
+          "MICRO-ATX",
+          "MINI-ITX",
+          "E-ATX"
+        ],
+        "boardWidthMax": 280,
+        "boardWidthComparison": "lte",
+        "psuFormats": [
+          "SFX",
+          "SFX-L"
+        ],
+        "coolerHeightMax": 170
+      },
+      "limits": "The same manufacturer table lists 395 mm GPU LENGTH CLEARANCE and 370 mm VGA Length without resolving their conditions. gpuLengthMax stays unverified. O11 Air Mini ATX PSU support does not apply to O11 Dynamic Mini."
+    }
+  ],
+  "implementationFiles": [
+    "scripts/compatibility-evidence.cjs",
+    "scripts/test-master-evidence.cjs"
+  ],
+  "testCommand": "node scripts/test-master-evidence.cjs",
+  "releaseLimits": [
+    "This batch does not deploy or modify dist.",
+    "No identity merge, redirect or saved build migration.",
+    "No exact BIOS version approved.",
+    "A passed nominal dimension or rated output check is not an overall compatibility guarantee."
+  ]
+}

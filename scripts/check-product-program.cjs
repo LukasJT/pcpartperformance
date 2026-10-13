@@ -67,13 +67,13 @@ test('Twenty scoped product profiles have traceable original sources and truthfu
     assert.ok(profile.guides.length);assert.ok(profile.alternatives.some(a=>catalog.some(p=>p.id===a.id)));
     for(const guide of profile.guides)assert.ok(fs.existsSync(path.join(repo,'dist/blog',guide,'index.html')),'Existing guide route '+guide);
     for(const fact of profile.facts){assert.ok(program.sources[fact.sourceId]);assert.equal(typeof fact.unit,'string');assert.equal(fact.status,fact.value===null?'unknown':'manufacturer_specified');assert.ok(fact.value!==undefined);}
-    for(const id of profile.sourceIds){const source=program.sources[id];assert.equal(source.checkedAt,'2026-10-09');assert.equal(source.verification,'original_document_inspected');assert.equal(new URL(source.url).protocol,'https:');assert.ok(source.scope.length>30);}
+    for(const id of profile.sourceIds){const source=program.sources[id];assert.equal(source.checkedAt,id==='rmxSku'?'2026-10-13':'2026-10-09');assert.equal(source.verification,'original_document_inspected');assert.equal(new URL(source.url).protocol,'https:');assert.ok(source.scope.length>30);}
   }
   const p=id=>program.profiles.find(p=>p.id===id),f=(id,key)=>p(id).facts.find(f=>f.key===key).value;
   assert.equal(f('rtx30506','memoryCapacity'),6);assert.equal(f('rtx30506','graphicsPower'),70);assert.equal(f('rtx5060ti16','memoryCapacity'),16);
   assert.equal(f('rtx5070','exactDimensions'),null);assert.equal(f('b650','m2Slots'),3);assert.equal(f('b850tomahawk','m2Slots'),4);
   assert.equal(p('ddr5').identity.sku,'CMK32GX5M2B6000C30');assert.equal(f('ddr5','profile'),'Intel XMP');
-  assert.equal(f('rm850x','fanSize'),140);assert.equal(p('barracuda2').identity.sku,'ST2000DM008');assert.equal(f('barracuda2','spindleSpeed'),7200);
+  assert.equal(f('rm850x','fanSize'),135);assert.equal(p('barracuda2').identity.sku,'ST2000DM008');assert.equal(f('barracuda2','spindleSpeed'),7200);
 });
 test('Readable panels escape supplied text and preserve exact builder positions',()=>{
   const profile=program.profiles.find(p=>p.id==='rtx5070'),record=catalog.find(p=>p.id==='rtx5070');
@@ -98,7 +98,7 @@ try{
     const before=new Map(program.profiles.map(p=>[p.id,fs.readFileSync(path.join(dist,'learn',p.id+'.html'),'utf8')]));
     program({root:dist,records:catalog,esc,documentationRoot:docs});
     for(const [id,html]of before){assert.equal(fs.readFileSync(path.join(dist,'learn',id+'.html'),'utf8'),html);assert.equal((html.match(/program-product:start/g)||[]).length,1);assert.ok(html.includes('data-stage2-noindex'));}
-    const rmx=before.get('rm850x');assert.ok(rmx.includes('<td>140 mm</td>'));assert.ok(!rmx.includes('<td>135 mm</td>'));
+    const rmx=before.get('rm850x');assert.ok(rmx.includes('<td>135 mm</td>'));assert.ok(!rmx.includes('<td>140 mm</td>'));
     const evidence=JSON.parse(fs.readFileSync(path.join(dist,'data/product-evidence.json'),'utf8'));assert.equal(evidence.products.length,20);assert.equal(evidence.humanReviewed,false);
     assert.deepEqual(JSON.parse(fs.readFileSync(path.join(dist,'data/product-identities.json'),'utf8')).aliases,{});
     assert.equal(JSON.parse(fs.readFileSync(path.join(docs,'product-template-result.json'),'utf8')).publishable,0);

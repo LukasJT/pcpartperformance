@@ -2371,5 +2371,27 @@
     "sourceUid": "26fbe59aa2ab4a749ef71583aefdadd5",
     "identityNote": "Source title uses Gaming X Trio, but its description links the exact MSI GAMING TRIO OC product. Source visual fan/shroud/backplate and retail SKU G5070-12GTC reviewed. Low-detail textured exterior; fans are largely textures. Appearance preview; not clearance geometry.",
     "reviewed": "2026-10-11"
+  },
+  {
+    "id": "rx6900xt",
+    "asset": "sketchfab-radeon-rx-6900-xt.glb",
+    "title": "Rx6900XT",
+    "creator": "sanketrules911",
+    "creatorUrl": "https://sketchfab.com/sanketrules911",
+    "sourceUrl": "https://sketchfab.com/3d-models/rx6900xt-f21fc17d04404bf897a7b1727ee95f15",
+    "sourceUid": "f21fc17d04404bf897a7b1727ee95f15",
+    "origin": "sketchfab",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "identity": "family-or-chip",
+    "estimated": true,
+    "orientation": [3.141592653589793, 0, 0],
+    "dimensionsMm": [267, 40.22, 125.82],
+    "dimensionSource": "https://www.amd.com/en/products/graphics/desktops/radeon/6000-series/amd-radeon-rx-6900-xt.html",
+    "identityNote": "The source title and creator description identify the AMD Radeon RX 6900 XT. Visual review confirms a stylized triple-fan Radeon reference exterior. The creator's simplified colors and surface detail are retained. This applies only to the generic rx6900xt record and does not represent ASUS, MSI, XFX or other partner variants.",
+    "dimensionStatus": "Appearance preview only. Length is normalized to AMD's published 267 mm reference-card length; displayed thickness and height preserve the community mesh proportions and are not manufacturer measurements. Bracket, mounting, connector, cable and assembled clearances are unverified.",
+    "changes": "Flattened static transforms, joined compatible primitives, deduplicated resources and applied Meshopt compression. Creator materials retained; this source has no texture files. Builder centers the pivot and rotates the card with fans facing downward. The display envelope preserves mesh proportions at the documented reference-card length.",
+    "reviewed": "2026-10-13",
+    "assetSha256": "4d2d934ba3393b986a80cb180354f74b86f04c450cdcfa1faaee32521540eaee"
   }
 ]

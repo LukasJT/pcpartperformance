@@ -1,0 +1,10 @@
+{
+  "name": "pcpartperformance-quality",
+  "private": true,
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "eslint": "^10.12.0",
+    "terser": "^5.51.2",
+    "typescript": "^5.9.3"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "checkedAt": "2026-10-13T21:13:41.419Z",
+  "validatorVersion": "2.0.0-dev.3.10",
+  "method": "Khronos GLB structure validation plus Meshopt decoding, finite accessor scan, embedded provenance, exact registry joins and self-contained resource checks. Actual renderer reports are checked separately; these checks do not certify physical fit.",
+  "assets": [
+    {
+      "id": "rx6900xt",
+      "bytes": 193812,
+      "sha256": "4d2d934ba3393b986a80cb180354f74b86f04c450cdcfa1faaee32521540eaee",
+      "errors": 0,
+      "warnings": 0,
+      "issues": {
+        "UNSUPPORTED_EXTENSION": 1,
+        "UNUSED_OBJECT": 1
+      },
+      "decodedFiniteValues": 240111,
+      "triangles": 18525,
+      "bounds": {
+        "min": [
+          -2.4167333592847493,
+          -0.017219831109111843,
+          -0.9130142012692024
+        ],
+        "max": [
+          2.239325523376465,
+          0.6841876021498724,
+          1.2806746487693874
+        ]
+      }
+    }
+  ]
+}

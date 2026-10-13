@@ -1,0 +1,26 @@
+{
+  "checkedAt": "2026-10-13T21:21:49.587Z",
+  "typecheck": {
+    "passed": true,
+    "command": "node tools/quality/node_modules/typescript/bin/tsc -p tools/quality/tsconfig.json",
+    "version": "5.9.3",
+    "scope": [
+      "release authorization",
+      "runtime recent-news eligibility"
+    ]
+  },
+  "lint": {
+    "passed": true,
+    "version": "10.12.0",
+    "scope": [
+      "master publication and decisions",
+      "master editorial source",
+      "compatibility engine",
+      "runtime recent-news renderer"
+    ]
+  },
+  "runtime": {
+    "preparedWith": "5.51.2",
+    "lineEndingsNormalized": true
+  }
+}

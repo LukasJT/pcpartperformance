@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "preparedAt": "2026-10-09",
-  "engineVersion": "2026-10-13.1",
+  "engineVersion": "2026-10-13.2",
   "sources": {
     "msiB650": {
       "publisher": "MSI",
@@ -128,6 +128,76 @@
       "checked": "2026-10-13",
       "model": "Core i7-14700K",
       "scope": "FCLGA1700 normalized to LGA1700; DDR4 or DDR5 depending on motherboard, 192 GB limit and UHD 770 graphics. Uses the inspected 236783 exact K-model page, not KF or the inaccessible inherited 236789 URL."
+    },
+    "msi5070Ventus": {
+      "publisher": "MSI",
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5070-12G-VENTUS-3X-OC/Specification",
+      "checked": "2026-10-13",
+      "model": "GeForce RTX 5070 12G VENTUS 3X OC / G5070-12V3C",
+      "scope": "Exact OC card dimensions, published board power, one 16-pin input and PSU recommendation. Not the non-OC, Ti, 2X or white model."
+    },
+    "asus5070Prime": {
+      "publisher": "ASUS",
+      "url": "https://www.asus.com/motherboards-components/graphics-cards/prime/prime-rtx5070-o12g/techspec/",
+      "checked": "2026-10-13",
+      "model": "PRIME-RTX5070-O12G",
+      "scope": "304 × 126 × 50 mm, one 16-pin input and 750 W recommended PSU. ASUS bases that recommendation on an overclocked CPU/GPU system; board power is not specified here."
+    },
+    "msi3060VentusOC": {
+      "publisher": "MSI",
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3060-VENTUS-2X-12G-OC/Specification",
+      "checked": "2026-10-13",
+      "model": "GeForce RTX 3060 VENTUS 2X 12G OC",
+      "scope": "Exact 12 GB OC card dimensions, board power, one PCIe 8-pin input and PSU recommendation. 8 GB, non-OC and other VENTUS variants are separate."
+    },
+    "msiX870Tomahawk": {
+      "publisher": "MSI",
+      "url": "https://www.msi.com/Motherboard/MAG-X870E-TOMAHAWK-WIFI/Specification",
+      "checked": "2026-10-13",
+      "model": "MAG X870E TOMAHAWK WIFI",
+      "scope": "AM5, DDR5, four DIMMs, 256 GB published limit, ATX and nominal storage counts. M2_2 is unavailable with Ryzen 8500/8300 and shares bandwidth with USB4; exact BIOS and occupied-slot layout remain unresolved."
+    },
+    "corsairRM8502021": {
+      "publisher": "CORSAIR",
+      "url": "https://www.corsair.com/us/en/p/psu/cp-9020200-na/rmx-series-rm850x-850-watt-80-plus-gold-fully-modular-atx-psu-cp-9020200-na",
+      "checked": "2026-10-13",
+      "model": "RM850x (2021) / CP-9020200-NA / RPS0124",
+      "scope": "Exact SKU page verifies 850 W rated output, ATX form, 160 mm body length and Type 4 cables. Separate from RM850x 2018, 2024/2025 and SHIFT. Cable routing and connector inventory are not certified."
+    },
+    "bequiet850": {
+      "publisher": "be quiet!",
+      "url": "https://www.bequiet.com/en/powersupply/4067",
+      "checked": "2026-10-13",
+      "model": "Pure Power 12 M 850W / BN344",
+      "scope": "Exact named product and article number: 850 W rated output, 160 × 150 × 86 mm body. Current page describes ATX 3.1/12V-2x6 while inherited record dates to 2023; connector revision and standards are deliberately unresolved."
+    },
+    "samsung980": {
+      "publisher": "Samsung",
+      "url": "https://www.samsung.com/nz/memory-storage/nvme-ssd/980-pro-pcle-4-0-nvme-m-2-ssd-1tb-mz-v8p1t0bw/",
+      "checked": "2026-10-13",
+      "model": "980 PRO 1 TB / MZ-V8P1T0BW",
+      "scope": "Exact non-heatsink 1 TB model: PCIe 4.0 x4 NVMe 1.3c, M.2 2280 and nominal capacity. Other capacities and heatsink versions do not inherit this evidence."
+    },
+    "samsung990Evo2": {
+      "publisher": "Samsung",
+      "url": "https://www.samsung.com/sg/memory-storage/nvme-ssd/990-evo-plus-2tb-mz-v9s2t0bw/",
+      "checked": "2026-10-13",
+      "model": "990 EVO Plus 2 TB / MZ-V9S2T0BW",
+      "scope": "Exact 2 TB product table: PCIe 4.0 x4 / 5.0 x2, NVMe 2.0, M.2 2280 and rated capacity. This is not 990 EVO, 990 PRO or the 1 TB/4 TB capacities."
+    },
+    "lianEvoWhite": {
+      "publisher": "Lian Li",
+      "url": "https://lian-li.com/product/o11-dynamic-evo/",
+      "checked": "2026-10-13",
+      "model": "O11 Dynamic EVO White / O11DEW",
+      "scope": "Explicit white model column: supported board forms, conditional E-ATX width, nominal GPU/cooler/PSU body allowances. Original EVO only, not EVO RGB or EVO XL. Nominal dimensions do not certify an assembled layout."
+    },
+    "lianMiniSnow": {
+      "publisher": "Lian Li",
+      "url": "https://lian-li.com/product/o11-dynamic-mini/",
+      "checked": "2026-10-13",
+      "model": "O11 Dynamic Mini Snow / O11DMINI-S",
+      "scope": "Explicit Snow model column verifies SFX/SFX-L PSU support, board forms, conditional E-ATX width and 170 mm cooler height. GPU LENGTH CLEARANCE says 395 mm but VGA Length says 370 mm; GPU length remains unresolved."
     }
   },
   "fields": {
@@ -1447,6 +1517,548 @@
         "publisher": "ASUS",
         "checked": "2026-10-13",
         "model": "ROG STRIX B550-F GAMING (WI-FI)",
+        "status": "manufacturer-specified",
+        "exact": true
+      }
+    },
+    "retail-msi-geforce-rtx-5070-12g-ventus-3x-oc": {
+      "gpuLength": {
+        "value": 302,
+        "source": "https://www.msi.com/Graphics-Card/GeForce-RTX-5070-12G-VENTUS-3X-OC/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "GeForce RTX 5070 12G VENTUS 3X OC / G5070-12V3C",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "gpuHeight": {
+        "value": 121,
+        "source": "https://www.msi.com/Graphics-Card/GeForce-RTX-5070-12G-VENTUS-3X-OC/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "GeForce RTX 5070 12G VENTUS 3X OC / G5070-12V3C",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "gpuThickness": {
+        "value": 49,
+        "source": "https://www.msi.com/Graphics-Card/GeForce-RTX-5070-12G-VENTUS-3X-OC/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "GeForce RTX 5070 12G VENTUS 3X OC / G5070-12V3C",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "gpuPower": {
+        "value": 250,
+        "source": "https://www.msi.com/Graphics-Card/GeForce-RTX-5070-12G-VENTUS-3X-OC/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "GeForce RTX 5070 12G VENTUS 3X OC / G5070-12V3C",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "connectors": {
+        "value": "1 × 16-pin",
+        "source": "https://www.msi.com/Graphics-Card/GeForce-RTX-5070-12G-VENTUS-3X-OC/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "GeForce RTX 5070 12G VENTUS 3X OC / G5070-12V3C",
+        "status": "manufacturer-specified",
+        "exact": true,
+        "condition": "MSI recommends an ATX 3.1 PSU. Exact cable/adapter instructions and connector bend clearance need verification."
+      },
+      "recommendedPsu": {
+        "value": 650,
+        "source": "https://www.msi.com/Graphics-Card/GeForce-RTX-5070-12G-VENTUS-3X-OC/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "GeForce RTX 5070 12G VENTUS 3X OC / G5070-12V3C",
+        "status": "manufacturer-specified",
+        "exact": true,
+        "condition": "Manufacturer PSU recommendation, not measured system load or a complete power/cable certification."
+      }
+    },
+    "retail-asus-prime-geforce-rtx-5070-oc-edition-12gb": {
+      "gpuLength": {
+        "value": 304,
+        "source": "https://www.asus.com/motherboards-components/graphics-cards/prime/prime-rtx5070-o12g/techspec/",
+        "publisher": "ASUS",
+        "checked": "2026-10-13",
+        "model": "PRIME-RTX5070-O12G",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "gpuHeight": {
+        "value": 126,
+        "source": "https://www.asus.com/motherboards-components/graphics-cards/prime/prime-rtx5070-o12g/techspec/",
+        "publisher": "ASUS",
+        "checked": "2026-10-13",
+        "model": "PRIME-RTX5070-O12G",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "gpuThickness": {
+        "value": 50,
+        "source": "https://www.asus.com/motherboards-components/graphics-cards/prime/prime-rtx5070-o12g/techspec/",
+        "publisher": "ASUS",
+        "checked": "2026-10-13",
+        "model": "PRIME-RTX5070-O12G",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "connectors": {
+        "value": "1 × 16-pin",
+        "source": "https://www.asus.com/motherboards-components/graphics-cards/prime/prime-rtx5070-o12g/techspec/",
+        "publisher": "ASUS",
+        "checked": "2026-10-13",
+        "model": "PRIME-RTX5070-O12G",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "recommendedPsu": {
+        "value": 750,
+        "source": "https://www.asus.com/motherboards-components/graphics-cards/prime/prime-rtx5070-o12g/techspec/",
+        "publisher": "ASUS",
+        "checked": "2026-10-13",
+        "model": "PRIME-RTX5070-O12G",
+        "status": "manufacturer-specified",
+        "exact": true,
+        "condition": "ASUS bases this recommendation on a fully overclocked CPU/GPU system, not a measurement of your configuration."
+      }
+    },
+    "retail-msi-geforce-rtx-3060-ventus-2x-12g-oc": {
+      "gpuLength": {
+        "value": 235,
+        "source": "https://www.msi.com/Graphics-Card/GeForce-RTX-3060-VENTUS-2X-12G-OC/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "GeForce RTX 3060 VENTUS 2X 12G OC",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "gpuHeight": {
+        "value": 124,
+        "source": "https://www.msi.com/Graphics-Card/GeForce-RTX-3060-VENTUS-2X-12G-OC/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "GeForce RTX 3060 VENTUS 2X 12G OC",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "gpuThickness": {
+        "value": 42,
+        "source": "https://www.msi.com/Graphics-Card/GeForce-RTX-3060-VENTUS-2X-12G-OC/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "GeForce RTX 3060 VENTUS 2X 12G OC",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "gpuPower": {
+        "value": 170,
+        "source": "https://www.msi.com/Graphics-Card/GeForce-RTX-3060-VENTUS-2X-12G-OC/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "GeForce RTX 3060 VENTUS 2X 12G OC",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "connectors": {
+        "value": "1 × PCIe 8-pin",
+        "source": "https://www.msi.com/Graphics-Card/GeForce-RTX-3060-VENTUS-2X-12G-OC/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "GeForce RTX 3060 VENTUS 2X 12G OC",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "recommendedPsu": {
+        "value": 550,
+        "source": "https://www.msi.com/Graphics-Card/GeForce-RTX-3060-VENTUS-2X-12G-OC/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "GeForce RTX 3060 VENTUS 2X 12G OC",
+        "status": "manufacturer-specified",
+        "exact": true,
+        "condition": "Manufacturer PSU recommendation, not measured system load."
+      }
+    },
+    "x870etomahawk": {
+      "socket": {
+        "value": "AM5",
+        "source": "https://www.msi.com/Motherboard/MAG-X870E-TOMAHAWK-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "MAG X870E TOMAHAWK WIFI",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "ddr": {
+        "value": "DDR5",
+        "source": "https://www.msi.com/Motherboard/MAG-X870E-TOMAHAWK-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "MAG X870E TOMAHAWK WIFI",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "modules": {
+        "value": 4,
+        "source": "https://www.msi.com/Motherboard/MAG-X870E-TOMAHAWK-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "MAG X870E TOMAHAWK WIFI",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "memoryMax": {
+        "value": 256,
+        "source": "https://www.msi.com/Motherboard/MAG-X870E-TOMAHAWK-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "MAG X870E TOMAHAWK WIFI",
+        "status": "manufacturer-specified",
+        "exact": true,
+        "condition": "Published motherboard limit; CPU, firmware and memory population can impose additional limits."
+      },
+      "form": {
+        "value": "ATX",
+        "source": "https://www.msi.com/Motherboard/MAG-X870E-TOMAHAWK-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "MAG X870E TOMAHAWK WIFI",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "m2": {
+        "value": 4,
+        "source": "https://www.msi.com/Motherboard/MAG-X870E-TOMAHAWK-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "MAG X870E TOMAHAWK WIFI",
+        "status": "manufacturer-specified",
+        "exact": true,
+        "condition": "Nominal physical M.2 positions; exact slot, CPU and sharing restrictions require the manual."
+      },
+      "sata": {
+        "value": 4,
+        "source": "https://www.msi.com/Motherboard/MAG-X870E-TOMAHAWK-WIFI/Specification",
+        "publisher": "MSI",
+        "checked": "2026-10-13",
+        "model": "MAG X870E TOMAHAWK WIFI",
+        "status": "manufacturer-specified",
+        "exact": true
+      }
+    },
+    "rm850x": {
+      "psuOutput": {
+        "value": 850,
+        "source": "https://www.corsair.com/us/en/p/psu/cp-9020200-na/rmx-series-rm850x-850-watt-80-plus-gold-fully-modular-atx-psu-cp-9020200-na",
+        "publisher": "CORSAIR",
+        "checked": "2026-10-13",
+        "model": "RM850x (2021) / CP-9020200-NA / RPS0124",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "psuFormat": {
+        "value": "ATX",
+        "source": "https://www.corsair.com/us/en/p/psu/cp-9020200-na/rmx-series-rm850x-850-watt-80-plus-gold-fully-modular-atx-psu-cp-9020200-na",
+        "publisher": "CORSAIR",
+        "checked": "2026-10-13",
+        "model": "RM850x (2021) / CP-9020200-NA / RPS0124",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "psuLength": {
+        "value": 160,
+        "source": "https://www.corsair.com/us/en/p/psu/cp-9020200-na/rmx-series-rm850x-850-watt-80-plus-gold-fully-modular-atx-psu-cp-9020200-na",
+        "publisher": "CORSAIR",
+        "checked": "2026-10-13",
+        "model": "RM850x (2021) / CP-9020200-NA / RPS0124",
+        "status": "manufacturer-specified",
+        "exact": true,
+        "condition": "Body length only; provide additional cable-routing space from the case manual."
+      },
+      "cableType": {
+        "value": "CORSAIR Type 4",
+        "source": "https://www.corsair.com/us/en/p/psu/cp-9020200-na/rmx-series-rm850x-850-watt-80-plus-gold-fully-modular-atx-psu-cp-9020200-na",
+        "publisher": "CORSAIR",
+        "checked": "2026-10-13",
+        "model": "RM850x (2021) / CP-9020200-NA / RPS0124",
+        "status": "manufacturer-specified",
+        "exact": true,
+        "condition": "Check the exact cable product and CORSAIR compatibility chart before reuse. Type alone is not a complete connector inventory."
+      },
+      "fanSize": {
+        "value": 135,
+        "source": "https://www.corsair.com/us/en/p/psu/cp-9020200-na/rmx-series-rm850x-850-watt-80-plus-gold-fully-modular-atx-psu-cp-9020200-na",
+        "publisher": "CORSAIR",
+        "checked": "2026-10-13",
+        "model": "RM850x (2021) / CP-9020200-NA / RPS0124",
+        "status": "manufacturer-specified",
+        "exact": true
+      }
+    },
+    "purepower850": {
+      "psuOutput": {
+        "value": 850,
+        "source": "https://www.bequiet.com/en/powersupply/4067",
+        "publisher": "be quiet!",
+        "checked": "2026-10-13",
+        "model": "Pure Power 12 M 850W / BN344",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "psuLength": {
+        "value": 160,
+        "source": "https://www.bequiet.com/en/powersupply/4067",
+        "publisher": "be quiet!",
+        "checked": "2026-10-13",
+        "model": "Pure Power 12 M 850W / BN344",
+        "status": "manufacturer-specified",
+        "exact": true,
+        "condition": "Published BN344 body length. Verify the revision and actual connectors; the original 2023 record does not prove current 12V-2x6 cables."
+      },
+      "psuWidth": {
+        "value": 150,
+        "source": "https://www.bequiet.com/en/powersupply/4067",
+        "publisher": "be quiet!",
+        "checked": "2026-10-13",
+        "model": "Pure Power 12 M 850W / BN344",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "psuHeight": {
+        "value": 86,
+        "source": "https://www.bequiet.com/en/powersupply/4067",
+        "publisher": "be quiet!",
+        "checked": "2026-10-13",
+        "model": "Pure Power 12 M 850W / BN344",
+        "status": "manufacturer-specified",
+        "exact": true
+      }
+    },
+    "980pro": {
+      "storageInterface": {
+        "value": "NVMe",
+        "source": "https://www.samsung.com/nz/memory-storage/nvme-ssd/980-pro-pcle-4-0-nvme-m-2-ssd-1tb-mz-v8p1t0bw/",
+        "publisher": "Samsung",
+        "checked": "2026-10-13",
+        "model": "980 PRO 1 TB / MZ-V8P1T0BW",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "storageLength": {
+        "value": 80,
+        "source": "https://www.samsung.com/nz/memory-storage/nvme-ssd/980-pro-pcle-4-0-nvme-m-2-ssd-1tb-mz-v8p1t0bw/",
+        "publisher": "Samsung",
+        "checked": "2026-10-13",
+        "model": "980 PRO 1 TB / MZ-V8P1T0BW",
+        "status": "manufacturer-specified",
+        "exact": true,
+        "condition": "Nominal M.2 2280 mounting class. The published body is 80.15 mm; mounting/heatsink clearance is separate."
+      },
+      "storageForm": {
+        "value": "M.2 2280",
+        "source": "https://www.samsung.com/nz/memory-storage/nvme-ssd/980-pro-pcle-4-0-nvme-m-2-ssd-1tb-mz-v8p1t0bw/",
+        "publisher": "Samsung",
+        "checked": "2026-10-13",
+        "model": "980 PRO 1 TB / MZ-V8P1T0BW",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "storageProtocol": {
+        "value": "NVMe 1.3c",
+        "source": "https://www.samsung.com/nz/memory-storage/nvme-ssd/980-pro-pcle-4-0-nvme-m-2-ssd-1tb-mz-v8p1t0bw/",
+        "publisher": "Samsung",
+        "checked": "2026-10-13",
+        "model": "980 PRO 1 TB / MZ-V8P1T0BW",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "pcieLink": {
+        "value": "PCIe 4.0 ×4",
+        "source": "https://www.samsung.com/nz/memory-storage/nvme-ssd/980-pro-pcle-4-0-nvme-m-2-ssd-1tb-mz-v8p1t0bw/",
+        "publisher": "Samsung",
+        "checked": "2026-10-13",
+        "model": "980 PRO 1 TB / MZ-V8P1T0BW",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "capacity": {
+        "value": 1000,
+        "source": "https://www.samsung.com/nz/memory-storage/nvme-ssd/980-pro-pcle-4-0-nvme-m-2-ssd-1tb-mz-v8p1t0bw/",
+        "publisher": "Samsung",
+        "checked": "2026-10-13",
+        "model": "980 PRO 1 TB / MZ-V8P1T0BW",
+        "status": "manufacturer-specified",
+        "exact": true,
+        "unit": "GB",
+        "condition": "Decimal rated capacity, not formatted usable space."
+      }
+    },
+    "990evoplus": {
+      "storageInterface": {
+        "value": "NVMe",
+        "source": "https://www.samsung.com/sg/memory-storage/nvme-ssd/990-evo-plus-2tb-mz-v9s2t0bw/",
+        "publisher": "Samsung",
+        "checked": "2026-10-13",
+        "model": "990 EVO Plus 2 TB / MZ-V9S2T0BW",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "storageLength": {
+        "value": 80,
+        "source": "https://www.samsung.com/sg/memory-storage/nvme-ssd/990-evo-plus-2tb-mz-v9s2t0bw/",
+        "publisher": "Samsung",
+        "checked": "2026-10-13",
+        "model": "990 EVO Plus 2 TB / MZ-V9S2T0BW",
+        "status": "manufacturer-specified",
+        "exact": true,
+        "condition": "Nominal M.2 2280 mounting class; body/heatsink clearance is separate."
+      },
+      "storageForm": {
+        "value": "M.2 2280",
+        "source": "https://www.samsung.com/sg/memory-storage/nvme-ssd/990-evo-plus-2tb-mz-v9s2t0bw/",
+        "publisher": "Samsung",
+        "checked": "2026-10-13",
+        "model": "990 EVO Plus 2 TB / MZ-V9S2T0BW",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "storageProtocol": {
+        "value": "NVMe 2.0",
+        "source": "https://www.samsung.com/sg/memory-storage/nvme-ssd/990-evo-plus-2tb-mz-v9s2t0bw/",
+        "publisher": "Samsung",
+        "checked": "2026-10-13",
+        "model": "990 EVO Plus 2 TB / MZ-V9S2T0BW",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "pcieLink": {
+        "value": "PCIe 4.0 ×4 / 5.0 ×2",
+        "source": "https://www.samsung.com/sg/memory-storage/nvme-ssd/990-evo-plus-2tb-mz-v9s2t0bw/",
+        "publisher": "Samsung",
+        "checked": "2026-10-13",
+        "model": "990 EVO Plus 2 TB / MZ-V9S2T0BW",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "capacity": {
+        "value": 2000,
+        "source": "https://www.samsung.com/sg/memory-storage/nvme-ssd/990-evo-plus-2tb-mz-v9s2t0bw/",
+        "publisher": "Samsung",
+        "checked": "2026-10-13",
+        "model": "990 EVO Plus 2 TB / MZ-V9S2T0BW",
+        "status": "manufacturer-specified",
+        "exact": true,
+        "unit": "GB",
+        "condition": "Decimal rated capacity, not formatted usable space."
+      }
+    },
+    "retail-lian-li-o11-dynamic-evo-white": {
+      "forms": {
+        "value": [
+          "ATX",
+          "MICRO-ATX",
+          "MINI-ITX",
+          "E-ATX"
+        ],
+        "source": "https://lian-li.com/product/o11-dynamic-evo/",
+        "publisher": "Lian Li",
+        "checked": "2026-10-13",
+        "model": "O11 Dynamic EVO White / O11DEW",
+        "status": "manufacturer-specified",
+        "exact": true,
+        "condition": "E-ATX width must be strictly under 280 mm. Case mounting/radiator configuration still needs verification."
+      },
+      "boardWidthMax": {
+        "value": 280,
+        "source": "https://lian-li.com/product/o11-dynamic-evo/",
+        "publisher": "Lian Li",
+        "checked": "2026-10-13",
+        "model": "O11 Dynamic EVO White / O11DEW",
+        "status": "manufacturer-specified",
+        "exact": true,
+        "comparison": "lt",
+        "condition": "Manufacturer specifies E-ATX width under 280 mm, not an inclusive maximum."
+      },
+      "gpuLengthMax": {
+        "value": 426,
+        "source": "https://lian-li.com/product/o11-dynamic-evo/",
+        "publisher": "Lian Li",
+        "checked": "2026-10-13",
+        "model": "O11 Dynamic EVO White / O11DEW",
+        "status": "manufacturer-specified",
+        "exact": true,
+        "condition": "Nominal horizontal arrangement. Upright/vertical brackets, cables and radiators are separate configurations."
+      },
+      "coolerHeightMax": {
+        "value": 167,
+        "source": "https://lian-li.com/product/o11-dynamic-evo/",
+        "publisher": "Lian Li",
+        "checked": "2026-10-13",
+        "model": "O11 Dynamic EVO White / O11DEW",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "psuLengthMax": {
+        "value": 220,
+        "source": "https://lian-li.com/product/o11-dynamic-evo/",
+        "publisher": "Lian Li",
+        "checked": "2026-10-13",
+        "model": "O11 Dynamic EVO White / O11DEW",
+        "status": "manufacturer-specified",
+        "exact": true,
+        "condition": "Nominal PSU body allowance; does not include proof of connector/cable routing."
+      }
+    },
+    "retail-lian-li-o11-dynamic-mini-snow": {
+      "forms": {
+        "value": [
+          "ATX",
+          "MICRO-ATX",
+          "MINI-ITX",
+          "E-ATX"
+        ],
+        "source": "https://lian-li.com/product/o11-dynamic-mini/",
+        "publisher": "Lian Li",
+        "checked": "2026-10-13",
+        "model": "O11 Dynamic Mini Snow / O11DMINI-S",
+        "status": "manufacturer-specified",
+        "exact": true,
+        "condition": "E-ATX width limited to 280 mm; modular back-panel and radiator layout need verification."
+      },
+      "boardWidthMax": {
+        "value": 280,
+        "source": "https://lian-li.com/product/o11-dynamic-mini/",
+        "publisher": "Lian Li",
+        "checked": "2026-10-13",
+        "model": "O11 Dynamic Mini Snow / O11DMINI-S",
+        "status": "manufacturer-specified",
+        "exact": true,
+        "comparison": "lte",
+        "condition": "Manufacturer specifies max 280 mm E-ATX width."
+      },
+      "psuFormats": {
+        "value": [
+          "SFX",
+          "SFX-L"
+        ],
+        "source": "https://lian-li.com/product/o11-dynamic-mini/",
+        "publisher": "Lian Li",
+        "checked": "2026-10-13",
+        "model": "O11 Dynamic Mini Snow / O11DMINI-S",
+        "status": "manufacturer-specified",
+        "exact": true
+      },
+      "coolerHeightMax": {
+        "value": 170,
+        "source": "https://lian-li.com/product/o11-dynamic-mini/",
+        "publisher": "Lian Li",
+        "checked": "2026-10-13",
+        "model": "O11 Dynamic Mini Snow / O11DMINI-S",
         "status": "manufacturer-specified",
         "exact": true
       }

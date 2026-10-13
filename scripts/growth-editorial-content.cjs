@@ -114,7 +114,7 @@ article('G03','/blog/how-to-choose-gaming-ram/','RAM compatibility: read the exa
  ],['amd-expo']),
  section('Make the purchase decision from the unresolved check',[
   'The useful memory decision is a sequence: choose enough capacity for your task, verify the platform and installation, compare actual kit offers, then evaluate performance evidence if it matters to the workload. A smaller CAS number alone does not answer all those questions. Use the latency calculator only to understand the stated arithmetic, not to infer a game-performance result.',
-  'Save the exact kit, support evidence and remaining question in the builder or compatibility workflow. If you cannot resolve an essential requirement, select a better-documented alternative or contact support before ordering. Keeping an already adequate working kit is also a valid outcome. This revision adds a QVL decision method to the existing RAM guide; it is not a new competing article or a claim that this site tested memory.'
+  'Save the exact kit, support evidence and remaining question in the builder or compatibility workflow. If you cannot resolve an essential requirement, select a better-documented alternative or contact support before ordering. Keeping an already adequate working kit is also a valid outcome.'
  ])
  ],[{href:'/compatibility/',label:'Check the exact memory configuration'},{href:'/builder/',label:'Save the kit in a parts list'},{href:'/tools/ram-latency-calculator/',label:'Understand rate and CAS arithmetic'}],{existingDraftId:'34',intentDecision:'Revision candidate for draft34, retaining the existing RAM-guide canonical and broad compatibility scope.'}),
 
@@ -201,7 +201,7 @@ article('G06','/blog/will-a-graphics-card-fit-my-case/','Will this graphics card
  ]),
  section('Save a fit record that survives a part swap',[
   'A reusable fit record lists card SKU, case model/revision, cooling arrangement, sourced dimensions, connector instructions, supporting hardware and unresolved measurements. Note where each source applies. If a retailer substitutes a different card or a radiator is added later, rerun the affected checks instead of carrying a green verdict forward.',
-  'Use the compatibility workflow to separate documented conflicts from unknowns, then keep the exact configuration in the builder. Before ordering, resolve any essential missing measurement with the manufacturer or seller. The outcome is an understandable installation plan, not “100% compatible.” This revision strengthens the existing graphics-card fit guide; it does not create another URL for the same reader question.'
+  'Use the compatibility workflow to separate documented conflicts from unknowns, then keep the exact configuration in the builder. Before ordering, resolve any essential missing measurement with the manufacturer or seller. The outcome is an understandable installation plan, not “100% compatible.”'
  ])
  ],[{href:'/compatibility/',label:'Record dimensional fit evidence'},{href:'/builder/',label:'Plan the exact installed layout'},{href:'/builder/model-coverage/',label:'Check available 3D coverage'}],{existingDraftId:'27',intentDecision:'Revision candidate for draft27, preserving the existing graphics-card-fit canonical and adding exact partner-card documentary examples.'})
 ];

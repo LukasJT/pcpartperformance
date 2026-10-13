@@ -116,6 +116,8 @@ require("./review-video-pages.cjs")({root,esc});
 require("./growth-site.cjs")({root,records,images,shell,write,esc});
 require("./growth-tools.cjs")({root,records,images,shell,write,esc});
 if(fs.existsSync(path.join(__dirname,'growth-editorial.cjs')))require("./growth-editorial.cjs")({root,records,images,shell,write,esc});
+require("./master-decisions.cjs")({root,records,images,shell,write,esc});
+require("./master-publication.cjs")({root,records,images,shell,write,esc});
 require("./continuation-site.cjs").decorate(root);
 require("./seo-pass.cjs")({root,records,shell,write,esc});
 require("./program-routing.cjs").buildManifest({root,records});

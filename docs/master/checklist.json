@@ -1,0 +1,394 @@
+{
+  "updatedAt": "2026-10-13T21:13:37.692Z",
+  "productionVerified": false,
+  "tasks": [
+    {
+      "id": "MASTER-01",
+      "title": "Audit",
+      "status": "verified",
+      "dependencies": [],
+      "affectedFiles": [
+        "docs/growth/site-audit.md"
+      ],
+      "evidence": "Measured catalog/routes; historical claims treated as hypotheses.",
+      "tests": "check-seo; live-release"
+    },
+    {
+      "id": "MASTER-02",
+      "title": "Official SEO research",
+      "status": "verified",
+      "dependencies": [
+        "MASTER-01"
+      ],
+      "affectedFiles": [
+        "docs/growth/seo-research.md"
+      ],
+      "evidence": "Current primary guidance applied; no promised ranking.",
+      "tests": "source-register.json"
+    },
+    {
+      "id": "MASTER-03",
+      "title": "Official video research",
+      "status": "access_partial",
+      "dependencies": [
+        "MASTER-01"
+      ],
+      "affectedFiles": [
+        "docs/growth/video-seo-research.md"
+      ],
+      "evidence": "13 metadata/description records; 0 readable transcripts.",
+      "tests": "browser transcript export"
+    },
+    {
+      "id": "MASTER-04",
+      "title": "Search opportunity map",
+      "status": "qualified_complete",
+      "dependencies": [
+        "MASTER-01"
+      ],
+      "affectedFiles": [
+        "docs/growth/keyword-opportunities.csv"
+      ],
+      "evidence": "147 candidates: searched versus inferred explicitly separated; no volumes.",
+      "tests": "search-intent-map.md"
+    },
+    {
+      "id": "MASTER-05",
+      "title": "Competitive advantage",
+      "status": "qualified_complete",
+      "dependencies": [
+        "MASTER-01"
+      ],
+      "affectedFiles": [
+        "docs/growth/competitor-analysis.md"
+      ],
+      "evidence": "Eight relevant publishers; blocked views are not full audits.",
+      "tests": "primary-source access record"
+    },
+    {
+      "id": "MASTER-06",
+      "title": "Navigation and organization",
+      "status": "implemented",
+      "dependencies": [
+        "MASTER-05"
+      ],
+      "affectedFiles": [
+        "scripts/growth-site.cjs"
+      ],
+      "evidence": "Task navigation, grouped Explore and search types.",
+      "tests": "browser controls"
+    },
+    {
+      "id": "MASTER-07",
+      "title": "Product homepage",
+      "status": "implemented",
+      "dependencies": [
+        "MASTER-05"
+      ],
+      "affectedFiles": [
+        "scripts/growth-site.cjs"
+      ],
+      "evidence": "Preserves the approved product design and useful entry points.",
+      "tests": "desktop/mobile smoke"
+    },
+    {
+      "id": "MASTER-08",
+      "title": "Hardware discovery",
+      "status": "implemented",
+      "dependencies": [
+        "MASTER-05"
+      ],
+      "affectedFiles": [
+        "scripts/program-products.cjs"
+      ],
+      "evidence": "20 full contexts, exact IDs and crawlable categories.",
+      "tests": "check-product-program; check-master-generated"
+    },
+    {
+      "id": "MASTER-09",
+      "title": "Compatibility pillar",
+      "status": "implemented_with_unknowns",
+      "dependencies": [
+        "MASTER-05"
+      ],
+      "affectedFiles": [
+        "scripts/compatibility-evidence.cjs"
+      ],
+      "evidence": "26 distinct documented models; no invented BIOS or clearance.",
+      "tests": "test-master-evidence"
+    },
+    {
+      "id": "MASTER-10",
+      "title": "Upgrade decisions",
+      "status": "implemented",
+      "dependencies": [
+        "MASTER-05"
+      ],
+      "affectedFiles": [
+        "scripts/master-decisions.js"
+      ],
+      "evidence": "Explicit reuse/scenarios/complete cost, including keeping the PC.",
+      "tests": "check-master-decisions; browser handoff"
+    },
+    {
+      "id": "MASTER-11",
+      "title": "Comparisons",
+      "status": "implemented",
+      "dependencies": [
+        "MASTER-05"
+      ],
+      "affectedFiles": [
+        "scripts/master-editorial-content.cjs"
+      ],
+      "evidence": "Research-based RX 9070 comparison; prior comparisons preserved.",
+      "tests": "check-master-generated"
+    },
+    {
+      "id": "MASTER-12",
+      "title": "Benchmark integrity",
+      "status": "implemented_data_blocked",
+      "dependencies": [
+        "MASTER-05"
+      ],
+      "affectedFiles": [
+        "scripts/growth-site.cjs"
+      ],
+      "evidence": "Coverage explicit; measured PC dataset unavailable.",
+      "tests": "check-console-evidence"
+    },
+    {
+      "id": "MASTER-13",
+      "title": "Diagnostics",
+      "status": "implemented",
+      "dependencies": [
+        "MASTER-05"
+      ],
+      "affectedFiles": [
+        "scripts/growth-tools.js"
+      ],
+      "evidence": "24 observation-led nodes, safety and rollback.",
+      "tests": "test-growth-tools; browser paths"
+    },
+    {
+      "id": "MASTER-14",
+      "title": "Calculators",
+      "status": "implemented",
+      "dependencies": [
+        "MASTER-05"
+      ],
+      "affectedFiles": [
+        "scripts/growth-tools.js"
+      ],
+      "evidence": "Two additional transparent tools; existing planners retained.",
+      "tests": "test-growth-tools; browser values"
+    },
+    {
+      "id": "MASTER-15",
+      "title": "Editorial program",
+      "status": "implemented_ready_batch",
+      "dependencies": [
+        "MASTER-05"
+      ],
+      "affectedFiles": [
+        "scripts/master-publication.cjs"
+      ],
+      "evidence": "13 distinct resources in this pass, 56-item plan retained.",
+      "tests": "test-master-publication; check-master-generated"
+    },
+    {
+      "id": "MASTER-16",
+      "title": "Original data resources",
+      "status": "implemented",
+      "dependencies": [
+        "MASTER-05"
+      ],
+      "affectedFiles": [
+        "scripts/growth-site.cjs"
+      ],
+      "evidence": "Original aggregate evidence resource, not copied benchmark data.",
+      "tests": "resource/export checks"
+    },
+    {
+      "id": "MASTER-17",
+      "title": "Prebuilt decisions",
+      "status": "implemented",
+      "dependencies": [
+        "MASTER-05"
+      ],
+      "affectedFiles": [
+        "scripts/master-decisions.cjs"
+      ],
+      "evidence": "Nine exact listing summaries, configuration/unknown/quote checks.",
+      "tests": "check-master-decisions; browser checklist"
+    },
+    {
+      "id": "MASTER-18",
+      "title": "Newsroom",
+      "status": "implemented",
+      "dependencies": [
+        "MASTER-05"
+      ],
+      "affectedFiles": [
+        "scripts/news-sitemap-response.mjs"
+      ],
+      "evidence": "Readable real dates, time-bounded news sitemap and monitored review queue.",
+      "tests": "runtime and worker tests"
+    },
+    {
+      "id": "MASTER-19",
+      "title": "Technical SEO",
+      "status": "implemented",
+      "dependencies": [
+        "MASTER-05"
+      ],
+      "affectedFiles": [
+        "scripts/seo-pass.cjs"
+      ],
+      "evidence": "Canonical, indexing, redirects and sitemap align.",
+      "tests": "check-seo; check-stage2"
+    },
+    {
+      "id": "MASTER-20",
+      "title": "Structured data",
+      "status": "implemented",
+      "dependencies": [
+        "MASTER-05"
+      ],
+      "affectedFiles": [
+        "scripts/master-publication.cjs"
+      ],
+      "evidence": "Visible facts and organization authorship; no fake offers/ratings.",
+      "tests": "check-master-generated"
+    },
+    {
+      "id": "MASTER-21",
+      "title": "Internal discovery",
+      "status": "implemented",
+      "dependencies": [
+        "MASTER-05"
+      ],
+      "affectedFiles": [
+        "scripts/master-publication.cjs"
+      ],
+      "evidence": "Blog/search/feed/tool and comparison links.",
+      "tests": "generated discovery checks"
+    },
+    {
+      "id": "MASTER-22",
+      "title": "Search presentation",
+      "status": "implemented",
+      "dependencies": [
+        "MASTER-05"
+      ],
+      "affectedFiles": [
+        "scripts/seo-pass.cjs"
+      ],
+      "evidence": "Useful titles/descriptions; no artificial keyword density.",
+      "tests": "metadata checks"
+    },
+    {
+      "id": "MASTER-23",
+      "title": "Sharing and retention",
+      "status": "implemented_existing_extended",
+      "dependencies": [
+        "MASTER-05"
+      ],
+      "affectedFiles": [
+        "dist/program-retention.js"
+      ],
+      "evidence": "Exact saved builds/export flows retained; decision handoff added.",
+      "tests": "check-program-retention"
+    },
+    {
+      "id": "MASTER-24",
+      "title": "Visual design",
+      "status": "implemented",
+      "dependencies": [
+        "MASTER-05"
+      ],
+      "affectedFiles": [
+        "scripts/master-publication.css"
+      ],
+      "evidence": "Readable guides and spacious grouped decision controls.",
+      "tests": "desktop/mobile screenshots"
+    },
+    {
+      "id": "MASTER-25",
+      "title": "Accessibility and speed",
+      "status": "implemented_measured_lab",
+      "dependencies": [
+        "MASTER-05"
+      ],
+      "affectedFiles": [
+        "scripts/prepare-master-runtime.cjs"
+      ],
+      "evidence": "No initial 3D downloads; lab measurements are not field INP.",
+      "tests": "budgets; keyboard; mobile; reduced motion"
+    },
+    {
+      "id": "MASTER-26",
+      "title": "Analytics and growth",
+      "status": "prepared_access_blocked",
+      "dependencies": [
+        "MASTER-05"
+      ],
+      "affectedFiles": [
+        "dist/program-events.js"
+      ],
+      "evidence": "Consent adapter disabled pending authorized configuration.",
+      "tests": "privacy/event tests"
+    },
+    {
+      "id": "MASTER-27",
+      "title": "Distribution",
+      "status": "prepared_not_sent",
+      "dependencies": [
+        "MASTER-05"
+      ],
+      "affectedFiles": [
+        "docs/growth/distribution-drafts.md"
+      ],
+      "evidence": "Video/community/newsletter drafts and capacity-based plan; no external posts.",
+      "tests": "content/evidence review"
+    },
+    {
+      "id": "MASTER-28",
+      "title": "Monetization trust",
+      "status": "implemented_disabled_integrations",
+      "dependencies": [
+        "MASTER-05"
+      ],
+      "affectedFiles": [
+        "scripts/program-offers.cjs"
+      ],
+      "evidence": "Missing prices preserved; delivery/ads/affiliate activation requires real dependencies.",
+      "tests": "offer/worker gates"
+    },
+    {
+      "id": "MASTER-29",
+      "title": "Integration",
+      "status": "implemented",
+      "dependencies": [
+        "MASTER-05"
+      ],
+      "affectedFiles": [
+        "scripts/build-pages.cjs"
+      ],
+      "evidence": "Shared routes and data reused; no framework rewrite.",
+      "tests": "full normal build"
+    },
+    {
+      "id": "MASTER-30",
+      "title": "Release verification",
+      "status": "in_progress",
+      "dependencies": [
+        "MASTER-05"
+      ],
+      "affectedFiles": [
+        "docs/master/qa"
+      ],
+      "evidence": "Status becomes verified only after the actual live receipt.",
+      "tests": "run-master-checks; browser; live verify"
+    }
+  ]
+}

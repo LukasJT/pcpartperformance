@@ -1,0 +1,18 @@
+'use strict';
+const fs=require('node:fs'),assert=require('node:assert/strict'),crypto=require('node:crypto');
+const origin='https://www.pcpartperformance.com',expected=process.argv[2];
+if(!/^[a-f0-9]{40}$/.test(expected||''))throw Error('Pass the expected actual deployment commit.');
+const pub=require('./master-publication.cjs'),auth=require('./master-release-authorization.json'),history=require('./master-publication-history.json');
+async function read(route){const r=await fetch(origin+route,{headers:{'Cache-Control':'no-cache'},redirect:'manual',signal:AbortSignal.timeout(20000)});return{route,status:r.status,headers:Object.fromEntries(r.headers),body:await r.text()}}
+async function main(){
+ const release=await read('/data/release.json'),marker=JSON.parse(release.body);
+ if(marker.commit!==expected){console.log(JSON.stringify({waiting:true,observed:marker.commit,expected}));process.exitCode=2;return;}
+ const report={checkedAt:new Date().toISOString(),commit:expected,checks:[],articles:[]};
+ for(const a of pub.resolve(auth).articles){const r=await read(a.canonicalRoute);assert.equal(r.status,200,a.canonicalRoute);assert(r.body.includes('data-master-article="'+a.id+'"'));assert(r.body.includes(a.sections.at(-1).title));assert(r.body.includes('rel="canonical" href="'+origin+a.canonicalRoute+'"'));assert(!r.body.includes('content="noindex'));assert(r.body.includes('AI assistance'));const schema=[...r.body.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map(m=>JSON.parse(m[1])).find(s=>s['@type']==='Article');assert.equal(schema.author.name,'PC Part Performance');assert.equal(schema.datePublished,history.find(p=>p.route===a.canonicalRoute)?.datePublished||auth.releaseDate);report.articles.push({id:a.id,route:a.canonicalRoute,status:200,datePublished:schema.datePublished,dateModified:schema.dateModified||null,observedAt:new Date().toISOString(),confirmedDeployment:true});}
+ for(const p of require('./program-products.cjs').profiles){const r=await read('/learn/'+p.id+'.html');assert.equal(r.status,200);assert(r.body.includes('data-program-product="'+p.id+'"'));assert(r.body.includes('Released under the owner'));report.checks.push({route:r.route,status:200,scope:'Complete researched product context'});}
+ for(const route of ['/upgrade/','/prebuilts/','/tools/budget-build-lab/']){const r=await read(route);assert.equal(r.status,200);assert(r.body.includes('data-master-decisions-page'));assert(!r.body.includes('/qa-metrics.js'));report.checks.push({route,status:200,scope:'New integrated decision controls'});}
+ const offers=await read('/api/v1/morning-prices/status');assert.equal(JSON.parse(offers.body).status,'not_configured');report.checks.push({route:offers.route,scope:'Price integration honestly unconfigured'});
+ const credits=await read('/builder/model-credits/');assert(credits.body.includes('sanketrules911'));const model=await fetch(origin+'/assets/models/sketchfab-radeon-rx-6900-xt.glb',{signal:AbortSignal.timeout(20000)});assert.equal(model.status,200);const bytes=Buffer.from(await model.arrayBuffer());assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),'4d2d934ba3393b986a80cb180354f74b86f04c450cdcfa1faaee32521540eaee');report.checks.push({route:'/assets/models/sketchfab-radeon-rx-6900-xt.glb',bytes:bytes.length,scope:'Exact deployed creator asset and credits'});
+ fs.mkdirSync('docs/master/qa',{recursive:true});fs.writeFileSync('docs/master/qa/live-release.json',JSON.stringify(report,null,2)+'\n');console.log('Verified '+report.articles.length+' editorial resources and '+report.checks.length+' product/feature/integration/asset checks at '+expected);
+}
+main().catch(e=>{console.error(e.message);process.exitCode=1;});
