@@ -33,4 +33,4 @@ Each phase below maps to real source work or an explicitly unavailable external 
 | MASTER-27 | Distribution | prepared_not_sent | docs/growth/distribution-drafts.md — Video/community/newsletter drafts and capacity-based plan; no external posts. |
 | MASTER-28 | Monetization trust | implemented_disabled_integrations | scripts/program-offers.cjs — Missing prices preserved; delivery/ads/affiliate activation requires real dependencies. |
 | MASTER-29 | Integration | implemented | scripts/build-pages.cjs — Shared routes and data reused; no framework rewrite. |
-| MASTER-30 | Release verification | in_progress | docs/master/qa — Status becomes verified only after the actual live receipt. |
+| MASTER-30 | Release verification | verified_live | docs/master/qa — Status becomes verified only after the actual live receipt. |

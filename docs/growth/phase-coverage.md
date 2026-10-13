@@ -1,3 +1,5 @@
+> Historical growth-stage handoff. The subsequent verified production status is in [the master completion report](../master/COMPLETION-REPORT.md). Pending release notes below describe the earlier snapshot, not the current production state.
+
 # Coverage of the 30-phase expansion brief
 
 Implementation handoff snapshot: **October 13, 2026**. This maps every phase to concrete repository work and remaining requirements. It is not a claim that all thirty phases, all live routes or the full growth objective are complete.

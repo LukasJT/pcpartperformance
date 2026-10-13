@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-13T21:13:37.692Z",
-  "productionVerified": false,
+  "updatedAt": "2026-10-13T21:27:50.452Z",
+  "productionVerified": true,
   "tasks": [
     {
       "id": "MASTER-01",
@@ -380,15 +380,16 @@
     {
       "id": "MASTER-30",
       "title": "Release verification",
-      "status": "in_progress",
+      "status": "verified_live",
       "dependencies": [
         "MASTER-05"
       ],
       "affectedFiles": [
         "docs/master/qa"
       ],
-      "evidence": "Status becomes verified only after the actual live receipt.",
+      "evidence": "37 release test commands, TypeScript and ESLint passed; 24 desktop/mobile route checks; exact production commit, 13 new/revised resources and 25 context/integration/asset checks verified. Existing 12-article release and 26 core destinations also reverified.",
       "tests": "run-master-checks; browser; live verify"
     }
-  ]
+  ],
+  "productionCommit": "4e5bee5c2072fba3e115c4b7d436c22f9fc29f83"
 }
