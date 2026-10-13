@@ -1,11 +1,11 @@
 {
-  "checkedAt": "2026-10-13T20:19:46.622Z",
-  "expectedCommit": "02e9eeb3df23a38b93682b3a8f5caf1a263fe345",
+  "checkedAt": "2026-10-13T20:32:24.568Z",
+  "expectedCommit": "2b5715e2c2d40d9c109824e71f51dca5e5b0c6cc",
   "release": {
     "schema": 1,
     "program": "2026-10-11-continuation",
-    "commit": "02e9eeb3df23a38b93682b3a8f5caf1a263fe345",
-    "generatedAt": "2026-10-13T20:16:24.750Z",
+    "commit": "2b5715e2c2d40d9c109824e71f51dca5e5b0c6cc",
+    "generatedAt": "2026-10-13T20:30:41.387Z",
     "staging": false
   },
   "scope": "Bounded public HTTP/HTML/API/assets smoke checks; browser behavior and field performance are separate.",
@@ -18,7 +18,7 @@
       "cacheControl": "public, max-age=0, must-revalidate",
       "robots": null,
       "type": "application/json",
-      "durationMs": 233
+      "durationMs": 259
     },
     {
       "name": "canonical live page",
@@ -28,7 +28,7 @@
       "cacheControl": "public, max-age=0, must-revalidate",
       "robots": null,
       "type": "text/html",
-      "durationMs": 112
+      "durationMs": 94
     },
     {
       "name": "canonical live page",
@@ -38,7 +38,7 @@
       "cacheControl": "public, max-age=0, must-revalidate",
       "robots": null,
       "type": "text/html",
-      "durationMs": 189
+      "durationMs": 92
     },
     {
       "name": "canonical live page",
@@ -48,7 +48,7 @@
       "cacheControl": "public, max-age=0, must-revalidate",
       "robots": null,
       "type": "text/html",
-      "durationMs": 204
+      "durationMs": 101
     },
     {
       "name": "canonical live page",
@@ -58,7 +58,7 @@
       "cacheControl": "public, max-age=0, must-revalidate",
       "robots": null,
       "type": "text/html",
-      "durationMs": 175
+      "durationMs": 71
     },
     {
       "name": "canonical live page",
@@ -68,7 +68,7 @@
       "cacheControl": "public, max-age=0, must-revalidate",
       "robots": null,
       "type": "text/html",
-      "durationMs": 171
+      "durationMs": 59
     },
     {
       "name": "canonical live page",
@@ -78,7 +78,7 @@
       "cacheControl": "public, max-age=0, must-revalidate",
       "robots": null,
       "type": "text/html",
-      "durationMs": 203
+      "durationMs": 94
     },
     {
       "name": "canonical live page",
@@ -88,7 +88,7 @@
       "cacheControl": "public, max-age=0, must-revalidate",
       "robots": null,
       "type": "text/html",
-      "durationMs": 198
+      "durationMs": 85
     },
     {
       "name": "canonical live page",
@@ -98,7 +98,7 @@
       "cacheControl": "public, max-age=0, must-revalidate",
       "robots": null,
       "type": "text/html",
-      "durationMs": 219
+      "durationMs": 85
     },
     {
       "name": "canonical live page",
@@ -108,7 +108,7 @@
       "cacheControl": "public, max-age=0, must-revalidate",
       "robots": null,
       "type": "text/html",
-      "durationMs": 215
+      "durationMs": 62
     },
     {
       "name": "canonical live page",
@@ -118,7 +118,7 @@
       "cacheControl": "public, max-age=0, must-revalidate",
       "robots": null,
       "type": "text/html",
-      "durationMs": 162
+      "durationMs": 93
     },
     {
       "name": "canonical live page",
@@ -128,7 +128,7 @@
       "cacheControl": "public, max-age=0, must-revalidate",
       "robots": null,
       "type": "text/html",
-      "durationMs": 221
+      "durationMs": 87
     },
     {
       "name": "shared build is usable and excluded from indexing",
@@ -138,7 +138,7 @@
       "cacheControl": "no-store",
       "robots": "noindex, follow",
       "type": "text/html",
-      "durationMs": 55
+      "durationMs": 65
     },
     {
       "name": "sitemap follows exact owner publication authorization",
@@ -148,7 +148,7 @@
       "cacheControl": "public, max-age=0, must-revalidate",
       "robots": null,
       "type": "application/xml",
-      "durationMs": 180
+      "durationMs": 86
     },
     {
       "name": "draft or missing route is a real error",
@@ -158,7 +158,7 @@
       "cacheControl": "no-store",
       "robots": "noindex, follow",
       "type": "text/html",
-      "durationMs": 94
+      "durationMs": 61
     },
     {
       "name": "draft or missing route is a real error",
@@ -168,7 +168,7 @@
       "cacheControl": "no-store",
       "robots": "noindex, follow",
       "type": "text/html",
-      "durationMs": 63
+      "durationMs": 64
     },
     {
       "name": "preferred host uses one redirect and valid TLS",
@@ -178,7 +178,7 @@
       "cacheControl": null,
       "robots": null,
       "type": null,
-      "durationMs": 216
+      "durationMs": 165
     },
     {
       "name": "truthful inactive regional price API",
@@ -188,7 +188,7 @@
       "cacheControl": "no-store",
       "robots": "noindex, follow",
       "type": "application/json; charset=utf-8",
-      "durationMs": 63
+      "durationMs": 50
     },
     {
       "name": "truthful inactive regional price API",
@@ -198,7 +198,7 @@
       "cacheControl": "no-store",
       "robots": "noindex, follow",
       "type": "application/json; charset=utf-8",
-      "durationMs": 74
+      "durationMs": 40
     },
     {
       "name": "price source health is explicit",
@@ -208,7 +208,7 @@
       "cacheControl": "no-store",
       "robots": "noindex, follow",
       "type": "application/json; charset=utf-8",
-      "durationMs": 52
+      "durationMs": 55
     },
     {
       "name": "updated unhashed code revalidates",
@@ -218,7 +218,7 @@
       "cacheControl": "public, max-age=0, must-revalidate",
       "robots": null,
       "type": "text/css",
-      "durationMs": 164
+      "durationMs": 58
     },
     {
       "name": "updated unhashed code revalidates",
@@ -228,7 +228,7 @@
       "cacheControl": "public, max-age=0, must-revalidate",
       "robots": null,
       "type": "text/javascript",
-      "durationMs": 124
+      "durationMs": 102
     },
     {
       "name": "updated unhashed code revalidates",
@@ -238,7 +238,7 @@
       "cacheControl": "public, max-age=0, must-revalidate",
       "robots": null,
       "type": "text/javascript",
-      "durationMs": 143
+      "durationMs": 90
     },
     {
       "name": "new exact model/image asset is deployed",
@@ -248,7 +248,7 @@
       "cacheControl": "public, max-age=300",
       "robots": null,
       "type": "model/gltf-binary",
-      "durationMs": 146
+      "durationMs": 89
     },
     {
       "name": "new exact model/image asset is deployed",
@@ -258,7 +258,7 @@
       "cacheControl": "public, max-age=300",
       "robots": null,
       "type": "model/gltf-binary",
-      "durationMs": 164
+      "durationMs": 182
     },
     {
       "name": "new exact model/image asset is deployed",
@@ -268,7 +268,7 @@
       "cacheControl": "public, max-age=300",
       "robots": null,
       "type": "image/webp",
-      "durationMs": 224
+      "durationMs": 1176
     }
   ],
   "passed": true

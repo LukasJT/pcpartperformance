@@ -2,7 +2,7 @@
 
 ## State
 
-Code complete for the coherent increment described below; local gates passed. Implementation commit02e9eeb reached the existing production branch and passed17 changed-route checks,26 existing-release checks and all12 approved article inspections. A small breadcrumb/readiness-control follow-up is undergoing its final build before the final production marker is recorded below. This is not a declaration that the entire 30-phase program or every catalog/product/model/content item is finished.
+The implemented increment is deployed and verified at https://www.pcpartperformance.com/. Final production commit: 2b5715e2c2d40d9c109824e71f51dca5e5b0c6cc. Local gates and public route checks passed. This is not a declaration that the entire 30-phase program or every catalog/product/model/content item is finished.
 
 ## Implemented
 
@@ -50,7 +50,13 @@ Rollback uses a normal reviewed Git revert of the implementation commit, followe
 
 ## Next executable steps
 
-1. Complete production verification and record the actual commit/HTTP evidence below.
+1. Production verification is complete; use live-release.json and the editorial/release receipts for the actual public HTTP evidence.
 2. Resolve the pending six-guide publication decision using the complete review packet.
 3. Connect an authorized exact-variant retailer source and deploy/test the existing morning collector before showing automatic prices.
 4. Start the documented 8-hour/week maintenance plan and account-backed measurement baseline.
+
+## Verified final production result
+
+Final commit: 2b5715e2c2d40d9c109824e71f51dca5e5b0c6cc. Existing Cloudflare Git deployment and DNS were reused. At 2026-10-13T20:32Z, 17 growth HTTP checks, 26 existing-release checks and 12 complete approved-article inspections with 15 supporting checks passed against this exact marker. Actual live browser checks confirmed first-click diagnostic and calculator behavior, 8 px breadcrumb spacing and mobile navigation without page overflow. Desktop/mobile live screenshots are in qa/live-home-*.png.
+
+The six additional guides remain unpublished, automatic prices remain not configured and no new 3D model is claimed. The precise remaining 30-phase program is in phase-coverage.md; the next owner decision is the pending editorial review packet. Local preview is stopped after final verification.

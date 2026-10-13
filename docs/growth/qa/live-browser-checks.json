@@ -1,0 +1,17 @@
+{
+  "checkedAt": "2026-10-13T20:34:25.590Z",
+  "commit": "2b5715e2c2d40d9c109824e71f51dca5e5b0c6cc",
+  "origin": "https://www.pcpartperformance.com",
+  "checks": [
+    "Missing-drive diagnostic first click reaches its next question",
+    "Storage calculator first submit renders1100 seconds from defaults",
+    "Evidence breadcrumbs render as wrapping flex with8px gaps",
+    "Mobile homepage content width375 equals page width375; six navigation links visible",
+    "Actual desktop/mobile homepage screenshots saved; viewport restored and original dark theme preserved"
+  ],
+  "limitations": [
+    "Not a complete accessibility certification",
+    "Browser export download remains unverified",
+    "No field traffic/Core Web Vitals measurement"
+  ]
+}
