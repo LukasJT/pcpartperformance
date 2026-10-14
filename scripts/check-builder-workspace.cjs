@@ -86,6 +86,16 @@ test('mount keeps server-placed preview and readiness in position', () => {
   assert.equal(typeof context.window.PCP_BUILDER_WORKSPACE.mount, 'function');
 });
 
+test('the current purchase subtotal stays visible in review after a part change', () => {
+  const price={hidden:true},events={},placements=[];
+  const report={querySelector:selector=>selector==='.program-heading'?{after:node=>placements.push(node)}:null};
+  const nodes={'.builder-rail':{},'#builder-parts':{},'#readiness-report':report,'#build-shopping-summary':price};
+  const builder={querySelector:selector=>nodes[selector]||null,querySelectorAll:()=>[]};
+  const context={window:{PCP_BUILD:{catalog:()=>[],snapshot:()=>({parts:{}})}},document:{readyState:'complete',querySelector:()=>builder,addEventListener:(name,fn)=>{events[name]=fn;}},MutationObserver:class{observe(){}}};
+  vm.createContext(context);vm.runInContext(fs.readFileSync(path.join(__dirname,'builder-workspace.js'),'utf8'),context);
+  assert.equal(price.hidden,false);assert.deepEqual(placements,[price]);events['pcp:build']();assert.equal(price.hidden,false);assert.equal(placements.length,1);
+});
+
 const fixtureDirectory = fs.mkdtempSync(path.join(os.tmpdir(), 'pcp-builder-workspace-'));
 const fixtureRoot = path.join(fixtureDirectory, 'dist');
 fs.mkdirSync(path.join(fixtureRoot, 'builder'), { recursive: true });

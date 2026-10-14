@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-14T19:20:05.077Z",
+  "checkedAt": "2026-10-14T19:34:37.843Z",
   "passed": true,
   "scope": "Static route regression budgets, not real-user performance",
   "results": [
@@ -21,7 +21,7 @@
       "route": "/learn/rtx5070.html",
       "scriptGzip": 9514,
       "scriptLimit": 13100,
-      "styleBytes": 131538,
+      "styleBytes": 131619,
       "styleLimit": 133000
     },
     {
@@ -33,9 +33,9 @@
     },
     {
       "route": "/builder/",
-      "scriptGzip": 119274,
+      "scriptGzip": 119290,
       "scriptLimit": 122000,
-      "styleBytes": 222045,
+      "styleBytes": 222126,
       "styleLimit": 224000
     },
     {

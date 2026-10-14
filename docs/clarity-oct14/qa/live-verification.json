@@ -1,6 +1,6 @@
 {
-  "observedAt": "2026-10-14T18:34:43.469Z",
-  "expectedCommit": "c8da9b1030e00a80cfba40fa15e49f2381e49bea",
+  "observedAt": "2026-10-14T19:24:36.288Z",
+  "expectedCommit": "adf9c49dab696f53730634c3316d423f63748e19",
   "routes": [
     {
       "route": "/",
@@ -45,70 +45,213 @@
   ],
   "prices": {
     "schema": 1,
+    "status": "checked",
+    "policy": "daily-checked-snapshot",
     "region": "CA",
     "currency": "CAD",
-    "policy": "timestamped-retailer-observation",
-    "status": "no_current_observation",
-    "checkedAt": "2026-10-14T18:34:46.647Z",
-    "offers": [],
-    "lowestByProduct": {},
+    "offers": [
+      {
+        "schema": 1,
+        "policy": "daily-checked-snapshot",
+        "productId": "9800x3d",
+        "name": "AMD Ryzen 7 9800X3D",
+        "itemName": "AMD Ryzen 7 9800X3D 8-Core 4nm AM5 104MB Cache 120W ZEN 5 CPU",
+        "sku": "100-100001084WOF",
+        "retailerMpn": "100-100001084WOF",
+        "retailerSku": "CPAMD00298",
+        "exactVariant": true,
+        "variant": null,
+        "memoryVariant": null,
+        "revision": null,
+        "merchantId": "canada-computers",
+        "merchant": "Canada Computers",
+        "seller": "Canada Computers & Electronics",
+        "region": "CA",
+        "currency": "CAD",
+        "price": 619.99,
+        "condition": "new",
+        "inStock": true,
+        "availability": "in-stock",
+        "url": "https://www.canadacomputers.com/en/amd-desktop-processors/264908/amd-ryzen-7-9800x3d-8-core-4nm-am5-104mb-cache-120w-zen-5-cpu-100-100001084wof.html",
+        "checkedAt": "2026-10-14T19:22:10.553Z",
+        "availabilityCheckedAt": "2026-10-14T19:22:10.553Z",
+        "expiresAt": "2026-10-15T19:22:10.553Z",
+        "charges": {
+          "tax": "excluded",
+          "shipping": "excluded"
+        },
+        "source": {
+          "kind": "public-retailer-structured-data",
+          "publisher": "Canada Computers",
+          "url": "https://www.canadacomputers.com/en/amd-desktop-processors/264908/amd-ryzen-7-9800x3d-8-core-4nm-am5-104mb-cache-120w-zen-5-cpu-100-100001084wof.html"
+        },
+        "eligibleForNewPurchaseMinimum": true,
+        "availabilityBasis": "retailer-product-online-offer-not-local-store-inventory"
+      },
+      {
+        "schema": 1,
+        "policy": "daily-checked-snapshot",
+        "productId": "ddr5",
+        "name": "CORSAIR VENGEANCE 32 GB DDR5-6000 CL30",
+        "itemName": "CORSAIR VENGEANCE 32GB (2x16GB) DDR5 6000MHz CL30 UDIMM",
+        "sku": "CMK32GX5M2B6000C30",
+        "retailerMpn": "CMK32GX5M2B6000C30",
+        "retailerSku": "MECOI00647",
+        "exactVariant": true,
+        "variant": null,
+        "memoryVariant": null,
+        "revision": null,
+        "merchantId": "canada-computers",
+        "merchant": "Canada Computers",
+        "seller": "Canada Computers & Electronics",
+        "region": "CA",
+        "currency": "CAD",
+        "price": 739.99,
+        "condition": "new",
+        "inStock": true,
+        "availability": "in-stock",
+        "url": "https://www.canadacomputers.com/en/desktop-memory/248739/corsair-vengeance-32gb-2x16gb-ddr5-6000mhz-cl30-udimm-cmk32gx5m2b6000c30.html",
+        "checkedAt": "2026-10-14T19:22:11.441Z",
+        "availabilityCheckedAt": "2026-10-14T19:22:11.441Z",
+        "expiresAt": "2026-10-15T19:22:11.441Z",
+        "charges": {
+          "tax": "excluded",
+          "shipping": "excluded"
+        },
+        "source": {
+          "kind": "public-retailer-structured-data",
+          "publisher": "Canada Computers",
+          "url": "https://www.canadacomputers.com/en/desktop-memory/248739/corsair-vengeance-32gb-2x16gb-ddr5-6000mhz-cl30-udimm-cmk32gx5m2b6000c30.html"
+        },
+        "eligibleForNewPurchaseMinimum": true,
+        "availabilityBasis": "retailer-product-online-offer-not-local-store-inventory"
+      }
+    ],
+    "lowestByProduct": {
+      "9800x3d": {
+        "schema": 1,
+        "policy": "daily-checked-snapshot",
+        "productId": "9800x3d",
+        "name": "AMD Ryzen 7 9800X3D",
+        "itemName": "AMD Ryzen 7 9800X3D 8-Core 4nm AM5 104MB Cache 120W ZEN 5 CPU",
+        "sku": "100-100001084WOF",
+        "retailerMpn": "100-100001084WOF",
+        "retailerSku": "CPAMD00298",
+        "exactVariant": true,
+        "variant": null,
+        "memoryVariant": null,
+        "revision": null,
+        "merchantId": "canada-computers",
+        "merchant": "Canada Computers",
+        "seller": "Canada Computers & Electronics",
+        "region": "CA",
+        "currency": "CAD",
+        "price": 619.99,
+        "condition": "new",
+        "inStock": true,
+        "availability": "in-stock",
+        "url": "https://www.canadacomputers.com/en/amd-desktop-processors/264908/amd-ryzen-7-9800x3d-8-core-4nm-am5-104mb-cache-120w-zen-5-cpu-100-100001084wof.html",
+        "checkedAt": "2026-10-14T19:22:10.553Z",
+        "availabilityCheckedAt": "2026-10-14T19:22:10.553Z",
+        "expiresAt": "2026-10-15T19:22:10.553Z",
+        "charges": {
+          "tax": "excluded",
+          "shipping": "excluded"
+        },
+        "source": {
+          "kind": "public-retailer-structured-data",
+          "publisher": "Canada Computers",
+          "url": "https://www.canadacomputers.com/en/amd-desktop-processors/264908/amd-ryzen-7-9800x3d-8-core-4nm-am5-104mb-cache-120w-zen-5-cpu-100-100001084wof.html"
+        },
+        "eligibleForNewPurchaseMinimum": true,
+        "availabilityBasis": "retailer-product-online-offer-not-local-store-inventory"
+      },
+      "ddr5": {
+        "schema": 1,
+        "policy": "daily-checked-snapshot",
+        "productId": "ddr5",
+        "name": "CORSAIR VENGEANCE 32 GB DDR5-6000 CL30",
+        "itemName": "CORSAIR VENGEANCE 32GB (2x16GB) DDR5 6000MHz CL30 UDIMM",
+        "sku": "CMK32GX5M2B6000C30",
+        "retailerMpn": "CMK32GX5M2B6000C30",
+        "retailerSku": "MECOI00647",
+        "exactVariant": true,
+        "variant": null,
+        "memoryVariant": null,
+        "revision": null,
+        "merchantId": "canada-computers",
+        "merchant": "Canada Computers",
+        "seller": "Canada Computers & Electronics",
+        "region": "CA",
+        "currency": "CAD",
+        "price": 739.99,
+        "condition": "new",
+        "inStock": true,
+        "availability": "in-stock",
+        "url": "https://www.canadacomputers.com/en/desktop-memory/248739/corsair-vengeance-32gb-2x16gb-ddr5-6000mhz-cl30-udimm-cmk32gx5m2b6000c30.html",
+        "checkedAt": "2026-10-14T19:22:11.441Z",
+        "availabilityCheckedAt": "2026-10-14T19:22:11.441Z",
+        "expiresAt": "2026-10-15T19:22:11.441Z",
+        "charges": {
+          "tax": "excluded",
+          "shipping": "excluded"
+        },
+        "source": {
+          "kind": "public-retailer-structured-data",
+          "publisher": "Canada Computers",
+          "url": "https://www.canadacomputers.com/en/desktop-memory/248739/corsair-vengeance-32gb-2x16gb-ddr5-6000mhz-cl30-udimm-cmk32gx5m2b6000c30.html"
+        },
+        "eligibleForNewPurchaseMinimum": true,
+        "availabilityBasis": "retailer-product-online-offer-not-local-store-inventory"
+      }
+    },
     "results": [
       {
         "productId": "9800x3d",
-        "state": "unavailable",
-        "error": "source_network_error"
+        "state": "checked"
       },
       {
         "productId": "ddr5",
-        "state": "unavailable",
-        "error": "source_network_error"
+        "state": "checked"
       }
     ],
+    "snapshotGeneratedAt": "2026-10-14T19:22:15.110Z",
     "coverage": {
       "targets": 5,
-      "merchants": [
-        "Canada Computers"
-      ],
+      "merchants": 1,
       "basis": "included-exact-listings-only"
     },
-    "charges": {
-      "tax": "excluded",
-      "shipping": "excluded"
-    }
+    "sourceMode": "daily-published-public-snapshot",
+    "snapshotRejectedRecords": 0
   },
   "release": {
     "schema": 1,
     "program": "2026-10-11-continuation",
-    "commit": "c8da9b1030e00a80cfba40fa15e49f2381e49bea",
-    "generatedAt": "2026-10-14T18:31:08.656Z",
+    "commit": "adf9c49dab696f53730634c3316d423f63748e19",
+    "generatedAt": "2026-10-14T19:22:41.177Z",
     "staging": false
   },
   "usPrices": {
     "schema": 1,
+    "status": "no_current_observation",
+    "policy": "daily-checked-snapshot",
     "region": "US",
     "currency": "USD",
-    "policy": "timestamped-retailer-observation",
-    "status": "no_current_observation",
-    "checkedAt": "2026-10-14T18:34:46.806Z",
     "offers": [],
     "lowestByProduct": {},
     "results": [
       {
         "productId": "9800x3d",
-        "state": "unavailable",
-        "error": "source_network_error"
+        "state": "no_current_observation"
       }
     ],
+    "snapshotGeneratedAt": "2026-10-14T19:22:15.110Z",
     "coverage": {
       "targets": 1,
-      "merchants": [
-        "Newegg"
-      ],
+      "merchants": 1,
       "basis": "included-exact-listings-only"
     },
-    "charges": {
-      "tax": "excluded",
-      "shipping": "excluded"
-    }
+    "sourceMode": "daily-published-public-snapshot",
+    "snapshotRejectedRecords": 0
   }
 }

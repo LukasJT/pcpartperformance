@@ -28,7 +28,11 @@
     if (oldNav) { oldNav.classList.add('builder-category-nav'); const heading=parts?.querySelector('.builder-workspace-head'); if(heading&&heading.nextElementSibling!==oldNav)heading.after(oldNav); }
     if (oldNav) oldNav.querySelectorAll('a[href="#build-preview"],a[href="#build-status"]').forEach(link => link.remove());
     // Preview, readiness and secondary specifications are placed by program-builder.cjs.
-    const priceSummary = builder.querySelector('#build-shopping-summary'); if (priceSummary && report) priceSummary.hidden = true;
+    const priceSummary = builder.querySelector('#build-shopping-summary');
+    if (priceSummary && report) {
+      report.querySelector('.program-heading')?.after(priceSummary);
+      priceSummary.hidden = false;
+    }
     function render() {
       const snapshot = bridge.snapshot(), summary = selectionSummary(snapshot, records, window.PCP_BUILD_RULES);
       const completion = builder.querySelector('[data-builder-completion]');
@@ -58,7 +62,7 @@
         const text = summary.conflicts ? summary.conflicts + (summary.conflicts === 1 ? ' documented conflict' : ' documented conflicts') : summary.missing.length ? 'Review missing items' : 'Review compatibility';
         if (reviewLink.textContent !== text) reviewLink.textContent = text;
       }
-      const shopping = builder.querySelector('#build-shopping-summary'); if (shopping && report) shopping.hidden = true;
+      const shopping = builder.querySelector('#build-shopping-summary'); if (shopping && report) shopping.hidden = false;
     }
     document.addEventListener('pcp:build-state', render);
     document.addEventListener('pcp:build', render);
