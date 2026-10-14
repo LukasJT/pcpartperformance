@@ -11,6 +11,7 @@ const p=await read('/data/prebuilts.json'),desktops=JSON.parse(p.body).systems;a
 const l=await read('/data/gaming-laptops.json');assert.equal(JSON.parse(l.body).laptops.length,42);
 const status=await read('/api/v1/public-prices/status');assert.equal(status.status,200);assert.equal(JSON.parse(status.body).targets.length,6);
 const prices=await read('/api/v1/public-prices/offers?region=CA&ids=9800x3d,ddr5');assert.equal(prices.status,200);report.prices=JSON.parse(prices.body);assert.equal(report.prices.currency,'CAD');assert.equal(report.prices.region,'CA');
+assert.equal(report.prices.sourceMode,'daily-published-public-snapshot');assert(report.prices.offers.length>0,'No real current Canadian price observation is live');assert(Object.keys(report.prices.lowestByProduct).length>0,'No eligible Canadian new-item price is live');
 for(const o of report.prices.offers){assert(o.price>0&&o.currency==='CAD'&&o.exactVariant===true);assert(Date.parse(o.checkedAt)<=Date.now());assert(Date.parse(o.expiresAt)>Date.now());}
 const us=await read('/api/v1/public-prices/offers?region=US&ids=9800x3d');assert.equal(us.status,200);report.usPrices=JSON.parse(us.body);assert.equal(report.usPrices.currency,'USD');
 for(const o of report.usPrices.offers)if(o.condition!=='new')assert(!report.usPrices.lowestByProduct[o.productId]);

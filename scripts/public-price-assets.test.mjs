@@ -1,0 +1,18 @@
+import assert from 'node:assert/strict';
+import {PUBLIC_SNAPSHOT_TARGETS} from './public-price-snapshot.mjs';
+import {createAssetSnapshotProvider,createPublicPriceService,scheduledPublicPrices} from './public-price-service.mjs';
+const target=PUBLIC_SNAPSHOT_TARGETS[0];
+let now=Date.parse('2026-10-14T20:00:00Z'),calls=0;
+const observation={...target,schema:1,policy:'daily-checked-snapshot',name:target.name,itemName:target.name,retailerMpn:target.retailerMpn||target.sku,retailerSku:target.retailerSku||'fixture-exact-sku',price:619.99,condition:'new',inStock:true,availability:'in-stock',checkedAt:new Date(now).toISOString(),availabilityCheckedAt:new Date(now).toISOString(),expiresAt:new Date(now+86400000).toISOString(),url:target.listingUrl,charges:{tax:'excluded',shipping:'excluded'},source:{kind:'public-retailer-structured-data',publisher:target.merchant,url:target.listingUrl}};
+const raw={schema:1,policy:'daily-checked-snapshot',generatedAt:new Date(now).toISOString(),observations:[observation]};
+const assets={async fetch(request){calls++;assert.equal(new URL(request.url).pathname,'/data/public-price-snapshot.json');return new Response(JSON.stringify(raw),{headers:{'Content-Type':'application/json'}});}};
+const service=createPublicPriceService({snapshotProvider:createAssetSnapshotProvider(assets,{clock:()=>now}),clock:()=>now});
+const [one,two]=await Promise.all([service.read([target.productId],'CA'),service.read([target.productId],'CA')]);
+assert.equal(calls,1);assert.equal(one.lowestByProduct[target.productId].price,619.99);assert.equal(two.sourceMode,'daily-published-public-snapshot');
+now+=86400001;const expired=await service.read([target.productId],'CA');assert.equal(expired.offers.length,0);assert.equal(expired.snapshotGeneratedAt,raw.generatedAt);assert.deepEqual(expired.lowestByProduct,{});
+const missing=createPublicPriceService({snapshotProvider:createAssetSnapshotProvider({async fetch(){return new Response('missing',{status:404});}})});
+assert.equal((await missing.handle(new Request('https://www.pcpartperformance.com/api/v1/public-prices/offers?ids=9800x3d'))).status,503);
+const oversized=createAssetSnapshotProvider({async fetch(){return new Response('x'.repeat(65537),{headers:{'Content-Type':'application/json'}});}});
+await assert.rejects(oversized,/oversize/);
+assert.equal((await scheduledPublicPrices({scheduledTime:now},{ASSETS:assets})).status,'collection_managed_by_git_workflow');
+console.log('5 daily asset integration checks passed; all prices in this test are synthetic fixtures.');

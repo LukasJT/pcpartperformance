@@ -14,6 +14,9 @@ const tests = [
   ['restricted price and malformed stock rejected', () => { assert.throws(() => parseNeweggOriginalState(html({ ...item, PriceHideMark: '1' }), target, now), /restricted/); assert.throws(() => parseNeweggOriginalState(html({ ...item, Instock: 'true' }), target, now), /stock/); }]
 ];
 for (const [name, fn] of tests) { fn(); console.log('PASS ' + name); }
-await fetchNeweggPublicTarget(target, { now, fetchImpl: async (_url, options) => { assert.equal(options.redirect, 'error'); assert.equal(options.method, 'GET'); return new Response(html(item), { headers: { 'Content-Type': 'text/html' } }); } });
+await fetchNeweggPublicTarget(target, { now, fetchImpl: async (_url, options) => { assert.equal(options.redirect, 'manual'); assert.equal(options.method, 'GET'); return new Response(html(item), { headers: { 'Content-Type': 'text/html' } }); } });
 await assert.rejects(() => fetchNeweggPublicTarget(target, { now, fetchImpl: async () => new Response('restricted', { status: 403 }) }), /restricted/);
-console.log(JSON.stringify({ passed: tests.length + 2, syntheticProviderFixtures: true, realNewConditionClaimed: false }));
+let redirectCalls=0;
+await assert.rejects(() => fetchNeweggPublicTarget(target, { now, fetchImpl: async () => { redirectCalls++; return new Response(null, { status: 303, headers: { Location: 'https://www.newegg.com/access-check?token=private-value' } }); } }), failure => failure.code==='source_redirect_requires_review' && !JSON.stringify(failure.diagnostic).includes('private-value'));
+assert.equal(redirectCalls,1);
+console.log(JSON.stringify({ passed: tests.length + 3, syntheticProviderFixtures: true, realNewConditionClaimed: false }));

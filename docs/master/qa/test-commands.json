@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-10-14T18:08:17.446Z",
-  "commands": 47,
-  "passed": 47,
+  "checkedAt": "2026-10-14T19:20:07.846Z",
+  "commands": 49,
+  "passed": 49,
   "results": [
     {
       "command": "node scripts/check-program.cjs",
@@ -235,6 +235,16 @@
     },
     {
       "command": "node scripts/test-guide-directory.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/public-price-snapshot.test.mjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/public-price-assets.test.mjs",
       "exitCode": 0,
       "passed": true
     }

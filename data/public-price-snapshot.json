@@ -1,0 +1,212 @@
+{
+  "schema": 1,
+  "policy": "daily-checked-snapshot",
+  "generatedAt": "2026-10-14T19:13:54.206Z",
+  "observations": [
+    {
+      "schema": 1,
+      "policy": "daily-checked-snapshot",
+      "productId": "9800x3d",
+      "name": "AMD Ryzen 7 9800X3D",
+      "itemName": "AMD Ryzen 7 9800X3D 8-Core 4nm AM5 104MB Cache 120W ZEN 5 CPU",
+      "sku": "100-100001084WOF",
+      "retailerMpn": "100-100001084WOF",
+      "retailerSku": "CPAMD00298",
+      "exactVariant": true,
+      "variant": null,
+      "memoryVariant": null,
+      "revision": null,
+      "merchantId": "canada-computers",
+      "merchant": "Canada Computers",
+      "seller": "Canada Computers & Electronics",
+      "region": "CA",
+      "currency": "CAD",
+      "price": 619.99,
+      "condition": "new",
+      "inStock": true,
+      "availability": "in-stock",
+      "url": "https://www.canadacomputers.com/en/amd-desktop-processors/264908/amd-ryzen-7-9800x3d-8-core-4nm-am5-104mb-cache-120w-zen-5-cpu-100-100001084wof.html",
+      "checkedAt": "2026-10-14T19:13:47.211Z",
+      "availabilityCheckedAt": "2026-10-14T19:13:47.211Z",
+      "expiresAt": "2026-10-15T19:13:47.211Z",
+      "charges": {
+        "tax": "excluded",
+        "shipping": "excluded"
+      },
+      "source": {
+        "kind": "public-retailer-structured-data",
+        "publisher": "Canada Computers",
+        "url": "https://www.canadacomputers.com/en/amd-desktop-processors/264908/amd-ryzen-7-9800x3d-8-core-4nm-am5-104mb-cache-120w-zen-5-cpu-100-100001084wof.html"
+      },
+      "eligibleForNewPurchaseMinimum": true,
+      "availabilityBasis": "retailer-product-online-offer-not-local-store-inventory"
+    },
+    {
+      "schema": 1,
+      "policy": "daily-checked-snapshot",
+      "productId": "990pro",
+      "name": "Samsung 990 PRO 1 TB",
+      "itemName": "Samsung 990 Pro 1TB M.2 NVMe PCIe 4.0 Solid State Drive",
+      "sku": "MZ-V9P1T0B/AM",
+      "retailerMpn": "MZ-V9P1T0B/AM",
+      "retailerSku": "SSSAS00120",
+      "exactVariant": true,
+      "variant": null,
+      "memoryVariant": null,
+      "revision": null,
+      "merchantId": "canada-computers",
+      "merchant": "Canada Computers",
+      "seller": "Canada Computers & Electronics",
+      "region": "CA",
+      "currency": "CAD",
+      "price": 439.99,
+      "condition": "new",
+      "inStock": false,
+      "availability": "out-of-stock",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/233285/samsung-990-pro-1tb-m-2-nvme-pcie-4-0-solid-state-drive-mz-v9p1t0b-am.html",
+      "checkedAt": "2026-10-14T19:13:50.162Z",
+      "availabilityCheckedAt": "2026-10-14T19:13:50.162Z",
+      "expiresAt": "2026-10-15T19:13:50.162Z",
+      "charges": {
+        "tax": "excluded",
+        "shipping": "excluded"
+      },
+      "source": {
+        "kind": "public-retailer-structured-data",
+        "publisher": "Canada Computers",
+        "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/233285/samsung-990-pro-1tb-m-2-nvme-pcie-4-0-solid-state-drive-mz-v9p1t0b-am.html"
+      },
+      "eligibleForNewPurchaseMinimum": false,
+      "availabilityBasis": "retailer-product-online-offer-not-local-store-inventory"
+    },
+    {
+      "schema": 1,
+      "policy": "daily-checked-snapshot",
+      "productId": "ddr5",
+      "name": "CORSAIR VENGEANCE 32 GB DDR5-6000 CL30",
+      "itemName": "CORSAIR VENGEANCE 32GB (2x16GB) DDR5 6000MHz CL30 UDIMM",
+      "sku": "CMK32GX5M2B6000C30",
+      "retailerMpn": "CMK32GX5M2B6000C30",
+      "retailerSku": "MECOI00647",
+      "exactVariant": true,
+      "variant": null,
+      "memoryVariant": null,
+      "revision": null,
+      "merchantId": "canada-computers",
+      "merchant": "Canada Computers",
+      "seller": "Canada Computers & Electronics",
+      "region": "CA",
+      "currency": "CAD",
+      "price": 739.99,
+      "condition": "new",
+      "inStock": true,
+      "availability": "in-stock",
+      "url": "https://www.canadacomputers.com/en/desktop-memory/248739/corsair-vengeance-32gb-2x16gb-ddr5-6000mhz-cl30-udimm-cmk32gx5m2b6000c30.html",
+      "checkedAt": "2026-10-14T19:13:48.223Z",
+      "availabilityCheckedAt": "2026-10-14T19:13:48.223Z",
+      "expiresAt": "2026-10-15T19:13:48.223Z",
+      "charges": {
+        "tax": "excluded",
+        "shipping": "excluded"
+      },
+      "source": {
+        "kind": "public-retailer-structured-data",
+        "publisher": "Canada Computers",
+        "url": "https://www.canadacomputers.com/en/desktop-memory/248739/corsair-vengeance-32gb-2x16gb-ddr5-6000mhz-cl30-udimm-cmk32gx5m2b6000c30.html"
+      },
+      "eligibleForNewPurchaseMinimum": true,
+      "availabilityBasis": "retailer-product-online-offer-not-local-store-inventory"
+    },
+    {
+      "schema": 1,
+      "policy": "daily-checked-snapshot",
+      "productId": "retail-msi-geforce-rtx-5070-12g-ventus-3x-oc",
+      "name": "MSI GeForce RTX 5070 12G VENTUS 3X OC",
+      "itemName": "MSI GeForce RTX 5070 VENTUS 3X OC GDDR7 Triple Fans",
+      "sku": "G5070-12V3C",
+      "retailerMpn": "RTX 5070 12G VENTUS 3X OC",
+      "retailerSku": "VCMSI00484",
+      "exactVariant": true,
+      "variant": null,
+      "memoryVariant": null,
+      "revision": null,
+      "merchantId": "canada-computers",
+      "merchant": "Canada Computers",
+      "seller": "Canada Computers & Electronics",
+      "region": "CA",
+      "currency": "CAD",
+      "price": 1329.99,
+      "condition": "new",
+      "inStock": false,
+      "availability": "out-of-stock",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/269805/msi-geforce-rtx-5070-ventus-3x-oc-gddr7-triple-fans-rtx-5070-12g-ventus-3x-oc.html",
+      "checkedAt": "2026-10-14T19:13:51.303Z",
+      "availabilityCheckedAt": "2026-10-14T19:13:51.303Z",
+      "expiresAt": "2026-10-15T19:13:51.303Z",
+      "charges": {
+        "tax": "excluded",
+        "shipping": "excluded"
+      },
+      "source": {
+        "kind": "public-retailer-structured-data",
+        "publisher": "Canada Computers",
+        "url": "https://www.canadacomputers.com/en/powered-by-nvidia/269805/msi-geforce-rtx-5070-ventus-3x-oc-gddr7-triple-fans-rtx-5070-12g-ventus-3x-oc.html"
+      },
+      "eligibleForNewPurchaseMinimum": false,
+      "availabilityBasis": "retailer-product-online-offer-not-local-store-inventory"
+    }
+  ],
+  "runs": [
+    {
+      "productId": "9800x3d",
+      "merchantId": "canada-computers",
+      "region": "CA",
+      "state": "refreshed",
+      "attemptedAt": "2026-10-14T19:13:47.211Z"
+    },
+    {
+      "productId": "b650",
+      "merchantId": "canada-computers",
+      "region": "CA",
+      "state": "unavailable",
+      "errorCode": "offer_identity_invalid",
+      "attemptedAt": "2026-10-14T19:13:47.251Z"
+    },
+    {
+      "productId": "ddr5",
+      "merchantId": "canada-computers",
+      "region": "CA",
+      "state": "refreshed",
+      "attemptedAt": "2026-10-14T19:13:48.223Z"
+    },
+    {
+      "productId": "990pro",
+      "merchantId": "canada-computers",
+      "region": "CA",
+      "state": "refreshed",
+      "attemptedAt": "2026-10-14T19:13:50.162Z"
+    },
+    {
+      "productId": "retail-msi-geforce-rtx-5070-12g-ventus-3x-oc",
+      "merchantId": "canada-computers",
+      "region": "CA",
+      "state": "refreshed",
+      "attemptedAt": "2026-10-14T19:13:51.303Z"
+    },
+    {
+      "productId": "9800x3d",
+      "merchantId": "newegg-us",
+      "region": "US",
+      "state": "unavailable",
+      "errorCode": "source_access_restricted",
+      "attemptedAt": "2026-10-14T19:13:53.676Z"
+    }
+  ],
+  "collection": {
+    "requested": 6,
+    "refreshed": 4,
+    "retained": 0,
+    "failed": 2,
+    "accessMode": "ordinary-public-get-no-proxy-no-cookies-no-challenge-bypass"
+  }
+}
