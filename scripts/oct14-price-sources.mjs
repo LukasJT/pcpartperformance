@@ -9,8 +9,14 @@ export const PUBLIC_PRICE_TARGETS = Object.freeze([
   cc('retail-msi-geforce-rtx-5070-12g-ventus-3x-oc', 'G5070-12V3C', 'RTX 5070 12G VENTUS 3X OC', 'VCMSI00484', 'MSI GeForce RTX 5070 12G VENTUS 3X OC', '/en/powered-by-nvidia/269805/msi-geforce-rtx-5070-ventus-3x-oc-gddr7-triple-fans-rtx-5070-12g-ventus-3x-oc.html')
 ]);
 
-class SourceError extends Error { constructor(code) { super(code); this.name = 'SourceError'; this.code = code; } }
-const fail = code => { throw new SourceError(code); };
+class SourceError extends Error { constructor(code,diagnostic=null) { super(code); this.name = 'SourceError'; this.code = code; this.diagnostic=diagnostic; } }
+const fail = (code,diagnostic=null) => { throw new SourceError(code,diagnostic); };
+export function safeRedirectDiagnostic(response,target){
+ try{const to=new URL(response.headers.get('Location'),target.listingUrl),from=new URL(target.listingUrl);if(to.protocol!=='https:'||to.hostname!==from.hostname||to.username||to.password||to.port)return{status:response.status,kind:'unapproved_destination'};
+  const product=/^\/en\/[a-z0-9-]+\/\d{5,8}\/[a-z0-9-]+\.html$/.test(to.pathname)||/^\/[a-z0-9/-]*\/p\/N82E168\d{8}$/.test(to.pathname);
+  return{status:response.status,kind:product?'product_page':/challenge|captcha|cdn-cgi/i.test(to.pathname)?'access_gate':'storefront',...(product||['/','/en/','/index.php'].includes(to.pathname)?{pathname:to.pathname}:{}),queryNames:[...to.searchParams.keys()].filter(k=>/^[a-zA-Z0-9_-]{1,40}$/.test(k)).slice(0,8)};
+ }catch{return{status:response.status,kind:'invalid_destination'};}
+}
 const iso = now => new Date(now).toISOString();
 const text = (value, max = 200) => typeof value === 'string' && value.length > 0 && value.length <= max && !/[\u0000-\u001f\u007f]/.test(value);
 const typeIs = (node, type) => node && (node['@type'] === type || Array.isArray(node['@type']) && node['@type'].includes(type));
@@ -73,7 +79,8 @@ export async function fetchPublicTarget(target, { fetchImpl = (input, init) => g
   validatePublicTarget(target);
   const controller = new AbortController(), timer = setTimeout(() => controller.abort(), PUBLIC_PRICE_POLICY.timeoutMs);
   try {
-    const response = await fetchImpl(target.listingUrl, { method: 'GET', redirect: 'error', signal: controller.signal, headers: { Accept: 'text/html', 'User-Agent': 'PCPartPerformance/1.0 (+https://www.pcpartperformance.com/methodology/)' } });
+    const response = await fetchImpl(target.listingUrl, { method: 'GET', redirect: 'manual', signal: controller.signal, headers: { Accept: 'text/html', 'User-Agent': 'PCPartPerformance/1.0 (+https://www.pcpartperformance.com/methodology/)' } });
+    if(response.status>=300&&response.status<400)fail('source_redirect_requires_review',safeRedirectDiagnostic(response,target));
     if (!response.ok) fail([401, 403, 429].includes(response.status) ? 'source_access_restricted' : 'source_http_' + response.status);
     if (!(response.headers.get('Content-Type') || '').toLowerCase().includes('text/html')) fail('response_type_changed');
     return parseCanadaComputers(await boundedText(response), target, now);
@@ -89,7 +96,7 @@ export function createPublicPriceCollector({ targets = PUBLIC_PRICE_TARGETS, fet
     if (inFlight.has(key)) return inFlight.get(key);
     const promise = (async () => {
       let result; try { result = { productId: target.productId, state: 'checked', offer: await fetchPublicTarget(target, { fetchImpl, now }) }; }
-      catch (error) { result = { productId: target.productId, state: 'unavailable', error: error instanceof SourceError ? error.code : 'source_error', offer: null }; }
+      catch (error) { result = { productId: target.productId, state: 'unavailable', error: error instanceof SourceError ? error.code : 'source_error',...(error.diagnostic?{diagnostic:error.diagnostic}:{}), offer: null }; }
       cache.set(key, { result, until: now + (result.offer ? PUBLIC_PRICE_POLICY.cacheMs : PUBLIC_PRICE_POLICY.negativeCacheMs) });
       return result;
     })();

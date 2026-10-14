@@ -8,13 +8,13 @@ const collector={async collect(ids,{region}){
  if(region==='CA')return canada.collect(ids,{region});
  const offers=[],results=[];
  for(const id of ids){if(id!==NEWEGG_PUBLIC_TARGET.productId){results.push({productId:id,state:'not_covered'});continue;}
-  let result=usCache.get(id);if(!result||Date.now()>=result.until){let pending=usFlight.get(id);if(!pending){pending=fetchNeweggPublicTarget().then(offer=>({productId:id,state:'checked',offer})).catch(error=>({productId:id,state:'unavailable',error:error.code||'source_network_error',offer:null}));usFlight.set(id,pending);}try{result={result:await pending};result.until=Date.now()+(result.result.offer?PUBLIC_PRICE_POLICY.cacheMs:PUBLIC_PRICE_POLICY.negativeCacheMs);usCache.set(id,result);}finally{usFlight.delete(id);}}
+  let result=usCache.get(id);if(!result||Date.now()>=result.until){let pending=usFlight.get(id);if(!pending){pending=fetchNeweggPublicTarget().then(offer=>({productId:id,state:'checked',offer})).catch(error=>({productId:id,state:'unavailable',error:error.code||'source_network_error',...(error.diagnostic?{diagnostic:error.diagnostic}:{}),offer:null}));usFlight.set(id,pending);}try{result={result:await pending};result.until=Date.now()+(result.result.offer?PUBLIC_PRICE_POLICY.cacheMs:PUBLIC_PRICE_POLICY.negativeCacheMs);usCache.set(id,result);}finally{usFlight.delete(id);}}
   if(result.result.offer)offers.push(result.result.offer);const {offer:_,...row}=result.result;results.push(row);
  }
  return {offers,results};
 }};
 const json=(body,status=200,cache='no-store')=>new Response(JSON.stringify(body),{status,headers:{'Content-Type':'application/json; charset=utf-8','Cache-Control':cache,'X-Robots-Tag':'noindex, follow','X-Content-Type-Options':'nosniff'}});
-const key=(region,id)=>new Request('https://www.pcpartperformance.com/__price_cache/v2/'+region+'/'+id);
+const key=(region,id)=>new Request('https://www.pcpartperformance.com/__price_cache/v3/'+region+'/'+id);
 const current=(offer,now)=>offer&&Number.isFinite(Date.parse(offer.checkedAt))&&Date.parse(offer.checkedAt)<=now&&now<Date.parse(offer.expiresAt);
 export function createPublicPriceService({reader=collector,cache=null,clock=Date.now}={}){
  async function read(ids,region){

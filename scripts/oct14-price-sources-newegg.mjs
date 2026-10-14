@@ -1,8 +1,8 @@
-import { PUBLIC_PRICE_POLICY } from './oct14-price-sources.mjs';
+import { PUBLIC_PRICE_POLICY, safeRedirectDiagnostic } from './oct14-price-sources.mjs';
 
 /* First-party US listing only. A missing condition stays unknown. */
 export const NEWEGG_PUBLIC_TARGET = Object.freeze({ productId: '9800x3d', adapter: 'newegg-original-product-state', merchantId: 'newegg-us', merchant: 'Newegg', seller: 'Newegg', region: 'US', currency: 'USD', sku: '100-100001084WOF', retailerSku: 'N82E16819113877', retailerItem: '19-113-877', name: 'AMD Ryzen 7 9800X3D', listingUrl: 'https://www.newegg.com/amd-ryzen-7-9000-series-ryzen-7-9800x3d-granite-ridge-zen-5-socket-am5-desktop-cpu-processor/p/N82E16819113877', exactVariant: true, variant: null, memoryVariant: null, revision: null });
-const error = code => { const failure = new Error(code); failure.code = code; throw failure; };
+const error = (code,diagnostic=null) => { const failure = new Error(code); failure.code = code;failure.diagnostic=diagnostic; throw failure; };
 const iso = timestamp => new Date(timestamp).toISOString();
 function validTarget(target) {
   if (!target || target.adapter !== 'newegg-original-product-state' || target.merchantId !== 'newegg-us' || target.region !== 'US' || target.currency !== 'USD' || target.seller !== 'Newegg' || !/^[A-Za-z0-9_-]{1,120}$/.test(target.productId) || !/^N82E168\d{8}$/.test(target.retailerSku) || !/^\d{2}-\d{3}-\d{3}$/.test(target.retailerItem) || typeof target.sku !== 'string' || target.sku.length > 120 || !/^https:\/\/www\.newegg\.com\/[a-z0-9-]+\/p\/N82E168\d{8}$/.test(target.listingUrl) || !target.listingUrl.endsWith('/' + target.retailerSku) || target.exactVariant !== true) error('target_invalid');
@@ -37,7 +37,8 @@ export async function fetchNeweggPublicTarget(target = NEWEGG_PUBLIC_TARGET, { f
   validTarget(target);
   const controller = new AbortController(), timeout = setTimeout(() => controller.abort(), PUBLIC_PRICE_POLICY.timeoutMs);
   try {
-    const response = await fetchImpl(target.listingUrl, { method: 'GET', redirect: 'error', headers: { Accept: 'text/html', 'User-Agent': 'PCPartPerformance/1.0 (+https://www.pcpartperformance.com/methodology/)' }, signal: controller.signal });
+    const response = await fetchImpl(target.listingUrl, { method: 'GET', redirect: 'manual', headers: { Accept: 'text/html', 'User-Agent': 'PCPartPerformance/1.0 (+https://www.pcpartperformance.com/methodology/)' }, signal: controller.signal });
+    if(response.status>=300&&response.status<400)error('source_redirect_requires_review',safeRedirectDiagnostic(response,target));
     if (!response.ok) error([401, 403, 429].includes(response.status) ? 'source_access_restricted' : 'source_http_' + response.status);
     if (!(response.headers.get('Content-Type') || '').toLowerCase().includes('text/html')) error('response_type_changed');
     if (Number(response.headers.get('Content-Length')) > PUBLIC_PRICE_POLICY.maxBytes || !response.body?.getReader) error('response_oversize_or_empty');
