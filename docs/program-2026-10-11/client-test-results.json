@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "checkedAt": "2026-10-13T21:13:39.723Z",
+  "checkedAt": "2026-10-14T18:23:06.332Z",
   "status": "passed",
   "passed": 30,
   "failed": 0,
@@ -14,11 +14,11 @@
   "files": [
     {
       "file": "scripts/prebuilt-ui.js",
-      "sha256": "f220c26a9c1b7655bfb457acc47bb3f7c9665123b63cad47fc69db40d1f85f1b"
+      "sha256": "88e82d66c029e0bbfc866bae9e8293e966dd0cdf5e708597b44305148d011a4f"
     },
     {
       "file": "scripts/prebuilt-pages.cjs",
-      "sha256": "564926882d8407139ceb0c3f2cfc0f49fe78c9050f5a89618c4abbe76cec7034"
+      "sha256": "36fef04693d1e57e5815e4dba658b0b574aff00c26b244c351bab0a26036818a"
     },
     {
       "file": "scripts/morning-prices-ui.js",
@@ -26,7 +26,7 @@
     },
     {
       "file": "scripts/worker.mjs",
-      "sha256": "ff9e452eb93f89342ceb536dc8327ba820e768972c9590510142bef1e35f6f76"
+      "sha256": "2adfce101a5c4b27f8a7fbbe6ae6f88b2b80d65769a83b07b81fd60fff0dcb27"
     }
   ],
   "tests": [

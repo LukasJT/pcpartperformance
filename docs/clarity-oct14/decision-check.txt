@@ -1,0 +1,22 @@
+PASS amounts preserve unknown, actual zero and cent precision
+PASS handoff validation constrains schema, exact IDs, expiry and region
+PASS unknown and newly bought parts cannot silently become owned
+PASS scenario choices affect purchase categories without recommending models
+PASS private notes and arbitrary fields are excluded from handoffs
+PASS complete DIY transfer uses explicit costs and does not fill missing assembly support
+PASS prebuilt disclosures distinguish exact listed facts from undisclosed internals
+PASS the generator decorates every researched system and retained planning route, preserves controls and is idempotent
+PASS retained upgrade controller creates readiness before the new reuse controls
+PASS an actually applied phase carries its exact model as a new purchase
+PASS actual Budget Build Lab consumes confirmed context and preserves unknown extras
+PASS prebuilt flow refuses old quotes until an exact comparison is applied
+PASS manual DIY quote applies same-currency amounts and keeps assembly and prebuilt unknown
+PASS prebuilt checklist counts personal confirmations and resets on a different exact system
+PASS unavailable tab storage keeps the retained tools usable and blocks a lost quote transfer
+PASS new module has no requests, analytics parameters, automatic quotes or 3D downloads
+{
+  "status": "passed",
+  "tests": 16,
+  "generatorRoutes": 87,
+  "scope": "Pure rules, temporary generator fixtures, and retained controller DOM fixtures. No full build, browser or deployment."
+}

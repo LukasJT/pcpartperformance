@@ -224,7 +224,7 @@
     let systems = [], chosen = null, pending = read(), buyApplied = false;
     const prebuilt = $('[data-master-prebuilt]'), buyContext = $('[data-master-buy-context]'), buyForm = $('[data-buy-worksheet]');
     if (prebuilt) {
-      try { const raw = JSON.parse($('[data-master-system-data]').textContent); if (raw.schema === 1 && Array.isArray(raw.systems) && raw.systems.length <= 50) systems = raw.systems.filter(p => idOK(p?.id) && regionOK(p.region) && typeof p.name === 'string'); } catch {}
+      try { const raw = JSON.parse($('[data-master-system-data]').textContent); if (raw.schema === 1 && Array.isArray(raw.systems) && raw.systems.length <= 100) systems = raw.systems.filter(p => idOK(p?.id) && regionOK(p.region) && typeof p.name === 'string'); } catch {}
       const picker = $('[data-master-system]');
       const pick = id => systems.find(p => p.id === id) || null;
       chosen = pick(prebuilt.dataset.masterSystemId || (pending?.systemId ?? ''));

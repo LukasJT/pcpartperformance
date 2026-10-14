@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "status": "checked",
+  "policy": "daily-checked-snapshot",
+  "region": "US",
+  "currency": "USD",
+  "checkedAt": "2026-10-14T16:53:23.143Z",
+  "offers": [
+    {
+      "schema": 1,
+      "policy": "daily-checked-snapshot",
+      "productId": "9800x3d",
+      "name": "AMD Ryzen 7 9800X3D",
+      "itemName": "AMD Ryzen 7 9800X3D 8-Core 5.2 GHz",
+      "sku": "100-100001084WOF",
+      "retailerMpn": "100-100001084WOF",
+      "retailerSku": "N82E16819113877",
+      "retailerItem": "19-113-877",
+      "exactVariant": true,
+      "variant": null,
+      "memoryVariant": null,
+      "revision": null,
+      "merchantId": "newegg-us",
+      "merchant": "Newegg",
+      "seller": "Newegg",
+      "region": "US",
+      "currency": "USD",
+      "currencyBasis": "original-state USA country scope plus retailer published country-currency policy",
+      "price": 444,
+      "condition": "unknown",
+      "inStock": true,
+      "availability": "in-stock",
+      "availabilityBasis": "original-retailer-online-product-state",
+      "url": "https://www.newegg.com/amd-ryzen-7-9000-series-ryzen-7-9800x3d-granite-ridge-zen-5-socket-am5-desktop-cpu-processor/p/N82E16819113877",
+      "checkedAt": "2026-10-14T16:53:23.143Z",
+      "availabilityCheckedAt": "2026-10-14T16:53:23.143Z",
+      "expiresAt": "2026-10-15T16:53:23.143Z",
+      "charges": {
+        "tax": "excluded",
+        "shipping": "excluded"
+      },
+      "eligibleForNewPurchaseMinimum": false,
+      "source": {
+        "kind": "public-retailer-original-state",
+        "publisher": "Newegg",
+        "url": "https://www.newegg.com/amd-ryzen-7-9000-series-ryzen-7-9800x3d-granite-ridge-zen-5-socket-am5-desktop-cpu-processor/p/N82E16819113877"
+      },
+      "scope": "Exact first-party price observation; new-item condition needs verification before a verified-new subtotal."
+    }
+  ],
+  "lowestByProduct": {},
+  "results": [
+    {
+      "productId": "9800x3d",
+      "state": "condition_requires_verification"
+    }
+  ],
+  "deployment": "not_activated_by_this_command",
+  "attribution": "Public retailer observations; source terms and owner authorization are recorded separately."
+}

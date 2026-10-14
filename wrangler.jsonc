@@ -3,6 +3,7 @@
   "name": "pcpartperformance-live",
   "main": "scripts/worker.mjs",
   "compatibility_date": "2026-10-05",
+  "triggers": { "crons": ["0 11,12 * * *"] },
   "assets": {
     "directory": "./dist",
     "binding": "ASSETS",

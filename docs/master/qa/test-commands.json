@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-10-13T21:15:07.835Z",
-  "commands": 37,
-  "passed": 37,
+  "checkedAt": "2026-10-14T18:08:17.446Z",
+  "commands": 47,
+  "passed": 47,
   "results": [
     {
       "command": "node scripts/check-program.cjs",
@@ -185,6 +185,56 @@
     },
     {
       "command": "node scripts/release-preflight.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/test-clarity-site.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/test-phone-clarity.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/oct14-catalog.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/oct14-editorial-content.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/oct14-price-sources.test.mjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/oct14-price-sources-newegg.test.mjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/public-price-service.test.mjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/test-shopping-price-ui.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/public-price-client.test.mjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/test-guide-directory.cjs",
       "exitCode": 0,
       "passed": true
     }

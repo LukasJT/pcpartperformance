@@ -1,0 +1,31 @@
+PASS generated prebuilt markup initializes the actual browser controller
+PASS prebuilt country, case-insensitive search and GPU filters intersect and reset
+PASS shortlist selects up to three, supports removal, saves and restores exact IDs
+PASS selected systems render real specification columns and unknown values stay explicit
+PASS blank, whitespace and invalid required costs never become known zero totals
+PASS complete explicit quotes calculate exact totals, zero, equality and USD/CAD labels
+PASS country switches preserve separate unsaved and saved CAD/USD quote sets
+PASS unavailable storage preserves interactive filtering and truthful save failure messages
+PASS catalog network failure leaves quote calculation usable with a visible error
+PASS disabled, unconfigured and failed daily checks display no price rows
+PASS malformed, stale, wrong country/currency and stock missing observations never display a price
+PASS daily subtotal multiplies repeated exact parts and excludes owned parts
+PASS toggling an owned part updates the displayed purchase subtotal and price rows
+PASS daily rows retain the exact provided link, approved logo, seller and checked price basis
+PASS wrong SKU/direct link and unapproved logo URLs cannot display prices
+PASS exact SKU direct links and reviewed local asset paths supported by the service remain usable
+PASS missing exact SKU/model/seller and contradictory stock cannot render a daily checked price
+PASS contradictory or missing merchant and source attribution cannot present a first-party Best Buy price
+PASS lowest exact eligible item price is used and complete purchase count is explicit
+PASS changing country retries the regional API after a regional not-configured response
+PASS returning to a cached unavailable country clears the previous country price rows
+PASS previous-country price rows are removed while a changed-country request is pending
+PASS an open page refreshes at the observation expiry and removes an expired snapshot
+PASS an expired snapshot is removed while its refresh request remains pending
+PASS an API request aborts after eight seconds with a clear unavailable state and no prices
+PASS an older slow response cannot replace a newer build selection
+PASS prebuilt exact ID uses prices API; an empty builder requests status without inventing parts
+PASS Worker API endpoints return the disabled contract before asset routing and reject unsafe requests
+PASS Worker keeps existing canonical asset and redirect behavior
+PASS Worker scheduled handler awaits the gated service without provider access or activation
+30 passed, 0 failed continuation client checks.

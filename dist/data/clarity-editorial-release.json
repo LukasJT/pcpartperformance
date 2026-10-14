@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "releaseDate": "2026-10-14",
+  "ownerAuthorized": true,
+  "origin": "direct_owner_instruction",
+  "statement": "Implement the requested new source-checked content and publish through the existing deployment.",
+  "author": "PC Part Performance",
+  "humanReviewClaimed": false,
+  "preview": false,
+  "articles": [
+    {
+      "id": "O01",
+      "route": "/blog/laptop-gpu-vs-desktop-rtx-5070/",
+      "hash": "9d30c8f86b6991cded86be98eb0f6e657141ef19c3b80b676307fb4ae3dd14e2"
+    },
+    {
+      "id": "O02",
+      "route": "/blog/gaming-laptop-ram-ssd-upgrade-checklist/",
+      "hash": "7e62646b758a12bb82d74fafdd45813a7de3e91a7a5e25658114930c77313b62"
+    },
+    {
+      "id": "O03",
+      "route": "/blog/mux-switch-advanced-optimus-gaming-laptop/",
+      "hash": "d1a7e4ed01fd12cda535c86e4de88a7212dc1feaf99802262a4db52f2f075b48"
+    },
+    {
+      "id": "O04",
+      "route": "/blog/can-my-pc-run-baldurs-gate-3/",
+      "hash": "fc5a36457640d2917e03ff01c93bdc12f0b01b3f4be0257faf366c5d6a565c47"
+    }
+  ]
+}

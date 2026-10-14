@@ -1,0 +1,83 @@
+{
+  "schema": 1,
+  "evidenceDate": "2026-10-14",
+  "valid": true,
+  "errors": [],
+  "articles": 4,
+  "words": 2235,
+  "humanReviewClaimed": false,
+  "published": 0,
+  "items": [
+    {
+      "id": "O01",
+      "route": "/blog/laptop-gpu-vs-desktop-rtx-5070/",
+      "title": "RTX 5070 laptop vs desktop: why the name is not the whole comparison",
+      "words": 586,
+      "fingerprint": "9d30c8f86b6991cded86be98eb0f6e657141ef19c3b80b676307fb4ae3dd14e2",
+      "sourceIds": [
+        "laptopGPU",
+        "desktopGPU",
+        "g16"
+      ],
+      "keywords": [
+        "rtx 5070 laptop vs desktop",
+        "laptop gpu vs desktop",
+        "gaming laptop TGP"
+      ],
+      "intent": "Understand a same-number laptop/desktop GPU purchase without importing desktop FPS into a laptop result"
+    },
+    {
+      "id": "O02",
+      "route": "/blog/gaming-laptop-ram-ssd-upgrade-checklist/",
+      "title": "Can you upgrade a gaming laptop’s RAM and SSD?",
+      "words": 566,
+      "fingerprint": "7e62646b758a12bb82d74fafdd45813a7de3e91a7a5e25658114930c77313b62",
+      "sourceIds": [
+        "zephyrusUpgrade",
+        "serviceManuals"
+      ],
+      "keywords": [
+        "can I upgrade laptop RAM",
+        "gaming laptop SSD upgrade",
+        "soldered RAM"
+      ],
+      "intent": "Determine exact laptop RAM and storage upgrade options before purchasing or opening the machine"
+    },
+    {
+      "id": "O03",
+      "route": "/blog/mux-switch-advanced-optimus-gaming-laptop/",
+      "title": "MUX switch vs Advanced Optimus: which laptop setting should you use?",
+      "words": 527,
+      "fingerprint": "d1a7e4ed01fd12cda535c86e4de88a7212dc1feaf99802262a4db52f2f075b48",
+      "sourceIds": [
+        "advancedOptimus",
+        "rogMux",
+        "armoury"
+      ],
+      "keywords": [
+        "MUX switch vs Advanced Optimus",
+        "laptop hybrid mode",
+        "dedicated GPU mode"
+      ],
+      "intent": "Understand and safely test documented laptop graphics display modes without confusing rendering GPU and screen connection"
+    },
+    {
+      "id": "O04",
+      "route": "/blog/can-my-pc-run-baldurs-gate-3/",
+      "title": "Can my PC run Baldur’s Gate 3? Check the requirements before guessing FPS",
+      "words": 556,
+      "fingerprint": "fc5a36457640d2917e03ff01c93bdc12f0b01b3f4be0257faf366c5d6a565c47",
+      "sourceIds": [
+        "bg3Steam",
+        "bg3Support",
+        "bg3Graphics"
+      ],
+      "keywords": [
+        "can my PC run Baldurs Gate 3",
+        "Baldurs Gate 3 system requirements",
+        "BG3 laptop requirements"
+      ],
+      "intent": "Help a prospective Baldur’s Gate 3 player inspect publisher requirements and a current PC without treating requirements as a benchmark"
+    }
+  ]
+}

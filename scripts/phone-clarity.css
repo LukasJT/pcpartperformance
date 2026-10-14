@@ -1,0 +1,82 @@
+/* Phone pages: one task bar, definite preview bounds and restrained studio motion. */
+[data-phone-page] .phone-section-nav{display:flex;align-items:center;flex-wrap:wrap;gap:8px;margin:26px 0 30px;padding:8px;border:1px solid var(--line);border-radius:12px;background:var(--surface)}
+.phone-section-nav a{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:44px;padding:10px 16px;border-radius:8px;font-size:15px;font-weight:600;line-height:1.4;color:var(--ink);transition:background .2s,transform .2s}
+.phone-section-nav a:hover{background:var(--surface-2);transform:translateY(-1px)}
+.phone-section-nav svg{width:21px;height:21px;flex:none;color:var(--accent-ink)}
+.phone-section-nav .phone-home-link{margin-right:auto;background:var(--surface-2)}
+[data-phone-page] .program-breadcrumb{margin-top:0;margin-bottom:24px}
+[data-phone-page] .article-header{padding:12px 0 26px;margin:0 0 28px}
+[data-phone-page] .article-header h1{max-width:960px;line-height:1.12;letter-spacing:-.035em}
+[data-phone-page] .article-header>p{max-width:660px;margin-top:16px;line-height:1.65}
+[data-phone-page] .phone-accessible-help{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
+[data-phone-page] .phone-picker-row{padding:22px!important;gap:18px!important;border-radius:12px!important}
+[data-phone-page] .phone-picker-row .modern-select{min-width:0}
+[data-phone-page] .phone-picker-row .select-trigger{width:100%;max-width:100%;min-width:0}
+[data-phone-page] .phone-mode-row{justify-content:flex-start;border:0;padding:0;margin:26px 0 24px;gap:16px}
+[data-phone-page] .phone-mode-switch{border:0;background:var(--surface-2);border-radius:11px;padding:5px;gap:5px}
+[data-phone-page] .phone-mode-switch button{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:46px;border-radius:8px;padding:12px 22px;color:var(--muted);transition:color .2s,background .2s,box-shadow .25s}
+[data-phone-page] .phone-mode-switch button svg{width:20px;height:20px;flex:none}
+[data-phone-page] .phone-mode-switch button[aria-pressed=true]{background:var(--surface);color:var(--ink);box-shadow:0 2px 7px #00000012}
+[data-phone-page] .phone-comparison-views{gap:24px;align-items:start}
+[data-phone-page] .phone-comparison-item{min-width:0;padding:26px!important;border-radius:14px!important;overflow:hidden;background:var(--surface)!important;box-shadow:none;transition:border-color .25s,box-shadow .25s}
+[data-phone-page] .phone-comparison-item:hover{border-color:color-mix(in srgb,var(--accent-ink) 35%,var(--line))}
+[data-phone-page] .phone-comparison-item h2{font-size:23px!important;line-height:1.3!important;margin:0 0 22px!important;overflow-wrap:anywhere}
+[data-phone-page] .phone-interactive{display:flex;align-items:stretch;gap:16px;min-width:0;width:100%}
+[data-phone-page] .phone-comparison-item [data-phone-preview]>figure{display:flex;align-items:center;justify-content:center;position:relative;flex:none;min-width:0;min-height:0;width:100%;height:360px!important;max-height:360px;margin:0!important;padding:16px;overflow:hidden;isolation:isolate;background:#fff;border-radius:10px;box-sizing:border-box}
+[data-phone-page] .phone-comparison-item [data-phone-preview]>figure img{display:block;flex:none;width:100%!important;height:100%!important;min-height:0!important;max-width:100%!important;max-height:100%!important;aspect-ratio:auto!important;object-fit:contain!important;margin:0!important;padding:0!important;position:static!important;transform:none}
+[data-phone-page] .phone-comparison-item [data-phone-preview]>figure svg{max-height:100%;max-width:100%;height:280px;width:auto}
+[data-phone-page] .phone-stage{height:360px!important;max-height:360px;border-radius:10px;flex:none;background:radial-gradient(ellipse at 55% 40%,#edf2f8,#f9fbfd 75%);overflow:hidden}
+[data-phone-page] .phone-stage canvas{display:block;max-width:100%;max-height:100%;outline-offset:-4px}
+[data-phone-page] .phone-open{align-self:center;min-height:46px;margin:0!important;border-radius:8px;background:var(--surface-2);color:var(--ink)}
+[data-phone-page] .phone-open::before{display:none}
+.phone-open svg{width:20px;height:20px;flex:none}
+[data-phone-page] .phone-view-controls{gap:6px;justify-content:center}
+[data-phone-page] .phone-view-controls button{min-height:44px;padding:9px 12px;flex:1 1 auto;border-radius:7px;font-size:14px}
+[data-phone-page] .phone-view-help{font-size:13px!important;line-height:1.5!important;padding:0 8px}
+[data-phone-page] .phone-model-credit{display:block;width:100%;min-width:0;position:static;margin:0!important;padding:14px 0 0;border-top:1px solid var(--line);font-size:13px;line-height:1.65;overflow-wrap:anywhere}
+[data-phone-page] .phone-model-credit summary{display:list-item;padding:0;min-height:28px;font-size:13px;font-weight:500;color:var(--muted);cursor:pointer}
+[data-phone-page] .phone-model-credit p{margin:10px 0 0!important;padding:0!important;font-size:13px!important;line-height:1.75!important;overflow-wrap:anywhere}
+[data-phone-page] .phone-single-view{grid-template-columns:minmax(0,1fr);max-width:650px;margin:0 auto 36px}
+[data-phone-page] .phone-share-row{padding:20px 0 0;margin-top:0;border-top:1px solid var(--line);justify-content:space-between}
+[data-phone-page] .phone-share-row p:empty{display:none}
+[data-phone-page] .phone-spec-view{padding:0;border:0;border-radius:0;background:transparent}
+[data-phone-page] .phone-spec-view table{min-width:0;table-layout:fixed}
+[data-phone-page] .phone-spec-view caption{font-size:22px;margin:0 0 18px}
+[data-phone-page] .phone-dimensions-table th,[data-phone-page] .phone-dimensions-table td{font-size:16px;line-height:1.65;padding:15px 16px;overflow-wrap:anywhere}
+[data-phone-page] .phone-dimensions-table th:first-child{width:28%}
+[data-phone-page] .phone-dimensions-table tbody th{color:var(--ink)}
+[data-phone-page] .phone-size-toolbar h2,[data-phone-page] .phone-measurements h2{font-size:22px;letter-spacing:-.02em}
+[data-phone-page] .phone-size-form .phone-scale{overflow:hidden;border-radius:12px;min-height:390px;background:var(--surface)}
+[data-phone-page] .phone-scale-note{font-size:13px;margin:14px 0 24px}
+[data-phone-page] .phone-difference{padding:16px 0;border:0;border-radius:0;background:transparent;color:var(--ink)}
+[data-phone-page] .phone-related-guides{margin:48px 0 24px;border-top:1px solid var(--line);padding-top:28px}
+.phone-related-guides h2{font-size:22px;margin:0 0 20px}
+.phone-related-guides>div{display:flex;flex-wrap:wrap;gap:18px 32px}
+.phone-related-guides a{font-size:16px;color:var(--accent-ink);text-decoration:underline;text-underline-offset:4px;line-height:1.65}
+[data-phone-page] .device-card{border-radius:13px}
+[data-phone-page] .device-card>a{padding:24px 24px 18px}
+[data-phone-page] .device-card img{display:block;max-width:100%;object-fit:contain;transition:transform .35s cubic-bezier(.2,.7,.2,1)}
+[data-phone-page] .device-card .phone-card-outline{display:block;width:100%;height:180px;color:var(--accent-ink);margin-bottom:22px}
+[data-phone-page] .device-card:hover img{transform:translateY(-4px)}
+[data-phone-page] .device-card h3{line-height:1.4;margin:0;font-size:21px}
+[data-phone-page] .device-card .device-card-actions{padding:0 24px 24px;align-items:center;gap:16px}
+.phone-card-3d{display:inline-flex;align-items:center;gap:7px;color:var(--accent-ink);font-size:15px;min-height:44px;line-height:1.5}
+.phone-card-3d svg{width:19px;height:19px}
+[data-phone-page] .device-filter label:first-child{display:grid;gap:9px;flex:1}
+[data-phone-page] .device-filter input[type=search]{width:100%;border-radius:8px}
+[data-phone-page] .device-filter{padding:22px;align-items:center}
+[data-phone-page] .device-hero{padding:24px 0 36px}
+[data-phone-page] .device-entry a{padding:24px;border-radius:12px}
+[data-phone-page] .device-entry h2{line-height:1.4;margin:0;font-size:21px}
+[data-phone-page] .device-entry p{line-height:1.65;font-size:15px}
+[data-phone-page] .phone-buying-notes,[data-phone-page] .phone-source-notes{border-top:1px solid var(--line);padding:18px 0;margin:20px 0}
+[data-phone-page] .phone-buying-notes summary,[data-phone-page] .phone-source-notes summary{font-size:17px;font-weight:600;cursor:pointer;line-height:1.5}
+[data-phone-page] .phone-source-notes section{padding:0;margin:0}
+[data-phone-page] .phone-source-notes h2{font-size:20px;margin-top:22px}
+[data-phone-page] .phone-specification-region{font-size:14px!important;color:var(--muted);line-height:1.6!important}
+[data-phone-page] .phone-comparison-error{padding:18px;border:1px solid var(--line);border-radius:8px;margin:20px 0;color:var(--ink)}
+[data-phone-page] :is(.phone-section-nav a,.phone-card-3d,.phone-related-guides a,.phone-buying-notes summary,.phone-source-notes summary):focus-visible{outline:3px solid var(--accent-ink);outline-offset:4px}
+[data-phone-page] :is([data-phone-design],[data-phone-size-view],[data-phone-spec-view]):not([hidden]){animation:phone-view-enter .35s cubic-bezier(.2,.75,.2,1)}
+@keyframes phone-view-enter{from{opacity:.55;transform:translateY(7px)}to{opacity:1;transform:none}}
+@media(max-width:740px){[data-phone-page] .phone-section-nav{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:5px;padding:6px;margin:20px 0 24px}[data-phone-page] .phone-section-nav .phone-home-link{grid-column:1/-1;justify-content:flex-start;margin:0;padding-left:12px}[data-phone-page] .phone-section-nav a{padding:10px 7px;gap:6px;font-size:13px}.phone-section-nav svg{width:18px;height:18px}[data-phone-page] .phone-picker-row{padding:18px!important;gap:16px!important}[data-phone-page] .phone-mode-row{margin:22px 0}[data-phone-page] .phone-mode-switch{display:flex;width:100%;flex-wrap:nowrap;gap:4px}[data-phone-page] .phone-mode-switch button{padding:11px 9px;gap:6px;flex:1;min-width:0;font-size:14px}[data-phone-page] .phone-mode-switch button svg{width:18px;height:18px}[data-phone-page] .phone-comparison-item{padding:20px!important}[data-phone-page] .phone-comparison-item [data-phone-preview]>figure,[data-phone-page] .phone-stage{height:310px!important;max-height:310px}[data-phone-page] .phone-dimensions-table th,[data-phone-page] .phone-dimensions-table td{padding:14px 9px;font-size:14px}[data-phone-page] .phone-comparison-views{gap:20px}[data-phone-page] .article-header{padding:6px 0 22px;margin-bottom:24px}[data-phone-page] .phone-size-form .phone-scale{min-height:350px}[data-phone-page] .phone-share-row{justify-content:flex-start}[data-phone-page] .device-filter{padding:18px;gap:18px}[data-phone-page] .device-filter label:first-child{flex-basis:100%}.phone-related-guides>div{display:grid;gap:18px}[data-phone-page] .device-card .device-card-actions{gap:18px}}
+@media(prefers-reduced-motion:reduce){[data-phone-page] :is(.phone-section-nav a,.phone-mode-switch button,.phone-comparison-item,.device-card img){transition:none!important}[data-phone-page] .device-card:hover img{transform:none}[data-phone-page] :is([data-phone-design],[data-phone-size-view],[data-phone-spec-view]):not([hidden]){animation:none!important}}

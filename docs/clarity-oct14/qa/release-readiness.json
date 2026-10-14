@@ -1,0 +1,60 @@
+{
+  "checkedAt": "2026-10-14T18:26:21.896Z",
+  "codeComplete": true,
+  "deployed": false,
+  "prebuilts": {
+    "CA": 43,
+    "US": 41,
+    "total": 84
+  },
+  "laptops": {
+    "CA": 21,
+    "US": 21,
+    "total": 42
+  },
+  "guides": {
+    "visible": 44,
+    "new": 4,
+    "primarySources": 11
+  },
+  "games": {
+    "catalog": 107,
+    "newMeasuredPCBenchmarks": 0
+  },
+  "tests": {
+    "suiteCommands": 47,
+    "passed": 47,
+    "latestChanges": [
+      "prebuilt-only screen-reader-label width fix",
+      "short display names with stable exact model/SKU identities"
+    ],
+    "retested": [
+      "13 catalog checks",
+      "30 actual-controller continuation checks",
+      "full SEO/link/template checks",
+      "seven payload budgets",
+      "ESLint"
+    ],
+    "browserLayouts": 20,
+    "overflowFailures": 0
+  },
+  "prices": {
+    "targets": 6,
+    "merchants": [
+      "Canada Computers",
+      "Newegg"
+    ],
+    "cacheMinutes": 15,
+    "dailyExpiryHours": 24,
+    "schedule": "7 a.m. America/Toronto; UTC cron guards daylight saving",
+    "coverage": "Included exact listings only; no all-store cheapest claim",
+    "USCondition": "unknown; excluded from verified-new purchase subtotal",
+    "otherRetailers": "unconnected; source/feed access still required"
+  },
+  "limits": [
+    "Traffic/rankings and field Core Web Vitals were not measured.",
+    "New guides are source-checked organization-authored; no personal hardware testing or named human review is claimed.",
+    "External image availability can change; missing images keep a direct product-listing recovery.",
+    "No new measured PC FPS dataset or certified 3D clearance geometry is claimed."
+  ]
+}

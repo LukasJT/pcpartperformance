@@ -1,0 +1,90 @@
+{
+  "laptopGPU": {
+    "publisher": "NVIDIA",
+    "title": "GeForce RTX 50 Series laptop specifications",
+    "url": "https://www.nvidia.com/en-us/geforce/laptops/50-series/",
+    "checked": "2026-10-14",
+    "scope": "Separate Laptop GPU product names, memory configurations and manufacturer GPU subsystem-power ranges.",
+    "limitations": "Not a measured laptop benchmark. The current page includes multiple RTX 5070 Laptop memory configurations; verify the exact system."
+  },
+  "desktopGPU": {
+    "publisher": "NVIDIA",
+    "title": "GeForce RTX 5070 desktop specifications",
+    "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family/",
+    "checked": "2026-10-14",
+    "scope": "Desktop RTX 5070 standard memory configuration, separate from the Laptop GPU family.",
+    "limitations": "Base design specifications do not certify every partner card or infer a performance gap."
+  },
+  "g16": {
+    "publisher": "ASUS ROG",
+    "title": "ROG Strix G16 (2025) G615 US specifications",
+    "url": "https://rog.asus.com/us/laptops/rog-strix/rog-strix-g16-2025/spec/",
+    "checked": "2026-10-14",
+    "scope": "Explicit G615JPR-AS96 configuration column; RTX 5070 Laptop 8 GB and 100 W plus 15 W Dynamic Boost.",
+    "limitations": "A family page contains many columns. This example must not be copied to a different suffix, region, year or GPU."
+  },
+  "zephyrusUpgrade": {
+    "publisher": "ASUS ROG",
+    "title": "Zephyrus G14/G16 RAM and SSD upgrade guide",
+    "url": "https://rog.asus.com/ca-en/articles/guides/how-to-upgrade-the-ram-and-ssd-of-your-rog-zephyrus-g14-laptop/",
+    "checked": "2026-10-14",
+    "scope": "Model-year-dependent onboard RAM and SSD replacement; 2024-and-newer CNC-chassis models discussed have soldered RAM.",
+    "limitations": "Not a universal laptop disassembly method. Exact service documentation governs battery connectors, screws, SSD thickness and supported capacity."
+  },
+  "serviceManuals": {
+    "publisher": "ASUS",
+    "title": "ASUS Service Manuals",
+    "url": "https://www.asus.com/us/support/article/1294/",
+    "checked": "2026-10-14",
+    "scope": "Official model-specific customer self-repair documentation and available service-manual links.",
+    "limitations": "A linked manual is not evidence that every model is repairable or that a particular upgrade is supported."
+  },
+  "advancedOptimus": {
+    "publisher": "NVIDIA",
+    "title": "Advanced Optimus explanation",
+    "url": "https://www.nvidia.com/en-us/geforce/news/rtx-laptops-advanced-optimus/",
+    "checked": "2026-10-14",
+    "scope": "Hybrid internal-display routing and dynamic hardware display switching on supported laptop configurations.",
+    "limitations": "The 2022 marketing benchmark percentages are not applied to current laptops or presented as site-owned tests."
+  },
+  "rogMux": {
+    "publisher": "ASUS ROG",
+    "title": "ROG MUX Switch and Advanced Optimus guide",
+    "url": "https://rog.asus.com/us/articles/rog-gaming-laptops/maximize-your-rog-laptops-performance-with-a-mux-switch/",
+    "checked": "2026-10-14",
+    "scope": "Model-specific distinction between direct GPU mode, hybrid mode and automatic switching.",
+    "limitations": "Older interface examples are not guaranteed to match current software or unsupported models; no universal FPS gain is inferred."
+  },
+  "armoury": {
+    "publisher": "ASUS",
+    "title": "Armoury Crate introduction, version 6",
+    "url": "https://www.asus.com/support/faq/1043747/",
+    "checked": "2026-10-14",
+    "scope": "Current official control overview, supported devices and conditional GPU/power controls.",
+    "limitations": "Model and software support must be checked. No instruction to flash firmware, change voltage or override thermal limits."
+  },
+  "bg3Steam": {
+    "publisher": "Larian Studios / Steam",
+    "title": "Baldur’s Gate 3 publisher system requirements",
+    "url": "https://store.steampowered.com/app/1086940/Baldurs_Gate_3/",
+    "checked": "2026-10-14",
+    "scope": "Publisher-listed Windows/macOS requirements, SSD requirement and free storage.",
+    "limitations": "Requirement categories are not exact FPS targets; installed game/OS versions and publisher changes need rechecking."
+  },
+  "bg3Support": {
+    "publisher": "Larian Studios",
+    "title": "Baldur’s Gate 3 system requirements",
+    "url": "https://larian.com/support/faqs/system-requirements_47",
+    "checked": "2026-10-14",
+    "scope": "Windows recommended hardware, SSD storage, and qualified macOS minimum/recommended conditions.",
+    "limitations": "Do not flatten Windows and macOS into one comparison or interpret a CPU naming number as a supported equivalence."
+  },
+  "bg3Graphics": {
+    "publisher": "Larian Studios",
+    "title": "Baldur’s Gate 3 graphical issues",
+    "url": "https://larian.com/support/faqs/graphical-issues_83",
+    "checked": "2026-10-14",
+    "scope": "Applicable DirectX/Vulkan choice, lower settings, correct graphics adapter and official support escalation.",
+    "limitations": "Only reversible in-game checks are used here; older generic security-disabling, administrator and destructive-data suggestions are not reproduced."
+  }
+}

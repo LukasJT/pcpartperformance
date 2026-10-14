@@ -1,0 +1,16 @@
+const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const path = require('node:path');
+const { articles, sources, validate, fingerprint } = require('./oct14-editorial-content.cjs');
+const root = path.resolve(__dirname, '../dist');
+const results = [];
+const test = (name, fn) => { fn(); results.push(name); console.log('PASS ' + name); };
+test('four complete distinct guides pass content validation', () => { assert.equal(validate().valid, true); assert.equal(articles.length, 4); assert.equal(new Set(articles.map(a => a.intent)).size, 4); });
+test('all actionable internal routes exist or are part of the same batch', () => { const batch = new Set(articles.map(a => a.route)); for (const a of articles) for (const link of a.tools) assert.ok(batch.has(link.href) || fs.existsSync(path.join(root, link.href, 'index.html')), a.id + ' ' + link.href); });
+test('new titles do not replace unrelated existing blog intents', () => { for (const a of articles) { assert.equal(a.existingIntent, null); const existing = path.join(root, a.route, 'index.html'); if (fs.existsSync(existing)) { const html = fs.readFileSync(existing, 'utf8'); assert.ok(html.includes(a.title) || html.includes(a.title.replaceAll('’', '&#39;'))); } } });
+test('all attached sources are HTTPS primary publishers checked on the real research date', () => { const hosts = new Set(['www.nvidia.com', 'rog.asus.com', 'www.asus.com', 'store.steampowered.com', 'larian.com']); for (const source of Object.values(sources)) { const url = new URL(source.url); assert.equal(url.protocol, 'https:'); assert.ok(hosts.has(url.hostname)); assert.equal(source.checked, '2026-10-14'); assert.ok(source.scope && source.limitations); } });
+test('authorship does not invent personal review, tests or publication', () => { for (const a of articles) { assert.equal(a.proposedAuthor.name, 'PC Part Performance'); assert.equal(a.humanReview, null); assert.equal(a.humanReviewClaimed, false); assert.equal(a.published, false); assert.equal(a.datePublished, null); assert.equal(a.ownerPublicationAuthorization, null); } });
+test('source changes invalidate the exact content hash', () => { const a = articles[0], before = fingerprint(a), key = a.sourceIds[0], url = sources[key].url; sources[key].url = url + '?changed=1'; assert.notEqual(fingerprint(a), before); sources[key].url = url; assert.equal(fingerprint(a), before); });
+test('GPU article retains exact variant and base-plus-boost conditions', () => { const s = JSON.stringify(articles[0]); assert.ok(s.includes('G615JPR-AS96')); assert.ok(s.includes('100 W plus 15 W')); assert.ok(s.includes('does not tell you the FPS gap')); });
+test('game article separates requirements from FPS and rejects broad security disabling', () => { const s = JSON.stringify(articles[3]); assert.ok(s.includes('SSD required')); assert.ok(s.includes('requirements into a made-up average')); assert.ok(s.includes('Stop short of broad security-disabling advice')); });
+console.log(JSON.stringify({ passed: results.length, articles: articles.length, sources: Object.keys(sources).length }));

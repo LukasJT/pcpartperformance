@@ -4,7 +4,7 @@
 // This module does not supply new offers, benchmark data or compatibility rules.
 const fs = require('node:fs');
 const path = require('node:path');
-const systems = require('./prebuilt-data.cjs');
+const systems = require('./oct14-prebuilt-data.cjs');
 
 const slotNames = { cpu: 'Processor', board: 'Motherboard', gpu: 'Graphics card', ram: 'Memory', ssd: 'SSD', hdd: 'Hard drive', psu: 'Power supply', case: 'Case' };
 const prebuiltChecks = [
@@ -22,7 +22,7 @@ function upgradePanel(esc) {
 }
 
 function prebuiltPanel(esc, selected) {
-  const payload = { schema: 1, systems: selected ? systems.filter(p => p.id === selected) : systems };
+  const payload = { schema: 1, systems: (selected ? systems.filter(p => p.id === selected) : systems).map(p=>Object.fromEntries(["id","name","model","sku","region","currency","merchant","url","checkedAt","cpu","gpu","ram","storage","board","psu","ramLayout","cooling","warranty","returns","seller"].map(key=>[key,p[key]??null]))) };
   const picker = selected ? `<p class="md-system-fixed">Checklist for this exact retailer configuration.</p>` : `<label class="md-system-picker">Choose the exact system<select data-master-system><option value="">Choose a configuration</option>${['CA', 'US'].map(region => `<optgroup label="${region === 'CA' ? 'Canada · CAD' : 'United States · USD'}">${systems.filter(p => p.region === region).map(p => `<option value="${esc(p.id)}">${esc(p.name)} · ${esc(p.model || p.sku)}</option>`).join('')}</optgroup>`).join('')}</select></label>`;
   return `<section class="md-panel" data-master-prebuilt${selected ? ` data-master-system-id="${esc(selected)}"` : ''} aria-labelledby="md-prebuilt-title"><div class="md-section-heading"><div><h2 id="md-prebuilt-title">Check the system, then compare the full cost</h2><p>A CPU and GPU name do not describe every part or the service you are buying.</p></div><a href="/upgrade/">Review parts you can reuse</a></div>${picker}<div data-master-system-evidence aria-live="polite">${selected ? 'The researched configuration is listed above. Use the questions below alongside the exact retailer listing.' : 'Choose a configuration to see its disclosed parts and the questions that remain.'}</div><fieldset class="md-checklist"><legend>Your before-ordering checklist</legend>${prebuiltChecks.map(([id, title, detail]) => `<label><input type="checkbox" data-master-prebuilt-check="${id}"><span><strong>${esc(title)}</strong><span>${esc(detail)}</span></span></label>`).join('')}</fieldset><p role="status" data-master-check-status>No checks marked. This records your confirmations, not an automated certification.</p><div class="md-actions"><a class="button primary" href="/prebuilts/#build-vs-buy" data-master-use-system>Use this system in Build vs Buy</a><a class="button secondary" href="/tools/budget-build-lab/" data-master-prebuilt-cost>Price a complete DIY alternative</a></div><p role="status" data-master-prebuilt-status></p><p class="md-note">Checklist progress stays in this open page. You can print it. Specifications are researched listing summaries, not a new stock check or independent system test.</p><script type="application/json" data-master-system-data>${JSON.stringify(payload).replace(/</g, '\\u003c')}</script></section>`;
 }
