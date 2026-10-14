@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-10-14T18:26:21.896Z",
+  "checkedAt": "2026-10-14T19:45:26.278Z",
   "codeComplete": true,
-  "deployed": false,
+  "deployed": true,
   "prebuilts": {
     "CA": 43,
     "US": 41,
@@ -22,21 +22,18 @@
     "newMeasuredPCBenchmarks": 0
   },
   "tests": {
-    "suiteCommands": 47,
-    "passed": 47,
+    "suiteCommands": 49,
+    "passed": 49,
     "latestChanges": [
-      "prebuilt-only screen-reader-label width fix",
-      "short display names with stable exact model/SKU identities"
+      "daily Git collector and source expiry",
+      "visible subtotal in builder review",
+      "mobile and desktop live display"
     ],
     "retested": [
-      "13 catalog checks",
-      "30 actual-controller continuation checks",
-      "full SEO/link/template checks",
-      "seven payload budgets",
-      "ESLint"
-    ],
-    "browserLayouts": 20,
-    "overflowFailures": 0
+      "full 49-command release suite",
+      "ESLint for modified controllers",
+      "live principal routes and retained resources"
+    ]
   },
   "prices": {
     "targets": 6,
@@ -56,5 +53,29 @@
     "New guides are source-checked organization-authored; no personal hardware testing or named human review is claimed.",
     "External image availability can change; missing images keep a direct product-listing recovery.",
     "No new measured PC FPS dataset or certified 3D clearance geometry is claimed."
+  ],
+  "commit": "d0fc4a79128e390035eada4cc3163049c5bee0e4",
+  "automation": {
+    "workflowUrl": "https://github.com/LukasJT/pcpartperformance/actions/runs/38623037282",
+    "initialObservedRun": "push",
+    "initialRunConclusion": "success",
+    "scheduledLocalTime": "07:17",
+    "timezone": "America/Toronto",
+    "futureScheduleExecutionObserved": false
+  },
+  "publicPrices": {
+    "sourceMode": "daily-published-public-snapshot",
+    "targets": 6,
+    "currentCanadianObservations": 4,
+    "purchaseEligibleCanadianPrices": 2,
+    "currentUSObservations": 0,
+    "maximumObservationAgeHours": 24,
+    "scope": "Included exact listings only; not all-store cheapest coverage"
+  },
+  "limitations": [
+    "Other retailers remain unconnected",
+    "Current US source unavailable",
+    "No new exact Sketchfab assets or certified clearance geometry claimed",
+    "No measured traffic, rankings or field Core Web Vitals"
   ]
 }
