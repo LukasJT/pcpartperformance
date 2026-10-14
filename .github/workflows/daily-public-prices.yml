@@ -1,0 +1,60 @@
+name: Daily supported retailer prices
+
+on:
+  schedule:
+    - cron: '17 7 * * *'
+      timezone: America/Toronto
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [.github/workflows/daily-public-prices.yml]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-public-prices
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      PRODUCTION_BRANCH: codex/stage2-publication-2026-10-04
+    steps:
+      - name: Check out the existing production branch
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: codex/stage2-publication-2026-10-04
+          fetch-depth: 1
+      - name: Set up Node
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '24'
+      - name: Validate the parsers and snapshot rules
+        run: |
+          node scripts/oct14-price-sources.test.mjs
+          node scripts/oct14-price-sources-newegg.test.mjs
+          node scripts/public-price-snapshot.test.mjs
+      - name: Collect the fixed public listings
+        id: collect
+        continue-on-error: true
+        run: node scripts/public-price-daily.mjs
+      - name: Publish dated observations through the existing Git deployment
+        run: |
+          if git diff --quiet -- data/public-price-snapshot.json && test -f data/public-price-snapshot.json; then
+            echo 'No observation changes to publish.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- data/public-price-snapshot.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Refresh dated public retailer observations'
+          git push origin "HEAD:refs/heads/$PRODUCTION_BRANCH"
+      - name: Flag unavailable source access
+        if: steps.collect.outcome == 'failure'
+        run: |
+          echo 'No listing could be refreshed. Expired observations were removed; no price was invented.'
+          exit 1
