@@ -33,7 +33,7 @@ export function parseNeweggOriginalState(html, target = NEWEGG_PUBLIC_TARGET, no
     eligibleForNewPurchaseMinimum: condition === 'new' && inStock === true,
     source: { kind: 'public-retailer-original-state', publisher: 'Newegg', url: target.listingUrl }, scope: condition === 'new' ? 'Exact first-party listing observation.' : 'Exact first-party price observation; new-item condition needs verification before a verified-new subtotal.' };
 }
-export async function fetchNeweggPublicTarget(target = NEWEGG_PUBLIC_TARGET, { fetchImpl = fetch, now = Date.now() } = {}) {
+export async function fetchNeweggPublicTarget(target = NEWEGG_PUBLIC_TARGET, { fetchImpl = (input, init) => globalThis.fetch(input, init), now = Date.now() } = {}) {
   validTarget(target);
   const controller = new AbortController(), timeout = setTimeout(() => controller.abort(), PUBLIC_PRICE_POLICY.timeoutMs);
   try {
@@ -45,5 +45,5 @@ export async function fetchNeweggPublicTarget(target = NEWEGG_PUBLIC_TARGET, { f
     try { while (true) { const { done, value } = await reader.read(); if (done) break; length += value.byteLength; if (length > PUBLIC_PRICE_POLICY.maxBytes) { await reader.cancel(); error('response_oversize'); } chunks.push(value); } } finally { reader.releaseLock(); }
     const bytes = new Uint8Array(length); let offset = 0; for (const chunk of chunks) { bytes.set(chunk, offset); offset += chunk.length; }
     return parseNeweggOriginalState(new TextDecoder().decode(bytes), target, now);
-  } catch (failure) { if (failure.code) throw failure; error(controller.signal.aborted ? 'source_timeout' : 'source_network_error'); } finally { clearTimeout(timeout); }
+  } catch (failure) { if (failure.code) throw failure; error(controller.signal.aborted ? 'source_timeout' : /illegal invocation|invalid.*this|binding/i.test(String(failure.message)) ? 'source_runtime_binding_error' : /redirect/i.test(String(failure.message)) ? 'source_redirect_rejected' : /different request|I\/O/i.test(String(failure.message)) ? 'source_request_context_error' : 'source_network_error'); } finally { clearTimeout(timeout); }
 }

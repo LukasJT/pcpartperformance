@@ -14,7 +14,7 @@ const collector={async collect(ids,{region}){
  return {offers,results};
 }};
 const json=(body,status=200,cache='no-store')=>new Response(JSON.stringify(body),{status,headers:{'Content-Type':'application/json; charset=utf-8','Cache-Control':cache,'X-Robots-Tag':'noindex, follow','X-Content-Type-Options':'nosniff'}});
-const key=(region,id)=>new Request('https://www.pcpartperformance.com/__price_cache/v1/'+region+'/'+id);
+const key=(region,id)=>new Request('https://www.pcpartperformance.com/__price_cache/v2/'+region+'/'+id);
 const current=(offer,now)=>offer&&Number.isFinite(Date.parse(offer.checkedAt))&&Date.parse(offer.checkedAt)<=now&&now<Date.parse(offer.expiresAt);
 export function createPublicPriceService({reader=collector,cache=null,clock=Date.now}={}){
  async function read(ids,region){

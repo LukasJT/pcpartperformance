@@ -69,7 +69,7 @@ async function boundedText(response) {
   const bytes = new Uint8Array(length); let offset = 0; for (const chunk of chunks) { bytes.set(chunk, offset); offset += chunk.length; }
   return new TextDecoder().decode(bytes);
 }
-export async function fetchPublicTarget(target, { fetchImpl = fetch, now = Date.now() } = {}) {
+export async function fetchPublicTarget(target, { fetchImpl = (input, init) => globalThis.fetch(input, init), now = Date.now() } = {}) {
   validatePublicTarget(target);
   const controller = new AbortController(), timer = setTimeout(() => controller.abort(), PUBLIC_PRICE_POLICY.timeoutMs);
   try {
@@ -77,9 +77,9 @@ export async function fetchPublicTarget(target, { fetchImpl = fetch, now = Date.
     if (!response.ok) fail([401, 403, 429].includes(response.status) ? 'source_access_restricted' : 'source_http_' + response.status);
     if (!(response.headers.get('Content-Type') || '').toLowerCase().includes('text/html')) fail('response_type_changed');
     return parseCanadaComputers(await boundedText(response), target, now);
-  } catch (error) { if (error instanceof SourceError) throw error; fail(controller.signal.aborted ? 'source_timeout' : 'source_network_error'); } finally { clearTimeout(timer); }
+  } catch (error) { if (error instanceof SourceError) throw error; fail(controller.signal.aborted ? 'source_timeout' : /illegal invocation|invalid.*this|binding/i.test(String(error.message)) ? 'source_runtime_binding_error' : /redirect/i.test(String(error.message)) ? 'source_redirect_rejected' : /different request|I\/O/i.test(String(error.message)) ? 'source_request_context_error' : 'source_network_error'); } finally { clearTimeout(timer); }
 }
-export function createPublicPriceCollector({ targets = PUBLIC_PRICE_TARGETS, fetchImpl = fetch, clock = Date.now } = {}) {
+export function createPublicPriceCollector({ targets = PUBLIC_PRICE_TARGETS, fetchImpl = (input, init) => globalThis.fetch(input, init), clock = Date.now } = {}) {
   if (!Array.isArray(targets) || targets.length > 100) fail('targets_invalid');
   const registry = new Map(); for (const target of targets) { validatePublicTarget(target); const key = target.region + ':' + target.productId; if (registry.has(key)) fail('duplicate_target'); registry.set(key, target); }
   const cache = new Map(), inFlight = new Map();

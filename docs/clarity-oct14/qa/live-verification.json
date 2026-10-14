@@ -1,0 +1,114 @@
+{
+  "observedAt": "2026-10-14T18:34:43.469Z",
+  "expectedCommit": "c8da9b1030e00a80cfba40fa15e49f2381e49bea",
+  "routes": [
+    {
+      "route": "/",
+      "status": 200
+    },
+    {
+      "route": "/builder/",
+      "status": 200
+    },
+    {
+      "route": "/phones/pixel-9/",
+      "status": 200
+    },
+    {
+      "route": "/phones/size-compare/",
+      "status": 200
+    },
+    {
+      "route": "/prebuilts/",
+      "status": 200
+    },
+    {
+      "route": "/laptops/",
+      "status": 200
+    },
+    {
+      "route": "/performance/",
+      "status": 200
+    },
+    {
+      "route": "/performance/games/",
+      "status": 200
+    },
+    {
+      "route": "/blog/",
+      "status": 200
+    },
+    {
+      "route": "/blog/can-my-pc-run-baldurs-gate-3/",
+      "status": 200
+    }
+  ],
+  "prices": {
+    "schema": 1,
+    "region": "CA",
+    "currency": "CAD",
+    "policy": "timestamped-retailer-observation",
+    "status": "no_current_observation",
+    "checkedAt": "2026-10-14T18:34:46.647Z",
+    "offers": [],
+    "lowestByProduct": {},
+    "results": [
+      {
+        "productId": "9800x3d",
+        "state": "unavailable",
+        "error": "source_network_error"
+      },
+      {
+        "productId": "ddr5",
+        "state": "unavailable",
+        "error": "source_network_error"
+      }
+    ],
+    "coverage": {
+      "targets": 5,
+      "merchants": [
+        "Canada Computers"
+      ],
+      "basis": "included-exact-listings-only"
+    },
+    "charges": {
+      "tax": "excluded",
+      "shipping": "excluded"
+    }
+  },
+  "release": {
+    "schema": 1,
+    "program": "2026-10-11-continuation",
+    "commit": "c8da9b1030e00a80cfba40fa15e49f2381e49bea",
+    "generatedAt": "2026-10-14T18:31:08.656Z",
+    "staging": false
+  },
+  "usPrices": {
+    "schema": 1,
+    "region": "US",
+    "currency": "USD",
+    "policy": "timestamped-retailer-observation",
+    "status": "no_current_observation",
+    "checkedAt": "2026-10-14T18:34:46.806Z",
+    "offers": [],
+    "lowestByProduct": {},
+    "results": [
+      {
+        "productId": "9800x3d",
+        "state": "unavailable",
+        "error": "source_network_error"
+      }
+    ],
+    "coverage": {
+      "targets": 1,
+      "merchants": [
+        "Newegg"
+      ],
+      "basis": "included-exact-listings-only"
+    },
+    "charges": {
+      "tax": "excluded",
+      "shipping": "excluded"
+    }
+  }
+}
