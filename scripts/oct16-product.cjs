@@ -26,7 +26,7 @@ module.exports=({root,records})=>{
  const indexPath=path.join(root,'data/search-index.json'),index=JSON.parse(fs.readFileSync(indexPath,'utf8'));
  for(const row of index){const part=records.find(p=>row.url==='/learn/'+p.id+'.html');if(part)row.aliases=[...new Set([...(row.aliases||[]),part.id,part.sku,part.mpn,...(part.aliases||[])].filter(x=>typeof x==='string'&&x.length<160))];}
  for(const item of [{id:'my_pc_workspace',url:'/my-pc/',title:'My PC workspace: saved builds, notes and upgrade plans',kind:'PC tool',aliases:['my computer','saved PC','build journal','watchlist','build history']},{id:'cooler_catalog',url:'/hardware/cpu-coolers/',title:'CPU coolers: air and liquid cooling specifications',kind:'Hardware category',aliases:['heatsink','AIO','radiator','cpu fan','cooling']}])if(!index.some(x=>x.url===item.url))index.push(item);
- fs.writeFileSync(indexPath,JSON.stringify(require('./growth-search-core.cjs').enrichIndex(index,records,require('./program-products.cjs').profiles))); 
+ fs.writeFileSync(indexPath,JSON.stringify(require('./growth-search-core.cjs').enrichIndex(index,records,require('./program-products.cjs').profiles)));
  modify('builder',h=>{
   const markup=require('./oct16-builder-journey.js').markup();let preferences='',toolbar='';
   h=replaceElement(h,/<header class="builder-workspace-head"[^>]*>/,'header',()=> '');h=h.replace('>Interactive layout</span>','>0 parts selected</span>');
