@@ -2,7 +2,7 @@
 
 ## Release state
 
-Implementation and local release validation complete. Production verification is the next gate and will be recorded separately after the established Git deployment. A compiled page is not proof of deployment.
+Implemented, tested and deployed to **https://www.pcpartperformance.com/** through the existing Cloudflare Git integration. Production serves commit `ecb2d0845c81e5d992e32af8d4365a15da4379cd`, independently checked through its release marker, 26 public HTTP/API checks and real rendered browser output. See [live receipt](LIVE-RECEIPT.md).
 
 ## Working changes
 
@@ -55,7 +55,7 @@ Original publication dates and canonical URLs survive the revisions. Source fing
 
 | Dimension | Assessment |
 |---|---|
-| Core decision workflow | Substantial connected implementation; browser and automated checks required for release |
+| Core decision workflow | Connected selection, report, local save/restore and upgrade handoff passed targeted automated and browser journeys |
 | Evidence and unknown handling | Narrow source-backed conclusions; unknown price/fit/performance never becomes a fabricated pass or zero |
 | Accessibility | Keyboard picker/search and readable statuses exercised; no claim of a complete independent WCAG certification |
 | Speed | Existing seven route payload ceilings retained; no eager 3D. Local lab observations are not field Core Web Vitals |
@@ -84,4 +84,22 @@ Four comparable warm-cache local browser samples: mobile LCP 1,528/1,988 ms, des
 
 Larger valid revision exports now round-trip beyond the former 64 KB limit, with a 4 MB UTF-8 cap and 25-revision bound.
 
-Production deployment remains pending the exact-commit HTTP/browser verification receipt.
+Production is verified at `ecb2d0845c81e5d992e32af8d4365a15da4379cd`. The existing production branch was fast-forwarded without losing daily price snapshots. Cloudflare's Workers build completed successfully. Public verification checked 26 conditions, including 14 feature routes, preferred-host redirects, sitemap discovery, missing-page status, tool-state exclusions, model coverage and exact-listing price responses. Three current CA offers were returned for the queried cohort; this is not all-retailer coverage.
+
+Live browser checks confirmed the empty Guided builder, starter with cooler and two fans, enabled renamed download control, partial price total, My PC landing page and mobile light-mode report. Evidence: `qa/live-*.png`, `qa/live-browser.json` and `qa/live-verification.json`. One browser-native ViewTransition cancellation was logged during viewport/theme testing; the navigation and controls continued to work. No field performance result or universal browser certification is inferred.
+
+### Quality assessment from receipts
+
+| Criterion | Result | Practical limit |
+|---|---|---|
+| Primary task and navigation clarity | Pass in exercised desktop/mobile routes | No claim of a statistically measured conversion improvement |
+| Builder, saved revision and upgrade continuity | Pass in targeted tests and complete local browser journey | SKU-wide ownership cannot separately mark identical units as owned/new; mixed cases remain conservative |
+| Price and compatibility integrity | Pass in automated fixtures and live supported cohort | Six pinned retailer targets, unknown prices and manual checks remain explicit |
+| Retention and privacy | Pass for local notes, quotes, revision restore, imports and share exclusion | No account synchronization, background alerts or notification service |
+| 3D reliability | Pass in tested existing scene, missing-model and recovery cases | 105 downloaded-model mappings; no new assets or fit certification |
+| Technical SEO | Pass in generated gates and live HTTP checks | Search indexing, ranking, News placement and traffic impact are unmeasured |
+| Accessibility | Partial: keyboard flows, contrast and responsive checks passed | Not a complete independent WCAG 2.2 AA audit |
+| Speed and security | Partial: existing payload budgets, local lab samples and targeted input/security checks passed | No new field CWV, complete penetration test or all-device performance claim |
+| Deployment | Pass: exact commit, Cloudflare success and actual live UI | Future retailer, source and browser changes still require maintenance |
+
+Next executable maintenance step: review the remaining catalog/source gaps in `PROGRAM-COVERAGE.md`; configure an authorized retailer feed if broader automatic prices are required. The runnable daily supported-price workflow remains in place. No outside integration or outreach was silently activated.

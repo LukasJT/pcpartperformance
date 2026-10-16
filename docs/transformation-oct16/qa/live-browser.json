@@ -1,0 +1,52 @@
+{
+  "checkedAt": "2026-10-16T23:46:33.787Z",
+  "origin": "https://www.pcpartperformance.com",
+  "commit": "ecb2d0845c81e5d992e32af8d4365a15da4379cd",
+  "scope": "Actual connected IAB rendered checks; local full save/restore/upgrade and 3D journeys are recorded separately.",
+  "checks": [
+    {
+      "route": "/",
+      "viewport": "1440x900",
+      "theme": "dark",
+      "result": "New hero, three primary actions, My PC navigation and readiness illustration visible"
+    },
+    {
+      "route": "/builder/",
+      "viewport": "1440x900",
+      "theme": "dark",
+      "result": "Empty Guided workflow; no errors presented before choosing parts; report download disabled"
+    },
+    {
+      "route": "/builder/",
+      "viewport": "1440x900",
+      "theme": "dark",
+      "result": "Actual Load starter build button selected eleven instances including cooler and two fans; download enabled; report explicitly partial with three checked prices",
+      "state": "Starter selected using the actual UI button"
+    },
+    {
+      "route": "/builder/#readiness-report",
+      "viewport": "390x844",
+      "theme": "light",
+      "result": "Renamed print/download controls and subtotal fit; scrollWidth380, innerWidth390"
+    },
+    {
+      "route": "/my-pc/",
+      "viewport": "390x844",
+      "theme": "light",
+      "result": "Workspace empty state, notebook, watchlist and changes visible; scrollWidth375, innerWidth390"
+    }
+  ],
+  "warnings": [
+    {
+      "source": "browser-native ViewTransition",
+      "observed": "InvalidStateError: Transition was aborted because of invalid state. ViewTransition opt-in disabled",
+      "context": "Viewport/theme/navigation testing; functionality continued. Not a 3D model-loading error."
+    }
+  ],
+  "cleanup": {
+    "viewportOverrideReset": true,
+    "originalProductionDarkThemeRestored": true,
+    "localStorageTestRecordsCreatedOnProduction": false,
+    "deliverableTab": "https://www.pcpartperformance.com/"
+  }
+}

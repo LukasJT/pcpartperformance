@@ -2,7 +2,7 @@
 
 Branch: `codex/product-transformation-2026-10-16`. Production is the existing Cloudflare Worker through the repository's Git deployment. Preserve previous publication, price-update and user-storage history.
 
-Status: implementation and local verification complete; production verification pending.
+Status: implemented, locally verified and deployed. Production commit `ecb2d0845c81e5d992e32af8d4365a15da4379cd` passed exact-commit public HTTP/API and rendered browser checks. See [release receipt](LIVE-RECEIPT.md).
 
 | ID | Dependency | Work and affected files | Evidence / check | Status |
 |---|---|---|---|---|
@@ -10,7 +10,7 @@ Status: implementation and local verification complete; production verification 
 | T16-01 | 00 | Preserve Oct15/16 daily-price updates before editing | Normal merge of `8dc9890`; no reset or forced push | Complete |
 | T16-02 | 00 | Exact cooler catalog and provenance; `oct16-cooling-*`, catalog/build generators | 12 models / 18 manufacturer sources; catalog tests | Complete; final checks passed |
 | T16-03 | 02 | Shared engine: calm empty state, pending checks, cooler socket/fit/kit scope | `compatibility-evidence.cjs`, `oct16-engine.test.cjs` | Complete; browser journeys passed |
-| T16-04 | 03 | Guided/expert view over existing picker, Passport, manual extras | `builder-program.js`, `oct16-builder-*`, `oct16-product.cjs` | Complete; integration checks passed |
+| T16-04 | 03 | Guided/expert view over existing picker, build report, manual extras | `builder-program.js`, `oct16-builder-*`, `oct16-product.cjs` | Complete; integration checks passed |
 | T16-05 | 03 | Preserve existing revision storage; My PC, journal, diffs, real observation changes | `oct16-workspace.*`; 24 behavioral tests | Complete; browser journeys passed |
 | T16-06 | 02–05 | Upgrade inventory: cooler/fan, multiple instances, import, builder continuity | `upgrade-program.js`, `master-decisions.*`, `program-site.cjs` | Complete |
 | T16-07 | 00 | PC-first homepage and navigation; secondary phone/FPS/prebuilt tools | `homepage.cjs`, `clarity-site.cjs`, `oct16-home.css` | Complete; responsive checks passed |
@@ -20,7 +20,7 @@ Status: implementation and local verification complete; production verification 
 | T16-11 | 02–09 | Metadata, canonicals, sitemap, HTML, crosslinks, draft controls | `seo-pass.cjs`, existing route manifest/SEO tests | Complete |
 | T16-12 | 04–11 | Desktop/mobile, light/dark, keyboard, storage and full journeys | `qa/`, test receipts | Complete |
 | T16-13 | 12 | Performance payloads, accessibility and regression checks | Existing budgets plus new targeted tests; no invented field metrics | Complete |
-| T16-14 | 13 | Review, commit, deploy through established Git workflow and verify | Live release marker, HTTP and browser receipt, rollback commit | Production verification pending |
+| T16-14 | 13 | Review, commit, deploy through established Git workflow and verify | Exact live commit, 26 HTTP/API checks, successful Cloudflare build, desktop/mobile screenshots and Git integrity | Complete; see `LIVE-RECEIPT.md` |
 
 ## Dependencies outside repository control
 

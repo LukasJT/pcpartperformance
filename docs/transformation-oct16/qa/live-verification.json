@@ -1,0 +1,198 @@
+{
+  "checkedAt": "2026-10-16T23:43:45.307Z",
+  "state": "verified_live",
+  "commit": "ecb2d0845c81e5d992e32af8d4365a15da4379cd",
+  "release": {
+    "schema": 1,
+    "program": "2026-10-11-continuation",
+    "commit": "ecb2d0845c81e5d992e32af8d4365a15da4379cd",
+    "generatedAt": "2026-10-16T23:41:30.109Z",
+    "staging": false
+  },
+  "checks": [
+    {
+      "name": "exact production commit",
+      "route": "/data/release.json",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "canonical feature HTML",
+      "route": "/",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "canonical feature HTML",
+      "route": "/builder/",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "canonical feature HTML",
+      "route": "/my-pc/",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "canonical feature HTML",
+      "route": "/upgrade/",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "canonical feature HTML",
+      "route": "/hardware/cpu-coolers/",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "canonical feature HTML",
+      "route": "/learn/cooler-noctua-nh-d15-g2.html",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "canonical feature HTML",
+      "route": "/blog/how-to-choose-a-cpu-cooler-that-fits/",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "canonical feature HTML",
+      "route": "/blog/build-vs-buy-pc-complete-cost/",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "canonical feature HTML",
+      "route": "/blog/will-a-graphics-card-fit-my-case/",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "canonical feature HTML",
+      "route": "/phones/",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "canonical feature HTML",
+      "route": "/performance/",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "canonical feature HTML",
+      "route": "/prebuilts/",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "canonical feature HTML",
+      "route": "/laptops/",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "canonical feature HTML",
+      "route": "/compare/",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "new canonical discovery",
+      "route": "/sitemap.xml",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "production crawling enabled",
+      "route": "/robots.txt",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=300"
+    },
+    {
+      "name": "real missing-page error",
+      "route": "/oct16-nonexistent-release-route/",
+      "status": 404,
+      "robots": "noindex, follow",
+      "cache": "no-store"
+    },
+    {
+      "name": "shared state remains excluded",
+      "route": "/builder/?build=9800x3d",
+      "status": 200,
+      "robots": "noindex, follow",
+      "cache": "no-store"
+    },
+    {
+      "name": "preferred host redirect",
+      "route": "/builder/",
+      "status": 301,
+      "robots": null,
+      "cache": null
+    },
+    {
+      "name": "honest current model coverage",
+      "route": "/model-library.json",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "scoped retailer source status",
+      "route": "/api/v1/public-prices/status",
+      "status": 200,
+      "robots": "noindex, follow",
+      "cache": "public, max-age=900"
+    },
+    {
+      "name": "current exact-listing API or explicit empty coverage",
+      "route": "/api/v1/public-prices/offers?region=CA&ids=9800x3d,990pro,ddr5",
+      "status": 200,
+      "robots": "noindex, follow",
+      "cache": "no-store"
+    },
+    {
+      "name": "current executable feature asset",
+      "route": "/oct16-builder-journey.js",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "current executable feature asset",
+      "route": "/builder-program.js",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "current executable feature asset",
+      "route": "/oct16-workspace.js",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=0, must-revalidate"
+    }
+  ],
+  "priceObservationCount": 3,
+  "scope": "Read-only public HTTP, HTML, API and source checks. Browser interaction and field metrics are separate."
+}
