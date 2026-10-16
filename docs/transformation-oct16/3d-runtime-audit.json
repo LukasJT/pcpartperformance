@@ -1,0 +1,57 @@
+{
+  "checkedAt": "2026-10-16",
+  "scope": "Runtime handling of the new CPU cooler slot and bounded failure recovery; no new 3D assets",
+  "findings": [
+    {
+      "status": "fixed",
+      "file": "dist/assembly-3d.js",
+      "problem": "The component inspector omitted CPU coolers, although the selection count included them.",
+      "change": "CPU coolers now have an accessible inspect button and a clear no-model message. The exact selection remains in the parts list."
+    },
+    {
+      "status": "fixed",
+      "file": "dist/build-scene.js",
+      "problem": "An unexpected model for a new category could reach an undefined layout and throw while constructing its position.",
+      "change": "The renderer reports unsupported categories as unplaced before downloading or cloning geometry. It does not invent cooler dimensions, placement or a substitute model."
+    },
+    {
+      "status": "fixed",
+      "file": "dist/assembly-3d.js; dist/build-scene.js",
+      "problem": "The controller looked up models by ID alone and did not separately enforce model category.",
+      "change": "Both controller and renderer enforce exact selected ID, category and local-library GLB path. Duplicate or malformed library responses cannot initialize the renderer."
+    },
+    {
+      "status": "fixed",
+      "file": "dist/assembly-3d.js",
+      "problem": "A fire-and-forget scene refresh could reject without recovery, or access a disposed scene after pagehide.",
+      "change": "Refresh failures show a retry path; delayed scene initialization and updates are ignored after disposal. Existing parts and compatibility checks remain available."
+    },
+    {
+      "status": "improved",
+      "file": "dist/assembly-3d.js",
+      "problem": "Opening a selection containing no renderable model still initialized the graphics engine.",
+      "change": "Explicit opening checks coverage first. With no renderable models, Three.js and GLB loading do not start. The unavailable state remains usable without WebGL."
+    }
+  ],
+  "preserved": [
+    "105 existing downloaded-model mappings and creator/license records",
+    "Existing local assets and geometry; no assets downloaded, relabeled or substituted",
+    "Touch, keyboard, camera presets, zoom, exploded view and quality controls",
+    "Lazy loading after explicit user action",
+    "Creator-credit links and distinct appearance descriptions",
+    "Builder selections, storage and compatibility remain independent of renderer failure"
+  ],
+  "verification": {
+    "commands": [
+      { "command": "node --test scripts/oct16-scene.test.cjs", "result": "16 behavior tests passed" },
+      { "command": "node scripts/check-model-framing.cjs", "result": "60 projected camera/part configurations passed" },
+      { "command": "node --check dist/assembly-3d.js", "result": "passed" },
+      { "command": "node --check dist/build-scene.js", "result": "passed" }
+    ],
+    "method": "VM controller tests with mocked network/module boundaries; renderer tests use real Three.js geometry, vectors and bounds with a mocked WebGL renderer and GLB loader.",
+    "browserVisualQA": "Not performed by this subtask. Parent release QA must inspect desktop/mobile real rendering.",
+    "hardwareFitCertification": false,
+    "newCoolerModels": 0,
+    "newCoolerGeometry": 0
+  }
+}

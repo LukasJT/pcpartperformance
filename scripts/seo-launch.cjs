@@ -1,6 +1,6 @@
 const fs=require('fs'),path=require('path');
 const {pages,sources}=require('./seo-launch-content.cjs');
-const categoryPaths={gpu:'graphics-cards',cpu:'processors',board:'motherboards',ram:'memory',ssd:'solid-state-drives',hdd:'hard-drives',psu:'power-supplies',case:'pc-cases',fan:'case-fans',monitor:'monitors',mouse:'mice',keyboard:'keyboards',microphone:'microphones',headset:'headsets',controller:'controllers',console:'consoles',phone:'phones',handheld:'handhelds'};
+const categoryPaths={gpu:'graphics-cards',cpu:'processors',board:'motherboards',ram:'memory',ssd:'solid-state-drives',hdd:'hard-drives',psu:'power-supplies',case:'pc-cases',fan:'case-fans',cooler:'cpu-coolers',monitor:'monitors',mouse:'mice',keyboard:'keyboards',microphone:'microphones',headset:'headsets',controller:'controllers',console:'consoles',phone:'phones',handheld:'handhelds'};
 module.exports=({root,records,images,groups,shell,write,esc})=>{
  const domain='https://www.pcpartperformance.com',date='2026-10-03',byId=new Map(records.map(p=>[p.id,p]));
  const update=(route,fn)=>{const file=path.join(root,route,'index.html');fs.writeFileSync(file,fn(fs.readFileSync(file,'utf8')))};

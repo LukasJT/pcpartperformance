@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "preparedAt": "2026-10-09",
-  "engineVersion": "2026-10-13.2",
+  "engineVersion": "2026-10-16.1",
   "sources": {
     "msiB650": {
       "publisher": "MSI",
@@ -2064,7 +2064,7 @@
       }
     }
   },
-  "selectedProductCounts": 1216,
+  "selectedProductCounts": 1228,
   "status": "implementation-prepared-not-deployed",
   "review": {
     "evidenceCheckedBy": "Codex source inspection",
@@ -2073,8 +2073,8 @@
   },
   "limitations": [
     "Registry covers a small exact-model cohort; inherited catalog fields remain unverified.",
-    "No exact BIOS/CPU minimum-version dataset, cooler selector or electrical/physical inspection is claimed.",
-    "Current checked offers lack a continuously refreshed authorized feed and default to unavailable.",
+    "Exact BIOS/CPU minimum-version coverage remains limited; cooler selection uses separately sourced fields and does not establish thermal or complete installed fit.",
+    "Checked offers and daily public observations are narrow exact-listing cohorts, with separate expiry rules; missing offers remain unknown.",
     "3D assets do not establish geometry or compatibility."
   ]
 }

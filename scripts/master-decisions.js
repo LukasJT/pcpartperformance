@@ -1,17 +1,20 @@
 (function (factory) {
-  const api = factory();
+  const api = factory(typeof module === 'object' && module.exports ? require('./compatibility-evidence.cjs') : globalThis.PCP_BUILD_RULES);
   if (typeof module === 'object' && module.exports) module.exports = api;
   else globalThis.PCP_MASTER_DECISIONS = api;
-})(function () {
+})(function (rules) {
   'use strict';
   const KEY = 'pcp-decision-handoff-v1', TTL = 2 * 60 * 60 * 1000;
-  const SLOTS = ['cpu', 'board', 'gpu', 'ram', 'ssd', 'hdd', 'psu', 'case'];
-  const NAMES = { cpu: 'Processor', board: 'Motherboard', gpu: 'Graphics card', ram: 'Memory', ssd: 'SSD', hdd: 'Hard drive', psu: 'Power supply', case: 'Case' };
+  const SLOTS = rules?.SLOTS || ['cpu', 'board', 'gpu', 'ram', 'ssd', 'hdd', 'psu', 'case', 'fan', 'cooler'];
+  const NAMES = { cpu: 'Processor', board: 'Motherboard', gpu: 'Graphics card', ram: 'Memory', ssd: 'SSD', hdd: 'Hard drive', psu: 'Power supply', case: 'Case', fan: 'Case fans', cooler: 'CPU cooler' };
   const QUOTE_ITEMS = ['cpu', 'board', 'ram', 'cooler', 'gpu', 'storage', 'psu', 'case', 'os', 'accessories', 'shipping', 'tax'];
   const PART_COSTS = ['cpu', 'board', 'ram', 'cooler', 'gpu', 'storage', 'psu', 'case', 'accessories'];
   const idOK = value => typeof value === 'string' && /^[a-zA-Z0-9_-]{1,120}$/.test(value);
   const text = (value, limit = 160) => typeof value === 'string' ? value.replace(/[\u0000-\u001f\u007f]/g, ' ').trim().slice(0, limit) : '';
   const regionOK = region => region === 'CA' || region === 'US';
+  const selectedIDs = row => Array.isArray(row?.ids) ? row.ids : row?.id ? [row.id] : [];
+  const originIDs = row => Array.isArray(row?.originIds) ? row.originIds : row?.originId ? [row.originId] : [];
+  const unchanged = row => selectedIDs(row).length > 0 && [...selectedIDs(row)].sort().join('|') === [...originIDs(row)].sort().join('|');
   function amount(value) {
     if (!['string', 'number'].includes(typeof value) || typeof value === 'string' && !value.trim()) return null;
     const n = Number(value);
@@ -22,16 +25,20 @@
     if (!raw || typeof raw !== 'object' || Array.isArray(raw) || raw.schema !== 1 || !regionOK(raw.region) || !Number.isFinite(raw.createdAt) || raw.createdAt > now + 60000 || now - raw.createdAt > TTL) return null;
     const context = { schema: 1, kind: raw.kind, createdAt: raw.createdAt, region: raw.region, currency: raw.region === 'US' ? 'USD' : 'CAD', budget: amount(raw.budget) };
     if (raw.kind === 'upgrade') {
-      if (!Array.isArray(raw.parts) || raw.parts.length !== SLOTS.length || new Set(raw.parts.map(p => p?.slot)).size !== SLOTS.length) return null;
+      if (!Array.isArray(raw.parts) || raw.parts.length < 8 || raw.parts.length > SLOTS.length || raw.parts.some(p => !p || !SLOTS.includes(p.slot)) || new Set(raw.parts.map(p => p.slot)).size !== raw.parts.length || SLOTS.slice(0, 8).some(slot => !raw.parts.some(p => p.slot === slot))) return null;
       context.parts = [];
       for (const slot of SLOTS) {
-        const p = raw.parts.find(row => row?.slot === slot);
-        if (!p || !['keep', 'replace', 'verify'].includes(p.decision) || p.id && !idOK(p.id) || p.originId && !idOK(p.originId)) return null;
-        context.parts.push({ slot, id: p.id || '', originId: p.originId || '', name: text(p.name), decision: p.id && p.id === p.originId ? p.decision : p.decision === 'keep' ? 'verify' : p.decision });
+        const p = raw.parts.find(row => row?.slot === slot) || { slot, id: '', originId: '', name: '', decision: 'verify' };
+        if (!['keep', 'replace', 'verify'].includes(p.decision) || p.id && !idOK(p.id) || p.originId && !idOK(p.originId) || p.ids !== undefined && (!Array.isArray(p.ids) || p.ids.length > 99 || p.ids.some(id => !idOK(id))) || p.originIds !== undefined && (!Array.isArray(p.originIds) || p.originIds.length > 99 || p.originIds.some(id => !idOK(id)))) return null;
+        const ids = selectedIDs(p), origins = originIDs(p);
+        if (p.id && ids[0] !== p.id || p.originId && origins[0] !== p.originId) return null;
+        context.parts.push({ slot, id: ids[0] || '', originId: origins[0] || '', ids: [...ids], originIds: [...origins], name: text(p.name), decision: unchanged(p) ? p.decision : p.decision === 'keep' ? 'verify' : p.decision });
       }
+      if (context.parts.reduce((sum, p) => sum + p.ids.length, 0) > 99 || context.parts.reduce((sum, p) => sum + p.originIds.length, 0) > 99) return null;
       context.goal = ['diagnose', 'gaming', 'capacity', 'creator'].includes(raw.goal) ? raw.goal : 'diagnose';
       context.symptom = ['none', 'low-fps', 'stutter', 'memory', 'storage', 'driver'].includes(raw.symptom) ? raw.symptom : 'none';
       context.scenario = ['custom', 'diagnose', 'single', 'platform'].includes(raw.scenario) ? raw.scenario : 'custom';
+      if (JSON.stringify(context).length > 12000) return null;
       return context;
     }
     if (raw.kind === 'prebuilt') { if (!idOK(raw.systemId)) return null; context.systemId = raw.systemId; return context; }
@@ -48,11 +55,11 @@
     // Combined storage and case/fans categories cannot be certified by one inventory entry.
     return Object.fromEntries(['cpu', 'board', 'gpu', 'ram', 'psu'].map(slot => {
       const p = parts.find(row => row.slot === slot);
-      return [slot, Boolean(p?.id && p.id === p.originId && p.decision === 'keep')];
+      return [slot, Boolean(unchanged(p) && p.decision === 'keep')];
     }));
   }
   function scenarioParts(parts, scenario, selectedSlot = 'cpu') {
-    return parts.map(p => ({ ...p, decision: !p.id ? 'verify' : p.id !== p.originId ? 'replace' : scenario === 'platform' && ['cpu', 'board', 'ram'].includes(p.slot) || scenario === 'single' && p.slot === selectedSlot ? 'replace' : 'keep' }));
+    return parts.map(p => ({ ...p, decision: !selectedIDs(p).length ? 'verify' : !unchanged(p) ? 'replace' : scenario === 'platform' && ['cpu', 'board', 'ram'].includes(p.slot) || scenario === 'single' && p.slot === selectedSlot ? 'replace' : 'keep' }));
   }
   function decisionAdvice({ goal, symptom, budget }, notes = '') {
     const advice = {
@@ -113,7 +120,7 @@
       list.append(el('li', context.region === 'CA' ? 'Canada · CAD' : 'United States · USD'));
       if (context.budget !== null) list.append(el('li', 'New spending limit: ' + money(context.budget, context.region)));
       if (context.kind === 'upgrade') {
-        for (const choice of ['keep', 'replace', 'verify']) list.append(el('li', context.parts.filter(p => p.decision === choice).length + ' parts: ' + choice));
+        for (const choice of ['keep', 'replace', 'verify']) list.append(el('li', context.parts.filter(p => p.decision === choice).length + ' component categories: ' + choice));
         target.append(list, el('p', 'Inventory and choices are carried through this browser tab. Private workload notes are not transferred.'));
         const parts = el('ul');
         for (const p of context.parts) parts.append(el('li', NAMES[p.slot] + ': ' + (p.name || 'unknown / not selected') + ' · ' + p.decision + (p.originId && p.id !== p.originId ? ' (new phase; original owned ID: ' + p.originId + ')' : '')));
@@ -124,7 +131,12 @@
     const upgrade = $('[data-master-upgrade]'), upgradeForm = $('[data-upgrade-form]');
     if (upgrade && upgradeForm) {
       let state = null, dirty = false;
-      const selected = slot => { const control = upgradeForm.elements[slot]; return { id: idOK(control?.value) ? control.value : '', name: text(control?.selectedOptions?.[0]?.textContent || '', 160) }; };
+      const selected = slot => {
+        const control = upgradeForm.elements[slot], snapshot = window.PCP_UPGRADE?.snapshot?.(), catalog = window.PCP_UPGRADE?.catalog?.() || [];
+        const ids = snapshot?.parts?.[slot] || (idOK(control?.value) ? [control.value] : []), origins = snapshot?.baseline?.[slot] || [...ids];
+        const names = ids.map(id => { const part = catalog.find(row => row.id === id); return part ? text(part.name.toLowerCase().startsWith(String(part.brand || '').toLowerCase() + ' ') ? part.name : [part.brand, part.name].filter(Boolean).join(' ')) : text(control?.selectedOptions?.[0]?.textContent || id); });
+        return { id: ids[0] || '', originId: origins[0] || '', ids: [...ids], originIds: [...origins], name: text(names.join(' + '), 160) };
+      };
       function renderParts() {
         const box = $('[data-master-part-decisions]'); box.replaceChildren();
         for (const p of state.parts) {
@@ -134,7 +146,7 @@
           for (const choice of ['keep', 'replace', 'verify']) {
             const label = el('label'), input = el('input', undefined, { type: 'radio', name: 'decision-' + p.slot, value: choice });
             input.checked = p.decision === choice;
-            input.disabled = choice === 'keep' && (!p.id || p.id !== p.originId);
+            input.disabled = choice === 'keep' && !unchanged(p);
             input.addEventListener('change', () => { p.decision = choice; state.scenario = 'custom'; renderScenario(); say('[data-master-upgrade-status]', 'Reuse choices updated. Compatibility must still be checked for the exact replacement.'); });
             label.append(input, el('span', choice === 'keep' ? 'Keep' : choice === 'replace' ? 'Replace' : 'Verify'));
             choices.append(label);
@@ -151,13 +163,15 @@
         if (advice.symptom) box.append(el('a', 'Start with safe symptom checks', { href: '/troubleshooting/?symptom=' + advice.symptom }));
       }
       const context = () => ({ ...state, createdAt: Date.now() });
-      upgradeForm.addEventListener('submit', () => {
+      function captureUpgrade() {
         // The existing controller runs first and owns catalog validation/readiness.
-        if (SLOTS.some(slot => upgradeForm.elements[slot]?.disabled) || !$('[data-upgrade-readiness]')) return;
-        state = { schema: 1, kind: 'upgrade', region: upgradeForm.elements.region.value === 'US' ? 'US' : 'CA', budget: amount(upgradeForm.elements.budget.value), goal: upgradeForm.elements.goal.value, symptom: upgradeForm.elements.symptom.value, scenario: 'custom', parts: SLOTS.map(slot => { const p = selected(slot); return { slot, ...p, originId: p.id, decision: 'verify' }; }) };
+        if (window.PCP_UPGRADE && !window.PCP_UPGRADE.snapshot()?.ready || SLOTS.some(slot => upgradeForm.elements[slot]?.disabled) || !$('[data-upgrade-readiness]')) { state = null; upgrade.hidden = true; return; }
+        state = { schema: 1, kind: 'upgrade', region: upgradeForm.elements.region.value === 'US' ? 'US' : 'CA', budget: amount(upgradeForm.elements.budget.value), goal: upgradeForm.elements.goal.value, symptom: upgradeForm.elements.symptom.value, scenario: 'custom', parts: SLOTS.map(slot => ({ slot, ...selected(slot), decision: 'verify' })) };
         dirty = false; upgrade.hidden = false; renderGoal(); renderParts(); renderScenario();
         say('[data-master-upgrade-status]', 'Choose reuse decisions, or use a starting scenario. Unknown parts cannot be marked owned.');
-      });
+      }
+      upgradeForm.addEventListener('submit', captureUpgrade);
+      doc.addEventListener('pcp:upgrade-plan', captureUpgrade);
       for (const type of ['input', 'change']) upgradeForm.addEventListener(type, () => { if (!state) return; dirty = true; upgrade.hidden = true; say('[data-upgrade-status]', 'Planning inputs changed. Create the reuse plan again before carrying choices into a worksheet.'); });
       $('[data-master-reuse]').addEventListener('submit', event => event.preventDefault());
       all('[data-master-scenario]').forEach(button => button.addEventListener('click', () => {
@@ -173,7 +187,8 @@
         const id = option.value, name = text(option.selectedOptions?.[0]?.textContent);
         Promise.resolve().then(() => {
           if (!state || dirty || !SLOTS.includes(slot) || !idOK(id) || ($('[data-upgrade-phases]')?.childElementCount || 0) <= before) return;
-          state.parts = state.parts.map(p => p.slot === slot ? { ...p, id, name, decision: 'replace' } : p);
+          const carried = selected(slot);
+          state.parts = state.parts.map(p => p.slot === slot ? { ...p, ...carried, name: carried.name || name, decision: 'replace' } : p);
           state.scenario = 'custom'; renderParts(); renderScenario();
           say('[data-master-upgrade-status]', 'Applied phase carried into the purchase scenario. The replacement is a new purchase, not an owned part.');
         });

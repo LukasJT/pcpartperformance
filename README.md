@@ -8,9 +8,17 @@ Run `node scripts/build-pages.cjs` with `PROGRAM_PREVIEW` unset to generate norm
 
 The production build lives in `dist`. The existing Cloudflare Workers Git integration deploys `codex/stage2-publication-2026-10-04` to pcpartperformance.com using `wrangler.jsonc`. The Worker handles canonical URLs, query indexing controls, assets and the optional price API. The `CNAME` file is historical and does not configure Cloudflare DNS.
 
-See [the current release report](docs/program-2026-10-11/FINAL-REPORT.md) and [deployment checklist](docs/program-2026-10-09/deployment-checklist.md). A successful push must be followed by public release-marker, route, API and browser verification. `node scripts/verify-live-release.cjs <40-character-commit>` runs bounded read-only HTTP smoke checks. `node scripts/release-preflight.cjs` checks production flags, changed JavaScript syntax, asset sizes and recognizable credential leakage.
+See [the October 16 product release report](docs/transformation-oct16/RELEASE-REPORT.md) and [deployment checklist](docs/program-2026-10-09/deployment-checklist.md). A successful push must be followed by public release-marker, route, API and browser verification. `node scripts/verify-live-release.cjs <40-character-commit>` runs bounded read-only HTTP smoke checks. `node scripts/release-preflight.cjs` checks production flags, changed JavaScript syntax, asset sizes and recognizable credential leakage.
 
 For local draft review, use `PROGRAM_PREVIEW=1` only on a private review build. Human article review and publication are separate from automated validation. New drafts remain withheld until truthful review and publication records exist.
+
+## October 16 product workflow
+
+The builder supports a shared Guided/Expert picker, twelve source-linked CPU coolers, a printable/downloadable build report and private manual purchase quotes. `/my-pc/` preserves the original revision collection and adds a local notebook, journal, revision comparison, watchlist and saved-PC upgrade handoff. Local data is not cloud-synchronized.
+
+The current generated catalog has 1,228 records, including 852 builder parts. 3D coverage is 105 downloaded-model mappings, 735 simplified previews and 12 parts with no asset; none is clearance-certified. Daily prices cover a small fixed supported retailer cohort, with exact identity and expiry checks. Unsupported PC FPS remains insufficient measured evidence.
+
+Run `node scripts/run-master-checks.cjs` after generation. Additional changed-source lint and the existing scoped TypeScript check use the bundled `tools/quality` runtime. See the release report for browser evidence and actual deployment status.
 
 ## Data and assets
 

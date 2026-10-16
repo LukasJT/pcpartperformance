@@ -1,0 +1,180 @@
+{
+  "checkedAt": "2026-10-16T21:16:04.257Z",
+  "origin": "https://www.pcpartperformance.com",
+  "scope": "HTTP/HTML observations, not field Core Web Vitals or a ranking audit",
+  "routes": [
+    {
+      "route": "/",
+      "status": 200,
+      "redirect": null,
+      "responseMs": 240,
+      "bytes": 26936,
+      "title": "Compare PC Parts, Check Compatibility &amp; Plan an Upgrade",
+      "canonical": "https://www.pcpartperformance.com/",
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+    },
+    {
+      "route": "/builder/",
+      "status": 200,
+      "redirect": null,
+      "responseMs": 177,
+      "bytes": 23104,
+      "title": "PC Builder &amp; 3D Preview: Parts, Fans and Compatibility",
+      "canonical": "https://www.pcpartperformance.com/builder/",
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+    },
+    {
+      "route": "/upgrade/",
+      "status": 200,
+      "redirect": null,
+      "responseMs": 180,
+      "bytes": 19925,
+      "title": "PC Upgrade and Reuse Planner · PC Part Performance",
+      "canonical": "https://www.pcpartperformance.com/upgrade/",
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+    },
+    {
+      "route": "/compare/",
+      "status": 200,
+      "redirect": null,
+      "responseMs": 71,
+      "bytes": 17495,
+      "title": "Compare PC Parts: GPUs, CPUs, RAM and SSDs",
+      "canonical": "https://www.pcpartperformance.com/compare/",
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+    },
+    {
+      "route": "/hardware/graphics-cards/",
+      "status": 200,
+      "redirect": null,
+      "responseMs": 83,
+      "bytes": 28714,
+      "title": "Graphics cards · PC Part Performance",
+      "canonical": "https://www.pcpartperformance.com/hardware/graphics-cards/",
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+    },
+    {
+      "route": "/learn/rtx5070.html",
+      "status": 200,
+      "redirect": null,
+      "responseMs": 65,
+      "bytes": 20885,
+      "title": "NVIDIA GeForce RTX 5070: Specs &amp; Compatibility · PC Part Performance",
+      "canonical": "https://www.pcpartperformance.com/learn/rtx5070.html",
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+    },
+    {
+      "route": "/performance/",
+      "status": 200,
+      "redirect": null,
+      "responseMs": 103,
+      "bytes": 17876,
+      "title": "Gaming Performance: Benchmark Evidence &amp; Console Modes",
+      "canonical": "https://www.pcpartperformance.com/performance/",
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+    },
+    {
+      "route": "/blog/",
+      "status": 200,
+      "redirect": null,
+      "responseMs": 96,
+      "bytes": 38296,
+      "title": "PC Hardware Blog: Build Guides, Memory &amp; AI Explained",
+      "canonical": "https://www.pcpartperformance.com/blog/",
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+    },
+    {
+      "route": "/phones/",
+      "status": 200,
+      "redirect": null,
+      "responseMs": 102,
+      "bytes": 55014,
+      "title": "Compare Phones: Size, Specifications &amp; 3D Views · PC Part Performance",
+      "canonical": "https://www.pcpartperformance.com/phones/",
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+    },
+    {
+      "route": "/prebuilts/",
+      "status": 200,
+      "redirect": null,
+      "responseMs": 63,
+      "bytes": 180901,
+      "title": "Prebuilt Gaming PCs in Canada &amp; the US: Compare Real Systems · PC Part Performance",
+      "canonical": "https://www.pcpartperformance.com/prebuilts/",
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+    },
+    {
+      "route": "/laptops/",
+      "status": 200,
+      "redirect": null,
+      "responseMs": 109,
+      "bytes": 77212,
+      "title": "Gaming Laptop Comparison: Exact Canada &amp; US Configurations · PC Part Performance",
+      "canonical": "https://www.pcpartperformance.com/laptops/",
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+    },
+    {
+      "route": "/robots.txt",
+      "status": 200,
+      "redirect": null,
+      "responseMs": 76,
+      "bytes": 78,
+      "title": null,
+      "canonical": null,
+      "robots": null,
+      "body": "User-agent: *\nAllow: /\nSitemap: https://www.pcpartperformance.com/sitemap.xml\n"
+    },
+    {
+      "route": "/sitemap.xml",
+      "status": 200,
+      "redirect": null,
+      "responseMs": 142,
+      "bytes": 89808,
+      "title": null,
+      "canonical": null,
+      "robots": null
+    },
+    {
+      "route": "/data/release.json",
+      "status": 200,
+      "redirect": null,
+      "responseMs": 226,
+      "bytes": 157,
+      "title": null,
+      "canonical": null,
+      "robots": null,
+      "release": {
+        "schema": 1,
+        "program": "2026-10-11-continuation",
+        "commit": "8dc9890f93b381223a46a88362da9475451d1616",
+        "generatedAt": "2026-10-16T15:24:05.258Z",
+        "staging": false
+      }
+    },
+    {
+      "route": "/this-route-does-not-exist-oct16/",
+      "status": 404,
+      "redirect": null,
+      "responseMs": 54,
+      "bytes": 11601,
+      "title": "Page not found · PC Part Performance",
+      "canonical": "https://www.pcpartperformance.com/404.html",
+      "robots": "noindex,follow"
+    },
+    {
+      "route": "https://pcpartperformance.com/",
+      "status": 301,
+      "redirect": "https://www.pcpartperformance.com/"
+    },
+    {
+      "route": "http://pcpartperformance.com/",
+      "status": 301,
+      "redirect": "https://www.pcpartperformance.com/"
+    },
+    {
+      "route": "https://www.pcpartperformance.com/builder",
+      "status": 301,
+      "redirect": "https://www.pcpartperformance.com/builder/"
+    }
+  ]
+}

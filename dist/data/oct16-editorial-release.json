@@ -1,0 +1,87 @@
+{
+  "schema": 1,
+  "preparedDate": "2026-10-16",
+  "author": "PC Part Performance",
+  "preview": false,
+  "origin": "direct_owner_instruction",
+  "statement": "Implement the current master request and prepare source-checked guides under the previously authorized PC Part Performance organization byline.",
+  "humanReviewClaimed": false,
+  "confirmedDeployment": false,
+  "articles": [
+    {
+      "id": "T16-C01",
+      "route": "/blog/how-to-choose-a-cpu-cooler-that-fits/",
+      "title": "How to choose a CPU cooler that fits your case and RAM",
+      "change": "new",
+      "words": 970,
+      "contentHash": "7a8bebd5c07e9f504e6a22b9e6631a9cda672e2ba909d5521d15d8693a877fd4",
+      "sourceIds": [
+        "amd-9800x3d-cooling",
+        "arctic-lf3-manual",
+        "noctua-g2-specs",
+        "noctua-ram",
+        "arctic-lf3-drawing",
+        "north-radiator",
+        "msi-cooler-guide"
+      ],
+      "preparedPublicationDate": "2026-10-16",
+      "preparedModificationDate": null,
+      "lifecycle": {
+        "draftComplete": true,
+        "evidenceChecked": true,
+        "humanEditorialReview": false,
+        "ownerPublicationInstruction": true,
+        "confirmedDeployment": false,
+        "state": "owner_authorized_release_prepared"
+      }
+    },
+    {
+      "id": "T16-C02",
+      "route": "/blog/build-vs-buy-pc-complete-cost/",
+      "title": "Build vs buy a gaming PC: compare the complete purchase cost",
+      "change": "material_revision",
+      "words": 1256,
+      "contentHash": "2aee32cb407a4264c20c8c8f974bc1ccf3d96857e02a6834ab7425b769e6c68a",
+      "sourceIds": [
+        "intelBuild",
+        "amd-9800x3d-cooling",
+        "windowsActivation"
+      ],
+      "preparedPublicationDate": "2026-10-11T22:03:10.405Z",
+      "preparedModificationDate": "2026-10-16",
+      "lifecycle": {
+        "draftComplete": true,
+        "evidenceChecked": true,
+        "humanEditorialReview": false,
+        "ownerPublicationInstruction": true,
+        "confirmedDeployment": false,
+        "state": "owner_authorized_release_prepared"
+      }
+    },
+    {
+      "id": "T16-C03",
+      "route": "/blog/will-a-graphics-card-fit-my-case/",
+      "title": "Will a graphics card fit your case? Check the card and cooling layout",
+      "change": "material_revision",
+      "words": 990,
+      "contentHash": "0a1162a5e933b3289f1dbda08884eca3acd8845811c257533bb6b8efbba86856",
+      "sourceIds": [
+        "msi-5070",
+        "asus-5070",
+        "north-sheet",
+        "arctic-lf3-drawing",
+        "north-radiator"
+      ],
+      "preparedPublicationDate": "2026-09-18",
+      "preparedModificationDate": "2026-10-16",
+      "lifecycle": {
+        "draftComplete": true,
+        "evidenceChecked": true,
+        "humanEditorialReview": false,
+        "ownerPublicationInstruction": true,
+        "confirmedDeployment": false,
+        "state": "owner_authorized_release_prepared"
+      }
+    }
+  ]
+}

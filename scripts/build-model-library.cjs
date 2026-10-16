@@ -2,7 +2,8 @@ const fs=require('fs'),vm=require('vm');
 const c={window:{},document:{querySelector(){}}};vm.createContext(c);
 for(const f of ['data','history-data','universe-data','component-data','core','retail-data'])vm.runInContext(fs.readFileSync('dist/'+f+'.js','utf8'),c);
 vm.runInContext('globalThis.records=catalog',c);
-const refs=require('./model-references.cjs'),{fallbackFor}=require('./model-fallbacks.cjs'),cats=['gpu','cpu','ram','board','case','ssd','hdd','psu','fan'];
+for(const cooler of require('./oct16-cooling-data.cjs').COOLERS)if(!c.records.some(p=>p.id===cooler.id))c.records.push(cooler);
+const refs=require('./model-references.cjs'),{fallbackFor}=require('./model-fallbacks.cjs'),cats=['gpu','cpu','ram','board','case','ssd','hdd','psu','fan','cooler'];
 const community=JSON.parse(fs.readFileSync('scripts/sketchfab-models.json','utf8'));
 const items=c.records.filter(p=>cats.includes(p.cat)).map(p=>{
  const r=p.physical?{...p.physical,model:p.physical.model,size:p.physical.size,identity:'exact-model',source:p.source,sku:p.sku,referenceName:p.name,dimensionStatus:p.physical.dimensionStatus||'Manufacturer outer dimensions; original simplified appearance and approximate mounting.'}:refs[p.id]||fallbackFor(p),family=/family timeline/i.test(p.note||'')||p.cat==='gpu';

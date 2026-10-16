@@ -60,19 +60,19 @@
     }
   },
   "/blog/will-a-graphics-card-fit-my-case/": {
-    "title": "Will this graphics card fit? Read the exact partner model and installed layout",
-    "description": "Use the full partner-card model and the case’s allowance for the layout you will actually install. Check length, thickness, height, connection clearance and nearby hardware separately. A matching GPU chip name or a plausible 3D scene cannot prove physical fit.",
+    "title": "Will a graphics card fit your case? Check the card and cooling layout",
+    "description": "Match the exact graphics-card model to the case as you will install it. Check length, thickness, cable room and radiator placement separately; a passed length check or realistic 3D preview cannot certify the whole fit.",
+    "image": {
+      "src": "/assets/editorial-oct16/T16-C03.png",
+      "width": 1200,
+      "height": 675,
+      "alt": "Original layout diagram showing a graphics card and front radiator as separate occupied spaces inside a conceptual case. Not verified product geometry."
+    },
     "noindex": false,
     "publicationAuthorized": true,
-    "editorialId": "G06",
+    "editorialId": "T16-C03",
     "datePublished": "2026-09-18",
-    "dateModified": "2026-10-13",
-    "image": {
-      "src": "/assets/editorial-master/G06.png",
-      "alt": "Decision diagram for Will this graphics card fit? Read the exact partner model and installed layout",
-      "width": 1200,
-      "height": 675
-    }
+    "dateModified": "2026-10-16"
   },
   "/compare/rx-9070-vs-rx-9070-xt/": {
     "title": "RX 9070 vs RX 9070 XT: specifications, power and the price decision",
@@ -325,5 +325,35 @@
     "publicationAuthorized": true,
     "editorialId": "O04",
     "datePublished": "2026-10-14"
+  },
+  "/blog/how-to-choose-a-cpu-cooler-that-fits/": {
+    "title": "How to choose a CPU cooler that fits your case and RAM",
+    "description": "Check the exact mounting kit, installed cooler height, RAM clearance and radiator position before buying. Socket support is one check; it does not prove the cooler fits the complete PC or can meet your workload.",
+    "image": {
+      "src": "/assets/editorial-oct16/T16-C01.png",
+      "width": 1200,
+      "height": 675,
+      "alt": "Original schematic: raising an overhanging cooler fan for taller RAM also increases the required case height. Not a scaled hardware model."
+    },
+    "noindex": false,
+    "publicationAuthorized": true,
+    "editorialId": "T16-C01",
+    "datePublished": "2026-10-16",
+    "dateModified": null
+  },
+  "/blog/build-vs-buy-pc-complete-cost/": {
+    "title": "Build vs buy a gaming PC: compare the complete purchase cost",
+    "description": "Compare the exact prebuilt with a complete DIY purchase plan. Include cooling, software, missing accessories and delivery; keep owned parts, checked offers and unknown prices separate.",
+    "image": {
+      "src": "/assets/editorial-oct16/T16-C02.png",
+      "width": 1200,
+      "height": 675,
+      "alt": "Original purchase worksheet diagram separating checked offers, manually entered quotes, owned or included items and prices still unknown. No retail prices are shown."
+    },
+    "noindex": false,
+    "publicationAuthorized": true,
+    "editorialId": "T16-C02",
+    "datePublished": "2026-10-11T22:03:10.405Z",
+    "dateModified": "2026-10-16"
   }
 }

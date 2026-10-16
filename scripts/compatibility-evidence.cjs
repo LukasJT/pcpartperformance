@@ -7,8 +7,9 @@
   else globalThis.PCP_BUILD_RULES = api;
 })(function () {
   'use strict';
-  const VERSION = '2026-10-13.2';
-  const SLOTS = ['cpu', 'board', 'gpu', 'ram', 'ssd', 'hdd', 'psu', 'case', 'fan'];
+  const VERSION = '2026-10-16.1';
+  // Append new slots: saved links use the original nine positions.
+  const SLOTS = ['cpu', 'board', 'gpu', 'ram', 'ssd', 'hdd', 'psu', 'case', 'fan', 'cooler'];
   const CHECKED = '2026-10-09';
   const SOURCES = {
     msiB650: { publisher: 'MSI', url: 'https://us.msi.com/Motherboard/MAG-B650-TOMAHAWK-WIFI/Specification', checked: CHECKED, model: 'MAG B650 TOMAHAWK WIFI', scope: 'Socket, memory, form factor and documented storage topology; exact BIOS support is separate.' },
@@ -108,6 +109,8 @@
     const cpu = p.cpu[0], board = p.board[0], chassis = p.case[0], psu = p.psu[0], checks = [];
     const missing = ['cpu', 'board', 'ram', 'psu', 'case'].filter(slot => !p[slot].length);
     if (!p.ssd.length && !p.hdd.length) missing.push('storage');
+    const selectedCount = Object.values(p).reduce((sum, values) => sum + values.length, 0);
+    if (!selectedCount) return { version: VERSION, status: 'not-started', missing, checks: [], counts: { passed: 0, failed: 0, 'needs-verification': 0, unperformed: 0, 'not-checked': 0 }, requirements, manual, summary: 'Choose your first component. Checks appear as you add the parts they need.' };
     const a = field(cpu, 'socket'), b = field(board, 'socket');
     checks.push(compareFields('cpu-socket', 'CPU socket', [a, b], (x, y) => x === y, cpu && board ? `${cpu.name}: ${a.value || 'unknown'}; ${board.name}: ${b.value || 'unknown'}. Socket matching does not establish BIOS support.` : 'Select a CPU and motherboard.', 'Open the exact motherboard CPU support list and record the required BIOS version.'));
     if (p.cpu.length > 1) checks.push(compareFields('cpu-count', 'Processor socket count', [field(board, 'cpuSockets')], count => p.cpu.length <= count, `${p.cpu.length} processors selected.`, 'Check documented multiprocessor support; consumer socket matching is insufficient.'));
@@ -143,11 +146,27 @@
     else if (drives.length || p.gpu.length) checks.push(check('lane-sharing', 'Motherboard lane sharing', 'needs-verification', 'Exact slot occupancy and CPU-dependent sharing rules have not been checked.', [field(board, 'm2')], 'Read the exact motherboard storage and expansion notes.', 'unknown'));
     checks.push(compareFields('psu-form', 'PSU form factor', [field(psu, 'psuFormat'), field(chassis, 'psuFormats')], (form, forms) => Array.isArray(forms) && forms.includes(form), 'Match the exact PSU format to the case support list.', 'Verify body length, cable access and required adapters.'));
     checks.push(compareFields('psu-length', 'PSU body length', [field(psu, 'psuLength'), field(chassis, 'psuLengthMax')], (length, max) => length <= max, 'Compare PSU body length with the nominal case limit.', 'Check cable-routing space and nearby drive cages.'));
-    checks.push(check('cooler', 'CPU cooler and mounting', 'needs-verification', field(cpu, 'includedCooler').value === false ? 'This CPU is documented without an included cooler. A selected compatible cooler and mounting kit are still required.' : 'The component picker does not currently select a CPU cooler or verify its mounting and clearance.', [field(cpu, 'includedCooler'), field(chassis, 'coolerHeightMax')], 'Choose a socket-supported cooler, confirm height/radiator layout and check included mounting hardware.', 'unknown'));
+    const cooler = p.cooler[0], coolerType = field(cooler, 'coolingType'), included = field(cpu, 'includedCooler');
+    if (cpu && !cooler && verified(included) && included.value === false) missing.push('cooler');
+    checks.push(check('cooler', 'CPU cooling plan', 'needs-verification', cooler ? `${cooler.name} is selected. Mounting, installed clearances and workload suitability remain separate checks.` : verified(included) && included.value === false ? 'This exact CPU is documented without a boxed cooler. Choose a CPU cooler before buying.' : 'Choose a separate cooler or verify the exact boxed CPU cooler and its mounting. Tray and used CPUs may have different package contents.', [included], 'Check the exact packaging, mounting kit and manufacturer installation guide.', 'unknown'));
+    if (cooler) {
+      checks.push(compareFields('cooler-socket', 'CPU cooler socket support', [field(cpu, 'socket'), field(cooler, 'supportedSockets')], (socket, sockets) => Array.isArray(sockets) && sockets.includes(socket), 'Compare the documented CPU socket with the cooler support list. Socket support alone does not prove the required kit is in your box.', 'Confirm the exact revision, supplied hardware and motherboard compatibility notes.'));
+      const hardware = field(cooler, 'mountingIncluded');
+      checks.push(verified(hardware) ? compareFields('cooler-kit', 'Included cooler mounting hardware', [field(cpu, 'socket'), hardware], (socket, sockets) => Array.isArray(sockets) && sockets.includes(socket), 'Compare the CPU socket with the documented package mounting inventory.', 'For older stock or a used cooler, inspect the actual supplied kit and manufacturer instructions.') : check('cooler-kit', 'Cooler mounting hardware', 'needs-verification', 'Supported sockets are documented, but the exact mounting hardware in this package is not verified.', [field(cooler, 'supportedSockets')], 'Inspect the box or obtain the manufacturer-approved kit for the exact socket.', 'unknown'));
+      if (coolerType.value === 'air') checks.push(compareFields('cooler-height', 'Nominal air-cooler height', [field(cooler, 'installedHeight'), field(chassis, 'coolerHeightMax')], (height, maximum) => height <= maximum, 'Compare documented installed-fan height with the nominal case limit. Raising a fan for tall RAM can increase the required height.', 'Check RAM, fan position, motherboard obstacles and the side panel. Bare heatsink height is not installed height.'));
+      else if (coolerType.value === 'aio') checks.push(check('radiator-layout', 'Radiator, fans and pump clearance', 'needs-verification', 'The selected AIO needs an exact mounting location and assembled radiator/fan envelope check. A nominal 240/360/420 label does not establish fit.', [field(cooler, 'radiatorLength'), field(cooler, 'radiatorWidth'), field(cooler, 'radiatorThickness')], 'Compare the exact case drawing, motherboard/RAM/GPU space, tubing and pump-block compatibility. Do not add inferred clearance margins.', 'conditional-manufacturer-specification'));
+      checks.push(check('cooler-ram', 'Cooler, RAM and motherboard space', 'needs-verification', 'A socket or nominal height match does not establish RAM/fan clearance, pump-block orientation or motherboard heatsink clearance.', [field(cooler, 'ramClearance')], 'Check the cooler compatibility list and exact installed configuration.', 'unknown'));
+      checks.push(check('cooling-behavior', 'Cooling under your workload', 'unperformed', 'This planner does not measure temperatures, noise, sustained clocks or pump/fan behavior.', [], 'Use comparable independent tests and check temperatures after safe assembly.', 'outside-automated-scope'));
+    }
     checks.push(check('cables', 'Power cables and accessory inventory', 'needs-verification', 'Exact PSU cable types, connector quantities, mounting screws and required adapters have not been inventoried.', [{ ...SOURCES.corsairCables, source: SOURCES.corsairCables.url, status: 'manufacturer-guidance' }], 'Use only cables explicitly compatible with the exact PSU revision. Confirm connector instructions before assembly.', 'unknown'));
     checks.push(check('os-network', 'Operating system, networking and peripherals', 'needs-verification', requirements.network === 'wifi' ? 'Wi-Fi is requested; verify the exact adapter, antennas, drivers and OS support. OS installation media and peripherals are outside this component picker.' : 'OS license/installation media, networking, display, input devices and any adapters are outside this component picker.', [], 'Include these items and any costs in your purchase plan.', 'unknown'));
     checks.push(check('physical-inspection', 'Physical inspection and behavior', 'unperformed', 'This software cannot inspect damage, cable seating, electrical safety, measured temperatures, noise or real-world stability. 3D assets are visual aids rather than fit certification.', [], 'Follow the manufacturers’ manuals and safe first-boot checks.', 'not-performed'));
-    const counts = Object.fromEntries(['passed', 'failed', 'needs-verification', 'unperformed'].map(state => [state, checks.filter(c => c.state === state).length]));
+    const prerequisites = { 'cpu-socket': ['cpu', 'board'], bios: ['cpu', 'board'], 'ram-generation': ['board', 'ram'], 'ram-capacity': ['board', 'ram'], 'cpu-memory-capacity': ['cpu', 'ram'], 'ram-slots': ['board', 'ram'], 'ram-profile': ['board', 'ram'], 'board-case': ['board', 'case'], 'psu-form': ['psu', 'case'], 'psu-length': ['psu', 'case'], cooler: ['cpu'], 'cooler-socket': ['cpu','cooler'], 'cooler-kit': ['cpu','cooler'], 'cooler-height': ['cooler','case'], 'display-output': ['cpu'], cables: ['psu'], 'lane-sharing': ['board'] };
+    for (const item of checks) {
+      const needed = prerequisites[item.id] || (/^gpu-length-/.test(item.id) ? ['gpu','case'] : /^psu-recommendation-/.test(item.id) ? ['gpu','psu'] : /^(?:nvme|sata)-count$/.test(item.id) ? ['board'] : []);
+      if (needed.some(slot => !p[slot].length)) { item.state = 'not-checked'; item.reason = 'Select the required components before this check can run.'; item.basis = 'not-yet-selected'; }
+    }
+    const counts = Object.fromEntries(['passed', 'failed', 'needs-verification', 'unperformed', 'not-checked'].map(state => [state, checks.filter(c => c.state === state).length]));
     return { version: VERSION, status: counts.failed ? 'conflicts-found' : 'verification-needed', missing, checks, counts, requirements, manual, summary: counts.failed ? 'Resolve the documented conflicts, then verify the outstanding checks.' : missing.length ? 'Select the missing parts, then verify the outstanding checks.' : 'No overall compatibility guarantee. Review the unresolved evidence and items outside the picker.' };
   }
   function validAmount(value) { if (!['number', 'string'].includes(typeof value) || typeof value === 'string' && value.trim() === '') return null; const amount = Number(value); return Number.isFinite(amount) && amount >= 0 && amount <= 10000000 ? amount : null; }
@@ -157,6 +176,21 @@
     return { subtotal: Math.round(subtotal * 100) / 100, missing, owned, purchaseItems: count, complete: missing === 0, basis: 'user-entered-quotes' };
   }
   function compareQuotes(a, b) { const left = quoteTotal(a), right = quoteTotal(b); return { a: left, b: right, difference: left.complete && right.complete ? Math.round((right.subtotal - left.subtotal) * 100) / 100 : null }; }
+  function normalizeManualItems(raw, region = 'CA') {
+    const items=[],issues=[],seen=new Set();
+    if (raw === undefined) return {items,issues};
+    if (!Array.isArray(raw) || raw.length > 30) return {items,issues:[{reason:'Manual purchase items must be a list of at most 30 records.'}]};
+    for (const row of raw) {
+      if (!row || typeof row !== 'object' || typeof row.id !== 'string' || !/^[a-zA-Z0-9_-]{1,80}$/.test(row.id) || seen.has(row.id) || typeof row.name !== 'string' || !row.name.trim() || row.name.length > 100 || /[\u0000-\u001f\u007f]/.test(row.name) || !Number.isInteger(row.quantity) || row.quantity < 1 || row.quantity > 99 || !['CA','US'].includes(row.region || region)) { issues.push({reason:'A manual purchase item has invalid identity, quantity or currency scope.'}); continue; }
+      const amount=row.amount===null||row.amount===''?null:validAmount(row.amount);
+      if (row.amount!==null&&row.amount!==''&&amount===null) {issues.push({reason:'A manual purchase quote is invalid.'});continue;}
+      seen.add(row.id);items.push({id:row.id,name:row.name.trim(),kind:['os','network','accessory','cooling','other'].includes(row.kind)?row.kind:'other',quantity:row.quantity,amount,region:row.region||region,owned:row.owned===true});
+    }
+    return {items,issues};
+  }
+  function manualItemTotal(items,region='CA') {
+    return quoteTotal(normalizeManualItems(items,region).items.map(row=>({...row,amount:row.region===region?row.amount:null})));
+  }
   function purchaseTotals({ items = [], offers = [], region = 'CA', now = Date.now(), maxAgeMs = 900000 } = {}) {
     const currency = region === 'US' ? 'USD' : 'CAD'; let subtotal = 0, missing = 0, owned = 0, priced = 0; const selected = [];
     for (const item of items) {
@@ -181,6 +215,7 @@
     // Unavailable references remain in exports for explicit repair; they are never installed silently.
     const unresolved = [...new Map([...list(raw.unresolved), ...issues].filter(item => item && SLOTS.includes(item.slot) && typeof item.id === 'string' && /^[a-zA-Z0-9_-]{1,120}$/.test(item.id)).map(item => [item.slot + ':' + item.id, { id: item.id, slot: item.slot, reason: 'Unknown component or wrong category' }])).values()];
     const revision = { schema: 1, version: VERSION, name: String(raw.name || 'Untitled build').replace(/[\u0000-\u001f]/g, '').slice(0, 80), parts, unresolved, owned: sanitizeFlags(raw.owned), locked: sanitizeFlags(raw.locked), region, currency: region === 'US' ? 'USD' : 'CAD', budget: validAmount(raw.budget), requirements: { workload: ['gaming', 'creator', 'general', 'mixed'].includes(raw.requirements?.workload) ? raw.requirements.workload : 'gaming', display: ['1080p', '1440p', '4k', 'existing'].includes(raw.requirements?.display) ? raw.requirements.display : 'existing', size: ['flexible', 'compact'].includes(raw.requirements?.size) ? raw.requirements.size : 'flexible', noise: ['flexible', 'quiet'].includes(raw.requirements?.noise) ? raw.requirements.noise : 'flexible', network: ['ethernet', 'wifi', 'existing'].includes(raw.requirements?.network) ? raw.requirements.network : 'existing' }, acknowledged: list(raw.acknowledged).filter(value => typeof value === 'string' && /^[a-z0-9-]{1,70}$/.test(value)).slice(0, 70), fans: list(raw.fans).slice(0, 99).map(f => ({ position: ['top', 'front', 'rear', 'side', 'bottom'].includes(f.position) ? f.position : 'top', flow: f.flow === 'intake' ? 'intake' : 'exhaust' })), savedAt: typeof raw.savedAt === 'string' && Number.isFinite(Date.parse(raw.savedAt)) ? raw.savedAt : null };
+    const manual=normalizeManualItems(raw.manualItems,region);revision.manualItems=manual.items;issues.push(...manual.issues);
     return { revision, issues };
   }
   function buildURL(revision, base = 'https://www.pcpartperformance.com') {
@@ -198,7 +233,7 @@
     const index = new Map(catalog.map(part => [part.id, part])), lines = [revision.name || 'PC build', `Region: ${revision.region} · ${revision.currency}`, ''];
     for (const slot of SLOTS) { const grouped = new Map(); for (const id of list(revision.parts?.[slot])) grouped.set(id, (grouped.get(id) || 0) + 1); for (const [id, quantity] of grouped) { const part = index.get(id), name = part?.name || id; const status = [revision.owned?.includes(id) ? 'owned' : 'to buy', revision.locked?.includes(id) ? 'locked' : ''].filter(Boolean).join(', '); lines.push(`${markdown ? '- ' : ''}${slot}: ${quantity} × ${name} (${status}; ID ${id})`); } }
     if (revision.unresolved?.length) lines.push('', 'References needing explicit repair: ' + revision.unresolved.map(item => item.slot + ': ' + item.id).join('; '));
-    lines.push('', 'Prices and compatibility must be checked again before purchase. Cooler, OS, accessories, tax and shipping may be outside the picker.', buildURL(revision));
+    lines.push('', 'Prices and compatibility must be checked again before purchase. Additional private quotes stay in your local revision/export; they are excluded from this shareable parts list. Tax, shipping and unlisted purchases are extra.', buildURL(revision));
     return lines.join('\n');
   }
   function assessCandidate(parts, slot, candidate, mode = 'replace', baseline = createReadiness({ parts })) {
@@ -210,5 +245,5 @@
     const introduced = report.checks.filter(item => item.state === 'failed' && previous.get(item.id) !== item.reason);
     return { allowed: introduced.length === 0, report, introduced };
   }
-  return { VERSION, SLOTS, SOURCES, FACTS, field, verified, createReadiness, assessCandidate, validAmount, quoteTotal, compareQuotes, purchaseTotals, normalizeRevision, buildURL, revisionText, safeURL };
+  return { VERSION, SLOTS, SOURCES, FACTS, field, verified, createReadiness, assessCandidate, validAmount, quoteTotal, compareQuotes, normalizeManualItems, manualItemTotal, purchaseTotals, normalizeRevision, buildURL, revisionText, safeURL };
 });

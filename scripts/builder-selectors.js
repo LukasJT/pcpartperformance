@@ -5,7 +5,7 @@
   else { window.PCP_BUILDER_SELECTORS = api; api.mount(); }
 })(function () {
   'use strict';
-  const CATEGORIES = [['cpu', 'Processor'], ['board', 'Motherboard'], ['gpu', 'Graphics card'], ['ram', 'Memory kit'], ['ssd', 'Solid-state drive'], ['hdd', 'Hard drive'], ['psu', 'Power supply'], ['case', 'PC case'], ['fan', 'Case fans']];
+  const CATEGORIES = [['cpu', 'Processor'], ['board', 'Motherboard'], ['gpu', 'Graphics card'], ['ram', 'Memory kit'], ['ssd', 'Solid-state drive'], ['hdd', 'Hard drive'], ['psu', 'Power supply'], ['case', 'PC case'], ['fan', 'Case fans'], ['cooler','CPU cooler']];
   const normalize = value => String(value ?? '').toLocaleLowerCase().replace(/[®™]/g, '').replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
   const category = select => select?.dataset?.buildPrimary || select?.dataset?.buildAdd || select?.dataset?.buildSlot || '';
   function facet(part = {}) {
@@ -78,7 +78,7 @@
     const parts = () => window.PCP_BUILD?.catalog() || (typeof catalog !== 'undefined' ? catalog : []);
     const partIndex = new Map(parts().map(part => [part.id, part]));
     const modelIds = new Set(window.downloadedModelIds || []);
-    const images = window.PCP_IMAGES || {};
+    let images = window.PCP_IMAGES || {};
     const dialog = document.createElement('dialog');
     dialog.className = 'select-dialog builder-picker'; dialog.dataset.builderPicker = ''; dialog.id = 'builder-picker';
     dialog.setAttribute('aria-labelledby', 'builder-picker-title');
@@ -92,6 +92,7 @@
     const modelCheck = dialog.querySelector('.builder-picker-models input'), categorySelect = dialog.querySelector('[data-picker-category]'), seriesSelect = dialog.querySelector('[data-picker-series]');
     const reset = dialog.querySelector('.builder-picker-reset'), more = dialog.querySelector('.builder-picker-more'), filters = dialog.querySelector('.builder-picker-filters');
     let active = null, rows = [], cursor = 0, limit = 80, serial = 0, sourceRows = [];
+    document.addEventListener('pcp:images',()=>{images=window.PCP_IMAGES||{};if(active)render();});
     const brands = new Set();
     function selectLabel(select) {
       const visible = select.labels?.[0] ? [...select.labels[0].childNodes].filter(node => node.nodeType === 3).map(node => node.textContent).join(' ').trim() : '';

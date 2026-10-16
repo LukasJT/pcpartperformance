@@ -1,0 +1,51 @@
+{
+  "checkedAt": "2026-10-16T23:25:06.070Z",
+  "scope": "Actual connected-browser interactions; local test data only",
+  "journeys": [
+    {
+      "name": "CPU picker",
+      "result": "passed",
+      "evidence": "List receives focus; no automatic search focus. Selection and Next component operate the same underlying state."
+    },
+    {
+      "name": "Save and restore",
+      "result": "passed",
+      "evidence": "11-part starter with a CAD125 manual quote saved; My PC restored exact quote locally. A copied public link excluded the quote and notebook."
+    },
+    {
+      "name": "Report download",
+      "result": "passed",
+      "evidence": "Downloaded JSON parsed from the browser download path: pcp-readiness-passport-v1,11 parts,manual quote125,spending object and engine2026-10-16.1. Public button and filename subsequently clarified to build report."
+    },
+    {
+      "name": "Region switch",
+      "result": "passed",
+      "evidence": "CAD quote remains CAD and is marked different-currency/excluded under US."
+    },
+    {
+      "name": "3D",
+      "result": "passed",
+      "evidence": "Starter scene rendered; CPU cooler inspector explicitly reports no model and retains the selection. No rendering console error observed."
+    },
+    {
+      "name": "Upgrade continuity",
+      "result": "passed",
+      "evidence": "Saved current-PC inventory included cooler and two identical fans; create reuse plan and builder handoff preserved all11 instances and owned flags."
+    },
+    {
+      "name": "Search keyboard",
+      "result": "passed",
+      "evidence": "my gpu won’t fit found the exact GPU-fit guide; ArrowDown focused result and Escape returned focus to query."
+    },
+    {
+      "name": "Responsive",
+      "result": "passed",
+      "evidence": "12 routes at360/1440 and6 routes at768 had one H1/main and no root overflow; open tablet menu verified after its transition."
+    }
+  ],
+  "limits": [
+    "No independent screen-reader certification",
+    "Browser report download has not been tested in every OS/browser",
+    "Local timing observations are not field Core Web Vitals"
+  ]
+}

@@ -66,6 +66,7 @@
     }
     document.addEventListener('pcp:build-state', render);
     document.addEventListener('pcp:build', render);
+    document.addEventListener('pcp:images',render);
     let queued = false;
     new MutationObserver(() => { if (!queued) { queued = true; queueMicrotask(() => { queued = false; render(); }); } }).observe(builder.querySelector('#builder-parts'), { childList: true, subtree: true });
     render();

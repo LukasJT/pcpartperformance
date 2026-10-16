@@ -9,7 +9,7 @@
     "Inherited fields have not all been independently reverified.",
     "No individual images or 3D assets are relicensed by this aggregate report."
   ],
-  "total": 1216,
+  "total": 1228,
   "categories": [
     {
       "id": "gpu",
@@ -154,7 +154,15 @@
       "atLeastThreeSpecs": 50,
       "strictExactImages": 23,
       "missingImages": 0
+    },
+    {
+      "id": "cooler",
+      "label": "CPU coolers",
+      "items": 12,
+      "atLeastThreeSpecs": 12,
+      "strictExactImages": 0,
+      "missingImages": 12
     }
   ],
-  "version": "78beea7a8d2d"
+  "version": "82f3d71e16be"
 }

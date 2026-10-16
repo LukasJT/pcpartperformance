@@ -1,0 +1,188 @@
+(function (factory) {
+  const rules = typeof module === 'object' && module.exports ? require('./compatibility-evidence.cjs') : globalThis.PCP_BUILD_RULES;
+  const program = typeof module === 'object' && module.exports ? require('./builder-program.js') : globalThis.PCP_BUILD_PROGRAM;
+  const api = factory(rules, program);
+  if (typeof module === 'object' && module.exports) module.exports = api;
+  else { globalThis.PCP_WORKSPACE = api; if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', () => api.mount()); else api.mount(); }
+})(function (rules, program) {
+  'use strict';
+  const KEY = 'pcp-my-pc-workspace-v1', MAX_BYTES = 131072;
+  const safeId = value => typeof value === 'string' && /^[A-Za-z0-9_-]{1,120}$/.test(value);
+  const text = (value, max) => typeof value === 'string' && value.length <= max && !/[\u0000-\u0008\u000b\u000c\u000e-\u001f]/.test(value);
+  const date = value => typeof value === 'string' && value.length <= 40 && Number.isFinite(Date.parse(value));
+  const bytes = value => new TextEncoder().encode(value).length;
+  const esc = value => String(value ?? '').replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[char]));
+  function upgradeURL(revision,origin='https://www.pcpartperformance.com') { const build=new URL(rules.buildURL(revision,origin)),url=new URL('/upgrade/',origin);if(build.searchParams.has('build'))url.searchParams.set('inventory',build.searchParams.get('build'));url.searchParams.set('region',revision.region==='US'?'US':'CA');return url.href; }
+  const blank = () => ({ schema: 'pcp-my-pc-workspace-v1', version: 1, activeRevisionId: null, profiles: [], watchlist: [], observations: [], changes: [] });
+  function validObservation(row) {
+    return row && safeId(row.id) && ['CA', 'US'].includes(row.region) && safeId(row.merchantId) && text(row.merchant, 100) && typeof row.price === 'number' && Number.isFinite(row.price) && row.price > 0 && row.price <= 1000000 && Math.abs(row.price * 100 - Math.round(row.price * 100)) < .000001 && ['new', 'unknown'].includes(row.condition) && [true, false, null].includes(row.inStock) && date(row.checkedAt) && date(row.expiresAt) && Date.parse(row.expiresAt) > Date.parse(row.checkedAt) && Date.parse(row.expiresAt) - Date.parse(row.checkedAt) <= 86400000;
+  }
+  function cleanObservation(row) { return { id: row.id, region: row.region, merchantId: row.merchantId, merchant: row.merchant, price: row.price, condition: row.condition, inStock: row.inStock, checkedAt: row.checkedAt, expiresAt: row.expiresAt }; }
+  function parseState(raw) {
+    if (typeof raw === 'string' && bytes(raw) > MAX_BYTES) throw Error('The workspace file is too large. Use a file smaller than 128 KB.');
+    const input = typeof raw === 'string' ? JSON.parse(raw) : raw;
+    if (!input || input.schema !== 'pcp-my-pc-workspace-v1' || input.version !== 1) throw Error('Use a PC Part Performance workspace export.');
+    for (const [key, max] of [['profiles', 25], ['watchlist', 100], ['observations', 100], ['changes', 40]]) if (!Array.isArray(input[key]) || input[key].length > max) throw Error('The workspace contains too many ' + key + '.');
+    if (input.activeRevisionId !== null && !safeId(input.activeRevisionId)) throw Error('The selected build reference is invalid.');
+    const ids = new Set();
+    const profiles = input.profiles.map(row => {
+      if (!row || !safeId(row.revisionId) || ids.has(row.revisionId) || !text(row.note, 2000) || !Array.isArray(row.journal) || row.journal.length > 20 || !Array.isArray(row.quotes) || row.quotes.length > 30) throw Error('A build notebook is invalid or exceeds its storage limit.');
+      ids.add(row.revisionId);
+      const seen = new Set();
+      const journal = row.journal.map(item => { if (!item || !safeId(item.id) || seen.has(item.id) || !date(item.at) || !text(item.text, 500) || !item.text.trim()) throw Error('A journal entry is invalid.'); seen.add(item.id); return { id: item.id, at: item.at, text: item.text }; });
+      const quoteIds = new Set();
+      const quotes = row.quotes.map(item => { if (!item || !safeId(item.id) || quoteIds.has(item.id) || !text(item.label, 80) || !item.label.trim() || !Number.isInteger(item.quantity) || item.quantity < 1 || item.quantity > 99 || typeof item.owned !== 'boolean' || !['CA', 'US'].includes(item.region) || item.amount !== null && (typeof item.amount !== 'number' || rules.validAmount(item.amount) === null || item.amount > 1000000)) throw Error('A manual quote is invalid.'); quoteIds.add(item.id); return { id: item.id, label: item.label, amount: item.amount, quantity: item.quantity, owned: item.owned, region: item.region }; });
+      return { revisionId: row.revisionId, note: row.note, journal, quotes };
+    });
+    if (!input.watchlist.every(safeId)) throw Error('A watched part reference is invalid.');
+    const observations = input.observations.map(row => { if (!validObservation(row)) throw Error('A saved observation is invalid.'); return cleanObservation(row); });
+    const changes = input.changes.map(row => { if (!row || !safeId(row.id) || !['price', 'stock', 'condition'].includes(row.kind) || !['CA', 'US'].includes(row.region) || !safeId(row.merchantId) || !text(row.merchant, 100) || !date(row.beforeAt) || !date(row.afterAt) || Date.parse(row.afterAt) <= Date.parse(row.beforeAt) || !text(row.before, 80) || !text(row.after, 80) || [row.before, row.after].some(value => row.kind === 'price' ? !/^[0-9]+(?:\.[0-9]{1,2})?$/.test(value) || Number(value) <= 0 || Number(value) > 1000000 : row.kind === 'stock' ? !['true', 'false', 'null'].includes(value) : !['new', 'unknown'].includes(value))) throw Error('A recorded change is invalid.'); return { id: row.id, kind: row.kind, region: row.region, merchantId: row.merchantId, merchant: row.merchant, beforeAt: row.beforeAt, afterAt: row.afterAt, before: row.before, after: row.after }; });
+    const result = { schema: input.schema, version: 1, activeRevisionId: input.activeRevisionId, profiles, watchlist: [...new Set(input.watchlist)], observations, changes };
+    if (bytes(JSON.stringify(result)) > MAX_BYTES) throw Error('The workspace exceeds its 128 KB storage limit. Export and remove older entries first.');
+    return result;
+  }
+  function loadState(storage) {
+    try { const raw = storage.getItem(KEY); return { state: raw ? parseState(raw) : blank(), available: true }; }
+    catch { return { state: blank(), available: false, error: 'Your workspace could not be read. Existing data has not been overwritten. Export a backup or clear only this workspace to start again.' }; }
+  }
+  function saveState(storage, value) { try { const state = parseState(value); storage.setItem(KEY, JSON.stringify(state)); return { ok: true, state }; } catch (error) { return { ok: false, error: error?.message || 'Browser storage is unavailable or full. Export your workspace instead.' }; } }
+  function mergeState(current, imported) {
+    const left = parseState(current), right = parseState(imported), existing = new Set(left.profiles.map(item => item.revisionId));
+    // Imports cannot turn file contents into purportedly observed retailer changes.
+    return parseState({ ...left, profiles: [...left.profiles, ...right.profiles.filter(item => !existing.has(item.revisionId))], watchlist: [...new Set([...left.watchlist, ...right.watchlist])] });
+  }
+  function readBuilds(storage, catalog, aliases = {}) {
+    try {
+      const raw = storage.getItem(program.STORAGE_KEY); if (!raw) return { available: true, revisions: [], raw: { schema: 1, revisions: [] }, issues: [] };
+      if (raw.length > 262144) throw Error('Build data is too large.');
+      const source = JSON.parse(raw), parsed = program.parseCollection(source, catalog, aliases);
+      return { available: true, ...parsed, raw: source };
+    } catch { return { available: false, revisions: [], issues: [], error: 'Saved builds could not be read. Your original builder data is retained. Open the builder to recover or export it.' }; }
+  }
+  function duplicateRevision(storage, revisionId, catalog, aliases = {}, createId = () => globalThis.crypto?.randomUUID?.() || 'build-' + Date.now() + '-' + Math.random().toString(36).slice(2, 8), now = new Date().toISOString()) {
+    const collection = readBuilds(storage, catalog, aliases);
+    if (!collection.available) return { ok: false, error: collection.error };
+    if (collection.revisions.length >= program.MAX_REVISIONS) return { ok: false, error: 'The builder holds up to 25 revisions. Export or remove an older revision in the builder first.' };
+    const position = collection.revisions.findIndex(row => row.id === revisionId);
+    if (position < 0) return { ok: false, error: 'This revision no longer exists. Refresh the workspace.' };
+    const rows = Array.isArray(collection.raw) ? collection.raw : collection.raw.revisions, original = rows[position], ids = new Set(collection.revisions.map(row => row.id));
+    const id = createId(); if (!safeId(id) || ids.has(id)) return { ok: false, error: 'A unique revision ID could not be created. Try again.' };
+    const duplicate = { ...JSON.parse(JSON.stringify(original)), id, name: (String(original.name || 'My build').slice(0, 73) + ' (copy)').slice(0, 80), savedAt: now };
+    // Preserve the original bytes of each record, including fields a newer builder may add.
+    const next = Array.isArray(collection.raw) ? { schema: 1, revisions: [...rows, duplicate] } : { ...collection.raw, revisions: [...rows, duplicate] };
+    try { storage.setItem(program.STORAGE_KEY, JSON.stringify(next)); return { ok: true, id, revision: duplicate }; }
+    catch { return { ok: false, error: 'Browser storage is unavailable or full. No copy was saved.' }; }
+  }
+  function diffRevisions(before, after) {
+    const rows = [], counts = values => { const map = new Map(); for (const id of values || []) map.set(id, (map.get(id) || 0) + 1); return map; };
+    for (const slot of rules.SLOTS) {
+      const a = counts(before.parts[slot]), b = counts(after.parts[slot]);
+      for (const id of new Set([...a.keys(), ...b.keys()])) if (a.get(id) !== b.get(id)) rows.push({ slot, id, before: a.get(id) || 0, after: b.get(id) || 0 });
+    }
+    const chosen = new Set([...Object.values(before.parts).flat(), ...Object.values(after.parts).flat()]);
+    const owned = [...chosen].filter(id => before.owned.includes(id) !== after.owned.includes(id)).map(id => ({ id, before: before.owned.includes(id), after: after.owned.includes(id) }));
+    return { rows, owned, regionChanged: before.region !== after.region, budgetChanged: before.budget !== after.budget, unresolvedBefore: before.unresolved?.length || 0, unresolvedAfter: after.unresolved?.length || 0 };
+  }
+  function manualSummary(quotes, region) { return rules.quoteTotal(quotes.filter(item => item.region === region)); }
+  function applyObservations(state, incoming, now = Date.now()) {
+    const result = parseState(state), key = row => row.region + ':' + row.id + ':' + row.merchantId;
+    const saved = new Map(result.observations.map(row => [key(row), row]));
+    let captured = 0;
+    for (const candidate of incoming) {
+      if (!validObservation(candidate) || Date.parse(candidate.checkedAt) > now || Date.parse(candidate.expiresAt) <= now) continue;
+      const row = cleanObservation(candidate), old = saved.get(key(row));
+      if (old && Date.parse(row.checkedAt) <= Date.parse(old.checkedAt)) continue;
+      captured++;
+      if (old) for (const [field, kind] of [['price', 'price'], ['inStock', 'stock'], ['condition', 'condition']]) if (old[field] !== row[field]) result.changes.unshift({ id: row.id, kind, region: row.region, merchantId: row.merchantId, merchant: row.merchant, beforeAt: old.checkedAt, afterAt: row.checkedAt, before: String(old[field]), after: String(row[field]) });
+      saved.set(key(row), row);
+    }
+    result.observations = [...saved.values()].sort((a, b) => Date.parse(b.checkedAt) - Date.parse(a.checkedAt)).slice(0, 100);
+    result.changes = result.changes.slice(0, 40);
+    return { state: parseState(result), captured };
+  }
+  function mount(options = {}) {
+    const document = options.document || globalThis.document, host = document?.querySelector('[data-my-pc]');
+    if (!host || !rules || !program) return null;
+    const $ = selector => host.querySelector(selector), status = value => { $('[data-workspace-status]').textContent = value; };
+    let payload; try { payload = JSON.parse(document.querySelector('#workspace-catalog').textContent); if (payload.schema !== 1 || !Array.isArray(payload.catalog)) throw Error(); } catch { status('The part catalog could not be opened. Your saved data is untouched. Reload or open the builder.'); return null; }
+    const catalog = payload.catalog, aliases = payload.aliases || {}, index = new Map(catalog.map(row => [row.id, row]));
+    let storage; try { storage = options.storage || globalThis.localStorage; if (!storage) throw Error(); } catch { storage = { getItem() { throw Error(); }, setItem() { throw Error(); }, removeItem() { throw Error(); } }; }
+    const initial = loadState(storage); let state = initial.state, writable = initial.available, builds = readBuilds(storage, catalog, aliases), observed = false;
+    const money = (value, region) => new Intl.NumberFormat(region === 'US' ? 'en-US' : 'en-CA', { style: 'currency', currency: region === 'US' ? 'USD' : 'CAD', currencyDisplay: 'code' }).format(value);
+    const niceDate = value => date(value) ? new Date(value).toLocaleString() : 'Date unavailable';
+    const name = id => { const row = index.get(id); return row ? (row.name.toLowerCase().startsWith((row.brand || '').toLowerCase()) ? row.name : [row.brand, row.name].filter(Boolean).join(' ')) : id; };
+    const revisionLink = revision => { const url = new URL(rules.buildURL(revision, globalThis.location?.origin || 'https://www.pcpartperformance.com')); url.searchParams.set('restore', revision.id); return url.href; };
+    const partLink = id => index.has(id) ? `<a href="/learn/${encodeURIComponent(id)}">${esc(name(id))}</a>` : `<span>${esc(id)} · catalog reference unavailable</span>`;
+    function persist(next, message) { if (!writable) { status('Local saving is unavailable. Existing data is retained; export your current workspace instead.'); return false; } const saved = saveState(storage, next); if (!saved.ok) { status(saved.error); return false; } state = saved.state; if (message) status(message); return true; }
+    const profileFor = id => state.profiles.find(row => row.revisionId === id) || { revisionId: id, note: '', journal: [], quotes: [] };
+    const builderQuotes = revision => (revision.manualItems || []).map(row => ({ ...row, label: row.name }));
+    const allQuotes = revision => [...builderQuotes(revision), ...profileFor(revision.id).quotes];
+    const active = () => builds.revisions.find(row => row.id === state.activeRevisionId) || builds.revisions[0];
+    function updateProfile(change, message) { const revision = active(); if (!revision) { status('Save a build in the builder first.'); return false; } const profile = change(JSON.parse(JSON.stringify(profileFor(revision.id)))); if (!persist({ ...state, activeRevisionId: revision.id, profiles: [...state.profiles.filter(row => row.revisionId !== revision.id), profile] }, message)) return false; renderNotebook(); return true; }
+    function renderBuilds() {
+      const target = $('[data-workspace-builds]');
+      if (!builds.available) target.innerHTML = `<p class="workspace-warning">${esc(builds.error)}</p>`;
+      else target.innerHTML = builds.revisions.length ? `<ul class="workspace-build-list">${builds.revisions.map(revision => `<li><div><h3>${esc(revision.name)}</h3><p>${Object.values(revision.parts).flat().length} components${revision.manualItems?.length ? ' + ' + revision.manualItems.length + ' manual item' + (revision.manualItems.length === 1 ? '' : 's') : ''} · ${esc(revision.currency)}${revision.savedAt ? ' · ' + esc(niceDate(revision.savedAt)) : ''}</p>${revision.unresolved?.length ? `<p class="workspace-warning">${revision.unresolved.length} saved reference${revision.unresolved.length === 1 ? '' : 's'} need repair in the builder.</p>` : ''}</div><div class="workspace-build-actions"><a class="button primary" href="${esc(revisionLink(revision))}">Open build</a><a class="button secondary" href="${esc(upgradeURL(revision,globalThis.location?.origin))}">Plan upgrade</a><button type="button" class="button secondary" data-workspace-duplicate="${esc(revision.id)}">Duplicate</button><button type="button" class="workspace-text-button" data-workspace-edit="${esc(revision.id)}">Notes & quotes</button></div></li>`).join('')}</ul>` : '<div class="workspace-empty"><h3>Your next build starts here.</h3><p>Choose parts in the builder, then save a named revision. It will appear in this workspace automatically.</p><a class="button primary" href="/builder/">Choose PC parts</a><a href="/upgrade/">Planning an upgrade?</a></div>';
+      const comparison = $('[data-workspace-comparison]'); comparison.hidden = builds.revisions.length < 2;
+      const options = builds.revisions.map(row => `<option value="${esc(row.id)}">${esc(row.name)}</option>`).join('');
+      for (const select of host.querySelectorAll('[data-workspace-compare] select')) select.innerHTML = options;
+      const after = $('[data-workspace-compare] [name="after"]'); if (after && builds.revisions.length > 1) after.value = builds.revisions.at(-1).id;
+      renderNotebook();
+    }
+    function renderNotebook() {
+      const revision = active(), section = $('[data-workspace-notebook]'); section.hidden = !revision; $('[data-workspace-notebook-empty]').hidden = Boolean(revision); if (!revision) return;
+      const select = $('[data-workspace-active]'); select.innerHTML = builds.revisions.map(row => `<option value="${esc(row.id)}">${esc(row.name)}</option>`).join(''); select.value = revision.id;
+      const profile = profileFor(revision.id); $('[data-workspace-notes] [name="note"]').value = profile.note;
+      $('[data-workspace-quote] [name="region"]').value = revision.region;
+      $('[data-workspace-journal-list]').innerHTML = profile.journal.length ? `<ol class="workspace-journal-list">${[...profile.journal].reverse().map(row => `<li><time datetime="${esc(row.at)}">${esc(niceDate(row.at))}</time><p>${esc(row.text)}</p><button type="button" class="workspace-text-button" data-workspace-journal-remove="${esc(row.id)}">Remove entry</button></li>`).join('')}</ol>` : '<p class="workspace-detail">No journal entries yet.</p>';
+      const quoteRows = profile.quotes.length ? `<ul class="workspace-quotes-list">${profile.quotes.map(row => `<li><div><strong>${esc(row.label)}</strong><span>${row.owned ? 'Owned / not buying' : row.amount === null ? 'Price unknown' : esc(money(row.amount, row.region)) + ' each'} · quantity ${row.quantity}</span></div><button type="button" class="workspace-text-button" data-workspace-quote-remove="${esc(row.id)}">Remove</button></li>`).join('')}</ul>` : '<p class="workspace-detail">No manual quotes saved.</p>';
+      const savedExtras = builderQuotes(revision), combined = allQuotes(revision);
+      $('[data-workspace-quotes]').innerHTML = (savedExtras.length ? `<h4>Saved in the builder</h4><ul class="workspace-quotes-list">${savedExtras.map(row => `<li><div><strong>${esc(row.label)}</strong><span>${row.owned ? 'Owned / not buying' : row.amount === null ? 'Price unknown' : esc(money(row.amount, row.region)) + ' each'} · quantity ${row.quantity}</span></div></li>`).join('')}</ul><a href="${esc(revisionLink(revision))}">Edit these items in the builder</a><h4>Notebook quotes</h4>` : '') + quoteRows + ['CA', 'US'].filter(region => combined.some(row => row.region === region)).map(region => { const summary = manualSummary(combined, region); return `<p><strong>${region === 'CA' ? 'CAD' : 'USD'} manual ${summary.complete ? 'quote subtotal' : 'partial subtotal'}: ${summary.purchaseItems === summary.missing && summary.missing ? 'unknown' : esc(money(summary.subtotal, region))}</strong><br>${summary.missing} unknown · ${summary.owned} owned. Includes saved builder extras and notebook quotes. Tax and shipping only if you added them.</p>`; }).join('');
+    }
+    function existingWatched() { try { return (globalThis.PCP_SAVED?.read?.() || JSON.parse(storage.getItem('pcp-saved-v1') || '[]')).filter(id => typeof id === 'string').map(id => id.startsWith('product_') ? id.slice(8) : index.has(id) ? id : null).filter(safeId); } catch { return []; } }
+    const watched = () => [...new Set([...state.watchlist, ...existingWatched()])];
+    function renderWatchlist() { const ids = watched(); $('[data-workspace-watchlist]').innerHTML = ids.length ? `<ul class="workspace-watch-list">${ids.map(id => `<li>${partLink(id)}<button type="button" class="workspace-text-button" data-workspace-unwatch="${esc(id)}">Remove</button></li>`).join('')}</ul>` : '<p class="workspace-detail">Watch a part here or save a product from its page.</p>'; }
+    function renderChanges() {
+      const changes = state.changes.length ? `<ol class="workspace-change-list">${state.changes.map(row => `<li><div><strong>${esc(name(row.id))}</strong><span>${esc(row.merchant)} · ${row.region === 'CA' ? 'CAD' : 'USD'}</span></div><p>${row.kind === 'price' ? esc(money(Number(row.before), row.region) + ' → ' + money(Number(row.after), row.region)) : esc((row.kind === 'stock' ? 'Stock state: ' : 'Condition: ') + row.before + ' → ' + row.after)}</p><time datetime="${esc(row.afterAt)}">${esc(niceDate(row.beforeAt))} to ${esc(niceDate(row.afterAt))}</time></li>`).join('')}</ol><p class="workspace-detail">These are observations captured when you checked this browser’s workspace, not a complete price history. An older observation is not a current offer.</p>` : '<p class="workspace-detail">No changes recorded. Only supported listings can provide checked observations.</p>';
+      const snapshots = state.observations.length ? `<details class="workspace-observations"><summary>Last captured observations (${state.observations.length})</summary><ul class="workspace-quotes-list">${state.observations.map(row => `<li><div><strong>${esc(name(row.id))}</strong><span>Recorded ${esc(money(row.price, row.region))} · ${esc(row.merchant)}</span><span>${Date.parse(row.expiresAt) <= Date.now() ? 'Expired observation' : 'Expires ' + esc(niceDate(row.expiresAt))} · ${row.inStock === true ? 'in stock at check' : row.inStock === false ? 'out of stock at check' : 'stock unverified'} · ${row.condition === 'new' ? 'new' : 'condition unverified'}</span><time datetime="${esc(row.checkedAt)}">Checked ${esc(niceDate(row.checkedAt))}</time></div></li>`).join('')}</ul><p class="workspace-detail">Tax and shipping are excluded. An expired record is history, not an available purchase price. Open the product’s buying section to check current offers.</p></details>` : '';
+      $('[data-workspace-changes]').innerHTML = changes + snapshots;
+    }
+    function renderStorage() { $('[data-workspace-storage]').textContent = writable ? 'Saved on this browser. No account or cloud sync.' : initial.error || 'Local workspace storage could not be read. Existing data is retained; export a backup before clearing it.'; }
+    const newId = () => globalThis.crypto?.randomUUID?.() || 'entry-' + Date.now() + '-' + Math.random().toString(36).slice(2, 8);
+    function download() { const blob = new Blob([JSON.stringify({ ...state, exportedAt: new Date().toISOString() }, null, 2)], { type: 'application/json' }), url = URL.createObjectURL(blob), a = document.createElement('a'); a.href = url; a.download = 'pcpartperformance-private-workspace.json'; document.body.append(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(url), 1000); status('Workspace exported. This file contains private notes; builder revisions are exported separately in the builder.'); }
+    async function confirm(title, copy, action) {
+      const dialog = $('[data-workspace-dialog]'), prior = document.activeElement;
+      $('[data-workspace-dialog-title]').textContent = title; $('[data-workspace-dialog-copy]').textContent = copy; $('[data-workspace-dialog-confirm]').textContent = action;
+      if (typeof dialog.showModal !== 'function') { status('This browser cannot open the confirmation dialog. No data was changed.'); return false; }
+      return new Promise(resolve => { dialog.returnValue = ''; dialog.addEventListener('close', () => { prior?.focus?.(); resolve(dialog.returnValue === 'confirm'); }, { once: true }); dialog.showModal(); });
+    }
+    host.addEventListener('click', async event => {
+      const button = event.target.closest('button'); if (!button) return;
+      const revisionId = button.dataset.workspaceDuplicate;
+      if (revisionId) { const result = duplicateRevision(storage, revisionId, catalog, aliases); if (!result.ok) return status(result.error); builds = readBuilds(storage, catalog, aliases); renderBuilds(); status('Build duplicated. The original revision is unchanged; the copy has its own ID. Notebook entries remain attached to the original.'); }
+      if (button.dataset.workspaceEdit) { if (persist({ ...state, activeRevisionId: button.dataset.workspaceEdit })) { renderNotebook(); $('[data-workspace-notes] textarea').focus(); } }
+      if (button.dataset.workspaceJournalRemove) updateProfile(profile => ({ ...profile, journal: profile.journal.filter(row => row.id !== button.dataset.workspaceJournalRemove) }), 'Journal entry removed from this workspace.');
+      if (button.dataset.workspaceQuoteRemove) updateProfile(profile => ({ ...profile, quotes: profile.quotes.filter(row => row.id !== button.dataset.workspaceQuoteRemove) }), 'Manual item removed.');
+      if (button.dataset.workspaceWatchId) { if (persist({ ...state, watchlist: [...new Set([...state.watchlist, button.dataset.workspaceWatchId])] }, 'Part added to your local watchlist.')) { renderWatchlist(); $('[data-workspace-watch-results]').innerHTML = ''; } }
+      if (button.dataset.workspaceUnwatch) { const id = button.dataset.workspaceUnwatch; if (!persist({ ...state, watchlist: state.watchlist.filter(value => value !== id) })) return; if (existingWatched().includes(id)) { const saved = globalThis.PCP_SAVED; if (!saved?.write(saved.read().filter(value => value !== 'product_' + id && value !== id))) status('Workspace entry removed. The existing saved-product list could not be changed; remove it from Saved items.'); else status('Part removed from your local watchlist.'); } else status('Part removed from your local watchlist.'); renderWatchlist(); }
+      if (button.hasAttribute('data-workspace-export')) download();
+      if (button.hasAttribute('data-workspace-clear') && await confirm('Clear workspace data?', 'This removes only this workspace’s notes, journal, manual quotes, additional watchlist and change observations. Existing builder revisions and saved products remain. Export a backup first if you need these notes.', 'Clear workspace data')) { try { storage.removeItem(KEY); state = blank(); writable = true; renderStorage(); renderNotebook(); renderWatchlist(); renderChanges(); status('Workspace data cleared. Builder revisions and the existing saved-products list are retained.'); } catch { status('The browser could not clear workspace data. No other storage was changed.'); } }
+      if (button.hasAttribute('data-workspace-check')) {
+        if (observed) return; observed = true; button.disabled = true; const checkStatus = $('[data-workspace-check-status]'); checkStatus.textContent = 'Checking supported retailer listings…';
+        try { const client = options.priceClient || await import('/public-price-client.js'), groups = { CA: new Set(watched()), US: new Set(watched()) }; for (const revision of builds.revisions) for (const id of Object.values(revision.parts).flat()) groups[revision.region].add(id); const incoming = []; for (const [region, ids] of Object.entries(groups)) { const values = [...ids]; for (let start = 0; start < values.length; start += 20) await client.refresh(values.slice(start, start + 20), region); for (const id of values) for (const offer of client.observationsFor(id, region)) incoming.push({ ...offer, id: offer.productId }); } const result = applyObservations(state, incoming); if (persist(result.state)) { renderChanges(); checkStatus.textContent = result.captured ? result.captured + ' current observation' + (result.captured === 1 ? '' : 's') + ' captured. Only changes from a previous check appear below.' : 'No newer supported observations are available. Coverage is limited; missing prices and stock remain unknown.'; } else checkStatus.textContent = 'Observations could not be saved. Existing data is retained.'; } catch { checkStatus.textContent = 'Price checking is unavailable. Existing observations remain dated records; no new change was recorded.'; } finally { observed = false; button.disabled = false; }
+      }
+    });
+    $('[data-workspace-active]').addEventListener('change', event => { if (persist({ ...state, activeRevisionId: event.target.value })) renderNotebook(); });
+    $('[data-workspace-notes]').addEventListener('submit', event => { event.preventDefault(); const note = event.currentTarget.elements.note.value; updateProfile(profile => ({ ...profile, note }), 'Notes saved on this browser.'); });
+    $('[data-workspace-journal]').addEventListener('submit', event => { event.preventDefault(); const input = event.currentTarget.elements.entry, value = input.value.trim(); if (!value) return; if (profileFor(active()?.id).journal.length >= 20) return status('Each build holds 20 journal entries. Export and remove an older entry first.'); if (updateProfile(profile => ({ ...profile, journal: [...profile.journal, { id: newId(), at: new Date().toISOString(), text: value }] }), 'Journal entry saved.')) input.value = ''; });
+    $('[data-workspace-quote]').addEventListener('submit', event => { event.preventDefault(); const form = event.currentTarget, value = form.elements.amount.value, amount = value.trim() ? rules.validAmount(value) : null; if (value.trim() && amount === null) return status('Enter a non-negative amount or leave the price unknown.'); if (profileFor(active()?.id).quotes.length >= 30) return status('Each build holds 30 manual items. Export and remove an older item first.'); if (updateProfile(profile => ({ ...profile, quotes: [...profile.quotes, { id: newId(), label: form.elements.label.value.trim(), quantity: Number(form.elements.quantity.value), amount, owned: form.elements.owned.checked, region: form.elements.region.value }] }), 'Manual item saved separately from checked retailer prices.')) { form.reset(); form.elements.region.value = active().region; } });
+    $('[data-workspace-compare]').addEventListener('submit', event => { event.preventDefault(); const form = event.currentTarget, before = builds.revisions.find(row => row.id === form.elements.before.value), after = builds.revisions.find(row => row.id === form.elements.after.value); if (!before || !after) return status('Choose two saved revisions.'); const diff = diffRevisions(before, after); const rows = diff.rows.map(row => `<tr><th scope="row">${esc(name(row.id))}<small>${esc(row.slot)}</small></th><td>${row.before}</td><td>${row.after}</td></tr>`).join(''); const manual = [before, after].map(revision => { const quotes = allQuotes(revision); return `<section><h4>${esc(revision.name)}: manual quotes</h4>${quotes.length ? ['CA', 'US'].filter(region => quotes.some(row => row.region === region)).map(region => { const total = manualSummary(quotes, region); return `<p>${esc(region === 'CA' ? 'CAD' : 'USD')}: ${total.purchaseItems === total.missing && total.missing ? 'unknown' : esc(money(total.subtotal, region))} · ${total.missing} unpriced · ${total.owned} owned</p>`; }).join('') : '<p>No manual quote recorded; cost unknown.</p>'}</section>`; }).join(''); $('[data-workspace-difference]').innerHTML = `<h4>${esc(before.name)} → ${esc(after.name)}</h4>${rows ? `<div class="workspace-table-scroll" tabindex="0" role="region" aria-label="Changed component quantities"><table><caption>Exact component quantity changes</caption><thead><tr><th scope="col">Component</th><th scope="col">Earlier</th><th scope="col">Later</th></tr></thead><tbody>${rows}</tbody></table></div>` : '<p>Exact component quantities are unchanged.</p>'}${diff.owned.length ? `<ul>${diff.owned.map(row => `<li>${esc(name(row.id))}: ${row.before ? 'owned' : 'to buy'} → ${row.after ? 'owned' : 'to buy'}</li>`).join('')}</ul>` : '<p>Ownership choices are unchanged.</p>'}<p>${diff.regionChanged ? 'Country/currency changed. ' : ''}${diff.budgetChanged ? 'The entered budget changed. ' : ''}${diff.unresolvedBefore || diff.unresolvedAfter ? `Unresolved references: ${diff.unresolvedBefore} earlier, ${diff.unresolvedAfter} later. ` : ''}Compatibility must be checked again after any change.</p><div class="workspace-manual-comparison">${manual}</div><p class="workspace-detail">These are your manual quote subtotals. Different currencies are not subtracted; current retailer offers and historical prices are not inferred.</p>`; });
+    $('[data-workspace-watch]').addEventListener('submit', event => { event.preventDefault(); const query = event.currentTarget.elements.query.value.trim().toLowerCase(); const found = catalog.filter(row => [row.name, row.brand, row.id].join(' ').toLowerCase().includes(query)).slice(0, 8); $('[data-workspace-watch-results]').innerHTML = found.length ? `<ul class="workspace-watch-list">${found.map(row => `<li>${partLink(row.id)}<button type="button" class="button secondary" data-workspace-watch-id="${esc(row.id)}" ${watched().includes(row.id) ? 'disabled' : ''}>${watched().includes(row.id) ? 'Watching' : 'Watch part'}</button></li>`).join('')}</ul><p class="workspace-detail">Up to eight exact catalog matches. Refine the model name if needed.</p>` : '<p>No matching PC component. Try a model number or brand.</p>'; });
+    $('[data-workspace-import]').addEventListener('change', async event => { const input = event.currentTarget, file = input.files?.[0]; if (!file) return; try { if (file.size > MAX_BYTES) throw Error('Use a workspace file smaller than 128 KB.'); const imported = parseState(await file.text()), merged = mergeState(state, imported); if (await confirm('Import workspace backup?', `${imported.profiles.length} build notebooks and ${imported.watchlist.length} watched IDs are in this file. Existing notebooks with the same build ID stay unchanged. File-based price observations are not imported. Builder revisions are not included.`, 'Merge workspace')) if (persist(merged, 'Workspace merged. Existing notebooks and builder revisions were retained.')) { renderNotebook(); renderWatchlist(); renderChanges(); } } catch (error) { status(error.message || 'The workspace file could not be read. Existing data was not changed.'); } finally { input.value = ''; } });
+    globalThis.addEventListener?.('storage', event => { if (![KEY, program.STORAGE_KEY, 'pcp-saved-v1'].includes(event.key)) return; const refreshed = loadState(storage); writable = refreshed.available; if (refreshed.available) state = refreshed.state; builds = readBuilds(storage, catalog, aliases); renderBuilds(); renderWatchlist(); renderChanges(); renderStorage(); status('Saved work changed in another tab. The workspace has refreshed.'); });
+    document.addEventListener('pcp:saved-update', renderWatchlist);
+    renderStorage(); renderBuilds(); renderWatchlist(); renderChanges();
+    return { getState: () => parseState(state), refresh() { builds = readBuilds(storage, catalog, aliases); renderBuilds(); renderWatchlist(); } };
+  }
+  return { KEY, MAX_BYTES, blank, parseState, loadState, saveState, mergeState, readBuilds, duplicateRevision, diffRevisions, manualSummary, applyObservations, upgradeURL, mount };
+});

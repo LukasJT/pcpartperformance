@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "policy": "daily-checked-snapshot",
-  "generatedAt": "2026-10-14T19:22:15.110Z",
+  "generatedAt": "2026-10-16T15:22:31.422Z",
   "observations": [
     {
       "schema": 1,
@@ -26,9 +26,9 @@
       "inStock": true,
       "availability": "in-stock",
       "url": "https://www.canadacomputers.com/en/amd-desktop-processors/264908/amd-ryzen-7-9800x3d-8-core-4nm-am5-104mb-cache-120w-zen-5-cpu-100-100001084wof.html",
-      "checkedAt": "2026-10-14T19:22:10.553Z",
-      "availabilityCheckedAt": "2026-10-14T19:22:10.553Z",
-      "expiresAt": "2026-10-15T19:22:10.553Z",
+      "checkedAt": "2026-10-16T15:22:26.160Z",
+      "availabilityCheckedAt": "2026-10-16T15:22:26.160Z",
+      "expiresAt": "2026-10-17T15:22:26.160Z",
       "charges": {
         "tax": "excluded",
         "shipping": "excluded"
@@ -61,12 +61,12 @@
       "currency": "CAD",
       "price": 439.99,
       "condition": "new",
-      "inStock": false,
-      "availability": "out-of-stock",
+      "inStock": true,
+      "availability": "in-stock",
       "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/233285/samsung-990-pro-1tb-m-2-nvme-pcie-4-0-solid-state-drive-mz-v9p1t0b-am.html",
-      "checkedAt": "2026-10-14T19:22:13.206Z",
-      "availabilityCheckedAt": "2026-10-14T19:22:13.206Z",
-      "expiresAt": "2026-10-15T19:22:13.206Z",
+      "checkedAt": "2026-10-16T15:22:28.504Z",
+      "availabilityCheckedAt": "2026-10-16T15:22:28.504Z",
+      "expiresAt": "2026-10-17T15:22:28.504Z",
       "charges": {
         "tax": "excluded",
         "shipping": "excluded"
@@ -76,7 +76,7 @@
         "publisher": "Canada Computers",
         "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/233285/samsung-990-pro-1tb-m-2-nvme-pcie-4-0-solid-state-drive-mz-v9p1t0b-am.html"
       },
-      "eligibleForNewPurchaseMinimum": false,
+      "eligibleForNewPurchaseMinimum": true,
       "availabilityBasis": "retailer-product-online-offer-not-local-store-inventory"
     },
     {
@@ -97,14 +97,14 @@
       "seller": "Canada Computers & Electronics",
       "region": "CA",
       "currency": "CAD",
-      "price": 739.99,
+      "price": 769.99,
       "condition": "new",
       "inStock": true,
       "availability": "in-stock",
       "url": "https://www.canadacomputers.com/en/desktop-memory/248739/corsair-vengeance-32gb-2x16gb-ddr5-6000mhz-cl30-udimm-cmk32gx5m2b6000c30.html",
-      "checkedAt": "2026-10-14T19:22:11.441Z",
-      "availabilityCheckedAt": "2026-10-14T19:22:11.441Z",
-      "expiresAt": "2026-10-15T19:22:11.441Z",
+      "checkedAt": "2026-10-16T15:22:26.735Z",
+      "availabilityCheckedAt": "2026-10-16T15:22:26.735Z",
+      "expiresAt": "2026-10-17T15:22:26.735Z",
       "charges": {
         "tax": "excluded",
         "shipping": "excluded"
@@ -140,9 +140,9 @@
       "inStock": false,
       "availability": "out-of-stock",
       "url": "https://www.canadacomputers.com/en/powered-by-nvidia/269805/msi-geforce-rtx-5070-ventus-3x-oc-gddr7-triple-fans-rtx-5070-12g-ventus-3x-oc.html",
-      "checkedAt": "2026-10-14T19:22:13.469Z",
-      "availabilityCheckedAt": "2026-10-14T19:22:13.469Z",
-      "expiresAt": "2026-10-15T19:22:13.469Z",
+      "checkedAt": "2026-10-16T15:22:29.735Z",
+      "availabilityCheckedAt": "2026-10-16T15:22:29.735Z",
+      "expiresAt": "2026-10-17T15:22:29.735Z",
       "charges": {
         "tax": "excluded",
         "shipping": "excluded"
@@ -162,7 +162,7 @@
       "merchantId": "canada-computers",
       "region": "CA",
       "state": "refreshed",
-      "attemptedAt": "2026-10-14T19:22:10.553Z"
+      "attemptedAt": "2026-10-16T15:22:26.160Z"
     },
     {
       "productId": "b650",
@@ -170,28 +170,28 @@
       "region": "CA",
       "state": "unavailable",
       "errorCode": "offer_identity_invalid",
-      "attemptedAt": "2026-10-14T19:22:10.584Z"
+      "attemptedAt": "2026-10-16T15:22:26.198Z"
     },
     {
       "productId": "ddr5",
       "merchantId": "canada-computers",
       "region": "CA",
       "state": "refreshed",
-      "attemptedAt": "2026-10-14T19:22:11.441Z"
+      "attemptedAt": "2026-10-16T15:22:26.735Z"
     },
     {
       "productId": "990pro",
       "merchantId": "canada-computers",
       "region": "CA",
       "state": "refreshed",
-      "attemptedAt": "2026-10-14T19:22:13.206Z"
+      "attemptedAt": "2026-10-16T15:22:28.504Z"
     },
     {
       "productId": "retail-msi-geforce-rtx-5070-12g-ventus-3x-oc",
       "merchantId": "canada-computers",
       "region": "CA",
       "state": "refreshed",
-      "attemptedAt": "2026-10-14T19:22:13.469Z"
+      "attemptedAt": "2026-10-16T15:22:29.735Z"
     },
     {
       "productId": "9800x3d",
@@ -199,7 +199,7 @@
       "region": "US",
       "state": "unavailable",
       "errorCode": "source_access_restricted",
-      "attemptedAt": "2026-10-14T19:22:14.786Z"
+      "attemptedAt": "2026-10-16T15:22:30.784Z"
     }
   ],
   "collection": {

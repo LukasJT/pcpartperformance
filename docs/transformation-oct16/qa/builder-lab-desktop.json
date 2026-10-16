@@ -1,0 +1,206 @@
+{
+  "environment": "unthrottled local browser; not field Core Web Vitals",
+  "sampleWindowMs": 8824.59999999404,
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "lcp": 1156,
+  "cls": 0.1228679370357692,
+  "shiftDetails": [
+    {
+      "at": 255,
+      "value": 0.12116083916083917,
+      "sources": [
+        {
+          "tag": "SECTION",
+          "id": "build-plan",
+          "class": "program-panel",
+          "previous": {
+            "x": 71.5,
+            "y": 777.03125,
+            "width": 660.96875,
+            "height": 122,
+            "top": 777.03125,
+            "right": 732.46875,
+            "bottom": 899.03125,
+            "left": 71.5
+          },
+          "current": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          }
+        },
+        {
+          "tag": "NAV",
+          "id": "",
+          "class": "oct16-step-nav",
+          "previous": {
+            "x": 71.5,
+            "y": 679.234375,
+            "width": 660.96875,
+            "height": 79.796875,
+            "top": 679.234375,
+            "right": 732.46875,
+            "bottom": 759.03125,
+            "left": 71.5
+          },
+          "current": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          }
+        },
+        {
+          "tag": "SECTION",
+          "id": "readiness-report",
+          "class": "program-panel",
+          "previous": {
+            "x": 760.46875,
+            "y": 868.328125,
+            "width": 598.015625,
+            "height": 31.671875,
+            "top": 868.328125,
+            "right": 1358.484375,
+            "bottom": 900,
+            "left": 760.46875
+          },
+          "current": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          }
+        },
+        {
+          "tag": "SPAN",
+          "id": "pc-visual-count",
+          "class": "",
+          "previous": {
+            "x": 1239.59375,
+            "y": 473.828125,
+            "width": 94.0625,
+            "height": 37.4375,
+            "top": 473.828125,
+            "right": 1333.65625,
+            "bottom": 511.265625,
+            "left": 1239.59375
+          },
+          "current": {
+            "x": 1273.3125,
+            "y": 483.1875,
+            "width": 61,
+            "height": 18.71875,
+            "top": 483.1875,
+            "right": 1334.3125,
+            "bottom": 501.90625,
+            "left": 1273.3125
+          }
+        }
+      ]
+    },
+    {
+      "at": 343.90000000596046,
+      "value": 0.0017070978749300428,
+      "sources": [
+        {
+          "tag": "DIV",
+          "id": "pc-visual-status",
+          "class": "pc-visual-status",
+          "previous": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "current": {
+            "x": 761.46875,
+            "y": 815.328125,
+            "width": 596.015625,
+            "height": 42.390625,
+            "top": 815.328125,
+            "right": 1357.484375,
+            "bottom": 857.71875,
+            "left": 761.46875
+          }
+        },
+        {
+          "tag": "SECTION",
+          "id": "readiness-report",
+          "class": "program-panel",
+          "previous": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "current": {
+            "x": 760.46875,
+            "y": 882.71875,
+            "width": 598.015625,
+            "height": 17.28125,
+            "top": 882.71875,
+            "right": 1358.484375,
+            "bottom": 900,
+            "left": 760.46875
+          }
+        },
+        {
+          "tag": "SPAN",
+          "id": "pc-visual-count",
+          "class": "",
+          "previous": {
+            "x": 1273.3125,
+            "y": 483.1875,
+            "width": 61,
+            "height": 18.71875,
+            "top": 483.1875,
+            "right": 1334.3125,
+            "bottom": 501.90625,
+            "left": 1273.3125
+          },
+          "current": {
+            "x": 1239.59375,
+            "y": 473.828125,
+            "width": 94.0625,
+            "height": 37.4375,
+            "top": 473.828125,
+            "right": 1333.65625,
+            "bottom": 511.265625,
+            "left": 1239.59375
+          }
+        }
+      ]
+    }
+  ],
+  "longTasks": 1,
+  "longTaskMs": 102,
+  "domContentLoaded": 330.59999999403954,
+  "serverWait": 2.300000011920929,
+  "resourceTransfer": 178995,
+  "threeDRequests": 0,
+  "resources": 35
+}

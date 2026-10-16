@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-10-14T19:34:40.596Z",
-  "commands": 49,
-  "passed": 49,
+  "checkedAt": "2026-10-16T23:32:31.420Z",
+  "commands": 57,
+  "passed": 57,
   "results": [
     {
       "command": "node scripts/check-program.cjs",
@@ -245,6 +245,46 @@
     },
     {
       "command": "node scripts/public-price-assets.test.mjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/oct16-cooling-data.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/oct16-engine.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/oct16-workspace.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/oct16-editorial.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/oct16-upgrade.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/oct16-scene.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/test-growth-search-client.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/oct16-delivery.test.cjs",
       "exitCode": 0,
       "passed": true
     }

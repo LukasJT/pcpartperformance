@@ -1,0 +1,124 @@
+{
+  "intelBuild": {
+    "publisher": "Intel",
+    "title": "How to build a gaming PC",
+    "url": "https://www.intel.com/content/www/us/en/gaming/resources/how-to-build-a-gaming-pc.html",
+    "checked": "2026-10-16",
+    "access": "inspected",
+    "type": "manufacturer_planning_guide",
+    "scope": "Component roles and assembly planning. Used to ground the complete-system checklist, not to endorse Intel hardware or calculate a DIY savings percentage.",
+    "limitations": "Manufacturer guidance is not a neutral benchmark, retailer quote or universal claim that DIY is cheaper.",
+    "rights": "Citation and limited factual paraphrase only."
+  },
+  "windowsActivation": {
+    "publisher": "Microsoft Support",
+    "title": "Reactivating Windows after a hardware change",
+    "url": "https://support.microsoft.com/en-us/windows/activation/reactivating-windows-after-a-hardware-change",
+    "checked": "2026-10-16",
+    "access": "inspected",
+    "type": "software_support",
+    "scope": "A significant hardware change such as replacing the motherboard can require reactivation. Matching Windows edition and the actual licence matter.",
+    "limitations": "Account linking does not by itself establish transfer rights. No legal licence interpretation, key reseller endorsement or assumed free Windows cost.",
+    "rights": "Citation and limited factual paraphrase only."
+  },
+  "msi-5070": {
+    "publisher": "MSI",
+    "title": "GeForce RTX 5070 12G VENTUS 3X OC datasheet",
+    "url": "https://storage-asset.msi.com/datasheet/vga/id/GeForce-RTX-5070-12G-VENTUS-3X-OC.pdf",
+    "scope": "G5070-12V3C; dimensions 302 × 121 × 49 mm, 16-pin connection and output ports.",
+    "limitations": "Dimensions are manufacturer specifications, not a site measurement or proof of complete case clearance.",
+    "inspected": "2026-10-16",
+    "access": "Official public source text inspected",
+    "rights": "Citation and original paraphrase; no copied images, benchmark tables or datasets."
+  },
+  "asus-5070": {
+    "publisher": "ASUS",
+    "title": "PRIME-RTX5070-O12G technical specifications",
+    "url": "https://www.asus.com/motherboards-components/graphics-cards/prime/prime-rtx5070-o12g/techspec/",
+    "scope": "Exact OC model; dimensions 304 × 126 × 50 mm and 2.5-slot designation.",
+    "limitations": "Do not apply this model’s dimensions to white, non-OC, Ti or other partner variants.",
+    "inspected": "2026-10-16",
+    "access": "Official public source text inspected",
+    "rights": "Citation and original paraphrase; no copied images, benchmark tables or datasets."
+  },
+  "north-sheet": {
+    "publisher": "Fractal Design",
+    "title": "Original North English product sheet",
+    "url": "https://www.fractal-design.com/app/uploads/2022/12/North_Product-Sheet_EN.pdf",
+    "scope": "Original North case: 355 mm GPU allowance with front fan; 300 mm with front 360 mm radiator.",
+    "limitations": "Exclude North XL and other editions; this is a conditional length check, not full fit certification.",
+    "inspected": "2026-10-16",
+    "access": "Official public source text inspected",
+    "rights": "Citation and original paraphrase; no copied images, benchmark tables or datasets."
+  },
+  "amd-9800x3d-cooling": {
+    "publisher": "AMD",
+    "title": "Ryzen 7 9800X3D desktop processor specifications",
+    "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9800X3d.html",
+    "checked": "2026-10-16",
+    "access": "Official public source inspected",
+    "scope": "Exact boxed part 100-100001084WOF has no included thermal solution; AMD recommends liquid cooling for optimal performance.",
+    "limitations": "A manufacturer recommendation is not a measured result for every cooler, a requirement for a particular radiator size or proof of thermal adequacy.",
+    "rights": "Source citation and original factual explanation; no copied photographs, diagrams or benchmark datasets."
+  },
+  "noctua-g2-specs": {
+    "publisher": "Noctua",
+    "title": "NH-D15 G2 specifications",
+    "url": "https://www.noctua.at/en/products/nh-d15-g2/specifications",
+    "checked": "2026-10-16",
+    "access": "Official public source inspected",
+    "scope": "Standard NH-D15 G2: 168 mm published height with and without fans; supplied mounting system and thermal compound.",
+    "limitations": "Do not substitute NH-D15, HBC, LBC or a different mounting revision. Listed socket support does not certify the complete installed layout.",
+    "rights": "Source citation and original factual explanation; no copied photographs, diagrams or benchmark datasets."
+  },
+  "noctua-ram": {
+    "publisher": "Noctua",
+    "title": "CPU cooler RAM clearance",
+    "url": "https://www.noctua.at/en/support/faqs/what-is-the-ram-clearance-of-my-noctua-cpu-cooler",
+    "checked": "2026-10-16",
+    "access": "Official public source inspected",
+    "scope": "NH-D15 G2 standard dual-fan RAM clearance is 32 mm; raising an overhanging front fan increases the required case clearance.",
+    "limitations": "The worked arithmetic here uses that documented configuration. It is not a universal formula for all coolers or a measurement of the reader’s case.",
+    "rights": "Source citation and original factual explanation; no copied photographs, diagrams or benchmark datasets."
+  },
+  "arctic-lf3-manual": {
+    "publisher": "ARCTIC",
+    "title": "Liquid Freezer III 360 installation manual",
+    "url": "https://support.arctic.de/liquid-freezer-iii-360",
+    "checked": "2026-10-16",
+    "access": "Official public source inspected",
+    "scope": "Exact cooler socket-specific mounting paths, motherboard compatibility link, all-in-one or individual PWM wiring and radiator installation guidance.",
+    "limitations": "Do not transfer instructions to Liquid Freezer III Pro, another size or another revision. The exact motherboard manual still governs header ratings and controls.",
+    "rights": "Source citation and original factual explanation; no copied photographs, diagrams or benchmark datasets."
+  },
+  "arctic-lf3-drawing": {
+    "publisher": "ARCTIC",
+    "title": "Liquid Freezer III 360 two-dimensional drawing",
+    "url": "https://support.arctic.de/products/liquid-freezer-iii-360/techdocs/Liquid%20Freezer%20III%20360%20-%202D%20Drawing.pdf",
+    "checked": "2026-10-16",
+    "access": "Official public source inspected",
+    "scope": "ACFRE00136A drawing labels radiator thickness 38 mm and radiator/fan assembly envelope 66 mm. Drawing revision January 31, 2024.",
+    "limitations": "An occupied envelope is more useful than a nominal radiator class. Drawing length and a separate specification sheet differ; no disputed length is used to certify fit.",
+    "rights": "Source citation and original factual explanation; no copied photographs, diagrams or benchmark datasets."
+  },
+  "north-radiator": {
+    "publisher": "Fractal Design",
+    "title": "Original North radiator compatibility",
+    "url": "https://fractaldesign.freshdesk.com/support/solutions/articles/4000189453-north-radiator-compatibility",
+    "checked": "2026-10-16",
+    "access": "Official public source inspected",
+    "scope": "Original North: top radiator width limit 122 mm, front width limit 151 mm and conditional 35 mm motherboard-component height for a top radiator.",
+    "limitations": "Not North XL, North XL RC or every radiator stack. These conditional dimensions do not prove complete compatibility of a named cooler.",
+    "rights": "Source citation and original factual explanation; no copied photographs, diagrams or benchmark datasets."
+  },
+  "msi-cooler-guide": {
+    "publisher": "MSI",
+    "title": "How to choose a CPU cooler",
+    "url": "https://www.msi.com/blog/how-to-choose-a-cpu-cooler",
+    "checked": "2026-10-16",
+    "access": "Official public source inspected",
+    "scope": "Manufacturer explanation separating socket mounting, case height, RAM clearance, radiator fit and workload-related thermal needs.",
+    "limitations": "Published September 23, 2026. Manufacturer marketing recommendations and generic radiator-thickness ranges are not adopted as universal limits or benchmark results.",
+    "rights": "Source citation and original factual explanation; no copied photographs, diagrams or benchmark datasets."
+  }
+}

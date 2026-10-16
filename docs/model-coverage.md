@@ -1,6 +1,6 @@
 # 3D asset coverage
 
-All 840 catalog components are accounted for. **0 clearance-verified meshes; 105 components with downloaded Sketchfab/manufacturer models; 735 simplified previews, including shared category silhouettes; 0 parts with no preview file; 735 still need a downloaded model.**
+All 852 catalog components are accounted for. **0 clearance-verified meshes; 105 components with downloaded Sketchfab/manufacturer models; 735 simplified previews, including shared category silhouettes; 12 parts with no preview file; 747 still need a downloaded model.**
 
 Shared category silhouettes use assumed sizes; community models and simplified geometry must not be presented as manufacturing or clearance models. Catalog-wide exact modeling remains unfinished.
 
@@ -15,5 +15,6 @@ Shared category silhouettes use assumed sizes; community models and simplified g
 |hdd|45|1|44|0|
 |psu|70|1|69|0|
 |fan|50|27|23|0|
+|cooler|12|0|0|12|
 
 Every entry, its source, identity and blockers are in dist/model-library.json.
