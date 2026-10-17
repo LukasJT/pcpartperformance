@@ -1,0 +1,62 @@
+{
+  "checkedAt": "2026-10-17T22:24:21.020Z",
+  "commit": "e8c321b90d75e4dca9f0e96ded6b39dd71b83fd4",
+  "checkRuns": [
+    {
+      "id": 117519731723,
+      "name": "Workers Builds: pcpartperformance-live",
+      "status": "completed",
+      "conclusion": "success",
+      "head_sha": "e8c321b90d75e4dca9f0e96ded6b39dd71b83fd4",
+      "details_url": "https://dash.cloudflare.com/544465516a580e551501b219bd8f089f/workers/services/view/pcpartperformance-live/production/builds/464cf286-9a1c-4f13-a60d-8ceed3870975",
+      "started_at": "2026-10-17T22:23:01Z",
+      "completed_at": "2026-10-17T22:23:01Z"
+    }
+  ],
+  "release": {
+    "schema": 1,
+    "program": "2026-10-11-continuation",
+    "commit": "e8c321b90d75e4dca9f0e96ded6b39dd71b83fd4",
+    "generatedAt": "2026-10-17T22:21:46.660Z",
+    "staging": false
+  },
+  "adAssetBoundary": [
+    {
+      "path": "/ads/300x250.html",
+      "status": 302,
+      "destination": "https://pcpartperformance-live.lukastadros06.workers.dev/ads/300x250.html",
+      "noindex": true,
+      "absentFromSitemap": true
+    },
+    {
+      "path": "/ads/320x50.html",
+      "status": 302,
+      "destination": "https://pcpartperformance-live.lukastadros06.workers.dev/ads/320x50.html",
+      "noindex": true,
+      "absentFromSitemap": true
+    },
+    {
+      "path": "/ads/468x60.html",
+      "status": 302,
+      "destination": "https://pcpartperformance-live.lukastadros06.workers.dev/ads/468x60.html",
+      "noindex": true,
+      "absentFromSitemap": true
+    },
+    {
+      "path": "/ads/728x90.html",
+      "status": 302,
+      "destination": "https://pcpartperformance-live.lukastadros06.workers.dev/ads/728x90.html",
+      "noindex": true,
+      "absentFromSitemap": true
+    },
+    {
+      "path": "/ads/native.html",
+      "status": 302,
+      "destination": "https://pcpartperformance-live.lukastadros06.workers.dev/ads/native.html",
+      "noindex": true,
+      "absentFromSitemap": true
+    }
+  ],
+  "passed": true,
+  "scope": "Public deployment marker, GitHub Cloudflare check result, sitemap exclusion and isolated noindex asset responses. No advertising script was executed."
+}

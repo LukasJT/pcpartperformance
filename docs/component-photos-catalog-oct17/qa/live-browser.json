@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-17T19:50:32.649Z",
+  "checkedAt": "2026-10-17T22:23:54.561Z",
   "origin": "https://www.pcpartperformance.com",
   "baseline": false,
   "checks": [
@@ -9,50 +9,50 @@
       "photos": [
         {
           "category": "cpu",
-          "id": "7700x",
-          "src": "/assets/hardware/catalog-cpu-board-oct17/7700x-320.webp",
+          "id": "3950x",
+          "src": "/assets/hardware/catalog-remaining-cpu-extra-oct17/3950x-212febbf01-320.webp",
           "width": 320,
-          "height": 320,
+          "height": 202,
           "fit": "contain"
         },
         {
           "category": "board",
-          "id": "b450",
-          "src": "/assets/hardware/catalog-cpu-board-oct17/b450-320.webp",
-          "width": 320,
-          "height": 256,
+          "id": "b650aorus",
+          "src": "/assets/hardware/catalog-remaining-special-oct17/b650aorus-552ee3980e-320.webp",
+          "width": 240,
+          "height": 320,
           "fit": "contain"
         },
         {
           "category": "gpu",
-          "id": "rx570",
-          "src": "/assets/hardware/catalog-gpu-oct17/rx570-320.webp",
+          "id": "r9380x",
+          "src": "/assets/hardware/catalog-remaining-gpu-oct17/r9380x-f350aaf835-320.webp",
           "width": 320,
-          "height": 256,
+          "height": 202,
           "fit": "contain"
         },
         {
           "category": "ram",
-          "id": "gskill6000c30",
-          "src": "/assets/hardware/catalog-storage-psu-oct17/gskill6000c30-4235ed4ed3-320.webp",
+          "id": "ddr266-256",
+          "src": "/assets/hardware/catalog-remaining-parent-oct17/ddr266-256-251b068800-320.webp",
           "width": 320,
-          "height": 172,
+          "height": 240,
           "fit": "contain"
         },
         {
           "category": "ssd",
-          "id": "990pro",
-          "src": "/assets/hardware/catalog-storage-psu-oct17/990pro-03f09a9200-320.webp",
+          "id": "kc3000",
+          "src": "/assets/hardware/catalog-remaining-storage-oct17/kc3000-b93205882a-320.webp",
           "width": 320,
-          "height": 213,
+          "height": 187,
           "fit": "contain"
         },
         {
           "category": "hdd",
-          "id": "ironwolf4tb",
-          "src": "/assets/hardware/catalog-storage-psu-oct17/ironwolf4tb-0a50f15169-320.webp",
-          "width": 110,
-          "height": 110,
+          "id": "barracuda2",
+          "src": "/assets/hardware/catalog-remaining-storage-oct17/barracuda2-f9c97c9cf4-320.webp",
+          "width": 320,
+          "height": 320,
           "fit": "contain"
         },
         {
@@ -91,17 +91,32 @@
     },
     {
       "width": 360,
-      "route": "/learn/7700x.html",
+      "route": "/learn/3950x.html",
       "correctImage": true
     },
     {
       "width": 360,
-      "route": "/learn/rx570.html",
+      "route": "/learn/b650aorus.html",
       "correctImage": true
     },
     {
       "width": 360,
-      "route": "/learn/990pro.html",
+      "route": "/learn/r9380x.html",
+      "correctImage": true
+    },
+    {
+      "width": 360,
+      "route": "/learn/ddr266-256.html",
+      "correctImage": true
+    },
+    {
+      "width": 360,
+      "route": "/learn/kc3000.html",
+      "correctImage": true
+    },
+    {
+      "width": 360,
+      "route": "/learn/barracuda2.html",
       "correctImage": true
     },
     {
@@ -126,50 +141,50 @@
       "photos": [
         {
           "category": "cpu",
-          "id": "7700x",
-          "src": "/assets/hardware/catalog-cpu-board-oct17/7700x-320.webp",
+          "id": "3950x",
+          "src": "/assets/hardware/catalog-remaining-cpu-extra-oct17/3950x-212febbf01-320.webp",
           "width": 320,
-          "height": 320,
+          "height": 202,
           "fit": "contain"
         },
         {
           "category": "board",
-          "id": "b450",
-          "src": "/assets/hardware/catalog-cpu-board-oct17/b450-320.webp",
-          "width": 320,
-          "height": 256,
+          "id": "b650aorus",
+          "src": "/assets/hardware/catalog-remaining-special-oct17/b650aorus-552ee3980e-320.webp",
+          "width": 240,
+          "height": 320,
           "fit": "contain"
         },
         {
           "category": "gpu",
-          "id": "rx570",
-          "src": "/assets/hardware/catalog-gpu-oct17/rx570-320.webp",
+          "id": "r9380x",
+          "src": "/assets/hardware/catalog-remaining-gpu-oct17/r9380x-f350aaf835-320.webp",
           "width": 320,
-          "height": 256,
+          "height": 202,
           "fit": "contain"
         },
         {
           "category": "ram",
-          "id": "gskill6000c30",
-          "src": "/assets/hardware/catalog-storage-psu-oct17/gskill6000c30-4235ed4ed3-320.webp",
+          "id": "ddr266-256",
+          "src": "/assets/hardware/catalog-remaining-parent-oct17/ddr266-256-251b068800-320.webp",
           "width": 320,
-          "height": 172,
+          "height": 240,
           "fit": "contain"
         },
         {
           "category": "ssd",
-          "id": "990pro",
-          "src": "/assets/hardware/catalog-storage-psu-oct17/990pro-03f09a9200-320.webp",
+          "id": "kc3000",
+          "src": "/assets/hardware/catalog-remaining-storage-oct17/kc3000-b93205882a-320.webp",
           "width": 320,
-          "height": 213,
+          "height": 187,
           "fit": "contain"
         },
         {
           "category": "hdd",
-          "id": "ironwolf4tb",
-          "src": "/assets/hardware/catalog-storage-psu-oct17/ironwolf4tb-0a50f15169-320.webp",
-          "width": 110,
-          "height": 110,
+          "id": "barracuda2",
+          "src": "/assets/hardware/catalog-remaining-storage-oct17/barracuda2-f9c97c9cf4-320.webp",
+          "width": 320,
+          "height": 320,
           "fit": "contain"
         },
         {
@@ -208,17 +223,32 @@
     },
     {
       "width": 390,
-      "route": "/learn/7700x.html",
+      "route": "/learn/3950x.html",
       "correctImage": true
     },
     {
       "width": 390,
-      "route": "/learn/rx570.html",
+      "route": "/learn/b650aorus.html",
       "correctImage": true
     },
     {
       "width": 390,
-      "route": "/learn/990pro.html",
+      "route": "/learn/r9380x.html",
+      "correctImage": true
+    },
+    {
+      "width": 390,
+      "route": "/learn/ddr266-256.html",
+      "correctImage": true
+    },
+    {
+      "width": 390,
+      "route": "/learn/kc3000.html",
+      "correctImage": true
+    },
+    {
+      "width": 390,
+      "route": "/learn/barracuda2.html",
       "correctImage": true
     },
     {
@@ -243,50 +273,50 @@
       "photos": [
         {
           "category": "cpu",
-          "id": "7700x",
-          "src": "/assets/hardware/catalog-cpu-board-oct17/7700x-320.webp",
+          "id": "3950x",
+          "src": "/assets/hardware/catalog-remaining-cpu-extra-oct17/3950x-212febbf01-320.webp",
           "width": 320,
-          "height": 320,
+          "height": 202,
           "fit": "contain"
         },
         {
           "category": "board",
-          "id": "b450",
-          "src": "/assets/hardware/catalog-cpu-board-oct17/b450-320.webp",
-          "width": 320,
-          "height": 256,
+          "id": "b650aorus",
+          "src": "/assets/hardware/catalog-remaining-special-oct17/b650aorus-552ee3980e-320.webp",
+          "width": 240,
+          "height": 320,
           "fit": "contain"
         },
         {
           "category": "gpu",
-          "id": "rx570",
-          "src": "/assets/hardware/catalog-gpu-oct17/rx570-320.webp",
+          "id": "r9380x",
+          "src": "/assets/hardware/catalog-remaining-gpu-oct17/r9380x-f350aaf835-320.webp",
           "width": 320,
-          "height": 256,
+          "height": 202,
           "fit": "contain"
         },
         {
           "category": "ram",
-          "id": "gskill6000c30",
-          "src": "/assets/hardware/catalog-storage-psu-oct17/gskill6000c30-4235ed4ed3-320.webp",
+          "id": "ddr266-256",
+          "src": "/assets/hardware/catalog-remaining-parent-oct17/ddr266-256-251b068800-320.webp",
           "width": 320,
-          "height": 172,
+          "height": 240,
           "fit": "contain"
         },
         {
           "category": "ssd",
-          "id": "990pro",
-          "src": "/assets/hardware/catalog-storage-psu-oct17/990pro-03f09a9200-320.webp",
+          "id": "kc3000",
+          "src": "/assets/hardware/catalog-remaining-storage-oct17/kc3000-b93205882a-320.webp",
           "width": 320,
-          "height": 213,
+          "height": 187,
           "fit": "contain"
         },
         {
           "category": "hdd",
-          "id": "ironwolf4tb",
-          "src": "/assets/hardware/catalog-storage-psu-oct17/ironwolf4tb-0a50f15169-320.webp",
-          "width": 110,
-          "height": 110,
+          "id": "barracuda2",
+          "src": "/assets/hardware/catalog-remaining-storage-oct17/barracuda2-f9c97c9cf4-320.webp",
+          "width": 320,
+          "height": 320,
           "fit": "contain"
         },
         {
@@ -325,17 +355,32 @@
     },
     {
       "width": 1440,
-      "route": "/learn/7700x.html",
+      "route": "/learn/3950x.html",
       "correctImage": true
     },
     {
       "width": 1440,
-      "route": "/learn/rx570.html",
+      "route": "/learn/b650aorus.html",
       "correctImage": true
     },
     {
       "width": 1440,
-      "route": "/learn/990pro.html",
+      "route": "/learn/r9380x.html",
+      "correctImage": true
+    },
+    {
+      "width": 1440,
+      "route": "/learn/ddr266-256.html",
+      "correctImage": true
+    },
+    {
+      "width": 1440,
+      "route": "/learn/kc3000.html",
+      "correctImage": true
+    },
+    {
+      "width": 1440,
+      "route": "/learn/barracuda2.html",
       "correctImage": true
     },
     {

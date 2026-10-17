@@ -13,7 +13,7 @@ Seven records need product-identity clarification. This is incomplete exact-phot
 | IMGR-3: integrate across existing presentations | IMGR-2 | Implemented | Central registry; builder, catalog, shop, comparisons and generated product pages |
 | IMGR-4: keep delivery compact | IMGR-3 | Implemented | `program-image-delivery.cjs`: shared directory/filename prefixes; exact list names use catalog alternatives; generic GPU variants retain their pictured identity |
 | IMGR-5: verify data and browser behavior | IMGR-4 | Passed after production-branch integration | Full build; 77 repository check groups; 30 photo/layout cases; nine interaction journeys; file decoding; HTML, resource, type and scoped lint checks |
-| IMGR-6: publish and verify production | IMGR-5 | Pending live release verification | Existing Git deployment; exact production marker, public asset hashes and rendered checks |
+| IMGR-6: publish and verify production | IMGR-5 | Verified live: `e8c321b90d75e4dca9f0e96ded6b39dd71b83fd4` | Cloudflare success; exact production marker; 1,423 public photo checks; 30 rendered live cases; 58 feature, 18 UI and 19 starter-photo checks |
 
 ## Seven outstanding identities
 

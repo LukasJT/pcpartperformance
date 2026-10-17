@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-10-17T19:50:57.424Z",
-  "commit": "f704e335c46f2fdb7f0a18f81e65bdd7eb03d892",
+  "checkedAt": "2026-10-17T22:24:33.512Z",
+  "commit": "e8c321b90d75e4dca9f0e96ded6b39dd71b83fd4",
   "release": {
     "schema": 1,
     "program": "2026-10-11-continuation",
-    "commit": "f704e335c46f2fdb7f0a18f81e65bdd7eb03d892",
-    "generatedAt": "2026-10-17T19:47:47.873Z",
+    "commit": "e8c321b90d75e4dca9f0e96ded6b39dd71b83fd4",
+    "generatedAt": "2026-10-17T22:21:46.660Z",
     "staging": false
   },
   "passed": true,
-  "reviewedRepairs": 529,
+  "reviewedRepairs": 714,
   "checks": [
     {
       "route": "/builder-images.js",
@@ -34,6 +34,66 @@
       "sha256": "d56a80b718ca8635095a519289d94d514591534b588dcdc0390075d4c014d14c"
     },
     {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/3100-bafc9f046d.webp",
+      "bytes": 70060,
+      "sha256": "bafc9f046dceeff3e57bfcf027d99b3b0641c31cc004e95fb053bd7cd86d45a6"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/3100-bafc9f046d-320.webp",
+      "bytes": 8756,
+      "sha256": "9f3b31eaa832671cd92cca4d113364201e6bd559605383ece5cde09f9a14471a"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/3600-d86a29a33e.webp",
+      "bytes": 47162,
+      "sha256": "d86a29a33ee05816dc90e02b9784e81b6e75eb92ed7f7299b31977c891d7dbb8"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/3600-d86a29a33e-320.webp",
+      "bytes": 5766,
+      "sha256": "9fa32d4026b48dfc3d24ec1369bbade25f56d0915d0a0fca4786dbfd0469dffd"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-extra-oct17/4100-06d19346b4.webp",
+      "bytes": 35838,
+      "sha256": "206eb5c30c89977a55f5d2290e9d127dfba5ab54457146af2a9f9097d6aefc58"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-extra-oct17/4100-06d19346b4-320.webp",
+      "bytes": 6516,
+      "sha256": "883ffbfc4f6a3ec61775319487f258f5ef13d85eb7f34c1b9cbe26784dfec62c"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-extra-oct17/4500-86ccc8a6b3.webp",
+      "bytes": 43784,
+      "sha256": "30ef85a705d21ad5e852998f06aa1c669fc136b97d962f8191570f13e9346238"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-extra-oct17/4500-86ccc8a6b3-320.webp",
+      "bytes": 9324,
+      "sha256": "4f0ccb057a98cabde8c6589334cdb0c1c18116fbb03fa00b403c58a6bdcc7794"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-extra-oct17/5500-428ffc5f9f.webp",
+      "bytes": 43010,
+      "sha256": "0e57c1e781475729725a4334350a5ba8b8ce5e194cdad27b2f72dc885dd58e4a"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-extra-oct17/5500-428ffc5f9f-320.webp",
+      "bytes": 12192,
+      "sha256": "4ac835edb81931b3234b0817daaf41736208212993d744ebca4ec1d88bb30737"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/5600-8a70c1ab7f.webp",
+      "bytes": 63894,
+      "sha256": "8a70c1ab7f455a8b16d5736ea78d24d245e705f506a90674f34f3e37ecc2eb46"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/5600-8a70c1ab7f-320.webp",
+      "bytes": 6448,
+      "sha256": "a5879985ec0af81963de163f7e09435d5b1f178d4ab446813fd16d1375eb22a0"
+    },
+    {
       "route": "/assets/hardware/catalog-cpu-extra-oct17/7600-d3d93fadef.webp",
       "bytes": 197786,
       "sha256": "d3d93fadef41b46b47e08df717a6ae081e6ed26b5b741133377de853e9e72c02"
@@ -52,6 +112,16 @@
       "route": "/assets/hardware/catalog-cpu-board-oct17/7700-320.webp",
       "bytes": 5164,
       "sha256": "4c4c5ca70f3bb7e38f751e4ccf20314b60e0f60841f9d900921072785b4011f2"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/7900-5b9e3e53fd.webp",
+      "bytes": 110492,
+      "sha256": "5b9e3e53fd7adefb32d9842fa0cbf990d127579b228ebe3df1011cfa10a28dd9"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/7900-5b9e3e53fd-320.webp",
+      "bytes": 13264,
+      "sha256": "3ddef7b7027c5f74edbd6da37e901076a20ad81cff5df1667d040a8c83c8f955"
     },
     {
       "route": "/assets/hardware/catalog-cpu-board-oct17/7700x.webp",
@@ -5154,6 +5224,1786 @@
       "sha256": "3f4dad1a282857ccb78c7a649915ea24bf29b6d929ed314b3ce745681ef7fb1c"
     },
     {
+      "route": "/assets/hardware/catalog-remaining-parent-oct17/simm30-1mb-eba8ecc347.webp",
+      "bytes": 42290,
+      "sha256": "09bb61457703806bbe05e0e69b6478ecf4eb2ac8bd07e989647803b6068c85b6"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-parent-oct17/simm30-1mb-eba8ecc347-320.webp",
+      "bytes": 7464,
+      "sha256": "935b8c71043c6469b3b1530fd0643389ef6461486c6ffd4b1f9ab31a858c43a3"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-parent-oct17/ddr266-256-251b068800.webp",
+      "bytes": 42700,
+      "sha256": "f064b85f6f407d0d1eddfb0ccf36b9175f15a96aee2e840c350a71b959c7f9c4"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-parent-oct17/ddr266-256-251b068800-320.webp",
+      "bytes": 5740,
+      "sha256": "0d7ba8e710a8d702fc34decb96eeb1a54e6a0e62d5372876ceb3ed6cbf0e1fb5"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-parent-oct17/sdram-pc100-f66fab5d8d.webp",
+      "bytes": 72774,
+      "sha256": "a73fdfae8720fc4c57f629bb9be924eab46f7008b5b6e30fc83e74dd55b9e1cd"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-parent-oct17/sdram-pc100-f66fab5d8d-320.webp",
+      "bytes": 10292,
+      "sha256": "bc1571be2cd7ea7f3d9442902218025b3de989a087140d58f4adcb1e5911d02f"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-parent-oct17/ibmpc64k-1904df8d2a.webp",
+      "bytes": 147346,
+      "sha256": "124c4dbc6531bf1f0fab493e2e82560f1f565a8de4a72c1cc45ba57c9ce76465"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-parent-oct17/ibmpc64k-1904df8d2a-320.webp",
+      "bytes": 24120,
+      "sha256": "2830e50f0dc7de4c36ce49cca80b5a779099127c4719a9a52cf418496281e0d3"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-parent-oct17/retail-gigabyte-b550-aorus-elite-v2-0a2f6c31c6.webp",
+      "bytes": 86932,
+      "sha256": "269b3ecfc97686dfe73acea1dbddbef35770081a4bde27a2f6a9fcef9ef6f77e"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-parent-oct17/retail-gigabyte-b550-aorus-elite-v2-0a2f6c31c6-320.webp",
+      "bytes": 14442,
+      "sha256": "3bbdbc09d246bc0c97cfe8438c6ae056496898a83f1e65e339992c2ebc8a7be4"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-gpu-oct17/geforce2gts-0fab0f7025.webp",
+      "bytes": 77296,
+      "sha256": "ffbf353cdc7cb27e6e23872fed6598a6ad665852f0872a9ac322b7c74da52c26"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-gpu-oct17/geforce2gts-0fab0f7025-320.webp",
+      "bytes": 12470,
+      "sha256": "5b85314ac1f190b70c1a44f609b32f429f67db6edf828216e2768971aec828ed"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-gpu-oct17/rivatnt-5c47a57256.webp",
+      "bytes": 71200,
+      "sha256": "49e1f57cee52501ac349c65cc58d93b713d9482673dbb4894b963849f970d6ba"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-gpu-oct17/rivatnt-5c47a57256-320.webp",
+      "bytes": 11826,
+      "sha256": "d0e4ea4902b6ef7f778396a22d45f522a4987c9dac8b215c9ec6228a876c33cc"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-gpu-oct17/r9380x-f350aaf835.webp",
+      "bytes": 31808,
+      "sha256": "96c884532602e8d60ee79d711f1c58a4d469016b6a573132b3df509f282d7f9f"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-gpu-oct17/r9380x-f350aaf835-320.webp",
+      "bytes": 10574,
+      "sha256": "519024b32821ab07b1b0e342de80ebd68174338fa697b9b5ccc98f3b3e89a698"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-gpu-oct17/radeonddr-31c1926214.webp",
+      "bytes": 157334,
+      "sha256": "9f3bab8cf19c104713d50e14d5e99e06ff7fcf74707c24b34d38001d23a0d046"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-gpu-oct17/radeonddr-31c1926214-320.webp",
+      "bytes": 19282,
+      "sha256": "eef1b7a046b1b1f5309d593cf860c4e7207899f50df8a261cd25d1542a41046f"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-gpu-oct17/geforcefx5800u-225790f6e0.webp",
+      "bytes": 67246,
+      "sha256": "823431cda6f6ae71090330b5a860d07608ad0f4ee3bec22f61476fc69f26d443"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-gpu-oct17/geforcefx5800u-225790f6e0-320.webp",
+      "bytes": 14806,
+      "sha256": "b2a7c7f064d447efbf47da198b57595be25c4fae711b89fb03f63940b9ea16ca"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-gpu-oct17/hd5870-0f3e3e2a55.webp",
+      "bytes": 40322,
+      "sha256": "a35700da69fd29425f50d0a4b0280ac26a9e12f8de1514d4bd25f9c0a860d355"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-gpu-oct17/hd5870-0f3e3e2a55-320.webp",
+      "bytes": 10212,
+      "sha256": "bb1c5b3bbed674278bceb10127aad87fbaa53059fc9c8982460691c9c75b4b2d"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-gpu-oct17/radeonx800xt-eb3ae4eb9c.webp",
+      "bytes": 80164,
+      "sha256": "1c7f4d769074a640148b8e7c37022f716bec9d6ba90b0aa5e54550e2ec36e449"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-gpu-oct17/radeonx800xt-eb3ae4eb9c-320.webp",
+      "bytes": 19236,
+      "sha256": "196eeb7a214c51b14e3c07477d4a3aff4dc4c15668fdbb0efb39ed2ffe868d93"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-gpu-oct17/radeonx1900xtx-d3cdae54f8.webp",
+      "bytes": 74064,
+      "sha256": "72c02cbceed7daa3d6b9c0db97a6159f4537cee6b1e230f8da6d64ee2e28f335"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-gpu-oct17/radeonx1900xtx-d3cdae54f8-320.webp",
+      "bytes": 13662,
+      "sha256": "a077d92c08fb0a3a49193d638dfe9a93a285c504bd1df05f667b7fd4e7ee2deb"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-gpu-oct17/gf4ti4600-5c943c4a80.webp",
+      "bytes": 112244,
+      "sha256": "0d8dacbe7a5066160f2a03a6ade3d911820a1b917f97c2faad48ade9c79a6d06"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-gpu-oct17/gf4ti4600-5c943c4a80-320.webp",
+      "bytes": 18398,
+      "sha256": "ad744920830fa68a4ee65683313b5d5d5199ad6da9db155f7952ab6c92791032"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-gpu-oct17/voodoo-graphics-848ad6659f.webp",
+      "bytes": 114510,
+      "sha256": "31dc46892b8a06a1508934cb52d104c1aa71a12534233077ab3b3b5b36dd25a0"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-gpu-oct17/voodoo-graphics-848ad6659f-320.webp",
+      "bytes": 16934,
+      "sha256": "f67d9f2fb84e05919109ff8c3dc1831eef1bc01484018c4f68bef9c1c689987c"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-gpu-oct17/radeon9700pro-187dea1b3e.webp",
+      "bytes": 112306,
+      "sha256": "6e4b36f41597132e46df95eb4ffc6dcd06a5d508dd2c0a9ed0a2467bfce7f29c"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-gpu-oct17/radeon9700pro-187dea1b3e-320.webp",
+      "bytes": 24172,
+      "sha256": "8c7e74f7ff8d23fc92753098e1468aae70a95ac0a64efdc614d7316d8dda2f21"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-gpu-oct17/geforce256ddr-1bf641b906.webp",
+      "bytes": 104506,
+      "sha256": "24ce3c50e4596abd6a9d907d3a97c1e52b05c7228502ce860632a220753e410f"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-gpu-oct17/geforce256ddr-1bf641b906-320.webp",
+      "bytes": 15370,
+      "sha256": "f2edbcee8c75044f16e26bb087594e3735caa256dc0ed98c1732f2e50931bf0a"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-gpu-oct17/voodoo2-12-95f119138a.webp",
+      "bytes": 34246,
+      "sha256": "056e87377b67ef5e324ab888280da6ec97c76b9232e8cae3eccf71268e0ad298"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-gpu-oct17/voodoo2-12-95f119138a-320.webp",
+      "bytes": 22110,
+      "sha256": "2fe3625051679a44747bd24aea7aee0eee9336b9615d98aaa732dc25ff830266"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-gpu-oct17/rivatnt2-d60a955ce1.webp",
+      "bytes": 76470,
+      "sha256": "fada2f90d3adbfbdfcad50dbe35124ce64a2a2e87487beb4829aaffad57e5477"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-gpu-oct17/rivatnt2-d60a955ce1-320.webp",
+      "bytes": 14926,
+      "sha256": "a2615910e9483a95448987f89523859bd96f706ee9551fec3b499b8fcd5169bb"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-gpu-oct17/geforce3-cb07abb458.webp",
+      "bytes": 65932,
+      "sha256": "ea6e5d78a71f6973d4f093d42c573945ad83569f45cdaac7d5f60488fd0846bc"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-gpu-oct17/geforce3-cb07abb458-320.webp",
+      "bytes": 14408,
+      "sha256": "c3cb8138c7aeec7aebdbf2945fd2b8bfab8139c93cb6f30d142e952758390645"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-gpu-oct17/radeon8500-12f17ed424.webp",
+      "bytes": 126274,
+      "sha256": "2a016d34f08473af49952f444370b37e8ee103aab2465afa1180d43f75fc74ec"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-gpu-oct17/radeon8500-12f17ed424-320.webp",
+      "bytes": 20594,
+      "sha256": "540d209b43de848fbc96b2f3bb36ea671ebc4409b25f967d349ea936bb801540"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-gpu-oct17/ibm-vga-b41afacf37.webp",
+      "bytes": 66670,
+      "sha256": "f33828a91a1100c3c47df2df2bca10ff635570fb0751e0f272bdf059a96974f9"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-gpu-oct17/ibm-vga-b41afacf37-320.webp",
+      "bytes": 11428,
+      "sha256": "76517fcfc38d0d1a07cc5f12a045c3e6f1e1168ce8063bb2352f75b9ac7bd4d2"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/kc3000-b93205882a.webp",
+      "bytes": 14722,
+      "sha256": "70cb80599abf22b49c3d8c202f62e6742784b269781b45dcf51e49bb98c6e6ae"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/kc3000-b93205882a-320.webp",
+      "bytes": 2770,
+      "sha256": "c33c6d169432c09dddbf7f8be010dad44973ebe3814eb9c084f12be500bbb308"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/crucialt500-bd1e984a69.webp",
+      "bytes": 14694,
+      "sha256": "84330aeda1cb4c45125639305d21d121ac492d3cc42d37aa4d65dfa3041d6bbd"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/crucialt500-bd1e984a69-320.webp",
+      "bytes": 2386,
+      "sha256": "afeeadd4dc246be4d6cbbbcf12e3258058803cec21a73a04fde41064db10ae0f"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-ssd-samsung-870-qvo-8tb-49256a08c3.webp",
+      "bytes": 22284,
+      "sha256": "e2e926a845b682e08be52b7d61aa34a08cae761fed7fa818fbbf16cd3afa1fc0"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-ssd-samsung-870-qvo-8tb-49256a08c3-320.webp",
+      "bytes": 2390,
+      "sha256": "9c881a9510616fa0c17c1b335dd9c016b85f7ad5149f00e031ac02ec9b3491cf"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-ssd-wd-black-sn850x-4tb-947945a84e.webp",
+      "bytes": 22080,
+      "sha256": "b070dd8dd11e389862699a3a16366552e489127d8a7e9efb13a7e062af0ea0d5"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-ssd-wd-black-sn850x-4tb-947945a84e-320.webp",
+      "bytes": 4170,
+      "sha256": "d974a337e6114ac4c974222a099da5f4695bb845ec4dee6c61b89174f913421a"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-ssd-wd-black-sn850x-2tb-75c5c1bede.webp",
+      "bytes": 11326,
+      "sha256": "116514831913ad38d9649d8c857591d1c115336839d996b65935f5bc04ff7993"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-ssd-wd-black-sn850x-2tb-75c5c1bede-320.webp",
+      "bytes": 2786,
+      "sha256": "1cded366fd71bb68bc38cb8ee57d2dda7183f25f312d2e9c309b345d139a0288"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-ssd-kingston-fury-renegade-g5-4tb-d778ce9850.webp",
+      "bytes": 22186,
+      "sha256": "dd905053db218798e1b2eaa3181ee11335989f1b567c4629a17e3769e6e248a4"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-ssd-kingston-fury-renegade-g5-4tb-d778ce9850-320.webp",
+      "bytes": 4454,
+      "sha256": "c47b22992c6bc7e73d793e6c1900e48d29d026c99b4b4adca4ec6a6fd6cf2657"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/retail-samsung-sm883-960gb-a4e0f00d39.webp",
+      "bytes": 9282,
+      "sha256": "d153f87375a5e4460315451c6c38bfbec798acc91f077049e8181cf593122c88"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/retail-samsung-sm883-960gb-a4e0f00d39-320.webp",
+      "bytes": 3782,
+      "sha256": "84808221dfc366df711d6251c3826e5c9b81f52756b50a951aab2ad5ca95a4ee"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-ssd-crucial-bx500-2tb-ba3152ad10.webp",
+      "bytes": 20944,
+      "sha256": "2598cd0a63873632852134a3400678a78328fb7636acb1cedb8d0c8a848d9b3d"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-ssd-crucial-bx500-2tb-ba3152ad10-320.webp",
+      "bytes": 3164,
+      "sha256": "3b7f371dcfbfe498bfcfeecba3aac8bdcdc438e4e166a0f1f6574257ea49e31c"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-ssd-samsung-850-evo-1tb-9a088b7bac.webp",
+      "bytes": 43810,
+      "sha256": "088943659e34afe57b8a53d26bd3876e9ab915e85de7e5badb67bd04fbd5cd40"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-ssd-samsung-850-evo-1tb-9a088b7bac-320.webp",
+      "bytes": 3722,
+      "sha256": "f29393672bdf528e9869eb91e2a4714d5f97a9f4497b02e651b692c98a097b66"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-hdd-seagate-exos-x24-24tb-36ecd0f385.webp",
+      "bytes": 17488,
+      "sha256": "830c64a9fd1efd2985863a809798ebe66e08c0f291b25ea90cc6ff268d4e21d6"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-hdd-seagate-exos-x24-24tb-36ecd0f385-320.webp",
+      "bytes": 4712,
+      "sha256": "0887bd93fe69c0af0b04839d6a14ff46b4cbb09ca535f5376cef5177f0aa8999"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-ssd-crucial-t500-2tb-bd1e984a69.webp",
+      "bytes": 14694,
+      "sha256": "84330aeda1cb4c45125639305d21d121ac492d3cc42d37aa4d65dfa3041d6bbd"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-ssd-crucial-t500-2tb-bd1e984a69-320.webp",
+      "bytes": 2386,
+      "sha256": "afeeadd4dc246be4d6cbbbcf12e3258058803cec21a73a04fde41064db10ae0f"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/crucialp3plus-2daedd02d1.webp",
+      "bytes": 7696,
+      "sha256": "ff9ef0f935c7c8ad1c3394f95a26c1a44e385145cb066ec6fe149c60eb302d85"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/crucialp3plus-2daedd02d1-320.webp",
+      "bytes": 4730,
+      "sha256": "edc9914acc44667b8d205dc64bb980b8de1c561ba932f22cc08413a440376996"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/crucialmx500-d9275ab6cd.webp",
+      "bytes": 7962,
+      "sha256": "a0bce7963931a5b61e4e7f0f0f33712a4366db52d96db24f1f35eb6218e0bf3b"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/crucialmx500-d9275ab6cd-320.webp",
+      "bytes": 4536,
+      "sha256": "48803981be3a3d391d8d48de3e3a058d9c71877ba8d2b0d161fd4a599e32fd64"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/crucialp5plus-9c1a174b84.webp",
+      "bytes": 7078,
+      "sha256": "48fa808653c9319df525c679600f968c5869e5838ec0a6d383e12fb527ff77d0"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/crucialp5plus-9c1a174b84-320.webp",
+      "bytes": 4444,
+      "sha256": "549f54a30f753ee6ba23f0ef7ab9ebade38fe9948f17762269d7565139f12f9e"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-ssd-crucial-t700-4tb-68004a8423.webp",
+      "bytes": 5128,
+      "sha256": "d7d32d972d8bcbf26d43800859a6bb1020d4d8436e82ff9784c448a35e84f19c"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-ssd-crucial-t700-4tb-68004a8423-320.webp",
+      "bytes": 3054,
+      "sha256": "d9c6e10fb4f330b121980a896eba186a72127bb8e9641aad3462d9c660773d30"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-ssd-crucial-p3-4tb-ad4517593d.webp",
+      "bytes": 7362,
+      "sha256": "5698e2b2c0fa64b10ff57247fe483efe389b13545cdd24f17c4e60b6ada23547"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-ssd-crucial-p3-4tb-ad4517593d-320.webp",
+      "bytes": 4554,
+      "sha256": "f4f0aee9cb6d37122582b5f2835e8dd1602f449ecd7182da5fe955753cc3be88"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-ssd-crucial-mx500-4tb-a3804d77c2.webp",
+      "bytes": 9966,
+      "sha256": "ba8f85ce278c50891745c1972f4e7e1a88f9781a417784e8f84ad2bd6613a41a"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-ssd-crucial-mx500-4tb-a3804d77c2-320.webp",
+      "bytes": 5446,
+      "sha256": "9ca73b15f5b8ebbd1d2cd87f6472dcc1825a9553109df0597aae18837e95a399"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/crucialt705-e72213872f.webp",
+      "bytes": 20676,
+      "sha256": "ec8b93e5b193e0669c39c7e466b8fd752cf474ba0791746b239627f7caa8d924"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/crucialt705-e72213872f-320.webp",
+      "bytes": 3348,
+      "sha256": "e4200b211711fb9494bf3c5c26caf5b5a80a0d3a384f8c48c153d62ccf0f204b"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/crucialp2-f09735ca0c.webp",
+      "bytes": 43596,
+      "sha256": "68d98c8efba228f363c498933b356b892cf758e43c095553adfa3aa41c53c9d3"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/crucialp2-f09735ca0c-320.webp",
+      "bytes": 8348,
+      "sha256": "5bf1c9913eb857eafc6a201f0fe2e0803e0168920275f88d661563e0d47aec98"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/furyrenegade-fb590b6dc2.webp",
+      "bytes": 44132,
+      "sha256": "7e10cf9ef8b87e0420a732883fea3f673e65486167cc1dd8584d337df27313ff"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/furyrenegade-fb590b6dc2-320.webp",
+      "bytes": 5788,
+      "sha256": "f885e42c2db6e63776caea549917b7080b849bf6761263e934c6dc824cb9be04"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-ssd-crucial-p5-plus-2tb-3a49532bd5.webp",
+      "bytes": 26630,
+      "sha256": "01eea25086e91eb0feae6832d93f1b33f7c9a94aedc24da3615267a3879b7be1"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-ssd-crucial-p5-plus-2tb-3a49532bd5-320.webp",
+      "bytes": 4558,
+      "sha256": "e7609e9d747e6cd135e7215708a013dc4b9530e9336bb413c24652e875a54fdc"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-ssd-crucial-p3-plus-4tb-f500323f29.webp",
+      "bytes": 7742,
+      "sha256": "5417999838e1b0662a432393c827c0b16ca25ec6746e10f0cbe7c5e6ead28852"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-ssd-crucial-p3-plus-4tb-f500323f29-320.webp",
+      "bytes": 4760,
+      "sha256": "6abaa67a50589089f274454eb7ae117a1e2d3e8337cfcf9b282900d4cd664ce5"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/kingstonnv2-751300ef8d.webp",
+      "bytes": 21306,
+      "sha256": "79fbe7c25254197a92881df7ca08ea558bdbc40290cbf984d84e6594470ff3c5"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/kingstonnv2-751300ef8d-320.webp",
+      "bytes": 4480,
+      "sha256": "316863a9c5067e51c93e781fc2d6d80de15b3c9e9388737d074a15376f982084"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-ssd-kingston-a400-1-92tb-96dab70648.webp",
+      "bytes": 21302,
+      "sha256": "b3b71ec374d66001252269df124fd684c2414ad82f57a2fe6d2f0ce96f662837"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-ssd-kingston-a400-1-92tb-96dab70648-320.webp",
+      "bytes": 3960,
+      "sha256": "3b5cdf974c4f32a1145417a83c2d28e07442a4c0869c4b2138007f665dc4aac2"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/barracuda2-f9c97c9cf4.webp",
+      "bytes": 30454,
+      "sha256": "d5a57e23faba3eae9a086edafc05399e972c25fe7e270d3d9a430cf7b6706238"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/barracuda2-f9c97c9cf4-320.webp",
+      "bytes": 5562,
+      "sha256": "d5a29ec45258099eba3c0e13503f5326a2116693d213b4a5f36656dfa51cf5c8"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/barracuda1-f9c97c9cf4.webp",
+      "bytes": 30454,
+      "sha256": "d5a57e23faba3eae9a086edafc05399e972c25fe7e270d3d9a430cf7b6706238"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/barracuda1-f9c97c9cf4-320.webp",
+      "bytes": 5562,
+      "sha256": "d5a29ec45258099eba3c0e13503f5326a2116693d213b4a5f36656dfa51cf5c8"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/barracuda4-f9c97c9cf4.webp",
+      "bytes": 30454,
+      "sha256": "d5a57e23faba3eae9a086edafc05399e972c25fe7e270d3d9a430cf7b6706238"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/barracuda4-f9c97c9cf4-320.webp",
+      "bytes": 5562,
+      "sha256": "d5a29ec45258099eba3c0e13503f5326a2116693d213b4a5f36656dfa51cf5c8"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/ironwolf16tb-9ae7805812.webp",
+      "bytes": 8428,
+      "sha256": "75419e296967a7e1dbaf9293d8228dc50cf45272604aaa736e28de3d230d6d2d"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/ironwolf16tb-9ae7805812-320.webp",
+      "bytes": 5310,
+      "sha256": "09f4238c8250a243131d2b05eb7e8ca051936a892e36250ae01ecc6b8c5236d1"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-hdd-seagate-firecuda-8tb-hdd-6fc7c988da.webp",
+      "bytes": 22670,
+      "sha256": "de14627e2f43c45ab891b0e575cbed4eebdefbb3162870998ce5741e6cfd2c86"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-hdd-seagate-firecuda-8tb-hdd-6fc7c988da-320.webp",
+      "bytes": 5484,
+      "sha256": "69cc57cfb718036485ba11047fa60c67bbc8942e49b97baeb6a9f7e0580c63ac"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-hdd-seagate-skyhawk-ai-24tb-b0128124c6.webp",
+      "bytes": 29212,
+      "sha256": "4a5f97fc58ccc310a746bc22abe4c287c622cef22665087924a2ba0b6f4c081d"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-hdd-seagate-skyhawk-ai-24tb-b0128124c6-320.webp",
+      "bytes": 5706,
+      "sha256": "48acaa9d2eb840f2634640437ca42294768cf92bba00e51f5358da70fcb43eeb"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-hdd-wd-red-plus-12tb-367a59e93c.webp",
+      "bytes": 9842,
+      "sha256": "28613b8546ceac78f5f4aff5c399db1e1d749982a9984723db4f3244633df675"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-hdd-wd-red-plus-12tb-367a59e93c-320.webp",
+      "bytes": 6018,
+      "sha256": "24557454f29f2eaefad93ac42ff03904d6ba51b6930e325faa4719e0f1500fe6"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-hdd-wd-gold-24tb-e964818da9.webp",
+      "bytes": 29086,
+      "sha256": "418c34262bed7843a46cfa3593b9478eccca3edcfd5f971abf4dcc8074369f4b"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-hdd-wd-gold-24tb-e964818da9-320.webp",
+      "bytes": 6188,
+      "sha256": "72b1c0ca6e107932525b7db03a10f198c54aaaf8b93c5879324e1f0ee6e0a8c9"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-hdd-wd-purple-pro-24tb-dc8db6f739.webp",
+      "bytes": 11474,
+      "sha256": "d640fac55edb5fc82c31b7f29f3f7bc36fe362feb81ad1bcdba44edc08496920"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-hdd-wd-purple-pro-24tb-dc8db6f739-320.webp",
+      "bytes": 7170,
+      "sha256": "4fccbaf9236302258a70a6242a5b4663c198860dd67960c0ce04fe80e23c8eea"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/toshibax3008-53f194304d.webp",
+      "bytes": 30680,
+      "sha256": "d69b771f14024cbd659ff7e88510de647d85afeebdc70806f5888e56fab99f2d"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/toshibax3008-53f194304d-320.webp",
+      "bytes": 7024,
+      "sha256": "3a8b19addb533b36bde7dfb9b2b56ecd1d6a0cb6ca6806e149c5f9ad4dffe48a"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/toshiban3008-d1fc694cc4.webp",
+      "bytes": 35242,
+      "sha256": "0556b8b66f19b6bdb9961c366d59aeeafef5f9ac146ebbef61ebb501ddde0262"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/toshiban3008-d1fc694cc4-320.webp",
+      "bytes": 7666,
+      "sha256": "9842fdbf7ccae96b79a58e38e1691fd0ace8155345e6afb61a6ca4a66c8f52e4"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-hdd-toshiba-p300-6tb-b2c31084d8.webp",
+      "bytes": 32978,
+      "sha256": "c89dfefca7141f468d11ace4796c22505bd3068712b6f20920124bac290bef02"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-hdd-toshiba-p300-6tb-b2c31084d8-320.webp",
+      "bytes": 7942,
+      "sha256": "7f3bf7c5e0a71e6520feaab48771a7066a16e220c1ce143e6126ce3f50809885"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/crucialt700-6ac898aea8.webp",
+      "bytes": 19974,
+      "sha256": "24a0138f30575a669e409746722d06182a9886846276e71baed231121c5f2c04"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/crucialt700-6ac898aea8-320.webp",
+      "bytes": 3630,
+      "sha256": "f9067408c20c7bd232e96693edebb704eb9f45a71b11f1cda9e88b96f7577486"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-ssd-kingston-fury-renegade-4tb-44aa8e4702.webp",
+      "bytes": 12060,
+      "sha256": "8d3c082e1ad361da071543331f31783f25e9033daf0dd21320b0138934bf4fd8"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-ssd-kingston-fury-renegade-4tb-44aa8e4702-320.webp",
+      "bytes": 5026,
+      "sha256": "7688eb567eb8e8a283c0aba47f851a58c836edcbf62c1e4f4cfa8b1311e972c9"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/sn5000-315a996699.webp",
+      "bytes": 20256,
+      "sha256": "3200b14a5774929e8d5a3d3bf3e8de517278d55907ff94fbe20ec077c64ac351"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/sn5000-315a996699-320.webp",
+      "bytes": 5110,
+      "sha256": "d8883eef4f47a9385c8acdd4e5d9c7fcd631043d150f915e1345e325530acda0"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-ssd-kingston-nv2-2tb-751300ef8d.webp",
+      "bytes": 21306,
+      "sha256": "79fbe7c25254197a92881df7ca08ea558bdbc40290cbf984d84e6594470ff3c5"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-ssd-kingston-nv2-2tb-751300ef8d-320.webp",
+      "bytes": 4480,
+      "sha256": "316863a9c5067e51c93e781fc2d6d80de15b3c9e9388737d074a15376f982084"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-hdd-seagate-barracuda-4tb-f9c97c9cf4.webp",
+      "bytes": 30454,
+      "sha256": "d5a57e23faba3eae9a086edafc05399e972c25fe7e270d3d9a430cf7b6706238"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-hdd-seagate-barracuda-4tb-f9c97c9cf4-320.webp",
+      "bytes": 5562,
+      "sha256": "d5a29ec45258099eba3c0e13503f5326a2116693d213b4a5f36656dfa51cf5c8"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/sn770-9a7ad68c11.webp",
+      "bytes": 4468,
+      "sha256": "cbd2817354ccfece1ab05c219d88e9cd7346051105196ac960a7872e4d3fbc9e"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/sn770-9a7ad68c11-320.webp",
+      "bytes": 2788,
+      "sha256": "fe6003362cc93553ef2f559c13a2cfe5bfc3914fd5708d3283d46c83a59bdc28"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/sn580-bad4fee56c.webp",
+      "bytes": 7332,
+      "sha256": "75931dbbe95bde86c2884735bf76ced6c810ee812d82cf7e2bb0e1a1243f0d0b"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/sn580-bad4fee56c-320.webp",
+      "bytes": 4356,
+      "sha256": "1757c737281cb3762d57eb338ad18a34b99d5e40bca2131e52bee6e47d6b6d08"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/wdsn750-a7d4613dfd.webp",
+      "bytes": 34170,
+      "sha256": "c6640ac4363f9f85369767af192afe8af09e30bca313592e57556304ed862049"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/wdsn750-a7d4613dfd-320.webp",
+      "bytes": 4966,
+      "sha256": "3004ed94c88aa80fca7c69736ed59cf80e2e5064789a22e3d631ed5edf85f550"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-ssd-wd-black-sn770-2tb-fa1d4fe584.webp",
+      "bytes": 4388,
+      "sha256": "902584bb153fa116c9a97732ce611ced4d9bf9e2409aef18b1c99a13a0575b5e"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-ssd-wd-black-sn770-2tb-fa1d4fe584-320.webp",
+      "bytes": 2830,
+      "sha256": "8e222fff7178e23323180af33250a4c1be1df9ac3b29b8b6a18d27a1d18c994c"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-ssd-wd-blue-sn570-1tb-62f0d2ec03.webp",
+      "bytes": 6098,
+      "sha256": "1ccaaaf85fd470d31af8bfbf66a312aa3a636560e3c2fd9e01395c9171adb4d6"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-ssd-wd-blue-sn570-1tb-62f0d2ec03-320.webp",
+      "bytes": 3904,
+      "sha256": "e6f0f62762860f8c666648c0919c0714a33e47dad47ee5e946ed7f94cb0ea15d"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-ssd-wd-green-sn350-1tb-970e868e5d.webp",
+      "bytes": 5906,
+      "sha256": "694b70ecbc959f2482f6f47e45188f3a1314418be4d9abd7063221c9af9a1db7"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-ssd-wd-green-sn350-1tb-970e868e5d-320.webp",
+      "bytes": 3548,
+      "sha256": "29c45ebd1e90c84c6476cfa7644a36e99c4e80d55f9a2faef92fc6c8a3293184"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/firecuda530-9ec3f15503.webp",
+      "bytes": 30982,
+      "sha256": "fe633ca37970b3bb95d88d930a5b3bb72bcec4dfe2c6c5e9b5f1937dd721cd30"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/firecuda530-9ec3f15503-320.webp",
+      "bytes": 7272,
+      "sha256": "169f692436cd55267c927717e98e685a3dcc2c59aa66bf1fcff16e6d59e23c86"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/firecuda520-35ec461615.webp",
+      "bytes": 39386,
+      "sha256": "f62b9233da9e0f729127222b3103716a886e4698930ca39e392da38478bb4f0c"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/firecuda520-35ec461615-320.webp",
+      "bytes": 8102,
+      "sha256": "699b9819ec96877bcb3b3f0283ac4b1a95f71a58c9409185c8bae6b6b860d412"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-ssd-seagate-firecuda-530-4tb-610900a831.webp",
+      "bytes": 10688,
+      "sha256": "967202a59ca445174101ce3575da0b2a66640d8fffadeaf791a1825fcc674156"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-ssd-seagate-firecuda-530-4tb-610900a831-320.webp",
+      "bytes": 6930,
+      "sha256": "ed80528c8a5a01628864188d2702aa160712549b4cb313ddee6054b6d8b21fde"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-ssd-seagate-barracuda-q5-2tb-248bb52f3c.webp",
+      "bytes": 42836,
+      "sha256": "d3a1fb074870e0b365023a0e7a488d2906c403ad1d9644bb6e663e0ec895a928"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-ssd-seagate-barracuda-q5-2tb-248bb52f3c-320.webp",
+      "bytes": 9018,
+      "sha256": "cf62850d3ae9fe154b3d9632ace9ff5ba3ae2702552ef89b0219b51721d50d88"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/870qvo2-edbfaa4f1e.webp",
+      "bytes": 90080,
+      "sha256": "c0e1d1f50e10ac1477741dbd0f831046f624a78e1e2288469707203f1abdfcba"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/870qvo2-edbfaa4f1e-320.webp",
+      "bytes": 4252,
+      "sha256": "4e177fec01ecc6d974573e8273e337159438e115d8c6ef49fd82a671dc4260b6"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-ssd-samsung-990-evo-2tb-b40d14542f.webp",
+      "bytes": 7902,
+      "sha256": "f33ceb77926df6449b3f0d2b2468b595b512f4edec7e5cc2be43aba6dde69580"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-ssd-samsung-990-evo-2tb-b40d14542f-320.webp",
+      "bytes": 4766,
+      "sha256": "5d2ebae56b00f3c7d9bc6e8ee8a9f6d72b36be59cd85559dbbd901875b2a6dbd"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-ssd-seagate-firecuda-520-2tb-35ec461615.webp",
+      "bytes": 39386,
+      "sha256": "f62b9233da9e0f729127222b3103716a886e4698930ca39e392da38478bb4f0c"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-ssd-seagate-firecuda-520-2tb-35ec461615-320.webp",
+      "bytes": 8102,
+      "sha256": "699b9819ec96877bcb3b3f0283ac4b1a95f71a58c9409185c8bae6b6b860d412"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-ssd-wd-blue-sa510-4tb-352e8a7ed8.webp",
+      "bytes": 47886,
+      "sha256": "bfe01b5b817e1be01d81ce35d1f452ed8266dde495cb6bff2f602f5254040c82"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-ssd-wd-blue-sa510-4tb-352e8a7ed8-320.webp",
+      "bytes": 8032,
+      "sha256": "050183a39f618c8468e421e19fc753a0f06682ed59d735b6b9ecbb5e77746cde"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-hdd-toshiba-n300-18tb-bb505af9b7.webp",
+      "bytes": 9884,
+      "sha256": "1c703bc65f692de71cc8d24f91bf2b7e4ca9de96d2aad7e540e3b3ad49cf71b9"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-hdd-toshiba-n300-18tb-bb505af9b7-320.webp",
+      "bytes": 6120,
+      "sha256": "50c9c1d7340349fd03b2af10137119a8bdbe4148ff9c141c6813eb9ac594c620"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-hdd-toshiba-s300-pro-10tb-e4a30c826a.webp",
+      "bytes": 35340,
+      "sha256": "dd322347b996a395eab7da58c8832077baa8b66bbc34b6c11231a4eb8c9e3cb8"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-hdd-toshiba-s300-pro-10tb-e4a30c826a-320.webp",
+      "bytes": 8472,
+      "sha256": "ab7a10b4d9fa5357b52603bc59a7c3c355ba8c20c33b8aeee6f3a6de282109f9"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-ssd-seagate-firecuda-530r-4tb-3af9fa4d1f.webp",
+      "bytes": 7366,
+      "sha256": "07cf2617c03233b03cc21439e24ec309f17cbb4a1bb4327c04d0587dd9ae3df2"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-ssd-seagate-firecuda-530r-4tb-3af9fa4d1f-320.webp",
+      "bytes": 6124,
+      "sha256": "f5c310e40c2c95a42ac93d1acfc15db842050112cff2590d3cc702d27341fb5a"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/toshibax30012-1d7aa20dd0.webp",
+      "bytes": 33522,
+      "sha256": "e9c03ac2bb5839335461c3b741f8f4a9bf0c2b08c027c1e0b953c5f195bce6bc"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/toshibax30012-1d7aa20dd0-320.webp",
+      "bytes": 8310,
+      "sha256": "259e66bd0944acb60205cc20faf07d62e4b23503f72d475f042fef23a76938b2"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-hdd-toshiba-n300-pro-22tb-4dc0e15f48.webp",
+      "bytes": 12494,
+      "sha256": "b40ae036cff595a87f4631be44093dd327b4b729e4a3537c0c9afc26ad80ac3a"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-hdd-toshiba-n300-pro-22tb-4dc0e15f48-320.webp",
+      "bytes": 7664,
+      "sha256": "4adfa00d68a6f7b7c346b7fd4fa122ad844d6c20e085391bd0d75e500a2ac49a"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-hdd-toshiba-x300-pro-22tb-add0ebac16.webp",
+      "bytes": 35030,
+      "sha256": "aa429a76f4ae5c638581bcfaf425c76e6bf759fc78984f33737acabf7cd82287"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-hdd-toshiba-x300-pro-22tb-add0ebac16-320.webp",
+      "bytes": 8856,
+      "sha256": "c681e865adf92b696eb3b9f77a0c2fc28cbdcc77b908a25889cdb9acad13571b"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/samsung860evo-7bda2f7e8b.webp",
+      "bytes": 31136,
+      "sha256": "87fe461d5a647ae5eb57639482316eb7bffe35851c6330a5e40f47e7ef473f7c"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/samsung860evo-7bda2f7e8b-320.webp",
+      "bytes": 7508,
+      "sha256": "568704c761d64739ae73d4834e556af80064d8b156db2177f6b9cb21a868d4d7"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/seagatest412-7f5fa50def.webp",
+      "bytes": 31258,
+      "sha256": "a2e5f637528390e9f73dda472934c9bfcf8a86e484f5b8b794dd0d5d661b20c6"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/seagatest412-7f5fa50def-320.webp",
+      "bytes": 6752,
+      "sha256": "8d10cccd547df075bb842c05550993615fba94134de7f78626b7bd0e882c59ed"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/ibm350-4f5a2fdc99.webp",
+      "bytes": 35318,
+      "sha256": "21eb80879a7b9851bd49169297938bff13b60f4605531e0c31f05136f1be2721"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/ibm350-4f5a2fdc99-320.webp",
+      "bytes": 11168,
+      "sha256": "8aadffd3a702f6acaad0662601fdf89e300b12a8c108c578b7890dd2850e88b3"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-hdd-toshiba-mg10-22tb-c7ff5ee9aa.webp",
+      "bytes": 33584,
+      "sha256": "93fb428893fcd93e1c2236ae7dd58062aca0839adb45e8ee145e7ebe51300ba9"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-hdd-toshiba-mg10-22tb-c7ff5ee9aa-320.webp",
+      "bytes": 7122,
+      "sha256": "b32eca1d7bd0cba4865126e6ae0466cfa5cb6d148e76422056ea2837b6e580bd"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-hdd-toshiba-x300-18tb-48ea1c999d.webp",
+      "bytes": 16394,
+      "sha256": "439d222d08cf498a1bb285af5eb11a196addf123b6632f006367fbb2a5d84bbd"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-storage-oct17/c-hdd-toshiba-x300-18tb-48ea1c999d-320.webp",
+      "bytes": 5810,
+      "sha256": "385de48bf7a4898fc0d6468fc2522859c626304aafb527793578fe00cea32085"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/5950x-827c8eb458.webp",
+      "bytes": 68028,
+      "sha256": "827c8eb458b997a95971f850df937f763e9e2dfee422b9148ed8255cb655d95a"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/5950x-827c8eb458-320.webp",
+      "bytes": 9116,
+      "sha256": "f995cd51a776588b4bf395ce9113b4a0114de0cb44ac36ea4e139218a2084969"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/2700x-741c74f7a5.webp",
+      "bytes": 47538,
+      "sha256": "741c74f7a5b5be207191d666cfbfce82fe6b3435d8b470c8b57f65dac6886643"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/2700x-741c74f7a5-320.webp",
+      "bytes": 5772,
+      "sha256": "698fea8fc0bcc4735742adead255070d7cd339ec1bc3ca2db75971ecaa4e789d"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/i913900k-f6c57f19a3.webp",
+      "bytes": 116074,
+      "sha256": "f6c57f19a3e0feb3f604ad3d3dd2ec87f55acc20399aeba5d29d5301eff23f05"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/i913900k-f6c57f19a3-320.webp",
+      "bytes": 10838,
+      "sha256": "033b6e09664bbda93591d5799c6c895b80bd882d67690f94db3024401277e389"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/i910900k-0a2bc85d32.webp",
+      "bytes": 49740,
+      "sha256": "0a2bc85d3222878088d761d996449875d973891802adbd0062ddff3ff9590bb2"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/i910900k-0a2bc85d32-320.webp",
+      "bytes": 6096,
+      "sha256": "8d5da1808494eb0ce2ce340135eea622e2a509c314e0028cfe3a78da8755c8bf"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/2600x-c2fe32d14e.webp",
+      "bytes": 44756,
+      "sha256": "c2fe32d14eb61b717f620a89442e4aaeb9f3b9fbdb60f1eddfdfc03181b63107"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/2600x-c2fe32d14e-320.webp",
+      "bytes": 5796,
+      "sha256": "7fd1aa7ea1e1d3a1049e8fc9ae307112476d1c7114e773208ebf487bdf5f1b92"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/ultra5245k-54c2997fc9.webp",
+      "bytes": 65984,
+      "sha256": "54c2997fc9cabed0053ae1596dff2ca807346d17aff825cdb792dbb72f6d74b2"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/ultra5245k-54c2997fc9-320.webp",
+      "bytes": 4820,
+      "sha256": "f4cfc3d8f62bb1d55b5a24d675de6fc71443523ca48cd799c17548516f3fad1c"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/i911900k-93627ffa3c.webp",
+      "bytes": 74894,
+      "sha256": "93627ffa3cb89df62fc2d381d8f08864196c74d3c6ff3745fc8704e347ee2f76"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/i911900k-93627ffa3c-320.webp",
+      "bytes": 9154,
+      "sha256": "2c8424949d0ac115820b610376b75f096cc3b23aa873c5ffc9ee8449ea96dbbb"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/i511600k-d7068b639e.webp",
+      "bytes": 84038,
+      "sha256": "d7068b639ef21e7dea87d9589f7303ce60abdcafa09a56b6ce834d672020dab1"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/i511600k-d7068b639e-320.webp",
+      "bytes": 11484,
+      "sha256": "969ceb3938859d59874b82eb73b4c5f4c4a5bcda74fae1164b8d4bb12a3ab30b"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/i710700k-dc523c70cd.webp",
+      "bytes": 57522,
+      "sha256": "dc523c70cd646434b22dfb1651122b95224871a72cc21321b7ac8b20c688ac0e"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/i710700k-dc523c70cd-320.webp",
+      "bytes": 6994,
+      "sha256": "f93862cbc381709c3652181b7ab3ad82abb0c14626ac6b88bb18cdcad2c7922a"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/i79700k-f0474cbc7d.webp",
+      "bytes": 49968,
+      "sha256": "f0474cbc7d6477768824e06055261069a914260444efe2d2cebf9ef3deb388dc"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/i79700k-f0474cbc7d-320.webp",
+      "bytes": 6610,
+      "sha256": "a7991803a8b8a4121627f1e2eb5b7642e2d71404b4db6a6bf5119959443db54d"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/5700g-8ab657d0bf.webp",
+      "bytes": 62296,
+      "sha256": "8ab657d0bf3c151e8fe58d7f5197367f25dbc182b4b456fc8513f9ecb2f43afa"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/5700g-8ab657d0bf-320.webp",
+      "bytes": 8392,
+      "sha256": "d21fdef4e4f2f383a3e677ad3f20a4e207475784293dcfaa49ed10ca900d6dfc"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/5600g-d89e579e63.webp",
+      "bytes": 64362,
+      "sha256": "d89e579e63ea7ce1a9c571617fc614be76010ceb239fa53327c1b8449ecf956c"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/5600g-d89e579e63-320.webp",
+      "bytes": 6834,
+      "sha256": "f87d4bd49aeb6911c2137644484c94a458f562a09d2eb5f7c6fe26b63b34cab7"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/3300x-bd8666ef96.webp",
+      "bytes": 60606,
+      "sha256": "bd8666ef96ea464c068834e487f8fda72090fdb005cbb1cb001afb8617277d8b"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/3300x-bd8666ef96-320.webp",
+      "bytes": 7990,
+      "sha256": "d7a9c27e2f5c1cae4f91f63e480a571268403a481b83498fc1e051c66db654c1"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/i914900ks-98e4395bdb.webp",
+      "bytes": 71892,
+      "sha256": "98e4395bdb40c3b143e974ffa207d2c769a4892543654ebc47312544de275f7c"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/i914900ks-98e4395bdb-320.webp",
+      "bytes": 7128,
+      "sha256": "5df0bec997784cdcf0f14280676e3c909b60696e304a483f90c7172740874d74"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/i913900ks-4b17c2a254.webp",
+      "bytes": 72248,
+      "sha256": "4b17c2a2546d6e348d459dc482e4c1011a86a57126399408504bd79f1be3a37e"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/i913900ks-4b17c2a254-320.webp",
+      "bytes": 7534,
+      "sha256": "571ddc3ee1e4192325b872158a86dd8929ac38bfcdb571d72260a63f3e4c65de"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/i912900ks-91f1743fdf.webp",
+      "bytes": 82628,
+      "sha256": "91f1743fdf5c50abfe0796639f8ab822707ee80a0457c265e0b06adae63c151b"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/i912900ks-91f1743fdf-320.webp",
+      "bytes": 6136,
+      "sha256": "fa65e56d8308a2582ef7a333398813937c38fac952be8cdc6b378198b97d6f16"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/i910900-eb912671a9.webp",
+      "bytes": 41864,
+      "sha256": "eb912671a97007b59c1ca707b251edf16a4e39865762baf010008bce17802892"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/i910900-eb912671a9-320.webp",
+      "bytes": 5546,
+      "sha256": "25d3344998a08be4b52d62352e695e713fc224db1402da98778ee45ed6891ce8"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/i710700-5b28108683.webp",
+      "bytes": 58236,
+      "sha256": "5b281086837c731ac36c009951031e2a7039b8b7c8a6a87aac1cd9a0a2ac50c0"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/i710700-5b28108683-320.webp",
+      "bytes": 6822,
+      "sha256": "9f4056db4edb600cd4a722f746966829e914f23d24a33da12b8fe2d32d11305b"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/i510400f-c58ac42d59.webp",
+      "bytes": 84774,
+      "sha256": "c58ac42d598bab5b1d88f6017e05006ae74a80594877d69a6eb9f346e57b2e34"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/i510400f-c58ac42d59-320.webp",
+      "bytes": 11240,
+      "sha256": "aecbb00d93b0fa7362249391cbe1cd96e68c4349c64d71daad0bca93c0fe47ba"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/i99900ks-ad350ab07a.webp",
+      "bytes": 42570,
+      "sha256": "ad350ab07a160d7e325751d661d7da8f778b4cf2b05d981b3b78b743b7cd2ce7"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/i99900ks-ad350ab07a-320.webp",
+      "bytes": 6146,
+      "sha256": "4644d837c543015429f9c61cd2a8ade445c13ccbe22dbb353a7d85e94639a0ab"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/i58600k-561e8f781e.webp",
+      "bytes": 59526,
+      "sha256": "561e8f781e08944b79b556ec87d36a7b40f0472b4adc2a4bee220c31d0ac0927"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/i58600k-561e8f781e-320.webp",
+      "bytes": 7320,
+      "sha256": "bc22ce1cdb63448062f87290bc578895e2180a1d827226ea529d16123f1ffe5d"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/1600x-4a80c6a1d2.webp",
+      "bytes": 38130,
+      "sha256": "4a80c6a1d20d1d104caafe7a2fff16dd5816ec5dad4b8ba4cd104de74b59b142"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/1600x-4a80c6a1d2-320.webp",
+      "bytes": 4564,
+      "sha256": "cbd0759afb01350b55040868e04fe3680da76ba44eecb1e5267e8fdd04b6e246"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/i512400f-e5728a27a7.webp",
+      "bytes": 64982,
+      "sha256": "e5728a27a72573cb71094454a1e4db9c5284e73be76c0acfa142af6d599e4500"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/i512400f-e5728a27a7-320.webp",
+      "bytes": 7558,
+      "sha256": "682ee8721b0b940531a28d7209dc351fd9169c5ee2ef3f20b9c943fd8a00c993"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/i711700-cef70761ae.webp",
+      "bytes": 26854,
+      "sha256": "cef70761ae6e4c08a0026376c9e7c0b4c7819b8f78f3b93dced533c42b6610b2"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/i711700-cef70761ae-320.webp",
+      "bytes": 2462,
+      "sha256": "604ebdba90d44c03b139a9aea21882d21fdbcbde611a042f181b6c0a742fcbcc"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/c-cpu-intel-xeon-gold-6430-481edd71cc.webp",
+      "bytes": 17446,
+      "sha256": "481edd71cc4b0090b52b4e11a69dda776df3d3d2ed34ef120b153451a3d0dab3"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/c-cpu-intel-xeon-gold-6430-481edd71cc-320.webp",
+      "bytes": 2386,
+      "sha256": "95a270b132e527b1ba1dce0a1b7f7116cf8ca87d9de25f0235841f57d3c34b23"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/c-cpu-intel-xeon-gold-6454s-86b51f436d.webp",
+      "bytes": 23836,
+      "sha256": "86b51f436da3c208e561662340519ba867897134917d18226fa0663e2dc2fae8"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/c-cpu-intel-xeon-gold-6454s-86b51f436d-320.webp",
+      "bytes": 2330,
+      "sha256": "b6326994cd09bd4e23326c8095b0f60bc64de6bf399d503b18c9fa5e0d6478c5"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/c-cpu-intel-xeon-gold-6448y-3b9bd2209a.webp",
+      "bytes": 18328,
+      "sha256": "3b9bd2209a9142bffb3ed65100607fbc962d794198fd3d41c0f8a3406e06197d"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/c-cpu-intel-xeon-gold-6448y-3b9bd2209a-320.webp",
+      "bytes": 1968,
+      "sha256": "744b14d3dffedf48a8ab8b65ec1942f06852e85e4dc325e60552f8540aa2abcd"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/c-cpu-intel-xeon-platinum-8468-28f49fead2.webp",
+      "bytes": 15360,
+      "sha256": "28f49fead226ddcf9ffb7f05a4324300dc4d47e674fda6a2e33506cd6c7d8de8"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/c-cpu-intel-xeon-platinum-8468-28f49fead2-320.webp",
+      "bytes": 2460,
+      "sha256": "b4549a3fe8c49945e4b6c6d4107fe61ceb214407c4d36093e0728032562d555b"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/c-cpu-intel-xeon-platinum-8470-9649490def.webp",
+      "bytes": 16176,
+      "sha256": "9649490def6e20616eb8c18e057dc098cac8db8a52a9d0d520e37406244b765b"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/c-cpu-intel-xeon-platinum-8470-9649490def-320.webp",
+      "bytes": 2284,
+      "sha256": "ad7a084831df80da55913cf4153f83ff77b5420f148a10ab2203c8db62f2df8a"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/c-cpu-intel-xeon-platinum-8480-7fa1117d85.webp",
+      "bytes": 23194,
+      "sha256": "7fa1117d85bcfb6e63c35aea77251162a094544a949edfe26c15c63c7aaf4d7c"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/c-cpu-intel-xeon-platinum-8480-7fa1117d85-320.webp",
+      "bytes": 2680,
+      "sha256": "5a5af0953e3b5566323e93f4c90b1ffd99f1765c11c42cb2f5d648f8cee2b2a1"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/c-cpu-amd-epyc-9754-9f5b26caeb.webp",
+      "bytes": 29468,
+      "sha256": "9f5b26caeb580ce695e654462166188b70658ab625f3a2169676ea0cf677bcc0"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/c-cpu-amd-epyc-9754-9f5b26caeb-320.webp",
+      "bytes": 4964,
+      "sha256": "5c9ac9b1bce698918cee9856a3c200d3038fe7a013c7c6f0955d29f75471329f"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/c-cpu-amd-epyc-9634-f1627ef301.webp",
+      "bytes": 22778,
+      "sha256": "f1627ef3015861d563c4fcc01d074ae1ea8a43cac74eb06ca3066d09002fb793"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/c-cpu-amd-epyc-9634-f1627ef301-320.webp",
+      "bytes": 4948,
+      "sha256": "4d1eba359f0ce4c1d3e74bdacc98d1eed0ee0d097abea562cc1dd332c1d7a235"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/c-cpu-amd-epyc-9554-6e45f2fe6b.webp",
+      "bytes": 18250,
+      "sha256": "6e45f2fe6bf7a10a9fc7dd7e01b8adc49240b1d73296d5a886491df5b2701f91"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/c-cpu-amd-epyc-9554-6e45f2fe6b-320.webp",
+      "bytes": 4462,
+      "sha256": "d7aee70967f38a9c459a183d88518f3b1e9ab93b297af236d7b587a2564cc302"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/c-cpu-amd-epyc-9454-060a7d9d2c.webp",
+      "bytes": 16076,
+      "sha256": "060a7d9d2c60171fe70c150453860ee5ce2013ca93facce49d0247aab68beba9"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/c-cpu-amd-epyc-9454-060a7d9d2c-320.webp",
+      "bytes": 2466,
+      "sha256": "60ebf88a672f0def5283263435a5924876a4bd6eae45433f2b7b43862e8656c9"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/intel486sx-e74def482f.webp",
+      "bytes": 43060,
+      "sha256": "e74def482f205e9d6afc824eb60f2cda2d93df7a3692f4a7a8af61b38637c630"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/intel486sx-e74def482f-320.webp",
+      "bytes": 8902,
+      "sha256": "16e24200371b16ec6958f28f8100e679bed4d57a07035aff38a8eef202a126e0"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/athlon500-f238d9e2d2.webp",
+      "bytes": 52102,
+      "sha256": "f238d9e2d2474fa85d0ea42753fc1ec05f757007df72ca300c69337633c39339"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/athlon500-f238d9e2d2-320.webp",
+      "bytes": 6548,
+      "sha256": "e9bd56743fb181772192ba0ab44c891abebeff575df9eaec53fafe608d771ccc"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/amdk5pr100-33bc96ad6c.webp",
+      "bytes": 43778,
+      "sha256": "33bc96ad6c5d74e28186577fac63848613f333d3468839a4c36248c6367aab15"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/amdk5pr100-33bc96ad6c-320.webp",
+      "bytes": 8260,
+      "sha256": "f460d97b414ef2dc0aca143b7e4d72b422d0cf122407498e1b383f755ae29cb1"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/amdk6-233-70cf774e2e.webp",
+      "bytes": 67386,
+      "sha256": "70cf774e2e948b315fcf01327bf747faee0e2c4be1515d3825583b3953702440"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/amdk6-233-70cf774e2e-320.webp",
+      "bytes": 15132,
+      "sha256": "501f7b13ab3b915ee0b3e99f17bfb398ee23232a2a8788ab49483971a6a414db"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/i53570k-887048e2a7.webp",
+      "bytes": 70292,
+      "sha256": "887048e2a752ca4c938bb2713f83a587bda6b7a1bfb28e297f85d457f41b3112"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/i53570k-887048e2a7-320.webp",
+      "bytes": 9502,
+      "sha256": "50369578bf5e628ddead227c9ad2f3b71a54b904b056ccb37b75a2afa5776910"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/fx8150-789b3ecea2.webp",
+      "bytes": 51920,
+      "sha256": "789b3ecea240d3dc75396e1490c4a388d47a16984e9fec259e02fce72e037c7a"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/fx8150-789b3ecea2-320.webp",
+      "bytes": 5500,
+      "sha256": "1da1b99e9e7c8408a87fdcf1fbbea14b1b04d931cf9e4689d36b5af0d800cb0f"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/intel8088-61e728a41a.webp",
+      "bytes": 24992,
+      "sha256": "61e728a41acfb5f5e2e67d4eef2bbb5ac53f6785886c5d0e578b04e174cc1d78"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/intel8088-61e728a41a-320.webp",
+      "bytes": 2030,
+      "sha256": "d7f0948aeedff64022f18168cecb7116f3ee0cad70a402e8a16ed10f4e7b390f"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/intel486dx2-42244f3952.webp",
+      "bytes": 76108,
+      "sha256": "42244f395235997bba8b9f8664af5a9381072cfed0455aa92ffe8aa871a16a19"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/intel486dx2-42244f3952-320.webp",
+      "bytes": 7902,
+      "sha256": "db9cfb340c611628ae5b3e4c5e19c58c4cbf7276ae0b79b742961f763765c4af"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/pentium100-f8cfaf9d98.webp",
+      "bytes": 69742,
+      "sha256": "f8cfaf9d9884e978bda2c5d456205a61c44f0a9e1f6a6d330094148fe1a3eabb"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/pentium100-f8cfaf9d98-320.webp",
+      "bytes": 8652,
+      "sha256": "bcd1710a12474bde48979d170fc3219f7c03a3bff62077c636a47061ee111904"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/pentium4-1500-0ad0bfa443.webp",
+      "bytes": 129496,
+      "sha256": "0ad0bfa4435510128aae9c479413423cc2dc048431d50763d399b0df3eb6b85b"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/pentium4-1500-0ad0bfa443-320.webp",
+      "bytes": 22230,
+      "sha256": "8578240b0c2f4e6bac1afa16499157920861165fb3c6c620b4270d7298fa1845"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/am486dx4-35f53db7b9.webp",
+      "bytes": 106578,
+      "sha256": "35f53db7b9f18556f82078ff6dd2ccd2c7bd15eb63a9a26a35e01368fdb4110e"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/am486dx4-35f53db7b9-320.webp",
+      "bytes": 10844,
+      "sha256": "469136ff84a132bbfb74aab0d8d9b2e0d8088fdd4eb2d842d32770afdbff6e38"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/amdk62-300-e0e6e510ad.webp",
+      "bytes": 81330,
+      "sha256": "e0e6e510adf7df2b336851fb7b11d3336eca9d074fd90a7bea5aa9d7117892c3"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/amdk62-300-e0e6e510ad-320.webp",
+      "bytes": 7358,
+      "sha256": "eaddbb18a6ae93500c95880ac9da36541f7fce386fdd88cef2d43b6a409b9178"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/intel8080-386fbc1164.webp",
+      "bytes": 25720,
+      "sha256": "386fbc1164cc4117fcf9b445ab7e72e2ad7f90944f0ec18a8f5492291fee1d6a"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/intel8080-386fbc1164-320.webp",
+      "bytes": 3828,
+      "sha256": "305d47d575789952f5f54fe1f1e0b6b3f41cccf19ed88e921ed18fbfbd22543e"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/intel8085-f0dbe0e609.webp",
+      "bytes": 23876,
+      "sha256": "f0dbe0e609795161150cd43245cb65a83f4fc47805a6834dfb0682c25f344142"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/intel8085-f0dbe0e609-320.webp",
+      "bytes": 4612,
+      "sha256": "166a4fa092e173574979b7797f67ff7b442db7324045430534202b902c250513"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/i912900k-269275da0d.webp",
+      "bytes": 56606,
+      "sha256": "269275da0d8e36bf240bc973037ce771143d6fb2f2738aa6f23f6c4c0affea69"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/i912900k-269275da0d-320.webp",
+      "bytes": 6292,
+      "sha256": "e1a02ad588e72c12a0de039c3a73f942d614a492e6ab288152e9b7c6a4a450f4"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/i74770k-ebc3b77906.webp",
+      "bytes": 29598,
+      "sha256": "ebc3b77906893014938dca190d07b13d6606c559f89af7e20eb1f8d84bf57d50"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/i74770k-ebc3b77906-320.webp",
+      "bytes": 4328,
+      "sha256": "51ec65ce8e34d72caf7ae361faf17e873bd1844e6d7a0bef60174dd20c434807"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/i77700k-c528600f3d.webp",
+      "bytes": 47106,
+      "sha256": "c528600f3de6ff18aebfb61df3314a31a8c2cd15d1e8499aa72ea00352dba5f3"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/i77700k-c528600f3d-320.webp",
+      "bytes": 9546,
+      "sha256": "cc823070b5ca305b75980a8c13718cc3a153944b099a0532b6939a99f08dc7f8"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/i73770k-90c6170204.webp",
+      "bytes": 17154,
+      "sha256": "90c6170204da4472574eca1461e85cc9b150d66907d6ee3ff02d331b92f5d39a"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/i73770k-90c6170204-320.webp",
+      "bytes": 5512,
+      "sha256": "f5d3b8c958269f961e0c76f68a935004cea2e99e05c7844e470ccb57bfefe026"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/i76700-6be3b830fb.webp",
+      "bytes": 29138,
+      "sha256": "6be3b830fba7d4fe84a28442ac18ae8128ce5c73accaf0ba3bd2ef1a38cfa9dc"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/i76700-6be3b830fb-320.webp",
+      "bytes": 9358,
+      "sha256": "fdc141867aa1a6f43987a298a2c1d1d3f8188003b1f59d83413cae7f73358c27"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/pentiummmx233-0a27346753.webp",
+      "bytes": 154178,
+      "sha256": "0a27346753011c117a6414722d3978cc54199f99fa60a0ef3e8647e04d6dca64"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/pentiummmx233-0a27346753-320.webp",
+      "bytes": 27994,
+      "sha256": "9454ad5e336541d74c13abb2546fd386b9605df0951d56e8bb476ad6b9768ac3"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/i75960x-fbbfc46a90.webp",
+      "bytes": 34214,
+      "sha256": "fbbfc46a904efe3e10e6c1eb8bbec62cf0c527e0b7287349160b6b17f0f3217b"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/i75960x-fbbfc46a90-320.webp",
+      "bytes": 7038,
+      "sha256": "3e412f7d05533a38dff82cb7df65789c811be1b0a0f63231ddfc4c485e8fd399"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/celeron266-60993cf2a9.webp",
+      "bytes": 85082,
+      "sha256": "60993cf2a97aedf9694f40da74a7484244486bf1014222d62e5761465f74f720"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/celeron266-60993cf2a9-320.webp",
+      "bytes": 12204,
+      "sha256": "ecfe5025f3f9d3a0d41609193a9bfae760d85bf51f77b621a459fa23b82ebb65"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/i78086k-243ae662dd.webp",
+      "bytes": 12260,
+      "sha256": "243ae662ddf18802c2f8c0d3262a237ea9229202ddbc0321cc0fbea6442b764c"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-oct17/i78086k-243ae662dd-320.webp",
+      "bytes": 2178,
+      "sha256": "0c242bb2121a9ef6b8aa02e817ab88c9195a72cd22865e89acc4cddda9565213"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-special-oct17/b650aorus-552ee3980e.webp",
+      "bytes": 99810,
+      "sha256": "6da97ec7d0e08e6b5914a7cd0338dc9b082ffab32206ebc76280447c319edbd2"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-special-oct17/b650aorus-552ee3980e-320.webp",
+      "bytes": 16492,
+      "sha256": "4d34e1b9e9672d058460d71b431c92b5f4d6f82c66975becf343eecca0f547f7"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-extra-oct17/3950x-212febbf01.webp",
+      "bytes": 76294,
+      "sha256": "0e66e88b2da32a79dbe1f994c0a5225e68e6d9f2f750bc1308f5cb395c604f23"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-extra-oct17/3950x-212febbf01-320.webp",
+      "bytes": 11420,
+      "sha256": "47af8a5a3e20000c340205161d4de410cd20cf57b73e48f2e22076b5df126f53"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-extra-oct17/5700x3d-105830c65d.webp",
+      "bytes": 32970,
+      "sha256": "8baf1d3df005c28b4128aac132e036762c5dcd4200d38844dd06f603b22f8857"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-extra-oct17/5700x3d-105830c65d-320.webp",
+      "bytes": 7566,
+      "sha256": "f83c9ea1a9293663fdc9ec842b37e31fe56c477f0a99ccc84a6174aac06afe7f"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-extra-oct17/3800x-eaae47575d.webp",
+      "bytes": 24824,
+      "sha256": "55a0f7ad12330e2bdc80681c5d10e39cd504811be1fa50d9242bc51266eb838d"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-extra-oct17/3800x-eaae47575d-320.webp",
+      "bytes": 6246,
+      "sha256": "e8eabb8b372bf70c59d0494821f16599e453499fca05810e57b642669027d0c6"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-extra-oct17/3200g-e279f8dab2.webp",
+      "bytes": 69328,
+      "sha256": "4c6647ebe2ee74f83247154d9bebf816d9f7e3043b13e8463e48c72567709927"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-extra-oct17/3200g-e279f8dab2-320.webp",
+      "bytes": 15314,
+      "sha256": "8603651d3e93098548c580ee60a618360c75e1608546aa4c61696a8d4415ff33"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-extra-oct17/2990wx-2bae7a2852.webp",
+      "bytes": 21680,
+      "sha256": "748a1058e8ea8aae1597cfb2f08b3e3de263b67981ea7a4b229f5da403659e95"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-extra-oct17/2990wx-2bae7a2852-320.webp",
+      "bytes": 8656,
+      "sha256": "d73cf232752c33dd65349a6e7844ced023c5edc7efbace89bb326459d394b3d9"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-extra-oct17/4700g-e71fd2967e.webp",
+      "bytes": 24786,
+      "sha256": "5092186b766796661eaf172f5120c3b99ac2923aaa7b836ef4409ae038f70556"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-extra-oct17/4700g-e71fd2967e-320.webp",
+      "bytes": 9968,
+      "sha256": "8abbae27923714d3f4347bb001b391fb1a95ebceff7602bec1b8a50c946a88f6"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-extra-oct17/4600g-97dc8f3719.webp",
+      "bytes": 72524,
+      "sha256": "6ed365fffe2944c6235539bb628d8404c64146be4b7c306d6e9a959a4e842307"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-extra-oct17/4600g-97dc8f3719-320.webp",
+      "bytes": 10460,
+      "sha256": "551dd7bee7c391e83c74b6f197d5d1396bd5884c08dda603d11a7ebb50136c57"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-extra-oct17/5995wx-304ea06a5d.webp",
+      "bytes": 65454,
+      "sha256": "9eb3bcdba468cc4440f0be594a0e8365d9f123f91fe9a751e777bacb69336778"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-extra-oct17/5995wx-304ea06a5d-320.webp",
+      "bytes": 13184,
+      "sha256": "f2512b8e481620a930e9bca503b9e7753e6cbf92b0b7199fc5556ae4b88567b0"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-extra-oct17/3970x-d8a49f63e3.webp",
+      "bytes": 60006,
+      "sha256": "477334e11738daeb319d30782e6a5977cbac963ba7e15c9d1e32ee5e955fff0c"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-extra-oct17/3970x-d8a49f63e3-320.webp",
+      "bytes": 12938,
+      "sha256": "4e050f3639e40d2b4fd698f9a0c1e154e095463444c07b184d49e68c2b411184"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-extra-oct17/1700x-24e2224ce6.webp",
+      "bytes": 46882,
+      "sha256": "6e85dcb36a181938cef80657c70d6c618eefa67e812ee9a31a897944e4e1d3fc"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-extra-oct17/1700x-24e2224ce6-320.webp",
+      "bytes": 6464,
+      "sha256": "b91df68fd496f1b70c4aa9f078406607f4df71c1bf90e01c2f04f88655fe8b5f"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-extra-oct17/fx9590-a407938ff7-crop.webp",
+      "bytes": 37680,
+      "sha256": "09719f22e59558a13b23f6cad1235d7589343ab1a12c751ceed3e9bebb221c47"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-extra-oct17/fx9590-a407938ff7-crop-320.webp",
+      "bytes": 21456,
+      "sha256": "6e8d66d32989bda66a9043d843dbf7bbdca49514c38d7ebe0615d4ddd8df969d"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-extra-oct17/fx6300-d19573aaa3.webp",
+      "bytes": 23236,
+      "sha256": "0cd0cc1cd7fbf79fd4179d39dd1ae80c1292a1ef548cbc103008e0924a226a4a"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-extra-oct17/fx6300-d19573aaa3-320.webp",
+      "bytes": 7066,
+      "sha256": "4d853ad43b1d88b265412c668140c32a2551aa61cdf23b34f58c66b35916b169"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-extra-oct17/phenom9500-95c55e01ad.webp",
+      "bytes": 73414,
+      "sha256": "0ce5431d91c2587ad55325986fb2620be762ca900ef0e8494d2c38ab0b2f3339"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-extra-oct17/phenom9500-95c55e01ad-320.webp",
+      "bytes": 18036,
+      "sha256": "9ed6010b1de97d16119b4e374e4ee12e7c51a3d2a02d9b88f2a0eeb3ed068998"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-extra-oct17/phenomii965-0f6d3a59d4.webp",
+      "bytes": 56580,
+      "sha256": "186c8e63eab81b36cd060c3257f2cd370938c8d2fba2f57ed8173ed7fa3b1b6e"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-extra-oct17/phenomii965-0f6d3a59d4-320.webp",
+      "bytes": 13056,
+      "sha256": "cd3e2bdaa468cf02abfb3269792459ede926003444576159657541c814c0c0b7"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-extra-oct17/c-cpu-amd-epyc-9734-7784b7bb5d.webp",
+      "bytes": 22556,
+      "sha256": "0214115c04e115d5fd2e29a10ccd9a9f5ada96708bdfa47f4adf04842483ff3f"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-extra-oct17/c-cpu-amd-epyc-9734-7784b7bb5d-320.webp",
+      "bytes": 5374,
+      "sha256": "9b105bf2ca98f68961f4bfb2accfca1191151dfbd82be170dd07bfaf48e5d879"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-final-oct17/i914900-0bba673dbe.webp",
+      "bytes": 76332,
+      "sha256": "0bba673dbef7e0aa35cb49b1caf191efbd2847f4b1c64eca8bb8d593837c8da4"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-final-oct17/i914900-0bba673dbe-320.webp",
+      "bytes": 13540,
+      "sha256": "d436f2b578ed54cc680d61f4d28f3ef8353b76c7edbfce48970c10bf78437daf"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-final-oct17/i714700-95c6737362.webp",
+      "bytes": 77508,
+      "sha256": "95c6737362d42741c72096479bf1a3109a31aed2eaede62271418e25a90a881b"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-final-oct17/i714700-95c6737362-320.webp",
+      "bytes": 6098,
+      "sha256": "3f4f342946e3db97ff8c2fc9312d0e9e2cea2d3f2b5c67faf8d2ec5ecd1dc7db"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-final-oct17/i514600-10de045d0f.webp",
+      "bytes": 29562,
+      "sha256": "10de045d0ff8c6e321cf10764a74897737a3849cc80e3c576c67fc1afc1901f7"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-final-oct17/i514600-10de045d0f-320.webp",
+      "bytes": 7440,
+      "sha256": "853bbbe1f46356cffb2869a3993bd546462f84fa59b2b3633a88e2e670cbc067"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-final-oct17/i514400f-8fc6ab4421.webp",
+      "bytes": 41460,
+      "sha256": "8fc6ab4421392c9bb3209604578d4e25d5449e388db9aa71b0e38289136bfe5f"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-final-oct17/i514400f-8fc6ab4421-320.webp",
+      "bytes": 8956,
+      "sha256": "c04e48b2c8641beb5118a3537265fe45ca0cc6b6dbcbab6a3b1abf6382405aa6"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-last-oct17/i79700-a65549f09d.webp",
+      "bytes": 24260,
+      "sha256": "9295de775f2f7c032761fa558d730154c378bbc4ecc764f8392bba06c35c9607"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-last-oct17/i79700-a65549f09d-320.webp",
+      "bytes": 8002,
+      "sha256": "740bebba41f22df80583a85ace42ca7a3aaac6e579474c1891f73ebd2b54382a"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-last-oct17/i511600-f062ac67a8.webp",
+      "bytes": 49256,
+      "sha256": "6fda35904caf09e14f1bcf4fd8da80aa965947dee24de3f949c8ae54c0c893bb"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-last-oct17/i511600-f062ac67a8-320.webp",
+      "bytes": 12470,
+      "sha256": "d51574116e0db360046e9195da3e71db97e0c7d4f614b154b6aeedabb2d0b24e"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-last-oct17/i510600-a156575c6d.webp",
+      "bytes": 128544,
+      "sha256": "17c3643a8d183e9cf2c2a66235f2c0d6afc14acb9ff34fcde4a9bbb1bb265657"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-last-oct17/i510600-a156575c6d-320.webp",
+      "bytes": 20210,
+      "sha256": "5ee808aee43b6042bf1cc449b5ed6dc4f4c5f9590e63fbdd617ec38537fdee06"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-last-oct17/i911900-7f2359c0c0.webp",
+      "bytes": 116912,
+      "sha256": "48adc0c533384895fae9650588e387ae0e22fb60381c0da18c2921c9e730e72b"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-last-oct17/i911900-7f2359c0c0-320.webp",
+      "bytes": 17782,
+      "sha256": "4788a5a1335b0590b82208d6605d050a5bb31aa9d0509bb3b833ca2eea7a75a3"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-last-oct17/i711700k-8ab17540c1.webp",
+      "bytes": 81690,
+      "sha256": "902632ad2f0fae7874929e14a0b5465a4be1f361858472515e006f493fd945fb"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-last-oct17/i711700k-8ab17540c1-320.webp",
+      "bytes": 13132,
+      "sha256": "2b2f34d148031534210fe33286322a99ee52a030f64683d04950260d76edc462"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-last-oct17/i59600k-e3c89a3ff4.webp",
+      "bytes": 125378,
+      "sha256": "581560fe81bfbfdf24b4a04c5ac19fcdd28ab7e4c45c8ceaa9ced8698bf71530"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-last-oct17/i59600k-e3c89a3ff4-320.webp",
+      "bytes": 16176,
+      "sha256": "7ace5636371fadd4a06b2fa38a0d35758fb8b9cf062bce0f3130dee85cf1f9cd"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-last-oct17/i77700-186f01c3dd.webp",
+      "bytes": 28310,
+      "sha256": "de629c9fc7ecbbe253846ec945bab569cafaaaab313c1ffd4995c45a7f28b11b"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-last-oct17/i77700-186f01c3dd-320.webp",
+      "bytes": 5600,
+      "sha256": "c8b6a963503e9cf12186c3ac36903a1a9fa1b16663c23bc88fa4bfbe805ad868"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-last-oct17/i313100f-af105a1fa3.webp",
+      "bytes": 63558,
+      "sha256": "cfdec03392c8296b7fb756b82175c9f01c4f06174990725bf84296c9e168c304"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-last-oct17/i313100f-af105a1fa3-320.webp",
+      "bytes": 16978,
+      "sha256": "f976c6b976077814a9f51a7cad59016b5280edc7bde2814ed478128260c13c79"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-last-oct17/i56600k-b476e6d678.webp",
+      "bytes": 19852,
+      "sha256": "b7015d7a6e2b398adbed9f68ae02ebcd9606f4b75dc47df667a26930f2e5a558"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-last-oct17/i56600k-b476e6d678-320.webp",
+      "bytes": 7922,
+      "sha256": "214c8c38e69162c9af27df1f42c0a6208500433c27246ebcbe2d6b3b21591c26"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-last-oct17/i712700-2e6049234c.webp",
+      "bytes": 24448,
+      "sha256": "af9b51e5a8592520673a1ef05cb4a797ab69fed69a66bd1cf117d0f85166453f"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-last-oct17/i712700-2e6049234c-320.webp",
+      "bytes": 5842,
+      "sha256": "e6e8d2be17dde881ff912a1f8c91aeb0c4cf33674f6e634afcf4107f59ab846a"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-last-oct17/i76950x-db24e0060d.webp",
+      "bytes": 28664,
+      "sha256": "4f16c7d8fda9d0a01868dc20f1baccc8f11cf0385253b02491bde5d22aeee3d7"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-last-oct17/i76950x-db24e0060d-320.webp",
+      "bytes": 10046,
+      "sha256": "4917864a5c769adf8448cc1ff0d78b759ba328ac1f104e3d7c010957747ff949"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-last-oct17/i910980xe-a05706c404.webp",
+      "bytes": 65050,
+      "sha256": "d47a526e23e9a8f5c07e7351c2434af4c2be06fd104f393f08f2c8e18378f824"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-last-oct17/i910980xe-a05706c404-320.webp",
+      "bytes": 12432,
+      "sha256": "eac11fdee5732071f39db2933d3d78e5e9a875786e31f879fa569f1097aee86d"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-last-oct17/i912900-e00fab5086.webp",
+      "bytes": 17874,
+      "sha256": "9c6ad484dc9a764d764c4cb6efb76b8afce71f180f12ed2ea1fd680187b69bc3"
+    },
+    {
+      "route": "/assets/hardware/catalog-remaining-cpu-last-oct17/i912900-e00fab5086-320.webp",
+      "bytes": 5560,
+      "sha256": "94d89802c8d801196415fcf7bd083f86cceb95aed044fc9f37cd98bbad002d1d"
+    },
+    {
       "route": "/learn/retail-zotac-geforce-rtx-3060-twin-edge.html",
       "correctProductImage": true
     },
@@ -5174,7 +7024,7 @@
       "correctProductImage": true
     },
     {
-      "route": "/learn/7600.html",
+      "route": "/learn/3100.html",
       "correctProductImage": true
     },
     {

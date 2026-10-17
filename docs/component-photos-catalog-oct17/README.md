@@ -51,10 +51,12 @@ Receipts cover all new full/thumbnail files, all 714 repaired product pages, mal
 
 Use the existing `codex/stage2-publication-2026-10-04` deployment branch and `pcpartperformance-live` Worker. Verify the production commit marker, public image indexes, all new asset hashes and sampled product pages using `verify-catalog-photos-live.mjs`, followed by rendered live checks. No DNS or Chrome-session change is needed.
 
-For rollback, create a normal revert commit, rebuild and run the same release checks, then push through the existing deployment branch. Preserve the previous release (`bd7981151dfc82080af228853fdc4ea45e0e9741`) and do not reset or force-push deployment history.
+For rollback, create a normal revert commit, rebuild and run the same release checks, then push through the existing deployment branch. Preserve the newer production changes through `2158ac8670a33c14ccfa986baf07d2b5d5951e94` and do not reset or force-push deployment history.
 
 ## Remaining work / exact checkpoint
 
 The original 192-record queue has 185 new reviewed pictures and seven product-identity gaps. See [the continuation report](REMAINING-192.md) for the task checklist, precise remaining models, source findings and release procedure. All CPUs, graphics cards and motherboards now have accepted images. The original rollout receipts are preserved in `qa-initial-rollout/`.
+
+The continuation is verified live at `e8c321b90d75e4dca9f0e96ded6b39dd71b83fd4`. See [the continuation release receipt](RELEASE-CONTINUATION.md) for the actual test counts and remaining limitations.
 
 Existing photos and all 3D geometry remain separate systems. No new 3D assets, benchmark results, prices, analytics claims or articles were added in this correction release.
