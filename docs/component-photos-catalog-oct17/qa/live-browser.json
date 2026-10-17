@@ -1,0 +1,359 @@
+{
+  "checkedAt": "2026-10-17T19:50:32.649Z",
+  "origin": "https://www.pcpartperformance.com",
+  "baseline": false,
+  "checks": [
+    {
+      "width": 360,
+      "route": "/builder/",
+      "photos": [
+        {
+          "category": "cpu",
+          "id": "7700x",
+          "src": "/assets/hardware/catalog-cpu-board-oct17/7700x-320.webp",
+          "width": 320,
+          "height": 320,
+          "fit": "contain"
+        },
+        {
+          "category": "board",
+          "id": "b450",
+          "src": "/assets/hardware/catalog-cpu-board-oct17/b450-320.webp",
+          "width": 320,
+          "height": 256,
+          "fit": "contain"
+        },
+        {
+          "category": "gpu",
+          "id": "rx570",
+          "src": "/assets/hardware/catalog-gpu-oct17/rx570-320.webp",
+          "width": 320,
+          "height": 256,
+          "fit": "contain"
+        },
+        {
+          "category": "ram",
+          "id": "gskill6000c30",
+          "src": "/assets/hardware/catalog-storage-psu-oct17/gskill6000c30-4235ed4ed3-320.webp",
+          "width": 320,
+          "height": 172,
+          "fit": "contain"
+        },
+        {
+          "category": "ssd",
+          "id": "990pro",
+          "src": "/assets/hardware/catalog-storage-psu-oct17/990pro-03f09a9200-320.webp",
+          "width": 320,
+          "height": 213,
+          "fit": "contain"
+        },
+        {
+          "category": "hdd",
+          "id": "ironwolf4tb",
+          "src": "/assets/hardware/catalog-storage-psu-oct17/ironwolf4tb-0a50f15169-320.webp",
+          "width": 110,
+          "height": 110,
+          "fit": "contain"
+        },
+        {
+          "category": "psu",
+          "id": "focusgx850",
+          "src": "/assets/hardware/catalog-storage-psu-oct17/focusgx850-7ca8f82617-320.webp",
+          "width": 320,
+          "height": 240,
+          "fit": "contain"
+        },
+        {
+          "category": "case",
+          "id": "x-case-corsair-obsidian-1000d",
+          "src": "/assets/hardware/catalog-case-cooling-oct17/x-case-corsair-obsidian-1000d-47227f5316-320.webp",
+          "width": 320,
+          "height": 320,
+          "fit": "contain"
+        },
+        {
+          "category": "fan",
+          "id": "retail-arctic-p12-pro-pst-co",
+          "src": "/assets/hardware/catalog-case-cooling-oct17/retail-arctic-p12-pro-pst-co-fc16511516-320.webp",
+          "width": 320,
+          "height": 320,
+          "fit": "contain"
+        },
+        {
+          "category": "cooler",
+          "id": "cooler-thermalright-peerless-assassin-120-se",
+          "src": "/assets/hardware/catalog-case-cooling-oct17/cooler-thermalright-peerless-assassin-120-se-b1084b27d3-320.webp",
+          "width": 320,
+          "height": 320,
+          "fit": "contain"
+        }
+      ]
+    },
+    {
+      "width": 360,
+      "route": "/learn/7700x.html",
+      "correctImage": true
+    },
+    {
+      "width": 360,
+      "route": "/learn/rx570.html",
+      "correctImage": true
+    },
+    {
+      "width": 360,
+      "route": "/learn/990pro.html",
+      "correctImage": true
+    },
+    {
+      "width": 360,
+      "route": "/learn/focusgx850.html",
+      "correctImage": true
+    },
+    {
+      "width": 360,
+      "route": "/hardware/graphics-cards/",
+      "decodedCatalogImages": 6,
+      "meaningfulAlt": true
+    },
+    {
+      "width": 360,
+      "route": "/compare/",
+      "fullCardAndSmallPickerImages": true
+    },
+    {
+      "width": 390,
+      "route": "/builder/",
+      "photos": [
+        {
+          "category": "cpu",
+          "id": "7700x",
+          "src": "/assets/hardware/catalog-cpu-board-oct17/7700x-320.webp",
+          "width": 320,
+          "height": 320,
+          "fit": "contain"
+        },
+        {
+          "category": "board",
+          "id": "b450",
+          "src": "/assets/hardware/catalog-cpu-board-oct17/b450-320.webp",
+          "width": 320,
+          "height": 256,
+          "fit": "contain"
+        },
+        {
+          "category": "gpu",
+          "id": "rx570",
+          "src": "/assets/hardware/catalog-gpu-oct17/rx570-320.webp",
+          "width": 320,
+          "height": 256,
+          "fit": "contain"
+        },
+        {
+          "category": "ram",
+          "id": "gskill6000c30",
+          "src": "/assets/hardware/catalog-storage-psu-oct17/gskill6000c30-4235ed4ed3-320.webp",
+          "width": 320,
+          "height": 172,
+          "fit": "contain"
+        },
+        {
+          "category": "ssd",
+          "id": "990pro",
+          "src": "/assets/hardware/catalog-storage-psu-oct17/990pro-03f09a9200-320.webp",
+          "width": 320,
+          "height": 213,
+          "fit": "contain"
+        },
+        {
+          "category": "hdd",
+          "id": "ironwolf4tb",
+          "src": "/assets/hardware/catalog-storage-psu-oct17/ironwolf4tb-0a50f15169-320.webp",
+          "width": 110,
+          "height": 110,
+          "fit": "contain"
+        },
+        {
+          "category": "psu",
+          "id": "focusgx850",
+          "src": "/assets/hardware/catalog-storage-psu-oct17/focusgx850-7ca8f82617-320.webp",
+          "width": 320,
+          "height": 240,
+          "fit": "contain"
+        },
+        {
+          "category": "case",
+          "id": "x-case-corsair-obsidian-1000d",
+          "src": "/assets/hardware/catalog-case-cooling-oct17/x-case-corsair-obsidian-1000d-47227f5316-320.webp",
+          "width": 320,
+          "height": 320,
+          "fit": "contain"
+        },
+        {
+          "category": "fan",
+          "id": "retail-arctic-p12-pro-pst-co",
+          "src": "/assets/hardware/catalog-case-cooling-oct17/retail-arctic-p12-pro-pst-co-fc16511516-320.webp",
+          "width": 320,
+          "height": 320,
+          "fit": "contain"
+        },
+        {
+          "category": "cooler",
+          "id": "cooler-thermalright-peerless-assassin-120-se",
+          "src": "/assets/hardware/catalog-case-cooling-oct17/cooler-thermalright-peerless-assassin-120-se-b1084b27d3-320.webp",
+          "width": 320,
+          "height": 320,
+          "fit": "contain"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/learn/7700x.html",
+      "correctImage": true
+    },
+    {
+      "width": 390,
+      "route": "/learn/rx570.html",
+      "correctImage": true
+    },
+    {
+      "width": 390,
+      "route": "/learn/990pro.html",
+      "correctImage": true
+    },
+    {
+      "width": 390,
+      "route": "/learn/focusgx850.html",
+      "correctImage": true
+    },
+    {
+      "width": 390,
+      "route": "/hardware/graphics-cards/",
+      "decodedCatalogImages": 6,
+      "meaningfulAlt": true
+    },
+    {
+      "width": 390,
+      "route": "/compare/",
+      "fullCardAndSmallPickerImages": true
+    },
+    {
+      "width": 1440,
+      "route": "/builder/",
+      "photos": [
+        {
+          "category": "cpu",
+          "id": "7700x",
+          "src": "/assets/hardware/catalog-cpu-board-oct17/7700x-320.webp",
+          "width": 320,
+          "height": 320,
+          "fit": "contain"
+        },
+        {
+          "category": "board",
+          "id": "b450",
+          "src": "/assets/hardware/catalog-cpu-board-oct17/b450-320.webp",
+          "width": 320,
+          "height": 256,
+          "fit": "contain"
+        },
+        {
+          "category": "gpu",
+          "id": "rx570",
+          "src": "/assets/hardware/catalog-gpu-oct17/rx570-320.webp",
+          "width": 320,
+          "height": 256,
+          "fit": "contain"
+        },
+        {
+          "category": "ram",
+          "id": "gskill6000c30",
+          "src": "/assets/hardware/catalog-storage-psu-oct17/gskill6000c30-4235ed4ed3-320.webp",
+          "width": 320,
+          "height": 172,
+          "fit": "contain"
+        },
+        {
+          "category": "ssd",
+          "id": "990pro",
+          "src": "/assets/hardware/catalog-storage-psu-oct17/990pro-03f09a9200-320.webp",
+          "width": 320,
+          "height": 213,
+          "fit": "contain"
+        },
+        {
+          "category": "hdd",
+          "id": "ironwolf4tb",
+          "src": "/assets/hardware/catalog-storage-psu-oct17/ironwolf4tb-0a50f15169-320.webp",
+          "width": 110,
+          "height": 110,
+          "fit": "contain"
+        },
+        {
+          "category": "psu",
+          "id": "focusgx850",
+          "src": "/assets/hardware/catalog-storage-psu-oct17/focusgx850-7ca8f82617-320.webp",
+          "width": 320,
+          "height": 240,
+          "fit": "contain"
+        },
+        {
+          "category": "case",
+          "id": "x-case-corsair-obsidian-1000d",
+          "src": "/assets/hardware/catalog-case-cooling-oct17/x-case-corsair-obsidian-1000d-47227f5316-320.webp",
+          "width": 320,
+          "height": 320,
+          "fit": "contain"
+        },
+        {
+          "category": "fan",
+          "id": "retail-arctic-p12-pro-pst-co",
+          "src": "/assets/hardware/catalog-case-cooling-oct17/retail-arctic-p12-pro-pst-co-fc16511516-320.webp",
+          "width": 320,
+          "height": 320,
+          "fit": "contain"
+        },
+        {
+          "category": "cooler",
+          "id": "cooler-thermalright-peerless-assassin-120-se",
+          "src": "/assets/hardware/catalog-case-cooling-oct17/cooler-thermalright-peerless-assassin-120-se-b1084b27d3-320.webp",
+          "width": 320,
+          "height": 320,
+          "fit": "contain"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/learn/7700x.html",
+      "correctImage": true
+    },
+    {
+      "width": 1440,
+      "route": "/learn/rx570.html",
+      "correctImage": true
+    },
+    {
+      "width": 1440,
+      "route": "/learn/990pro.html",
+      "correctImage": true
+    },
+    {
+      "width": 1440,
+      "route": "/learn/focusgx850.html",
+      "correctImage": true
+    },
+    {
+      "width": 1440,
+      "route": "/hardware/graphics-cards/",
+      "decodedCatalogImages": 6,
+      "meaningfulAlt": true
+    },
+    {
+      "width": 1440,
+      "route": "/compare/",
+      "fullCardAndSmallPickerImages": true
+    }
+  ],
+  "errors": []
+}

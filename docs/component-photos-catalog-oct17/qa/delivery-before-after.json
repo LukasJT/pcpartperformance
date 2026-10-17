@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-10-17T19:48:19.181Z",
+  "baselineCommit": "bd7981151dfc82080af228853fdc4ea45e0e9741",
+  "releaseCommit": "f704e335c46f2fdb7f0a18f81e65bdd7eb03d892",
+  "scope": "Local byte/gzip comparison of the previous production Git assets and the new build. Builder image index is lazy and covers more correctly matched components. These are lab asset measurements, not field performance or Core Web Vitals.",
+  "rows": [
+    {
+      "file": "image-catalog.js",
+      "beforeBytes": 404920,
+      "afterBytes": 499515,
+      "beforeGzip": 41462,
+      "afterGzip": 53283
+    },
+    {
+      "file": "image-catalog-lite.js",
+      "beforeBytes": 107266,
+      "afterBytes": 112270,
+      "beforeGzip": 16110,
+      "afterGzip": 17626
+    },
+    {
+      "file": "builder-images.js",
+      "beforeBytes": 29443,
+      "afterBytes": 132537,
+      "beforeGzip": 5752,
+      "afterGzip": 22800
+    }
+  ]
+}
