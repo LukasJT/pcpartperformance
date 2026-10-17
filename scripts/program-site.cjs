@@ -65,7 +65,8 @@ module.exports=({root,records,images,shell,write,esc})=>{
  fs.writeFileSync(path.join(root,'builder-catalog.js'),'window.PCP_BUILDER_CATALOG='+JSON.stringify(builderParts).replace(/</g,'\\u003c')+';');
  // Match the existing photo preview contract; full provenance stays on product pages.
  const imageDelivery=require('./program-image-delivery.cjs');
- fs.writeFileSync(path.join(root,'builder-images.js'),'window.PCP_IMAGES='+JSON.stringify(Object.fromEntries(builderParts.filter(p=>images[p.id]).map(p=>[p.id,{src:imageDelivery.source(p.id,images[p.id],root),picturedModel:images[p.id].picturedModel}]))).replace(/</g,'\\u003c')+';');
+ const builderImages=require('./builder-photo-delivery.cjs').index(builderParts,images,root);
+ fs.writeFileSync(path.join(root,'builder-images.js'),'window.PCP_IMAGES='+JSON.stringify(builderImages).replace(/</g,'\\u003c')+';');
  const paths=[];function walk(dir){for(const e of fs.readdirSync(dir,{withFileTypes:true})){const f=path.join(dir,e.name);if(e.isDirectory())walk(f);else if(e.name.endsWith('.html'))paths.push(f)}}walk(root);
  for(const file of paths){let h=fs.readFileSync(file,'utf8');if(h.includes('data-legacy-redirect'))continue;const route='/'+path.relative(root,file).replaceAll('\\','/').replace(/index\.html$/,'');
   if(!h.includes('href="/program.css"'))h=h.replace('</head>','<link rel="stylesheet" href="/program.css"></head>');

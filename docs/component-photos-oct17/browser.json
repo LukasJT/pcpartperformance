@@ -1,0 +1,158 @@
+{
+  "checkedAt": "2026-10-17T18:28:46.446Z",
+  "origin": "http://127.0.0.1:4198",
+  "checks": [
+    {
+      "width": 390,
+      "category": "cpu",
+      "rowPhotos": [
+        {
+          "category": "cpu",
+          "selected": "1",
+          "image": "/assets/hardware/exact-9800x3d.webp"
+        },
+        {
+          "category": "board",
+          "selected": "1",
+          "image": "/assets/optimized/thumb-0f948fa48cd764-320.webp"
+        },
+        {
+          "category": "gpu",
+          "selected": "1",
+          "image": "/assets/hardware/repaired/retail-msi-geforce-rtx-3060-gaming-x-trio-12g-f092eb79d1-320.webp"
+        },
+        {
+          "category": "ram",
+          "selected": "1",
+          "image": "/assets/hardware/repaired/ddr5-7062434f2d-320.webp"
+        },
+        {
+          "category": "ssd",
+          "selected": "1",
+          "image": "/assets/optimized/thumb-efa54d845fa7f7-320.webp"
+        },
+        {
+          "category": "hdd",
+          "selected": "1",
+          "image": null
+        },
+        {
+          "category": "psu",
+          "selected": "1",
+          "image": "/assets/hardware/repaired/rm850x-064911070f-320.webp"
+        },
+        {
+          "category": "case",
+          "selected": "1",
+          "image": "/assets/hardware/repaired/retail-lian-li-o11-air-mini-black-9f97538245-320.webp"
+        },
+        {
+          "category": "fan",
+          "selected": "2",
+          "image": "/assets/hardware/repaired/retail-lian-li-uni-fan-tl-120-wireless-black-8b7c199b01-320.webp"
+        },
+        {
+          "category": "cooler",
+          "selected": "1",
+          "image": "/assets/hardware/repaired/cooler-noctua-nh-u12a-894fec9cb4-320.webp"
+        }
+      ],
+      "pickerPhotos": 16,
+      "firstNaturalWidth": 1200
+    },
+    {
+      "width": 390,
+      "category": "gpu",
+      "pickerPhotos": 29,
+      "firstNaturalWidth": 320
+    },
+    {
+      "width": 390,
+      "category": "ssd",
+      "pickerPhotos": 11,
+      "firstNaturalWidth": 320
+    },
+    {
+      "width": 390,
+      "category": "psu",
+      "pickerPhotos": 4,
+      "firstNaturalWidth": 320
+    },
+    {
+      "width": 1440,
+      "category": "cpu",
+      "rowPhotos": [
+        {
+          "category": "cpu",
+          "selected": "1",
+          "image": "/assets/hardware/exact-9800x3d.webp"
+        },
+        {
+          "category": "board",
+          "selected": "1",
+          "image": "/assets/optimized/thumb-0f948fa48cd764-320.webp"
+        },
+        {
+          "category": "gpu",
+          "selected": "1",
+          "image": "/assets/hardware/repaired/retail-msi-geforce-rtx-3060-gaming-x-trio-12g-f092eb79d1-320.webp"
+        },
+        {
+          "category": "ram",
+          "selected": "1",
+          "image": "/assets/hardware/repaired/ddr5-7062434f2d-320.webp"
+        },
+        {
+          "category": "ssd",
+          "selected": "1",
+          "image": "/assets/optimized/thumb-efa54d845fa7f7-320.webp"
+        },
+        {
+          "category": "hdd",
+          "selected": "1",
+          "image": null
+        },
+        {
+          "category": "psu",
+          "selected": "1",
+          "image": "/assets/hardware/repaired/rm850x-064911070f-320.webp"
+        },
+        {
+          "category": "case",
+          "selected": "1",
+          "image": "/assets/hardware/repaired/retail-lian-li-o11-air-mini-black-9f97538245-320.webp"
+        },
+        {
+          "category": "fan",
+          "selected": "2",
+          "image": "/assets/hardware/repaired/retail-lian-li-uni-fan-tl-120-wireless-black-8b7c199b01-320.webp"
+        },
+        {
+          "category": "cooler",
+          "selected": "1",
+          "image": "/assets/hardware/repaired/cooler-noctua-nh-u12a-894fec9cb4-320.webp"
+        }
+      ],
+      "pickerPhotos": 16,
+      "firstNaturalWidth": 1200
+    },
+    {
+      "width": 1440,
+      "category": "gpu",
+      "pickerPhotos": 29,
+      "firstNaturalWidth": 320
+    },
+    {
+      "width": 1440,
+      "category": "ssd",
+      "pickerPhotos": 11,
+      "firstNaturalWidth": 320
+    },
+    {
+      "width": 1440,
+      "category": "psu",
+      "pickerPhotos": 4,
+      "firstNaturalWidth": 320
+    }
+  ]
+}

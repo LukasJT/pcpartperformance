@@ -152,7 +152,7 @@
         button.setAttribute('role', 'option'); button.setAttribute('aria-selected', String(row.id === active.value)); button.tabIndex = -1;
         const frame = document.createElement('span'); frame.className = 'builder-picker-photo'; frame.setAttribute('aria-hidden', 'true');
         const asset = imageFor(row.part, images);
-        if (asset) { const image = document.createElement('img'); image.src = asset.src; image.alt = ''; image.width = 64; image.height = 56; image.loading = 'lazy'; frame.append(image); }
+        if (asset) { const image = document.createElement('img'); image.src = asset.src; image.alt = ''; image.title = asset.picturedModel || row.name; image.width = 64; image.height = 56; image.loading = 'lazy'; frame.append(image); }
         else frame.innerHTML = icon(row.part?.cat);
         const text = document.createElement('span'); text.className = 'builder-picker-option-name'; text.textContent = row.id ? row.name : active.value ? 'Remove selection' : 'Leave unselected';
         if (row.part) {

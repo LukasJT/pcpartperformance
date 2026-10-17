@@ -51,7 +51,7 @@
         const asset = part && selectors?.imageFor(part, window.PCP_IMAGES || {}), key = part?.id + ':' + (asset?.src || 'icon');
         if (frame.dataset.assetKey !== key) {
           frame.dataset.assetKey = key; frame.replaceChildren();
-          if (asset) { const image = document.createElement('img'); image.src = asset.src; image.alt = ''; image.width = 88; image.height = 76; image.loading = 'lazy'; image.decoding = 'async'; frame.append(image); }
+          if (asset) { const image = document.createElement('img'); image.src = asset.src; image.alt = ''; image.title = asset.picturedModel || part.name; image.width = 88; image.height = 76; image.loading = 'lazy'; image.decoding = 'async'; frame.append(image); }
           else if (row.querySelector('.builder-type svg')) frame.append(row.querySelector('.builder-type svg').cloneNode(true));
         }
         // Full identity/provenance remains on the product page; the framed image is decorative.
