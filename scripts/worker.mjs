@@ -20,7 +20,7 @@ async function respond(request,env){
  const response=await env.ASSETS.fetch(assetRequest),headers=new Headers(response.headers);
  for(const [key,value]of Object.entries(decision.headers))headers.set(key,value);
  headers.set('X-Content-Type-Options','nosniff');headers.set('Referrer-Policy','strict-origin-when-cross-origin');
- headers.set('Cache-Control',manifest.staging||decision.headers['X-Robots-Tag']?'no-store':/\/assets\/css\/site-[a-f0-9]+\.css$/.test(file)?'public, max-age=31536000, immutable':/\.(?:html|json|xml|js|css)$/.test(file)?'public, max-age=0, must-revalidate':'public, max-age=300');
+ headers.set('Cache-Control',manifest.staging||decision.headers['X-Robots-Tag']?'no-store':/\/assets\/(?:css\/site-[a-f0-9]+\.css|fonts\/(?:dm-sans|space-grotesk)-[a-z-]+-v\d+\.woff2)$/.test(file)?'public, max-age=31536000, immutable':/\.(?:html|json|xml|js|css)$/.test(file)?'public, max-age=0, must-revalidate':'public, max-age=300');
  return new Response(response.body,{status:decision.status>=400?decision.status:response.status,headers});
 }
 export default{async fetch(request,env){return secureResponse(await respond(request,env),request);},scheduled(controller,env,ctx){ctx.waitUntil(Promise.allSettled([scheduledMorningPrices(controller,env),scheduledPublicPrices(controller,env)]));}};

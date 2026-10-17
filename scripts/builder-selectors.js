@@ -70,8 +70,8 @@
     }).sort((a, b) => Number(b.id === selected && !!b.id) - Number(a.id === selected && !!a.id) || Number(!b.id) - Number(!a.id) || Number(b.hasModel) - Number(a.hasModel));
   }
   const icon = (name = 'component') => '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">' + ({
-    close: '<path d="m6 6 12 12M18 6 6 18"/>', chevron: '<path d="m7 10 5 5 5-5"/>', search: '<circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/>', check: '<path d="m5 12 4 4 10-10"/>', component: '<rect x="5" y="5" width="14" height="14" rx="3"/><path d="M9 1v4m6-4v4M9 19v4m6-4v4M1 9h4m-4 6h4m14-6h4m-4 6h4"/>'
-  })[name] + '</svg>';
+    close: '<path d="m6 6 12 12M18 6 6 18"/>', chevron: '<path d="m7 10 5 5 5-5"/>', search: '<circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/>', check: '<path d="m5 12 4 4 10-10"/>', psu:'<rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="10" cy="12" r="4"/><path d="m8 9 4 6m-5-4 6 2m-6 0 6-2m-5 4 4-6M17 9v3m0 3h1"/>', case:'<rect x="6" y="2" width="12" height="20" rx="2"/><circle cx="12" cy="10" r="3"/><path d="M9 17h6M9 5h6"/>', gpu:'<rect x="2" y="6" width="20" height="12" rx="2"/><circle cx="8" cy="12" r="3"/><circle cx="17" cy="12" r="3"/><path d="M5 18v3m3-3v3m3-3v3M2 6V3"/>', ram:'<rect x="2" y="7" width="20" height="9" rx="1"/><path d="M5 10h3v3H5zm5 0h3v3h-3zm5 0h3v3h-3zM4 16v3m4-3v3m4-3v3m4-3v3m4-3v3"/>', fan:'<rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="12" cy="12" r="6"/><path d="m9 7 6 10m-8-7 10 4m-10 0 10-4m-8 7 6-10"/>', component: '<rect x="5" y="5" width="14" height="14" rx="3"/><path d="M9 1v4m6-4v4M9 19v4m6-4v4M1 9h4m-4 6h4m14-6h4m-4 6h4"/>'
+  }[name] || '<rect x="5" y="5" width="14" height="14" rx="3"/><path d="M9 1v4m6-4v4M9 19v4m6-4v4M1 9h4m-4 6h4m14-6h4m-4 6h4"/>') + '</svg>';
   function mount() {
     if (!document.querySelector('body[data-page="builder"] main') || document.querySelector('[data-builder-picker]')) return;
     const registry = new WeakMap(), main = document.querySelector('main');
@@ -82,13 +82,14 @@
     const dialog = document.createElement('dialog');
     dialog.className = 'select-dialog builder-picker'; dialog.dataset.builderPicker = ''; dialog.id = 'builder-picker';
     dialog.setAttribute('aria-labelledby', 'builder-picker-title');
-    dialog.innerHTML = '<div class="select-dialog-head"><div><span class="builder-picker-kicker">Choose an exact model</span><strong id="builder-picker-title">Component choices</strong></div><button type="button" class="select-close" aria-label="Close choices">' + icon('close') + '</button></div>' +
-      '<p class="builder-picker-current"></p><div class="builder-picker-tools"><button type="button" class="builder-picker-search-button">' + icon('search') + '<span>Search models</span></button><label class="builder-picker-models"><input type="checkbox"> 3D model available</label><button type="button" class="builder-picker-reset">Reset filters</button></div>' +
-      '<div class="select-search-wrap" hidden><label class="sr-only" for="builder-picker-search">Search exact model, capacity or SKU</label><input type="search" id="builder-picker-search" class="select-search" role="combobox" aria-autocomplete="list" aria-expanded="true" aria-controls="builder-picker-options" placeholder="Model, capacity or SKU" autocomplete="off"></div>' +
-      '<details class="builder-picker-filters"><summary>Category, brands and series <span class="builder-picker-filter-count"></span></summary><div class="builder-picker-filter-content"><div class="builder-picker-facets"><label>Category<select data-picker-category></select></label><label><span data-picker-series-label>Series</span><select data-picker-series><option value="">All series</option></select></label></div><fieldset class="builder-picker-brands"><legend>Brands · choose any</legend><div class="select-brand-filters"></div></fieldset></div></details>' +
+    dialog.innerHTML = '<div class="select-dialog-head"><div><span class="builder-picker-kicker" hidden>Choose an exact model</span><strong id="builder-picker-title">Component choices</strong></div><button type="button" class="select-close" aria-label="Close choices">' + icon('close') + '</button></div>' +
+      '<p class="builder-picker-current" hidden></p><div class="select-search-wrap">' + icon('search') + '<label class="sr-only" for="builder-picker-search">Search exact model, capacity or SKU</label><input type="search" id="builder-picker-search" class="select-search" role="combobox" aria-autocomplete="list" aria-expanded="true" aria-controls="builder-picker-options" placeholder="Search model or brand" autocomplete="off"></div>' +
+      '<div class="builder-picker-tools"><label class="builder-picker-models"><input type="checkbox"> 3D models</label><button type="button" class="builder-picker-reset" hidden>Reset filters</button></div>' +
+      '<details class="builder-picker-filters"><summary>Filters <span class="builder-picker-filter-count"></span></summary><div class="builder-picker-filter-content"><div class="builder-picker-facets"><label>Category<select data-picker-category></select></label><label><span data-picker-series-label>Series</span><select data-picker-series><option value="">All series</option></select></label></div><fieldset class="builder-picker-brands"><legend>Brands</legend><div class="select-brand-filters"></div></fieldset></div></details>' +
       '<div class="select-results" id="builder-picker-options" role="listbox" aria-label="Available choices" tabindex="0" autofocus></div><button type="button" class="builder-picker-more" hidden>Show more choices</button><p class="select-hint" aria-live="polite"></p>';
     document.body.append(dialog);
     const results = dialog.querySelector('.select-results'), search = dialog.querySelector('.select-search'), hint = dialog.querySelector('.select-hint');
+    results.setAttribute('aria-description','Use Arrow keys to browse, Enter to select, or / to search. Escape closes the picker.');
     const modelCheck = dialog.querySelector('.builder-picker-models input'), categorySelect = dialog.querySelector('[data-picker-category]'), seriesSelect = dialog.querySelector('[data-picker-series]');
     const reset = dialog.querySelector('.builder-picker-reset'), more = dialog.querySelector('.builder-picker-more'), filters = dialog.querySelector('.builder-picker-filters');
     let active = null, rows = [], cursor = 0, limit = 80, serial = 0, sourceRows = [];
@@ -136,7 +137,9 @@
     }
     function currentSelection() {
       const part = partIndex.get(active.value);
-      dialog.querySelector('.builder-picker-current').textContent = active.value ? 'Selected: ' + (part?.name || active.selectedOptions[0]?.textContent.trim() || active.value) : 'No part selected in this category.';
+      const current=dialog.querySelector('.builder-picker-current');
+      current.hidden=!active.value;
+      current.textContent = active.value ? 'Selected: ' + (part?.name || active.selectedOptions[0]?.textContent.trim() || active.value) : '';
     }
     function render() {
       if (!active) return;
@@ -145,25 +148,28 @@
       const identities = new Map();
       for (const row of sourceRows) { const name = normalize(row.name); if (!identities.has(name)) identities.set(name, new Set()); identities.get(name).add(row.id); }
       rows.slice(0, limit).forEach((row, index) => {
-        const button = document.createElement('button'); button.type = 'button'; button.className = 'select-option'; button.id = 'builder-picker-option-' + index;
+        const button = document.createElement('button'); button.type = 'button'; button.className = 'select-option'+(row.id?'':' picker-empty-option'); button.id = 'builder-picker-option-' + index;
         button.setAttribute('role', 'option'); button.setAttribute('aria-selected', String(row.id === active.value)); button.tabIndex = -1;
         const frame = document.createElement('span'); frame.className = 'builder-picker-photo'; frame.setAttribute('aria-hidden', 'true');
         const asset = imageFor(row.part, images);
         if (asset) { const image = document.createElement('img'); image.src = asset.src; image.alt = ''; image.width = 64; image.height = 56; image.loading = 'lazy'; frame.append(image); }
-        else frame.innerHTML = icon();
-        const text = document.createElement('span'); text.className = 'builder-picker-option-name'; text.textContent = row.id ? row.name : active.value ? 'Remove this selection' : 'Keep this category empty';
+        else frame.innerHTML = icon(row.part?.cat);
+        const text = document.createElement('span'); text.className = 'builder-picker-option-name'; text.textContent = row.id ? row.name : active.value ? 'Remove selection' : 'Leave unselected';
         if (row.part) {
-          const details = document.createElement('small'); details.textContent = [row.brand, row.part.summary, row.part.sku ? 'SKU ' + row.part.sku : '', row.hasModel ? '3D available' : ''].filter(Boolean).join(' · '); text.append(details);
+          const details = document.createElement('small'); details.textContent = [row.brand, row.part.summary].filter(Boolean).join(' · '); text.append(details);
+          if(row.part.sku)button.title=row.part.sku;
+          if(row.hasModel){const badge=document.createElement('span');badge.className='builder-picker-model-badge';badge.textContent='3D';badge.setAttribute('aria-label','3D model available');text.append(badge);}
           if ((identities.get(normalize(row.name))?.size || 0) > 1) { const identity = document.createElement('small'); identity.textContent = 'Catalog ID: ' + row.id + ' · identity review pending'; text.append(identity); }
         }
         const mark = document.createElement('span'); mark.className = 'select-check'; mark.setAttribute('aria-hidden', 'true'); if (row.id === active.value) mark.innerHTML = icon('check');
         button.append(frame, text, mark); button.addEventListener('click', () => choose(index)); results.append(button);
       });
-      if (!rows.length) { const empty = document.createElement('p'); empty.className = 'select-empty'; empty.textContent = 'No matching choices. Reset filters or try a shorter model name. Parts with unknown fit remain available unless they introduce a documented conflict.'; results.append(empty); }
+      if (!rows.length) { const empty = document.createElement('p'); empty.className = 'select-empty'; empty.textContent = 'No matches. Try another name or reset the filters.'; results.append(empty); }
       const count = rows.filter(row => row.id).length;
-      hint.textContent = category(active) ? count + (count === 1 ? ' model' : ' models') + ' · Arrow keys browse · Enter selects · / opens search' : rows.length + ' choices · Arrow keys browse · Enter selects';
+      hint.textContent = category(active) ? count + (count === 1 ? ' model' : ' models') : rows.length + ' choices';
       const filterCount = brands.size + Number(!!seriesSelect.value) + Number(modelCheck.checked) + Number(!!search.value.trim());
       reset.disabled = filterCount === 0;
+      reset.hidden = filterCount === 0;
       dialog.querySelector('.builder-picker-filter-count').textContent = filterCount ? filterCount + ' active' : '';
       more.hidden = rows.length <= limit; more.textContent = 'Show ' + Math.min(80, rows.length - limit) + ' more choices';
       activate(Math.max(0, rows.findIndex(row => row.id === active.value)));
@@ -178,7 +184,7 @@
       active = select; limit = 80; brands.clear(); search.value = ''; modelCheck.checked = false;
       const isPart = !!category(select);
       dialog.querySelector('.builder-picker-kicker').textContent = isPart ? 'Choose an exact model' : 'Build preferences';
-      dialog.querySelector('#builder-picker-title').textContent = selectLabel(select);
+      dialog.querySelector('#builder-picker-title').textContent = ({cpu:'Choose a processor',board:'Choose a motherboard',gpu:'Choose a graphics card',ram:'Choose memory',ssd:'Choose an SSD',hdd:'Choose a hard drive',psu:'Choose a power supply',case:'Choose a case',fan:'Choose case fans',cooler:'Choose a CPU cooler'})[category(select)] || selectLabel(select);
       sourceRows = optionRecords(select, partIndex, modelIds);
       filters.hidden = !isPart; dialog.querySelector('.builder-picker-models').hidden = !isPart;
       modelCheck.disabled = !sourceRows.some(row => row.hasModel);
@@ -205,12 +211,8 @@
     }
     function open(select) {
       if (select.disabled) return;
-      configure(select); filters.open = false; dialog.querySelector('.select-search-wrap').hidden = true;
-      dialog.querySelector('.builder-picker-search-button').setAttribute('aria-expanded', 'false');
-      const width = Math.min(720, innerWidth - 32), height = Math.min(820, innerHeight - 32);
-      dialog.style.width = width + 'px'; dialog.style.maxHeight = height + 'px';
-      dialog.style.left = Math.max(16, (innerWidth - width) / 2) + 'px'; dialog.style.top = Math.max(16, Math.min(64, (innerHeight - height) / 2)) + 'px';
-      // Search is hidden when the modal opens, so opening a picker cannot summon a mobile keyboard.
+      configure(select); filters.open = false;
+      // The list receives focus. A visible search field never opens the mobile keyboard by itself.
       dialog.showModal(); results.focus({ preventScroll: true }); activate(cursor);
     }
     function enhance() {
@@ -228,12 +230,8 @@
       }
     }
     function startSearch() {
-      dialog.querySelector('.select-search-wrap').hidden = false;
-      dialog.querySelector('.builder-picker-search-button').setAttribute('aria-expanded', 'true');
       search.focus({ preventScroll: true });
     }
-    dialog.querySelector('.builder-picker-search-button').setAttribute('aria-controls', 'builder-picker-search');
-    dialog.querySelector('.builder-picker-search-button').addEventListener('click', startSearch);
     dialog.querySelector('.select-close').addEventListener('click', () => close()); reset.addEventListener('click', resetFilters);
     search.addEventListener('input', () => { limit = 80; render(); }); modelCheck.addEventListener('change', () => { limit = 80; render(); });
     seriesSelect.addEventListener('change', () => { limit = 80; render(); });
@@ -259,7 +257,8 @@
     let queued = false;
     new MutationObserver(() => { if (!queued) { queued = true; queueMicrotask(() => { queued = false; enhance(); }); } }).observe(main, { childList: true, subtree: true });
     document.addEventListener('pcp:build-state', () => { if (active && !active.isConnected) close(); });
-    window.addEventListener('resize', () => { if (active) close(); });
+    let viewportWidth=innerWidth;
+    window.addEventListener('resize', () => { if(viewportWidth!==innerWidth){viewportWidth=innerWidth;if(active)close();} });
     enhance();
   }
   return { CATEGORIES, normalize, facet, facetLabel, imageFor, optionRecords, filterOptions, mount };

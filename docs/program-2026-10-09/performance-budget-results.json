@@ -1,55 +1,55 @@
 {
-  "checkedAt": "2026-10-17T02:26:51.183Z",
+  "checkedAt": "2026-10-17T17:00:44.362Z",
   "passed": true,
   "scope": "Static route regression budgets, not real-user performance",
   "results": [
     {
       "route": "/",
-      "scriptGzip": 6140,
+      "scriptGzip": 6624,
       "scriptLimit": 9700,
-      "styleBytes": 141320,
+      "styleBytes": 128487,
       "styleLimit": 142000
     },
     {
       "route": "/hardware/graphics-cards/",
-      "scriptGzip": 96116,
+      "scriptGzip": 95804,
       "scriptLimit": 98000,
-      "styleBytes": 133414,
+      "styleBytes": 120581,
       "styleLimit": 138000
     },
     {
       "route": "/learn/rtx5070.html",
-      "scriptGzip": 9612,
+      "scriptGzip": 10096,
       "scriptLimit": 13100,
-      "styleBytes": 131888,
+      "styleBytes": 132339,
       "styleLimit": 133000
     },
     {
       "route": "/compare/rtx-5070-vs-rx-9070/",
-      "scriptGzip": 6786,
+      "scriptGzip": 7270,
       "scriptLimit": 10100,
-      "styleBytes": 120026,
+      "styleBytes": 120477,
       "styleLimit": 125000
     },
     {
       "route": "/builder/",
-      "scriptGzip": 120615,
+      "scriptGzip": 120081,
       "scriptLimit": 122000,
-      "styleBytes": 223913,
+      "styleBytes": 187446,
       "styleLimit": 224000
     },
     {
       "route": "/performance/",
-      "scriptGzip": 35108,
+      "scriptGzip": 34816,
       "scriptLimit": 40000,
-      "styleBytes": 163749,
+      "styleBytes": 150916,
       "styleLimit": 169000
     },
     {
       "route": "/blog/how-to-choose-a-graphics-card/",
-      "scriptGzip": 6786,
+      "scriptGzip": 7270,
       "scriptLimit": 10100,
-      "styleBytes": 120026,
+      "styleBytes": 120477,
       "styleLimit": 125000
     }
   ]

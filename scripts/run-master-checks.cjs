@@ -12,6 +12,7 @@ tasks.push('node scripts/completion-editorial-extra.test.cjs');
 tasks.push('node scripts/completion-model-images.test.cjs','node scripts/completion-price-expansion.test.mjs');
 tasks.push('node scripts/public-price-expansion-integration.test.mjs');
 tasks.push('node scripts/completion-measurement.test.cjs');
+tasks.push('node scripts/ui-refinement.test.cjs');
 for(const task of tasks){const args=task.split(' ');if(args.shift()!=='node')throw Error('Unexpected test command');const r=cp.spawnSync(process.execPath,args,{encoding:'utf8',maxBuffer:12*1024*1024});results.push({command:task,exitCode:r.status,passed:r.status===0});console.log((r.status===0?'PASS ':'FAIL ')+task);if(r.status!==0)console.log(((r.stdout||'')+(r.stderr||'')).slice(-3500));}
 fs.mkdirSync('docs/master/qa',{recursive:true});fs.writeFileSync(path.join('docs/master/qa','test-commands.json'),JSON.stringify({checkedAt:new Date().toISOString(),commands:results.length,passed:results.filter(x=>x.passed).length,results},null,2));
 fs.mkdirSync('docs/master-completion/qa',{recursive:true});fs.writeFileSync('docs/master-completion/qa/test-commands.json',JSON.stringify({checkedAt:new Date().toISOString(),commands:results.length,passed:results.filter(x=>x.passed).length,results},null,2)+'\n');

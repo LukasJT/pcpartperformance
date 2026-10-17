@@ -1,0 +1,178 @@
+{
+  "checkedAt": "2026-10-17T17:01:51.975Z",
+  "origin": "http://127.0.0.1:4198",
+  "checks": [
+    {
+      "name": "Mobile menu groups destinations, traps focus, restores scroll and returns focus",
+      "passed": true,
+      "evidence": {
+        "headerHeight": 72,
+        "guidedRowHeight": 168,
+        "partAlignment": 0.0078125,
+        "mainUnlocked": true,
+        "iconAlignment": [
+          {
+            "label": "Build",
+            "delta": 0.0078125
+          },
+          {
+            "label": "Upgrade",
+            "delta": 0.0078125
+          },
+          {
+            "label": "Compare",
+            "delta": 0.0078125
+          },
+          {
+            "label": "Hardware",
+            "delta": 0.0078125
+          },
+          {
+            "label": "Learn",
+            "delta": 0.0078125
+          },
+          {
+            "label": "My PC",
+            "delta": 0.0078125
+          },
+          {
+            "label": "Phone comparison",
+            "delta": 0
+          },
+          {
+            "label": "Game FPS",
+            "delta": 0
+          },
+          {
+            "label": "Prebuilt PCs",
+            "delta": 0
+          },
+          {
+            "label": "Gaming laptops",
+            "delta": 0
+          },
+          {
+            "label": "Build School",
+            "delta": 0
+          },
+          {
+            "label": "Compatibility",
+            "delta": 0
+          },
+          {
+            "label": "Calculators",
+            "delta": 0
+          },
+          {
+            "label": "Troubleshooting",
+            "delta": 0
+          }
+        ],
+        "automatedViolations": []
+      }
+    },
+    {
+      "name": "Country and theme utilities work inside the mobile menu",
+      "passed": true,
+      "evidence": {
+        "regionRestored": "CA",
+        "themes": [
+          "dark",
+          "light"
+        ]
+      }
+    },
+    {
+      "name": "Builder picker shows products, keeps search unfocused and makes the empty action compact",
+      "passed": true,
+      "evidence": {
+        "modal": {
+          "x": 12,
+          "y": 25.209426879882812,
+          "width": 366,
+          "height": 779.9999847412109
+        },
+        "emptyHeight": 44,
+        "productHeight": 108.140625,
+        "focus": "listbox",
+        "automatedViolations": []
+      }
+    },
+    {
+      "name": "Picker multi-brand filtering, reset, exact search and keyboard selection preserve builder state",
+      "passed": true,
+      "evidence": {
+        "selectedPSU": "retail-seasonic-m12ii-evo-620w",
+        "focusRestored": true
+      }
+    },
+    {
+      "name": "A build can still be saved and restored through My PC",
+      "passed": true,
+      "evidence": {
+        "savedBuildVisible": true,
+        "storage": "isolated QA context only"
+      }
+    },
+    {
+      "name": "Guide search, topic filters and reset remain usable",
+      "passed": true,
+      "evidence": {
+        "all": "54 guides",
+        "search": "4 guides"
+      }
+    },
+    {
+      "name": "Comparison picker opens and closes with visible product choices and focus return",
+      "passed": true,
+      "evidence": {
+        "choicesAvailable": true,
+        "focusRestored": true
+      }
+    },
+    {
+      "name": "Comparison categories, exports and aligned card actions work at mobile and desktop sizes",
+      "passed": true,
+      "evidence": {
+        "categoryAlignment": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "download": "hardware-comparison.csv",
+        "desktopActionRows": [
+          {
+            "change": 1070.21875,
+            "footer": 1152.21875
+          },
+          {
+            "change": 1070.21875,
+            "footer": 1152.21875
+          }
+        ]
+      }
+    },
+    {
+      "name": "Reduced motion and no-JavaScript navigation retain usable destinations",
+      "passed": true,
+      "evidence": {
+        "reducedMotion": true,
+        "noJSLinks": true
+      }
+    }
+  ],
+  "passed": true,
+  "scope": "Actual isolated headless Edge interactions. Saved records are test-only; no user profile, private notes or public community activity was accessed."
+}

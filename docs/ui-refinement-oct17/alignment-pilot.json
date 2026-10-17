@@ -1,0 +1,1033 @@
+{
+  "checkedAt": "2026-10-17T16:46:33.929Z",
+  "phase": "after",
+  "origin": "http://127.0.0.1:4198",
+  "reports": [
+    {
+      "route": "/builder/",
+      "status": 200,
+      "title": "PC Builder & Compatibility Checker | PC Part Performance",
+      "viewport": 390,
+      "innerWidth": 390,
+      "width": 390,
+      "header": 72,
+      "h1": "Build your PC",
+      "mainText": "Home\n/\nBuild your PC\nBuild your PC\n\nChoose parts. Explore in 3D. Save your plan.\n\nReset build\nTry a starter build\nParts\n3D preview\nReview\nChoose parts\nGuided\nExpert\nProcessor\nStep 1 of 10 · Processor\n01\nProcessor\nRequired · 164 choices\nChoose primary Processor\nSelect a component\nPrevious\nNext component\nJump to a component\nBuild preferences\nBuild preferences\nBudget, workload & display\nOther price connections\nInside your build\n\nSelect a component to locate it.\n\n0 parts selected\n\nExplore available 3D models for your selected parts. Preview positions do not establish physical fit.\n\nOpen 3D preview\n\nChoose parts, then open the preview.\n\nAccuracy and model coverage\nCheck physical clearances with the exact component manuals before buying.\nBuild Readiness Report\n\nYour parts, purchase costs and remaining checks in one place.\n\nPrint build report\nDownload build report\nSelected-parts subtotal\nNo current total\nCanada · CAD\nNo current checked prices\n\nChoose a component to start your build and compare stores.\n\nRetailer search links remain available for every selected component. Tax and shipping are excluded.\nPurchase cost breakdown\nYour build starts here\n\nChoose a processor, or load the starter parts. We’ll check each connection when the parts it needs are selected.\n\nChoose your first part\nNew to building a PC?\nOther purchases: OS, adapters and accessories\nSystem specifications\nHardware outlook\nSave, compare and share\n\nRevisions stay on this device. No account or email is needed.\n\nCompare complete purchase quotesOpen My PC workspace\nRevision name\nSave this revision\nCopy share link\nCopy parts list\nMore save options\n\nA share link is viewable by anyone who receives it. It carries part selections, ownership and plan choices; it does not grant editing access to your device. Prices are checked separately when opened. Download and revision exports can contain your private purchase quotes. Clearing browser data removes local revisions.\n\nNo revisions saved yet. Save a named build to return to it later.\n\nConfirm exact dimensions, cooling, BIOS, and connectors with the manufacturer. What we check ",
+      "headings": [
+        "Choose parts",
+        "Core components",
+        "Storage",
+        "Case & cooling",
+        "Build preferences",
+        "Build Readiness Report",
+        "No current total",
+        "Save, compare and share"
+      ],
+      "overflowElements": [],
+      "buttons": [
+        {
+          "text": "Reset build",
+          "name": null
+        },
+        {
+          "text": "Try a starter build",
+          "name": null
+        },
+        {
+          "text": "Guided",
+          "name": null
+        },
+        {
+          "text": "Expert",
+          "name": null
+        },
+        {
+          "text": "Select a component",
+          "name": "Choose Processor: Select a component"
+        },
+        {
+          "text": "Select a component",
+          "name": "Choose Motherboard: Select a component"
+        },
+        {
+          "text": "None selected",
+          "name": "Choose Graphics card: None selected"
+        },
+        {
+          "text": "Select a component",
+          "name": "Choose Memory kit: Select a component"
+        },
+        {
+          "text": "None selected",
+          "name": "Choose Solid-state drive: None selected"
+        },
+        {
+          "text": "None selected",
+          "name": "Choose Hard drive: None selected"
+        },
+        {
+          "text": "Select a component",
+          "name": "Choose Power supply: Select a component"
+        },
+        {
+          "text": "Select a component",
+          "name": "Choose PC case: Select a component"
+        },
+        {
+          "text": "None selected",
+          "name": "Choose Case fans: None selected"
+        },
+        {
+          "text": "None selected",
+          "name": "Choose CPU cooler: None selected"
+        },
+        {
+          "text": "Previous",
+          "name": null
+        },
+        {
+          "text": "Next component",
+          "name": null
+        }
+      ],
+      "a11y": {
+        "axeVersion": "4.14.0",
+        "violations": [],
+        "incomplete": 3
+      },
+      "errors": [],
+      "screenshot": "builder-390.png"
+    },
+    {
+      "route": "/builder/",
+      "interaction": "open PSU picker",
+      "width": 390,
+      "focused": {
+        "tag": "DIV",
+        "role": "listbox"
+      },
+      "text": "Choose a power supply\nSearch exact model, capacity or SKU\n3D models\nFilters\nLeave unselected\nM12II EVO 620W\nSeasonic · 620 W · 80 PLUS Bronze\n3D\nSeasonic CORE GX-650\nSeasonic · 650 W power supply\nCooler Master V SFX Platinum 1100\nCooler Master · 1100 W power supply\nCooler Master X Silent Edge Platinum 1100\nCooler Master · 1100 W power supply\nCORSAIR SF1000\nCORSAIR · 1000 W power supply\nCORSAIR SF750\nCORSAIR · 750 W power supply\nCORSAIR SF850\nCORSAIR · 850 W power supply\nSeasonic FOCUS GX-1000\nSeasonic · 1000 W power supply\nSeasonic FOCUS GX-750\nSeasonic · 750 W power supply\nSeasonic FOCUS GX-850\nSeasonic · 850 W power supply\nSeasonic PRIME TX-1600 Noctua Edition\nSeasonic · 1600 W power supply\nbe quiet! Dark Power 13 1000W\nbe quiet! · 1000 W power supply\nbe quiet! Dark Power Pro 13 1600W\nbe quiet! · 1600 W power supply\nbe quiet! Pure Power 12 M 1000W\nbe quiet! · 1000 W power supply\nbe quiet! Pure Power 12 M 750W\nbe quiet! · 750 W power supply\nbe quiet! Straight Power 12 1200W\nbe quiet! · 1200 W power supply\nbe quiet! Straight Power 12 850W\nbe quiet! · 850 W power supply\nCooler Master GX III Gold 850\nCooler Master · 850 W power supply\nCooler Master V Gold i Multi 1050\nCooler Master · 1050 W power supply\nCORSAIR RM1000x SHIFT\nCORSAIR · 1000 W power supply\nCORSAIR RM1200x SHIFT\nCORSAIR · 1200 W power supply\nCORSAIR RM750x SHIFT\nCORSAIR · 750 W power supply\nCORSAIR RM850x SHIFT\nCORSAIR · 850 W power supply\nDark Power 13 1000W\nbe quiet! · 1,000 W · 80 PLUS Titanium\nDark Power Pro 13 1600W\nbe quiet! · 1,600 W · 80 PLUS Titanium\nPure Power 12 M 850W\nbe quiet! · 850 W · 80 PLUS Gold\nRM1000e (2023)\nCORSAIR · 1,000 W · 80 PLUS Gold\nRM1200x SHIFT\nCORSAIR · 1,200 W · 80 PLUS Gold\nSeasonic PRIME TX-1300\nSeasonic · 1300 W power supply\nSeasonic VERTEX GX-1000\nSeasonic · 1000 W power supply\nSeasonic VERTEX GX-850\nSeasonic · 850 W power supply\nSeasonic VERTEX PX-1200\nSeasonic · 1200 W power supply\nSF1000L\nCORSAIR · 1,000 W · 80 PLUS Gold\nStraight Power 12 1000W\nbe quiet! · 1,000 W · 80 PLUS Platinum\nStraight Power 12 850W\nbe quiet! · 850 W · 80 PLUS Platinum\nSupermicro 1600W Redundant Power Supply\nSupermicro · 1600 W redundant power system\nVERTEX GX-1000\nSeasonic · 1,000 W · 80 PLUS Gold\nbe quiet! System Power 10 650W\nbe quiet! · 650 W power supply\nCORSAIR HX1200i\nCORSAIR · 1200 W power supply\nCORSAIR HX1500i\nCORSAIR · 1500 W power supply\nEVGA SuperNOVA 1000 G7\nEVGA · 1000 W power supply\nEVGA SuperNOVA 750 G7\nEVGA · 750 W power supply\nEVGA SuperNOVA 850 G7\nEVGA · 850 W power supply\nHX1000i\nCORSAIR · 1,000 W · 80 PLUS Platinum\nSeasonic PRIME PX-1600\nSeasonic · 1600 W power supply\nCooler Master MWE Gold 1050 V2\nCooler Master · 1050 W power supply\nCooler Master V Platinum V2 1300\nCooler Master · 1300 W power supply\nCooler Master V SFX Gold 850\nCooler Master · 850 W power supply\nEVGA SuperNOVA 1600 P+\nEVGA · 1600 W power supply\nEVGA SuperNOVA 650 G6\nEVGA · 650 W power supply\nRM1000x (2021)\nCORSAIR · 1,000 W · 80 PLUS Gold\nRM650x (2021)\nCORSAIR · 650 W · 80 PLUS Gold\nRM750x (2021)\nCORSAIR · 750 W · 80 PLUS Gold\nRM850x (2021)\nCORSAIR · 850 W · 80 PLUS Gold\nSuperNOVA 750 G6\nEVGA · 750 W · 80 PLUS Gold\nSuperNOVA 850 G6\nEVGA · 850 W · 80 PLUS Gold\nMWE Gold 750 V2\nCooler Master · 750 W · 80 PLUS Gold\nV850 SFX Gold\nCooler Master · 850 W · 80 PLUS Gold\nAX1600i\nCORSAIR · 1,600 W · 80 PLUS Titanium\nCORSAIR AX1600i\nCORSAIR · 1600 W power supply\nEVGA 600 BR\nEVGA · 600 W power supply\nEVGA SuperNOVA 1300 G+\nEVGA · 1300 W power supply\nSF750 Platinum\nCORSAIR · 750 W · 80 PLUS Platinum\nEVGA 500 W1\nEVGA · 500 W power supply\nCORE GX-650\nSeasonic · 650 W · 80 PLUS Gold\nFOCUS GX-1000\nSeasonic · 1,000 W · 80 PLUS Gold\nFOCUS GX-750\nSeasonic · 750 W · 80 PLUS Gold\nFOCUS GX-850\nSeasonic · 850 W · 80 PLUS Gold\nPRIME TX-1000\nSeasonic · 1,000 W · 80 PLUS Titanium\nPRIME TX-1300\nSeasonic · 1,300 W · 80 PLUS Titanium\n\n70 models",
+      "rect": {
+        "x": 12,
+        "y": 32,
+        "width": 366,
+        "height": 780
+      }
+    },
+    {
+      "route": "/",
+      "status": 200,
+      "title": "PC Builder, Part Comparisons & Upgrade Planning | PC Part Performance",
+      "viewport": 390,
+      "innerWidth": 390,
+      "width": 390,
+      "header": 72,
+      "h1": "Build smarter. Upgrade with confidence.",
+      "mainText": "Build smarter.\nUpgrade with confidence.\n\nChoose your parts. Check compatibility and costs before you buy.\n\nBuild a PC\nUpgrade my PC\nCompare parts\n\nNew to building?\n·\nYour saved work\n\nFind a part, guide or tool\nTry RTX 5070, BIOS support, or first boot\n\nExample build review\n\nMore than a parts list.\n\nSee the connections that match and the checks to finish before buying.\n\nCPU socket\nDocumented match\nBIOS & clearances\nExact support still needs checking\nSee your build report\nAll comparisons\nRTX 5070 vs RTX 5060 Ti\n\nTwo Blackwell GPUs. Different memory, power, and priorities.\n\nGeForce RTX 5070\n12 GB GDDR7\nVS\nGeForce RTX 5060 Ti\n16 GB GDDR7\n\nMore VRAM doesn’t tell the whole story.See the specifications side by side.\n\nCompare these GPUs\nThe upgrade desk\nGRAPHICS\nWhat actually matters in a graphics card?\n\nStart with VRAM, bandwidth, and board power.\n\nRead the GPU guide\nPROCESSORS\nThere’s more to a CPU than GHz.\n\nGet to know cores, clocks, and platform support.\n\nRead the CPU guide\nPlanning a whole PC?\n\nChoose parts and check how they fit together.\n\nOpen PC builder\nCompare phones\nSee size, specs and 3D\nFind a prebuilt PC\nBrowse real configurations\nExplore Game FPS\nPC and console performance\nExplore the hardware\nBrowse all 1,236 parts\n165 PARTS\nGraphics cards\n\nVideo memory, power & architecture\n\n167 PARTS\nProcessors\n\nCores, clocks & platform\n\n66 PARTS\nMemory\n\nCapacity, speed & generation\n\n78 PARTS\nSolid-state drives\n\nCapacity, interface & endurance\n\nBefore you buy\nAll hardware guides\n01 / GAME FPS\nWhat performance can you target?\n\nCheck the evidence for a game and explore reported console modes.\n\nExplore game performance\n02 / MEMORY\nMore RAM or faster RAM?\n\nUnderstand capacity, DDR generations, and latency before choosing a kit.\n\nMemory explained\n03 / STORAGE\nChoose an SSD that fits.\n\nM.2 describes a form factor. NVMe is a protocol. Here’s how to make sense of both.\n\nStorage explained\n04 / COMPATIBILITY\nCheck the whole system.\n\nMatch sockets, memory, case clearance, and power before finalizing your parts.\n\nCheck your build\nSpecifications with sources.\n\nProduct pages link to their reference data. For gaming performance, use independent tests alongside the specs.\n\nHow we use data\nExplore the details\nUnderstand your connections\n\nA board-specific lane-sharing guide and working checker.\n\nCompare complete upgrade costs\n\nBudget for the platform, rather than only the processor.\n\nCompare phone sizes\n\nSame-scale outlines and verified body dimensions.\n\nAll resources\nBuild School\nUpgrade planner\nCompatibility\nTroubleshooting\nTools\nMore planning tools\nUseful reading before the next purchase\nBrowse all guides\nHow to shortlist a prebuilt in Canada\n\nConfiguration, seller and complete costs.\n\nBuild or buy? Compare the whole system\n\nInclude the costs a headline price leaves out.\n\nWhat a 3D preview can tell you\n\nSeparate appearance from clearance evidence.\n\nSource-led hardware reports\n\nAnnouncements, source dates and buyer implications.\n\nMicron’s server-memory report and its desktop limits\nNVIDIA’s RTX Spark announcement\nOpen the Newsroom",
+      "headings": [
+        "More than a parts list.",
+        "RTX 5070 vs RTX 5060 Ti",
+        "The upgrade desk",
+        "Explore the hardware",
+        "Before you buy",
+        "Explore the details",
+        "Use the numbers that matter",
+        "Useful reading before the next purchase",
+        "Source-led hardware reports"
+      ],
+      "overflowElements": [],
+      "buttons": [
+        {
+          "text": "",
+          "name": "Search the site"
+        }
+      ],
+      "a11y": {
+        "axeVersion": "4.14.0",
+        "violations": [],
+        "incomplete": 0
+      },
+      "errors": [],
+      "screenshot": "home-390.png"
+    },
+    {
+      "route": "/upgrade/",
+      "status": 200,
+      "title": "PC Upgrade Planner: Keep, Replace & Reuse Parts | PC Part Performance",
+      "viewport": 390,
+      "innerWidth": 390,
+      "width": 390,
+      "header": 72,
+      "h1": "Improve the PC you already own",
+      "mainText": "Home\n/\nImprove the PC you already own\nImprove the PC you already own\n\nKeep what works. Check a change before you buy.\n\nRecord your PC\nStart with the parts you own.\nCheck a change\nCompare costs\n1. Your current PC\n\nSelect your installed parts or review a pasted list.\n\nHow import and extra parts work\nPlain-text parts list\nReview pasted parts\nImport an upgrade plan\nYour current parts\nSelect exact installed parts. Older parts remain available; age alone is not a reason to replace them.\nProcessor\nNot selected / unknown\nMotherboard\nNot selected / unknown\nGraphics card\nNot selected / unknown\nMemory kit\nNot selected / unknown\nSSD\nNot selected / unknown\nHard drive\nNot selected / unknown\nPower supply\nNot selected / unknown\nCase\nNot selected / unknown\nCase fans\nNot selected / unknown\nCPU cooler\nNot selected / unknown\nAdditional components\nYour goal and budget\nCountry and currency\nCanada · CAD\nNew spending limit\nMain goal\nDiagnose before spending\nObserved symptom\nNo observed problem\nWorkload or game notes\nCreate reuse plan\n2. Plan a change\nComponent to change\nProcessor\nSelected item\nNo existing item selected\nAction\nReplace selected item\nReplacement model\nChoose an exact model\nRecheck this change\nAdd as the next phase\n\nEach phase is checked separately. Verify unknown fit and use comparable tests for performance claims.\n\n3. The full upgrade cost\n\nInclude the motherboard, memory, cooler or mounting kit, PSU/cables, operating system and accessories affected by a swap. An empty quote is unknown, not free. Owned parts stay separate from new spending.\n\nCompare two complete quotes\nOpen the platform cost tool\nOpen this plan in builder\nExport reuse plan",
+      "headings": [
+        "1. Your current PC",
+        "Choose what to keep and what to price",
+        "2. Plan a change",
+        "3. The full upgrade cost"
+      ],
+      "overflowElements": [],
+      "buttons": [
+        {
+          "text": "Review pasted parts",
+          "name": null
+        },
+        {
+          "text": "Not selected / unknown",
+          "name": "Processor: Not selected / unknown"
+        },
+        {
+          "text": "Not selected / unknown",
+          "name": "Motherboard: Not selected / unknown"
+        },
+        {
+          "text": "Not selected / unknown",
+          "name": "Graphics card: Not selected / unknown"
+        },
+        {
+          "text": "Not selected / unknown",
+          "name": "Memory kit: Not selected / unknown"
+        },
+        {
+          "text": "Not selected / unknown",
+          "name": "SSD: Not selected / unknown"
+        },
+        {
+          "text": "Not selected / unknown",
+          "name": "Hard drive: Not selected / unknown"
+        },
+        {
+          "text": "Not selected / unknown",
+          "name": "Power supply: Not selected / unknown"
+        },
+        {
+          "text": "Not selected / unknown",
+          "name": "Case: Not selected / unknown"
+        },
+        {
+          "text": "Not selected / unknown",
+          "name": "case fan: Not selected / unknown"
+        },
+        {
+          "text": "Not selected / unknown",
+          "name": "CPU cooler: Not selected / unknown"
+        },
+        {
+          "text": "Graphics card",
+          "name": "Category: Graphics card"
+        },
+        {
+          "text": "Choose a model",
+          "name": "Exact existing model: Choose a model"
+        },
+        {
+          "text": "Add existing item",
+          "name": null
+        },
+        {
+          "text": "Canada · CAD",
+          "name": "Country and currency: Canada · CAD"
+        },
+        {
+          "text": "Diagnose before spending",
+          "name": "Main goal: Diagnose before spending"
+        }
+      ],
+      "a11y": {
+        "axeVersion": "4.14.0",
+        "violations": [],
+        "incomplete": 1
+      },
+      "errors": [],
+      "screenshot": "upgrade-390.png"
+    },
+    {
+      "route": "/compare/",
+      "status": 200,
+      "title": "Compare PC Parts: GPUs, CPUs, RAM and SSDs",
+      "viewport": 390,
+      "innerWidth": 390,
+      "width": 390,
+      "header": 72,
+      "h1": "Compare hardware",
+      "mainText": "Home\n/\nCompare hardware\nCompare hardware\n\nChoose up to four exact models.\n\nExport & share\nPC parts\nPhones in 3D\nComplete PCs\nGraphics cards\nProcessors\nMemory\nSSDs\nChoose a category\n⌄\nMore hardware categories\nMore categories\nMotherboards\nHard drives\nPower supplies\nPC cases\nMonitors\nMice\nKeyboards\nMicrophones\nHeadsets\nControllers\nConsoles\nPhones\nHandhelds\nCase fans\nCPU coolers\nPART 01\n×\nNVIDIA · 2025\nRTX 5070\n\n12 GB GDDR7\n\nChange part\n⌄\nUse in a build\nI own this part\nBlackwell\nView part\nPART 02\n×\nNVIDIA · 2025\nRTX 5060 Ti 16 GB\n\n16 GB GDDR7\n\nChange part\n⌄\nUse in a build\nI own this part\nBlackwell\nView part\nSave comparison\nSaved comparisons\n\n＋ Add a part\nOnly differences\nKey specifications\nReference specifications\nMemory\nGB\nRTX 5070\n12\nRTX 5060 Ti 16 GB\n16\nMemory bandwidth\nGB/s\nRTX 5070\n672\nRTX 5060 Ti 16 GB\n448\nBoard power\nW\nRTX 5070\n250\nRTX 5060 Ti 16 GB\n180\n\nSpecifications, not measured FPS.\n\nFull comparison\n7 fields\nSpecification\tRTX 5070\tRTX 5060 Ti 16 GB\nMemory\t12 GB\t16 GB\nMemory bandwidth\t672 GB/s\t448 GB/s\nBoost clock\t2.51 GHz\t2.57 GHz\nBoard power\t250 W\t180 W\nShader units\t6,144\t4,608\nArchitecture\tBlackwell\tBlackwell\nRelease year\t2025\t2025\nSources, photos & model notes\nResearched hardware comparisons\nRTX 5070 vs RTX 5060 Ti 16 GB: memory, power and buying checks\n\nCompare RTX 5070 and RTX 5060 Ti 16 GB specifications, understand the VRAM tradeoff, and check exact card fit and benchmark settings before buying.\n\nRTX 5070 vs RX 9070: specifications and upgrade checks\n\nCompare GeForce RTX 5070 and Radeon RX 9070 memory and power specifications. Check game testing, application support and exact partner-card fit.\n\nRyzen 7 9800X3D vs 7800X3D: specifications and platform checks\n\nCompare AMD Ryzen 7 9800X3D and 7800X3D architecture, clocks and AM5 requirements. Check BIOS and total upgrade cost before changing your CPU.\n\nRX 9070 or RX 9070 XT?\n\nCompare the documented features, power requirements and exact-model checks.\n\nRead the RX 9070 comparison",
+      "headings": [
+        "RTX 5070",
+        "RTX 5060 Ti 16 GB",
+        "Key specifications",
+        "Full comparison",
+        "Researched hardware comparisons",
+        "RX 9070 or RX 9070 XT?"
+      ],
+      "overflowElements": [],
+      "buttons": [
+        {
+          "text": "Export CSV ↓",
+          "name": null
+        },
+        {
+          "text": "Copy comparison link",
+          "name": null
+        },
+        {
+          "text": "Print comparison",
+          "name": null
+        },
+        {
+          "text": "Graphics cards",
+          "name": null
+        },
+        {
+          "text": "Processors",
+          "name": null
+        },
+        {
+          "text": "Memory",
+          "name": null
+        },
+        {
+          "text": "SSDs",
+          "name": null
+        },
+        {
+          "text": "MotherboardsCPU sockets and expansion120",
+          "name": null
+        },
+        {
+          "text": "Hard drivesHigh-capacity storage45",
+          "name": null
+        },
+        {
+          "text": "Power suppliesPower and connectors70",
+          "name": null
+        },
+        {
+          "text": "PC casesSize and component clearance86",
+          "name": null
+        },
+        {
+          "text": "MonitorsResolution and refresh rate30",
+          "name": null
+        },
+        {
+          "text": "MiceShape, sensor, and weight25",
+          "name": null
+        },
+        {
+          "text": "KeyboardsLayout and switch type23",
+          "name": null
+        },
+        {
+          "text": "MicrophonesConnection and recording pattern17",
+          "name": null
+        },
+        {
+          "text": "HeadsetsAudio and microphone features14",
+          "name": null
+        }
+      ],
+      "a11y": {
+        "axeVersion": "4.14.0",
+        "violations": [],
+        "incomplete": 3
+      },
+      "errors": [],
+      "screenshot": "compare-390.png"
+    },
+    {
+      "route": "/blog/",
+      "status": 200,
+      "title": "PC Hardware Blog: Build Guides, Memory & AI Explained",
+      "viewport": 390,
+      "innerWidth": 390,
+      "width": 390,
+      "header": 72,
+      "h1": "PC building & upgrade guides",
+      "mainText": "Home\n/\nPC building & upgrade guides\nPC building & upgrade guides\n\nPractical guides for your next build, upgrade or fix.\n\nBuild your first PC\nFrom choosing parts to first boot.\nCheck the fit\nPlan an upgrade\nSearch guides\nTopics\nReset\n\n54 guides\n\nBuilding & compatibility\nA new PC has no display: read debug LEDs without guessing the faulty part\n\nA persistent diagnostic LED helps choose an investigation path.\n\nAir cooler or AIO for a Ryzen 7 7800X3D in the original North?\n\nCompare NH-U12A and Liquid Freezer III 240 fit checks for a Ryzen 7 7800X3D in the original Fractal North, with layout conditions kept explicit.\n\nB650 TOMAHAWK lane sharing: choose the right M.2 slot\n\nUnderstand the M2_3 and PCI_E2 connection, and why some Ryzen processors change which slots are available.\n\nBuild vs buy a gaming PC: compare the complete purchase cost\n\nCompare the exact prebuilt with a complete DIY purchase plan.\n\nChoose a PC power supply: wattage, connectors, fit and the correct cables\n\nA wattage label is one requirement, not a complete PSU selection.\n\nCompare US prebuilt PC offers without losing the configuration\n\nA practical US offer checklist for exact desktop SKUs, marketplace sellers, return terms and benchmark context.\n\nFirst boot for a new PC: a safe checklist from power-on to a working baseline\n\nBefore installing software or enabling performance profiles, establish that the machine starts, recognizes the intended components and uses a documented configuration.\n\nGraphics-driver trouble after an update: preserve the evidence first\n\nRecord the installed driver, symptoms and exact hardware before changing another setting or attempting a rollback.\n\nHow to shortlist a prebuilt gaming PC in Canada\n\nCompare exact Canadian configurations, seller support and delivered CAD costs before choosing a gaming desktop.\n\nPC compatibility checklist: what to check before you buy\n\nCheck CPU support, RAM, graphics-card clearance, storage slots and power connections before ordering your PC parts.\n\nPlan a compact PC with a realistic noise goal\n\nChoose a small PC layout, check shared GPU and cooler space, and plan repeatable noise checks without mistaking fit for cooling performance.\n\nPlan a gaming and streaming PC around the stream you want to make\n\nTest the game, capture scene, encoder and network together before choosing an upgrade.\n\nPlan a phased PC upgrade: make every intermediate build usable\n\nBuying in stages works only when each intermediate configuration can perform the tasks you still need.\n\nPlan a video-editing PC from your projects, not a gaming label\n\nRecord the editor version, source media, effects, output and working-storage needs before choosing parts.\n\nRAM compatibility: read the exact kit, slots and QVL evidence\n\nA QVL records tested memory configurations.\n\nReading a checked PC offer: region, seller, freshness and exclusions\n\nUnderstand what an observed hardware price does and does not establish before using it in a buying decision.\n\nThe prebuilt internals checklist: PSU, RAM, cooling and upgrades\n\nKnow which internal details to request before buying a desktop advertised as powerful or upgradeable.\n\nUSB-C does not tell you the speed: a port and cable checklist\n\nSeparate connector shape, data speed, charging and video support before buying a cable, hub or display.\n\nWhat to check before buying used PC parts\n\nCheck exact model identity, condition evidence, warranty terms, missing accessories and the complete cost before buying a used GPU or other PC component.\n\nWhich PC parts can you reuse? A keep, replace and verify checklist\n\nReuse a component when its e",
+      "headings": [
+        "Building & compatibility",
+        "Graphics cards",
+        "Processors & upgrades",
+        "Memory & storage",
+        "Gaming laptops",
+        "Gaming performance",
+        "Phones & 3D",
+        "AI hardware"
+      ],
+      "overflowElements": [],
+      "buttons": [
+        {
+          "text": "Reset",
+          "name": null
+        }
+      ],
+      "a11y": {
+        "axeVersion": "4.14.0",
+        "violations": [],
+        "incomplete": 0
+      },
+      "errors": [],
+      "screenshot": "learn-390.png"
+    },
+    {
+      "route": "/my-pc/",
+      "status": 200,
+      "title": "My PC Workspace: Saved Builds, Notes & Upgrade Plans · PC Part Performance",
+      "viewport": 390,
+      "innerWidth": 390,
+      "width": 390,
+      "header": 72,
+      "h1": "Your PC, organized.",
+      "mainText": "Home\n/\nYour PC, organized.\nYour PC, organized.\n\nPick up where you left off.\n\nStart a build\nPlan an upgrade\n\nSaved on this browser. No account or cloud sync.\n\nSaved builds\nYour notebook\nParts to revisit\nBuilds\nComparisons\nNotebook\nWatchlist\nChanges\nSaved builds\nSave a build in the builder\nYour next build starts here.\n\nChoose parts in the builder, then save a named revision. It will appear in this workspace automatically.\n\nChoose PC partsPlanning an upgrade?\nSaved comparisons\n\nSave the products and differences that matter.\n\nCompare hardware\n\nSaved only on this browser. A saved date is not a specification-verification date.\n\nNo comparisons saved yet. Use “Save comparison” after choosing products in the comparison tool.\n\nBuild notebook\nPrivate on this browser\n\nSave a build to start its notebook.\n\nParts to revisit\nAll saved guides and products\nExact part name or model\nFind parts\n\nWatch a part here or save a product from its page.\n\nSaved products from the existing watchlist appear here too. No email alerts or background monitoring run on your device.\n\nWhat changed?\n\nCompare supported retailer observations with your last check.\n\nCheck saved parts\n\nA first successful check creates a baseline. Changes appear only after another verified observation.\n\nNo changes recorded. Only supported listings can provide checked observations.\n\nBackup and local data",
+      "headings": [
+        "Saved builds",
+        "Saved comparisons",
+        "Build notebook",
+        "Parts to revisit",
+        "What changed?",
+        ""
+      ],
+      "overflowElements": [
+        {
+          "tag": "A",
+          "class": "",
+          "width": 102.046875,
+          "right": 462.53125
+        },
+        {
+          "tag": "A",
+          "class": "",
+          "width": 96.3125,
+          "right": 568.84375
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Choose an option",
+          "name": "Earlier revision: Choose an option"
+        },
+        {
+          "text": "Choose an option",
+          "name": "Later revision: Choose an option"
+        },
+        {
+          "text": "Show changes",
+          "name": null
+        },
+        {
+          "text": "Choose an option",
+          "name": "Build to edit notes for: Choose an option"
+        },
+        {
+          "text": "Save notes",
+          "name": null
+        },
+        {
+          "text": "Choose an option",
+          "name": "Planned component: Choose an option"
+        },
+        {
+          "text": "Choose an option",
+          "name": "Actual model: Choose an option"
+        },
+        {
+          "text": "CAD",
+          "name": "Currency: CAD"
+        },
+        {
+          "text": "Save acquisition record",
+          "name": null
+        },
+        {
+          "text": "Start a new record",
+          "name": null
+        },
+        {
+          "text": "Add entry",
+          "name": null
+        },
+        {
+          "text": "CAD",
+          "name": "Currency: CAD"
+        },
+        {
+          "text": "Add manual item",
+          "name": null
+        },
+        {
+          "text": "Find parts",
+          "name": null
+        },
+        {
+          "text": "Check saved parts",
+          "name": null
+        },
+        {
+          "text": "Export workspace backup",
+          "name": null
+        }
+      ],
+      "a11y": {
+        "axeVersion": "4.14.0",
+        "violations": [],
+        "incomplete": 1
+      },
+      "errors": [],
+      "screenshot": "workspace-390.png"
+    },
+    {
+      "route": "/shop/",
+      "status": 200,
+      "title": "Shop PC parts in Canada and the USA · PC Part Performance",
+      "viewport": 390,
+      "innerWidth": 390,
+      "width": 390,
+      "header": 72,
+      "h1": "Shop hardware",
+      "mainText": "Home\n/\nShop hardware\nShop hardware\n\nFind your parts. Compare buying options.\n\nPlan a build\nFilters\nCategory, brand & series\n1,236 products · Canada · CAD\nFeatured parts first\nNVIDIA\nGeForce RTX 5070\n\n12 GB GDDR7\n\nCheck store availability\nWhere to buy\nNVIDIA\nGeForce RTX 5060 Ti 16 GB\n\n16 GB GDDR7\n\nCheck store availability\nWhere to buy\nAMD\nRyzen 7 9800X3D\n\n8 cores / 16 threads\n\nCheck store availability\nWhere to buy\nAMD\nRyzen 7 7800X3D\n\n8 cores / 16 threads\n\nCheck store availability\nWhere to buy\nSamsung\n990 PRO 1 TB\n\n7,450 MB/s read\n\nCheck store availability\nWhere to buy\nCORSAIR\nVENGEANCE DDR5-6000 CL30\n\n32 GB · 2 × 16 GB\n\nCheck store availability\nWhere to buy\nMSI\nMAG B650 TOMAHAWK WIFI\n\nB650 · DDR5\n\nCheck store availability\nWhere to buy\nAMD\nRadeon RX 9070 XT\n\n16 GB GDDR6\n\nCheck store availability\nWhere to buy\nAMD\nRadeon RX 9070\n\n16 GB GDDR6\n\nCheck store availability\nWhere to buy\nNVIDIA\nGeForce RTX 5080\n\n16 GB GDDR7\n\nCheck store availability\nWhere to buy\nNVIDIA\nGeForce RTX 4070 SUPER\n\n12 GB GDDR6X\n\nCheck store availability\nWhere to buy\nNVIDIA\nGeForce RTX 4060\n\n8 GB GDDR6\n\nCheck store availability\nWhere to buy\nAMD\nRadeon RX 7800 XT\n\n16 GB GDDR6\n\nCheck store availability\nWhere to buy\nAMD\nRyzen 5 7600\n\n6 cores / 12 threads\n\nCheck store availability\nWhere to buy\nAMD\nRyzen 7 9700X\n\n8 cores / 16 threads\n\nCheck store availability\nWhere to buy\nWestern Digital\nWD_BLACK SN850X 2 TB\n\n7,300 MB/s read\n\nCheck store availability\nWhere to buy\nCORSAIR\nVENGEANCE LPX DDR4-3200 CL16\n\n32 GB · 2 × 16 GB\n\nCheck store availability\nWhere to buy\nApple\niPhone 17e\n\n6.1-inch iPhone 17e\n\nCheck store availability\nWhere to buy\nAMD\nRadeon RX 9070 GRE\n\n12 GB GDDR6\n\nCheck store availability\nWhere to buy\nSamsung\nSamsung Galaxy Fold8\n\nSamsung mobile device\n\nCheck store availability\nWhere to buy\nSamsung\nSamsung Galaxy S26\n\nSamsung flagship smartphone\n\nCheck store availability\nWhere to buy\nSamsung\nSamsung Galaxy S26 Ultra\n\nSamsung flagship smartphone\n\nCheck store availability\nWhere to buy\nSamsung\nSamsung Galaxy S26+\n\nSamsung flagship smartphone\n\nCheck store availability\nWhere to buy\nSamsung\nSamsung Galaxy Z Flip8\n\nSamsung mobile device\n\nCheck store availability\nWhere to buy\n\nBrowse all products and numbered catalog pages\n\nShow more products",
+      "headings": [
+        "GeForce RTX 5070",
+        "GeForce RTX 5060 Ti 16 GB",
+        "Ryzen 7 9800X3D",
+        "Ryzen 7 7800X3D",
+        "990 PRO 1 TB",
+        "VENGEANCE DDR5-6000 CL30",
+        "MAG B650 TOMAHAWK WIFI",
+        "Radeon RX 9070 XT",
+        "Radeon RX 9070",
+        "GeForce RTX 5080",
+        "GeForce RTX 4070 SUPER",
+        "GeForce RTX 4060",
+        "Radeon RX 7800 XT",
+        "Ryzen 5 7600",
+        "Ryzen 7 9700X",
+        "WD_BLACK SN850X 2 TB",
+        "VENGEANCE LPX DDR4-3200 CL16",
+        "iPhone 17e",
+        "Radeon RX 9070 GRE",
+        "Samsung Galaxy Fold8",
+        "Samsung Galaxy S26",
+        "Samsung Galaxy S26 Ultra",
+        "Samsung Galaxy S26+",
+        "Samsung Galaxy Z Flip8"
+      ],
+      "overflowElements": [],
+      "buttons": [
+        {
+          "text": "Clear filters",
+          "name": null
+        },
+        {
+          "text": "Show more products",
+          "name": null
+        }
+      ],
+      "a11y": {
+        "axeVersion": "4.14.0",
+        "violations": [],
+        "incomplete": 0
+      },
+      "errors": [],
+      "screenshot": "shop-390.png"
+    },
+    {
+      "route": "/builder/",
+      "status": 200,
+      "title": "PC Builder & Compatibility Checker | PC Part Performance",
+      "viewport": 1440,
+      "innerWidth": 1440,
+      "width": 1440,
+      "header": 80,
+      "h1": "Build your PC",
+      "mainText": "Home\n/\nBuild your PC\nBuild your PC\n\nChoose parts. Explore in 3D. Save your plan.\n\nReset buildTry a starter build\nParts\n3D preview\nReview\nChoose parts\nGuided\nExpert\nProcessor\nStep 1 of 10 · Processor\n01\nProcessor\nRequired · 164 choices\nChoose primary Processor\nSelect a component\nPrevious\nNext component\nJump to a component\nBuild preferences\nBuild preferencesBudget, workload & display\nOther price connections\nInside your build\n\nSelect a component to locate it.\n\n0 parts selected\n\nExplore available 3D models for your selected parts. Preview positions do not establish physical fit.\n\nOpen 3D preview\n\nChoose parts, then open the preview.\n\nAccuracy and model coverage\nCheck physical clearances with the exact component manuals before buying.\nBuild Readiness Report\n\nYour parts, purchase costs and remaining checks in one place.\n\nPrint build report\nDownload build report\nSelected-parts subtotal\nNo current total\nCanada · CAD\nNo current checked prices\n\nChoose a component to start your build and compare stores.\n\nRetailer search links remain available for every selected component. Tax and shipping are excluded.\nPurchase cost breakdown\nYour build starts here\n\nChoose a processor, or load the starter parts. We’ll check each connection when the parts it needs are selected.\n\nChoose your first part\nNew to building a PC?\nOther purchases: OS, adapters and accessories\nSystem specifications\nHardware outlook\nSave, compare and share\n\nRevisions stay on this device. No account or email is needed.\n\nCompare complete purchase quotes\nOpen My PC workspace\nRevision name\nSave this revision\nCopy share link\nCopy parts list\nMore save options\n\nA share link is viewable by anyone who receives it. It carries part selections, ownership and plan choices; it does not grant editing access to your device. Prices are checked separately when opened. Download and revision exports can contain your private purchase quotes. Clearing browser data removes local revisions.\n\nNo revisions saved yet. Save a named build to return to it later.\n\nConfirm exact dimensions, cooling, BIOS, and connectors with the manufacturer. What we check ",
+      "headings": [
+        "Choose parts",
+        "Core components",
+        "Storage",
+        "Case & cooling",
+        "Build preferences",
+        "Build Readiness Report",
+        "No current total",
+        "Save, compare and share"
+      ],
+      "overflowElements": [],
+      "buttons": [
+        {
+          "text": "Reset build",
+          "name": null
+        },
+        {
+          "text": "Try a starter build",
+          "name": null
+        },
+        {
+          "text": "Guided",
+          "name": null
+        },
+        {
+          "text": "Expert",
+          "name": null
+        },
+        {
+          "text": "Select a component",
+          "name": "Choose Processor: Select a component"
+        },
+        {
+          "text": "Select a component",
+          "name": "Choose Motherboard: Select a component"
+        },
+        {
+          "text": "None selected",
+          "name": "Choose Graphics card: None selected"
+        },
+        {
+          "text": "Select a component",
+          "name": "Choose Memory kit: Select a component"
+        },
+        {
+          "text": "None selected",
+          "name": "Choose Solid-state drive: None selected"
+        },
+        {
+          "text": "None selected",
+          "name": "Choose Hard drive: None selected"
+        },
+        {
+          "text": "Select a component",
+          "name": "Choose Power supply: Select a component"
+        },
+        {
+          "text": "Select a component",
+          "name": "Choose PC case: Select a component"
+        },
+        {
+          "text": "None selected",
+          "name": "Choose Case fans: None selected"
+        },
+        {
+          "text": "None selected",
+          "name": "Choose CPU cooler: None selected"
+        },
+        {
+          "text": "Previous",
+          "name": null
+        },
+        {
+          "text": "Next component",
+          "name": null
+        }
+      ],
+      "a11y": {
+        "axeVersion": "4.14.0",
+        "violations": [],
+        "incomplete": 3
+      },
+      "errors": [],
+      "screenshot": "builder-1440.png"
+    },
+    {
+      "route": "/",
+      "status": 200,
+      "title": "PC Builder, Part Comparisons & Upgrade Planning | PC Part Performance",
+      "viewport": 1440,
+      "innerWidth": 1440,
+      "width": 1440,
+      "header": 80,
+      "h1": "Build smarter. Upgrade with confidence.",
+      "mainText": "Build smarter.\nUpgrade with confidence.\n\nChoose your parts. Check compatibility and costs before you buy.\n\nBuild a PC\nUpgrade my PC\nCompare parts\n\nNew to building?\n·\nYour saved work\n\nFind a part, guide or tool\nTry RTX 5070, BIOS support, or first boot\n\nExample build review\n\nMore than a parts list.\n\nSee the connections that match and the checks to finish before buying.\n\nCPU socket\nDocumented match\nBIOS & clearances\nExact support still needs checking\nSee your build report\nAll comparisons\nRTX 5070 vs RTX 5060 Ti\n\nTwo Blackwell GPUs. Different memory, power, and priorities.\n\nGeForce RTX 5070\n12 GB GDDR7\nVS\nGeForce RTX 5060 Ti\n16 GB GDDR7\n\nMore VRAM doesn’t tell the whole story.\nSee the specifications side by side.\n\nCompare these GPUs\nThe upgrade desk\nGRAPHICS\nWhat actually matters in a graphics card?\n\nStart with VRAM, bandwidth, and board power.\n\nRead the GPU guide\nPROCESSORS\nThere’s more to a CPU than GHz.\n\nGet to know cores, clocks, and platform support.\n\nRead the CPU guide\nPlanning a whole PC?\n\nChoose parts and check how they fit together.\n\nOpen PC builder\nCompare phones\nSee size, specs and 3D\nFind a prebuilt PC\nBrowse real configurations\nExplore Game FPS\nPC and console performance\nExplore the hardware\nBrowse all 1,236 parts\n165 PARTS\nGraphics cards\n\nVideo memory, power & architecture\n\n167 PARTS\nProcessors\n\nCores, clocks & platform\n\n66 PARTS\nMemory\n\nCapacity, speed & generation\n\n78 PARTS\nSolid-state drives\n\nCapacity, interface & endurance\n\nBefore you buy\nAll hardware guides\n01 / GAME FPS\nWhat performance can you target?\n\nCheck the evidence for a game and explore reported console modes.\n\nExplore game performance\n02 / MEMORY\nMore RAM or faster RAM?\n\nUnderstand capacity, DDR generations, and latency before choosing a kit.\n\nMemory explained\n03 / STORAGE\nChoose an SSD that fits.\n\nM.2 describes a form factor. NVMe is a protocol. Here’s how to make sense of both.\n\nStorage explained\n04 / COMPATIBILITY\nCheck the whole system.\n\nMatch sockets, memory, case clearance, and power before finalizing your parts.\n\nCheck your build\nSpecifications with sources.\n\nProduct pages link to their reference data. For gaming performance, use independent tests alongside the specs.\n\nHow we use data\nExplore the details\nUnderstand your connections\n\nA board-specific lane-sharing guide and working checker.\n\nCompare complete upgrade costs\n\nBudget for the platform, rather than only the processor.\n\nCompare phone sizes\n\nSame-scale outlines and verified body dimensions.\n\nAll resources\nBuild School\nUpgrade planner\nCompatibility\nTroubleshooting\nTools\nMore planning tools\nUseful reading before the next purchase\nBrowse all guides\nHow to shortlist a prebuilt in Canada\n\nConfiguration, seller and complete costs.\n\nBuild or buy? Compare the whole system\n\nInclude the costs a headline price leaves out.\n\nWhat a 3D preview can tell you\n\nSeparate appearance from clearance evidence.\n\nSource-led hardware reports\n\nAnnouncements, source dates and buyer implications.\n\nMicron’s server-memory report and its desktop limits\nNVIDIA’s RTX Spark announcement\nOpen the Newsroom",
+      "headings": [
+        "More than a parts list.",
+        "RTX 5070 vs RTX 5060 Ti",
+        "The upgrade desk",
+        "Explore the hardware",
+        "Before you buy",
+        "Explore the details",
+        "Use the numbers that matter",
+        "Useful reading before the next purchase",
+        "Source-led hardware reports"
+      ],
+      "overflowElements": [],
+      "buttons": [
+        {
+          "text": "",
+          "name": "Search the site"
+        }
+      ],
+      "a11y": {
+        "axeVersion": "4.14.0",
+        "violations": [],
+        "incomplete": 0
+      },
+      "errors": [],
+      "screenshot": "home-1440.png"
+    },
+    {
+      "route": "/upgrade/",
+      "status": 200,
+      "title": "PC Upgrade Planner: Keep, Replace & Reuse Parts | PC Part Performance",
+      "viewport": 1440,
+      "innerWidth": 1440,
+      "width": 1440,
+      "header": 80,
+      "h1": "Improve the PC you already own",
+      "mainText": "Home\n/\nImprove the PC you already own\nImprove the PC you already own\n\nKeep what works. Check a change before you buy.\n\nRecord your PC\nStart with the parts you own.\nCheck a change\nRecheck each connection.\nCompare costs\nKeep the whole purchase in view.\n1. Your current PC\n\nSelect your installed parts or review a pasted list.\n\nHow import and extra parts work\nPlain-text parts list\nReview pasted parts\nImport an upgrade plan\nYour current parts\nSelect exact installed parts. Older parts remain available; age alone is not a reason to replace them.\nProcessor\nNot selected / unknown\nMotherboard\nNot selected / unknown\nGraphics card\nNot selected / unknown\nMemory kit\nNot selected / unknown\nSSD\nNot selected / unknown\nHard drive\nNot selected / unknown\nPower supply\nNot selected / unknown\nCase\nNot selected / unknown\nCase fans\nNot selected / unknown\nCPU cooler\nNot selected / unknown\nAdditional components\nYour goal and budget\nCountry and currency\nCanada · CAD\nNew spending limit\nMain goal\nDiagnose before spending\nObserved symptom\nNo observed problem\nWorkload or game notes\nCreate reuse plan\n2. Plan a change\nComponent to change\nProcessor\nSelected item\nNo existing item selected\nAction\nReplace selected item\nReplacement model\nChoose an exact model\nRecheck this change\nAdd as the next phase\n\nEach phase is checked separately. Verify unknown fit and use comparable tests for performance claims.\n\n3. The full upgrade cost\n\nInclude the motherboard, memory, cooler or mounting kit, PSU/cables, operating system and accessories affected by a swap. An empty quote is unknown, not free. Owned parts stay separate from new spending.\n\nCompare two complete quotes\nOpen the platform cost tool\nOpen this plan in builder\nExport reuse plan",
+      "headings": [
+        "1. Your current PC",
+        "Choose what to keep and what to price",
+        "2. Plan a change",
+        "3. The full upgrade cost"
+      ],
+      "overflowElements": [],
+      "buttons": [
+        {
+          "text": "Review pasted parts",
+          "name": null
+        },
+        {
+          "text": "Not selected / unknown",
+          "name": "Processor: Not selected / unknown"
+        },
+        {
+          "text": "Not selected / unknown",
+          "name": "Motherboard: Not selected / unknown"
+        },
+        {
+          "text": "Not selected / unknown",
+          "name": "Graphics card: Not selected / unknown"
+        },
+        {
+          "text": "Not selected / unknown",
+          "name": "Memory kit: Not selected / unknown"
+        },
+        {
+          "text": "Not selected / unknown",
+          "name": "SSD: Not selected / unknown"
+        },
+        {
+          "text": "Not selected / unknown",
+          "name": "Hard drive: Not selected / unknown"
+        },
+        {
+          "text": "Not selected / unknown",
+          "name": "Power supply: Not selected / unknown"
+        },
+        {
+          "text": "Not selected / unknown",
+          "name": "Case: Not selected / unknown"
+        },
+        {
+          "text": "Not selected / unknown",
+          "name": "case fan: Not selected / unknown"
+        },
+        {
+          "text": "Not selected / unknown",
+          "name": "CPU cooler: Not selected / unknown"
+        },
+        {
+          "text": "Graphics card",
+          "name": "Category: Graphics card"
+        },
+        {
+          "text": "Choose a model",
+          "name": "Exact existing model: Choose a model"
+        },
+        {
+          "text": "Add existing item",
+          "name": null
+        },
+        {
+          "text": "Canada · CAD",
+          "name": "Country and currency: Canada · CAD"
+        },
+        {
+          "text": "Diagnose before spending",
+          "name": "Main goal: Diagnose before spending"
+        }
+      ],
+      "a11y": {
+        "axeVersion": "4.14.0",
+        "violations": [],
+        "incomplete": 1
+      },
+      "errors": [],
+      "screenshot": "upgrade-1440.png"
+    },
+    {
+      "route": "/compare/",
+      "status": 200,
+      "title": "Compare PC Parts: GPUs, CPUs, RAM and SSDs",
+      "viewport": 1440,
+      "innerWidth": 1440,
+      "width": 1440,
+      "header": 80,
+      "h1": "Compare hardware",
+      "mainText": "Home\n/\nCompare hardware\nCompare hardware\n\nChoose up to four exact models.\n\nExport & share\nPC parts\nSpecifications, side by side.\nPhones in 3D\nCompare the size and design.\nComplete PCs\nCompare disclosed configurations.\nGraphics cards\nProcessors\nMemory\nSSDs\nChoose a category\n⌄\nMore hardware categories\nMore categories\nMotherboards\nHard drives\nPower supplies\nPC cases\nMonitors\nMice\nKeyboards\nMicrophones\nHeadsets\nControllers\nConsoles\nPhones\nHandhelds\nCase fans\nCPU coolers\nPART 01\n×\nNVIDIA · 2025\nRTX 5070\n\n12 GB GDDR7\n\nChange part\n⌄\nUse in a build\nI own this part\nBlackwell\nView part\nPART 02\n×\nNVIDIA · 2025\nRTX 5060 Ti 16 GB\n\n16 GB GDDR7\n\nChange part\n⌄\nUse in a build\nI own this part\nBlackwell\nView part\nSave comparison\nSaved comparisons\n\n＋ Add a part\nOnly differences\nKey specifications\nReference specifications\nMemory\nGB\nRTX 5070\n12\nRTX 5060 Ti 16 GB\n16\nMemory bandwidth\nGB/s\nRTX 5070\n672\nRTX 5060 Ti 16 GB\n448\nBoard power\nW\nRTX 5070\n250\nRTX 5060 Ti 16 GB\n180\n\nSpecifications, not measured FPS.\n\nFull comparison\n7 fields\nSpecification\tRTX 5070\tRTX 5060 Ti 16 GB\nMemory\t12 GB\t16 GB\nMemory bandwidth\t672 GB/s\t448 GB/s\nBoost clock\t2.51 GHz\t2.57 GHz\nBoard power\t250 W\t180 W\nShader units\t6,144\t4,608\nArchitecture\tBlackwell\tBlackwell\nRelease year\t2025\t2025\nSources, photos & model notes\nResearched hardware comparisons\nRTX 5070 vs RTX 5060 Ti 16 GB: memory, power and buying checks\n\nCompare RTX 5070 and RTX 5060 Ti 16 GB specifications, understand the VRAM tradeoff, and check exact card fit and benchmark settings before buying.\n\nRTX 5070 vs RX 9070: specifications and upgrade checks\n\nCompare GeForce RTX 5070 and Radeon RX 9070 memory and power specifications. Check game testing, application support and exact partner-card fit.\n\nRyzen 7 9800X3D vs 7800X3D: specifications and platform checks\n\nCompare AMD Ryzen 7 9800X3D and 7800X3D architecture, clocks and AM5 requirements. Check BIOS and total upgrade cost before changing your CPU.\n\nRX 9070 or RX 9070 XT?\n\nCompare the documented features, power requirements and exact-model checks.\n\nRead the RX 9070 comparison",
+      "headings": [
+        "RTX 5070",
+        "RTX 5060 Ti 16 GB",
+        "Key specifications",
+        "Full comparison",
+        "Researched hardware comparisons",
+        "RX 9070 or RX 9070 XT?"
+      ],
+      "overflowElements": [],
+      "buttons": [
+        {
+          "text": "Export CSV ↓",
+          "name": null
+        },
+        {
+          "text": "Copy comparison link",
+          "name": null
+        },
+        {
+          "text": "Print comparison",
+          "name": null
+        },
+        {
+          "text": "Graphics cards",
+          "name": null
+        },
+        {
+          "text": "Processors",
+          "name": null
+        },
+        {
+          "text": "Memory",
+          "name": null
+        },
+        {
+          "text": "SSDs",
+          "name": null
+        },
+        {
+          "text": "MotherboardsCPU sockets and expansion120",
+          "name": null
+        },
+        {
+          "text": "Hard drivesHigh-capacity storage45",
+          "name": null
+        },
+        {
+          "text": "Power suppliesPower and connectors70",
+          "name": null
+        },
+        {
+          "text": "PC casesSize and component clearance86",
+          "name": null
+        },
+        {
+          "text": "MonitorsResolution and refresh rate30",
+          "name": null
+        },
+        {
+          "text": "MiceShape, sensor, and weight25",
+          "name": null
+        },
+        {
+          "text": "KeyboardsLayout and switch type23",
+          "name": null
+        },
+        {
+          "text": "MicrophonesConnection and recording pattern17",
+          "name": null
+        },
+        {
+          "text": "HeadsetsAudio and microphone features14",
+          "name": null
+        }
+      ],
+      "a11y": {
+        "axeVersion": "4.14.0",
+        "violations": [],
+        "incomplete": 3
+      },
+      "errors": [],
+      "screenshot": "compare-1440.png"
+    },
+    {
+      "route": "/blog/",
+      "status": 200,
+      "title": "PC Hardware Blog: Build Guides, Memory & AI Explained",
+      "viewport": 1440,
+      "innerWidth": 1440,
+      "width": 1440,
+      "header": 80,
+      "h1": "PC building & upgrade guides",
+      "mainText": "Home\n/\nPC building & upgrade guides\nPC building & upgrade guides\n\nPractical guides for your next build, upgrade or fix.\n\nBuild your first PC\nFrom choosing parts to first boot.\nCheck the fit\nCompatibility, cooling and troubleshooting.\nPlan an upgrade\nSpend where it makes a difference.\nSearch guides\nTopics\nReset\n\n54 guides\n\nBuilding & compatibility\nA new PC has no display: read debug LEDs without guessing the faulty part\n\nA persistent diagnostic LED helps choose an investigation path.\n\nAir cooler or AIO for a Ryzen 7 7800X3D in the original North?\n\nCompare NH-U12A and Liquid Freezer III 240 fit checks for a Ryzen 7 7800X3D in the original Fractal North, with layout conditions kept explicit.\n\nB650 TOMAHAWK lane sharing: choose the right M.2 slot\n\nUnderstand the M2_3 and PCI_E2 connection, and why some Ryzen processors change which slots are available.\n\nBuild vs buy a gaming PC: compare the complete purchase cost\n\nCompare the exact prebuilt with a complete DIY purchase plan.\n\nChoose a PC power supply: wattage, connectors, fit and the correct cables\n\nA wattage label is one requirement, not a complete PSU selection.\n\nCompare US prebuilt PC offers without losing the configuration\n\nA practical US offer checklist for exact desktop SKUs, marketplace sellers, return terms and benchmark context.\n\nFirst boot for a new PC: a safe checklist from power-on to a working baseline\n\nBefore installing software or enabling performance profiles, establish that the machine starts, recognizes the intended components and uses a documented configuration.\n\nGraphics-driver trouble after an update: preserve the evidence first\n\nRecord the installed driver, symptoms and exact hardware before changing another setting or attempting a rollback.\n\nHow to shortlist a prebuilt gaming PC in Canada\n\nCompare exact Canadian configurations, seller support and delivered CAD costs before choosing a gaming desktop.\n\nPC compatibility checklist: what to check before you buy\n\nCheck CPU support, RAM, graphics-card clearance, storage slots and power connections before ordering your PC parts.\n\nPlan a compact PC with a realistic noise goal\n\nChoose a small PC layout, check shared GPU and cooler space, and plan repeatable noise checks without mistaking fit for cooling performance.\n\nPlan a gaming and streaming PC around the stream you want to make\n\nTest the game, capture scene, encoder and network together before choosing an upgrade.\n\nPlan a phased PC upgrade: make every intermediate build usable\n\nBuying in stages works only when each intermediate configuration can perform the tasks you still need.\n\nPlan a video-editing PC from your projects, not a gaming label\n\nRecord the editor version, source media, effects, output and working-storage needs before choosing parts.\n\nRAM compatibility: read the exact kit, slots and QVL evidence\n\nA QVL records tested memory configurations.\n\nReading a checked PC offer: region, seller, freshness and exclusions\n\nUnderstand what an observed hardware price does and does not establish before using it in a buying decision.\n\nThe prebuilt internals checklist: PSU, RAM, cooling and upgrades\n\nKnow which internal details to request before buying a desktop advertised as powerful or upgradeable.\n\nUSB-C does not tell you the speed: a port and cable checklist\n\nSeparate connector shape, data speed, charging and video support before buying a cable, hub or display.\n\nWhat to check before buying used PC parts\n\nCheck exact model identity, condition evidence, warranty terms, missing accessories and the complete cost before buying a used GPU or other PC component.\n\nWhich PC parts ca",
+      "headings": [
+        "Building & compatibility",
+        "Graphics cards",
+        "Processors & upgrades",
+        "Memory & storage",
+        "Gaming laptops",
+        "Gaming performance",
+        "Phones & 3D",
+        "AI hardware"
+      ],
+      "overflowElements": [],
+      "buttons": [
+        {
+          "text": "Reset",
+          "name": null
+        }
+      ],
+      "a11y": {
+        "axeVersion": "4.14.0",
+        "violations": [],
+        "incomplete": 0
+      },
+      "errors": [],
+      "screenshot": "learn-1440.png"
+    },
+    {
+      "route": "/my-pc/",
+      "status": 200,
+      "title": "My PC Workspace: Saved Builds, Notes & Upgrade Plans · PC Part Performance",
+      "viewport": 1440,
+      "innerWidth": 1440,
+      "width": 1440,
+      "header": 80,
+      "h1": "Your PC, organized.",
+      "mainText": "Home\n/\nYour PC, organized.\nYour PC, organized.\n\nPick up where you left off.\n\nStart a build\nPlan an upgrade\n\nSaved on this browser. No account or cloud sync.\n\nSaved builds\nReopen a build or compare revisions.\nYour notebook\nKeep purchases, notes and next steps.\nParts to revisit\nKeep your shortlist together.\nBuilds\nComparisons\nNotebook\nWatchlist\nChanges\nSaved builds\nSave a build in the builder\nYour next build starts here.\n\nChoose parts in the builder, then save a named revision. It will appear in this workspace automatically.\n\nChoose PC partsPlanning an upgrade?\nSaved comparisons\n\nSave the products and differences that matter.\n\nCompare hardware\n\nSaved only on this browser. A saved date is not a specification-verification date.\n\nNo comparisons saved yet. Use “Save comparison” after choosing products in the comparison tool.\n\nBuild notebook\nPrivate on this browser\n\nSave a build to start its notebook.\n\nParts to revisit\nAll saved guides and products\nExact part name or model\nFind parts\n\nWatch a part here or save a product from its page.\n\nSaved products from the existing watchlist appear here too. No email alerts or background monitoring run on your device.\n\nWhat changed?\n\nCompare supported retailer observations with your last check.\n\nCheck saved parts\n\nA first successful check creates a baseline. Changes appear only after another verified observation.\n\nNo changes recorded. Only supported listings can provide checked observations.\n\nBackup and local data",
+      "headings": [
+        "Saved builds",
+        "Saved comparisons",
+        "Build notebook",
+        "Parts to revisit",
+        "What changed?",
+        ""
+      ],
+      "overflowElements": [],
+      "buttons": [
+        {
+          "text": "Choose an option",
+          "name": "Earlier revision: Choose an option"
+        },
+        {
+          "text": "Choose an option",
+          "name": "Later revision: Choose an option"
+        },
+        {
+          "text": "Show changes",
+          "name": null
+        },
+        {
+          "text": "Choose an option",
+          "name": "Build to edit notes for: Choose an option"
+        },
+        {
+          "text": "Save notes",
+          "name": null
+        },
+        {
+          "text": "Choose an option",
+          "name": "Planned component: Choose an option"
+        },
+        {
+          "text": "Choose an option",
+          "name": "Actual model: Choose an option"
+        },
+        {
+          "text": "CAD",
+          "name": "Currency: CAD"
+        },
+        {
+          "text": "Save acquisition record",
+          "name": null
+        },
+        {
+          "text": "Start a new record",
+          "name": null
+        },
+        {
+          "text": "Add entry",
+          "name": null
+        },
+        {
+          "text": "CAD",
+          "name": "Currency: CAD"
+        },
+        {
+          "text": "Add manual item",
+          "name": null
+        },
+        {
+          "text": "Find parts",
+          "name": null
+        },
+        {
+          "text": "Check saved parts",
+          "name": null
+        },
+        {
+          "text": "Export workspace backup",
+          "name": null
+        }
+      ],
+      "a11y": {
+        "axeVersion": "4.14.0",
+        "violations": [],
+        "incomplete": 0
+      },
+      "errors": [],
+      "screenshot": "workspace-1440.png"
+    },
+    {
+      "route": "/shop/",
+      "status": 200,
+      "title": "Shop PC parts in Canada and the USA · PC Part Performance",
+      "viewport": 1440,
+      "innerWidth": 1440,
+      "width": 1440,
+      "header": 80,
+      "h1": "Shop hardware",
+      "mainText": "Home\n/\nShop hardware\nShop hardware\n\nFind your parts. Compare buying options.\n\nPlan a build\nFilters\nCategory, brand & series\n1,236 products · Canada · CAD\nFeatured parts first\nNVIDIA\nGeForce RTX 5070\n\n12 GB GDDR7\n\nCheck store availability\nWhere to buy\nNVIDIA\nGeForce RTX 5060 Ti 16 GB\n\n16 GB GDDR7\n\nCheck store availability\nWhere to buy\nAMD\nRyzen 7 9800X3D\n\n8 cores / 16 threads\n\nCheck store availability\nWhere to buy\nAMD\nRyzen 7 7800X3D\n\n8 cores / 16 threads\n\nCheck store availability\nWhere to buy\nSamsung\n990 PRO 1 TB\n\n7,450 MB/s read\n\nCheck store availability\nWhere to buy\nCORSAIR\nVENGEANCE DDR5-6000 CL30\n\n32 GB · 2 × 16 GB\n\nCheck store availability\nWhere to buy\nMSI\nMAG B650 TOMAHAWK WIFI\n\nB650 · DDR5\n\nCheck store availability\nWhere to buy\nAMD\nRadeon RX 9070 XT\n\n16 GB GDDR6\n\nCheck store availability\nWhere to buy\nAMD\nRadeon RX 9070\n\n16 GB GDDR6\n\nCheck store availability\nWhere to buy\nNVIDIA\nGeForce RTX 5080\n\n16 GB GDDR7\n\nCheck store availability\nWhere to buy\nNVIDIA\nGeForce RTX 4070 SUPER\n\n12 GB GDDR6X\n\nCheck store availability\nWhere to buy\nNVIDIA\nGeForce RTX 4060\n\n8 GB GDDR6\n\nCheck store availability\nWhere to buy\nAMD\nRadeon RX 7800 XT\n\n16 GB GDDR6\n\nCheck store availability\nWhere to buy\nAMD\nRyzen 5 7600\n\n6 cores / 12 threads\n\nCheck store availability\nWhere to buy\nAMD\nRyzen 7 9700X\n\n8 cores / 16 threads\n\nCheck store availability\nWhere to buy\nWestern Digital\nWD_BLACK SN850X 2 TB\n\n7,300 MB/s read\n\nCheck store availability\nWhere to buy\nCORSAIR\nVENGEANCE LPX DDR4-3200 CL16\n\n32 GB · 2 × 16 GB\n\nCheck store availability\nWhere to buy\nApple\niPhone 17e\n\n6.1-inch iPhone 17e\n\nCheck store availability\nWhere to buy\nAMD\nRadeon RX 9070 GRE\n\n12 GB GDDR6\n\nCheck store availability\nWhere to buy\nSamsung\nSamsung Galaxy Fold8\n\nSamsung mobile device\n\nCheck store availability\nWhere to buy\nSamsung\nSamsung Galaxy S26\n\nSamsung flagship smartphone\n\nCheck store availability\nWhere to buy\nSamsung\nSamsung Galaxy S26 Ultra\n\nSamsung flagship smartphone\n\nCheck store availability\nWhere to buy\nSamsung\nSamsung Galaxy S26+\n\nSamsung flagship smartphone\n\nCheck store availability\nWhere to buy\nSamsung\nSamsung Galaxy Z Flip8\n\nSamsung mobile device\n\nCheck store availability\nWhere to buy\n\nBrowse all products and numbered catalog pages\n\nShow more products",
+      "headings": [
+        "GeForce RTX 5070",
+        "GeForce RTX 5060 Ti 16 GB",
+        "Ryzen 7 9800X3D",
+        "Ryzen 7 7800X3D",
+        "990 PRO 1 TB",
+        "VENGEANCE DDR5-6000 CL30",
+        "MAG B650 TOMAHAWK WIFI",
+        "Radeon RX 9070 XT",
+        "Radeon RX 9070",
+        "GeForce RTX 5080",
+        "GeForce RTX 4070 SUPER",
+        "GeForce RTX 4060",
+        "Radeon RX 7800 XT",
+        "Ryzen 5 7600",
+        "Ryzen 7 9700X",
+        "WD_BLACK SN850X 2 TB",
+        "VENGEANCE LPX DDR4-3200 CL16",
+        "iPhone 17e",
+        "Radeon RX 9070 GRE",
+        "Samsung Galaxy Fold8",
+        "Samsung Galaxy S26",
+        "Samsung Galaxy S26 Ultra",
+        "Samsung Galaxy S26+",
+        "Samsung Galaxy Z Flip8"
+      ],
+      "overflowElements": [],
+      "buttons": [
+        {
+          "text": "Clear filters",
+          "name": null
+        },
+        {
+          "text": "Show more products",
+          "name": null
+        }
+      ],
+      "a11y": {
+        "axeVersion": "4.14.0",
+        "violations": [],
+        "incomplete": 0
+      },
+      "errors": [],
+      "screenshot": "shop-1440.png"
+    }
+  ],
+  "scope": "Isolated headless Edge, emulated viewport/touch. Local axe-core checks are automated only. Only the injected QA button is hidden in screenshots. Not a physical phone or field performance test."
+}

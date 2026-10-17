@@ -139,6 +139,7 @@ require("./completion-retention.cjs")({root});
 require("./completion-pricing.cjs")({root});
 require("./completion-parts-import.cjs")({root});
 require("./completion-measurement.cjs")({root,enabled:false});
+require("./ui-refinement.cjs").prepare({root});
 require("./seo-pass.cjs")({root,records,shell,write,esc});
 const completionSEO=require("./completion-seo.cjs")({root,records},{reportDirectory:path.resolve('docs/master-completion/seo')});
 const priceSnapshot=path.join(__dirname,'../data/public-price-snapshot.json');
