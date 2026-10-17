@@ -66,3 +66,12 @@ test('offer expiry labels include the next calendar date instead of repeating an
  vm.runInNewContext(source.slice(start,end)+'; label=freshness({checkedAt:"2026-10-16T01:00:00Z",expiresAt:"2026-10-17T13:00:00Z"});',context);
  assert(context.label.includes('Oct')&&context.label.includes('17'));assert(!source.slice(start,end).includes('toLocaleTimeString'));
 });
+
+test('all prepared production runtimes match their source and the built shopping asset',()=>{
+ const crypto=require('node:crypto');
+ for(const [source,metadata]of [['compatibility-evidence.cjs','compatibility-evidence.browser.json'],['builder-program.js','builder-program.browser.json'],['shopping.js','shopping.browser.json']]){
+  const text=fs.readFileSync('scripts/'+source,'utf8').replace(/\r\n/g,'\n'),prepared=JSON.parse(fs.readFileSync('scripts/'+metadata,'utf8'));
+  assert.equal(crypto.createHash('sha256').update(text).digest('hex'),prepared.sourceHash,source+' changed: run prepare-master-runtime before building or releasing');
+ }
+ assert.equal(fs.readFileSync('dist/shopping.js','utf8').replace(/\r\n/g,'\n'),fs.readFileSync('scripts/shopping.browser.js','utf8').replace(/\r\n/g,'\n'));
+});
