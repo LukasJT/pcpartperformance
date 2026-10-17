@@ -1,0 +1,26 @@
+{
+  "checked": "2026-10-17",
+  "primaryDocument": "IBM Hardware Interface Technical Reference — Video Subsystem, VGA Function, October 1990",
+  "primaryDocumentUrl": "https://www.ardent-tool.com/docs/pdf/ibm_hitrc10.pdf",
+  "retrieval": "Full 126-page PDF readable by web reader; original IBM technical reference republished by Ardent Tool of Capitalism",
+  "printedPage": 21,
+  "pdfPageIndex": 28,
+  "section": "Video Memory Organization",
+  "shortExcerpt": "256KB of dynamic read/write memory configured as four 64KB memory maps",
+  "additionalProof": "Printed page 64, PDF page index 71, states that 256KB of video memory is installed on the system board.",
+  "integratedControllerSourceUrl": "https://www.ardent-tool.com/8580/Planar_T2.html",
+  "integratedControllerProof": "IBM PS/2 Model 80 Type 2 planar: U87 72X8287 VGA; eight 64Kx4 DRAMs at U116,117,136,137,149,150,174,175.",
+  "photographSourceUrl": "https://ummr.org/ibmvol2.htm",
+  "photographUrl": "https://ummr.org/IMG_4746.JPG",
+  "photographProof": "Primary owned collection caption names IBM PS/2 Display Adapter 75X9017 (1987) and explicitly identifies the same VGA chip as PS/2 Models 50, 60 and 80. Actual original close-up visibly confirms IBM 72X8287 and board label 75X9017.",
+  "variantDistinction": "Photograph shows the 8-bit ISA adapter implementation. Catalog describes integrated PS/2 VGA. Metadata explicitly records this same-chip, same-memory implementation variant.",
+  "physicalCapacityKB": 256,
+  "catalogDecimalMemoryGB": 0.000256,
+  "previousCatalogNumericMemory": 0.256,
+  "requiredCorrection": "Parent integration owns the unit-only catalog correction, preserving stable ID, name, family and date.",
+  "failedSources": [
+    {"url": "https://www.ibm.com/docs/en/announcements/archive/ENUS187-054", "result": "HTTP 403; no retry or bypass"},
+    {"url": "https://bitsavers.org/pdf/ibm/pc/cards/IBM_VGA_XGA_Technical_Reference_Manual_May92.pdf", "result": "HTTP 403; no direct download or retry"},
+    {"url": "https://www.ardent-tool.com/docs/pdf/42G2193_PS2_Hardware_Interface_Technical_Reference_Video_Subsystems_Sep92.pdf", "result": "HTTP 200; 55-second full transfer timeout. Web-indexed primary excerpt independently confirms 256KB at printed page 2-23. Smaller October 1990 IBM chapter is fully readable by web reader."}
+  ]
+}

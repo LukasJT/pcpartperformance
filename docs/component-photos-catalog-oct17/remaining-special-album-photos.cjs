@@ -1,0 +1,5 @@
+const fs=require('fs'),path=require('path'),root=path.resolve(__dirname,'../..');
+const html=fs.readFileSync(path.join(root,'tmp/remaining-special-oct17/imgur-board-embed.html'),'utf8');
+const images=JSON.parse(html.match(/var images\s*=\s*(\{"count"[\s\S]*?\]\})/)[1]).images;
+fs.writeFileSync(path.join(__dirname,'remaining-special-album-index.json'),JSON.stringify(images,null,2));
+(async()=>{const out={};for(const p of images.filter(x=>['Full motherboard picture','Everything included in purchase:','Warranty Proof'].includes(x.description))){const url='https://i.imgur.com/'+p.hash+p.ext,row=out[p.hash]={url,caption:p.description};try{const r=await fetch(url,{signal:AbortSignal.timeout(30000)});row.status=r.status;console.log(p.description,r.status);if(r.ok){const b=Buffer.from(await r.arrayBuffer());fs.writeFileSync(path.join(root,'tmp/remaining-special-oct17/'+p.hash+p.ext),b);row.bytes=b.length;}if([401,403,429].includes(r.status))break;}catch(e){row.error=e.message;console.log(e.message);}}fs.writeFileSync(path.join(__dirname,'remaining-special-album-photos.json'),JSON.stringify(out,null,2));})();

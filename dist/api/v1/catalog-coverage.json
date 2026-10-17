@@ -17,15 +17,15 @@
       "items": 165,
       "atLeastThreeSpecs": 146,
       "strictExactImages": 35,
-      "missingImages": 17
+      "missingImages": 0
     },
     {
       "id": "cpu",
       "label": "Processors",
       "items": 167,
       "atLeastThreeSpecs": 167,
-      "strictExactImages": 68,
-      "missingImages": 97
+      "strictExactImages": 159,
+      "missingImages": 1
     },
     {
       "id": "board",
@@ -33,7 +33,7 @@
       "items": 120,
       "atLeastThreeSpecs": 94,
       "strictExactImages": 113,
-      "missingImages": 2
+      "missingImages": 0
     },
     {
       "id": "ram",
@@ -41,7 +41,7 @@
       "items": 66,
       "atLeastThreeSpecs": 64,
       "strictExactImages": 1,
-      "missingImages": 6
+      "missingImages": 2
     },
     {
       "id": "ssd",
@@ -49,7 +49,7 @@
       "items": 78,
       "atLeastThreeSpecs": 78,
       "strictExactImages": 2,
-      "missingImages": 44
+      "missingImages": 1
     },
     {
       "id": "hdd",
@@ -57,7 +57,7 @@
       "items": 45,
       "atLeastThreeSpecs": 42,
       "strictExactImages": 14,
-      "missingImages": 24
+      "missingImages": 1
     },
     {
       "id": "psu",
@@ -164,5 +164,5 @@
       "missingImages": 0
     }
   ],
-  "version": "a44ce36db739"
+  "version": "eeecf0704213"
 }

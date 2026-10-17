@@ -27,11 +27,28 @@ test('new catalog list delivery uses the reviewed small local thumbnail while ke
 test('catalog payloads preserve pictured GPU variants and comparison credits without transferring research-only data',()=>{
  for(const[id,image]of Object.entries(images)){
   const p=part(id),list=thumbnails.catalogEntry(p,image,root),compare=thumbnails.comparisonEntry(id,image,root);
-  assert.equal(list.src,image.thumbnailSrc);if(p.cat==='gpu')assert.equal(list.picturedModel,image.picturedModel);
+  assert.equal(list.src,image.thumbnailSrc);if(image.kind!=='exact')assert.equal(list.picturedModel,image.picturedModel);else assert.equal(list.picturedModel,undefined);
   assert.equal(compare.src,image.src);assert.equal(compare.thumbnailSrc,image.thumbnailSrc);
   for(const key of ['attribution','license','licenseUrl','sourceUrl','picturedModel'])assert.equal(compare[key],image[key]);
   for(const key of ['sourceSha256','sha256','identityEvidence','visualReviewed','reviewedAt'])assert.equal(compare[key],undefined);
  }
+});
+test('compact catalog delivery restores every image and pictured identity without a second request',()=>{
+ const entries=Object.fromEntries(Object.entries(images).map(([id,image])=>[id,thumbnails.catalogEntry(part(id),image,root)]));
+ const context={window:{}};vm.runInNewContext(thumbnails.catalogScript(entries),context);
+ assert.deepEqual(JSON.parse(JSON.stringify(context.window.PCP_IMAGES)),entries);
+ assert(!thumbnails.catalogScript(entries).includes('fetch('));
+ const mixed={one:{src:'/a/one-hash.webp'},two:{src:'/a/other.webp',picturedModel:'Actual pictured variant <sample>'},three:{src:'/b/three.webp'}};
+ vm.runInNewContext(thumbnails.catalogScript(mixed),context);
+ assert.deepEqual(JSON.parse(JSON.stringify(context.window.PCP_IMAGES)),mixed);
+ vm.runInNewContext(fs.readFileSync('dist/image-catalog-lite.js','utf8'),context);
+ assert(Object.keys(context.window.PCP_IMAGES).length>=Object.keys(images).length);
+});
+test('the formerly missing graphics cards all have bound pictures and IBM memory uses the documented GB unit',()=>{
+ assert.equal(part('ibm-vga').specs.Memory,0.000256);
+ assert.equal(images['ibm-vga'].memoryKB,256);
+ const generated=JSON.parse(fs.readFileSync('dist/images.json','utf8'));
+ for(const p of parts.filter(p=>p.cat==='gpu'))assert(delivery.entry(p,generated[p.id],root),p.id+' graphics-card photo is missing');
 });
 test('the generated image map is consistent with all reviewed corrections and never substitutes an unmatched component',()=>{
  const generated=JSON.parse(fs.readFileSync('dist/images.json','utf8'));

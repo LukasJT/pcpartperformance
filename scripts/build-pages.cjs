@@ -30,7 +30,7 @@ for(const phone of require('./phone-data.cjs')){
 const imageDelivery=require('./program-image-delivery.cjs');
 // Browsing and builder pages only need the image URL and pictured identity. Attribution
 // remains on product/compare pages; do not transfer the full source registry to every tool.
-fs.writeFileSync(path.join(root,'image-catalog-lite.js'),'window.PCP_IMAGES='+JSON.stringify(Object.fromEntries(records.filter(p=>images[p.id]).map(p=>[p.id,imageDelivery.catalogEntry(p,images[p.id],root)]))).replace(/</g,'\\u003c')+';');
+fs.writeFileSync(path.join(root,'image-catalog-lite.js'),imageDelivery.catalogScript(Object.fromEntries(records.filter(p=>images[p.id]).map(p=>[p.id,imageDelivery.catalogEntry(p,images[p.id],root)]))));
 // Interactive comparisons need credits and image URLs, not download hashes,
 // editorial review notes or intake records. Complete provenance stays in images.json
 // and the server-rendered product source disclosure.

@@ -1,0 +1,548 @@
+[
+  {
+    "id": "r9380x",
+    "name": "Radeon R9 380X",
+    "category": "gpu",
+    "sourceUrl": "https://www.amd.com/en/products/graphics/desktop/r9",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": null,
+    "imageChanged": false,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "gpu-audit.json",
+      "retail-gpu-sources.json"
+    ],
+    "record": {
+      "id": "r9380x",
+      "name": "Radeon R9 380X",
+      "brand": "AMD",
+      "cat": "gpu",
+      "year": 2015,
+      "architecture": "Tonga",
+      "summary": "4 GB GDDR5",
+      "specs": {
+        "Memory": 4,
+        "Memory bandwidth": 182.4,
+        "Boost clock": 0.97,
+        "Board power": 190,
+        "Shader units": 2048
+      },
+      "source": "https://www.amd.com/en/products/graphics/desktop/r9"
+    }
+  },
+  {
+    "id": "hd5870",
+    "name": "Radeon HD 5870",
+    "category": "gpu",
+    "sourceUrl": "https://www.amd.com/en/press-releases/Pages/amd-introduces-ati-radeon-2009sep23.aspx",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/gpu-hd5870.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "gpu-audit.json",
+      "retail-gpu-sources.json"
+    ],
+    "record": {
+      "id": "hd5870",
+      "name": "Radeon HD 5870",
+      "brand": "AMD",
+      "cat": "gpu",
+      "year": 2009,
+      "architecture": "TeraScale 2 · Cypress",
+      "summary": "1 GB GDDR5",
+      "specs": {
+        "Memory": 1,
+        "Memory bandwidth": 153.6,
+        "Boost clock": 0.85,
+        "Board power": 188,
+        "Shader units": 1600
+      },
+      "source": "https://www.amd.com/en/press-releases/Pages/amd-introduces-ati-radeon-2009sep23.aspx"
+    }
+  },
+  {
+    "id": "ibm-vga",
+    "name": "IBM Video Graphics Array",
+    "category": "gpu",
+    "sourceUrl": "https://www.ibm.com/history/personal-computer",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": null,
+    "imageChanged": false,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "gpu-audit.json",
+      "retail-gpu-sources.json"
+    ],
+    "record": {
+      "id": "ibm-vga",
+      "name": "IBM Video Graphics Array",
+      "brand": "IBM",
+      "cat": "gpu",
+      "year": 1987,
+      "architecture": "VGA · PS/2 integrated",
+      "summary": "VGA graphics standard origin",
+      "specs": {
+        "Memory": 0.256
+      },
+      "source": "https://www.ibm.com/history/personal-computer"
+    }
+  },
+  {
+    "id": "voodoo-graphics",
+    "name": "3dfx Voodoo Graphics",
+    "category": "gpu",
+    "sourceUrl": "https://www.techpowerup.com/gpu-specs/voodoo-graphics.c3567",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": null,
+    "imageChanged": false,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "gpu-audit.json",
+      "retail-gpu-sources.json"
+    ],
+    "record": {
+      "id": "voodoo-graphics",
+      "name": "3dfx Voodoo Graphics",
+      "brand": "3dfx",
+      "cat": "gpu",
+      "year": 1996,
+      "architecture": "SST1 · PCI",
+      "summary": "4 MB dedicated 3D accelerator",
+      "specs": {
+        "Memory": 0.004
+      },
+      "source": "https://www.techpowerup.com/gpu-specs/voodoo-graphics.c3567"
+    }
+  },
+  {
+    "id": "voodoo2-12",
+    "name": "3dfx Voodoo2 12 MB",
+    "category": "gpu",
+    "sourceUrl": "https://www.techpowerup.com/gpu-specs/voodoo2-12-mb.c3566",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": null,
+    "imageChanged": false,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "gpu-audit.json",
+      "retail-gpu-sources.json"
+    ],
+    "record": {
+      "id": "voodoo2-12",
+      "name": "3dfx Voodoo2 12 MB",
+      "brand": "3dfx",
+      "cat": "gpu",
+      "year": 1998,
+      "architecture": "SST2 · PCI",
+      "summary": "12 MB dedicated 3D accelerator",
+      "specs": {
+        "Memory": 0.012
+      },
+      "source": "https://www.techpowerup.com/gpu-specs/voodoo2-12-mb.c3566"
+    }
+  },
+  {
+    "id": "rivatnt",
+    "name": "NVIDIA RIVA TNT",
+    "category": "gpu",
+    "sourceUrl": "https://www.nvidia.com/content/timeline/time_98.html",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": null,
+    "imageChanged": false,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "gpu-audit.json",
+      "retail-gpu-sources.json"
+    ],
+    "record": {
+      "id": "rivatnt",
+      "name": "NVIDIA RIVA TNT",
+      "brand": "NVIDIA",
+      "cat": "gpu",
+      "year": 1998,
+      "architecture": "NV4 · AGP",
+      "summary": "16 MB multitexturing 3D processor",
+      "specs": {
+        "Memory": 0.016
+      },
+      "source": "https://www.nvidia.com/content/timeline/time_98.html"
+    }
+  },
+  {
+    "id": "rivatnt2",
+    "name": "NVIDIA RIVA TNT2",
+    "category": "gpu",
+    "sourceUrl": "https://www.nvidia.com/content/timeline/time_99.html",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": null,
+    "imageChanged": false,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "gpu-audit.json",
+      "retail-gpu-sources.json"
+    ],
+    "record": {
+      "id": "rivatnt2",
+      "name": "NVIDIA RIVA TNT2",
+      "brand": "NVIDIA",
+      "cat": "gpu",
+      "year": 1999,
+      "architecture": "NV5 · AGP",
+      "summary": "32 MB 32-bit frame-buffer generation",
+      "specs": {
+        "Memory": 0.032
+      },
+      "source": "https://www.nvidia.com/content/timeline/time_99.html"
+    }
+  },
+  {
+    "id": "geforce256ddr",
+    "name": "NVIDIA GeForce 256 DDR",
+    "category": "gpu",
+    "sourceUrl": "https://www.nvidia.com/content/timeline/time_99.html",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": null,
+    "imageChanged": false,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "gpu-audit.json",
+      "retail-gpu-sources.json"
+    ],
+    "record": {
+      "id": "geforce256ddr",
+      "name": "NVIDIA GeForce 256 DDR",
+      "brand": "NVIDIA",
+      "cat": "gpu",
+      "year": 1999,
+      "architecture": "NV10 · AGP",
+      "summary": "32 MB DDR · first GeForce GPU generation",
+      "specs": {
+        "Memory": 0.032,
+        "Memory bandwidth": 4.8,
+        "Shader units": 4
+      },
+      "source": "https://www.nvidia.com/content/timeline/time_99.html"
+    }
+  },
+  {
+    "id": "geforce2gts",
+    "name": "NVIDIA GeForce2 GTS",
+    "category": "gpu",
+    "sourceUrl": "https://www.techpowerup.com/gpu-specs/geforce2-gts.c790",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": null,
+    "imageChanged": false,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "gpu-audit.json",
+      "retail-gpu-sources.json"
+    ],
+    "record": {
+      "id": "geforce2gts",
+      "name": "NVIDIA GeForce2 GTS",
+      "brand": "NVIDIA",
+      "cat": "gpu",
+      "year": 2000,
+      "architecture": "NV15 · AGP",
+      "summary": "32 MB DDR graphics card",
+      "specs": {
+        "Memory": 0.032,
+        "Memory bandwidth": 5.3
+      },
+      "source": "https://www.techpowerup.com/gpu-specs/geforce2-gts.c790"
+    }
+  },
+  {
+    "id": "geforce3",
+    "name": "NVIDIA GeForce3",
+    "category": "gpu",
+    "sourceUrl": "https://www.techpowerup.com/gpu-specs/geforce3.c795",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": null,
+    "imageChanged": false,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "gpu-audit.json",
+      "retail-gpu-sources.json"
+    ],
+    "record": {
+      "id": "geforce3",
+      "name": "NVIDIA GeForce3",
+      "brand": "NVIDIA",
+      "cat": "gpu",
+      "year": 2001,
+      "architecture": "NV20 · AGP",
+      "summary": "64 MB DDR · programmable shader generation",
+      "specs": {
+        "Memory": 0.064,
+        "Memory bandwidth": 7.4
+      },
+      "source": "https://www.techpowerup.com/gpu-specs/geforce3.c795"
+    }
+  },
+  {
+    "id": "gf4ti4600",
+    "name": "NVIDIA GeForce4 Ti 4600",
+    "category": "gpu",
+    "sourceUrl": "https://www.techpowerup.com/gpu-specs/geforce4-ti-4600.c797",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": null,
+    "imageChanged": false,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "gpu-audit.json",
+      "retail-gpu-sources.json"
+    ],
+    "record": {
+      "id": "gf4ti4600",
+      "name": "NVIDIA GeForce4 Ti 4600",
+      "brand": "NVIDIA",
+      "cat": "gpu",
+      "year": 2002,
+      "architecture": "NV25 · AGP",
+      "summary": "128 MB DDR graphics card",
+      "specs": {
+        "Memory": 0.128,
+        "Memory bandwidth": 10.4
+      },
+      "source": "https://www.techpowerup.com/gpu-specs/geforce4-ti-4600.c797"
+    }
+  },
+  {
+    "id": "geforcefx5800u",
+    "name": "NVIDIA GeForce FX 5800 Ultra",
+    "category": "gpu",
+    "sourceUrl": "https://www.techpowerup.com/gpu-specs/geforce-fx-5800-ultra.c789",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": null,
+    "imageChanged": false,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "gpu-audit.json",
+      "retail-gpu-sources.json"
+    ],
+    "record": {
+      "id": "geforcefx5800u",
+      "name": "NVIDIA GeForce FX 5800 Ultra",
+      "brand": "NVIDIA",
+      "cat": "gpu",
+      "year": 2003,
+      "architecture": "NV30 · AGP",
+      "summary": "128 MB DDR2 graphics card",
+      "specs": {
+        "Memory": 0.128,
+        "Memory bandwidth": 16
+      },
+      "source": "https://www.techpowerup.com/gpu-specs/geforce-fx-5800-ultra.c789"
+    }
+  },
+  {
+    "id": "radeonddr",
+    "name": "ATI Radeon DDR",
+    "category": "gpu",
+    "sourceUrl": "https://www.techpowerup.com/gpu-specs/radeon-ddr.c1716",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": null,
+    "imageChanged": false,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "gpu-audit.json",
+      "retail-gpu-sources.json"
+    ],
+    "record": {
+      "id": "radeonddr",
+      "name": "ATI Radeon DDR",
+      "brand": "ATI",
+      "cat": "gpu",
+      "year": 2000,
+      "architecture": "R100 · AGP",
+      "summary": "64 MB DDR graphics card",
+      "specs": {
+        "Memory": 0.064,
+        "Memory bandwidth": 5.9
+      },
+      "source": "https://www.techpowerup.com/gpu-specs/radeon-ddr.c1716"
+    }
+  },
+  {
+    "id": "radeon8500",
+    "name": "ATI Radeon 8500",
+    "category": "gpu",
+    "sourceUrl": "https://www.techpowerup.com/gpu-specs/radeon-8500.c1296",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": null,
+    "imageChanged": false,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "gpu-audit.json",
+      "retail-gpu-sources.json"
+    ],
+    "record": {
+      "id": "radeon8500",
+      "name": "ATI Radeon 8500",
+      "brand": "ATI",
+      "cat": "gpu",
+      "year": 2001,
+      "architecture": "R200 · AGP",
+      "summary": "64 MB DDR graphics card",
+      "specs": {
+        "Memory": 0.064,
+        "Memory bandwidth": 8.8
+      },
+      "source": "https://www.techpowerup.com/gpu-specs/radeon-8500.c1296"
+    }
+  },
+  {
+    "id": "radeon9700pro",
+    "name": "ATI Radeon 9700 PRO",
+    "category": "gpu",
+    "sourceUrl": "https://www.techpowerup.com/gpu-specs/radeon-9700-pro.c1198",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": null,
+    "imageChanged": false,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "gpu-audit.json",
+      "retail-gpu-sources.json"
+    ],
+    "record": {
+      "id": "radeon9700pro",
+      "name": "ATI Radeon 9700 PRO",
+      "brand": "ATI",
+      "cat": "gpu",
+      "year": 2002,
+      "architecture": "R300 · AGP",
+      "summary": "128 MB DDR graphics card",
+      "specs": {
+        "Memory": 0.128,
+        "Memory bandwidth": 19.8
+      },
+      "source": "https://www.techpowerup.com/gpu-specs/radeon-9700-pro.c1198"
+    }
+  },
+  {
+    "id": "radeonx800xt",
+    "name": "ATI Radeon X800 XT",
+    "category": "gpu",
+    "sourceUrl": "https://www.techpowerup.com/gpu-specs/radeon-x800-xt.c1053",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": null,
+    "imageChanged": false,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "gpu-audit.json",
+      "retail-gpu-sources.json"
+    ],
+    "record": {
+      "id": "radeonx800xt",
+      "name": "ATI Radeon X800 XT",
+      "brand": "ATI",
+      "cat": "gpu",
+      "year": 2004,
+      "architecture": "R420 · AGP",
+      "summary": "256 MB GDDR3 graphics card",
+      "specs": {
+        "Memory": 0.256,
+        "Memory bandwidth": 32
+      },
+      "source": "https://www.techpowerup.com/gpu-specs/radeon-x800-xt.c1053"
+    }
+  },
+  {
+    "id": "radeonx1900xtx",
+    "name": "ATI Radeon X1900 XTX",
+    "category": "gpu",
+    "sourceUrl": "https://www.techpowerup.com/gpu-specs/radeon-x1900-xtx.c133",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": null,
+    "imageChanged": false,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "gpu-audit.json",
+      "retail-gpu-sources.json"
+    ],
+    "record": {
+      "id": "radeonx1900xtx",
+      "name": "ATI Radeon X1900 XTX",
+      "brand": "ATI",
+      "cat": "gpu",
+      "year": 2006,
+      "architecture": "R580 · PCIe",
+      "summary": "512 MB GDDR3 graphics card",
+      "specs": {
+        "Memory": 0.512,
+        "Memory bandwidth": 49.6
+      },
+      "source": "https://www.techpowerup.com/gpu-specs/radeon-x1900-xtx.c133"
+    }
+  }
+]

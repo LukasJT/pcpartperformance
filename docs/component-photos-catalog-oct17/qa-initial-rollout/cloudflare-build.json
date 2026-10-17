@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-10-17T19:49:13.736Z",
+  "commit": "f704e335c46f2fdb7f0a18f81e65bdd7eb03d892",
+  "sourceUrl": "https://api.github.com/repos/LukasJT/pcpartperformance/commits/f704e335c46f2fdb7f0a18f81e65bdd7eb03d892/check-runs",
+  "checks": [
+    {
+      "name": "Workers Builds: pcpartperformance-live",
+      "status": "completed",
+      "conclusion": "success",
+      "details_url": "https://dash.cloudflare.com/544465516a580e551501b219bd8f089f/workers/services/view/pcpartperformance-live/production/builds/042300d4-c286-4519-be82-fcd885e6d443"
+    }
+  ],
+  "productionMarker": {
+    "schema": 1,
+    "program": "2026-10-11-continuation",
+    "commit": "f704e335c46f2fdb7f0a18f81e65bdd7eb03d892",
+    "generatedAt": "2026-10-17T19:47:47.873Z",
+    "staging": false
+  }
+}

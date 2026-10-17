@@ -1,0 +1,2940 @@
+[
+  {
+    "family": "intel/8080-8085/",
+    "ids": [
+      "intel8080",
+      "intel8085"
+    ],
+    "url": "https://cpumuseum.jimdofree.com/museum/intel/8080-8085/",
+    "status": 200,
+    "cache": "C:\\Users\\slowf\\Documents\\Codex\\2026-09-15\\lukasjt-pcpartperformance-x20\\pcpartperformance\\tmp\\remaining-cpu-oct17\\3ced926becf83a19b7a395cb.html",
+    "headings": [
+      "The 8080 Family",
+      "AMD",
+      "AMD AM9080ADC/C8080A",
+      "Intel",
+      "Intel C8080A",
+      "Intel P8080A",
+      "USSR Clones",
+      "USSR (Kvantor) КР580ВМ80А",
+      "The 8085 Family",
+      "Intel",
+      "Intel D8085AH-2",
+      "Intel LD8085AH-2",
+      "NEC",
+      "NEC D8085AC-2",
+      "NEC D8085AHC-2"
+    ],
+    "gallery": [
+      {
+        "heading": "AMD AM9080ADC/C8080A",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=jpg/path/s674ac0b1a38a76e3/image/i398b5dd398b83311/version/1494181484/amd-am9080adc-c8080a-front-view.jpg",
+        "title": ""
+      },
+      {
+        "heading": "AMD AM9080ADC/C8080A",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=jpg/path/s674ac0b1a38a76e3/image/idaa50aa61c258e5b/version/1494181487/amd-am9080adc-c8080a-back-view.jpg",
+        "title": ""
+      },
+      {
+        "heading": "AMD AM9080ADC/C8080A",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=jpg/path/s674ac0b1a38a76e3/image/i20d7f932d58d4af7/version/1494181491/amd-am9080adc-c8080a-side-view.jpg",
+        "title": ""
+      },
+      {
+        "heading": "Intel C8080A",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=jpg/path/s674ac0b1a38a76e3/image/if1e0b92bac935eb6/version/1494181497/intel-c8080a-front-view.jpg",
+        "title": ""
+      },
+      {
+        "heading": "Intel C8080A",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=jpg/path/s674ac0b1a38a76e3/image/i843170552dcbdc4c/version/1494181501/intel-c8080a-back-view.jpg",
+        "title": ""
+      },
+      {
+        "heading": "Intel C8080A",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=jpg/path/s674ac0b1a38a76e3/image/i102f4f21c416f5fa/version/1494181506/intel-c8080a-side-view.jpg",
+        "title": ""
+      },
+      {
+        "heading": "Intel P8080A",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=jpg/path/s674ac0b1a38a76e3/image/i9e7880aca68e23a2/version/1494181526/intel-p8080a-front-view.jpg",
+        "title": ""
+      },
+      {
+        "heading": "Intel P8080A",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=jpg/path/s674ac0b1a38a76e3/image/i15cdc58da27e2fb3/version/1494181530/intel-p8080a-back-view.jpg",
+        "title": ""
+      },
+      {
+        "heading": "Intel P8080A",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=jpg/path/s674ac0b1a38a76e3/image/i8b894446b7014666/version/1494181540/intel-p8080a-side-view.jpg",
+        "title": ""
+      },
+      {
+        "heading": "USSR (Kvantor) КР580ВМ80А",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=jpg/path/s674ac0b1a38a76e3/image/i5643140847e53ccc/version/1494181556/%D0%BA%D1%80580%D0%B2%D0%BC80%D0%B0-front-view.jpg",
+        "title": ""
+      },
+      {
+        "heading": "USSR (Kvantor) КР580ВМ80А",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=jpg/path/s674ac0b1a38a76e3/image/i9cc46600c1a0a580/version/1494181559/%D0%BA%D1%80580%D0%B2%D0%BC80%D0%B0-back-view.jpg",
+        "title": ""
+      },
+      {
+        "heading": "USSR (Kvantor) КР580ВМ80А",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=jpg/path/s674ac0b1a38a76e3/image/id94918df76881d32/version/1494181569/%D0%BA%D1%80580%D0%B2%D0%BC80%D0%B0-side-view.jpg",
+        "title": ""
+      },
+      {
+        "heading": "Intel D8085AH-2",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=jpg/path/s674ac0b1a38a76e3/image/iacd05d60008bb16f/version/1494181585/intel-d8085ah-2-front-view.jpg",
+        "title": ""
+      },
+      {
+        "heading": "Intel D8085AH-2",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=jpg/path/s674ac0b1a38a76e3/image/ic98dc28c2945132e/version/1494181590/intel-d8085ah-2-back-view.jpg",
+        "title": ""
+      },
+      {
+        "heading": "Intel D8085AH-2",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=jpg/path/s674ac0b1a38a76e3/image/id7917ce1b05a5ac9/version/1494181600/intel-d8085ah-2-side-view.jpg",
+        "title": ""
+      },
+      {
+        "heading": "Intel LD8085AH-2",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=jpg/path/s674ac0b1a38a76e3/image/i9511d7482d146967/version/1494181605/intel-ld8085ah-2-front-view.jpg",
+        "title": ""
+      },
+      {
+        "heading": "Intel LD8085AH-2",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=jpg/path/s674ac0b1a38a76e3/image/ic06a38d60f5ff012/version/1494181607/intel-ld8085ah-2-back-view.jpg",
+        "title": ""
+      },
+      {
+        "heading": "Intel LD8085AH-2",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=jpg/path/s674ac0b1a38a76e3/image/i6068502725513cb6/version/1494181613/intel-ld8085ah-2-side-view.jpg",
+        "title": ""
+      },
+      {
+        "heading": "NEC D8085AC-2",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=jpg/path/s674ac0b1a38a76e3/image/i1f85241b4c14a5ab/version/1494181620/nec-d8085ac-2-front-view.jpg",
+        "title": ""
+      },
+      {
+        "heading": "NEC D8085AC-2",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=jpg/path/s674ac0b1a38a76e3/image/i8680fc4a7ce7cd74/version/1494181626/nec-d8085ac-2-back-view.jpg",
+        "title": ""
+      },
+      {
+        "heading": "NEC D8085AC-2",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=jpg/path/s674ac0b1a38a76e3/image/i81ac374a185c2d4c/version/1494181628/nec-d8085ac-2-side-view.jpg",
+        "title": ""
+      },
+      {
+        "heading": "NEC D8085AHC-2",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=jpg/path/s674ac0b1a38a76e3/image/i55acc9c8cc3d13af/version/1494181635/nec-d8085ahc-2-front-view.jpg",
+        "title": ""
+      },
+      {
+        "heading": "NEC D8085AHC-2",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=jpg/path/s674ac0b1a38a76e3/image/i78164cd5bdb74312/version/1494181639/nec-d8085ahc-2-back-view.jpg",
+        "title": ""
+      },
+      {
+        "heading": "NEC D8085AHC-2",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=jpg/path/s674ac0b1a38a76e3/image/iaba0c079db48e7ab/version/1494181642/nec-d8085ahc-2-side-view.jpg",
+        "title": ""
+      }
+    ]
+  },
+  {
+    "family": "intel/8086-8088/",
+    "ids": [
+      "intel8088"
+    ],
+    "url": "https://cpumuseum.jimdofree.com/museum/intel/8086-8088/",
+    "status": 200,
+    "cache": "C:\\Users\\slowf\\Documents\\Codex\\2026-09-15\\lukasjt-pcpartperformance-x20\\pcpartperformance\\tmp\\remaining-cpu-oct17\\7c953feedc42319cb02e1b68.html",
+    "headings": [
+      "The 8086 Family",
+      "Intel",
+      "Intel D8086-2",
+      "SIEMENS SAB",
+      "Siemens SAB 8086-1-C",
+      "USSR Clones",
+      "USSR (Kvazar) К1810ВМ86",
+      "The 8088 Family",
+      "AMD",
+      "AMD D8088",
+      "Intel",
+      "Intel D8088",
+      "Intel P8088"
+    ],
+    "gallery": [
+      {
+        "heading": "Intel D8086-2",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=jpg/path/s674ac0b1a38a76e3/image/id964e296f6b2366d/version/1494181671/intel-d8086-2-front-view.jpg",
+        "title": ""
+      },
+      {
+        "heading": "Intel D8086-2",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=jpg/path/s674ac0b1a38a76e3/image/i0f163bd523359b31/version/1494181674/intel-d8086-2-back-view.jpg",
+        "title": ""
+      },
+      {
+        "heading": "Intel D8086-2",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=jpg/path/s674ac0b1a38a76e3/image/id4731d552b991ee8/version/1494181679/intel-d8086-2-side-view.jpg",
+        "title": ""
+      },
+      {
+        "heading": "Siemens SAB 8086-1-C",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=jpg/path/s674ac0b1a38a76e3/image/i513d0816c7f710f1/version/1494181684/siemens-sab-8086-1-c-front-view.jpg",
+        "title": ""
+      },
+      {
+        "heading": "Siemens SAB 8086-1-C",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=jpg/path/s674ac0b1a38a76e3/image/icfe2dbc931e9cd7a/version/1494181688/siemens-sab-8086-1-c-back-view.jpg",
+        "title": ""
+      },
+      {
+        "heading": "Siemens SAB 8086-1-C",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=jpg/path/s674ac0b1a38a76e3/image/i798ed412ea8e30d9/version/1494181692/siemens-sab-8086-1-c-side-view.jpg",
+        "title": ""
+      },
+      {
+        "heading": "USSR (Kvazar) К1810ВМ86",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=jpg/path/s674ac0b1a38a76e3/image/i77754368d89f2c3b/version/1494181702/%D0%BA1810%D0%B2%D0%BC86-front-view.jpg",
+        "title": ""
+      },
+      {
+        "heading": "USSR (Kvazar) К1810ВМ86",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=jpg/path/s674ac0b1a38a76e3/image/i771e014cedd371db/version/1494181704/%D0%BA1810%D0%B2%D0%BC86-back-view.jpg",
+        "title": ""
+      },
+      {
+        "heading": "USSR (Kvazar) К1810ВМ86",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=jpg/path/s674ac0b1a38a76e3/image/i402ead44346eb67e/version/1494181712/%D0%BA1810%D0%B2%D0%BC86-side-view.jpg",
+        "title": ""
+      },
+      {
+        "heading": "AMD D8088",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=jpg/path/s674ac0b1a38a76e3/image/id68e048809ea20bf/version/1494181731/amd-d8088-front-view.jpg",
+        "title": ""
+      },
+      {
+        "heading": "AMD D8088",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=jpg/path/s674ac0b1a38a76e3/image/ie75e5312b69fd3aa/version/1494181733/amd-d8088-back-view.jpg",
+        "title": ""
+      },
+      {
+        "heading": "AMD D8088",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=jpg/path/s674ac0b1a38a76e3/image/iecb4461a4e752d76/version/1494181736/amd-d8088-side-view.jpg",
+        "title": ""
+      },
+      {
+        "heading": "Intel D8088",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=jpg/path/s674ac0b1a38a76e3/image/i18c438d1f7bec006/version/1494181740/intel-d8088-front-view.jpg",
+        "title": ""
+      },
+      {
+        "heading": "Intel D8088",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=jpg/path/s674ac0b1a38a76e3/image/i53f7e78af83e6aad/version/1494181742/intel-d8088-back-view.jpg",
+        "title": ""
+      },
+      {
+        "heading": "Intel D8088",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=jpg/path/s674ac0b1a38a76e3/image/icd527edba9cc8ac2/version/1494181746/intel-d8088-side-view.jpg",
+        "title": ""
+      },
+      {
+        "heading": "Intel P8088",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=jpg/path/s674ac0b1a38a76e3/image/i75d135a277631292/version/1494181748/intel-p8088-front-view.jpg",
+        "title": ""
+      },
+      {
+        "heading": "Intel P8088",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=jpg/path/s674ac0b1a38a76e3/image/i0e371279e31bcd1b/version/1494181751/intel-p8088-back-view.jpg",
+        "title": ""
+      },
+      {
+        "heading": "Intel P8088",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=jpg/path/s674ac0b1a38a76e3/image/i48696fc181d850f5/version/1494181755/intel-p8088-side-view.jpg",
+        "title": ""
+      }
+    ]
+  },
+  {
+    "family": "intel/80486/",
+    "ids": [
+      "intel486sx",
+      "intel486dx2"
+    ],
+    "url": "https://cpumuseum.jimdofree.com/museum/intel/80486/",
+    "status": 200,
+    "cache": "C:\\Users\\slowf\\Documents\\Codex\\2026-09-15\\lukasjt-pcpartperformance-x20\\pcpartperformance\\tmp\\remaining-cpu-oct17\\654062a25c60c82b0a4ba080.html",
+    "headings": [
+      "Intel i486 DX",
+      "Intel 80486 DX-25",
+      "Intel 80486 DX-33",
+      "Intel 80486 DX-50",
+      "Intel i486 SX",
+      "Intel 80486 SX-16",
+      "Intel 80486 SX-25",
+      "Intel 80486 SX-33",
+      "Intel i486 DX2",
+      "Intel 80486 DX2-50",
+      "Intel 80486 DX2-66",
+      "Intel 80486 DX2-66 (03H4939) by IBM",
+      "Intel i486 SX2",
+      "Intel 80486 SX2-50",
+      "Intel i486 DX4",
+      "Intel 80486 DX4-75",
+      "Intel 80486 DX4-100"
+    ],
+    "gallery": [
+      {
+        "heading": "Intel 80486 DX-25",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ie9af73d076cc275b/version/1494182237/image.jpg",
+        "title": "Intel 80486 DX-25 SX308 old logo"
+      },
+      {
+        "heading": "Intel 80486 DX-25",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ie955bedb7f531835/version/1494182237/image.jpg",
+        "title": "Intel 80486 DX-25 SX308 old logo"
+      },
+      {
+        "heading": "Intel 80486 DX-25",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ifcdfbacffbd52bb2/version/1494182237/image.jpg",
+        "title": "Intel 80486 DX-25 SX308 old logo"
+      },
+      {
+        "heading": "Intel 80486 DX-33",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i3a9b3361c3a74977/version/1494182245/image.jpg",
+        "title": "Intel A80486 DX-33 SX419 old logo"
+      },
+      {
+        "heading": "Intel 80486 DX-33",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i90ada0d862bc4d24/version/1494182245/image.jpg",
+        "title": "Intel A80486 DX-33 SX419 old logo"
+      },
+      {
+        "heading": "Intel 80486 DX-33",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/iac8bda2564aa40cf/version/1494182245/image.jpg",
+        "title": "Intel A80486 DX-33 SX419 old logo"
+      },
+      {
+        "heading": "Intel 80486 DX-33",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i5a7383e48338ba61/version/1494182245/image.jpg",
+        "title": "Intel A80486 DX-33 SX666"
+      },
+      {
+        "heading": "Intel 80486 DX-33",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/if563ff161b122741/version/1494182245/image.jpg",
+        "title": "Intel A80486 DX-33 SX666"
+      },
+      {
+        "heading": "Intel 80486 DX-33",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i2fe56f2c26b487e6/version/1494182245/image.jpg",
+        "title": "Intel A80486 DX-33 SX666"
+      },
+      {
+        "heading": "Intel 80486 DX-50",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i293223e954fc67b2/version/1494182303/image.jpg",
+        "title": "Intel A80486 DX-50 SX546"
+      },
+      {
+        "heading": "Intel 80486 DX-50",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i39ec06beafa97f6b/version/1494182303/image.jpg",
+        "title": "Intel A80486 DX-50 SX546"
+      },
+      {
+        "heading": "Intel 80486 DX-50",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/iff647c73f5894013/version/1494182303/image.jpg",
+        "title": "Intel A80486 DX-50 SX546"
+      },
+      {
+        "heading": "Intel 80486 SX-16",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ibb87fb232bf552bf/version/1494182313/image.jpg",
+        "title": "SX548"
+      },
+      {
+        "heading": "Intel 80486 SX-16",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i2110c59939e23e6a/version/1494182313/image.jpg",
+        "title": "SX548"
+      },
+      {
+        "heading": "Intel 80486 SX-16",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/if18a93155357da3f/version/1494182313/image.jpg",
+        "title": "SX548"
+      },
+      {
+        "heading": "Intel 80486 SX-25",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/if6ffe8a039c38c5d/version/1494182320/image.jpg",
+        "title": "Intel A80486 SX-25 SX679"
+      },
+      {
+        "heading": "Intel 80486 SX-25",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i71e85a36670fb954/version/1494182320/image.jpg",
+        "title": "Intel A80486 SX-25 SX679"
+      },
+      {
+        "heading": "Intel 80486 SX-25",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i702c3553c1f22208/version/1494182320/image.jpg",
+        "title": "Intel A80486 SX-25 SX679"
+      },
+      {
+        "heading": "Intel 80486 SX-33",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ibb865d658d929f19/version/1494182347/image.jpg",
+        "title": "Intel A80486 SX-33 SX797"
+      },
+      {
+        "heading": "Intel 80486 SX-33",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/icadd1262b590c524/version/1494182348/image.jpg",
+        "title": "Intel A80486 SX-33 SX797"
+      },
+      {
+        "heading": "Intel 80486 SX-33",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i7c5faa9ffc2e61b0/version/1494182348/image.jpg",
+        "title": "Intel A80486 SX-33 SX797"
+      },
+      {
+        "heading": "Intel 80486 SX-33",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/iea95ce2eba4d78ae/version/1494182348/image.jpg",
+        "title": "Intel A80486 SX-33 SX931 different printing"
+      },
+      {
+        "heading": "Intel 80486 SX-33",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i68ee4d43e794322f/version/1494182348/image.jpg",
+        "title": "Intel A80486 SX-33 SX931 different printing"
+      },
+      {
+        "heading": "Intel 80486 SX-33",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i2a3219c0e3f3bed4/version/1494182348/image.jpg",
+        "title": "Intel A80486 SX-33 SX931 different printing"
+      },
+      {
+        "heading": "Intel 80486 DX2-50",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i0627da78e3a0496e/version/1494182355/image.jpg",
+        "title": "Intel A80486 DX2-50 SX641"
+      },
+      {
+        "heading": "Intel 80486 DX2-50",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ieb8f32714afec63e/version/1494182355/image.jpg",
+        "title": "Intel A80486 DX2-50 SX641"
+      },
+      {
+        "heading": "Intel 80486 DX2-50",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/idb0ba243297d6cfd/version/1494182355/image.jpg",
+        "title": "Intel A80486 DX2-50 SX641"
+      },
+      {
+        "heading": "Intel 80486 DX2-50",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i0ab78a6e535af9e6/version/1494182356/image.jpg",
+        "title": "Intel A80486 DX2-50 SX808"
+      },
+      {
+        "heading": "Intel 80486 DX2-50",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i7152d7d4399d08c9/version/1494182356/image.jpg",
+        "title": "Intel A80486 DX2-50 SX808"
+      },
+      {
+        "heading": "Intel 80486 DX2-50",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i0abc427c11757e46/version/1494182356/image.jpg",
+        "title": "Intel A80486 DX2-50 SX808"
+      },
+      {
+        "heading": "Intel 80486 DX2-66",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i8fdecc837980f5e4/version/1494182366/image.jpg",
+        "title": "Intel A80486 DX2-66 SX759 w/ retail heatsink"
+      },
+      {
+        "heading": "Intel 80486 DX2-66",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/if5f9bec7b861bc2f/version/1494182366/image.jpg",
+        "title": "Intel A80486 DX2-66 SX759 w/ retail heatsink"
+      },
+      {
+        "heading": "Intel 80486 DX2-66",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i91fe733e8203e845/version/1494182366/image.jpg",
+        "title": "Intel A80486 DX2-66 SX759 w/ retail heatsink"
+      },
+      {
+        "heading": "Intel 80486 DX2-66",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/if3a171be5922550e/version/1494182366/image.jpg",
+        "title": "Intel A80486 DX2-66 SX807"
+      },
+      {
+        "heading": "Intel 80486 DX2-66",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i47a531f7995f19ca/version/1494182366/image.jpg",
+        "title": "Intel A80486 DX2-66 SX807"
+      },
+      {
+        "heading": "Intel 80486 DX2-66",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/if3cdbf7ee496ba93/version/1494182366/image.jpg",
+        "title": "Intel A80486 DX2-66 SX807"
+      },
+      {
+        "heading": "Intel 80486 DX2-66 (03H4939) by IBM",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ib3100cf3bf1b0635/version/1494182385/image.jpg",
+        "title": ""
+      },
+      {
+        "heading": "Intel 80486 DX2-66 (03H4939) by IBM",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ibde5fbb3b0bb7c2e/version/1494182385/image.jpg",
+        "title": ""
+      },
+      {
+        "heading": "Intel 80486 DX2-66 (03H4939) by IBM",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i9aa904d8a61b9a76/version/1494182386/image.jpg",
+        "title": ""
+      },
+      {
+        "heading": "Intel 80486 SX2-50",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ieb09ec1aac4e12fa/version/1494182394/image.jpg",
+        "title": "Intel A80486 SX2-50 SX845"
+      },
+      {
+        "heading": "Intel 80486 SX2-50",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ifdd9bd20ac543810/version/1494182394/image.jpg",
+        "title": "Intel A80486 SX2-50 SX845"
+      },
+      {
+        "heading": "Intel 80486 SX2-50",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ic397588cf9ae80d5/version/1494182394/image.jpg",
+        "title": "Intel A80486 SX2-50 SX845"
+      },
+      {
+        "heading": "Intel 80486 DX4-75",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i9cb4375026f7bb20/version/1494182468/image.jpg",
+        "title": "SK047"
+      },
+      {
+        "heading": "Intel 80486 DX4-75",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i09cd02fb6a716fe4/version/1494182468/image.jpg",
+        "title": "SK047"
+      },
+      {
+        "heading": "Intel 80486 DX4-75",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ifb622d935e1f8421/version/1494182468/image.jpg",
+        "title": "SK047"
+      },
+      {
+        "heading": "Intel 80486 DX4-100",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i0df4348769fdc342/version/1494182476/image.jpg",
+        "title": "Intel A80486 DX4-100 &amp;E SK051"
+      },
+      {
+        "heading": "Intel 80486 DX4-100",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ifc3906865924c057/version/1494182476/image.jpg",
+        "title": "Intel A80486 DX4-100 &amp;E SK051"
+      },
+      {
+        "heading": "Intel 80486 DX4-100",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i83aea15a3958d1a9/version/1494182476/image.jpg",
+        "title": "Intel A80486 DX4-100 &amp;E SK051"
+      },
+      {
+        "heading": "Intel 80486 DX4-100",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i7c2240b5292b8037/version/1494182476/image.jpg",
+        "title": "Intel A80486 DX4-100 &amp;EW SK096"
+      },
+      {
+        "heading": "Intel 80486 DX4-100",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i13ab16ecbb2cc997/version/1494182476/image.jpg",
+        "title": "Intel A80486 DX4-100 &amp;EW SK096"
+      },
+      {
+        "heading": "Intel 80486 DX4-100",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i6046edca3a159417/version/1494182476/image.jpg",
+        "title": "Intel A80486 DX4-100 &amp;EW SK096"
+      }
+    ]
+  },
+  {
+    "family": "intel/pentium/",
+    "ids": [
+      "pentium100"
+    ],
+    "url": "https://cpumuseum.jimdofree.com/museum/intel/pentium/",
+    "status": 200,
+    "cache": "C:\\Users\\slowf\\Documents\\Codex\\2026-09-15\\lukasjt-pcpartperformance-x20\\pcpartperformance\\tmp\\remaining-cpu-oct17\\3f139f4c44f9a58e99f12aac.html",
+    "headings": [
+      "The Pentium P5 (1993)",
+      "Intel Pentium 60 MHz",
+      "Intel Pentium 66 MHz",
+      "The Pentium P54C (1994)",
+      "Intel Pentium 75 MHz",
+      "Intel Pentium 90 MHz",
+      "Intel Pentium 100 MHz",
+      "Intel Pentium 120 MHz",
+      "The Pentium P54CS (1995)",
+      "Intel Pentium 133 MHz",
+      "Intel Pentium 150 MHz",
+      "Intel Pentium 166 MHz",
+      "Intel Pentium 200 MHz",
+      "The Mobile Intel Pentium",
+      "Intel Mobile Pentium 120 MHz"
+    ],
+    "gallery": [
+      {
+        "heading": "Intel Pentium 60 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/iaae1340d9f937292/version/1494182596/image.jpg",
+        "title": "Intel Pentium 60 MHz ceramic with &quot;PROCESSOR&quot; printing (1). This processor doesn't have the Pentium FDIV-Bug"
+      },
+      {
+        "heading": "Intel Pentium 60 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i412e14c5861dcd81/version/1494182596/image.jpg",
+        "title": "Intel Pentium 60 MHz ceramic with &quot;PROCESSOR&quot; printing (1). This processor doesn't have the Pentium FDIV-Bug"
+      },
+      {
+        "heading": "Intel Pentium 60 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ie314e616f13d7ae3/version/1494182596/image.jpg",
+        "title": "Intel Pentium 60 MHz ceramic with &quot;PROCESSOR&quot; printing (1). This processor doesn't have the Pentium FDIV-Bug"
+      },
+      {
+        "heading": "Intel Pentium 60 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i986d6248c9ca04a3/version/1494182596/image.jpg",
+        "title": "Intel Pentium 60 MHz with &quot;PROCESSOR&quot; printing (1). SX835. This processor has the Pentium FDIV-Bug"
+      },
+      {
+        "heading": "Intel Pentium 60 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ia7ad9f4a2312e962/version/1494182596/image.jpg",
+        "title": "Intel Pentium 60 MHz with &quot;PROCESSOR&quot; printing (1). SX835. This processor has the Pentium FDIV-Bug"
+      },
+      {
+        "heading": "Intel Pentium 60 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i0b21bc75e32c174c/version/1494182596/image.jpg",
+        "title": "Intel Pentium 60 MHz with &quot;PROCESSOR&quot; printing (1). SX835. This processor has the Pentium FDIV-Bug"
+      },
+      {
+        "heading": "Intel Pentium 60 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i9dc4ea1d834a7675/version/1494182596/image.jpg",
+        "title": "Intel Pentium 60 MHz without &quot;PROCESSOR&quot; printing (2). SX974. This processor doesn't have the Pentium FDIV-Bug"
+      },
+      {
+        "heading": "Intel Pentium 60 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/id48651af65c44eb7/version/1494182596/image.jpg",
+        "title": "Intel Pentium 60 MHz without &quot;PROCESSOR&quot; printing (2). SX974. This processor doesn't have the Pentium FDIV-Bug"
+      },
+      {
+        "heading": "Intel Pentium 60 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/if1211b494b3b5818/version/1494182596/image.jpg",
+        "title": "Intel Pentium 60 MHz without &quot;PROCESSOR&quot; printing (2). SX974. This processor doesn't have the Pentium FDIV-Bug"
+      },
+      {
+        "heading": "Intel Pentium 60 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=jpg/path/s674ac0b1a38a76e3/image/i44018007e0c06c87/version/1494182656/image.jpg",
+        "title": "SX753"
+      },
+      {
+        "heading": "Intel Pentium 60 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=jpg/path/s674ac0b1a38a76e3/image/icff78e452cb40a33/version/1494182663/intel-pentium-60-mhz-sx835-the-exact-cpu-die-picture-by-pauli-rautakorpi-published-under-the-creative-commons-attribution-3-0-unported-license-slightly-edited-by-hardwarecop.jpg",
+        "title": ""
+      },
+      {
+        "heading": "Intel Pentium 66 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i2cb9e6a791e7fdf9/version/1494182605/image.jpg",
+        "title": "A80501-66 SX950"
+      },
+      {
+        "heading": "Intel Pentium 66 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i039ea10cce6b204c/version/1494182605/image.jpg",
+        "title": "A80501-66 SX950"
+      },
+      {
+        "heading": "Intel Pentium 66 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i388094d622abd044/version/1494182605/image.jpg",
+        "title": "A80501-66 SX950"
+      },
+      {
+        "heading": "Intel Pentium 75 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i497898430af65aa0/version/1494182613/image.jpg",
+        "title": "A80502-75 SX961 Intel Pentium 75 MHz P54C with Heatspreader"
+      },
+      {
+        "heading": "Intel Pentium 75 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i23e09c7be2035601/version/1494182613/image.jpg",
+        "title": "A80502-75 SX961 Intel Pentium 75 MHz P54C with Heatspreader"
+      },
+      {
+        "heading": "Intel Pentium 75 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i708ff30039ba0b64/version/1494182613/image.jpg",
+        "title": "A80502-75 SX961 Intel Pentium 75 MHz P54C with Heatspreader"
+      },
+      {
+        "heading": "Intel Pentium 75 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ibe55bded94db8781/version/1494182613/image.jpg",
+        "title": "A80502-75 SX959 Intel Pentium 75 MHz P54C"
+      },
+      {
+        "heading": "Intel Pentium 75 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i05eb4cb28f043bf5/version/1494182613/image.jpg",
+        "title": "A80502-75 SX959 Intel Pentium 75 MHz P54C"
+      },
+      {
+        "heading": "Intel Pentium 75 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i1507101d3b8945de/version/1494182613/image.jpg",
+        "title": "A80502-75 SX959 Intel Pentium 75 MHz P54C"
+      },
+      {
+        "heading": "Intel Pentium 75 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ib6cde0afa7c10309/version/1494182614/image.jpg",
+        "title": "BP80502-75 SZ994 Intel Pentium 75 MHz P54C"
+      },
+      {
+        "heading": "Intel Pentium 75 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i6baae4978b911862/version/1494182614/image.jpg",
+        "title": "BP80502-75 SZ994 Intel Pentium 75 MHz P54C"
+      },
+      {
+        "heading": "Intel Pentium 75 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ie2c464907b52c314/version/1494182614/image.jpg",
+        "title": "BP80502-75 SZ994 Intel Pentium 75 MHz P54C"
+      },
+      {
+        "heading": "Intel Pentium 75 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=png/path/s674ac0b1a38a76e3/image/i3bcfd3674cc0e4c8/version/1494182679/image.png",
+        "title": "SZ994"
+      },
+      {
+        "heading": "Intel Pentium 90 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i4b52283bac4d4f2f/version/1494182622/image.jpg",
+        "title": "A80502 Intel Pentium 90 MHz SX957 w/ Heatspreader"
+      },
+      {
+        "heading": "Intel Pentium 90 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/id2905a0d38662b7e/version/1494182622/image.jpg",
+        "title": "A80502 Intel Pentium 90 MHz SX957 w/ Heatspreader"
+      },
+      {
+        "heading": "Intel Pentium 90 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i50d91f0a2356f905/version/1494182622/image.jpg",
+        "title": "A80502 Intel Pentium 90 MHz SX957 w/ Heatspreader"
+      },
+      {
+        "heading": "Intel Pentium 90 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i04da0f6d5add684d/version/1494182622/image.jpg",
+        "title": "A80502 Intel Pentium 90 MHz SX968 w/o Heatspreader"
+      },
+      {
+        "heading": "Intel Pentium 90 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i10fad98ff50ed481/version/1494182622/image.jpg",
+        "title": "A80502 Intel Pentium 90 MHz SX968 w/o Heatspreader"
+      },
+      {
+        "heading": "Intel Pentium 90 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i8441b77ac5d0ac72/version/1494182622/image.jpg",
+        "title": "A80502 Intel Pentium 90 MHz SX968 w/o Heatspreader"
+      },
+      {
+        "heading": "Intel Pentium 90 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=png/path/s674ac0b1a38a76e3/image/i835fa25e0860a57d/version/1494182692/image.png",
+        "title": "SX957"
+      },
+      {
+        "heading": "Intel Pentium 100 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i54b2bd644e7fbe04/version/1494182632/image.jpg",
+        "title": "Intel Pentium 100 MHz A80502-100 SX962 w/ IHS"
+      },
+      {
+        "heading": "Intel Pentium 100 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i7d7c774b7af92fa5/version/1494182632/image.jpg",
+        "title": "Intel Pentium 100 MHz A80502-100 SX962 w/ IHS"
+      },
+      {
+        "heading": "Intel Pentium 100 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i3a2cd8abc09b296b/version/1494182632/image.jpg",
+        "title": ""
+      },
+      {
+        "heading": "Intel Pentium 100 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ic3ca7832a99de97f/version/1494182632/image.jpg",
+        "title": "Intel Pentium 100 MHz A80502-100 SX963"
+      },
+      {
+        "heading": "Intel Pentium 100 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i3889f093c1205d1f/version/1494182632/image.jpg",
+        "title": "Intel Pentium 100 MHz A80502-100 SX963"
+      },
+      {
+        "heading": "Intel Pentium 100 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i71c75f8568bfddfe/version/1494182632/image.jpg",
+        "title": "Intel Pentium 100 MHz A80502-100 SX963"
+      },
+      {
+        "heading": "Intel Pentium 100 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i5941b9c360cebef6/version/1494182632/image.jpg",
+        "title": "Intel Pentium 100 MHz BP80502-100 SU099"
+      },
+      {
+        "heading": "Intel Pentium 100 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i9c34b39db21519da/version/1494182632/image.jpg",
+        "title": "Intel Pentium 100 MHz BP80502-100 SU099"
+      },
+      {
+        "heading": "Intel Pentium 100 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i9155a4db4ff569e3/version/1494182632/image.jpg",
+        "title": "Intel Pentium 100 MHz BP80502-100 SU099"
+      },
+      {
+        "heading": "Intel Pentium 100 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=png/path/s674ac0b1a38a76e3/image/i020e16873dfa3c0d/version/1494182707/image.png",
+        "title": "SU099"
+      },
+      {
+        "heading": "Intel Pentium 120 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ie29cd93da13bc7e0/version/1494182718/image.jpg",
+        "title": "Intel Pentium 120 MHz A80502120 SY033"
+      },
+      {
+        "heading": "Intel Pentium 120 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ibd4e49d662b26dae/version/1494182718/image.jpg",
+        "title": "Intel Pentium 120 MHz A80502120 SY033"
+      },
+      {
+        "heading": "Intel Pentium 120 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i5b42ca7e7193e80d/version/1494182718/image.jpg",
+        "title": "Intel Pentium 120 MHz A80502120 SY033"
+      },
+      {
+        "heading": "Intel Pentium 133 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i1638d9e8ebc94a25/version/1494182740/image.jpg",
+        "title": "P54CS Intel Pentium 133 MHz SY022"
+      },
+      {
+        "heading": "Intel Pentium 133 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ib6d045eccf981b4d/version/1494182740/image.jpg",
+        "title": "P54CS Intel Pentium 133 MHz SY022"
+      },
+      {
+        "heading": "Intel Pentium 133 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i281733f2266a9996/version/1494182740/image.jpg",
+        "title": "P54CS Intel Pentium 133 MHz SY022"
+      },
+      {
+        "heading": "Intel Pentium 133 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=png/path/s674ac0b1a38a76e3/image/i4717220627271400/version/1494182755/image.png",
+        "title": "S106J"
+      },
+      {
+        "heading": "Intel Pentium 150 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ia343fb29773e2d2c/version/1494182771/image.jpg",
+        "title": "P54CS Intel Pentium 150 MHz SY015"
+      },
+      {
+        "heading": "Intel Pentium 150 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i32807a434950d61f/version/1494182771/image.jpg",
+        "title": "P54CS Intel Pentium 150 MHz SY015"
+      },
+      {
+        "heading": "Intel Pentium 150 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i46ae5693dbbfb61b/version/1494182771/image.jpg",
+        "title": "P54CS Intel Pentium 150 MHz SY015"
+      },
+      {
+        "heading": "Intel Pentium 150 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=png/path/s674ac0b1a38a76e3/image/i3a00948825ba92d6/version/1494182784/image.png",
+        "title": "SY015"
+      },
+      {
+        "heading": "Intel Pentium 166 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i1c5e362d1f7bc87b/version/1494182792/image.jpg",
+        "title": "P54CS Intel Pentium 166 MHz SY016 A80502166"
+      },
+      {
+        "heading": "Intel Pentium 166 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i07fd2a60114f8c94/version/1494182792/image.jpg",
+        "title": "P54CS Intel Pentium 166 MHz SY016 A80502166"
+      },
+      {
+        "heading": "Intel Pentium 166 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i557b20f85ae4bb15/version/1494182792/image.jpg",
+        "title": "P54CS Intel Pentium 166 MHz SY016 A80502166"
+      },
+      {
+        "heading": "Intel Pentium 166 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ib89632ccc1974804/version/1494182792/image.jpg",
+        "title": "P54CS Intel Pentium 166 MHz SY037  FV80502166"
+      },
+      {
+        "heading": "Intel Pentium 166 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i09e3ddf44d7ac640/version/1494182792/image.jpg",
+        "title": "P54CS Intel Pentium 166 MHz SY037  FV80502166"
+      },
+      {
+        "heading": "Intel Pentium 166 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i98cbc6d2de0580a3/version/1494182792/image.jpg",
+        "title": "P54CS Intel Pentium 166 MHz SY037  FV80502166"
+      },
+      {
+        "heading": "Intel Pentium 166 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=png/path/s674ac0b1a38a76e3/image/i5c5b5118c6c9ad5a/version/1494182806/image.png",
+        "title": "SY016"
+      },
+      {
+        "heading": "Intel Pentium 200 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i62f905efc58de32e/version/1494182816/image.jpg",
+        "title": "P54CS Intel Pentium 200 MHz SL24Q FV80502200"
+      },
+      {
+        "heading": "Intel Pentium 200 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i3b710ba3adbf8eac/version/1494182816/image.jpg",
+        "title": "P54CS Intel Pentium 200 MHz SL24Q FV80502200"
+      },
+      {
+        "heading": "Intel Pentium 200 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/if603eee5bf739c83/version/1494182816/image.jpg",
+        "title": "P54CS Intel Pentium 200 MHz SL24Q FV80502200"
+      },
+      {
+        "heading": "Intel Pentium 200 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=png/path/s674ac0b1a38a76e3/image/i916d052802443051/version/1494182827/image.png",
+        "title": "SL24Q"
+      },
+      {
+        "heading": "Intel Mobile Pentium 120 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i0ce4234dfdb1494a/version/1494182831/image.jpg",
+        "title": "SY027 Mobile"
+      },
+      {
+        "heading": "Intel Mobile Pentium 120 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/idb0aed3d24d6f291/version/1494182831/image.jpg",
+        "title": "SY027 Mobile"
+      },
+      {
+        "heading": "Intel Mobile Pentium 120 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i86d0cec26c588190/version/1494182831/image.jpg",
+        "title": "SY027 Mobile"
+      }
+    ]
+  },
+  {
+    "family": "intel/pentium-mmx/",
+    "ids": [
+      "pentiummmx233"
+    ],
+    "url": "https://cpumuseum.jimdofree.com/museum/intel/pentium-mmx/",
+    "status": 200,
+    "cache": "C:\\Users\\slowf\\Documents\\Codex\\2026-09-15\\lukasjt-pcpartperformance-x20\\pcpartperformance\\tmp\\remaining-cpu-oct17\\95e0473ada7b560f8da5ae40.html",
+    "headings": [
+      "The Pentium MMX P55C (1995)",
+      "Intel Pentium MMX 133 MHz",
+      "Intel Pentium MMX 166 MHz",
+      "Intel Pentium MMX 200 MHz",
+      "Intel Pentium MMX 233 MHz",
+      "The Pentium MMX Tillamook (1997)",
+      "Intel Pentium MMX 266 MHz"
+    ],
+    "gallery": [
+      {
+        "heading": "Intel Pentium MMX 133 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/iceccdb25f32631de/version/1494182901/image.jpg",
+        "title": "Intel Pentium MMX 133 MHz SL27C"
+      },
+      {
+        "heading": "Intel Pentium MMX 133 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/id0b8d9a54410b07f/version/1494182901/image.jpg",
+        "title": "Intel Pentium MMX 133 MHz SL27C"
+      },
+      {
+        "heading": "Intel Pentium MMX 133 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/icc6a0197f7c5e917/version/1494182901/image.jpg",
+        "title": "Intel Pentium MMX 133 MHz SL27C"
+      },
+      {
+        "heading": "Intel Pentium MMX 166 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i83cc24ed9d7c08ea/version/1494182914/image.jpg",
+        "title": "A80503166 SL27K Intel Pentium MMX 166 MHz"
+      },
+      {
+        "heading": "Intel Pentium MMX 166 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i6fb963fe1dcf5828/version/1494182914/image.jpg",
+        "title": "A80503166 SL27K Intel Pentium MMX 166 MHz"
+      },
+      {
+        "heading": "Intel Pentium MMX 166 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ia4b2a8c608ef111e/version/1494182914/image.jpg",
+        "title": "A80503166 SL27K Intel Pentium MMX 166 MHz"
+      },
+      {
+        "heading": "Intel Pentium MMX 166 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/idc5ab66e544c528f/version/1494182914/image.jpg",
+        "title": "FV80503166 SL27H Intel Pentium MMX 166 MHz"
+      },
+      {
+        "heading": "Intel Pentium MMX 166 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i726b160adca42223/version/1494182914/image.jpg",
+        "title": "FV80503166 SL27H Intel Pentium MMX 166 MHz"
+      },
+      {
+        "heading": "Intel Pentium MMX 166 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i51ec2bff40ed320c/version/1494182914/image.jpg",
+        "title": "FV80503166 SL27H Intel Pentium MMX 166 MHz"
+      },
+      {
+        "heading": "Intel Pentium MMX 166 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=png/path/s674ac0b1a38a76e3/image/ib1941f8a183798b7/version/1494182920/image.png",
+        "title": ""
+      },
+      {
+        "heading": "Intel Pentium MMX 200 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i8cf85aced273a7eb/version/1494182932/image.jpg",
+        "title": "A80503200 Intel Pentium MMX 200 MHz SL2RY"
+      },
+      {
+        "heading": "Intel Pentium MMX 200 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/if75b852c0ca1552a/version/1494182932/image.jpg",
+        "title": "A80503200 Intel Pentium MMX 200 MHz SL2RY"
+      },
+      {
+        "heading": "Intel Pentium MMX 200 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i9c05a99298e63878/version/1494182932/image.jpg",
+        "title": "A80503200 Intel Pentium MMX 200 MHz SL2RY"
+      },
+      {
+        "heading": "Intel Pentium MMX 200 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i54ae7ec1978a2b31/version/1494182932/image.jpg",
+        "title": "BP80503200 Intel Pentium MMX 200 MHz SL23W"
+      },
+      {
+        "heading": "Intel Pentium MMX 200 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i0a6ab55caedea56e/version/1494182932/image.jpg",
+        "title": "BP80503200 Intel Pentium MMX 200 MHz SL23W"
+      },
+      {
+        "heading": "Intel Pentium MMX 200 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i439f3928f9b81e67/version/1494182932/image.jpg",
+        "title": "BP80503200 Intel Pentium MMX 200 MHz SL23W"
+      },
+      {
+        "heading": "Intel Pentium MMX 200 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i1ca367f1f28e2ff2/version/1494182932/image.jpg",
+        "title": "FV80503200 Intel Pentium MMX 200 MHz SL27J"
+      },
+      {
+        "heading": "Intel Pentium MMX 200 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i48bedbf7398c2496/version/1494182932/image.jpg",
+        "title": "FV80503200 Intel Pentium MMX 200 MHz SL27J"
+      },
+      {
+        "heading": "Intel Pentium MMX 200 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/idc28ec33d17e21e5/version/1494182932/image.jpg",
+        "title": "FV80503200 Intel Pentium MMX 200 MHz SL27J"
+      },
+      {
+        "heading": "Intel Pentium MMX 200 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=png/path/s674ac0b1a38a76e3/image/i1ab4b1c6f97897cb/version/1494182957/image.png",
+        "title": ""
+      },
+      {
+        "heading": "Intel Pentium MMX 200 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=jpg/path/s674ac0b1a38a76e3/image/i64e2b1f4c74e3abc/version/1494182967/image.jpg",
+        "title": ""
+      },
+      {
+        "heading": "Intel Pentium MMX 200 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=jpg/path/s674ac0b1a38a76e3/image/i81ebe4b0e29855a4/version/1494182972/image.jpg",
+        "title": ""
+      },
+      {
+        "heading": "Intel Pentium MMX 200 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=jpg/path/s674ac0b1a38a76e3/image/i526ff301e039917c/version/1494182985/image.jpg",
+        "title": ""
+      },
+      {
+        "heading": "Intel Pentium MMX 233 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ib61f585c095e8761/version/1494182993/image.jpg",
+        "title": "FV80503233 Intel Pentium MMX 233 MHz SL27S"
+      },
+      {
+        "heading": "Intel Pentium MMX 233 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i4df26cabfb4579f5/version/1494182993/image.jpg",
+        "title": "FV80503233 Intel Pentium MMX 233 MHz SL27S"
+      },
+      {
+        "heading": "Intel Pentium MMX 233 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/idbdf99c4a42770bb/version/1494182993/image.jpg",
+        "title": "FV80503233 Intel Pentium MMX 233 MHz SL27S"
+      },
+      {
+        "heading": "Intel Pentium MMX 233 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=png/path/s674ac0b1a38a76e3/image/i148c0d4560256204/version/1494183008/image.png",
+        "title": ""
+      },
+      {
+        "heading": "Intel Pentium MMX 266 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i7cc2287ba95376a2/version/1494183013/image.jpg",
+        "title": "SL2Z4"
+      },
+      {
+        "heading": "Intel Pentium MMX 266 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i7f76fd67dd946efe/version/1494183013/image.jpg",
+        "title": "SL2Z4"
+      },
+      {
+        "heading": "Intel Pentium MMX 266 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/id287b55396f8fbb2/version/1494183013/image.jpg",
+        "title": "SL2Z4"
+      }
+    ]
+  },
+  {
+    "family": "intel/celeron-p6/",
+    "ids": [
+      "celeron266"
+    ],
+    "url": "https://cpumuseum.jimdofree.com/museum/intel/celeron-p6/",
+    "status": 200,
+    "cache": "C:\\Users\\slowf\\Documents\\Codex\\2026-09-15\\lukasjt-pcpartperformance-x20\\pcpartperformance\\tmp\\remaining-cpu-oct17\\07f99792406a9500876637ef.html",
+    "headings": [
+      "The Celeron Covington (1998)",
+      "Intel Celeron 300 MHz",
+      "The Celeron Mendocino (1998)",
+      "Intel Celeron 333 MHz",
+      "Intel Celeron 366 MHz",
+      "Intel Celeron 400 MHz",
+      "Intel Celeron 433 MHz",
+      "Intel Celeron 466 MHz",
+      "Intel Celeron 500 MHz",
+      "Intel Celeron 533 MHz",
+      "The Celeron Coppermine (2000)",
+      "Intel Celeron 533A MHz",
+      "Intel Celeron 566 MHz",
+      "Intel Celeron 600 MHz",
+      "Intel Celeron 700 MHz",
+      "Intel Celeron 800 MHz",
+      "Intel Celeron 850 MHz",
+      "Intel Celeron 900 MHz",
+      "Intel Celeron 1000 MHz",
+      "Intel Celeron 1100 MHz",
+      "The Celeron Tualatin (2001)",
+      "Intel Celeron 1300 MHz",
+      "The Mobile Celeron",
+      "Intel Mobile Celeron 733 MHz - The XBOX CPU"
+    ],
+    "gallery": [
+      {
+        "heading": "Intel Celeron 300 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i5f0ad2ab690cc4e4/version/1494183425/image.jpg",
+        "title": "Intel Celeron 300 MHz Covington SL2YP"
+      },
+      {
+        "heading": "Intel Celeron 300 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i6729e07535419db1/version/1494183425/image.jpg",
+        "title": "Intel Celeron 300 MHz Covington SL2YP"
+      },
+      {
+        "heading": "Intel Celeron 300 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i38aadab11ea583ee/version/1494183425/image.jpg",
+        "title": "Intel Celeron 300 MHz Covington SL2YP"
+      },
+      {
+        "heading": "Intel Celeron 300 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=png/path/s674ac0b1a38a76e3/image/ib36e5b23f23d0a8e/version/1494183439/image.png",
+        "title": ""
+      },
+      {
+        "heading": "Intel Celeron 333 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ic6176ad8ab3d52eb/version/1494183445/image.jpg",
+        "title": "Intel Celeron 333 MHz Mendocino SL36B"
+      },
+      {
+        "heading": "Intel Celeron 333 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i6ade7c48b3e67bed/version/1494183445/image.jpg",
+        "title": "Intel Celeron 333 MHz Mendocino SL36B"
+      },
+      {
+        "heading": "Intel Celeron 333 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i634287415db908f9/version/1494183445/image.jpg",
+        "title": "Intel Celeron 333 MHz Mendocino SL36B"
+      },
+      {
+        "heading": "Intel Celeron 366 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i5112b4b63dafb255/version/1494183452/image.jpg",
+        "title": "Intel Celeron 366 MHz Mendocino SL35S"
+      },
+      {
+        "heading": "Intel Celeron 366 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i060f9fd9e5ca0632/version/1494183452/image.jpg",
+        "title": "Intel Celeron 366 MHz Mendocino SL35S"
+      },
+      {
+        "heading": "Intel Celeron 366 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ie3557af9badb95fa/version/1494183452/image.jpg",
+        "title": "Intel Celeron 366 MHz Mendocino SL35S"
+      },
+      {
+        "heading": "Intel Celeron 366 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/iedfe00fc4cbbe96d/version/1494183452/image.jpg",
+        "title": "Intel Celeron 366 MHz Mendocino SL36C"
+      },
+      {
+        "heading": "Intel Celeron 366 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i95144b7c7c59540d/version/1494183452/image.jpg",
+        "title": "Intel Celeron 366 MHz Mendocino SL36C"
+      },
+      {
+        "heading": "Intel Celeron 366 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i77fa68bd35a9a11f/version/1494183452/image.jpg",
+        "title": "Intel Celeron 366 MHz Mendocino SL36C"
+      },
+      {
+        "heading": "Intel Celeron 366 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=png/path/s674ac0b1a38a76e3/image/i95ce9595ac0195d9/version/1494183463/image.png",
+        "title": ""
+      },
+      {
+        "heading": "Intel Celeron 400 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ic419207e4c759439/version/1494183469/image.jpg",
+        "title": "Intel Celeron 400 MHz Mendocino SL39Z"
+      },
+      {
+        "heading": "Intel Celeron 400 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/if4da7abc4619486b/version/1494183469/image.jpg",
+        "title": "Intel Celeron 400 MHz Mendocino SL39Z"
+      },
+      {
+        "heading": "Intel Celeron 400 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ib06a24620e6ddee5/version/1494183469/image.jpg",
+        "title": "Intel Celeron 400 MHz Mendocino SL39Z"
+      },
+      {
+        "heading": "Intel Celeron 400 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i5a1920822b9e5145/version/1494183469/image.jpg",
+        "title": "Intel Celeron 400 MHz Mendocino SL3A2"
+      },
+      {
+        "heading": "Intel Celeron 400 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i65b50a7bb54e762b/version/1494183469/image.jpg",
+        "title": "Intel Celeron 400 MHz Mendocino SL3A2"
+      },
+      {
+        "heading": "Intel Celeron 400 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ib0a3e1f921e17597/version/1494183469/image.jpg",
+        "title": "Intel Celeron 400 MHz Mendocino SL3A2"
+      },
+      {
+        "heading": "Intel Celeron 433 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/icc42523ce63a9b30/version/1494183476/image.jpg",
+        "title": "Intel Celeron 433 MHz Mendocino SL3BC SECC"
+      },
+      {
+        "heading": "Intel Celeron 433 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/icc8533ae0526bcae/version/1494183476/image.jpg",
+        "title": "Intel Celeron 433 MHz Mendocino SL3BC SECC"
+      },
+      {
+        "heading": "Intel Celeron 433 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i7c8bc5e4b2e95cb0/version/1494183476/image.jpg",
+        "title": "Intel Celeron 433 MHz Mendocino SL3BC SECC"
+      },
+      {
+        "heading": "Intel Celeron 433 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i973151ac9a683135/version/1494183476/image.jpg",
+        "title": "Intel Celeron 433 MHz Mendocino SL3BA PPGA"
+      },
+      {
+        "heading": "Intel Celeron 433 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i80f2337bb3290a33/version/1494183476/image.jpg",
+        "title": "Intel Celeron 433 MHz Mendocino SL3BA PPGA"
+      },
+      {
+        "heading": "Intel Celeron 433 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ia3162a7ddac7e475/version/1494183476/image.jpg",
+        "title": "Intel Celeron 433 MHz Mendocino SL3BA PPGA"
+      },
+      {
+        "heading": "Intel Celeron 433 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=png/path/s674ac0b1a38a76e3/image/i10980a18a8f89e43/version/1494183491/image.png",
+        "title": ""
+      },
+      {
+        "heading": "Intel Celeron 466 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i70482473755d5d88/version/1494183496/image.jpg",
+        "title": "SL3EH"
+      },
+      {
+        "heading": "Intel Celeron 466 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i62e0a525121bd6d9/version/1494183496/image.jpg",
+        "title": "SL3EH"
+      },
+      {
+        "heading": "Intel Celeron 466 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i14a23618a739d544/version/1494183496/image.jpg",
+        "title": "SL3EH"
+      },
+      {
+        "heading": "Intel Celeron 500 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i0fa74f5a610b5af9/version/1494183541/image.jpg",
+        "title": "Intel Celeron 500 MHz Mendocino SL3FY"
+      },
+      {
+        "heading": "Intel Celeron 500 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i16faf5225de5abd7/version/1494183541/image.jpg",
+        "title": "Intel Celeron 500 MHz Mendocino SL3FY"
+      },
+      {
+        "heading": "Intel Celeron 500 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i0fc5f192c0d2b1a5/version/1494183541/image.jpg",
+        "title": "Intel Celeron 500 MHz Mendocino SL3FY"
+      },
+      {
+        "heading": "Intel Celeron 533 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/id1d67327febd0b1a/version/1494183550/image.jpg",
+        "title": "Intel Celeron 533 MHz Mendocino SL3FZ. With this little guy I started collecting &quot;vintage&quot; CPUs ;)"
+      },
+      {
+        "heading": "Intel Celeron 533 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i20b90ae408f8997a/version/1494183550/image.jpg",
+        "title": "Intel Celeron 533 MHz Mendocino SL3FZ. With this little guy I started collecting &quot;vintage&quot; CPUs ;)"
+      },
+      {
+        "heading": "Intel Celeron 533 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ief178c1c390bac96/version/1494183550/image.jpg",
+        "title": "Intel Celeron 533 MHz Mendocino SL3FZ. With this little guy I started collecting &quot;vintage&quot; CPUs ;)"
+      },
+      {
+        "heading": "Intel Celeron 533 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=png/path/s674ac0b1a38a76e3/image/i1cbc392eb93a3438/version/1494183562/image.png",
+        "title": ""
+      },
+      {
+        "heading": "Intel Celeron 533A MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i36763e1be6904b01/version/1494183569/image.jpg",
+        "title": "Intel Celeron 533A MHz Coppermine-128 SL46S"
+      },
+      {
+        "heading": "Intel Celeron 533A MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i7bfb9e77e9258fe7/version/1494183569/image.jpg",
+        "title": "Intel Celeron 533A MHz Coppermine-128 SL46S"
+      },
+      {
+        "heading": "Intel Celeron 533A MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/id82e7f3f8533ad46/version/1494183569/image.jpg",
+        "title": "Intel Celeron 533A MHz Coppermine-128 SL46S"
+      },
+      {
+        "heading": "Intel Celeron 566 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ia5fb114c7cd34920/version/1494183576/image.jpg",
+        "title": "SL46T"
+      },
+      {
+        "heading": "Intel Celeron 566 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ie47bff0fa5f449e5/version/1494183576/image.jpg",
+        "title": "SL46T"
+      },
+      {
+        "heading": "Intel Celeron 566 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i5f0a354e1b73fa15/version/1494183576/image.jpg",
+        "title": "SL46T"
+      },
+      {
+        "heading": "Intel Celeron 600 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i9aabc4006fab73c6/version/1494183582/image.jpg",
+        "title": "Intel Celeron 600 MHz Coppermine-128 SL3W8"
+      },
+      {
+        "heading": "Intel Celeron 600 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i5cf57fed8df697a7/version/1494183582/image.jpg",
+        "title": "Intel Celeron 600 MHz Coppermine-128 SL3W8"
+      },
+      {
+        "heading": "Intel Celeron 600 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i6260f26e45be9686/version/1494183582/image.jpg",
+        "title": "Intel Celeron 600 MHz Coppermine-128 SL3W8"
+      },
+      {
+        "heading": "Intel Celeron 600 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=png/path/s674ac0b1a38a76e3/image/iafb0787317c50f5b/version/1494183598/image.png",
+        "title": ""
+      },
+      {
+        "heading": "Intel Celeron 700 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/if2c428eab936b65e/version/1494183604/image.jpg",
+        "title": "Intel Celeron 700 MHz Coppermine-128 SL48F"
+      },
+      {
+        "heading": "Intel Celeron 700 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i123d8b54e9386cde/version/1494183604/image.jpg",
+        "title": "Intel Celeron 700 MHz Coppermine-128 SL48F"
+      },
+      {
+        "heading": "Intel Celeron 700 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i29c7e31b2d976188/version/1494183604/image.jpg",
+        "title": "Intel Celeron 700 MHz Coppermine-128 SL48F"
+      },
+      {
+        "heading": "Intel Celeron 800 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i4725303fb25718fa/version/1494183615/image.jpg",
+        "title": "Intel Celeron 800 MHz Coppermine SL54P"
+      },
+      {
+        "heading": "Intel Celeron 800 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ibcf1df7cf4ea1f33/version/1494183615/image.jpg",
+        "title": "Intel Celeron 800 MHz Coppermine SL54P"
+      },
+      {
+        "heading": "Intel Celeron 800 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i7eea990aa9b292c3/version/1494183615/image.jpg",
+        "title": "Intel Celeron 800 MHz Coppermine SL54P"
+      },
+      {
+        "heading": "Intel Celeron 850 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i4e4d423bec8a6362/version/1494183624/image.jpg",
+        "title": "Intel Celeron 850 MHz Coppermine SL5GB"
+      },
+      {
+        "heading": "Intel Celeron 850 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i163a1b78207e8556/version/1494183624/image.jpg",
+        "title": "Intel Celeron 850 MHz Coppermine SL5GB"
+      },
+      {
+        "heading": "Intel Celeron 850 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i8a34a51beafa4d8f/version/1494183624/image.jpg",
+        "title": "Intel Celeron 850 MHz Coppermine SL5GB"
+      },
+      {
+        "heading": "Intel Celeron 900 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i8aa9a61819a5ca3c/version/1494183633/image.jpg",
+        "title": "Intel Celeron 900 MHz Coppermine-128 SL5MQ"
+      },
+      {
+        "heading": "Intel Celeron 900 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/id31269b2303c4458/version/1494183633/image.jpg",
+        "title": "Intel Celeron 900 MHz Coppermine-128 SL5MQ"
+      },
+      {
+        "heading": "Intel Celeron 900 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ia6cf9e2084f9b8c1/version/1494183633/image.jpg",
+        "title": "Intel Celeron 900 MHz Coppermine-128 SL5MQ"
+      },
+      {
+        "heading": "Intel Celeron 1000 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i0f0b47700d5e8da2/version/1494183641/image.jpg",
+        "title": "Intel Celeron 1000 MHz Coppermine-128 SL5XT"
+      },
+      {
+        "heading": "Intel Celeron 1000 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/iccf08b9c55b072dc/version/1494183641/image.jpg",
+        "title": "Intel Celeron 1000 MHz Coppermine-128 SL5XT"
+      },
+      {
+        "heading": "Intel Celeron 1000 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i6498a5f604515d47/version/1494183641/image.jpg",
+        "title": "Intel Celeron 1000 MHz Coppermine-128 SL5XT"
+      },
+      {
+        "heading": "Intel Celeron 1100 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i450b55c2cab10408/version/1494183651/image.jpg",
+        "title": "Intel Celeron 1100 MHz Coppermine SL5XU"
+      },
+      {
+        "heading": "Intel Celeron 1100 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/id4c5676ea055d0a3/version/1494183651/image.jpg",
+        "title": "Intel Celeron 1100 MHz Coppermine SL5XU"
+      },
+      {
+        "heading": "Intel Celeron 1100 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/id666a7f513e52a02/version/1494183651/image.jpg",
+        "title": "Intel Celeron 1100 MHz Coppermine SL5XU"
+      },
+      {
+        "heading": "Intel Celeron 1300 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ib02a3ad62e32b81a/version/1494183666/image.jpg",
+        "title": "Intel Celeron 1300 MHz Tualatin-256 SL6C7"
+      },
+      {
+        "heading": "Intel Celeron 1300 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i93d7c7a8597a8e7b/version/1494183666/image.jpg",
+        "title": "Intel Celeron 1300 MHz Tualatin-256 SL6C7"
+      },
+      {
+        "heading": "Intel Celeron 1300 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/iba0859a63e170334/version/1494183666/image.jpg",
+        "title": "Intel Celeron 1300 MHz Tualatin-256 SL6C7"
+      },
+      {
+        "heading": "Intel Mobile Celeron 733 MHz - The XBOX CPU",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i0814c8e0cb99125f/version/1494183674/image.jpg",
+        "title": "The XBOX CPU (SL5SN)"
+      },
+      {
+        "heading": "Intel Mobile Celeron 733 MHz - The XBOX CPU",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i550b02c8b2e2d842/version/1494183674/image.jpg",
+        "title": "The XBOX CPU (SL5SN)"
+      },
+      {
+        "heading": "Intel Mobile Celeron 733 MHz - The XBOX CPU",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/id72aa770dd92591d/version/1494183675/image.jpg",
+        "title": "The XBOX CPU (SL5SN)"
+      }
+    ]
+  },
+  {
+    "family": "intel/pentium-4-423-478/",
+    "ids": [
+      "pentium4-1500"
+    ],
+    "url": "https://cpumuseum.jimdofree.com/museum/intel/pentium-4-423-478/",
+    "status": 200,
+    "cache": "C:\\Users\\slowf\\Documents\\Codex\\2026-09-15\\lukasjt-pcpartperformance-x20\\pcpartperformance\\tmp\\remaining-cpu-oct17\\8346ff00cea58ab166b6d4a2.html",
+    "headings": [
+      "The Pentium 4 Willamette",
+      "Intel Pentium 4 1.3 GHz",
+      "Intel Pentium 4 1.4 GHz",
+      "Intel Pentium 4 1.5 GHz",
+      "Intel Pentium 4 1.6 GHz",
+      "Intel Pentium 4 1.7 GHz",
+      "Intel Pentium 4 1.8 GHz",
+      "The Pentium 4 Northwood",
+      "Intel Pentium 4 1.8A GHz",
+      "Intel Pentium 4 2A GHz",
+      "Intel Pentium 4 2.26 GHz",
+      "Intel Pentium 4 2.4 GHz",
+      "Intel Pentium 4 2.53 GHz",
+      "Intel Pentium 4 2.66 GHz",
+      "Intel Pentium 4 2.8 GHz",
+      "Intel Pentium 4 HT 2.6 GHz",
+      "Intel Pentium 4 HT 3.0 GHz",
+      "The Pentium 4 Prescott",
+      "Intel Pentium 4 2.4 GHz",
+      "Intel Pentium 4 2.8 GHz",
+      "Intel Pentium 4 HT 530 (3.0 GHz)",
+      "Intel Pentium 4 HT 540 (3.2 GHz)",
+      "The Mobile Pentium 4-M",
+      "Intel Mobile Pentium 4-M 1.8 GHz"
+    ],
+    "gallery": [
+      {
+        "heading": "Intel Pentium 4 1.3 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/icdedfa8655bb00c8/version/1494184081/image.jpg",
+        "title": "SL4SF"
+      },
+      {
+        "heading": "Intel Pentium 4 1.3 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i27515e16c79f061c/version/1494184081/image.jpg",
+        "title": "SL4SF"
+      },
+      {
+        "heading": "Intel Pentium 4 1.3 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i04da138d09de2ab4/version/1494184081/image.jpg",
+        "title": "SL4SF"
+      },
+      {
+        "heading": "Intel Pentium 4 1.4 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ic3c9c214d088d35f/version/1494184089/image.jpg",
+        "title": "SL4SG"
+      },
+      {
+        "heading": "Intel Pentium 4 1.4 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i2095d95f51959ac8/version/1494184089/image.jpg",
+        "title": "SL4SG"
+      },
+      {
+        "heading": "Intel Pentium 4 1.4 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/idfdb4e1ec515594d/version/1494184089/image.jpg",
+        "title": "SL4SG"
+      },
+      {
+        "heading": "Intel Pentium 4 1.5 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ia253c203dcb58eba/version/1494184094/image.jpg",
+        "title": "SL4SH"
+      },
+      {
+        "heading": "Intel Pentium 4 1.5 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i615b2d52d9c2e6c4/version/1494184094/image.jpg",
+        "title": "SL4SH"
+      },
+      {
+        "heading": "Intel Pentium 4 1.5 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ie033b4b9303a5723/version/1494184094/image.jpg",
+        "title": "SL4SH"
+      },
+      {
+        "heading": "Intel Pentium 4 1.5 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i62c20d4734cd5fca/version/1494184094/image.jpg",
+        "title": "SL5TJ"
+      },
+      {
+        "heading": "Intel Pentium 4 1.5 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ic6e9ff1186adada6/version/1494184094/image.jpg",
+        "title": "SL5TJ"
+      },
+      {
+        "heading": "Intel Pentium 4 1.5 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i8472449f35d093c7/version/1494184094/image.jpg",
+        "title": "SL5TJ"
+      },
+      {
+        "heading": "Intel Pentium 4 1.5 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=jpg/path/s674ac0b1a38a76e3/image/ib758da06dd6ccbb9/version/1494184105/image.jpg",
+        "title": ""
+      },
+      {
+        "heading": "Intel Pentium 4 1.6 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ie9abd8b66084b8d2/version/1494184111/image.jpg",
+        "title": "SL5VH"
+      },
+      {
+        "heading": "Intel Pentium 4 1.6 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i732280df4a7c4d4b/version/1494184111/image.jpg",
+        "title": "SL5VH"
+      },
+      {
+        "heading": "Intel Pentium 4 1.6 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i54cede9f8f640630/version/1494184111/image.jpg",
+        "title": "SL5VH"
+      },
+      {
+        "heading": "Intel Pentium 4 1.6 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=png/path/s674ac0b1a38a76e3/image/i6d874c8e9dd6cb73/version/1494184125/image.png",
+        "title": ""
+      },
+      {
+        "heading": "Intel Pentium 4 1.7 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/if800185b0561079b/version/1494184131/image.jpg",
+        "title": "SL57W"
+      },
+      {
+        "heading": "Intel Pentium 4 1.7 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i485bc46aa6789b20/version/1494184131/image.jpg",
+        "title": "SL57W"
+      },
+      {
+        "heading": "Intel Pentium 4 1.7 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/iaa39ee2c6aabd3b9/version/1494184131/image.jpg",
+        "title": "SL57W"
+      },
+      {
+        "heading": "Intel Pentium 4 1.7 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i8939381ed9b0f15e/version/1494184131/image.jpg",
+        "title": "SL62Z"
+      },
+      {
+        "heading": "Intel Pentium 4 1.7 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i82c8f106ef3306bb/version/1494184132/image.jpg",
+        "title": "SL62Z"
+      },
+      {
+        "heading": "Intel Pentium 4 1.7 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ia471f4f9ad0a8206/version/1494184132/image.jpg",
+        "title": "SL62Z"
+      },
+      {
+        "heading": "Intel Pentium 4 1.8 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/iffa8e42e7713dd40/version/1494184141/image.jpg",
+        "title": "SL5VJ"
+      },
+      {
+        "heading": "Intel Pentium 4 1.8 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i69dcc0d8f7ed1b38/version/1494184141/image.jpg",
+        "title": "SL5VJ"
+      },
+      {
+        "heading": "Intel Pentium 4 1.8 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i2c90b8fa602cdcee/version/1494184141/image.jpg",
+        "title": "SL5VJ"
+      },
+      {
+        "heading": "Intel Pentium 4 1.8 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i351facf25359a6bd/version/1494184141/image.jpg",
+        "title": ""
+      },
+      {
+        "heading": "Intel Pentium 4 1.8 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ib0aed8e3a5c53ae7/version/1494184141/image.jpg",
+        "title": ""
+      },
+      {
+        "heading": "Intel Pentium 4 1.8 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i918a444a713775ed/version/1494184141/image.jpg",
+        "title": ""
+      },
+      {
+        "heading": "Intel Pentium 4 1.8 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=png/path/s674ac0b1a38a76e3/image/i40d0563d2c2aee19/version/1494184154/image.png",
+        "title": ""
+      },
+      {
+        "heading": "Intel Pentium 4 1.8A GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i7b896e0401dafade/version/1494184164/image.jpg",
+        "title": "Intel Pentium 4 1.8A GHz Northwood SL66Q"
+      },
+      {
+        "heading": "Intel Pentium 4 1.8A GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ie99579bbf55daa51/version/1494184164/image.jpg",
+        "title": "Intel Pentium 4 1.8A GHz Northwood SL66Q"
+      },
+      {
+        "heading": "Intel Pentium 4 1.8A GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ia4fb8b6b75b44fce/version/1494184164/image.jpg",
+        "title": "Intel Pentium 4 1.8A GHz Northwood SL66Q"
+      },
+      {
+        "heading": "Intel Pentium 4 1.8A GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=png/path/s674ac0b1a38a76e3/image/iac470d7318890956/version/1494184174/image.png",
+        "title": ""
+      },
+      {
+        "heading": "Intel Pentium 4 2A GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i13dd7ab2a1736f8b/version/1494184179/image.jpg",
+        "title": "SL5YR"
+      },
+      {
+        "heading": "Intel Pentium 4 2A GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i6eda8c8feaed8c9e/version/1494184179/image.jpg",
+        "title": "SL5YR"
+      },
+      {
+        "heading": "Intel Pentium 4 2A GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i395a00741f40e9b4/version/1494184179/image.jpg",
+        "title": "SL5YR"
+      },
+      {
+        "heading": "Intel Pentium 4 2A GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=jpg/path/s674ac0b1a38a76e3/image/ieba4641eb55b696e/version/1494184191/image.jpg",
+        "title": ""
+      },
+      {
+        "heading": "Intel Pentium 4 2.26 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i21a9303a735a10b2/version/1494184200/image.jpg",
+        "title": "SL6PB"
+      },
+      {
+        "heading": "Intel Pentium 4 2.26 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i03954558fea6d48d/version/1494184200/image.jpg",
+        "title": "SL6PB"
+      },
+      {
+        "heading": "Intel Pentium 4 2.26 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ic7d1a8b0c98abafa/version/1494184200/image.jpg",
+        "title": "SL6PB"
+      },
+      {
+        "heading": "Intel Pentium 4 2.26 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=jpg/path/s674ac0b1a38a76e3/image/i4018c0f0d410ded2/version/1494184214/image.jpg",
+        "title": ""
+      },
+      {
+        "heading": "Intel Pentium 4 2.4 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ib8be75d61444a7ea/version/1494184221/image.jpg",
+        "title": "SL6EU"
+      },
+      {
+        "heading": "Intel Pentium 4 2.4 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ifa9dcf68fbfe633c/version/1494184221/image.jpg",
+        "title": "SL6EU"
+      },
+      {
+        "heading": "Intel Pentium 4 2.4 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/icfa1e9c36451f5c2/version/1494184221/image.jpg",
+        "title": "SL6EU"
+      },
+      {
+        "heading": "Intel Pentium 4 2.4 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=png/path/s674ac0b1a38a76e3/image/i1db78cd008d444b9/version/1494184235/image.png",
+        "title": ""
+      },
+      {
+        "heading": "Intel Pentium 4 2.53 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ifd68d9e08259cf3d/version/1494184269/image.jpg",
+        "title": "SL685"
+      },
+      {
+        "heading": "Intel Pentium 4 2.53 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i5ac9e34b0e92c15f/version/1494184269/image.jpg",
+        "title": "SL685"
+      },
+      {
+        "heading": "Intel Pentium 4 2.53 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i00afda23c736bc94/version/1494184269/image.jpg",
+        "title": "SL685"
+      },
+      {
+        "heading": "Intel Pentium 4 2.66 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/iedd57307d64b8937/version/1494184276/image.jpg",
+        "title": "SL6PE"
+      },
+      {
+        "heading": "Intel Pentium 4 2.66 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i6e2a23c848a7334b/version/1494184276/image.jpg",
+        "title": "SL6PE"
+      },
+      {
+        "heading": "Intel Pentium 4 2.66 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i6e83131263947a9d/version/1494184276/image.jpg",
+        "title": "SL6PE"
+      },
+      {
+        "heading": "Intel Pentium 4 2.66 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=png/path/s674ac0b1a38a76e3/image/i6626e22eae4758bc/version/1494184290/image.png",
+        "title": ""
+      },
+      {
+        "heading": "Intel Pentium 4 2.8 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i7ee49a28c9a3e2a3/version/1494184295/image.jpg",
+        "title": "SL6PF"
+      },
+      {
+        "heading": "Intel Pentium 4 2.8 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i3129c6b65586198a/version/1494184295/image.jpg",
+        "title": "SL6PF"
+      },
+      {
+        "heading": "Intel Pentium 4 2.8 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i7657436f0405e4df/version/1494184295/image.jpg",
+        "title": "SL6PF"
+      },
+      {
+        "heading": "Intel Pentium 4 HT 2.6 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i281861b7ecca1dea/version/1494184351/image.jpg",
+        "title": "SL6WH"
+      },
+      {
+        "heading": "Intel Pentium 4 HT 2.6 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i78d636e106bed608/version/1494184351/image.jpg",
+        "title": "SL6WH"
+      },
+      {
+        "heading": "Intel Pentium 4 HT 2.6 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ide508eaf49c81172/version/1494184351/image.jpg",
+        "title": "SL6WH"
+      },
+      {
+        "heading": "Intel Pentium 4 HT 3.0 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i3b1be6cf02c9d686/version/1494184359/image.jpg",
+        "title": "SL6WK"
+      },
+      {
+        "heading": "Intel Pentium 4 HT 3.0 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/idfe02f8c36fdf93b/version/1494184359/image.jpg",
+        "title": "SL6WK"
+      },
+      {
+        "heading": "Intel Pentium 4 HT 3.0 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i8a311d490fb75e3b/version/1494184359/image.jpg",
+        "title": "SL6WK"
+      },
+      {
+        "heading": "Intel Pentium 4 2.4 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/icc760eda06c8b894/version/1494184372/image.jpg",
+        "title": "SL7E8"
+      },
+      {
+        "heading": "Intel Pentium 4 2.4 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ideafc79d874e3963/version/1494184373/image.jpg",
+        "title": "SL7E8"
+      },
+      {
+        "heading": "Intel Pentium 4 2.4 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i93c986196ee6849f/version/1494184373/image.jpg",
+        "title": "SL7E8"
+      },
+      {
+        "heading": "Intel Pentium 4 2.8 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ib5a23dc451bb2615/version/1494184380/image.jpg",
+        "title": "SL7PK"
+      },
+      {
+        "heading": "Intel Pentium 4 2.8 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i713731a36ecdda76/version/1494184380/image.jpg",
+        "title": "SL7PK"
+      },
+      {
+        "heading": "Intel Pentium 4 2.8 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i76e0ff867ba29cce/version/1494184380/image.jpg",
+        "title": "SL7PK"
+      },
+      {
+        "heading": "Intel Pentium 4 HT 530 (3.0 GHz)",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i7c11246fb7d3d379/version/1494184387/image.jpg",
+        "title": "SL79L"
+      },
+      {
+        "heading": "Intel Pentium 4 HT 530 (3.0 GHz)",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/if6989622af126739/version/1494184387/image.jpg",
+        "title": "SL79L"
+      },
+      {
+        "heading": "Intel Pentium 4 HT 530 (3.0 GHz)",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i836e6c6e44ac23dd/version/1494184387/image.jpg",
+        "title": "SL79L"
+      },
+      {
+        "heading": "Intel Pentium 4 HT 540 (3.2 GHz)",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i6cffa134963d001b/version/1494184399/image.jpg",
+        "title": "SL7E5"
+      },
+      {
+        "heading": "Intel Pentium 4 HT 540 (3.2 GHz)",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i00dbf988b6aad75e/version/1494184399/image.jpg",
+        "title": "SL7E5"
+      },
+      {
+        "heading": "Intel Pentium 4 HT 540 (3.2 GHz)",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i415fef0260d0a8bf/version/1494184399/image.jpg",
+        "title": "SL7E5"
+      },
+      {
+        "heading": "Intel Mobile Pentium 4-M 1.8 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ia8a396eb839c3708/version/1494184437/image.jpg",
+        "title": "SL6FH"
+      },
+      {
+        "heading": "Intel Mobile Pentium 4-M 1.8 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ie183361c0850a9e9/version/1494184437/image.jpg",
+        "title": "SL6FH"
+      },
+      {
+        "heading": "Intel Mobile Pentium 4-M 1.8 GHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i3bfc4e602307f263/version/1494184437/image.jpg",
+        "title": "SL6FH"
+      }
+    ]
+  },
+  {
+    "family": "amd/am486-5x86/",
+    "ids": [
+      "am486dx4"
+    ],
+    "url": "https://cpumuseum.jimdofree.com/museum/amd/am486-5x86/",
+    "status": 200,
+    "cache": "C:\\Users\\slowf\\Documents\\Codex\\2026-09-15\\lukasjt-pcpartperformance-x20\\pcpartperformance\\tmp\\remaining-cpu-oct17\\5b25ab984e12ecda620a387f.html",
+    "headings": [
+      "AMD Am486 DX",
+      "AMD Am486 DX-40",
+      "AMD Am486 DX2",
+      "AMD Am486 DX2-66",
+      "AMD Am486 DX2-80",
+      "AMD Am486 SX2",
+      "AMD Am486 SX2-66",
+      "AMD Am486 DX4",
+      "AMD Am486 DX4-100",
+      "AMD Am486 DX4-120",
+      "AMD Am5x86",
+      "AMD Am5x86-P75"
+    ],
+    "gallery": [
+      {
+        "heading": "AMD Am486 DX-40",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i93ed480c8e5cbcc6/version/1494177596/image.jpg",
+        "title": "AMD Am486 DX-40"
+      },
+      {
+        "heading": "AMD Am486 DX-40",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i56b54dadd058e544/version/1494177596/image.jpg",
+        "title": "AMD Am486 DX-40"
+      },
+      {
+        "heading": "AMD Am486 DX-40",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i31779adb92341dd9/version/1494177596/image.jpg",
+        "title": "AMD Am486 DX-40"
+      },
+      {
+        "heading": "AMD Am486 DX2-66",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i7f8849edfa8c75fa/version/1494177605/image.jpg",
+        "title": "A80486DX2-66 AMD Am486 DX2 66 MHz"
+      },
+      {
+        "heading": "AMD Am486 DX2-66",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i3fbf362c3e4ae893/version/1494177605/image.jpg",
+        "title": "A80486DX2-66 AMD Am486 DX2 66 MHz"
+      },
+      {
+        "heading": "AMD Am486 DX2-66",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i854b68bb3515a0bf/version/1494177605/image.jpg",
+        "title": "A80486DX2-66 AMD Am486 DX2 66 MHz"
+      },
+      {
+        "heading": "AMD Am486 DX2-80",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i7cf9caadfb9084fa/version/1494177613/image.jpg",
+        "title": "A80486DX2-80 AMD Am486 DX2 80 MHz"
+      },
+      {
+        "heading": "AMD Am486 DX2-80",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i9cb31c04891be8f2/version/1494177613/image.jpg",
+        "title": "A80486DX2-80 AMD Am486 DX2 80 MHz"
+      },
+      {
+        "heading": "AMD Am486 DX2-80",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i670becd1fa271522/version/1494177613/image.jpg",
+        "title": "A80486DX2-80 AMD Am486 DX2 80 MHz"
+      },
+      {
+        "heading": "AMD Am486 DX2-80",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i5dc43364d93d1e07/version/1494177613/image.jpg",
+        "title": "A80486DX2-80 V8T"
+      },
+      {
+        "heading": "AMD Am486 DX2-80",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ic521eb3c1f58c4f9/version/1494177613/image.jpg",
+        "title": "A80486DX2-80 V8T"
+      },
+      {
+        "heading": "AMD Am486 DX2-80",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i25d3c5868df6719a/version/1494177613/image.jpg",
+        "title": "A80486DX2-80 V8T"
+      },
+      {
+        "heading": "AMD Am486 SX2-66",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i3e2d3c4ce47cdf92/version/1494177623/image.jpg",
+        "title": "A80486SX2-66"
+      },
+      {
+        "heading": "AMD Am486 SX2-66",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i524bcec81b291850/version/1494177623/image.jpg",
+        "title": "A80486SX2-66"
+      },
+      {
+        "heading": "AMD Am486 SX2-66",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i2b7d2de1de9ecfb7/version/1494177623/image.jpg",
+        "title": "A80486SX2-66"
+      },
+      {
+        "heading": "AMD Am486 DX4-100",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i5719abe0b8316479/version/1494177630/image.jpg",
+        "title": ""
+      },
+      {
+        "heading": "AMD Am486 DX4-100",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i343ebcdb808c3878/version/1494177630/image.jpg",
+        "title": ""
+      },
+      {
+        "heading": "AMD Am486 DX4-100",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i73aeb038e367ead4/version/1494177630/image.jpg",
+        "title": ""
+      },
+      {
+        "heading": "AMD Am486 DX4-100",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ice740ec4824328fa/version/1494177634/image.jpg",
+        "title": "AMD Enhanced Am486 DX4-100 A80486DX4-100SV8B"
+      },
+      {
+        "heading": "AMD Am486 DX4-100",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i8f895bab2160f812/version/1494177634/image.jpg",
+        "title": "AMD Enhanced Am486 DX4-100 A80486DX4-100SV8B"
+      },
+      {
+        "heading": "AMD Am486 DX4-100",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ibca6166ad1bcdef6/version/1494177634/image.jpg",
+        "title": "AMD Enhanced Am486 DX4-100 A80486DX4-100SV8B"
+      },
+      {
+        "heading": "AMD Am486 DX4-120",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/id843a6cb70c50c4a/version/1494177643/image.jpg",
+        "title": "A80486DX4-120NV8T AMD Am486 DX4-120"
+      },
+      {
+        "heading": "AMD Am486 DX4-120",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i9b0d4e6f3e0c20dd/version/1494177643/image.jpg",
+        "title": "A80486DX4-120NV8T AMD Am486 DX4-120"
+      },
+      {
+        "heading": "AMD Am486 DX4-120",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i94d43b6c5fda4212/version/1494177643/image.jpg",
+        "title": "A80486DX4-120NV8T AMD Am486 DX4-120"
+      },
+      {
+        "heading": "AMD Am486 DX4-120",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/iee27af0cc92fea3a/version/1494177643/image.jpg",
+        "title": "A80486DX4-120SV8B AMD Am486 DX4-120"
+      },
+      {
+        "heading": "AMD Am486 DX4-120",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i814f9c90075495e5/version/1494177643/image.jpg",
+        "title": "A80486DX4-120SV8B AMD Am486 DX4-120"
+      },
+      {
+        "heading": "AMD Am486 DX4-120",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i3e3f4a07c9448766/version/1494177643/image.jpg",
+        "title": "A80486DX4-120SV8B AMD Am486 DX4-120"
+      },
+      {
+        "heading": "AMD Am5x86-P75",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i825ca16847c22fdd/version/1494177653/image.jpg",
+        "title": "AMD Am5x86-P75"
+      },
+      {
+        "heading": "AMD Am5x86-P75",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i4fc9522c100f6fd8/version/1494177653/image.jpg",
+        "title": "AMD Am5x86-P75"
+      },
+      {
+        "heading": "AMD Am5x86-P75",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i487ae37d960797e5/version/1494177653/image.jpg",
+        "title": "AMD Am5x86-P75"
+      },
+      {
+        "heading": "AMD Am5x86-P75",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=png/path/s674ac0b1a38a76e3/image/ibcceaac230c892b4/version/1494177960/image.png",
+        "title": ""
+      }
+    ]
+  },
+  {
+    "family": "amd/k5/",
+    "ids": [
+      "amdk5pr100"
+    ],
+    "url": "https://cpumuseum.jimdofree.com/museum/amd/k5/",
+    "status": 200,
+    "cache": "C:\\Users\\slowf\\Documents\\Codex\\2026-09-15\\lukasjt-pcpartperformance-x20\\pcpartperformance\\tmp\\remaining-cpu-oct17\\5bd97e8e654d0da20525f081.html",
+    "headings": [
+      "AMD K5 SSA/5",
+      "AMD 5k86-P75",
+      "AMD K5 PR100",
+      "5k86",
+      "AMD K5 PR120",
+      "AMD K5 PR133",
+      "AMD K5 PR150"
+    ],
+    "gallery": [
+      {
+        "heading": "AMD 5k86-P75",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i3923e9e95b505928/version/1494177754/image.jpg",
+        "title": ""
+      },
+      {
+        "heading": "AMD 5k86-P75",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i5643ba5deed8c430/version/1494177754/image.jpg",
+        "title": ""
+      },
+      {
+        "heading": "AMD 5k86-P75",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i8a3ad757e38adf4a/version/1494177754/image.jpg",
+        "title": ""
+      },
+      {
+        "heading": "AMD K5 PR100",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i6da26566cd085a77/version/1494177767/image.jpg",
+        "title": "AMD K5 PR100 SSA/5 with heatspreader"
+      },
+      {
+        "heading": "AMD K5 PR100",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i37560aeb6aeb0b37/version/1494177767/image.jpg",
+        "title": "AMD K5 PR100 SSA/5 with heatspreader"
+      },
+      {
+        "heading": "AMD K5 PR100",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i2b76ffc64595a0b1/version/1494177767/image.jpg",
+        "title": "AMD K5 PR100 SSA/5 with heatspreader"
+      },
+      {
+        "heading": "AMD K5 PR100",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i4b07c1d6d469653e/version/1494177767/image.jpg",
+        "title": "AMD K5 PR100 SSA/5 without heatspreader"
+      },
+      {
+        "heading": "AMD K5 PR100",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ie80c6ae8ecfdea2e/version/1494177767/image.jpg",
+        "title": "AMD K5 PR100 SSA/5 without heatspreader"
+      },
+      {
+        "heading": "AMD K5 PR100",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i1ac82530e8e3e5aa/version/1494177767/image.jpg",
+        "title": "AMD K5 PR100 SSA/5 without heatspreader"
+      },
+      {
+        "heading": "AMD K5 PR100",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=png/path/s674ac0b1a38a76e3/image/i6bce3c194bb4db2d/version/1494178063/image.png",
+        "title": ""
+      },
+      {
+        "heading": "AMD K5 PR120",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i26c70e4f956b9aba/version/1494177812/image.jpg",
+        "title": "AMD K5 PR120"
+      },
+      {
+        "heading": "AMD K5 PR120",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ic02ad4e615864d70/version/1494177812/image.jpg",
+        "title": "AMD K5 PR120"
+      },
+      {
+        "heading": "AMD K5 PR120",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ia3d7936e627d2619/version/1494177812/image.jpg",
+        "title": "AMD K5 PR120"
+      },
+      {
+        "heading": "AMD K5 PR133",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ia5424635bea69443/version/1494177820/image.jpg",
+        "title": "AMD K5-PR133ABR"
+      },
+      {
+        "heading": "AMD K5 PR133",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i913fee82f214507f/version/1494177820/image.jpg",
+        "title": "AMD K5-PR133ABR"
+      },
+      {
+        "heading": "AMD K5 PR133",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ifdaa855047f79255/version/1494177820/image.jpg",
+        "title": "AMD K5-PR133ABR"
+      },
+      {
+        "heading": "AMD K5 PR133",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=png/path/s674ac0b1a38a76e3/image/i9fa7975ea3b8a674/version/1494178074/image.png",
+        "title": ""
+      },
+      {
+        "heading": "AMD K5 PR150",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ia90d5e279c415a29/version/1494177844/image.jpg",
+        "title": "AMD K5 PR150 front view (Photoshoped by a little bit)"
+      },
+      {
+        "heading": "AMD K5 PR150",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i80031a502d9e1427/version/1494177844/image.jpg",
+        "title": "AMD K5 PR150 back view"
+      },
+      {
+        "heading": "AMD K5 PR150",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i3e688c23c557a9dc/version/1494177844/image.jpg",
+        "title": "AMD K5 PR150"
+      },
+      {
+        "heading": "AMD K5 PR150",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=png/path/s674ac0b1a38a76e3/image/iaab1325414180acf/version/1494177868/image.png",
+        "title": ""
+      }
+    ]
+  },
+  {
+    "family": "amd/k6/",
+    "ids": [
+      "amdk6-233"
+    ],
+    "url": "https://cpumuseum.jimdofree.com/museum/amd/k6/",
+    "status": 200,
+    "cache": "C:\\Users\\slowf\\Documents\\Codex\\2026-09-15\\lukasjt-pcpartperformance-x20\\pcpartperformance\\tmp\\remaining-cpu-oct17\\2e220eff822ba77ba7323dd9.html",
+    "headings": [
+      "AMD K6",
+      "AMD K6 200 MHz",
+      "AMD K6 233 MHz"
+    ],
+    "gallery": [
+      {
+        "heading": "AMD K6 200 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i63e07a710b4af61f/version/1494178150/image.jpg",
+        "title": "AMD K6-200ALR"
+      },
+      {
+        "heading": "AMD K6 200 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i618bf06a0eb43acc/version/1494178150/image.jpg",
+        "title": "AMD K6-200ALR"
+      },
+      {
+        "heading": "AMD K6 200 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/if96bd8d566222f76/version/1494178150/image.jpg",
+        "title": "AMD K6-200ALR"
+      },
+      {
+        "heading": "AMD K6 200 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i427fa5e4935fcd22/version/1494178193/image.png",
+        "title": "AMD K5 PR150ABR, underclocked to 100 MHz to meet the motherboard specifications!"
+      },
+      {
+        "heading": "AMD K6 233 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i9e3c112bab40e4f7/version/1494178207/image.jpg",
+        "title": "AMD K6 233 MHz"
+      },
+      {
+        "heading": "AMD K6 233 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i18027f23711c12ed/version/1494178207/image.jpg",
+        "title": "AMD K6 233 MHz"
+      },
+      {
+        "heading": "AMD K6 233 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i5f945fd96a0e6baa/version/1494178207/image.jpg",
+        "title": "AMD K6 233 MHz"
+      }
+    ]
+  },
+  {
+    "family": "amd/k6-ii/",
+    "ids": [
+      "amdk62-300"
+    ],
+    "url": "https://cpumuseum.jimdofree.com/museum/amd/k6-ii/",
+    "status": 200,
+    "cache": "C:\\Users\\slowf\\Documents\\Codex\\2026-09-15\\lukasjt-pcpartperformance-x20\\pcpartperformance\\tmp\\remaining-cpu-oct17\\9ff14aa1ab2c4f892cf25d42.html",
+    "headings": [
+      "Chomper/Chomper-XT",
+      "AMD K6-II 300 MHz",
+      "AMD K6-II 350 MHz",
+      "AMD K6-II 366 MHz",
+      "Kingston TurboChip 366 MHz",
+      "AMD K6-II 400 MHz",
+      "AMD K6-II 450 MHz",
+      "AMD K6-II 500 MHz",
+      "AMD K6-II 550 MHz"
+    ],
+    "gallery": [
+      {
+        "heading": "AMD K6-II 300 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/id5e5864aa78a88d1/version/1494178263/image.jpg",
+        "title": "AMD K6-II 300 MHz"
+      },
+      {
+        "heading": "AMD K6-II 300 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ic7d995525d692a23/version/1494178263/image.jpg",
+        "title": "AMD K6-II 300 MHz"
+      },
+      {
+        "heading": "AMD K6-II 300 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i23e7e4bea9fc90ad/version/1494178263/image.jpg",
+        "title": "AMD K6-II 300 MHz"
+      },
+      {
+        "heading": "AMD K6-II 300 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ia8bc9c65ca1c9dae/version/1494178279/image.png",
+        "title": "AMD K6-II 300 MHz CPU-Z screenshot"
+      },
+      {
+        "heading": "AMD K6-II 350 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i949f5f5acd39b2f1/version/1494178288/image.jpg",
+        "title": "AMD K6-2 350 MHz"
+      },
+      {
+        "heading": "AMD K6-II 350 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i08f5d02febf3d73d/version/1494178288/image.jpg",
+        "title": "AMD K6-2 350 MHz"
+      },
+      {
+        "heading": "AMD K6-II 350 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i309d4f3be9c7c6f3/version/1494178288/image.jpg",
+        "title": "AMD K6-2 350 MHz"
+      },
+      {
+        "heading": "Kingston TurboChip 366 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i536e5f1b5edbd341/version/1494178295/image.jpg",
+        "title": "Kingston TurboChip 366 MHz (AMD K6-II 366 MHz)"
+      },
+      {
+        "heading": "Kingston TurboChip 366 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i8f742b3fcea557a8/version/1494178295/image.jpg",
+        "title": "Kingston TurboChip 366 MHz (AMD K6-II 366 MHz)"
+      },
+      {
+        "heading": "Kingston TurboChip 366 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i10e6e9721284f078/version/1494178295/image.jpg",
+        "title": "Kingston TurboChip 366 MHz (AMD K6-II 366 MHz)"
+      },
+      {
+        "heading": "AMD K6-II 400 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ic48cee2fd991597a/version/1494178303/image.jpg",
+        "title": "AMD K6-II 400 MHz"
+      },
+      {
+        "heading": "AMD K6-II 400 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i15a7a96a0f203268/version/1494178303/image.jpg",
+        "title": "AMD K6-II 400 MHz"
+      },
+      {
+        "heading": "AMD K6-II 400 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i0e58538f04f12668/version/1494178303/image.jpg",
+        "title": "AMD K6-II 400 MHz"
+      },
+      {
+        "heading": "AMD K6-II 400 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/iad4b62abe2867ef8/version/1494178303/image.jpg",
+        "title": "AMD K6-II 400 MHz"
+      },
+      {
+        "heading": "AMD K6-II 400 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i176239f3e5910033/version/1494178303/image.jpg",
+        "title": "AMD K6-II 400 MHz"
+      },
+      {
+        "heading": "AMD K6-II 400 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ie1543dc8b8dd1f20/version/1494178303/image.jpg",
+        "title": "AMD K6-II 400 MHz"
+      },
+      {
+        "heading": "AMD K6-II 450 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i6fd81e10e38458dd/version/1494178312/image.jpg",
+        "title": "AMD K6-II 450 MHz, picture kindly donated by Edvinas Juodeikis; adjusted for CPUMUSEUM by HARDWARECOP"
+      },
+      {
+        "heading": "AMD K6-II 450 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i77c27f103692449f/version/1494178312/image.jpg",
+        "title": "AMD K6-II 450 MHz, picture kindly donated by Edvinas Juodeikis; adjusted for CPUMUSEUM by HARDWARECOP"
+      },
+      {
+        "heading": "AMD K6-II 450 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i65d92925299ac661/version/1494178312/image.jpg",
+        "title": "AMD K6-II 450 MHz, picture kindly donated by Edvinas Juodeikis; adjusted for CPUMUSEUM by HARDWARECOP"
+      },
+      {
+        "heading": "AMD K6-II 500 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i804e98083f9fc971/version/1494178322/image.jpg",
+        "title": "AMD K6-II/500AFX AMD K6-II 500 MHz"
+      },
+      {
+        "heading": "AMD K6-II 500 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i88667c1772ef59fe/version/1494178322/image.jpg",
+        "title": "AMD K6-II/500AFX AMD K6-II 500 MHz"
+      },
+      {
+        "heading": "AMD K6-II 500 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ia9a9511495f1b52d/version/1494178322/image.jpg",
+        "title": "AMD K6-II/500AFX AMD K6-II 500 MHz"
+      },
+      {
+        "heading": "AMD K6-II 500 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=jpg/path/s674ac0b1a38a76e3/image/id46a6fd9e5fe1fa7/version/1494178337/cpu-z-screenshot-of-the-amd-k6-ii-500-mhz-cpu-kindly-submitted-by-edvinas-juodeikis.jpg",
+        "title": ""
+      },
+      {
+        "heading": "AMD K6-II 550 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i7a3d8b958382b86d/version/1494178347/image.jpg",
+        "title": "AMD K6-II 550 MHz"
+      },
+      {
+        "heading": "AMD K6-II 550 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ic6613e00b4721f21/version/1494178347/image.jpg",
+        "title": "AMD K6-II 550 MHz"
+      },
+      {
+        "heading": "AMD K6-II 550 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ia54f44e41ae74ce1/version/1494178347/image.jpg",
+        "title": "AMD K6-II 550 MHz"
+      }
+    ]
+  },
+  {
+    "family": "amd/athlon-k7/",
+    "ids": [
+      "athlon500"
+    ],
+    "url": "https://cpumuseum.jimdofree.com/museum/amd/athlon-k7/",
+    "status": 200,
+    "cache": "C:\\Users\\slowf\\Documents\\Codex\\2026-09-15\\lukasjt-pcpartperformance-x20\\pcpartperformance\\tmp\\remaining-cpu-oct17\\1d4e96dec3093715ea70363a.html",
+    "headings": [
+      "Pluto/Orion",
+      "AMD Athlon 800 MHz",
+      "AMD Athlon 900 MHz",
+      "Thunderbird",
+      "AMD Athlon 700 MHz",
+      "AMD Athlon 800 MHz",
+      "AMD Athlon 900 MHz",
+      "AMD Athlon 950 MHz",
+      "AMD Athlon 1000 MHz",
+      "AMD Athlon 1133 MHz",
+      "AMD Athlon 1200 MHz",
+      "AMD Athlon 1333 MHz",
+      "AMD Athlon 1400 MHz"
+    ],
+    "gallery": [
+      {
+        "heading": "AMD Athlon 800 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i73f426330675946d/version/1494178447/image.png",
+        "title": "Extreme high resolution Athlon 800 MHz scan"
+      },
+      {
+        "heading": "AMD Athlon 800 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ic9fce0a68b70cca6/version/1494178447/image.jpg",
+        "title": "Back view"
+      },
+      {
+        "heading": "AMD Athlon 800 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/if2a7f9a689aebaa7/version/1494178447/image.jpg",
+        "title": "View from bottom-left"
+      },
+      {
+        "heading": "AMD Athlon 900 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i42331cd81670dc3c/version/1494178469/image.jpg",
+        "title": "AMD-K7900MNR53B A"
+      },
+      {
+        "heading": "AMD Athlon 900 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/iae8e945fd78d78c5/version/1494178469/image.jpg",
+        "title": "AMD-K7900MNR53B A"
+      },
+      {
+        "heading": "AMD Athlon 900 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i4e6c0310ac3e8e88/version/1494178469/image.jpg",
+        "title": "AMD-K7900MNR53B A"
+      },
+      {
+        "heading": "AMD Athlon 700 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=jpg/path/s674ac0b1a38a76e3/image/iea5ac969e6176e9c/version/1494178484/image.jpg",
+        "title": ""
+      },
+      {
+        "heading": "AMD Athlon 700 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=jpg/path/s674ac0b1a38a76e3/image/i757cdf16dcdd2879/version/1494178487/image.jpg",
+        "title": ""
+      },
+      {
+        "heading": "AMD Athlon 800 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i5039f199437f925a/version/1494178495/image.jpg",
+        "title": "A0800AMT3B"
+      },
+      {
+        "heading": "AMD Athlon 800 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i73f09689f12a79a5/version/1494178495/image.jpg",
+        "title": "A0800AMT3B"
+      },
+      {
+        "heading": "AMD Athlon 800 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i3692ba90c6c92865/version/1494178495/image.jpg",
+        "title": "A0800AMT3B"
+      },
+      {
+        "heading": "AMD Athlon 900 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i3b270be34ec3b679/version/1494178501/image.jpg",
+        "title": "AMD Athlon K7 900 MHz A0900AMT3B"
+      },
+      {
+        "heading": "AMD Athlon 900 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ibd2f9029ab45792a/version/1494178501/image.jpg",
+        "title": "AMD Athlon K7 900 MHz A0900AMT3B"
+      },
+      {
+        "heading": "AMD Athlon 900 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i17c99babc74190d7/version/1494178501/image.jpg",
+        "title": "AMD Athlon K7 900 MHz A0900AMT3B"
+      },
+      {
+        "heading": "AMD Athlon 950 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i94a992c78c1881c2/version/1494178507/image.jpg",
+        "title": "AMD Athlon 950 MHz A0950AMT3B"
+      },
+      {
+        "heading": "AMD Athlon 950 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i28df568753fa9f8c/version/1494178507/image.jpg",
+        "title": "AMD Athlon 950 MHz A0950AMT3B"
+      },
+      {
+        "heading": "AMD Athlon 950 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/id689fa629738252f/version/1494178507/image.jpg",
+        "title": "AMD Athlon 950 MHz A0950AMT3B"
+      },
+      {
+        "heading": "AMD Athlon 1000 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i3d8ed71d6fa24166/version/1494178513/image.jpg",
+        "title": ""
+      },
+      {
+        "heading": "AMD Athlon 1000 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i1bd756db5315b0eb/version/1494178513/image.jpg",
+        "title": ""
+      },
+      {
+        "heading": "AMD Athlon 1000 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i0ecb45e5a495d3b3/version/1494178513/image.jpg",
+        "title": ""
+      },
+      {
+        "heading": "AMD Athlon 1000 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i31e85c6f918c0ef7/version/1494178530/image.png",
+        "title": "AMD Athlon 1000 MHz Thunderbird CPU-Z"
+      },
+      {
+        "heading": "AMD Athlon 1000 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i0bab4a2dc94341a1/version/1494178536/image.jpg",
+        "title": ""
+      },
+      {
+        "heading": "AMD Athlon 1000 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i9e44522686cc437b/version/1494178536/image.jpg",
+        "title": "AMD Athlon K7 Thunderbird 1000 MHz A1000AMT3C"
+      },
+      {
+        "heading": "AMD Athlon 1133 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i9b0bd33f00a40d83/version/1494178648/image.jpg",
+        "title": ""
+      },
+      {
+        "heading": "AMD Athlon 1133 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/iaad3f5f587b13e1b/version/1494178648/image.jpg",
+        "title": ""
+      },
+      {
+        "heading": "AMD Athlon 1133 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i6425d459b2dc80db/version/1494178648/image.jpg",
+        "title": ""
+      },
+      {
+        "heading": "AMD Athlon 1200 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i50dea435590d08e0/version/1494178640/image.jpg",
+        "title": "AMD Athlon K7 1200 MHz A1200AMS3B"
+      },
+      {
+        "heading": "AMD Athlon 1200 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i3b4b89f140a6822a/version/1494178640/image.jpg",
+        "title": "AMD Athlon K7 1200 MHz A1200AMS3B"
+      },
+      {
+        "heading": "AMD Athlon 1200 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i201e2b65f868e73d/version/1494178640/image.jpg",
+        "title": "AMD Athlon K7 1200 MHz A1200AMS3B"
+      },
+      {
+        "heading": "AMD Athlon 1200 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ic811b9c53abb270f/version/1494178640/image.jpg",
+        "title": "AMD Athlon K7 1200 MHz A1200AMS3C"
+      },
+      {
+        "heading": "AMD Athlon 1200 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i1e35c4082698ad5b/version/1494178640/image.jpg",
+        "title": "AMD Athlon K7 1200 MHz A1200AMS3C"
+      },
+      {
+        "heading": "AMD Athlon 1333 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/if92523388719c203/version/1494178631/image.jpg",
+        "title": "AMD Athlon Thunderbird 1333 MHz"
+      },
+      {
+        "heading": "AMD Athlon 1333 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/id2d41b144e756253/version/1494178631/image.jpg",
+        "title": "AMD Athlon Thunderbird 1333 MHz"
+      },
+      {
+        "heading": "AMD Athlon 1333 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i06b89c3a83e8ad4e/version/1494178631/image.jpg",
+        "title": "AMD Athlon Thunderbird 1333 MHz"
+      },
+      {
+        "heading": "AMD Athlon 1400 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/id6d91ec6e6e60d5a/version/1494178623/image.jpg",
+        "title": "A1400AMS3C"
+      },
+      {
+        "heading": "AMD Athlon 1400 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i1db0b4d82ee13f23/version/1494178623/image.jpg",
+        "title": "A1400AMS3C"
+      },
+      {
+        "heading": "AMD Athlon 1400 MHz",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ie8ed50b6fdde52b5/version/1494178623/image.jpg",
+        "title": "A1400AMS3C"
+      }
+    ]
+  },
+  {
+    "family": "amd/k10-newer/",
+    "ids": [
+      "5950x",
+      "3950x",
+      "3600",
+      "2700x",
+      "7900",
+      "5700x3d",
+      "5600",
+      "3800x",
+      "2600x",
+      "5500",
+      "5700g",
+      "5600g",
+      "3300x",
+      "3100",
+      "3200g",
+      "2990wx",
+      "4700g",
+      "4600g",
+      "4500",
+      "4100",
+      "5995wx",
+      "3970x",
+      "1700x",
+      "1600x",
+      "fx9590",
+      "fx6300",
+      "am486dx4",
+      "amdk5pr100",
+      "amdk6-233",
+      "amdk62-300",
+      "athlon500",
+      "phenom9500",
+      "phenomii965",
+      "fx8150",
+      "c-cpu-amd-epyc-9754",
+      "c-cpu-amd-epyc-9734",
+      "c-cpu-amd-epyc-9634",
+      "c-cpu-amd-epyc-9554",
+      "c-cpu-amd-epyc-9454"
+    ],
+    "url": "https://cpumuseum.jimdofree.com/museum/amd/k10-newer/",
+    "status": 200,
+    "cache": "C:\\Users\\slowf\\Documents\\Codex\\2026-09-15\\lukasjt-pcpartperformance-x20\\pcpartperformance\\tmp\\remaining-cpu-oct17\\e00f2b7b7cb7e1616bb173d3.html",
+    "headings": [
+      "AMD Phenom II",
+      "AMD Phenom II X4 920"
+    ],
+    "gallery": [
+      {
+        "heading": "AMD Phenom II X4 920",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i775cf7ea88a9af9d/version/1494179977/image.jpg",
+        "title": "AMD Phenom II X4 920"
+      },
+      {
+        "heading": "AMD Phenom II X4 920",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i270361573ae058e9/version/1494179977/image.jpg",
+        "title": "AMD Phenom II X4 920"
+      },
+      {
+        "heading": "AMD Phenom II X4 920",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i7a4912cf40ee00da/version/1494179977/image.jpg",
+        "title": "AMD Phenom II X4 920"
+      },
+      {
+        "heading": "AMD Phenom II X4 920",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=png/path/s674ac0b1a38a76e3/image/i745b996acb5fb219/version/1494179990/image.png",
+        "title": ""
+      }
+    ]
+  },
+  {
+    "family": "intel/core-i/",
+    "ids": [
+      "i913900k",
+      "i912900k",
+      "i910900k",
+      "i77700k",
+      "ultra5245k",
+      "i911900k",
+      "i711700k",
+      "i511600k",
+      "i710700k",
+      "i79700k",
+      "i73770k",
+      "i914900ks",
+      "i913900ks",
+      "i912900ks",
+      "i911900",
+      "i711700",
+      "i511600",
+      "i910900",
+      "i710700",
+      "i510600",
+      "i510400f",
+      "i99900ks",
+      "i79700",
+      "i59600k",
+      "i58600k",
+      "i77700",
+      "i76700",
+      "i56600k",
+      "i74770k",
+      "i53570k",
+      "i914900",
+      "i714700",
+      "i514600",
+      "i514400f",
+      "i313100f",
+      "i912900",
+      "i712700",
+      "i512400f",
+      "i910980xe",
+      "i78086k",
+      "i76950x",
+      "i75960x",
+      "intel8080",
+      "intel8085",
+      "intel8088",
+      "intel486sx",
+      "intel486dx2"
+    ],
+    "url": "https://cpumuseum.jimdofree.com/museum/intel/core-i/",
+    "status": 200,
+    "cache": "C:\\Users\\slowf\\Documents\\Codex\\2026-09-15\\lukasjt-pcpartperformance-x20\\pcpartperformance\\tmp\\remaining-cpu-oct17\\17676616dfb9a06c1e2b1962.html",
+    "headings": [
+      "Nehalem",
+      "Intel Xeon E5502 (Nehalem-EP)",
+      "Intel Xeon X5650 (Nehalem-EP)",
+      "Intel Xeon MP L7545 (Beckton)",
+      "Westmere",
+      "Intel Core i3-350M",
+      "Sandy Bridge",
+      "Intel Core i3-2100",
+      "Intel Core i5-2400",
+      "Intel Celeron G550",
+      "Intel Core i5-2520M",
+      "Intel Mobile Celeron B815",
+      "Haswell",
+      "Intel Core i5-4570"
+    ],
+    "gallery": [
+      {
+        "heading": "Intel Xeon E5502 (Nehalem-EP)",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i2c3f2975e2102964/version/1494186691/image.jpg",
+        "title": "Intel Xeon E5502 Engineering Sample Q1E6"
+      },
+      {
+        "heading": "Intel Xeon E5502 (Nehalem-EP)",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ia080a6999dcf3058/version/1494186691/image.jpg",
+        "title": "Intel Xeon E5502 Engineering Sample Q1E6"
+      },
+      {
+        "heading": "Intel Xeon E5502 (Nehalem-EP)",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i6efd3fe50b8a06c4/version/1494186691/image.jpg",
+        "title": "Intel Xeon E5502 Engineering Sample Q1E6"
+      },
+      {
+        "heading": "Intel Xeon E5502 (Nehalem-EP)",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i84b6df913996545e/version/1494186691/image.jpg",
+        "title": "Intel Xeon E5502 SLBEZ"
+      },
+      {
+        "heading": "Intel Xeon E5502 (Nehalem-EP)",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ifb71bf0d6ca78754/version/1494186691/image.jpg",
+        "title": "Intel Xeon E5502 SLBEZ"
+      },
+      {
+        "heading": "Intel Xeon E5502 (Nehalem-EP)",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ie9285e3c5b39d55f/version/1494186691/image.jpg",
+        "title": "Intel Xeon E5502 SLBEZ"
+      },
+      {
+        "heading": "Intel Xeon X5650 (Nehalem-EP)",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i4d3dc602d4b6b731/version/1494186697/image.jpg",
+        "title": "SLBV3"
+      },
+      {
+        "heading": "Intel Xeon X5650 (Nehalem-EP)",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i84f97d95d14ab8e9/version/1494186697/image.jpg",
+        "title": "SLBV3"
+      },
+      {
+        "heading": "Intel Xeon X5650 (Nehalem-EP)",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i07c90f147ea8e57e/version/1494186697/image.jpg",
+        "title": "SLBV3"
+      },
+      {
+        "heading": "Intel Xeon MP L7545 (Beckton)",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ia76196cc258dc80b/version/1494186712/image.jpg",
+        "title": "Intel Xeon MP L7545 Beckton Engineering Sample Q3K6"
+      },
+      {
+        "heading": "Intel Xeon MP L7545 (Beckton)",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i5f64bc11c84fb3a8/version/1494186712/image.jpg",
+        "title": "Intel Xeon MP L7545 Beckton Engineering Sample Q3K6"
+      },
+      {
+        "heading": "Intel Xeon MP L7545 (Beckton)",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i857e15ec6064d34d/version/1494186712/image.jpg",
+        "title": "Intel Xeon MP L7545 Beckton Engineering Sample Q3K6"
+      },
+      {
+        "heading": "Intel Core i3-350M",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ifd9926d8b27638a0/version/1494186739/image.jpg",
+        "title": "SLBPK (I had to remove the reflection because otherwise my face would be visible)"
+      },
+      {
+        "heading": "Intel Core i3-350M",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i18a1c5b457ca6d5e/version/1494186739/image.jpg",
+        "title": "SLBPK"
+      },
+      {
+        "heading": "Intel Core i3-350M",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i17df2c2cbb40d2d7/version/1494186739/image.jpg",
+        "title": "SLBPK"
+      },
+      {
+        "heading": "Intel Core i3-2100",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i140d9dbf71e13f68/version/1494186746/image.jpg",
+        "title": "SR05C"
+      },
+      {
+        "heading": "Intel Core i3-2100",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i13a019a10271d48d/version/1494186746/image.jpg",
+        "title": "SR05C"
+      },
+      {
+        "heading": "Intel Core i3-2100",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i0ed6381b68607f50/version/1494186746/image.jpg",
+        "title": "SR05C"
+      },
+      {
+        "heading": "Intel Core i5-2400",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/if50fb80499f1b963/version/1494186752/image.jpg",
+        "title": "SR00Q"
+      },
+      {
+        "heading": "Intel Core i5-2400",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i62b519cce8db6a06/version/1494186752/image.jpg",
+        "title": "SR00Q"
+      },
+      {
+        "heading": "Intel Core i5-2400",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i080fafff5b878247/version/1494186752/image.jpg",
+        "title": "SR00Q"
+      },
+      {
+        "heading": "Intel Core i5-2400",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=png/path/s674ac0b1a38a76e3/image/i3d3047dc74432c1a/version/1494186763/image.png",
+        "title": ""
+      },
+      {
+        "heading": "Intel Celeron G550",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i1e06b1677e9d30fd/version/1494186814/image.jpg",
+        "title": "SR061"
+      },
+      {
+        "heading": "Intel Celeron G550",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ic921d5341dca2611/version/1494186814/image.jpg",
+        "title": "SR061"
+      },
+      {
+        "heading": "Intel Celeron G550",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/iab73fad288d28d94/version/1494186814/image.jpg",
+        "title": "SR061"
+      },
+      {
+        "heading": "Intel Celeron G550",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=png/path/s674ac0b1a38a76e3/image/i10c14618433a5662/version/1494186827/image.png",
+        "title": ""
+      },
+      {
+        "heading": "Intel Core i5-2520M",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ib6263e0aadb6e5bb/version/1494186839/image.jpg",
+        "title": ""
+      },
+      {
+        "heading": "Intel Core i5-2520M",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i726f7011a6f239b0/version/1494186839/image.jpg",
+        "title": ""
+      },
+      {
+        "heading": "Intel Core i5-2520M",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/iee0ca8c41c5a06b9/version/1494186839/image.jpg",
+        "title": ""
+      },
+      {
+        "heading": "Intel Mobile Celeron B815",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i30c4bb08255d7aa2/version/1494186874/image.jpg",
+        "title": "SR0HZ"
+      },
+      {
+        "heading": "Intel Mobile Celeron B815",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ia67957aa8784a4e9/version/1494186874/image.jpg",
+        "title": "SR0HZ"
+      },
+      {
+        "heading": "Intel Mobile Celeron B815",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/ie9fbf0d0a2f2f787/version/1494186874/image.jpg",
+        "title": "SR0HZ"
+      },
+      {
+        "heading": "Intel Core i5-4570",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i0fa0a26cedf2828d/version/1494186883/image.jpg",
+        "title": "SR14E"
+      },
+      {
+        "heading": "Intel Core i5-4570",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/i0dc2645da1031025/version/1494186883/image.jpg",
+        "title": "SR14E"
+      },
+      {
+        "heading": "Intel Core i5-4570",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s674ac0b1a38a76e3/image/idca33637aa3709d6/version/1494186883/image.jpg",
+        "title": "SR14E"
+      },
+      {
+        "heading": "Intel Core i5-4570",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=origxorig:format=png/path/s674ac0b1a38a76e3/image/i94ba2dab146e1481/version/1494186898/image.png",
+        "title": ""
+      }
+    ]
+  }
+]

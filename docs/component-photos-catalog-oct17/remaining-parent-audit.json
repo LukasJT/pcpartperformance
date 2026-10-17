@@ -1,0 +1,395 @@
+{
+  "checkedAt": "2026-10-17T21:39:27.575Z",
+  "scope": "Four historical RAM records and B550 revision1.2; B650 and ambiguous variants researched in remaining-special-audit.json",
+  "count": 5,
+  "rows": [
+    {
+      "id": "simm30-1mb",
+      "status": "repaired-reviewed",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:30_pin_SIMM_-_1Mo_-_taken_from_an_Atari_STE.jpg",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/30_pin_SIMM_-_1Mo_-_taken_from_an_Atari_STE.jpg/960px-30_pin_SIMM_-_1Mo_-_taken_from_an_Atari_STE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "identityEvidence": "Visible module and source caption confirm the exact capacity and pin/type standard of the generic historical record; this is an actual photographed specimen, with its named specimen identity preserved."
+    },
+    {
+      "id": "ddr266-256",
+      "status": "repaired-reviewed",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:256MB_PC2100_DDR.JPG",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/256MB_PC2100_DDR.JPG/960px-256MB_PC2100_DDR.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "identityEvidence": "Visible module and source caption confirm the exact capacity and pin/type standard of the generic historical record; this is an actual photographed specimen, with its named specimen identity preserved."
+    },
+    {
+      "id": "sdram-pc100",
+      "status": "repaired-reviewed",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kingston_Technology_KTC6611-128_SDR_SDRAM-3342.jpg",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Kingston_Technology_KTC6611-128_SDR_SDRAM-3342.jpg/960px-Kingston_Technology_KTC6611-128_SDR_SDRAM-3342.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "identityEvidence": "Visible KTC6611/128 label; Kingston discontinued-model specification confirms 128 MB, SDRAM 100 MHz and 168-pin DIMM. Matches the generic catalog specification; no claim that this standard describes one unique retail SKU."
+    },
+    {
+      "id": "ibmpc64k",
+      "status": "repaired-reviewed",
+      "sourceUrl": "https://www.minuszerodegrees.net/5150_5160/cards/5150_5160_cards.htm#64_adapter",
+      "imageUrl": "https://www.minuszerodegrees.net/5150_5160/cards/5150_5160_64_memory_expansion.jpg",
+      "identityEvidence": "The owned archival page identifies the IBM 64KB expansion option, two 32 KB banks and stacked 4132 DRAMs. Photo visibly reads 64KB MEM. CD. and XM 1806823; not the different 64/256 KB board."
+    },
+    {
+      "id": "retail-gigabyte-b550-aorus-elite-v2",
+      "status": "repaired-reviewed",
+      "sourceUrl": "https://www.ricardo.ch/de/a/gigabyte-b550-aorus-elite-v2-am4-mainboard-rev-12-atx-1286446754/",
+      "imageUrl": "https://img.ricardostatic.ch/images/a989b60f-1545-4327-96aa-611a02593c66/t_1800x1350/gigabyte-b550-aorus-elite-v2-am4-mainboard-rev-12-atx",
+      "identityEvidence": "Original owner listing explicitly identifies B550 AORUS ELITE V2 revision 1.2 and supplies ten photographs of that owned board. Selected full-board photograph shows the matching B550 AORUS ELITE V2 silkscreen, AM4 socket, four DIMM slots and physical layout without any conflicting version label. Revision is supported by the owner publication; no assertion that a reduced thumbnail certifies PCB revision or clearance."
+    }
+  ],
+  "attempts": [
+    {
+      "url": "https://www.oempcworld.com/OEMPCworld-com/013782.html",
+      "finalUrl": "https://oempcworld.com/collections/sdram.html",
+      "status": 429,
+      "contentType": "text/plain",
+      "retryAfter": "60",
+      "checkedAt": "2026-10-17T20:57:07.250Z",
+      "sha256": "fa2dd01ed96d38758e89e354653c39f366bc7a34e485772c8aa2174b53a465d3"
+    },
+    {
+      "url": "https://al-fullsize.object.pscloud.io/files/alfa/messages/2/4/1/4/8/24148635-6520146-GIGABYTE_B650_AORUS_ELITE_AX__rev._1.2_.webp",
+      "finalUrl": "https://al-fullsize.object.pscloud.io/files/alfa/messages/2/4/1/4/8/24148635-6520146-GIGABYTE_B650_AORUS_ELITE_AX__rev._1.2_.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "retryAfter": null,
+      "checkedAt": "2026-10-17T21:00:16.163Z",
+      "sha256": "0d3dad6f45f9aa0c0852de78f35c146a66a754104595db14f9c812a8f18c2c41"
+    },
+    {
+      "url": "https://www.ricardo.ch/de/a/gigabyte-b550-aorus-elite-v2-am4-mainboard-rev-12-atx-1286446754/",
+      "finalUrl": "https://www.ricardo.ch/de/a/gigabyte-b550-aorus-elite-v2-am4-mainboard-rev-12-atx-1286446754/",
+      "status": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "retryAfter": null,
+      "checkedAt": "2026-10-17T20:59:29.593Z",
+      "sha256": "2e402ba96c653e25864ac08378e8e4c82114df5bc2f40ccdf41e0889e5bbcbfc"
+    },
+    {
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&prop=imageinfo&iiprop=url%7Cextmetadata&iiurlwidth=800&titles=File:30%20pin%20SIMM%20-%201Mo%20-%20taken%20from%20an%20Atari%20STE.jpg&format=json",
+      "finalUrl": "https://commons.wikimedia.org/w/api.php?action=query&prop=imageinfo&iiprop=url%7Cextmetadata&iiurlwidth=800&titles=File:30%20pin%20SIMM%20-%201Mo%20-%20taken%20from%20an%20Atari%20STE.jpg&format=json",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "retryAfter": null,
+      "checkedAt": "2026-10-17T20:55:37.519Z",
+      "sha256": "ac5d614f16282559f8c83af7cc4cbd6c7517df275c30e18522c00aa90441da8d"
+    },
+    {
+      "url": "https://img.ricardostatic.ch/images/8b2b8598-2ec5-4148-917c-731704cc1d23/t_1800x1350/gigabyte-b550-aorus-elite-v2-am4-mainboard-rev-12-atx",
+      "finalUrl": "https://img.ricardostatic.ch/images/8b2b8598-2ec5-4148-917c-731704cc1d23/t_1800x1350/gigabyte-b550-aorus-elite-v2-am4-mainboard-rev-12-atx",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "retryAfter": null,
+      "checkedAt": "2026-10-17T21:13:15.230Z",
+      "sha256": "b323e3cac9d1508fd1361848f8539c4ef2f98887114ed7adcd933094b96f8068"
+    },
+    {
+      "url": "https://www.necxus.com.ar/products_image106/36872/1000x1000_5.jpg",
+      "finalUrl": "https://www.necxus.com.ar/products_image106/36872/1000x1000_5.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "retryAfter": null,
+      "checkedAt": "2026-10-17T20:58:05.787Z",
+      "sha256": "eba44ffe2f74d58ef23c12cd3cd1d9aeec0ccbe7e16f88a70360d788f8ea4dab"
+    },
+    {
+      "url": "https://www.kingston.com/datasheets/KTC6611_128.pdf",
+      "finalUrl": "https://www.kingston.com/datasheets/KTC6611_128.pdf",
+      "status": 404,
+      "contentType": null,
+      "retryAfter": null,
+      "checkedAt": "2026-10-17T21:00:14.653Z",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "url": "https://www.gigabyte.com/Motherboard/B650-AORUS-ELITE-AX-rev-12",
+      "finalUrl": "https://www.gigabyte.com/Motherboard/B650-AORUS-ELITE-AX-rev-12",
+      "status": 403,
+      "contentType": "text/html",
+      "retryAfter": null,
+      "checkedAt": "2026-10-17T20:55:12.613Z",
+      "sha256": "540fd8cabe54425192e4264547e1184fb6d42759be39e3d92a702a37dad4d441"
+    },
+    {
+      "url": "https://img.ricardostatic.ch/images/0d507fa4-5834-45e9-8b83-e0482c7fb2c2/t_1800x1350/gigabyte-b550-aorus-elite-v2-am4-mainboard-rev-12-atx",
+      "finalUrl": "https://img.ricardostatic.ch/images/0d507fa4-5834-45e9-8b83-e0482c7fb2c2/t_1800x1350/gigabyte-b550-aorus-elite-v2-am4-mainboard-rev-12-atx",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "retryAfter": null,
+      "checkedAt": "2026-10-17T21:13:16.477Z",
+      "sha256": "2459b73a56e52f82b83ac6a9b970dea1cf75bbb033278656c58e557f0c514d82"
+    },
+    {
+      "url": "https://www.crucial.com/memory/ddr5/cp2k32g60c36u5b",
+      "finalUrl": "https://www.crucial.com/memory/ddr5/cp2k32g60c36u5b",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "retryAfter": null,
+      "checkedAt": "2026-10-17T20:59:33.082Z",
+      "sha256": "c3a9ee96e0db94d5c208af6541880972356d712b9c62111ff222689a2c50d2ea"
+    },
+    {
+      "url": "https://store.supermicro.com/us_en/1600w-1u-pws-1k62a-1r.html",
+      "finalUrl": "https://store.supermicro.com/us_en/1600w-1u-pws-1k62a-1r.html",
+      "status": 403,
+      "contentType": "text/html",
+      "retryAfter": null,
+      "checkedAt": "2026-10-17T20:58:46.665Z",
+      "sha256": "5a1f7a4d744e27480f8863fbafafe8f6686f87e1826a91b3b838a3f954cc7e83"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/30_pin_SIMM_-_1Mo_-_taken_from_an_Atari_STE.jpg/960px-30_pin_SIMM_-_1Mo_-_taken_from_an_Atari_STE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "finalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/30_pin_SIMM_-_1Mo_-_taken_from_an_Atari_STE.jpg/960px-30_pin_SIMM_-_1Mo_-_taken_from_an_Atari_STE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "retryAfter": null,
+      "checkedAt": "2026-10-17T20:57:26.163Z",
+      "sha256": "eba8ecc3471f9db5341c56aae81d3cd0c544b3ca26081329dabfe4b4cfb9a320"
+    },
+    {
+      "url": "https://libreopcion.com.ar/motherboard-gigabyte-am5-b650-aorus-elite-ax-1-2-P727323",
+      "finalUrl": "https://libreopcion.com.ar/motherboard-gigabyte-am5-b650-aorus-elite-ax-1-2-P727323",
+      "status": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "retryAfter": null,
+      "checkedAt": "2026-10-17T20:55:37.335Z",
+      "sha256": "7d93846e45ed6fdb1d422f9114e9434c9b1915d77fe1e9460ebb81151ee5e443"
+    },
+    {
+      "url": "https://www.necxus.com.ar/products_image106/36872/1000x1000_3.jpg",
+      "finalUrl": "https://www.necxus.com.ar/products_image106/36872/1000x1000_3.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "retryAfter": null,
+      "checkedAt": "2026-10-17T20:56:46.551Z",
+      "sha256": "4970c9a8866f0f764525f8aa23bbaeda0a4817274c3c0bf47624bba4614347a5"
+    },
+    {
+      "url": "https://www.aorus.com/motherboards/B550-AORUS-ELITE-V2-rev-12/Gallery",
+      "finalUrl": "https://www.aorus.com/motherboards/B550-AORUS-ELITE-V2-rev-12/Gallery",
+      "status": 403,
+      "contentType": "text/html",
+      "retryAfter": null,
+      "checkedAt": "2026-10-17T20:55:12.278Z",
+      "sha256": "c2309fb85bdbd0cdb839aa81c20f313487732d4afbaa506a696dacfb65300705"
+    },
+    {
+      "url": "https://img.ricardostatic.ch/images/a989b60f-1545-4327-96aa-611a02593c66/t_1800x1350/gigabyte-b550-aorus-elite-v2-am4-mainboard-rev-12-atx",
+      "finalUrl": "https://img.ricardostatic.ch/images/a989b60f-1545-4327-96aa-611a02593c66/t_1800x1350/gigabyte-b550-aorus-elite-v2-am4-mainboard-rev-12-atx",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "retryAfter": null,
+      "checkedAt": "2026-10-17T21:09:18.104Z",
+      "sha256": "0a2f6c31c66f4c83a6e603c007f353a0b88a11bb559bb209a5024ba8a8d7e685"
+    },
+    {
+      "url": "https://www.necxus.com.ar/products_image106/36872/1000x1000_4.jpg",
+      "finalUrl": "https://www.necxus.com.ar/products_image106/36872/1000x1000_4.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "retryAfter": null,
+      "checkedAt": "2026-10-17T20:58:04.726Z",
+      "sha256": "ec88e2d45df506d7f9f78695e6e7a4f4747d42af59d685a2a55c13e30122bbc5"
+    },
+    {
+      "url": "https://www.gigabyte.com/Motherboard/B550-AORUS-ELITE-V2-rev-12#kf",
+      "finalUrl": "https://www.gigabyte.com/Motherboard/B550-AORUS-ELITE-V2-rev-12",
+      "status": 403,
+      "contentType": "text/html",
+      "retryAfter": null,
+      "checkedAt": "2026-10-17T20:58:03.330Z",
+      "sha256": "5d86de0066a6ef04c820112bde0d0e784df5c33668053f9f9a09b787b74d02de"
+    },
+    {
+      "url": "https://www.gigabyte.com/Motherboard/B550-AORUS-ELITE-V2-rev-12",
+      "finalUrl": "https://www.gigabyte.com/Motherboard/B550-AORUS-ELITE-V2-rev-12",
+      "status": 403,
+      "contentType": "text/html",
+      "retryAfter": null,
+      "checkedAt": "2026-10-17T20:55:12.452Z",
+      "sha256": "c3a69c5da1d716ee379f508f64a6f3fc3d07ac0d43da53d21b0432c986c6a4d0"
+    },
+    {
+      "url": "https://www.necxus.com.ar/productos/36872/mother-gigabyte-am5-b650-aorus-elite-ax-1-2",
+      "finalUrl": "https://www.necxus.com.ar/productos/36872/mother-gigabyte-am5-b650-aorus-elite-ax-1-2",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "retryAfter": null,
+      "checkedAt": "2026-10-17T20:55:59.258Z",
+      "sha256": "d2c10f1a5ecdd8cab1f9b0fb665d9f414d479fa37b1c5b4472d2f6deaf3bfa7b"
+    },
+    {
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&prop=imageinfo&iiprop=url%7Cextmetadata&iiurlwidth=800&titles=File:DDR-RAM%20266%20Mhz.jpg%7CFile:Kingston%20Technology%20KTC6611-128%20SDR%20SDRAM-3342.jpg&format=json",
+      "finalUrl": "https://commons.wikimedia.org/w/api.php?action=query&prop=imageinfo&iiprop=url%7Cextmetadata&iiurlwidth=800&titles=File:DDR-RAM%20266%20Mhz.jpg%7CFile:Kingston%20Technology%20KTC6611-128%20SDR%20SDRAM-3342.jpg&format=json",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "retryAfter": null,
+      "checkedAt": "2026-10-17T20:56:46.782Z",
+      "sha256": "540b10c956cf8603d7b2595f40559d3f91cdb8c61a441a83574a55c5c47b8778"
+    },
+    {
+      "url": "https://img.ricardostatic.ch/images/d1a4b94b-ffdc-450e-9663-d2fc09f97725/t_1800x1350/gigabyte-b550-aorus-elite-v2-am4-mainboard-rev-12-atx",
+      "finalUrl": "https://img.ricardostatic.ch/images/d1a4b94b-ffdc-450e-9663-d2fc09f97725/t_1800x1350/gigabyte-b550-aorus-elite-v2-am4-mainboard-rev-12-atx",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "retryAfter": null,
+      "checkedAt": "2026-10-17T21:09:19.592Z",
+      "sha256": "dc0d7b58f866310f0ddc627cf075cb65c0c2f913515e002a7299200d0aa2c193"
+    },
+    {
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&prop=imageinfo&iiprop=url%7Cextmetadata&iiurlwidth=800&titles=File:256MB%20PC2100%20DDR.JPG%7CFile:30%20pin%20SIMM%20-%201Mo%20-%20taken%20from%20an%20Atari%20STE.jpg&format=json",
+      "finalUrl": "https://commons.wikimedia.org/w/api.php?action=query&prop=imageinfo&iiprop=url%7Cextmetadata&iiurlwidth=800&titles=File:256MB%20PC2100%20DDR.JPG%7CFile:30%20pin%20SIMM%20-%201Mo%20-%20taken%20from%20an%20Atari%20STE.jpg&format=json",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "retryAfter": null,
+      "checkedAt": "2026-10-17T20:57:06.589Z",
+      "sha256": "8b39dd2f48775451ebfeb5f5d29626c68a859b061218f4cfff4c6e14b6817eda"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Kingston_Technology_KTC6611-128_SDR_SDRAM-3342.jpg/960px-Kingston_Technology_KTC6611-128_SDR_SDRAM-3342.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "finalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Kingston_Technology_KTC6611-128_SDR_SDRAM-3342.jpg/960px-Kingston_Technology_KTC6611-128_SDR_SDRAM-3342.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "retryAfter": null,
+      "checkedAt": "2026-10-17T20:58:19.313Z",
+      "sha256": "f66fab5d8dc827680f43f14ef2258103d64a3aa4d52078d9b5297197356fe1c2"
+    },
+    {
+      "url": "https://store.supermicro.com/pub/media/wysiwyg/productspecs/PWS-1K62A-1R/PWS-1K62A-1R_quick_spec.pdf",
+      "finalUrl": "https://store.supermicro.com/pub/media/wysiwyg/productspecs/PWS-1K62A-1R/PWS-1K62A-1R_quick_spec.pdf",
+      "status": 403,
+      "contentType": "text/html",
+      "retryAfter": null,
+      "checkedAt": "2026-10-17T21:00:16.316Z",
+      "sha256": "cf2193b65489aa6fccc501674e8a21b7bfa00f50322221008eab2941708d80da"
+    },
+    {
+      "url": "https://img.ricardostatic.ch/images/7fa4ebe9-e9f5-4891-9c46-3c3f1772bd2a/t_1800x1350/gigabyte-b550-aorus-elite-v2-am4-mainboard-rev-12-atx",
+      "finalUrl": "https://img.ricardostatic.ch/images/7fa4ebe9-e9f5-4891-9c46-3c3f1772bd2a/t_1800x1350/gigabyte-b550-aorus-elite-v2-am4-mainboard-rev-12-atx",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "retryAfter": null,
+      "checkedAt": "2026-10-17T21:13:17.166Z",
+      "sha256": "0ab1f9fb128fd2a3dbec92d6bfc93048e981e3d7ec3f97dfe19dc0a98c7b36b0"
+    },
+    {
+      "url": "https://img.ricardostatic.ch/images/d7f89335-4928-454f-a2a8-45d8c9a51bf3/t_1800x1350/gigabyte-b550-aorus-elite-v2-am4-mainboard-rev-12-atx",
+      "finalUrl": "https://img.ricardostatic.ch/images/d7f89335-4928-454f-a2a8-45d8c9a51bf3/t_1800x1350/gigabyte-b550-aorus-elite-v2-am4-mainboard-rev-12-atx",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "retryAfter": null,
+      "checkedAt": "2026-10-17T21:09:20.313Z",
+      "sha256": "f1c697751f7f0ccf93389e72dc5b0741bee4b00ecda9aa622f69e92b6de0dbdc"
+    },
+    {
+      "url": "https://www.minuszerodegrees.net/5150_5160/cards/5150_5160_64_memory_expansion.jpg",
+      "finalUrl": "https://www.minuszerodegrees.net/5150_5160/cards/5150_5160_64_memory_expansion.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "retryAfter": null,
+      "checkedAt": "2026-10-17T20:56:44.205Z",
+      "sha256": "1904df8d2afeb6fcd145fffe1d5c76b1bb58f0ad344418f94563da2cf981060e"
+    },
+    {
+      "url": "https://www.vintage-pc-collection.eu/collection/ibm-personal-computers/ibm-pc-hw-and-sw-collection/ibm-pc-memory-expansion-boards",
+      "finalUrl": "https://www.vintage-pc-collection.eu/collection/ibm-personal-computers/ibm-pc-hw-and-sw-collection/ibm-pc-memory-expansion-boards",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "retryAfter": null,
+      "checkedAt": "2026-10-17T20:55:58.069Z",
+      "sha256": "d932a03eed3cd3418b801f79bdba8521f20c36f2e043a74a6b94c6fcfbcc2135"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/256MB_PC2100_DDR.JPG/960px-256MB_PC2100_DDR.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "finalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/256MB_PC2100_DDR.JPG/960px-256MB_PC2100_DDR.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "retryAfter": null,
+      "checkedAt": "2026-10-17T20:57:26.469Z",
+      "sha256": "251b0688000fd6428f7494374e9a39d6be09f08ec49ea76a914d1134f71d265a"
+    },
+    {
+      "url": "https://img.ricardostatic.ch/images/832f9f9b-5dc1-4b9a-8e0b-082db75744b8/t_1800x1350/gigabyte-b550-aorus-elite-v2-am4-mainboard-rev-12-atx",
+      "finalUrl": "https://img.ricardostatic.ch/images/832f9f9b-5dc1-4b9a-8e0b-082db75744b8/t_1800x1350/gigabyte-b550-aorus-elite-v2-am4-mainboard-rev-12-atx",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "retryAfter": null,
+      "checkedAt": "2026-10-17T21:13:17.831Z",
+      "sha256": "e12c9a4cc172e2b18464ba2a49ec3c5c010606aa06a863f384832643fda5a7d4"
+    },
+    {
+      "url": "https://alfa.kz/parts/motherboard/gigabyte/b650_aorus_elite_ax__rev__1_2_/amd_b650/7805744",
+      "finalUrl": "https://alfa.kz/parts/motherboard/gigabyte/b650_aorus_elite_ax__rev__1_2_/amd_b650/7805744",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "retryAfter": null,
+      "checkedAt": "2026-10-17T20:59:32.558Z",
+      "sha256": "07056848ebcf3e94a1e6464b7f7c1dadf9d232ac894f7df190b607571712c1ad"
+    },
+    {
+      "url": "https://www.crucial.com/memory/ddr5/cp2k32g60c40u5b",
+      "finalUrl": "https://www.crucial.com/memory/ddr5/cp2k32g60c40u5b",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "retryAfter": null,
+      "checkedAt": "2026-10-17T20:59:33.347Z",
+      "sha256": "1418ded91b2bff485a42fc17d2517197acaad9c596b53715b8cfcdb2f322bbe1"
+    },
+    {
+      "url": "https://static.gigabyte.com/StaticFile/Image/Global/c624491e25d3bd2fd32558146e70da78/ProductRemoveBg/32755",
+      "finalUrl": "https://static.gigabyte.com/StaticFile/Image/Global/c624491e25d3bd2fd32558146e70da78/ProductRemoveBg/32755",
+      "status": 200,
+      "contentType": "image/png",
+      "retryAfter": null,
+      "checkedAt": "2026-10-17T20:58:46.470Z",
+      "sha256": "dac10f9b0e43ce972f57dad2e962b82c5989e67899b10060feb907b70116e6d0"
+    },
+    {
+      "url": "https://www.pocitace-mobily.cz/www/cs/printout/printproduct?StiId=285335",
+      "finalUrl": "https://www.pocitace-mobily.cz/www/cs/printout/printproduct?StiId=285335",
+      "status": 404,
+      "contentType": "text/html; charset=utf-8",
+      "retryAfter": null,
+      "checkedAt": "2026-10-17T20:58:03.205Z",
+      "sha256": "3e4c9815dcb7da2a767f6e94824971fb78eefca15bf028633520cd347a6aee21"
+    },
+    {
+      "url": "https://www.minuszerodegrees.net/5150_5160/cards/5150_5160_cards.htm",
+      "finalUrl": "https://www.minuszerodegrees.net/5150_5160/cards/5150_5160_cards.htm",
+      "status": 200,
+      "contentType": "text/html",
+      "retryAfter": null,
+      "checkedAt": "2026-10-17T20:55:57.128Z",
+      "sha256": "2e8be74061a110783e304ee33ced682fa98d7de0debe9f2975f8364ee5e06a9b"
+    },
+    {
+      "url": "https://www.expertsystems.co.in/product/b650-aorus-elite-ax-rev-1-2/",
+      "finalUrl": "https://www.expertsystems.co.in/product/b650-aorus-elite-ax-rev-1-2/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "retryAfter": null,
+      "checkedAt": "2026-10-17T20:55:37.140Z",
+      "sha256": "ff6b496b8dc9eb38c0f49bb6d52e655ff5d568390ad5c3672db8c72bbdc778d0"
+    },
+    {
+      "url": "https://www.necxus.com.ar/products_image106/36872/1000x1000_1.jpg",
+      "finalUrl": "https://www.necxus.com.ar/products_image106/36872/1000x1000_1.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "retryAfter": null,
+      "checkedAt": "2026-10-17T20:56:45.396Z",
+      "sha256": "852661bd8c781d90c473ed2a63dbd1dfecf72ea8887256e8285cbc50138e794e"
+    },
+    {
+      "url": "https://www.aorus.com/motherboards/b650-aorus-elite-ax-rev-12/Gallery",
+      "finalUrl": "https://www.aorus.com/motherboards/b650-aorus-elite-ax-rev-12/Gallery",
+      "status": 403,
+      "contentType": "text/html",
+      "retryAfter": null,
+      "checkedAt": "2026-10-17T20:55:12.158Z",
+      "sha256": "eff180ed101312ef88d81aaf41b6d9b31e7854a64af09a15eaea30c07e3ff214"
+    }
+  ]
+}

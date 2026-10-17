@@ -1,0 +1,515 @@
+{
+  "checked": "2026-10-17",
+  "scope": 18,
+  "repaired": 18,
+  "unresolved": 0,
+  "assetFiles": 36,
+  "bytes": 1026082,
+  "maxThumbnailBytes": 21456,
+  "validationErrors": [],
+  "records": [
+    {
+      "id": "4100",
+      "catalogName": "Ryzen 3 4100",
+      "status": "repaired",
+      "picturedModel": "AMD Ryzen 3 4100",
+      "sourceUrl": "https://tecnogaming.com/amd-ryzen-3-4100/",
+      "imageUrl": "https://tecnogaming.com/wp-content/uploads/2022/08/AMD-Ryzen-3-4100-Review-01.jpg",
+      "identityEvidence": "Original TecnoGaming review photograph visibly reads AMD Ryzen 3 4100 and 100-000000510 on the heat spreader. The actual CPU is photographed before a Ryzen box; it is not a 4500 comparison processor.",
+      "rightsStatus": "Public product photograph from the cited listing or review. Copyright ownership and reuse permission are not inferred; not an open-license image.",
+      "sourceSha256": "06d19346b48db75eab1465f1f3b7b7c2fae9926bd0d360834a92f4031695a564",
+      "sha256": "206eb5c30c89977a55f5d2290e9d127dfba5ab54457146af2a9f9097d6aefc58",
+      "thumbnailSha256": "883ffbfc4f6a3ec61775319487f258f5ef13d85eb7f34c1b9cbe26784dfec62c",
+      "visualReviewed": true
+    },
+    {
+      "id": "4500",
+      "catalogName": "Ryzen 5 4500",
+      "status": "repaired",
+      "picturedModel": "AMD Ryzen 5 4500",
+      "sourceUrl": "https://ua.gecid.com/cpu/amd_ryzen_5_4500/",
+      "imageUrl": "https://ua.gecid.com/data/cpu/202207190900-66362/img/04.jpg",
+      "identityEvidence": "Original GECID review photograph shows a single processor with heat spreader marking AMD Ryzen 5 4500. The publisher model caption also reads AMD Ryzen 5 4500. Publisher watermark and caption retained.",
+      "rightsStatus": "Public product photograph from the cited listing or review. Copyright ownership and reuse permission are not inferred; not an open-license image.",
+      "sourceSha256": "86ccc8a6b3e63ad3a70790e274d9ae142330130ae7605c22ca04d9c441091af1",
+      "sha256": "30ef85a705d21ad5e852998f06aa1c669fc136b97d962f8191570f13e9346238",
+      "thumbnailSha256": "4f0ccb057a98cabde8c6589334cdb0c1c18116fbb03fa00b403c58a6bdcc7794",
+      "visualReviewed": true
+    },
+    {
+      "id": "5500",
+      "catalogName": "Ryzen 5 5500",
+      "status": "repaired",
+      "picturedModel": "AMD Ryzen 5 5500",
+      "sourceUrl": "https://www.techspot.com/review/2494-amd-ryzen-5500/",
+      "imageUrl": "https://www.techspot.com/articles-info/2494/images/2022-07-05-image-8.jpg",
+      "identityEvidence": "Original TechSpot review photograph shows a single AM4 processor held by a toy figure; the heat spreader model marking reads AMD Ryzen 5 5500. The original background and figure are retained.",
+      "rightsStatus": "Public product photograph from the cited listing or review. Copyright ownership and reuse permission are not inferred; not an open-license image.",
+      "sourceSha256": "428ffc5f9fab2a3f1ab076481f22527fe1f1b0ee81e6d5f24aa9bdca93f499c8",
+      "sha256": "0e57c1e781475729725a4334350a5ba8b8ce5e194cdad27b2f72dc885dd58e4a",
+      "thumbnailSha256": "4ac835edb81931b3234b0817daaf41736208212993d744ebca4ec1d88bb30737",
+      "visualReviewed": true
+    },
+    {
+      "id": "3950x",
+      "catalogName": "Ryzen 9 3950X",
+      "status": "repaired",
+      "picturedModel": "AMD Ryzen 9 3950X",
+      "sourceUrl": "https://hexus.net/tech/reviews/cpu/136391-amd-ryzen-9-3950x/",
+      "imageUrl": "https://hexus.net/media/uploaded/2019/11/1df86462-312b-4147-a47c-1c0ef6338062.jpg",
+      "identityEvidence": "Original HEXUS 3950X review photograph shows the actual Ryzen 9 3950X in its clear clamshell before the retail box. The heat spreader model marking reads AMD Ryzen 9 3950X; the 16-core review context matches the catalog. No 3900X or 5950X family image is substituted.",
+      "rightsStatus": "Public product photograph from the cited listing or review. Copyright ownership and reuse permission are not inferred; not an open-license image.",
+      "sourceSha256": "212febbf01fb8ed24aedbc252fa1e45659f359db40001bbc6db311b3d7636506",
+      "sha256": "0e66e88b2da32a79dbe1f994c0a5225e68e6d9f2f750bc1308f5cb395c604f23",
+      "thumbnailSha256": "47af8a5a3e20000c340205161d4de410cd20cf57b73e48f2e22076b5df126f53",
+      "visualReviewed": true
+    },
+    {
+      "id": "5700x3d",
+      "catalogName": "Ryzen 7 5700X3D",
+      "status": "repaired",
+      "picturedModel": "AMD Ryzen 7 5700X3D",
+      "sourceUrl": "https://www.techspot.com/review/2801-amd-ryzen-5700x3d/",
+      "imageUrl": "https://www.techspot.com/articles-info/2801/images/2024-02-06-image.jpg",
+      "identityEvidence": "Original TechSpot review photograph visibly reads AMD Ryzen 7 5700X3D on the heat spreader. It is the 5700X3D, not the 5700X or 5800X3D mentioned for comparisons in the article.",
+      "rightsStatus": "Public product photograph from the cited listing or review. Copyright ownership and reuse permission are not inferred; not an open-license image.",
+      "sourceSha256": "105830c65d0d4e22a93bf9d5c991b7252024625e27e57f234c6af0a8efc03537",
+      "sha256": "8baf1d3df005c28b4128aac132e036762c5dcd4200d38844dd06f603b22f8857",
+      "thumbnailSha256": "f83c9ea1a9293663fdc9ec842b37e31fe56c477f0a99ccc84a6174aac06afe7f",
+      "visualReviewed": true
+    },
+    {
+      "id": "3800x",
+      "catalogName": "Ryzen 7 3800X",
+      "status": "repaired",
+      "picturedModel": "AMD Ryzen 7 3800X",
+      "sourceUrl": "https://www.techspot.com/review/1899-ryzen-3800x-vs-3700x-difference/",
+      "imageUrl": "https://www.techspot.com/articles-info/1899/images/2019-08-23-image-4.jpg",
+      "identityEvidence": "Original TechSpot review photograph visibly reads AMD Ryzen 7 3800X on the heat spreader. The article compares 3800X and 3700X; this selected single-processor photograph is the explicitly marked 3800X.",
+      "rightsStatus": "Public product photograph from the cited listing or review. Copyright ownership and reuse permission are not inferred; not an open-license image.",
+      "sourceSha256": "eaae47575d1e8034cbba9ba061a87f766977cd2a6180e55faee119f2d1f1cec0",
+      "sha256": "55a0f7ad12330e2bdc80681c5d10e39cd504811be1fa50d9242bc51266eb838d",
+      "thumbnailSha256": "e8eabb8b372bf70c59d0494821f16599e453499fca05810e57b642669027d0c6",
+      "visualReviewed": true
+    },
+    {
+      "id": "3200g",
+      "catalogName": "Ryzen 3 3200G",
+      "status": "repaired",
+      "picturedModel": "AMD Ryzen 3 3200G",
+      "sourceUrl": "https://compx.ua/protsesor-amd-ryzen-3-3200g-yd3200c5m4mfh-b-v/",
+      "imageUrl": "https://compx.ua/image/cache/catalog/products/64/c16589cf-5934-11ee-8f90-001b21ea407b-1400x1400.jpg",
+      "identityEvidence": "The CompX exact used-product listing names Ryzen 3 3200G / YD3200C5M4MFH. Actual downloaded photo visibly reads AMD Ryzen 3 3200G and YD3200C5M4MFH, matching the non-PRO Picasso AM4 record.",
+      "rightsStatus": "Public product photograph from the cited listing or review. Copyright ownership and reuse permission are not inferred; not an open-license image.",
+      "sourceSha256": "e279f8dab2572d5c11debdebfa3744e18411150004418fb001dc9c82e782ea90",
+      "sha256": "4c6647ebe2ee74f83247154d9bebf816d9f7e3043b13e8463e48c72567709927",
+      "thumbnailSha256": "8603651d3e93098548c580ee60a618360c75e1608546aa4c61696a8d4415ff33",
+      "visualReviewed": true
+    },
+    {
+      "id": "2990wx",
+      "catalogName": "Ryzen Threadripper 2990WX",
+      "status": "repaired",
+      "picturedModel": "AMD Ryzen Threadripper 2990WX",
+      "sourceUrl": "https://www.phoronix.com/review/amd-linux-2990wx",
+      "imageUrl": "https://www.phoronix.net/image.php?id=amd-linux-2990wx&image=amd_tr2990wx_5_med",
+      "identityEvidence": "The Phoronix original review photo shows a single orange-carrier processor with heat spreader marking AMD Ryzen Threadripper 2990WX and YD299XAZUIHAF. It is distinct from the 2950X comparative photo rejected during this pass.",
+      "rightsStatus": "Public product photograph from the cited listing or review. Copyright ownership and reuse permission are not inferred; not an open-license image.",
+      "sourceSha256": "2bae7a28522b41b5b824e4369407befbcb11f69d48076b91b6ee974ff56212fe",
+      "sha256": "748a1058e8ea8aae1597cfb2f08b3e3de263b67981ea7a4b229f5da403659e95",
+      "thumbnailSha256": "d73cf232752c33dd65349a6e7844ced023c5edc7efbace89bb326459d394b3d9",
+      "visualReviewed": true
+    },
+    {
+      "id": "4700g",
+      "catalogName": "Ryzen 7 4700G",
+      "status": "repaired",
+      "picturedModel": "AMD Ryzen 7 4700G",
+      "sourceUrl": "https://xeon.vn/p/cpu-amd-ryzen-7-4700g",
+      "imageUrl": "https://api.legacy.dewcms.com/uploads/public/derived/p_m/4700G--tray-1.png",
+      "identityEvidence": "The Xeon.vn exact product photo visibly reads AMD Ryzen 7 4700G and 100-000000146 on the processor. Its retailer caption also specifies 4700G, 3.6-4.4GHz, 8 cores / 16 threads. It is the non-PRO 4700G, not PRO 4750G.",
+      "rightsStatus": "Public product photograph from the cited listing or review. Copyright ownership and reuse permission are not inferred; not an open-license image.",
+      "sourceSha256": "e71fd2967e90675bce7f840b381594b131e982ef29619a76ce0f074fc03f6c0f",
+      "sha256": "5092186b766796661eaf172f5120c3b99ac2923aaa7b836ef4409ae038f70556",
+      "thumbnailSha256": "8abbae27923714d3f4347bb001b391fb1a95ebceff7602bec1b8a50c946a88f6",
+      "visualReviewed": true
+    },
+    {
+      "id": "4600g",
+      "catalogName": "Ryzen 5 4600G",
+      "status": "repaired",
+      "picturedModel": "AMD Ryzen 5 4600G",
+      "sourceUrl": "https://nextlevelpc.ma/processeur/93575-amd-ryzen-5-4600g-37-ghz-42-ghz-tray.html",
+      "imageUrl": "https://nextlevelpc.ma/93818-large_default/amd-ryzen-5-4600g-37-ghz-42-ghz-tray.jpg",
+      "identityEvidence": "Next Level PC exact 4600G tray listing photograph visibly reads AMD Ryzen 5 4600G and 100-000000147. It is the non-PRO 4600G, not PRO 4650G; a mismatched generic family or box image was not used.",
+      "rightsStatus": "Public product photograph from the cited listing or review. Copyright ownership and reuse permission are not inferred; not an open-license image.",
+      "sourceSha256": "97dc8f3719cc944763ce8112391332e4c62d8106420c41e525d27e1329508880",
+      "sha256": "6ed365fffe2944c6235539bb628d8404c64146be4b7c306d6e9a959a4e842307",
+      "thumbnailSha256": "551dd7bee7c391e83c74b6f197d5d1396bd5884c08dda603d11a7ebb50136c57",
+      "visualReviewed": true
+    },
+    {
+      "id": "5995wx",
+      "catalogName": "Ryzen Threadripper PRO 5995WX",
+      "status": "repaired",
+      "picturedModel": "AMD Ryzen Threadripper PRO 5995WX",
+      "sourceUrl": "https://www.techspot.com/review/2512-amd-ryzen-threadripper-pro-5995wx/",
+      "imageUrl": "https://www.techspot.com/articles-info/2512/images/2022-08-08-image.jpg",
+      "identityEvidence": "Original TechSpot review photograph visibly reads AMD Ryzen Threadripper PRO 5995WX on the heat spreader installed in the WRX80 motherboard. It is the exact 64-core 5995WX, not the 5975WX or newer 7995WX.",
+      "rightsStatus": "Public product photograph from the cited listing or review. Copyright ownership and reuse permission are not inferred; not an open-license image.",
+      "sourceSha256": "304ea06a5d1297a46a1ca0f030010a3bd09a31341240b493bd2d22a6791b77e2",
+      "sha256": "9eb3bcdba468cc4440f0be594a0e8365d9f123f91fe9a751e777bacb69336778",
+      "thumbnailSha256": "f2512b8e481620a930e9bca503b9e7753e6cbf92b0b7199fc5556ae4b88567b0",
+      "visualReviewed": true
+    },
+    {
+      "id": "3970x",
+      "catalogName": "Ryzen Threadripper 3970X",
+      "status": "repaired",
+      "picturedModel": "AMD Ryzen Threadripper 3970X",
+      "sourceUrl": "https://www.techspot.com/review/1946-amd-threadripper-3970x-3960x/",
+      "imageUrl": "https://www.techspot.com/articles-info/1946/images/2019-11-25-image-8.jpg",
+      "identityEvidence": "Original TechSpot review photograph visibly reads AMD Ryzen Threadripper 3970X and 100-000000011 on the heat spreader installed in the socket. The review also covers 3960X, but this selected single-CPU photograph is explicitly marked 3970X.",
+      "rightsStatus": "Public product photograph from the cited listing or review. Copyright ownership and reuse permission are not inferred; not an open-license image.",
+      "sourceSha256": "d8a49f63e3df221408611d4b4537d0156468d3fb9bff1839486b31d6314b784f",
+      "sha256": "477334e11738daeb319d30782e6a5977cbac963ba7e15c9d1e32ee5e955fff0c",
+      "thumbnailSha256": "4e050f3639e40d2b4fd698f9a0c1e154e095463444c07b184d49e68c2b411184",
+      "visualReviewed": true
+    },
+    {
+      "id": "1700x",
+      "catalogName": "Ryzen 7 1700X",
+      "status": "repaired",
+      "picturedModel": "AMD Ryzen 7 1700X",
+      "sourceUrl": "https://used.sofmap.com/r/item/2133042839951",
+      "imageUrl": "https://image.sofmap.com/images/product/other/2133042839951_1.jpg",
+      "identityEvidence": "The actual Sofmap used-product photo visibly reads AMD Ryzen 7 1700X and YD170XB... on the heat spreader. The suffix X is present, distinguishing it from the 1700 and 1800X.",
+      "rightsStatus": "Public product photograph from the cited listing or review. Copyright ownership and reuse permission are not inferred; not an open-license image.",
+      "sourceSha256": "24e2224ce62f4331bcccacd3b3830afc59fad967906a38f9a20ee9b2532414f1",
+      "sha256": "6e85dcb36a181938cef80657c70d6c618eefa67e812ee9a31a897944e4e1d3fc",
+      "thumbnailSha256": "b91df68fd496f1b70c4aa9f078406607f4df71c1bf90e01c2f04f88655fe8b5f",
+      "visualReviewed": true
+    },
+    {
+      "id": "fx9590",
+      "catalogName": "FX-9590",
+      "status": "repaired",
+      "picturedModel": "AMD FX-9590",
+      "sourceUrl": "https://www.tech-review.de/test-amd-fx-9590.html",
+      "imageUrl": "https://www.tech-review.de/assets/pool/tests/prozessor/AMD_FX-9590/03_AMD_FX-9590.jpg",
+      "identityEvidence": "Original Tech-Review comparison photo shows FD9590FHW8KHK on the left processor and FD8350FRW8KHK on the right. The published review identifies FD9590FHW8KHK as its FX-9590 sample. A rectangular crop retains only the complete left FX-9590 processor, removing the unrelated FX-8350 from the catalog image. No labels are changed or synthesized.",
+      "rightsStatus": "Public product photograph from the cited listing or review. Copyright ownership and reuse permission are not inferred; not an open-license image.",
+      "sourceSha256": "a407938ff7d3b5500cb3b2eca2865a4a6fdd14a15c1f04d3d6cdbdca80e7d94e",
+      "sha256": "09719f22e59558a13b23f6cad1235d7589343ab1a12c751ceed3e9bebb221c47",
+      "thumbnailSha256": "6e8d66d32989bda66a9043d843dbf7bbdca49514c38d7ebe0615d4ddd8df969d",
+      "visualReviewed": true
+    },
+    {
+      "id": "fx6300",
+      "catalogName": "FX-6300",
+      "status": "repaired",
+      "picturedModel": "AMD FX-6300",
+      "sourceUrl": "https://starmicroinc.net/amd-fx-6300-3-50ghz-8mb-socket-am3-940-pin-desktop-oem-cpu-fd6300wmw6khk/",
+      "imageUrl": "https://cdn11.bigcommerce.com/s-0yiknm/images/stencil/1280x1280/products/9690/25891/s-l1600_1_7__92761.1733273343.jpg?c=2",
+      "identityEvidence": "Star Micro exact FD6300WMW6KHK product listing photo visibly reads FD6300WMW6KHK on the actual processor, matching AMD FX-6300 3.5GHz / six-core / AM3+ identity.",
+      "rightsStatus": "Public product photograph from the cited listing or review. Copyright ownership and reuse permission are not inferred; not an open-license image.",
+      "sourceSha256": "d19573aaa336caa07108079ce800461bbb870bb84f88071a403a67004251a045",
+      "sha256": "0cd0cc1cd7fbf79fd4179d39dd1ae80c1292a1ef548cbc103008e0924a226a4a",
+      "thumbnailSha256": "4d853ad43b1d88b265412c668140c32a2551aa61cdf23b34f58c66b35916b169",
+      "visualReviewed": true
+    },
+    {
+      "id": "phenom9500",
+      "catalogName": "AMD Phenom 9500",
+      "status": "repaired",
+      "picturedModel": "AMD Phenom 9500",
+      "sourceUrl": "https://compx.ua/procesor-amd-phenom-x4-9500-hd9500wcj4bgd-2461743/",
+      "imageUrl": "https://compx.ua/image/catalog/products/64/803b2dc8-d3ef-11ef-8f9a-001b21ea407b.jpg",
+      "identityEvidence": "CompX exact used-product photo visibly reads AMD Phenom and HD9500WCJ4BGD, the exact model code in the catalog source for Phenom 9500. It is not the later 9550 or 9650.",
+      "rightsStatus": "Public product photograph from the cited listing or review. Copyright ownership and reuse permission are not inferred; not an open-license image.",
+      "sourceSha256": "95c55e01ad9b8cb6472d688f79485b867c9403898d7ac6fca6738abc97c38b87",
+      "sha256": "0ce5431d91c2587ad55325986fb2620be762ca900ef0e8494d2c38ab0b2f3339",
+      "thumbnailSha256": "9ed6010b1de97d16119b4e374e4ee12e7c51a3d2a02d9b88f2a0eeb3ed068998",
+      "visualReviewed": true
+    },
+    {
+      "id": "phenomii965",
+      "catalogName": "AMD Phenom II X4 965 Black Edition",
+      "status": "repaired",
+      "picturedModel": "AMD Phenom II X4 965 Black Edition, C3 125W, HDZ965FBK4DGM",
+      "sourceUrl": "https://www.4gamer.net/games/077/G007794/20091103002/",
+      "imageUrl": "https://www.4gamer.net/games/077/G007794/20091103002/SS/002.jpg",
+      "identityEvidence": "Original 4Gamer November 2009 125W review photo visibly reads HDZ965FBK4DGM on the actual processor. The article caption explicitly identifies that sample OPN, and its review covers the new C3 125W model. This matches the catalog source exactly; the earlier C2 140W HDZ965FBK4DGI launch photo is not used.",
+      "rightsStatus": "Public product photograph from the cited listing or review. Copyright ownership and reuse permission are not inferred; not an open-license image.",
+      "sourceSha256": "0f6d3a59d479fdf55c0e3e44bd80e943385290c5669a967954c325688274f12f",
+      "sha256": "186c8e63eab81b36cd060c3257f2cd370938c8d2fba2f57ed8173ed7fa3b1b6e",
+      "thumbnailSha256": "cd3e2bdaa468cf02abfb3269792459ede926003444576159657541c814c0c0b7",
+      "visualReviewed": true
+    },
+    {
+      "id": "c-cpu-amd-epyc-9734",
+      "catalogName": "AMD EPYC 9734",
+      "status": "repaired",
+      "picturedModel": "AMD EPYC 9734, 112-core Bergamo production CPU, IHS part100-000000669",
+      "sourceUrl": "https://www.ebay.com/itm/177572245433",
+      "imageUrl": "https://i.ebayimg.com/images/g/WrwAAOSwDgdlQxZL/s-l1200.jpg",
+      "identityEvidence": "The actual listing photo visibly reads EPYC, 9734 and 100-000000669 on its green-carrier SP5 processor. Primary MSI S2206 system Component AVL, page 1, lists AMD Bergamo 9734, 3.0GHz, 340W, 112 cores, PR, SP5, 2P, 100-000000669-00. This confirms the photographed production model identity even though AMD current product page lists tray ordering code 100-000001235. No 9754, 9334 or engineering-sample family photo is substituted.",
+      "rightsStatus": "Public product photograph from the cited listing or review. Copyright ownership and reuse permission are not inferred; not an open-license image.",
+      "sourceSha256": "7784b7bb5d295e70ed9551fdfb7ac8cd5961e4363bc14d719895dd040df2e223",
+      "sha256": "0214115c04e115d5fd2e29a10ccd9a9f5ada96708bdfa47f4adf04842483ff3f",
+      "thumbnailSha256": "9b105bf2ca98f68961f4bfb2accfca1191151dfbd82be170dd07bfaf48e5d879",
+      "visualReviewed": true
+    }
+  ],
+  "attempts": [
+    {
+      "id": "3800x",
+      "status": "failed",
+      "sourceUrl": "https://news.xfastest.com/review/review-02/69279/amd-ryzen-7-3800x/",
+      "imageUrl": "https://p.xfastest.com/~sinchen/AMD-Ryzen-7-3800X/AMD-Ryzen-7-3800X-6.jpg",
+      "error": "HTTP 403"
+    },
+    {
+      "id": "5500",
+      "status": "downloaded",
+      "sourceUrl": "https://www.techspot.com/review/2494-amd-ryzen-5500/",
+      "imageUrl": "https://www.techspot.com/articles-info/2494/images/2022-07-05-image-8.jpg",
+      "width": 2560,
+      "height": 1440
+    },
+    {
+      "id": "3950x",
+      "status": "failed",
+      "sourceUrl": "https://www.techspot.com/review/1940-amd-ryzen-9-3950x/",
+      "imageUrl": "https://www.digitec.ch/Files/3/1/6/0/1/6/8/3/teaser21.jpeg",
+      "error": "HTTP 403"
+    },
+    {
+      "id": "5700x3d",
+      "status": "downloaded",
+      "sourceUrl": "https://www.techspot.com/review/2801-amd-ryzen-5700x3d/",
+      "imageUrl": "https://www.techspot.com/articles-info/2801/images/2024-02-06-image.jpg",
+      "width": 2560,
+      "height": 1440
+    },
+    {
+      "id": "3200g",
+      "status": "downloaded",
+      "sourceUrl": "https://www.ebay.com/itm/165989928086",
+      "imageUrl": "https://i.ebayimg.com/images/g/R4MAAOSw00VkF73e/s-l400.png",
+      "width": 395,
+      "height": 400
+    },
+    {
+      "id": "2990wx",
+      "status": "failed",
+      "sourceUrl": "https://news.xfastest.com/review/review-02/52811/amd-ryzen-threadripper-2990wx-2950x-openbox/",
+      "imageUrl": "https://p.xfastest.com/~sinchen/AMD-Ryzen-Threadripper-2990WX-2950X/AMD-Ryzen-Threadripper-2990WX-2950X-20.jpg",
+      "error": "HTTP 403"
+    },
+    {
+      "id": "4600g",
+      "status": "failed",
+      "sourceUrl": "https://www.microcenter.com/product/674514/amd-ryzen-5-4600g-renoir-34ghz-6-core-am4-boxed-processor-wraith-stealth-cooler-included",
+      "imageUrl": "https://productimages.microcenter.com/674514_643825_02_front_comping.jpg",
+      "error": "HTTP 403"
+    },
+    {
+      "id": "4100",
+      "status": "downloaded",
+      "sourceUrl": "https://tecnogaming.com/amd-ryzen-3-4100/",
+      "imageUrl": "https://tecnogaming.com/wp-content/uploads/2022/08/AMD-Ryzen-3-4100-Review-01.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": "4500",
+      "status": "downloaded",
+      "sourceUrl": "https://ua.gecid.com/cpu/amd_ryzen_5_4500/",
+      "imageUrl": "https://ua.gecid.com/data/cpu/202207190900-66362/img/04.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": "4700g",
+      "status": "downloaded",
+      "sourceUrl": "https://xeon.vn/p/cpu-amd-ryzen-7-4700g",
+      "imageUrl": "https://api.legacy.dewcms.com/uploads/public/derived/p_m/4700G--tray-1.png",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "id": "5995wx",
+      "status": "downloaded",
+      "sourceUrl": "https://www.techspot.com/review/2512-amd-ryzen-threadripper-pro-5995wx/",
+      "imageUrl": "https://www.techspot.com/articles-info/2512/images/2022-08-08-image.jpg",
+      "width": 1489,
+      "height": 1006
+    },
+    {
+      "id": "3970x",
+      "status": "downloaded",
+      "sourceUrl": "https://www.techspot.com/review/1946-amd-threadripper-3970x-3960x/",
+      "imageUrl": "https://www.techspot.com/articles-info/1946/images/2019-11-25-image-8.jpg",
+      "width": 2560,
+      "height": 1440
+    },
+    {
+      "id": "fx6300",
+      "status": "downloaded",
+      "sourceUrl": "https://starmicroinc.net/amd-fx-6300-3-50ghz-8mb-socket-am3-940-pin-desktop-oem-cpu-fd6300wmw6khk/",
+      "imageUrl": "https://cdn11.bigcommerce.com/s-0yiknm/images/stencil/1280x1280/products/9690/25891/s-l1600_1_7__92761.1733273343.jpg?c=2",
+      "width": 1268,
+      "height": 1280
+    },
+    {
+      "id": "fx9590",
+      "status": "downloaded",
+      "sourceUrl": "https://www.tech-review.de/test-amd-fx-9590.html",
+      "imageUrl": "https://www.tech-review.de/assets/pool/tests/prozessor/AMD_FX-9590/12_AMD_FX-9590.jpg",
+      "width": 431,
+      "height": 427
+    },
+    {
+      "id": "1700x",
+      "status": "downloaded",
+      "sourceUrl": "https://used.sofmap.com/r/item/2133042839951",
+      "imageUrl": "https://image.sofmap.com/images/product/other/2133042839951_1.jpg",
+      "width": 1824,
+      "height": 1824
+    },
+    {
+      "id": "c-cpu-amd-epyc-9734",
+      "status": "downloaded",
+      "sourceUrl": "https://www.ebay.com/itm/177572245433",
+      "imageUrl": "https://i.ebayimg.com/images/g/WrwAAOSwDgdlQxZL/s-l1200.jpg",
+      "width": 1000,
+      "height": 1001
+    },
+    {
+      "id": "phenomii965",
+      "status": "downloaded",
+      "sourceUrl": "https://www.ebay.fr/itm/141824649689",
+      "imageUrl": "https://i.ebayimg.com/images/g/OvkAAOSwQoFWQg9m/s-l1200.jpg",
+      "width": 1200,
+      "height": 1200
+    },
+    {
+      "id": "phenom9500",
+      "status": "downloaded",
+      "sourceUrl": "https://compx.ua/procesor-amd-phenom-x4-9500-hd9500wcj4bgd-2461743/",
+      "imageUrl": "https://compx.ua/image/catalog/products/64/803b2dc8-d3ef-11ef-8f9a-001b21ea407b.jpg",
+      "width": 671,
+      "height": 677
+    },
+    {
+      "id": "3800x",
+      "status": "downloaded",
+      "sourceUrl": "https://www.techspot.com/review/1899-ryzen-3800x-vs-3700x-difference/",
+      "imageUrl": "https://www.techspot.com/articles-info/1899/images/2019-08-23-image-4.jpg",
+      "width": 2560,
+      "height": 1440
+    },
+    {
+      "id": "3950x",
+      "status": "failed",
+      "sourceUrl": "https://www.notebookcheck.net/AMD-Ryzen-9-3950X-The-flagship-for-the-AM4-socket-in-review.465690.0.html",
+      "imageUrl": "https://www.notebookcheck.net/fileadmin/Notebooks/Sonstiges/AMD/Ryzen/Ryzen_Desktop_3950X/Ryzen_9_3950X_4.jpg",
+      "error": "HTTP 403"
+    },
+    {
+      "id": "4600g",
+      "status": "failed",
+      "sourceUrl": "https://click.ua/shop/protsessor-amd-ryzen-5-4600g-3-7ghz-8mb-65w-am4-box-100-100000147box-p71966",
+      "imageUrl": "https://click.ua/content/shop/products/71966/photos/protsessor-amd-ryzen-5-4600g-3-7ghz-8mb-65w-am4-box-100-100000147box-760x428-8105.jpg",
+      "error": "HTTP 404"
+    },
+    {
+      "id": "3200g",
+      "status": "downloaded",
+      "sourceUrl": "https://compx.ua/protsesor-amd-ryzen-3-3200g-yd3200c5m4mfh-b-v/",
+      "imageUrl": "https://compx.ua/image/cache/catalog/products/64/c16589cf-5934-11ee-8f90-001b21ea407b-1400x1400.jpg",
+      "width": 1400,
+      "height": 1400
+    },
+    {
+      "id": "2990wx",
+      "status": "downloaded",
+      "sourceUrl": "https://hexus.net/tech/reviews/cpu/120659-amd-ryzen-threadripper-2990wx/",
+      "imageUrl": "https://hexus.net/media/uploaded/2018/8/ace45d72-5fc1-4617-a9c3-3c95ee8f622a.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": "fx9590",
+      "status": "downloaded",
+      "sourceUrl": "https://www.tech-review.de/test-amd-fx-9590.html",
+      "imageUrl": "https://www.tech-review.de/assets/pool/tests/prozessor/AMD_FX-9590/03_AMD_FX-9590.jpg",
+      "width": 750,
+      "height": 401
+    },
+    {
+      "id": "phenomii965",
+      "status": "downloaded",
+      "sourceUrl": "https://www.4gamer.net/games/077/G007794/20091103002/",
+      "imageUrl": "https://www.4gamer.net/games/077/G007794/20091103002/SS/002.jpg",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "id": "4600g",
+      "status": "downloaded",
+      "sourceUrl": "https://nextlevelpc.ma/processeur/93575-amd-ryzen-5-4600g-37-ghz-42-ghz-tray.html",
+      "imageUrl": "https://nextlevelpc.ma/93818-large_default/amd-ryzen-5-4600g-37-ghz-42-ghz-tray.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "id": "2990wx",
+      "status": "downloaded",
+      "sourceUrl": "https://www.phoronix.com/review/amd-linux-2990wx",
+      "imageUrl": "https://www.phoronix.net/image.php?id=amd-linux-2990wx&image=amd_tr2990wx_5_med",
+      "width": 650,
+      "height": 448
+    },
+    {
+      "id": "3950x",
+      "status": "downloaded",
+      "sourceUrl": "https://hexus.net/tech/reviews/cpu/136391-amd-ryzen-9-3950x/",
+      "imageUrl": "https://hexus.net/media/uploaded/2019/11/1df86462-312b-4147-a47c-1c0ef6338062.jpg",
+      "width": 1920,
+      "height": 1213
+    }
+  ],
+  "rejections": [
+    {
+      "id": "3200g",
+      "imageUrl": "https://i.ebayimg.com/images/g/R4MAAOSw00VkF73e/s-l400.png",
+      "reason": "Actual downloaded image is a CPU-Z screenshot, not a processor product photograph; rejected and replaced with exact CompX IHS photo."
+    },
+    {
+      "id": "fx9590",
+      "imageUrl": "https://www.tech-review.de/assets/pool/tests/prozessor/AMD_FX-9590/12_AMD_FX-9590.jpg",
+      "reason": "Actual downloaded image is a CPU-Z screenshot; rejected. Original review image03 has FX-9590 and FX-8350; final rectangular crop retains only complete left FX-9590."
+    },
+    {
+      "id": "2990wx",
+      "imageUrl": "https://hexus.net/media/uploaded/2018/8/ace45d72-5fc1-4617-a9c3-3c95ee8f622a.jpg",
+      "reason": "Actual photo contains both 2990WX and 2950X. Replaced with original Phoronix single-processor 2990WX photo."
+    },
+    {
+      "id": "phenomii965",
+      "imageUrl": "https://i.ebayimg.com/images/g/OvkAAOSwQoFWQg9m/s-l1200.jpg",
+      "reason": "Exact DGM listing photo is usable, but original 4Gamer C3 125W sample photo gives clearer exact OPN and primary review identity; original 4Gamer watermark retained."
+    }
+  ],
+  "networkPolicy": "Public sources only; 403 responses were respected and no blocked page/media was retried with altered headers, profiles, proxies or cookies. Distinct publicly published alternative sources supplied the accepted images. No 429 responses in this pass.",
+  "epycIdentity": {
+    "currentAmdTrayCode": "100-000001235",
+    "picturedIhsCode": "100-000000669",
+    "primaryVerification": "https://download.msi.com/archive/mnu_exe/server/S312-S2206-AVL.pdf",
+    "page": 1,
+    "fields": "AMD / Bergamo / 9734 / 3.0GHz / 340W / 112Cores / PR / SP5 / 2P / 100-000000669-00"
+  },
+  "rights": "All18 are copyright-protected public review/listing photos. No open license or separate reuse permission has been established. Sources and copyright uncertainty are recorded per asset; no permission is implied."
+}

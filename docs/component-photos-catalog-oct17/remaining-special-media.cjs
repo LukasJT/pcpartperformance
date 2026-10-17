@@ -1,0 +1,3 @@
+const fs=require('fs'),path=require('path'),root=path.resolve(__dirname,'../..');
+const sources={boardOwner:'https://i.imgur.com/R5atAHo.jpeg?fb'};
+(async()=>{const out={};for(const[id,url]of Object.entries(sources)){const p=out[id]={url};try{const r=await fetch(url,{signal:AbortSignal.timeout(30000)});p.status=r.status;console.log(id,r.status);if(r.ok){const b=Buffer.from(await r.arrayBuffer());fs.writeFileSync(path.join(root,'tmp/remaining-special-oct17/'+id+'.jpg'),b);p.bytes=b.length;console.log(b.length);}}catch(e){p.error=e.message;console.log(e.message);}}fs.writeFileSync(path.join(__dirname,'remaining-special-media.json'),JSON.stringify(out,null,2));})();

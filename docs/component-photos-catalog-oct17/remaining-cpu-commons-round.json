@@ -1,0 +1,437 @@
+{
+  "metadataUrl": "https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url%7Cextmetadata&iiurlwidth=800&titles=File%3AIntel+C8080+1.jpg%7CFile%3AIntel+C8080.jpg%7CFile%3AIntel+P8085.jpg%7CFile%3AAMD-K6-2+300AFR+processor.JPG",
+  "status": 200,
+  "checkedAt": "2026-10-17T21:27:53.045Z",
+  "retryAfter": null,
+  "pages": [
+    {
+      "title": "File:AMD-K6-2 300AFR processor.JPG",
+      "metadata": {
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/AMD-K6-2_300AFR_processor.JPG/960px-AMD-K6-2_300AFR_processor.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 800,
+        "thumbheight": 780,
+        "responsiveUrls": {
+          "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/AMD-K6-2_300AFR_processor.JPG/1920px-AMD-K6-2_300AFR_processor.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/AMD-K6-2_300AFR_processor.JPG/960px-AMD-K6-2_300AFR_processor.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 800,
+          "height": 780,
+          "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/AMD-K6-2_300AFR_processor.JPG/1920px-AMD-K6-2_300AFR_processor.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/AMD-K6-2_300AFR_processor.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:AMD-K6-2_300AFR_processor.JPG",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=35229685",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2024-12-30 15:09:06",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "AMD-K6-2 300AFR processor",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Taken with Canon PowerShot A3100 IS|Photographs taken on 2014-09-08|AMD K6-2/300AFR",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "AMD-K6-2 300AFR -microprocessor.",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2014-09-08",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/wiki/User:Zunter\" title=\"User:Zunter\">Santeri Viinamäki</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY 3.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution 3.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Attribution": {
+            "value": "Santeri Viinamäki",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by/3.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-3.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/AMD-K6-2_300AFR_processor.JPG/960px-AMD-K6-2_300AFR_processor.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "status": 200,
+      "retryAfter": null,
+      "sourceCache": "C:\\Users\\slowf\\Documents\\Codex\\2026-09-15\\lukasjt-pcpartperformance-x20\\pcpartperformance\\tmp\\remaining-cpu-oct17\\a8610921b5f38c5db0cbc1e8.bin",
+      "sourceSha256": "dca6776bec34cd3075bbd90119f7254117999a45e8cb6e9b717321f60dcec3cd",
+      "sourceBytes": 174332
+    },
+    {
+      "title": "File:Intel C8080 1.jpg",
+      "metadata": {
+        "thumburl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Intel_C8080_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "thumbwidth": 800,
+        "thumbheight": 485,
+        "thumbattribs": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Intel_C8080_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 800,
+          "height": 485
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Intel_C8080_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Intel_C8080_1.jpg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=55534883",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2017-01-29 12:20:20",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Intel C8080 1",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Items with VRTS permission confirmed|Uploaded with LrMediaWiki|Images by Christian Bassow|Intel microprocessors on orange background|Intel C8080",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Intel C8080",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "Christian Bassow",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "Christian Bassow",
+            "source": "commons-desc-page"
+          },
+          "Permission": {
+            "value": "<p><span class=\"layouttemplateargs\" style=\"display:none;speak:none;\" title=\"template=PermissionTicket 1%3Dhttps%3A%2F%2Fticket.wikimedia.org%2Fotrs%2Findex.pl%3FAction%3DAgentTicketZoom%26TicketNumber%3D2016122510007635 2%3D2016122510007635\"> </span>\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r1254222110\">.mw-parser-output .messagebox{margin:4px 0;width:auto;border-collapse:collapse;border:2px solid var(--border-color-progressive,#6485d1);background-color:var(--background-color-neutral-subtle,#fbfcff);color:var(--color-base,#202122);box-sizing:border-box;border-inline-start-width:8px}.mw-parser-output .messagebox.mbox-small{font-size:88%;line-height:1.25em}.mw-parser-output .mbox-warning,.mw-parser-output .mbox-speedy{border:2px solid var(--border-color-error,#b22222);background:var(--background-color-error-subtle,#ffdbdb);border-inline-start-width:8px}.mw-parser-output .mbox-serious,.mw-parser-output .mbox-delete,.mw-parser-output .mbox-stop{border:2px solid var(--border-color-error,#b22222);border-inline-start-width:8px}.mw-parser-output .mbox-issue,.mw-parser-output .mbox-content{border:2px solid #f28500;background:var(--background-color-warning-subtle,#ffe);border-inline-start-width:8px}.mw-parser-output .mbox-query,.mw-parser-output .mbox-style{border:2px solid #f4c430;background:var(--background-color-warning-subtle,#ffe);border-inline-start-width:8px}.mw-parser-output .mbox-shit{border:2px solid #960;border-inline-start-width:8px}.mw-parser-output .mbox-license{border:2px solid #88a;border-inline-start-width:initial}.mw-parser-output .mbox-legal{border:2px solid var(--border-color-notice,#666);background:var(--background-color-base,#fff);border-inline-start-width:8px}.mw-parser-output .mbox-honor{border:2px solid #ca3;background:var(--background-color-warning-subtle,#fcf4db);border-inline-start-width:8px}.mw-parser-output .mbox-growth{border:2px solid #8d4;background:var(--background-color-success-subtle,#d5fdf4);border-inline-start-width:8px}.mw-parser-output .mbox-move{border:2px solid #93c;border-inline-start-width:8px}.mw-parser-output .mbox-protection,.mw-parser-output .mbox-message{border:2px solid var(--border-color-base,#aaa);border-inline-start-width:8px}.mw-parser-output .messagebox .mbox-text{border:none;padding:0.25em 0.9em;width:100%}.mw-parser-output .messagebox .mbox-image{border:none;padding-top:2px;padding-bottom:2px;padding-inline-start:0.9em;padding-inline-end:0;text-align:center}.mw-parser-output .messagebox .mbox-imageright{border:none;padding-top:2px;padding-bottom:2px;padding-inline-start:0;padding-inline-end:0.9em;text-align:center}.mw-parser-output .messagebox .mbox-empty-cell{border:none;padding:0;width:1px}.mw-parser-output .messagebox .mbox-invalid-type{text-align:center}@media(min-width:720px){.mw-parser-output .messagebox{margin:4px 10%}.mw-parser-output .messagebox.mbox-small{clear:right;float:right;margin:4px 0 4px 1em;width:238px}}body.skin--responsive .mw-parser-output table.messagebox img{max-width:none!important}</style><table class=\"plainlinks messagebox mbox-notice layouttemplate\" role=\"presentation\" style=\"margin:0.3em 0;width:100%;\"><tbody><tr><td class=\"mbox-image\"><span typeof=\"mw:File\"><span title=\"VRT Wikimedia\"><img alt=\"VRT Wikimedia\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Permission_logo_2021.svg/120px-Permission_logo_2021.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"75\" height=\"48\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Permission_logo_2021.svg/250px-Permission_logo_2021.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"935\" data-file-height=\"600\"></span></span></td><td class=\"mbox-text\">This work is <a href=\"https://freedomdefined.org/Definition\" class=\"extiw\" title=\"freedomdefined:Definition\">free</a> and may be used by anyone for any purpose. If you wish to <b><a href=\"//commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia\" title=\"Commons:Reusing content outside Wikimedia\">use this content</a></b>, you do not need to request permission as long as you follow any licensing requirements mentioned on this page.\n<p>The Wikimedia Foundation has received an e-mail confirming that the copyright holder has approved publication under the terms mentioned on this page. This correspondence has been <b><span style=\"background:transparent;color:#0f7f1f;font-weight:400;\" title=\"transparent\">reviewed</span></b> by a <a href=\"//commons.wikimedia.org/wiki/Template:PermissionTicket/Users\" title=\"Template:PermissionTicket/Users\">Volunteer Response Team (VRT) member</a> and stored in our <a href=\"//commons.wikimedia.org/wiki/Commons:Volunteer_Response_Team\" title=\"Commons:Volunteer Response Team\">permission archive</a>. The correspondence is available to trusted volunteers as <b><a href=\"https://ticket.wikimedia.org/otrs/index.pl?Action=AgentTicketZoom&amp;TicketNumber=2016122510007635\" class=\"extiw\" title=\"ticket:2016122510007635\">ticket #2016122510007635</a></b>.\n</p><p><small>If you have questions about the archived correspondence, please use the <a href=\"//commons.wikimedia.org/wiki/Commons:Volunteer_Response_Team/Noticeboard\" title=\"Commons:Volunteer Response Team/Noticeboard\">VRT noticeboard</a>.</small>\n<small>Ticket link: <a class=\"external free\" href=\"https://ticket.wikimedia.org/otrs/index.pl?Action=AgentTicketZoom&amp;TicketNumber=2016122510007635\">https://ticket.wikimedia.org/otrs/index.pl?Action=AgentTicketZoom&amp;TicketNumber=2016122510007635</a></small>\n<br><small>Find other files from the same ticket:</small> <span typeof=\"mw:File\"><a href=\"https://wcqs-beta.wmflabs.org/#%23defaultView%3AImageGrid%09%0ASELECT%20%3Fimage%20%20%20%7B%0A%20%20%3Ffile%20wdt%3AP6305%20%222016122510007635%22%20.%0A%20%20%3Ffile%20schema%3Aurl%20%3Fimage.%0A%7D%20%0A\" title=\"SDC query (SPARQL)\" rel=\"nofollow\"><img alt=\"SDC query (SPARQL)\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Wikimedia_Commons_Query_Service_Logo.svg/20px-Wikimedia_Commons_Query_Service_Logo.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"15\" height=\"20\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Wikimedia_Commons_Query_Service_Logo.svg/40px-Wikimedia_Commons_Query_Service_Logo.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"512\" data-file-height=\"688\"></a></span>\n</p>\n<span id=\"field-otrs\" title=\"https://ticket.wikimedia.org/otrs/index.pl?Action=AgentTicketZoom&amp;TicketNumber=2016122510007635\"></span></td></tr></tbody></table>",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 4.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 4.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Attribution": {
+            "value": "Christian Bassow",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/4.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-4.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Intel_C8080_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "status": 200,
+      "retryAfter": null,
+      "sourceCache": "C:\\Users\\slowf\\Documents\\Codex\\2026-09-15\\lukasjt-pcpartperformance-x20\\pcpartperformance\\tmp\\remaining-cpu-oct17\\d1d1654c50e496506f9df486.bin",
+      "sourceSha256": "57d96caa16bb4199a7b2ceda0e75f34427c90dd04efabfb3bd72d381377a2513",
+      "sourceBytes": 264279
+    },
+    {
+      "title": "File:Intel C8080.jpg",
+      "metadata": {
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Intel_C8080.jpg/960px-Intel_C8080.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 800,
+        "thumbheight": 533,
+        "responsiveUrls": {
+          "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Intel_C8080.jpg/1920px-Intel_C8080.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Intel_C8080.jpg/960px-Intel_C8080.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 800,
+          "height": 533,
+          "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Intel_C8080.jpg/1920px-Intel_C8080.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Intel_C8080.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Intel_C8080.jpg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=56572271",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2024-05-10 10:44:03",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Intel C8080",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Self-published work|Intel microprocessors on white background|Intel C8080",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Procesoro Intel C8080.",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2019-03-17",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://stelo.xyz/Museum/8080/\"><span class=\"int-own-work\" lang=\"en\">Own work</span></a>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/wiki/User:Fouky\" title=\"User:Fouky\">Thomas Nguyen</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 4.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 4.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Attribution": {
+            "value": "Stelo.xyz, Pttn, or Thomas Nguyen",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/4.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-4.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Intel_C8080.jpg/960px-Intel_C8080.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "status": 200,
+      "retryAfter": null,
+      "sourceCache": "C:\\Users\\slowf\\Documents\\Codex\\2026-09-15\\lukasjt-pcpartperformance-x20\\pcpartperformance\\tmp\\remaining-cpu-oct17\\ccb3dc934abea69d65ef4902.bin",
+      "sourceSha256": "604e7afad3e19bcbf486a86d1f1d122a559f2546018bbfe5ff40880762c13736",
+      "sourceBytes": 60531
+    },
+    {
+      "title": "File:Intel P8085.jpg",
+      "metadata": {
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Intel_P8085.jpg/960px-Intel_P8085.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 800,
+        "thumbheight": 533,
+        "responsiveUrls": {
+          "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Intel_P8085.jpg/1920px-Intel_P8085.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Intel_P8085.jpg/960px-Intel_P8085.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 800,
+          "height": 533,
+          "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Intel_P8085.jpg/1920px-Intel_P8085.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Intel_P8085.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Intel_P8085.jpg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=56573659",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2017-02-24 14:44:23",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Intel P8085",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Self-published work|Intel P8085",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Procesoro Intel P8085.",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2016-02-24",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://stelo.xyz/Museum/8085/\"><span class=\"int-own-work\" lang=\"en\">Own work</span></a>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/wiki/User:Fouky\" title=\"User:Fouky\">Thomas Nguyen</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 4.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 4.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Attribution": {
+            "value": "Stelo.xyz, Pttn, or Thomas Nguyen",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/4.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-4.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Intel_P8085.jpg/960px-Intel_P8085.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "status": 200,
+      "retryAfter": null,
+      "sourceCache": "C:\\Users\\slowf\\Documents\\Codex\\2026-09-15\\lukasjt-pcpartperformance-x20\\pcpartperformance\\tmp\\remaining-cpu-oct17\\6775ce4de4156e1c7531917a.bin",
+      "sourceSha256": "8e392fc83e411fd678db4910342aab8da4b2a2de7b3e32fa302daa6771db1dfd",
+      "sourceBytes": 54035
+    }
+  ]
+}

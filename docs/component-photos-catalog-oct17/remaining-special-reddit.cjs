@@ -1,0 +1,3 @@
+const fs=require('fs'),path=require('path');
+const root=path.resolve(__dirname,'../..'),url='https://www.reddit.com/r/hardwareswap/comments/1vto878/usaoh_h_am5_motherboards_x870ee_x870_b650_x870e/';
+(async()=>{const out={url};try{const r=await fetch(url,{signal:AbortSignal.timeout(30000)});out.status=r.status;console.log(r.status);if(r.ok){const t=await r.text();fs.writeFileSync(path.join(root,'tmp/remaining-special-oct17/reddit-board.html'),t);out.imgurLinks=[...new Set([...t.matchAll(/https?:[^\s"'<>]*imgur[^\s"'<>]*/g)].map(x=>x[0]))];console.log(out.imgurLinks);}}catch(e){out.error=e.message;console.log(e.message);}fs.writeFileSync(path.join(__dirname,'remaining-special-reddit.json'),JSON.stringify(out,null,2));})();

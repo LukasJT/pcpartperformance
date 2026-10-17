@@ -1,0 +1,43 @@
+{
+  "checkedAt": "2026-10-17T21:57:27.271Z",
+  "before": {
+    "available": 665,
+    "reviewedRepairs": 529,
+    "needsCorrectPhoto": 192,
+    "uniqueFullImages": 513,
+    "fullImageBytes": 29094650,
+    "uniqueThumbnails": 513,
+    "thumbnailBytes": 6023874,
+    "builderImageIndexGzip": 22800
+  },
+  "after": {
+    "available": 850,
+    "reviewedRepairs": 714,
+    "needsCorrectPhoto": 7,
+    "uniqueFullImages": 698,
+    "fullImageBytes": 37644288,
+    "uniqueThumbnails": 698,
+    "thumbnailBytes": 7560040,
+    "builderImageIndexGzip": 29340
+  },
+  "newBindings": 185,
+  "newPublicAssetPaths": 370,
+  "assets": [
+    {
+      "file": "image-catalog-lite.js",
+      "bytes": 70800,
+      "gzip": 17690
+    },
+    {
+      "file": "image-catalog.js",
+      "bytes": 611335,
+      "gzip": 67580
+    },
+    {
+      "file": "builder-images.js",
+      "bytes": 166165,
+      "gzip": 29340
+    }
+  ],
+  "scope": "File sizes and static regression budgets, not real-user Core Web Vitals"
+}

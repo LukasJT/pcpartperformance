@@ -1,0 +1,91 @@
+[
+  {
+    "id": "b650aorus",
+    "name": "B650 AORUS ELITE AX",
+    "brand": "GIGABYTE",
+    "cat": "board",
+    "year": 2022,
+    "architecture": "AM5 · ATX",
+    "summary": "B650 · DDR5",
+    "specs": {
+      "DIMM slots": 4,
+      "M.2 slots": 3,
+      "SATA ports": 4,
+      "Max RAM": 256
+    },
+    "source": "https://www.gigabyte.com/Motherboard/B650-AORUS-ELITE-AX-rev-12/sp#sp"
+  },
+  {
+    "id": "c-ram-crucial-pro-overclocking-64gb-ddr5-6000-cl36",
+    "name": "Crucial Pro Overclocking 64GB DDR5-6000 CL36",
+    "brand": "Crucial",
+    "cat": "ram",
+    "year": 2024,
+    "architecture": "DDR5 UDIMM",
+    "summary": "64 GB · 2 modules",
+    "specs": {
+      "Memory": 64,
+      "Transfer rate": 6000,
+      "CAS latency": 36,
+      "Modules": 2
+    },
+    "source": "https://www.crucial.com/catalog/memory/ddr5-desktop"
+  },
+  {
+    "id": "c-ram-teamgroup-t-create-expert-96gb-ddr5-6000-cl34",
+    "name": "TEAMGROUP T-Create Expert 96GB DDR5-6000 CL34",
+    "brand": "TEAMGROUP",
+    "cat": "ram",
+    "year": 2024,
+    "architecture": "DDR5 UDIMM",
+    "summary": "96 GB · 2 modules",
+    "specs": {
+      "Memory": 96,
+      "Transfer rate": 6000,
+      "CAS latency": 34,
+      "Modules": 2
+    },
+    "source": "https://www.teamgroupinc.com/en/product-category/memory/"
+  },
+  {
+    "id": "c-psu-cooler-master-v-gold-i-multi-1050",
+    "name": "Cooler Master V Gold i Multi 1050",
+    "brand": "Cooler Master",
+    "cat": "psu",
+    "year": 2023,
+    "architecture": "ATX power supply",
+    "summary": "1050 W power supply",
+    "specs": {
+      "Rated output": 1050
+    },
+    "source": "https://www.coolermaster.com/en-global/catalog/power-supplies/"
+  },
+  {
+    "id": "c-case-supermicro-4u-workstation-chassis",
+    "name": "Supermicro 4U Workstation Chassis",
+    "brand": "Supermicro",
+    "cat": "case",
+    "year": 2023,
+    "architecture": "E-ATX / ATX / Micro-ATX",
+    "summary": "4U chassis with eight expansion positions",
+    "specs": {
+      "Expansion slots": 8,
+      "3.5-inch bays": 8,
+      "2.5-inch bays": 2
+    },
+    "source": "https://www.supermicro.com/en/products/chassis/4U"
+  },
+  {
+    "id": "c-psu-supermicro-1600w-redundant-power-supply",
+    "name": "Supermicro 1600W Redundant Power Supply",
+    "brand": "Supermicro",
+    "cat": "psu",
+    "year": 2023,
+    "architecture": "Server redundant power supply",
+    "summary": "1600 W redundant power system",
+    "specs": {
+      "Rated output": 1600
+    },
+    "source": "https://www.supermicro.com/en/products/power-supplies"
+  }
+]

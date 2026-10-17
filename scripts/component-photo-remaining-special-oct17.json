@@ -1,0 +1,50 @@
+{
+  "b650aorus": {
+    "catalogName": "B650 AORUS ELITE AX",
+    "picturedModel": "GIGABYTE B650 AORUS ELITE AX revision 1.2, original owner photograph",
+    "kind": "exact",
+    "official": false,
+    "sourceType": "primary-owner-photograph",
+    "title": "Gigabyte Aorus B650 Elite AX Functionality Proof — original owner revision 1.2 listing",
+    "sourceUrl": "https://www.reddit.com/r/hardwareswap/comments/1vto878/usaoh_h_am5_motherboards_x870ee_x870_b650_x870e/",
+    "albumSourceUrl": "https://imgur.com/a/gigabyte-aorus-b650-elite-ax-functionality-proof-O4VIaWq",
+    "imageUrl": "https://i.imgur.com/R5atAHo.jpeg?fb",
+    "attribution": "u/Dkrisky79, original public motherboard photograph published on Imgur; owner timestamp retained",
+    "license": "Copyright retained by original photographer; no open reuse license or permission grant established",
+    "licenseUrl": "https://imgur.com/a/gigabyte-aorus-b650-elite-ax-functionality-proof-O4VIaWq",
+    "rightsStatus": "Public original owner photograph, not an open-license image. No reuse permission inferred.",
+    "identityEvidence": "Owner listing explicitly names B650 AORUS ELITE AX Rev 1.2 and links this specific board photo album. Actual model marking and original board layout visually confirmed. Same-album Device Manager photograph shows Realtek 8852CE WiFi 6E PCI-E NIC, matching revision 1.2 in the GIGABYTE official manual, printed page 8; earlier revisions specify AMD RZ616 or Intel AX210. The test photograph also shows CPU-Z model B650 AORUS ELITE AX and BIOS FB3g. The last physical PCB revision digit is obscured by a connector; no claim is made that it was visually read. Identity relies on the primary owner listing plus coherent actual-board testing evidence, rather than retailer stock photography.",
+    "specificationSourceUrls": [
+      "https://download.gigabyte.com/FileList/Manual/mb_manual_b650-aorus-elite-ax_1203_e.pdf",
+      "https://www.gigabyte.com/eu/Motherboard/B650-AORUS-ELITE-AX-rev-12/sp"
+    ],
+    "revisionEvidenceImageUrl": "https://i.imgur.com/uPmViQ6.jpg",
+    "revisionEvidenceFile": "docs/component-photos-catalog-oct17/remaining-special-board-test-proof.png",
+    "revision": "1.2",
+    "sourceWidth": 3072,
+    "sourceHeight": 4096,
+    "width": 600,
+    "height": 800,
+    "bytes": 99810,
+    "thumbnailWidth": 240,
+    "thumbnailHeight": 320,
+    "thumbnailBytes": 16492,
+    "sourceSha256": "552ee3980ef08cab161dcd85a25341761d79c76ea39d0bb9a4679142ab8e7453",
+    "sha256": "6da97ec7d0e08e6b5914a7cd0338dc9b082ffab32206ebc76280447c319edbd2",
+    "thumbnailSha256": "4d34e1b9e9672d058460d71b431c92b5f4d6f82c66975becf343eecca0f547f7",
+    "src": "/assets/hardware/catalog-remaining-special-oct17/b650aorus-552ee3980e.webp",
+    "thumbnailSrc": "/assets/hardware/catalog-remaining-special-oct17/b650aorus-552ee3980e-320.webp",
+    "checked": "2026-10-17",
+    "downloadedAt": "2026-10-17",
+    "visualReviewed": true,
+    "modifications": "Proportions preserved; resized within 800 × 800 and encoded WebP, with thumbnail within 320 × 320. Original background and owner timestamp note retained. No generated geometry, recoloring, annotation removal or background replacement.",
+    "reviewedAt": "2026-10-17",
+    "visualReview": {
+      "date": "2026-10-17",
+      "method": "Actual final contact-sheet inspection plus original board photograph and same-album test-screen close-up",
+      "sheet": "docs/component-photos-catalog-oct17/remaining-special-contact-1.jpg",
+      "note": "Correct original B650 AORUS ELITE AX board; source explicitly identifies rev1.2 and same-board Realtek8852CE testing corroborates manufacturer rev1.2 specification. Last PCB revision digit remains physically obscured. Background and owner timestamp note are retained."
+    },
+    "sourceOriginalDate": "2026-08-20"
+  }
+}

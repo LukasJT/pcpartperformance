@@ -8,7 +8,7 @@
 
 ## Delivered
 
-529 reviewed component-image corrections/bindings; 665 of 857 builder components now have accepted images. 192 remain unresolved and use an honest fallback. See `final-coverage.json` for every ID, category and audit reference. This release does not claim all images are finished.
+529 reviewed component-image corrections/bindings; 665 of 857 builder components now have accepted images. 192 remain unresolved and use an honest fallback. See `qa-initial-rollout/coverage.json` for every ID, category and audit reference. This release does not claim all images are finished.
 
 The corrected pictures are shared across builder choices, selected-part thumbnails, catalog/shop listings, comparisons and product pages. Exact partner GPU variants, memory capacity, kit configuration, PSU wattage, case colour and motherboard revisions are kept distinct. ZOTAC RTX 3060 Twin Edge and GIGABYTE RTX 4090 AERO OC have their own exact supplier images; the latter retains the small native 200px source.
 
@@ -28,7 +28,7 @@ List and picker thumbnails stay within 320px. Large comparison cards and product
 - The other live verifiers passed 58 production checks, 18 UI checks and 19 starter-photo checks.
 - Git object connectivity check passed before publication.
 
-Detailed receipts and screenshots are in `qa/`. `delivery-before-after.json` reports actual asset bytes/gzip versus the prior production commit. More correct pictures increase the lazy builder image index; no field Core Web Vitals improvement is claimed. The existing startup budgets still pass.
+Detailed receipts and screenshots are in `qa-initial-rollout/`. `delivery-before-after.json` reports actual asset bytes/gzip versus the prior production commit. More correct pictures increase the lazy builder image index; no field Core Web Vitals improvement is claimed. The existing startup budgets still pass.
 
 ## Remaining limits
 

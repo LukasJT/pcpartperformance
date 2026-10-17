@@ -1,0 +1,31 @@
+'use strict';
+const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto'),vm=require('node:vm');
+const sharp=require(process.env.PCP_SHARP_PATH||'C:/Users/slowf/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp');
+const {root}=require('./remaining-parent-research.cjs');
+const cached=fs.readdirSync(root).filter(f=>f.endsWith('.json')).map(f=>({...JSON.parse(fs.readFileSync(path.join(root,f))),body:fs.readFileSync(path.join(root,f.slice(0,-5)))}));
+const c={window:{}};vm.runInNewContext(fs.readFileSync('dist/builder-catalog.js','utf8'),c);
+const records=c.window.PCP_BUILDER_CATALOG,selected=[],registry={};
+const clean=s=>String(s||'').replace(/<[^>]+>/g,'');
+for(const title of ['30 pin SIMM - 1Mo - taken from an Atari STE.jpg','256MB PC2100 DDR.JPG','Kingston Technology KTC6611-128 SDR SDRAM-3342.jpg']){
+ const page=cached.filter(a=>a.contentType?.includes('json')).flatMap(a=>Object.values(JSON.parse(a.body).query?.pages||{})).find(p=>p.title==='File:'+title),info=page?.imageinfo?.[0];
+ if(!info)throw Error('Missing Commons evidence: '+title);
+ const file=cached.find(a=>a.url===info.thumburl&&a.status===200);if(!file)throw Error('Missing reviewed bytes: '+title);
+ const id=title.startsWith('30 ')?'simm30-1mb':title.startsWith('256')?'ddr266-256':'sdram-pc100';
+ selected.push({id,file,picturedModel:id==='sdram-pc100'?'Kingston KTC6611/128, 128 MB PC100 SDRAM':id==='ddr266-256'?'Kingston KVR266X64C25/256, 256 MB PC2100 (DDR-266) DIMM':'1 MB 30-pin SIMM removed from an Atari STE',sourceUrl:info.descriptionurl,imageUrl:info.thumburl,originalImageUrl:info.url,attribution:clean(info.extmetadata.Artist.value),license:info.extmetadata.LicenseShortName.value,licenseUrl:info.extmetadata.LicenseUrl.value.replace(/^http:/,'https:'),identityEvidence:id==='sdram-pc100'?'Visible KTC6611/128 label; Kingston discontinued-model specification confirms 128 MB, SDRAM 100 MHz and 168-pin DIMM. Matches the generic catalog specification; no claim that this standard describes one unique retail SKU.':'Visible module and source caption confirm the exact capacity and pin/type standard of the generic historical record; this is an actual photographed specimen, with its named specimen identity preserved.'});
+}
+selected.push({id:'ibmpc64k',file:cached.find(a=>a.url.endsWith('/5150_5160_64_memory_expansion.jpg')),picturedModel:'IBM 64KB Memory Expansion Option, PCB 1806823',sourceUrl:'https://www.minuszerodegrees.net/5150_5160/cards/5150_5160_cards.htm#64_adapter',imageUrl:'https://www.minuszerodegrees.net/5150_5160/cards/5150_5160_64_memory_expansion.jpg',attribution:'minuszerodegrees.net; original photograph copyright retained',license:'Published archival product photograph; not an open license',licenseUrl:'https://www.minuszerodegrees.net/5150_5160/cards/5150_5160_cards.htm',identityEvidence:'The owned archival page identifies the IBM 64KB expansion option, two 32 KB banks and stacked 4132 DRAMs. Photo visibly reads 64KB MEM. CD. and XM 1806823; not the different 64/256 KB board.'});
+selected.push({id:'retail-gigabyte-b550-aorus-elite-v2',file:cached.find(a=>a.url.includes('/a989b60f-1545-4327-96aa-611a02593c66/')),picturedModel:'GIGABYTE B550 AORUS ELITE V2, revision 1.2',sourceUrl:'https://www.ricardo.ch/de/a/gigabyte-b550-aorus-elite-v2-am4-mainboard-rev-12-atx-1286446754/',imageUrl:'https://img.ricardostatic.ch/images/a989b60f-1545-4327-96aa-611a02593c66/t_1800x1350/gigabyte-b550-aorus-elite-v2-am4-mainboard-rev-12-atx',attribution:'Photograph published by the hardware owner on Ricardo listing 1286446754; original copyright retained',license:'Published owner photograph; no open reuse license established',licenseUrl:'https://www.ricardo.ch/de/a/gigabyte-b550-aorus-elite-v2-am4-mainboard-rev-12-atx-1286446754/',identityEvidence:'Original owner listing explicitly identifies B550 AORUS ELITE V2 revision 1.2 and supplies ten photographs of that owned board. Selected full-board photograph shows the matching B550 AORUS ELITE V2 silkscreen, AM4 socket, four DIMM slots and physical layout without any conflicting version label. Revision is supported by the owner publication; no assertion that a reduced thumbnail certifies PCB revision or clearance.'});
+const directory='dist/assets/hardware/catalog-remaining-parent-oct17';fs.mkdirSync(directory,{recursive:true});
+const hash=b=>crypto.createHash('sha256').update(b).digest('hex');
+(async()=>{
+ for(const item of selected){
+  if(!item.file||item.file.status!==200)throw Error('Source unavailable: '+item.id);
+  const base=item.id+'-'+item.file.sha256.slice(0,10),file=path.join(directory,base+'.webp'),thumb=path.join(directory,base+'-320.webp');
+  await sharp(item.file.body).rotate().resize({width:800,height:800,fit:'inside',withoutEnlargement:true}).webp({quality:86}).toFile(file);
+  await sharp(item.file.body).rotate().resize({width:320,height:320,fit:'inside',withoutEnlargement:true}).webp({quality:82}).toFile(thumb);
+  const meta=await sharp(file).metadata(),full=fs.readFileSync(file),small=fs.readFileSync(thumb),{file:raw,...evidence}=item;
+  registry[item.id]={...evidence,catalogName:records.find(p=>p.id===item.id).name,src:'/'+file.replaceAll('\\','/').slice(5),thumbnailSrc:'/'+thumb.replaceAll('\\','/').slice(5),width:meta.width,height:meta.height,bytes:full.length,sourceSha256:raw.sha256,sha256:hash(full),thumbnailSha256:hash(small),kind:'exact',official:false,checked:'2026-10-17',visualReviewed:true,reviewedAt:'2026-10-17',visualReviewEvidence:'Parent visually inspected full images and native readable labels; contact sheet: docs/component-photos-catalog-oct17/remaining-parent-contact.jpg.',sourceHashScope:'Downloaded image at imageUrl before local encoding; provider preview when imageUrl differs from originalImageUrl.',modifications:'Proportional resize and WebP conversion only; no invented labels, generated hardware or color changes.'};
+ }
+ fs.writeFileSync('scripts/component-photo-remaining-parent-oct17.json',JSON.stringify(registry,null,2)+'\n');
+ console.log(JSON.stringify({count:Object.keys(registry).length,errors:require('../../scripts/component-photo-catalog.cjs').validate(records,registry)}));
+})().catch(e=>{console.error(e);process.exitCode=1;});

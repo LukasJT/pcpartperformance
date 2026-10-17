@@ -1,0 +1,327 @@
+[
+  {
+    "id": "3950x",
+    "name": "Ryzen 9 3950X",
+    "brand": "AMD",
+    "cat": "cpu",
+    "year": 2019,
+    "architecture": "Zen 2 · AM4",
+    "summary": "16 cores / 32 threads",
+    "specs": {
+      "CPU cores": 16,
+      "CPU threads": 32,
+      "Boost clock": 4.7,
+      "Base clock": 3.5,
+      "L3 cache": 64,
+      "CPU TDP": 105
+    },
+    "source": "https://www.amd.com/en/products/cpu/amd-ryzen-9-3950x"
+  },
+  {
+    "id": "5700x3d",
+    "name": "Ryzen 7 5700X3D",
+    "brand": "AMD",
+    "cat": "cpu",
+    "year": 2024,
+    "architecture": "Zen 3 · AM4",
+    "summary": "8 cores / 16 threads",
+    "specs": {
+      "CPU cores": 8,
+      "CPU threads": 16,
+      "Boost clock": 4.1,
+      "Base clock": 3,
+      "L3 cache": 96,
+      "CPU TDP": 105
+    },
+    "source": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-7-5700x3d.html"
+  },
+  {
+    "id": "3800x",
+    "name": "Ryzen 7 3800X",
+    "brand": "AMD",
+    "cat": "cpu",
+    "year": 2019,
+    "architecture": "Zen 2 · AM4",
+    "summary": "8 cores / 16 threads",
+    "specs": {
+      "CPU cores": 8,
+      "CPU threads": 16,
+      "Boost clock": 4.5,
+      "Base clock": 3.9,
+      "L3 cache": 32,
+      "CPU TDP": 105
+    },
+    "source": "https://www.amd.com/en/products/cpu/amd-ryzen-7-3800x"
+  },
+  {
+    "id": "5500",
+    "name": "Ryzen 5 5500",
+    "brand": "AMD",
+    "cat": "cpu",
+    "year": 2022,
+    "architecture": "Zen 3 · AM4",
+    "summary": "6 cores / 12 threads",
+    "specs": {
+      "CPU cores": 6,
+      "CPU threads": 12,
+      "Boost clock": 4.2,
+      "Base clock": 3.6,
+      "L3 cache": 16,
+      "CPU TDP": 65
+    },
+    "source": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-5-5500.html"
+  },
+  {
+    "id": "3200g",
+    "name": "Ryzen 3 3200G",
+    "brand": "AMD",
+    "cat": "cpu",
+    "year": 2019,
+    "architecture": "Zen+ · AM4",
+    "summary": "4 cores / 4 threads",
+    "specs": {
+      "CPU cores": 4,
+      "CPU threads": 4,
+      "Boost clock": 4,
+      "Base clock": 3.6,
+      "L3 cache": 4,
+      "CPU TDP": 65,
+      "GPU cores": 8
+    },
+    "source": "https://www.amd.com/en/products/apu/amd-ryzen-3-3200g"
+  },
+  {
+    "id": "2990wx",
+    "name": "Ryzen Threadripper 2990WX",
+    "brand": "AMD",
+    "cat": "cpu",
+    "year": 2018,
+    "architecture": "Zen+ · TR4",
+    "summary": "32 cores / 64 threads",
+    "specs": {
+      "CPU cores": 32,
+      "CPU threads": 64,
+      "Boost clock": 4.2,
+      "Base clock": 3,
+      "L3 cache": 64,
+      "CPU TDP": 250
+    },
+    "source": "https://www.amd.com/en/products/cpu/amd-ryzen-threadripper-2990wx"
+  },
+  {
+    "id": "4700g",
+    "name": "Ryzen 7 4700G",
+    "brand": "AMD",
+    "cat": "cpu",
+    "year": 2020,
+    "architecture": "Zen 2 · AM4",
+    "summary": "8 cores / 16 threads",
+    "specs": {
+      "CPU cores": 8,
+      "CPU threads": 16,
+      "Boost clock": 4.4,
+      "Base clock": 3.6,
+      "L3 cache": 8,
+      "CPU TDP": 65,
+      "GPU cores": 8
+    },
+    "source": "https://www.amd.com/en/products/apu/amd-ryzen-7-4700g"
+  },
+  {
+    "id": "4600g",
+    "name": "Ryzen 5 4600G",
+    "brand": "AMD",
+    "cat": "cpu",
+    "year": 2020,
+    "architecture": "Zen 2 · AM4",
+    "summary": "6 cores / 12 threads",
+    "specs": {
+      "CPU cores": 6,
+      "CPU threads": 12,
+      "Boost clock": 4.2,
+      "Base clock": 3.7,
+      "L3 cache": 8,
+      "CPU TDP": 65,
+      "GPU cores": 7
+    },
+    "source": "https://www.amd.com/en/products/apu/amd-ryzen-5-4600g"
+  },
+  {
+    "id": "4500",
+    "name": "Ryzen 5 4500",
+    "brand": "AMD",
+    "cat": "cpu",
+    "year": 2022,
+    "architecture": "Zen 2 · AM4",
+    "summary": "6 cores / 12 threads",
+    "specs": {
+      "CPU cores": 6,
+      "CPU threads": 12,
+      "Boost clock": 4.1,
+      "Base clock": 3.6,
+      "L3 cache": 8,
+      "CPU TDP": 65
+    },
+    "source": "https://www.amd.com/en/products/processors/desktops/ryzen/4000-series/amd-ryzen-5-4500.html"
+  },
+  {
+    "id": "4100",
+    "name": "Ryzen 3 4100",
+    "brand": "AMD",
+    "cat": "cpu",
+    "year": 2022,
+    "architecture": "Zen 2 · AM4",
+    "summary": "4 cores / 8 threads",
+    "specs": {
+      "CPU cores": 4,
+      "CPU threads": 8,
+      "Boost clock": 4,
+      "Base clock": 3.8,
+      "L3 cache": 4,
+      "CPU TDP": 65
+    },
+    "source": "https://www.amd.com/en/products/processors/desktops/ryzen/4000-series/amd-ryzen-3-4100.html"
+  },
+  {
+    "id": "5995wx",
+    "name": "Ryzen Threadripper PRO 5995WX",
+    "brand": "AMD",
+    "cat": "cpu",
+    "year": 2022,
+    "architecture": "Zen 3 · sWRX8",
+    "summary": "64 cores / 128 threads",
+    "specs": {
+      "CPU cores": 64,
+      "CPU threads": 128,
+      "Boost clock": 4.5,
+      "Base clock": 2.7,
+      "L3 cache": 256,
+      "CPU TDP": 280
+    },
+    "source": "https://www.amd.com/en/products/cpu/amd-ryzen-threadripper-pro-5995wx"
+  },
+  {
+    "id": "3970x",
+    "name": "Ryzen Threadripper 3970X",
+    "brand": "AMD",
+    "cat": "cpu",
+    "year": 2019,
+    "architecture": "Zen 2 · sTRX4",
+    "summary": "32 cores / 64 threads",
+    "specs": {
+      "CPU cores": 32,
+      "CPU threads": 64,
+      "Boost clock": 4.5,
+      "Base clock": 3.7,
+      "L3 cache": 128,
+      "CPU TDP": 280
+    },
+    "source": "https://www.amd.com/en/products/cpu/amd-ryzen-threadripper-3970x"
+  },
+  {
+    "id": "1700x",
+    "name": "Ryzen 7 1700X",
+    "brand": "AMD",
+    "cat": "cpu",
+    "year": 2017,
+    "architecture": "Zen · AM4",
+    "summary": "8 cores / 16 threads",
+    "specs": {
+      "CPU cores": 8,
+      "CPU threads": 16,
+      "Boost clock": 3.8,
+      "Base clock": 3.4,
+      "L3 cache": 16,
+      "CPU TDP": 95
+    },
+    "source": "https://www.amd.com/en/products/cpu/amd-ryzen-7-1700x"
+  },
+  {
+    "id": "fx9590",
+    "name": "FX-9590",
+    "brand": "AMD",
+    "cat": "cpu",
+    "year": 2013,
+    "architecture": "Piledriver · AM3+",
+    "summary": "8 cores / 8 threads",
+    "specs": {
+      "CPU cores": 8,
+      "CPU threads": 8,
+      "Boost clock": 5,
+      "Base clock": 4.7,
+      "L3 cache": 8,
+      "CPU TDP": 220
+    },
+    "source": "https://www.amd.com/en/products/cpu/fx-9590"
+  },
+  {
+    "id": "fx6300",
+    "name": "FX-6300",
+    "brand": "AMD",
+    "cat": "cpu",
+    "year": 2012,
+    "architecture": "Piledriver · AM3+",
+    "summary": "6 cores / 6 threads",
+    "specs": {
+      "CPU cores": 6,
+      "CPU threads": 6,
+      "Boost clock": 4.1,
+      "Base clock": 3.5,
+      "L3 cache": 8,
+      "CPU TDP": 95
+    },
+    "source": "https://www.amd.com/en/products/cpu/fx-6300"
+  },
+  {
+    "id": "phenom9500",
+    "name": "AMD Phenom 9500",
+    "brand": "AMD",
+    "cat": "cpu",
+    "year": 2007,
+    "architecture": "Agena · Socket AM2+",
+    "summary": "2.2 GHz quad-core processor",
+    "specs": {
+      "CPU cores": 4,
+      "CPU threads": 4,
+      "Clock speed": 2200,
+      "Data width": 64
+    },
+    "source": "https://www.cpu-world.com/CPUs/K10/AMD-Phenom%20X4%209500%20-%20HD9500WCJ4BGD.html"
+  },
+  {
+    "id": "phenomii965",
+    "name": "AMD Phenom II X4 965 Black Edition",
+    "brand": "AMD",
+    "cat": "cpu",
+    "year": 2009,
+    "architecture": "Deneb · Socket AM3",
+    "summary": "3.4 GHz quad-core processor",
+    "specs": {
+      "CPU cores": 4,
+      "CPU threads": 4,
+      "Clock speed": 3400,
+      "Data width": 64
+    },
+    "source": "https://www.cpu-world.com/CPUs/K10/AMD-Phenom%20II%20X4%20965%20Black%20Edition%20-%20HDZ965FBK4DGM.html"
+  },
+  {
+    "id": "c-cpu-amd-epyc-9734",
+    "name": "AMD EPYC 9734",
+    "brand": "AMD",
+    "cat": "cpu",
+    "year": 2023,
+    "architecture": "Zen 4c · SP5",
+    "summary": "112 cores / 224 threads · 1P / 2P",
+    "specs": {
+      "CPU cores": 112,
+      "CPU threads": 224,
+      "Base clock": 2.2,
+      "Boost clock": 3,
+      "L3 cache": 256,
+      "CPU TDP": 340,
+      "Scalable sockets": 2,
+      "CPU family": "AMD EPYC 9004"
+    },
+    "source": "https://www.amd.com/en/products/processors/server/epyc/4th-generation-9004-and-8004-series.html"
+  }
+]

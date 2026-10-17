@@ -8,7 +8,7 @@ const c={window:{}};require('node:vm').runInNewContext(fs.readFileSync('dist/bui
 const registry=require('./component-photo-catalog.cjs');
 // Baseline inspection reads only model IDs; release checks require reviewed media.
 const images=baseline?Object.assign({},...registry.files.filter(f=>fs.existsSync(path.join(__dirname,f))).map(f=>JSON.parse(fs.readFileSync(path.join(__dirname,f),'utf8')))):registry.load(c.window.PCP_BUILDER_CATALOG);
-const preferred={cpu:'7700x',board:'b450',gpu:'rx570',ram:'gskill6000c30',ssd:'990pro',hdd:'ironwolf4tb',psu:'focusgx850',case:'retail-lian-li-o11-air-mini-black',fan:'retail-lian-li-uni-fan-tl-120-wireless-black',cooler:'cooler-noctua-nh-u12a'};
+const preferred={cpu:'3950x',board:'b650aorus',gpu:'r9380x',ram:'ddr266-256',ssd:'kc3000',hdd:'barracuda2',psu:'focusgx850',case:'retail-lian-li-o11-air-mini-black',fan:'retail-lian-li-uni-fan-tl-120-wireless-black',cooler:'cooler-noctua-nh-u12a'};
 const chosen=slotOrder.map(cat=>images[preferred[cat]]?preferred[cat]:Object.keys(images).find(id=>c.window.PCP_BUILDER_CATALOG.find(p=>p.id===id)?.cat===cat));
 assert(chosen.every(Boolean));
 async function main(){
@@ -40,7 +40,7 @@ async function main(){
    }
   }
   checks.push({width,route:'/builder/',photos:observed});
-  if(!baseline){for(const id of [chosen[0],chosen[2],chosen[4],chosen[6]]){
+  if(!baseline){for(const id of [chosen[0],chosen[1],chosen[2],chosen[3],chosen[4],chosen[5],chosen[6]]){
    await visit(origin+'/learn/'+id+'.html');const hero=page.locator('.part-visual .hardware-photo img');await hero.evaluate(i=>i.decode());assert.equal(await hero.getAttribute('src'),images[id].src);assert(await hero.evaluate(i=>i.naturalWidth>0));
    assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));checks.push({width,route:'/learn/'+id+'.html',correctImage:true});
    if(id===chosen[2])await page.screenshot({path:path.join(directory,'after-product-'+width+'.png'),animations:'disabled'});

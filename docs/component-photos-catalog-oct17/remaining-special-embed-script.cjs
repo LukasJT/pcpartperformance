@@ -1,0 +1,3 @@
+const fs=require('fs'),path=require('path'),root=path.resolve(__dirname,'../..');
+const url='https://s.imgur.com/min/embed.js';
+(async()=>{const out={url};try{const r=await fetch(url,{signal:AbortSignal.timeout(30000)});out.status=r.status;console.log(r.status);if(r.ok){const t=await r.text();fs.writeFileSync(path.join(root,'tmp/remaining-special-oct17/imgur-embed.js'),t);out.embedPaths=t.match(/.{0,80}\/embed.{0,180}/g);console.log(out.embedPaths);}}catch(e){out.error=e.message;console.log(e.message);}fs.writeFileSync(path.join(__dirname,'remaining-special-embed-script.json'),JSON.stringify(out,null,2));})();
