@@ -17,7 +17,7 @@ await test('published templates satisfy the enforced script policy',()=>{
  const report=audit();assert(report.pages>1000);assert.equal(report.inlineExecutableCount,0);assert.deepEqual(report.handlerPages,[]);assert.deepEqual(report.externalScripts,[]);assert.deepEqual(report.frames,[]);
 });
 await test('local 3D WebAssembly, fonts and opt-in private YouTube player remain supported',()=>{
- for(const item of ["'wasm-unsafe-eval'","worker-src 'self' blob:",'https://fonts.googleapis.com','https://fonts.gstatic.com',"frame-src 'self' https://www.youtube-nocookie.com"])assert(CONTENT_SECURITY_POLICY.includes(item));
+ for(const item of ["'wasm-unsafe-eval'","worker-src 'self' blob:",'https://fonts.googleapis.com','https://fonts.gstatic.com',"frame-src 'self' https://www.youtube-nocookie.com https://pc-part-performance.lukajt.chatgpt.site"])assert(CONTENT_SECURITY_POLICY.includes(item));
 });
 await test('ad documents are isolated from the parent page policy',async()=>{
  const page=secureResponse(new Response('page'),request('/'));

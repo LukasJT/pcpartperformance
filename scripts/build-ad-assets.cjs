@@ -38,7 +38,7 @@ module.exports = function buildAdAssets(root) {
       const format=size(slot);if(!format)return false;
       const [name,width,height]=format;
       const label=document.createElement('span');label.className='pcp-ad-label';label.textContent='Advertisement';
-      const frame=document.createElement('iframe');frame.className='pcp-ad-frame';frame.title='Advertisement';frame.src='/ads/'+name+'.html';frame.width=String(width);frame.height=String(height);frame.loading='lazy';frame.referrerPolicy='no-referrer';frame.sandbox='allow-scripts allow-forms';frame.setAttribute('allow','');
+      const frame=document.createElement('iframe');frame.className='pcp-ad-frame';frame.title='Advertisement';frame.src='https://pc-part-performance.lukajt.chatgpt.site/ads/'+name+'.html';frame.width=String(width);frame.height=String(height);frame.loading='lazy';frame.referrerPolicy='no-referrer';frame.sandbox='allow-scripts allow-same-origin allow-forms';frame.setAttribute('allow','');
       slot.append(label,frame);slot.dataset.loaded='true';return true;
     }
     function unload(){observer?.disconnect();for(const slot of slots){slot.replaceChildren();delete slot.dataset.loaded}}
@@ -53,7 +53,7 @@ module.exports = function buildAdAssets(root) {
     const before = 'This publication release adds no active advertising script or analytics destination. Future activation requires the actual publisher account, consent implementation and an updated policy that identifies the applicable business and services. The default-off code gate is not a full consent-management platform.';
     const after = 'Selected pages offer optional Adsterra display ads. Ad requests begin only after you choose Accept ads; Decline keeps those ad requests off. Your choice is stored locally in this browser as pcp-ad-consent and can be changed through Ad choices on pages with ads. Global Privacy Control also keeps ads off. Adsterra may process information under its own privacy policy. The site does not load an analytics destination through this ad feature.';
     const html = fs.readFileSync(privacyPath, 'utf8');
-    if (!html.includes(before)) throw new Error('Privacy advertising disclosure changed; review before enabling ads.');
-    fs.writeFileSync(privacyPath, html.replace(before, after));
+    if (!html.includes(before) && !html.includes(after)) throw new Error('Privacy advertising disclosure changed; review before enabling ads.');
+    if (html.includes(before)) fs.writeFileSync(privacyPath, html.replace(before, after));
   }
 };

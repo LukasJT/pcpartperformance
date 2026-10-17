@@ -9,7 +9,7 @@ export const CONTENT_SECURITY_POLICY=[
  "connect-src 'self' blob:",
  "worker-src 'self' blob:",
  "media-src 'self' blob:",
- "frame-src 'self' https://www.youtube-nocookie.com",
+ "frame-src 'self' https://www.youtube-nocookie.com https://pc-part-performance.lukajt.chatgpt.site",
  "object-src 'none'",
  "base-uri 'self'",
  "form-action 'self'",
