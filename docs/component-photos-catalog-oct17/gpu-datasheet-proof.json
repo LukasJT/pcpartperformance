@@ -1,0 +1,980 @@
+[
+  {
+    "id": "retail-msi-geforce-rtx-3060-ventus-2x-12g",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/id/GeForce-RTX-3060-VENTUS-2X-12G.pdf",
+    "sourceSha256": "d21c313bc0c7c561071100359fc708b887083c9fccda134d477f33dfc672cddd",
+    "modelEvidence": "GeForce RTX™ 3060 VENTUS 2X 12G",
+    "memoryEvidence": [
+      "Memory 12GB GDDR6"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "retail-msi-geforce-rtx-3060-ventus-2x-12g-oc",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/id/GeForce-RTX-3060-VENTUS-2X-12G-OC.pdf",
+    "sourceSha256": "3b97defe1001b855d1c8c090287691d33dafd0f95bec1c0557364dfe015f0753",
+    "modelEvidence": "GeForce RTX™ 3060 VENTUS 2X 12G OC",
+    "memoryEvidence": [
+      "Memory 12GB GDDR6"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "retail-msi-geforce-rtx-3060-ventus-2x-8g-oc",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-RTX-3060-VENTUS-2X-8G-OC.pdf",
+    "sourceSha256": "9d7b32eca103c8d7d151210a091cd449ee02c133342f6ec45c47827ad779ce69",
+    "modelEvidence": "GeForce RTX™ 3060 VENTUS 2X 8G OC",
+    "memoryEvidence": [
+      "Memory 8GB GDDR6"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "retail-msi-geforce-rtx-3060-gaming-x-12g",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/id/GeForce-RTX-3060-GAMING-X-12G.pdf",
+    "sourceSha256": "d7487bf8c17d1171c2c1f856f4a60407ea52509016329cfc9f6b5b6fa0c5f73d",
+    "modelEvidence": "GeForce RTX 3060 GAMING X 12G",
+    "memoryEvidence": [],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "rtx4060ti",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-RTX-4060-Ti-VENTUS-2X-BLACK-8G-OC.pdf",
+    "sourceSha256": "1efae0900bfb9cb177483cb6190216e5423f5e2558e630cef48bb9ae2ae008d5",
+    "modelEvidence": "GeForce RTX™ 4060 Ti VENTUS 2X BLACK",
+    "memoryEvidence": [
+      "Memory 8GB GDDR6"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "rtx3060ti",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/us/GeForce-RTX-3060-Ti-VENTUS-2X-OC.pdf",
+    "sourceSha256": "b18640660c1b7d533cfb486fb6082c59696e4debc44d421b3adaed048033944b",
+    "modelEvidence": "GeForce RTX™ 3060 Ti VENTUS 2X OC",
+    "memoryEvidence": [
+      "Memory 8GB GDDR6"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "rtx2080ti",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/us/GeForce-RTX-2080-Ti-VENTUS-11G.pdf",
+    "sourceSha256": "9cffb7893e76cd6ff32545a3d9860d4f185fd3a93ae6c610d83a71d4020ce36b",
+    "modelEvidence": "GeForce RTX 2080 Ti VENTUS 11G",
+    "memoryEvidence": [
+      "Memory 11GB GDDR6"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "gtx1080",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/fr/GTX-1080-Founders-Edition.pdf",
+    "sourceSha256": "977c869dbfeab5e12b8ca912069d88d476d178892ccb5e84e56e5a7881f2e5b8",
+    "modelEvidence": "GeForce GTX 1080 Founders Edition",
+    "memoryEvidence": [
+      "Mémoire 8GB GDDR5X (256-bit)",
+      "Taille Mémoire 8192 Mo"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "gtx1070",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/fr/GeForce-GTX-1070-Founders-Edition.pdf",
+    "sourceSha256": "7c32dfefb630c49a0e6dcbac0a77a2169b08f384b723986df8db6e1099251a9a",
+    "modelEvidence": "GeForce GTX 1070 Founders Edition",
+    "memoryEvidence": [
+      "Mémoire 8GB GDDR5 (256-bit)",
+      "Taille Mémoire 8192 Mo"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "rtx2070s",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-RTX-2070-SUPER-ARMOR.pdf",
+    "sourceSha256": "24c4be5048e16b5ecef77c9ad686e896cf971f33a44f1e65b4ffd4b911612093",
+    "modelEvidence": "GeForce RTX 2070 SUPER™ ARMOR",
+    "memoryEvidence": [
+      "Memory 8GB GDDR6"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I5"
+  },
+  {
+    "id": "gtx1060",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-GTX-1060-6G-OCV1.pdf",
+    "sourceSha256": "bdd11c163b7fbfe3e276e42e550fbc0afd29f485e9a6f716262f6c24226f7038",
+    "modelEvidence": "GeForce GTX 1060 6G OCV1",
+    "memoryEvidence": [
+      "Memory 6GB GDDR5 (192-bit)"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "gtx980ti",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/us/GTX-980-Ti-GAMING-6G.pdf",
+    "sourceSha256": "afd4c40453f44560795d35bfe5775832df797d37d6cba087804d4674b152b792",
+    "modelEvidence": "GeForce GTX 980 Ti GAMING 6G",
+    "memoryEvidence": [
+      "Memory Size 6144"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "rtx3090ti",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/us/GeForce-RTX-3090-Ti-SUPRIM-24G.pdf",
+    "sourceSha256": "178549bb3aee03d4ea54268d3d12e0043d8fcd9006f8eaaf3326571d5e5ef5ea",
+    "modelEvidence": "GeForce RTX™ 3090 Ti SUPRIM 24G",
+    "memoryEvidence": [
+      "Memory 24GB GDDR6X"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "rtx3080ti",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-RTX-3080-Ti-SUPRIM-12G.pdf",
+    "sourceSha256": "445550228adafb73202401c3ad8f4b979e441e708264df9f8c5f039011c09cf7",
+    "modelEvidence": "GeForce RTX™ 3080 Ti SUPRIM 12G",
+    "memoryEvidence": [
+      "Memory 12GB GDDR6X"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "rtx3070ti",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-RTX-3070-Ti-SUPRIM-8G.pdf",
+    "sourceSha256": "2b1e6fb97dfd9de55ecde5db7d09712eb16ba8c2c08eb97429222d01561b0df0",
+    "modelEvidence": "GeForce RTX™ 3070 Ti SUPRIM 8G",
+    "memoryEvidence": [
+      "Memory 8GB GDDR6X"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "rtx2080s",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-RTX-2080-SUPER-VENTUS.pdf",
+    "sourceSha256": "b1df09cfdaaddd9fc86264eb9fcb0eb37bbda69e0d2d6b87b43468b931958786",
+    "modelEvidence": "GeForce RTX 2080 SUPER™ VENTUS",
+    "memoryEvidence": [
+      "Memory 8GB GDDR6"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "rtx2060s",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-RTX-2060-SUPER-GAMING.pdf",
+    "sourceSha256": "8f1f41fad5b6728e5ba2b1f1c0fff24685e058fb092ee3d2094732e9a10a3104",
+    "modelEvidence": "GeForce RTX 2060 SUPER™ GAMING",
+    "memoryEvidence": [
+      "Memory 8GB GDDR6"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "rtx4070ti",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-RTX-4070-Ti-GAMING-SLIM-WHITE-12G.pdf",
+    "sourceSha256": "31938c7b6359f2e4ab6b4e0499577158da19c40a771b055e1ff75f9617ff5609",
+    "modelEvidence": "GeForce RTX™ 4070 Ti GAMING SLIM",
+    "memoryEvidence": [
+      "Memory 12GB GDDR6X"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "gtx1660ti",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/us/GeForce-GTX-1660-Ti-GAMING-6G.pdf",
+    "sourceSha256": "cd7069fb457b068c70009dd1b831e78896c35a4e27749138b2eb38b858547f6a",
+    "modelEvidence": "GeForce GTX 1660 Ti GAMING 6G",
+    "memoryEvidence": [
+      "Memory 6GB GDDR6"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "gtx1660s",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-GTX-1660-SUPER-GAMING.pdf",
+    "sourceSha256": "9f29837a2a3c0f0fbaf055b84b127b7e4c86c91582e569d5cf55783157bf0422",
+    "modelEvidence": "GeForce GTX 1660 SUPER™ GAMING",
+    "memoryEvidence": [
+      "Memory 6GB GDDR6"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "gtx1650s",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/id/GeForce-GTX-1650-SUPER-GAMING.pdf",
+    "sourceSha256": "ba0427dc507441b7a2ebe1fb70250dd2d09ae4794b487f36b5d42aee6c147b55",
+    "modelEvidence": "GeForce GTX 1650 SUPER™ GAMING",
+    "memoryEvidence": [
+      "Memory 4GB GDDR6"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "gtx1650",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-GTX-1650-GAMING-4G.pdf",
+    "sourceSha256": "38161c86f1dc500c2474071676b9302d9c106fc53f9805e1c4c29f0cb05777ef",
+    "modelEvidence": "GeForce GTX 1650 GAMING 4G",
+    "memoryEvidence": [
+      "Memory 4GB GDDR5"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I5"
+  },
+  {
+    "id": "gtx1070ti",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-GTX-1070-Ti-GAMING-8G.pdf",
+    "sourceSha256": "c6782fea63b94d94bee7a8c833aaed1c89586f94dc234811fa03747c6d230d3b",
+    "modelEvidence": "GeForce GTX 1070 Ti GAMING 8G",
+    "memoryEvidence": [
+      "Memory 8GB GDDR5"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "gtx1050ti",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-GTX-1050-Ti-4G.pdf",
+    "sourceSha256": "62d9f1425a6ea303de950e014d8f38cc1332ca53e46af094aa3440e9e1d84495",
+    "modelEvidence": "GeForce GTX 1050 Ti 4G",
+    "memoryEvidence": [
+      "Memory 4GB GDDR5 (128-bit)"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "rx7900xt",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/Radeon-RX-7900-XT-GAMING-TRIO-CLASSIC-20G.pdf",
+    "sourceSha256": "476108da0e5f479dd5d9ede16ad92d87230bc094b63cebf99a38ac43ba431764",
+    "modelEvidence": "Radeon™ RX 7900 XT GAMING TRIO",
+    "memoryEvidence": [
+      "Memory 20GB GDDR6"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "rx7600",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/Radeon-RX-7600-MECH-2X-CLASSIC-8G.pdf",
+    "sourceSha256": "cdc210932e62a2ffff507f69a7725b7a1c5c6a55fa23785d723fdc8df7b6489e",
+    "modelEvidence": "Radeon™ RX 7600 MECH 2X CLASSIC 8G",
+    "memoryEvidence": [
+      "Memory 8GB GDDR6"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "rx6950xt",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/Radeon-RX-6950-XT-GAMING-X-TRIO-16G.pdf",
+    "sourceSha256": "9e827d8e8de6528fae3562bc6940c747722562404ce97fca8125e13061d75904",
+    "modelEvidence": "Radeon™ RX 6950 XT GAMING X TRIO 16G",
+    "memoryEvidence": [
+      "Memory 16GB GDDR6"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "rx6900xt",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/Radeon-RX-6900-XT-16G.pdf",
+    "sourceSha256": "f16fd9294fdfc359428c1bab7f7d2b4d33c32d9ea851795bffe8f05ef422daef",
+    "modelEvidence": "Radeon RX 6900 XT 16G",
+    "memoryEvidence": [
+      "Memory 16GB GDDR6"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "rx6800",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/Radeon-RX-6800-16G.pdf",
+    "sourceSha256": "21d2288931f65c686f70b0436e3425e4d3cbb9352f739f53dc923b2fd9b587f7",
+    "modelEvidence": "Radeon RX 6800 16G",
+    "memoryEvidence": [
+      "Memory 16GB GDDR6"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I8"
+  },
+  {
+    "id": "rx6700xt",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/Radeon-RX-6700-XT-12G.pdf",
+    "sourceSha256": "84111189c07b14531bb01e45ad18408d8e2a13b552b38e5853c95f6783845d7e",
+    "modelEvidence": "Radeon™ RX 6700 XT 12G",
+    "memoryEvidence": [
+      "Memory 12GB GDDR6"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "rx6600",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/Radeon-RX-6600-ARMOR-8G.pdf",
+    "sourceSha256": "250fcef5f5f6e7a42683c7a077d3e165d528552fb8546d51d4124eb9902dde04",
+    "modelEvidence": "Radeon™ RX 6600 ARMOR 8G",
+    "memoryEvidence": [
+      "Memory 8GB GDDR6"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "rx5700xt",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/Radeon-RX-5700-XT-8G.pdf",
+    "sourceSha256": "ba14c60a5f9a9ee2424c88e2a940ef6b88f1cb980c5e0c950e2e85fa12e54620",
+    "modelEvidence": "Radeon RX 5700 XT 8G",
+    "memoryEvidence": [
+      "Memory 8GB GDDR6"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "rx580",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/Radeon-RX-580-8G.pdf",
+    "sourceSha256": "597b814299f6e064b7506b83657b4afad657ccf915b3202c92579003d2cc1396",
+    "modelEvidence": "Radeon RX 580 8G",
+    "memoryEvidence": [
+      "Memory 8GB GDDR5"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "rx6750xt",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/Radeon-RX-6750-XT-GAMING-X-TRIO-12G.pdf",
+    "sourceSha256": "fb044ffb322ce8c312becb781e6df4ce89611cdf0f96cc6df9d3b2460071530f",
+    "modelEvidence": "Radeon™ RX 6750 XT GAMING X TRIO 12G",
+    "memoryEvidence": [
+      "Memory 12GB GDDR6"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "rx6650xt",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/Radeon-RX-6650-XT-GAMING-8G.pdf",
+    "sourceSha256": "ea0d4891d02a7309bdbdaa4385217b7276437930c133859732aa0354e5044b02",
+    "modelEvidence": "Radeon™ RX 6650 XT GAMING 8G",
+    "memoryEvidence": [
+      "Memory 8GB GDDR6"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "rx6600xt",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/Radeon-RX-6600-XT-GAMING-8G.pdf",
+    "sourceSha256": "8f0f87344dc5f4f038ef228fd94604901ccce861e512e778d4adb3fb060a9129",
+    "modelEvidence": "Radeon™ RX 6600 XT GAMING 8G",
+    "memoryEvidence": [
+      "Memory 8GB GDDR6"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "rx6500xt",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/Radeon-RX-6500-XT-MECH-2X-4G.pdf",
+    "sourceSha256": "f135700394169cdeae2a4b599e0139037875de28ad4ca74eb1d4f6bfb066efdd",
+    "modelEvidence": "Radeon RX 6500 XT MECH 2X 4G",
+    "memoryEvidence": [
+      "Memory 4GB GDDR6"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "rx6400",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/us/Radeon-RX-6400-AERO-ITX-4G.pdf",
+    "sourceSha256": "fd910ca4836ab98be71b92f10b3e9811ded7459a804b49efd5ea88735835eb6b",
+    "modelEvidence": "Radeon™ RX 6400 AERO ITX 4G",
+    "memoryEvidence": [
+      "Memory 4GB GDDR6"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "rx5600xt",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/us/RADEON-RX-5600-XT-MECH.pdf",
+    "sourceSha256": "345f85369c46876f060625092ddf4eb3880457db5bdefb86598b1d6dfe4c5323",
+    "modelEvidence": "RADEON RX 5600 XT MECH",
+    "memoryEvidence": [
+      "Memory 6GB GDDR6"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "rx5500xt",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/Radeon-RX-5500-XT-MECH-8G.pdf",
+    "sourceSha256": "5fd671e0914407a92138b8d11ca99ca589179b85b8faef2ce3fa5d2499c96253",
+    "modelEvidence": "Radeon RX 5500 XT MECH 8G",
+    "memoryEvidence": [
+      "Memory 8GB GDDR6"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "rtx5060",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/id/GeForce-RTX-5060-8G-GAMING.pdf",
+    "sourceSha256": "02ba1f2828f47eb9032be6656ee9743bf6ee0b9690916378d1550ef7f059e04a",
+    "modelEvidence": "GeForce RTX™ 5060 8G GAMING",
+    "memoryEvidence": [
+      "Memory 8GB GDDR7"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I4"
+  },
+  {
+    "id": "rtx5050",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-RTX-5050-8G-GAMING.pdf",
+    "sourceSha256": "71a31187c392ba5124122fbf4e8c70e85de6c5bb28ea485fd2805cf92d9f2501",
+    "modelEvidence": "GeForce RTX™ 5050 8G GAMING",
+    "memoryEvidence": [
+      "Memory 8GB GDDR6"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "rtx308012",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-RTX-3080-SUPRIM-12G-LHR.pdf",
+    "sourceSha256": "603a83e5488402b0e4051243ec21d14de09ec2ad8ded9c41f360a155a69ffbed",
+    "modelEvidence": "GeForce RTX™ 3080 SUPRIM 12G LHR",
+    "memoryEvidence": [
+      "Memory 12GB GDDR6X"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "rtx206012",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/us/GeForce-RTX-2060-VENTUS-12G-OC.pdf",
+    "sourceSha256": "60ead04a9aa0d1e3c43b93e6e042e83a526e8ba95eb76f8235f5545e26c92db9",
+    "modelEvidence": "GeForce RTX™ 2060 VENTUS 12G OC",
+    "memoryEvidence": [
+      "Memory 12GB GDDR6"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "gtx1630",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-GTX-1630-4GT-LP-OC.pdf",
+    "sourceSha256": "d0f100cc3c923bab5bf73c74e738f40337734bff456a894e4d845ca4ef0c5da6",
+    "modelEvidence": "GeForce® GTX 1630 4GT LP OC",
+    "memoryEvidence": [
+      "Memory 4GB GDDR6"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "gtx10603",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-GTX-1060-3G-OC.pdf",
+    "sourceSha256": "1be4af1e258849e7108da146ac0cd5f4e2fc6850f6571c4586038f5bc2380760",
+    "modelEvidence": "GeForce GTX 1060 3G OC",
+    "memoryEvidence": [
+      "Memory 3GB GDDR5 (192-bit)"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "gtx980",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/GTX-980-GAMING-4G-LE.pdf",
+    "sourceSha256": "9b1e5417ff19ca049e50356ee7a4928e36ff74e3ecb8efb2a0160e6baadb9f02",
+    "modelEvidence": "GeForce GTX 980 GAMING 4G LE",
+    "memoryEvidence": [
+      "Memory Size 4096"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I8"
+  },
+  {
+    "id": "gtx780",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/original/vga/global/GTX-780-GAMING-LE.pdf",
+    "sourceSha256": "fb0f2330ac9f7fc96fb0fa6647c17d59ee60db96e49965347dc22db3e7462315",
+    "modelEvidence": "GeForce GTX 780 GAMING LE",
+    "memoryEvidence": [
+      "Memory Size 3072"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I8"
+  },
+  {
+    "id": "gtx770",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/N770-2GD5OC.pdf",
+    "sourceSha256": "1adae7fe951fe34bfad2d45f5735da403475e02668b1ae31cd29f6f882349144",
+    "modelEvidence": "N770-2GD5/OC",
+    "memoryEvidence": [
+      "Memory Size 2048"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I7"
+  },
+  {
+    "id": "gtx760",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/N760-2GD5OC.pdf",
+    "sourceSha256": "ded1c6404d1f44a64f55252f0a45044d36ff1fea29ff4ec677db7f45f6c531c4",
+    "modelEvidence": "N760-2GD5/OC",
+    "memoryEvidence": [
+      "Memory Size 2048"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I7"
+  },
+  {
+    "id": "rx5700",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/Radeon-RX-5700-8G.pdf",
+    "sourceSha256": "74971fe63655e44cd8e84f42a8cdf5dc73fba984ab9997cb7ae5976ea5e197d2",
+    "modelEvidence": "Radeon RX 5700 8G",
+    "memoryEvidence": [
+      "Memory 8GB GDDR6"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "rx590",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/Radeon-RX-590-ARMOR-8G.pdf",
+    "sourceSha256": "34c9bb17e2fb4625a8568fb54cae56996dbf7a9eae04af478ecf822b9a4f1db7",
+    "modelEvidence": "Radeon RX 590 ARMOR 8G",
+    "memoryEvidence": [
+      "Memory 8GB GDDR5"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "rx560",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/Radeon-RX-560-AERO-ITX-4G-OCV2.pdf",
+    "sourceSha256": "80af7463000b0943406418c542bede9ed2a53cf82af39ce9caf8005b69570735",
+    "modelEvidence": "Radeon RX 560 AERO ITX 4G OCV2",
+    "memoryEvidence": [
+      "Memory 4GB GDDR5"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "rx480",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/original/vga/global/AMD-Radeon-RX-480-8G.pdf",
+    "sourceSha256": "979ca1d2ce4d491266566c29f7a82c68daca7068cdfbc2b199a186714e2d1eaa",
+    "modelEvidence": "Radeon RX 480 8G",
+    "memoryEvidence": [
+      "Memory 8GB GDDR5 (256-bit)"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I7"
+  },
+  {
+    "id": "rx470",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/Radeon-RX-470-GAMING-X-4G.pdf",
+    "sourceSha256": "95eca1f758351ee47a40d05e75f15983f53da7d17bbffb8febe3f03b7d44cbee",
+    "modelEvidence": "Radeon RX 470 GAMING X 4G",
+    "memoryEvidence": [
+      "Memory 4GB GDDR5 (256-bit)"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "rx570",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/Radeon-RX-570-ARMOR-4G.pdf",
+    "sourceSha256": "011e66cea6638b89f4d30eef7f5609dddce80bc57ba0d0569fbaf82f00488de2",
+    "modelEvidence": "Radeon RX 570 ARMOR 4G",
+    "memoryEvidence": [
+      "Memory 4GB GDDR5"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "furyx",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/R9-Fury-X-4G.pdf",
+    "sourceSha256": "06520ad027c9158016b6c4712922aceb98da7aabd5909536569210b79735a863",
+    "modelEvidence": "Radeon R9 Fury X 4G",
+    "memoryEvidence": [
+      "Memory Size 4096"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "r9390x",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/id/R9-390X-GAMING-8G.pdf",
+    "sourceSha256": "8fdcc3b65b0d7e5a0ab8c708b448880d374bc0b0eac9372cb59e95fe4a318281",
+    "modelEvidence": "Radeon R9 390X GAMING 8G",
+    "memoryEvidence": [
+      "Memory Size 8192"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "gtx1050",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-GTX-1050-2G.pdf",
+    "sourceSha256": "16ab38353492376ea6b954b33bdb0ddfc98560d74bb2fc41d186dd815fbb7b60",
+    "modelEvidence": "GeForce GTX 1050 2G",
+    "memoryEvidence": [
+      "Memory 2GB GDDR5 (128-bit)"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "gt1030",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-GT-1030-2G-LP-OCV2.pdf",
+    "sourceSha256": "e22a2d2546d377ad332ff456dbd400a8327a903317c9c96b3386cd6f0ab28d32",
+    "modelEvidence": "GeForce GT 1030 2G LP OCV2",
+    "memoryEvidence": [
+      "Memory 2GB GDDR5"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "gtx750ti",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/ua/N750-Ti-2GD5OC.pdf",
+    "sourceSha256": "6621e62d146496f65bfa2095d19ac3353c08315e29af9293e7ddf36cfb4c50f0",
+    "modelEvidence": "N750 Ti-2GD5/OC",
+    "memoryEvidence": [],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "gtx680",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/N680GTX_Lightning.pdf",
+    "sourceSha256": "89e588282d6441a9f3bd9ee6929bdab31a635a8e5a84280e7ff3fb6752cff173",
+    "modelEvidence": "N680GTX Lightning",
+    "memoryEvidence": [
+      "Memory Size 2048"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "gtx580",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/N580GTX_Twin_Frozr_IIOC.pdf",
+    "sourceSha256": "27e2bbd24ecdeb0f7f4aa601cf33fab852dbb331b13f93012d3ee3caf3f71bdb",
+    "modelEvidence": "N580GTX Twin Frozr II/OC",
+    "memoryEvidence": [
+      "Memory Size 1536"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I5"
+  },
+  {
+    "id": "gtx480",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/us/N480GTX_Twin_Frozr_II.pdf",
+    "sourceSha256": "fdf14ce1960a96238b0d8d9fb83198c54462fe619f0198e3c233732bba6e456b",
+    "modelEvidence": "N480GTX Twin Frozr II",
+    "memoryEvidence": [
+      "Memory Size 1536"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "veg64",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/Radeon-RX-Vega-64-8G.pdf",
+    "sourceSha256": "75a4e83c946397d45c47561aa429c1429083c1dd94a4b1315e793698d01d3eb6",
+    "modelEvidence": "Radeon RX Vega 64 8G",
+    "memoryEvidence": [
+      "Memory 8GB HBM2"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "vega56",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/Radeon-RX-Vega-56-8G.pdf",
+    "sourceSha256": "b9cf4c071b809a966bf1a52fe9d56b0ed2cc105cf4be31bee6219ff2ebd9f767",
+    "modelEvidence": "Radeon RX Vega 56 8G",
+    "memoryEvidence": [
+      "Memory 8GB HBM2"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "r9nano",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/original/vga/global/R9-Nano-4G.pdf",
+    "sourceSha256": "75293192b70a697c883b05454f60bad95a17db37280eae36aaeafbc6e3699bb3",
+    "modelEvidence": "Radeon R9 Nano 4G",
+    "memoryEvidence": [
+      "Memory Size 4096"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I7"
+  },
+  {
+    "id": "r9280x",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/R9-280X-GAMING-3G.pdf",
+    "sourceSha256": "20c212887fcf64c779052aba060f8bc2022715be39290b98af591034c11b36ee",
+    "modelEvidence": "Radeon R9 280X GAMING 3G",
+    "memoryEvidence": [
+      "Memory Size 3072"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I7"
+  },
+  {
+    "id": "hd7870",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/R7870_Hawk.pdf",
+    "sourceSha256": "dc549453af1843f759b0a15d85ce0206bce6eabafb4a04ac9e494ba6194f6468",
+    "modelEvidence": "R7870 Hawk",
+    "memoryEvidence": [
+      "Memory Size 2048"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I4"
+  },
+  {
+    "id": "hd6870",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/original/vga/global/R6870_Hawk.pdf",
+    "sourceSha256": "8ab0c80e5a4376d6ac5a2706bffbabc3af4f59b8777137ab6de83cab44fa2a34",
+    "modelEvidence": "R6870 Hawk",
+    "memoryEvidence": [
+      "Memory Size 1024",
+      "1GB GDDR5 4200MHz Memory  "
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "r9290x",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/R9-290X-GAMING-4G.pdf",
+    "sourceSha256": "8e9524f5405d76562f2ef9206551df52de2872ca080f37262b2c50bd85e05c6b",
+    "modelEvidence": "Radeon R9 290X GAMING 4G",
+    "memoryEvidence": [
+      "Memory Size 4096"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I7"
+  },
+  {
+    "id": "gtx960",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/us/GTX-960-GAMING-2G.pdf",
+    "sourceSha256": "5ba37e3b1c68fe05ddaf354350fcb7b4a5d7e491e42d1be8b646ab859244c64a",
+    "modelEvidence": "GeForce GTX 960 GAMING 2G",
+    "memoryEvidence": [
+      "Memory Size 2048"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "rtx4090",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-RTX-4090-VENTUS-3X-24G-OC.pdf",
+    "sourceSha256": "043d6583406766d7e0cbf5b9f99e55e4c646856dfbb232bfd78976830cc564c0",
+    "modelEvidence": "GeForce RTX™ 4090 VENTUS 3X 24G OC",
+    "memoryEvidence": [
+      "Memory 24GB GDDR6X"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "rtx4070tis",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-RTX-4070-Ti-SUPER-16G-VENTUS-3X-OC.pdf",
+    "sourceSha256": "9a0fc6771912efa172ebee19a04b4d7a1bc3bd0a3788188d6d606d35b15d2ff3",
+    "modelEvidence": "GeForce RTX™ 4070 Ti SUPER 16G",
+    "memoryEvidence": [
+      "Memory 16GB GDDR6X"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "rtx4070s",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-RTX-4070-SUPER-12G-VENTUS-2X-OC.pdf",
+    "sourceSha256": "ce986a5b45439667534906f33715fc22d3cad14502aa53c0cd25dfb4c03e90f4",
+    "modelEvidence": "GeForce RTX™ 4070 SUPER 12G VENTUS",
+    "memoryEvidence": [
+      "Memory 12GB GDDR6X"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "rtx4070",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-RTX-4070-VENTUS-2X-12G-OC.pdf",
+    "sourceSha256": "fffb81a3b335d3797abdfdac1b07bec536ccf02b9ce5162a2d1d109e7ed58163",
+    "modelEvidence": "GeForce RTX™ 4070 VENTUS 2X 12G OC",
+    "memoryEvidence": [
+      "Memory 12GB GDDR6X"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "rtx4060",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-RTX-4060-VENTUS-2X-BLACK-8G-OC.pdf",
+    "sourceSha256": "504fd292d8c7c76246959aab545248db330d4e096699cad2d55449c90bcb5ec9",
+    "modelEvidence": "GeForce RTX™ 4060 VENTUS 2X BLACK",
+    "memoryEvidence": [
+      "Memory 8GB GDDR6"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "rtx3090",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-RTX-3090-VENTUS-3X-24G-OC.pdf",
+    "sourceSha256": "6389c26d07a85a8635b0fd235bcca8669127bc79be2bf9232f1ffa3f50051e44",
+    "modelEvidence": "GeForce RTX™ 3090 VENTUS 3X 24G OC",
+    "memoryEvidence": [
+      "Memory 24GB GDDR6X"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "rtx3080",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-RTX-3080-VENTUS-3X-10G-OC.pdf",
+    "sourceSha256": "1e6fd1a9d57e8f4b507db9958f0a5303974c6153a18ba16bd31995753860adbb",
+    "modelEvidence": "GeForce RTX™ 3080 VENTUS 3X 10G OC",
+    "memoryEvidence": [
+      "Memory 10GB GDDR6X"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "rtx3070",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-RTX-3070-VENTUS-2X-OC.pdf",
+    "sourceSha256": "edf43370197517a5498a8645291f30f051c0a472c2f911811d9cda7269124340",
+    "modelEvidence": "GeForce RTX™ 3070 VENTUS 2X OC",
+    "memoryEvidence": [
+      "Memory 8GB GDDR6"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "rtx3060",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-RTX-3060-VENTUS-2X-12G-OC.pdf",
+    "sourceSha256": "64773f013389a0c94bfb431eeb8273076f93c6377e13639a03eb4e2dbfdf9984",
+    "modelEvidence": "GeForce RTX™ 3060 VENTUS 2X 12G OC",
+    "memoryEvidence": [
+      "Memory 12GB GDDR6"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "rtx2060",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-RTX-2060-VENTUS-6G-OC.pdf",
+    "sourceSha256": "d7bb47ca2abed83f1414332ff545ace5640ffd53dcb2087e1844da0588363258",
+    "modelEvidence": "GeForce RTX 2060 VENTUS 6G OC",
+    "memoryEvidence": [
+      "Memory 6GB GDDR6"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "rtx3050",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-RTX-3050-VENTUS-2X-8G-OC.pdf",
+    "sourceSha256": "b2b580bd612a0c0b73518a9950595d56a1820062ba44590bf8ed7878482e66ee",
+    "modelEvidence": "GeForce RTX™ 3050 VENTUS 2X 8G OC",
+    "memoryEvidence": [
+      "Memory 8GB GDDR6"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "rtx2080",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-RTX-2080-VENTUS-8G-OC.pdf",
+    "sourceSha256": "790d506580f843c5c3e8bbb415f294e2c1921afb6dee7f52e802b34455051515",
+    "modelEvidence": "GeForce RTX 2080 VENTUS 8G OC",
+    "memoryEvidence": [
+      "Memory 8GB GDDR6"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "rtx2070",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-RTX-2070-VENTUS-8G-OC.pdf",
+    "sourceSha256": "b19a094c4c079feeab6fe7343c7727985e2231157f1f59bbc8221228839b4662",
+    "modelEvidence": "GeForce RTX 2070 VENTUS 8G OC",
+    "memoryEvidence": [
+      "Memory 8GB GDDR6"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I8"
+  },
+  {
+    "id": "rtx4080",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-RTX-4080-16GB-VENTUS-3X-OC.pdf",
+    "sourceSha256": "8de624c96ed9dbd0c2c5a128aa8f9308b02b404cc10547e02d8824fd08e61e5e",
+    "modelEvidence": "GeForce RTX™ 4080 16GB VENTUS 3X OC",
+    "memoryEvidence": [
+      "Memory 16GB GDDR6X"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "rtx4060ti16",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-RTX-4060-Ti-VENTUS-3X-16G-OC.pdf",
+    "sourceSha256": "21a1213db4dbeea15c3e39c86213d19d43aa7bc241edc9cffa63e01f54949636",
+    "modelEvidence": "GeForce RTX™ 4060 Ti VENTUS 3X 16G",
+    "memoryEvidence": [
+      "Memory 16GB GDDR6"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "rtx30506",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-RTX-3050-VENTUS-2X-6G-OC.pdf",
+    "sourceSha256": "cf21616e870e7180840e7eb32bc89960360d65e400f384d0bdaaf1f27540edae",
+    "modelEvidence": "GeForce RTX™ 3050 VENTUS 2X 6G OC",
+    "memoryEvidence": [
+      "Memory 6GB GDDR6"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I6"
+  },
+  {
+    "id": "gtx780ti",
+    "sourceUrl": "https://storage-asset.msi.com/datasheet/vga/global/GTX-780Ti-GAMING-3G-LE.pdf",
+    "sourceSha256": "38a7db6c9397f77020c2e9d23ac7303d7368e0af3c6c802c8cdba568a5b91b0e",
+    "modelEvidence": "GeForce GTX 780Ti GAMING 3G LE",
+    "memoryEvidence": [
+      "Memory Size 3072"
+    ],
+    "sourcePage": 1,
+    "sourceImageObject": "I8"
+  }
+]

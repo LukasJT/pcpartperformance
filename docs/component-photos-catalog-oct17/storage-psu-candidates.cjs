@@ -1,0 +1,40 @@
+'use strict';
+const t=require('./storage-psu-research.cjs'),fs=require('node:fs'),path=require('node:path');
+const audit=require('./storage-psu-source-audit.json');
+const p=[];
+function add(id,page,note){p.push({id,page,note});}
+function corsair(id,kind,sku,slug,note){add(id,`https://www.corsair.com/us/en/p/${kind}/${sku}/${slug}-${sku}`,note||`Exact official SKU ${sku.toUpperCase()}; verify selected product title and product gallery.`);}
+for(const x of t.catalog.filter(x=>x.source?.includes('corsair.com/us/en/p/')&&!t.prior[x.id]))add(x.id,x.source,'Official selected SKU page and matching product gallery; capacity/speed and revision are checked in the title and selected SKU.');
+corsair('rm750x','psu','cp-9020199-na','rmx-series-rm750x-750-watt-80-plus-gold-fully-modular-atx-psu');
+corsair('rm650x','psu','cp-9020198-na','rmx-series-rm650x-650-watt-80-plus-gold-fully-modular-atx-psu');
+corsair('rm1000x','psu','cp-9020201-na','rmx-series-rm1000x-1000-watt-80-plus-gold-fully-modular-atx-psu');
+corsair('c-ram-corsair-dominator-titanium-rgb-64gb-ddr5-6600-cl32','memory','cmp64gx5m2x6600c32','dominator-titanium-rgb-2x32gb-ddr5-dram-6600mt-s-cl32-intel-xmp-memory-kit');
+corsair('c-ram-corsair-vengeance-rgb-96gb-ddr5-6000-cl30','memory','cmh96gx5m2b6000c30','vengeance-rgb-96gb-2x48gb-ddr5-dram-6000mt-s-cl30-memory-kit-black');
+corsair('c-ram-corsair-vengeance-64gb-ddr5-6000-cl30','memory','cmk64gx5m2b6000c30','vengeance-64gb-2x32gb-ddr5-dram-6000mt-s-cl30-memory-kit-black');
+corsair('c-ram-corsair-vengeance-48gb-ddr5-6400-cl36','memory','cmk48gx5m2b6400c36','vengeance-48gb-2x24gb-ddr5-dram-6400mt-s-c36-memory-kit-black');
+corsair('c-ram-corsair-vengeance-lpx-64gb-ddr4-3600-cl18','memory','cmk64gx4m2d3600c18','vengeancea-lpx-64gb-2-x-32gb-ddr4-dram-3600mhz-c18-memory-kit-black');
+corsair('c-ram-corsair-vengeance-rgb-pro-32gb-ddr4-3600-cl18','memory','cmw32gx4m2d3600c18','vengeancea-rgb-pro-32gb-2-x-16gb-ddr4-dram-3600mhz-c18-memory-kit-a-black');
+corsair('c-ram-corsair-vengeance-lpx-16gb-ddr4-3200-cl16','memory','cmk16gx4m2b3200c16','vengeancea-lpx-16gb-2-x-8gb-ddr4-dram-3200mhz-c16-memory-kit-black');
+corsair('c-psu-corsair-hx1500i','psu','cp-9020309-na','hx1500i-fully-modular-ultra-low-noise-platinum-atx-1500-watt-pc-power-supply');
+corsair('c-psu-corsair-hx1200i','psu','cp-9020281-na','hx1200i-fully-modular-ultra-low-noise-platinum-atx-1200-watt-pc-power-supply');
+corsair('c-psu-corsair-rm1000x-shift','psu','cp-9020253-na','rm1000x-shift-80-plus-gold-fully-modular-atx-power-supply');
+corsair('c-psu-corsair-rm850x-shift','psu','cp-9020252-na','rm850x-shift-80-plus-gold-fully-modular-atx-power-supply');
+corsair('c-psu-corsair-rm750x-shift','psu','cp-9020251-na','rm750x-shift-80-plus-gold-fully-modular-atx-power-supply');
+corsair('c-psu-corsair-sf1000','psu','cp-9020257-na','sf-series-sf1000-fully-modular-80-plus-platinum-sfx-power-supply');
+corsair('c-psu-corsair-sf850','psu','cp-9020256-na','sf-series-sf850-fully-modular-80-plus-platinum-sfx-power-supply');
+corsair('c-psu-corsair-sf750','psu','cp-9020284-na','sf-series-sf750-fully-modular-80-plus-platinum-sfx-power-supply');
+add('gskill6000c30','https://www.gskill.com/product/165/390/1661410135/F5-6000J3038F16GX2-TZ5NR','Correct numeric product ID: F5-6000J3038F16GX2-TZ5NR, 32 GB DDR5-6000 CL30.');
+add('tridentneo64','https://www.gskill.com/product/165/390/1665020865/F5-6000J3040G32GX2-TZ5NR','Correct numeric product ID: F5-6000J3040G32GX2-TZ5NR, 64 GB DDR5-6000 CL30.');
+add('gskill3600c16','https://www.gskill.com/product/165/326/1562839473/F4-3600C16D-32GTZN','Correct numeric product ID: F4-3600C16D-32GTZN, 32 GB DDR4-3600 CL16.');
+add('gskill6400c32','https://www.gskill.com/product/165/374/1642064699/F5-6400J3239G16GX2-TZ5RK-F5-6400J3239G16GA2-TZ5RK','Correct numeric product ID: 32 GB DDR5-6400 CL32, Trident Z5 RGB black.');
+add('flarex5','https://www.gskill.com/product/165/396/1673491242/F5-6000J3038F16GX2-FX5','Correct numeric product ID: 32 GB DDR5-6000 CL30 Flare X5.');
+add('c-ram-g-skill-trident-z5-rgb-48gb-ddr5-8400-cl40','https://www.gskill.com/product/165/374/1696494301/F5-8400J4052G24GX2-TZ5RW','Exact 48 GB DDR5-8400 CL40 Trident Z5 RGB SKU, white variant.');
+add('c-ram-g-skill-ripjaws-s5-32gb-ddr5-6000-cl30','https://www.gskill.com/product/165/377/1649234720/F5-6000J3040F16GX2-RS5W-F5-6000J3040F16GA2-RS5W','Exact 32 GB DDR5-6000 CL30 Ripjaws S5 SKU, white variant.');
+for(const [id,sku]of Object.entries({'c-ssd-sabrent-rocket-5-4tb':'sb-rkt5p-4tb','c-ssd-sabrent-rocket-4-plus-g-4tb':'sb-rktg-4tb','c-ssd-sabrent-rocket-q4-4tb':'sb-rktq4-4tb','c-ssd-sabrent-rocket-q-8tb':'sb-rktq-8tb'}))add(id,'https://sabrent.com/products/'+sku,'Exact named-capacity manufacturer product page; confirm printed capacity in photograph.');
+add('tforce7600','https://www.teamgroupinc.com/en/product-detail/memory/T-FORCE/delta-rgb-ddr5-black/delta-rgb-ddr5-black-FF3D532G7600HC36DDC01/','Exact FF3D532G7600HC36DDC01 black 32GB (2x16GB) 7600MHz CL36 SKU product page.');
+for(const id of ['gskill3200c16','rocket4plus','980pro','990pro','v850sfx','mwegold750','tforcedelta6000'])add(id,t.catalog.find(x=>x.id===id).source,'Exact catalog source selected model; verify image gallery against title.');
+for(const [id,slug]of Object.entries({'c-psu-cooler-master-x-silent-edge-platinum-1100':'x-silent-edge-platinum-1100','c-psu-cooler-master-v-platinum-v2-1300':'v-platinum-v2-1300','c-psu-cooler-master-v-gold-i-multi-1050':'v-gold-i-multi-1050','c-psu-cooler-master-mwe-gold-1050-v2':'mwe-gold-1050-v2-full-modular','c-psu-cooler-master-gx-iii-gold-850':'gx-iii-gold-850','c-psu-cooler-master-v-sfx-platinum-1100':'v-sfx-platinum-1100'}))add(id,'https://www.coolermaster.com/en-global/products/'+slug+'/','Exact named official PSU product page, subject to confirming wattage and gallery label.');
+for(const id of ['wdblue4tb','wdblue2tb','wdblack8tb','wdred8tb','wdred4tb','wdred12tb','wdgold18tb','barracuda8','ironwolf8tb','ironwolf4tb','exos18tb','toshibax3008','toshibax30012','toshiban3008'])add(id,t.catalog.find(x=>x.id===id).source,'Manufacturer family page: accept only an explicitly capacity-specific gallery image with visible matching capacity/model; generic family image remains unresolved.');
+for(const [id,slug]of Object.entries({'c-hdd-wd-blue-8tb-hdd':'wd-blue-desktop-sata-hdd','c-hdd-wd-black-10tb-hdd':'wd-black-desktop-sata-hdd','c-hdd-wd-red-pro-24tb':'wd-red-pro-sata-hdd','c-hdd-wd-gold-24tb':'wd-gold-sata-hdd','c-hdd-wd-purple-pro-24tb':'wd-purple-pro-sata-hdd'}))add(id,`https://www.westerndigital.com/products/internal-drives/${slug}`,'Accept only explicitly capacity-specific gallery photograph; inspect printed label.');
+async function main(){const result=[];await t.pool(p,async x=>{const r=await t.request(x.page);const e=t.extract(r.body,x.page);result.push({...x,status:r.status,finalUrl:r.finalUrl,title:e.title,cache:r.cache,metas:e.metas,images:e.images});console.log(r.status,x.id,e.title?.replace(/\s+/g,' '));});fs.writeFileSync(path.join(__dirname,'storage-psu-candidates.json'),JSON.stringify(result,null,2));}
+main().catch(e=>{console.error(e);process.exitCode=1;});

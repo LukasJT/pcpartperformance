@@ -20,10 +20,11 @@ function entry(part,image,root){
  const identity=selectors.normalize(image.catalogName),names=[part.name,[part.brand,part.name].filter(Boolean).join(' ')].map(selectors.normalize);
  const alias=aliases[part.id],reviewedAlias=image.kind==='exact'&&alias?.[0]===part.name&&alias?.[1]===image.picturedModel;
  const bound=['exact','model-render'].includes(image.kind)&&identity&&names.includes(identity);
- if(!bound&&!reviewedAlias&&!selectors.imageFor(part,{[part.id]:image}))return null;
+ const sameChip=image.kind==='same-chip-variant'&&part.cat==='gpu'&&!part.id.startsWith('retail-')&&image.visualReviewed===true&&image.gpuModel===part.name&&image.memoryGB===Number(part.specs?.Memory)&&!!image.representedVariant&&identity&&names.includes(identity);
+ if(!bound&&!sameChip&&!reviewedAlias&&!selectors.imageFor(part,{[part.id]:image}))return null;
  const src=image.thumbnailSrc||delivery.source(part.id,image,root);
  if(!/^(?:\/[^/]|https:\/\/)/.test(src))return null;
- return{src,picturedModel:image.picturedModel,...(bound||reviewedAlias?{productId:part.id}:{})};
+ return{src,picturedModel:image.picturedModel,...(bound||sameChip||reviewedAlias?{productId:part.id}:{})};
 }
 function index(parts,images,root){return Object.fromEntries(parts.map(part=>[part.id,entry(part,images[part.id],root)]).filter(([,image])=>image));}
 module.exports={entry,index,aliases};

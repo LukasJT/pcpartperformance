@@ -1,0 +1,14 @@
+'use strict';
+const fs=require('node:fs'),path=require('node:path');
+const rows=require('../docs/component-photos-catalog-oct17/catalog-audit.json').rows.filter(p=>p.category==='cpu'&&p.status==='needs-correct-image');
+const directory=path.resolve('tmp/cpu-commons-oct17');fs.mkdirSync(directory,{recursive:true});const output='docs/component-photos-catalog-oct17/cpu-commons-research.json';
+const strip=x=>String(x||'').replace(/<[^>]+>/g,'').replace(/&[^;]+;/g,' ').trim();
+async function research(part){
+ const file=path.join(directory,part.id+'.json');if(fs.existsSync(file))return JSON.parse(fs.readFileSync(file,'utf8'));
+ const model=part.name.match(/i[3579]-?\d+[A-Z]*|(?:\d{3,5}(?:X3D|WX|XT|X|KS|KF|K|F|G|S)?)/i)?.[0]||part.name.replace(/^(AMD|Intel) /,'');
+ const url=new URL('https://commons.wikimedia.org/w/api.php');for(const[k,v]of Object.entries({action:'query',format:'json',generator:'search',gsrsearch:'intitle:"'+model+'" -intitle:"00." -intitle:vs',gsrnamespace:'6',gsrlimit:'15',prop:'imageinfo',iiprop:'url|extmetadata',iiurlwidth:'800'}))url.searchParams.set(k,v);
+ const row={id:part.id,name:part.name,query:model,candidates:[]};
+ try{const response=await fetch(url,{headers:{'User-Agent':'PCPartPerformancePhotoResearch/1.0 (editorial product imagery; pcpartperformance.com)'},signal:AbortSignal.timeout(15000)});row.status=response.status;row.checkedAt=new Date().toISOString();if(response.status===429){row.reason='Rate limited; stop intake and resume only after provider backoff';row.retryAfter=response.headers.get('Retry-After');}if(response.ok){const data=await response.json();row.candidates=Object.values(data.query?.pages||{}).filter(p=>/\.(?:jpe?g|webp|png|tiff?)$/i.test(p.title)&&!/\d\d\.\d\d|test|review|build|screen|setup|benchmark|cpu-z|aorus|geforce|копьютер/i.test(p.title)).map(p=>{const i=p.imageinfo?.[0],e=i?.extmetadata||{};return i?{title:p.title,sourceUrl:i.descriptionurl,imageUrl:i.url,downloadUrl:i.thumburl||i.url,license:strip(e.LicenseShortName?.value),licenseUrl:e.LicenseUrl?.value,artist:strip(e.Artist?.value),description:strip(e.ImageDescription?.value)}:null;}).filter(c=>c&&/CC|Public domain|GFDL/i.test(c.license));}}catch(e){row.reason=e.message;}fs.writeFileSync(file,JSON.stringify(row,null,2));return row;
+}
+async function main(){const results=[];for(let i=0;i<rows.length;i+=2){const batch=await Promise.all(rows.slice(i,i+2).map(research));results.push(...batch);const limited=batch.some(row=>row.status===429);fs.writeFileSync(output,JSON.stringify({checkedAt:new Date().toISOString(),rows:results,rateLimited:limited,deferred:limited?rows.slice(i+batch.length).map(row=>row.id):[]},null,2)+'\n');console.log(results.length+'/'+rows.length+' CPUs; '+results.filter(x=>x.candidates.length).length+' with licensed candidates');if(limited)break;await new Promise(r=>setTimeout(r,1000));}}
+main().catch(e=>{console.error(e);process.exitCode=1;});

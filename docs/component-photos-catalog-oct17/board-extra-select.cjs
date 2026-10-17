@@ -1,0 +1,12 @@
+const fs=require('fs'),path=require('path');const records={};for(let n=1;n<=7;n++)Object.assign(records,JSON.parse(fs.readFileSync(path.join(__dirname,'board-extra-research-'+n+'.json'))));
+const norm=s=>s.toLowerCase().replace(/asus|asrock|gigabyte|biostar|supermicro|nzxt|republicofgamers|rog/g,'').replace(/[^a-z0-9]/g,'');
+const retailer=/ldlc|newegg|pccasegear|bhphotovideo|ask-corp|cfd\.co|materiel\.net|targetcomponents|pbtech|microless|pccomponentes|mindfactory|overclockers\.co\.uk|terabyteshop|dateks|pichau|x-kom|scan\.co|computerorbit|rebuildit|arvutitark|tekwind|alza|neoxcomputers|mightyape|waz\./;
+function score(h,p){const key=norm(p.name),t=norm(h.title),u=norm(decodeURIComponent(h.sourceUrl));if(!t.includes(key)&&!u.includes(key))return -10000;if(/ebay|shopee|aliexpress|auction|pinterest/.test(h.sourceUrl))return -1000;
+ if(/asrock\.com|gigabyte\.com\/StaticFile|static.gigabyte/.test(h.imageUrl))return -1000;
+ const text=h.title.toLowerCase();if(!/v2/i.test(p.name)&&/\bv2\b|\bv3\b/.test(text))return -500;if(!/ice/i.test(p.name)&&/\bice\b/.test(text))return -500;
+ if(!/wifi/i.test(p.name)&&/crosshair|rog maximus x hero|rog maximus xi hero/i.test(p.name)&&/wi.?fi|wireless/i.test(h.title))return -500;
+ let v=retailer.test(h.sourceUrl)?100:/motherboarddb/.test(h.sourceUrl)?85:/geizhals|heise|idealo|pangoly/.test(h.sourceUrl)?60:35;
+ if(/ldlc|ask-corp|cfd\.co|targetcomponents/.test(h.sourceUrl))v+=10;if(/box|cover|diagram|\.pdf/.test(h.imageUrl))v-=25;if(/review|techradar|tweaktown|tomshardware|manualslib|manuals.plus/.test(h.sourceUrl))v-=20;return v;
+}
+const out={};for(const[id,v]of Object.entries(records)){const hits=v.hits.map((h,i)=>({...h,index:i,score:score(h,v.record)})).sort((a,b)=>b.score-a.score),h=hits[0];if(h?.score>0){out[id]={...h,catalogName:v.record.name,picturedModel:v.record.name,identityEvidence:'Exact named motherboard product media on source page titled: '+h.title+'. Product suffixes checked; final PCB/model and form-factor visual inspection required before acceptance.',attribution:v.record.brand+' product media via '+new URL(h.sourceUrl).hostname,license:'Product media published by named source; original copyright retained, not an open license',official:false,kind:'exact',checked:'2026-10-17'};console.log(id,h.title,h.imageUrl);}else console.log('NO MATCH',id);}
+fs.writeFileSync(path.join(__dirname,'board-extra-candidates.json'),JSON.stringify(out,null,2));

@@ -1,0 +1,438 @@
+[
+  {
+    "id": "retail-msi-geforce-rtx-3060-ventus-2x-12g",
+    "logFile": "gpu-retail-fetch.json",
+    "sourceUrl": "https://www.msi.com/Graphics-Card/GeForce-RTX-3060-VENTUS-2X-12G/Specification",
+    "result": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "retail-msi-geforce-rtx-3060-ventus-2x-12g-oc",
+    "logFile": "gpu-retail-fetch.json",
+    "sourceUrl": "https://www.msi.com/Graphics-Card/GeForce-RTX-3060-VENTUS-2X-12G-OC/Specification",
+    "result": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "retail-msi-geforce-rtx-3060-ventus-2x-8g-oc",
+    "logFile": "gpu-retail-fetch.json",
+    "sourceUrl": "https://www.msi.com/Graphics-Card/GeForce-RTX-3060-VENTUS-2X-8G-OC/Specification",
+    "result": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "retail-msi-geforce-rtx-3060-gaming-x-12g",
+    "logFile": "gpu-retail-fetch.json",
+    "sourceUrl": "https://www.msi.com/Graphics-Card/GeForce-RTX-3060-GAMING-X-12G/Specification",
+    "result": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "retail-asus-dual-geforce-rtx-3060-v2-oc-edition",
+    "logFile": "gpu-retail-fetch.json",
+    "sourceUrl": "https://www.asus.com/us/motherboards-components/graphics-cards/dual/dual-rtx3060-o12g-v2/techspec/",
+    "result": "manufacturer-source-or-image-retrieved",
+    "sourceTitle": "DUAL-RTX3060-O12G-V2 - Tech Specs｜Graphics Cards｜ASUS USA"
+  },
+  {
+    "id": "retail-zotac-geforce-rtx-3060-twin-edge",
+    "logFile": "gpu-retail-fetch.json",
+    "sourceUrl": "https://www.zotac.com/us/product/graphics_card/zotac-gaming-geforce-rtx-3060-twin-edge",
+    "result": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "retail-gigabyte-geforce-rtx-4090-aero-oc-24g",
+    "logFile": "gpu-retail-fetch.json",
+    "sourceUrl": "https://www.gigabyte.com/ca/Graphics-Card/GV-N4090AERO-OC-24GD/sp",
+    "result": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "rx7800xt",
+    "logFile": "gpu-html-results.json",
+    "sourceUrl": "https://www.asrock.com/Graphics-Card/AMD/Radeon%20RX%207800%20XT%20Challenger%2016GB%20OC/",
+    "result": "blocked-source-page-response",
+    "linkedRelevantImages": []
+  },
+  {
+    "id": "rx7700xt",
+    "logFile": "gpu-html-results.json",
+    "sourceUrl": "https://www.asrock.com/Graphics-Card/AMD/Radeon%20RX%207700%20XT%20Challenger%2012GB%20OC/",
+    "result": "blocked-source-page-response",
+    "linkedRelevantImages": []
+  },
+  {
+    "id": "rx9060xt16",
+    "logFile": "gpu-html-results.json",
+    "sourceUrl": "https://asrock.com/Graphics-Card/AMD/Radeon%20RX%209060%20XT%20Challenger%2016GB%20OC/",
+    "result": "blocked-source-page-response",
+    "linkedRelevantImages": []
+  },
+  {
+    "id": "arca750",
+    "logFile": "gpu-html-results.json",
+    "sourceUrl": "https://www.asrock.com/Graphics-Card/Intel/Intel%20Arc%20A750%20Challenger%20D%208GB%20OC/index.us.asp",
+    "result": "blocked-source-page-response",
+    "linkedRelevantImages": []
+  },
+  {
+    "id": "arcb570",
+    "logFile": "gpu-html-results.json",
+    "sourceUrl": "https://www.asrock.com/Graphics-Card/Intel/Intel%20Arc%20B570%20Challenger%2010GB%20OC/",
+    "result": "blocked-source-page-response",
+    "linkedRelevantImages": []
+  },
+  {
+    "id": "arca580",
+    "logFile": "gpu-html-results.json",
+    "sourceUrl": "https://asrock.com/Graphics-Card/Intel/Intel%20Arc%20A580%20Challenger%208GB%20OC/",
+    "result": "blocked-source-page-response",
+    "linkedRelevantImages": []
+  },
+  {
+    "id": "arca380",
+    "logFile": "gpu-html-results.json",
+    "sourceUrl": "https://www.asrock.com/Graphics-Card/Intel/Intel%20Arc%20A380%20Challenger%20ITX%206GB%20OC/",
+    "result": "blocked-source-page-response",
+    "linkedRelevantImages": []
+  },
+  {
+    "id": "rx6700",
+    "logFile": "gpu-html-results.json",
+    "sourceUrl": "https://www.sapphiretech.com/en/consumer/11321-03-radeon-rx-6700-10g-gddr6",
+    "result": "manufacturer-source-or-image-retrieved",
+    "linkedRelevantImages": [],
+    "sourceTitle": "AMD Radeon  RX 6700 "
+  },
+  {
+    "id": "rx7800xt",
+    "logFile": "gpu-direct-results.json",
+    "sourceUrl": "https://www.asrock.com/Graphics-Card/AMD/Radeon%20RX%207800%20XT%20Challenger%2016GB%20OC/",
+    "imageUrl": "https://www.asrock.com/Graphics-Card/photo/Radeon%20RX%207800%20XT%20Challenger%2016GB%20OC%28M1%29.png",
+    "result": "blocked-or-nonimage-response",
+    "contentType": "text/html"
+  },
+  {
+    "id": "rx7700xt",
+    "logFile": "gpu-direct-results.json",
+    "sourceUrl": "https://www.asrock.com/Graphics-Card/AMD/Radeon%20RX%207700%20XT%20Challenger%2012GB%20OC/",
+    "imageUrl": "https://www.asrock.com/Graphics-Card/photo/Radeon%20RX%207700%20XT%20Challenger%2012GB%20OC%28M1%29.png",
+    "result": "blocked-or-nonimage-response",
+    "contentType": "text/html"
+  },
+  {
+    "id": "rx9060xt16",
+    "logFile": "gpu-direct-results.json",
+    "sourceUrl": "https://asrock.com/Graphics-Card/AMD/Radeon%20RX%209060%20XT%20Challenger%2016GB%20OC/",
+    "imageUrl": "https://asrock.com/Graphics-Card/photo/Radeon%20RX%209060%20XT%20Challenger%2016GB%20OC%28M1%29.png",
+    "result": "blocked-or-nonimage-response",
+    "contentType": "text/html"
+  },
+  {
+    "id": "arcb570",
+    "logFile": "gpu-direct-results.json",
+    "sourceUrl": "https://www.asrock.com/Graphics-Card/Intel/Intel%20Arc%20B570%20Challenger%2010GB%20OC/",
+    "imageUrl": "https://www.asrock.com/Graphics-Card/photo/Intel%20Arc%20B570%20Challenger%2010GB%20OC%28M1%29.png",
+    "result": "blocked-or-nonimage-response",
+    "contentType": "text/html"
+  },
+  {
+    "id": "arca580",
+    "logFile": "gpu-direct-results.json",
+    "sourceUrl": "https://asrock.com/Graphics-Card/Intel/Intel%20Arc%20A580%20Challenger%208GB%20OC/",
+    "imageUrl": "https://asrock.com/Graphics-Card/photo/Intel%20Arc%20A580%20Challenger%208GB%20OC%28M1%29.png",
+    "result": "blocked-or-nonimage-response",
+    "contentType": "text/html"
+  },
+  {
+    "id": "arca380",
+    "logFile": "gpu-direct-results.json",
+    "sourceUrl": "https://www.asrock.com/Graphics-Card/Intel/Intel%20Arc%20A380%20Challenger%20ITX%206GB%20OC/",
+    "imageUrl": "https://www.asrock.com/Graphics-Card/photo/Intel%20Arc%20A380%20Challenger%20ITX%206GB%20OC%28M1%29.png",
+    "result": "blocked-or-nonimage-response",
+    "contentType": "text/html"
+  },
+  {
+    "id": "retail-gigabyte-geforce-rtx-4090-aero-oc-24g",
+    "logFile": "gpu-fallback-html-results.json",
+    "sourceUrl": "https://marketplace.nvidia.com/en-us/consumer/graphics-cards/gigabyte-aero-geforce-rtx-4090-24gb-gddr6x-pci-express-4-0-x16-atx-video-card-gv-n4090aero-oc-24gd/",
+    "result": "The read operation timed out"
+  },
+  {
+    "id": "titanxp",
+    "logFile": "gpu-fallback-html-results.json",
+    "sourceUrl": "https://www.nvidia.com/nl-nl/titan/titan-xp/",
+    "result": "manufacturer-source-or-image-retrieved",
+    "linkedRelevantImages": [],
+    "sourceTitle": "Grafische kaart NVIDIA TITAN Xp | NVIDIA"
+  },
+  {
+    "id": "titanv",
+    "logFile": "gpu-fallback-html-results.json",
+    "sourceUrl": "https://www.nvidia.com/nl-nl/titan/titan-v/",
+    "result": "manufacturer-source-or-image-retrieved",
+    "linkedRelevantImages": [
+      "/content/dam/en-zz/Solutions/geforce/TITAN/TITANV/nvidia-titan-v-gallery-a-641-u.jpg",
+      "/content/dam/en-zz/Solutions/geforce/TITAN/TITANV/nvidia-titan-v-gallery-b-641-u.jpg",
+      "/content/dam/en-zz/Solutions/geforce/TITAN/TITANV/nvidia-titan-v-gallery-c-641-u.jpg",
+      "/content/dam/en-zz/Solutions/geforce/TITAN/TITANV/nvidia-titan-v-gallery-d-641-u.jpg"
+    ],
+    "sourceTitle": "De krachtigste GPU voor pc ter wereld | NVIDIA"
+  },
+  {
+    "id": "arca750",
+    "logFile": "gpu-fallback-html-results.json",
+    "sourceUrl": "https://game.intel.com/ca/intel-arc-graphics-a750/",
+    "result": "manufacturer-source-or-image-retrieved",
+    "linkedRelevantImages": [
+      "https://game.intel.com/wp-content/uploads/2024/01/a750-double-shroud-1080.png"
+    ],
+    "sourceTitle": "Intel® Arc™ Graphics - A750 Limited Edition | Intel Gaming Access"
+  },
+  {
+    "id": "ibm-vga",
+    "logFile": "gpu-extra-images.json",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AIBM_VGA_graphics_card.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/IBM_VGA_graphics_card.jpg?utm_campaign=index&utm_content=original&utm_source=commons.wikimedia.org",
+    "result": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "rivatnt",
+    "logFile": "gpu-extra-images.json",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANVidia_Riva_TNT.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/NVidia_Riva_TNT.jpg",
+    "result": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "geforce256ddr",
+    "logFile": "gpu-extra-images.json",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACanopus_GeForce_256_DDR.png",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Canopus_GeForce_256_DDR.png?utm_campaign=index&utm_content=original&utm_source=commons.wikimedia.org",
+    "result": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "titanxp",
+    "logFile": "gpu-extra-images.json",
+    "sourceUrl": "https://www.nvidia.com/nl-nl/titan/titan-xp/",
+    "imageUrl": "https://www.nvidia.com/content/dam/en-zz/es_em/Solutions/geforce/Titanx-pascal/17-GF-TitanXp-Key_Visual-copy-3-blog.jpg",
+    "result": "manufacturer-source-or-image-retrieved",
+    "contentType": "image/jpeg",
+    "sourceTitle": "Grafische kaart NVIDIA TITAN Xp | NVIDIA"
+  },
+  {
+    "id": "titanv",
+    "logFile": "gpu-extra-images.json",
+    "sourceUrl": "https://www.nvidia.com/nl-nl/titan/titan-v/",
+    "imageUrl": "https://www.nvidia.com/content/dam/en-zz/Solutions/geforce/TITAN/TITANV/nvidia-titan-v-gallery-a-641-u.jpg",
+    "result": "manufacturer-source-or-image-retrieved",
+    "contentType": "image/jpeg",
+    "sourceTitle": "De krachtigste GPU voor pc ter wereld | NVIDIA"
+  },
+  {
+    "id": "arca750",
+    "logFile": "gpu-extra-images.json",
+    "sourceUrl": "https://game.intel.com/ca/intel-arc-graphics-a750/",
+    "imageUrl": "https://game.intel.com/wp-content/uploads/2024/01/a750-double-shroud-1080.png",
+    "result": "manufacturer-source-or-image-retrieved",
+    "contentType": "image/png",
+    "sourceTitle": "Intel® Arc™ Graphics - A750 Limited Edition | Intel Gaming Access"
+  },
+  {
+    "id": "rx7800xt",
+    "logFile": "gpu-alternative-results.json",
+    "sourceUrl": "https://www.asus.com/motherboards-components/graphics-cards/dual/dual-rx7800xt-o16g/techspec/",
+    "result": "manufacturer-source-or-image-retrieved",
+    "linkedRelevantImages": [
+      "https://dlcdnwebimgs.asus.com/gain/14c78fa4-b737-4bc1-9d74-cd74ef0889ad/",
+      "https://dlcdnwebimgs.asus.com/gain/14c78fa4-b737-4bc1-9d74-cd74ef0889ad/"
+    ],
+    "sourceTitle": "ASUS Dual Radeon™ RX 7800 XT OC Edition 16GB GDDR6 | Graphics Card | ASUS Global - Tech Specs"
+  },
+  {
+    "id": "rx7700xt",
+    "logFile": "gpu-alternative-results.json",
+    "sourceUrl": "https://www.asus.com/uk/motherboards-components/graphics-cards/dual/dual-rx7700xt-o12g/techspec/",
+    "result": "manufacturer-source-or-image-retrieved",
+    "linkedRelevantImages": [
+      "https://dlcdnwebimgs.asus.com/gain/6b6e3a10-30da-4e60-87b4-bbdd9e79e957/",
+      "https://dlcdnwebimgs.asus.com/gain/6b6e3a10-30da-4e60-87b4-bbdd9e79e957/"
+    ],
+    "sourceTitle": "ASUS Dual Radeon™ RX 7700 XT OC Edition 12GB GDDR6 | Graphics Card | ASUS UK - Specifications"
+  },
+  {
+    "id": "rx9060xt16",
+    "logFile": "gpu-alternative-results.json",
+    "sourceUrl": "https://www.asus.com/motherboards-components/graphics-cards/prime/prime-rx9060xt-o16g/techspec/",
+    "result": "manufacturer-source-or-image-retrieved",
+    "linkedRelevantImages": [
+      "https://dlcdnwebimgs.asus.com/gain/587f1487-174b-43e2-80b6-0d889d87d627/",
+      "https://dlcdnwebimgs.asus.com/gain/587f1487-174b-43e2-80b6-0d889d87d627/"
+    ],
+    "sourceTitle": "ASUS Prime Radeon™ RX 9060 XT OC Edition 16GB GDDR6 - Tech Specs"
+  },
+  {
+    "id": "rx9070gre",
+    "logFile": "gpu-alternative-results.json",
+    "sourceUrl": "https://nation.sapphiretech.com/en/consumer/pulse-radeon-rx-9070-gre-12g-gddr6",
+    "result": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'nation.sapphiretech.com'. (_ssl.c:1010)>"
+  },
+  {
+    "id": "arca580",
+    "logFile": "gpu-alternative-results.json",
+    "sourceUrl": "https://www.sparkle.com.tw/en/products/view/97e541819FC5",
+    "result": "manufacturer-source-or-image-retrieved",
+    "linkedRelevantImages": [
+      "https://www.sparkle.com.tw/files/20240202112212786.jpg",
+      "https://www.sparkle.com.tw/files/20240202123248139.png",
+      "https://www.sparkle.com.tw/files/20240202122913170.png",
+      "https://www.sparkle.com.tw/files/20240202122959315.png",
+      "https://www.sparkle.com.tw/files/20240202123000770.png",
+      "https://www.sparkle.com.tw/files/20240202123002479.png",
+      "https://www.sparkle.com.tw/files/20240202123020782.png",
+      "https://www.sparkle.com.tw/files/20240202123026504.png",
+      "https://www.sparkle.com.tw/files/20240202123056421.pdf",
+      "https://www.sparkle.com.tw/files/20240202123113475.pdf",
+      "https://www.sparkle.com.tw/files/20240216164545891.jpg"
+    ],
+    "sourceTitle": "SPARKLE - Products - SPARKLE Intel® Arc™ A580 ORC OC Edition"
+  },
+  {
+    "id": "arca380",
+    "logFile": "gpu-alternative-results.json",
+    "sourceUrl": "https://www.sparkle.com.tw/en/A380-ELF",
+    "result": "manufacturer-source-or-image-retrieved",
+    "linkedRelevantImages": [
+      "https://www.sparkle.com.tw/files/20240202112212786.jpg",
+      "https://www.sparkle.com.tw/files/20240202124055239.png",
+      "https://www.sparkle.com.tw/files/20240202124024994.png",
+      "https://www.sparkle.com.tw/files/20240202124026650.png",
+      "https://www.sparkle.com.tw/files/20240202124027967.png",
+      "https://www.sparkle.com.tw/files/20240202124030540.png",
+      "https://www.sparkle.com.tw/files/20240202124033660.png",
+      "https://www.sparkle.com.tw/files/20240202124042169.png",
+      "https://www.sparkle.com.tw/files/20240202124124576.pdf",
+      "https://www.sparkle.com.tw/files/20240202124153112.pdf",
+      "https://www.sparkle.com.tw/files/20240625132703310.jpg"
+    ],
+    "sourceTitle": "SPARKLE - Products - SPARKLE Intel® Arc™ A380 ELF"
+  },
+  {
+    "id": "arcb570",
+    "logFile": "gpu-alternative-results.json",
+    "sourceUrl": "https://www.sparkle.com.tw/en/B570-GUARDIAN",
+    "result": "manufacturer-source-or-image-retrieved",
+    "linkedRelevantImages": [
+      "https://www.sparkle.com.tw/files/20240202112212786.jpg",
+      "https://www.sparkle.com.tw/files/20241203220844126.png",
+      "https://www.sparkle.com.tw/files/20241203220710240.png",
+      "https://www.sparkle.com.tw/files/20241203220713244.png",
+      "https://www.sparkle.com.tw/files/20241203220715361.png",
+      "https://www.sparkle.com.tw/files/20241203220718218.png",
+      "https://www.sparkle.com.tw/files/20241203220721159.png",
+      "https://www.sparkle.com.tw/files/20241203220724954.png",
+      "https://www.sparkle.com.tw/files/20241203220725725.png",
+      "https://www.sparkle.com.tw/files/20241203220702169.pdf",
+      "https://www.sparkle.com.tw/files/20241203220735432.jpg"
+    ],
+    "sourceTitle": "SPARKLE - Products - SPARKLE Intel® Arc™ B570 GUARDIAN OC"
+  },
+  {
+    "id": "rx7800xt",
+    "logFile": "gpu-alternative-images.json",
+    "sourceUrl": "https://www.asus.com/motherboards-components/graphics-cards/dual/dual-rx7800xt-o16g/techspec/",
+    "imageUrl": "https://dlcdnwebimgs.asus.com/gain/14c78fa4-b737-4bc1-9d74-cd74ef0889ad/",
+    "result": "manufacturer-source-or-image-retrieved",
+    "contentType": "image/png"
+  },
+  {
+    "id": "rx7700xt",
+    "logFile": "gpu-alternative-images.json",
+    "sourceUrl": "https://www.asus.com/uk/motherboards-components/graphics-cards/dual/dual-rx7700xt-o12g/techspec/",
+    "imageUrl": "https://dlcdnwebimgs.asus.com/gain/6b6e3a10-30da-4e60-87b4-bbdd9e79e957/",
+    "result": "manufacturer-source-or-image-retrieved",
+    "contentType": "image/png"
+  },
+  {
+    "id": "rx9060xt16",
+    "logFile": "gpu-alternative-images.json",
+    "sourceUrl": "https://www.asus.com/motherboards-components/graphics-cards/prime/prime-rx9060xt-o16g/techspec/",
+    "imageUrl": "https://dlcdnwebimgs.asus.com/gain/587f1487-174b-43e2-80b6-0d889d87d627/",
+    "result": "manufacturer-source-or-image-retrieved",
+    "contentType": "image/png"
+  },
+  {
+    "id": "arca580",
+    "logFile": "gpu-alternative-images.json",
+    "sourceUrl": "https://www.sparkle.com.tw/en/products/view/97e541819FC5",
+    "imageUrl": "https://www.sparkle.com.tw/files/20240202122913170.png",
+    "result": "manufacturer-source-or-image-retrieved",
+    "contentType": "image/png"
+  },
+  {
+    "id": "arca380",
+    "logFile": "gpu-alternative-images.json",
+    "sourceUrl": "https://www.sparkle.com.tw/en/A380-ELF",
+    "imageUrl": "https://www.sparkle.com.tw/files/20240202124024994.png",
+    "result": "manufacturer-source-or-image-retrieved",
+    "contentType": "image/png"
+  },
+  {
+    "id": "arcb570",
+    "logFile": "gpu-alternative-images.json",
+    "sourceUrl": "https://www.sparkle.com.tw/en/B570-GUARDIAN",
+    "imageUrl": "https://www.sparkle.com.tw/files/20241203220710240.png",
+    "result": "manufacturer-source-or-image-retrieved",
+    "contentType": "image/png"
+  },
+  {
+    "id": "titanv",
+    "logFile": "gpu-alternative-images.json",
+    "sourceUrl": "https://www.nvidia.com/nl-nl/titan/titan-v/",
+    "imageUrl": "https://www.nvidia.com/content/dam/en-zz/Solutions/geforce/TITAN/TITANV/nvidia-titan-v-gallery-b-641-u.jpg",
+    "result": "manufacturer-source-or-image-retrieved",
+    "contentType": "image/jpeg"
+  },
+  {
+    "id": "titanv",
+    "logFile": "gpu-alternative-images.json",
+    "sourceUrl": "https://www.nvidia.com/nl-nl/titan/titan-v/",
+    "imageUrl": "https://www.nvidia.com/content/dam/en-zz/Solutions/geforce/TITAN/TITANV/nvidia-titan-v-gallery-c-641-u.jpg",
+    "result": "manufacturer-source-or-image-retrieved",
+    "contentType": "image/jpeg"
+  },
+  {
+    "id": "rx9070gre",
+    "logFile": "gpu-last-source-results.json",
+    "sourceUrl": "https://www.sapphiretech.com/en/consumer/pulse-radeon-rx-9070-gre-12g-gddr6",
+    "result": "manufacturer-source-or-image-retrieved",
+    "linkedRelevantImages": [
+      "https://media.cdn.sapphiretech.com.cn/-/media/sites/sapphire/pim/product-images/11354_01_rx9070_gre_pulse_12ggddr6/rx9070_gre_pulse_photo_c01_800x500.ashx?v=f89bba92d2284909baabd9c66d5bd294",
+      "https://media.cdn.sapphiretech.com.cn/-/media/sites/sapphire/pim/product-images/11354_01_rx9070_gre_pulse_12ggddr6/rx9070_gre_pulse_photo_c02_800x500.ashx?v=666196eb53d04004b085d20e10e06796",
+      "https://media.cdn.sapphiretech.com.cn/-/media/sites/sapphire/pim/product-images/11354_01_rx9070_gre_pulse_12ggddr6/rx9070_gre_pulse_photo_c03_800x500.ashx?v=a6b98b3b612e4fc3b7acde9849b2a27a",
+      "https://media.cdn.sapphiretech.com.cn/-/media/sites/sapphire/pim/product-images/11354_01_rx9070_gre_pulse_12ggddr6/rx9070_gre_pulse_photo_c04_800x500.ashx?v=503ff2de33024f32ab293591f2d0d271",
+      "https://media.cdn.sapphiretech.com.cn/-/media/sites/sapphire/pim/product-images/11354_01_rx9070_gre_pulse_12ggddr6/rx9070_gre_pulse_photo_c05_800x500.ashx?v=d31cd2f2b70b4dc7b49a6baa4c432216"
+    ],
+    "sourceTitle": "SAPPHIRE PULSE AMD Radeon™ RX 9070 GRE GPU"
+  },
+  {
+    "id": "titanxpascal",
+    "logFile": "gpu-last-source-results.json",
+    "sourceUrl": "https://www.nvidia.com/en-us/geforce/news/nvidia-titan-x/",
+    "result": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "gtx780ti",
+    "logFile": "gpu-last-source-results.json",
+    "sourceUrl": "https://www.nvidia.com/en-us/geforce/news/geforce-gtx-780-ti/",
+    "result": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "retail-gigabyte-geforce-rtx-4090-aero-oc-24g",
+    "logFile": "gpu-gigabyte-ready.json",
+    "sourceUrl": "https://www.gigabyte.com/jp/press/news/2067",
+    "imageUrl": "https://www.gigabyte.com/FileUpload/global/news/2067/o202302181021372549.png",
+    "result": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "retail-gigabyte-geforce-rtx-4090-aero-oc-24g",
+    "logFile": "gpu-gigabyte-ready.json",
+    "sourceUrl": "https://www.gigabyte.com/jp/press/news/2067",
+    "imageUrl": "https://www.gigabyte.com/FileUpload/global/news/2067/o202302181021562353.png",
+    "result": "HTTP Error 403: Forbidden"
+  }
+]

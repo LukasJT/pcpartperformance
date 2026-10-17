@@ -8,8 +8,10 @@ test('exact SSD caption with a SKU survives the compact payload and client match
  assert.equal(image.productId,'990pro');assert.equal(selectors.imageFor(part('990pro'),{'990pro':image}),image);
 });
 test('a changed capacity or caption cannot reuse a reviewed alias',()=>{
- assert.equal(delivery.entry(part('990pro'),{...images['990pro'],picturedModel:'Samsung 990 PRO 2TB MZ-V9P2T0BW'},root),null);
- assert.equal(delivery.entry({...part('990pro'),name:'990 PRO 2 TB'},images['990pro'],root),null);
+ const alias={src:'/assets/samsung.webp',kind:'exact',picturedModel:'Samsung 990 PRO 1TB MZ-V9P1T0BW'};
+ assert(delivery.entry(part('990pro'),alias,root));
+ assert.equal(delivery.entry(part('990pro'),{...alias,picturedModel:'Samsung 990 PRO 2TB MZ-V9P2T0BW'},root),null);
+ assert.equal(delivery.entry({...part('990pro'),name:'990 PRO 2 TB'},alias,root),null);
 });
 test('a different partner card and a nearby PSU remain rejected',()=>{
  assert.equal(delivery.entry({id:'test',name:'GeForce RTX 5070 12G VENTUS 3X OC',brand:'MSI',cat:'gpu'},{src:'/assets/asus.webp',picturedModel:'ASUS Prime GeForce RTX 5070 OC'},root),null);

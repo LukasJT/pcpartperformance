@@ -1,0 +1,892 @@
+[
+  {
+    "id": "retail-msi-geforce-rtx-3060-ventus-2x-12g",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/id/GeForce-RTX-3060-VENTUS-2X-12G.pdf",
+    "picturedModel": "MSI GeForce RTX 3060 VENTUS 2X 12G",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "exact",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "retail-msi-geforce-rtx-3060-ventus-2x-12g-oc",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/id/GeForce-RTX-3060-VENTUS-2X-12G-OC.pdf",
+    "picturedModel": "MSI GeForce RTX 3060 VENTUS 2X 12G OC",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "exact",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "retail-msi-geforce-rtx-3060-ventus-2x-8g-oc",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-RTX-3060-VENTUS-2X-8G-OC.pdf",
+    "picturedModel": "MSI GeForce RTX 3060 VENTUS 2X 8G OC",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "exact",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "retail-msi-geforce-rtx-3060-gaming-x-12g",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/id/GeForce-RTX-3060-GAMING-X-12G.pdf",
+    "picturedModel": "MSI GeForce RTX 3060 GAMING X 12G",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "exact",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "rtx4060ti",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-RTX-4060-Ti-VENTUS-2X-BLACK-8G-OC.pdf",
+    "picturedModel": "MSI GeForce RTX 4060 Ti VENTUS 2X BLACK 8G OC",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "rtx3060ti",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/us/GeForce-RTX-3060-Ti-VENTUS-2X-OC.pdf",
+    "picturedModel": "MSI GeForce RTX 3060 Ti VENTUS 2X OC",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "rtx2080ti",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/us/GeForce-RTX-2080-Ti-VENTUS-11G.pdf",
+    "picturedModel": "MSI GeForce RTX 2080 Ti VENTUS 11G",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "gtx1080",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/fr/GTX-1080-Founders-Edition.pdf",
+    "picturedModel": "MSI GTX 1080 Founders Edition",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "gtx1070",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/fr/GeForce-GTX-1070-Founders-Edition.pdf",
+    "picturedModel": "MSI GeForce GTX 1070 Founders Edition",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "rtx2070s",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-RTX-2070-SUPER-ARMOR.pdf",
+    "picturedModel": "MSI GeForce RTX 2070 SUPER ARMOR",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "gtx1060",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-GTX-1060-6G-OCV1.pdf",
+    "picturedModel": "MSI GeForce GTX 1060 6G OCV1",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "gtx980ti",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/us/GTX-980-Ti-GAMING-6G.pdf",
+    "picturedModel": "MSI GTX 980 Ti GAMING 6G",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "rtx3090ti",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/us/GeForce-RTX-3090-Ti-SUPRIM-24G.pdf",
+    "picturedModel": "MSI GeForce RTX 3090 Ti SUPRIM 24G",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "rtx3080ti",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-RTX-3080-Ti-SUPRIM-12G.pdf",
+    "picturedModel": "MSI GeForce RTX 3080 Ti SUPRIM 12G",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "rtx3070ti",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-RTX-3070-Ti-SUPRIM-8G.pdf",
+    "picturedModel": "MSI GeForce RTX 3070 Ti SUPRIM 8G",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "rtx2080s",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-RTX-2080-SUPER-VENTUS.pdf",
+    "picturedModel": "MSI GeForce RTX 2080 SUPER VENTUS",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "rtx2060s",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-RTX-2060-SUPER-GAMING.pdf",
+    "picturedModel": "MSI GeForce RTX 2060 SUPER GAMING",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "rtx4070ti",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-RTX-4070-Ti-GAMING-SLIM-WHITE-12G.pdf",
+    "picturedModel": "MSI GeForce RTX 4070 Ti GAMING SLIM WHITE 12G",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "gtx1660ti",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/us/GeForce-GTX-1660-Ti-GAMING-6G.pdf",
+    "picturedModel": "MSI GeForce GTX 1660 Ti GAMING 6G",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "gtx1660s",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-GTX-1660-SUPER-GAMING.pdf",
+    "picturedModel": "MSI GeForce GTX 1660 SUPER GAMING",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "gtx1650s",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/id/GeForce-GTX-1650-SUPER-GAMING.pdf",
+    "picturedModel": "MSI GeForce GTX 1650 SUPER GAMING",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "gtx1650",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-GTX-1650-GAMING-4G.pdf",
+    "picturedModel": "MSI GeForce GTX 1650 GAMING 4G",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "gtx1070ti",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-GTX-1070-Ti-GAMING-8G.pdf",
+    "picturedModel": "MSI GeForce GTX 1070 Ti GAMING 8G",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "gtx1050ti",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-GTX-1050-Ti-4G.pdf",
+    "picturedModel": "MSI GeForce GTX 1050 Ti 4G",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "rx7900xt",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/Radeon-RX-7900-XT-GAMING-TRIO-CLASSIC-20G.pdf",
+    "picturedModel": "MSI Radeon RX 7900 XT GAMING TRIO CLASSIC 20G",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "rx7600",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/Radeon-RX-7600-MECH-2X-CLASSIC-8G.pdf",
+    "picturedModel": "MSI Radeon RX 7600 MECH 2X CLASSIC 8G",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "rx6950xt",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/Radeon-RX-6950-XT-GAMING-X-TRIO-16G.pdf",
+    "picturedModel": "MSI Radeon RX 6950 XT GAMING X TRIO 16G",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "rx6900xt",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/Radeon-RX-6900-XT-16G.pdf",
+    "picturedModel": "MSI Radeon RX 6900 XT 16G",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "rx6800",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/Radeon-RX-6800-16G.pdf",
+    "picturedModel": "MSI Radeon RX 6800 16G",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "rx6700xt",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/Radeon-RX-6700-XT-12G.pdf",
+    "picturedModel": "MSI Radeon RX 6700 XT 12G",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "rx6600",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/Radeon-RX-6600-ARMOR-8G.pdf",
+    "picturedModel": "MSI Radeon RX 6600 ARMOR 8G",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "rx5700xt",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/Radeon-RX-5700-XT-8G.pdf",
+    "picturedModel": "MSI Radeon RX 5700 XT 8G",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "rx580",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/Radeon-RX-580-8G.pdf",
+    "picturedModel": "MSI Radeon RX 580 8G",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "rx6750xt",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/Radeon-RX-6750-XT-GAMING-X-TRIO-12G.pdf",
+    "picturedModel": "MSI Radeon RX 6750 XT GAMING X TRIO 12G",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "rx6650xt",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/Radeon-RX-6650-XT-GAMING-8G.pdf",
+    "picturedModel": "MSI Radeon RX 6650 XT GAMING 8G",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "rx6600xt",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/Radeon-RX-6600-XT-GAMING-8G.pdf",
+    "picturedModel": "MSI Radeon RX 6600 XT GAMING 8G",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "rx6500xt",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/Radeon-RX-6500-XT-MECH-2X-4G.pdf",
+    "picturedModel": "MSI Radeon RX 6500 XT MECH 2X 4G",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "rx6400",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/us/Radeon-RX-6400-AERO-ITX-4G.pdf",
+    "picturedModel": "MSI Radeon RX 6400 AERO ITX 4G",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "rx5600xt",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/us/RADEON-RX-5600-XT-MECH.pdf",
+    "picturedModel": "MSI RADEON RX 5600 XT MECH",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "rx5500xt",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/Radeon-RX-5500-XT-MECH-8G.pdf",
+    "picturedModel": "MSI Radeon RX 5500 XT MECH 8G",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "rtx5060",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/id/GeForce-RTX-5060-8G-GAMING.pdf",
+    "picturedModel": "MSI GeForce RTX 5060 8G GAMING",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "rtx5050",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-RTX-5050-8G-GAMING.pdf",
+    "picturedModel": "MSI GeForce RTX 5050 8G GAMING",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "rtx308012",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-RTX-3080-SUPRIM-12G-LHR.pdf",
+    "picturedModel": "MSI GeForce RTX 3080 SUPRIM 12G LHR",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "rtx206012",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/us/GeForce-RTX-2060-VENTUS-12G-OC.pdf",
+    "picturedModel": "MSI GeForce RTX 2060 VENTUS 12G OC",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "gtx1630",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-GTX-1630-4GT-LP-OC.pdf",
+    "picturedModel": "MSI GeForce GTX 1630 4GT LP OC",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "gtx10603",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-GTX-1060-3G-OC.pdf",
+    "picturedModel": "MSI GeForce GTX 1060 3G OC",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "gtx980",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/GTX-980-GAMING-4G-LE.pdf",
+    "picturedModel": "MSI GTX 980 GAMING 4G LE",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "gtx780",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/original/vga/global/GTX-780-GAMING-LE.pdf",
+    "picturedModel": "MSI GTX 780 GAMING LE",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "gtx770",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/N770-2GD5OC.pdf",
+    "picturedModel": "MSI N770 2GD5OC",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "gtx760",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/N760-2GD5OC.pdf",
+    "picturedModel": "MSI N760 2GD5OC",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "rx5700",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/Radeon-RX-5700-8G.pdf",
+    "picturedModel": "MSI Radeon RX 5700 8G",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "rx590",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/Radeon-RX-590-ARMOR-8G.pdf",
+    "picturedModel": "MSI Radeon RX 590 ARMOR 8G",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "rx560",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/Radeon-RX-560-AERO-ITX-4G-OCV2.pdf",
+    "picturedModel": "MSI Radeon RX 560 AERO ITX 4G OCV2",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "rx480",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/original/vga/global/AMD-Radeon-RX-480-8G.pdf",
+    "picturedModel": "MSI AMD Radeon RX 480 8G",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "rx470",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/Radeon-RX-470-GAMING-X-4G.pdf",
+    "picturedModel": "MSI Radeon RX 470 GAMING X 4G",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "rx570",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/Radeon-RX-570-ARMOR-4G.pdf",
+    "picturedModel": "MSI Radeon RX 570 ARMOR 4G",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "furyx",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/R9-Fury-X-4G.pdf",
+    "picturedModel": "MSI R9 Fury X 4G",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "r9390x",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/id/R9-390X-GAMING-8G.pdf",
+    "picturedModel": "MSI R9 390X GAMING 8G",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "gtx1050",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-GTX-1050-2G.pdf",
+    "picturedModel": "MSI GeForce GTX 1050 2G",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "gt1030",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-GT-1030-2G-LP-OCV2.pdf",
+    "picturedModel": "MSI GeForce GT 1030 2G LP OCV2",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "gtx750ti",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/ua/N750-Ti-2GD5OC.pdf",
+    "picturedModel": "MSI N750 Ti 2GD5OC",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "gtx680",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/N680GTX_Lightning.pdf",
+    "picturedModel": "MSI N680GTX Lightning",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "gtx580",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/N580GTX_Twin_Frozr_IIOC.pdf",
+    "picturedModel": "MSI N580GTX Twin Frozr IIOC",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "gtx480",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/us/N480GTX_Twin_Frozr_II.pdf",
+    "picturedModel": "MSI N480GTX Twin Frozr II",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "veg64",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/Radeon-RX-Vega-64-8G.pdf",
+    "picturedModel": "MSI Radeon RX Vega 64 8G",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "vega56",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/Radeon-RX-Vega-56-8G.pdf",
+    "picturedModel": "MSI Radeon RX Vega 56 8G",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "r9nano",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/original/vga/global/R9-Nano-4G.pdf",
+    "picturedModel": "MSI R9 Nano 4G",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "r9280x",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/R9-280X-GAMING-3G.pdf",
+    "picturedModel": "MSI R9 280X GAMING 3G",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "hd7870",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/R7870_Hawk.pdf",
+    "picturedModel": "MSI R7870 Hawk",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "hd6870",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/original/vga/global/R6870_Hawk.pdf",
+    "picturedModel": "MSI R6870 Hawk",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "r9290x",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/R9-290X-GAMING-4G.pdf",
+    "picturedModel": "MSI R9 290X GAMING 4G",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "gtx960",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/us/GTX-960-GAMING-2G.pdf",
+    "picturedModel": "MSI GTX 960 GAMING 2G",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet indexed by web search; URL used as returned, not guessed."
+  },
+  {
+    "id": "rtx4090",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-RTX-4090-VENTUS-3X-24G-OC.pdf",
+    "picturedModel": "MSI GeForce RTX 4090 VENTUS 3X 24G OC",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet URL already recorded by the current image manifest, independently downloaded and examined in this audit."
+  },
+  {
+    "id": "rtx4070tis",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-RTX-4070-Ti-SUPER-16G-VENTUS-3X-OC.pdf",
+    "picturedModel": "MSI GeForce RTX 4070 Ti SUPER 16G VENTUS 3X OC",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet URL already recorded by the current image manifest, independently downloaded and examined in this audit."
+  },
+  {
+    "id": "rtx4070s",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-RTX-4070-SUPER-12G-VENTUS-2X-OC.pdf",
+    "picturedModel": "MSI GeForce RTX 4070 SUPER 12G VENTUS 2X OC",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet URL already recorded by the current image manifest, independently downloaded and examined in this audit."
+  },
+  {
+    "id": "rtx4070",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-RTX-4070-VENTUS-2X-12G-OC.pdf",
+    "picturedModel": "MSI GeForce RTX 4070 VENTUS 2X 12G OC",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet URL already recorded by the current image manifest, independently downloaded and examined in this audit."
+  },
+  {
+    "id": "rtx4060",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-RTX-4060-VENTUS-2X-BLACK-8G-OC.pdf",
+    "picturedModel": "MSI GeForce RTX 4060 VENTUS 2X BLACK 8G OC",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet URL already recorded by the current image manifest, independently downloaded and examined in this audit."
+  },
+  {
+    "id": "rtx3090",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-RTX-3090-VENTUS-3X-24G-OC.pdf",
+    "picturedModel": "MSI GeForce RTX 3090 VENTUS 3X 24G OC",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet URL already recorded by the current image manifest, independently downloaded and examined in this audit."
+  },
+  {
+    "id": "rtx3080",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-RTX-3080-VENTUS-3X-10G-OC.pdf",
+    "picturedModel": "MSI GeForce RTX 3080 VENTUS 3X 10G OC",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet URL already recorded by the current image manifest, independently downloaded and examined in this audit."
+  },
+  {
+    "id": "rtx3070",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-RTX-3070-VENTUS-2X-OC.pdf",
+    "picturedModel": "MSI GeForce RTX 3070 VENTUS 2X OC",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet URL already recorded by the current image manifest, independently downloaded and examined in this audit."
+  },
+  {
+    "id": "rtx3060",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-RTX-3060-VENTUS-2X-12G-OC.pdf",
+    "picturedModel": "MSI GeForce RTX 3060 VENTUS 2X 12G OC",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet URL already recorded by the current image manifest, independently downloaded and examined in this audit."
+  },
+  {
+    "id": "rtx2060",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-RTX-2060-VENTUS-6G-OC.pdf",
+    "picturedModel": "MSI GeForce RTX 2060 VENTUS 6G OC",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet URL already recorded by the current image manifest, independently downloaded and examined in this audit."
+  },
+  {
+    "id": "rtx3050",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-RTX-3050-VENTUS-2X-8G-OC.pdf",
+    "picturedModel": "MSI GeForce RTX 3050 VENTUS 2X 8G OC",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet URL already recorded by the current image manifest, independently downloaded and examined in this audit."
+  },
+  {
+    "id": "rtx2080",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-RTX-2080-VENTUS-8G-OC.pdf",
+    "picturedModel": "MSI GeForce RTX 2080 VENTUS 8G OC",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet URL already recorded by the current image manifest, independently downloaded and examined in this audit."
+  },
+  {
+    "id": "rtx2070",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-RTX-2070-VENTUS-8G-OC.pdf",
+    "picturedModel": "MSI GeForce RTX 2070 VENTUS 8G OC",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet URL already recorded by the current image manifest, independently downloaded and examined in this audit."
+  },
+  {
+    "id": "rtx4080",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-RTX-4080-16GB-VENTUS-3X-OC.pdf",
+    "picturedModel": "MSI GeForce RTX 4080 16GB VENTUS 3X OC",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet URL already recorded by the current image manifest, independently downloaded and examined in this audit."
+  },
+  {
+    "id": "rtx4060ti16",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-RTX-4060-Ti-VENTUS-3X-16G-OC.pdf",
+    "picturedModel": "MSI GeForce RTX 4060 Ti VENTUS 3X 16G OC",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet URL already recorded by the current image manifest, independently downloaded and examined in this audit."
+  },
+  {
+    "id": "rtx30506",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-RTX-3050-VENTUS-2X-6G-OC.pdf",
+    "picturedModel": "MSI GeForce RTX 3050 VENTUS 2X 6G OC",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact named official datasheet URL already recorded by the current image manifest, independently downloaded and examined in this audit."
+  },
+  {
+    "id": "gtx780ti",
+    "imageUrl": "https://storage-asset.msi.com/datasheet/vga/global/GTX-780Ti-GAMING-3G-LE.pdf",
+    "picturedModel": "MSI GeForce GTX 780 Ti GAMING 3G LE",
+    "official": true,
+    "attribution": "MSI",
+    "kind": "same-chip-variant",
+    "sourceType": "official-datasheet",
+    "discovery": "Exact official MSI GTX-780Ti GAMING 3G LE datasheet indexed by web search."
+  }
+]

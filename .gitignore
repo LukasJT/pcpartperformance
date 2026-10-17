@@ -4,3 +4,8 @@ node_modules/
 docs/program-2026-10-09/lab-baseline/
 tmp/
 tools/quality/node_modules/
+
+# Local source-download caches; reviewed assets and source/hash records are retained.
+docs/component-photos-catalog-oct17/**/*.bin
+docs/component-photos-catalog-oct17/**/*.html
+docs/component-photos-catalog-oct17/*-research/

@@ -1,0 +1,2674 @@
+{
+  "checked": "2026-10-17",
+  "scope": "Missing CPUs excluding parentcandidate-images IDs and i914900k. This is a bounded second-source pass, not a claim that remaining photos do not exist.",
+  "counts": {
+    "assignedMissing": 130,
+    "categoriesResearched": 42,
+    "commonsCandidatesInspected": 55,
+    "accepted": 17,
+    "unresolvedAfterResearch": 25,
+    "notSelected": 88
+  },
+  "transport": [
+    {
+      "url": "https://www.bhphotovideo.com/c/product/1723472-REG/amd_100_000000514_ryzen_9_7950x_4_5.html",
+      "status": 403,
+      "note": "Public listing returned access challenge; no bypass."
+    },
+    {
+      "url": "https://www.newegg.com/p/pl?d=intel+core+i3-13100f",
+      "status": 403,
+      "note": "Public listing search returned access challenge; no bypass."
+    },
+    {
+      "url": "https://www.scan.co.uk/products/amd-ryzen-9-9900x-am5-zen-5-12-core-24-thread-44ghz-56ghz-turbo-64mb-cache-pcie-50-120w-cpu-retail",
+      "status": 403,
+      "note": "Public listing returned access challenge; no bypass."
+    },
+    {
+      "url": "https://pcflash.co.uk/products.json?limit=250",
+      "status": 429,
+      "note": "First bulk-feed request rate limited; no retry. Independently discovered product page and its already-linked image were accessible normally."
+    }
+  ],
+  "items": [
+    {
+      "id": "9950x3d",
+      "catalogName": "Ryzen 9 9950X3D",
+      "status": "verified-repair",
+      "reason": "Accepted full CPU photograph with matching visible model marking.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9950x3d.html",
+          "status": 200,
+          "finalUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9950x3d.html"
+        }
+      ],
+      "newAttempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_Ryzen_9_9950X3D",
+          "status": 200,
+          "candidateFileCount": 4
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:AMD_RYZEN_9_9950X3D_-_DOVRESTI_COMPRARLO¿_(1920p_30fps_VP9_LQ-128kbit_AAC)-00.00.04.000.png",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/AMD_RYZEN_9_9950X3D_-_DOVRESTI_COMPRARLO%C2%BF_%281920p_30fps_VP9_LQ-128kbit_AAC%29-00.00.04.000.png/960px-AMD_RYZEN_9_9950X3D_-_DOVRESTI_COMPRARLO%C2%BF_%281920p_30fps_VP9_LQ-128kbit_AAC%29-00.00.04.000.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY 3.0",
+          "accepted": false,
+          "reason": "Alternate candidate not selected after visual review."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:AMD_RYZEN_9_9950X3D_-_DOVRESTI_COMPRARLO¿_(1920p_30fps_VP9_LQ-128kbit_AAC)-00.00.07.600.png",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/AMD_RYZEN_9_9950X3D_-_DOVRESTI_COMPRARLO%C2%BF_%281920p_30fps_VP9_LQ-128kbit_AAC%29-00.00.07.600.png/960px-AMD_RYZEN_9_9950X3D_-_DOVRESTI_COMPRARLO%C2%BF_%281920p_30fps_VP9_LQ-128kbit_AAC%29-00.00.07.600.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY 3.0",
+          "accepted": false,
+          "reason": "Alternate candidate not selected after visual review."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:AMD_RYZEN_9_9950X3D_-_DOVRESTI_COMPRARLO¿_(1920p_30fps_VP9_LQ-128kbit_AAC)-00.00.18.500.png",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/AMD_RYZEN_9_9950X3D_-_DOVRESTI_COMPRARLO%C2%BF_%281920p_30fps_VP9_LQ-128kbit_AAC%29-00.00.18.500.png/960px-AMD_RYZEN_9_9950X3D_-_DOVRESTI_COMPRARLO%C2%BF_%281920p_30fps_VP9_LQ-128kbit_AAC%29-00.00.18.500.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY 3.0",
+          "accepted": true,
+          "reason": "Visible exact model label confirmed."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:AMD_RYZEN_9_9950X3D_-_DOVRESTI_COMPRARLO¿_(1920p_30fps_VP9_LQ-128kbit_AAC)-00.01.10.300.png",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/AMD_RYZEN_9_9950X3D_-_DOVRESTI_COMPRARLO%C2%BF_%281920p_30fps_VP9_LQ-128kbit_AAC%29-00.01.10.300.png/960px-AMD_RYZEN_9_9950X3D_-_DOVRESTI_COMPRARLO%C2%BF_%281920p_30fps_VP9_LQ-128kbit_AAC%29-00.01.10.300.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY 3.0",
+          "accepted": false,
+          "reason": "Alternate candidate not selected after visual review."
+        }
+      ],
+      "photo": {
+        "src": "/assets/hardware/catalog-cpu-extra-oct17/9950x3d-b82d4915b9.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:AMD_RYZEN_9_9950X3D_-_DOVRESTI_COMPRARLO¿_(1920p_30fps_VP9_LQ-128kbit_AAC)-00.00.18.500.png"
+      }
+    },
+    {
+      "id": "9900x",
+      "catalogName": "Ryzen 9 9900X",
+      "status": "verified-repair",
+      "reason": "Accepted full CPU photograph with matching visible model marking.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9900x.html",
+          "status": 200,
+          "finalUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9900x.html"
+        }
+      ],
+      "newAttempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_Ryzen_9_9900X",
+          "status": 200,
+          "candidateFileCount": 1
+        }
+      ],
+      "photo": {
+        "src": "/assets/hardware/catalog-cpu-extra-oct17/9900x-05127c8fb1.webp",
+        "sourceUrl": "https://pcflash.co.uk/products/amd-ryzen-9-9900x-12-core-am5-oem-tray-cpu-processor"
+      }
+    },
+    {
+      "id": "7950x3d",
+      "catalogName": "Ryzen 9 7950X3D",
+      "status": "verified-repair",
+      "reason": "Accepted full CPU photograph with matching visible model marking.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7950x3d.html",
+          "status": 200,
+          "finalUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7950x3d.html"
+        }
+      ],
+      "newAttempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_Ryzen_9_7950X3D",
+          "status": 200,
+          "candidateFileCount": 8
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_7000-Serie_-_Der_ultimative_CPU_und_Mainboard_Vergleich_(Memory_PC)_05.png",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/AMD_Ryzen_7000-Serie_-_Der_ultimative_CPU_und_Mainboard_Vergleich_%28Memory_PC%29_05.png/960px-AMD_Ryzen_7000-Serie_-_Der_ultimative_CPU_und_Mainboard_Vergleich_%28Memory_PC%29_05.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY 3.0",
+          "accepted": false,
+          "reason": "Alternate candidate not selected after visual review."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_7000-Serie_-_Der_ultimative_CPU_und_Mainboard_Vergleich_(Memory_PC)_18.png",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/AMD_Ryzen_7000-Serie_-_Der_ultimative_CPU_und_Mainboard_Vergleich_%28Memory_PC%29_18.png/960px-AMD_Ryzen_7000-Serie_-_Der_ultimative_CPU_und_Mainboard_Vergleich_%28Memory_PC%29_18.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY 3.0",
+          "accepted": false,
+          "reason": "Alternate candidate not selected after visual review."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:AMD_RYZEN_9_9950X3D_-_DOVRESTI_COMPRARLO¿_(1920p_30fps_VP9_LQ-128kbit_AAC)-00.01.02.300.png",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/AMD_RYZEN_9_9950X3D_-_DOVRESTI_COMPRARLO%C2%BF_%281920p_30fps_VP9_LQ-128kbit_AAC%29-00.01.02.300.png/960px-AMD_RYZEN_9_9950X3D_-_DOVRESTI_COMPRARLO%C2%BF_%281920p_30fps_VP9_LQ-128kbit_AAC%29-00.01.02.300.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY 3.0",
+          "accepted": true,
+          "reason": "Visible exact model label confirmed."
+        }
+      ],
+      "photo": {
+        "src": "/assets/hardware/catalog-cpu-extra-oct17/7950x3d-74f6be5073.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:AMD_RYZEN_9_9950X3D_-_DOVRESTI_COMPRARLO¿_(1920p_30fps_VP9_LQ-128kbit_AAC)-00.01.02.300.png"
+      }
+    },
+    {
+      "id": "7950x",
+      "catalogName": "Ryzen 9 7950X",
+      "status": "verified-repair",
+      "reason": "Accepted full CPU photograph with matching visible model marking.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7950x.html",
+          "status": 200,
+          "finalUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7950x.html"
+        }
+      ],
+      "newAttempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_Ryzen_9_7950X",
+          "status": 200,
+          "candidateFileCount": 10
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_7000-Serie_-_Der_ultimative_CPU_und_Mainboard_Vergleich_(Memory_PC)_04.png",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/AMD_Ryzen_7000-Serie_-_Der_ultimative_CPU_und_Mainboard_Vergleich_%28Memory_PC%29_04.png/960px-AMD_Ryzen_7000-Serie_-_Der_ultimative_CPU_und_Mainboard_Vergleich_%28Memory_PC%29_04.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY 3.0",
+          "accepted": true,
+          "reason": "Visible exact model label confirmed."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Ausführlicher_Test_der_Ryzen_7000-Serie_(极客湾Geekerwan)_02.png",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Ausf%C3%BChrlicher_Test_der_Ryzen_7000-Serie_%28%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_02.png/960px-Ausf%C3%BChrlicher_Test_der_Ryzen_7000-Serie_%28%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_02.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY 3.0",
+          "accepted": false,
+          "reason": "Alternate candidate not selected after visual review."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Ausführlicher_Test_der_Ryzen_7000-Serie_(极客湾Geekerwan)_03.png",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Ausf%C3%BChrlicher_Test_der_Ryzen_7000-Serie_%28%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_03.png/960px-Ausf%C3%BChrlicher_Test_der_Ryzen_7000-Serie_%28%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_03.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY 3.0",
+          "accepted": false,
+          "reason": "Alternate candidate not selected after visual review."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Intel_Core_14_Generation_First_Review_–_i7_Slightly_Upgraded_(极客湾Geekerwan)_03.png",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Intel_Core_14_Generation_First_Review_%E2%80%93_i7_Slightly_Upgraded_%28%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_03.png/960px-Intel_Core_14_Generation_First_Review_%E2%80%93_i7_Slightly_Upgraded_%28%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_03.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY 3.0",
+          "accepted": false,
+          "reason": "Alternate candidate not selected after visual review."
+        }
+      ],
+      "photo": {
+        "src": "/assets/hardware/catalog-cpu-extra-oct17/7950x-14836787cf.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_7000-Serie_-_Der_ultimative_CPU_und_Mainboard_Vergleich_(Memory_PC)_04.png"
+      }
+    },
+    {
+      "id": "5950x",
+      "catalogName": "Ryzen 9 5950X",
+      "status": "researched-unresolved",
+      "reason": "Available Commons frames show multiple different CPUs, a comparison chart, or a part without an isolated verified target label; no standalone exact photograph accepted.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-9-5950x.html",
+          "status": 200,
+          "finalUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-9-5950x.html"
+        }
+      ],
+      "newAttempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_Ryzen_9_5950X",
+          "status": 200,
+          "candidateFileCount": 6
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Ausführlicher_Test_der_Ryzen_7000-Serie_(极客湾Geekerwan)_07.png",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Ausf%C3%BChrlicher_Test_der_Ryzen_7000-Serie_%28%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_07.png/960px-Ausf%C3%BChrlicher_Test_der_Ryzen_7000-Serie_%28%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_07.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY 3.0",
+          "accepted": false,
+          "reason": "Alternate candidate not selected after visual review."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Ausführlicher_Test_der_Ryzen_7000-Serie_(极客湾Geekerwan)_08.png",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Ausf%C3%BChrlicher_Test_der_Ryzen_7000-Serie_%28%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_08.png/960px-Ausf%C3%BChrlicher_Test_der_Ryzen_7000-Serie_%28%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_08.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY 3.0",
+          "accepted": false,
+          "reason": "Alternate candidate not selected after visual review."
+        }
+      ],
+      "photo": null
+    },
+    {
+      "id": "3950x",
+      "catalogName": "Ryzen 9 3950X",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.amd.com/en/products/cpu/amd-ryzen-9-3950x",
+          "status": 200,
+          "finalUrl": "https://www.amd.com/en.html"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "3600",
+      "catalogName": "Ryzen 5 3600",
+      "status": "researched-unresolved",
+      "reason": "Available Commons candidate is an exposed silicon die micrograph rather than a labeled complete catalog CPU; rejected for this photo slot.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.amd.com/en/products/cpu/amd-ryzen-5-3600",
+          "status": 200,
+          "finalUrl": "https://www.amd.com/en.html"
+        }
+      ],
+      "newAttempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_Ryzen_5_3600",
+          "status": 200,
+          "candidateFileCount": 27
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Zen_2_Matisse_Ryzen-5-3600.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Zen_2_Matisse_Ryzen-5-3600.jpg/960px-Zen_2_Matisse_Ryzen-5-3600.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC0",
+          "accepted": false,
+          "reason": "Alternate candidate not selected after visual review."
+        }
+      ],
+      "photo": null
+    },
+    {
+      "id": "2700x",
+      "catalogName": "Ryzen 7 2700X",
+      "status": "researched-unresolved",
+      "reason": "Public Commons model category returned404. This does not establish image absence; additional public manufacturer/distributor source was not successfully recovered in this bounded pass.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.amd.com/en/products/cpu/amd-ryzen-7-2700x",
+          "status": 200,
+          "finalUrl": "https://www.amd.com/en.html"
+        }
+      ],
+      "newAttempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_Ryzen_7_2700X",
+          "status": 404,
+          "candidateFileCount": 0
+        }
+      ],
+      "photo": null
+    },
+    {
+      "id": "1600",
+      "catalogName": "Ryzen 5 1600",
+      "status": "verified-repair",
+      "reason": "Accepted full CPU photograph with matching visible model marking.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.amd.com/en/products/cpu/amd-ryzen-5-1600",
+          "status": 200,
+          "finalUrl": "https://www.amd.com/en.html"
+        }
+      ],
+      "newAttempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_Ryzen_5_1600",
+          "status": 200,
+          "candidateFileCount": 1
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Ryzen_5_1600_CPU_on_a_motherboard.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Ryzen_5_1600_CPU_on_a_motherboard.jpg/960px-Ryzen_5_1600_CPU_on_a_motherboard.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY-SA 4.0",
+          "accepted": true,
+          "reason": "Visible exact model label confirmed."
+        }
+      ],
+      "photo": {
+        "src": "/assets/hardware/catalog-cpu-extra-oct17/1600-39c969aba5.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ryzen_5_1600_CPU_on_a_motherboard.jpg"
+      }
+    },
+    {
+      "id": "ultra7265k",
+      "catalogName": "Core Ultra 7 265K",
+      "status": "verified-repair",
+      "reason": "Accepted full CPU photograph with matching visible model marking.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/241063/intel-core-ultra-7-processor-265k-30m-cache-up-to-5-50-ghz/specifications.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/241063/intel-core-ultra-7-processor-265k-30m-cache-up-to-5-50-ghz/specifications.html"
+        }
+      ],
+      "newAttempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_Ultra_7_265K",
+          "status": 200,
+          "candidateFileCount": 18
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:INTEL_CORE_ULTRA_7_265K_-_DOVRESTI_COMPRARLO¿_👀_(1920p_25fps_VP9_LQ-128kbit_AAC)-00.00.05.200.png",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/INTEL_CORE_ULTRA_7_265K_-_DOVRESTI_COMPRARLO%C2%BF_%F0%9F%91%80_%281920p_25fps_VP9_LQ-128kbit_AAC%29-00.00.05.200.png/960px-INTEL_CORE_ULTRA_7_265K_-_DOVRESTI_COMPRARLO%C2%BF_%F0%9F%91%80_%281920p_25fps_VP9_LQ-128kbit_AAC%29-00.00.05.200.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY 3.0",
+          "accepted": false,
+          "reason": "Alternate candidate not selected after visual review."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:INTEL_CORE_ULTRA_7_265K_-_DOVRESTI_COMPRARLO¿_👀_(1920p_25fps_VP9_LQ-128kbit_AAC)-00.01.50.800.png",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/INTEL_CORE_ULTRA_7_265K_-_DOVRESTI_COMPRARLO%C2%BF_%F0%9F%91%80_%281920p_25fps_VP9_LQ-128kbit_AAC%29-00.01.50.800.png/960px-INTEL_CORE_ULTRA_7_265K_-_DOVRESTI_COMPRARLO%C2%BF_%F0%9F%91%80_%281920p_25fps_VP9_LQ-128kbit_AAC%29-00.01.50.800.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY 3.0",
+          "accepted": false,
+          "reason": "Alternate candidate not selected after visual review."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:INTEL_CORE_ULTRA_7_265K_-_DOVRESTI_COMPRARLO¿_👀_(1920p_25fps_VP9_LQ-128kbit_AAC)-00.01.58.800.png",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/INTEL_CORE_ULTRA_7_265K_-_DOVRESTI_COMPRARLO%C2%BF_%F0%9F%91%80_%281920p_25fps_VP9_LQ-128kbit_AAC%29-00.01.58.800.png/960px-INTEL_CORE_ULTRA_7_265K_-_DOVRESTI_COMPRARLO%C2%BF_%F0%9F%91%80_%281920p_25fps_VP9_LQ-128kbit_AAC%29-00.01.58.800.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY 3.0",
+          "accepted": false,
+          "reason": "Alternate candidate not selected after visual review."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Czy_nowe_procesory_Intela_to_ULTRA_rozczarowanie¿_(2160p_30fps_VP9_LQ-128kbit_AAC)-00.00.24.000.png",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Czy_nowe_procesory_Intela_to_ULTRA_rozczarowanie%C2%BF_%282160p_30fps_VP9_LQ-128kbit_AAC%29-00.00.24.000.png/960px-Czy_nowe_procesory_Intela_to_ULTRA_rozczarowanie%C2%BF_%282160p_30fps_VP9_LQ-128kbit_AAC%29-00.00.24.000.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY 3.0",
+          "accepted": false,
+          "reason": "Alternate candidate not selected after visual review."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:INTEL_CORE_ULTRA_7_265K_-_DOVRESTI_COMPRARLO¿_👀_(1920p_25fps_VP9_LQ-128kbit_AAC)-00.27.14.400.png",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/INTEL_CORE_ULTRA_7_265K_-_DOVRESTI_COMPRARLO%C2%BF_%F0%9F%91%80_%281920p_25fps_VP9_LQ-128kbit_AAC%29-00.27.14.400.png/960px-INTEL_CORE_ULTRA_7_265K_-_DOVRESTI_COMPRARLO%C2%BF_%F0%9F%91%80_%281920p_25fps_VP9_LQ-128kbit_AAC%29-00.27.14.400.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY 3.0",
+          "accepted": true,
+          "reason": "Visible exact model label confirmed."
+        }
+      ],
+      "photo": {
+        "src": "/assets/hardware/catalog-cpu-extra-oct17/ultra7265k-416bad2848.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:INTEL_CORE_ULTRA_7_265K_-_DOVRESTI_COMPRARLO¿_👀_(1920p_25fps_VP9_LQ-128kbit_AAC)-00.27.14.400.png"
+      }
+    },
+    {
+      "id": "i714700k",
+      "catalogName": "Core i7-14700K",
+      "status": "verified-repair",
+      "reason": "Accepted full CPU photograph with matching visible model marking.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/236783/intel-core-i7-processor-14700k-33m-cache-up-to-5-60-ghz/specifications.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/236783/intel-core-i7-processor-14700k-33m-cache-up-to-5-60-ghz/specifications.html"
+        }
+      ],
+      "newAttempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i7-14700K",
+          "status": 200,
+          "candidateFileCount": 8
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:14-ый_провал_Intel_Зачем_появились_14900K,_14700K_и_14600K-00.08.45.755_(Мой_Компьютер).png",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/14-%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B2%D0%B0%D0%BB_Intel_%D0%97%D0%B0%D1%87%D0%B5%D0%BC_%D0%BF%D0%BE%D1%8F%D0%B2%D0%B8%D0%BB%D0%B8%D1%81%D1%8C_14900K%2C_14700K_%D0%B8_14600K-00.08.45.755_%28%D0%9C%D0%BE%D0%B9_%D0%9A%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%29.png/960px-14-%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B2%D0%B0%D0%BB_Intel_%D0%97%D0%B0%D1%87%D0%B5%D0%BC_%D0%BF%D0%BE%D1%8F%D0%B2%D0%B8%D0%BB%D0%B8%D1%81%D1%8C_14900K%2C_14700K_%D0%B8_14600K-00.08.45.755_%28%D0%9C%D0%BE%D0%B9_%D0%9A%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY 3.0",
+          "accepted": true,
+          "reason": "Visible exact model label confirmed."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Intel_Core_i7-14700K_(INVADERPC).png",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Intel_Core_i7-14700K_%28INVADERPC%29.png/960px-Intel_Core_i7-14700K_%28INVADERPC%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY 3.0",
+          "accepted": false,
+          "reason": "Alternate candidate not selected after visual review."
+        }
+      ],
+      "photo": {
+        "src": "/assets/hardware/catalog-cpu-extra-oct17/i714700k-79bc642bf6.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:14-ый_провал_Intel_Зачем_появились_14900K,_14700K_и_14600K-00.08.45.755_(Мой_Компьютер).png"
+      }
+    },
+    {
+      "id": "i514600k",
+      "catalogName": "Core i5-14600K",
+      "status": "verified-repair",
+      "reason": "Accepted full CPU photograph with matching visible model marking.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/236799/intel-core-i5-processor-14600k-24m-cache-up-to-5-30-ghz/specifications.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/236799/intel-core-i5-processor-14600k-24m-cache-up-to-5-30-ghz/specifications.html"
+        }
+      ],
+      "newAttempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i5-14600K",
+          "status": 200,
+          "candidateFileCount": 12
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:14-ый_провал_Intel_Зачем_появились_14900K,_14700K_и_14600K-00.19.37.216_(Мой_Компьютер).png",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/14-%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B2%D0%B0%D0%BB_Intel_%D0%97%D0%B0%D1%87%D0%B5%D0%BC_%D0%BF%D0%BE%D1%8F%D0%B2%D0%B8%D0%BB%D0%B8%D1%81%D1%8C_14900K%2C_14700K_%D0%B8_14600K-00.19.37.216_%28%D0%9C%D0%BE%D0%B9_%D0%9A%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%29.png/960px-14-%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B2%D0%B0%D0%BB_Intel_%D0%97%D0%B0%D1%87%D0%B5%D0%BC_%D0%BF%D0%BE%D1%8F%D0%B2%D0%B8%D0%BB%D0%B8%D1%81%D1%8C_14900K%2C_14700K_%D0%B8_14600K-00.19.37.216_%28%D0%9C%D0%BE%D0%B9_%D0%9A%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY 3.0",
+          "accepted": true,
+          "reason": "Visible exact model label confirmed."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:14-ый_провал_Intel_Зачем_появились_14900K,_14700K_и_14600K-00.19.41.216_(Мой_Компьютер).png",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/14-%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B2%D0%B0%D0%BB_Intel_%D0%97%D0%B0%D1%87%D0%B5%D0%BC_%D0%BF%D0%BE%D1%8F%D0%B2%D0%B8%D0%BB%D0%B8%D1%81%D1%8C_14900K%2C_14700K_%D0%B8_14600K-00.19.41.216_%28%D0%9C%D0%BE%D0%B9_%D0%9A%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%29.png/960px-14-%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B2%D0%B0%D0%BB_Intel_%D0%97%D0%B0%D1%87%D0%B5%D0%BC_%D0%BF%D0%BE%D1%8F%D0%B2%D0%B8%D0%BB%D0%B8%D1%81%D1%8C_14900K%2C_14700K_%D0%B8_14600K-00.19.41.216_%28%D0%9C%D0%BE%D0%B9_%D0%9A%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY 3.0",
+          "accepted": false,
+          "reason": "Alternate candidate not selected after visual review."
+        }
+      ],
+      "photo": {
+        "src": "/assets/hardware/catalog-cpu-extra-oct17/i514600k-0b2c13b1ad.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:14-ый_провал_Intel_Зачем_появились_14900K,_14700K_и_14600K-00.19.37.216_(Мой_Компьютер).png"
+      }
+    },
+    {
+      "id": "i913900k",
+      "catalogName": "Core i9-13900K",
+      "status": "researched-unresolved",
+      "reason": "Available Commons frames show multiple different CPUs, a comparison chart, or a part without an isolated verified target label; no standalone exact photograph accepted.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/230496/intel-core-i9-13900k-processor-36m-cache-up-to-5-80-ghz/specifications.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/230496/intel-core-i9-13900k-processor-36m-cache-up-to-5-80-ghz/specifications.html"
+        }
+      ],
+      "newAttempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i9-13900K",
+          "status": 200,
+          "candidateFileCount": 50
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:14-ый_провал_Intel_Зачем_появились_14900K,_14700K_и_14600K-00.08.26.955_(Мой_Компьютер).png",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/14-%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B2%D0%B0%D0%BB_Intel_%D0%97%D0%B0%D1%87%D0%B5%D0%BC_%D0%BF%D0%BE%D1%8F%D0%B2%D0%B8%D0%BB%D0%B8%D1%81%D1%8C_14900K%2C_14700K_%D0%B8_14600K-00.08.26.955_%28%D0%9C%D0%BE%D0%B9_%D0%9A%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%29.png/960px-14-%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B2%D0%B0%D0%BB_Intel_%D0%97%D0%B0%D1%87%D0%B5%D0%BC_%D0%BF%D0%BE%D1%8F%D0%B2%D0%B8%D0%BB%D0%B8%D1%81%D1%8C_14900K%2C_14700K_%D0%B8_14600K-00.08.26.955_%28%D0%9C%D0%BE%D0%B9_%D0%9A%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY 3.0",
+          "accepted": false,
+          "reason": "Alternate candidate not selected after visual review."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:14-ый_провал_Intel_Зачем_появились_14900K,_14700K_и_14600K-00.08.30.155_(Мой_Компьютер).png",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/14-%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B2%D0%B0%D0%BB_Intel_%D0%97%D0%B0%D1%87%D0%B5%D0%BC_%D0%BF%D0%BE%D1%8F%D0%B2%D0%B8%D0%BB%D0%B8%D1%81%D1%8C_14900K%2C_14700K_%D0%B8_14600K-00.08.30.155_%28%D0%9C%D0%BE%D0%B9_%D0%9A%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%29.png/960px-14-%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B2%D0%B0%D0%BB_Intel_%D0%97%D0%B0%D1%87%D0%B5%D0%BC_%D0%BF%D0%BE%D1%8F%D0%B2%D0%B8%D0%BB%D0%B8%D1%81%D1%8C_14900K%2C_14700K_%D0%B8_14600K-00.08.30.155_%28%D0%9C%D0%BE%D0%B9_%D0%9A%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY 3.0",
+          "accepted": false,
+          "reason": "Alternate candidate not selected after visual review."
+        }
+      ],
+      "photo": null
+    },
+    {
+      "id": "i513600k",
+      "catalogName": "Core i5-13600K",
+      "status": "verified-repair",
+      "reason": "Accepted full CPU photograph with matching visible model marking.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/230493/intel-core-i5-13600k-processor-24m-cache-up-to-5-10-ghz/specifications.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/230493/intel-core-i5-13600k-processor-24m-cache-up-to-5-10-ghz/specifications.html"
+        }
+      ],
+      "newAttempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i5-13600K",
+          "status": 200,
+          "candidateFileCount": 4
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Intel_Core_i5_13600K.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Intel_Core_i5_13600K.jpg/960px-Intel_Core_i5_13600K.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY 4.0",
+          "accepted": true,
+          "reason": "Visible exact model label confirmed."
+        }
+      ],
+      "photo": {
+        "src": "/assets/hardware/catalog-cpu-extra-oct17/i513600k-17b093607b.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Intel_Core_i5_13600K.jpg"
+      }
+    },
+    {
+      "id": "i912900k",
+      "catalogName": "Core i9-12900K",
+      "status": "researched-unresolved",
+      "reason": "Available Commons candidates did not meet the visible exact-model identity and useful component-photo checks.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/134599/intel-core-i9-12900k-processor-30m-cache-up-to-5-20-ghz/specifications.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/134599/intel-core-i9-12900k-processor-30m-cache-up-to-5-20-ghz/specifications.html"
+        }
+      ],
+      "newAttempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i9-12900K",
+          "status": 200,
+          "candidateFileCount": 13
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Intel_core_i9-12900k_verkaufsverpackung_IMGP6274_smial_wp.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Intel_core_i9-12900k_verkaufsverpackung_IMGP6274_smial_wp.jpg/960px-Intel_core_i9-12900k_verkaufsverpackung_IMGP6274_smial_wp.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "FAL",
+          "accepted": false,
+          "reason": "Alternate candidate not selected after visual review."
+        }
+      ],
+      "photo": null
+    },
+    {
+      "id": "i712700k",
+      "catalogName": "Core i7-12700K",
+      "status": "verified-repair",
+      "reason": "Accepted full CPU photograph with matching visible model marking.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/134594/intel-core-i7-12700k-processor-25m-cache-up-to-5-00-ghz/specifications.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/134594/intel-core-i7-12700k-processor-25m-cache-up-to-5-00-ghz/specifications.html"
+        }
+      ],
+      "newAttempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i7-12700K",
+          "status": 200,
+          "candidateFileCount": 5
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Intel_CPU_Core_i7_12700K_Alder_Lake_top.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Intel_CPU_Core_i7_12700K_Alder_Lake_top.jpg/960px-Intel_CPU_Core_i7_12700K_Alder_Lake_top.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY-SA 4.0",
+          "accepted": true,
+          "reason": "Visible exact model label confirmed."
+        }
+      ],
+      "photo": {
+        "src": "/assets/hardware/catalog-cpu-extra-oct17/i712700k-210fda2e75.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Intel_CPU_Core_i7_12700K_Alder_Lake_top.jpg"
+      }
+    },
+    {
+      "id": "i512600k",
+      "catalogName": "Core i5-12600K",
+      "status": "verified-repair",
+      "reason": "Accepted full CPU photograph with matching visible model marking.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/134589/intel-core-i5-12600k-processor-20m-cache-up-to-4-90-ghz/specifications.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/134589/intel-core-i5-12600k-processor-20m-cache-up-to-4-90-ghz/specifications.html"
+        }
+      ],
+      "newAttempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i5-12600K",
+          "status": 200,
+          "candidateFileCount": 4
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Ryzen_9700X_-_AMD_wpadło_we_własną_pułapkę!-00.03.44.400_(ZMASLO).png",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Ryzen_9700X_-_AMD_wpad%C5%82o_we_w%C5%82asn%C4%85_pu%C5%82apk%C4%99%21-00.03.44.400_%28ZMASLO%29.png/960px-Ryzen_9700X_-_AMD_wpad%C5%82o_we_w%C5%82asn%C4%85_pu%C5%82apk%C4%99%21-00.03.44.400_%28ZMASLO%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY 3.0",
+          "accepted": true,
+          "reason": "Visible exact model label confirmed."
+        }
+      ],
+      "photo": {
+        "src": "/assets/hardware/catalog-cpu-extra-oct17/i512600k-8be0fdfcb1.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ryzen_9700X_-_AMD_wpadło_we_własną_pułapkę!-00.03.44.400_(ZMASLO).png"
+      }
+    },
+    {
+      "id": "i910900k",
+      "catalogName": "Core i9-10900K",
+      "status": "researched-unresolved",
+      "reason": "Available Commons frames show multiple different CPUs, a comparison chart, or a part without an isolated verified target label; no standalone exact photograph accepted.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/199332/intel-core-i9-10900k-processor-20m-cache-up-to-5-30-ghz/specifications.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/199332/intel-core-i9-10900k-processor-20m-cache-up-to-5-30-ghz/specifications.html"
+        }
+      ],
+      "newAttempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i9-10900K",
+          "status": 200,
+          "candidateFileCount": 4
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Chińska_płyta_i_Intel_Xeon_(2160p_24fps_VP9_LQ-128kbit_AAC)-00.00.33.317.png",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Chi%C5%84ska_p%C5%82yta_i_Intel_Xeon_%282160p_24fps_VP9_LQ-128kbit_AAC%29-00.00.33.317.png/960px-Chi%C5%84ska_p%C5%82yta_i_Intel_Xeon_%282160p_24fps_VP9_LQ-128kbit_AAC%29-00.00.33.317.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY 3.0",
+          "accepted": false,
+          "reason": "Alternate candidate not selected after visual review."
+        }
+      ],
+      "photo": null
+    },
+    {
+      "id": "i99900k",
+      "catalogName": "Core i9-9900K",
+      "status": "verified-repair",
+      "reason": "Accepted full CPU photograph with matching visible model marking.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/186605/intel-core-i9-9900k-processor-16m-cache-up-to-5-00-ghz/specifications.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/186605/intel-core-i9-9900k-processor-16m-cache-up-to-5-00-ghz/specifications.html"
+        }
+      ],
+      "newAttempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i9-9900K",
+          "status": 200,
+          "candidateFileCount": 14
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Intel_Core_i9-9900K_20201121_120317.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Intel_Core_i9-9900K_20201121_120317.jpg/960px-Intel_Core_i9-9900K_20201121_120317.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY 4.0",
+          "accepted": false,
+          "reason": "Alternate candidate not selected after visual review."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Intel_i9-9900K.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Intel_i9-9900K.jpg/960px-Intel_i9-9900K.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY-SA 4.0",
+          "accepted": true,
+          "reason": "Visible exact model label confirmed."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Intel_Core_i9-9900K_20201121_120325.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Intel_Core_i9-9900K_20201121_120325.jpg/960px-Intel_Core_i9-9900K_20201121_120325.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY 4.0",
+          "accepted": false,
+          "reason": "Alternate candidate not selected after visual review."
+        }
+      ],
+      "photo": {
+        "src": "/assets/hardware/catalog-cpu-extra-oct17/i99900k-9a7ebd0987.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Intel_i9-9900K.jpg"
+      }
+    },
+    {
+      "id": "i77700k",
+      "catalogName": "Core i7-7700K",
+      "status": "researched-unresolved",
+      "reason": "Candidate close-ups show Intel Confidential engineering-sample markings; remaining frames compare several processors. Not accepted as the retail7700K.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/97129/intel-core-i7-7700k-processor-8m-cache-up-to-4-50-ghz/specifications.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/97129/intel-core-i7-7700k-processor-8m-cache-up-to-4-50-ghz/specifications.html"
+        }
+      ],
+      "newAttempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i7-7700K",
+          "status": 200,
+          "candidateFileCount": 11
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:7600K_and_7700K_vs_6600K_and_6700K_(Paul's_Hardware)_02.png",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/7600K_and_7700K_vs_6600K_and_6700K_%28Paul%27s_Hardware%29_02.png/960px-7600K_and_7700K_vs_6600K_and_6700K_%28Paul%27s_Hardware%29_02.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY 3.0",
+          "accepted": false,
+          "reason": "Alternate candidate not selected after visual review."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:7600K_and_7700K_vs_6600K_and_6700K_(Paul's_Hardware)_03.png",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/7600K_and_7700K_vs_6600K_and_6700K_%28Paul%27s_Hardware%29_03.png/960px-7600K_and_7700K_vs_6600K_and_6700K_%28Paul%27s_Hardware%29_03.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY 3.0",
+          "accepted": false,
+          "reason": "Alternate candidate not selected after visual review."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:7600K_and_7700K_vs_6600K_and_6700K_(Paul's_Hardware)_04.png",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/7600K_and_7700K_vs_6600K_and_6700K_%28Paul%27s_Hardware%29_04.png/960px-7600K_and_7700K_vs_6600K_and_6700K_%28Paul%27s_Hardware%29_04.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY 3.0",
+          "accepted": false,
+          "reason": "Alternate candidate not selected after visual review."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:7600K_and_7700K_vs_6600K_and_6700K_(Paul's_Hardware)_08.png",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/7600K_and_7700K_vs_6600K_and_6700K_%28Paul%27s_Hardware%29_08.png/960px-7600K_and_7700K_vs_6600K_and_6700K_%28Paul%27s_Hardware%29_08.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY 3.0",
+          "accepted": false,
+          "reason": "Alternate candidate not selected after visual review."
+        }
+      ],
+      "photo": null
+    },
+    {
+      "id": "i74790k",
+      "catalogName": "Core i7-4790K",
+      "status": "verified-repair",
+      "reason": "Accepted full CPU photograph with matching visible model marking.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/80807/intel-core-i7-4790k-processor-8m-cache-up-to-4-40-ghz/specifications.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/80807/intel-core-i7-4790k-processor-8m-cache-up-to-4-40-ghz/specifications.html"
+        }
+      ],
+      "newAttempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i7-4790K",
+          "status": 200,
+          "candidateFileCount": 6
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Intel_Core_i7_4790K_IMG_9589.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Intel_Core_i7_4790K_IMG_9589.jpg/960px-Intel_Core_i7_4790K_IMG_9589.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY-SA 3.0",
+          "accepted": false,
+          "reason": "Alternate candidate not selected after visual review."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Intel_Core_i7_4790K_IMG_9592.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Intel_Core_i7_4790K_IMG_9592.jpg/960px-Intel_Core_i7_4790K_IMG_9592.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY-SA 3.0",
+          "accepted": false,
+          "reason": "Alternate candidate not selected after visual review."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Intel_Core_i7-4790K_(boxed)_(Mike_Batista_Games)_01.png",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Intel_Core_i7-4790K_%28boxed%29_%28Mike_Batista_Games%29_01.png/960px-Intel_Core_i7-4790K_%28boxed%29_%28Mike_Batista_Games%29_01.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY 3.0",
+          "accepted": true,
+          "reason": "Visible exact model label confirmed."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Intel_Core_i7-4790K_(boxed)_(Mike_Batista_Games)_02.png",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Intel_Core_i7-4790K_%28boxed%29_%28Mike_Batista_Games%29_02.png/960px-Intel_Core_i7-4790K_%28boxed%29_%28Mike_Batista_Games%29_02.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY 3.0",
+          "accepted": false,
+          "reason": "Alternate candidate not selected after visual review."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Intel_Core_i7-4790K_(boxed)_(Mike_Batista_Games)_03.png",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Intel_Core_i7-4790K_%28boxed%29_%28Mike_Batista_Games%29_03.png/960px-Intel_Core_i7-4790K_%28boxed%29_%28Mike_Batista_Games%29_03.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY 3.0",
+          "accepted": false,
+          "reason": "Alternate candidate not selected after visual review."
+        }
+      ],
+      "photo": {
+        "src": "/assets/hardware/catalog-cpu-extra-oct17/i74790k-5cc751a8cf.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Intel_Core_i7-4790K_(boxed)_(Mike_Batista_Games)_01.png"
+      }
+    },
+    {
+      "id": "7900",
+      "catalogName": "Ryzen 9 7900",
+      "status": "researched-unresolved",
+      "reason": "Available Commons frames show multiple different CPUs, a comparison chart, or a part without an isolated verified target label; no standalone exact photograph accepted.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900.html",
+          "status": 200,
+          "finalUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900.html"
+        }
+      ],
+      "newAttempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_Ryzen_9_7900",
+          "status": 200,
+          "candidateFileCount": 1
+        }
+      ],
+      "photo": null
+    },
+    {
+      "id": "7600",
+      "catalogName": "Ryzen 5 7600",
+      "status": "verified-repair",
+      "reason": "Accepted full CPU photograph with matching visible model marking.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600.html",
+          "status": 200,
+          "finalUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600.html"
+        }
+      ],
+      "newAttempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_Ryzen_5_7600",
+          "status": 200,
+          "candidateFileCount": 67
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_5_7600_top_IMGP6773_smial_wp.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/AMD_Ryzen_5_7600_top_IMGP6773_smial_wp.jpg/960px-AMD_Ryzen_5_7600_top_IMGP6773_smial_wp.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "FAL",
+          "accepted": true,
+          "reason": "Visible exact model label confirmed."
+        }
+      ],
+      "photo": {
+        "src": "/assets/hardware/catalog-cpu-extra-oct17/7600-d3d93fadef.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_5_7600_top_IMGP6773_smial_wp.jpg"
+      }
+    },
+    {
+      "id": "5700x3d",
+      "catalogName": "Ryzen 7 5700X3D",
+      "status": "researched-unresolved",
+      "reason": "Public Commons model category returned404. This does not establish image absence; additional public manufacturer/distributor source was not successfully recovered in this bounded pass.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-7-5700x3d.html",
+          "status": 404,
+          "finalUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-7-5700x3d.html"
+        }
+      ],
+      "newAttempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_Ryzen_7_5700X3D",
+          "status": 404,
+          "candidateFileCount": 0
+        }
+      ],
+      "photo": null
+    },
+    {
+      "id": "5700x",
+      "catalogName": "Ryzen 7 5700X",
+      "status": "verified-repair",
+      "reason": "Accepted full CPU photograph with matching visible model marking.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-7-5700x.html",
+          "status": 404,
+          "finalUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-7-5700x.html"
+        }
+      ],
+      "newAttempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_Ryzen_7_5700X",
+          "status": 200,
+          "candidateFileCount": 3
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_7_5700X_1.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/AMD_Ryzen_7_5700X_1.jpg/960px-AMD_Ryzen_7_5700X_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY-SA 4.0",
+          "accepted": true,
+          "reason": "Visible exact model label confirmed."
+        }
+      ],
+      "photo": {
+        "src": "/assets/hardware/catalog-cpu-extra-oct17/5700x-5ea9d52e96.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_7_5700X_1.jpg"
+      }
+    },
+    {
+      "id": "5600",
+      "catalogName": "Ryzen 5 5600",
+      "status": "researched-unresolved",
+      "reason": "Available Commons frames show multiple different CPUs, a comparison chart, or a part without an isolated verified target label; no standalone exact photograph accepted.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-5-5600.html",
+          "status": 404,
+          "finalUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-5-5600.html"
+        }
+      ],
+      "newAttempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_Ryzen_5_5600",
+          "status": 200,
+          "candidateFileCount": 6
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Выбираем_лучший_Ryzen_Тест_процессоров_на_AM4_и_AM5-00.02.05.200_(Мой_Компьютер).png",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/%D0%92%D1%8B%D0%B1%D0%B8%D1%80%D0%B0%D0%B5%D0%BC_%D0%BB%D1%83%D1%87%D1%88%D0%B8%D0%B9_Ryzen_%D0%A2%D0%B5%D1%81%D1%82_%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D0%BE%D1%80%D0%BE%D0%B2_%D0%BD%D0%B0_AM4_%D0%B8_AM5-00.02.05.200_%28%D0%9C%D0%BE%D0%B9_%D0%9A%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%29.png/960px-%D0%92%D1%8B%D0%B1%D0%B8%D1%80%D0%B0%D0%B5%D0%BC_%D0%BB%D1%83%D1%87%D1%88%D0%B8%D0%B9_Ryzen_%D0%A2%D0%B5%D1%81%D1%82_%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D0%BE%D1%80%D0%BE%D0%B2_%D0%BD%D0%B0_AM4_%D0%B8_AM5-00.02.05.200_%28%D0%9C%D0%BE%D0%B9_%D0%9A%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY 3.0",
+          "accepted": false,
+          "reason": "Alternate candidate not selected after visual review."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Выбираем_лучший_Ryzen_Тест_процессоров_на_AM4_и_AM5-00.02.17.200_(Мой_Компьютер).png",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/%D0%92%D1%8B%D0%B1%D0%B8%D1%80%D0%B0%D0%B5%D0%BC_%D0%BB%D1%83%D1%87%D1%88%D0%B8%D0%B9_Ryzen_%D0%A2%D0%B5%D1%81%D1%82_%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D0%BE%D1%80%D0%BE%D0%B2_%D0%BD%D0%B0_AM4_%D0%B8_AM5-00.02.17.200_%28%D0%9C%D0%BE%D0%B9_%D0%9A%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%29.png/960px-%D0%92%D1%8B%D0%B1%D0%B8%D1%80%D0%B0%D0%B5%D0%BC_%D0%BB%D1%83%D1%87%D1%88%D0%B8%D0%B9_Ryzen_%D0%A2%D0%B5%D1%81%D1%82_%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D0%BE%D1%80%D0%BE%D0%B2_%D0%BD%D0%B0_AM4_%D0%B8_AM5-00.02.17.200_%28%D0%9C%D0%BE%D0%B9_%D0%9A%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY 3.0",
+          "accepted": false,
+          "reason": "Alternate candidate not selected after visual review."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Выбираем_лучший_Ryzen_Тест_процессоров_на_AM4_и_AM5-00.06.30.800_(Мой_Компьютер).png",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/%D0%92%D1%8B%D0%B1%D0%B8%D1%80%D0%B0%D0%B5%D0%BC_%D0%BB%D1%83%D1%87%D1%88%D0%B8%D0%B9_Ryzen_%D0%A2%D0%B5%D1%81%D1%82_%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D0%BE%D1%80%D0%BE%D0%B2_%D0%BD%D0%B0_AM4_%D0%B8_AM5-00.06.30.800_%28%D0%9C%D0%BE%D0%B9_%D0%9A%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%29.png/960px-%D0%92%D1%8B%D0%B1%D0%B8%D1%80%D0%B0%D0%B5%D0%BC_%D0%BB%D1%83%D1%87%D1%88%D0%B8%D0%B9_Ryzen_%D0%A2%D0%B5%D1%81%D1%82_%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D0%BE%D1%80%D0%BE%D0%B2_%D0%BD%D0%B0_AM4_%D0%B8_AM5-00.06.30.800_%28%D0%9C%D0%BE%D0%B9_%D0%9A%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY 3.0",
+          "accepted": false,
+          "reason": "Alternate candidate not selected after visual review."
+        }
+      ],
+      "photo": null
+    },
+    {
+      "id": "3800x",
+      "catalogName": "Ryzen 7 3800X",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.amd.com/en/products/cpu/amd-ryzen-7-3800x",
+          "status": 403,
+          "finalUrl": "https://www.amd.com/"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "2600x",
+      "catalogName": "Ryzen 5 2600X",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.amd.com/en/products/cpu/amd-ryzen-5-2600x",
+          "status": 403,
+          "finalUrl": "https://www.amd.com/"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "ultra5245k",
+      "catalogName": "Core Ultra 5 245K",
+      "status": "researched-unresolved",
+      "reason": "Available Commons frames show multiple different CPUs, a comparison chart, or a part without an isolated verified target label; no standalone exact photograph accepted.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/241072/intel-core-ultra-5-processor-245k-24m-cache-up-to-5-20-ghz/specifications.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/241072/intel-core-ultra-5-processor-245k-24m-cache-up-to-5-20-ghz/specifications.html"
+        }
+      ],
+      "newAttempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_Ultra_5_245K",
+          "status": 200,
+          "candidateFileCount": 4
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Czy_nowe_procesory_Intela_to_ULTRA_rozczarowanie¿_(2160p_30fps_VP9_LQ-128kbit_AAC)-00.01.16.400.png",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Czy_nowe_procesory_Intela_to_ULTRA_rozczarowanie%C2%BF_%282160p_30fps_VP9_LQ-128kbit_AAC%29-00.01.16.400.png/960px-Czy_nowe_procesory_Intela_to_ULTRA_rozczarowanie%C2%BF_%282160p_30fps_VP9_LQ-128kbit_AAC%29-00.01.16.400.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY 3.0",
+          "accepted": false,
+          "reason": "Alternate candidate not selected after visual review."
+        }
+      ],
+      "photo": null
+    },
+    {
+      "id": "i911900k",
+      "catalogName": "Core i9-11900K",
+      "status": "researched-unresolved",
+      "reason": "Public Commons model category returned404. This does not establish image absence; additional public manufacturer/distributor source was not successfully recovered in this bounded pass.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/212325/intel-core-i911900k-processor-16m-cache-up-to-5-30-ghz/specifications.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/212325/intel-core-i911900k-processor-16m-cache-up-to-5-30-ghz/specifications.html"
+        }
+      ],
+      "newAttempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i9-11900K",
+          "status": 404,
+          "candidateFileCount": 0
+        }
+      ],
+      "photo": null
+    },
+    {
+      "id": "i711700k",
+      "catalogName": "Core i7-11700K",
+      "status": "researched-unresolved",
+      "reason": "Public Commons model category returned404. This does not establish image absence; additional public manufacturer/distributor source was not successfully recovered in this bounded pass.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/212047/intel-core-i711700k-processor-16m-cache-up-to-5-00-ghz/specifications.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/212047/intel-core-i711700k-processor-16m-cache-up-to-5-00-ghz/specifications.html"
+        }
+      ],
+      "newAttempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i7-11700K",
+          "status": 404,
+          "candidateFileCount": 0
+        }
+      ],
+      "photo": null
+    },
+    {
+      "id": "i511600k",
+      "catalogName": "Core i5-11600K",
+      "status": "researched-unresolved",
+      "reason": "Public Commons model category returned404. This does not establish image absence; additional public manufacturer/distributor source was not successfully recovered in this bounded pass.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/212275/intel-core-i511600k-processor-12m-cache-up-to-4-90-ghz/specifications.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/212275/intel-core-i511600k-processor-12m-cache-up-to-4-90-ghz/specifications.html"
+        }
+      ],
+      "newAttempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i5-11600K",
+          "status": 404,
+          "candidateFileCount": 0
+        }
+      ],
+      "photo": null
+    },
+    {
+      "id": "i710700k",
+      "catalogName": "Core i7-10700K",
+      "status": "researched-unresolved",
+      "reason": "Public Commons model category returned404. This does not establish image absence; additional public manufacturer/distributor source was not successfully recovered in this bounded pass.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/199335/intel-core-i710700k-processor-16m-cache-up-to-5-10-ghz/specifications.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/199335/intel-core-i710700k-processor-16m-cache-up-to-5-10-ghz/specifications.html"
+        }
+      ],
+      "newAttempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i7-10700K",
+          "status": 404,
+          "candidateFileCount": 0
+        }
+      ],
+      "photo": null
+    },
+    {
+      "id": "i79700k",
+      "catalogName": "Core i7-9700K",
+      "status": "researched-unresolved",
+      "reason": "Public model category exists, but no suitable complete-CPU photograph was selected from its files.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/186604/intel-core-i7-9700k-processor-12m-cache-up-to-4-90-ghz/specifications.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/186604/intel-core-i7-9700k-processor-12m-cache-up-to-4-90-ghz/specifications.html"
+        }
+      ],
+      "newAttempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i7-9700K",
+          "status": 200,
+          "candidateFileCount": 1
+        }
+      ],
+      "photo": null
+    },
+    {
+      "id": "i76700k",
+      "catalogName": "Core i7-6700K",
+      "status": "verified-repair",
+      "reason": "Accepted full CPU photograph with matching visible model marking.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/88195/intel-core-i76700k-processor-8m-cache-up-to-4-20-ghz/specifications.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/88195/intel-core-i76700k-processor-8m-cache-up-to-4-20-ghz/specifications.html"
+        }
+      ],
+      "newAttempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i7-6700K",
+          "status": 200,
+          "candidateFileCount": 12
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Intel_CPU_Core_i7_6700K_Skylake_top.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Intel_CPU_Core_i7_6700K_Skylake_top.jpg/960px-Intel_CPU_Core_i7_6700K_Skylake_top.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY-SA 4.0",
+          "accepted": true,
+          "reason": "Visible exact model label confirmed."
+        }
+      ],
+      "photo": {
+        "src": "/assets/hardware/catalog-cpu-extra-oct17/i76700k-95de71427b.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Intel_CPU_Core_i7_6700K_Skylake_top.jpg"
+      }
+    },
+    {
+      "id": "i73770k",
+      "catalogName": "Core i7-3770K",
+      "status": "researched-unresolved",
+      "reason": "Public Commons model category returned404. This does not establish image absence; additional public manufacturer/distributor source was not successfully recovered in this bounded pass.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/65523/intel-core-i73770k-processor-8m-cache-up-to-3-90-ghz/specifications.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/65523/intel-core-i73770k-processor-8m-cache-up-to-3-90-ghz/specifications.html"
+        }
+      ],
+      "newAttempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i7-3770K",
+          "status": 404,
+          "candidateFileCount": 0
+        }
+      ],
+      "photo": null
+    },
+    {
+      "id": "7500f",
+      "catalogName": "Ryzen 5 7500F",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7500f.html",
+          "status": 403,
+          "finalUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7500f.html"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "5500",
+      "catalogName": "Ryzen 5 5500",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-5-5500.html",
+          "status": 403,
+          "finalUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-5-5500.html"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "5700g",
+      "catalogName": "Ryzen 7 5700G",
+      "status": "researched-unresolved",
+      "reason": "Available Commons frames show multiple different CPUs, a comparison chart, or a part without an isolated verified target label; no standalone exact photograph accepted.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.amd.com/en/products/apu/amd-ryzen-7-5700g",
+          "status": 403,
+          "finalUrl": "https://www.amd.com/en/products/apu/amd-ryzen-7-5700g"
+        }
+      ],
+      "newAttempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_Ryzen_7_5700G",
+          "status": 200,
+          "candidateFileCount": 3
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Video_zu_den_AMD_Ryzen_8000-CPUs_(Мой_Компьютер)_01.png",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Video_zu_den_AMD_Ryzen_8000-CPUs_%28%D0%9C%D0%BE%D0%B9_%D0%9A%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%29_01.png/960px-Video_zu_den_AMD_Ryzen_8000-CPUs_%28%D0%9C%D0%BE%D0%B9_%D0%9A%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%29_01.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY 3.0",
+          "accepted": false,
+          "reason": "Alternate candidate not selected after visual review."
+        }
+      ],
+      "photo": null
+    },
+    {
+      "id": "5600g",
+      "catalogName": "Ryzen 5 5600G",
+      "status": "researched-unresolved",
+      "reason": "Public model category exists, but no suitable complete-CPU photograph was selected from its files.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.amd.com/en/products/apu/amd-ryzen-5-5600g",
+          "status": 403,
+          "finalUrl": "https://www.amd.com/en/products/apu/amd-ryzen-5-5600g"
+        }
+      ],
+      "newAttempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_Ryzen_5_5600G",
+          "status": 200,
+          "candidateFileCount": 9
+        }
+      ],
+      "photo": null
+    },
+    {
+      "id": "3300x",
+      "catalogName": "Ryzen 3 3300X",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.amd.com/en/products/cpu/amd-ryzen-3-3300x",
+          "status": 403,
+          "finalUrl": "https://www.amd.com/en/products/cpu/amd-ryzen-3-3300x"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "3100",
+      "catalogName": "Ryzen 3 3100",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.amd.com/en/products/cpu/amd-ryzen-3-3100",
+          "status": 403,
+          "finalUrl": "https://www.amd.com/en/products/cpu/amd-ryzen-3-3100"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "3400g",
+      "catalogName": "Ryzen 5 3400G",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.amd.com/en/products/apu/amd-ryzen-5-3400g",
+          "status": 403,
+          "finalUrl": "https://www.amd.com/en/products/apu/amd-ryzen-5-3400g"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "3200g",
+      "catalogName": "Ryzen 3 3200G",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.amd.com/en/products/apu/amd-ryzen-3-3200g",
+          "status": 403,
+          "finalUrl": "https://www.amd.com/en/products/apu/amd-ryzen-3-3200g"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "2990wx",
+      "catalogName": "Ryzen Threadripper 2990WX",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.amd.com/en/products/cpu/amd-ryzen-threadripper-2990wx",
+          "status": 403,
+          "finalUrl": "https://www.amd.com/en/products/cpu/amd-ryzen-threadripper-2990wx"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "1950x",
+      "catalogName": "Ryzen Threadripper 1950X",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.amd.com/en/products/cpu/amd-ryzen-threadripper-1950x",
+          "status": 403,
+          "finalUrl": "https://www.amd.com/en/products/cpu/amd-ryzen-threadripper-1950x"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "fx8350",
+      "catalogName": "FX-8350",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.amd.com/en/products/cpu/fx-8350",
+          "status": 403,
+          "finalUrl": "https://www.amd.com/en/products/cpu/fx-8350"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "i914900ks",
+      "catalogName": "Core i9-14900KS",
+      "status": "researched-unresolved",
+      "reason": "Public Commons model category returned404. This does not establish image absence; additional public manufacturer/distributor source was not successfully recovered in this bounded pass.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/237504/intel-core-i9-processor-14900ks-36m-cache-up-to-6-20-ghz/specifications.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/237504/intel-core-i9-processor-14900ks-36m-cache-up-to-6-20-ghz/specifications.html"
+        }
+      ],
+      "newAttempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i9-14900KS",
+          "status": 404,
+          "candidateFileCount": 0
+        }
+      ],
+      "photo": null
+    },
+    {
+      "id": "i913900ks",
+      "catalogName": "Core i9-13900KS",
+      "status": "researched-unresolved",
+      "reason": "Public model category exists, but no suitable complete-CPU photograph was selected from its files.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/232167/intel-core-i9-13900ks-processor-36m-cache-up-to-6-00-ghz/specifications.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/232167/intel-core-i9-13900ks-processor-36m-cache-up-to-6-00-ghz/specifications.html"
+        }
+      ],
+      "newAttempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i9-13900KS",
+          "status": 200,
+          "candidateFileCount": 3
+        }
+      ],
+      "photo": null
+    },
+    {
+      "id": "i912900ks",
+      "catalogName": "Core i9-12900KS",
+      "status": "researched-unresolved",
+      "reason": "Public Commons model category returned404. This does not establish image absence; additional public manufacturer/distributor source was not successfully recovered in this bounded pass.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/225916/intel-core-i9-12900ks-processor-30m-cache-up-to-5-50-ghz/specifications.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/225916/intel-core-i9-12900ks-processor-30m-cache-up-to-5-50-ghz/specifications.html"
+        }
+      ],
+      "newAttempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i9-12900KS",
+          "status": 404,
+          "candidateFileCount": 0
+        }
+      ],
+      "photo": null
+    },
+    {
+      "id": "i911900",
+      "catalogName": "Core i9-11900",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/212252/intel-core-i911900-processor-16m-cache-up-to-5-20-ghz/specifications.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/212252/intel-core-i911900-processor-16m-cache-up-to-5-20-ghz/specifications.html"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "i711700",
+      "catalogName": "Core i7-11700",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/212279/intel-core-i711700-processor-16m-cache-up-to-4-90-ghz/specifications.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/212279/intel-core-i711700-processor-16m-cache-up-to-4-90-ghz/specifications.html"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "i511600",
+      "catalogName": "Core i5-11600",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/212270/intel-core-i511600-processor-12m-cache-up-to-4-80-ghz/specifications.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/212270/intel-core-i511600-processor-12m-cache-up-to-4-80-ghz/specifications.html"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "i910900",
+      "catalogName": "Core i9-10900",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/199328/intel-core-i9-10900-processor-20m-cache-up-to-5-20-ghz/specifications.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/199328/intel-core-i9-10900-processor-20m-cache-up-to-5-20-ghz/specifications.html"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "i710700",
+      "catalogName": "Core i7-10700",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/199316/intel-core-i7-10700-processor-16m-cache-up-to-4-80-ghz/specifications.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/199316/intel-core-i7-10700-processor-16m-cache-up-to-4-80-ghz/specifications.html"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "i510600",
+      "catalogName": "Core i5-10600",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/199273/intel-core-i5-10600-processor-12m-cache-up-to-4-80-ghz/specifications.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/199273/intel-core-i5-10600-processor-12m-cache-up-to-4-80-ghz/specifications.html"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "i510400f",
+      "catalogName": "Core i5-10400F",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/199278/intel-core-i5-10400f-processor-12m-cache-up-to-4-30-ghz/specifications.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/199278/intel-core-i5-10400f-processor-12m-cache-up-to-4-30-ghz/specifications.html"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "i99900ks",
+      "catalogName": "Core i9-9900KS",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/197100/intel-core-i9-9900ks-processor-16m-cache-up-to-5-00-ghz/specifications.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/197100/intel-core-i9-9900ks-processor-16m-cache-up-to-5-00-ghz/specifications.html"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "i79700",
+      "catalogName": "Core i7-9700",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/191792/intel-core-i7-9700-processor-12m-cache-up-to-4-70-ghz/specifications.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/191792/intel-core-i7-9700-processor-12m-cache-up-to-4-70-ghz/specifications.html"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "i59600k",
+      "catalogName": "Core i5-9600K",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/134896/intel-core-i5-9600k-processor-9m-cache-up-to-4-60-ghz/specifications.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/134896/intel-core-i5-9600k-processor-9m-cache-up-to-4-60-ghz/specifications.html"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "i78700",
+      "catalogName": "Core i7-8700",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/126686/intel-core-i78700-processor-12m-cache-up-to-4-60-ghz/specifications.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/126686/intel-core-i78700-processor-12m-cache-up-to-4-60-ghz/specifications.html"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "i58600k",
+      "catalogName": "Core i5-8600K",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/126685/intel-core-i5-8600k-processor-9m-cache-up-to-4-30-ghz/specifications.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/126685/intel-core-i5-8600k-processor-9m-cache-up-to-4-30-ghz/specifications.html"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "i77700",
+      "catalogName": "Core i7-7700",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/97128/intel-core-i7-7700-processor-8m-cache-up-to-4-20-ghz/specifications.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/97128/intel-core-i7-7700-processor-8m-cache-up-to-4-20-ghz/specifications.html"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "i57600k",
+      "catalogName": "Core i5-7600K",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/97144/intel-core-i5-7600k-processor-6m-cache-up-to-4-20-ghz/specifications.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/97144/intel-core-i5-7600k-processor-6m-cache-up-to-4-20-ghz/specifications.html"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "i76700",
+      "catalogName": "Core i7-6700",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/88196/intel-core-i7-6700-processor-8m-cache-up-to-4-00-ghz/specifications.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/88196/intel-core-i7-6700-processor-8m-cache-up-to-4-00-ghz/specifications.html"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "i56600k",
+      "catalogName": "Core i5-6600K",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/88191/intel-core-i5-6600k-processor-6m-cache-up-to-3-90-ghz/specifications.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/88191/intel-core-i5-6600k-processor-6m-cache-up-to-3-90-ghz/specifications.html"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "i74770k",
+      "catalogName": "Core i7-4770K",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/75123/intel-core-i7-4770k-processor-8m-cache-up-to-3-90-ghz/specifications.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/75123/intel-core-i7-4770k-processor-8m-cache-up-to-3-90-ghz/specifications.html"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "i53570k",
+      "catalogName": "Core i5-3570K",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/65520/intel-core-i5-3570k-processor-6m-cache-up-to-3-80-ghz/specifications.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/65520/intel-core-i5-3570k-processor-6m-cache-up-to-3-80-ghz/specifications.html"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "i52500k",
+      "catalogName": "Core i5-2500K",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/52210/intel-core-i5-2500k-processor-6m-cache-up-to-3-70-ghz/specifications.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/52210/intel-core-i5-2500k-processor-6m-cache-up-to-3-70-ghz/specifications.html"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "4700g",
+      "catalogName": "Ryzen 7 4700G",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.amd.com/en/products/apu/amd-ryzen-7-4700g",
+          "status": 403,
+          "finalUrl": "https://www.amd.com/en/products/apu/amd-ryzen-7-4700g"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "4600g",
+      "catalogName": "Ryzen 5 4600G",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.amd.com/en/products/apu/amd-ryzen-5-4600g",
+          "status": 403,
+          "finalUrl": "https://www.amd.com/en/products/apu/amd-ryzen-5-4600g"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "4500",
+      "catalogName": "Ryzen 5 4500",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/4000-series/amd-ryzen-5-4500.html",
+          "status": 403,
+          "finalUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/4000-series/amd-ryzen-5-4500.html"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "4100",
+      "catalogName": "Ryzen 3 4100",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/4000-series/amd-ryzen-3-4100.html",
+          "status": 403,
+          "finalUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/4000-series/amd-ryzen-3-4100.html"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "5995wx",
+      "catalogName": "Ryzen Threadripper PRO 5995WX",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.amd.com/en/products/cpu/amd-ryzen-threadripper-pro-5995wx",
+          "status": 403,
+          "finalUrl": "https://www.amd.com/en/products/cpu/amd-ryzen-threadripper-pro-5995wx"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "3970x",
+      "catalogName": "Ryzen Threadripper 3970X",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.amd.com/en/products/cpu/amd-ryzen-threadripper-3970x",
+          "status": 403,
+          "finalUrl": "https://www.amd.com/en/products/cpu/amd-ryzen-threadripper-3970x"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "1700x",
+      "catalogName": "Ryzen 7 1700X",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.amd.com/en/products/cpu/amd-ryzen-7-1700x",
+          "status": 403,
+          "finalUrl": "https://www.amd.com/en/products/cpu/amd-ryzen-7-1700x"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "1600x",
+      "catalogName": "Ryzen 5 1600X",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.amd.com/en/products/cpu/amd-ryzen-5-1600x",
+          "status": 403,
+          "finalUrl": "https://www.amd.com/en/products/cpu/amd-ryzen-5-1600x"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "fx9590",
+      "catalogName": "FX-9590",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.amd.com/en/products/cpu/fx-9590",
+          "status": 403,
+          "finalUrl": "https://www.amd.com/en/products/cpu/fx-9590"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "fx6300",
+      "catalogName": "FX-6300",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.amd.com/en/products/cpu/fx-6300",
+          "status": 403,
+          "finalUrl": "https://www.amd.com/en/products/cpu/fx-6300"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "i914900",
+      "catalogName": "Core i9-14900",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/236787/intel-core-i9-processor-14900-36m-cache-up-to-5-80-ghz/specifications.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/236787/intel-core-i9-processor-14900-36m-cache-up-to-5-80-ghz/specifications.html"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "i714700",
+      "catalogName": "Core i7-14700",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/236781/intel-core-i7-processor-14700-33m-cache-up-to-5-40-ghz/specifications.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/236781/intel-core-i7-processor-14700-33m-cache-up-to-5-40-ghz/specifications.html"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "i514600",
+      "catalogName": "Core i5-14600",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/236845/intel-core-i5-processor-14600-24m-cache-up-to-5-20-ghz/specifications.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/236845/intel-core-i5-processor-14600-24m-cache-up-to-5-20-ghz/specifications.html"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "i514400f",
+      "catalogName": "Core i5-14400F",
+      "status": "researched-unresolved",
+      "reason": "Public Commons model category returned404. This does not establish image absence; additional public manufacturer/distributor source was not successfully recovered in this bounded pass.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/236788/intel-core-i5-processor-14400f-20m-cache-up-to-4-70-ghz/specifications.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/236788/intel-core-i5-processor-14400f-20m-cache-up-to-4-70-ghz/specifications.html"
+        }
+      ],
+      "newAttempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i5-14400F",
+          "status": 404,
+          "candidateFileCount": 0
+        }
+      ],
+      "photo": null
+    },
+    {
+      "id": "i313100f",
+      "catalogName": "Core i3-13100F",
+      "status": "researched-unresolved",
+      "reason": "Public Commons model category returned404. This does not establish image absence; additional public manufacturer/distributor source was not successfully recovered in this bounded pass.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/230576/intel-core-i3-13100f-processor-12m-cache-up-to-4-50-ghz/specifications.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/230576/intel-core-i3-13100f-processor-12m-cache-up-to-4-50-ghz/specifications.html"
+        }
+      ],
+      "newAttempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i3-13100F",
+          "status": 404,
+          "candidateFileCount": 0
+        }
+      ],
+      "photo": null
+    },
+    {
+      "id": "i912900",
+      "catalogName": "Core i9-12900",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/134597/intel-core-i9-12900-processor-30m-cache-up-to-5-10-ghz/specifications.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/134597/intel-core-i9-12900-processor-30m-cache-up-to-5-10-ghz/specifications.html"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "i712700",
+      "catalogName": "Core i7-12700",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/134591/intel-core-i7-12700-processor-25m-cache-up-to-4-90-ghz/specifications.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/134591/intel-core-i7-12700-processor-25m-cache-up-to-4-90-ghz/specifications.html"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "i512400f",
+      "catalogName": "Core i5-12400F",
+      "status": "researched-unresolved",
+      "reason": "Available Commons candidate is an exposed silicon die micrograph rather than a labeled complete catalog CPU; rejected for this photo slot.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/134587/intel-core-i5-12400f-processor-18m-cache-up-to-4-40-ghz/specifications.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/134587/intel-core-i5-12400f-processor-18m-cache-up-to-4-40-ghz/specifications.html"
+        }
+      ],
+      "newAttempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i5-12400F",
+          "status": 200,
+          "candidateFileCount": 19
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:DSC04229-DSC04309_-_ZS-DMap-1.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/DSC04229-DSC04309_-_ZS-DMap-1.jpg/960px-DSC04229-DSC04309_-_ZS-DMap-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC0",
+          "accepted": false,
+          "reason": "Alternate candidate not selected after visual review."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:DSC04509-DSC04509.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/DSC04509-DSC04509.jpg/960px-DSC04509-DSC04509.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC0",
+          "accepted": false,
+          "reason": "Alternate candidate not selected after visual review."
+        }
+      ],
+      "photo": null
+    },
+    {
+      "id": "i312100f",
+      "catalogName": "Core i3-12100F",
+      "status": "verified-repair",
+      "reason": "Accepted full CPU photograph with matching visible model marking.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/132223/intel-core-i3-12100f-processor-12m-cache-up-to-4-30-ghz/specifications.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/132223/intel-core-i3-12100f-processor-12m-cache-up-to-4-30-ghz/specifications.html"
+        }
+      ],
+      "newAttempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i3-12100F",
+          "status": 200,
+          "candidateFileCount": 4
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:14-ый_провал_Intel_Зачем_появились_14900K,_14700K_и_14600K-00.02.02.955_(Мой_Компьютер).png",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/14-%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B2%D0%B0%D0%BB_Intel_%D0%97%D0%B0%D1%87%D0%B5%D0%BC_%D0%BF%D0%BE%D1%8F%D0%B2%D0%B8%D0%BB%D0%B8%D1%81%D1%8C_14900K%2C_14700K_%D0%B8_14600K-00.02.02.955_%28%D0%9C%D0%BE%D0%B9_%D0%9A%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%29.png/960px-14-%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B2%D0%B0%D0%BB_Intel_%D0%97%D0%B0%D1%87%D0%B5%D0%BC_%D0%BF%D0%BE%D1%8F%D0%B2%D0%B8%D0%BB%D0%B8%D1%81%D1%8C_14900K%2C_14700K_%D0%B8_14600K-00.02.02.955_%28%D0%9C%D0%BE%D0%B9_%D0%9A%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY 3.0",
+          "accepted": false,
+          "reason": "Alternate candidate not selected after visual review."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Intel_Core_i7-1280P_as_mutant_in_a_desktop_computer_(Мой_Компьютер)_18.png",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Intel_Core_i7-1280P_as_mutant_in_a_desktop_computer_%28%D0%9C%D0%BE%D0%B9_%D0%9A%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%29_18.png/960px-Intel_Core_i7-1280P_as_mutant_in_a_desktop_computer_%28%D0%9C%D0%BE%D0%B9_%D0%9A%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%29_18.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY 3.0",
+          "accepted": true,
+          "reason": "Visible exact model label confirmed."
+        }
+      ],
+      "photo": {
+        "src": "/assets/hardware/catalog-cpu-extra-oct17/i312100f-2bd00bc83c.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Intel_Core_i7-1280P_as_mutant_in_a_desktop_computer_(Мой_Компьютер)_18.png"
+      }
+    },
+    {
+      "id": "i910980xe",
+      "catalogName": "Core i9-10980XE",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/198017/intel-core-i9-10980xe-extreme-edition-processor-24-75m-cache-3-00-ghz/specifications.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/198017/intel-core-i9-10980xe-extreme-edition-processor-24-75m-cache-3-00-ghz/specifications.html"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "i78086k",
+      "catalogName": "Core i7-8086K",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/148263/intel-core-i7-8086k-processor-12m-cache-up-to-5-00-ghz/specifications.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/148263/intel-core-i7-8086k-processor-12m-cache-up-to-5-00-ghz/specifications.html"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "i58400",
+      "catalogName": "Core i5-8400",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/126687/intel-core-i5-8400-processor-9m-cache-up-to-4-00-ghz/specifications.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/126687/intel-core-i5-8400-processor-9m-cache-up-to-4-00-ghz/specifications.html"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "i76950x",
+      "catalogName": "Core i7-6950X",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/94456/intel-core-i7-6950x-processor-extreme-edition-25m-cache-up-to-3-50-ghz/specifications.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/94456/intel-core-i7-6950x-processor-extreme-edition-25m-cache-up-to-3-50-ghz/specifications.html"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "i75960x",
+      "catalogName": "Core i7-5960X",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/82930/intel-core-i7-5960x-processor-extreme-edition-20m-cache-up-to-3-50-ghz/specifications.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/82930/intel-core-i7-5960x-processor-extreme-edition-20m-cache-up-to-3-50-ghz/specifications.html"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "intel8008",
+      "catalogName": "Intel 8008",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/history/virtual-vault/articles/the-8008.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/history/virtual-vault/articles/the-8008.html"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "intel8080",
+      "catalogName": "Intel 8080",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/newsroom/news/50-years-ago-the-influential-intel-8080.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/newsroom/news/50-years-ago-the-influential-intel-8080.html"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "intel8085",
+      "catalogName": "Intel 8085",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/pressroom/kits/quickreffam.htm",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/pressroom/kits/quickreffam.htm"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "intel8086",
+      "catalogName": "Intel 8086",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/history/virtual-vault/articles/the-8086-and-the-ibm-pc.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/history/virtual-vault/articles/the-8086-and-the-ibm-pc.html"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "intel8088",
+      "catalogName": "Intel 8088",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/history/virtual-vault/articles/the-8086-and-the-ibm-pc.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/history/virtual-vault/articles/the-8086-and-the-ibm-pc.html"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "intel386sx",
+      "catalogName": "Intel 386SX",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/pressroom/kits/quickreffam.htm",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/pressroom/kits/quickreffam.htm"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "intel486dx",
+      "catalogName": "Intel 486DX",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/pressroom/kits/quickreffam.htm",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/pressroom/kits/quickreffam.htm"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "intel486sx",
+      "catalogName": "Intel 486SX",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/pressroom/kits/quickreffam.htm",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/pressroom/kits/quickreffam.htm"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "intel486dx2",
+      "catalogName": "Intel 486DX2-66",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/pressroom/kits/quickreffam.htm",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/pressroom/kits/quickreffam.htm"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "pentium100",
+      "catalogName": "Intel Pentium 100",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/pressroom/kits/quickreffam.htm",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/pressroom/kits/quickreffam.htm"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "pentiumpro200",
+      "catalogName": "Intel Pentium Pro 200",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/pressroom/kits/quickreffam.htm",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/pressroom/kits/quickreffam.htm"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "pentiummmx233",
+      "catalogName": "Intel Pentium MMX 233",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/pressroom/kits/quickreffam.htm",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/pressroom/kits/quickreffam.htm"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "pentiumii300",
+      "catalogName": "Intel Pentium II 300",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/dam/www/public/us/en/documents/corporate-information/museum-transistors-to-transformations-brochure.pdf",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/dam/www/public/us/en/documents/corporate-information/museum-transistors-to-transformations-brochure.pdf"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "celeron266",
+      "catalogName": "Intel Celeron 266",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/dam/www/public/us/en/documents/corporate-information/museum-transistors-to-transformations-brochure.pdf",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/dam/www/public/us/en/documents/corporate-information/museum-transistors-to-transformations-brochure.pdf"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "pentiumiii600",
+      "catalogName": "Intel Pentium III 600",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/dam/www/public/us/en/documents/corporate-information/museum-transistors-to-transformations-brochure.pdf",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/dam/www/public/us/en/documents/corporate-information/museum-transistors-to-transformations-brochure.pdf"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "pentium4-1500",
+      "catalogName": "Intel Pentium 4 1.50 GHz",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/dam/www/public/us/en/documents/corporate-information/museum-transistors-to-transformations-brochure.pdf",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/dam/www/public/us/en/documents/corporate-information/museum-transistors-to-transformations-brochure.pdf"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "am486dx4",
+      "catalogName": "AMD Am486 DX4-100",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.cpu-world.com/CPUs/80486/AMD-A80486DX4-100NV8T.html",
+          "status": 403,
+          "finalUrl": "https://www.cpu-world.com/CPUs/80486/AMD-A80486DX4-100NV8T.html"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "amdk5pr100",
+      "catalogName": "AMD K5 PR100",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.cpu-world.com/CPUs/K5/AMD-K5-PR100ABR.html",
+          "status": 403,
+          "finalUrl": "https://www.cpu-world.com/CPUs/K5/AMD-K5-PR100ABR.html"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "amdk6-233",
+      "catalogName": "AMD K6-233",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.cpu-world.com/CPUs/K6/AMD-K6-233ALR.html",
+          "status": 403,
+          "finalUrl": "https://www.cpu-world.com/CPUs/K6/AMD-K6-233ALR.html"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "amdk62-300",
+      "catalogName": "AMD K6-2 300",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.cpu-world.com/CPUs/K6-2/AMD-K6-2%20300%20-%20AMD-K6-2-300AFR.html",
+          "status": 403,
+          "finalUrl": "https://www.cpu-world.com/CPUs/K6-2/AMD-K6-2%20300%20-%20AMD-K6-2-300AFR.html"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "athlon500",
+      "catalogName": "AMD Athlon 500",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://ir.amd.com/sec-filings/filter/annual-filings/content/0001012870-00-001494/0001012870-00-001494.pdf",
+          "status": 200,
+          "finalUrl": "https://ir.amd.com/financial-information/sec-filings/filter/annual-filings/content/0001012870-00-001494/0001012870-00-001494.pdf"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "athlonxp1800",
+      "catalogName": "AMD Athlon XP 1800+",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.cpu-world.com/CPUs/K7/AMD-Athlon%20XP%201800%2B%20-%20AX1800DMT3C.html",
+          "status": 403,
+          "finalUrl": "https://www.cpu-world.com/CPUs/K7/AMD-Athlon%20XP%201800%2B%20-%20AX1800DMT3C.html"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "athlon64x23800",
+      "catalogName": "AMD Athlon 64 X2 3800+",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.cpu-world.com/CPUs/K8/AMD-Athlon%2064%20X2%203800%2B%20-%20ADA3800DAA5BV.html",
+          "status": 403,
+          "finalUrl": "https://www.cpu-world.com/CPUs/K8/AMD-Athlon%2064%20X2%203800%2B%20-%20ADA3800DAA5BV.html"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "phenom9500",
+      "catalogName": "AMD Phenom 9500",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.cpu-world.com/CPUs/K10/AMD-Phenom%20X4%209500%20-%20HD9500WCJ4BGD.html",
+          "status": 403,
+          "finalUrl": "https://www.cpu-world.com/CPUs/K10/AMD-Phenom%20X4%209500%20-%20HD9500WCJ4BGD.html"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "phenomii965",
+      "catalogName": "AMD Phenom II X4 965 Black Edition",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.cpu-world.com/CPUs/K10/AMD-Phenom%20II%20X4%20965%20Black%20Edition%20-%20HDZ965FBK4DGM.html",
+          "status": 403,
+          "finalUrl": "https://www.cpu-world.com/CPUs/K10/AMD-Phenom%20II%20X4%20965%20Black%20Edition%20-%20HDZ965FBK4DGM.html"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "fx8150",
+      "catalogName": "AMD FX-8150",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.cpu-world.com/CPUs/Bulldozer/AMD-FX-Series%20FX-8150.html",
+          "status": 403,
+          "finalUrl": "https://www.cpu-world.com/CPUs/Bulldozer/AMD-FX-Series%20FX-8150.html"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "c-cpu-intel-xeon-gold-6430",
+      "catalogName": "Intel Xeon Gold 6430",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/231737/intel-xeon-gold-6430-processor-60m-cache-2-10-ghz/specifications.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/231737/intel-xeon-gold-6430-processor-60m-cache-2-10-ghz/specifications.html"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "c-cpu-intel-xeon-gold-6454s",
+      "catalogName": "Intel Xeon Gold 6454S",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/231733/intel-xeon-gold-6454s-processor-60m-cache-2-20-ghz/specifications.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/231733/intel-xeon-gold-6454s-processor-60m-cache-2-20-ghz/specifications.html"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "c-cpu-intel-xeon-gold-6448y",
+      "catalogName": "Intel Xeon Gold 6448Y",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/ark/products/series/228622/4th-gen-intel-xeon-scalable-processors.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/ark/products/series/228622/4th-gen-intel-xeon-scalable-processors.html"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "c-cpu-intel-xeon-platinum-8468",
+      "catalogName": "Intel Xeon Platinum 8468",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/231735/intel-xeon-platinum-8468-processor-105m-cache-2-10-ghz/specifications.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/231735/intel-xeon-platinum-8468-processor-105m-cache-2-10-ghz/specifications.html"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "c-cpu-intel-xeon-platinum-8470",
+      "catalogName": "Intel Xeon Platinum 8470",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/ark/products/series/228622/4th-gen-intel-xeon-scalable-processors.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/ark/products/series/228622/4th-gen-intel-xeon-scalable-processors.html"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "c-cpu-intel-xeon-platinum-8480",
+      "catalogName": "Intel Xeon Platinum 8480+",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/231746/intel-xeon-platinum-8480-processor-105m-cache-2-00-ghz/specifications.html",
+          "status": 403,
+          "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/231746/intel-xeon-platinum-8480-processor-105m-cache-2-00-ghz/specifications.html"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "c-cpu-amd-epyc-9754",
+      "catalogName": "AMD EPYC 9754",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.amd.com/en/products/processors/server/epyc/4th-generation-9004-and-8004-series/amd-epyc-9754.html",
+          "status": 403,
+          "finalUrl": "https://www.amd.com/en/products/processors/server/epyc/4th-generation-9004-and-8004-series/amd-epyc-9754.html"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "c-cpu-amd-epyc-9734",
+      "catalogName": "AMD EPYC 9734",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.amd.com/en/products/processors/server/epyc/4th-generation-9004-and-8004-series.html",
+          "status": 403,
+          "finalUrl": "https://www.amd.com/en/products/processors/server/epyc/4th-generation-9004-and-8004-series.html"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "c-cpu-amd-epyc-9634",
+      "catalogName": "AMD EPYC 9634",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.amd.com/en/products/processors/server/epyc/4th-generation-9004-and-8004-series.html",
+          "status": 403,
+          "finalUrl": "https://www.amd.com/en/products/processors/server/epyc/4th-generation-9004-and-8004-series.html"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "c-cpu-amd-epyc-9554",
+      "catalogName": "AMD EPYC 9554",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.amd.com/content/dam/amd/en/documents/products/epyc/epyc-9004-series-processors-data-sheet.pdf",
+          "status": 403,
+          "finalUrl": "https://www.amd.com/content/dam/amd/en/documents/products/epyc/epyc-9004-series-processors-data-sheet.pdf"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    },
+    {
+      "id": "c-cpu-amd-epyc-9454",
+      "catalogName": "AMD EPYC 9454",
+      "status": "not-selected-in-second-pass",
+      "reason": "Excluded from this bounded second-source selection; original manufacturer research remains owned by the parent. No new exact photograph verified here.",
+      "manufacturerAttemptsFromParent": [
+        {
+          "url": "https://www.amd.com/content/dam/amd/en/documents/products/epyc/epyc-9004-series-processors-data-sheet.pdf",
+          "status": 403,
+          "finalUrl": "https://www.amd.com/content/dam/amd/en/documents/products/epyc/epyc-9004-series-processors-data-sheet.pdf"
+        }
+      ],
+      "newAttempts": [],
+      "photo": null
+    }
+  ]
+}

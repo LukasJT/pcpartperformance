@@ -1,0 +1,30 @@
+'use strict';
+const t=require('./storage-psu-research.cjs'),fs=require('node:fs'),path=require('node:path');
+const rows=[];
+function a(id,url){rows.push({id,url});}
+a('samsung9100pro','https://www.samsung.com/us/memory-storage/nvme-ssd/9100-pro-nvme-ssd-sku-mz-vap2t0b-am/');
+a('c-ssd-samsung-9100-pro-4tb','https://www.samsung.com/us/memory-storage/nvme-ssd/9100-pro-nvme-ssd-sku-mz-vap4t0b-am/');
+a('samsung970evo','https://www.samsung.com/au/memory-storage/nvme-ssd/970-evo-plus-nvme-m-2-ssd-1tb-mz-v7s1t0bw/');
+a('c-ssd-samsung-970-evo-plus-2tb','https://www.samsung.com/au/memory-storage/nvme-ssd/970-evo-plus-nvme-m-2-ssd-2tb-mz-v7s2t0bw/');
+a('samsung870evo','https://www.samsung.com/us/memory-storage/sata-ssd/870-evo-sata-2-5-ssd-1tb-sku-mz-77e1t0b-am/');
+a('c-ssd-samsung-870-evo-4tb','https://www.samsung.com/us/memory-storage/sata-ssd/870-evo-sata-2-5-ssd-4tb-sku-mz-77e4t0b-am/');
+a('990evoplus','https://www.samsung.com/us/memory-storage/nvme-ssd/990-evo-plus-gen4-nvme-ssd-2tb-sku-mz-v9s2t0b-am/');
+a('retail-samsung-990-evo-plus-1-tb','https://www.samsung.com/us/memory-storage/nvme-ssd/990-evo-plus-gen4-nvme-ssd-1tb-sku-mz-v9s1t0b-am/');
+a('c-ssd-samsung-990-evo-2tb','https://www.samsung.com/us/memory-storage/nvme-ssd/990-evo-ssd-2tb-sku-mz-v9e2t0b-am/');
+a('c-ssd-samsung-980-pro-2tb','https://www.samsung.com/au/memory-storage/nvme-ssd/980-pro-pcle-4-0-nvme-m-2-ssd-2tb-mz-v8p2t0bw/');
+a('samsung980','https://www.samsung.com/au/memory-storage/nvme-ssd/980-pcle-3-0-nvme-m-2-ssd-1tb-mz-v8v1t0bw/');
+a('c-ssd-samsung-970-pro-1tb','https://www.samsung.com/au/memory-storage/nvme-ssd/970-pro-nvme-m-2-ssd-1tb-mz-v7p1t0bw/');
+a('c-ssd-samsung-960-evo-1tb','https://www.samsung.com/au/memory-storage/nvme-ssd/960-evo-nvme-m-2-ssd-1tb-mz-v6e1t0bw/');
+a('870qvo2','https://www.samsung.com/us/memory-storage/sata-ssd/870-qvo-sata-2-5-ssd-2tb-sku-mz-77q2t0b-am/');
+a('c-ssd-samsung-870-qvo-8tb','https://www.samsung.com/us/memory-storage/sata-ssd/870-qvo-sata-2-5-ssd-8tb-sku-mz-77q8t0b-am/');
+a('samsung860evo','https://www.samsung.com/au/memory-storage/sata-ssd/860-evo-sata-3-2-5-inch-ssd-1tb-mz-76e1t0bw/');
+a('c-ssd-samsung-860-evo-4tb','https://www.samsung.com/au/memory-storage/sata-ssd/860-evo-sata-3-2-5-inch-ssd-4tb-mz-76e4t0bw/');
+a('c-ssd-samsung-850-evo-1tb','https://www.samsung.com/au/memory-storage/sata-ssd/850-evo-sata-3-2-5-inch-ssd-1tb-mz-75e1t0bw/');
+for(const[id,sku]of Object.entries({kingston6000:'KF560C36BBEK2-32',kingston5200:'KF552C40BBK2-32',kingston3200:'KF432C16BBK2-32',furyrenegade7200:'KF572C38RSK2-32','c-ram-kingston-fury-renegade-rgb-96gb-ddr5-6400-cl32':'KF564C32RSAK2-96','c-ram-kingston-fury-renegade-48gb-ddr5-7200-cl38':'KF572C38RSK2-48','c-ram-kingston-fury-beast-rgb-64gb-ddr5-6000-cl36':'KF560C36BBEAK2-64','c-ram-kingston-fury-beast-32gb-ddr5-5600-cl36':'KF556C36BBEK2-32','c-ram-kingston-fury-renegade-rgb-32gb-ddr4-3600-cl16':'KF436C16RB12AK2-32','c-ram-kingston-fury-beast-16gb-ddr4-3200-cl16':'KF432C16BBK2-16'}))a(id,`https://www.kingston.com/dataSheets/${sku}.pdf`);
+a('evgag6850','https://www.evga.com/power-meter/?pmid=2058798');
+a('straightpower850','https://www.bequiet.com/en/powersupply/4103');
+for(const [id,sku]of Object.entries({kingston3200:'KF432C16BBK2_32','c-ram-kingston-fury-beast-16gb-ddr4-3200-cl16':'KF432C16BBK2_16','c-ram-kingston-fury-renegade-rgb-32gb-ddr4-3600-cl16':'KF436C16RB12AK2_32'}))a(id,`https://www.kingston.com/dataSheets/${sku}.pdf`);
+a('samsung980','https://www.samsung.com/uk/memory-storage/nvme-ssd/980-1tb-nvme-pcie-gen-3-mz-v8v1t0bw/');
+a('c-ssd-samsung-980-pro-2tb','https://www.samsung.com/it/memory-storage/nvme-ssd/980-pro-2tb-nvme-pcie-gen-4-mz-v8p2t0bw/');
+async function main(){const result=[];await t.pool(rows,async x=>{const pdf=x.url.endsWith('.pdf'),r=await t.request(x.url,pdf);const e=pdf?{}:t.extract(r.body,x.url);result.push({...x,status:r.status,finalUrl:r.finalUrl,cache:r.cache,type:r.type,title:e.title,images:e.images,metas:e.metas});console.log(r.status,x.id,e.title||r.type);});fs.writeFileSync(path.join(__dirname,'storage-psu-additional.json'),JSON.stringify(result,null,2));}
+main().catch(e=>{console.error(e);process.exitCode=1;});

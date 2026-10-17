@@ -1,0 +1,465 @@
+{
+  "checkedAt": "2026-10-17T19:42:33.026Z",
+  "scope": "Visual inspection of all27 retained CPU,36 motherboard,2 memory,6 SSD,2 HDD and2 PSU images. Visible labels, boxes, PCB designs and source-preserved exterior views inspected. Original source/rights records retained; this is not a fresh manufacturer-source verification for each older asset.",
+  "sheets": [
+    "retained-cpu-0.jpg",
+    "retained-cpu-1.jpg",
+    "retained-board-0.jpg",
+    "retained-board-1.jpg",
+    "retained-board-2.jpg",
+    "retained-storage-memory-psu.jpg"
+  ],
+  "examples": "Zoomed EPYC9654 original confirms9654 on the IHS. ASUS B550-F Gaming and Wi-Fi photos are separately published on their exact manufacturer variant pages, whose stock exterior photographs look alike.",
+  "rows": [
+    {
+      "id": "7800x3d",
+      "category": "cpu",
+      "picturedModel": "AMD Ryzen 7 7800X3D",
+      "src": "/assets/hardware/exact-7800x3d.webp"
+    },
+    {
+      "id": "9800x3d",
+      "category": "cpu",
+      "picturedModel": "AMD Ryzen 7 9800X3D",
+      "src": "/assets/hardware/exact-9800x3d.webp"
+    },
+    {
+      "id": "b650",
+      "category": "board",
+      "picturedModel": "MSI MAG B650 TOMAHAWK WIFI",
+      "src": "/assets/hardware/exact-b650.webp"
+    },
+    {
+      "id": "9950x",
+      "category": "cpu",
+      "picturedModel": "AMD Ryzen 9 9950X",
+      "src": "/assets/hardware/exact-9950x.webp"
+    },
+    {
+      "id": "9700x",
+      "category": "cpu",
+      "picturedModel": "AMD Ryzen 7 9700X",
+      "src": "/assets/hardware/exact-9700x.webp"
+    },
+    {
+      "id": "9600x",
+      "category": "cpu",
+      "picturedModel": "AMD Ryzen 5 9600X",
+      "src": "/assets/hardware/exact-9600x.webp"
+    },
+    {
+      "id": "7900x",
+      "category": "cpu",
+      "picturedModel": "AMD Ryzen 9 7900X",
+      "src": "/assets/hardware/cpu-ryzen-am5.jpg"
+    },
+    {
+      "id": "5800x3d",
+      "category": "cpu",
+      "picturedModel": "AMD Ryzen 7 5800X3D packaging",
+      "src": "/assets/hardware/amd-ryzen-7-5800x3d.jpg"
+    },
+    {
+      "id": "3700x",
+      "category": "cpu",
+      "picturedModel": "AMD Ryzen 7 3700X",
+      "src": "/assets/hardware/cpu-ryzen-am4.jpg"
+    },
+    {
+      "id": "ultra9285k",
+      "category": "cpu",
+      "picturedModel": "Intel Core Ultra 9 285K",
+      "src": "/assets/hardware/cpu-core-ultra.jpg"
+    },
+    {
+      "id": "i713700k",
+      "category": "cpu",
+      "picturedModel": "Intel Core i7-13700K",
+      "src": "/assets/hardware/cpu-core-lga1700.jpg"
+    },
+    {
+      "id": "i78700k",
+      "category": "cpu",
+      "picturedModel": "Intel Core i7-8700K",
+      "src": "/assets/hardware/cpu-core-coffee.jpg"
+    },
+    {
+      "id": "i72600k",
+      "category": "cpu",
+      "picturedModel": "Intel Core i7-2600K",
+      "src": "/assets/hardware/cpu-core-sandy.jpg"
+    },
+    {
+      "id": "x870etomahawk",
+      "category": "board",
+      "picturedModel": "MSI MAG X870E TOMAHAWK WIFI",
+      "src": "/assets/hardware/exact-x870etomahawk.webp"
+    },
+    {
+      "id": "x670etomahawk",
+      "category": "board",
+      "picturedModel": "MSI MAG X670E TOMAHAWK WIFI",
+      "src": "/assets/hardware/exact-x670etomahawk.webp"
+    },
+    {
+      "id": "b550tomahawk",
+      "category": "board",
+      "picturedModel": "MSI MAG B550 TOMAHAWK",
+      "src": "/assets/hardware/exact-b550tomahawk.webp"
+    },
+    {
+      "id": "z790tomahawk",
+      "category": "board",
+      "picturedModel": "MSI MAG Z790 TOMAHAWK WIFI",
+      "src": "/assets/hardware/exact-z790tomahawk.webp"
+    },
+    {
+      "id": "z690tomahawk",
+      "category": "board",
+      "picturedModel": "MSI MAG Z690 TOMAHAWK WIFI DDR4",
+      "src": "/assets/hardware/exact-z690tomahawk.webp"
+    },
+    {
+      "id": "9900x3d",
+      "category": "cpu",
+      "picturedModel": "AMD Ryzen 9 9900X3D",
+      "src": "/assets/hardware/official-core-official-core-9900x3d.jpg"
+    },
+    {
+      "id": "x870ehero",
+      "category": "board",
+      "picturedModel": "ASUS ROG CROSSHAIR X870E HERO",
+      "src": "/assets/hardware/exact-x870ehero.webp"
+    },
+    {
+      "id": "z890hero",
+      "category": "board",
+      "picturedModel": "ASUS ROG MAXIMUS Z890 HERO",
+      "src": "/assets/hardware/exact-z890hero.webp"
+    },
+    {
+      "id": "z790hero",
+      "category": "board",
+      "picturedModel": "ASUS ROG MAXIMUS Z790 HERO",
+      "src": "/assets/hardware/exact-z790hero.webp"
+    },
+    {
+      "id": "x570tomahawk",
+      "category": "board",
+      "picturedModel": "MSI MAG X570 TOMAHAWK WIFI",
+      "src": "/assets/hardware/exact-x570tomahawk.webp"
+    },
+    {
+      "id": "z490tomahawk",
+      "category": "board",
+      "picturedModel": "MSI MAG Z490 TOMAHAWK",
+      "src": "/assets/hardware/exact-z490tomahawk.webp"
+    },
+    {
+      "id": "z370carbon",
+      "category": "board",
+      "picturedModel": "MSI Z370 GAMING PRO CARBON",
+      "src": "/assets/hardware/exact-z370carbon.webp"
+    },
+    {
+      "id": "8700g",
+      "category": "cpu",
+      "picturedModel": "AMD Ryzen 7 8700G",
+      "src": "/assets/hardware/official-core-official-core-8700g.jpg"
+    },
+    {
+      "id": "8600g",
+      "category": "cpu",
+      "picturedModel": "AMD Ryzen 5 8600G",
+      "src": "/assets/hardware/official-core-official-core-8600g.jpg"
+    },
+    {
+      "id": "8500g",
+      "category": "cpu",
+      "picturedModel": "AMD Ryzen 5 8500G",
+      "src": "/assets/hardware/official-core-official-core-8500g.jpg"
+    },
+    {
+      "id": "7995wx",
+      "category": "cpu",
+      "picturedModel": "AMD Ryzen Threadripper PRO 7995WX",
+      "src": "/assets/hardware/cpu-threadripper-pro.jpg"
+    },
+    {
+      "id": "3990x",
+      "category": "cpu",
+      "picturedModel": "AMD Ryzen Threadripper 3990X",
+      "src": "/assets/hardware/cpu-threadripper.jpg"
+    },
+    {
+      "id": "b850tomahawk",
+      "category": "board",
+      "picturedModel": "MSI MAG B850 TOMAHAWK MAX WIFI",
+      "src": "/assets/hardware/exact-b850tomahawk.webp"
+    },
+    {
+      "id": "x870tomahawk",
+      "category": "board",
+      "picturedModel": "MSI MAG X870 TOMAHAWK WIFI",
+      "src": "/assets/hardware/exact-x870tomahawk.webp"
+    },
+    {
+      "id": "b650mmortar",
+      "category": "board",
+      "picturedModel": "MSI MAG B650M MORTAR WIFI",
+      "src": "/assets/hardware/exact-b650mmortar.webp"
+    },
+    {
+      "id": "b550mmortar",
+      "category": "board",
+      "picturedModel": "MSI MAG B550M MORTAR WIFI",
+      "src": "/assets/hardware/exact-b550mmortar.webp"
+    },
+    {
+      "id": "z890carbon",
+      "category": "board",
+      "picturedModel": "MSI MPG Z890 CARBON WIFI",
+      "src": "/assets/hardware/exact-z890carbon.webp"
+    },
+    {
+      "id": "z790carbon",
+      "category": "board",
+      "picturedModel": "MSI MPG Z790 CARBON WIFI",
+      "src": "/assets/hardware/exact-z790carbon.webp"
+    },
+    {
+      "id": "intel80186",
+      "category": "cpu",
+      "picturedModel": "Intel 80186",
+      "src": "/assets/hardware/cpu-80186.jpg"
+    },
+    {
+      "id": "intel286",
+      "category": "cpu",
+      "picturedModel": "Intel 80286",
+      "src": "/assets/hardware/cpu-286.jpg"
+    },
+    {
+      "id": "intel386dx",
+      "category": "cpu",
+      "picturedModel": "Intel 386DX",
+      "src": "/assets/hardware/cpu-386.jpg"
+    },
+    {
+      "id": "pentium60",
+      "category": "cpu",
+      "picturedModel": "Intel Pentium 60",
+      "src": "/assets/hardware/cpu-pentium.jpg"
+    },
+    {
+      "id": "am386dx40",
+      "category": "cpu",
+      "picturedModel": "AMD Am386DX-40",
+      "src": "/assets/hardware/cpu-am386.jpg"
+    },
+    {
+      "id": "duron600",
+      "category": "cpu",
+      "picturedModel": "AMD Duron 600",
+      "src": "/assets/hardware/cpu-duron.jpg"
+    },
+    {
+      "id": "athlon643200",
+      "category": "cpu",
+      "picturedModel": "AMD Athlon 64 3200+",
+      "src": "/assets/hardware/cpu-athlon64.jpg"
+    },
+    {
+      "id": "c-board-msi-mpg-x870e-carbon-wifi",
+      "category": "board",
+      "picturedModel": "MSI MPG X870E CARBON WIFI",
+      "src": "/assets/hardware/exact-retail-msi-mpg-x870e-carbon-wifi.webp"
+    },
+    {
+      "id": "c-board-msi-mag-x870-tomahawk-wifi",
+      "category": "board",
+      "picturedModel": "MSI MAG X870 TOMAHAWK WIFI",
+      "src": "/assets/hardware/exact-x870tomahawk.webp"
+    },
+    {
+      "id": "c-board-msi-mag-b850-tomahawk-max-wifi",
+      "category": "board",
+      "picturedModel": "MSI MAG B850 TOMAHAWK MAX WIFI",
+      "src": "/assets/hardware/exact-b850tomahawk.webp"
+    },
+    {
+      "id": "c-board-msi-mag-b650-tomahawk-wifi",
+      "category": "board",
+      "picturedModel": "MSI MAG B650 TOMAHAWK WIFI",
+      "src": "/assets/hardware/exact-b650.webp"
+    },
+    {
+      "id": "c-board-msi-mpg-z890-carbon-wifi",
+      "category": "board",
+      "picturedModel": "MSI MPG Z890 CARBON WIFI",
+      "src": "/assets/hardware/exact-z890carbon.webp"
+    },
+    {
+      "id": "c-board-msi-mpg-z790-carbon-wifi",
+      "category": "board",
+      "picturedModel": "MSI MPG Z790 CARBON WIFI",
+      "src": "/assets/hardware/exact-z790carbon.webp"
+    },
+    {
+      "id": "c-board-msi-mag-z790-tomahawk-wifi",
+      "category": "board",
+      "picturedModel": "MSI MAG Z790 TOMAHAWK WIFI",
+      "src": "/assets/hardware/exact-z790tomahawk.webp"
+    },
+    {
+      "id": "c-cpu-intel-xeon-platinum-8490h",
+      "category": "cpu",
+      "picturedModel": "Intel Xeon Platinum 8490H",
+      "src": "/assets/hardware/cpu-xeon.jpg"
+    },
+    {
+      "id": "c-cpu-amd-epyc-9654",
+      "category": "cpu",
+      "picturedModel": "AMD EPYC 9654",
+      "src": "/assets/hardware/cpu-epyc.jpg"
+    },
+    {
+      "id": "c-board-asus-pro-ws-wrx90e-sage-se",
+      "category": "board",
+      "picturedModel": "ASUS Pro WS WRX90E-SAGE SE",
+      "src": "/assets/hardware/official-component-official-asus-wrx90e-sage.jpg"
+    },
+    {
+      "id": "retail-msi-mag-b850-tomahawk-max-wifi",
+      "category": "board",
+      "picturedModel": "MSI MAG B850 TOMAHAWK MAX WIFI",
+      "src": "/assets/hardware/exact-b850tomahawk.webp"
+    },
+    {
+      "id": "retail-msi-mpg-x870e-carbon-wifi",
+      "category": "board",
+      "picturedModel": "MSI MPG X870E CARBON WIFI",
+      "src": "/assets/hardware/exact-retail-msi-mpg-x870e-carbon-wifi.webp"
+    },
+    {
+      "id": "retail-msi-pro-b650m-a-wifi",
+      "category": "board",
+      "picturedModel": "MSI PRO B650M-A WIFI",
+      "src": "/assets/hardware/exact-retail-msi-pro-b650m-a-wifi.webp"
+    },
+    {
+      "id": "retail-msi-mpg-z790-edge-wifi",
+      "category": "board",
+      "picturedModel": "MSI MPG Z790 EDGE WIFI",
+      "src": "/assets/hardware/exact-retail-msi-mpg-z790-edge-wifi.webp"
+    },
+    {
+      "id": "retail-asus-rog-strix-b550-f-gaming-wi-fi",
+      "category": "board",
+      "picturedModel": "ASUS ROG STRIX B550-F GAMING Wi-Fi",
+      "src": "/assets/hardware/exact-retail-asus-rog-strix-b550-f-gaming-wi-fi.webp"
+    },
+    {
+      "id": "retail-asus-rog-strix-b550-f-gaming",
+      "category": "board",
+      "picturedModel": "ASUS ROG STRIX B550-F GAMING",
+      "src": "/assets/hardware/exact-retail-asus-rog-strix-b550-f-gaming.webp"
+    },
+    {
+      "id": "retail-asus-rog-maximus-z690-formula",
+      "category": "board",
+      "picturedModel": "ASUS ROG MAXIMUS Z690 FORMULA",
+      "src": "/assets/hardware/exact-retail-asus-rog-maximus-z690-formula.webp"
+    },
+    {
+      "id": "retail-msi-meg-z590-ace-gold-edition",
+      "category": "board",
+      "picturedModel": "MSI MEG Z590 ACE GOLD EDITION",
+      "src": "/assets/hardware/completion/retail-msi-meg-z590-ace-gold-edition.webp"
+    },
+    {
+      "id": "retail-asus-z170-p",
+      "category": "board",
+      "picturedModel": "ASUS Z170-P — 3D model render",
+      "src": "/assets/hardware/completion/retail-asus-z170-p.webp"
+    },
+    {
+      "id": "retail-gigabyte-trx40-aorus-xtreme-rev-1-0",
+      "category": "board",
+      "picturedModel": "GIGABYTE TRX40 AORUS XTREME rev. 1.0",
+      "src": "/assets/hardware/completion/retail-gigabyte-trx40-aorus-xtreme-rev-1-0.webp"
+    },
+    {
+      "id": "ddr5",
+      "category": "ram",
+      "picturedModel": "CORSAIR VENGEANCE 32 GB (2 × 16 GB) DDR5-6000 CL30 Black",
+      "src": "/assets/hardware/repaired/ddr5-7062434f2d.webp"
+    },
+    {
+      "id": "rm850x",
+      "category": "psu",
+      "picturedModel": "CORSAIR RM850x (2021) CP-9020200-NA",
+      "src": "/assets/hardware/repaired/rm850x-064911070f.webp"
+    },
+    {
+      "id": "sn850x",
+      "category": "ssd",
+      "picturedModel": "Western Digital WD_BLACK SN850X 2 TB",
+      "src": "/assets/hardware/official-core-official-core-sn850x.png"
+    },
+    {
+      "id": "intel660p",
+      "category": "ssd",
+      "picturedModel": "Intel SSD 660p 1TB SSDPEKNW010T8",
+      "src": "/assets/hardware/memory-storage-intel660.jpg"
+    },
+    {
+      "id": "domtitanium6000",
+      "category": "ram",
+      "picturedModel": "CORSAIR DOMINATOR TITANIUM DDR5-6000 CL30",
+      "src": "/assets/hardware/official-core-official-core-domtitanium6000.optimized.jpg"
+    },
+    {
+      "id": "p44pro",
+      "category": "ssd",
+      "picturedModel": "Solidigm P44 Pro 2TB SSDPFKKW020X7X1",
+      "src": "/assets/hardware/memory-storage-p44pro.webp"
+    },
+    {
+      "id": "seagatest506",
+      "category": "hdd",
+      "picturedModel": "Seagate ST-506",
+      "src": "/assets/hardware/component-new-hdd-st506.jpg"
+    },
+    {
+      "id": "c-ssd-crucial-t705-4tb",
+      "category": "ssd",
+      "picturedModel": "Crucial T705 4TB CT4000T705SSD3",
+      "src": "/assets/hardware/memory-storage-t705.jpg"
+    },
+    {
+      "id": "c-ssd-kingston-kc3000-4tb",
+      "category": "ssd",
+      "picturedModel": "Kingston KC3000 4TB SKC3000D/4096GB",
+      "src": "/assets/hardware/memory-storage-kc3000.jpg"
+    },
+    {
+      "id": "c-hdd-wd-red-pro-24tb",
+      "category": "hdd",
+      "picturedModel": "WD Red Pro 24TB (WD241KFGX)",
+      "src": "/assets/hardware/official-component-official-wd-red-pro-24tb.png"
+    },
+    {
+      "id": "c-psu-be-quiet-straight-power-12-1200w",
+      "category": "psu",
+      "picturedModel": "be quiet! Straight Power 12 1200W",
+      "src": "/assets/hardware/component-new-psu-bequiet-full.jpg"
+    },
+    {
+      "id": "retail-western-digital-wd-black-sn7100-1-tb",
+      "category": "ssd",
+      "picturedModel": "WD_BLACK SN7100 1 TB",
+      "src": "/assets/hardware/wd-sn7100-1tb.jpeg"
+    }
+  ]
+}

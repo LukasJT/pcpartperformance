@@ -1,0 +1,2009 @@
+[
+  {
+    "id": "crucialpro6000",
+    "name": "Crucial Pro Overclocking DDR5-6000 CL36",
+    "category": "ram",
+    "sourceUrl": "https://www.crucial.com/memory/ddr5/cp2k16g60c36u5b",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/memory-storage-crucial-oc.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "crucialpro6000",
+      "name": "Crucial Pro Overclocking DDR5-6000 CL36",
+      "brand": "Crucial",
+      "cat": "ram",
+      "year": null,
+      "architecture": "DDR5 · XMP / EXPO",
+      "summary": "32 GB · 2 × 16 GB",
+      "specs": {
+        "Memory": 32,
+        "Transfer rate": 6000,
+        "CAS latency": 36,
+        "Modules": 2
+      },
+      "source": "https://www.crucial.com/memory/ddr5/cp2k16g60c36u5b"
+    }
+  },
+  {
+    "id": "primetx1000",
+    "name": "PRIME TX-1000",
+    "category": "psu",
+    "sourceUrl": "https://seasonic.com/prime-tx/",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/component-new-psu-corsair-modular.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "primetx1000",
+      "name": "PRIME TX-1000",
+      "brand": "Seasonic",
+      "cat": "psu",
+      "year": null,
+      "architecture": "ATX · Fully modular",
+      "summary": "1,000 W · 80 PLUS Titanium",
+      "specs": {
+        "Rated output": 1000,
+        "Fan size": 135
+      },
+      "source": "https://seasonic.com/prime-tx/"
+    }
+  },
+  {
+    "id": "straightpower850",
+    "name": "Straight Power 12 850W",
+    "category": "psu",
+    "sourceUrl": "https://www.bequiet.com/en/powersupply/4109",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/component-new-psu-bequiet-full.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "straightpower850",
+      "name": "Straight Power 12 850W",
+      "brand": "be quiet!",
+      "cat": "psu",
+      "year": 2023,
+      "architecture": "ATX 3.0 · Fully modular",
+      "summary": "850 W · 80 PLUS Platinum",
+      "specs": {
+        "Rated output": 850,
+        "Fan size": 135
+      },
+      "source": "https://www.bequiet.com/en/powersupply/4109"
+    }
+  },
+  {
+    "id": "crucial3200",
+    "name": "Crucial Pro DDR4-3200 CL22",
+    "category": "ram",
+    "sourceUrl": "https://www.crucial.com/memory/ddr4/cp2k16g4dfra32a",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/memory-storage-crucial-ddr4.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "crucial3200",
+      "name": "Crucial Pro DDR4-3200 CL22",
+      "brand": "Crucial",
+      "cat": "ram",
+      "year": null,
+      "architecture": "DDR4 · JEDEC",
+      "summary": "32 GB · 2 × 16 GB",
+      "specs": {
+        "Memory": 32,
+        "Transfer rate": 3200,
+        "CAS latency": 22,
+        "Modules": 2
+      },
+      "source": "https://www.crucial.com/memory/ddr4/cp2k16g4dfra32a"
+    }
+  },
+  {
+    "id": "sf1000l",
+    "name": "SF1000L",
+    "category": "psu",
+    "sourceUrl": "https://www.corsair.com/us/en/p/psu/cp-9020257-na/sf1000l-fully-modular-low-noise-sfx-power-supply-cp-9020257-na",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/component-new-psu-corsair-modular.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "sf1000l",
+      "name": "SF1000L",
+      "brand": "CORSAIR",
+      "cat": "psu",
+      "year": 2023,
+      "architecture": "SFX-L · Fully modular",
+      "summary": "1,000 W · 80 PLUS Gold",
+      "specs": {
+        "Rated output": 1000,
+        "Fan size": 120
+      },
+      "source": "https://www.corsair.com/us/en/p/psu/cp-9020257-na/sf1000l-fully-modular-low-noise-sfx-power-supply-cp-9020257-na"
+    }
+  },
+  {
+    "id": "darkpower1000",
+    "name": "Dark Power 13 1000W",
+    "category": "psu",
+    "sourceUrl": "https://www.bequiet.com/en/powersupply/4046",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/component-new-psu-bequiet-full.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "darkpower1000",
+      "name": "Dark Power 13 1000W",
+      "brand": "be quiet!",
+      "cat": "psu",
+      "year": 2023,
+      "architecture": "ATX 3.0 · Fully modular",
+      "summary": "1,000 W · 80 PLUS Titanium",
+      "specs": {
+        "Rated output": 1000,
+        "Fan size": 135
+      },
+      "source": "https://www.bequiet.com/en/powersupply/4046"
+    }
+  },
+  {
+    "id": "evgag6850",
+    "name": "SuperNOVA 850 G6",
+    "category": "psu",
+    "sourceUrl": "https://www.evga.com/products/product.aspx?pn=220-G6-0850-X1",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/component-new-psu-corsair-modular.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "evgag6850",
+      "name": "SuperNOVA 850 G6",
+      "brand": "EVGA",
+      "cat": "psu",
+      "year": 2021,
+      "architecture": "ATX · Fully modular",
+      "summary": "850 W · 80 PLUS Gold",
+      "specs": {
+        "Rated output": 850,
+        "Fan size": 135
+      },
+      "source": "https://www.evga.com/products/product.aspx?pn=220-G6-0850-X1"
+    }
+  },
+  {
+    "id": "ballistix3600",
+    "name": "Ballistix DDR4-3600 CL16",
+    "category": "ram",
+    "sourceUrl": "https://www.crucial.com/memory/ddr4/bl2k16g36c16u4b",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/memory-storage-crucial-ddr4.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "ballistix3600",
+      "name": "Ballistix DDR4-3600 CL16",
+      "brand": "Crucial",
+      "cat": "ram",
+      "year": null,
+      "architecture": "DDR4 · Intel XMP",
+      "summary": "32 GB · 2 × 16 GB",
+      "specs": {
+        "Memory": 32,
+        "Transfer rate": 3600,
+        "CAS latency": 16,
+        "Modules": 2
+      },
+      "source": "https://www.crucial.com/memory/ddr4/bl2k16g36c16u4b"
+    }
+  },
+  {
+    "id": "vipersteel4400",
+    "name": "Viper Steel DDR4-4400 CL19",
+    "category": "ram",
+    "sourceUrl": "https://viper.patriotmemory.com/products/viper-steel-ddr4-performance-memory-ram-viper-gaming-by-patriot-memory",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/memory-storage-viper-steel.optimized.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "vipersteel4400",
+      "name": "Viper Steel DDR4-4400 CL19",
+      "brand": "Patriot",
+      "cat": "ram",
+      "year": null,
+      "architecture": "DDR4 · Intel XMP",
+      "summary": "16 GB · 2 × 8 GB",
+      "specs": {
+        "Memory": 16,
+        "Transfer rate": 4400,
+        "CAS latency": 19,
+        "Modules": 2
+      },
+      "source": "https://viper.patriotmemory.com/products/viper-steel-ddr4-performance-memory-ram-viper-gaming-by-patriot-memory"
+    }
+  },
+  {
+    "id": "vertexgx1000",
+    "name": "VERTEX GX-1000",
+    "category": "psu",
+    "sourceUrl": "https://seasonic.com/vertex-gx/",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/component-new-psu-corsair-modular.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "vertexgx1000",
+      "name": "VERTEX GX-1000",
+      "brand": "Seasonic",
+      "cat": "psu",
+      "year": 2023,
+      "architecture": "ATX 3.0 · Fully modular",
+      "summary": "1,000 W · 80 PLUS Gold",
+      "specs": {
+        "Rated output": 1000,
+        "Fan size": 135
+      },
+      "source": "https://seasonic.com/vertex-gx/"
+    }
+  },
+  {
+    "id": "purepower850",
+    "name": "Pure Power 12 M 850W",
+    "category": "psu",
+    "sourceUrl": "https://www.bequiet.com/en/powersupply/4067",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/component-new-psu-bequiet-full.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "purepower850",
+      "name": "Pure Power 12 M 850W",
+      "brand": "be quiet!",
+      "cat": "psu",
+      "year": 2023,
+      "architecture": "ATX 3.0 · Fully modular",
+      "summary": "850 W · 80 PLUS Gold",
+      "specs": {
+        "Rated output": 850,
+        "Fan size": 120
+      },
+      "source": "https://www.bequiet.com/en/powersupply/4067"
+    }
+  },
+  {
+    "id": "evgag6750",
+    "name": "SuperNOVA 750 G6",
+    "category": "psu",
+    "sourceUrl": "https://www.evga.com/products/product.aspx?pn=220-G6-0750-X1",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/component-new-psu-corsair-modular.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "evgag6750",
+      "name": "SuperNOVA 750 G6",
+      "brand": "EVGA",
+      "cat": "psu",
+      "year": 2021,
+      "architecture": "ATX · Fully modular",
+      "summary": "750 W · 80 PLUS Gold",
+      "specs": {
+        "Rated output": 750,
+        "Fan size": 135
+      },
+      "source": "https://www.evga.com/products/product.aspx?pn=220-G6-0750-X1"
+    }
+  },
+  {
+    "id": "crucialpro6400",
+    "name": "Crucial Pro Overclocking DDR5-6400 CL38",
+    "category": "ram",
+    "sourceUrl": "https://www.crucial.com/memory/ddr5/cp2k16g64c38u5b",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/memory-storage-crucial-oc.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "crucialpro6400",
+      "name": "Crucial Pro Overclocking DDR5-6400 CL38",
+      "brand": "Crucial",
+      "cat": "ram",
+      "year": null,
+      "architecture": "DDR5 · XMP / EXPO",
+      "summary": "32 GB · 2 × 16 GB",
+      "specs": {
+        "Memory": 32,
+        "Transfer rate": 6400,
+        "CAS latency": 38,
+        "Modules": 2
+      },
+      "source": "https://www.crucial.com/memory/ddr5/cp2k16g64c38u5b"
+    }
+  },
+  {
+    "id": "coregx650",
+    "name": "CORE GX-650",
+    "category": "psu",
+    "sourceUrl": "https://seasonic.com/core-gx/",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/component-new-psu-corsair-cx430.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "coregx650",
+      "name": "CORE GX-650",
+      "brand": "Seasonic",
+      "cat": "psu",
+      "year": null,
+      "architecture": "ATX · Fully modular",
+      "summary": "650 W · 80 PLUS Gold",
+      "specs": {
+        "Rated output": 650,
+        "Fan size": 120
+      },
+      "source": "https://seasonic.com/core-gx/"
+    }
+  },
+  {
+    "id": "primetx1300",
+    "name": "PRIME TX-1300",
+    "category": "psu",
+    "sourceUrl": "https://seasonic.com/prime-tx/",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/component-new-psu-corsair-modular.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "primetx1300",
+      "name": "PRIME TX-1300",
+      "brand": "Seasonic",
+      "cat": "psu",
+      "year": null,
+      "architecture": "ATX · Fully modular",
+      "summary": "1,300 W · 80 PLUS Titanium",
+      "specs": {
+        "Rated output": 1300,
+        "Fan size": 135
+      },
+      "source": "https://seasonic.com/prime-tx/"
+    }
+  },
+  {
+    "id": "straightpower1000",
+    "name": "Straight Power 12 1000W",
+    "category": "psu",
+    "sourceUrl": "https://www.bequiet.com/en/powersupply/4110",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/component-new-psu-bequiet-full.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "straightpower1000",
+      "name": "Straight Power 12 1000W",
+      "brand": "be quiet!",
+      "cat": "psu",
+      "year": 2023,
+      "architecture": "ATX 3.0 · Fully modular",
+      "summary": "1,000 W · 80 PLUS Platinum",
+      "specs": {
+        "Rated output": 1000,
+        "Fan size": 135
+      },
+      "source": "https://www.bequiet.com/en/powersupply/4110"
+    }
+  },
+  {
+    "id": "darkpower1600",
+    "name": "Dark Power Pro 13 1600W",
+    "category": "psu",
+    "sourceUrl": "https://www.bequiet.com/en/powersupply/4392",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/component-new-psu-bequiet-full.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "darkpower1600",
+      "name": "Dark Power Pro 13 1600W",
+      "brand": "be quiet!",
+      "cat": "psu",
+      "year": 2023,
+      "architecture": "ATX 3.0 · Fully modular",
+      "summary": "1,600 W · 80 PLUS Titanium",
+      "specs": {
+        "Rated output": 1600,
+        "Fan size": 135
+      },
+      "source": "https://www.bequiet.com/en/powersupply/4392"
+    }
+  },
+  {
+    "id": "ibmpc64k",
+    "name": "IBM PC 64 KB Memory Expansion Option",
+    "category": "ram",
+    "sourceUrl": "https://www.ibm.com/history/personal-computer",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/memory-storage-ibm64.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "ibmpc64k",
+      "name": "IBM PC 64 KB Memory Expansion Option",
+      "brand": "IBM",
+      "cat": "ram",
+      "year": 1981,
+      "architecture": "DRAM · IBM PC",
+      "summary": "64 KB system-memory expansion",
+      "specs": {
+        "Memory": 0.000064
+      },
+      "source": "https://www.ibm.com/history/personal-computer"
+    }
+  },
+  {
+    "id": "simm30-1mb",
+    "name": "30-pin 1 MB SIMM",
+    "category": "ram",
+    "sourceUrl": "https://www.computerhistory.org/collections/catalog/102710919",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/memory-storage-simm30.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "simm30-1mb",
+      "name": "30-pin 1 MB SIMM",
+      "brand": "Industry standard",
+      "cat": "ram",
+      "year": 1987,
+      "architecture": "FPM DRAM · 30-pin SIMM",
+      "summary": "1 MB 30-pin memory module",
+      "specs": {
+        "Memory": 0.001,
+        "Modules": 1
+      },
+      "source": "https://www.computerhistory.org/collections/catalog/102710919"
+    }
+  },
+  {
+    "id": "sdram-pc100",
+    "name": "PC100 SDRAM 128 MB DIMM",
+    "category": "ram",
+    "sourceUrl": "https://www.jedec.org/standards-documents/docs/jesd-21-c",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/memory-storage-pc100.optimized.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "sdram-pc100",
+      "name": "PC100 SDRAM 128 MB DIMM",
+      "brand": "Industry standard",
+      "cat": "ram",
+      "year": 1998,
+      "architecture": "SDR SDRAM · 168-pin DIMM",
+      "summary": "128 MB · 100 MT/s",
+      "specs": {
+        "Memory": 0.128,
+        "Transfer rate": 100,
+        "Modules": 1
+      },
+      "source": "https://www.jedec.org/standards-documents/docs/jesd-21-c"
+    }
+  },
+  {
+    "id": "ddr266-256",
+    "name": "DDR-266 256 MB DIMM",
+    "category": "ram",
+    "sourceUrl": "https://www.jedec.org/standards-documents/docs/jesd79",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/memory-storage-ddr266.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "ddr266-256",
+      "name": "DDR-266 256 MB DIMM",
+      "brand": "Industry standard",
+      "cat": "ram",
+      "year": 2000,
+      "architecture": "DDR SDRAM · 184-pin DIMM",
+      "summary": "256 MB · 266 MT/s",
+      "specs": {
+        "Memory": 0.256,
+        "Transfer rate": 266,
+        "Modules": 1
+      },
+      "source": "https://www.jedec.org/standards-documents/docs/jesd79"
+    }
+  },
+  {
+    "id": "c-ram-corsair-vengeance-48gb-ddr5-6400-cl36",
+    "name": "CORSAIR Vengeance 48GB DDR5-6400 CL36",
+    "category": "ram",
+    "sourceUrl": "https://www.corsair.com/us/en/c/memory",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/memory-storage-corsair-ddr5.webp",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "c-ram-corsair-vengeance-48gb-ddr5-6400-cl36",
+      "name": "CORSAIR Vengeance 48GB DDR5-6400 CL36",
+      "brand": "CORSAIR",
+      "cat": "ram",
+      "year": 2023,
+      "architecture": "DDR5 UDIMM",
+      "summary": "48 GB · 2 modules",
+      "specs": {
+        "Memory": 48,
+        "Transfer rate": 6400,
+        "CAS latency": 36,
+        "Modules": 2
+      },
+      "source": "https://www.corsair.com/us/en/c/memory"
+    }
+  },
+  {
+    "id": "c-ram-g-skill-trident-z5-rgb-32gb-ddr5-7200-cl34",
+    "name": "G.SKILL Trident Z5 RGB 32GB DDR5-7200 CL34",
+    "category": "ram",
+    "sourceUrl": "https://www.gskill.com/products/1/165/377/Trident-Z5-RGB-DDR5-Intel-XMP",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/memory-storage-gskill-z5.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "c-ram-g-skill-trident-z5-rgb-32gb-ddr5-7200-cl34",
+      "name": "G.SKILL Trident Z5 RGB 32GB DDR5-7200 CL34",
+      "brand": "G.SKILL",
+      "cat": "ram",
+      "year": 2022,
+      "architecture": "DDR5 UDIMM",
+      "summary": "32 GB · 2 modules",
+      "specs": {
+        "Memory": 32,
+        "Transfer rate": 7200,
+        "CAS latency": 34,
+        "Modules": 2
+      },
+      "source": "https://www.gskill.com/products/1/165/377/Trident-Z5-RGB-DDR5-Intel-XMP"
+    }
+  },
+  {
+    "id": "c-ram-g-skill-ripjaws-s5-96gb-ddr5-5600-cl40",
+    "name": "G.SKILL Ripjaws S5 96GB DDR5-5600 CL40",
+    "category": "ram",
+    "sourceUrl": "https://www.gskill.com/products/1/165/377/Trident-Z5-RGB-DDR5-Intel-XMP",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/memory-storage-gskill-z5.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "c-ram-g-skill-ripjaws-s5-96gb-ddr5-5600-cl40",
+      "name": "G.SKILL Ripjaws S5 96GB DDR5-5600 CL40",
+      "brand": "G.SKILL",
+      "cat": "ram",
+      "year": 2023,
+      "architecture": "DDR5 UDIMM",
+      "summary": "96 GB · 2 modules",
+      "specs": {
+        "Memory": 96,
+        "Transfer rate": 5600,
+        "CAS latency": 40,
+        "Modules": 2
+      },
+      "source": "https://www.gskill.com/products/1/165/377/Trident-Z5-RGB-DDR5-Intel-XMP"
+    }
+  },
+  {
+    "id": "c-ram-g-skill-trident-z-royal-elite-32gb-ddr4-4000-cl16",
+    "name": "G.SKILL Trident Z Royal Elite 32GB DDR4-4000 CL16",
+    "category": "ram",
+    "sourceUrl": "https://www.gskill.com/products/1/165/377/Trident-Z5-RGB-DDR5-Intel-XMP",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/memory-storage-gskill-zneo.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "c-ram-g-skill-trident-z-royal-elite-32gb-ddr4-4000-cl16",
+      "name": "G.SKILL Trident Z Royal Elite 32GB DDR4-4000 CL16",
+      "brand": "G.SKILL",
+      "cat": "ram",
+      "year": 2021,
+      "architecture": "DDR4 UDIMM",
+      "summary": "32 GB · 2 modules",
+      "specs": {
+        "Memory": 32,
+        "Transfer rate": 4000,
+        "CAS latency": 16,
+        "Modules": 2
+      },
+      "source": "https://www.gskill.com/products/1/165/377/Trident-Z5-RGB-DDR5-Intel-XMP"
+    }
+  },
+  {
+    "id": "c-ram-g-skill-ripjaws-v-16gb-ddr4-3200-cl16",
+    "name": "G.SKILL Ripjaws V 16GB DDR4-3200 CL16",
+    "category": "ram",
+    "sourceUrl": "https://www.gskill.com/products/1/165/377/Trident-Z5-RGB-DDR5-Intel-XMP",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/memory-storage-gskill-ripjaws.png",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "c-ram-g-skill-ripjaws-v-16gb-ddr4-3200-cl16",
+      "name": "G.SKILL Ripjaws V 16GB DDR4-3200 CL16",
+      "brand": "G.SKILL",
+      "cat": "ram",
+      "year": 2015,
+      "architecture": "DDR4 UDIMM",
+      "summary": "16 GB · 2 modules",
+      "specs": {
+        "Memory": 16,
+        "Transfer rate": 3200,
+        "CAS latency": 16,
+        "Modules": 2
+      },
+      "source": "https://www.gskill.com/products/1/165/377/Trident-Z5-RGB-DDR5-Intel-XMP"
+    }
+  },
+  {
+    "id": "c-ram-crucial-pro-overclocking-64gb-ddr5-6000-cl36",
+    "name": "Crucial Pro Overclocking 64GB DDR5-6000 CL36",
+    "category": "ram",
+    "sourceUrl": "https://www.crucial.com/catalog/memory/ddr5-desktop",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/memory-storage-crucial-oc.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "c-ram-crucial-pro-overclocking-64gb-ddr5-6000-cl36",
+      "name": "Crucial Pro Overclocking 64GB DDR5-6000 CL36",
+      "brand": "Crucial",
+      "cat": "ram",
+      "year": 2024,
+      "architecture": "DDR5 UDIMM",
+      "summary": "64 GB · 2 modules",
+      "specs": {
+        "Memory": 64,
+        "Transfer rate": 6000,
+        "CAS latency": 36,
+        "Modules": 2
+      },
+      "source": "https://www.crucial.com/catalog/memory/ddr5-desktop"
+    }
+  },
+  {
+    "id": "c-ram-crucial-pro-overclocking-32gb-ddr5-6000-cl36",
+    "name": "Crucial Pro Overclocking 32GB DDR5-6000 CL36",
+    "category": "ram",
+    "sourceUrl": "https://www.crucial.com/catalog/memory/ddr5-desktop",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/memory-storage-crucial-oc.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "c-ram-crucial-pro-overclocking-32gb-ddr5-6000-cl36",
+      "name": "Crucial Pro Overclocking 32GB DDR5-6000 CL36",
+      "brand": "Crucial",
+      "cat": "ram",
+      "year": 2024,
+      "architecture": "DDR5 UDIMM",
+      "summary": "32 GB · 2 modules",
+      "specs": {
+        "Memory": 32,
+        "Transfer rate": 6000,
+        "CAS latency": 36,
+        "Modules": 2
+      },
+      "source": "https://www.crucial.com/catalog/memory/ddr5-desktop"
+    }
+  },
+  {
+    "id": "c-ram-crucial-pro-64gb-ddr5-5600-cl46",
+    "name": "Crucial Pro 64GB DDR5-5600 CL46",
+    "category": "ram",
+    "sourceUrl": "https://www.crucial.com/catalog/memory/ddr5-desktop",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/memory-storage-crucial-pro.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "c-ram-crucial-pro-64gb-ddr5-5600-cl46",
+      "name": "Crucial Pro 64GB DDR5-5600 CL46",
+      "brand": "Crucial",
+      "cat": "ram",
+      "year": 2023,
+      "architecture": "DDR5 UDIMM",
+      "summary": "64 GB · 2 modules",
+      "specs": {
+        "Memory": 64,
+        "Transfer rate": 5600,
+        "CAS latency": 46,
+        "Modules": 2
+      },
+      "source": "https://www.crucial.com/catalog/memory/ddr5-desktop"
+    }
+  },
+  {
+    "id": "c-ram-crucial-32gb-ddr5-4800-cl40",
+    "name": "Crucial 32GB DDR5-4800 CL40",
+    "category": "ram",
+    "sourceUrl": "https://www.crucial.com/catalog/memory/ddr5-desktop",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/memory-storage-crucial-pro.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "c-ram-crucial-32gb-ddr5-4800-cl40",
+      "name": "Crucial 32GB DDR5-4800 CL40",
+      "brand": "Crucial",
+      "cat": "ram",
+      "year": 2021,
+      "architecture": "DDR5 UDIMM",
+      "summary": "32 GB · 2 modules",
+      "specs": {
+        "Memory": 32,
+        "Transfer rate": 4800,
+        "CAS latency": 40,
+        "Modules": 2
+      },
+      "source": "https://www.crucial.com/catalog/memory/ddr5-desktop"
+    }
+  },
+  {
+    "id": "c-ram-crucial-pro-64gb-ddr4-3200-cl22",
+    "name": "Crucial Pro 64GB DDR4-3200 CL22",
+    "category": "ram",
+    "sourceUrl": "https://www.crucial.com/catalog/memory/ddr5-desktop",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/memory-storage-crucial-ddr4.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "c-ram-crucial-pro-64gb-ddr4-3200-cl22",
+      "name": "Crucial Pro 64GB DDR4-3200 CL22",
+      "brand": "Crucial",
+      "cat": "ram",
+      "year": 2023,
+      "architecture": "DDR4 UDIMM",
+      "summary": "64 GB · 2 modules",
+      "specs": {
+        "Memory": 64,
+        "Transfer rate": 3200,
+        "CAS latency": 22,
+        "Modules": 2
+      },
+      "source": "https://www.crucial.com/catalog/memory/ddr5-desktop"
+    }
+  },
+  {
+    "id": "c-ram-crucial-ballistix-max-32gb-ddr4-4000-cl18",
+    "name": "Crucial Ballistix MAX 32GB DDR4-4000 CL18",
+    "category": "ram",
+    "sourceUrl": "https://www.crucial.com/catalog/memory/ddr5-desktop",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/memory-storage-crucial-ddr4.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "c-ram-crucial-ballistix-max-32gb-ddr4-4000-cl18",
+      "name": "Crucial Ballistix MAX 32GB DDR4-4000 CL18",
+      "brand": "Crucial",
+      "cat": "ram",
+      "year": 2020,
+      "architecture": "DDR4 UDIMM",
+      "summary": "32 GB · 2 modules",
+      "specs": {
+        "Memory": 32,
+        "Transfer rate": 4000,
+        "CAS latency": 18,
+        "Modules": 2
+      },
+      "source": "https://www.crucial.com/catalog/memory/ddr5-desktop"
+    }
+  },
+  {
+    "id": "c-ram-crucial-16gb-ddr4-3200-cl22",
+    "name": "Crucial 16GB DDR4-3200 CL22",
+    "category": "ram",
+    "sourceUrl": "https://www.crucial.com/catalog/memory/ddr5-desktop",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/memory-storage-crucial-ddr4.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "c-ram-crucial-16gb-ddr4-3200-cl22",
+      "name": "Crucial 16GB DDR4-3200 CL22",
+      "brand": "Crucial",
+      "cat": "ram",
+      "year": 2020,
+      "architecture": "DDR4 UDIMM",
+      "summary": "16 GB · 2 modules",
+      "specs": {
+        "Memory": 16,
+        "Transfer rate": 3200,
+        "CAS latency": 22,
+        "Modules": 2
+      },
+      "source": "https://www.crucial.com/catalog/memory/ddr5-desktop"
+    }
+  },
+  {
+    "id": "c-ram-teamgroup-t-force-xtreem-48gb-ddr5-8200-cl38",
+    "name": "TEAMGROUP T-Force Xtreem 48GB DDR5-8200 CL38",
+    "category": "ram",
+    "sourceUrl": "https://www.teamgroupinc.com/en/product-category/memory/",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/memory-storage-team-delta.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "c-ram-teamgroup-t-force-xtreem-48gb-ddr5-8200-cl38",
+      "name": "TEAMGROUP T-Force Xtreem 48GB DDR5-8200 CL38",
+      "brand": "TEAMGROUP",
+      "cat": "ram",
+      "year": 2024,
+      "architecture": "DDR5 UDIMM",
+      "summary": "48 GB · 2 modules",
+      "specs": {
+        "Memory": 48,
+        "Transfer rate": 8200,
+        "CAS latency": 38,
+        "Modules": 2
+      },
+      "source": "https://www.teamgroupinc.com/en/product-category/memory/"
+    }
+  },
+  {
+    "id": "c-ram-teamgroup-t-force-delta-rgb-64gb-ddr5-6400-cl40",
+    "name": "TEAMGROUP T-Force Delta RGB 64GB DDR5-6400 CL40",
+    "category": "ram",
+    "sourceUrl": "https://www.teamgroupinc.com/en/product-category/memory/",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/memory-storage-team-delta.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "c-ram-teamgroup-t-force-delta-rgb-64gb-ddr5-6400-cl40",
+      "name": "TEAMGROUP T-Force Delta RGB 64GB DDR5-6400 CL40",
+      "brand": "TEAMGROUP",
+      "cat": "ram",
+      "year": 2023,
+      "architecture": "DDR5 UDIMM",
+      "summary": "64 GB · 2 modules",
+      "specs": {
+        "Memory": 64,
+        "Transfer rate": 6400,
+        "CAS latency": 40,
+        "Modules": 2
+      },
+      "source": "https://www.teamgroupinc.com/en/product-category/memory/"
+    }
+  },
+  {
+    "id": "c-ram-teamgroup-t-create-expert-96gb-ddr5-6000-cl34",
+    "name": "TEAMGROUP T-Create Expert 96GB DDR5-6000 CL34",
+    "category": "ram",
+    "sourceUrl": "https://www.teamgroupinc.com/en/product-category/memory/",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/memory-storage-team-delta.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "c-ram-teamgroup-t-create-expert-96gb-ddr5-6000-cl34",
+      "name": "TEAMGROUP T-Create Expert 96GB DDR5-6000 CL34",
+      "brand": "TEAMGROUP",
+      "cat": "ram",
+      "year": 2024,
+      "architecture": "DDR5 UDIMM",
+      "summary": "96 GB · 2 modules",
+      "specs": {
+        "Memory": 96,
+        "Transfer rate": 6000,
+        "CAS latency": 34,
+        "Modules": 2
+      },
+      "source": "https://www.teamgroupinc.com/en/product-category/memory/"
+    }
+  },
+  {
+    "id": "c-ram-teamgroup-t-create-classic-32gb-ddr5-5600-cl46",
+    "name": "TEAMGROUP T-Create Classic 32GB DDR5-5600 CL46",
+    "category": "ram",
+    "sourceUrl": "https://www.teamgroupinc.com/en/product-category/memory/",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/memory-storage-team-delta.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "c-ram-teamgroup-t-create-classic-32gb-ddr5-5600-cl46",
+      "name": "TEAMGROUP T-Create Classic 32GB DDR5-5600 CL46",
+      "brand": "TEAMGROUP",
+      "cat": "ram",
+      "year": 2022,
+      "architecture": "DDR5 UDIMM",
+      "summary": "32 GB · 2 modules",
+      "specs": {
+        "Memory": 32,
+        "Transfer rate": 5600,
+        "CAS latency": 46,
+        "Modules": 2
+      },
+      "source": "https://www.teamgroupinc.com/en/product-category/memory/"
+    }
+  },
+  {
+    "id": "c-ram-teamgroup-t-force-xtreem-argb-32gb-ddr4-3600-cl14",
+    "name": "TEAMGROUP T-Force Xtreem ARGB 32GB DDR4-3600 CL14",
+    "category": "ram",
+    "sourceUrl": "https://www.teamgroupinc.com/en/product-category/memory/",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/memory-storage-team-delta.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "c-ram-teamgroup-t-force-xtreem-argb-32gb-ddr4-3600-cl14",
+      "name": "TEAMGROUP T-Force Xtreem ARGB 32GB DDR4-3600 CL14",
+      "brand": "TEAMGROUP",
+      "cat": "ram",
+      "year": 2020,
+      "architecture": "DDR4 UDIMM",
+      "summary": "32 GB · 2 modules",
+      "specs": {
+        "Memory": 32,
+        "Transfer rate": 3600,
+        "CAS latency": 14,
+        "Modules": 2
+      },
+      "source": "https://www.teamgroupinc.com/en/product-category/memory/"
+    }
+  },
+  {
+    "id": "c-ram-teamgroup-t-force-vulcan-z-16gb-ddr4-3200-cl16",
+    "name": "TEAMGROUP T-Force Vulcan Z 16GB DDR4-3200 CL16",
+    "category": "ram",
+    "sourceUrl": "https://www.teamgroupinc.com/en/product-category/memory/",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/memory-storage-team-delta.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "c-ram-teamgroup-t-force-vulcan-z-16gb-ddr4-3200-cl16",
+      "name": "TEAMGROUP T-Force Vulcan Z 16GB DDR4-3200 CL16",
+      "brand": "TEAMGROUP",
+      "cat": "ram",
+      "year": 2019,
+      "architecture": "DDR4 UDIMM",
+      "summary": "16 GB · 2 modules",
+      "specs": {
+        "Memory": 16,
+        "Transfer rate": 3200,
+        "CAS latency": 16,
+        "Modules": 2
+      },
+      "source": "https://www.teamgroupinc.com/en/product-category/memory/"
+    }
+  },
+  {
+    "id": "c-psu-seasonic-prime-tx-1600-noctua-edition",
+    "name": "Seasonic PRIME TX-1600 Noctua Edition",
+    "category": "psu",
+    "sourceUrl": "https://seasonic.com/power-supplies/",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/component-new-psu-corsair-modular.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "c-psu-seasonic-prime-tx-1600-noctua-edition",
+      "name": "Seasonic PRIME TX-1600 Noctua Edition",
+      "brand": "Seasonic",
+      "cat": "psu",
+      "year": 2024,
+      "architecture": "ATX power supply",
+      "summary": "1600 W power supply",
+      "specs": {
+        "Rated output": 1600
+      },
+      "source": "https://seasonic.com/power-supplies/"
+    }
+  },
+  {
+    "id": "c-psu-seasonic-prime-tx-1300",
+    "name": "Seasonic PRIME TX-1300",
+    "category": "psu",
+    "sourceUrl": "https://seasonic.com/power-supplies/",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/component-new-psu-corsair-modular.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "c-psu-seasonic-prime-tx-1300",
+      "name": "Seasonic PRIME TX-1300",
+      "brand": "Seasonic",
+      "cat": "psu",
+      "year": 2023,
+      "architecture": "ATX power supply",
+      "summary": "1300 W power supply",
+      "specs": {
+        "Rated output": 1300
+      },
+      "source": "https://seasonic.com/power-supplies/"
+    }
+  },
+  {
+    "id": "c-psu-seasonic-prime-px-1600",
+    "name": "Seasonic PRIME PX-1600",
+    "category": "psu",
+    "sourceUrl": "https://seasonic.com/power-supplies/",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/component-new-psu-corsair-modular.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "c-psu-seasonic-prime-px-1600",
+      "name": "Seasonic PRIME PX-1600",
+      "brand": "Seasonic",
+      "cat": "psu",
+      "year": 2022,
+      "architecture": "ATX power supply",
+      "summary": "1600 W power supply",
+      "specs": {
+        "Rated output": 1600
+      },
+      "source": "https://seasonic.com/power-supplies/"
+    }
+  },
+  {
+    "id": "c-psu-seasonic-vertex-px-1200",
+    "name": "Seasonic VERTEX PX-1200",
+    "category": "psu",
+    "sourceUrl": "https://seasonic.com/power-supplies/",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/component-new-psu-corsair-modular.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "c-psu-seasonic-vertex-px-1200",
+      "name": "Seasonic VERTEX PX-1200",
+      "brand": "Seasonic",
+      "cat": "psu",
+      "year": 2023,
+      "architecture": "ATX power supply",
+      "summary": "1200 W power supply",
+      "specs": {
+        "Rated output": 1200
+      },
+      "source": "https://seasonic.com/power-supplies/"
+    }
+  },
+  {
+    "id": "c-psu-seasonic-vertex-gx-1000",
+    "name": "Seasonic VERTEX GX-1000",
+    "category": "psu",
+    "sourceUrl": "https://seasonic.com/power-supplies/",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/component-new-psu-corsair-modular.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "c-psu-seasonic-vertex-gx-1000",
+      "name": "Seasonic VERTEX GX-1000",
+      "brand": "Seasonic",
+      "cat": "psu",
+      "year": 2023,
+      "architecture": "ATX power supply",
+      "summary": "1000 W power supply",
+      "specs": {
+        "Rated output": 1000
+      },
+      "source": "https://seasonic.com/power-supplies/"
+    }
+  },
+  {
+    "id": "c-psu-seasonic-vertex-gx-850",
+    "name": "Seasonic VERTEX GX-850",
+    "category": "psu",
+    "sourceUrl": "https://seasonic.com/power-supplies/",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/component-new-psu-corsair-modular.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "c-psu-seasonic-vertex-gx-850",
+      "name": "Seasonic VERTEX GX-850",
+      "brand": "Seasonic",
+      "cat": "psu",
+      "year": 2023,
+      "architecture": "ATX power supply",
+      "summary": "850 W power supply",
+      "specs": {
+        "Rated output": 850
+      },
+      "source": "https://seasonic.com/power-supplies/"
+    }
+  },
+  {
+    "id": "c-psu-seasonic-core-gx-650",
+    "name": "Seasonic CORE GX-650",
+    "category": "psu",
+    "sourceUrl": "https://seasonic.com/power-supplies/",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/component-new-psu-corsair-cx430.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "c-psu-seasonic-core-gx-650",
+      "name": "Seasonic CORE GX-650",
+      "brand": "Seasonic",
+      "cat": "psu",
+      "year": 2025,
+      "architecture": "ATX power supply",
+      "summary": "650 W power supply",
+      "specs": {
+        "Rated output": 650
+      },
+      "source": "https://seasonic.com/power-supplies/"
+    }
+  },
+  {
+    "id": "c-psu-evga-supernova-1600-p",
+    "name": "EVGA SuperNOVA 1600 P+",
+    "category": "psu",
+    "sourceUrl": "https://www.evga.com/products/productlist.aspx?type=10",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/component-new-psu-corsair-modular.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "c-psu-evga-supernova-1600-p",
+      "name": "EVGA SuperNOVA 1600 P+",
+      "brand": "EVGA",
+      "cat": "psu",
+      "year": 2021,
+      "architecture": "ATX power supply",
+      "summary": "1600 W power supply",
+      "specs": {
+        "Rated output": 1600
+      },
+      "source": "https://www.evga.com/products/productlist.aspx?type=10"
+    }
+  },
+  {
+    "id": "c-psu-evga-supernova-1300-g",
+    "name": "EVGA SuperNOVA 1300 G+",
+    "category": "psu",
+    "sourceUrl": "https://www.evga.com/products/productlist.aspx?type=10",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/component-new-psu-corsair-modular.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "c-psu-evga-supernova-1300-g",
+      "name": "EVGA SuperNOVA 1300 G+",
+      "brand": "EVGA",
+      "cat": "psu",
+      "year": 2018,
+      "architecture": "ATX power supply",
+      "summary": "1300 W power supply",
+      "specs": {
+        "Rated output": 1300
+      },
+      "source": "https://www.evga.com/products/productlist.aspx?type=10"
+    }
+  },
+  {
+    "id": "c-psu-evga-supernova-1000-g7",
+    "name": "EVGA SuperNOVA 1000 G7",
+    "category": "psu",
+    "sourceUrl": "https://www.evga.com/products/productlist.aspx?type=10",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/component-new-psu-corsair-modular.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "c-psu-evga-supernova-1000-g7",
+      "name": "EVGA SuperNOVA 1000 G7",
+      "brand": "EVGA",
+      "cat": "psu",
+      "year": 2022,
+      "architecture": "ATX power supply",
+      "summary": "1000 W power supply",
+      "specs": {
+        "Rated output": 1000
+      },
+      "source": "https://www.evga.com/products/productlist.aspx?type=10"
+    }
+  },
+  {
+    "id": "c-psu-evga-supernova-850-g7",
+    "name": "EVGA SuperNOVA 850 G7",
+    "category": "psu",
+    "sourceUrl": "https://www.evga.com/products/productlist.aspx?type=10",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/component-new-psu-corsair-modular.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "c-psu-evga-supernova-850-g7",
+      "name": "EVGA SuperNOVA 850 G7",
+      "brand": "EVGA",
+      "cat": "psu",
+      "year": 2022,
+      "architecture": "ATX power supply",
+      "summary": "850 W power supply",
+      "specs": {
+        "Rated output": 850
+      },
+      "source": "https://www.evga.com/products/productlist.aspx?type=10"
+    }
+  },
+  {
+    "id": "c-psu-evga-supernova-750-g7",
+    "name": "EVGA SuperNOVA 750 G7",
+    "category": "psu",
+    "sourceUrl": "https://www.evga.com/products/productlist.aspx?type=10",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/component-new-psu-corsair-modular.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "c-psu-evga-supernova-750-g7",
+      "name": "EVGA SuperNOVA 750 G7",
+      "brand": "EVGA",
+      "cat": "psu",
+      "year": 2022,
+      "architecture": "ATX power supply",
+      "summary": "750 W power supply",
+      "specs": {
+        "Rated output": 750
+      },
+      "source": "https://www.evga.com/products/productlist.aspx?type=10"
+    }
+  },
+  {
+    "id": "c-psu-evga-supernova-650-g6",
+    "name": "EVGA SuperNOVA 650 G6",
+    "category": "psu",
+    "sourceUrl": "https://www.evga.com/products/productlist.aspx?type=10",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/component-new-psu-corsair-modular.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "c-psu-evga-supernova-650-g6",
+      "name": "EVGA SuperNOVA 650 G6",
+      "brand": "EVGA",
+      "cat": "psu",
+      "year": 2021,
+      "architecture": "ATX power supply",
+      "summary": "650 W power supply",
+      "specs": {
+        "Rated output": 650
+      },
+      "source": "https://www.evga.com/products/productlist.aspx?type=10"
+    }
+  },
+  {
+    "id": "c-psu-evga-600-br",
+    "name": "EVGA 600 BR",
+    "category": "psu",
+    "sourceUrl": "https://www.evga.com/products/productlist.aspx?type=10",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/component-new-psu-corsair-cx430.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "c-psu-evga-600-br",
+      "name": "EVGA 600 BR",
+      "brand": "EVGA",
+      "cat": "psu",
+      "year": 2018,
+      "architecture": "ATX power supply",
+      "summary": "600 W power supply",
+      "specs": {
+        "Rated output": 600
+      },
+      "source": "https://www.evga.com/products/productlist.aspx?type=10"
+    }
+  },
+  {
+    "id": "c-psu-evga-500-w1",
+    "name": "EVGA 500 W1",
+    "category": "psu",
+    "sourceUrl": "https://www.evga.com/products/productlist.aspx?type=10",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/component-new-psu-corsair-cx430.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "c-psu-evga-500-w1",
+      "name": "EVGA 500 W1",
+      "brand": "EVGA",
+      "cat": "psu",
+      "year": 2014,
+      "architecture": "ATX power supply",
+      "summary": "500 W power supply",
+      "specs": {
+        "Rated output": 500
+      },
+      "source": "https://www.evga.com/products/productlist.aspx?type=10"
+    }
+  },
+  {
+    "id": "c-psu-be-quiet-dark-power-pro-13-1600w",
+    "name": "be quiet! Dark Power Pro 13 1600W",
+    "category": "psu",
+    "sourceUrl": "https://www.bequiet.com/en/powersupply",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/component-new-psu-bequiet-full.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "c-psu-be-quiet-dark-power-pro-13-1600w",
+      "name": "be quiet! Dark Power Pro 13 1600W",
+      "brand": "be quiet!",
+      "cat": "psu",
+      "year": 2023,
+      "architecture": "ATX power supply",
+      "summary": "1600 W power supply",
+      "specs": {
+        "Rated output": 1600
+      },
+      "source": "https://www.bequiet.com/en/powersupply"
+    }
+  },
+  {
+    "id": "c-psu-be-quiet-dark-power-13-1000w",
+    "name": "be quiet! Dark Power 13 1000W",
+    "category": "psu",
+    "sourceUrl": "https://www.bequiet.com/en/powersupply",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/component-new-psu-bequiet-full.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "c-psu-be-quiet-dark-power-13-1000w",
+      "name": "be quiet! Dark Power 13 1000W",
+      "brand": "be quiet!",
+      "cat": "psu",
+      "year": 2023,
+      "architecture": "ATX power supply",
+      "summary": "1000 W power supply",
+      "specs": {
+        "Rated output": 1000
+      },
+      "source": "https://www.bequiet.com/en/powersupply"
+    }
+  },
+  {
+    "id": "c-psu-be-quiet-straight-power-12-850w",
+    "name": "be quiet! Straight Power 12 850W",
+    "category": "psu",
+    "sourceUrl": "https://www.bequiet.com/en/powersupply",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/component-new-psu-bequiet-full.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "c-psu-be-quiet-straight-power-12-850w",
+      "name": "be quiet! Straight Power 12 850W",
+      "brand": "be quiet!",
+      "cat": "psu",
+      "year": 2023,
+      "architecture": "ATX power supply",
+      "summary": "850 W power supply",
+      "specs": {
+        "Rated output": 850
+      },
+      "source": "https://www.bequiet.com/en/powersupply"
+    }
+  },
+  {
+    "id": "c-psu-be-quiet-pure-power-12-m-1000w",
+    "name": "be quiet! Pure Power 12 M 1000W",
+    "category": "psu",
+    "sourceUrl": "https://www.bequiet.com/en/powersupply",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/component-new-psu-bequiet-full.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "c-psu-be-quiet-pure-power-12-m-1000w",
+      "name": "be quiet! Pure Power 12 M 1000W",
+      "brand": "be quiet!",
+      "cat": "psu",
+      "year": 2023,
+      "architecture": "ATX power supply",
+      "summary": "1000 W power supply",
+      "specs": {
+        "Rated output": 1000
+      },
+      "source": "https://www.bequiet.com/en/powersupply"
+    }
+  },
+  {
+    "id": "c-psu-be-quiet-pure-power-12-m-750w",
+    "name": "be quiet! Pure Power 12 M 750W",
+    "category": "psu",
+    "sourceUrl": "https://www.bequiet.com/en/powersupply",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/component-new-psu-bequiet-full.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "c-psu-be-quiet-pure-power-12-m-750w",
+      "name": "be quiet! Pure Power 12 M 750W",
+      "brand": "be quiet!",
+      "cat": "psu",
+      "year": 2023,
+      "architecture": "ATX power supply",
+      "summary": "750 W power supply",
+      "specs": {
+        "Rated output": 750
+      },
+      "source": "https://www.bequiet.com/en/powersupply"
+    }
+  },
+  {
+    "id": "c-psu-be-quiet-system-power-10-650w",
+    "name": "be quiet! System Power 10 650W",
+    "category": "psu",
+    "sourceUrl": "https://www.bequiet.com/en/powersupply",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/component-new-psu-corsair-cx430.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "c-psu-be-quiet-system-power-10-650w",
+      "name": "be quiet! System Power 10 650W",
+      "brand": "be quiet!",
+      "cat": "psu",
+      "year": 2022,
+      "architecture": "ATX power supply",
+      "summary": "650 W power supply",
+      "specs": {
+        "Rated output": 650
+      },
+      "source": "https://www.bequiet.com/en/powersupply"
+    }
+  },
+  {
+    "id": "c-psu-cooler-master-v-platinum-v2-1300",
+    "name": "Cooler Master V Platinum V2 1300",
+    "category": "psu",
+    "sourceUrl": "https://www.coolermaster.com/en-global/catalog/power-supplies/",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/component-new-psu-corsair-modular.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "c-psu-cooler-master-v-platinum-v2-1300",
+      "name": "Cooler Master V Platinum V2 1300",
+      "brand": "Cooler Master",
+      "cat": "psu",
+      "year": 2021,
+      "architecture": "ATX power supply",
+      "summary": "1300 W power supply",
+      "specs": {
+        "Rated output": 1300
+      },
+      "source": "https://www.coolermaster.com/en-global/catalog/power-supplies/"
+    }
+  },
+  {
+    "id": "c-psu-cooler-master-v-gold-i-multi-1050",
+    "name": "Cooler Master V Gold i Multi 1050",
+    "category": "psu",
+    "sourceUrl": "https://www.coolermaster.com/en-global/catalog/power-supplies/",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/component-new-psu-corsair-modular.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "c-psu-cooler-master-v-gold-i-multi-1050",
+      "name": "Cooler Master V Gold i Multi 1050",
+      "brand": "Cooler Master",
+      "cat": "psu",
+      "year": 2023,
+      "architecture": "ATX power supply",
+      "summary": "1050 W power supply",
+      "specs": {
+        "Rated output": 1050
+      },
+      "source": "https://www.coolermaster.com/en-global/catalog/power-supplies/"
+    }
+  },
+  {
+    "id": "c-psu-supermicro-1600w-redundant-power-supply",
+    "name": "Supermicro 1600W Redundant Power Supply",
+    "category": "psu",
+    "sourceUrl": "https://www.supermicro.com/en/products/power-supplies",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/component-new-psu-redundant.jpg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "c-psu-supermicro-1600w-redundant-power-supply",
+      "name": "Supermicro 1600W Redundant Power Supply",
+      "brand": "Supermicro",
+      "cat": "psu",
+      "year": 2023,
+      "architecture": "Server redundant power supply",
+      "summary": "1600 W redundant power system",
+      "specs": {
+        "Rated output": 1600
+      },
+      "source": "https://www.supermicro.com/en/products/power-supplies"
+    }
+  },
+  {
+    "id": "retail-seasonic-m12ii-evo-620w",
+    "name": "M12II EVO 620W",
+    "category": "psu",
+    "sourceUrl": "https://seasonic.com/product/m12ii-evo/",
+    "status": "needs-correct-photo",
+    "image": null,
+    "thumbnail": null,
+    "picturedModel": null,
+    "kind": null,
+    "previousImage": "/assets/hardware/seasonic-m12ii-enclosure.svg",
+    "imageChanged": true,
+    "previouslyVisibleInBuilder": false,
+    "sourceAudits": [
+      "storage-psu-audit.json"
+    ],
+    "record": {
+      "id": "retail-seasonic-m12ii-evo-620w",
+      "name": "M12II EVO 620W",
+      "brand": "Seasonic",
+      "cat": "psu",
+      "source": "https://seasonic.com/product/m12ii-evo/",
+      "architecture": "ATX / EPS · Fully modular",
+      "summary": "620 W · 80 PLUS Bronze",
+      "specs": {
+        "Rated output": 620,
+        "Fan size": 120
+      },
+      "physical": {}
+    }
+  }
+]

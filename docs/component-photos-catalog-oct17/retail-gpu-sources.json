@@ -1,0 +1,36 @@
+{
+  "checkedAt": "2026-10-17T19:24:11.130Z",
+  "scope": "Two previously unresolved named partner GPU photographs",
+  "sources": {
+    "retail-zotac-geforce-rtx-3060-twin-edge": {
+      "manufacturerUrl": "https://www.zotac.com/us/product/graphics_card/zotac-gaming-geforce-rtx-3060-twin-edge",
+      "sourceUrl": "https://asset.conrad.com/media10/add/160267/c1/-/de/860939628DS00/datenblatt-2840846-zotac-gaming-geforce-rtx-3060-twin-edge-grafikkarten.pdf",
+      "sku": "ZT-A30600E-10M",
+      "sourceSha256": "0bcc02892d590259380a6fc0bfb7e8bdfd2dcc0c156e72230c13357aa8f6fc83",
+      "extractedSha256": "ad7588b7a43678a746e0a9c930377f16d2e73790dab6c17ab08f4d477092802f",
+      "sourceImageObject": "page1/X0",
+      "visualReviewed": true,
+      "lowResolution": false,
+      "notes": "Exact supplier sheet page1 names ZT-A30600E-10M and catalog model. Embedded image X0 extracted and inspected: black dual-fan card with Twin Edge,3060 and12GB packaging. Non-OC SKU."
+    },
+    "retail-gigabyte-geforce-rtx-4090-aero-oc-24g": {
+      "manufacturerUrl": "https://www.gigabyte.com/ca/Graphics-Card/GV-N4090AERO-OC-24GD/sp",
+      "sourceUrl": "https://asset.conrad.com/media10/add/160267/c1/-/de/860964231DS00/datablad-2841379-gigabyte-rtx-4090-videokaart-24-gb-pcie-40-x4.pdf",
+      "sku": "GV-N4090AERO OC-24GD",
+      "sourceSha256": "ee895eaa319e45063b2c06c0c6ecc2c5ad39cbec23b956b9f073583f4a738bf7",
+      "extractedSha256": "4259a061fb7cab3f5cf1d336c6961abce3c408c2dc167a4ca29ed966d0dd1f15",
+      "sourceImageObject": "page1/X0",
+      "visualReviewed": true,
+      "lowResolution": true,
+      "notes": "Exact supplier sheet page1 names GV-N4090AERO OC-24GD and catalog model. Embedded image X0 extracted and inspected: white triple-fan AERO card matching the exact24GB OC SKU. Native200px supplier image retained without enlargement."
+    }
+  },
+  "rejected": [
+    {
+      "url": "https://www.gigabyte.com/FileUpload/Global/KeyFeature/2338/innergigabyteimages/kft2.png",
+      "status": 403,
+      "action": "No retry; alternate exact supplier sheet used."
+    }
+  ],
+  "rights": "Supplier product media retain their owners copyright and are not represented as open-license or clearance-certified material."
+}

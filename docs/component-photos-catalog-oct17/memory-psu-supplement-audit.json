@@ -1,0 +1,1735 @@
+{
+  "checkedAt": "2026-10-17T19:21:09.638Z",
+  "scope": "64 missing RAM/PSU IDs frozen from final-coverage.json at delegation start; only supplemental registry/assets/docs edited.",
+  "counts": {
+    "total": 64,
+    "repaired": 56,
+    "unresolved": 8,
+    "byCategory": {
+      "ram": {
+        "total": 27,
+        "repaired": 21,
+        "unresolved": 6
+      },
+      "psu": {
+        "total": 37,
+        "repaired": 35,
+        "unresolved": 2
+      }
+    },
+    "assetFiles": 112,
+    "assetBytes": 2792358
+  },
+  "rights": "Publicly published product photos, original copyright retained. No open reuse license or permission grant established. Future editorial photo explicitly attributed.",
+  "researchFiles": "memory-psu-supplement-research-1.json through -8.json",
+  "structuredSourceEvidence": [
+    "memory-psu-supplement-page-media.json",
+    "memory-psu-supplement-extra-pages.json",
+    "memory-psu-supplement-identity-check.json"
+  ],
+  "rows": [
+    {
+      "id": "crucialpro6000",
+      "catalogName": "Crucial Pro Overclocking DDR5-6000 CL36",
+      "category": "ram",
+      "catalogSourceUrl": "https://www.crucial.com/memory/ddr5/cp2k16g60c36u5b",
+      "status": "repaired-reviewed",
+      "attempted": true,
+      "researchedCandidates": 12,
+      "previousAttempts": [
+        {
+          "url": "https://www.crucial.com/memory/ddr5/cp2k16g60c36u5b",
+          "status": 200,
+          "finalUrl": "https://www.crucial.com/memory/ddr5/cp2k16g60c36u5b",
+          "title": "Request Rejected"
+        }
+      ],
+      "reason": "Exact named product with matching specifications accepted after actual image inspection.",
+      "picturedModel": "Crucial Pro Overclocking 32GB (2x16GB) DDR5-6000 CL36 Black CP2K16G60C36U5B",
+      "sourceUrl": "https://www.ldlc.com/fiche/PB00610221.html",
+      "imageUrl": "https://media.ldlc.com/r1600/ld/products/00/06/12/89/LD0006128931.jpg",
+      "src": "/assets/hardware/catalog-memory-psu-supplement-oct17/crucialpro6000-c220a92073.webp",
+      "thumbnailSrc": "/assets/hardware/catalog-memory-psu-supplement-oct17/crucialpro6000-c220a92073-320.webp",
+      "sha256": "a1d0b1b6f04a657322d67603b57a97be431d0117b00570353f7946a33346071f",
+      "thumbnailSha256": "72a577b9064e9e13e1ea1813edab94062f33a12f451ddda3453a0c8408cbd140",
+      "visualReviewed": true
+    },
+    {
+      "id": "primetx1000",
+      "catalogName": "PRIME TX-1000",
+      "category": "psu",
+      "catalogSourceUrl": "https://seasonic.com/prime-tx/",
+      "status": "repaired-reviewed",
+      "attempted": true,
+      "researchedCandidates": 11,
+      "previousAttempts": [
+        {
+          "url": "https://seasonic.com/prime-tx/",
+          "status": 403,
+          "finalUrl": "https://seasonic.com/prime-tx/",
+          "title": "Attention Required! | Cloudflare"
+        }
+      ],
+      "reason": "Exact named product with matching specifications accepted after actual image inspection.",
+      "picturedModel": "Seasonic PRIME TX-1000 1000W 80 PLUS Titanium SSR-1000TR",
+      "sourceUrl": "https://www.ldlc.com/en/product/PB00313575.html",
+      "imageUrl": "https://media.ldlc.com/r1600/ld/products/00/05/58/31/LD0005583126_2.jpg",
+      "src": "/assets/hardware/catalog-memory-psu-supplement-oct17/primetx1000-3fc380cae8.webp",
+      "thumbnailSrc": "/assets/hardware/catalog-memory-psu-supplement-oct17/primetx1000-3fc380cae8-320.webp",
+      "sha256": "fb6659ad3ae33ebfccd36917ae3ed9b0fdd58cd4ffb0c4043eb980baca045a28",
+      "thumbnailSha256": "aebb174789f8d11230876f0c834eac0dca49e3b192537d25aea5c1a03395690f",
+      "visualReviewed": true
+    },
+    {
+      "id": "straightpower850",
+      "catalogName": "Straight Power 12 850W",
+      "category": "psu",
+      "catalogSourceUrl": "https://www.bequiet.com/en/powersupply/4109",
+      "status": "repaired-reviewed",
+      "attempted": true,
+      "researchedCandidates": 11,
+      "previousAttempts": [
+        {
+          "url": "https://www.bequiet.com/en/powersupply/4109",
+          "status": 403,
+          "finalUrl": "https://www.bequiet.com/en/powersupply/4109",
+          "title": "Just a moment..."
+        },
+        {
+          "url": "https://www.bequiet.com/en/powersupply/4103",
+          "status": 403,
+          "finalUrl": "https://www.bequiet.com/en/powersupply/4103"
+        }
+      ],
+      "reason": "Exact named product with matching specifications accepted after actual image inspection.",
+      "picturedModel": "be quiet! Straight Power 12 850W ATX 3.0 BN337",
+      "sourceUrl": "https://hard.rozetka.com.ua/ua/be-quiet-bn337/p389047113/",
+      "imageUrl": "https://content2.rozetka.com.ua/goods/images/big/353761559.jpg",
+      "src": "/assets/hardware/catalog-memory-psu-supplement-oct17/straightpower850-b34abce466.webp",
+      "thumbnailSrc": "/assets/hardware/catalog-memory-psu-supplement-oct17/straightpower850-b34abce466-320.webp",
+      "sha256": "71e8f3eaa82ae5682cc652c1cbba7bcdb21b29f2018a33b1c9a3b351d03b02a2",
+      "thumbnailSha256": "e04593c9d8782c0ab40c630447639e84436c191211200ce104cb601f8199c462",
+      "visualReviewed": true
+    },
+    {
+      "id": "crucial3200",
+      "catalogName": "Crucial Pro DDR4-3200 CL22",
+      "category": "ram",
+      "catalogSourceUrl": "https://www.crucial.com/memory/ddr4/cp2k16g4dfra32a",
+      "status": "repaired-reviewed",
+      "attempted": true,
+      "researchedCandidates": 12,
+      "previousAttempts": [
+        {
+          "url": "https://www.crucial.com/memory/ddr4/cp2k16g4dfra32a",
+          "status": 200,
+          "finalUrl": "https://www.crucial.com/memory/ddr4/cp2k16g4dfra32a",
+          "title": "Request Rejected"
+        }
+      ],
+      "reason": "Umart Product JSON-LD explicitly identifies CP2K16G4DFRA32A, 32GB (2x16GB), DDR4 Pro 3200 MT/s and CAS22. Selected its actual main photo, replacing a long promotional graphic.",
+      "picturedModel": "Crucial Pro 32GB (2x16GB) DDR4-3200 CL22 Black CP2K16G4DFRA32A",
+      "sourceUrl": "https://www.umart.com.au/product/crucial-32gb-2x16gb-cp2k16g4dfra32a-3200mhz-cl22-udimm-ddr4-ram-with-heatsink-73958",
+      "imageUrl": "https://assets.umart.com.au/newsite/images/202310/goods_img/Crucial-32GB-2x16GB-CP2K16G4DFRA32A-UDIMM-3200MHz-CL22-DDR4-RAM-1.jpg",
+      "src": "/assets/hardware/catalog-memory-psu-supplement-oct17/crucial3200-8487c5242f.webp",
+      "thumbnailSrc": "/assets/hardware/catalog-memory-psu-supplement-oct17/crucial3200-8487c5242f-320.webp",
+      "sha256": "0459d90a0b6ff0376b20a3440e0a47b2a997bed360fbb320ee43ba741d93bc15",
+      "thumbnailSha256": "6b9a7f6fcb785500040f7551e5eac8c559f5a6c3eea9422cff251276b7abc5a0",
+      "visualReviewed": true
+    },
+    {
+      "id": "sf1000l",
+      "catalogName": "SF1000L",
+      "category": "psu",
+      "catalogSourceUrl": "https://www.corsair.com/us/en/p/psu/cp-9020257-na/sf1000l-fully-modular-low-noise-sfx-power-supply-cp-9020257-na",
+      "status": "repaired-reviewed",
+      "attempted": true,
+      "researchedCandidates": 12,
+      "previousAttempts": [
+        {
+          "url": "https://www.corsair.com/us/en/p/psu/cp-9020257-na/sf1000l-fully-modular-low-noise-sfx-power-supply-cp-9020257-na",
+          "status": 200,
+          "finalUrl": "https://www.corsair.com/us/en/p/psu/cp-9020257-na/sf1000l-fully-modular-low-noise-sfx-power-supply-cp-9020257-na",
+          "title": "SF Series SF1000 Fully Modular 80 PLUS Platinum SFX Power Supply"
+        },
+        {
+          "url": "https://www.corsair.com/us/en/p/psu/cp-9020257-na/sf1000l-fully-modular-low-noise-sfx-power-supply-cp-9020257-na",
+          "status": 200,
+          "finalUrl": "https://www.corsair.com/us/en/p/psu/cp-9020257-na/sf1000l-fully-modular-low-noise-sfx-power-supply-cp-9020257-na",
+          "title": "SF Series SF1000 Fully Modular 80 PLUS Platinum SFX Power Supply"
+        }
+      ],
+      "reason": "Correct SF1000L is CP-9020246, SFX-L and 80 PLUS Gold. The catalog source CP-9020257 resolves to a different SF1000 SFX Platinum product; that product was not used.",
+      "picturedModel": "CORSAIR SF1000L 1000W 80 PLUS Gold SFX-L CP-9020246",
+      "sourceUrl": "https://www.ldlc.com/en/product/PB00552966.html",
+      "imageUrl": "https://media.ldlc.com/r1600/ld/products/00/06/03/44/LD0006034438.jpg",
+      "src": "/assets/hardware/catalog-memory-psu-supplement-oct17/sf1000l-75166b7a9a.webp",
+      "thumbnailSrc": "/assets/hardware/catalog-memory-psu-supplement-oct17/sf1000l-75166b7a9a-320.webp",
+      "sha256": "3581ed26d12ca762c26898e86e7a34b49d6f177d8e41212d56816b598c7e58dd",
+      "thumbnailSha256": "05a504e20c06d4715bd5cb19873441d65a35e354b2abefdfcd891ca56ae26924",
+      "visualReviewed": true
+    },
+    {
+      "id": "darkpower1000",
+      "catalogName": "Dark Power 13 1000W",
+      "category": "psu",
+      "catalogSourceUrl": "https://www.bequiet.com/en/powersupply/4046",
+      "status": "repaired-reviewed",
+      "attempted": true,
+      "researchedCandidates": 9,
+      "previousAttempts": [
+        {
+          "url": "https://www.bequiet.com/en/powersupply/4046",
+          "status": 403,
+          "finalUrl": "https://www.bequiet.com/en/powersupply/4046",
+          "title": "Just a moment..."
+        }
+      ],
+      "reason": "Exact named product with matching specifications accepted after actual image inspection.",
+      "picturedModel": "be quiet! Dark Power 13 1000W ATX 3.0 BN335",
+      "sourceUrl": "https://www.ldlc.com/en/product/PB00540323.html",
+      "imageUrl": "https://media.ldlc.com/r1600/ld/products/00/06/00/89/LD0006008943.jpg",
+      "src": "/assets/hardware/catalog-memory-psu-supplement-oct17/darkpower1000-026421a815.webp",
+      "thumbnailSrc": "/assets/hardware/catalog-memory-psu-supplement-oct17/darkpower1000-026421a815-320.webp",
+      "sha256": "fccae0e6e39cc16e2c8444c60f1a4d3ff67177b9bfb80d05fdd93c0f05a662d5",
+      "thumbnailSha256": "7dc353062919d444ac1a26d2d72dbb70cf6b36c0f840c15a33a7db4eefeffff6",
+      "visualReviewed": true
+    },
+    {
+      "id": "evgag6850",
+      "catalogName": "SuperNOVA 850 G6",
+      "category": "psu",
+      "catalogSourceUrl": "https://www.evga.com/products/product.aspx?pn=220-G6-0850-X1",
+      "status": "repaired-reviewed",
+      "attempted": true,
+      "researchedCandidates": 12,
+      "previousAttempts": [
+        {
+          "url": "https://www.evga.com/products/product.aspx?pn=220-G6-0850-X1",
+          "status": 200,
+          "finalUrl": "https://www.evga.com/default.asp",
+          "title": "EVGA - Intelligent Innovation - Official Website"
+        },
+        {
+          "url": "https://www.evga.com/power-meter/?pmid=2058798",
+          "status": 200,
+          "finalUrl": "https://www.evga.com/default.asp",
+          "title": "EVGA - Intelligent Innovation - Official Website"
+        }
+      ],
+      "reason": "Exact named product with matching specifications accepted after actual image inspection.",
+      "picturedModel": "EVGA SuperNOVA 850 G6 850W 80 PLUS Gold 220-G6-0850",
+      "sourceUrl": "https://www.ldlc.com/en/product/PB00661481.html",
+      "imageUrl": "https://media.ldlc.com/r1600/ld/products/00/06/20/32/LD0006203267.jpg",
+      "src": "/assets/hardware/catalog-memory-psu-supplement-oct17/evgag6850-52f78c3b97.webp",
+      "thumbnailSrc": "/assets/hardware/catalog-memory-psu-supplement-oct17/evgag6850-52f78c3b97-320.webp",
+      "sha256": "c4ea76658dab7ddee55ca379793c32f8f9f3689a3c35eba24365c7a246a80af0",
+      "thumbnailSha256": "eb34880540b906ee3f676a367b8a53be0b08f33e23ba1206c1aaff43aefd2095",
+      "visualReviewed": true
+    },
+    {
+      "id": "ballistix3600",
+      "catalogName": "Ballistix DDR4-3600 CL16",
+      "category": "ram",
+      "catalogSourceUrl": "https://www.crucial.com/memory/ddr4/bl2k16g36c16u4b",
+      "status": "repaired-reviewed",
+      "attempted": true,
+      "researchedCandidates": 12,
+      "previousAttempts": [
+        {
+          "url": "https://www.crucial.com/memory/ddr4/bl2k16g36c16u4b",
+          "status": 200,
+          "finalUrl": "https://www.crucial.com/memory/ddr4/bl2k16g36c16u4b",
+          "title": "Request Rejected"
+        }
+      ],
+      "reason": "Exact named product with matching specifications accepted after actual image inspection.",
+      "picturedModel": "Crucial Ballistix 32GB (2x16GB) DDR4-3600 CL16 Black BL2K16G36C16U4B",
+      "sourceUrl": "https://www.auditech.com.au/crucial-ballistix-32-gb-2-x-16-gb-ddr4-3600-cl16-memory-black",
+      "imageUrl": "https://www.auditech.com.au/content/images/thumbs/0006238_crucial-ballistix-32gb-2-x-16gb-ddr4-3600-cl16-memory-kit-bl2k16g36c16u4b-black_600.jpeg",
+      "src": "/assets/hardware/catalog-memory-psu-supplement-oct17/ballistix3600-7029730de6.webp",
+      "thumbnailSrc": "/assets/hardware/catalog-memory-psu-supplement-oct17/ballistix3600-7029730de6-320.webp",
+      "sha256": "6fc12b0ffad9c830a92b3a41598e41ad0253b89c1817520c0b468e33d1bc0a32",
+      "thumbnailSha256": "12ab37e2d1c940202b2630ff5487328c7951aef36d11f626def079dceeff18ef",
+      "visualReviewed": true
+    },
+    {
+      "id": "vipersteel4400",
+      "catalogName": "Viper Steel DDR4-4400 CL19",
+      "category": "ram",
+      "catalogSourceUrl": "https://viper.patriotmemory.com/products/viper-steel-ddr4-performance-memory-ram-viper-gaming-by-patriot-memory",
+      "status": "repaired-reviewed",
+      "attempted": true,
+      "researchedCandidates": 9,
+      "previousAttempts": [
+        {
+          "url": "https://viper.patriotmemory.com/products/viper-steel-ddr4-performance-memory-ram-viper-gaming-by-patriot-memory",
+          "status": 200,
+          "finalUrl": "https://www.patriotmemory.com/products/viper-steel-ddr4-performance-memory-ram-viper-gaming-by-patriot-memory",
+          "title": " Viper Steel DDR4 | Patriot Memory"
+        }
+      ],
+      "reason": "Exact named product with matching specifications accepted after actual image inspection.",
+      "picturedModel": "Patriot Viper Steel 16GB (2x8GB) DDR4-4400 CL19 Gray PVS416G440C9K",
+      "sourceUrl": "https://www.compware-agency.com/product/4259/patriot-viper-steel-series-ddr4-16gb-2-x-8gb-4400mhz-kit-ram-pc-life-time-warranty-pvs416g440c9k",
+      "imageUrl": "https://inwfile.com/s-fp/47vdi7.jpg",
+      "src": "/assets/hardware/catalog-memory-psu-supplement-oct17/vipersteel4400-b2a82564f4.webp",
+      "thumbnailSrc": "/assets/hardware/catalog-memory-psu-supplement-oct17/vipersteel4400-b2a82564f4-320.webp",
+      "sha256": "52b70b09c75fce13e4ed13f14815d8faad665523414c6eb08785533d03821b0a",
+      "thumbnailSha256": "0464a7364c2bd64a38d96cab74171b258483605ce534f3b9cdad2bbc233c4bbd",
+      "visualReviewed": true
+    },
+    {
+      "id": "vertexgx1000",
+      "catalogName": "VERTEX GX-1000",
+      "category": "psu",
+      "catalogSourceUrl": "https://seasonic.com/vertex-gx/",
+      "status": "repaired-reviewed",
+      "attempted": true,
+      "researchedCandidates": 12,
+      "previousAttempts": [
+        {
+          "url": "https://seasonic.com/vertex-gx/",
+          "status": 403,
+          "finalUrl": "https://seasonic.com/vertex-gx/",
+          "title": "Attention Required! | Cloudflare"
+        }
+      ],
+      "reason": "Exact named product with matching specifications accepted after actual image inspection.",
+      "picturedModel": "Seasonic VERTEX GX-1000 1000W 80 PLUS Gold ATX 3.0 Black",
+      "sourceUrl": "https://www.pccasegear.com/products/60874/seasonic-vertex-atx-3-0-80-plus-gold-1000w-power-supply",
+      "imageUrl": "https://files.pccasegear.com/images/VERTEX-GX-1000-add6.jpg",
+      "src": "/assets/hardware/catalog-memory-psu-supplement-oct17/vertexgx1000-3e477d2352.webp",
+      "thumbnailSrc": "/assets/hardware/catalog-memory-psu-supplement-oct17/vertexgx1000-3e477d2352-320.webp",
+      "sha256": "39711ed786d4c227bcac71315475c6fc1f9c8758c79518200922c2bd8c7de284",
+      "thumbnailSha256": "a187309a0bbedbdbaee95a827399cae028262ba3cbf4e546af4c4d2107c07179",
+      "visualReviewed": true
+    },
+    {
+      "id": "purepower850",
+      "catalogName": "Pure Power 12 M 850W",
+      "category": "psu",
+      "catalogSourceUrl": "https://www.bequiet.com/en/powersupply/4067",
+      "status": "repaired-reviewed",
+      "attempted": true,
+      "researchedCandidates": 11,
+      "previousAttempts": [
+        {
+          "url": "https://www.bequiet.com/en/powersupply/4067",
+          "status": 403,
+          "finalUrl": "https://www.bequiet.com/en/powersupply/4067",
+          "title": "Just a moment..."
+        }
+      ],
+      "reason": "Exact named product with matching specifications accepted after actual image inspection.",
+      "picturedModel": "be quiet! Pure Power 12 M 850W ATX 3.0 BN344",
+      "sourceUrl": "https://www.ldlc.com/en/product/PB00540385.html",
+      "imageUrl": "https://media.ldlc.com/r1600/ld/products/00/06/00/94/LD0006009447.jpg",
+      "src": "/assets/hardware/catalog-memory-psu-supplement-oct17/purepower850-9da37dda32.webp",
+      "thumbnailSrc": "/assets/hardware/catalog-memory-psu-supplement-oct17/purepower850-9da37dda32-320.webp",
+      "sha256": "5f54b05afa91471218c4db0cfc4ff979fa5ed82cba0affc9f13f7ba5279f5b52",
+      "thumbnailSha256": "b1816ea21975330d3c5d1674a235fac3d0c35f02cc6277dd0f69db89f488292f",
+      "visualReviewed": true
+    },
+    {
+      "id": "evgag6750",
+      "catalogName": "SuperNOVA 750 G6",
+      "category": "psu",
+      "catalogSourceUrl": "https://www.evga.com/products/product.aspx?pn=220-G6-0750-X1",
+      "status": "repaired-reviewed",
+      "attempted": true,
+      "researchedCandidates": 12,
+      "previousAttempts": [
+        {
+          "url": "https://www.evga.com/products/product.aspx?pn=220-G6-0750-X1",
+          "status": 200,
+          "finalUrl": "https://www.evga.com/default.asp",
+          "title": "EVGA - Intelligent Innovation - Official Website"
+        }
+      ],
+      "reason": "Exact named product with matching specifications accepted after actual image inspection.",
+      "picturedModel": "EVGA SuperNOVA 750 G6 750W 80 PLUS Gold 220-G6-0750",
+      "sourceUrl": "https://www.ldlc.com/en/product/PB00460059.html",
+      "imageUrl": "https://media.ldlc.com/r1600/ld/products/00/05/88/56/LD0005885609_1.jpg",
+      "src": "/assets/hardware/catalog-memory-psu-supplement-oct17/evgag6750-b2c45f439b.webp",
+      "thumbnailSrc": "/assets/hardware/catalog-memory-psu-supplement-oct17/evgag6750-b2c45f439b-320.webp",
+      "sha256": "f0da2c6f8f5c107412b7526f1f30239cc76c74f3233275b5cb89677236a411d9",
+      "thumbnailSha256": "6f5ab2463f01ec6841bc9fd39a81b48094371ece78ca88a33d3cc1efb52e38c6",
+      "visualReviewed": true
+    },
+    {
+      "id": "crucialpro6400",
+      "catalogName": "Crucial Pro Overclocking DDR5-6400 CL38",
+      "category": "ram",
+      "catalogSourceUrl": "https://www.crucial.com/memory/ddr5/cp2k16g64c38u5b",
+      "status": "repaired-reviewed",
+      "attempted": true,
+      "researchedCandidates": 12,
+      "previousAttempts": [
+        {
+          "url": "https://www.crucial.com/memory/ddr5/cp2k16g64c38u5b",
+          "status": 200,
+          "finalUrl": "https://www.crucial.com/memory/ddr5/cp2k16g64c38u5b",
+          "title": "Request Rejected"
+        }
+      ],
+      "reason": "PCByte Product JSON-LD explicitly identifies CP2K16G64C38U5B; page specifies 32GB (2x16GB), 6400 MT/s, CL38 and matte-black heatspreaders. Selected actual main product photo, not unrelated Crucial CUDIMM CL52 search images.",
+      "picturedModel": "Crucial Pro Overclocking 32GB (2x16GB) DDR5-6400 CL38 Black CP2K16G64C38U5B",
+      "sourceUrl": "https://www.pcbyte.com.au/product/crucial-32gb-2x16gb-cp2k16g64c38u5b-pro-6400-cl38-oc-udimm-ddr5-ram-92219",
+      "imageUrl": "https://assets.pcbyte.com.au/newsite/images/202601/goods_img/Crucial-32GB-2x16GB-CP2K16G64C38U5B-Pro-6400-CL38-OC-UDIMM-DDR5-RAM-3.jpg",
+      "src": "/assets/hardware/catalog-memory-psu-supplement-oct17/crucialpro6400-6ca39b84d1.webp",
+      "thumbnailSrc": "/assets/hardware/catalog-memory-psu-supplement-oct17/crucialpro6400-6ca39b84d1-320.webp",
+      "sha256": "cae0b2edf0155605deca7354804da888856047a03b5e6b6b9c17979993e96a09",
+      "thumbnailSha256": "ab684bb3c280379d1700f2eb919c6a61e18d782bf33f8a668a7b4138de8bc73f",
+      "visualReviewed": true
+    },
+    {
+      "id": "coregx650",
+      "catalogName": "CORE GX-650",
+      "category": "psu",
+      "catalogSourceUrl": "https://seasonic.com/core-gx/",
+      "status": "repaired-reviewed",
+      "attempted": true,
+      "researchedCandidates": 11,
+      "previousAttempts": [
+        {
+          "url": "https://seasonic.com/core-gx/",
+          "status": 403,
+          "finalUrl": "https://seasonic.com/core-gx/",
+          "title": "Attention Required! | Cloudflare"
+        }
+      ],
+      "reason": "Close-up confirms GX-650 and 650 WATTS on packaging, and original SSR-650LX chassis. Larger clearer retailer image retained; original small Newegg image was also confirmed 650W after zooming.",
+      "picturedModel": "Seasonic CORE GX-650 650W 80 PLUS Gold SSR-650LX, original fully modular model",
+      "sourceUrl": "https://nevateka.ru/catalog/product/4394/",
+      "imageUrl": "https://nevateka.ru/upload/iblock/aec/y29bwlgbjsgf4dk6w27fgg8t44qqgkzr/1412392_v06_b.jpg",
+      "src": "/assets/hardware/catalog-memory-psu-supplement-oct17/coregx650-20c034f889.webp",
+      "thumbnailSrc": "/assets/hardware/catalog-memory-psu-supplement-oct17/coregx650-20c034f889-320.webp",
+      "sha256": "9e6e4b6539ceb58700b4f54ebd947f99d6f8c0bf61556e0399133e46126abf1d",
+      "thumbnailSha256": "43675c905baab7116bd1a61d1131c23deacfde2f090b38cb21f3522073c8b357",
+      "visualReviewed": true
+    },
+    {
+      "id": "primetx1300",
+      "catalogName": "PRIME TX-1300",
+      "category": "psu",
+      "catalogSourceUrl": "https://seasonic.com/prime-tx/",
+      "status": "repaired-reviewed",
+      "attempted": true,
+      "researchedCandidates": 12,
+      "previousAttempts": [
+        {
+          "url": "https://seasonic.com/prime-tx/",
+          "status": 403,
+          "finalUrl": "https://seasonic.com/prime-tx/",
+          "title": "Attention Required! | Cloudflare"
+        }
+      ],
+      "reason": "Exact named product with matching specifications accepted after actual image inspection.",
+      "picturedModel": "Seasonic PRIME TX-1300 1300W 80 PLUS Titanium ATX 3.0 SSR-1300TR2",
+      "sourceUrl": "https://www.ldlc.com/fr-be/fiche/PB00574058.html",
+      "imageUrl": "https://media.ldlc.com/r1600/ld/products/00/06/07/01/LD0006070126_0006070144.jpg",
+      "src": "/assets/hardware/catalog-memory-psu-supplement-oct17/primetx1300-9d75beaea6.webp",
+      "thumbnailSrc": "/assets/hardware/catalog-memory-psu-supplement-oct17/primetx1300-9d75beaea6-320.webp",
+      "sha256": "28df501d18c708c1dde2370759d7304bf4557735076275bb6ae832e14e074e3a",
+      "thumbnailSha256": "81bd3d58cd23f31da267121f57f70e30af490b48f6b147941741fa935aa6f6d1",
+      "visualReviewed": true
+    },
+    {
+      "id": "straightpower1000",
+      "catalogName": "Straight Power 12 1000W",
+      "category": "psu",
+      "catalogSourceUrl": "https://www.bequiet.com/en/powersupply/4110",
+      "status": "repaired-reviewed",
+      "attempted": true,
+      "researchedCandidates": 12,
+      "previousAttempts": [
+        {
+          "url": "https://www.bequiet.com/en/powersupply/4110",
+          "status": 403,
+          "finalUrl": "https://www.bequiet.com/en/powersupply/4110",
+          "title": "Just a moment..."
+        }
+      ],
+      "reason": "Exact named product with matching specifications accepted after actual image inspection.",
+      "picturedModel": "be quiet! Straight Power 12 1000W ATX 3.0 BN338",
+      "sourceUrl": "https://ke.microless.com/product/be-quiet-straight-power-12-fully-modular-power-supply-1000w-power-80-plus-platinum-efficiency-135mm-silent-wings-fan-12v-rail-active-pfc-full-bridge-llc-sr-dc-dc-technology-black-bn338/",
+      "imageUrl": "https://microless.com/cdn/products/0c23177b8147459eb1ed3469cc147b82-hi.jpg",
+      "src": "/assets/hardware/catalog-memory-psu-supplement-oct17/straightpower1000-ae3f09f9fc.webp",
+      "thumbnailSrc": "/assets/hardware/catalog-memory-psu-supplement-oct17/straightpower1000-ae3f09f9fc-320.webp",
+      "sha256": "236140c51e38612ecbaed89a2241a0bdfa33cf62878a99445245804733d261f4",
+      "thumbnailSha256": "57beb6fb92bd2d66b9842b423ce5316a23829a1842c8bd0f36f3c8553ab87c5d",
+      "visualReviewed": true
+    },
+    {
+      "id": "darkpower1600",
+      "catalogName": "Dark Power Pro 13 1600W",
+      "category": "psu",
+      "catalogSourceUrl": "https://www.bequiet.com/en/powersupply/4392",
+      "status": "repaired-reviewed",
+      "attempted": true,
+      "researchedCandidates": 11,
+      "previousAttempts": [
+        {
+          "url": "https://www.bequiet.com/en/powersupply/4392",
+          "status": 403,
+          "finalUrl": "https://www.bequiet.com/en/powersupply/4392",
+          "title": "Just a moment..."
+        }
+      ],
+      "reason": "Exact named product with matching specifications accepted after actual image inspection.",
+      "picturedModel": "be quiet! Dark Power Pro 13 1600W ATX 3.0 BN332",
+      "sourceUrl": "https://www.sanalmarketim.com/Urun/Be-Quiet%21-Dark-Power-Pro-13-1600W-80--Titanium-Tam-Moduler-Guc-Kaynagi----BN332/134790",
+      "imageUrl": "https://www.sanalmarketim.com/images/600/134790aceeccefe89b40dfa5f96e16fe68adec.jpg",
+      "src": "/assets/hardware/catalog-memory-psu-supplement-oct17/darkpower1600-1b7bbb1f07.webp",
+      "thumbnailSrc": "/assets/hardware/catalog-memory-psu-supplement-oct17/darkpower1600-1b7bbb1f07-320.webp",
+      "sha256": "3fa4c4f5b0db82f63f09c570ddf90944140b1113126674c229bfe16d88c7bdcb",
+      "thumbnailSha256": "12026322f0cafec4d6d8e3c9026c63732f48f4f78cc9e3b504419b36e7ab848f",
+      "visualReviewed": true
+    },
+    {
+      "id": "ibmpc64k",
+      "catalogName": "IBM PC 64 KB Memory Expansion Option",
+      "category": "ram",
+      "catalogSourceUrl": "https://www.ibm.com/history/personal-computer",
+      "status": "unresolved-identity",
+      "attempted": true,
+      "researchedCandidates": 11,
+      "previousAttempts": [
+        {
+          "url": "https://www.ibm.com/history/personal-computer",
+          "status": 200,
+          "finalUrl": "https://www.ibm.com/history/personal-computer",
+          "title": "The IBM PC "
+        }
+      ],
+      "reason": "IBM PC 64 KB Memory Expansion Option has no exact IBM board/option part number in the catalog. Search results include IBM and third-party memory adapters; no arbitrary card selected.",
+      "picturedModel": null,
+      "sourceUrl": null,
+      "imageUrl": null,
+      "src": null,
+      "thumbnailSrc": null,
+      "sha256": null,
+      "thumbnailSha256": null,
+      "visualReviewed": false
+    },
+    {
+      "id": "simm30-1mb",
+      "catalogName": "30-pin 1 MB SIMM",
+      "category": "ram",
+      "catalogSourceUrl": "https://www.computerhistory.org/collections/catalog/102710919",
+      "status": "unresolved-identity",
+      "attempted": true,
+      "researchedCandidates": 11,
+      "previousAttempts": [
+        {
+          "url": "https://www.computerhistory.org/collections/catalog/102710919",
+          "status": 200,
+          "finalUrl": "https://www.computerhistory.org/collections/catalog/102710919",
+          "title": "Kick plate - 102710919 - CHM"
+        }
+      ],
+      "reason": "Generic industry-standard 30-pin 1 MB SIMM record has no exact manufacturer or module part number. Research found named Samsung/IBM/NEC modules, but those would be historical examples rather than an exact catalog identity.",
+      "picturedModel": null,
+      "sourceUrl": null,
+      "imageUrl": null,
+      "src": null,
+      "thumbnailSrc": null,
+      "sha256": null,
+      "thumbnailSha256": null,
+      "visualReviewed": false
+    },
+    {
+      "id": "sdram-pc100",
+      "catalogName": "PC100 SDRAM 128 MB DIMM",
+      "category": "ram",
+      "catalogSourceUrl": "https://www.jedec.org/standards-documents/docs/jesd-21-c",
+      "status": "unresolved-identity",
+      "attempted": true,
+      "researchedCandidates": 11,
+      "previousAttempts": [
+        {
+          "url": "https://www.jedec.org/standards-documents/docs/jesd-21-c",
+          "status": 403,
+          "finalUrl": "https://www.jedec.org/standards-documents/docs/jesd-21-c",
+          "title": "Just a moment..."
+        }
+      ],
+      "reason": "Generic PC100 SDRAM 128 MB DIMM record has no manufacturer or module part number. Named 128 MB PC100 modules exist; no manufacturer example was silently promoted to an exact catalog image.",
+      "picturedModel": null,
+      "sourceUrl": null,
+      "imageUrl": null,
+      "src": null,
+      "thumbnailSrc": null,
+      "sha256": null,
+      "thumbnailSha256": null,
+      "visualReviewed": false
+    },
+    {
+      "id": "ddr266-256",
+      "catalogName": "DDR-266 256 MB DIMM",
+      "category": "ram",
+      "catalogSourceUrl": "https://www.jedec.org/standards-documents/docs/jesd79",
+      "status": "unresolved-identity",
+      "attempted": true,
+      "researchedCandidates": 11,
+      "previousAttempts": [
+        {
+          "url": "https://www.jedec.org/standards-documents/docs/jesd79",
+          "status": 403,
+          "finalUrl": "https://www.jedec.org/standards-documents/docs/jesd79",
+          "title": "Just a moment..."
+        }
+      ],
+      "reason": "Generic DDR-266 256 MB DIMM record has no manufacturer or module part number. Kingston/Micron/Crucial examples were researched but withheld because the catalog does not identify one.",
+      "picturedModel": null,
+      "sourceUrl": null,
+      "imageUrl": null,
+      "src": null,
+      "thumbnailSrc": null,
+      "sha256": null,
+      "thumbnailSha256": null,
+      "visualReviewed": false
+    },
+    {
+      "id": "c-ram-corsair-vengeance-48gb-ddr5-6400-cl36",
+      "catalogName": "CORSAIR Vengeance 48GB DDR5-6400 CL36",
+      "category": "ram",
+      "catalogSourceUrl": "https://www.corsair.com/us/en/c/memory",
+      "status": "repaired-reviewed",
+      "attempted": true,
+      "researchedCandidates": 10,
+      "previousAttempts": [
+        {
+          "url": "https://www.corsair.com/us/en/c/memory",
+          "status": 200,
+          "finalUrl": "https://www.corsair.com/us/en/c/memory",
+          "title": "PC RAM | Computer Gaming Memory | CORSAIR"
+        },
+        {
+          "url": "https://www.corsair.com/us/en/p/memory/cmk48gx5m2b6400c36/vengeance-48gb-2x24gb-ddr5-dram-6400mt-s-c36-memory-kit-black-cmk48gx5m2b6400c36",
+          "status": 200,
+          "finalUrl": "https://www.corsair.com/us/en/p/memory/cmk48gx5m2b6400c36/vengeance-48gb-2x24gb-ddr5-dram-6400mt-s-c36-memory-kit-black-cmk48gx5m2b6400c36",
+          "title": "VENGEANCE® 48GB (2x24GB) DDR5 DRAM 6400MT/s C36 Memory Kit — Black"
+        }
+      ],
+      "reason": "Exact named product with matching specifications accepted after actual image inspection.",
+      "picturedModel": "CORSAIR Vengeance 48GB (2x24GB) DDR5-6400 CL36 Black CMK48GX5M2B6400C36",
+      "sourceUrl": "https://www.avxperten.dk/corsair-vengeance-ram-modul-48gb-2x24gb-ddr5-6400-mhz-cl36.asp",
+      "imageUrl": "https://www.avxperten.dk/images/product/253627/800x800/6506241e-c8cc-4371-9525-a4b241e2ffad.jpg",
+      "src": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-ram-corsair-vengeance-48gb-ddr5-6400-cl36-f2ef1470eb.webp",
+      "thumbnailSrc": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-ram-corsair-vengeance-48gb-ddr5-6400-cl36-f2ef1470eb-320.webp",
+      "sha256": "0f39fef131847983eb6ca7a428056918825be60619b71b72b947da3237ad0782",
+      "thumbnailSha256": "723ec956c8d5f8514acc4e72fab6153bc8040d83e57890020c3e3b561c2880ea",
+      "visualReviewed": true
+    },
+    {
+      "id": "c-ram-g-skill-trident-z5-rgb-32gb-ddr5-7200-cl34",
+      "catalogName": "G.SKILL Trident Z5 RGB 32GB DDR5-7200 CL34",
+      "category": "ram",
+      "catalogSourceUrl": "https://www.gskill.com/products/1/165/377/Trident-Z5-RGB-DDR5-Intel-XMP",
+      "status": "repaired-reviewed",
+      "attempted": true,
+      "researchedCandidates": 12,
+      "previousAttempts": [
+        {
+          "url": "https://www.gskill.com/products/1/165/377/Trident-Z5-RGB-DDR5-Intel-XMP",
+          "status": 200,
+          "finalUrl": "https://www.gskill.com/products/1/165/377/Ripjaws-S5-DDR5-Intel-XMP",
+          "title": "Desktop Memory (U-DIMM/CU-DIMM) - Ripjaws S5 (DDR5/Intel XMP) - G.SKILL International Enterprise Co., Ltd."
+        }
+      ],
+      "reason": "Exact named product with matching specifications accepted after actual image inspection.",
+      "picturedModel": "G.SKILL Trident Z5 RGB 32GB (2x16GB) DDR5-7200 CL34 Black F5-7200J3445G16GX2-TZ5RK",
+      "sourceUrl": "https://www.morele.net/pamiec-g-skill-trident-z5-rgb-ddr5-32-gb-7200mhz-cl34-f5-7200j3445g16gx2-tz5rk-12304536/",
+      "imageUrl": "https://images.morele.net/i1064/12304536_1_i1064.jpg",
+      "src": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-ram-g-skill-trident-z5-rgb-32gb-ddr5-7200-cl34-62ca80e917.webp",
+      "thumbnailSrc": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-ram-g-skill-trident-z5-rgb-32gb-ddr5-7200-cl34-62ca80e917-320.webp",
+      "sha256": "578a941924bc0d68905116cfbccfb279db115b15ce57d4e8692b293f31c9ce51",
+      "thumbnailSha256": "0e91356ee6864b222782bbfeef574b136e455b11776d05365b55067dd540a1af",
+      "visualReviewed": true
+    },
+    {
+      "id": "c-ram-g-skill-ripjaws-s5-96gb-ddr5-5600-cl40",
+      "catalogName": "G.SKILL Ripjaws S5 96GB DDR5-5600 CL40",
+      "category": "ram",
+      "catalogSourceUrl": "https://www.gskill.com/products/1/165/377/Trident-Z5-RGB-DDR5-Intel-XMP",
+      "status": "repaired-reviewed",
+      "attempted": true,
+      "researchedCandidates": 12,
+      "previousAttempts": [
+        {
+          "url": "https://www.gskill.com/products/1/165/377/Trident-Z5-RGB-DDR5-Intel-XMP",
+          "status": 200,
+          "finalUrl": "https://www.gskill.com/products/1/165/377/Ripjaws-S5-DDR5-Intel-XMP",
+          "title": "Desktop Memory (U-DIMM/CU-DIMM) - Ripjaws S5 (DDR5/Intel XMP) - G.SKILL International Enterprise Co., Ltd."
+        }
+      ],
+      "reason": "Exact named product with matching specifications accepted after actual image inspection.",
+      "picturedModel": "G.SKILL Ripjaws S5 96GB (2x48GB) DDR5-5600 CL40 Matte Black F5-5600J4040D48GX2-RS5K",
+      "sourceUrl": "https://www.materiel.net/produit/202305090022.html",
+      "imageUrl": "https://media.materiel.net/r900/products/MN0006040546.jpg",
+      "src": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-ram-g-skill-ripjaws-s5-96gb-ddr5-5600-cl40-95f94498ba.webp",
+      "thumbnailSrc": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-ram-g-skill-ripjaws-s5-96gb-ddr5-5600-cl40-95f94498ba-320.webp",
+      "sha256": "d4aeea2762865d303572ffe24edc9ea05ee1d12e74db5d2a240afa1b3b46dd1e",
+      "thumbnailSha256": "00d60ae46febcd8190a0bc17fe890349dcd438bfb5883cf923bd90078e6c71eb",
+      "visualReviewed": true
+    },
+    {
+      "id": "c-ram-g-skill-trident-z-royal-elite-32gb-ddr4-4000-cl16",
+      "catalogName": "G.SKILL Trident Z Royal Elite 32GB DDR4-4000 CL16",
+      "category": "ram",
+      "catalogSourceUrl": "https://www.gskill.com/products/1/165/377/Trident-Z5-RGB-DDR5-Intel-XMP",
+      "status": "repaired-reviewed",
+      "attempted": true,
+      "researchedCandidates": 12,
+      "previousAttempts": [
+        {
+          "url": "https://www.gskill.com/products/1/165/377/Trident-Z5-RGB-DDR5-Intel-XMP",
+          "status": 200,
+          "finalUrl": "https://www.gskill.com/products/1/165/377/Ripjaws-S5-DDR5-Intel-XMP",
+          "title": "Desktop Memory (U-DIMM/CU-DIMM) - Ripjaws S5 (DDR5/Intel XMP) - G.SKILL International Enterprise Co., Ltd."
+        }
+      ],
+      "reason": "Exact named product with matching specifications accepted after actual image inspection.",
+      "picturedModel": "G.SKILL Trident Z Royal Elite 32GB (2x16GB) DDR4-4000 CL16 Silver F4-4000C16D-32GTES",
+      "sourceUrl": "https://www.pichau.com.br/memoria-g-skill-trident-z-royal-elite-rgb-32gb-2x16gb-ddr4-4000mhz-c16-prata-f4-4000c16d-32gtes",
+      "imageUrl": "https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/f/4/f4-4000c16d-32gtes2.jpg",
+      "src": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-ram-g-skill-trident-z-royal-elite-32gb-ddr4-4000-cl16-08cfa5909d.webp",
+      "thumbnailSrc": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-ram-g-skill-trident-z-royal-elite-32gb-ddr4-4000-cl16-08cfa5909d-320.webp",
+      "sha256": "4fb753d1aa468c9fb3d353141663130403641ea646147e203d9bf1f75112863a",
+      "thumbnailSha256": "405f9127930948b7de404e99c9b17abef6e89dd505c33bbbceae6ac7f10b2acd",
+      "visualReviewed": true
+    },
+    {
+      "id": "c-ram-g-skill-ripjaws-v-16gb-ddr4-3200-cl16",
+      "catalogName": "G.SKILL Ripjaws V 16GB DDR4-3200 CL16",
+      "category": "ram",
+      "catalogSourceUrl": "https://www.gskill.com/products/1/165/377/Trident-Z5-RGB-DDR5-Intel-XMP",
+      "status": "repaired-reviewed",
+      "attempted": true,
+      "researchedCandidates": 12,
+      "previousAttempts": [
+        {
+          "url": "https://www.gskill.com/products/1/165/377/Trident-Z5-RGB-DDR5-Intel-XMP",
+          "status": 200,
+          "finalUrl": "https://www.gskill.com/products/1/165/377/Ripjaws-S5-DDR5-Intel-XMP",
+          "title": "Desktop Memory (U-DIMM/CU-DIMM) - Ripjaws S5 (DDR5/Intel XMP) - G.SKILL International Enterprise Co., Ltd."
+        }
+      ],
+      "reason": "Exact named product with matching specifications accepted after actual image inspection.",
+      "picturedModel": "G.SKILL Ripjaws V 16GB (2x8GB) DDR4-3200 CL16 Black F4-3200C16D-16GVKB",
+      "sourceUrl": "https://www.notebooksbilliger.de/gskill%2Bripjaws%2Bv%2Bschwarz%2B16gb%2Bkit%2B2x8gb%2Bddr4%2B3200%2Bcl16%2B279662",
+      "imageUrl": "https://media2.nbb-cdn.de/images/products/Gkill_Ripjaws-V_Black_K2_f7fc.jpg?size=400",
+      "src": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-ram-g-skill-ripjaws-v-16gb-ddr4-3200-cl16-ad601b3f4d.webp",
+      "thumbnailSrc": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-ram-g-skill-ripjaws-v-16gb-ddr4-3200-cl16-ad601b3f4d-320.webp",
+      "sha256": "4050dfb2d05b07b535630da194f030a86daabc1e9d00fcee6346e6efd71f26ef",
+      "thumbnailSha256": "e4986934b62d84a36cbedd0e36834d35231aad70b57a2be28bc803c1037bfea8",
+      "visualReviewed": true
+    },
+    {
+      "id": "c-ram-crucial-pro-overclocking-64gb-ddr5-6000-cl36",
+      "catalogName": "Crucial Pro Overclocking 64GB DDR5-6000 CL36",
+      "category": "ram",
+      "catalogSourceUrl": "https://www.crucial.com/catalog/memory/ddr5-desktop",
+      "status": "unresolved-identity",
+      "attempted": true,
+      "researchedCandidates": 11,
+      "previousAttempts": [
+        {
+          "url": "https://www.crucial.com/catalog/memory/ddr5-desktop",
+          "status": 200,
+          "finalUrl": "https://www.crucial.com/catalog/memory/ddr5-desktop",
+          "title": "Request Rejected"
+        }
+      ],
+      "reason": "No exact 64GB (2x32GB) DDR5-6000 CL36 Crucial Pro Overclocking SKU established. Accessible retail evidence identifies CP2K32G60C40U5B (CL40) or the 32GB CL36 kit. Different capacity/timing images rejected; catalog identity needs verification.",
+      "picturedModel": null,
+      "sourceUrl": null,
+      "imageUrl": null,
+      "src": null,
+      "thumbnailSrc": null,
+      "sha256": null,
+      "thumbnailSha256": null,
+      "visualReviewed": false
+    },
+    {
+      "id": "c-ram-crucial-pro-overclocking-32gb-ddr5-6000-cl36",
+      "catalogName": "Crucial Pro Overclocking 32GB DDR5-6000 CL36",
+      "category": "ram",
+      "catalogSourceUrl": "https://www.crucial.com/catalog/memory/ddr5-desktop",
+      "status": "repaired-reviewed",
+      "attempted": true,
+      "researchedCandidates": 11,
+      "previousAttempts": [
+        {
+          "url": "https://www.crucial.com/catalog/memory/ddr5-desktop",
+          "status": 200,
+          "finalUrl": "https://www.crucial.com/catalog/memory/ddr5-desktop",
+          "title": "Request Rejected"
+        }
+      ],
+      "reason": "Exact named product with matching specifications accepted after actual image inspection.",
+      "picturedModel": "Crucial Pro Overclocking 32GB (2x16GB) DDR5-6000 CL36 Black CP2K16G60C36U5B",
+      "sourceUrl": "https://www.ldlc.com/fiche/PB00610221.html",
+      "imageUrl": "https://media.ldlc.com/r1600/ld/products/00/06/12/89/LD0006128931.jpg",
+      "src": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-ram-crucial-pro-overclocking-32gb-ddr5-6000-cl36-c220a92073.webp",
+      "thumbnailSrc": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-ram-crucial-pro-overclocking-32gb-ddr5-6000-cl36-c220a92073-320.webp",
+      "sha256": "a1d0b1b6f04a657322d67603b57a97be431d0117b00570353f7946a33346071f",
+      "thumbnailSha256": "72a577b9064e9e13e1ea1813edab94062f33a12f451ddda3453a0c8408cbd140",
+      "visualReviewed": true
+    },
+    {
+      "id": "c-ram-crucial-pro-64gb-ddr5-5600-cl46",
+      "catalogName": "Crucial Pro 64GB DDR5-5600 CL46",
+      "category": "ram",
+      "catalogSourceUrl": "https://www.crucial.com/catalog/memory/ddr5-desktop",
+      "status": "repaired-reviewed",
+      "attempted": true,
+      "researchedCandidates": 11,
+      "previousAttempts": [
+        {
+          "url": "https://www.crucial.com/catalog/memory/ddr5-desktop",
+          "status": 200,
+          "finalUrl": "https://www.crucial.com/catalog/memory/ddr5-desktop",
+          "title": "Request Rejected"
+        }
+      ],
+      "reason": "Exact named product with matching specifications accepted after actual image inspection.",
+      "picturedModel": "Crucial Pro 64GB (2x32GB) DDR5-5600 CL46 Black CP2K32G56C46U5",
+      "sourceUrl": "https://www.mydeal.com.au/crucial-pro-64gb-2x32gb-ddr5-udimm-5600mhz-cl46-black-heat-spreader-support-intel-xmp-amd-ryzen-for-desktop-pc-gaming-memory-15552854",
+      "imageUrl": "https://assets.mydeal.com.au/48977/crucial-pro-64gb-2x32gb-ddr5-udimm-5600mhz-cl46-black-heat-spreader-support-intel-xmp-amd-r-15552854_00.jpg?v=h0cMRImhi7QhY6J",
+      "src": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-ram-crucial-pro-64gb-ddr5-5600-cl46-3ac7231ed0.webp",
+      "thumbnailSrc": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-ram-crucial-pro-64gb-ddr5-5600-cl46-3ac7231ed0-320.webp",
+      "sha256": "126bd6f9982b7c61c3a47515ef256503d0f38fb2b99d33a11003eb22e0302e32",
+      "thumbnailSha256": "a8de9e31b14613128c60a76983e01f0fe956d3518357f2bf2219bf085868ffcb",
+      "visualReviewed": true
+    },
+    {
+      "id": "c-ram-crucial-32gb-ddr5-4800-cl40",
+      "catalogName": "Crucial 32GB DDR5-4800 CL40",
+      "category": "ram",
+      "catalogSourceUrl": "https://www.crucial.com/catalog/memory/ddr5-desktop",
+      "status": "repaired-reviewed",
+      "attempted": true,
+      "researchedCandidates": 11,
+      "previousAttempts": [
+        {
+          "url": "https://www.crucial.com/catalog/memory/ddr5-desktop",
+          "status": 200,
+          "finalUrl": "https://www.crucial.com/catalog/memory/ddr5-desktop",
+          "title": "Request Rejected"
+        }
+      ],
+      "reason": "Exact named product with matching specifications accepted after actual image inspection.",
+      "picturedModel": "Crucial 32GB (2x16GB) DDR5-4800 CL40 Black PCB CT2K16G48C40U5",
+      "sourceUrl": "https://www.memoryc.com/37533-32gb-crucial-ddr5-4800mhz-pc5-38400-cl40-dual-channel-kit-2x16gb.html",
+      "imageUrl": "https://www.memoryc.com/images/products/550x550/image_2075747.jpg",
+      "src": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-ram-crucial-32gb-ddr5-4800-cl40-40f8e7860f.webp",
+      "thumbnailSrc": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-ram-crucial-32gb-ddr5-4800-cl40-40f8e7860f-320.webp",
+      "sha256": "fb17eeadb7bd1f19b04ed527327d4d36529e5c5e0d270544fa6bd223434a19d5",
+      "thumbnailSha256": "003ef6b78b48a5b04eda347706dcf47ba5e8335a413c9e81d8fc15f17da752fa",
+      "visualReviewed": true
+    },
+    {
+      "id": "c-ram-crucial-pro-64gb-ddr4-3200-cl22",
+      "catalogName": "Crucial Pro 64GB DDR4-3200 CL22",
+      "category": "ram",
+      "catalogSourceUrl": "https://www.crucial.com/catalog/memory/ddr5-desktop",
+      "status": "repaired-reviewed",
+      "attempted": true,
+      "researchedCandidates": 12,
+      "previousAttempts": [
+        {
+          "url": "https://www.crucial.com/catalog/memory/ddr5-desktop",
+          "status": 200,
+          "finalUrl": "https://www.crucial.com/catalog/memory/ddr5-desktop",
+          "title": "Request Rejected"
+        }
+      ],
+      "reason": "Exact named product with matching specifications accepted after actual image inspection.",
+      "picturedModel": "Crucial Pro 64GB (2x32GB) DDR4-3200 CL22 Black CP2K32G4DFRA32A",
+      "sourceUrl": "https://lecb.com.au/products/crucial-pro-64gb-2x32gb-ddr4-udimm-3200mhz-cl22-black-heat-spreader-support-intel-xmp-amd-ryzen-for-desktop-pc-gaming-memory",
+      "imageUrl": "https://lecb.com.au/cdn/shop/files/MECD4-2X32G32P.jpg?v=1719351247",
+      "src": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-ram-crucial-pro-64gb-ddr4-3200-cl22-a0b2967ea3.webp",
+      "thumbnailSrc": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-ram-crucial-pro-64gb-ddr4-3200-cl22-a0b2967ea3-320.webp",
+      "sha256": "1d511daa72785c6f03bbd6d1a57156545a87054140db2cfbfe75d211f06f92ce",
+      "thumbnailSha256": "58e57e06d8b75fb242fd0b45e279fa26d9320296240f4a8948883358d66a85ac",
+      "visualReviewed": true
+    },
+    {
+      "id": "c-ram-crucial-ballistix-max-32gb-ddr4-4000-cl18",
+      "catalogName": "Crucial Ballistix MAX 32GB DDR4-4000 CL18",
+      "category": "ram",
+      "catalogSourceUrl": "https://www.crucial.com/catalog/memory/ddr5-desktop",
+      "status": "repaired-reviewed",
+      "attempted": true,
+      "researchedCandidates": 12,
+      "previousAttempts": [
+        {
+          "url": "https://www.crucial.com/catalog/memory/ddr5-desktop",
+          "status": 200,
+          "finalUrl": "https://www.crucial.com/catalog/memory/ddr5-desktop",
+          "title": "Request Rejected"
+        }
+      ],
+      "reason": "Selected non-RGB Ballistix MAX 32GB (2x16GB) 4000 CL18 product, not 16GB, MAX RGB or 5100 CL19 search results.",
+      "picturedModel": "Crucial Ballistix MAX 32GB (2x16GB) DDR4-4000 CL18 Black, non-RGB BLM2K16G40C18U4B",
+      "sourceUrl": "https://www.ldlc.com/en/product/PB00313908.html",
+      "imageUrl": "https://media.ldlc.com/r1600/ld/products/00/05/58/74/LD0005587469_2_0005587492.jpg",
+      "src": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-ram-crucial-ballistix-max-32gb-ddr4-4000-cl18-7b66982132.webp",
+      "thumbnailSrc": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-ram-crucial-ballistix-max-32gb-ddr4-4000-cl18-7b66982132-320.webp",
+      "sha256": "e18e004e9aa9f4c0fc60483e1d1d1852657f9e399167af7a36630d543fcb5749",
+      "thumbnailSha256": "df94f883d1a55eb2b8100c1d2b4143cfdcbe6731d74065eb7e0c1c29d69420bd",
+      "visualReviewed": true
+    },
+    {
+      "id": "c-ram-crucial-16gb-ddr4-3200-cl22",
+      "catalogName": "Crucial 16GB DDR4-3200 CL22",
+      "category": "ram",
+      "catalogSourceUrl": "https://www.crucial.com/catalog/memory/ddr5-desktop",
+      "status": "repaired-reviewed",
+      "attempted": true,
+      "researchedCandidates": 12,
+      "previousAttempts": [
+        {
+          "url": "https://www.crucial.com/catalog/memory/ddr5-desktop",
+          "status": 200,
+          "finalUrl": "https://www.crucial.com/catalog/memory/ddr5-desktop",
+          "title": "Request Rejected"
+        }
+      ],
+      "reason": "Exact named product with matching specifications accepted after actual image inspection.",
+      "picturedModel": "Crucial 16GB (2x8GB) DDR4-3200 CL22 Green PCB CT2K8G4DFRA32A",
+      "sourceUrl": "https://www.microcenter.com/product/647746/crucial-16gb-%282-x-8gb%29-ddr4-3200-pc4-25600-cl22-dual-channel-desktop-memory-kit-ct2k8g4dfra32a-green",
+      "imageUrl": "https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/647746_385682_03_package_zoom.jpg",
+      "src": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-ram-crucial-16gb-ddr4-3200-cl22-d3ce59b92e.webp",
+      "thumbnailSrc": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-ram-crucial-16gb-ddr4-3200-cl22-d3ce59b92e-320.webp",
+      "sha256": "def26474d719ba77d9641c8b24341afda901385d6793ac906b70361d011a4390",
+      "thumbnailSha256": "5f8b879af7af3973bb3ad0b2019e6437c7e270e4e1321da1c2480abc5a5818ce",
+      "visualReviewed": true
+    },
+    {
+      "id": "c-ram-teamgroup-t-force-xtreem-48gb-ddr5-8200-cl38",
+      "catalogName": "TEAMGROUP T-Force Xtreem 48GB DDR5-8200 CL38",
+      "category": "ram",
+      "catalogSourceUrl": "https://www.teamgroupinc.com/en/product-category/memory/",
+      "status": "repaired-reviewed",
+      "attempted": true,
+      "researchedCandidates": 11,
+      "previousAttempts": [
+        {
+          "url": "https://www.teamgroupinc.com/en/product-category/memory/",
+          "status": 200,
+          "finalUrl": "https://www.teamgroupinc.com/en/product-category/memory/",
+          "title": "Memory - TEAMGROUP"
+        }
+      ],
+      "reason": "Actual modules from PC Gamer review gallery, not the packaging-only image. Review and official TEAMGROUP spec-sheet identify 48GB (2x24GB), DDR5-8200, CL38-49-49-84 at 1.4V and FFXD548G8200HC38EDC01. Gallery credits Future.",
+      "picturedModel": "TEAMGROUP T-Force XTREEM Narvic Black 48GB (2x24GB) DDR5-8200 CL38 FFXD548G8200HC38EDC01",
+      "sourceUrl": "https://www.pcgamer.com/teamgroup-tforce-xtreem-ddr5-8200-memory-review/",
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/uBfmjnPA5yrszBDS5EtWKZ.jpg",
+      "src": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-ram-teamgroup-t-force-xtreem-48gb-ddr5-8200-cl38-0848203702.webp",
+      "thumbnailSrc": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-ram-teamgroup-t-force-xtreem-48gb-ddr5-8200-cl38-0848203702-320.webp",
+      "sha256": "88cf3b16417885366b514df93299eaec59af6de602549457565bf1e7a1c84008",
+      "thumbnailSha256": "9227cfa73495646f12026a9439f54a57dd730fc1d58c47367b090154a8d4c9c1",
+      "visualReviewed": true
+    },
+    {
+      "id": "c-ram-teamgroup-t-force-delta-rgb-64gb-ddr5-6400-cl40",
+      "catalogName": "TEAMGROUP T-Force Delta RGB 64GB DDR5-6400 CL40",
+      "category": "ram",
+      "catalogSourceUrl": "https://www.teamgroupinc.com/en/product-category/memory/",
+      "status": "repaired-reviewed",
+      "attempted": true,
+      "researchedCandidates": 11,
+      "previousAttempts": [
+        {
+          "url": "https://www.teamgroupinc.com/en/product-category/memory/",
+          "status": 200,
+          "finalUrl": "https://www.teamgroupinc.com/en/product-category/memory/",
+          "title": "Memory - TEAMGROUP"
+        }
+      ],
+      "reason": "Beach Audio Product JSON-LD explicitly assigns this product image to FF3D564G6400HC40BDC01, 64GB (2x32GB). Exact SKU CL40 timing and black color corroborated by CCL, Newegg indexed product detail and official TEAMGROUP specification sheet. Rejected sources redirected to a 32GB white kit.",
+      "picturedModel": "TEAMGROUP T-Force Delta RGB 64GB (2x32GB) DDR5-6400 CL40 Black FF3D564G6400HC40BDC01",
+      "sourceUrl": "https://www.beachaudio.com/team-group-inc-ff3d564g6400hc40bdc01-mem-32g-2-team-group-ff3d564g6400hc40bdc01-r/",
+      "imageUrl": "https://cdn11.bigcommerce.com/s-muk18pjqrv/images/stencil/1280x1280/products/723179/3570447/20-331-923-02__28189.1745474698.jpg?c=1",
+      "src": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-ram-teamgroup-t-force-delta-rgb-64gb-ddr5-6400-cl40-82b440759b.webp",
+      "thumbnailSrc": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-ram-teamgroup-t-force-delta-rgb-64gb-ddr5-6400-cl40-82b440759b-320.webp",
+      "sha256": "e86a9c8197de4c32497fc308c67b7503056a081ef551610355e2c8ee559163ab",
+      "thumbnailSha256": "bfe57f461b025d8d7c5486f23829094889531c1e25b3eaa1bf64eb6099395a13",
+      "visualReviewed": true
+    },
+    {
+      "id": "c-ram-teamgroup-t-create-expert-96gb-ddr5-6000-cl34",
+      "catalogName": "TEAMGROUP T-Create Expert 96GB DDR5-6000 CL34",
+      "category": "ram",
+      "catalogSourceUrl": "https://www.teamgroupinc.com/en/product-category/memory/",
+      "status": "unresolved-identity",
+      "attempted": true,
+      "researchedCandidates": 10,
+      "previousAttempts": [
+        {
+          "url": "https://www.teamgroupinc.com/en/product-category/memory/",
+          "status": 200,
+          "finalUrl": "https://www.teamgroupinc.com/en/product-category/memory/",
+          "title": "Memory - TEAMGROUP"
+        }
+      ],
+      "reason": "No exact 96GB (2x48GB) DDR5-6000 CL34 T-Create Expert SKU established. Sources instead identify 64GB 6000 CL34 or 96GB 6400 CL32 / 6000 CL30 models. No capacity/timing substitution.",
+      "picturedModel": null,
+      "sourceUrl": null,
+      "imageUrl": null,
+      "src": null,
+      "thumbnailSrc": null,
+      "sha256": null,
+      "thumbnailSha256": null,
+      "visualReviewed": false
+    },
+    {
+      "id": "c-ram-teamgroup-t-create-classic-32gb-ddr5-5600-cl46",
+      "catalogName": "TEAMGROUP T-Create Classic 32GB DDR5-5600 CL46",
+      "category": "ram",
+      "catalogSourceUrl": "https://www.teamgroupinc.com/en/product-category/memory/",
+      "status": "repaired-reviewed",
+      "attempted": true,
+      "researchedCandidates": 11,
+      "previousAttempts": [
+        {
+          "url": "https://www.teamgroupinc.com/en/product-category/memory/",
+          "status": 200,
+          "finalUrl": "https://www.teamgroupinc.com/en/product-category/memory/",
+          "title": "Memory - TEAMGROUP"
+        }
+      ],
+      "reason": "PChome exact product page and selected product image identify T-Create Classic DDR5-5600 32GB (16GBx2) CL46. Two black non-RGB Classic modules shown; unrelated recommended products were not selected.",
+      "picturedModel": "TEAMGROUP T-Create Classic 32GB (2x16GB) DDR5-5600 CL46 Black",
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DRAC0H-A900GCEQ5",
+      "imageUrl": "https://img.pchome.com.tw/cs/items/DRAC0HA900GCEQ5/000001_1684476711.jpg",
+      "src": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-ram-teamgroup-t-create-classic-32gb-ddr5-5600-cl46-05d5ecdd7c.webp",
+      "thumbnailSrc": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-ram-teamgroup-t-create-classic-32gb-ddr5-5600-cl46-05d5ecdd7c-320.webp",
+      "sha256": "7dc9adb97df9ec5442493465775c1910b18b739bd64fa109c9551190c954fc4d",
+      "thumbnailSha256": "d215be072adf7a648229a8c874cfb75add162ea4bab856caf2f56a337253d523",
+      "visualReviewed": true
+    },
+    {
+      "id": "c-ram-teamgroup-t-force-xtreem-argb-32gb-ddr4-3600-cl14",
+      "catalogName": "TEAMGROUP T-Force Xtreem ARGB 32GB DDR4-3600 CL14",
+      "category": "ram",
+      "catalogSourceUrl": "https://www.teamgroupinc.com/en/product-category/memory/",
+      "status": "repaired-reviewed",
+      "attempted": true,
+      "researchedCandidates": 11,
+      "previousAttempts": [
+        {
+          "url": "https://www.teamgroupinc.com/en/product-category/memory/",
+          "status": 200,
+          "finalUrl": "https://www.teamgroupinc.com/en/product-category/memory/",
+          "title": "Memory - TEAMGROUP"
+        }
+      ],
+      "reason": "Exact named product with matching specifications accepted after actual image inspection.",
+      "picturedModel": "TEAMGROUP T-Force Xtreem ARGB 32GB (2x16GB) DDR4-3600 CL14 Black",
+      "sourceUrl": "https://www.watercoolinguk.co.uk/product/team-group-t-force-xtreem-argb-black-ddr4-3600-cl14-32-gb-dual-kit/",
+      "imageUrl": "https://img.watercoolinguk.co.uk/2025/09/team-group-t-force-xtreem-argb-black-ddr4-3600-cl14-32-gb-dual-kit-metg-376-74277-2.jpg",
+      "src": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-ram-teamgroup-t-force-xtreem-argb-32gb-ddr4-3600-cl14-577a2b99f7.webp",
+      "thumbnailSrc": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-ram-teamgroup-t-force-xtreem-argb-32gb-ddr4-3600-cl14-577a2b99f7-320.webp",
+      "sha256": "df908f8e6d35d4dee864c6916a8a41f730ce3f0b5493ddb1d0fd9e63594d698e",
+      "thumbnailSha256": "50a530cc44fecbe38adb8861bcf7ae0fb45fea93978ad58f852ff09f126247eb",
+      "visualReviewed": true
+    },
+    {
+      "id": "c-ram-teamgroup-t-force-vulcan-z-16gb-ddr4-3200-cl16",
+      "catalogName": "TEAMGROUP T-Force Vulcan Z 16GB DDR4-3200 CL16",
+      "category": "ram",
+      "catalogSourceUrl": "https://www.teamgroupinc.com/en/product-category/memory/",
+      "status": "repaired-reviewed",
+      "attempted": true,
+      "researchedCandidates": 12,
+      "previousAttempts": [
+        {
+          "url": "https://www.teamgroupinc.com/en/product-category/memory/",
+          "status": 200,
+          "finalUrl": "https://www.teamgroupinc.com/en/product-category/memory/",
+          "title": "Memory - TEAMGROUP"
+        }
+      ],
+      "reason": "Exact selected retailer product URL identifies 16GB (8GBx2), DDR4-3200 C16. Two gray Vulcan Z modules visible through retail package; no 1x16GB or different-speed kit selected.",
+      "picturedModel": "TEAMGROUP T-Force Vulcan Z 16GB (2x8GB) DDR4-3200 C16 Gray",
+      "sourceUrl": "https://www.pcstudio.in/product/teamgroup-t-force-vulcan-z-16gb-8gbx2-ddr4-3200mhz-c16-ram/",
+      "imageUrl": "https://www.pcstudio.in/wp-content/uploads/2020/11/TeamGroup-T-Force-Vulcan-Z-2x8GB-DDR4-3200-2.jpg",
+      "src": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-ram-teamgroup-t-force-vulcan-z-16gb-ddr4-3200-cl16-0bc5c39010.webp",
+      "thumbnailSrc": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-ram-teamgroup-t-force-vulcan-z-16gb-ddr4-3200-cl16-0bc5c39010-320.webp",
+      "sha256": "b67971ce2f69c3a3d0d1b3be6983481b459e96053322c2fe7845a2d0dcf2226b",
+      "thumbnailSha256": "a1dd6ba203339fd5cbbb9e16eb629e0ad2def42f7a16bef8f61e68b492df42ec",
+      "visualReviewed": true
+    },
+    {
+      "id": "c-psu-seasonic-prime-tx-1600-noctua-edition",
+      "catalogName": "Seasonic PRIME TX-1600 Noctua Edition",
+      "category": "psu",
+      "catalogSourceUrl": "https://seasonic.com/power-supplies/",
+      "status": "repaired-reviewed",
+      "attempted": true,
+      "researchedCandidates": 12,
+      "previousAttempts": [
+        {
+          "url": "https://seasonic.com/power-supplies/",
+          "status": 403,
+          "finalUrl": "https://seasonic.com/power-supplies/",
+          "title": "Attention Required! | Cloudflare"
+        }
+      ],
+      "reason": "Exact named product with matching specifications accepted after actual image inspection.",
+      "picturedModel": "Seasonic PRIME TX-1600 Noctua Edition 1600W ATX 3.1",
+      "sourceUrl": "https://noctua.at/en/products/seasonic-prime-tx-1600-noctua-edition",
+      "imageUrl": "https://cdn.noctua.at/media/Seasonic_prime_TX-1600_noctua_edition_05_us.jpg",
+      "src": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-psu-seasonic-prime-tx-1600-noctua-edition-484c92bc4c.webp",
+      "thumbnailSrc": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-psu-seasonic-prime-tx-1600-noctua-edition-484c92bc4c-320.webp",
+      "sha256": "9ba1317dd8d3f987aaf4932d81b83021150c92ab5e96ef2a5b15b708bfa5962c",
+      "thumbnailSha256": "c251b3b69c6044dde332b7ba7d8d05ed12b15b92314dcfff114414a599bd01ab",
+      "visualReviewed": true
+    },
+    {
+      "id": "c-psu-seasonic-prime-tx-1300",
+      "catalogName": "Seasonic PRIME TX-1300",
+      "category": "psu",
+      "catalogSourceUrl": "https://seasonic.com/power-supplies/",
+      "status": "repaired-reviewed",
+      "attempted": true,
+      "researchedCandidates": 12,
+      "previousAttempts": [
+        {
+          "url": "https://seasonic.com/power-supplies/",
+          "status": 403,
+          "finalUrl": "https://seasonic.com/power-supplies/",
+          "title": "Attention Required! | Cloudflare"
+        }
+      ],
+      "reason": "Exact named product with matching specifications accepted after actual image inspection.",
+      "picturedModel": "Seasonic PRIME TX-1300 1300W 80 PLUS Titanium ATX 3.0 SSR-1300TR2",
+      "sourceUrl": "https://www.ldlc.com/fr-be/fiche/PB00574058.html",
+      "imageUrl": "https://media.ldlc.com/r1600/ld/products/00/06/07/01/LD0006070126_0006070144.jpg",
+      "src": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-psu-seasonic-prime-tx-1300-9d75beaea6.webp",
+      "thumbnailSrc": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-psu-seasonic-prime-tx-1300-9d75beaea6-320.webp",
+      "sha256": "28df501d18c708c1dde2370759d7304bf4557735076275bb6ae832e14e074e3a",
+      "thumbnailSha256": "81bd3d58cd23f31da267121f57f70e30af490b48f6b147941741fa935aa6f6d1",
+      "visualReviewed": true
+    },
+    {
+      "id": "c-psu-seasonic-prime-px-1600",
+      "catalogName": "Seasonic PRIME PX-1600",
+      "category": "psu",
+      "catalogSourceUrl": "https://seasonic.com/power-supplies/",
+      "status": "repaired-reviewed",
+      "attempted": true,
+      "researchedCandidates": 11,
+      "previousAttempts": [
+        {
+          "url": "https://seasonic.com/power-supplies/",
+          "status": 403,
+          "finalUrl": "https://seasonic.com/power-supplies/",
+          "title": "Attention Required! | Cloudflare"
+        }
+      ],
+      "reason": "Selected original SSR-1600PD product from Vuugo, matching original named 2022 catalog model; did not substitute an ATX3 SSR-1600PD2 photo.",
+      "picturedModel": "Seasonic PRIME PX-1600 1600W 80 PLUS Platinum SSR-1600PD, original model",
+      "sourceUrl": "https://www.vuugo.com/product/seasonic-prime-px-1600-ssr-1600pd/",
+      "imageUrl": "https://d2po40yubr0dlz.cloudfront.net/images/products/vuugo-seasonic-SSR-1600PD.jpg",
+      "src": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-psu-seasonic-prime-px-1600-f5407a229e.webp",
+      "thumbnailSrc": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-psu-seasonic-prime-px-1600-f5407a229e-320.webp",
+      "sha256": "902873b19cb76b7f929cc71030b2581d17ec28374da3204f6476643d869cd0b3",
+      "thumbnailSha256": "4cb1761c909422820ade111a91fead86c5ea805cf6931b94ed8d6e3ec07b9a7c",
+      "visualReviewed": true
+    },
+    {
+      "id": "c-psu-seasonic-vertex-px-1200",
+      "catalogName": "Seasonic VERTEX PX-1200",
+      "category": "psu",
+      "catalogSourceUrl": "https://seasonic.com/power-supplies/",
+      "status": "repaired-reviewed",
+      "attempted": true,
+      "researchedCandidates": 12,
+      "previousAttempts": [
+        {
+          "url": "https://seasonic.com/power-supplies/",
+          "status": 403,
+          "finalUrl": "https://seasonic.com/power-supplies/",
+          "title": "Attention Required! | Cloudflare"
+        }
+      ],
+      "reason": "Exact named product with matching specifications accepted after actual image inspection.",
+      "picturedModel": "Seasonic VERTEX PX-1200 1200W 80 PLUS Platinum Black",
+      "sourceUrl": "https://www.ldlc.com/en/product/PB00577637.html",
+      "imageUrl": "https://media.ldlc.com/r1600/ld/products/00/06/07/58/LD0006075803.jpg",
+      "src": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-psu-seasonic-vertex-px-1200-2dff6f5f9b.webp",
+      "thumbnailSrc": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-psu-seasonic-vertex-px-1200-2dff6f5f9b-320.webp",
+      "sha256": "724f51b65a2c429189be7cfd4f0baafe2b4196f999ef428934dd809687f818b3",
+      "thumbnailSha256": "0fd6927a348b14bd8137b40f209e5bb0c1ccfdd90942321a6a64b6b2c2a7f796",
+      "visualReviewed": true
+    },
+    {
+      "id": "c-psu-seasonic-vertex-gx-1000",
+      "catalogName": "Seasonic VERTEX GX-1000",
+      "category": "psu",
+      "catalogSourceUrl": "https://seasonic.com/power-supplies/",
+      "status": "repaired-reviewed",
+      "attempted": true,
+      "researchedCandidates": 12,
+      "previousAttempts": [
+        {
+          "url": "https://seasonic.com/power-supplies/",
+          "status": 403,
+          "finalUrl": "https://seasonic.com/power-supplies/",
+          "title": "Attention Required! | Cloudflare"
+        }
+      ],
+      "reason": "Exact named product with matching specifications accepted after actual image inspection.",
+      "picturedModel": "Seasonic VERTEX GX-1000 1000W 80 PLUS Gold ATX 3.0 Black",
+      "sourceUrl": "https://www.pccasegear.com/products/60874/seasonic-vertex-atx-3-0-80-plus-gold-1000w-power-supply",
+      "imageUrl": "https://files.pccasegear.com/images/VERTEX-GX-1000-add6.jpg",
+      "src": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-psu-seasonic-vertex-gx-1000-3e477d2352.webp",
+      "thumbnailSrc": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-psu-seasonic-vertex-gx-1000-3e477d2352-320.webp",
+      "sha256": "39711ed786d4c227bcac71315475c6fc1f9c8758c79518200922c2bd8c7de284",
+      "thumbnailSha256": "a187309a0bbedbdbaee95a827399cae028262ba3cbf4e546af4c4d2107c07179",
+      "visualReviewed": true
+    },
+    {
+      "id": "c-psu-seasonic-vertex-gx-850",
+      "catalogName": "Seasonic VERTEX GX-850",
+      "category": "psu",
+      "catalogSourceUrl": "https://seasonic.com/power-supplies/",
+      "status": "repaired-reviewed",
+      "attempted": true,
+      "researchedCandidates": 12,
+      "previousAttempts": [
+        {
+          "url": "https://seasonic.com/power-supplies/",
+          "status": 403,
+          "finalUrl": "https://seasonic.com/power-supplies/",
+          "title": "Attention Required! | Cloudflare"
+        }
+      ],
+      "reason": "Exact named product with matching specifications accepted after actual image inspection.",
+      "picturedModel": "Seasonic VERTEX GX-850 850W 80 PLUS Gold ATX 3.0 Black",
+      "sourceUrl": "https://www.mwave.com.au/product/seasonic-vertex-gx850-850w-pcie5-80-gold-fully-modular-atx30-power-supply-ac59949",
+      "imageUrl": "https://cdn.mwave.com.au/images/400/seasonic_vertex_gx850_850w_80_gold_fully_modular_atx_power_supply_black_ac59949_98353.jpg",
+      "src": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-psu-seasonic-vertex-gx-850-ad0970c3cb.webp",
+      "thumbnailSrc": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-psu-seasonic-vertex-gx-850-ad0970c3cb-320.webp",
+      "sha256": "f0e37e8a67da08530f416dc8c9bde89aac6e349a50de4f42f4644fbcff12e583",
+      "thumbnailSha256": "31a9c5c008b41da6746006200137a509940f46ac26c76f3631a5934ca817222a",
+      "visualReviewed": true
+    },
+    {
+      "id": "c-psu-seasonic-core-gx-650",
+      "catalogName": "Seasonic CORE GX-650",
+      "category": "psu",
+      "catalogSourceUrl": "https://seasonic.com/power-supplies/",
+      "status": "repaired-reviewed",
+      "attempted": true,
+      "researchedCandidates": 11,
+      "previousAttempts": [
+        {
+          "url": "https://seasonic.com/power-supplies/",
+          "status": 403,
+          "finalUrl": "https://seasonic.com/power-supplies/",
+          "title": "Attention Required! | Cloudflare"
+        }
+      ],
+      "reason": "Close-up confirms GX-650 and 650 WATTS on packaging, and original SSR-650LX chassis. Larger clearer retailer image retained; original small Newegg image was also confirmed 650W after zooming.",
+      "picturedModel": "Seasonic CORE GX-650 650W 80 PLUS Gold SSR-650LX, original fully modular model",
+      "sourceUrl": "https://nevateka.ru/catalog/product/4394/",
+      "imageUrl": "https://nevateka.ru/upload/iblock/aec/y29bwlgbjsgf4dk6w27fgg8t44qqgkzr/1412392_v06_b.jpg",
+      "src": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-psu-seasonic-core-gx-650-20c034f889.webp",
+      "thumbnailSrc": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-psu-seasonic-core-gx-650-20c034f889-320.webp",
+      "sha256": "9e6e4b6539ceb58700b4f54ebd947f99d6f8c0bf61556e0399133e46126abf1d",
+      "thumbnailSha256": "43675c905baab7116bd1a61d1131c23deacfde2f090b38cb21f3522073c8b357",
+      "visualReviewed": true
+    },
+    {
+      "id": "c-psu-evga-supernova-1600-p",
+      "catalogName": "EVGA SuperNOVA 1600 P+",
+      "category": "psu",
+      "catalogSourceUrl": "https://www.evga.com/products/productlist.aspx?type=10",
+      "status": "repaired-reviewed",
+      "attempted": true,
+      "researchedCandidates": 12,
+      "previousAttempts": [
+        {
+          "url": "https://www.evga.com/products/productlist.aspx?type=10",
+          "status": 200,
+          "finalUrl": "https://www.evga.com/default.asp",
+          "title": "EVGA - Intelligent Innovation - Official Website"
+        }
+      ],
+      "reason": "Exact named product with matching specifications accepted after actual image inspection.",
+      "picturedModel": "EVGA SuperNOVA 1600 P+ 1600W 80 PLUS Platinum 220-PP-1600-X3",
+      "sourceUrl": "https://global.microless.com/product/evga-supernova-1600-p-80-plus-platinum-fully-modular-power-supply-140mm-double-ball-bearing-max-output-24a-atx-24-pin-molex-220-pp-1600-x3/",
+      "imageUrl": "https://microless.com/cdn/products/b491a6cb31090dad6b3e6d166236aa3e-hi.jpg",
+      "src": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-psu-evga-supernova-1600-p-e7437cb244.webp",
+      "thumbnailSrc": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-psu-evga-supernova-1600-p-e7437cb244-320.webp",
+      "sha256": "6f75fe434ae324e0f154725eff25bea589236f1d56009190f3f844d04d65ba41",
+      "thumbnailSha256": "0c6281b6df5bb52db7f87408f478c4c46ca1dab3734cabd876c05d43b66d16c2",
+      "visualReviewed": true
+    },
+    {
+      "id": "c-psu-evga-supernova-1300-g",
+      "catalogName": "EVGA SuperNOVA 1300 G+",
+      "category": "psu",
+      "catalogSourceUrl": "https://www.evga.com/products/productlist.aspx?type=10",
+      "status": "repaired-reviewed",
+      "attempted": true,
+      "researchedCandidates": 12,
+      "previousAttempts": [
+        {
+          "url": "https://www.evga.com/products/productlist.aspx?type=10",
+          "status": 200,
+          "finalUrl": "https://www.evga.com/default.asp",
+          "title": "EVGA - Intelligent Innovation - Official Website"
+        }
+      ],
+      "reason": "Exact named product with matching specifications accepted after actual image inspection.",
+      "picturedModel": "EVGA SuperNOVA 1300 G+ 1300W 80 PLUS Gold 220-GP-1300-X1",
+      "sourceUrl": "https://www.adorama.com/ev22gp1300x1.html",
+      "imageUrl": "https://www.adorama.com/images/Large/EV22GP1300X1.jpg",
+      "src": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-psu-evga-supernova-1300-g-6b1498545c.webp",
+      "thumbnailSrc": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-psu-evga-supernova-1300-g-6b1498545c-320.webp",
+      "sha256": "fa31613857422e1082f5b0f5c8d8adb91203d70d7b2d291809b76f6568276bdc",
+      "thumbnailSha256": "f2a85f49faa16106e7dc8ac39604d3c87ba8c9cc03d328ca8df88cc62369aed0",
+      "visualReviewed": true
+    },
+    {
+      "id": "c-psu-evga-supernova-1000-g7",
+      "catalogName": "EVGA SuperNOVA 1000 G7",
+      "category": "psu",
+      "catalogSourceUrl": "https://www.evga.com/products/productlist.aspx?type=10",
+      "status": "repaired-reviewed",
+      "attempted": true,
+      "researchedCandidates": 12,
+      "previousAttempts": [
+        {
+          "url": "https://www.evga.com/products/productlist.aspx?type=10",
+          "status": 200,
+          "finalUrl": "https://www.evga.com/default.asp",
+          "title": "EVGA - Intelligent Innovation - Official Website"
+        }
+      ],
+      "reason": "Exact named product with matching specifications accepted after actual image inspection.",
+      "picturedModel": "EVGA SuperNOVA 1000 G7 1000W 80 PLUS Gold 220-G7-1000-X1",
+      "sourceUrl": "https://www.tomshardware.com/reviews/evga-supernova-1000-g7-power-supply-review",
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/9qch6BcjziY2Psid9QipPS.jpg",
+      "src": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-psu-evga-supernova-1000-g7-849670f100.webp",
+      "thumbnailSrc": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-psu-evga-supernova-1000-g7-849670f100-320.webp",
+      "sha256": "e68064f5a9c892f343d7a59619a50a86102593eec8a40703ff852573b6c8b04a",
+      "thumbnailSha256": "9e28b94504e98122bf956d20299d798dee151a6ee8c73288ff4490f8bede7dea",
+      "visualReviewed": true
+    },
+    {
+      "id": "c-psu-evga-supernova-850-g7",
+      "catalogName": "EVGA SuperNOVA 850 G7",
+      "category": "psu",
+      "catalogSourceUrl": "https://www.evga.com/products/productlist.aspx?type=10",
+      "status": "repaired-reviewed",
+      "attempted": true,
+      "researchedCandidates": 12,
+      "previousAttempts": [
+        {
+          "url": "https://www.evga.com/products/productlist.aspx?type=10",
+          "status": 200,
+          "finalUrl": "https://www.evga.com/default.asp",
+          "title": "EVGA - Intelligent Innovation - Official Website"
+        }
+      ],
+      "reason": "Exact named product with matching specifications accepted after actual image inspection.",
+      "picturedModel": "EVGA SuperNOVA 850 G7 850W 80 PLUS Gold 220-G7-0850-X1",
+      "sourceUrl": "https://www.newegg.com/evga-supernova-850-g7-atx12v-eps12v-850-w-80-plus-gold-certified-power-supply-black-220-g7-0850-x1/p/N82E16817438239?Item=N82E16817438239",
+      "imageUrl": "https://c1.neweggimages.com/productimage/nb640/17-438-239-06.jpg",
+      "src": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-psu-evga-supernova-850-g7-ec8b1fe2e0.webp",
+      "thumbnailSrc": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-psu-evga-supernova-850-g7-ec8b1fe2e0-320.webp",
+      "sha256": "3e03c7086daf6759c877f64ef828be12758349f635357b71af53623d691f9c41",
+      "thumbnailSha256": "0190125c1fd54659a73d4a9ec362a32c7d009923aea951ccd32978102f7ae9a2",
+      "visualReviewed": true
+    },
+    {
+      "id": "c-psu-evga-supernova-750-g7",
+      "catalogName": "EVGA SuperNOVA 750 G7",
+      "category": "psu",
+      "catalogSourceUrl": "https://www.evga.com/products/productlist.aspx?type=10",
+      "status": "repaired-reviewed",
+      "attempted": true,
+      "researchedCandidates": 12,
+      "previousAttempts": [
+        {
+          "url": "https://www.evga.com/products/productlist.aspx?type=10",
+          "status": 200,
+          "finalUrl": "https://www.evga.com/default.asp",
+          "title": "EVGA - Intelligent Innovation - Official Website"
+        }
+      ],
+      "reason": "Goto Direct Product JSON-LD names 220-G7-0750-X1 and assigns this exact product image. Actual PSU 750 G7 model lettering visually confirmed. Current EVGA product pages redirect and gallery downloads failed; independent retailer used.",
+      "picturedModel": "EVGA SuperNOVA 750 G7 750W 80 PLUS Gold 220-G7-0750-X1",
+      "sourceUrl": "https://www.gotodirect.com/220-g7-0750-x1-evga-supernova-750-g7-750-watts-80-plus-gold-fully-modular-atx-power-supply",
+      "imageUrl": "https://alpha-project-new.s3.us-east-2.amazonaws.com/production/uploads/627364/220-G7-0750-X1.webp",
+      "src": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-psu-evga-supernova-750-g7-fc445cfa35.webp",
+      "thumbnailSrc": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-psu-evga-supernova-750-g7-fc445cfa35-320.webp",
+      "sha256": "14433bf44c75519fabb6a8d660112a9fac3c57f6953d5150aeeb0d8960352015",
+      "thumbnailSha256": "6a364ac8d365fe1b844043ac7b3f361f8e83ce1975589a3657708af0585d8212",
+      "visualReviewed": true
+    },
+    {
+      "id": "c-psu-evga-supernova-650-g6",
+      "catalogName": "EVGA SuperNOVA 650 G6",
+      "category": "psu",
+      "catalogSourceUrl": "https://www.evga.com/products/productlist.aspx?type=10",
+      "status": "repaired-reviewed",
+      "attempted": true,
+      "researchedCandidates": 11,
+      "previousAttempts": [
+        {
+          "url": "https://www.evga.com/products/productlist.aspx?type=10",
+          "status": 200,
+          "finalUrl": "https://www.evga.com/default.asp",
+          "title": "EVGA - Intelligent Innovation - Official Website"
+        }
+      ],
+      "reason": "Exact named product with matching specifications accepted after actual image inspection.",
+      "picturedModel": "EVGA SuperNOVA 650 G6 650W 80 PLUS Gold 220-G6-0650",
+      "sourceUrl": "https://www.ldlc.com/en/product/PB00460058.html",
+      "imageUrl": "https://media.ldlc.com/r1600/ld/products/00/05/88/56/LD0005885603_1.jpg",
+      "src": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-psu-evga-supernova-650-g6-e00925e2c8.webp",
+      "thumbnailSrc": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-psu-evga-supernova-650-g6-e00925e2c8-320.webp",
+      "sha256": "5930c7e83b688ce05b4be90c5d19ad90a54d5b4c0b7beb878ff5d342064dcf60",
+      "thumbnailSha256": "c10be01b44dead247c9136a4f1114e11f8273ae6d69b65042a2165fb4e0aeffb",
+      "visualReviewed": true
+    },
+    {
+      "id": "c-psu-evga-600-br",
+      "catalogName": "EVGA 600 BR",
+      "category": "psu",
+      "catalogSourceUrl": "https://www.evga.com/products/productlist.aspx?type=10",
+      "status": "repaired-reviewed",
+      "attempted": true,
+      "researchedCandidates": 10,
+      "previousAttempts": [
+        {
+          "url": "https://www.evga.com/products/productlist.aspx?type=10",
+          "status": 200,
+          "finalUrl": "https://www.evga.com/default.asp",
+          "title": "EVGA - Intelligent Innovation - Official Website"
+        }
+      ],
+      "reason": "Exact named product with matching specifications accepted after actual image inspection.",
+      "picturedModel": "EVGA 600 BR 600W 80 PLUS Bronze 100-BR-0600-K1",
+      "sourceUrl": "https://www.panacompu.com/peru/en/product-information/evga-600-br-power-supply-600w-85-typical-80-plus-bronze",
+      "imageUrl": "https://cdn.panacompu.com/cdn-img/pv/evga-600-br-80-plus-bronze-600w-power-supply-side-specs-view.jpg",
+      "src": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-psu-evga-600-br-759cded1ca.webp",
+      "thumbnailSrc": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-psu-evga-600-br-759cded1ca-320.webp",
+      "sha256": "f017cd0c958209b673c4c37a18f30c90c2092b44860e9bafb9f36ad56c5f14bc",
+      "thumbnailSha256": "81ac071cba98705b15e126febaa432dbc86f2af1ad01a19b9832e826ba9eba23",
+      "visualReviewed": true
+    },
+    {
+      "id": "c-psu-evga-500-w1",
+      "catalogName": "EVGA 500 W1",
+      "category": "psu",
+      "catalogSourceUrl": "https://www.evga.com/products/productlist.aspx?type=10",
+      "status": "repaired-reviewed",
+      "attempted": true,
+      "researchedCandidates": 10,
+      "previousAttempts": [
+        {
+          "url": "https://www.evga.com/products/productlist.aspx?type=10",
+          "status": 200,
+          "finalUrl": "https://www.evga.com/default.asp",
+          "title": "EVGA - Intelligent Innovation - Official Website"
+        }
+      ],
+      "reason": "Exact named product with matching specifications accepted after actual image inspection.",
+      "picturedModel": "EVGA 500 W1 500W 80 PLUS White 100-W1-0500-KR",
+      "sourceUrl": "https://www.newegg.com/evga-w1-series-atx12v-eps12v-500-w-80-plus-certified-power-supply-intel-4th-gen-cpu-ready-black-100-w1-0500-kr/p/N82E16817438016R",
+      "imageUrl": "https://c1.neweggimages.com/productimage/nb640/17-438-016-25.png",
+      "src": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-psu-evga-500-w1-23591624e3.webp",
+      "thumbnailSrc": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-psu-evga-500-w1-23591624e3-320.webp",
+      "sha256": "109c72080d0de96deeab6c7872fd323db73d52b64104d96ac1b358c5277de7a9",
+      "thumbnailSha256": "bebc217f99e1b5d5cf9fb59b83abaf0bde417ccb044fa04a892bbddb408101f0",
+      "visualReviewed": true
+    },
+    {
+      "id": "c-psu-be-quiet-dark-power-pro-13-1600w",
+      "catalogName": "be quiet! Dark Power Pro 13 1600W",
+      "category": "psu",
+      "catalogSourceUrl": "https://www.bequiet.com/en/powersupply",
+      "status": "repaired-reviewed",
+      "attempted": true,
+      "researchedCandidates": 11,
+      "previousAttempts": [
+        {
+          "url": "https://www.bequiet.com/en/powersupply",
+          "status": 403,
+          "finalUrl": "https://www.bequiet.com/en/powersupply",
+          "title": "Just a moment..."
+        }
+      ],
+      "reason": "Exact named product with matching specifications accepted after actual image inspection.",
+      "picturedModel": "be quiet! Dark Power Pro 13 1600W ATX 3.0 BN332",
+      "sourceUrl": "https://www.sanalmarketim.com/Urun/Be-Quiet%21-Dark-Power-Pro-13-1600W-80--Titanium-Tam-Moduler-Guc-Kaynagi----BN332/134790",
+      "imageUrl": "https://www.sanalmarketim.com/images/600/134790aceeccefe89b40dfa5f96e16fe68adec.jpg",
+      "src": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-psu-be-quiet-dark-power-pro-13-1600w-1b7bbb1f07.webp",
+      "thumbnailSrc": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-psu-be-quiet-dark-power-pro-13-1600w-1b7bbb1f07-320.webp",
+      "sha256": "3fa4c4f5b0db82f63f09c570ddf90944140b1113126674c229bfe16d88c7bdcb",
+      "thumbnailSha256": "12026322f0cafec4d6d8e3c9026c63732f48f4f78cc9e3b504419b36e7ab848f",
+      "visualReviewed": true
+    },
+    {
+      "id": "c-psu-be-quiet-dark-power-13-1000w",
+      "catalogName": "be quiet! Dark Power 13 1000W",
+      "category": "psu",
+      "catalogSourceUrl": "https://www.bequiet.com/en/powersupply",
+      "status": "repaired-reviewed",
+      "attempted": true,
+      "researchedCandidates": 9,
+      "previousAttempts": [
+        {
+          "url": "https://www.bequiet.com/en/powersupply",
+          "status": 403,
+          "finalUrl": "https://www.bequiet.com/en/powersupply",
+          "title": "Just a moment..."
+        }
+      ],
+      "reason": "Exact named product with matching specifications accepted after actual image inspection.",
+      "picturedModel": "be quiet! Dark Power 13 1000W ATX 3.0 BN335",
+      "sourceUrl": "https://www.ldlc.com/en/product/PB00540323.html",
+      "imageUrl": "https://media.ldlc.com/r1600/ld/products/00/06/00/89/LD0006008943.jpg",
+      "src": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-psu-be-quiet-dark-power-13-1000w-026421a815.webp",
+      "thumbnailSrc": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-psu-be-quiet-dark-power-13-1000w-026421a815-320.webp",
+      "sha256": "fccae0e6e39cc16e2c8444c60f1a4d3ff67177b9bfb80d05fdd93c0f05a662d5",
+      "thumbnailSha256": "7dc353062919d444ac1a26d2d72dbb70cf6b36c0f840c15a33a7db4eefeffff6",
+      "visualReviewed": true
+    },
+    {
+      "id": "c-psu-be-quiet-straight-power-12-850w",
+      "catalogName": "be quiet! Straight Power 12 850W",
+      "category": "psu",
+      "catalogSourceUrl": "https://www.bequiet.com/en/powersupply",
+      "status": "repaired-reviewed",
+      "attempted": true,
+      "researchedCandidates": 11,
+      "previousAttempts": [
+        {
+          "url": "https://www.bequiet.com/en/powersupply",
+          "status": 403,
+          "finalUrl": "https://www.bequiet.com/en/powersupply",
+          "title": "Just a moment..."
+        }
+      ],
+      "reason": "Exact named product with matching specifications accepted after actual image inspection.",
+      "picturedModel": "be quiet! Straight Power 12 850W ATX 3.0 BN337",
+      "sourceUrl": "https://hard.rozetka.com.ua/ua/be-quiet-bn337/p389047113/",
+      "imageUrl": "https://content2.rozetka.com.ua/goods/images/big/353761559.jpg",
+      "src": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-psu-be-quiet-straight-power-12-850w-b34abce466.webp",
+      "thumbnailSrc": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-psu-be-quiet-straight-power-12-850w-b34abce466-320.webp",
+      "sha256": "71e8f3eaa82ae5682cc652c1cbba7bcdb21b29f2018a33b1c9a3b351d03b02a2",
+      "thumbnailSha256": "e04593c9d8782c0ab40c630447639e84436c191211200ce104cb601f8199c462",
+      "visualReviewed": true
+    },
+    {
+      "id": "c-psu-be-quiet-pure-power-12-m-1000w",
+      "catalogName": "be quiet! Pure Power 12 M 1000W",
+      "category": "psu",
+      "catalogSourceUrl": "https://www.bequiet.com/en/powersupply",
+      "status": "repaired-reviewed",
+      "attempted": true,
+      "researchedCandidates": 12,
+      "previousAttempts": [
+        {
+          "url": "https://www.bequiet.com/en/powersupply",
+          "status": 403,
+          "finalUrl": "https://www.bequiet.com/en/powersupply",
+          "title": "Just a moment..."
+        }
+      ],
+      "reason": "Exact named product with matching specifications accepted after actual image inspection.",
+      "picturedModel": "be quiet! Pure Power 12 M 1000W ATX 3.0 BN345",
+      "sourceUrl": "https://www.ldlc.pro/fiche/PB00540386.html",
+      "imageUrl": "https://media.ldlc.com/r1600/ld/products/00/06/00/94/LD0006009483.jpg",
+      "src": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-psu-be-quiet-pure-power-12-m-1000w-6267c405aa.webp",
+      "thumbnailSrc": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-psu-be-quiet-pure-power-12-m-1000w-6267c405aa-320.webp",
+      "sha256": "3dad44dea84da1a342a203791975f225f5ffe2fb360fee893b60356f1ea018ec",
+      "thumbnailSha256": "0832ca960a6d3b79a26c9a484f9ed55a0845309aaa2758dbda5b22ab40041430",
+      "visualReviewed": true
+    },
+    {
+      "id": "c-psu-be-quiet-pure-power-12-m-750w",
+      "catalogName": "be quiet! Pure Power 12 M 750W",
+      "category": "psu",
+      "catalogSourceUrl": "https://www.bequiet.com/en/powersupply",
+      "status": "repaired-reviewed",
+      "attempted": true,
+      "researchedCandidates": 12,
+      "previousAttempts": [
+        {
+          "url": "https://www.bequiet.com/en/powersupply",
+          "status": 403,
+          "finalUrl": "https://www.bequiet.com/en/powersupply",
+          "title": "Just a moment..."
+        }
+      ],
+      "reason": "Exact named product with matching specifications accepted after actual image inspection.",
+      "picturedModel": "be quiet! Pure Power 12 M 750W ATX 3.0 BN343",
+      "sourceUrl": "https://www.ldlc.com/en/product/PB00540384.html",
+      "imageUrl": "https://media.ldlc.com/r1600/ld/products/00/06/00/94/LD0006009438.jpg",
+      "src": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-psu-be-quiet-pure-power-12-m-750w-306488f1fa.webp",
+      "thumbnailSrc": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-psu-be-quiet-pure-power-12-m-750w-306488f1fa-320.webp",
+      "sha256": "c1bc06d8f37d462810db52c83f77a0399c09dd4b3940b7e3a2b56521d8523277",
+      "thumbnailSha256": "202e0c04398a4d1e24584a02769ecae18a2ad72baf4a87aa5eb2a3e4810b3396",
+      "visualReviewed": true
+    },
+    {
+      "id": "c-psu-be-quiet-system-power-10-650w",
+      "catalogName": "be quiet! System Power 10 650W",
+      "category": "psu",
+      "catalogSourceUrl": "https://www.bequiet.com/en/powersupply",
+      "status": "repaired-reviewed",
+      "attempted": true,
+      "researchedCandidates": 11,
+      "previousAttempts": [
+        {
+          "url": "https://www.bequiet.com/en/powersupply",
+          "status": 403,
+          "finalUrl": "https://www.bequiet.com/en/powersupply",
+          "title": "Just a moment..."
+        }
+      ],
+      "reason": "Exact named product with matching specifications accepted after actual image inspection.",
+      "picturedModel": "be quiet! System Power 10 650W 80 PLUS Bronze BN328",
+      "sourceUrl": "https://www.al.to/p/1078355-zasilacz-do-komputera-be-quiet-system-power-10-650w-80-plus-bronze.html",
+      "imageUrl": "https://cdn.al.to/i/setup/images/prod/big/product-new-big%2C%2C2022/10/pr_2022_10_18_14_54_58_829_02.jpg",
+      "src": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-psu-be-quiet-system-power-10-650w-d256b0acc5.webp",
+      "thumbnailSrc": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-psu-be-quiet-system-power-10-650w-d256b0acc5-320.webp",
+      "sha256": "03c504244e2159105273e17842e3b96f7fde6f53203ef8e90d360ef51b911129",
+      "thumbnailSha256": "64b5a19686c38544f9a3361447e2108147d1d40ead4e0c27e541f8240ecc03ce",
+      "visualReviewed": true
+    },
+    {
+      "id": "c-psu-cooler-master-v-platinum-v2-1300",
+      "catalogName": "Cooler Master V Platinum V2 1300",
+      "category": "psu",
+      "catalogSourceUrl": "https://www.coolermaster.com/en-global/catalog/power-supplies/",
+      "status": "repaired-reviewed",
+      "attempted": true,
+      "researchedCandidates": 12,
+      "previousAttempts": [
+        {
+          "url": "https://www.coolermaster.com/en-global/catalog/power-supplies/",
+          "status": 200,
+          "finalUrl": "https://www.coolermaster.com/en-global/catalog/power-supplies",
+          "title": "Power Supplies ｜Coolermaster"
+        },
+        {
+          "url": "https://www.coolermaster.com/en-global/products/v-platinum-v2-1300/",
+          "status": 404,
+          "finalUrl": "https://www.coolermaster.com/on/demandware.store/Sites-coolermaster-one-Site/en/Product-Show?pid=v-platinum-v2-1300"
+        }
+      ],
+      "reason": "Exact named product with matching specifications accepted after actual image inspection.",
+      "picturedModel": "Cooler Master V Platinum 1300 V2 1300W 80 PLUS Platinum MPZ-D002-AFAP-BWO",
+      "sourceUrl": "https://www.pichau.com.br/fonte-cooler-master-v-platinum-1300-v2-1300w-80-plus-platinum-full-modular-preta-mpz-d002-afap-bwo",
+      "imageUrl": "https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/m/p/mpz-d002-afap-bwo5.jpg",
+      "src": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-psu-cooler-master-v-platinum-v2-1300-3fac595dcd.webp",
+      "thumbnailSrc": "/assets/hardware/catalog-memory-psu-supplement-oct17/c-psu-cooler-master-v-platinum-v2-1300-3fac595dcd-320.webp",
+      "sha256": "369e6db0598fe230279e03fd883360521144c27483cede97f341e091a6457603",
+      "thumbnailSha256": "58af4dc5e4da0ffa8c634048c59490c4dbe453370aba4b55ddb36d58d42ef529",
+      "visualReviewed": true
+    },
+    {
+      "id": "c-psu-cooler-master-v-gold-i-multi-1050",
+      "catalogName": "Cooler Master V Gold i Multi 1050",
+      "category": "psu",
+      "catalogSourceUrl": "https://www.coolermaster.com/en-global/catalog/power-supplies/",
+      "status": "unresolved-identity",
+      "attempted": true,
+      "researchedCandidates": 11,
+      "previousAttempts": [
+        {
+          "url": "https://www.coolermaster.com/en-global/catalog/power-supplies/",
+          "status": 200,
+          "finalUrl": "https://www.coolermaster.com/en-global/catalog/power-supplies",
+          "title": "Power Supplies ｜Coolermaster"
+        },
+        {
+          "url": "https://www.coolermaster.com/en-global/products/v-gold-i-multi-1050/",
+          "status": 404,
+          "finalUrl": "https://www.coolermaster.com/on/demandware.store/Sites-coolermaster-one-Site/en/Product-Show?pid=v-gold-i-multi-1050"
+        }
+      ],
+      "reason": "No exact V Gold i Multi 1050W product identity established. Accessible launch/product evidence identifies V Gold i 750/850W and MWE Gold V2 1050W, which is a different series. No MWE photo substituted.",
+      "picturedModel": null,
+      "sourceUrl": null,
+      "imageUrl": null,
+      "src": null,
+      "thumbnailSrc": null,
+      "sha256": null,
+      "thumbnailSha256": null,
+      "visualReviewed": false
+    },
+    {
+      "id": "c-psu-supermicro-1600w-redundant-power-supply",
+      "catalogName": "Supermicro 1600W Redundant Power Supply",
+      "category": "psu",
+      "catalogSourceUrl": "https://www.supermicro.com/en/products/power-supplies",
+      "status": "unresolved-identity",
+      "attempted": true,
+      "researchedCandidates": 11,
+      "previousAttempts": [
+        {
+          "url": "https://www.supermicro.com/en/products/power-supplies",
+          "status": 403,
+          "finalUrl": "https://www.supermicro.com/en/products/power-supplies",
+          "title": "Access Denied"
+        }
+      ],
+      "reason": "Catalog lacks an exact Supermicro supply part number/chassis revision. Research finds different PWS-1K68A-1R, PWS-1K62A-1R, PWS-1K69P-1R and PWS-1K66P-1R 1600W supplies; wattage alone does not establish identity.",
+      "picturedModel": null,
+      "sourceUrl": null,
+      "imageUrl": null,
+      "src": null,
+      "thumbnailSrc": null,
+      "sha256": null,
+      "thumbnailSha256": null,
+      "visualReviewed": false
+    },
+    {
+      "id": "retail-seasonic-m12ii-evo-620w",
+      "catalogName": "M12II EVO 620W",
+      "category": "psu",
+      "catalogSourceUrl": "https://seasonic.com/product/m12ii-evo/",
+      "status": "repaired-reviewed",
+      "attempted": true,
+      "researchedCandidates": 11,
+      "previousAttempts": [
+        {
+          "url": "https://seasonic.com/product/m12ii-evo/",
+          "status": 403,
+          "finalUrl": "https://seasonic.com/product/m12ii-evo/",
+          "title": "Attention Required! | Cloudflare"
+        }
+      ],
+      "reason": "Exact named product with matching specifications accepted after actual image inspection.",
+      "picturedModel": "Seasonic M12II EVO 620W 80 PLUS Bronze SS-620GM2, fully modular EVO Edition",
+      "sourceUrl": "https://www.worten.pt/produtos/fonte-de-alimentacao-seasonic-m12ii-620evo-full-modular-80-plus-bronze-6004800",
+      "imageUrl": "https://www.worten.pt/i/347a8b8b6552411d1a20c524dc2469e56575b926",
+      "src": "/assets/hardware/catalog-memory-psu-supplement-oct17/retail-seasonic-m12ii-evo-620w-130042a85b.webp",
+      "thumbnailSrc": "/assets/hardware/catalog-memory-psu-supplement-oct17/retail-seasonic-m12ii-evo-620w-130042a85b-320.webp",
+      "sha256": "bd386938a075f09e676245cfdb5604f1039c84bfab7fe42e830c9f81aa810195",
+      "thumbnailSha256": "1d5f2b4cc14fa73434316b590672739eb4ab5d98434af5e9e5766c1da61e016d",
+      "visualReviewed": true
+    }
+  ],
+  "limitations": [
+    "Four historical generic RAM records and a generic Supermicro PSU require a real manufacturer/part number; no example-image class introduced.",
+    "Two RAM capacity/timing combinations and a V Gold i Multi 1050W PSU lack a verified exact SKU.",
+    "Some manufacturer and retail pages returned access challenges/403/405, 404, or failed media fetches. Independently accessible publication sources were used; no bypass or 429 retry.",
+    "Visible exterior product renders may be shared by a retailer among variants, but only media expressly assigned by an exact named specification/SKU publication was accepted; no family/category-page media inferred as exact."
+  ]
+}

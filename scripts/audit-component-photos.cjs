@@ -1,0 +1,8 @@
+'use strict';
+const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),delivery=require('./builder-photo-delivery.cjs');
+const root=path.resolve('dist'),context={window:{}};vm.runInNewContext(fs.readFileSync(path.join(root,'builder-catalog.js'),'utf8'),context);
+const images=JSON.parse(fs.readFileSync(path.join(root,'images.json'),'utf8'));
+const rows=context.window.PCP_BUILDER_CATALOG.map(part=>{const image=images[part.id],accepted=delivery.entry(part,image,root),photographic=!!accepted&&['exact','model-render'].includes(image.kind);return{id:part.id,name:part.name,brand:part.brand,category:part.cat,sku:part.sku||part.mpn||null,sourceUrl:part.source,currentImage:image?.src||null,picturedModel:image?.picturedModel||null,kind:image?.kind||'missing',builderAccepted:!!accepted,status:photographic?'existing-named-image-review':'needs-correct-image',existingReviewDate:image?.reviewedAt||null};});
+const categories={};for(const row of rows){const cat=categories[row.category]??={total:0,existingNamedImage:0,needsCorrectImage:0};cat.total++;cat[row.status==='needs-correct-image'?'needsCorrectImage':'existingNamedImage']++;}
+const report={checkedAt:new Date().toISOString(),scope:'Every builder-eligible component. Named-image metadata is a research lead, not proof of visual identity or license.',total:rows.length,categories,rows};
+const directory=path.resolve('docs/component-photos-catalog-oct17');fs.mkdirSync(directory,{recursive:true});fs.writeFileSync(path.join(directory,'catalog-audit.json'),JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify({total:rows.length,categories},null,2));

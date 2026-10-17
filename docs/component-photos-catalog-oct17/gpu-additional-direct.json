@@ -1,0 +1,26 @@
+[
+  {
+    "id": "retail-asus-dual-geforce-rtx-3060-v2-oc-edition",
+    "sourceUrl": "https://www.asus.com/us/motherboards-components/graphics-cards/dual/dual-rtx3060-o12g-v2/techspec/",
+    "imageUrl": "https://dlcdnwebimgs.asus.com/gain/6cd32e69-b323-4f7b-8204-ca6bb2db7cab/",
+    "picturedModel": "ASUS Dual GeForce RTX 3060 V2 OC Edition 12 GB",
+    "official": true,
+    "attribution": "ASUS",
+    "kind": "exact",
+    "identityEvidence": "The ImageLink in the exact DUAL-RTX3060-O12G-V2 official technical-specification page selects this product image; product spec names V2 OC and 12GB GDDR6.",
+    "localPath": "docs/component-photos-catalog-oct17/retail-asus-dual-geforce-rtx-3060-v2-oc-edition-direct-image",
+    "sourceSha256": "e0fa9a82c1531cc96e2d2df9a899b16b68a7d418009484ea9403dcff8ffcc08a"
+  },
+  {
+    "id": "rx6700",
+    "sourceUrl": "https://www.sapphiretech.com/en/consumer/11321-03-radeon-rx-6700-10g-gddr6",
+    "imageUrl": "https://media.cdn.sapphiretech.com.cn/-/media/sites/sapphire/pim/product-images/11307_05_radeon-rx-6700/sapphire_6700_002_800x500.ashx?v=054f74c249b24adf86522906029de726",
+    "picturedModel": "SAPPHIRE Radeon RX 6700 10GB",
+    "official": true,
+    "attribution": "SAPPHIRE",
+    "kind": "same-chip-variant",
+    "identityEvidence": "Product gallery photo 002, explicitly embedded in the exact SAPPHIRE Radeon RX 6700 10G product page. The page lists 10GB GDDR6; no 6700 XT or 12GB model is substituted.",
+    "localPath": "docs/component-photos-catalog-oct17/rx6700-direct-image",
+    "sourceSha256": "73222208800470a031a647eb5de52d78294aa48266be0d65c4c77166ef8664ca"
+  }
+]

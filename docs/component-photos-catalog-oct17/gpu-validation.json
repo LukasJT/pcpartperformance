@@ -1,0 +1,29 @@
+{
+  "bindings": 114,
+  "exact": 10,
+  "sameChipVariant": 104,
+  "assetFiles": 228,
+  "gpuBuilderAdmitted": 146,
+  "gpuBuilderUnavailable": [
+    "r9380x",
+    "hd5870",
+    "ibm-vga",
+    "voodoo-graphics",
+    "voodoo2-12",
+    "rivatnt",
+    "rivatnt2",
+    "geforce256ddr",
+    "geforce2gts",
+    "geforce3",
+    "gf4ti4600",
+    "geforcefx5800u",
+    "radeonddr",
+    "radeon8500",
+    "radeon9700pro",
+    "radeonx800xt",
+    "radeonx1900xtx",
+    "retail-zotac-geforce-rtx-3060-twin-edge",
+    "retail-gigabyte-geforce-rtx-4090-aero-oc-24g"
+  ],
+  "errors": []
+}

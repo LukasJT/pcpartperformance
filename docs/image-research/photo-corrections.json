@@ -1,190 +1,24 @@
 {
-  "verifiedOverrides": 88,
-  "verifiedMappings": 100,
+  "verifiedOverrides": 623,
+  "verifiedMappings": 613,
   "unresolvedMappings": [
     {
-      "id": "b450",
-      "name": "B450 TOMAHAWK MAX",
-      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
-      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+      "id": "barracuda2",
+      "name": "BarraCuda 2 TB",
+      "picturedModel": "Seagate Barracuda 500 GB",
+      "oldAsset": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
-      "id": "rtx4060ti",
-      "name": "GeForce RTX 4060 Ti 8 GB",
-      "picturedModel": "ASUS TUF GeForce RTX 4080 SUPER OC",
-      "oldAsset": "/assets/hardware/gpu-ada.png"
-    },
-    {
-      "id": "rtx3060ti",
-      "name": "GeForce RTX 3060 Ti",
-      "picturedModel": "NVIDIA GeForce RTX 3090 Founders Edition",
-      "oldAsset": "/assets/hardware/gpu-ampere.optimized.jpg"
-    },
-    {
-      "id": "rtx2080ti",
-      "name": "GeForce RTX 2080 Ti",
-      "picturedModel": "NVIDIA TITAN RTX",
-      "oldAsset": "/assets/hardware/gpu-turing.optimized.jpg"
-    },
-    {
-      "id": "rtx2070s",
-      "name": "GeForce RTX 2070 SUPER",
-      "picturedModel": "NVIDIA TITAN RTX",
-      "oldAsset": "/assets/hardware/gpu-turing.optimized.jpg"
-    },
-    {
-      "id": "gtx1080",
-      "name": "GeForce GTX 1080",
-      "picturedModel": "NVIDIA GeForce GTX 1080 Ti Founders Edition",
-      "oldAsset": "/assets/hardware/gpu-pascal.png"
-    },
-    {
-      "id": "gtx1070",
-      "name": "GeForce GTX 1070",
-      "picturedModel": "NVIDIA GeForce GTX 1080 Ti Founders Edition",
-      "oldAsset": "/assets/hardware/gpu-pascal.png"
-    },
-    {
-      "id": "gtx1060",
-      "name": "GeForce GTX 1060 6 GB",
-      "picturedModel": "NVIDIA GeForce GTX 1080 Ti Founders Edition",
-      "oldAsset": "/assets/hardware/gpu-pascal.png"
-    },
-    {
-      "id": "gtx980ti",
-      "name": "GeForce GTX 980 Ti",
-      "picturedModel": "Gigabyte GeForce GTX 970 Windforce",
-      "oldAsset": "/assets/hardware/gpu-maxwell.jpg"
-    },
-    {
-      "id": "rx7900xt",
-      "name": "Radeon RX 7900 XT",
-      "picturedModel": "ASUS TUF Radeon RX 7900 XTX OC",
-      "oldAsset": "/assets/hardware/gpu-rdna3.png"
-    },
-    {
-      "id": "rx7800xt",
-      "name": "Radeon RX 7800 XT",
-      "picturedModel": "ASUS TUF Radeon RX 7900 XTX OC",
-      "oldAsset": "/assets/hardware/gpu-rdna3.png"
-    },
-    {
-      "id": "rx7700xt",
-      "name": "Radeon RX 7700 XT",
-      "picturedModel": "ASUS TUF Radeon RX 7900 XTX OC",
-      "oldAsset": "/assets/hardware/gpu-rdna3.png"
-    },
-    {
-      "id": "rx7600",
-      "name": "Radeon RX 7600",
-      "picturedModel": "ASUS TUF Radeon RX 7900 XTX OC",
-      "oldAsset": "/assets/hardware/gpu-rdna3.png"
-    },
-    {
-      "id": "rx6950xt",
-      "name": "Radeon RX 6950 XT",
-      "picturedModel": "ASUS TUF Gaming Radeon RX 6800 XT OC",
-      "oldAsset": "/assets/hardware/gpu-rdna2.optimized.jpg"
-    },
-    {
-      "id": "rx6900xt",
-      "name": "Radeon RX 6900 XT",
-      "picturedModel": "ASUS TUF Gaming Radeon RX 6800 XT OC",
-      "oldAsset": "/assets/hardware/gpu-rdna2.optimized.jpg"
-    },
-    {
-      "id": "rx6800",
-      "name": "Radeon RX 6800",
-      "picturedModel": "ASUS TUF Gaming Radeon RX 6800 XT OC",
-      "oldAsset": "/assets/hardware/gpu-rdna2.optimized.jpg"
-    },
-    {
-      "id": "rx6700xt",
-      "name": "Radeon RX 6700 XT",
-      "picturedModel": "ASUS TUF Gaming Radeon RX 6800 XT OC",
-      "oldAsset": "/assets/hardware/gpu-rdna2.optimized.jpg"
-    },
-    {
-      "id": "rx6600",
-      "name": "Radeon RX 6600",
-      "picturedModel": "ASUS TUF Gaming Radeon RX 6800 XT OC",
-      "oldAsset": "/assets/hardware/gpu-rdna2.optimized.jpg"
-    },
-    {
-      "id": "rx5700xt",
-      "name": "Radeon RX 5700 XT",
-      "picturedModel": "ASUS TUF Gaming Radeon RX 6800 XT OC",
-      "oldAsset": "/assets/hardware/gpu-rdna2.optimized.jpg"
-    },
-    {
-      "id": "rx580",
-      "name": "Radeon RX 580",
-      "picturedModel": "XFX Radeon RX 570 RS 8GB XXX Edition",
-      "oldAsset": "/assets/hardware/gpu-polaris.jpg"
-    },
-    {
-      "id": "arca750",
-      "name": "Arc A750",
-      "picturedModel": "Intel Arc A770 Limited Edition",
-      "oldAsset": "/assets/hardware/gpu-arca770.jpg"
-    },
-    {
-      "id": "9950x3d",
-      "name": "Ryzen 9 9950X3D",
-      "picturedModel": "AMD Ryzen 9 9900X3D",
-      "oldAsset": "/assets/hardware/official-core-official-core-9950x3d.jpg"
-    },
-    {
-      "id": "9900x",
-      "name": "Ryzen 9 9900X",
-      "picturedModel": "AMD Ryzen 9 9950X",
-      "oldAsset": "/assets/hardware/official-core-official-core-9900x.jpg"
-    },
-    {
-      "id": "7950x3d",
-      "name": "Ryzen 9 7950X3D",
-      "picturedModel": "AMD Ryzen 9 7900X",
-      "oldAsset": "/assets/hardware/cpu-ryzen-am5.jpg"
-    },
-    {
-      "id": "7950x",
-      "name": "Ryzen 9 7950X",
-      "picturedModel": "AMD Ryzen 9 7900X",
-      "oldAsset": "/assets/hardware/cpu-ryzen-am5.jpg"
-    },
-    {
-      "id": "7700x",
-      "name": "Ryzen 7 7700X",
-      "picturedModel": "AMD Ryzen 9 7900X",
-      "oldAsset": "/assets/hardware/cpu-ryzen-am5.jpg"
-    },
-    {
-      "id": "7600x",
-      "name": "Ryzen 5 7600X",
-      "picturedModel": "AMD Ryzen 9 7900X",
-      "oldAsset": "/assets/hardware/cpu-ryzen-am5.jpg"
+      "id": "barracuda1",
+      "name": "BarraCuda 1 TB",
+      "picturedModel": "Seagate Barracuda 500 GB",
+      "oldAsset": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
       "id": "5950x",
       "name": "Ryzen 9 5950X",
-      "picturedModel": "AMD Ryzen 7 3700X",
-      "oldAsset": "/assets/hardware/cpu-ryzen-am4.jpg"
-    },
-    {
-      "id": "5900x",
-      "name": "Ryzen 9 5900X",
-      "picturedModel": "AMD Ryzen 7 3700X",
-      "oldAsset": "/assets/hardware/cpu-ryzen-am4.jpg"
-    },
-    {
-      "id": "5800x",
-      "name": "Ryzen 7 5800X",
-      "picturedModel": "AMD Ryzen 7 3700X",
-      "oldAsset": "/assets/hardware/cpu-ryzen-am4.jpg"
-    },
-    {
-      "id": "5600x",
-      "name": "Ryzen 5 5600X",
       "picturedModel": "AMD Ryzen 7 3700X",
       "oldAsset": "/assets/hardware/cpu-ryzen-am4.jpg"
     },
@@ -207,44 +41,8 @@
       "oldAsset": "/assets/hardware/cpu-ryzen-am4.jpg"
     },
     {
-      "id": "1600",
-      "name": "Ryzen 5 1600",
-      "picturedModel": "AMD Ryzen 7 3700X",
-      "oldAsset": "/assets/hardware/cpu-ryzen-am4.jpg"
-    },
-    {
-      "id": "ultra7265k",
-      "name": "Core Ultra 7 265K",
-      "picturedModel": "Intel Core Ultra 9 285K",
-      "oldAsset": "/assets/hardware/cpu-core-ultra.jpg"
-    },
-    {
-      "id": "i914900k",
-      "name": "Core i9-14900K",
-      "picturedModel": "Intel Core i7-13700K",
-      "oldAsset": "/assets/hardware/cpu-core-lga1700.jpg"
-    },
-    {
-      "id": "i714700k",
-      "name": "Core i7-14700K",
-      "picturedModel": "Intel Core i7-13700K",
-      "oldAsset": "/assets/hardware/cpu-core-lga1700.jpg"
-    },
-    {
-      "id": "i514600k",
-      "name": "Core i5-14600K",
-      "picturedModel": "Intel Core i7-13700K",
-      "oldAsset": "/assets/hardware/cpu-core-lga1700.jpg"
-    },
-    {
       "id": "i913900k",
       "name": "Core i9-13900K",
-      "picturedModel": "Intel Core i7-13700K",
-      "oldAsset": "/assets/hardware/cpu-core-lga1700.jpg"
-    },
-    {
-      "id": "i513600k",
-      "name": "Core i5-13600K",
       "picturedModel": "Intel Core i7-13700K",
       "oldAsset": "/assets/hardware/cpu-core-lga1700.jpg"
     },
@@ -255,28 +53,10 @@
       "oldAsset": "/assets/hardware/cpu-core-lga1700.jpg"
     },
     {
-      "id": "i712700k",
-      "name": "Core i7-12700K",
-      "picturedModel": "Intel Core i7-13700K",
-      "oldAsset": "/assets/hardware/cpu-core-lga1700.jpg"
-    },
-    {
-      "id": "i512600k",
-      "name": "Core i5-12600K",
-      "picturedModel": "Intel Core i7-13700K",
-      "oldAsset": "/assets/hardware/cpu-core-lga1700.jpg"
-    },
-    {
       "id": "i910900k",
       "name": "Core i9-10900K",
       "picturedModel": "Intel Core i5-10500TE",
       "oldAsset": "/assets/hardware/cpu-core-lga1200.jpg"
-    },
-    {
-      "id": "i99900k",
-      "name": "Core i9-9900K",
-      "picturedModel": "Intel Core i7-8700K",
-      "oldAsset": "/assets/hardware/cpu-core-coffee.jpg"
     },
     {
       "id": "i77700k",
@@ -285,106 +65,39 @@
       "oldAsset": "/assets/hardware/cpu-core-coffee.jpg"
     },
     {
-      "id": "i74790k",
-      "name": "Core i7-4790K",
-      "picturedModel": "Intel Core i7-4771",
-      "oldAsset": "/assets/hardware/cpu-core-haswell.jpg"
+      "id": "sn770",
+      "name": "WD_BLACK SN770 1 TB",
+      "picturedModel": "WD_BLACK SN850X NVMe SSD (capacity unspecified)",
+      "oldAsset": "/assets/hardware/memory-storage-wd-sn850x.png",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
-      "id": "rtx5060",
-      "name": "GeForce RTX 5060",
-      "picturedModel": "ASUS Prime GeForce RTX 5070 OC",
-      "oldAsset": "/assets/hardware/gpu-blackwell.png"
+      "id": "crucialt705",
+      "name": "T705 2 TB",
+      "picturedModel": "Crucial T705 4TB CT4000T705SSD3",
+      "oldAsset": "/assets/hardware/memory-storage-t705.jpg",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
-      "id": "rtx5050",
-      "name": "GeForce RTX 5050",
-      "picturedModel": "ASUS Prime GeForce RTX 5070 OC",
-      "oldAsset": "/assets/hardware/gpu-blackwell.png"
+      "id": "crucialp3plus",
+      "name": "P3 Plus 1 TB",
+      "picturedModel": "Crucial T705 4TB CT4000T705SSD3",
+      "oldAsset": "/assets/hardware/memory-storage-t705.jpg",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
-      "id": "rx9060xt16",
-      "name": "Radeon RX 9060 XT 16 GB",
-      "picturedModel": "ASUS TUF Gaming Radeon RX 9070 XT OC",
-      "oldAsset": "/assets/hardware/gpu-rdna4.optimized.jpg"
+      "id": "crucialmx500",
+      "name": "MX500 1 TB",
+      "picturedModel": "Crucial MX500 500GB CT500MX500SSD1",
+      "oldAsset": "/assets/hardware/memory-storage-mx500.jpg",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
-      "id": "rx6750xt",
-      "name": "Radeon RX 6750 XT",
-      "picturedModel": "ASUS TUF Gaming Radeon RX 6800 XT OC",
-      "oldAsset": "/assets/hardware/gpu-rdna2.optimized.jpg"
-    },
-    {
-      "id": "rx6650xt",
-      "name": "Radeon RX 6650 XT",
-      "picturedModel": "ASUS TUF Gaming Radeon RX 6800 XT OC",
-      "oldAsset": "/assets/hardware/gpu-rdna2.optimized.jpg"
-    },
-    {
-      "id": "rx6600xt",
-      "name": "Radeon RX 6600 XT",
-      "picturedModel": "ASUS TUF Gaming Radeon RX 6800 XT OC",
-      "oldAsset": "/assets/hardware/gpu-rdna2.optimized.jpg"
-    },
-    {
-      "id": "rx6500xt",
-      "name": "Radeon RX 6500 XT",
-      "picturedModel": "ASUS TUF Gaming Radeon RX 6800 XT OC",
-      "oldAsset": "/assets/hardware/gpu-rdna2.optimized.jpg"
-    },
-    {
-      "id": "rx6400",
-      "name": "Radeon RX 6400",
-      "picturedModel": "ASUS TUF Gaming Radeon RX 6800 XT OC",
-      "oldAsset": "/assets/hardware/gpu-rdna2.optimized.jpg"
-    },
-    {
-      "id": "rx5600xt",
-      "name": "Radeon RX 5600 XT",
-      "picturedModel": "ASUS TUF Gaming Radeon RX 6800 XT OC",
-      "oldAsset": "/assets/hardware/gpu-rdna2.optimized.jpg"
-    },
-    {
-      "id": "rx5500xt",
-      "name": "Radeon RX 5500 XT 8 GB",
-      "picturedModel": "ASUS TUF Gaming Radeon RX 6800 XT OC",
-      "oldAsset": "/assets/hardware/gpu-rdna2.optimized.jpg"
-    },
-    {
-      "id": "veg64",
-      "name": "Radeon RX Vega 64",
-      "picturedModel": "VisionTek Radeon HD 7970",
-      "oldAsset": "/assets/hardware/gpu-hd7970.png"
-    },
-    {
-      "id": "arcb570",
-      "name": "Arc B570",
-      "picturedModel": "Intel Arc B580 Limited Edition",
-      "oldAsset": "/assets/hardware/gpu-arcb580.jpg"
-    },
-    {
-      "id": "arca580",
-      "name": "Arc A580",
-      "picturedModel": "Intel Arc A770 Limited Edition",
-      "oldAsset": "/assets/hardware/gpu-arca770.jpg"
-    },
-    {
-      "id": "arca380",
-      "name": "Arc A380",
-      "picturedModel": "Intel Arc A770 Limited Edition",
-      "oldAsset": "/assets/hardware/gpu-arca770.jpg"
-    },
-    {
-      "id": "gtx980",
-      "name": "GeForce GTX 980",
-      "picturedModel": "Gigabyte GeForce GTX 970 Windforce",
-      "oldAsset": "/assets/hardware/gpu-maxwell.jpg"
-    },
-    {
-      "id": "7900x3d",
-      "name": "Ryzen 9 7900X3D",
-      "picturedModel": "AMD Ryzen 9 7900X",
-      "oldAsset": "/assets/hardware/cpu-ryzen-am5.jpg"
+      "id": "kc3000",
+      "name": "KC3000 2 TB",
+      "picturedModel": "Kingston KC3000 4TB SKC3000D/4096GB",
+      "oldAsset": "/assets/hardware/memory-storage-kc3000.jpg",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
       "id": "7900",
@@ -393,26 +106,8 @@
       "oldAsset": "/assets/hardware/cpu-ryzen-am5.jpg"
     },
     {
-      "id": "7700",
-      "name": "Ryzen 7 7700",
-      "picturedModel": "AMD Ryzen 9 7900X",
-      "oldAsset": "/assets/hardware/cpu-ryzen-am5.jpg"
-    },
-    {
-      "id": "7600",
-      "name": "Ryzen 5 7600",
-      "picturedModel": "AMD Ryzen 9 7900X",
-      "oldAsset": "/assets/hardware/cpu-ryzen-am5.jpg"
-    },
-    {
       "id": "5700x3d",
       "name": "Ryzen 7 5700X3D",
-      "picturedModel": "AMD Ryzen 7 3700X",
-      "oldAsset": "/assets/hardware/cpu-ryzen-am4.jpg"
-    },
-    {
-      "id": "5700x",
-      "name": "Ryzen 7 5700X",
       "picturedModel": "AMD Ryzen 7 3700X",
       "oldAsset": "/assets/hardware/cpu-ryzen-am4.jpg"
     },
@@ -471,34 +166,10 @@
       "oldAsset": "/assets/hardware/cpu-core-coffee.jpg"
     },
     {
-      "id": "i76700k",
-      "name": "Core i7-6700K",
-      "picturedModel": "Intel Core i7-8700K",
-      "oldAsset": "/assets/hardware/cpu-core-coffee.jpg"
-    },
-    {
       "id": "i73770k",
       "name": "Core i7-3770K",
       "picturedModel": "Intel Core i7-2600K",
       "oldAsset": "/assets/hardware/cpu-core-sandy.jpg"
-    },
-    {
-      "id": "b650ehero",
-      "name": "ROG STRIX B650E-E GAMING WIFI",
-      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
-      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
-    },
-    {
-      "id": "b550f",
-      "name": "ROG STRIX B550-F GAMING WIFI II",
-      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
-      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
-    },
-    {
-      "id": "b760plus",
-      "name": "TUF GAMING B760-PLUS WIFI",
-      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
-      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
     },
     {
       "id": "b650aorus",
@@ -507,172 +178,46 @@
       "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
     },
     {
-      "id": "z790aorus",
-      "name": "Z790 AORUS ELITE AX",
-      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
-      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+      "id": "sn580",
+      "name": "WD Blue SN580 1 TB",
+      "picturedModel": "WD_BLACK SN850X NVMe SSD (capacity unspecified)",
+      "oldAsset": "/assets/hardware/memory-storage-wd-sn850x.png",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
-      "id": "rtx3090ti",
-      "name": "GeForce RTX 3090 Ti",
-      "picturedModel": "NVIDIA GeForce RTX 3090 Founders Edition",
-      "oldAsset": "/assets/hardware/gpu-ampere.optimized.jpg"
+      "id": "crucialt700",
+      "name": "T700 2 TB",
+      "picturedModel": "Crucial T705 4TB CT4000T705SSD3",
+      "oldAsset": "/assets/hardware/memory-storage-t705.jpg",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
-      "id": "rtx3080ti",
-      "name": "GeForce RTX 3080 Ti",
-      "picturedModel": "NVIDIA GeForce RTX 3090 Founders Edition",
-      "oldAsset": "/assets/hardware/gpu-ampere.optimized.jpg"
+      "id": "crucialp5plus",
+      "name": "P5 Plus 1 TB",
+      "picturedModel": "Crucial T705 4TB CT4000T705SSD3",
+      "oldAsset": "/assets/hardware/memory-storage-t705.jpg",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
-      "id": "rtx3070ti",
-      "name": "GeForce RTX 3070 Ti",
-      "picturedModel": "NVIDIA GeForce RTX 3090 Founders Edition",
-      "oldAsset": "/assets/hardware/gpu-ampere.optimized.jpg"
+      "id": "furyrenegade",
+      "name": "FURY Renegade 2 TB",
+      "picturedModel": "Kingston KC3000 4TB SKC3000D/4096GB",
+      "oldAsset": "/assets/hardware/memory-storage-kc3000.jpg",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
-      "id": "rtx2080s",
-      "name": "GeForce RTX 2080 SUPER",
-      "picturedModel": "NVIDIA TITAN RTX",
-      "oldAsset": "/assets/hardware/gpu-turing.optimized.jpg"
+      "id": "firecuda530",
+      "name": "FireCuda 530 2 TB",
+      "picturedModel": "Seagate FireCuda 530 PCIe Gen4 SSD (capacity unspecified)",
+      "oldAsset": "/assets/hardware/memory-storage-firecuda530.jpg",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
-      "id": "rtx2060s",
-      "name": "GeForce RTX 2060 SUPER",
-      "picturedModel": "NVIDIA TITAN RTX",
-      "oldAsset": "/assets/hardware/gpu-turing.optimized.jpg"
-    },
-    {
-      "id": "gtx1660ti",
-      "name": "GeForce GTX 1660 Ti",
-      "picturedModel": "NVIDIA TITAN RTX",
-      "oldAsset": "/assets/hardware/gpu-turing.optimized.jpg"
-    },
-    {
-      "id": "gtx1660s",
-      "name": "GeForce GTX 1660 SUPER",
-      "picturedModel": "NVIDIA TITAN RTX",
-      "oldAsset": "/assets/hardware/gpu-turing.optimized.jpg"
-    },
-    {
-      "id": "gtx1660",
-      "name": "GeForce GTX 1660",
-      "picturedModel": "NVIDIA TITAN RTX",
-      "oldAsset": "/assets/hardware/gpu-turing.optimized.jpg"
-    },
-    {
-      "id": "gtx1650s",
-      "name": "GeForce GTX 1650 SUPER",
-      "picturedModel": "NVIDIA TITAN RTX",
-      "oldAsset": "/assets/hardware/gpu-turing.optimized.jpg"
-    },
-    {
-      "id": "gtx1650",
-      "name": "GeForce GTX 1650",
-      "picturedModel": "NVIDIA TITAN RTX",
-      "oldAsset": "/assets/hardware/gpu-turing.optimized.jpg"
-    },
-    {
-      "id": "gtx1070ti",
-      "name": "GeForce GTX 1070 Ti",
-      "picturedModel": "NVIDIA GeForce GTX 1080 Ti Founders Edition",
-      "oldAsset": "/assets/hardware/gpu-pascal.png"
-    },
-    {
-      "id": "gtx1050ti",
-      "name": "GeForce GTX 1050 Ti",
-      "picturedModel": "NVIDIA GeForce GTX 1080 Ti Founders Edition",
-      "oldAsset": "/assets/hardware/gpu-pascal.png"
-    },
-    {
-      "id": "titanxp",
-      "name": "TITAN Xp",
-      "picturedModel": "NVIDIA GeForce GTX 1080 Ti Founders Edition",
-      "oldAsset": "/assets/hardware/gpu-pascal.png"
-    },
-    {
-      "id": "gtx960",
-      "name": "GeForce GTX 960",
-      "picturedModel": "Gigabyte GeForce GTX 970 Windforce",
-      "oldAsset": "/assets/hardware/gpu-maxwell.jpg"
-    },
-    {
-      "id": "gtx780ti",
-      "name": "GeForce GTX 780 Ti",
-      "picturedModel": "NVIDIA GeForce GTX TITAN",
-      "oldAsset": "/assets/hardware/gpu-kepler.jpg"
-    },
-    {
-      "id": "gtx780",
-      "name": "GeForce GTX 780",
-      "picturedModel": "NVIDIA GeForce GTX TITAN",
-      "oldAsset": "/assets/hardware/gpu-kepler.jpg"
-    },
-    {
-      "id": "gtx770",
-      "name": "GeForce GTX 770",
-      "picturedModel": "NVIDIA GeForce GTX TITAN",
-      "oldAsset": "/assets/hardware/gpu-kepler.jpg"
-    },
-    {
-      "id": "gtx760",
-      "name": "GeForce GTX 760",
-      "picturedModel": "NVIDIA GeForce GTX TITAN",
-      "oldAsset": "/assets/hardware/gpu-kepler.jpg"
-    },
-    {
-      "id": "rx5700",
-      "name": "Radeon RX 5700",
-      "picturedModel": "ASUS TUF Gaming Radeon RX 6800 XT OC",
-      "oldAsset": "/assets/hardware/gpu-rdna2.optimized.jpg"
-    },
-    {
-      "id": "rx590",
-      "name": "Radeon RX 590",
-      "picturedModel": "XFX Radeon RX 570 RS 8GB XXX Edition",
-      "oldAsset": "/assets/hardware/gpu-polaris.jpg"
-    },
-    {
-      "id": "rx560",
-      "name": "Radeon RX 560",
-      "picturedModel": "XFX Radeon RX 570 RS 8GB XXX Edition",
-      "oldAsset": "/assets/hardware/gpu-polaris.jpg"
-    },
-    {
-      "id": "rx480",
-      "name": "Radeon RX 480",
-      "picturedModel": "XFX Radeon RX 570 RS 8GB XXX Edition",
-      "oldAsset": "/assets/hardware/gpu-polaris.jpg"
-    },
-    {
-      "id": "rx470",
-      "name": "Radeon RX 470",
-      "picturedModel": "XFX Radeon RX 570 RS 8GB XXX Edition",
-      "oldAsset": "/assets/hardware/gpu-polaris.jpg"
-    },
-    {
-      "id": "furyx",
-      "name": "Radeon R9 Fury X",
-      "picturedModel": "VisionTek Radeon HD 7970",
-      "oldAsset": "/assets/hardware/gpu-hd7970.png"
-    },
-    {
-      "id": "r9390x",
-      "name": "Radeon R9 390X",
-      "picturedModel": "VisionTek Radeon HD 7970",
-      "oldAsset": "/assets/hardware/gpu-hd7970.png"
-    },
-    {
-      "id": "r9290x",
-      "name": "Radeon R9 290X",
-      "picturedModel": "VisionTek Radeon HD 7970",
-      "oldAsset": "/assets/hardware/gpu-hd7970.png"
-    },
-    {
-      "id": "7500f",
-      "name": "Ryzen 5 7500F",
-      "picturedModel": "AMD Ryzen 9 7900X",
-      "oldAsset": "/assets/hardware/cpu-ryzen-am5.jpg"
+      "id": "toshibax3008",
+      "name": "X300 8 TB",
+      "picturedModel": "Seagate Barracuda 500 GB",
+      "oldAsset": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
       "id": "5500",
@@ -705,12 +250,6 @@
       "oldAsset": "/assets/hardware/cpu-ryzen-am4.jpg"
     },
     {
-      "id": "3400g",
-      "name": "Ryzen 5 3400G",
-      "picturedModel": "AMD Ryzen 7 3700X",
-      "oldAsset": "/assets/hardware/cpu-ryzen-am4.jpg"
-    },
-    {
       "id": "3200g",
       "name": "Ryzen 3 3200G",
       "picturedModel": "AMD Ryzen 7 3700X",
@@ -721,18 +260,6 @@
       "name": "Ryzen Threadripper 2990WX",
       "picturedModel": "AMD Ryzen Threadripper 3990X",
       "oldAsset": "/assets/hardware/cpu-threadripper.jpg"
-    },
-    {
-      "id": "1950x",
-      "name": "Ryzen Threadripper 1950X",
-      "picturedModel": "AMD Ryzen Threadripper 3990X",
-      "oldAsset": "/assets/hardware/cpu-threadripper.jpg"
-    },
-    {
-      "id": "fx8350",
-      "name": "FX-8350",
-      "picturedModel": "AMD FX-8310",
-      "oldAsset": "/assets/hardware/cpu-fx.jpg"
     },
     {
       "id": "i914900ks",
@@ -813,12 +340,6 @@
       "oldAsset": "/assets/hardware/cpu-core-coffee.jpg"
     },
     {
-      "id": "i78700",
-      "name": "Core i7-8700",
-      "picturedModel": "Intel Core i7-8700K",
-      "oldAsset": "/assets/hardware/cpu-core-coffee.jpg"
-    },
-    {
       "id": "i58600k",
       "name": "Core i5-8600K",
       "picturedModel": "Intel Core i7-8700K",
@@ -827,12 +348,6 @@
     {
       "id": "i77700",
       "name": "Core i7-7700",
-      "picturedModel": "Intel Core i7-8700K",
-      "oldAsset": "/assets/hardware/cpu-core-coffee.jpg"
-    },
-    {
-      "id": "i57600k",
-      "name": "Core i5-7600K",
       "picturedModel": "Intel Core i7-8700K",
       "oldAsset": "/assets/hardware/cpu-core-coffee.jpg"
     },
@@ -861,130 +376,46 @@
       "oldAsset": "/assets/hardware/cpu-core-sandy.jpg"
     },
     {
-      "id": "i52500k",
-      "name": "Core i5-2500K",
-      "picturedModel": "Intel Core i7-2600K",
-      "oldAsset": "/assets/hardware/cpu-core-sandy.jpg"
+      "id": "samsung860evo",
+      "name": "860 EVO 1 TB",
+      "picturedModel": "Samsung 870 EVO 500GB SATA 2.5-inch SSD",
+      "oldAsset": "/assets/hardware/memory-storage-samsung870.png",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
-      "id": "x570hero",
-      "name": "ROG CROSSHAIR VIII HERO WIFI",
-      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
-      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+      "id": "wdsn750",
+      "name": "WD_BLACK SN750 1 TB",
+      "picturedModel": "WD_BLACK SN850X NVMe SSD (capacity unspecified)",
+      "oldAsset": "/assets/hardware/memory-storage-wd-sn850x.png",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
-      "id": "z390hero",
-      "name": "ROG MAXIMUS XI HERO WIFI",
-      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
-      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+      "id": "crucialp2",
+      "name": "P2 1 TB",
+      "picturedModel": "Crucial T705 4TB CT4000T705SSD3",
+      "oldAsset": "/assets/hardware/memory-storage-t705.jpg",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
-      "id": "b450aorus",
-      "name": "B450 AORUS ELITE",
-      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
-      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+      "id": "firecuda520",
+      "name": "FireCuda 520 2 TB",
+      "picturedModel": "Seagate FireCuda 530 PCIe Gen4 SSD (capacity unspecified)",
+      "oldAsset": "/assets/hardware/memory-storage-firecuda530.jpg",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
-      "id": "rtx4070ti",
-      "name": "GeForce RTX 4070 Ti",
-      "picturedModel": "ASUS TUF GeForce RTX 4080 SUPER OC",
-      "oldAsset": "/assets/hardware/gpu-ada.png"
+      "id": "barracuda4",
+      "name": "BarraCuda 4 TB",
+      "picturedModel": "Seagate Barracuda 500 GB",
+      "oldAsset": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
-      "id": "rtx308012",
-      "name": "GeForce RTX 3080 12 GB",
-      "picturedModel": "NVIDIA GeForce RTX 3090 Founders Edition",
-      "oldAsset": "/assets/hardware/gpu-ampere.optimized.jpg"
-    },
-    {
-      "id": "rtx206012",
-      "name": "GeForce RTX 2060 12 GB",
-      "picturedModel": "NVIDIA TITAN RTX",
-      "oldAsset": "/assets/hardware/gpu-turing.optimized.jpg"
-    },
-    {
-      "id": "gtx1630",
-      "name": "GeForce GTX 1630",
-      "picturedModel": "NVIDIA TITAN RTX",
-      "oldAsset": "/assets/hardware/gpu-turing.optimized.jpg"
-    },
-    {
-      "id": "gtx10603",
-      "name": "GeForce GTX 1060 3 GB",
-      "picturedModel": "NVIDIA GeForce GTX 1080 Ti Founders Edition",
-      "oldAsset": "/assets/hardware/gpu-pascal.png"
-    },
-    {
-      "id": "gtx1050",
-      "name": "GeForce GTX 1050",
-      "picturedModel": "NVIDIA GeForce GTX 1080 Ti Founders Edition",
-      "oldAsset": "/assets/hardware/gpu-pascal.png"
-    },
-    {
-      "id": "titanv",
-      "name": "TITAN V",
-      "picturedModel": "NVIDIA GeForce GTX 1080 Ti Founders Edition",
-      "oldAsset": "/assets/hardware/gpu-pascal.png"
-    },
-    {
-      "id": "titanxpascal",
-      "name": "TITAN X (Pascal)",
-      "picturedModel": "NVIDIA GeForce GTX 1080 Ti Founders Edition",
-      "oldAsset": "/assets/hardware/gpu-pascal.png"
-    },
-    {
-      "id": "gt1030",
-      "name": "GeForce GT 1030 GDDR5",
-      "picturedModel": "NVIDIA GeForce GTX 1080 Ti Founders Edition",
-      "oldAsset": "/assets/hardware/gpu-pascal.png"
-    },
-    {
-      "id": "gtx750ti",
-      "name": "GeForce GTX 750 Ti",
-      "picturedModel": "Gigabyte GeForce GTX 970 Windforce",
-      "oldAsset": "/assets/hardware/gpu-maxwell.jpg"
-    },
-    {
-      "id": "gtx680",
-      "name": "GeForce GTX 680",
-      "picturedModel": "NVIDIA GeForce GTX TITAN",
-      "oldAsset": "/assets/hardware/gpu-kepler.jpg"
-    },
-    {
-      "id": "gtx580",
-      "name": "GeForce GTX 580",
-      "picturedModel": "EVGA GeForce GTX 590",
-      "oldAsset": "/assets/hardware/gpu-fermi.jpg"
-    },
-    {
-      "id": "gtx480",
-      "name": "GeForce GTX 480",
-      "picturedModel": "EVGA GeForce GTX 590",
-      "oldAsset": "/assets/hardware/gpu-fermi.jpg"
-    },
-    {
-      "id": "rx9070gre",
-      "name": "Radeon RX 9070 GRE",
-      "picturedModel": "ASUS TUF Gaming Radeon RX 9070 XT OC",
-      "oldAsset": "/assets/hardware/gpu-rdna4.optimized.jpg"
-    },
-    {
-      "id": "rx6700",
-      "name": "Radeon RX 6700 10 GB",
-      "picturedModel": "ASUS TUF Gaming Radeon RX 6800 XT OC",
-      "oldAsset": "/assets/hardware/gpu-rdna2.optimized.jpg"
-    },
-    {
-      "id": "vega56",
-      "name": "Radeon RX Vega 56",
-      "picturedModel": "VisionTek Radeon HD 7970",
-      "oldAsset": "/assets/hardware/gpu-hd7970.png"
-    },
-    {
-      "id": "r9nano",
-      "name": "Radeon R9 Nano",
-      "picturedModel": "VisionTek Radeon HD 7970",
-      "oldAsset": "/assets/hardware/gpu-hd7970.png"
+      "id": "toshiban3008",
+      "name": "N300 8 TB",
+      "picturedModel": "Seagate Barracuda 500 GB",
+      "oldAsset": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
       "id": "r9380x",
@@ -993,22 +424,11 @@
       "oldAsset": "/assets/hardware/gpu-hd7970.png"
     },
     {
-      "id": "r9280x",
-      "name": "Radeon R9 280X",
-      "picturedModel": "VisionTek Radeon HD 7970",
-      "oldAsset": "/assets/hardware/gpu-hd7970.png"
-    },
-    {
-      "id": "hd7870",
-      "name": "Radeon HD 7870 GHz Edition",
-      "picturedModel": "VisionTek Radeon HD 7970",
-      "oldAsset": "/assets/hardware/gpu-hd7970.png"
-    },
-    {
-      "id": "hd6870",
-      "name": "Radeon HD 6870",
+      "id": "hd5870",
+      "name": "Radeon HD 5870",
       "picturedModel": "Sapphire Radeon HD 5870",
-      "oldAsset": "/assets/hardware/gpu-hd5870.jpg"
+      "oldAsset": "/assets/hardware/gpu-hd5870.jpg",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
       "id": "4700g",
@@ -1119,12 +539,6 @@
       "oldAsset": "/assets/hardware/cpu-core-lga1700.jpg"
     },
     {
-      "id": "i312100f",
-      "name": "Core i3-12100F",
-      "picturedModel": "Intel Core i7-13700K",
-      "oldAsset": "/assets/hardware/cpu-core-lga1700.jpg"
-    },
-    {
       "id": "i910980xe",
       "name": "Core i9-10980XE",
       "picturedModel": "Intel Core i7-6800K",
@@ -1133,12 +547,6 @@
     {
       "id": "i78086k",
       "name": "Core i7-8086K",
-      "picturedModel": "Intel Core i7-8700K",
-      "oldAsset": "/assets/hardware/cpu-core-coffee.jpg"
-    },
-    {
-      "id": "i58400",
-      "name": "Core i5-8400",
       "picturedModel": "Intel Core i7-8700K",
       "oldAsset": "/assets/hardware/cpu-core-coffee.jpg"
     },
@@ -1155,22 +563,60 @@
       "oldAsset": "/assets/hardware/cpu-core-hedt.jpg"
     },
     {
-      "id": "x670etuf",
-      "name": "TUF GAMING X670E-PLUS WIFI",
-      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
-      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+      "id": "870qvo2",
+      "name": "870 QVO 2 TB",
+      "picturedModel": "Samsung 870 EVO 500GB SATA 2.5-inch SSD",
+      "oldAsset": "/assets/hardware/memory-storage-samsung870.png",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
-      "id": "b850aorus",
-      "name": "B850 AORUS ELITE WIFI7",
-      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
-      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+      "id": "sn5000",
+      "name": "WD Blue SN5000 1 TB",
+      "picturedModel": "WD Blue SN5000 500 GB",
+      "oldAsset": "/assets/hardware/official-core-official-core-sn5000.png",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
-      "id": "intel8008",
-      "name": "Intel 8008",
-      "picturedModel": "Intel C8008-1",
-      "oldAsset": "/assets/hardware/cpu-8008.jpg"
+      "id": "crucialt500",
+      "name": "T500 2 TB",
+      "picturedModel": "Crucial T705 4TB CT4000T705SSD3",
+      "oldAsset": "/assets/hardware/memory-storage-t705.jpg",
+      "reason": "Pictured identity does not match the selected component"
+    },
+    {
+      "id": "kingstonnv2",
+      "name": "NV2 2 TB",
+      "picturedModel": "Kingston KC3000 4TB SKC3000D/4096GB",
+      "oldAsset": "/assets/hardware/memory-storage-kc3000.jpg",
+      "reason": "Pictured identity does not match the selected component"
+    },
+    {
+      "id": "ironwolf16tb",
+      "name": "IronWolf 16 TB",
+      "picturedModel": "Seagate Barracuda 500 GB",
+      "oldAsset": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+      "reason": "Pictured identity does not match the selected component"
+    },
+    {
+      "id": "toshibax30012",
+      "name": "X300 12 TB",
+      "picturedModel": "Seagate Barracuda 500 GB",
+      "oldAsset": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+      "reason": "Pictured identity does not match the selected component"
+    },
+    {
+      "id": "intel4004",
+      "name": "Intel 4004",
+      "picturedModel": "Intel C4004",
+      "oldAsset": "/assets/hardware/cpu-4004.jpg",
+      "reason": "Pictured identity does not match the selected component"
+    },
+    {
+      "id": "intel8080",
+      "name": "Intel 8080",
+      "picturedModel": "Intel 8080 (intact and opened examples)",
+      "oldAsset": "/assets/hardware/cpu-8080.jpg",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
       "id": "intel8085",
@@ -1179,16 +625,24 @@
       "oldAsset": "/assets/hardware/cpu-8085.jpg"
     },
     {
-      "id": "intel486dx",
-      "name": "Intel 486DX",
-      "picturedModel": "Intel i486 DX2-66",
-      "oldAsset": "/assets/hardware/cpu-486.jpg"
+      "id": "intel8088",
+      "name": "Intel 8088",
+      "picturedModel": "Intel TD8088",
+      "oldAsset": "/assets/hardware/cpu-8088.jpg",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
       "id": "intel486sx",
       "name": "Intel 486SX",
       "picturedModel": "Intel i486 DX2-66",
       "oldAsset": "/assets/hardware/cpu-486.jpg"
+    },
+    {
+      "id": "intel486dx2",
+      "name": "Intel 486DX2-66",
+      "picturedModel": "Intel i486 DX2-66",
+      "oldAsset": "/assets/hardware/cpu-486.jpg",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
       "id": "pentium100",
@@ -1203,22 +657,17 @@
       "oldAsset": "/assets/hardware/cpu-pentium-mmx.jpg"
     },
     {
-      "id": "pentiumii300",
-      "name": "Intel Pentium II 300",
-      "picturedModel": "Intel Pentium II",
-      "oldAsset": "/assets/hardware/cpu-pentium-ii.jpg"
-    },
-    {
       "id": "celeron266",
       "name": "Intel Celeron 266",
       "picturedModel": "Intel Celeron Covington",
       "oldAsset": "/assets/hardware/cpu-celeron.jpg"
     },
     {
-      "id": "pentiumiii600",
-      "name": "Intel Pentium III 600",
-      "picturedModel": "Intel Pentium III Katmai",
-      "oldAsset": "/assets/hardware/cpu-pentium-iii.jpg"
+      "id": "pentium4-1500",
+      "name": "Intel Pentium 4 1.50 GHz",
+      "picturedModel": "Intel Pentium 4 1.5GHz Willamette",
+      "oldAsset": "/assets/hardware/cpu-pentium4.jpg",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
       "id": "am486dx4",
@@ -1249,18 +698,6 @@
       "name": "AMD Athlon 500",
       "picturedModel": "AMD Athlon Classic Slot A",
       "oldAsset": "/assets/hardware/cpu-athlon.jpg"
-    },
-    {
-      "id": "athlonxp1800",
-      "name": "AMD Athlon XP 1800+",
-      "picturedModel": "AMD Athlon XP Palomino",
-      "oldAsset": "/assets/hardware/cpu-athlon-xp.jpg"
-    },
-    {
-      "id": "athlon64x23800",
-      "name": "AMD Athlon 64 X2 3800+",
-      "picturedModel": "AMD Athlon 64 X2 4200+",
-      "oldAsset": "/assets/hardware/cpu-athlon64x2.jpg"
     },
     {
       "id": "phenom9500",
@@ -1369,6 +806,48 @@
       "name": "ATI Radeon X1900 XTX",
       "picturedModel": "HIS Radeon X1950 XTX",
       "oldAsset": "/assets/hardware/gpu-radeonx1950.jpg"
+    },
+    {
+      "id": "ibm350",
+      "name": "IBM 350 Disk Storage Unit",
+      "picturedModel": "IBM 350 RAMAC",
+      "oldAsset": "/assets/hardware/component-new-hdd-ibm350.jpg",
+      "reason": "Pictured identity does not match the selected component"
+    },
+    {
+      "id": "seagatest412",
+      "name": "Seagate ST-412",
+      "picturedModel": "Seagate ST-506",
+      "oldAsset": "/assets/hardware/component-new-hdd-st506.jpg",
+      "reason": "Pictured identity does not match the selected component"
+    },
+    {
+      "id": "ibmpc64k",
+      "name": "IBM PC 64 KB Memory Expansion Option",
+      "picturedModel": "IBM PC 5150 early 64KB memory expansion card",
+      "oldAsset": "/assets/hardware/memory-storage-ibm64.jpg",
+      "reason": "Pictured identity does not match the selected component"
+    },
+    {
+      "id": "simm30-1mb",
+      "name": "30-pin 1 MB SIMM",
+      "picturedModel": "30-pin 1 MB 80 ns SIMM WCM-30S-1M-003-80",
+      "oldAsset": "/assets/hardware/memory-storage-simm30.jpg",
+      "reason": "Pictured identity does not match the selected component"
+    },
+    {
+      "id": "sdram-pc100",
+      "name": "PC100 SDRAM 128 MB DIMM",
+      "picturedModel": "Generic 128 MB PC100 168-pin SDRAM B6786RC-E",
+      "oldAsset": "/assets/hardware/memory-storage-pc100.optimized.jpg",
+      "reason": "Pictured identity does not match the selected component"
+    },
+    {
+      "id": "ddr266-256",
+      "name": "DDR-266 256 MB DIMM",
+      "picturedModel": "Dell 0X772 256 MB DDR-266 184-pin ECC DIMM",
+      "oldAsset": "/assets/hardware/memory-storage-ddr266.jpg",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
       "id": "x-phone-iphone-3g",
@@ -2055,394 +1534,305 @@
       "oldAsset": "/assets/hardware/device-new-device-6.webp"
     },
     {
-      "id": "x-board-asus-p5b-deluxe",
-      "name": "ASUS P5B Deluxe",
-      "picturedModel": "GIGABYTE Turbo 3D motherboard",
-      "oldAsset": "/assets/hardware/component-new-board-gigabyte-turbo.jpg"
+      "id": "c-ram-crucial-pro-overclocking-64gb-ddr5-6000-cl36",
+      "name": "Crucial Pro Overclocking 64GB DDR5-6000 CL36",
+      "picturedModel": "Crucial Pro Overclocking DDR5-6000 32GB CP2K16G60C36U5B",
+      "oldAsset": "/assets/hardware/memory-storage-crucial-oc.jpg",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
-      "id": "x-board-asus-p5k-deluxe",
-      "name": "ASUS P5K Deluxe",
-      "picturedModel": "GIGABYTE Turbo 3D motherboard",
-      "oldAsset": "/assets/hardware/component-new-board-gigabyte-turbo.jpg"
+      "id": "c-ram-teamgroup-t-create-expert-96gb-ddr5-6000-cl34",
+      "name": "TEAMGROUP T-Create Expert 96GB DDR5-6000 CL34",
+      "picturedModel": "TEAMGROUP T-FORCE DELTA RGB DDR5 black single module (family gallery image)",
+      "oldAsset": "/assets/hardware/memory-storage-team-delta.jpg",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
-      "id": "x-board-asus-p6t-deluxe",
-      "name": "ASUS P6T Deluxe",
-      "picturedModel": "GIGABYTE Turbo 3D motherboard",
-      "oldAsset": "/assets/hardware/component-new-board-gigabyte-turbo.jpg"
+      "id": "c-ssd-samsung-990-evo-2tb",
+      "name": "Samsung 990 EVO 2TB",
+      "picturedModel": "Samsung 990 PRO 1TB MZ-V9P1T0BW",
+      "oldAsset": "/assets/hardware/memory-storage-samsung990.optimized.jpg",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
-      "id": "x-board-asus-p8p67-deluxe",
-      "name": "ASUS P8P67 Deluxe",
-      "picturedModel": "GIGABYTE Turbo 3D motherboard",
-      "oldAsset": "/assets/hardware/component-new-board-gigabyte-turbo.jpg"
+      "id": "c-ssd-samsung-870-qvo-8tb",
+      "name": "Samsung 870 QVO 8TB",
+      "picturedModel": "Samsung 870 EVO 500GB SATA 2.5-inch SSD",
+      "oldAsset": "/assets/hardware/memory-storage-samsung870.png",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
-      "id": "x-board-asus-maximus-v-formula",
-      "name": "ASUS Maximus V Formula",
-      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
-      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+      "id": "c-ssd-samsung-850-evo-1tb",
+      "name": "Samsung 850 EVO 1TB",
+      "picturedModel": "Samsung 870 EVO 500GB SATA 2.5-inch SSD",
+      "oldAsset": "/assets/hardware/memory-storage-samsung870.png",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
-      "id": "x-board-asus-maximus-vi-hero",
-      "name": "ASUS Maximus VI Hero",
-      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
-      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+      "id": "c-ssd-wd-black-sn850x-4tb",
+      "name": "WD_BLACK SN850X 4TB",
+      "picturedModel": "WD_BLACK SN850X NVMe SSD (capacity unspecified)",
+      "oldAsset": "/assets/hardware/memory-storage-wd-sn850x.png",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
-      "id": "x-board-asus-maximus-vii-hero",
-      "name": "ASUS Maximus VII Hero",
-      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
-      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+      "id": "c-ssd-wd-black-sn850x-2tb",
+      "name": "WD_BLACK SN850X 2TB",
+      "picturedModel": "WD_BLACK SN850X NVMe SSD (capacity unspecified)",
+      "oldAsset": "/assets/hardware/memory-storage-wd-sn850x.png",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
-      "id": "x-board-asus-maximus-viii-hero",
-      "name": "ASUS Maximus VIII Hero",
-      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
-      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+      "id": "c-ssd-wd-black-sn770-2tb",
+      "name": "WD_BLACK SN770 2TB",
+      "picturedModel": "WD_BLACK SN850X NVMe SSD (capacity unspecified)",
+      "oldAsset": "/assets/hardware/memory-storage-wd-sn850x.png",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
-      "id": "x-board-asus-maximus-ix-hero",
-      "name": "ASUS Maximus IX Hero",
-      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
-      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+      "id": "c-ssd-wd-blue-sn570-1tb",
+      "name": "WD Blue SN570 1TB",
+      "picturedModel": "WD_BLACK SN850X NVMe SSD (capacity unspecified)",
+      "oldAsset": "/assets/hardware/memory-storage-wd-sn850x.png",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
-      "id": "x-board-asus-rog-crosshair-vi-hero",
-      "name": "ASUS ROG Crosshair VI Hero",
-      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
-      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+      "id": "c-ssd-wd-green-sn350-1tb",
+      "name": "WD Green SN350 1TB",
+      "picturedModel": "WD_BLACK SN850X NVMe SSD (capacity unspecified)",
+      "oldAsset": "/assets/hardware/memory-storage-wd-sn850x.png",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
-      "id": "x-board-asus-rog-crosshair-vii-hero",
-      "name": "ASUS ROG Crosshair VII Hero",
-      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
-      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+      "id": "c-ssd-wd-blue-sa510-4tb",
+      "name": "WD Blue SA510 4TB",
+      "picturedModel": "WD Blue SA510 250GB SATA 2.5-inch SSD",
+      "oldAsset": "/assets/hardware/memory-storage-wd-sa510.png",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
-      "id": "x-board-asus-rog-crosshair-viii-hero",
-      "name": "ASUS ROG Crosshair VIII Hero",
-      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
-      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+      "id": "c-ssd-crucial-t700-4tb",
+      "name": "Crucial T700 4TB",
+      "picturedModel": "Crucial T705 4TB CT4000T705SSD3",
+      "oldAsset": "/assets/hardware/memory-storage-t705.jpg",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
-      "id": "x-board-asus-rog-maximus-x-hero",
-      "name": "ASUS ROG Maximus X Hero",
-      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
-      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+      "id": "c-ssd-crucial-t500-2tb",
+      "name": "Crucial T500 2TB",
+      "picturedModel": "Crucial T705 4TB CT4000T705SSD3",
+      "oldAsset": "/assets/hardware/memory-storage-t705.jpg",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
-      "id": "x-board-asus-rog-maximus-xi-hero",
-      "name": "ASUS ROG Maximus XI Hero",
-      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
-      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+      "id": "c-ssd-crucial-p5-plus-2tb",
+      "name": "Crucial P5 Plus 2TB",
+      "picturedModel": "Crucial T705 4TB CT4000T705SSD3",
+      "oldAsset": "/assets/hardware/memory-storage-t705.jpg",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
-      "id": "x-board-asus-rog-maximus-xii-hero",
-      "name": "ASUS ROG Maximus XII Hero",
-      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
-      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+      "id": "c-ssd-crucial-p3-plus-4tb",
+      "name": "Crucial P3 Plus 4TB",
+      "picturedModel": "Crucial T705 4TB CT4000T705SSD3",
+      "oldAsset": "/assets/hardware/memory-storage-t705.jpg",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
-      "id": "x-board-asus-rog-maximus-xiii-hero",
-      "name": "ASUS ROG Maximus XIII Hero",
-      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
-      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+      "id": "c-ssd-crucial-p3-4tb",
+      "name": "Crucial P3 4TB",
+      "picturedModel": "Crucial T705 4TB CT4000T705SSD3",
+      "oldAsset": "/assets/hardware/memory-storage-t705.jpg",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
-      "id": "x-board-gigabyte-ga-965p-ds3",
-      "name": "GIGABYTE GA-965P-DS3",
-      "picturedModel": "GIGABYTE Turbo 3D motherboard",
-      "oldAsset": "/assets/hardware/component-new-board-gigabyte-turbo.jpg"
+      "id": "c-ssd-crucial-mx500-4tb",
+      "name": "Crucial MX500 4TB",
+      "picturedModel": "Crucial MX500 500GB CT500MX500SSD1",
+      "oldAsset": "/assets/hardware/memory-storage-mx500.jpg",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
-      "id": "x-board-gigabyte-ga-p35-ds3r",
-      "name": "GIGABYTE GA-P35-DS3R",
-      "picturedModel": "GIGABYTE Turbo 3D motherboard",
-      "oldAsset": "/assets/hardware/component-new-board-gigabyte-turbo.jpg"
+      "id": "c-ssd-crucial-bx500-2tb",
+      "name": "Crucial BX500 2TB",
+      "picturedModel": "Crucial MX500 500GB CT500MX500SSD1",
+      "oldAsset": "/assets/hardware/memory-storage-mx500.jpg",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
-      "id": "x-board-gigabyte-ga-x58a-ud3r",
-      "name": "GIGABYTE GA-X58A-UD3R",
-      "picturedModel": "GIGABYTE Turbo 3D motherboard",
-      "oldAsset": "/assets/hardware/component-new-board-gigabyte-turbo.jpg"
+      "id": "c-ssd-kingston-fury-renegade-g5-4tb",
+      "name": "Kingston FURY Renegade G5 4TB",
+      "picturedModel": "Kingston KC3000 4TB SKC3000D/4096GB",
+      "oldAsset": "/assets/hardware/memory-storage-kc3000.jpg",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
-      "id": "x-board-gigabyte-ga-z68x-ud3h-b3",
-      "name": "GIGABYTE GA-Z68X-UD3H-B3",
-      "picturedModel": "GIGABYTE Turbo 3D motherboard",
-      "oldAsset": "/assets/hardware/component-new-board-gigabyte-turbo.jpg"
+      "id": "c-ssd-kingston-fury-renegade-4tb",
+      "name": "Kingston FURY Renegade 4TB",
+      "picturedModel": "Kingston KC3000 4TB SKC3000D/4096GB",
+      "oldAsset": "/assets/hardware/memory-storage-kc3000.jpg",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
-      "id": "x-board-gigabyte-ga-z77x-ud5h",
-      "name": "GIGABYTE GA-Z77X-UD5H",
-      "picturedModel": "GIGABYTE Turbo 3D motherboard",
-      "oldAsset": "/assets/hardware/component-new-board-gigabyte-turbo.jpg"
+      "id": "c-ssd-kingston-nv2-2tb",
+      "name": "Kingston NV2 2TB",
+      "picturedModel": "Kingston KC3000 4TB SKC3000D/4096GB",
+      "oldAsset": "/assets/hardware/memory-storage-kc3000.jpg",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
-      "id": "x-board-gigabyte-ga-z87x-ud3h",
-      "name": "GIGABYTE GA-Z87X-UD3H",
-      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
-      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+      "id": "c-ssd-kingston-a400-1-92tb",
+      "name": "Kingston A400 1.92TB",
+      "picturedModel": "WD Blue SA510 250GB SATA 2.5-inch SSD",
+      "oldAsset": "/assets/hardware/memory-storage-wd-sa510.png",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
-      "id": "x-board-gigabyte-ga-z97x-gaming-7",
-      "name": "GIGABYTE GA-Z97X-Gaming 7",
-      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
-      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+      "id": "c-ssd-seagate-firecuda-540-4tb",
+      "name": "Seagate FireCuda 540 4TB",
+      "picturedModel": "Seagate FireCuda 530 PCIe Gen4 SSD (capacity unspecified)",
+      "oldAsset": "/assets/hardware/memory-storage-firecuda530.jpg",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
-      "id": "x-board-gigabyte-ga-z170x-gaming-7",
-      "name": "GIGABYTE GA-Z170X-Gaming 7",
-      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
-      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+      "id": "c-ssd-seagate-firecuda-530r-4tb",
+      "name": "Seagate FireCuda 530R 4TB",
+      "picturedModel": "Seagate FireCuda 530 PCIe Gen4 SSD (capacity unspecified)",
+      "oldAsset": "/assets/hardware/memory-storage-firecuda530.jpg",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
-      "id": "x-board-gigabyte-x299-aorus-gaming-9",
-      "name": "GIGABYTE X299 AORUS Gaming 9",
-      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
-      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+      "id": "c-ssd-seagate-firecuda-530-4tb",
+      "name": "Seagate FireCuda 530 4TB",
+      "picturedModel": "Seagate FireCuda 530 PCIe Gen4 SSD (capacity unspecified)",
+      "oldAsset": "/assets/hardware/memory-storage-firecuda530.jpg",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
-      "id": "x-board-gigabyte-x399-aorus-gaming-7",
-      "name": "GIGABYTE X399 AORUS Gaming 7",
-      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
-      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+      "id": "c-ssd-seagate-firecuda-520-2tb",
+      "name": "Seagate FireCuda 520 2TB",
+      "picturedModel": "Seagate FireCuda 530 PCIe Gen4 SSD (capacity unspecified)",
+      "oldAsset": "/assets/hardware/memory-storage-firecuda530.jpg",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
-      "id": "c-board-msi-meg-x870e-godlike",
-      "name": "MSI MEG X870E GODLIKE",
-      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
-      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+      "id": "c-ssd-seagate-barracuda-q5-2tb",
+      "name": "Seagate BarraCuda Q5 2TB",
+      "picturedModel": "Seagate FireCuda 530 PCIe Gen4 SSD (capacity unspecified)",
+      "oldAsset": "/assets/hardware/memory-storage-firecuda530.jpg",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
-      "id": "c-board-msi-mpg-b850-edge-ti-wifi",
-      "name": "MSI MPG B850 EDGE TI WIFI",
-      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
-      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+      "id": "c-hdd-seagate-barracuda-4tb",
+      "name": "Seagate BarraCuda 4TB",
+      "picturedModel": "Seagate Barracuda 500 GB",
+      "oldAsset": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
-      "id": "c-board-msi-mpg-b650i-edge-wifi",
-      "name": "MSI MPG B650I EDGE WIFI",
-      "picturedModel": "Mini-ITX motherboard",
-      "oldAsset": "/assets/hardware/component-new-board-itx.jpg"
+      "id": "c-hdd-seagate-firecuda-8tb-hdd",
+      "name": "Seagate FireCuda 8TB HDD",
+      "picturedModel": "Seagate Barracuda 500 GB",
+      "oldAsset": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
-      "id": "c-board-msi-meg-z890-godlike",
-      "name": "MSI MEG Z890 GODLIKE",
-      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
-      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+      "id": "c-hdd-seagate-ironwolf-24tb",
+      "name": "Seagate IronWolf 24TB",
+      "picturedModel": "Seagate Barracuda 500 GB",
+      "oldAsset": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
-      "id": "c-board-msi-mag-z890-tomahawk-wifi",
-      "name": "MSI MAG Z890 TOMAHAWK WIFI",
-      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
-      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+      "id": "c-hdd-seagate-exos-x24-24tb",
+      "name": "Seagate Exos X24 24TB",
+      "picturedModel": "Seagate Barracuda 500 GB",
+      "oldAsset": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
-      "id": "c-board-msi-mag-b760m-mortar-wifi-ii",
-      "name": "MSI MAG B760M MORTAR WIFI II",
-      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
-      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+      "id": "c-hdd-seagate-skyhawk-ai-24tb",
+      "name": "Seagate SkyHawk AI 24TB",
+      "picturedModel": "Seagate Barracuda 500 GB",
+      "oldAsset": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
-      "id": "c-board-msi-pro-h610m-g-ddr4",
-      "name": "MSI PRO H610M-G DDR4",
-      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
-      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+      "id": "c-hdd-wd-red-plus-12tb",
+      "name": "WD Red Plus 12TB",
+      "picturedModel": "Western Digital Red 4 TB",
+      "oldAsset": "/assets/hardware/component-new-hdd-wdred.jpg",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
-      "id": "c-board-asrock-x870e-taichi",
-      "name": "ASRock X870E Taichi",
-      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
-      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+      "id": "c-hdd-wd-gold-24tb",
+      "name": "WD Gold 24TB",
+      "picturedModel": "Western Digital Red 4 TB",
+      "oldAsset": "/assets/hardware/component-new-hdd-wdred.jpg",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
-      "id": "c-board-asrock-x870e-nova-wifi",
-      "name": "ASRock X870E Nova WiFi",
-      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
-      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+      "id": "c-hdd-wd-purple-pro-24tb",
+      "name": "WD Purple Pro 24TB",
+      "picturedModel": "Western Digital Red 4 TB",
+      "oldAsset": "/assets/hardware/component-new-hdd-wdred.jpg",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
-      "id": "c-board-asrock-x870-steel-legend-wifi",
-      "name": "ASRock X870 Steel Legend WiFi",
-      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
-      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+      "id": "c-hdd-toshiba-x300-pro-22tb",
+      "name": "Toshiba X300 Pro 22TB",
+      "picturedModel": "Seagate Barracuda 500 GB",
+      "oldAsset": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
-      "id": "c-board-asrock-b850-livemixer-wifi",
-      "name": "ASRock B850 LiveMixer WiFi",
-      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
-      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+      "id": "c-hdd-toshiba-x300-18tb",
+      "name": "Toshiba X300 18TB",
+      "picturedModel": "Seagate Barracuda 500 GB",
+      "oldAsset": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
-      "id": "c-board-asrock-b850-steel-legend-wifi",
-      "name": "ASRock B850 Steel Legend WiFi",
-      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
-      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+      "id": "c-hdd-toshiba-n300-pro-22tb",
+      "name": "Toshiba N300 Pro 22TB",
+      "picturedModel": "Seagate Barracuda 500 GB",
+      "oldAsset": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
-      "id": "c-board-asrock-b650e-taichi-lite",
-      "name": "ASRock B650E Taichi Lite",
-      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
-      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+      "id": "c-hdd-toshiba-n300-18tb",
+      "name": "Toshiba N300 18TB",
+      "picturedModel": "Seagate Barracuda 500 GB",
+      "oldAsset": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
-      "id": "c-board-asrock-b650m-pro-rs-wifi",
-      "name": "ASRock B650M Pro RS WiFi",
-      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
-      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+      "id": "c-hdd-toshiba-p300-6tb",
+      "name": "Toshiba P300 6TB",
+      "picturedModel": "Seagate Barracuda 500 GB",
+      "oldAsset": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
-      "id": "c-board-asrock-a620i-lightning-wifi",
-      "name": "ASRock A620I Lightning WiFi",
-      "picturedModel": "Mini-ITX motherboard",
-      "oldAsset": "/assets/hardware/component-new-board-itx.jpg"
+      "id": "c-hdd-toshiba-s300-pro-10tb",
+      "name": "Toshiba S300 Pro 10TB",
+      "picturedModel": "Seagate Barracuda 500 GB",
+      "oldAsset": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
-      "id": "c-board-asrock-z890-taichi-ocf",
-      "name": "ASRock Z890 Taichi OCF",
-      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
-      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
+      "id": "c-hdd-toshiba-mg10-22tb",
+      "name": "Toshiba MG10 22TB",
+      "picturedModel": "Seagate Barracuda 500 GB",
+      "oldAsset": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
-      "id": "c-board-asrock-z890-nova-wifi",
-      "name": "ASRock Z890 Nova WiFi",
-      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
-      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
-    },
-    {
-      "id": "c-board-asrock-z790-taichi-carrara",
-      "name": "ASRock Z790 Taichi Carrara",
-      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
-      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
-    },
-    {
-      "id": "c-board-asrock-z790-pg-itx-tb4",
-      "name": "ASRock Z790 PG-ITX/TB4",
-      "picturedModel": "Mini-ITX motherboard",
-      "oldAsset": "/assets/hardware/component-new-board-itx.jpg"
-    },
-    {
-      "id": "c-board-asrock-b760m-steel-legend-wifi",
-      "name": "ASRock B760M Steel Legend WiFi",
-      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
-      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
-    },
-    {
-      "id": "c-board-asrock-b550-taichi",
-      "name": "ASRock B550 Taichi",
-      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
-      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
-    },
-    {
-      "id": "c-board-asrock-b450m-steel-legend",
-      "name": "ASRock B450M Steel Legend",
-      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
-      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
-    },
-    {
-      "id": "c-board-gigabyte-x870e-aorus-xtreme-ai-top",
-      "name": "GIGABYTE X870E AORUS XTREME AI TOP",
-      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
-      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
-    },
-    {
-      "id": "c-board-gigabyte-x870e-aorus-master",
-      "name": "GIGABYTE X870E AORUS MASTER",
-      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
-      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
-    },
-    {
-      "id": "c-board-gigabyte-x870-aorus-elite-wifi7",
-      "name": "GIGABYTE X870 AORUS ELITE WIFI7",
-      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
-      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
-    },
-    {
-      "id": "c-board-gigabyte-b850-aorus-elite-wifi7",
-      "name": "GIGABYTE B850 AORUS ELITE WIFI7",
-      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
-      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
-    },
-    {
-      "id": "c-board-gigabyte-b650-aorus-elite-ax",
-      "name": "GIGABYTE B650 AORUS ELITE AX",
-      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
-      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
-    },
-    {
-      "id": "c-board-gigabyte-b650i-aorus-ultra",
-      "name": "GIGABYTE B650I AORUS ULTRA",
-      "picturedModel": "Mini-ITX motherboard",
-      "oldAsset": "/assets/hardware/component-new-board-itx.jpg"
-    },
-    {
-      "id": "c-board-gigabyte-z890-aorus-xtreme-ai-top",
-      "name": "GIGABYTE Z890 AORUS XTREME AI TOP",
-      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
-      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
-    },
-    {
-      "id": "c-board-gigabyte-z790-aorus-master-x",
-      "name": "GIGABYTE Z790 AORUS MASTER X",
-      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
-      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
-    },
-    {
-      "id": "c-board-gigabyte-z790i-aorus-ultra",
-      "name": "GIGABYTE Z790I AORUS ULTRA",
-      "picturedModel": "Mini-ITX motherboard",
-      "oldAsset": "/assets/hardware/component-new-board-itx.jpg"
-    },
-    {
-      "id": "c-board-gigabyte-b760m-ds3h-ddr4",
-      "name": "GIGABYTE B760M DS3H DDR4",
-      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
-      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
-    },
-    {
-      "id": "c-board-biostar-x870e-valkyrie",
-      "name": "Biostar X870E VALKYRIE",
-      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
-      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
-    },
-    {
-      "id": "c-board-biostar-b650mp-e-pro",
-      "name": "Biostar B650MP-E PRO",
-      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
-      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
-    },
-    {
-      "id": "c-board-biostar-b550mh",
-      "name": "Biostar B550MH",
-      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
-      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
-    },
-    {
-      "id": "c-board-biostar-z890-valkyrie",
-      "name": "Biostar Z890 VALKYRIE",
-      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
-      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
-    },
-    {
-      "id": "c-board-biostar-z790a-silver",
-      "name": "Biostar Z790A-SILVER",
-      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
-      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
-    },
-    {
-      "id": "c-board-biostar-b760mx2-e-d4",
-      "name": "Biostar B760MX2-E D4",
-      "picturedModel": "ASUS ROG Strix Z390-F Gaming",
-      "oldAsset": "/assets/hardware/component-new-board-asus-rog.jpg"
-    },
-    {
-      "id": "c-board-supermicro-x13dei-t",
-      "name": "Supermicro X13DEI-T",
-      "picturedModel": "Supermicro dual Opteron server motherboard",
-      "oldAsset": "/assets/hardware/component-new-board-server.jpg"
+      "id": "c-psu-cooler-master-v-gold-i-multi-1050",
+      "name": "Cooler Master V Gold i Multi 1050",
+      "picturedModel": "Corsair CX600M",
+      "oldAsset": "/assets/hardware/component-new-psu-corsair-modular.jpg",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
       "id": "c-cpu-intel-xeon-gold-6430",
@@ -2511,64 +1901,25 @@
       "oldAsset": "/assets/hardware/cpu-epyc.jpg"
     },
     {
-      "id": "c-board-gigabyte-mz73-lm0",
-      "name": "GIGABYTE MZ73-LM0",
-      "picturedModel": "Supermicro dual Opteron server motherboard",
-      "oldAsset": "/assets/hardware/component-new-board-server.jpg"
+      "id": "c-case-supermicro-4u-workstation-chassis",
+      "name": "Supermicro 4U Workstation Chassis",
+      "picturedModel": "Corsair 4000D Airflow",
+      "oldAsset": "/assets/hardware/component-new-case-corsair.jpg",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
-      "id": "c-board-supermicro-h13dsh",
-      "name": "Supermicro H13DSH",
-      "picturedModel": "Supermicro dual Opteron server motherboard",
-      "oldAsset": "/assets/hardware/component-new-board-server.jpg"
+      "id": "c-psu-supermicro-1600w-redundant-power-supply",
+      "name": "Supermicro 1600W Redundant Power Supply",
+      "picturedModel": "Redundant server power supply",
+      "oldAsset": "/assets/hardware/component-new-psu-redundant.jpg",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
-      "id": "retail-asus-prime-h510m-k",
-      "name": "PRIME H510M-K",
-      "picturedModel": "PRIME H510M-K — simplified illustration",
-      "oldAsset": "/assets/illustrations/retail-asus-prime-h510m-k.svg"
-    },
-    {
-      "id": "retail-msi-geforce-rtx-3060-ventus-2x-12g",
-      "name": "GeForce RTX 3060 VENTUS 2X 12G",
-      "picturedModel": "GeForce RTX 3060 VENTUS 2X 12G — simplified illustration",
-      "oldAsset": "/assets/illustrations/retail-msi-geforce-rtx-3060-ventus-2x-12g.svg"
-    },
-    {
-      "id": "retail-msi-geforce-rtx-3060-ventus-2x-12g-oc",
-      "name": "GeForce RTX 3060 VENTUS 2X 12G OC",
-      "picturedModel": "GeForce RTX 3060 VENTUS 2X 12G OC — simplified illustration",
-      "oldAsset": "/assets/illustrations/retail-msi-geforce-rtx-3060-ventus-2x-12g-oc.svg"
-    },
-    {
-      "id": "retail-msi-geforce-rtx-3060-ventus-2x-8g-oc",
-      "name": "GeForce RTX 3060 VENTUS 2X 8G OC",
-      "picturedModel": "GeForce RTX 3060 VENTUS 2X 8G OC — simplified illustration",
-      "oldAsset": "/assets/illustrations/retail-msi-geforce-rtx-3060-ventus-2x-8g-oc.svg"
-    },
-    {
-      "id": "retail-msi-geforce-rtx-3060-gaming-x-12g",
-      "name": "GeForce RTX 3060 GAMING X 12G",
-      "picturedModel": "GeForce RTX 3060 GAMING X 12G — simplified illustration",
-      "oldAsset": "/assets/illustrations/retail-msi-geforce-rtx-3060-gaming-x-12g.svg"
-    },
-    {
-      "id": "retail-asus-dual-geforce-rtx-3060-v2-oc-edition",
-      "name": "Dual GeForce RTX 3060 V2 OC Edition",
-      "picturedModel": "Dual GeForce RTX 3060 V2 OC Edition — simplified illustration",
-      "oldAsset": "/assets/illustrations/retail-asus-dual-geforce-rtx-3060-v2-oc-edition.svg"
-    },
-    {
-      "id": "retail-zotac-geforce-rtx-3060-twin-edge",
-      "name": "GeForce RTX 3060 Twin Edge",
-      "picturedModel": "GeForce RTX 3060 Twin Edge — simplified illustration",
-      "oldAsset": "/assets/illustrations/retail-zotac-geforce-rtx-3060-twin-edge.svg"
-    },
-    {
-      "id": "retail-gigabyte-geforce-rtx-4090-aero-oc-24g",
-      "name": "GeForce RTX 4090 AERO OC 24G",
-      "picturedModel": "GeForce RTX 4090 AERO OC 24G — simplified illustration",
-      "oldAsset": "/assets/illustrations/retail-gigabyte-geforce-rtx-4090-aero-oc-24g.svg"
+      "id": "retail-samsung-sm883-960gb",
+      "name": "SM883 960GB",
+      "picturedModel": "Samsung SM883 enclosure",
+      "oldAsset": "/assets/hardware/samsung-sm883-enclosure.svg",
+      "reason": "Pictured identity does not match the selected component"
     },
     {
       "id": "retail-gigabyte-b550-aorus-elite-v2",
@@ -2577,5 +1928,5 @@
       "oldAsset": "/assets/illustrations/retail-gigabyte-b550-aorus-elite-v2.svg"
     }
   ],
-  "policy": "Do not show another CPU, motherboard or graphics chip as the selected product. Genuine same-chip partner images explicitly name the photographed variant. Unverified products retain specifications with an image-unavailable state."
+  "policy": "Do not show another CPU, motherboard, capacity or exact partner SKU as the selected product. Generic graphics-chip entries may show a reviewed named board with that exact GPU and memory; their pictured variant is preserved. Unverified products retain specifications without a substituted photograph."
 }

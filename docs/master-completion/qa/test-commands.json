@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-10-17T16:56:48.387Z",
-  "commands": 74,
-  "passed": 74,
+  "checkedAt": "2026-10-17T19:42:07.575Z",
+  "commands": 76,
+  "passed": 76,
   "results": [
     {
       "command": "node scripts/check-program.cjs",
@@ -370,6 +370,16 @@
     },
     {
       "command": "node scripts/ui-refinement.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/builder-photo-delivery.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/component-photo-catalog.test.cjs",
       "exitCode": 0,
       "passed": true
     }

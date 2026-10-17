@@ -1,0 +1,39 @@
+const fs=require('fs'),path=require('path');let r={};for(let i=1;i<=7;i++)Object.assign(r,JSON.parse(fs.readFileSync(path.join(__dirname,'memory-psu-supplement-research-'+i+'.json'))));
+const picks={
+crucialpro6000:1,crucial3200:1,ballistix3600:5,vipersteel4400:5,
+'c-ram-corsair-vengeance-48gb-ddr5-6400-cl36':7,
+'c-ram-g-skill-trident-z5-rgb-32gb-ddr5-7200-cl34':6,
+'c-ram-g-skill-ripjaws-s5-96gb-ddr5-5600-cl40':7,
+'c-ram-g-skill-trident-z-royal-elite-32gb-ddr4-4000-cl16':7,
+'c-ram-g-skill-ripjaws-v-16gb-ddr4-3200-cl16':1,
+'c-ram-crucial-pro-64gb-ddr5-5600-cl46':5,
+'c-ram-crucial-32gb-ddr5-4800-cl40':5,
+'c-ram-crucial-pro-64gb-ddr4-3200-cl22':2,
+'c-ram-crucial-ballistix-max-32gb-ddr4-4000-cl18':1,
+'c-ram-crucial-16gb-ddr4-3200-cl22':0,
+'c-ram-teamgroup-t-force-xtreem-48gb-ddr5-8200-cl38':1,
+'c-ram-teamgroup-t-create-classic-32gb-ddr5-5600-cl46':3,
+'c-ram-teamgroup-t-force-xtreem-argb-32gb-ddr4-3600-cl14':4,
+'c-ram-teamgroup-t-force-vulcan-z-16gb-ddr4-3200-cl16':9,
+primetx1000:6,straightpower850:5,sf1000l:5,darkpower1000:7,evgag6850:3,vertexgx1000:8,purepower850:2,evgag6750:3,coregx650:1,primetx1300:1,straightpower1000:6,darkpower1600:6,
+'c-psu-seasonic-prime-tx-1600-noctua-edition':4,
+'c-psu-seasonic-prime-px-1600':0,
+'c-psu-seasonic-vertex-px-1200':8,
+'c-psu-seasonic-vertex-gx-850':11,
+'c-psu-evga-supernova-1600-p':0,
+'c-psu-evga-supernova-1300-g':2,
+'c-psu-evga-supernova-1000-g7':6,
+'c-psu-evga-supernova-850-g7':3,
+'c-psu-evga-supernova-750-g7':0,
+'c-psu-evga-supernova-650-g6':1,
+'c-psu-evga-600-br':1,
+'c-psu-evga-500-w1':4,
+'c-psu-be-quiet-pure-power-12-m-1000w':2,
+'c-psu-be-quiet-pure-power-12-m-750w':0,
+'c-psu-be-quiet-system-power-10-650w':3,
+'c-psu-cooler-master-v-platinum-v2-1300':6,
+'retail-seasonic-m12ii-evo-620w':6
+};
+const out={};for(const[id,i]of Object.entries(picks)){const x=r[id],h=x.hits[i];if(!h)throw Error(id+' missing hit '+i);out[id]={...h,catalogName:x.record.name,picturedModel:x.record.name,category:x.record.category,identityEvidence:'Exact named product publication: '+h.title+'. Final capacity, timing, color and wattage/version visual QA pending.',official:/^(?:www\.)?(?:evga\.com|noctua\.at|coolermaster\.com)$/.test(new URL(h.sourceUrl).hostname),kind:'exact',checked:'2026-10-17',license:'Copyright retained by original image owner; no open reuse license established',licenseUrl:h.sourceUrl,attribution:'Product photograph published by '+new URL(h.sourceUrl).hostname};for(const alias of x.aliases)out[alias]={...out[id],catalogName:r[id].record.name,aliasOf:id};}
+out['c-ram-crucial-pro-overclocking-32gb-ddr5-6000-cl36']={...out.crucialpro6000,catalogName:r['c-ram-crucial-pro-overclocking-32gb-ddr5-6000-cl36'].record.name,aliasOf:'crucialpro6000'};
+fs.writeFileSync(path.join(__dirname,'memory-psu-supplement-candidates.json'),JSON.stringify(out,null,2));console.log('Candidates',Object.keys(out).length);

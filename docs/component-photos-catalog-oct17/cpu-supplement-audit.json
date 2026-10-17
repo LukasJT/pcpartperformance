@@ -1,0 +1,2170 @@
+{
+  "checked": "2026-10-17",
+  "scope": "113 missing CPU IDs from final-coverage.json at start of supplement pass; existing main and extra manifests preserved",
+  "assigned": 113,
+  "accepted": 17,
+  "unresolved": 96,
+  "candidatePhotosVisuallyReviewed": 52,
+  "notes": [
+    "This is a bounded public-source research pass; unresolved means no exact photo was verified in the sources reviewed, not that no image exists.",
+    "Every assigned ID has a dedicated Commons category attempt; 25 prior second-pass category results were reused rather than needlessly requested again. Additional family and exact part-number categories were checked for historical CPUs.",
+    "HTTP 403 is a transport/access block; HTTP 404 is a missing source URL/category. Neither is treated as image absence. Exact retailer listings with generic media were rejected after visual inspection.",
+    "On HTTP 429, the requesting host batch stopped. Early Retry-After values were 1 second; later category and original-source responses specified 1000 and 600 seconds respectively. Early batches resumed only after extended backoff; no further host requests were made after the longer limits. The rate-limited source URLs themselves were not retried.",
+    "Accepted sourceSha256 hashes the exact raw provider bytes used for local derivation, either original files or cached licensed provider previews as declared by sourceHashScope. imageUrl identifies those bytes; originalImageUrl remains separate. sha256 and thumbnailSha256 hash the final reviewed WebP assets.",
+    "Retailer media reviewed here are not asserted to be openly licensed or manufacturer-owned; no retailer image was accepted in this increment."
+  ],
+  "rows": [
+    {
+      "id": "5950x",
+      "name": "Ryzen 9 5950X",
+      "status": "unresolved",
+      "reason": "No exact complete single-chip photo was verified in the bounded Commons candidates. The category includes media such as comparison frames, videos, die images, boards, or family material; the category alone is not identity evidence.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_Ryzen_9_5950X",
+          "status": 200,
+          "reusedPriorCategoryResearch": true
+        },
+        {
+          "url": "https://www.itcreations.com/product/124801",
+          "finalUrl": "https://www.itcreations.com/product/124801",
+          "status": 404,
+          "title": "IT Creations - Custom Configured for You!",
+          "imagesFound": 0
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "3950x",
+      "name": "Ryzen 9 3950X",
+      "status": "unresolved",
+      "reason": "No exact complete single-chip photo was verified in the bounded Commons candidates. The category includes media such as comparison frames, videos, die images, boards, or family material; the category alone is not identity evidence.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_Ryzen_9_3950X",
+          "status": 200
+        }
+      ],
+      "candidates": [
+        {
+          "candidate": "A0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Der_AMD_Ryzen_Threadripper_3990X_mit_64_Kernen_(%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan)_03.png",
+          "title": "File:Der AMD Ryzen Threadripper 3990X mit 64 Kernen (极客湾Geekerwan) 03.png",
+          "reviewed": true,
+          "accepted": false
+        },
+        {
+          "candidate": "A1",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Der_AMD_Ryzen_Threadripper_3990X_mit_64_Kernen_(%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan)_05.png",
+          "title": "File:Der AMD Ryzen Threadripper 3990X mit 64 Kernen (极客湾Geekerwan) 05.png",
+          "reviewed": true,
+          "accepted": false
+        },
+        {
+          "candidate": "A2",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Der_AMD_Ryzen_Threadripper_3990X_mit_64_Kernen_(%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan)_06.png",
+          "title": "File:Der AMD Ryzen Threadripper 3990X mit 64 Kernen (极客湾Geekerwan) 06.png",
+          "reviewed": true,
+          "accepted": false
+        },
+        {
+          "candidate": "A3",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Der_AMD_Ryzen_Threadripper_3990X_mit_64_Kernen_(%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan)_08.png",
+          "title": "File:Der AMD Ryzen Threadripper 3990X mit 64 Kernen (极客湾Geekerwan) 08.png",
+          "reviewed": true,
+          "accepted": false
+        },
+        {
+          "candidate": "A4",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Der_AMD_Ryzen_Threadripper_3990X_mit_64_Kernen_(%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan)_14.png",
+          "title": "File:Der AMD Ryzen Threadripper 3990X mit 64 Kernen (极客湾Geekerwan) 14.png",
+          "reviewed": true,
+          "accepted": false
+        },
+        {
+          "candidate": "A5",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Der_AMD_Ryzen_Threadripper_3990X_mit_64_Kernen_(%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan)_16.png",
+          "title": "File:Der AMD Ryzen Threadripper 3990X mit 64 Kernen (极客湾Geekerwan) 16.png",
+          "reviewed": true,
+          "accepted": false
+        },
+        {
+          "candidate": "A6",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Der_AMD_Ryzen_Threadripper_3990X_mit_64_Kernen_(%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan)_21.png",
+          "title": "File:Der AMD Ryzen Threadripper 3990X mit 64 Kernen (极客湾Geekerwan) 21.png",
+          "reviewed": true,
+          "accepted": false
+        }
+      ]
+    },
+    {
+      "id": "3600",
+      "name": "Ryzen 5 3600",
+      "status": "unresolved",
+      "reason": "No exact complete single-chip photo was verified in the bounded Commons candidates. The category includes media such as comparison frames, videos, die images, boards, or family material; the category alone is not identity evidence.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_Ryzen_5_3600",
+          "status": 200,
+          "reusedPriorCategoryResearch": true
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "2700x",
+      "name": "Ryzen 7 2700X",
+      "status": "unresolved",
+      "reason": "No dedicated model category was found at the attempted Commons URL (HTTP 404). This is a source-discovery result, not evidence that a correct image does not exist elsewhere.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_Ryzen_7_2700X",
+          "status": 404,
+          "reusedPriorCategoryResearch": true
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "i913900k",
+      "name": "Core i9-13900K",
+      "status": "unresolved",
+      "reason": "No exact complete single-chip photo was verified in the bounded Commons candidates. The category includes media such as comparison frames, videos, die images, boards, or family material; the category alone is not identity evidence.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i9-13900K",
+          "status": 200,
+          "reusedPriorCategoryResearch": true
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "i912900k",
+      "name": "Core i9-12900K",
+      "status": "unresolved",
+      "reason": "No exact complete single-chip photo was verified in the bounded Commons candidates. The category includes media such as comparison frames, videos, die images, boards, or family material; the category alone is not identity evidence.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i9-12900K",
+          "status": 200,
+          "reusedPriorCategoryResearch": true
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "i910900k",
+      "name": "Core i9-10900K",
+      "status": "unresolved",
+      "reason": "No exact complete single-chip photo was verified in the bounded Commons candidates. The category includes media such as comparison frames, videos, die images, boards, or family material; the category alone is not identity evidence.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i9-10900K",
+          "status": 200,
+          "reusedPriorCategoryResearch": true
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "i77700k",
+      "name": "Core i7-7700K",
+      "status": "unresolved",
+      "reason": "No exact complete single-chip photo was verified in the bounded Commons candidates. The category includes media such as comparison frames, videos, die images, boards, or family material; the category alone is not identity evidence.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i7-7700K",
+          "status": 200,
+          "reusedPriorCategoryResearch": true
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "7900",
+      "name": "Ryzen 9 7900",
+      "status": "unresolved",
+      "reason": "No exact complete single-chip photo was verified in the bounded Commons candidates. The category includes media such as comparison frames, videos, die images, boards, or family material; the category alone is not identity evidence.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_Ryzen_9_7900",
+          "status": 200,
+          "reusedPriorCategoryResearch": true
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "5700x3d",
+      "name": "Ryzen 7 5700X3D",
+      "status": "unresolved",
+      "reason": "No dedicated model category was found at the attempted Commons URL (HTTP 404). This is a source-discovery result, not evidence that a correct image does not exist elsewhere.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_Ryzen_7_5700X3D",
+          "status": 404,
+          "reusedPriorCategoryResearch": true
+        },
+        {
+          "url": "https://www.zahcomputers.pk/product/amd-ryzen-7-5700x3d-processor-tray/",
+          "finalUrl": "https://www.zahcomputers.pk/product/amd-ryzen-7-5700x3d-processor-tray/",
+          "status": 403,
+          "title": "Just a moment...",
+          "imagesFound": 0
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "5600",
+      "name": "Ryzen 5 5600",
+      "status": "unresolved",
+      "reason": "No exact complete single-chip photo was verified in the bounded Commons candidates. The category includes media such as comparison frames, videos, die images, boards, or family material; the category alone is not identity evidence.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_Ryzen_5_5600",
+          "status": 200,
+          "reusedPriorCategoryResearch": true
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "3800x",
+      "name": "Ryzen 7 3800X",
+      "status": "unresolved",
+      "reason": "No dedicated model category was found at the attempted Commons URL (HTTP 404). This is a source-discovery result, not evidence that a correct image does not exist elsewhere.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_Ryzen_7_3800X",
+          "status": 404
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "2600x",
+      "name": "Ryzen 5 2600X",
+      "status": "unresolved",
+      "reason": "No dedicated model category was found at the attempted Commons URL (HTTP 404). This is a source-discovery result, not evidence that a correct image does not exist elsewhere.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_Ryzen_5_2600X",
+          "status": 404
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "ultra5245k",
+      "name": "Core Ultra 5 245K",
+      "status": "unresolved",
+      "reason": "No exact complete single-chip photo was verified in the bounded Commons candidates. The category includes media such as comparison frames, videos, die images, boards, or family material; the category alone is not identity evidence.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_Ultra_5_245K",
+          "status": 200,
+          "reusedPriorCategoryResearch": true
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "i911900k",
+      "name": "Core i9-11900K",
+      "status": "unresolved",
+      "reason": "No dedicated model category was found at the attempted Commons URL (HTTP 404). This is a source-discovery result, not evidence that a correct image does not exist elsewhere.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i9-11900K",
+          "status": 404,
+          "reusedPriorCategoryResearch": true
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "i711700k",
+      "name": "Core i7-11700K",
+      "status": "unresolved",
+      "reason": "No dedicated model category was found at the attempted Commons URL (HTTP 404). This is a source-discovery result, not evidence that a correct image does not exist elsewhere.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i7-11700K",
+          "status": 404,
+          "reusedPriorCategoryResearch": true
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "i511600k",
+      "name": "Core i5-11600K",
+      "status": "unresolved",
+      "reason": "No dedicated model category was found at the attempted Commons URL (HTTP 404). This is a source-discovery result, not evidence that a correct image does not exist elsewhere.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i5-11600K",
+          "status": 404,
+          "reusedPriorCategoryResearch": true
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "i710700k",
+      "name": "Core i7-10700K",
+      "status": "unresolved",
+      "reason": "No dedicated model category was found at the attempted Commons URL (HTTP 404). This is a source-discovery result, not evidence that a correct image does not exist elsewhere.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i7-10700K",
+          "status": 404,
+          "reusedPriorCategoryResearch": true
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "i79700k",
+      "name": "Core i7-9700K",
+      "status": "unresolved",
+      "reason": "No exact complete single-chip photo was verified in the bounded Commons candidates. The category includes media such as comparison frames, videos, die images, boards, or family material; the category alone is not identity evidence.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i7-9700K",
+          "status": 200,
+          "reusedPriorCategoryResearch": true
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "i73770k",
+      "name": "Core i7-3770K",
+      "status": "unresolved",
+      "reason": "No dedicated model category was found at the attempted Commons URL (HTTP 404). This is a source-discovery result, not evidence that a correct image does not exist elsewhere.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i7-3770K",
+          "status": 404,
+          "reusedPriorCategoryResearch": true
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "7500f",
+      "name": "Ryzen 5 7500F",
+      "status": "repaired",
+      "reason": "Accepted: The complete single CPU heatspreader visibly reads AMD Ryzen 5 7500F. The frame with two models and the frame showing an 8400F were rejected.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_Ryzen_5_7500F",
+          "status": 200
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/AMD_Ryzen_7000-Serie_-_Der_ultimative_CPU_und_Mainboard_Vergleich_%28Memory_PC%29_16.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "status": 200,
+          "intake": "source-original-download"
+        }
+      ],
+      "candidates": [
+        {
+          "candidate": "A7",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_7000-Serie_-_Der_ultimative_CPU_und_Mainboard_Vergleich_(Memory_PC)_15.png",
+          "title": "File:AMD Ryzen 7000-Serie - Der ultimative CPU und Mainboard Vergleich (Memory PC) 15.png",
+          "reviewed": true,
+          "accepted": false
+        },
+        {
+          "candidate": "A8",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_7000-Serie_-_Der_ultimative_CPU_und_Mainboard_Vergleich_(Memory_PC)_16.png",
+          "title": "File:AMD Ryzen 7000-Serie - Der ultimative CPU und Mainboard Vergleich (Memory PC) 16.png",
+          "reviewed": true,
+          "accepted": true
+        },
+        {
+          "candidate": "A9",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Video_%C3%BCber_AMD_Ryzen_5_7500F_und_8400F_(%D0%9C%D0%BE%D0%B9_%D0%9A%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80)_(1440p_30fps_VP9-128kbit_AAC)-00.04.21.200.png",
+          "title": "File:Video über AMD Ryzen 5 7500F und 8400F (Мой Компьютер) (1440p 30fps VP9-128kbit AAC)-00.04.21.200.png",
+          "reviewed": true,
+          "accepted": false
+        },
+        {
+          "candidate": "A10",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Video_%C3%BCber_AMD_Ryzen_5_7500F_und_8400F_(%D0%9C%D0%BE%D0%B9_%D0%9A%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80)_(1440p_30fps_VP9-128kbit_AAC)-00.08.11.600.png",
+          "title": "File:Video über AMD Ryzen 5 7500F und 8400F (Мой Компьютер) (1440p 30fps VP9-128kbit AAC)-00.08.11.600.png",
+          "reviewed": true,
+          "accepted": false
+        },
+        {
+          "candidate": "A11",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D0%92%D1%8B%D0%B1%D0%B8%D1%80%D0%B0%D0%B5%D0%BC_%D0%BB%D1%83%D1%87%D1%88%D0%B8%D0%B9_Ryzen_%D0%A2%D0%B5%D1%81%D1%82_%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D0%BE%D1%80%D0%BE%D0%B2_%D0%BD%D0%B0_AM4_%D0%B8_AM5-00.02.32.000_(%D0%9C%D0%BE%D0%B9_%D0%9A%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80).png",
+          "title": "File:Выбираем лучший Ryzen Тест процессоров на AM4 и AM5-00.02.32.000 (Мой Компьютер).png",
+          "reviewed": true,
+          "accepted": false
+        }
+      ]
+    },
+    {
+      "id": "5500",
+      "name": "Ryzen 5 5500",
+      "status": "unresolved",
+      "reason": "No exact complete single-chip photo was verified in the bounded Commons candidates. The category includes media such as comparison frames, videos, die images, boards, or family material; the category alone is not identity evidence.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_Ryzen_5_5500",
+          "status": 200
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "5700g",
+      "name": "Ryzen 7 5700G",
+      "status": "unresolved",
+      "reason": "No exact complete single-chip photo was verified in the bounded Commons candidates. The category includes media such as comparison frames, videos, die images, boards, or family material; the category alone is not identity evidence.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_Ryzen_7_5700G",
+          "status": 200,
+          "reusedPriorCategoryResearch": true
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "5600g",
+      "name": "Ryzen 5 5600G",
+      "status": "unresolved",
+      "reason": "No exact complete single-chip photo was verified in the bounded Commons candidates. The category includes media such as comparison frames, videos, die images, boards, or family material; the category alone is not identity evidence.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_Ryzen_5_5600G",
+          "status": 200,
+          "reusedPriorCategoryResearch": true
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "3300x",
+      "name": "Ryzen 3 3300X",
+      "status": "unresolved",
+      "reason": "No dedicated model category was found at the attempted Commons URL (HTTP 404). This is a source-discovery result, not evidence that a correct image does not exist elsewhere.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_Ryzen_3_3300X",
+          "status": 404
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "3100",
+      "name": "Ryzen 3 3100",
+      "status": "unresolved",
+      "reason": "No exact complete single-chip photo was verified in the bounded Commons candidates. The category includes media such as comparison frames, videos, die images, boards, or family material; the category alone is not identity evidence.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_Ryzen_3_3100",
+          "status": 200
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "3400g",
+      "name": "Ryzen 5 3400G",
+      "status": "repaired",
+      "reason": "Accepted: The single complete CPU visibly reads AMD Ryzen 5 3400G and YD3400C5M4MFH.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_Ryzen_5_3400G",
+          "status": 200
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/AMD_Ryzen_5_3400G.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "status": 200,
+          "intake": "source-original-download"
+        }
+      ],
+      "candidates": [
+        {
+          "candidate": "A12",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_5_3400G.jpg",
+          "title": "File:AMD Ryzen 5 3400G.jpg",
+          "reviewed": true,
+          "accepted": true
+        }
+      ]
+    },
+    {
+      "id": "3200g",
+      "name": "Ryzen 3 3200G",
+      "status": "unresolved",
+      "reason": "No dedicated model category was found at the attempted Commons URL (HTTP 404). This is a source-discovery result, not evidence that a correct image does not exist elsewhere.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_Ryzen_3_3200G",
+          "status": 404
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "2990wx",
+      "name": "Ryzen Threadripper 2990WX",
+      "status": "unresolved",
+      "reason": "No dedicated model category was found at the attempted Commons URL (HTTP 404). This is a source-discovery result, not evidence that a correct image does not exist elsewhere.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_Ryzen_Threadripper_2990WX",
+          "status": 404
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "1950x",
+      "name": "Ryzen Threadripper 1950X",
+      "status": "repaired",
+      "reason": "Accepted: The single CPU in its carrier visibly reads AMD Ryzen Threadripper 1950X and YD195XA8UGAAE.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_Ryzen_Threadripper_1950X",
+          "status": 200
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/AMD_Ryzen_Threadripper_1950X_%28CustomRigsDE%29_02.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "status": 200,
+          "intake": "source-original-download"
+        }
+      ],
+      "candidates": [
+        {
+          "candidate": "A13",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_Threadripper_1950X_(CustomRigsDE)_02.png",
+          "title": "File:AMD Ryzen Threadripper 1950X (CustomRigsDE) 02.png",
+          "reviewed": true,
+          "accepted": true
+        },
+        {
+          "candidate": "A14",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_Threadripper_1950X_(CustomRigsDE)_01.png",
+          "title": "File:AMD Ryzen Threadripper 1950X (CustomRigsDE) 01.png",
+          "reviewed": true,
+          "accepted": false
+        },
+        {
+          "candidate": "A15",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_Threadripper_1950X_(CustomRigsDE)_03.png",
+          "title": "File:AMD Ryzen Threadripper 1950X (CustomRigsDE) 03.png",
+          "reviewed": true,
+          "accepted": false
+        },
+        {
+          "candidate": "A16",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_Threadripper_1950X_vs_Intel_Core_i9-7900X_(Paul%27s_Hardware)_05_(cropped).png",
+          "title": "File:AMD Ryzen Threadripper 1950X vs Intel Core i9-7900X (Paul's Hardware) 05 (cropped).png",
+          "reviewed": true,
+          "accepted": false
+        }
+      ]
+    },
+    {
+      "id": "fx8350",
+      "name": "FX-8350",
+      "status": "repaired",
+      "reason": "Accepted: The single CPU heatspreader visibly carries FD8350FRW8KHK, identifying FX-8350; generic FX graphics and an FX-8310 photo were rejected.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_FX-8350",
+          "status": 404
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_FX",
+          "status": 200,
+          "filesFound": 4
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_FD8350FRW8KHK",
+          "status": 200,
+          "filesFound": 1
+        }
+      ],
+      "candidates": [
+        {
+          "candidate": "B8",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:AMD_FX_8350_Prozessor.jpg",
+          "title": "File:AMD FX 8350 Prozessor.jpg",
+          "reviewed": true,
+          "accepted": true
+        }
+      ]
+    },
+    {
+      "id": "i914900ks",
+      "name": "Core i9-14900KS",
+      "status": "unresolved",
+      "reason": "No dedicated model category was found at the attempted Commons URL (HTTP 404). This is a source-discovery result, not evidence that a correct image does not exist elsewhere.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i9-14900KS",
+          "status": 404,
+          "reusedPriorCategoryResearch": true
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "i913900ks",
+      "name": "Core i9-13900KS",
+      "status": "unresolved",
+      "reason": "No exact complete single-chip photo was verified in the bounded Commons candidates. The category includes media such as comparison frames, videos, die images, boards, or family material; the category alone is not identity evidence.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i9-13900KS",
+          "status": 200,
+          "reusedPriorCategoryResearch": true
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "i912900ks",
+      "name": "Core i9-12900KS",
+      "status": "unresolved",
+      "reason": "No dedicated model category was found at the attempted Commons URL (HTTP 404). This is a source-discovery result, not evidence that a correct image does not exist elsewhere.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i9-12900KS",
+          "status": 404,
+          "reusedPriorCategoryResearch": true
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "i911900",
+      "name": "Core i9-11900",
+      "status": "unresolved",
+      "reason": "No dedicated model category was found at the attempted Commons URL (HTTP 404). This is a source-discovery result, not evidence that a correct image does not exist elsewhere.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i9-11900",
+          "status": 404
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "i711700",
+      "name": "Core i7-11700",
+      "status": "unresolved",
+      "reason": "No dedicated model category was found at the attempted Commons URL (HTTP 404). This is a source-discovery result, not evidence that a correct image does not exist elsewhere.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i7-11700",
+          "status": 404
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "i511600",
+      "name": "Core i5-11600",
+      "status": "unresolved",
+      "reason": "No dedicated model category was found at the attempted Commons URL (HTTP 404). This is a source-discovery result, not evidence that a correct image does not exist elsewhere.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i5-11600",
+          "status": 404
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "i910900",
+      "name": "Core i9-10900",
+      "status": "unresolved",
+      "reason": "No dedicated model category was found at the attempted Commons URL (HTTP 404). This is a source-discovery result, not evidence that a correct image does not exist elsewhere.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i9-10900",
+          "status": 404
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "i710700",
+      "name": "Core i7-10700",
+      "status": "unresolved",
+      "reason": "No dedicated model category was found at the attempted Commons URL (HTTP 404). This is a source-discovery result, not evidence that a correct image does not exist elsewhere.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i7-10700",
+          "status": 404
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "i510600",
+      "name": "Core i5-10600",
+      "status": "unresolved",
+      "reason": "No dedicated model category was found at the attempted Commons URL (HTTP 404). This is a source-discovery result, not evidence that a correct image does not exist elsewhere.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i5-10600",
+          "status": 404
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "i510400f",
+      "name": "Core i5-10400F",
+      "status": "unresolved",
+      "reason": "No dedicated model category was found at the attempted Commons URL (HTTP 404). This is a source-discovery result, not evidence that a correct image does not exist elsewhere.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i5-10400F",
+          "status": 404
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "i99900ks",
+      "name": "Core i9-9900KS",
+      "status": "unresolved",
+      "reason": "No exact complete single-chip photo was verified in the bounded Commons candidates. The category includes media such as comparison frames, videos, die images, boards, or family material; the category alone is not identity evidence.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i9-9900KS",
+          "status": 200
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "i79700",
+      "name": "Core i7-9700",
+      "status": "unresolved",
+      "reason": "No dedicated model category was found at the attempted Commons URL (HTTP 404). This is a source-discovery result, not evidence that a correct image does not exist elsewhere.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i7-9700",
+          "status": 404
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "i59600k",
+      "name": "Core i5-9600K",
+      "status": "unresolved",
+      "reason": "No dedicated model category was found at the attempted Commons URL (HTTP 404). This is a source-discovery result, not evidence that a correct image does not exist elsewhere.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i5-9600K",
+          "status": 404
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "i78700",
+      "name": "Core i7-8700",
+      "status": "repaired",
+      "reason": "Accepted: The single CPU and its exact named box visibly identify Core i7-8700; the visible label includes SR3QS 3.20GHz.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i7-8700",
+          "status": 200
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/2023_Intel_Core_i7_8700_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "status": 429,
+          "intake": "source-original-download"
+        }
+      ],
+      "candidates": [
+        {
+          "candidate": "A17",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:2023_Intel_Core_i7_8700_(1).jpg",
+          "title": "File:2023 Intel Core i7 8700 (1).jpg",
+          "reviewed": true,
+          "accepted": true
+        }
+      ]
+    },
+    {
+      "id": "i58600k",
+      "name": "Core i5-8600K",
+      "status": "unresolved",
+      "reason": "No dedicated model category was found at the attempted Commons URL (HTTP 404). This is a source-discovery result, not evidence that a correct image does not exist elsewhere.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i5-8600K",
+          "status": 404
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "i77700",
+      "name": "Core i7-7700",
+      "status": "unresolved",
+      "reason": "No dedicated model category was found at the attempted Commons URL (HTTP 404). This is a source-discovery result, not evidence that a correct image does not exist elsewhere.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i7-7700",
+          "status": 404
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "i57600k",
+      "name": "Core i5-7600K",
+      "status": "repaired",
+      "reason": "Accepted: The single CPU visibly reads Intel Core i5, i5-7600K, SR32V 3.80GHz. Engineering-sample 7700K images and multi-CPU frames were rejected.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i5-7600K",
+          "status": 200
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/7600K_and_7700K_vs_6600K_and_6700K_%28Paul%27s_Hardware%29_01.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "status": 200,
+          "intake": "source-original-download"
+        }
+      ],
+      "candidates": [
+        {
+          "candidate": "A18",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:7600K_and_7700K_vs_6600K_and_6700K_(Paul%27s_Hardware)_01.png",
+          "title": "File:7600K and 7700K vs 6600K and 6700K (Paul's Hardware) 01.png",
+          "reviewed": true,
+          "accepted": true
+        }
+      ]
+    },
+    {
+      "id": "i76700",
+      "name": "Core i7-6700",
+      "status": "unresolved",
+      "reason": "No exact complete single-chip photo was verified in the bounded Commons candidates. The category includes media such as comparison frames, videos, die images, boards, or family material; the category alone is not identity evidence.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i7-6700",
+          "status": 200
+        }
+      ],
+      "candidates": [
+        {
+          "candidate": "A23",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Intel@14nm@Skylake@Skylake-S@Core_i7-6700@SR2BT_Stack-DSC02930-DSC02972_-_ZS-retouched--_(29775795330).jpg",
+          "title": "File:Intel@14nm@Skylake@Skylake-S@Core i7-6700@SR2BT Stack-DSC02930-DSC02972 - ZS-retouched-- (29775795330).jpg",
+          "reviewed": true,
+          "accepted": false
+        }
+      ]
+    },
+    {
+      "id": "i56600k",
+      "name": "Core i5-6600K",
+      "status": "unresolved",
+      "reason": "No exact complete single-chip photo was verified in the bounded Commons candidates. The category includes media such as comparison frames, videos, die images, boards, or family material; the category alone is not identity evidence.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i5-6600K",
+          "status": 200
+        }
+      ],
+      "candidates": [
+        {
+          "candidate": "A19",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:I5_6600K_Branding.jpg",
+          "title": "File:I5 6600K Branding.jpg",
+          "reviewed": true,
+          "accepted": false
+        }
+      ]
+    },
+    {
+      "id": "i74770k",
+      "name": "Core i7-4770K",
+      "status": "unresolved",
+      "reason": "No dedicated model category was found at the attempted Commons URL (HTTP 404). This is a source-discovery result, not evidence that a correct image does not exist elsewhere.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i7-4770K",
+          "status": 404
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "i53570k",
+      "name": "Core i5-3570K",
+      "status": "unresolved",
+      "reason": "No dedicated model category was found at the attempted Commons URL (HTTP 404). This is a source-discovery result, not evidence that a correct image does not exist elsewhere.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i5-3570K",
+          "status": 404
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "i52500k",
+      "name": "Core i5-2500K",
+      "status": "repaired",
+      "reason": "Accepted: The single complete CPU visibly reads Intel Core i5-2500K, SR008 3.30GHz.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i5-2500K",
+          "status": 200
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Intel_Core_i5-2500k_7754.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "status": 200,
+          "intake": "source-original-download"
+        }
+      ],
+      "candidates": [
+        {
+          "candidate": "A20",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Intel_Core_i5-2500K_20110418.jpg",
+          "title": "File:Intel Core i5-2500K 20110418.jpg",
+          "reviewed": true,
+          "accepted": false
+        },
+        {
+          "candidate": "A21",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Intel_Core_i5-2500k_7754.jpg",
+          "title": "File:Intel Core i5-2500k 7754.jpg",
+          "reviewed": true,
+          "accepted": true
+        },
+        {
+          "candidate": "A22",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:MiNe-5DII_101-5431U_HDR_-_Intel_Core_i5-2500K.jpg",
+          "title": "File:MiNe-5DII 101-5431U HDR - Intel Core i5-2500K.jpg",
+          "reviewed": true,
+          "accepted": false
+        }
+      ]
+    },
+    {
+      "id": "4700g",
+      "name": "Ryzen 7 4700G",
+      "status": "unresolved",
+      "reason": "No dedicated model category was found at the attempted Commons URL (HTTP 404). This is a source-discovery result, not evidence that a correct image does not exist elsewhere.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_Ryzen_7_4700G",
+          "status": 404
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "4600g",
+      "name": "Ryzen 5 4600G",
+      "status": "unresolved",
+      "reason": "No dedicated model category was found at the attempted Commons URL (HTTP 404). This is a source-discovery result, not evidence that a correct image does not exist elsewhere.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_Ryzen_5_4600G",
+          "status": 404
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "4500",
+      "name": "Ryzen 5 4500",
+      "status": "unresolved",
+      "reason": "No exact complete single-chip photo was verified in the bounded Commons candidates. The category includes media such as comparison frames, videos, die images, boards, or family material; the category alone is not identity evidence.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_Ryzen_5_4500",
+          "status": 200
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "4100",
+      "name": "Ryzen 3 4100",
+      "status": "unresolved",
+      "reason": "No dedicated model category was found at the attempted Commons URL (HTTP 404). This is a source-discovery result, not evidence that a correct image does not exist elsewhere.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_Ryzen_3_4100",
+          "status": 404
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "5995wx",
+      "name": "Ryzen Threadripper PRO 5995WX",
+      "status": "unresolved",
+      "reason": "No dedicated model category was found at the attempted Commons URL (HTTP 404). This is a source-discovery result, not evidence that a correct image does not exist elsewhere.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_Ryzen_Threadripper_PRO_5995WX",
+          "status": 404
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "3970x",
+      "name": "Ryzen Threadripper 3970X",
+      "status": "unresolved",
+      "reason": "No exact complete single-chip photo was verified in the bounded Commons candidates. The category includes media such as comparison frames, videos, die images, boards, or family material; the category alone is not identity evidence.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_Ryzen_Threadripper_3970X",
+          "status": 200
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "1700x",
+      "name": "Ryzen 7 1700X",
+      "status": "unresolved",
+      "reason": "No dedicated model category was found at the attempted Commons URL (HTTP 404). This is a source-discovery result, not evidence that a correct image does not exist elsewhere.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_Ryzen_7_1700X",
+          "status": 404
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "1600x",
+      "name": "Ryzen 5 1600X",
+      "status": "unresolved",
+      "reason": "No dedicated model category was found at the attempted Commons URL (HTTP 404). This is a source-discovery result, not evidence that a correct image does not exist elsewhere.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_Ryzen_5_1600X",
+          "status": 404
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "fx9590",
+      "name": "FX-9590",
+      "status": "unresolved",
+      "reason": "The reviewed 220W frame is a distant scene with boxes and a chip; no visible exact FX-9590 model label was verified.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_FX-9590",
+          "status": 404
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_FX",
+          "status": 200,
+          "filesFound": 4
+        }
+      ],
+      "candidates": [
+        {
+          "candidate": "A37",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:220W_(16490492092).jpg",
+          "title": "File:220W (16490492092).jpg",
+          "reviewed": true,
+          "accepted": false
+        }
+      ]
+    },
+    {
+      "id": "fx6300",
+      "name": "FX-6300",
+      "status": "unresolved",
+      "reason": "No dedicated model category was found at the attempted Commons URL (HTTP 404). This is a source-discovery result, not evidence that a correct image does not exist elsewhere.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_FX-6300",
+          "status": 404
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_FX",
+          "status": 200,
+          "filesFound": 4
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "i914900",
+      "name": "Core i9-14900",
+      "status": "unresolved",
+      "reason": "No dedicated model category was found at the attempted Commons URL (HTTP 404). This is a source-discovery result, not evidence that a correct image does not exist elsewhere.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i9-14900",
+          "status": 404
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "i714700",
+      "name": "Core i7-14700",
+      "status": "unresolved",
+      "reason": "No dedicated model category was found at the attempted Commons URL (HTTP 404). This is a source-discovery result, not evidence that a correct image does not exist elsewhere.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i7-14700",
+          "status": 404
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "i514600",
+      "name": "Core i5-14600",
+      "status": "unresolved",
+      "reason": "No dedicated model category was found at the attempted Commons URL (HTTP 404). This is a source-discovery result, not evidence that a correct image does not exist elsewhere.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i5-14600",
+          "status": 404
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "i514400f",
+      "name": "Core i5-14400F",
+      "status": "unresolved",
+      "reason": "No dedicated model category was found at the attempted Commons URL (HTTP 404). This is a source-discovery result, not evidence that a correct image does not exist elsewhere.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i5-14400F",
+          "status": 404,
+          "reusedPriorCategoryResearch": true
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "i313100f",
+      "name": "Core i3-13100F",
+      "status": "unresolved",
+      "reason": "The exact TEKWIND distributor listing responded 200, but all three reviewed box photos show only Core i3/13th Gen/graphics-required family labels; no visible 13100F label.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i3-13100F",
+          "status": 404,
+          "reusedPriorCategoryResearch": true
+        },
+        {
+          "url": "https://www.tekwind.co.jp/INT/products/entry_16953.php",
+          "finalUrl": "https://www.tekwind.co.jp/INT/products/entry_16953.php",
+          "status": 200,
+          "title": "インテル® Core™ i3-13100F プロセッサー (12Mキャッシュ、最大4.50GHz) FC-LGA16A 箱入り｜テックウインド株式会社",
+          "imagesFound": 14
+        }
+      ],
+      "candidates": [
+        {
+          "candidate": "B9",
+          "sourceUrl": "https://www.tekwind.co.jp/INT/products/entry_16953.php",
+          "title": "インテル® Core™ i3-13100F プロセッサー (12Mキャッシュ、最大4.50GHz) FC-LGA16A 箱入り｜テックウインド株式会社",
+          "reviewed": true,
+          "accepted": false
+        },
+        {
+          "candidate": "B10",
+          "sourceUrl": "https://www.tekwind.co.jp/INT/products/entry_16953.php",
+          "title": "インテル® Core™ i3-13100F プロセッサー (12Mキャッシュ、最大4.50GHz) FC-LGA16A 箱入り｜テックウインド株式会社",
+          "reviewed": true,
+          "accepted": false
+        },
+        {
+          "candidate": "B11",
+          "sourceUrl": "https://www.tekwind.co.jp/INT/products/entry_16953.php",
+          "title": "インテル® Core™ i3-13100F プロセッサー (12Mキャッシュ、最大4.50GHz) FC-LGA16A 箱入り｜テックウインド株式会社",
+          "reviewed": true,
+          "accepted": false
+        }
+      ]
+    },
+    {
+      "id": "i912900",
+      "name": "Core i9-12900",
+      "status": "unresolved",
+      "reason": "No dedicated model category was found at the attempted Commons URL (HTTP 404). This is a source-discovery result, not evidence that a correct image does not exist elsewhere.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i9-12900",
+          "status": 404
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "i712700",
+      "name": "Core i7-12700",
+      "status": "unresolved",
+      "reason": "No exact complete single-chip photo was verified in the bounded Commons candidates. The category includes media such as comparison frames, videos, die images, boards, or family material; the category alone is not identity evidence.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i7-12700",
+          "status": 200
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "i512400f",
+      "name": "Core i5-12400F",
+      "status": "unresolved",
+      "reason": "No exact complete single-chip photo was verified in the bounded Commons candidates. The category includes media such as comparison frames, videos, die images, boards, or family material; the category alone is not identity evidence.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i5-12400F",
+          "status": 200,
+          "reusedPriorCategoryResearch": true
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "i910980xe",
+      "name": "Core i9-10980XE",
+      "status": "unresolved",
+      "reason": "No dedicated model category was found at the attempted Commons URL (HTTP 404). This is a source-discovery result, not evidence that a correct image does not exist elsewhere.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i9-10980XE",
+          "status": 404
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "i78086k",
+      "name": "Core i7-8086K",
+      "status": "unresolved",
+      "reason": "No exact complete single-chip photo was verified in the bounded Commons candidates. The category includes media such as comparison frames, videos, die images, boards, or family material; the category alone is not identity evidence.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i7-8086K",
+          "status": 200
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "i58400",
+      "name": "Core i5-8400",
+      "status": "repaired",
+      "reason": "Accepted: The complete single CPU visibly reads Intel Core i5-8400, SR3QT 2.80GHz.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i5-8400",
+          "status": 200
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Intel_core_i5-8400_top_IMGP6108_smial_wp.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "status": 200,
+          "intake": "source-original-download"
+        }
+      ],
+      "candidates": [
+        {
+          "candidate": "A24",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Intel_core_i5-8400_top_IMGP6108_smial_wp.jpg",
+          "title": "File:Intel core i5-8400 top IMGP6108 smial wp.jpg",
+          "reviewed": true,
+          "accepted": true
+        }
+      ]
+    },
+    {
+      "id": "i76950x",
+      "name": "Core i7-6950X",
+      "status": "unresolved",
+      "reason": "No dedicated model category was found at the attempted Commons URL (HTTP 404). This is a source-discovery result, not evidence that a correct image does not exist elsewhere.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i7-6950X",
+          "status": 404
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "i75960x",
+      "name": "Core i7-5960X",
+      "status": "unresolved",
+      "reason": "No dedicated model category was found at the attempted Commons URL (HTTP 404). This is a source-discovery result, not evidence that a correct image does not exist elsewhere.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Core_i7-5960X",
+          "status": 404
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "intel8008",
+      "name": "Intel 8008",
+      "status": "repaired",
+      "reason": "Accepted: The single complete chip visibly reads Intel C8008-1, preserving the 800 kHz variant corresponding to the catalog 0.8 MHz clock. The plain 8008 variant was not substituted.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_8008",
+          "status": 200
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/KL_Intel_C8008-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "status": 200,
+          "intake": "source-original-download"
+        }
+      ],
+      "candidates": [
+        {
+          "candidate": "A25",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:KL_Intel_C8008-1.jpg",
+          "title": "File:KL Intel C8008-1.jpg",
+          "reviewed": true,
+          "accepted": true
+        },
+        {
+          "candidate": "A26",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Intel_8008.jpg",
+          "title": "File:Intel 8008.jpg",
+          "reviewed": true,
+          "accepted": false
+        },
+        {
+          "candidate": "A27",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Intel_8008_1.jpg",
+          "title": "File:Intel 8008 1.jpg",
+          "reviewed": true,
+          "accepted": false
+        }
+      ]
+    },
+    {
+      "id": "intel8080",
+      "name": "Intel 8080",
+      "status": "unresolved",
+      "reason": "No exact complete single-chip photo was verified in the bounded Commons candidates. The category includes media such as comparison frames, videos, die images, boards, or family material; the category alone is not identity evidence.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_8080",
+          "status": 200
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_C8080",
+          "status": 200,
+          "filesFound": 2
+        }
+      ],
+      "candidates": [
+        {
+          "candidate": "A28",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Intel_8080_Advertisement_May_1974.jpg",
+          "title": "File:Intel 8080 Advertisement May 1974.jpg",
+          "reviewed": true,
+          "accepted": false
+        }
+      ]
+    },
+    {
+      "id": "intel8085",
+      "name": "Intel 8085",
+      "status": "unresolved",
+      "reason": "The reviewed photo is P8085AH-2, explicitly 5 MHz; the catalog says 3 MHz. A 3 MHz P8085 file was discovered but not downloaded in this bounded pass after rate limiting.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_8085",
+          "status": 200
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_P8085",
+          "status": 200,
+          "filesFound": 1
+        }
+      ],
+      "candidates": [
+        {
+          "candidate": "A29",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Intel_P8085AH-2.jpg",
+          "title": "File:Intel P8085AH-2.jpg",
+          "reviewed": true,
+          "accepted": false
+        }
+      ]
+    },
+    {
+      "id": "intel8086",
+      "name": "Intel 8086",
+      "status": "repaired",
+      "reason": "Accepted: The single complete chip visibly reads Intel C8086. The original photographer description explicitly identifies this pictured chip as the 5 MHz processor, matching the catalog clock.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_8086",
+          "status": 200
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Intel_C8086.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "status": 200,
+          "intake": "source-original-download"
+        }
+      ],
+      "candidates": [
+        {
+          "candidate": "A30",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Intel_C8086.jpg",
+          "title": "File:Intel C8086.jpg",
+          "reviewed": true,
+          "accepted": true
+        }
+      ]
+    },
+    {
+      "id": "intel8088",
+      "name": "Intel 8088",
+      "status": "unresolved",
+      "reason": "The reviewed photo is D8088-2, the faster frequency variant; the catalog says 5 MHz. Exact D8088 category was found but no new photo was verified before rate limiting.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_8088",
+          "status": 200
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_D8088",
+          "status": 200,
+          "filesFound": 3
+        }
+      ],
+      "candidates": [
+        {
+          "candidate": "A31",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:I8088.jpg",
+          "title": "File:I8088.jpg",
+          "reviewed": true,
+          "accepted": false
+        }
+      ]
+    },
+    {
+      "id": "intel386sx",
+      "name": "Intel 386SX",
+      "status": "repaired",
+      "reason": "Accepted: The single chip visibly carries NG80386SX-16. The original photographer describes this pictured chip as the 16 MHz 386 SX, matching the catalog clock and 16-bit external bus variant.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_80386SX",
+          "status": 404
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_i386",
+          "status": 200,
+          "filesFound": 38
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_NG80386SX-16",
+          "status": 200,
+          "filesFound": 5
+        }
+      ],
+      "candidates": [
+        {
+          "candidate": "B0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Intel_386_SX-16_CPU.jpg",
+          "title": "File:Intel 386 SX-16 CPU.jpg",
+          "reviewed": true,
+          "accepted": true
+        }
+      ]
+    },
+    {
+      "id": "intel486dx",
+      "name": "Intel 486DX",
+      "status": "repaired",
+      "reason": "Accepted: The single complete chip visibly carries A80486-25 and SX249. It is the original 25 MHz i486 DX model; the catalog specifies 25 MHz, not the later SX model.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_80486DX",
+          "status": 404
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_i486",
+          "status": 200,
+          "filesFound": 36
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_A80486-25",
+          "status": 200,
+          "filesFound": 1
+        }
+      ],
+      "candidates": [
+        {
+          "candidate": "B1",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Intel_A80486-25.jpg",
+          "title": "File:Intel A80486-25.jpg",
+          "reviewed": true,
+          "accepted": true
+        }
+      ]
+    },
+    {
+      "id": "intel486sx",
+      "name": "Intel 486SX",
+      "status": "unresolved",
+      "reason": "No dedicated model category was found at the attempted Commons URL (HTTP 404). This is a source-discovery result, not evidence that a correct image does not exist elsewhere.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_80486SX",
+          "status": 404
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_i486",
+          "status": 200,
+          "filesFound": 36
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_A80486SX-20",
+          "status": 200,
+          "filesFound": 0
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:SX406",
+          "status": 429,
+          "filesFound": 0
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "intel486dx2",
+      "name": "Intel 486DX2-66",
+      "status": "unresolved",
+      "reason": "The reviewed exact family photo shows the CPU on a complete motherboard. No suitable single-chip image was verified in this bounded pass.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_80486DX2",
+          "status": 404
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_i486",
+          "status": 200,
+          "filesFound": 36
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:A80486DX2",
+          "status": 200,
+          "filesFound": 13
+        }
+      ],
+      "candidates": [
+        {
+          "candidate": "B2",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Intel_i486DX2_-_66.jpg",
+          "title": "File:Intel i486DX2 - 66.jpg",
+          "reviewed": true,
+          "accepted": false
+        }
+      ]
+    },
+    {
+      "id": "pentium100",
+      "name": "Intel Pentium 100",
+      "status": "unresolved",
+      "reason": "The reviewed image is a die micrograph rather than a complete identifiable processor. No suitable labelled single-chip photo was verified.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Pentium",
+          "status": 404
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Pentium",
+          "status": 200,
+          "filesFound": 9
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Pentium_100_MHz",
+          "status": 200,
+          "filesFound": 3
+        }
+      ],
+      "candidates": [
+        {
+          "candidate": "B3",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Intel_Pentium100_2015-03-14_12-51-30_M%3DB_R%3D50_S%3D10_-_Stack-DSC10427-DSC10553_(16639016489).jpg",
+          "title": "File:Intel Pentium100 2015-03-14 12-51-30 M=B R=50 S=10 - Stack-DSC10427-DSC10553 (16639016489).jpg",
+          "reviewed": true,
+          "accepted": false
+        }
+      ]
+    },
+    {
+      "id": "pentiumpro200",
+      "name": "Intel Pentium Pro 200",
+      "status": "repaired",
+      "reason": "Accepted: The complete single CPU visibly carries KB80521EX200, the 200 MHz Pentium Pro part number. The photographed label establishes 200 rather than a different family frequency.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Pentium_Pro",
+          "status": 404
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_KB80521EX200_256K",
+          "status": 200,
+          "filesFound": 3
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Intel-pentium-pro-CPU.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "status": 429,
+          "intake": "source-original-download"
+        }
+      ],
+      "candidates": [
+        {
+          "candidate": "A34",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Intel-pentium-pro-CPU.jpg",
+          "title": "File:Intel-pentium-pro-CPU.jpg",
+          "reviewed": true,
+          "accepted": true
+        }
+      ]
+    },
+    {
+      "id": "pentiummmx233",
+      "name": "Intel Pentium MMX 233",
+      "status": "unresolved",
+      "reason": "The reviewed underside photo does not expose the 233 MHz label. Exact-labelled alternatives were found but not verified before rate limiting.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Pentium_MMX",
+          "status": 404
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Pentium_MMX",
+          "status": 200,
+          "filesFound": 18
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_FV80503233",
+          "status": 200,
+          "filesFound": 10
+        }
+      ],
+      "candidates": [
+        {
+          "candidate": "B4",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ic-photo-Intel--FV80503233--(Pentium-MMX-CPU)-top.JPG",
+          "title": "File:Ic-photo-Intel--FV80503233--(Pentium-MMX-CPU)-top.JPG",
+          "reviewed": true,
+          "accepted": false
+        }
+      ]
+    },
+    {
+      "id": "pentiumii300",
+      "name": "Intel Pentium II 300",
+      "status": "repaired",
+      "reason": "Accepted: The single complete cartridge visibly carries 80522PX300512EC and SL2HA. The 80522 part number identifies the Klamath 300 MHz cartridge matching the catalog architecture; the alternate 300 MHz Deschutes SL2W8 photos were rejected.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Pentium_II",
+          "status": 404
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Pentium_II_300_-_SL2W8",
+          "status": 200,
+          "filesFound": 9
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_80522PX300512EC",
+          "status": 200,
+          "filesFound": 2
+        }
+      ],
+      "candidates": [
+        {
+          "candidate": "B5",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ic-photo-Intel--80522PX300512EC--(Pentium-II-CPU).JPG",
+          "title": "File:Ic-photo-Intel--80522PX300512EC--(Pentium-II-CPU).JPG",
+          "reviewed": true,
+          "accepted": true
+        }
+      ]
+    },
+    {
+      "id": "celeron266",
+      "name": "Intel Celeron 266",
+      "status": "unresolved",
+      "reason": "The reviewed Covington chip photograph does not visibly establish the required 266 MHz label at the reviewed resolution.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Celeron_(Covington)",
+          "status": 404
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Celeron",
+          "status": 200,
+          "filesFound": 18
+        }
+      ],
+      "candidates": [
+        {
+          "candidate": "A36",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:KL_Intel_Celeron_Covington.jpg",
+          "title": "File:KL Intel Celeron Covington.jpg",
+          "reviewed": true,
+          "accepted": false
+        }
+      ]
+    },
+    {
+      "id": "pentiumiii600",
+      "name": "Intel Pentium III 600",
+      "status": "repaired",
+      "reason": "Accepted: The single cartridge shows its 600/512/100/2.05V identification along the top edge. The original photographer explicitly describes the pictured processor as a 600 MHz, 512 kB L2, 100 MHz FSB Slot I Pentium III; the exact category is Intel BX80525U600512, matching the catalog Katmai variant.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Pentium_III_(Katmai)",
+          "status": 404
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Pentium_III",
+          "status": 200,
+          "filesFound": 33
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_BX80525U600512",
+          "status": 200,
+          "filesFound": 1
+        }
+      ],
+      "candidates": [
+        {
+          "candidate": "B6",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pentium_III_slot_I_01.JPG",
+          "title": "File:Pentium III slot I 01.JPG",
+          "reviewed": true,
+          "accepted": true
+        }
+      ]
+    },
+    {
+      "id": "pentium4-1500",
+      "name": "Intel Pentium 4 1.50 GHz",
+      "status": "unresolved",
+      "reason": "No dedicated model category was found at the attempted Commons URL (HTTP 404). This is a source-discovery result, not evidence that a correct image does not exist elsewhere.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Pentium_4_(Willamette)",
+          "status": 404
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Pentium_4",
+          "status": 200,
+          "filesFound": 21
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "am486dx4",
+      "name": "AMD Am486 DX4-100",
+      "status": "unresolved",
+      "reason": "The reviewed 100 MHz photo is a full motherboard rather than a single-chip photo. Exact NV8T category was discovered but not verified before rate limiting.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_Am486",
+          "status": 200
+        }
+      ],
+      "candidates": [
+        {
+          "candidate": "A32",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amd486dx4_100.jpg",
+          "title": "File:Amd486dx4 100.jpg",
+          "reviewed": true,
+          "accepted": false
+        }
+      ]
+    },
+    {
+      "id": "amdk5pr100",
+      "name": "AMD K5 PR100",
+      "status": "unresolved",
+      "reason": "The reviewed PR100 photo is a full motherboard rather than a single-chip photo. Exact PR100ABR category was discovered but not verified before rate limiting.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_K5",
+          "status": 200
+        }
+      ],
+      "candidates": [
+        {
+          "candidate": "A33",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:AMD-K5_PR100.jpg",
+          "title": "File:AMD-K5 PR100.jpg",
+          "reviewed": true,
+          "accepted": false
+        }
+      ]
+    },
+    {
+      "id": "amdk6-233",
+      "name": "AMD K6-233",
+      "status": "unresolved",
+      "reason": "No correct complete chip was verified; discovered 233ANR/233APR categories were not treated as the catalog source 233ALR revision.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_K6",
+          "status": 200
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_K6-233",
+          "status": 404,
+          "filesFound": 0
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "amdk62-300",
+      "name": "AMD K6-2 300",
+      "status": "unresolved",
+      "reason": "No exact complete single-chip photo was verified in the bounded Commons candidates. The category includes media such as comparison frames, videos, die images, boards, or family material; the category alone is not identity evidence.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_K6-2",
+          "status": 200
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "athlon500",
+      "name": "AMD Athlon 500",
+      "status": "unresolved",
+      "reason": "No dedicated model category was found at the attempted Commons URL (HTTP 404). This is a source-discovery result, not evidence that a correct image does not exist elsewhere.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_Athlon_(K7)",
+          "status": 404
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Athlon",
+          "status": 200,
+          "filesFound": 28
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "athlonxp1800",
+      "name": "AMD Athlon XP 1800+",
+      "status": "repaired",
+      "reason": "Accepted: The complete single CPU visibly carries AX1800DMT3C, matching the catalog source part number and Palomino 1800+ variant.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_Athlon_XP",
+          "status": 404
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_AX1800DMT3C",
+          "status": 200,
+          "filesFound": 3
+        }
+      ],
+      "candidates": [
+        {
+          "candidate": "A35",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:AMD_Athlon_XP_1800%2B_(Palomino)_-_Top.jpg",
+          "title": "File:AMD Athlon XP 1800+ (Palomino) - Top.jpg",
+          "reviewed": true,
+          "accepted": true
+        }
+      ]
+    },
+    {
+      "id": "athlon64x23800",
+      "name": "AMD Athlon 64 X2 3800+",
+      "status": "repaired",
+      "reason": "Accepted: The single complete CPU visibly carries ADA3800DAA5BV, exactly matching the catalog source part number for Manchester Socket 939. The Windsor AM2 3800+ photo was rejected.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_Athlon_64_X2",
+          "status": 404
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Athlon_64_X2",
+          "status": 200,
+          "filesFound": 9
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_ADA3800DAA5BV",
+          "status": 200,
+          "filesFound": 3
+        }
+      ],
+      "candidates": [
+        {
+          "candidate": "B7",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Prozessor_AMD_Athlon_64_X2.jpg",
+          "title": "File:Prozessor AMD Athlon 64 X2.jpg",
+          "reviewed": true,
+          "accepted": true
+        }
+      ]
+    },
+    {
+      "id": "phenom9500",
+      "name": "AMD Phenom 9500",
+      "status": "unresolved",
+      "reason": "No exact complete single-chip photo was verified in the bounded Commons candidates. The category includes media such as comparison frames, videos, die images, boards, or family material; the category alone is not identity evidence.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_Phenom",
+          "status": 200
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "phenomii965",
+      "name": "AMD Phenom II X4 965 Black Edition",
+      "status": "unresolved",
+      "reason": "No dedicated model category was found at the attempted Commons URL (HTTP 404). This is a source-discovery result, not evidence that a correct image does not exist elsewhere.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_Phenom_II_X4_965",
+          "status": 404
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Phenom_II",
+          "status": 404,
+          "filesFound": 0
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "fx8150",
+      "name": "AMD FX-8150",
+      "status": "unresolved",
+      "reason": "No dedicated model category was found at the attempted Commons URL (HTTP 404). This is a source-discovery result, not evidence that a correct image does not exist elsewhere.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_FX-8150",
+          "status": 404
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_FX",
+          "status": 200,
+          "filesFound": 4
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "c-cpu-intel-xeon-gold-6430",
+      "name": "Intel Xeon Gold 6430",
+      "status": "unresolved",
+      "reason": "No dedicated model category was found at the attempted Commons URL (HTTP 404). This is a source-discovery result, not evidence that a correct image does not exist elsewhere.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Xeon_Gold_6430",
+          "status": 404
+        },
+        {
+          "url": "https://www.xbyte.com/products/cat-24546/",
+          "finalUrl": "https://www.xbyte.com/products/cat-24546/",
+          "status": 403,
+          "title": "Attention Required! | Cloudflare",
+          "imagesFound": 0
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "c-cpu-intel-xeon-gold-6454s",
+      "name": "Intel Xeon Gold 6454S",
+      "status": "unresolved",
+      "reason": "No dedicated model category was found at the attempted Commons URL (HTTP 404). This is a source-discovery result, not evidence that a correct image does not exist elsewhere.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Xeon_Gold_6454S",
+          "status": 404
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "c-cpu-intel-xeon-gold-6448y",
+      "name": "Intel Xeon Gold 6448Y",
+      "status": "unresolved",
+      "reason": "No dedicated model category was found at the attempted Commons URL (HTTP 404). This is a source-discovery result, not evidence that a correct image does not exist elsewhere.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Xeon_Gold_6448Y",
+          "status": 404
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "c-cpu-intel-xeon-platinum-8468",
+      "name": "Intel Xeon Platinum 8468",
+      "status": "unresolved",
+      "reason": "No dedicated model category was found at the attempted Commons URL (HTTP 404). This is a source-discovery result, not evidence that a correct image does not exist elsewhere.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Xeon_Platinum_8468",
+          "status": 404
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "c-cpu-intel-xeon-platinum-8470",
+      "name": "Intel Xeon Platinum 8470",
+      "status": "unresolved",
+      "reason": "No dedicated model category was found at the attempted Commons URL (HTTP 404). This is a source-discovery result, not evidence that a correct image does not exist elsewhere.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Xeon_Platinum_8470",
+          "status": 404
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "c-cpu-intel-xeon-platinum-8480",
+      "name": "Intel Xeon Platinum 8480+",
+      "status": "unresolved",
+      "reason": "No dedicated model category was found at the attempted Commons URL (HTTP 404). This is a source-discovery result, not evidence that a correct image does not exist elsewhere.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Intel_Xeon_Platinum_8480+",
+          "status": 404
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "c-cpu-amd-epyc-9754",
+      "name": "AMD EPYC 9754",
+      "status": "unresolved",
+      "reason": "Two exact retailer listings responded 200, but both product images are generic EPYC renders with no visible 9754 model label.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_EPYC_9754",
+          "status": 404
+        },
+        {
+          "url": "https://starmicroinc.net/amd-epyc-9754-2-25ghz-socket-sp5-128-core-zen-4c-server-oem-cpu-100-000001234/",
+          "finalUrl": "https://starmicroinc.net/amd-epyc-9754-2-25ghz-socket-sp5-128-core-zen-4c-server-oem-cpu-100-000001234/",
+          "status": 200,
+          "title": "AMD EPYC 9754 2.25GHz Socket-SP5 128-core Zen-4c Server OEM CPU 100-000001234 - Staar Micro Inc",
+          "imagesFound": 10
+        },
+        {
+          "url": "https://www.avendor.com/products/amd-epyc-one-twenty-eight-core-model-9754",
+          "finalUrl": "https://www.avendor.com/products/amd-epyc-one-twenty-eight-core-model-9754",
+          "status": 200,
+          "title": "AMD EPYC 9754 128-Core 2.25GHz Server Processor | AMD &ndash; Avendor",
+          "imagesFound": 25
+        }
+      ],
+      "candidates": [
+        {
+          "candidate": "B12",
+          "sourceUrl": "https://starmicroinc.net/amd-epyc-9754-2-25ghz-socket-sp5-128-core-zen-4c-server-oem-cpu-100-000001234/",
+          "title": "AMD EPYC 9754 2.25GHz Socket-SP5 128-core Zen-4c Server OEM CPU 100-000001234 - Staar Micro Inc",
+          "reviewed": true,
+          "accepted": false
+        },
+        {
+          "candidate": "B13",
+          "sourceUrl": "https://www.avendor.com/products/amd-epyc-one-twenty-eight-core-model-9754",
+          "title": "AMD EPYC 9754 128-Core 2.25GHz Server Processor | AMD &ndash; Avendor",
+          "reviewed": true,
+          "accepted": false
+        }
+      ]
+    },
+    {
+      "id": "c-cpu-amd-epyc-9734",
+      "name": "AMD EPYC 9734",
+      "status": "unresolved",
+      "reason": "No dedicated model category was found at the attempted Commons URL (HTTP 404). This is a source-discovery result, not evidence that a correct image does not exist elsewhere.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_EPYC_9734",
+          "status": 404
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "c-cpu-amd-epyc-9634",
+      "name": "AMD EPYC 9634",
+      "status": "unresolved",
+      "reason": "No dedicated model category was found at the attempted Commons URL (HTTP 404). This is a source-discovery result, not evidence that a correct image does not exist elsewhere.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_EPYC_9634",
+          "status": 404
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "c-cpu-amd-epyc-9554",
+      "name": "AMD EPYC 9554",
+      "status": "unresolved",
+      "reason": "No dedicated model category was found at the attempted Commons URL (HTTP 404). This is a source-discovery result, not evidence that a correct image does not exist elsewhere.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_EPYC_9554",
+          "status": 404
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "id": "c-cpu-amd-epyc-9454",
+      "name": "AMD EPYC 9454",
+      "status": "unresolved",
+      "reason": "No dedicated model category was found at the attempted Commons URL (HTTP 404). This is a source-discovery result, not evidence that a correct image does not exist elsewhere.",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:AMD_EPYC_9454",
+          "status": 404
+        }
+      ],
+      "candidates": []
+    }
+  ]
+}

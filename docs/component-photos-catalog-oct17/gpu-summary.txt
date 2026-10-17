@@ -1,0 +1,11 @@
+GPU photo repair — checked 2026-10-17
+
+165 GPU records audited. Initial 103 bindings remain unchanged; 11 retained-image bindings added for 114 total (10 exact, 104 named same-chip/capacity variants). 86 missing photos recovered; 28 existing bindings corrected or rebound. 32 retained existing photos pass the delivery boundary without a new binding. 19 entries remain unavailable: 18 original missing photos and 1 unproven HD 5870 capacity.
+
+All 228 output WebP assets passed the parent component registry, hash, format and dimension checks. The merged GPU delivery index admits 146 of 165 entries. All accepted photos were visually inspected in the four final contact sheets plus gpu-retained-followup.jpg.
+
+The follow-up fetched no source pages or origin images. Original attribution and checks were preserved; undated source checks remain undated. Where a direct media URL was absent, imageUrlRole identifies the preserved source-page URL. sourceSha256Scope identifies hashes taken from an existing local input rather than newly fetched origin media.
+
+ASUS RX 7800 XT and RX 7700 XT official spec pages return identical external cooler photography through different linked URLs; manufacturer reuse is disclosed. Named retail listings never receive another partner model.
+
+No Chrome profile access, shared source/build edit, full build, commit or publication was performed by this GPU task.

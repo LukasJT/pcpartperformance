@@ -1,0 +1,4583 @@
+[
+  {
+    "row": {
+      "id": "barracuda2",
+      "name": "BarraCuda 2 TB",
+      "category": "hdd",
+      "sourceUrl": "https://www.seagate.com/www-content/datasheets/pdfs/3-5-barracudaDS1900-14-2007LA-es_ES.pdf",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "barracuda2",
+      "name": "BarraCuda 2 TB",
+      "brand": "Seagate",
+      "cat": "hdd",
+      "year": null,
+      "architecture": "ST2000DM008 · SATA",
+      "summary": "7,200 RPM · 256 MB cache",
+      "specs": {
+        "Storage capacity": 2000,
+        "Spindle speed": 7200,
+        "Drive cache": 256
+      },
+      "source": "https://www.seagate.com/www-content/datasheets/pdfs/3-5-barracudaDS1900-14-2007LA-es_ES.pdf"
+    },
+    "priorAudit": {
+      "id": "barracuda2",
+      "category": "hdd",
+      "catalogName": "BarraCuda 2 TB",
+      "catalogSource": "https://www.seagate.com/www-content/datasheets/pdfs/3-5-barracudaDS1900-14-2007LA-es_ES.pdf",
+      "previousImage": {
+        "src": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+        "picturedModel": "Seagate Barracuda 500 GB",
+        "kind": "family"
+      },
+      "status": "unresolved",
+      "reason": "Accessible source is a product family/category or family datasheet. No photographed label matching the catalog capacity and exact model/revision was verified; rejected reuse of another capacity.",
+      "attempts": [
+        {
+          "url": "https://www.seagate.com/www-content/datasheets/pdfs/3-5-barracudaDS1900-14-2007LA-es_ES.pdf",
+          "status": 200,
+          "finalUrl": "https://www.seagate.com/www-content/datasheets/pdfs/3-5-barracudaDS1900-14-2007LA-es_ES.pdf"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "barracuda1",
+      "name": "BarraCuda 1 TB",
+      "category": "hdd",
+      "sourceUrl": "https://www.seagate.com/www-content/datasheets/pdfs/3-5-barracudaDS1900-14-2007LA-es_ES.pdf",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "barracuda1",
+      "name": "BarraCuda 1 TB",
+      "brand": "Seagate",
+      "cat": "hdd",
+      "year": null,
+      "architecture": "ST1000DM010 · SATA",
+      "summary": "7,200 RPM · 64 MB cache",
+      "specs": {
+        "Storage capacity": 1000,
+        "Spindle speed": 7200,
+        "Drive cache": 64
+      },
+      "source": "https://www.seagate.com/www-content/datasheets/pdfs/3-5-barracudaDS1900-14-2007LA-es_ES.pdf"
+    },
+    "priorAudit": {
+      "id": "barracuda1",
+      "category": "hdd",
+      "catalogName": "BarraCuda 1 TB",
+      "catalogSource": "https://www.seagate.com/www-content/datasheets/pdfs/3-5-barracudaDS1900-14-2007LA-es_ES.pdf",
+      "previousImage": {
+        "src": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+        "picturedModel": "Seagate Barracuda 500 GB",
+        "kind": "family"
+      },
+      "status": "unresolved",
+      "reason": "Accessible source is a product family/category or family datasheet. No photographed label matching the catalog capacity and exact model/revision was verified; rejected reuse of another capacity.",
+      "attempts": [
+        {
+          "url": "https://www.seagate.com/www-content/datasheets/pdfs/3-5-barracudaDS1900-14-2007LA-es_ES.pdf",
+          "status": 200,
+          "finalUrl": "https://www.seagate.com/www-content/datasheets/pdfs/3-5-barracudaDS1900-14-2007LA-es_ES.pdf"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "sn770",
+      "name": "WD_BLACK SN770 1 TB",
+      "category": "ssd",
+      "sourceUrl": "https://www.westerndigital.com/products/internal-drives/wd-black-sn770-nvme-ssd",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/memory-storage-wd-sn850x.png",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "sn770",
+      "name": "WD_BLACK SN770 1 TB",
+      "brand": "Western Digital",
+      "cat": "ssd",
+      "year": 2022,
+      "architecture": "PCIe 4.0 ×4 · NVMe",
+      "summary": "5,150 MB/s read",
+      "specs": {
+        "Storage capacity": 1000,
+        "Sequential read": 5150,
+        "Sequential write": 4900,
+        "Endurance": 600
+      },
+      "source": "https://www.westerndigital.com/products/internal-drives/wd-black-sn770-nvme-ssd"
+    },
+    "priorAudit": {
+      "id": "sn770",
+      "category": "ssd",
+      "catalogName": "WD_BLACK SN770 1 TB",
+      "catalogSource": "https://www.westerndigital.com/products/internal-drives/wd-black-sn770-nvme-ssd",
+      "previousImage": {
+        "src": "/assets/hardware/memory-storage-wd-sn850x.png",
+        "picturedModel": "WD_BLACK SN850X NVMe SSD (capacity unspecified)",
+        "kind": "reference"
+      },
+      "status": "unresolved",
+      "reason": "Accessible source is a product family/category or family datasheet. No photographed label matching the catalog capacity and exact model/revision was verified; rejected reuse of another capacity.",
+      "attempts": [
+        {
+          "url": "https://www.westerndigital.com/products/internal-drives/wd-black-sn770-nvme-ssd",
+          "status": 200,
+          "finalUrl": "https://www.sandisk.com/product-portfolio/ssd/internal-ssd",
+          "title": "Shop Internal Solid State Drives: Internal NVMe SSDs | Sandisk"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "crucialt705",
+      "name": "T705 2 TB",
+      "category": "ssd",
+      "sourceUrl": "https://www.crucial.com/ssd/t705/ct2000t705ssd3",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/memory-storage-t705.jpg",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "crucialt705",
+      "name": "T705 2 TB",
+      "brand": "Crucial",
+      "cat": "ssd",
+      "year": 2024,
+      "architecture": "PCIe 5.0 ×4 · NVMe",
+      "summary": "14,500 MB/s read",
+      "specs": {
+        "Storage capacity": 2000,
+        "Sequential read": 14500,
+        "Sequential write": 12700,
+        "Endurance": 1200
+      },
+      "source": "https://www.crucial.com/ssd/t705/ct2000t705ssd3"
+    },
+    "priorAudit": {
+      "id": "crucialt705",
+      "category": "ssd",
+      "catalogName": "T705 2 TB",
+      "catalogSource": "https://www.crucial.com/ssd/t705/ct2000t705ssd3",
+      "previousImage": {
+        "src": "/assets/hardware/memory-storage-t705.jpg",
+        "picturedModel": "Crucial T705 4TB CT4000T705SSD3",
+        "kind": "family"
+      },
+      "status": "unresolved",
+      "reason": "Public manufacturer source rejected the request or served an access challenge. No verified exact named model/capacity/revision photo was recovered from the accessible official sources.",
+      "attempts": [
+        {
+          "url": "https://www.crucial.com/ssd/t705/ct2000t705ssd3",
+          "status": 200,
+          "finalUrl": "https://www.crucial.com/ssd/t705/ct2000t705ssd3",
+          "title": "Request Rejected"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "crucialp3plus",
+      "name": "P3 Plus 1 TB",
+      "category": "ssd",
+      "sourceUrl": "https://www.crucial.com/ssd/p3-plus/ct1000p3pssd8",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/memory-storage-t705.jpg",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "crucialp3plus",
+      "name": "P3 Plus 1 TB",
+      "brand": "Crucial",
+      "cat": "ssd",
+      "year": 2022,
+      "architecture": "PCIe 4.0 ×4 · NVMe",
+      "summary": "5,000 MB/s read",
+      "specs": {
+        "Storage capacity": 1000,
+        "Sequential read": 5000,
+        "Sequential write": 3600,
+        "Endurance": 220
+      },
+      "source": "https://www.crucial.com/ssd/p3-plus/ct1000p3pssd8"
+    },
+    "priorAudit": {
+      "id": "crucialp3plus",
+      "category": "ssd",
+      "catalogName": "P3 Plus 1 TB",
+      "catalogSource": "https://www.crucial.com/ssd/p3-plus/ct1000p3pssd8",
+      "previousImage": {
+        "src": "/assets/hardware/memory-storage-t705.jpg",
+        "picturedModel": "Crucial T705 4TB CT4000T705SSD3",
+        "kind": "reference"
+      },
+      "status": "unresolved",
+      "reason": "Public manufacturer source rejected the request or served an access challenge. No verified exact named model/capacity/revision photo was recovered from the accessible official sources.",
+      "attempts": [
+        {
+          "url": "https://www.crucial.com/ssd/p3-plus/ct1000p3pssd8",
+          "status": 200,
+          "finalUrl": "https://www.crucial.com/ssd/p3-plus/ct1000p3pssd8",
+          "title": "Request Rejected"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "crucialmx500",
+      "name": "MX500 1 TB",
+      "category": "ssd",
+      "sourceUrl": "https://www.crucial.com/ssd/mx500/ct1000mx500ssd1",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/memory-storage-mx500.jpg",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "crucialmx500",
+      "name": "MX500 1 TB",
+      "brand": "Crucial",
+      "cat": "ssd",
+      "year": 2018,
+      "architecture": "SATA 6 Gb/s · 2.5-inch",
+      "summary": "560 MB/s read",
+      "specs": {
+        "Storage capacity": 1000,
+        "Sequential read": 560,
+        "Sequential write": 510,
+        "Endurance": 360
+      },
+      "source": "https://www.crucial.com/ssd/mx500/ct1000mx500ssd1"
+    },
+    "priorAudit": {
+      "id": "crucialmx500",
+      "category": "ssd",
+      "catalogName": "MX500 1 TB",
+      "catalogSource": "https://www.crucial.com/ssd/mx500/ct1000mx500ssd1",
+      "previousImage": {
+        "src": "/assets/hardware/memory-storage-mx500.jpg",
+        "picturedModel": "Crucial MX500 500GB CT500MX500SSD1",
+        "kind": "family"
+      },
+      "status": "unresolved",
+      "reason": "Public manufacturer source rejected the request or served an access challenge. No verified exact named model/capacity/revision photo was recovered from the accessible official sources.",
+      "attempts": [
+        {
+          "url": "https://www.crucial.com/ssd/mx500/ct1000mx500ssd1",
+          "status": 200,
+          "finalUrl": "https://www.crucial.com/ssd/mx500/ct1000mx500ssd1",
+          "title": "Request Rejected"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "kc3000",
+      "name": "KC3000 2 TB",
+      "category": "ssd",
+      "sourceUrl": "https://www.kingston.com/en/ssd/kc3000-nvme-m2-solid-state-drive",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/memory-storage-kc3000.jpg",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "kc3000",
+      "name": "KC3000 2 TB",
+      "brand": "Kingston",
+      "cat": "ssd",
+      "year": 2021,
+      "architecture": "PCIe 4.0 ×4 · NVMe",
+      "summary": "7,000 MB/s read",
+      "specs": {
+        "Storage capacity": 2000,
+        "Sequential read": 7000,
+        "Sequential write": 7000,
+        "Endurance": 1600
+      },
+      "source": "https://www.kingston.com/en/ssd/kc3000-nvme-m2-solid-state-drive"
+    },
+    "priorAudit": {
+      "id": "kc3000",
+      "category": "ssd",
+      "catalogName": "KC3000 2 TB",
+      "catalogSource": "https://www.kingston.com/en/ssd/kc3000-nvme-m2-solid-state-drive",
+      "previousImage": {
+        "src": "/assets/hardware/memory-storage-kc3000.jpg",
+        "picturedModel": "Kingston KC3000 4TB SKC3000D/4096GB",
+        "kind": "family"
+      },
+      "status": "unresolved",
+      "reason": "Public manufacturer source rejected the request or served an access challenge. No verified exact named model/capacity/revision photo was recovered from the accessible official sources.",
+      "attempts": [
+        {
+          "url": "https://www.kingston.com/en/ssd/kc3000-nvme-m2-solid-state-drive",
+          "status": 403,
+          "finalUrl": "https://www.kingston.com/en/ssd/kc3000-nvme-m2-solid-state-drive",
+          "title": "Just a moment..."
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "exos18tb",
+      "name": "Exos X18 18 TB",
+      "category": "hdd",
+      "sourceUrl": "https://www.seagate.com/products/enterprise-drives/exos-x/x18/",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "exos18tb",
+      "name": "Exos X18 18 TB",
+      "brand": "Seagate",
+      "cat": "hdd",
+      "year": 2020,
+      "architecture": "Enterprise · SATA",
+      "summary": "7,200 RPM · 256 MB cache",
+      "specs": {
+        "Storage capacity": 18000,
+        "Spindle speed": 7200,
+        "Drive cache": 256
+      },
+      "source": "https://www.seagate.com/products/enterprise-drives/exos-x/x18/"
+    },
+    "priorAudit": {
+      "id": "exos18tb",
+      "category": "hdd",
+      "catalogName": "Exos X18 18 TB",
+      "catalogSource": "https://www.seagate.com/products/enterprise-drives/exos-x/x18/",
+      "previousImage": {
+        "src": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+        "picturedModel": "Seagate Barracuda 500 GB",
+        "kind": "reference"
+      },
+      "status": "unresolved",
+      "reason": "Accessible source is a product family/category or family datasheet. No photographed label matching the catalog capacity and exact model/revision was verified; rejected reuse of another capacity.",
+      "attempts": [
+        {
+          "url": "https://www.seagate.com/products/enterprise-drives/exos-x/x18/",
+          "status": 200,
+          "finalUrl": "https://www.seagate.com/products/enterprise-drives/exos/",
+          "title": "Seagate Exos Enterprise Hard Drives | Up to 32TB AI Storage | Seagate US"
+        },
+        {
+          "url": "https://www.seagate.com/products/enterprise-drives/exos-x/x18/",
+          "status": 200,
+          "finalUrl": "https://www.seagate.com/products/enterprise-drives/exos/",
+          "title": "Seagate Exos Enterprise Hard Drives | Up to 32TB AI Storage | Seagate US"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "sn580",
+      "name": "WD Blue SN580 1 TB",
+      "category": "ssd",
+      "sourceUrl": "https://www.westerndigital.com/products/internal-drives/wd-blue-sn580-nvme-ssd",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/memory-storage-wd-sn850x.png",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "sn580",
+      "name": "WD Blue SN580 1 TB",
+      "brand": "Western Digital",
+      "cat": "ssd",
+      "year": 2023,
+      "architecture": "PCIe 4.0 ×4 · NVMe",
+      "summary": "4,150 MB/s read",
+      "specs": {
+        "Storage capacity": 1000,
+        "Sequential read": 4150,
+        "Sequential write": 4150,
+        "Endurance": 600
+      },
+      "source": "https://www.westerndigital.com/products/internal-drives/wd-blue-sn580-nvme-ssd"
+    },
+    "priorAudit": {
+      "id": "sn580",
+      "category": "ssd",
+      "catalogName": "WD Blue SN580 1 TB",
+      "catalogSource": "https://www.westerndigital.com/products/internal-drives/wd-blue-sn580-nvme-ssd",
+      "previousImage": {
+        "src": "/assets/hardware/memory-storage-wd-sn850x.png",
+        "picturedModel": "WD_BLACK SN850X NVMe SSD (capacity unspecified)",
+        "kind": "reference"
+      },
+      "status": "unresolved",
+      "reason": "Accessible source is a product family/category or family datasheet. No photographed label matching the catalog capacity and exact model/revision was verified; rejected reuse of another capacity.",
+      "attempts": [
+        {
+          "url": "https://www.westerndigital.com/products/internal-drives/wd-blue-sn580-nvme-ssd",
+          "status": 200,
+          "finalUrl": "https://www.sandisk.com/product-portfolio/ssd/internal-ssd",
+          "title": "Shop Internal Solid State Drives: Internal NVMe SSDs | Sandisk"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "wdsa510",
+      "name": "WD Blue SA510 1 TB",
+      "category": "ssd",
+      "sourceUrl": "https://www.westerndigital.com/products/internal-drives/wd-blue-sa510-sata-2-5-ssd",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/official-core-official-core-wdsa510.png",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "wdsa510",
+      "name": "WD Blue SA510 1 TB",
+      "brand": "Western Digital",
+      "cat": "ssd",
+      "year": 2022,
+      "architecture": "SATA 6 Gb/s · 2.5-inch",
+      "summary": "560 MB/s read",
+      "specs": {
+        "Storage capacity": 1000,
+        "Sequential read": 560,
+        "Sequential write": 520,
+        "Endurance": 400
+      },
+      "source": "https://www.westerndigital.com/products/internal-drives/wd-blue-sa510-sata-2-5-ssd"
+    },
+    "priorAudit": {
+      "id": "wdsa510",
+      "category": "ssd",
+      "catalogName": "WD Blue SA510 1 TB",
+      "catalogSource": "https://www.westerndigital.com/products/internal-drives/wd-blue-sa510-sata-2-5-ssd",
+      "previousImage": {
+        "src": "/assets/hardware/official-core-official-core-wdsa510.png",
+        "picturedModel": "WD Blue SA510 250 GB",
+        "kind": "family"
+      },
+      "status": "unresolved",
+      "reason": "Accessible source is a product family/category or family datasheet. No photographed label matching the catalog capacity and exact model/revision was verified; rejected reuse of another capacity.",
+      "attempts": [
+        {
+          "url": "https://www.westerndigital.com/products/internal-drives/wd-blue-sa510-sata-2-5-ssd",
+          "status": 200,
+          "finalUrl": "https://www.sandisk.com/products/ssd/internal-ssd/wd-blue-sa510-sata-2-5-ssd",
+          "title": "250GB WD Blue SA510 SATA SSD 2.5”/7mm Cased | Sandisk"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "crucialt700",
+      "name": "T700 2 TB",
+      "category": "ssd",
+      "sourceUrl": "https://www.crucial.com/ssd/t700/ct2000t700ssd3",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/memory-storage-t705.jpg",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "crucialt700",
+      "name": "T700 2 TB",
+      "brand": "Crucial",
+      "cat": "ssd",
+      "year": 2023,
+      "architecture": "PCIe 5.0 ×4 · NVMe",
+      "summary": "12,400 MB/s read",
+      "specs": {
+        "Storage capacity": 2000,
+        "Sequential read": 12400,
+        "Sequential write": 11800,
+        "Endurance": 1200
+      },
+      "source": "https://www.crucial.com/ssd/t700/ct2000t700ssd3"
+    },
+    "priorAudit": {
+      "id": "crucialt700",
+      "category": "ssd",
+      "catalogName": "T700 2 TB",
+      "catalogSource": "https://www.crucial.com/ssd/t700/ct2000t700ssd3",
+      "previousImage": {
+        "src": "/assets/hardware/memory-storage-t705.jpg",
+        "picturedModel": "Crucial T705 4TB CT4000T705SSD3",
+        "kind": "reference"
+      },
+      "status": "unresolved",
+      "reason": "Public manufacturer source rejected the request or served an access challenge. No verified exact named model/capacity/revision photo was recovered from the accessible official sources.",
+      "attempts": [
+        {
+          "url": "https://www.crucial.com/ssd/t700/ct2000t700ssd3",
+          "status": 200,
+          "finalUrl": "https://www.crucial.com/ssd/t700/ct2000t700ssd3",
+          "title": "Request Rejected"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "crucialp5plus",
+      "name": "P5 Plus 1 TB",
+      "category": "ssd",
+      "sourceUrl": "https://www.crucial.com/ssd/p5-plus/ct1000p5pssd8",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/memory-storage-t705.jpg",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "crucialp5plus",
+      "name": "P5 Plus 1 TB",
+      "brand": "Crucial",
+      "cat": "ssd",
+      "year": 2021,
+      "architecture": "PCIe 4.0 ×4 · NVMe",
+      "summary": "6,600 MB/s read",
+      "specs": {
+        "Storage capacity": 1000,
+        "Sequential read": 6600,
+        "Sequential write": 5000,
+        "Endurance": 600
+      },
+      "source": "https://www.crucial.com/ssd/p5-plus/ct1000p5pssd8"
+    },
+    "priorAudit": {
+      "id": "crucialp5plus",
+      "category": "ssd",
+      "catalogName": "P5 Plus 1 TB",
+      "catalogSource": "https://www.crucial.com/ssd/p5-plus/ct1000p5pssd8",
+      "previousImage": {
+        "src": "/assets/hardware/memory-storage-t705.jpg",
+        "picturedModel": "Crucial T705 4TB CT4000T705SSD3",
+        "kind": "reference"
+      },
+      "status": "unresolved",
+      "reason": "Public manufacturer source rejected the request or served an access challenge. No verified exact named model/capacity/revision photo was recovered from the accessible official sources.",
+      "attempts": [
+        {
+          "url": "https://www.crucial.com/ssd/p5-plus/ct1000p5pssd8",
+          "status": 200,
+          "finalUrl": "https://www.crucial.com/ssd/p5-plus/ct1000p5pssd8",
+          "title": "Request Rejected"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "furyrenegade",
+      "name": "FURY Renegade 2 TB",
+      "category": "ssd",
+      "sourceUrl": "https://www.kingston.com/en/ssd/gaming/kingston-fury-renegade-nvme-m2-ssd",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/memory-storage-kc3000.jpg",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "furyrenegade",
+      "name": "FURY Renegade 2 TB",
+      "brand": "Kingston",
+      "cat": "ssd",
+      "year": 2021,
+      "architecture": "PCIe 4.0 ×4 · NVMe",
+      "summary": "7,300 MB/s read",
+      "specs": {
+        "Storage capacity": 2000,
+        "Sequential read": 7300,
+        "Sequential write": 7000,
+        "Endurance": 2000
+      },
+      "source": "https://www.kingston.com/en/ssd/gaming/kingston-fury-renegade-nvme-m2-ssd"
+    },
+    "priorAudit": {
+      "id": "furyrenegade",
+      "category": "ssd",
+      "catalogName": "FURY Renegade 2 TB",
+      "catalogSource": "https://www.kingston.com/en/ssd/gaming/kingston-fury-renegade-nvme-m2-ssd",
+      "previousImage": {
+        "src": "/assets/hardware/memory-storage-kc3000.jpg",
+        "picturedModel": "Kingston KC3000 4TB SKC3000D/4096GB",
+        "kind": "reference"
+      },
+      "status": "unresolved",
+      "reason": "Public manufacturer source rejected the request or served an access challenge. No verified exact named model/capacity/revision photo was recovered from the accessible official sources.",
+      "attempts": [
+        {
+          "url": "https://www.kingston.com/en/ssd/gaming/kingston-fury-renegade-nvme-m2-ssd",
+          "status": 403,
+          "finalUrl": "https://www.kingston.com/en/ssd/gaming/kingston-fury-renegade-nvme-m2-ssd",
+          "title": "Just a moment..."
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "kingstonnv3",
+      "name": "NV3 2 TB",
+      "category": "ssd",
+      "sourceUrl": "https://www.kingston.com/en/ssd/nv3-nvme-pcie-ssd",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/memory-storage-kc3000.jpg",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "kingstonnv3",
+      "name": "NV3 2 TB",
+      "brand": "Kingston",
+      "cat": "ssd",
+      "year": 2024,
+      "architecture": "PCIe 4.0 ×4 · NVMe",
+      "summary": "6,000 MB/s read",
+      "specs": {
+        "Storage capacity": 2000,
+        "Sequential read": 6000,
+        "Sequential write": 5000,
+        "Endurance": 640
+      },
+      "source": "https://www.kingston.com/en/ssd/nv3-nvme-pcie-ssd"
+    },
+    "priorAudit": {
+      "id": "kingstonnv3",
+      "category": "ssd",
+      "catalogName": "NV3 2 TB",
+      "catalogSource": "https://www.kingston.com/en/ssd/nv3-nvme-pcie-ssd",
+      "previousImage": {
+        "src": "/assets/hardware/memory-storage-kc3000.jpg",
+        "picturedModel": "Kingston KC3000 4TB SKC3000D/4096GB",
+        "kind": "reference"
+      },
+      "status": "unresolved",
+      "reason": "Public manufacturer source rejected the request or served an access challenge. No verified exact named model/capacity/revision photo was recovered from the accessible official sources.",
+      "attempts": [
+        {
+          "url": "https://www.kingston.com/en/ssd/nv3-nvme-pcie-ssd",
+          "status": 403,
+          "finalUrl": "https://www.kingston.com/en/ssd/nv3-nvme-pcie-ssd",
+          "title": "Just a moment..."
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "firecuda530",
+      "name": "FireCuda 530 2 TB",
+      "category": "ssd",
+      "sourceUrl": "https://www.seagate.com/products/gaming-drives/pc-gaming/firecuda-530-ssd/",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/memory-storage-firecuda530.jpg",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "firecuda530",
+      "name": "FireCuda 530 2 TB",
+      "brand": "Seagate",
+      "cat": "ssd",
+      "year": 2021,
+      "architecture": "PCIe 4.0 ×4 · NVMe",
+      "summary": "7,300 MB/s read",
+      "specs": {
+        "Storage capacity": 2000,
+        "Sequential read": 7300,
+        "Sequential write": 6900,
+        "Endurance": 2550
+      },
+      "source": "https://www.seagate.com/products/gaming-drives/pc-gaming/firecuda-530-ssd/"
+    },
+    "priorAudit": {
+      "id": "firecuda530",
+      "category": "ssd",
+      "catalogName": "FireCuda 530 2 TB",
+      "catalogSource": "https://www.seagate.com/products/gaming-drives/pc-gaming/firecuda-530-ssd/",
+      "previousImage": {
+        "src": "/assets/hardware/memory-storage-firecuda530.jpg",
+        "picturedModel": "Seagate FireCuda 530 PCIe Gen4 SSD (capacity unspecified)",
+        "kind": "family"
+      },
+      "status": "unresolved",
+      "reason": "Accessible source is a product family/category or family datasheet. No photographed label matching the catalog capacity and exact model/revision was verified; rejected reuse of another capacity.",
+      "attempts": [
+        {
+          "url": "https://www.seagate.com/products/gaming-drives/pc-gaming/firecuda-530-ssd/",
+          "status": 200,
+          "finalUrl": "https://www.seagate.com/support/internal-hard-drives/ssd/firecuda-530-ssd/",
+          "title": "FireCuda 530 SSD Support Page | Seagate US"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "wdgold18tb",
+      "name": "WD Gold 18 TB",
+      "category": "hdd",
+      "sourceUrl": "https://www.westerndigital.com/products/internal-drives/wd-gold-sata-hdd",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/component-new-hdd-wdred.jpg",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "wdgold18tb",
+      "name": "WD Gold 18 TB",
+      "brand": "Western Digital",
+      "cat": "hdd",
+      "year": null,
+      "architecture": "Enterprise · SATA",
+      "summary": "7,200 RPM · 512 MB cache",
+      "specs": {
+        "Storage capacity": 18000,
+        "Spindle speed": 7200,
+        "Drive cache": 512
+      },
+      "source": "https://www.westerndigital.com/products/internal-drives/wd-gold-sata-hdd"
+    },
+    "priorAudit": {
+      "id": "wdgold18tb",
+      "category": "hdd",
+      "catalogName": "WD Gold 18 TB",
+      "catalogSource": "https://www.westerndigital.com/products/internal-drives/wd-gold-sata-hdd",
+      "previousImage": {
+        "src": "/assets/hardware/component-new-hdd-wdred.jpg",
+        "picturedModel": "Western Digital Red 4 TB",
+        "kind": "reference"
+      },
+      "status": "unresolved",
+      "reason": "Accessible source is a product family/category or family datasheet. No photographed label matching the catalog capacity and exact model/revision was verified; rejected reuse of another capacity.",
+      "attempts": [
+        {
+          "url": "https://www.westerndigital.com/products/internal-drives/wd-gold-sata-hdd",
+          "status": 200,
+          "finalUrl": "https://www.westerndigital.com/products/internal-drives/wd-gold-sata-hdd",
+          "title": "10TB WD Gold Enterprise Class Hard Drive | WD"
+        },
+        {
+          "url": "https://www.westerndigital.com/products/internal-drives/wd-gold-sata-hdd",
+          "status": 200,
+          "finalUrl": "https://www.westerndigital.com/products/internal-drives/wd-gold-sata-hdd",
+          "title": "10TB WD Gold Enterprise Class Hard Drive | WD"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "ironwolf12tb",
+      "name": "IronWolf 12 TB",
+      "category": "hdd",
+      "sourceUrl": "https://www.seagate.com/products/nas-drives/ironwolf-hard-drive/",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "ironwolf12tb",
+      "name": "IronWolf 12 TB",
+      "brand": "Seagate",
+      "cat": "hdd",
+      "year": null,
+      "architecture": "NAS · SATA",
+      "summary": "7,200 RPM · 256 MB cache",
+      "specs": {
+        "Storage capacity": 12000,
+        "Spindle speed": 7200,
+        "Drive cache": 256
+      },
+      "source": "https://www.seagate.com/products/nas-drives/ironwolf-hard-drive/"
+    },
+    "priorAudit": {
+      "id": "ironwolf12tb",
+      "category": "hdd",
+      "catalogName": "IronWolf 12 TB",
+      "catalogSource": "https://www.seagate.com/products/nas-drives/ironwolf-hard-drive/",
+      "previousImage": {
+        "src": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+        "picturedModel": "Seagate Barracuda 500 GB",
+        "kind": "reference"
+      },
+      "status": "unresolved",
+      "reason": "Accessible source is a product family/category or family datasheet. No photographed label matching the catalog capacity and exact model/revision was verified; rejected reuse of another capacity.",
+      "attempts": [
+        {
+          "url": "https://www.seagate.com/products/nas-drives/ironwolf-hard-drive/",
+          "status": 200,
+          "finalUrl": "https://www.seagate.com/products/nas-drives/ironwolf-hard-drive/",
+          "title": "Seagate IronWolf NAS Hard Drives (NAS Storage) | Seagate US"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "toshibax3008",
+      "name": "X300 8 TB",
+      "category": "hdd",
+      "sourceUrl": "https://storage.toshiba.com/consumer-hdd/internal/x300",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "toshibax3008",
+      "name": "X300 8 TB",
+      "brand": "Toshiba",
+      "cat": "hdd",
+      "year": null,
+      "architecture": "Performance · SATA",
+      "summary": "7,200 RPM · 256 MB cache",
+      "specs": {
+        "Storage capacity": 8000,
+        "Spindle speed": 7200,
+        "Drive cache": 256
+      },
+      "source": "https://storage.toshiba.com/consumer-hdd/internal/x300"
+    },
+    "priorAudit": {
+      "id": "toshibax3008",
+      "category": "hdd",
+      "catalogName": "X300 8 TB",
+      "catalogSource": "https://storage.toshiba.com/consumer-hdd/internal/x300",
+      "previousImage": {
+        "src": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+        "picturedModel": "Seagate Barracuda 500 GB",
+        "kind": "reference"
+      },
+      "status": "unresolved",
+      "reason": "Accessible source is a product family/category or family datasheet. No photographed label matching the catalog capacity and exact model/revision was verified; rejected reuse of another capacity.",
+      "attempts": [
+        {
+          "url": "https://storage.toshiba.com/consumer-hdd/internal/x300",
+          "status": 200,
+          "finalUrl": "https://storage.toshiba.com/consumer-hdd/internal/x300",
+          "title": "Performance Hard Drive for Gaming &amp; Creators | Toshiba X300 HDD"
+        },
+        {
+          "url": "https://storage.toshiba.com/consumer-hdd/internal/x300",
+          "status": 200,
+          "finalUrl": "https://storage.toshiba.com/consumer-hdd/internal/x300",
+          "title": "Performance Hard Drive for Gaming &amp; Creators | Toshiba X300 HDD"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "samsung860evo",
+      "name": "860 EVO 1 TB",
+      "category": "ssd",
+      "sourceUrl": "https://semiconductor.samsung.com/consumer-storage/internal-ssd/860evo/",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/memory-storage-samsung870.png",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "samsung860evo",
+      "name": "860 EVO 1 TB",
+      "brand": "Samsung",
+      "cat": "ssd",
+      "year": 2018,
+      "architecture": "SATA 6 Gb/s · 2.5-inch",
+      "summary": "550 MB/s read",
+      "specs": {
+        "Storage capacity": 1000,
+        "Sequential read": 550,
+        "Sequential write": 520,
+        "Endurance": 600
+      },
+      "source": "https://semiconductor.samsung.com/consumer-storage/internal-ssd/860evo/"
+    },
+    "priorAudit": {
+      "id": "samsung860evo",
+      "category": "ssd",
+      "catalogName": "860 EVO 1 TB",
+      "catalogSource": "https://semiconductor.samsung.com/consumer-storage/internal-ssd/860evo/",
+      "previousImage": {
+        "src": "/assets/hardware/memory-storage-samsung870.png",
+        "picturedModel": "Samsung 870 EVO 500GB SATA 2.5-inch SSD",
+        "kind": "reference"
+      },
+      "status": "unresolved",
+      "reason": "Original Samsung Semiconductor source redirects to the general Samsung Canada storage category. Additional exact variant source attempt did not yield an approved matching photo.",
+      "attempts": [
+        {
+          "url": "https://semiconductor.samsung.com/consumer-storage/internal-ssd/860evo/",
+          "status": 200,
+          "finalUrl": "https://www.samsung.com/ca/memory-storage/all-memory-storage/?ssd",
+          "title": "Samsung Memory &amp; Storage | Shop SSDs &amp; More | Samsung Canada"
+        },
+        {
+          "url": "https://www.samsung.com/au/memory-storage/sata-ssd/860-evo-sata-3-2-5-inch-ssd-1tb-mz-76e1t0bw/",
+          "status": 404,
+          "finalUrl": "https://www.samsung.com/au/memory-storage/sata-ssd/860-evo-sata-3-2-5-inch-ssd-1tb-mz-76e1t0bw/"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "wdsn750",
+      "name": "WD_BLACK SN750 1 TB",
+      "category": "ssd",
+      "sourceUrl": "https://www.westerndigital.com/products/internal-drives/wd-black-sn750-nvme-ssd",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/memory-storage-wd-sn850x.png",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "wdsn750",
+      "name": "WD_BLACK SN750 1 TB",
+      "brand": "Western Digital",
+      "cat": "ssd",
+      "year": 2019,
+      "architecture": "PCIe 3.0 ×4 · NVMe",
+      "summary": "3,470 MB/s read",
+      "specs": {
+        "Storage capacity": 1000,
+        "Sequential read": 3470,
+        "Sequential write": 3000,
+        "Endurance": 600
+      },
+      "source": "https://www.westerndigital.com/products/internal-drives/wd-black-sn750-nvme-ssd"
+    },
+    "priorAudit": {
+      "id": "wdsn750",
+      "category": "ssd",
+      "catalogName": "WD_BLACK SN750 1 TB",
+      "catalogSource": "https://www.westerndigital.com/products/internal-drives/wd-black-sn750-nvme-ssd",
+      "previousImage": {
+        "src": "/assets/hardware/memory-storage-wd-sn850x.png",
+        "picturedModel": "WD_BLACK SN850X NVMe SSD (capacity unspecified)",
+        "kind": "reference"
+      },
+      "status": "unresolved",
+      "reason": "Accessible source is a product family/category or family datasheet. No photographed label matching the catalog capacity and exact model/revision was verified; rejected reuse of another capacity.",
+      "attempts": [
+        {
+          "url": "https://www.westerndigital.com/products/internal-drives/wd-black-sn750-nvme-ssd",
+          "status": 200,
+          "finalUrl": "https://www.sandisk.com/products/ssd/internal-ssd/wd-black-sn770m-nvme-ssd",
+          "title": "500GB WD_BLACK SN770M NVMe™ SSD | Sandisk"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "crucialp2",
+      "name": "P2 1 TB",
+      "category": "ssd",
+      "sourceUrl": "https://www.crucial.com/ssd/p2/ct1000p2ssd8",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/memory-storage-t705.jpg",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "crucialp2",
+      "name": "P2 1 TB",
+      "brand": "Crucial",
+      "cat": "ssd",
+      "year": 2020,
+      "architecture": "PCIe 3.0 ×4 · NVMe",
+      "summary": "2,400 MB/s read",
+      "specs": {
+        "Storage capacity": 1000,
+        "Sequential read": 2400,
+        "Sequential write": 1900,
+        "Endurance": 300
+      },
+      "source": "https://www.crucial.com/ssd/p2/ct1000p2ssd8"
+    },
+    "priorAudit": {
+      "id": "crucialp2",
+      "category": "ssd",
+      "catalogName": "P2 1 TB",
+      "catalogSource": "https://www.crucial.com/ssd/p2/ct1000p2ssd8",
+      "previousImage": {
+        "src": "/assets/hardware/memory-storage-t705.jpg",
+        "picturedModel": "Crucial T705 4TB CT4000T705SSD3",
+        "kind": "reference"
+      },
+      "status": "unresolved",
+      "reason": "Public manufacturer source rejected the request or served an access challenge. No verified exact named model/capacity/revision photo was recovered from the accessible official sources.",
+      "attempts": [
+        {
+          "url": "https://www.crucial.com/ssd/p2/ct1000p2ssd8",
+          "status": 200,
+          "finalUrl": "https://www.crucial.com/ssd/p2/ct1000p2ssd8",
+          "title": "Request Rejected"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "firecuda520",
+      "name": "FireCuda 520 2 TB",
+      "category": "ssd",
+      "sourceUrl": "https://www.seagate.com/products/gaming-drives/pc-gaming/firecuda-520-ssd/",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/memory-storage-firecuda530.jpg",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "firecuda520",
+      "name": "FireCuda 520 2 TB",
+      "brand": "Seagate",
+      "cat": "ssd",
+      "year": 2019,
+      "architecture": "PCIe 4.0 ×4 · NVMe",
+      "summary": "5,000 MB/s read",
+      "specs": {
+        "Storage capacity": 2000,
+        "Sequential read": 5000,
+        "Sequential write": 4400,
+        "Endurance": 3600
+      },
+      "source": "https://www.seagate.com/products/gaming-drives/pc-gaming/firecuda-520-ssd/"
+    },
+    "priorAudit": {
+      "id": "firecuda520",
+      "category": "ssd",
+      "catalogName": "FireCuda 520 2 TB",
+      "catalogSource": "https://www.seagate.com/products/gaming-drives/pc-gaming/firecuda-520-ssd/",
+      "previousImage": {
+        "src": "/assets/hardware/memory-storage-firecuda530.jpg",
+        "picturedModel": "Seagate FireCuda 530 PCIe Gen4 SSD (capacity unspecified)",
+        "kind": "reference"
+      },
+      "status": "unresolved",
+      "reason": "Accessible source is a product family/category or family datasheet. No photographed label matching the catalog capacity and exact model/revision was verified; rejected reuse of another capacity.",
+      "attempts": [
+        {
+          "url": "https://www.seagate.com/products/gaming-drives/pc-gaming/firecuda-520-ssd/",
+          "status": 200,
+          "finalUrl": "https://www.seagate.com/support/internal-hard-drives/ssd/firecuda-520-ssd/",
+          "title": "FireCuda 520 SSD | Seagate US"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "barracuda4",
+      "name": "BarraCuda 4 TB",
+      "category": "hdd",
+      "sourceUrl": "https://www.seagate.com/products/hard-drives/barracuda-hard-drive/",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "barracuda4",
+      "name": "BarraCuda 4 TB",
+      "brand": "Seagate",
+      "cat": "hdd",
+      "year": null,
+      "architecture": "SATA · 3.5-inch",
+      "summary": "5,400 RPM · 256 MB cache",
+      "specs": {
+        "Storage capacity": 4000,
+        "Spindle speed": 5400,
+        "Drive cache": 256
+      },
+      "source": "https://www.seagate.com/products/hard-drives/barracuda-hard-drive/"
+    },
+    "priorAudit": {
+      "id": "barracuda4",
+      "category": "hdd",
+      "catalogName": "BarraCuda 4 TB",
+      "catalogSource": "https://www.seagate.com/products/hard-drives/barracuda-hard-drive/",
+      "previousImage": {
+        "src": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+        "picturedModel": "Seagate Barracuda 500 GB",
+        "kind": "family"
+      },
+      "status": "unresolved",
+      "reason": "Accessible source is a product family/category or family datasheet. No photographed label matching the catalog capacity and exact model/revision was verified; rejected reuse of another capacity.",
+      "attempts": [
+        {
+          "url": "https://www.seagate.com/products/hard-drives/barracuda-hard-drive/",
+          "status": 200,
+          "finalUrl": "https://www.seagate.com/products/hard-drives/barracuda-hard-drive/",
+          "title": "BarraCuda 3.5&#34; Hard Drive | Seagate US"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "toshiban3008",
+      "name": "N300 8 TB",
+      "category": "hdd",
+      "sourceUrl": "https://storage.toshiba.com/consumer-hdd/internal/n300",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "toshiban3008",
+      "name": "N300 8 TB",
+      "brand": "Toshiba",
+      "cat": "hdd",
+      "year": null,
+      "architecture": "NAS · SATA",
+      "summary": "7,200 RPM · 256 MB cache",
+      "specs": {
+        "Storage capacity": 8000,
+        "Spindle speed": 7200,
+        "Drive cache": 256
+      },
+      "source": "https://storage.toshiba.com/consumer-hdd/internal/n300"
+    },
+    "priorAudit": {
+      "id": "toshiban3008",
+      "category": "hdd",
+      "catalogName": "N300 8 TB",
+      "catalogSource": "https://storage.toshiba.com/consumer-hdd/internal/n300",
+      "previousImage": {
+        "src": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+        "picturedModel": "Seagate Barracuda 500 GB",
+        "kind": "reference"
+      },
+      "status": "unresolved",
+      "reason": "Accessible source is a product family/category or family datasheet. No photographed label matching the catalog capacity and exact model/revision was verified; rejected reuse of another capacity.",
+      "attempts": [
+        {
+          "url": "https://storage.toshiba.com/consumer-hdd/internal/n300",
+          "status": 200,
+          "finalUrl": "https://storage.toshiba.com/consumer-hdd/internal/n300",
+          "title": "NAS Hard Drive for Home Office &amp; Small Business | Toshiba N300"
+        },
+        {
+          "url": "https://storage.toshiba.com/consumer-hdd/internal/n300",
+          "status": 200,
+          "finalUrl": "https://storage.toshiba.com/consumer-hdd/internal/n300",
+          "title": "NAS Hard Drive for Home Office &amp; Small Business | Toshiba N300"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "870qvo2",
+      "name": "870 QVO 2 TB",
+      "category": "ssd",
+      "sourceUrl": "https://semiconductor.samsung.com/consumer-storage/internal-ssd/870qvo/",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/memory-storage-samsung870.png",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "870qvo2",
+      "name": "870 QVO 2 TB",
+      "brand": "Samsung",
+      "cat": "ssd",
+      "year": 2020,
+      "architecture": "SATA 6 Gb/s · 2.5-inch",
+      "summary": "560 MB/s read",
+      "specs": {
+        "Storage capacity": 2000,
+        "Sequential read": 560,
+        "Sequential write": 530,
+        "Endurance": 720
+      },
+      "source": "https://semiconductor.samsung.com/consumer-storage/internal-ssd/870qvo/"
+    },
+    "priorAudit": {
+      "id": "870qvo2",
+      "category": "ssd",
+      "catalogName": "870 QVO 2 TB",
+      "catalogSource": "https://semiconductor.samsung.com/consumer-storage/internal-ssd/870qvo/",
+      "previousImage": {
+        "src": "/assets/hardware/memory-storage-samsung870.png",
+        "picturedModel": "Samsung 870 EVO 500GB SATA 2.5-inch SSD",
+        "kind": "reference"
+      },
+      "status": "unresolved",
+      "reason": "Original Samsung Semiconductor source redirects to the general Samsung Canada storage category. Additional exact variant source attempt did not yield an approved matching photo.",
+      "attempts": [
+        {
+          "url": "https://semiconductor.samsung.com/consumer-storage/internal-ssd/870qvo/",
+          "status": 200,
+          "finalUrl": "https://www.samsung.com/ca/memory-storage/all-memory-storage/?ssd",
+          "title": "Samsung Memory &amp; Storage | Shop SSDs &amp; More | Samsung Canada"
+        },
+        {
+          "url": "https://www.samsung.com/us/memory-storage/sata-ssd/870-qvo-sata-2-5-ssd-2tb-sku-mz-77q2t0b-am/",
+          "status": 404,
+          "finalUrl": "https://www.samsung.com/us/memory-storage/sata-ssd/870-qvo-sata-2-5-ssd-2tb-sku-mz-77q2t0b-am/"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "sn7100",
+      "name": "WD_BLACK SN7100 2 TB",
+      "category": "ssd",
+      "sourceUrl": "https://www.westerndigital.com/products/internal-drives/wd-black-sn7100-nvme-ssd",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/memory-storage-wd-sn850x.png",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "sn7100",
+      "name": "WD_BLACK SN7100 2 TB",
+      "brand": "Western Digital",
+      "cat": "ssd",
+      "year": 2025,
+      "architecture": "PCIe 4.0 ×4 · NVMe",
+      "summary": "7,250 MB/s read",
+      "specs": {
+        "Storage capacity": 2000,
+        "Sequential read": 7250,
+        "Sequential write": 6900,
+        "Endurance": 1200
+      },
+      "source": "https://www.westerndigital.com/products/internal-drives/wd-black-sn7100-nvme-ssd"
+    },
+    "priorAudit": {
+      "id": "sn7100",
+      "category": "ssd",
+      "catalogName": "WD_BLACK SN7100 2 TB",
+      "catalogSource": "https://www.westerndigital.com/products/internal-drives/wd-black-sn7100-nvme-ssd",
+      "previousImage": {
+        "src": "/assets/hardware/memory-storage-wd-sn850x.png",
+        "picturedModel": "WD_BLACK SN850X NVMe SSD (capacity unspecified)",
+        "kind": "reference"
+      },
+      "status": "unresolved",
+      "reason": "One or more exact manufacturer URL attempts returned 404 or an unrelated page; no matching approved photograph verified.",
+      "attempts": [
+        {
+          "url": "https://www.westerndigital.com/products/internal-drives/wd-black-sn7100-nvme-ssd",
+          "status": 404,
+          "finalUrl": "https://www.westerndigital.com/products/internal-drives/wd-black-sn7100-nvme-ssd",
+          "title": "Page Not Found | WD"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "sn5000",
+      "name": "WD Blue SN5000 1 TB",
+      "category": "ssd",
+      "sourceUrl": "https://www.westerndigital.com/products/internal-drives/wd-blue-sn5000-nvme-ssd",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/official-core-official-core-sn5000.png",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "sn5000",
+      "name": "WD Blue SN5000 1 TB",
+      "brand": "Western Digital",
+      "cat": "ssd",
+      "year": 2024,
+      "architecture": "PCIe 4.0 ×4 · NVMe",
+      "summary": "5,150 MB/s read",
+      "specs": {
+        "Storage capacity": 1000,
+        "Sequential read": 5150,
+        "Sequential write": 4900,
+        "Endurance": 600
+      },
+      "source": "https://www.westerndigital.com/products/internal-drives/wd-blue-sn5000-nvme-ssd"
+    },
+    "priorAudit": {
+      "id": "sn5000",
+      "category": "ssd",
+      "catalogName": "WD Blue SN5000 1 TB",
+      "catalogSource": "https://www.westerndigital.com/products/internal-drives/wd-blue-sn5000-nvme-ssd",
+      "previousImage": {
+        "src": "/assets/hardware/official-core-official-core-sn5000.png",
+        "picturedModel": "WD Blue SN5000 500 GB",
+        "kind": "family"
+      },
+      "status": "unresolved",
+      "reason": "Accessible source is a product family/category or family datasheet. No photographed label matching the catalog capacity and exact model/revision was verified; rejected reuse of another capacity.",
+      "attempts": [
+        {
+          "url": "https://www.westerndigital.com/products/internal-drives/wd-blue-sn5000-nvme-ssd",
+          "status": 200,
+          "finalUrl": "https://www.sandisk.com/products/ssd/internal-ssd/wd-blue-sn5000-nvme-ssd",
+          "title": "500GB WD Blue SN5000 NVMe™ SSD | Sandisk"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "crucialt500",
+      "name": "T500 2 TB",
+      "category": "ssd",
+      "sourceUrl": "https://www.crucial.com/ssd/t500/ct2000t500ssd8",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/memory-storage-t705.jpg",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "crucialt500",
+      "name": "T500 2 TB",
+      "brand": "Crucial",
+      "cat": "ssd",
+      "year": 2023,
+      "architecture": "PCIe 4.0 ×4 · NVMe",
+      "summary": "7,400 MB/s read",
+      "specs": {
+        "Storage capacity": 2000,
+        "Sequential read": 7400,
+        "Sequential write": 7000,
+        "Endurance": 1200
+      },
+      "source": "https://www.crucial.com/ssd/t500/ct2000t500ssd8"
+    },
+    "priorAudit": {
+      "id": "crucialt500",
+      "category": "ssd",
+      "catalogName": "T500 2 TB",
+      "catalogSource": "https://www.crucial.com/ssd/t500/ct2000t500ssd8",
+      "previousImage": {
+        "src": "/assets/hardware/memory-storage-t705.jpg",
+        "picturedModel": "Crucial T705 4TB CT4000T705SSD3",
+        "kind": "reference"
+      },
+      "status": "unresolved",
+      "reason": "Public manufacturer source rejected the request or served an access challenge. No verified exact named model/capacity/revision photo was recovered from the accessible official sources.",
+      "attempts": [
+        {
+          "url": "https://www.crucial.com/ssd/t500/ct2000t500ssd8",
+          "status": 200,
+          "finalUrl": "https://www.crucial.com/ssd/t500/ct2000t500ssd8",
+          "title": "Request Rejected"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "kingstonnv2",
+      "name": "NV2 2 TB",
+      "category": "ssd",
+      "sourceUrl": "https://www.kingston.com/en/ssd/nv2-nvme-pcie-ssd",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/memory-storage-kc3000.jpg",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "kingstonnv2",
+      "name": "NV2 2 TB",
+      "brand": "Kingston",
+      "cat": "ssd",
+      "year": 2022,
+      "architecture": "PCIe 4.0 ×4 · NVMe",
+      "summary": "3,500 MB/s read",
+      "specs": {
+        "Storage capacity": 2000,
+        "Sequential read": 3500,
+        "Sequential write": 2800,
+        "Endurance": 640
+      },
+      "source": "https://www.kingston.com/en/ssd/nv2-nvme-pcie-ssd"
+    },
+    "priorAudit": {
+      "id": "kingstonnv2",
+      "category": "ssd",
+      "catalogName": "NV2 2 TB",
+      "catalogSource": "https://www.kingston.com/en/ssd/nv2-nvme-pcie-ssd",
+      "previousImage": {
+        "src": "/assets/hardware/memory-storage-kc3000.jpg",
+        "picturedModel": "Kingston KC3000 4TB SKC3000D/4096GB",
+        "kind": "reference"
+      },
+      "status": "unresolved",
+      "reason": "Public manufacturer source rejected the request or served an access challenge. No verified exact named model/capacity/revision photo was recovered from the accessible official sources.",
+      "attempts": [
+        {
+          "url": "https://www.kingston.com/en/ssd/nv2-nvme-pcie-ssd",
+          "status": 403,
+          "finalUrl": "https://www.kingston.com/en/ssd/nv2-nvme-pcie-ssd",
+          "title": "Just a moment..."
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "ironwolf16tb",
+      "name": "IronWolf 16 TB",
+      "category": "hdd",
+      "sourceUrl": "https://www.seagate.com/products/nas-drives/ironwolf-hard-drive/",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "ironwolf16tb",
+      "name": "IronWolf 16 TB",
+      "brand": "Seagate",
+      "cat": "hdd",
+      "year": null,
+      "architecture": "NAS · SATA",
+      "summary": "7,200 RPM · 256 MB cache",
+      "specs": {
+        "Storage capacity": 16000,
+        "Spindle speed": 7200,
+        "Drive cache": 256
+      },
+      "source": "https://www.seagate.com/products/nas-drives/ironwolf-hard-drive/"
+    },
+    "priorAudit": {
+      "id": "ironwolf16tb",
+      "category": "hdd",
+      "catalogName": "IronWolf 16 TB",
+      "catalogSource": "https://www.seagate.com/products/nas-drives/ironwolf-hard-drive/",
+      "previousImage": {
+        "src": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+        "picturedModel": "Seagate Barracuda 500 GB",
+        "kind": "reference"
+      },
+      "status": "unresolved",
+      "reason": "Accessible source is a product family/category or family datasheet. No photographed label matching the catalog capacity and exact model/revision was verified; rejected reuse of another capacity.",
+      "attempts": [
+        {
+          "url": "https://www.seagate.com/products/nas-drives/ironwolf-hard-drive/",
+          "status": 200,
+          "finalUrl": "https://www.seagate.com/products/nas-drives/ironwolf-hard-drive/",
+          "title": "Seagate IronWolf NAS Hard Drives (NAS Storage) | Seagate US"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "toshibax30012",
+      "name": "X300 12 TB",
+      "category": "hdd",
+      "sourceUrl": "https://storage.toshiba.com/consumer-hdd/internal/x300",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "toshibax30012",
+      "name": "X300 12 TB",
+      "brand": "Toshiba",
+      "cat": "hdd",
+      "year": null,
+      "architecture": "Performance · SATA",
+      "summary": "7,200 RPM · 512 MB cache",
+      "specs": {
+        "Storage capacity": 12000,
+        "Spindle speed": 7200,
+        "Drive cache": 512
+      },
+      "source": "https://storage.toshiba.com/consumer-hdd/internal/x300"
+    },
+    "priorAudit": {
+      "id": "toshibax30012",
+      "category": "hdd",
+      "catalogName": "X300 12 TB",
+      "catalogSource": "https://storage.toshiba.com/consumer-hdd/internal/x300",
+      "previousImage": {
+        "src": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+        "picturedModel": "Seagate Barracuda 500 GB",
+        "kind": "reference"
+      },
+      "status": "unresolved",
+      "reason": "Accessible source is a product family/category or family datasheet. No photographed label matching the catalog capacity and exact model/revision was verified; rejected reuse of another capacity.",
+      "attempts": [
+        {
+          "url": "https://storage.toshiba.com/consumer-hdd/internal/x300",
+          "status": 200,
+          "finalUrl": "https://storage.toshiba.com/consumer-hdd/internal/x300",
+          "title": "Performance Hard Drive for Gaming &amp; Creators | Toshiba X300 HDD"
+        },
+        {
+          "url": "https://storage.toshiba.com/consumer-hdd/internal/x300",
+          "status": 200,
+          "finalUrl": "https://storage.toshiba.com/consumer-hdd/internal/x300",
+          "title": "Performance Hard Drive for Gaming &amp; Creators | Toshiba X300 HDD"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "ibm350",
+      "name": "IBM 350 Disk Storage Unit",
+      "category": "hdd",
+      "sourceUrl": "https://www.ibm.com/history/ramac",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/component-new-hdd-ibm350.jpg",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "ibm350",
+      "name": "IBM 350 Disk Storage Unit",
+      "brand": "IBM",
+      "cat": "hdd",
+      "year": 1956,
+      "architecture": "RAMAC · magnetic disk",
+      "summary": "First commercial random-access disk system",
+      "specs": {
+        "Storage capacity": 0.005
+      },
+      "source": "https://www.ibm.com/history/ramac"
+    },
+    "priorAudit": {
+      "id": "ibm350",
+      "category": "hdd",
+      "catalogName": "IBM 350 Disk Storage Unit",
+      "catalogSource": "https://www.ibm.com/history/ramac",
+      "previousImage": {
+        "src": "/assets/hardware/component-new-hdd-ibm350.jpg",
+        "picturedModel": "IBM 350 RAMAC",
+        "kind": "exact"
+      },
+      "status": "unresolved",
+      "reason": "Accessible source is a product family/category or family datasheet. No photographed label matching the catalog capacity and exact model/revision was verified; rejected reuse of another capacity.",
+      "attempts": [
+        {
+          "url": "https://www.ibm.com/history/ramac",
+          "status": 200,
+          "finalUrl": "https://www.ibm.com/history/ramac",
+          "title": "RAMAC | IBM"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "seagatest412",
+      "name": "Seagate ST-412",
+      "category": "hdd",
+      "sourceUrl": "https://www.computerhistory.org/collections/catalog/102653253",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/component-new-hdd-st506.jpg",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "seagatest412",
+      "name": "Seagate ST-412",
+      "brand": "Seagate",
+      "cat": "hdd",
+      "year": 1981,
+      "architecture": "5.25-inch · ST-412 interface",
+      "summary": "10 MB hard drive used with early PCs",
+      "specs": {
+        "Storage capacity": 0.01,
+        "Spindle speed": 3600
+      },
+      "source": "https://www.computerhistory.org/collections/catalog/102653253"
+    },
+    "priorAudit": {
+      "id": "seagatest412",
+      "category": "hdd",
+      "catalogName": "Seagate ST-412",
+      "catalogSource": "https://www.computerhistory.org/collections/catalog/102653253",
+      "previousImage": {
+        "src": "/assets/hardware/component-new-hdd-st506.jpg",
+        "picturedModel": "Seagate ST-506",
+        "kind": "family"
+      },
+      "status": "unresolved",
+      "reason": "Accessible source is a product family/category or family datasheet. No photographed label matching the catalog capacity and exact model/revision was verified; rejected reuse of another capacity.",
+      "attempts": [
+        {
+          "url": "https://www.computerhistory.org/collections/catalog/102653253",
+          "status": 200,
+          "finalUrl": "https://www.computerhistory.org/collections/catalog/102653253",
+          "title": "Mentor Graphics mug - 102653253 - CHM"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "c-ssd-samsung-990-evo-2tb",
+      "name": "Samsung 990 EVO 2TB",
+      "category": "ssd",
+      "sourceUrl": "https://semiconductor.samsung.com/consumer-storage/support/documents/",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/memory-storage-samsung990.optimized.jpg",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "c-ssd-samsung-990-evo-2tb",
+      "name": "Samsung 990 EVO 2TB",
+      "brand": "Samsung",
+      "cat": "ssd",
+      "year": 2024,
+      "architecture": "PCIe 4.0 NVMe M.2",
+      "summary": "2000 GB solid-state drive",
+      "specs": {
+        "Storage capacity": 2000,
+        "Sequential read": 5000,
+        "Sequential write": 4200
+      },
+      "source": "https://semiconductor.samsung.com/consumer-storage/support/documents/"
+    },
+    "priorAudit": {
+      "id": "c-ssd-samsung-990-evo-2tb",
+      "category": "ssd",
+      "catalogName": "Samsung 990 EVO 2TB",
+      "catalogSource": "https://semiconductor.samsung.com/consumer-storage/support/documents/",
+      "previousImage": {
+        "src": "/assets/hardware/memory-storage-samsung990.optimized.jpg",
+        "picturedModel": "Samsung 990 PRO 1TB MZ-V9P1T0BW",
+        "kind": "reference"
+      },
+      "status": "unresolved",
+      "reason": "Original Samsung Semiconductor source redirects to the general Samsung Canada storage category. Additional exact variant source attempt did not yield an approved matching photo.",
+      "attempts": [
+        {
+          "url": "https://semiconductor.samsung.com/consumer-storage/support/documents/",
+          "status": 200,
+          "finalUrl": "https://semiconductor.samsung.com/consumer-storage/support/documents/",
+          "title": "SSD Product Documents | Download | Samsung Semiconductor Global"
+        },
+        {
+          "url": "https://www.samsung.com/us/memory-storage/nvme-ssd/990-evo-ssd-2tb-sku-mz-v9e2t0b-am/",
+          "status": 404,
+          "finalUrl": "https://www.samsung.com/us/memory-storage/nvme-ssd/990-evo-ssd-2tb-sku-mz-v9e2t0b-am/"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "c-ssd-samsung-870-qvo-8tb",
+      "name": "Samsung 870 QVO 8TB",
+      "category": "ssd",
+      "sourceUrl": "https://semiconductor.samsung.com/consumer-storage/support/documents/",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/memory-storage-samsung870.png",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "c-ssd-samsung-870-qvo-8tb",
+      "name": "Samsung 870 QVO 8TB",
+      "brand": "Samsung",
+      "cat": "ssd",
+      "year": 2020,
+      "architecture": "SATA 6 Gb/s",
+      "summary": "8000 GB solid-state drive",
+      "specs": {
+        "Storage capacity": 8000,
+        "Sequential read": 560,
+        "Sequential write": 530
+      },
+      "source": "https://semiconductor.samsung.com/consumer-storage/support/documents/"
+    },
+    "priorAudit": {
+      "id": "c-ssd-samsung-870-qvo-8tb",
+      "category": "ssd",
+      "catalogName": "Samsung 870 QVO 8TB",
+      "catalogSource": "https://semiconductor.samsung.com/consumer-storage/support/documents/",
+      "previousImage": {
+        "src": "/assets/hardware/memory-storage-samsung870.png",
+        "picturedModel": "Samsung 870 EVO 500GB SATA 2.5-inch SSD",
+        "kind": "reference"
+      },
+      "status": "unresolved",
+      "reason": "Original Samsung Semiconductor source redirects to the general Samsung Canada storage category. Additional exact variant source attempt did not yield an approved matching photo.",
+      "attempts": [
+        {
+          "url": "https://semiconductor.samsung.com/consumer-storage/support/documents/",
+          "status": 200,
+          "finalUrl": "https://semiconductor.samsung.com/consumer-storage/support/documents/",
+          "title": "SSD Product Documents | Download | Samsung Semiconductor Global"
+        },
+        {
+          "url": "https://www.samsung.com/us/memory-storage/sata-ssd/870-qvo-sata-2-5-ssd-8tb-sku-mz-77q8t0b-am/",
+          "status": 404,
+          "finalUrl": "https://www.samsung.com/us/memory-storage/sata-ssd/870-qvo-sata-2-5-ssd-8tb-sku-mz-77q8t0b-am/"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "c-ssd-samsung-860-evo-4tb",
+      "name": "Samsung 860 EVO 4TB",
+      "category": "ssd",
+      "sourceUrl": "https://semiconductor.samsung.com/consumer-storage/support/documents/",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/memory-storage-samsung870.png",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "c-ssd-samsung-860-evo-4tb",
+      "name": "Samsung 860 EVO 4TB",
+      "brand": "Samsung",
+      "cat": "ssd",
+      "year": 2018,
+      "architecture": "SATA 6 Gb/s",
+      "summary": "4000 GB solid-state drive",
+      "specs": {
+        "Storage capacity": 4000,
+        "Sequential read": 550,
+        "Sequential write": 520
+      },
+      "source": "https://semiconductor.samsung.com/consumer-storage/support/documents/"
+    },
+    "priorAudit": {
+      "id": "c-ssd-samsung-860-evo-4tb",
+      "category": "ssd",
+      "catalogName": "Samsung 860 EVO 4TB",
+      "catalogSource": "https://semiconductor.samsung.com/consumer-storage/support/documents/",
+      "previousImage": {
+        "src": "/assets/hardware/memory-storage-samsung870.png",
+        "picturedModel": "Samsung 870 EVO 500GB SATA 2.5-inch SSD",
+        "kind": "reference"
+      },
+      "status": "unresolved",
+      "reason": "Original Samsung Semiconductor source redirects to the general Samsung Canada storage category. Additional exact variant source attempt did not yield an approved matching photo.",
+      "attempts": [
+        {
+          "url": "https://semiconductor.samsung.com/consumer-storage/support/documents/",
+          "status": 200,
+          "finalUrl": "https://semiconductor.samsung.com/consumer-storage/support/documents/",
+          "title": "SSD Product Documents | Download | Samsung Semiconductor Global"
+        },
+        {
+          "url": "https://www.samsung.com/au/memory-storage/sata-ssd/860-evo-sata-3-2-5-inch-ssd-4tb-mz-76e4t0bw/",
+          "status": 404,
+          "finalUrl": "https://www.samsung.com/au/memory-storage/sata-ssd/860-evo-sata-3-2-5-inch-ssd-4tb-mz-76e4t0bw/"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "c-ssd-samsung-850-evo-1tb",
+      "name": "Samsung 850 EVO 1TB",
+      "category": "ssd",
+      "sourceUrl": "https://semiconductor.samsung.com/consumer-storage/support/documents/",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/memory-storage-samsung870.png",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "c-ssd-samsung-850-evo-1tb",
+      "name": "Samsung 850 EVO 1TB",
+      "brand": "Samsung",
+      "cat": "ssd",
+      "year": 2014,
+      "architecture": "SATA 6 Gb/s",
+      "summary": "1000 GB solid-state drive",
+      "specs": {
+        "Storage capacity": 1000,
+        "Sequential read": 540,
+        "Sequential write": 520
+      },
+      "source": "https://semiconductor.samsung.com/consumer-storage/support/documents/"
+    },
+    "priorAudit": {
+      "id": "c-ssd-samsung-850-evo-1tb",
+      "category": "ssd",
+      "catalogName": "Samsung 850 EVO 1TB",
+      "catalogSource": "https://semiconductor.samsung.com/consumer-storage/support/documents/",
+      "previousImage": {
+        "src": "/assets/hardware/memory-storage-samsung870.png",
+        "picturedModel": "Samsung 870 EVO 500GB SATA 2.5-inch SSD",
+        "kind": "reference"
+      },
+      "status": "unresolved",
+      "reason": "Original Samsung Semiconductor source redirects to the general Samsung Canada storage category. Additional exact variant source attempt did not yield an approved matching photo.",
+      "attempts": [
+        {
+          "url": "https://semiconductor.samsung.com/consumer-storage/support/documents/",
+          "status": 200,
+          "finalUrl": "https://semiconductor.samsung.com/consumer-storage/support/documents/",
+          "title": "SSD Product Documents | Download | Samsung Semiconductor Global"
+        },
+        {
+          "url": "https://www.samsung.com/au/memory-storage/sata-ssd/850-evo-sata-3-2-5-inch-ssd-1tb-mz-75e1t0bw/",
+          "status": 200,
+          "finalUrl": "https://www.samsung.com/au/support/model/MZ-75E1T0BW/",
+          "title": "850 EVO SATA III 2.5inch SSD | Samsung Support Australia"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "c-ssd-wd-black-sn850x-4tb",
+      "name": "WD_BLACK SN850X 4TB",
+      "category": "ssd",
+      "sourceUrl": "https://www.westerndigital.com/en-ca/products/internal-drives",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/memory-storage-wd-sn850x.png",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "c-ssd-wd-black-sn850x-4tb",
+      "name": "WD_BLACK SN850X 4TB",
+      "brand": "WD",
+      "cat": "ssd",
+      "year": 2022,
+      "architecture": "PCIe 4.0 NVMe M.2",
+      "summary": "4000 GB solid-state drive",
+      "specs": {
+        "Storage capacity": 4000,
+        "Sequential read": 7300,
+        "Sequential write": 6600
+      },
+      "source": "https://www.westerndigital.com/en-ca/products/internal-drives"
+    },
+    "priorAudit": {
+      "id": "c-ssd-wd-black-sn850x-4tb",
+      "category": "ssd",
+      "catalogName": "WD_BLACK SN850X 4TB",
+      "catalogSource": "https://www.westerndigital.com/en-ca/products/internal-drives",
+      "previousImage": {
+        "src": "/assets/hardware/memory-storage-wd-sn850x.png",
+        "picturedModel": "WD_BLACK SN850X NVMe SSD (capacity unspecified)",
+        "kind": "family"
+      },
+      "status": "unresolved",
+      "reason": "Accessible source is a product family/category or family datasheet. No photographed label matching the catalog capacity and exact model/revision was verified; rejected reuse of another capacity.",
+      "attempts": [
+        {
+          "url": "https://www.westerndigital.com/en-ca/products/internal-drives",
+          "status": 200,
+          "finalUrl": "https://www.westerndigital.com/en-ca/products/internal-drives",
+          "title": "Internal Drives | WD"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "c-ssd-wd-black-sn850x-2tb",
+      "name": "WD_BLACK SN850X 2TB",
+      "category": "ssd",
+      "sourceUrl": "https://www.westerndigital.com/en-ca/products/internal-drives",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/memory-storage-wd-sn850x.png",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "c-ssd-wd-black-sn850x-2tb",
+      "name": "WD_BLACK SN850X 2TB",
+      "brand": "WD",
+      "cat": "ssd",
+      "year": 2022,
+      "architecture": "PCIe 4.0 NVMe M.2",
+      "summary": "2000 GB solid-state drive",
+      "specs": {
+        "Storage capacity": 2000,
+        "Sequential read": 7300,
+        "Sequential write": 6600
+      },
+      "source": "https://www.westerndigital.com/en-ca/products/internal-drives"
+    },
+    "priorAudit": {
+      "id": "c-ssd-wd-black-sn850x-2tb",
+      "category": "ssd",
+      "catalogName": "WD_BLACK SN850X 2TB",
+      "catalogSource": "https://www.westerndigital.com/en-ca/products/internal-drives",
+      "previousImage": {
+        "src": "/assets/hardware/memory-storage-wd-sn850x.png",
+        "picturedModel": "WD_BLACK SN850X NVMe SSD (capacity unspecified)",
+        "kind": "family"
+      },
+      "status": "unresolved",
+      "reason": "Accessible source is a product family/category or family datasheet. No photographed label matching the catalog capacity and exact model/revision was verified; rejected reuse of another capacity.",
+      "attempts": [
+        {
+          "url": "https://www.westerndigital.com/en-ca/products/internal-drives",
+          "status": 200,
+          "finalUrl": "https://www.westerndigital.com/en-ca/products/internal-drives",
+          "title": "Internal Drives | WD"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "c-ssd-wd-black-sn770-2tb",
+      "name": "WD_BLACK SN770 2TB",
+      "category": "ssd",
+      "sourceUrl": "https://www.westerndigital.com/en-ca/products/internal-drives",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/memory-storage-wd-sn850x.png",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "c-ssd-wd-black-sn770-2tb",
+      "name": "WD_BLACK SN770 2TB",
+      "brand": "WD",
+      "cat": "ssd",
+      "year": 2022,
+      "architecture": "PCIe 4.0 NVMe M.2",
+      "summary": "2000 GB solid-state drive",
+      "specs": {
+        "Storage capacity": 2000,
+        "Sequential read": 5150,
+        "Sequential write": 4850
+      },
+      "source": "https://www.westerndigital.com/en-ca/products/internal-drives"
+    },
+    "priorAudit": {
+      "id": "c-ssd-wd-black-sn770-2tb",
+      "category": "ssd",
+      "catalogName": "WD_BLACK SN770 2TB",
+      "catalogSource": "https://www.westerndigital.com/en-ca/products/internal-drives",
+      "previousImage": {
+        "src": "/assets/hardware/memory-storage-wd-sn850x.png",
+        "picturedModel": "WD_BLACK SN850X NVMe SSD (capacity unspecified)",
+        "kind": "reference"
+      },
+      "status": "unresolved",
+      "reason": "Accessible source is a product family/category or family datasheet. No photographed label matching the catalog capacity and exact model/revision was verified; rejected reuse of another capacity.",
+      "attempts": [
+        {
+          "url": "https://www.westerndigital.com/en-ca/products/internal-drives",
+          "status": 200,
+          "finalUrl": "https://www.westerndigital.com/en-ca/products/internal-drives",
+          "title": "Internal Drives | WD"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "c-ssd-wd-blue-sn580-2tb",
+      "name": "WD Blue SN580 2TB",
+      "category": "ssd",
+      "sourceUrl": "https://www.westerndigital.com/en-ca/products/internal-drives",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/memory-storage-wd-sn850x.png",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "c-ssd-wd-blue-sn580-2tb",
+      "name": "WD Blue SN580 2TB",
+      "brand": "WD",
+      "cat": "ssd",
+      "year": 2023,
+      "architecture": "PCIe 4.0 NVMe M.2",
+      "summary": "2000 GB solid-state drive",
+      "specs": {
+        "Storage capacity": 2000,
+        "Sequential read": 4150,
+        "Sequential write": 4150
+      },
+      "source": "https://www.westerndigital.com/en-ca/products/internal-drives"
+    },
+    "priorAudit": {
+      "id": "c-ssd-wd-blue-sn580-2tb",
+      "category": "ssd",
+      "catalogName": "WD Blue SN580 2TB",
+      "catalogSource": "https://www.westerndigital.com/en-ca/products/internal-drives",
+      "previousImage": {
+        "src": "/assets/hardware/memory-storage-wd-sn850x.png",
+        "picturedModel": "WD_BLACK SN850X NVMe SSD (capacity unspecified)",
+        "kind": "reference"
+      },
+      "status": "unresolved",
+      "reason": "Accessible source is a product family/category or family datasheet. No photographed label matching the catalog capacity and exact model/revision was verified; rejected reuse of another capacity.",
+      "attempts": [
+        {
+          "url": "https://www.westerndigital.com/en-ca/products/internal-drives",
+          "status": 200,
+          "finalUrl": "https://www.westerndigital.com/en-ca/products/internal-drives",
+          "title": "Internal Drives | WD"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "c-ssd-wd-blue-sn570-1tb",
+      "name": "WD Blue SN570 1TB",
+      "category": "ssd",
+      "sourceUrl": "https://www.westerndigital.com/en-ca/products/internal-drives",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/memory-storage-wd-sn850x.png",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "c-ssd-wd-blue-sn570-1tb",
+      "name": "WD Blue SN570 1TB",
+      "brand": "WD",
+      "cat": "ssd",
+      "year": 2021,
+      "architecture": "PCIe 3.0 NVMe M.2",
+      "summary": "1000 GB solid-state drive",
+      "specs": {
+        "Storage capacity": 1000,
+        "Sequential read": 3500,
+        "Sequential write": 3000
+      },
+      "source": "https://www.westerndigital.com/en-ca/products/internal-drives"
+    },
+    "priorAudit": {
+      "id": "c-ssd-wd-blue-sn570-1tb",
+      "category": "ssd",
+      "catalogName": "WD Blue SN570 1TB",
+      "catalogSource": "https://www.westerndigital.com/en-ca/products/internal-drives",
+      "previousImage": {
+        "src": "/assets/hardware/memory-storage-wd-sn850x.png",
+        "picturedModel": "WD_BLACK SN850X NVMe SSD (capacity unspecified)",
+        "kind": "reference"
+      },
+      "status": "unresolved",
+      "reason": "Accessible source is a product family/category or family datasheet. No photographed label matching the catalog capacity and exact model/revision was verified; rejected reuse of another capacity.",
+      "attempts": [
+        {
+          "url": "https://www.westerndigital.com/en-ca/products/internal-drives",
+          "status": 200,
+          "finalUrl": "https://www.westerndigital.com/en-ca/products/internal-drives",
+          "title": "Internal Drives | WD"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "c-ssd-wd-green-sn350-1tb",
+      "name": "WD Green SN350 1TB",
+      "category": "ssd",
+      "sourceUrl": "https://www.westerndigital.com/en-ca/products/internal-drives",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/memory-storage-wd-sn850x.png",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "c-ssd-wd-green-sn350-1tb",
+      "name": "WD Green SN350 1TB",
+      "brand": "WD",
+      "cat": "ssd",
+      "year": 2021,
+      "architecture": "PCIe 3.0 NVMe M.2",
+      "summary": "1000 GB solid-state drive",
+      "specs": {
+        "Storage capacity": 1000,
+        "Sequential read": 3200,
+        "Sequential write": 3000
+      },
+      "source": "https://www.westerndigital.com/en-ca/products/internal-drives"
+    },
+    "priorAudit": {
+      "id": "c-ssd-wd-green-sn350-1tb",
+      "category": "ssd",
+      "catalogName": "WD Green SN350 1TB",
+      "catalogSource": "https://www.westerndigital.com/en-ca/products/internal-drives",
+      "previousImage": {
+        "src": "/assets/hardware/memory-storage-wd-sn850x.png",
+        "picturedModel": "WD_BLACK SN850X NVMe SSD (capacity unspecified)",
+        "kind": "reference"
+      },
+      "status": "unresolved",
+      "reason": "Accessible source is a product family/category or family datasheet. No photographed label matching the catalog capacity and exact model/revision was verified; rejected reuse of another capacity.",
+      "attempts": [
+        {
+          "url": "https://www.westerndigital.com/en-ca/products/internal-drives",
+          "status": 200,
+          "finalUrl": "https://www.westerndigital.com/en-ca/products/internal-drives",
+          "title": "Internal Drives | WD"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "c-ssd-wd-blue-sa510-4tb",
+      "name": "WD Blue SA510 4TB",
+      "category": "ssd",
+      "sourceUrl": "https://www.westerndigital.com/en-ca/products/internal-drives",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/memory-storage-wd-sa510.png",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "c-ssd-wd-blue-sa510-4tb",
+      "name": "WD Blue SA510 4TB",
+      "brand": "WD",
+      "cat": "ssd",
+      "year": 2022,
+      "architecture": "SATA 6 Gb/s",
+      "summary": "4000 GB solid-state drive",
+      "specs": {
+        "Storage capacity": 4000,
+        "Sequential read": 560,
+        "Sequential write": 520
+      },
+      "source": "https://www.westerndigital.com/en-ca/products/internal-drives"
+    },
+    "priorAudit": {
+      "id": "c-ssd-wd-blue-sa510-4tb",
+      "category": "ssd",
+      "catalogName": "WD Blue SA510 4TB",
+      "catalogSource": "https://www.westerndigital.com/en-ca/products/internal-drives",
+      "previousImage": {
+        "src": "/assets/hardware/memory-storage-wd-sa510.png",
+        "picturedModel": "WD Blue SA510 250GB SATA 2.5-inch SSD",
+        "kind": "family"
+      },
+      "status": "unresolved",
+      "reason": "Accessible source is a product family/category or family datasheet. No photographed label matching the catalog capacity and exact model/revision was verified; rejected reuse of another capacity.",
+      "attempts": [
+        {
+          "url": "https://www.westerndigital.com/en-ca/products/internal-drives",
+          "status": 200,
+          "finalUrl": "https://www.westerndigital.com/en-ca/products/internal-drives",
+          "title": "Internal Drives | WD"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "c-ssd-crucial-t700-4tb",
+      "name": "Crucial T700 4TB",
+      "category": "ssd",
+      "sourceUrl": "https://www.crucial.com/catalog/ssd",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/memory-storage-t705.jpg",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "c-ssd-crucial-t700-4tb",
+      "name": "Crucial T700 4TB",
+      "brand": "Crucial",
+      "cat": "ssd",
+      "year": 2023,
+      "architecture": "PCIe 5.0 NVMe M.2",
+      "summary": "4000 GB solid-state drive",
+      "specs": {
+        "Storage capacity": 4000,
+        "Sequential read": 12400,
+        "Sequential write": 11800
+      },
+      "source": "https://www.crucial.com/catalog/ssd"
+    },
+    "priorAudit": {
+      "id": "c-ssd-crucial-t700-4tb",
+      "category": "ssd",
+      "catalogName": "Crucial T700 4TB",
+      "catalogSource": "https://www.crucial.com/catalog/ssd",
+      "previousImage": {
+        "src": "/assets/hardware/memory-storage-t705.jpg",
+        "picturedModel": "Crucial T705 4TB CT4000T705SSD3",
+        "kind": "reference"
+      },
+      "status": "unresolved",
+      "reason": "Public manufacturer source rejected the request or served an access challenge. No verified exact named model/capacity/revision photo was recovered from the accessible official sources.",
+      "attempts": [
+        {
+          "url": "https://www.crucial.com/catalog/ssd",
+          "status": 200,
+          "finalUrl": "https://www.crucial.com/catalog/ssd",
+          "title": "Request Rejected"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "c-ssd-crucial-t500-2tb",
+      "name": "Crucial T500 2TB",
+      "category": "ssd",
+      "sourceUrl": "https://www.crucial.com/catalog/ssd",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/memory-storage-t705.jpg",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "c-ssd-crucial-t500-2tb",
+      "name": "Crucial T500 2TB",
+      "brand": "Crucial",
+      "cat": "ssd",
+      "year": 2023,
+      "architecture": "PCIe 4.0 NVMe M.2",
+      "summary": "2000 GB solid-state drive",
+      "specs": {
+        "Storage capacity": 2000,
+        "Sequential read": 7400,
+        "Sequential write": 7000
+      },
+      "source": "https://www.crucial.com/catalog/ssd"
+    },
+    "priorAudit": {
+      "id": "c-ssd-crucial-t500-2tb",
+      "category": "ssd",
+      "catalogName": "Crucial T500 2TB",
+      "catalogSource": "https://www.crucial.com/catalog/ssd",
+      "previousImage": {
+        "src": "/assets/hardware/memory-storage-t705.jpg",
+        "picturedModel": "Crucial T705 4TB CT4000T705SSD3",
+        "kind": "reference"
+      },
+      "status": "unresolved",
+      "reason": "Public manufacturer source rejected the request or served an access challenge. No verified exact named model/capacity/revision photo was recovered from the accessible official sources.",
+      "attempts": [
+        {
+          "url": "https://www.crucial.com/catalog/ssd",
+          "status": 200,
+          "finalUrl": "https://www.crucial.com/catalog/ssd",
+          "title": "Request Rejected"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "c-ssd-crucial-p5-plus-2tb",
+      "name": "Crucial P5 Plus 2TB",
+      "category": "ssd",
+      "sourceUrl": "https://www.crucial.com/catalog/ssd",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/memory-storage-t705.jpg",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "c-ssd-crucial-p5-plus-2tb",
+      "name": "Crucial P5 Plus 2TB",
+      "brand": "Crucial",
+      "cat": "ssd",
+      "year": 2021,
+      "architecture": "PCIe 4.0 NVMe M.2",
+      "summary": "2000 GB solid-state drive",
+      "specs": {
+        "Storage capacity": 2000,
+        "Sequential read": 6600,
+        "Sequential write": 5000
+      },
+      "source": "https://www.crucial.com/catalog/ssd"
+    },
+    "priorAudit": {
+      "id": "c-ssd-crucial-p5-plus-2tb",
+      "category": "ssd",
+      "catalogName": "Crucial P5 Plus 2TB",
+      "catalogSource": "https://www.crucial.com/catalog/ssd",
+      "previousImage": {
+        "src": "/assets/hardware/memory-storage-t705.jpg",
+        "picturedModel": "Crucial T705 4TB CT4000T705SSD3",
+        "kind": "reference"
+      },
+      "status": "unresolved",
+      "reason": "Public manufacturer source rejected the request or served an access challenge. No verified exact named model/capacity/revision photo was recovered from the accessible official sources.",
+      "attempts": [
+        {
+          "url": "https://www.crucial.com/catalog/ssd",
+          "status": 200,
+          "finalUrl": "https://www.crucial.com/catalog/ssd",
+          "title": "Request Rejected"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "c-ssd-crucial-p3-plus-4tb",
+      "name": "Crucial P3 Plus 4TB",
+      "category": "ssd",
+      "sourceUrl": "https://www.crucial.com/catalog/ssd",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/memory-storage-t705.jpg",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "c-ssd-crucial-p3-plus-4tb",
+      "name": "Crucial P3 Plus 4TB",
+      "brand": "Crucial",
+      "cat": "ssd",
+      "year": 2022,
+      "architecture": "PCIe 4.0 NVMe M.2",
+      "summary": "4000 GB solid-state drive",
+      "specs": {
+        "Storage capacity": 4000,
+        "Sequential read": 4800,
+        "Sequential write": 4100
+      },
+      "source": "https://www.crucial.com/catalog/ssd"
+    },
+    "priorAudit": {
+      "id": "c-ssd-crucial-p3-plus-4tb",
+      "category": "ssd",
+      "catalogName": "Crucial P3 Plus 4TB",
+      "catalogSource": "https://www.crucial.com/catalog/ssd",
+      "previousImage": {
+        "src": "/assets/hardware/memory-storage-t705.jpg",
+        "picturedModel": "Crucial T705 4TB CT4000T705SSD3",
+        "kind": "reference"
+      },
+      "status": "unresolved",
+      "reason": "Public manufacturer source rejected the request or served an access challenge. No verified exact named model/capacity/revision photo was recovered from the accessible official sources.",
+      "attempts": [
+        {
+          "url": "https://www.crucial.com/catalog/ssd",
+          "status": 200,
+          "finalUrl": "https://www.crucial.com/catalog/ssd",
+          "title": "Request Rejected"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "c-ssd-crucial-p3-4tb",
+      "name": "Crucial P3 4TB",
+      "category": "ssd",
+      "sourceUrl": "https://www.crucial.com/catalog/ssd",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/memory-storage-t705.jpg",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "c-ssd-crucial-p3-4tb",
+      "name": "Crucial P3 4TB",
+      "brand": "Crucial",
+      "cat": "ssd",
+      "year": 2022,
+      "architecture": "PCIe 3.0 NVMe M.2",
+      "summary": "4000 GB solid-state drive",
+      "specs": {
+        "Storage capacity": 4000,
+        "Sequential read": 3500,
+        "Sequential write": 3000
+      },
+      "source": "https://www.crucial.com/catalog/ssd"
+    },
+    "priorAudit": {
+      "id": "c-ssd-crucial-p3-4tb",
+      "category": "ssd",
+      "catalogName": "Crucial P3 4TB",
+      "catalogSource": "https://www.crucial.com/catalog/ssd",
+      "previousImage": {
+        "src": "/assets/hardware/memory-storage-t705.jpg",
+        "picturedModel": "Crucial T705 4TB CT4000T705SSD3",
+        "kind": "reference"
+      },
+      "status": "unresolved",
+      "reason": "Public manufacturer source rejected the request or served an access challenge. No verified exact named model/capacity/revision photo was recovered from the accessible official sources.",
+      "attempts": [
+        {
+          "url": "https://www.crucial.com/catalog/ssd",
+          "status": 200,
+          "finalUrl": "https://www.crucial.com/catalog/ssd",
+          "title": "Request Rejected"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "c-ssd-crucial-mx500-4tb",
+      "name": "Crucial MX500 4TB",
+      "category": "ssd",
+      "sourceUrl": "https://www.crucial.com/catalog/ssd",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/memory-storage-mx500.jpg",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "c-ssd-crucial-mx500-4tb",
+      "name": "Crucial MX500 4TB",
+      "brand": "Crucial",
+      "cat": "ssd",
+      "year": 2018,
+      "architecture": "SATA 6 Gb/s",
+      "summary": "4000 GB solid-state drive",
+      "specs": {
+        "Storage capacity": 4000,
+        "Sequential read": 560,
+        "Sequential write": 510
+      },
+      "source": "https://www.crucial.com/catalog/ssd"
+    },
+    "priorAudit": {
+      "id": "c-ssd-crucial-mx500-4tb",
+      "category": "ssd",
+      "catalogName": "Crucial MX500 4TB",
+      "catalogSource": "https://www.crucial.com/catalog/ssd",
+      "previousImage": {
+        "src": "/assets/hardware/memory-storage-mx500.jpg",
+        "picturedModel": "Crucial MX500 500GB CT500MX500SSD1",
+        "kind": "family"
+      },
+      "status": "unresolved",
+      "reason": "Public manufacturer source rejected the request or served an access challenge. No verified exact named model/capacity/revision photo was recovered from the accessible official sources.",
+      "attempts": [
+        {
+          "url": "https://www.crucial.com/catalog/ssd",
+          "status": 200,
+          "finalUrl": "https://www.crucial.com/catalog/ssd",
+          "title": "Request Rejected"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "c-ssd-crucial-bx500-2tb",
+      "name": "Crucial BX500 2TB",
+      "category": "ssd",
+      "sourceUrl": "https://www.crucial.com/catalog/ssd",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/memory-storage-mx500.jpg",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "c-ssd-crucial-bx500-2tb",
+      "name": "Crucial BX500 2TB",
+      "brand": "Crucial",
+      "cat": "ssd",
+      "year": 2018,
+      "architecture": "SATA 6 Gb/s",
+      "summary": "2000 GB solid-state drive",
+      "specs": {
+        "Storage capacity": 2000,
+        "Sequential read": 540,
+        "Sequential write": 500
+      },
+      "source": "https://www.crucial.com/catalog/ssd"
+    },
+    "priorAudit": {
+      "id": "c-ssd-crucial-bx500-2tb",
+      "category": "ssd",
+      "catalogName": "Crucial BX500 2TB",
+      "catalogSource": "https://www.crucial.com/catalog/ssd",
+      "previousImage": {
+        "src": "/assets/hardware/memory-storage-mx500.jpg",
+        "picturedModel": "Crucial MX500 500GB CT500MX500SSD1",
+        "kind": "reference"
+      },
+      "status": "unresolved",
+      "reason": "Public manufacturer source rejected the request or served an access challenge. No verified exact named model/capacity/revision photo was recovered from the accessible official sources.",
+      "attempts": [
+        {
+          "url": "https://www.crucial.com/catalog/ssd",
+          "status": 200,
+          "finalUrl": "https://www.crucial.com/catalog/ssd",
+          "title": "Request Rejected"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "c-ssd-kingston-fury-renegade-g5-4tb",
+      "name": "Kingston FURY Renegade G5 4TB",
+      "category": "ssd",
+      "sourceUrl": "https://www.kingston.com/en/ssd",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/memory-storage-kc3000.jpg",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "c-ssd-kingston-fury-renegade-g5-4tb",
+      "name": "Kingston FURY Renegade G5 4TB",
+      "brand": "Kingston",
+      "cat": "ssd",
+      "year": 2025,
+      "architecture": "PCIe 5.0 NVMe M.2",
+      "summary": "4000 GB solid-state drive",
+      "specs": {
+        "Storage capacity": 4000,
+        "Sequential read": 14800,
+        "Sequential write": 14000
+      },
+      "source": "https://www.kingston.com/en/ssd"
+    },
+    "priorAudit": {
+      "id": "c-ssd-kingston-fury-renegade-g5-4tb",
+      "category": "ssd",
+      "catalogName": "Kingston FURY Renegade G5 4TB",
+      "catalogSource": "https://www.kingston.com/en/ssd",
+      "previousImage": {
+        "src": "/assets/hardware/memory-storage-kc3000.jpg",
+        "picturedModel": "Kingston KC3000 4TB SKC3000D/4096GB",
+        "kind": "reference"
+      },
+      "status": "unresolved",
+      "reason": "Public manufacturer source rejected the request or served an access challenge. No verified exact named model/capacity/revision photo was recovered from the accessible official sources.",
+      "attempts": [
+        {
+          "url": "https://www.kingston.com/en/ssd",
+          "status": 403,
+          "finalUrl": "https://www.kingston.com/en/ssd",
+          "title": "Just a moment..."
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "c-ssd-kingston-fury-renegade-4tb",
+      "name": "Kingston FURY Renegade 4TB",
+      "category": "ssd",
+      "sourceUrl": "https://www.kingston.com/en/ssd",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/memory-storage-kc3000.jpg",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "c-ssd-kingston-fury-renegade-4tb",
+      "name": "Kingston FURY Renegade 4TB",
+      "brand": "Kingston",
+      "cat": "ssd",
+      "year": 2021,
+      "architecture": "PCIe 4.0 NVMe M.2",
+      "summary": "4000 GB solid-state drive",
+      "specs": {
+        "Storage capacity": 4000,
+        "Sequential read": 7300,
+        "Sequential write": 7000
+      },
+      "source": "https://www.kingston.com/en/ssd"
+    },
+    "priorAudit": {
+      "id": "c-ssd-kingston-fury-renegade-4tb",
+      "category": "ssd",
+      "catalogName": "Kingston FURY Renegade 4TB",
+      "catalogSource": "https://www.kingston.com/en/ssd",
+      "previousImage": {
+        "src": "/assets/hardware/memory-storage-kc3000.jpg",
+        "picturedModel": "Kingston KC3000 4TB SKC3000D/4096GB",
+        "kind": "reference"
+      },
+      "status": "unresolved",
+      "reason": "Public manufacturer source rejected the request or served an access challenge. No verified exact named model/capacity/revision photo was recovered from the accessible official sources.",
+      "attempts": [
+        {
+          "url": "https://www.kingston.com/en/ssd",
+          "status": 403,
+          "finalUrl": "https://www.kingston.com/en/ssd",
+          "title": "Just a moment..."
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "c-ssd-kingston-nv3-4tb",
+      "name": "Kingston NV3 4TB",
+      "category": "ssd",
+      "sourceUrl": "https://www.kingston.com/en/ssd",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/memory-storage-kc3000.jpg",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "c-ssd-kingston-nv3-4tb",
+      "name": "Kingston NV3 4TB",
+      "brand": "Kingston",
+      "cat": "ssd",
+      "year": 2024,
+      "architecture": "PCIe 4.0 NVMe M.2",
+      "summary": "4000 GB solid-state drive",
+      "specs": {
+        "Storage capacity": 4000,
+        "Sequential read": 6000,
+        "Sequential write": 5000
+      },
+      "source": "https://www.kingston.com/en/ssd"
+    },
+    "priorAudit": {
+      "id": "c-ssd-kingston-nv3-4tb",
+      "category": "ssd",
+      "catalogName": "Kingston NV3 4TB",
+      "catalogSource": "https://www.kingston.com/en/ssd",
+      "previousImage": {
+        "src": "/assets/hardware/memory-storage-kc3000.jpg",
+        "picturedModel": "Kingston KC3000 4TB SKC3000D/4096GB",
+        "kind": "reference"
+      },
+      "status": "unresolved",
+      "reason": "Public manufacturer source rejected the request or served an access challenge. No verified exact named model/capacity/revision photo was recovered from the accessible official sources.",
+      "attempts": [
+        {
+          "url": "https://www.kingston.com/en/ssd",
+          "status": 403,
+          "finalUrl": "https://www.kingston.com/en/ssd",
+          "title": "Just a moment..."
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "c-ssd-kingston-nv2-2tb",
+      "name": "Kingston NV2 2TB",
+      "category": "ssd",
+      "sourceUrl": "https://www.kingston.com/en/ssd",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/memory-storage-kc3000.jpg",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "c-ssd-kingston-nv2-2tb",
+      "name": "Kingston NV2 2TB",
+      "brand": "Kingston",
+      "cat": "ssd",
+      "year": 2022,
+      "architecture": "PCIe 4.0 NVMe M.2",
+      "summary": "2000 GB solid-state drive",
+      "specs": {
+        "Storage capacity": 2000,
+        "Sequential read": 3500,
+        "Sequential write": 2800
+      },
+      "source": "https://www.kingston.com/en/ssd"
+    },
+    "priorAudit": {
+      "id": "c-ssd-kingston-nv2-2tb",
+      "category": "ssd",
+      "catalogName": "Kingston NV2 2TB",
+      "catalogSource": "https://www.kingston.com/en/ssd",
+      "previousImage": {
+        "src": "/assets/hardware/memory-storage-kc3000.jpg",
+        "picturedModel": "Kingston KC3000 4TB SKC3000D/4096GB",
+        "kind": "reference"
+      },
+      "status": "unresolved",
+      "reason": "Public manufacturer source rejected the request or served an access challenge. No verified exact named model/capacity/revision photo was recovered from the accessible official sources.",
+      "attempts": [
+        {
+          "url": "https://www.kingston.com/en/ssd",
+          "status": 403,
+          "finalUrl": "https://www.kingston.com/en/ssd",
+          "title": "Just a moment..."
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "c-ssd-kingston-a400-1-92tb",
+      "name": "Kingston A400 1.92TB",
+      "category": "ssd",
+      "sourceUrl": "https://www.kingston.com/en/ssd",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/memory-storage-wd-sa510.png",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "c-ssd-kingston-a400-1-92tb",
+      "name": "Kingston A400 1.92TB",
+      "brand": "Kingston",
+      "cat": "ssd",
+      "year": 2017,
+      "architecture": "SATA 6 Gb/s",
+      "summary": "1920 GB solid-state drive",
+      "specs": {
+        "Storage capacity": 1920,
+        "Sequential read": 500,
+        "Sequential write": 450
+      },
+      "source": "https://www.kingston.com/en/ssd"
+    },
+    "priorAudit": {
+      "id": "c-ssd-kingston-a400-1-92tb",
+      "category": "ssd",
+      "catalogName": "Kingston A400 1.92TB",
+      "catalogSource": "https://www.kingston.com/en/ssd",
+      "previousImage": {
+        "src": "/assets/hardware/memory-storage-wd-sa510.png",
+        "picturedModel": "WD Blue SA510 250GB SATA 2.5-inch SSD",
+        "kind": "reference"
+      },
+      "status": "unresolved",
+      "reason": "Public manufacturer source rejected the request or served an access challenge. No verified exact named model/capacity/revision photo was recovered from the accessible official sources.",
+      "attempts": [
+        {
+          "url": "https://www.kingston.com/en/ssd",
+          "status": 403,
+          "finalUrl": "https://www.kingston.com/en/ssd",
+          "title": "Just a moment..."
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "c-ssd-seagate-firecuda-540-4tb",
+      "name": "Seagate FireCuda 540 4TB",
+      "category": "ssd",
+      "sourceUrl": "https://www.seagate.com/products/gaming-drives/pc-gaming/firecuda-ssd/",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/memory-storage-firecuda530.jpg",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "c-ssd-seagate-firecuda-540-4tb",
+      "name": "Seagate FireCuda 540 4TB",
+      "brand": "Seagate",
+      "cat": "ssd",
+      "year": 2023,
+      "architecture": "PCIe 5.0 NVMe M.2",
+      "summary": "4000 GB solid-state drive",
+      "specs": {
+        "Storage capacity": 4000,
+        "Sequential read": 10000,
+        "Sequential write": 10000
+      },
+      "source": "https://www.seagate.com/products/gaming-drives/pc-gaming/firecuda-ssd/"
+    },
+    "priorAudit": {
+      "id": "c-ssd-seagate-firecuda-540-4tb",
+      "category": "ssd",
+      "catalogName": "Seagate FireCuda 540 4TB",
+      "catalogSource": "https://www.seagate.com/products/gaming-drives/pc-gaming/firecuda-ssd/",
+      "previousImage": {
+        "src": "/assets/hardware/memory-storage-firecuda530.jpg",
+        "picturedModel": "Seagate FireCuda 530 PCIe Gen4 SSD (capacity unspecified)",
+        "kind": "reference"
+      },
+      "status": "unresolved",
+      "reason": "One or more exact manufacturer URL attempts returned 404 or an unrelated page; no matching approved photograph verified.",
+      "attempts": [
+        {
+          "url": "https://www.seagate.com/products/gaming-drives/pc-gaming/firecuda-ssd/",
+          "status": 404,
+          "finalUrl": "https://www.seagate.com/products/gaming-drives/pc-gaming/firecuda-ssd/",
+          "title": "404 Not Found Page | Seagate US"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "c-ssd-seagate-firecuda-530r-4tb",
+      "name": "Seagate FireCuda 530R 4TB",
+      "category": "ssd",
+      "sourceUrl": "https://www.seagate.com/products/gaming-drives/pc-gaming/firecuda-ssd/",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/memory-storage-firecuda530.jpg",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "c-ssd-seagate-firecuda-530r-4tb",
+      "name": "Seagate FireCuda 530R 4TB",
+      "brand": "Seagate",
+      "cat": "ssd",
+      "year": 2024,
+      "architecture": "PCIe 4.0 NVMe M.2",
+      "summary": "4000 GB solid-state drive",
+      "specs": {
+        "Storage capacity": 4000,
+        "Sequential read": 7400,
+        "Sequential write": 6900
+      },
+      "source": "https://www.seagate.com/products/gaming-drives/pc-gaming/firecuda-ssd/"
+    },
+    "priorAudit": {
+      "id": "c-ssd-seagate-firecuda-530r-4tb",
+      "category": "ssd",
+      "catalogName": "Seagate FireCuda 530R 4TB",
+      "catalogSource": "https://www.seagate.com/products/gaming-drives/pc-gaming/firecuda-ssd/",
+      "previousImage": {
+        "src": "/assets/hardware/memory-storage-firecuda530.jpg",
+        "picturedModel": "Seagate FireCuda 530 PCIe Gen4 SSD (capacity unspecified)",
+        "kind": "reference"
+      },
+      "status": "unresolved",
+      "reason": "One or more exact manufacturer URL attempts returned 404 or an unrelated page; no matching approved photograph verified.",
+      "attempts": [
+        {
+          "url": "https://www.seagate.com/products/gaming-drives/pc-gaming/firecuda-ssd/",
+          "status": 404,
+          "finalUrl": "https://www.seagate.com/products/gaming-drives/pc-gaming/firecuda-ssd/",
+          "title": "404 Not Found Page | Seagate US"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "c-ssd-seagate-firecuda-530-4tb",
+      "name": "Seagate FireCuda 530 4TB",
+      "category": "ssd",
+      "sourceUrl": "https://www.seagate.com/products/gaming-drives/pc-gaming/firecuda-ssd/",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/memory-storage-firecuda530.jpg",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "c-ssd-seagate-firecuda-530-4tb",
+      "name": "Seagate FireCuda 530 4TB",
+      "brand": "Seagate",
+      "cat": "ssd",
+      "year": 2021,
+      "architecture": "PCIe 4.0 NVMe M.2",
+      "summary": "4000 GB solid-state drive",
+      "specs": {
+        "Storage capacity": 4000,
+        "Sequential read": 7300,
+        "Sequential write": 6900
+      },
+      "source": "https://www.seagate.com/products/gaming-drives/pc-gaming/firecuda-ssd/"
+    },
+    "priorAudit": {
+      "id": "c-ssd-seagate-firecuda-530-4tb",
+      "category": "ssd",
+      "catalogName": "Seagate FireCuda 530 4TB",
+      "catalogSource": "https://www.seagate.com/products/gaming-drives/pc-gaming/firecuda-ssd/",
+      "previousImage": {
+        "src": "/assets/hardware/memory-storage-firecuda530.jpg",
+        "picturedModel": "Seagate FireCuda 530 PCIe Gen4 SSD (capacity unspecified)",
+        "kind": "family"
+      },
+      "status": "unresolved",
+      "reason": "One or more exact manufacturer URL attempts returned 404 or an unrelated page; no matching approved photograph verified.",
+      "attempts": [
+        {
+          "url": "https://www.seagate.com/products/gaming-drives/pc-gaming/firecuda-ssd/",
+          "status": 404,
+          "finalUrl": "https://www.seagate.com/products/gaming-drives/pc-gaming/firecuda-ssd/",
+          "title": "404 Not Found Page | Seagate US"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "c-ssd-seagate-firecuda-520-2tb",
+      "name": "Seagate FireCuda 520 2TB",
+      "category": "ssd",
+      "sourceUrl": "https://www.seagate.com/products/gaming-drives/pc-gaming/firecuda-ssd/",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/memory-storage-firecuda530.jpg",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "c-ssd-seagate-firecuda-520-2tb",
+      "name": "Seagate FireCuda 520 2TB",
+      "brand": "Seagate",
+      "cat": "ssd",
+      "year": 2019,
+      "architecture": "PCIe 4.0 NVMe M.2",
+      "summary": "2000 GB solid-state drive",
+      "specs": {
+        "Storage capacity": 2000,
+        "Sequential read": 5000,
+        "Sequential write": 4400
+      },
+      "source": "https://www.seagate.com/products/gaming-drives/pc-gaming/firecuda-ssd/"
+    },
+    "priorAudit": {
+      "id": "c-ssd-seagate-firecuda-520-2tb",
+      "category": "ssd",
+      "catalogName": "Seagate FireCuda 520 2TB",
+      "catalogSource": "https://www.seagate.com/products/gaming-drives/pc-gaming/firecuda-ssd/",
+      "previousImage": {
+        "src": "/assets/hardware/memory-storage-firecuda530.jpg",
+        "picturedModel": "Seagate FireCuda 530 PCIe Gen4 SSD (capacity unspecified)",
+        "kind": "reference"
+      },
+      "status": "unresolved",
+      "reason": "One or more exact manufacturer URL attempts returned 404 or an unrelated page; no matching approved photograph verified.",
+      "attempts": [
+        {
+          "url": "https://www.seagate.com/products/gaming-drives/pc-gaming/firecuda-ssd/",
+          "status": 404,
+          "finalUrl": "https://www.seagate.com/products/gaming-drives/pc-gaming/firecuda-ssd/",
+          "title": "404 Not Found Page | Seagate US"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "c-ssd-seagate-barracuda-q5-2tb",
+      "name": "Seagate BarraCuda Q5 2TB",
+      "category": "ssd",
+      "sourceUrl": "https://www.seagate.com/products/gaming-drives/pc-gaming/firecuda-ssd/",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/memory-storage-firecuda530.jpg",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "c-ssd-seagate-barracuda-q5-2tb",
+      "name": "Seagate BarraCuda Q5 2TB",
+      "brand": "Seagate",
+      "cat": "ssd",
+      "year": 2020,
+      "architecture": "PCIe 3.0 NVMe M.2",
+      "summary": "2000 GB solid-state drive",
+      "specs": {
+        "Storage capacity": 2000,
+        "Sequential read": 2400,
+        "Sequential write": 1800
+      },
+      "source": "https://www.seagate.com/products/gaming-drives/pc-gaming/firecuda-ssd/"
+    },
+    "priorAudit": {
+      "id": "c-ssd-seagate-barracuda-q5-2tb",
+      "category": "ssd",
+      "catalogName": "Seagate BarraCuda Q5 2TB",
+      "catalogSource": "https://www.seagate.com/products/gaming-drives/pc-gaming/firecuda-ssd/",
+      "previousImage": {
+        "src": "/assets/hardware/memory-storage-firecuda530.jpg",
+        "picturedModel": "Seagate FireCuda 530 PCIe Gen4 SSD (capacity unspecified)",
+        "kind": "reference"
+      },
+      "status": "unresolved",
+      "reason": "One or more exact manufacturer URL attempts returned 404 or an unrelated page; no matching approved photograph verified.",
+      "attempts": [
+        {
+          "url": "https://www.seagate.com/products/gaming-drives/pc-gaming/firecuda-ssd/",
+          "status": 404,
+          "finalUrl": "https://www.seagate.com/products/gaming-drives/pc-gaming/firecuda-ssd/",
+          "title": "404 Not Found Page | Seagate US"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "c-ssd-sabrent-rocket-5-4tb",
+      "name": "Sabrent Rocket 5 4TB",
+      "category": "ssd",
+      "sourceUrl": "https://sabrent.com/collections/internal-memory",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/memory-storage-sabrent-rocket.jpg",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "c-ssd-sabrent-rocket-5-4tb",
+      "name": "Sabrent Rocket 5 4TB",
+      "brand": "Sabrent",
+      "cat": "ssd",
+      "year": 2024,
+      "architecture": "PCIe 5.0 NVMe M.2",
+      "summary": "4000 GB solid-state drive",
+      "specs": {
+        "Storage capacity": 4000,
+        "Sequential read": 14000,
+        "Sequential write": 12000
+      },
+      "source": "https://sabrent.com/collections/internal-memory"
+    },
+    "priorAudit": {
+      "id": "c-ssd-sabrent-rocket-5-4tb",
+      "category": "ssd",
+      "catalogName": "Sabrent Rocket 5 4TB",
+      "catalogSource": "https://sabrent.com/collections/internal-memory",
+      "previousImage": {
+        "src": "/assets/hardware/memory-storage-sabrent-rocket.jpg",
+        "picturedModel": "Sabrent Rocket 4 Plus 2TB SB-RKT4P-2TB",
+        "kind": "reference"
+      },
+      "status": "unresolved",
+      "reason": "One or more exact manufacturer URL attempts returned 404 or an unrelated page; no matching approved photograph verified.",
+      "attempts": [
+        {
+          "url": "https://sabrent.com/collections/internal-memory",
+          "status": 200,
+          "finalUrl": "https://sabrent.com/collections/internal-memory",
+          "title": "\n  Internal Storage\n &ndash; Sabrent"
+        },
+        {
+          "url": "https://sabrent.com/products/sb-rkt5p-4tb",
+          "status": 404,
+          "finalUrl": "https://sabrent.com/products/sb-rkt5p-4tb",
+          "title": "\n  404 Not Found\n &ndash; Sabrent"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "c-hdd-seagate-barracuda-4tb",
+      "name": "Seagate BarraCuda 4TB",
+      "category": "hdd",
+      "sourceUrl": "https://www.seagate.com/products/hard-drives/",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "c-hdd-seagate-barracuda-4tb",
+      "name": "Seagate BarraCuda 4TB",
+      "brand": "Seagate",
+      "cat": "hdd",
+      "year": 2016,
+      "architecture": "SATA 6 Gb/s",
+      "summary": "4000 GB hard disk drive",
+      "specs": {
+        "Storage capacity": 4000,
+        "Spindle speed": 5400,
+        "Drive cache": 256
+      },
+      "source": "https://www.seagate.com/products/hard-drives/"
+    },
+    "priorAudit": {
+      "id": "c-hdd-seagate-barracuda-4tb",
+      "category": "hdd",
+      "catalogName": "Seagate BarraCuda 4TB",
+      "catalogSource": "https://www.seagate.com/products/hard-drives/",
+      "previousImage": {
+        "src": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+        "picturedModel": "Seagate Barracuda 500 GB",
+        "kind": "family"
+      },
+      "status": "unresolved",
+      "reason": "Accessible source is a product family/category or family datasheet. No photographed label matching the catalog capacity and exact model/revision was verified; rejected reuse of another capacity.",
+      "attempts": [
+        {
+          "url": "https://www.seagate.com/products/hard-drives/",
+          "status": 200,
+          "finalUrl": "https://www.seagate.com/products/hard-drives/",
+          "title": "Internal Hard Drives | Seagate US"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "c-hdd-seagate-firecuda-8tb-hdd",
+      "name": "Seagate FireCuda 8TB HDD",
+      "category": "hdd",
+      "sourceUrl": "https://www.seagate.com/products/hard-drives/",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "c-hdd-seagate-firecuda-8tb-hdd",
+      "name": "Seagate FireCuda 8TB HDD",
+      "brand": "Seagate",
+      "cat": "hdd",
+      "year": 2023,
+      "architecture": "SATA 6 Gb/s",
+      "summary": "8000 GB hard disk drive",
+      "specs": {
+        "Storage capacity": 8000,
+        "Spindle speed": 7200,
+        "Drive cache": 256
+      },
+      "source": "https://www.seagate.com/products/hard-drives/"
+    },
+    "priorAudit": {
+      "id": "c-hdd-seagate-firecuda-8tb-hdd",
+      "category": "hdd",
+      "catalogName": "Seagate FireCuda 8TB HDD",
+      "catalogSource": "https://www.seagate.com/products/hard-drives/",
+      "previousImage": {
+        "src": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+        "picturedModel": "Seagate Barracuda 500 GB",
+        "kind": "reference"
+      },
+      "status": "unresolved",
+      "reason": "Accessible source is a product family/category or family datasheet. No photographed label matching the catalog capacity and exact model/revision was verified; rejected reuse of another capacity.",
+      "attempts": [
+        {
+          "url": "https://www.seagate.com/products/hard-drives/",
+          "status": 200,
+          "finalUrl": "https://www.seagate.com/products/hard-drives/",
+          "title": "Internal Hard Drives | Seagate US"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "c-hdd-seagate-ironwolf-24tb",
+      "name": "Seagate IronWolf 24TB",
+      "category": "hdd",
+      "sourceUrl": "https://www.seagate.com/products/hard-drives/",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "c-hdd-seagate-ironwolf-24tb",
+      "name": "Seagate IronWolf 24TB",
+      "brand": "Seagate",
+      "cat": "hdd",
+      "year": 2024,
+      "architecture": "SATA 6 Gb/s",
+      "summary": "24000 GB hard disk drive",
+      "specs": {
+        "Storage capacity": 24000,
+        "Spindle speed": 7200,
+        "Drive cache": 512
+      },
+      "source": "https://www.seagate.com/products/hard-drives/"
+    },
+    "priorAudit": {
+      "id": "c-hdd-seagate-ironwolf-24tb",
+      "category": "hdd",
+      "catalogName": "Seagate IronWolf 24TB",
+      "catalogSource": "https://www.seagate.com/products/hard-drives/",
+      "previousImage": {
+        "src": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+        "picturedModel": "Seagate Barracuda 500 GB",
+        "kind": "reference"
+      },
+      "status": "unresolved",
+      "reason": "Accessible source is a product family/category or family datasheet. No photographed label matching the catalog capacity and exact model/revision was verified; rejected reuse of another capacity.",
+      "attempts": [
+        {
+          "url": "https://www.seagate.com/products/hard-drives/",
+          "status": 200,
+          "finalUrl": "https://www.seagate.com/products/hard-drives/",
+          "title": "Internal Hard Drives | Seagate US"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "c-hdd-seagate-ironwolf-pro-24tb",
+      "name": "Seagate IronWolf Pro 24TB",
+      "category": "hdd",
+      "sourceUrl": "https://www.seagate.com/products/hard-drives/",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "c-hdd-seagate-ironwolf-pro-24tb",
+      "name": "Seagate IronWolf Pro 24TB",
+      "brand": "Seagate",
+      "cat": "hdd",
+      "year": 2024,
+      "architecture": "SATA 6 Gb/s",
+      "summary": "24000 GB hard disk drive",
+      "specs": {
+        "Storage capacity": 24000,
+        "Spindle speed": 7200,
+        "Drive cache": 512
+      },
+      "source": "https://www.seagate.com/products/hard-drives/"
+    },
+    "priorAudit": {
+      "id": "c-hdd-seagate-ironwolf-pro-24tb",
+      "category": "hdd",
+      "catalogName": "Seagate IronWolf Pro 24TB",
+      "catalogSource": "https://www.seagate.com/products/hard-drives/",
+      "previousImage": {
+        "src": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+        "picturedModel": "Seagate Barracuda 500 GB",
+        "kind": "reference"
+      },
+      "status": "unresolved",
+      "reason": "Accessible source is a product family/category or family datasheet. No photographed label matching the catalog capacity and exact model/revision was verified; rejected reuse of another capacity.",
+      "attempts": [
+        {
+          "url": "https://www.seagate.com/products/hard-drives/",
+          "status": 200,
+          "finalUrl": "https://www.seagate.com/products/hard-drives/",
+          "title": "Internal Hard Drives | Seagate US"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "c-hdd-seagate-exos-x24-24tb",
+      "name": "Seagate Exos X24 24TB",
+      "category": "hdd",
+      "sourceUrl": "https://www.seagate.com/products/hard-drives/",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "c-hdd-seagate-exos-x24-24tb",
+      "name": "Seagate Exos X24 24TB",
+      "brand": "Seagate",
+      "cat": "hdd",
+      "year": 2023,
+      "architecture": "SATA 6 Gb/s",
+      "summary": "24000 GB hard disk drive",
+      "specs": {
+        "Storage capacity": 24000,
+        "Spindle speed": 7200,
+        "Drive cache": 512
+      },
+      "source": "https://www.seagate.com/products/hard-drives/"
+    },
+    "priorAudit": {
+      "id": "c-hdd-seagate-exos-x24-24tb",
+      "category": "hdd",
+      "catalogName": "Seagate Exos X24 24TB",
+      "catalogSource": "https://www.seagate.com/products/hard-drives/",
+      "previousImage": {
+        "src": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+        "picturedModel": "Seagate Barracuda 500 GB",
+        "kind": "reference"
+      },
+      "status": "unresolved",
+      "reason": "Accessible source is a product family/category or family datasheet. No photographed label matching the catalog capacity and exact model/revision was verified; rejected reuse of another capacity.",
+      "attempts": [
+        {
+          "url": "https://www.seagate.com/products/hard-drives/",
+          "status": 200,
+          "finalUrl": "https://www.seagate.com/products/hard-drives/",
+          "title": "Internal Hard Drives | Seagate US"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "c-hdd-seagate-skyhawk-ai-24tb",
+      "name": "Seagate SkyHawk AI 24TB",
+      "category": "hdd",
+      "sourceUrl": "https://www.seagate.com/products/hard-drives/",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "c-hdd-seagate-skyhawk-ai-24tb",
+      "name": "Seagate SkyHawk AI 24TB",
+      "brand": "Seagate",
+      "cat": "hdd",
+      "year": 2024,
+      "architecture": "SATA 6 Gb/s",
+      "summary": "24000 GB hard disk drive",
+      "specs": {
+        "Storage capacity": 24000,
+        "Spindle speed": 7200,
+        "Drive cache": 512
+      },
+      "source": "https://www.seagate.com/products/hard-drives/"
+    },
+    "priorAudit": {
+      "id": "c-hdd-seagate-skyhawk-ai-24tb",
+      "category": "hdd",
+      "catalogName": "Seagate SkyHawk AI 24TB",
+      "catalogSource": "https://www.seagate.com/products/hard-drives/",
+      "previousImage": {
+        "src": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+        "picturedModel": "Seagate Barracuda 500 GB",
+        "kind": "reference"
+      },
+      "status": "unresolved",
+      "reason": "Accessible source is a product family/category or family datasheet. No photographed label matching the catalog capacity and exact model/revision was verified; rejected reuse of another capacity.",
+      "attempts": [
+        {
+          "url": "https://www.seagate.com/products/hard-drives/",
+          "status": 200,
+          "finalUrl": "https://www.seagate.com/products/hard-drives/",
+          "title": "Internal Hard Drives | Seagate US"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "c-hdd-wd-red-plus-12tb",
+      "name": "WD Red Plus 12TB",
+      "category": "hdd",
+      "sourceUrl": "https://www.westerndigital.com/en-ca/products/internal-drives",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/component-new-hdd-wdred.jpg",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "c-hdd-wd-red-plus-12tb",
+      "name": "WD Red Plus 12TB",
+      "brand": "WD",
+      "cat": "hdd",
+      "year": 2021,
+      "architecture": "SATA 6 Gb/s",
+      "summary": "12000 GB hard disk drive",
+      "specs": {
+        "Storage capacity": 12000,
+        "Spindle speed": 7200,
+        "Drive cache": 256
+      },
+      "source": "https://www.westerndigital.com/en-ca/products/internal-drives"
+    },
+    "priorAudit": {
+      "id": "c-hdd-wd-red-plus-12tb",
+      "category": "hdd",
+      "catalogName": "WD Red Plus 12TB",
+      "catalogSource": "https://www.westerndigital.com/en-ca/products/internal-drives",
+      "previousImage": {
+        "src": "/assets/hardware/component-new-hdd-wdred.jpg",
+        "picturedModel": "Western Digital Red 4 TB",
+        "kind": "family"
+      },
+      "status": "unresolved",
+      "reason": "Alias withheld: this catalog row lists 256MB cache while wdred12tb lists 512MB. Same family and capacity do not establish the same revision without an exact SKU; its image remains unresolved.",
+      "attempts": [
+        {
+          "url": "https://www.westerndigital.com/en-ca/products/internal-drives",
+          "status": 200,
+          "finalUrl": "https://www.westerndigital.com/en-ca/products/internal-drives",
+          "title": "Internal Drives | WD"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "c-hdd-wd-gold-24tb",
+      "name": "WD Gold 24TB",
+      "category": "hdd",
+      "sourceUrl": "https://www.westerndigital.com/en-ca/products/internal-drives",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/component-new-hdd-wdred.jpg",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "c-hdd-wd-gold-24tb",
+      "name": "WD Gold 24TB",
+      "brand": "WD",
+      "cat": "hdd",
+      "year": 2024,
+      "architecture": "SATA 6 Gb/s",
+      "summary": "24000 GB hard disk drive",
+      "specs": {
+        "Storage capacity": 24000,
+        "Spindle speed": 7200,
+        "Drive cache": 512
+      },
+      "source": "https://www.westerndigital.com/en-ca/products/internal-drives"
+    },
+    "priorAudit": {
+      "id": "c-hdd-wd-gold-24tb",
+      "category": "hdd",
+      "catalogName": "WD Gold 24TB",
+      "catalogSource": "https://www.westerndigital.com/en-ca/products/internal-drives",
+      "previousImage": {
+        "src": "/assets/hardware/component-new-hdd-wdred.jpg",
+        "picturedModel": "Western Digital Red 4 TB",
+        "kind": "reference"
+      },
+      "status": "unresolved",
+      "reason": "Accessible source is a product family/category or family datasheet. No photographed label matching the catalog capacity and exact model/revision was verified; rejected reuse of another capacity.",
+      "attempts": [
+        {
+          "url": "https://www.westerndigital.com/en-ca/products/internal-drives",
+          "status": 200,
+          "finalUrl": "https://www.westerndigital.com/en-ca/products/internal-drives",
+          "title": "Internal Drives | WD"
+        },
+        {
+          "url": "https://www.westerndigital.com/products/internal-drives/wd-gold-sata-hdd",
+          "status": 200,
+          "finalUrl": "https://www.westerndigital.com/products/internal-drives/wd-gold-sata-hdd",
+          "title": "10TB WD Gold Enterprise Class Hard Drive | WD"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "c-hdd-wd-purple-pro-24tb",
+      "name": "WD Purple Pro 24TB",
+      "category": "hdd",
+      "sourceUrl": "https://www.westerndigital.com/en-ca/products/internal-drives",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/component-new-hdd-wdred.jpg",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "c-hdd-wd-purple-pro-24tb",
+      "name": "WD Purple Pro 24TB",
+      "brand": "WD",
+      "cat": "hdd",
+      "year": 2024,
+      "architecture": "SATA 6 Gb/s",
+      "summary": "24000 GB hard disk drive",
+      "specs": {
+        "Storage capacity": 24000,
+        "Spindle speed": 7200,
+        "Drive cache": 512
+      },
+      "source": "https://www.westerndigital.com/en-ca/products/internal-drives"
+    },
+    "priorAudit": {
+      "id": "c-hdd-wd-purple-pro-24tb",
+      "category": "hdd",
+      "catalogName": "WD Purple Pro 24TB",
+      "catalogSource": "https://www.westerndigital.com/en-ca/products/internal-drives",
+      "previousImage": {
+        "src": "/assets/hardware/component-new-hdd-wdred.jpg",
+        "picturedModel": "Western Digital Red 4 TB",
+        "kind": "reference"
+      },
+      "status": "unresolved",
+      "reason": "Accessible source is a product family/category or family datasheet. No photographed label matching the catalog capacity and exact model/revision was verified; rejected reuse of another capacity.",
+      "attempts": [
+        {
+          "url": "https://www.westerndigital.com/en-ca/products/internal-drives",
+          "status": 200,
+          "finalUrl": "https://www.westerndigital.com/en-ca/products/internal-drives",
+          "title": "Internal Drives | WD"
+        },
+        {
+          "url": "https://www.westerndigital.com/products/internal-drives/wd-purple-pro-sata-hdd",
+          "status": 200,
+          "finalUrl": "https://www.westerndigital.com/products/internal-drives/wd-purple-pro-sata-hdd",
+          "title": "10TB WD Purple Pro Video Analytics Hard Drive | WD"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "c-hdd-toshiba-x300-pro-22tb",
+      "name": "Toshiba X300 Pro 22TB",
+      "category": "hdd",
+      "sourceUrl": "https://storage.toshiba.com/consumer-hdd",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "c-hdd-toshiba-x300-pro-22tb",
+      "name": "Toshiba X300 Pro 22TB",
+      "brand": "Toshiba",
+      "cat": "hdd",
+      "year": 2024,
+      "architecture": "SATA 6 Gb/s",
+      "summary": "22000 GB hard disk drive",
+      "specs": {
+        "Storage capacity": 22000,
+        "Spindle speed": 7200,
+        "Drive cache": 512
+      },
+      "source": "https://storage.toshiba.com/consumer-hdd"
+    },
+    "priorAudit": {
+      "id": "c-hdd-toshiba-x300-pro-22tb",
+      "category": "hdd",
+      "catalogName": "Toshiba X300 Pro 22TB",
+      "catalogSource": "https://storage.toshiba.com/consumer-hdd",
+      "previousImage": {
+        "src": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+        "picturedModel": "Seagate Barracuda 500 GB",
+        "kind": "reference"
+      },
+      "status": "unresolved",
+      "reason": "Accessible source is a product family/category or family datasheet. No photographed label matching the catalog capacity and exact model/revision was verified; rejected reuse of another capacity.",
+      "attempts": [
+        {
+          "url": "https://storage.toshiba.com/consumer-hdd",
+          "status": 200,
+          "finalUrl": "https://storage.toshiba.com/consumer-hdd",
+          "title": "Consumer Hard Drives for Portable &amp; Desktop Storage | Toshiba"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "c-hdd-toshiba-x300-18tb",
+      "name": "Toshiba X300 18TB",
+      "category": "hdd",
+      "sourceUrl": "https://storage.toshiba.com/consumer-hdd",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "c-hdd-toshiba-x300-18tb",
+      "name": "Toshiba X300 18TB",
+      "brand": "Toshiba",
+      "cat": "hdd",
+      "year": 2023,
+      "architecture": "SATA 6 Gb/s",
+      "summary": "18000 GB hard disk drive",
+      "specs": {
+        "Storage capacity": 18000,
+        "Spindle speed": 7200,
+        "Drive cache": 512
+      },
+      "source": "https://storage.toshiba.com/consumer-hdd"
+    },
+    "priorAudit": {
+      "id": "c-hdd-toshiba-x300-18tb",
+      "category": "hdd",
+      "catalogName": "Toshiba X300 18TB",
+      "catalogSource": "https://storage.toshiba.com/consumer-hdd",
+      "previousImage": {
+        "src": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+        "picturedModel": "Seagate Barracuda 500 GB",
+        "kind": "reference"
+      },
+      "status": "unresolved",
+      "reason": "Accessible source is a product family/category or family datasheet. No photographed label matching the catalog capacity and exact model/revision was verified; rejected reuse of another capacity.",
+      "attempts": [
+        {
+          "url": "https://storage.toshiba.com/consumer-hdd",
+          "status": 200,
+          "finalUrl": "https://storage.toshiba.com/consumer-hdd",
+          "title": "Consumer Hard Drives for Portable &amp; Desktop Storage | Toshiba"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "c-hdd-toshiba-n300-pro-22tb",
+      "name": "Toshiba N300 Pro 22TB",
+      "category": "hdd",
+      "sourceUrl": "https://storage.toshiba.com/consumer-hdd",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "c-hdd-toshiba-n300-pro-22tb",
+      "name": "Toshiba N300 Pro 22TB",
+      "brand": "Toshiba",
+      "cat": "hdd",
+      "year": 2024,
+      "architecture": "SATA 6 Gb/s",
+      "summary": "22000 GB hard disk drive",
+      "specs": {
+        "Storage capacity": 22000,
+        "Spindle speed": 7200,
+        "Drive cache": 512
+      },
+      "source": "https://storage.toshiba.com/consumer-hdd"
+    },
+    "priorAudit": {
+      "id": "c-hdd-toshiba-n300-pro-22tb",
+      "category": "hdd",
+      "catalogName": "Toshiba N300 Pro 22TB",
+      "catalogSource": "https://storage.toshiba.com/consumer-hdd",
+      "previousImage": {
+        "src": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+        "picturedModel": "Seagate Barracuda 500 GB",
+        "kind": "reference"
+      },
+      "status": "unresolved",
+      "reason": "Accessible source is a product family/category or family datasheet. No photographed label matching the catalog capacity and exact model/revision was verified; rejected reuse of another capacity.",
+      "attempts": [
+        {
+          "url": "https://storage.toshiba.com/consumer-hdd",
+          "status": 200,
+          "finalUrl": "https://storage.toshiba.com/consumer-hdd",
+          "title": "Consumer Hard Drives for Portable &amp; Desktop Storage | Toshiba"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "c-hdd-toshiba-n300-18tb",
+      "name": "Toshiba N300 18TB",
+      "category": "hdd",
+      "sourceUrl": "https://storage.toshiba.com/consumer-hdd",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "c-hdd-toshiba-n300-18tb",
+      "name": "Toshiba N300 18TB",
+      "brand": "Toshiba",
+      "cat": "hdd",
+      "year": 2023,
+      "architecture": "SATA 6 Gb/s",
+      "summary": "18000 GB hard disk drive",
+      "specs": {
+        "Storage capacity": 18000,
+        "Spindle speed": 7200,
+        "Drive cache": 512
+      },
+      "source": "https://storage.toshiba.com/consumer-hdd"
+    },
+    "priorAudit": {
+      "id": "c-hdd-toshiba-n300-18tb",
+      "category": "hdd",
+      "catalogName": "Toshiba N300 18TB",
+      "catalogSource": "https://storage.toshiba.com/consumer-hdd",
+      "previousImage": {
+        "src": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+        "picturedModel": "Seagate Barracuda 500 GB",
+        "kind": "reference"
+      },
+      "status": "unresolved",
+      "reason": "Accessible source is a product family/category or family datasheet. No photographed label matching the catalog capacity and exact model/revision was verified; rejected reuse of another capacity.",
+      "attempts": [
+        {
+          "url": "https://storage.toshiba.com/consumer-hdd",
+          "status": 200,
+          "finalUrl": "https://storage.toshiba.com/consumer-hdd",
+          "title": "Consumer Hard Drives for Portable &amp; Desktop Storage | Toshiba"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "c-hdd-toshiba-p300-6tb",
+      "name": "Toshiba P300 6TB",
+      "category": "hdd",
+      "sourceUrl": "https://storage.toshiba.com/consumer-hdd",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "c-hdd-toshiba-p300-6tb",
+      "name": "Toshiba P300 6TB",
+      "brand": "Toshiba",
+      "cat": "hdd",
+      "year": 2022,
+      "architecture": "SATA 6 Gb/s",
+      "summary": "6000 GB hard disk drive",
+      "specs": {
+        "Storage capacity": 6000,
+        "Spindle speed": 5400,
+        "Drive cache": 128
+      },
+      "source": "https://storage.toshiba.com/consumer-hdd"
+    },
+    "priorAudit": {
+      "id": "c-hdd-toshiba-p300-6tb",
+      "category": "hdd",
+      "catalogName": "Toshiba P300 6TB",
+      "catalogSource": "https://storage.toshiba.com/consumer-hdd",
+      "previousImage": {
+        "src": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+        "picturedModel": "Seagate Barracuda 500 GB",
+        "kind": "reference"
+      },
+      "status": "unresolved",
+      "reason": "Accessible source is a product family/category or family datasheet. No photographed label matching the catalog capacity and exact model/revision was verified; rejected reuse of another capacity.",
+      "attempts": [
+        {
+          "url": "https://storage.toshiba.com/consumer-hdd",
+          "status": 200,
+          "finalUrl": "https://storage.toshiba.com/consumer-hdd",
+          "title": "Consumer Hard Drives for Portable &amp; Desktop Storage | Toshiba"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "c-hdd-toshiba-s300-pro-10tb",
+      "name": "Toshiba S300 Pro 10TB",
+      "category": "hdd",
+      "sourceUrl": "https://storage.toshiba.com/consumer-hdd",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "c-hdd-toshiba-s300-pro-10tb",
+      "name": "Toshiba S300 Pro 10TB",
+      "brand": "Toshiba",
+      "cat": "hdd",
+      "year": 2023,
+      "architecture": "SATA 6 Gb/s",
+      "summary": "10000 GB hard disk drive",
+      "specs": {
+        "Storage capacity": 10000,
+        "Spindle speed": 7200,
+        "Drive cache": 256
+      },
+      "source": "https://storage.toshiba.com/consumer-hdd"
+    },
+    "priorAudit": {
+      "id": "c-hdd-toshiba-s300-pro-10tb",
+      "category": "hdd",
+      "catalogName": "Toshiba S300 Pro 10TB",
+      "catalogSource": "https://storage.toshiba.com/consumer-hdd",
+      "previousImage": {
+        "src": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+        "picturedModel": "Seagate Barracuda 500 GB",
+        "kind": "reference"
+      },
+      "status": "unresolved",
+      "reason": "Accessible source is a product family/category or family datasheet. No photographed label matching the catalog capacity and exact model/revision was verified; rejected reuse of another capacity.",
+      "attempts": [
+        {
+          "url": "https://storage.toshiba.com/consumer-hdd",
+          "status": 200,
+          "finalUrl": "https://storage.toshiba.com/consumer-hdd",
+          "title": "Consumer Hard Drives for Portable &amp; Desktop Storage | Toshiba"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "c-hdd-toshiba-mg10-22tb",
+      "name": "Toshiba MG10 22TB",
+      "category": "hdd",
+      "sourceUrl": "https://storage.toshiba.com/consumer-hdd",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "c-hdd-toshiba-mg10-22tb",
+      "name": "Toshiba MG10 22TB",
+      "brand": "Toshiba",
+      "cat": "hdd",
+      "year": 2023,
+      "architecture": "SATA 6 Gb/s",
+      "summary": "22000 GB hard disk drive",
+      "specs": {
+        "Storage capacity": 22000,
+        "Spindle speed": 7200,
+        "Drive cache": 512
+      },
+      "source": "https://storage.toshiba.com/consumer-hdd"
+    },
+    "priorAudit": {
+      "id": "c-hdd-toshiba-mg10-22tb",
+      "category": "hdd",
+      "catalogName": "Toshiba MG10 22TB",
+      "catalogSource": "https://storage.toshiba.com/consumer-hdd",
+      "previousImage": {
+        "src": "/assets/hardware/component-new-hdd-barracuda-500.jpg",
+        "picturedModel": "Seagate Barracuda 500 GB",
+        "kind": "reference"
+      },
+      "status": "unresolved",
+      "reason": "Accessible source is a product family/category or family datasheet. No photographed label matching the catalog capacity and exact model/revision was verified; rejected reuse of another capacity.",
+      "attempts": [
+        {
+          "url": "https://storage.toshiba.com/consumer-hdd",
+          "status": 200,
+          "finalUrl": "https://storage.toshiba.com/consumer-hdd",
+          "title": "Consumer Hard Drives for Portable &amp; Desktop Storage | Toshiba"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "retail-samsung-sm883-960gb",
+      "name": "SM883 960GB",
+      "category": "ssd",
+      "sourceUrl": "https://semiconductor.samsung.com/ssd/datacenter-ssd/sm883/",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/samsung-sm883-enclosure.svg",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "retail-samsung-sm883-960gb",
+      "name": "SM883 960GB",
+      "brand": "Samsung",
+      "cat": "ssd",
+      "source": "https://semiconductor.samsung.com/ssd/datacenter-ssd/sm883/",
+      "architecture": "SATA 6 Gb/s · 2.5-inch",
+      "summary": "960 GB · enterprise SATA SSD · MLC NAND",
+      "specs": {
+        "Capacity": 960,
+        "Sequential read": 540,
+        "Sequential write": 520,
+        "Form factor": "2.5-inch",
+        "Interface": "SATA 6 Gb/s"
+      },
+      "sku": "MZ7KH960HAJR-00005",
+      "physical": {}
+    },
+    "priorAudit": {
+      "id": "retail-samsung-sm883-960gb",
+      "category": "ssd",
+      "catalogName": "SM883 960GB",
+      "catalogSource": "https://semiconductor.samsung.com/ssd/datacenter-ssd/sm883/",
+      "previousImage": {
+        "src": "/assets/hardware/samsung-sm883-enclosure.svg",
+        "picturedModel": "Samsung SM883 enclosure",
+        "kind": "illustration"
+      },
+      "status": "unresolved",
+      "reason": "Original Samsung Semiconductor source redirects to the general Samsung Canada storage category. Additional exact variant source attempt did not yield an approved matching photo.",
+      "attempts": [
+        {
+          "url": "https://semiconductor.samsung.com/ssd/datacenter-ssd/sm883/",
+          "status": 200,
+          "finalUrl": "https://semiconductor.samsung.com/ssd/datacenter-ssd/sm883/",
+          "title": "SM883 | Data center SSD | Samsung Semiconductor Global"
+        }
+      ],
+      "photo": null
+    }
+  },
+  {
+    "row": {
+      "id": "retail-western-digital-caviar-se-wd800jd-80gb",
+      "name": "Caviar SE WD800JD 80GB",
+      "category": "hdd",
+      "sourceUrl": "https://www.manualsonline.com/manuals/mfg/western_digital/wd800jd.html",
+      "status": "needs-correct-photo",
+      "image": null,
+      "thumbnail": null,
+      "picturedModel": null,
+      "kind": null,
+      "previousImage": "/assets/hardware/wd800jd-enclosure.svg",
+      "imageChanged": true,
+      "previouslyVisibleInBuilder": false,
+      "sourceAudits": [
+        "storage-psu-audit.json"
+      ]
+    },
+    "part": {
+      "id": "retail-western-digital-caviar-se-wd800jd-80gb",
+      "name": "Caviar SE WD800JD 80GB",
+      "brand": "Western Digital",
+      "cat": "hdd",
+      "source": "https://www.manualsonline.com/manuals/mfg/western_digital/wd800jd.html",
+      "architecture": "SATA 1.5 Gb/s · 3.5-inch",
+      "summary": "80 GB · 7,200 RPM · 8 MB cache",
+      "specs": {
+        "Capacity": 80,
+        "RPM": 7200,
+        "Cache": 8,
+        "Interface": "SATA 1.5 Gb/s",
+        "Form factor": "3.5-inch"
+      },
+      "sku": "WD800JD",
+      "physical": {}
+    },
+    "priorAudit": {
+      "id": "retail-western-digital-caviar-se-wd800jd-80gb",
+      "category": "hdd",
+      "catalogName": "Caviar SE WD800JD 80GB",
+      "catalogSource": "https://www.manualsonline.com/manuals/mfg/western_digital/wd800jd.html",
+      "previousImage": {
+        "src": "/assets/hardware/wd800jd-enclosure.svg",
+        "picturedModel": "WD Caviar SE WD800JD enclosure",
+        "kind": "illustration"
+      },
+      "status": "unresolved",
+      "reason": "Accessible source is a product family/category or family datasheet. No photographed label matching the catalog capacity and exact model/revision was verified; rejected reuse of another capacity.",
+      "attempts": [
+        {
+          "url": "https://www.manualsonline.com/manuals/mfg/western_digital/wd800jd.html",
+          "status": 200,
+          "finalUrl": "https://www.manualsonline.com/manuals/mfg/western_digital/wd800jd.html",
+          "title": "Western Digital WD800JD Manual"
+        }
+      ],
+      "photo": null
+    }
+  }
+]

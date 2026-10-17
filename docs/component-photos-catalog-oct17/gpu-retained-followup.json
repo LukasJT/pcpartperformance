@@ -1,0 +1,202 @@
+{
+  "checked": "2026-10-17",
+  "prior103EntriesUnchanged": true,
+  "added": [
+    "rtx4080s",
+    "rx7900xtx",
+    "rtx5070",
+    "gtx970",
+    "rx9070xt",
+    "rx6800xt",
+    "arca770",
+    "rtx5060ti16",
+    "hd7970",
+    "ibm-mda",
+    "riva128"
+  ],
+  "retainedInspected": 44,
+  "previouslyHidden": 12,
+  "sourcePagesFetched": 0,
+  "undatedSourceChecksPreserved": true,
+  "stillUnverified": [
+    {
+      "id": "hd5870",
+      "reason": "Preserved Sapphire HD5870 caption and file source do not establish1GB rather than2GB. No capacity binding added."
+    }
+  ],
+  "records": [
+    {
+      "id": "rtx4080s",
+      "admittedBefore": false,
+      "preserved": {
+        "src": "/assets/hardware/gpu-ada.png",
+        "picturedModel": "ASUS TUF GeForce RTX 4080 SUPER OC",
+        "sourceUrl": "https://www.asus.com/us/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx4080s-o16g-gaming/",
+        "attribution": "",
+        "license": "",
+        "licenseUrl": "",
+        "kind": "exact"
+      },
+      "sourceLocalSha256": "23a82f856b5f956afb490fb669a1936dd721ce40e3c13b909732925fa5ca2a43",
+      "admittedAfter": true
+    },
+    {
+      "id": "rx7900xtx",
+      "admittedBefore": false,
+      "preserved": {
+        "src": "/assets/hardware/gpu-rdna3.png",
+        "picturedModel": "ASUS TUF Radeon RX 7900 XTX OC",
+        "sourceUrl": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rx7900xtx-o24g-gaming/",
+        "attribution": "",
+        "license": "",
+        "licenseUrl": "",
+        "kind": "exact"
+      },
+      "sourceLocalSha256": "ed2a19092eba2710bcf3f41d03abde7932ceb0883d436e157b664134101ac205",
+      "admittedAfter": true
+    },
+    {
+      "id": "rtx5070",
+      "admittedBefore": false,
+      "preserved": {
+        "src": "/assets/hardware/gpu-blackwell.png",
+        "picturedModel": "ASUS Prime GeForce RTX 5070 OC",
+        "sourceUrl": "https://www.asus.com/motherboards-components/graphics-cards/prime/prime-rtx5070-o12g/",
+        "attribution": "",
+        "license": "",
+        "licenseUrl": "",
+        "kind": "exact"
+      },
+      "sourceLocalSha256": "1d55735a7ad18e7d390e89af8070f20a4a723cba706237102dfdaa27e30ff2f2",
+      "admittedAfter": true
+    },
+    {
+      "id": "gtx970",
+      "admittedBefore": false,
+      "preserved": {
+        "src": "/assets/hardware/gpu-maxwell.jpg",
+        "picturedModel": "Gigabyte GeForce GTX 970 Windforce",
+        "sourceUrl": "https://en.wikipedia.org/wiki/File:Gigabyte_GTX_970_Windforce.jpg",
+        "attribution": "TheStriker / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "width": 960,
+        "height": 432,
+        "kind": "exact"
+      },
+      "sourceLocalSha256": "5ae4c6afc2064487aa99e048768007ae14c94ba994c067e13eeec43882c4b5b8",
+      "admittedAfter": true
+    },
+    {
+      "id": "rx9070xt",
+      "admittedBefore": false,
+      "preserved": {
+        "src": "/assets/hardware/gpu-rdna4.optimized.jpg",
+        "picturedModel": "ASUS TUF Gaming Radeon RX 9070 XT OC",
+        "sourceUrl": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rx9070xt-o16g-gaming/",
+        "attribution": "",
+        "license": "",
+        "licenseUrl": "",
+        "kind": "exact"
+      },
+      "sourceLocalSha256": "fc628367a7c2382562da84002ba0146bbd550cdc5d1f881d1a1bbdcabce865cd",
+      "admittedAfter": true
+    },
+    {
+      "id": "rx6800xt",
+      "admittedBefore": false,
+      "preserved": {
+        "src": "/assets/hardware/gpu-rdna2.optimized.jpg",
+        "picturedModel": "ASUS TUF Gaming Radeon RX 6800 XT OC",
+        "sourceUrl": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rx6800xt-o16g-gaming/",
+        "attribution": "",
+        "license": "",
+        "licenseUrl": "",
+        "kind": "exact"
+      },
+      "sourceLocalSha256": "bf3f64ea607f2681bebcf24f20062204cc9a915d3b03a026140404bbf134c7ba",
+      "admittedAfter": true
+    },
+    {
+      "id": "arca770",
+      "admittedBefore": false,
+      "preserved": {
+        "src": "/assets/hardware/gpu-arca770.jpg",
+        "picturedModel": "Intel Arc A770 Limited Edition",
+        "sourceUrl": "https://en.wikipedia.org/wiki/File:Intel_Arc_A770_with_Rubik's_Cube-2.jpg",
+        "attribution": "Telaneo / Wikimedia Commons",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "width": 960,
+        "height": 720,
+        "kind": "exact"
+      },
+      "sourceLocalSha256": "35db3db7d812970610b4270c87e5cd85366f3207df5c0e3d41e1d17f3432aa2b",
+      "admittedAfter": true
+    },
+    {
+      "id": "rtx5060ti16",
+      "admittedBefore": false,
+      "preserved": {
+        "src": "/assets/hardware/gpu-rtx5060ti.png",
+        "picturedModel": "ASUS Dual GeForce RTX 5060 Ti OC 16GB",
+        "sourceUrl": "https://www.asus.com/motherboards-components/graphics-cards/dual/dual-rtx5060ti-o16g/",
+        "attribution": "",
+        "license": "",
+        "licenseUrl": "",
+        "kind": "exact"
+      },
+      "sourceLocalSha256": "3d4ebb598d93322ac52b3d1a4a324a6e7be989bd1424d678856dc4aca5d7d1ad",
+      "admittedAfter": true
+    },
+    {
+      "id": "hd7970",
+      "admittedBefore": false,
+      "preserved": {
+        "src": "/assets/hardware/gpu-hd7970.png",
+        "picturedModel": "VisionTek Radeon HD 7970",
+        "sourceUrl": "https://www.tweaktown.com/reviews/4581/visiontek_radeon_hd_7970_3gb_video_cards_in_4_way_crossfirex/index.html",
+        "attribution": "",
+        "license": "",
+        "licenseUrl": "",
+        "kind": "exact"
+      },
+      "sourceLocalSha256": "72140fc1485c5f6b97824a56b7df040862121b363d4b2640b49d96d7e29ba0ae",
+      "admittedAfter": true
+    },
+    {
+      "id": "ibm-mda",
+      "admittedBefore": false,
+      "preserved": {
+        "src": "/assets/hardware/gpu-ibmmda.jpg",
+        "picturedModel": "IBM Monochrome Display and Parallel Printer Adapter",
+        "sourceUrl": "https://en.wikipedia.org/wiki/File:IBM_PC_Original_Monochrome_Display_and_Parallel_Printer_Adapter.jpg",
+        "attribution": "German / Wikimedia Commons",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "width": 960,
+        "height": 341,
+        "kind": "exact"
+      },
+      "sourceLocalSha256": "0028a4567a6a64d993f97a5ddc90da682bdef99cff43c03b77686fc29117966c",
+      "admittedAfter": true
+    },
+    {
+      "id": "riva128",
+      "admittedBefore": false,
+      "preserved": {
+        "src": "/assets/hardware/gpu-riva128.jpg",
+        "picturedModel": "Diamond Viper V330 AGP (NVIDIA RIVA 128)",
+        "sourceUrl": "https://en.wikipedia.org/wiki/File:Diamond_Viper_V330_AGP_@_nVIDIA_RIVA_128.jpg",
+        "attribution": "Mathías Tabó / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "width": 960,
+        "height": 634,
+        "kind": "exact"
+      },
+      "sourceLocalSha256": "93fb5a2994efe6059e70a4e33deccfdab35add3de1d51781b936bf867c77a8af",
+      "admittedAfter": true
+    }
+  ]
+}

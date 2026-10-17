@@ -16,64 +16,64 @@
       "label": "Graphics cards",
       "items": 165,
       "atLeastThreeSpecs": 146,
-      "strictExactImages": 27,
-      "missingImages": 104
+      "strictExactImages": 35,
+      "missingImages": 17
     },
     {
       "id": "cpu",
       "label": "Processors",
       "items": 167,
       "atLeastThreeSpecs": 167,
-      "strictExactImages": 27,
-      "missingImages": 131
+      "strictExactImages": 68,
+      "missingImages": 97
     },
     {
       "id": "board",
       "label": "Motherboards",
       "items": 120,
       "atLeastThreeSpecs": 94,
-      "strictExactImages": 35,
-      "missingImages": 80
+      "strictExactImages": 113,
+      "missingImages": 2
     },
     {
       "id": "ram",
       "label": "Memory",
       "items": 66,
       "atLeastThreeSpecs": 64,
-      "strictExactImages": 4,
-      "missingImages": 0
+      "strictExactImages": 1,
+      "missingImages": 6
     },
     {
       "id": "ssd",
       "label": "SSDs",
       "items": 78,
       "atLeastThreeSpecs": 78,
-      "strictExactImages": 4,
-      "missingImages": 0
+      "strictExactImages": 2,
+      "missingImages": 44
     },
     {
       "id": "hdd",
       "label": "Hard drives",
       "items": 45,
       "atLeastThreeSpecs": 42,
-      "strictExactImages": 1,
-      "missingImages": 0
+      "strictExactImages": 14,
+      "missingImages": 24
     },
     {
       "id": "psu",
       "label": "Power supplies",
       "items": 70,
       "atLeastThreeSpecs": 0,
-      "strictExactImages": 3,
-      "missingImages": 0
+      "strictExactImages": 1,
+      "missingImages": 2
     },
     {
       "id": "case",
       "label": "PC cases",
       "items": 86,
       "atLeastThreeSpecs": 5,
-      "strictExactImages": 5,
-      "missingImages": 0
+      "strictExactImages": 15,
+      "missingImages": 1
     },
     {
       "id": "monitor",
@@ -152,7 +152,7 @@
       "label": "Case fans",
       "items": 50,
       "atLeastThreeSpecs": 50,
-      "strictExactImages": 24,
+      "strictExactImages": 43,
       "missingImages": 0
     },
     {
@@ -160,9 +160,9 @@
       "label": "CPU coolers",
       "items": 13,
       "atLeastThreeSpecs": 13,
-      "strictExactImages": 2,
-      "missingImages": 11
+      "strictExactImages": 11,
+      "missingImages": 0
     }
   ],
-  "version": "e381767edcb4"
+  "version": "a44ce36db739"
 }

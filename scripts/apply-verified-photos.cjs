@@ -1,6 +1,6 @@
 const fs=require('node:fs');
 module.exports=(records,exactOverrides={})=>{
- const repairs=require('./builder-photo-repairs.json');
+ const repairs={...require('./builder-photo-repairs.json'),...require('./component-photo-catalog.cjs').load(records)};
  for(const [id,image]of Object.entries(repairs))if(!image.visualReviewed||!image.identityEvidence||!image.sourceSha256||!fs.existsSync('dist'+image.thumbnailSrc))throw Error('Incomplete reviewed photo repair: '+id);
  const images=JSON.parse(fs.readFileSync('dist/images.json')),verified={...require('./verified-photo-overrides.json'),...exactOverrides};
  const normalized=s=>String(s).toLowerCase().replace(/\b(?:msi|asus|asrock|gigabyte|amd|intel)\b|[^a-z0-9]/g,'');
@@ -13,8 +13,12 @@ module.exports=(records,exactOverrides={})=>{
   if(!fs.existsSync('dist'+render.src))throw Error('Missing credited model render: '+id);
   if(!images[id]||images[id].kind!=='exact')images[id]=render;
  }
+ // The same identity boundary applies to product, shop and compare photos, not
+ // only the picker. Do not keep a different capacity/partner/model elsewhere.
+ const photoDelivery=require('./builder-photo-delivery.cjs'),componentCategories=require('./component-photo-catalog.cjs').categories;
+ for(const part of records){const image=images[part.id];if(image&&componentCategories.has(part.cat)&&!photoDelivery.entry(part,image,require('node:path').resolve('dist'))){removed.push({id:part.id,name:part.name,picturedModel:image.picturedModel,oldAsset:image.src,reason:'Pictured identity does not match the selected component'});delete images[part.id];}}
  fs.writeFileSync('dist/images.json',JSON.stringify(images));fs.writeFileSync('dist/image-catalog.js','window.PCP_IMAGES='+JSON.stringify(images)+';');
- const unresolved=records.filter(p=>['cpu','gpu','board','phone'].includes(p.cat)&&!images[p.id]).map(p=>removed.find(x=>x.id===p.id)||previous.find(x=>x.id===p.id)||{id:p.id,name:p.name});
- fs.mkdirSync('docs/image-research',{recursive:true});fs.writeFileSync(reportFile,JSON.stringify({verifiedOverrides:Object.keys(verified).length,verifiedMappings:replaced,unresolvedMappings:unresolved,policy:'Do not show another CPU, motherboard or graphics chip as the selected product. Genuine same-chip partner images explicitly name the photographed variant. Unverified products retain specifications with an image-unavailable state.'},null,2));
+ const unresolved=records.filter(p=>(componentCategories.has(p.cat)||p.cat==='phone')&&!images[p.id]).map(p=>removed.find(x=>x.id===p.id)||previous.find(x=>x.id===p.id)||{id:p.id,name:p.name});
+ fs.mkdirSync('docs/image-research',{recursive:true});fs.writeFileSync(reportFile,JSON.stringify({verifiedOverrides:Object.keys(verified).length+Object.keys(repairs).length,verifiedMappings:replaced,unresolvedMappings:unresolved,policy:'Do not show another CPU, motherboard, capacity or exact partner SKU as the selected product. Generic graphics-chip entries may show a reviewed named board with that exact GPU and memory; their pictured variant is preserved. Unverified products retain specifications without a substituted photograph.'},null,2));
  return images;
 };
