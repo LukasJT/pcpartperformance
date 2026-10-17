@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-10-17T02:31:39.546Z",
+  "checkedAt": "2026-10-17T18:10:43.757Z",
   "state": "verified_live",
-  "commit": "33f252e9a9f5a04d8a5e073d0418d300ada123ed",
+  "commit": "01563ca9aa3d6787c220b37661eafb8ebc8c3442",
   "release": {
     "schema": 1,
     "program": "2026-10-11-continuation",
-    "commit": "33f252e9a9f5a04d8a5e073d0418d300ada123ed",
-    "generatedAt": "2026-10-17T02:28:47.586Z",
+    "commit": "01563ca9aa3d6787c220b37661eafb8ebc8c3442",
+    "generatedAt": "2026-10-17T17:14:20.370Z",
     "staging": false
   },
   "checks": [
@@ -419,7 +419,7 @@
   ],
   "articleBatch": 12,
   "downloadedMappings": 115,
-  "historyObservations": 6,
+  "historyObservations": 7,
   "currentOffers": 3,
   "scope": "Read-only public HTTP/HTML/API/asset checks. Actual browser interaction, editorial evidence and lab/field measurement remain separate receipts."
 }

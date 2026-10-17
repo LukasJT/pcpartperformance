@@ -1,0 +1,21 @@
+{
+  "checkedAt": "2026-10-17T18:12:20.3368637Z",
+  "commit": "01563ca9aa3d6787c220b37661eafb8ebc8c3442",
+  "checks": [
+    {
+      "name": "Workers Builds: pcpartperformance-live",
+      "status": "completed",
+      "conclusion": "success",
+      "details_url": "https://dash.cloudflare.com/544465516a580e551501b219bd8f089f/workers/services/view/pcpartperformance-live/production/builds/3ac92123-1df9-4905-ae1d-9fff598dceb3",
+      "started_at": "2026-10-17T17:16:01Z",
+      "completed_at": "2026-10-17T17:16:01Z",
+      "output": {
+        "title": "Workers Builds: pcpartperformance-live",
+        "summary": "\nBuild ID: [3ac92123-1df9-4905-ae1d-9fff598dceb3](https://dash.cloudflare.com/544465516a580e551501b219bd8f089f/workers/services/view/pcpartperformance-live/production/builds/3ac92123-1df9-4905-ae1d-9fff598dceb3)\nScript: [pcpartperformance-live](https://dash.cloudflare.com/544465516a580e551501b219bd8f089f/workers/services/view/pcpartperformance-live/production)\nVersion ID: 49b82bef-0c99-493b-b312-9e4b376089e1\n",
+        "text": null,
+        "annotations_count": 0,
+        "annotations_url": "https://api.github.com/repos/LukasJT/pcpartperformance/check-runs/117455195503/annotations"
+      }
+    }
+  ]
+}

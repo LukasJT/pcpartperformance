@@ -1,6 +1,6 @@
 # UI refinement release — October 17, 2026
 
-Status: code complete and locally tested; production verification follows the release commit.
+Status: deployed and verified at https://www.pcpartperformance.com/. Production commit: 01563ca9aa3d6787c220b37661eafb8ebc8c3442.
 
 ## What changed
 
@@ -33,7 +33,7 @@ Receipts: [dark views](after-browser.json), [light views](after-light-browser.js
 
 Use the existing Cloudflare Git production branch, codex/stage2-publication-2026-10-04. Preserve the merged morning-price commit 47277f3. Do not modify DNS, the default branch or saved-browser storage. Verify the expected commit at /data/release.json and inspect actual public HTML, controllers, fonts and browser interactions before describing the work as deployed. A Git push or hosted status badge alone is insufficient.
 
-The existing Cloudflare status/log discrepancy remains unverified until an authorized dashboard session can inspect it. Record the actual status for this release separately. Roll back a display regression with a normal tested revert commit; retain newer legitimate price observations and all existing local storage keys.
+This release’s final Cloudflare check completed successfully at 2026-10-17T17:16:01Z. An earlier failure status was superseded by successful completion; its temporary cause was not diagnosed. No DNS or dashboard settings were changed. Roll back a display regression with a normal tested revert commit; retain newer legitimate price observations and all existing local storage keys.
 
 ## Remaining scope and visual debt
 
@@ -44,3 +44,14 @@ This is a UI refinement of the existing features. It does not create new measure
 Shared generation: scripts/ui-refinement.cjs, scripts/seo-pass.cjs, scripts/build-pages.cjs. Shared styles: scripts/ui-system.css, scripts/ui-destinations.css, scripts/ui-selectors.css, scripts/builder-picker.css. Interaction source: scripts/continuation-ui.js, scripts/builder-selectors.js, scripts/select-ui.js. Portable prepared outputs: scripts/prepare-ui-runtime.cjs, scripts/prepared-ui/. Versioned font caching: scripts/worker.mjs. Generated pages/styles/controllers/fonts live under dist/.
 
 Research used for the implementation: [WAI modal dialog pattern](https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/), [Google crawlable links](https://developers.google.com/search/docs/crawling-indexing/links-crawlable), and the original font licenses recorded in font-sources.json. These guide behavior and evidence; they are not ranking or conformance guarantees.
+
+## Verified live delivery
+
+- Production marker identifies **01563ca9aa3d6787c220b37661eafb8ebc8c3442** on the standard live URL, with staging disabled. The previous morning-price commit remains an ancestor.
+- [Existing release checks](../master-completion/qa/live-verification.json): **58 passed**, covering canonical routes, published article/model availability, real 404/host redirects, source/privacy boundaries and regional price APIs.
+- [UI delivery checks](live-verification.json): **18 passed**, including exact stylesheet fingerprints/bytes across 13 pages, all three UI controller files and the two main font hashes, MIME types and immutable caching. No local QA instrumentation was published.
+- [Actual live browser](live-browser.json): **9 journeys passed** against https://www.pcpartperformance.com/ in an isolated browser. Local saved revisions were test-only and no user profile was touched. The live site does not include the local axe runner; open-state automated accessibility evidence remains in the separate local receipt.
+- [Hosting status](cloudflare-release.json): final completed **success**, matching the independently verified live code release.
+- [Clean tracked build](clean-build.json): full generation plus nine UI unit tests and all seven payload gates passed without ignored development dependencies; **43 stylesheet bundle fingerprints matched**. The temporary copy was removed after verification.
+
+This receipt update changes documentation only. Production remains on the verified code commit.

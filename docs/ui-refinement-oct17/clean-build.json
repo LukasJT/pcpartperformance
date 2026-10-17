@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-10-17T17:09:49.839Z",
+  "commit": "01563ca9aa3d6787c220b37661eafb8ebc8c3442",
+  "temporaryDirectory": "C:\\Users\\slowf\\Documents\\Codex\\2026-09-15\\lukasjt-pcpartperformance-x20\\pcpartperformance\\tmp\\ui-clean-9LOleV",
+  "trackedFiles": 3078,
+  "hardLinkedImmutableModels": 238,
+  "ignoredDependencies": false,
+  "results": [
+    {
+      "command": "scripts/build-pages.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "scripts/ui-refinement.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "scripts/check-program-performance.cjs",
+      "exitCode": 0,
+      "passed": true
+    }
+  ],
+  "styleBundles": 43,
+  "elapsedMs": 76751,
+  "passed": true,
+  "scope": "Windows Node24, tracked sources only. Immutable GLBs are hard-linked input assets; generated HTML/CSS/controllers are rebuilt. Not a Linux or live deployment test."
+}

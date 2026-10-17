@@ -15,11 +15,11 @@ Scope: improve the existing product and preserve its routes, exact hardware iden
 | UI-02 | Spacious part picker; visible search without input autofocus; compact empty choice; short count; category-specific icons | `builder-selectors.js`, `builder-picker.css`, `builder-workspace.css` | Implemented and tested |
 | UI-03 | Task illustrations and clearer Build/Upgrade/Compare/Learn/My PC/Compatibility entry points | `ui-refinement.cjs`, `ui-destinations.css` | Implemented and tested |
 | UI-04 | Typography, forms, cards, product imagery, reading rhythm, mobile stacking | Shared styles; retained templates | Implemented and visually reviewed |
-| UI-05 | Both themes, mobile/tablet/desktop, filters, imports, saving, focus and reduced motion | Isolated browser QA and regression checks | Tested; production verification pending |
+| UI-05 | Both themes, mobile/tablet/desktop, filters, imports, saving, focus and reduced motion | Isolated browser QA and regression checks | Passed; deployed and verified |
 | UI-06 | Existing payload budgets, route/metadata integrity and production verification | Existing build, audits and Git release | Pending |
 
 Before screenshots and the actual browser report are stored here. After reports must describe current tests, not reuse the previous release's results as proof of this layout.
 
 ## Final implementation checkpoint
 
-UI-01–UI-05 are implemented and tested. UI-06 passes local generation, unchanged payload budgets and HTML integrity gates; clean tracked-file build and actual live verification follow the release commit. See RELEASE.md and the linked raw receipts.
+UI-01–UI-06 are implemented, tested and deployed. The clean tracked-file build passed, all seven original payload budgets passed, 58 public release checks and 18 UI delivery checks passed, and all nine live interaction journeys passed. Cloudflare’s final check is successful. See RELEASE.md and its raw receipts.

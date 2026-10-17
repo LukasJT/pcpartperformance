@@ -1,0 +1,130 @@
+{
+  "checkedAt": "2026-10-17T18:11:13.561Z",
+  "commit": "01563ca9aa3d6787c220b37661eafb8ebc8c3442",
+  "release": {
+    "schema": 1,
+    "program": "2026-10-11-continuation",
+    "commit": "01563ca9aa3d6787c220b37661eafb8ebc8c3442",
+    "generatedAt": "2026-10-17T17:14:20.370Z",
+    "staging": false
+  },
+  "checks": [
+    {
+      "route": "/",
+      "header": "single responsive tree",
+      "styles": [
+        "/assets/css/site-efe80149b983.css"
+      ]
+    },
+    {
+      "route": "/builder/",
+      "header": "single responsive tree",
+      "styles": [
+        "/assets/css/site-e7d4a41dd4b5.css"
+      ]
+    },
+    {
+      "route": "/upgrade/",
+      "header": "single responsive tree",
+      "styles": [
+        "/assets/css/site-11c6071e2d92.css"
+      ]
+    },
+    {
+      "route": "/compare/",
+      "header": "single responsive tree",
+      "styles": [
+        "/assets/css/site-1ebd41ccf82d.css"
+      ]
+    },
+    {
+      "route": "/blog/",
+      "header": "single responsive tree",
+      "styles": [
+        "/assets/css/site-1c922a781cce.css"
+      ]
+    },
+    {
+      "route": "/my-pc/",
+      "header": "single responsive tree",
+      "styles": [
+        "/assets/css/site-c91aa5c4593c.css"
+      ]
+    },
+    {
+      "route": "/compatibility/",
+      "header": "single responsive tree",
+      "styles": [
+        "/assets/css/site-5357b57d4d98.css"
+      ]
+    },
+    {
+      "route": "/phones/",
+      "header": "single responsive tree",
+      "styles": [
+        "/assets/css/site-d1335e564eac.css"
+      ]
+    },
+    {
+      "route": "/phones/size-compare/",
+      "header": "single responsive tree",
+      "styles": [
+        "/assets/css/site-0addd6e82673.css"
+      ]
+    },
+    {
+      "route": "/shop/",
+      "header": "single responsive tree",
+      "styles": [
+        "/assets/css/site-cab7d46cada8.css"
+      ]
+    },
+    {
+      "route": "/performance/",
+      "header": "single responsive tree",
+      "styles": [
+        "/assets/css/site-473dcf328e53.css"
+      ]
+    },
+    {
+      "route": "/learn/rtx5070.html",
+      "header": "single responsive tree",
+      "styles": [
+        "/assets/css/site-8cc4b13187b0.css"
+      ]
+    },
+    {
+      "route": "/about/",
+      "header": "single responsive tree",
+      "styles": [
+        "/assets/css/site-c917dd948821.css"
+      ]
+    },
+    {
+      "asset": "/continuation-ui.js",
+      "runtimeMatches": true
+    },
+    {
+      "asset": "/builder-selectors.js",
+      "runtimeMatches": true
+    },
+    {
+      "asset": "/select-ui.js",
+      "runtimeMatches": true
+    },
+    {
+      "font": "dm-sans-latin-v17.woff2",
+      "bytes": 36932,
+      "sha256": "9fea608a947e67020c33cad9a6fe3d60c54119dfb8cff87768a8117a15ed7543",
+      "immutable": true
+    },
+    {
+      "font": "space-grotesk-latin-v22.woff2",
+      "bytes": 22288,
+      "sha256": "0640890476fc1198ab4de571fb658de443c4d85b66466ec09534a8737ab1ce9d",
+      "immutable": true
+    }
+  ],
+  "passed": true,
+  "scope": "Actual public HTTPS HTML, stylesheet/controller bytes and versioned font delivery. Browser behavior and field performance are separate evidence."
+}
