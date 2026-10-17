@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-17T21:51:14.706Z",
+  "checkedAt": "2026-10-17T22:18:40.494Z",
   "origin": "http://127.0.0.1:4198",
   "checks": [
     {
@@ -72,14 +72,16 @@
       }
     },
     {
-      "name": "Country and theme utilities work inside the mobile menu",
+      "name": "Declining optional ads preserves country and theme utilities inside the mobile menu",
       "passed": true,
       "evidence": {
         "regionRestored": "CA",
         "themes": [
           "dark",
           "light"
-        ]
+        ],
+        "advertisingChoice": "declined",
+        "adFrames": 0
       }
     },
     {
@@ -88,9 +90,9 @@
       "evidence": {
         "modal": {
           "x": 12,
-          "y": 25.183238983154297,
+          "y": 28.259252548217773,
           "width": 366,
-          "height": 779.9999885559082
+          "height": 780.0000247955322
         },
         "emptyHeight": 44,
         "productHeight": 108.140625,

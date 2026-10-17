@@ -148,5 +148,6 @@ require("./seo-pass.cjs")({root,records,shell,write,esc});
 const completionSEO=require("./completion-seo.cjs")({root,records},{reportDirectory:path.resolve('docs/master-completion/seo')});
 const priceSnapshot=path.join(__dirname,'../data/public-price-snapshot.json');
 if(fs.existsSync(priceSnapshot)){fs.mkdirSync(path.join(root,'data'),{recursive:true});fs.copyFileSync(priceSnapshot,path.join(root,'data/public-price-snapshot.json'));}
+require('./build-ad-assets.cjs')(root);
 require("./program-routing.cjs").buildManifest({root,records,extraRedirects:completionSEO.routeRedirects});
 fs.writeFileSync(path.join(__dirname,'news-publications.mjs'),'export default '+JSON.stringify(require('./continuation-publication.cjs').resolve().filter(a=>a.type==='news'&&a.confirmedDeployment).map(a=>({route:a.route,title:a.title,datePublished:a.datePublished,status:a.status,editorApproved:a.editorApproved,confirmedDeployment:a.confirmedDeployment,sourceIds:a.sourceIds}))).replace(/</g,'\\u003c')+';\n');

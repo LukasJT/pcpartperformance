@@ -22,10 +22,11 @@ async function main(){
    const menuA11y=await audit();await page.screenshot({path:path.join(directory,'after','menu-mobile-dark.png'),animations:'disabled'});await page.keyboard.press('Escape');assert.equal(await page.locator('main').evaluate(e=>e.inert),false);assert.equal(await page.evaluate(()=>document.activeElement.textContent.trim()),'Menu');
    return{headerHeight:header.height,guidedRowHeight:row.height,partAlignment,mainUnlocked:true,iconAlignment:alignment,automatedViolations:menuA11y};
   });
-  await test('Country and theme utilities work inside the mobile menu',async()=>{
-   await visit('/');await page.getByRole('button',{name:'Menu',exact:true}).click();await page.getByRole('button',{name:'US — Shop in the United States, US dollars',exact:true}).click();assert.equal(await page.locator('html').getAttribute('data-region'),'US');
+  await test('Declining optional ads preserves country and theme utilities inside the mobile menu',async()=>{
+   await visit('/');const consent=page.getByRole('dialog',{name:'Advertising preferences',exact:true});await consent.getByRole('button',{name:'Decline',exact:true}).click();await consent.waitFor({state:'hidden'});assert.equal(await page.evaluate(()=>localStorage.getItem('pcp-ad-consent')),'declined');assert.equal(await page.locator('.pcp-ad-frame').count(),0);
+   await page.getByRole('button',{name:'Menu',exact:true}).click();await page.getByRole('button',{name:'US — Shop in the United States, US dollars',exact:true}).click();assert.equal(await page.locator('html').getAttribute('data-region'),'US');
    await page.getByRole('button',{name:'Switch to light mode',exact:true}).click();await page.waitForFunction(()=>document.documentElement.dataset.theme==='light');await page.keyboard.press('Escape');await page.screenshot({path:path.join(directory,'after','home-mobile-light.png'),animations:'disabled'});
-   await page.getByRole('button',{name:'Menu',exact:true}).click();await page.getByRole('button',{name:'CA — Shop in Canada, Canadian dollars',exact:true}).click();await page.getByRole('button',{name:'Switch to dark mode',exact:true}).click();await page.keyboard.press('Escape');return{regionRestored:'CA',themes:['dark','light']};
+   await page.getByRole('button',{name:'Menu',exact:true}).click();await page.getByRole('button',{name:'CA — Shop in Canada, Canadian dollars',exact:true}).click();await page.getByRole('button',{name:'Switch to dark mode',exact:true}).click();await page.keyboard.press('Escape');return{regionRestored:'CA',themes:['dark','light'],advertisingChoice:'declined',adFrames:0};
   });
   await test('Builder picker shows products, keeps search unfocused and makes the empty action compact',async()=>{
    await visit('/builder/');await page.getByRole('button',{name:'Expert',exact:true}).click();await page.getByRole('button',{name:/Choose Power supply:/i}).click();const modal=page.locator('#builder-picker');await modal.waitFor({state:'visible'});

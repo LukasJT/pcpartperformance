@@ -1,6 +1,6 @@
 const fs=require('fs'),path=require('path'),assert=require('node:assert/strict');
 const root=path.resolve('dist'),domain='https://www.pcpartperformance.com',pages=[];
-function walk(d){for(const e of fs.readdirSync(d,{withFileTypes:true})){const f=path.join(d,e.name);if(e.isDirectory())walk(f);else if(e.name.endsWith('.html'))pages.push(f)}}walk(root);
+function walk(d){for(const e of fs.readdirSync(d,{withFileTypes:true})){const f=path.join(d,e.name);if(e.isDirectory()){if(path.relative(root,f)!=='ads')walk(f)}else if(e.name.endsWith('.html'))pages.push(f)}}walk(root);
 let checked=0,links=0,aliases=0,indexable=0;const titles=new Map(),titleReview=[],identityAudit=JSON.parse(fs.readFileSync('docs/program-2026-10-09/product-integrity-audit.json')),sitemap=fs.readFileSync(path.join(root,'sitemap.xml'),'utf8');
 for(const file of pages){const h=fs.readFileSync(file,'utf8');if(h.includes('data-legacy-redirect'))continue;checked++;const route='/'+path.relative(root,file).replaceAll('\\','/').replace(/index\.html$/,'');
 for(const [label,re]of [['h1',/<h1[ >]/g],['title',/<title>/g],['description',/<meta name="description"/g],['canonical',/rel="canonical"/g],['robots',/<meta name="robots"/g],['Open Graph title',/property="og:title"/g],['Twitter title',/name="twitter:title"/g]])assert.equal([...h.matchAll(re)].length,1,route+' '+label);

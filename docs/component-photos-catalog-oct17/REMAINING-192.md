@@ -12,7 +12,7 @@ Seven records need product-identity clarification. This is incomplete exact-phot
 | IMGR-2: inspect actual pictures and retain provenance | IMGR-1 | 185 reviewed bindings, 370 WebP assets | Eight `scripts/component-photo-remaining-*-oct17.json` registries; source and delivery contact sheets |
 | IMGR-3: integrate across existing presentations | IMGR-2 | Implemented | Central registry; builder, catalog, shop, comparisons and generated product pages |
 | IMGR-4: keep delivery compact | IMGR-3 | Implemented | `program-image-delivery.cjs`: shared directory/filename prefixes; exact list names use catalog alternatives; generic GPU variants retain their pictured identity |
-| IMGR-5: verify data and browser behavior | IMGR-4 | Receipts in `qa/`; rerun after production-branch integration | Full build, repository checks, file decoding, HTML checks, mobile and desktop browser checks |
+| IMGR-5: verify data and browser behavior | IMGR-4 | Passed after production-branch integration | Full build; 77 repository check groups; 30 photo/layout cases; nine interaction journeys; file decoding; HTML, resource, type and scoped lint checks |
 | IMGR-6: publish and verify production | IMGR-5 | Pending live release verification | Existing Git deployment; exact production marker, public asset hashes and rendered checks |
 
 ## Seven outstanding identities
@@ -43,5 +43,7 @@ Detailed source URLs and rejected candidates are in `remaining-special-audit.jso
 ## Release workflow and rollback
 
 Preserve newer production commits by a normal merge, rebuild and rerun affected checks. Publish through `codex/stage2-publication-2026-10-04` and the existing `pcpartperformance-live` Worker. Verify the exact commit in `/data/release.json`, image-index content, all reviewed asset byte hashes and rendered mobile/desktop pictures. A Git push alone is not proof of a completed deployment.
+
+Production integration preserved the four newer advertising commits through `2158ac8`. It also exposed a sitemap defect: internal ad-frame HTML could enter the page-generation pipeline. The SEO pass now excludes `dist/ads`, and those five documents are registered as assets, remain noindex, and stay out of the public sitemap. A regression test covers this boundary. The final page count remains 1,592, including 1,088 indexable pages. The interaction check explicitly declines optional ads and verifies that region and theme controls remain usable without loading ad frames.
 
 For rollback, use a reviewed revert commit through the same build/deployment workflow. Preserve the newer production changes, existing stable IDs, saved builds and source records. Do not reset or force-push deployment history.

@@ -2,7 +2,7 @@
 const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto');
 function audit(root='dist'){
  const inline=new Map(),handlers=[],scripts=new Set(),frames=new Set(),links=new Set();let pages=0;
- function walk(dir){for(const entry of fs.readdirSync(dir,{withFileTypes:true})){const file=path.join(dir,entry.name);if(entry.isDirectory())walk(file);else if(entry.name.endsWith('.html')){
+ function walk(dir){for(const entry of fs.readdirSync(dir,{withFileTypes:true})){const file=path.join(dir,entry.name);if(entry.isDirectory()){if(entry.name!=='ads')walk(file)}else if(entry.name.endsWith('.html')){
   pages++;const html=fs.readFileSync(file,'utf8');
   for(const m of html.matchAll(/<script([^>]*)>([\s\S]*?)<\/script>/gi)){
    const src=m[1].match(/\bsrc=["']([^"']+)/i);if(src)scripts.add(src[1]);

@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-10-17T21:55:34.751Z",
-  "commands": 76,
-  "passed": 76,
+  "checkedAt": "2026-10-17T22:14:01.178Z",
+  "commands": 77,
+  "passed": 77,
   "results": [
     {
       "command": "node scripts/check-program.cjs",
@@ -380,6 +380,11 @@
     },
     {
       "command": "node scripts/component-photo-catalog.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/ad-assets-indexing.test.cjs",
       "exitCode": 0,
       "passed": true
     }
