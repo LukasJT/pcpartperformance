@@ -1,0 +1,86 @@
+[
+  {
+    "route": "/",
+    "protocol": "Cua screenshot to allow background preview paint, then fixed 3500ms observation. Capture can affect paint timing.",
+    "cachePolicy": "Existing browser cache retained; viewport-only mobile emulation; no network/CPU throttling",
+    "environment": "unthrottled local browser; not field Core Web Vitals",
+    "sampleWindowMs": 5616.4000000059605,
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "lcp": 2088,
+    "cls": 0,
+    "shiftDetails": [],
+    "longTasks": 0,
+    "longTaskMs": 0,
+    "domContentLoaded": 121.40000000596046,
+    "serverWait": 2.800000011920929,
+    "resourceTransfer": 55911,
+    "threeDRequests": 0,
+    "resources": 15
+  },
+  {
+    "route": "/builder/",
+    "protocol": "Cua screenshot to allow background preview paint, then fixed 3500ms observation. Capture can affect paint timing.",
+    "cachePolicy": "Existing browser cache retained; viewport-only mobile emulation; no network/CPU throttling",
+    "environment": "unthrottled local browser; not field Core Web Vitals",
+    "sampleWindowMs": 4787.700000017881,
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "lcp": 1468,
+    "cls": 0,
+    "shiftDetails": [],
+    "longTasks": 1,
+    "longTaskMs": 97,
+    "domContentLoaded": 294.5,
+    "serverWait": 2.7000000178813934,
+    "resourceTransfer": 172100,
+    "threeDRequests": 0,
+    "resources": 34
+  },
+  {
+    "route": "/",
+    "protocol": "Cua screenshot to allow background preview paint, then fixed 3500ms observation. Capture can affect paint timing.",
+    "cachePolicy": "Existing browser cache retained; viewport-only mobile emulation; no network/CPU throttling",
+    "environment": "unthrottled local browser; not field Core Web Vitals",
+    "sampleWindowMs": 4617.4000000059605,
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "lcp": 1472,
+    "cls": 0,
+    "shiftDetails": [],
+    "longTasks": 0,
+    "longTaskMs": 0,
+    "domContentLoaded": 117.10000002384186,
+    "serverWait": 2.699999988079071,
+    "resourceTransfer": 55911,
+    "threeDRequests": 0,
+    "resources": 15
+  },
+  {
+    "route": "/builder/",
+    "protocol": "Cua screenshot to allow background preview paint, then fixed 3500ms observation. Capture can affect paint timing.",
+    "cachePolicy": "Existing browser cache retained; viewport-only mobile emulation; no network/CPU throttling",
+    "environment": "unthrottled local browser; not field Core Web Vitals",
+    "sampleWindowMs": 4776.0999999940395,
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "lcp": 1484,
+    "cls": 0,
+    "shiftDetails": [],
+    "longTasks": 1,
+    "longTaskMs": 92,
+    "domContentLoaded": 285,
+    "serverWait": 2.5999999940395355,
+    "resourceTransfer": 172100,
+    "threeDRequests": 0,
+    "resources": 34
+  }
+]

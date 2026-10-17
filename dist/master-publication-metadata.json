@@ -154,9 +154,10 @@
     "description": "A shared socket is one requirement. Before ordering a CPU, find the exact motherboard support entry, minimum firmware version and a supported way to obtain it. Unknown shipped BIOS is still unknown; an update method available on one board does not establish that another board can use it.",
     "noindex": false,
     "publicationAuthorized": true,
-    "editorialId": "M06",
+    "editorialId": "MC01",
+    "completionFingerprint": "8bcd9d46abbf19334b16efd22aee2f837fde5b7a2a558002c552a927402460d6",
     "datePublished": "2026-10-13",
-    "dateModified": null,
+    "dateModified": "2026-10-16",
     "image": {
       "src": "/assets/editorial-master/M06.png",
       "alt": "Decision diagram for Check CPU and BIOS support: exact model, minimum version and update method",
@@ -169,9 +170,10 @@
     "description": "Buying in stages works only when each intermediate configuration can perform the tasks you still need. Group dependent CPU, board and memory changes, preserve recovery and support evidence, and recheck each later purchase. A future shopping list is not proof that the machine will work between purchases.",
     "noindex": false,
     "publicationAuthorized": true,
-    "editorialId": "M07",
+    "editorialId": "MC02",
+    "completionFingerprint": "d4ea9daf72879f4f21d23bf425e13e2d0be5b8cf9c5aa8fd41be9fe8e569c1fb",
     "datePublished": "2026-10-13",
-    "dateModified": null,
+    "dateModified": "2026-10-16",
     "image": {
       "src": "/assets/editorial-master/M07.png",
       "alt": "Decision diagram for Plan a phased PC upgrade: make every intermediate build usable",
@@ -184,9 +186,10 @@
     "description": "A wattage label is one requirement, not a complete PSU selection. Check the whole system, exact component connection instructions, physical layout and manufacturer-approved modular cables. Preserve unknowns; matching plugs or a plausible 3D scene do not establish a safe installation.",
     "noindex": false,
     "publicationAuthorized": true,
-    "editorialId": "M08",
+    "editorialId": "MC03",
+    "completionFingerprint": "260f4664b4f6facdef9282873ce832d61a48bea582b65d49053ec87addeaf591",
     "datePublished": "2026-09-18",
-    "dateModified": "2026-10-13",
+    "dateModified": "2026-10-16",
     "image": {
       "src": "/assets/editorial-master/M08.png",
       "alt": "Decision diagram for Choose a PC power supply: wattage, connectors, fit and the correct cables",
@@ -355,5 +358,95 @@
     "editorialId": "T16-C02",
     "datePublished": "2026-10-11T22:03:10.405Z",
     "dateModified": "2026-10-16"
+  },
+  "/blog/read-hardware-benchmarks-test-conditions/": {
+    "title": "How to read GPU benchmarks without comparing the wrong tests",
+    "description": "Compare results only after checking the game, settings, system, capture method and metric. A bigger FPS number can describe a different test. Use the original evidence to decide whether a result answers your question before using it to choose a part.",
+    "noindex": false,
+    "publicationAuthorized": true,
+    "editorialId": "MC04",
+    "completionFingerprint": "f67a8871ccffaefb509cfbbb07032c8c3ce9d0fa54dcd2786ad2b84a4a4e9fc0",
+    "datePublished": "2026-10-16",
+    "dateModified": null
+  },
+  "/blog/32gb-vs-64gb-ram-workloads/": {
+    "title": "32 GB vs 64 GB RAM: decide from the work your PC actually does",
+    "description": "Choose capacity from the applications, projects and multitasking you need, then check the exact platform and kit. Doubling RAM capacity does not promise double performance. Keep a working 32 GB setup unless a documented requirement or repeatable capacity problem supports the change.",
+    "noindex": false,
+    "publicationAuthorized": true,
+    "editorialId": "MC05",
+    "completionFingerprint": "eec64c1954d5ff9572f7492bb621f192e8cf6a0eaa1c33815fb2c4f32d8483c1",
+    "datePublished": "2026-10-16",
+    "dateModified": null
+  },
+  "/blog/reuse-pc-components-new-build/": {
+    "title": "Which PC parts can you reuse? A keep, replace and verify checklist",
+    "description": "Reuse a component when its exact identity, condition and requirements suit the next complete PC. Start with an inventory, protect your data and check the dependencies. A part being old is not a reason to replace it; a part already owned is not automatic proof that it fits.",
+    "noindex": false,
+    "publicationAuthorized": true,
+    "editorialId": "MC06",
+    "completionFingerprint": "9cf85d7e416b9b358928dc277ed66062200879188695fa2723e3d6c4f04c4d84",
+    "datePublished": "2026-10-16",
+    "dateModified": null
+  },
+  "/blog/gaming-streaming-pc-planning/": {
+    "title": "Plan a gaming and streaming PC around the stream you want to make",
+    "description": "Test the game, capture scene, encoder and network together before choosing an upgrade. Streaming adds more than an encoding job, and a stream problem is not automatically a slow GPU. Start with the actual output you need and separate rendering, encoding and connection problems.",
+    "noindex": false,
+    "publicationAuthorized": true,
+    "editorialId": "MC07",
+    "completionFingerprint": "f7d1846a54c9a7b92e24bb77ec9c33ae46a99d3cc9b2ce6e66516c041112d38f",
+    "datePublished": "2026-10-16",
+    "dateModified": null
+  },
+  "/blog/video-editing-pc-workload-checklist/": {
+    "title": "Plan a video-editing PC from your projects, not a gaming label",
+    "description": "Record the editor version, source media, effects, output and working-storage needs before choosing parts. A requirements list can establish support; it cannot predict your timeline or export speed. Use a small representative project to identify the work the next PC needs to improve.",
+    "noindex": false,
+    "publicationAuthorized": true,
+    "editorialId": "MC08",
+    "completionFingerprint": "bedcf1299b5278426e5decfd9923ae0f08b900dff13fd08d4c449318027180a5",
+    "datePublished": "2026-10-16",
+    "dateModified": null
+  },
+  "/blog/compact-quiet-pc-fit-cooling/": {
+    "title": "Plan a compact PC with a realistic noise goal",
+    "description": "Choose a small PC layout, check shared GPU and cooler space, and plan repeatable noise checks without mistaking fit for cooling performance.",
+    "noindex": false,
+    "publicationAuthorized": true,
+    "editorialId": "MX01",
+    "completionExtraFingerprint": "310b361da29585aabc551c6251e04b45ad8f9a74b02afae05cfb024f2882e127",
+    "datePublished": "2026-10-16",
+    "dateModified": null
+  },
+  "/blog/buying-used-pc-parts-checklist/": {
+    "title": "What to check before buying used PC parts",
+    "description": "Check exact model identity, condition evidence, warranty terms, missing accessories and the complete cost before buying a used GPU or other PC component.",
+    "noindex": false,
+    "publicationAuthorized": true,
+    "editorialId": "MX02",
+    "completionExtraFingerprint": "462488b78414a53ed0663effcd589330a395cf32d0d935219179b1943c2e7397",
+    "datePublished": "2026-10-16",
+    "dateModified": null
+  },
+  "/blog/ryzen-7800x3d-north-air-vs-aio/": {
+    "title": "Air cooler or AIO for a Ryzen 7 7800X3D in the original North?",
+    "description": "Compare NH-U12A and Liquid Freezer III 240 fit checks for a Ryzen 7 7800X3D in the original Fractal North, with layout conditions kept explicit.",
+    "noindex": false,
+    "publicationAuthorized": true,
+    "editorialId": "MX03",
+    "completionExtraFingerprint": "115ecbe913468ceb15e5a232a0afb6276a4f8d14cf3bfc04b3c8cbfb1e999202",
+    "datePublished": "2026-10-16",
+    "dateModified": null
+  },
+  "/blog/rtx-3060-upgrade-or-keep/": {
+    "title": "RTX 3060 upgrade options: when to keep the card",
+    "description": "Start with your exact RTX 3060 variant and actual games, then compare keeping it with documented GPU candidates and the complete cost of changing.",
+    "noindex": false,
+    "publicationAuthorized": true,
+    "editorialId": "MX04",
+    "completionExtraFingerprint": "ddcc93ed7ce29eb5c8c58652993993807c7dfa09d188391ab402a04562605d90",
+    "datePublished": "2026-10-16",
+    "dateModified": null
   }
 }

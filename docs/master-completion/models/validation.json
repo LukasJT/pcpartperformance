@@ -1,0 +1,532 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-17T01:27:53.005Z",
+  "validatorVersion": "2.0.0-dev.3.10",
+  "method": "Khronos structural GLB validation plus Meshopt decoding, embedded image pixel decoding, finite accessors, self-contained resources, immutable source/asset hashes, source-license/title joins and preserved triangle counts/bounds. No physical clearance or real-GPU rendering certification.",
+  "assets": [
+    {
+      "id": "cooler-amd-wraith-stealth",
+      "uid": "843413eefdc9437b816a874628cc310f",
+      "asset": "/assets/models/completion/amd-wraith-stealth.glb",
+      "bytes": 1410404,
+      "sha256": "40717cca54c6d6017b90616b7a08d4afff0c9836040c4c6c7f22390cb43e6289",
+      "errors": 0,
+      "warnings": 3,
+      "issueCodes": {
+        "UNSUPPORTED_EXTENSION": 1,
+        "UNUSED_OBJECT": 1,
+        "MESH_PRIMITIVE_GENERATED_TANGENT_SPACE": 3
+      },
+      "decodedImages": [
+        {
+          "index": 0,
+          "mimeType": "image/webp",
+          "encodedBytes": 60794,
+          "width": 1024,
+          "height": 1024,
+          "channels": 3,
+          "decodedPixelBytes": 3145728
+        },
+        {
+          "index": 1,
+          "mimeType": "image/webp",
+          "encodedBytes": 379122,
+          "width": 1024,
+          "height": 1024,
+          "channels": 3,
+          "decodedPixelBytes": 3145728
+        },
+        {
+          "index": 2,
+          "mimeType": "image/webp",
+          "encodedBytes": 3928,
+          "width": 1024,
+          "height": 1024,
+          "channels": 3,
+          "decodedPixelBytes": 3145728
+        },
+        {
+          "index": 3,
+          "mimeType": "image/webp",
+          "encodedBytes": 98752,
+          "width": 1024,
+          "height": 1024,
+          "channels": 3,
+          "decodedPixelBytes": 3145728
+        },
+        {
+          "index": 4,
+          "mimeType": "image/webp",
+          "encodedBytes": 4750,
+          "width": 1024,
+          "height": 1024,
+          "channels": 3,
+          "decodedPixelBytes": 3145728
+        },
+        {
+          "index": 5,
+          "mimeType": "image/webp",
+          "encodedBytes": 39330,
+          "width": 1024,
+          "height": 1024,
+          "channels": 3,
+          "decodedPixelBytes": 3145728
+        },
+        {
+          "index": 6,
+          "mimeType": "image/webp",
+          "encodedBytes": 378718,
+          "width": 1024,
+          "height": 1024,
+          "channels": 3,
+          "decodedPixelBytes": 3145728
+        }
+      ],
+      "finiteValues": 508779,
+      "triangles": 48875,
+      "bounds": {
+        "min": [
+          -7.868331469699317,
+          -5.076375317528425,
+          -9.285696025319837
+        ],
+        "max": [
+          19.365462308695356,
+          3.047690716981389,
+          7.534499365511654
+        ]
+      },
+      "sourceLicense": "CC BY 4.0",
+      "creator": "PolyDavid"
+    },
+    {
+      "id": "retail-msi-geforce-gtx-1660-gaming-x-6g",
+      "uid": "4a5f8ce0a7ca40dd8a479dd556eb98b0",
+      "asset": "/assets/models/completion/msi-gtx-1660-gaming-x-6g.glb",
+      "bytes": 712008,
+      "sha256": "2b645829fbfac3a5fdd38ef8d59a46328a86fd20f6aa13c27088173e9d0ec045",
+      "errors": 0,
+      "warnings": 0,
+      "issueCodes": {
+        "UNSUPPORTED_EXTENSION": 1
+      },
+      "decodedImages": [
+        {
+          "index": 0,
+          "mimeType": "image/webp",
+          "encodedBytes": 305284,
+          "width": 1024,
+          "height": 1024,
+          "channels": 3,
+          "decodedPixelBytes": 3145728
+        },
+        {
+          "index": 1,
+          "mimeType": "image/webp",
+          "encodedBytes": 202992,
+          "width": 1024,
+          "height": 1024,
+          "channels": 3,
+          "decodedPixelBytes": 3145728
+        }
+      ],
+      "finiteValues": 237690,
+      "triangles": 30126,
+      "bounds": {
+        "min": [
+          -0.5943999886512756,
+          -0.000009693343604094684,
+          -0.3812707590402695
+        ],
+        "max": [
+          0.5943999886512756,
+          0.16034968956228537,
+          0.3812707590402695
+        ]
+      },
+      "sourceLicense": "CC BY 4.0",
+      "creator": "descloizite"
+    },
+    {
+      "id": "retail-msi-meg-z590-ace-gold-edition",
+      "uid": "7a0057a17f404cb296035c3adcd130f9",
+      "asset": "/assets/models/completion/msi-meg-z590-ace-gold.glb",
+      "bytes": 539404,
+      "sha256": "22f3e395a7246184102ef25d8cc5b97b97e04f906529fa459f4bd11ee0c7a612",
+      "errors": 0,
+      "warnings": 0,
+      "issueCodes": {
+        "UNSUPPORTED_EXTENSION": 1
+      },
+      "decodedImages": [
+        {
+          "index": 0,
+          "mimeType": "image/webp",
+          "encodedBytes": 91968,
+          "width": 1024,
+          "height": 512,
+          "channels": 3,
+          "decodedPixelBytes": 1572864
+        }
+      ],
+      "finiteValues": 903141,
+      "triangles": 54743,
+      "bounds": {
+        "min": [
+          -0.015404560564406207,
+          0.00001677084408144736,
+          -0.012174606931806537
+        ],
+        "max": [
+          0.015076569324560259,
+          0.001905279898915609,
+          0.01221029633395908
+        ]
+      },
+      "sourceLicense": "CC BY 4.0",
+      "creator": "dormenevamarta"
+    },
+    {
+      "id": "retail-asus-z170-p",
+      "uid": "b998596cfc4945a0bc7b016005c39321",
+      "asset": "/assets/models/completion/asus-z170-p-scan.glb",
+      "bytes": 2665424,
+      "sha256": "32d323e4878fc9f2f31ef7dbbc462ecdb355945674bb4e75a86c4fc5dd33c4f8",
+      "errors": 0,
+      "warnings": 0,
+      "issueCodes": {
+        "UNSUPPORTED_EXTENSION": 1
+      },
+      "decodedImages": [
+        {
+          "index": 0,
+          "mimeType": "image/webp",
+          "encodedBytes": 293090,
+          "width": 1024,
+          "height": 1024,
+          "channels": 3,
+          "decodedPixelBytes": 3145728
+        },
+        {
+          "index": 1,
+          "mimeType": "image/webp",
+          "encodedBytes": 206472,
+          "width": 1024,
+          "height": 1024,
+          "channels": 3,
+          "decodedPixelBytes": 3145728
+        },
+        {
+          "index": 2,
+          "mimeType": "image/webp",
+          "encodedBytes": 200182,
+          "width": 1024,
+          "height": 1024,
+          "channels": 3,
+          "decodedPixelBytes": 3145728
+        }
+      ],
+      "finiteValues": 3017328,
+      "triangles": 312196,
+      "bounds": {
+        "min": [
+          -4.172779464858472,
+          -0.004711515030407676,
+          -5.218084812164307
+        ],
+        "max": [
+          4.353859329360425,
+          1.5203105371841725,
+          6.169881820678711
+        ]
+      },
+      "sourceLicense": "CC BY 4.0",
+      "creator": "Lassi Kaukonen"
+    },
+    {
+      "id": "retail-gigabyte-trx40-aorus-xtreme-rev-1-0",
+      "uid": "ce8276877171468c808ad93aaf1d5111",
+      "asset": "/assets/models/completion/gigabyte-trx40-aorus-xtreme.glb",
+      "bytes": 1570596,
+      "sha256": "b407d4a62a8f80b39c1a7d1cae6a81d073ca6521647d8c1c69aeaee3b82b5f4e",
+      "errors": 0,
+      "warnings": 0,
+      "issueCodes": {
+        "UNSUPPORTED_EXTENSION": 1
+      },
+      "decodedImages": [
+        {
+          "index": 0,
+          "mimeType": "image/webp",
+          "encodedBytes": 19880,
+          "width": 512,
+          "height": 512,
+          "channels": 3,
+          "decodedPixelBytes": 786432
+        },
+        {
+          "index": 1,
+          "mimeType": "image/webp",
+          "encodedBytes": 239294,
+          "width": 1024,
+          "height": 1024,
+          "channels": 3,
+          "decodedPixelBytes": 3145728
+        },
+        {
+          "index": 2,
+          "mimeType": "image/webp",
+          "encodedBytes": 37250,
+          "width": 512,
+          "height": 512,
+          "channels": 3,
+          "decodedPixelBytes": 786432
+        },
+        {
+          "index": 3,
+          "mimeType": "image/webp",
+          "encodedBytes": 38034,
+          "width": 512,
+          "height": 512,
+          "channels": 3,
+          "decodedPixelBytes": 786432
+        },
+        {
+          "index": 4,
+          "mimeType": "image/webp",
+          "encodedBytes": 248350,
+          "width": 1024,
+          "height": 1024,
+          "channels": 3,
+          "decodedPixelBytes": 3145728
+        },
+        {
+          "index": 5,
+          "mimeType": "image/webp",
+          "encodedBytes": 33840,
+          "width": 512,
+          "height": 256,
+          "channels": 3,
+          "decodedPixelBytes": 393216
+        }
+      ],
+      "finiteValues": 1196825,
+      "triangles": 88499,
+      "bounds": {
+        "min": [
+          -1.52585966150605,
+          -3.2660515308380127,
+          -0.21848802551889523
+        ],
+        "max": [
+          2.46753663580262,
+          1.4398250579833984,
+          0.5398212199742535
+        ]
+      },
+      "sourceLicense": "CC BY 4.0",
+      "creator": "Vivien Deroche"
+    },
+    {
+      "id": "retail-corsair-carbide-200r-black",
+      "uid": "41efdc6e62454ec0a870ee8451768d75",
+      "asset": "/assets/models/completion/corsair-200r.glb",
+      "bytes": 98996,
+      "sha256": "c4f67e2554c5688a24606df71b658c87d5602b2406184e6e6acf2e1ede100f24",
+      "errors": 0,
+      "warnings": 0,
+      "issueCodes": {
+        "UNSUPPORTED_EXTENSION": 1
+      },
+      "decodedImages": [
+        {
+          "index": 0,
+          "mimeType": "image/webp",
+          "encodedBytes": 83062,
+          "width": 1024,
+          "height": 1024,
+          "channels": 3,
+          "decodedPixelBytes": 3145728
+        }
+      ],
+      "finiteValues": 14605,
+      "triangles": 2440,
+      "bounds": {
+        "min": [
+          -3.569719429793544,
+          -3.2838543331736507,
+          -1.5100523612110819
+        ],
+        "max": [
+          3.569719429793544,
+          3.2838543331736507,
+          1.5100523612110819
+        ]
+      },
+      "sourceLicense": "CC BY 4.0",
+      "creator": "Nick"
+    },
+    {
+      "id": "retail-cooler-master-masterbox-lite-5",
+      "uid": "8673ad2eeffa4fe1b81479f9cb9d351e",
+      "asset": "/assets/models/completion/cooler-master-masterbox-lite-5.glb",
+      "bytes": 6940,
+      "sha256": "eb7448785f46fbbfa0175e70c98588a6ae6d2508b058bc95da63b280d45cf47e",
+      "errors": 0,
+      "warnings": 0,
+      "issueCodes": {
+        "UNSUPPORTED_EXTENSION": 1,
+        "UNUSED_OBJECT": 1
+      },
+      "decodedImages": [],
+      "finiteValues": 3975,
+      "triangles": 321,
+      "bounds": {
+        "min": [
+          0,
+          -0.0002793833250951394,
+          -7.873923551968253
+        ],
+        "max": [
+          18.307090759277344,
+          17.71690097077726,
+          -0.00009225613721230985
+        ]
+      },
+      "sourceLicense": "CC BY 4.0",
+      "creator": "HerbeMalveillante"
+    },
+    {
+      "id": "intel4004",
+      "uid": "0daaa686d226476bb1b96aa4fa7bd083",
+      "asset": "/assets/models/completion/intel-4004.glb",
+      "bytes": 12220,
+      "sha256": "8397ada30550d7d554a660ceb23f85a0486c4db6f8a88039e3a0a07e877228eb",
+      "errors": 0,
+      "warnings": 0,
+      "issueCodes": {
+        "UNSUPPORTED_EXTENSION": 1,
+        "UNUSED_OBJECT": 1
+      },
+      "decodedImages": [],
+      "finiteValues": 7437,
+      "triangles": 611,
+      "bounds": {
+        "min": [
+          -0.05686130207568743,
+          0.014210224259462667,
+          -0.1621529209132584
+        ],
+        "max": [
+          0.053516386566722376,
+          0.119260529691161,
+          0.15872264030450633
+        ]
+      },
+      "sourceLicense": "CC BY 4.0",
+      "creator": "museudocomputador"
+    },
+    {
+      "id": "completion-cpu-intel-core-i5-661",
+      "uid": "1940447b5a7b41f3a7ebdd73ce2f590d",
+      "asset": "/assets/models/completion/intel-core-i5-661.glb",
+      "bytes": 554968,
+      "sha256": "f31ba78671833cdef7282661cf6b834c647c3c974210247914f339dc413d5bc4",
+      "errors": 0,
+      "warnings": 0,
+      "issueCodes": {
+        "UNSUPPORTED_EXTENSION": 1
+      },
+      "decodedImages": [
+        {
+          "index": 0,
+          "mimeType": "image/webp",
+          "encodedBytes": 820,
+          "width": 32,
+          "height": 128,
+          "channels": 4,
+          "decodedPixelBytes": 16384
+        },
+        {
+          "index": 1,
+          "mimeType": "image/webp",
+          "encodedBytes": 5032,
+          "width": 512,
+          "height": 64,
+          "channels": 4,
+          "decodedPixelBytes": 131072
+        },
+        {
+          "index": 2,
+          "mimeType": "image/webp",
+          "encodedBytes": 22300,
+          "width": 512,
+          "height": 512,
+          "channels": 4,
+          "decodedPixelBytes": 1048576
+        }
+      ],
+      "finiteValues": 719154,
+      "triangles": 76207,
+      "bounds": {
+        "min": [
+          -0.10609876429670795,
+          -0.0027600115881249022,
+          -0.19569795113056898
+        ],
+        "max": [
+          0.28529713796443,
+          0.03119495805840635,
+          0.19569795113056898
+        ]
+      },
+      "sourceLicense": "CC BY 4.0",
+      "creator": "Dr_Mint"
+    },
+    {
+      "id": "titanrtx",
+      "uid": "f7e8fb69cce14f53a2d9159898fd89e5",
+      "asset": "/assets/models/completion/nvidia-titan-rtx.glb",
+      "bytes": 906204,
+      "sha256": "a08f8f20408840343f89275b95464c690aa3841fcdd15fa4424fc8881d6a01b6",
+      "errors": 0,
+      "warnings": 0,
+      "issueCodes": {
+        "UNSUPPORTED_EXTENSION": 1,
+        "NODE_EMPTY": 2,
+        "UNUSED_OBJECT": 8
+      },
+      "decodedImages": [
+        {
+          "index": 0,
+          "mimeType": "image/webp",
+          "encodedBytes": 13476,
+          "width": 1024,
+          "height": 512,
+          "channels": 3,
+          "decodedPixelBytes": 1572864
+        }
+      ],
+      "finiteValues": 1299729,
+      "triangles": 95023,
+      "bounds": {
+        "min": [
+          -1.6266063749790192,
+          -0.8462992491516682,
+          -0.18346076926323523
+        ],
+        "max": [
+          1.6832424104213715,
+          0.714620203538539,
+          0.3865742723909406
+        ]
+      },
+      "sourceLicense": "CC BY 4.0",
+      "creator": "Vivien Deroche"
+    }
+  ],
+  "uniquePreparedAssets": 10,
+  "totalBytes": 8477164,
+  "errors": 0,
+  "warnings": 3
+}

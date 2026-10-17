@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-17T00:51:36.081Z",
+  "sources": [
+    {
+      "commit": "c5e3fc4a2310e6203b9414095608d756a9945026",
+      "generatedAt": "2026-10-14T19:13:54.206Z",
+      "observations": 4
+    },
+    {
+      "commit": "adf9c49dab696f53730634c3316d423f63748e19",
+      "generatedAt": "2026-10-14T19:22:15.110Z",
+      "observations": 4
+    },
+    {
+      "commit": "4f5023bcebc71eb9b3a855ea3d89d6b3858c86b1",
+      "generatedAt": "2026-10-15T15:35:59.134Z",
+      "observations": 4
+    },
+    {
+      "commit": "8dc9890f93b381223a46a88362da9475451d1616",
+      "generatedAt": "2026-10-16T15:22:31.422Z",
+      "observations": 4
+    }
+  ],
+  "skipped": [],
+  "scope": "Original committed public snapshots validated at their actual observation times; no reconstructed or interpolated prices."
+}

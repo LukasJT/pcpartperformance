@@ -1,0 +1,162 @@
+{
+  "overflow": false,
+  "report": {
+    "axeVersion": "4.14.0",
+    "checkedAt": "2026-10-17T01:22:20.946Z",
+    "height": 900,
+    "incomplete": [
+      {
+        "help": "ARIA attributes must conform to valid values",
+        "id": "aria-valid-attr-value",
+        "impact": "critical",
+        "nodes": [
+          {
+            "html": "<button type=\"button\" class=\"select-trigger\" id=\"builder-select-trigger-1\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"builder-picker\" aria-label=\"Choose Processor: Select a component\">",
+            "target": [
+              "#builder-select-trigger-1"
+            ]
+          }
+        ]
+      },
+      {
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": [
+          {
+            "html": "<button class=\"button secondary\" id=\"builder-clear\">Clear build</button>",
+            "target": [
+              "#builder-clear"
+            ]
+          },
+          {
+            "html": "<button class=\"button primary\" id=\"builder-starter\">Load starter build</button>",
+            "target": [
+              "#builder-starter"
+            ]
+          },
+          {
+            "html": "<button type=\"button\" class=\"button primary\" data-guided-next=\"\">Next component</button>",
+            "target": [
+              "button[data-guided-next=\"\"]"
+            ]
+          },
+          {
+            "html": "<h3 id=\"pc-visual-title\">Inside your build</h3>",
+            "target": [
+              "#pc-visual-title"
+            ]
+          },
+          {
+            "html": "<p>Select a component to locate it.</p>",
+            "target": [
+              ".pc-visual-head > div > p"
+            ]
+          },
+          {
+            "html": "<span id=\"pc-visual-count\">0 parts selected</span>",
+            "target": [
+              "#pc-visual-count"
+            ]
+          },
+          {
+            "html": "<button class=\"button primary\" id=\"scene-open\" type=\"button\">Open 3D preview</button>",
+            "target": [
+              "#scene-open"
+            ]
+          },
+          {
+            "html": "<button class=\"button secondary\" type=\"button\" data-program-print=\"\">Print build report</button>",
+            "target": [
+              "button[data-program-print=\"\"]"
+            ]
+          },
+          {
+            "html": "<a class=\"button primary\" href=\"#builder-choose\">Choose your first part</a>",
+            "target": [
+              "a[href$=\"#builder-choose\"]"
+            ]
+          },
+          {
+            "html": "<a class=\"button secondary\" href=\"/build-school/\">New to building a PC?</a>",
+            "target": [
+              ".secondary.button[href$=\"build-school/\"]"
+            ]
+          },
+          {
+            "html": "<a class=\"button secondary\" href=\"/tools/budget-build-lab/\">Compare complete purchase quotes</a>",
+            "target": [
+              ".secondary.button[href$=\"budget-build-lab/\"]"
+            ]
+          },
+          {
+            "html": "<button type=\"submit\" class=\"button primary\">Save this revision</button>",
+            "target": [
+              "#program-save-form > .primary.button[type=\"submit\"]"
+            ]
+          },
+          {
+            "html": "<button type=\"button\" class=\"button secondary\" data-program-copy=\"link\">Copy share link</button>",
+            "target": [
+              "button[data-program-copy=\"link\"]"
+            ]
+          },
+          {
+            "html": "<button type=\"button\" class=\"button secondary\" data-program-copy=\"text\">Copy parts list</button>",
+            "target": [
+              "button[data-program-copy=\"text\"]"
+            ]
+          }
+        ]
+      },
+      {
+        "help": "Heading levels should only increase by one",
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": [
+          {
+            "html": "<h2>No current total</h2>",
+            "target": [
+              ".shopping-summary-head > div > h2"
+            ]
+          }
+        ]
+      }
+    ],
+    "scope": "Real browser DOM, WCAG A/AA and best-practice rules; automated findings do not certify full conformance.",
+    "theme": "dark",
+    "url": "/builder/",
+    "violations": [
+      {
+        "help": "Elements must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axeAPI",
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": [
+          {
+            "html": "<a class=\"brand\" href=\"/\" aria-label=\"PC Part Performance home\">",
+            "target": [
+              ".brand"
+            ]
+          },
+          {
+            "html": "<button type=\"button\" data-region=\"CA\" aria-pressed=\"true\" aria-label=\"Shop in Canada, Canadian dollars\"><img src=\"/assets/flag-ca.svg\" alt=\"\" width=\"21\" height=\"14\"><span>CA</span></button>",
+            "target": [
+              "button[data-region=\"CA\"][type=\"button\"]"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.semantics",
+          "wcag21a",
+          "wcag253",
+          "EN-301-549",
+          "EN-9.2.5.3",
+          "RGAAv4",
+          "RGAA-6.1.5"
+        ]
+      }
+    ],
+    "width": 1440
+  }
+}

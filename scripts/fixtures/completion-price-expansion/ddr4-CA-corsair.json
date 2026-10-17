@@ -1,0 +1,32 @@
+{
+  "productId": "ddr4",
+  "region": "CA",
+  "merchantId": "corsair",
+  "checkedAt": "2026-10-17T01:44:14.733Z",
+  "sourceUrl": "https://www.corsair.com/ca/en/p/memory/cmk32gx4m2e3200c16/vengeance-lpx-32gb-2-x-16gb-ddr4-dram-3200mhz-c16-memory-kit-black-cmk32gx4m2e3200c16",
+  "responseStatus": 200,
+  "responseBytes": 645743,
+  "responseSHA256": "2ba1dbea8aeadc448aa953e89294297b963df8b019e8761c42a3b1016fbba162",
+  "fixtureKind": "selected-original-structured-factual-fields",
+  "products": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "VENGEANCE® LPX 32GB (2 x 16GB) DDR4 DRAM Up To 3200MHz C16 Memory Kit - Black",
+      "sku": "CMK32GX4M2E3200C16",
+      "offers": {
+        "@type": "Offer",
+        "price": "359.99",
+        "priceCurrency": "CAD",
+        "availability": "InStock",
+        "itemCondition": "NewCondition",
+        "url": "https://www.corsair.com/ca/en/p/memory/cmk32gx4m2e3200c16/vengeance-lpx-32gb-2-x-16gb-ddr4-dram-3200mhz-c16-memory-kit-black-cmk32gx4m2e3200c16",
+        "seller": {
+          "@type": "Organization",
+          "name": "Corsair"
+        },
+        "priceValidUntil": "2026-10-30"
+      }
+    }
+  ]
+}

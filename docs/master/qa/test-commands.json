@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-10-16T23:32:31.420Z",
-  "commands": 57,
-  "passed": 57,
+  "checkedAt": "2026-10-17T02:04:03.962Z",
+  "commands": 73,
+  "passed": 73,
   "results": [
     {
       "command": "node scripts/check-program.cjs",
@@ -285,6 +285,86 @@
     },
     {
       "command": "node scripts/oct16-delivery.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/completion-editorial.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/completion-models.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/completion-retention.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/completion-parts-import.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/completion-price-history.test.mjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/completion-price-client.test.mjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/completion-security.test.mjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/completion-seo.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/completion-integration.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/completion-models-viewer.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/completion-catalog-delivery.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/completion-editorial-extra.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/completion-model-images.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/completion-price-expansion.test.mjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/public-price-expansion-integration.test.mjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/completion-measurement.test.cjs",
       "exitCode": 0,
       "passed": true
     }

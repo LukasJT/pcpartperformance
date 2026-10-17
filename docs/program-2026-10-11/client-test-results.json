@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "checkedAt": "2026-10-16T23:30:57.836Z",
+  "checkedAt": "2026-10-17T02:02:20.794Z",
   "status": "passed",
   "passed": 30,
   "failed": 0,
@@ -14,7 +14,7 @@
   "files": [
     {
       "file": "scripts/prebuilt-ui.js",
-      "sha256": "88e82d66c029e0bbfc866bae9e8293e966dd0cdf5e708597b44305148d011a4f"
+      "sha256": "85b9fc76e2b23d5cd71cdc81edd7b18517c53f3b88748f6d91b8c62a57f9659d"
     },
     {
       "file": "scripts/prebuilt-pages.cjs",
@@ -26,7 +26,7 @@
     },
     {
       "file": "scripts/worker.mjs",
-      "sha256": "98bf39c6b731528736182441d24a60f1f3dba7691422aefffce451190424e96c"
+      "sha256": "28e01a2f7f1d7d45ec472269eeb1efab5191d607099f4c41704d86b01dfbb430"
     }
   ],
   "tests": [

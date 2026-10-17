@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "kind": "completion_editorial_extra_owner_release",
+  "origin": "direct_owner_instruction",
+  "statement": "Owner instruction: do it all now. Continue and implement the full PC Part Performance master project, publish the completed research-based articles using PC Part Performance as author, and push the tested result to the live domain, as explicitly authorized in this conversation.",
+  "recordedAt": "2026-10-17T01:25:57.643Z",
+  "releaseDate": "2026-10-16",
+  "author": "PC Part Performance",
+  "humanReviewClaimed": false,
+  "articles": [
+    {
+      "id": "MX01",
+      "hash": "310b361da29585aabc551c6251e04b45ad8f9a74b02afae05cfb024f2882e127"
+    },
+    {
+      "id": "MX02",
+      "hash": "462488b78414a53ed0663effcd589330a395cf32d0d935219179b1943c2e7397"
+    },
+    {
+      "id": "MX03",
+      "hash": "115ecbe913468ceb15e5a232a0afb6276a4f8d14cf3bfc04b3c8cbfb1e999202"
+    },
+    {
+      "id": "MX04",
+      "hash": "ddcc93ed7ce29eb5c8c58652993993807c7dfa09d188391ab402a04562605d90"
+    }
+  ]
+}

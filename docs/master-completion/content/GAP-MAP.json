@@ -1,0 +1,1194 @@
+{
+  "schema": 1,
+  "interpretation": "72 requested intents across two overlapping roadmaps, not 72 separate articles or completed tasks.",
+  "valid": true,
+  "errors": [],
+  "rows": [
+    {
+      "id": "L01",
+      "program": "L",
+      "number": 1,
+      "intent": "CPU and motherboard compatibility",
+      "query": "how to check CPU motherboard compatibility",
+      "status": "batch_revision",
+      "routes": [
+        "/blog/check-cpu-bios-support/",
+        "/blog/choose-a-motherboard-for-your-cpu/"
+      ],
+      "action": "MC01 expands the existing CPU/BIOS canonical; keep the board-choice guide as a separate buying task.",
+      "evidence": "Exact support list, installed BIOS and applicable revision.",
+      "next": "/compatibility/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "L02",
+      "program": "L",
+      "number": 2,
+      "intent": "Matching socket versus BIOS support",
+      "query": "same socket CPU needs BIOS update",
+      "status": "batch_revision",
+      "routes": [
+        "/blog/check-cpu-bios-support/"
+      ],
+      "action": "Consolidate into L01 rather than publish a competing socket/BIOS guide.",
+      "evidence": "Official support row and usable update route.",
+      "next": "/builder/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "L03",
+      "program": "L",
+      "number": 3,
+      "intent": "GPU clearance",
+      "query": "will my graphics card fit in my case",
+      "status": "existing_canonical",
+      "routes": [
+        "/blog/will-a-graphics-card-fit-my-case/"
+      ],
+      "action": "Retain the Oct16 material revision and conditional radiator-envelope explanation.",
+      "evidence": "Exact card and occupied case layout documentation.",
+      "next": "/compatibility/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "L04",
+      "program": "L",
+      "number": 4,
+      "intent": "CPU cooler fit",
+      "query": "how to check CPU cooler clearance",
+      "status": "existing_canonical",
+      "routes": [
+        "/blog/how-to-choose-a-cpu-cooler-that-fits/"
+      ],
+      "action": "Retain the new Oct16 cooler guide and link the expanded cooler picker.",
+      "evidence": "Exact socket mount, case height/radiator layout and RAM conditions.",
+      "next": "/builder/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "L05",
+      "program": "L",
+      "number": 5,
+      "intent": "PSU connectors",
+      "query": "power supply cables CPU GPU compatibility",
+      "status": "batch_revision",
+      "routes": [
+        "/blog/choose-a-pc-power-supply/"
+      ],
+      "action": "MC03 expands exact-unit/cable/installation reuse decisions on the current guide.",
+      "evidence": "Manufacturer cable approval and complete connection inventory.",
+      "next": "/builder/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "L06",
+      "program": "L",
+      "number": 6,
+      "intent": "M.2 and lane sharing",
+      "query": "M.2 slot disables PCIe slot B650 Tomahawk",
+      "status": "existing_canonical",
+      "routes": [
+        "/blog/b650-tomahawk-m2-pcie-lane-sharing/"
+      ],
+      "action": "Retain exact-board scope. Do not generalize to all similarly named boards.",
+      "evidence": "Exact manual revision and CPU-dependent slot topology.",
+      "next": "/tools/b650-tomahawk-lane-check/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "L07",
+      "program": "L",
+      "number": 7,
+      "intent": "DDR4 and DDR5 compatibility",
+      "query": "can I use DDR4 in DDR5 motherboard",
+      "status": "existing_canonical",
+      "routes": [
+        "/blog/understanding-pc-memory/",
+        "/blog/how-to-choose-gaming-ram/"
+      ],
+      "action": "Use the memory guides; MC06 supplies reuse decisions without duplicating the explainer.",
+      "evidence": "Platform and exact kit type/configuration.",
+      "next": "/compatibility/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "L08",
+      "program": "L",
+      "number": 8,
+      "intent": "Motherboard form factor and case",
+      "query": "does an ATX motherboard fit my case",
+      "status": "existing_tool_partial",
+      "routes": [
+        "/compatibility/",
+        "/blog/pc-build-compatibility-checklist/"
+      ],
+      "action": "Existing checks and checklist cover the basic task; a dedicated sourced form-factor installation lesson remains.",
+      "evidence": "Exact chassis support and installed layout; no universal fit claim.",
+      "next": "/builder/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "L09",
+      "program": "L",
+      "number": 9,
+      "intent": "First build checklist",
+      "query": "first PC build checklist",
+      "status": "existing_canonical",
+      "routes": [
+        "/build-school/",
+        "/blog/pc-build-compatibility-checklist/"
+      ],
+      "action": "Use the integrated Build School path, printable checklist and saved progress.",
+      "evidence": "Manual-specific assembly and first-boot links.",
+      "next": "/build-school/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "L10",
+      "program": "L",
+      "number": 10,
+      "intent": "Everything needed for a new PC",
+      "query": "what do I need to buy to build a PC",
+      "status": "existing_canonical",
+      "routes": [
+        "/blog/build-vs-buy-pc-complete-cost/",
+        "/build-school/"
+      ],
+      "action": "Retain the expanded complete-purchase guide; do not create a thin list with the same intent.",
+      "evidence": "Required cooling, accessories, OS/display/peripheral scope and missing prices.",
+      "next": "/tools/budget-build-lab/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "L11",
+      "program": "L",
+      "number": 11,
+      "intent": "Choose a PSU",
+      "query": "how to choose a power supply for a PC",
+      "status": "batch_revision",
+      "routes": [
+        "/blog/choose-a-pc-power-supply/"
+      ],
+      "action": "Same canonical as connectors/reuse; MC03 deepens it.",
+      "evidence": "Exact components and cables; rating is not measured wall power.",
+      "next": "/builder/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "L12",
+      "program": "L",
+      "number": 12,
+      "intent": "Quiet PC planning",
+      "query": "how to build a quiet PC",
+      "status": "remaining_editorial",
+      "routes": [
+        "/blog/how-to-choose-a-cpu-cooler-that-fits/"
+      ],
+      "action": "Current cooler guide supplies fit checks, not an acoustic recommendation. A distinct useful quiet-workflow lesson remains.",
+      "evidence": "Comparable acoustic method/conditions for any noise claims; exact layout.",
+      "next": "/builder/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "L13",
+      "program": "L",
+      "number": 13,
+      "intent": "Air cooling versus liquid",
+      "query": "air cooler vs AIO what should I choose",
+      "status": "existing_tool_partial",
+      "routes": [
+        "/blog/how-to-choose-a-cpu-cooler-that-fits/"
+      ],
+      "action": "Current guide supports mount/layout choices. A tested thermal or acoustic winner is not established.",
+      "evidence": "Exact CPU workload, compatible mounts and permitted comparable cooler tests.",
+      "next": "/builder/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "L14",
+      "program": "L",
+      "number": 14,
+      "intent": "First boot and troubleshooting",
+      "query": "new PC first boot no display",
+      "status": "existing_canonical",
+      "routes": [
+        "/blog/new-pc-first-boot-setup-checklist/",
+        "/blog/new-pc-no-display-safe-checks/"
+      ],
+      "action": "Keep setup and observed no-display diagnosis separate and cross-linked.",
+      "evidence": "Safe official model-specific procedures and recovery access.",
+      "next": "/troubleshooting/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "L15",
+      "program": "L",
+      "number": 15,
+      "intent": "Common choosing-parts mistakes",
+      "query": "common PC parts compatibility mistakes",
+      "status": "existing_tool_partial",
+      "routes": [
+        "/blog/pc-build-compatibility-checklist/",
+        "/build-school/"
+      ],
+      "action": "Use the practical checklist; do not add a shallow listicle simply to satisfy a title.",
+      "evidence": "Existing exact-model examples; any further lesson needs a distinct useful contribution.",
+      "next": "/builder/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "L16",
+      "program": "L",
+      "number": 16,
+      "intent": "Which part to upgrade first",
+      "query": "what should I upgrade first CPU or GPU",
+      "status": "existing_canonical",
+      "routes": [
+        "/blog/cpu-or-gpu-upgrade-for-gaming/"
+      ],
+      "action": "Keep diagnosis and the option to change nothing; no universal bottleneck percentage.",
+      "evidence": "Observed task and comparable measured evidence if claiming an uplift.",
+      "next": "/upgrade/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "L17",
+      "program": "L",
+      "number": 17,
+      "intent": "Reuse a PSU",
+      "query": "can I reuse my power supply in a new PC",
+      "status": "batch_revision",
+      "routes": [
+        "/blog/choose-a-pc-power-supply/"
+      ],
+      "action": "MC03 adds a separate unit/cable/installation reuse audit.",
+      "evidence": "Exact manufacturer cable record and known condition; no remaining-life prediction.",
+      "next": "/upgrade/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "L18",
+      "program": "L",
+      "number": 18,
+      "intent": "Hidden platform cost",
+      "query": "CPU motherboard upgrade total cost",
+      "status": "existing_canonical",
+      "routes": [
+        "/blog/pc-upgrade-total-platform-cost/"
+      ],
+      "action": "Use the existing whole-platform cost guide and worksheet.",
+      "evidence": "Required parts/accessories and actual cost states; no free unknown items.",
+      "next": "/tools/platform-upgrade-cost/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "L19",
+      "program": "L",
+      "number": 19,
+      "intent": "Reuse storage and memory",
+      "query": "can I reuse SSD and RAM in new PC",
+      "status": "batch_new",
+      "routes": [
+        "/blog/reuse-pc-components-new-build/"
+      ],
+      "action": "MC06 completes the broader keep/replace/verify task and links specific support checks.",
+      "evidence": "Exact memory platform/configuration, storage interface and verified data backup.",
+      "next": "/upgrade/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "L20",
+      "program": "L",
+      "number": 20,
+      "intent": "GPU upgrade or keep",
+      "query": "should I upgrade my GPU or keep it",
+      "status": "existing_canonical",
+      "routes": [
+        "/blog/cpu-or-gpu-upgrade-for-gaming/",
+        "/blog/how-to-choose-a-graphics-card/"
+      ],
+      "action": "General decision flow exists; exact RTX3060 comparison still needs a distinct evidence-supported treatment.",
+      "evidence": "Comparable workloads plus complete upgrade costs; current hardware is a real option.",
+      "next": "/upgrade/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "L21",
+      "program": "L",
+      "number": 21,
+      "intent": "Staged upgrade",
+      "query": "how to upgrade a PC in stages",
+      "status": "batch_revision",
+      "routes": [
+        "/blog/phased-pc-upgrade-plan/"
+      ],
+      "action": "MC02 adds OS-access dependencies and observable stage handoff records.",
+      "evidence": "Every intermediate configuration, supported rollback scope and purchase conditions.",
+      "next": "/builder/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "L22",
+      "program": "L",
+      "number": 22,
+      "intent": "VRAM and gaming performance",
+      "query": "does more VRAM mean more FPS",
+      "status": "existing_canonical",
+      "routes": [
+        "/blog/rtx-5060-ti-8gb-vs-16gb/",
+        "/blog/how-to-choose-a-graphics-card/"
+      ],
+      "action": "Keep the exact capacity comparison and link the benchmark reading guide.",
+      "evidence": "Variant identity and applicable game settings; no VRAM-to-FPS conversion.",
+      "next": "/performance/evidence/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "L23",
+      "program": "L",
+      "number": 23,
+      "intent": "Independent GPU benchmarks",
+      "query": "how to read GPU benchmarks 1% lows",
+      "status": "batch_new",
+      "routes": [
+        "/blog/read-hardware-benchmarks-test-conditions/"
+      ],
+      "action": "MC04 completes a method-led reading guide with a reproducible comparison worksheet.",
+      "evidence": "Original publisher/tool methods, versions and conditions.",
+      "next": "/performance/evidence/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "L24",
+      "program": "L",
+      "number": 24,
+      "intent": "RAM capacity, speed and latency",
+      "query": "32GB vs 64GB RAM capacity speed latency",
+      "status": "batch_new",
+      "routes": [
+        "/blog/32gb-vs-64gb-ram-workloads/",
+        "/blog/ram-timings-cas-trcd-trp/"
+      ],
+      "action": "MC05 handles workload capacity; keep existing timing arithmetic on its established guide.",
+      "evidence": "Version-specific application requirements, observations and supported kits.",
+      "next": "/tools/memory-timing-comparison/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "L25",
+      "program": "L",
+      "number": 25,
+      "intent": "SSD interfaces and transfer expectations",
+      "query": "SSD transfer time why advertised MB/s",
+      "status": "existing_canonical",
+      "routes": [
+        "/blog/ssd-transfer-time-advertised-speed/",
+        "/blog/nvme-vs-sata-ssd-for-gaming/"
+      ],
+      "action": "Keep the original calculator-connected guide and exact interface comparison.",
+      "evidence": "Units, interface/host context and explicit assumed inputs.",
+      "next": "/tools/storage-transfer-time/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "L26",
+      "program": "L",
+      "number": 26,
+      "intent": "Display goal and GPU",
+      "query": "resolution refresh rate GPU what do I need",
+      "status": "existing_canonical",
+      "routes": [
+        "/blog/choose-display-target-game-evidence/"
+      ],
+      "action": "Use current display guide; MC04 reinforces the distinction between interval arithmetic and latency.",
+      "evidence": "Real game conditions, output capabilities and supported display goal.",
+      "next": "/tools/monitor-pixel-density/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "L27",
+      "program": "L",
+      "number": 27,
+      "intent": "Read hardware specifications",
+      "query": "how to understand PC specs",
+      "status": "existing_tool_partial",
+      "routes": [
+        "/blog/how-to-choose-a-graphics-card/",
+        "/blog/how-to-choose-a-processor/",
+        "/blog/ram-timings-cas-trcd-trp/"
+      ],
+      "action": "Category explainers exist. A distinct unified specifications lesson remains if it adds useful examples beyond those pages.",
+      "evidence": "Field definitions, units and manufacturer-versus-measured status.",
+      "next": "/compare/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "L28",
+      "program": "L",
+      "number": 28,
+      "intent": "Build versus buy",
+      "query": "build or buy gaming PC total cost",
+      "status": "existing_canonical",
+      "routes": [
+        "/blog/build-vs-buy-pc-complete-cost/"
+      ],
+      "action": "Retain the Oct16 complete-purchase revision with required cooling/accessories.",
+      "evidence": "Same region, included scope, warranty/returns and complete known/missing cost.",
+      "next": "/prebuilt/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "L29",
+      "program": "L",
+      "number": 29,
+      "intent": "Evaluate a prebuilt",
+      "query": "how to compare prebuilt gaming PCs upgradeable",
+      "status": "existing_canonical",
+      "routes": [
+        "/blog/prebuilt-pc-internals-upgrade-checklist/",
+        "/blog/prebuilt-gaming-pc-canada-shortlist/",
+        "/blog/prebuilt-gaming-pc-us-offer-checklist/"
+      ],
+      "action": "Use the existing internals and regional buying checklists; more models are a catalog task, not a reason for duplicate guides.",
+      "evidence": "Exact supplied configuration, seller, support and expansion documentation.",
+      "next": "/prebuilt/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "L30",
+      "program": "L",
+      "number": 30,
+      "intent": "Used hardware buying",
+      "query": "what to check before buying used PC parts",
+      "status": "remaining_editorial",
+      "routes": [
+        "/blog/reuse-pc-components-new-build/"
+      ],
+      "action": "MC06 covers owned-part reuse, not a complete used-sale inspection, warranty and transaction checklist.",
+      "evidence": "Manufacturer warranty/transfer policy, safe inspection and exact seller terms; no remote health guarantees.",
+      "next": "/hardware/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "L31",
+      "program": "L",
+      "number": 31,
+      "intent": "Compare prices in Canada",
+      "query": "compare PC parts prices Canada CAD",
+      "status": "existing_canonical",
+      "routes": [
+        "/blog/checked-pc-offers-region-freshness/",
+        "/blog/prebuilt-gaming-pc-canada-shortlist/"
+      ],
+      "action": "Retain explicit CAD/US region and price freshness; document the limited observation universe.",
+      "evidence": "Exact SKU, seller/region/currency/time/expiry and missing offers.",
+      "next": "/shop/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "L32",
+      "program": "L",
+      "number": 32,
+      "intent": "Complete build budget worksheet",
+      "query": "PC build budget worksheet total cost",
+      "status": "existing_canonical",
+      "routes": [
+        "/tools/budget-build-lab/",
+        "/blog/build-vs-buy-pc-complete-cost/"
+      ],
+      "action": "Keep the tool plus its existing guide; no duplicate standalone worksheet article needed.",
+      "evidence": "Owned/included/manual/observed/unknown cost states and exclusions.",
+      "next": "/builder/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "P01",
+      "program": "P",
+      "number": 1,
+      "intent": "First gaming PC from planning to boot",
+      "query": "how to build first gaming PC",
+      "status": "existing_canonical",
+      "routes": [
+        "/build-school/",
+        "/blog/new-pc-first-boot-setup-checklist/"
+      ],
+      "action": "Use the integrated learning route instead of publishing the old overlapping draft.",
+      "evidence": "Exact manuals, safe setup and source-linked lessons.",
+      "next": "/build-school/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "P02",
+      "program": "P",
+      "number": 2,
+      "intent": "About $1000 CAD complete build",
+      "query": "1000 dollar gaming PC Canada",
+      "status": "blocked_data",
+      "routes": [
+        "/blog/gaming-pc-1000-cad/"
+      ],
+      "action": "Keep draft withheld. Do not replace the budget claim with an unrelated worksheet.",
+      "evidence": "Verified complete BOM revision and exact current CAD offers are missing.",
+      "next": "/tools/budget-build-lab/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "P03",
+      "program": "P",
+      "number": 3,
+      "intent": "About $1500 CAD complete build",
+      "query": "1500 dollar gaming PC Canada",
+      "status": "blocked_data",
+      "routes": [
+        "/blog/gaming-pc-1500-cad/"
+      ],
+      "action": "Keep draft withheld until its complete purchase and compatibility evidence passes.",
+      "evidence": "Verified complete BOM revision and exact current CAD offers are missing.",
+      "next": "/tools/budget-build-lab/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "P04",
+      "program": "P",
+      "number": 4,
+      "intent": "About $1000 USD complete build",
+      "query": "1000 dollar gaming PC build USA",
+      "status": "blocked_data",
+      "routes": [
+        "/blog/gaming-pc-1000-usd/"
+      ],
+      "action": "Keep draft withheld.",
+      "evidence": "Verified complete BOM revision and exact current USD offers are missing.",
+      "next": "/tools/budget-build-lab/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "P05",
+      "program": "P",
+      "number": 5,
+      "intent": "About $1500 USD complete build",
+      "query": "1500 dollar gaming PC build USA",
+      "status": "blocked_data",
+      "routes": [
+        "/blog/gaming-pc-1500-usd/"
+      ],
+      "action": "Keep draft withheld.",
+      "evidence": "Verified complete BOM revision and exact current USD offers are missing.",
+      "next": "/tools/budget-build-lab/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "P06",
+      "program": "P",
+      "number": 6,
+      "intent": "1080p high-refresh planning",
+      "query": "1080p high refresh PC without overspending",
+      "status": "existing_tool_partial",
+      "routes": [
+        "/blog/choose-display-target-game-evidence/"
+      ],
+      "action": "Display-target guidance exists; a distinct complete build and matched game evidence are not established.",
+      "evidence": "Named games/modes, permitted matching measurements and complete configuration.",
+      "next": "/performance/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "P07",
+      "program": "P",
+      "number": 7,
+      "intent": "Balanced 1440p build",
+      "query": "balanced 1440p gaming PC build",
+      "status": "existing_tool_partial",
+      "routes": [
+        "/blog/choose-display-target-game-evidence/",
+        "/tools/budget-build-lab/"
+      ],
+      "action": "Existing planning resources do not constitute a measured 1440p recommendation for every game.",
+      "evidence": "Exact build revision, regional costs and applicable game evidence.",
+      "next": "/builder/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "P08",
+      "program": "P",
+      "number": 8,
+      "intent": "Compact quiet-oriented PC",
+      "query": "small quiet PC fit cooling",
+      "status": "remaining_editorial",
+      "routes": [
+        "/blog/how-to-choose-a-cpu-cooler-that-fits/"
+      ],
+      "action": "Current fit guide is useful partial support; do not claim it is a tested quiet/compact build.",
+      "evidence": "Exact occupied layout and comparable acoustic/thermal evidence for recommendations.",
+      "next": "/builder/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "P09",
+      "program": "P",
+      "number": 9,
+      "intent": "Gaming plus streaming",
+      "query": "PC for gaming and streaming OBS",
+      "status": "batch_new",
+      "routes": [
+        "/blog/gaming-streaming-pc-planning/"
+      ],
+      "action": "MC07 replaces the original matching draft intent with a full workflow guide.",
+      "evidence": "Official OBS stages and explicit diagnostic/arithmetic inputs; no invented encoder ranking.",
+      "next": "/tools/recording-storage/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "P10",
+      "program": "P",
+      "number": 10,
+      "intent": "First boot setup",
+      "query": "new PC first boot setup checklist",
+      "status": "existing_canonical",
+      "routes": [
+        "/blog/new-pc-first-boot-setup-checklist/"
+      ],
+      "action": "Retain the current source-linked guide.",
+      "evidence": "Official firmware/OS/drivers and data/recovery precautions.",
+      "next": "/build-school/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "P11",
+      "program": "P",
+      "number": 11,
+      "intent": "RTX5070 versus RX9070",
+      "query": "RTX 5070 vs RX 9070",
+      "status": "existing_canonical",
+      "routes": [
+        "/compare/rtx-5070-vs-rx-9070/"
+      ],
+      "action": "Improve this canonical when new evidence exists, not a reversed pair page.",
+      "evidence": "Exact models, requirements and transparent price/performance limitations.",
+      "next": "/compare/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "P12",
+      "program": "P",
+      "number": 12,
+      "intent": "9800X3D versus 7800X3D",
+      "query": "9800X3D vs 7800X3D upgrade",
+      "status": "existing_canonical",
+      "routes": [
+        "/compare/ryzen-7-9800x3d-vs-7800x3d/"
+      ],
+      "action": "Retain current new-build versus existing-owner decision scope.",
+      "evidence": "Exact support and comparable workload evidence for any uplift.",
+      "next": "/upgrade/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "P13",
+      "program": "P",
+      "number": 13,
+      "intent": "5060Ti 8GB versus16GB",
+      "query": "RTX 5060 Ti 8GB vs 16GB",
+      "status": "existing_canonical",
+      "routes": [
+        "/blog/rtx-5060-ti-8gb-vs-16gb/"
+      ],
+      "action": "Keep exact capacity variant identities and existing canonical.",
+      "evidence": "Exact manufacturer specs and supported measured claims only.",
+      "next": "/compare/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "P14",
+      "program": "P",
+      "number": 14,
+      "intent": "Current same-budget GPU alternatives",
+      "query": "RTX 5060 Ti vs RX 9060 XT same price",
+      "status": "blocked_data",
+      "routes": [
+        "/compare/rtx-5060-ti-16gb-vs-rx-9060-xt-16gb/"
+      ],
+      "action": "Keep draft withheld; same-budget claim lacks current matching offer evidence.",
+      "evidence": "Verified same-budget regional exact-variant offers are missing.",
+      "next": "/shop/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "P15",
+      "program": "P",
+      "number": 15,
+      "intent": "32GB versus64GB workload RAM",
+      "query": "32GB vs 64GB RAM for my work",
+      "status": "batch_new",
+      "routes": [
+        "/blog/32gb-vs-64gb-ram-workloads/"
+      ],
+      "action": "MC05 completes the existing draft intent with observed-workload and kit-support decisions.",
+      "evidence": "Version-scoped requirements and configuration-specific support; no invented uplift.",
+      "next": "/builder/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "P16",
+      "program": "P",
+      "number": 16,
+      "intent": "NVMe versus SATA",
+      "query": "NVMe vs SATA SSD gaming compatibility",
+      "status": "existing_canonical",
+      "routes": [
+        "/blog/nvme-vs-sata-ssd-for-gaming/"
+      ],
+      "action": "Retain the exact Samsung model/interface comparison.",
+      "evidence": "Exact interfaces, capacity and host support; specification throughput is not game loading evidence.",
+      "next": "/tools/storage-transfer-time/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "P17",
+      "program": "P",
+      "number": 17,
+      "intent": "Motherboard features used",
+      "query": "which motherboard features do I need",
+      "status": "existing_canonical",
+      "routes": [
+        "/blog/choose-a-motherboard-for-your-cpu/"
+      ],
+      "action": "Use current buying guide; no duplicate broad board-versus-board page.",
+      "evidence": "Exact feature/support requirements and complete platform cost.",
+      "next": "/compare/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "P18",
+      "program": "P",
+      "number": 18,
+      "intent": "Air versus AIO in a specific build",
+      "query": "7800X3D Fractal North air cooler vs AIO",
+      "status": "remaining_editorial",
+      "routes": [
+        "/blog/ryzen-7800x3d-north-air-vs-aio/",
+        "/blog/how-to-choose-a-cpu-cooler-that-fits/"
+      ],
+      "action": "General fit is covered; this particular model/workload comparison remains a draft.",
+      "evidence": "Exact mounts/layout and comparable permitted thermal/acoustic tests.",
+      "next": "/builder/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "P19",
+      "program": "P",
+      "number": 19,
+      "intent": "CPU or GPU first",
+      "query": "CPU or GPU upgrade first",
+      "status": "existing_canonical",
+      "routes": [
+        "/blog/cpu-or-gpu-upgrade-for-gaming/"
+      ],
+      "action": "Retain diagnosis, not a universal bottleneck score.",
+      "evidence": "Observed workloads and relevant benchmark conditions.",
+      "next": "/upgrade/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "P20",
+      "program": "P",
+      "number": 20,
+      "intent": "RTX3060 upgrade or keep",
+      "query": "RTX 3060 should I upgrade or keep",
+      "status": "remaining_editorial",
+      "routes": [
+        "/blog/rtx-3060-upgrade-or-keep/"
+      ],
+      "action": "General upgrade process is public, but this exact installed-base buying treatment is not complete.",
+      "evidence": "Exact variant, owned configuration, matching workloads and current complete costs.",
+      "next": "/upgrade/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "P21",
+      "program": "P",
+      "number": 21,
+      "intent": "AM4 versus new platform",
+      "query": "AM4 upgrade or AM5 full cost",
+      "status": "existing_canonical",
+      "routes": [
+        "/blog/am4-upgrade-vs-platform-replacement/"
+      ],
+      "action": "Keep the whole-platform comparison and owned-parts context.",
+      "evidence": "Exact CPU support and complete new spending.",
+      "next": "/tools/platform-upgrade-cost/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "P22",
+      "program": "P",
+      "number": 22,
+      "intent": "AM5 CPU upgrade",
+      "query": "AM5 CPU upgrade BIOS checklist",
+      "status": "existing_canonical",
+      "routes": [
+        "/blog/am5-upgrade-checklist/"
+      ],
+      "action": "Retain AM5-specific path and link expanded MC01 for BIOS preparation.",
+      "evidence": "Exact board/CPU/revision support, not socket alone.",
+      "next": "/compatibility/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "P23",
+      "program": "P",
+      "number": 23,
+      "intent": "Reuse parts",
+      "query": "which PC components can I reuse",
+      "status": "batch_new",
+      "routes": [
+        "/blog/reuse-pc-components-new-build/"
+      ],
+      "action": "MC06 completes this existing draft intent.",
+      "evidence": "Platform, storage, cable, mounting and data-access checks.",
+      "next": "/upgrade/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "P24",
+      "program": "P",
+      "number": 24,
+      "intent": "Hidden platform cost",
+      "query": "hidden costs CPU motherboard upgrade",
+      "status": "existing_canonical",
+      "routes": [
+        "/blog/pc-upgrade-total-platform-cost/"
+      ],
+      "action": "Keep existing tool-connected guide.",
+      "evidence": "All required purchases and honest missing prices.",
+      "next": "/tools/platform-upgrade-cost/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "P25",
+      "program": "P",
+      "number": 25,
+      "intent": "Phased upgrade",
+      "query": "PC upgrade in stages compatibility",
+      "status": "batch_revision",
+      "routes": [
+        "/blog/phased-pc-upgrade-plan/"
+      ],
+      "action": "MC02 materially deepens this canonical.",
+      "evidence": "Each intermediate PC, private recovery and handoff tests.",
+      "next": "/builder/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "P26",
+      "program": "P",
+      "number": 26,
+      "intent": "RAM or SSD capacity problem",
+      "query": "do I need more RAM or more storage",
+      "status": "existing_tool_partial",
+      "routes": [
+        "/blog/32gb-vs-64gb-ram-workloads/",
+        "/tools/storage-capacity-planner/"
+      ],
+      "action": "MC05 and storage planner answer portions. A unified symptom-led diagnosis remains.",
+      "evidence": "Separate working-memory pressure, storage capacity and unrelated symptoms.",
+      "next": "/troubleshooting/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "P27",
+      "program": "P",
+      "number": 27,
+      "intent": "GPU fit beyond length",
+      "query": "GPU clearance thickness height radiator",
+      "status": "existing_canonical",
+      "routes": [
+        "/blog/will-a-graphics-card-fit-my-case/"
+      ],
+      "action": "Retain Oct16 expanded occupied-envelope guide.",
+      "evidence": "Exact dimensions and installed cooling conditions.",
+      "next": "/compatibility/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "P28",
+      "program": "P",
+      "number": 28,
+      "intent": "Exact BIOS support",
+      "query": "check CPU BIOS support before buying",
+      "status": "batch_revision",
+      "routes": [
+        "/blog/check-cpu-bios-support/"
+      ],
+      "action": "MC01 expands exact update-path and disagreement resolution.",
+      "evidence": "Applicable row, installed version and usable official route.",
+      "next": "/compatibility/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "P29",
+      "program": "P",
+      "number": 29,
+      "intent": "PSU cables and connections",
+      "query": "choose PSU correct modular cables",
+      "status": "batch_revision",
+      "routes": [
+        "/blog/choose-a-pc-power-supply/"
+      ],
+      "action": "MC03 adds exact reuse matrix and real manufacturer generation example.",
+      "evidence": "Required connections and approved cable-to-unit evidence.",
+      "next": "/builder/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "P30",
+      "program": "P",
+      "number": 30,
+      "intent": "Model-specific lane sharing",
+      "query": "MSI B650 Tomahawk M2 PCIe sharing",
+      "status": "existing_canonical",
+      "routes": [
+        "/blog/b650-tomahawk-m2-pcie-lane-sharing/"
+      ],
+      "action": "Retain exact model scope, tool and manual.",
+      "evidence": "Applicable board manual and CPU-dependent conditions.",
+      "next": "/tools/b650-tomahawk-lane-check/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "P31",
+      "program": "P",
+      "number": 31,
+      "intent": "Powers on no display",
+      "query": "new PC powers on no display",
+      "status": "existing_canonical",
+      "routes": [
+        "/blog/new-pc-no-display-safe-checks/"
+      ],
+      "action": "Retain safe observed checks and diagnostic wizard links.",
+      "evidence": "Exact board/display path and safe official instructions.",
+      "next": "/troubleshooting/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "P32",
+      "program": "P",
+      "number": 32,
+      "intent": "LowFPS/stutter diagnosis",
+      "query": "low FPS stuttering how to diagnose",
+      "status": "existing_tool_partial",
+      "routes": [
+        "/troubleshooting/",
+        "/blog/cpu-or-gpu-upgrade-for-gaming/"
+      ],
+      "action": "Working symptom flow exists; a full dedicated repeatable-test guide remains.",
+      "evidence": "Controlled observations and rollback; not automatic hardware purchase.",
+      "next": "/troubleshooting/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "P33",
+      "program": "P",
+      "number": 33,
+      "intent": "Driver trouble rollback",
+      "query": "FPS worse after GPU driver update rollback",
+      "status": "existing_canonical",
+      "routes": [
+        "/blog/graphics-driver-update-rollback-checklist/"
+      ],
+      "action": "Retain baseline, official sources and one-change-at-a-time scope.",
+      "evidence": "Actual driver versions, observed symptoms and supported rollback.",
+      "next": "/troubleshooting/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "P34",
+      "program": "P",
+      "number": 34,
+      "intent": "RAM support and profiles",
+      "query": "RAM compatibility slots profiles XMP EXPO",
+      "status": "existing_canonical",
+      "routes": [
+        "/blog/understanding-pc-memory/",
+        "/blog/how-to-choose-gaming-ram/"
+      ],
+      "action": "Keep existing memory explainers; MC05 adds capacity/configuration decision.",
+      "evidence": "Exact platform, kit/module count and profile limitations.",
+      "next": "/compatibility/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "P35",
+      "program": "P",
+      "number": 35,
+      "intent": "Average FPS and lows",
+      "query": "average FPS vs 1 percent low frame time",
+      "status": "batch_new",
+      "routes": [
+        "/blog/read-hardware-benchmarks-test-conditions/"
+      ],
+      "action": "Consolidate this explanatory intent into MC04 rather than another overlapping definitions article.",
+      "evidence": "Metric definitions, capture version and original publisher method.",
+      "next": "/tools/frame-time-budget/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "P36",
+      "program": "P",
+      "number": 36,
+      "intent": "Upscaling and generated frames",
+      "query": "upscaling vs frame generation input latency",
+      "status": "existing_tool_partial",
+      "routes": [
+        "/blog/read-hardware-benchmarks-test-conditions/",
+        "/performance/evidence/"
+      ],
+      "action": "MC04 explains comparison hazards; a full feature-specific image-quality/latency guide remains.",
+      "evidence": "Official implementation definitions and comparable permitted measurements.",
+      "next": "/performance/evidence/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "P37",
+      "program": "P",
+      "number": 37,
+      "intent": "Display target",
+      "query": "choose monitor refresh rate game performance",
+      "status": "existing_canonical",
+      "routes": [
+        "/blog/choose-display-target-game-evidence/"
+      ],
+      "action": "Retain evidence-linked display guide.",
+      "evidence": "Game conditions, output limits and separate refresh/render/latency concepts.",
+      "next": "/tools/monitor-pixel-density/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "P38",
+      "program": "P",
+      "number": 38,
+      "intent": "Researched game requirements/settings hub",
+      "query": "Fortnite PC requirements settings performance",
+      "status": "existing_tool_partial",
+      "routes": [
+        "/performance/games/fortnite/",
+        "/blog/can-my-pc-run-baldurs-gate-3/"
+      ],
+      "action": "Reuse existing game hubs/requirements guide. Current approved exact PC measured coverage remains empty.",
+      "evidence": "Official edition/version requirements; permitted game-specific measurements if later added.",
+      "next": "/performance/evidence/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "P39",
+      "program": "P",
+      "number": 39,
+      "intent": "Application-specific creator build",
+      "query": "Premiere editing PC build tested workload",
+      "status": "blocked_data",
+      "routes": [
+        "/blog/premiere-creator-pc-workload-guide/",
+        "/blog/video-editing-pc-workload-checklist/"
+      ],
+      "action": "MC08 completes a distinct workload-planning worksheet; it does not release or replace the blocked tested/priced BOM brief.",
+      "evidence": "Application-specific benchmark coverage, verified BOM revision and exact regional offers are still missing.",
+      "next": "/builder/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    },
+    {
+      "id": "P40",
+      "program": "P",
+      "number": 40,
+      "intent": "Read unlike benchmarks",
+      "query": "read hardware benchmarks compare test conditions",
+      "status": "batch_new",
+      "routes": [
+        "/blog/read-hardware-benchmarks-test-conditions/"
+      ],
+      "action": "MC04 completes the existing draft intent; no duplicate benchmark explainer.",
+      "evidence": "Original publisher/tool methods, current release notes and explicit limits.",
+      "next": "/performance/evidence/",
+      "demandBasis": "Qualitative task/intent hypothesis; no private query volume or ranking baseline",
+      "region": "Canada and US unless the intent explicitly names a region"
+    }
+  ],
+  "counts": {
+    "existing_canonical": 34,
+    "existing_tool_partial": 10,
+    "batch_revision": 9,
+    "batch_new": 8,
+    "blocked_data": 6,
+    "remaining_editorial": 5
+  }
+}

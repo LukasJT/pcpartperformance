@@ -1,0 +1,743 @@
+[
+  {
+    "checkedAt": "2026-10-17T01:51:42.742Z",
+    "url": "/",
+    "width": 390,
+    "height": 844,
+    "theme": "light",
+    "axeVersion": "4.14.0",
+    "scope": "Real browser DOM, WCAG A/AA and best-practice rules; automated findings do not certify full conformance.",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "nodes": [
+          {
+            "target": [
+              ".liquid-nav > a[href$=\"builder/\"] > span"
+            ],
+            "html": "<span>Build</span>"
+          },
+          {
+            "target": [
+              ".liquid-nav > a[href$=\"blog/\"] > span"
+            ],
+            "html": "<span>Learn</span>"
+          },
+          {
+            "target": [
+              "a[href$=\"my-pc/\"] > span"
+            ],
+            "html": "<span>My PC</span>"
+          },
+          {
+            "target": [
+              ".primary"
+            ],
+            "html": "<a class=\"button primary\" href=\"/builder/\">Build a PC</a>"
+          },
+          {
+            "target": [
+              ".secondary.button[href$=\"upgrade/\"]"
+            ],
+            "html": "<a class=\"button secondary\" href=\"/upgrade/\">Upgrade my PC</a>"
+          },
+          {
+            "target": [
+              ".secondary.button[href$=\"compare/\"]"
+            ],
+            "html": "<a class=\"button secondary\" href=\"/compare/\">Compare parts</a>"
+          },
+          {
+            "target": [
+              ".tech-button"
+            ],
+            "html": "<a class=\"tech-button\" href=\"/compare/rtx-5070-vs-rtx-5060-ti-16gb/\">Compare these GPUs <span aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" class=\"link-icon\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" aria-hidden=\"true\"><path d=\"M4 12h16m-6-6 6 6-6 6\"></path></svg></span></a>"
+          },
+          {
+            "target": [
+              ".secondary.button[href$=\"resources/\"]"
+            ],
+            "html": "<a class=\"button secondary\" href=\"/resources/\">All resources</a>"
+          }
+        ]
+      }
+    ],
+    "layout": {
+      "client": 375,
+      "height": 844,
+      "scroll": 375,
+      "width": 390
+    }
+  },
+  {
+    "checkedAt": "2026-10-17T01:51:45.969Z",
+    "url": "/builder/",
+    "width": 390,
+    "height": 844,
+    "theme": "light",
+    "axeVersion": "4.14.0",
+    "scope": "Real browser DOM, WCAG A/AA and best-practice rules; automated findings do not certify full conformance.",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "aria-valid-attr-value",
+        "impact": "critical",
+        "help": "ARIA attributes must conform to valid values",
+        "nodes": [
+          {
+            "target": [
+              "#builder-select-trigger-1"
+            ],
+            "html": "<button type=\"button\" class=\"select-trigger\" id=\"builder-select-trigger-1\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"builder-picker\" aria-label=\"Choose Processor: Select a component\">"
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "nodes": [
+          {
+            "target": [
+              "a[href$=\"blog/\"] > span"
+            ],
+            "html": "<span>Learn</span>"
+          },
+          {
+            "target": [
+              "a[href$=\"my-pc/\"] > span"
+            ],
+            "html": "<span>My PC</span>"
+          },
+          {
+            "target": [
+              "#builder-clear"
+            ],
+            "html": "<button class=\"button secondary\" id=\"builder-clear\">Clear build</button>"
+          },
+          {
+            "target": [
+              "#builder-starter"
+            ],
+            "html": "<button class=\"button primary\" id=\"builder-starter\">Load starter build</button>"
+          },
+          {
+            "target": [
+              "button[data-guided-next=\"\"]"
+            ],
+            "html": "<button type=\"button\" class=\"button primary\" data-guided-next=\"\">Next component</button>"
+          },
+          {
+            "target": [
+              "#pc-visual-title"
+            ],
+            "html": "<h3 id=\"pc-visual-title\">Inside your build</h3>"
+          },
+          {
+            "target": [
+              ".pc-visual-head > div > p"
+            ],
+            "html": "<p>Select a component to locate it.</p>"
+          },
+          {
+            "target": [
+              "#pc-visual-count"
+            ],
+            "html": "<span id=\"pc-visual-count\">0 parts selected</span>"
+          },
+          {
+            "target": [
+              "#scene-open"
+            ],
+            "html": "<button class=\"button primary\" id=\"scene-open\" type=\"button\">Open 3D preview</button>"
+          },
+          {
+            "target": [
+              "button[data-program-print=\"\"]"
+            ],
+            "html": "<button class=\"button secondary\" type=\"button\" data-program-print=\"\">Print build report</button>"
+          },
+          {
+            "target": [
+              "a[href$=\"#builder-choose\"]"
+            ],
+            "html": "<a class=\"button primary\" href=\"#builder-choose\">Choose your first part</a>"
+          },
+          {
+            "target": [
+              ".secondary.button[href$=\"build-school/\"]"
+            ],
+            "html": "<a class=\"button secondary\" href=\"/build-school/\">New to building a PC?</a>"
+          },
+          {
+            "target": [
+              ".secondary.button[href$=\"budget-build-lab/\"]"
+            ],
+            "html": "<a class=\"button secondary\" href=\"/tools/budget-build-lab/\">Compare complete purchase quotes</a>"
+          },
+          {
+            "target": [
+              "#program-save-form > .primary.button[type=\"submit\"]"
+            ],
+            "html": "<button type=\"submit\" class=\"button primary\">Save this revision</button>"
+          },
+          {
+            "target": [
+              "button[data-program-copy=\"link\"]"
+            ],
+            "html": "<button type=\"button\" class=\"button secondary\" data-program-copy=\"link\">Copy share link</button>"
+          },
+          {
+            "target": [
+              "button[data-program-copy=\"text\"]"
+            ],
+            "html": "<button type=\"button\" class=\"button secondary\" data-program-copy=\"text\">Copy parts list</button>"
+          }
+        ]
+      }
+    ],
+    "layout": {
+      "client": 380,
+      "height": 844,
+      "scroll": 380,
+      "width": 390
+    }
+  },
+  {
+    "checkedAt": "2026-10-17T01:51:50.056Z",
+    "url": "/upgrade/",
+    "width": 390,
+    "height": 844,
+    "theme": "light",
+    "axeVersion": "4.14.0",
+    "scope": "Real browser DOM, WCAG A/AA and best-practice rules; automated findings do not certify full conformance.",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "aria-valid-attr-value",
+        "impact": "critical",
+        "help": "ARIA attributes must conform to valid values",
+        "nodes": [
+          {
+            "target": [
+              "#select-trigger-1"
+            ],
+            "html": "<button type=\"button\" class=\"select-trigger\" id=\"select-trigger-1\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"select-dialog\" aria-label=\"Processor: Not selected / unknown\">"
+          },
+          {
+            "target": [
+              "#select-trigger-2"
+            ],
+            "html": "<button type=\"button\" class=\"select-trigger\" id=\"select-trigger-2\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"select-dialog\" aria-label=\"Motherboard: Not selected / unknown\">"
+          },
+          {
+            "target": [
+              "#select-trigger-3"
+            ],
+            "html": "<button type=\"button\" class=\"select-trigger\" id=\"select-trigger-3\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"select-dialog\" aria-label=\"Graphics card: Not selected / unknown\">"
+          },
+          {
+            "target": [
+              "#select-trigger-4"
+            ],
+            "html": "<button type=\"button\" class=\"select-trigger\" id=\"select-trigger-4\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"select-dialog\" aria-label=\"Memory kit: Not selected / unknown\">"
+          },
+          {
+            "target": [
+              "#select-trigger-5"
+            ],
+            "html": "<button type=\"button\" class=\"select-trigger\" id=\"select-trigger-5\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"select-dialog\" aria-label=\"SSD: Not selected / unknown\">"
+          },
+          {
+            "target": [
+              "#select-trigger-6"
+            ],
+            "html": "<button type=\"button\" class=\"select-trigger\" id=\"select-trigger-6\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"select-dialog\" aria-label=\"Hard drive: Not selected / unknown\">"
+          },
+          {
+            "target": [
+              "#select-trigger-7"
+            ],
+            "html": "<button type=\"button\" class=\"select-trigger\" id=\"select-trigger-7\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"select-dialog\" aria-label=\"Power supply: Not selected / unknown\">"
+          },
+          {
+            "target": [
+              "#select-trigger-8"
+            ],
+            "html": "<button type=\"button\" class=\"select-trigger\" id=\"select-trigger-8\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"select-dialog\" aria-label=\"Case: Not selected / unknown\">"
+          },
+          {
+            "target": [
+              "#select-trigger-9"
+            ],
+            "html": "<button type=\"button\" class=\"select-trigger\" id=\"select-trigger-9\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"select-dialog\" aria-label=\"case fan: Not selected / unknown\">"
+          },
+          {
+            "target": [
+              "#select-trigger-10"
+            ],
+            "html": "<button type=\"button\" class=\"select-trigger\" id=\"select-trigger-10\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"select-dialog\" aria-label=\"CPU cooler: Not selected / unknown\">"
+          },
+          {
+            "target": [
+              "#select-trigger-11"
+            ],
+            "html": "<button type=\"button\" class=\"select-trigger has-value\" id=\"select-trigger-11\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"select-dialog\" aria-label=\"Country and currency: Canada · CAD\">"
+          },
+          {
+            "target": [
+              "#select-trigger-12"
+            ],
+            "html": "<button type=\"button\" class=\"select-trigger has-value\" id=\"select-trigger-12\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"select-dialog\" aria-label=\"Main goal: Diagnose before spending\">"
+          },
+          {
+            "target": [
+              "#select-trigger-13"
+            ],
+            "html": "<button type=\"button\" class=\"select-trigger has-value\" id=\"select-trigger-13\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"select-dialog\" aria-label=\"Observed symptom: No observed problem\">"
+          },
+          {
+            "target": [
+              "#select-trigger-14"
+            ],
+            "html": "<button type=\"button\" class=\"select-trigger has-value\" id=\"select-trigger-14\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"select-dialog\" aria-label=\"Component to change: Processor\">"
+          },
+          {
+            "target": [
+              "#select-trigger-15"
+            ],
+            "html": "<button type=\"button\" class=\"select-trigger has-value\" id=\"select-trigger-15\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"select-dialog\" aria-label=\"Selected item: No existing item selected\">"
+          },
+          {
+            "target": [
+              "#select-trigger-16"
+            ],
+            "html": "<button type=\"button\" class=\"select-trigger has-value\" id=\"select-trigger-16\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"select-dialog\" aria-label=\"Action: Replace selected item\">"
+          },
+          {
+            "target": [
+              "#select-trigger-17"
+            ],
+            "html": "<button type=\"button\" class=\"select-trigger\" id=\"select-trigger-17\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"select-dialog\" aria-label=\"Replacement model: Choose an exact model\">"
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "nodes": [
+          {
+            "target": [
+              "a[href$=\"builder/\"] > span"
+            ],
+            "html": "<span>Build</span>"
+          },
+          {
+            "target": [
+              "a[href$=\"blog/\"] > span"
+            ],
+            "html": "<span>Learn</span>"
+          },
+          {
+            "target": [
+              "a[href$=\"my-pc/\"] > span"
+            ],
+            "html": "<span>My PC</span>"
+          },
+          {
+            "target": [
+              "form[data-upgrade-parse=\"\"] > .secondary.button[type=\"submit\"]"
+            ],
+            "html": "<button type=\"submit\" class=\"button secondary\">Review pasted parts</button>"
+          },
+          {
+            "target": [
+              ".program-import"
+            ],
+            "html": "<label class=\"button secondary program-import\">Import an upgrade plan<input type=\"file\" accept=\"application/json,.json\" data-upgrade-import=\"\"></label>"
+          },
+          {
+            "target": [
+              "input[type=\"file\"]"
+            ],
+            "html": "<input type=\"file\" accept=\"application/json,.json\" data-upgrade-import=\"\">"
+          },
+          {
+            "target": [
+              ".primary.button[type=\"submit\"]"
+            ],
+            "html": "<button type=\"submit\" class=\"button primary\">Create reuse plan</button>"
+          },
+          {
+            "target": [
+              "form[data-upgrade-change=\"\"] > .secondary.button[type=\"submit\"]"
+            ],
+            "html": "<button type=\"submit\" class=\"button secondary\">Recheck this change</button>"
+          },
+          {
+            "target": [
+              "button[data-upgrade-phase=\"\"]"
+            ],
+            "html": "<button type=\"button\" class=\"button secondary\" data-upgrade-phase=\"\">Add as the next phase</button>"
+          },
+          {
+            "target": [
+              ".program-actions:nth-child(3) > .primary.button[href$=\"budget-build-lab/\"]"
+            ],
+            "html": "<a class=\"button primary\" href=\"/tools/budget-build-lab/\">Compare two complete quotes</a>"
+          },
+          {
+            "target": [
+              "a[href$=\"platform-upgrade-cost/\"]"
+            ],
+            "html": "<a class=\"button secondary\" href=\"/tools/platform-upgrade-cost/\">Open the platform cost tool</a>"
+          },
+          {
+            "target": [
+              "button[data-upgrade-builder=\"\"]"
+            ],
+            "html": "<button class=\"button primary\" type=\"button\" data-upgrade-builder=\"\">Open this plan in builder</button>"
+          },
+          {
+            "target": [
+              "button[data-upgrade-export=\"\"]"
+            ],
+            "html": "<button class=\"button secondary\" type=\"button\" data-upgrade-export=\"\">Export reuse plan</button>"
+          }
+        ]
+      }
+    ],
+    "layout": {
+      "client": 375,
+      "height": 844,
+      "scroll": 375,
+      "width": 390
+    }
+  },
+  {
+    "checkedAt": "2026-10-17T01:51:53.967Z",
+    "url": "/my-pc/",
+    "width": 390,
+    "height": 844,
+    "theme": "light",
+    "axeVersion": "4.14.0",
+    "scope": "Real browser DOM, WCAG A/AA and best-practice rules; automated findings do not certify full conformance.",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "nodes": [
+          {
+            "target": [
+              "a[href$=\"builder/\"] > span"
+            ],
+            "html": "<span>Build</span>"
+          },
+          {
+            "target": [
+              "a[href$=\"blog/\"] > span"
+            ],
+            "html": "<span>Learn</span>"
+          },
+          {
+            "target": [
+              ".workspace-heading-actions > .primary.button[href$=\"builder/\"]"
+            ],
+            "html": "<a class=\"button primary\" href=\"/builder/\">Start a build</a>"
+          },
+          {
+            "target": [
+              ".workspace-empty > .primary.button[href$=\"builder/\"]"
+            ],
+            "html": "<a class=\"button primary\" href=\"/builder/\">Choose PC parts</a>"
+          },
+          {
+            "target": [
+              ".workspace-history-heading > .secondary.button"
+            ],
+            "html": "<a class=\"button secondary\" href=\"http://127.0.0.1:4198/compare/?mode=interactive&amp;parts=rtx5070%2Crtx5060ti16&amp;differences=1\">Open current comparison</a>"
+          },
+          {
+            "target": [
+              ".workspace-watch-form > .secondary.button[type=\"submit\"]"
+            ],
+            "html": "<button class=\"button secondary\" type=\"submit\">Find parts</button>"
+          },
+          {
+            "target": [
+              "button[data-workspace-check=\"\"]"
+            ],
+            "html": "<button type=\"button\" class=\"button secondary\" data-workspace-check=\"\">Check saved parts</button>"
+          }
+        ]
+      }
+    ],
+    "layout": {
+      "client": 375,
+      "height": 844,
+      "scroll": 375,
+      "width": 390
+    }
+  },
+  {
+    "checkedAt": "2026-10-17T01:51:58.052Z",
+    "url": "/compare/",
+    "width": 390,
+    "height": 844,
+    "theme": "light",
+    "axeVersion": "4.14.0",
+    "scope": "Real browser DOM, WCAG A/AA and best-practice rules; automated findings do not certify full conformance.",
+    "violations": [
+      {
+        "id": "scrollable-region-focusable",
+        "impact": "serious",
+        "help": "Scrollable region must have keyboard access",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/scrollable-region-focusable?application=axeAPI",
+        "tags": [
+          "cat.keyboard",
+          "wcag2a",
+          "wcag211",
+          "wcag213",
+          "TTv5",
+          "TT4.a",
+          "EN-301-549",
+          "EN-9.2.1.1",
+          "EN-9.2.1.3",
+          "RGAAv4",
+          "RGAA-7.3.2"
+        ],
+        "nodes": [
+          {
+            "target": [
+              "#comparison-table"
+            ],
+            "html": "<div class=\"table-scroll\" id=\"comparison-table\">"
+          }
+        ]
+      }
+    ],
+    "incomplete": [
+      {
+        "id": "aria-prohibited-attr",
+        "impact": "serious",
+        "help": "Elements must only use permitted ARIA attributes",
+        "nodes": [
+          {
+            "target": [
+              "#compare-categories"
+            ],
+            "html": "<div class=\"segmented\" id=\"compare-categories\" aria-label=\"Popular hardware categories\">"
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "nodes": [
+          {
+            "target": [
+              "a[href$=\"builder/\"] > span"
+            ],
+            "html": "<span>Build</span>"
+          },
+          {
+            "target": [
+              "a[href$=\"blog/\"] > span"
+            ],
+            "html": "<span>Learn</span>"
+          },
+          {
+            "target": [
+              "a[href$=\"my-pc/\"] > span"
+            ],
+            "html": "<span>My PC</span>"
+          },
+          {
+            "target": [
+              "#export-csv"
+            ],
+            "html": "<button class=\"button secondary\" id=\"export-csv\">Export CSV <span aria-hidden=\"true\">↓</span></button>"
+          },
+          {
+            "target": [
+              "#export-csv > span[aria-hidden=\"true\"]"
+            ],
+            "html": "<span aria-hidden=\"true\">↓</span>"
+          },
+          {
+            "target": [
+              "#copy-comparison"
+            ],
+            "html": "<button type=\"button\" class=\"button secondary\" id=\"copy-comparison\">Copy comparison link</button>"
+          },
+          {
+            "target": [
+              "#print-comparison"
+            ],
+            "html": "<button type=\"button\" class=\"button secondary\" id=\"print-comparison\">Print comparison</button>"
+          },
+          {
+            "target": [
+              ".category-menu-chevron"
+            ],
+            "html": "<span class=\"category-menu-chevron\" aria-hidden=\"true\">⌄</span>"
+          },
+          {
+            "target": [
+              "button[data-replace=\"0\"] > span[aria-hidden=\"true\"]"
+            ],
+            "html": "<span aria-hidden=\"true\">⌄</span>"
+          },
+          {
+            "target": [
+              ".product-card:nth-child(1) > .product-heading > .program-actions > .button.secondary:nth-child(1)"
+            ],
+            "html": "<a class=\"button secondary\" href=\"/builder/?build=%2C%2Crtx5070%2C%2C%2C%2C%2C%2C%2C\" aria-label=\"Use in a build: GeForce RTX 5070\">Use in a build</a>"
+          },
+          {
+            "target": [
+              "a[href=\"/upgrade/?owned=rtx5070\"]"
+            ],
+            "html": "<a class=\"button secondary\" href=\"/upgrade/?owned=rtx5070\" aria-label=\"I own this part: GeForce RTX 5070\">I own this part</a>"
+          },
+          {
+            "target": [
+              "button[data-replace=\"1\"] > span[aria-hidden=\"true\"]"
+            ],
+            "html": "<span aria-hidden=\"true\">⌄</span>"
+          },
+          {
+            "target": [
+              ".product-card:nth-child(2) > .product-heading > .program-actions > .button.secondary:nth-child(1)"
+            ],
+            "html": "<a class=\"button secondary\" href=\"/builder/?build=%2C%2Crtx5060ti16%2C%2C%2C%2C%2C%2C%2C\" aria-label=\"Use in a build: GeForce RTX 5060 Ti 16 GB\">Use in a build</a>"
+          },
+          {
+            "target": [
+              "a[href=\"/upgrade/?owned=rtx5060ti16\"]"
+            ],
+            "html": "<a class=\"button secondary\" href=\"/upgrade/?owned=rtx5060ti16\" aria-label=\"I own this part: GeForce RTX 5060 Ti 16 GB\">I own this part</a>"
+          },
+          {
+            "target": [
+              "button[data-save-current-comparison=\"\"]"
+            ],
+            "html": "<button type=\"button\" class=\"button secondary\" data-save-current-comparison=\"\">Save comparison</button>"
+          },
+          {
+            "target": [
+              ".master-library > .button.secondary"
+            ],
+            "html": "<a class=\"button secondary\" href=\"/compare/rx-9070-vs-rx-9070-xt/\">Read the RX 9070 comparison</a>"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "help": "Elements must have their visible text as part of their accessible name",
+        "nodes": [
+          {
+            "target": [
+              "button[data-remove=\"rtx5070\"]"
+            ],
+            "html": "<button class=\"icon-button remove-product\" data-remove=\"rtx5070\" aria-label=\"Remove GeForce RTX 5070\">×</button>"
+          },
+          {
+            "target": [
+              "button[data-remove=\"rtx5060ti16\"]"
+            ],
+            "html": "<button class=\"icon-button remove-product\" data-remove=\"rtx5060ti16\" aria-label=\"Remove GeForce RTX 5060 Ti 16 GB\">×</button>"
+          }
+        ]
+      }
+    ],
+    "layout": {
+      "client": 375,
+      "height": 844,
+      "scroll": 375,
+      "width": 390
+    }
+  },
+  {
+    "checkedAt": "2026-10-17T01:52:02.142Z",
+    "url": "/hardware/graphics-cards/",
+    "width": 390,
+    "height": 844,
+    "theme": "light",
+    "axeVersion": "4.14.0",
+    "scope": "Real browser DOM, WCAG A/AA and best-practice rules; automated findings do not certify full conformance.",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "aria-valid-attr-value",
+        "impact": "critical",
+        "help": "ARIA attributes must conform to valid values",
+        "nodes": [
+          {
+            "target": [
+              "#select-trigger-1"
+            ],
+            "html": "<button type=\"button\" class=\"select-trigger has-value\" id=\"select-trigger-1\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"select-dialog\" aria-label=\"Hardware category: Graphics cards\">"
+          },
+          {
+            "target": [
+              "#select-trigger-2"
+            ],
+            "html": "<button type=\"button\" class=\"select-trigger has-value\" id=\"select-trigger-2\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"select-dialog\" aria-label=\"Release period: All generations\">"
+          },
+          {
+            "target": [
+              "#select-trigger-3"
+            ],
+            "html": "<button type=\"button\" class=\"select-trigger has-value\" id=\"select-trigger-3\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"select-dialog\" aria-label=\"Sort hardware: Newest first\">"
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "nodes": [
+          {
+            "target": [
+              "a[href$=\"builder/\"] > span"
+            ],
+            "html": "<span>Build</span>"
+          },
+          {
+            "target": [
+              "a[href$=\"blog/\"] > span"
+            ],
+            "html": "<span>Learn</span>"
+          },
+          {
+            "target": [
+              "a[href$=\"my-pc/\"] > span"
+            ],
+            "html": "<span>My PC</span>"
+          },
+          {
+            "target": [
+              "#catalog-more"
+            ],
+            "html": "<button class=\"button secondary load-more\" id=\"catalog-more\">Show more</button>"
+          }
+        ]
+      }
+    ],
+    "layout": {
+      "client": 375,
+      "height": 844,
+      "scroll": 375,
+      "width": 390
+    }
+  }
+]

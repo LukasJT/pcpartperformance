@@ -1,0 +1,33 @@
+{
+  "productId": "ddr4",
+  "region": "CA",
+  "merchantId": "canada-computers",
+  "checkedAt": "2026-10-17T01:44:08.639Z",
+  "sourceUrl": "https://www.canadacomputers.com/en/desktop-memory/183957/corsair-vengeance-lpx-32gb-2x16gb-ddr4-3200mhz-cl16-udimm-cmk32gx4m2e3200c16.html",
+  "responseStatus": 200,
+  "responseBytes": 553031,
+  "responseSHA256": "19ad414f9caa0611ed74981c1e78d62b00b09ec5cbb8457cd7b13540905426df",
+  "fixtureKind": "selected-original-structured-factual-fields",
+  "products": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "CORSAIR VENGEANCE LPX 32GB (2x16GB) DDR4 3200MHz CL16 UDIMM",
+      "sku": "MECOI00366",
+      "mpn": "CMK32GX4M2E3200C16",
+      "offers": {
+        "@type": "Offer",
+        "price": 359.99,
+        "priceCurrency": "CAD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition",
+        "url": "https://www.canadacomputers.com/en/desktop-memory/183957/corsair-vengeance-lpx-32gb-2x16gb-ddr4-3200mhz-cl16-udimm-cmk32gx4m2e3200c16.html",
+        "seller": {
+          "@type": "Organization",
+          "name": "Canada Computers &amp; Electronics"
+        },
+        "priceValidUntil": "2026-10-31"
+      }
+    }
+  ]
+}

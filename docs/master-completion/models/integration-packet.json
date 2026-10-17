@@ -1,0 +1,1285 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-16",
+  "sources": {
+    "amd7600": {
+      "publisher": "AMD",
+      "model": "Ryzen 5 7600 boxed / 100-100001015BOX",
+      "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600.html",
+      "scope": "AM5 boxed processor lists Wraith Stealth. Does not establish all revisions, cooler dimensions, independent kit inventory or suitability for another CPU.",
+      "checked": "2026-10-16"
+    },
+    "msi1660": {
+      "publisher": "MSI",
+      "model": "GeForce GTX 1660 GAMING X 6G",
+      "url": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-GAMING-X-6G/Specification",
+      "scope": "Exact 6 GB GDDR5 card: published dimensions, nominal board power and connector. Not GTX 1660 SUPER or Ti.",
+      "checked": "2026-10-16"
+    },
+    "msiZ590": {
+      "publisher": "MSI",
+      "model": "MEG Z590 ACE GOLD EDITION",
+      "url": "https://www.msi.com/Motherboard/MEG-Z590-ACE-GOLD-EDITION/Specification",
+      "scope": "LGA1200, DDR4, DIMMs, capacity and ATX dimensions. M.2 availability and lane sharing are conditional; no automatic BIOS pass.",
+      "checked": "2026-10-16"
+    },
+    "asusZ170": {
+      "publisher": "ASUS",
+      "model": "Z170-P manual E12045, revised V3 September 2016",
+      "url": "https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/Z170-P/E12045_Z170-P_UM_V3_WEB.pdf",
+      "scope": "Exact original Z170-P: LGA1151, DDR4, four DIMMs, published 64 GB limit, four SATA ports, one conditional SATA/PCIe M.2 slot, ATX 305 × 224 mm. Not Z170-P D3.",
+      "checked": "2026-10-16"
+    },
+    "asusZ170Cpu": {
+      "publisher": "ASUS",
+      "model": "Z170-P exact processor support list",
+      "url": "https://www.asus.com/us/supportonly/z170p/helpdesk_cpu/",
+      "scope": "Exact processor/revision/minimum BIOS rows require inspection; no compatible BIOS is inferred from LGA1151.",
+      "checked": "2026-10-16"
+    },
+    "gigabyteTrx40": {
+      "publisher": "GIGABYTE",
+      "model": "TRX40 AORUS XTREME rev. 1.0",
+      "url": "https://www.gigabyte.com/Motherboard/TRX40-AORUS-XTREME-rev-10/sp",
+      "scope": "Exact rev. 1.0 specification: sTRX4, DDR4, eight DIMMs, 256 GB and XL-ATX 325 × 275 mm. Creator does not identify model PCB revision; the mesh includes a processor.",
+      "checked": "2026-10-16"
+    },
+    "corsair200r": {
+      "publisher": "CORSAIR",
+      "model": "Carbide Series 200R / CC-9011023-WW",
+      "url": "https://www.corsair.com/us/en/p/pc-cases/cc-9011023-ww/carbide-series-200r-compact-atx-case-cc-9011023-ww",
+      "scope": "Exact black 200R: supported boards, nominal cooler/GPU/PSU allowances, seven slots. Full outer dimensions and an assembled internal layout were not verified here.",
+      "checked": "2026-10-16"
+    },
+    "coolerMasterIdentity": {
+      "publisher": "Cooler Master",
+      "model": "MasterBox Lite 5 spare-parts collection",
+      "url": "https://store.coolermaster.eu/collections/masterbox-lite-5",
+      "scope": "Manufacturer store establishes product identity. It does not supply a complete original-case specification or confirm the artist model SKU. Original product page currently returns 404.",
+      "checked": "2026-10-16"
+    },
+    "intelI5Family": {
+      "publisher": "Intel",
+      "model": "Core i5 desktop processor support, article 000006047",
+      "url": "https://www.intel.com/content/www/us/en/support/articles/000006047/processors.html",
+      "scope": "Intel identifies Core i5-6xx series as LGA1156 with DDR3. Exact i5-661 ARK page returned 403; core counts, clocks, power and package dimensions remain unverified in this batch.",
+      "checked": "2026-10-16"
+    },
+    "titanRtx": {
+      "publisher": "NVIDIA",
+      "model": "NVIDIA TITAN RTX",
+      "url": "https://www.nvidia.com/en-us/titan/titan-rtx/",
+      "scope": "24 GB GDDR6, Turing, two 8-pin connectors, 280 W nominal TDP and 650 W recommended system PSU. No present-day speed claim is inherited from historical marketing.",
+      "checked": "2026-10-16"
+    },
+    "titanSheet": {
+      "publisher": "NVIDIA",
+      "model": "TITAN RTX creator product overview, May 2019",
+      "url": "https://www.nvidia.com/content/dam/en-zz/Solutions/titan/documents/titan-rtx-for-creators-us-nvidia-1011126-r6-web.pdf",
+      "scope": "Nominal 10.5-inch length and 4.4-inch height, dual-slot. Converted to 266.7 × 111.76 mm; exact bracket/cable/thickness envelope is not documented by those two dimensions.",
+      "checked": "2026-10-16"
+    }
+  },
+  "catalogAdditions": [
+    {
+      "id": "cooler-amd-wraith-stealth",
+      "name": "AMD Wraith Stealth",
+      "model": "AMD Wraith Stealth",
+      "brand": "AMD",
+      "cat": "cooler",
+      "source": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600.html",
+      "year": null,
+      "sku": null,
+      "builderEligible": true,
+      "catalogOrigin": "completion-models-2026-10-16",
+      "architecture": "CPU air cooler",
+      "summary": "Stock air cooler supplied with the boxed Ryzen 5 7600",
+      "specs": {
+        "Cooling type": "Air",
+        "Supported sockets": [
+          "AM5"
+        ],
+        "Cooler height": null,
+        "Fan size": null
+      },
+      "cooler": {
+        "type": "air",
+        "supportedSockets": [
+          "AM5"
+        ],
+        "includedMounting": null,
+        "heightMm": null,
+        "heatsinkHeightMm": null,
+        "dimensionsMm": null,
+        "fanSizeMm": null,
+        "fanCount": null,
+        "ramClearanceMm": null,
+        "thermalSuitability": null,
+        "mountingNotes": "AM5 use is documented with the exact boxed Ryzen 5 7600. Inspect the actual stock-cooler revision and mounting hardware. No other platform or CPU thermal claim is made."
+      },
+      "evidence": {
+        "checkedAt": "2026-10-16",
+        "sourceIds": [
+          "amd7600"
+        ],
+        "fields": {
+          "coolingType": {
+            "value": "air",
+            "source": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600.html",
+            "publisher": "AMD",
+            "model": "Ryzen 5 7600 boxed / 100-100001015BOX",
+            "checked": "2026-10-16",
+            "status": "manufacturer-specified",
+            "exact": true
+          },
+          "supportedSockets": {
+            "value": [
+              "AM5"
+            ],
+            "source": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600.html",
+            "publisher": "AMD",
+            "model": "Ryzen 5 7600 boxed / 100-100001015BOX",
+            "checked": "2026-10-16",
+            "status": "manufacturer-specified",
+            "exact": true,
+            "condition": "Documented use with the boxed Ryzen 5 7600, not universal cooler thermal suitability."
+          },
+          "installedHeight": {
+            "value": null,
+            "source": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600.html",
+            "publisher": "AMD",
+            "model": "Ryzen 5 7600 boxed / 100-100001015BOX",
+            "checked": "2026-10-16",
+            "status": "unknown",
+            "exact": false,
+            "condition": "Manufacturer installed assembly dimensions were not verified."
+          },
+          "mountingIncluded": {
+            "value": null,
+            "source": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600.html",
+            "publisher": "AMD",
+            "model": "Ryzen 5 7600 boxed / 100-100001015BOX",
+            "checked": "2026-10-16",
+            "status": "unknown",
+            "exact": false,
+            "condition": "Exact loose-cooler kit inventory is unknown."
+          }
+        }
+      }
+    },
+    {
+      "id": "retail-msi-geforce-gtx-1660-gaming-x-6g",
+      "name": "GeForce GTX 1660 GAMING X 6G",
+      "model": "GeForce GTX 1660 GAMING X 6G",
+      "brand": "MSI",
+      "cat": "gpu",
+      "source": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-GAMING-X-6G/Specification",
+      "year": null,
+      "sku": null,
+      "builderEligible": true,
+      "catalogOrigin": "completion-models-2026-10-16",
+      "baseModel": "gtx1660",
+      "architecture": "Turing",
+      "summary": "6 GB GDDR5 · dual-fan MSI card",
+      "specs": {
+        "Memory": 6,
+        "Memory type": "GDDR5",
+        "Memory bus": 192,
+        "Board power": 130,
+        "Card length": 247,
+        "Card height": 127,
+        "Card thickness": 46,
+        "Recommended PSU": 450
+      },
+      "evidence": {
+        "checkedAt": "2026-10-16",
+        "sourceIds": [
+          "msi1660"
+        ],
+        "fields": {
+          "gpuLength": {
+            "value": 247,
+            "source": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-GAMING-X-6G/Specification",
+            "publisher": "MSI",
+            "model": "GeForce GTX 1660 GAMING X 6G",
+            "checked": "2026-10-16",
+            "status": "manufacturer-specified",
+            "exact": true
+          },
+          "gpuHeight": {
+            "value": 127,
+            "source": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-GAMING-X-6G/Specification",
+            "publisher": "MSI",
+            "model": "GeForce GTX 1660 GAMING X 6G",
+            "checked": "2026-10-16",
+            "status": "manufacturer-specified",
+            "exact": true
+          },
+          "gpuThickness": {
+            "value": 46,
+            "source": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-GAMING-X-6G/Specification",
+            "publisher": "MSI",
+            "model": "GeForce GTX 1660 GAMING X 6G",
+            "checked": "2026-10-16",
+            "status": "manufacturer-specified",
+            "exact": true
+          },
+          "gpuPower": {
+            "value": 130,
+            "source": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-GAMING-X-6G/Specification",
+            "publisher": "MSI",
+            "model": "GeForce GTX 1660 GAMING X 6G",
+            "checked": "2026-10-16",
+            "status": "manufacturer-specified",
+            "exact": true
+          },
+          "connectors": {
+            "value": "1 × PCIe 8-pin",
+            "source": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-GAMING-X-6G/Specification",
+            "publisher": "MSI",
+            "model": "GeForce GTX 1660 GAMING X 6G",
+            "checked": "2026-10-16",
+            "status": "manufacturer-specified",
+            "exact": true
+          },
+          "recommendedPsu": {
+            "value": 450,
+            "source": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-GAMING-X-6G/Specification",
+            "publisher": "MSI",
+            "model": "GeForce GTX 1660 GAMING X 6G",
+            "checked": "2026-10-16",
+            "status": "manufacturer-specified",
+            "exact": true,
+            "condition": "Manufacturer system PSU recommendation; not a measured total system load."
+          }
+        }
+      }
+    },
+    {
+      "id": "retail-msi-meg-z590-ace-gold-edition",
+      "name": "MEG Z590 ACE GOLD EDITION",
+      "model": "MEG Z590 ACE GOLD EDITION",
+      "brand": "MSI",
+      "cat": "board",
+      "source": "https://www.msi.com/Motherboard/MEG-Z590-ACE-GOLD-EDITION/Specification",
+      "year": null,
+      "sku": null,
+      "builderEligible": true,
+      "catalogOrigin": "completion-models-2026-10-16",
+      "architecture": "Intel Z590 · LGA1200",
+      "summary": "ATX · DDR4 · four DIMM slots",
+      "specs": {
+        "Socket": "LGA1200",
+        "DDR generation": "DDR4",
+        "DIMM slots": 4,
+        "Max RAM": 128,
+        "Form factor": "ATX",
+        "SATA ports": 6,
+        "M.2 slots": 4
+      },
+      "note": "Four nominal M.2 positions are conditional. M2_1 requires an 11th-generation processor. M2_2/M2_3 can disable SATA ports; M2_4 shares PCIe resources. Check the exact manual and BIOS support list.",
+      "evidence": {
+        "checkedAt": "2026-10-16",
+        "sourceIds": [
+          "msiZ590"
+        ],
+        "fields": {
+          "socket": {
+            "value": "LGA1200",
+            "source": "https://www.msi.com/Motherboard/MEG-Z590-ACE-GOLD-EDITION/Specification",
+            "publisher": "MSI",
+            "model": "MEG Z590 ACE GOLD EDITION",
+            "checked": "2026-10-16",
+            "status": "manufacturer-specified",
+            "exact": true
+          },
+          "ddr": {
+            "value": "DDR4",
+            "source": "https://www.msi.com/Motherboard/MEG-Z590-ACE-GOLD-EDITION/Specification",
+            "publisher": "MSI",
+            "model": "MEG Z590 ACE GOLD EDITION",
+            "checked": "2026-10-16",
+            "status": "manufacturer-specified",
+            "exact": true
+          },
+          "modules": {
+            "value": 4,
+            "source": "https://www.msi.com/Motherboard/MEG-Z590-ACE-GOLD-EDITION/Specification",
+            "publisher": "MSI",
+            "model": "MEG Z590 ACE GOLD EDITION",
+            "checked": "2026-10-16",
+            "status": "manufacturer-specified",
+            "exact": true
+          },
+          "memoryMax": {
+            "value": 128,
+            "source": "https://www.msi.com/Motherboard/MEG-Z590-ACE-GOLD-EDITION/Specification",
+            "publisher": "MSI",
+            "model": "MEG Z590 ACE GOLD EDITION",
+            "checked": "2026-10-16",
+            "status": "manufacturer-specified",
+            "exact": true
+          },
+          "form": {
+            "value": "ATX",
+            "source": "https://www.msi.com/Motherboard/MEG-Z590-ACE-GOLD-EDITION/Specification",
+            "publisher": "MSI",
+            "model": "MEG Z590 ACE GOLD EDITION",
+            "checked": "2026-10-16",
+            "status": "manufacturer-specified",
+            "exact": true
+          },
+          "boardLength": {
+            "value": 305,
+            "source": "https://www.msi.com/Motherboard/MEG-Z590-ACE-GOLD-EDITION/Specification",
+            "publisher": "MSI",
+            "model": "MEG Z590 ACE GOLD EDITION",
+            "checked": "2026-10-16",
+            "status": "manufacturer-specified",
+            "exact": true
+          },
+          "boardWidth": {
+            "value": 244,
+            "source": "https://www.msi.com/Motherboard/MEG-Z590-ACE-GOLD-EDITION/Specification",
+            "publisher": "MSI",
+            "model": "MEG Z590 ACE GOLD EDITION",
+            "checked": "2026-10-16",
+            "status": "manufacturer-specified",
+            "exact": true
+          },
+          "sata": {
+            "value": 6,
+            "source": "https://www.msi.com/Motherboard/MEG-Z590-ACE-GOLD-EDITION/Specification",
+            "publisher": "MSI",
+            "model": "MEG Z590 ACE GOLD EDITION",
+            "checked": "2026-10-16",
+            "status": "manufacturer-specified",
+            "exact": true,
+            "condition": "Lane-sharing conditions can disable SATA ports."
+          },
+          "m2": {
+            "value": null,
+            "source": "https://www.msi.com/Motherboard/MEG-Z590-ACE-GOLD-EDITION/Specification",
+            "publisher": "MSI",
+            "model": "MEG Z590 ACE GOLD EDITION",
+            "checked": "2026-10-16",
+            "status": "unknown",
+            "exact": false,
+            "condition": "Nominal four positions are not four unconditionally usable NVMe connections."
+          }
+        }
+      }
+    },
+    {
+      "id": "retail-asus-z170-p",
+      "name": "Z170-P",
+      "model": "Z170-P",
+      "brand": "ASUS",
+      "cat": "board",
+      "source": "https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/Z170-P/E12045_Z170-P_UM_V3_WEB.pdf",
+      "year": null,
+      "sku": null,
+      "builderEligible": true,
+      "catalogOrigin": "completion-models-2026-10-16",
+      "architecture": "Intel Z170 · LGA1151",
+      "summary": "ATX · DDR4 · four DIMM slots",
+      "specs": {
+        "Socket": "LGA1151",
+        "DDR generation": "DDR4",
+        "DIMM slots": 4,
+        "Max RAM": 64,
+        "Form factor": "ATX",
+        "SATA ports": 4,
+        "M.2 slots": 1
+      },
+      "note": "Original DDR4 Z170-P. Matching LGA1151 alone does not establish processor/BIOS support. One M.2 socket supports documented SATA/PCIe configurations; check lane sharing. Artist preview is a scan of a used board described as broken.",
+      "evidence": {
+        "checkedAt": "2026-10-16",
+        "sourceIds": [
+          "asusZ170",
+          "asusZ170Cpu"
+        ],
+        "fields": {
+          "socket": {
+            "value": "LGA1151",
+            "source": "https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/Z170-P/E12045_Z170-P_UM_V3_WEB.pdf",
+            "publisher": "ASUS",
+            "model": "Z170-P manual E12045, revised V3 September 2016",
+            "checked": "2026-10-16",
+            "status": "manufacturer-specified",
+            "exact": true
+          },
+          "ddr": {
+            "value": "DDR4",
+            "source": "https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/Z170-P/E12045_Z170-P_UM_V3_WEB.pdf",
+            "publisher": "ASUS",
+            "model": "Z170-P manual E12045, revised V3 September 2016",
+            "checked": "2026-10-16",
+            "status": "manufacturer-specified",
+            "exact": true
+          },
+          "modules": {
+            "value": 4,
+            "source": "https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/Z170-P/E12045_Z170-P_UM_V3_WEB.pdf",
+            "publisher": "ASUS",
+            "model": "Z170-P manual E12045, revised V3 September 2016",
+            "checked": "2026-10-16",
+            "status": "manufacturer-specified",
+            "exact": true
+          },
+          "memoryMax": {
+            "value": 64,
+            "source": "https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/Z170-P/E12045_Z170-P_UM_V3_WEB.pdf",
+            "publisher": "ASUS",
+            "model": "Z170-P manual E12045, revised V3 September 2016",
+            "checked": "2026-10-16",
+            "status": "manufacturer-specified",
+            "exact": true,
+            "condition": "Published limit in the inspected September 2016 V3 manual."
+          },
+          "form": {
+            "value": "ATX",
+            "source": "https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/Z170-P/E12045_Z170-P_UM_V3_WEB.pdf",
+            "publisher": "ASUS",
+            "model": "Z170-P manual E12045, revised V3 September 2016",
+            "checked": "2026-10-16",
+            "status": "manufacturer-specified",
+            "exact": true
+          },
+          "boardLength": {
+            "value": 305,
+            "source": "https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/Z170-P/E12045_Z170-P_UM_V3_WEB.pdf",
+            "publisher": "ASUS",
+            "model": "Z170-P manual E12045, revised V3 September 2016",
+            "checked": "2026-10-16",
+            "status": "manufacturer-specified",
+            "exact": true
+          },
+          "boardWidth": {
+            "value": 224,
+            "source": "https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/Z170-P/E12045_Z170-P_UM_V3_WEB.pdf",
+            "publisher": "ASUS",
+            "model": "Z170-P manual E12045, revised V3 September 2016",
+            "checked": "2026-10-16",
+            "status": "manufacturer-specified",
+            "exact": true
+          },
+          "sata": {
+            "value": 4,
+            "source": "https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/Z170-P/E12045_Z170-P_UM_V3_WEB.pdf",
+            "publisher": "ASUS",
+            "model": "Z170-P manual E12045, revised V3 September 2016",
+            "checked": "2026-10-16",
+            "status": "manufacturer-specified",
+            "exact": true
+          },
+          "m2": {
+            "value": 1,
+            "source": "https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/Z170-P/E12045_Z170-P_UM_V3_WEB.pdf",
+            "publisher": "ASUS",
+            "model": "Z170-P manual E12045, revised V3 September 2016",
+            "checked": "2026-10-16",
+            "status": "manufacturer-specified",
+            "exact": true,
+            "condition": "Confirm SATA/PCIe configuration and sharing from the manual."
+          }
+        }
+      }
+    },
+    {
+      "id": "retail-gigabyte-trx40-aorus-xtreme-rev-1-0",
+      "name": "TRX40 AORUS XTREME rev. 1.0",
+      "model": "TRX40 AORUS XTREME rev. 1.0",
+      "brand": "GIGABYTE",
+      "cat": "board",
+      "source": "https://www.gigabyte.com/Motherboard/TRX40-AORUS-XTREME-rev-10/sp",
+      "year": null,
+      "sku": null,
+      "builderEligible": true,
+      "catalogOrigin": "completion-models-2026-10-16",
+      "architecture": "AMD TRX40 · sTRX4",
+      "summary": "XL-ATX · DDR4 · eight DIMM slots",
+      "specs": {
+        "Socket": "sTRX4",
+        "DDR generation": "DDR4",
+        "DIMM slots": 8,
+        "Max RAM": 256,
+        "Form factor": "XL-ATX"
+      },
+      "note": "Exact catalog specifications refer to rev. 1.0. The third-party 3D model does not identify its PCB revision and contains an installed Threadripper; it does not render the user-selected CPU.",
+      "evidence": {
+        "checkedAt": "2026-10-16",
+        "sourceIds": [
+          "gigabyteTrx40"
+        ],
+        "fields": {
+          "socket": {
+            "value": "sTRX4",
+            "source": "https://www.gigabyte.com/Motherboard/TRX40-AORUS-XTREME-rev-10/sp",
+            "publisher": "GIGABYTE",
+            "model": "TRX40 AORUS XTREME rev. 1.0",
+            "checked": "2026-10-16",
+            "status": "manufacturer-specified",
+            "exact": true
+          },
+          "ddr": {
+            "value": "DDR4",
+            "source": "https://www.gigabyte.com/Motherboard/TRX40-AORUS-XTREME-rev-10/sp",
+            "publisher": "GIGABYTE",
+            "model": "TRX40 AORUS XTREME rev. 1.0",
+            "checked": "2026-10-16",
+            "status": "manufacturer-specified",
+            "exact": true
+          },
+          "modules": {
+            "value": 8,
+            "source": "https://www.gigabyte.com/Motherboard/TRX40-AORUS-XTREME-rev-10/sp",
+            "publisher": "GIGABYTE",
+            "model": "TRX40 AORUS XTREME rev. 1.0",
+            "checked": "2026-10-16",
+            "status": "manufacturer-specified",
+            "exact": true
+          },
+          "memoryMax": {
+            "value": 256,
+            "source": "https://www.gigabyte.com/Motherboard/TRX40-AORUS-XTREME-rev-10/sp",
+            "publisher": "GIGABYTE",
+            "model": "TRX40 AORUS XTREME rev. 1.0",
+            "checked": "2026-10-16",
+            "status": "manufacturer-specified",
+            "exact": true
+          },
+          "form": {
+            "value": "XL-ATX",
+            "source": "https://www.gigabyte.com/Motherboard/TRX40-AORUS-XTREME-rev-10/sp",
+            "publisher": "GIGABYTE",
+            "model": "TRX40 AORUS XTREME rev. 1.0",
+            "checked": "2026-10-16",
+            "status": "manufacturer-specified",
+            "exact": true
+          },
+          "boardLength": {
+            "value": 325,
+            "source": "https://www.gigabyte.com/Motherboard/TRX40-AORUS-XTREME-rev-10/sp",
+            "publisher": "GIGABYTE",
+            "model": "TRX40 AORUS XTREME rev. 1.0",
+            "checked": "2026-10-16",
+            "status": "manufacturer-specified",
+            "exact": true
+          },
+          "boardWidth": {
+            "value": 275,
+            "source": "https://www.gigabyte.com/Motherboard/TRX40-AORUS-XTREME-rev-10/sp",
+            "publisher": "GIGABYTE",
+            "model": "TRX40 AORUS XTREME rev. 1.0",
+            "checked": "2026-10-16",
+            "status": "manufacturer-specified",
+            "exact": true
+          }
+        }
+      }
+    },
+    {
+      "id": "retail-corsair-carbide-200r-black",
+      "name": "Carbide Series 200R",
+      "model": "Carbide Series 200R",
+      "brand": "CORSAIR",
+      "cat": "case",
+      "source": "https://www.corsair.com/us/en/p/pc-cases/cc-9011023-ww/carbide-series-200r-compact-atx-case-cc-9011023-ww",
+      "year": null,
+      "sku": "CC-9011023-WW",
+      "builderEligible": true,
+      "catalogOrigin": "completion-models-2026-10-16",
+      "skuKind": "manufacturer-part-number",
+      "architecture": "ATX mid-tower",
+      "summary": "Black steel case · seven expansion slots",
+      "specs": {
+        "Form factor": "ATX mid-tower",
+        "Maximum CPU cooler height": 165,
+        "Maximum GPU length": 420,
+        "Maximum PSU length": 200,
+        "Expansion slots": 7
+      },
+      "note": "Nominal allowances are manufacturer specifications, not a combined fit guarantee. Verify drive cages, radiator placement and power-cable space. The artist model is a basic exterior; optical faceplates do not prove optical drives are supplied.",
+      "evidence": {
+        "checkedAt": "2026-10-16",
+        "sourceIds": [
+          "corsair200r"
+        ],
+        "fields": {
+          "forms": {
+            "value": [
+              "ATX",
+              "MICRO-ATX",
+              "MINI-ITX"
+            ],
+            "source": "https://www.corsair.com/us/en/p/pc-cases/cc-9011023-ww/carbide-series-200r-compact-atx-case-cc-9011023-ww",
+            "publisher": "CORSAIR",
+            "model": "Carbide Series 200R / CC-9011023-WW",
+            "checked": "2026-10-16",
+            "status": "manufacturer-specified",
+            "exact": true
+          },
+          "coolerHeightMax": {
+            "value": 165,
+            "source": "https://www.corsair.com/us/en/p/pc-cases/cc-9011023-ww/carbide-series-200r-compact-atx-case-cc-9011023-ww",
+            "publisher": "CORSAIR",
+            "model": "Carbide Series 200R / CC-9011023-WW",
+            "checked": "2026-10-16",
+            "status": "manufacturer-specified",
+            "exact": true
+          },
+          "gpuLengthMax": {
+            "value": 420,
+            "source": "https://www.corsair.com/us/en/p/pc-cases/cc-9011023-ww/carbide-series-200r-compact-atx-case-cc-9011023-ww",
+            "publisher": "CORSAIR",
+            "model": "Carbide Series 200R / CC-9011023-WW",
+            "checked": "2026-10-16",
+            "status": "manufacturer-specified",
+            "exact": true,
+            "condition": "Nominal maximum; exact cage, fan and radiator configuration still needs checking."
+          },
+          "psuLengthMax": {
+            "value": 200,
+            "source": "https://www.corsair.com/us/en/p/pc-cases/cc-9011023-ww/carbide-series-200r-compact-atx-case-cc-9011023-ww",
+            "publisher": "CORSAIR",
+            "model": "Carbide Series 200R / CC-9011023-WW",
+            "checked": "2026-10-16",
+            "status": "manufacturer-specified",
+            "exact": true,
+            "condition": "Body allowance; cable-routing space is separate."
+          },
+          "psuFormats": {
+            "value": [
+              "ATX"
+            ],
+            "source": "https://www.corsair.com/us/en/p/pc-cases/cc-9011023-ww/carbide-series-200r-compact-atx-case-cc-9011023-ww",
+            "publisher": "CORSAIR",
+            "model": "Carbide Series 200R / CC-9011023-WW",
+            "checked": "2026-10-16",
+            "status": "manufacturer-specified",
+            "exact": true
+          }
+        }
+      }
+    },
+    {
+      "id": "retail-cooler-master-masterbox-lite-5",
+      "name": "MasterBox Lite 5",
+      "model": "MasterBox Lite 5",
+      "brand": "Cooler Master",
+      "cat": "case",
+      "source": "https://store.coolermaster.eu/collections/masterbox-lite-5",
+      "year": null,
+      "sku": null,
+      "builderEligible": false,
+      "catalogOrigin": "completion-models-2026-10-16",
+      "indexable": false,
+      "architecture": "Case appearance reference",
+      "summary": "Artist model; exact SKU and installed fit to verify",
+      "specs": {},
+      "note": "Reference-only catalog addition. Manufacturer spare-parts page confirms the model family; a full original-case specification was not retrieved. Creator model is very low detail and untextured. Do not infer RGB variant, exact SKU or calibrated dimensions.",
+      "evidence": {
+        "checkedAt": "2026-10-16",
+        "sourceIds": [
+          "coolerMasterIdentity"
+        ],
+        "fields": {
+          "forms": {
+            "value": null,
+            "source": "https://store.coolermaster.eu/collections/masterbox-lite-5",
+            "publisher": "Cooler Master",
+            "model": "MasterBox Lite 5 spare-parts collection",
+            "checked": "2026-10-16",
+            "status": "unknown",
+            "exact": false
+          },
+          "coolerHeightMax": {
+            "value": null,
+            "source": "https://store.coolermaster.eu/collections/masterbox-lite-5",
+            "publisher": "Cooler Master",
+            "model": "MasterBox Lite 5 spare-parts collection",
+            "checked": "2026-10-16",
+            "status": "unknown",
+            "exact": false
+          },
+          "gpuLengthMax": {
+            "value": null,
+            "source": "https://store.coolermaster.eu/collections/masterbox-lite-5",
+            "publisher": "Cooler Master",
+            "model": "MasterBox Lite 5 spare-parts collection",
+            "checked": "2026-10-16",
+            "status": "unknown",
+            "exact": false
+          }
+        }
+      }
+    },
+    {
+      "id": "completion-cpu-intel-core-i5-661",
+      "name": "Core i5-661",
+      "model": "Core i5-661",
+      "brand": "Intel",
+      "cat": "cpu",
+      "source": "https://www.intel.com/content/www/us/en/support/articles/000006047/processors.html",
+      "year": null,
+      "sku": null,
+      "builderEligible": false,
+      "catalogOrigin": "completion-models-2026-10-16",
+      "indexable": false,
+      "architecture": "Legacy Core i5-6xx",
+      "summary": "Legacy desktop processor appearance reference",
+      "specs": {
+        "Socket": "LGA1156",
+        "DDR generation": "DDR3",
+        "Cores": null,
+        "Threads": null,
+        "Boost clock": null,
+        "TDP": null
+      },
+      "note": "Exact name is visible on the creator model. Intel family documentation confirms the i5-6xx platform, while the exact ARK page returned 403. Detailed processor specifications and package dimensions remain unknown. Not offered as a new-build recommendation.",
+      "evidence": {
+        "checkedAt": "2026-10-16",
+        "sourceIds": [
+          "intelI5Family"
+        ],
+        "fields": {
+          "socket": {
+            "value": "LGA1156",
+            "source": "https://www.intel.com/content/www/us/en/support/articles/000006047/processors.html",
+            "publisher": "Intel",
+            "model": "Core i5 desktop processor support, article 000006047",
+            "checked": "2026-10-16",
+            "status": "manufacturer-specified",
+            "exact": true,
+            "condition": "Intel published i5-6xx family mapping; no exact board BIOS support is established."
+          },
+          "ddr": {
+            "value": "DDR3",
+            "source": "https://www.intel.com/content/www/us/en/support/articles/000006047/processors.html",
+            "publisher": "Intel",
+            "model": "Core i5 desktop processor support, article 000006047",
+            "checked": "2026-10-16",
+            "status": "manufacturer-specified",
+            "exact": true
+          },
+          "cpuPower": {
+            "value": null,
+            "source": "https://www.intel.com/content/www/us/en/support/articles/000006047/processors.html",
+            "publisher": "Intel",
+            "model": "Core i5 desktop processor support, article 000006047",
+            "checked": "2026-10-16",
+            "status": "unknown",
+            "exact": false
+          }
+        }
+      }
+    }
+  ],
+  "catalogOverrides": {
+    "intel4004": {
+      "builderEligible": false,
+      "usageScope": "historical-reference",
+      "modelNote": "Historical Intel 4004 DIP-package artist model, not a current desktop socket component."
+    },
+    "titanrtx": {
+      "evidence": {
+        "checkedAt": "2026-10-16",
+        "sourceIds": [
+          "titanRtx",
+          "titanSheet"
+        ],
+        "fields": {
+          "gpuLength": {
+            "value": 266.7,
+            "source": "https://www.nvidia.com/content/dam/en-zz/Solutions/titan/documents/titan-rtx-for-creators-us-nvidia-1011126-r6-web.pdf",
+            "publisher": "NVIDIA",
+            "model": "TITAN RTX creator product overview, May 2019",
+            "checked": "2026-10-16",
+            "status": "manufacturer-specified",
+            "exact": true,
+            "condition": "Converted nominal 10.5-inch card length; mounting bracket and cable envelope are not established."
+          },
+          "gpuHeight": {
+            "value": 111.76,
+            "source": "https://www.nvidia.com/content/dam/en-zz/Solutions/titan/documents/titan-rtx-for-creators-us-nvidia-1011126-r6-web.pdf",
+            "publisher": "NVIDIA",
+            "model": "TITAN RTX creator product overview, May 2019",
+            "checked": "2026-10-16",
+            "status": "manufacturer-specified",
+            "exact": true,
+            "condition": "Converted nominal 4.4-inch card height."
+          },
+          "gpuThickness": {
+            "value": null,
+            "source": "https://www.nvidia.com/content/dam/en-zz/Solutions/titan/documents/titan-rtx-for-creators-us-nvidia-1011126-r6-web.pdf",
+            "publisher": "NVIDIA",
+            "model": "TITAN RTX creator product overview, May 2019",
+            "checked": "2026-10-16",
+            "status": "unknown",
+            "exact": false,
+            "condition": "Dual-slot is not an exact millimeter thickness."
+          },
+          "connectors": {
+            "value": "2 × PCIe 8-pin",
+            "source": "https://www.nvidia.com/en-us/titan/titan-rtx/",
+            "publisher": "NVIDIA",
+            "model": "NVIDIA TITAN RTX",
+            "checked": "2026-10-16",
+            "status": "manufacturer-specified",
+            "exact": true
+          },
+          "gpuPower": {
+            "value": 280,
+            "source": "https://www.nvidia.com/en-us/titan/titan-rtx/",
+            "publisher": "NVIDIA",
+            "model": "NVIDIA TITAN RTX",
+            "checked": "2026-10-16",
+            "status": "manufacturer-specified",
+            "exact": true
+          },
+          "recommendedPsu": {
+            "value": 650,
+            "source": "https://www.nvidia.com/en-us/titan/titan-rtx/",
+            "publisher": "NVIDIA",
+            "model": "NVIDIA TITAN RTX",
+            "checked": "2026-10-16",
+            "status": "manufacturer-specified",
+            "exact": true,
+            "condition": "Manufacturer system recommendation, not measured full-system demand."
+          }
+        }
+      }
+    }
+  },
+  "models": [
+    {
+      "id": "cooler-amd-wraith-stealth",
+      "category": "cooler",
+      "asset": "completion/amd-wraith-stealth.glb",
+      "title": "AMD Wraith Stealth CPU Cooler",
+      "creator": "PolyDavid",
+      "creatorUrl": "https://sketchfab.com/PolyDavid",
+      "sourceUid": "843413eefdc9437b816a874628cc310f",
+      "sourceUrl": "https://sketchfab.com/3d-models/843413eefdc9437b816a874628cc310f",
+      "sourceDistributionUrl": null,
+      "originalAttribution": null,
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "Static transforms flattened; matching primitives joined; duplicate/unused resources removed; image textures resized to 1024 pixels maximum and encoded WebP; Meshopt compression. Source appearance and proportions retained. Not clearance-certified geometry.",
+      "identity": "exact-model",
+      "appearance": "Named AMD Wraith Stealth stock-cooler recreation",
+      "reviewed": "2026-10-16",
+      "metadataCheckedAt": "2026-10-17T00:48:39.819Z",
+      "sha256": "40717cca54c6d6017b90616b7a08d4afff0c9836040c4c6c7f22390cb43e6289",
+      "sourceSha256": "ef622ab1d88145c8f3b38c1a6f8862a0386a79f9f4f621da5933821a955ebf56",
+      "bytes": 1410404,
+      "triangles": 48875,
+      "validated": true,
+      "validationErrors": 0,
+      "validationWarnings": 3,
+      "clearanceCertified": false,
+      "dimensionsMm": null,
+      "dimensionStatus": "Artist proportions retained. No complete verified assembly envelope or calibrated mounting coordinates.",
+      "placement": "standalone-only",
+      "standaloneOnly": true,
+      "buildPlacementReady": false,
+      "scaleMode": "uniform-autoframe",
+      "orientation": null,
+      "usageScope": "component-appearance",
+      "caveats": [
+        "Stock-cooler revision is unspecified.",
+        "Cable extends the source bounding box; cooler body dimensions cannot be inferred from it.",
+        "No installed height, thermal suitability or complete loose-kit inventory verified."
+      ],
+      "registrationStatus": "ready-for-standalone-render-qa"
+    },
+    {
+      "id": "retail-msi-geforce-gtx-1660-gaming-x-6g",
+      "category": "gpu",
+      "asset": "completion/msi-gtx-1660-gaming-x-6g.glb",
+      "title": "GeForce GTX 1660 GAMING X 6G",
+      "creator": "descloizite",
+      "creatorUrl": "https://sketchfab.com/descloizite",
+      "sourceUid": "4a5f8ce0a7ca40dd8a479dd556eb98b0",
+      "sourceUrl": "https://sketchfab.com/3d-models/4a5f8ce0a7ca40dd8a479dd556eb98b0",
+      "sourceDistributionUrl": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-050/4a5f8ce0a7ca40dd8a479dd556eb98b0.glb",
+      "originalAttribution": "descloizite (https://sketchfab.com/descloizite)",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "Static transforms flattened; matching primitives joined; duplicate/unused resources removed; image textures resized to 1024 pixels maximum and encoded WebP; Meshopt compression. Source appearance and proportions retained. Not clearance-certified geometry.",
+      "identity": "exact-model",
+      "appearance": "Exact named card photogrammetry with capture base",
+      "reviewed": "2026-10-16",
+      "metadataCheckedAt": "2026-10-17T00:48:40.603Z",
+      "sha256": "2b645829fbfac3a5fdd38ef8d59a46328a86fd20f6aa13c27088173e9d0ec045",
+      "sourceSha256": "43b655ee9ee4aadaa466aa4dade2a542d313ed0b4ed815b686fb27eaa454228a",
+      "bytes": 712008,
+      "triangles": 30126,
+      "validated": true,
+      "validationErrors": 0,
+      "validationWarnings": 0,
+      "clearanceCertified": false,
+      "dimensionsMm": null,
+      "dimensionStatus": "Artist proportions retained. No complete verified assembly envelope or calibrated mounting coordinates.",
+      "placement": "standalone-only",
+      "standaloneOnly": true,
+      "buildPlacementReady": false,
+      "scaleMode": "uniform-autoframe",
+      "orientation": null,
+      "usageScope": "component-appearance",
+      "caveats": [
+        "Green cutting mat is in the same mesh/material as the scanned card.",
+        "Display the complete capture in isolation; do not place its cutting mat inside an assembled PC."
+      ],
+      "registrationStatus": "ready-for-standalone-render-qa"
+    },
+    {
+      "id": "retail-msi-meg-z590-ace-gold-edition",
+      "category": "board",
+      "asset": "completion/msi-meg-z590-ace-gold.glb",
+      "title": "MSI MEG Z590 ACE GOLD EDITION",
+      "creator": "dormenevamarta",
+      "creatorUrl": "https://sketchfab.com/dormenevamarta",
+      "sourceUid": "7a0057a17f404cb296035c3adcd130f9",
+      "sourceUrl": "https://sketchfab.com/3d-models/7a0057a17f404cb296035c3adcd130f9",
+      "sourceDistributionUrl": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-114/7a0057a17f404cb296035c3adcd130f9.glb",
+      "originalAttribution": "dormenevamarta (https://sketchfab.com/dormenevamarta)",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "Static transforms flattened; matching primitives joined; duplicate/unused resources removed; image textures resized to 1024 pixels maximum and encoded WebP; Meshopt compression. Source appearance and proportions retained. Not clearance-certified geometry.",
+      "identity": "exact-model",
+      "appearance": "Named MSI MEG Z590 ACE GOLD EDITION recreation",
+      "reviewed": "2026-10-16",
+      "metadataCheckedAt": "2026-10-17T00:48:40.990Z",
+      "sha256": "22f3e395a7246184102ef25d8cc5b97b97e04f906529fa459f4bd11ee0c7a612",
+      "sourceSha256": "2cc2192ba843772cd7905fa212daf19674b75d33fb2395b2cbc44851101356e1",
+      "bytes": 539404,
+      "triangles": 54743,
+      "validated": true,
+      "validationErrors": 0,
+      "validationWarnings": 0,
+      "clearanceCertified": false,
+      "dimensionsMm": null,
+      "dimensionStatus": "Artist proportions retained. No complete verified assembly envelope or calibrated mounting coordinates.",
+      "placement": "standalone-only",
+      "standaloneOnly": true,
+      "buildPlacementReady": false,
+      "scaleMode": "uniform-autoframe",
+      "orientation": null,
+      "scaleReference": {
+        "axis": "x",
+        "millimeters": 305,
+        "sourceId": "msiZ590",
+        "scope": "Nominal board long edge only; authored thickness and bracket geometry remain uncalibrated."
+      },
+      "usageScope": "component-appearance",
+      "caveats": [
+        "PCB appearance is artist-made; connector positions and exact installed geometry are not certified.",
+        "Source board lies in the XZ plane; assembler orientation needs a rendered review."
+      ],
+      "registrationStatus": "ready-for-standalone-render-qa"
+    },
+    {
+      "id": "retail-asus-z170-p",
+      "category": "board",
+      "asset": "completion/asus-z170-p-scan.glb",
+      "title": "Asus Z170-P Motherboard",
+      "creator": "Lassi Kaukonen",
+      "creatorUrl": "https://sketchfab.com/thesidekick",
+      "sourceUid": "b998596cfc4945a0bc7b016005c39321",
+      "sourceUrl": "https://sketchfab.com/3d-models/b998596cfc4945a0bc7b016005c39321",
+      "sourceDistributionUrl": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-128/b998596cfc4945a0bc7b016005c39321.glb",
+      "originalAttribution": "Lassi Kaukonen (https://sketchfab.com/thesidekick)",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "Static transforms flattened; matching primitives joined; duplicate/unused resources removed; image textures resized to 1024 pixels maximum and encoded WebP; Meshopt compression. Source appearance and proportions retained. Not clearance-certified geometry.",
+      "identity": "exact-model",
+      "appearance": "Creator-described scan of a used, broken Z170-P",
+      "reviewed": "2026-10-16",
+      "metadataCheckedAt": "2026-10-17T00:48:41.148Z",
+      "sha256": "32d323e4878fc9f2f31ef7dbbc462ecdb355945674bb4e75a86c4fc5dd33c4f8",
+      "sourceSha256": "eccaa29f03f07b453c6c2e803f0a35ef1142fad03bf009f96d463559a6bf7005",
+      "bytes": 2665424,
+      "triangles": 312196,
+      "validated": true,
+      "validationErrors": 0,
+      "validationWarnings": 0,
+      "clearanceCertified": false,
+      "dimensionsMm": null,
+      "dimensionStatus": "Artist proportions retained. No complete verified assembly envelope or calibrated mounting coordinates.",
+      "placement": "standalone-only",
+      "standaloneOnly": true,
+      "buildPlacementReady": false,
+      "scaleMode": "uniform-autoframe",
+      "orientation": null,
+      "usageScope": "component-appearance",
+      "caveats": [
+        "Not a pristine manufacturer model.",
+        "Scan proportions and surface defects are retained; no exact placement or connector certification."
+      ],
+      "registrationStatus": "ready-for-standalone-render-qa"
+    },
+    {
+      "id": "retail-gigabyte-trx40-aorus-xtreme-rev-1-0",
+      "category": "board",
+      "asset": "completion/gigabyte-trx40-aorus-xtreme.glb",
+      "title": "Gigabyte TRX40 AORUS XTREME",
+      "creator": "Vivien Deroche",
+      "creatorUrl": "https://sketchfab.com/blue-odym",
+      "sourceUid": "ce8276877171468c808ad93aaf1d5111",
+      "sourceUrl": "https://sketchfab.com/3d-models/ce8276877171468c808ad93aaf1d5111",
+      "sourceDistributionUrl": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-071/ce8276877171468c808ad93aaf1d5111.glb",
+      "originalAttribution": "Blue Lantern (https://sketchfab.com/genoris2)",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "Static transforms flattened; matching primitives joined; duplicate/unused resources removed; image textures resized to 1024 pixels maximum and encoded WebP; Meshopt compression. Source appearance and proportions retained. Not clearance-certified geometry.",
+      "identity": "related-variant",
+      "appearance": "TRX40 AORUS XTREME artist appearance with unspecified PCB revision",
+      "reviewed": "2026-10-16",
+      "metadataCheckedAt": "2026-10-17T00:48:41.482Z",
+      "sha256": "b407d4a62a8f80b39c1a7d1cae6a81d073ca6521647d8c1c69aeaee3b82b5f4e",
+      "sourceSha256": "67d44d601e008260e2ee546b65a41b19a17bf8dbfdf59c66fa5cbf2aa3d35f6e",
+      "bytes": 1570596,
+      "triangles": 88499,
+      "validated": true,
+      "validationErrors": 0,
+      "validationWarnings": 0,
+      "clearanceCertified": false,
+      "dimensionsMm": null,
+      "dimensionStatus": "Artist proportions retained. No complete verified assembly envelope or calibrated mounting coordinates.",
+      "placement": "standalone-only",
+      "standaloneOnly": true,
+      "buildPlacementReady": false,
+      "scaleMode": "uniform-autoframe",
+      "orientation": null,
+      "usageScope": "component-appearance",
+      "caveats": [
+        "Creator does not state PCB revision; model is not verified specifically as rev. 1.0.",
+        "Source includes a Threadripper CPU that does not follow the selected CPU.",
+        "Use as a standalone source scene; do not silently substitute its CPU for a selected component."
+      ],
+      "registrationStatus": "ready-for-standalone-render-qa"
+    },
+    {
+      "id": "retail-corsair-carbide-200r-black",
+      "category": "case",
+      "asset": "completion/corsair-200r.glb",
+      "title": "Corsair 200R",
+      "creator": "Nick",
+      "creatorUrl": "https://sketchfab.com/jeromy",
+      "sourceUid": "41efdc6e62454ec0a870ee8451768d75",
+      "sourceUrl": "https://sketchfab.com/3d-models/41efdc6e62454ec0a870ee8451768d75",
+      "sourceDistributionUrl": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-041/41efdc6e62454ec0a870ee8451768d75.glb",
+      "originalAttribution": "Nick (https://sketchfab.com/jeromy)",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "Static transforms flattened; matching primitives joined; duplicate/unused resources removed; image textures resized to 1024 pixels maximum and encoded WebP; Meshopt compression. Source appearance and proportions retained. Not clearance-certified geometry.",
+      "identity": "exact-model",
+      "appearance": "Basic Corsair 200R exterior recreation",
+      "reviewed": "2026-10-16",
+      "metadataCheckedAt": "2026-10-17T00:48:41.738Z",
+      "sha256": "c4f67e2554c5688a24606df71b658c87d5602b2406184e6e6acf2e1ede100f24",
+      "sourceSha256": "0c0bba71bb132727b1161f7d4f19f0e35a6eb23c8732a5257dba50acf587bc43",
+      "bytes": 98996,
+      "triangles": 2440,
+      "validated": true,
+      "validationErrors": 0,
+      "validationWarnings": 0,
+      "clearanceCertified": false,
+      "dimensionsMm": null,
+      "dimensionStatus": "Artist proportions retained. No complete verified assembly envelope or calibrated mounting coordinates.",
+      "placement": "standalone-only",
+      "standaloneOnly": true,
+      "buildPlacementReady": false,
+      "scaleMode": "uniform-autoframe",
+      "orientation": null,
+      "usageScope": "component-appearance",
+      "caveats": [
+        "Exterior only; no verified interior, standoffs or cable-routing layout.",
+        "Closed side panel and optical faceplates retained; they are not proof that drives are included."
+      ],
+      "registrationStatus": "ready-for-standalone-render-qa"
+    },
+    {
+      "id": "retail-cooler-master-masterbox-lite-5",
+      "category": "case",
+      "asset": "completion/cooler-master-masterbox-lite-5.glb",
+      "title": "Cooler Master Masterbox Lite 5",
+      "creator": "HerbeMalveillante",
+      "creatorUrl": "https://sketchfab.com/HerbeMalveillante",
+      "sourceUid": "8673ad2eeffa4fe1b81479f9cb9d351e",
+      "sourceUrl": "https://sketchfab.com/3d-models/8673ad2eeffa4fe1b81479f9cb9d351e",
+      "sourceDistributionUrl": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-133/8673ad2eeffa4fe1b81479f9cb9d351e.glb",
+      "originalAttribution": "HerbeMalveillante (https://sketchfab.com/HerbeMalveillante)",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "Static transforms flattened; matching primitives joined; duplicate/unused resources removed; image textures resized to 1024 pixels maximum and encoded WebP; Meshopt compression. Source appearance and proportions retained. Not clearance-certified geometry.",
+      "identity": "model-needs-verification",
+      "appearance": "Low-detail untextured MasterBox Lite 5 recreation",
+      "reviewed": "2026-10-16",
+      "metadataCheckedAt": "2026-10-17T00:48:42.795Z",
+      "sha256": "eb7448785f46fbbfa0175e70c98588a6ae6d2508b058bc95da63b280d45cf47e",
+      "sourceSha256": "d0158bb866c3cc62eae08cb1619cff034e17627a2551fc7912d9eacfd81f6e73",
+      "bytes": 6940,
+      "triangles": 321,
+      "validated": true,
+      "validationErrors": 0,
+      "validationWarnings": 0,
+      "clearanceCertified": false,
+      "dimensionsMm": null,
+      "dimensionStatus": "Artist proportions retained. No complete verified assembly envelope or calibrated mounting coordinates.",
+      "placement": "standalone-only",
+      "standaloneOnly": true,
+      "buildPlacementReady": false,
+      "scaleMode": "uniform-autoframe",
+      "orientation": null,
+      "usageScope": "component-appearance",
+      "caveats": [
+        "Only 321 triangles; no manufacturer color/texture fidelity.",
+        "Exact retail SKU and revision are unspecified; technical-fit fields remain unknown."
+      ],
+      "registrationStatus": "ready-for-standalone-render-qa"
+    },
+    {
+      "id": "intel4004",
+      "category": "cpu",
+      "asset": "completion/intel-4004.glb",
+      "title": "INTEL 4004",
+      "creator": "museudocomputador",
+      "creatorUrl": "https://sketchfab.com/museudocomputador",
+      "sourceUid": "0daaa686d226476bb1b96aa4fa7bd083",
+      "sourceUrl": "https://sketchfab.com/3d-models/0daaa686d226476bb1b96aa4fa7bd083",
+      "sourceDistributionUrl": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-054/0daaa686d226476bb1b96aa4fa7bd083.glb",
+      "originalAttribution": "museudocomputador (https://sketchfab.com/museudocomputador)",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "Static transforms flattened; matching primitives joined; duplicate/unused resources removed; image textures resized to 1024 pixels maximum and encoded WebP; Meshopt compression. Source appearance and proportions retained. Not clearance-certified geometry.",
+      "identity": "exact-model",
+      "appearance": "Historical Intel 4004 DIP-package recreation",
+      "reviewed": "2026-10-16",
+      "metadataCheckedAt": "2026-10-17T00:48:43.235Z",
+      "sha256": "8397ada30550d7d554a660ceb23f85a0486c4db6f8a88039e3a0a07e877228eb",
+      "sourceSha256": "d95d56439dcfbf3bcd3c47f6feefae21411aea3d1a34a8296e9d80f96fc14a61",
+      "bytes": 12220,
+      "triangles": 611,
+      "validated": true,
+      "validationErrors": 0,
+      "validationWarnings": 0,
+      "clearanceCertified": false,
+      "dimensionsMm": null,
+      "dimensionStatus": "Artist proportions retained. No complete verified assembly envelope or calibrated mounting coordinates.",
+      "placement": "standalone-only",
+      "standaloneOnly": true,
+      "buildPlacementReady": false,
+      "scaleMode": "uniform-autoframe",
+      "orientation": null,
+      "usageScope": "historical-reference",
+      "caveats": [
+        "Not a modern desktop CPU.",
+        "No assembly placement, socket compatibility or package-dimension certification."
+      ],
+      "registrationStatus": "ready-for-standalone-render-qa"
+    },
+    {
+      "id": "completion-cpu-intel-core-i5-661",
+      "category": "cpu",
+      "asset": "completion/intel-core-i5-661.glb",
+      "title": "Intel Processor Core i5-661",
+      "creator": "Dr_Mint",
+      "creatorUrl": "https://sketchfab.com/Dr_Mint",
+      "sourceUid": "1940447b5a7b41f3a7ebdd73ce2f590d",
+      "sourceUrl": "https://sketchfab.com/3d-models/1940447b5a7b41f3a7ebdd73ce2f590d",
+      "sourceDistributionUrl": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-138/1940447b5a7b41f3a7ebdd73ce2f590d.glb",
+      "originalAttribution": "Dr_Mint (https://sketchfab.com/Dr_Mint)",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "Static transforms flattened; matching primitives joined; duplicate/unused resources removed; image textures resized to 1024 pixels maximum and encoded WebP; Meshopt compression. Source appearance and proportions retained. Not clearance-certified geometry.",
+      "identity": "exact-model",
+      "appearance": "Named Intel Core i5-661 package recreation",
+      "reviewed": "2026-10-16",
+      "metadataCheckedAt": "2026-10-17T00:48:44.313Z",
+      "sha256": "f31ba78671833cdef7282661cf6b834c647c3c974210247914f339dc413d5bc4",
+      "sourceSha256": "339c66098bb95235c1bb6510a35b1ae624d8d65f3f914cf7ee0a562a1233ceff",
+      "bytes": 554968,
+      "triangles": 76207,
+      "validated": true,
+      "validationErrors": 0,
+      "validationWarnings": 0,
+      "clearanceCertified": false,
+      "dimensionsMm": null,
+      "dimensionStatus": "Artist proportions retained. No complete verified assembly envelope or calibrated mounting coordinates.",
+      "placement": "standalone-only",
+      "standaloneOnly": true,
+      "buildPlacementReady": false,
+      "scaleMode": "uniform-autoframe",
+      "orientation": null,
+      "usageScope": "legacy-reference",
+      "caveats": [
+        "Exact ARK specification page could not be retrieved.",
+        "No package dimensions or performance measurements are inferred from the mesh."
+      ],
+      "registrationStatus": "ready-for-standalone-render-qa"
+    },
+    {
+      "id": "titanrtx",
+      "category": "gpu",
+      "asset": "completion/nvidia-titan-rtx.glb",
+      "title": "RTX Titan",
+      "creator": "Vivien Deroche",
+      "creatorUrl": "https://sketchfab.com/blue-odym",
+      "sourceUid": "f7e8fb69cce14f53a2d9159898fd89e5",
+      "sourceUrl": "https://sketchfab.com/3d-models/f7e8fb69cce14f53a2d9159898fd89e5",
+      "sourceDistributionUrl": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-029/f7e8fb69cce14f53a2d9159898fd89e5.glb",
+      "originalAttribution": "Blue Lantern (https://sketchfab.com/genoris2)",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "Fan rotation tracks removed; the two named fan nodes retain their authored default transforms. Static transforms flattened; matching primitives joined; duplicate/unused resources removed; image textures resized to 1024 pixels maximum and encoded WebP; Meshopt compression. Source appearance and proportions retained. Not clearance-certified geometry.",
+      "identity": "exact-model",
+      "appearance": "Named NVIDIA TITAN RTX recreation",
+      "reviewed": "2026-10-16",
+      "metadataCheckedAt": "2026-10-17T00:57:26.051Z",
+      "sha256": "a08f8f20408840343f89275b95464c690aa3841fcdd15fa4424fc8881d6a01b6",
+      "sourceSha256": "e0096330ca193a3e967f625b9a736cfe1b36c718dd629df6dce1a8caaad60d7f",
+      "bytes": 906204,
+      "triangles": 95023,
+      "validated": true,
+      "validationErrors": 0,
+      "validationWarnings": 0,
+      "clearanceCertified": false,
+      "dimensionsMm": null,
+      "dimensionStatus": "Artist proportions retained. No complete verified assembly envelope or calibrated mounting coordinates.",
+      "placement": "standalone-only",
+      "standaloneOnly": true,
+      "buildPlacementReady": false,
+      "scaleMode": "uniform-autoframe",
+      "orientation": null,
+      "scaleReference": {
+        "axis": "x",
+        "millimeters": 266.7,
+        "sourceId": "titanSheet",
+        "scope": "Nominal card length only; full bracket-inclusive model bounds are not calibrated."
+      },
+      "usageScope": "component-appearance",
+      "caveats": [
+        "Two fan tracks removed at the authored default pose; source geometry and textures otherwise retained.",
+        "Public source snapshot has 95,023 triangles; current creator metadata reports a later 95,214-triangle revision.",
+        "Creator username changed since the public archive; both original embedded and current attribution are retained."
+      ],
+      "registrationStatus": "ready-for-standalone-render-qa"
+    }
+  ],
+  "totals": {
+    "acquiredAssets": 10,
+    "newCatalogIdentities": 8,
+    "existingCatalogIdentities": 2,
+    "preparedBytes": 8477164,
+    "clearanceCertified": 0,
+    "assemblyPlacementReviewed": 0
+  },
+  "limitations": [
+    "Structural validation and identity review are complete; real-browser rendering and isolated product-preview integration remain release gates.",
+    "No old asset, catalog identity or license mapping is replaced by this module.",
+    "All ten files can be used as isolated source appearances; complete installed-PC placement is deliberately not certified."
+  ]
+}

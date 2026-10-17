@@ -1,0 +1,108 @@
+{
+  "schema": 1,
+  "evidenceDate": "2026-10-16",
+  "author": "PC Part Performance",
+  "humanReviewClaimed": false,
+  "confirmedDeployment": false,
+  "state": "complete_source_checked_release_pending",
+  "valid": true,
+  "errors": [],
+  "articles": [
+    {
+      "id": "MX01",
+      "route": "/blog/compact-quiet-pc-fit-cooling/",
+      "title": "Plan a compact PC with a realistic noise goal",
+      "words": 926,
+      "contentHash": "310b361da29585aabc551c6251e04b45ad8f9a74b02afae05cfb024f2882e127",
+      "sourceIds": [
+        "terraSpine",
+        "terra",
+        "terraSupport",
+        "fanSettings"
+      ],
+      "replacesDraftIntent": "08",
+      "roadmapIntents": [
+        "L12",
+        "P08"
+      ],
+      "limitations": [
+        "A planning workflow and documented layout example, not a tested silent build or a measured acoustic ranking."
+      ]
+    },
+    {
+      "id": "MX02",
+      "route": "/blog/buying-used-pc-parts-checklist/",
+      "title": "What to check before buying used PC parts",
+      "words": 970,
+      "contentHash": "462488b78414a53ed0663effcd589330a395cf32d0d935219179b1943c2e7397",
+      "sourceIds": [
+        "gpuIdentity",
+        "gpu3060",
+        "magician",
+        "warrantyNvidia",
+        "warrantyCorsair",
+        "warrantyMSI",
+        "psuCables"
+      ],
+      "replacesDraftIntent": null,
+      "roadmapIntents": [
+        "L30"
+      ],
+      "limitations": [
+        "No remote hardware health, seller, remaining-life or legal-rights certification. No used sale price or manufacturer-wide transferable-warranty assumption."
+      ]
+    },
+    {
+      "id": "MX03",
+      "route": "/blog/ryzen-7800x3d-north-air-vs-aio/",
+      "title": "Air cooler or AIO for a Ryzen 7 7800X3D in the original North?",
+      "words": 923,
+      "contentHash": "115ecbe913468ceb15e5a232a0afb6276a4f8d14cf3bfc04b3c8cbfb1e999202",
+      "sourceIds": [
+        "cpu7800",
+        "u12aCPU",
+        "u12a",
+        "north",
+        "northRad",
+        "lf3",
+        "lf3Board",
+        "lf3Mount",
+        "fanSettings"
+      ],
+      "replacesDraftIntent": "18",
+      "roadmapIntents": [
+        "P18"
+      ],
+      "limitations": [
+        "Matched complete-system thermal/acoustic evidence was not established. No cooler winner, temperature difference or sound result is claimed.",
+        "The exact motherboard, RAM and full AIO assembly remain required checks; no default board/RAM is invented."
+      ]
+    },
+    {
+      "id": "MX04",
+      "route": "/blog/rtx-3060-upgrade-or-keep/",
+      "title": "RTX 3060 upgrade options: when to keep the card",
+      "words": 1007,
+      "contentHash": "ddcc93ed7ce29eb5c8c58652993993807c7dfa09d188391ab402a04562605d90",
+      "sourceIds": [
+        "gpu3060",
+        "gpuIdentity",
+        "gpu5060ti",
+        "gpu9060xt",
+        "review5060ti",
+        "reviewPCIe",
+        "psuCables"
+      ],
+      "replacesDraftIntent": "20",
+      "roadmapIntents": [
+        "P20"
+      ],
+      "limitations": [
+        "No direct matched 3060-versus-candidate FPS result or current-offer winner is established. Candidate selection remains conditional on the owner’s workload, exact system and complete cost.",
+        "No benchmark dataset is redistributed; linked original reviews retain their actual test configurations."
+      ]
+    }
+  ],
+  "words": 3826,
+  "sources": 23
+}

@@ -22,7 +22,7 @@ module.exports = ({ records, images, esc }) => {
       <div class="tech-feature-heading"><p class="tech-kicker">FEATURED COMPARISON</p><a href="/compare/">All comparisons <span aria-hidden="true">→</span></a></div>
       <h2 id="feature-title">RTX 5070 <span>vs</span> RTX 5060 Ti</h2>
       <p class="tech-feature-deck">Two Blackwell GPUs. Different memory, power, and priorities.</p>
-      <a class="tech-product-pair" href="/compare/rtx-5070-vs-rtx-5060-ti-16gb/" aria-label="Compare GeForce RTX 5070 and GeForce RTX 5060 Ti 16 GB">
+      <a class="tech-product-pair" href="/compare/rtx-5070-vs-rtx-5060-ti-16gb/">
         <figure>${photo('rtx5070', true)}<figcaption><strong>GeForce RTX 5070</strong><span>12 GB GDDR7</span></figcaption></figure>
         <span class="tech-vs" aria-hidden="true">VS</span>
         <figure>${photo('rtx5060ti16')}<figcaption><strong>GeForce RTX 5060 Ti</strong><span>16 GB GDDR7</span></figcaption></figure>

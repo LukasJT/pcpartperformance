@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "base": "../content/GAP-MAP.json",
+  "interpretation": "Five remaining editorial rows addressed by four distinct practical guides. Documentation-based planning does not complete unavailable tested/priced recommendations.",
+  "rows": [
+    {
+      "id": "L12",
+      "article": "MX01",
+      "status": "source_checked_practical_guide",
+      "scope": "Quiet-workload planning and reversible observation; not an acoustic ranking."
+    },
+    {
+      "id": "L30",
+      "article": "MX02",
+      "status": "source_checked_practical_guide",
+      "scope": "Used-sale identity, inspection evidence, warranty and complete purchase record; not remote health certification."
+    },
+    {
+      "id": "P08",
+      "article": "MX01",
+      "status": "source_checked_planning_guide",
+      "scope": "Compact layout and quiet-goal workflow; a tested quiet parts list is not supplied."
+    },
+    {
+      "id": "P18",
+      "article": "MX03",
+      "status": "source_checked_documentation_comparison",
+      "scope": "Exact CPU/cooler/case conditional fit and service decisions; matched complete-system thermal/acoustic ranking remains unavailable."
+    },
+    {
+      "id": "P20",
+      "article": "MX04",
+      "status": "source_checked_upgrade_decision_guide",
+      "scope": "Exact starting variants, concrete candidates, keep option and evidence/cost conditions; matched uplift and current-price winner remain unavailable."
+    }
+  ],
+  "hardBlockedIntentsUnchanged": [
+    "P02",
+    "P03",
+    "P04",
+    "P05",
+    "P14",
+    "P39"
+  ]
+}

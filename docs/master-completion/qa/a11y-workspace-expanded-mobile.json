@@ -1,0 +1,140 @@
+{
+  "checkedAt": "2026-10-17T02:05:48.905Z",
+  "url": "/my-pc/",
+  "width": 390,
+  "height": 844,
+  "theme": "dark",
+  "axeVersion": "4.14.0",
+  "scope": "Real browser DOM, WCAG A/AA and best-practice rules; automated findings do not certify full conformance.",
+  "violations": [],
+  "incomplete": [
+    {
+      "id": "aria-valid-attr-value",
+      "impact": "critical",
+      "help": "ARIA attributes must conform to valid values",
+      "nodes": [
+        {
+          "target": [
+            "#select-trigger-3"
+          ],
+          "html": "<button type=\"button\" class=\"select-trigger has-value\" id=\"select-trigger-3\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"select-dialog\" aria-label=\"Build to edit notes for: Release QA build\">"
+        },
+        {
+          "target": [
+            "#select-trigger-4"
+          ],
+          "html": "<button type=\"button\" class=\"select-trigger has-value\" id=\"select-trigger-4\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"select-dialog\" aria-label=\"Planned component: MSI MAG B650 TOMAHAWK WIFI · 1 planned\">"
+        },
+        {
+          "target": [
+            "#select-trigger-5"
+          ],
+          "html": "<button type=\"button\" class=\"select-trigger has-value\" id=\"select-trigger-5\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"select-dialog\" aria-label=\"Actual model: MSI MAG B650 TOMAHAWK WIFI · b650\">"
+        },
+        {
+          "target": [
+            "#select-trigger-6"
+          ],
+          "html": "<button type=\"button\" class=\"select-trigger has-value\" id=\"select-trigger-6\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"select-dialog\" aria-label=\"Currency: CAD\">"
+        },
+        {
+          "target": [
+            "#select-trigger-7"
+          ],
+          "html": "<button type=\"button\" class=\"select-trigger has-value\" id=\"select-trigger-7\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"select-dialog\" aria-label=\"Currency: CAD\">"
+        }
+      ]
+    },
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "nodes": [
+        {
+          "target": [
+            "a[href$=\"builder/\"] > span"
+          ],
+          "html": "<span>Build</span>"
+        },
+        {
+          "target": [
+            "a[href$=\"blog/\"] > span"
+          ],
+          "html": "<span>Learn</span>"
+        },
+        {
+          "target": [
+            ".primary.button[href$=\"builder/\"]"
+          ],
+          "html": "<a class=\"button primary\" href=\"/builder/\">Start a build</a>"
+        },
+        {
+          "target": [
+            "a[data-measure-saved-action=\"open_build\"]"
+          ],
+          "html": "<a class=\"button primary\" href=\"http://127.0.0.1:419...\" data-measure-saved-a...=\"open_build\">"
+        },
+        {
+          "target": [
+            "a[data-measure-saved-action=\"plan_upgrade\"]"
+          ],
+          "html": "<a class=\"button secondary\" href=\"http://127.0.0.1:419...\" data-measure-saved-a...=\"plan_upgrade\">"
+        },
+        {
+          "target": [
+            ".workspace-build-actions > .secondary.button[type=\"button\"]"
+          ],
+          "html": "<button type=\"button\" class=\"button secondary\" data-workspace-duplicate=\"8c9c0151-67cb-4f9d-a44c-0abba75b76f8\">Duplicate</button>"
+        },
+        {
+          "target": [
+            "a[data-measure-saved-action=\"open_comparison\"]"
+          ],
+          "html": "<a class=\"button secondary\" href=\"http://127.0.0.1:4198/compare/?mode=interactive&amp;parts=rtx5070%2Crtx5060ti16&amp;differences=1\" data-measure-saved-action=\"open_comparison\">Open current comparison</a>"
+        },
+        {
+          "target": [
+            "form[data-workspace-notes=\"\"] > .secondary.button[type=\"submit\"]"
+          ],
+          "html": "<button class=\"button secondary\" type=\"submit\">Save notes</button>"
+        },
+        {
+          "target": [
+            "form[data-retention-purchase-form=\"\"] > .workspace-data-actions > .secondary.button[type=\"submit\"]"
+          ],
+          "html": "<button class=\"button secondary\" type=\"submit\">Save acquisition record</button>"
+        },
+        {
+          "target": [
+            "button[data-retention-purchase-reset=\"\"]"
+          ],
+          "html": "<button class=\"button secondary\" type=\"button\" data-retention-purchase-reset=\"\">Start a new record</button>"
+        },
+        {
+          "target": [
+            "form[data-workspace-journal=\"\"] > .secondary.button[type=\"submit\"]"
+          ],
+          "html": "<button class=\"button secondary\" type=\"submit\">Add entry</button>"
+        },
+        {
+          "target": [
+            ".workspace-quote-form > .secondary.button[type=\"submit\"]"
+          ],
+          "html": "<button class=\"button secondary\" type=\"submit\">Add manual item</button>"
+        },
+        {
+          "target": [
+            ".workspace-watch-form > .secondary.button[type=\"submit\"]"
+          ],
+          "html": "<button class=\"button secondary\" type=\"submit\">Find parts</button>"
+        },
+        {
+          "target": [
+            "button[data-workspace-check=\"\"]"
+          ],
+          "html": "<button type=\"button\" class=\"button secondary\" data-workspace-check=\"\">Check saved parts</button>"
+        }
+      ]
+    }
+  ]
+}

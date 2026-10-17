@@ -1,0 +1,623 @@
+{
+  "schema": 1,
+  "status": "static_decorator_prepared",
+  "confirmedDeployment": false,
+  "productPages": 16,
+  "prebuiltPages": 84,
+  "gamePages": 5,
+  "aliasRegistryVersion": "2026-10-09.1",
+  "activeCatalogAliases": [],
+  "catalogIDsChanged": false,
+  "userDataMigrated": false,
+  "changes": [
+    {
+      "route": "/learn/c-board-msi-mag-b650-tomahawk-wifi.html",
+      "kind": "catalog_listing",
+      "title": "MSI MAG B650 TOMAHAWK WIFI: Catalog Listing & Variant Notes | PC Part Performance",
+      "description": "MSI MAG B650 TOMAHAWK WIFI catalog listing. AM5 · DDR5 · ATX. Board revision and regional SKU not recorded. Review the source and exact-model requirements before selecting parts.",
+      "scope": "Catalog entry; board revision and regional SKU not recorded.",
+      "source": "https://us-store.msi.com/Motherboards?limit=48"
+    },
+    {
+      "route": "/learn/c-board-msi-mag-z790-tomahawk-wifi.html",
+      "kind": "catalog_listing",
+      "title": "MSI MAG Z790 TOMAHAWK WIFI: Catalog Listing & Variant Notes | PC Part Performance",
+      "description": "MSI MAG Z790 TOMAHAWK WIFI catalog listing. LGA1700 · DDR5 · ATX. Board revision and regional SKU not recorded. Review the source and exact-model requirements before selecting parts.",
+      "scope": "Catalog entry; board revision and regional SKU not recorded.",
+      "source": "https://us-store.msi.com/Motherboards?limit=48"
+    },
+    {
+      "route": "/learn/b650aorus.html",
+      "kind": "documented_revision",
+      "title": "GIGABYTE B650 AORUS ELITE AX (rev. 1.2): Specs & Support | PC Part Performance",
+      "description": "GIGABYTE B650 AORUS ELITE AX revision 1.2: B650 · DDR5. Read the documented specifications, support links and compatibility questions for this board revision.",
+      "scope": "Specification source applies to revision 1.2; check the revision printed on your board.",
+      "source": "https://www.gigabyte.com/Motherboard/B650-AORUS-ELITE-AX-rev-12/sp#sp"
+    },
+    {
+      "route": "/learn/c-board-gigabyte-b650-aorus-elite-ax.html",
+      "kind": "catalog_listing",
+      "title": "GIGABYTE B650 AORUS ELITE AX: Catalog Listing & Variant Notes | PC Part Performance",
+      "description": "GIGABYTE B650 AORUS ELITE AX catalog listing. AM5 · DDR5 · ATX. Board revision and regional SKU not recorded. Review the source and exact-model requirements before selecting parts.",
+      "scope": "Catalog entry; board revision and regional SKU not recorded.",
+      "source": "https://www.gigabyte.com/Motherboard"
+    },
+    {
+      "route": "/learn/c-board-msi-mag-b850-tomahawk-max-wifi.html",
+      "kind": "catalog_listing",
+      "title": "MSI MAG B850 TOMAHAWK MAX WIFI: Catalog Listing & Variant Notes | PC Part Performance",
+      "description": "MSI MAG B850 TOMAHAWK MAX WIFI catalog listing. AM5 · DDR5 · ATX. Board revision and regional SKU not recorded. Review the source and exact-model requirements before selecting parts.",
+      "scope": "Catalog entry; board revision and regional SKU not recorded.",
+      "source": "https://us-store.msi.com/Motherboards?limit=48"
+    },
+    {
+      "route": "/learn/retail-msi-mag-b850-tomahawk-max-wifi.html",
+      "kind": "build_listing",
+      "title": "MSI MAG B850 TOMAHAWK MAX WIFI: Build Listing & Fit Notes | PC Part Performance",
+      "description": "MSI MAG B850 TOMAHAWK MAX WIFI build listing. ATX · 4 DIMM slots · Wi-Fi. Board revision and regional SKU not recorded. Review source specifications and the preview’s fit limitations.",
+      "scope": "Named-model build listing; board revision and regional SKU not recorded. Preview geometry does not certify fit.",
+      "source": "https://www.msi.com/Motherboard/MAG-B850-TOMAHAWK-MAX-WIFI/Specification"
+    },
+    {
+      "route": "/learn/c-board-msi-mag-x870-tomahawk-wifi.html",
+      "kind": "catalog_listing",
+      "title": "MSI MAG X870 TOMAHAWK WIFI: Catalog Listing & Variant Notes | PC Part Performance",
+      "description": "MSI MAG X870 TOMAHAWK WIFI catalog listing. AM5 · DDR5 · ATX. Board revision and regional SKU not recorded. Review the source and exact-model requirements before selecting parts.",
+      "scope": "Catalog entry; board revision and regional SKU not recorded.",
+      "source": "https://us-store.msi.com/Motherboards?limit=48"
+    },
+    {
+      "route": "/learn/c-board-msi-mpg-z890-carbon-wifi.html",
+      "kind": "catalog_listing",
+      "title": "MSI MPG Z890 CARBON WIFI: Catalog Listing & Variant Notes | PC Part Performance",
+      "description": "MSI MPG Z890 CARBON WIFI catalog listing. LGA1851 · DDR5 · ATX. Board revision and regional SKU not recorded. Review the source and exact-model requirements before selecting parts.",
+      "scope": "Catalog entry; board revision and regional SKU not recorded.",
+      "source": "https://us-store.msi.com/Motherboards?limit=48"
+    },
+    {
+      "route": "/learn/c-board-msi-mpg-z790-carbon-wifi.html",
+      "kind": "catalog_listing",
+      "title": "MSI MPG Z790 CARBON WIFI: Catalog Listing & Variant Notes | PC Part Performance",
+      "description": "MSI MPG Z790 CARBON WIFI catalog listing. LGA1700 · DDR5 · ATX. Board revision and regional SKU not recorded. Review the source and exact-model requirements before selecting parts.",
+      "scope": "Catalog entry; board revision and regional SKU not recorded.",
+      "source": "https://us-store.msi.com/Motherboards?limit=48"
+    },
+    {
+      "route": "/learn/c-board-gigabyte-b850-aorus-elite-wifi7.html",
+      "kind": "catalog_listing",
+      "title": "GIGABYTE B850 AORUS ELITE WIFI7: Catalog Listing & Variant Notes | PC Part Performance",
+      "description": "GIGABYTE B850 AORUS ELITE WIFI7 catalog listing. AM5 · DDR5 · ATX. Board revision and regional SKU not recorded. Review the source and exact-model requirements before selecting parts.",
+      "scope": "Catalog entry; board revision and regional SKU not recorded.",
+      "source": "https://www.gigabyte.com/Motherboard"
+    },
+    {
+      "route": "/learn/x-phone-iphone-13.html",
+      "kind": "phone_timeline",
+      "title": "Apple iPhone 13: Model History & Variant Notes | PC Part Performance",
+      "description": "Apple iPhone 13 model-history entry from 2021. Storage variant, SIM variant and region not recorded; review the source and the supplied phone variant.",
+      "scope": "Model timeline entry; storage variant, SIM variant and region not recorded.",
+      "source": "https://support.apple.com/en-gb/108044"
+    },
+    {
+      "route": "/learn/iphone-13.html",
+      "kind": "phone_dimensions",
+      "title": "Apple iPhone 13: Dimensions & Published Specifications | PC Part Performance",
+      "description": "Apple iPhone 13: 146.7 × 71.5 mm body dimensions, 7.65 mm thickness. Compare published size specifications and check regional variant details.",
+      "scope": "Published dimensions; confirm the storage, SIM and regional version before buying.",
+      "source": "https://support.apple.com/en-ie/111872"
+    },
+    {
+      "route": "/learn/x-phone-samsung-galaxy-s-iii.html",
+      "kind": "phone_timeline",
+      "title": "Samsung Galaxy S III: Model History & Variant Notes | PC Part Performance",
+      "description": "Samsung Galaxy S III model-history entry from 2012. Storage variant, SIM variant and region not recorded; review the source and the supplied phone variant.",
+      "scope": "Model timeline entry; storage variant, SIM variant and region not recorded.",
+      "source": "https://news.samsung.com/global/from-amoled-to-space-zoom-looking-back-at-the-galaxy-s-series-history-of-innovation"
+    },
+    {
+      "route": "/learn/galaxy-s3.html",
+      "kind": "phone_dimensions",
+      "title": "Samsung Galaxy S III: Dimensions & Published Specifications | PC Part Performance",
+      "description": "Samsung Galaxy S III: 136.6 × 70.6 mm body dimensions, 8.6 mm thickness. Compare published size specifications and check regional variant details.",
+      "scope": "Published dimensions; confirm the storage, SIM and regional version before buying.",
+      "source": "https://www.samsungmobilepress.com/articles/samsung-introduces-the-galaxy-s-iii-the-smartphone-designed-for-humans-and-inspired-by-nature"
+    },
+    {
+      "route": "/learn/c-board-msi-mpg-x870e-carbon-wifi.html",
+      "kind": "catalog_listing",
+      "title": "MSI MPG X870E CARBON WIFI: Catalog Listing & Variant Notes | PC Part Performance",
+      "description": "MSI MPG X870E CARBON WIFI catalog listing. AM5 · DDR5 · ATX. Board revision and regional SKU not recorded. Review the source and exact-model requirements before selecting parts.",
+      "scope": "Catalog entry; board revision and regional SKU not recorded.",
+      "source": "https://us-store.msi.com/Motherboards?limit=48"
+    },
+    {
+      "route": "/learn/retail-msi-mpg-x870e-carbon-wifi.html",
+      "kind": "build_listing",
+      "title": "MSI MPG X870E CARBON WIFI: Build Listing & Fit Notes | PC Part Performance",
+      "description": "MSI MPG X870E CARBON WIFI build listing. ATX · 4 DIMM slots · Wi-Fi. Board revision and regional SKU not recorded. Review source specifications and the preview’s fit limitations.",
+      "scope": "Named-model build listing; board revision and regional SKU not recorded. Preview geometry does not certify fit.",
+      "source": "https://www.msi.com/Motherboard/MPG-X870E-CARBON-WIFI/Specification"
+    },
+    {
+      "route": "/prebuilts/mepc-a96n60v042/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for MEPC A96N60V042 MX00138235. Ryzen 5 9600X; GeForce RTX 5060; 32 GB DDR5 RAM; 1 TB M.2 SSD. Check the exact Memory Express listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/mepc-a78a70v038/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for MEPC A78A70V038 MX00138102. Ryzen 7 7800X3D; Radeon RX 9070 XT; 32 GB DDR5 RAM; 1 TB M.2 SSD. Check the exact Memory Express listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/mepc-a96a60v047/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for MEPC A96A60V047 MX00138414. Ryzen 5 9600X; Radeon RX 9060 XT; 32 GB DDR5 RAM; 1 TB SSD. Check the exact Memory Express listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/asus-gm700-ca/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for ASUS ROG GM700 GM700TZ-BSR79070-CB. Ryzen 7 9700X; ASUS Prime Radeon RX 9070 XT; 32 GB DDR5 RAM; 2 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/cyberpower-gma6200bstv3-ca/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for CyberPowerPC Gamer Master GMA6200BSTV3. Ryzen 7 8700F; GeForce RTX 5060; 16 GB RAM; 1 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/msi-aegis-c9nvp-1448us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for MSI Aegis ZS2 Aegis ZS2 C9NVP-1448US. Ryzen 7 9700X; GeForce RTX 5070; 32 GB DDR5 RAM; 2 TB SSD. Check the exact Best Buy listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/abs-c1a45n56r2/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for ABS Cyclone Aqua C1A45N56R2. Core i5-14400F; MSI Shadow GeForce RTX 5060; 32 GB DDR4-3200 RAM; MSI M461 1 TB NVMe SSD. Check the exact Newegg listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/zotac-mek5060a5500br1/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for ZOTAC Gaming MEK MEK5060A5500BR1. Ryzen 5 5500; ZOTAC GeForce RTX 5060; 16 GB DDR4-3200 RAM; 1 TB NVMe SSD. Check the exact Newegg listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/msi-codex-a8nvl-484us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for MSI Codex Z2 Codex Z2 A8NVL-484US. Ryzen 7 8700F; GeForce RTX 5060; 16 GB DDR5 RAM; 2 TB NVMe SSD. Check the exact Newegg listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/ca-thermaltake-c27b-b760-570-lcs/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for Thermaltake LCGS View C27B-B760-570-LCS. Core i7-14700F; GeForce RTX 5070; 32 GB RAM; 1 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/ca-quoted-tech-qtcshld78x3d5070321/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for Quoted Tech Shield QTCSHLD78X3D5070321. Ryzen 7 7800X3D; GeForce RTX 5070; 32 GB RAM; 1 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/ca-asus-gm700tz-dr9x3d5080wp/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for ASUS GM700 GM700TZ-DR9X3D5080WP. Ryzen 9 9950X3D; GeForce RTX 5080; 64 GB RAM; 2 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/ca-msi-cod-r2-a2nvl7-478ca/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for MSI Codex R2 AI Cod R2 A2NVL7-478CA. Core Ultra 7 265F; GeForce RTX 5060. Check the exact Best Buy Canada listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/ca-lenovo-90y6006hcf/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for Lenovo Legion Tower 7i Gen 10 90Y6006HCF. Core Ultra 7 265K; GeForce RTX 5080; 32 GB RAM; 2 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/ca-msi-agszs2b9nvv1615ca/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for MSI Aegis AgsZS2B9NVV1615CA. Ryzen 9 9900X; GeForce RTX 5080; 32 GB RAM; 2 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/ca-lenovo-90ya003gus/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for Lenovo Legion Tower 5i 90YA003GUS. Core Ultra 7 265F; GeForce RTX 5060 Ti; 32 GB RAM; 1 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/ca-acer-n65-100-eb17/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for Acer Aspire Nitro 65 N65-100-EB17. Ryzen 7 8700F; GeForce RTX 5070; 32 GB RAM; 1 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/ca-acer-n65-100-eb14/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for Acer Aspire Nitro 65 N65-100-EB14. Ryzen 7 8700F; GeForce RTX 5060 Ti; 16 GB RAM; 1 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/ca-msi-codex-z2-a8nvm-679ca/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for MSI Codex Z2 Codex Z2 A8NVM-679CA. Ryzen 7 8700F; GeForce RTX 5060 Ti; 16 GB RAM; 1 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/ca-lenovo-90ya009dcf/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for Lenovo Legion Tower 5i 90YA009DCF. Core Ultra 7 265F; GeForce RTX 5060 Ti; 32 GB RAM; 2 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/ca-ibuypower-sbi9n5702/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for iBUYPOWER Slate 9 SBI9N5702. Core Ultra 9 285; GeForce RTX 5070; 32 GB RAM; 2 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/ca-ibuypower-sbi7n5604/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for iBUYPOWER Slate 9 SBI7N5604. Core i7-14700F; GeForce RTX 5060; 16 GB RAM; 1 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/ca-ibuypower-exwa7n5701/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for iBUYPOWER Element EXWA7N5701. Ryzen 7 9700F; GeForce RTX 5070; 32 GB DDR5 RAM; 1 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/ca-ibuypower-tbi7n5701/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for iBUYPOWER Trace TBI7N5701. Core Ultra 7 265F; GeForce RTX 5070; 32 GB DDR5 RAM; 2 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/ca-ibuypower-exwa7n5601/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for iBUYPOWER Element EXWA7N5601. Ryzen 7 8700F; GeForce RTX 5060; 16 GB DDR5 RAM; 1 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/ca-ibuypower-tbi7n5601/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for iBUYPOWER Trace TBI7N5601. Core Ultra 7 265F; GeForce RTX 5060; 32 GB DDR5 RAM; 1 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/ca-cyberpowerpc-slc9000bstv4/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for CyberPowerPC Gamer Supreme SLC9000BSTV4. Ryzen 7 9800X3D; GeForce RTX 5070; 32 GB RAM; 2 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/ca-cyberpowerpc-gxi3800bstv2/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for CyberPowerPC Gamer Xtreme GXI3800BSTV2. Core Ultra 7 270K Plus; GeForce RTX 5070; 32 GB RAM; 2 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/ca-cyberpowerpc-gma5600bstv5/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for CyberPowerPC Gamer Master GMA5600BSTV5. Ryzen 5 8400F; GeForce RTX 3050; 16 GB RAM; 1 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/ca-cyberpowerpc-gma6000bstv5/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for CyberPowerPC Gamer Master GMA6000BSTV5. Ryzen 7 8700F; Radeon RX 7700; 16 GB RAM; 1 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/ca-cyberpowerpc-slc11180cpg/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for CyberPowerPC Gamer Supreme SLC11180CPG. Ryzen 9 9900X; Radeon RX 9070 XT; 32 GB RAM; 2 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/ca-cyberpowerpc-slc8800bstv11/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for CyberPowerPC Gamer Supreme SLC8800BSTV11. Core Ultra 7 265F; GeForce RTX 5070; 16 GB RAM; 1 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/ca-cyberpowerpc-slc4400bsdfv8/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for CyberPowerPC Gamer Supreme SLC4400BSDFV8. Ryzen 7 9800X3D; Radeon RX 9070; 32 GB RAM; 1 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/ca-cyberpowerpc-gxi3200bstv11/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for CyberPowerPC Gamer Xtreme GXI3200BSTV11. Core Ultra 5 225F; GeForce RTX 5060; 16 GB RAM; 1 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/ca-cyberpowerpc-gxi3400bstv18/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for CyberPowerPC Gamer Xtreme GXI3400BSTV18. Core Ultra 7 265F; GeForce RTX 5060 Ti; 16 GB RAM; 1 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/ca-cyberpowerpc-slc11000cpgv5/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for CyberPowerPC Gamer Supreme SLC11000CPGV5. Ryzen 7 9800X3D; GeForce RTX 5070; 32 GB RAM; 1 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/ca-cyberpowerpc-slc11140cpg/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for CyberPowerPC Gamer Supreme SLC11140CPG. Ryzen 7 9800X3D; Radeon RX 9070 XT; 32 GB RAM; 2 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/ca-cyberpowerpc-slc8960cpgv20/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for CyberPowerPC Gamer Supreme SLC8960CPGV20. Core Ultra 7 265KF; GeForce RTX 5070; 32 GB RAM; 2 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/ca-cyberpowerpc-slc11380cpg/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for CyberPowerPC Gamer Supreme SLC11380CPG. Ryzen 7 9700X; Radeon RX 9060 XT; 32 GB RAM; 2 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/ca-cyberpowerpc-gmai5200cpg/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for CyberPowerPC Gamer Master GMAI5200CPG. Ryzen 5 8400F; GeForce RTX 5060; 16 GB RAM; 2 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/ca-cyberpowerpc-slc11140cpgv2/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for CyberPowerPC Gamer Supreme SLC11140CPGV2. Ryzen 7 9850X3D; Radeon RX 9070 XT; 32 GB RAM; 2 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/ca-cyberpowerpc-gxi11240cpgv23/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for CyberPowerPC Gamer Xtreme GXi11240CPGV23. Core Ultra 5 225F; GeForce RTX 5050; 16 GB RAM; 1 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/ca-hp-tg03-0089/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for HP OMEN TG03-0089. Core i5-14400F; GeForce RTX 5050; 16 GB RAM; 512 GB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/ca-hp-tg03-0109/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for HP OMEN 16L TG03-0109. Ryzen 7 8700F; GeForce RTX 4060; 32 GB RAM; 2 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/ca-hp-tg03-0009/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for HP OMEN 16L TG03-0009. Ryzen 7 8700F; GeForce RTX 5060 Ti; 16 GB RAM; 1 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/ca-hp-gt16-0129/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for HP Omen 35L GT16-0129. Ryzen 7 8700F; GeForce RTX 5070; 32 GB RAM; 2 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/ca-alienware-dact1250-9876blk-pca/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for Alienware Aurora DACT1250-9876BLK-PCA. Core Ultra 9 285; GeForce RTX 5070; 32 GB RAM; 2 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/us-ibuypower-sbi9n5702/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for iBUYPOWER Slate SBI9N5702. Core Ultra 9 285; GeForce RTX 5070; 32 GB DDR5 RAM; 2 TB SSD. Check the exact Best Buy listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/us-ibuypower-exwa7n5701/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for iBUYPOWER Element EXWA7N5701. Ryzen 7 9700F; GeForce RTX 5070; 32 GB DDR5 RAM; 1 TB SSD. Check the exact Best Buy listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/us-ibuypower-tbi7n5701/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for iBUYPOWER Trace TBI7N5701. Core Ultra 7 265F; GeForce RTX 5070; 32 GB DDR5 RAM; 2 TB SSD. Check the exact Best Buy listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/us-ibuypower-ewa9n5701/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for iBUYPOWER Element EWA9N5701. Ryzen 9 9900X; GeForce RTX 5070; 32 GB DDR5 RAM; 2 TB NVME. Check the exact Best Buy listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/us-ibuypower-swi9n5701/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for iBUYPOWER Slate SWI9N5701. Core Ultra 9 285K; GeForce RTX 5070; 32 GB DDR5 RAM; 2 TB NVME. Check the exact Best Buy listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/us-ibuypower-twi7n5701/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for iBUYPOWER Trace TWI7N5701. Core Ultra 7 265F; GeForce RTX 5070; 32 GB DDR5 RAM; 2 TB SSD. Check the exact Best Buy listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/us-ibuypower-epbi7n5701/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for iBUYPOWER Element Pro EPBI7N5701. Ultra 7 265KF; GeForce RTX 5070; 32 GB RAM; 2 TB SSD. Check the exact Best Buy listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/us-ibuypower-epbi9n5701/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for iBUYPOWER Element Pro EPBI9N5701. Core i9-14900KF; GeForce RTX 5070; 32 GB DDR5 RAM; 2 TB SSD. Check the exact Best Buy listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/us-ibuypower-sba9n5701/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for iBUYPOWER Slate SBA9N5701. Ryzen 9 9900X3D; GeForce RTX 5070; 32 GB DDR5 RAM; 1 TB SSD. Check the exact Best Buy listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/us-ibuypower-y40ba7n5703/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for iBUYPOWER Y40 Y40BA7N5703. Ryzen 7 9800X3D; GeForce RTX 5070; 32 GB DDR5 RAM; 1 TB SSD. Check the exact Best Buy listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/us-ibuypower-y40bi7n5701/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for iBUYPOWER Y40 Y40BI7N5701. Core Ultra 7 265F; GeForce RTX 5070; 32 GB DDR5 RAM; 1 TB SSD. Check the exact Best Buy listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/us-ibuypower-ebi5n5701/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for iBUYPOWER Element EBI5N5701. Core Ultra 5 250KF Plus; GeForce RTX 5070; 16 GB DDR5 RAM; 1 TB SSD. Check the exact Best Buy listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/us-ibuypower-swi9n5703/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for iBUYPOWER Slate SWI9N5703. Core Ultra 9 285; GeForce RTX 5070; 32 GB DDR5 RAM; 2 TB SSD. Check the exact Best Buy listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/us-ibuypower-sba7n5702/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for iBUYPOWER Slate SBA7N5702. Ryzen 7 8700F; GeForce RTX 5070; 32 GB DDR5 RAM; 1 TB SSD. Check the exact Best Buy listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/us-ibuypower-sbi7n5701/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for iBUYPOWER Slate SBI7N5701. Core Ultra 7 265F; GeForce RTX 5070; 32 GB DDR5 RAM; 1 TB SSD. Check the exact Best Buy listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/us-cyberpowerpc-slc9000bstv4/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for CyberPowerPC SLC9000BSTV4. Ryzen 7 9800X3D; GeForce RTX 5070; 32 GB DDR5 RAM; 2 TB SSD. Check the exact Best Buy listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/us-asus-gm700tz-r79800x3d5070ti/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for ASUS ROG GM700 GM700TZ-R79800X3D5070TI. Ryzen 7 9800X3D; GeForce RTX 5070 Ti; 32 GB RAM; 2 TB storage; interface not disclosed. Check the exact Best Buy listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/us-cyberpowerpc-gma5600bstv5/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for CyberPowerPC GMA5600BSTV5. Ryzen 5 8400F; GeForce RTX 3050; 16 GB DDR5 RAM; 1 TB SSD. Check the exact Best Buy listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/us-asus-g700tf-u5f5060/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for ASUS ROG G700 G700TF-U5F5060. Core Ultra 5 225F; GeForce RTX 5060; 16 GB RAM; 1 TB storage; interface not disclosed. Check the exact Best Buy listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/us-cyberpowerpc-slc8800bstv11/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for CyberPowerPC SLC8800BSTV11. Core Ultra 7 265F; GeForce RTX 5070; 16 GB DDR5 RAM; 1 TB SSD. Check the exact Best Buy listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/us-msi-codex-r2-b14nvk5-669us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for MSI Codex R2 Codex R2 B14NVK5-669US. i5-14400F; GeForce RTX 5050; 16 GB RAM; 1 TB storage; interface not disclosed. Check the exact Best Buy listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/us-msi-codex-r2-b14nvl5-803us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for MSI Codex R2 CODEX R2 B14NVL5-803US. i5-14400F; GeForce RTX 5060; 16 GB RAM; 1 TB SSD. Check the exact Best Buy listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/us-ibuypower-sbi5i5701/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for iBUYPOWER Slate SBI5I5701. Core Ultra 5 225F; Intel Arc B570; 16 GB DDR5 RAM; 1 TB SSD. Check the exact Best Buy listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/us-cyberpowerpc-gxi3400bstv18/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for CyberPowerPC GXi3400BSTV18. Core Ultra 7 265F; GeForce RTX 5060 Ti; 16 GB DDR5 RAM; 1 TB SSD. Check the exact Best Buy listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/us-ibuypower-twra7r97xt01/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for iBUYPOWER Trace TWRA7R97XT01. Ryzen 7 9800X3D; Radeon RX 9070 XT; 32 GB DDR5 RAM; 2 TB SSD. Check the exact Best Buy listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/us-skytech-gaming-st-king95-2062-w-bu/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Skytech Gaming KING95 ST-KING95-2062-W-BU. Ryzen 7 9700X; GeForce RTX 5060 Ti; 16 GB RAM; 1 TB storage; interface not disclosed. Check the exact Best Buy listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/us-hp-gt16-0884/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for HP OMEN 35L VALORANT Ltd. Ed. GT16-0884. Core i7-14700F; GeForce RTX 5060 Ti; 16 GB RAM; 1 TB SSD. Check the exact Best Buy listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/us-cyberpowerpc-slc4400bsdfv8/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for CyberPowerPC SLC4400BSDFV8. Ryzen 7 9800X3D; Radeon RX 9070; 32 GB DDR5 RAM; 1 TB SSD. Check the exact Best Buy listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/us-cyberpowerpc-slc8000bsdf/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for CyberPowerPC SLC8000BSDF. Ryzen 7 9700F; GeForce RTX 5070; 32 GB DDR5 RAM; 1 TB SSD. Check the exact Best Buy listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/us-hp-gt22-3090/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for OMEN by HP 45L GT22-3090. Ultra 9 285K; GeForce RTX 5090; 64 GB DDR5 RAM; 2 TB SSD. Check the exact Best Buy listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/us-acer-n65-100-ub13/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Acer Nitro 65 N65-100-UB13. Ryzen 7 8700F; Radeon RX 9060 XT; 16 GB DDR5 RAM; 1 TB storage; interface not disclosed. Check the exact Best Buy listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/us-acer-n65-100-ub12/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Acer Nitro 65 N65-100-UB12. Ryzen 7 8700F; GeForce RTX 5060; 16 GB DDR5 RAM; 1 TB storage; interface not disclosed. Check the exact Best Buy listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/us-msi-aegis-r2-ai-a2nvn7-1899us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for MSI Aegis R2 AI Aegis R2 AI A2NVN7-1899US. Ultra 7 265; GeForce RTX 5060 Ti; 32 GB RAM; 2 TB storage; interface not disclosed. Check the exact Best Buy listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/us-nzxt-player-one-14400f-5060/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for NZXT Player One Player One. Core i5-14400F; GeForce RTX 5060; 16 GB DDR5-5200 RAM; 1 TB NVMe M.2 SSD. Check the exact NZXT listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/us-nzxt-player-two-270k-plus-5070/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for NZXT Player Two Player Two. Core Ultra 7 270K Plus; GeForce RTX 5070; 32 GB DDR5-6000 RAM; 2 TB NVMe M.2 SSD. Check the exact NZXT listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/us-nzxt-player-three-9800x3d-5080/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for NZXT Player Three Player Three. Ryzen 7 9800X3D; GeForce RTX 5080; 32 GB DDR5-6000 RAM; 4 TB NVMe M.2 SSD. Check the exact NZXT listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/us-nzxt-player-three-prime-9950x3d-5090/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for NZXT Player Three Prime Player Three Prime. Ryzen 9 9950X3D; GeForce RTX 5090; 64 GB DDR5-6000 RAM; 4 TB NVMe M.2 SSD. Check the exact NZXT listing and undisclosed components."
+    },
+    {
+      "route": "/performance/games/",
+      "kind": "game_pagination",
+      "title": "PC Game Directory — Page 1 of 5 | PC Part Performance",
+      "description": "Browse games 1–24 of 107, including Fortnite and Call of Duty 4: Modern Warfare. Page 1 of 5; open a game to check available performance evidence.",
+      "first": 1,
+      "last": 24,
+      "total": 107
+    },
+    {
+      "route": "/performance/games/page/2/",
+      "kind": "game_pagination",
+      "title": "PC Game Directory — Page 2 of 5 | PC Part Performance",
+      "description": "Browse games 25–48 of 107, including Call of Duty: Modern Warfare 2 and Max Payne 3. Page 2 of 5; open a game to check available performance evidence.",
+      "first": 25,
+      "last": 48,
+      "total": 107
+    },
+    {
+      "route": "/performance/games/page/3/",
+      "kind": "game_pagination",
+      "title": "PC Game Directory — Page 3 of 5 | PC Part Performance",
+      "description": "Browse games 49–72 of 107, including Raft and Farming Simulator 22. Page 3 of 5; open a game to check available performance evidence.",
+      "first": 49,
+      "last": 72,
+      "total": 107
+    },
+    {
+      "route": "/performance/games/page/4/",
+      "kind": "game_pagination",
+      "title": "PC Game Directory — Page 4 of 5 | PC Part Performance",
+      "description": "Browse games 73–96 of 107, including Farming Simulator 25 and Black Myth: Wukong. Page 4 of 5; open a game to check available performance evidence.",
+      "first": 73,
+      "last": 96,
+      "total": 107
+    },
+    {
+      "route": "/performance/games/page/5/",
+      "kind": "game_pagination",
+      "title": "PC Game Directory — Page 5 of 5 | PC Part Performance",
+      "description": "Browse games 97–107 of 107, including Elden Ring and Rocket League. Page 5 of 5; open a game to check available performance evidence.",
+      "first": 97,
+      "last": 107,
+      "total": 107
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/prebuilts/us-null-st-king95-2062-w-bu/",
+      "target": "/prebuilts/us-skytech-gaming-st-king95-2062-w-bu/",
+      "status": 301,
+      "sourceURL": "https://www.bestbuy.com/product/skytech-gaming-king95-gaming-desktop-pc-amd-ryzen-7-9700x-2024-16gb-memory-nvidia-geforce-rtx-5060-ti-16gb-1tb-nvme-storage-white/J3GW8HKX4Z/sku/6633460",
+      "review": "agent_source_review",
+      "humanApprovalClaimed": false
+    }
+  ],
+  "routeRedirects": {
+    "/prebuilts/us-null-st-king95-2062-w-bu": "/prebuilts/us-skytech-gaming-st-king95-2062-w-bu/",
+    "/prebuilts/us-null-st-king95-2062-w-bu/": "/prebuilts/us-skytech-gaming-st-king95-2062-w-bu/",
+    "/prebuilts/us-null-st-king95-2062-w-bu/index.html": "/prebuilts/us-skytech-gaming-st-king95-2062-w-bu/"
+  },
+  "blocked": []
+}

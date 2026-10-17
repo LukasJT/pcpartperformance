@@ -5,7 +5,8 @@ import { handleMorningPriceRequest, scheduledMorningPrices } from './morning-pri
 import publishedNews from './news-publications.mjs';
 import { renderRecentNews } from './news-sitemap-response.mjs';
 import { handlePublicPriceRequest, scheduledPublicPrices } from './public-price-service.mjs';
-export default{async fetch(request,env){
+import { secureResponse } from './completion-security.mjs';
+async function respond(request,env){
  const publicPrice=await handlePublicPriceRequest(request,env);if(publicPrice)return publicPrice;
  const morning=await handleMorningPriceRequest(request,env);if(morning)return morning;
  const decision=policy(request.url,manifest,{staging:manifest.staging});
@@ -21,4 +22,5 @@ export default{async fetch(request,env){
  headers.set('X-Content-Type-Options','nosniff');headers.set('Referrer-Policy','strict-origin-when-cross-origin');
  headers.set('Cache-Control',manifest.staging||decision.headers['X-Robots-Tag']?'no-store':/\/assets\/css\/site-[a-f0-9]+\.css$/.test(file)?'public, max-age=31536000, immutable':/\.(?:html|json|xml|js|css)$/.test(file)?'public, max-age=0, must-revalidate':'public, max-age=300');
  return new Response(response.body,{status:decision.status>=400?decision.status:response.status,headers});
-},scheduled(controller,env,ctx){ctx.waitUntil(Promise.allSettled([scheduledMorningPrices(controller,env),scheduledPublicPrices(controller,env)]));}};
+}
+export default{async fetch(request,env){return secureResponse(await respond(request,env),request);},scheduled(controller,env,ctx){ctx.waitUntil(Promise.allSettled([scheduledMorningPrices(controller,env),scheduledPublicPrices(controller,env)]));}};

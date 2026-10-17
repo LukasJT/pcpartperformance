@@ -1,6 +1,6 @@
 const fs=require('node:fs');
-module.exports=records=>{
- const images=JSON.parse(fs.readFileSync('dist/images.json')),verified=require('./verified-photo-overrides.json');
+module.exports=(records,exactOverrides={})=>{
+ const images=JSON.parse(fs.readFileSync('dist/images.json')),verified={...require('./verified-photo-overrides.json'),...exactOverrides};
  const normalized=s=>String(s).toLowerCase().replace(/\b(?:msi|asus|asrock|gigabyte|amd|intel)\b|[^a-z0-9]/g,'');
  const byName=new Map(Object.entries(verified).map(([id,image])=>[normalized(image.catalogName||image.picturedModel),image]));
  const reportFile='docs/image-research/photo-corrections.json',previous=fs.existsSync(reportFile)?JSON.parse(fs.readFileSync(reportFile)).unresolvedMappings:[];

@@ -71,11 +71,9 @@ async function setup(data = records, options = {}) {
     h.get('[data-upgrade-export]').click(); assert.equal(h.blobs.length, 0);
     h.form.emit('submit'); h.get('[data-upgrade-builder]').click(); assert.equal(new URL(h.context.location.href, h.context.location.origin).searchParams.get('build').split(',')[0], alternate.id);
   });
-  await test('parsed selections require a confirmation and invalidate a prior plan', async () => {
-    const h = await setup(); h.create(); h.parse.elements.parts.value = 'CPU: AM4 fixture'; h.parse.emit('submit');
-    const row = h.get('[data-upgrade-matches]').children[0], select = row.children[0].children[0], confirm = row.children[1];
-    assert.equal(h.form.elements.cpu.value, cpu.id); select.value = alternate.id; confirm.click(); assert.equal(h.form.elements.cpu.value, alternate.id);
-    const before = h.context.location.href; h.get('[data-upgrade-builder]').click(); assert.equal(h.context.location.href, before);
+  await test('a missing staged-import dependency fails closed without changing inventory or the prior plan', async () => {
+    const h = await setup(); h.create(); const before = JSON.stringify(h.context.window.PCP_UPGRADE.snapshot()); h.parse.elements.parts.value = 'CPU: AM4 fixture'; h.parse.emit('submit');
+    assert.equal(h.form.elements.cpu.value, cpu.id); assert.equal(JSON.stringify(h.context.window.PCP_UPGRADE.snapshot()), before); assert(h.get('[data-upgrade-matches]').textContent.includes('could not load'));
   });
   await test('export keeps exact phases and a numeric budget, excluding free-form notes', async () => {
     const h = await setup(); h.form.elements.budget.value = '1500'; h.form.elements.notes.value = 'private fixture note'; h.create(); h.get('[data-upgrade-export]').click();

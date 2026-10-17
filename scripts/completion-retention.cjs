@@ -1,0 +1,24 @@
+'use strict';
+const fs = require('node:fs');
+const path = require('node:path');
+
+const comparisonSection = `<section class="workspace-section" id="workspace-saved-comparisons" aria-labelledby="workspace-saved-comparisons-title"><div class="workspace-section-head"><div><h2 id="workspace-saved-comparisons-title">Saved comparisons</h2><p>Keep the exact products and the differences you were considering.</p></div><a href="/compare/">Compare hardware</a></div><p data-retention-storage role="status"></p><div data-retention-comparisons><p>Opening saved comparisons…</p></div></section>`;
+const purchaseSection = `<section class="workspace-acquisitions" aria-labelledby="workspace-acquisitions-title"><div class="workspace-section-head"><div><h3 id="workspace-acquisitions-title">Planned vs acquired</h3><p>Record what you bought or already own. Your saved build stays unchanged.</p></div></div><div data-retention-purchase-plan></div><details class="workspace-acquisition-editor"><summary>Add or edit an acquisition</summary><form data-retention-purchase-form><input type="hidden" name="recordId"><div class="workspace-acquisition-fields"><label>Planned component<select name="plannedId" required></select></label><label>Actual model<select name="actualId" required></select></label><label data-retention-actual-name-label hidden>Actual item name<input name="actualName" maxlength="120" placeholder="Exact product or variant"></label><label>New units purchased<input name="purchasedQuantity" type="number" min="0" max="99" step="1" value="1" required></label><label>Units already owned<input name="ownedQuantity" type="number" min="0" max="99" step="1" value="0" required></label><label>Price per new unit<input name="unitAmount" type="number" min="0" max="1000000" step="0.01" inputmode="decimal" placeholder="Unknown"></label><label>Currency<select name="region"><option value="CA">CAD</option><option value="US">USD</option></select></label><label>Store or seller, optional<input name="merchant" maxlength="100"></label></div><details class="workspace-acquisition-dates"><summary>Dates and private notes, optional</summary><div class="workspace-acquisition-fields"><label>Purchase date<input name="purchasedOn" type="date" min="1900-01-01" max="2200-12-31"></label><label>Warranty date from your records<input name="warrantyUntil" type="date" min="1900-01-01" max="2200-12-31"></label><label>Private warranty reference<input name="warrantyReference" maxlength="120" placeholder="Optional receipt or policy reference"></label><label>Date to revisit this item<input name="remindOn" type="date" min="1900-01-01" max="2200-12-31"></label><label>Reminder note<input name="reminderNote" maxlength="120" placeholder="For example, check the return window"></label><label class="workspace-checkbox"><input type="checkbox" name="reminderDone"> Revisit task completed</label><label class="workspace-acquisition-wide">Private note<textarea name="note" maxlength="500" rows="3"></textarea></label></div><p class="workspace-detail">These are manual date notes, not verified warranty coverage. Reminders appear here when you return; no email, push or background notifications run.</p></details><div class="workspace-data-actions"><button class="button secondary" type="submit">Save acquisition record</button><button class="button secondary" type="button" data-retention-purchase-reset>Start a new record</button></div></form></details><p data-retention-status role="status" aria-live="polite"></p><div data-retention-purchase-records></div><div data-retention-reminders></div></section>`;
+
+function prepare({ root }) {
+  const assets = ['completion-retention.js', 'completion-retention-compare.js'];
+  for (const asset of assets) fs.copyFileSync(path.join(__dirname, asset), path.join(root, asset));
+  const file = path.join(root, 'compare', 'index.html'); let decorated = false;
+  if (fs.existsSync(file)) {
+    let html = fs.readFileSync(file, 'utf8');
+    if (html.includes('id="comparison-cards"')) {
+      if (!html.includes('data-completion-compare-save')) { if (!html.includes('<div class="compare-options">')) throw Error('Comparison retention hook could not find the existing options bar.'); html = html.replace('<div class="compare-options">', '<div data-completion-compare-save></div><div class="compare-options">'); }
+      if (!html.includes('src="/completion-retention.js"')) html = html.replace('</head>', '<script src="/completion-retention.js" defer></script><script src="/completion-retention-compare.js" defer></script></head>');
+      fs.writeFileSync(file, html); decorated = true;
+    }
+  }
+  return { assets, decorated, requiredBridge: 'window.PCP_COMPARE_HISTORY.snapshot() returning {parts,units,onlyDifferences}' };
+}
+module.exports = prepare;
+module.exports.comparisonSection = comparisonSection;
+module.exports.purchaseSection = purchaseSection;

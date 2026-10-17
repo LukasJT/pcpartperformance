@@ -1,0 +1,33 @@
+{
+  "productId": "5500",
+  "region": "CA",
+  "merchantId": "canada-computers",
+  "checkedAt": "2026-10-17T01:44:11.556Z",
+  "sourceUrl": "https://www.canadacomputers.com/en/amd-desktop-processors/216442/amd-ryzen-5-5500-6-core-12-thread-7nm-processor-with-cooler-65w-100-100000457box.html",
+  "responseStatus": 200,
+  "responseBytes": 559238,
+  "responseSHA256": "bb9671c3900197dfdb54ce61eef29f024144e970cf2e2708b8c9454073ed58d1",
+  "fixtureKind": "selected-original-structured-factual-fields",
+  "products": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "AMD Ryzen 5 5500 6-Core/12-Thread 7nm Processor with Cooler 65W",
+      "sku": "CPAMD00138",
+      "mpn": "100-100000457BOX",
+      "offers": {
+        "@type": "Offer",
+        "price": 124.99,
+        "priceCurrency": "CAD",
+        "availability": "https://schema.org/SoldOut",
+        "itemCondition": "https://schema.org/NewCondition",
+        "url": "https://www.canadacomputers.com/en/amd-desktop-processors/216442/amd-ryzen-5-5500-6-core-12-thread-7nm-processor-with-cooler-65w-100-100000457box.html",
+        "seller": {
+          "@type": "Organization",
+          "name": "Canada Computers &amp; Electronics"
+        },
+        "priceValidUntil": "2026-10-31"
+      }
+    }
+  ]
+}

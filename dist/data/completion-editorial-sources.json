@@ -1,0 +1,330 @@
+{
+  "cpuList": {
+    "publisher": "ASUS",
+    "title": "How to query CPU and memory support lists",
+    "url": "https://www.asus.com/us/support/faq/1043883/",
+    "scope": "Locate the support resources for the exact motherboard, then read the applicable CPU entry.",
+    "limitations": "A lookup procedure is not proof that an unspecified board ships with a suitable BIOS.",
+    "inspected": "2026-10-16",
+    "access": "Public primary-source page text inspected",
+    "rights": "Original analysis with source links; no copied photographs, benchmark tables or datasets."
+  },
+  "biosMSI": {
+    "publisher": "MSI",
+    "title": "How to update BIOS",
+    "url": "https://www.msi.com/support/technical_details/MB_BIOS_Update",
+    "scope": "Official M-FLASH route, exact-model download and interruption precautions.",
+    "limitations": "Entering M-FLASH and using the separate Flash BIOS Button feature have different prerequisites.",
+    "inspected": "2026-10-16",
+    "access": "Public primary-source page text inspected",
+    "rights": "Original analysis with source links; no copied photographs, benchmark tables or datasets."
+  },
+  "biosASUS": {
+    "publisher": "ASUS",
+    "title": "How to use USB BIOS FlashBack",
+    "url": "https://www.asus.com/support/faq/1038568/",
+    "scope": "Feature availability and model-specific filename, USB-port and power instructions.",
+    "limitations": "Do not apply FlashBack instructions to a board without documented support.",
+    "inspected": "2026-10-16",
+    "access": "Public primary-source page text inspected",
+    "rights": "Original analysis with source links; no copied photographs, benchmark tables or datasets."
+  },
+  "bitlocker": {
+    "publisher": "Microsoft",
+    "title": "Find your BitLocker recovery key",
+    "url": "https://support.microsoft.com/en-us/windows/security/encryption/find-your-bitlocker-recovery-key",
+    "scope": "Recovery access after relevant security or hardware changes; preserve the legitimate recovery key.",
+    "limitations": "A key is sensitive. Do not paste it into site forms, shared builds or analytics.",
+    "checked": "2026-10-13",
+    "inspected": "2026-10-13",
+    "access": "Official public source text inspected",
+    "rights": "Source-linked original paraphrase and factual analysis; no copied photographs, benchmark tables or datasets."
+  },
+  "cpu5700": {
+    "publisher": "AMD",
+    "title": "Ryzen 7 5700X3D support specifications",
+    "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x3d.html",
+    "scope": "AM4, DDR4, discrete graphics required and no included boxed thermal solution.",
+    "limitations": "The old desktop product URL returns 404; this live official support page includes the model specification table. No installed-board BIOS is inferred.",
+    "checked": "2026-10-13",
+    "inspected": "2026-10-13",
+    "access": "Official public source text inspected",
+    "rights": "Source-linked original paraphrase and factual analysis; no copied photographs, benchmark tables or datasets."
+  },
+  "cpu7600": {
+    "publisher": "AMD",
+    "title": "Ryzen 5 7600 specifications",
+    "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600.html",
+    "scope": "AM5, DDR5, AMD Radeon integrated graphics and Wraith Stealth listed for the boxed package.",
+    "limitations": "Package contents, board outputs and exact firmware support still require their own checks.",
+    "checked": "2026-10-13",
+    "inspected": "2026-10-13",
+    "access": "Official public source text inspected",
+    "rights": "Source-linked original paraphrase and factual analysis; no copied photographs, benchmark tables or datasets."
+  },
+  "cables": {
+    "publisher": "CORSAIR",
+    "title": "PSU cable compatibility explainer",
+    "url": "https://www.corsair.com/us/en/explorer/diy-builder/power-supply-units/psu-cable-compatibility/",
+    "scope": "Modular cable compatibility must come from the applicable manufacturer documentation.",
+    "limitations": "Scope is CORSAIR’s documented families; do not apply its type names to other brands.",
+    "checked": "2026-10-13",
+    "inspected": "2026-10-13",
+    "access": "Official public source text inspected",
+    "rights": "Source-linked original paraphrase and factual analysis; no copied photographs, benchmark tables or datasets."
+  },
+  "cableChart": {
+    "publisher": "CORSAIR",
+    "title": "PSU cable compatibility chart",
+    "url": "https://www.corsair.com/us/en/s/psu-cable-compatibility",
+    "scope": "CORSAIR modular cable types, including the Type 3/4 versus Type 5 warning.",
+    "limitations": "These manufacturer family names are not a cross-brand wiring standard.",
+    "inspected": "2026-10-16",
+    "access": "Public primary-source page text inspected",
+    "rights": "Original analysis with source links; no copied photographs, benchmark tables or datasets."
+  },
+  "north": {
+    "publisher": "Fractal Design",
+    "title": "Original North English product sheet",
+    "url": "https://www.fractal-design.com/app/uploads/2022/12/North_Product-Sheet_EN.pdf",
+    "scope": "Conditional component allowances in the original North, including its cooling layout.",
+    "limitations": "Exclude North XL and other editions; a dimensional allowance is not total-build certification.",
+    "checked": "2026-10-13",
+    "inspected": "2026-10-13",
+    "access": "Official public source text inspected",
+    "rights": "Source-linked original paraphrase and factual analysis; no copied photographs, benchmark tables or datasets."
+  },
+  "rx9070": {
+    "publisher": "AMD",
+    "title": "Radeon RX 9070 specifications",
+    "url": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070.html",
+    "scope": "RX 9070 design: 56 compute units, 16 GB GDDR6, 256-bit memory, 220 W typical board power and 650 W minimum PSU recommendation.",
+    "limitations": "Manufacturer design specifications; exclude XT/GRE and exact partner geometry. No game-chart values are reused.",
+    "checked": "2026-10-13",
+    "inspected": "2026-10-13",
+    "access": "Official public source text inspected",
+    "rights": "Source-linked original paraphrase and factual analysis; no copied photographs, benchmark tables or datasets."
+  },
+  "rx9070xt": {
+    "publisher": "AMD",
+    "title": "Radeon RX 9070 XT specifications",
+    "url": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070xt.html",
+    "scope": "RX 9070 XT design: 64 compute units, 16 GB GDDR6, 256-bit memory, 304 W typical board power and 750 W minimum PSU recommendation.",
+    "limitations": "Manufacturer design specifications, not a measured FPS or whole-system power result. Partner requirements can differ.",
+    "checked": "2026-10-13",
+    "inspected": "2026-10-13",
+    "access": "Official public source text inspected",
+    "rights": "Source-linked original paraphrase and factual analysis; no copied photographs, benchmark tables or datasets."
+  },
+  "flashButton": {
+    "publisher": "MSI",
+    "title": "How to refresh BIOS via Flash BIOS Button",
+    "url": "https://www.msi.com/support/technical_details/MB_Flash_BIOS_Button",
+    "scope": "On supported boards this is a CPU/RAM-independent feature with a specific file, labeled port, power connections and completion indication.",
+    "limitations": "Only supported models; the board manual and exact-model download govern the operation. No universal duration or recovery guarantee.",
+    "inspected": "2026-10-16",
+    "access": "Public primary-source page text inspected",
+    "rights": "Original analysis with source links; no copied photographs, benchmark tables or datasets."
+  },
+  "activation": {
+    "publisher": "Microsoft",
+    "title": "Reactivating Windows after a hardware change",
+    "url": "https://support.microsoft.com/en-us/windows/activation/reactivating-windows-after-a-hardware-change",
+    "scope": "Preparation, edition matching and legitimate digital-license/product-key reactivation after hardware changes.",
+    "limitations": "A linked account is not a promise that every license transfers to a different computer.",
+    "inspected": "2026-10-16",
+    "access": "Public primary-source page text inspected",
+    "rights": "Original analysis with source links; no copied photographs, benchmark tables or datasets."
+  },
+  "seasonicCables": {
+    "publisher": "Seasonic",
+    "title": "Which cables are compatible with my power supply?",
+    "url": "https://knowledge.seasonic.com/article/68-cable-compatibility",
+    "scope": "Use the supplied DC cables and obtain exact manufacturer compatibility evidence; even models within one brand can differ.",
+    "limitations": "The linked compatibility chart did not return readable content in this research environment; no individual cable pair was certified.",
+    "inspected": "2026-10-16",
+    "access": "Public primary-source page text inspected",
+    "rights": "Original analysis with source links; no copied photographs, benchmark tables or datasets."
+  },
+  "nzxtCables": {
+    "publisher": "NZXT",
+    "title": "Never reuse PSU cables: why modular cables are not interchangeable",
+    "url": "https://nzxt.com/en-intl/blogs/news/psu-cable-compatibility",
+    "scope": "The August 17, 2026 article distinguishes Gold Core from previous C-series generations despite physically mating connectors.",
+    "limitations": "This warning does not establish a generic adapter solution, a whole-system power budget or cross-brand cable compatibility.",
+    "inspected": "2026-10-16",
+    "access": "Public primary-source page text inspected",
+    "rights": "Original analysis with source links; no copied photographs, benchmark tables or datasets."
+  },
+  "memoryAssess": {
+    "publisher": "Kingston",
+    "title": "How much memory do you need to run Windows, macOS, or Linux apps?",
+    "url": "https://www.kingston.com/en/blog/pc-performance/memory-assessor",
+    "scope": "Observe current memory use through the operating system; Windows Task Manager exposes capacity and usage.",
+    "limitations": "A usage observation is not a controlled benchmark or an exact prediction of an untested project.",
+    "inspected": "2026-10-16",
+    "access": "Public primary-source page text inspected",
+    "rights": "Original analysis with source links; no copied photographs, benchmark tables or datasets."
+  },
+  "mixedKits": {
+    "publisher": "Kingston",
+    "title": "Non-binary memory FAQs",
+    "url": "https://www.kingston.com/en/blog/system-builder/24gbit-memory-faq",
+    "scope": "Capacity configurations and firmware context; Kingston explicitly does not support mixing overclockable FURY modules or kits.",
+    "limitations": "Product-family and platform scope matters. Do not generalize the historical platform table into universal current support.",
+    "inspected": "2026-10-16",
+    "access": "Public primary-source page text inspected",
+    "rights": "Original analysis with source links; no copied photographs, benchmark tables or datasets."
+  },
+  "premiere": {
+    "publisher": "Adobe",
+    "title": "Adobe Premiere technical requirements",
+    "url": "https://helpx.adobe.com/premiere/desktop/get-started/technical-requirements/adobe-premiere-pro-technical-requirements.html",
+    "scope": "Version-scoped requirements current on inspection: the Windows recommendation lists 16 GB RAM for HD and 32 GB or more for 4K and higher; GPU and storage fields are distinct.",
+    "limitations": "Manufacturer requirements are not application benchmark results or a guarantee for every project. macOS/unified-memory requirements differ.",
+    "inspected": "2026-10-16",
+    "access": "Public primary-source page text inspected",
+    "rights": "Original analysis with source links; no copied photographs, benchmark tables or datasets.",
+    "version": "26.0, 26.2, 26.3, 26.3.2, 26.5, 26.5.1 and 26.5.2; source updated 2026-10-07"
+  },
+  "proxies": {
+    "publisher": "Adobe",
+    "title": "Create proxies in Premiere",
+    "url": "https://helpx.adobe.com/premiere/desktop/organize-media/ingest-proxy-workflow/create-proxies.html",
+    "scope": "Low-resolution editing copies, qualifying video clips and an explicit source-media relationship.",
+    "limitations": "Proxies are a supported workflow option, not backup copies or a measured equivalent of buying faster hardware.",
+    "inspected": "2026-10-16",
+    "access": "Public primary-source page text inspected",
+    "rights": "Original analysis with source links; no copied photographs, benchmark tables or datasets."
+  },
+  "premiereRecommendations": {
+    "publisher": "Adobe",
+    "title": "Processor, memory, and GPU recommendations",
+    "url": "https://helpx.adobe.com/premiere/desktop/get-started/technical-requirements/processor-memory-and-gpu-recommendations.html",
+    "scope": "Application-specific processor/media-engine context; this recommendations page was last updated January 7, 2026.",
+    "limitations": "Some wording and VRAM figures differ from the October version-scoped requirements. This guide does not repeat its efficiency percentages or use its older broad figures to override current version requirements.",
+    "inspected": "2026-10-16",
+    "access": "Public primary-source page text inspected",
+    "rights": "Original analysis with source links; no copied photographs, benchmark tables or datasets."
+  },
+  "presentMon": {
+    "publisher": "Intel / PresentMon maintainers",
+    "title": "PresentMon console application documentation",
+    "url": "https://github.com/GameTechDev/PresentMon/blob/main/README-ConsoleApplication.md",
+    "scope": "Capture schemas distinguish CPU/GPU/present/display timing and offer version-specific metric modes.",
+    "limitations": "A field is not necessarily available in every capture. This documentation is not measured performance of a named PC; main-branch content can change.",
+    "inspected": "2026-10-16",
+    "access": "Public primary-source page text inspected",
+    "rights": "Original analysis with source links; no copied photographs, benchmark tables or datasets."
+  },
+  "frameView": {
+    "publisher": "NVIDIA",
+    "title": "FrameView 1.7 user guide",
+    "url": "https://images.nvidia.com/content/geforce/technologies/frameview/frameview-1-7-user-guide-web-version.pdf",
+    "scope": "Historical version-specific definitions distinguish average FPS, the slowest-frame aggregate, percentile boundaries and PC latency.",
+    "limitations": "Version 1.7 definitions must not silently be assumed to describe all later software. No example game results from the manual are republished.",
+    "inspected": "2026-10-16",
+    "access": "Public primary-source page text inspected",
+    "rights": "Original analysis with source links; no copied photographs, benchmark tables or datasets."
+  },
+  "frameViewChange": {
+    "publisher": "NVIDIA",
+    "title": "FrameView 2.0 release notes",
+    "url": "https://www.nvidia.com/en-us/geforce/technologies/frameview/release-notes/",
+    "scope": "FPS reporting changed how dropped and zero-display presents are counted; capture-tool versions can change reported metrics.",
+    "limitations": "Release notes demonstrate a method change, not a performance improvement of a graphics card.",
+    "inspected": "2026-10-16",
+    "access": "Public primary-source page text inspected",
+    "rights": "Original analysis with source links; no copied photographs, benchmark tables or datasets."
+  },
+  "gnMethod": {
+    "publisher": "GamersNexus",
+    "title": "Testing methodology: 1% and 0.1% lows, delta T over ambient",
+    "url": "https://gamersnexus.net/site-news/2513-testing-methodology-explained-1percent-lows-and-delta-t",
+    "scope": "Original publisher explains why averages alone can miss uneven frame delivery and why thermal context matters.",
+    "limitations": "Historical methodology explanation, not a current GPU ranking; no benchmark table or video content is reproduced.",
+    "inspected": "2026-10-16",
+    "access": "Public primary-source page text inspected",
+    "rights": "Original analysis with source links; no copied photographs, benchmark tables or datasets."
+  },
+  "obsHardware": {
+    "publisher": "OBS Project",
+    "title": "Hardware encoding",
+    "url": "https://obsproject.com/kb/hardware-encoding",
+    "scope": "Hardware encoding can move encoding work from the CPU to a supported media engine.",
+    "limitations": "Encoder generation, codec, operating system and application support still matter; the older page is not an exhaustive current GPU matrix.",
+    "inspected": "2026-10-16",
+    "access": "Public primary-source page text inspected",
+    "rights": "Original analysis with source links; no copied photographs, benchmark tables or datasets."
+  },
+  "obsPerformance": {
+    "publisher": "OBS Project",
+    "title": "Encoding performance troubleshooting",
+    "url": "https://obsproject.com/kb/encoding-performance-troubleshooting",
+    "scope": "OBS scene rendering also consumes GPU resources; inspect output settings, game load and scene complexity.",
+    "limitations": "Selected safe diagnostics only. This guide does not reproduce older OS-specific security or administrative suggestions as universal fixes.",
+    "inspected": "2026-10-16",
+    "access": "Public primary-source page text inspected",
+    "rights": "Original analysis with source links; no copied photographs, benchmark tables or datasets."
+  },
+  "obsNetwork": {
+    "publisher": "OBS Project",
+    "title": "Stream connection troubleshooting",
+    "url": "https://obsproject.com/kb/stream-connection-troubleshooting",
+    "scope": "OBS dropped network frames concern the path to the ingest server and configured bitrate.",
+    "limitations": "A network-drop count is distinct from game FPS and rendering/encoding lag. No ISP or platform performance guarantee.",
+    "inspected": "2026-10-16",
+    "access": "Public primary-source page text inspected",
+    "rights": "Original analysis with source links; no copied photographs, benchmark tables or datasets."
+  },
+  "obsStart": {
+    "publisher": "OBS Project",
+    "title": "Quick start guide",
+    "url": "https://obsproject.com/kb/quick-start-guide",
+    "scope": "The Auto-Configuration Wizard starts from hardware resources, intended task and network conditions; test the actual recording/stream.",
+    "limitations": "An initial configuration is not proof that every scene, codec or streaming service is suitable.",
+    "inspected": "2026-10-16",
+    "access": "Public primary-source page text inspected",
+    "rights": "Original analysis with source links; no copied photographs, benchmark tables or datasets."
+  },
+  "storageInterface": {
+    "publisher": "Kingston",
+    "title": "Two types of M.2 SSDs: SATA and NVMe",
+    "url": "https://www.kingston.com/en/blog/pc-performance/two-types-m2-vs-ssd",
+    "scope": "M.2 is a form factor; SATA/NVMe connection support and shared host connections need separate checks.",
+    "limitations": "Only interface distinctions are used. Historical speed, capacity and PCIe-generation marketing in the 2023 article is not used as a current hardware limit.",
+    "inspected": "2026-10-16",
+    "access": "Public primary-source page text inspected",
+    "rights": "Original analysis with source links; no copied photographs, benchmark tables or datasets."
+  },
+  "coolerSupport": {
+    "publisher": "Noctua",
+    "title": "Compatibility database",
+    "url": "https://www.noctua.at/en/compatibility",
+    "scope": "Manufacturer-maintained CPU, motherboard, case and RAM compatibility resources for its coolers.",
+    "limitations": "Scope is the exact listed Noctua cooler and configuration. Does not certify other brands or an illustrative 3D scene.",
+    "inspected": "2026-10-16",
+    "access": "Public primary-source page text inspected",
+    "rights": "Original analysis with source links; no copied photographs, benchmark tables or datasets."
+  },
+  "windowsBackup": {
+    "publisher": "Microsoft",
+    "title": "Back up and restore with Windows Backup",
+    "url": "https://support.microsoft.com/en-us/windows/experience/backup-recovery/back-up-and-restore-with-windows-backup",
+    "scope": "Windows Backup describes selected folders, settings and account-based restoration.",
+    "limitations": "Do not describe selected cloud-backed items as a complete restorable image of every drive or application; verify what the chosen backup actually contains.",
+    "inspected": "2026-10-16",
+    "access": "Public primary-source page text inspected",
+    "rights": "Original analysis with source links; no copied photographs, benchmark tables or datasets."
+  },
+  "premiereStorage": {
+    "publisher": "Adobe",
+    "title": "Storage recommendations for video editing",
+    "url": "https://helpx.adobe.com/premiere/desktop/get-started/technical-requirements/storage-recommendations.html",
+    "scope": "Application, media and cache storage have different roles in the documented editing workflow.",
+    "limitations": "A storage recommendation is not a measured workload result or a guarantee based on a drive’s headline sequential throughput.",
+    "inspected": "2026-10-16",
+    "access": "Public primary-source page text inspected",
+    "rights": "Original analysis with source links; no copied photographs, benchmark tables or datasets."
+  }
+}

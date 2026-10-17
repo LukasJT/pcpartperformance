@@ -5,7 +5,7 @@
   const query = form.elements.q, out = document.querySelector('[data-growth-search-results]');
   const status = document.querySelector('[data-growth-search-status]');
   const buttons = [...document.querySelectorAll('[data-search-type]')];
-  let index = [], ready = false, type = 'all', timer, interacted = false;
+  let index = [], ready = false, type = 'all', timer, interacted = false, resultTypes = new Map();
   const esc = value => String(value ?? '').replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[char]);
   const normalized = PCP_SEARCH_CORE.normalize, kind = PCP_SEARCH_CORE.group;
   out.id ||= 'growth-search-results'; status.id ||= 'growth-search-status';
@@ -28,6 +28,7 @@
     }
     const rows = PCP_SEARCH_CORE.search(index, raw, type);
     const displayed = rows.slice(0, 60);
+    resultTypes = new Map(displayed.map(({ row }) => [row.url, kind(row)]));
     out.innerHTML = displayed.map(({ row, reason }) => `<article class="growth-search-result"><span>${esc(row.kind || kind(row))}</span><h2><a data-search-result-link href="${esc(row.url)}">${esc(PCP_SEARCH_CORE.displayTitle(row.title))}</a></h2>${reason ? '<p>' + esc(reason) + '</p>' : ''}</article>`).join('');
     status.textContent = q
       ? `${rows.length} matching results${rows.length > 60 ? '; showing the first 60. Add a model or more words to narrow them.' : '.'}`
@@ -44,6 +45,15 @@
     link.focus(); link.scrollIntoView?.({ block: 'nearest' }); return true;
   }
   form.addEventListener('submit', event => { event.preventDefault(); clearTimeout(timer); draw(); });
+  function selectedResult(event) {
+    if (event.defaultPrevented || event.type === 'auxclick' && event.button !== 1 || event.type === 'click' && event.button !== undefined && event.button !== 0) return;
+    const link = event.target.closest?.('[data-search-result-link]') || (links().includes(event.target) ? event.target : null);
+    if (!link || !links().includes(link)) return;
+    const destination = link.getAttribute?.('href') || link.href, value = resultTypes.get(destination);
+    if (!value) return;
+    try { window.PCP_MEASUREMENT?.event('search_result_selected', { action: event.type === 'auxclick' ? 'middle_click' : 'open', category: ['hardware', 'comparisons', 'guides', 'tools', 'reports', 'data'].includes(value) ? value : 'other' }); } catch {}
+  }
+  out.addEventListener('click', selectedResult); out.addEventListener('auxclick', selectedResult);
   query.addEventListener('input', () => { interacted = true; clearTimeout(timer); timer = setTimeout(draw, 140); });
   query.addEventListener('keydown', event => {
     if (event.altKey || event.ctrlKey || event.metaKey || !['ArrowDown', 'ArrowUp'].includes(event.key)) return;

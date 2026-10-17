@@ -1,0 +1,89 @@
+[
+  {
+    "checkedAt": "2026-10-17T02:11:55.606Z",
+    "url": "/hardware/graphics-cards/",
+    "width": 1440,
+    "height": 900,
+    "theme": "dark",
+    "axeVersion": "4.14.0",
+    "scope": "Real browser DOM, WCAG A/AA and best-practice rules; automated findings do not certify full conformance.",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "aria-valid-attr-value",
+        "impact": "critical",
+        "help": "ARIA attributes must conform to valid values",
+        "nodes": [
+          {
+            "target": [
+              "#select-trigger-1"
+            ],
+            "html": "<button type=\"button\" class=\"select-trigger has-value\" id=\"select-trigger-1\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"select-dialog\" aria-label=\"Hardware category: Graphics cards\">"
+          },
+          {
+            "target": [
+              "#select-trigger-2"
+            ],
+            "html": "<button type=\"button\" class=\"select-trigger has-value\" id=\"select-trigger-2\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"select-dialog\" aria-label=\"Release period: All generations\">"
+          },
+          {
+            "target": [
+              "#select-trigger-3"
+            ],
+            "html": "<button type=\"button\" class=\"select-trigger has-value\" id=\"select-trigger-3\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"select-dialog\" aria-label=\"Sort hardware: Newest first\">"
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "nodes": [
+          {
+            "target": [
+              "#catalog-more"
+            ],
+            "html": "<button class=\"button secondary load-more\" id=\"catalog-more\">Show more</button>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "checkedAt": "2026-10-17T02:11:59.874Z",
+    "url": "/tools/",
+    "width": 360,
+    "height": 800,
+    "theme": "dark",
+    "axeVersion": "4.14.0",
+    "scope": "Real browser DOM, WCAG A/AA and best-practice rules; automated findings do not certify full conformance.",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "nodes": [
+          {
+            "target": [
+              "a[href$=\"builder/\"] > span"
+            ],
+            "html": "<span>Build</span>"
+          },
+          {
+            "target": [
+              "a[href$=\"blog/\"] > span"
+            ],
+            "html": "<span>Learn</span>"
+          },
+          {
+            "target": [
+              "a[href$=\"my-pc/\"] > span"
+            ],
+            "html": "<span>My PC</span>"
+          }
+        ]
+      }
+    ]
+  }
+]

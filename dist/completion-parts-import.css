@@ -1,0 +1,18 @@
+[data-upgrade-matches] .cpi-line { min-width: 0; margin-block: 1rem; padding: 1.1rem; }
+[data-upgrade-matches] .cpi-line legend { padding-inline: .4rem; font-weight: 650; }
+[data-upgrade-matches] .cpi-original { overflow-wrap: anywhere; white-space: pre-wrap; color: var(--text); font-weight: 600; }
+[data-upgrade-matches] .cpi-line .program-form { margin-block: .8rem; }
+[data-upgrade-matches] .cpi-line select, [data-upgrade-matches] .cpi-line input { width: 100%; min-width: 0; }
+[data-upgrade-matches] .cpi-line summary { padding-block: .65rem; min-height: 44px; cursor: pointer; }
+[data-upgrade-matches] .cpi-preview { padding: 1.25rem; margin-top: 1.2rem; border-inline-start: 3px solid var(--accent); }
+[data-upgrade-matches] .cpi-preview th, [data-upgrade-matches] .cpi-preview td { vertical-align: top; overflow-wrap: anywhere; }
+[data-upgrade-matches] .cpi-confirm { display: flex; align-items: flex-start; gap: .75rem; padding-block: 1.1rem; cursor: pointer; }
+[data-upgrade-matches] .cpi-confirm input { flex: 0 0 1.2rem; width: 1.2rem; height: 1.2rem; margin-top: .15rem; }
+[data-upgrade-matches] [tabindex="-1"]:focus-visible { outline: 2px solid var(--accent); outline-offset: .35rem; }
+@media (max-width: 600px) {
+  [data-upgrade-matches] .cpi-line, [data-upgrade-matches] .cpi-preview { padding: .85rem; }
+  [data-upgrade-matches] .cpi-line .program-form { grid-template-columns: minmax(0, 1fr); }
+  [data-upgrade-matches] .program-actions { align-items: stretch; }
+  [data-upgrade-matches] .program-actions .button { white-space: normal; }
+}
+@media print { [data-upgrade-matches] { display: none; } }

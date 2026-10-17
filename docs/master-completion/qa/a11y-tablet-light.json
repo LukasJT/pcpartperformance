@@ -1,0 +1,321 @@
+[
+  {
+    "checkedAt": "2026-10-17T02:09:56.035Z",
+    "url": "/builder/",
+    "width": 768,
+    "height": 1024,
+    "theme": "light",
+    "axeVersion": "4.14.0",
+    "scope": "Real browser DOM, WCAG A/AA and best-practice rules; automated findings do not certify full conformance.",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "aria-valid-attr-value",
+        "impact": "critical",
+        "help": "ARIA attributes must conform to valid values",
+        "nodes": [
+          {
+            "target": [
+              "#builder-select-trigger-1"
+            ],
+            "html": "<button type=\"button\" class=\"select-trigger\" id=\"builder-select-trigger-1\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"builder-picker\" aria-label=\"Choose Processor: Select a component\">"
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "nodes": [
+          {
+            "target": [
+              "#builder-clear"
+            ],
+            "html": "<button class=\"button secondary\" id=\"builder-clear\">Clear build</button>"
+          },
+          {
+            "target": [
+              "#builder-starter"
+            ],
+            "html": "<button class=\"button primary\" id=\"builder-starter\">Load starter build</button>"
+          },
+          {
+            "target": [
+              "button[data-guided-next=\"\"]"
+            ],
+            "html": "<button type=\"button\" class=\"button primary\" data-guided-next=\"\">Next component</button>"
+          },
+          {
+            "target": [
+              "#pc-visual-title"
+            ],
+            "html": "<h3 id=\"pc-visual-title\">Inside your build</h3>"
+          },
+          {
+            "target": [
+              ".pc-visual-head > div > p"
+            ],
+            "html": "<p>Select a component to locate it.</p>"
+          },
+          {
+            "target": [
+              "#pc-visual-count"
+            ],
+            "html": "<span id=\"pc-visual-count\">0 parts selected</span>"
+          },
+          {
+            "target": [
+              "#scene-open"
+            ],
+            "html": "<button class=\"button primary\" id=\"scene-open\" type=\"button\">Open 3D preview</button>"
+          },
+          {
+            "target": [
+              "button[data-program-print=\"\"]"
+            ],
+            "html": "<button class=\"button secondary\" type=\"button\" data-program-print=\"\">Print build report</button>"
+          },
+          {
+            "target": [
+              "a[href$=\"#builder-choose\"]"
+            ],
+            "html": "<a class=\"button primary\" href=\"#builder-choose\">Choose your first part</a>"
+          },
+          {
+            "target": [
+              ".secondary.button[href$=\"build-school/\"]"
+            ],
+            "html": "<a class=\"button secondary\" href=\"/build-school/\">New to building a PC?</a>"
+          },
+          {
+            "target": [
+              ".secondary.button[href$=\"budget-build-lab/\"]"
+            ],
+            "html": "<a class=\"button secondary\" href=\"/tools/budget-build-lab/\">Compare complete purchase quotes</a>"
+          },
+          {
+            "target": [
+              "#program-save-form > .primary.button[type=\"submit\"]"
+            ],
+            "html": "<button type=\"submit\" class=\"button primary\">Save this revision</button>"
+          },
+          {
+            "target": [
+              "button[data-program-copy=\"link\"]"
+            ],
+            "html": "<button type=\"button\" class=\"button secondary\" data-program-copy=\"link\">Copy share link</button>"
+          },
+          {
+            "target": [
+              "button[data-program-copy=\"text\"]"
+            ],
+            "html": "<button type=\"button\" class=\"button secondary\" data-program-copy=\"text\">Copy parts list</button>"
+          },
+          {
+            "target": [
+              "li > .program-actions > .secondary.button[type=\"button\"]:nth-child(1)"
+            ],
+            "html": "<button type=\"button\" class=\"button secondary\" data-revision-load=\"8c9c0151-67cb-4f9d-a44c-0abba75b76f8\">Load revision</button>"
+          },
+          {
+            "target": [
+              "li > .program-actions > .secondary.button[type=\"button\"]:nth-child(2)"
+            ],
+            "html": "<button type=\"button\" class=\"button secondary\" data-revision-compare=\"8c9c0151-67cb-4f9d-a44c-0abba75b76f8\">Compare with current</button>"
+          }
+        ]
+      }
+    ],
+    "layout": {
+      "client": 758,
+      "scroll": 758
+    }
+  },
+  {
+    "checkedAt": "2026-10-17T02:10:00.353Z",
+    "url": "/compare/",
+    "width": 768,
+    "height": 1024,
+    "theme": "light",
+    "axeVersion": "4.14.0",
+    "scope": "Real browser DOM, WCAG A/AA and best-practice rules; automated findings do not certify full conformance.",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "aria-prohibited-attr",
+        "impact": "serious",
+        "help": "Elements must only use permitted ARIA attributes",
+        "nodes": [
+          {
+            "target": [
+              "#compare-categories"
+            ],
+            "html": "<div class=\"segmented\" id=\"compare-categories\" aria-label=\"Popular hardware categories\">"
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "nodes": [
+          {
+            "target": [
+              "#export-csv"
+            ],
+            "html": "<button class=\"button secondary\" id=\"export-csv\">Export CSV <span aria-hidden=\"true\">↓</span></button>"
+          },
+          {
+            "target": [
+              "#export-csv > span[aria-hidden=\"true\"]"
+            ],
+            "html": "<span aria-hidden=\"true\">↓</span>"
+          },
+          {
+            "target": [
+              "#copy-comparison"
+            ],
+            "html": "<button type=\"button\" class=\"button secondary\" id=\"copy-comparison\">Copy comparison link</button>"
+          },
+          {
+            "target": [
+              "#print-comparison"
+            ],
+            "html": "<button type=\"button\" class=\"button secondary\" id=\"print-comparison\">Print comparison</button>"
+          },
+          {
+            "target": [
+              ".category-menu-chevron"
+            ],
+            "html": "<span class=\"category-menu-chevron\" aria-hidden=\"true\">⌄</span>"
+          },
+          {
+            "target": [
+              "button[data-replace=\"0\"] > span[aria-hidden=\"true\"]"
+            ],
+            "html": "<span aria-hidden=\"true\">⌄</span>"
+          },
+          {
+            "target": [
+              ".product-card:nth-child(1) > .product-heading > .program-actions > .button.secondary:nth-child(1)"
+            ],
+            "html": "<a class=\"button secondary\" href=\"/builder/?build=%2C%2Crtx5070%2C%2C%2C%2C%2C%2C%2C\" aria-label=\"Use in a build: GeForce RTX 5070\">Use in a build</a>"
+          },
+          {
+            "target": [
+              "a[href=\"/upgrade/?owned=rtx5070\"]"
+            ],
+            "html": "<a class=\"button secondary\" href=\"/upgrade/?owned=rtx5070\" aria-label=\"I own this part: GeForce RTX 5070\">I own this part</a>"
+          },
+          {
+            "target": [
+              "button[data-replace=\"1\"] > span[aria-hidden=\"true\"]"
+            ],
+            "html": "<span aria-hidden=\"true\">⌄</span>"
+          },
+          {
+            "target": [
+              ".product-card:nth-child(2) > .product-heading > .program-actions > .button.secondary:nth-child(1)"
+            ],
+            "html": "<a class=\"button secondary\" href=\"/builder/?build=%2C%2Crtx5060ti16%2C%2C%2C%2C%2C%2C%2C\" aria-label=\"Use in a build: GeForce RTX 5060 Ti 16 GB\">Use in a build</a>"
+          },
+          {
+            "target": [
+              "a[href=\"/upgrade/?owned=rtx5060ti16\"]"
+            ],
+            "html": "<a class=\"button secondary\" href=\"/upgrade/?owned=rtx5060ti16\" aria-label=\"I own this part: GeForce RTX 5060 Ti 16 GB\">I own this part</a>"
+          },
+          {
+            "target": [
+              "button[data-save-current-comparison=\"\"]"
+            ],
+            "html": "<button type=\"button\" class=\"button secondary\" data-save-current-comparison=\"\">Save comparison</button>"
+          },
+          {
+            "target": [
+              ".master-library > .button.secondary"
+            ],
+            "html": "<a class=\"button secondary\" href=\"/compare/rx-9070-vs-rx-9070-xt/\">Read the RX 9070 comparison</a>"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "help": "Elements must have their visible text as part of their accessible name",
+        "nodes": [
+          {
+            "target": [
+              "button[data-remove=\"rtx5070\"]"
+            ],
+            "html": "<button class=\"icon-button remove-product\" data-remove=\"rtx5070\" aria-label=\"Remove GeForce RTX 5070\">×</button>"
+          },
+          {
+            "target": [
+              "button[data-remove=\"rtx5060ti16\"]"
+            ],
+            "html": "<button class=\"icon-button remove-product\" data-remove=\"rtx5060ti16\" aria-label=\"Remove GeForce RTX 5060 Ti 16 GB\">×</button>"
+          }
+        ]
+      }
+    ],
+    "layout": {
+      "client": 753,
+      "scroll": 753
+    }
+  },
+  {
+    "checkedAt": "2026-10-17T02:10:04.495Z",
+    "url": "/phones/size-compare/",
+    "width": 768,
+    "height": 1024,
+    "theme": "light",
+    "axeVersion": "4.14.0",
+    "scope": "Real browser DOM, WCAG A/AA and best-practice rules; automated findings do not certify full conformance.",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "aria-valid-attr-value",
+        "impact": "critical",
+        "help": "ARIA attributes must conform to valid values",
+        "nodes": [
+          {
+            "target": [
+              "#select-trigger-1"
+            ],
+            "html": "<button type=\"button\" class=\"select-trigger has-value\" id=\"select-trigger-1\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"select-dialog\" aria-label=\"First phone: iPhone 16\">"
+          },
+          {
+            "target": [
+              "#select-trigger-2"
+            ],
+            "html": "<button type=\"button\" class=\"select-trigger has-value\" id=\"select-trigger-2\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"select-dialog\" aria-label=\"Second phone: Pixel 9\">"
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "nodes": [
+          {
+            "target": [
+              ".phone-swap"
+            ],
+            "html": "<button class=\"button secondary phone-swap\" type=\"button\" data-phone-swap=\"\" aria-label=\"Swap the two phones\">Swap</button>"
+          },
+          {
+            "target": [
+              "button[data-phone-share=\"\"]"
+            ],
+            "html": "<button class=\"button secondary\" type=\"button\" data-phone-share=\"\">Share comparison</button>"
+          }
+        ]
+      }
+    ],
+    "layout": {
+      "client": 753,
+      "scroll": 753
+    }
+  }
+]

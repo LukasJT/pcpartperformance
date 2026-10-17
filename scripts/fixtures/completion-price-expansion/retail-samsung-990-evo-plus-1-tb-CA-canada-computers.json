@@ -1,0 +1,33 @@
+{
+  "productId": "retail-samsung-990-evo-plus-1-tb",
+  "region": "CA",
+  "merchantId": "canada-computers",
+  "checkedAt": "2026-10-17T01:44:11.556Z",
+  "sourceUrl": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/265360/samsung-990-evo-plus-1tb-m-2-nvme-pcie-4-0-solid-state-drive-mz-v9s1t0b-am.html",
+  "responseStatus": 200,
+  "responseBytes": 529064,
+  "responseSHA256": "96375300b1ebccba4a2ae2a8c9a0bd48601bfda3d1ef2d7e2dcbb2e838376e59",
+  "fixtureKind": "selected-original-structured-factual-fields",
+  "products": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Samsung 990 Evo Plus  1TB M.2 NVMe PCIe 4.0  Solid State Drive",
+      "sku": "SSSAS00242",
+      "mpn": "MZ-V9S1T0B/AM",
+      "offers": {
+        "@type": "Offer",
+        "price": 394.99,
+        "priceCurrency": "CAD",
+        "availability": "https://schema.org/SoldOut",
+        "itemCondition": "https://schema.org/NewCondition",
+        "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/265360/samsung-990-evo-plus-1tb-m-2-nvme-pcie-4-0-solid-state-drive-mz-v9s1t0b-am.html",
+        "seller": {
+          "@type": "Organization",
+          "name": "Canada Computers &amp; Electronics"
+        },
+        "priceValidUntil": "2026-10-31"
+      }
+    }
+  ]
+}

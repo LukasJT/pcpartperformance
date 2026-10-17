@@ -1,0 +1,33 @@
+{
+  "productId": "5600",
+  "region": "CA",
+  "merchantId": "canada-computers",
+  "checkedAt": "2026-10-17T01:44:08.673Z",
+  "sourceUrl": "https://www.canadacomputers.com/en/amd-desktop-processors/216441/amd-ryzen-5-5600-6-core-12-thread-7nm-zen-3-processor-with-cooler-65w-100-100000927box.html",
+  "responseStatus": 200,
+  "responseBytes": 536710,
+  "responseSHA256": "f57fcb74bde18e7cb53d0234ce0d2311e2663ac73c2cbbd973bb3a4da1540084",
+  "fixtureKind": "selected-original-structured-factual-fields",
+  "products": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "AMD Ryzen 5 5600 6-Core/12-Thread 7nm ZEN 3 Processor with Cooler 65W",
+      "sku": "CPAMD00137",
+      "mpn": "100-100000927BOX",
+      "offers": {
+        "@type": "Offer",
+        "price": 279,
+        "priceCurrency": "CAD",
+        "availability": "https://schema.org/SoldOut",
+        "itemCondition": "https://schema.org/NewCondition",
+        "url": "https://www.canadacomputers.com/en/amd-desktop-processors/216441/amd-ryzen-5-5600-6-core-12-thread-7nm-zen-3-processor-with-cooler-65w-100-100000927box.html",
+        "seller": {
+          "@type": "Organization",
+          "name": "Canada Computers &amp; Electronics"
+        },
+        "priceValidUntil": "2026-10-31"
+      }
+    }
+  ]
+}

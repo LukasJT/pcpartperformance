@@ -1,0 +1,600 @@
+[
+  {
+    "overflow": false,
+    "report": {
+      "axeVersion": "4.14.0",
+      "checkedAt": "2026-10-17T01:42:29.897Z",
+      "height": 900,
+      "incomplete": [
+        {
+          "help": "ARIA attributes must conform to valid values",
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "nodes": [
+            {
+              "html": "<button type=\"button\" class=\"select-trigger has-value\" id=\"select-trigger-1\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"select-dialog\" aria-label=\"First phone: iPhone 16\">",
+              "target": [
+                "#select-trigger-1"
+              ]
+            },
+            {
+              "html": "<button type=\"button\" class=\"select-trigger has-value\" id=\"select-trigger-2\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"select-dialog\" aria-label=\"Second phone: Pixel 9\">",
+              "target": [
+                "#select-trigger-2"
+              ]
+            }
+          ]
+        },
+        {
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "html": "<button class=\"button secondary phone-swap\" type=\"button\" data-phone-swap=\"\" aria-label=\"Swap the two phones\">Swap</button>",
+              "target": [
+                ".phone-swap"
+              ]
+            },
+            {
+              "html": "<button class=\"button secondary\" type=\"button\" data-phone-share=\"\">Share comparison</button>",
+              "target": [
+                "button[data-phone-share=\"\"]"
+              ]
+            }
+          ]
+        }
+      ],
+      "scope": "Real browser DOM, WCAG A/AA and best-practice rules; automated findings do not certify full conformance.",
+      "theme": "dark",
+      "url": "/phones/size-compare/",
+      "violations": [],
+      "width": 1440
+    }
+  },
+  {
+    "overflow": false,
+    "report": {
+      "axeVersion": "4.14.0",
+      "checkedAt": "2026-10-17T01:42:30.905Z",
+      "height": 900,
+      "incomplete": [
+        {
+          "help": "ARIA attributes must conform to valid values",
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "nodes": [
+            {
+              "html": "<button type=\"button\" class=\"select-trigger\" id=\"select-trigger-1\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"select-dialog\" aria-label=\"Brand: All brands\">",
+              "target": [
+                "#select-trigger-1"
+              ]
+            },
+            {
+              "html": "<button type=\"button\" class=\"select-trigger\" id=\"select-trigger-2\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"select-dialog\" aria-label=\"Graphics: All graphics cards\">",
+              "target": [
+                "#select-trigger-2"
+              ]
+            },
+            {
+              "html": "<button type=\"button\" class=\"select-trigger\" id=\"select-trigger-3\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"select-dialog\" aria-label=\"Choose the exact system: Choose a configuration\">",
+              "target": [
+                "#select-trigger-3"
+              ]
+            }
+          ]
+        },
+        {
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "html": "<a class=\"button primary\" href=\"#prebuilt-catalog\">Explore systems</a>",
+              "target": [
+                "a[href$=\"#prebuilt-catalog\"]"
+              ]
+            },
+            {
+              "html": "<a class=\"button secondary\" href=\"#build-vs-buy\">Build vs Buy</a>",
+              "target": [
+                ".device-actions > a[href$=\"#build-vs-buy\"]"
+              ]
+            },
+            {
+              "html": "<button class=\"button secondary\" type=\"button\" data-prebuilt-reset=\"\">Clear filters</button>",
+              "target": [
+                "button[data-prebuilt-reset=\"\"]"
+              ]
+            },
+            {
+              "html": "<button class=\"button secondary\" type=\"button\" data-prebuilt-save=\"\">Save shortlist</button>",
+              "target": [
+                "button[data-prebuilt-save=\"\"]"
+              ]
+            },
+            {
+              "html": "<a class=\"button secondary\" href=\"/prebuilts/ca-thermaltake-c27b-b760-570-lcs/\">System details</a>",
+              "target": [
+                "article[data-brand=\"Thermaltake\"] > .prebuilt-card-body > .device-actions > .secondary.button"
+              ]
+            },
+            {
+              "html": "<a class=\"button secondary\" href=\"/prebuilts/ca-quoted-tech-qtcshld78x3d5070321/\">System details</a>",
+              "target": [
+                "article[data-brand=\"Quoted Tech\"] > .prebuilt-card-body > .device-actions > .secondary.button"
+              ]
+            },
+            {
+              "html": "<a class=\"button secondary\" href=\"/prebuilts/ca-asus-gm700tz-dr9x3d5080wp/\">System details</a>",
+              "target": [
+                "article[data-prebuilt-id=\"ca-asus-gm700tz-dr9x3d5080wp\"] > .prebuilt-card-body > .device-actions > .secondary.button"
+              ]
+            },
+            {
+              "html": "<a class=\"button secondary\" href=\"/prebuilts/ca-msi-cod-r2-a2nvl7-478ca/\">System details</a>",
+              "target": [
+                "article[data-prebuilt-id=\"ca-msi-cod-r2-a2nvl7-478ca\"] > .prebuilt-card-body > .device-actions > .secondary.button"
+              ]
+            },
+            {
+              "html": "<a class=\"button secondary\" href=\"/prebuilts/ca-lenovo-90y6006hcf/\">System details</a>",
+              "target": [
+                "article[data-prebuilt-id=\"ca-lenovo-90y6006hcf\"] > .prebuilt-card-body > .device-actions > .secondary.button"
+              ]
+            },
+            {
+              "html": "<a class=\"button secondary\" href=\"/prebuilts/ca-msi-agszs2b9nvv1615ca/\">System details</a>",
+              "target": [
+                "article[data-prebuilt-id=\"ca-msi-agszs2b9nvv1615ca\"] > .prebuilt-card-body > .device-actions > .secondary.button"
+              ]
+            },
+            {
+              "html": "<a class=\"button secondary\" href=\"/prebuilts/ca-lenovo-90ya003gus/\">System details</a>",
+              "target": [
+                "article[data-prebuilt-id=\"ca-lenovo-90ya003gus\"] > .prebuilt-card-body > .device-actions > .secondary.button"
+              ]
+            },
+            {
+              "html": "<a class=\"button secondary\" href=\"/prebuilts/ca-acer-n65-100-eb17/\">System details</a>",
+              "target": [
+                "article[data-prebuilt-id=\"ca-acer-n65-100-eb17\"] > .prebuilt-card-body > .device-actions > .secondary.button"
+              ]
+            },
+            {
+              "html": "<a class=\"button secondary\" href=\"/prebuilts/ca-acer-n65-100-eb14/\">System details</a>",
+              "target": [
+                "article[data-prebuilt-id=\"ca-acer-n65-100-eb14\"] > .prebuilt-card-body > .device-actions > .secondary.button"
+              ]
+            },
+            {
+              "html": "<a class=\"button secondary\" href=\"/prebuilts/ca-msi-codex-z2-a8nvm-679ca/\">System details</a>",
+              "target": [
+                "article[data-prebuilt-id=\"ca-msi-codex-z2-a8nvm-679ca\"] > .prebuilt-card-body > .device-actions > .secondary.button"
+              ]
+            },
+            {
+              "html": "<a class=\"button secondary\" href=\"/prebuilts/ca-lenovo-90ya009dcf/\">System details</a>",
+              "target": [
+                "article[data-prebuilt-id=\"ca-lenovo-90ya009dcf\"] > .prebuilt-card-body > .device-actions > .secondary.button"
+              ]
+            },
+            {
+              "html": "<a class=\"button secondary\" href=\"/prebuilts/ca-ibuypower-sbi9n5702/\">System details</a>",
+              "target": [
+                "article[data-prebuilt-id=\"ca-ibuypower-sbi9n5702\"] > .prebuilt-card-body > .device-actions > .secondary.button"
+              ]
+            },
+            {
+              "html": "<button class=\"button secondary\" type=\"button\" data-prebuilt-more=\"\">Show more systems (31)</button>",
+              "target": [
+                "button[data-prebuilt-more=\"\"]"
+              ]
+            },
+            {
+              "html": "<a class=\"button primary\" href=\"/prebuilts/#build-vs-buy\" data-master-use-system=\"\">Use this system in Build vs Buy</a>",
+              "target": [
+                "a[href$=\"prebuilts/#build-vs-buy\"]"
+              ]
+            },
+            {
+              "html": "<a class=\"button secondary\" href=\"/tools/budget-build-lab/\" data-master-prebuilt-cost=\"\">Price a complete DIY alternative</a>",
+              "target": [
+                "a[data-master-prebuilt-cost=\"\"]"
+              ]
+            },
+            {
+              "html": "<button class=\"button primary\" type=\"submit\">Compare totals</button>",
+              "target": [
+                "button[type=\"submit\"]"
+              ]
+            },
+            {
+              "html": "<button class=\"button secondary\" type=\"reset\">Reset</button>",
+              "target": [
+                "button[type=\"reset\"]"
+              ]
+            },
+            {
+              "html": "<button class=\"button secondary\" type=\"button\" data-buy-save=\"\">Save worksheet</button>",
+              "target": [
+                "button[data-buy-save=\"\"]"
+              ]
+            }
+          ]
+        }
+      ],
+      "scope": "Real browser DOM, WCAG A/AA and best-practice rules; automated findings do not certify full conformance.",
+      "theme": "dark",
+      "url": "/prebuilts/",
+      "violations": [],
+      "width": 1440
+    }
+  },
+  {
+    "overflow": false,
+    "report": {
+      "axeVersion": "4.14.0",
+      "checkedAt": "2026-10-17T01:42:31.640Z",
+      "height": 900,
+      "incomplete": [
+        {
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "html": "<a class=\"button primary\" href=\"#laptop-catalog\">Browse laptops</a>",
+              "target": [
+                "a[href$=\"#laptop-catalog\"]"
+              ]
+            },
+            {
+              "html": "<button class=\"button secondary\" type=\"button\" data-laptop-reset=\"\">Reset</button>",
+              "target": [
+                "button[data-laptop-reset=\"\"]"
+              ]
+            },
+            {
+              "html": "<a class=\"button secondary\" href=\"https://www.bestbuy.ca/en-ca/product/lenovo-loq-15-6-144hz-gaming-laptop-intel-core-i7-13650hx-16gb-ddr5-512gb-ssd-geforce-rtx-5050-windows-11-home-luna-grey/19767601\" target=\"_blank\" rel=\"noopener\" data-merchant=\"Best Buy Canada\">View at Best Buy Canada</a>",
+              "target": [
+                "article[data-laptop-card=\"ca-lenovo-83je01ascf\"] > .laptop-card-content > .laptop-card-actions > a[data-merchant=\"Best Buy Canada\"][target=\"_blank\"][rel=\"noopener\"]"
+              ]
+            },
+            {
+              "html": "<a class=\"button secondary\" href=\"https://www.bestbuy.ca/en-ca/product/asus-tuf-gaming-f16-16-gaming-laptop-mecha-grey-intel-core-5-205h-16gb-ram-512gb-ssd-geforce-rtx-3050-win11/19872487\" target=\"_blank\" rel=\"noopener\" data-merchant=\"Best Buy Canada\">View at Best Buy Canada</a>",
+              "target": [
+                "article[data-laptop-card=\"ca-asus-fx607vjr-bb51-cb\"] > .laptop-card-content > .laptop-card-actions > a[data-merchant=\"Best Buy Canada\"][target=\"_blank\"][rel=\"noopener\"]"
+              ]
+            },
+            {
+              "html": "<a class=\"button secondary\" href=\"https://www.bestbuy.ca/en-ca/product/acer-nitro-v-15-6-165hz-gaming-laptop-intel-core-i7-13620h-16gb-ddr4-1tb-ssd-rtx-5060-windows-11-black/19274601\" target=\"_blank\" rel=\"noopener\" data-merchant=\"Best Buy Canada\">View at Best Buy Canada</a>",
+              "target": [
+                "article[data-laptop-card=\"ca-acer-anv15-52-73a3\"] > .laptop-card-content > .laptop-card-actions > a[data-merchant=\"Best Buy Canada\"][target=\"_blank\"][rel=\"noopener\"]"
+              ]
+            },
+            {
+              "html": "<a class=\"button secondary\" href=\"https://www.bestbuy.ca/en-ca/product/msi-cyborg-a15-ai-15-6-144hz-gaming-laptop-amd-ryzen-7-260-16gb-ddr5-1tb-ssd-geforce-rtx-5060-windows-11-translucent-black/19812639\" target=\"_blank\" rel=\"noopener\" data-merchant=\"Best Buy Canada\">View at Best Buy Canada</a>",
+              "target": [
+                "article[data-laptop-card=\"ca-msi-a15-b2hwfkg-030us\"] > .laptop-card-content > .laptop-card-actions > a[data-merchant=\"Best Buy Canada\"][target=\"_blank\"][rel=\"noopener\"]"
+              ]
+            },
+            {
+              "html": "<a class=\"button secondary\" href=\"https://www.bestbuy.ca/en-ca/product/alienware-15-gaming-laptop-black-intel-core-5-210h-16gb-ram-512gb-ssd-nvidia-geforce-rtx-3050-windows-11-home/19924619\" target=\"_blank\" rel=\"noopener\" data-merchant=\"Best Buy Canada\">View at Best Buy Canada</a>",
+              "target": [
+                "article[data-screen=\"15\"] > .laptop-card-content > .laptop-card-actions > a[data-merchant=\"Best Buy Canada\"][target=\"_blank\"][rel=\"noopener\"]"
+              ]
+            },
+            {
+              "html": "<a class=\"button secondary\" href=\"https://www.bestbuy.ca/en-ca/product/hp-victus-15-6-144hz-gaming-laptop-pc-amd-ryzen-5-8645hs-8gb-ddr5-ram-512gb-ssd-geforce-rtx-2050-windows-11-home-mica-silver/19407429\" target=\"_blank\" rel=\"noopener\" data-merchant=\"Best Buy Canada\">View at Best Buy Canada</a>",
+              "target": [
+                "article[data-laptop-card=\"ca-hp-15-fb3000ca\"] > .laptop-card-content > .laptop-card-actions > a[data-merchant=\"Best Buy Canada\"][target=\"_blank\"][rel=\"noopener\"]"
+              ]
+            },
+            {
+              "html": "<a class=\"button secondary\" href=\"https://www.bestbuy.ca/en-ca/product/lenovo-loq-essential-15-3-gaming-laptop-intel-core-5-205h-8gb-ddr5-ram-512gb-ssd-nvidia-geforce-rtx-3050-windows-11-home-luna-grey/20001669\" target=\"_blank\" rel=\"noopener\" data-merchant=\"Best Buy Canada\">",
+              "target": [
+                "article[data-laptop-card=\"ca-lenovo-83y90066cf\"] > .laptop-card-content > .laptop-card-actions > a[data-merchant=\"Best Buy Canada\"][target=\"_blank\"][rel=\"noopener\"]"
+              ]
+            },
+            {
+              "html": "<a class=\"button secondary\" href=\"https://www.bestbuy.ca/en-ca/product/asus-rog-strix-g16-16-165hz-gaming-laptop-intel-core-ultra-7-255hx-16gb-ddr5-512gb-ssd-rtx-5060-windows-11-eclipse-grey/19860982\" target=\"_blank\" rel=\"noopener\" data-merchant=\"Best Buy Canada\">View at Best Buy Canada</a>",
+              "target": [
+                "article[data-laptop-card=\"ca-asus-g615lm-bs73-cb\"] > .laptop-card-content > .laptop-card-actions > a[data-merchant=\"Best Buy Canada\"][target=\"_blank\"][rel=\"noopener\"]"
+              ]
+            },
+            {
+              "html": "<a class=\"button secondary\" href=\"https://www.bestbuy.ca/en-ca/product/asus-rog-strix-g16-16-300hz-gaming-laptop-intel-core-ultra-9-290hx-plus-32gb-ddr5-1tb-ssd-geforce-rtx-5070-windows-11-home-eclipse-grey/19860978\" target=\"_blank\" rel=\"noopener\" data-merchant=\"Best Buy Canada\">",
+              "target": [
+                "article[data-laptop-card=\"ca-asus-g615lp-bb96-cb\"] > .laptop-card-content > .laptop-card-actions > a[data-merchant=\"Best Buy Canada\"][target=\"_blank\"][rel=\"noopener\"]"
+              ]
+            },
+            {
+              "html": "<a class=\"button secondary\" href=\"https://www.bestbuy.ca/en-ca/product/msi-katana-17-hx-17-3-fhd-144hz-gaming-laptop-intel-core-i7-14650hx-nvidia-geforce-rtx-5060-16gb-ddr5-memory-1tb-pcie-ssd-black/20072377\" target=\"_blank\" rel=\"noopener\" data-merchant=\"Best Buy Canada\">View at Best Buy Canada</a>",
+              "target": [
+                "article[data-laptop-card=\"ca-msi-msi-katana-17-hx\"] > .laptop-card-content > .laptop-card-actions > a[data-merchant=\"Best Buy Canada\"][target=\"_blank\"][rel=\"noopener\"]"
+              ]
+            },
+            {
+              "html": "<a class=\"button secondary\" href=\"https://www.bestbuy.ca/en-ca/product/asus-zephyrus-g16-16-240hz-gaming-laptop-intel-core-ultra-9-285h-32gb-lpddr5x-512gb-ssd-geforce-rtx-5060-windows-11-eclipse-grey/19826851\" target=\"_blank\" rel=\"noopener\" data-merchant=\"Best Buy Canada\">View at Best Buy Canada</a>",
+              "target": [
+                "article[data-laptop-card=\"ca-asus-gu605cm-bs95-cb\"] > .laptop-card-content > .laptop-card-actions > a[data-merchant=\"Best Buy Canada\"][target=\"_blank\"][rel=\"noopener\"]"
+              ]
+            },
+            {
+              "html": "<a class=\"button secondary\" href=\"https://www.bestbuy.ca/en-ca/product/acer-nitro-v-15-6-165hz-gaming-laptop-intel-core-i7-13620h-16gb-ddr4-512gb-ssd-rtx-5050-windows-11-black/19274599\" target=\"_blank\" rel=\"noopener\" data-merchant=\"Best Buy Canada\">View at Best Buy Canada</a>",
+              "target": [
+                "article[data-laptop-card=\"ca-acer-anv15-52-7013\"] > .laptop-card-content > .laptop-card-actions > a[data-merchant=\"Best Buy Canada\"][target=\"_blank\"][rel=\"noopener\"]"
+              ]
+            },
+            {
+              "html": "<a class=\"button secondary\" href=\"https://www.bestbuy.ca/en-ca/product/asus-rog-zephyrus-g14-14-120hz-gaming-laptop-ryzen-ai-9-hx-370-32gb-lpddr5x-1tb-ssd-geforce-rtx-5060-windows-11-home-eclipse-grey/19697004\" target=\"_blank\" rel=\"noopener\" data-merchant=\"Best Buy Canada\">",
+              "target": [
+                "article[data-laptop-card=\"ca-asus-ga403wm-bh96-cb\"] > .laptop-card-content > .laptop-card-actions > a[data-merchant=\"Best Buy Canada\"][target=\"_blank\"][rel=\"noopener\"]"
+              ]
+            },
+            {
+              "html": "<a class=\"button secondary\" href=\"https://www.bestbuy.ca/en-ca/product/asus-tuf-gaming-a16-16-165hz-gaming-laptop-amd-ryzen-9-8940hx-16gb-ddr5-512gb-ssd-geforce-rtx-5060-windows-11-jaeger-grey/19860981\" target=\"_blank\" rel=\"noopener\" data-merchant=\"Best Buy Canada\">View at Best Buy Canada</a>",
+              "target": [
+                "article[data-laptop-card=\"ca-asus-fa608pm-bb93-cb\"] > .laptop-card-content > .laptop-card-actions > a[data-merchant=\"Best Buy Canada\"][target=\"_blank\"][rel=\"noopener\"]"
+              ]
+            },
+            {
+              "html": "<a class=\"button secondary\" href=\"https://www.bestbuy.ca/en-ca/product/msi-titan-18-hx-18-gaming-laptop-dragon-edition-draco-epic-intel-core-ultra-9-290hx-plus-96gb-ram-4tb-ssd-geforce-rtx-5090/19963771\" target=\"_blank\" rel=\"noopener\" data-merchant=\"Best Buy Canada\">View at Best Buy Canada</a>",
+              "target": [
+                "article[data-laptop-card=\"ca-msi-titan18hx-a2wj1212ca\"] > .laptop-card-content > .laptop-card-actions > a[data-merchant=\"Best Buy Canada\"][target=\"_blank\"][rel=\"noopener\"]"
+              ]
+            },
+            {
+              "html": "<a class=\"button secondary\" href=\"https://www.bestbuy.ca/en-ca/product/asus-rog-strix-g18-18-300hz-hdr-gaming-laptop-intel-core-ultra-9-290hx-plus-16gb-ddr5-1tb-ssd-rtx-5060-windows-11-home-eclipse-grey/19826853\" target=\"_blank\" rel=\"noopener\" data-merchant=\"Best Buy Canada\">",
+              "target": [
+                "article[data-laptop-card=\"ca-asus-g815lm-bb94-cb\"] > .laptop-card-content > .laptop-card-actions > a[data-merchant=\"Best Buy Canada\"][target=\"_blank\"][rel=\"noopener\"]"
+              ]
+            },
+            {
+              "html": "<a class=\"button secondary\" href=\"https://www.bestbuy.ca/en-ca/product/lenovo-legion-5i-15-3-165hz-hdr-gaming-laptop-intel-core-ultra-7-251hx-32gb-ddr5-1tb-ssd-rtx-5060-windows-11-home-eclipse-black/19784197\" target=\"_blank\" rel=\"noopener\" data-merchant=\"Best Buy Canada\">View at Best Buy Canada</a>",
+              "target": [
+                "article[data-laptop-card=\"ca-lenovo-83vk000acf\"] > .laptop-card-content > .laptop-card-actions > a[data-merchant=\"Best Buy Canada\"][target=\"_blank\"][rel=\"noopener\"]"
+              ]
+            },
+            {
+              "html": "<a class=\"button secondary\" href=\"https://www.bestbuy.ca/en-ca/product/msi-cyborg-17-17-3-144hz-gaming-laptop-intel-core-7-240h-16gb-ddr5-512gb-ssd-geforce-rtx-5050-windows-11-translucent-black/19812638\" target=\"_blank\" rel=\"noopener\" data-merchant=\"Best Buy Canada\">View at Best Buy Canada</a>",
+              "target": [
+                "article[data-laptop-card=\"ca-msi-17-b2rwekg-021ca\"] > .laptop-card-content > .laptop-card-actions > a[data-merchant=\"Best Buy Canada\"][target=\"_blank\"][rel=\"noopener\"]"
+              ]
+            },
+            {
+              "html": "<a class=\"button secondary\" href=\"https://www.bestbuy.ca/en-ca/product/lenovo-legion-5i-15-3-165hz-hdr-gaming-laptop-intel-core-ultra-7-251hx-32gb-ddr5-1tb-ssd-rtx-5070-windows-11-eclipse-black/19784200\" target=\"_blank\" rel=\"noopener\" data-merchant=\"Best Buy Canada\">View at Best Buy Canada</a>",
+              "target": [
+                "article[data-laptop-card=\"ca-lenovo-83vk000bcf\"] > .laptop-card-content > .laptop-card-actions > a[data-merchant=\"Best Buy Canada\"][target=\"_blank\"][rel=\"noopener\"]"
+              ]
+            },
+            {
+              "html": "<a class=\"button secondary\" href=\"https://www.bestbuy.ca/en-ca/product/msi-cyborg-15-6-165hz-gaming-laptop-intel-core-9-270h-32gb-ddr5-1tb-ssd-nvidia-rtx-5070-windows-11-home-translucent-black/19369920\" target=\"_blank\" rel=\"noopener\" data-merchant=\"Best Buy Canada\">View at Best Buy Canada</a>",
+              "target": [
+                "article[data-laptop-card=\"ca-msi-cbg15-b2rwgkg-233ca\"] > .laptop-card-content > .laptop-card-actions > a[data-merchant=\"Best Buy Canada\"][target=\"_blank\"][rel=\"noopener\"]"
+              ]
+            },
+            {
+              "html": "<a class=\"button secondary\" href=\"https://www.bestbuy.ca/en-ca/product/asus-tuf-f16-16-gaming-laptop-off-black-intel-core-i7-14650hx-16gb-ram-512gb-ssd-geforce-rtx-5060-win11/19895076\" target=\"_blank\" rel=\"noopener\" data-merchant=\"Best Buy Canada\">View at Best Buy Canada</a>",
+              "target": [
+                "article[data-laptop-card=\"ca-asus-fx610jm-bs73-cb\"] > .laptop-card-content > .laptop-card-actions > a[data-merchant=\"Best Buy Canada\"][target=\"_blank\"][rel=\"noopener\"]"
+              ]
+            }
+          ]
+        }
+      ],
+      "scope": "Real browser DOM, WCAG A/AA and best-practice rules; automated findings do not certify full conformance.",
+      "theme": "dark",
+      "url": "/laptops/",
+      "violations": [],
+      "width": 1440
+    }
+  },
+  {
+    "overflow": false,
+    "report": {
+      "axeVersion": "4.14.0",
+      "checkedAt": "2026-10-17T01:42:32.772Z",
+      "height": 900,
+      "incomplete": [
+        {
+          "help": "ARIA attributes must conform to valid values",
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "nodes": [
+            {
+              "html": "<button type=\"button\" class=\"select-trigger has-value\" id=\"select-trigger-1\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"select-dialog\" aria-label=\"Graphics card: GeForce RTX 5070 · 2025\">",
+              "target": [
+                "#select-trigger-1"
+              ]
+            },
+            {
+              "html": "<button type=\"button\" class=\"select-trigger has-value\" id=\"select-trigger-2\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"select-dialog\" aria-label=\"Processor: Ryzen 7 9800X3D · 2024\">",
+              "target": [
+                "#select-trigger-2"
+              ]
+            },
+            {
+              "html": "<button type=\"button\" class=\"select-trigger has-value\" id=\"select-trigger-3\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"select-dialog\" aria-label=\"Game: Fortnite · 2017\">",
+              "target": [
+                "#select-trigger-3"
+              ]
+            },
+            {
+              "html": "<button type=\"button\" class=\"select-trigger has-value\" id=\"select-trigger-4\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"select-dialog\" aria-label=\"Resolution: 2560 × 1440\">",
+              "target": [
+                "#select-trigger-4"
+              ]
+            },
+            {
+              "html": "<button type=\"button\" class=\"select-trigger has-value\" id=\"select-trigger-5\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"select-dialog\" aria-label=\"Graphics quality: High\">",
+              "target": [
+                "#select-trigger-5"
+              ]
+            },
+            {
+              "html": "<button type=\"button\" class=\"select-trigger has-value\" id=\"select-trigger-6\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"select-dialog\" aria-label=\"Upscaling: Native resolution\">",
+              "target": [
+                "#select-trigger-6"
+              ]
+            }
+          ]
+        },
+        {
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "html": "<button id=\"game-show-all\" class=\"button secondary game-show-all\" type=\"button\">Show all 107 games</button>",
+              "target": [
+                "#game-show-all"
+              ]
+            }
+          ]
+        }
+      ],
+      "scope": "Real browser DOM, WCAG A/AA and best-practice rules; automated findings do not certify full conformance.",
+      "theme": "dark",
+      "url": "/performance/",
+      "violations": [],
+      "width": 1440
+    }
+  },
+  {
+    "overflow": false,
+    "report": {
+      "axeVersion": "4.14.0",
+      "checkedAt": "2026-10-17T01:42:34.648Z",
+      "height": 900,
+      "incomplete": [
+        {
+          "help": "ARIA attributes must conform to valid values",
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "nodes": [
+            {
+              "html": "<button type=\"button\" class=\"select-trigger has-value\" id=\"select-trigger-1\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"select-dialog\" aria-label=\"Hardware category: Graphics cards\">",
+              "target": [
+                "#select-trigger-1"
+              ]
+            },
+            {
+              "html": "<button type=\"button\" class=\"select-trigger has-value\" id=\"select-trigger-2\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"select-dialog\" aria-label=\"Release period: All generations\">",
+              "target": [
+                "#select-trigger-2"
+              ]
+            },
+            {
+              "html": "<button type=\"button\" class=\"select-trigger has-value\" id=\"select-trigger-3\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"select-dialog\" aria-label=\"Sort hardware: Newest first\">",
+              "target": [
+                "#select-trigger-3"
+              ]
+            }
+          ]
+        },
+        {
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "html": "<button class=\"button secondary load-more\" id=\"catalog-more\">Show more</button>",
+              "target": [
+                "#catalog-more"
+              ]
+            }
+          ]
+        }
+      ],
+      "scope": "Real browser DOM, WCAG A/AA and best-practice rules; automated findings do not certify full conformance.",
+      "theme": "dark",
+      "url": "/hardware/graphics-cards/",
+      "violations": [
+        {
+          "help": "Elements must have their visible text as part of their accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axeAPI",
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "nodes": [
+            {
+              "html": "<button class=\"catalog-add chosen\" data-library-add=\"rtx5070\" aria-label=\"Remove GeForce RTX 5070\">✓ Added</button>",
+              "target": [
+                "button[data-library-add=\"rtx5070\"]"
+              ]
+            },
+            {
+              "html": "<button class=\"catalog-add chosen\" data-library-add=\"rtx5060ti16\" aria-label=\"Remove GeForce RTX 5060 Ti 16 GB\">✓ Added</button>",
+              "target": [
+                "button[data-library-add=\"rtx5060ti16\"]"
+              ]
+            }
+          ],
+          "tags": [
+            "cat.semantics",
+            "wcag21a",
+            "wcag253",
+            "EN-301-549",
+            "EN-9.2.5.3",
+            "RGAAv4",
+            "RGAA-6.1.5"
+          ]
+        }
+      ],
+      "width": 1440
+    }
+  },
+  {
+    "overflow": false,
+    "report": {
+      "axeVersion": "4.14.0",
+      "checkedAt": "2026-10-17T01:42:35.083Z",
+      "height": 900,
+      "incomplete": [
+        {
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "html": "<a class=\"button secondary\" href=\"/upgrade/\">Record the current PC and compare upgrade paths</a>",
+              "target": [
+                ".button.secondary[href$=\"upgrade/\"]"
+              ]
+            },
+            {
+              "html": "<a class=\"button secondary\" href=\"/compare/\">Compare exact GPU specifications</a>",
+              "target": [
+                ".button.secondary[href$=\"compare/\"]"
+              ]
+            },
+            {
+              "html": "<a class=\"button secondary\" href=\"/performance/evidence/\">Inspect available game-performance evidence</a>",
+              "target": [
+                "a[href$=\"evidence/\"]"
+              ]
+            },
+            {
+              "html": "<a class=\"button secondary\" href=\"/blog/read-hardware-benchmarks-test-conditions/\">Check whether the benchmark answers your question</a>",
+              "target": [
+                ".button.secondary:nth-child(4)"
+              ]
+            },
+            {
+              "html": "<a class=\"button secondary\" href=\"/tools/platform-upgrade-cost/\">Compare the complete upgrade cost</a>",
+              "target": [
+                "a[href$=\"platform-upgrade-cost/\"]"
+              ]
+            }
+          ]
+        }
+      ],
+      "scope": "Real browser DOM, WCAG A/AA and best-practice rules; automated findings do not certify full conformance.",
+      "theme": "dark",
+      "url": "/blog/rtx-3060-upgrade-or-keep/",
+      "violations": [],
+      "width": 1440
+    }
+  }
+]

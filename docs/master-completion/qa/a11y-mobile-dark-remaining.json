@@ -1,0 +1,315 @@
+[
+  {
+    "checkedAt": "2026-10-17T02:06:32.934Z",
+    "url": "/compatibility/",
+    "width": 390,
+    "height": 844,
+    "theme": "dark",
+    "axeVersion": "4.14.0",
+    "scope": "Real browser DOM, WCAG A/AA and best-practice rules; automated findings do not certify full conformance.",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "nodes": [
+          {
+            "target": [
+              "a[href$=\"builder/\"] > span"
+            ],
+            "html": "<span>Build</span>"
+          },
+          {
+            "target": [
+              "a[href$=\"blog/\"] > span"
+            ],
+            "html": "<span>Learn</span>"
+          },
+          {
+            "target": [
+              "a[href$=\"my-pc/\"] > span"
+            ],
+            "html": "<span>My PC</span>"
+          },
+          {
+            "target": [
+              "a[href$=\"builder/#readiness-report\"]"
+            ],
+            "html": "<a class=\"button primary\" href=\"/builder/#readiness-report\">Check a complete build</a>"
+          },
+          {
+            "target": [
+              ".secondary"
+            ],
+            "html": "<a class=\"button secondary\" href=\"/tools/b650-tomahawk-lane-check/\">Check documented lane sharing</a>"
+          },
+          {
+            "target": [
+              "button[data-platform-load=\"\"]"
+            ],
+            "html": "<button type=\"button\" class=\"button primary\" data-platform-load=\"\">Choose CPU and motherboard</button>"
+          },
+          {
+            "target": [
+              "form[data-fit-form=\"\"] > .primary.button[type=\"submit\"]"
+            ],
+            "html": "<button type=\"submit\" class=\"button primary\">Compare entered dimensions</button>"
+          }
+        ]
+      }
+    ],
+    "layout": {
+      "client": 375,
+      "scroll": 375
+    }
+  },
+  {
+    "checkedAt": "2026-10-17T02:06:37.196Z",
+    "url": "/troubleshooting/",
+    "width": 390,
+    "height": 844,
+    "theme": "dark",
+    "axeVersion": "4.14.0",
+    "scope": "Real browser DOM, WCAG A/AA and best-practice rules; automated findings do not certify full conformance.",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "nodes": [
+          {
+            "target": [
+              "a[href$=\"builder/\"] > span"
+            ],
+            "html": "<span>Build</span>"
+          },
+          {
+            "target": [
+              "a[href$=\"blog/\"] > span"
+            ],
+            "html": "<span>Learn</span>"
+          },
+          {
+            "target": [
+              "a[href$=\"my-pc/\"] > span"
+            ],
+            "html": "<span>My PC</span>"
+          },
+          {
+            "target": [
+              "button[data-growth-reset=\"\"]"
+            ],
+            "html": "<button class=\"button secondary\" type=\"button\" data-growth-reset=\"\">Start again</button>"
+          },
+          {
+            "target": [
+              "button[data-growth-save=\"\"]"
+            ],
+            "html": "<button type=\"button\" class=\"button secondary\" data-growth-save=\"\">Save here</button>"
+          },
+          {
+            "target": [
+              "button[data-growth-restore=\"\"]"
+            ],
+            "html": "<button type=\"button\" class=\"button secondary\" data-growth-restore=\"\">Restore saved path</button>"
+          },
+          {
+            "target": [
+              "button[data-growth-forget=\"\"]"
+            ],
+            "html": "<button type=\"button\" class=\"button secondary\" data-growth-forget=\"\">Remove saved path</button>"
+          },
+          {
+            "target": [
+              "button[data-growth-export=\"\"]"
+            ],
+            "html": "<button type=\"button\" class=\"button secondary\" data-growth-export=\"\">Export text record</button>"
+          },
+          {
+            "target": [
+              "button[type=\"submit\"]"
+            ],
+            "html": "<button class=\"button primary\" type=\"submit\">Show safe checks</button>"
+          },
+          {
+            "target": [
+              ".primary.button[href$=\"upgrade/\"]"
+            ],
+            "html": "<a class=\"button primary\" href=\"/upgrade/\">Review reuse or upgrade options</a>"
+          },
+          {
+            "target": [
+              "a[href$=\"evidence/\"]"
+            ],
+            "html": "<a class=\"button secondary\" href=\"/performance/evidence/\">Understand performance evidence</a>"
+          }
+        ]
+      }
+    ],
+    "layout": {
+      "client": 375,
+      "scroll": 375
+    }
+  },
+  {
+    "checkedAt": "2026-10-17T02:06:41.054Z",
+    "url": "/search/",
+    "width": 390,
+    "height": 844,
+    "theme": "dark",
+    "axeVersion": "4.14.0",
+    "scope": "Real browser DOM, WCAG A/AA and best-practice rules; automated findings do not certify full conformance.",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "nodes": [
+          {
+            "target": [
+              "a[href$=\"builder/\"] > span"
+            ],
+            "html": "<span>Build</span>"
+          },
+          {
+            "target": [
+              "a[href$=\"blog/\"] > span"
+            ],
+            "html": "<span>Learn</span>"
+          },
+          {
+            "target": [
+              "a[href$=\"my-pc/\"] > span"
+            ],
+            "html": "<span>My PC</span>"
+          },
+          {
+            "target": [
+              ".button"
+            ],
+            "html": "<button class=\"button primary\" type=\"submit\">Search</button>"
+          },
+          {
+            "target": [
+              "button[data-search-type=\"all\"]"
+            ],
+            "html": "<button type=\"button\" data-search-type=\"all\" aria-pressed=\"true\">All</button>"
+          }
+        ]
+      }
+    ],
+    "layout": {
+      "client": 375,
+      "scroll": 375
+    }
+  },
+  {
+    "checkedAt": "2026-10-17T02:06:44.926Z",
+    "url": "/news/",
+    "width": 390,
+    "height": 844,
+    "theme": "dark",
+    "axeVersion": "4.14.0",
+    "scope": "Real browser DOM, WCAG A/AA and best-practice rules; automated findings do not certify full conformance.",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "nodes": [
+          {
+            "target": [
+              "a[href$=\"builder/\"] > span"
+            ],
+            "html": "<span>Build</span>"
+          },
+          {
+            "target": [
+              "a[href$=\"my-pc/\"] > span"
+            ],
+            "html": "<span>My PC</span>"
+          }
+        ]
+      }
+    ],
+    "layout": {
+      "client": 375,
+      "scroll": 375
+    }
+  },
+  {
+    "checkedAt": "2026-10-17T02:06:48.918Z",
+    "url": "/learn/retail-msi-meg-z590-ace-gold-edition.html",
+    "width": 390,
+    "height": 844,
+    "theme": "dark",
+    "axeVersion": "4.14.0",
+    "scope": "Real browser DOM, WCAG A/AA and best-practice rules; automated findings do not certify full conformance.",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "nodes": [
+          {
+            "target": [
+              "a[href$=\"builder/\"] > span"
+            ],
+            "html": "<span>Build</span>"
+          },
+          {
+            "target": [
+              "a[href$=\"blog/\"] > span"
+            ],
+            "html": "<span>Learn</span>"
+          },
+          {
+            "target": [
+              "a[href$=\"my-pc/\"] > span"
+            ],
+            "html": "<span>My PC</span>"
+          },
+          {
+            "target": [
+              ".primary"
+            ],
+            "html": "<a class=\"button primary magnetic\" href=\"/compare/?parts=retail-msi-meg-z590-ace-gold-edition\">"
+          },
+          {
+            "target": [
+              ".part-title > .secondary.button"
+            ],
+            "html": "<a class=\"button secondary\" href=\"/builder/?build=%2Cretail-msi-meg-z590-ace-gold-edition%2C%2C%2C%2C%2C%2C%2C%2C\">Use in PC builder</a>"
+          },
+          {
+            "target": [
+              ".part-model-open"
+            ],
+            "html": "<button type=\"button\" class=\"button secondary part-model-open\" data-model-id=\"retail-msi-meg-z590-ace-gold-edition\" data-model-category=\"board\" data-model-name=\"MEG Z590 ACE GOLD EDITION\" data-model=\"/assets/models/completion/msi-meg-z590-ace-gold.glb\">Open 3D view</button>"
+          },
+          {
+            "target": [
+              "button[data-save-type=\"product\"]"
+            ],
+            "html": "<button class=\"button secondary\" type=\"button\" data-save-id=\"product_retail-msi-meg-z590-ace-gold-edition\" aria-pressed=\"false\" data-save-type=\"product\">Save to watchlist</button>"
+          },
+          {
+            "target": [
+              ".secondary.button[href$=\"saved/\"]"
+            ],
+            "html": "<a class=\"button secondary\" href=\"/saved/\">Your saved list</a>"
+          }
+        ]
+      }
+    ],
+    "layout": {
+      "client": 375,
+      "scroll": 375
+    }
+  }
+]

@@ -1,0 +1,579 @@
+{
+  "schema": 1,
+  "method": "Public individually licensed CC BY sources or user-provided downloaded archive. No protected viewer/download extraction.",
+  "assets": {
+    "843413eefdc9437b816a874628cc310f": {
+      "uid": "843413eefdc9437b816a874628cc310f",
+      "id": "cooler-amd-wraith-stealth",
+      "category": "cooler",
+      "title": "AMD Wraith Stealth CPU Cooler",
+      "asset": "amd-wraith-stealth.glb",
+      "localArchive": "amd-wraith-stealth-cpu-cooler.zip",
+      "archiveEntry": "source/amdcooler.glb",
+      "expectedSourceTriangles": 48875,
+      "sourceUrl": "https://sketchfab.com/3d-models/843413eefdc9437b816a874628cc310f",
+      "creator": "PolyDavid",
+      "creatorUrl": "https://sketchfab.com/PolyDavid",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "metadataCheckedAt": "2026-10-17T00:48:39.819Z",
+      "distributionUrl": null,
+      "archiveSha256": "c01c30beb31ecad52b671649f05015cb37d8c0887e3d85c0034b9f6061084251",
+      "sourceSha256": "ef622ab1d88145c8f3b38c1a6f8862a0386a79f9f4f621da5933821a955ebf56",
+      "sourceBytes": 17314432,
+      "sourceTriangles": 48875,
+      "sourceBounds": {
+        "min": [
+          -7.865604400634766,
+          -5.076375317528425,
+          -9.285696029663086
+        ],
+        "max": [
+          19.36595953026451,
+          3.0475292205810547,
+          7.534576194082547
+        ]
+      },
+      "sourceExtras": {},
+      "acquiredAt": "2026-10-17T00:50:16.729Z",
+      "status": "prepared-awaiting-final-identity-review",
+      "output": "/assets/models/completion/amd-wraith-stealth.glb",
+      "outputBytes": 1410404,
+      "outputSha256": "40717cca54c6d6017b90616b7a08d4afff0c9836040c4c6c7f22390cb43e6289",
+      "outputTriangles": 48875,
+      "outputBounds": {
+        "min": [
+          -7.868331469699317,
+          -5.076375317528425,
+          -9.285696025319837
+        ],
+        "max": [
+          19.365462308695356,
+          3.047690716981389,
+          7.534499365511654
+        ]
+      },
+      "modifications": "Static transforms flattened; matching primitives joined; duplicate/unused resources removed; image textures resized to 1024 pixels maximum and encoded WebP; Meshopt compression. Source appearance and proportions retained. Not clearance-certified geometry.",
+      "preparedAt": "2026-10-17T01:01:57.423Z"
+    },
+    "4a5f8ce0a7ca40dd8a479dd556eb98b0": {
+      "uid": "4a5f8ce0a7ca40dd8a479dd556eb98b0",
+      "id": "retail-msi-geforce-gtx-1660-gaming-x-6g",
+      "category": "gpu",
+      "title": "GeForce GTX 1660 GAMING X 6G",
+      "asset": "msi-gtx-1660-gaming-x-6g.glb",
+      "sourceUrl": "https://sketchfab.com/3d-models/4a5f8ce0a7ca40dd8a479dd556eb98b0",
+      "creator": "descloizite",
+      "creatorUrl": "https://sketchfab.com/descloizite",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "metadataCheckedAt": "2026-10-17T00:48:40.603Z",
+      "distributionUrl": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-050/4a5f8ce0a7ca40dd8a479dd556eb98b0.glb",
+      "localArchive": null,
+      "archiveSha256": null,
+      "sourceSha256": "43b655ee9ee4aadaa466aa4dade2a542d313ed0b4ed815b686fb27eaa454228a",
+      "sourceBytes": 2403460,
+      "sourceTriangles": 30126,
+      "sourceBounds": {
+        "min": [
+          -0.5943999886512756,
+          -8.453016251450024e-17,
+          -0.3812499940395355
+        ],
+        "max": [
+          0.5943999886512756,
+          0.16033999621868136,
+          0.3812499940395355
+        ]
+      },
+      "sourceExtras": {
+        "author": "descloizite (https://sketchfab.com/descloizite)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/geforce-gtx-1660-gaming-x-6g-4a5f8ce0a7ca40dd8a479dd556eb98b0",
+        "title": "GeForce GTX 1660 GAMING X 6G"
+      },
+      "acquiredAt": "2026-10-17T00:50:17.766Z",
+      "status": "prepared-awaiting-final-identity-review",
+      "output": "/assets/models/completion/msi-gtx-1660-gaming-x-6g.glb",
+      "outputBytes": 712008,
+      "outputSha256": "2b645829fbfac3a5fdd38ef8d59a46328a86fd20f6aa13c27088173e9d0ec045",
+      "outputTriangles": 30126,
+      "outputBounds": {
+        "min": [
+          -0.5943999886512756,
+          -0.000009693343604094684,
+          -0.3812707590402695
+        ],
+        "max": [
+          0.5943999886512756,
+          0.16034968956228537,
+          0.3812707590402695
+        ]
+      },
+      "modifications": "Static transforms flattened; matching primitives joined; duplicate/unused resources removed; image textures resized to 1024 pixels maximum and encoded WebP; Meshopt compression. Source appearance and proportions retained. Not clearance-certified geometry.",
+      "preparedAt": "2026-10-17T01:01:57.647Z"
+    },
+    "7a0057a17f404cb296035c3adcd130f9": {
+      "uid": "7a0057a17f404cb296035c3adcd130f9",
+      "id": "retail-msi-meg-z590-ace-gold-edition",
+      "category": "board",
+      "title": "MSI MEG Z590 ACE GOLD EDITION",
+      "asset": "msi-meg-z590-ace-gold.glb",
+      "sourceUrl": "https://sketchfab.com/3d-models/7a0057a17f404cb296035c3adcd130f9",
+      "creator": "dormenevamarta",
+      "creatorUrl": "https://sketchfab.com/dormenevamarta",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "metadataCheckedAt": "2026-10-17T00:48:40.990Z",
+      "distributionUrl": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-114/7a0057a17f404cb296035c3adcd130f9.glb",
+      "localArchive": null,
+      "archiveSha256": null,
+      "sourceSha256": "2cc2192ba843772cd7905fa212daf19674b75d33fb2395b2cbc44851101356e1",
+      "sourceBytes": 4115436,
+      "sourceTriangles": 54743,
+      "sourceBounds": {
+        "min": [
+          -0.015413996232733207,
+          0.000016770842851635196,
+          -0.012182155466173104
+        ],
+        "max": [
+          0.015086004992887259,
+          0.0019052798989789514,
+          0.012217844868325646
+        ]
+      },
+      "sourceExtras": {
+        "author": "dormenevamarta (https://sketchfab.com/dormenevamarta)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/msi-meg-z590-ace-gold-edition-7a0057a17f404cb296035c3adcd130f9",
+        "title": "MSI MEG Z590 ACE GOLD EDITION"
+      },
+      "acquiredAt": "2026-10-17T00:50:18.854Z",
+      "status": "prepared-awaiting-final-identity-review",
+      "output": "/assets/models/completion/msi-meg-z590-ace-gold.glb",
+      "outputBytes": 539404,
+      "outputSha256": "22f3e395a7246184102ef25d8cc5b97b97e04f906529fa459f4bd11ee0c7a612",
+      "outputTriangles": 54743,
+      "outputBounds": {
+        "min": [
+          -0.015404560564406207,
+          0.00001677084408144736,
+          -0.012174606931806537
+        ],
+        "max": [
+          0.015076569324560259,
+          0.001905279898915609,
+          0.01221029633395908
+        ]
+      },
+      "modifications": "Static transforms flattened; matching primitives joined; duplicate/unused resources removed; image textures resized to 1024 pixels maximum and encoded WebP; Meshopt compression. Source appearance and proportions retained. Not clearance-certified geometry.",
+      "preparedAt": "2026-10-17T01:01:57.828Z"
+    },
+    "b998596cfc4945a0bc7b016005c39321": {
+      "uid": "b998596cfc4945a0bc7b016005c39321",
+      "id": "retail-asus-z170-p",
+      "category": "board",
+      "title": "Asus Z170-P Motherboard",
+      "asset": "asus-z170-p-scan.glb",
+      "sourceCaveat": "Creator describes a scan of a broken used board. It must remain identified as that scan, not a pristine manufacturer model.",
+      "sourceUrl": "https://sketchfab.com/3d-models/b998596cfc4945a0bc7b016005c39321",
+      "creator": "Lassi Kaukonen",
+      "creatorUrl": "https://sketchfab.com/thesidekick",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "metadataCheckedAt": "2026-10-17T00:48:41.148Z",
+      "distributionUrl": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-128/b998596cfc4945a0bc7b016005c39321.glb",
+      "localArchive": null,
+      "archiveSha256": null,
+      "sourceSha256": "eccaa29f03f07b453c6c2e803f0a35ef1142fad03bf009f96d463559a6bf7005",
+      "sourceBytes": 15908024,
+      "sourceTriangles": 312196,
+      "sourceBounds": {
+        "min": [
+          -4.172983169555664,
+          -0.004641999956220229,
+          -5.218084812164307
+        ],
+        "max": [
+          4.354063034057617,
+          1.5202410221099854,
+          6.169881820678711
+        ]
+      },
+      "sourceExtras": {
+        "author": "Lassi Kaukonen (https://sketchfab.com/thesidekick)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/asus-z170-p-motherboard-b998596cfc4945a0bc7b016005c39321",
+        "title": "Asus Z170-P Motherboard"
+      },
+      "acquiredAt": "2026-10-17T00:50:21.554Z",
+      "status": "prepared-awaiting-final-identity-review",
+      "output": "/assets/models/completion/asus-z170-p-scan.glb",
+      "outputBytes": 2665424,
+      "outputSha256": "32d323e4878fc9f2f31ef7dbbc462ecdb355945674bb4e75a86c4fc5dd33c4f8",
+      "outputTriangles": 312196,
+      "outputBounds": {
+        "min": [
+          -4.172779464858472,
+          -0.004711515030407676,
+          -5.218084812164307
+        ],
+        "max": [
+          4.353859329360425,
+          1.5203105371841725,
+          6.169881820678711
+        ]
+      },
+      "modifications": "Static transforms flattened; matching primitives joined; duplicate/unused resources removed; image textures resized to 1024 pixels maximum and encoded WebP; Meshopt compression. Source appearance and proportions retained. Not clearance-certified geometry.",
+      "preparedAt": "2026-10-17T01:01:58.405Z"
+    },
+    "ce8276877171468c808ad93aaf1d5111": {
+      "uid": "ce8276877171468c808ad93aaf1d5111",
+      "id": "retail-gigabyte-trx40-aorus-xtreme-rev-1-0",
+      "category": "board",
+      "title": "Gigabyte TRX40 AORUS XTREME",
+      "asset": "gigabyte-trx40-aorus-xtreme.glb",
+      "sourceUrl": "https://sketchfab.com/3d-models/ce8276877171468c808ad93aaf1d5111",
+      "creator": "Vivien Deroche",
+      "creatorUrl": "https://sketchfab.com/blue-odym",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "metadataCheckedAt": "2026-10-17T00:48:41.482Z",
+      "distributionUrl": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-071/ce8276877171468c808ad93aaf1d5111.glb",
+      "localArchive": null,
+      "archiveSha256": null,
+      "sourceSha256": "67d44d601e008260e2ee546b65a41b19a17bf8dbfdf59c66fa5cbf2aa3d35f6e",
+      "sourceBytes": 8891864,
+      "sourceTriangles": 88499,
+      "sourceBounds": {
+        "min": [
+          -1.5257097482681274,
+          -3.2660515308380127,
+          -0.2186002284288403
+        ],
+        "max": [
+          2.4673867225646973,
+          1.4398250579833984,
+          0.53976833820343
+        ]
+      },
+      "sourceExtras": {
+        "author": "Blue Lantern (https://sketchfab.com/genoris2)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/gigabyte-trx40-aorus-xtreme-ce8276877171468c808ad93aaf1d5111",
+        "title": "Gigabyte TRX40 AORUS XTREME"
+      },
+      "acquiredAt": "2026-10-17T00:50:23.247Z",
+      "status": "prepared-awaiting-final-identity-review",
+      "output": "/assets/models/completion/gigabyte-trx40-aorus-xtreme.glb",
+      "outputBytes": 1570596,
+      "outputSha256": "b407d4a62a8f80b39c1a7d1cae6a81d073ca6521647d8c1c69aeaee3b82b5f4e",
+      "outputTriangles": 88499,
+      "outputBounds": {
+        "min": [
+          -1.52585966150605,
+          -3.2660515308380127,
+          -0.21848802551889523
+        ],
+        "max": [
+          2.46753663580262,
+          1.4398250579833984,
+          0.5398212199742535
+        ]
+      },
+      "modifications": "Static transforms flattened; matching primitives joined; duplicate/unused resources removed; image textures resized to 1024 pixels maximum and encoded WebP; Meshopt compression. Source appearance and proportions retained. Not clearance-certified geometry.",
+      "preparedAt": "2026-10-17T01:01:58.736Z"
+    },
+    "41efdc6e62454ec0a870ee8451768d75": {
+      "uid": "41efdc6e62454ec0a870ee8451768d75",
+      "id": "retail-corsair-carbide-200r-black",
+      "category": "case",
+      "title": "Corsair 200R",
+      "asset": "corsair-200r.glb",
+      "sourceCaveat": "Creator describes a very basic exterior. Interior and omitted details are not verified.",
+      "sourceUrl": "https://sketchfab.com/3d-models/41efdc6e62454ec0a870ee8451768d75",
+      "creator": "Nick",
+      "creatorUrl": "https://sketchfab.com/jeromy",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "metadataCheckedAt": "2026-10-17T00:48:41.738Z",
+      "distributionUrl": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-041/41efdc6e62454ec0a870ee8451768d75.glb",
+      "localArchive": null,
+      "archiveSha256": null,
+      "sourceSha256": "0c0bba71bb132727b1161f7d4f19f0e35a6eb23c8732a5257dba50acf587bc43",
+      "sourceBytes": 628100,
+      "sourceTriangles": 2440,
+      "sourceBounds": {
+        "min": [
+          -3.569719429793544,
+          -3.283684285088726,
+          -1.5102660561393604
+        ],
+        "max": [
+          3.569719429793544,
+          3.283684285088726,
+          1.5102660561393604
+        ]
+      },
+      "sourceExtras": {
+        "author": "Nick (https://sketchfab.com/jeromy)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/corsair-200r-41efdc6e62454ec0a870ee8451768d75",
+        "title": "Corsair 200R"
+      },
+      "acquiredAt": "2026-10-17T00:50:23.696Z",
+      "status": "prepared-awaiting-final-identity-review",
+      "output": "/assets/models/completion/corsair-200r.glb",
+      "outputBytes": 98996,
+      "outputSha256": "c4f67e2554c5688a24606df71b658c87d5602b2406184e6e6acf2e1ede100f24",
+      "outputTriangles": 2440,
+      "outputBounds": {
+        "min": [
+          -3.569719429793544,
+          -3.2838543331736507,
+          -1.5100523612110819
+        ],
+        "max": [
+          3.569719429793544,
+          3.2838543331736507,
+          1.5100523612110819
+        ]
+      },
+      "modifications": "Static transforms flattened; matching primitives joined; duplicate/unused resources removed; image textures resized to 1024 pixels maximum and encoded WebP; Meshopt compression. Source appearance and proportions retained. Not clearance-certified geometry.",
+      "preparedAt": "2026-10-17T01:01:58.853Z"
+    },
+    "8673ad2eeffa4fe1b81479f9cb9d351e": {
+      "uid": "8673ad2eeffa4fe1b81479f9cb9d351e",
+      "id": "retail-cooler-master-masterbox-lite-5",
+      "category": "case",
+      "title": "Cooler Master Masterbox Lite 5",
+      "asset": "cooler-master-masterbox-lite-5.glb",
+      "sourceCaveat": "Untextured low-detail source; not a manufacturer-colored or clearance-certified model.",
+      "sourceUrl": "https://sketchfab.com/3d-models/8673ad2eeffa4fe1b81479f9cb9d351e",
+      "creator": "HerbeMalveillante",
+      "creatorUrl": "https://sketchfab.com/HerbeMalveillante",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "metadataCheckedAt": "2026-10-17T00:48:42.795Z",
+      "distributionUrl": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-133/8673ad2eeffa4fe1b81479f9cb9d351e.glb",
+      "localArchive": null,
+      "archiveSha256": null,
+      "sourceSha256": "d0158bb866c3cc62eae08cb1619cff034e17627a2551fc7912d9eacfd81f6e73",
+      "sourceBytes": 18816,
+      "sourceTriangles": 321,
+      "sourceBounds": {
+        "min": [
+          -3.469446951953614e-18,
+          1.984414428971941e-16,
+          -7.874015808105469
+        ],
+        "max": [
+          18.307090759277344,
+          17.71653938293457,
+          3.933861987922465e-15
+        ]
+      },
+      "sourceExtras": {
+        "author": "HerbeMalveillante (https://sketchfab.com/HerbeMalveillante)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/cooler-master-masterbox-lite-5-8673ad2eeffa4fe1b81479f9cb9d351e",
+        "title": "Cooler Master Masterbox Lite 5"
+      },
+      "acquiredAt": "2026-10-17T00:50:24.089Z",
+      "status": "prepared-awaiting-final-identity-review",
+      "output": "/assets/models/completion/cooler-master-masterbox-lite-5.glb",
+      "outputBytes": 6940,
+      "outputSha256": "eb7448785f46fbbfa0175e70c98588a6ae6d2508b058bc95da63b280d45cf47e",
+      "outputTriangles": 321,
+      "outputBounds": {
+        "min": [
+          0,
+          -0.0002793833250951394,
+          -7.873923551968253
+        ],
+        "max": [
+          18.307090759277344,
+          17.71690097077726,
+          -0.00009225613721230985
+        ]
+      },
+      "modifications": "Static transforms flattened; matching primitives joined; duplicate/unused resources removed; image textures resized to 1024 pixels maximum and encoded WebP; Meshopt compression. Source appearance and proportions retained. Not clearance-certified geometry.",
+      "preparedAt": "2026-10-17T01:01:58.858Z"
+    },
+    "0daaa686d226476bb1b96aa4fa7bd083": {
+      "uid": "0daaa686d226476bb1b96aa4fa7bd083",
+      "id": "intel4004",
+      "category": "cpu",
+      "title": "INTEL 4004",
+      "asset": "intel-4004.glb",
+      "sourceCaveat": "Historical processor appearance; not a modern desktop socket component.",
+      "sourceUrl": "https://sketchfab.com/3d-models/0daaa686d226476bb1b96aa4fa7bd083",
+      "creator": "museudocomputador",
+      "creatorUrl": "https://sketchfab.com/museudocomputador",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "metadataCheckedAt": "2026-10-17T00:48:43.235Z",
+      "distributionUrl": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-054/0daaa686d226476bb1b96aa4fa7bd083.glb",
+      "localArchive": null,
+      "archiveSha256": null,
+      "sourceSha256": "d95d56439dcfbf3bcd3c47f6feefae21411aea3d1a34a8296e9d80f96fc14a61",
+      "sourceBytes": 42384,
+      "sourceTriangles": 611,
+      "sourceBounds": {
+        "min": [
+          -0.056867306488738036,
+          0.01421603647881664,
+          -0.1621529209132584
+        ],
+        "max": [
+          0.05352239097977298,
+          0.11926240177611103,
+          0.15872264030450633
+        ]
+      },
+      "sourceExtras": {
+        "author": "museudocomputador (https://sketchfab.com/museudocomputador)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/intel-4004-0daaa686d226476bb1b96aa4fa7bd083",
+        "title": "INTEL 4004"
+      },
+      "acquiredAt": "2026-10-17T00:50:24.353Z",
+      "status": "prepared-awaiting-final-identity-review",
+      "output": "/assets/models/completion/intel-4004.glb",
+      "outputBytes": 12220,
+      "outputSha256": "8397ada30550d7d554a660ceb23f85a0486c4db6f8a88039e3a0a07e877228eb",
+      "outputTriangles": 611,
+      "outputBounds": {
+        "min": [
+          -0.05686130207568743,
+          0.014210224259462667,
+          -0.1621529209132584
+        ],
+        "max": [
+          0.053516386566722376,
+          0.119260529691161,
+          0.15872264030450633
+        ]
+      },
+      "modifications": "Static transforms flattened; matching primitives joined; duplicate/unused resources removed; image textures resized to 1024 pixels maximum and encoded WebP; Meshopt compression. Source appearance and proportions retained. Not clearance-certified geometry.",
+      "preparedAt": "2026-10-17T01:01:58.863Z"
+    },
+    "1940447b5a7b41f3a7ebdd73ce2f590d": {
+      "uid": "1940447b5a7b41f3a7ebdd73ce2f590d",
+      "id": "completion-cpu-intel-core-i5-661",
+      "category": "cpu",
+      "title": "Intel Processor Core i5-661",
+      "asset": "intel-core-i5-661.glb",
+      "sourceUrl": "https://sketchfab.com/3d-models/1940447b5a7b41f3a7ebdd73ce2f590d",
+      "creator": "Dr_Mint",
+      "creatorUrl": "https://sketchfab.com/Dr_Mint",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "metadataCheckedAt": "2026-10-17T00:48:44.313Z",
+      "distributionUrl": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-138/1940447b5a7b41f3a7ebdd73ce2f590d.glb",
+      "localArchive": null,
+      "archiveSha256": null,
+      "sourceSha256": "339c66098bb95235c1bb6510a35b1ae624d8d65f3f914cf7ee0a562a1233ceff",
+      "sourceBytes": 3629324,
+      "sourceTriangles": 76207,
+      "sourceBounds": {
+        "min": [
+          -0.10609875683142356,
+          -0.0027594964168511813,
+          -0.19569795113056898
+        ],
+        "max": [
+          0.2852971304991456,
+          0.031194958058406334,
+          0.19569795113056898
+        ]
+      },
+      "sourceExtras": {
+        "author": "Dr_Mint (https://sketchfab.com/Dr_Mint)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/intel-processor-core-i5-661-1940447b5a7b41f3a7ebdd73ce2f590d",
+        "title": "Intel Processor Core i5-661"
+      },
+      "acquiredAt": "2026-10-17T00:50:25.273Z",
+      "status": "prepared-awaiting-final-identity-review",
+      "output": "/assets/models/completion/intel-core-i5-661.glb",
+      "outputBytes": 554968,
+      "outputSha256": "f31ba78671833cdef7282661cf6b834c647c3c974210247914f339dc413d5bc4",
+      "outputTriangles": 76207,
+      "outputBounds": {
+        "min": [
+          -0.10609876429670795,
+          -0.0027600115881249022,
+          -0.19569795113056898
+        ],
+        "max": [
+          0.28529713796443,
+          0.03119495805840635,
+          0.19569795113056898
+        ]
+      },
+      "modifications": "Static transforms flattened; matching primitives joined; duplicate/unused resources removed; image textures resized to 1024 pixels maximum and encoded WebP; Meshopt compression. Source appearance and proportions retained. Not clearance-certified geometry.",
+      "preparedAt": "2026-10-17T01:01:58.987Z"
+    },
+    "f7e8fb69cce14f53a2d9159898fd89e5": {
+      "uid": "f7e8fb69cce14f53a2d9159898fd89e5",
+      "id": "titanrtx",
+      "category": "gpu",
+      "title": "RTX Titan",
+      "asset": "nvidia-titan-rtx.glb",
+      "sourceCaveat": "Creator-made NVIDIA TITAN RTX appearance. No manufacturing, mounting or connector clearance certification.",
+      "sourceUrl": "https://sketchfab.com/3d-models/f7e8fb69cce14f53a2d9159898fd89e5",
+      "creator": "Vivien Deroche",
+      "creatorUrl": "https://sketchfab.com/blue-odym",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "metadataCheckedAt": "2026-10-17T00:57:26.051Z",
+      "distributionUrl": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-029/f7e8fb69cce14f53a2d9159898fd89e5.glb",
+      "localArchive": null,
+      "archiveSha256": null,
+      "sourceSha256": "e0096330ca193a3e967f625b9a736cfe1b36c718dd629df6dce1a8caaad60d7f",
+      "sourceBytes": 6626872,
+      "sourceTriangles": 95023,
+      "sourceBounds": {
+        "min": [
+          -1.6266063638021087,
+          -0.8463821405331423,
+          -0.18349764416775516
+        ],
+        "max": [
+          1.6832424104213715,
+          0.7145501766353846,
+          0.3865903168916702
+        ]
+      },
+      "sourceExtras": {
+        "author": "Blue Lantern (https://sketchfab.com/genoris2)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/rtx-titan-f7e8fb69cce14f53a2d9159898fd89e5",
+        "title": "RTX Titan"
+      },
+      "acquiredAt": "2026-10-17T00:58:11.328Z",
+      "status": "prepared-awaiting-final-identity-review",
+      "attemptedAt": "2026-10-17T00:58:17.877Z",
+      "output": "/assets/models/completion/nvidia-titan-rtx.glb",
+      "outputBytes": 906204,
+      "outputSha256": "a08f8f20408840343f89275b95464c690aa3841fcdd15fa4424fc8881d6a01b6",
+      "outputTriangles": 95023,
+      "outputBounds": {
+        "min": [
+          -1.6266063749790192,
+          -0.8462992491516682,
+          -0.18346076926323523
+        ],
+        "max": [
+          1.6832424104213715,
+          0.714620203538539,
+          0.3865742723909406
+        ]
+      },
+      "modifications": "Fan rotation tracks removed; the two named fan nodes retain their authored default transforms. Static transforms flattened; matching primitives joined; duplicate/unused resources removed; image textures resized to 1024 pixels maximum and encoded WebP; Meshopt compression. Source appearance and proportions retained. Not clearance-certified geometry.",
+      "preparedAt": "2026-10-17T01:01:59.178Z"
+    }
+  }
+}

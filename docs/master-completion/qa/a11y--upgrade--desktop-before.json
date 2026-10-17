@@ -1,0 +1,221 @@
+{
+  "overflow": false,
+  "report": {
+    "axeVersion": "4.14.0",
+    "checkedAt": "2026-10-17T01:22:21.577Z",
+    "height": 900,
+    "incomplete": [
+      {
+        "help": "ARIA attributes must conform to valid values",
+        "id": "aria-valid-attr-value",
+        "impact": "critical",
+        "nodes": [
+          {
+            "html": "<button type=\"button\" class=\"select-trigger\" id=\"select-trigger-1\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"select-dialog\" aria-label=\"Processor: Not selected / unknown\">",
+            "target": [
+              "#select-trigger-1"
+            ]
+          },
+          {
+            "html": "<button type=\"button\" class=\"select-trigger\" id=\"select-trigger-2\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"select-dialog\" aria-label=\"Motherboard: Not selected / unknown\">",
+            "target": [
+              "#select-trigger-2"
+            ]
+          },
+          {
+            "html": "<button type=\"button\" class=\"select-trigger\" id=\"select-trigger-3\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"select-dialog\" aria-label=\"Graphics card: Not selected / unknown\">",
+            "target": [
+              "#select-trigger-3"
+            ]
+          },
+          {
+            "html": "<button type=\"button\" class=\"select-trigger\" id=\"select-trigger-4\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"select-dialog\" aria-label=\"Memory kit: Not selected / unknown\">",
+            "target": [
+              "#select-trigger-4"
+            ]
+          },
+          {
+            "html": "<button type=\"button\" class=\"select-trigger\" id=\"select-trigger-5\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"select-dialog\" aria-label=\"SSD: Not selected / unknown\">",
+            "target": [
+              "#select-trigger-5"
+            ]
+          },
+          {
+            "html": "<button type=\"button\" class=\"select-trigger\" id=\"select-trigger-6\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"select-dialog\" aria-label=\"Hard drive: Not selected / unknown\">",
+            "target": [
+              "#select-trigger-6"
+            ]
+          },
+          {
+            "html": "<button type=\"button\" class=\"select-trigger\" id=\"select-trigger-7\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"select-dialog\" aria-label=\"Power supply: Not selected / unknown\">",
+            "target": [
+              "#select-trigger-7"
+            ]
+          },
+          {
+            "html": "<button type=\"button\" class=\"select-trigger\" id=\"select-trigger-8\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"select-dialog\" aria-label=\"Case: Not selected / unknown\">",
+            "target": [
+              "#select-trigger-8"
+            ]
+          },
+          {
+            "html": "<button type=\"button\" class=\"select-trigger\" id=\"select-trigger-9\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"select-dialog\" aria-label=\"case fan: Not selected / unknown\">",
+            "target": [
+              "#select-trigger-9"
+            ]
+          },
+          {
+            "html": "<button type=\"button\" class=\"select-trigger\" id=\"select-trigger-10\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"select-dialog\" aria-label=\"CPU cooler: Not selected / unknown\">",
+            "target": [
+              "#select-trigger-10"
+            ]
+          },
+          {
+            "html": "<button type=\"button\" class=\"select-trigger has-value\" id=\"select-trigger-11\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"select-dialog\" aria-label=\"Country and currency: Canada · CAD\">",
+            "target": [
+              "#select-trigger-11"
+            ]
+          },
+          {
+            "html": "<button type=\"button\" class=\"select-trigger has-value\" id=\"select-trigger-12\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"select-dialog\" aria-label=\"Main goal: Diagnose before spending\">",
+            "target": [
+              "#select-trigger-12"
+            ]
+          },
+          {
+            "html": "<button type=\"button\" class=\"select-trigger has-value\" id=\"select-trigger-13\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"select-dialog\" aria-label=\"Observed symptom: No observed problem\">",
+            "target": [
+              "#select-trigger-13"
+            ]
+          },
+          {
+            "html": "<button type=\"button\" class=\"select-trigger has-value\" id=\"select-trigger-14\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"select-dialog\" aria-label=\"Component to change: Processor\">",
+            "target": [
+              "#select-trigger-14"
+            ]
+          },
+          {
+            "html": "<button type=\"button\" class=\"select-trigger has-value\" id=\"select-trigger-15\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"select-dialog\" aria-label=\"Selected item: No existing item selected\">",
+            "target": [
+              "#select-trigger-15"
+            ]
+          },
+          {
+            "html": "<button type=\"button\" class=\"select-trigger has-value\" id=\"select-trigger-16\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"select-dialog\" aria-label=\"Action: Replace selected item\">",
+            "target": [
+              "#select-trigger-16"
+            ]
+          },
+          {
+            "html": "<button type=\"button\" class=\"select-trigger\" id=\"select-trigger-17\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"select-dialog\" aria-label=\"Replacement model: Choose an exact model\">",
+            "target": [
+              "#select-trigger-17"
+            ]
+          }
+        ]
+      },
+      {
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": [
+          {
+            "html": "<button type=\"submit\" class=\"button secondary\">Review pasted parts</button>",
+            "target": [
+              "form[data-upgrade-parse=\"\"] > .secondary.button[type=\"submit\"]"
+            ]
+          },
+          {
+            "html": "<label class=\"button secondary program-import\">Import an upgrade plan<input type=\"file\" accept=\"application/json,.json\" data-upgrade-import=\"\"></label>",
+            "target": [
+              ".program-import"
+            ]
+          },
+          {
+            "html": "<input type=\"file\" accept=\"application/json,.json\" data-upgrade-import=\"\">",
+            "target": [
+              "input[type=\"file\"]"
+            ]
+          },
+          {
+            "html": "<button type=\"submit\" class=\"button primary\">Create reuse plan</button>",
+            "target": [
+              ".primary.button[type=\"submit\"]"
+            ]
+          },
+          {
+            "html": "<button type=\"submit\" class=\"button secondary\">Recheck this change</button>",
+            "target": [
+              "form[data-upgrade-change=\"\"] > .secondary.button[type=\"submit\"]"
+            ]
+          },
+          {
+            "html": "<button type=\"button\" class=\"button secondary\" data-upgrade-phase=\"\">Add as the next phase</button>",
+            "target": [
+              "button[data-upgrade-phase=\"\"]"
+            ]
+          },
+          {
+            "html": "<a class=\"button primary\" href=\"/tools/budget-build-lab/\">Compare two complete quotes</a>",
+            "target": [
+              ".program-actions:nth-child(3) > .primary.button[href$=\"budget-build-lab/\"]"
+            ]
+          },
+          {
+            "html": "<a class=\"button secondary\" href=\"/tools/platform-upgrade-cost/\">Open the platform cost tool</a>",
+            "target": [
+              "a[href$=\"platform-upgrade-cost/\"]"
+            ]
+          },
+          {
+            "html": "<button class=\"button primary\" type=\"button\" data-upgrade-builder=\"\">Open this plan in builder</button>",
+            "target": [
+              "button[data-upgrade-builder=\"\"]"
+            ]
+          },
+          {
+            "html": "<button class=\"button secondary\" type=\"button\" data-upgrade-export=\"\">Export reuse plan</button>",
+            "target": [
+              "button[data-upgrade-export=\"\"]"
+            ]
+          }
+        ]
+      }
+    ],
+    "scope": "Real browser DOM, WCAG A/AA and best-practice rules; automated findings do not certify full conformance.",
+    "theme": "dark",
+    "url": "/upgrade/",
+    "violations": [
+      {
+        "help": "Elements must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axeAPI",
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": [
+          {
+            "html": "<a class=\"brand\" href=\"/\" aria-label=\"PC Part Performance home\">",
+            "target": [
+              ".brand"
+            ]
+          },
+          {
+            "html": "<button type=\"button\" data-region=\"CA\" aria-pressed=\"true\" aria-label=\"Shop in Canada, Canadian dollars\"><img src=\"/assets/flag-ca.svg\" alt=\"\" width=\"21\" height=\"14\"><span>CA</span></button>",
+            "target": [
+              "button[data-region=\"CA\"][type=\"button\"]"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.semantics",
+          "wcag21a",
+          "wcag253",
+          "EN-301-549",
+          "EN-9.2.5.3",
+          "RGAAv4",
+          "RGAA-6.1.5"
+        ]
+      }
+    ],
+    "width": 1440
+  }
+}

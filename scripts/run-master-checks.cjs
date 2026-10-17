@@ -6,6 +6,13 @@ tasks.push('node scripts/test-clarity-site.cjs','node scripts/test-phone-clarity
 const results=[];
 tasks.push('node scripts/public-price-snapshot.test.mjs','node scripts/public-price-assets.test.mjs');
 tasks.push('node scripts/oct16-cooling-data.test.cjs','node scripts/oct16-engine.test.cjs','node scripts/oct16-workspace.test.cjs','node scripts/oct16-editorial.test.cjs','node scripts/oct16-upgrade.test.cjs','node scripts/oct16-scene.test.cjs','node scripts/test-growth-search-client.cjs','node scripts/oct16-delivery.test.cjs');
+tasks.push('node scripts/completion-editorial.test.cjs','node scripts/completion-models.test.cjs','node scripts/completion-retention.test.cjs','node scripts/completion-parts-import.test.cjs','node scripts/completion-price-history.test.mjs','node scripts/completion-price-client.test.mjs','node scripts/completion-security.test.mjs','node scripts/completion-seo.test.cjs','node scripts/completion-integration.test.cjs');
+tasks.push('node scripts/completion-models-viewer.test.cjs','node scripts/completion-catalog-delivery.test.cjs');
+tasks.push('node scripts/completion-editorial-extra.test.cjs');
+tasks.push('node scripts/completion-model-images.test.cjs','node scripts/completion-price-expansion.test.mjs');
+tasks.push('node scripts/public-price-expansion-integration.test.mjs');
+tasks.push('node scripts/completion-measurement.test.cjs');
 for(const task of tasks){const args=task.split(' ');if(args.shift()!=='node')throw Error('Unexpected test command');const r=cp.spawnSync(process.execPath,args,{encoding:'utf8',maxBuffer:12*1024*1024});results.push({command:task,exitCode:r.status,passed:r.status===0});console.log((r.status===0?'PASS ':'FAIL ')+task);if(r.status!==0)console.log(((r.stdout||'')+(r.stderr||'')).slice(-3500));}
 fs.mkdirSync('docs/master/qa',{recursive:true});fs.writeFileSync(path.join('docs/master/qa','test-commands.json'),JSON.stringify({checkedAt:new Date().toISOString(),commands:results.length,passed:results.filter(x=>x.passed).length,results},null,2));
+fs.mkdirSync('docs/master-completion/qa',{recursive:true});fs.writeFileSync('docs/master-completion/qa/test-commands.json',JSON.stringify({checkedAt:new Date().toISOString(),commands:results.length,passed:results.filter(x=>x.passed).length,results},null,2)+'\n');
 if(results.some(r=>!r.passed))process.exitCode=1;

@@ -1,0 +1,82 @@
+{
+  "overflow": false,
+  "report": {
+    "axeVersion": "4.14.0",
+    "checkedAt": "2026-10-17T01:22:35.511Z",
+    "height": 900,
+    "incomplete": [
+      {
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": [
+          {
+            "html": "<a class=\"button primary magnetic\" href=\"/compare/?parts=titanrtx\">Compare this part <span aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" class=\"link-icon\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"></path></svg></span></a>",
+            "target": [
+              ".primary"
+            ]
+          },
+          {
+            "html": "<a class=\"button secondary\" href=\"/builder/?build=%2C%2Ctitanrtx%2C%2C%2C%2C%2C%2C%2C\">Use in PC builder</a>",
+            "target": [
+              ".part-title > .secondary.button"
+            ]
+          },
+          {
+            "html": "<button type=\"button\" class=\"button secondary part-model-open\" data-model-id=\"titanrtx\" data-model-category=\"gpu\" data-model-name=\"TITAN RTX\" data-model=\"/assets/models/completion/nvidia-titan-rtx.glb\">Open 3D view</button>",
+            "target": [
+              ".part-model-open"
+            ]
+          },
+          {
+            "html": "<button class=\"button secondary\" type=\"button\" data-save-id=\"product_titanrtx\" aria-pressed=\"false\" data-save-type=\"product\">Save to watchlist</button>",
+            "target": [
+              "button[data-save-id=\"product_titanrtx\"]"
+            ]
+          },
+          {
+            "html": "<a class=\"button secondary\" href=\"/saved/\">Your saved list</a>",
+            "target": [
+              ".secondary.button[href$=\"saved/\"]"
+            ]
+          }
+        ]
+      }
+    ],
+    "scope": "Real browser DOM, WCAG A/AA and best-practice rules; automated findings do not certify full conformance.",
+    "theme": "dark",
+    "url": "/learn/titanrtx.html",
+    "violations": [
+      {
+        "help": "Elements must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axeAPI",
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": [
+          {
+            "html": "<a class=\"brand\" href=\"/\" aria-label=\"PC Part Performance home\">",
+            "target": [
+              ".brand"
+            ]
+          },
+          {
+            "html": "<button type=\"button\" data-region=\"CA\" aria-pressed=\"true\" aria-label=\"Shop in Canada, Canadian dollars\"><img src=\"/assets/flag-ca.svg\" alt=\"\" width=\"21\" height=\"14\"><span>CA</span></button>",
+            "target": [
+              "button[data-region=\"CA\"][type=\"button\"]"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.semantics",
+          "wcag21a",
+          "wcag253",
+          "EN-301-549",
+          "EN-9.2.5.3",
+          "RGAAv4",
+          "RGAA-6.1.5"
+        ]
+      }
+    ],
+    "width": 1440
+  }
+}

@@ -1,0 +1,241 @@
+{
+  "terra": {
+    "publisher": "Fractal Design",
+    "title": "Terra Graphite specifications",
+    "url": "https://www.fractal-design.com/products/cases/terra-series/terra/terra-graphite/",
+    "scope": "Exact Terra Graphite FD-C-TER1N-01: Mini-ITX, SFX/SFX-L and 130 mm PSU length limit; component limits require the layout support article.",
+    "limitations": "The product-page maximums are not a simultaneous clearance approval. No acoustic result is inferred.",
+    "inspected": "2026-10-16",
+    "access": "Public primary-source full text inspected",
+    "rights": "Source-linked original explanation; no copied photographs, test charts or benchmark datasets."
+  },
+  "terraSpine": {
+    "publisher": "Fractal Design",
+    "title": "Terra CPU cooler/GPU support",
+    "url": "https://support.fractal-design.com/support/solutions/articles/4000194849-terra-cpu-cooler-gpu-support",
+    "scope": "Seven linked spine positions; cooler height trades against GPU thickness and the GPU height band. The 322 mm GPU length limit becomes 200 mm with the documented 120 mm radiator configuration.",
+    "limitations": "Only the named Terra layout. The hypothetical 70 mm cooler and 130 mm high, 56 mm thick GPU example is original constraint arithmetic, not an actual tested build.",
+    "inspected": "2026-10-16",
+    "access": "Public primary-source full text inspected",
+    "rights": "Source-linked original explanation; no copied photographs, test charts or benchmark datasets.",
+    "version": "Support article modified July 6, 2023; current full text inspected"
+  },
+  "terraSupport": {
+    "publisher": "Fractal Design",
+    "title": "Terra installation and compatibility support",
+    "url": "https://support.fractal-design.com/support/solutions/articles/4000194859-terra",
+    "scope": "Installation/manual entry points, PSU dimensions and the supplied PCIe 4.0 riser configuration note.",
+    "limitations": "This does not document a different riser, universal BIOS menu path or complete wiring/clearance of an unspecified build.",
+    "inspected": "2026-10-16",
+    "access": "Public primary-source full text inspected",
+    "rights": "Source-linked original explanation; no copied photographs, test charts or benchmark datasets.",
+    "version": "Support article modified February 11, 2025"
+  },
+  "fanSettings": {
+    "publisher": "Noctua",
+    "title": "How do I optimise my fan settings?",
+    "url": "https://www.noctua.at/en/support/faqs/how-do-i-optimise-my-fan-settings",
+    "scope": "PWM curves depend on the workload and CPU; abrupt curve changes can cause audible speed changes.",
+    "limitations": "Manufacturer examples are not a universal safe curve. No fixed temperature, duty cycle or dBA recommendation is imported.",
+    "inspected": "2026-10-16",
+    "access": "Public primary-source full text inspected",
+    "rights": "Source-linked original explanation; no copied photographs, test charts or benchmark datasets."
+  },
+  "north": {
+    "publisher": "Fractal Design",
+    "title": "Original North product sheet",
+    "url": "https://www.fractal-design.com/app/uploads/2022/12/North_Product-Sheet_EN.pdf",
+    "scope": "Original North: TG cooler limit 170 mm; Mesh 170 mm without side fan bracket or 145 mm with it; top radiator support up to 240 mm.",
+    "limitations": "Not North XL or North XL RC. Height, top radiator label and front configurations do not individually prove a complete fit.",
+    "inspected": "2026-10-16",
+    "access": "Official seven-page PDF text inspected; relevant specification table inspected",
+    "rights": "Source-linked original explanation; no copied photographs, test charts or benchmark datasets.",
+    "version": "Original North December 2022 product sheet"
+  },
+  "northRad": {
+    "publisher": "Fractal Design",
+    "title": "North radiator compatibility",
+    "url": "https://fractaldesign.freshdesk.com/support/solutions/articles/4000189453-north-radiator-compatibility",
+    "scope": "Original North top radiator width limit 122 mm and conditional motherboard component height limit 35 mm; RAM height must be checked.",
+    "limitations": "Not a blanket approval for every radiator/fan stack or board. The note does not certify the named AIO in an unspecified complete configuration.",
+    "inspected": "2026-10-16",
+    "access": "Public primary-source full text inspected",
+    "rights": "Source-linked original explanation; no copied photographs, test charts or benchmark datasets."
+  },
+  "cpu7800": {
+    "publisher": "AMD",
+    "title": "Ryzen 7 7800X3D specifications",
+    "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7800x3d.html",
+    "scope": "AM5 processor, boxed identifier 100-100000910WOF, no included thermal solution and AMD recommendation for a liquid cooler for optimal performance.",
+    "limitations": "A recommendation is not a matched air-versus-AIO benchmark or proof that every liquid cooler fits or performs adequately.",
+    "inspected": "2026-10-16",
+    "access": "Public primary-source full text inspected",
+    "rights": "Source-linked original explanation; no copied photographs, test charts or benchmark datasets."
+  },
+  "u12a": {
+    "publisher": "Noctua",
+    "title": "NH-U12A specifications",
+    "url": "https://www.noctua.at/en/products/nh-u12a/specifications",
+    "scope": "Named NH-U12A: AM5 mounting support and 158 mm total height including its fans.",
+    "limitations": "Not NH-U12A alternatives or every motherboard/RAM layout. Fan specification noise is not whole-PC acoustic performance.",
+    "inspected": "2026-10-16",
+    "access": "Public primary-source full text inspected",
+    "rights": "Source-linked original explanation; no copied photographs, test charts or benchmark datasets."
+  },
+  "u12aCPU": {
+    "publisher": "Noctua",
+    "title": "Ryzen 7 7800X3D cooler compatibility",
+    "url": "https://www.noctua.at/en/compatibility/by-components/cpus/amd-ryzen-7-7800x3d",
+    "scope": "Noctua lists NH-U12A as a compatible cooler for this exact CPU, with its own suitability categorization.",
+    "limitations": "No manufacturer category is converted into a measured temperature, noise result or overclocking guarantee; board, RAM and case need separate checks.",
+    "inspected": "2026-10-16",
+    "access": "Public primary-source full text inspected",
+    "rights": "Source-linked original explanation; no copied photographs, test charts or benchmark datasets."
+  },
+  "lf3": {
+    "publisher": "ARCTIC",
+    "title": "Liquid Freezer III 240 ACFRE00134A specifications",
+    "url": "https://www.arctic.de/en/Liquid-Freezer-III-240/ACFRE00134A",
+    "scope": "Original black non-RGB Liquid Freezer III 240: AM5 support and bare radiator dimensions 277 × 120 × 38 mm.",
+    "limitations": "Not Pro, RGB or other sizes. Bare radiator thickness is not the installed fan/fastener/tube assembly. Promotional cooling claims are not adopted.",
+    "inspected": "2026-10-16",
+    "access": "Public primary-source full text inspected",
+    "rights": "Source-linked original explanation; no copied photographs, test charts or benchmark datasets."
+  },
+  "lf3Mount": {
+    "publisher": "ARCTIC",
+    "title": "Liquid Freezer III 240 installation",
+    "url": "https://support.arctic.de/liquid-freezer-III-240/",
+    "scope": "Exact-series mounting and connection instructions, including the supported AMD installation route.",
+    "limitations": "Read the applicable supplied revision and motherboard manual. This guide is not a substitute for assembly instructions.",
+    "inspected": "2026-10-16",
+    "access": "Public primary-source full text inspected",
+    "rights": "Source-linked original explanation; no copied photographs, test charts or benchmark datasets."
+  },
+  "lf3Board": {
+    "publisher": "ARCTIC",
+    "title": "Liquid Freezer III motherboard compatibility",
+    "url": "https://support.arctic.de/lf3-compatibility",
+    "scope": "Exact-board compatibility resource for cooler block/nearby-component checks.",
+    "limitations": "No unspecified motherboard is approved. The current list does not prove a complete case/radiator/RAM layout.",
+    "inspected": "2026-10-16",
+    "access": "Public primary-source full text inspected",
+    "rights": "Source-linked original explanation; no copied photographs, test charts or benchmark datasets."
+  },
+  "warrantyCorsair": {
+    "publisher": "CORSAIR",
+    "title": "Corsair Limited Warranty",
+    "url": "https://help.corsair.com/hc/en-us/articles/360033067832-Warranty-Corsair-Limited-Warranty",
+    "scope": "Original-purchaser and nontransferable terms with applicable-law exceptions, product/region conditions, and receipt/serial requirements.",
+    "limitations": "Not legal advice or another manufacturer’s policy. A used seller’s receipt alone does not establish eligibility.",
+    "inspected": "2026-10-16",
+    "access": "Public primary-source full text inspected",
+    "rights": "Source-linked original explanation; no copied photographs, test charts or benchmark datasets.",
+    "version": "Updated August 11, 2026, v1.107"
+  },
+  "warrantyMSI": {
+    "publisher": "MSI",
+    "title": "How to check the status of my warranty",
+    "url": "https://www.msi.com/support/technical_details/product-warranty-related",
+    "scope": "Serial-number status lookup, region-dependent terms and local support contact route.",
+    "limitations": "A status result is not a transfer approval. Do not assume country-independent coverage or collect a visitor’s full serial in public tools.",
+    "inspected": "2026-10-16",
+    "access": "Public primary-source full text inspected",
+    "rights": "Source-linked original explanation; no copied photographs, test charts or benchmark datasets.",
+    "version": "May 5, 2025 support procedure"
+  },
+  "warrantyNvidia": {
+    "publisher": "NVIDIA",
+    "title": "Product warranties",
+    "url": "https://www.nvidia.com/en-us/support/warranty/",
+    "scope": "Partner GeForce boards are warranted by the add-in-board partner; Founders Edition coverage is handled by NVIDIA.",
+    "limitations": "The GPU chip name does not establish the board partner’s actual terms, buyer eligibility or remaining coverage.",
+    "inspected": "2026-10-16",
+    "access": "Public primary-source full text inspected",
+    "rights": "Source-linked original explanation; no copied photographs, test charts or benchmark datasets."
+  },
+  "gpuIdentity": {
+    "publisher": "NVIDIA",
+    "title": "Identifying the graphics card model and device ID in a PC",
+    "url": "https://nvidia.custhelp.com/app/answers/detail/a_id/2040",
+    "scope": "NVIDIA Control Panel System Information exposes installed GPU, driver, video memory and related identifiers when its driver is functioning.",
+    "limitations": "Software identification does not establish physical condition, exact retail cooler variant, lawful seller ownership or remaining service life.",
+    "inspected": "2026-10-16",
+    "access": "Public primary-source full text inspected",
+    "rights": "Source-linked original explanation; no copied photographs, test charts or benchmark datasets.",
+    "version": "Support article updated September 29, 2021; current page inspected"
+  },
+  "magician": {
+    "publisher": "Samsung",
+    "title": "Magician software and supported-drive information",
+    "url": "https://semiconductor.samsung.com/consumer-storage/magician/",
+    "scope": "Manufacturer drive information, S.M.A.R.T. and diagnostic features with model/function support limits.",
+    "limitations": "Diagnostics are a present observation, not a guarantee of future life. No erasure, firmware update, destructive write test or unsupported-drive authentication is prescribed.",
+    "inspected": "2026-10-16",
+    "access": "Public primary-source full text inspected",
+    "rights": "Source-linked original explanation; no copied photographs, test charts or benchmark datasets.",
+    "version": "Current public Magician 9.0 page"
+  },
+  "psuCables": {
+    "publisher": "CORSAIR",
+    "title": "PSU cable compatibility",
+    "url": "https://www.corsair.com/us/en/s/psu-cable-compatibility",
+    "scope": "Explicit warning that Type 3/4 modular cables are not compatible with Type 5 power supplies and wrong cables can damage hardware.",
+    "limitations": "CORSAIR type labels do not describe cross-brand compatibility or approve a cable with unknown identity.",
+    "inspected": "2026-10-16",
+    "access": "Public primary-source full text inspected",
+    "rights": "Source-linked original explanation; no copied photographs, test charts or benchmark datasets."
+  },
+  "gpu3060": {
+    "publisher": "NVIDIA",
+    "title": "GeForce RTX 3060 family specifications",
+    "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3060-3060ti/",
+    "scope": "Desktop RTX 3060 has separate 12 GB/192-bit and 8 GB/128-bit configurations; RTX 3060 Ti is a separate product. Family specifications differ from board-partner dimensions and connectors.",
+    "limitations": "No original FPS is imported. The 550 W reference system recommendation is scoped to NVIDIA’s i9-10900K configuration, not approval of an owned PSU.",
+    "inspected": "2026-10-16",
+    "access": "Public primary-source full text inspected",
+    "rights": "Source-linked original explanation; no copied photographs, test charts or benchmark datasets."
+  },
+  "gpu5060ti": {
+    "publisher": "NVIDIA",
+    "title": "GeForce RTX 5060 family specifications and chart conditions",
+    "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5060-family/",
+    "scope": "RTX 5060 Ti has separate 16 GB/8 GB GDDR7 options. The manufacturer comparison charts disclose different frame-generation modes across generations and the 3060 comparison uses a 12 GB card.",
+    "limitations": "The manufacturer chart is not a native-rendering upgrade percentage or input-latency result. Dimensions and shipping specifications vary by partner; no price is taken from placeholders.",
+    "inspected": "2026-10-16",
+    "access": "Public primary-source full text inspected",
+    "rights": "Source-linked original explanation; no copied photographs, test charts or benchmark datasets."
+  },
+  "gpu9060xt": {
+    "publisher": "AMD",
+    "title": "Radeon RX 9060 XT 16 GB specifications",
+    "url": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9060xt.html",
+    "scope": "Exact 16 GB RX 9060 XT base product and AV1 encode support for a candidate feature check.",
+    "limitations": "Not an 8 GB model or exact partner-board fit. No current sale price, general FPS advantage or application support is inferred.",
+    "inspected": "2026-10-16",
+    "access": "Public primary-source full text inspected",
+    "rights": "Source-linked original explanation; no copied photographs, test charts or benchmark datasets."
+  },
+  "review5060ti": {
+    "publisher": "TechSpot / Hardware Unboxed",
+    "title": "GeForce RTX 5060 Ti 16 GB review",
+    "url": "https://www.techspot.com/review/2979-nvidia-geforce-rtx-5060-ti-16gb/",
+    "scope": "Original publisher’s review and test-system record; its April 2025 system uses a 9800X3D and the enumerated comparison set does not include an RTX 3060.",
+    "limitations": "Linked as a candidate review, not a direct 3060 upgrade measurement. No charts, FPS table or dataset is redistributed.",
+    "inspected": "2026-10-16",
+    "access": "Public primary-source full text inspected",
+    "rights": "Source-linked original explanation; no copied photographs, test charts or benchmark datasets.",
+    "version": "Steven Walton, April 16, 2025; current full article inspected"
+  },
+  "reviewPCIe": {
+    "publisher": "TechSpot / Hardware Unboxed",
+    "title": "RTX 5060 Ti 8 GB and 16 GB across PCIe generations",
+    "url": "https://www.techspot.com/review/3004-nvidia-rtx-5060-ti-pcie-benchmark/",
+    "scope": "Original targeted testing of the two capacities under differing PCIe configurations; useful evidence for checking an older platform.",
+    "limitations": "Those configurations and games are not the visitor’s setup. No measured uplift, benchmark rows or claimed statistical range is imported.",
+    "inspected": "2026-10-16",
+    "access": "Public primary-source full text inspected",
+    "rights": "Source-linked original explanation; no copied photographs, test charts or benchmark datasets.",
+    "version": "Steven Walton, June 28, 2025; full article inspected"
+  }
+}

@@ -25,10 +25,15 @@ function policy(input,manifest,{local=false,staging=false}={}){
  if(changed||preferred){let query=url.search;if(destination.startsWith('/compare/')&&destination!=='/compare/'&&url.searchParams.has('parts')){const q=new URLSearchParams(url.search);q.delete('parts');query=q.size?'?'+q.toString():''}return{status:301,headers:{...headers,Location:(local?url.origin:DOMAIN)+destination+query}}}
  return{status:recognized&&destination!=='/404.html'?200:404,headers,route:destination};
 }
-function buildManifest({root,records}){
+function buildManifest({root,records,extraRedirects={}}){
  const routes={},redirects={},assets=[];
  function walk(dir){for(const e of fs.readdirSync(dir,{withFileTypes:true})){const file=path.join(dir,e.name);if(e.isDirectory())walk(file);else if(e.name.endsWith('.html')){const rel='/'+path.relative(root,file).replaceAll('\\','/'),route=rel.replace(/index\.html$/,''),h=fs.readFileSync(file,'utf8');if(h.includes('data-legacy-redirect')){const target=h.match(/<link rel="canonical" href="https:\/\/www\.pcpartperformance\.com([^\"]+)/)?.[1];if(target)redirects[route]=target;continue}routes[route]={noindex:/<meta name="robots" content="noindex/.test(h),draft:h.includes('data-program-draft'),canonical:h.match(/<link rel="canonical" href="([^\"]+)/)?.[1]||DOMAIN+route};if(rel.endsWith('/index.html'))redirects[rel]=route}else assets.push('/'+path.relative(root,file).replaceAll('\\','/'))}}
  walk(root);
+ for(const [source,target]of Object.entries(extraRedirects)){
+  if(!source.startsWith('/')||source.includes('?')||source.includes('#')||source===target||!routes[target]||routes[source]||redirects[target])throw Error('Invalid reviewed route redirect '+source);
+  if(redirects[source]&&redirects[source]!==target)throw Error('Conflicting reviewed route redirect '+source);
+  redirects[source]=target;
+ }
  for(const [source,target]of Object.entries(redirects))if(source.startsWith('/learn/')&&source.endsWith('.html')){redirects[source.slice(0,-5)]=target;redirects[source.slice(0,-5)+'/']=target}
  const manifest={schema:1,domain:DOMAIN,staging:process.env.PROGRAM_PREVIEW==='1',routes,redirects,assets,products:records.map(p=>({id:p.id,category:p.cat}))};
  fs.writeFileSync(path.join(__dirname,'worker-policy.mjs'),'const DOMAIN='+JSON.stringify(DOMAIN)+';\nconst CURATED='+JSON.stringify(CURATED)+';\nconst STATE_KEYS=new Set('+JSON.stringify([...STATE_KEYS])+');\n'+policy.toString()+'\nexport {policy};\n');

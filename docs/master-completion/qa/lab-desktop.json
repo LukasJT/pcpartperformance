@@ -1,0 +1,476 @@
+[
+  {
+    "route": "/",
+    "protocol": "Cua screenshot to allow background preview paint, then fixed 3500ms observation. Capture can affect paint timing.",
+    "cachePolicy": "Existing browser cache retained; not a cold-cache test",
+    "environment": "unthrottled local browser; not field Core Web Vitals",
+    "sampleWindowMs": 4622.9000000059605,
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "lcp": 1120,
+    "cls": 0.0015084500701070414,
+    "shiftDetails": [
+      {
+        "at": 123.19999998807907,
+        "value": 0.0015084500701070414,
+        "sources": [
+          {
+            "tag": "H2",
+            "id": "feature-title",
+            "class": "",
+            "previous": {
+              "x": 100.25,
+              "y": 822.890625,
+              "width": 791.6875,
+              "height": 52,
+              "top": 822.890625,
+              "right": 891.9375,
+              "bottom": 874.890625,
+              "left": 100.25
+            },
+            "current": {
+              "x": 100.25,
+              "y": 846.890625,
+              "width": 791.6875,
+              "height": 52,
+              "top": 846.890625,
+              "right": 891.9375,
+              "bottom": 898.890625,
+              "left": 100.25
+            }
+          },
+          {
+            "tag": "NAV",
+            "id": "",
+            "class": "liquid-nav clarity-nav",
+            "previous": {
+              "x": 343.890625,
+              "y": 14.5,
+              "width": 394.03125,
+              "height": 54,
+              "top": 14.5,
+              "right": 737.921875,
+              "bottom": 68.5,
+              "left": 343.890625
+            },
+            "current": {
+              "x": 330.625,
+              "y": 14.5,
+              "width": 394.03125,
+              "height": 54,
+              "top": 14.5,
+              "right": 724.65625,
+              "bottom": 68.5,
+              "left": 330.625
+            }
+          },
+          {
+            "tag": "P",
+            "id": "",
+            "class": "tech-feature-deck",
+            "previous": {
+              "x": 100.25,
+              "y": 884.6875,
+              "width": 492.46875,
+              "height": 15.3125,
+              "top": 884.6875,
+              "right": 592.71875,
+              "bottom": 900,
+              "left": 100.25
+            },
+            "current": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          {
+            "tag": "DIV",
+            "id": "",
+            "class": "country-switch",
+            "previous": {
+              "x": 1087.96875,
+              "y": 19.90625,
+              "width": 141.28125,
+              "height": 43.1875,
+              "top": 19.90625,
+              "right": 1229.25,
+              "bottom": 63.09375,
+              "left": 1087.96875
+            },
+            "current": {
+              "x": 1061.421875,
+              "y": 19.90625,
+              "width": 141.28125,
+              "height": 43.1875,
+              "top": 19.90625,
+              "right": 1202.703125,
+              "bottom": 63.09375,
+              "left": 1061.421875
+            }
+          },
+          {
+            "tag": "DETAILS",
+            "id": "",
+            "class": "explore-menu clarity-tools",
+            "previous": {
+              "x": 885.875,
+              "y": 19.5,
+              "width": 108.09375,
+              "height": 44,
+              "top": 19.5,
+              "right": 993.96875,
+              "bottom": 63.5,
+              "left": 885.875
+            },
+            "current": {
+              "x": 859.328125,
+              "y": 19.5,
+              "width": 108.09375,
+              "height": 44,
+              "top": 19.5,
+              "right": 967.421875,
+              "bottom": 63.5,
+              "left": 859.328125
+            }
+          }
+        ]
+      }
+    ],
+    "longTasks": 0,
+    "longTaskMs": 0,
+    "domContentLoaded": 119.90000000596046,
+    "serverWait": 2.5,
+    "resourceTransfer": 165543,
+    "threeDRequests": 0,
+    "resources": 18
+  },
+  {
+    "route": "/builder/",
+    "protocol": "Cua screenshot to allow background preview paint, then fixed 3500ms observation. Capture can affect paint timing.",
+    "cachePolicy": "Existing browser cache retained; not a cold-cache test",
+    "environment": "unthrottled local browser; not field Core Web Vitals",
+    "sampleWindowMs": 4781.4000000059605,
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "lcp": 1436,
+    "cls": 0.0001274431376704104,
+    "shiftDetails": [
+      {
+        "at": 220.5,
+        "value": 0.0000637215688352052,
+        "sources": [
+          {
+            "tag": "SPAN",
+            "id": "pc-visual-count",
+            "class": "",
+            "previous": {
+              "x": 1239.59375,
+              "y": 642.828125,
+              "width": 94.0625,
+              "height": 37.4375,
+              "top": 642.828125,
+              "right": 1333.65625,
+              "bottom": 680.265625,
+              "left": 1239.59375
+            },
+            "current": {
+              "x": 1273.3125,
+              "y": 652.1875,
+              "width": 61,
+              "height": 18.71875,
+              "top": 652.1875,
+              "right": 1334.3125,
+              "bottom": 670.90625,
+              "left": 1273.3125
+            }
+          }
+        ]
+      },
+      {
+        "at": 302.69999998807907,
+        "value": 0.0000637215688352052,
+        "sources": [
+          {
+            "tag": "SPAN",
+            "id": "pc-visual-count",
+            "class": "",
+            "previous": {
+              "x": 1273.3125,
+              "y": 652.1875,
+              "width": 61,
+              "height": 18.71875,
+              "top": 652.1875,
+              "right": 1334.3125,
+              "bottom": 670.90625,
+              "left": 1273.3125
+            },
+            "current": {
+              "x": 1239.59375,
+              "y": 642.828125,
+              "width": 94.0625,
+              "height": 37.4375,
+              "top": 642.828125,
+              "right": 1333.65625,
+              "bottom": 680.265625,
+              "left": 1239.59375
+            }
+          }
+        ]
+      }
+    ],
+    "longTasks": 1,
+    "longTaskMs": 95,
+    "domContentLoaded": 290.09999999403954,
+    "serverWait": 2.4000000059604645,
+    "resourceTransfer": 172100,
+    "threeDRequests": 0,
+    "resources": 34
+  },
+  {
+    "route": "/",
+    "protocol": "Cua screenshot to allow background preview paint, then fixed 3500ms observation. Capture can affect paint timing.",
+    "cachePolicy": "Existing browser cache retained; not a cold-cache test",
+    "environment": "unthrottled local browser; not field Core Web Vitals",
+    "sampleWindowMs": 4615.799999982119,
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "lcp": 1468,
+    "cls": 0.0015084500701070414,
+    "shiftDetails": [
+      {
+        "at": 129,
+        "value": 0.0015084500701070414,
+        "sources": [
+          {
+            "tag": "H2",
+            "id": "feature-title",
+            "class": "",
+            "previous": {
+              "x": 100.25,
+              "y": 822.890625,
+              "width": 791.6875,
+              "height": 52,
+              "top": 822.890625,
+              "right": 891.9375,
+              "bottom": 874.890625,
+              "left": 100.25
+            },
+            "current": {
+              "x": 100.25,
+              "y": 846.890625,
+              "width": 791.6875,
+              "height": 52,
+              "top": 846.890625,
+              "right": 891.9375,
+              "bottom": 898.890625,
+              "left": 100.25
+            }
+          },
+          {
+            "tag": "NAV",
+            "id": "",
+            "class": "liquid-nav clarity-nav",
+            "previous": {
+              "x": 343.890625,
+              "y": 14.5,
+              "width": 394.03125,
+              "height": 54,
+              "top": 14.5,
+              "right": 737.921875,
+              "bottom": 68.5,
+              "left": 343.890625
+            },
+            "current": {
+              "x": 330.625,
+              "y": 14.5,
+              "width": 394.03125,
+              "height": 54,
+              "top": 14.5,
+              "right": 724.65625,
+              "bottom": 68.5,
+              "left": 330.625
+            }
+          },
+          {
+            "tag": "P",
+            "id": "",
+            "class": "tech-feature-deck",
+            "previous": {
+              "x": 100.25,
+              "y": 884.6875,
+              "width": 492.46875,
+              "height": 15.3125,
+              "top": 884.6875,
+              "right": 592.71875,
+              "bottom": 900,
+              "left": 100.25
+            },
+            "current": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          {
+            "tag": "DIV",
+            "id": "",
+            "class": "country-switch",
+            "previous": {
+              "x": 1087.96875,
+              "y": 19.90625,
+              "width": 141.28125,
+              "height": 43.1875,
+              "top": 19.90625,
+              "right": 1229.25,
+              "bottom": 63.09375,
+              "left": 1087.96875
+            },
+            "current": {
+              "x": 1061.421875,
+              "y": 19.90625,
+              "width": 141.28125,
+              "height": 43.1875,
+              "top": 19.90625,
+              "right": 1202.703125,
+              "bottom": 63.09375,
+              "left": 1061.421875
+            }
+          },
+          {
+            "tag": "DETAILS",
+            "id": "",
+            "class": "explore-menu clarity-tools",
+            "previous": {
+              "x": 885.875,
+              "y": 19.5,
+              "width": 108.09375,
+              "height": 44,
+              "top": 19.5,
+              "right": 993.96875,
+              "bottom": 63.5,
+              "left": 885.875
+            },
+            "current": {
+              "x": 859.328125,
+              "y": 19.5,
+              "width": 108.09375,
+              "height": 44,
+              "top": 19.5,
+              "right": 967.421875,
+              "bottom": 63.5,
+              "left": 859.328125
+            }
+          }
+        ]
+      }
+    ],
+    "longTasks": 0,
+    "longTaskMs": 0,
+    "domContentLoaded": 125.19999998807907,
+    "serverWait": 2.4000000059604645,
+    "resourceTransfer": 165543,
+    "threeDRequests": 0,
+    "resources": 18
+  },
+  {
+    "route": "/builder/",
+    "protocol": "Cua screenshot to allow background preview paint, then fixed 3500ms observation. Capture can affect paint timing.",
+    "cachePolicy": "Existing browser cache retained; not a cold-cache test",
+    "environment": "unthrottled local browser; not field Core Web Vitals",
+    "sampleWindowMs": 5279.0999999940395,
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "lcp": 1820,
+    "cls": 0.0001274431376704104,
+    "shiftDetails": [
+      {
+        "at": 220.5,
+        "value": 0.0000637215688352052,
+        "sources": [
+          {
+            "tag": "SPAN",
+            "id": "pc-visual-count",
+            "class": "",
+            "previous": {
+              "x": 1239.59375,
+              "y": 642.828125,
+              "width": 94.0625,
+              "height": 37.4375,
+              "top": 642.828125,
+              "right": 1333.65625,
+              "bottom": 680.265625,
+              "left": 1239.59375
+            },
+            "current": {
+              "x": 1273.3125,
+              "y": 652.1875,
+              "width": 61,
+              "height": 18.71875,
+              "top": 652.1875,
+              "right": 1334.3125,
+              "bottom": 670.90625,
+              "left": 1273.3125
+            }
+          }
+        ]
+      },
+      {
+        "at": 301,
+        "value": 0.0000637215688352052,
+        "sources": [
+          {
+            "tag": "SPAN",
+            "id": "pc-visual-count",
+            "class": "",
+            "previous": {
+              "x": 1273.3125,
+              "y": 652.1875,
+              "width": 61,
+              "height": 18.71875,
+              "top": 652.1875,
+              "right": 1334.3125,
+              "bottom": 670.90625,
+              "left": 1273.3125
+            },
+            "current": {
+              "x": 1239.59375,
+              "y": 642.828125,
+              "width": 94.0625,
+              "height": 37.4375,
+              "top": 642.828125,
+              "right": 1333.65625,
+              "bottom": 680.265625,
+              "left": 1239.59375
+            }
+          }
+        ]
+      }
+    ],
+    "longTasks": 1,
+    "longTaskMs": 93,
+    "domContentLoaded": 288.69999998807907,
+    "serverWait": 2.4000000059604645,
+    "resourceTransfer": 172100,
+    "threeDRequests": 0,
+    "resources": 34
+  }
+]

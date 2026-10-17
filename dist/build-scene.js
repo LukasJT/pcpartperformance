@@ -16,7 +16,7 @@ export function createBuildScene(host,onSelect){
  const pmrem=new T.PMREMGenerator(renderer),environment=pmrem.fromScene(studio,.08,.1,20,{size:128});scene.environment=environment.texture;pmrem.dispose();studioGeometry.dispose();studioMaterial.dispose();
  scene.add(new T.HemisphereLight(0xffffff,0x647088,3));const key=new T.DirectionalLight(0xffffff,4);key.position.set(1,2,3);scene.add(key);const rim=new T.DirectionalLight(0xadc7ff,2);rim.position.set(-2,1,-1);scene.add(rim);
  const controls=new OrbitControls(camera,canvas);controls.enableDamping=false;controls.minDistance=.08;controls.maxDistance=4;controls.maxPolarAngle=Math.PI*.94;controls.target.set(0,0,0);controls.listenToKeyEvents(canvas);
- const loader=new GLTFLoader().setMeshoptDecoder(MeshoptDecoder),cache=new Map(),parts=[];let currentView='angled';let disposed=false,visible=true,raf=0,revision=0,selected='',exploded=false,panel=false,draws=0;
+ const cache=new Map(),parts=[];let currentView='angled';let disposed=false,visible=true,raf=0,revision=0,selected='',exploded=false,panel=false,draws=0,isolatedMode=false;
  const layout={fan:[0,0,0],case:[0,0,0],board:[-.055,.025,-.075],cpu:[-.067,.085,-.06],ram:[0,.069,-.048],gpu:[-.035,-.045,0],ssd:[-.06,-.018,-.06],hdd:[.11,-.176,0],psu:[-.13,-.184,0]};
  function draw(){raf=0;if(disposed||!visible||document.hidden)return;renderer.render(scene,camera);draws++;canvas.dataset.renderCount=String(draws);canvas.dataset.triangles=String(renderer.info.render.triangles)}
  function invalidate(){if(!raf&&!disposed&&visible&&!document.hidden)raf=requestAnimationFrame(draw)}
@@ -37,13 +37,35 @@ export function createBuildScene(host,onSelect){
    fit=Math.max(fit,depth+Math.abs(corner.dot(right))/horizontal*1.2,depth+Math.abs(corner.dot(up))/vertical*1.2);
   }
   camera.position.copy(center).addScaledVector(dir,fit);controls.update();
-  canvas.dataset.cameraDistance=camera.position.distanceTo(controls.target).toFixed(3);canvas.dataset.boundsSize=size.toArray().map(v=>v.toFixed(3)).join(',');invalidate();
+  canvas.dataset.cameraDistance=camera.position.distanceTo(controls.target).toFixed(6);canvas.dataset.boundsSize=size.toArray().map(v=>v.toFixed(6)).join(',');canvas.dataset.boundsCenter=center.toArray().map(v=>v.toFixed(6)).join(',');canvas.dataset.cameraPosition=camera.position.toArray().map(v=>v.toFixed(6)).join(',');canvas.dataset.cameraTarget=controls.target.toArray().map(v=>v.toFixed(6)).join(',');canvas.dataset.cameraAspect=String(camera.aspect);invalidate();
  }
- function apply(){for(const obj of parts){obj.position.copy(obj.userData.base);if(exploded&&obj.userData.slot!=='case'){const slot=obj.userData.slot;obj.position.z+=slot==='board'?.06:slot==='cpu'?.3:slot==='ram'?.24:slot==='gpu'?.3:.16;obj.position.x+=slot==='hdd'?.16:slot==='psu'?-.14:0;}obj.traverse(m=>{if(!m.isMesh)return;if(m.name==='Side_panel'||m.name==='Side panel')m.visible=panel;for(const mat of (Array.isArray(m.material)?m.material:[m.material])){if(mat.emissive){if(!mat.userData.previewEmission){mat.userData.previewEmission=mat.emissive.clone();mat.userData.previewIntensity=mat.emissiveIntensity;}mat.emissive.copy(mat.userData.previewEmission);mat.emissiveIntensity=mat.userData.previewIntensity;if(obj.userData.slot===selected){mat.emissive.lerp(new T.Color(0x193d76),.12);mat.emissiveIntensity=Math.max(mat.emissiveIntensity,.3);}}}});}invalidate()}
- async function load(record){const url=record.model;if(!cache.has(url))cache.set(url,loader.loadAsync(url).then(g=>{if(record.status!=='community')return g;const obj=g.scene,wrap=new T.Group();wrap.add(obj);const angle=record.attribution?.orientation||[0,0,0];obj.rotation.set(...angle);obj.updateMatrixWorld(true);const bounds=new T.Box3().setFromObject(wrap),size=bounds.getSize(new T.Vector3()),want=record.dimensionsMm||[300,50,120];if(Math.min(size.x,size.y,size.z)<=0)throw Error('Invalid model dimensions');wrap.scale.set(want[0]/1000/size.x,want[1]/1000/size.y,want[2]/1000/size.z);wrap.updateMatrixWorld(true);const center=new T.Box3().setFromObject(wrap).getCenter(new T.Vector3());obj.position.sub(center.clone().divide(wrap.scale));g.scene=wrap;return g}).catch(e=>{cache.delete(url);throw e}));return(await cache.get(url)).scene}
+ function apply(){for(const obj of parts){obj.position.copy(obj.userData.base);if(exploded&&!isolatedMode&&obj.userData.slot!=='case'){const slot=obj.userData.slot;obj.position.z+=slot==='board'?.06:slot==='cpu'?.3:slot==='ram'?.24:slot==='gpu'?.3:.16;obj.position.x+=slot==='hdd'?.16:slot==='psu'?-.14:0;}obj.traverse(m=>{if(!m.isMesh)return;if(!isolatedMode&&(m.name==='Side_panel'||m.name==='Side panel'))m.visible=panel;for(const mat of (Array.isArray(m.material)?m.material:[m.material])){if(mat.emissive){if(!mat.userData.previewEmission){mat.userData.previewEmission=mat.emissive.clone();mat.userData.previewIntensity=mat.emissiveIntensity;}mat.emissive.copy(mat.userData.previewEmission);mat.emissiveIntensity=mat.userData.previewIntensity;if(!isolatedMode&&obj.userData.slot===selected){mat.emissive.lerp(new T.Color(0x193d76),.12);mat.emissiveIntensity=Math.max(mat.emissiveIntensity,.3);}}}});}invalidate()}
+ const localModelPath=url=>typeof url==='string'&&/^\/assets\/models\/(?:completion\/)?[a-zA-Z0-9_.-]+\.glb$/.test(url);
+ function releaseTemplate(object){object.traverse(mesh=>{if(mesh.isMesh){mesh.geometry.dispose();for(const material of(Array.isArray(mesh.material)?mesh.material:[mesh.material])){for(const value of Object.values(material))if(value?.isTexture)value.dispose();material.dispose();}}});}
+ function boundTextures(object){const textures=new Set();object.traverse(mesh=>{if(mesh.isMesh)for(const material of(Array.isArray(mesh.material)?mesh.material:[mesh.material]))for(const value of Object.values(material))if(value?.isTexture)textures.add(value);});return textures.size;}
+ async function load(record){
+  const url=record.model;
+  if(!cache.has(url)){
+   // GLTFLoader otherwise resolves geometry with a null map after an embedded
+   // image fails. Keep failures scoped to this model, not a global manager.
+   const manager=new T.LoadingManager(),resourceFailures=[];manager.onError=failed=>resourceFailures.push(failed);
+   const loader=new GLTFLoader(manager).setMeshoptDecoder(MeshoptDecoder);
+   cache.set(url,loader.loadAsync(url).then(g=>{
+    if(resourceFailures.length){releaseTemplate(g.scene);throw Error('One or more model image resources could not load.');}
+    if(record.status!=='community')return g;
+    const obj=g.scene,wrap=new T.Group();wrap.add(obj);const angle=record.attribution?.orientation||[0,0,0];obj.rotation.set(...angle);obj.updateMatrixWorld(true);
+    const bounds=new T.Box3().setFromObject(wrap),size=bounds.getSize(new T.Vector3());
+    if(Math.min(size.x,size.y,size.z)<=0||![size.x,size.y,size.z].every(Number.isFinite)){releaseTemplate(wrap);throw Error('Invalid model dimensions');}
+    if(record.standaloneOnly||record.scaleMode==='uniform-autoframe')wrap.scale.setScalar(.32/Math.max(size.x,size.y,size.z));
+    else{const want=record.dimensionsMm||[300,50,120];wrap.scale.set(want[0]/1000/size.x,want[1]/1000/size.y,want[2]/1000/size.z);}
+    wrap.updateMatrixWorld(true);const center=new T.Box3().setFromObject(wrap).getCenter(new T.Vector3());obj.position.sub(center.clone().divide(wrap.scale));g.scene=wrap;return g;
+   }).catch(error=>{cache.delete(url);throw error}));
+  }
+  return(await cache.get(url)).scene;
+ }
  function clear(){for(const obj of parts){obj.traverse(m=>{if(m.isMesh)for(const mat of (Array.isArray(m.material)?m.material:[m.material]))mat.dispose()});root.remove(obj)}parts.length=0}
  async function update(entries,{references=false}={}){
-  const rev=++revision,started=performance.now();
+  const rev=++revision,started=performance.now();isolatedMode=false;canvas.dataset.mode='build';delete canvas.dataset.modelId;canvas.setAttribute('aria-label','Interactive PC layout. Drag to rotate, pinch or scroll to zoom. Arrow keys pan. Use the view buttons for keyboard rotation.');
   // New catalog categories do not inherit the GPU layout or an assumed size.
   // A model also has to belong to this exact selected identity and category.
   const eligible=entry=>entry.record?.id===entry.id&&entry.record.category===entry.slot;
@@ -52,8 +74,9 @@ export function createBuildScene(host,onSelect){
   const settled=await Promise.all(entries.map(async entry=>{
    if(!entry.record?.model)return null;
    if(!eligible(entry))return{e:entry,unplaced:'Model identity or category does not match the selected component.'};
+   if(entry.record.standaloneOnly)return{e:entry,unplaced:'This source model opens individually; its installed position has not been reviewed.'};
    if(!Object.hasOwn(layout,entry.slot))return{e:entry,unplaced:'No 3D placement is defined for this component category.'};
-   if(!/^\/assets\/models\/[a-zA-Z0-9_.-]+\.glb$/.test(entry.record.model))return{e:entry,unplaced:'Model asset path is not part of the local library.'};
+   if(!localModelPath(entry.record.model))return{e:entry,unplaced:'Model asset path is not part of the local library.'};
    if(entry.slot==='fan'&&!entry.placement)return{e:entry,unplaced:'Fan mounting position is not available.'};
    try{return{e:entry,template:await load(entry.record)}}catch{return{e:entry,error:true}}
   }));
@@ -84,11 +107,27 @@ export function createBuildScene(host,onSelect){
     obj.userData={slot:e.slot,base,id:e.id};root.add(obj);parts.push(obj);
    }
   }
-  apply();pose(currentView);canvas.dataset.modelCount=String(parts.length);canvas.dataset.loadMs=String(Math.round(performance.now()-started));
+  apply();pose(currentView);canvas.dataset.modelCount=String(parts.length);canvas.dataset.boundTextureCount=String(boundTextures(root));canvas.dataset.loadMs=String(Math.round(performance.now()-started));
   return{failed,unplaced,rendered:parts.length,loadMs:Math.round(performance.now()-started)};
+ }
+ async function inspectPart(entry){
+  const rev=++revision,started=performance.now();clear();isolatedMode=true;canvas.dataset.mode='part';canvas.dataset.modelCount='0';canvas.dataset.boundTextureCount='0';delete canvas.dataset.modelId;canvas.setAttribute('aria-label','Interactive 3D model of '+(entry?.name||'the selected product')+'. Drag to rotate or use the view controls. This appearance does not certify physical fit.');invalidate();
+  const record=entry?.record;
+  if(!record||record.id!==entry.id||record.category!==entry.slot||!localModelPath(record.model))return{failed:[],unplaced:[{id:entry?.id||'',reason:'Exact selected model or local file is unavailable.'}],rendered:0,loadMs:0};
+  let template;
+  try{template=await load(record);}catch{return disposed||rev!==revision?{stale:true}:{failed:[entry.name],unplaced:[],rendered:0,loadMs:Math.round(performance.now()-started)};}
+  if(disposed||rev!==revision)return{stale:true};
+  const obj=cloneWithSkeleton(template);obj.traverse(mesh=>{if(mesh.isMesh)mesh.material=Array.isArray(mesh.material)?mesh.material.map(material=>material.clone()):mesh.material.clone()});
+  // Display units only: uniformly preserve authored proportions, including
+  // captured bases/cables. Never stretch a scan to a made-up physical envelope.
+  const box=new T.Box3().setFromObject(obj),size=box.getSize(new T.Vector3()),center=box.getCenter(new T.Vector3()),largest=Math.max(size.x,size.y,size.z);
+  if(!Number.isFinite(largest)||largest<=0){obj.traverse(mesh=>{if(mesh.isMesh)for(const material of(Array.isArray(mesh.material)?mesh.material:[mesh.material]))material.dispose()});return{failed:[entry.name],unplaced:[],rendered:0,loadMs:Math.round(performance.now()-started)};}
+  const frame=new T.Group();frame.add(obj);obj.position.sub(center);frame.scale.setScalar(.32/largest);frame.userData={slot:entry.slot,id:entry.id,base:new T.Vector3()};root.add(frame);parts.push(frame);selected=entry.slot;
+  canvas.dataset.modelId=entry.id;canvas.dataset.modelCount='1';canvas.dataset.boundTextureCount=String(boundTextures(frame));apply();pose(currentView);
+  return{failed:[],unplaced:[],rendered:1,isolated:true,loadMs:Math.round(performance.now()-started)};
  }
  const ray=new T.Raycaster(),pointer=new T.Vector2();let down=null;
  canvas.addEventListener('pointerdown',e=>{down=[e.clientX,e.clientY]});canvas.addEventListener('pointerup',e=>{if(!down||Math.hypot(e.clientX-down[0],e.clientY-down[1])>6)return;const r=canvas.getBoundingClientRect();pointer.set((e.clientX-r.left)/r.width*2-1,-(e.clientY-r.top)/r.height*2+1);ray.setFromCamera(pointer,camera);const hit=ray.intersectObjects(parts,true).find(h=>h.object.visible&&!['Side panel','Side_panel'].includes(h.object.name));if(hit){let obj=hit.object;while(obj&&!obj.userData.slot)obj=obj.parent;if(obj)onSelect(obj.userData.slot)}});
  pose();resize();
- return{update,select(slot){selected=slot;apply()},view:pose,explode(value){exploded=value;apply();pose(currentView)},sidePanel(value){panel=value;apply()},quality(value){renderer.setPixelRatio(value?1:Math.min(devicePixelRatio,1.5));resize()},zoom(delta){camera.position.sub(controls.target).multiplyScalar(delta).add(controls.target);controls.update();invalidate()},rotate(direction){const delta=camera.position.clone().sub(controls.target).applyAxisAngle(new T.Vector3(0,1,0),direction*.25);camera.position.copy(controls.target).add(delta);controls.update();invalidate()},dispose(){disposed=true;revision++;cancelAnimationFrame(raf);resizeObserver.disconnect();observer.disconnect();document.removeEventListener('visibilitychange',visibility);controls.dispose();clear();for(const promise of cache.values())promise.then(g=>g.scene.traverse(m=>{if(m.isMesh){m.geometry.dispose();for(const material of (Array.isArray(m.material)?m.material:[m.material])){for(const value of Object.values(material))if(value?.isTexture)value.dispose();material.dispose()}}})).catch(()=>{});cache.clear();environment.dispose();renderer.dispose();canvas.remove()}};
+ return{update,inspect:inspectPart,select(slot){selected=slot;apply()},view:pose,explode(value){exploded=value;apply();pose(currentView)},sidePanel(value){panel=value;apply()},quality(value){renderer.setPixelRatio(value?1:Math.min(devicePixelRatio,1.5));resize()},zoom(delta){camera.position.sub(controls.target).multiplyScalar(delta).add(controls.target);controls.update();invalidate()},rotate(direction){const delta=camera.position.clone().sub(controls.target).applyAxisAngle(new T.Vector3(0,1,0),direction*.25);camera.position.copy(controls.target).add(delta);controls.update();invalidate()},dispose(){disposed=true;revision++;cancelAnimationFrame(raf);resizeObserver.disconnect();observer.disconnect();document.removeEventListener('visibilitychange',visibility);controls.dispose();clear();for(const promise of cache.values())promise.then(g=>g.scene.traverse(m=>{if(m.isMesh){m.geometry.dispose();for(const material of (Array.isArray(m.material)?m.material:[m.material])){for(const value of Object.values(material))if(value?.isTexture)value.dispose();material.dispose()}}})).catch(()=>{});cache.clear();environment.dispose();renderer.dispose();canvas.remove()}};
 }

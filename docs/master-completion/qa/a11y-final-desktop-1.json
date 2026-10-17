@@ -1,0 +1,1226 @@
+[
+  {
+    "overflow": false,
+    "report": {
+      "axeVersion": "4.14.0",
+      "checkedAt": "2026-10-17T01:40:03.360Z",
+      "height": 900,
+      "incomplete": [
+        {
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "html": "<span>Tools</span>",
+              "target": [
+                "summary > span"
+              ]
+            },
+            {
+              "html": "<h1 id=\"home-title\">Build smarter.<br> Upgrade with confidence.</h1>",
+              "target": [
+                "#home-title"
+              ]
+            },
+            {
+              "html": "<p>Compare PC parts, plan a complete build, and understand compatibility, costs and outstanding checks before you buy.</p>",
+              "target": [
+                ".tech-intro > div > p:nth-child(2)"
+              ]
+            },
+            {
+              "html": "<p class=\"program-help\">New to PCs? <a href=\"/build-school/\">Start with Build School</a>. Returning? <a href=\"/my-pc/\">Open your workspace</a>.</p>",
+              "target": [
+                ".program-help"
+              ]
+            },
+            {
+              "html": "<label for=\"home-search\">Find a part, guide or tool</label>",
+              "target": [
+                "label[for=\"home-search\"]"
+              ]
+            },
+            {
+              "html": "<span>Try RTX 5070, BIOS support, or first boot</span>",
+              "target": [
+                "form > span"
+              ]
+            },
+            {
+              "html": "<span>Illustrative example</span>",
+              "target": [
+                ".home-passport > div > span"
+              ]
+            },
+            {
+              "html": "<h2 id=\"home-passport-title\">A parts list, with the important checks.</h2>",
+              "target": [
+                "#home-passport-title"
+              ]
+            },
+            {
+              "html": "<p>The Build Readiness Report separates a documented match from a question you still need to answer.</p>",
+              "target": [
+                ".home-passport > div > p"
+              ]
+            },
+            {
+              "html": "<strong>CPU socket</strong>",
+              "target": [
+                "li:nth-child(1) > span > strong"
+              ]
+            },
+            {
+              "html": "<small>Documented match for the example</small>",
+              "target": [
+                "li:nth-child(1) > span > small"
+              ]
+            },
+            {
+              "html": "<strong>BIOS support</strong>",
+              "target": [
+                "li:nth-child(2) > span > strong"
+              ]
+            },
+            {
+              "html": "<small>Exact processor support still needs checking</small>",
+              "target": [
+                "li:nth-child(2) > span > small"
+              ]
+            },
+            {
+              "html": "<strong>GPU clearance</strong>",
+              "target": [
+                "li:nth-child(3) > span > strong"
+              ]
+            },
+            {
+              "html": "<small>Installed case layout needs verification</small>",
+              "target": [
+                "li:nth-child(3) > span > small"
+              ]
+            },
+            {
+              "html": "<h2 id=\"feature-title\">RTX 5070 <span>vs</span> RTX 5060 Ti</h2>",
+              "target": [
+                "#feature-title"
+              ]
+            },
+            {
+              "html": "<span>vs</span>",
+              "target": [
+                "#feature-title > span"
+              ]
+            },
+            {
+              "html": "<p class=\"tech-feature-deck\">Two Blackwell GPUs. Different memory, power, and priorities.</p>",
+              "target": [
+                ".tech-feature-deck"
+              ]
+            },
+            {
+              "html": "<p>More VRAM doesn’t tell the whole story.<br>See the specifications side by side.</p>",
+              "target": [
+                ".tech-feature-bottom > p"
+              ]
+            },
+            {
+              "html": "<h2 id=\"desk-title\">The upgrade desk</h2>",
+              "target": [
+                "#desk-title"
+              ]
+            },
+            {
+              "html": "<h3>Planning a whole PC?</h3>",
+              "target": [
+                ".tech-build-note > div > h3"
+              ]
+            },
+            {
+              "html": "<p>Choose parts and check how they fit together.</p>",
+              "target": [
+                ".tech-build-note > div > p"
+              ]
+            },
+            {
+              "html": "<h2 id=\"category-title\">Explore the hardware</h2>",
+              "target": [
+                "#category-title"
+              ]
+            },
+            {
+              "html": "<h2 id=\"guides-title\">Before you buy</h2>",
+              "target": [
+                "#guides-title"
+              ]
+            },
+            {
+              "html": "<strong>Specifications with sources.</strong>",
+              "target": [
+                ".tech-source-note > strong"
+              ]
+            },
+            {
+              "html": "<p>Product pages link to their reference data. For gaming performance, use independent tests alongside the specs.</p>",
+              "target": [
+                ".tech-source-note > p"
+              ]
+            },
+            {
+              "html": "<h2>Explore the details</h2>",
+              "target": [
+                ".learn-features > h2"
+              ]
+            },
+            {
+              "html": "<p>A board-specific lane-sharing guide and working checker.</p>",
+              "target": [
+                ".publication-card:nth-child(1) > div > p"
+              ]
+            },
+            {
+              "html": "<p>Budget for the platform, rather than only the processor.</p>",
+              "target": [
+                ".publication-card:nth-child(2) > div > p"
+              ]
+            },
+            {
+              "html": "<p>Same-scale outlines and verified body dimensions.</p>",
+              "target": [
+                ".publication-card:nth-child(3) > div > p"
+              ]
+            },
+            {
+              "html": "<summary>More planning tools</summary>",
+              "target": [
+                ".clarity-details > summary"
+              ]
+            },
+            {
+              "html": "<h2>Useful reading before the next purchase</h2>",
+              "target": [
+                "header > h2"
+              ]
+            },
+            {
+              "html": "<p>Configuration, seller and complete costs.</p>",
+              "target": [
+                "article:nth-child(1) > p"
+              ]
+            },
+            {
+              "html": "<p>Include the costs a headline price leaves out.</p>",
+              "target": [
+                "article:nth-child(2) > p"
+              ]
+            },
+            {
+              "html": "<p>Separate appearance from clearance evidence.</p>",
+              "target": [
+                "article:nth-child(3) > p"
+              ]
+            },
+            {
+              "html": "<h2>Source-led hardware reports</h2>",
+              "target": [
+                ".growth-update-row > div > h2"
+              ]
+            },
+            {
+              "html": "<p>Announcements, source dates and buyer implications.</p>",
+              "target": [
+                ".growth-update-row > div > p"
+              ]
+            },
+            {
+              "html": "<h2>Build &amp; buy</h2>",
+              "target": [
+                "nav[aria-label=\"Footer navigation\"] > div:nth-child(1) > h2"
+              ]
+            },
+            {
+              "html": "<h2>Compare &amp; play</h2>",
+              "target": [
+                "div:nth-child(2) > h2"
+              ]
+            },
+            {
+              "html": "<h2>Learn</h2>",
+              "target": [
+                "div:nth-child(3) > h2"
+              ]
+            },
+            {
+              "html": "<h2>About</h2>",
+              "target": [
+                "div:nth-child(4) > h2"
+              ]
+            }
+          ]
+        }
+      ],
+      "scope": "Real browser DOM, WCAG A/AA and best-practice rules; automated findings do not certify full conformance.",
+      "theme": "dark",
+      "url": "/",
+      "violations": [
+        {
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "html": "<a class=\"skip\" href=\"#main\">Skip to content</a>",
+              "target": [
+                ".skip"
+              ]
+            },
+            {
+              "html": "<span>PC Part <span class=\"brand-sub\">Performance</span></span>",
+              "target": [
+                ".brand > span:nth-child(2)"
+              ]
+            },
+            {
+              "html": "<span class=\"brand-sub\">Performance</span>",
+              "target": [
+                ".brand-sub"
+              ]
+            },
+            {
+              "html": "<span>Build</span>",
+              "target": [
+                ".liquid-nav > a[href$=\"builder/\"] > span"
+              ]
+            },
+            {
+              "html": "<span>Upgrade</span>",
+              "target": [
+                "a[href$=\"upgrade/\"] > span"
+              ]
+            },
+            {
+              "html": "<span>Compare</span>",
+              "target": [
+                ".liquid-nav > a[href$=\"compare/\"] > span"
+              ]
+            },
+            {
+              "html": "<span>Hardware</span>",
+              "target": [
+                ".liquid-nav > a[href$=\"hardware/\"] > span"
+              ]
+            },
+            {
+              "html": "<span>Learn</span>",
+              "target": [
+                ".liquid-nav > a[href$=\"blog/\"] > span"
+              ]
+            },
+            {
+              "html": "<span>My PC</span>",
+              "target": [
+                "a[href$=\"my-pc/\"] > span"
+              ]
+            },
+            {
+              "html": "<a class=\"button primary\" href=\"/builder/\">Build a PC</a>",
+              "target": [
+                ".primary"
+              ]
+            },
+            {
+              "html": "<a class=\"button secondary\" href=\"/upgrade/\">Upgrade my PC</a>",
+              "target": [
+                ".secondary.button[href$=\"upgrade/\"]"
+              ]
+            },
+            {
+              "html": "<a class=\"button secondary\" href=\"/compare/\">Compare parts</a>",
+              "target": [
+                ".secondary.button[href$=\"compare/\"]"
+              ]
+            },
+            {
+              "html": "<a href=\"/build-school/\">Start with Build School</a>",
+              "target": [
+                ".program-help > a[href$=\"build-school/\"]"
+              ]
+            },
+            {
+              "html": "<a href=\"/my-pc/\">Open your workspace</a>",
+              "target": [
+                ".program-help > a[href$=\"my-pc/\"]"
+              ]
+            },
+            {
+              "html": "<a href=\"/builder/#readiness-report\">See your build’s checks</a>",
+              "target": [
+                "a[href$=\"builder/#readiness-report\"]"
+              ]
+            },
+            {
+              "html": "<a href=\"/compare/\">All comparisons <span aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" class=\"link-icon\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" aria-hidden=\"true\"><path d=\"M4 12h16m-6-6 6 6-6 6\"></path></svg></span></a>",
+              "target": [
+                ".tech-feature-heading > a[href$=\"compare/\"]"
+              ]
+            },
+            {
+              "html": "<strong>GeForce RTX 5070</strong>",
+              "target": [
+                "figure:nth-child(1) > figcaption > strong"
+              ]
+            },
+            {
+              "html": "<span>12 GB GDDR7</span>",
+              "target": [
+                "figure:nth-child(1) > figcaption > span"
+              ]
+            },
+            {
+              "html": "<span class=\"tech-vs\" aria-hidden=\"true\">VS</span>",
+              "target": [
+                ".tech-vs"
+              ]
+            },
+            {
+              "html": "<strong>GeForce RTX 5060 Ti</strong>",
+              "target": [
+                "figure:nth-child(3) > figcaption > strong"
+              ]
+            },
+            {
+              "html": "<span>16 GB GDDR7</span>",
+              "target": [
+                "figure:nth-child(3) > figcaption > span"
+              ]
+            },
+            {
+              "html": "<a class=\"tech-button\" href=\"/compare/rtx-5070-vs-rtx-5060-ti-16gb/\">Compare these GPUs <span aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" class=\"link-icon\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" aria-hidden=\"true\"><path d=\"M4 12h16m-6-6 6 6-6 6\"></path></svg></span></a>",
+              "target": [
+                ".tech-button"
+              ]
+            },
+            {
+              "html": "<span class=\"tech-kicker\">GRAPHICS</span>",
+              "target": [
+                ".tech-desk-story:nth-child(2) > .tech-kicker"
+              ]
+            },
+            {
+              "html": "<h3>What actually matters in a graphics card?</h3>",
+              "target": [
+                ".tech-desk-story:nth-child(2) > h3"
+              ]
+            },
+            {
+              "html": "<p>Start with VRAM, bandwidth, and board power.</p>",
+              "target": [
+                ".tech-desk-story:nth-child(2) > p"
+              ]
+            },
+            {
+              "html": "<span class=\"tech-read\">Read the GPU guide <span aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" class=\"link-icon\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" aria-hidden=\"true\"><path d=\"M4 12h16m-6-6 6 6-6 6\"></path></svg></span></span>",
+              "target": [
+                ".tech-desk-story:nth-child(2) > .tech-read"
+              ]
+            },
+            {
+              "html": "<span class=\"tech-kicker\">PROCESSORS</span>",
+              "target": [
+                ".tech-desk-story:nth-child(3) > .tech-kicker"
+              ]
+            },
+            {
+              "html": "<h3>There’s more to a CPU than GHz.</h3>",
+              "target": [
+                ".tech-desk-story:nth-child(3) > h3"
+              ]
+            },
+            {
+              "html": "<p>Get to know cores, clocks, and platform support.</p>",
+              "target": [
+                ".tech-desk-story:nth-child(3) > p"
+              ]
+            },
+            {
+              "html": "<span class=\"tech-read\">Read the CPU guide <span aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" class=\"link-icon\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" aria-hidden=\"true\"><path d=\"M4 12h16m-6-6 6 6-6 6\"></path></svg></span></span>",
+              "target": [
+                ".tech-desk-story:nth-child(3) > .tech-read"
+              ]
+            },
+            {
+              "html": "<a href=\"/builder/\">Open PC builder <span aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" class=\"link-icon\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" aria-hidden=\"true\"><path d=\"M4 12h16m-6-6 6 6-6 6\"></path></svg></span></a>",
+              "target": [
+                ".tech-build-note > div > a[href$=\"builder/\"]"
+              ]
+            },
+            {
+              "html": "<strong>Compare phones</strong>",
+              "target": [
+                "a[href$=\"phones/\"] > span:nth-child(2) > strong"
+              ]
+            },
+            {
+              "html": "<small>See size, specs and 3D</small>",
+              "target": [
+                "a[href$=\"phones/\"] > span:nth-child(2) > small"
+              ]
+            },
+            {
+              "html": "<strong>Find a prebuilt PC</strong>",
+              "target": [
+                "a[href$=\"prebuilts/\"] > span:nth-child(2) > strong"
+              ]
+            },
+            {
+              "html": "<small>Browse real configurations</small>",
+              "target": [
+                "a[href$=\"prebuilts/\"] > span:nth-child(2) > small"
+              ]
+            },
+            {
+              "html": "<strong>Explore Game FPS</strong>",
+              "target": [
+                "a[href$=\"performance/\"] > span:nth-child(2) > strong"
+              ]
+            },
+            {
+              "html": "<small>PC and console performance</small>",
+              "target": [
+                "a[href$=\"performance/\"] > span:nth-child(2) > small"
+              ]
+            },
+            {
+              "html": "<a href=\"/hardware/\">Browse all 1,236 parts <span aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" class=\"link-icon\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" aria-hidden=\"true\"><path d=\"M4 12h16m-6-6 6 6-6 6\"></path></svg></span></a>",
+              "target": [
+                ".tech-section-heading > a[href$=\"hardware/\"]"
+              ]
+            },
+            {
+              "html": "<span class=\"tech-count\">165 PARTS</span>",
+              "target": [
+                "a[href$=\"graphics-cards/\"] > .tech-category-copy > .tech-count"
+              ]
+            },
+            {
+              "html": "<h3>Graphics cards</h3>",
+              "target": [
+                "a[href$=\"graphics-cards/\"] > .tech-category-copy > h3"
+              ]
+            },
+            {
+              "html": "<p>Video memory, power &amp; architecture</p>",
+              "target": [
+                "a[href$=\"graphics-cards/\"] > .tech-category-copy > p"
+              ]
+            },
+            {
+              "html": "<span class=\"tech-count\">167 PARTS</span>",
+              "target": [
+                "a[href$=\"processors/\"] > .tech-category-copy > .tech-count"
+              ]
+            },
+            {
+              "html": "<h3>Processors</h3>",
+              "target": [
+                "a[href$=\"processors/\"] > .tech-category-copy > h3"
+              ]
+            },
+            {
+              "html": "<p>Cores, clocks &amp; platform</p>",
+              "target": [
+                "a[href$=\"processors/\"] > .tech-category-copy > p"
+              ]
+            },
+            {
+              "html": "<span class=\"tech-count\">66 PARTS</span>",
+              "target": [
+                "a[href$=\"memory/\"] > .tech-category-copy > .tech-count"
+              ]
+            },
+            {
+              "html": "<h3>Memory</h3>",
+              "target": [
+                "a[href$=\"memory/\"] > .tech-category-copy > h3"
+              ]
+            },
+            {
+              "html": "<p>Capacity, speed &amp; generation</p>",
+              "target": [
+                "a[href$=\"memory/\"] > .tech-category-copy > p"
+              ]
+            },
+            {
+              "html": "<span class=\"tech-count\">78 PARTS</span>",
+              "target": [
+                "a[href$=\"solid-state-drives/\"] > .tech-category-copy > .tech-count"
+              ]
+            },
+            {
+              "html": "<h3>Solid-state drives</h3>",
+              "target": [
+                "a[href$=\"solid-state-drives/\"] > .tech-category-copy > h3"
+              ]
+            },
+            {
+              "html": "<p>Capacity, interface &amp; endurance</p>",
+              "target": [
+                "a[href$=\"solid-state-drives/\"] > .tech-category-copy > p"
+              ]
+            },
+            {
+              "html": "<a href=\"/blog/\">All hardware guides <span aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" class=\"link-icon\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" aria-hidden=\"true\"><path d=\"M4 12h16m-6-6 6 6-6 6\"></path></svg></span></a>",
+              "target": [
+                ".tech-section-heading > a[href$=\"blog/\"]"
+              ]
+            },
+            {
+              "html": "<span class=\"tech-guide-index\">01 / GAME FPS</span>",
+              "target": [
+                "a[href$=\"performance/\"] > .tech-guide-index"
+              ]
+            },
+            {
+              "html": "<h3>What performance can you target?</h3>",
+              "target": [
+                "a[href$=\"performance/\"] > h3"
+              ]
+            },
+            {
+              "html": "<p>Check the evidence for a game and explore reported console modes.</p>",
+              "target": [
+                "a[href$=\"performance/\"] > p"
+              ]
+            },
+            {
+              "html": "<span class=\"tech-read\">Explore game performance <span aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" class=\"link-icon\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" aria-hidden=\"true\"><path d=\"M4 12h16m-6-6 6 6-6 6\"></path></svg></span></span>",
+              "target": [
+                "a[href$=\"performance/\"] > .tech-read"
+              ]
+            },
+            {
+              "html": "<span class=\"tech-guide-index\">02 / MEMORY</span>",
+              "target": [
+                "a[href$=\"understanding-pc-memory/\"] > .tech-guide-index"
+              ]
+            },
+            {
+              "html": "<h3>More RAM or faster RAM?</h3>",
+              "target": [
+                "a[href$=\"understanding-pc-memory/\"] > h3"
+              ]
+            },
+            {
+              "html": "<p>Understand capacity, DDR generations, and latency before choosing a kit.</p>",
+              "target": [
+                "a[href$=\"understanding-pc-memory/\"] > p"
+              ]
+            },
+            {
+              "html": "<span class=\"tech-read\">Memory explained <span aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" class=\"link-icon\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" aria-hidden=\"true\"><path d=\"M4 12h16m-6-6 6 6-6 6\"></path></svg></span></span>",
+              "target": [
+                "a[href$=\"understanding-pc-memory/\"] > .tech-read"
+              ]
+            },
+            {
+              "html": "<span class=\"tech-guide-index\">03 / STORAGE</span>",
+              "target": [
+                "a[href$=\"choosing-an-ssd/\"] > .tech-guide-index"
+              ]
+            },
+            {
+              "html": "<h3>Choose an SSD that fits.</h3>",
+              "target": [
+                "a[href$=\"choosing-an-ssd/\"] > h3"
+              ]
+            },
+            {
+              "html": "<p>M.2 describes a form factor. NVMe is a protocol. Here’s how to make sense of both.</p>",
+              "target": [
+                "a[href$=\"choosing-an-ssd/\"] > p"
+              ]
+            },
+            {
+              "html": "<span class=\"tech-read\">Storage explained <span aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" class=\"link-icon\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" aria-hidden=\"true\"><path d=\"M4 12h16m-6-6 6 6-6 6\"></path></svg></span></span>",
+              "target": [
+                "a[href$=\"choosing-an-ssd/\"] > .tech-read"
+              ]
+            },
+            {
+              "html": "<span class=\"tech-guide-index\">04 / COMPATIBILITY</span>",
+              "target": [
+                "a[href$=\"builder/\"] > .tech-guide-index"
+              ]
+            },
+            {
+              "html": "<h3>Check the whole system.</h3>",
+              "target": [
+                "a[href$=\"builder/\"] > h3"
+              ]
+            },
+            {
+              "html": "<p>Match sockets, memory, case clearance, and power before finalizing your parts.</p>",
+              "target": [
+                "a[href$=\"builder/\"] > p"
+              ]
+            },
+            {
+              "html": "<span class=\"tech-read\">Check your build <span aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" class=\"link-icon\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" aria-hidden=\"true\"><path d=\"M4 12h16m-6-6 6 6-6 6\"></path></svg></span></span>",
+              "target": [
+                "a[href$=\"builder/\"] > .tech-read"
+              ]
+            },
+            {
+              "html": "<a href=\"/methodology/\">How we use data <span aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" class=\"link-icon\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" aria-hidden=\"true\"><path d=\"M4 12h16m-6-6 6 6-6 6\"></path></svg></span></a>",
+              "target": [
+                ".tech-source-note > a[href$=\"methodology/\"]"
+              ]
+            },
+            {
+              "html": "<a href=\"/blog/b650-tomahawk-m2-pcie-lane-sharing/\">Understand your connections</a>",
+              "target": [
+                ".publication-card:nth-child(1) > div > h3 > a"
+              ]
+            },
+            {
+              "html": "<a href=\"/tools/platform-upgrade-cost/\">Compare complete upgrade costs</a>",
+              "target": [
+                "h3 > a[href$=\"platform-upgrade-cost/\"]"
+              ]
+            },
+            {
+              "html": "<a href=\"/phones/size-compare/\">Compare phone sizes</a>",
+              "target": [
+                "h3 > a[href$=\"size-compare/\"]"
+              ]
+            },
+            {
+              "html": "<a class=\"button secondary\" href=\"/resources/\">All resources</a>",
+              "target": [
+                ".secondary.button[href$=\"resources/\"]"
+              ]
+            },
+            {
+              "html": "<a href=\"/build-school/\">Build School</a>",
+              "target": [
+                ".program-sections > a[href$=\"build-school/\"]"
+              ]
+            },
+            {
+              "html": "<a href=\"/upgrade/\">Upgrade planner</a>",
+              "target": [
+                ".program-sections > a[href$=\"upgrade/\"]"
+              ]
+            },
+            {
+              "html": "<a href=\"/compatibility/\">Compatibility</a>",
+              "target": [
+                ".program-sections > a[href$=\"compatibility/\"]"
+              ]
+            },
+            {
+              "html": "<a href=\"/troubleshooting/\">Troubleshooting</a>",
+              "target": [
+                ".program-sections > a[href$=\"troubleshooting/\"]"
+              ]
+            },
+            {
+              "html": "<a href=\"/tools/\">Tools</a>",
+              "target": [
+                ".program-sections > a[href$=\"tools/\"]"
+              ]
+            },
+            {
+              "html": "<a href=\"/blog/\">Browse all guides</a>",
+              "target": [
+                "header > a[href$=\"blog/\"]"
+              ]
+            },
+            {
+              "html": "<h3>How to shortlist a prebuilt in Canada</h3>",
+              "target": [
+                "article:nth-child(1) > a > h3"
+              ]
+            },
+            {
+              "html": "<h3>Build or buy? Compare the whole system</h3>",
+              "target": [
+                "article:nth-child(2) > a > h3"
+              ]
+            },
+            {
+              "html": "<h3>What a 3D preview can tell you</h3>",
+              "target": [
+                "article:nth-child(3) > a > h3"
+              ]
+            },
+            {
+              "html": "<a href=\"/news/micron-ai-demand-memory-evidence/\">Micron’s server-memory report and its desktop limits</a>",
+              "target": [
+                ".growth-update-row > ul > li:nth-child(1) > a"
+              ]
+            },
+            {
+              "html": "<a href=\"/news/nvidia-rtx-spark-windows-october-2026/\">NVIDIA’s RTX Spark announcement</a>",
+              "target": [
+                ".growth-update-row > ul > li:nth-child(2) > a"
+              ]
+            },
+            {
+              "html": "<a href=\"/news/\">Open the Newsroom</a>",
+              "target": [
+                "li:nth-child(3) > a[href$=\"news/\"]"
+              ]
+            },
+            {
+              "html": "<a class=\"footer-brand\" href=\"/\">PC Part Performance</a>",
+              "target": [
+                ".footer-brand"
+              ]
+            },
+            {
+              "html": "<a href=\"/builder/\">PC Builder</a>",
+              "target": [
+                "div:nth-child(1) > a[href$=\"builder/\"]"
+              ]
+            },
+            {
+              "html": "<a href=\"/prebuilts/\">Prebuilt PCs</a>",
+              "target": [
+                "nav[aria-label=\"Footer navigation\"] > div:nth-child(1) > a[href$=\"prebuilts/\"]"
+              ]
+            },
+            {
+              "html": "<a href=\"/laptops/\">Gaming laptops</a>",
+              "target": [
+                "nav[aria-label=\"Footer navigation\"] > div:nth-child(1) > a[href$=\"laptops/\"]"
+              ]
+            },
+            {
+              "html": "<a href=\"/upgrade/\">Upgrade planner</a>",
+              "target": [
+                "div:nth-child(1) > a[href$=\"upgrade/\"]"
+              ]
+            },
+            {
+              "html": "<a href=\"/hardware/\">Hardware</a>",
+              "target": [
+                "div:nth-child(2) > a[href$=\"hardware/\"]"
+              ]
+            },
+            {
+              "html": "<a href=\"/compare/\">Compare parts</a>",
+              "target": [
+                "div:nth-child(2) > a[href$=\"compare/\"]"
+              ]
+            },
+            {
+              "html": "<a href=\"/phones/\">Phone comparison</a>",
+              "target": [
+                "div:nth-child(2) > a[href$=\"phones/\"]"
+              ]
+            },
+            {
+              "html": "<a href=\"/performance/\">Game FPS</a>",
+              "target": [
+                "nav[aria-label=\"Footer navigation\"] > div:nth-child(2) > a[href$=\"performance/\"]"
+              ]
+            },
+            {
+              "html": "<a href=\"/blog/\">Guides</a>",
+              "target": [
+                "div:nth-child(3) > a[href$=\"blog/\"]"
+              ]
+            },
+            {
+              "html": "<a href=\"/news/\">Hardware news</a>",
+              "target": [
+                "div:nth-child(3) > a[href$=\"news/\"]"
+              ]
+            },
+            {
+              "html": "<a href=\"/build-school/\">Build School</a>",
+              "target": [
+                "div:nth-child(3) > a[href$=\"build-school/\"]"
+              ]
+            },
+            {
+              "html": "<a href=\"/tools/\">Calculators</a>",
+              "target": [
+                "div:nth-child(3) > a[href$=\"tools/\"]"
+              ]
+            },
+            {
+              "html": "<a href=\"/troubleshooting/\">Troubleshooting</a>",
+              "target": [
+                "div:nth-child(3) > a[href$=\"troubleshooting/\"]"
+              ]
+            },
+            {
+              "html": "<a href=\"/about/\">About us</a>",
+              "target": [
+                "a[href$=\"about/\"]"
+              ]
+            },
+            {
+              "html": "<a href=\"/methodology/\">Data &amp; methodology</a>",
+              "target": [
+                "div:nth-child(4) > a[href$=\"methodology/\"]"
+              ]
+            },
+            {
+              "html": "<a href=\"/builder/model-credits/\">3D creator credits</a>",
+              "target": [
+                "a[href$=\"model-credits/\"]"
+              ]
+            },
+            {
+              "html": "<a href=\"/editorial-policy/\">Editorial standards</a>",
+              "target": [
+                "a[href$=\"editorial-policy/\"]"
+              ]
+            },
+            {
+              "html": "<a href=\"/privacy/\">Privacy</a>",
+              "target": [
+                "a[href$=\"privacy/\"]"
+              ]
+            }
+          ],
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ]
+        },
+        {
+          "help": "All touch targets must be 24px large, or leave sufficient space",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/target-size?application=axeAPI",
+          "id": "target-size",
+          "impact": "serious",
+          "nodes": [
+            {
+              "html": "<button type=\"button\" data-region=\"CA\" aria-pressed=\"true\" aria-label=\"CA — Shop in Canada, Canadian dollars\"><img src=\"/assets/flag-ca.svg\" alt=\"\" width=\"21\" height=\"14\"><span>CA</span></button>",
+              "target": [
+                "button[data-region=\"CA\"][type=\"button\"]"
+              ]
+            },
+            {
+              "html": "<button type=\"button\" data-region=\"US\" aria-pressed=\"false\" aria-label=\"US — Shop in the United States, US dollars\"><img src=\"/assets/flag-us.svg\" alt=\"\" width=\"21\" height=\"14\"><span>US</span></button>",
+              "target": [
+                "button[data-region=\"US\"]"
+              ]
+            },
+            {
+              "html": "<button type=\"submit\" aria-label=\"Search the site\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" aria-hidden=\"true\"><circle cx=\"10.5\" cy=\"10.5\" r=\"6.5\"></circle><path d=\"m16 16 5 5\"></path></svg></button>",
+              "target": [
+                "button[type=\"submit\"]"
+              ]
+            },
+            {
+              "html": "<a class=\"button secondary\" href=\"/resources/\">All resources</a>",
+              "target": [
+                ".secondary.button[href$=\"resources/\"]"
+              ]
+            },
+            {
+              "html": "<a href=\"/build-school/\">Build School</a>",
+              "target": [
+                ".program-sections > a[href$=\"build-school/\"]"
+              ]
+            },
+            {
+              "html": "<a href=\"/upgrade/\">Upgrade planner</a>",
+              "target": [
+                ".program-sections > a[href$=\"upgrade/\"]"
+              ]
+            },
+            {
+              "html": "<a href=\"/compatibility/\">Compatibility</a>",
+              "target": [
+                ".program-sections > a[href$=\"compatibility/\"]"
+              ]
+            },
+            {
+              "html": "<a href=\"/troubleshooting/\">Troubleshooting</a>",
+              "target": [
+                ".program-sections > a[href$=\"troubleshooting/\"]"
+              ]
+            },
+            {
+              "html": "<a href=\"/tools/\">Tools</a>",
+              "target": [
+                ".program-sections > a[href$=\"tools/\"]"
+              ]
+            },
+            {
+              "html": "<a href=\"/news/micron-ai-demand-memory-evidence/\">Micron’s server-memory report and its desktop limits</a>",
+              "target": [
+                ".growth-update-row > ul > li:nth-child(1) > a"
+              ]
+            },
+            {
+              "html": "<a href=\"/news/nvidia-rtx-spark-windows-october-2026/\">NVIDIA’s RTX Spark announcement</a>",
+              "target": [
+                ".growth-update-row > ul > li:nth-child(2) > a"
+              ]
+            },
+            {
+              "html": "<a href=\"/news/\">Open the Newsroom</a>",
+              "target": [
+                "li:nth-child(3) > a[href$=\"news/\"]"
+              ]
+            }
+          ],
+          "tags": [
+            "cat.sensory-and-visual-cues",
+            "wcag22aa",
+            "wcag258",
+            "EN-301-549v4",
+            "EN-9.2.5.8"
+          ]
+        }
+      ],
+      "width": 1440
+    }
+  },
+  {
+    "overflow": false,
+    "report": {
+      "axeVersion": "4.14.0",
+      "checkedAt": "2026-10-17T01:40:05.104Z",
+      "height": 900,
+      "incomplete": [
+        {
+          "help": "Elements must only use permitted ARIA attributes",
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "nodes": [
+            {
+              "html": "<div class=\"segmented\" id=\"compare-categories\" aria-label=\"Popular hardware categories\">",
+              "target": [
+                "#compare-categories"
+              ]
+            }
+          ]
+        },
+        {
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "html": "<button class=\"button secondary\" id=\"export-csv\">Export CSV <span aria-hidden=\"true\">↓</span></button>",
+              "target": [
+                "#export-csv"
+              ]
+            },
+            {
+              "html": "<span aria-hidden=\"true\">↓</span>",
+              "target": [
+                "#export-csv > span[aria-hidden=\"true\"]"
+              ]
+            },
+            {
+              "html": "<button type=\"button\" class=\"button secondary\" id=\"copy-comparison\">Copy comparison link</button>",
+              "target": [
+                "#copy-comparison"
+              ]
+            },
+            {
+              "html": "<button type=\"button\" class=\"button secondary\" id=\"print-comparison\">Print comparison</button>",
+              "target": [
+                "#print-comparison"
+              ]
+            },
+            {
+              "html": "<span class=\"category-menu-chevron\" aria-hidden=\"true\">⌄</span>",
+              "target": [
+                ".category-menu-chevron"
+              ]
+            },
+            {
+              "html": "<span aria-hidden=\"true\">⌄</span>",
+              "target": [
+                "button[data-replace=\"0\"] > span[aria-hidden=\"true\"]"
+              ]
+            },
+            {
+              "html": "<a class=\"button secondary\" href=\"/builder/?build=%2C%2Crtx5070%2C%2C%2C%2C%2C%2C%2C\" aria-label=\"Use in a build: GeForce RTX 5070\">Use in a build</a>",
+              "target": [
+                ".product-card:nth-child(1) > .product-heading > .program-actions > .button.secondary:nth-child(1)"
+              ]
+            },
+            {
+              "html": "<a class=\"button secondary\" href=\"/upgrade/?owned=rtx5070\" aria-label=\"I own this part: GeForce RTX 5070\">I own this part</a>",
+              "target": [
+                "a[href=\"/upgrade/?owned=rtx5070\"]"
+              ]
+            },
+            {
+              "html": "<span aria-hidden=\"true\">⌄</span>",
+              "target": [
+                "button[data-replace=\"1\"] > span[aria-hidden=\"true\"]"
+              ]
+            },
+            {
+              "html": "<a class=\"button secondary\" href=\"/builder/?build=%2C%2Crtx5060ti16%2C%2C%2C%2C%2C%2C%2C\" aria-label=\"Use in a build: GeForce RTX 5060 Ti 16 GB\">Use in a build</a>",
+              "target": [
+                ".product-card:nth-child(2) > .product-heading > .program-actions > .button.secondary:nth-child(1)"
+              ]
+            },
+            {
+              "html": "<a class=\"button secondary\" href=\"/upgrade/?owned=rtx5060ti16\" aria-label=\"I own this part: GeForce RTX 5060 Ti 16 GB\">I own this part</a>",
+              "target": [
+                "a[href=\"/upgrade/?owned=rtx5060ti16\"]"
+              ]
+            },
+            {
+              "html": "<button type=\"button\" class=\"button secondary\" data-save-current-comparison=\"\">Save comparison</button>",
+              "target": [
+                "button[data-save-current-comparison=\"\"]"
+              ]
+            },
+            {
+              "html": "<a class=\"button secondary\" href=\"/compare/rx-9070-vs-rx-9070-xt/\">Read the RX 9070 comparison</a>",
+              "target": [
+                ".master-library > .button.secondary"
+              ]
+            }
+          ]
+        },
+        {
+          "help": "Elements must have their visible text as part of their accessible name",
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "nodes": [
+            {
+              "html": "<button class=\"icon-button remove-product\" data-remove=\"rtx5070\" aria-label=\"Remove GeForce RTX 5070\">×</button>",
+              "target": [
+                "button[data-remove=\"rtx5070\"]"
+              ]
+            },
+            {
+              "html": "<button class=\"icon-button remove-product\" data-remove=\"rtx5060ti16\" aria-label=\"Remove GeForce RTX 5060 Ti 16 GB\">×</button>",
+              "target": [
+                "button[data-remove=\"rtx5060ti16\"]"
+              ]
+            }
+          ]
+        }
+      ],
+      "scope": "Real browser DOM, WCAG A/AA and best-practice rules; automated findings do not certify full conformance.",
+      "theme": "dark",
+      "url": "/compare/",
+      "violations": [],
+      "width": 1440
+    }
+  },
+  {
+    "overflow": false,
+    "report": {
+      "axeVersion": "4.14.0",
+      "checkedAt": "2026-10-17T01:40:05.665Z",
+      "height": 900,
+      "incomplete": [
+        {
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "html": "<a class=\"button primary\" href=\"/builder/\">Start a build</a>",
+              "target": [
+                ".workspace-heading-actions > .primary.button[href$=\"builder/\"]"
+              ]
+            },
+            {
+              "html": "<a class=\"button primary\" href=\"/builder/\">Choose PC parts</a>",
+              "target": [
+                ".workspace-empty > .primary.button[href$=\"builder/\"]"
+              ]
+            },
+            {
+              "html": "<a class=\"button secondary\" href=\"http://127.0.0.1:4198/compare/?mode=interactive&amp;parts=rtx5070%2Crtx5060ti16&amp;differences=1\">Open current comparison</a>",
+              "target": [
+                ".workspace-history-heading > .secondary.button"
+              ]
+            },
+            {
+              "html": "<button class=\"button secondary\" type=\"submit\">Find parts</button>",
+              "target": [
+                ".workspace-watch-form > .secondary.button[type=\"submit\"]"
+              ]
+            },
+            {
+              "html": "<button type=\"button\" class=\"button secondary\" data-workspace-check=\"\">Check saved parts</button>",
+              "target": [
+                "button[data-workspace-check=\"\"]"
+              ]
+            }
+          ]
+        }
+      ],
+      "scope": "Real browser DOM, WCAG A/AA and best-practice rules; automated findings do not certify full conformance.",
+      "theme": "dark",
+      "url": "/my-pc/",
+      "violations": [],
+      "width": 1440
+    }
+  },
+  {
+    "overflow": false,
+    "report": {
+      "axeVersion": "4.14.0",
+      "checkedAt": "2026-10-17T01:40:06.038Z",
+      "height": 900,
+      "incomplete": [
+        {
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "html": "<a class=\"button secondary\" href=\"/builder/\">Choose an exact memory kit</a>",
+              "target": [
+                ".button.secondary[href$=\"builder/\"]"
+              ]
+            },
+            {
+              "html": "<a class=\"button secondary\" href=\"/compatibility/\">Check the memory configuration</a>",
+              "target": [
+                ".button.secondary[href$=\"compatibility/\"]"
+              ]
+            },
+            {
+              "html": "<a class=\"button secondary\" href=\"/tools/memory-timing-comparison/\">Keep timings separate from capacity</a>",
+              "target": [
+                ".button.secondary:nth-child(3)"
+              ]
+            },
+            {
+              "html": "<a class=\"button secondary\" href=\"/upgrade/\">Compare keeping and replacing RAM</a>",
+              "target": [
+                ".button.secondary[href$=\"upgrade/\"]"
+              ]
+            }
+          ]
+        }
+      ],
+      "scope": "Real browser DOM, WCAG A/AA and best-practice rules; automated findings do not certify full conformance.",
+      "theme": "dark",
+      "url": "/blog/32gb-vs-64gb-ram-workloads/",
+      "violations": [],
+      "width": 1440
+    }
+  }
+]

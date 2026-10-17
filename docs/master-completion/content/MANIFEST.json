@@ -1,0 +1,150 @@
+{
+  "schema": 1,
+  "author": "PC Part Performance",
+  "humanReviewClaimed": false,
+  "deploymentConfirmed": false,
+  "status": "complete_source_checked_release_pending",
+  "evidenceDate": "2026-10-16",
+  "valid": true,
+  "errors": [],
+  "articles": [
+    {
+      "id": "MC01",
+      "route": "/blog/check-cpu-bios-support/",
+      "title": "Check CPU and BIOS support: exact model, minimum version and update method",
+      "change": "material_revision",
+      "words": 1161,
+      "hash": "8bcd9d46abbf19334b16efd22aee2f837fde5b7a2a558002c552a927402460d6",
+      "replacesDraftIntent": null,
+      "partialIntent": null,
+      "lifecycle": {
+        "state": "complete_source_checked",
+        "sourceCheck": "AI-assisted primary-source inspection",
+        "humanEditorialReview": null,
+        "humanReviewClaimed": false,
+        "publication": "requires_exact_version_owner_release"
+      }
+    },
+    {
+      "id": "MC02",
+      "route": "/blog/phased-pc-upgrade-plan/",
+      "title": "Plan a phased PC upgrade: make every intermediate build usable",
+      "change": "material_revision",
+      "words": 1135,
+      "hash": "d4ea9daf72879f4f21d23bf425e13e2d0be5b8cf9c5aa8fd41be9fe8e569c1fb",
+      "replacesDraftIntent": null,
+      "partialIntent": null,
+      "lifecycle": {
+        "state": "complete_source_checked",
+        "sourceCheck": "AI-assisted primary-source inspection",
+        "humanEditorialReview": null,
+        "humanReviewClaimed": false,
+        "publication": "requires_exact_version_owner_release"
+      }
+    },
+    {
+      "id": "MC03",
+      "route": "/blog/choose-a-pc-power-supply/",
+      "title": "Choose a PC power supply: wattage, connectors, fit and the correct cables",
+      "change": "material_revision",
+      "words": 1139,
+      "hash": "260f4664b4f6facdef9282873ce832d61a48bea582b65d49053ec87addeaf591",
+      "replacesDraftIntent": null,
+      "partialIntent": null,
+      "lifecycle": {
+        "state": "complete_source_checked",
+        "sourceCheck": "AI-assisted primary-source inspection",
+        "humanEditorialReview": null,
+        "humanReviewClaimed": false,
+        "publication": "requires_exact_version_owner_release"
+      }
+    },
+    {
+      "id": "MC04",
+      "route": "/blog/read-hardware-benchmarks-test-conditions/",
+      "title": "How to read GPU benchmarks without comparing the wrong tests",
+      "change": "new",
+      "words": 837,
+      "hash": "f67a8871ccffaefb509cfbbb07032c8c3ce9d0fa54dcd2786ad2b84a4a4e9fc0",
+      "replacesDraftIntent": "40",
+      "partialIntent": null,
+      "lifecycle": {
+        "state": "complete_source_checked",
+        "sourceCheck": "AI-assisted primary-source inspection",
+        "humanEditorialReview": null,
+        "humanReviewClaimed": false,
+        "publication": "requires_exact_version_owner_release"
+      }
+    },
+    {
+      "id": "MC05",
+      "route": "/blog/32gb-vs-64gb-ram-workloads/",
+      "title": "32 GB vs 64 GB RAM: decide from the work your PC actually does",
+      "change": "new",
+      "words": 870,
+      "hash": "eec64c1954d5ff9572f7492bb621f192e8cf6a0eaa1c33815fb2c4f32d8483c1",
+      "replacesDraftIntent": "15",
+      "partialIntent": null,
+      "lifecycle": {
+        "state": "complete_source_checked",
+        "sourceCheck": "AI-assisted primary-source inspection",
+        "humanEditorialReview": null,
+        "humanReviewClaimed": false,
+        "publication": "requires_exact_version_owner_release"
+      }
+    },
+    {
+      "id": "MC06",
+      "route": "/blog/reuse-pc-components-new-build/",
+      "title": "Which PC parts can you reuse? A keep, replace and verify checklist",
+      "change": "new",
+      "words": 898,
+      "hash": "9cf85d7e416b9b358928dc277ed66062200879188695fa2723e3d6c4f04c4d84",
+      "replacesDraftIntent": "23",
+      "partialIntent": null,
+      "lifecycle": {
+        "state": "complete_source_checked",
+        "sourceCheck": "AI-assisted primary-source inspection",
+        "humanEditorialReview": null,
+        "humanReviewClaimed": false,
+        "publication": "requires_exact_version_owner_release"
+      }
+    },
+    {
+      "id": "MC07",
+      "route": "/blog/gaming-streaming-pc-planning/",
+      "title": "Plan a gaming and streaming PC around the stream you want to make",
+      "change": "new",
+      "words": 832,
+      "hash": "f7d1846a54c9a7b92e24bb77ec9c33ae46a99d3cc9b2ce6e66516c041112d38f",
+      "replacesDraftIntent": "09",
+      "partialIntent": null,
+      "lifecycle": {
+        "state": "complete_source_checked",
+        "sourceCheck": "AI-assisted primary-source inspection",
+        "humanEditorialReview": null,
+        "humanReviewClaimed": false,
+        "publication": "requires_exact_version_owner_release"
+      }
+    },
+    {
+      "id": "MC08",
+      "route": "/blog/video-editing-pc-workload-checklist/",
+      "title": "Plan a video-editing PC from your projects, not a gaming label",
+      "change": "new",
+      "words": 845,
+      "hash": "bedcf1299b5278426e5decfd9923ae0f08b900dff13fd08d4c449318027180a5",
+      "replacesDraftIntent": null,
+      "partialIntent": "39",
+      "lifecycle": {
+        "state": "complete_source_checked",
+        "sourceCheck": "AI-assisted primary-source inspection",
+        "humanEditorialReview": null,
+        "humanReviewClaimed": false,
+        "publication": "requires_exact_version_owner_release"
+      }
+    }
+  ],
+  "words": 7717,
+  "sources": 32
+}

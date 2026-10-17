@@ -1,9 +1,17 @@
 import { PUBLIC_PRICE_POLICY, PUBLIC_PRICE_TARGETS } from './oct14-price-sources.mjs';
 import { NEWEGG_PUBLIC_TARGET } from './oct14-price-sources-newegg.mjs';
+import { COMPLETION_PRICE_TARGETS } from './completion-price-expansion.mjs';
 
-/* Pure validation for the six fixed public listings. Suitable for a Worker. */
-export const PUBLIC_SNAPSHOT_TARGETS = Object.freeze([...PUBLIC_PRICE_TARGETS, NEWEGG_PUBLIC_TARGET]);
+/* Pure validation for the fixed exact public listings. Suitable for a Worker. */
+export const PUBLIC_SNAPSHOT_TARGETS = Object.freeze([...PUBLIC_PRICE_TARGETS, Object.freeze({ ...NEWEGG_PUBLIC_TARGET, retailerMpn: NEWEGG_PUBLIC_TARGET.sku }), ...COMPLETION_PRICE_TARGETS]);
 export const PUBLIC_SNAPSHOT_SCHEMA = 1;
+export const publicPriceSourceKind = target => target.adapter === 'corsair-product-jsonld' ? 'public-manufacturer-structured-data' : target.adapter === 'newegg-original-product-state' ? 'public-retailer-original-state' : 'public-retailer-structured-data';
+export const publicPriceAvailabilityBasis = target => target.adapter === 'corsair-product-jsonld' ? 'manufacturer-direct-online-product-offer' : target.adapter === 'newegg-original-product-state' ? 'original-retailer-online-product-state' : 'retailer-product-online-offer-not-local-store-inventory';
+export function lowestEligiblePublicPrices(offers) {
+  const lowest = {};
+  for (const offer of offers) if (offer.condition === 'new' && offer.inStock === true && typeof offer.price === 'number' && Number.isFinite(offer.price) && offer.price > 0 && (!lowest[offer.productId] || offer.price < lowest[offer.productId].price)) lowest[offer.productId] = offer;
+  return lowest;
+}
 const key = row => [row.merchantId, row.region, row.productId].join(':');
 const registry = new Map(PUBLIC_SNAPSHOT_TARGETS.map(target => [key(target), target]));
 const text = (value, max = 400) => typeof value === 'string' && value.length > 0 && value.length <= max && !/[\u0000-\u001f\u007f]/.test(value);
@@ -27,7 +35,7 @@ export function validatePublicPriceObservation(raw, { now = Date.now() } = {}) {
   for (const field of ['variant', 'memoryVariant', 'revision']) if (raw[field] !== target[field]) reject('variant_mismatch');
   if (raw.name !== target.name || !text(raw.itemName)) reject('name_invalid');
   if (typeof raw.price !== 'number' || !Number.isFinite(raw.price) || raw.price <= 0 || raw.price > 1000000 || Math.abs(raw.price * 100 - Math.round(raw.price * 100)) > 0.000001) reject('price_invalid');
-  const conditions = target.region === 'CA' ? ['new'] : ['new', 'unknown'];
+  const conditions = target.adapter === 'newegg-original-product-state' ? ['new', 'unknown'] : ['new'];
   if (!conditions.includes(raw.condition)) reject('condition_invalid');
   if (![true, false, null].includes(raw.inStock)) reject('stock_invalid');
   const availability = raw.inStock === true ? 'in-stock' : raw.inStock === false ? 'out-of-stock' : 'unknown';
@@ -36,7 +44,7 @@ export function validatePublicPriceObservation(raw, { now = Date.now() } = {}) {
   const checked = date(raw.checkedAt), stock = date(raw.availabilityCheckedAt), expiry = date(raw.expiresAt);
   if (checked === null || stock === null || expiry === null || checked > now || stock > now || stock !== checked || expiry <= checked || expiry > checked + PUBLIC_PRICE_POLICY.snapshotMs) reject('timestamps_invalid');
   else if (now - checked >= PUBLIC_PRICE_POLICY.snapshotMs || now >= expiry) reject('observation_expired');
-  const kind = target.region === 'CA' ? 'public-retailer-structured-data' : 'public-retailer-original-state';
+  const kind = publicPriceSourceKind(target);
   if (raw.source?.kind !== kind || raw.source?.publisher !== target.merchant || raw.source?.url !== target.listingUrl) reject('source_mismatch');
   if (issues.length) return { valid: false, issues: [...new Set(issues)], observation: null };
   const observation = {
@@ -48,7 +56,7 @@ export function validatePublicPriceObservation(raw, { now = Date.now() } = {}) {
     checkedAt: raw.checkedAt, availabilityCheckedAt: raw.availabilityCheckedAt, expiresAt: raw.expiresAt,
     charges: { tax: 'excluded', shipping: 'excluded' }, source: { kind, publisher: target.merchant, url: target.listingUrl },
     eligibleForNewPurchaseMinimum: raw.condition === 'new' && raw.inStock === true,
-    availabilityBasis: target.region === 'CA' ? 'retailer-product-online-offer-not-local-store-inventory' : 'original-retailer-online-product-state'
+    availabilityBasis: publicPriceAvailabilityBasis(target)
   };
   return { valid: true, issues: [], observation };
 }
@@ -72,12 +80,12 @@ export function publicPriceSnapshotPayload(raw, { ids, region = 'CA', now = Date
   if (!Array.isArray(ids) || !ids.length || ids.length > PUBLIC_PRICE_POLICY.maxIds || ids.some(id => typeof id !== 'string' || !/^[A-Za-z0-9_-]{1,120}$/.test(id)) || !['CA', 'US'].includes(region)) throw new TypeError('snapshot_request_invalid');
   const verified = validatePublicPriceSnapshot(raw, { now });
   const requested = [...new Set(ids)], wanted = new Set(requested), offers = verified.observations.filter(row => row.region === region && wanted.has(row.productId));
-  const lowestByProduct = Object.fromEntries(offers.filter(row => row.eligibleForNewPurchaseMinimum).map(row => [row.productId, row]));
+  const lowestByProduct = lowestEligiblePublicPrices(offers);
   const results = requested.map(productId => {
-    const offer = offers.find(row => row.productId === productId);
+    const offer = lowestByProduct[productId] || offers.find(row => row.productId === productId && row.condition === 'new') || offers.find(row => row.productId === productId);
     return { productId, state: offer ? offer.condition === 'unknown' ? 'condition_requires_verification' : 'checked' : PUBLIC_SNAPSHOT_TARGETS.some(row => row.region === region && row.productId === productId) ? 'no_current_observation' : 'not_covered' };
   });
   return { schema: 1, status: offers.length ? 'checked' : 'no_current_observation', policy: 'daily-checked-snapshot', region, currency: region === 'CA' ? 'CAD' : 'USD', offers, lowestByProduct, results,
-    snapshotGeneratedAt: verified.generatedAt, coverage: { targets: PUBLIC_SNAPSHOT_TARGETS.filter(row => row.region === region).length, merchants: region === 'CA' ? 1 : 1, basis: 'included-exact-listings-only' },
+    snapshotGeneratedAt: verified.generatedAt, coverage: { targets: PUBLIC_SNAPSHOT_TARGETS.filter(row => row.region === region).length, merchants: new Set(PUBLIC_SNAPSHOT_TARGETS.filter(row => row.region === region).map(row => row.merchantId)).size, basis: 'included-exact-listings-only' },
     sourceMode: 'daily-published-public-snapshot', snapshotRejectedRecords: verified.rejected.length };
 }

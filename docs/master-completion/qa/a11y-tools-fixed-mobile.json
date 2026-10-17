@@ -1,0 +1,37 @@
+{
+  "checkedAt": "2026-10-17T02:05:58.084Z",
+  "url": "/tools/",
+  "width": 390,
+  "height": 844,
+  "theme": "dark",
+  "axeVersion": "4.14.0",
+  "scope": "Real browser DOM, WCAG A/AA and best-practice rules; automated findings do not certify full conformance.",
+  "violations": [],
+  "incomplete": [
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "nodes": [
+        {
+          "target": [
+            "a[href$=\"builder/\"] > span"
+          ],
+          "html": "<span>Build</span>"
+        },
+        {
+          "target": [
+            "a[href$=\"blog/\"] > span"
+          ],
+          "html": "<span>Learn</span>"
+        },
+        {
+          "target": [
+            "a[href$=\"my-pc/\"] > span"
+          ],
+          "html": "<span>My PC</span>"
+        }
+      ]
+    }
+  ]
+}

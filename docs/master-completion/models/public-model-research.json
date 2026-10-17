@@ -1,0 +1,3089 @@
+{
+  "schema": 1,
+  "method": "Public Sketchfab metadata and public Objaverse file index; search matches are unverified candidates, not coverage.",
+  "objectIndex": "https://huggingface.co/datasets/allenai/objaverse",
+  "searches": {
+    "Noctua NH-D15": {
+      "status": 200,
+      "url": "https://api.sketchfab.com/v3/search?type=models&q=Noctua+NH-D15&downloadable=true&count=24",
+      "checkedAt": "2026-10-17T00:47:16.249Z",
+      "hasFurtherResults": false,
+      "results": [
+        {
+          "uid": "23e225925e174a9f929d995cd9bd22e2",
+          "name": "Noctua NH-D15 CPU cooler",
+          "description": "PC component - a big unit of CPU cooler.\nEmpty objects for moving the parts together and rotating the fans.",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-23e225925e174a9f929d995cd9bd22e2",
+          "creator": "SzaBa",
+          "creatorUrl": "https://sketchfab.com/SzaBa",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 10676,
+          "vertices": 5624,
+          "thumbnail": "https://media.sketchfab.com/models/23e225925e174a9f929d995cd9bd22e2/thumbnails/e1f45cf2a57c4576a989e1c2f8bcb3c3/d96f91c6e9574ceba077f0f89c2e01f3.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:16.248Z"
+        }
+      ]
+    },
+    "Noctua NH-U12A": {
+      "status": 200,
+      "url": "https://api.sketchfab.com/v3/search?type=models&q=Noctua+NH-U12A&downloadable=true&count=24",
+      "checkedAt": "2026-10-17T00:47:16.792Z",
+      "hasFurtherResults": false,
+      "results": []
+    },
+    "Noctua NH-L9a": {
+      "status": 200,
+      "url": "https://api.sketchfab.com/v3/search?type=models&q=Noctua+NH-L9a&downloadable=true&count=24",
+      "checkedAt": "2026-10-17T00:47:17.227Z",
+      "hasFurtherResults": false,
+      "results": []
+    },
+    "Noctua NH-D15 G2": {
+      "status": 200,
+      "url": "https://api.sketchfab.com/v3/search?type=models&q=Noctua+NH-D15+G2&downloadable=true&count=24",
+      "checkedAt": "2026-10-17T00:47:17.671Z",
+      "hasFurtherResults": false,
+      "results": []
+    },
+    "Thermalright Phantom Spirit": {
+      "status": 200,
+      "url": "https://api.sketchfab.com/v3/search?type=models&q=Thermalright+Phantom+Spirit&downloadable=true&count=24",
+      "checkedAt": "2026-10-17T00:47:18.244Z",
+      "hasFurtherResults": false,
+      "results": []
+    },
+    "Thermalright Peerless Assassin": {
+      "status": 200,
+      "url": "https://api.sketchfab.com/v3/search?type=models&q=Thermalright+Peerless+Assassin&downloadable=true&count=24",
+      "checkedAt": "2026-10-17T00:47:18.875Z",
+      "hasFurtherResults": false,
+      "results": []
+    },
+    "Arctic Liquid Freezer III": {
+      "status": 200,
+      "url": "https://api.sketchfab.com/v3/search?type=models&q=Arctic+Liquid+Freezer+III&downloadable=true&count=24",
+      "checkedAt": "2026-10-17T00:47:19.325Z",
+      "hasFurtherResults": false,
+      "results": []
+    },
+    "Corsair Nautilus": {
+      "status": 200,
+      "url": "https://api.sketchfab.com/v3/search?type=models&q=Corsair+Nautilus&downloadable=true&count=24",
+      "checkedAt": "2026-10-17T00:47:19.764Z",
+      "hasFurtherResults": false,
+      "results": []
+    },
+    "AMD Wraith Stealth": {
+      "status": 200,
+      "url": "https://api.sketchfab.com/v3/search?type=models&q=AMD+Wraith+Stealth&downloadable=true&count=24",
+      "checkedAt": "2026-10-17T00:47:20.222Z",
+      "hasFurtherResults": false,
+      "results": [
+        {
+          "uid": "ff1e128c191c4f808e60e7a7a523c9cc",
+          "name": "(Free) AMD Wraith Stealth CPU Cooler",
+          "description": "- modeled in late 2024\n- geometry is not fabulous\n- very detailed\n- no cable",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-ff1e128c191c4f808e60e7a7a523c9cc",
+          "creator": "PolyDavid",
+          "creatorUrl": "https://sketchfab.com/PolyDavid",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 37975,
+          "vertices": 19494,
+          "thumbnail": "https://media.sketchfab.com/models/ff1e128c191c4f808e60e7a7a523c9cc/thumbnails/233f228db4464173bd0de240932a85f3/003f28b8f92742b0ab16cf4c5f5221dd.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:20.222Z"
+        },
+        {
+          "uid": "843413eefdc9437b816a874628cc310f",
+          "name": "AMD Wraith Stealth CPU Cooler",
+          "description": "- Modeled as the 1-month progress check in 10/2024\n- geometry is not great to say the slightest\n- i lowk forgot i made this\n- but it is detailed tho!\n- no image textures",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-843413eefdc9437b816a874628cc310f",
+          "creator": "PolyDavid",
+          "creatorUrl": "https://sketchfab.com/PolyDavid",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 48875,
+          "vertices": 25189,
+          "thumbnail": "https://media.sketchfab.com/models/843413eefdc9437b816a874628cc310f/thumbnails/637df92ba287428aac473257102e04d9/52d5fbcf27ef4f0586bae48b7b9b7dcc.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:20.222Z"
+        },
+        {
+          "uid": "2d471924d43a493f9aeb2c05f23a53fc",
+          "name": "AMD Coller Wraith Spire",
+          "description": "AMD Cooler... Made in Cinema 4d",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-2d471924d43a493f9aeb2c05f23a53fc",
+          "creator": "denisbalaz",
+          "creatorUrl": "https://sketchfab.com/denisbalaz",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 575566,
+          "vertices": 293942,
+          "thumbnail": "https://media.sketchfab.com/models/2d471924d43a493f9aeb2c05f23a53fc/thumbnails/db3dbc455adf46b7a277c4c8019f4e63/420337bef1254245bf211d4ba1598f68.jpeg",
+          "publicObjectPath": "glbs/000-113/2d471924d43a493f9aeb2c05f23a53fc.glb",
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:20.222Z"
+        }
+      ]
+    },
+    "Lian Li O11 Air Mini": {
+      "status": 200,
+      "url": "https://api.sketchfab.com/v3/search?type=models&q=Lian+Li+O11+Air+Mini&downloadable=true&count=24",
+      "checkedAt": "2026-10-17T00:47:20.645Z",
+      "hasFurtherResults": false,
+      "results": []
+    },
+    "Lian Li O11 Dynamic": {
+      "status": 200,
+      "url": "https://api.sketchfab.com/v3/search?type=models&q=Lian+Li+O11+Dynamic&downloadable=true&count=24",
+      "checkedAt": "2026-10-17T00:47:21.430Z",
+      "hasFurtherResults": false,
+      "results": [
+        {
+          "uid": "7cf383ddfe9047f89435b4fc2a6e1053",
+          "name": "Gaming computer",
+          "description": "MOTHERBOARD: ASUS ROG MAXIMUS Z690 FORMULA\nCPU: INTEL GEN12 ALDER LAKE\nGPU: ASUS ROG STRIX GEFORCE RTX 3090 WHITE OC EDITION\nRAM: CORSAIR DOMINATOR PLATINUM RGB 64GB DDR5 WHITE\nCASE: LIAN LI O11 Dynamic EVO\nCOOLING: KRAKEN X73 RGB MATTE WHITE\n\n\nTextures are packed in a blender file",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-7cf383ddfe9047f89435b4fc2a6e1053",
+          "creator": "Marcseus",
+          "creatorUrl": "https://sketchfab.com/Marcseus",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 3639168,
+          "vertices": 1636644,
+          "thumbnail": "https://media.sketchfab.com/models/7cf383ddfe9047f89435b4fc2a6e1053/thumbnails/6407b0e880da494f98fbe576a5632c3e/7c06074c025c44ca801cc82bb6be0089.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": true,
+          "checkedAt": "2026-10-17T00:47:21.429Z"
+        }
+      ]
+    },
+    "Fractal North": {
+      "status": 200,
+      "url": "https://api.sketchfab.com/v3/search?type=models&q=Fractal+North&downloadable=true&count=24",
+      "checkedAt": "2026-10-17T00:47:22.043Z",
+      "hasFurtherResults": false,
+      "results": [
+        {
+          "uid": "8366a780be1e4ef2bd9098ac4dd7a02d",
+          "name": "crosair 4000d x fractal north",
+          "description": "crosair 4000d with a fractal north front panel mod",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-8366a780be1e4ef2bd9098ac4dd7a02d",
+          "creator": "tavanth",
+          "creatorUrl": "https://sketchfab.com/tavanth",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 80852,
+          "vertices": 36216,
+          "thumbnail": "https://media.sketchfab.com/models/8366a780be1e4ef2bd9098ac4dd7a02d/thumbnails/4a30af15985b4b099799a0be2aa929fb/3b325e5da624428eac0e7b2a784fffb5.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:22.043Z"
+        },
+        {
+          "uid": "0039b9ccdfba49c0a677488a293fc287",
+          "name": "North American Begonia  (  Malus 'American'  )",
+          "description": "*Malus 'American' *\nThe tree is generated automatically by L-system algorithm in Houdini environment, referring to the fractal characteristics of plants,\nSee References for details.\nWei Zhang, Jiaxue Hao. Planting design scenario analysis with 3D vegetation models generated from L-system algorithm. Proceedings of 28th International Conference of the Association for Computer-Aided Architectural Design Research in Asia, 2023-03-22.\n张炜, 郝佳雪. 基于L-system 算法的植物信息模型构建和三维绿量分析.风景园林，2023，30（3）：96-104",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-0039b9ccdfba49c0a677488a293fc287",
+          "creator": "UESReseach",
+          "creatorUrl": "https://sketchfab.com/UESReseach",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 773434,
+          "vertices": 562816,
+          "thumbnail": "https://media.sketchfab.com/models/0039b9ccdfba49c0a677488a293fc287/thumbnails/762ef949b0054a85933987cc8fa2f9f0/ea460dd1debb49bfa6b70e75649e014c.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:22.043Z"
+        },
+        {
+          "uid": "b3b0aaadc38e4d128bfadd58d66711d2",
+          "name": "WAGARA 01 — Asanoha v3 | Papp Framework",
+          "description": "Asanoha Spherical Kumiko Shell is a true 360° sculpture: the traditional Asanoha (麻の葉) star lattice is grown as a triple-scale fractal directly on a perfect sphere (no “front/back”). \n\nThe pattern is mapped via a dual Lambert azimuthal equal-area projection: one star core anchors the north pole, one anchors the south pole, with a seamless ±15° equatorial blend. \n\nRelief is created by radial displacement along surface normals (0.0–0.9, up to 30% of radius), forming structural ribs and deep shadow valleys. \n\nA PAPP substrate (S³ sampling + Hopf modulation) subtly tunes ridge sharpness and flow.\n\nMesh: 57,122 verts / 114,240 faces, closed manifold (χ=2), per-vertex color\n\nTech: wallpaper group p6m; triple-scale s=0.850/0.525/0.325; canyon_depth=0.5; seed [6,12,60,16]→β=23.5→CF[23,2]→(p,q)=(2,23)→triple(525,92,533)→V4d=2529*; edges 171,360; vertex colors 32,149; r=3.0–3.9.\n\nGenerated by Papp|Polytopic Archetypal Projection Protocol",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-b3b0aaadc38e4d128bfadd58d66711d2",
+          "creator": "consciousfractal",
+          "creatorUrl": "https://sketchfab.com/consciousfractal",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 114240,
+          "vertices": 57122,
+          "thumbnail": "https://media.sketchfab.com/models/b3b0aaadc38e4d128bfadd58d66711d2/thumbnails/962738ff7bc946508c835f72670159db/2ded91d9f13b4c119a9b4562adbda561.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:22.043Z"
+        }
+      ]
+    },
+    "Fractal Torrent": {
+      "status": 200,
+      "url": "https://api.sketchfab.com/v3/search?type=models&q=Fractal+Torrent&downloadable=true&count=24",
+      "checkedAt": "2026-10-17T00:47:22.595Z",
+      "hasFurtherResults": false,
+      "results": []
+    },
+    "Fractal Meshify 2": {
+      "status": 200,
+      "url": "https://api.sketchfab.com/v3/search?type=models&q=Fractal+Meshify+2&downloadable=true&count=24",
+      "checkedAt": "2026-10-17T00:47:23.238Z",
+      "hasFurtherResults": false,
+      "results": []
+    },
+    "NZXT H510": {
+      "status": 200,
+      "url": "https://api.sketchfab.com/v3/search?type=models&q=NZXT+H510&downloadable=true&count=24",
+      "checkedAt": "2026-10-17T00:47:23.753Z",
+      "hasFurtherResults": false,
+      "results": [
+        {
+          "uid": "2f2fd7325c6448b984543ac641b5d4e7",
+          "name": "Flow Front Panel - H510 Elite Front Panel",
+          "description": "Replacement for the glass panel of the Elite front panel. Made to be 3d printed and then add a mesh behide it. Usually you can buy Anti dust mesh for less than 10$ on amazon which would be compatible with this. I tried to make it look as the Flow panel as much as possible.",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-2f2fd7325c6448b984543ac641b5d4e7",
+          "creator": "dennislp",
+          "creatorUrl": "https://sketchfab.com/dennislpgaming",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 153840,
+          "vertices": 74226,
+          "thumbnail": "https://media.sketchfab.com/models/2f2fd7325c6448b984543ac641b5d4e7/thumbnails/772ef9764841462fb04d2d17c1ddf47e/9eb6fbc2dbe8439db872307be0aa0c4a.jpeg",
+          "publicObjectPath": "glbs/000-052/2f2fd7325c6448b984543ac641b5d4e7.glb",
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:23.753Z"
+        }
+      ]
+    },
+    "NZXT H7 Flow": {
+      "status": 200,
+      "url": "https://api.sketchfab.com/v3/search?type=models&q=NZXT+H7+Flow&downloadable=true&count=24",
+      "checkedAt": "2026-10-17T00:47:24.252Z",
+      "hasFurtherResults": false,
+      "results": []
+    },
+    "MSI B650 Tomahawk": {
+      "status": 200,
+      "url": "https://api.sketchfab.com/v3/search?type=models&q=MSI+B650+Tomahawk&downloadable=true&count=24",
+      "checkedAt": "2026-10-17T00:47:24.887Z",
+      "hasFurtherResults": false,
+      "results": []
+    },
+    "MSI B850 Tomahawk": {
+      "status": 200,
+      "url": "https://api.sketchfab.com/v3/search?type=models&q=MSI+B850+Tomahawk&downloadable=true&count=24",
+      "checkedAt": "2026-10-17T00:47:25.557Z",
+      "hasFurtherResults": false,
+      "results": []
+    },
+    "ASUS X670 motherboard": {
+      "status": 200,
+      "url": "https://api.sketchfab.com/v3/search?type=models&q=ASUS+X670+motherboard&downloadable=true&count=24",
+      "checkedAt": "2026-10-17T00:47:26.171Z",
+      "hasFurtherResults": false,
+      "results": []
+    },
+    "ASUS B550 F motherboard": {
+      "status": 200,
+      "url": "https://api.sketchfab.com/v3/search?type=models&q=ASUS+B550+F+motherboard&downloadable=true&count=24",
+      "checkedAt": "2026-10-17T00:47:26.725Z",
+      "hasFurtherResults": false,
+      "results": [
+        {
+          "uid": "3eba5f45bed74fbeb2647de38047000f",
+          "name": "Asus Strix b-550-f Gaming Motherboard Realistic",
+          "description": "High detail 3d model of b550 strix motherboard. Made in Blender. \nTexture on the back got a bit mixed up. Designed for Cycles/PBR\n\nThe auto gltf works well enough for using this model in other projects, however this model will of course look better in its native .blend form where AO and procudural textures work better.",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-3eba5f45bed74fbeb2647de38047000f",
+          "creator": "MUSHROOM_BUILDS",
+          "creatorUrl": "https://sketchfab.com/MUSHROOM_BUILDS",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 818255,
+          "vertices": 428036,
+          "thumbnail": "https://media.sketchfab.com/models/3eba5f45bed74fbeb2647de38047000f/thumbnails/9000d47f582644f6b53e1a972ef570f2/36d2c4c282a34dcfab5c96a4128047e4.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": true,
+          "checkedAt": "2026-10-17T00:47:26.725Z"
+        }
+      ]
+    },
+    "MSI RTX 3060 Ventus": {
+      "status": 200,
+      "url": "https://api.sketchfab.com/v3/search?type=models&q=MSI+RTX+3060+Ventus&downloadable=true&count=24",
+      "checkedAt": "2026-10-17T00:47:27.253Z",
+      "hasFurtherResults": false,
+      "results": []
+    },
+    "ASUS RTX 3060 TUF": {
+      "status": 200,
+      "url": "https://api.sketchfab.com/v3/search?type=models&q=ASUS+RTX+3060+TUF&downloadable=true&count=24",
+      "checkedAt": "2026-10-17T00:47:27.843Z",
+      "hasFurtherResults": false,
+      "results": []
+    },
+    "Gigabyte RTX 3060": {
+      "status": 200,
+      "url": "https://api.sketchfab.com/v3/search?type=models&q=Gigabyte+RTX+3060&downloadable=true&count=24",
+      "checkedAt": "2026-10-17T00:47:28.378Z",
+      "hasFurtherResults": false,
+      "results": [
+        {
+          "uid": "1586908000f24cf1b65454f8d3999504",
+          "name": "RTX 3060 TI EAGLE",
+          "description": "a  model of a RTX 3060 Ti EAGLE by Gigabyte",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-1586908000f24cf1b65454f8d3999504",
+          "creator": "BlenderFace",
+          "creatorUrl": "https://sketchfab.com/BlenderFace1",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 145043,
+          "vertices": 72843,
+          "thumbnail": "https://media.sketchfab.com/models/1586908000f24cf1b65454f8d3999504/thumbnails/b50686dd827e441b8e461cb32a939d05/8fc6b2ef06254c408a9c8f84d3249042.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:28.378Z"
+        }
+      ]
+    },
+    "RTX 4060 Ti": {
+      "status": 200,
+      "url": "https://api.sketchfab.com/v3/search?type=models&q=RTX+4060+Ti&downloadable=true&count=24",
+      "checkedAt": "2026-10-17T00:47:29.012Z",
+      "hasFurtherResults": false,
+      "results": [
+        {
+          "uid": "7b21ff19fde14287a76bfdd714c7b9e1",
+          "name": "RTX 4060 Ti 16GB",
+          "description": "RTX 4060 Ti 16GB\n好想拥有2个……\n买不起……充满了痛苦",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-7b21ff19fde14287a76bfdd714c7b9e1",
+          "creator": "MrdT",
+          "creatorUrl": "https://sketchfab.com/mrdt.club",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 58869,
+          "vertices": 36702,
+          "thumbnail": "https://media.sketchfab.com/models/7b21ff19fde14287a76bfdd714c7b9e1/thumbnails/e704136fa9cb4dbc91daa68db3181609/3a69fac2d760443f9fdca72e9922bb92.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:29.012Z"
+        }
+      ]
+    },
+    "Samsung 990 PRO": {
+      "status": 200,
+      "url": "https://api.sketchfab.com/v3/search?type=models&q=Samsung+990+PRO&downloadable=true&count=24",
+      "checkedAt": "2026-10-17T00:47:29.586Z",
+      "hasFurtherResults": false,
+      "results": [
+        {
+          "uid": "6ada64c9ba734e499978a084e68ec3df",
+          "name": "Samsung 990 PRO SSD",
+          "description": "- modeled on 5/16/26\n- low poly\n- good for pc renders\n- image texture",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-6ada64c9ba734e499978a084e68ec3df",
+          "creator": "PolyDavid",
+          "creatorUrl": "https://sketchfab.com/PolyDavid",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 236,
+          "vertices": 169,
+          "thumbnail": "https://media.sketchfab.com/models/6ada64c9ba734e499978a084e68ec3df/thumbnails/08a13d644d5c46b9be3cca4930a14aa8/49f655cdfe344c8da61db2f6050d817a.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": true,
+          "checkedAt": "2026-10-17T00:47:29.586Z"
+        },
+        {
+          "uid": "41b7bfda7eab40f8b13330913fd66fc2",
+          "name": "M.2 NVME SSD Samsung 990 Pro 1TB 3D model",
+          "description": "not 3D scanned\n\nmade by me, a pc builder and youtuber",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-41b7bfda7eab40f8b13330913fd66fc2",
+          "creator": "lime.ball.animations",
+          "creatorUrl": "https://sketchfab.com/lime.ball.animations.official",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 2052,
+          "vertices": 1506,
+          "thumbnail": "https://media.sketchfab.com/models/41b7bfda7eab40f8b13330913fd66fc2/thumbnails/e9797c82c1814a5696122044b5fba628/0e2f2ed9c8374278a4bbec4d0d27f682.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:29.586Z"
+        }
+      ]
+    },
+    "Samsung 970 EVO Plus": {
+      "status": 200,
+      "url": "https://api.sketchfab.com/v3/search?type=models&q=Samsung+970+EVO+Plus&downloadable=true&count=24",
+      "checkedAt": "2026-10-17T00:47:30.242Z",
+      "hasFurtherResults": false,
+      "results": [
+        {
+          "uid": "ccda7c201091445087c02692444641c2",
+          "name": "m2ssd_Painter",
+          "description": "PBR version of M2 SSD of \" SAMSUNG 970 EVO PRO PLUS \"\nidk. what's about my copyrights because i have none, it's basically a fanmade\nFeel free to use it, but have in mind it's just a fanmade and i did not nor you have copyrights for licensed trademarks and designs",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-ccda7c201091445087c02692444641c2",
+          "creator": "Igor.Jop",
+          "creatorUrl": "https://sketchfab.com/Igor.Jop",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 782,
+          "vertices": 429,
+          "thumbnail": "https://media.sketchfab.com/models/ccda7c201091445087c02692444641c2/thumbnails/3eb177ab005e4be18b97508c2e267ea6/8274d1f3bd2c410091771a7962bbe2d4.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:30.242Z"
+        }
+      ]
+    },
+    "WD SN850X": {
+      "status": 200,
+      "url": "https://api.sketchfab.com/v3/search?type=models&q=WD+SN850X&downloadable=true&count=24",
+      "checkedAt": "2026-10-17T00:47:30.738Z",
+      "hasFurtherResults": false,
+      "results": []
+    },
+    "Crucial P5": {
+      "status": 200,
+      "url": "https://api.sketchfab.com/v3/search?type=models&q=Crucial+P5&downloadable=true&count=24",
+      "checkedAt": "2026-10-17T00:47:31.233Z",
+      "hasFurtherResults": false,
+      "results": []
+    },
+    "Samsung Galaxy S24": {
+      "status": 200,
+      "url": "https://api.sketchfab.com/v3/search?type=models&q=Samsung+Galaxy+S24&downloadable=true&count=24",
+      "checkedAt": "2026-10-17T00:47:31.764Z",
+      "hasFurtherResults": true,
+      "results": [
+        {
+          "uid": "49348722d3ea4511bd5a4d8c9f17c44a",
+          "name": "Samsung Galaxy S24 Ultra",
+          "description": "A high-fidelity 3D recreation of the **Samsung Galaxy S24 Ultra**, finished in the refined and powerful Titanium Black. This model is built with a focus on realism, material accuracy, and visual appeal—perfect for portfolio showcases, animations, or product visualization projects.\n\nAbsolutely no textures used, easy to setup!\n\nColor: Titanium Black",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-49348722d3ea4511bd5a4d8c9f17c44a",
+          "creator": "Cryptmist",
+          "creatorUrl": "https://sketchfab.com/Cryptmist",
+          "license": {
+            "uid": "72eb2b1960364637901eacce19283624",
+            "label": "Free Standard"
+          },
+          "downloadable": true,
+          "triangles": 22490,
+          "vertices": 15272,
+          "thumbnail": "https://media.sketchfab.com/models/49348722d3ea4511bd5a4d8c9f17c44a/thumbnails/2f4201c4925c48c9bafc5b48a2c5a23a/39afde3f25bd4ccba93c892e4589c0fa.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:31.764Z"
+        },
+        {
+          "uid": "a95eec5181a24bcd8a8452df50b29f3a",
+          "name": "Samsung Galaxy S22 Ultra",
+          "description": "**Samsung Galaxy S22 Ultra**\n\nThe newest Samsung S series phone, Samsung Galaxy S22 Ultra is the headliner of the S22 series. It's the first S series phone to include Samsung's S Pen. The Samsung Galaxy S22 Ultra has a 6.8-inch Dynamic AMOLED display with a Quad HD+ resolution.\n\nFile formats:\n\n* .obj\n\n* .usdz\n\nAll textures included\n\nComment if you have any issue, like if you like it, and follow if you want more free models!\n\nCheck out my other models too!\n\n* Samsung Galaxy S21 Ultra:\n\n> https://sketchfab.com/3d-models/samsung-galaxy-s21-ultra-cd962832be7744efb6b37fe0ee2027e7\n\n* iPhone 13 Pro Max:\n\n> https://sketchfab.com/3d-models/apple-iphone-13-pro-max-4328dea00e47497dbeac73c556121bc9",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-a95eec5181a24bcd8a8452df50b29f3a",
+          "creator": "DatSketch",
+          "creatorUrl": "https://sketchfab.com/DatSketch",
+          "license": {
+            "uid": "bbfe3f7dbcdd4122b966b85b9786a989",
+            "label": "CC Attribution-NonCommercial"
+          },
+          "downloadable": true,
+          "triangles": 41618,
+          "vertices": 25586,
+          "thumbnail": "https://media.sketchfab.com/models/a95eec5181a24bcd8a8452df50b29f3a/thumbnails/e6e8e2c58fe14733b057c558dd89458b/50ac1c902d7b4d55a21819d5f69005cd.jpeg",
+          "publicObjectPath": "glbs/000-076/a95eec5181a24bcd8a8452df50b29f3a.glb",
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:31.764Z"
+        },
+        {
+          "uid": "deda550f064141c3bf3b9e7190a2ac39",
+          "name": "Samsung Galaxy s24 plus",
+          "description": "Samsung s24 plus.\nDimensions may not be the same as actual phones.",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-deda550f064141c3bf3b9e7190a2ac39",
+          "creator": "Davetheconqueror",
+          "creatorUrl": "https://sketchfab.com/Davetheconqueror",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 9394,
+          "vertices": 4878,
+          "thumbnail": "https://media.sketchfab.com/models/deda550f064141c3bf3b9e7190a2ac39/thumbnails/91c65993dc9d4b839d80373a152b7f3c/8b5d134cc68248e491a3e2c09de05570.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:31.764Z"
+        },
+        {
+          "uid": "cd962832be7744efb6b37fe0ee2027e7",
+          "name": "Samsung Galaxy S21 Ultra",
+          "description": "**Samsung Galaxy S21 Ultra**\n\nNewest Samsung flagship phone, All materials and parts are named and parented.\n\nFile formats:\n\n* .glb\n\n* .fbx\n\nTextures:\n\n* Wallpaper\n\n* Speaker\n\n* Noise Texture\n\n* Flash\n\n* Camera Lens\n\n\nComment if you have any issue, like if you like it, and follow if you want more free models!",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-cd962832be7744efb6b37fe0ee2027e7",
+          "creator": "DatSketch",
+          "creatorUrl": "https://sketchfab.com/DatSketch",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 24448,
+          "vertices": 11393,
+          "thumbnail": "https://media.sketchfab.com/models/cd962832be7744efb6b37fe0ee2027e7/thumbnails/04d2143037ee4ed8a1ca89ed7ff18835/044680ab29d146a68a30394d2878b8d8.jpeg",
+          "publicObjectPath": "glbs/000-085/cd962832be7744efb6b37fe0ee2027e7.glb",
+          "alreadyInstalled": true,
+          "checkedAt": "2026-10-17T00:47:31.764Z"
+        },
+        {
+          "uid": "112947cbab7a4f708d0d01adb7d3fa3d",
+          "name": "Samsung Galaxy Z Flip 3",
+          "description": "**Z Flip 3**\n\nSamsung Galaxy Z Flip3 5G Android smartphone. Announced Aug 2021. \n\nFeatures 6.7″ display, Snapdragon 888 5G chipset\n\nFile formats:\n\n* .fbx\n\n* .glb\n\n* .obj\n\n* .blend\n\nContact me on Gmail if you want another formats or you have an issues.\n\nAll textures included\n\nComment or mail me if you have any issue, like if you like it, and follow if you want more free models!\n\nCheck out my other models too!\n\n* Samsung Galaxy 21 Ultra\n> https://sketchfab.com/3d-models/samsung-galaxy-s21-ultra-cd962832be7744efb6b37fe0ee2027e7\n\n* Samsung Galaxy Buds Live\n> https://sketchfab.com/3d-models/samsung-galaxy-buds-live-7e4a0f2202144b91b4c47ffbfdf94584",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-112947cbab7a4f708d0d01adb7d3fa3d",
+          "creator": "DatSketch",
+          "creatorUrl": "https://sketchfab.com/DatSketch",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 20418,
+          "vertices": 11876,
+          "thumbnail": "https://media.sketchfab.com/models/112947cbab7a4f708d0d01adb7d3fa3d/thumbnails/fc382d9cb3f54e89be3274017b0118cf/610f80789fd04150ac1ee09c552a979f.jpeg",
+          "publicObjectPath": "glbs/000-054/112947cbab7a4f708d0d01adb7d3fa3d.glb",
+          "alreadyInstalled": true,
+          "checkedAt": "2026-10-17T00:47:31.764Z"
+        },
+        {
+          "uid": "c72bf52bc9bb4cdfa033ccba8ef3b140",
+          "name": "Samsung Galaxy S24 Ultra",
+          "description": "This Samsung Galaxy S24 Ultra is Very High Quality and will be an amazing asset to your library!",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-c72bf52bc9bb4cdfa033ccba8ef3b140",
+          "creator": "Betasaur",
+          "creatorUrl": "https://sketchfab.com/betasaur",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 29012,
+          "vertices": 13891,
+          "thumbnail": "https://media.sketchfab.com/models/c72bf52bc9bb4cdfa033ccba8ef3b140/thumbnails/910b3c011c914e00bba3980069c18c8d/6c63d21790f24ec1887b29e45159697a.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:31.764Z"
+        },
+        {
+          "uid": "7e4a0f2202144b91b4c47ffbfdf94584",
+          "name": "Samsung Galaxy Buds Live",
+          "description": "**Samsung Galaxy Buds Live **\n\nMade in Blender 2.9, new Samsung buds.\n\nFile formats:\n\n> .dae\n\n> .fbx\n\n> .blend\n\nComment if you have any issue, like if you like it, and follow if you want more free models!\n\nMy other models link:\n\n* Samsung S21 Ultra:\n\n> https://sketchfab.com/3d-models/samsung-galaxy-s21-ultra-cd962832be7744efb6b37fe0ee2027e7\n\n* iPhone 12 Pro:\n\n> https://sketchfab.com/3d-models/iphone-12-pro-05dfc991665e45c68c8b7062136c0c6e",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-7e4a0f2202144b91b4c47ffbfdf94584",
+          "creator": "DatSketch",
+          "creatorUrl": "https://sketchfab.com/DatSketch",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 17415,
+          "vertices": 8106,
+          "thumbnail": "https://media.sketchfab.com/models/7e4a0f2202144b91b4c47ffbfdf94584/thumbnails/06c2d2a1560940249d51c6a63b1e40f5/929384c7631c43ed96ab0212736c1af3.jpeg",
+          "publicObjectPath": "glbs/000-009/7e4a0f2202144b91b4c47ffbfdf94584.glb",
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:31.764Z"
+        },
+        {
+          "uid": "2d53b3396ecc4177aca0dce044667b3e",
+          "name": "Samsung Galaxy S20",
+          "description": "Model from samsung website",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-2d53b3396ecc4177aca0dce044667b3e",
+          "creator": "crumhirnd",
+          "creatorUrl": "https://sketchfab.com/crumhirnd",
+          "license": {
+            "uid": "34b725081a6a4184957efaec2cb84ed3",
+            "label": "CC Attribution-NonCommercial-NoDerivs"
+          },
+          "downloadable": true,
+          "triangles": 38206,
+          "vertices": 21530,
+          "thumbnail": "https://media.sketchfab.com/models/2d53b3396ecc4177aca0dce044667b3e/thumbnails/6598a46abc234239b7b4a83111428298/e2fdecf43db84bbe85c59350f9e57703.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:31.764Z"
+        },
+        {
+          "uid": "62c074055bc0491aaa4752128087fd88",
+          "name": "Samsung Galaxy S21",
+          "description": "The new Samsung Galaxy S21 shining through the dark! Very detailed and not a alot of verticies to reduce lag and memory.",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-62c074055bc0491aaa4752128087fd88",
+          "creator": "Waven",
+          "creatorUrl": "https://sketchfab.com/wavenquack24",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 4325,
+          "vertices": 2393,
+          "thumbnail": "https://media.sketchfab.com/models/62c074055bc0491aaa4752128087fd88/thumbnails/236b673cca5e452996f3da73b825d19d/05bfbed0851a49218e5a948328f78633.jpeg",
+          "publicObjectPath": "glbs/000-072/62c074055bc0491aaa4752128087fd88.glb",
+          "alreadyInstalled": true,
+          "checkedAt": "2026-10-17T00:47:31.764Z"
+        },
+        {
+          "uid": "24dc6725f97f4590a6309e9a48129ff2",
+          "name": "Samsung Galaxy S25 ultra",
+          "description": "Samsung Galaxy S25 Ultra 3D Model\n\nCheck out this detailed 3D model of the Samsung Galaxy S25 Ultra, perfect for AR, 3D printing, or professional visualizations. It accurately shows the device’s camera setup, ports, and the S-Pen slot.",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-24dc6725f97f4590a6309e9a48129ff2",
+          "creator": "mistjs",
+          "creatorUrl": "https://sketchfab.com/mistjs",
+          "license": {
+            "uid": "bbfe3f7dbcdd4122b966b85b9786a989",
+            "label": "CC Attribution-NonCommercial"
+          },
+          "downloadable": true,
+          "triangles": 60983,
+          "vertices": 34754,
+          "thumbnail": "https://media.sketchfab.com/models/24dc6725f97f4590a6309e9a48129ff2/thumbnails/d169c43d91004e0da2593616c7a2e57f/5d382dd83a2a40c1a3af392191af795d.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:31.764Z"
+        },
+        {
+          "uid": "e3bca75b63c841c0a8aee8733b84a8a9",
+          "name": "SAMSUNG Galaxy S25 Ultra",
+          "description": "Samsung Galaxy S25 Ultra Blue Titanium. I did all the work in blender.",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-e3bca75b63c841c0a8aee8733b84a8a9",
+          "creator": "zhe_kan",
+          "creatorUrl": "https://sketchfab.com/zhe_kan",
+          "license": {
+            "uid": "2628dbe5140a4e9592126c8df566c0b7",
+            "label": "CC Attribution-NonCommercial-ShareAlike"
+          },
+          "downloadable": true,
+          "triangles": 64636,
+          "vertices": 36220,
+          "thumbnail": "https://media.sketchfab.com/models/e3bca75b63c841c0a8aee8733b84a8a9/thumbnails/97696f1bdc2e49c3905f86960c7e39de/3df4cbcd8db14d4b9c5cb851e47f291d.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:31.764Z"
+        },
+        {
+          "uid": "f559464bf0f8453d95a0cd273de3ff0b",
+          "name": "Samsung S23 Ultra (Free)",
+          "description": "**Samsung Galaxy S23 Ultra**\n\nThe newest Samsung S series phone, Samsung Galaxy S23 Ultra is the headliner of the S22 series. It’s the first S series phone to include Samsung’s S Pen. The Samsung Galaxy S23 Ultra has a 6.8-inch Dynamic AMOLED display with a Quad HD+ resolution. Samsung Galaxy S23 Ultra raised the bar with a 200MP camera and our fastest mobile processor ever.\n\nReleased by Imagigoo - Made in Blender 2.9\n\nFile formats:\n\n.blend\n\n.fbx\n\n.obj\n\nContact me on Gmail if you want another formats or you have an issues.\n\nAll textures included\n\n**Please Mention #imagigoo where you use this**\n\nComment if you have any issue, like if you like it, and follow if you want more free models!\n\nCheck out my other models too!\n\nThank You - Have fun ;)",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-f559464bf0f8453d95a0cd273de3ff0b",
+          "creator": "Imagigoo",
+          "creatorUrl": "https://sketchfab.com/Imagigoo",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 78210,
+          "vertices": 48578,
+          "thumbnail": "https://media.sketchfab.com/models/f559464bf0f8453d95a0cd273de3ff0b/thumbnails/7253f2886d6b437daf007a5ea65ff654/c8ed91a9dc7f42b3af8a4e7c9d58b237.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": true,
+          "checkedAt": "2026-10-17T00:47:31.764Z"
+        },
+        {
+          "uid": "dee00a72ae6b49daafb93c20bc04991f",
+          "name": "Samsung Galaxy S26 Black [ LOW-POLY ]",
+          "description": "I created this **Samsung Galaxy S26 model** using the software **Blender**. \nModel - **SM-S942B**\n\nhttps://www.gsmarena.com/samsung_galaxy_s26_5g-14456.php",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-dee00a72ae6b49daafb93c20bc04991f",
+          "creator": "Darky Vip 3D",
+          "creatorUrl": "https://sketchfab.com/darky.vip21",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 876,
+          "vertices": 440,
+          "thumbnail": "https://media.sketchfab.com/models/dee00a72ae6b49daafb93c20bc04991f/thumbnails/efa2f9714968466e8a05e9d7cf2d6cba/4936147be7ae4794af23502485c11d5c.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:31.764Z"
+        },
+        {
+          "uid": "47d62c4026fb4372ae83b11bf288018c",
+          "name": "Samsung S24 Ultra",
+          "description": "Hii guys this is the 3D Model of Samsung Galaxy S24 Ultra. This is very lowpoly 3D Model. You can use this 3D Model in your projects. This model is fully textured and materialed. This UV mapped.",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-47d62c4026fb4372ae83b11bf288018c",
+          "creator": "Debesis6",
+          "creatorUrl": "https://sketchfab.com/Debesis6",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 20568,
+          "vertices": 12466,
+          "thumbnail": "https://media.sketchfab.com/models/47d62c4026fb4372ae83b11bf288018c/thumbnails/75c7fc7eac574b1dbb910b14ec6f50e7/7c83322fb37041aa9a3254b1fd49d3da.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:31.764Z"
+        },
+        {
+          "uid": "15db21d28d60492bbc157fb0c90cfe9f",
+          "name": "Samsung Galaxy S24",
+          "description": "Samsung Galaxy S24 Ultra. \n*High Quality model\n*With Ports\n*S-Pen\n*Easy to Install and Use",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-15db21d28d60492bbc157fb0c90cfe9f",
+          "creator": "thatdragon516",
+          "creatorUrl": "https://sketchfab.com/madebyabhigyan",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 16050,
+          "vertices": 9393,
+          "thumbnail": "https://media.sketchfab.com/models/15db21d28d60492bbc157fb0c90cfe9f/thumbnails/f52d4433b39140088050016f55466593/5ddbbb2dfe974fd487f88fb8a6731cce.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:31.764Z"
+        },
+        {
+          "uid": "0f61d580d177421badbda6ae1e0a5b09",
+          "name": "samsung galaxy s23 ultra",
+          "description": "beautiful samsung galaxy s23 ultra  do the render in cycle to get advantage \ndo follow comment and like if you like it",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-0f61d580d177421badbda6ae1e0a5b09",
+          "creator": "Amine GND",
+          "creatorUrl": "https://sketchfab.com/amineguendouzi48",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 12330,
+          "vertices": 7350,
+          "thumbnail": "https://media.sketchfab.com/models/0f61d580d177421badbda6ae1e0a5b09/thumbnails/1185a363c7854c8a80382cd30deed182/a068478561ac42b6a44daa074027f075.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:31.764Z"
+        },
+        {
+          "uid": "13bb66ffe3624a369d29237bb4246c7e",
+          "name": "Samsung Galaxy S22",
+          "description": "Samsung Galaxy S22 Model\n\nShader based",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-13bb66ffe3624a369d29237bb4246c7e",
+          "creator": "JNO_Models",
+          "creatorUrl": "https://sketchfab.com/Jamlnid",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 14673,
+          "vertices": 8832,
+          "thumbnail": "https://media.sketchfab.com/models/13bb66ffe3624a369d29237bb4246c7e/thumbnails/a890e5e1132246009dbde2e6cb5689de/bb518f6be06d4e73926b72193089a51a.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:31.764Z"
+        },
+        {
+          "uid": "ee14d453cc8d4c12bf9e0b3279f2f7fb",
+          "name": "SAMSUNG Galaxy S26 Ultra",
+          "description": "Samsung Galaxy S26 Ultra Sky Blue. I did all the work in blender.",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-ee14d453cc8d4c12bf9e0b3279f2f7fb",
+          "creator": "zhe_kan",
+          "creatorUrl": "https://sketchfab.com/zhe_kan",
+          "license": {
+            "uid": "2628dbe5140a4e9592126c8df566c0b7",
+            "label": "CC Attribution-NonCommercial-ShareAlike"
+          },
+          "downloadable": true,
+          "triangles": 42112,
+          "vertices": 24616,
+          "thumbnail": "https://media.sketchfab.com/models/ee14d453cc8d4c12bf9e0b3279f2f7fb/thumbnails/d19b9a130fc44c118b3e7f8d46ae7796/04a93969ac584ab8a0ea3531c1027868.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:31.764Z"
+        },
+        {
+          "uid": "e825ff74413142afa9ba64c17890ae05",
+          "name": "Samsung Galaxy S22",
+          "description": "Samsung Galaxy S22",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-e825ff74413142afa9ba64c17890ae05",
+          "creator": "highdefinitionsound",
+          "creatorUrl": "https://sketchfab.com/highdefinitionsound",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 678252,
+          "vertices": 170023,
+          "thumbnail": "https://media.sketchfab.com/models/e825ff74413142afa9ba64c17890ae05/thumbnails/d3ac84ab7c4b4c009d3bf8398b8be9d2/ccc9020d30894ad1a4b567398e9762a7.jpeg",
+          "publicObjectPath": "glbs/000-082/e825ff74413142afa9ba64c17890ae05.glb",
+          "alreadyInstalled": true,
+          "checkedAt": "2026-10-17T00:47:31.764Z"
+        },
+        {
+          "uid": "6be18df48a1a4dd6ba1fb4f9f53506e4",
+          "name": "Drainage Hole",
+          "description": "Optimized after Photogrammetry, A drainage hole in the middle of a parking lot.  \nPhotogrammetry made form an 8K video from a Samsung Galaxy S24 Ultra.",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-6be18df48a1a4dd6ba1fb4f9f53506e4",
+          "creator": "MemaGameStudio",
+          "creatorUrl": "https://sketchfab.com/memagamestudio",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 8426,
+          "vertices": 4276,
+          "thumbnail": "https://media.sketchfab.com/models/6be18df48a1a4dd6ba1fb4f9f53506e4/thumbnails/9e5c935729964a158f4c4ac57b257c1d/723bf8cdc7304e20aa329fe3bae3344b.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:31.764Z"
+        },
+        {
+          "uid": "84ea2f5a66974ea9929db263e4a50179",
+          "name": "Weave Basket",
+          "description": "3d scanned woven basket using a Samsung galaxy s24 and realitycapture app.",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-84ea2f5a66974ea9929db263e4a50179",
+          "creator": "OverseerThuror",
+          "creatorUrl": "https://sketchfab.com/OverseerThuror",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 372451,
+          "vertices": 186757,
+          "thumbnail": "https://media.sketchfab.com/models/84ea2f5a66974ea9929db263e4a50179/thumbnails/108c4fdfa8984e17807aace9ad735b83/867f82a339144bb3a2494a3432a70078.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:31.764Z"
+        },
+        {
+          "uid": "d67f3d9318c041c7a9a9b67c84c97423",
+          "name": "Samsung Galaxy S21 FE in White",
+          "description": "The upcoming Samsung Galaxy S21 Fan Edition in White",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-d67f3d9318c041c7a9a9b67c84c97423",
+          "creator": "Evan.Blass",
+          "creatorUrl": "https://sketchfab.com/Evan.Blass",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 37529,
+          "vertices": 21427,
+          "thumbnail": "https://media.sketchfab.com/models/d67f3d9318c041c7a9a9b67c84c97423/thumbnails/da84c826b38d4cb1961b3f4f52a5f24f/f950478ac2554d65be85e1ab08093a02.jpeg",
+          "publicObjectPath": "glbs/000-092/d67f3d9318c041c7a9a9b67c84c97423.glb",
+          "alreadyInstalled": true,
+          "checkedAt": "2026-10-17T00:47:31.764Z"
+        },
+        {
+          "uid": "8abacf30422f4c48842b8ffef5611e0f",
+          "name": "Samsung Galaxy S20 Ultra",
+          "description": "Weekly project: \n\nLast year model from Samsung\nAbout 7,83 poygons.\nhope you like it :)",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-8abacf30422f4c48842b8ffef5611e0f",
+          "creator": "Juanpa Velazquez",
+          "creatorUrl": "https://sketchfab.com/juanpavelazquez123",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 137390,
+          "vertices": 69911,
+          "thumbnail": "https://media.sketchfab.com/models/8abacf30422f4c48842b8ffef5611e0f/thumbnails/357e3aebb7d9433a97898f72363b41b4/1e0863d1a5884bac9cdee4dffa053ea0.jpeg",
+          "publicObjectPath": "glbs/000-018/8abacf30422f4c48842b8ffef5611e0f.glb",
+          "alreadyInstalled": true,
+          "checkedAt": "2026-10-17T00:47:31.764Z"
+        },
+        {
+          "uid": "a9826201e67d4cfe8345fc88189819f3",
+          "name": "Samsung S24 Ultra S-pen",
+          "description": "Samsung galaxy s24 ultra a flagship phone feom samsung ... This phone consist a pen inside .. This is the model of that pen",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-a9826201e67d4cfe8345fc88189819f3",
+          "creator": "Anshuman dutta",
+          "creatorUrl": "https://sketchfab.com/Anshuman_Dutta",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 5252,
+          "vertices": 2732,
+          "thumbnail": "https://media.sketchfab.com/models/a9826201e67d4cfe8345fc88189819f3/thumbnails/e3cbb4cc9bc64b628bdf4ab9249cce29/96697f067d7e4d988a5b5760f8144252.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:31.764Z"
+        }
+      ]
+    },
+    "Google Pixel 9": {
+      "status": 200,
+      "url": "https://api.sketchfab.com/v3/search?type=models&q=Google+Pixel+9&downloadable=true&count=24",
+      "checkedAt": "2026-10-17T00:47:32.359Z",
+      "hasFurtherResults": false,
+      "results": [
+        {
+          "uid": "2789f8f420f243a9a3e41e9f7f1933ee",
+          "name": "Wood plank rotten",
+          "description": "Scanned with Google Pixel 9",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-2789f8f420f243a9a3e41e9f7f1933ee",
+          "creator": "Jordan Whincup",
+          "creatorUrl": "https://sketchfab.com/jwhincup",
+          "license": {
+            "uid": "72eb2b1960364637901eacce19283624",
+            "label": "Free Standard"
+          },
+          "downloadable": true,
+          "triangles": 86379,
+          "vertices": 43425,
+          "thumbnail": "https://media.sketchfab.com/models/2789f8f420f243a9a3e41e9f7f1933ee/thumbnails/a031836ac78445d0ac93e54231f31ee7/c11788538f854363b70b4227d5660e43.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:32.359Z"
+        },
+        {
+          "uid": "f48314a4e362463394982f59c52e67bb",
+          "name": "google pixel 9 lowpoly",
+          "description": "pixel 9 lowpoly",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-f48314a4e362463394982f59c52e67bb",
+          "creator": "JetSet3d",
+          "creatorUrl": "https://sketchfab.com/JetSet3d",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 376,
+          "vertices": 300,
+          "thumbnail": "https://media.sketchfab.com/models/f48314a4e362463394982f59c52e67bb/thumbnails/44725f85b02f42d392a4f6f346917885/4a23cbdd158943ae99e5ff532d7e0af2.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:32.359Z"
+        },
+        {
+          "uid": "83803cd5418a49479b1a614426d44f14",
+          "name": "Pixel 9 Smartphone - notextures",
+          "description": "A psx style Pixel 9 smartphone that can be used in your games or other projects. The model is shaded using materials but you can add your own textures to it if you like.",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-83803cd5418a49479b1a614426d44f14",
+          "creator": "pixapexel",
+          "creatorUrl": "https://sketchfab.com/pixapexel",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 1288,
+          "vertices": 1026,
+          "thumbnail": "https://media.sketchfab.com/models/83803cd5418a49479b1a614426d44f14/thumbnails/3c01607cd79c4cea9a097e197c6e6856/b10b75b0f5694c95aad98c3b159ef762.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": true,
+          "checkedAt": "2026-10-17T00:47:32.359Z"
+        },
+        {
+          "uid": "4533d22cd0d9473ba6a26fa1d20d76da",
+          "name": "Google Pixel 9 & Pixel 9 Pro(Low Poly)",
+          "description": "# Google Pixel 9 and 9 Pro 3D model (Low Quality)\n\nI follow the leaked image of the P9 Pro to shape this so I dunno much of the details.\nI am not a professional 3D model maker, and I tried my best.\nSome details were just too lazy.\nBut I'm already satisfied with it, it took only 5 days.\nDunno why the glass on both front and rear camera turned white when export, \nbut ill leave it be",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-4533d22cd0d9473ba6a26fa1d20d76da",
+          "creator": "s12311061",
+          "creatorUrl": "https://sketchfab.com/s12311061",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 8374,
+          "vertices": 5380,
+          "thumbnail": "https://media.sketchfab.com/models/4533d22cd0d9473ba6a26fa1d20d76da/thumbnails/1557246183264e64b7ff85a96ff377f3/45a8d5519ad142049f1bb2aba370578a.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:32.359Z"
+        },
+        {
+          "uid": "527a9de9704b4812a6063102c31d3a5b",
+          "name": "James Palmer O'Neil Lyle Marker",
+          "description": "Marker to James Palmer O'Neil Lyle in Augusta, Georgia. \n\nThis marker sits at the northern end of 10th Street as it reaches the Augusta Riverwalk between the Marriot and the Morris Museum of Art. Its inscription reads:\n\n>  JAMES PALMER O'NEIL LYLE \n\n>  November 9, 1943 - March 14, 1995\n\n>  Nationally and internationally recognized oil painter, potter, catalyst for Augusta's Arists' Row\n\n> \"His loyal support of his adopted city and his dedication to worthwhile civic enterprsies will long be remembered. For his kindness,  understanding, calm optimism and fiather, his family and friends will be thankful even as they mourn --\"\n\n> The Augusta Chronicle March 31, 1995\n\n> Lovingly dedicated by his friends\n\n\nThis model was made on the \"3D Scanner App\" on an M1 Macbook Pro from 110 photos taken on a Google Pixel 6 Pro on a sunny morning.",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-527a9de9704b4812a6063102c31d3a5b",
+          "creator": "ecthompson",
+          "creatorUrl": "https://sketchfab.com/ecthompson",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 99999,
+          "vertices": 50889,
+          "thumbnail": "https://media.sketchfab.com/models/527a9de9704b4812a6063102c31d3a5b/thumbnails/ad1ddb410d3b426ba78125392148c56a/6a542d5722484bea8c1da130105a2a88.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:32.359Z"
+        },
+        {
+          "uid": "d0a936ea7e464907826c8ada6155b4f5",
+          "name": "Outisde Morris Metashape",
+          "description": "Marker to James Palmer O’Neil Lyle in Augusta, Georgia.\n\nThis marker sits at the northern end of 10th Street as it reaches the Augusta Riverwalk between the Marriot and the Morris Museum of Art. Its inscription reads:\n\n    JAMES PALMER O’NEIL LYLE\n\n    November 9, 1943 - March 14, 1995\n\n    Nationally and internationally recognized oil painter, potter, catalyst for Augusta’s Arists’ Row\n\n    “His loyal support of his adopted city and his dedication to worthwhile civic enterprsies will long be remembered. For his kindness, understanding, calm optimism and fiather, his family and friends will be thankful even as they mourn –“\n\n    The Augusta Chronicle March 31, 1995\n\n    Lovingly dedicated by his friends\n\nThis model was made on Agisoft Metashape on an M1 Macbook Pro from 110 photos taken on a Google Pixel 6 Pro on a sunny morning.",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-d0a936ea7e464907826c8ada6155b4f5",
+          "creator": "ecthompson",
+          "creatorUrl": "https://sketchfab.com/ecthompson",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 530116,
+          "vertices": 265776,
+          "thumbnail": "https://media.sketchfab.com/models/d0a936ea7e464907826c8ada6155b4f5/thumbnails/3942b9799b2843b8a5c8d4d9e025f234/ca23324198e44ae9b929193ff211ed01.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:32.359Z"
+        },
+        {
+          "uid": "bf9cf4ba5d4c40f281096d68d0a5338b",
+          "name": "Gisant Porto",
+          "description": "Praça da Liberdade, 9 Juillet",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-bf9cf4ba5d4c40f281096d68d0a5338b",
+          "creator": "Emsagroj",
+          "creatorUrl": "https://sketchfab.com/jordanemery70",
+          "license": {
+            "uid": "b9ddc40b93e34cdca1fc152f39b9f375",
+            "label": "CC Attribution-ShareAlike"
+          },
+          "downloadable": true,
+          "triangles": 73710,
+          "vertices": 45656,
+          "thumbnail": "https://media.sketchfab.com/models/bf9cf4ba5d4c40f281096d68d0a5338b/thumbnails/5314c6dbfca0447ea823675681b1dbf5/113f87e9b8684f989eced474fbf00d49.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:32.359Z"
+        },
+        {
+          "uid": "8d26f5577815499499293e47676edab2",
+          "name": "Gisants Porto 3",
+          "description": "São Bento, 9 juillet 2025",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-8d26f5577815499499293e47676edab2",
+          "creator": "Emsagroj",
+          "creatorUrl": "https://sketchfab.com/jordanemery70",
+          "license": {
+            "uid": "b9ddc40b93e34cdca1fc152f39b9f375",
+            "label": "CC Attribution-ShareAlike"
+          },
+          "downloadable": true,
+          "triangles": 88632,
+          "vertices": 57577,
+          "thumbnail": "https://media.sketchfab.com/models/8d26f5577815499499293e47676edab2/thumbnails/6cd8c180ff8d4a96b234b4ba2b43b8da/eaa9bf71bdd64040979a760cd9ea080d.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:32.359Z"
+        },
+        {
+          "uid": "85454bbde2a44f0eb46cbf936e9d3b97",
+          "name": "Gisants Porto 2",
+          "description": "Praça da Liberdade, 9 juillet 2025",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-85454bbde2a44f0eb46cbf936e9d3b97",
+          "creator": "Emsagroj",
+          "creatorUrl": "https://sketchfab.com/jordanemery70",
+          "license": {
+            "uid": "b9ddc40b93e34cdca1fc152f39b9f375",
+            "label": "CC Attribution-ShareAlike"
+          },
+          "downloadable": true,
+          "triangles": 50631,
+          "vertices": 31682,
+          "thumbnail": "https://media.sketchfab.com/models/85454bbde2a44f0eb46cbf936e9d3b97/thumbnails/fcb52ee479014fe5b4683712f1c20c94/e4293f2dcfd6432b829c6bdacdc69089.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:32.359Z"
+        },
+        {
+          "uid": "a5239d14ea044b07a70807e1b208eecd",
+          "name": "face",
+          "description": "ugly",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-a5239d14ea044b07a70807e1b208eecd",
+          "creator": "cuber56",
+          "creatorUrl": "https://sketchfab.com/cuber56",
+          "license": {
+            "uid": "b9ddc40b93e34cdca1fc152f39b9f375",
+            "label": "CC Attribution-ShareAlike"
+          },
+          "downloadable": true,
+          "triangles": 898,
+          "vertices": 468,
+          "thumbnail": "https://media.sketchfab.com/models/a5239d14ea044b07a70807e1b208eecd/thumbnails/ef6e3d7125d2462496bbe9da8924bbf3/108311b5472d42d2b22bca24023f6410.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:32.359Z"
+        }
+      ]
+    },
+    "Google Pixel 8": {
+      "status": 200,
+      "url": "https://api.sketchfab.com/v3/search?type=models&q=Google+Pixel+8&downloadable=true&count=24",
+      "checkedAt": "2026-10-17T00:47:33.262Z",
+      "hasFurtherResults": true,
+      "results": [
+        {
+          "uid": "ac007299da72409fa71fbed827ac686a",
+          "name": "Google Pixel 8 Pro",
+          "description": "Google Pixel 8 Pro low-poly 3d model \nfree download \nhope you like it !",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-ac007299da72409fa71fbed827ac686a",
+          "creator": "LagzDesign",
+          "creatorUrl": "https://sketchfab.com/LagzDesign",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 1208,
+          "vertices": 648,
+          "thumbnail": "https://media.sketchfab.com/models/ac007299da72409fa71fbed827ac686a/thumbnails/a3c53486e14848cdb04fbd45b2f3165d/f121899d5b0f46cbaa88473d411e1e7e.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": true,
+          "checkedAt": "2026-10-17T00:47:33.262Z"
+        },
+        {
+          "uid": "9214c34d4a1b46538f0696492e4ac246",
+          "name": "Google Pixel 8 Pro (low-poly)",
+          "description": "Google Pixel 8 Pro low-poly model\n\nINFO:\n\n- ZIP file includes 3 model formats (blend, obj, fbx) and 2 textures\n- Textures are switchable, on the back 3 textures of the official colors, and the screen texture can be changed to png/jpng or MP4 and more\n- Model uses both materials and textures\n- Well optimized\n- can be used for renders, animtions or as a game asset \n\n\ncontact me for any questions\nHope you like it!",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-9214c34d4a1b46538f0696492e4ac246",
+          "creator": "LagzDesign",
+          "creatorUrl": "https://sketchfab.com/LagzDesign",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 9446,
+          "vertices": 5722,
+          "thumbnail": "https://media.sketchfab.com/models/9214c34d4a1b46538f0696492e4ac246/thumbnails/39dbafaef53f476584a38814aefe3a1b/57e1e4c165a4466488385083580ca1e9.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:33.262Z"
+        },
+        {
+          "uid": "c6005e38f07948d29ea5b2581ce97fae",
+          "name": "Buddha Head",
+          "description": "Another Buddha that sits on the windowsill of my conservetory. Photos taken with my Google Pixel 8",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-c6005e38f07948d29ea5b2581ce97fae",
+          "creator": "MarkNHewitt",
+          "creatorUrl": "https://sketchfab.com/MarkNHewitt",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 999996,
+          "vertices": 500000,
+          "thumbnail": "https://media.sketchfab.com/models/c6005e38f07948d29ea5b2581ce97fae/thumbnails/8c31afa9b3ef4a7581ec654c7061750f/d0f9a4b472ac46fa98a1da27353c6020.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:33.262Z"
+        },
+        {
+          "uid": "94b406f4052a4912a38975a5829a04db",
+          "name": "Buddha Resting on Knee",
+          "description": "This is a Ornament of a Buddha restingon her Knee, this Buddha sits on the windowsill of my conservatory and was photographed with a Google Pixel 8",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-94b406f4052a4912a38975a5829a04db",
+          "creator": "MarkNHewitt",
+          "creatorUrl": "https://sketchfab.com/MarkNHewitt",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 999998,
+          "vertices": 500001,
+          "thumbnail": "https://media.sketchfab.com/models/94b406f4052a4912a38975a5829a04db/thumbnails/4fe043ce05fa423faa0d8a6a9099b519/138035f71baa4450a64393a7fcc7da26.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:33.262Z"
+        },
+        {
+          "uid": "fb6268c059854872a54748dee44af193",
+          "name": "Google Pixel 8 Pro LOWPOLY",
+          "description": "This Google Pixel 8 Pro is a high end version of Google's Most Recent Flagship Model!",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-fb6268c059854872a54748dee44af193",
+          "creator": "Betasaur",
+          "creatorUrl": "https://sketchfab.com/betasaur",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 12920,
+          "vertices": 6040,
+          "thumbnail": "https://media.sketchfab.com/models/fb6268c059854872a54748dee44af193/thumbnails/241e12cda5f24b16999d43cadf4da71f/00688d3a69d14de28b6f4905ab1609d7.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:33.262Z"
+        },
+        {
+          "uid": "b22abda74d6f4d4aba8a5a8d2ab73176",
+          "name": "Fossil Shrimp",
+          "description": "From my personal collection, generated via photogrammetry using Polycam.\n\nDevice: Google Pixel 8 Pro\n\nCapture method: Photo mode\n\nDetail: Full",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-b22abda74d6f4d4aba8a5a8d2ab73176",
+          "creator": "Hailey Majewski",
+          "creatorUrl": "https://sketchfab.com/hrachski",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 7413,
+          "vertices": 3716,
+          "thumbnail": "https://media.sketchfab.com/models/b22abda74d6f4d4aba8a5a8d2ab73176/thumbnails/e8c26d3819e94ad794be97ae7081c49e/9e1f283b49da4d9999d0ed98157466cf.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:33.262Z"
+        },
+        {
+          "uid": "27a3d08a4b1e46b591b0080fd9da5363",
+          "name": "Beer stein",
+          "description": "Generated via photogrammetry using Polycam.\n\nDevice: Google Pixel 8 Pro\n\nCapture method: Photo mode\n\nDetail: Full\n\nNumber of frames: 257",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-27a3d08a4b1e46b591b0080fd9da5363",
+          "creator": "Hailey Majewski",
+          "creatorUrl": "https://sketchfab.com/hrachski",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 30002,
+          "vertices": 14999,
+          "thumbnail": "https://media.sketchfab.com/models/27a3d08a4b1e46b591b0080fd9da5363/thumbnails/adadf09abd654974ac15c939b434a685/1cf91c5bedb140b9a96443da7a790348.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:33.262Z"
+        },
+        {
+          "uid": "12bc7d7c7c1d4149b03ed3d5e961e291",
+          "name": "Icon Stand",
+          "description": "Stand with alcove containing mosaic Orthodox Christian icons on each side.\nPhotos taken with Google Pixel 8 Pro, processe with Poly.cam. Bottom cut off for some reason.\nTaken at Holy Cross Orthodox Monastery,",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-12bc7d7c7c1d4149b03ed3d5e961e291",
+          "creator": "VR Voyaging",
+          "creatorUrl": "https://sketchfab.com/VRVoyaging",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 190231,
+          "vertices": 95297,
+          "thumbnail": "https://media.sketchfab.com/models/12bc7d7c7c1d4149b03ed3d5e961e291/thumbnails/956b293481de446bb68927ca849c820a/d38f72e0abd8482fb90a30cfc9e7235c.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:33.262Z"
+        },
+        {
+          "uid": "f3ae118ff46749989678fb97601709dd",
+          "name": "Acer palmatum II",
+          "description": "**Specimen:** Acer palmatum\n\n**Common Name:** Japanese Maple\n\n**Location:** Raleigh, North Carolina, USA\n\n**Date:** July 22, 2024\n\n**Team:** Brendan Harmon\n\n**Capture:** Neural Radiance Field\n\n**Equipment:** Google Pixel 8\n\n**Dataset:** [Cloud Forest](https://doi.org/10.5281/zenodo.8194066)",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-f3ae118ff46749989678fb97601709dd",
+          "creator": "Brendan Harmon",
+          "creatorUrl": "https://sketchfab.com/baharmon",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 0,
+          "vertices": 344666,
+          "thumbnail": "https://media.sketchfab.com/models/f3ae118ff46749989678fb97601709dd/thumbnails/2f0b8adca1a84616b6ba24a273bf0223/0694b0998409431aa5266c450ca771ce.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:33.262Z"
+        },
+        {
+          "uid": "ca29276e0659491eb4c5e6eb9d2ae0fc",
+          "name": "Nautilus shell",
+          "description": "From my personal collection, generated via photogrammetry using Polycam. \n\nDevice: Google Pixel 8 Pro \n\nCapture method: Photo mode \n\nDetail: Full",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-ca29276e0659491eb4c5e6eb9d2ae0fc",
+          "creator": "Hailey Majewski",
+          "creatorUrl": "https://sketchfab.com/hrachski",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 57720,
+          "vertices": 28862,
+          "thumbnail": "https://media.sketchfab.com/models/ca29276e0659491eb4c5e6eb9d2ae0fc/thumbnails/aaa1002f75b14d29a09039eafb64c65e/06c3e9c3db5f4c5e9c572153f3da89ac.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:33.262Z"
+        },
+        {
+          "uid": "6d47cfefb1574239850ddba390de0128",
+          "name": "Dryopteris erythrosora II",
+          "description": "**Specimen:** Dryopteris erythrosora\n\n**Common Name:** Autumn Fern\n\n**Location:** Raleigh, North Carolina, USA\n\n**Date:** July 26, 2024\n\n**Team:** Brendan Harmon\n\n**Capture:** Neural Radiance Field\n\n**Equipment:** Google Pixel 8\n\n**Dataset:** [Cloud Forest](https://doi.org/10.5281/zenodo.8194066)",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-6d47cfefb1574239850ddba390de0128",
+          "creator": "Brendan Harmon",
+          "creatorUrl": "https://sketchfab.com/baharmon",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 0,
+          "vertices": 273224,
+          "thumbnail": "https://media.sketchfab.com/models/6d47cfefb1574239850ddba390de0128/thumbnails/ca692ea84e2c41ba9ffebda2ff2f4d2a/1605cb22155743e08fc9d05b7e0ce05a.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:33.262Z"
+        },
+        {
+          "uid": "852063bd411a4ee089500af31e817c2c",
+          "name": "Dryopteris erythrosora III",
+          "description": "**Specimen:** Dryopteris erythrosora\n\n**Common Name:** Autumn Fern\n\n**Location:** Raleigh, North Carolina, USA\n\n**Date:** July 22, 2024\n\n**Team:** Brendan Harmon\n\n**Capture:** Neural Radiance Field\n\n**Equipment:** Google Pixel 8\n\n**Dataset:** [Cloud Forest](https://doi.org/10.5281/zenodo.8194066)",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-852063bd411a4ee089500af31e817c2c",
+          "creator": "Brendan Harmon",
+          "creatorUrl": "https://sketchfab.com/baharmon",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 0,
+          "vertices": 401658,
+          "thumbnail": "https://media.sketchfab.com/models/852063bd411a4ee089500af31e817c2c/thumbnails/e6117cbe2261458089a5c59488e63f62/54ca2ca032d74a66b485c48c353507e9.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:33.262Z"
+        },
+        {
+          "uid": "638d78ea9faf4562b75224d7e1c38f33",
+          "name": "Reishi (Ganoderma) mushroom, half",
+          "description": "Generated via photogrammetry in Agisoft Metashape with no supplemental lighting. Cut edge not photographed.\n\nDevice: Google Pixel 8 Pro\n\nNumber of Photos: 86\n\nDepth Maps: High Quality, Mild Filtering\n\nModel generation: High quality",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-638d78ea9faf4562b75224d7e1c38f33",
+          "creator": "Hailey Majewski",
+          "creatorUrl": "https://sketchfab.com/hrachski",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 33870,
+          "vertices": 17601,
+          "thumbnail": "https://media.sketchfab.com/models/638d78ea9faf4562b75224d7e1c38f33/thumbnails/87b1deea747248f2a5e4bea50922a5a8/2f27307ea57240d6a59ba6d2c9e4b675.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:33.262Z"
+        },
+        {
+          "uid": "856b09d4ceb54defbbc9aceef097a0fb",
+          "name": "Dryopteris erythrosora I",
+          "description": "# Dryopteris erythrosora\n\n**Common Name:** Autumn Fern\n\n**Location:** Raleigh, North Carolina, USA\n\n**Date:** July 22, 2024\n\n**Team:** Brendan Harmon\n\n**Capture:** Neural Radiance Field\n\n**Equipment:** Google Pixel 8\n\n**Dataset:** [Cloud Forest](https://doi.org/10.5281/zenodo.8194066)",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-856b09d4ceb54defbbc9aceef097a0fb",
+          "creator": "Brendan Harmon",
+          "creatorUrl": "https://sketchfab.com/baharmon",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 0,
+          "vertices": 458198,
+          "thumbnail": "https://media.sketchfab.com/models/856b09d4ceb54defbbc9aceef097a0fb/thumbnails/284c9326d0324fbb8e6fec2d887d0b0a/fb3d22ca056c42ffa2180de0c61c5240.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:33.262Z"
+        },
+        {
+          "uid": "77be52735706495faf9788508f24380e",
+          "name": "Acer palmatum I",
+          "description": "**Specimen:** Acer palmatum\n\n**Common Name:** Japanese Maple\n\n**Location:** Raleigh, North Carolina, USA\n\n**Date:** July 26, 2024\n\n**Team:** Brendan Harmon\n\n**Capture:** Neural Radiance Field\n\n**Equipment:** Google Pixel 8\n\n**Dataset:** [Cloud Forest](https://doi.org/10.5281/zenodo.8194066)",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-77be52735706495faf9788508f24380e",
+          "creator": "Brendan Harmon",
+          "creatorUrl": "https://sketchfab.com/baharmon",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 0,
+          "vertices": 480110,
+          "thumbnail": "https://media.sketchfab.com/models/77be52735706495faf9788508f24380e/thumbnails/c19348b231484ba588bb0de2e1ebd2d6/616c5ddf1f564b12be37a9a8ec238dc9.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:33.262Z"
+        },
+        {
+          "uid": "f6a08cdd1e7e49eab6ea0d820a21c4d1",
+          "name": "Cryptomeria japonica I",
+          "description": "**Specimen:** Cryptomeria japonica\n\n**Common Name:** Japanese Cedar\n\n**Location:** Raleigh, North Carolina, USA\n\n**Date:** July 22, 2024\n\n**Team:** Brendan Harmon\n\n**Capture:** Neural Radiance Field\n\n**Equipment:** Google Pixel 8\n\n**Dataset:** [Cloud Forest](https://doi.org/10.5281/zenodo.8194066)",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-f6a08cdd1e7e49eab6ea0d820a21c4d1",
+          "creator": "Brendan Harmon",
+          "creatorUrl": "https://sketchfab.com/baharmon",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 0,
+          "vertices": 571640,
+          "thumbnail": "https://media.sketchfab.com/models/f6a08cdd1e7e49eab6ea0d820a21c4d1/thumbnails/ad48d9a7389842e3ac774a218d059b44/1d887c6851ef40aaa198483916d4a6be.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:33.262Z"
+        },
+        {
+          "uid": "477669ae67eb45b1b4e0b44ccf00ff85",
+          "name": "Prunus laurocerasus II",
+          "description": "**Specimen:** Prunus laurocerasus\n\n**Common Name:** Cherry Laurel\n\n**Location:** Raleigh, North Carolina, USA\n\n**Date:** July 27, 2024\n\n**Team:** Brendan Harmon\n\n**Capture:** Neural Radiance Field\n\n**Equipment:** Google Pixel 8\n\n**Dataset:** [Cloud Forest](https://doi.org/10.5281/zenodo.8194066)",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-477669ae67eb45b1b4e0b44ccf00ff85",
+          "creator": "Brendan Harmon",
+          "creatorUrl": "https://sketchfab.com/baharmon",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 0,
+          "vertices": 685438,
+          "thumbnail": "https://media.sketchfab.com/models/477669ae67eb45b1b4e0b44ccf00ff85/thumbnails/4b5fe3d9b2304fb1bffb02c2a36eca97/8d05c7c0f0cf49b0af95790eebd0f6a8.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:33.262Z"
+        },
+        {
+          "uid": "9e0babf85e2449c3a27025ae7fa5e7a0",
+          "name": "Dryopteris erythrosora IV",
+          "description": "**Specimen:** Dryopteris erythrosora\n\n**Common Name:** Autumn Fern\n\n**Location:** Raleigh, North Carolina, USA\n\n**Date:** July 26, 2024\n\n**Team:** Brendan Harmon\n\n**Capture:** Neural Radiance Field\n\n**Equipment:** Google Pixel 8\n\n**Dataset:** [Cloud Forest](https://doi.org/10.5281/zenodo.8194066)",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-9e0babf85e2449c3a27025ae7fa5e7a0",
+          "creator": "Brendan Harmon",
+          "creatorUrl": "https://sketchfab.com/baharmon",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 0,
+          "vertices": 314388,
+          "thumbnail": "https://media.sketchfab.com/models/9e0babf85e2449c3a27025ae7fa5e7a0/thumbnails/b3b2ae0ab27949288363f8d214f39fe8/22e738c99bad40b1bfcd7aef4b861e18.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:33.262Z"
+        },
+        {
+          "uid": "c1f03af323244b2093e3880fe4d5d208",
+          "name": "Cephalotaxus harringtonii I",
+          "description": "***Specimen:** Cephalotaxus harringtonia\n\n**Common Name:** Japanese Plum Yew\n\n**Location:** Raleigh, North Carolina, USA\n\n**Date:** July 26, 2024\n\n**Team:** Brendan Harmon\n\n**Capture:** Neural Radiance Field\n\n**Equipment:** Google Pixel 8\n\n**Dataset:** [Cloud Forest](https://doi.org/10.5281/zenodo.8194066)",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-c1f03af323244b2093e3880fe4d5d208",
+          "creator": "Brendan Harmon",
+          "creatorUrl": "https://sketchfab.com/baharmon",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 0,
+          "vertices": 511715,
+          "thumbnail": "https://media.sketchfab.com/models/c1f03af323244b2093e3880fe4d5d208/thumbnails/63d0d7422a234b9c9711582c535a7158/9e368cd5cedd4eefb2a5efb16af753a2.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:33.262Z"
+        },
+        {
+          "uid": "c32558cbfa5542509ad475d45883213c",
+          "name": "Ammonite (Agisoft Metashape, Ambient Light)",
+          "description": "From my personal collection, generated via photogrammetry using Agisoft Metashape with only ambient light. Same specimen that can be viewed [here](https://sketchfab.com/hrachski/collections/scanner-comparisons-092dc952ca02465aa7b6c61c9e273adf), digitized with different scanning methods.\n\nDevice: Google Pixel 8 Pro\n\nNumber of Photos: 217\n\nDepth Maps: High Quality, Aggressive Filtering\n\nModel generation: High quality",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-c32558cbfa5542509ad475d45883213c",
+          "creator": "Hailey Majewski",
+          "creatorUrl": "https://sketchfab.com/hrachski",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 171984,
+          "vertices": 85994,
+          "thumbnail": "https://media.sketchfab.com/models/c32558cbfa5542509ad475d45883213c/thumbnails/41344e3cf4c24119af729a83b9c571a4/c5f51e60905645e7babc57bbebe1de93.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:33.262Z"
+        },
+        {
+          "uid": "5a04e1383d3f458bb4443f76b0eb140a",
+          "name": "Ammonite (RealityScan Desktop)",
+          "description": "From my personal collection, generated via photogrammetry using RealityScan Desktop. Same specimen that can be viewed [here](https://sketchfab.com/hrachski/collections/scanner-comparisons-092dc952ca02465aa7b6c61c9e273adf), digitized with different scanning methods.\n\nDevice: Google Pixel 8 Pro\n\nNumber of Photos: 153",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-5a04e1383d3f458bb4443f76b0eb140a",
+          "creator": "Hailey Majewski",
+          "creatorUrl": "https://sketchfab.com/hrachski",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 499844,
+          "vertices": 249928,
+          "thumbnail": "https://media.sketchfab.com/models/5a04e1383d3f458bb4443f76b0eb140a/thumbnails/9d7ff339a36f497b9cc5959cf09c0d90/0912e92ce6bb493f98291fd4efd694b3.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:33.262Z"
+        },
+        {
+          "uid": "fd2792cd0dfa4d1bb7868ccaee482a7d",
+          "name": "Schlumbergera bridgesil I",
+          "description": "**Specimen:** Schlumbergera bridgesii\n\n**Common Name:** Christmas Cactus\n\n**Location:** Raleigh, North Carolina, USA\n\n**Date:** July 26, 2024\n\n**Team:** Brendan Harmon\n\n**Capture:** Neural Radiance Field\n\n**Equipment:** Google Pixel 8\n\n**Dataset:** [Cloud Forest](https://doi.org/10.5281/zenodo.8194066)",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-fd2792cd0dfa4d1bb7868ccaee482a7d",
+          "creator": "Brendan Harmon",
+          "creatorUrl": "https://sketchfab.com/baharmon",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 0,
+          "vertices": 220878,
+          "thumbnail": "https://media.sketchfab.com/models/fd2792cd0dfa4d1bb7868ccaee482a7d/thumbnails/318278b941cf4c43a91f65619d50deca/dffda9f54c24471f9b8c7c5b917ffa73.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:33.262Z"
+        },
+        {
+          "uid": "81236c51eb6e4da5bf833f9b15f89b86",
+          "name": "Adenium obesum I",
+          "description": "**Specimen:** Adenium obesum\n\n**Common Name:** Desert Rose\n\n**Location:** Raleigh, North Carolina, USA\n\n**Date:** July 26, 2024\n\n**Team:** Brendan Harmon\n\n**Capture:** Neural Radiance Field\n\n**Equipment:** Google Pixel 8\n\n**Dataset:** [Cloud Forest](https://doi.org/10.5281/zenodo.8194066)",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-81236c51eb6e4da5bf833f9b15f89b86",
+          "creator": "Brendan Harmon",
+          "creatorUrl": "https://sketchfab.com/baharmon",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 0,
+          "vertices": 296028,
+          "thumbnail": "https://media.sketchfab.com/models/81236c51eb6e4da5bf833f9b15f89b86/thumbnails/864267045edf470db69100f97b20a506/16154272163443449983f17d651e297a.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:33.262Z"
+        },
+        {
+          "uid": "4e95f78944074e9da619112314c195f7",
+          "name": "Schlumbergera bridgesil II",
+          "description": "**Specimen:** Schlumbergera bridgesii\n\n**Common Name:** Christmas Cactus\n\n**Location:** Raleigh, North Carolina, USA\n\n**Date:** December 31, 2024\n\n**Team:** Brendan Harmon\n\n**Capture:** Neural Radiance Field\n\n**Equipment:** Google Pixel 8\n\n**Dataset:** [Cloud Forest](https://doi.org/10.5281/zenodo.8194066)",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-4e95f78944074e9da619112314c195f7",
+          "creator": "Brendan Harmon",
+          "creatorUrl": "https://sketchfab.com/baharmon",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 0,
+          "vertices": 489314,
+          "thumbnail": "https://media.sketchfab.com/models/4e95f78944074e9da619112314c195f7/thumbnails/b9a6b8f809974fb7ac8063ab0e11d7a1/0436ea3833384c8889720817c95f2576.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:33.262Z"
+        }
+      ]
+    },
+    "iPhone 16": {
+      "status": 200,
+      "url": "https://api.sketchfab.com/v3/search?type=models&q=iPhone+16&downloadable=true&count=24",
+      "checkedAt": "2026-10-17T00:47:34.354Z",
+      "hasFurtherResults": true,
+      "results": [
+        {
+          "uid": "d58591e88a824dfd8cef0af616273b02",
+          "name": "iPhone 16 - Free",
+          "description": "A full resolution render of the iPhone 16 Blue version.",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-d58591e88a824dfd8cef0af616273b02",
+          "creator": "Wes",
+          "creatorUrl": "https://sketchfab.com/wimell",
+          "license": {
+            "uid": "72eb2b1960364637901eacce19283624",
+            "label": "Free Standard"
+          },
+          "downloadable": true,
+          "triangles": 56342,
+          "vertices": 34097,
+          "thumbnail": "https://media.sketchfab.com/models/d58591e88a824dfd8cef0af616273b02/thumbnails/cad40d457be74d2fad8c9db3e9abd399/abd12c7fe27b443e9ebbcce661f33c4d.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:34.354Z"
+        },
+        {
+          "uid": "41a071ae12794b668502f58d1e0fd1a3",
+          "name": "iPhone 16 Pro Max",
+          "description": "This is the lastest iPhone for now, 2024, the new iphone 16 pro max,\nthis model was made on Blender with almost every Detail.",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-41a071ae12794b668502f58d1e0fd1a3",
+          "creator": "MajdyModels",
+          "creatorUrl": "https://sketchfab.com/MG990",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 51535,
+          "vertices": 26223,
+          "thumbnail": "https://media.sketchfab.com/models/41a071ae12794b668502f58d1e0fd1a3/thumbnails/c5e5266846cd42fb8b8a37220c5a14ae/17d162ecf4034d36aa4da4cf5a4f1364.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:34.354Z"
+        },
+        {
+          "uid": "178d7f7d31974184a65b6f0b5c229d85",
+          "name": "IPhone 16",
+          "description": "IPhone 16",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-178d7f7d31974184a65b6f0b5c229d85",
+          "creator": "Sketcher",
+          "creatorUrl": "https://sketchfab.com/jnanbr07",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 102466,
+          "vertices": 52526,
+          "thumbnail": "https://media.sketchfab.com/models/178d7f7d31974184a65b6f0b5c229d85/thumbnails/40f02bb4bdad409aaa7aa78d62f53c99/6c02f5a59b0c40468b762ebf73a1f4bc.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:34.354Z"
+        },
+        {
+          "uid": "b45aaee3414c4d91b46e3b1aa94ed652",
+          "name": "Apple iPhone 16 Collection",
+          "description": "Realistic (copy) 3d model Apple iPhone 16 Collection.\n\nBuy 3D model: [Apple iPhone 16 Collection](https://tinyurl.com/muhy4s4f)\n\nBuy 3D model: [Apple iPhone 16 Collection](https://www.renderhub.com/madmix/apple-iphone-16-collection-1)\n\nBuy 3D model: [Apple iPhone 16 Collection](https://superhivemarket.com/products/apple-iphone-16-collection)\n\nApple iPhone 16 pro MAX\n34839 Polygons\n\nApple iPhone 16 pro\n32251 Polygons\n\nApple iPhone 16 Plus\n32198 Polygons\n\nApple iPhone 16\n29590 Polygons\n\nApple iPhone 16e\n27186 Polygons\n\nThis set:\n\n- 5 file obj standard\n- 5 file 3ds Max 2013 vray material\n- 5 file 3ds Max 2013 corona material\n- 5 file of 3Ds\n- 5 file cinema 4d standard.\n- 5 file blender cycles.\n\nTopology of geometry:\n\n- forms and proportions of The 3D model\n- the geometry of the model was created very neatly\n- there are no many-sided polygons\n- detailed enough for close-up renders\n- the model optimized for turbosmooth modifier\n- Not collapsed the turbosmooth modified",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-b45aaee3414c4d91b46e3b1aa94ed652",
+          "creator": "madMIX",
+          "creatorUrl": "https://sketchfab.com/madmix",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 4,
+          "vertices": 8,
+          "thumbnail": "https://media.sketchfab.com/models/b45aaee3414c4d91b46e3b1aa94ed652/thumbnails/6b7f2949cb644d9e824ca2ab58efd2d7/13be7a11a92b48bd95caaec9d14abb24.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:34.354Z"
+        },
+        {
+          "uid": "dd0073ec4d5e43f8a9e4b20da71badcd",
+          "name": "IPhone 16 Pro Max",
+          "description": "Get the all new next gen IPhone 16 Pro Max for... free.",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-dd0073ec4d5e43f8a9e4b20da71badcd",
+          "creator": "Sketcher",
+          "creatorUrl": "https://sketchfab.com/jnanbr07",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 51520,
+          "vertices": 26219,
+          "thumbnail": "https://media.sketchfab.com/models/dd0073ec4d5e43f8a9e4b20da71badcd/thumbnails/6ba5f07de34148c58146d950e61b068a/e0acb88ae39c45c784a76823ebeb7464.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:34.354Z"
+        },
+        {
+          "uid": "9a86002909e44639ba3cf5b06d9d3daa",
+          "name": "iPhone 16 Pro Max based on the leaked photos",
+          "description": "How did I design this model : watch the tutorial : \n[https://youtu.be/LDK7aUnwd_s](http://)\n\n\n\n \n\niPhone 16 Pro Max iPhone 16 Pro Max specs iPhone 16 Pro Max release date Buy iPhone 16 Pro Max iPhone 16 Pro Max price iPhone 16 Pro Max pre-order iPhone 16 Pro Max deals iPhone 16 Pro Max features iPhone 16 Pro Max colors iPhone 16 Pro Max screen protector iPhone 16 Pro Max 5G capability iPhone 16 Pro Max 3ds Max model iPhone 16 Pro Max model for 3D printing iPhone 16 Pro Max realistic 3D model Virtual iPhone 16 Pro Max 3D Animated iPhone 16 Pro Max 3D model Custom iPhone 16 Pro Max 3D model Free iPhone 16 Pro Max 3D model download iPhone 16 Pro Max 3D model free Download 3D model of iPhone 16 Pro Max iPhone 16 Pro Max 3D rendering free 3D iPhone 16 Pro Max mockup free iPhone 16 Pro Max CAD model download Free 3D model iPhone 16 Pro Max iPhone 16 Pro Max 3D model for 3D printing Downloadable iPhone 16 Pro Max 3D file 3D design iPhone 16 Pro Max free iPhone 16 Pro Max free 3D model STL iPhone 16 Pro Max OBJ 3D",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-9a86002909e44639ba3cf5b06d9d3daa",
+          "creator": "ariatnb999",
+          "creatorUrl": "https://sketchfab.com/3dpHUB",
+          "license": {
+            "uid": "34b725081a6a4184957efaec2cb84ed3",
+            "label": "CC Attribution-NonCommercial-NoDerivs"
+          },
+          "downloadable": true,
+          "triangles": 16308,
+          "vertices": 8156,
+          "thumbnail": "https://media.sketchfab.com/models/9a86002909e44639ba3cf5b06d9d3daa/thumbnails/9cc546f7b8674292a4bfe1866b2b5d2d/06b5e8fbd07f451594c7c5a121e7a9cf.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:34.354Z"
+        },
+        {
+          "uid": "e8f73763eaca400095df6e4a6153ae82",
+          "name": "iPhone 16 Plus Green",
+          "description": "Get the new IPhone 16 plus green for free!",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-e8f73763eaca400095df6e4a6153ae82",
+          "creator": "Sketcher",
+          "creatorUrl": "https://sketchfab.com/jnanbr07",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 60824,
+          "vertices": 36354,
+          "thumbnail": "https://media.sketchfab.com/models/e8f73763eaca400095df6e4a6153ae82/thumbnails/e406daa61a8e422f91b297b6b3ace73f/19250d7525d94133b954f09f0e796d15.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:34.354Z"
+        },
+        {
+          "uid": "c1719ed762a7412d933f3ddef0ce2929",
+          "name": "Iphone 16 Plus",
+          "description": "This high-poly 3D model of the iPhone 16 Plus was designed with meticulous attention to detail, accurately capturing every feature of Apple's latest flagship. The model is fully textured, including screen reflections, button details, and camera lens nuances, making it ideal for close-up renders or high-resolution animations. Ideal for use in product visualizations, commercials, or as a reference in UI/UX mockups.\n\n***You can support my work on Fab by viewing or purchasing my models. Thank you!***\n\nwww.fab.com/sellers/VIVIDENESS%20PROJECT\n\n\nTechnical Details:\nSoftware Used: Blender, Substance Painter\nPoly Count: Vertics: 46,517, Edges: 91,125, Faces: 42,493, Triangles: 84,162, Texture Resolution: 2K\n\nP.S. I'm a beginner 3D artist ***and would be very grateful for any advice, suggestions, or feedback you can offer***—whether on this model specifically or in general!",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-c1719ed762a7412d933f3ddef0ce2929",
+          "creator": "VIVIDNESS PROJECT",
+          "creatorUrl": "https://sketchfab.com/vividnessproject",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 84162,
+          "vertices": 46562,
+          "thumbnail": "https://media.sketchfab.com/models/c1719ed762a7412d933f3ddef0ce2929/thumbnails/7ab2adb4ecc045c4a13ba595e8f03965/10b3355e567d4043b6fd777f20e8943c.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:34.354Z"
+        },
+        {
+          "uid": "96be8c7e49fa4f949855db3e7f2e64e0",
+          "name": "Iphone 16 Pro",
+          "description": "High quality polygon iPhone 16 pro mockup for ecommerce stores.",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-96be8c7e49fa4f949855db3e7f2e64e0",
+          "creator": "tranminhluan",
+          "creatorUrl": "https://sketchfab.com/tranminhluan",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 49568,
+          "vertices": 26317,
+          "thumbnail": "https://media.sketchfab.com/models/96be8c7e49fa4f949855db3e7f2e64e0/thumbnails/445b5a4f65944517a48390024401d8ae/490f1f52cf5e4e45b56004f6bfe62889.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": true,
+          "checkedAt": "2026-10-17T00:47:34.354Z"
+        },
+        {
+          "uid": "7c682a89e56e467893a2dceec838cc9c",
+          "name": "IPhone 16 Pro Max Light Brown",
+          "description": "IPhone 16 Pro Max Light Brown for free...",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-7c682a89e56e467893a2dceec838cc9c",
+          "creator": "Sketcher",
+          "creatorUrl": "https://sketchfab.com/jnanbr07",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 83653,
+          "vertices": 49177,
+          "thumbnail": "https://media.sketchfab.com/models/7c682a89e56e467893a2dceec838cc9c/thumbnails/83cb075069fc47028a01d06e4a937ddc/9213e8e11eee439d8ba5d3bf7aa81977.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:34.354Z"
+        },
+        {
+          "uid": "a6e53194519448e4885cecfa162dbfcb",
+          "name": "iPhone 16 Pro Max White",
+          "description": "Get the new IPhone 16 Pro Max for free...",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-a6e53194519448e4885cecfa162dbfcb",
+          "creator": "Sketcher",
+          "creatorUrl": "https://sketchfab.com/jnanbr07",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 83653,
+          "vertices": 49177,
+          "thumbnail": "https://media.sketchfab.com/models/a6e53194519448e4885cecfa162dbfcb/thumbnails/7772d32597f04fbba63c4f8d1ced87bb/c6766b15d44641d397eb46c8d385fcba.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:34.354Z"
+        },
+        {
+          "uid": "c7f900aa7ac547a487f1ba3082dac96a",
+          "name": "iPhone 16 Teal (Free)",
+          "description": "Hello! This is the **iPhone 16 Teal** 3D model directly from apple. Enjoy it! Note: The not showing wallpaper in the preview will be there when downloaded.",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-c7f900aa7ac547a487f1ba3082dac96a",
+          "creator": "EV_car2013",
+          "creatorUrl": "https://sketchfab.com/EV_car2013",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 60986,
+          "vertices": 36896,
+          "thumbnail": "https://media.sketchfab.com/models/c7f900aa7ac547a487f1ba3082dac96a/thumbnails/010066a1367341f99f23e35ae46ff7d3/6b438080e6f44591b22fb543299253f0.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:34.354Z"
+        },
+        {
+          "uid": "91f29764b9df48759fa2195388e04468",
+          "name": "iPhone 16 Black",
+          "description": "This image showcases a sleek and modern **iPhone 16** design. The device features:\n\n- **Dual Rear Camera System**: Two prominently positioned rear camera lenses for enhanced photography and videography, ensuring high-quality images and advanced features like Night Mode and AI enhancements.\n- **Minimalist Design**: A clean matte black finish, exuding elegance and sophistication, with the iconic Apple logo centered on the back.\n- **Refined Button Layout**: Streamlined volume and power buttons along the side for easy accessibility and ergonomic use.\n- **Compact and Lightweight**: A slim profile and rounded edges for a comfortable grip, balancing style with functionality.\n\nThis stunning render of the iPhone 16 has been blendered by Zvoni, showcasing not only the product’s aesthetic appeal but also the incredible attention to realism in its virtual design. Perfect for tech enthusiasts and Apple fans alike, this render is a testament to innovation, creativity, and expert craftsmanship.",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-91f29764b9df48759fa2195388e04468",
+          "creator": "Zvoni10",
+          "creatorUrl": "https://sketchfab.com/Zvoni10",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 60986,
+          "vertices": 36896,
+          "thumbnail": "https://media.sketchfab.com/models/91f29764b9df48759fa2195388e04468/thumbnails/c2e3a3c3e7d84ef195834831085ed8c8/184d29143fdb455eb214e2362a5e1202.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": true,
+          "checkedAt": "2026-10-17T00:47:34.354Z"
+        },
+        {
+          "uid": "1f3de794a62c4dc78f932f58420e3d49",
+          "name": "iPhone 16",
+          "description": "iPhone 16 pro model for my personal project.",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-1f3de794a62c4dc78f932f58420e3d49",
+          "creator": "motionkitt",
+          "creatorUrl": "https://sketchfab.com/3dkittt",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 32913,
+          "vertices": 17297,
+          "thumbnail": "https://media.sketchfab.com/models/1f3de794a62c4dc78f932f58420e3d49/thumbnails/63589df207a944a18cf19df7ae8a980c/8f882d5f335143d2884017d53915d737.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:34.354Z"
+        },
+        {
+          "uid": "ade0de1a98b54302be2b00c2cbd2a741",
+          "name": "iphone 16",
+          "description": "High quality polygon iphone 16 mockup for ecommerce stores.",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-ade0de1a98b54302be2b00c2cbd2a741",
+          "creator": "tranminhluan",
+          "creatorUrl": "https://sketchfab.com/tranminhluan",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 44902,
+          "vertices": 23837,
+          "thumbnail": "https://media.sketchfab.com/models/ade0de1a98b54302be2b00c2cbd2a741/thumbnails/58c24beb27c64bb9b776245f141ede36/29ce5d63b6ed4c349cd24fecb8bf02fd.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:34.354Z"
+        },
+        {
+          "uid": "56f0840754654be3a9e4679c84d4ed64",
+          "name": "Iphone 16 Pro Max",
+          "description": "**updated on 05.14.2025** <br>\n- screen topology fixed <br>\n- rear cameras\n\n**updated on 27.07.2025** <br>\n- file type updated .glb to .fbx",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-56f0840754654be3a9e4679c84d4ed64",
+          "creator": "shig0",
+          "creatorUrl": "https://sketchfab.com/shig0",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 15826,
+          "vertices": 9631,
+          "thumbnail": "https://media.sketchfab.com/models/56f0840754654be3a9e4679c84d4ed64/thumbnails/e64a9035f0b94e3f86311ea15809179d/c363cfc7ad07402f92ad64d8cdf4ddbf.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:34.354Z"
+        },
+        {
+          "uid": "787264723097464686e8daa37aaf0435",
+          "name": "iPhone 16 Pink Free",
+          "description": "Heres the 16 in the Pink colorway. hope you like it! The other colorways are in my Sketchfab profile.",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-787264723097464686e8daa37aaf0435",
+          "creator": "EV_car2013",
+          "creatorUrl": "https://sketchfab.com/EV_car2013",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 60986,
+          "vertices": 36896,
+          "thumbnail": "https://media.sketchfab.com/models/787264723097464686e8daa37aaf0435/thumbnails/b3fa4f869b1d46c7a882a3b86c763bb7/c04687a4541e4fb3baf270af90bf754d.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:34.354Z"
+        },
+        {
+          "uid": "aeabe396561141ca8e99d9a0404d3f52",
+          "name": "IPhone 16 Plus Blue",
+          "description": "IPhone 16 Plus Blue for free...",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-aeabe396561141ca8e99d9a0404d3f52",
+          "creator": "Sketcher",
+          "creatorUrl": "https://sketchfab.com/jnanbr07",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 60824,
+          "vertices": 36354,
+          "thumbnail": "https://media.sketchfab.com/models/aeabe396561141ca8e99d9a0404d3f52/thumbnails/89bf695766954cffbac66ec0fc09c2c7/211c62c605a94e25af662b6dce152b13.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:34.354Z"
+        },
+        {
+          "uid": "8f730ee7510d41af99fea9f2a94118fc",
+          "name": "IPhone 16",
+          "description": "I spent 1 week to make this IPhone.",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-8f730ee7510d41af99fea9f2a94118fc",
+          "creator": "Quansbao",
+          "creatorUrl": "https://sketchfab.com/Quansbao",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 8468,
+          "vertices": 6115,
+          "thumbnail": "https://media.sketchfab.com/models/8f730ee7510d41af99fea9f2a94118fc/thumbnails/e22380279eaa4dcd9257977866ab9f99/c4566719edae4e7abfcce1bf02250e4a.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:34.354Z"
+        },
+        {
+          "uid": "eb6db2546c6b48c6bad4602628e11d26",
+          "name": "iPhone 16 Black",
+          "description": "hello this is my iphone 16 black model. check out my sketchfab profile for the iphone 16 in other colors. enjoy!",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-eb6db2546c6b48c6bad4602628e11d26",
+          "creator": "EV_car2013",
+          "creatorUrl": "https://sketchfab.com/EV_car2013",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 60986,
+          "vertices": 36896,
+          "thumbnail": "https://media.sketchfab.com/models/eb6db2546c6b48c6bad4602628e11d26/thumbnails/78737595b922454eb63e5ca85aae366c/a09498af7dc94a40b2318f9b07afef4f.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:34.354Z"
+        },
+        {
+          "uid": "d4f1ae79c6344e97855b5bd3893b2b12",
+          "name": "iPhone 16 Pro White Titanium",
+          "description": "Hello! This is the white colourway of the iPhone 16 Pro model, the black and white variants were missing so i made these, for more colours and models visit my sketchfab pf. Enjoy it!. Direcly from apple site",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-d4f1ae79c6344e97855b5bd3893b2b12",
+          "creator": "EV_car2013",
+          "creatorUrl": "https://sketchfab.com/EV_car2013",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 82490,
+          "vertices": 48812,
+          "thumbnail": "https://media.sketchfab.com/models/d4f1ae79c6344e97855b5bd3893b2b12/thumbnails/f3016bf9ba5e497d9cfc8582ece6f205/6c5098c289024a0a98f8823bb87dac93.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:34.354Z"
+        },
+        {
+          "uid": "8acb38f436d5467c82fa5364712dd8df",
+          "name": "Iphone 16 pro max",
+          "description": "Iphone 16 pro max\n\n\n\nPerfect for 3d render images, high quality low poly model with 2k textures.\n\n\n\nThe model was made in 3ds max and the textures made with substance 3d painter.",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-8acb38f436d5467c82fa5364712dd8df",
+          "creator": "BarnusModels",
+          "creatorUrl": "https://sketchfab.com/barnusmodels",
+          "license": {
+            "uid": "72eb2b1960364637901eacce19283624",
+            "label": "Free Standard"
+          },
+          "downloadable": true,
+          "triangles": 29616,
+          "vertices": 14833,
+          "thumbnail": "https://media.sketchfab.com/models/8acb38f436d5467c82fa5364712dd8df/thumbnails/e1b4c80fe4db493f83745bfa3d9a9abe/ea341ffcdeca415c978cee7db78893d0.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:34.354Z"
+        },
+        {
+          "uid": "e49a00d7384f44ecae3f0e470ed8b629",
+          "name": "iPhone 16 White, Free",
+          "description": "Hello! This is the white version iPhone 16, for more colors go check my sketchfab profile. Enjoy! Pink, Teal, Ultramarine and Black versions on my Skechfab profile along with MacBook Pro Space Black",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-e49a00d7384f44ecae3f0e470ed8b629",
+          "creator": "EV_car2013",
+          "creatorUrl": "https://sketchfab.com/EV_car2013",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 60986,
+          "vertices": 36896,
+          "thumbnail": "https://media.sketchfab.com/models/e49a00d7384f44ecae3f0e470ed8b629/thumbnails/ae2de580d38f4aa09b6b740b7c2c810c/62a0ff21b9944bda8ee115aef77e47fa.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:34.354Z"
+        },
+        {
+          "uid": "72e2e06fb4c44990b40f7ac42184a4b0",
+          "name": "Dragon Statue from ROM",
+          "description": "A ceramic Chinese dragon statue exposed in the Royal Ontario Museum.\n\nTesting iPhone 16 photogrammetry + Agisoft delight",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-72e2e06fb4c44990b40f7ac42184a4b0",
+          "creator": "Nik",
+          "creatorUrl": "https://sketchfab.com/nikska",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 64677,
+          "vertices": 33041,
+          "thumbnail": "https://media.sketchfab.com/models/72e2e06fb4c44990b40f7ac42184a4b0/thumbnails/7be9b681d0964990b0acca84c871784d/e9e190f7c08f4ec3af92191de8e7dae6.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:34.354Z"
+        }
+      ]
+    },
+    "iPhone 15": {
+      "status": 200,
+      "url": "https://api.sketchfab.com/v3/search?type=models&q=iPhone+15&downloadable=true&count=24",
+      "checkedAt": "2026-10-17T00:47:35.196Z",
+      "hasFurtherResults": true,
+      "results": [
+        {
+          "uid": "9e045e469d514fea9dda2ccd161f5fa3",
+          "name": "IPhone 15 Pro",
+          "description": "IPhone 15 Pro Titanium",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-9e045e469d514fea9dda2ccd161f5fa3",
+          "creator": "Sketcher",
+          "creatorUrl": "https://sketchfab.com/jnanbr07",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 64229,
+          "vertices": 39144,
+          "thumbnail": "https://media.sketchfab.com/models/9e045e469d514fea9dda2ccd161f5fa3/thumbnails/e7a76b8acacb496ba369677b1c92ca66/9bdfbd7aeeeb4ce394b1e1bcd08ee485.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:35.196Z"
+        },
+        {
+          "uid": "5b7b35513a154ac69619dc2b2fe15686",
+          "name": "iPhone 15 Pro Max",
+          "description": "This is the newest iPhone 15 Pro Max 2023 \nThis 3D was made in Blender.",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-5b7b35513a154ac69619dc2b2fe15686",
+          "creator": "MajdyModels",
+          "creatorUrl": "https://sketchfab.com/MG990",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 8517,
+          "vertices": 5549,
+          "thumbnail": "https://media.sketchfab.com/models/5b7b35513a154ac69619dc2b2fe15686/thumbnails/c87afc9dc46543918485392cdd1a2290/d641d5cff4ab4cddb56370bcb3019c13.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:35.196Z"
+        },
+        {
+          "uid": "4ec1f531d3054a7cb55e52ccd38b895d",
+          "name": "Iphone 15 Pro Max",
+          "description": "Apple Iphone 15 Pro Max Gratis untuk kalian semua!\n\nCara pakai : \nDownload dulu Iphone 15 Pro Max\nMasukkan ke 3d software seperti blender/cinema 4d\nRender ke Videomu.",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-4ec1f531d3054a7cb55e52ccd38b895d",
+          "creator": "Mindplace",
+          "creatorUrl": "https://sketchfab.com/Mindplace",
+          "license": {
+            "uid": "72eb2b1960364637901eacce19283624",
+            "label": "Free Standard"
+          },
+          "downloadable": true,
+          "triangles": 60,
+          "vertices": 68,
+          "thumbnail": "https://media.sketchfab.com/models/4ec1f531d3054a7cb55e52ccd38b895d/thumbnails/ef765081f7d94068a8b3845768350a48/bd7af5a300c040078a7a07c5f41b0d8a.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:35.196Z"
+        },
+        {
+          "uid": "df17520841214c1792fb8a44c6783ee7",
+          "name": "Apple iPhone 15 Pro Max Black",
+          "description": "L'iPhone 15 Pro Max est la version grand format des iPhone haut de gamme annoncés par Apple le 12 septembre 2023. Il présente un écran OLED de 6,7 pouces avec un poinçon dynamique pour le capteur FaceID et la caméra frontale ainsi qu'une fréquence de rafraîchissement dynamique de 120 Hz à 1 Hz pour le Always on Display. Il intègre un SoC Apple A17 Pro gravé en 3 nm et un triple capteur photo de 48+12+12 mégapixels (avec un téléobjectif X5) et ultra grand-angle. Enfin, il intègre un nouveau bouton action programmable en place de l'habituel interrupteur sonnerie/silencieux.",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-df17520841214c1792fb8a44c6783ee7",
+          "creator": "polyman Studio",
+          "creatorUrl": "https://sketchfab.com/Polyman_3D",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 64231,
+          "vertices": 39144,
+          "thumbnail": "https://media.sketchfab.com/models/df17520841214c1792fb8a44c6783ee7/thumbnails/4239e5cd11fb46e9968dce4e6f844515/4c8652e09e244d799f623cae49249956.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": true,
+          "checkedAt": "2026-10-17T00:47:35.196Z"
+        },
+        {
+          "uid": "090e561ffd49437ab5185ed9d07903b2",
+          "name": "iPhone 15 Pro Max",
+          "description": "iPhone 15 Pro Max low-poly model\nhope you like it !!",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-090e561ffd49437ab5185ed9d07903b2",
+          "creator": "LagzDesign",
+          "creatorUrl": "https://sketchfab.com/LagzDesign",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 1928,
+          "vertices": 1092,
+          "thumbnail": "https://media.sketchfab.com/models/090e561ffd49437ab5185ed9d07903b2/thumbnails/d2ad3b69555749b0862cb93ed852bfb5/7af3be5dd5644156abc3c566f2747c1d.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:35.196Z"
+        },
+        {
+          "uid": "dcf6110190bd4f2682caddedbf850a94",
+          "name": "Iphone 15 Pro Max",
+          "description": "This is the 3d model of iphone 15 pro max. You can use this model in your projects. Also you can use this model in indigames.",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-dcf6110190bd4f2682caddedbf850a94",
+          "creator": "Debesis6",
+          "creatorUrl": "https://sketchfab.com/Debesis6",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 26720,
+          "vertices": 14027,
+          "thumbnail": "https://media.sketchfab.com/models/dcf6110190bd4f2682caddedbf850a94/thumbnails/67add89317fa409997f7fcd38c515972/a3bce3d72efb4123ad8aa764393ef687.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:35.196Z"
+        },
+        {
+          "uid": "8a5b2b47b4904faebf2d497ae7282725",
+          "name": "Iphone 15(concept)",
+          "description": "This is a **Concept** model of the next iphone. Hope yall enjoy it! Designed and textured in Blender.",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-8a5b2b47b4904faebf2d497ae7282725",
+          "creator": "Tycho Magnetic Anomoly",
+          "creatorUrl": "https://sketchfab.com/CitrixStorm2222",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 8928,
+          "vertices": 5412,
+          "thumbnail": "https://media.sketchfab.com/models/8a5b2b47b4904faebf2d497ae7282725/thumbnails/29cd5ec2729d4c7a8df93a986a492b62/35b4673c12d54de3bbd447c2d86ffc73.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:35.196Z"
+        },
+        {
+          "uid": "b5c42a74ec8b4a5cb2b0790228d5454d",
+          "name": "iphone 15",
+          "description": "It's detailed and great for creative projects. Whether you're a designer or just like making stuff, this model is for you. Download it now to use in your projects and make them even better.\n\nCreated in Blender with Physically Based Rendering (PBR) materials. These materials ensure realistic textures and lighting effects, enhancing the authenticity of the model in your projects. Whether you're a seasoned 3D artist or just starting out, these PBR materials make it easy to achieve stunning results. Download now to add this high-quality iPhone model with PBR materials to your digital toolbox and take your creations to the next level",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-b5c42a74ec8b4a5cb2b0790228d5454d",
+          "creator": "namamae e",
+          "creatorUrl": "https://sketchfab.com/aswingoku70",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 35685,
+          "vertices": 19385,
+          "thumbnail": "https://media.sketchfab.com/models/b5c42a74ec8b4a5cb2b0790228d5454d/thumbnails/fdacbe8e2b4446ddaecfc6ea0acfccc0/077ce8118ccf4bb2b3b43263fc8ffb96.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:35.196Z"
+        },
+        {
+          "uid": "6fd1283ec05d412d99a3f23b2e80e473",
+          "name": "Apple iPhone 15 Pro Black",
+          "description": "L'iPhone 15 Pro est la version haut de gamme des iPhone annoncés par Apple le 12 septembre 2023. Il propose un écran OLED de 6,1 pouces avec un poinçon dynamique pour le capteur FaceID et la caméra frontale ainsi qu'une fréquence de rafraîchissement dynamique de 120 Hz à 1 Hz pour le Always on Display. Il possède également un nouveau SoC Apple A17 gravé en 3 nm et un triple capteur photo de 48+12+12 mégapixels avec téléobjectif 3x et ultra grand-angle.",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-6fd1283ec05d412d99a3f23b2e80e473",
+          "creator": "polyman Studio",
+          "creatorUrl": "https://sketchfab.com/Polyman_3D",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 61529,
+          "vertices": 37630,
+          "thumbnail": "https://media.sketchfab.com/models/6fd1283ec05d412d99a3f23b2e80e473/thumbnails/50a09b598577407fbc286c2b86e39859/32708227f1ba4725abb7b6ea90dc9d05.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:35.196Z"
+        },
+        {
+          "uid": "a3f10f0cc893468e85f454d4d5486e99",
+          "name": "aiPhone 15 Pro - Low Poly smartphone",
+          "description": "Recreation of an iPhone 15 Pro, low poly.",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-a3f10f0cc893468e85f454d4d5486e99",
+          "creator": "hysokana",
+          "creatorUrl": "https://sketchfab.com/hysokana",
+          "license": {
+            "uid": "bbfe3f7dbcdd4122b966b85b9786a989",
+            "label": "CC Attribution-NonCommercial"
+          },
+          "downloadable": true,
+          "triangles": 2316,
+          "vertices": 1336,
+          "thumbnail": "https://media.sketchfab.com/models/a3f10f0cc893468e85f454d4d5486e99/thumbnails/78921393f45f4cb0a6e9e37c1edd5507/38322fcd36b14977b94995a982ee0f2c.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:35.196Z"
+        },
+        {
+          "uid": "70ef125d2a2d434297827dde38ac15ae",
+          "name": "iPhone 15 Pro Max - Blue Titanium",
+          "description": null,
+          "sourceUrl": "https://sketchfab.com/3d-models/none-70ef125d2a2d434297827dde38ac15ae",
+          "creator": "Apple Inc.",
+          "creatorUrl": "https://sketchfab.com/AppleInc",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 128560,
+          "vertices": 78295,
+          "thumbnail": "https://media.sketchfab.com/models/70ef125d2a2d434297827dde38ac15ae/thumbnails/b03b34ddc4964461a4116ea3dbdd04f9/445358e3959a4f26a886b17c866917ad.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:35.196Z"
+        },
+        {
+          "uid": "616945ef6bef415889c8748918700bc7",
+          "name": "IPhone 15 Pro Max Made In Blender",
+          "description": "IPhone 15 Pro Max Made In Blender By Polygon MBW.",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-616945ef6bef415889c8748918700bc7",
+          "creator": "PolygonMBW",
+          "creatorUrl": "https://sketchfab.com/PolygonMBW",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 134010,
+          "vertices": 54527,
+          "thumbnail": "https://media.sketchfab.com/models/616945ef6bef415889c8748918700bc7/thumbnails/a16a012b6ef54317a96dc3dea50570ca/9603274d75b8419aa5ccd00dd1c9665a.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:35.196Z"
+        },
+        {
+          "uid": "8d33275ba7ac4aaaa134e10caf9c8690",
+          "name": "iPhone 15",
+          "description": null,
+          "sourceUrl": "https://sketchfab.com/3d-models/none-8d33275ba7ac4aaaa134e10caf9c8690",
+          "creator": "rattenheimer",
+          "creatorUrl": "https://sketchfab.com/rattenheimer",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 9804,
+          "vertices": 5927,
+          "thumbnail": "https://media.sketchfab.com/models/8d33275ba7ac4aaaa134e10caf9c8690/thumbnails/4e76c9d66ae74754b1c8bd19f481e8b9/af028740be7940d09e7720da184624a8.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:35.196Z"
+        },
+        {
+          "uid": "21a243ccceb64a4da8c0f622dcb935d3",
+          "name": "iPhone 15 Pro",
+          "description": "Announced today (9/12/2023)",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-21a243ccceb64a4da8c0f622dcb935d3",
+          "creator": "rtql8d",
+          "creatorUrl": "https://sketchfab.com/rtql8d",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 14934,
+          "vertices": 7471,
+          "thumbnail": "https://media.sketchfab.com/models/21a243ccceb64a4da8c0f622dcb935d3/thumbnails/f9ca1a6448354f8192f9dce14a99c64a/6535ddba4e93491599be9193ea6b9297.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:35.196Z"
+        },
+        {
+          "uid": "abdb20d303884717a13fe154210d1de1",
+          "name": "Iphone 15 pro deep-blue",
+          "description": "Today, Apple launched iPhone 15 Pro and iPhone 15 Pro Max, designed with aerospace-grade Titanium to be sturdy yet thin and light, providing Apple's lightest Pro models ever. New design with customizable edges and Action buttons, helping users personalize their iPhone experience. Multiple powerful camera upgrades equivalent to seven professional lenses deliver incredible image quality, including an advanced 48MP Main camera that now supports ultra-high new resolutions of up to 24MP by default , next-generation portrait photography with Focus and Depth Control, improvements to Night Mode and Smart HDR, and an all-new 5x Telephoto camera only available on iPhone 15 Pro Max. The A17 Pro chip takes gaming and professional performance to the next level. The new USB-C connector is accelerated to USB 3 speeds — up to 20 times faster than USB 2 — and along with new video formats, powers professional workflows without was not possible before.",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-abdb20d303884717a13fe154210d1de1",
+          "creator": "dannzjs",
+          "creatorUrl": "https://sketchfab.com/dannzjs",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 14934,
+          "vertices": 7593,
+          "thumbnail": "https://media.sketchfab.com/models/abdb20d303884717a13fe154210d1de1/thumbnails/c7272d8681b74b0a8238ace57919199b/d77a2d8514db4039ae9c1a2cc3fbae5c.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:35.196Z"
+        },
+        {
+          "uid": "dce12b40225d4ee099cd701cdd915ad8",
+          "name": "iphone 15 pro light-blue",
+          "description": "Today, Apple launched iPhone 15 Pro and iPhone 15 Pro Max, designed with aerospace-grade Titanium to be sturdy yet thin and light, providing Apple's lightest Pro models ever. New design with customizable edges and Action buttons, helping users personalize their iPhone experience. Multiple powerful camera upgrades equivalent to seven professional lenses deliver incredible image quality, including an advanced 48MP Main camera that now supports ultra-high new resolutions of up to 24MP by default , next-generation portrait photography with Focus and Depth Control, improvements to Night Mode and Smart HDR, and an all-new 5x Telephoto camera only available on iPhone 15 Pro Max. The A17 Pro chip takes gaming and professional performance to the next level. The new USB-C connector is accelerated to USB 3 speeds — up to 20 times faster than USB 2 — and along with new video formats, powers professional workflows without was not possible before.",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-dce12b40225d4ee099cd701cdd915ad8",
+          "creator": "dannzjs",
+          "creatorUrl": "https://sketchfab.com/dannzjs",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 14934,
+          "vertices": 7509,
+          "thumbnail": "https://media.sketchfab.com/models/dce12b40225d4ee099cd701cdd915ad8/thumbnails/f4aae9da1aeb43679359d6ecf127148f/bbaeba66deaf486d9228990bfe435e68.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:35.196Z"
+        },
+        {
+          "uid": "288239956da940c0ae585a9de0ce97af",
+          "name": "Iphone 15 Low Poly Model",
+          "description": "This is a iphone 15 3D Model. You can use it for your projects. Low poly and textured perfectly. Write comment if you like it.",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-288239956da940c0ae585a9de0ce97af",
+          "creator": "BekoCan Games",
+          "creatorUrl": "https://sketchfab.com/bekocangames",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 1006,
+          "vertices": 414,
+          "thumbnail": "https://media.sketchfab.com/models/288239956da940c0ae585a9de0ce97af/thumbnails/76089e4df5f14fef92b04470253a6b7c/e6467da545b0412fbc1ef434e06777d7.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:35.196Z"
+        },
+        {
+          "uid": "d779e8521b194218a581ca6536c40e4f",
+          "name": "iPhone 15 Pro Max (blue titanium)",
+          "description": "The iPhone 15 Pro is a smartphone designed, developed, and marketed by Apple Inc. It is the seventeenth-generation flagship iPhone, succeeding the iPhone 14 Pro. The device was unveiled alongside the iPhone 15, iPhone 15 Plus and iPhone 15 Ultra during the Apple Event at Apple Park in Cupertino, California, on September 12, 2023.\n\n* the geometry of the model was created very neatly\n* model made in Cinema 4D\n* PBR materials (metalic, roughness) made in Substance 3D Painter\n* 4K textures\n* coordinates of location of the model in space (x0, y0, z0)\n* does not contain extraneous or hidden objects (lights, cameras, shapes etc.)",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-d779e8521b194218a581ca6536c40e4f",
+          "creator": "Juzeone",
+          "creatorUrl": "https://sketchfab.com/Juzeone",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 123289,
+          "vertices": 63210,
+          "thumbnail": "https://media.sketchfab.com/models/d779e8521b194218a581ca6536c40e4f/thumbnails/74eefe436d854b6cab7e9df2e883ed7d/aa32eb1c33984c46be57346c30224499.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:35.196Z"
+        },
+        {
+          "uid": "9eb757e57f8744748e286f4078367fec",
+          "name": "Iphone 14 Pro",
+          "description": "This is an Iphone 14 Pro by Apple inc. Made in blender and textured using images. Download this for anything you want. All my models are free so make sure to check out my iphone 14, guitar and lightsabers. Make sure to check out my Concept iphone 15 in my profile!!",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-9eb757e57f8744748e286f4078367fec",
+          "creator": "Tycho Magnetic Anomoly",
+          "creatorUrl": "https://sketchfab.com/CitrixStorm2222",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 2498,
+          "vertices": 1459,
+          "thumbnail": "https://media.sketchfab.com/models/9eb757e57f8744748e286f4078367fec/thumbnails/370d60bf8ab9494786463c7ee9be3fd5/e928ee379b6c4111a514adbad6e1f52e.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:35.196Z"
+        },
+        {
+          "uid": "7b376638593145af9884859e243350fb",
+          "name": "iPhone 15 Pro Box Packaging",
+          "description": "The packaging box of the iPhone 15 Pro white color 3D.\n\n[Support this free model by visiting! 3dPackCollection.com 👍](https://3dpackcollection.com)",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-7b376638593145af9884859e243350fb",
+          "creator": "adilvr",
+          "creatorUrl": "https://sketchfab.com/adilvr",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 12,
+          "vertices": 8,
+          "thumbnail": "https://media.sketchfab.com/models/7b376638593145af9884859e243350fb/thumbnails/657dc9490ab14a5d8049f81f709c0ee8/321951b11fd548d0a4fe9a240538dd49.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:35.196Z"
+        },
+        {
+          "uid": "22642ccfd343423dac50dfb9a832369f",
+          "name": "Iphone 15 Pro - Free downoald - 2024",
+          "description": "🥛🥛🥛🥛🥛\nhttps://au.pinterest.com/figurefalse\nhttps://t.me/kaiinh",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-22642ccfd343423dac50dfb9a832369f",
+          "creator": "Takeit Slow",
+          "creatorUrl": "https://sketchfab.com/verygoodman",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 90218,
+          "vertices": 47282,
+          "thumbnail": "https://media.sketchfab.com/models/22642ccfd343423dac50dfb9a832369f/thumbnails/a1e2e7c9e0b6401b984fffbe942dd51f/29808e5e54f74750b299956d5d52080a.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:35.196Z"
+        },
+        {
+          "uid": "98895eae0d5c421dbc7fc834a61b947a",
+          "name": "iPhone 15 Pro Max - Natural Titanium",
+          "description": null,
+          "sourceUrl": "https://sketchfab.com/3d-models/none-98895eae0d5c421dbc7fc834a61b947a",
+          "creator": "Apple Inc.",
+          "creatorUrl": "https://sketchfab.com/AppleInc",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 128560,
+          "vertices": 78407,
+          "thumbnail": "https://media.sketchfab.com/models/98895eae0d5c421dbc7fc834a61b947a/thumbnails/f94ee2f4400241e1aca860b7cc7082c7/34f4f64bb0d24651b0c464d899d23293.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:35.196Z"
+        },
+        {
+          "uid": "4bb4c33bd6e74320b0ab7325068cfc5e",
+          "name": "Mermaid Street, RYE, UK",
+          "description": "https://thirdeyetraveller.com/mermaid-street-rye/\n\nNot my best work with an Iphone 15 Pro Max!!!",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-4bb4c33bd6e74320b0ab7325068cfc5e",
+          "creator": "Blayne Jackson",
+          "creatorUrl": "https://sketchfab.com/blaynejackson",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 1000000,
+          "vertices": 500170,
+          "thumbnail": "https://media.sketchfab.com/models/4bb4c33bd6e74320b0ab7325068cfc5e/thumbnails/65581062752f4150832481530f4d981e/75936219acfb4f8db91b03b0488f3de5.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:35.196Z"
+        },
+        {
+          "uid": "f8462c6b8ffe4449bc4e9037d7a18505",
+          "name": "iPhone 15 pro max",
+          "description": "This was made in blender with care\nSome of the textures were used from online",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-f8462c6b8ffe4449bc4e9037d7a18505",
+          "creator": "Henrybenrydude657",
+          "creatorUrl": "https://sketchfab.com/Henrybenrydude657",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 8515,
+          "vertices": 5548,
+          "thumbnail": "https://media.sketchfab.com/models/f8462c6b8ffe4449bc4e9037d7a18505/thumbnails/0b98173d4ef84c02abb72efe54af10eb/7e5227368a3146768eb26b0b34595bb0.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:35.196Z"
+        }
+      ]
+    },
+    "ASRock motherboard": {
+      "status": 200,
+      "url": "https://api.sketchfab.com/v3/search?type=models&q=ASRock+motherboard&downloadable=true&count=24",
+      "checkedAt": "2026-10-17T00:47:35.838Z",
+      "hasFurtherResults": false,
+      "results": [
+        {
+          "uid": "7f24b03929c547bf8627654121074fe9",
+          "name": "Motherboard",
+          "description": "Asrock z490 phantom gaming 4/ac.\nМатеринская плата ASRock Z490 Phantom Gaming 4/AC предназначена в качестве надежной основы для игрового компьютера. Она содержит в своем составе чипсет Intel Z490 с поддержкой процессоров Intel 10-го поколения и выполнена в форм-факторе Standard-ATX.",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-7f24b03929c547bf8627654121074fe9",
+          "creator": "jeonkikik",
+          "creatorUrl": "https://sketchfab.com/jeonkikik",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 7212,
+          "vertices": 4000,
+          "thumbnail": "https://media.sketchfab.com/models/7f24b03929c547bf8627654121074fe9/thumbnails/29bed85404084f35bb3f5030c38921e6/f822f6edff324c78afe412e8f395a5f4.jpeg",
+          "publicObjectPath": "glbs/000-114/7f24b03929c547bf8627654121074fe9.glb",
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:35.838Z"
+        },
+        {
+          "uid": "8f59d4a8e2fe43d292f5fc0e3ed2c2bc",
+          "name": "ASROCK Industrial Motherboard 4X4-V1000M-02",
+          "description": "AMD Ryzen™ Embedded V-Series (4X4 BOX-V1000M)\n2 x 260-pin SO-DIMM up to 32GB DDR4 2400 MHz with ECC support (16GB per DIMM)\n3 x USB 3.2 Gen2, 2 x USB 2.0, 1 x M.2 Key M, 1 x M.2 Key E, 1 x COM, 1 x SATA3\n2 x Realtek 1 Gigabit LAN\nSupports triple display, 1 x HDMI 2.0, 2 x DP 1.2a\nTPM Header\n12V DC-In\n\nm.2 SSD\nDDR4 Ram",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-8f59d4a8e2fe43d292f5fc0e3ed2c2bc",
+          "creator": "Joachim.Bornemann",
+          "creatorUrl": "https://sketchfab.com/Joachim.Bornemann",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 271027,
+          "vertices": 142476,
+          "thumbnail": "https://media.sketchfab.com/models/8f59d4a8e2fe43d292f5fc0e3ed2c2bc/thumbnails/95d10e1490474519ba7a7c38e51d3e68/0d901711733044788d5865f147394589.jpeg",
+          "publicObjectPath": "glbs/000-050/8f59d4a8e2fe43d292f5fc0e3ed2c2bc.glb",
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:35.838Z"
+        },
+        {
+          "uid": "8c9b9d7619b5445b85bc6e780f0e7605",
+          "name": "FULL DESKTOP SETUP (Outdated)",
+          "description": "made with the crappy tinkercad. painful to export out of tinkercad.\nthis features:\n- a custom ASROCK® motherboard\n- an RX570 by AMD® & RADEON®\n- Logitech® things\n- my cutom branded things\n- extra props\n- MSI® fans\n- a seat\n- if you want certain things to be removed, replaced or added message me through https://discord.gg/cx6W4Ens5y\n- random crappy pc case\n- sad table\n- no floor\n- there is a new version out with a refined graphics card\n- you can message me at https://discord.gg/2F3rNbQjvu if you want to update, add or swap part out.",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-8c9b9d7619b5445b85bc6e780f0e7605",
+          "creator": "Lieutenant_A15",
+          "creatorUrl": "https://sketchfab.com/Lieutenant_A15",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 730676,
+          "vertices": 359133,
+          "thumbnail": "https://media.sketchfab.com/models/8c9b9d7619b5445b85bc6e780f0e7605/thumbnails/3cbf7bcda07443619b767bded225e8ba/a1f57247c3b04cf394b8334361034245.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:35.838Z"
+        }
+      ]
+    },
+    "Gigabyte motherboard": {
+      "status": 200,
+      "url": "https://api.sketchfab.com/v3/search?type=models&q=Gigabyte+motherboard&downloadable=true&count=24",
+      "checkedAt": "2026-10-17T00:47:36.398Z",
+      "hasFurtherResults": false,
+      "results": [
+        {
+          "uid": "ce8276877171468c808ad93aaf1d5111",
+          "name": "Gigabyte TRX40 AORUS XTREME",
+          "description": "Hello, here's my best motherboard yet, I figured it could be useful to some of you.\n\nAMD TRX40 AORUS Motherboard with Direct 16+3 Phases Infineon Digital VRM, Fins-Array Heatsink, NanoCarbon Baseplate, Intel Dual 10GbE LAN, 4 PCIe 4.0 M.2 with Thermal Guards , Intel® WiFi 6 802.11ax, ESS SABRE HiFi 9218 DAC, AORUS Gen4 AIC Adaptor\n\nI hope you enjoy it !",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-ce8276877171468c808ad93aaf1d5111",
+          "creator": "Vivien Deroche",
+          "creatorUrl": "https://sketchfab.com/blue-odym",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 88532,
+          "vertices": 48140,
+          "thumbnail": "https://media.sketchfab.com/models/ce8276877171468c808ad93aaf1d5111/thumbnails/b17ed8fd6b894f63925a323ebee15081/d451bf1b41f443138dfe843bb442d5cf.jpeg",
+          "publicObjectPath": "glbs/000-071/ce8276877171468c808ad93aaf1d5111.glb",
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:36.398Z"
+        },
+        {
+          "uid": "783d063a29424571bfb4c9b7b490b75f",
+          "name": "motherboard am4",
+          "description": "Gigabyte b450 s2h for animation",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-783d063a29424571bfb4c9b7b490b75f",
+          "creator": "Temoor",
+          "creatorUrl": "https://sketchfab.com/Temooor",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 217929,
+          "vertices": 110789,
+          "thumbnail": "https://media.sketchfab.com/models/783d063a29424571bfb4c9b7b490b75f/thumbnails/b00930bc903d486ab27e5d23d2cbcfff/46bafeb50c494783a94ded2face824d2.jpeg",
+          "publicObjectPath": "glbs/000-108/783d063a29424571bfb4c9b7b490b75f.glb",
+          "alreadyInstalled": true,
+          "checkedAt": "2026-10-17T00:47:36.398Z"
+        },
+        {
+          "uid": "59f6b9b39f5d401b8beee8ff0c28e88e",
+          "name": "B550 AORUS ELITE V2 model",
+          "description": "The quickly made model of B550 AORUS ELITE V2 by gigabyte.",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-59f6b9b39f5d401b8beee8ff0c28e88e",
+          "creator": "exitmonad",
+          "creatorUrl": "https://sketchfab.com/exitmonad",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 36034,
+          "vertices": 17085,
+          "thumbnail": "https://media.sketchfab.com/models/59f6b9b39f5d401b8beee8ff0c28e88e/thumbnails/204ae6e9e04d4ccd975b339769794624/17e0fd093b4848cbb7117cae8337244d.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": true,
+          "checkedAt": "2026-10-17T00:47:36.398Z"
+        },
+        {
+          "uid": "9171a79745d34064bf4be5502f5132a8",
+          "name": "Matb",
+          "description": "Super duper puper cool mother bord by me",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-9171a79745d34064bf4be5502f5132a8",
+          "creator": "RDaniil",
+          "creatorUrl": "https://sketchfab.com/chert",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 6310,
+          "vertices": 3283,
+          "thumbnail": "https://media.sketchfab.com/models/9171a79745d34064bf4be5502f5132a8/thumbnails/9cb453f4da684257a9af58f571c7cf4b/e8a49755bf074ee0926c738bacaf757d.jpeg",
+          "publicObjectPath": "glbs/000-092/9171a79745d34064bf4be5502f5132a8.glb",
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:36.398Z"
+        },
+        {
+          "uid": "dae314d040f04ff989a381be0700fd64",
+          "name": "Mother board gigabyte GA-Z77MX-D3H",
+          "description": "My mother board",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-dae314d040f04ff989a381be0700fd64",
+          "creator": "berezingat",
+          "creatorUrl": "https://sketchfab.com/berezingat",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 747128,
+          "vertices": 376186,
+          "thumbnail": "https://media.sketchfab.com/models/dae314d040f04ff989a381be0700fd64/thumbnails/b3cda03dfdf04aa59b5605a586da4171/147da764b2494fe1a5b8aa2880e84545.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:36.398Z"
+        },
+        {
+          "uid": "51228195cd464722b05782bbf3d10280",
+          "name": "basic motherboard",
+          "description": "this is just a test",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-51228195cd464722b05782bbf3d10280",
+          "creator": "peramirezh",
+          "creatorUrl": "https://sketchfab.com/peramirezh",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 13788,
+          "vertices": 7561,
+          "thumbnail": "https://media.sketchfab.com/models/51228195cd464722b05782bbf3d10280/thumbnails/e4fe3661be51440ab6a93f28584078cc/3f879605e3c2445493353de6a1aeee33.jpeg",
+          "publicObjectPath": "glbs/000-096/51228195cd464722b05782bbf3d10280.glb",
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:36.398Z"
+        },
+        {
+          "uid": "9ab1bd25bcdf41058fe42d49f3e410d9",
+          "name": "Pc",
+          "description": "Ru: пк компликтоишии с текстурами сотав: озу 16 гигобайт, матиринка, цп i3-2120\nEn: pc complex textures: 16 gigabytes of RAM, motherboard, i3-2120 CPU",
+          "sourceUrl": "https://sketchfab.com/3d-models/none-9ab1bd25bcdf41058fe42d49f3e410d9",
+          "creator": "Games_Vasilich",
+          "creatorUrl": "https://sketchfab.com/Games_Vasilich_studio",
+          "license": {
+            "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution"
+          },
+          "downloadable": true,
+          "triangles": 3246,
+          "vertices": 1664,
+          "thumbnail": "https://media.sketchfab.com/models/9ab1bd25bcdf41058fe42d49f3e410d9/thumbnails/5e92f3ee142a4e4ebbbdcbc12c44fb6a/c6eaa332765b450ea946cb9b2226c473.jpeg",
+          "publicObjectPath": null,
+          "alreadyInstalled": false,
+          "checkedAt": "2026-10-17T00:47:36.398Z"
+        }
+      ]
+    },
+    "Corsair RM850x": {
+      "status": 200,
+      "url": "https://api.sketchfab.com/v3/search?type=models&q=Corsair+RM850x&downloadable=true&count=24",
+      "checkedAt": "2026-10-17T00:47:36.828Z",
+      "hasFurtherResults": false,
+      "results": []
+    }
+  },
+  "models": {
+    "843413eefdc9437b816a874628cc310f": {
+      "uid": "843413eefdc9437b816a874628cc310f",
+      "name": "AMD Wraith Stealth CPU Cooler",
+      "description": "- Modeled as the 1-month progress check in 10/2024\n- geometry is not great to say the slightest\n- i lowk forgot i made this\n- but it is detailed tho!\n- no image textures",
+      "sourceUrl": "https://sketchfab.com/3d-models/amd-wraith-stealth-cpu-cooler-843413eefdc9437b816a874628cc310f",
+      "creator": "PolyDavid",
+      "creatorUrl": "https://sketchfab.com/PolyDavid",
+      "license": {
+        "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution",
+        "fullName": "Creative Commons Attribution",
+        "requirements": "Author must be credited. Commercial use is allowed.",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "slug": "by"
+      },
+      "downloadable": true,
+      "triangles": 48875,
+      "vertices": 25189,
+      "thumbnail": "https://media.sketchfab.com/models/843413eefdc9437b816a874628cc310f/thumbnails/637df92ba287428aac473257102e04d9/52d5fbcf27ef4f0586bae48b7b9b7dcc.jpeg",
+      "publicObjectPath": null,
+      "alreadyInstalled": false,
+      "checkedAt": "2026-10-17T00:48:39.819Z"
+    },
+    "23e225925e174a9f929d995cd9bd22e2": {
+      "uid": "23e225925e174a9f929d995cd9bd22e2",
+      "name": "Noctua NH-D15 CPU cooler",
+      "description": "PC component - a big unit of CPU cooler.\nEmpty objects for moving the parts together and rotating the fans.",
+      "sourceUrl": "https://sketchfab.com/3d-models/noctua-nh-d15-cpu-cooler-23e225925e174a9f929d995cd9bd22e2",
+      "creator": "SzaBa",
+      "creatorUrl": "https://sketchfab.com/SzaBa",
+      "license": {
+        "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution",
+        "fullName": "Creative Commons Attribution",
+        "requirements": "Author must be credited. Commercial use is allowed.",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "slug": "by"
+      },
+      "downloadable": true,
+      "triangles": 10676,
+      "vertices": 5624,
+      "thumbnail": "https://media.sketchfab.com/models/23e225925e174a9f929d995cd9bd22e2/thumbnails/e1f45cf2a57c4576a989e1c2f8bcb3c3/d96f91c6e9574ceba077f0f89c2e01f3.jpeg",
+      "publicObjectPath": null,
+      "alreadyInstalled": false,
+      "checkedAt": "2026-10-17T00:48:40.200Z"
+    },
+    "4a5f8ce0a7ca40dd8a479dd556eb98b0": {
+      "uid": "4a5f8ce0a7ca40dd8a479dd556eb98b0",
+      "name": "GeForce GTX 1660 GAMING X 6G",
+      "description": "GRAPHICS CARDS",
+      "sourceUrl": "https://sketchfab.com/3d-models/geforce-gtx-1660-gaming-x-6g-4a5f8ce0a7ca40dd8a479dd556eb98b0",
+      "creator": "descloizite",
+      "creatorUrl": "https://sketchfab.com/descloizite",
+      "license": {
+        "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution",
+        "fullName": "Creative Commons Attribution",
+        "requirements": "Author must be credited. Commercial use is allowed.",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "slug": "by"
+      },
+      "downloadable": true,
+      "triangles": 30126,
+      "vertices": 15487,
+      "thumbnail": "https://media.sketchfab.com/models/4a5f8ce0a7ca40dd8a479dd556eb98b0/thumbnails/020a1381ccfc48d0b4c4ab29752a6bbb/af7dc8ac72eb4385bb5e91d3cde0f3c6.jpeg",
+      "publicObjectPath": "glbs/000-050/4a5f8ce0a7ca40dd8a479dd556eb98b0.glb",
+      "alreadyInstalled": false,
+      "checkedAt": "2026-10-17T00:48:40.603Z"
+    },
+    "7a0057a17f404cb296035c3adcd130f9": {
+      "uid": "7a0057a17f404cb296035c3adcd130f9",
+      "name": "MSI MEG Z590 ACE GOLD EDITION",
+      "description": "Hi there!\nThis is my first model in Blender.",
+      "sourceUrl": "https://sketchfab.com/3d-models/msi-meg-z590-ace-gold-edition-7a0057a17f404cb296035c3adcd130f9",
+      "creator": "dormenevamarta",
+      "creatorUrl": "https://sketchfab.com/dormenevamarta",
+      "license": {
+        "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution",
+        "fullName": "Creative Commons Attribution",
+        "requirements": "Author must be credited. Commercial use is allowed.",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "slug": "by"
+      },
+      "downloadable": true,
+      "triangles": 55324,
+      "vertices": 27663,
+      "thumbnail": "https://media.sketchfab.com/models/7a0057a17f404cb296035c3adcd130f9/thumbnails/2dc2bea6e3514c4bb2589873a04345cc/6bdd62599007405ca44f2ec1038ed3bf.jpeg",
+      "publicObjectPath": "glbs/000-114/7a0057a17f404cb296035c3adcd130f9.glb",
+      "alreadyInstalled": false,
+      "checkedAt": "2026-10-17T00:48:40.990Z"
+    },
+    "b998596cfc4945a0bc7b016005c39321": {
+      "uid": "b998596cfc4945a0bc7b016005c39321",
+      "name": "Asus Z170-P Motherboard",
+      "description": "An old broken motherboard for Intel processors.\n\nPhotos taken with A7R IV + Sony FE 20mm\n\nProcessed with Metashape + Blender + Instant meshes",
+      "sourceUrl": "https://sketchfab.com/3d-models/asus-z170-p-motherboard-b998596cfc4945a0bc7b016005c39321",
+      "creator": "Lassi Kaukonen",
+      "creatorUrl": "https://sketchfab.com/thesidekick",
+      "license": {
+        "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution",
+        "fullName": "Creative Commons Attribution",
+        "requirements": "Author must be credited. Commercial use is allowed.",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "slug": "by"
+      },
+      "downloadable": true,
+      "triangles": 312196,
+      "vertices": 155906,
+      "thumbnail": "https://media.sketchfab.com/models/b998596cfc4945a0bc7b016005c39321/thumbnails/050c3cc4a99e4308a437153e426ff1a8/82a0ea85174a46e1b0edc47d429e53c6.jpeg",
+      "publicObjectPath": "glbs/000-128/b998596cfc4945a0bc7b016005c39321.glb",
+      "alreadyInstalled": false,
+      "checkedAt": "2026-10-17T00:48:41.148Z"
+    },
+    "ce8276877171468c808ad93aaf1d5111": {
+      "uid": "ce8276877171468c808ad93aaf1d5111",
+      "name": "Gigabyte TRX40 AORUS XTREME",
+      "description": "Hello, here's my best motherboard yet, I figured it could be useful to some of you.\n\nAMD TRX40 AORUS Motherboard with Direct 16+3 Phases Infineon Digital VRM, Fins-Array Heatsink, NanoCarbon Baseplate, Intel Dual 10GbE LAN, 4 PCIe 4.0 M.2 with Thermal Guards , Intel® WiFi 6 802.11ax, ESS SABRE HiFi 9218 DAC, AORUS Gen4 AIC Adaptor\n\nI hope you enjoy it !",
+      "sourceUrl": "https://sketchfab.com/3d-models/gigabyte-trx40-aorus-xtreme-ce8276877171468c808ad93aaf1d5111",
+      "creator": "Vivien Deroche",
+      "creatorUrl": "https://sketchfab.com/blue-odym",
+      "license": {
+        "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution",
+        "fullName": "Creative Commons Attribution",
+        "requirements": "Author must be credited. Commercial use is allowed.",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "slug": "by"
+      },
+      "downloadable": true,
+      "triangles": 88532,
+      "vertices": 48140,
+      "thumbnail": "https://media.sketchfab.com/models/ce8276877171468c808ad93aaf1d5111/thumbnails/b17ed8fd6b894f63925a323ebee15081/d451bf1b41f443138dfe843bb442d5cf.jpeg",
+      "publicObjectPath": "glbs/000-071/ce8276877171468c808ad93aaf1d5111.glb",
+      "alreadyInstalled": false,
+      "checkedAt": "2026-10-17T00:48:41.482Z"
+    },
+    "41efdc6e62454ec0a870ee8451768d75": {
+      "uid": "41efdc6e62454ec0a870ee8451768d75",
+      "name": "Corsair 200R",
+      "description": "A very basic model of my computer. In the future I might model it in detail.",
+      "sourceUrl": "https://sketchfab.com/3d-models/corsair-200r-41efdc6e62454ec0a870ee8451768d75",
+      "creator": "Nick",
+      "creatorUrl": "https://sketchfab.com/jeromy",
+      "license": {
+        "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution",
+        "fullName": "Creative Commons Attribution",
+        "requirements": "Author must be credited. Commercial use is allowed.",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "slug": "by"
+      },
+      "downloadable": true,
+      "triangles": 2440,
+      "vertices": 1224,
+      "thumbnail": "https://media.sketchfab.com/models/41efdc6e62454ec0a870ee8451768d75/thumbnails/c512dbe817b14ec78afdfe95ad06b0a6/44b2d44bac3d4cf4836298f0f86056fe.jpeg",
+      "publicObjectPath": "glbs/000-041/41efdc6e62454ec0a870ee8451768d75.glb",
+      "alreadyInstalled": false,
+      "checkedAt": "2026-10-17T00:48:41.738Z"
+    },
+    "bf2ad5634263469cacd7ac471722bf2e": {
+      "uid": "bf2ad5634263469cacd7ac471722bf2e",
+      "name": "Corsair icue 220t Airflow case",
+      "description": "Credit to Daniel Cardona and alot of people for the source models (case chassis made by me)\nI'm not a good modeler for some sorts, I'm new\nThis model was designed for a project in unity, probably 2 actually.",
+      "sourceUrl": "https://sketchfab.com/3d-models/corsair-icue-220t-airflow-case-bf2ad5634263469cacd7ac471722bf2e",
+      "creator": "Architect Enterprises",
+      "creatorUrl": "https://sketchfab.com/nfsmaster823",
+      "license": {
+        "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution",
+        "fullName": "Creative Commons Attribution",
+        "requirements": "Author must be credited. Commercial use is allowed.",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "slug": "by"
+      },
+      "downloadable": true,
+      "triangles": 427767,
+      "vertices": 261307,
+      "thumbnail": "https://media.sketchfab.com/models/bf2ad5634263469cacd7ac471722bf2e/thumbnails/ae1bce558a014824bfe99c5f365e8f28/4f8dbbc2d2df43d981627011a11edf11.jpeg",
+      "publicObjectPath": "glbs/000-001/bf2ad5634263469cacd7ac471722bf2e.glb",
+      "alreadyInstalled": false,
+      "checkedAt": "2026-10-17T00:48:42.456Z"
+    },
+    "8673ad2eeffa4fe1b81479f9cb9d351e": {
+      "uid": "8673ad2eeffa4fe1b81479f9cb9d351e",
+      "name": "Cooler Master Masterbox Lite 5",
+      "description": "a colorless detailed model of the pc case Cooler Master Masterbox Lite 5.\nThe inside is done too, you can just paint the glass and the front panel with transparent materials to see it. Hope it'll help some people.\nMade with google sketchup, you can ask me for the sketchup file if you need it.",
+      "sourceUrl": "https://sketchfab.com/3d-models/cooler-master-masterbox-lite-5-8673ad2eeffa4fe1b81479f9cb9d351e",
+      "creator": "HerbeMalveillante",
+      "creatorUrl": "https://sketchfab.com/HerbeMalveillante",
+      "license": {
+        "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution",
+        "fullName": "Creative Commons Attribution",
+        "requirements": "Author must be credited. Commercial use is allowed.",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "slug": "by"
+      },
+      "downloadable": true,
+      "triangles": 340,
+      "vertices": 160,
+      "thumbnail": "https://media.sketchfab.com/models/8673ad2eeffa4fe1b81479f9cb9d351e/thumbnails/120dbaa904764ec793e568b8956aa488/c57d8227d04c43ac9ea57be7e8c072fa.jpeg",
+      "publicObjectPath": "glbs/000-133/8673ad2eeffa4fe1b81479f9cb9d351e.glb",
+      "alreadyInstalled": false,
+      "checkedAt": "2026-10-17T00:48:42.795Z"
+    },
+    "0daaa686d226476bb1b96aa4fa7bd083": {
+      "uid": "0daaa686d226476bb1b96aa4fa7bd083",
+      "name": "INTEL 4004",
+      "description": null,
+      "sourceUrl": "https://sketchfab.com/3d-models/intel-4004-0daaa686d226476bb1b96aa4fa7bd083",
+      "creator": "museudocomputador",
+      "creatorUrl": "https://sketchfab.com/museudocomputador",
+      "license": {
+        "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution",
+        "fullName": "Creative Commons Attribution",
+        "requirements": "Author must be credited. Commercial use is allowed.",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "slug": "by"
+      },
+      "downloadable": true,
+      "triangles": 638,
+      "vertices": 363,
+      "thumbnail": "https://media.sketchfab.com/models/0daaa686d226476bb1b96aa4fa7bd083/thumbnails/cd5ee6a3bcc543a0ab5eaa86543c2dd5/680053f90b854348b55ff2a1094f1826.jpeg",
+      "publicObjectPath": "glbs/000-054/0daaa686d226476bb1b96aa4fa7bd083.glb",
+      "alreadyInstalled": false,
+      "checkedAt": "2026-10-17T00:48:43.235Z"
+    },
+    "1940447b5a7b41f3a7ebdd73ce2f590d": {
+      "uid": "1940447b5a7b41f3a7ebdd73ce2f590d",
+      "name": "Intel Processor Core i5-661",
+      "description": null,
+      "sourceUrl": "https://sketchfab.com/3d-models/intel-processor-core-i5-661-1940447b5a7b41f3a7ebdd73ce2f590d",
+      "creator": "Dr_Mint",
+      "creatorUrl": "https://sketchfab.com/Dr_Mint",
+      "license": {
+        "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution",
+        "fullName": "Creative Commons Attribution",
+        "requirements": "Author must be credited. Commercial use is allowed.",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "slug": "by"
+      },
+      "downloadable": true,
+      "triangles": 76267,
+      "vertices": 41693,
+      "thumbnail": "https://media.sketchfab.com/models/1940447b5a7b41f3a7ebdd73ce2f590d/thumbnails/656c4e4b9db54523920e19bac84c053c/4c0a344d23c342a4b9965c887f51bb18.jpeg",
+      "publicObjectPath": "glbs/000-138/1940447b5a7b41f3a7ebdd73ce2f590d.glb",
+      "alreadyInstalled": false,
+      "checkedAt": "2026-10-17T00:48:44.313Z"
+    },
+    "678a5c779fed4d2c897317686b6c2119": {
+      "uid": "678a5c779fed4d2c897317686b6c2119",
+      "name": "TITAN RTX",
+      "description": "A realistic titan rtx 2080ti perfect for your 3D pc build.",
+      "sourceUrl": "https://sketchfab.com/3d-models/titan-rtx-678a5c779fed4d2c897317686b6c2119",
+      "creator": "ebomb2",
+      "creatorUrl": "https://sketchfab.com/ebomb2",
+      "license": {
+        "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution",
+        "fullName": "Creative Commons Attribution",
+        "requirements": "Author must be credited. Commercial use is allowed.",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "slug": "by"
+      },
+      "downloadable": true,
+      "triangles": 20060,
+      "vertices": 13721,
+      "thumbnail": "https://media.sketchfab.com/models/678a5c779fed4d2c897317686b6c2119/thumbnails/fb13f42bd63d4ec39bcd34fec72d8020/4b1f4acc019d4d9b89b7ae453cc36b00.jpeg",
+      "publicObjectPath": "glbs/000-131/678a5c779fed4d2c897317686b6c2119.glb",
+      "alreadyInstalled": false,
+      "checkedAt": "2026-10-17T00:57:25.876Z"
+    },
+    "f7e8fb69cce14f53a2d9159898fd89e5": {
+      "uid": "f7e8fb69cce14f53a2d9159898fd89e5",
+      "name": "RTX Titan",
+      "description": "It's a RTX Titan that I made with a very high level of details, by my standards and I hope you enjoy it !",
+      "sourceUrl": "https://sketchfab.com/3d-models/rtx-titan-f7e8fb69cce14f53a2d9159898fd89e5",
+      "creator": "Vivien Deroche",
+      "creatorUrl": "https://sketchfab.com/blue-odym",
+      "license": {
+        "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution",
+        "fullName": "Creative Commons Attribution",
+        "requirements": "Author must be credited. Commercial use is allowed.",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "slug": "by"
+      },
+      "downloadable": true,
+      "triangles": 95214,
+      "vertices": 50763,
+      "thumbnail": "https://media.sketchfab.com/models/f7e8fb69cce14f53a2d9159898fd89e5/thumbnails/70d2f457b11a4d98ad50aa03b65536c9/289a1a150ae643a69b31dd027fab8120.jpeg",
+      "publicObjectPath": "glbs/000-029/f7e8fb69cce14f53a2d9159898fd89e5.glb",
+      "alreadyInstalled": false,
+      "checkedAt": "2026-10-17T00:57:26.051Z"
+    },
+    "e153a7485a30476299ea3bdddb864c8d": {
+      "uid": "e153a7485a30476299ea3bdddb864c8d",
+      "name": "GeForce RTX 2060",
+      "description": "My attempt to create the Geforce RTX 2060 in blender. I used it for a school project and maybe it helps somebody. Fans are separate objects in case you want to anymate them. \nThis is not a perfect 2060 clone. \nThe download contains a .blend file, the fbx version and a folder with textures.",
+      "sourceUrl": "https://sketchfab.com/3d-models/geforce-rtx-2060-e153a7485a30476299ea3bdddb864c8d",
+      "creator": "sebytop",
+      "creatorUrl": "https://sketchfab.com/sebytop",
+      "license": {
+        "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution",
+        "fullName": "Creative Commons Attribution",
+        "requirements": "Author must be credited. Commercial use is allowed.",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "slug": "by"
+      },
+      "downloadable": true,
+      "triangles": 191689,
+      "vertices": 87266,
+      "thumbnail": "https://media.sketchfab.com/models/e153a7485a30476299ea3bdddb864c8d/thumbnails/4ecbf7d89a44482e9766cf1f828b6ab0/5026ac2faeb84a7c9262bb35f0d15944.jpeg",
+      "publicObjectPath": "glbs/000-137/e153a7485a30476299ea3bdddb864c8d.glb",
+      "alreadyInstalled": false,
+      "checkedAt": "2026-10-17T00:57:26.470Z"
+    }
+  }
+}

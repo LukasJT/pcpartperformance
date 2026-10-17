@@ -1,0 +1,322 @@
+{
+  "overflow": false,
+  "report": {
+    "axeVersion": "4.14.0",
+    "checkedAt": "2026-10-17T01:22:22.212Z",
+    "height": 900,
+    "incomplete": [
+      {
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": [
+          {
+            "html": "<a class=\"button primary\" href=\"/phones/size-compare/\">Compare phones</a>",
+            "target": [
+              ".primary"
+            ]
+          },
+          {
+            "html": "<a class=\"button secondary\" href=\"#phone-catalog\">Browse phones</a>",
+            "target": [
+              "a[href$=\"#phone-catalog\"]"
+            ]
+          },
+          {
+            "html": "<a class=\"button secondary\" href=\"/phones/size-compare/?a=iphone-16&amp;b=pixel-9&amp;view=size\">Compare</a>",
+            "target": [
+              "article[data-name=\"iphone 16\"] > .device-card-actions > .secondary.button"
+            ]
+          },
+          {
+            "html": "<a class=\"button secondary\" href=\"/phones/size-compare/?a=iphone-16-pro&amp;b=iphone-16&amp;view=size\">Compare</a>",
+            "target": [
+              "article[data-name=\"iphone 16 pro\"] > .device-card-actions > .secondary.button"
+            ]
+          },
+          {
+            "html": "<a class=\"button secondary\" href=\"/phones/size-compare/?a=pixel-9&amp;b=iphone-16&amp;view=size\">Compare</a>",
+            "target": [
+              "article[data-name=\"pixel 9\"] > .device-card-actions > .secondary.button"
+            ]
+          },
+          {
+            "html": "<a class=\"button secondary\" href=\"/phones/size-compare/?a=pixel-9-pro&amp;b=iphone-16&amp;view=size\">Compare</a>",
+            "target": [
+              "article[data-name=\"pixel 9 pro\"] > .device-card-actions > .secondary.button"
+            ]
+          },
+          {
+            "html": "<a class=\"button secondary\" href=\"/phones/size-compare/?a=galaxy-s25&amp;b=iphone-16&amp;view=size\">Compare</a>",
+            "target": [
+              "article[data-name=\"galaxy s25\"] > .device-card-actions > .secondary.button"
+            ]
+          },
+          {
+            "html": "<a class=\"button secondary\" href=\"/phones/size-compare/?a=iphone-14-pro&amp;b=iphone-16&amp;view=size\">Compare</a>",
+            "target": [
+              "article[data-name=\"iphone 14 pro\"] > .device-card-actions > .secondary.button"
+            ]
+          },
+          {
+            "html": "<a class=\"button secondary\" href=\"/phones/size-compare/?a=iphone-12-pro&amp;b=iphone-16&amp;view=size\">Compare</a>",
+            "target": [
+              "article[data-name=\"iphone 12 pro\"] > .device-card-actions > .secondary.button"
+            ]
+          },
+          {
+            "html": "<a class=\"button secondary\" href=\"/phones/size-compare/?a=iphone-x&amp;b=iphone-16&amp;view=size\">Compare</a>",
+            "target": [
+              "article[data-name=\"iphone x\"] > .device-card-actions > .secondary.button"
+            ]
+          },
+          {
+            "html": "<a class=\"button secondary\" href=\"/phones/size-compare/?a=iphone-7&amp;b=iphone-16&amp;view=size\">Compare</a>",
+            "target": [
+              "article[data-name=\"iphone 7\"] > .device-card-actions > .secondary.button"
+            ]
+          },
+          {
+            "html": "<a class=\"button secondary\" href=\"/phones/size-compare/?a=iphone-13&amp;b=iphone-16&amp;view=size\">Compare</a>",
+            "target": [
+              "article[data-name=\"iphone 13\"] > .device-card-actions > .secondary.button"
+            ]
+          },
+          {
+            "html": "<a class=\"button secondary\" href=\"/phones/size-compare/?a=pixel-5&amp;b=iphone-16&amp;view=size\">Compare</a>",
+            "target": [
+              "article[data-name=\"pixel 5\"] > .device-card-actions > .secondary.button"
+            ]
+          },
+          {
+            "html": "<a class=\"button secondary\" href=\"/phones/size-compare/?a=pixel-6&amp;b=iphone-16&amp;view=size\">Compare</a>",
+            "target": [
+              "article[data-name=\"pixel 6\"] > .device-card-actions > .secondary.button"
+            ]
+          },
+          {
+            "html": "<a class=\"button secondary\" href=\"/phones/size-compare/?a=pixel-6-pro&amp;b=iphone-16&amp;view=size\">Compare</a>",
+            "target": [
+              "article[data-name=\"pixel 6 pro\"] > .device-card-actions > .secondary.button"
+            ]
+          },
+          {
+            "html": "<a class=\"button secondary\" href=\"/phones/size-compare/?a=pixel-6a&amp;b=iphone-16&amp;view=size\">Compare</a>",
+            "target": [
+              "article[data-name=\"pixel 6a\"] > .device-card-actions > .secondary.button"
+            ]
+          },
+          {
+            "html": "<a class=\"button secondary\" href=\"/phones/size-compare/?a=pixel-7-pro&amp;b=iphone-16&amp;view=size\">Compare</a>",
+            "target": [
+              "article[data-name=\"pixel 7 pro\"] > .device-card-actions > .secondary.button"
+            ]
+          },
+          {
+            "html": "<a class=\"button secondary\" href=\"/phones/size-compare/?a=pixel-8-pro&amp;b=iphone-16&amp;view=size\">Compare</a>",
+            "target": [
+              "article[data-name=\"pixel 8 pro\"] > .device-card-actions > .secondary.button"
+            ]
+          },
+          {
+            "html": "<a class=\"button secondary\" href=\"/phones/size-compare/?a=galaxy-s21&amp;b=iphone-16&amp;view=size\">Compare</a>",
+            "target": [
+              "article[data-name=\"galaxy s21\"] > .device-card-actions > .secondary.button"
+            ]
+          },
+          {
+            "html": "<a class=\"button secondary\" href=\"/phones/size-compare/?a=galaxy-s21-ultra&amp;b=iphone-16&amp;view=size\">Compare</a>",
+            "target": [
+              "article[data-name=\"galaxy s21 ultra\"] > .device-card-actions > .secondary.button"
+            ]
+          },
+          {
+            "html": "<a class=\"button secondary\" href=\"/phones/size-compare/?a=galaxy-s23-ultra&amp;b=iphone-16&amp;view=size\">Compare</a>",
+            "target": [
+              "article[data-name=\"galaxy s23 ultra\"] > .device-card-actions > .secondary.button"
+            ]
+          },
+          {
+            "html": "<a class=\"button secondary\" href=\"/phones/size-compare/?a=galaxy-z-flip3&amp;b=iphone-16&amp;view=size\">Compare</a>",
+            "target": [
+              "article[data-name=\"galaxy z flip3\"] > .device-card-actions > .secondary.button"
+            ]
+          },
+          {
+            "html": "<a class=\"button secondary\" href=\"/phones/size-compare/?a=galaxy-a23-5g&amp;b=iphone-16&amp;view=size\">Compare</a>",
+            "target": [
+              "article[data-name=\"galaxy a23 5g\"] > .device-card-actions > .secondary.button"
+            ]
+          },
+          {
+            "html": "<a class=\"button secondary\" href=\"/phones/size-compare/?a=galaxy-s3&amp;b=iphone-16&amp;view=size\">Compare</a>",
+            "target": [
+              "article[data-name=\"galaxy s iii\"] > .device-card-actions > .secondary.button"
+            ]
+          },
+          {
+            "html": "<a class=\"button secondary\" href=\"/phones/size-compare/?a=oneplus-7-pro&amp;b=iphone-16&amp;view=size\">Compare</a>",
+            "target": [
+              "article[data-name=\"oneplus 7 pro\"] > .device-card-actions > .secondary.button"
+            ]
+          },
+          {
+            "html": "<a class=\"button secondary\" href=\"/phones/size-compare/?a=iphone-13-pro&amp;b=iphone-16&amp;view=size\">Compare</a>",
+            "target": [
+              "article[data-name=\"iphone 13 pro\"] > .device-card-actions > .secondary.button"
+            ]
+          },
+          {
+            "html": "<a class=\"button secondary\" href=\"/phones/size-compare/?a=iphone-13-pro-max&amp;b=iphone-16&amp;view=size\">Compare</a>",
+            "target": [
+              "article[data-name=\"iphone 13 pro max\"] > .device-card-actions > .secondary.button"
+            ]
+          },
+          {
+            "html": "<a class=\"button secondary\" href=\"/phones/size-compare/?a=galaxy-s22&amp;b=iphone-16&amp;view=size\">Compare</a>",
+            "target": [
+              "article[data-name=\"galaxy s22\"] > .device-card-actions > .secondary.button"
+            ]
+          },
+          {
+            "html": "<a class=\"button secondary\" href=\"/phones/size-compare/?a=galaxy-s22-ultra&amp;b=iphone-16&amp;view=size\">Compare</a>",
+            "target": [
+              "article[data-name=\"galaxy s22 ultra\"] > .device-card-actions > .secondary.button"
+            ]
+          },
+          {
+            "html": "<a class=\"button secondary\" href=\"/phones/size-compare/?a=galaxy-s20-ultra&amp;b=iphone-16&amp;view=size\">Compare</a>",
+            "target": [
+              "article[data-name=\"galaxy s20 ultra\"] > .device-card-actions > .secondary.button"
+            ]
+          },
+          {
+            "html": "<a class=\"button secondary\" href=\"/phones/size-compare/?a=galaxy-s21-fe&amp;b=iphone-16&amp;view=size\">Compare</a>",
+            "target": [
+              "article[data-name=\"galaxy s21 fe\"] > .device-card-actions > .secondary.button"
+            ]
+          },
+          {
+            "html": "<a class=\"button secondary\" href=\"/phones/size-compare/?a=iphone-11&amp;b=iphone-16&amp;view=size\">Compare</a>",
+            "target": [
+              "article[data-name=\"iphone 11\"] > .device-card-actions > .secondary.button"
+            ]
+          },
+          {
+            "html": "<a class=\"button secondary\" href=\"/phones/size-compare/?a=iphone-11-pro&amp;b=iphone-16&amp;view=size\">Compare</a>",
+            "target": [
+              "article[data-name=\"iphone 11 pro\"] > .device-card-actions > .secondary.button"
+            ]
+          },
+          {
+            "html": "<a class=\"button secondary\" href=\"/phones/size-compare/?a=iphone-11-pro-max&amp;b=iphone-16&amp;view=size\">Compare</a>",
+            "target": [
+              "article[data-name=\"iphone 11 pro max\"] > .device-card-actions > .secondary.button"
+            ]
+          },
+          {
+            "html": "<a class=\"button secondary\" href=\"/phones/size-compare/?a=iphone-6&amp;b=iphone-16&amp;view=size\">Compare</a>",
+            "target": [
+              "article[data-name=\"iphone 6\"] > .device-card-actions > .secondary.button"
+            ]
+          },
+          {
+            "html": "<a class=\"button secondary\" href=\"/phones/size-compare/?a=iphone-8&amp;b=iphone-16&amp;view=size\">Compare</a>",
+            "target": [
+              "article[data-name=\"iphone 8\"] > .device-card-actions > .secondary.button"
+            ]
+          },
+          {
+            "html": "<a class=\"button secondary\" href=\"/phones/size-compare/?a=iphone-8-plus&amp;b=iphone-16&amp;view=size\">Compare</a>",
+            "target": [
+              "article[data-name=\"iphone 8 plus\"] > .device-card-actions > .secondary.button"
+            ]
+          },
+          {
+            "html": "<a class=\"button secondary\" href=\"/phones/size-compare/?a=iphone-12-mini&amp;b=iphone-16&amp;view=size\">Compare</a>",
+            "target": [
+              "article[data-name=\"iphone 12 mini\"] > .device-card-actions > .secondary.button"
+            ]
+          },
+          {
+            "html": "<a class=\"button secondary\" href=\"/phones/size-compare/?a=iphone-xr&amp;b=iphone-16&amp;view=size\">Compare</a>",
+            "target": [
+              "article[data-name=\"iphone xr\"] > .device-card-actions > .secondary.button"
+            ]
+          },
+          {
+            "html": "<a class=\"button secondary\" href=\"/phones/size-compare/?a=iphone-xs&amp;b=iphone-16&amp;view=size\">Compare</a>",
+            "target": [
+              "article[data-name=\"iphone xs\"] > .device-card-actions > .secondary.button"
+            ]
+          },
+          {
+            "html": "<a class=\"button secondary\" href=\"/phones/size-compare/?a=galaxy-s10&amp;b=iphone-16&amp;view=size\">Compare</a>",
+            "target": [
+              "article[data-name=\"galaxy s10\"] > .device-card-actions > .secondary.button"
+            ]
+          },
+          {
+            "html": "<a class=\"button secondary\" href=\"/phones/size-compare/?a=galaxy-s8&amp;b=iphone-16&amp;view=size\">Compare</a>",
+            "target": [
+              "article[data-name=\"galaxy s8\"] > .device-card-actions > .secondary.button"
+            ]
+          },
+          {
+            "html": "<a class=\"button secondary\" href=\"/phones/size-compare/?a=iphone-15-pro-max&amp;b=iphone-16&amp;view=size\">Compare</a>",
+            "target": [
+              "article[data-name=\"iphone 15 pro max\"] > .device-card-actions > .secondary.button"
+            ]
+          },
+          {
+            "html": "<a class=\"button secondary\" href=\"/phones/size-compare/?a=iphone-17-pro&amp;b=iphone-16&amp;view=size\">Compare</a>",
+            "target": [
+              "article[data-name=\"iphone 17 pro\"] > .device-card-actions > .secondary.button"
+            ]
+          },
+          {
+            "html": "<a class=\"button secondary\" href=\"/phones/size-compare/?a=iphone-17-pro-max&amp;b=iphone-16&amp;view=size\">Compare</a>",
+            "target": [
+              "article[data-name=\"iphone 17 pro max\"] > .device-card-actions > .secondary.button"
+            ]
+          }
+        ]
+      }
+    ],
+    "scope": "Real browser DOM, WCAG A/AA and best-practice rules; automated findings do not certify full conformance.",
+    "theme": "dark",
+    "url": "/phones/",
+    "violations": [
+      {
+        "help": "Elements must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axeAPI",
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": [
+          {
+            "html": "<a class=\"brand\" href=\"/\" aria-label=\"PC Part Performance home\">",
+            "target": [
+              ".brand"
+            ]
+          },
+          {
+            "html": "<button type=\"button\" data-region=\"CA\" aria-pressed=\"true\" aria-label=\"Shop in Canada, Canadian dollars\"><img src=\"/assets/flag-ca.svg\" alt=\"\" width=\"21\" height=\"14\"><span>CA</span></button>",
+            "target": [
+              "button[data-region=\"CA\"][type=\"button\"]"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.semantics",
+          "wcag21a",
+          "wcag253",
+          "EN-301-549",
+          "EN-9.2.5.3",
+          "RGAAv4",
+          "RGAA-6.1.5"
+        ]
+      }
+    ],
+    "width": 1440
+  }
+}

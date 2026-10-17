@@ -1,0 +1,54 @@
+{
+  "schema": 1,
+  "decision": "confirmed_stale_generated_slug",
+  "scope": "one_exact_retailer_listing_configuration",
+  "from": "us-null-st-king95-2062-w-bu",
+  "to": "us-skytech-gaming-st-king95-2062-w-bu",
+  "sourceInspectedDay": "2026-10-16",
+  "timeZone": "America/Toronto",
+  "sourceURL": "https://www.bestbuy.com/product/skytech-gaming-king95-gaming-desktop-pc-amd-ryzen-7-9700x-2024-16gb-memory-nvidia-geforce-rtx-5060-ti-16gb-1tb-nvme-storage-white/J3GW8HKX4Z/sku/6633460",
+  "sourcePublisher": "Best Buy US",
+  "review": {
+    "kind": "agent_source_review",
+    "status": "source_checked",
+    "reviewer": "Codex editorial and SEO agent",
+    "humanApprovalClaimed": false,
+    "rootReleaseReview": "pending"
+  },
+  "finding": "The older generated page embeds a brand:null system whose model, retailer SKU, exact URL, country, currency and disclosed configuration match the current branded entry. The live Best Buy page names Skytech Gaming KING95, model ST-KING95-2062-W-BU and SKU 6633460. This is a stale slug from the missing-brand field, separate from the unresolved motherboard/phone variant candidates.",
+  "legacySnapshot": {
+    "id": "us-null-st-king95-2062-w-bu",
+    "brand": null,
+    "name": "Skytech Gaming KING95",
+    "region": "US",
+    "currency": "USD",
+    "merchant": "Best Buy",
+    "model": "ST-KING95-2062-W-BU",
+    "sku": "6633460",
+    "skuKind": "retailer-product-id",
+    "url": "https://www.bestbuy.com/product/skytech-gaming-king95-gaming-desktop-pc-amd-ryzen-7-9700x-2024-16gb-memory-nvidia-geforce-rtx-5060-ti-16gb-1tb-nvme-storage-white/J3GW8HKX4Z/sku/6633460",
+    "cpu": "Ryzen 7 9700X",
+    "gpu": "GeForce RTX 5060 Ti",
+    "vram": "16 GB",
+    "ram": "16 GB",
+    "storage": "1 TB storage; interface not disclosed"
+  },
+  "expectedCurrentBrand": "Skytech Gaming",
+  "comparison": {
+    "matched": ["name", "region", "currency", "merchant", "model", "sku", "skuKind", "url", "cpu", "gpu", "vram", "ram", "storage"],
+    "expectedDifference": "Legacy brand is null; the current entry records Skytech Gaming.",
+    "notIdentityEvidence": "The legacy imageSource contains a malformed Best Buy logo URL. The current imageSource is null. Neither image is used to establish identity, source rights or a model match."
+  },
+  "implementation": {
+    "action": "Prepare one bounded permanent redirect and an in-memory old-ID resolver; root reviews the actual release.",
+    "oldURLRetained": true,
+    "status": 301,
+    "preserveQuery": true,
+    "userDataMigrated": false,
+    "catalogAliasesChanged": false,
+    "routingForms": ["bare slug", "trailing slash", "index.html"],
+    "guard": "Recompare the exact record fields against the current target before emitting the redirect. A drift remains blocked for source review. Persist this evidence so a clean build still preserves the old URL."
+  },
+  "notImported": ["retailer review or AI summary", "current displayed price", "stock inferred from Add to Cart", "marketing FPS claims"],
+  "refreshOpportunity": "The newly inspected retailer Features section now discloses NVMe storage, Windows 11 Home and additional configuration claims beyond the October 14 local summary. A separate catalog refresh should assess and version those fields; this SEO change does not silently alter the catalog."
+}

@@ -2,9 +2,9 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import { fileURLToPath } from 'node:url';
-import { PUBLIC_PRICE_TARGETS, fetchPublicTarget } from './oct14-price-sources.mjs';
-import { NEWEGG_PUBLIC_TARGET, fetchNeweggPublicTarget } from './oct14-price-sources-newegg.mjs';
 import { PUBLIC_SNAPSHOT_TARGETS, validatePublicPriceObservation, validatePublicPriceSnapshot } from './public-price-snapshot.mjs';
+import { fetchRegisteredPublicPrice } from './public-price-fetch.mjs';
+import {recordPriceHistory} from './completion-price-history-store.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const snapshotPath = path.join(root, 'data/public-price-snapshot.json');
@@ -21,7 +21,7 @@ export async function collectDailyPublicPrices({ previous = null, fetchImpl = (i
     while (queue.length) {
       const { target, index } = queue.shift(), attempted = clock();
       try {
-        const raw = await (target.region === 'US' ? fetchNeweggPublicTarget : fetchPublicTarget)(target, { fetchImpl, now: attempted });
+        const raw = await fetchRegisteredPublicPrice(target, { fetchImpl, now: attempted });
         const validation = validatePublicPriceObservation(raw, { now: clock() });
         if (!validation.valid) throw Object.assign(new Error('snapshot_validation_failed'), { code: 'snapshot_validation_failed' });
         observations.push(validation.observation);
@@ -36,7 +36,7 @@ export async function collectDailyPublicPrices({ previous = null, fetchImpl = (i
   const completed = clock();
   const stillFresh = observations.map(raw => validatePublicPriceObservation(raw, { now: completed })).filter(result => result.valid).map(result => result.observation).sort((a, b) => key(a).localeCompare(key(b)));
   return { schema: 1, policy: 'daily-checked-snapshot', generatedAt: new Date(completed).toISOString(), observations: stillFresh, runs: results,
-    collection: { requested: PUBLIC_PRICE_TARGETS.length + (NEWEGG_PUBLIC_TARGET ? 1 : 0), refreshed: results.filter(row => row.state === 'refreshed').length, retained: results.filter(row => row.state === 'retained_previous_observation').length, failed: results.filter(row => row.state !== 'refreshed').length, accessMode: 'ordinary-public-get-no-proxy-no-cookies-no-challenge-bypass' } };
+    collection: { requested: PUBLIC_SNAPSHOT_TARGETS.length, refreshed: results.filter(row => row.state === 'refreshed').length, retained: results.filter(row => row.state === 'retained_previous_observation').length, failed: results.filter(row => row.state !== 'refreshed').length, accessMode: 'ordinary-public-get-no-proxy-no-cookies-no-challenge-bypass' } };
 }
 
 export async function writePublicPriceSnapshotAtomic(snapshot, outputPath = snapshotPath, { now = Date.now() } = {}) {
@@ -60,7 +60,7 @@ async function main() {
   let previous = null;
   try { previous = JSON.parse(await fs.readFile(snapshotPath, 'utf8')); } catch (error) { if (error.code !== 'ENOENT' && !(error instanceof SyntaxError)) throw error; }
   const snapshot = await collectDailyPublicPrices({ previous });
-  if (!process.argv.includes('--dry-run')) await writePublicPriceSnapshotAtomic(snapshot);
+  if (!process.argv.includes('--dry-run')) { await writePublicPriceSnapshotAtomic(snapshot); await recordPriceHistory(snapshot); }
   console.log(JSON.stringify({ dryRun: process.argv.includes('--dry-run'), output: 'data/public-price-snapshot.json', ...snapshot.collection, observations: snapshot.observations.map(row => ({ productId: row.productId, region: row.region, price: row.price, currency: row.currency, inStock: row.inStock, condition: row.condition, checkedAt: row.checkedAt })), runs: snapshot.runs }, null, 2));
   if (!snapshot.collection.refreshed) process.exitCode = 1;
 }

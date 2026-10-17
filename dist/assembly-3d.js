@@ -1,18 +1,21 @@
 /* The 3D engine and GLB files are loaded only after an explicit user action. */
 (()=>{
  window.addEventListener('load',()=>{const n=performance.getEntriesByType('navigation')[0];document.body.dataset.domReadyMs=String(Math.round(n?.domContentLoadedEventEnd||0));document.body.dataset.initial3dRequests=String(performance.getEntriesByType('resource').filter(r=>/vendor\/three|\.glb/.test(r.name)).length)});
- let scene=null,library=null,entries=[],active='gpu',references=false,loading=false,openRevision=0;
+ let scene=null,library=null,entries=[],active='gpu',references=false,loading=false,openRevision=0,isolated=null;
  const names={board:'Motherboard',cpu:'Processor',ram:'Memory',gpu:'Graphics card',ssd:'SSD',hdd:'Hard drive',psu:'Power supply',case:'Case',fan:'Case fans',cooler:'CPU cooler'};
  const renderableSlots=new Set(['board','cpu','ram','gpu','ssd','hdd','psu','case','fan']);
  const el=id=>document.getElementById(id),safe=escapeHTML;
  const modelFor=entry=>library?.items.find(record=>record.id===entry.id&&record.category===entry.slot);
- const hasModel=entry=>!!entry.record?.model&&renderableSlots.has(entry.slot);
- const appearance=record=>record.identity==='category-silhouette'?'Category illustration':['family-or-chip','chip-family'].includes(record.identity)?'Related-variant appearance':record.status==='approximate'?'Approximate model':'Named-model appearance';
+ const hasModel=entry=>!!entry.record?.model&&(renderableSlots.has(entry.slot)||entry.record.standaloneOnly===true);
+ const canPlace=entry=>hasModel(entry)&&entry.record.standaloneOnly!==true&&renderableSlots.has(entry.slot);
+ const keyFor=entry=>`${entry.slot}:${entry.index}:${entry.id}`;
+ const localModelPath=value=>typeof value==='string'&&/^\/assets\/models\/(?:completion\/)?[a-zA-Z0-9_.-]+\.glb$/.test(value);
+ const appearance=record=>record.identity==='category-silhouette'?'Category illustration':['family-or-chip','chip-family','related-variant'].includes(record.identity)?'Related-variant appearance':record.identity==='model-needs-verification'?'Artist appearance; exact revision unverified':record.status==='approximate'?'Approximate model':'Named-model appearance';
  async function catalogModels(){
   if(!library){
    const response=await fetch('/model-library.json');if(!response.ok)throw Error('Model catalog unavailable');
    const candidate=await response.json();
-   if(!candidate||!Array.isArray(candidate.items)||new Set(candidate.items.map(record=>record?.id)).size!==candidate.items.length||candidate.items.some(record=>!record||typeof record.id!=='string'||typeof record.category!=='string'||record.model!==null&&record.model!==undefined&&(typeof record.model!=='string'||!/^\/assets\/models\/[a-zA-Z0-9_.-]+\.glb$/.test(record.model))))throw Error('Invalid model catalog');
+   if(!candidate||!Array.isArray(candidate.items)||new Set(candidate.items.map(record=>record?.id)).size!==candidate.items.length||candidate.items.some(record=>!record||typeof record.id!=='string'||typeof record.category!=='string'||record.model!==null&&record.model!==undefined&&!localModelPath(record.model)))throw Error('Invalid model catalog');
    library=candidate;
   }
   return library;
@@ -25,8 +28,10 @@
   const chosen=entries.filter(entry=>entry.slot===slot),inspector=el('scene-inspector');if(!inspector)return;
   inspector.innerHTML=chosen.length?chosen.map(entry=>{
    const available=hasModel(entry),message=available?appearance(entry.record)+'. Check exact clearances and connectors before buying.':entry.slot==='cooler'?'No 3D model or placement is available for this cooler. It remains in your parts list.':library?'No 3D view is available for this part yet.':'Open the preview to check 3D availability.';
-   return `<div class="scene-inspected"><strong>${safe(entry.name)}</strong><p>${message}${entry.unplaced?' Placement unresolved: '+safe(entry.unplaced):''}</p><a href="/learn/${encodeURIComponent(entry.id)}.html">Product specifications</a>${available&&entry.record?.attribution?'<a href="/builder/model-credits/">3D creator credits</a>':''}${/^https?:\/\//.test(entry.record?.source||'')?`<a href="${safe(entry.record.source)}" target="_blank" rel="noopener noreferrer">Product source</a>`:''}</div>`;
+   const standalone=available&&entry.record.standaloneOnly,notes=standalone?(entry.record.caveats||[]).map(note=>`<li>${safe(note)}</li>`).join(''):'';
+   return `<div class="scene-inspected"><strong>${safe(entry.name)}</strong><p>${standalone?'Explore this part on its own. Its model is not positioned inside the assembled PC.':message}${entry.unplaced?' Placement unresolved: '+safe(entry.unplaced):''}</p>${available||!library?`<button class="button secondary" type="button" data-scene-part="${safe(keyFor(entry))}">View part in 3D</button>`:''}<a href="/learn/${encodeURIComponent(entry.id)}.html">Product specifications</a>${available&&entry.record?.attribution?'<a href="/builder/model-credits/">3D creator credits</a>':''}${/^https?:\/\//.test(entry.record?.source||'')?`<a href="${safe(entry.record.source)}" target="_blank" rel="noopener noreferrer">Product source</a>`:''}${notes?`<details><summary>Model details</summary><p>${safe(entry.record.appearance||appearance(entry.record))}</p><ul>${notes}</ul></details>`:''}</div>`;
   }).join(''):`<strong>${safe(names[slot]||'Your build')}</strong><p>No part selected.</p>`;
+  inspector.querySelectorAll('[data-scene-part]').forEach(button=>button.onclick=()=>startPreview(button.dataset.scenePart));
  }
  function refreshList(){
   if(!entries.some(entry=>entry.slot===active))active=entries[0]?.slot||'';
@@ -39,9 +44,11 @@
  async function refreshScene(){
   const current=scene;if(!current)return;
   try{
-   const result=await current.update(entries,{references});if(result.stale||scene!==current)return;
+   const chosen=isolated?entries.find(entry=>keyFor(entry)===isolated):null;if(isolated&&!chosen)isolated=null;
+   const result=chosen?await current.inspect(chosen):await current.update(entries,{references});if(result.stale||scene!==current)return;
    const missing=entries.filter(entry=>!hasModel(entry)).length,unplaced=result.unplaced||[];
-   el('scene-status').textContent=`${result.rendered} ${result.rendered===1?'object':'objects'} shown${missing?' · '+missing+' selected '+(missing===1?'part has':'parts have')+' no 3D view':''}${unplaced.length?' · '+unplaced.length+' model placements unavailable':''}${result.failed.length?' · Model loading failed: '+result.failed.join(', '):''}. Preview placement is illustrative; check physical fit before buying.`;
+   el('scene-status').textContent=chosen?result.rendered?`${chosen.name}. Rotate or zoom to explore the model. This view does not establish physical fit.`:`${chosen.name} could not load. Your part remains selected; retry below.`:`${result.rendered} ${result.rendered===1?'object':'objects'} shown${missing?' · '+missing+' selected '+(missing===1?'part has':'parts have')+' no 3D view':''}${unplaced.length?' · '+unplaced.length+' model placements unavailable':''}${result.failed.length?' · Model loading failed: '+result.failed.join(', '):''}. Preview placement is illustrative; check physical fit before buying.`;
+   el('scene-build-view').hidden=!chosen;el('scene-explode').disabled=!!chosen;el('scene-panel').disabled=!!chosen;
    current.select(active);el('scene-status').dataset.loadMs=result.loadMs;el('scene-retry-assets').hidden=!result.failed.length;
    el('scene-stage').classList.toggle('is-empty',!result.rendered);
    el('scene-stage').dataset.emptyMessage=result.failed.length?'Models could not download. Retry below; your parts list is preserved.':entries.length?'No model can be placed for these selections. Your parts remain in the build.':'Choose components to see your build here.';
@@ -56,27 +63,31 @@
   el('scene-stage').hidden=true;el('scene-controls').hidden=true;document.querySelector('.scene-intro').hidden=false;
   el('scene-open').disabled=false;el('scene-open').textContent='Open 3D preview';el('scene-status').textContent=message;
  }
+ async function startPreview(partKey=''){
+  if(loading)return;
+  if(!entries.length){el('scene-status').textContent=unavailableMessage();return;}
+  const revision=++openRevision;loading=true;el('scene-open').disabled=true;el('scene-open').textContent='Loading preview…';
+  try{
+   el('scene-status').textContent='Checking available component models…';await catalogModels();if(revision!==openRevision)return;
+   entries.forEach(entry=>entry.record=modelFor(entry));refreshList();
+   const requested=partKey?entries.find(entry=>keyFor(entry)===partKey):null;
+   if(partKey&&(!requested||!hasModel(requested))){el('scene-status').textContent='No 3D model is available for this part. Its specifications and compatibility checks remain available.';el('scene-open').textContent='Open 3D preview';return;}
+   if(!entries.some(hasModel)){el('scene-status').textContent=unavailableMessage();el('scene-open').textContent='Check 3D availability';return;}
+   isolated=requested?keyFor(requested):!entries.some(canPlace)?keyFor(entries.find(hasModel)):null;
+   if(!scene){const mod=await import('/build-scene.js?v=20261016c');if(revision!==openRevision)return;scene=mod.createBuildScene(el('scene-stage'),inspect);}
+   el('scene-stage').hidden=false;el('scene-controls').hidden=false;el('pc-visual').querySelector('.scene-intro').hidden=true;
+   scene.explode(el('scene-explode').checked);scene.sidePanel(el('scene-panel').checked);scene.quality(el('scene-low').checked);refreshList();await refreshScene();
+  }catch(error){
+   if(revision!==openRevision)return;
+   console.error('3D preview:',error);scene?.dispose();scene=null;el('scene-stage').hidden=true;el('scene-controls').hidden=true;el('pc-visual').querySelector('.scene-intro').hidden=false;el('scene-status').textContent='3D preview could not start. Your parts list and compatibility checks still work. You can retry below.';el('scene-open').textContent='Retry 3D preview';
+  }finally{if(revision===openRevision){loading=false;el('scene-open').disabled=false;}}
+ }
  function shell(){
   const visual=el('pc-visual');if(!visual||el('scene-stage'))return;
-  visual.innerHTML=`<div class="scene-intro"><p>Explore available 3D models for your selected parts. Preview positions do not establish physical fit.</p><button class="button primary" id="scene-open" type="button">Open 3D preview</button></div><div id="scene-stage" class="scene-stage" hidden></div><div class="scene-controls" id="scene-controls" hidden><div class="scene-views" role="group" aria-label="Camera view"><button type="button" data-camera="angled">Angled</button><button type="button" data-camera="side">Side</button><button type="button" data-camera="front">Front</button><button type="button" data-camera="angled">Reset</button></div><details class="scene-advanced"><summary>More preview controls</summary><div class="scene-views" role="group" aria-label="Camera controls"><button type="button" data-rotate="-1" aria-label="Rotate left">Rotate left</button><button type="button" data-rotate="1" aria-label="Rotate right">Rotate right</button><button type="button" data-zoom="0.85" aria-label="Zoom in">+</button><button type="button" data-zoom="1.15" aria-label="Zoom out">−</button></div><button type="button" id="scene-retry-assets" hidden>Retry model downloads</button><div class="scene-toggles"><label><input type="checkbox" id="scene-explode"> Exploded view</label><label><input type="checkbox" id="scene-panel"> Show side panel</label><label><input type="checkbox" id="scene-low"> Lower graphics detail</label></div><p class="scene-help">Drag to rotate. Scroll or pinch to zoom. Right-drag, two-finger drag, or arrow keys to pan.</p></details></div><p id="scene-status" role="status">Choose parts, then open the preview.</p><div id="scene-components" class="scene-components" role="group" aria-label="Inspect a component"></div><div id="scene-inspector" class="scene-inspector" aria-live="polite"></div><details class="scene-notes"><summary>Accuracy and model coverage</summary><p>Models use approximate mounting positions; category silhouettes use assumed sizes. Selected coolers remain in the parts list but have no 3D representation. Radiators and cables are not added. The preview cannot guarantee clearance or thermal performance.</p><a href="/builder/model-coverage/">View component coverage and sources</a></details>`;
+  visual.innerHTML=`<div class="scene-intro"><p>Explore available 3D models for your selected parts. Preview positions do not establish physical fit.</p><button class="button primary" id="scene-open" type="button">Open 3D preview</button></div><div id="scene-stage" class="scene-stage" hidden></div><div class="scene-controls" id="scene-controls" hidden><button class="button secondary" id="scene-build-view" type="button" hidden>Show build layout</button><div class="scene-views" role="group" aria-label="Camera view"><button type="button" data-camera="angled">Angled</button><button type="button" data-camera="side">Side</button><button type="button" data-camera="front">Front</button><button type="button" data-camera="angled">Reset</button></div><details class="scene-advanced"><summary>More preview controls</summary><div class="scene-views" role="group" aria-label="Camera controls"><button type="button" data-rotate="-1" aria-label="Rotate left">Rotate left</button><button type="button" data-rotate="1" aria-label="Rotate right">Rotate right</button><button type="button" data-zoom="0.85" aria-label="Zoom in">+</button><button type="button" data-zoom="1.15" aria-label="Zoom out">−</button></div><button type="button" id="scene-retry-assets" hidden>Retry model downloads</button><div class="scene-toggles"><label><input type="checkbox" id="scene-explode"> Exploded view</label><label><input type="checkbox" id="scene-panel"> Show side panel</label><label><input type="checkbox" id="scene-low"> Lower graphics detail</label></div><p class="scene-help">Drag to rotate. Scroll or pinch to zoom. Right-drag, two-finger drag, or arrow keys to pan.</p></details></div><p id="scene-status" role="status">Choose parts, then open the preview.</p><div id="scene-components" class="scene-components" role="group" aria-label="Inspect a component"></div><div id="scene-inspector" class="scene-inspector" aria-live="polite"></div><details class="scene-notes"><summary>Accuracy and model coverage</summary><p>Models use approximate mounting positions; category silhouettes use assumed sizes. Some downloaded models open individually and are not placed in the assembled layout. Coolers without a model stay in the parts list. Radiators and cables are not added. The preview cannot guarantee clearance or thermal performance.</p><a href="/builder/model-coverage/">View component coverage and sources</a></details>`;
   el('scene-stage').addEventListener('scene-failed',()=>{suspend('The graphics connection was lost. Your parts list is preserved.');el('scene-open').textContent='Retry 3D preview';});
-  el('scene-open').onclick=async()=>{
-   if(loading)return;
-   if(!entries.length){el('scene-status').textContent=unavailableMessage();return;}
-   const revision=++openRevision;loading=true;el('scene-open').disabled=true;el('scene-open').textContent='Loading preview…';
-   try{
-    el('scene-status').textContent='Checking available component models…';await catalogModels();if(revision!==openRevision)return;
-    entries.forEach(entry=>entry.record=modelFor(entry));refreshList();
-    if(!entries.some(hasModel)){el('scene-status').textContent=unavailableMessage();el('scene-open').textContent='Check 3D availability';return;}
-    const mod=await import('/build-scene.js?v=20261016a');if(revision!==openRevision)return;
-    el('scene-stage').hidden=false;scene=mod.createBuildScene(el('scene-stage'),inspect);
-    el('scene-controls').hidden=false;visual.querySelector('.scene-intro').hidden=true;
-    scene.explode(el('scene-explode').checked);scene.sidePanel(el('scene-panel').checked);scene.quality(el('scene-low').checked);refreshList();await refreshScene();
-   }catch(error){
-    if(revision!==openRevision)return;
-    console.error('3D preview:',error);scene?.dispose();scene=null;el('scene-stage').hidden=true;el('scene-controls').hidden=true;visual.querySelector('.scene-intro').hidden=false;el('scene-status').textContent='3D preview could not start. Your parts list and compatibility checks still work. You can retry below.';el('scene-open').textContent='Retry 3D preview';
-   }finally{if(revision===openRevision){loading=false;el('scene-open').disabled=false;}}
-  };
+  el('scene-open').onclick=()=>startPreview();
+  el('scene-build-view').onclick=()=>{isolated=null;refreshScene();};
   visual.querySelectorAll('[data-camera]').forEach(button=>button.onclick=()=>scene?.view(button.dataset.camera));
   visual.querySelectorAll('[data-rotate]').forEach(button=>button.onclick=()=>scene?.rotate(Number(button.dataset.rotate)));
   visual.querySelectorAll('[data-zoom]').forEach(button=>button.onclick=()=>scene?.zoom(Number(button.dataset.zoom)));

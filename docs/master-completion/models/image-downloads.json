@@ -1,0 +1,361 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-17T01:50:04.845Z",
+  "scope": "Eight exact new catalog identities. Five ordinary public manufacturer media downloads and three actual rendered licensed creator models; no substitute family photographs.",
+  "counts": {
+    "identities": 8,
+    "officialExactImages": 5,
+    "licensedActualModelRenders": 3,
+    "totalPreparedBytes": 529404,
+    "missing": 0
+  },
+  "integration": {
+    "module": "scripts/completion-model-images.cjs",
+    "method": "overrides()",
+    "call": "applyVerifiedPhotos(records, require('./completion-model-images.cjs').overrides())",
+    "placement": "Merge supplied overrides by stable ID before normal image application and final dist/images.json / image-catalog.js writes.",
+    "noSharedManifestMutationByAgent": true
+  },
+  "images": {
+    "cooler-amd-wraith-stealth": {
+      "src": "/assets/hardware/completion/cooler-amd-wraith-stealth.webp",
+      "picturedModel": "AMD Wraith Stealth",
+      "catalogName": "AMD Wraith Stealth",
+      "sourceUrl": "https://www.amd.com/en/products/processors/ecosystem/cpu-cooler-solutions.html",
+      "imageUrl": "https://www.amd.com/content/dam/amd/en/images/products/4767000-cooling-wraith-stealth.png",
+      "attribution": "AMD",
+      "license": "Manufacturer product media; not an open license",
+      "licenseUrl": "https://www.amd.com/en/products/processors/ecosystem/cpu-cooler-solutions.html",
+      "official": true,
+      "kind": "exact",
+      "width": 1200,
+      "height": 700,
+      "bytes": 57528,
+      "checked": "2026-10-16",
+      "sourceSha256": "9220e2d8093d4ce3069d7572827f57675d53236fdf6189fc3b942459d8586e87",
+      "sha256": "966d770a79f21d8582ab67143110d5e8df3224408212fd689f9a9afe7110ca72",
+      "identityEvidence": "The individual image appears immediately before the heading The AMD Wraith Stealth Cooler. The three-cooler OG image is deliberately not used.",
+      "modifications": "Proportions preserved; resized within 1200px and encoded WebP. No background replacement, recoloring, crop or generated hardware.",
+      "visualReviewed": true,
+      "reviewedAt": "2026-10-17T01:49:23.282Z"
+    },
+    "retail-msi-geforce-gtx-1660-gaming-x-6g": {
+      "src": "/assets/hardware/completion/retail-msi-geforce-gtx-1660-gaming-x-6g.webp",
+      "picturedModel": "MSI GeForce GTX 1660 GAMING X 6G",
+      "catalogName": "GeForce GTX 1660 GAMING X 6G",
+      "sourceUrl": "https://us.msi.com/Graphics-Card/GeForce-GTX-1660-GAMING-X-6G/Gallery",
+      "imageUrl": "https://storage-asset.msi.com/global/picture/product/product_0_20190314112221_5c89c8ed9aaf9.webp",
+      "attribution": "MSI",
+      "license": "Manufacturer product media; not an open license",
+      "licenseUrl": "https://us.msi.com/Graphics-Card/GeForce-GTX-1660-GAMING-X-6G/Gallery",
+      "official": true,
+      "kind": "exact",
+      "width": 1000,
+      "height": 800,
+      "bytes": 137428,
+      "checked": "2026-10-16",
+      "sourceSha256": "d07f57d745d2e5417c86bb3f0561083738e77f348fd0db7da896a82d1f55bbbc",
+      "sha256": "52f2cbdaf241526beb811aa8cdc4ce8d79b799cf9414104bee9bc8a2c2befd38",
+      "identityEvidence": "Second image linked by the exact GeForce GTX 1660 GAMING X 6G manufacturer gallery; product-only view, not Ti or SUPER.",
+      "modifications": "Proportions preserved; resized within 1200px and encoded WebP. No background replacement, recoloring, crop or generated hardware.",
+      "visualReviewed": true,
+      "reviewedAt": "2026-10-17T01:49:23.282Z"
+    },
+    "retail-msi-meg-z590-ace-gold-edition": {
+      "src": "/assets/hardware/completion/retail-msi-meg-z590-ace-gold-edition.webp",
+      "picturedModel": "MSI MEG Z590 ACE GOLD EDITION",
+      "catalogName": "MEG Z590 ACE GOLD EDITION",
+      "sourceUrl": "https://www.msi.com/Motherboard/MEG-Z590-ACE-GOLD-EDITION/Gallery",
+      "imageUrl": "https://storage-asset.msi.com/global/picture/product/product_161778675112dff8ff5f11a5b8c7967ad8b326530f.webp",
+      "attribution": "MSI",
+      "license": "Manufacturer product media; not an open license",
+      "licenseUrl": "https://www.msi.com/Motherboard/MEG-Z590-ACE-GOLD-EDITION/Gallery",
+      "official": true,
+      "kind": "exact",
+      "width": 1024,
+      "height": 800,
+      "bytes": 124634,
+      "checked": "2026-10-16",
+      "sourceSha256": "376e31a544ecabcf320b9862ff6ba3f7f78205744b7e7ef038f81b03eb14aac7",
+      "sha256": "b76c7e670405351c8a8ae28e1830e49544b3fecc5fc700908db12e3cc3e2abb6",
+      "identityEvidence": "Second image linked by the exact MEG Z590 ACE GOLD EDITION manufacturer gallery; product-only view, not the black ordinary ACE model.",
+      "modifications": "Proportions preserved; resized within 1200px and encoded WebP. No background replacement, recoloring, crop or generated hardware.",
+      "visualReviewed": true,
+      "reviewedAt": "2026-10-17T01:49:23.282Z"
+    },
+    "retail-gigabyte-trx40-aorus-xtreme-rev-1-0": {
+      "src": "/assets/hardware/completion/retail-gigabyte-trx40-aorus-xtreme-rev-1-0.webp",
+      "picturedModel": "GIGABYTE TRX40 AORUS XTREME rev. 1.0",
+      "catalogName": "TRX40 AORUS XTREME rev. 1.0",
+      "sourceUrl": "https://www.gigabyte.com/Motherboard/TRX40-AORUS-XTREME-rev-10/sp",
+      "imageUrl": "https://static.gigabyte.com/StaticFile/Image/Global/bb9f54f8654dfa353fe9fcfc4353f544/ProductRemoveBg/24649",
+      "attribution": "GIGABYTE",
+      "license": "Manufacturer product media; not an open license",
+      "licenseUrl": "https://www.gigabyte.com/Motherboard/TRX40-AORUS-XTREME-rev-10/sp",
+      "official": true,
+      "kind": "exact",
+      "width": 963,
+      "height": 732,
+      "bytes": 126684,
+      "checked": "2026-10-16",
+      "sourceSha256": "4387680d4b4fa19c8ca54b04771df512196e6ae0d02908951fb3dccff38261d1",
+      "sha256": "453f4adbed5eb7d24ec3ca5df19a1d9a6431fe767876837bee233cc73ceb00e4",
+      "identityEvidence": "Product gallery image explicitly linked by TRX40 AORUS XTREME Rev. 1.0 official page. No installed-processor model is substituted.",
+      "modifications": "Proportions preserved; resized within 1200px and encoded WebP. No background replacement, recoloring, crop or generated hardware.",
+      "visualReviewed": true,
+      "reviewedAt": "2026-10-17T01:49:23.282Z"
+    },
+    "retail-corsair-carbide-200r-black": {
+      "src": "/assets/hardware/completion/retail-corsair-carbide-200r-black.webp",
+      "picturedModel": "CORSAIR Carbide Series 200R",
+      "catalogName": "Carbide Series 200R",
+      "sourceUrl": "https://www.corsair.com/us/en/p/pc-cases/cc-9011023-ww/carbide-series-200r-compact-atx-case-cc-9011023-ww",
+      "imageUrl": "https://assets.corsair.com/image/upload/c_pad,q_auto,h_1024,w_1024,f_auto/products/Cases/CC-9011023-WW/Gallery/200R_001.webp",
+      "attribution": "CORSAIR",
+      "license": "Manufacturer product media; not an open license",
+      "licenseUrl": "https://www.corsair.com/us/en/p/pc-cases/cc-9011023-ww/carbide-series-200r-compact-atx-case-cc-9011023-ww",
+      "official": true,
+      "kind": "exact",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 38362,
+      "checked": "2026-10-16",
+      "sourceSha256": "1b9681db36071a56e3c5f106147719a759d5299112f2b168d4ffe4c399bc2074",
+      "sha256": "67cbbbb947e921460a248272e4882c4441abb60818a70886324a156948e12db7",
+      "identityEvidence": "Exact CC-9011023-WW product JSON-LD gallery image; black Carbide Series 200R.",
+      "modifications": "Proportions preserved; resized within 1200px and encoded WebP. No background replacement, recoloring, crop or generated hardware.",
+      "visualReviewed": true,
+      "reviewedAt": "2026-10-17T01:49:23.282Z"
+    },
+    "completion-cpu-intel-core-i5-661": {
+      "src": "/assets/hardware/completion/completion-cpu-intel-core-i5-661.webp",
+      "picturedModel": "Intel Core i5-661 — 3D model render",
+      "catalogName": "Core i5-661",
+      "kind": "model-render",
+      "caption": "Creator visualization of the named Core i5-661; not a manufacturer photograph.",
+      "official": false,
+      "sourceUrl": "https://sketchfab.com/3d-models/1940447b5a7b41f3a7ebdd73ce2f590d",
+      "creator": "Dr_Mint",
+      "creatorUrl": "https://sketchfab.com/Dr_Mint",
+      "attribution": "Dr_Mint",
+      "originalAttribution": "Dr_Mint (https://sketchfab.com/Dr_Mint)",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "checked": "2026-10-16",
+      "sourceAsset": "/assets/models/completion/intel-core-i5-661.glb",
+      "sourceAssetSha256": "f31ba78671833cdef7282661cf6b834c647c3c974210247914f339dc413d5bc4",
+      "width": 1074,
+      "height": 435,
+      "bytes": 17402,
+      "sha256": "a1389a7ebff4cd0186afcff099089473ec10e4f7e84b717d7312b205c5721568",
+      "originalScreenshot": "docs/master-completion/qa/i5-661-model-render-full.png",
+      "screenshotSha256": "6788b94f39dd5174f8646f634d644dc12d6e9935527f1d0055f0c268fc52857f",
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "screenshotSize": {
+        "width": 1425,
+        "height": 891
+      },
+      "canvasBounds": {
+        "bottom": 647.59375,
+        "dataset": {
+          "boundTextureCount": "3",
+          "boundsCenter": "0.000000,-0.000000,0.000000",
+          "boundsSize": "0.320000,0.027761,0.320000",
+          "cameraAspect": "2.4748858447488584",
+          "cameraDistance": "0.469031",
+          "cameraPosition": "0.270996,0.126465,0.361328",
+          "cameraTarget": "0.000000,-0.000000,0.000000",
+          "engine": "three.js r180",
+          "mode": "part",
+          "modelCount": "1",
+          "modelId": "completion-cpu-intel-core-i5-661",
+          "renderCount": "4",
+          "triangles": "78607"
+        },
+        "height": 438,
+        "left": 170.5,
+        "right": 1254.5,
+        "top": 209.59375,
+        "viewport": {
+          "height": 900,
+          "width": 1440
+        },
+        "width": 1084,
+        "x": 170.5,
+        "y": 209.59375
+      },
+      "cropPixels": {
+        "left": 168,
+        "top": 207,
+        "width": 1074,
+        "height": 435
+      },
+      "modifications": "Actual licensed GLB rendered by the local product viewer. Full screenshot cropped to recorded canvas bounds with CSS-to-screenshot scaling, then encoded WebP. Source geometry, materials, colors and textures were not replaced.",
+      "visualReviewed": true,
+      "reviewedAt": "2026-10-17T01:49:23.282Z"
+    },
+    "retail-cooler-master-masterbox-lite-5": {
+      "src": "/assets/hardware/completion/retail-cooler-master-masterbox-lite-5.webp",
+      "picturedModel": "Cooler Master MasterBox Lite 5 — 3D model render",
+      "catalogName": "MasterBox Lite 5",
+      "kind": "model-render",
+      "caption": "Creator low-detail, untextured MasterBox Lite 5 visualization. White is the source material; it does not confirm retail color, exact SKU or installed fit.",
+      "official": false,
+      "sourceUrl": "https://sketchfab.com/3d-models/8673ad2eeffa4fe1b81479f9cb9d351e",
+      "creator": "HerbeMalveillante",
+      "creatorUrl": "https://sketchfab.com/HerbeMalveillante",
+      "attribution": "HerbeMalveillante",
+      "originalAttribution": "HerbeMalveillante (https://sketchfab.com/HerbeMalveillante)",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "checked": "2026-10-16",
+      "sourceAsset": "/assets/models/completion/cooler-master-masterbox-lite-5.glb",
+      "sourceAssetSha256": "eb7448785f46fbbfa0175e70c98588a6ae6d2508b058bc95da63b280d45cf47e",
+      "width": 1074,
+      "height": 435,
+      "bytes": 6296,
+      "sha256": "81d30556450a2febdf2e5387e071cd624bd0357cccb54ebddec3cb1635be2dad",
+      "originalScreenshot": "docs/master-completion/qa/masterbox-lite5-model-render-full.png",
+      "screenshotSha256": "765834e4fd1c482b0b85385e3947f13e4b62f2a5e00b30993acc4b5cf4ffc87b",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "screenshotSize": {
+        "width": 1425,
+        "height": 891
+      },
+      "canvasBounds": {
+        "height": 438,
+        "width": 1084,
+        "x": 170.5,
+        "y": 209.59375
+      },
+      "cropPixels": {
+        "left": 168,
+        "top": 207,
+        "width": 1074,
+        "height": 435
+      },
+      "modifications": "Actual licensed GLB rendered by the local product viewer. Full screenshot cropped to recorded canvas bounds with CSS-to-screenshot scaling, then encoded WebP. Source geometry, materials, colors and textures were not replaced.",
+      "visualReviewed": true,
+      "reviewedAt": "2026-10-17T01:49:23.282Z"
+    },
+    "retail-asus-z170-p": {
+      "src": "/assets/hardware/completion/retail-asus-z170-p.webp",
+      "picturedModel": "ASUS Z170-P — 3D model render",
+      "catalogName": "Z170-P",
+      "kind": "model-render",
+      "caption": "Render of the creator scan of a used Z170-P described as broken. Not a pristine manufacturer photograph or proof of condition.",
+      "official": false,
+      "sourceUrl": "https://sketchfab.com/3d-models/b998596cfc4945a0bc7b016005c39321",
+      "creator": "Lassi Kaukonen",
+      "creatorUrl": "https://sketchfab.com/thesidekick",
+      "attribution": "Lassi Kaukonen",
+      "originalAttribution": "Lassi Kaukonen (https://sketchfab.com/thesidekick)",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "checked": "2026-10-16",
+      "sourceAsset": "/assets/models/completion/asus-z170-p-scan.glb",
+      "sourceAssetSha256": "32d323e4878fc9f2f31ef7dbbc462ecdb355945674bb4e75a86c4fc5dd33c4f8",
+      "width": 1074,
+      "height": 435,
+      "bytes": 21070,
+      "sha256": "a28ecdee80ce0957c47e74aa0e667ecd1ad20db8a1534ddc94a33fb12945e359",
+      "originalScreenshot": "docs/master-completion/qa/asus-z170p-model-render-full.png",
+      "screenshotSha256": "b33af1fb15860a09d3bcc17660beeb4e9d253aec24dfd002e9c6fd3d23833dc5",
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "screenshotSize": {
+        "width": 1425,
+        "height": 891
+      },
+      "canvasBounds": {
+        "bottom": 647.59375,
+        "dataset": {
+          "boundTextureCount": "3",
+          "boundsCenter": "0.000000,0.000000,0.000000",
+          "boundsSize": "0.239597,0.042853,0.320000",
+          "cameraAspect": "2.4748858447488584",
+          "cameraDistance": "0.446427",
+          "cameraPosition": "0.257936,0.120370,0.343915",
+          "cameraTarget": "0.000000,0.000000,0.000000",
+          "engine": "three.js r180",
+          "mode": "part",
+          "modelCount": "1",
+          "modelId": "retail-asus-z170-p",
+          "renderCount": "5",
+          "triangles": "312196"
+        },
+        "height": 438,
+        "left": 170.5,
+        "right": 1254.5,
+        "top": 209.59375,
+        "viewport": {
+          "height": 900,
+          "width": 1440
+        },
+        "width": 1084,
+        "x": 170.5,
+        "y": 209.59375
+      },
+      "cropPixels": {
+        "left": 168,
+        "top": 207,
+        "width": 1074,
+        "height": 435
+      },
+      "modifications": "Actual licensed GLB rendered by the local product viewer. Full screenshot cropped to recorded canvas bounds with CSS-to-screenshot scaling, then encoded WebP. Source geometry, materials, colors and textures were not replaced.",
+      "visualReviewed": true,
+      "reviewedAt": "2026-10-17T01:49:23.282Z"
+    }
+  },
+  "failures": [],
+  "rejectedCandidates": [
+    {
+      "id": "retail-asus-z170-p",
+      "source": "docs/master-completion/models/rejected-image-placeholder.json",
+      "reason": "Manufacturer support-page image URL returned a gray placeholder glyph. Rejected after actual pixel review; never published."
+    }
+  ],
+  "method": {
+    "manufacturerDownloads": "Ordinary public exact-model galleries/product images. Source URLs and source/output SHA256 retained. Manufacturer media is not described as an open license.",
+    "modelRenders": "Parent inspected the real local GLB in the connected browser and captured a full screenshot plus DOM canvas bounds. Crops use actual CSS-to-PNG scale, then encode WebP without recoloring or geometry changes.",
+    "review": "All eight files visually inspected. i5 and ASUS captures were repeated after Reset and scrolling outside the interactive canvas; all corners fit. Earlier wheel-zoomed captures were replaced.",
+    "noGenericPlaceholder": true,
+    "noFamilySubstitution": true
+  },
+  "reproduction": [
+    {
+      "command": "node --use-system-ca scripts/completion-model-images.cjs download",
+      "effect": "Fetch bounded official sources and re-encode proportions intact; clears visual review until inspected."
+    },
+    {
+      "command": "node scripts/completion-model-images.cjs renders",
+      "effect": "Recreate three crops from retained full screenshots and DOM bounds; clears visual review until inspected."
+    },
+    {
+      "command": "node --test scripts/completion-model-images.test.cjs",
+      "result": "8 passed, 0 failed; includes complete pixel decoding, exact source identity, binary SHA, original GLB license, crop geometry and malicious/incorrect-record rejection."
+    }
+  ],
+  "browserEvidence": {
+    "parentConfirmed": [
+      "TITAN RTX material texture is actually bound after blob CSP correction.",
+      "i5-661 renders three textures; Reset frames full source geometry.",
+      "ASUS Z170-P renders three textures; Reset frames full source geometry."
+    ],
+    "frustumRegression": "90 projections from actual source bounding envelopes: ten GLBs × three viewport shapes × three view presets. Every bounding corner stays inside padded camera frustum. Actual GLTFLoader i5 and ASUS bounds independently match validation."
+  },
+  "limitations": [
+    "ASUS render depicts the creator scan of a used board described as broken; it is not a pristine manufacturer photograph.",
+    "CM MasterBox Lite 5 render is low-detail untextured source geometry; white does not certify retail color or exact SKU.",
+    "No image or creator model is manufacturer-certified clearance evidence.",
+    "This agent did not run the global generator, mutate shared image manifests, or deploy."
+  ]
+}

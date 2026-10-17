@@ -1,0 +1,63 @@
+{
+  "verifiedAt": "2026-10-17T01:53:17.869Z",
+  "snapshotGeneratedAt": "2026-10-17T01:51:20.873Z",
+  "registryListings": 12,
+  "collection": {
+    "requested": 12,
+    "refreshed": 10,
+    "retained": 0,
+    "failed": 2,
+    "accessMode": "ordinary-public-get-no-proxy-no-cookies-no-challenge-bypass"
+  },
+  "currentObservations": 10,
+  "historyObservations": 26,
+  "caDdr4Stores": [
+    {
+      "merchant": "Canada Computers",
+      "price": 359.99,
+      "currency": "CAD",
+      "checkedAt": "2026-10-17T01:51:15.878Z",
+      "inStock": true
+    },
+    {
+      "merchant": "CORSAIR",
+      "price": 359.99,
+      "currency": "CAD",
+      "checkedAt": "2026-10-17T01:51:20.718Z",
+      "inStock": true
+    }
+  ],
+  "usDdr4": [
+    {
+      "merchant": "CORSAIR",
+      "price": 259.99,
+      "currency": "USD",
+      "checkedAt": "2026-10-17T01:51:20.411Z",
+      "inStock": true
+    }
+  ],
+  "failedSources": [
+    {
+      "productId": "b650",
+      "merchantId": "canada-computers",
+      "region": "CA",
+      "state": "unavailable",
+      "errorCode": "offer_identity_invalid",
+      "attemptedAt": "2026-10-17T01:51:11.674Z"
+    },
+    {
+      "productId": "9800x3d",
+      "merchantId": "newegg-us",
+      "region": "US",
+      "state": "unavailable",
+      "errorCode": "source_access_restricted",
+      "attemptedAt": "2026-10-17T01:51:15.716Z"
+    }
+  ],
+  "tests": {
+    "files": 10,
+    "result": "all passed; Node reported46 top-level cases/file wrappers",
+    "browserQA": "parent-owned, not run by this subtask"
+  },
+  "deployment": "parent-owned, not performed by this subtask"
+}

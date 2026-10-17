@@ -1,0 +1,545 @@
+{
+  "checkedAt": "2026-10-17T02:12:30.733Z",
+  "scope": "Axe-core 4.14.0 WCAG A/AA and best-practice rules on representative actual browser pages. Not a blanket WCAG certification; incomplete rules remain contextual checks.",
+  "reports": [
+    "a11y-desktop-dark.json",
+    "a11y-desktop-families.json",
+    "a11y-mobile-light-core.json",
+    "a11y-mobile-light-families.json",
+    "a11y-mobile360-dark.json",
+    "a11y-workspace-expanded-mobile.json",
+    "a11y-tools-fixed-mobile.json",
+    "a11y-mobile-dark-remaining.json",
+    "a11y-tablet-light.json",
+    "a11y-desktop-light.json",
+    "a11y-fixed-same-context.json"
+  ],
+  "distinctRouteViewportThemeChecks": 44,
+  "unresolvedAutomatedViolations": [],
+  "corrections": {
+    "catalog": "Matching visible/accessible selected-button labels; original desktop dark context retested.",
+    "comparison": "Named keyboard-focusable horizontal specifications region; same mobile context retested.",
+    "tools": "Memory/storage heading hierarchy corrected; original 360px dark context retested.",
+    "invalidPreview": "a11y-final-desktop-1.json was an invalid unstyled preview using a stale imported manifest after CSS fingerprinting. It is excluded. Restarted current-manifest results are retained here."
+  },
+  "checks": [
+    {
+      "url": "/",
+      "width": 1440,
+      "height": 900,
+      "theme": "dark",
+      "checkedAt": "2026-10-17T01:42:12.219Z",
+      "receipt": "a11y-desktop-dark.json",
+      "violations": 0,
+      "incomplete": 1,
+      "overflow": false
+    },
+    {
+      "url": "/builder/",
+      "width": 1440,
+      "height": 900,
+      "theme": "dark",
+      "checkedAt": "2026-10-17T01:42:13.122Z",
+      "receipt": "a11y-desktop-dark.json",
+      "violations": 0,
+      "incomplete": 2,
+      "overflow": false
+    },
+    {
+      "url": "/upgrade/",
+      "width": 1440,
+      "height": 900,
+      "theme": "dark",
+      "checkedAt": "2026-10-17T01:42:13.755Z",
+      "receipt": "a11y-desktop-dark.json",
+      "violations": 0,
+      "incomplete": 2,
+      "overflow": false
+    },
+    {
+      "url": "/my-pc/",
+      "width": 1440,
+      "height": 900,
+      "theme": "dark",
+      "checkedAt": "2026-10-17T01:42:14.156Z",
+      "receipt": "a11y-desktop-dark.json",
+      "violations": 0,
+      "incomplete": 1,
+      "overflow": false
+    },
+    {
+      "url": "/compare/",
+      "width": 1440,
+      "height": 900,
+      "theme": "dark",
+      "checkedAt": "2026-10-17T01:42:16.608Z",
+      "receipt": "a11y-desktop-dark.json",
+      "violations": 0,
+      "incomplete": 3,
+      "overflow": false
+    },
+    {
+      "url": "/learn/9800x3d.html",
+      "width": 1440,
+      "height": 900,
+      "theme": "dark",
+      "checkedAt": "2026-10-17T01:42:18.143Z",
+      "receipt": "a11y-desktop-dark.json",
+      "violations": 0,
+      "incomplete": 1,
+      "overflow": false
+    },
+    {
+      "url": "/phones/size-compare/",
+      "width": 1440,
+      "height": 900,
+      "theme": "dark",
+      "checkedAt": "2026-10-17T01:42:29.897Z",
+      "receipt": "a11y-desktop-families.json",
+      "violations": 0,
+      "incomplete": 2,
+      "overflow": false
+    },
+    {
+      "url": "/prebuilts/",
+      "width": 1440,
+      "height": 900,
+      "theme": "dark",
+      "checkedAt": "2026-10-17T01:42:30.905Z",
+      "receipt": "a11y-desktop-families.json",
+      "violations": 0,
+      "incomplete": 2,
+      "overflow": false
+    },
+    {
+      "url": "/laptops/",
+      "width": 1440,
+      "height": 900,
+      "theme": "dark",
+      "checkedAt": "2026-10-17T01:42:31.640Z",
+      "receipt": "a11y-desktop-families.json",
+      "violations": 0,
+      "incomplete": 1,
+      "overflow": false
+    },
+    {
+      "url": "/performance/",
+      "width": 1440,
+      "height": 900,
+      "theme": "dark",
+      "checkedAt": "2026-10-17T01:42:32.772Z",
+      "receipt": "a11y-desktop-families.json",
+      "violations": 0,
+      "incomplete": 2,
+      "overflow": false
+    },
+    {
+      "url": "/hardware/graphics-cards/",
+      "width": 1440,
+      "height": 900,
+      "theme": "dark",
+      "checkedAt": "2026-10-17T02:11:55.606Z",
+      "receipt": "a11y-fixed-same-context.json",
+      "violations": 0,
+      "incomplete": 2,
+      "overflow": null
+    },
+    {
+      "url": "/blog/rtx-3060-upgrade-or-keep/",
+      "width": 1440,
+      "height": 900,
+      "theme": "dark",
+      "checkedAt": "2026-10-17T01:42:35.083Z",
+      "receipt": "a11y-desktop-families.json",
+      "violations": 0,
+      "incomplete": 1,
+      "overflow": false
+    },
+    {
+      "url": "/",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "checkedAt": "2026-10-17T01:51:42.742Z",
+      "receipt": "a11y-mobile-light-core.json",
+      "violations": 0,
+      "incomplete": 1,
+      "overflow": false
+    },
+    {
+      "url": "/builder/",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "checkedAt": "2026-10-17T01:51:45.969Z",
+      "receipt": "a11y-mobile-light-core.json",
+      "violations": 0,
+      "incomplete": 2,
+      "overflow": false
+    },
+    {
+      "url": "/upgrade/",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "checkedAt": "2026-10-17T01:51:50.056Z",
+      "receipt": "a11y-mobile-light-core.json",
+      "violations": 0,
+      "incomplete": 2,
+      "overflow": false
+    },
+    {
+      "url": "/my-pc/",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "checkedAt": "2026-10-17T01:51:53.967Z",
+      "receipt": "a11y-mobile-light-core.json",
+      "violations": 0,
+      "incomplete": 1,
+      "overflow": false
+    },
+    {
+      "url": "/compare/",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "checkedAt": "2026-10-17T01:52:41.911Z",
+      "receipt": "a11y-mobile-light-families.json",
+      "violations": 0,
+      "incomplete": 3,
+      "overflow": false
+    },
+    {
+      "url": "/hardware/graphics-cards/",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "checkedAt": "2026-10-17T01:52:02.142Z",
+      "receipt": "a11y-mobile-light-core.json",
+      "violations": 0,
+      "incomplete": 2,
+      "overflow": false
+    },
+    {
+      "url": "/phones/size-compare/",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "checkedAt": "2026-10-17T01:52:46.485Z",
+      "receipt": "a11y-mobile-light-families.json",
+      "violations": 0,
+      "incomplete": 2,
+      "overflow": false
+    },
+    {
+      "url": "/prebuilts/",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "checkedAt": "2026-10-17T01:52:50.903Z",
+      "receipt": "a11y-mobile-light-families.json",
+      "violations": 0,
+      "incomplete": 2,
+      "overflow": false
+    },
+    {
+      "url": "/laptops/",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "checkedAt": "2026-10-17T01:52:55.633Z",
+      "receipt": "a11y-mobile-light-families.json",
+      "violations": 0,
+      "incomplete": 1,
+      "overflow": false
+    },
+    {
+      "url": "/performance/",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "checkedAt": "2026-10-17T01:53:00.417Z",
+      "receipt": "a11y-mobile-light-families.json",
+      "violations": 0,
+      "incomplete": 2,
+      "overflow": false
+    },
+    {
+      "url": "/blog/compact-quiet-pc-fit-cooling/",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "checkedAt": "2026-10-17T01:53:26.692Z",
+      "receipt": "a11y-mobile-light-families.json",
+      "violations": 0,
+      "incomplete": 1,
+      "overflow": false
+    },
+    {
+      "url": "/",
+      "width": 360,
+      "height": 800,
+      "theme": "dark",
+      "checkedAt": "2026-10-17T01:56:40.324Z",
+      "receipt": "a11y-mobile360-dark.json",
+      "violations": 0,
+      "incomplete": 1,
+      "overflow": false
+    },
+    {
+      "url": "/builder/",
+      "width": 360,
+      "height": 800,
+      "theme": "dark",
+      "checkedAt": "2026-10-17T01:56:44.506Z",
+      "receipt": "a11y-mobile360-dark.json",
+      "violations": 0,
+      "incomplete": 2,
+      "overflow": false
+    },
+    {
+      "url": "/my-pc/",
+      "width": 360,
+      "height": 800,
+      "theme": "dark",
+      "checkedAt": "2026-10-17T01:56:48.549Z",
+      "receipt": "a11y-mobile360-dark.json",
+      "violations": 0,
+      "incomplete": 1,
+      "overflow": false
+    },
+    {
+      "url": "/phones/size-compare/",
+      "width": 360,
+      "height": 800,
+      "theme": "dark",
+      "checkedAt": "2026-10-17T01:56:52.719Z",
+      "receipt": "a11y-mobile360-dark.json",
+      "violations": 0,
+      "incomplete": 2,
+      "overflow": false
+    },
+    {
+      "url": "/tools/",
+      "width": 360,
+      "height": 800,
+      "theme": "dark",
+      "checkedAt": "2026-10-17T02:11:59.874Z",
+      "receipt": "a11y-fixed-same-context.json",
+      "violations": 0,
+      "incomplete": 1,
+      "overflow": null
+    },
+    {
+      "url": "/build-school/",
+      "width": 360,
+      "height": 800,
+      "theme": "dark",
+      "checkedAt": "2026-10-17T01:57:02.431Z",
+      "receipt": "a11y-mobile360-dark.json",
+      "violations": 0,
+      "incomplete": 1,
+      "overflow": false
+    },
+    {
+      "url": "/my-pc/",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "checkedAt": "2026-10-17T02:05:48.905Z",
+      "receipt": "a11y-workspace-expanded-mobile.json",
+      "violations": 0,
+      "incomplete": 2,
+      "overflow": null
+    },
+    {
+      "url": "/tools/",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "checkedAt": "2026-10-17T02:05:58.084Z",
+      "receipt": "a11y-tools-fixed-mobile.json",
+      "violations": 0,
+      "incomplete": 1,
+      "overflow": null
+    },
+    {
+      "url": "/compatibility/",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "checkedAt": "2026-10-17T02:06:32.934Z",
+      "receipt": "a11y-mobile-dark-remaining.json",
+      "violations": 0,
+      "incomplete": 1,
+      "overflow": false
+    },
+    {
+      "url": "/troubleshooting/",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "checkedAt": "2026-10-17T02:06:37.196Z",
+      "receipt": "a11y-mobile-dark-remaining.json",
+      "violations": 0,
+      "incomplete": 1,
+      "overflow": false
+    },
+    {
+      "url": "/search/",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "checkedAt": "2026-10-17T02:06:41.054Z",
+      "receipt": "a11y-mobile-dark-remaining.json",
+      "violations": 0,
+      "incomplete": 1,
+      "overflow": false
+    },
+    {
+      "url": "/news/",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "checkedAt": "2026-10-17T02:06:44.926Z",
+      "receipt": "a11y-mobile-dark-remaining.json",
+      "violations": 0,
+      "incomplete": 1,
+      "overflow": false
+    },
+    {
+      "url": "/learn/retail-msi-meg-z590-ace-gold-edition.html",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "checkedAt": "2026-10-17T02:06:48.918Z",
+      "receipt": "a11y-mobile-dark-remaining.json",
+      "violations": 0,
+      "incomplete": 1,
+      "overflow": false
+    },
+    {
+      "url": "/builder/",
+      "width": 768,
+      "height": 1024,
+      "theme": "light",
+      "checkedAt": "2026-10-17T02:09:56.035Z",
+      "receipt": "a11y-tablet-light.json",
+      "violations": 0,
+      "incomplete": 2,
+      "overflow": false
+    },
+    {
+      "url": "/compare/",
+      "width": 768,
+      "height": 1024,
+      "theme": "light",
+      "checkedAt": "2026-10-17T02:10:00.353Z",
+      "receipt": "a11y-tablet-light.json",
+      "violations": 0,
+      "incomplete": 3,
+      "overflow": false
+    },
+    {
+      "url": "/phones/size-compare/",
+      "width": 768,
+      "height": 1024,
+      "theme": "light",
+      "checkedAt": "2026-10-17T02:10:04.495Z",
+      "receipt": "a11y-tablet-light.json",
+      "violations": 0,
+      "incomplete": 2,
+      "overflow": false
+    },
+    {
+      "url": "/",
+      "width": 1440,
+      "height": 900,
+      "theme": "light",
+      "checkedAt": "2026-10-17T02:10:16.002Z",
+      "receipt": "a11y-desktop-light.json",
+      "violations": 0,
+      "incomplete": 1,
+      "overflow": false
+    },
+    {
+      "url": "/builder/",
+      "width": 1440,
+      "height": 900,
+      "theme": "light",
+      "checkedAt": "2026-10-17T02:10:20.219Z",
+      "receipt": "a11y-desktop-light.json",
+      "violations": 0,
+      "incomplete": 2,
+      "overflow": false
+    },
+    {
+      "url": "/hardware/graphics-cards/",
+      "width": 1440,
+      "height": 900,
+      "theme": "light",
+      "checkedAt": "2026-10-17T02:10:24.322Z",
+      "receipt": "a11y-desktop-light.json",
+      "violations": 0,
+      "incomplete": 2,
+      "overflow": false
+    },
+    {
+      "url": "/my-pc/",
+      "width": 1440,
+      "height": 900,
+      "theme": "light",
+      "checkedAt": "2026-10-17T02:10:28.166Z",
+      "receipt": "a11y-desktop-light.json",
+      "violations": 0,
+      "incomplete": 2,
+      "overflow": false
+    },
+    {
+      "url": "/blog/compact-quiet-pc-fit-cooling/",
+      "width": 1440,
+      "height": 900,
+      "theme": "light",
+      "checkedAt": "2026-10-17T02:10:32.078Z",
+      "receipt": "a11y-desktop-light.json",
+      "violations": 0,
+      "incomplete": 1,
+      "overflow": false
+    }
+  ],
+  "manualJourneys": [
+    {
+      "name": "Mobile builder selection and save",
+      "result": "Explicit picker choice, starter load, named 11-component revision saved and visible in My PC."
+    },
+    {
+      "name": "Acquisition continuity",
+      "result": "Manual unit quote and warranty dates persisted after reload; original planned build unchanged. QA values are test examples."
+    },
+    {
+      "name": "Reviewed pasted inventory",
+      "result": "Two exact CPU/GPU choices and an excluded URL line preceded replacement confirmation and a generated reuse report. No pasted URL was fetched."
+    },
+    {
+      "name": "Keyboard picker",
+      "result": "My PC selection accepted ArrowDown/Enter and restored focus to the trigger. Initial focus was listbox rather than search input."
+    },
+    {
+      "name": "Phone 3D at 360px",
+      "result": "Pixel 9 loaded within its card; Back changed pressed state. No CSP violation was captured."
+    },
+    {
+      "name": "New builder model",
+      "result": "MSI GTX 1660 source scan loaded with two textures, and standalone view returned to assembly layout without changing selection. Its source includes a scanning mat; it is not an installed-fit asset."
+    },
+    {
+      "name": "Model framing",
+      "result": "i5-661 and ASUS Z170-P Reset captures retained all corners. Actual canvas bounds, screenshots and source models are retained."
+    },
+    {
+      "name": "Regional prices/history",
+      "result": "CAD DDR4 showed two actual merchants; US showed a separate USD CORSAIR offer and historical observation. Unsupported US 9800X3D history showed no observations."
+    }
+  ]
+}

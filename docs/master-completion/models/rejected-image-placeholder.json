@@ -1,0 +1,25 @@
+{
+  "checkedAt": "2026-10-17T01:38:39.509Z",
+  "id": "retail-asus-z170-p",
+  "image": {
+    "src": "/assets/hardware/completion/retail-asus-z170-p.webp",
+    "picturedModel": "ASUS Z170-P",
+    "catalogName": "Z170-P",
+    "sourceUrl": "https://www.asus.com/us/supportonly/Z170-P/HelpDesk_Download/",
+    "imageUrl": "https://dlcdnwebimgs.asus.com/gain/a8474d45-4dd5-41af-a6bc-b7ea6e155cbb/h1000/w1000",
+    "attribution": "ASUS",
+    "license": "Manufacturer product media; not an open license",
+    "licenseUrl": "https://www.asus.com/us/supportonly/Z170-P/HelpDesk_Download/",
+    "official": true,
+    "kind": "exact",
+    "width": 1000,
+    "height": 1000,
+    "bytes": 21564,
+    "checked": "2026-10-16",
+    "sourceSha256": "e0824ace52e510b1d1ff9c48587c66e3502616e574e355784fe09974f21cfaec",
+    "sha256": "c2925cdc21af065dba2b340e9f3e6031414a0183840665a41e5389f1f73a5635",
+    "identityEvidence": "Official support page NUXT data record pairs PDMarketName Z170-P with PDImgUrl gain/a8474d45-4dd5-41af-a6bc-b7ea6e155cbb/h300/w300. Same official image UUID requested at 1000px; not Z170-P D3.",
+    "modifications": "Proportions preserved; resized within 1200px and encoded WebP. No background replacement, recoloring, crop or generated hardware."
+  },
+  "reason": "Actual pixels are a gray image-placeholder glyph, not a motherboard. Manufacturer product-data pairing alone was insufficient. Rejected after visual inspection; do not publish."
+}

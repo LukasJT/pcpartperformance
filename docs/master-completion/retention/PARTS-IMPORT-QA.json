@@ -1,0 +1,64 @@
+{
+  "checkedAt": "2026-10-17T01:15:45.416Z",
+  "scope": "Synthetic fixtures, actual upgrade controller and temporary generator fixtures. No global build, browser or deployment.",
+  "tests": [
+    {
+      "command": "node scripts/completion-parts-import.test.cjs",
+      "passed": 28
+    },
+    {
+      "command": "node scripts/check-upgrade-program.cjs",
+      "passed": 16
+    },
+    {
+      "command": "node scripts/oct16-upgrade.test.cjs",
+      "passed": 8
+    },
+    {
+      "command": "node scripts/check-master-decisions.cjs",
+      "passed": 16
+    }
+  ],
+  "syntax": [
+    {
+      "file": "scripts/completion-parts-import.js",
+      "status": "passed"
+    },
+    {
+      "file": "scripts/completion-parts-import.cjs",
+      "status": "passed"
+    },
+    {
+      "file": "scripts/completion-parts-import.test.cjs",
+      "status": "passed"
+    },
+    {
+      "file": "dist/upgrade-program.js",
+      "status": "passed"
+    },
+    {
+      "file": "scripts/check-upgrade-program.cjs",
+      "status": "passed"
+    }
+  ],
+  "lint": {
+    "files": 5,
+    "errors": 0,
+    "warnings": 0,
+    "configuration": "Existing project rules; controller/legacy-test globs added in memory only."
+  },
+  "assets": [
+    {
+      "file": "scripts/completion-parts-import.js",
+      "sourceBytes": 24104,
+      "gzipBytes": 7512,
+      "basis": "Source asset size only, not a page or field performance result."
+    },
+    {
+      "file": "scripts/completion-parts-import.css",
+      "sourceBytes": 1619,
+      "gzipBytes": 569,
+      "basis": "Source asset size only, not a page or field performance result."
+    }
+  ]
+}

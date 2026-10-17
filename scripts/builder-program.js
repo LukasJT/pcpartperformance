@@ -65,6 +65,7 @@
     let state = localRestore ? rules.normalizeRevision({...localRestore,...bridge.snapshot(),owned:params.has('owned')?loaded.revision.owned:localRestore.owned,locked:params.has('locked')?loaded.revision.locked:localRestore.locked,region:params.get('region')||localRestore.region},catalog,aliases).revision : loaded.revision;
     bridge.setLocks(state.locked);
     const status = message => { $('#program-status').textContent = message; };
+    const measure = (name, params) => { try { window.PCP_MEASUREMENT?.event(name, params); } catch {} };
     function current(name = $('#program-save-form input').value || state.name) {
       return rules.normalizeRevision({ ...state, ...bridge.snapshot(), name, savedAt: new Date().toISOString() }, catalog, aliases).revision;
     }
@@ -158,7 +159,7 @@
       if (button.hasAttribute('data-program-export')) download('pcpartperformance-build-revisions.json', JSON.stringify({ schema: 1, revisions: revisions.length ? revisions : [{ ...current(), id: 'export-current' }] }, null, 2));
       const revision = revisions.find(row => row.id === (button.dataset.revisionLoad || button.dataset.revisionCompare || button.dataset.revisionDelete));
       if (!revision) return;
-      if (button.dataset.revisionLoad) { state = { ...revision, owned: [...revision.owned], locked: [...revision.locked], acknowledged: [...revision.acknowledged], requirements: { ...revision.requirements } }; bridge.setLocks(state.locked); previousBuildKey = ''; bridge.load(revision); syncForm(); $('#program-save-form input').value=state.name; render(); document.dispatchEvent(new CustomEvent('pcp:purchase-plan')); status('Saved revision loaded. Prices are rechecked independently; unresolved checks remain unresolved.'); }
+      if (button.dataset.revisionLoad) { state = { ...revision, owned: [...revision.owned], locked: [...revision.locked], acknowledged: [...revision.acknowledged], requirements: { ...revision.requirements } }; bridge.setLocks(state.locked); previousBuildKey = ''; bridge.load(revision); syncForm(); $('#program-save-form input').value=state.name; render(); document.dispatchEvent(new CustomEvent('pcp:purchase-plan')); status('Saved revision loaded. Prices are rechecked independently; unresolved checks remain unresolved.'); measure('build_revision_restored',{action:'load_revision',region:state.region}); }
       if (button.dataset.revisionDelete) if (store(revisions.filter(row => row.id !== revision.id))) status('Revision deleted from this device.');
       if (button.dataset.revisionCompare) {
         const difference = revisionDifference(revision, current());
@@ -195,6 +196,7 @@
     });
     if(localRestore)$('#program-save-form input').value=state.name;
     syncForm(); render();
+    if(localRestore)measure('build_revision_restored',{action:'local_link',region:state.region});
     if(restoreId&&!localRestore)status('This saved revision is not available in this browser. The public part selections are still open; private quotes and notes were not transferred.');
     if (!collection.available) status('Saved revisions could not be read. Current planning and exports still work; existing local data was not overwritten.');
     else if (collection.issues.length) status('Some saved component IDs no longer match the catalog. Review affected revisions before use.');

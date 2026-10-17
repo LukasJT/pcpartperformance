@@ -1,0 +1,63 @@
+{
+  "checkedAt": "2026-10-17T02:01:58.230Z",
+  "scope": "Existing consent gate and actual controllers in synthetic DOM/storage/export fixtures; no full build, browser or active analytics.",
+  "tests": [
+    {
+      "command": "node scripts/completion-measurement.test.cjs",
+      "passed": 20
+    },
+    {
+      "command": "node scripts/oct16-workspace.test.cjs",
+      "passed": 32
+    },
+    {
+      "command": "node scripts/test-growth-search-client.cjs",
+      "passed": 7
+    },
+    {
+      "command": "node scripts/check-builder-program.cjs",
+      "passed": 18
+    },
+    {
+      "command": "node scripts/check-program.cjs",
+      "passed": 13
+    }
+  ],
+  "syntax": [
+    {
+      "file": "scripts/completion-measurement.js",
+      "status": "passed"
+    },
+    {
+      "file": "scripts/completion-measurement.cjs",
+      "status": "passed"
+    },
+    {
+      "file": "scripts/completion-measurement.test.cjs",
+      "status": "passed"
+    },
+    {
+      "file": "scripts/builder-program.js",
+      "status": "passed"
+    },
+    {
+      "file": "scripts/oct16-workspace.js",
+      "status": "passed"
+    },
+    {
+      "file": "scripts/growth-search.js",
+      "status": "passed"
+    }
+  ],
+  "lint": {
+    "files": 6,
+    "errors": 0,
+    "warnings": 0
+  },
+  "defaultGeneratedScriptRequests": 0,
+  "optionalAsset": {
+    "sourceBytes": 8735,
+    "gzipBytes": 2894
+  },
+  "deployment": "Not performed by this task"
+}

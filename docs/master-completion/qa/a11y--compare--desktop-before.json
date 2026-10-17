@@ -1,0 +1,204 @@
+{
+  "overflow": false,
+  "report": {
+    "axeVersion": "4.14.0",
+    "checkedAt": "2026-10-17T01:22:38.617Z",
+    "height": 900,
+    "incomplete": [
+      {
+        "help": "Elements must only use permitted ARIA attributes",
+        "id": "aria-prohibited-attr",
+        "impact": "serious",
+        "nodes": [
+          {
+            "html": "<div class=\"segmented\" id=\"compare-categories\" aria-label=\"Popular hardware categories\">",
+            "target": [
+              "#compare-categories"
+            ]
+          }
+        ]
+      },
+      {
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": [
+          {
+            "html": "<button class=\"button secondary\" id=\"export-csv\">Export CSV <span aria-hidden=\"true\">↓</span></button>",
+            "target": [
+              "#export-csv"
+            ]
+          },
+          {
+            "html": "<span aria-hidden=\"true\">↓</span>",
+            "target": [
+              "#export-csv > span[aria-hidden=\"true\"]"
+            ]
+          },
+          {
+            "html": "<button type=\"button\" class=\"button secondary\" id=\"copy-comparison\">Copy comparison link</button>",
+            "target": [
+              "#copy-comparison"
+            ]
+          },
+          {
+            "html": "<button type=\"button\" class=\"button secondary\" id=\"print-comparison\">Print comparison</button>",
+            "target": [
+              "#print-comparison"
+            ]
+          },
+          {
+            "html": "<span class=\"category-menu-chevron\" aria-hidden=\"true\">⌄</span>",
+            "target": [
+              ".category-menu-chevron"
+            ]
+          },
+          {
+            "html": "<span aria-hidden=\"true\">⌄</span>",
+            "target": [
+              "button[data-replace=\"0\"] > span[aria-hidden=\"true\"]"
+            ]
+          },
+          {
+            "html": "<a class=\"button secondary\" href=\"/builder/?build=%2C%2Crtx5070%2C%2C%2C%2C%2C%2C%2C\" aria-label=\"Use GeForce RTX 5070 in a build\">Use in a build</a>",
+            "target": [
+              ".product-card:nth-child(1) > .product-heading > .program-actions > .button.secondary:nth-child(1)"
+            ]
+          },
+          {
+            "html": "<a class=\"button secondary\" href=\"/upgrade/?owned=rtx5070\" aria-label=\"Plan an upgrade from GeForce RTX 5070\">I own this part</a>",
+            "target": [
+              "a[href=\"/upgrade/?owned=rtx5070\"]"
+            ]
+          },
+          {
+            "html": "<span aria-hidden=\"true\">⌄</span>",
+            "target": [
+              "button[data-replace=\"1\"] > span[aria-hidden=\"true\"]"
+            ]
+          },
+          {
+            "html": "<a class=\"button secondary\" href=\"/builder/?build=%2C%2Crtx5060ti16%2C%2C%2C%2C%2C%2C%2C\" aria-label=\"Use GeForce RTX 5060 Ti 16 GB in a build\">Use in a build</a>",
+            "target": [
+              ".product-card:nth-child(2) > .product-heading > .program-actions > .button.secondary:nth-child(1)"
+            ]
+          },
+          {
+            "html": "<a class=\"button secondary\" href=\"/upgrade/?owned=rtx5060ti16\" aria-label=\"Plan an upgrade from GeForce RTX 5060 Ti 16 GB\">I own this part</a>",
+            "target": [
+              "a[href=\"/upgrade/?owned=rtx5060ti16\"]"
+            ]
+          },
+          {
+            "html": "<button type=\"button\" class=\"button secondary\" data-save-current-comparison=\"\">Save comparison</button>",
+            "target": [
+              "button[data-save-current-comparison=\"\"]"
+            ]
+          },
+          {
+            "html": "<a class=\"button secondary\" href=\"/compare/rx-9070-vs-rx-9070-xt/\">Read the RX 9070 comparison</a>",
+            "target": [
+              ".master-library > .button.secondary"
+            ]
+          }
+        ]
+      },
+      {
+        "help": "Elements must have their visible text as part of their accessible name",
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": [
+          {
+            "html": "<button class=\"icon-button remove-product\" data-remove=\"rtx5070\" aria-label=\"Remove GeForce RTX 5070\">×</button>",
+            "target": [
+              "button[data-remove=\"rtx5070\"]"
+            ]
+          },
+          {
+            "html": "<button class=\"icon-button remove-product\" data-remove=\"rtx5060ti16\" aria-label=\"Remove GeForce RTX 5060 Ti 16 GB\">×</button>",
+            "target": [
+              "button[data-remove=\"rtx5060ti16\"]"
+            ]
+          }
+        ]
+      }
+    ],
+    "scope": "Real browser DOM, WCAG A/AA and best-practice rules; automated findings do not certify full conformance.",
+    "theme": "dark",
+    "url": "/compare/",
+    "violations": [
+      {
+        "help": "Elements must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axeAPI",
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": [
+          {
+            "html": "<a class=\"brand\" href=\"/\" aria-label=\"PC Part Performance home\">",
+            "target": [
+              ".brand"
+            ]
+          },
+          {
+            "html": "<button type=\"button\" data-region=\"CA\" aria-pressed=\"true\" aria-label=\"Shop in Canada, Canadian dollars\"><img src=\"/assets/flag-ca.svg\" alt=\"\" width=\"21\" height=\"14\"><span>CA</span></button>",
+            "target": [
+              "button[data-region=\"CA\"][type=\"button\"]"
+            ]
+          },
+          {
+            "html": "<summary aria-label=\"Choose another hardware category\">",
+            "target": [
+              "#more-category-menu > summary"
+            ]
+          },
+          {
+            "html": "<button class=\"change-product\" data-replace=\"0\" aria-label=\"Change GeForce RTX 5070\">Change part <span aria-hidden=\"true\">⌄</span></button>",
+            "target": [
+              "button[data-replace=\"0\"]"
+            ]
+          },
+          {
+            "html": "<a class=\"button secondary\" href=\"/builder/?build=%2C%2Crtx5070%2C%2C%2C%2C%2C%2C%2C\" aria-label=\"Use GeForce RTX 5070 in a build\">Use in a build</a>",
+            "target": [
+              ".product-card:nth-child(1) > .product-heading > .program-actions > .button.secondary:nth-child(1)"
+            ]
+          },
+          {
+            "html": "<a class=\"button secondary\" href=\"/upgrade/?owned=rtx5070\" aria-label=\"Plan an upgrade from GeForce RTX 5070\">I own this part</a>",
+            "target": [
+              "a[href=\"/upgrade/?owned=rtx5070\"]"
+            ]
+          },
+          {
+            "html": "<button class=\"change-product\" data-replace=\"1\" aria-label=\"Change GeForce RTX 5060 Ti 16 GB\">Change part <span aria-hidden=\"true\">⌄</span></button>",
+            "target": [
+              "button[data-replace=\"1\"]"
+            ]
+          },
+          {
+            "html": "<a class=\"button secondary\" href=\"/builder/?build=%2C%2Crtx5060ti16%2C%2C%2C%2C%2C%2C%2C\" aria-label=\"Use GeForce RTX 5060 Ti 16 GB in a build\">Use in a build</a>",
+            "target": [
+              ".product-card:nth-child(2) > .product-heading > .program-actions > .button.secondary:nth-child(1)"
+            ]
+          },
+          {
+            "html": "<a class=\"button secondary\" href=\"/upgrade/?owned=rtx5060ti16\" aria-label=\"Plan an upgrade from GeForce RTX 5060 Ti 16 GB\">I own this part</a>",
+            "target": [
+              "a[href=\"/upgrade/?owned=rtx5060ti16\"]"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.semantics",
+          "wcag21a",
+          "wcag253",
+          "EN-301-549",
+          "EN-9.2.5.3",
+          "RGAAv4",
+          "RGAA-6.1.5"
+        ]
+      }
+    ],
+    "width": 1440
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "checkedAt": "2026-10-17T01:03:51.852Z",
+  "scope": "Source behavior and minimal DOM/storage fixtures. No global build, browser inspection or deployment.",
+  "tests": [
+    {
+      "command": "node scripts/completion-retention.test.cjs",
+      "status": "passed",
+      "summary": "27 completion-retention behavior tests passed. Local synthetic fixtures only."
+    },
+    {
+      "command": "node scripts/oct16-workspace.test.cjs",
+      "status": "passed",
+      "summary": "32 My PC workspace behavior tests passed. Local synthetic fixtures; no manufacturer testing or price-feed coverage is implied."
+    }
+  ],
+  "syntax": [
+    {
+      "file": "scripts/completion-retention.js",
+      "status": "passed"
+    },
+    {
+      "file": "scripts/completion-retention-compare.js",
+      "status": "passed"
+    },
+    {
+      "file": "scripts/completion-retention.cjs",
+      "status": "passed"
+    },
+    {
+      "file": "scripts/completion-retention.test.cjs",
+      "status": "passed"
+    },
+    {
+      "file": "scripts/oct16-workspace.js",
+      "status": "passed"
+    },
+    {
+      "file": "scripts/oct16-workspace.cjs",
+      "status": "passed"
+    },
+    {
+      "file": "scripts/oct16-workspace.test.cjs",
+      "status": "passed"
+    }
+  ],
+  "lint": {
+    "files": 7,
+    "errors": 0,
+    "warnings": 0,
+    "configuration": "Existing project rules with completion-retention globs added in memory; no shared config edit."
+  },
+  "assets": [
+    {
+      "file": "scripts/completion-retention.js",
+      "sourceBytes": 14231,
+      "gzipBytes": 4529,
+      "basis": "Source asset size; not page payload or field Core Web Vitals."
+    },
+    {
+      "file": "scripts/completion-retention-compare.js",
+      "sourceBytes": 3095,
+      "gzipBytes": 1287,
+      "basis": "Source asset size; not page payload or field Core Web Vitals."
+    },
+    {
+      "file": "scripts/oct16-workspace.js",
+      "sourceBytes": 58291,
+      "gzipBytes": 15672,
+      "basis": "Source asset size; not page payload or field Core Web Vitals."
+    },
+    {
+      "file": "scripts/oct16-workspace.css",
+      "sourceBytes": 15631,
+      "gzipBytes": 3381,
+      "basis": "Source asset size; not page payload or field Core Web Vitals."
+    }
+  ]
+}

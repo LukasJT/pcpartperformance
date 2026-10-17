@@ -1,0 +1,372 @@
+{
+  "checkedAt": "2026-10-17T02:04:03.966Z",
+  "commands": 73,
+  "passed": 73,
+  "results": [
+    {
+      "command": "node scripts/check-program.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/check-builder-program.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/check-product-program.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/check-program-offers.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/check-upgrade-program.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/check-program-worker.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/check-program-release.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/check-program-refresh.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/check-program-offer-sources.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/program-editorial-review.cjs self-test",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/check-program-retention.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/check-console-evidence.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/check-shopping-program.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/check-continuation.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/check-continuation-client.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/check-builder-workspace.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/check-morning-prices.mjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/test-continuation-editorial.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/test-continuation-publication.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/test-continuation-news-intake.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/test-growth-tools.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/test-growth-evidence.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/test-growth-editorial.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/test-growth-search.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/test-css-compact.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/test-news-sitemap-response.mjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/check-growth-worker.mjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/check-growth-release.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/test-master-publication.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/test-master-evidence.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/test-master-model-assets.mjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/check-master-decisions.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/check-master-generated.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/check-seo.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/check-stage2.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/check-program-performance.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/release-preflight.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/test-clarity-site.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/test-phone-clarity.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/oct14-catalog.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/oct14-editorial-content.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/oct14-price-sources.test.mjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/oct14-price-sources-newegg.test.mjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/public-price-service.test.mjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/test-shopping-price-ui.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/public-price-client.test.mjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/test-guide-directory.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/public-price-snapshot.test.mjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/public-price-assets.test.mjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/oct16-cooling-data.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/oct16-engine.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/oct16-workspace.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/oct16-editorial.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/oct16-upgrade.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/oct16-scene.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/test-growth-search-client.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/oct16-delivery.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/completion-editorial.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/completion-models.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/completion-retention.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/completion-parts-import.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/completion-price-history.test.mjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/completion-price-client.test.mjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/completion-security.test.mjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/completion-seo.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/completion-integration.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/completion-models-viewer.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/completion-catalog-delivery.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/completion-editorial-extra.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/completion-model-images.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/completion-price-expansion.test.mjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/public-price-expansion-integration.test.mjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/completion-measurement.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    }
+  ]
+}

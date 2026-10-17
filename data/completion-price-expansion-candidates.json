@@ -1,0 +1,176 @@
+{
+  "schema": 1,
+  "researchOnly": true,
+  "sourceCohortDate": "2026-10-17",
+  "scope": "Additional exact public listing candidates only. No catalog or live price registry changes.",
+  "candidates": [
+    {
+      "proposedProductId": "retail-msi-b550m-pro-vdh-wifi",
+      "category": "board",
+      "relatedExistingFamilyId": null,
+      "identityStatus": "requires-reviewed-exact-catalog-binding",
+      "manufacturerSource": "https://www.msi.com/Motherboard/B550M-PRO-VDH-WIFI/Specification",
+      "sourceObservation": {
+        "checkedAt": "2026-10-17T01:39:50.484Z",
+        "url": "https://www.canadacomputers.com/en/amd-motherboards/169637/msi-b550m-pro-vdh-wifi-amd-am4-b550-ddr4-b550m-pro-vdh-wifi.html",
+        "httpStatus": 200,
+        "name": "MSI B550M PRO-VDH WIFI AMD AM4 B550 DDR4",
+        "mpn": "B550M PRO-VDH WIFI",
+        "retailerSku": "MBMSI00204",
+        "merchant": "Canada Computers",
+        "seller": "Canada Computers & Electronics",
+        "region": "CA",
+        "currency": "CAD",
+        "price": 124.99,
+        "condition": "https://schema.org/NewCondition",
+        "inStock": true
+      },
+      "liveTarget": false,
+      "requires": [
+        "Verify exact catalog identity before integration",
+        "Do not substitute for the related generic family or different capacity/revision",
+        "Verify model-specific compatibility before recommending a complete build"
+      ]
+    },
+    {
+      "proposedProductId": "retail-asus-dual-geforce-rtx-5060-8g-oc",
+      "category": "gpu",
+      "relatedExistingFamilyId": "rtx5060",
+      "identityStatus": "requires-reviewed-exact-catalog-binding",
+      "manufacturerSource": "https://www.asus.com/motherboards-components/graphics-cards/dual/dual-rtx5060-o8g/techspec/",
+      "sourceObservation": {
+        "checkedAt": "2026-10-17T01:39:52.964Z",
+        "url": "https://www.canadacomputers.com/en/powered-by-nvidia/273692/asus-dual-geforce-rtx-5060-8gb-gddr7-oc-edition-dual-rtx5060-o8g.html",
+        "httpStatus": 200,
+        "name": "ASUS Dual GeForce RTX 5060 8GB GDDR7 OC Edition",
+        "mpn": "DUAL-RTX5060-O8G",
+        "retailerSku": "VCASU00637",
+        "merchant": "Canada Computers",
+        "seller": "Canada Computers & Electronics",
+        "region": "CA",
+        "currency": "CAD",
+        "price": 669.99,
+        "condition": "https://schema.org/NewCondition",
+        "inStock": true
+      },
+      "liveTarget": false,
+      "requires": [
+        "Verify exact catalog identity before integration",
+        "Do not substitute for the related generic family or different capacity/revision",
+        "Verify model-specific compatibility before recommending a complete build"
+      ]
+    },
+    {
+      "proposedProductId": "retail-kingston-nv3-1tb-snv3s-1000g",
+      "category": "ssd",
+      "relatedExistingFamilyId": "kingstonnv3",
+      "identityStatus": "requires-reviewed-exact-catalog-binding",
+      "manufacturerSource": "https://www.kingston.com/en/ssd/nv3-nvme-pcie-ssd",
+      "sourceObservation": {
+        "checkedAt": "2026-10-17T01:42:15.350Z",
+        "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/261114/kingston-nv3-1tb-nvme-pcie-4x4-ssd-snv3s-1000g.html",
+        "httpStatus": 200,
+        "name": "Kingston NV3 1TB NVMe PCIe 4x4 SSD",
+        "mpn": "SNV3S/1000G",
+        "retailerSku": "SSKIT00155",
+        "merchant": "Canada Computers",
+        "seller": "Canada Computers & Electronics",
+        "region": "CA",
+        "currency": "CAD",
+        "price": 229.99,
+        "condition": "https://schema.org/NewCondition",
+        "inStock": true
+      },
+      "liveTarget": false,
+      "requires": [
+        "Verify exact catalog identity before integration",
+        "Do not substitute for the related generic family or different capacity/revision",
+        "Verify model-specific compatibility before recommending a complete build"
+      ]
+    },
+    {
+      "proposedProductId": "retail-corsair-vengeance-lpx-16gb-cmk16gx4m2b3200c16",
+      "category": "ram",
+      "relatedExistingFamilyId": "c-ram-corsair-vengeance-lpx-16gb-ddr4-3200-cl16",
+      "identityStatus": "requires-reviewed-exact-catalog-binding",
+      "manufacturerSource": null,
+      "sourceObservation": {
+        "checkedAt": "2026-10-17T01:39:48.535Z",
+        "url": "https://www.canadacomputers.com/en/desktop-memory/96846/corsair-vengeance-lpx-16gb-2x8gb-ddr4-3200mhz-cl16-udimm-cmk16gx4m2b3200c16.html",
+        "httpStatus": 200,
+        "name": "CORSAIR VENGEANCE LPX 16GB (2x8GB) DDR4 3200MHz CL16 UDIMM",
+        "mpn": "CMK16GX4M2B3200C16",
+        "retailerSku": "RAMC004195",
+        "merchant": "Canada Computers",
+        "seller": "Canada Computers & Electronics",
+        "region": "CA",
+        "currency": "CAD",
+        "price": 219.99,
+        "condition": "https://schema.org/NewCondition",
+        "inStock": false
+      },
+      "liveTarget": false,
+      "requires": [
+        "Verify exact catalog identity before integration",
+        "Do not substitute for the related generic family or different capacity/revision",
+        "Verify model-specific compatibility before recommending a complete build"
+      ]
+    },
+    {
+      "proposedProductId": "retail-cooler-master-q300l-mcb-q300l-kann-s00",
+      "category": "case",
+      "relatedExistingFamilyId": "c-case-cooler-master-masterbox-q300l",
+      "identityStatus": "requires-reviewed-exact-catalog-binding",
+      "manufacturerSource": null,
+      "sourceObservation": {
+        "checkedAt": "2026-10-17T01:39:50.484Z",
+        "url": "https://www.canadacomputers.com/en/small-form-factor-mini-itx-cases/137092/cooler-master-masterbox-q300l-matx-case-w-magnetic-design-dust-filter-mcb-q300l-kann-s00.html",
+        "httpStatus": 200,
+        "name": "COOLER MASTER MasterBox Q300L mATX Case w/ Magnetic Design Dust Filter",
+        "mpn": "MCB-Q300L-KANN-S00",
+        "retailerSku": "CSCLR00035",
+        "merchant": "Canada Computers",
+        "seller": "Canada Computers & Electronics",
+        "region": "CA",
+        "currency": "CAD",
+        "price": 89.99,
+        "condition": "https://schema.org/NewCondition",
+        "inStock": false
+      },
+      "liveTarget": false,
+      "requires": [
+        "Verify exact catalog identity before integration",
+        "Do not substitute for the related generic family or different capacity/revision",
+        "Verify model-specific compatibility before recommending a complete build"
+      ]
+    },
+    {
+      "proposedProductId": "retail-bequiet-pure-power-12-m-850w-bn505",
+      "category": "psu",
+      "relatedExistingFamilyId": "purepower850",
+      "identityStatus": "requires-reviewed-exact-catalog-binding",
+      "manufacturerSource": "https://bequiet.com/en/powersupply/4072",
+      "sourceObservation": {
+        "checkedAt": "2026-10-17T01:42:12.022Z",
+        "url": "https://www.canadacomputers.com/en/power-supplies/242335/be-quiet-pure-power-12-m-850w-gold-atx-power-supply-black-bn505.html",
+        "httpStatus": 200,
+        "name": "be quiet! Pure Power 12 M 850W Gold ATX Power Supply, Black",
+        "mpn": "BN505",
+        "retailerSku": "PSBEQ00046",
+        "merchant": "Canada Computers",
+        "seller": "Canada Computers & Electronics",
+        "region": "CA",
+        "currency": "CAD",
+        "price": 159.99,
+        "condition": "https://schema.org/NewCondition",
+        "inStock": false
+      },
+      "liveTarget": false,
+      "requires": [
+        "Verify exact catalog identity before integration",
+        "Do not substitute for the related generic family or different capacity/revision",
+        "Verify model-specific compatibility before recommending a complete build"
+      ]
+    }
+  ]
+}

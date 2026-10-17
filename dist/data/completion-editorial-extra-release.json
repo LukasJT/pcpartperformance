@@ -1,0 +1,111 @@
+{
+  "schema": 1,
+  "state": "owner_authorized_release_prepared",
+  "author": "PC Part Performance",
+  "humanReviewClaimed": false,
+  "confirmedDeployment": false,
+  "ownerInstructionRecordedAt": "2026-10-17T01:25:57.643Z",
+  "releaseDate": "2026-10-16",
+  "attribution": "Original research-based writing prepared with AI assistance for PC Part Performance; no first-hand hardware tests or personal human review are claimed.",
+  "articles": [
+    {
+      "id": "MX01",
+      "route": "/blog/compact-quiet-pc-fit-cooling/",
+      "title": "Plan a compact PC with a realistic noise goal",
+      "words": 926,
+      "contentHash": "310b361da29585aabc551c6251e04b45ad8f9a74b02afae05cfb024f2882e127",
+      "sourceIds": [
+        "terraSpine",
+        "terra",
+        "terraSupport",
+        "fanSettings"
+      ],
+      "datePublished": "2026-10-16",
+      "dateModified": null,
+      "lifecycle": {
+        "state": "owner_authorized_release_prepared",
+        "evidenceChecked": true,
+        "humanEditorialReview": null,
+        "humanReviewClaimed": false,
+        "publicationAuthorized": false
+      }
+    },
+    {
+      "id": "MX02",
+      "route": "/blog/buying-used-pc-parts-checklist/",
+      "title": "What to check before buying used PC parts",
+      "words": 970,
+      "contentHash": "462488b78414a53ed0663effcd589330a395cf32d0d935219179b1943c2e7397",
+      "sourceIds": [
+        "gpuIdentity",
+        "gpu3060",
+        "magician",
+        "warrantyNvidia",
+        "warrantyCorsair",
+        "warrantyMSI",
+        "psuCables"
+      ],
+      "datePublished": "2026-10-16",
+      "dateModified": null,
+      "lifecycle": {
+        "state": "owner_authorized_release_prepared",
+        "evidenceChecked": true,
+        "humanEditorialReview": null,
+        "humanReviewClaimed": false,
+        "publicationAuthorized": false
+      }
+    },
+    {
+      "id": "MX03",
+      "route": "/blog/ryzen-7800x3d-north-air-vs-aio/",
+      "title": "Air cooler or AIO for a Ryzen 7 7800X3D in the original North?",
+      "words": 923,
+      "contentHash": "115ecbe913468ceb15e5a232a0afb6276a4f8d14cf3bfc04b3c8cbfb1e999202",
+      "sourceIds": [
+        "cpu7800",
+        "u12aCPU",
+        "u12a",
+        "north",
+        "northRad",
+        "lf3",
+        "lf3Board",
+        "lf3Mount",
+        "fanSettings"
+      ],
+      "datePublished": "2026-10-16",
+      "dateModified": null,
+      "lifecycle": {
+        "state": "owner_authorized_release_prepared",
+        "evidenceChecked": true,
+        "humanEditorialReview": null,
+        "humanReviewClaimed": false,
+        "publicationAuthorized": false
+      }
+    },
+    {
+      "id": "MX04",
+      "route": "/blog/rtx-3060-upgrade-or-keep/",
+      "title": "RTX 3060 upgrade options: when to keep the card",
+      "words": 1007,
+      "contentHash": "ddcc93ed7ce29eb5c8c58652993993807c7dfa09d188391ab402a04562605d90",
+      "sourceIds": [
+        "gpu3060",
+        "gpuIdentity",
+        "gpu5060ti",
+        "gpu9060xt",
+        "review5060ti",
+        "reviewPCIe",
+        "psuCables"
+      ],
+      "datePublished": "2026-10-16",
+      "dateModified": null,
+      "lifecycle": {
+        "state": "owner_authorized_release_prepared",
+        "evidenceChecked": true,
+        "humanEditorialReview": null,
+        "humanReviewClaimed": false,
+        "publicationAuthorized": false
+      }
+    }
+  ]
+}
