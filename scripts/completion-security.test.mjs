@@ -17,7 +17,14 @@ await test('published templates satisfy the enforced script policy',()=>{
  const report=audit();assert(report.pages>1000);assert.equal(report.inlineExecutableCount,0);assert.deepEqual(report.handlerPages,[]);assert.deepEqual(report.externalScripts,[]);assert.deepEqual(report.frames,[]);
 });
 await test('local 3D WebAssembly, fonts and opt-in private YouTube player remain supported',()=>{
- for(const item of ["'wasm-unsafe-eval'","worker-src 'self' blob:",'https://fonts.googleapis.com','https://fonts.gstatic.com','frame-src https://www.youtube-nocookie.com'])assert(CONTENT_SECURITY_POLICY.includes(item));
+ for(const item of ["'wasm-unsafe-eval'","worker-src 'self' blob:",'https://fonts.googleapis.com','https://fonts.gstatic.com',"frame-src 'self' https://www.youtube-nocookie.com"])assert(CONTENT_SECURITY_POLICY.includes(item));
+});
+await test('ad documents are isolated from the parent page policy',async()=>{
+ const page=secureResponse(new Response('page'),request('/'));
+ const ad=secureResponse(new Response('ad'),request('/ads/728x90.html'));
+ assert.equal(page.headers.get('Content-Security-Policy'),CONTENT_SECURITY_POLICY);
+ assert.match(ad.headers.get('Content-Security-Policy'),/script-src 'unsafe-inline' https:/);
+ assert.equal(ad.headers.get('Referrer-Policy'),'no-referrer');
 });
 await test('responses retain cache, status, robots and content while adding headers',async()=>{
  const r=secureResponse(new Response('test',{status:404,headers:{'Cache-Control':'no-store','X-Robots-Tag':'noindex, follow'}}),request('/missing/'));
