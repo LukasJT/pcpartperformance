@@ -1,0 +1,9 @@
+{
+  "checkedAt": "2026-10-17T02:27:08.435Z",
+  "version": "4.151.1",
+  "passed": true,
+  "command": "Official Wrangler deploy --dry-run --outdir tmp/completion-worker-dry; telemetry disabled",
+  "upload": "505.83 KiB / gzip: 63.29 KiB",
+  "networkDeployment": false,
+  "scope": "Local Worker bundle and static-asset discovery; not a live deployment. No account credential read or security bypass."
+}

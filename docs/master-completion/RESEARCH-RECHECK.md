@@ -20,3 +20,7 @@ The full topic/source records remain in [the first content batch](content/SOURCE
 - [Image evidence](models/image-downloads.json) distinguishes five manufacturer product images from three renders of the actual licensed assets. A generic ASUS placeholder was rejected rather than published as a product photo.
 
 No paid integration, challenge bypass, external outreach, synthetic price history or new site-owned benchmark was used.
+
+## Deployment documentation
+
+Current official [GitHub workflow syntax](https://docs.github.com/en/actions/reference/workflows-and-actions/workflow-syntax#onschedule) confirms timezone-aware schedules and default-branch execution; [event documentation](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule) explains possible delays. The existing daily workflow was updated file-only on the default branch, then its real run succeeded. The current official [Cloudflare command reference](https://developers.cloudflare.com/workers/wrangler/commands/) guided an offline deployment dry-run; the source-fingerprint guard was retained rather than bypassed.

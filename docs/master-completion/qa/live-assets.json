@@ -1,0 +1,261 @@
+{
+  "checkedAt": "2026-10-17T02:34:20.299Z",
+  "commit": "33f252e9a9f5a04d8a5e073d0418d300ada123ed",
+  "passed": true,
+  "scriptStyleAssets": 38,
+  "actualModelAssets": 10,
+  "modelBytes": 8477164,
+  "checks": [
+    {
+      "route": "/theme.js",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "route": "/assets/css/site-612718117c50.css",
+      "status": 200,
+      "type": "text/css"
+    },
+    {
+      "route": "/program-events.js",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "route": "/indexing-policy.js",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "route": "/site-ui.js",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "route": "/continuation-ui.js",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "route": "/motion.js",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "route": "/assets/css/site-24d80d1b5331.css",
+      "status": 200,
+      "type": "text/css"
+    },
+    {
+      "route": "/core.js?v=20261004d",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "route": "/oct16-builder-images.js",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "route": "/interface.js?v=20261004d",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "route": "/builder-catalog.js",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "route": "/builder-v2.js?v=20260923c",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "route": "/compatibility-evidence.js",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "route": "/builder-organize.js",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "route": "/model-options.js?v=20261004d",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "route": "/builder-selectors.js",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "route": "/builder-cooling.js",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "route": "/shopping.js",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "route": "/assembly-3d.js?v=20261004d",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "route": "/assets/css/site-20dba48f6314.css",
+      "status": 200,
+      "type": "text/css"
+    },
+    {
+      "route": "/builder-workspace.js",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "route": "/builder-program.js",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "route": "/oct16-builder-journey.js",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "route": "/completion-price-history.js",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "route": "/publication-ui.js",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "route": "/program-retention.js",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "route": "/assets/css/site-6a44ff6903b1.css",
+      "status": 200,
+      "type": "text/css"
+    },
+    {
+      "route": "/select-ui.js?v=20261004f",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "route": "/research-tools.js",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "route": "/planning-math.js",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "route": "/assets/css/site-5be18952f5a7.css",
+      "status": 200,
+      "type": "text/css"
+    },
+    {
+      "route": "/phone-preview.js?v=20261014clarity",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "route": "/select-ui.js?v=20261016c",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "route": "/phone-comparison.js?v=20261014clarity",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "route": "/assets/css/site-5e5dcee6c89f.css",
+      "status": 200,
+      "type": "text/css"
+    },
+    {
+      "route": "/oct16-workspace.js",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "route": "/completion-retention.js",
+      "status": 200,
+      "type": "text/javascript"
+    },
+    {
+      "route": "/assets/models/completion/amd-wraith-stealth.glb",
+      "status": 200,
+      "sha256": "40717cca54c6d6017b90616b7a08d4afff0c9836040c4c6c7f22390cb43e6289",
+      "bytes": 1410404
+    },
+    {
+      "route": "/assets/models/completion/msi-gtx-1660-gaming-x-6g.glb",
+      "status": 200,
+      "sha256": "2b645829fbfac3a5fdd38ef8d59a46328a86fd20f6aa13c27088173e9d0ec045",
+      "bytes": 712008
+    },
+    {
+      "route": "/assets/models/completion/msi-meg-z590-ace-gold.glb",
+      "status": 200,
+      "sha256": "22f3e395a7246184102ef25d8cc5b97b97e04f906529fa459f4bd11ee0c7a612",
+      "bytes": 539404
+    },
+    {
+      "route": "/assets/models/completion/asus-z170-p-scan.glb",
+      "status": 200,
+      "sha256": "32d323e4878fc9f2f31ef7dbbc462ecdb355945674bb4e75a86c4fc5dd33c4f8",
+      "bytes": 2665424
+    },
+    {
+      "route": "/assets/models/completion/gigabyte-trx40-aorus-xtreme.glb",
+      "status": 200,
+      "sha256": "b407d4a62a8f80b39c1a7d1cae6a81d073ca6521647d8c1c69aeaee3b82b5f4e",
+      "bytes": 1570596
+    },
+    {
+      "route": "/assets/models/completion/corsair-200r.glb",
+      "status": 200,
+      "sha256": "c4f67e2554c5688a24606df71b658c87d5602b2406184e6e6acf2e1ede100f24",
+      "bytes": 98996
+    },
+    {
+      "route": "/assets/models/completion/cooler-master-masterbox-lite-5.glb",
+      "status": 200,
+      "sha256": "eb7448785f46fbbfa0175e70c98588a6ae6d2508b058bc95da63b280d45cf47e",
+      "bytes": 6940
+    },
+    {
+      "route": "/assets/models/completion/intel-4004.glb",
+      "status": 200,
+      "sha256": "8397ada30550d7d554a660ceb23f85a0486c4db6f8a88039e3a0a07e877228eb",
+      "bytes": 12220
+    },
+    {
+      "route": "/assets/models/completion/intel-core-i5-661.glb",
+      "status": 200,
+      "sha256": "f31ba78671833cdef7282661cf6b834c647c3c974210247914f339dc413d5bc4",
+      "bytes": 554968
+    },
+    {
+      "route": "/assets/models/completion/nvidia-titan-rtx.glb",
+      "status": 200,
+      "sha256": "a08f8f20408840343f89275b95464c690aa3841fcdd15fa4424fc8881d6a01b6",
+      "bytes": 906204
+    }
+  ],
+  "scope": "Same-origin public CSS/JavaScript MIME/status checks and byte-for-byte SHA256 validation of all ten new GLBs. Browser behavior is a separate receipt."
+}

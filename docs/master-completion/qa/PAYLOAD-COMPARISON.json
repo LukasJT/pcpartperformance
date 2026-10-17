@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-17T02:12:30.811Z",
+  "checkedAt": "2026-10-17T02:40:07.333Z",
   "baselineCommit": "392b938",
   "scope": "Static generated-route transfer budgets, not field Core Web Vitals or Lighthouse.",
   "before": {
@@ -59,7 +59,7 @@
     ]
   },
   "current": {
-    "checkedAt": "2026-10-17T02:03:47.333Z",
+    "checkedAt": "2026-10-17T02:26:51.183Z",
     "passed": true,
     "scope": "Static route regression budgets, not real-user performance",
     "results": [
@@ -93,7 +93,7 @@
       },
       {
         "route": "/builder/",
-        "scriptGzip": 120575,
+        "scriptGzip": 120615,
         "scriptLimit": 122000,
         "styleBytes": 223913,
         "styleLimit": 224000

@@ -19,6 +19,14 @@
 
 The retained workflow checks the fixed sources, runs one ordinary daily collector and commits both `data/public-price-snapshot.json` and `data/public-price-history.json`. Its declared schedule is 07:17 America/Toronto; GitHub may start it later. The public status API describes the schedule and exact included targets. Do not add a duplicate automation, promise continuous polling or rotate identities to evade a source restriction.
 
+## Verified release and unresolved status
+
+The live code release is `33f252e9a9f5a04d8a5e073d0418d300ada123ed`. The 58 public release checks, 38 script/style assets, ten GLB hashes and actual live interactions are recorded under `qa/live-*`. The successful GitHub price run is `38994335999`; its dated observations were preserved.
+
+Cloudflare's GitHub check for that commit still reports failure even though the new release is being served. Its remote log was inaccessible in the expired dashboard session. Treat this as an open build/status discrepancy, not a green CI result. Use the exact build link in `qa/cloudflare-release.json` when an authorized session is available. A local tracked-only build and Wrangler dry-run passed; they do not replace the missing remote-log diagnosis.
+
+The final documentation-only receipt commit stays on the work branch. Production remains on the independently verified code commit; no new DNS change, hosting replacement or duplicate release is needed to publish these receipts.
+
 ## Data, privacy and recovery
 
 - Unknown price is not zero. Sold-out, expired and unknown-condition observations do not enter purchase minima. A historical row is validated at its original check time and never becomes a current offer.

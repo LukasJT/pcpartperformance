@@ -1,0 +1,425 @@
+{
+  "checkedAt": "2026-10-17T02:31:39.546Z",
+  "state": "verified_live",
+  "commit": "33f252e9a9f5a04d8a5e073d0418d300ada123ed",
+  "release": {
+    "schema": 1,
+    "program": "2026-10-11-continuation",
+    "commit": "33f252e9a9f5a04d8a5e073d0418d300ada123ed",
+    "generatedAt": "2026-10-17T02:28:47.586Z",
+    "staging": false
+  },
+  "checks": [
+    {
+      "name": "exact production Git release",
+      "route": "/data/release.json",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "canonical published feature HTML",
+      "route": "/",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "canonical published feature HTML",
+      "route": "/builder/",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "canonical published feature HTML",
+      "route": "/upgrade/",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "canonical published feature HTML",
+      "route": "/my-pc/",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "canonical published feature HTML",
+      "route": "/phones/",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "canonical published feature HTML",
+      "route": "/phones/size-compare/",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "canonical published feature HTML",
+      "route": "/prebuilts/",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "canonical published feature HTML",
+      "route": "/laptops/",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "canonical published feature HTML",
+      "route": "/performance/",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "canonical published feature HTML",
+      "route": "/hardware/cpu-coolers/",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "canonical published feature HTML",
+      "route": "/builder/model-coverage/",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "canonical published feature HTML",
+      "route": "/builder/model-credits/",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "canonical published feature HTML",
+      "route": "/blog/check-cpu-bios-support/",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "canonical published feature HTML",
+      "route": "/blog/phased-pc-upgrade-plan/",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "canonical published feature HTML",
+      "route": "/blog/choose-a-pc-power-supply/",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "canonical published feature HTML",
+      "route": "/blog/read-hardware-benchmarks-test-conditions/",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "canonical published feature HTML",
+      "route": "/blog/32gb-vs-64gb-ram-workloads/",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "canonical published feature HTML",
+      "route": "/blog/reuse-pc-components-new-build/",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "canonical published feature HTML",
+      "route": "/blog/gaming-streaming-pc-planning/",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "canonical published feature HTML",
+      "route": "/blog/video-editing-pc-workload-checklist/",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "canonical published feature HTML",
+      "route": "/blog/compact-quiet-pc-fit-cooling/",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "canonical published feature HTML",
+      "route": "/blog/buying-used-pc-parts-checklist/",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "canonical published feature HTML",
+      "route": "/blog/ryzen-7800x3d-north-air-vs-aio/",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "canonical published feature HTML",
+      "route": "/blog/rtx-3060-upgrade-or-keep/",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "canonical published feature HTML",
+      "route": "/learn/cooler-amd-wraith-stealth.html",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "canonical published feature HTML",
+      "route": "/learn/retail-msi-geforce-gtx-1660-gaming-x-6g.html",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "canonical published feature HTML",
+      "route": "/learn/retail-msi-meg-z590-ace-gold-edition.html",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "canonical published feature HTML",
+      "route": "/learn/retail-asus-z170-p.html",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "canonical published feature HTML",
+      "route": "/learn/retail-gigabyte-trx40-aorus-xtreme-rev-1-0.html",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "canonical published feature HTML",
+      "route": "/learn/retail-corsair-carbide-200r-black.html",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "canonical published feature HTML",
+      "route": "/learn/retail-cooler-master-masterbox-lite-5.html",
+      "status": 200,
+      "robots": "noindex, follow",
+      "cache": "no-store"
+    },
+    {
+      "name": "canonical published feature HTML",
+      "route": "/learn/intel4004.html",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "canonical published feature HTML",
+      "route": "/learn/completion-cpu-intel-core-i5-661.html",
+      "status": 200,
+      "robots": "noindex, follow",
+      "cache": "no-store"
+    },
+    {
+      "name": "canonical published feature HTML",
+      "route": "/learn/titanrtx.html",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "canonical discovery and reference exclusions",
+      "route": "/sitemap.xml",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "actual model asset available",
+      "route": "/assets/models/completion/amd-wraith-stealth.glb",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=300"
+    },
+    {
+      "name": "actual model asset available",
+      "route": "/assets/models/completion/msi-gtx-1660-gaming-x-6g.glb",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=300"
+    },
+    {
+      "name": "actual model asset available",
+      "route": "/assets/models/completion/msi-meg-z590-ace-gold.glb",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=300"
+    },
+    {
+      "name": "actual model asset available",
+      "route": "/assets/models/completion/asus-z170-p-scan.glb",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=300"
+    },
+    {
+      "name": "actual model asset available",
+      "route": "/assets/models/completion/gigabyte-trx40-aorus-xtreme.glb",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=300"
+    },
+    {
+      "name": "actual model asset available",
+      "route": "/assets/models/completion/corsair-200r.glb",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=300"
+    },
+    {
+      "name": "actual model asset available",
+      "route": "/assets/models/completion/cooler-master-masterbox-lite-5.glb",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=300"
+    },
+    {
+      "name": "actual model asset available",
+      "route": "/assets/models/completion/intel-4004.glb",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=300"
+    },
+    {
+      "name": "actual model asset available",
+      "route": "/assets/models/completion/intel-core-i5-661.glb",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=300"
+    },
+    {
+      "name": "actual model asset available",
+      "route": "/assets/models/completion/nvidia-titan-rtx.glb",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=300"
+    },
+    {
+      "name": "current evidence-aware model counts",
+      "route": "/model-library.json",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "one-step exact legacy redirect",
+      "route": "/prebuilts/us-null-st-king95-2062-w-bu",
+      "status": 301,
+      "robots": null,
+      "cache": null
+    },
+    {
+      "name": "one-step exact legacy redirect",
+      "route": "/prebuilts/us-null-st-king95-2062-w-bu/",
+      "status": 301,
+      "robots": null,
+      "cache": null
+    },
+    {
+      "name": "one-step exact legacy redirect",
+      "route": "/prebuilts/us-null-st-king95-2062-w-bu/index.html",
+      "status": 301,
+      "robots": null,
+      "cache": null
+    },
+    {
+      "name": "production crawling enabled",
+      "route": "/robots.txt",
+      "status": 200,
+      "robots": null,
+      "cache": "public, max-age=300"
+    },
+    {
+      "name": "real missing-page response",
+      "route": "/master-completion-nonexistent/",
+      "status": 404,
+      "robots": "noindex, follow",
+      "cache": "no-store"
+    },
+    {
+      "name": "tool states excluded",
+      "route": "/builder/?build=9800x3d",
+      "status": 200,
+      "robots": "noindex, follow",
+      "cache": "no-store"
+    },
+    {
+      "name": "preferred host in one step",
+      "route": "/builder/",
+      "status": 301,
+      "robots": null,
+      "cache": null
+    },
+    {
+      "name": "regional dated history API",
+      "route": "/api/v1/public-prices/history?id=9800x3d&region=CA",
+      "status": 200,
+      "robots": "noindex, follow",
+      "cache": "public, max-age=900, must-revalidate"
+    },
+    {
+      "name": "regional dated history API",
+      "route": "/api/v1/public-prices/history?id=9800x3d&region=US",
+      "status": 200,
+      "robots": "noindex, follow",
+      "cache": "public, max-age=900, must-revalidate"
+    },
+    {
+      "name": "no arbitrary source fetch",
+      "route": "/api/v1/public-prices/history?id=9800x3d&url=http://127.0.0.1",
+      "status": 400,
+      "robots": "noindex, follow",
+      "cache": "no-store"
+    },
+    {
+      "name": "expired history never becomes a current offer",
+      "route": "/api/v1/public-prices/offers?region=CA&ids=9800x3d,990pro,ddr5",
+      "status": 200,
+      "robots": "noindex, follow",
+      "cache": "no-store"
+    }
+  ],
+  "articleBatch": 12,
+  "downloadedMappings": 115,
+  "historyObservations": 6,
+  "currentOffers": 3,
+  "scope": "Read-only public HTTP/HTML/API/asset checks. Actual browser interaction, editorial evidence and lab/field measurement remain separate receipts."
+}

@@ -1,0 +1,14 @@
+{
+  "checkedAt": "2026-10-17T02:36:38.555Z",
+  "commit": "33f252e9a9f5a04d8a5e073d0418d300ada123ed",
+  "checks": [
+    {
+      "name": "Workers Builds: pcpartperformance-live",
+      "status": "completed",
+      "conclusion": "failure",
+      "details_url": "https://dash.cloudflare.com/544465516a580e551501b219bd8f089f/workers/services/view/pcpartperformance-live/production/builds/efad9743-346f-409f-9896-39f1433779f4",
+      "started_at": "2026-10-17T02:30:27Z",
+      "completed_at": "2026-10-17T02:30:27Z"
+    }
+  ]
+}

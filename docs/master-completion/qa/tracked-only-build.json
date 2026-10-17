@@ -1,0 +1,11 @@
+{
+  "checkedAt": "2026-10-17T02:28:17.420Z",
+  "passed": true,
+  "baseCommit": "62ad86f541d183a4d638e2b0d88daa1bd93a942d",
+  "fixedRuntimeCommit": "33f252e9a9f5a04d8a5e073d0418d300ada123ed",
+  "command": "node scripts/build-pages.cjs",
+  "environment": "Windows Node24; tracked files copied without ignored product pages/dependencies; immutable GLB inputs hard-linked to avoid another432MB copy; CI=true",
+  "scope": "Prepared shopping runtime fixed and full generation passed:1592 routes,1088 indexable. Not a Linux or live deployment claim.",
+  "rootCause": "Last price-expiry source label edit had not refreshed shopping.browser.js and shopping.browser.json. The existing integrity guard correctly failed the hosted build.",
+  "regression": "completion-integration.test.cjs now validates all prepared source fingerprints and the actual built shopping asset."
+}

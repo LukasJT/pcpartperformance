@@ -1,0 +1,37 @@
+{
+  "checkedAt": "2026-10-17T02:39:14.153Z",
+  "origin": "https://www.pcpartperformance.com",
+  "commit": "33f252e9a9f5a04d8a5e073d0418d300ada123ed",
+  "checks": [
+    {
+      "route": "/learn/ddr4.html",
+      "action": "Load checked Canadian offers",
+      "observed": "Canada Computers and CORSAIR each CAD359.99; separate 22:17 October16 observation timestamps and October17 EDT expiries."
+    },
+    {
+      "route": "/learn/ddr4.html",
+      "action": "Switch country to US, then restore CA",
+      "observed": "Independent CORSAIR USD259.99 observation; CA restored without mixing currencies."
+    },
+    {
+      "route": "/learn/titanrtx.html",
+      "action": "Open actual downloaded model; side and reset controls; close",
+      "observed": "One textured source model,95023triangles; camera changed from 0.264322,0.123350,0.352429 to 0.000000,0.005816,0.290818; canvas removed on close. Creator/license shown."
+    },
+    {
+      "route": "/blog/32gb-vs-64gb-ram-workloads/",
+      "action": "Read visible newly published article",
+      "observed": "Full article, concise breadcrumb, organization author, truthful date, source links and tool connections present."
+    },
+    {
+      "route": "/",
+      "action": "Inspect rendered homepage",
+      "observed": "Styled header, country/theme controls and three primary task links present."
+    }
+  ],
+  "screenshots": [
+    "live-model-viewer.png",
+    "live-homepage.png"
+  ],
+  "scope": "Actual public UI interactions; no private workspace notes inspected, new saved records created, analytics activated or browser instrumentation injected. Original CA preference restored."
+}
