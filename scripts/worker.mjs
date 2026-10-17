@@ -8,6 +8,15 @@ import { handlePublicPriceRequest, scheduledPublicPrices } from './public-price-
 import { secureResponse } from './completion-security.mjs';
 import { addAdPlacements } from './ads-injection.mjs';
 async function respond(request,env){
+ const url=new URL(request.url);
+ if(/^\/ads\/(?:728x90|468x60|320x50|300x250|native)\.html$/.test(url.pathname)){
+  if(url.hostname==='www.pcpartperformance.com'||url.hostname==='pcpartperformance.com')return Response.redirect('https://pcpartperformance-live.lukastadros06.workers.dev'+url.pathname,302);
+  if(url.hostname==='pcpartperformance-live.lukastadros06.workers.dev'){
+   if(!['GET','HEAD'].includes(request.method))return new Response('Method not allowed',{status:405,headers:{Allow:'GET, HEAD'}});
+   const ad=await env.ASSETS.fetch(new Request(url,{method:request.method,headers:request.headers}));
+   return new Response(ad.body,{status:ad.status,headers:{'Content-Type':'text/html; charset=utf-8','Cache-Control':'public, max-age=0, must-revalidate','X-Robots-Tag':'noindex, follow'}});
+  }
+ }
  const publicPrice=await handlePublicPriceRequest(request,env);if(publicPrice)return publicPrice;
  const morning=await handleMorningPriceRequest(request,env);if(morning)return morning;
  const decision=policy(request.url,manifest,{staging:manifest.staging});

@@ -17,7 +17,7 @@ await test('published templates satisfy the enforced script policy',()=>{
  const report=audit();assert(report.pages>1000);assert.equal(report.inlineExecutableCount,0);assert.deepEqual(report.handlerPages,[]);assert.deepEqual(report.externalScripts,[]);assert.deepEqual(report.frames,[]);
 });
 await test('local 3D WebAssembly, fonts and opt-in private YouTube player remain supported',()=>{
- for(const item of ["'wasm-unsafe-eval'","worker-src 'self' blob:",'https://fonts.googleapis.com','https://fonts.gstatic.com',"frame-src 'self' https://www.youtube-nocookie.com https://pc-part-performance.lukajt.chatgpt.site"])assert(CONTENT_SECURITY_POLICY.includes(item));
+ for(const item of ["'wasm-unsafe-eval'","worker-src 'self' blob:",'https://fonts.googleapis.com','https://fonts.gstatic.com',"frame-src 'self' https://www.youtube-nocookie.com https://pcpartperformance-live.lukastadros06.workers.dev"])assert(CONTENT_SECURITY_POLICY.includes(item));
 });
 await test('ad documents are isolated from the parent page policy',async()=>{
  const page=secureResponse(new Response('page'),request('/'));
@@ -25,6 +25,14 @@ await test('ad documents are isolated from the parent page policy',async()=>{
  assert.equal(page.headers.get('Content-Security-Policy'),CONTENT_SECURITY_POLICY);
  assert.match(ad.headers.get('Content-Security-Policy'),/script-src 'unsafe-inline' https:/);
  assert.equal(ad.headers.get('Referrer-Policy'),'no-referrer');
+ assert.equal(ad.headers.get('X-Frame-Options'),null);
+ const env={ASSETS:{fetch:async()=>new Response('<html>ad</html>',{headers:{'Content-Type':'text/html'}})}};
+ const framed=await worker.fetch(new Request('https://pcpartperformance-live.lukastadros06.workers.dev/ads/728x90.html'),env);
+ assert.equal(framed.status,200);
+ assert.match(framed.headers.get('Content-Security-Policy'),/frame-ancestors https:\/\/www\.pcpartperformance\.com/);
+ const canonical=await worker.fetch(request('/ads/728x90.html'),env);
+ assert.equal(canonical.status,302);
+ assert.equal(canonical.headers.get('Location'),'https://pcpartperformance-live.lukastadros06.workers.dev/ads/728x90.html');
 });
 await test('responses retain cache, status, robots and content while adding headers',async()=>{
  const r=secureResponse(new Response('test',{status:404,headers:{'Cache-Control':'no-store','X-Robots-Tag':'noindex, follow'}}),request('/missing/'));

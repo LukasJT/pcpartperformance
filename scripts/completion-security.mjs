@@ -9,7 +9,7 @@ export const CONTENT_SECURITY_POLICY=[
  "connect-src 'self' blob:",
  "worker-src 'self' blob:",
  "media-src 'self' blob:",
- "frame-src 'self' https://www.youtube-nocookie.com https://pc-part-performance.lukajt.chatgpt.site",
+ "frame-src 'self' https://www.youtube-nocookie.com https://pcpartperformance-live.lukastadros06.workers.dev",
  "object-src 'none'",
  "base-uri 'self'",
  "form-action 'self'",
@@ -19,9 +19,9 @@ export function secureResponse(response,request){
  const headers=new Headers(response.headers),url=new URL(request.url);
  const adDocument=/^\/ads\/(?:728x90|468x60|320x50|300x250|native)\.html$/.test(url.pathname);
  headers.set('Content-Security-Policy',adDocument?
-  "default-src 'none'; script-src 'unsafe-inline' https:; style-src 'unsafe-inline' https:; img-src https: data:; connect-src https:; frame-src https:; form-action https:; object-src 'none'; base-uri 'none'; frame-ancestors 'self'":CONTENT_SECURITY_POLICY);
+  "default-src 'none'; script-src 'unsafe-inline' https:; style-src 'unsafe-inline' https:; img-src https: data:; connect-src https:; frame-src https:; form-action https:; object-src 'none'; base-uri 'none'; frame-ancestors https://www.pcpartperformance.com":CONTENT_SECURITY_POLICY);
  headers.set('X-Content-Type-Options','nosniff');
- headers.set('X-Frame-Options','SAMEORIGIN');
+ if(adDocument)headers.delete('X-Frame-Options');else headers.set('X-Frame-Options','SAMEORIGIN');
  headers.set('Referrer-Policy',adDocument?'no-referrer':'strict-origin-when-cross-origin');
  headers.set('Permissions-Policy','camera=(), microphone=(), geolocation=(), payment=(), usb=()');
  if(url.protocol==='https:'&&['www.pcpartperformance.com','pcpartperformance.com'].includes(url.hostname))headers.set('Strict-Transport-Security','max-age=31536000');
