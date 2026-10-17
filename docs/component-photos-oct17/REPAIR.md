@@ -23,8 +23,14 @@ Some inherited mappings really are incorrect: for example, RM850x pointed to a C
 | PHOTO-2 | Restore valid identity bindings and six reviewed images | Complete |
 | PHOTO-3 | Full build, image regression tests and existing picker tests | Passed — 25 automated tests, 11 existing workspace checks, seven route payload budgets, type check, lint and release preflight |
 | PHOTO-4 | Inspect loaded row/picker pictures at 390 and 1440 px | Passed — eight photo checks and nine existing browser workflows; `browser.json`, before/after screenshots |
-| PHOTO-5 | Publish with existing Git deployment and verify public assets | Pending |
+| PHOTO-5 | Publish with existing Git deployment and verify public assets | Complete — Cloudflare success; 19 HTTPS checks and eight live mobile/desktop photo checks |
 
 This is a targeted image repair. It does not claim every catalog item now has an exact photo, nor replace the existing 3D models. The optional 2 TB HDD still needs its own accurate picture; the unrelated 500 GB image stays rejected.
 
 All-route HTML verification also passed: 1,592 pages, 98,627 links, zero reported structural/metadata issues, no duplicate titles or descriptions. The resource audit reported no inline executable scripts, event handlers, external scripts or frames. These are automated checks, not a claim of complete manual accessibility or security certification.
+
+## Verified live release
+
+Production commit: `bd7981151dfc82080af228853fdc4ea45e0e9741`. Cloudflare reported success at 2026-10-17 18:31:54 UTC. The standard public release marker matches this commit. `live-verification.json` confirms the generated builder image index, six product pages and all twelve image/thumbnail hashes. `live-browser.json` confirms image decoding in both selected rows and four category pickers at 390 and 1440 px on https://www.pcpartperformance.com/builder/.
+
+The additional eight existing model-image integrity tests and the phone-preview identity check passed. No model assets or saved-build storage formats were changed.

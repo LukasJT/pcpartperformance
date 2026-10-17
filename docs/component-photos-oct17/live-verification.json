@@ -1,0 +1,103 @@
+{
+  "checkedAt": "2026-10-17T18:32:03.351Z",
+  "commit": "bd7981151dfc82080af228853fdc4ea45e0e9741",
+  "release": {
+    "schema": 1,
+    "program": "2026-10-11-continuation",
+    "commit": "bd7981151dfc82080af228853fdc4ea45e0e9741",
+    "generatedAt": "2026-10-17T18:30:52.927Z",
+    "staging": false
+  },
+  "passed": true,
+  "checks": [
+    {
+      "route": "/builder-images.js",
+      "matchesBuild": true
+    },
+    {
+      "route": "/assets/hardware/repaired/ddr5-7062434f2d.webp",
+      "bytes": 43932,
+      "sha256": "010f2b650d989ec594393f830e90d26d2c0e985496e08f0cd26eb25b77de0877"
+    },
+    {
+      "route": "/assets/hardware/repaired/ddr5-7062434f2d-320.webp",
+      "bytes": 11126,
+      "sha256": "bfdadb92d764a3117f5956a44f82b4e5b011de1ad5e464fd8a97263a755399ed"
+    },
+    {
+      "route": "/learn/ddr5.html",
+      "correctProductImage": true
+    },
+    {
+      "route": "/assets/hardware/repaired/rm850x-064911070f.webp",
+      "bytes": 47440,
+      "sha256": "133a4a349f236895fde5de25777899453011948f73bf20b1840b97c68dc97f5f"
+    },
+    {
+      "route": "/assets/hardware/repaired/rm850x-064911070f-320.webp",
+      "bytes": 13522,
+      "sha256": "bd8f5065596e0dc18e25f548b0663d17383bbbcb03f534e5cf63d814683c526c"
+    },
+    {
+      "route": "/learn/rm850x.html",
+      "correctProductImage": true
+    },
+    {
+      "route": "/assets/hardware/repaired/retail-lian-li-o11-air-mini-black-9f97538245.webp",
+      "bytes": 28658,
+      "sha256": "bd0bac27a6294f48f305cfe51d74fa040516cd942ad123a0c2b69c46781acbf0"
+    },
+    {
+      "route": "/assets/hardware/repaired/retail-lian-li-o11-air-mini-black-9f97538245-320.webp",
+      "bytes": 4490,
+      "sha256": "8ac35a5038f54b886bc9700cf2e6f901b0059bf26100d4e156031c8f3f4f0d9a"
+    },
+    {
+      "route": "/learn/retail-lian-li-o11-air-mini-black.html",
+      "correctProductImage": true
+    },
+    {
+      "route": "/assets/hardware/repaired/cooler-noctua-nh-u12a-894fec9cb4.webp",
+      "bytes": 58538,
+      "sha256": "c96bab6f86ea856f38a2c1b30fd8ea4f11f41bb4446dd0e28dd35855d1a6605b"
+    },
+    {
+      "route": "/assets/hardware/repaired/cooler-noctua-nh-u12a-894fec9cb4-320.webp",
+      "bytes": 13996,
+      "sha256": "9c446917ad4452924c6c3ef1ed92e03583fd476baa1b600c8a004fefd35702c0"
+    },
+    {
+      "route": "/learn/cooler-noctua-nh-u12a.html",
+      "correctProductImage": true
+    },
+    {
+      "route": "/assets/hardware/repaired/retail-msi-geforce-rtx-3060-gaming-x-trio-12g-f092eb79d1.webp",
+      "bytes": 61964,
+      "sha256": "9d921ef487d214b43401de539dabe9d5f85e6ccfd2f0e851b8b6db62dd6e60e9"
+    },
+    {
+      "route": "/assets/hardware/repaired/retail-msi-geforce-rtx-3060-gaming-x-trio-12g-f092eb79d1-320.webp",
+      "bytes": 13032,
+      "sha256": "0d2a679a5b76d4ecc97a148f68b5577d29d4821a0a4b0ebee22ef14e2f35cef9"
+    },
+    {
+      "route": "/learn/retail-msi-geforce-rtx-3060-gaming-x-trio-12g.html",
+      "correctProductImage": true
+    },
+    {
+      "route": "/assets/hardware/repaired/retail-lian-li-uni-fan-tl-120-wireless-black-8b7c199b01.webp",
+      "bytes": 17344,
+      "sha256": "e24c79eb5a54c012e59fda78bccd2f2066788ac40ac8e346cadb299a934e5b5a"
+    },
+    {
+      "route": "/assets/hardware/repaired/retail-lian-li-uni-fan-tl-120-wireless-black-8b7c199b01-320.webp",
+      "bytes": 11058,
+      "sha256": "10a766cbeec256607a75c0fa944d2d1b0801d05709fc61add16dafa0ea44c5db"
+    },
+    {
+      "route": "/learn/retail-lian-li-uni-fan-tl-120-wireless-black.html",
+      "correctProductImage": true
+    }
+  ],
+  "scope": "Public HTTPS release marker, exact builder index, six product pages and twelve full/thumbnail image byte hashes. Browser decoding is recorded separately."
+}
