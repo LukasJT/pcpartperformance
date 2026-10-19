@@ -34,8 +34,13 @@ jobs:
           set -o pipefail
           mkdir -p .release-validation
           node scripts/build-pages.cjs 2>&1 | tee .release-validation/build.log
+      - name: Set up the pinned project package manager
+        uses: pnpm/action-setup@b906affcce14559ad1aafd4ab0e942779e9f58b1 # v4
+        with:
+          version: '10.34.7'
+          run_install: false
       - name: Install locked verification tools without lifecycle scripts
-        run: npm ci --prefix tools/quality --ignore-scripts --no-audit --no-fund
+        run: pnpm --dir tools/quality install --frozen-lockfile --ignore-scripts
       - name: Run the complete source, data, security and SEO regression suite
         shell: bash
         run: |

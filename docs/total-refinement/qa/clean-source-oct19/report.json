@@ -1,0 +1,34 @@
+{
+  "checkedAt": "2026-10-19T22:55:59.169Z",
+  "commit": "3270732a4ccfcca67727dab996d9afd6c0adc91a",
+  "passed": true,
+  "source": "git archive HEAD at3270732a; exact tracked bytes, no ignored dependencies",
+  "environment": "Windows Node24, CI=true with WORKERS_CI_COMMIT_SHA; not Linux or provider deployment",
+  "buildExitCode": 0,
+  "styleFingerprintsMatch": true,
+  "publicData": [
+    {
+      "file": "dist/builder-images.js",
+      "same": true
+    },
+    {
+      "file": "dist/image-catalog-lite.js",
+      "same": true
+    },
+    {
+      "file": "dist/data/total-catalog-provenance.json",
+      "same": true
+    },
+    {
+      "file": "dist/data/total-prebuilts-provenance.json",
+      "same": true
+    }
+  ],
+  "release": {
+    "schema": 1,
+    "program": "2026-10-11-continuation",
+    "commit": "3270732a4ccfcca67727dab996d9afd6c0adc91a",
+    "generatedAt": "2026-10-19T22:53:05.416Z",
+    "staging": false
+  }
+}
