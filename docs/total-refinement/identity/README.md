@@ -48,3 +48,7 @@ node --test scripts/identity-review-oct19.test.cjs
 **Seven tests pass**, including the real builder's restore membership expression, duplicate memory/storage IDs, private metadata retention, no compatibility facts from unsupported specs, preservation of unrelated records, atomic conflict rejection, unsafe input rejection and idempotence. Both new modules pass scoped ESLint.
 
 No shared build/catalog engine, existing photo registry, generated site, saved browser data, commit or deployment was changed by this workstream. Parent integration and rendered saved-build QA are required before claiming the production behavior complete.
+
+## Final parent integration
+
+The parent integrated this contract into the normal generator and delivered runtime. The current build retains the seven references for restoration, excludes them from fresh choices and both actual search-index paths, preserves their existing URLs with noindex and removes Product claims. All seven real restore/save journeys and the My PC cards passed. See [rendered recovery evidence](../qa/identity-final/report.json) and [release verification](../RELEASE.md) for the final deployment state. This supersedes the workstream-only handoff status above; source identity and photo uncertainty remain unresolved.

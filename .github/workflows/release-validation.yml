@@ -1,0 +1,58 @@
+name: Production source validation
+
+on:
+  push:
+    branches: [codex/stage2-publication-2026-10-04]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: release-validation-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      CI: 'true'
+      WORKERS_CI_COMMIT_SHA: ${{ github.sha }}
+    steps:
+      - name: Check out the exact pushed source without saved credentials
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          fetch-depth: 1
+          persist-credentials: false
+      - name: Set up Node
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '24'
+      - name: Build from tracked source before installing development dependencies
+        shell: bash
+        run: |
+          set -o pipefail
+          mkdir -p .release-validation
+          node scripts/build-pages.cjs 2>&1 | tee .release-validation/build.log
+      - name: Install locked verification tools without lifecycle scripts
+        run: npm ci --prefix tools/quality --ignore-scripts --no-audit --no-fund
+      - name: Run the complete source, data, security and SEO regression suite
+        shell: bash
+        run: |
+          set -o pipefail
+          node scripts/run-master-checks.cjs 2>&1 | tee .release-validation/tests.log
+      - name: Check types
+        run: node tools/quality/node_modules/typescript/bin/tsc -p tools/quality/tsconfig.json
+      - name: Retain bounded validation evidence, including failed build logs
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: release-validation-${{ github.sha }}
+          path: |
+            .release-validation/
+            docs/master-completion/qa/test-commands.json
+            docs/seo-validation.json
+            docs/program-2026-10-09/performance-budget-results.json
+          include-hidden-files: true
+          if-no-files-found: error
+          retention-days: 14
