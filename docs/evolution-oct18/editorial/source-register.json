@@ -1,0 +1,510 @@
+{
+  "evidenceDate": "2026-10-19",
+  "sourceCount": 42,
+  "sources": {
+    "atx": {
+      "publisher": "CORSAIR",
+      "title": "ATX 3.0 vs ATX 3.1",
+      "url": "https://www.corsair.com/us/en/explorer/diy-builder/power-supply-units/atx-30-vs-atx-31-whats-the-difference/",
+      "inspected": "2026-10-19",
+      "access": "Primary-source page opened and applicable text inspected",
+      "claims": [
+        "ATX 3.1 changes the GPU connector to 12V-2x6 and changes hold-up requirements."
+      ],
+      "limitations": "Manufacturer explanation rather than a certification test. No unit is recommended from its revision label alone; its broad efficiency/safety marketing is not repeated.",
+      "rights": "Citation and original explanation only; no source images, diagrams or benchmark tables reproduced."
+    },
+    "cables": {
+      "publisher": "CORSAIR",
+      "title": "PSU cable compatibility",
+      "url": "https://www.corsair.com/us/en/s/psu-cable-compatibility",
+      "inspected": "2026-10-19",
+      "access": "Primary-source page opened and applicable text inspected",
+      "claims": [
+        "The 24-pin cable pinout differs between Type 3 and Type 4; Type 3/4 are not compatible with Type 5 PSUs. Incorrect modular cables can damage hardware."
+      ],
+      "limitations": "Only CORSAIR products in the applicable compatibility matrix. No all-brand pinout or interchangeability claim.",
+      "rights": "Citation and original explanation only; no source images, diagrams or benchmark tables reproduced."
+    },
+    "pwm": {
+      "publisher": "Noctua",
+      "title": "3-pin fans and 4-pin PWM connectors",
+      "url": "https://www.noctua.at/en/support/faqs/can-i-run-noctua-3-pin-fans-on-4-pin-pwm-connectors-or-4-pin-fans-on-3-pin-connectors",
+      "inspected": "2026-10-19",
+      "access": "Primary-source page opened and applicable text inspected",
+      "claims": [
+        "3-pin speed control depends on supplied voltage; a 4-pin fan on a 3-pin header lacks its PWM control signal and can run at full speed unless voltage control is supported."
+      ],
+      "limitations": "No universal BIOS menu, fan stopping voltage, header current rating or RPM-to-duty conversion.",
+      "rights": "Citation and original explanation only; no source images, diagrams or benchmark tables reproduced."
+    },
+    "rgb": {
+      "publisher": "ASUS",
+      "title": "Connecting 5 V and 12 V RGB cables",
+      "url": "https://www.asus.com/tw/support/faq/1056087/",
+      "inspected": "2026-10-19",
+      "access": "Primary-source page opened and applicable text inspected",
+      "claims": [
+        "The named-board example distinguishes 5 V Addressable Gen2 from 12 V AURA RGB headers; manuals identify the correct header and voltage orientation."
+      ],
+      "limitations": "Traditional Chinese full text inspected. Board-specific LED/current limits are not generalized. The English regional endpoints were unavailable during this check.",
+      "rights": "Citation and original explanation only; no source images, diagrams or benchmark tables reproduced."
+    },
+    "headers": {
+      "publisher": "MSI",
+      "title": "Motherboard ports and headers",
+      "url": "https://www.msi.com/blog/what-are-the-functions-of-motherboard-ports-and-headers",
+      "inspected": "2026-10-19",
+      "access": "Primary-source page opened and applicable text inspected",
+      "claims": [
+        "Front-panel switch/LED, USB Type-A, USB Type-C, audio and supplemental USB PD connections have different purposes."
+      ],
+      "limitations": "General naming examples only; exact pinout, current limits and available functions require the selected board manual.",
+      "rights": "Citation and original explanation only; no source images, diagrams or benchmark tables reproduced."
+    },
+    "b760manual": {
+      "publisher": "MSI",
+      "title": "PRO B760-VC WIFI II user guide",
+      "url": "https://download-2.msi.com/archive/mnu_exe/mb/PROB760-VCWIFIII_EN.pdf",
+      "inspected": "2026-10-19",
+      "access": "Official 60-page PDF opened; applicable extracted sections inspected",
+      "claims": [
+        "Printed page 32 labels JFP1 switch/LED functions; page 35 identifies JUSB1 as USB 3.2 Gen 1 Type-C; pages 40–41 distinguish 12 V JRGB and 5 V ARGB."
+      ],
+      "limitations": "Exact named board only. Original illustrations are not copied. PDF text inspected; screenshot fetch succeeded for page 32 and failed for later pages, so no uninspected graphical wiring detail is adopted.",
+      "rights": "Citation and original explanation only; no source images, diagrams or benchmark tables reproduced."
+    },
+    "sfx": {
+      "publisher": "CORSAIR",
+      "title": "Difference between SFX and SFX-L power supplies",
+      "url": "https://www.corsair.com/ca/en/explorer/diy-builder/power-supply-units/whats-the-difference-between-sfx-and-sfx-l-power-supplies/",
+      "inspected": "2026-10-19",
+      "access": "Primary-source page opened and applicable text inspected",
+      "claims": [
+        "SFX envelope 100 × 125 × 63.5 mm; SFX-L 130 × 125 × 63.5 mm."
+      ],
+      "limitations": "Use exact product dimensions and mounting rules. The article’s historical cable-family generalization is not used for newer revisions.",
+      "rights": "Citation and original explanation only; no source images, diagrams or benchmark tables reproduced."
+    },
+    "gpu5070": {
+      "publisher": "NVIDIA",
+      "title": "GeForce RTX 5070 family specifications",
+      "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family/",
+      "inspected": "2026-10-19",
+      "access": "Primary-source page opened and applicable text inspected",
+      "claims": [
+        "Reference display connections and up-to-four-display support have qualifications; partner-card dimensions vary. GPU power-connector alternatives and installation-space requirements are model-specific."
+      ],
+      "limitations": "No simultaneous maximum-mode guarantee; no partner layout inferred from Founders Edition. No performance chart reused.",
+      "rights": "Citation and original explanation only; no source images, diagrams or benchmark tables reproduced."
+    },
+    "expo": {
+      "publisher": "AMD",
+      "title": "EXPO technology",
+      "url": "https://www.amd.com/en/products/processors/technologies/expo.html",
+      "inspected": "2026-10-19",
+      "access": "Primary-source page opened and applicable text inspected",
+      "claims": [
+        "EXPO is memory overclocking technology, with supported configurations and manufacturer warranty caveats."
+      ],
+      "limitations": "No marketing performance uplift imported. A memory profile is not a guarantee for an arbitrary CPU/board/kit combination.",
+      "rights": "Citation and original explanation only; no source images, diagrams or benchmark tables reproduced."
+    },
+    "xmp": {
+      "publisher": "Intel",
+      "title": "Extreme Memory Profile",
+      "url": "https://www.intel.com/content/www/us/en/gaming/extreme-memory-profile-xmp.html",
+      "inspected": "2026-10-19",
+      "access": "Primary-source page opened and applicable text inspected",
+      "claims": [
+        "XMP stores predefined memory overclocking profiles; compatible memory, board and CPU are required; operation beyond specifications can affect warranty."
+      ],
+      "limitations": "No universal frequency, voltage, certification or stability promise.",
+      "rights": "Citation and original explanation only; no source images, diagrams or benchmark tables reproduced."
+    },
+    "cpu9950": {
+      "publisher": "AMD",
+      "title": "Ryzen 9 9950X specifications",
+      "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9950x.html",
+      "inspected": "2026-10-19",
+      "access": "Primary-source page opened and applicable text inspected",
+      "claims": [
+        "Two memory channels, DDR5 UDIMM; 2×1R/2×2R DDR5-5600 versus 4×1R/4×2R DDR5-3600 maximum-memory-speed entries; ECC requires board support."
+      ],
+      "limitations": "One exact CPU. Rank is not synonymous with a module’s capacity or with a channel. Not overclocking results or a universal rule for all Ryzen models.",
+      "rights": "Citation and original explanation only; no source images, diagrams or benchmark tables reproduced."
+    },
+    "nonbinary": {
+      "publisher": "Kingston",
+      "title": "Non-binary memory FAQs",
+      "url": "https://www.kingston.com/en/blog/system-builder/24gbit-memory-faq",
+      "inspected": "2026-10-19",
+      "access": "Primary-source page opened and applicable text inspected",
+      "claims": [
+        "24 Gbit DRAM enables capacities including 24 and 48 GB; platform firmware and exact module support must be checked; mixing FURY overclocking kits is not supported by Kingston."
+      ],
+      "limitations": "The historical platform list is not treated as complete current support. No two independently purchased kits are certified as one kit.",
+      "rights": "Citation and original explanation only; no source images, diagrams or benchmark tables reproduced."
+    },
+    "ddr5": {
+      "publisher": "Kingston",
+      "title": "DDR5 memory standard overview",
+      "url": "https://www.kingston.com/en/blog/pc-performance/ddr5-overview",
+      "inspected": "2026-10-19",
+      "access": "Primary-source page opened and applicable text inspected",
+      "claims": [
+        "DDR5 on-die ECC works inside DRAM and does not protect the external bus; system ECC requires appropriate module, CPU and platform support; UDIMM and RDIMM are different module types."
+      ],
+      "limitations": "On-die correction is not end-to-end ECC or a guarantee against all data corruption.",
+      "rights": "Citation and original explanation only; no source images, diagrams or benchmark tables reproduced."
+    },
+    "m2": {
+      "publisher": "Kingston",
+      "title": "SATA and M.2 SSD FAQs",
+      "url": "https://www.kingston.com/en/ssd/ssd-faq",
+      "inspected": "2026-10-19",
+      "access": "Primary-source page opened and applicable text inspected",
+      "claims": [
+        "M.2 2230/2242/2260/2280/22110 correspond to 22 mm width and the encoded length; physical format alone does not establish interface compatibility."
+      ],
+      "limitations": "Old maximum-capacity examples on this page are deliberately not repeated as current limits.",
+      "rights": "Citation and original explanation only; no source images, diagrams or benchmark tables reproduced."
+    },
+    "ssdwarranty": {
+      "publisher": "Samsung",
+      "title": "SSD product warranty",
+      "url": "https://semiconductor.samsung.com/consumer-storage/support/warranty/",
+      "inspected": "2026-10-19",
+      "access": "Primary-source page opened and applicable text inspected",
+      "claims": [
+        "Limited warranty conditions depend on exact model/capacity, elapsed time and total bytes written; warranty terms and exclusions must be read together."
+      ],
+      "limitations": "No promised drive failure date or data-recovery entitlement; no country-specific legal conclusion.",
+      "rights": "Citation and original explanation only; no source images, diagrams or benchmark tables reproduced."
+    },
+    "ssdTrouble": {
+      "publisher": "Samsung",
+      "title": "Internal SSD troubleshooting",
+      "url": "https://semiconductor.samsung.com/consumer-storage/support/faqs/internalssd-trouble-shooting/",
+      "inspected": "2026-10-19",
+      "access": "Primary-source page opened and applicable text inspected",
+      "claims": [
+        "Check detection/connection and system firmware support; Samsung Magician detection can differ with controllers such as RAID."
+      ],
+      "limitations": "Does not authorize destructive initialization, universal BIOS-mode changes or a flash/update without the device’s instructions.",
+      "rights": "Citation and original explanation only; no source images, diagrams or benchmark tables reproduced."
+    },
+    "ssdheat": {
+      "publisher": "Kingston",
+      "title": "M.2 NVMe SSD cooling",
+      "url": "https://www.kingston.com/en/blog/pc-performance/ssd-cooling-m2-nvme-heatsink",
+      "inspected": "2026-10-19",
+      "access": "Primary-source page opened and applicable text inspected",
+      "claims": [
+        "Sustained work and heat can cause thermal throttling; airflow and correctly installed cooling affect operating conditions."
+      ],
+      "limitations": "No universal threshold, percentage slowdown or test result imported. A speed drop alone is not proof of heat throttling.",
+      "rights": "Citation and original explanation only; no source images, diagrams or benchmark tables reproduced."
+    },
+    "gsync": {
+      "publisher": "NVIDIA",
+      "title": "G-SYNC control-panel help",
+      "url": "https://www.nvidia.com/content/Control-Panel-Help/vLatest/en-us/mergedProjects/Display/Variable_Refresh_Rate.htm",
+      "inspected": "2026-10-19",
+      "access": "Primary-source page opened and applicable text inspected",
+      "claims": [
+        "G-SYNC aligns display refresh with GPU frame output; G-SYNC Compatible is NVIDIA validation of a VRR display."
+      ],
+      "limitations": "Legacy OS examples are not adopted as current recommendations. Actual monitor/input/GPU support still governs.",
+      "rights": "Citation and original explanation only; no source images, diagrams or benchmark tables reproduced."
+    },
+    "freesync": {
+      "publisher": "AMD",
+      "title": "FreeSync technology",
+      "url": "https://www.amd.com/en/products/graphics/technologies/freesync.html",
+      "inspected": "2026-10-19",
+      "access": "Primary-source page opened and applicable text inspected",
+      "claims": [
+        "FreeSync uses variable-refresh protocols and a certification program; features depend on display and connection."
+      ],
+      "limitations": "Marketing claims do not prove all stutter disappears. Tier requirements can change; no copied tier table or universal range.",
+      "rights": "Citation and original explanation only; no source images, diagrams or benchmark tables reproduced."
+    },
+    "hdmi": {
+      "publisher": "HDMI Licensing Administrator",
+      "title": "HDMI 2.2 specification overview",
+      "url": "https://www.hdmi.org/spec/hdmi2",
+      "inspected": "2026-10-19",
+      "access": "Primary-source page opened and applicable text inspected",
+      "claims": [
+        "Current HDMI feature and cable discussion separates features and supported capabilities; VRR and display-stream compression are relevant to a complete link."
+      ],
+      "limitations": "No assumption that a version label provides every optional feature or maximum rate; this is not the complete licensed specification.",
+      "rights": "Citation and original explanation only; no source images, diagrams or benchmark tables reproduced."
+    },
+    "dp": {
+      "publisher": "VESA/DisplayPort",
+      "title": "Choosing a DisplayPort cable",
+      "url": "https://www.displayport.org/how-to-choose-a-displayport-cable-and-not-get-a-bad-one/",
+      "inspected": "2026-10-19",
+      "access": "Primary-source page opened and applicable text inspected",
+      "claims": [
+        "Certified cables have defined capability; required source/display features and link bandwidth matter."
+      ],
+      "limitations": "Historical cable examples are not asserted to cover all 2026 modes. No universal refresh limit derived from the connector shape.",
+      "rights": "Citation and original explanation only; no source images, diagrams or benchmark tables reproduced."
+    },
+    "presentmon": {
+      "publisher": "Intel/GameTechDev",
+      "title": "PresentMon documentation",
+      "url": "https://github.com/GameTechDev/PresentMon",
+      "inspected": "2026-10-19",
+      "access": "Primary-source page opened and applicable text inspected",
+      "claims": [
+        "Windows ETW-based capture produces frame duration/latency records; capture, service and console tools have documented metric limitations."
+      ],
+      "limitations": "No site-owned benchmark was run; illustrative frame-time values are constructed examples, not submitted measurements.",
+      "rights": "Citation and original explanation only; no source images, diagrams or benchmark tables reproduced."
+    },
+    "shader": {
+      "publisher": "AMD GPUOpen",
+      "title": "Radeon Developer Panel system experiments",
+      "url": "https://gpuopen.com/manuals/rdp_manual/system/",
+      "inspected": "2026-10-19",
+      "access": "Primary-source page opened and applicable text inspected",
+      "claims": [
+        "Driver-side pipeline compilation can take time; compiled shaders may be cached; cold-cache and warm-cache runs differ."
+      ],
+      "limitations": "Developer diagnostics are not consumer instructions to disable caches or clear folders; a correlation does not diagnose every hitch.",
+      "rights": "Citation and original explanation only; no source images, diagrams or benchmark tables reproduced."
+    },
+    "nvenc": {
+      "publisher": "NVIDIA",
+      "title": "Video encode and decode support matrix",
+      "url": "https://developer.nvidia.com/video-encode-decode-support-matrix",
+      "inspected": "2026-10-19",
+      "access": "Primary-source page opened and applicable text inspected",
+      "claims": [
+        "Encode and decode support are separate and vary by exact GPU, codec, bit depth and format."
+      ],
+      "limitations": "Citation only; no matrix republished and no real-time quality or FPS promises.",
+      "rights": "Citation and original explanation only; no source images, diagrams or benchmark tables reproduced."
+    },
+    "obs": {
+      "publisher": "OBS Project",
+      "title": "Hardware encoding",
+      "url": "https://obsproject.com/kb/hardware-encoding",
+      "inspected": "2026-10-19",
+      "access": "Primary-source page opened and applicable text inspected",
+      "claims": [
+        "Available hardware encoders depend on hardware and software; selection belongs in the recording/streaming workflow."
+      ],
+      "limitations": "An encoder being selectable does not establish service acceptance, quality equivalence or zero performance cost.",
+      "rights": "Citation and original explanation only; no source images, diagrams or benchmark tables reproduced."
+    },
+    "undervolt": {
+      "publisher": "AMD",
+      "title": "Adrenalin GPU performance tuning",
+      "url": "https://www.amd.com/en/resources/support-articles/faqs/DH3-020.html",
+      "inspected": "2026-10-19",
+      "access": "Primary-source page opened and applicable text inspected",
+      "claims": [
+        "Undervolt options are available only on select GPUs; reset/default and stress-test behavior are documented."
+      ],
+      "limitations": "No voltage offsets or stability guarantees copied. Automatic recovery is not a substitute for backups or confirmation of stock behavior.",
+      "rights": "Citation and original explanation only; no source images, diagrams or benchmark tables reproduced."
+    },
+    "vram": {
+      "publisher": "Microsoft",
+      "title": "DXGI video-memory budget structure",
+      "url": "https://learn.microsoft.com/en-us/windows/win32/api/dxgi1_4/ns-dxgi1_4-dxgi_query_video_memory_info",
+      "inspected": "2026-10-19",
+      "access": "Primary-source page opened and applicable text inspected",
+      "claims": [
+        "Budget, CurrentUsage, AvailableForReservation and CurrentReservation are different quantities; exceeding the OS budget can cause performance penalties."
+      ],
+      "limitations": "Application API semantics do not identify what every overlay reports or determine a game’s exact needed VRAM/FPS.",
+      "rights": "Citation and original explanation only; no source images, diagrams or benchmark tables reproduced."
+    },
+    "airflow": {
+      "publisher": "Noctua",
+      "title": "Airflow guide: setup ideas",
+      "url": "https://www.noctua.at/en/support/faqs/airflow-guide-setup-ideas",
+      "inspected": "2026-10-19",
+      "access": "Primary-source page opened and applicable text inspected",
+      "claims": [
+        "Positive/negative pressure refers to intake/exhaust balance; case layouts differ and opposing flows/obstructions matter."
+      ],
+      "limitations": "No fan-count prescription, measured temperature improvement or guaranteed dust prevention imported.",
+      "rights": "Citation and original explanation only; no source images, diagrams or benchmark tables reproduced."
+    },
+    "aio": {
+      "publisher": "CORSAIR",
+      "title": "AIO radiator mounting guidance",
+      "url": "https://help.corsair.com/hc/en-us/articles/360049358271-AIO-How-should-I-mount-the-radiator-of-my-AIO-cooler",
+      "inspected": "2026-10-19",
+      "access": "Primary-source page opened and applicable text inspected",
+      "claims": [
+        "For the conventional CPU-pump layout discussed, keep the pump below the loop’s highest radiator point; top mount or suitable front/tubes-down configurations are described."
+      ],
+      "limitations": "Not every cooler has its pump in the CPU block. Product-specific instructions and case fit override a generic diagram.",
+      "rights": "Citation and original explanation only; no source images, diagrams or benchmark tables reproduced."
+    },
+    "noise": {
+      "publisher": "CDC/NIOSH",
+      "title": "Sound Level Meter app",
+      "url": "https://www.cdc.gov/niosh/noise/about/app.html",
+      "inspected": "2026-10-19",
+      "access": "Primary-source page opened and applicable text inspected",
+      "claims": [
+        "NIOSH validation is scoped to its iOS app and specified test conditions; calibrated external microphone conditions differ from an arbitrary phone reading."
+      ],
+      "limitations": "Not validation at very quiet PC noise levels or proof of a phone’s noise floor. This guide is not occupational exposure advice.",
+      "rights": "Citation and original explanation only; no source images, diagrams or benchmark tables reproduced."
+    },
+    "riser": {
+      "publisher": "CORSAIR",
+      "title": "PCIe 3.0 extension video-output troubleshooting",
+      "url": "https://help.corsair.com/hc/en-us/articles/360052676711-PCIe-3-0-Extension-How-to-fix-video-outputting-issues-when-using-the-CORSAIR-PCIe-3-0-extension-cable",
+      "inspected": "2026-10-19",
+      "access": "Primary-source page opened and applicable text inspected",
+      "claims": [
+        "For the named Gen3 extension with Gen4 devices, direct mounting allows access to firmware before selecting Gen3 and retrying the extension."
+      ],
+      "limitations": "Exact named older extension scenario only; not a blanket fix for all risers or a recommendation to force any unknown link mode.",
+      "rights": "Citation and original explanation only; no source images, diagrams or benchmark tables reproduced."
+    },
+    "paste": {
+      "publisher": "Noctua",
+      "title": "NT-H1/NT-H2 application and removal",
+      "url": "https://www.noctua.at/en/support/faqs/how-should-i-apply-the-nt-h1-or-nt-h2-thermal-paste-on-the-cpu-and-how-can-i-remove-it",
+      "inspected": "2026-10-19",
+      "access": "Primary-source page opened and applicable text inspected",
+      "claims": [
+        "When the heatsink is removed, Noctua recommends cleaning both contact surfaces and applying fresh compound; application instructions depend on the CPU/package."
+      ],
+      "limitations": "Only NT-H1/NT-H2 and relevant instructions; not a universal dose, replacement interval, or instruction for liquid metal.",
+      "rights": "Citation and original explanation only; no source images, diagrams or benchmark tables reproduced."
+    },
+    "sag": {
+      "publisher": "ASUS",
+      "title": "Installing the supplied graphics-card holder",
+      "url": "https://www.asus.com/us/support/faq/1054765/",
+      "inspected": "2026-10-19",
+      "access": "Primary-source page opened and applicable text inspected",
+      "claims": [
+        "Check exact-card accessory list; secure the card to the chassis; position the supported holder as specified without interference."
+      ],
+      "limitations": "Examples use particular ASUS products; no universal support location or guarantee for arbitrary heavy cards.",
+      "rights": "Citation and original explanation only; no source images, diagrams or benchmark tables reproduced."
+    },
+    "placement": {
+      "publisher": "Dell",
+      "title": "Desktop care and ventilation",
+      "url": "https://www.dell.com/support/kbdoc/en-us/000184427/best-practices-for-product-use-and-handling-for-dell-desktops",
+      "inspected": "2026-10-19",
+      "access": "Primary-source page opened and applicable text inspected",
+      "claims": [
+        "Avoid blocked vents, soft surfaces and unventilated enclosures; preserve the manufacturer’s clearance guidance."
+      ],
+      "limitations": "Dell’s specific numeric spacing examples are not a universal DIY case clearance rule.",
+      "rights": "Citation and original explanation only; no source images, diagrams or benchmark tables reproduced."
+    },
+    "zero": {
+      "publisher": "CORSAIR",
+      "title": "Zero-RPM power supplies",
+      "url": "https://help.corsair.com/hc/en-us/articles/4415184478477-PSU-What-are-zero-RPM-PSUs",
+      "inspected": "2026-10-19",
+      "access": "Primary-source page opened and applicable text inspected",
+      "claims": [
+        "Some PSU fans remain stopped under suitable conditions and start according to the model’s documented control behavior."
+      ],
+      "limitations": "No universal wattage/temperature threshold. A stationary fan is neither sufficient proof of health nor of failure.",
+      "rights": "Citation and original explanation only; no source images, diagrams or benchmark tables reproduced."
+    },
+    "activation": {
+      "publisher": "Microsoft",
+      "title": "Reactivating Windows after a hardware change",
+      "url": "https://support.microsoft.com/en-us/windows/activation/reactivating-windows-after-a-hardware-change",
+      "inspected": "2026-10-19",
+      "access": "Primary-source page opened and applicable text inspected",
+      "claims": [
+        "A motherboard change can require reactivation; preserve activation method and edition, and use Microsoft’s supported recovery path."
+      ],
+      "limitations": "License transfer rights vary; linking an account does not create a new transferable license.",
+      "rights": "Citation and original explanation only; no source images, diagrams or benchmark tables reproduced."
+    },
+    "bitlocker": {
+      "publisher": "Microsoft",
+      "title": "Find your BitLocker recovery key",
+      "url": "https://support.microsoft.com/en-us/windows/security/encryption/find-your-bitlocker-recovery-key",
+      "inspected": "2026-10-19",
+      "access": "Primary-source page opened and applicable text inspected",
+      "claims": [
+        "Hardware changes can trigger recovery; the correct recovery key must remain accessible; Microsoft cannot recreate a lost key."
+      ],
+      "limitations": "No secrets are collected by the site, and no encryption bypass or guarantee of recovery is offered.",
+      "rights": "Citation and original explanation only; no source images, diagrams or benchmark tables reproduced."
+    },
+    "resale": {
+      "publisher": "Microsoft",
+      "title": "Before selling, recycling or gifting a Windows PC",
+      "url": "https://support.microsoft.com/en-us/accounts-billing/security/before-you-recycle-sell-or-gift-your-xbox-or-windows-pc",
+      "inspected": "2026-10-19",
+      "access": "Primary-source page opened and applicable text inspected",
+      "claims": [
+        "Back up, reset appropriately and remove the retired device from the Microsoft account after the required preparation."
+      ],
+      "limitations": "Account removal alone does not erase local storage; no claim of certified sanitization for sensitive data.",
+      "rights": "Citation and original explanation only; no source images, diagrams or benchmark tables reproduced."
+    },
+    "reset": {
+      "publisher": "Microsoft",
+      "title": "Reset your PC",
+      "url": "https://support.microsoft.com/en-us/windows/experience/backup-recovery/reset-your-pc",
+      "inspected": "2026-10-19",
+      "access": "Primary-source page opened and applicable text inspected",
+      "claims": [
+        "Back up before reset; Keep my files and Remove everything differ; drive cleaning makes recovery harder but is not a government/industry sanitization standard."
+      ],
+      "limitations": "No universal secure-erasure guarantee for every drive, recovery partition, external device or sensitive-data use case.",
+      "rights": "Citation and original explanation only; no source images, diagrams or benchmark tables reproduced."
+    },
+    "flash": {
+      "publisher": "MSI",
+      "title": "Flash BIOS Button",
+      "url": "https://www.msi.com/support/technical_details/MB_Flash_BIOS_Button",
+      "inspected": "2026-10-19",
+      "access": "Primary-source page opened and applicable text inspected",
+      "claims": [
+        "Only supported models provide the button-based method; the correct model file, designated USB port and uninterrupted power matter."
+      ],
+      "limitations": "No universal filename, wait time or electrical sequence applied to other board manufacturers.",
+      "rights": "Citation and original explanation only; no source images, diagrams or benchmark tables reproduced."
+    },
+    "bios": {
+      "publisher": "ASUS",
+      "title": "Motherboard BIOS update methods",
+      "url": "https://www.asus.com/support/faq/1044348/",
+      "inspected": "2026-10-19",
+      "access": "Primary-source page opened and applicable text inspected",
+      "claims": [
+        "Firmware-menu updating and supported USB BIOS FlashBack are different methods; some upgrades require an intermediate version or old supported CPU/service."
+      ],
+      "limitations": "Cannot assume rollback is always possible; exact board revision/support instructions remain required.",
+      "rights": "Citation and original explanation only; no source images, diagrams or benchmark tables reproduced."
+    },
+    "quicksync": {
+      "publisher": "Intel",
+      "title": "Quick Sync with a separate GPU",
+      "url": "https://www.intel.com/content/www/us/en/support/articles/000094565/graphics.html",
+      "inspected": "2026-10-19",
+      "access": "Primary-source page opened and applicable text inspected",
+      "claims": [
+        "Processor-graphics Quick Sync acceleration depends on the integrated graphics remaining enabled."
+      ],
+      "limitations": "Does not certify every codec/profile or an exact export-speed improvement; this discussion is distinct from Intel Arc discrete media support.",
+      "rights": "Citation and original explanation only; no source images, diagrams or benchmark tables reproduced."
+    }
+  }
+}

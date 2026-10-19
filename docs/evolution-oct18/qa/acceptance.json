@@ -1,0 +1,3492 @@
+{
+  "checkedAt": "2026-10-19T13:44:46.654Z",
+  "scope": "348 initial captures; product-only responsive grid correction rechecked in 18 captures. Latest matching case supersedes initial product result; other destination CSS unchanged. Isolated Edge emulation, not a physical iPhone test.",
+  "captures": 366,
+  "acceptedStates": 348,
+  "failures": 0,
+  "interactionChecks": 7,
+  "interactionsPassed": true,
+  "passed": true,
+  "results": [
+    {
+      "route": "/",
+      "state": "page",
+      "viewport": 320,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "home-320-dark.png"
+    },
+    {
+      "route": "/builder/",
+      "state": "page",
+      "viewport": 320,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "builder-320-dark.png"
+    },
+    {
+      "route": "/upgrade/",
+      "state": "page",
+      "viewport": 320,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "upgrade-320-dark.png"
+    },
+    {
+      "route": "/compare/",
+      "state": "page",
+      "viewport": 320,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "compare-320-dark.png"
+    },
+    {
+      "route": "/my-pc/",
+      "state": "page",
+      "viewport": 320,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "workspace-320-dark.png"
+    },
+    {
+      "route": "/hardware/",
+      "state": "page",
+      "viewport": 320,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "hardware-320-dark.png"
+    },
+    {
+      "route": "/learn/rtx5070.html",
+      "state": "page",
+      "viewport": 320,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "product-recheck/report.json",
+      "screenshot": "product-320-dark.png"
+    },
+    {
+      "route": "/compatibility/",
+      "state": "page",
+      "viewport": 320,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "compatibility-320-dark.png"
+    },
+    {
+      "route": "/shop/",
+      "state": "page",
+      "viewport": 320,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "shop-320-dark.png"
+    },
+    {
+      "route": "/build-school/",
+      "state": "page",
+      "viewport": 320,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "school-320-dark.png"
+    },
+    {
+      "route": "/blog/",
+      "state": "page",
+      "viewport": 320,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "blog-320-dark.png"
+    },
+    {
+      "route": "/blog/32gb-vs-64gb-ram-workloads/",
+      "state": "page",
+      "viewport": 320,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "article-320-dark.png"
+    },
+    {
+      "route": "/search/?q=gpu",
+      "state": "page",
+      "viewport": 320,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "search-320-dark.png"
+    },
+    {
+      "route": "/performance/",
+      "state": "page",
+      "viewport": 320,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "performance-320-dark.png"
+    },
+    {
+      "route": "/phones/size-compare/",
+      "state": "page",
+      "viewport": 320,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "phones-320-dark.png"
+    },
+    {
+      "route": "/prebuilts/",
+      "state": "page",
+      "viewport": 320,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "prebuilts-320-dark.png"
+    },
+    {
+      "route": "/laptops/",
+      "state": "page",
+      "viewport": 320,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "laptops-320-dark.png"
+    },
+    {
+      "route": "/tools/",
+      "state": "page",
+      "viewport": 320,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "tools-320-dark.png"
+    },
+    {
+      "route": "/news/",
+      "state": "page",
+      "viewport": 320,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "news-320-dark.png"
+    },
+    {
+      "route": "/",
+      "state": "page",
+      "viewport": 360,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "home-360-dark.png"
+    },
+    {
+      "route": "/builder/",
+      "state": "page",
+      "viewport": 360,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "builder-360-dark.png"
+    },
+    {
+      "route": "/upgrade/",
+      "state": "page",
+      "viewport": 360,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "upgrade-360-dark.png"
+    },
+    {
+      "route": "/compare/",
+      "state": "page",
+      "viewport": 360,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "compare-360-dark.png"
+    },
+    {
+      "route": "/my-pc/",
+      "state": "page",
+      "viewport": 360,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "workspace-360-dark.png"
+    },
+    {
+      "route": "/hardware/",
+      "state": "page",
+      "viewport": 360,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "hardware-360-dark.png"
+    },
+    {
+      "route": "/learn/rtx5070.html",
+      "state": "page",
+      "viewport": 360,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "product-recheck/report.json",
+      "screenshot": "product-360-dark.png"
+    },
+    {
+      "route": "/compatibility/",
+      "state": "page",
+      "viewport": 360,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "compatibility-360-dark.png"
+    },
+    {
+      "route": "/shop/",
+      "state": "page",
+      "viewport": 360,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "shop-360-dark.png"
+    },
+    {
+      "route": "/build-school/",
+      "state": "page",
+      "viewport": 360,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "school-360-dark.png"
+    },
+    {
+      "route": "/blog/",
+      "state": "page",
+      "viewport": 360,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "blog-360-dark.png"
+    },
+    {
+      "route": "/blog/32gb-vs-64gb-ram-workloads/",
+      "state": "page",
+      "viewport": 360,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "article-360-dark.png"
+    },
+    {
+      "route": "/search/?q=gpu",
+      "state": "page",
+      "viewport": 360,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "search-360-dark.png"
+    },
+    {
+      "route": "/performance/",
+      "state": "page",
+      "viewport": 360,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "performance-360-dark.png"
+    },
+    {
+      "route": "/phones/size-compare/",
+      "state": "page",
+      "viewport": 360,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "phones-360-dark.png"
+    },
+    {
+      "route": "/prebuilts/",
+      "state": "page",
+      "viewport": 360,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "prebuilts-360-dark.png"
+    },
+    {
+      "route": "/laptops/",
+      "state": "page",
+      "viewport": 360,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "laptops-360-dark.png"
+    },
+    {
+      "route": "/tools/",
+      "state": "page",
+      "viewport": 360,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "tools-360-dark.png"
+    },
+    {
+      "route": "/news/",
+      "state": "page",
+      "viewport": 360,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "news-360-dark.png"
+    },
+    {
+      "route": "/",
+      "state": "page",
+      "viewport": 375,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "home-375-dark.png"
+    },
+    {
+      "route": "/builder/",
+      "state": "page",
+      "viewport": 375,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "builder-375-dark.png"
+    },
+    {
+      "route": "/upgrade/",
+      "state": "page",
+      "viewport": 375,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "upgrade-375-dark.png"
+    },
+    {
+      "route": "/compare/",
+      "state": "page",
+      "viewport": 375,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "compare-375-dark.png"
+    },
+    {
+      "route": "/my-pc/",
+      "state": "page",
+      "viewport": 375,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "workspace-375-dark.png"
+    },
+    {
+      "route": "/hardware/",
+      "state": "page",
+      "viewport": 375,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "hardware-375-dark.png"
+    },
+    {
+      "route": "/learn/rtx5070.html",
+      "state": "page",
+      "viewport": 375,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "product-recheck/report.json",
+      "screenshot": "product-375-dark.png"
+    },
+    {
+      "route": "/compatibility/",
+      "state": "page",
+      "viewport": 375,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "compatibility-375-dark.png"
+    },
+    {
+      "route": "/shop/",
+      "state": "page",
+      "viewport": 375,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "shop-375-dark.png"
+    },
+    {
+      "route": "/build-school/",
+      "state": "page",
+      "viewport": 375,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "school-375-dark.png"
+    },
+    {
+      "route": "/blog/",
+      "state": "page",
+      "viewport": 375,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "blog-375-dark.png"
+    },
+    {
+      "route": "/blog/32gb-vs-64gb-ram-workloads/",
+      "state": "page",
+      "viewport": 375,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "article-375-dark.png"
+    },
+    {
+      "route": "/search/?q=gpu",
+      "state": "page",
+      "viewport": 375,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "search-375-dark.png"
+    },
+    {
+      "route": "/performance/",
+      "state": "page",
+      "viewport": 375,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "performance-375-dark.png"
+    },
+    {
+      "route": "/phones/size-compare/",
+      "state": "page",
+      "viewport": 375,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "phones-375-dark.png"
+    },
+    {
+      "route": "/prebuilts/",
+      "state": "page",
+      "viewport": 375,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "prebuilts-375-dark.png"
+    },
+    {
+      "route": "/laptops/",
+      "state": "page",
+      "viewport": 375,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "laptops-375-dark.png"
+    },
+    {
+      "route": "/tools/",
+      "state": "page",
+      "viewport": 375,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "tools-375-dark.png"
+    },
+    {
+      "route": "/news/",
+      "state": "page",
+      "viewport": 375,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "news-375-dark.png"
+    },
+    {
+      "route": "/",
+      "state": "page",
+      "viewport": 390,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "home-390-dark.png"
+    },
+    {
+      "route": "/",
+      "state": "mobile menu",
+      "viewport": 390,
+      "theme": "dark",
+      "status": null,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "menu-390-dark.png"
+    },
+    {
+      "route": "/builder/",
+      "state": "page",
+      "viewport": 390,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "builder-390-dark.png"
+    },
+    {
+      "route": "/builder/",
+      "state": "picker CPU",
+      "viewport": 390,
+      "theme": "dark",
+      "status": null,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "picker-cpu-390-dark.png"
+    },
+    {
+      "route": "/builder/",
+      "state": "picker Power supply",
+      "viewport": 390,
+      "theme": "dark",
+      "status": null,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "picker-psu-390-dark.png"
+    },
+    {
+      "route": "/upgrade/",
+      "state": "page",
+      "viewport": 390,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "upgrade-390-dark.png"
+    },
+    {
+      "route": "/compare/",
+      "state": "page",
+      "viewport": 390,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "compare-390-dark.png"
+    },
+    {
+      "route": "/my-pc/",
+      "state": "page",
+      "viewport": 390,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "workspace-390-dark.png"
+    },
+    {
+      "route": "/hardware/",
+      "state": "page",
+      "viewport": 390,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "hardware-390-dark.png"
+    },
+    {
+      "route": "/learn/rtx5070.html",
+      "state": "page",
+      "viewport": 390,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "product-recheck/report.json",
+      "screenshot": "product-390-dark.png"
+    },
+    {
+      "route": "/compatibility/",
+      "state": "page",
+      "viewport": 390,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "compatibility-390-dark.png"
+    },
+    {
+      "route": "/shop/",
+      "state": "page",
+      "viewport": 390,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "shop-390-dark.png"
+    },
+    {
+      "route": "/build-school/",
+      "state": "page",
+      "viewport": 390,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "school-390-dark.png"
+    },
+    {
+      "route": "/blog/",
+      "state": "page",
+      "viewport": 390,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "blog-390-dark.png"
+    },
+    {
+      "route": "/blog/32gb-vs-64gb-ram-workloads/",
+      "state": "page",
+      "viewport": 390,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "article-390-dark.png"
+    },
+    {
+      "route": "/search/?q=gpu",
+      "state": "page",
+      "viewport": 390,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "search-390-dark.png"
+    },
+    {
+      "route": "/performance/",
+      "state": "page",
+      "viewport": 390,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "performance-390-dark.png"
+    },
+    {
+      "route": "/phones/size-compare/",
+      "state": "page",
+      "viewport": 390,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "phones-390-dark.png"
+    },
+    {
+      "route": "/prebuilts/",
+      "state": "page",
+      "viewport": 390,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "prebuilts-390-dark.png"
+    },
+    {
+      "route": "/laptops/",
+      "state": "page",
+      "viewport": 390,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "laptops-390-dark.png"
+    },
+    {
+      "route": "/tools/",
+      "state": "page",
+      "viewport": 390,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "tools-390-dark.png"
+    },
+    {
+      "route": "/news/",
+      "state": "page",
+      "viewport": 390,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "news-390-dark.png"
+    },
+    {
+      "route": "/",
+      "state": "page",
+      "viewport": 430,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "home-430-dark.png"
+    },
+    {
+      "route": "/builder/",
+      "state": "page",
+      "viewport": 430,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "builder-430-dark.png"
+    },
+    {
+      "route": "/upgrade/",
+      "state": "page",
+      "viewport": 430,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "upgrade-430-dark.png"
+    },
+    {
+      "route": "/compare/",
+      "state": "page",
+      "viewport": 430,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "compare-430-dark.png"
+    },
+    {
+      "route": "/my-pc/",
+      "state": "page",
+      "viewport": 430,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "workspace-430-dark.png"
+    },
+    {
+      "route": "/hardware/",
+      "state": "page",
+      "viewport": 430,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "hardware-430-dark.png"
+    },
+    {
+      "route": "/learn/rtx5070.html",
+      "state": "page",
+      "viewport": 430,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "product-recheck/report.json",
+      "screenshot": "product-430-dark.png"
+    },
+    {
+      "route": "/compatibility/",
+      "state": "page",
+      "viewport": 430,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "compatibility-430-dark.png"
+    },
+    {
+      "route": "/shop/",
+      "state": "page",
+      "viewport": 430,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "shop-430-dark.png"
+    },
+    {
+      "route": "/build-school/",
+      "state": "page",
+      "viewport": 430,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "school-430-dark.png"
+    },
+    {
+      "route": "/blog/",
+      "state": "page",
+      "viewport": 430,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "blog-430-dark.png"
+    },
+    {
+      "route": "/blog/32gb-vs-64gb-ram-workloads/",
+      "state": "page",
+      "viewport": 430,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "article-430-dark.png"
+    },
+    {
+      "route": "/search/?q=gpu",
+      "state": "page",
+      "viewport": 430,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "search-430-dark.png"
+    },
+    {
+      "route": "/performance/",
+      "state": "page",
+      "viewport": 430,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "performance-430-dark.png"
+    },
+    {
+      "route": "/phones/size-compare/",
+      "state": "page",
+      "viewport": 430,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "phones-430-dark.png"
+    },
+    {
+      "route": "/prebuilts/",
+      "state": "page",
+      "viewport": 430,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "prebuilts-430-dark.png"
+    },
+    {
+      "route": "/laptops/",
+      "state": "page",
+      "viewport": 430,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "laptops-430-dark.png"
+    },
+    {
+      "route": "/tools/",
+      "state": "page",
+      "viewport": 430,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "tools-430-dark.png"
+    },
+    {
+      "route": "/news/",
+      "state": "page",
+      "viewport": 430,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "news-430-dark.png"
+    },
+    {
+      "route": "/",
+      "state": "page",
+      "viewport": 768,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "home-768-dark.png"
+    },
+    {
+      "route": "/builder/",
+      "state": "page",
+      "viewport": 768,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "builder-768-dark.png"
+    },
+    {
+      "route": "/upgrade/",
+      "state": "page",
+      "viewport": 768,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "upgrade-768-dark.png"
+    },
+    {
+      "route": "/compare/",
+      "state": "page",
+      "viewport": 768,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "compare-768-dark.png"
+    },
+    {
+      "route": "/my-pc/",
+      "state": "page",
+      "viewport": 768,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "workspace-768-dark.png"
+    },
+    {
+      "route": "/hardware/",
+      "state": "page",
+      "viewport": 768,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "hardware-768-dark.png"
+    },
+    {
+      "route": "/learn/rtx5070.html",
+      "state": "page",
+      "viewport": 768,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "product-recheck/report.json",
+      "screenshot": "product-768-dark.png"
+    },
+    {
+      "route": "/compatibility/",
+      "state": "page",
+      "viewport": 768,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "compatibility-768-dark.png"
+    },
+    {
+      "route": "/shop/",
+      "state": "page",
+      "viewport": 768,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "shop-768-dark.png"
+    },
+    {
+      "route": "/build-school/",
+      "state": "page",
+      "viewport": 768,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "school-768-dark.png"
+    },
+    {
+      "route": "/blog/",
+      "state": "page",
+      "viewport": 768,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "blog-768-dark.png"
+    },
+    {
+      "route": "/blog/32gb-vs-64gb-ram-workloads/",
+      "state": "page",
+      "viewport": 768,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "article-768-dark.png"
+    },
+    {
+      "route": "/search/?q=gpu",
+      "state": "page",
+      "viewport": 768,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "search-768-dark.png"
+    },
+    {
+      "route": "/performance/",
+      "state": "page",
+      "viewport": 768,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "performance-768-dark.png"
+    },
+    {
+      "route": "/phones/size-compare/",
+      "state": "page",
+      "viewport": 768,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "phones-768-dark.png"
+    },
+    {
+      "route": "/prebuilts/",
+      "state": "page",
+      "viewport": 768,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "prebuilts-768-dark.png"
+    },
+    {
+      "route": "/laptops/",
+      "state": "page",
+      "viewport": 768,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "laptops-768-dark.png"
+    },
+    {
+      "route": "/tools/",
+      "state": "page",
+      "viewport": 768,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "tools-768-dark.png"
+    },
+    {
+      "route": "/news/",
+      "state": "page",
+      "viewport": 768,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "news-768-dark.png"
+    },
+    {
+      "route": "/",
+      "state": "page",
+      "viewport": 1024,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "home-1024-dark.png"
+    },
+    {
+      "route": "/builder/",
+      "state": "page",
+      "viewport": 1024,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "builder-1024-dark.png"
+    },
+    {
+      "route": "/upgrade/",
+      "state": "page",
+      "viewport": 1024,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "upgrade-1024-dark.png"
+    },
+    {
+      "route": "/compare/",
+      "state": "page",
+      "viewport": 1024,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "compare-1024-dark.png"
+    },
+    {
+      "route": "/my-pc/",
+      "state": "page",
+      "viewport": 1024,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "workspace-1024-dark.png"
+    },
+    {
+      "route": "/hardware/",
+      "state": "page",
+      "viewport": 1024,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "hardware-1024-dark.png"
+    },
+    {
+      "route": "/learn/rtx5070.html",
+      "state": "page",
+      "viewport": 1024,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "product-recheck/report.json",
+      "screenshot": "product-1024-dark.png"
+    },
+    {
+      "route": "/compatibility/",
+      "state": "page",
+      "viewport": 1024,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "compatibility-1024-dark.png"
+    },
+    {
+      "route": "/shop/",
+      "state": "page",
+      "viewport": 1024,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "shop-1024-dark.png"
+    },
+    {
+      "route": "/build-school/",
+      "state": "page",
+      "viewport": 1024,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "school-1024-dark.png"
+    },
+    {
+      "route": "/blog/",
+      "state": "page",
+      "viewport": 1024,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "blog-1024-dark.png"
+    },
+    {
+      "route": "/blog/32gb-vs-64gb-ram-workloads/",
+      "state": "page",
+      "viewport": 1024,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "article-1024-dark.png"
+    },
+    {
+      "route": "/search/?q=gpu",
+      "state": "page",
+      "viewport": 1024,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "search-1024-dark.png"
+    },
+    {
+      "route": "/performance/",
+      "state": "page",
+      "viewport": 1024,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "performance-1024-dark.png"
+    },
+    {
+      "route": "/phones/size-compare/",
+      "state": "page",
+      "viewport": 1024,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "phones-1024-dark.png"
+    },
+    {
+      "route": "/prebuilts/",
+      "state": "page",
+      "viewport": 1024,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "prebuilts-1024-dark.png"
+    },
+    {
+      "route": "/laptops/",
+      "state": "page",
+      "viewport": 1024,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "laptops-1024-dark.png"
+    },
+    {
+      "route": "/tools/",
+      "state": "page",
+      "viewport": 1024,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "tools-1024-dark.png"
+    },
+    {
+      "route": "/news/",
+      "state": "page",
+      "viewport": 1024,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "news-1024-dark.png"
+    },
+    {
+      "route": "/",
+      "state": "page",
+      "viewport": 1440,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "home-1440-dark.png"
+    },
+    {
+      "route": "/builder/",
+      "state": "page",
+      "viewport": 1440,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "builder-1440-dark.png"
+    },
+    {
+      "route": "/upgrade/",
+      "state": "page",
+      "viewport": 1440,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "upgrade-1440-dark.png"
+    },
+    {
+      "route": "/compare/",
+      "state": "page",
+      "viewport": 1440,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "compare-1440-dark.png"
+    },
+    {
+      "route": "/my-pc/",
+      "state": "page",
+      "viewport": 1440,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "workspace-1440-dark.png"
+    },
+    {
+      "route": "/hardware/",
+      "state": "page",
+      "viewport": 1440,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "hardware-1440-dark.png"
+    },
+    {
+      "route": "/learn/rtx5070.html",
+      "state": "page",
+      "viewport": 1440,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "product-recheck/report.json",
+      "screenshot": "product-1440-dark.png"
+    },
+    {
+      "route": "/compatibility/",
+      "state": "page",
+      "viewport": 1440,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "compatibility-1440-dark.png"
+    },
+    {
+      "route": "/shop/",
+      "state": "page",
+      "viewport": 1440,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "shop-1440-dark.png"
+    },
+    {
+      "route": "/build-school/",
+      "state": "page",
+      "viewport": 1440,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "school-1440-dark.png"
+    },
+    {
+      "route": "/blog/",
+      "state": "page",
+      "viewport": 1440,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "blog-1440-dark.png"
+    },
+    {
+      "route": "/blog/32gb-vs-64gb-ram-workloads/",
+      "state": "page",
+      "viewport": 1440,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "article-1440-dark.png"
+    },
+    {
+      "route": "/search/?q=gpu",
+      "state": "page",
+      "viewport": 1440,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "search-1440-dark.png"
+    },
+    {
+      "route": "/performance/",
+      "state": "page",
+      "viewport": 1440,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "performance-1440-dark.png"
+    },
+    {
+      "route": "/phones/size-compare/",
+      "state": "page",
+      "viewport": 1440,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "phones-1440-dark.png"
+    },
+    {
+      "route": "/prebuilts/",
+      "state": "page",
+      "viewport": 1440,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "prebuilts-1440-dark.png"
+    },
+    {
+      "route": "/laptops/",
+      "state": "page",
+      "viewport": 1440,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "laptops-1440-dark.png"
+    },
+    {
+      "route": "/tools/",
+      "state": "page",
+      "viewport": 1440,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "tools-1440-dark.png"
+    },
+    {
+      "route": "/news/",
+      "state": "page",
+      "viewport": 1440,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "news-1440-dark.png"
+    },
+    {
+      "route": "/",
+      "state": "page",
+      "viewport": 1920,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "home-1920-dark.png"
+    },
+    {
+      "route": "/builder/",
+      "state": "page",
+      "viewport": 1920,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "builder-1920-dark.png"
+    },
+    {
+      "route": "/upgrade/",
+      "state": "page",
+      "viewport": 1920,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "upgrade-1920-dark.png"
+    },
+    {
+      "route": "/compare/",
+      "state": "page",
+      "viewport": 1920,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "compare-1920-dark.png"
+    },
+    {
+      "route": "/my-pc/",
+      "state": "page",
+      "viewport": 1920,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "workspace-1920-dark.png"
+    },
+    {
+      "route": "/hardware/",
+      "state": "page",
+      "viewport": 1920,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "hardware-1920-dark.png"
+    },
+    {
+      "route": "/learn/rtx5070.html",
+      "state": "page",
+      "viewport": 1920,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "product-recheck/report.json",
+      "screenshot": "product-1920-dark.png"
+    },
+    {
+      "route": "/compatibility/",
+      "state": "page",
+      "viewport": 1920,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "compatibility-1920-dark.png"
+    },
+    {
+      "route": "/shop/",
+      "state": "page",
+      "viewport": 1920,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "shop-1920-dark.png"
+    },
+    {
+      "route": "/build-school/",
+      "state": "page",
+      "viewport": 1920,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "school-1920-dark.png"
+    },
+    {
+      "route": "/blog/",
+      "state": "page",
+      "viewport": 1920,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "blog-1920-dark.png"
+    },
+    {
+      "route": "/blog/32gb-vs-64gb-ram-workloads/",
+      "state": "page",
+      "viewport": 1920,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "article-1920-dark.png"
+    },
+    {
+      "route": "/search/?q=gpu",
+      "state": "page",
+      "viewport": 1920,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "search-1920-dark.png"
+    },
+    {
+      "route": "/performance/",
+      "state": "page",
+      "viewport": 1920,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "performance-1920-dark.png"
+    },
+    {
+      "route": "/phones/size-compare/",
+      "state": "page",
+      "viewport": 1920,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "phones-1920-dark.png"
+    },
+    {
+      "route": "/prebuilts/",
+      "state": "page",
+      "viewport": 1920,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "prebuilts-1920-dark.png"
+    },
+    {
+      "route": "/laptops/",
+      "state": "page",
+      "viewport": 1920,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "laptops-1920-dark.png"
+    },
+    {
+      "route": "/tools/",
+      "state": "page",
+      "viewport": 1920,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "tools-1920-dark.png"
+    },
+    {
+      "route": "/news/",
+      "state": "page",
+      "viewport": 1920,
+      "theme": "dark",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "news-1920-dark.png"
+    },
+    {
+      "route": "/",
+      "state": "page",
+      "viewport": 320,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "home-320-light.png"
+    },
+    {
+      "route": "/builder/",
+      "state": "page",
+      "viewport": 320,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "builder-320-light.png"
+    },
+    {
+      "route": "/upgrade/",
+      "state": "page",
+      "viewport": 320,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "upgrade-320-light.png"
+    },
+    {
+      "route": "/compare/",
+      "state": "page",
+      "viewport": 320,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "compare-320-light.png"
+    },
+    {
+      "route": "/my-pc/",
+      "state": "page",
+      "viewport": 320,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "workspace-320-light.png"
+    },
+    {
+      "route": "/hardware/",
+      "state": "page",
+      "viewport": 320,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "hardware-320-light.png"
+    },
+    {
+      "route": "/learn/rtx5070.html",
+      "state": "page",
+      "viewport": 320,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "product-recheck/report.json",
+      "screenshot": "product-320-light.png"
+    },
+    {
+      "route": "/compatibility/",
+      "state": "page",
+      "viewport": 320,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "compatibility-320-light.png"
+    },
+    {
+      "route": "/shop/",
+      "state": "page",
+      "viewport": 320,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "shop-320-light.png"
+    },
+    {
+      "route": "/build-school/",
+      "state": "page",
+      "viewport": 320,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "school-320-light.png"
+    },
+    {
+      "route": "/blog/",
+      "state": "page",
+      "viewport": 320,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "blog-320-light.png"
+    },
+    {
+      "route": "/blog/32gb-vs-64gb-ram-workloads/",
+      "state": "page",
+      "viewport": 320,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "article-320-light.png"
+    },
+    {
+      "route": "/search/?q=gpu",
+      "state": "page",
+      "viewport": 320,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "search-320-light.png"
+    },
+    {
+      "route": "/performance/",
+      "state": "page",
+      "viewport": 320,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "performance-320-light.png"
+    },
+    {
+      "route": "/phones/size-compare/",
+      "state": "page",
+      "viewport": 320,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "phones-320-light.png"
+    },
+    {
+      "route": "/prebuilts/",
+      "state": "page",
+      "viewport": 320,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "prebuilts-320-light.png"
+    },
+    {
+      "route": "/laptops/",
+      "state": "page",
+      "viewport": 320,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "laptops-320-light.png"
+    },
+    {
+      "route": "/tools/",
+      "state": "page",
+      "viewport": 320,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "tools-320-light.png"
+    },
+    {
+      "route": "/news/",
+      "state": "page",
+      "viewport": 320,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "news-320-light.png"
+    },
+    {
+      "route": "/",
+      "state": "page",
+      "viewport": 360,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "home-360-light.png"
+    },
+    {
+      "route": "/builder/",
+      "state": "page",
+      "viewport": 360,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "builder-360-light.png"
+    },
+    {
+      "route": "/upgrade/",
+      "state": "page",
+      "viewport": 360,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "upgrade-360-light.png"
+    },
+    {
+      "route": "/compare/",
+      "state": "page",
+      "viewport": 360,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "compare-360-light.png"
+    },
+    {
+      "route": "/my-pc/",
+      "state": "page",
+      "viewport": 360,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "workspace-360-light.png"
+    },
+    {
+      "route": "/hardware/",
+      "state": "page",
+      "viewport": 360,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "hardware-360-light.png"
+    },
+    {
+      "route": "/learn/rtx5070.html",
+      "state": "page",
+      "viewport": 360,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "product-recheck/report.json",
+      "screenshot": "product-360-light.png"
+    },
+    {
+      "route": "/compatibility/",
+      "state": "page",
+      "viewport": 360,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "compatibility-360-light.png"
+    },
+    {
+      "route": "/shop/",
+      "state": "page",
+      "viewport": 360,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "shop-360-light.png"
+    },
+    {
+      "route": "/build-school/",
+      "state": "page",
+      "viewport": 360,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "school-360-light.png"
+    },
+    {
+      "route": "/blog/",
+      "state": "page",
+      "viewport": 360,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "blog-360-light.png"
+    },
+    {
+      "route": "/blog/32gb-vs-64gb-ram-workloads/",
+      "state": "page",
+      "viewport": 360,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "article-360-light.png"
+    },
+    {
+      "route": "/search/?q=gpu",
+      "state": "page",
+      "viewport": 360,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "search-360-light.png"
+    },
+    {
+      "route": "/performance/",
+      "state": "page",
+      "viewport": 360,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "performance-360-light.png"
+    },
+    {
+      "route": "/phones/size-compare/",
+      "state": "page",
+      "viewport": 360,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "phones-360-light.png"
+    },
+    {
+      "route": "/prebuilts/",
+      "state": "page",
+      "viewport": 360,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "prebuilts-360-light.png"
+    },
+    {
+      "route": "/laptops/",
+      "state": "page",
+      "viewport": 360,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "laptops-360-light.png"
+    },
+    {
+      "route": "/tools/",
+      "state": "page",
+      "viewport": 360,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "tools-360-light.png"
+    },
+    {
+      "route": "/news/",
+      "state": "page",
+      "viewport": 360,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "news-360-light.png"
+    },
+    {
+      "route": "/",
+      "state": "page",
+      "viewport": 375,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "home-375-light.png"
+    },
+    {
+      "route": "/builder/",
+      "state": "page",
+      "viewport": 375,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "builder-375-light.png"
+    },
+    {
+      "route": "/upgrade/",
+      "state": "page",
+      "viewport": 375,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "upgrade-375-light.png"
+    },
+    {
+      "route": "/compare/",
+      "state": "page",
+      "viewport": 375,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "compare-375-light.png"
+    },
+    {
+      "route": "/my-pc/",
+      "state": "page",
+      "viewport": 375,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "workspace-375-light.png"
+    },
+    {
+      "route": "/hardware/",
+      "state": "page",
+      "viewport": 375,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "hardware-375-light.png"
+    },
+    {
+      "route": "/learn/rtx5070.html",
+      "state": "page",
+      "viewport": 375,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "product-recheck/report.json",
+      "screenshot": "product-375-light.png"
+    },
+    {
+      "route": "/compatibility/",
+      "state": "page",
+      "viewport": 375,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "compatibility-375-light.png"
+    },
+    {
+      "route": "/shop/",
+      "state": "page",
+      "viewport": 375,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "shop-375-light.png"
+    },
+    {
+      "route": "/build-school/",
+      "state": "page",
+      "viewport": 375,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "school-375-light.png"
+    },
+    {
+      "route": "/blog/",
+      "state": "page",
+      "viewport": 375,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "blog-375-light.png"
+    },
+    {
+      "route": "/blog/32gb-vs-64gb-ram-workloads/",
+      "state": "page",
+      "viewport": 375,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "article-375-light.png"
+    },
+    {
+      "route": "/search/?q=gpu",
+      "state": "page",
+      "viewport": 375,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "search-375-light.png"
+    },
+    {
+      "route": "/performance/",
+      "state": "page",
+      "viewport": 375,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "performance-375-light.png"
+    },
+    {
+      "route": "/phones/size-compare/",
+      "state": "page",
+      "viewport": 375,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "phones-375-light.png"
+    },
+    {
+      "route": "/prebuilts/",
+      "state": "page",
+      "viewport": 375,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "prebuilts-375-light.png"
+    },
+    {
+      "route": "/laptops/",
+      "state": "page",
+      "viewport": 375,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "laptops-375-light.png"
+    },
+    {
+      "route": "/tools/",
+      "state": "page",
+      "viewport": 375,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "tools-375-light.png"
+    },
+    {
+      "route": "/news/",
+      "state": "page",
+      "viewport": 375,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "news-375-light.png"
+    },
+    {
+      "route": "/",
+      "state": "page",
+      "viewport": 390,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "home-390-light.png"
+    },
+    {
+      "route": "/",
+      "state": "mobile menu",
+      "viewport": 390,
+      "theme": "light",
+      "status": null,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "menu-390-light.png"
+    },
+    {
+      "route": "/builder/",
+      "state": "page",
+      "viewport": 390,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "builder-390-light.png"
+    },
+    {
+      "route": "/builder/",
+      "state": "picker CPU",
+      "viewport": 390,
+      "theme": "light",
+      "status": null,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "picker-cpu-390-light.png"
+    },
+    {
+      "route": "/builder/",
+      "state": "picker Power supply",
+      "viewport": 390,
+      "theme": "light",
+      "status": null,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "picker-psu-390-light.png"
+    },
+    {
+      "route": "/upgrade/",
+      "state": "page",
+      "viewport": 390,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "upgrade-390-light.png"
+    },
+    {
+      "route": "/compare/",
+      "state": "page",
+      "viewport": 390,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "compare-390-light.png"
+    },
+    {
+      "route": "/my-pc/",
+      "state": "page",
+      "viewport": 390,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "workspace-390-light.png"
+    },
+    {
+      "route": "/hardware/",
+      "state": "page",
+      "viewport": 390,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "hardware-390-light.png"
+    },
+    {
+      "route": "/learn/rtx5070.html",
+      "state": "page",
+      "viewport": 390,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "product-recheck/report.json",
+      "screenshot": "product-390-light.png"
+    },
+    {
+      "route": "/compatibility/",
+      "state": "page",
+      "viewport": 390,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "compatibility-390-light.png"
+    },
+    {
+      "route": "/shop/",
+      "state": "page",
+      "viewport": 390,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "shop-390-light.png"
+    },
+    {
+      "route": "/build-school/",
+      "state": "page",
+      "viewport": 390,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "school-390-light.png"
+    },
+    {
+      "route": "/blog/",
+      "state": "page",
+      "viewport": 390,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "blog-390-light.png"
+    },
+    {
+      "route": "/blog/32gb-vs-64gb-ram-workloads/",
+      "state": "page",
+      "viewport": 390,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "article-390-light.png"
+    },
+    {
+      "route": "/search/?q=gpu",
+      "state": "page",
+      "viewport": 390,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "search-390-light.png"
+    },
+    {
+      "route": "/performance/",
+      "state": "page",
+      "viewport": 390,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "performance-390-light.png"
+    },
+    {
+      "route": "/phones/size-compare/",
+      "state": "page",
+      "viewport": 390,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "phones-390-light.png"
+    },
+    {
+      "route": "/prebuilts/",
+      "state": "page",
+      "viewport": 390,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "prebuilts-390-light.png"
+    },
+    {
+      "route": "/laptops/",
+      "state": "page",
+      "viewport": 390,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "laptops-390-light.png"
+    },
+    {
+      "route": "/tools/",
+      "state": "page",
+      "viewport": 390,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "tools-390-light.png"
+    },
+    {
+      "route": "/news/",
+      "state": "page",
+      "viewport": 390,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "news-390-light.png"
+    },
+    {
+      "route": "/",
+      "state": "page",
+      "viewport": 430,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "home-430-light.png"
+    },
+    {
+      "route": "/builder/",
+      "state": "page",
+      "viewport": 430,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "builder-430-light.png"
+    },
+    {
+      "route": "/upgrade/",
+      "state": "page",
+      "viewport": 430,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "upgrade-430-light.png"
+    },
+    {
+      "route": "/compare/",
+      "state": "page",
+      "viewport": 430,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "compare-430-light.png"
+    },
+    {
+      "route": "/my-pc/",
+      "state": "page",
+      "viewport": 430,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "workspace-430-light.png"
+    },
+    {
+      "route": "/hardware/",
+      "state": "page",
+      "viewport": 430,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "hardware-430-light.png"
+    },
+    {
+      "route": "/learn/rtx5070.html",
+      "state": "page",
+      "viewport": 430,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "product-recheck/report.json",
+      "screenshot": "product-430-light.png"
+    },
+    {
+      "route": "/compatibility/",
+      "state": "page",
+      "viewport": 430,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "compatibility-430-light.png"
+    },
+    {
+      "route": "/shop/",
+      "state": "page",
+      "viewport": 430,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "shop-430-light.png"
+    },
+    {
+      "route": "/build-school/",
+      "state": "page",
+      "viewport": 430,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "school-430-light.png"
+    },
+    {
+      "route": "/blog/",
+      "state": "page",
+      "viewport": 430,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "blog-430-light.png"
+    },
+    {
+      "route": "/blog/32gb-vs-64gb-ram-workloads/",
+      "state": "page",
+      "viewport": 430,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "article-430-light.png"
+    },
+    {
+      "route": "/search/?q=gpu",
+      "state": "page",
+      "viewport": 430,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "search-430-light.png"
+    },
+    {
+      "route": "/performance/",
+      "state": "page",
+      "viewport": 430,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "performance-430-light.png"
+    },
+    {
+      "route": "/phones/size-compare/",
+      "state": "page",
+      "viewport": 430,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "phones-430-light.png"
+    },
+    {
+      "route": "/prebuilts/",
+      "state": "page",
+      "viewport": 430,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "prebuilts-430-light.png"
+    },
+    {
+      "route": "/laptops/",
+      "state": "page",
+      "viewport": 430,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "laptops-430-light.png"
+    },
+    {
+      "route": "/tools/",
+      "state": "page",
+      "viewport": 430,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "tools-430-light.png"
+    },
+    {
+      "route": "/news/",
+      "state": "page",
+      "viewport": 430,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "news-430-light.png"
+    },
+    {
+      "route": "/",
+      "state": "page",
+      "viewport": 768,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "home-768-light.png"
+    },
+    {
+      "route": "/builder/",
+      "state": "page",
+      "viewport": 768,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "builder-768-light.png"
+    },
+    {
+      "route": "/upgrade/",
+      "state": "page",
+      "viewport": 768,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "upgrade-768-light.png"
+    },
+    {
+      "route": "/compare/",
+      "state": "page",
+      "viewport": 768,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "compare-768-light.png"
+    },
+    {
+      "route": "/my-pc/",
+      "state": "page",
+      "viewport": 768,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "workspace-768-light.png"
+    },
+    {
+      "route": "/hardware/",
+      "state": "page",
+      "viewport": 768,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "hardware-768-light.png"
+    },
+    {
+      "route": "/learn/rtx5070.html",
+      "state": "page",
+      "viewport": 768,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "product-recheck/report.json",
+      "screenshot": "product-768-light.png"
+    },
+    {
+      "route": "/compatibility/",
+      "state": "page",
+      "viewport": 768,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "compatibility-768-light.png"
+    },
+    {
+      "route": "/shop/",
+      "state": "page",
+      "viewport": 768,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "shop-768-light.png"
+    },
+    {
+      "route": "/build-school/",
+      "state": "page",
+      "viewport": 768,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "school-768-light.png"
+    },
+    {
+      "route": "/blog/",
+      "state": "page",
+      "viewport": 768,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "blog-768-light.png"
+    },
+    {
+      "route": "/blog/32gb-vs-64gb-ram-workloads/",
+      "state": "page",
+      "viewport": 768,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "article-768-light.png"
+    },
+    {
+      "route": "/search/?q=gpu",
+      "state": "page",
+      "viewport": 768,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "search-768-light.png"
+    },
+    {
+      "route": "/performance/",
+      "state": "page",
+      "viewport": 768,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "performance-768-light.png"
+    },
+    {
+      "route": "/phones/size-compare/",
+      "state": "page",
+      "viewport": 768,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "phones-768-light.png"
+    },
+    {
+      "route": "/prebuilts/",
+      "state": "page",
+      "viewport": 768,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "prebuilts-768-light.png"
+    },
+    {
+      "route": "/laptops/",
+      "state": "page",
+      "viewport": 768,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "laptops-768-light.png"
+    },
+    {
+      "route": "/tools/",
+      "state": "page",
+      "viewport": 768,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "tools-768-light.png"
+    },
+    {
+      "route": "/news/",
+      "state": "page",
+      "viewport": 768,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "news-768-light.png"
+    },
+    {
+      "route": "/",
+      "state": "page",
+      "viewport": 1024,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "home-1024-light.png"
+    },
+    {
+      "route": "/builder/",
+      "state": "page",
+      "viewport": 1024,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "builder-1024-light.png"
+    },
+    {
+      "route": "/upgrade/",
+      "state": "page",
+      "viewport": 1024,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "upgrade-1024-light.png"
+    },
+    {
+      "route": "/compare/",
+      "state": "page",
+      "viewport": 1024,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "compare-1024-light.png"
+    },
+    {
+      "route": "/my-pc/",
+      "state": "page",
+      "viewport": 1024,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "workspace-1024-light.png"
+    },
+    {
+      "route": "/hardware/",
+      "state": "page",
+      "viewport": 1024,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "hardware-1024-light.png"
+    },
+    {
+      "route": "/learn/rtx5070.html",
+      "state": "page",
+      "viewport": 1024,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "product-recheck/report.json",
+      "screenshot": "product-1024-light.png"
+    },
+    {
+      "route": "/compatibility/",
+      "state": "page",
+      "viewport": 1024,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "compatibility-1024-light.png"
+    },
+    {
+      "route": "/shop/",
+      "state": "page",
+      "viewport": 1024,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "shop-1024-light.png"
+    },
+    {
+      "route": "/build-school/",
+      "state": "page",
+      "viewport": 1024,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "school-1024-light.png"
+    },
+    {
+      "route": "/blog/",
+      "state": "page",
+      "viewport": 1024,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "blog-1024-light.png"
+    },
+    {
+      "route": "/blog/32gb-vs-64gb-ram-workloads/",
+      "state": "page",
+      "viewport": 1024,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "article-1024-light.png"
+    },
+    {
+      "route": "/search/?q=gpu",
+      "state": "page",
+      "viewport": 1024,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "search-1024-light.png"
+    },
+    {
+      "route": "/performance/",
+      "state": "page",
+      "viewport": 1024,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "performance-1024-light.png"
+    },
+    {
+      "route": "/phones/size-compare/",
+      "state": "page",
+      "viewport": 1024,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "phones-1024-light.png"
+    },
+    {
+      "route": "/prebuilts/",
+      "state": "page",
+      "viewport": 1024,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "prebuilts-1024-light.png"
+    },
+    {
+      "route": "/laptops/",
+      "state": "page",
+      "viewport": 1024,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "laptops-1024-light.png"
+    },
+    {
+      "route": "/tools/",
+      "state": "page",
+      "viewport": 1024,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "tools-1024-light.png"
+    },
+    {
+      "route": "/news/",
+      "state": "page",
+      "viewport": 1024,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "news-1024-light.png"
+    },
+    {
+      "route": "/",
+      "state": "page",
+      "viewport": 1440,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "home-1440-light.png"
+    },
+    {
+      "route": "/builder/",
+      "state": "page",
+      "viewport": 1440,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "builder-1440-light.png"
+    },
+    {
+      "route": "/upgrade/",
+      "state": "page",
+      "viewport": 1440,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "upgrade-1440-light.png"
+    },
+    {
+      "route": "/compare/",
+      "state": "page",
+      "viewport": 1440,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "compare-1440-light.png"
+    },
+    {
+      "route": "/my-pc/",
+      "state": "page",
+      "viewport": 1440,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "workspace-1440-light.png"
+    },
+    {
+      "route": "/hardware/",
+      "state": "page",
+      "viewport": 1440,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "hardware-1440-light.png"
+    },
+    {
+      "route": "/learn/rtx5070.html",
+      "state": "page",
+      "viewport": 1440,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "product-recheck/report.json",
+      "screenshot": "product-1440-light.png"
+    },
+    {
+      "route": "/compatibility/",
+      "state": "page",
+      "viewport": 1440,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "compatibility-1440-light.png"
+    },
+    {
+      "route": "/shop/",
+      "state": "page",
+      "viewport": 1440,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "shop-1440-light.png"
+    },
+    {
+      "route": "/build-school/",
+      "state": "page",
+      "viewport": 1440,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "school-1440-light.png"
+    },
+    {
+      "route": "/blog/",
+      "state": "page",
+      "viewport": 1440,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "blog-1440-light.png"
+    },
+    {
+      "route": "/blog/32gb-vs-64gb-ram-workloads/",
+      "state": "page",
+      "viewport": 1440,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "article-1440-light.png"
+    },
+    {
+      "route": "/search/?q=gpu",
+      "state": "page",
+      "viewport": 1440,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "search-1440-light.png"
+    },
+    {
+      "route": "/performance/",
+      "state": "page",
+      "viewport": 1440,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "performance-1440-light.png"
+    },
+    {
+      "route": "/phones/size-compare/",
+      "state": "page",
+      "viewport": 1440,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "phones-1440-light.png"
+    },
+    {
+      "route": "/prebuilts/",
+      "state": "page",
+      "viewport": 1440,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "prebuilts-1440-light.png"
+    },
+    {
+      "route": "/laptops/",
+      "state": "page",
+      "viewport": 1440,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "laptops-1440-light.png"
+    },
+    {
+      "route": "/tools/",
+      "state": "page",
+      "viewport": 1440,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "tools-1440-light.png"
+    },
+    {
+      "route": "/news/",
+      "state": "page",
+      "viewport": 1440,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "news-1440-light.png"
+    },
+    {
+      "route": "/",
+      "state": "page",
+      "viewport": 1920,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "home-1920-light.png"
+    },
+    {
+      "route": "/builder/",
+      "state": "page",
+      "viewport": 1920,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "builder-1920-light.png"
+    },
+    {
+      "route": "/upgrade/",
+      "state": "page",
+      "viewport": 1920,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "upgrade-1920-light.png"
+    },
+    {
+      "route": "/compare/",
+      "state": "page",
+      "viewport": 1920,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "compare-1920-light.png"
+    },
+    {
+      "route": "/my-pc/",
+      "state": "page",
+      "viewport": 1920,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "workspace-1920-light.png"
+    },
+    {
+      "route": "/hardware/",
+      "state": "page",
+      "viewport": 1920,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "hardware-1920-light.png"
+    },
+    {
+      "route": "/learn/rtx5070.html",
+      "state": "page",
+      "viewport": 1920,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "product-recheck/report.json",
+      "screenshot": "product-1920-light.png"
+    },
+    {
+      "route": "/compatibility/",
+      "state": "page",
+      "viewport": 1920,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "compatibility-1920-light.png"
+    },
+    {
+      "route": "/shop/",
+      "state": "page",
+      "viewport": 1920,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "shop-1920-light.png"
+    },
+    {
+      "route": "/build-school/",
+      "state": "page",
+      "viewport": 1920,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "school-1920-light.png"
+    },
+    {
+      "route": "/blog/",
+      "state": "page",
+      "viewport": 1920,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "blog-1920-light.png"
+    },
+    {
+      "route": "/blog/32gb-vs-64gb-ram-workloads/",
+      "state": "page",
+      "viewport": 1920,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "article-1920-light.png"
+    },
+    {
+      "route": "/search/?q=gpu",
+      "state": "page",
+      "viewport": 1920,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "search-1920-light.png"
+    },
+    {
+      "route": "/performance/",
+      "state": "page",
+      "viewport": 1920,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "performance-1920-light.png"
+    },
+    {
+      "route": "/phones/size-compare/",
+      "state": "page",
+      "viewport": 1920,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "phones-1920-light.png"
+    },
+    {
+      "route": "/prebuilts/",
+      "state": "page",
+      "viewport": 1920,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "prebuilts-1920-light.png"
+    },
+    {
+      "route": "/laptops/",
+      "state": "page",
+      "viewport": 1920,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "laptops-1920-light.png"
+    },
+    {
+      "route": "/tools/",
+      "state": "page",
+      "viewport": 1920,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "tools-1920-light.png"
+    },
+    {
+      "route": "/news/",
+      "state": "page",
+      "viewport": 1920,
+      "theme": "light",
+      "status": 200,
+      "passed": true,
+      "receipt": "after/report.json",
+      "screenshot": "news-1920-light.png"
+    }
+  ]
+}

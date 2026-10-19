@@ -16,7 +16,7 @@ const deferred = () => { let resolve, reject; const promise = new Promise((yes, 
 const tick = () => new Promise(resolve => setImmediate(resolve));
 
 function controller(selected, options = {}) {
-  const nodes = new Map(), listeners = {}, documentListeners = {}, state = { fetches: 0, imports: 0, selected, updates: [], inspections: [], selections: [], disposed: 0, errors: [] };
+  const nodes = new Map(), listeners = {}, documentListeners = {}, state = { fetches: 0, imports: 0, enhancements: 0, enhancementStates: [], selected, updates: [], inspections: [], selections: [], disposed: 0, errors: [] };
   class Element {
     constructor(id = '') { this.id = id; this.hidden = false; this.disabled = false; this.checked = false; this.dataset = {}; this.textContent = ''; this.listeners = {}; this.attrs = {}; this.classList = { toggle() {} }; this.html = ''; this.buttons = null; }
     set innerHTML(html) {
@@ -50,11 +50,15 @@ function controller(selected, options = {}) {
     escapeHTML: value => String(value ?? '').replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[char])),
     buildSlotDefs: ['gpu', 'cpu', 'board', 'case', 'cooler'].map(id => ({ id })), buildInstances: slot => state.selected.filter(part => part.cat === slot).map(part => ({ part })), partPlacement: () => ({ fit: true }), fanPlacement() {}, analyzeBuild: () => ({}), renderPCVisual() {}, pendingVisualAction: null,
     fetch: async () => { state.fetches++; return options.fetch ? options.fetch(state.fetches) : { ok: true, json: async () => ({ items: options.items || [] }) }; },
-    fixtureImport: async () => { state.imports++; return { createBuildScene: () => currentScene }; } };
+    fixtureImport: async () => { state.imports++; return { createBuildScene: () => currentScene }; },
+    fixtureEnhancementImport: async () => { state.enhancements++; return options.enhancement ? options.enhancement(state.enhancements) : {}; } };
+  context.window.PCP_SCENE_UI = { mount() { state.enhancementStates.push(copy(context.window.PCP_SCENE.state())); } };
   let source = fs.readFileSync(path.resolve(__dirname, '../dist/assembly-3d.js'), 'utf8');
   assert.equal((source.match(/await import\('\/build-scene\.js\?[^']+'\)/g) || []).length, 1);
   // Replace only the dynamic module boundary. The real controller logic runs.
   source = source.replace(/await import\('\/build-scene\.js\?[^']+'\)/, 'await fixtureImport()');
+  assert.equal((source.match(/import\('\/evolution-scene\.js\?[^']+'\)/g) || []).length, 1);
+  source = source.replace(/import\('\/evolution-scene\.js\?[^']+'\)/, 'fixtureEnhancementImport()');
   vm.createContext(context); vm.runInContext(source, context);
   return { nodes, state, context, listeners, documentListeners, scene: currentScene };
 }
@@ -135,6 +139,57 @@ test('leaving while coverage downloads cancels the pending graphics initializati
   assert.match(h.nodes.get('scene-status').textContent, /Reopen/);
 });
 
+test('the preview bridge exposes real closed, loading and ready states without eagerly importing graphics', async () => {
+  const pending = deferred(), h = controller([selectedGpu], { fetch: () => pending.promise });
+  assert.equal(h.context.window.PCP_SCENE.state().phase, 'closed');
+  assert.equal(h.context.window.PCP_SCENE.state().open, false);
+  assert.equal(h.state.imports, 0);
+  const opening = h.nodes.get('scene-open').onclick();
+  assert.equal(h.context.window.PCP_SCENE.state().phase, 'loading');
+  assert.equal(h.context.window.PCP_SCENE.state().busy, true);
+  pending.resolve({ ok: true, json: async () => ({ items: [graphics] }) }); await opening;
+  assert.equal(h.context.window.PCP_SCENE.state().phase, 'ready');
+  assert.equal(h.context.window.PCP_SCENE.state().open, true);
+  assert.equal(h.context.window.PCP_SCENE.state().rendered, 1);
+  assert.equal(h.context.window.PCP_SCENE.state().busy, false);
+  h.context.window.PCP_SCENE.close();
+  assert.equal(h.state.disposed, 1);
+  assert.equal(h.context.window.PCP_SCENE.state().phase, 'closed');
+  assert.equal(h.context.window.PCP_SCENE.state().rendered, 0);
+  assert.equal(h.state.selected[0].id, selectedGpu.id);
+});
+
+test('closing a preview through the new controls cancels a pending module/coverage open', async () => {
+  const pending = deferred(), h = controller([selectedGpu], { fetch: () => pending.promise });
+  const opening = h.nodes.get('scene-open').onclick(); h.context.window.PCP_SCENE.close();
+  pending.resolve({ ok: true, json: async () => ({ items: [graphics] }) }); await opening;
+  assert.equal(h.state.imports, 0);
+  assert.equal(h.context.window.PCP_SCENE.state().open, false);
+  assert.equal(h.nodes.get('scene-stage').hidden, true);
+  assert.equal(h.nodes.get('scene-open').disabled, false);
+});
+
+test('preview error state permits a genuine retry without changing selected parts', async () => {
+  const h = controller([selectedGpu], { fetch: async count => count === 1 ? { ok: false } : { ok: true, json: async () => ({ items: [graphics] }) } });
+  await h.nodes.get('scene-open').onclick(); assert.equal(h.context.window.PCP_SCENE.state().phase, 'error'); assert.equal(h.context.window.PCP_SCENE.state().open, false);
+  await h.context.window.PCP_SCENE.retry(); assert.equal(h.context.window.PCP_SCENE.state().phase, 'ready'); assert.equal(h.state.selected[0].id, selectedGpu.id);
+});
+
+test('enhanced controls stay unloaded until preview intent and read the current state after a late download', async () => {
+  const pending = deferred(), h = controller([selectedGpu], { items: [graphics], enhancement: () => pending.promise });
+  assert.equal(h.state.enhancements, 0); assert.equal(h.state.enhancementStates.length, 0);
+  await h.nodes.get('scene-open').onclick(); assert.equal(h.state.enhancements, 1); assert.equal(h.context.window.PCP_SCENE.state().phase, 'ready');
+  assert.equal(h.state.enhancementStates.length, 0); pending.resolve({}); await tick();
+  assert.equal(h.state.enhancementStates[0].phase, 'ready'); assert.equal(h.state.enhancementStates[0].rendered, 1);
+});
+
+test('a failed enhancement download leaves the native viewer working and can retry on a later open', async () => {
+  const h = controller([selectedGpu], { items: [graphics], enhancement: count => count === 1 ? Promise.reject(Error('optional controls unavailable')) : {} });
+  await h.nodes.get('scene-open').onclick(); await tick(); assert.equal(h.context.window.PCP_SCENE.state().phase, 'ready'); assert.equal(h.nodes.get('scene-controls').hidden, false);
+  h.context.window.PCP_SCENE.close(); await h.nodes.get('scene-open').onclick(); await tick();
+  assert.equal(h.state.enhancements, 2); assert.equal(h.state.enhancementStates.length, 1); assert.equal(h.context.window.PCP_SCENE.state().phase, 'ready'); assert.equal(h.state.selected[0].id, selectedGpu.id);
+});
+
 test('an update rejection shows recovery controls instead of an unhandled rejection', async () => {
   const scene = { update: async () => { throw Error('fixture GPU update failed'); }, select() {}, dispose() {}, explode() {}, sidePanel() {}, quality() {} };
   const h = controller([selectedGpu], { items: [graphics], scene });
@@ -194,9 +249,12 @@ async function rendererHarness(options = {}) {
   const host = { clientWidth: options.width || 342, clientHeight: options.height || 330, append(canvas) { state.canvas = canvas; }, dispatchEvent() {} };
   const T = { ...Real, WebGLRenderer: Renderer, PMREMGenerator: class { fromScene() { return { texture: {}, dispose() {} }; } dispose() {} } };
   const context = { T, OrbitControls: Controls, GLTFLoader: Loader, MeshoptDecoder: {}, cloneWithSkeleton: object => { const clone = object.clone(true);state.clones.push(clone);return clone; },
-    devicePixelRatio: 2, document: { hidden: false, addEventListener() {}, removeEventListener() {} }, performance: { now: () => Date.now() }, ResizeObserver: Observer, IntersectionObserver: Observer, requestAnimationFrame: () => 1, cancelAnimationFrame() {}, CustomEvent: class {}, host, onSelect() {} };
+    // Geometry tests use the real motion helper in its reduced-motion still
+    // state; its time progression and orbit lifecycle have dedicated coverage.
+    matchMedia: () => ({ matches: true }), devicePixelRatio: 2, document: { hidden: false, addEventListener() {}, removeEventListener() {} }, performance: { now: () => Date.now() }, ResizeObserver: Observer, IntersectionObserver: Observer, requestAnimationFrame: () => 1, cancelAnimationFrame() {}, CustomEvent: class {}, host, onSelect() {} };
   let source = fs.readFileSync(path.resolve(__dirname, '../dist/build-scene.js'), 'utf8').replace(/^import .*;\r?\n/gm, '').replace('export function createBuildScene', 'function createBuildScene');
-  vm.createContext(context);vm.runInContext(source + '\nglobalThis.sceneAPI=createBuildScene(host,onSelect);', context);
+  const motionSource=fs.readFileSync(path.resolve(__dirname,'evolution-scene-motion.js'),'utf8').replace('export function createCameraMotion','function createCameraMotion');
+  vm.createContext(context);vm.runInContext(motionSource+'\n'+source + '\nglobalThis.sceneAPI=createBuildScene(host,onSelect);', context);
   return { state, api: context.sceneAPI };
 }
 const entry = record => ({ id: record.id, name: record.name || record.id, slot: record.category, index: 0, record });

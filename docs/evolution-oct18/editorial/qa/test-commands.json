@@ -1,0 +1,22 @@
+{
+  "runAt": "2026-10-19T04:23:37.624Z",
+  "tests": {
+    "command": "node --test scripts/evolution-editorial.test.cjs",
+    "passed": 10,
+    "failed": 0
+  },
+  "artwork": {
+    "command": "node scripts/evolution-editorial-visual-qa.cjs --raster-only",
+    "decoded": 36,
+    "failed": 0,
+    "contactSheetsInspected": 9,
+    "bytes": 95477
+  },
+  "browserBounds": {
+    "executed": false,
+    "reason": "Sandbox Edge launch failed; two escalation attempts were not executed because automatic approval review reported model capacity, explicitly not a safety determination."
+  },
+  "drafts": 36,
+  "humanReviewed": 0,
+  "published": 0
+}

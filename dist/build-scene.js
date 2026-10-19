@@ -3,6 +3,7 @@ import {OrbitControls} from './vendor/three/examples/jsm/controls/OrbitControls.
 import {GLTFLoader} from './vendor/three/examples/jsm/loaders/GLTFLoader.js';
 import {MeshoptDecoder} from './vendor/meshoptimizer/meshopt_decoder.js';
 import {clone as cloneWithSkeleton} from './vendor/three/examples/jsm/utils/SkeletonUtils.js';
+import {createCameraMotion} from './evolution-scene-motion.js';
 export function createBuildScene(host,onSelect){
  const renderer=new T.WebGLRenderer({alpha:true,antialias:true,powerPreference:'low-power'});
  renderer.setPixelRatio(Math.min(devicePixelRatio,1.5));renderer.outputColorSpace=T.SRGBColorSpace;renderer.toneMapping=T.ACESFilmicToneMapping;host.append(renderer.domElement);
@@ -16,19 +17,25 @@ export function createBuildScene(host,onSelect){
  const pmrem=new T.PMREMGenerator(renderer),environment=pmrem.fromScene(studio,.08,.1,20,{size:128});scene.environment=environment.texture;pmrem.dispose();studioGeometry.dispose();studioMaterial.dispose();
  scene.add(new T.HemisphereLight(0xffffff,0x647088,3));const key=new T.DirectionalLight(0xffffff,4);key.position.set(1,2,3);scene.add(key);const rim=new T.DirectionalLight(0xadc7ff,2);rim.position.set(-2,1,-1);scene.add(rim);
  const controls=new OrbitControls(camera,canvas);controls.enableDamping=false;controls.minDistance=.08;controls.maxDistance=4;controls.maxPolarAngle=Math.PI*.94;controls.target.set(0,0,0);controls.listenToKeyEvents(canvas);
- const cache=new Map(),parts=[];let currentView='angled';let disposed=false,visible=true,raf=0,revision=0,selected='',exploded=false,panel=false,draws=0,isolatedMode=false;
+ const cache=new Map(),parts=[];let currentView='angled';let disposed=false,visible=true,raf=0,revision=0,selected='',exploded=false,panel=false,draws=0,isolatedMode=false,orbit=false,lastFrame=0;
+ const motionPreference=globalThis.matchMedia?.('(prefers-reduced-motion: reduce)');
+ const reduced=()=>motionPreference?.matches===true||document.documentElement?.dataset.motion==='reduced';
+ function cameraData(){canvas.dataset.cameraDistance=camera.position.distanceTo(controls.target).toFixed(6);canvas.dataset.cameraPosition=camera.position.toArray().map(v=>v.toFixed(6)).join(',');canvas.dataset.cameraTarget=controls.target.toArray().map(v=>v.toFixed(6)).join(',');canvas.dataset.cameraAspect=String(camera.aspect);}
+ const motion=createCameraMotion({read:()=>({position:camera.position.toArray(),target:controls.target.toArray()}),apply(value){camera.position.fromArray(value.position);controls.target.fromArray(value.target);controls.update();cameraData();},invalidate,reduced});
+ function stopOrbit(reason='interaction'){const changed=orbit;orbit=false;controls.autoRotate=false;canvas.dataset.orbit='false';if(changed)host.dispatchEvent(new CustomEvent('scene-orbit-state',{detail:{active:false,reason}}));}
+ function setOrbit(value){stopOrbit('changed');if(value===true&&parts.length&&!disposed&&visible&&!document.hidden&&!reduced()){motion.cancel();orbit=true;lastFrame=0;controls.autoRotate=true;controls.autoRotateSpeed=.55;canvas.dataset.orbit='true';invalidate();host.dispatchEvent(new CustomEvent('scene-orbit-state',{detail:{active:true}}));}return orbit;}
+ function preferenceChanged(){if(reduced()){stopOrbit('reduced-motion');motion.finish();invalidate();}host.dispatchEvent(new CustomEvent('scene-preference-state'));}motionPreference?.addEventListener?.('change',preferenceChanged);globalThis.addEventListener?.('pcp:appearance',preferenceChanged);
  const layout={fan:[0,0,0],case:[0,0,0],board:[-.055,.025,-.075],cpu:[-.067,.085,-.06],ram:[0,.069,-.048],gpu:[-.035,-.045,0],ssd:[-.06,-.018,-.06],hdd:[.11,-.176,0],psu:[-.13,-.184,0]};
- function draw(){raf=0;if(disposed||!visible||document.hidden)return;renderer.render(scene,camera);draws++;canvas.dataset.renderCount=String(draws);canvas.dataset.triangles=String(renderer.info.render.triangles)}
+ function draw(time=performance.now()){raf=0;if(disposed||!visible||document.hidden)return;const moving=motion.step(time);if(orbit){controls.update(lastFrame?Math.min((time-lastFrame)/1000,.05):1/60);cameraData();}lastFrame=time;renderer.render(scene,camera);draws++;canvas.dataset.renderCount=String(draws);canvas.dataset.triangles=String(renderer.info.render.triangles);if(moving||orbit)invalidate();}
  function invalidate(){if(!raf&&!disposed&&visible&&!document.hidden)raf=requestAnimationFrame(draw)}
- function resize(){if(disposed||!host.clientWidth||!host.clientHeight)return;renderer.setSize(host.clientWidth,host.clientHeight,false);camera.aspect=host.clientWidth/host.clientHeight;camera.updateProjectionMatrix();pose(currentView)}
- const resizeObserver=new ResizeObserver(resize);resizeObserver.observe(host);const observer=new IntersectionObserver(([e])=>{visible=e.isIntersecting;if(visible)invalidate()});observer.observe(host);
- function visibility(){if(!document.hidden)invalidate()}document.addEventListener('visibilitychange',visibility);controls.addEventListener('change',invalidate);
+ function resize(){if(disposed||!host.clientWidth||!host.clientHeight)return;renderer.setSize(host.clientWidth,host.clientHeight,false);camera.aspect=host.clientWidth/host.clientHeight;camera.updateProjectionMatrix();pose(currentView,{smooth:false});}
+ const resizeObserver=new ResizeObserver(resize);resizeObserver.observe(host);const observer=new IntersectionObserver(([e])=>{visible=e.isIntersecting;if(visible)invalidate();else{stopOrbit('offscreen');motion.cancel();cancelAnimationFrame(raf);raf=0;}});observer.observe(host);
+ function visibility(){if(!document.hidden)invalidate();else{stopOrbit('hidden');motion.cancel();cancelAnimationFrame(raf);raf=0;}}document.addEventListener('visibilitychange',visibility);controls.addEventListener('change',invalidate);controls.addEventListener('start',()=>{motion.cancel();stopOrbit();});
  // Fit every bounding-box corner in camera space, including depth toward the lens.
  // A world-axis maximum misses the projected height of tilted fans and tall cases.
- function pose(view='angled'){
-  currentView=view;
-  const bounds=new T.Box3().setFromObject(root),size=bounds.isEmpty()?new T.Vector3(.45,.45,.3):bounds.getSize(new T.Vector3()),center=bounds.isEmpty()?new T.Vector3():bounds.getCenter(new T.Vector3());
-  controls.target.copy(center);
+ function pose(view='angled',{bounds:chosenBounds=null,smooth=true}={}){
+  currentView=['front','side','angled'].includes(view)?view:'angled';view=currentView;stopOrbit('camera-change');
+  const bounds=chosenBounds||new T.Box3().setFromObject(root),size=bounds.isEmpty()?new T.Vector3(.45,.45,.3):bounds.getSize(new T.Vector3()),center=bounds.isEmpty()?new T.Vector3():bounds.getCenter(new T.Vector3());
   const dir=new T.Vector3(...(view==='front'?[1,.05,0]:view==='side'?[0,.02,1]:[.75,.35,1])).normalize(),right=new T.Vector3().crossVectors(camera.up,dir).normalize(),up=new T.Vector3().crossVectors(dir,right).normalize();
   const vertical=Math.tan(camera.fov*Math.PI/360),horizontal=vertical*Math.max(camera.aspect,.1);
   let fit=.15;
@@ -36,9 +43,9 @@ export function createBuildScene(host,onSelect){
    const corner=new T.Vector3(x*size.x/2,y*size.y/2,z*size.z/2),depth=corner.dot(dir);
    fit=Math.max(fit,depth+Math.abs(corner.dot(right))/horizontal*1.2,depth+Math.abs(corner.dot(up))/vertical*1.2);
   }
-  camera.position.copy(center).addScaledVector(dir,fit);controls.update();
-  canvas.dataset.cameraDistance=camera.position.distanceTo(controls.target).toFixed(6);canvas.dataset.boundsSize=size.toArray().map(v=>v.toFixed(6)).join(',');canvas.dataset.boundsCenter=center.toArray().map(v=>v.toFixed(6)).join(',');canvas.dataset.cameraPosition=camera.position.toArray().map(v=>v.toFixed(6)).join(',');canvas.dataset.cameraTarget=controls.target.toArray().map(v=>v.toFixed(6)).join(',');canvas.dataset.cameraAspect=String(camera.aspect);invalidate();
+  const position=center.clone().addScaledVector(dir,fit);canvas.dataset.boundsSize=size.toArray().map(v=>v.toFixed(6)).join(',');canvas.dataset.boundsCenter=center.toArray().map(v=>v.toFixed(6)).join(',');motion.move({position:position.toArray(),target:center.toArray()},{smooth});
  }
+ function focusPart(slot){const matches=parts.filter(part=>part.userData.slot===slot);if(!matches.length){pose(currentView);return false;}const bounds=new T.Box3();for(const part of matches)bounds.union(new T.Box3().setFromObject(part));if(bounds.isEmpty()){pose(currentView);return false;}selected=slot;apply();pose(currentView,{bounds});return true;}
  function apply(){for(const obj of parts){obj.position.copy(obj.userData.base);if(exploded&&!isolatedMode&&obj.userData.slot!=='case'){const slot=obj.userData.slot;obj.position.z+=slot==='board'?.06:slot==='cpu'?.3:slot==='ram'?.24:slot==='gpu'?.3:.16;obj.position.x+=slot==='hdd'?.16:slot==='psu'?-.14:0;}obj.traverse(m=>{if(!m.isMesh)return;if(!isolatedMode&&(m.name==='Side_panel'||m.name==='Side panel'))m.visible=panel;for(const mat of (Array.isArray(m.material)?m.material:[m.material])){if(mat.emissive){if(!mat.userData.previewEmission){mat.userData.previewEmission=mat.emissive.clone();mat.userData.previewIntensity=mat.emissiveIntensity;}mat.emissive.copy(mat.userData.previewEmission);mat.emissiveIntensity=mat.userData.previewIntensity;if(!isolatedMode&&obj.userData.slot===selected){mat.emissive.lerp(new T.Color(0x193d76),.12);mat.emissiveIntensity=Math.max(mat.emissiveIntensity,.3);}}}});}invalidate()}
  const localModelPath=url=>typeof url==='string'&&/^\/assets\/models\/(?:completion\/)?[a-zA-Z0-9_.-]+\.glb$/.test(url);
  function releaseTemplate(object){object.traverse(mesh=>{if(mesh.isMesh){mesh.geometry.dispose();for(const material of(Array.isArray(mesh.material)?mesh.material:[mesh.material])){for(const value of Object.values(material))if(value?.isTexture)value.dispose();material.dispose();}}});}
@@ -107,7 +114,7 @@ export function createBuildScene(host,onSelect){
     obj.userData={slot:e.slot,base,id:e.id};root.add(obj);parts.push(obj);
    }
   }
-  apply();pose(currentView);canvas.dataset.modelCount=String(parts.length);canvas.dataset.boundTextureCount=String(boundTextures(root));canvas.dataset.loadMs=String(Math.round(performance.now()-started));
+  apply();pose(currentView,{smooth:false});canvas.dataset.modelCount=String(parts.length);canvas.dataset.boundTextureCount=String(boundTextures(root));canvas.dataset.loadMs=String(Math.round(performance.now()-started));
   return{failed,unplaced,rendered:parts.length,loadMs:Math.round(performance.now()-started)};
  }
  async function inspectPart(entry){
@@ -123,11 +130,11 @@ export function createBuildScene(host,onSelect){
   const box=new T.Box3().setFromObject(obj),size=box.getSize(new T.Vector3()),center=box.getCenter(new T.Vector3()),largest=Math.max(size.x,size.y,size.z);
   if(!Number.isFinite(largest)||largest<=0){obj.traverse(mesh=>{if(mesh.isMesh)for(const material of(Array.isArray(mesh.material)?mesh.material:[mesh.material]))material.dispose()});return{failed:[entry.name],unplaced:[],rendered:0,loadMs:Math.round(performance.now()-started)};}
   const frame=new T.Group();frame.add(obj);obj.position.sub(center);frame.scale.setScalar(.32/largest);frame.userData={slot:entry.slot,id:entry.id,base:new T.Vector3()};root.add(frame);parts.push(frame);selected=entry.slot;
-  canvas.dataset.modelId=entry.id;canvas.dataset.modelCount='1';canvas.dataset.boundTextureCount=String(boundTextures(frame));apply();pose(currentView);
+  canvas.dataset.modelId=entry.id;canvas.dataset.modelCount='1';canvas.dataset.boundTextureCount=String(boundTextures(frame));apply();pose(currentView,{smooth:false});
   return{failed:[],unplaced:[],rendered:1,isolated:true,loadMs:Math.round(performance.now()-started)};
  }
  const ray=new T.Raycaster(),pointer=new T.Vector2();let down=null;
  canvas.addEventListener('pointerdown',e=>{down=[e.clientX,e.clientY]});canvas.addEventListener('pointerup',e=>{if(!down||Math.hypot(e.clientX-down[0],e.clientY-down[1])>6)return;const r=canvas.getBoundingClientRect();pointer.set((e.clientX-r.left)/r.width*2-1,-(e.clientY-r.top)/r.height*2+1);ray.setFromCamera(pointer,camera);const hit=ray.intersectObjects(parts,true).find(h=>h.object.visible&&!['Side panel','Side_panel'].includes(h.object.name));if(hit){let obj=hit.object;while(obj&&!obj.userData.slot)obj=obj.parent;if(obj)onSelect(obj.userData.slot)}});
  pose();resize();
- return{update,inspect:inspectPart,select(slot){selected=slot;apply()},view:pose,explode(value){exploded=value;apply();pose(currentView)},sidePanel(value){panel=value;apply()},quality(value){renderer.setPixelRatio(value?1:Math.min(devicePixelRatio,1.5));resize()},zoom(delta){camera.position.sub(controls.target).multiplyScalar(delta).add(controls.target);controls.update();invalidate()},rotate(direction){const delta=camera.position.clone().sub(controls.target).applyAxisAngle(new T.Vector3(0,1,0),direction*.25);camera.position.copy(controls.target).add(delta);controls.update();invalidate()},dispose(){disposed=true;revision++;cancelAnimationFrame(raf);resizeObserver.disconnect();observer.disconnect();document.removeEventListener('visibilitychange',visibility);controls.dispose();clear();for(const promise of cache.values())promise.then(g=>g.scene.traverse(m=>{if(m.isMesh){m.geometry.dispose();for(const material of (Array.isArray(m.material)?m.material:[m.material])){for(const value of Object.values(material))if(value?.isTexture)value.dispose();material.dispose()}}})).catch(()=>{});cache.clear();environment.dispose();renderer.dispose();canvas.remove()}};
+ return{update,inspect:inspectPart,select(slot){selected=slot;apply()},focus:focusPart,canFocus:slot=>parts.some(part=>part.userData.slot===slot),orbit:setOrbit,state:()=>({orbit,reducedMotion:reduced(),models:parts.length,view:currentView}),view:pose,explode(value){exploded=value;apply();pose(currentView)},sidePanel(value){panel=value;apply()},quality(value){renderer.setPixelRatio(value?1:Math.min(devicePixelRatio,1.5));canvas.dataset.quality=value?'lower-resolution':'balanced';resize()},zoom(delta){motion.cancel();stopOrbit();camera.position.sub(controls.target).multiplyScalar(delta).add(controls.target);controls.update();cameraData();invalidate()},rotate(direction){motion.cancel();stopOrbit();const delta=camera.position.clone().sub(controls.target).applyAxisAngle(new T.Vector3(0,1,0),direction*.25);camera.position.copy(controls.target).add(delta);controls.update();cameraData();invalidate()},dispose(){disposed=true;revision++;stopOrbit('closed');motion.cancel();cancelAnimationFrame(raf);resizeObserver.disconnect();observer.disconnect();document.removeEventListener('visibilitychange',visibility);motionPreference?.removeEventListener?.('change',preferenceChanged);globalThis.removeEventListener?.('pcp:appearance',preferenceChanged);controls.dispose();clear();for(const promise of cache.values())promise.then(g=>g.scene.traverse(m=>{if(m.isMesh){m.geometry.dispose();for(const material of (Array.isArray(m.material)?m.material:[m.material])){for(const value of Object.values(material))if(value?.isTexture)value.dispose();material.dispose()}}})).catch(()=>{});cache.clear();environment.dispose();renderer.dispose();canvas.remove()}};
 }

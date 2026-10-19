@@ -1,0 +1,16 @@
+{
+  "recordedOn": "2026-10-19",
+  "reason": "Automatic approval review unavailable: selected model at capacity; one browser review attempt also timed out and its permitted retry failed at capacity.",
+  "classification": "Review-service failure, not a determination that the action is unsafe",
+  "actionsNotExecuted": [
+    "Isolated headless Microsoft Edge launch for new desktop/mobile visual and interaction checks",
+    "git -c core.autocrlf=false add -A for local implementation checkpoint"
+  ],
+  "browserQAExecuted": false,
+  "gitStagingExecuted": false,
+  "checkpointCommitCreated": false,
+  "deployed": false,
+  "bypassAttempted": false,
+  "filesPersisted": "Local working tree on codex/liquid-evolution-2026-10-18",
+  "nextAction": "Resolve the approval-service issue or obtain owner guidance before retrying the blocked actions; perform rendered QA before release."
+}

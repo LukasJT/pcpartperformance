@@ -1,0 +1,1661 @@
+{
+  "evidenceDate": "2026-10-19",
+  "items": [
+    {
+      "id": "LE-01",
+      "proposedRoute": "/blog/atx-31-vs-30-psu-buying-checks/",
+      "previewRoute": "/review/evolution/atx-31-vs-30-psu-buying-checks/",
+      "title": "ATX 3.1 vs ATX 3.0: which PSU details matter?",
+      "queryIntent": "Interpret an ATX 3.1 label without assuming a complete PSU upgrade is necessary",
+      "demandBasis": "Qualitative intent hypothesis from a concrete PC-owner task. No private Search Console or keyword-volume evidence is claimed.",
+      "audience": "PC builders or existing-PC owners performing the named task",
+      "region": "Canada/US and other markets; no unverified regional price claims",
+      "relatedExistingRoute": "/blog/choose-a-pc-power-supply/",
+      "distinctContribution": "Specialist interpretation of ATX revision labels; existing guide covers complete PSU selection.",
+      "evidenceNeededForPublication": "Human verification of the applicable primary-source claims, scope, original diagram and current destination links",
+      "relatedTools": [
+        {
+          "label": "Record the PSU in your build",
+          "href": "/builder/"
+        },
+        {
+          "label": "Check the full replacement cost",
+          "href": "/tools/platform-upgrade-cost/"
+        }
+      ],
+      "nextStep": {
+        "label": "Record the PSU in your build",
+        "href": "/builder/"
+      },
+      "status": "complete_unpublished_research_draft",
+      "candidateOverlapChecks": [
+        {
+          "route": "/blog/cpu-or-gpu-upgrade-for-gaming/",
+          "title": "CPU or GPU upgrade: which will improve your games?",
+          "score": 0.08333333333333333
+        },
+        {
+          "route": "/blog/how-to-choose-a-processor/",
+          "title": "How to choose a processor without overlooking the platform",
+          "score": 0.07692307692307693
+        },
+        {
+          "route": "/blog/am4-upgrade-vs-platform-replacement/",
+          "title": "AM4 CPU upgrade or AM5 replacement? Compare the whole platform",
+          "score": 0.06896551724137931
+        }
+      ],
+      "contentHash": "d6a6e922e7f7c82365faf0e6a93a7e58d5bc3fafd8a448ccdccf1d002955b7ee"
+    },
+    {
+      "id": "LE-02",
+      "proposedRoute": "/blog/modular-psu-cables-identify-before-reuse/",
+      "previewRoute": "/review/evolution/modular-psu-cables-identify-before-reuse/",
+      "title": "Can you reuse modular PSU cables? Identify them first",
+      "queryIntent": "Decide whether an existing modular cable is documented for a replacement PSU",
+      "demandBasis": "Qualitative intent hypothesis from a concrete PC-owner task. No private Search Console or keyword-volume evidence is claimed.",
+      "audience": "PC builders or existing-PC owners performing the named task",
+      "region": "Canada/US and other markets; no unverified regional price claims",
+      "relatedExistingRoute": "/blog/reuse-pc-components-new-build/",
+      "distinctContribution": "Cable provenance and PSU-end compatibility, rather than the broader reuse inventory.",
+      "evidenceNeededForPublication": "Human verification of the applicable primary-source claims, scope, original diagram and current destination links",
+      "relatedTools": [
+        {
+          "label": "Save the PSU identity and notes",
+          "href": "/builder/"
+        },
+        {
+          "label": "Plan reused components",
+          "href": "/upgrade/"
+        }
+      ],
+      "nextStep": {
+        "label": "Save the PSU identity and notes",
+        "href": "/builder/"
+      },
+      "status": "complete_unpublished_research_draft",
+      "candidateOverlapChecks": [
+        {
+          "route": "/blog/reuse-pc-components-new-build/",
+          "title": "Which PC parts can you reuse? A keep, replace and verify checklist",
+          "score": 0.125
+        },
+        {
+          "route": "/blog/3d-pc-builder-preview-limits/",
+          "title": "What a 3D PC builder preview can tell you",
+          "score": 0.1111111111111111
+        },
+        {
+          "route": "/blog/choose-a-pc-power-supply/",
+          "title": "Choose a PC power supply: wattage, connectors, fit and the correct cables",
+          "score": 0.08823529411764706
+        }
+      ],
+      "contentHash": "f3f170d65fca10e5b8bea8db6a32dd85715b3918b544e941ad0f02959c1fb9ef"
+    },
+    {
+      "id": "LE-03",
+      "proposedRoute": "/blog/pwm-vs-dc-case-fan-control/",
+      "previewRoute": "/review/evolution/pwm-vs-dc-case-fan-control/",
+      "title": "PWM vs DC fans: why the control mode matters",
+      "queryIntent": "Match 3-pin or 4-pin fan control to the motherboard header mode",
+      "demandBasis": "Qualitative intent hypothesis from a concrete PC-owner task. No private Search Console or keyword-volume evidence is claimed.",
+      "audience": "PC builders or existing-PC owners performing the named task",
+      "region": "Canada/US and other markets; no unverified regional price claims",
+      "relatedExistingRoute": "/blog/compact-quiet-pc-fit-cooling/",
+      "distinctContribution": "Electrical fan-control modes and verification, rather than case/cooling purchase planning.",
+      "evidenceNeededForPublication": "Human verification of the applicable primary-source claims, scope, original diagram and current destination links",
+      "relatedTools": [
+        {
+          "label": "Choose and record case fans",
+          "href": "/builder/"
+        },
+        {
+          "label": "Keep configuration notes",
+          "href": "/my-pc/"
+        }
+      ],
+      "nextStep": {
+        "label": "Choose and record case fans",
+        "href": "/builder/"
+      },
+      "status": "complete_unpublished_research_draft",
+      "candidateOverlapChecks": [
+        {
+          "route": "/blog/pc-upgrade-total-platform-cost/",
+          "title": "A CPU upgrade costs more than the CPU: compare the whole platform",
+          "score": 0.041666666666666664
+        },
+        {
+          "route": "/blog/choosing-an-ssd/",
+          "title": "How to choose an SSD: capacity, interface and motherboard fit",
+          "score": 0.038461538461538464
+        },
+        {
+          "route": "/blog/how-to-choose-a-processor/",
+          "title": "How to choose a processor without overlooking the platform",
+          "score": 0.037037037037037035
+        }
+      ],
+      "contentHash": "5299d2d9f7b94d3e5ea5b7da48f7fc8cbe08f0c86cd71f7e68da17c139f4a842"
+    },
+    {
+      "id": "LE-04",
+      "proposedRoute": "/blog/5v-argb-vs-12v-rgb-connectors/",
+      "previewRoute": "/review/evolution/5v-argb-vs-12v-rgb-connectors/",
+      "title": "5 V ARGB vs 12 V RGB: check before connecting",
+      "queryIntent": "Prevent a 5 V lighting device being connected to the wrong 12 V header",
+      "demandBasis": "Qualitative intent hypothesis from a concrete PC-owner task. No private Search Console or keyword-volume evidence is claimed.",
+      "audience": "PC builders or existing-PC owners performing the named task",
+      "region": "Canada/US and other markets; no unverified regional price claims",
+      "relatedExistingRoute": "/build-school/",
+      "distinctContribution": "Voltage-safe lighting identification; not a duplicate general assembly lesson.",
+      "evidenceNeededForPublication": "Human verification of the applicable primary-source claims, scope, original diagram and current destination links",
+      "relatedTools": [
+        {
+          "label": "Record fans and controllers",
+          "href": "/builder/"
+        },
+        {
+          "label": "Save wiring notes",
+          "href": "/my-pc/"
+        }
+      ],
+      "nextStep": {
+        "label": "Record fans and controllers",
+        "href": "/builder/"
+      },
+      "status": "complete_unpublished_research_draft",
+      "candidateOverlapChecks": [
+        {
+          "route": "/blog/new-pc-first-boot-setup-checklist/",
+          "title": "First boot for a new PC: a safe checklist from power-on to a working baseline",
+          "score": 0.03225806451612903
+        },
+        {
+          "route": "/blog/read-hardware-benchmarks-test-conditions/",
+          "title": "How to read GPU benchmarks without comparing the wrong tests",
+          "score": 0.03225806451612903
+        },
+        {
+          "route": "/blog/32gb-vs-64gb-ram-workloads/",
+          "title": "32 GB vs 64 GB RAM: decide from the work your PC actually does",
+          "score": 0
+        }
+      ],
+      "contentHash": "99b6fd5d259380ee27075edfca927f0f66cb79350a21b4ae75b36d3fbb1b32ee"
+    },
+    {
+      "id": "LE-05",
+      "proposedRoute": "/blog/front-panel-usb-c-header-checklist/",
+      "previewRoute": "/review/evolution/front-panel-usb-c-header-checklist/",
+      "title": "Will your case’s front USB-C port work?",
+      "queryIntent": "Check a case front USB-C connection against the exact motherboard header",
+      "demandBasis": "Qualitative intent hypothesis from a concrete PC-owner task. No private Search Console or keyword-volume evidence is claimed.",
+      "audience": "PC builders or existing-PC owners performing the named task",
+      "region": "Canada/US and other markets; no unverified regional price claims",
+      "relatedExistingRoute": "/blog/usb-c-speed-charging-display-checklist/",
+      "distinctContribution": "Internal case-to-motherboard path, rather than external USB-C device/cable selection.",
+      "evidenceNeededForPublication": "Human verification of the applicable primary-source claims, scope, original diagram and current destination links",
+      "relatedTools": [
+        {
+          "label": "Check the case and motherboard together",
+          "href": "/builder/"
+        },
+        {
+          "label": "Compare motherboard specifications",
+          "href": "/compare/"
+        }
+      ],
+      "nextStep": {
+        "label": "Check the case and motherboard together",
+        "href": "/builder/"
+      },
+      "status": "complete_unpublished_research_draft",
+      "candidateOverlapChecks": [
+        {
+          "route": "/blog/will-a-graphics-card-fit-my-case/",
+          "title": "Will a graphics card fit your case? Check the card and cooling layout",
+          "score": 0.09375
+        },
+        {
+          "route": "/blog/usb-c-speed-charging-display-checklist/",
+          "title": "USB-C does not tell you the speed: a port and cable checklist",
+          "score": 0.07407407407407407
+        },
+        {
+          "route": "/blog/choose-a-motherboard-for-your-cpu/",
+          "title": "How to choose a motherboard for your processor",
+          "score": 0.07142857142857142
+        }
+      ],
+      "contentHash": "d2cd381718b40865df933f30bed65f0da89efbe7491161934c257ff99f59c595"
+    },
+    {
+      "id": "LE-06",
+      "proposedRoute": "/blog/front-panel-power-led-connector-map/",
+      "previewRoute": "/review/evolution/front-panel-power-led-connector-map/",
+      "title": "Front-panel power and LED cables: make a connection map",
+      "queryIntent": "Map a case’s switch and LED leads to the documented motherboard front-panel header",
+      "demandBasis": "Qualitative intent hypothesis from a concrete PC-owner task. No private Search Console or keyword-volume evidence is claimed.",
+      "audience": "PC builders or existing-PC owners performing the named task",
+      "region": "Canada/US and other markets; no unverified regional price claims",
+      "relatedExistingRoute": "/blog/new-pc-no-display-safe-checks/",
+      "distinctContribution": "Front-panel cable mapping before assembly; existing no-display flow diagnoses a broader boot symptom.",
+      "evidenceNeededForPublication": "Human verification of the applicable primary-source claims, scope, original diagram and current destination links",
+      "relatedTools": [
+        {
+          "label": "Keep the board and case plan",
+          "href": "/builder/"
+        },
+        {
+          "label": "Follow the assembly learning path",
+          "href": "/build-school/"
+        }
+      ],
+      "nextStep": {
+        "label": "Keep the board and case plan",
+        "href": "/builder/"
+      },
+      "status": "complete_unpublished_research_draft",
+      "candidateOverlapChecks": [
+        {
+          "route": "/blog/mux-switch-advanced-optimus-gaming-laptop/",
+          "title": "MUX switch vs Advanced Optimus: which laptop setting should you use?",
+          "score": 0.09090909090909091
+        },
+        {
+          "route": "/blog/ai-demand-gaming-gpu-prices/",
+          "title": "Does AI demand make gaming GPUs more expensive?",
+          "score": 0.06451612903225806
+        },
+        {
+          "route": "/blog/choose-a-motherboard-for-your-cpu/",
+          "title": "How to choose a motherboard for your processor",
+          "score": 0.06451612903225806
+        }
+      ],
+      "contentHash": "18fab72614ce1df9fe4fa4626d4128f542bd1d66d15d52688fea3f05ddf51d93"
+    },
+    {
+      "id": "LE-07",
+      "proposedRoute": "/blog/sfx-vs-sfx-l-psu-cable-space/",
+      "previewRoute": "/review/evolution/sfx-vs-sfx-l-psu-cable-space/",
+      "title": "SFX vs SFX-L: the extra length is only part of the fit check",
+      "queryIntent": "Choose between SFX and SFX-L with an explicit cable-routing envelope",
+      "demandBasis": "Qualitative intent hypothesis from a concrete PC-owner task. No private Search Console or keyword-volume evidence is claimed.",
+      "audience": "PC builders or existing-PC owners performing the named task",
+      "region": "Canada/US and other markets; no unverified regional price claims",
+      "relatedExistingRoute": "/blog/compact-quiet-pc-fit-cooling/",
+      "distinctContribution": "PSU enclosure versus cable-routing envelope, not a broad compact-PC buying guide.",
+      "evidenceNeededForPublication": "Human verification of the applicable primary-source claims, scope, original diagram and current destination links",
+      "relatedTools": [
+        {
+          "label": "Plan PSU, case and GPU together",
+          "href": "/builder/"
+        },
+        {
+          "label": "Record unresolved fit checks",
+          "href": "/compatibility/"
+        }
+      ],
+      "nextStep": {
+        "label": "Plan PSU, case and GPU together",
+        "href": "/builder/"
+      },
+      "status": "complete_unpublished_research_draft",
+      "candidateOverlapChecks": [
+        {
+          "route": "/blog/rtx-5060-ti-8gb-vs-16gb/",
+          "title": "RTX 5060 Ti 8 GB vs 16 GB: capacity is the key difference",
+          "score": 0.09090909090909091
+        },
+        {
+          "route": "/blog/how-to-choose-a-cpu-cooler-that-fits/",
+          "title": "How to choose a CPU cooler that fits your case and RAM",
+          "score": 0.08
+        },
+        {
+          "route": "/blog/choosing-an-ssd/",
+          "title": "How to choose an SSD: capacity, interface and motherboard fit",
+          "score": 0.07692307692307693
+        }
+      ],
+      "contentHash": "64958509042e95e2f24740f1fe9874044378eae2e18d132a4ec7fb2181a1ad60"
+    },
+    {
+      "id": "LE-08",
+      "proposedRoute": "/blog/gpu-power-cable-side-panel-clearance/",
+      "previewRoute": "/review/evolution/gpu-power-cable-side-panel-clearance/",
+      "title": "GPU power-cable clearance: check the side panel too",
+      "queryIntent": "Document GPU power cable routing beyond the card-body dimensions",
+      "demandBasis": "Qualitative intent hypothesis from a concrete PC-owner task. No private Search Console or keyword-volume evidence is claimed.",
+      "audience": "PC builders or existing-PC owners performing the named task",
+      "region": "Canada/US and other markets; no unverified regional price claims",
+      "relatedExistingRoute": "/blog/will-a-graphics-card-fit-my-case/",
+      "distinctContribution": "Dedicated connector/panel routing task instead of general GPU length, thickness and radiator fit.",
+      "evidenceNeededForPublication": "Human verification of the applicable primary-source claims, scope, original diagram and current destination links",
+      "relatedTools": [
+        {
+          "label": "Plan the exact card and case",
+          "href": "/builder/"
+        },
+        {
+          "label": "Open the fit checks",
+          "href": "/compatibility/"
+        }
+      ],
+      "nextStep": {
+        "label": "Plan the exact card and case",
+        "href": "/builder/"
+      },
+      "status": "complete_unpublished_research_draft",
+      "candidateOverlapChecks": [
+        {
+          "route": "/blog/how-to-choose-a-graphics-card/",
+          "title": "How to choose a graphics card for your PC",
+          "score": 0.14814814814814814
+        },
+        {
+          "route": "/blog/pc-build-compatibility-checklist/",
+          "title": "PC compatibility checklist: what to check before you buy",
+          "score": 0.11538461538461539
+        },
+        {
+          "route": "/blog/ai-demand-gaming-gpu-prices/",
+          "title": "Does AI demand make gaming GPUs more expensive?",
+          "score": 0.06666666666666667
+        }
+      ],
+      "contentHash": "6b2e3eab892f1c51960cc6a1a2bd86eceb34dd00567c7045298ba61bd7bbe79f"
+    },
+    {
+      "id": "LE-09",
+      "proposedRoute": "/blog/xmp-expo-profiles-before-and-after/",
+      "previewRoute": "/review/evolution/xmp-expo-profiles-before-and-after/",
+      "title": "XMP and EXPO: record the default before changing the profile",
+      "queryIntent": "Make an informed, reversible memory-profile decision rather than copy an unsupported setting",
+      "demandBasis": "Qualitative intent hypothesis from a concrete PC-owner task. No private Search Console or keyword-volume evidence is claimed.",
+      "audience": "PC builders or existing-PC owners performing the named task",
+      "region": "Canada/US and other markets; no unverified regional price claims",
+      "relatedExistingRoute": "/blog/how-to-choose-gaming-ram/",
+      "distinctContribution": "Reversible profile workflow, not a repeated memory compatibility/QVL purchase guide.",
+      "evidenceNeededForPublication": "Human verification of the applicable primary-source claims, scope, original diagram and current destination links",
+      "relatedTools": [
+        {
+          "label": "Record your memory configuration",
+          "href": "/builder/"
+        },
+        {
+          "label": "Keep the previous revision",
+          "href": "/my-pc/"
+        }
+      ],
+      "nextStep": {
+        "label": "Record your memory configuration",
+        "href": "/builder/"
+      },
+      "status": "complete_unpublished_research_draft",
+      "candidateOverlapChecks": [
+        {
+          "route": "/blog/what-gpus-do-in-ai-data-centers/",
+          "title": "What do GPUs do in AI data centers?",
+          "score": 0.06060606060606061
+        },
+        {
+          "route": "/blog/phased-pc-upgrade-plan/",
+          "title": "Plan a phased PC upgrade: make every intermediate build usable",
+          "score": 0.058823529411764705
+        },
+        {
+          "route": "/blog/will-a-graphics-card-fit-my-case/",
+          "title": "Will a graphics card fit your case? Check the card and cooling layout",
+          "score": 0.05263157894736842
+        }
+      ],
+      "contentHash": "562d262c07a4629adf06432b9ddea13bbc56fbf4ac781aa96e708972ca94ef68"
+    },
+    {
+      "id": "LE-10",
+      "proposedRoute": "/blog/two-vs-four-ddr5-modules/",
+      "previewRoute": "/review/evolution/two-vs-four-ddr5-modules/",
+      "title": "Two DDR5 sticks vs four: capacity and supported speed",
+      "queryIntent": "Compare two- and four-module DDR5 configurations using exact CPU and board evidence",
+      "demandBasis": "Qualitative intent hypothesis from a concrete PC-owner task. No private Search Console or keyword-volume evidence is claimed.",
+      "audience": "PC builders or existing-PC owners performing the named task",
+      "region": "Canada/US and other markets; no unverified regional price claims",
+      "relatedExistingRoute": "/blog/32gb-vs-64gb-ram-workloads/",
+      "distinctContribution": "Electrical population and support tradeoffs; existing article decides workload capacity.",
+      "evidenceNeededForPublication": "Human verification of the applicable primary-source claims, scope, original diagram and current destination links",
+      "relatedTools": [
+        {
+          "label": "Compare complete memory arrangements",
+          "href": "/builder/"
+        },
+        {
+          "label": "Keep or replace an existing kit",
+          "href": "/upgrade/"
+        }
+      ],
+      "nextStep": {
+        "label": "Compare complete memory arrangements",
+        "href": "/builder/"
+      },
+      "status": "complete_unpublished_research_draft",
+      "candidateOverlapChecks": [
+        {
+          "route": "/blog/nvme-vs-sata-ssd-for-gaming/",
+          "title": "Samsung 990 PRO 1 TB vs 870 EVO 1 TB: choose the supported interface",
+          "score": 0.10810810810810811
+        },
+        {
+          "route": "/blog/b650-tomahawk-m2-pcie-lane-sharing/",
+          "title": "B650 TOMAHAWK lane sharing: choose the right M.2 slot",
+          "score": 0.10714285714285714
+        },
+        {
+          "route": "/blog/check-cpu-bios-support/",
+          "title": "Check CPU and BIOS support: exact model, minimum version and update method",
+          "score": 0.0967741935483871
+        }
+      ],
+      "contentHash": "e58b0d4ff2fd1c1f74a38f87aea25401ba1c43113fb0d59ca894941ef4d54ee6"
+    },
+    {
+      "id": "LE-11",
+      "proposedRoute": "/blog/24gb-48gb-ddr5-module-support/",
+      "previewRoute": "/review/evolution/24gb-48gb-ddr5-module-support/",
+      "title": "24 GB and 48 GB DDR5 modules: check the platform, not the pattern",
+      "queryIntent": "Understand 24/48 GB DIMMs and check their exact kit/platform support",
+      "demandBasis": "Qualitative intent hypothesis from a concrete PC-owner task. No private Search Console or keyword-volume evidence is claimed.",
+      "audience": "PC builders or existing-PC owners performing the named task",
+      "region": "Canada/US and other markets; no unverified regional price claims",
+      "relatedExistingRoute": "/blog/understanding-pc-memory/",
+      "distinctContribution": "Non-binary chip/module/kit capacity and support identification, rather than general RAM selection.",
+      "evidenceNeededForPublication": "Human verification of the applicable primary-source claims, scope, original diagram and current destination links",
+      "relatedTools": [
+        {
+          "label": "Record exact memory-kit identity",
+          "href": "/builder/"
+        },
+        {
+          "label": "Compare keeping and replacing memory",
+          "href": "/upgrade/"
+        }
+      ],
+      "nextStep": {
+        "label": "Record exact memory-kit identity",
+        "href": "/builder/"
+      },
+      "status": "complete_unpublished_research_draft",
+      "candidateOverlapChecks": [
+        {
+          "route": "/blog/memory-market-watch-ai-is-not-a-retail-price/",
+          "title": "Memory market watch: AI demand is not a price quote for your RAM",
+          "score": 0.12
+        },
+        {
+          "route": "/blog/phone-software-support-commitment-vs-end-date/",
+          "title": "Phone update support: a promise is not always an exact end date",
+          "score": 0.12
+        },
+        {
+          "route": "/blog/understanding-pc-memory/",
+          "title": "How to choose PC memory: capacity, DDR generation and timings",
+          "score": 0.1111111111111111
+        }
+      ],
+      "contentHash": "81d8ec4e4eab15d7fcfbef3f9757c6b82bbe0ab67b6f53f854321eb2dccd3d05"
+    },
+    {
+      "id": "LE-12",
+      "proposedRoute": "/blog/m2-2230-2242-2280-22110-sizes/",
+      "previewRoute": "/review/evolution/m2-2230-2242-2280-22110-sizes/",
+      "title": "M.2 SSD sizes: 2230, 2242, 2280 and 22110",
+      "queryIntent": "Decode M.2 length numbers and check the actual mounting position",
+      "demandBasis": "Qualitative intent hypothesis from a concrete PC-owner task. No private Search Console or keyword-volume evidence is claimed.",
+      "audience": "PC builders or existing-PC owners performing the named task",
+      "region": "Canada/US and other markets; no unverified regional price claims",
+      "relatedExistingRoute": "/blog/choosing-an-ssd/",
+      "distinctContribution": "Dimension decoding and mounting-point identification; general SSD guide covers broader selection.",
+      "evidenceNeededForPublication": "Human verification of the applicable primary-source claims, scope, original diagram and current destination links",
+      "relatedTools": [
+        {
+          "label": "Choose storage and motherboard together",
+          "href": "/builder/"
+        },
+        {
+          "label": "Inspect slot-sharing evidence",
+          "href": "/compatibility/"
+        }
+      ],
+      "nextStep": {
+        "label": "Choose storage and motherboard together",
+        "href": "/builder/"
+      },
+      "status": "complete_unpublished_research_draft",
+      "candidateOverlapChecks": [
+        {
+          "route": "/blog/ram-or-storage-capacity-problem/",
+          "title": "Is RAM or storage capacity the actual problem?",
+          "score": 0.0625
+        },
+        {
+          "route": "/blog/premiere-creator-pc-workload-guide/",
+          "title": "Plan a Premiere editing PC around your actual projects",
+          "score": 0.058823529411764705
+        },
+        {
+          "route": "/blog/gaming-laptop-ram-ssd-upgrade-checklist/",
+          "title": "Can you upgrade a gaming laptop’s RAM and SSD?",
+          "score": 0.04
+        }
+      ],
+      "contentHash": "a435719b258c4d2c5d033f2a7edc74cfda802767cd0db7a8047a2098d5c5c6bf"
+    },
+    {
+      "id": "LE-13",
+      "proposedRoute": "/blog/ssd-tbw-warranty-not-failure-date/",
+      "previewRoute": "/review/evolution/ssd-tbw-warranty-not-failure-date/",
+      "title": "SSD TBW: an endurance rating is not a failure countdown",
+      "queryIntent": "Interpret TBW, warranty limits and actual writes without predicting a drive failure date",
+      "demandBasis": "Qualitative intent hypothesis from a concrete PC-owner task. No private Search Console or keyword-volume evidence is claimed.",
+      "audience": "PC builders or existing-PC owners performing the named task",
+      "region": "Canada/US and other markets; no unverified regional price claims",
+      "relatedExistingRoute": "/blog/ssd-transfer-time-advertised-speed/",
+      "distinctContribution": "Endurance and coverage interpretation replaces the overlapping proposed PCIe-speed topic.",
+      "evidenceNeededForPublication": "Human verification of the applicable primary-source claims, scope, original diagram and current destination links",
+      "relatedTools": [
+        {
+          "label": "Record the exact SSD",
+          "href": "/builder/"
+        },
+        {
+          "label": "Plan capacity separately",
+          "href": "/tools/storage-capacity-planner/"
+        }
+      ],
+      "nextStep": {
+        "label": "Record the exact SSD",
+        "href": "/builder/"
+      },
+      "status": "complete_unpublished_research_draft",
+      "candidateOverlapChecks": [
+        {
+          "route": "/blog/ssd-transfer-time-advertised-speed/",
+          "title": "SSD transfer time: why the advertised MB/s is not your copy speed",
+          "score": 0.13793103448275862
+        },
+        {
+          "route": "/blog/phone-software-support-commitment-vs-end-date/",
+          "title": "Phone update support: a promise is not always an exact end date",
+          "score": 0.10344827586206896
+        },
+        {
+          "route": "/blog/choosing-an-ssd/",
+          "title": "How to choose an SSD: capacity, interface and motherboard fit",
+          "score": 0.06896551724137931
+        }
+      ],
+      "contentHash": "b30378acf2830891d5a324c0a4b7965e4c13b45a894a8042f10e1f519c5746ca"
+    },
+    {
+      "id": "LE-14",
+      "proposedRoute": "/blog/ssd-missing-bios-detection-checks/",
+      "previewRoute": "/review/evolution/ssd-missing-bios-detection-checks/",
+      "title": "SSD not showing in BIOS? Separate detection from booting",
+      "queryIntent": "Distinguish physical SSD detection from boot-entry and operating-system visibility problems",
+      "demandBasis": "Qualitative intent hypothesis from a concrete PC-owner task. No private Search Console or keyword-volume evidence is claimed.",
+      "audience": "PC builders or existing-PC owners performing the named task",
+      "region": "Canada/US and other markets; no unverified regional price claims",
+      "relatedExistingRoute": "/blog/new-pc-first-boot-setup-checklist/",
+      "distinctContribution": "Storage-specific detection diagnosis rather than repeating the full first-boot checklist.",
+      "evidenceNeededForPublication": "Human verification of the applicable primary-source claims, scope, original diagram and current destination links",
+      "relatedTools": [
+        {
+          "label": "Record the storage arrangement",
+          "href": "/builder/"
+        },
+        {
+          "label": "Review the first-boot path",
+          "href": "/build-school/"
+        }
+      ],
+      "nextStep": {
+        "label": "Record the storage arrangement",
+        "href": "/builder/"
+      },
+      "status": "complete_unpublished_research_draft",
+      "candidateOverlapChecks": [
+        {
+          "route": "/blog/prebuilt-pc-internals-upgrade-checklist/",
+          "title": "The prebuilt internals checklist: PSU, RAM, cooling and upgrades",
+          "score": 0.09375
+        },
+        {
+          "route": "/blog/memory-market-watch-ai-is-not-a-retail-price/",
+          "title": "Memory market watch: AI demand is not a price quote for your RAM",
+          "score": 0.06666666666666667
+        },
+        {
+          "route": "/blog/ryzen-7800x3d-north-air-vs-aio/",
+          "title": "Air cooler or AIO for a Ryzen 7 7800X3D in the original North?",
+          "score": 0.06451612903225806
+        }
+      ],
+      "contentHash": "75cc82ce75c6760eeffa847f952b7c40ba9bf091f4ea68b971bf4ed1ea611405"
+    },
+    {
+      "id": "LE-15",
+      "proposedRoute": "/blog/ssd-thermal-throttling-how-to-check/",
+      "previewRoute": "/review/evolution/ssd-thermal-throttling-how-to-check/",
+      "title": "Is your SSD thermal-throttling? Check more than one speed drop",
+      "queryIntent": "Investigate a suspected SSD heat slowdown without diagnosing it from throughput alone",
+      "demandBasis": "Qualitative intent hypothesis from a concrete PC-owner task. No private Search Console or keyword-volume evidence is claimed.",
+      "audience": "PC builders or existing-PC owners performing the named task",
+      "region": "Canada/US and other markets; no unverified regional price claims",
+      "relatedExistingRoute": "/blog/ssd-transfer-time-advertised-speed/",
+      "distinctContribution": "Heat diagnosis and cooling follow-up, rather than a duplicate advertised-throughput explanation.",
+      "evidenceNeededForPublication": "Human verification of the applicable primary-source claims, scope, original diagram and current destination links",
+      "relatedTools": [
+        {
+          "label": "Record SSD and cooling choices",
+          "href": "/builder/"
+        },
+        {
+          "label": "Understand copy-speed limits",
+          "href": "/blog/ssd-transfer-time-advertised-speed/"
+        }
+      ],
+      "nextStep": {
+        "label": "Record SSD and cooling choices",
+        "href": "/builder/"
+      },
+      "status": "complete_unpublished_research_draft",
+      "candidateOverlapChecks": [
+        {
+          "route": "/blog/ssd-transfer-time-advertised-speed/",
+          "title": "SSD transfer time: why the advertised MB/s is not your copy speed",
+          "score": 0.1
+        },
+        {
+          "route": "/blog/pc-upgrade-total-platform-cost/",
+          "title": "A CPU upgrade costs more than the CPU: compare the whole platform",
+          "score": 0.07407407407407407
+        },
+        {
+          "route": "/blog/choosing-an-ssd/",
+          "title": "How to choose an SSD: capacity, interface and motherboard fit",
+          "score": 0.06896551724137931
+        }
+      ],
+      "contentHash": "b12dd8fe8c0fdbd3bf3558dfcb0e02b2459e65f75cd550be7cc44055fe94b491"
+    },
+    {
+      "id": "LE-16",
+      "proposedRoute": "/blog/ddr5-on-die-ecc-vs-system-ecc/",
+      "previewRoute": "/review/evolution/ddr5-on-die-ecc-vs-system-ecc/",
+      "title": "DDR5 on-die ECC is not the same as system ECC",
+      "queryIntent": "Prevent on-die ECC or an ECC label from being mistaken for complete platform support",
+      "demandBasis": "Qualitative intent hypothesis from a concrete PC-owner task. No private Search Console or keyword-volume evidence is claimed.",
+      "audience": "PC builders or existing-PC owners performing the named task",
+      "region": "Canada/US and other markets; no unverified regional price claims",
+      "relatedExistingRoute": "/blog/how-to-choose-gaming-ram/",
+      "distinctContribution": "Replaces the proposed duplicate QVL article with a distinct ECC scope and module-type decision.",
+      "evidenceNeededForPublication": "Human verification of the applicable primary-source claims, scope, original diagram and current destination links",
+      "relatedTools": [
+        {
+          "label": "Compare exact platform specifications",
+          "href": "/compare/"
+        },
+        {
+          "label": "Record your workstation parts",
+          "href": "/builder/"
+        }
+      ],
+      "nextStep": {
+        "label": "Compare exact platform specifications",
+        "href": "/compare/"
+      },
+      "status": "complete_unpublished_research_draft",
+      "candidateOverlapChecks": [
+        {
+          "route": "/blog/build-vs-buy-pc-complete-cost/",
+          "title": "Build vs buy a gaming PC: compare the complete purchase cost",
+          "score": 0.13793103448275862
+        },
+        {
+          "route": "/blog/how-to-choose-a-processor/",
+          "title": "How to choose a processor without overlooking the platform",
+          "score": 0.1111111111111111
+        },
+        {
+          "route": "/blog/video-editing-pc-workload-checklist/",
+          "title": "Plan a video-editing PC from your projects, not a gaming label",
+          "score": 0.1
+        }
+      ],
+      "contentHash": "c6c10659dff4e6ff7696249e70276ac1dc11e7fdcb480a4fc43fee1ac01f452a"
+    },
+    {
+      "id": "LE-17",
+      "proposedRoute": "/blog/freesync-gsync-compatible-vrr-path/",
+      "previewRoute": "/review/evolution/freesync-gsync-compatible-vrr-path/",
+      "title": "FreeSync, G-SYNC Compatible and VRR: check the whole path",
+      "queryIntent": "Identify a supported variable-refresh path for the exact GPU and display input",
+      "demandBasis": "Qualitative intent hypothesis from a concrete PC-owner task. No private Search Console or keyword-volume evidence is claimed.",
+      "audience": "PC builders or existing-PC owners performing the named task",
+      "region": "Canada/US and other markets; no unverified regional price claims",
+      "relatedExistingRoute": "/blog/choose-display-target-game-evidence/",
+      "distinctContribution": "VRR connection/activation task; existing guide chooses an overall display target.",
+      "evidenceNeededForPublication": "Human verification of the applicable primary-source claims, scope, original diagram and current destination links",
+      "relatedTools": [
+        {
+          "label": "Compare display and GPU choices",
+          "href": "/compare/"
+        },
+        {
+          "label": "Inspect game evidence separately",
+          "href": "/performance/"
+        }
+      ],
+      "nextStep": {
+        "label": "Compare display and GPU choices",
+        "href": "/compare/"
+      },
+      "status": "complete_unpublished_research_draft",
+      "candidateOverlapChecks": [
+        {
+          "route": "/blog/choose-display-target-game-evidence/",
+          "title": "Choose a monitor target: verify the output path, refresh rate and game evidence",
+          "score": 0.125
+        },
+        {
+          "route": "/blog/cpu-or-gpu-upgrade-for-gaming/",
+          "title": "CPU or GPU upgrade: which will improve your games?",
+          "score": 0.07407407407407407
+        },
+        {
+          "route": "/blog/laptop-gpu-vs-desktop-rtx-5070/",
+          "title": "RTX 5070 laptop vs desktop: why the name is not the whole comparison",
+          "score": 0.06896551724137931
+        }
+      ],
+      "contentHash": "360ab69cd4923e3925f19c63c2e50fa87a0d7913a05adc40307bf3f0a03025e3"
+    },
+    {
+      "id": "LE-18",
+      "proposedRoute": "/blog/displayport-hdmi-1440p-refresh-checklist/",
+      "previewRoute": "/review/evolution/displayport-hdmi-1440p-refresh-checklist/",
+      "title": "DisplayPort or HDMI for 1440p high refresh? Read the mode table",
+      "queryIntent": "Choose a supported 1440p high-refresh connection from exact monitor and GPU specifications",
+      "demandBasis": "Qualitative intent hypothesis from a concrete PC-owner task. No private Search Console or keyword-volume evidence is claimed.",
+      "audience": "PC builders or existing-PC owners performing the named task",
+      "region": "Canada/US and other markets; no unverified regional price claims",
+      "relatedExistingRoute": "/blog/choose-display-target-game-evidence/",
+      "distinctContribution": "Exact 1440p signal-mode selection, distinct from setting a monitor/gaming target.",
+      "evidenceNeededForPublication": "Human verification of the applicable primary-source claims, scope, original diagram and current destination links",
+      "relatedTools": [
+        {
+          "label": "Compare display specifications",
+          "href": "/compare/"
+        },
+        {
+          "label": "Keep FPS separate from refresh",
+          "href": "/performance/"
+        }
+      ],
+      "nextStep": {
+        "label": "Compare display specifications",
+        "href": "/compare/"
+      },
+      "status": "complete_unpublished_research_draft",
+      "candidateOverlapChecks": [
+        {
+          "route": "/blog/how-to-choose-a-graphics-card/",
+          "title": "How to choose a graphics card for your PC",
+          "score": 0.13793103448275862
+        },
+        {
+          "route": "/blog/choose-display-target-game-evidence/",
+          "title": "Choose a monitor target: verify the output path, refresh rate and game evidence",
+          "score": 0.12121212121212122
+        },
+        {
+          "route": "/blog/nvme-vs-sata-ssd-for-gaming/",
+          "title": "Samsung 990 PRO 1 TB vs 870 EVO 1 TB: choose the supported interface",
+          "score": 0.10810810810810811
+        }
+      ],
+      "contentHash": "48dc32d8b273ad6b3679a7c2e5a34b6d2a08cf64e51774df7233713fd9a76fdf"
+    },
+    {
+      "id": "LE-19",
+      "proposedRoute": "/blog/record-game-frame-times-presentmon/",
+      "previewRoute": "/review/evolution/record-game-frame-times-presentmon/",
+      "title": "Record game frame times: a repeatable capture worksheet",
+      "queryIntent": "Create a reproducible personal frame-time capture without claiming a universal benchmark",
+      "demandBasis": "Qualitative intent hypothesis from a concrete PC-owner task. No private Search Console or keyword-volume evidence is claimed.",
+      "audience": "PC builders or existing-PC owners performing the named task",
+      "region": "Canada/US and other markets; no unverified regional price claims",
+      "relatedExistingRoute": "/blog/read-hardware-benchmarks-test-conditions/",
+      "distinctContribution": "Practical personal capture protocol replaces a second general FPS/1%-low explainer.",
+      "evidenceNeededForPublication": "Human verification of the applicable primary-source claims, scope, original diagram and current destination links",
+      "relatedTools": [
+        {
+          "label": "Inspect the site’s performance evidence",
+          "href": "/performance/"
+        },
+        {
+          "label": "Record the tested configuration",
+          "href": "/builder/"
+        }
+      ],
+      "nextStep": {
+        "label": "Inspect the site’s performance evidence",
+        "href": "/performance/"
+      },
+      "status": "complete_unpublished_research_draft",
+      "candidateOverlapChecks": [
+        {
+          "route": "/blog/average-fps-one-percent-lows-frame-times/",
+          "title": "Average FPS, 1% lows and frame-time plots explained",
+          "score": 0.10526315789473684
+        },
+        {
+          "route": "/blog/32gb-vs-64gb-ram-workloads/",
+          "title": "32 GB vs 64 GB RAM: decide from the work your PC actually does",
+          "score": 0.06666666666666667
+        },
+        {
+          "route": "/blog/choose-display-target-game-evidence/",
+          "title": "Choose a monitor target: verify the output path, refresh rate and game evidence",
+          "score": 0.058823529411764705
+        }
+      ],
+      "contentHash": "56f52ab4d21305dc8a033b77456a877305dd7e304d89cba4b7f79a30eae32616"
+    },
+    {
+      "id": "LE-20",
+      "proposedRoute": "/blog/shader-cache-first-run-stutter/",
+      "previewRoute": "/review/evolution/shader-cache-first-run-stutter/",
+      "title": "First-run stutter: why shader-cache state belongs in the test notes",
+      "queryIntent": "Recognize shader-cache state as a testing condition without diagnosing every hitch as compilation",
+      "demandBasis": "Qualitative intent hypothesis from a concrete PC-owner task. No private Search Console or keyword-volume evidence is claimed.",
+      "audience": "PC builders or existing-PC owners performing the named task",
+      "region": "Canada/US and other markets; no unverified regional price claims",
+      "relatedExistingRoute": "/blog/graphics-driver-update-rollback-checklist/",
+      "distinctContribution": "Shader-cache test-state documentation replaces another broad frame-generation explainer.",
+      "evidenceNeededForPublication": "Human verification of the applicable primary-source claims, scope, original diagram and current destination links",
+      "relatedTools": [
+        {
+          "label": "Use evidence-led game performance",
+          "href": "/performance/"
+        },
+        {
+          "label": "Plan an upgrade after diagnosis",
+          "href": "/upgrade/"
+        }
+      ],
+      "nextStep": {
+        "label": "Use evidence-led game performance",
+        "href": "/performance/"
+      },
+      "status": "complete_unpublished_research_draft",
+      "candidateOverlapChecks": [
+        {
+          "route": "/blog/graphics-driver-update-rollback-checklist/",
+          "title": "Graphics-driver trouble after an update: preserve the evidence first",
+          "score": 0.06451612903225806
+        },
+        {
+          "route": "/blog/ram-shortage-ai-memory-demand/",
+          "title": "RAM shortages and AI demand: what PC buyers should check",
+          "score": 0.058823529411764705
+        },
+        {
+          "route": "/blog/local-ai-memory-weights-kv-cache/",
+          "title": "Local AI memory: model weights are only the starting point",
+          "score": 0.05555555555555555
+        }
+      ],
+      "contentHash": "8e889ea2a8c4a5616f2d66b125bce5bbe38c2f82829373491b7b9f2a4fd58bf2"
+    },
+    {
+      "id": "LE-21",
+      "proposedRoute": "/blog/gpu-two-three-monitors-output-plan/",
+      "previewRoute": "/review/evolution/gpu-two-three-monitors-output-plan/",
+      "title": "Choosing a GPU for two or three monitors: map the outputs",
+      "queryIntent": "Verify a multi-monitor connection plan for exact displays and GPU outputs",
+      "demandBasis": "Qualitative intent hypothesis from a concrete PC-owner task. No private Search Console or keyword-volume evidence is claimed.",
+      "audience": "PC builders or existing-PC owners performing the named task",
+      "region": "Canada/US and other markets; no unverified regional price claims",
+      "relatedExistingRoute": "/blog/choose-display-target-game-evidence/",
+      "distinctContribution": "Multi-monitor topology and simultaneous-output checks, not single-display target selection.",
+      "evidenceNeededForPublication": "Human verification of the applicable primary-source claims, scope, original diagram and current destination links",
+      "relatedTools": [
+        {
+          "label": "Compare exact graphics-card outputs",
+          "href": "/compare/"
+        },
+        {
+          "label": "Record the complete configuration",
+          "href": "/builder/"
+        }
+      ],
+      "nextStep": {
+        "label": "Compare exact graphics-card outputs",
+        "href": "/compare/"
+      },
+      "status": "complete_unpublished_research_draft",
+      "candidateOverlapChecks": [
+        {
+          "route": "/blog/how-to-choose-a-graphics-card/",
+          "title": "How to choose a graphics card for your PC",
+          "score": 0.10344827586206896
+        },
+        {
+          "route": "/blog/choose-display-target-game-evidence/",
+          "title": "Choose a monitor target: verify the output path, refresh rate and game evidence",
+          "score": 0.09090909090909091
+        },
+        {
+          "route": "/blog/nvme-vs-sata-ssd-for-gaming/",
+          "title": "Samsung 990 PRO 1 TB vs 870 EVO 1 TB: choose the supported interface",
+          "score": 0.08108108108108109
+        }
+      ],
+      "contentHash": "449ab053ed512f334eb55fc70acb2fb2a05b845b2be75fbd35a124cfdc0f97a5"
+    },
+    {
+      "id": "LE-22",
+      "proposedRoute": "/blog/av1-hardware-encoding-before-buying/",
+      "previewRoute": "/review/evolution/av1-hardware-encoding-before-buying/",
+      "title": "AV1 encoding: check hardware, software and the destination",
+      "queryIntent": "Verify an AV1 recording or streaming path without assuming decode support implies encode support",
+      "demandBasis": "Qualitative intent hypothesis from a concrete PC-owner task. No private Search Console or keyword-volume evidence is claimed.",
+      "audience": "PC builders or existing-PC owners performing the named task",
+      "region": "Canada/US and other markets; no unverified regional price claims",
+      "relatedExistingRoute": "/blog/gaming-streaming-pc-planning/",
+      "distinctContribution": "AV1 capability-chain verification rather than another complete streaming-PC guide.",
+      "evidenceNeededForPublication": "Human verification of the applicable primary-source claims, scope, original diagram and current destination links",
+      "relatedTools": [
+        {
+          "label": "Compare GPU features",
+          "href": "/compare/"
+        },
+        {
+          "label": "Plan a gaming/streaming system",
+          "href": "/blog/gaming-streaming-pc-planning/"
+        }
+      ],
+      "nextStep": {
+        "label": "Compare GPU features",
+        "href": "/compare/"
+      },
+      "status": "complete_unpublished_research_draft",
+      "candidateOverlapChecks": [
+        {
+          "route": "/blog/choose-display-target-game-evidence/",
+          "title": "Choose a monitor target: verify the output path, refresh rate and game evidence",
+          "score": 0.058823529411764705
+        },
+        {
+          "route": "/blog/read-hardware-benchmarks-test-conditions/",
+          "title": "How to read GPU benchmarks without comparing the wrong tests",
+          "score": 0.058823529411764705
+        },
+        {
+          "route": "/news/amd-linux-26-16-ubuntu-blender/",
+          "title": "AMD Linux 26.16 adds Ubuntu support and a targeted Blender fix",
+          "score": 0.047619047619047616
+        }
+      ],
+      "contentHash": "317fe1274941cf2d49160dc4404883ab7ec586092adcedffdef78ebf760e699b"
+    },
+    {
+      "id": "LE-23",
+      "proposedRoute": "/blog/gpu-undervolting-baseline-validation/",
+      "previewRoute": "/review/evolution/gpu-undervolting-baseline-validation/",
+      "title": "GPU undervolting: preserve stock settings and validate the change",
+      "queryIntent": "Evaluate supported GPU undervolting as a reversible experiment with documented limitations",
+      "demandBasis": "Qualitative intent hypothesis from a concrete PC-owner task. No private Search Console or keyword-volume evidence is claimed.",
+      "audience": "PC builders or existing-PC owners performing the named task",
+      "region": "Canada/US and other markets; no unverified regional price claims",
+      "relatedExistingRoute": "/blog/graphics-driver-update-rollback-checklist/",
+      "distinctContribution": "GPU tuning validation and rollback, distinct from graphics-driver installation problems.",
+      "evidenceNeededForPublication": "Human verification of the applicable primary-source claims, scope, original diagram and current destination links",
+      "relatedTools": [
+        {
+          "label": "Record the tested GPU configuration",
+          "href": "/my-pc/"
+        },
+        {
+          "label": "Check game evidence separately",
+          "href": "/performance/"
+        }
+      ],
+      "nextStep": {
+        "label": "Record the tested GPU configuration",
+        "href": "/my-pc/"
+      },
+      "status": "complete_unpublished_research_draft",
+      "candidateOverlapChecks": [
+        {
+          "route": "/blog/how-to-choose-a-graphics-card/",
+          "title": "How to choose a graphics card for your PC",
+          "score": 0.06896551724137931
+        },
+        {
+          "route": "/blog/ai-demand-gaming-gpu-prices/",
+          "title": "Does AI demand make gaming GPUs more expensive?",
+          "score": 0.06666666666666667
+        },
+        {
+          "route": "/blog/mux-switch-advanced-optimus-gaming-laptop/",
+          "title": "MUX switch vs Advanced Optimus: which laptop setting should you use?",
+          "score": 0.06060606060606061
+        }
+      ],
+      "contentHash": "b4ebeadd69c7ba321310142c3f046695b05ae6aafe50404062b98e5a6dafe993"
+    },
+    {
+      "id": "LE-24",
+      "proposedRoute": "/blog/vram-capacity-allocation-usage-budget/",
+      "previewRoute": "/review/evolution/vram-capacity-allocation-usage-budget/",
+      "title": "VRAM capacity, usage and budget are different numbers",
+      "queryIntent": "Interpret different GPU-memory counters and avoid a false upgrade conclusion",
+      "demandBasis": "Qualitative intent hypothesis from a concrete PC-owner task. No private Search Console or keyword-volume evidence is claimed.",
+      "audience": "PC builders or existing-PC owners performing the named task",
+      "region": "Canada/US and other markets; no unverified regional price claims",
+      "relatedExistingRoute": "/blog/rtx-5060-ti-8gb-vs-16gb/",
+      "distinctContribution": "Counter semantics and diagnosis, rather than a duplicate comparison of two capacity variants.",
+      "evidenceNeededForPublication": "Human verification of the applicable primary-source claims, scope, original diagram and current destination links",
+      "relatedTools": [
+        {
+          "label": "Compare exact GPU variants",
+          "href": "/compare/"
+        },
+        {
+          "label": "Inspect game-specific evidence",
+          "href": "/performance/"
+        }
+      ],
+      "nextStep": {
+        "label": "Compare exact GPU variants",
+        "href": "/compare/"
+      },
+      "status": "complete_unpublished_research_draft",
+      "candidateOverlapChecks": [
+        {
+          "route": "/blog/how-to-choose-a-graphics-card/",
+          "title": "How to choose a graphics card for your PC",
+          "score": 0.1
+        },
+        {
+          "route": "/blog/understanding-pc-memory/",
+          "title": "How to choose PC memory: capacity, DDR generation and timings",
+          "score": 0.0967741935483871
+        },
+        {
+          "route": "/blog/local-ai-memory-weights-kv-cache/",
+          "title": "Local AI memory: model weights are only the starting point",
+          "score": 0.09090909090909091
+        }
+      ],
+      "contentHash": "23c0d313b59d3440cdc75e5ed0e2433cb27522854590268f91b9ec11678cc601"
+    },
+    {
+      "id": "LE-25",
+      "proposedRoute": "/blog/pc-airflow-intake-exhaust-pressure/",
+      "previewRoute": "/review/evolution/pc-airflow-intake-exhaust-pressure/",
+      "title": "PC airflow: draw the intake and exhaust path first",
+      "queryIntent": "Create a case-specific airflow plan and distinguish pressure concepts from measured results",
+      "demandBasis": "Qualitative intent hypothesis from a concrete PC-owner task. No private Search Console or keyword-volume evidence is claimed.",
+      "audience": "PC builders or existing-PC owners performing the named task",
+      "region": "Canada/US and other markets; no unverified regional price claims",
+      "relatedExistingRoute": "/blog/compact-quiet-pc-fit-cooling/",
+      "distinctContribution": "Airflow path and pressure interpretation, rather than a broad compact/quiet build plan.",
+      "evidenceNeededForPublication": "Human verification of the applicable primary-source claims, scope, original diagram and current destination links",
+      "relatedTools": [
+        {
+          "label": "Plan case and fan locations",
+          "href": "/builder/"
+        },
+        {
+          "label": "Review cooling fit first",
+          "href": "/blog/how-to-choose-a-cpu-cooler-that-fits/"
+        }
+      ],
+      "nextStep": {
+        "label": "Plan case and fan locations",
+        "href": "/builder/"
+      },
+      "status": "complete_unpublished_research_draft",
+      "candidateOverlapChecks": [
+        {
+          "route": "/blog/build-your-first-gaming-pc/",
+          "title": "Build your first gaming PC: from a plan to first boot",
+          "score": 0.1111111111111111
+        },
+        {
+          "route": "/blog/new-pc-first-boot-setup-checklist/",
+          "title": "First boot for a new PC: a safe checklist from power-on to a working baseline",
+          "score": 0.05714285714285714
+        },
+        {
+          "route": "/blog/plan-balanced-1440p-gaming-pc/",
+          "title": "Plan a balanced 1440p gaming PC",
+          "score": 0.05555555555555555
+        }
+      ],
+      "contentHash": "94708802a137cae66ef8f7ace940ca6a585cde4657f951a3b46e6acd2ee585ef"
+    },
+    {
+      "id": "LE-26",
+      "proposedRoute": "/blog/aio-radiator-pump-orientation-check/",
+      "previewRoute": "/review/evolution/aio-radiator-pump-orientation-check/",
+      "title": "AIO radiator placement: identify where the pump is",
+      "queryIntent": "Evaluate AIO orientation using the exact pump location and supported radiator position",
+      "demandBasis": "Qualitative intent hypothesis from a concrete PC-owner task. No private Search Console or keyword-volume evidence is claimed.",
+      "audience": "PC builders or existing-PC owners performing the named task",
+      "region": "Canada/US and other markets; no unverified regional price claims",
+      "relatedExistingRoute": "/blog/ryzen-7800x3d-north-air-vs-aio/",
+      "distinctContribution": "Pump-location/orientation decision, not the existing exact CPU/case air-versus-liquid comparison.",
+      "evidenceNeededForPublication": "Human verification of the applicable primary-source claims, scope, original diagram and current destination links",
+      "relatedTools": [
+        {
+          "label": "Check cooler and case fit",
+          "href": "/builder/"
+        },
+        {
+          "label": "Review the installed cooling envelope",
+          "href": "/blog/how-to-choose-a-cpu-cooler-that-fits/"
+        }
+      ],
+      "nextStep": {
+        "label": "Check cooler and case fit",
+        "href": "/builder/"
+      },
+      "status": "complete_unpublished_research_draft",
+      "candidateOverlapChecks": [
+        {
+          "route": "/blog/b650-tomahawk-m2-pcie-lane-sharing/",
+          "title": "B650 TOMAHAWK lane sharing: choose the right M.2 slot",
+          "score": 0.07407407407407407
+        },
+        {
+          "route": "/blog/choose-display-target-game-evidence/",
+          "title": "Choose a monitor target: verify the output path, refresh rate and game evidence",
+          "score": 0.06060606060606061
+        },
+        {
+          "route": "/blog/nvme-vs-sata-ssd-for-gaming/",
+          "title": "Samsung 990 PRO 1 TB vs 870 EVO 1 TB: choose the supported interface",
+          "score": 0.05405405405405406
+        }
+      ],
+      "contentHash": "39f520bbe5c47e4d5873d2e9d7d4bc9e2f0d7cc8f05c16e7b66e95fcfed7bc97"
+    },
+    {
+      "id": "LE-27",
+      "proposedRoute": "/blog/measure-pc-noise-repeatable-home-test/",
+      "previewRoute": "/review/evolution/measure-pc-noise-repeatable-home-test/",
+      "title": "Measuring PC noise at home: make the comparison repeatable",
+      "queryIntent": "Create a repeatable home acoustic observation without claiming laboratory-grade dBA results",
+      "demandBasis": "Qualitative intent hypothesis from a concrete PC-owner task. No private Search Console or keyword-volume evidence is claimed.",
+      "audience": "PC builders or existing-PC owners performing the named task",
+      "region": "Canada/US and other markets; no unverified regional price claims",
+      "relatedExistingRoute": "/blog/compact-quiet-pc-fit-cooling/",
+      "distinctContribution": "Repeatable acoustic observation protocol rather than unsupported quiet-build buying claims.",
+      "evidenceNeededForPublication": "Human verification of the applicable primary-source claims, scope, original diagram and current destination links",
+      "relatedTools": [
+        {
+          "label": "Record the configuration under test",
+          "href": "/my-pc/"
+        },
+        {
+          "label": "Choose a supported fan-control mode",
+          "href": "/builder/"
+        }
+      ],
+      "nextStep": {
+        "label": "Record the configuration under test",
+        "href": "/my-pc/"
+      },
+      "status": "complete_unpublished_research_draft",
+      "candidateOverlapChecks": [
+        {
+          "route": "/blog/compact-quiet-pc-fit-cooling/",
+          "title": "Plan a compact PC with a realistic noise goal",
+          "score": 0.07407407407407407
+        },
+        {
+          "route": "/blog/low-fps-stutter-diagnostic-checklist/",
+          "title": "Low FPS or stuttering: a repeatable diagnostic checklist",
+          "score": 0.05263157894736842
+        },
+        {
+          "route": "/blog/prebuilt-gaming-pc-us-offer-checklist/",
+          "title": "Compare US prebuilt PC offers without losing the configuration",
+          "score": 0.037037037037037035
+        }
+      ],
+      "contentHash": "0b03a3a0d46d32df1f8fa21b21a8cb1d4ecda53903082d9865f57f09a2da94a0"
+    },
+    {
+      "id": "LE-28",
+      "proposedRoute": "/blog/pcie-riser-no-display-generation-check/",
+      "previewRoute": "/review/evolution/pcie-riser-no-display-generation-check/",
+      "title": "No display through a PCIe riser? Identify the link first",
+      "queryIntent": "Investigate a riser-specific no-display problem using documented cable generation and a direct-slot baseline",
+      "demandBasis": "Qualitative intent hypothesis from a concrete PC-owner task. No private Search Console or keyword-volume evidence is claimed.",
+      "audience": "PC builders or existing-PC owners performing the named task",
+      "region": "Canada/US and other markets; no unverified regional price claims",
+      "relatedExistingRoute": "/blog/compact-quiet-pc-fit-cooling/",
+      "distinctContribution": "Replaces overlapping small-form-factor buying topic with a riser-specific diagnostic intent.",
+      "evidenceNeededForPublication": "Human verification of the applicable primary-source claims, scope, original diagram and current destination links",
+      "relatedTools": [
+        {
+          "label": "Record the complete GPU path",
+          "href": "/builder/"
+        },
+        {
+          "label": "Use the wider no-display checklist",
+          "href": "/blog/new-pc-no-display-safe-checks/"
+        }
+      ],
+      "nextStep": {
+        "label": "Record the complete GPU path",
+        "href": "/builder/"
+      },
+      "status": "complete_unpublished_research_draft",
+      "candidateOverlapChecks": [
+        {
+          "route": "/blog/cpu-or-gpu-upgrade-for-gaming/",
+          "title": "CPU or GPU upgrade: which will improve your games?",
+          "score": 0.06666666666666667
+        },
+        {
+          "route": "/blog/b650-tomahawk-m2-pcie-lane-sharing/",
+          "title": "B650 TOMAHAWK lane sharing: choose the right M.2 slot",
+          "score": 0.06451612903225806
+        },
+        {
+          "route": "/blog/graphics-driver-update-rollback-checklist/",
+          "title": "Graphics-driver trouble after an update: preserve the evidence first",
+          "score": 0.06451612903225806
+        }
+      ],
+      "contentHash": "54982b91916e6c83a04b606bf12aaa02aa319f4d40b4ecd46feb2a50b7cd8c43"
+    },
+    {
+      "id": "LE-29",
+      "proposedRoute": "/blog/thermal-paste-remount-checklist/",
+      "previewRoute": "/review/evolution/thermal-paste-remount-checklist/",
+      "title": "Thermal paste after removing a CPU cooler: what to check",
+      "queryIntent": "Plan a cooler remount without reusing an uncertain thermal interface or copying a universal paste dose",
+      "demandBasis": "Qualitative intent hypothesis from a concrete PC-owner task. No private Search Console or keyword-volume evidence is claimed.",
+      "audience": "PC builders or existing-PC owners performing the named task",
+      "region": "Canada/US and other markets; no unverified regional price claims",
+      "relatedExistingRoute": "/blog/how-to-choose-a-cpu-cooler-that-fits/",
+      "distinctContribution": "Thermal-interface handling after removal, distinct from selecting a cooler that physically fits.",
+      "evidenceNeededForPublication": "Human verification of the applicable primary-source claims, scope, original diagram and current destination links",
+      "relatedTools": [
+        {
+          "label": "Keep cooler and maintenance notes",
+          "href": "/my-pc/"
+        },
+        {
+          "label": "Check physical cooler fit",
+          "href": "/blog/how-to-choose-a-cpu-cooler-that-fits/"
+        }
+      ],
+      "nextStep": {
+        "label": "Keep cooler and maintenance notes",
+        "href": "/my-pc/"
+      },
+      "status": "complete_unpublished_research_draft",
+      "candidateOverlapChecks": [
+        {
+          "route": "/blog/how-to-choose-a-cpu-cooler-that-fits/",
+          "title": "How to choose a CPU cooler that fits your case and RAM",
+          "score": 0.07407407407407407
+        },
+        {
+          "route": "/blog/ryzen-7800x3d-north-air-vs-aio/",
+          "title": "Air cooler or AIO for a Ryzen 7 7800X3D in the original North?",
+          "score": 0.06666666666666667
+        },
+        {
+          "route": "/blog/ssd-transfer-time-advertised-speed/",
+          "title": "SSD transfer time: why the advertised MB/s is not your copy speed",
+          "score": 0.06666666666666667
+        }
+      ],
+      "contentHash": "2c4eaa254b6a821156cdb1cd051ae332dc2fa8e8d39a5c2a7568916792f4ea63"
+    },
+    {
+      "id": "LE-30",
+      "proposedRoute": "/blog/gpu-sag-support-bracket-installation/",
+      "previewRoute": "/review/evolution/gpu-sag-support-bracket-installation/",
+      "title": "GPU support brackets: support the card without creating a new obstruction",
+      "queryIntent": "Install a documented GPU support without pushing on fans or unknown components",
+      "demandBasis": "Qualitative intent hypothesis from a concrete PC-owner task. No private Search Console or keyword-volume evidence is claimed.",
+      "audience": "PC builders or existing-PC owners performing the named task",
+      "region": "Canada/US and other markets; no unverified regional price claims",
+      "relatedExistingRoute": "/blog/will-a-graphics-card-fit-my-case/",
+      "distinctContribution": "Physical support and installation interference rather than general card-envelope fit.",
+      "evidenceNeededForPublication": "Human verification of the applicable primary-source claims, scope, original diagram and current destination links",
+      "relatedTools": [
+        {
+          "label": "Record the exact GPU and case",
+          "href": "/builder/"
+        },
+        {
+          "label": "Keep installation notes",
+          "href": "/my-pc/"
+        }
+      ],
+      "nextStep": {
+        "label": "Record the exact GPU and case",
+        "href": "/builder/"
+      },
+      "status": "complete_unpublished_research_draft",
+      "candidateOverlapChecks": [
+        {
+          "route": "/blog/am5-upgrade-checklist/",
+          "title": "AM5 CPU upgrade checklist: BIOS, memory, cooling and storage",
+          "score": 0.07692307692307693
+        },
+        {
+          "route": "/blog/pc-build-compatibility-checklist/",
+          "title": "PC compatibility checklist: what to check before you buy",
+          "score": 0.07407407407407407
+        },
+        {
+          "route": "/blog/how-to-choose-a-graphics-card/",
+          "title": "How to choose a graphics card for your PC",
+          "score": 0.06896551724137931
+        }
+      ],
+      "contentHash": "27c7b6f7b4c2e54dc8680ae0b1f2041f984ded44e2fd6bf0c70ecc4cce83623c"
+    },
+    {
+      "id": "LE-31",
+      "proposedRoute": "/blog/pc-under-desk-ventilation-check/",
+      "previewRoute": "/review/evolution/pc-under-desk-ventilation-check/",
+      "title": "Putting a PC under a desk: check the air path before the fans",
+      "queryIntent": "Evaluate desk and cabinet placement as part of the PC ventilation plan",
+      "demandBasis": "Qualitative intent hypothesis from a concrete PC-owner task. No private Search Console or keyword-volume evidence is claimed.",
+      "audience": "PC builders or existing-PC owners performing the named task",
+      "region": "Canada/US and other markets; no unverified regional price claims",
+      "relatedExistingRoute": "/blog/compact-quiet-pc-fit-cooling/",
+      "distinctContribution": "Furniture and external ventilation, rather than selecting compact-PC components.",
+      "evidenceNeededForPublication": "Human verification of the applicable primary-source claims, scope, original diagram and current destination links",
+      "relatedTools": [
+        {
+          "label": "Record the case and fan layout",
+          "href": "/builder/"
+        },
+        {
+          "label": "Keep placement in your maintenance notes",
+          "href": "/my-pc/"
+        }
+      ],
+      "nextStep": {
+        "label": "Record the case and fan layout",
+        "href": "/builder/"
+      },
+      "status": "complete_unpublished_research_draft",
+      "candidateOverlapChecks": [
+        {
+          "route": "/blog/plan-balanced-1440p-gaming-pc/",
+          "title": "Plan a balanced 1440p gaming PC",
+          "score": 0.06666666666666667
+        },
+        {
+          "route": "/blog/build-your-first-gaming-pc/",
+          "title": "Build your first gaming PC: from a plan to first boot",
+          "score": 0.0625
+        },
+        {
+          "route": "/blog/gaming-pc-1000-cad/",
+          "title": "Plan a gaming PC around $1,000 CAD",
+          "score": 0.0625
+        }
+      ],
+      "contentHash": "811d653947c033b45729e653323ae01312accfabf8cf929ac678804f3526f0c3"
+    },
+    {
+      "id": "LE-32",
+      "proposedRoute": "/blog/zero-rpm-psu-fan-behavior/",
+      "previewRoute": "/review/evolution/zero-rpm-psu-fan-behavior/",
+      "title": "PSU fan not spinning? Check whether zero-RPM mode is expected",
+      "queryIntent": "Distinguish documented zero-RPM behavior from a symptom that needs manufacturer support",
+      "demandBasis": "Qualitative intent hypothesis from a concrete PC-owner task. No private Search Console or keyword-volume evidence is claimed.",
+      "audience": "PC builders or existing-PC owners performing the named task",
+      "region": "Canada/US and other markets; no unverified regional price claims",
+      "relatedExistingRoute": "/blog/choose-a-pc-power-supply/",
+      "distinctContribution": "Semi-passive fan symptom interpretation, distinct from the complete PSU buying guide.",
+      "evidenceNeededForPublication": "Human verification of the applicable primary-source claims, scope, original diagram and current destination links",
+      "relatedTools": [
+        {
+          "label": "Record PSU identity and condition",
+          "href": "/my-pc/"
+        },
+        {
+          "label": "Plan a replacement only when justified",
+          "href": "/upgrade/"
+        }
+      ],
+      "nextStep": {
+        "label": "Record PSU identity and condition",
+        "href": "/my-pc/"
+      },
+      "status": "complete_unpublished_research_draft",
+      "candidateOverlapChecks": [
+        {
+          "route": "/blog/am5-upgrade-checklist/",
+          "title": "AM5 CPU upgrade checklist: BIOS, memory, cooling and storage",
+          "score": 0.06896551724137931
+        },
+        {
+          "route": "/blog/phone-software-support-commitment-vs-end-date/",
+          "title": "Phone update support: a promise is not always an exact end date",
+          "score": 0.06451612903225806
+        },
+        {
+          "route": "/blog/usb-c-speed-charging-display-checklist/",
+          "title": "USB-C does not tell you the speed: a port and cable checklist",
+          "score": 0.0625
+        }
+      ],
+      "contentHash": "e565945b6ab2ff5e86f3863cf14a2febb72a319300bfb3c440d66c98365b975b"
+    },
+    {
+      "id": "LE-33",
+      "proposedRoute": "/blog/windows-ssd-new-motherboard-preparation/",
+      "previewRoute": "/review/evolution/windows-ssd-new-motherboard-preparation/",
+      "title": "Moving a Windows SSD to a new motherboard: prepare before the swap",
+      "queryIntent": "Prepare a recoverable Windows system-drive move without promising it will boot unchanged",
+      "demandBasis": "Qualitative intent hypothesis from a concrete PC-owner task. No private Search Console or keyword-volume evidence is claimed.",
+      "audience": "PC builders or existing-PC owners performing the named task",
+      "region": "Canada/US and other markets; no unverified regional price claims",
+      "relatedExistingRoute": "/blog/reuse-pc-components-new-build/",
+      "distinctContribution": "Windows system-drive migration preparation, rather than general storage reuse.",
+      "evidenceNeededForPublication": "Human verification of the applicable primary-source claims, scope, original diagram and current destination links",
+      "relatedTools": [
+        {
+          "label": "Compare the complete platform change",
+          "href": "/upgrade/"
+        },
+        {
+          "label": "Record the new storage arrangement",
+          "href": "/builder/"
+        }
+      ],
+      "nextStep": {
+        "label": "Compare the complete platform change",
+        "href": "/upgrade/"
+      },
+      "status": "complete_unpublished_research_draft",
+      "candidateOverlapChecks": [
+        {
+          "route": "/blog/am5-upgrade-checklist/",
+          "title": "AM5 CPU upgrade checklist: BIOS, memory, cooling and storage",
+          "score": 0.07142857142857142
+        },
+        {
+          "route": "/blog/choosing-an-ssd/",
+          "title": "How to choose an SSD: capacity, interface and motherboard fit",
+          "score": 0.06896551724137931
+        },
+        {
+          "route": "/blog/prebuilt-pc-internals-upgrade-checklist/",
+          "title": "The prebuilt internals checklist: PSU, RAM, cooling and upgrades",
+          "score": 0.06060606060606061
+        }
+      ],
+      "contentHash": "652b1d828a052f345003489d58fe71c145e0e24f26e4f744e40b46a19daa6c12"
+    },
+    {
+      "id": "LE-34",
+      "proposedRoute": "/blog/bios-flashback-vs-firmware-menu-update/",
+      "previewRoute": "/review/evolution/bios-flashback-vs-firmware-menu-update/",
+      "title": "BIOS Flashback vs a normal BIOS update: choose the documented route",
+      "queryIntent": "Choose an exact motherboard’s supported firmware-update method before a CPU upgrade",
+      "demandBasis": "Qualitative intent hypothesis from a concrete PC-owner task. No private Search Console or keyword-volume evidence is claimed.",
+      "audience": "PC builders or existing-PC owners performing the named task",
+      "region": "Canada/US and other markets; no unverified regional price claims",
+      "relatedExistingRoute": "/blog/check-cpu-bios-support/",
+      "distinctContribution": "Update-method prerequisites and access path, rather than repeating CPU support-list interpretation.",
+      "evidenceNeededForPublication": "Human verification of the applicable primary-source claims, scope, original diagram and current destination links",
+      "relatedTools": [
+        {
+          "label": "Check CPU and board support",
+          "href": "/compatibility/"
+        },
+        {
+          "label": "Plan the platform upgrade",
+          "href": "/upgrade/"
+        }
+      ],
+      "nextStep": {
+        "label": "Check CPU and board support",
+        "href": "/compatibility/"
+      },
+      "status": "complete_unpublished_research_draft",
+      "candidateOverlapChecks": [
+        {
+          "route": "/blog/check-cpu-bios-support/",
+          "title": "Check CPU and BIOS support: exact model, minimum version and update method",
+          "score": 0.2222222222222222
+        },
+        {
+          "route": "/blog/am5-upgrade-checklist/",
+          "title": "AM5 CPU upgrade checklist: BIOS, memory, cooling and storage",
+          "score": 0.20833333333333334
+        },
+        {
+          "route": "/blog/how-to-choose-a-processor/",
+          "title": "How to choose a processor without overlooking the platform",
+          "score": 0.14814814814814814
+        }
+      ],
+      "contentHash": "7ff07cc87564e3f1ce72f41e416020bc616955a18775920c8307316d29d2ef1a"
+    },
+    {
+      "id": "LE-35",
+      "proposedRoute": "/blog/intel-quick-sync-discrete-gpu-check/",
+      "previewRoute": "/review/evolution/intel-quick-sync-discrete-gpu-check/",
+      "title": "Quick Sync with a discrete GPU: keep the media path in view",
+      "queryIntent": "Verify processor-graphics Quick Sync availability alongside a discrete GPU",
+      "demandBasis": "Qualitative intent hypothesis from a concrete PC-owner task. No private Search Console or keyword-volume evidence is claimed.",
+      "audience": "PC builders or existing-PC owners performing the named task",
+      "region": "Canada/US and other markets; no unverified regional price claims",
+      "relatedExistingRoute": "/blog/video-editing-pc-workload-checklist/",
+      "distinctContribution": "Replaces the overlapping proposed editing-PC article with exact processor-graphics media-path verification.",
+      "evidenceNeededForPublication": "Human verification of the applicable primary-source claims, scope, original diagram and current destination links",
+      "relatedTools": [
+        {
+          "label": "Compare exact CPU capabilities",
+          "href": "/compare/"
+        },
+        {
+          "label": "Plan around the editing project",
+          "href": "/blog/video-editing-pc-workload-checklist/"
+        }
+      ],
+      "nextStep": {
+        "label": "Compare exact CPU capabilities",
+        "href": "/compare/"
+      },
+      "status": "complete_unpublished_research_draft",
+      "candidateOverlapChecks": [
+        {
+          "route": "/blog/how-to-choose-a-graphics-card/",
+          "title": "How to choose a graphics card for your PC",
+          "score": 0.06896551724137931
+        },
+        {
+          "route": "/blog/ai-demand-gaming-gpu-prices/",
+          "title": "Does AI demand make gaming GPUs more expensive?",
+          "score": 0.06666666666666667
+        },
+        {
+          "route": "/blog/what-gpus-do-in-ai-data-centers/",
+          "title": "What do GPUs do in AI data centers?",
+          "score": 0.06666666666666667
+        }
+      ],
+      "contentHash": "43e6cec364d03d6ac675e6552527fc1e4c83703deb393e963fe761934cb39b9d"
+    },
+    {
+      "id": "LE-36",
+      "proposedRoute": "/blog/prepare-pc-for-sale-data-records/",
+      "previewRoute": "/review/evolution/prepare-pc-for-sale-data-records/",
+      "title": "Preparing a PC for sale: separate hardware records from private data",
+      "queryIntent": "Prepare a Windows PC ownership handover with a storage inventory and appropriate data-removal limits",
+      "demandBasis": "Qualitative intent hypothesis from a concrete PC-owner task. No private Search Console or keyword-volume evidence is claimed.",
+      "audience": "Windows PC owners preparing a handover",
+      "region": "Canada/US and other markets; no unverified regional price claims",
+      "relatedExistingRoute": "/blog/buying-used-pc-parts-checklist/",
+      "distinctContribution": "Seller-side data and ownership handover rather than the existing buyer-side condition checklist.",
+      "evidenceNeededForPublication": "Human verification of the applicable primary-source claims, scope, original diagram and current destination links",
+      "relatedTools": [
+        {
+          "label": "Prepare a clean parts record",
+          "href": "/my-pc/"
+        },
+        {
+          "label": "Compare keeping and replacing parts",
+          "href": "/upgrade/"
+        }
+      ],
+      "nextStep": {
+        "label": "Prepare a clean parts record",
+        "href": "/my-pc/"
+      },
+      "status": "complete_unpublished_research_draft",
+      "candidateOverlapChecks": [
+        {
+          "route": "/blog/am5-upgrade-checklist/",
+          "title": "AM5 CPU upgrade checklist: BIOS, memory, cooling and storage",
+          "score": 0.06896551724137931
+        },
+        {
+          "route": "/blog/usb-c-speed-charging-display-checklist/",
+          "title": "USB-C does not tell you the speed: a port and cable checklist",
+          "score": 0.0625
+        },
+        {
+          "route": "/blog/ram-or-storage-capacity-problem/",
+          "title": "Is RAM or storage capacity the actual problem?",
+          "score": 0.05
+        }
+      ],
+      "contentHash": "6af38b783c8df037ec50d8496201fc1b5300aac222bb854ce94204f28a729ea3"
+    }
+  ]
+}

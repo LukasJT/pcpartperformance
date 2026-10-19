@@ -1,0 +1,90 @@
+{
+  "checkedAt": "2026-10-19T13:44:24.249Z",
+  "origin": "http://127.0.0.1:4199",
+  "checks": [
+    {
+      "name": "Compact menu, focus loop, consent inertness and appearance handoff at 320px",
+      "passed": true,
+      "evidence": {
+        "headerHeight": 72,
+        "client": 320,
+        "scroll": 320,
+        "consentFixture": "checks late DOM addition; not proof of live ad networking"
+      }
+    },
+    {
+      "name": "Six palettes persist without changing the selected parts; manual contrast and motion",
+      "passed": true,
+      "evidence": {
+        "palettes": [
+          "midnight",
+          "arctic",
+          "solar",
+          "aurora",
+          "neon",
+          "paper"
+        ],
+        "partsUnchanged": true
+      }
+    },
+    {
+      "name": "Three actual builder stages, CPU/PSU sheets, filters, search, skip and focus return",
+      "passed": true,
+      "evidence": {
+        "selectedPSU": "retail-seasonic-m12ii-evo-620w",
+        "viewportTest": "short emulated viewport; physical software keyboard still needs device testing"
+      }
+    },
+    {
+      "name": "Starter build, review, local revision save and My PC restore",
+      "passed": true,
+      "evidence": {
+        "testRecordsOnly": true,
+        "client": 390,
+        "scroll": 390
+      }
+    },
+    {
+      "name": "Eight diagrams respond to inputs and honor reduced motion",
+      "passed": true,
+      "evidence": {
+        "diagrams": 8,
+        "changedReadout": true,
+        "client": 390,
+        "scroll": 390
+      }
+    },
+    {
+      "name": "No-JavaScript destinations, article content and hardware fallback remain present",
+      "passed": true,
+      "evidence": {
+        "crawlableArticle": true,
+        "noJSInitialDiagrams": true
+      }
+    },
+    {
+      "name": "Real 3D preview defers graphics, recovers a failed catalog request and closes without losing parts",
+      "passed": true,
+      "evidence": {
+        "loaded": {
+          "phase": "ready",
+          "rendered": 11,
+          "failed": 0,
+          "open": true,
+          "busy": false,
+          "active": "cpu",
+          "view": "angled",
+          "focusAvailable": true,
+          "orbit": false,
+          "reducedMotion": true,
+          "quality": "balanced"
+        },
+        "initialGraphicsRequests": 0,
+        "simulatedCatalogFailureRecovered": true,
+        "partsPreserved": true
+      }
+    }
+  ],
+  "passed": true,
+  "scope": "Actual isolated headless Edge interactions when executed. Synthetic late consent element is explicitly identified. No personal profile, user records, external submission or provider acceptance. Physical mobile keyboard and field metrics are separate."
+}

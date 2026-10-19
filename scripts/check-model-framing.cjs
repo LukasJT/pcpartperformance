@@ -4,12 +4,15 @@ const {pathToFileURL}=require('node:url');
 (async()=>{
  const T=await import(pathToFileURL(path.resolve('dist/vendor/three/build/three.module.min.js')).href);
  const source=fs.readFileSync('dist/build-scene.js','utf8');
- const pose=source.slice(source.indexOf(" function pose(view='angled')"),source.indexOf('\n function apply()'));
+ const pose=source.slice(source.indexOf(" function pose(view='angled',"),source.indexOf('\n function focusPart('));
+ assert.ok(pose.startsWith(' function pose('),'Retained camera framing function was not found.');
  let tested=0;
  for(const aspect of [342/330,640/470,.45,2.8])for(const size of [[.12,.086,.12],[.14,.087,.14],[.693,.454,.465],[.04,.04,.006],[.3576,.0701,.1493]])for(const view of ['angled','front','side']){
   const root=new T.Group(),mesh=new T.Mesh(new T.BoxGeometry(...size),new T.MeshBasicMaterial());root.add(mesh);root.position.set(.15,.3,-.08);
   const camera=new T.PerspectiveCamera(38,aspect,.01,20),target=new T.Vector3();
-  const ctx={T,root,camera,currentView:null,controls:{target,update(){camera.lookAt(target);camera.updateMatrixWorld(true)}},canvas:{dataset:{}},invalidate(){}};
+  // This check validates the final framing geometry. Animation timing and
+  // reduced-motion behavior are exercised separately in evolution-scene.test.
+  const ctx={T,root,camera,currentView:null,controls:{target,update(){camera.lookAt(target);camera.updateMatrixWorld(true)}},canvas:{dataset:{}},invalidate(){},stopOrbit(){},motion:{move(value){camera.position.fromArray(value.position);target.fromArray(value.target);camera.lookAt(target);camera.updateMatrixWorld(true);}}};
   vm.createContext(ctx);vm.runInContext(pose+'\npose('+JSON.stringify(view)+')',ctx);
   const box=new T.Box3().setFromObject(root);
   for(const x of [box.min.x,box.max.x])for(const y of [box.min.y,box.max.y])for(const z of [box.min.z,box.max.z]){

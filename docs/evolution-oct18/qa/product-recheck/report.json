@@ -1,0 +1,2657 @@
+{
+  "checkedAt": "2026-10-19T13:44:23.688Z",
+  "phase": "after",
+  "origin": "http://127.0.0.1:4199",
+  "widths": [
+    320,
+    360,
+    375,
+    390,
+    430,
+    768,
+    1024,
+    1440,
+    1920
+  ],
+  "themes": [
+    "dark",
+    "light"
+  ],
+  "reports": [
+    {
+      "route": "/learn/rtx5070.html",
+      "name": "product",
+      "requestedWidth": 320,
+      "width": 320,
+      "theme": "dark",
+      "status": 200,
+      "title": "NVIDIA GeForce RTX 5070: Specs & Compatibility · PC Part Performance",
+      "viewport": 320,
+      "palette": "midnight",
+      "headerHeight": 72,
+      "h1": "GeForce RTX 5070",
+      "headings": [
+        "Where to buy",
+        "What to know before choosing it",
+        "Specifications",
+        "Model notes",
+        "Use this specification in a decision"
+      ],
+      "initialText": "Home\n/\nHardware\n/\nGeForce RTX 5070\nNVIDIA\nGeForce RTX 5070\n\n12 GB GDDR7\n\nBlackwell\n2025\nCompare this part\nUse in PC builder\nWhere to buy\n\nFind GeForce RTX 5070 at a retailer.\n\nCanada · CAD\n\nNo current verified offers. Search stores and confirm the exact model.\n\nSearch more stores\nMemory Express\nCanada Computers\nVuugo\nNewegg Canada\nBest Buy Canada\nAmazon Canada\n\nEach checked price shows its time and expiry. Morning observations expire after 24 hours. Tax and shipping are extra. Store search results may include other variants or used items; confirm the model before buying. About prices\n\nSave to watchlist\nWhat to know before choosing it\n\nThe RTX 5070 is a 12 GB GDDR7 base GPU specification. Pick the exact partner card before deciding whether it fits your case or matches your PSU cables.\n\nCompare it with the RX 9070 and an exact RTX 5070 board. The useful questions are your game settings, required software features, delivered price and the physical card you can buy. Memory capacity alone cannot establish a performance winner.\n\nSource-checked specifications\nManufacturer specifications for the stated model scope\nSpecification\tValue\tEvidence\nGraphics memory\t12 GB\tNVIDIA specification\nMemory type\tGDDR7\tNVIDIA specification\nMemory interface\t192 bit\tNVIDIA specification\nTotal graphics power\t250 W\nReference specification; system power is a different quantity.\n\tNVIDIA specification\nBoost clock\t2.51 GHz\nReference gaming clock; partner clocks vary.\n\tNVIDIA specification\nExact partner dimensions\tNeeds verification\tUnknown\nCheck in your build\nPartner-card length, height, thickness and conn",
+      "overflows": [
+        {
+          "tag": "TABLE",
+          "class": "",
+          "right": 374
+        },
+        {
+          "tag": "CAPTION",
+          "class": "",
+          "right": 374
+        },
+        {
+          "tag": "THEAD",
+          "class": "",
+          "right": 374
+        },
+        {
+          "tag": "TR",
+          "class": "",
+          "right": 374
+        },
+        {
+          "tag": "TH",
+          "class": "",
+          "right": 374
+        },
+        {
+          "tag": "TBODY",
+          "class": "",
+          "right": 374
+        },
+        {
+          "tag": "TR",
+          "class": "",
+          "right": 374
+        },
+        {
+          "tag": "TD",
+          "class": "",
+          "right": 374
+        },
+        {
+          "tag": "A",
+          "class": "",
+          "right": 360
+        },
+        {
+          "tag": "TR",
+          "class": "",
+          "right": 374
+        },
+        {
+          "tag": "TD",
+          "class": "",
+          "right": 374
+        },
+        {
+          "tag": "A",
+          "class": "",
+          "right": 360
+        }
+      ],
+      "brokenImages": [],
+      "pendingImages": [],
+      "navigation": [
+        {
+          "responseStart": 36.40000003576279,
+          "domContentLoaded": 166.30000001192093,
+          "transferSize": 7094
+        }
+      ],
+      "assets": [
+        {
+          "url": "/theme.js",
+          "transferSize": 2019,
+          "decodedBodySize": 4311
+        },
+        {
+          "url": "/assets/css/site-2c9d0b10cbfa.css",
+          "transferSize": 20355,
+          "decodedBodySize": 103687
+        },
+        {
+          "url": "/program-events.js",
+          "transferSize": 1239,
+          "decodedBodySize": 1795
+        },
+        {
+          "url": "/indexing-policy.js",
+          "transferSize": 842,
+          "decodedBodySize": 926
+        },
+        {
+          "url": "/site-ui.js",
+          "transferSize": 1181,
+          "decodedBodySize": 1664
+        },
+        {
+          "url": "/publication-ui.js",
+          "transferSize": 2746,
+          "decodedBodySize": 5762
+        },
+        {
+          "url": "/program-retention.js",
+          "transferSize": 1326,
+          "decodedBodySize": 1983
+        },
+        {
+          "url": "/continuation-ui.js",
+          "transferSize": 1852,
+          "decodedBodySize": 3929
+        },
+        {
+          "url": "/assets/fonts/dm-sans-latin-v17.woff2",
+          "transferSize": 37232,
+          "decodedBodySize": 36932
+        },
+        {
+          "url": "/assets/flag-ca.svg",
+          "transferSize": 665,
+          "decodedBodySize": 658
+        },
+        {
+          "url": "/qa-metrics.js",
+          "transferSize": 1129,
+          "decodedBodySize": 1598
+        },
+        {
+          "url": "/__completion/a11y.js",
+          "transferSize": 1654,
+          "decodedBodySize": 2850
+        },
+        {
+          "url": "/__completion/axe.min.js",
+          "transferSize": 183101,
+          "decodedBodySize": 652140
+        },
+        {
+          "url": "/assets/hardware/catalog-gpu-oct17/rtx5070-retained.webp",
+          "transferSize": 34744,
+          "decodedBodySize": 34444
+        },
+        {
+          "url": "/assets/flag-us.svg",
+          "transferSize": 642,
+          "decodedBodySize": 765
+        },
+        {
+          "url": "/assets/fonts/space-grotesk-latin-v22.woff2",
+          "transferSize": 22588,
+          "decodedBodySize": 22288
+        },
+        {
+          "url": "/shopping.js",
+          "transferSize": 4579,
+          "decodedBodySize": 10862
+        },
+        {
+          "url": "/public-price-client.js",
+          "transferSize": 2043,
+          "decodedBodySize": 4452
+        }
+      ],
+      "errors": [],
+      "assetErrors": [],
+      "screenshot": "product-320-dark.png"
+    },
+    {
+      "route": "/learn/rtx5070.html",
+      "name": "product",
+      "requestedWidth": 360,
+      "width": 360,
+      "theme": "dark",
+      "status": 200,
+      "title": "NVIDIA GeForce RTX 5070: Specs & Compatibility · PC Part Performance",
+      "viewport": 360,
+      "palette": "midnight",
+      "headerHeight": 72,
+      "h1": "GeForce RTX 5070",
+      "headings": [
+        "Where to buy",
+        "What to know before choosing it",
+        "Specifications",
+        "Model notes",
+        "Use this specification in a decision"
+      ],
+      "initialText": "Home\n/\nHardware\n/\nGeForce RTX 5070\nNVIDIA\nGeForce RTX 5070\n\n12 GB GDDR7\n\nBlackwell\n2025\nCompare this part\nUse in PC builder\nWhere to buy\n\nFind GeForce RTX 5070 at a retailer.\n\nCanada · CAD\n\nNo current verified offers. Search stores and confirm the exact model.\n\nSearch more stores\nMemory Express\nCanada Computers\nVuugo\nNewegg Canada\nBest Buy Canada\nAmazon Canada\n\nEach checked price shows its time and expiry. Morning observations expire after 24 hours. Tax and shipping are extra. Store search results may include other variants or used items; confirm the model before buying. About prices\n\nSave to watchlist\nWhat to know before choosing it\n\nThe RTX 5070 is a 12 GB GDDR7 base GPU specification. Pick the exact partner card before deciding whether it fits your case or matches your PSU cables.\n\nCompare it with the RX 9070 and an exact RTX 5070 board. The useful questions are your game settings, required software features, delivered price and the physical card you can buy. Memory capacity alone cannot establish a performance winner.\n\nSource-checked specifications\nManufacturer specifications for the stated model scope\nSpecification\tValue\tEvidence\nGraphics memory\t12 GB\tNVIDIA specification\nMemory type\tGDDR7\tNVIDIA specification\nMemory interface\t192 bit\tNVIDIA specification\nTotal graphics power\t250 W\nReference specification; system power is a different quantity.\n\tNVIDIA specification\nBoost clock\t2.51 GHz\nReference gaming clock; partner clocks vary.\n\tNVIDIA specification\nExact partner dimensions\tNeeds verification\tUnknown\nCheck in your build\nPartner-card length, height, thickness and conn",
+      "overflows": [
+        {
+          "tag": "TABLE",
+          "class": "",
+          "right": 374
+        },
+        {
+          "tag": "CAPTION",
+          "class": "",
+          "right": 374
+        },
+        {
+          "tag": "THEAD",
+          "class": "",
+          "right": 374
+        },
+        {
+          "tag": "TR",
+          "class": "",
+          "right": 374
+        },
+        {
+          "tag": "TH",
+          "class": "",
+          "right": 374
+        },
+        {
+          "tag": "TBODY",
+          "class": "",
+          "right": 374
+        },
+        {
+          "tag": "TR",
+          "class": "",
+          "right": 374
+        },
+        {
+          "tag": "TD",
+          "class": "",
+          "right": 374
+        },
+        {
+          "tag": "TR",
+          "class": "",
+          "right": 374
+        },
+        {
+          "tag": "TD",
+          "class": "",
+          "right": 374
+        },
+        {
+          "tag": "TR",
+          "class": "",
+          "right": 374
+        },
+        {
+          "tag": "TD",
+          "class": "",
+          "right": 374
+        }
+      ],
+      "brokenImages": [],
+      "pendingImages": [],
+      "navigation": [
+        {
+          "responseStart": 10.100000023841858,
+          "domContentLoaded": 266.19999998807907,
+          "transferSize": 7094
+        }
+      ],
+      "assets": [
+        {
+          "url": "/theme.js",
+          "transferSize": 2019,
+          "decodedBodySize": 4311
+        },
+        {
+          "url": "/assets/css/site-2c9d0b10cbfa.css",
+          "transferSize": 20355,
+          "decodedBodySize": 103687
+        },
+        {
+          "url": "/program-events.js",
+          "transferSize": 1239,
+          "decodedBodySize": 1795
+        },
+        {
+          "url": "/indexing-policy.js",
+          "transferSize": 842,
+          "decodedBodySize": 926
+        },
+        {
+          "url": "/program-retention.js",
+          "transferSize": 1326,
+          "decodedBodySize": 1983
+        },
+        {
+          "url": "/site-ui.js",
+          "transferSize": 1181,
+          "decodedBodySize": 1664
+        },
+        {
+          "url": "/publication-ui.js",
+          "transferSize": 2746,
+          "decodedBodySize": 5762
+        },
+        {
+          "url": "/continuation-ui.js",
+          "transferSize": 1852,
+          "decodedBodySize": 3929
+        },
+        {
+          "url": "/assets/fonts/dm-sans-latin-v17.woff2",
+          "transferSize": 37232,
+          "decodedBodySize": 36932
+        },
+        {
+          "url": "/qa-metrics.js",
+          "transferSize": 1129,
+          "decodedBodySize": 1598
+        },
+        {
+          "url": "/assets/flag-ca.svg",
+          "transferSize": 665,
+          "decodedBodySize": 658
+        },
+        {
+          "url": "/__completion/a11y.js",
+          "transferSize": 1654,
+          "decodedBodySize": 2850
+        },
+        {
+          "url": "/__completion/axe.min.js",
+          "transferSize": 183101,
+          "decodedBodySize": 652140
+        },
+        {
+          "url": "/assets/hardware/catalog-gpu-oct17/rtx5070-retained.webp",
+          "transferSize": 34744,
+          "decodedBodySize": 34444
+        },
+        {
+          "url": "/assets/flag-us.svg",
+          "transferSize": 642,
+          "decodedBodySize": 765
+        },
+        {
+          "url": "/assets/fonts/space-grotesk-latin-v22.woff2",
+          "transferSize": 22588,
+          "decodedBodySize": 22288
+        },
+        {
+          "url": "/shopping.js",
+          "transferSize": 4579,
+          "decodedBodySize": 10862
+        },
+        {
+          "url": "/public-price-client.js",
+          "transferSize": 2043,
+          "decodedBodySize": 4452
+        }
+      ],
+      "errors": [],
+      "assetErrors": [],
+      "screenshot": "product-360-dark.png"
+    },
+    {
+      "route": "/learn/rtx5070.html",
+      "name": "product",
+      "requestedWidth": 375,
+      "width": 375,
+      "theme": "dark",
+      "status": 200,
+      "title": "NVIDIA GeForce RTX 5070: Specs & Compatibility · PC Part Performance",
+      "viewport": 375,
+      "palette": "midnight",
+      "headerHeight": 72,
+      "h1": "GeForce RTX 5070",
+      "headings": [
+        "Where to buy",
+        "What to know before choosing it",
+        "Specifications",
+        "Model notes",
+        "Use this specification in a decision"
+      ],
+      "initialText": "Home\n/\nHardware\n/\nGeForce RTX 5070\nNVIDIA\nGeForce RTX 5070\n\n12 GB GDDR7\n\nBlackwell\n2025\nCompare this part\nUse in PC builder\nWhere to buy\n\nFind GeForce RTX 5070 at a retailer.\n\nCanada · CAD\n\nNo current verified offers. Search stores and confirm the exact model.\n\nSearch more stores\nMemory Express\nCanada Computers\nVuugo\nNewegg Canada\nBest Buy Canada\nAmazon Canada\n\nEach checked price shows its time and expiry. Morning observations expire after 24 hours. Tax and shipping are extra. Store search results may include other variants or used items; confirm the model before buying. About prices\n\nSave to watchlist\nWhat to know before choosing it\n\nThe RTX 5070 is a 12 GB GDDR7 base GPU specification. Pick the exact partner card before deciding whether it fits your case or matches your PSU cables.\n\nCompare it with the RX 9070 and an exact RTX 5070 board. The useful questions are your game settings, required software features, delivered price and the physical card you can buy. Memory capacity alone cannot establish a performance winner.\n\nSource-checked specifications\nManufacturer specifications for the stated model scope\nSpecification\tValue\tEvidence\nGraphics memory\t12 GB\tNVIDIA specification\nMemory type\tGDDR7\tNVIDIA specification\nMemory interface\t192 bit\tNVIDIA specification\nTotal graphics power\t250 W\nReference specification; system power is a different quantity.\n\tNVIDIA specification\nBoost clock\t2.51 GHz\nReference gaming clock; partner clocks vary.\n\tNVIDIA specification\nExact partner dimensions\tNeeds verification\tUnknown\nCheck in your build\nPartner-card length, height, thickness and conn",
+      "overflows": [
+        {
+          "tag": "TABLE",
+          "class": "",
+          "right": 378
+        },
+        {
+          "tag": "CAPTION",
+          "class": "",
+          "right": 378
+        },
+        {
+          "tag": "THEAD",
+          "class": "",
+          "right": 378
+        },
+        {
+          "tag": "TR",
+          "class": "",
+          "right": 378
+        },
+        {
+          "tag": "TH",
+          "class": "",
+          "right": 378
+        },
+        {
+          "tag": "TBODY",
+          "class": "",
+          "right": 378
+        },
+        {
+          "tag": "TR",
+          "class": "",
+          "right": 378
+        },
+        {
+          "tag": "TD",
+          "class": "",
+          "right": 378
+        },
+        {
+          "tag": "TR",
+          "class": "",
+          "right": 378
+        },
+        {
+          "tag": "TD",
+          "class": "",
+          "right": 378
+        },
+        {
+          "tag": "TR",
+          "class": "",
+          "right": 378
+        },
+        {
+          "tag": "TD",
+          "class": "",
+          "right": 378
+        }
+      ],
+      "brokenImages": [],
+      "pendingImages": [],
+      "navigation": [
+        {
+          "responseStart": 8.599999964237213,
+          "domContentLoaded": 135.5999999642372,
+          "transferSize": 7094
+        }
+      ],
+      "assets": [
+        {
+          "url": "/theme.js",
+          "transferSize": 2019,
+          "decodedBodySize": 4311
+        },
+        {
+          "url": "/assets/css/site-2c9d0b10cbfa.css",
+          "transferSize": 20355,
+          "decodedBodySize": 103687
+        },
+        {
+          "url": "/program-events.js",
+          "transferSize": 1239,
+          "decodedBodySize": 1795
+        },
+        {
+          "url": "/indexing-policy.js",
+          "transferSize": 842,
+          "decodedBodySize": 926
+        },
+        {
+          "url": "/site-ui.js",
+          "transferSize": 1181,
+          "decodedBodySize": 1664
+        },
+        {
+          "url": "/assets/fonts/dm-sans-latin-v17.woff2",
+          "transferSize": 37232,
+          "decodedBodySize": 36932
+        },
+        {
+          "url": "/publication-ui.js",
+          "transferSize": 2746,
+          "decodedBodySize": 5762
+        },
+        {
+          "url": "/program-retention.js",
+          "transferSize": 1326,
+          "decodedBodySize": 1983
+        },
+        {
+          "url": "/continuation-ui.js",
+          "transferSize": 1852,
+          "decodedBodySize": 3929
+        },
+        {
+          "url": "/qa-metrics.js",
+          "transferSize": 1129,
+          "decodedBodySize": 1598
+        },
+        {
+          "url": "/assets/flag-ca.svg",
+          "transferSize": 665,
+          "decodedBodySize": 658
+        },
+        {
+          "url": "/__completion/a11y.js",
+          "transferSize": 1654,
+          "decodedBodySize": 2850
+        },
+        {
+          "url": "/__completion/axe.min.js",
+          "transferSize": 183101,
+          "decodedBodySize": 652140
+        },
+        {
+          "url": "/assets/hardware/catalog-gpu-oct17/rtx5070-retained.webp",
+          "transferSize": 34744,
+          "decodedBodySize": 34444
+        },
+        {
+          "url": "/assets/flag-us.svg",
+          "transferSize": 642,
+          "decodedBodySize": 765
+        },
+        {
+          "url": "/assets/fonts/space-grotesk-latin-v22.woff2",
+          "transferSize": 22588,
+          "decodedBodySize": 22288
+        },
+        {
+          "url": "/shopping.js",
+          "transferSize": 4579,
+          "decodedBodySize": 10862
+        },
+        {
+          "url": "/public-price-client.js",
+          "transferSize": 2043,
+          "decodedBodySize": 4452
+        }
+      ],
+      "errors": [],
+      "assetErrors": [],
+      "screenshot": "product-375-dark.png"
+    },
+    {
+      "route": "/learn/rtx5070.html",
+      "name": "product",
+      "requestedWidth": 390,
+      "width": 390,
+      "theme": "dark",
+      "status": 200,
+      "title": "NVIDIA GeForce RTX 5070: Specs & Compatibility · PC Part Performance",
+      "viewport": 390,
+      "palette": "midnight",
+      "headerHeight": 72,
+      "h1": "GeForce RTX 5070",
+      "headings": [
+        "Where to buy",
+        "What to know before choosing it",
+        "Specifications",
+        "Model notes",
+        "Use this specification in a decision"
+      ],
+      "initialText": "Home\n/\nHardware\n/\nGeForce RTX 5070\nNVIDIA\nGeForce RTX 5070\n\n12 GB GDDR7\n\nBlackwell\n2025\nCompare this part\nUse in PC builder\nWhere to buy\n\nFind GeForce RTX 5070 at a retailer.\n\nCanada · CAD\n\nNo current verified offers. Search stores and confirm the exact model.\n\nSearch more stores\nMemory Express\nCanada Computers\nVuugo\nNewegg Canada\nBest Buy Canada\nAmazon Canada\n\nEach checked price shows its time and expiry. Morning observations expire after 24 hours. Tax and shipping are extra. Store search results may include other variants or used items; confirm the model before buying. About prices\n\nSave to watchlist\nWhat to know before choosing it\n\nThe RTX 5070 is a 12 GB GDDR7 base GPU specification. Pick the exact partner card before deciding whether it fits your case or matches your PSU cables.\n\nCompare it with the RX 9070 and an exact RTX 5070 board. The useful questions are your game settings, required software features, delivered price and the physical card you can buy. Memory capacity alone cannot establish a performance winner.\n\nSource-checked specifications\nManufacturer specifications for the stated model scope\nSpecification\tValue\tEvidence\nGraphics memory\t12 GB\tNVIDIA specification\nMemory type\tGDDR7\tNVIDIA specification\nMemory interface\t192 bit\tNVIDIA specification\nTotal graphics power\t250 W\nReference specification; system power is a different quantity.\n\tNVIDIA specification\nBoost clock\t2.51 GHz\nReference gaming clock; partner clocks vary.\n\tNVIDIA specification\nExact partner dimensions\tNeeds verification\tUnknown\nCheck in your build\nPartner-card length, height, thickness and conn",
+      "overflows": [],
+      "brokenImages": [],
+      "pendingImages": [],
+      "navigation": [
+        {
+          "responseStart": 11.5,
+          "domContentLoaded": 189.0999999642372,
+          "transferSize": 7094
+        }
+      ],
+      "assets": [
+        {
+          "url": "/theme.js",
+          "transferSize": 2019,
+          "decodedBodySize": 4311
+        },
+        {
+          "url": "/assets/css/site-2c9d0b10cbfa.css",
+          "transferSize": 20355,
+          "decodedBodySize": 103687
+        },
+        {
+          "url": "/program-events.js",
+          "transferSize": 1239,
+          "decodedBodySize": 1795
+        },
+        {
+          "url": "/indexing-policy.js",
+          "transferSize": 842,
+          "decodedBodySize": 926
+        },
+        {
+          "url": "/publication-ui.js",
+          "transferSize": 2746,
+          "decodedBodySize": 5762
+        },
+        {
+          "url": "/site-ui.js",
+          "transferSize": 1181,
+          "decodedBodySize": 1664
+        },
+        {
+          "url": "/program-retention.js",
+          "transferSize": 1326,
+          "decodedBodySize": 1983
+        },
+        {
+          "url": "/continuation-ui.js",
+          "transferSize": 1852,
+          "decodedBodySize": 3929
+        },
+        {
+          "url": "/assets/fonts/dm-sans-latin-v17.woff2",
+          "transferSize": 37232,
+          "decodedBodySize": 36932
+        },
+        {
+          "url": "/assets/flag-ca.svg",
+          "transferSize": 665,
+          "decodedBodySize": 658
+        },
+        {
+          "url": "/qa-metrics.js",
+          "transferSize": 1129,
+          "decodedBodySize": 1598
+        },
+        {
+          "url": "/__completion/a11y.js",
+          "transferSize": 1654,
+          "decodedBodySize": 2850
+        },
+        {
+          "url": "/__completion/axe.min.js",
+          "transferSize": 183101,
+          "decodedBodySize": 652140
+        },
+        {
+          "url": "/assets/flag-us.svg",
+          "transferSize": 642,
+          "decodedBodySize": 765
+        },
+        {
+          "url": "/assets/hardware/catalog-gpu-oct17/rtx5070-retained.webp",
+          "transferSize": 34744,
+          "decodedBodySize": 34444
+        },
+        {
+          "url": "/assets/fonts/space-grotesk-latin-v22.woff2",
+          "transferSize": 22588,
+          "decodedBodySize": 22288
+        },
+        {
+          "url": "/shopping.js",
+          "transferSize": 4579,
+          "decodedBodySize": 10862
+        },
+        {
+          "url": "/public-price-client.js",
+          "transferSize": 2043,
+          "decodedBodySize": 4452
+        }
+      ],
+      "errors": [],
+      "assetErrors": [],
+      "screenshot": "product-390-dark.png"
+    },
+    {
+      "route": "/learn/rtx5070.html",
+      "name": "product",
+      "requestedWidth": 430,
+      "width": 430,
+      "theme": "dark",
+      "status": 200,
+      "title": "NVIDIA GeForce RTX 5070: Specs & Compatibility · PC Part Performance",
+      "viewport": 430,
+      "palette": "midnight",
+      "headerHeight": 72,
+      "h1": "GeForce RTX 5070",
+      "headings": [
+        "Where to buy",
+        "What to know before choosing it",
+        "Specifications",
+        "Model notes",
+        "Use this specification in a decision"
+      ],
+      "initialText": "Home\n/\nHardware\n/\nGeForce RTX 5070\nNVIDIA\nGeForce RTX 5070\n\n12 GB GDDR7\n\nBlackwell\n2025\nCompare this part\nUse in PC builder\nWhere to buy\n\nFind GeForce RTX 5070 at a retailer.\n\nCanada · CAD\n\nNo current verified offers. Search stores and confirm the exact model.\n\nSearch more stores\nMemory Express\nCanada Computers\nVuugo\nNewegg Canada\nBest Buy Canada\nAmazon Canada\n\nEach checked price shows its time and expiry. Morning observations expire after 24 hours. Tax and shipping are extra. Store search results may include other variants or used items; confirm the model before buying. About prices\n\nSave to watchlist\nWhat to know before choosing it\n\nThe RTX 5070 is a 12 GB GDDR7 base GPU specification. Pick the exact partner card before deciding whether it fits your case or matches your PSU cables.\n\nCompare it with the RX 9070 and an exact RTX 5070 board. The useful questions are your game settings, required software features, delivered price and the physical card you can buy. Memory capacity alone cannot establish a performance winner.\n\nSource-checked specifications\nManufacturer specifications for the stated model scope\nSpecification\tValue\tEvidence\nGraphics memory\t12 GB\tNVIDIA specification\nMemory type\tGDDR7\tNVIDIA specification\nMemory interface\t192 bit\tNVIDIA specification\nTotal graphics power\t250 W\nReference specification; system power is a different quantity.\n\tNVIDIA specification\nBoost clock\t2.51 GHz\nReference gaming clock; partner clocks vary.\n\tNVIDIA specification\nExact partner dimensions\tNeeds verification\tUnknown\nCheck in your build\nPartner-card length, height, thickness and conn",
+      "overflows": [],
+      "brokenImages": [],
+      "pendingImages": [],
+      "navigation": [
+        {
+          "responseStart": 8.699999988079071,
+          "domContentLoaded": 133.4000000357628,
+          "transferSize": 7094
+        }
+      ],
+      "assets": [
+        {
+          "url": "/theme.js",
+          "transferSize": 2019,
+          "decodedBodySize": 4311
+        },
+        {
+          "url": "/assets/css/site-2c9d0b10cbfa.css",
+          "transferSize": 20355,
+          "decodedBodySize": 103687
+        },
+        {
+          "url": "/program-events.js",
+          "transferSize": 1239,
+          "decodedBodySize": 1795
+        },
+        {
+          "url": "/indexing-policy.js",
+          "transferSize": 842,
+          "decodedBodySize": 926
+        },
+        {
+          "url": "/site-ui.js",
+          "transferSize": 1181,
+          "decodedBodySize": 1664
+        },
+        {
+          "url": "/assets/fonts/dm-sans-latin-v17.woff2",
+          "transferSize": 37232,
+          "decodedBodySize": 36932
+        },
+        {
+          "url": "/publication-ui.js",
+          "transferSize": 2746,
+          "decodedBodySize": 5762
+        },
+        {
+          "url": "/program-retention.js",
+          "transferSize": 1326,
+          "decodedBodySize": 1983
+        },
+        {
+          "url": "/continuation-ui.js",
+          "transferSize": 1852,
+          "decodedBodySize": 3929
+        },
+        {
+          "url": "/assets/flag-ca.svg",
+          "transferSize": 665,
+          "decodedBodySize": 658
+        },
+        {
+          "url": "/qa-metrics.js",
+          "transferSize": 1129,
+          "decodedBodySize": 1598
+        },
+        {
+          "url": "/__completion/a11y.js",
+          "transferSize": 1654,
+          "decodedBodySize": 2850
+        },
+        {
+          "url": "/__completion/axe.min.js",
+          "transferSize": 183101,
+          "decodedBodySize": 652140
+        },
+        {
+          "url": "/assets/hardware/catalog-gpu-oct17/rtx5070-retained.webp",
+          "transferSize": 34744,
+          "decodedBodySize": 34444
+        },
+        {
+          "url": "/assets/flag-us.svg",
+          "transferSize": 642,
+          "decodedBodySize": 765
+        },
+        {
+          "url": "/assets/fonts/space-grotesk-latin-v22.woff2",
+          "transferSize": 22588,
+          "decodedBodySize": 22288
+        },
+        {
+          "url": "/shopping.js",
+          "transferSize": 4579,
+          "decodedBodySize": 10862
+        },
+        {
+          "url": "/public-price-client.js",
+          "transferSize": 2043,
+          "decodedBodySize": 4452
+        }
+      ],
+      "errors": [],
+      "assetErrors": [],
+      "screenshot": "product-430-dark.png"
+    },
+    {
+      "route": "/learn/rtx5070.html",
+      "name": "product",
+      "requestedWidth": 768,
+      "width": 768,
+      "theme": "dark",
+      "status": 200,
+      "title": "NVIDIA GeForce RTX 5070: Specs & Compatibility · PC Part Performance",
+      "viewport": 768,
+      "palette": "midnight",
+      "headerHeight": 72,
+      "h1": "GeForce RTX 5070",
+      "headings": [
+        "Where to buy",
+        "What to know before choosing it",
+        "Specifications",
+        "Model notes",
+        "Use this specification in a decision"
+      ],
+      "initialText": "Home\n/\nHardware\n/\nGeForce RTX 5070\nNVIDIA\nGeForce RTX 5070\n\n12 GB GDDR7\n\nBlackwell\n2025\nCompare this part\nUse in PC builder\nWhere to buy\n\nFind GeForce RTX 5070 at a retailer.\n\nCanada · CAD\n\nNo current verified offers. Search stores and confirm the exact model.\n\nSearch more stores\nMemory Express\nCanada Computers\nVuugo\nNewegg Canada\nBest Buy Canada\nAmazon Canada\n\nEach checked price shows its time and expiry. Morning observations expire after 24 hours. Tax and shipping are extra. Store search results may include other variants or used items; confirm the model before buying. About prices\n\nSave to watchlist\nWhat to know before choosing it\n\nThe RTX 5070 is a 12 GB GDDR7 base GPU specification. Pick the exact partner card before deciding whether it fits your case or matches your PSU cables.\n\nCompare it with the RX 9070 and an exact RTX 5070 board. The useful questions are your game settings, required software features, delivered price and the physical card you can buy. Memory capacity alone cannot establish a performance winner.\n\nSource-checked specifications\nManufacturer specifications for the stated model scope\nSpecification\tValue\tEvidence\nGraphics memory\t12 GB\tNVIDIA specification\nMemory type\tGDDR7\tNVIDIA specification\nMemory interface\t192 bit\tNVIDIA specification\nTotal graphics power\t250 W\nReference specification; system power is a different quantity.\n\tNVIDIA specification\nBoost clock\t2.51 GHz\nReference gaming clock; partner clocks vary.\n\tNVIDIA specification\nExact partner dimensions\tNeeds verification\tUnknown\nCheck in your build\nPartner-card length, height, thickness and conn",
+      "overflows": [],
+      "brokenImages": [],
+      "pendingImages": [],
+      "navigation": [
+        {
+          "responseStart": 8.800000011920929,
+          "domContentLoaded": 121.60000002384186,
+          "transferSize": 7094
+        }
+      ],
+      "assets": [
+        {
+          "url": "/theme.js",
+          "transferSize": 2019,
+          "decodedBodySize": 4311
+        },
+        {
+          "url": "/assets/css/site-2c9d0b10cbfa.css",
+          "transferSize": 20355,
+          "decodedBodySize": 103687
+        },
+        {
+          "url": "/program-events.js",
+          "transferSize": 1239,
+          "decodedBodySize": 1795
+        },
+        {
+          "url": "/indexing-policy.js",
+          "transferSize": 842,
+          "decodedBodySize": 926
+        },
+        {
+          "url": "/site-ui.js",
+          "transferSize": 1181,
+          "decodedBodySize": 1664
+        },
+        {
+          "url": "/publication-ui.js",
+          "transferSize": 2746,
+          "decodedBodySize": 5762
+        },
+        {
+          "url": "/program-retention.js",
+          "transferSize": 1326,
+          "decodedBodySize": 1983
+        },
+        {
+          "url": "/continuation-ui.js",
+          "transferSize": 1852,
+          "decodedBodySize": 3929
+        },
+        {
+          "url": "/assets/fonts/dm-sans-latin-v17.woff2",
+          "transferSize": 37232,
+          "decodedBodySize": 36932
+        },
+        {
+          "url": "/qa-metrics.js",
+          "transferSize": 1129,
+          "decodedBodySize": 1598
+        },
+        {
+          "url": "/__completion/a11y.js",
+          "transferSize": 1654,
+          "decodedBodySize": 2850
+        },
+        {
+          "url": "/__completion/axe.min.js",
+          "transferSize": 183101,
+          "decodedBodySize": 652140
+        },
+        {
+          "url": "/assets/hardware/catalog-gpu-oct17/rtx5070-retained.webp",
+          "transferSize": 34744,
+          "decodedBodySize": 34444
+        },
+        {
+          "url": "/assets/flag-ca.svg",
+          "transferSize": 665,
+          "decodedBodySize": 658
+        },
+        {
+          "url": "/assets/flag-us.svg",
+          "transferSize": 642,
+          "decodedBodySize": 765
+        },
+        {
+          "url": "/assets/fonts/space-grotesk-latin-v22.woff2",
+          "transferSize": 22588,
+          "decodedBodySize": 22288
+        },
+        {
+          "url": "/shopping.js",
+          "transferSize": 4579,
+          "decodedBodySize": 10862
+        },
+        {
+          "url": "/public-price-client.js",
+          "transferSize": 2043,
+          "decodedBodySize": 4452
+        }
+      ],
+      "errors": [],
+      "assetErrors": [],
+      "screenshot": "product-768-dark.png"
+    },
+    {
+      "route": "/learn/rtx5070.html",
+      "name": "product",
+      "requestedWidth": 1024,
+      "width": 1024,
+      "theme": "dark",
+      "status": 200,
+      "title": "NVIDIA GeForce RTX 5070: Specs & Compatibility · PC Part Performance",
+      "viewport": 1024,
+      "palette": "midnight",
+      "headerHeight": 72,
+      "h1": "GeForce RTX 5070",
+      "headings": [
+        "Where to buy",
+        "What to know before choosing it",
+        "Specifications",
+        "Model notes",
+        "Use this specification in a decision"
+      ],
+      "initialText": "Home\n/\nHardware\n/\nGeForce RTX 5070\nNVIDIA\nGeForce RTX 5070\n\n12 GB GDDR7\n\nBlackwell\n2025\nCompare this part\nUse in PC builder\nWhere to buy\n\nFind GeForce RTX 5070 at a retailer.\n\nCanada · CAD\n\nNo current verified offers. Search stores and confirm the exact model.\n\nSearch more stores\nMemory Express\nCanada Computers\nVuugo\nNewegg Canada\nBest Buy Canada\nAmazon Canada\n\nEach checked price shows its time and expiry. Morning observations expire after 24 hours. Tax and shipping are extra. Store search results may include other variants or used items; confirm the model before buying. About prices\n\nSave to watchlist\nWhat to know before choosing it\n\nThe RTX 5070 is a 12 GB GDDR7 base GPU specification. Pick the exact partner card before deciding whether it fits your case or matches your PSU cables.\n\nCompare it with the RX 9070 and an exact RTX 5070 board. The useful questions are your game settings, required software features, delivered price and the physical card you can buy. Memory capacity alone cannot establish a performance winner.\n\nSource-checked specifications\nManufacturer specifications for the stated model scope\nSpecification\tValue\tEvidence\nGraphics memory\t12 GB\tNVIDIA specification\nMemory type\tGDDR7\tNVIDIA specification\nMemory interface\t192 bit\tNVIDIA specification\nTotal graphics power\t250 W\nReference specification; system power is a different quantity.\n\tNVIDIA specification\nBoost clock\t2.51 GHz\nReference gaming clock; partner clocks vary.\n\tNVIDIA specification\nExact partner dimensions\tNeeds verification\tUnknown\nCheck in your build\nPartner-card length, height, thickness and conn",
+      "overflows": [],
+      "brokenImages": [],
+      "pendingImages": [],
+      "navigation": [
+        {
+          "responseStart": 10,
+          "domContentLoaded": 136.10000002384186,
+          "transferSize": 7094
+        }
+      ],
+      "assets": [
+        {
+          "url": "/theme.js",
+          "transferSize": 2019,
+          "decodedBodySize": 4311
+        },
+        {
+          "url": "/assets/css/site-2c9d0b10cbfa.css",
+          "transferSize": 20355,
+          "decodedBodySize": 103687
+        },
+        {
+          "url": "/program-events.js",
+          "transferSize": 1239,
+          "decodedBodySize": 1795
+        },
+        {
+          "url": "/indexing-policy.js",
+          "transferSize": 842,
+          "decodedBodySize": 926
+        },
+        {
+          "url": "/publication-ui.js",
+          "transferSize": 2746,
+          "decodedBodySize": 5762
+        },
+        {
+          "url": "/site-ui.js",
+          "transferSize": 1181,
+          "decodedBodySize": 1664
+        },
+        {
+          "url": "/program-retention.js",
+          "transferSize": 1326,
+          "decodedBodySize": 1983
+        },
+        {
+          "url": "/assets/fonts/dm-sans-latin-v17.woff2",
+          "transferSize": 37232,
+          "decodedBodySize": 36932
+        },
+        {
+          "url": "/continuation-ui.js",
+          "transferSize": 1852,
+          "decodedBodySize": 3929
+        },
+        {
+          "url": "/qa-metrics.js",
+          "transferSize": 1129,
+          "decodedBodySize": 1598
+        },
+        {
+          "url": "/assets/flag-ca.svg",
+          "transferSize": 665,
+          "decodedBodySize": 658
+        },
+        {
+          "url": "/assets/flag-us.svg",
+          "transferSize": 642,
+          "decodedBodySize": 765
+        },
+        {
+          "url": "/__completion/a11y.js",
+          "transferSize": 1654,
+          "decodedBodySize": 2850
+        },
+        {
+          "url": "/__completion/axe.min.js",
+          "transferSize": 183101,
+          "decodedBodySize": 652140
+        },
+        {
+          "url": "/assets/hardware/catalog-gpu-oct17/rtx5070-retained.webp",
+          "transferSize": 34744,
+          "decodedBodySize": 34444
+        },
+        {
+          "url": "/assets/fonts/space-grotesk-latin-v22.woff2",
+          "transferSize": 22588,
+          "decodedBodySize": 22288
+        },
+        {
+          "url": "/shopping.js",
+          "transferSize": 4579,
+          "decodedBodySize": 10862
+        },
+        {
+          "url": "/public-price-client.js",
+          "transferSize": 2043,
+          "decodedBodySize": 4452
+        }
+      ],
+      "errors": [],
+      "assetErrors": [],
+      "screenshot": "product-1024-dark.png"
+    },
+    {
+      "route": "/learn/rtx5070.html",
+      "name": "product",
+      "requestedWidth": 1440,
+      "width": 1440,
+      "theme": "dark",
+      "status": 200,
+      "title": "NVIDIA GeForce RTX 5070: Specs & Compatibility · PC Part Performance",
+      "viewport": 1440,
+      "palette": "midnight",
+      "headerHeight": 80,
+      "h1": "GeForce RTX 5070",
+      "headings": [
+        "Where to buy",
+        "What to know before choosing it",
+        "Specifications",
+        "Model notes",
+        "Use this specification in a decision"
+      ],
+      "initialText": "Home\n/\nHardware\n/\nGeForce RTX 5070\nNVIDIA\nGeForce RTX 5070\n\n12 GB GDDR7\n\nBlackwell\n2025\nCompare this part\nUse in PC builder\nWhere to buy\n\nFind GeForce RTX 5070 at a retailer.\n\nCanada · CAD\n\nNo current verified offers. Search stores and confirm the exact model.\n\nSearch more stores\nMemory Express\nCanada Computers\nVuugo\nNewegg Canada\nBest Buy Canada\nAmazon Canada\n\nEach checked price shows its time and expiry. Morning observations expire after 24 hours. Tax and shipping are extra. Store search results may include other variants or used items; confirm the model before buying. About prices\n\nSave to watchlist\nWhat to know before choosing it\n\nThe RTX 5070 is a 12 GB GDDR7 base GPU specification. Pick the exact partner card before deciding whether it fits your case or matches your PSU cables.\n\nCompare it with the RX 9070 and an exact RTX 5070 board. The useful questions are your game settings, required software features, delivered price and the physical card you can buy. Memory capacity alone cannot establish a performance winner.\n\nSource-checked specifications\nManufacturer specifications for the stated model scope\nSpecification\tValue\tEvidence\nGraphics memory\t12 GB\tNVIDIA specification\nMemory type\tGDDR7\tNVIDIA specification\nMemory interface\t192 bit\tNVIDIA specification\nTotal graphics power\t250 W\nReference specification; system power is a different quantity.\n\tNVIDIA specification\nBoost clock\t2.51 GHz\nReference gaming clock; partner clocks vary.\n\tNVIDIA specification\nExact partner dimensions\tNeeds verification\tUnknown\nCheck in your build\nPartner-card length, height, thickness and conn",
+      "overflows": [],
+      "brokenImages": [],
+      "pendingImages": [],
+      "navigation": [
+        {
+          "responseStart": 10,
+          "domContentLoaded": 154,
+          "transferSize": 7094
+        }
+      ],
+      "assets": [
+        {
+          "url": "/theme.js",
+          "transferSize": 2019,
+          "decodedBodySize": 4311
+        },
+        {
+          "url": "/assets/css/site-2c9d0b10cbfa.css",
+          "transferSize": 20355,
+          "decodedBodySize": 103687
+        },
+        {
+          "url": "/program-events.js",
+          "transferSize": 1239,
+          "decodedBodySize": 1795
+        },
+        {
+          "url": "/site-ui.js",
+          "transferSize": 1181,
+          "decodedBodySize": 1664
+        },
+        {
+          "url": "/indexing-policy.js",
+          "transferSize": 842,
+          "decodedBodySize": 926
+        },
+        {
+          "url": "/publication-ui.js",
+          "transferSize": 2746,
+          "decodedBodySize": 5762
+        },
+        {
+          "url": "/program-retention.js",
+          "transferSize": 1326,
+          "decodedBodySize": 1983
+        },
+        {
+          "url": "/assets/fonts/dm-sans-latin-v17.woff2",
+          "transferSize": 37232,
+          "decodedBodySize": 36932
+        },
+        {
+          "url": "/continuation-ui.js",
+          "transferSize": 1852,
+          "decodedBodySize": 3929
+        },
+        {
+          "url": "/assets/flag-ca.svg",
+          "transferSize": 665,
+          "decodedBodySize": 658
+        },
+        {
+          "url": "/qa-metrics.js",
+          "transferSize": 1129,
+          "decodedBodySize": 1598
+        },
+        {
+          "url": "/__completion/a11y.js",
+          "transferSize": 1654,
+          "decodedBodySize": 2850
+        },
+        {
+          "url": "/__completion/axe.min.js",
+          "transferSize": 183101,
+          "decodedBodySize": 652140
+        },
+        {
+          "url": "/assets/hardware/catalog-gpu-oct17/rtx5070-retained.webp",
+          "transferSize": 34744,
+          "decodedBodySize": 34444
+        },
+        {
+          "url": "/assets/flag-us.svg",
+          "transferSize": 642,
+          "decodedBodySize": 765
+        },
+        {
+          "url": "/assets/fonts/space-grotesk-latin-v22.woff2",
+          "transferSize": 22588,
+          "decodedBodySize": 22288
+        },
+        {
+          "url": "/shopping.js",
+          "transferSize": 4579,
+          "decodedBodySize": 10862
+        },
+        {
+          "url": "/public-price-client.js",
+          "transferSize": 2043,
+          "decodedBodySize": 4452
+        }
+      ],
+      "errors": [],
+      "assetErrors": [],
+      "screenshot": "product-1440-dark.png"
+    },
+    {
+      "route": "/learn/rtx5070.html",
+      "name": "product",
+      "requestedWidth": 1920,
+      "width": 1920,
+      "theme": "dark",
+      "status": 200,
+      "title": "NVIDIA GeForce RTX 5070: Specs & Compatibility · PC Part Performance",
+      "viewport": 1920,
+      "palette": "midnight",
+      "headerHeight": 80,
+      "h1": "GeForce RTX 5070",
+      "headings": [
+        "Where to buy",
+        "What to know before choosing it",
+        "Specifications",
+        "Model notes",
+        "Use this specification in a decision"
+      ],
+      "initialText": "Home\n/\nHardware\n/\nGeForce RTX 5070\nNVIDIA\nGeForce RTX 5070\n\n12 GB GDDR7\n\nBlackwell\n2025\nCompare this part\nUse in PC builder\nWhere to buy\n\nFind GeForce RTX 5070 at a retailer.\n\nCanada · CAD\n\nNo current verified offers. Search stores and confirm the exact model.\n\nSearch more stores\nMemory Express\nCanada Computers\nVuugo\nNewegg Canada\nBest Buy Canada\nAmazon Canada\n\nEach checked price shows its time and expiry. Morning observations expire after 24 hours. Tax and shipping are extra. Store search results may include other variants or used items; confirm the model before buying. About prices\n\nSave to watchlist\nWhat to know before choosing it\n\nThe RTX 5070 is a 12 GB GDDR7 base GPU specification. Pick the exact partner card before deciding whether it fits your case or matches your PSU cables.\n\nCompare it with the RX 9070 and an exact RTX 5070 board. The useful questions are your game settings, required software features, delivered price and the physical card you can buy. Memory capacity alone cannot establish a performance winner.\n\nSource-checked specifications\nManufacturer specifications for the stated model scope\nSpecification\tValue\tEvidence\nGraphics memory\t12 GB\tNVIDIA specification\nMemory type\tGDDR7\tNVIDIA specification\nMemory interface\t192 bit\tNVIDIA specification\nTotal graphics power\t250 W\nReference specification; system power is a different quantity.\n\tNVIDIA specification\nBoost clock\t2.51 GHz\nReference gaming clock; partner clocks vary.\n\tNVIDIA specification\nExact partner dimensions\tNeeds verification\tUnknown\nCheck in your build\nPartner-card length, height, thickness and conn",
+      "overflows": [],
+      "brokenImages": [],
+      "pendingImages": [],
+      "navigation": [
+        {
+          "responseStart": 17.80000001192093,
+          "domContentLoaded": 142.80000001192093,
+          "transferSize": 7094
+        }
+      ],
+      "assets": [
+        {
+          "url": "/theme.js",
+          "transferSize": 2019,
+          "decodedBodySize": 4311
+        },
+        {
+          "url": "/assets/css/site-2c9d0b10cbfa.css",
+          "transferSize": 20355,
+          "decodedBodySize": 103687
+        },
+        {
+          "url": "/program-events.js",
+          "transferSize": 1239,
+          "decodedBodySize": 1795
+        },
+        {
+          "url": "/indexing-policy.js",
+          "transferSize": 842,
+          "decodedBodySize": 926
+        },
+        {
+          "url": "/site-ui.js",
+          "transferSize": 1181,
+          "decodedBodySize": 1664
+        },
+        {
+          "url": "/assets/fonts/dm-sans-latin-v17.woff2",
+          "transferSize": 37232,
+          "decodedBodySize": 36932
+        },
+        {
+          "url": "/publication-ui.js",
+          "transferSize": 2746,
+          "decodedBodySize": 5762
+        },
+        {
+          "url": "/program-retention.js",
+          "transferSize": 1326,
+          "decodedBodySize": 1983
+        },
+        {
+          "url": "/continuation-ui.js",
+          "transferSize": 1852,
+          "decodedBodySize": 3929
+        },
+        {
+          "url": "/assets/flag-ca.svg",
+          "transferSize": 665,
+          "decodedBodySize": 658
+        },
+        {
+          "url": "/qa-metrics.js",
+          "transferSize": 1129,
+          "decodedBodySize": 1598
+        },
+        {
+          "url": "/__completion/a11y.js",
+          "transferSize": 1654,
+          "decodedBodySize": 2850
+        },
+        {
+          "url": "/__completion/axe.min.js",
+          "transferSize": 183101,
+          "decodedBodySize": 652140
+        },
+        {
+          "url": "/assets/hardware/catalog-gpu-oct17/rtx5070-retained.webp",
+          "transferSize": 34744,
+          "decodedBodySize": 34444
+        },
+        {
+          "url": "/assets/flag-us.svg",
+          "transferSize": 642,
+          "decodedBodySize": 765
+        },
+        {
+          "url": "/assets/fonts/space-grotesk-latin-v22.woff2",
+          "transferSize": 22588,
+          "decodedBodySize": 22288
+        },
+        {
+          "url": "/shopping.js",
+          "transferSize": 4579,
+          "decodedBodySize": 10862
+        },
+        {
+          "url": "/public-price-client.js",
+          "transferSize": 2043,
+          "decodedBodySize": 4452
+        }
+      ],
+      "errors": [],
+      "assetErrors": [],
+      "screenshot": "product-1920-dark.png"
+    },
+    {
+      "route": "/learn/rtx5070.html",
+      "name": "product",
+      "requestedWidth": 320,
+      "width": 320,
+      "theme": "light",
+      "status": 200,
+      "title": "NVIDIA GeForce RTX 5070: Specs & Compatibility · PC Part Performance",
+      "viewport": 320,
+      "palette": "arctic",
+      "headerHeight": 72,
+      "h1": "GeForce RTX 5070",
+      "headings": [
+        "Where to buy",
+        "What to know before choosing it",
+        "Specifications",
+        "Model notes",
+        "Use this specification in a decision"
+      ],
+      "initialText": "Home\n/\nHardware\n/\nGeForce RTX 5070\nNVIDIA\nGeForce RTX 5070\n\n12 GB GDDR7\n\nBlackwell\n2025\nCompare this part\nUse in PC builder\nWhere to buy\n\nFind GeForce RTX 5070 at a retailer.\n\nCanada · CAD\n\nNo current verified offers. Search stores and confirm the exact model.\n\nSearch more stores\nMemory Express\nCanada Computers\nVuugo\nNewegg Canada\nBest Buy Canada\nAmazon Canada\n\nEach checked price shows its time and expiry. Morning observations expire after 24 hours. Tax and shipping are extra. Store search results may include other variants or used items; confirm the model before buying. About prices\n\nSave to watchlist\nWhat to know before choosing it\n\nThe RTX 5070 is a 12 GB GDDR7 base GPU specification. Pick the exact partner card before deciding whether it fits your case or matches your PSU cables.\n\nCompare it with the RX 9070 and an exact RTX 5070 board. The useful questions are your game settings, required software features, delivered price and the physical card you can buy. Memory capacity alone cannot establish a performance winner.\n\nSource-checked specifications\nManufacturer specifications for the stated model scope\nSpecification\tValue\tEvidence\nGraphics memory\t12 GB\tNVIDIA specification\nMemory type\tGDDR7\tNVIDIA specification\nMemory interface\t192 bit\tNVIDIA specification\nTotal graphics power\t250 W\nReference specification; system power is a different quantity.\n\tNVIDIA specification\nBoost clock\t2.51 GHz\nReference gaming clock; partner clocks vary.\n\tNVIDIA specification\nExact partner dimensions\tNeeds verification\tUnknown\nCheck in your build\nPartner-card length, height, thickness and conn",
+      "overflows": [
+        {
+          "tag": "TABLE",
+          "class": "",
+          "right": 374
+        },
+        {
+          "tag": "CAPTION",
+          "class": "",
+          "right": 374
+        },
+        {
+          "tag": "THEAD",
+          "class": "",
+          "right": 374
+        },
+        {
+          "tag": "TR",
+          "class": "",
+          "right": 374
+        },
+        {
+          "tag": "TH",
+          "class": "",
+          "right": 374
+        },
+        {
+          "tag": "TBODY",
+          "class": "",
+          "right": 374
+        },
+        {
+          "tag": "TR",
+          "class": "",
+          "right": 374
+        },
+        {
+          "tag": "TD",
+          "class": "",
+          "right": 374
+        },
+        {
+          "tag": "A",
+          "class": "",
+          "right": 360
+        },
+        {
+          "tag": "TR",
+          "class": "",
+          "right": 374
+        },
+        {
+          "tag": "TD",
+          "class": "",
+          "right": 374
+        },
+        {
+          "tag": "A",
+          "class": "",
+          "right": 360
+        }
+      ],
+      "brokenImages": [],
+      "pendingImages": [],
+      "navigation": [
+        {
+          "responseStart": 9.899999976158142,
+          "domContentLoaded": 132.30000001192093,
+          "transferSize": 7094
+        }
+      ],
+      "assets": [
+        {
+          "url": "/theme.js",
+          "transferSize": 2019,
+          "decodedBodySize": 4311
+        },
+        {
+          "url": "/assets/css/site-2c9d0b10cbfa.css",
+          "transferSize": 20355,
+          "decodedBodySize": 103687
+        },
+        {
+          "url": "/program-events.js",
+          "transferSize": 1239,
+          "decodedBodySize": 1795
+        },
+        {
+          "url": "/publication-ui.js",
+          "transferSize": 2746,
+          "decodedBodySize": 5762
+        },
+        {
+          "url": "/indexing-policy.js",
+          "transferSize": 842,
+          "decodedBodySize": 926
+        },
+        {
+          "url": "/site-ui.js",
+          "transferSize": 1181,
+          "decodedBodySize": 1664
+        },
+        {
+          "url": "/program-retention.js",
+          "transferSize": 1326,
+          "decodedBodySize": 1983
+        },
+        {
+          "url": "/continuation-ui.js",
+          "transferSize": 1852,
+          "decodedBodySize": 3929
+        },
+        {
+          "url": "/assets/fonts/dm-sans-latin-v17.woff2",
+          "transferSize": 37232,
+          "decodedBodySize": 36932
+        },
+        {
+          "url": "/qa-metrics.js",
+          "transferSize": 1129,
+          "decodedBodySize": 1598
+        },
+        {
+          "url": "/__completion/a11y.js",
+          "transferSize": 1654,
+          "decodedBodySize": 2850
+        },
+        {
+          "url": "/__completion/axe.min.js",
+          "transferSize": 183101,
+          "decodedBodySize": 652140
+        },
+        {
+          "url": "/assets/hardware/catalog-gpu-oct17/rtx5070-retained.webp",
+          "transferSize": 34744,
+          "decodedBodySize": 34444
+        },
+        {
+          "url": "/assets/flag-ca.svg",
+          "transferSize": 665,
+          "decodedBodySize": 658
+        },
+        {
+          "url": "/assets/flag-us.svg",
+          "transferSize": 642,
+          "decodedBodySize": 765
+        },
+        {
+          "url": "/assets/fonts/space-grotesk-latin-v22.woff2",
+          "transferSize": 22588,
+          "decodedBodySize": 22288
+        },
+        {
+          "url": "/shopping.js",
+          "transferSize": 4579,
+          "decodedBodySize": 10862
+        },
+        {
+          "url": "/public-price-client.js",
+          "transferSize": 2043,
+          "decodedBodySize": 4452
+        }
+      ],
+      "errors": [],
+      "assetErrors": [],
+      "screenshot": "product-320-light.png"
+    },
+    {
+      "route": "/learn/rtx5070.html",
+      "name": "product",
+      "requestedWidth": 360,
+      "width": 360,
+      "theme": "light",
+      "status": 200,
+      "title": "NVIDIA GeForce RTX 5070: Specs & Compatibility · PC Part Performance",
+      "viewport": 360,
+      "palette": "arctic",
+      "headerHeight": 72,
+      "h1": "GeForce RTX 5070",
+      "headings": [
+        "Where to buy",
+        "What to know before choosing it",
+        "Specifications",
+        "Model notes",
+        "Use this specification in a decision"
+      ],
+      "initialText": "Home\n/\nHardware\n/\nGeForce RTX 5070\nNVIDIA\nGeForce RTX 5070\n\n12 GB GDDR7\n\nBlackwell\n2025\nCompare this part\nUse in PC builder\nWhere to buy\n\nFind GeForce RTX 5070 at a retailer.\n\nCanada · CAD\n\nNo current verified offers. Search stores and confirm the exact model.\n\nSearch more stores\nMemory Express\nCanada Computers\nVuugo\nNewegg Canada\nBest Buy Canada\nAmazon Canada\n\nEach checked price shows its time and expiry. Morning observations expire after 24 hours. Tax and shipping are extra. Store search results may include other variants or used items; confirm the model before buying. About prices\n\nSave to watchlist\nWhat to know before choosing it\n\nThe RTX 5070 is a 12 GB GDDR7 base GPU specification. Pick the exact partner card before deciding whether it fits your case or matches your PSU cables.\n\nCompare it with the RX 9070 and an exact RTX 5070 board. The useful questions are your game settings, required software features, delivered price and the physical card you can buy. Memory capacity alone cannot establish a performance winner.\n\nSource-checked specifications\nManufacturer specifications for the stated model scope\nSpecification\tValue\tEvidence\nGraphics memory\t12 GB\tNVIDIA specification\nMemory type\tGDDR7\tNVIDIA specification\nMemory interface\t192 bit\tNVIDIA specification\nTotal graphics power\t250 W\nReference specification; system power is a different quantity.\n\tNVIDIA specification\nBoost clock\t2.51 GHz\nReference gaming clock; partner clocks vary.\n\tNVIDIA specification\nExact partner dimensions\tNeeds verification\tUnknown\nCheck in your build\nPartner-card length, height, thickness and conn",
+      "overflows": [
+        {
+          "tag": "TABLE",
+          "class": "",
+          "right": 374
+        },
+        {
+          "tag": "CAPTION",
+          "class": "",
+          "right": 374
+        },
+        {
+          "tag": "THEAD",
+          "class": "",
+          "right": 374
+        },
+        {
+          "tag": "TR",
+          "class": "",
+          "right": 374
+        },
+        {
+          "tag": "TH",
+          "class": "",
+          "right": 374
+        },
+        {
+          "tag": "TBODY",
+          "class": "",
+          "right": 374
+        },
+        {
+          "tag": "TR",
+          "class": "",
+          "right": 374
+        },
+        {
+          "tag": "TD",
+          "class": "",
+          "right": 374
+        },
+        {
+          "tag": "TR",
+          "class": "",
+          "right": 374
+        },
+        {
+          "tag": "TD",
+          "class": "",
+          "right": 374
+        },
+        {
+          "tag": "TR",
+          "class": "",
+          "right": 374
+        },
+        {
+          "tag": "TD",
+          "class": "",
+          "right": 374
+        }
+      ],
+      "brokenImages": [],
+      "pendingImages": [],
+      "navigation": [
+        {
+          "responseStart": 9.5,
+          "domContentLoaded": 129,
+          "transferSize": 7094
+        }
+      ],
+      "assets": [
+        {
+          "url": "/theme.js",
+          "transferSize": 2019,
+          "decodedBodySize": 4311
+        },
+        {
+          "url": "/assets/css/site-2c9d0b10cbfa.css",
+          "transferSize": 20355,
+          "decodedBodySize": 103687
+        },
+        {
+          "url": "/program-events.js",
+          "transferSize": 1239,
+          "decodedBodySize": 1795
+        },
+        {
+          "url": "/indexing-policy.js",
+          "transferSize": 842,
+          "decodedBodySize": 926
+        },
+        {
+          "url": "/site-ui.js",
+          "transferSize": 1181,
+          "decodedBodySize": 1664
+        },
+        {
+          "url": "/publication-ui.js",
+          "transferSize": 2746,
+          "decodedBodySize": 5762
+        },
+        {
+          "url": "/program-retention.js",
+          "transferSize": 1326,
+          "decodedBodySize": 1983
+        },
+        {
+          "url": "/continuation-ui.js",
+          "transferSize": 1852,
+          "decodedBodySize": 3929
+        },
+        {
+          "url": "/assets/fonts/dm-sans-latin-v17.woff2",
+          "transferSize": 37232,
+          "decodedBodySize": 36932
+        },
+        {
+          "url": "/qa-metrics.js",
+          "transferSize": 1129,
+          "decodedBodySize": 1598
+        },
+        {
+          "url": "/__completion/a11y.js",
+          "transferSize": 1654,
+          "decodedBodySize": 2850
+        },
+        {
+          "url": "/__completion/axe.min.js",
+          "transferSize": 183101,
+          "decodedBodySize": 652140
+        },
+        {
+          "url": "/assets/hardware/catalog-gpu-oct17/rtx5070-retained.webp",
+          "transferSize": 34744,
+          "decodedBodySize": 34444
+        },
+        {
+          "url": "/assets/flag-us.svg",
+          "transferSize": 642,
+          "decodedBodySize": 765
+        },
+        {
+          "url": "/assets/flag-ca.svg",
+          "transferSize": 665,
+          "decodedBodySize": 658
+        },
+        {
+          "url": "/assets/fonts/space-grotesk-latin-v22.woff2",
+          "transferSize": 22588,
+          "decodedBodySize": 22288
+        },
+        {
+          "url": "/shopping.js",
+          "transferSize": 4579,
+          "decodedBodySize": 10862
+        },
+        {
+          "url": "/public-price-client.js",
+          "transferSize": 2043,
+          "decodedBodySize": 4452
+        }
+      ],
+      "errors": [],
+      "assetErrors": [],
+      "screenshot": "product-360-light.png"
+    },
+    {
+      "route": "/learn/rtx5070.html",
+      "name": "product",
+      "requestedWidth": 375,
+      "width": 375,
+      "theme": "light",
+      "status": 200,
+      "title": "NVIDIA GeForce RTX 5070: Specs & Compatibility · PC Part Performance",
+      "viewport": 375,
+      "palette": "arctic",
+      "headerHeight": 72,
+      "h1": "GeForce RTX 5070",
+      "headings": [
+        "Where to buy",
+        "What to know before choosing it",
+        "Specifications",
+        "Model notes",
+        "Use this specification in a decision"
+      ],
+      "initialText": "Home\n/\nHardware\n/\nGeForce RTX 5070\nNVIDIA\nGeForce RTX 5070\n\n12 GB GDDR7\n\nBlackwell\n2025\nCompare this part\nUse in PC builder\nWhere to buy\n\nFind GeForce RTX 5070 at a retailer.\n\nCanada · CAD\n\nNo current verified offers. Search stores and confirm the exact model.\n\nSearch more stores\nMemory Express\nCanada Computers\nVuugo\nNewegg Canada\nBest Buy Canada\nAmazon Canada\n\nEach checked price shows its time and expiry. Morning observations expire after 24 hours. Tax and shipping are extra. Store search results may include other variants or used items; confirm the model before buying. About prices\n\nSave to watchlist\nWhat to know before choosing it\n\nThe RTX 5070 is a 12 GB GDDR7 base GPU specification. Pick the exact partner card before deciding whether it fits your case or matches your PSU cables.\n\nCompare it with the RX 9070 and an exact RTX 5070 board. The useful questions are your game settings, required software features, delivered price and the physical card you can buy. Memory capacity alone cannot establish a performance winner.\n\nSource-checked specifications\nManufacturer specifications for the stated model scope\nSpecification\tValue\tEvidence\nGraphics memory\t12 GB\tNVIDIA specification\nMemory type\tGDDR7\tNVIDIA specification\nMemory interface\t192 bit\tNVIDIA specification\nTotal graphics power\t250 W\nReference specification; system power is a different quantity.\n\tNVIDIA specification\nBoost clock\t2.51 GHz\nReference gaming clock; partner clocks vary.\n\tNVIDIA specification\nExact partner dimensions\tNeeds verification\tUnknown\nCheck in your build\nPartner-card length, height, thickness and conn",
+      "overflows": [
+        {
+          "tag": "TABLE",
+          "class": "",
+          "right": 378
+        },
+        {
+          "tag": "CAPTION",
+          "class": "",
+          "right": 378
+        },
+        {
+          "tag": "THEAD",
+          "class": "",
+          "right": 378
+        },
+        {
+          "tag": "TR",
+          "class": "",
+          "right": 378
+        },
+        {
+          "tag": "TH",
+          "class": "",
+          "right": 378
+        },
+        {
+          "tag": "TBODY",
+          "class": "",
+          "right": 378
+        },
+        {
+          "tag": "TR",
+          "class": "",
+          "right": 378
+        },
+        {
+          "tag": "TD",
+          "class": "",
+          "right": 378
+        },
+        {
+          "tag": "TR",
+          "class": "",
+          "right": 378
+        },
+        {
+          "tag": "TD",
+          "class": "",
+          "right": 378
+        },
+        {
+          "tag": "TR",
+          "class": "",
+          "right": 378
+        },
+        {
+          "tag": "TD",
+          "class": "",
+          "right": 378
+        }
+      ],
+      "brokenImages": [],
+      "pendingImages": [],
+      "navigation": [
+        {
+          "responseStart": 8.400000035762787,
+          "domContentLoaded": 132.9000000357628,
+          "transferSize": 7094
+        }
+      ],
+      "assets": [
+        {
+          "url": "/theme.js",
+          "transferSize": 2019,
+          "decodedBodySize": 4311
+        },
+        {
+          "url": "/assets/css/site-2c9d0b10cbfa.css",
+          "transferSize": 20355,
+          "decodedBodySize": 103687
+        },
+        {
+          "url": "/program-events.js",
+          "transferSize": 1239,
+          "decodedBodySize": 1795
+        },
+        {
+          "url": "/indexing-policy.js",
+          "transferSize": 842,
+          "decodedBodySize": 926
+        },
+        {
+          "url": "/site-ui.js",
+          "transferSize": 1181,
+          "decodedBodySize": 1664
+        },
+        {
+          "url": "/program-retention.js",
+          "transferSize": 1326,
+          "decodedBodySize": 1983
+        },
+        {
+          "url": "/assets/fonts/dm-sans-latin-v17.woff2",
+          "transferSize": 37232,
+          "decodedBodySize": 36932
+        },
+        {
+          "url": "/publication-ui.js",
+          "transferSize": 2746,
+          "decodedBodySize": 5762
+        },
+        {
+          "url": "/continuation-ui.js",
+          "transferSize": 1852,
+          "decodedBodySize": 3929
+        },
+        {
+          "url": "/assets/flag-ca.svg",
+          "transferSize": 665,
+          "decodedBodySize": 658
+        },
+        {
+          "url": "/qa-metrics.js",
+          "transferSize": 1129,
+          "decodedBodySize": 1598
+        },
+        {
+          "url": "/__completion/a11y.js",
+          "transferSize": 1654,
+          "decodedBodySize": 2850
+        },
+        {
+          "url": "/__completion/axe.min.js",
+          "transferSize": 183101,
+          "decodedBodySize": 652140
+        },
+        {
+          "url": "/assets/hardware/catalog-gpu-oct17/rtx5070-retained.webp",
+          "transferSize": 34744,
+          "decodedBodySize": 34444
+        },
+        {
+          "url": "/assets/flag-us.svg",
+          "transferSize": 642,
+          "decodedBodySize": 765
+        },
+        {
+          "url": "/assets/fonts/space-grotesk-latin-v22.woff2",
+          "transferSize": 22588,
+          "decodedBodySize": 22288
+        },
+        {
+          "url": "/shopping.js",
+          "transferSize": 4579,
+          "decodedBodySize": 10862
+        },
+        {
+          "url": "/public-price-client.js",
+          "transferSize": 2043,
+          "decodedBodySize": 4452
+        }
+      ],
+      "errors": [],
+      "assetErrors": [],
+      "screenshot": "product-375-light.png"
+    },
+    {
+      "route": "/learn/rtx5070.html",
+      "name": "product",
+      "requestedWidth": 390,
+      "width": 390,
+      "theme": "light",
+      "status": 200,
+      "title": "NVIDIA GeForce RTX 5070: Specs & Compatibility · PC Part Performance",
+      "viewport": 390,
+      "palette": "arctic",
+      "headerHeight": 72,
+      "h1": "GeForce RTX 5070",
+      "headings": [
+        "Where to buy",
+        "What to know before choosing it",
+        "Specifications",
+        "Model notes",
+        "Use this specification in a decision"
+      ],
+      "initialText": "Home\n/\nHardware\n/\nGeForce RTX 5070\nNVIDIA\nGeForce RTX 5070\n\n12 GB GDDR7\n\nBlackwell\n2025\nCompare this part\nUse in PC builder\nWhere to buy\n\nFind GeForce RTX 5070 at a retailer.\n\nCanada · CAD\n\nNo current verified offers. Search stores and confirm the exact model.\n\nSearch more stores\nMemory Express\nCanada Computers\nVuugo\nNewegg Canada\nBest Buy Canada\nAmazon Canada\n\nEach checked price shows its time and expiry. Morning observations expire after 24 hours. Tax and shipping are extra. Store search results may include other variants or used items; confirm the model before buying. About prices\n\nSave to watchlist\nWhat to know before choosing it\n\nThe RTX 5070 is a 12 GB GDDR7 base GPU specification. Pick the exact partner card before deciding whether it fits your case or matches your PSU cables.\n\nCompare it with the RX 9070 and an exact RTX 5070 board. The useful questions are your game settings, required software features, delivered price and the physical card you can buy. Memory capacity alone cannot establish a performance winner.\n\nSource-checked specifications\nManufacturer specifications for the stated model scope\nSpecification\tValue\tEvidence\nGraphics memory\t12 GB\tNVIDIA specification\nMemory type\tGDDR7\tNVIDIA specification\nMemory interface\t192 bit\tNVIDIA specification\nTotal graphics power\t250 W\nReference specification; system power is a different quantity.\n\tNVIDIA specification\nBoost clock\t2.51 GHz\nReference gaming clock; partner clocks vary.\n\tNVIDIA specification\nExact partner dimensions\tNeeds verification\tUnknown\nCheck in your build\nPartner-card length, height, thickness and conn",
+      "overflows": [],
+      "brokenImages": [],
+      "pendingImages": [],
+      "navigation": [
+        {
+          "responseStart": 9.400000035762787,
+          "domContentLoaded": 143.19999998807907,
+          "transferSize": 7094
+        }
+      ],
+      "assets": [
+        {
+          "url": "/theme.js",
+          "transferSize": 2019,
+          "decodedBodySize": 4311
+        },
+        {
+          "url": "/assets/css/site-2c9d0b10cbfa.css",
+          "transferSize": 20355,
+          "decodedBodySize": 103687
+        },
+        {
+          "url": "/program-events.js",
+          "transferSize": 1239,
+          "decodedBodySize": 1795
+        },
+        {
+          "url": "/indexing-policy.js",
+          "transferSize": 842,
+          "decodedBodySize": 926
+        },
+        {
+          "url": "/publication-ui.js",
+          "transferSize": 2746,
+          "decodedBodySize": 5762
+        },
+        {
+          "url": "/site-ui.js",
+          "transferSize": 1181,
+          "decodedBodySize": 1664
+        },
+        {
+          "url": "/program-retention.js",
+          "transferSize": 1326,
+          "decodedBodySize": 1983
+        },
+        {
+          "url": "/continuation-ui.js",
+          "transferSize": 1852,
+          "decodedBodySize": 3929
+        },
+        {
+          "url": "/assets/fonts/dm-sans-latin-v17.woff2",
+          "transferSize": 37232,
+          "decodedBodySize": 36932
+        },
+        {
+          "url": "/qa-metrics.js",
+          "transferSize": 1129,
+          "decodedBodySize": 1598
+        },
+        {
+          "url": "/__completion/a11y.js",
+          "transferSize": 1654,
+          "decodedBodySize": 2850
+        },
+        {
+          "url": "/__completion/axe.min.js",
+          "transferSize": 183101,
+          "decodedBodySize": 652140
+        },
+        {
+          "url": "/assets/hardware/catalog-gpu-oct17/rtx5070-retained.webp",
+          "transferSize": 34744,
+          "decodedBodySize": 34444
+        },
+        {
+          "url": "/assets/flag-ca.svg",
+          "transferSize": 665,
+          "decodedBodySize": 658
+        },
+        {
+          "url": "/assets/flag-us.svg",
+          "transferSize": 642,
+          "decodedBodySize": 765
+        },
+        {
+          "url": "/assets/fonts/space-grotesk-latin-v22.woff2",
+          "transferSize": 22588,
+          "decodedBodySize": 22288
+        },
+        {
+          "url": "/shopping.js",
+          "transferSize": 4579,
+          "decodedBodySize": 10862
+        },
+        {
+          "url": "/public-price-client.js",
+          "transferSize": 2043,
+          "decodedBodySize": 4452
+        }
+      ],
+      "errors": [],
+      "assetErrors": [],
+      "screenshot": "product-390-light.png"
+    },
+    {
+      "route": "/learn/rtx5070.html",
+      "name": "product",
+      "requestedWidth": 430,
+      "width": 430,
+      "theme": "light",
+      "status": 200,
+      "title": "NVIDIA GeForce RTX 5070: Specs & Compatibility · PC Part Performance",
+      "viewport": 430,
+      "palette": "arctic",
+      "headerHeight": 72,
+      "h1": "GeForce RTX 5070",
+      "headings": [
+        "Where to buy",
+        "What to know before choosing it",
+        "Specifications",
+        "Model notes",
+        "Use this specification in a decision"
+      ],
+      "initialText": "Home\n/\nHardware\n/\nGeForce RTX 5070\nNVIDIA\nGeForce RTX 5070\n\n12 GB GDDR7\n\nBlackwell\n2025\nCompare this part\nUse in PC builder\nWhere to buy\n\nFind GeForce RTX 5070 at a retailer.\n\nCanada · CAD\n\nNo current verified offers. Search stores and confirm the exact model.\n\nSearch more stores\nMemory Express\nCanada Computers\nVuugo\nNewegg Canada\nBest Buy Canada\nAmazon Canada\n\nEach checked price shows its time and expiry. Morning observations expire after 24 hours. Tax and shipping are extra. Store search results may include other variants or used items; confirm the model before buying. About prices\n\nSave to watchlist\nWhat to know before choosing it\n\nThe RTX 5070 is a 12 GB GDDR7 base GPU specification. Pick the exact partner card before deciding whether it fits your case or matches your PSU cables.\n\nCompare it with the RX 9070 and an exact RTX 5070 board. The useful questions are your game settings, required software features, delivered price and the physical card you can buy. Memory capacity alone cannot establish a performance winner.\n\nSource-checked specifications\nManufacturer specifications for the stated model scope\nSpecification\tValue\tEvidence\nGraphics memory\t12 GB\tNVIDIA specification\nMemory type\tGDDR7\tNVIDIA specification\nMemory interface\t192 bit\tNVIDIA specification\nTotal graphics power\t250 W\nReference specification; system power is a different quantity.\n\tNVIDIA specification\nBoost clock\t2.51 GHz\nReference gaming clock; partner clocks vary.\n\tNVIDIA specification\nExact partner dimensions\tNeeds verification\tUnknown\nCheck in your build\nPartner-card length, height, thickness and conn",
+      "overflows": [],
+      "brokenImages": [],
+      "pendingImages": [],
+      "navigation": [
+        {
+          "responseStart": 9.800000011920929,
+          "domContentLoaded": 143.89999997615814,
+          "transferSize": 7094
+        }
+      ],
+      "assets": [
+        {
+          "url": "/theme.js",
+          "transferSize": 2019,
+          "decodedBodySize": 4311
+        },
+        {
+          "url": "/assets/css/site-2c9d0b10cbfa.css",
+          "transferSize": 20355,
+          "decodedBodySize": 103687
+        },
+        {
+          "url": "/program-events.js",
+          "transferSize": 1239,
+          "decodedBodySize": 1795
+        },
+        {
+          "url": "/indexing-policy.js",
+          "transferSize": 842,
+          "decodedBodySize": 926
+        },
+        {
+          "url": "/site-ui.js",
+          "transferSize": 1181,
+          "decodedBodySize": 1664
+        },
+        {
+          "url": "/continuation-ui.js",
+          "transferSize": 1852,
+          "decodedBodySize": 3929
+        },
+        {
+          "url": "/program-retention.js",
+          "transferSize": 1326,
+          "decodedBodySize": 1983
+        },
+        {
+          "url": "/publication-ui.js",
+          "transferSize": 2746,
+          "decodedBodySize": 5762
+        },
+        {
+          "url": "/assets/fonts/dm-sans-latin-v17.woff2",
+          "transferSize": 37232,
+          "decodedBodySize": 36932
+        },
+        {
+          "url": "/qa-metrics.js",
+          "transferSize": 1129,
+          "decodedBodySize": 1598
+        },
+        {
+          "url": "/__completion/a11y.js",
+          "transferSize": 1654,
+          "decodedBodySize": 2850
+        },
+        {
+          "url": "/__completion/axe.min.js",
+          "transferSize": 183101,
+          "decodedBodySize": 652140
+        },
+        {
+          "url": "/assets/hardware/catalog-gpu-oct17/rtx5070-retained.webp",
+          "transferSize": 34744,
+          "decodedBodySize": 34444
+        },
+        {
+          "url": "/assets/flag-ca.svg",
+          "transferSize": 665,
+          "decodedBodySize": 658
+        },
+        {
+          "url": "/assets/flag-us.svg",
+          "transferSize": 642,
+          "decodedBodySize": 765
+        },
+        {
+          "url": "/assets/fonts/space-grotesk-latin-v22.woff2",
+          "transferSize": 22588,
+          "decodedBodySize": 22288
+        },
+        {
+          "url": "/shopping.js",
+          "transferSize": 4579,
+          "decodedBodySize": 10862
+        },
+        {
+          "url": "/public-price-client.js",
+          "transferSize": 2043,
+          "decodedBodySize": 4452
+        }
+      ],
+      "errors": [],
+      "assetErrors": [],
+      "screenshot": "product-430-light.png"
+    },
+    {
+      "route": "/learn/rtx5070.html",
+      "name": "product",
+      "requestedWidth": 768,
+      "width": 768,
+      "theme": "light",
+      "status": 200,
+      "title": "NVIDIA GeForce RTX 5070: Specs & Compatibility · PC Part Performance",
+      "viewport": 768,
+      "palette": "arctic",
+      "headerHeight": 72,
+      "h1": "GeForce RTX 5070",
+      "headings": [
+        "Where to buy",
+        "What to know before choosing it",
+        "Specifications",
+        "Model notes",
+        "Use this specification in a decision"
+      ],
+      "initialText": "Home\n/\nHardware\n/\nGeForce RTX 5070\nNVIDIA\nGeForce RTX 5070\n\n12 GB GDDR7\n\nBlackwell\n2025\nCompare this part\nUse in PC builder\nWhere to buy\n\nFind GeForce RTX 5070 at a retailer.\n\nCanada · CAD\n\nNo current verified offers. Search stores and confirm the exact model.\n\nSearch more stores\nMemory Express\nCanada Computers\nVuugo\nNewegg Canada\nBest Buy Canada\nAmazon Canada\n\nEach checked price shows its time and expiry. Morning observations expire after 24 hours. Tax and shipping are extra. Store search results may include other variants or used items; confirm the model before buying. About prices\n\nSave to watchlist\nWhat to know before choosing it\n\nThe RTX 5070 is a 12 GB GDDR7 base GPU specification. Pick the exact partner card before deciding whether it fits your case or matches your PSU cables.\n\nCompare it with the RX 9070 and an exact RTX 5070 board. The useful questions are your game settings, required software features, delivered price and the physical card you can buy. Memory capacity alone cannot establish a performance winner.\n\nSource-checked specifications\nManufacturer specifications for the stated model scope\nSpecification\tValue\tEvidence\nGraphics memory\t12 GB\tNVIDIA specification\nMemory type\tGDDR7\tNVIDIA specification\nMemory interface\t192 bit\tNVIDIA specification\nTotal graphics power\t250 W\nReference specification; system power is a different quantity.\n\tNVIDIA specification\nBoost clock\t2.51 GHz\nReference gaming clock; partner clocks vary.\n\tNVIDIA specification\nExact partner dimensions\tNeeds verification\tUnknown\nCheck in your build\nPartner-card length, height, thickness and conn",
+      "overflows": [],
+      "brokenImages": [],
+      "pendingImages": [],
+      "navigation": [
+        {
+          "responseStart": 8.400000035762787,
+          "domContentLoaded": 121,
+          "transferSize": 7094
+        }
+      ],
+      "assets": [
+        {
+          "url": "/theme.js",
+          "transferSize": 2019,
+          "decodedBodySize": 4311
+        },
+        {
+          "url": "/assets/css/site-2c9d0b10cbfa.css",
+          "transferSize": 20355,
+          "decodedBodySize": 103687
+        },
+        {
+          "url": "/program-events.js",
+          "transferSize": 1239,
+          "decodedBodySize": 1795
+        },
+        {
+          "url": "/publication-ui.js",
+          "transferSize": 2746,
+          "decodedBodySize": 5762
+        },
+        {
+          "url": "/program-retention.js",
+          "transferSize": 1326,
+          "decodedBodySize": 1983
+        },
+        {
+          "url": "/indexing-policy.js",
+          "transferSize": 842,
+          "decodedBodySize": 926
+        },
+        {
+          "url": "/site-ui.js",
+          "transferSize": 1181,
+          "decodedBodySize": 1664
+        },
+        {
+          "url": "/continuation-ui.js",
+          "transferSize": 1852,
+          "decodedBodySize": 3929
+        },
+        {
+          "url": "/assets/fonts/dm-sans-latin-v17.woff2",
+          "transferSize": 37232,
+          "decodedBodySize": 36932
+        },
+        {
+          "url": "/qa-metrics.js",
+          "transferSize": 1129,
+          "decodedBodySize": 1598
+        },
+        {
+          "url": "/assets/flag-ca.svg",
+          "transferSize": 665,
+          "decodedBodySize": 658
+        },
+        {
+          "url": "/__completion/a11y.js",
+          "transferSize": 1654,
+          "decodedBodySize": 2850
+        },
+        {
+          "url": "/__completion/axe.min.js",
+          "transferSize": 183101,
+          "decodedBodySize": 652140
+        },
+        {
+          "url": "/assets/hardware/catalog-gpu-oct17/rtx5070-retained.webp",
+          "transferSize": 34744,
+          "decodedBodySize": 34444
+        },
+        {
+          "url": "/assets/flag-us.svg",
+          "transferSize": 642,
+          "decodedBodySize": 765
+        },
+        {
+          "url": "/assets/fonts/space-grotesk-latin-v22.woff2",
+          "transferSize": 22588,
+          "decodedBodySize": 22288
+        },
+        {
+          "url": "/shopping.js",
+          "transferSize": 4579,
+          "decodedBodySize": 10862
+        },
+        {
+          "url": "/public-price-client.js",
+          "transferSize": 2043,
+          "decodedBodySize": 4452
+        }
+      ],
+      "errors": [],
+      "assetErrors": [],
+      "screenshot": "product-768-light.png"
+    },
+    {
+      "route": "/learn/rtx5070.html",
+      "name": "product",
+      "requestedWidth": 1024,
+      "width": 1024,
+      "theme": "light",
+      "status": 200,
+      "title": "NVIDIA GeForce RTX 5070: Specs & Compatibility · PC Part Performance",
+      "viewport": 1024,
+      "palette": "arctic",
+      "headerHeight": 72,
+      "h1": "GeForce RTX 5070",
+      "headings": [
+        "Where to buy",
+        "What to know before choosing it",
+        "Specifications",
+        "Model notes",
+        "Use this specification in a decision"
+      ],
+      "initialText": "Home\n/\nHardware\n/\nGeForce RTX 5070\nNVIDIA\nGeForce RTX 5070\n\n12 GB GDDR7\n\nBlackwell\n2025\nCompare this part\nUse in PC builder\nWhere to buy\n\nFind GeForce RTX 5070 at a retailer.\n\nCanada · CAD\n\nNo current verified offers. Search stores and confirm the exact model.\n\nSearch more stores\nMemory Express\nCanada Computers\nVuugo\nNewegg Canada\nBest Buy Canada\nAmazon Canada\n\nEach checked price shows its time and expiry. Morning observations expire after 24 hours. Tax and shipping are extra. Store search results may include other variants or used items; confirm the model before buying. About prices\n\nSave to watchlist\nWhat to know before choosing it\n\nThe RTX 5070 is a 12 GB GDDR7 base GPU specification. Pick the exact partner card before deciding whether it fits your case or matches your PSU cables.\n\nCompare it with the RX 9070 and an exact RTX 5070 board. The useful questions are your game settings, required software features, delivered price and the physical card you can buy. Memory capacity alone cannot establish a performance winner.\n\nSource-checked specifications\nManufacturer specifications for the stated model scope\nSpecification\tValue\tEvidence\nGraphics memory\t12 GB\tNVIDIA specification\nMemory type\tGDDR7\tNVIDIA specification\nMemory interface\t192 bit\tNVIDIA specification\nTotal graphics power\t250 W\nReference specification; system power is a different quantity.\n\tNVIDIA specification\nBoost clock\t2.51 GHz\nReference gaming clock; partner clocks vary.\n\tNVIDIA specification\nExact partner dimensions\tNeeds verification\tUnknown\nCheck in your build\nPartner-card length, height, thickness and conn",
+      "overflows": [],
+      "brokenImages": [],
+      "pendingImages": [],
+      "navigation": [
+        {
+          "responseStart": 10,
+          "domContentLoaded": 138.5999999642372,
+          "transferSize": 7094
+        }
+      ],
+      "assets": [
+        {
+          "url": "/theme.js",
+          "transferSize": 2019,
+          "decodedBodySize": 4311
+        },
+        {
+          "url": "/assets/css/site-2c9d0b10cbfa.css",
+          "transferSize": 20355,
+          "decodedBodySize": 103687
+        },
+        {
+          "url": "/program-events.js",
+          "transferSize": 1239,
+          "decodedBodySize": 1795
+        },
+        {
+          "url": "/indexing-policy.js",
+          "transferSize": 842,
+          "decodedBodySize": 926
+        },
+        {
+          "url": "/program-retention.js",
+          "transferSize": 1326,
+          "decodedBodySize": 1983
+        },
+        {
+          "url": "/publication-ui.js",
+          "transferSize": 2746,
+          "decodedBodySize": 5762
+        },
+        {
+          "url": "/site-ui.js",
+          "transferSize": 1181,
+          "decodedBodySize": 1664
+        },
+        {
+          "url": "/assets/fonts/dm-sans-latin-v17.woff2",
+          "transferSize": 37232,
+          "decodedBodySize": 36932
+        },
+        {
+          "url": "/continuation-ui.js",
+          "transferSize": 1852,
+          "decodedBodySize": 3929
+        },
+        {
+          "url": "/qa-metrics.js",
+          "transferSize": 1129,
+          "decodedBodySize": 1598
+        },
+        {
+          "url": "/assets/flag-ca.svg",
+          "transferSize": 665,
+          "decodedBodySize": 658
+        },
+        {
+          "url": "/assets/flag-us.svg",
+          "transferSize": 642,
+          "decodedBodySize": 765
+        },
+        {
+          "url": "/__completion/a11y.js",
+          "transferSize": 1654,
+          "decodedBodySize": 2850
+        },
+        {
+          "url": "/__completion/axe.min.js",
+          "transferSize": 183101,
+          "decodedBodySize": 652140
+        },
+        {
+          "url": "/assets/hardware/catalog-gpu-oct17/rtx5070-retained.webp",
+          "transferSize": 34744,
+          "decodedBodySize": 34444
+        },
+        {
+          "url": "/assets/fonts/space-grotesk-latin-v22.woff2",
+          "transferSize": 22588,
+          "decodedBodySize": 22288
+        },
+        {
+          "url": "/shopping.js",
+          "transferSize": 4579,
+          "decodedBodySize": 10862
+        },
+        {
+          "url": "/public-price-client.js",
+          "transferSize": 2043,
+          "decodedBodySize": 4452
+        }
+      ],
+      "errors": [],
+      "assetErrors": [],
+      "screenshot": "product-1024-light.png"
+    },
+    {
+      "route": "/learn/rtx5070.html",
+      "name": "product",
+      "requestedWidth": 1440,
+      "width": 1440,
+      "theme": "light",
+      "status": 200,
+      "title": "NVIDIA GeForce RTX 5070: Specs & Compatibility · PC Part Performance",
+      "viewport": 1440,
+      "palette": "arctic",
+      "headerHeight": 80,
+      "h1": "GeForce RTX 5070",
+      "headings": [
+        "Where to buy",
+        "What to know before choosing it",
+        "Specifications",
+        "Model notes",
+        "Use this specification in a decision"
+      ],
+      "initialText": "Home\n/\nHardware\n/\nGeForce RTX 5070\nNVIDIA\nGeForce RTX 5070\n\n12 GB GDDR7\n\nBlackwell\n2025\nCompare this part\nUse in PC builder\nWhere to buy\n\nFind GeForce RTX 5070 at a retailer.\n\nCanada · CAD\n\nNo current verified offers. Search stores and confirm the exact model.\n\nSearch more stores\nMemory Express\nCanada Computers\nVuugo\nNewegg Canada\nBest Buy Canada\nAmazon Canada\n\nEach checked price shows its time and expiry. Morning observations expire after 24 hours. Tax and shipping are extra. Store search results may include other variants or used items; confirm the model before buying. About prices\n\nSave to watchlist\nWhat to know before choosing it\n\nThe RTX 5070 is a 12 GB GDDR7 base GPU specification. Pick the exact partner card before deciding whether it fits your case or matches your PSU cables.\n\nCompare it with the RX 9070 and an exact RTX 5070 board. The useful questions are your game settings, required software features, delivered price and the physical card you can buy. Memory capacity alone cannot establish a performance winner.\n\nSource-checked specifications\nManufacturer specifications for the stated model scope\nSpecification\tValue\tEvidence\nGraphics memory\t12 GB\tNVIDIA specification\nMemory type\tGDDR7\tNVIDIA specification\nMemory interface\t192 bit\tNVIDIA specification\nTotal graphics power\t250 W\nReference specification; system power is a different quantity.\n\tNVIDIA specification\nBoost clock\t2.51 GHz\nReference gaming clock; partner clocks vary.\n\tNVIDIA specification\nExact partner dimensions\tNeeds verification\tUnknown\nCheck in your build\nPartner-card length, height, thickness and conn",
+      "overflows": [],
+      "brokenImages": [],
+      "pendingImages": [],
+      "navigation": [
+        {
+          "responseStart": 9.899999976158142,
+          "domContentLoaded": 132.5,
+          "transferSize": 7094
+        }
+      ],
+      "assets": [
+        {
+          "url": "/theme.js",
+          "transferSize": 2019,
+          "decodedBodySize": 4311
+        },
+        {
+          "url": "/assets/css/site-2c9d0b10cbfa.css",
+          "transferSize": 20355,
+          "decodedBodySize": 103687
+        },
+        {
+          "url": "/program-events.js",
+          "transferSize": 1239,
+          "decodedBodySize": 1795
+        },
+        {
+          "url": "/site-ui.js",
+          "transferSize": 1181,
+          "decodedBodySize": 1664
+        },
+        {
+          "url": "/publication-ui.js",
+          "transferSize": 2746,
+          "decodedBodySize": 5762
+        },
+        {
+          "url": "/assets/fonts/dm-sans-latin-v17.woff2",
+          "transferSize": 37232,
+          "decodedBodySize": 36932
+        },
+        {
+          "url": "/indexing-policy.js",
+          "transferSize": 842,
+          "decodedBodySize": 926
+        },
+        {
+          "url": "/continuation-ui.js",
+          "transferSize": 1852,
+          "decodedBodySize": 3929
+        },
+        {
+          "url": "/program-retention.js",
+          "transferSize": 1326,
+          "decodedBodySize": 1983
+        },
+        {
+          "url": "/qa-metrics.js",
+          "transferSize": 1129,
+          "decodedBodySize": 1598
+        },
+        {
+          "url": "/assets/flag-ca.svg",
+          "transferSize": 665,
+          "decodedBodySize": 658
+        },
+        {
+          "url": "/__completion/a11y.js",
+          "transferSize": 1654,
+          "decodedBodySize": 2850
+        },
+        {
+          "url": "/__completion/axe.min.js",
+          "transferSize": 183101,
+          "decodedBodySize": 652140
+        },
+        {
+          "url": "/assets/hardware/catalog-gpu-oct17/rtx5070-retained.webp",
+          "transferSize": 34744,
+          "decodedBodySize": 34444
+        },
+        {
+          "url": "/assets/flag-us.svg",
+          "transferSize": 642,
+          "decodedBodySize": 765
+        },
+        {
+          "url": "/assets/fonts/space-grotesk-latin-v22.woff2",
+          "transferSize": 22588,
+          "decodedBodySize": 22288
+        },
+        {
+          "url": "/shopping.js",
+          "transferSize": 4579,
+          "decodedBodySize": 10862
+        },
+        {
+          "url": "/public-price-client.js",
+          "transferSize": 2043,
+          "decodedBodySize": 4452
+        }
+      ],
+      "errors": [],
+      "assetErrors": [],
+      "screenshot": "product-1440-light.png"
+    },
+    {
+      "route": "/learn/rtx5070.html",
+      "name": "product",
+      "requestedWidth": 1920,
+      "width": 1920,
+      "theme": "light",
+      "status": 200,
+      "title": "NVIDIA GeForce RTX 5070: Specs & Compatibility · PC Part Performance",
+      "viewport": 1920,
+      "palette": "arctic",
+      "headerHeight": 80,
+      "h1": "GeForce RTX 5070",
+      "headings": [
+        "Where to buy",
+        "What to know before choosing it",
+        "Specifications",
+        "Model notes",
+        "Use this specification in a decision"
+      ],
+      "initialText": "Home\n/\nHardware\n/\nGeForce RTX 5070\nNVIDIA\nGeForce RTX 5070\n\n12 GB GDDR7\n\nBlackwell\n2025\nCompare this part\nUse in PC builder\nWhere to buy\n\nFind GeForce RTX 5070 at a retailer.\n\nCanada · CAD\n\nNo current verified offers. Search stores and confirm the exact model.\n\nSearch more stores\nMemory Express\nCanada Computers\nVuugo\nNewegg Canada\nBest Buy Canada\nAmazon Canada\n\nEach checked price shows its time and expiry. Morning observations expire after 24 hours. Tax and shipping are extra. Store search results may include other variants or used items; confirm the model before buying. About prices\n\nSave to watchlist\nWhat to know before choosing it\n\nThe RTX 5070 is a 12 GB GDDR7 base GPU specification. Pick the exact partner card before deciding whether it fits your case or matches your PSU cables.\n\nCompare it with the RX 9070 and an exact RTX 5070 board. The useful questions are your game settings, required software features, delivered price and the physical card you can buy. Memory capacity alone cannot establish a performance winner.\n\nSource-checked specifications\nManufacturer specifications for the stated model scope\nSpecification\tValue\tEvidence\nGraphics memory\t12 GB\tNVIDIA specification\nMemory type\tGDDR7\tNVIDIA specification\nMemory interface\t192 bit\tNVIDIA specification\nTotal graphics power\t250 W\nReference specification; system power is a different quantity.\n\tNVIDIA specification\nBoost clock\t2.51 GHz\nReference gaming clock; partner clocks vary.\n\tNVIDIA specification\nExact partner dimensions\tNeeds verification\tUnknown\nCheck in your build\nPartner-card length, height, thickness and conn",
+      "overflows": [],
+      "brokenImages": [],
+      "pendingImages": [],
+      "navigation": [
+        {
+          "responseStart": 10,
+          "domContentLoaded": 126.5,
+          "transferSize": 7094
+        }
+      ],
+      "assets": [
+        {
+          "url": "/theme.js",
+          "transferSize": 2019,
+          "decodedBodySize": 4311
+        },
+        {
+          "url": "/assets/css/site-2c9d0b10cbfa.css",
+          "transferSize": 20355,
+          "decodedBodySize": 103687
+        },
+        {
+          "url": "/program-events.js",
+          "transferSize": 1239,
+          "decodedBodySize": 1795
+        },
+        {
+          "url": "/indexing-policy.js",
+          "transferSize": 842,
+          "decodedBodySize": 926
+        },
+        {
+          "url": "/site-ui.js",
+          "transferSize": 1181,
+          "decodedBodySize": 1664
+        },
+        {
+          "url": "/publication-ui.js",
+          "transferSize": 2746,
+          "decodedBodySize": 5762
+        },
+        {
+          "url": "/program-retention.js",
+          "transferSize": 1326,
+          "decodedBodySize": 1983
+        },
+        {
+          "url": "/continuation-ui.js",
+          "transferSize": 1852,
+          "decodedBodySize": 3929
+        },
+        {
+          "url": "/assets/fonts/dm-sans-latin-v17.woff2",
+          "transferSize": 37232,
+          "decodedBodySize": 36932
+        },
+        {
+          "url": "/qa-metrics.js",
+          "transferSize": 1129,
+          "decodedBodySize": 1598
+        },
+        {
+          "url": "/assets/hardware/catalog-gpu-oct17/rtx5070-retained.webp",
+          "transferSize": 34744,
+          "decodedBodySize": 34444
+        },
+        {
+          "url": "/assets/flag-ca.svg",
+          "transferSize": 665,
+          "decodedBodySize": 658
+        },
+        {
+          "url": "/assets/flag-us.svg",
+          "transferSize": 642,
+          "decodedBodySize": 765
+        },
+        {
+          "url": "/__completion/a11y.js",
+          "transferSize": 1654,
+          "decodedBodySize": 2850
+        },
+        {
+          "url": "/__completion/axe.min.js",
+          "transferSize": 183101,
+          "decodedBodySize": 652140
+        },
+        {
+          "url": "/assets/fonts/space-grotesk-latin-v22.woff2",
+          "transferSize": 22588,
+          "decodedBodySize": 22288
+        },
+        {
+          "url": "/shopping.js",
+          "transferSize": 4579,
+          "decodedBodySize": 10862
+        },
+        {
+          "url": "/public-price-client.js",
+          "transferSize": 2043,
+          "decodedBodySize": 4452
+        }
+      ],
+      "errors": [],
+      "assetErrors": [],
+      "screenshot": "product-1920-light.png"
+    }
+  ],
+  "scope": "Isolated headless Edge, emulated sizes and touch; reduced motion for reproducible screenshots; local consent declined. Navigation/resource timings are lab observations, not field Core Web Vitals or proof of a physical mobile keyboard."
+}

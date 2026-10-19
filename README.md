@@ -4,6 +4,8 @@ A static hardware comparison site with dedicated comparison, catalog/category, P
 
 ## Build and host
 
+**October 19 redesign:** the Liquid Hardware Lab work is on `codex/liquid-evolution-2026-10-18`. It adds six coordinated palettes, a three-stage builder, refined pickers and page-family layouts, original SVGs, eight interactive hardware diagrams and Journey preparation. All 36 new editorial items remain local research drafts. Source/unit/build checks pass; browser approval recovered and 348 accepted responsive states plus seven real interaction flows now pass. See [the release record](docs/evolution-oct18/DEPLOYMENT.md) for exact publication status and [the initial checkpoint](docs/evolution-oct18/IMPLEMENTATION-REPORT.md) for implementation scope.
+
 Run `node scripts/build-pages.cjs` with `PROGRAM_PREVIEW` unset to generate normal production output. Licensed model files and prepared image derivatives are retained; do not regenerate the entire model library as part of an ordinary release. Generated individual hardware record pages are excluded from Git and recreated by this build command.
 
 The production build lives in `dist`. The existing Cloudflare Workers Git integration deploys `codex/stage2-publication-2026-10-04` to pcpartperformance.com using `wrangler.jsonc`. The Worker handles canonical URLs, query indexing controls, assets and the optional price API. The `CNAME` file is historical and does not configure Cloudflare DNS.

@@ -1,0 +1,18 @@
+.lab-scene-feedback{display:flex;align-items:flex-start;gap:12px;padding:18px 22px;background:var(--surface-2,var(--surface));border-block:1px solid var(--line);min-width:0}
+.lab-scene-feedback #scene-status{padding:0;margin:0;font-size:.9375rem;line-height:1.65;overflow-wrap:anywhere}
+.lab-scene-indicator{width:10px;height:10px;flex:0 0 10px;border-radius:50%;margin-top:.45em;background:var(--muted)}
+.lab-scene-feedback[data-state=ready] .lab-scene-indicator{background:var(--success,#49b49a)}
+.lab-scene-feedback:is([data-state=error],[data-state=partial]) .lab-scene-indicator{background:var(--warning,#d89538)}
+.lab-scene-feedback:is([data-state=loading],[data-state=updating]) .lab-scene-indicator{background:transparent;border:2px solid var(--line);border-top-color:var(--accent-ink);animation:lab-scene-spin .8s linear infinite}
+.lab-scene-toolbar{display:flex;align-items:center;flex-wrap:wrap;gap:10px;padding:18px 22px 10px}
+.lab-scene-toolbar[hidden],.lab-scene-gestures[hidden]{display:none}
+.lab-scene-toolbar .button{min-height:44px;gap:8px;padding:10px 14px;font-size:.875rem;line-height:1.4;white-space:normal;text-align:center;flex:0 1 auto}
+.lab-scene-toolbar .button[data-scene-action=close]{margin-left:auto}
+.lab-scene-toolbar .button[aria-pressed=true]{background:var(--accent-ink);color:var(--bg);border-color:var(--accent-ink)}
+.lab-scene-toolbar .button:disabled{opacity:.55;cursor:default;transform:none}
+.lab-scene-gestures{padding:0 22px 16px;margin:0;color:var(--muted);font-size:.875rem;line-height:1.65}
+.scene-stage[aria-busy=true]{cursor:progress}
+.scene-views button[aria-pressed=true]{border-color:var(--accent-ink);background:var(--surface-2);color:var(--accent-ink)}
+@keyframes lab-scene-spin{to{transform:rotate(1turn)}}
+@media(max-width:480px){.lab-scene-feedback{padding:18px 16px}.lab-scene-toolbar{padding:16px 16px 10px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.lab-scene-toolbar .button{width:100%;min-width:0}.lab-scene-toolbar .button[data-scene-action=close]{margin-left:0}.lab-scene-gestures{padding-inline:16px}}
+@media(prefers-reduced-motion:reduce){.lab-scene-indicator{animation:none!important}.lab-scene-feedback:is([data-state=loading],[data-state=updating]) .lab-scene-indicator{border-color:var(--accent-ink)}}

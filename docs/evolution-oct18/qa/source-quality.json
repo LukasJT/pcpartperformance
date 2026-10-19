@@ -1,0 +1,33 @@
+{
+  "checkedAt": "2026-10-19T04:49:36.527Z",
+  "checks": [
+    {
+      "label": "typecheck",
+      "command": "node tools/quality/node_modules/typescript/bin/tsc -p tools/quality/tsconfig.json",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "label": "changed-source lint",
+      "command": "$taskLintPaths = Get-ChildItem scripts -File | Where-Object {$_.Name -match '^evolution-.*\\.(cjs|js)$'} | ForEach-Object {'scripts/'+$_.Name}\nnode tools/quality/node_modules/eslint/bin/eslint.js --config tools/quality/eslint.config.cjs @taskLintPaths scripts/builder-selectors.js scripts/continuation-ui.js scripts/completion-integration.test.cjs scripts/oct16-delivery.test.cjs",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "label": "patch whitespace",
+      "command": "git -c core.autocrlf=false diff --check",
+      "exitCode": 1,
+      "output": "dist/site-ui.js:8: trailing whitespace.\n+})();\r\n"
+    }
+  ],
+  "correction": {
+    "scope": "One mixed CRLF ending in dist/site-ui.js normalized to LF; no runtime behavior changed.",
+    "finalCombinedCommand": "git diff --check; node --check new QA/receipt scripts; scoped ESLint",
+    "exitCode": 0,
+    "output": ""
+  },
+  "browserChecks": {
+    "executed": false,
+    "reason": "Automatic approval review unavailable; not bypassed."
+  }
+}

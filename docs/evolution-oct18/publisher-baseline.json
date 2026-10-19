@@ -1,0 +1,36 @@
+{
+  "generatedAt": "2026-10-19T04:05:31.620Z",
+  "mode": "Read-only baseline and pure-function rehearsal. No dist files modified.",
+  "baseline": {
+    "articles": 58,
+    "landmarks": 0,
+    "staticGoogleTagPages": 0,
+    "eligibility": {
+      "state": "unverified",
+      "qualifyingSessions30Days": null,
+      "ga4AccountConnected": null,
+      "providerApproval": null
+    },
+    "advertising": {
+      "journeyPages": 0,
+      "existingAdsterra": true,
+      "existingProviderPreserved": true,
+      "journeyTransition": "Owner-approved removal of existing programmatic ad code is required before Journey launch.",
+      "consentCodeObserved": true,
+      "globalPrivacyControlCodeObserved": true,
+      "networkBehaviorVerified": false
+    },
+    "policy": {
+      "aboutPresent": true,
+      "editorialPolicyPresent": true,
+      "privacyPresent": true,
+      "ownerSpecificLegalReviewRequired": true,
+      "operationalPolicyDisclaimerPresent": true
+    }
+  },
+  "rehearsal": {
+    "articles": 58,
+    "landmarks": 58,
+    "issues": []
+  }
+}

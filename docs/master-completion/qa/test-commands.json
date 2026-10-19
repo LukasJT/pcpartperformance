@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-10-17T22:14:01.180Z",
-  "commands": 77,
-  "passed": 77,
+  "checkedAt": "2026-10-19T13:39:22.716Z",
+  "commands": 86,
+  "passed": 86,
   "results": [
     {
       "command": "node scripts/check-program.cjs",
@@ -385,6 +385,51 @@
     },
     {
       "command": "node scripts/ad-assets-indexing.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/evolution-builder.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/evolution-diagrams.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/evolution-publisher.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/evolution-scene.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/evolution-theme.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/evolution-site.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/evolution-editorial.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/evolution-style-scope.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/evolution-review-render.test.cjs",
       "exitCode": 0,
       "passed": true
     }

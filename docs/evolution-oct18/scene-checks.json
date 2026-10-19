@@ -1,0 +1,49 @@
+{
+  "generatedAt": "2026-10-19T04:26:33.731Z",
+  "kind": "Static source payload, not runtime performance",
+  "tracked": [
+    {
+      "file": "dist/assembly-3d.js",
+      "beforeBytes": 14264,
+      "beforeGzip": 4743,
+      "afterBytes": 16550,
+      "afterGzip": 5445
+    },
+    {
+      "file": "dist/build-scene.js",
+      "beforeBytes": 16675,
+      "beforeGzip": 5841,
+      "afterBytes": 19589,
+      "afterGzip": 6654
+    }
+  ],
+  "helpers": [
+    {
+      "file": "evolution-scene.js",
+      "bytes": 4592,
+      "gzip": 1624,
+      "loading": "After explicit preview action"
+    },
+    {
+      "file": "evolution-scene.css",
+      "bytes": 2298,
+      "gzip": 825,
+      "loading": "Builder stylesheet only"
+    },
+    {
+      "file": "evolution-scene-motion.js",
+      "bytes": 1539,
+      "gzip": 705,
+      "loading": "After explicit preview action"
+    }
+  ],
+  "newDependencies": 0,
+  "tests": {
+    "scene": 15,
+    "retainedScene": 31,
+    "productViewer": 9,
+    "framingConfigurations": 60
+  },
+  "browserVerified": false,
+  "initialEnhancementScriptTag": false
+}

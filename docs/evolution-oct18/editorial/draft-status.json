@@ -1,0 +1,477 @@
+{
+  "evidenceDate": "2026-10-19",
+  "researchDrafts": 36,
+  "publishable": 0,
+  "published": 0,
+  "humanReviewed": 0,
+  "articles": [
+    {
+      "id": "LE-01",
+      "slug": "atx-31-vs-30-psu-buying-checks",
+      "title": "ATX 3.1 vs ATX 3.0: which PSU details matter?",
+      "status": "draft",
+      "evidenceStatus": "primary_sources_inspected_agent_checked",
+      "contentHash": "d6a6e922e7f7c82365faf0e6a93a7e58d5bc3fafd8a448ccdccf1d002955b7ee",
+      "publicationBlockers": [
+        "human_editorial_review",
+        "truthful_byline_confirmation",
+        "final_visual_and_link_review"
+      ]
+    },
+    {
+      "id": "LE-02",
+      "slug": "modular-psu-cables-identify-before-reuse",
+      "title": "Can you reuse modular PSU cables? Identify them first",
+      "status": "draft",
+      "evidenceStatus": "primary_sources_inspected_agent_checked",
+      "contentHash": "f3f170d65fca10e5b8bea8db6a32dd85715b3918b544e941ad0f02959c1fb9ef",
+      "publicationBlockers": [
+        "human_editorial_review",
+        "truthful_byline_confirmation",
+        "final_visual_and_link_review"
+      ]
+    },
+    {
+      "id": "LE-03",
+      "slug": "pwm-vs-dc-case-fan-control",
+      "title": "PWM vs DC fans: why the control mode matters",
+      "status": "draft",
+      "evidenceStatus": "primary_sources_inspected_agent_checked",
+      "contentHash": "5299d2d9f7b94d3e5ea5b7da48f7fc8cbe08f0c86cd71f7e68da17c139f4a842",
+      "publicationBlockers": [
+        "human_editorial_review",
+        "truthful_byline_confirmation",
+        "final_visual_and_link_review"
+      ]
+    },
+    {
+      "id": "LE-04",
+      "slug": "5v-argb-vs-12v-rgb-connectors",
+      "title": "5 V ARGB vs 12 V RGB: check before connecting",
+      "status": "draft",
+      "evidenceStatus": "primary_sources_inspected_agent_checked",
+      "contentHash": "99b6fd5d259380ee27075edfca927f0f66cb79350a21b4ae75b36d3fbb1b32ee",
+      "publicationBlockers": [
+        "human_editorial_review",
+        "truthful_byline_confirmation",
+        "final_visual_and_link_review"
+      ]
+    },
+    {
+      "id": "LE-05",
+      "slug": "front-panel-usb-c-header-checklist",
+      "title": "Will your case’s front USB-C port work?",
+      "status": "draft",
+      "evidenceStatus": "primary_sources_inspected_agent_checked",
+      "contentHash": "d2cd381718b40865df933f30bed65f0da89efbe7491161934c257ff99f59c595",
+      "publicationBlockers": [
+        "human_editorial_review",
+        "truthful_byline_confirmation",
+        "final_visual_and_link_review"
+      ]
+    },
+    {
+      "id": "LE-06",
+      "slug": "front-panel-power-led-connector-map",
+      "title": "Front-panel power and LED cables: make a connection map",
+      "status": "draft",
+      "evidenceStatus": "primary_sources_inspected_agent_checked",
+      "contentHash": "18fab72614ce1df9fe4fa4626d4128f542bd1d66d15d52688fea3f05ddf51d93",
+      "publicationBlockers": [
+        "human_editorial_review",
+        "truthful_byline_confirmation",
+        "final_visual_and_link_review"
+      ]
+    },
+    {
+      "id": "LE-07",
+      "slug": "sfx-vs-sfx-l-psu-cable-space",
+      "title": "SFX vs SFX-L: the extra length is only part of the fit check",
+      "status": "draft",
+      "evidenceStatus": "primary_sources_inspected_agent_checked",
+      "contentHash": "64958509042e95e2f24740f1fe9874044378eae2e18d132a4ec7fb2181a1ad60",
+      "publicationBlockers": [
+        "human_editorial_review",
+        "truthful_byline_confirmation",
+        "final_visual_and_link_review"
+      ]
+    },
+    {
+      "id": "LE-08",
+      "slug": "gpu-power-cable-side-panel-clearance",
+      "title": "GPU power-cable clearance: check the side panel too",
+      "status": "draft",
+      "evidenceStatus": "primary_sources_inspected_agent_checked",
+      "contentHash": "6b2e3eab892f1c51960cc6a1a2bd86eceb34dd00567c7045298ba61bd7bbe79f",
+      "publicationBlockers": [
+        "human_editorial_review",
+        "truthful_byline_confirmation",
+        "final_visual_and_link_review"
+      ]
+    },
+    {
+      "id": "LE-09",
+      "slug": "xmp-expo-profiles-before-and-after",
+      "title": "XMP and EXPO: record the default before changing the profile",
+      "status": "draft",
+      "evidenceStatus": "primary_sources_inspected_agent_checked",
+      "contentHash": "562d262c07a4629adf06432b9ddea13bbc56fbf4ac781aa96e708972ca94ef68",
+      "publicationBlockers": [
+        "human_editorial_review",
+        "truthful_byline_confirmation",
+        "final_visual_and_link_review"
+      ]
+    },
+    {
+      "id": "LE-10",
+      "slug": "two-vs-four-ddr5-modules",
+      "title": "Two DDR5 sticks vs four: capacity and supported speed",
+      "status": "draft",
+      "evidenceStatus": "primary_sources_inspected_agent_checked",
+      "contentHash": "e58b0d4ff2fd1c1f74a38f87aea25401ba1c43113fb0d59ca894941ef4d54ee6",
+      "publicationBlockers": [
+        "human_editorial_review",
+        "truthful_byline_confirmation",
+        "final_visual_and_link_review"
+      ]
+    },
+    {
+      "id": "LE-11",
+      "slug": "24gb-48gb-ddr5-module-support",
+      "title": "24 GB and 48 GB DDR5 modules: check the platform, not the pattern",
+      "status": "draft",
+      "evidenceStatus": "primary_sources_inspected_agent_checked",
+      "contentHash": "81d8ec4e4eab15d7fcfbef3f9757c6b82bbe0ab67b6f53f854321eb2dccd3d05",
+      "publicationBlockers": [
+        "human_editorial_review",
+        "truthful_byline_confirmation",
+        "final_visual_and_link_review"
+      ]
+    },
+    {
+      "id": "LE-12",
+      "slug": "m2-2230-2242-2280-22110-sizes",
+      "title": "M.2 SSD sizes: 2230, 2242, 2280 and 22110",
+      "status": "draft",
+      "evidenceStatus": "primary_sources_inspected_agent_checked",
+      "contentHash": "a435719b258c4d2c5d033f2a7edc74cfda802767cd0db7a8047a2098d5c5c6bf",
+      "publicationBlockers": [
+        "human_editorial_review",
+        "truthful_byline_confirmation",
+        "final_visual_and_link_review"
+      ]
+    },
+    {
+      "id": "LE-13",
+      "slug": "ssd-tbw-warranty-not-failure-date",
+      "title": "SSD TBW: an endurance rating is not a failure countdown",
+      "status": "draft",
+      "evidenceStatus": "primary_sources_inspected_agent_checked",
+      "contentHash": "b30378acf2830891d5a324c0a4b7965e4c13b45a894a8042f10e1f519c5746ca",
+      "publicationBlockers": [
+        "human_editorial_review",
+        "truthful_byline_confirmation",
+        "final_visual_and_link_review"
+      ]
+    },
+    {
+      "id": "LE-14",
+      "slug": "ssd-missing-bios-detection-checks",
+      "title": "SSD not showing in BIOS? Separate detection from booting",
+      "status": "draft",
+      "evidenceStatus": "primary_sources_inspected_agent_checked",
+      "contentHash": "75cc82ce75c6760eeffa847f952b7c40ba9bf091f4ea68b971bf4ed1ea611405",
+      "publicationBlockers": [
+        "human_editorial_review",
+        "truthful_byline_confirmation",
+        "final_visual_and_link_review"
+      ]
+    },
+    {
+      "id": "LE-15",
+      "slug": "ssd-thermal-throttling-how-to-check",
+      "title": "Is your SSD thermal-throttling? Check more than one speed drop",
+      "status": "draft",
+      "evidenceStatus": "primary_sources_inspected_agent_checked",
+      "contentHash": "b12dd8fe8c0fdbd3bf3558dfcb0e02b2459e65f75cd550be7cc44055fe94b491",
+      "publicationBlockers": [
+        "human_editorial_review",
+        "truthful_byline_confirmation",
+        "final_visual_and_link_review"
+      ]
+    },
+    {
+      "id": "LE-16",
+      "slug": "ddr5-on-die-ecc-vs-system-ecc",
+      "title": "DDR5 on-die ECC is not the same as system ECC",
+      "status": "draft",
+      "evidenceStatus": "primary_sources_inspected_agent_checked",
+      "contentHash": "c6c10659dff4e6ff7696249e70276ac1dc11e7fdcb480a4fc43fee1ac01f452a",
+      "publicationBlockers": [
+        "human_editorial_review",
+        "truthful_byline_confirmation",
+        "final_visual_and_link_review"
+      ]
+    },
+    {
+      "id": "LE-17",
+      "slug": "freesync-gsync-compatible-vrr-path",
+      "title": "FreeSync, G-SYNC Compatible and VRR: check the whole path",
+      "status": "draft",
+      "evidenceStatus": "primary_sources_inspected_agent_checked",
+      "contentHash": "360ab69cd4923e3925f19c63c2e50fa87a0d7913a05adc40307bf3f0a03025e3",
+      "publicationBlockers": [
+        "human_editorial_review",
+        "truthful_byline_confirmation",
+        "final_visual_and_link_review"
+      ]
+    },
+    {
+      "id": "LE-18",
+      "slug": "displayport-hdmi-1440p-refresh-checklist",
+      "title": "DisplayPort or HDMI for 1440p high refresh? Read the mode table",
+      "status": "draft",
+      "evidenceStatus": "primary_sources_inspected_agent_checked",
+      "contentHash": "48dc32d8b273ad6b3679a7c2e5a34b6d2a08cf64e51774df7233713fd9a76fdf",
+      "publicationBlockers": [
+        "human_editorial_review",
+        "truthful_byline_confirmation",
+        "final_visual_and_link_review"
+      ]
+    },
+    {
+      "id": "LE-19",
+      "slug": "record-game-frame-times-presentmon",
+      "title": "Record game frame times: a repeatable capture worksheet",
+      "status": "draft",
+      "evidenceStatus": "primary_sources_inspected_agent_checked",
+      "contentHash": "56f52ab4d21305dc8a033b77456a877305dd7e304d89cba4b7f79a30eae32616",
+      "publicationBlockers": [
+        "human_editorial_review",
+        "truthful_byline_confirmation",
+        "final_visual_and_link_review"
+      ]
+    },
+    {
+      "id": "LE-20",
+      "slug": "shader-cache-first-run-stutter",
+      "title": "First-run stutter: why shader-cache state belongs in the test notes",
+      "status": "draft",
+      "evidenceStatus": "primary_sources_inspected_agent_checked",
+      "contentHash": "8e889ea2a8c4a5616f2d66b125bce5bbe38c2f82829373491b7b9f2a4fd58bf2",
+      "publicationBlockers": [
+        "human_editorial_review",
+        "truthful_byline_confirmation",
+        "final_visual_and_link_review"
+      ]
+    },
+    {
+      "id": "LE-21",
+      "slug": "gpu-two-three-monitors-output-plan",
+      "title": "Choosing a GPU for two or three monitors: map the outputs",
+      "status": "draft",
+      "evidenceStatus": "primary_sources_inspected_agent_checked",
+      "contentHash": "449ab053ed512f334eb55fc70acb2fb2a05b845b2be75fbd35a124cfdc0f97a5",
+      "publicationBlockers": [
+        "human_editorial_review",
+        "truthful_byline_confirmation",
+        "final_visual_and_link_review"
+      ]
+    },
+    {
+      "id": "LE-22",
+      "slug": "av1-hardware-encoding-before-buying",
+      "title": "AV1 encoding: check hardware, software and the destination",
+      "status": "draft",
+      "evidenceStatus": "primary_sources_inspected_agent_checked",
+      "contentHash": "317fe1274941cf2d49160dc4404883ab7ec586092adcedffdef78ebf760e699b",
+      "publicationBlockers": [
+        "human_editorial_review",
+        "truthful_byline_confirmation",
+        "final_visual_and_link_review"
+      ]
+    },
+    {
+      "id": "LE-23",
+      "slug": "gpu-undervolting-baseline-validation",
+      "title": "GPU undervolting: preserve stock settings and validate the change",
+      "status": "draft",
+      "evidenceStatus": "primary_sources_inspected_agent_checked",
+      "contentHash": "b4ebeadd69c7ba321310142c3f046695b05ae6aafe50404062b98e5a6dafe993",
+      "publicationBlockers": [
+        "human_editorial_review",
+        "truthful_byline_confirmation",
+        "final_visual_and_link_review"
+      ]
+    },
+    {
+      "id": "LE-24",
+      "slug": "vram-capacity-allocation-usage-budget",
+      "title": "VRAM capacity, usage and budget are different numbers",
+      "status": "draft",
+      "evidenceStatus": "primary_sources_inspected_agent_checked",
+      "contentHash": "23c0d313b59d3440cdc75e5ed0e2433cb27522854590268f91b9ec11678cc601",
+      "publicationBlockers": [
+        "human_editorial_review",
+        "truthful_byline_confirmation",
+        "final_visual_and_link_review"
+      ]
+    },
+    {
+      "id": "LE-25",
+      "slug": "pc-airflow-intake-exhaust-pressure",
+      "title": "PC airflow: draw the intake and exhaust path first",
+      "status": "draft",
+      "evidenceStatus": "primary_sources_inspected_agent_checked",
+      "contentHash": "94708802a137cae66ef8f7ace940ca6a585cde4657f951a3b46e6acd2ee585ef",
+      "publicationBlockers": [
+        "human_editorial_review",
+        "truthful_byline_confirmation",
+        "final_visual_and_link_review"
+      ]
+    },
+    {
+      "id": "LE-26",
+      "slug": "aio-radiator-pump-orientation-check",
+      "title": "AIO radiator placement: identify where the pump is",
+      "status": "draft",
+      "evidenceStatus": "primary_sources_inspected_agent_checked",
+      "contentHash": "39f520bbe5c47e4d5873d2e9d7d4bc9e2f0d7cc8f05c16e7b66e95fcfed7bc97",
+      "publicationBlockers": [
+        "human_editorial_review",
+        "truthful_byline_confirmation",
+        "final_visual_and_link_review"
+      ]
+    },
+    {
+      "id": "LE-27",
+      "slug": "measure-pc-noise-repeatable-home-test",
+      "title": "Measuring PC noise at home: make the comparison repeatable",
+      "status": "draft",
+      "evidenceStatus": "primary_sources_inspected_agent_checked",
+      "contentHash": "0b03a3a0d46d32df1f8fa21b21a8cb1d4ecda53903082d9865f57f09a2da94a0",
+      "publicationBlockers": [
+        "human_editorial_review",
+        "truthful_byline_confirmation",
+        "final_visual_and_link_review"
+      ]
+    },
+    {
+      "id": "LE-28",
+      "slug": "pcie-riser-no-display-generation-check",
+      "title": "No display through a PCIe riser? Identify the link first",
+      "status": "draft",
+      "evidenceStatus": "primary_sources_inspected_agent_checked",
+      "contentHash": "54982b91916e6c83a04b606bf12aaa02aa319f4d40b4ecd46feb2a50b7cd8c43",
+      "publicationBlockers": [
+        "human_editorial_review",
+        "truthful_byline_confirmation",
+        "final_visual_and_link_review"
+      ]
+    },
+    {
+      "id": "LE-29",
+      "slug": "thermal-paste-remount-checklist",
+      "title": "Thermal paste after removing a CPU cooler: what to check",
+      "status": "draft",
+      "evidenceStatus": "primary_sources_inspected_agent_checked",
+      "contentHash": "2c4eaa254b6a821156cdb1cd051ae332dc2fa8e8d39a5c2a7568916792f4ea63",
+      "publicationBlockers": [
+        "human_editorial_review",
+        "truthful_byline_confirmation",
+        "final_visual_and_link_review"
+      ]
+    },
+    {
+      "id": "LE-30",
+      "slug": "gpu-sag-support-bracket-installation",
+      "title": "GPU support brackets: support the card without creating a new obstruction",
+      "status": "draft",
+      "evidenceStatus": "primary_sources_inspected_agent_checked",
+      "contentHash": "27c7b6f7b4c2e54dc8680ae0b1f2041f984ded44e2fd6bf0c70ecc4cce83623c",
+      "publicationBlockers": [
+        "human_editorial_review",
+        "truthful_byline_confirmation",
+        "final_visual_and_link_review"
+      ]
+    },
+    {
+      "id": "LE-31",
+      "slug": "pc-under-desk-ventilation-check",
+      "title": "Putting a PC under a desk: check the air path before the fans",
+      "status": "draft",
+      "evidenceStatus": "primary_sources_inspected_agent_checked",
+      "contentHash": "811d653947c033b45729e653323ae01312accfabf8cf929ac678804f3526f0c3",
+      "publicationBlockers": [
+        "human_editorial_review",
+        "truthful_byline_confirmation",
+        "final_visual_and_link_review"
+      ]
+    },
+    {
+      "id": "LE-32",
+      "slug": "zero-rpm-psu-fan-behavior",
+      "title": "PSU fan not spinning? Check whether zero-RPM mode is expected",
+      "status": "draft",
+      "evidenceStatus": "primary_sources_inspected_agent_checked",
+      "contentHash": "e565945b6ab2ff5e86f3863cf14a2febb72a319300bfb3c440d66c98365b975b",
+      "publicationBlockers": [
+        "human_editorial_review",
+        "truthful_byline_confirmation",
+        "final_visual_and_link_review"
+      ]
+    },
+    {
+      "id": "LE-33",
+      "slug": "windows-ssd-new-motherboard-preparation",
+      "title": "Moving a Windows SSD to a new motherboard: prepare before the swap",
+      "status": "draft",
+      "evidenceStatus": "primary_sources_inspected_agent_checked",
+      "contentHash": "652b1d828a052f345003489d58fe71c145e0e24f26e4f744e40b46a19daa6c12",
+      "publicationBlockers": [
+        "human_editorial_review",
+        "truthful_byline_confirmation",
+        "final_visual_and_link_review"
+      ]
+    },
+    {
+      "id": "LE-34",
+      "slug": "bios-flashback-vs-firmware-menu-update",
+      "title": "BIOS Flashback vs a normal BIOS update: choose the documented route",
+      "status": "draft",
+      "evidenceStatus": "primary_sources_inspected_agent_checked",
+      "contentHash": "7ff07cc87564e3f1ce72f41e416020bc616955a18775920c8307316d29d2ef1a",
+      "publicationBlockers": [
+        "human_editorial_review",
+        "truthful_byline_confirmation",
+        "final_visual_and_link_review"
+      ]
+    },
+    {
+      "id": "LE-35",
+      "slug": "intel-quick-sync-discrete-gpu-check",
+      "title": "Quick Sync with a discrete GPU: keep the media path in view",
+      "status": "draft",
+      "evidenceStatus": "primary_sources_inspected_agent_checked",
+      "contentHash": "43e6cec364d03d6ac675e6552527fc1e4c83703deb393e963fe761934cb39b9d",
+      "publicationBlockers": [
+        "human_editorial_review",
+        "truthful_byline_confirmation",
+        "final_visual_and_link_review"
+      ]
+    },
+    {
+      "id": "LE-36",
+      "slug": "prepare-pc-for-sale-data-records",
+      "title": "Preparing a PC for sale: separate hardware records from private data",
+      "status": "draft",
+      "evidenceStatus": "primary_sources_inspected_agent_checked",
+      "contentHash": "6af38b783c8df037ec50d8496201fc1b5300aac222bb854ce94204f28a729ea3",
+      "publicationBlockers": [
+        "human_editorial_review",
+        "truthful_byline_confirmation",
+        "final_visual_and_link_review"
+      ]
+    }
+  ]
+}

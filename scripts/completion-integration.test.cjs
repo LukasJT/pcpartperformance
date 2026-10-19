@@ -40,11 +40,13 @@ test('mobile comparison opens controls without focusing its text search automati
 
 test('catalog comparison buttons retain their visible label in both selected states',()=>{
  const source=fs.readFileSync('dist/interface.js','utf8'),start=source.indexOf(' function renderLibrary(){'),end=source.indexOf('\n for(const id of',start),body=source.slice(start,end);
+ const preludeStart=source.indexOf(' const pcPartCategories='),preludeEnd=source.indexOf(' let limit=',preludeStart),prelude=source.slice(preludeStart,preludeEnd);
  assert(start>=0&&end>start);
+ assert(preludeStart>=0&&preludeEnd>preludeStart,'Use the real catalog scope declarations surrounding renderLibrary');
  for(const selected of [[],['fixture-gpu']]){
   const nodes={'#catalog-search':{value:''},'#catalog-category':{value:'all'},'#catalog-era':{value:'all'},'#catalog-sort':{value:'new'},'#hardware-rows':{},'#catalog-summary':{},'#catalog-empty':{},'#catalog-more':{},'#selected-link':{},'.page-heading h1':{}};
-  const context={selected,limit:24,catalog:[{id:'fixture-gpu',name:'Example GPU',cat:'gpu',brand:'Example',architecture:'Example',summary:'Fixture',year:2026}],categories:[['gpu','Graphics cards']],photos:{},escapeHTML:value=>String(value),$:selector=>nodes[selector],document:{body:{dataset:{}}},location:{href:'https://www.pcpartperformance.com/hardware/'},history:{replaceState(){}},URL,renderEvent(){}};
-  vm.runInNewContext(body+';renderLibrary();',context);
+  const context={selected,limit:24,catalog:[{id:'fixture-gpu',name:'Example GPU',cat:'gpu',brand:'Example',architecture:'Example',summary:'Fixture',year:2026}],categories:[['gpu','Graphics cards']],photos:{},escapeHTML:value=>String(value),$:selector=>nodes[selector],document:{body:{dataset:{}},querySelectorAll:()=>[]},location:{href:'https://www.pcpartperformance.com/hardware/'},history:{replaceState(){}},URL,renderEvent(){}};
+  vm.runInNewContext(prelude+body+';renderLibrary();',context);
   const markup=nodes['#hardware-rows'].innerHTML,label=markup.match(/data-library-add="fixture-gpu" aria-label="([^"]+)"/)[1],visible=markup.match(/aria-label="[^"]+">([+✓\s\w]+)<\/button>/)[1].replace(/[+✓]/g,'').trim();
   assert(label.toLowerCase().includes(visible.toLowerCase()),'Voice navigation must match the visible '+visible+' label');
   if(selected.length)assert(label.includes('remove'));

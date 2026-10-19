@@ -1,0 +1,150 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-19T04:22:51.202Z",
+  "reviewType": "Independent AI-assisted evidence check, not human editorial approval",
+  "reviewer": "Codex research QA agent",
+  "publicationApproved": false,
+  "humanReviewClaimed": false,
+  "scope": "Six complete draft answers and sections read against reopened original manufacturer/support documents; graphical browser review and source image permissions not established.",
+  "articles": [
+    {
+      "id": "LE-02",
+      "state": "No consequential contradiction found",
+      "confirmed": "The cable-family distinction and wrong-cable damage warning match the current manufacturer matrix. The draft does not generalize CORSAIR family names to every brand.",
+      "limits": [
+        "No electrical pinout measurement or hands-on cable identification was performed."
+      ],
+      "contentHash": "f3f170d65fca10e5b8bea8db6a32dd85715b3918b544e941ad0f02959c1fb9ef",
+      "title": "Can you reuse modular PSU cables? Identify them first",
+      "route": "/blog/modular-psu-cables-identify-before-reuse/",
+      "sources": [
+        {
+          "id": "cables",
+          "url": "https://www.corsair.com/us/en/s/psu-cable-compatibility",
+          "openedInThisReview": true
+        }
+      ],
+      "draftStatusUnchanged": "draft",
+      "publishableUnchanged": false
+    },
+    {
+      "id": "LE-04",
+      "state": "No consequential contradiction found",
+      "confirmed": "ASUS identifies separate 5 V/12 V systems. The named MSI manual distinguishes JRGB and JARGB_V2 and warns against mismatched voltage. The draft keeps board-specific limits conditional.",
+      "limits": [
+        "Official PDF text inspected; no wiring-diagram screenshot or final rendered illustration review in this pass.",
+        "A proprietary connector still requires its exact product instructions."
+      ],
+      "contentHash": "99b6fd5d259380ee27075edfca927f0f66cb79350a21b4ae75b36d3fbb1b32ee",
+      "title": "5 V ARGB vs 12 V RGB: check before connecting",
+      "route": "/blog/5v-argb-vs-12v-rgb-connectors/",
+      "sources": [
+        {
+          "id": "rgb",
+          "url": "https://www.asus.com/tw/support/faq/1056087/",
+          "openedInThisReview": true
+        },
+        {
+          "id": "b760manual",
+          "url": "https://download-2.msi.com/archive/mnu_exe/mb/PROB760-VCWIFIII_EN.pdf",
+          "openedInThisReview": true
+        }
+      ],
+      "draftStatusUnchanged": "draft",
+      "publishableUnchanged": false
+    },
+    {
+      "id": "LE-11",
+      "state": "No consequential contradiction found; module-class wording worth retaining",
+      "confirmed": "Kingston describes 24 Gbit density, resulting capacities, firmware dependency and its FURY mixing restriction. Kit sums are arithmetic. The draft does not carry forward the old platform table as current universal support.",
+      "limits": [
+        "The linked capacity paragraph discusses Registered DIMMs; keep module type explicitly in exact-platform checks, and consider an additional UDIMM source if adding desktop kit recommendations."
+      ],
+      "contentHash": "81d8ec4e4eab15d7fcfbef3f9757c6b82bbe0ab67b6f53f854321eb2dccd3d05",
+      "title": "24 GB and 48 GB DDR5 modules: check the platform, not the pattern",
+      "route": "/blog/24gb-48gb-ddr5-module-support/",
+      "sources": [
+        {
+          "id": "nonbinary",
+          "url": "https://www.kingston.com/en/blog/system-builder/24gbit-memory-faq",
+          "openedInThisReview": true
+        }
+      ],
+      "draftStatusUnchanged": "draft",
+      "publishableUnchanged": false
+    },
+    {
+      "id": "LE-26",
+      "state": "No consequential contradiction found",
+      "confirmed": "The current CORSAIR guide supports the conventional pump/radiator height explanation. The draft correctly refuses to apply that layout to every AIO and makes no temperature or lifespan test claim.",
+      "limits": [
+        "No particular cooler installation, tube reach or leak test was performed.",
+        "The final visual still needs rendered review."
+      ],
+      "contentHash": "39f520bbe5c47e4d5873d2e9d7d4bc9e2f0d7cc8f05c16e7b66e95fcfed7bc97",
+      "title": "AIO radiator placement: identify where the pump is",
+      "route": "/blog/aio-radiator-pump-orientation-check/",
+      "sources": [
+        {
+          "id": "aio",
+          "url": "https://help.corsair.com/hc/en-us/articles/360049358271-AIO-How-should-I-mount-the-radiator-of-my-AIO-cooler",
+          "openedInThisReview": true
+        }
+      ],
+      "draftStatusUnchanged": "draft",
+      "publishableUnchanged": false
+    },
+    {
+      "id": "LE-33",
+      "state": "No consequential contradiction found",
+      "confirmed": "Microsoft supports the recovery-key warning and motherboard-change reactivation issue. The draft separates physical boot support, data recovery and licensing instead of promising a successful transplant.",
+      "limits": [
+        "No license transfer eligibility, boot migration or recovery process was tested.",
+        "Hardware-specific boot/controller instructions remain model dependent."
+      ],
+      "contentHash": "652b1d828a052f345003489d58fe71c145e0e24f26e4f744e40b46a19daa6c12",
+      "title": "Moving a Windows SSD to a new motherboard: prepare before the swap",
+      "route": "/blog/windows-ssd-new-motherboard-preparation/",
+      "sources": [
+        {
+          "id": "bitlocker",
+          "url": "https://support.microsoft.com/en-us/windows/security/encryption/find-your-bitlocker-recovery-key",
+          "openedInThisReview": true
+        },
+        {
+          "id": "activation",
+          "url": "https://support.microsoft.com/en-us/windows/activation/reactivating-windows-after-a-hardware-change",
+          "openedInThisReview": true
+        }
+      ],
+      "draftStatusUnchanged": "draft",
+      "publishableUnchanged": false
+    },
+    {
+      "id": "LE-36",
+      "state": "No consequential contradiction found",
+      "confirmed": "Microsoft separates reset from account removal and states the consumer-cleaning limit. The draft does not promise standards-certified sanitization or assume every included drive was erased.",
+      "limits": [
+        "No storage sanitization was performed or certified.",
+        "The data owner must choose a process suitable for the device and sensitivity."
+      ],
+      "contentHash": "6af38b783c8df037ec50d8496201fc1b5300aac222bb854ce94204f28a729ea3",
+      "title": "Preparing a PC for sale: separate hardware records from private data",
+      "route": "/blog/prepare-pc-for-sale-data-records/",
+      "sources": [
+        {
+          "id": "resale",
+          "url": "https://support.microsoft.com/en-us/accounts-billing/security/before-you-recycle-sell-or-gift-your-xbox-or-windows-pc",
+          "openedInThisReview": true
+        },
+        {
+          "id": "reset",
+          "url": "https://support.microsoft.com/en-us/windows/experience/backup-recovery/reset-your-pc",
+          "openedInThisReview": true
+        }
+      ],
+      "draftStatusUnchanged": "draft",
+      "publishableUnchanged": false
+    }
+  ]
+}
