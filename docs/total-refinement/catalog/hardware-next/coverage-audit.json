@@ -1,0 +1,446 @@
+{
+  "checkedAt": "2026-10-19T22:09:09.054Z",
+  "scope": "Current full catalog plus all validated additive packets and existing cooler evidence hydration, matching build-pages. Field counts use the actual readiness engine; they are not a claim of complete installation compatibility or an exhaustive market denominator.",
+  "categories": {
+    "case": {
+      "records": 86,
+      "brands": [
+        "CORSAIR",
+        "Cooler Master",
+        "Corsair",
+        "Fractal",
+        "HYTE",
+        "Lian",
+        "Lian Li",
+        "NZXT",
+        "Phanteks",
+        "Supermicro",
+        "Thermaltake",
+        "be quiet!"
+      ],
+      "exactReviewedPhotos": 81,
+      "compatibleFieldCoverage": {
+        "forms": 4,
+        "gpuLengthMax": 3,
+        "coolerHeightMax": 4,
+        "psuFormats": 3,
+        "psuLengthMax": 3
+      },
+      "missingFieldExamples": [
+        {
+          "id": "x-case-corsair-obsidian-900d",
+          "name": "CORSAIR Obsidian 900D",
+          "source": "https://www.corsair.com/ca/en/c/pc-cases",
+          "missing": [
+            "forms",
+            "gpuLengthMax",
+            "coolerHeightMax",
+            "psuFormats",
+            "psuLengthMax"
+          ]
+        },
+        {
+          "id": "x-case-corsair-obsidian-1000d",
+          "name": "CORSAIR Obsidian 1000D",
+          "source": "https://www.corsair.com/ca/en/c/pc-cases",
+          "missing": [
+            "forms",
+            "gpuLengthMax",
+            "coolerHeightMax",
+            "psuFormats",
+            "psuLengthMax"
+          ]
+        },
+        {
+          "id": "x-case-corsair-4000d-airflow",
+          "name": "CORSAIR 4000D Airflow",
+          "source": "https://www.corsair.com/ca/en/c/pc-cases",
+          "missing": [
+            "forms",
+            "gpuLengthMax",
+            "coolerHeightMax",
+            "psuFormats",
+            "psuLengthMax"
+          ]
+        },
+        {
+          "id": "x-case-corsair-5000d-airflow",
+          "name": "CORSAIR 5000D Airflow",
+          "source": "https://www.corsair.com/ca/en/c/pc-cases",
+          "missing": [
+            "forms",
+            "gpuLengthMax",
+            "coolerHeightMax",
+            "psuFormats",
+            "psuLengthMax"
+          ]
+        },
+        {
+          "id": "x-case-corsair-7000d-airflow",
+          "name": "CORSAIR 7000D Airflow",
+          "source": "https://www.corsair.com/ca/en/c/pc-cases",
+          "missing": [
+            "forms",
+            "gpuLengthMax",
+            "coolerHeightMax",
+            "psuFormats",
+            "psuLengthMax"
+          ]
+        },
+        {
+          "id": "x-case-corsair-2500d-airflow",
+          "name": "CORSAIR 2500D Airflow",
+          "source": "https://www.corsair.com/ca/en/c/pc-cases",
+          "missing": [
+            "forms",
+            "gpuLengthMax",
+            "coolerHeightMax",
+            "psuFormats",
+            "psuLengthMax"
+          ]
+        },
+        {
+          "id": "x-case-corsair-3500x",
+          "name": "CORSAIR 3500X",
+          "source": "https://www.corsair.com/ca/en/c/pc-cases",
+          "missing": [
+            "forms",
+            "gpuLengthMax",
+            "coolerHeightMax",
+            "psuFormats",
+            "psuLengthMax"
+          ]
+        },
+        {
+          "id": "x-case-corsair-6500x",
+          "name": "CORSAIR 6500X",
+          "source": "https://www.corsair.com/ca/en/c/pc-cases",
+          "missing": [
+            "forms",
+            "gpuLengthMax",
+            "coolerHeightMax",
+            "psuFormats",
+            "psuLengthMax"
+          ]
+        },
+        {
+          "id": "x-case-corsair-frame-4000d",
+          "name": "CORSAIR FRAME 4000D",
+          "source": "https://www.corsair.com/ca/en/c/pc-cases",
+          "missing": [
+            "forms",
+            "gpuLengthMax",
+            "coolerHeightMax",
+            "psuFormats",
+            "psuLengthMax"
+          ]
+        },
+        {
+          "id": "x-case-fractal-design-define-r5",
+          "name": "Fractal Design Define R5",
+          "source": "https://www.fractal-design.com/products/cases/",
+          "missing": [
+            "forms",
+            "gpuLengthMax",
+            "coolerHeightMax",
+            "psuFormats",
+            "psuLengthMax"
+          ]
+        },
+        {
+          "id": "x-case-fractal-design-define-7",
+          "name": "Fractal Design Define 7",
+          "source": "https://www.fractal-design.com/products/cases/",
+          "missing": [
+            "forms",
+            "gpuLengthMax",
+            "coolerHeightMax",
+            "psuFormats",
+            "psuLengthMax"
+          ]
+        },
+        {
+          "id": "x-case-fractal-design-meshify-c",
+          "name": "Fractal Design Meshify C",
+          "source": "https://www.fractal-design.com/products/cases/",
+          "missing": [
+            "forms",
+            "gpuLengthMax",
+            "coolerHeightMax",
+            "psuFormats",
+            "psuLengthMax"
+          ]
+        }
+      ]
+    },
+    "psu": {
+      "records": 70,
+      "brands": [
+        "CORSAIR",
+        "Cooler Master",
+        "EVGA",
+        "Seasonic",
+        "Supermicro",
+        "be quiet!"
+      ],
+      "exactReviewedPhotos": 66,
+      "compatibleFieldCoverage": {
+        "psuOutput": 2,
+        "psuFormat": 1,
+        "psuLength": 2
+      },
+      "missingFieldExamples": [
+        {
+          "id": "rm750x",
+          "name": "RM750x (2021)",
+          "source": "https://assets.corsair.com/image/upload/corsairmedia/sys_master/productcontent/WW_RMx_Series_2021_QSG_Web_AD.pdf",
+          "missing": [
+            "psuOutput",
+            "psuFormat",
+            "psuLength"
+          ]
+        },
+        {
+          "id": "rm1000x",
+          "name": "RM1000x (2021)",
+          "source": "https://assets.corsair.com/image/upload/corsairmedia/sys_master/productcontent/WW_RMx_Series_2021_QSG_Web_AD.pdf",
+          "missing": [
+            "psuOutput",
+            "psuFormat",
+            "psuLength"
+          ]
+        },
+        {
+          "id": "sf750",
+          "name": "SF750 Platinum",
+          "source": "https://www.corsair.com/us/en/p/psu/cp-9020186-na/sf-series-sf750-750-watt-80-plus-platinum-certified-high-performance-sfx-psu-cp-9020186-na",
+          "missing": [
+            "psuOutput",
+            "psuFormat",
+            "psuLength"
+          ]
+        },
+        {
+          "id": "ax1600i",
+          "name": "AX1600i",
+          "source": "https://www.corsair.com/us/en/p/psu/cp-9020087-na/ax1600i-digital-atx-power-supply-1600-watt-fully-modular-psu-cp-9020087-na",
+          "missing": [
+            "psuOutput",
+            "psuFormat",
+            "psuLength"
+          ]
+        },
+        {
+          "id": "focusgx850",
+          "name": "FOCUS GX-850",
+          "source": "https://seasonic.com/focus-gx/",
+          "missing": [
+            "psuOutput",
+            "psuFormat",
+            "psuLength"
+          ]
+        },
+        {
+          "id": "primetx1000",
+          "name": "PRIME TX-1000",
+          "source": "https://seasonic.com/prime-tx/",
+          "missing": [
+            "psuOutput",
+            "psuFormat",
+            "psuLength"
+          ]
+        },
+        {
+          "id": "straightpower850",
+          "name": "Straight Power 12 850W",
+          "source": "https://www.bequiet.com/en/powersupply/4109",
+          "missing": [
+            "psuOutput",
+            "psuFormat",
+            "psuLength"
+          ]
+        },
+        {
+          "id": "rm650x",
+          "name": "RM650x (2021)",
+          "source": "https://assets.corsair.com/image/upload/corsairmedia/sys_master/productcontent/WW_RMx_Series_2021_QSG_Web_AD.pdf",
+          "missing": [
+            "psuOutput",
+            "psuFormat",
+            "psuLength"
+          ]
+        },
+        {
+          "id": "sf1000l",
+          "name": "SF1000L",
+          "source": "https://www.corsair.com/us/en/p/psu/cp-9020257-na/sf1000l-fully-modular-low-noise-sfx-power-supply-cp-9020257-na",
+          "missing": [
+            "psuOutput",
+            "psuFormat",
+            "psuLength"
+          ]
+        },
+        {
+          "id": "hx1000i",
+          "name": "HX1000i",
+          "source": "https://www.corsair.com/us/en/p/psu/cp-9020259-na/hxi-series-hx1000i-fully-modular-ultra-low-noise-platinum-atx-1000-watt-pc-power-supply-cp-9020259-na",
+          "missing": [
+            "psuOutput",
+            "psuFormat",
+            "psuLength"
+          ]
+        },
+        {
+          "id": "focusgx750",
+          "name": "FOCUS GX-750",
+          "source": "https://seasonic.com/focus-gx/",
+          "missing": [
+            "psuOutput",
+            "psuFormat",
+            "psuLength"
+          ]
+        },
+        {
+          "id": "focusgx1000",
+          "name": "FOCUS GX-1000",
+          "source": "https://seasonic.com/focus-gx/",
+          "missing": [
+            "psuOutput",
+            "psuFormat",
+            "psuLength"
+          ]
+        }
+      ]
+    },
+    "cooler": {
+      "records": 25,
+      "brands": [
+        "AMD",
+        "ARCTIC",
+        "CORSAIR",
+        "MSI",
+        "Noctua",
+        "Thermalright"
+      ],
+      "exactReviewedPhotos": 23,
+      "compatibleFieldCoverage": {
+        "coolingType": 24,
+        "supportedSockets": 24,
+        "mountingIncluded": 3
+      },
+      "missingFieldExamples": [
+        {
+          "id": "cooler-noctua-nh-d15-g2",
+          "name": "NH-D15 G2",
+          "source": "https://www.noctua.at/en/products/nh-d15-g2/specifications",
+          "missing": [
+            "mountingIncluded"
+          ]
+        },
+        {
+          "id": "cooler-noctua-nh-u12a",
+          "name": "NH-U12A",
+          "source": "https://www.noctua.at/en/products/nh-u12a/specifications",
+          "missing": [
+            "mountingIncluded"
+          ]
+        },
+        {
+          "id": "cooler-noctua-nh-d15-chromax-black",
+          "name": "NH-D15 chromax.black",
+          "source": "https://www.noctua.at/en/products/nh-d15-chromax-black/specifications",
+          "missing": [
+            "mountingIncluded"
+          ]
+        },
+        {
+          "id": "cooler-thermalright-phantom-spirit-120-se",
+          "name": "Phantom Spirit 120 SE",
+          "source": "https://www.thermalright.com/product/phantom-spirit-120-se/",
+          "missing": [
+            "mountingIncluded"
+          ]
+        },
+        {
+          "id": "cooler-thermalright-peerless-assassin-120-se",
+          "name": "Peerless Assassin 120 SE",
+          "source": "https://www.thermalright.com/product/peerless-assassin-120-se/",
+          "missing": [
+            "mountingIncluded"
+          ]
+        },
+        {
+          "id": "cooler-thermalright-assassin-x-120-refined-se",
+          "name": "Assassin X 120 Refined SE",
+          "source": "https://www.thermalright.com/product/assassin-x-120-refined-se/",
+          "missing": [
+            "mountingIncluded"
+          ]
+        },
+        {
+          "id": "cooler-arctic-liquid-freezer-iii-240-black",
+          "name": "Liquid Freezer III 240 Black",
+          "source": "https://www.arctic.de/en/Liquid-Freezer-III-240/ACFRE00134A",
+          "missing": [
+            "mountingIncluded"
+          ]
+        },
+        {
+          "id": "cooler-arctic-liquid-freezer-iii-360-black",
+          "name": "Liquid Freezer III 360 Black",
+          "source": "https://www.arctic.de/en/Liquid-Freezer-III-360/ACFRE00136A",
+          "missing": [
+            "mountingIncluded"
+          ]
+        },
+        {
+          "id": "cooler-arctic-liquid-freezer-iii-420-black",
+          "name": "Liquid Freezer III 420 Black",
+          "source": "https://www.arctic.de/en/Liquid-Freezer-III-420/ACFRE00137A",
+          "missing": [
+            "mountingIncluded"
+          ]
+        },
+        {
+          "id": "cooler-amd-wraith-stealth",
+          "name": "AMD Wraith Stealth",
+          "source": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600.html",
+          "missing": [
+            "coolingType",
+            "supportedSockets",
+            "mountingIncluded"
+          ]
+        },
+        {
+          "id": "total-cooler-msi-mag-coreliquid-e240",
+          "name": "MAG CORELIQUID E240",
+          "source": "https://storage-asset.msi.com/datasheet/liquid-cooling/global/MAG-CORELIQUID-E240.pdf",
+          "missing": [
+            "mountingIncluded"
+          ]
+        },
+        {
+          "id": "total-cooler-msi-mag-coreliquid-e360",
+          "name": "MAG CORELIQUID E360",
+          "source": "https://storage-asset.msi.com/datasheet/liquid-cooling/global/MAG-CORELIQUID-E360.pdf",
+          "missing": [
+            "mountingIncluded"
+          ]
+        }
+      ]
+    }
+  },
+  "coolerBatch": {
+    "models": 12,
+    "manufacturer": "MSI",
+    "type": "aio",
+    "reviewedExactImages": 12,
+    "measurements": "Bare radiator and radiator-fan dimensions only; installation stack and thermal behavior remain separate.",
+    "noNewCasesOrPsus": true
+  },
+  "nextPriorities": [
+    "Case-source verification for exact GPU, PSU and radiator layouts; do not promote old unsourced dimensions into evidence.",
+    "PSU exact SKU/revision, body form/length and cable family/inventory checks.",
+    "Cooler mounting-package inventory and support-list completeness, especially older stock and separately sold upgrade kits."
+  ]
+}

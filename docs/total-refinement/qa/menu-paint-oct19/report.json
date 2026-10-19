@@ -1,0 +1,1701 @@
+{
+  "checkedAt": "2026-10-19T22:40:14.322Z",
+  "scope": "Cold independent Edge process per sample.390×844 mobile,CPU4x,150ms latency,1.6Mbps down. Test-only injected CSS and optional module-request abort; no production source mutation. Lab event durations are not field INP.",
+  "rows": [
+    {
+      "route": "/",
+      "variant": "baseline",
+      "repetition": 1,
+      "first": {
+        "events": [],
+        "handlers": [
+          {
+            "control": "Menu",
+            "start": 3986.60000000149,
+            "duration": 36
+          }
+        ],
+        "longTasks": [],
+        "inert": true,
+        "focus": "Close menu",
+        "backdrop": "blur(3px)",
+        "menuShadow": "rgba(0, 0, 0, 0.467) 0px 30px 100px 0px",
+        "motionResource": [
+          {
+            "name": "http://127.0.0.1:4210/evolution-motion.js",
+            "start": 3985.10000000149,
+            "duration": 171.5
+          }
+        ],
+        "visibleSvgFilters": 1
+      },
+      "second": {
+        "events": [
+          {
+            "name": "pointerdown",
+            "start": 4992.60000000149,
+            "duration": 24,
+            "inputDelay": 1.5,
+            "processing": 0.3999999985098839,
+            "presentation": 22.100000001490116,
+            "interactionId": 4192
+          },
+          {
+            "name": "pointerup",
+            "start": 4992.60000000149,
+            "duration": 24,
+            "inputDelay": 2.100000001490116,
+            "processing": 0,
+            "presentation": 21.899999998509884,
+            "interactionId": 4192
+          },
+          {
+            "name": "click",
+            "start": 4992.60000000149,
+            "duration": 24,
+            "inputDelay": 2.100000001490116,
+            "processing": 10,
+            "presentation": 11.899999998509884,
+            "interactionId": 4192
+          }
+        ],
+        "handlers": [
+          {
+            "control": "Menu",
+            "start": 4994.70000000298,
+            "duration": 9.799999997019768
+          }
+        ]
+      },
+      "metricDelta": {
+        "LayoutCount": 4,
+        "RecalcStyleCount": 13,
+        "LayoutDuration": 0.026082999999999967,
+        "RecalcStyleDuration": 0.013490000000000002,
+        "ScriptDuration": 0.006934999999999997,
+        "TaskDuration": 0.11615799999999998
+      }
+    },
+    {
+      "route": "/",
+      "variant": "noBackdrop",
+      "repetition": 1,
+      "first": {
+        "events": [
+          {
+            "name": "pointerdown",
+            "start": 4297.099999997765,
+            "duration": 152,
+            "inputDelay": 4.600000001490116,
+            "processing": 3.399999998509884,
+            "presentation": 144,
+            "interactionId": 6855
+          },
+          {
+            "name": "pointerup",
+            "start": 4297.099999997765,
+            "duration": 152,
+            "inputDelay": 9.600000001490116,
+            "processing": 0.6000000014901161,
+            "presentation": 141.79999999701977,
+            "interactionId": 6855
+          },
+          {
+            "name": "click",
+            "start": 4297.099999997765,
+            "duration": 152,
+            "inputDelay": 10.400000002235174,
+            "processing": 64.5,
+            "presentation": 77.09999999776483,
+            "interactionId": 6855
+          }
+        ],
+        "handlers": [
+          {
+            "control": "Menu",
+            "start": 4307.800000000745,
+            "duration": 63.69999999925494
+          }
+        ],
+        "longTasks": [
+          {
+            "start": 4297.199999999255,
+            "duration": 77
+          }
+        ],
+        "inert": true,
+        "focus": "Close menu",
+        "backdrop": "none",
+        "menuShadow": "rgba(0, 0, 0, 0.467) 0px 30px 100px 0px",
+        "motionResource": [
+          {
+            "name": "http://127.0.0.1:4210/evolution-motion.js",
+            "start": 4304.89999999851,
+            "duration": 176.10000000149012
+          }
+        ],
+        "visibleSvgFilters": 1
+      },
+      "second": {
+        "events": [
+          {
+            "name": "pointerdown",
+            "start": 5342.89999999851,
+            "duration": 24,
+            "inputDelay": 1.300000000745058,
+            "processing": 0.6000000014901161,
+            "presentation": 22.099999997764826,
+            "interactionId": 6869
+          },
+          {
+            "name": "pointerup",
+            "start": 5342.89999999851,
+            "duration": 24,
+            "inputDelay": 2.100000001490116,
+            "processing": 0,
+            "presentation": 21.899999998509884,
+            "interactionId": 6869
+          },
+          {
+            "name": "click",
+            "start": 5342.89999999851,
+            "duration": 24,
+            "inputDelay": 2.100000001490116,
+            "processing": 10.699999999254942,
+            "presentation": 11.199999999254942,
+            "interactionId": 6869
+          }
+        ],
+        "handlers": [
+          {
+            "control": "Menu",
+            "start": 5345.099999997765,
+            "duration": 10.300000000745058
+          }
+        ]
+      },
+      "metricDelta": {
+        "LayoutCount": 5,
+        "RecalcStyleCount": 70,
+        "LayoutDuration": 0.041483999999999965,
+        "RecalcStyleDuration": 0.059161000000000005,
+        "ScriptDuration": 0.012185999999999975,
+        "TaskDuration": 0.37162499999999987
+      }
+    },
+    {
+      "route": "/",
+      "variant": "noMenuMotion",
+      "repetition": 1,
+      "first": {
+        "events": [
+          {
+            "name": "pointerdown",
+            "start": 4037.099999997765,
+            "duration": 104,
+            "inputDelay": 2.800000000745058,
+            "processing": 1.6000000014901161,
+            "presentation": 99.59999999776483,
+            "interactionId": 6919
+          },
+          {
+            "name": "pointerup",
+            "start": 4037.199999999255,
+            "duration": 104,
+            "inputDelay": 5.399999998509884,
+            "processing": 0.19999999925494194,
+            "presentation": 98.40000000223517,
+            "interactionId": 6919
+          },
+          {
+            "name": "click",
+            "start": 4037.199999999255,
+            "duration": 104,
+            "inputDelay": 5.599999997764826,
+            "processing": 38.5,
+            "presentation": 59.900000002235174,
+            "interactionId": 6919
+          }
+        ],
+        "handlers": [
+          {
+            "control": "Menu",
+            "start": 4043,
+            "duration": 37.899999998509884
+          }
+        ],
+        "longTasks": [],
+        "inert": true,
+        "focus": "Close menu",
+        "backdrop": "blur(3px)",
+        "menuShadow": "none",
+        "motionResource": [
+          {
+            "name": "http://127.0.0.1:4210/evolution-motion.js",
+            "start": 4041.2999999970198,
+            "duration": 172.70000000298023
+          }
+        ],
+        "visibleSvgFilters": 1
+      },
+      "second": {
+        "events": [
+          {
+            "name": "pointerdown",
+            "start": 4988.599999997765,
+            "duration": 24,
+            "inputDelay": 1.199999999254942,
+            "processing": 0.4000000022351742,
+            "presentation": 22.399999998509884,
+            "interactionId": 6933
+          },
+          {
+            "name": "pointerup",
+            "start": 4988.599999997765,
+            "duration": 24,
+            "inputDelay": 2,
+            "processing": 0,
+            "presentation": 22,
+            "interactionId": 6933
+          },
+          {
+            "name": "click",
+            "start": 4988.599999997765,
+            "duration": 24,
+            "inputDelay": 2,
+            "processing": 11.699999999254942,
+            "presentation": 10.300000000745058,
+            "interactionId": 6933
+          }
+        ],
+        "handlers": [
+          {
+            "control": "Menu",
+            "start": 4990.599999997765,
+            "duration": 11.5
+          }
+        ]
+      },
+      "metricDelta": {
+        "LayoutCount": 4,
+        "RecalcStyleCount": 69,
+        "LayoutDuration": 0.02635399999999999,
+        "RecalcStyleDuration": 0.031571,
+        "ScriptDuration": 0.006677000000000016,
+        "TaskDuration": 0.2242599999999999
+      }
+    },
+    {
+      "route": "/",
+      "variant": "noSvgFilters",
+      "repetition": 1,
+      "first": {
+        "events": [
+          {
+            "name": "pointerdown",
+            "start": 4000.39999999851,
+            "duration": 128,
+            "inputDelay": 2.800000000745058,
+            "processing": 1.9000000022351742,
+            "presentation": 123.29999999701977,
+            "interactionId": 5867
+          },
+          {
+            "name": "pointerup",
+            "start": 4000.39999999851,
+            "duration": 128,
+            "inputDelay": 5.5,
+            "processing": 0.10000000149011612,
+            "presentation": 122.39999999850988,
+            "interactionId": 5867
+          },
+          {
+            "name": "click",
+            "start": 4000.39999999851,
+            "duration": 128,
+            "inputDelay": 5.700000002980232,
+            "processing": 40.29999999701977,
+            "presentation": 82,
+            "interactionId": 5867
+          }
+        ],
+        "handlers": [
+          {
+            "control": "Menu",
+            "start": 4006.300000000745,
+            "duration": 39.5
+          }
+        ],
+        "longTasks": [],
+        "inert": true,
+        "focus": "Close menu",
+        "backdrop": "blur(3px)",
+        "menuShadow": "rgba(0, 0, 0, 0.467) 0px 30px 100px 0px",
+        "motionResource": [
+          {
+            "name": "http://127.0.0.1:4210/evolution-motion.js",
+            "start": 4005,
+            "duration": 190.39999999850988
+          }
+        ],
+        "visibleSvgFilters": 0
+      },
+      "second": {
+        "events": [
+          {
+            "name": "pointerdown",
+            "start": 4960.10000000149,
+            "duration": 24,
+            "inputDelay": 1.199999999254942,
+            "processing": 0.30000000074505806,
+            "presentation": 22.5,
+            "interactionId": 5881
+          },
+          {
+            "name": "pointerup",
+            "start": 4960.199999999255,
+            "duration": 24,
+            "inputDelay": 1.800000000745058,
+            "processing": 0,
+            "presentation": 22.199999999254942,
+            "interactionId": 5881
+          },
+          {
+            "name": "click",
+            "start": 4960.199999999255,
+            "duration": 24,
+            "inputDelay": 1.800000000745058,
+            "processing": 9.600000001490116,
+            "presentation": 12.599999997764826,
+            "interactionId": 5881
+          }
+        ],
+        "handlers": [
+          {
+            "control": "Menu",
+            "start": 4962,
+            "duration": 9.600000001490116
+          }
+        ]
+      },
+      "metricDelta": {
+        "LayoutCount": 6,
+        "RecalcStyleCount": 68,
+        "LayoutDuration": 0.029115999999999975,
+        "RecalcStyleDuration": 0.03659599999999999,
+        "ScriptDuration": 0.009205999999999992,
+        "TaskDuration": 0.2621899999999999
+      }
+    },
+    {
+      "route": "/",
+      "variant": "noMotionImport",
+      "repetition": 1,
+      "first": {
+        "events": [
+          {
+            "name": "pointerdown",
+            "start": 4002.400000002235,
+            "duration": 136,
+            "inputDelay": 2.7999999970197678,
+            "processing": 2.400000002235174,
+            "presentation": 130.80000000074506,
+            "interactionId": 4120
+          },
+          {
+            "name": "pointerup",
+            "start": 4002.5,
+            "duration": 136,
+            "inputDelay": 6.100000001490116,
+            "processing": 0,
+            "presentation": 129.89999999850988,
+            "interactionId": 4120
+          },
+          {
+            "name": "click",
+            "start": 4002.5,
+            "duration": 136,
+            "inputDelay": 6.300000000745058,
+            "processing": 37.899999998509884,
+            "presentation": 91.80000000074506,
+            "interactionId": 4120
+          }
+        ],
+        "handlers": [
+          {
+            "control": "Menu",
+            "start": 4008.900000002235,
+            "duration": 37.399999998509884
+          }
+        ],
+        "longTasks": [],
+        "inert": true,
+        "focus": "Close menu",
+        "backdrop": "blur(3px)",
+        "menuShadow": "rgba(0, 0, 0, 0.467) 0px 30px 100px 0px",
+        "motionResource": [
+          {
+            "name": "http://127.0.0.1:4210/evolution-motion.js",
+            "start": 4007.5,
+            "duration": 42.69999999925494
+          }
+        ],
+        "visibleSvgFilters": 1
+      },
+      "second": {
+        "events": [
+          {
+            "name": "pointerdown",
+            "start": 5156.300000000745,
+            "duration": 24,
+            "inputDelay": 1.6000000014901161,
+            "processing": 0.5,
+            "presentation": 21.899999998509884,
+            "interactionId": 4134
+          },
+          {
+            "name": "pointerup",
+            "start": 5156.400000002235,
+            "duration": 24,
+            "inputDelay": 2.2999999970197678,
+            "processing": 0,
+            "presentation": 21.700000002980232,
+            "interactionId": 4134
+          },
+          {
+            "name": "click",
+            "start": 5156.400000002235,
+            "duration": 24,
+            "inputDelay": 2.2999999970197678,
+            "processing": 10.800000000745058,
+            "presentation": 10.900000002235174,
+            "interactionId": 4134
+          }
+        ],
+        "handlers": [
+          {
+            "control": "Menu",
+            "start": 5158.699999999255,
+            "duration": 10.700000002980232
+          }
+        ]
+      },
+      "metricDelta": {
+        "LayoutCount": 3,
+        "RecalcStyleCount": 21,
+        "LayoutDuration": 0.025210999999999983,
+        "RecalcStyleDuration": 0.014867000000000005,
+        "ScriptDuration": 0.007321999999999995,
+        "TaskDuration": 0.1314169999999999
+      }
+    },
+    {
+      "route": "/",
+      "variant": "noBackdropAndSvg",
+      "repetition": 1,
+      "first": {
+        "events": [
+          {
+            "name": "pointerdown",
+            "start": 4077.800000000745,
+            "duration": 104,
+            "inputDelay": 2.599999997764826,
+            "processing": 1.6000000014901161,
+            "presentation": 99.80000000074506,
+            "interactionId": 5253
+          },
+          {
+            "name": "pointerup",
+            "start": 4077.89999999851,
+            "duration": 104,
+            "inputDelay": 4.900000002235174,
+            "processing": 0,
+            "presentation": 99.09999999776483,
+            "interactionId": 5253
+          },
+          {
+            "name": "click",
+            "start": 4077.89999999851,
+            "duration": 104,
+            "inputDelay": 5.100000001490116,
+            "processing": 37.30000000074506,
+            "presentation": 61.599999997764826,
+            "interactionId": 5253
+          }
+        ],
+        "handlers": [
+          {
+            "control": "Menu",
+            "start": 4083.10000000149,
+            "duration": 36.79999999701977
+          }
+        ],
+        "longTasks": [],
+        "inert": true,
+        "focus": "Close menu",
+        "backdrop": "none",
+        "menuShadow": "rgba(0, 0, 0, 0.467) 0px 30px 100px 0px",
+        "motionResource": [
+          {
+            "name": "http://127.0.0.1:4210/evolution-motion.js",
+            "start": 4081.699999999255,
+            "duration": 167.30000000074506
+          }
+        ],
+        "visibleSvgFilters": 0
+      },
+      "second": {
+        "events": [
+          {
+            "name": "pointerdown",
+            "start": 5020,
+            "duration": 24,
+            "inputDelay": 1.199999999254942,
+            "processing": 0.5,
+            "presentation": 22.300000000745058,
+            "interactionId": 5267
+          },
+          {
+            "name": "pointerup",
+            "start": 5020,
+            "duration": 24,
+            "inputDelay": 1.8999999985098839,
+            "processing": 0,
+            "presentation": 22.100000001490116,
+            "interactionId": 5267
+          },
+          {
+            "name": "click",
+            "start": 5020,
+            "duration": 24,
+            "inputDelay": 2,
+            "processing": 9.899999998509884,
+            "presentation": 12.100000001490116,
+            "interactionId": 5267
+          }
+        ],
+        "handlers": [
+          {
+            "control": "Menu",
+            "start": 5022,
+            "duration": 9.800000000745058
+          }
+        ]
+      },
+      "metricDelta": {
+        "LayoutCount": 6,
+        "RecalcStyleCount": 71,
+        "LayoutDuration": 0.026380000000000015,
+        "RecalcStyleDuration": 0.030880999999999992,
+        "ScriptDuration": 0.005973999999999979,
+        "TaskDuration": 0.22315200000000002
+      }
+    },
+    {
+      "route": "/",
+      "variant": "baseline",
+      "repetition": 2,
+      "first": {
+        "events": [
+          {
+            "name": "pointerdown",
+            "start": 4015.300000000745,
+            "duration": 136,
+            "inputDelay": 2.800000000745058,
+            "processing": 1.800000000745058,
+            "presentation": 131.39999999850988,
+            "interactionId": 6023
+          },
+          {
+            "name": "pointerup",
+            "start": 4015.400000002235,
+            "duration": 136,
+            "inputDelay": 5.099999997764826,
+            "processing": 0.19999999925494194,
+            "presentation": 130.70000000298023,
+            "interactionId": 6023
+          },
+          {
+            "name": "click",
+            "start": 4015.400000002235,
+            "duration": 136,
+            "inputDelay": 5.5,
+            "processing": 41.5,
+            "presentation": 89,
+            "interactionId": 6023
+          }
+        ],
+        "handlers": [
+          {
+            "control": "Menu",
+            "start": 4021.10000000149,
+            "duration": 40.80000000074506
+          }
+        ],
+        "longTasks": [],
+        "inert": true,
+        "focus": "Close menu",
+        "backdrop": "blur(3px)",
+        "menuShadow": "rgba(0, 0, 0, 0.467) 0px 30px 100px 0px",
+        "motionResource": [
+          {
+            "name": "http://127.0.0.1:4210/evolution-motion.js",
+            "start": 4019.800000000745,
+            "duration": 172
+          }
+        ],
+        "visibleSvgFilters": 1
+      },
+      "second": {
+        "events": [
+          {
+            "name": "pointerdown",
+            "start": 4982.800000000745,
+            "duration": 24,
+            "inputDelay": 1.1000000014901161,
+            "processing": 0.5999999977648258,
+            "presentation": 22.300000000745058,
+            "interactionId": 6037
+          },
+          {
+            "name": "pointerup",
+            "start": 4982.800000000745,
+            "duration": 24,
+            "inputDelay": 1.8999999985098839,
+            "processing": 0,
+            "presentation": 22.100000001490116,
+            "interactionId": 6037
+          },
+          {
+            "name": "click",
+            "start": 4982.800000000745,
+            "duration": 24,
+            "inputDelay": 2.100000001490116,
+            "processing": 10.5,
+            "presentation": 11.399999998509884,
+            "interactionId": 6037
+          }
+        ],
+        "handlers": [
+          {
+            "control": "Menu",
+            "start": 4984.900000002235,
+            "duration": 10.5
+          }
+        ]
+      },
+      "metricDelta": {
+        "LayoutCount": 5,
+        "RecalcStyleCount": 69,
+        "LayoutDuration": 0.02881100000000003,
+        "RecalcStyleDuration": 0.039296,
+        "ScriptDuration": 0.00839999999999999,
+        "TaskDuration": 0.267509
+      }
+    },
+    {
+      "route": "/",
+      "variant": "noBackdrop",
+      "repetition": 2,
+      "first": {
+        "events": [
+          {
+            "name": "pointerdown",
+            "start": 4007.60000000149,
+            "duration": 104,
+            "inputDelay": 3.099999997764826,
+            "processing": 1.6000000014901161,
+            "presentation": 99.30000000074506,
+            "interactionId": 6463
+          },
+          {
+            "name": "pointerup",
+            "start": 4007.60000000149,
+            "duration": 104,
+            "inputDelay": 5.5,
+            "processing": 0.19999999925494194,
+            "presentation": 98.30000000074506,
+            "interactionId": 6463
+          },
+          {
+            "name": "click",
+            "start": 4007.60000000149,
+            "duration": 104,
+            "inputDelay": 5.699999999254942,
+            "processing": 37.30000000074506,
+            "presentation": 61,
+            "interactionId": 6463
+          }
+        ],
+        "handlers": [
+          {
+            "control": "Menu",
+            "start": 4013.60000000149,
+            "duration": 36.599999997764826
+          }
+        ],
+        "longTasks": [],
+        "inert": true,
+        "focus": "Close menu",
+        "backdrop": "none",
+        "menuShadow": "rgba(0, 0, 0, 0.467) 0px 30px 100px 0px",
+        "motionResource": [
+          {
+            "name": "http://127.0.0.1:4210/evolution-motion.js",
+            "start": 4012.300000000745,
+            "duration": 179.5
+          }
+        ],
+        "visibleSvgFilters": 1
+      },
+      "second": {
+        "events": [
+          {
+            "name": "pointerdown",
+            "start": 4949.39999999851,
+            "duration": 24,
+            "inputDelay": 1.2000000029802322,
+            "processing": 0.3999999985098839,
+            "presentation": 22.399999998509884,
+            "interactionId": 6477
+          },
+          {
+            "name": "pointerup",
+            "start": 4949.5,
+            "duration": 24,
+            "inputDelay": 1.800000000745058,
+            "processing": 0,
+            "presentation": 22.199999999254942,
+            "interactionId": 6477
+          },
+          {
+            "name": "click",
+            "start": 4949.5,
+            "duration": 24,
+            "inputDelay": 1.800000000745058,
+            "processing": 10.199999999254942,
+            "presentation": 12,
+            "interactionId": 6477
+          }
+        ],
+        "handlers": [
+          {
+            "control": "Menu",
+            "start": 4951.39999999851,
+            "duration": 10.100000001490116
+          }
+        ]
+      },
+      "metricDelta": {
+        "LayoutCount": 5,
+        "RecalcStyleCount": 69,
+        "LayoutDuration": 0.025469999999999993,
+        "RecalcStyleDuration": 0.02805400000000001,
+        "ScriptDuration": 0.007146999999999987,
+        "TaskDuration": 0.22316499999999984
+      }
+    },
+    {
+      "route": "/",
+      "variant": "noMenuMotion",
+      "repetition": 2,
+      "first": {
+        "events": [
+          {
+            "name": "pointerdown",
+            "start": 4011.699999999255,
+            "duration": 104,
+            "inputDelay": 3.100000001490116,
+            "processing": 1.5999999977648258,
+            "presentation": 99.30000000074506,
+            "interactionId": 2817
+          },
+          {
+            "name": "pointerup",
+            "start": 4011.800000000745,
+            "duration": 104,
+            "inputDelay": 5.800000000745058,
+            "processing": 0.19999999925494194,
+            "presentation": 98,
+            "interactionId": 2817
+          },
+          {
+            "name": "click",
+            "start": 4011.800000000745,
+            "duration": 104,
+            "inputDelay": 6.099999997764826,
+            "processing": 37,
+            "presentation": 60.900000002235174,
+            "interactionId": 2817
+          }
+        ],
+        "handlers": [
+          {
+            "control": "Menu",
+            "start": 4018.199999999255,
+            "duration": 36.30000000074506
+          }
+        ],
+        "longTasks": [],
+        "inert": true,
+        "focus": "Close menu",
+        "backdrop": "blur(3px)",
+        "menuShadow": "none",
+        "motionResource": [
+          {
+            "name": "http://127.0.0.1:4210/evolution-motion.js",
+            "start": 4016.300000000745,
+            "duration": 167.59999999776483
+          }
+        ],
+        "visibleSvgFilters": 1
+      },
+      "second": {
+        "events": [
+          {
+            "name": "pointerdown",
+            "start": 5066,
+            "duration": 24,
+            "inputDelay": 1.3999999985098839,
+            "processing": 0.4000000022351742,
+            "presentation": 22.199999999254942,
+            "interactionId": 2831
+          },
+          {
+            "name": "pointerup",
+            "start": 5066.10000000149,
+            "duration": 24,
+            "inputDelay": 1.7999999970197678,
+            "processing": 0.10000000149011612,
+            "presentation": 22.100000001490116,
+            "interactionId": 2831
+          },
+          {
+            "name": "click",
+            "start": 5066.10000000149,
+            "duration": 24,
+            "inputDelay": 1.8999999985098839,
+            "processing": 10.199999999254942,
+            "presentation": 11.900000002235174,
+            "interactionId": 2831
+          }
+        ],
+        "handlers": [
+          {
+            "control": "Menu",
+            "start": 5068,
+            "duration": 10
+          }
+        ]
+      },
+      "metricDelta": {
+        "LayoutCount": 4,
+        "RecalcStyleCount": 15,
+        "LayoutDuration": 0.025446999999999997,
+        "RecalcStyleDuration": 0.016210000000000002,
+        "ScriptDuration": 0.0062419999999999976,
+        "TaskDuration": 0.13828299999999993
+      }
+    },
+    {
+      "route": "/",
+      "variant": "noSvgFilters",
+      "repetition": 2,
+      "first": {
+        "events": [
+          {
+            "name": "pointerdown",
+            "start": 4037.5,
+            "duration": 136,
+            "inputDelay": 3.300000000745058,
+            "processing": 2.399999998509884,
+            "presentation": 130.30000000074506,
+            "interactionId": 8128
+          },
+          {
+            "name": "pointerup",
+            "start": 4037.5,
+            "duration": 136,
+            "inputDelay": 6.800000000745058,
+            "processing": 0.09999999776482582,
+            "presentation": 129.10000000149012,
+            "interactionId": 8128
+          },
+          {
+            "name": "click",
+            "start": 4037.5,
+            "duration": 136,
+            "inputDelay": 7.199999999254942,
+            "processing": 47.399999998509884,
+            "presentation": 81.40000000223517,
+            "interactionId": 8128
+          }
+        ],
+        "handlers": [
+          {
+            "control": "Menu",
+            "start": 4044.89999999851,
+            "duration": 46.69999999925494
+          }
+        ],
+        "longTasks": [
+          {
+            "start": 4037.699999999255,
+            "duration": 56
+          }
+        ],
+        "inert": true,
+        "focus": "Close menu",
+        "backdrop": "blur(3px)",
+        "menuShadow": "rgba(0, 0, 0, 0.467) 0px 30px 100px 0px",
+        "motionResource": [
+          {
+            "name": "http://127.0.0.1:4210/evolution-motion.js",
+            "start": 4043,
+            "duration": 174.30000000074506
+          }
+        ],
+        "visibleSvgFilters": 0
+      },
+      "second": {
+        "events": [
+          {
+            "name": "pointerdown",
+            "start": 5002.5,
+            "duration": 24,
+            "inputDelay": 1.199999999254942,
+            "processing": 0.30000000074505806,
+            "presentation": 22.5,
+            "interactionId": 8142
+          },
+          {
+            "name": "pointerup",
+            "start": 5002.5,
+            "duration": 24,
+            "inputDelay": 1.8999999985098839,
+            "processing": 0,
+            "presentation": 22.100000001490116,
+            "interactionId": 8142
+          },
+          {
+            "name": "click",
+            "start": 5002.5,
+            "duration": 24,
+            "inputDelay": 1.8999999985098839,
+            "processing": 10,
+            "presentation": 12.100000001490116,
+            "interactionId": 8142
+          }
+        ],
+        "handlers": [
+          {
+            "control": "Menu",
+            "start": 5004.5,
+            "duration": 9.800000000745058
+          }
+        ]
+      },
+      "metricDelta": {
+        "LayoutCount": 6,
+        "RecalcStyleCount": 73,
+        "LayoutDuration": 0.031998000000000026,
+        "RecalcStyleDuration": 0.04374199999999999,
+        "ScriptDuration": 0.008541999999999994,
+        "TaskDuration": 0.277304
+      }
+    },
+    {
+      "route": "/",
+      "variant": "noMotionImport",
+      "repetition": 2,
+      "first": {
+        "events": [
+          {
+            "name": "pointerdown",
+            "start": 13911.70000000298,
+            "duration": 120,
+            "inputDelay": 2.899999998509884,
+            "processing": 1.699999999254942,
+            "presentation": 115.40000000223517,
+            "interactionId": 7759
+          },
+          {
+            "name": "pointerup",
+            "start": 13911.800000000745,
+            "duration": 120,
+            "inputDelay": 5.699999999254942,
+            "processing": 0.20000000298023224,
+            "presentation": 114.09999999776483,
+            "interactionId": 7759
+          },
+          {
+            "name": "click",
+            "start": 13911.800000000745,
+            "duration": 120,
+            "inputDelay": 5.900000002235174,
+            "processing": 36.599999997764826,
+            "presentation": 77.5,
+            "interactionId": 7759
+          }
+        ],
+        "handlers": [
+          {
+            "control": "Menu",
+            "start": 13918,
+            "duration": 35.70000000298023
+          }
+        ],
+        "longTasks": [],
+        "inert": true,
+        "focus": "Close menu",
+        "backdrop": "blur(3px)",
+        "menuShadow": "rgba(0, 0, 0, 0.467) 0px 30px 100px 0px",
+        "motionResource": [
+          {
+            "name": "http://127.0.0.1:4210/evolution-motion.js",
+            "start": 13916.300000000745,
+            "duration": 2.400000002235174
+          }
+        ],
+        "visibleSvgFilters": 1
+      },
+      "second": {
+        "events": [
+          {
+            "name": "pointerdown",
+            "start": 14841.900000002235,
+            "duration": 368,
+            "inputDelay": 1.699999999254942,
+            "processing": 0.3999999985098839,
+            "presentation": 365.9000000022352,
+            "interactionId": 7773
+          },
+          {
+            "name": "pointerup",
+            "start": 14842,
+            "duration": 368,
+            "inputDelay": 2.400000002235174,
+            "processing": 0,
+            "presentation": 365.5999999977648,
+            "interactionId": 7773
+          },
+          {
+            "name": "click",
+            "start": 14842,
+            "duration": 368,
+            "inputDelay": 2.5,
+            "processing": 8.900000002235174,
+            "presentation": 356.5999999977648,
+            "interactionId": 7773
+          }
+        ],
+        "handlers": [
+          {
+            "control": "Menu",
+            "start": 14844.5,
+            "duration": 8.900000002235174
+          }
+        ]
+      },
+      "metricDelta": {
+        "LayoutCount": 3,
+        "RecalcStyleCount": 19,
+        "LayoutDuration": 0.022457999999999978,
+        "RecalcStyleDuration": 0.014696,
+        "ScriptDuration": 0.006018999999999997,
+        "TaskDuration": 0.11824799999999991
+      }
+    },
+    {
+      "route": "/",
+      "variant": "noBackdropAndSvg",
+      "repetition": 2,
+      "first": {
+        "events": [
+          {
+            "name": "pointerdown",
+            "start": 4060.2999999970198,
+            "duration": 112,
+            "inputDelay": 3.400000002235174,
+            "processing": 2.5,
+            "presentation": 106.09999999776483,
+            "interactionId": 8660
+          },
+          {
+            "name": "pointerup",
+            "start": 4060.39999999851,
+            "duration": 112,
+            "inputDelay": 6.5,
+            "processing": 0,
+            "presentation": 105.5,
+            "interactionId": 8660
+          },
+          {
+            "name": "click",
+            "start": 4060.39999999851,
+            "duration": 112,
+            "inputDelay": 6.699999999254942,
+            "processing": 42.19999999925494,
+            "presentation": 63.100000001490116,
+            "interactionId": 8660
+          }
+        ],
+        "handlers": [
+          {
+            "control": "Menu",
+            "start": 4067.2999999970198,
+            "duration": 41.5
+          }
+        ],
+        "longTasks": [],
+        "inert": true,
+        "focus": "Close menu",
+        "backdrop": "none",
+        "menuShadow": "rgba(0, 0, 0, 0.467) 0px 30px 100px 0px",
+        "motionResource": [
+          {
+            "name": "http://127.0.0.1:4210/evolution-motion.js",
+            "start": 4066,
+            "duration": 167.89999999850988
+          }
+        ],
+        "visibleSvgFilters": 0
+      },
+      "second": {
+        "events": [
+          {
+            "name": "pointerdown",
+            "start": 5023.099999997765,
+            "duration": 24,
+            "inputDelay": 1.300000000745058,
+            "processing": 0.3999999985098839,
+            "presentation": 22.300000000745058,
+            "interactionId": 8674
+          },
+          {
+            "name": "pointerup",
+            "start": 5023.099999997765,
+            "duration": 24,
+            "inputDelay": 2.100000001490116,
+            "processing": 0,
+            "presentation": 21.899999998509884,
+            "interactionId": 8674
+          },
+          {
+            "name": "click",
+            "start": 5023.099999997765,
+            "duration": 24,
+            "inputDelay": 2.100000001490116,
+            "processing": 11.899999998509884,
+            "presentation": 10,
+            "interactionId": 8674
+          }
+        ],
+        "handlers": [
+          {
+            "control": "Menu",
+            "start": 5025.199999999255,
+            "duration": 11.800000000745058
+          }
+        ]
+      },
+      "metricDelta": {
+        "LayoutCount": 5,
+        "RecalcStyleCount": 73,
+        "LayoutDuration": 0.02918900000000002,
+        "RecalcStyleDuration": 0.03296299999999999,
+        "ScriptDuration": 0.00836300000000001,
+        "TaskDuration": 0.24151599999999984
+      }
+    },
+    {
+      "route": "/performance/",
+      "variant": "baseline",
+      "repetition": 1,
+      "first": {
+        "events": [
+          {
+            "name": "pointerdown",
+            "start": 9645.39999999851,
+            "duration": 432,
+            "inputDelay": 2.900000002235174,
+            "processing": 2.199999999254942,
+            "presentation": 426.8999999985099,
+            "interactionId": 1235
+          },
+          {
+            "name": "pointerup",
+            "start": 9645.5,
+            "duration": 432,
+            "inputDelay": 5.899999998509884,
+            "processing": 0.19999999925494194,
+            "presentation": 425.9000000022352,
+            "interactionId": 1235
+          },
+          {
+            "name": "click",
+            "start": 9645.5,
+            "duration": 432,
+            "inputDelay": 6.199999999254942,
+            "processing": 21.600000001490116,
+            "presentation": 404.19999999925494,
+            "interactionId": 1235
+          }
+        ],
+        "handlers": [
+          {
+            "control": "Menu",
+            "start": 9652,
+            "duration": 20.800000000745058
+          }
+        ],
+        "longTasks": [],
+        "inert": true,
+        "focus": "Close menu",
+        "backdrop": "blur(3px)",
+        "menuShadow": "rgba(0, 0, 0, 0.467) 0px 30px 100px 0px",
+        "motionResource": [
+          {
+            "name": "http://127.0.0.1:4210/evolution-motion.js",
+            "start": 9650.39999999851,
+            "duration": 166.69999999925494
+          }
+        ],
+        "visibleSvgFilters": 0
+      },
+      "second": {
+        "events": [],
+        "handlers": [
+          {
+            "control": "Menu",
+            "start": 10611.300000000745,
+            "duration": 11.599999997764826
+          }
+        ]
+      },
+      "metricDelta": {
+        "LayoutCount": 5,
+        "RecalcStyleCount": 13,
+        "LayoutDuration": 0.011232999999999993,
+        "RecalcStyleDuration": 0.014172000000000004,
+        "ScriptDuration": 0.008276999999999979,
+        "TaskDuration": 0.13273599999999997
+      }
+    },
+    {
+      "route": "/performance/",
+      "variant": "noBackdrop",
+      "repetition": 1,
+      "first": {
+        "events": [
+          {
+            "name": "pointerdown",
+            "start": 9649.5,
+            "duration": 80,
+            "inputDelay": 2.800000000745058,
+            "processing": 1.5,
+            "presentation": 75.69999999925494,
+            "interactionId": 6795
+          },
+          {
+            "name": "pointerup",
+            "start": 9649.599999997765,
+            "duration": 80,
+            "inputDelay": 5.100000001490116,
+            "processing": 0.19999999925494194,
+            "presentation": 74.69999999925494,
+            "interactionId": 6795
+          },
+          {
+            "name": "click",
+            "start": 9649.599999997765,
+            "duration": 80,
+            "inputDelay": 5.400000002235174,
+            "processing": 23.899999998509884,
+            "presentation": 50.69999999925494,
+            "interactionId": 6795
+          }
+        ],
+        "handlers": [
+          {
+            "control": "Menu",
+            "start": 9655.099999997765,
+            "duration": 23.300000000745058
+          }
+        ],
+        "longTasks": [],
+        "inert": true,
+        "focus": "Close menu",
+        "backdrop": "none",
+        "menuShadow": "rgba(0, 0, 0, 0.467) 0px 30px 100px 0px",
+        "motionResource": [
+          {
+            "name": "http://127.0.0.1:4210/evolution-motion.js",
+            "start": 9653.599999997765,
+            "duration": 173.80000000074506
+          }
+        ],
+        "visibleSvgFilters": 0
+      },
+      "second": {
+        "events": [
+          {
+            "name": "pointerdown",
+            "start": 10611.800000000745,
+            "duration": 320,
+            "inputDelay": 1.3999999985098839,
+            "processing": 0.5,
+            "presentation": 318.1000000014901,
+            "interactionId": 6809
+          },
+          {
+            "name": "pointerup",
+            "start": 10611.800000000745,
+            "duration": 320,
+            "inputDelay": 2.099999997764826,
+            "processing": 0,
+            "presentation": 317.9000000022352,
+            "interactionId": 6809
+          },
+          {
+            "name": "click",
+            "start": 10611.800000000745,
+            "duration": 320,
+            "inputDelay": 2.099999997764826,
+            "processing": 8.100000001490116,
+            "presentation": 309.80000000074506,
+            "interactionId": 6809
+          }
+        ],
+        "handlers": [
+          {
+            "control": "Menu",
+            "start": 10613.89999999851,
+            "duration": 8.100000001490116
+          }
+        ]
+      },
+      "metricDelta": {
+        "LayoutCount": 5,
+        "RecalcStyleCount": 20,
+        "LayoutDuration": 0.010785000000000017,
+        "RecalcStyleDuration": 0.017972000000000002,
+        "ScriptDuration": 0.007122000000000017,
+        "TaskDuration": 0.14224099999999984
+      }
+    },
+    {
+      "route": "/performance/",
+      "variant": "noMotionImport",
+      "repetition": 1,
+      "first": {
+        "events": [
+          {
+            "name": "pointerdown",
+            "start": 9813.599999997765,
+            "duration": 104,
+            "inputDelay": 3,
+            "processing": 2.5,
+            "presentation": 98.5,
+            "interactionId": 4986
+          },
+          {
+            "name": "pointerup",
+            "start": 9813.699999999255,
+            "duration": 104,
+            "inputDelay": 6.300000000745058,
+            "processing": 0.19999999925494194,
+            "presentation": 97.5,
+            "interactionId": 4986
+          },
+          {
+            "name": "click",
+            "start": 9813.699999999255,
+            "duration": 104,
+            "inputDelay": 6.5,
+            "processing": 21.899999998509884,
+            "presentation": 75.60000000149012,
+            "interactionId": 4986
+          }
+        ],
+        "handlers": [
+          {
+            "control": "Menu",
+            "start": 9820.5,
+            "duration": 21.199999999254942
+          }
+        ],
+        "longTasks": [],
+        "inert": true,
+        "focus": "Close menu",
+        "backdrop": "blur(3px)",
+        "menuShadow": "rgba(0, 0, 0, 0.467) 0px 30px 100px 0px",
+        "motionResource": [
+          {
+            "name": "http://127.0.0.1:4210/evolution-motion.js",
+            "start": 9818.89999999851,
+            "duration": 25.900000002235174
+          }
+        ],
+        "visibleSvgFilters": 0
+      },
+      "second": {
+        "events": [
+          {
+            "name": "pointerdown",
+            "start": 10806.099999997765,
+            "duration": 16,
+            "inputDelay": 1.5,
+            "processing": 0.5,
+            "presentation": 14,
+            "interactionId": 5000
+          },
+          {
+            "name": "pointerup",
+            "start": 10806.099999997765,
+            "duration": 16,
+            "inputDelay": 2.2000000029802322,
+            "processing": 0,
+            "presentation": 13.799999997019768,
+            "interactionId": 5000
+          },
+          {
+            "name": "click",
+            "start": 10806.099999997765,
+            "duration": 16,
+            "inputDelay": 2.2000000029802322,
+            "processing": 8.699999999254942,
+            "presentation": 5.099999997764826,
+            "interactionId": 5000
+          }
+        ],
+        "handlers": [
+          {
+            "control": "Menu",
+            "start": 10808.5,
+            "duration": 8.300000000745058
+          }
+        ]
+      },
+      "metricDelta": {
+        "LayoutCount": 3,
+        "RecalcStyleCount": 20,
+        "LayoutDuration": 0.010010999999999992,
+        "RecalcStyleDuration": 0.014296000000000003,
+        "ScriptDuration": 0.008388000000000007,
+        "TaskDuration": 0.1360349999999999
+      }
+    }
+  ],
+  "summary": [
+    {
+      "route": "/",
+      "variant": "baseline",
+      "coldEvents": [
+        null,
+        136
+      ],
+      "warmEvents": [
+        24,
+        24
+      ],
+      "handlerMs": [
+        36,
+        40.80000000074506
+      ],
+      "layoutMs": [
+        26.082999999999966,
+        28.811000000000032
+      ],
+      "styleMs": [
+        13.490000000000002,
+        39.296
+      ]
+    },
+    {
+      "route": "/",
+      "variant": "noBackdrop",
+      "coldEvents": [
+        152,
+        104
+      ],
+      "warmEvents": [
+        24,
+        24
+      ],
+      "handlerMs": [
+        63.69999999925494,
+        36.599999997764826
+      ],
+      "layoutMs": [
+        41.483999999999966,
+        25.46999999999999
+      ],
+      "styleMs": [
+        59.16100000000001,
+        28.05400000000001
+      ]
+    },
+    {
+      "route": "/",
+      "variant": "noMenuMotion",
+      "coldEvents": [
+        104,
+        104
+      ],
+      "warmEvents": [
+        24,
+        24
+      ],
+      "handlerMs": [
+        37.899999998509884,
+        36.30000000074506
+      ],
+      "layoutMs": [
+        26.35399999999999,
+        25.446999999999996
+      ],
+      "styleMs": [
+        31.571,
+        16.21
+      ]
+    },
+    {
+      "route": "/",
+      "variant": "noSvgFilters",
+      "coldEvents": [
+        128,
+        136
+      ],
+      "warmEvents": [
+        24,
+        24
+      ],
+      "handlerMs": [
+        39.5,
+        46.69999999925494
+      ],
+      "layoutMs": [
+        29.115999999999975,
+        31.998000000000026
+      ],
+      "styleMs": [
+        36.59599999999999,
+        43.74199999999999
+      ]
+    },
+    {
+      "route": "/",
+      "variant": "noMotionImport",
+      "coldEvents": [
+        136,
+        120
+      ],
+      "warmEvents": [
+        24,
+        368
+      ],
+      "handlerMs": [
+        37.399999998509884,
+        35.70000000298023
+      ],
+      "layoutMs": [
+        25.210999999999984,
+        22.457999999999977
+      ],
+      "styleMs": [
+        14.867000000000004,
+        14.696000000000002
+      ]
+    },
+    {
+      "route": "/",
+      "variant": "noBackdropAndSvg",
+      "coldEvents": [
+        104,
+        112
+      ],
+      "warmEvents": [
+        24,
+        24
+      ],
+      "handlerMs": [
+        36.79999999701977,
+        41.5
+      ],
+      "layoutMs": [
+        26.380000000000013,
+        29.18900000000002
+      ],
+      "styleMs": [
+        30.880999999999993,
+        32.962999999999994
+      ]
+    },
+    {
+      "route": "/performance/",
+      "variant": "baseline",
+      "coldEvents": [
+        432
+      ],
+      "warmEvents": [
+        null
+      ],
+      "handlerMs": [
+        20.800000000745058
+      ],
+      "layoutMs": [
+        11.232999999999993
+      ],
+      "styleMs": [
+        14.172000000000004
+      ]
+    },
+    {
+      "route": "/performance/",
+      "variant": "noBackdrop",
+      "coldEvents": [
+        80
+      ],
+      "warmEvents": [
+        320
+      ],
+      "handlerMs": [
+        23.300000000745058
+      ],
+      "layoutMs": [
+        10.785000000000016
+      ],
+      "styleMs": [
+        17.972
+      ]
+    },
+    {
+      "route": "/performance/",
+      "variant": "noMotionImport",
+      "coldEvents": [
+        104
+      ],
+      "warmEvents": [
+        16
+      ],
+      "handlerMs": [
+        21.199999999254942
+      ],
+      "layoutMs": [
+        10.010999999999992
+      ],
+      "styleMs": [
+        14.296000000000003
+      ]
+    }
+  ],
+  "measurementLimit": "Null means no EventTiming entry was reported for that read window; it is not zero milliseconds or proof the sample was below16ms.",
+  "finding": {
+    "handler": "continuation-ui.js open() updates inert and document overflow, reveals the menu and synchronously focuses its close button; focus incurs initial style/layout work.",
+    "evidence": "FPSbaseline event432ms: handler20.8ms, click processing21.6ms, presentation404.2ms. No longtask after click. Larger delays are primarily post-handler presentation, not a long JavaScript callback.",
+    "ablation": "Disabling blur, SVG filters, menu shadow/animation or lazy motion import did not consistently eliminate outliers. NoBlurFPS cold80ms but warm320ms; noMotionImporthome warm368ms. Samples are too limited and variable to establish a dominant rendering effect.",
+    "recommendation": "Keep shared runtime/CSS unchanged, serialize final laboratory measurements, and use real-user INP or compositor traces before assigning a particular GPU/shader rootcause.",
+    "sharedSourceChanges": 0
+  }
+}

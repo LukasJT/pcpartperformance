@@ -18,8 +18,8 @@ Statuses describe this implemented checkpoint, not exhaustive completion of the 
 | UX-02 | P1 `/my-pc/` | Form-heavy saved work; useful summary cards and nested notes reveal: `oct16-workspace.js` | Existing private local records | Verified:32 workspace tests and real save/restore; synthetic fixture screenshots. |
 | UX-03 | P1 monitor tool | Generic diagram; true-aspect SVG, presets, errors: `total-display*` | Existing display formula | Verified: three unit tests and actual geometry/error recovery. |
 | DATA-01 | P2 catalog | Structured intake/provenance and publication: `total-catalog*`, `data/catalog-intake/2026-10-19` |49 reviewed source entries | Verified:63 actual additions; duplicate/unit/platform/identity checks and rollback. |
-| DATA-02 | P3 hardware | Bounded historical/AIB/professional expansion | Exact sources, critical fields | Implemented partial:1,299 total records; exhaustive coverage remains open. |
-| DATA-03 | P3 prebuilts | Exact manufacturer configurations and source labels: `total-prebuilts*`, `prebuilt-pages.cjs`, `master-decisions*` |51 inspected manufacturer documents | Implemented partial:219 regional rows,211 identities,142 core signatures. Strict200 distinct core target unmet; photo rights absent. |
+| DATA-02 | P3 hardware | Bounded historical/AIB/professional expansion | Exact sources, critical fields | Verified bounded intake:1,311 total records; exhaustive coverage remains open. |
+| DATA-03 | P3 prebuilts | Exact manufacturer configurations and source labels: `total-prebuilts*`, `prebuilt-pages.cjs`, `master-decisions*` |53 inspected manufacturer documents | Verified bounded target:339 regional rows,331 identities,209 distinct core signatures. Current offers and photo rights remain separate. |
 | PRICE-01 | P4 shopping/builder | Fresh exact regional observations/history and restored-session currency |12 registered listings; approved provider access | Verified small cohort:10 observations,86 history rows; two unavailable reads. Broader feeds blocked by accounts/rights. |
 | GAME-01 | P5 game library | Actual platform/edition records and source-valid no-loss importers: `total-fps-games*`, `total-fps-platforms.cjs`, `total-fps-xbox-wire.cjs` | Official store/announcement facts | Verified bounded targets:618 additions; zero new measuredFPS. Announcements visibly qualified. |
 | GAME-02 | P5 consoles/retro | Separate original diagrams and scoped hardware references: `total-console-hardware*` | Manufacturer specifications/history | Verified partial:6 modern references,16 historical landmarks;36 browser cases. Retro game archive not exhaustive. |
@@ -33,6 +33,21 @@ Statuses describe this implemented checkpoint, not exhaustive completion of the 
 | REL-01 | release | Normal tested commit/push and exact domain marker, then file-only workflow activation | Existing Git/Cloudflare authorization | Website verified live: exact UI commit,26 HTTP checks,70 rendered states and9 new-data checks. Corrected daily publication verified; final health check correctly degraded for two unavailable retailers. |
 
 ## Evidence and continuation
+
+### October 19 continuation
+
+| ID | Priority / pages | Implementation / files | Dependencies and tests | Status / evidence |
+| --- | --- | --- | --- | --- |
+| PIC-01 | P1 all PC component views | 79 additional photo bindings; `component-photo-total-*`, `data/photo-intake/2026-10-19` | Exact gallery/source identity, original pixel inspection, hash/decode and browser selection tests | Verified locally:214 product/selection checks,1,586 derivatives decoded; no image gaps among894 eligible parts. Supplier permission limitations remain recorded. |
+| ID-01 | P0 builder / My PC / catalog | Seven ambiguous identities: `identity-review-oct19`, `identity-integration-oct19` | Preserve original saved IDs, no substitutions; new-choice exclusion; warnings; old URLs retained/noindex | Verified:14 source tests and all seven actual saved-reference recoveries, including My PC; actual public-search index excludes them. |
+| CAT-02 | P1 CPU cooling | 12 exact MSI AIO models with typed facts and photos; secondary intake packet | Schema/identity, model-specific sockets, bare dimensions; no installed-fit inference | Verified source, schema, rendered photo and original transfer-budget gates;25 cooler records total. |
+| DATA-03b | P1 prebuilts | 120 additional inspected PSREF SKUs; `total-prebuilts-psref*` | Frozen source exports, dedupe by core hardware signature, historical labeling | Verified209 distinct core signatures;17 intake tests and independent workbook reproduction checks. |
+| FIT-01 | P0/P1 cases / PSU / readiness | Five cases and five PSUs; `compatibility-intake-oct19` | 34 verified observations; five disputed measurements unknown; two misleading display values demoted | 7 source/engine checks pass; source/page delivery verified in final build. |
+| PERF-02 | P1 shared scripts / builder | Reversible data delivery and prepared runtime optimization; initial CSS geometry | Exact round-trip/parity and original seven route budgets; no budget increase | Seven original budgets and parity checks pass. Startup shift fixed: final builder medianCLS0, largest0.03293; no initial3D. Cold menu presentation outliers remain tracked below. |
+| PERF-03 | P1 menu / homepage / FPS | Intermittent first-menu presentation latency under4×CPU throttling |15 controlled diagnostic samples; final cold lab run; no consistent isolated CSS/handler cause | Open:280/520ms final outliers. Real-user metrics and trace-driven follow-up required; no fieldINP claim. |
+| REL-02 | P0 release | Final build, test matrix, normal branch push, exact public marker and image hashes | Preserve newer daily price commits; no force push | Pending final tests and authorized production push. |
+
+The previous release receipts above remain historical evidence. Current scope and unresolved dependencies are in [the continuation report](CATALOG-PHOTOS-OCT19.md).
 
 Eight owner iPhone photos under attachment `A0450924-B861-493B-9EFC-D98DE56078D8` are concrete bug reports. Reviewed comparison pairs are in `screenshots/`; full reproducible matrices stay locally in `qa/` with versioned JSON receipts. Edge emulation does not establish physicalSafari or software-keyboard behavior.
 

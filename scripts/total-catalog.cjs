@@ -29,9 +29,16 @@ const FIELDS = {
   pins: ['Module pins', '', 'number'], dramManufacturer: ['DRAM manufacturer', '', 'string'], die: ['DRAM die revision', '', 'string'],
   storageGB: ['Storage capacity', 'GB', 'number'], storageInterface: ['Storage interface', '', 'string'], storageForm: ['Drive form', '', 'string'],
   readMBs: ['Sequential read', 'MB/s', 'number'], writeMBs: ['Sequential write', 'MB/s', 'number'], enduranceTBW: ['Endurance', 'TBW', 'number'],
-  powerLossProtection: ['Power-loss protection', '', 'boolean'], encryption: ['Hardware encryption', '', 'string']
+  powerLossProtection: ['Power-loss protection', '', 'boolean'], encryption: ['Hardware encryption', '', 'string'],
+  coolerType: ['Cooling type', '', 'string'], coolerSockets: ['Supported sockets', '', 'array'],
+  radiatorSizeMm: ['Radiator size', 'mm', 'number'], radiatorLengthMm: ['Radiator length', 'mm', 'number'],
+  radiatorWidthMm: ['Radiator width', 'mm', 'number'], radiatorThicknessMm: ['Radiator thickness', 'mm', 'number'],
+  blockHeightMm: ['Pump block height', 'mm', 'number'], fanSizeMm: ['Fan size', 'mm', 'number'],
+  fanThicknessMm: ['Fan thickness', 'mm', 'number'], fanCount: ['Fan count', '', 'number'],
+  pumpConnector: ['Pump connector', '', 'string'], fanConnector: ['Fan connector', '', 'string']
 };
 const COMPAT = { memoryGB: null, boardPowerW: 'gpuPower', recommendedPsuW: 'recommendedPsu', lengthMm: 'gpuLength', heightMm: 'gpuHeight', thicknessMm: 'gpuThickness', connectors: 'connectors', capacityGB: 'capacity', generation: 'ddr', modules: 'modules', storageGB: 'capacity', storageInterface: 'storageInterface', storageForm: 'storageForm' };
+Object.assign(COMPAT,{coolerType:'coolingType',coolerSockets:'supportedSockets',radiatorSizeMm:'radiatorSize',radiatorLengthMm:'radiatorLength',radiatorWidthMm:'radiatorWidth',radiatorThicknessMm:'radiatorThickness'});
 const clone = value => JSON.parse(JSON.stringify(value));
 const canonicalBrand = value => BRANDS[String(value || '').trim().toLowerCase()] || String(value || '').trim();
 const normalized = value => String(value ?? '').normalize('NFKC').trim().replace(/\s+/g, ' ').toLowerCase();
@@ -62,6 +69,9 @@ function normalizeUnit(field, raw) {
   } else if (unit !== '') throw Error('Unexpected unit for ' + field);
   if (def[2] === 'string' && (typeof value !== 'string' || !value.trim() || /[<>\u0000-\u001f]/.test(value))) throw Error('Invalid text observation for ' + field);
   if (def[2] === 'boolean' && typeof value !== 'boolean') throw Error('Expected boolean for ' + field);
+  if (def[2] === 'array' && (!Array.isArray(value) || !value.length || new Set(value).size !== value.length || value.some(item => typeof item !== 'string' || !/^[a-zA-Z0-9+-]{2,20}$/.test(item)))) throw Error('Expected distinct socket identifiers for ' + field);
+  if (field === 'coolerType' && !['aio','air'].includes(value)) throw Error('Unknown cooling type');
+  if (field === 'fanCount' && (!Number.isInteger(value) || value > 12)) throw Error('Invalid fan count');
   return { value, unit: def[1], status: 'manufacturer-specified' };
 }
 function identityKey(part) {
@@ -70,7 +80,12 @@ function identityKey(part) {
   if (mpn) return normalized(brand) + '|mpn|' + exactPartNumber(mpn);
   return normalized(brand) + '|model|' + normalized(identity.commercialModel || part.name) + '|revision|' + normalized(identity.revision);
 }
-function loadPackets(directory = DEFAULT_DIR) {
+function loadPackets(directory) {
+  if(directory===undefined){
+    const base=loadPackets(DEFAULT_DIR),next=loadPackets(path.resolve(__dirname,'../data/catalog-intake/2026-10-19-hardware-next'));
+    for(const id of Object.keys(next.sources))if(Object.hasOwn(base.sources,id))throw Error('Duplicate catalog evidence ID: '+id);
+    return {sources:{...base.sources,...next.sources},records:base.records.concat(next.records),candidates:base.candidates.concat(next.candidates)};
+  }
   const sources = JSON.parse(fs.readFileSync(path.join(directory, 'sources.json'), 'utf8'));
   const packets = fs.readdirSync(directory).filter(name => /^batch-[a-z0-9-]+\.json$/.test(name)).sort().flatMap(name => {
     const packet = JSON.parse(fs.readFileSync(path.join(directory, name), 'utf8')); assertPlain(packet);
@@ -124,6 +139,7 @@ function validateRecord(row, sources) {
   }
   if (row.cat === 'cpu' && (facts.threads?.value < facts.cores?.value || !facts.cpuSegment)) fail('CPU identity/segment facts are invalid');
   if (row.cat === 'ssd' && (!facts.storageGB || !facts.storageInterface || !facts.storageForm)) fail('Storage lacks exact capacity/interface/form');
+  if (row.cat === 'cooler' && (!facts.coolerType || !facts.coolerSockets || (facts.coolerType.value === 'aio' && ['radiatorSizeMm','radiatorLengthMm','radiatorWidthMm','radiatorThicknessMm'].some(key => !facts[key])))) fail('Cooling lacks exact type/socket/radiator evidence');
   if (row.cat === 'ssd') {
     const namedCapacity = row.name.match(/\b(\d+)GB\b/i)?.[1];
     if (namedCapacity && Number(namedCapacity) !== facts.storageGB?.value) fail('Storage identity/capacity conflict');
@@ -138,9 +154,9 @@ function toCatalog(row, validated) {
   const { facts, source } = validated, identity = clone(row.identity), specs = {}, fields = {};
   const note = row.note || 'Exact model reference. Check original documentation for the complete platform and configuration requirements.';
   for (const [field, observation] of Object.entries(facts)) {
-    const [label] = FIELDS[field]; if (observation.value !== null) specs[label] = typeof observation.value === 'boolean' ? observation.value ? 'Yes' : 'No' : observation.value;
+    const [label] = FIELDS[field]; if (observation.value !== null) specs[label] = Array.isArray(observation.value) ? observation.value.join(', ') : typeof observation.value === 'boolean' ? observation.value ? 'Yes' : 'No' : observation.value;
     const compatible = COMPAT[field];
-    if (compatible && row.builderEligible) fields[compatible] = { value: observation.value, source: source.url, publisher: source.publisher, checked: source.inspectedAt, model: row.name, status: observation.value === null ? 'unknown' : 'manufacturer-specified', exact: observation.value !== null, ...(observation.unit ? { unit: observation.unit } : {}), condition: field === 'recommendedPsuW' ? 'Published whole-system recommendation, not measured consumption or a cable certification.' : field.endsWith('Mm') ? 'Named-model outer dimension only; cables, adjacent parts and installation still need verification.' : 'Narrow named-model specification only; exact system support is a separate check.' };
+    if (compatible && row.builderEligible) fields[compatible] = { value: observation.value, source: source.url, publisher: source.publisher, checked: source.inspectedAt, model: row.name, status: observation.value === null ? 'unknown' : 'manufacturer-specified', exact: observation.value !== null, ...(observation.unit ? { unit: observation.unit } : {}), ...(field==='coolerSockets'?{exhaustive:false}:{}), condition: field === 'recommendedPsuW' ? 'Published whole-system recommendation, not measured consumption or a cable certification.' : field==='coolerSockets' ? 'Positive support in the inspected document only; an omitted socket may require a later revision or separate kit and is not a documented incompatibility.' : field.endsWith('Mm') ? 'Named-model outer dimension only; cables, adjacent parts and installation still need verification.' : 'Narrow named-model specification only; exact system support is a separate check.' };
   }
   const output = { id: row.id, name: row.name, model: row.name, brand: canonicalBrand(row.brand), cat: row.cat, year: row.year ?? null, architecture: row.architecture, summary: row.summary, specs, source: source.url, sku: identity.manufacturerPartNumber, identity, aliases: row.aliases || [], segment: row.segment, usageScope: row.builderEligible ? 'consumer-component' : row.segment + '-reference', builderEligible: row.builderEligible === true, indexable: true, note, catalogOrigin: 'total-refinement-2026-10-19', sourceStatus: source.confidence, verifiedAt: source.inspectedAt, ...(Object.keys(fields).length ? { fields } : {}), provenance: { sourceId: row.sourceId, publisher: source.publisher, sourceURL: source.url, inspectedAt: source.inspectedAt, scope: source.scope, intakeFile: row.intakeFile, recordHash: hash({ row, observation: validated.observation, source: { url:source.url, publisher:source.publisher, inspectedAt:source.inspectedAt, scope:source.scope, confidence:source.confidence } }) } };
   if (row.cat === 'ram') output.specs['Package type'] = identity.packageType === 'kit' ? 'Matched kit' : 'Single module';
@@ -201,7 +217,11 @@ function polishHTML(html, route, records = []) {
 function counts(records) { return { total: records.length, byCategory: records.reduce((out, part) => (out[part.cat] = (out[part.cat] || 0) + 1, out), {}), withExplicitMPN: records.filter(p => p.identity?.manufacturerPartNumber || p.sku || p.mpn).length, structuredPartnerGPUIdentities: records.filter(p => p.cat === 'gpu' && p.identity?.boardPartner).length, namedPartnerGPURecords: records.filter(p => p.cat === 'gpu' && !['NVIDIA','AMD','ATI','Intel','IBM','3dfx'].includes(p.brand)).length }; }
 function coverage(existing, bundle = loadPackets()) {
   const staged = stage(existing, bundle), accepted = staged.valid ? staged.additions : [], combined = existing.concat(accepted), published = combined.filter(p => p.catalogOrigin === 'total-refinement-2026-10-19');
-  return { schema: 1, version: VERSION, evidenceDate: '2026-10-19', status: staged.valid ? 'validated-additive-intake' : 'blocked', before: counts(existing), added: counts(accepted), validatedCandidateCount: staged.additions.length, after: counts(combined), packetRecords: bundle.records.length, alreadyApplied: staged.unchanged.length, sourceCount: Object.keys(bundle.sources).length, errors: staged.errors, conflicts: staged.conflicts, specializedReferenceRecords: published.filter(p => !p.builderEligible).length, newPhotoAssignments: 0, newDownloaded3DModels: 0, newRetailOffers: 0, candidates: staged.candidates, gaps: { exactMPNUnknown: published.filter(p => !p.sku).map(p => p.id), revisionUnknown: published.filter(p => p.identity.revision === null).map(p => p.id), newExactImagesMissing: published.map(p => p.id), newExactModelsMissing: published.map(p => p.id), completeness: 'Not exhaustive. This batch verifies bounded model sets only; no whole-market denominator or completion percentage is known.' } };
+  const registry=require('./component-photo-catalog.cjs'),publishedIds=new Set(published.map(part=>part.id)),photos={};
+  for(const name of registry.files){const file=path.join(__dirname,name);if(fs.existsSync(file))for(const[id,image]of Object.entries(JSON.parse(fs.readFileSync(file,'utf8'))))if(publishedIds.has(id)&&image.visualReviewed===true)photos[id]=image;}
+  const photoErrors=registry.validate(combined,photos);if(photoErrors.length)throw Error('Coverage cannot claim unvalidated media: '+photoErrors.join('; '));
+  const imageGaps=published.filter(part=>!photos[part.id]).map(part=>part.id);
+  return { schema: 1, version: VERSION, evidenceDate: '2026-10-19', status: staged.valid ? 'validated-additive-intake' : 'blocked', before: counts(existing), added: counts(accepted), validatedCandidateCount: staged.additions.length, after: counts(combined), packetRecords: bundle.records.length, alreadyApplied: staged.unchanged.length, sourceCount: Object.keys(bundle.sources).length, errors: staged.errors, conflicts: staged.conflicts, specializedReferenceRecords: published.filter(p => !p.builderEligible).length, newPhotoAssignments: Object.keys(photos).length, photoAssignmentScope:'Reviewed supplier/manufacturer galleries bound to named products; shared exterior images do not prove unseen chip labels or revisions.', newDownloaded3DModels: 0, newRetailOffers: 0, candidates: staged.candidates, gaps: { exactMPNUnknown: published.filter(p => !p.sku).map(p => p.id), revisionUnknown: published.filter(p => p.identity.revision === null).map(p => p.id), newExactImagesMissing: imageGaps, newExactModelsMissing: published.map(p => p.id), completeness: 'Not exhaustive. This batch verifies bounded model sets only; no whole-market denominator or completion percentage is known.' } };
 }
 function prepare({ root, records, docsRoot } = {}) {
   const report = coverage(records); prepareCatalog(records); fs.writeFileSync(path.join(root, 'total-catalog-data.js'), browserSource(records));fs.writeFileSync(path.join(root,'total-catalog-loader.js'),loaderSource());

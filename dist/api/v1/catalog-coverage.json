@@ -9,23 +9,23 @@
     "Inherited fields have not all been independently reverified.",
     "No individual images or 3D assets are relicensed by this aggregate report."
   ],
-  "total": 1299,
+  "total": 1311,
   "categories": [
     {
       "id": "gpu",
       "label": "Graphics cards",
       "items": 185,
       "atLeastThreeSpecs": 166,
-      "strictExactImages": 35,
-      "missingImages": 20
+      "strictExactImages": 55,
+      "missingImages": 0
     },
     {
       "id": "cpu",
       "label": "Processors",
       "items": 184,
       "atLeastThreeSpecs": 184,
-      "strictExactImages": 159,
-      "missingImages": 18
+      "strictExactImages": 176,
+      "missingImages": 0
     },
     {
       "id": "board",
@@ -39,23 +39,23 @@
       "id": "ram",
       "label": "Memory",
       "items": 87,
-      "atLeastThreeSpecs": 85,
+      "atLeastThreeSpecs": 83,
       "strictExactImages": 1,
-      "missingImages": 23
+      "missingImages": 2
     },
     {
       "id": "ssd",
       "label": "SSDs",
       "items": 83,
-      "atLeastThreeSpecs": 83,
+      "atLeastThreeSpecs": 82,
       "strictExactImages": 2,
-      "missingImages": 6
+      "missingImages": 1
     },
     {
       "id": "hdd",
       "label": "Hard drives",
       "items": 45,
-      "atLeastThreeSpecs": 42,
+      "atLeastThreeSpecs": 41,
       "strictExactImages": 14,
       "missingImages": 1
     },
@@ -71,7 +71,7 @@
       "id": "case",
       "label": "PC cases",
       "items": 86,
-      "atLeastThreeSpecs": 5,
+      "atLeastThreeSpecs": 4,
       "strictExactImages": 15,
       "missingImages": 1
     },
@@ -158,11 +158,11 @@
     {
       "id": "cooler",
       "label": "CPU coolers",
-      "items": 13,
-      "atLeastThreeSpecs": 13,
-      "strictExactImages": 11,
+      "items": 25,
+      "atLeastThreeSpecs": 25,
+      "strictExactImages": 23,
       "missingImages": 0
     }
   ],
-  "version": "4629211e2ae2"
+  "version": "f4c6d40e0934"
 }

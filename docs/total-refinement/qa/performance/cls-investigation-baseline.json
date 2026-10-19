@@ -1,0 +1,1046 @@
+{
+  "checkedAt": "2026-10-19T22:38:58.222Z",
+  "runs": [
+    {
+      "run": 1,
+      "shifts": [
+        {
+          "time": 869.1999999992549,
+          "value": 0.0015768514814961999,
+          "hadRecentInput": true,
+          "sources": [
+            {
+              "node": "<div class=\"ui-site-menu\" id=\"site-menu\"><div class=\"ui-menu-head\"><strong id=\"site-menu-title\">Explore the site</strong><button type=\"button\" class=\"icon-button\" data-menu-close=\"\" aria-label=\"Close menu\"><svg class=\"clarity-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m6 6 12 12M18 6 6 18\"></path></svg></button></div><nav class=\"liquid-nav clarity-nav\" aria-label=\"Main navigation\"><span class=\"nav-indicator\" aria-hidden=\"true\"></span><a href=\"/builder/\" aria-current=\"page\"><svg class=\"clarity-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linec",
+              "parent": "<header class=\"site-header ui-header\" data-ui-header=\"\"><a class=\"brand\" href=\"/\" aria-label=\"PC Part Performance home\"><span class=\"brand-mark\"><svg viewBox=\"0 0 40 40\" fill=\"none\" aria-hidden=\"true\"><path d=\"M9 29V12a4 4 0 0 1 4-4h8a7 7 0 0 1 0 14h-5\" stroke=\"currentColor\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path><path d=\"M20 32V19a4 4 0 0 1 4-4h3a6 6 0 0 1 0 12h-2\" stroke=\"currentColor\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg></span><span>PC Part <span class=\"brand-sub\">Performance</span></span></a><a class=\"clarity-search\" href=\"/search/\" aria-label=\"Search PC Part Performance\"><svg class=\"clarity-icon\" viewBox=\"0 0 24 24",
+              "previous": {
+                "x": 136.796875,
+                "y": 0,
+                "width": 171.203125,
+                "height": 304.625,
+                "top": 0,
+                "right": 308,
+                "bottom": 304.625,
+                "left": 136.796875
+              },
+              "current": {
+                "x": 140,
+                "y": 0,
+                "width": 168,
+                "height": 304.625,
+                "top": 0,
+                "right": 308,
+                "bottom": 304.625,
+                "left": 140
+              }
+            },
+            {
+              "node": "<div class=\"oct16-modes\" role=\"group\" aria-label=\"Builder workflow\"><button type=\"button\" data-builder-mode=\"guided\">Guided</button><button type=\"button\" data-builder-mode=\"expert\">Expert</button></div>",
+              "parent": "<div class=\"oct16-guidance-head\"><h2 id=\"builder-guidance-title\">Choose parts</h2><div class=\"oct16-modes\" role=\"group\" aria-label=\"Builder workflow\"><button type=\"button\" data-builder-mode=\"guided\">Guided</button><button type=\"button\" data-builder-mode=\"expert\">Expert</button></div></div>",
+              "previous": {
+                "x": 218.671875,
+                "y": 454.703125,
+                "width": 151.328125,
+                "height": 52,
+                "top": 454.703125,
+                "right": 370,
+                "bottom": 506.703125,
+                "left": 218.671875
+              },
+              "current": {
+                "x": 211.421875,
+                "y": 454.703125,
+                "width": 158.578125,
+                "height": 52,
+                "top": 454.703125,
+                "right": 370,
+                "bottom": 506.703125,
+                "left": 211.421875
+              }
+            }
+          ]
+        },
+        {
+          "time": 1662.1000000014901,
+          "value": 0.1029822392947379,
+          "hadRecentInput": false,
+          "sources": [
+            {
+              "node": "<div class=\"builder-shell\"><div class=\"builder-parts\" data-evolution-stage-panel=\"parts\"><nav id=\"builder-sections\" class=\"builder-jump-nav builder-category-nav\" aria-label=\"Builder sections\"><a href=\"#parts-core\">Core parts</a><a href=\"#parts-storage\">Storage</a><a href=\"#parts-housing\">Case &amp; cooling</a></nav><div class=\"builder-column-head\"><span>Your components</span><span>Choose a part in each row</span></div><section id=\"builder-guidance\" class=\"oct16-guidance\" aria-labelledby=\"builder-guidance-title\" data-mounted=\"true\"><div class=\"oct16-guidance-head\"><h2 id=\"builder-guidance-title\">Choose parts</h2><div class=\"oct16-modes\" role=\"group\" aria-label=\"Builder workflow\"><button type=",
+              "parent": "<section data-evolution-builder=\"\" id=\"builder\" class=\"builder\" data-oct16-mode=\"guided\" aria-labelledby=\"builder-title\" data-evolution-ready=\"true\" data-evolution-stage=\"parts\"><div class=\"builder-heading\"><div><span class=\"eyebrow\">COMPATIBILITY + PRICING</span><h1 id=\"builder-title\">Build your PC</h1><p>Choose parts. Explore in 3D. Save your plan.</p></div><div class=\"builder-actions\"><button class=\"button secondary\" id=\"builder-clear\">Reset build</button><button class=\"button primary\" id=\"builder-starter\">Try a starter build</button></div></div><nav id=\"builder-workflow\" class=\"builder-workflow\" aria-label=\"Build stages\"><a href=\"#builder-guidance\" aria-current=\"step\"><svg viewBox=\"0 0 2",
+              "previous": {
+                "x": 0,
+                "y": 454.703125,
+                "width": 390,
+                "height": 389.296875,
+                "top": 454.703125,
+                "right": 390,
+                "bottom": 844,
+                "left": 0
+              },
+              "current": {
+                "x": 20,
+                "y": 426.875,
+                "width": 350,
+                "height": 417.125,
+                "top": 426.875,
+                "right": 370,
+                "bottom": 844,
+                "left": 20
+              }
+            },
+            {
+              "node": "<nav id=\"builder-workflow\" class=\"builder-workflow\" aria-label=\"Build stages\"><a href=\"#builder-guidance\" aria-current=\"step\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><rect x=\"4\" y=\"4\" width=\"6\" height=\"6\" rx=\"1\"></rect><rect x=\"14\" y=\"4\" width=\"6\" height=\"6\" rx=\"1\"></rect><rect x=\"4\" y=\"14\" width=\"6\" height=\"6\" rx=\"1\"></rect><path d=\"M14 17h6m-3-3v6\"></path></svg><span><strong>Choose parts</strong></span></a><a href=\"#build-preview\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"m12 3 9 5v8l-9 5-9-5V8l9-5Zm0 0v10m9-5-9 5-9-5m9 5v8\"></path></svg><span><strong>Explore build</stro",
+              "parent": "<section data-evolution-builder=\"\" id=\"builder\" class=\"builder\" data-oct16-mode=\"guided\" aria-labelledby=\"builder-title\" data-evolution-ready=\"true\" data-evolution-stage=\"parts\"><div class=\"builder-heading\"><div><span class=\"eyebrow\">COMPATIBILITY + PRICING</span><h1 id=\"builder-title\">Build your PC</h1><p>Choose parts. Explore in 3D. Save your plan.</p></div><div class=\"builder-actions\"><button class=\"button secondary\" id=\"builder-clear\">Reset build</button><button class=\"button primary\" id=\"builder-starter\">Try a starter build</button></div></div><nav id=\"builder-workflow\" class=\"builder-workflow\" aria-label=\"Build stages\"><a href=\"#builder-guidance\" aria-current=\"step\"><svg viewBox=\"0 0 2",
+              "previous": {
+                "x": 20,
+                "y": 362.703125,
+                "width": 350,
+                "height": 72,
+                "top": 362.703125,
+                "right": 370,
+                "bottom": 434.703125,
+                "left": 20
+              },
+              "current": {
+                "x": 20,
+                "y": 318.875,
+                "width": 350,
+                "height": 78,
+                "top": 318.875,
+                "right": 370,
+                "bottom": 396.875,
+                "left": 20
+              }
+            },
+            {
+              "node": "<div><span class=\"eyebrow\">COMPATIBILITY + PRICING</span><h1 id=\"builder-title\">Build your PC</h1><p>Choose parts. Explore in 3D. Save your plan.</p></div>",
+              "parent": "<div class=\"builder-heading\"><div><span class=\"eyebrow\">COMPATIBILITY + PRICING</span><h1 id=\"builder-title\">Build your PC</h1><p>Choose parts. Explore in 3D. Save your plan.</p></div><div class=\"builder-actions\"><button class=\"button secondary\" id=\"builder-clear\">Reset build</button><button class=\"button primary\" id=\"builder-starter\">Try a starter build</button></div></div>",
+              "previous": {
+                "x": 20,
+                "y": 151.71875,
+                "width": 350,
+                "height": 87.984375,
+                "top": 151.71875,
+                "right": 370,
+                "bottom": 239.703125,
+                "left": 20
+              },
+              "current": {
+                "x": 20,
+                "y": 148.71875,
+                "width": 350,
+                "height": 77.15625,
+                "top": 148.71875,
+                "right": 370,
+                "bottom": 225.875,
+                "left": 20
+              }
+            },
+            {
+              "node": "<div class=\"builder-actions\"><button class=\"button secondary\" id=\"builder-clear\">Reset build</button><button class=\"button primary\" id=\"builder-starter\">Try a starter build</button></div>",
+              "parent": "<div class=\"builder-heading\"><div><span class=\"eyebrow\">COMPATIBILITY + PRICING</span><h1 id=\"builder-title\">Build your PC</h1><p>Choose parts. Explore in 3D. Save your plan.</p></div><div class=\"builder-actions\"><button class=\"button secondary\" id=\"builder-clear\">Reset build</button><button class=\"button primary\" id=\"builder-starter\">Try a starter build</button></div></div>",
+              "previous": {
+                "x": 20,
+                "y": 259.703125,
+                "width": 350,
+                "height": 48,
+                "top": 259.703125,
+                "right": 370,
+                "bottom": 307.703125,
+                "left": 20
+              },
+              "current": {
+                "x": 20,
+                "y": 245.875,
+                "width": 350,
+                "height": 48,
+                "top": 245.875,
+                "right": 370,
+                "bottom": 293.875,
+                "left": 20
+              }
+            },
+            {
+              "node": "<a href=\"#builder-guidance\" aria-current=\"step\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><rect x=\"4\" y=\"4\" width=\"6\" height=\"6\" rx=\"1\"></rect><rect x=\"14\" y=\"4\" width=\"6\" height=\"6\" rx=\"1\"></rect><rect x=\"4\" y=\"14\" width=\"6\" height=\"6\" rx=\"1\"></rect><path d=\"M14 17h6m-3-3v6\"></path></svg><span><strong>Choose parts</strong></span></a>",
+              "parent": "<nav id=\"builder-workflow\" class=\"builder-workflow\" aria-label=\"Build stages\"><a href=\"#builder-guidance\" aria-current=\"step\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><rect x=\"4\" y=\"4\" width=\"6\" height=\"6\" rx=\"1\"></rect><rect x=\"14\" y=\"4\" width=\"6\" height=\"6\" rx=\"1\"></rect><rect x=\"4\" y=\"14\" width=\"6\" height=\"6\" rx=\"1\"></rect><path d=\"M14 17h6m-3-3v6\"></path></svg><span><strong>Choose parts</strong></span></a><a href=\"#build-preview\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"m12 3 9 5v8l-9 5-9-5V8l9-5Zm0 0v10m9-5-9 5-9-5m9 5v8\"></path></svg><span><strong>Explore build</stro",
+              "previous": {
+                "x": 20,
+                "y": 362.703125,
+                "width": 111.328125,
+                "height": 72,
+                "top": 362.703125,
+                "right": 131.328125,
+                "bottom": 434.703125,
+                "left": 20
+              },
+              "current": {
+                "x": 7,
+                "y": 308.875,
+                "width": 146.65625,
+                "height": 104,
+                "top": 308.875,
+                "right": 153.65625,
+                "bottom": 412.875,
+                "left": 7
+              }
+            }
+          ]
+        }
+      ],
+      "fonts": "loaded",
+      "cls": 0.1029822392947379,
+      "snapshot": [
+        {
+          "node": "<nav id=\"builder-workflow\" class=\"builder-workflow\" aria-label=\"Build stages\"><a href=\"#builder-guidance\" aria-current=\"step\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1",
+          "rect": {
+            "x": 20,
+            "y": 318.875,
+            "width": 350,
+            "height": 78,
+            "top": 318.875,
+            "right": 370,
+            "bottom": 396.875,
+            "left": 20
+          }
+        },
+        {
+          "node": "<div class=\"builder-row\" data-builder-row=\"cpu\" data-selected-count=\"0\" data-guided-active=\"\"><span class=\"builder-index\">01</span><span class=\"builder-type\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true",
+          "rect": {
+            "x": 20,
+            "y": 580.375,
+            "width": 350,
+            "height": 152,
+            "top": 580.375,
+            "right": 370,
+            "bottom": 732.375,
+            "left": 20
+          }
+        },
+        {
+          "node": "<div class=\"builder-row\" data-builder-row=\"board\" data-selected-count=\"0\" hidden=\"\"><span class=\"builder-index\">02</span><span class=\"builder-type\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect x=",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          }
+        },
+        {
+          "node": "<div class=\"builder-row\" data-builder-row=\"gpu\" data-selected-count=\"0\" hidden=\"\"><span class=\"builder-index\">03</span><span class=\"builder-type\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect x=\"3",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          }
+        },
+        {
+          "node": "<div class=\"builder-row\" data-builder-row=\"ram\" data-selected-count=\"0\" hidden=\"\"><span class=\"builder-index\">04</span><span class=\"builder-type\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect x=\"2",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          }
+        },
+        {
+          "node": "<div class=\"builder-row\" data-builder-row=\"ssd\" data-selected-count=\"0\" hidden=\"\"><span class=\"builder-index\">05</span><span class=\"builder-type\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect x=\"2",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          }
+        },
+        {
+          "node": "<div class=\"builder-row\" data-builder-row=\"hdd\" data-selected-count=\"0\" hidden=\"\"><span class=\"builder-index\">06</span><span class=\"builder-type\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect x=\"4",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          }
+        },
+        {
+          "node": "<div class=\"builder-row\" data-builder-row=\"psu\" data-selected-count=\"0\" hidden=\"\"><span class=\"builder-index\">07</span><span class=\"builder-type\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect x=\"3",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          }
+        },
+        {
+          "node": "<div class=\"builder-row\" data-builder-row=\"case\" data-selected-count=\"0\" hidden=\"\"><span class=\"builder-index\">08</span><span class=\"builder-type\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          }
+        },
+        {
+          "node": "<div class=\"builder-row\" data-builder-row=\"fan\" data-selected-count=\"0\" hidden=\"\"><span class=\"builder-index\">09</span><span class=\"builder-type\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><circle cx",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          }
+        },
+        {
+          "node": "<div class=\"builder-row\" data-builder-row=\"cooler\" data-selected-count=\"0\" hidden=\"\"><span class=\"builder-index\">10</span><span class=\"builder-type\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect x",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          }
+        },
+        {
+          "node": "<div class=\"builder-toolbar\"><label class=\"compat-toggle\"><input id=\"enable-incompatible\" type=\"checkbox\"><span><strong>Include conflicting parts</strong></span></label><span id=\"builder-filter-status",
+          "rect": {
+            "x": 39,
+            "y": 1014.921875,
+            "width": 312,
+            "height": 107.875,
+            "top": 1014.921875,
+            "right": 351,
+            "bottom": 1122.796875,
+            "left": 39
+          }
+        }
+      ]
+    },
+    {
+      "run": 2,
+      "shifts": [
+        {
+          "time": 881.0999999977648,
+          "value": 0.0015768514814961999,
+          "hadRecentInput": true,
+          "sources": [
+            {
+              "node": "<div class=\"ui-site-menu\" id=\"site-menu\"><div class=\"ui-menu-head\"><strong id=\"site-menu-title\">Explore the site</strong><button type=\"button\" class=\"icon-button\" data-menu-close=\"\" aria-label=\"Close menu\"><svg class=\"clarity-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m6 6 12 12M18 6 6 18\"></path></svg></button></div><nav class=\"liquid-nav clarity-nav\" aria-label=\"Main navigation\"><span class=\"nav-indicator\" aria-hidden=\"true\"></span><a href=\"/builder/\" aria-current=\"page\"><svg class=\"clarity-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linec",
+              "parent": "<header class=\"site-header ui-header\" data-ui-header=\"\"><a class=\"brand\" href=\"/\" aria-label=\"PC Part Performance home\"><span class=\"brand-mark\"><svg viewBox=\"0 0 40 40\" fill=\"none\" aria-hidden=\"true\"><path d=\"M9 29V12a4 4 0 0 1 4-4h8a7 7 0 0 1 0 14h-5\" stroke=\"currentColor\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path><path d=\"M20 32V19a4 4 0 0 1 4-4h3a6 6 0 0 1 0 12h-2\" stroke=\"currentColor\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg></span><span>PC Part <span class=\"brand-sub\">Performance</span></span></a><a class=\"clarity-search\" href=\"/search/\" aria-label=\"Search PC Part Performance\"><svg class=\"clarity-icon\" viewBox=\"0 0 24 24",
+              "previous": {
+                "x": 136.796875,
+                "y": 0,
+                "width": 171.203125,
+                "height": 304.625,
+                "top": 0,
+                "right": 308,
+                "bottom": 304.625,
+                "left": 136.796875
+              },
+              "current": {
+                "x": 140,
+                "y": 0,
+                "width": 168,
+                "height": 304.625,
+                "top": 0,
+                "right": 308,
+                "bottom": 304.625,
+                "left": 140
+              }
+            },
+            {
+              "node": "<div class=\"oct16-modes\" role=\"group\" aria-label=\"Builder workflow\"><button type=\"button\" data-builder-mode=\"guided\">Guided</button><button type=\"button\" data-builder-mode=\"expert\">Expert</button></div>",
+              "parent": "<div class=\"oct16-guidance-head\"><h2 id=\"builder-guidance-title\">Choose parts</h2><div class=\"oct16-modes\" role=\"group\" aria-label=\"Builder workflow\"><button type=\"button\" data-builder-mode=\"guided\">Guided</button><button type=\"button\" data-builder-mode=\"expert\">Expert</button></div></div>",
+              "previous": {
+                "x": 218.671875,
+                "y": 454.703125,
+                "width": 151.328125,
+                "height": 52,
+                "top": 454.703125,
+                "right": 370,
+                "bottom": 506.703125,
+                "left": 218.671875
+              },
+              "current": {
+                "x": 211.421875,
+                "y": 454.703125,
+                "width": 158.578125,
+                "height": 52,
+                "top": 454.703125,
+                "right": 370,
+                "bottom": 506.703125,
+                "left": 211.421875
+              }
+            }
+          ]
+        },
+        {
+          "time": 1737.5999999977648,
+          "value": 0.1029822392947379,
+          "hadRecentInput": false,
+          "sources": [
+            {
+              "node": "<div class=\"builder-shell\"><div class=\"builder-parts\" data-evolution-stage-panel=\"parts\"><nav id=\"builder-sections\" class=\"builder-jump-nav builder-category-nav\" aria-label=\"Builder sections\"><a href=\"#parts-core\">Core parts</a><a href=\"#parts-storage\">Storage</a><a href=\"#parts-housing\">Case &amp; cooling</a></nav><div class=\"builder-column-head\"><span>Your components</span><span>Choose a part in each row</span></div><section id=\"builder-guidance\" class=\"oct16-guidance\" aria-labelledby=\"builder-guidance-title\" data-mounted=\"true\"><div class=\"oct16-guidance-head\"><h2 id=\"builder-guidance-title\">Choose parts</h2><div class=\"oct16-modes\" role=\"group\" aria-label=\"Builder workflow\"><button type=",
+              "parent": "<section data-evolution-builder=\"\" id=\"builder\" class=\"builder\" data-oct16-mode=\"guided\" aria-labelledby=\"builder-title\" data-evolution-ready=\"true\" data-evolution-stage=\"parts\"><div class=\"builder-heading\"><div><span class=\"eyebrow\">COMPATIBILITY + PRICING</span><h1 id=\"builder-title\">Build your PC</h1><p>Choose parts. Explore in 3D. Save your plan.</p></div><div class=\"builder-actions\"><button class=\"button secondary\" id=\"builder-clear\">Reset build</button><button class=\"button primary\" id=\"builder-starter\">Try a starter build</button></div></div><nav id=\"builder-workflow\" class=\"builder-workflow\" aria-label=\"Build stages\"><a href=\"#builder-guidance\" aria-current=\"step\"><svg viewBox=\"0 0 2",
+              "previous": {
+                "x": 0,
+                "y": 454.703125,
+                "width": 390,
+                "height": 389.296875,
+                "top": 454.703125,
+                "right": 390,
+                "bottom": 844,
+                "left": 0
+              },
+              "current": {
+                "x": 20,
+                "y": 426.875,
+                "width": 350,
+                "height": 417.125,
+                "top": 426.875,
+                "right": 370,
+                "bottom": 844,
+                "left": 20
+              }
+            },
+            {
+              "node": "<nav id=\"builder-workflow\" class=\"builder-workflow\" aria-label=\"Build stages\"><a href=\"#builder-guidance\" aria-current=\"step\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><rect x=\"4\" y=\"4\" width=\"6\" height=\"6\" rx=\"1\"></rect><rect x=\"14\" y=\"4\" width=\"6\" height=\"6\" rx=\"1\"></rect><rect x=\"4\" y=\"14\" width=\"6\" height=\"6\" rx=\"1\"></rect><path d=\"M14 17h6m-3-3v6\"></path></svg><span><strong>Choose parts</strong></span></a><a href=\"#build-preview\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"m12 3 9 5v8l-9 5-9-5V8l9-5Zm0 0v10m9-5-9 5-9-5m9 5v8\"></path></svg><span><strong>Explore build</stro",
+              "parent": "<section data-evolution-builder=\"\" id=\"builder\" class=\"builder\" data-oct16-mode=\"guided\" aria-labelledby=\"builder-title\" data-evolution-ready=\"true\" data-evolution-stage=\"parts\"><div class=\"builder-heading\"><div><span class=\"eyebrow\">COMPATIBILITY + PRICING</span><h1 id=\"builder-title\">Build your PC</h1><p>Choose parts. Explore in 3D. Save your plan.</p></div><div class=\"builder-actions\"><button class=\"button secondary\" id=\"builder-clear\">Reset build</button><button class=\"button primary\" id=\"builder-starter\">Try a starter build</button></div></div><nav id=\"builder-workflow\" class=\"builder-workflow\" aria-label=\"Build stages\"><a href=\"#builder-guidance\" aria-current=\"step\"><svg viewBox=\"0 0 2",
+              "previous": {
+                "x": 20,
+                "y": 362.703125,
+                "width": 350,
+                "height": 72,
+                "top": 362.703125,
+                "right": 370,
+                "bottom": 434.703125,
+                "left": 20
+              },
+              "current": {
+                "x": 20,
+                "y": 318.875,
+                "width": 350,
+                "height": 78,
+                "top": 318.875,
+                "right": 370,
+                "bottom": 396.875,
+                "left": 20
+              }
+            },
+            {
+              "node": "<div><span class=\"eyebrow\">COMPATIBILITY + PRICING</span><h1 id=\"builder-title\">Build your PC</h1><p>Choose parts. Explore in 3D. Save your plan.</p></div>",
+              "parent": "<div class=\"builder-heading\"><div><span class=\"eyebrow\">COMPATIBILITY + PRICING</span><h1 id=\"builder-title\">Build your PC</h1><p>Choose parts. Explore in 3D. Save your plan.</p></div><div class=\"builder-actions\"><button class=\"button secondary\" id=\"builder-clear\">Reset build</button><button class=\"button primary\" id=\"builder-starter\">Try a starter build</button></div></div>",
+              "previous": {
+                "x": 20,
+                "y": 151.71875,
+                "width": 350,
+                "height": 87.984375,
+                "top": 151.71875,
+                "right": 370,
+                "bottom": 239.703125,
+                "left": 20
+              },
+              "current": {
+                "x": 20,
+                "y": 148.71875,
+                "width": 350,
+                "height": 77.15625,
+                "top": 148.71875,
+                "right": 370,
+                "bottom": 225.875,
+                "left": 20
+              }
+            },
+            {
+              "node": "<div class=\"builder-actions\"><button class=\"button secondary\" id=\"builder-clear\">Reset build</button><button class=\"button primary\" id=\"builder-starter\">Try a starter build</button></div>",
+              "parent": "<div class=\"builder-heading\"><div><span class=\"eyebrow\">COMPATIBILITY + PRICING</span><h1 id=\"builder-title\">Build your PC</h1><p>Choose parts. Explore in 3D. Save your plan.</p></div><div class=\"builder-actions\"><button class=\"button secondary\" id=\"builder-clear\">Reset build</button><button class=\"button primary\" id=\"builder-starter\">Try a starter build</button></div></div>",
+              "previous": {
+                "x": 20,
+                "y": 259.703125,
+                "width": 350,
+                "height": 48,
+                "top": 259.703125,
+                "right": 370,
+                "bottom": 307.703125,
+                "left": 20
+              },
+              "current": {
+                "x": 20,
+                "y": 245.875,
+                "width": 350,
+                "height": 48,
+                "top": 245.875,
+                "right": 370,
+                "bottom": 293.875,
+                "left": 20
+              }
+            },
+            {
+              "node": "<a href=\"#builder-guidance\" aria-current=\"step\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><rect x=\"4\" y=\"4\" width=\"6\" height=\"6\" rx=\"1\"></rect><rect x=\"14\" y=\"4\" width=\"6\" height=\"6\" rx=\"1\"></rect><rect x=\"4\" y=\"14\" width=\"6\" height=\"6\" rx=\"1\"></rect><path d=\"M14 17h6m-3-3v6\"></path></svg><span><strong>Choose parts</strong></span></a>",
+              "parent": "<nav id=\"builder-workflow\" class=\"builder-workflow\" aria-label=\"Build stages\"><a href=\"#builder-guidance\" aria-current=\"step\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><rect x=\"4\" y=\"4\" width=\"6\" height=\"6\" rx=\"1\"></rect><rect x=\"14\" y=\"4\" width=\"6\" height=\"6\" rx=\"1\"></rect><rect x=\"4\" y=\"14\" width=\"6\" height=\"6\" rx=\"1\"></rect><path d=\"M14 17h6m-3-3v6\"></path></svg><span><strong>Choose parts</strong></span></a><a href=\"#build-preview\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"m12 3 9 5v8l-9 5-9-5V8l9-5Zm0 0v10m9-5-9 5-9-5m9 5v8\"></path></svg><span><strong>Explore build</stro",
+              "previous": {
+                "x": 20,
+                "y": 362.703125,
+                "width": 111.328125,
+                "height": 72,
+                "top": 362.703125,
+                "right": 131.328125,
+                "bottom": 434.703125,
+                "left": 20
+              },
+              "current": {
+                "x": 7,
+                "y": 308.875,
+                "width": 146.65625,
+                "height": 104,
+                "top": 308.875,
+                "right": 153.65625,
+                "bottom": 412.875,
+                "left": 7
+              }
+            }
+          ]
+        }
+      ],
+      "fonts": "loaded",
+      "cls": 0.1029822392947379,
+      "snapshot": [
+        {
+          "node": "<nav id=\"builder-workflow\" class=\"builder-workflow\" aria-label=\"Build stages\"><a href=\"#builder-guidance\" aria-current=\"step\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1",
+          "rect": {
+            "x": 20,
+            "y": 318.875,
+            "width": 350,
+            "height": 78,
+            "top": 318.875,
+            "right": 370,
+            "bottom": 396.875,
+            "left": 20
+          }
+        },
+        {
+          "node": "<div class=\"builder-row\" data-builder-row=\"cpu\" data-selected-count=\"0\" data-guided-active=\"\"><span class=\"builder-index\">01</span><span class=\"builder-type\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true",
+          "rect": {
+            "x": 20,
+            "y": 580.375,
+            "width": 350,
+            "height": 152,
+            "top": 580.375,
+            "right": 370,
+            "bottom": 732.375,
+            "left": 20
+          }
+        },
+        {
+          "node": "<div class=\"builder-row\" data-builder-row=\"board\" data-selected-count=\"0\" hidden=\"\"><span class=\"builder-index\">02</span><span class=\"builder-type\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect x=",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          }
+        },
+        {
+          "node": "<div class=\"builder-row\" data-builder-row=\"gpu\" data-selected-count=\"0\" hidden=\"\"><span class=\"builder-index\">03</span><span class=\"builder-type\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect x=\"3",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          }
+        },
+        {
+          "node": "<div class=\"builder-row\" data-builder-row=\"ram\" data-selected-count=\"0\" hidden=\"\"><span class=\"builder-index\">04</span><span class=\"builder-type\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect x=\"2",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          }
+        },
+        {
+          "node": "<div class=\"builder-row\" data-builder-row=\"ssd\" data-selected-count=\"0\" hidden=\"\"><span class=\"builder-index\">05</span><span class=\"builder-type\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect x=\"2",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          }
+        },
+        {
+          "node": "<div class=\"builder-row\" data-builder-row=\"hdd\" data-selected-count=\"0\" hidden=\"\"><span class=\"builder-index\">06</span><span class=\"builder-type\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect x=\"4",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          }
+        },
+        {
+          "node": "<div class=\"builder-row\" data-builder-row=\"psu\" data-selected-count=\"0\" hidden=\"\"><span class=\"builder-index\">07</span><span class=\"builder-type\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect x=\"3",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          }
+        },
+        {
+          "node": "<div class=\"builder-row\" data-builder-row=\"case\" data-selected-count=\"0\" hidden=\"\"><span class=\"builder-index\">08</span><span class=\"builder-type\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          }
+        },
+        {
+          "node": "<div class=\"builder-row\" data-builder-row=\"fan\" data-selected-count=\"0\" hidden=\"\"><span class=\"builder-index\">09</span><span class=\"builder-type\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><circle cx",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          }
+        },
+        {
+          "node": "<div class=\"builder-row\" data-builder-row=\"cooler\" data-selected-count=\"0\" hidden=\"\"><span class=\"builder-index\">10</span><span class=\"builder-type\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect x",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          }
+        },
+        {
+          "node": "<div class=\"builder-toolbar\"><label class=\"compat-toggle\"><input id=\"enable-incompatible\" type=\"checkbox\"><span><strong>Include conflicting parts</strong></span></label><span id=\"builder-filter-status",
+          "rect": {
+            "x": 39,
+            "y": 1014.921875,
+            "width": 312,
+            "height": 107.875,
+            "top": 1014.921875,
+            "right": 351,
+            "bottom": 1122.796875,
+            "left": 39
+          }
+        }
+      ]
+    },
+    {
+      "run": 3,
+      "shifts": [
+        {
+          "time": 849.0999999977648,
+          "value": 0.0015768514814961999,
+          "hadRecentInput": true,
+          "sources": [
+            {
+              "node": "<div class=\"ui-site-menu\" id=\"site-menu\"><div class=\"ui-menu-head\"><strong id=\"site-menu-title\">Explore the site</strong><button type=\"button\" class=\"icon-button\" data-menu-close=\"\" aria-label=\"Close menu\"><svg class=\"clarity-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m6 6 12 12M18 6 6 18\"></path></svg></button></div><nav class=\"liquid-nav clarity-nav\" aria-label=\"Main navigation\"><span class=\"nav-indicator\" aria-hidden=\"true\"></span><a href=\"/builder/\" aria-current=\"page\"><svg class=\"clarity-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linec",
+              "parent": "<header class=\"site-header ui-header\" data-ui-header=\"\"><a class=\"brand\" href=\"/\" aria-label=\"PC Part Performance home\"><span class=\"brand-mark\"><svg viewBox=\"0 0 40 40\" fill=\"none\" aria-hidden=\"true\"><path d=\"M9 29V12a4 4 0 0 1 4-4h8a7 7 0 0 1 0 14h-5\" stroke=\"currentColor\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path><path d=\"M20 32V19a4 4 0 0 1 4-4h3a6 6 0 0 1 0 12h-2\" stroke=\"currentColor\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg></span><span>PC Part <span class=\"brand-sub\">Performance</span></span></a><a class=\"clarity-search\" href=\"/search/\" aria-label=\"Search PC Part Performance\"><svg class=\"clarity-icon\" viewBox=\"0 0 24 24",
+              "previous": {
+                "x": 136.796875,
+                "y": 0,
+                "width": 171.203125,
+                "height": 304.625,
+                "top": 0,
+                "right": 308,
+                "bottom": 304.625,
+                "left": 136.796875
+              },
+              "current": {
+                "x": 140,
+                "y": 0,
+                "width": 168,
+                "height": 304.625,
+                "top": 0,
+                "right": 308,
+                "bottom": 304.625,
+                "left": 140
+              }
+            },
+            {
+              "node": "<div class=\"oct16-modes\" role=\"group\" aria-label=\"Builder workflow\"><button type=\"button\" data-builder-mode=\"guided\">Guided</button><button type=\"button\" data-builder-mode=\"expert\">Expert</button></div>",
+              "parent": "<div class=\"oct16-guidance-head\"><h2 id=\"builder-guidance-title\">Choose parts</h2><div class=\"oct16-modes\" role=\"group\" aria-label=\"Builder workflow\"><button type=\"button\" data-builder-mode=\"guided\">Guided</button><button type=\"button\" data-builder-mode=\"expert\">Expert</button></div></div>",
+              "previous": {
+                "x": 218.671875,
+                "y": 454.703125,
+                "width": 151.328125,
+                "height": 52,
+                "top": 454.703125,
+                "right": 370,
+                "bottom": 506.703125,
+                "left": 218.671875
+              },
+              "current": {
+                "x": 211.421875,
+                "y": 454.703125,
+                "width": 158.578125,
+                "height": 52,
+                "top": 454.703125,
+                "right": 370,
+                "bottom": 506.703125,
+                "left": 211.421875
+              }
+            }
+          ]
+        },
+        {
+          "time": 1755.8999999985099,
+          "value": 0.1029822392947379,
+          "hadRecentInput": false,
+          "sources": [
+            {
+              "node": "<div class=\"builder-shell\"><div class=\"builder-parts\" data-evolution-stage-panel=\"parts\"><nav id=\"builder-sections\" class=\"builder-jump-nav builder-category-nav\" aria-label=\"Builder sections\"><a href=\"#parts-core\">Core parts</a><a href=\"#parts-storage\">Storage</a><a href=\"#parts-housing\">Case &amp; cooling</a></nav><div class=\"builder-column-head\"><span>Your components</span><span>Choose a part in each row</span></div><section id=\"builder-guidance\" class=\"oct16-guidance\" aria-labelledby=\"builder-guidance-title\" data-mounted=\"true\"><div class=\"oct16-guidance-head\"><h2 id=\"builder-guidance-title\">Choose parts</h2><div class=\"oct16-modes\" role=\"group\" aria-label=\"Builder workflow\"><button type=",
+              "parent": "<section data-evolution-builder=\"\" id=\"builder\" class=\"builder\" data-oct16-mode=\"guided\" aria-labelledby=\"builder-title\" data-evolution-ready=\"true\" data-evolution-stage=\"parts\"><div class=\"builder-heading\"><div><span class=\"eyebrow\">COMPATIBILITY + PRICING</span><h1 id=\"builder-title\">Build your PC</h1><p>Choose parts. Explore in 3D. Save your plan.</p></div><div class=\"builder-actions\"><button class=\"button secondary\" id=\"builder-clear\">Reset build</button><button class=\"button primary\" id=\"builder-starter\">Try a starter build</button></div></div><nav id=\"builder-workflow\" class=\"builder-workflow\" aria-label=\"Build stages\"><a href=\"#builder-guidance\" aria-current=\"step\"><svg viewBox=\"0 0 2",
+              "previous": {
+                "x": 0,
+                "y": 454.703125,
+                "width": 390,
+                "height": 389.296875,
+                "top": 454.703125,
+                "right": 390,
+                "bottom": 844,
+                "left": 0
+              },
+              "current": {
+                "x": 20,
+                "y": 426.875,
+                "width": 350,
+                "height": 417.125,
+                "top": 426.875,
+                "right": 370,
+                "bottom": 844,
+                "left": 20
+              }
+            },
+            {
+              "node": "<nav id=\"builder-workflow\" class=\"builder-workflow\" aria-label=\"Build stages\"><a href=\"#builder-guidance\" aria-current=\"step\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><rect x=\"4\" y=\"4\" width=\"6\" height=\"6\" rx=\"1\"></rect><rect x=\"14\" y=\"4\" width=\"6\" height=\"6\" rx=\"1\"></rect><rect x=\"4\" y=\"14\" width=\"6\" height=\"6\" rx=\"1\"></rect><path d=\"M14 17h6m-3-3v6\"></path></svg><span><strong>Choose parts</strong></span></a><a href=\"#build-preview\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"m12 3 9 5v8l-9 5-9-5V8l9-5Zm0 0v10m9-5-9 5-9-5m9 5v8\"></path></svg><span><strong>Explore build</stro",
+              "parent": "<section data-evolution-builder=\"\" id=\"builder\" class=\"builder\" data-oct16-mode=\"guided\" aria-labelledby=\"builder-title\" data-evolution-ready=\"true\" data-evolution-stage=\"parts\"><div class=\"builder-heading\"><div><span class=\"eyebrow\">COMPATIBILITY + PRICING</span><h1 id=\"builder-title\">Build your PC</h1><p>Choose parts. Explore in 3D. Save your plan.</p></div><div class=\"builder-actions\"><button class=\"button secondary\" id=\"builder-clear\">Reset build</button><button class=\"button primary\" id=\"builder-starter\">Try a starter build</button></div></div><nav id=\"builder-workflow\" class=\"builder-workflow\" aria-label=\"Build stages\"><a href=\"#builder-guidance\" aria-current=\"step\"><svg viewBox=\"0 0 2",
+              "previous": {
+                "x": 20,
+                "y": 362.703125,
+                "width": 350,
+                "height": 72,
+                "top": 362.703125,
+                "right": 370,
+                "bottom": 434.703125,
+                "left": 20
+              },
+              "current": {
+                "x": 20,
+                "y": 318.875,
+                "width": 350,
+                "height": 78,
+                "top": 318.875,
+                "right": 370,
+                "bottom": 396.875,
+                "left": 20
+              }
+            },
+            {
+              "node": "<div><span class=\"eyebrow\">COMPATIBILITY + PRICING</span><h1 id=\"builder-title\">Build your PC</h1><p>Choose parts. Explore in 3D. Save your plan.</p></div>",
+              "parent": "<div class=\"builder-heading\"><div><span class=\"eyebrow\">COMPATIBILITY + PRICING</span><h1 id=\"builder-title\">Build your PC</h1><p>Choose parts. Explore in 3D. Save your plan.</p></div><div class=\"builder-actions\"><button class=\"button secondary\" id=\"builder-clear\">Reset build</button><button class=\"button primary\" id=\"builder-starter\">Try a starter build</button></div></div>",
+              "previous": {
+                "x": 20,
+                "y": 151.71875,
+                "width": 350,
+                "height": 87.984375,
+                "top": 151.71875,
+                "right": 370,
+                "bottom": 239.703125,
+                "left": 20
+              },
+              "current": {
+                "x": 20,
+                "y": 148.71875,
+                "width": 350,
+                "height": 77.15625,
+                "top": 148.71875,
+                "right": 370,
+                "bottom": 225.875,
+                "left": 20
+              }
+            },
+            {
+              "node": "<div class=\"builder-actions\"><button class=\"button secondary\" id=\"builder-clear\">Reset build</button><button class=\"button primary\" id=\"builder-starter\">Try a starter build</button></div>",
+              "parent": "<div class=\"builder-heading\"><div><span class=\"eyebrow\">COMPATIBILITY + PRICING</span><h1 id=\"builder-title\">Build your PC</h1><p>Choose parts. Explore in 3D. Save your plan.</p></div><div class=\"builder-actions\"><button class=\"button secondary\" id=\"builder-clear\">Reset build</button><button class=\"button primary\" id=\"builder-starter\">Try a starter build</button></div></div>",
+              "previous": {
+                "x": 20,
+                "y": 259.703125,
+                "width": 350,
+                "height": 48,
+                "top": 259.703125,
+                "right": 370,
+                "bottom": 307.703125,
+                "left": 20
+              },
+              "current": {
+                "x": 20,
+                "y": 245.875,
+                "width": 350,
+                "height": 48,
+                "top": 245.875,
+                "right": 370,
+                "bottom": 293.875,
+                "left": 20
+              }
+            },
+            {
+              "node": "<a href=\"#builder-guidance\" aria-current=\"step\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><rect x=\"4\" y=\"4\" width=\"6\" height=\"6\" rx=\"1\"></rect><rect x=\"14\" y=\"4\" width=\"6\" height=\"6\" rx=\"1\"></rect><rect x=\"4\" y=\"14\" width=\"6\" height=\"6\" rx=\"1\"></rect><path d=\"M14 17h6m-3-3v6\"></path></svg><span><strong>Choose parts</strong></span></a>",
+              "parent": "<nav id=\"builder-workflow\" class=\"builder-workflow\" aria-label=\"Build stages\"><a href=\"#builder-guidance\" aria-current=\"step\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><rect x=\"4\" y=\"4\" width=\"6\" height=\"6\" rx=\"1\"></rect><rect x=\"14\" y=\"4\" width=\"6\" height=\"6\" rx=\"1\"></rect><rect x=\"4\" y=\"14\" width=\"6\" height=\"6\" rx=\"1\"></rect><path d=\"M14 17h6m-3-3v6\"></path></svg><span><strong>Choose parts</strong></span></a><a href=\"#build-preview\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"m12 3 9 5v8l-9 5-9-5V8l9-5Zm0 0v10m9-5-9 5-9-5m9 5v8\"></path></svg><span><strong>Explore build</stro",
+              "previous": {
+                "x": 20,
+                "y": 362.703125,
+                "width": 111.328125,
+                "height": 72,
+                "top": 362.703125,
+                "right": 131.328125,
+                "bottom": 434.703125,
+                "left": 20
+              },
+              "current": {
+                "x": 7,
+                "y": 308.875,
+                "width": 146.65625,
+                "height": 104,
+                "top": 308.875,
+                "right": 153.65625,
+                "bottom": 412.875,
+                "left": 7
+              }
+            }
+          ]
+        }
+      ],
+      "fonts": "loaded",
+      "cls": 0.1029822392947379,
+      "snapshot": [
+        {
+          "node": "<nav id=\"builder-workflow\" class=\"builder-workflow\" aria-label=\"Build stages\"><a href=\"#builder-guidance\" aria-current=\"step\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1",
+          "rect": {
+            "x": 20,
+            "y": 318.875,
+            "width": 350,
+            "height": 78,
+            "top": 318.875,
+            "right": 370,
+            "bottom": 396.875,
+            "left": 20
+          }
+        },
+        {
+          "node": "<div class=\"builder-row\" data-builder-row=\"cpu\" data-selected-count=\"0\" data-guided-active=\"\"><span class=\"builder-index\">01</span><span class=\"builder-type\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true",
+          "rect": {
+            "x": 20,
+            "y": 580.375,
+            "width": 350,
+            "height": 152,
+            "top": 580.375,
+            "right": 370,
+            "bottom": 732.375,
+            "left": 20
+          }
+        },
+        {
+          "node": "<div class=\"builder-row\" data-builder-row=\"board\" data-selected-count=\"0\" hidden=\"\"><span class=\"builder-index\">02</span><span class=\"builder-type\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect x=",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          }
+        },
+        {
+          "node": "<div class=\"builder-row\" data-builder-row=\"gpu\" data-selected-count=\"0\" hidden=\"\"><span class=\"builder-index\">03</span><span class=\"builder-type\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect x=\"3",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          }
+        },
+        {
+          "node": "<div class=\"builder-row\" data-builder-row=\"ram\" data-selected-count=\"0\" hidden=\"\"><span class=\"builder-index\">04</span><span class=\"builder-type\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect x=\"2",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          }
+        },
+        {
+          "node": "<div class=\"builder-row\" data-builder-row=\"ssd\" data-selected-count=\"0\" hidden=\"\"><span class=\"builder-index\">05</span><span class=\"builder-type\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect x=\"2",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          }
+        },
+        {
+          "node": "<div class=\"builder-row\" data-builder-row=\"hdd\" data-selected-count=\"0\" hidden=\"\"><span class=\"builder-index\">06</span><span class=\"builder-type\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect x=\"4",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          }
+        },
+        {
+          "node": "<div class=\"builder-row\" data-builder-row=\"psu\" data-selected-count=\"0\" hidden=\"\"><span class=\"builder-index\">07</span><span class=\"builder-type\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect x=\"3",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          }
+        },
+        {
+          "node": "<div class=\"builder-row\" data-builder-row=\"case\" data-selected-count=\"0\" hidden=\"\"><span class=\"builder-index\">08</span><span class=\"builder-type\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          }
+        },
+        {
+          "node": "<div class=\"builder-row\" data-builder-row=\"fan\" data-selected-count=\"0\" hidden=\"\"><span class=\"builder-index\">09</span><span class=\"builder-type\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><circle cx",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          }
+        },
+        {
+          "node": "<div class=\"builder-row\" data-builder-row=\"cooler\" data-selected-count=\"0\" hidden=\"\"><span class=\"builder-index\">10</span><span class=\"builder-type\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect x",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          }
+        },
+        {
+          "node": "<div class=\"builder-toolbar\"><label class=\"compat-toggle\"><input id=\"enable-incompatible\" type=\"checkbox\"><span><strong>Include conflicting parts</strong></span></label><span id=\"builder-filter-status",
+          "rect": {
+            "x": 39,
+            "y": 1014.921875,
+            "width": 312,
+            "height": 107.875,
+            "top": 1014.921875,
+            "right": 351,
+            "bottom": 1122.796875,
+            "left": 39
+          }
+        }
+      ]
+    }
+  ]
+}

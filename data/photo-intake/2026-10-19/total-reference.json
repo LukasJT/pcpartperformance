@@ -1,0 +1,47 @@
+[
+  {
+    "id": "retail-asus-z170-p",
+    "catalogName": "Z170-P",
+    "picturedModel": "ASUS Z170-P (original DDR4 model)",
+    "cacheFile": "asus-xkom.source",
+    "sourceUrl": "https://www.x-kom.pl/p/252945-plyta-glowna-socket-1151-asus-z170-p-2xpci-e-ddr4.html",
+    "imageUrl": "https://cdn.x-kom.pl/i/setup/images/prod/big/product-new-big%2C%2Cpr_2015_8_10_14_8_35_886.jpg",
+    "sourceKind": "retailer-product-photograph",
+    "identityScope": "exact-model-gallery",
+    "attribution": "x-kom / ASUS product media; original copyright retained",
+    "identityEvidence": "Visually reviewed actual Z170-P marking on the PCB, original black/gold heatsinks and DDR4 four-slot layout. Exact x-kom252945 gallery names Z170-P DDR4; no Z170-P D3, Z170-A or artist scan is substituted.",
+    "sourcePageReview": "Normal local page request returned403; exact public named gallery was independently inspected through web research. The official ASUS support image returned a generic missing-image placeholder and was rejected.",
+    "sourceSha256": "c9057c8e06c32f2520ca44a28f2ab561d22c431b69144c17191918d5963f0421",
+    "visualReviewed": true
+  },
+  {
+    "id": "retail-cooler-master-masterbox-lite-5",
+    "catalogName": "MasterBox Lite 5",
+    "picturedModel": "Cooler Master MasterBox Lite5 original non-RGB MCW-L5S3-KANN-01",
+    "cacheFile": "case.source",
+    "sourceUrl": "https://www.ask-corp.jp/products/cooler-master/middle-pccase/masterbox-lite-5.html",
+    "imageUrl": "https://www.ask-corp.jp/products/images/cooler-master/masterbox-lite-5_01.jpg",
+    "sourceKind": "distributor-product-photograph",
+    "identityScope": "named-original-model-reference",
+    "attribution": "ASK Corporation / Cooler Master product media; original copyright retained",
+    "identityEvidence": "Visually reviewed the actual black/red original MasterBox Lite5 with transparent acrylic side panel and unlit front. Distributor exact product page lists MCW-L5S3-KANN-01 and this gallery image. RGB, TG and PSU-bundle siblings excluded. Existing catalog reference has no exactSKU; this photographed original variant does not establish an installed case SKU or verified physical fit.",
+    "sourcePageReview": "Direct public distributor HTML and exact gallery binding inspected; original product model/MPN present. No source dimensions are imported into the reference record.",
+    "sourceSha256": "913199f0c6f734e410946e1652a9224db24088f7d95ae41738b75c1cc51a7b00",
+    "visualReviewed": true
+  },
+  {
+    "id": "completion-cpu-intel-core-i5-661",
+    "catalogName": "Core i5-661",
+    "picturedModel": "Intel Core i5-661 (SLBNE marked sample)",
+    "cacheFile": "intel-ebay.source",
+    "sourceUrl": "https://www.ebay.com/itm/354219188150",
+    "imageUrl": "https://i.ebayimg.com/images/g/kOIAAOSwZh9k59Uv/s-l1200.png",
+    "sourceKind": "retailer-product-photograph",
+    "identityScope": "exact-visible-model-label",
+    "attribution": "PC4SAVE via eBay; original copyright and visible watermark retained",
+    "identityEvidence": "Visually reviewed actual i5-661 andSLBNE markings on the processor. Exact source listing names i5-661 SLBNE/SLBTB; pictured sample isSLBNE. PC4SAVE watermark retained. No neighboring i5-660, generic Corei5 logo or3Drender is used; specifications and prices not imported.",
+    "sourcePageReview": "Exact public seller gallery independently inspected through web research. Alternate ITAD listing returned429 locally and could not be fetched through web research, so it was not selected.",
+    "sourceSha256": "1ebf9055fb8475990e8934a649022243435a7d14f59f8d4ff63896516255f335",
+    "visualReviewed": true
+  }
+]

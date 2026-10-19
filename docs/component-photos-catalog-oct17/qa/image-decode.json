@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-17T21:50:15.792Z",
+  "checkedAt": "2026-10-19T22:33:01.535Z",
   "passed": true,
-  "images": 714,
-  "decodedFiles": 1428,
-  "fullImageBytes": 38326976,
-  "thumbnailBytes": 7724548,
+  "images": 793,
+  "decodedFiles": 1586,
+  "fullImageBytes": 42330978,
+  "thumbnailBytes": 8571328,
   "scope": "Every accepted new full image and thumbnail decoded with Sharp, format/dimensions/budget checked, after registry identity and SHA-256 validation. Per-ID aliases may reference the same file."
 }

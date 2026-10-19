@@ -1,0 +1,172 @@
+{
+  "checkedAt": "2026-10-19T21:57:37.028Z",
+  "method": "Actual generated source catalog loaded into an isolated VM and cloned; new intake prepared, then pure review applied without writing generated files.",
+  "beforeRecords": 1299,
+  "afterRecords": 1299,
+  "result": {
+    "reviewed": 7,
+    "retainedIds": [
+      "c-ram-crucial-pro-overclocking-64gb-ddr5-6000-cl36",
+      "c-ram-teamgroup-t-create-expert-96gb-ddr5-6000-cl34",
+      "c-psu-cooler-master-v-gold-i-multi-1050",
+      "c-case-supermicro-4u-workstation-chassis",
+      "c-psu-supermicro-1600w-redundant-power-supply",
+      "c-ssd-seagate-firecuda-540-4tb",
+      "c-hdd-seagate-ironwolf-24tb"
+    ],
+    "newSelectionEligible": 0,
+    "automaticSubstitutions": 0,
+    "photoBindingsAdded": 0,
+    "compatibilityState": "unknown",
+    "restoration": "Keep these records in saved-build lookup even when new-choice lists exclude them."
+  },
+  "restorationReferences": [
+    {
+      "id": "c-ram-crucial-pro-overclocking-64gb-ddr5-6000-cl36",
+      "name": "Crucial Pro Overclocking 64GB DDR5-6000 CL36",
+      "brand": "Crucial",
+      "cat": "ram",
+      "year": null,
+      "architecture": "Exact identity under review",
+      "summary": "Exact product identity needs confirmation",
+      "specs": {
+        "Identity status": "Exact SKU unverified"
+      },
+      "builderEligible": false,
+      "indexable": false,
+      "usageScope": "identity-review-reference",
+      "identityStatus": "needs-exact-identity",
+      "identityWarning": "Exact 64GB CL36 SKU unverified. This saved selection is kept; choose a documented kit before buying.",
+      "sourceStatus": "unverified",
+      "source": "https://www.crucial.com/catalog/memory/ddr5-desktop",
+      "note": "Identity under review: The inherited 64GB DDR5-6000 CL36 record has no manufacturer part number. Prior retailer titles conflicted with their C40 part numbers; the current manufacturer request was rejected. An exact 64GB CL36 SKU remains unverified. Manufacturer part number and primary specification proving 64GB as 2x32GB, 6000MT/s and CL36, including color/revision."
+    },
+    {
+      "id": "c-ram-teamgroup-t-create-expert-96gb-ddr5-6000-cl34",
+      "name": "TEAMGROUP T-Create Expert 96GB DDR5-6000 CL34",
+      "brand": "TEAMGROUP",
+      "cat": "ram",
+      "year": null,
+      "architecture": "Exact identity under review",
+      "summary": "Exact product identity needs confirmation",
+      "specs": {
+        "Identity status": "Exact SKU unverified"
+      },
+      "builderEligible": false,
+      "indexable": false,
+      "usageScope": "identity-review-reference",
+      "identityStatus": "needs-exact-identity",
+      "identityWarning": "Exact 96GB 6000 CL34 kit unverified. This saved selection is kept; confirm its TEAMGROUP part number.",
+      "sourceStatus": "unverified",
+      "source": "https://www.teamgroupinc.com/en/product-category/memory/",
+      "note": "Identity under review: The inspected manufacturer matrix assigns 96GB 6000 to CL30 (CTCED596G6000HC30DDC01), 96GB 6400 to CL32, and 64GB 6000 CL34 to CTCED564G6000HC34BDC01. It does not establish the inherited 96GB 6000 CL34 combination. Exact TEAM P/N proving 96GB as 2x48GB, 6000MT/s and CL34, plus color and revision."
+    },
+    {
+      "id": "c-ssd-seagate-firecuda-540-4tb",
+      "name": "Seagate FireCuda 540 4TB",
+      "brand": "Seagate",
+      "cat": "ssd",
+      "year": null,
+      "architecture": "Exact identity under review",
+      "summary": "Exact product identity needs confirmation",
+      "specs": {
+        "Identity status": "Exact SKU unverified"
+      },
+      "builderEligible": false,
+      "indexable": false,
+      "usageScope": "identity-review-reference",
+      "identityStatus": "needs-exact-identity",
+      "identityWarning": "A released 4TB FireCuda 540 SKU is unverified. This saved selection remains for review.",
+      "sourceStatus": "unverified",
+      "source": "https://www.seagate.com/products/gaming-drives/pc-gaming/firecuda-ssd/",
+      "note": "Identity under review: The reviewed FireCuda 540 datasheet establishes retail 1TB/2TB identities but no 4TB SKU. The inherited entry cites a general gaming SSD family page and has no manufacturer part number. An announced or planned capacity is not a released exact SKU. Manufacturer release/support record and exact 4TB FireCuda 540 part number; a 530/530R or 2TB image is not a match."
+    },
+    {
+      "id": "c-hdd-seagate-ironwolf-24tb",
+      "name": "Seagate IronWolf 24TB",
+      "brand": "Seagate",
+      "cat": "hdd",
+      "year": null,
+      "architecture": "Exact identity under review",
+      "summary": "Exact product identity needs confirmation",
+      "specs": {
+        "Identity status": "Exact SKU unverified"
+      },
+      "builderEligible": false,
+      "indexable": false,
+      "usageScope": "identity-review-reference",
+      "identityStatus": "needs-exact-identity",
+      "identityWarning": "The 24TB non-Pro IronWolf identity is unverified. A Pro photo or SKU cannot establish this saved entry.",
+      "sourceStatus": "unverified",
+      "source": "https://www.seagate.com/products/hard-drives/",
+      "note": "Identity under review: The current non-Pro support page includes 18TB and smaller models. The separate Pro matrix establishes 24TB ST24000NT002/ST24000NT031. No source establishes the inherited non-Pro 24TB identity, and no Pro substitution is made. Exact non-Pro 24TB IronWolf ST model number and manufacturer documentation."
+    },
+    {
+      "id": "c-psu-cooler-master-v-gold-i-multi-1050",
+      "name": "Cooler Master V Gold i Multi 1050",
+      "brand": "Cooler Master",
+      "cat": "psu",
+      "year": null,
+      "architecture": "Exact identity under review",
+      "summary": "Exact product identity needs confirmation",
+      "specs": {
+        "Identity status": "Exact SKU unverified"
+      },
+      "builderEligible": false,
+      "indexable": false,
+      "usageScope": "identity-review-reference",
+      "identityStatus": "needs-exact-identity",
+      "identityWarning": "Exact 1050W V Gold i model unverified. Keep this saved entry for review and confirm its manufacturer part number.",
+      "sourceStatus": "unverified",
+      "source": "https://www.coolermaster.com/en-global/catalog/power-supplies/",
+      "note": "Identity under review: The manufacturer guide distinguishes V Gold i 750/850 from GX Gold 1050 and MWE Gold V2 1050. Its software table also names V650. No inspected primary source establishes an exact V Gold i multi 1050W model. Exact Cooler Master MPZ/MPY part number and product specification establishing V Gold i multi 1050W."
+    },
+    {
+      "id": "c-case-supermicro-4u-workstation-chassis",
+      "name": "Supermicro 4U Workstation Chassis",
+      "brand": "Supermicro",
+      "cat": "case",
+      "year": null,
+      "architecture": "Exact identity under review",
+      "summary": "Exact product identity needs confirmation",
+      "specs": {
+        "Identity status": "Exact SKU unverified"
+      },
+      "builderEligible": false,
+      "indexable": false,
+      "usageScope": "identity-review-reference",
+      "identityStatus": "needs-exact-identity",
+      "identityWarning": "This saved chassis needs an exact CSE/SC part number before fit can be checked.",
+      "sourceStatus": "unverified",
+      "source": "https://www.supermicro.com/en/products/chassis/4U",
+      "note": "Identity under review: The record has no CSE/SC part number and claims eight expansion slots. Exact nearby 4U chassis differ: CSE-745BAC-R1K23B-SQ has seven slots; CSE-747BTQ-R2K04B has eleven. Neither is an established match. Exact CSE/SC chassis number, backplane, PSU configuration, bay and expansion-slot layout."
+    },
+    {
+      "id": "c-psu-supermicro-1600w-redundant-power-supply",
+      "name": "Supermicro 1600W Redundant Power Supply",
+      "brand": "Supermicro",
+      "cat": "psu",
+      "year": null,
+      "architecture": "Exact identity under review",
+      "summary": "Exact product identity needs confirmation",
+      "specs": {
+        "Identity status": "Exact SKU unverified"
+      },
+      "builderEligible": false,
+      "indexable": false,
+      "usageScope": "identity-review-reference",
+      "identityStatus": "needs-exact-identity",
+      "identityWarning": "1600W does not identify this server PSU. Confirm its PWS number, input voltage and host chassis.",
+      "sourceStatus": "unverified",
+      "source": "https://www.supermicro.com/en/products/power-supplies",
+      "note": "Identity under review: Multiple distinct Supermicro modules meet 1600W/redundant wording. PWS-1K69P-1R has input-dependent AC output; PWS-1K60D-1R instead requires -48Vdc to -60Vdc. Generic wattage cannot establish an exact photo or electrical/mechanical compatibility. Exact PWS part number, supported host/backplane, input voltage and rated output under that input."
+    }
+  ],
+  "sourceScopes": {
+    "access-unavailable": 1,
+    "inspected": 10
+  },
+  "sourceTests": 7,
+  "scopedLint": "passed",
+  "deploymentVerified": false
+}

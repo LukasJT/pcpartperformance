@@ -2,6 +2,9 @@
 const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto');
 const files=['component-photo-cpu-board-oct17.json','component-photo-cpu-extra-oct17.json','component-photo-board-extra-oct17.json','component-photo-gpu-oct17.json','component-photo-retail-gpu-oct17.json','component-photo-storage-psu-oct17.json','component-photo-case-cooling-oct17.json','component-photo-cpu-supplement-oct17.json','component-photo-memory-psu-supplement-oct17.json','component-photo-storage-supplement-oct17.json'];
 files.push(...["component-photo-remaining-parent-oct17.json","component-photo-remaining-gpu-oct17.json","component-photo-remaining-storage-oct17.json","component-photo-remaining-cpu-oct17.json","component-photo-remaining-special-oct17.json","component-photo-remaining-cpu-extra-oct17.json","component-photo-remaining-cpu-final-oct17.json","component-photo-remaining-cpu-last-oct17.json"]);
+files.push('component-photo-total-gpu-oct19.json','component-photo-total-kingston-oct19.json','component-photo-total-cpu-oct19.json');
+files.push('component-photo-total-hardware-next-oct19.json');
+files.push('component-photo-total-reference-oct19.json');
 const categories=new Set(['cpu','board','gpu','ram','ssd','hdd','psu','case','fan','cooler']);
 function validate(records,images,{root=path.resolve(__dirname,'../dist')}={}){
  const index=new Map(records.map(p=>[p.id,p])),errors=[];

@@ -160,3 +160,12 @@ test('style safeguards include touch, virtual keyboard, reduced motion and print
   assert(source.includes("window.visualViewport?.addEventListener('resize', updateViewport)"));
   assert(!source.includes('dialog.showModal(); search.focus'));
 });
+
+test('initial builder geometry is styled before deferred readiness without changing panel visibility',()=>{
+  const css=fs.readFileSync(path.join(__dirname,'evolution-builder.css'),'utf8');
+  for(const selector of ['.builder-shell','.builder-parts','.builder-heading','.builder-actions','#builder-workflow']){
+    assert(css.includes('[data-evolution-builder] '+selector));
+    assert(!css.includes('[data-evolution-ready] '+selector));
+  }
+  assert(css.includes('[data-evolution-ready] [data-evolution-stage-panel][hidden]'));
+});

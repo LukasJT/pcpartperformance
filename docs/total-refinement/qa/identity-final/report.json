@@ -1,0 +1,71 @@
+{
+  "origin": "http://127.0.0.1:4210",
+  "testedAt": "2026-10-19T22:43:06.624Z",
+  "fixtureOnly": true,
+  "checks": [
+    {
+      "name": "Saved identity c-ram-crucial-pro-overclocking-64gb-ddr5-6000-cl36",
+      "passed": true,
+      "savedIdRetained": true,
+      "newChoiceAllowed": false,
+      "readiness": "needs-verification",
+      "oldURL": 200,
+      "noindex": true
+    },
+    {
+      "name": "Saved identity c-ram-teamgroup-t-create-expert-96gb-ddr5-6000-cl34",
+      "passed": true,
+      "savedIdRetained": true,
+      "newChoiceAllowed": false,
+      "readiness": "needs-verification",
+      "oldURL": 200,
+      "noindex": true
+    },
+    {
+      "name": "Saved identity c-psu-cooler-master-v-gold-i-multi-1050",
+      "passed": true,
+      "savedIdRetained": true,
+      "newChoiceAllowed": false,
+      "readiness": "needs-verification",
+      "oldURL": 200,
+      "noindex": true
+    },
+    {
+      "name": "Saved identity c-case-supermicro-4u-workstation-chassis",
+      "passed": true,
+      "savedIdRetained": true,
+      "newChoiceAllowed": false,
+      "readiness": "needs-verification",
+      "oldURL": 200,
+      "noindex": true
+    },
+    {
+      "name": "Saved identity c-psu-supermicro-1600w-redundant-power-supply",
+      "passed": true,
+      "savedIdRetained": true,
+      "newChoiceAllowed": false,
+      "readiness": "needs-verification",
+      "oldURL": 200,
+      "noindex": true
+    },
+    {
+      "name": "Saved identity c-ssd-seagate-firecuda-540-4tb",
+      "passed": true,
+      "savedIdRetained": true,
+      "newChoiceAllowed": false,
+      "readiness": "needs-verification",
+      "oldURL": 200,
+      "noindex": true
+    },
+    {
+      "name": "Saved identity c-hdd-seagate-ironwolf-24tb",
+      "passed": true,
+      "savedIdRetained": true,
+      "newChoiceAllowed": false,
+      "readiness": "needs-verification",
+      "oldURL": 200,
+      "noindex": true
+    }
+  ],
+  "myPCSavedCards": true
+}

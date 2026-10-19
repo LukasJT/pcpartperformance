@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "generator": "Terser 5.51.2",
+  "options": {
+    "compress": {
+      "toplevel": false,
+      "unused": false
+    },
+    "mangle": {
+      "toplevel": false
+    }
+  },
+  "files": {
+    "core.js": {
+      "sourceHash": "0295cd94b35d9f3c0195f333b751b3efef36f3f2ed0b70812ab18d10767939c3",
+      "outputHash": "6816f262fbc3bfd94f9aa256bb6f0fde69bcb78590ab8ab96d534343a182cc70"
+    },
+    "interface.js": {
+      "sourceHash": "faf55a867cc4530dfc9b4ea92667faa8b46c7b603add2074967f3b5930020fc8",
+      "outputHash": "e5d9bcaf1a4fd1ab88e619e8072333abe36053aa952d1a9de9731ad60b557e64"
+    },
+    "assembly-3d.js": {
+      "sourceHash": "cffce6d75097cfe9927d7c1edb75f811eabd0ebd80c104dd7df278f6042a8551",
+      "outputHash": "cf0a9c3c7947b9166a630a7ae7810e6c9c9d341cba29c3e7d0d76784989fbafd"
+    }
+  }
+}

@@ -13,11 +13,11 @@ function test(name, action) { action(); passed++; console.log('PASS ' + name); }
 function modified(update) { const packet = clone(bundle); update(packet); return api.stage([], packet); }
 test('actual inspected batch validates and imports into the shared catalog with stable legacy IDs', () => {
   const original = clone(baseline), merged = clone(baseline); api.prepareCatalog(merged);
-  assert.equal(merged.length, baseline.length + 63); assert.deepEqual(merged.slice(0, baseline.length), original);
-  const counts = api.counts(merged.slice(baseline.length)); assert.deepEqual(counts.byCategory, { cpu:17, gpu:20, ram:21, ssd:5 }); assert.equal(counts.withExplicitMPN, 30);
+  assert.equal(merged.length, baseline.length + bundle.records.length); assert.deepEqual(merged.slice(0, baseline.length), original);
+  const counts = api.counts(merged.slice(baseline.length)); assert.deepEqual(counts.byCategory, { cpu:17, gpu:20, ram:21, ssd:5, cooler:12 }); assert.equal(counts.withExplicitMPN, 30);
 });
 test('reapplying the same packet is idempotent and does not change selected IDs or create aliases', () => {
-  const records = clone(baseline); api.prepareCatalog(records); const first = clone(records); api.prepareCatalog(records); assert.deepEqual(records, first); assert.equal(api.stage(records).unchanged.length, 63);
+  const records = clone(baseline); api.prepareCatalog(records); const first = clone(records); api.prepareCatalog(records); assert.deepEqual(records, first); assert.equal(api.stage(records).unchanged.length, bundle.records.length);
 });
 test('a bad record rejects the entire intake before mutating existing data', () => {
   const records = clone(baseline), original = clone(records), packet = clone(bundle); packet.records[0].status = 'candidate';
@@ -99,13 +99,13 @@ test('no price, FPS, copied product photography or fabricated downloaded mesh en
 });
 test('public catalog payload is additive, escaped and excludes bulky private intake',()=>{
   const records=clone(baseline);api.prepareCatalog(records);const context={window:{}};vm.createContext(context);vm.runInContext('const catalog=[{id:"saved-part"}];',context);vm.runInContext(api.browserSource(records),context);vm.runInContext(api.browserSource(records),context);
-  assert.equal(vm.runInContext('catalog.length',context),64);assert.equal(vm.runInContext('catalog[0].id',context),'saved-part');
+  assert.equal(vm.runInContext('catalog.length',context),bundle.records.length+1);assert.equal(vm.runInContext('catalog[0].id',context),'saved-part');
   const payload=context.window.PCP_TOTAL_CATALOG;assert(payload.every(p=>!p.provenance&&!p.fields));
 });
 test('prepare writes a real public record/provenance snapshot and truthful incremental report',()=>{
   const root=fs.mkdtempSync(path.join(os.tmpdir(),'pcp-total-catalog-')),docs=path.join(root,'review');
-  const report=api.prepare({root,records:clone(baseline),docsRoot:docs});assert.equal(report.added.total,63);assert.equal(report.after.total,baseline.length+63);
-  assert(fs.existsSync(path.join(root,'total-catalog-data.js')));assert.equal(JSON.parse(fs.readFileSync(path.join(root,'data/total-catalog-provenance.json'),'utf8')).records.length,63);
+  const report=api.prepare({root,records:clone(baseline),docsRoot:docs});assert.equal(report.added.total,bundle.records.length);assert.equal(report.after.total,baseline.length+bundle.records.length);
+  assert(fs.existsSync(path.join(root,'total-catalog-data.js')));assert.equal(JSON.parse(fs.readFileSync(path.join(root,'data/total-catalog-provenance.json'),'utf8')).records.length,bundle.records.length);
   assert.equal(report.newDownloaded3DModels,0);assert.equal(report.newRetailOffers,0);
 });
 test('HTML integration adds the real catalog payload once and preserves specialized builder delivery',()=>{
@@ -129,6 +129,6 @@ async function checkLoader(){
   let idle,fetches=0,fail=true;
   const context={document,window:{requestIdleCallback(callback){idle=callback;}},Event:class{},CustomEvent:class{},fetch:async()=>{fetches++;return {ok:!fail,json:async()=>rows};},console};vm.createContext(context);vm.runInContext('const catalog=[{id:"existing"}]',context);vm.runInContext(api.loaderSource(),context);
   await idle();assert.equal(vm.runInContext('catalog.length',context),1);assert.equal(status.className,'empty-message');assert.match(status.textContent,/could not load/);
-  fail=false;await idle();assert.equal(vm.runInContext('catalog.length',context),64);assert.equal(search.renders,1);assert.equal(search.value,'1060');assert.equal(category.value,'gpu');assert.equal(status.className,'sr-only');await idle();assert.equal(fetches,2);assert.equal(vm.runInContext('catalog.length',context),64);passed++;console.log('PASS lazy catalog retries failures, preserves filters and applies once after rendering');
+  fail=false;await idle();assert.equal(vm.runInContext('catalog.length',context),bundle.records.length+1);assert.equal(search.renders,1);assert.equal(search.value,'1060');assert.equal(category.value,'gpu');assert.equal(status.className,'sr-only');await idle();assert.equal(fetches,2);assert.equal(vm.runInContext('catalog.length',context),bundle.records.length+1);passed++;console.log('PASS lazy catalog retries failures, preserves filters and applies once after rendering');
 }
 checkLoader().then(()=>console.log(passed+' catalog intake checks passed.')).catch(error=>{console.error(error);process.exitCode=1;});

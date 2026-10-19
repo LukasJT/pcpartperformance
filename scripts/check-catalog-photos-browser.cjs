@@ -7,7 +7,8 @@ fs.mkdirSync(directory,{recursive:true});
 const c={window:{}};require('node:vm').runInNewContext(fs.readFileSync('dist/builder-catalog.js','utf8'),c);
 const registry=require('./component-photo-catalog.cjs');
 // Baseline inspection reads only model IDs; release checks require reviewed media.
-const images=baseline?Object.assign({},...registry.files.filter(f=>fs.existsSync(path.join(__dirname,f))).map(f=>JSON.parse(fs.readFileSync(path.join(__dirname,f),'utf8')))):registry.load(c.window.PCP_BUILDER_CATALOG);
+const total=require('./total-catalog.cjs');
+const images=baseline?Object.assign({},...registry.files.filter(f=>fs.existsSync(path.join(__dirname,f))).map(f=>JSON.parse(fs.readFileSync(path.join(__dirname,f),'utf8')))):registry.load(total.prepareCatalog(total.loadExisting()));
 const preferred={cpu:'3950x',board:'b650aorus',gpu:'r9380x',ram:'ddr266-256',ssd:'kc3000',hdd:'barracuda2',psu:'focusgx850',case:'retail-lian-li-o11-air-mini-black',fan:'retail-lian-li-uni-fan-tl-120-wireless-black',cooler:'cooler-noctua-nh-u12a'};
 const chosen=slotOrder.map(cat=>images[preferred[cat]]?preferred[cat]:Object.keys(images).find(id=>c.window.PCP_BUILDER_CATALOG.find(p=>p.id===id)?.cat===cat));
 assert(chosen.every(Boolean));

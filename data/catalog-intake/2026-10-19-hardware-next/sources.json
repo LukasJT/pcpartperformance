@@ -1,0 +1,1038 @@
+{
+  "msi-cooling-mag-coreliquid-e240": {
+    "publisher": "MSI",
+    "url": "https://storage-asset.msi.com/datasheet/liquid-cooling/global/MAG-CORELIQUID-E240.pdf",
+    "productUrl": "https://www.msi.com/Liquid-Cooling/MAG-CORELIQUID-E240/Specification",
+    "inspectedAt": "2026-10-19",
+    "observedAt": "2026-10-19T22:02:34.335Z",
+    "confidence": "manufacturer-verified",
+    "inspection": "Exact named manufacturer PDF text, generation date, dimensions, socket list and color product image inspected. AI-assisted transcription and visual review; no claimed thermal measurements or physical installation test.",
+    "scope": "Datasheet generated 2024-12-04. Only facts printed for this named model are retained. E/I documents cover BLACK/WHITE jointly; this record and reviewed photo represent the standard black version only. Retail bracket contents, product revision, current market availability and an installed fit verdict remain unverified. ",
+    "sourceSha256": "c6b61e0119b4fa6802b2771b095128257600370d89d63db0001eedf4c9734ba9",
+    "sourceBytes": 599748,
+    "documentGeneratedAt": "2024-12-04",
+    "models": {
+      "MAG CORELIQUID E240": {
+        "manufacturerPartNumber": null,
+        "revision": null,
+        "facts": {
+          "coolerType": {
+            "value": "aio",
+            "unit": ""
+          },
+          "coolerSockets": {
+            "value": [
+              "LGA1150",
+              "LGA1151",
+              "LGA1155",
+              "LGA1156",
+              "LGA1200",
+              "LGA1700",
+              "LGA1851",
+              "AM5",
+              "AM4"
+            ],
+            "unit": ""
+          },
+          "radiatorSizeMm": {
+            "value": 240,
+            "unit": "mm"
+          },
+          "radiatorLengthMm": {
+            "value": 277,
+            "unit": "mm"
+          },
+          "radiatorWidthMm": {
+            "value": 119.2,
+            "unit": "mm"
+          },
+          "radiatorThicknessMm": {
+            "value": 27,
+            "unit": "mm"
+          },
+          "blockHeightMm": {
+            "value": 54.2,
+            "unit": "mm"
+          },
+          "fanSizeMm": {
+            "value": 120,
+            "unit": "mm"
+          },
+          "fanThicknessMm": {
+            "value": 25,
+            "unit": "mm"
+          },
+          "fanCount": {
+            "value": 2,
+            "unit": ""
+          },
+          "pumpConnector": {
+            "value": "4-pin",
+            "unit": ""
+          },
+          "fanConnector": {
+            "value": "4-pin",
+            "unit": ""
+          }
+        }
+      }
+    }
+  },
+  "msi-cooling-mag-coreliquid-e360": {
+    "publisher": "MSI",
+    "url": "https://storage-asset.msi.com/datasheet/liquid-cooling/global/MAG-CORELIQUID-E360.pdf",
+    "productUrl": "https://www.msi.com/Liquid-Cooling/MAG-CORELIQUID-E360/Specification",
+    "inspectedAt": "2026-10-19",
+    "observedAt": "2026-10-19T22:02:34.380Z",
+    "confidence": "manufacturer-verified",
+    "inspection": "Exact named manufacturer PDF text, generation date, dimensions, socket list and color product image inspected. AI-assisted transcription and visual review; no claimed thermal measurements or physical installation test.",
+    "scope": "Datasheet generated 2024-12-04. Only facts printed for this named model are retained. E/I documents cover BLACK/WHITE jointly; this record and reviewed photo represent the standard black version only. Retail bracket contents, product revision, current market availability and an installed fit verdict remain unverified. ",
+    "sourceSha256": "ce91a3743dfea68d154a4591956633748b56c748956724bfe860f12fe125b7c1",
+    "sourceBytes": 608300,
+    "documentGeneratedAt": "2024-12-04",
+    "models": {
+      "MAG CORELIQUID E360": {
+        "manufacturerPartNumber": null,
+        "revision": null,
+        "facts": {
+          "coolerType": {
+            "value": "aio",
+            "unit": ""
+          },
+          "coolerSockets": {
+            "value": [
+              "LGA1150",
+              "LGA1151",
+              "LGA1155",
+              "LGA1156",
+              "LGA1200",
+              "LGA1700",
+              "LGA1851",
+              "AM5",
+              "AM4",
+              "TR4",
+              "sTRX4"
+            ],
+            "unit": ""
+          },
+          "radiatorSizeMm": {
+            "value": 360,
+            "unit": "mm"
+          },
+          "radiatorLengthMm": {
+            "value": 394,
+            "unit": "mm"
+          },
+          "radiatorWidthMm": {
+            "value": 119.2,
+            "unit": "mm"
+          },
+          "radiatorThicknessMm": {
+            "value": 27,
+            "unit": "mm"
+          },
+          "blockHeightMm": {
+            "value": 54.2,
+            "unit": "mm"
+          },
+          "fanSizeMm": {
+            "value": 120,
+            "unit": "mm"
+          },
+          "fanThicknessMm": {
+            "value": 25,
+            "unit": "mm"
+          },
+          "fanCount": {
+            "value": 3,
+            "unit": ""
+          },
+          "pumpConnector": {
+            "value": "4-pin",
+            "unit": ""
+          },
+          "fanConnector": {
+            "value": "4-pin",
+            "unit": ""
+          }
+        }
+      }
+    }
+  },
+  "msi-cooling-mag-coreliquid-i240": {
+    "publisher": "MSI",
+    "url": "https://storage-asset.msi.com/datasheet/liquid-cooling/global/MAG-CORELIQUID-I240.pdf",
+    "productUrl": "https://www.msi.com/Liquid-Cooling/MAG-CORELIQUID-I240/Specification",
+    "inspectedAt": "2026-10-19",
+    "observedAt": "2026-10-19T22:02:34.382Z",
+    "confidence": "manufacturer-verified",
+    "inspection": "Exact named manufacturer PDF text, generation date, dimensions, socket list and color product image inspected. AI-assisted transcription and visual review; no claimed thermal measurements or physical installation test.",
+    "scope": "Datasheet generated 2026-04-28. Only facts printed for this named model are retained. E/I documents cover BLACK/WHITE jointly; this record and reviewed photo represent the standard black version only. Retail bracket contents, product revision, current market availability and an installed fit verdict remain unverified. ",
+    "sourceSha256": "13816e8cd18d6b7b55382c4cfa08cd4d2f64a8055083eb5e35c13de4df3282ab",
+    "sourceBytes": 553229,
+    "documentGeneratedAt": "2026-04-28",
+    "models": {
+      "MAG CORELIQUID I240": {
+        "manufacturerPartNumber": null,
+        "revision": null,
+        "facts": {
+          "coolerType": {
+            "value": "aio",
+            "unit": ""
+          },
+          "coolerSockets": {
+            "value": [
+              "LGA1150",
+              "LGA1151",
+              "LGA1155",
+              "LGA1156",
+              "LGA1200",
+              "LGA1700",
+              "LGA1851",
+              "AM5",
+              "AM4"
+            ],
+            "unit": ""
+          },
+          "radiatorSizeMm": {
+            "value": 240,
+            "unit": "mm"
+          },
+          "radiatorLengthMm": {
+            "value": 277,
+            "unit": "mm"
+          },
+          "radiatorWidthMm": {
+            "value": 119.2,
+            "unit": "mm"
+          },
+          "radiatorThicknessMm": {
+            "value": 27,
+            "unit": "mm"
+          },
+          "blockHeightMm": {
+            "value": 62.45,
+            "unit": "mm"
+          },
+          "fanSizeMm": {
+            "value": 120,
+            "unit": "mm"
+          },
+          "fanThicknessMm": {
+            "value": 25,
+            "unit": "mm"
+          },
+          "fanCount": {
+            "value": 2,
+            "unit": ""
+          },
+          "pumpConnector": {
+            "value": "4-pin PWM + 5V ARGB 3-pin (female and male)",
+            "unit": ""
+          },
+          "fanConnector": {
+            "value": "4-pin PWM + 5V ARGB 3-pin",
+            "unit": ""
+          }
+        }
+      }
+    }
+  },
+  "msi-cooling-mag-coreliquid-i360": {
+    "publisher": "MSI",
+    "url": "https://storage-asset.msi.com/datasheet/liquid-cooling/global/MAG-CORELIQUID-I360.pdf",
+    "productUrl": "https://www.msi.com/Liquid-Cooling/MAG-CORELIQUID-I360/Specification",
+    "inspectedAt": "2026-10-19",
+    "observedAt": "2026-10-19T22:02:34.383Z",
+    "confidence": "manufacturer-verified",
+    "inspection": "Exact named manufacturer PDF text, generation date, dimensions, socket list and color product image inspected. AI-assisted transcription and visual review; no claimed thermal measurements or physical installation test.",
+    "scope": "Datasheet generated 2026-04-28. Only facts printed for this named model are retained. E/I documents cover BLACK/WHITE jointly; this record and reviewed photo represent the standard black version only. Retail bracket contents, product revision, current market availability and an installed fit verdict remain unverified. The I360 PDF lists only a 5V ARGB lighting header in its Fan Connector row; a fan-motor connector is not inferred from that row.",
+    "sourceSha256": "ab4db5a6fe97351dbf353aaa3bc7ef1b1d4970b3219ab1b36f99fd83a0f12760",
+    "sourceBytes": 689007,
+    "documentGeneratedAt": "2026-04-28",
+    "models": {
+      "MAG CORELIQUID I360": {
+        "manufacturerPartNumber": null,
+        "revision": null,
+        "facts": {
+          "coolerType": {
+            "value": "aio",
+            "unit": ""
+          },
+          "coolerSockets": {
+            "value": [
+              "LGA1150",
+              "LGA1151",
+              "LGA1155",
+              "LGA1156",
+              "LGA1200",
+              "LGA1700",
+              "LGA1851",
+              "AM5",
+              "AM4"
+            ],
+            "unit": ""
+          },
+          "radiatorSizeMm": {
+            "value": 360,
+            "unit": "mm"
+          },
+          "radiatorLengthMm": {
+            "value": 394,
+            "unit": "mm"
+          },
+          "radiatorWidthMm": {
+            "value": 120,
+            "unit": "mm"
+          },
+          "radiatorThicknessMm": {
+            "value": 27,
+            "unit": "mm"
+          },
+          "blockHeightMm": {
+            "value": 62.45,
+            "unit": "mm"
+          },
+          "fanSizeMm": {
+            "value": 120,
+            "unit": "mm"
+          },
+          "fanThicknessMm": {
+            "value": 25,
+            "unit": "mm"
+          },
+          "fanCount": {
+            "value": 3,
+            "unit": ""
+          },
+          "pumpConnector": {
+            "value": "4-pin PWM + 5V ARGB 3-pin (female and male)",
+            "unit": ""
+          },
+          "fanConnector": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      }
+    }
+  },
+  "msi-cooling-mag-coreliquid-p240": {
+    "publisher": "MSI",
+    "url": "https://storage-asset.msi.com/datasheet/liquid-cooling/global/MAG-CORELIQUID-P240.pdf",
+    "productUrl": "https://www.msi.com/Liquid-Cooling/MAG-CORELIQUID-P240/Specification",
+    "inspectedAt": "2026-10-19",
+    "observedAt": "2026-10-19T22:02:35.377Z",
+    "confidence": "manufacturer-verified",
+    "inspection": "Exact named manufacturer PDF text, generation date, dimensions, socket list and color product image inspected. AI-assisted transcription and visual review; no claimed thermal measurements or physical installation test.",
+    "scope": "Datasheet generated 2024-10-15. Only facts printed for this named model are retained. E/I documents cover BLACK/WHITE jointly; this record and reviewed photo represent the standard black version only. Retail bracket contents, product revision, current market availability and an installed fit verdict remain unverified. Nominal radiator class is left unknown because this PDF publishes bare dimensions without an explicit Radiator Size row.",
+    "sourceSha256": "a753194d37244427be52230eed355cd9bbd2e6864acd53fe9903dc159d0abdc4",
+    "sourceBytes": 674568,
+    "documentGeneratedAt": "2024-10-15",
+    "models": {
+      "MAG CORELIQUID P240": {
+        "manufacturerPartNumber": null,
+        "revision": null,
+        "facts": {
+          "coolerType": {
+            "value": "aio",
+            "unit": ""
+          },
+          "coolerSockets": {
+            "value": [
+              "LGA1150",
+              "LGA1151",
+              "LGA1155",
+              "LGA1156",
+              "LGA1200",
+              "LGA1700",
+              "LGA1851",
+              "LGA1366",
+              "LGA2011",
+              "LGA2011-3",
+              "LGA2066",
+              "AM5",
+              "AM4",
+              "FM2+",
+              "FM2",
+              "FM1",
+              "AM3+",
+              "AM3",
+              "AM2+",
+              "AM2"
+            ],
+            "unit": ""
+          },
+          "radiatorSizeMm": {
+            "value": null,
+            "unit": "mm"
+          },
+          "radiatorLengthMm": {
+            "value": 276,
+            "unit": "mm"
+          },
+          "radiatorWidthMm": {
+            "value": 120,
+            "unit": "mm"
+          },
+          "radiatorThicknessMm": {
+            "value": 27,
+            "unit": "mm"
+          },
+          "blockHeightMm": {
+            "value": 52,
+            "unit": "mm"
+          },
+          "fanSizeMm": {
+            "value": 120,
+            "unit": "mm"
+          },
+          "fanThicknessMm": {
+            "value": 25,
+            "unit": "mm"
+          },
+          "fanCount": {
+            "value": 2,
+            "unit": ""
+          },
+          "pumpConnector": {
+            "value": null,
+            "unit": ""
+          },
+          "fanConnector": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      }
+    }
+  },
+  "msi-cooling-mag-coreliquid-p360": {
+    "publisher": "MSI",
+    "url": "https://storage-asset.msi.com/datasheet/liquid-cooling/global/MAG-CORELIQUID-P360.pdf",
+    "productUrl": "https://www.msi.com/Liquid-Cooling/MAG-CORELIQUID-P360/Specification",
+    "inspectedAt": "2026-10-19",
+    "observedAt": "2026-10-19T22:02:35.377Z",
+    "confidence": "manufacturer-verified",
+    "inspection": "Exact named manufacturer PDF text, generation date, dimensions, socket list and color product image inspected. AI-assisted transcription and visual review; no claimed thermal measurements or physical installation test.",
+    "scope": "Datasheet generated 2026-04-28. Only facts printed for this named model are retained. E/I documents cover BLACK/WHITE jointly; this record and reviewed photo represent the standard black version only. Retail bracket contents, product revision, current market availability and an installed fit verdict remain unverified. Nominal radiator class is left unknown because this PDF publishes bare dimensions without an explicit Radiator Size row.",
+    "sourceSha256": "251695161117fcfdadbd08d2b10e8b1a9771b69b6306f13d84e32b01076af6eb",
+    "sourceBytes": 510568,
+    "documentGeneratedAt": "2026-04-28",
+    "models": {
+      "MAG CORELIQUID P360": {
+        "manufacturerPartNumber": null,
+        "revision": null,
+        "facts": {
+          "coolerType": {
+            "value": "aio",
+            "unit": ""
+          },
+          "coolerSockets": {
+            "value": [
+              "LGA1150",
+              "LGA1151",
+              "LGA1155",
+              "LGA1156",
+              "LGA1200",
+              "LGA1700",
+              "LGA1851",
+              "LGA1366",
+              "LGA2011",
+              "LGA2011-3",
+              "LGA2066",
+              "AM5",
+              "AM4",
+              "FM2+",
+              "FM2",
+              "FM1",
+              "AM3+",
+              "AM3",
+              "AM2+",
+              "AM2",
+              "TR4",
+              "sTRX4",
+              "SP3"
+            ],
+            "unit": ""
+          },
+          "radiatorSizeMm": {
+            "value": null,
+            "unit": "mm"
+          },
+          "radiatorLengthMm": {
+            "value": 396,
+            "unit": "mm"
+          },
+          "radiatorWidthMm": {
+            "value": 120,
+            "unit": "mm"
+          },
+          "radiatorThicknessMm": {
+            "value": 27,
+            "unit": "mm"
+          },
+          "blockHeightMm": {
+            "value": 52,
+            "unit": "mm"
+          },
+          "fanSizeMm": {
+            "value": 120,
+            "unit": "mm"
+          },
+          "fanThicknessMm": {
+            "value": 25,
+            "unit": "mm"
+          },
+          "fanCount": {
+            "value": 3,
+            "unit": ""
+          },
+          "pumpConnector": {
+            "value": null,
+            "unit": ""
+          },
+          "fanConnector": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      }
+    }
+  },
+  "msi-cooling-mag-coreliquid-c240": {
+    "publisher": "MSI",
+    "url": "https://storage-asset.msi.com/datasheet/liquid-cooling/global/MAG-CORELIQUID-C240.pdf",
+    "productUrl": "https://www.msi.com/Liquid-Cooling/MAG-CORELIQUID-C240/Specification",
+    "inspectedAt": "2026-10-19",
+    "observedAt": "2026-10-19T22:02:35.378Z",
+    "confidence": "manufacturer-verified",
+    "inspection": "Exact named manufacturer PDF text, generation date, dimensions, socket list and color product image inspected. AI-assisted transcription and visual review; no claimed thermal measurements or physical installation test.",
+    "scope": "Datasheet generated 2024-10-18. Only facts printed for this named model are retained. E/I documents cover BLACK/WHITE jointly; this record and reviewed photo represent the standard black version only. Retail bracket contents, product revision, current market availability and an installed fit verdict remain unverified. Nominal radiator class is left unknown because this PDF publishes bare dimensions without an explicit Radiator Size row.",
+    "sourceSha256": "bb86f5e74bedecc3406accde3a80d8e620d59065f53ac08c47e8cfea9824439b",
+    "sourceBytes": 647391,
+    "documentGeneratedAt": "2024-10-18",
+    "models": {
+      "MAG CORELIQUID C240": {
+        "manufacturerPartNumber": null,
+        "revision": null,
+        "facts": {
+          "coolerType": {
+            "value": "aio",
+            "unit": ""
+          },
+          "coolerSockets": {
+            "value": [
+              "LGA1150",
+              "LGA1151",
+              "LGA1155",
+              "LGA1156",
+              "LGA1200",
+              "LGA1700",
+              "LGA1851",
+              "LGA1366",
+              "LGA2011",
+              "LGA2011-3",
+              "LGA2066",
+              "AM5",
+              "AM4",
+              "FM2+",
+              "FM2",
+              "FM1",
+              "AM3+",
+              "AM3",
+              "AM2+",
+              "AM2"
+            ],
+            "unit": ""
+          },
+          "radiatorSizeMm": {
+            "value": null,
+            "unit": "mm"
+          },
+          "radiatorLengthMm": {
+            "value": 276,
+            "unit": "mm"
+          },
+          "radiatorWidthMm": {
+            "value": 120,
+            "unit": "mm"
+          },
+          "radiatorThicknessMm": {
+            "value": 27,
+            "unit": "mm"
+          },
+          "blockHeightMm": {
+            "value": 52,
+            "unit": "mm"
+          },
+          "fanSizeMm": {
+            "value": 120,
+            "unit": "mm"
+          },
+          "fanThicknessMm": {
+            "value": 25,
+            "unit": "mm"
+          },
+          "fanCount": {
+            "value": 2,
+            "unit": ""
+          },
+          "pumpConnector": {
+            "value": null,
+            "unit": ""
+          },
+          "fanConnector": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      }
+    }
+  },
+  "msi-cooling-mag-coreliquid-c280": {
+    "publisher": "MSI",
+    "url": "https://storage-asset.msi.com/datasheet/liquid-cooling/global/MAG-CORELIQUID-C280.pdf",
+    "productUrl": "https://www.msi.com/Liquid-Cooling/MAG-CORELIQUID-C280/Specification",
+    "inspectedAt": "2026-10-19",
+    "observedAt": "2026-10-19T22:02:35.378Z",
+    "confidence": "manufacturer-verified",
+    "inspection": "Exact named manufacturer PDF text, generation date, dimensions, socket list and color product image inspected. AI-assisted transcription and visual review; no claimed thermal measurements or physical installation test.",
+    "scope": "Datasheet generated 2024-10-18. Only facts printed for this named model are retained. E/I documents cover BLACK/WHITE jointly; this record and reviewed photo represent the standard black version only. Retail bracket contents, product revision, current market availability and an installed fit verdict remain unverified. Nominal radiator class is left unknown because this PDF publishes bare dimensions without an explicit Radiator Size row.",
+    "sourceSha256": "b26856fea98cd44b531873459339a14310547f6c5dc39937e8eda6b0b27dce3b",
+    "sourceBytes": 655365,
+    "documentGeneratedAt": "2024-10-18",
+    "models": {
+      "MAG CORELIQUID C280": {
+        "manufacturerPartNumber": null,
+        "revision": null,
+        "facts": {
+          "coolerType": {
+            "value": "aio",
+            "unit": ""
+          },
+          "coolerSockets": {
+            "value": [
+              "LGA1150",
+              "LGA1151",
+              "LGA1155",
+              "LGA1156",
+              "LGA1200",
+              "LGA1700",
+              "LGA1851",
+              "LGA1366",
+              "LGA2011",
+              "LGA2011-3",
+              "LGA2066",
+              "AM5",
+              "AM4",
+              "FM2+",
+              "FM2",
+              "FM1",
+              "AM3+",
+              "AM3",
+              "AM2+",
+              "AM2"
+            ],
+            "unit": ""
+          },
+          "radiatorSizeMm": {
+            "value": null,
+            "unit": "mm"
+          },
+          "radiatorLengthMm": {
+            "value": 316,
+            "unit": "mm"
+          },
+          "radiatorWidthMm": {
+            "value": 140,
+            "unit": "mm"
+          },
+          "radiatorThicknessMm": {
+            "value": 27,
+            "unit": "mm"
+          },
+          "blockHeightMm": {
+            "value": 52,
+            "unit": "mm"
+          },
+          "fanSizeMm": {
+            "value": 140,
+            "unit": "mm"
+          },
+          "fanThicknessMm": {
+            "value": 25,
+            "unit": "mm"
+          },
+          "fanCount": {
+            "value": 2,
+            "unit": ""
+          },
+          "pumpConnector": {
+            "value": null,
+            "unit": ""
+          },
+          "fanConnector": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      }
+    }
+  },
+  "msi-cooling-mag-coreliquid-c360": {
+    "publisher": "MSI",
+    "url": "https://storage-asset.msi.com/datasheet/liquid-cooling/global/MAG-CORELIQUID-C360.pdf",
+    "productUrl": "https://www.msi.com/Liquid-Cooling/MAG-CORELIQUID-C360/Specification",
+    "inspectedAt": "2026-10-19",
+    "observedAt": "2026-10-19T22:02:36.262Z",
+    "confidence": "manufacturer-verified",
+    "inspection": "Exact named manufacturer PDF text, generation date, dimensions, socket list and color product image inspected. AI-assisted transcription and visual review; no claimed thermal measurements or physical installation test.",
+    "scope": "Datasheet generated 2024-10-18. Only facts printed for this named model are retained. E/I documents cover BLACK/WHITE jointly; this record and reviewed photo represent the standard black version only. Retail bracket contents, product revision, current market availability and an installed fit verdict remain unverified. Nominal radiator class is left unknown because this PDF publishes bare dimensions without an explicit Radiator Size row.",
+    "sourceSha256": "8a5e82c544708b4da5793152600b57598d62eb166fba6b76deee83b018af7bc8",
+    "sourceBytes": 747581,
+    "documentGeneratedAt": "2024-10-18",
+    "models": {
+      "MAG CORELIQUID C360": {
+        "manufacturerPartNumber": null,
+        "revision": null,
+        "facts": {
+          "coolerType": {
+            "value": "aio",
+            "unit": ""
+          },
+          "coolerSockets": {
+            "value": [
+              "LGA1150",
+              "LGA1151",
+              "LGA1155",
+              "LGA1156",
+              "LGA1200",
+              "LGA1700",
+              "LGA1851",
+              "LGA1366",
+              "LGA2011",
+              "LGA2011-3",
+              "LGA2066",
+              "AM5",
+              "AM4",
+              "FM2+",
+              "FM2",
+              "FM1",
+              "AM3+",
+              "AM3",
+              "AM2+",
+              "AM2",
+              "TR4",
+              "sTRX4",
+              "SP3"
+            ],
+            "unit": ""
+          },
+          "radiatorSizeMm": {
+            "value": null,
+            "unit": "mm"
+          },
+          "radiatorLengthMm": {
+            "value": 396,
+            "unit": "mm"
+          },
+          "radiatorWidthMm": {
+            "value": 120,
+            "unit": "mm"
+          },
+          "radiatorThicknessMm": {
+            "value": 27,
+            "unit": "mm"
+          },
+          "blockHeightMm": {
+            "value": 52,
+            "unit": "mm"
+          },
+          "fanSizeMm": {
+            "value": 120,
+            "unit": "mm"
+          },
+          "fanThicknessMm": {
+            "value": 25,
+            "unit": "mm"
+          },
+          "fanCount": {
+            "value": 3,
+            "unit": ""
+          },
+          "pumpConnector": {
+            "value": null,
+            "unit": ""
+          },
+          "fanConnector": {
+            "value": null,
+            "unit": ""
+          }
+        }
+      }
+    }
+  },
+  "msi-cooling-mpg-coreliquid-k240": {
+    "publisher": "MSI",
+    "url": "https://storage-asset.msi.com/datasheet/liquid-cooling/global/MPG-CORELIQUID-K240.pdf",
+    "productUrl": "https://www.msi.com/Liquid-Cooling/MPG-CORELIQUID-K240/Specification",
+    "inspectedAt": "2026-10-19",
+    "observedAt": "2026-10-19T22:02:36.263Z",
+    "confidence": "manufacturer-verified",
+    "inspection": "Exact named manufacturer PDF text, generation date, dimensions, socket list and color product image inspected. AI-assisted transcription and visual review; no claimed thermal measurements or physical installation test.",
+    "scope": "Datasheet generated 2023-11-15. Only facts printed for this named model are retained. E/I documents cover BLACK/WHITE jointly; this record and reviewed photo represent the standard black version only. Retail bracket contents, product revision, current market availability and an installed fit verdict remain unverified. The inspected source also lists a USB 2.0 pin-header interface and SATA power; check available internal headers and power connections. The inspected K-series PDF does not document LGA1700 or LGA1851; newer bracket or revision support must be checked separately.",
+    "sourceSha256": "1f2765021a43603bf96df3faa3a4b1ca4183826c8096a5c6ac2d4121c444457a",
+    "sourceBytes": 832688,
+    "documentGeneratedAt": "2023-11-15",
+    "models": {
+      "MPG CORELIQUID K240": {
+        "manufacturerPartNumber": null,
+        "revision": null,
+        "facts": {
+          "coolerType": {
+            "value": "aio",
+            "unit": ""
+          },
+          "coolerSockets": {
+            "value": [
+              "LGA1200",
+              "LGA1151",
+              "LGA1150",
+              "LGA1155",
+              "LGA1156",
+              "LGA2066",
+              "LGA2011-3",
+              "LGA2011",
+              "AM5",
+              "AM4",
+              "FM2+",
+              "FM2",
+              "FM1",
+              "AM3+",
+              "AM3",
+              "AM2+",
+              "AM2",
+              "TR4",
+              "sTRX4",
+              "SP3"
+            ],
+            "unit": ""
+          },
+          "radiatorSizeMm": {
+            "value": 240,
+            "unit": "mm"
+          },
+          "radiatorLengthMm": {
+            "value": 272.5,
+            "unit": "mm"
+          },
+          "radiatorWidthMm": {
+            "value": 120,
+            "unit": "mm"
+          },
+          "radiatorThicknessMm": {
+            "value": 27,
+            "unit": "mm"
+          },
+          "blockHeightMm": {
+            "value": 94,
+            "unit": "mm"
+          },
+          "fanSizeMm": {
+            "value": 120,
+            "unit": "mm"
+          },
+          "fanThicknessMm": {
+            "value": 25,
+            "unit": "mm"
+          },
+          "fanCount": {
+            "value": 2,
+            "unit": ""
+          },
+          "pumpConnector": {
+            "value": "4-pin PWM",
+            "unit": ""
+          },
+          "fanConnector": {
+            "value": "4-pin PWM",
+            "unit": ""
+          }
+        }
+      }
+    }
+  },
+  "msi-cooling-mpg-coreliquid-k360": {
+    "publisher": "MSI",
+    "url": "https://storage-asset.msi.com/datasheet/liquid-cooling/global/MPG-CORELIQUID-K360.pdf",
+    "productUrl": "https://www.msi.com/Liquid-Cooling/MPG-CORELIQUID-K360/Specification",
+    "inspectedAt": "2026-10-19",
+    "observedAt": "2026-10-19T22:02:36.263Z",
+    "confidence": "manufacturer-verified",
+    "inspection": "Exact named manufacturer PDF text, generation date, dimensions, socket list and color product image inspected. AI-assisted transcription and visual review; no claimed thermal measurements or physical installation test.",
+    "scope": "Datasheet generated 2024-03-04. Only facts printed for this named model are retained. E/I documents cover BLACK/WHITE jointly; this record and reviewed photo represent the standard black version only. Retail bracket contents, product revision, current market availability and an installed fit verdict remain unverified. The inspected source also lists a USB 2.0 pin-header interface and SATA power; check available internal headers and power connections. The inspected K-series PDF does not document LGA1700 or LGA1851; newer bracket or revision support must be checked separately.",
+    "sourceSha256": "132caca4a3dfeeba773a508551e02e3065b7c6f72ed041efa9c25f2de0b22b9d",
+    "sourceBytes": 661296,
+    "documentGeneratedAt": "2024-03-04",
+    "models": {
+      "MPG CORELIQUID K360": {
+        "manufacturerPartNumber": null,
+        "revision": null,
+        "facts": {
+          "coolerType": {
+            "value": "aio",
+            "unit": ""
+          },
+          "coolerSockets": {
+            "value": [
+              "LGA1200",
+              "LGA1151",
+              "LGA1150",
+              "LGA1155",
+              "LGA1156",
+              "LGA2066",
+              "LGA2011-3",
+              "LGA2011",
+              "AM5",
+              "AM4",
+              "FM2+",
+              "FM2",
+              "FM1",
+              "AM3+",
+              "AM3",
+              "AM2+",
+              "AM2",
+              "TR4",
+              "sTRX4",
+              "SP3"
+            ],
+            "unit": ""
+          },
+          "radiatorSizeMm": {
+            "value": 360,
+            "unit": "mm"
+          },
+          "radiatorLengthMm": {
+            "value": 394,
+            "unit": "mm"
+          },
+          "radiatorWidthMm": {
+            "value": 120,
+            "unit": "mm"
+          },
+          "radiatorThicknessMm": {
+            "value": 27,
+            "unit": "mm"
+          },
+          "blockHeightMm": {
+            "value": 94,
+            "unit": "mm"
+          },
+          "fanSizeMm": {
+            "value": 120,
+            "unit": "mm"
+          },
+          "fanThicknessMm": {
+            "value": 25,
+            "unit": "mm"
+          },
+          "fanCount": {
+            "value": 3,
+            "unit": ""
+          },
+          "pumpConnector": {
+            "value": "4-pin PWM",
+            "unit": ""
+          },
+          "fanConnector": {
+            "value": "4-pin PWM",
+            "unit": ""
+          }
+        }
+      }
+    }
+  },
+  "msi-cooling-meg-coreliquid-s360": {
+    "publisher": "MSI",
+    "url": "https://storage-asset.msi.com/datasheet/liquid-cooling/global/MEG-CORELIQUID-S360.pdf",
+    "productUrl": "https://www.msi.com/Liquid-Cooling/MEG-CORELIQUID-S360/Specification",
+    "inspectedAt": "2026-10-19",
+    "observedAt": "2026-10-19T22:02:36.263Z",
+    "confidence": "manufacturer-verified",
+    "inspection": "Exact named manufacturer PDF text, generation date, dimensions, socket list and color product image inspected. AI-assisted transcription and visual review; no claimed thermal measurements or physical installation test.",
+    "scope": "Datasheet generated 2026-04-28. Only facts printed for this named model are retained. E/I documents cover BLACK/WHITE jointly; this record and reviewed photo represent the standard black version only. Retail bracket contents, product revision, current market availability and an installed fit verdict remain unverified. The inspected source also lists a USB 2.0 pin-header interface and SATA power; check available internal headers and power connections.",
+    "sourceSha256": "df9b654370f6086d872436d9627f62a2869942c2042c478905bdeaa527668d91",
+    "sourceBytes": 465598,
+    "documentGeneratedAt": "2026-04-28",
+    "models": {
+      "MEG CORELIQUID S360": {
+        "manufacturerPartNumber": null,
+        "revision": null,
+        "facts": {
+          "coolerType": {
+            "value": "aio",
+            "unit": ""
+          },
+          "coolerSockets": {
+            "value": [
+              "LGA1851",
+              "LGA1700",
+              "LGA1200",
+              "LGA1151",
+              "LGA1150",
+              "LGA1155",
+              "LGA1156",
+              "AM5",
+              "AM4",
+              "TR4",
+              "sTRX4",
+              "SP3"
+            ],
+            "unit": ""
+          },
+          "radiatorSizeMm": {
+            "value": 360,
+            "unit": "mm"
+          },
+          "radiatorLengthMm": {
+            "value": 394,
+            "unit": "mm"
+          },
+          "radiatorWidthMm": {
+            "value": 120,
+            "unit": "mm"
+          },
+          "radiatorThicknessMm": {
+            "value": 27,
+            "unit": "mm"
+          },
+          "blockHeightMm": {
+            "value": 83.53,
+            "unit": "mm"
+          },
+          "fanSizeMm": {
+            "value": 120,
+            "unit": "mm"
+          },
+          "fanThicknessMm": {
+            "value": 27.5,
+            "unit": "mm"
+          },
+          "fanCount": {
+            "value": 3,
+            "unit": ""
+          },
+          "pumpConnector": {
+            "value": "4-pin PWM",
+            "unit": ""
+          },
+          "fanConnector": {
+            "value": "4-pin PWM",
+            "unit": ""
+          }
+        }
+      }
+    }
+  }
+}

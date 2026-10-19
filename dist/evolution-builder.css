@@ -3,20 +3,22 @@
 body[data-build-workspace] [data-evolution-builder]{--evo-gap:clamp(16px,2vw,24px)}
 body[data-build-workspace] [data-evolution-ready] [data-evolution-stage-panel][hidden],
 body[data-build-workspace] [data-evolution-ready] .builder-rail[hidden]{display:none!important}
-body[data-build-workspace] [data-evolution-ready] .builder-shell{grid-template-columns:minmax(0,1fr);max-width:1100px;margin-inline:auto;gap:var(--evo-gap)}
+/* Reserve the final heading and workflow geometry before deferred controllers
+   mount. Only interaction-dependent panel visibility waits for readiness. */
+body[data-build-workspace] [data-evolution-builder] .builder-shell{grid-template-columns:minmax(0,1fr);max-width:1100px;margin-inline:auto;gap:var(--evo-gap)}
 body[data-build-workspace] [data-evolution-stage=parts] .builder-shell{max-width:900px}
-body[data-build-workspace] [data-evolution-ready] .builder-parts{width:100%;padding:0}
-body[data-build-workspace] [data-evolution-ready] .builder-heading{padding-block:16px 28px;margin:0;gap:24px}
-body[data-build-workspace] [data-evolution-ready] .builder-heading h1{margin-bottom:12px}
-body[data-build-workspace] [data-evolution-ready] .builder-heading p{font-size:1.05rem;line-height:1.6;max-width:48ch}
-body[data-build-workspace] [data-evolution-ready] .builder-heading .eyebrow{display:none}
-body[data-build-workspace] [data-evolution-ready] .builder-actions{gap:10px}
-body[data-build-workspace] [data-evolution-ready] #builder-workflow{position:relative;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;padding:6px;margin:0 0 clamp(28px,4vw,44px);border:1px solid var(--line);border-radius:18px;background:color-mix(in srgb,var(--surface) 90%,transparent)}
-body[data-build-workspace] [data-evolution-ready] #builder-workflow a{position:relative;min-height:64px;padding:14px 18px;border:1px solid transparent;border-radius:12px;background:transparent;gap:12px;justify-content:center;color:var(--muted);transform:none}
-body[data-build-workspace] [data-evolution-ready] #builder-workflow a[aria-current=step]{background:color-mix(in srgb,var(--accent) 11%,var(--surface));border-color:color-mix(in srgb,var(--accent-ink) 38%,var(--line));color:var(--ink);box-shadow:0 3px 12px #00000009}
-body[data-build-workspace] [data-evolution-ready] #builder-workflow a[aria-current=step]::after{position:absolute;content:"";height:3px;bottom:-1px;left:25%;right:25%;border-radius:4px;background:var(--accent-ink)}
-body[data-build-workspace] [data-evolution-ready] #builder-workflow strong{font-size:.95rem;font-weight:650;line-height:1.4}
-body[data-build-workspace] [data-evolution-ready] #builder-workflow svg{width:22px;height:22px;flex-basis:22px}
+body[data-build-workspace] [data-evolution-builder] .builder-parts{width:100%;padding:0}
+body[data-build-workspace] [data-evolution-builder] .builder-heading{padding-block:16px 28px;margin:0;gap:24px}
+body[data-build-workspace] [data-evolution-builder] .builder-heading h1{margin-bottom:12px}
+body[data-build-workspace] [data-evolution-builder] .builder-heading p{font-size:1.05rem;line-height:1.6;max-width:48ch}
+body[data-build-workspace] [data-evolution-builder] .builder-heading .eyebrow{display:none}
+body[data-build-workspace] [data-evolution-builder] .builder-actions{gap:10px}
+body[data-build-workspace] [data-evolution-builder] #builder-workflow{position:relative;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;padding:6px;margin:0 0 clamp(28px,4vw,44px);border:1px solid var(--line);border-radius:18px;background:color-mix(in srgb,var(--surface) 90%,transparent)}
+body[data-build-workspace] [data-evolution-builder] #builder-workflow a{position:relative;min-height:64px;padding:14px 18px;border:1px solid transparent;border-radius:12px;background:transparent;gap:12px;justify-content:center;color:var(--muted);transform:none}
+body[data-build-workspace] [data-evolution-builder] #builder-workflow a[aria-current=step]{background:color-mix(in srgb,var(--accent) 11%,var(--surface));border-color:color-mix(in srgb,var(--accent-ink) 38%,var(--line));color:var(--ink);box-shadow:0 3px 12px #00000009}
+body[data-build-workspace] [data-evolution-builder] #builder-workflow a[aria-current=step]::after{position:absolute;content:"";height:3px;bottom:-1px;left:25%;right:25%;border-radius:4px;background:var(--accent-ink)}
+body[data-build-workspace] [data-evolution-builder] #builder-workflow strong{font-size:.95rem;font-weight:650;line-height:1.4}
+body[data-build-workspace] [data-evolution-builder] #builder-workflow svg{width:22px;height:22px;flex-basis:22px}
 body[data-build-workspace] [data-evolution-ready] .oct16-guidance{margin:0 0 18px}
 body[data-build-workspace] [data-evolution-ready] .oct16-guidance-head{align-items:center;gap:20px;margin-bottom:20px}
 body[data-build-workspace] [data-evolution-ready] .oct16-guidance-head h2{font-size:1.55rem;line-height:1.3;letter-spacing:-.025em}
@@ -109,7 +111,7 @@ body[data-build-workspace] dialog.builder-picker{width:min(780px,calc(100vw - 40
 .builder-picker :is(.select-close,.builder-picker-skip,.builder-picker-reset,summary):focus-visible{outline:2px solid var(--accent-ink);outline-offset:3px}
 
 @media(hover:hover) and (pointer:fine) and (prefers-reduced-motion:no-preference){
- body[data-build-workspace] [data-evolution-ready] #builder-workflow a{transition:background .22s,border-color .22s,color .22s,box-shadow .22s}
+ body[data-build-workspace] [data-evolution-builder] #builder-workflow a{transition:background .22s,border-color .22s,color .22s,box-shadow .22s}
 }
 @media(prefers-reduced-motion:no-preference){
  body[data-build-workspace] [data-evolution-ready] [data-evolution-stage-panel]:not([hidden]){animation:evolution-panel-in .23s cubic-bezier(.2,.75,.25,1) both}
@@ -119,15 +121,15 @@ body[data-build-workspace] dialog.builder-picker{width:min(780px,calc(100vw - 40
 @keyframes evolution-panel-in{from{opacity:.5;transform:translateY(6px)}to{opacity:1;transform:none}}
 @keyframes evolution-picker-in{from{opacity:.5;transform:translateY(12px)}to{opacity:1;transform:none}}
 @media(max-width:600px){
- body[data-build-workspace] [data-evolution-ready] .builder-heading{padding-block:8px 24px;gap:22px}
- body[data-build-workspace] [data-evolution-ready] .builder-heading h1{font-size:clamp(2.05rem,8vw,2.6rem);line-height:1.1}
- body[data-build-workspace] [data-evolution-ready] .builder-heading p{font-size:.98rem;line-height:1.6}
- body[data-build-workspace] [data-evolution-ready] .builder-actions{width:100%;display:grid;grid-template-columns:1fr 1.35fr;gap:10px}
- body[data-build-workspace] [data-evolution-ready] .builder-actions .button{min-height:48px;padding:12px 10px;font-size:.86rem;line-height:1.45;justify-content:center}
- body[data-build-workspace] [data-evolution-ready] #builder-workflow{gap:4px;border-radius:14px;padding:4px;margin-bottom:30px}
- body[data-build-workspace] [data-evolution-ready] #builder-workflow a{flex-direction:column;gap:6px;padding:10px 6px;min-height:68px;text-align:center;border-radius:10px;justify-content:flex-start}
- body[data-build-workspace] [data-evolution-ready] #builder-workflow strong{font-size:.76rem;line-height:1.35;min-height:1.35em;display:flex;align-items:center;justify-content:center}
- body[data-build-workspace] [data-evolution-ready] #builder-workflow svg{width:23px;height:23px;flex-basis:23px}
+ body[data-build-workspace] [data-evolution-builder] .builder-heading{padding-block:8px 24px;gap:22px}
+ body[data-build-workspace] [data-evolution-builder] .builder-heading h1{font-size:clamp(2.05rem,8vw,2.6rem);line-height:1.1}
+ body[data-build-workspace] [data-evolution-builder] .builder-heading p{font-size:.98rem;line-height:1.6}
+ body[data-build-workspace] [data-evolution-builder] .builder-actions{width:100%;display:grid;grid-template-columns:1fr 1.35fr;gap:10px}
+ body[data-build-workspace] [data-evolution-builder] .builder-actions .button{min-height:48px;padding:12px 10px;font-size:.86rem;line-height:1.45;justify-content:center}
+ body[data-build-workspace] [data-evolution-builder] #builder-workflow{gap:4px;border-radius:14px;padding:4px;margin-bottom:30px}
+ body[data-build-workspace] [data-evolution-builder] #builder-workflow a{flex-direction:column;gap:6px;padding:10px 6px;min-height:68px;text-align:center;border-radius:10px;justify-content:flex-start}
+ body[data-build-workspace] [data-evolution-builder] #builder-workflow strong{font-size:.76rem;line-height:1.35;min-height:1.35em;display:flex;align-items:center;justify-content:center}
+ body[data-build-workspace] [data-evolution-builder] #builder-workflow svg{width:23px;height:23px;flex-basis:23px}
  body[data-build-workspace] [data-evolution-ready] .oct16-guidance-head{gap:12px;flex-wrap:wrap;margin-bottom:18px}
  body[data-build-workspace] [data-evolution-ready] .oct16-guidance-head h2{font-size:1.35rem}
  body[data-build-workspace] [data-evolution-ready] .oct16-modes{margin-left:auto}
@@ -197,7 +199,7 @@ body[data-build-workspace] dialog.builder-picker{width:min(780px,calc(100vw - 40
 @media print{
  body[data-build-workspace] [data-evolution-ready] [data-evolution-stage-panel][hidden],body[data-build-workspace] [data-evolution-ready] .builder-rail[hidden]{display:block!important}
  .evolution-selection-progress,#builder-workflow,.oct16-guidance,.oct16-step-nav{display:none!important}
- body[data-build-workspace] [data-evolution-ready] .builder-shell{display:block}
+ body[data-build-workspace] [data-evolution-builder] .builder-shell{display:block}
 }
 /* Selection work uses compact density. The reading and review layers retain
    comfortable text; controls remain at least 44px tall. */

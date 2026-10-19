@@ -5,7 +5,8 @@ import vm from 'node:vm';
 import registry from './component-photo-catalog.cjs';
 const expected=process.argv[2],origin='https://www.pcpartperformance.com',checks=[],context={window:{}};
 assert.match(expected||'',/^[a-f0-9]{40}$/);vm.runInNewContext(fs.readFileSync('dist/builder-catalog.js','utf8'),context);
-const repairs=registry.load(context.window.PCP_BUILDER_CATALOG),images=JSON.parse(fs.readFileSync('dist/images.json','utf8'));
+const {default:total}=await import('./total-catalog.cjs');
+const repairs=registry.load(total.prepareCatalog(total.loadExisting())),images=JSON.parse(fs.readFileSync('dist/images.json','utf8'));
 async function get(route){const r=await fetch(origin+route,{headers:{'Cache-Control':'no-cache'},signal:AbortSignal.timeout(25000)});assert.equal(r.status,200,route);return{response:r,bytes:Buffer.from(await r.arrayBuffer())};}
 const release=JSON.parse((await get('/data/release.json')).bytes.toString());assert.equal(release.commit,expected);assert.equal(release.staging,false);
 for(const route of ['/builder-images.js','/image-catalog-lite.js','/image-catalog.js']){const {bytes}=await get(route);assert.equal(bytes.toString().replace(/\r\n/g,'\n'),fs.readFileSync('dist'+route,'utf8').replace(/\r\n/g,'\n'));checks.push({route,matchesBuild:true});}

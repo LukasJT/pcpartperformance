@@ -208,6 +208,7 @@ const candidates = [
   {model:'VENGEANCE CS-9050136-NA',url:'https://www.corsair.com/us/en/p/gaming-computers/cs-9050136-na/vengeance-a7500-gaming-pc-amd-ryzen-9-9900x3d-geforce-rtx-5080-32gb-ddr5-2tb-ssd-win11-home-cs-9050136-na',reason:'Exact selected page could not be retrieved; comparison-card-only facts not published as a completed record.',status:'source-unavailable'},
   {model:'Legion T7 34IAS10 90Y6006HCF',url:'https://psref.lenovo.com/Detail/Legion_T7_34IAS10?M=90Y6006HCF',reason:'Exact model already exists in the inherited Canadian retailer cohort. Manufacturer column inspected but not counted or imported as a new configuration.',status:'already-indexed'},
 ];
+const reviewedExports=require('./total-prebuilts-psref-import.cjs').augment({sources,records});
 fs.mkdirSync(directory,{recursive:true});
 for (const [file, value] of Object.entries({'sources.json':sources,'batch.json':records,'candidates.json':candidates})) fs.writeFileSync(path.join(directory,file),JSON.stringify(value,null,2)+'\n');
-console.log(`Authored ${records.length} exact prebuilt SKU packets; ${candidates.length} excluded candidates.`);
+console.log(`Authored ${records.length} exact prebuilt SKU packets; ${candidates.length} excluded candidates. Reviewed export rows: ${reviewedExports.map(r=>r.reviewedRows).join('+')}.`);

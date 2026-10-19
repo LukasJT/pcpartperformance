@@ -11,9 +11,9 @@ test('practical catalog and workspace exclude explicit reference-only parts whil
  const context={window:{}};vm.runInNewContext(fs.readFileSync('dist/builder-catalog.js','utf8'),context);const catalog=context.window.PCP_BUILDER_CATALOG;
  for(const id of ['intel4004','completion-cpu-intel-core-i5-661','retail-cooler-master-masterbox-lite-5']){assert(!catalog.some(p=>p.id===id));assert(!/href="\/builder\/\?build=/.test(html('/learn/'+id+'.html')));assert(!html('/my-pc/').match(/id="workspace-catalog">[^<]*/)?.[0].includes('"id":"'+id+'"'));}
  for(const id of ['completion-cpu-intel-core-i5-661','retail-cooler-master-masterbox-lite-5'])assert(manifest.routes['/learn/'+id+'.html'].noindex);
- assert.equal(catalog.filter(p=>p.cat==='cooler').length,13);
+ assert.equal(catalog.filter(p=>p.cat==='cooler').length,13+require('./total-catalog.cjs').loadPackets().records.filter(p=>p.cat==='cooler').length);
  assert(catalog.find(p=>p.id==='retail-corsair-carbide-200r-black').sku==='CC-9011023-WW');
- const library=JSON.parse(fs.readFileSync('dist/model-library.json','utf8'));assert.equal(library.total,library.items.length);assert.equal(library.practicalBuilder.total,catalog.length);assert.equal(library.downloaded,115);assert.equal(library.verified,0);assert(html('/builder/model-coverage/').includes('CPU coolers'));
+ const library=JSON.parse(fs.readFileSync('dist/model-library.json','utf8'));assert.equal(library.total,library.items.length);assert.equal(library.practicalBuilder.total,catalog.filter(p=>p.builderEligible!==false).length);assert.equal(catalog.filter(p=>p.identityStatus==='needs-exact-identity').length,7);assert.equal(library.downloaded,115);assert.equal(library.verified,0);assert(html('/builder/model-coverage/').includes('CPU coolers'));
 });
 test('all priced history rows stay separate from offers and only their product pages load the history UI',()=>{
  const history=JSON.parse(fs.readFileSync('data/public-price-history.json','utf8'));assert(history.observations.length>=16);

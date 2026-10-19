@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-10-19T20:31:45.441Z",
-  "commands": 97,
-  "passed": 97,
+  "checkedAt": "2026-10-19T22:44:16.087Z",
+  "commands": 108,
+  "passed": 108,
   "results": [
     {
       "command": "node scripts/check-program.cjs",
@@ -235,6 +235,61 @@
     },
     {
       "command": "node scripts/test-guide-directory.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/total-photo-coverage-oct19.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node --test scripts/oct19-delivery-packing.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node --test scripts/component-photo-total-reference-oct19.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node --test scripts/compatibility-intake-oct19.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node --test scripts/component-photo-total-cpu-oct19.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node --test scripts/identity-integration-oct19.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node --test scripts/total-hardware-next-oct19.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node --test scripts/photos-kingston-oct19.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node --test scripts/component-photo-total-gpu-oct19.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node --test scripts/identity-review-oct19.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node --test scripts/total-cooling-schema.test.cjs",
       "exitCode": 0,
       "passed": true
     },

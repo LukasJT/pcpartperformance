@@ -1,8 +1,8 @@
 'use strict';
 const {test}=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),vm=require('node:vm');
 const registry=require('./component-photo-catalog.cjs'),delivery=require('./builder-photo-delivery.cjs'),thumbnails=require('./program-image-delivery.cjs');
-const root=path.resolve('dist'),context={window:{}};vm.runInNewContext(fs.readFileSync('dist/builder-catalog.js','utf8'),context);
-const parts=context.window.PCP_BUILDER_CATALOG,images=registry.load(parts),part=id=>parts.find(p=>p.id===id);
+const root=path.resolve('dist'),total=require('./total-catalog.cjs');
+const parts=total.prepareCatalog(total.loadExisting()),images=registry.load(parts),part=id=>parts.find(p=>p.id===id);
 test('every catalog repair has a reviewed identity, unchanged full image and thumbnail, and a source record',()=>{assert(Object.keys(images).length>=348);assert.deepEqual(registry.validate(parts,images),[]);});
 test('a generic GPU must match both the selected chip and its memory capacity',()=>{
  const [id,image]=Object.entries(images).find(([,i])=>i.kind==='same-chip-variant');assert(id);
@@ -57,13 +57,14 @@ test('the repaired GPU photo cohort remains covered; new intake without licensed
 test('the generated image map is consistent with all reviewed corrections and never substitutes an unmatched component',()=>{
  const generated=JSON.parse(fs.readFileSync('dist/images.json','utf8'));
  for(const[id,image]of Object.entries(images))assert.equal(generated[id]?.src,image.src,id);
- for(const p of parts)if(generated[p.id])assert(delivery.entry(p,generated[p.id],root),p.id+' has an unmatched image');
+ for(const p of parts.filter(part=>registry.categories.has(part.cat)))if(generated[p.id])assert(delivery.entry(p,generated[p.id],root),p.id+' has an unmatched component image');
 });
 test('every repaired product page delivers its own full picture and keeps the source disclosure',()=>{
  for(const[id,image]of Object.entries(images)){
   const html=fs.readFileSync(path.join(root,'learn',id+'.html'),'utf8');
   assert(html.includes('src="'+image.src+'"'),id+' product page is using a stale photo');
   assert(html.includes('Image source'),id+' source disclosure missing');
+  if(image.modifications)assert(html.includes('Image changes:'),id+' derivative change notice missing');
  }
  const ctx={window:{}};vm.runInNewContext(fs.readFileSync('dist/image-catalog.js','utf8'),ctx);
  for(const[id,image]of Object.entries(images)){assert.equal(ctx.window.PCP_IMAGES[id].src,image.src);assert.equal(ctx.window.PCP_IMAGES[id].sha256,undefined);assert.equal(ctx.window.PCP_IMAGES[id].licenseUrl,image.licenseUrl);}

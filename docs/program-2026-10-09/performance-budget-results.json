@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-19T20:31:25.204Z",
+  "checkedAt": "2026-10-19T22:43:45.297Z",
   "passed": true,
   "scope": "Static route regression budgets, not real-user performance",
   "results": [
@@ -12,7 +12,7 @@
     },
     {
       "route": "/hardware/graphics-cards/",
-      "scriptGzip": 97916,
+      "scriptGzip": 96397,
       "scriptLimit": 98000,
       "styleBytes": 131728,
       "styleLimit": 138000
@@ -33,7 +33,7 @@
     },
     {
       "route": "/builder/",
-      "scriptGzip": 121894,
+      "scriptGzip": 120927,
       "scriptLimit": 122000,
       "styleBytes": 199732,
       "styleLimit": 224000

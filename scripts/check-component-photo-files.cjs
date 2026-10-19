@@ -1,8 +1,8 @@
 'use strict';
 // Development QA. Use the bundled Sharp runtime via PCP_SHARP_PATH when needed.
-const fs=require('node:fs'),vm=require('node:vm'),sharp=require(process.env.PCP_SHARP_PATH||'sharp');
-const context={window:{}};vm.runInNewContext(fs.readFileSync('dist/builder-catalog.js','utf8'),context);
-const images=require('./component-photo-catalog.cjs').load(context.window.PCP_BUILDER_CATALOG);
+const fs=require('node:fs'),sharp=require(process.env.PCP_SHARP_PATH||'sharp');
+const total=require('./total-catalog.cjs');
+const images=require('./component-photo-catalog.cjs').load(total.prepareCatalog(total.loadExisting()));
 async function main(){
  let decodedFiles=0,fullImageBytes=0,thumbnailBytes=0;
  for(const[id,image]of Object.entries(images))for(const field of ['src','thumbnailSrc']){

@@ -32,32 +32,32 @@
     }
   },
   "added": {
-    "regionalEntries": 135,
-    "uniqueModelIdentifiers": 132,
-    "uniqueConfigurationIdentities": 135,
-    "coreConfigurationSignatures": 90,
+    "regionalEntries": 255,
+    "uniqueModelIdentifiers": 252,
+    "uniqueConfigurationIdentities": 255,
+    "coreConfigurationSignatures": 157,
     "incompleteOrConflictedCoreEntries": 0,
-    "manufacturerPartNumbers": 135,
+    "manufacturerPartNumbers": 255,
     "regions": {
-      "US": 120,
-      "CA": 15
+      "US": 228,
+      "CA": 27
     },
     "brands": {
       "MSI": 36,
       "CORSAIR": 9,
-      "Lenovo": 90
+      "Lenovo": 210
     }
   },
   "after": {
-    "regionalEntries": 219,
-    "uniqueModelIdentifiers": 208,
-    "uniqueConfigurationIdentities": 211,
-    "coreConfigurationSignatures": 142,
+    "regionalEntries": 339,
+    "uniqueModelIdentifiers": 328,
+    "uniqueConfigurationIdentities": 331,
+    "coreConfigurationSignatures": 209,
     "incompleteOrConflictedCoreEntries": 3,
-    "manufacturerPartNumbers": 135,
+    "manufacturerPartNumbers": 255,
     "regions": {
-      "CA": 58,
-      "US": 161
+      "CA": 70,
+      "US": 269
     },
     "brands": {
       "Memory Express": 3,
@@ -68,7 +68,7 @@
       "ZOTAC": 1,
       "Thermaltake": 1,
       "Quoted Tech": 1,
-      "Lenovo": 93,
+      "Lenovo": 213,
       "Acer": 4,
       "iBUYPOWER": 23,
       "HP": 6,
@@ -130,25 +130,25 @@
       "status": "already-indexed"
     }
   ],
-  "sourceRegisterEntries": 135,
-  "inspectedPrimarySourceDocuments": 51,
+  "sourceRegisterEntries": 255,
+  "inspectedPrimarySourceDocuments": 53,
   "addedExactPhotographs": 0,
   "addedLicensed3DModels": 0,
   "addedVerifiedRetailOffers": 0,
   "countQualification": "Manufacturer part-number counts only include records explicitly carrying the normalized manufacturer-part-number schema. A zero in the inherited cohort does not mean its products lack manufacturer part numbers. A model-family identifier may cover several exact SKUs.",
   "target": {
     "distinctVerifiedConfigurations": 200,
-    "met": false,
-    "note": "200 distinct verified configurations have not been established. Matching CPU/GPU/RAM/storage signatures are counted once regardless of manufacturer SKU or region; this is not proof that undisclosed components are identical."
+    "met": true,
+    "note": "Threshold uses source-backed catalog CPU/GPU/RAM/storage signatures, counted once regardless of SKU or region. Historical configurations count as reference coverage, not current offers. This is not proof of complete market coverage, independently tested systems or identical undisclosed components."
   },
   "unknowns": {
-    "exactPsuModel": 135,
-    "exactMotherboard": 134,
+    "exactPsuModel": 255,
+    "exactMotherboard": 254,
     "ramModuleLayout": 36,
     "warranty": 3,
-    "price": 135,
-    "stock": 135,
-    "exactPhoto": 135
+    "price": 255,
+    "stock": 255,
+    "exactPhoto": 255
   },
   "gaps": [
     "Additional fixed configurations from other manufacturers require exact source inspection.",

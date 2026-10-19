@@ -1,0 +1,320 @@
+{
+  "schema": 1,
+  "version": "2026-10-19.1",
+  "reviewedAt": "2026-10-19",
+  "scope": "Seven inherited ambiguous or unsupported exact identities; not exhaustive manufacturer catalogs. No nonexistence claim or automatic product substitution.",
+  "sources": {
+    "crucial-c40-product": {
+      "publisher": "Crucial",
+      "url": "https://www.crucial.com/memory/ddr5/cp2k32g60c40u5b",
+      "checkedAt": "2026-10-19",
+      "status": "access-unavailable",
+      "scope": "Manufacturer endpoint returned Request Rejected. This is not a not-found response and does not prove the disputed CL36 product nonexistent."
+    },
+    "teamgroup-expert-matrix": {
+      "publisher": "TEAMGROUP",
+      "url": "https://www.teamgroupinc.com/en/product-detail/memory/T-CREATE/expert-u-dimm-ddr5-black/expert-u-dimm-ddr5-black-CTCED532G6000HC34CDC01/",
+      "checkedAt": "2026-10-19",
+      "status": "inspected",
+      "scope": "Exact part-number rows in the current black EXPERT DDR5 matrix; a family selector does not establish every capacity/timing combination."
+    },
+    "coolermaster-wattage-guide": {
+      "publisher": "Cooler Master",
+      "url": "https://legacy.coolermaster.com/ja-jp/power-wattage-guide/",
+      "checkedAt": "2026-10-19",
+      "status": "inspected",
+      "scope": "Named PSU families: V Gold i 750/850 are distinct from GX Gold 1050 and MWE Gold V2 1050. This is not an exhaustive worldwide V-series list."
+    },
+    "coolermaster-masterplus": {
+      "publisher": "Cooler Master",
+      "url": "https://legacy.coolermaster.com/en-au/masterplus/",
+      "checkedAt": "2026-10-19",
+      "status": "inspected",
+      "scope": "Software-compatible-product table names V850/V750/V650 Gold i multi. It does not identify a 1050W model or establish that these are the only variants worldwide."
+    },
+    "supermicro-sc745": {
+      "publisher": "Supermicro",
+      "url": "https://www.supermicro.com/en/products/chassis/4u/745/sc745bac-r1k23b-sq",
+      "checkedAt": "2026-10-19",
+      "status": "inspected",
+      "scope": "Exact CSE-745BAC-R1K23B-SQ specification: seven full-height/full-length slots and eight hot-swap 3.5/2.5-inch bays."
+    },
+    "supermicro-sc747": {
+      "publisher": "Supermicro",
+      "url": "https://www.supermicro.com/en/products/chassis/4U/747/SC747BTQ-R2K04B?mlg=0",
+      "checkedAt": "2026-10-19",
+      "status": "inspected",
+      "scope": "Exact CSE-747BTQ-R2K04B specification: eleven full-height/full-length slots, eight 3.5-inch hot-swap bays and a separately specified redundant PSU."
+    },
+    "supermicro-1k69p": {
+      "publisher": "Supermicro",
+      "url": "https://store.supermicro.com/us_en/1600w-1u-pws-1k69p-1r.html",
+      "checkedAt": "2026-10-19",
+      "status": "inspected",
+      "scope": "Exact PWS-1K69P-1R module: 1000W at 100-127Vac, 1600W at 200-240Vac; gold-finger/backplane output and validated host systems. Not an ordinary ATX cable PSU."
+    },
+    "supermicro-1k60d": {
+      "publisher": "Supermicro",
+      "url": "https://store.supermicro.com/us_en/1600w-1u-pws-1k60d-1r.html",
+      "checkedAt": "2026-10-19",
+      "status": "inspected",
+      "scope": "Different PWS-1K60D-1R 1600W module uses -48Vdc to -60Vdc input and 25-pair gold-finger output. Matching wattage/redundancy does not establish interchangeable input or mechanics."
+    },
+    "seagate-firecuda540-datasheet": {
+      "publisher": "Seagate",
+      "url": "https://www.seagate.com/content/dam/seagate/en/content-fragments/products/datasheets/firecuda-540-ssd/firecuda-540-ssd-DS2120-2-2304-en_US.pdf",
+      "checkedAt": "2026-10-19",
+      "status": "inspected",
+      "scope": "DS2120.2-2304 retail table, page 2: 1TB ZP1000GM3A004 and 2TB ZP2000GM3A004. No 4TB row. This older document does not prove that no future or regional 4TB product can exist. Its standard-model table prints different model characters; no automatic SKU reconciliation is performed."
+    },
+    "seagate-ironwolf-support": {
+      "publisher": "Seagate",
+      "url": "https://www.seagate.com/support/internal-hard-drives/nas-drives/ironwolf/",
+      "checkedAt": "2026-10-19",
+      "status": "inspected",
+      "scope": "Current non-Pro support matrix includes 18TB ST18000VN000 and smaller capacities; no 24TB row was established. Absence from this source is not a universal nonexistence claim."
+    },
+    "seagate-ironwolf-pro-support": {
+      "publisher": "Seagate",
+      "url": "https://www.seagate.com/support/internal-hard-drives/nas-drives/ironwolf-pro/",
+      "checkedAt": "2026-10-19",
+      "status": "inspected",
+      "scope": "Pro support matrix separately identifies 24TB ST24000NT002 and ST24000NT031. Neither establishes the inherited non-Pro record."
+    }
+  },
+  "records": [
+    {
+      "id": "c-ram-crucial-pro-overclocking-64gb-ddr5-6000-cl36",
+      "category": "ram",
+      "brand": "Crucial",
+      "originalName": "Crucial Pro Overclocking 64GB DDR5-6000 CL36",
+      "classification": "missing-exact-kit-sku",
+      "disposition": "quarantine-new-selections",
+      "status": "needs-exact-identity",
+      "sourceIds": [
+        "crucial-c40-product"
+      ],
+      "finding": "The inherited 64GB DDR5-6000 CL36 record has no manufacturer part number. Prior retailer titles conflicted with their C40 part numbers; the current manufacturer request was rejected. An exact 64GB CL36 SKU remains unverified.",
+      "warning": "Exact 64GB CL36 SKU unverified. This saved selection is kept; choose a documented kit before buying.",
+      "requiredEvidence": "Manufacturer part number and primary specification proving 64GB as 2x32GB, 6000MT/s and CL36, including color/revision.",
+      "replacementId": null,
+      "verifiedExactPhoto": false,
+      "original": {
+        "id": "c-ram-crucial-pro-overclocking-64gb-ddr5-6000-cl36",
+        "name": "Crucial Pro Overclocking 64GB DDR5-6000 CL36",
+        "brand": "Crucial",
+        "cat": "ram",
+        "year": 2024,
+        "architecture": "DDR5 UDIMM",
+        "summary": "64 GB · 2 modules",
+        "specs": {
+          "Memory": 64,
+          "Transfer rate": 6000,
+          "CAS latency": 36,
+          "Modules": 2
+        },
+        "source": "https://www.crucial.com/catalog/memory/ddr5-desktop",
+        "note": "Manufacturer-family record. Capacity, color, revision and regional SKU variants may differ."
+      }
+    },
+    {
+      "id": "c-ram-teamgroup-t-create-expert-96gb-ddr5-6000-cl34",
+      "category": "ram",
+      "brand": "TEAMGROUP",
+      "originalName": "TEAMGROUP T-Create Expert 96GB DDR5-6000 CL34",
+      "classification": "unverified-capacity-timing-combination",
+      "disposition": "quarantine-new-selections",
+      "status": "needs-exact-identity",
+      "sourceIds": [
+        "teamgroup-expert-matrix"
+      ],
+      "finding": "The inspected manufacturer matrix assigns 96GB 6000 to CL30 (CTCED596G6000HC30DDC01), 96GB 6400 to CL32, and 64GB 6000 CL34 to CTCED564G6000HC34BDC01. It does not establish the inherited 96GB 6000 CL34 combination.",
+      "warning": "Exact 96GB 6000 CL34 kit unverified. This saved selection is kept; confirm its TEAMGROUP part number.",
+      "requiredEvidence": "Exact TEAM P/N proving 96GB as 2x48GB, 6000MT/s and CL34, plus color and revision.",
+      "replacementId": null,
+      "verifiedExactPhoto": false,
+      "original": {
+        "id": "c-ram-teamgroup-t-create-expert-96gb-ddr5-6000-cl34",
+        "name": "TEAMGROUP T-Create Expert 96GB DDR5-6000 CL34",
+        "brand": "TEAMGROUP",
+        "cat": "ram",
+        "year": 2024,
+        "architecture": "DDR5 UDIMM",
+        "summary": "96 GB · 2 modules",
+        "specs": {
+          "Memory": 96,
+          "Transfer rate": 6000,
+          "CAS latency": 34,
+          "Modules": 2
+        },
+        "source": "https://www.teamgroupinc.com/en/product-category/memory/",
+        "note": "Manufacturer-family record. Capacity, color, revision and regional SKU variants may differ."
+      }
+    },
+    {
+      "id": "c-psu-cooler-master-v-gold-i-multi-1050",
+      "category": "psu",
+      "brand": "Cooler Master",
+      "originalName": "Cooler Master V Gold i Multi 1050",
+      "classification": "unverified-family-wattage",
+      "disposition": "quarantine-new-selections",
+      "status": "needs-exact-identity",
+      "sourceIds": [
+        "coolermaster-wattage-guide",
+        "coolermaster-masterplus"
+      ],
+      "finding": "The manufacturer guide distinguishes V Gold i 750/850 from GX Gold 1050 and MWE Gold V2 1050. Its software table also names V650. No inspected primary source establishes an exact V Gold i multi 1050W model.",
+      "warning": "Exact 1050W V Gold i model unverified. Keep this saved entry for review and confirm its manufacturer part number.",
+      "requiredEvidence": "Exact Cooler Master MPZ/MPY part number and product specification establishing V Gold i multi 1050W.",
+      "replacementId": null,
+      "verifiedExactPhoto": false,
+      "original": {
+        "id": "c-psu-cooler-master-v-gold-i-multi-1050",
+        "name": "Cooler Master V Gold i Multi 1050",
+        "brand": "Cooler Master",
+        "cat": "psu",
+        "year": 2023,
+        "architecture": "ATX power supply",
+        "summary": "1050 W power supply",
+        "specs": {
+          "Rated output": 1050
+        },
+        "source": "https://www.coolermaster.com/en-global/catalog/power-supplies/",
+        "note": "Manufacturer-family record. Capacity, color, revision and regional SKU variants may differ."
+      }
+    },
+    {
+      "id": "c-case-supermicro-4u-workstation-chassis",
+      "category": "case",
+      "brand": "Supermicro",
+      "originalName": "Supermicro 4U Workstation Chassis",
+      "classification": "family-without-chassis-sku",
+      "disposition": "quarantine-new-selections",
+      "status": "needs-exact-identity",
+      "sourceIds": [
+        "supermicro-sc745",
+        "supermicro-sc747"
+      ],
+      "finding": "The record has no CSE/SC part number and claims eight expansion slots. Exact nearby 4U chassis differ: CSE-745BAC-R1K23B-SQ has seven slots; CSE-747BTQ-R2K04B has eleven. Neither is an established match.",
+      "warning": "This saved chassis needs an exact CSE/SC part number before fit can be checked.",
+      "requiredEvidence": "Exact CSE/SC chassis number, backplane, PSU configuration, bay and expansion-slot layout.",
+      "replacementId": null,
+      "verifiedExactPhoto": false,
+      "original": {
+        "id": "c-case-supermicro-4u-workstation-chassis",
+        "name": "Supermicro 4U Workstation Chassis",
+        "brand": "Supermicro",
+        "cat": "case",
+        "year": 2023,
+        "architecture": "E-ATX / ATX / Micro-ATX",
+        "summary": "4U chassis with eight expansion positions",
+        "specs": {
+          "Expansion slots": 8,
+          "3.5-inch bays": 8,
+          "2.5-inch bays": 2
+        },
+        "source": "https://www.supermicro.com/en/products/chassis/4U",
+        "note": "Manufacturer-family record. Capacity, color, revision and regional SKU variants may differ."
+      }
+    },
+    {
+      "id": "c-psu-supermicro-1600w-redundant-power-supply",
+      "category": "psu",
+      "brand": "Supermicro",
+      "originalName": "Supermicro 1600W Redundant Power Supply",
+      "classification": "family-without-power-module-sku",
+      "disposition": "quarantine-new-selections",
+      "status": "needs-exact-identity",
+      "sourceIds": [
+        "supermicro-1k69p",
+        "supermicro-1k60d"
+      ],
+      "finding": "Multiple distinct Supermicro modules meet 1600W/redundant wording. PWS-1K69P-1R has input-dependent AC output; PWS-1K60D-1R instead requires -48Vdc to -60Vdc. Generic wattage cannot establish an exact photo or electrical/mechanical compatibility.",
+      "warning": "1600W does not identify this server PSU. Confirm its PWS number, input voltage and host chassis.",
+      "requiredEvidence": "Exact PWS part number, supported host/backplane, input voltage and rated output under that input.",
+      "replacementId": null,
+      "verifiedExactPhoto": false,
+      "original": {
+        "id": "c-psu-supermicro-1600w-redundant-power-supply",
+        "name": "Supermicro 1600W Redundant Power Supply",
+        "brand": "Supermicro",
+        "cat": "psu",
+        "year": 2023,
+        "architecture": "Server redundant power supply",
+        "summary": "1600 W redundant power system",
+        "specs": {
+          "Rated output": 1600
+        },
+        "source": "https://www.supermicro.com/en/products/power-supplies",
+        "note": "Manufacturer-family record. Capacity, color, revision and regional SKU variants may differ."
+      }
+    },
+    {
+      "id": "c-ssd-seagate-firecuda-540-4tb",
+      "category": "ssd",
+      "brand": "Seagate",
+      "originalName": "Seagate FireCuda 540 4TB",
+      "classification": "unverified-capacity-variant",
+      "disposition": "quarantine-new-selections",
+      "status": "needs-exact-identity",
+      "sourceIds": [
+        "seagate-firecuda540-datasheet"
+      ],
+      "finding": "The reviewed FireCuda 540 datasheet establishes retail 1TB/2TB identities but no 4TB SKU. The inherited entry cites a general gaming SSD family page and has no manufacturer part number. An announced or planned capacity is not a released exact SKU.",
+      "warning": "A released 4TB FireCuda 540 SKU is unverified. This saved selection remains for review.",
+      "requiredEvidence": "Manufacturer release/support record and exact 4TB FireCuda 540 part number; a 530/530R or 2TB image is not a match.",
+      "replacementId": null,
+      "verifiedExactPhoto": false,
+      "original": {
+        "id": "c-ssd-seagate-firecuda-540-4tb",
+        "name": "Seagate FireCuda 540 4TB",
+        "brand": "Seagate",
+        "cat": "ssd",
+        "year": 2023,
+        "architecture": "PCIe 5.0 NVMe M.2",
+        "summary": "4000 GB solid-state drive",
+        "specs": {
+          "Storage capacity": 4000,
+          "Sequential read": 10000,
+          "Sequential write": 10000
+        },
+        "source": "https://www.seagate.com/products/gaming-drives/pc-gaming/firecuda-ssd/",
+        "note": "Manufacturer-family record. Capacity, color, revision and regional SKU variants may differ."
+      }
+    },
+    {
+      "id": "c-hdd-seagate-ironwolf-24tb",
+      "category": "hdd",
+      "brand": "Seagate",
+      "originalName": "Seagate IronWolf 24TB",
+      "classification": "unverified-non-pro-identity",
+      "disposition": "quarantine-new-selections",
+      "status": "needs-exact-identity",
+      "sourceIds": [
+        "seagate-ironwolf-support",
+        "seagate-ironwolf-pro-support"
+      ],
+      "finding": "The current non-Pro support page includes 18TB and smaller models. The separate Pro matrix establishes 24TB ST24000NT002/ST24000NT031. No source establishes the inherited non-Pro 24TB identity, and no Pro substitution is made.",
+      "warning": "The 24TB non-Pro IronWolf identity is unverified. A Pro photo or SKU cannot establish this saved entry.",
+      "requiredEvidence": "Exact non-Pro 24TB IronWolf ST model number and manufacturer documentation.",
+      "replacementId": null,
+      "verifiedExactPhoto": false,
+      "original": {
+        "id": "c-hdd-seagate-ironwolf-24tb",
+        "name": "Seagate IronWolf 24TB",
+        "brand": "Seagate",
+        "cat": "hdd",
+        "year": 2024,
+        "architecture": "SATA 6 Gb/s",
+        "summary": "24000 GB hard disk drive",
+        "specs": {
+          "Storage capacity": 24000,
+          "Spindle speed": 7200,
+          "Drive cache": 512
+        },
+        "source": "https://www.seagate.com/products/hard-drives/",
+        "note": "Manufacturer-family record. Capacity, color, revision and regional SKU variants may differ."
+      }
+    }
+  ]
+}

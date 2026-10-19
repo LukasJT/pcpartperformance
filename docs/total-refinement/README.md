@@ -1,6 +1,10 @@
-# Operation Total Refinement — implemented checkpoint
+# Operation Total Refinement — implementation and verification
 
 October 19, 2026. **Published and verified live** at https://www.pcpartperformance.com/ through final commit `fc71a500`. This release improves the real product; it does **not** complete the entire long-term specification. [Release proof](RELEASE.md) · [Implementation board](TASKS.md) · [Screenshot issues](ISSUE-REGISTER.md) · [Coverage and blockers](#remaining-work).
+
+## October 19 catalog and photo continuation
+
+The catalog/photo continuation has passed the final local build and is awaiting the production verification recorded in RELEASE.md. [Detailed scope and remaining limits](CATALOG-PHOTOS-OCT19.md): 79 additional reviewed photo bindings, 12 more sourced coolers, 120 more exact prebuilt SKUs (209 distinct core configurations), 10 existing case/PSU evidence updates, and preserved recovery of seven ambiguous saved identities. Final release evidence is recorded separately below.
 
 ## Product and visual changes
 
@@ -17,8 +21,8 @@ October 19, 2026. **Published and verified live** at https://www.pcpartperforman
 
 | Area | Before → after | What the number means |
 | --- | --- | --- |
-| Hardware reference | 1,236 → **1,299** | +20 exact partner GPU records, 17 processors, 21 memory module/kit variants and 5 SSD variants. 49 primary source-register entries. 31 specialized additions stay reference-only where builder support is not established. |
-| Prebuilt regional entries | 84 → **219** | +135 manufacturer-SKU entries:36 MSI, 9 CORSAIR, 90 Lenovo, supported by 51 inspected primary documents.211 configuration identities, 208 model identifiers and142 distinct CPU/GPU/RAM/storage signatures. The stricter 200 distinct core-configuration target remains unmet. |
+| Hardware reference | 1,236 → **1,311** | +20 partner GPU records, 17 processors, 21 memory modules, 5 SSD variants and 12 coolers. 61 source-register entries. 31 specialized additions stay reference-only. Exact MPN/revision coverage remains incomplete. |
+| Prebuilt regional entries | 84 → **339** | +255 manufacturer-SKU entries, supported by 53 inspected primary documents. 331 configuration identities, 328 model identifiers and 209 distinct CPU/GPU/RAM/storage signatures. The 200 distinct core-configuration target is met; historical records are qualified. |
 | Game/platform or edition additions | **618** | 110 Windows, 110 PS5, 136 Switch, 154 native Switch 2 and 108 Xbox Series X\|S.87 Xbox entries are dated official announcements, visibly qualified. These are not 618 unique underlying games. |
 | Console/history references | **6 modern, 16 historical landmarks** | Separate hardware-reference and retro timeline pages. This is not an exhaustive retro game library. |
 | New 3D assets | **20 original dimension envelopes** | 119,148 bytes total, source-documented outer dimensions. Approximate illustrations, zero new downloaded appearance models and zero clearance certification. |
@@ -30,7 +34,7 @@ Reports: [hardware](catalog/coverage.json), [prebuilts](prebuilts/coverage.json)
 
 ## Search, publishing and operations
 
-Technical SEO now includes exact prebuilt SKUs in titles/descriptions, new crawlable catalog/reference pages and revised descriptions for important tool intents. Thin/unknown pages remain excluded where appropriate. The audit covers1,868 HTML files and1,323 sitemap URLs with zero reported canonical/social/structured-data/sitemap contract issues. This is not evidence of ranking or traffic gains.
+Technical SEO now includes exact prebuilt SKUs in titles/descriptions, new crawlable catalog/reference pages and revised descriptions for important tool intents. Thin/unknown pages remain excluded where appropriate. The current audit covers1,961 HTML files and1,451 indexable URLs with zero reported canonical/social/structured-data/sitemap contract issues. This is not evidence of ranking or traffic gains.
 
 The daily workflow separates read-only collection from fixed-file JSON publication with minimal write permission. It checks seven official indexes, preserves dated offers/history, records failures and queues 39 unpublished maintenance leads. Network documents cannot publish executable code or editorial claims. A degraded source run is surfaced honestly. [Security review](operations/SECURITY-REVIEW.md) and [source/retailer research](operations/RESEARCH-REGISTER.md) describe boundaries.
 
@@ -38,7 +42,7 @@ The 36 existing new-article drafts remain held for human editorial review. No ar
 
 ## Verification
 
-- **97/97 test-command groups passed**, including existing builder, compatibility, pricing, saved-work, imports, security, images, SEO and the new intake/operations/model suites.
+- **108/108 test-command groups passed**, including existing builder, compatibility, pricing, saved-work, imports, security, images, SEO and the new intake/operations/model suites.
 - **212 final layout captures passed** across nine widths and light/dark, including 150% phone text, compact/expanded/short pickers, menus, homepage and save actions. Final CTA, filter-gap and preference-order corrections passed their rectangle checks.
 - **366 broad page captures passed** on the preceding integrated build, across 20 major destinations and the same width/theme matrix. Later changes are narrow and receive targeted regression checks.
 - **146 automated accessibility cases: zero violations**, covering six palettes plus major destinations, menu and PSU picker. This does not certify complete WCAG conformance.
@@ -49,9 +53,9 @@ The 36 existing new-article drafts remain held for human editorial review. No ar
 
 ### Local performance samples
 
-Three cold isolated Edge samples per route, CPU throttled 4×, 150 ms latency and 1.6 Mbps downstream. Median LCP: homepage 1,184 ms, builder 1,272 ms, Game FPS 1,028 ms. Median CLS: 0, 0.0632, 0 respectively. The largest recorded interaction-event duration was 128 ms; this is **not field INP**. All nine runs made zero initial 3D requests. Local HTTP/server/cache conditions differ from production and a real phone. [Full measurement receipt](qa/performance/report.json).
+Three cold isolated Edge samples per route, CPU throttled4×,150ms latency and1.6Mbps downstream. Final median LCP: homepage1,172ms, builder1,268ms, GameFPS1,028ms. Median CLS is0 on all three routes; the largest builder sample is0.03293, after the prior0.10298 startup shift was fixed. All nine runs made zero initial3D requests. The first menu interaction still has intermittent presentation outliers (280ms homepage,520ms FPS in this run); this remains a performance concern, not a passed INP target. A separate15-sample diagnostic did not isolate a consistent effect or handler cause, so no speculative handler rewrite was shipped. These are local lab observations, not field p75 Core Web Vitals or physicaliPhone results. [Final metrics](qa/performance/report.json) · [Before fix](qa/catalog-performance-before/report.json) · [Menu diagnostic](qa/menu-paint-oct19/report.json).
 
-Receipts: [layout](qa/after/report.json), [broad](qa/broad/after/report.json), [accessibility](qa/accessibility/report.json), [journeys](qa/interactions/report.json), [catalog integration](qa/interactions/catalog-integration.json), [test commands](../master-completion/qa/test-commands.json), [reviewed screenshots](screenshots/README.md).
+Receipts: [layout](qa/catalog-final-layout/report.json), [broad](qa/broad/after/report.json), [accessibility](qa/accessibility/report.json), [journeys](qa/interactions/report.json), [catalog integration](qa/interactions/catalog-integration.json), [test commands](../master-completion/qa/test-commands.json), [reviewed screenshots](screenshots/README.md).
 
 ## Evidence-based quality rubric
 
@@ -62,7 +66,7 @@ Receipts: [layout](qa/after/report.json), [broad](qa/broad/after/report.json), [
 | Catalog integrity | Validated additive intake, sources, exact identities and rejected conflicts | Catalog is far from exhaustive; many old records still lack exact MPNs/critical fields. |
 | Pricing honesty | Freshness/identity/currency/history tests and actual collection | Only a small retailer cohort; two unavailable reads; provider credentials/rights missing. |
 | Gaming evidence | Platform entries and announced dates qualified; no new measuredFPS invented | Exact-setup benchmark coverage remains missing. |
-| Visual assets | Accurate original diagrams and preserved identity-matched photos | New actual product photography and licensed appearance models remain incomplete. |
+| Visual assets | Accurate original diagrams and preserved identity-matched photos | 79 new named-product/gallery assignments are reviewed; seven unresolved identities and photo/model permission gaps remain. |
 | SEO | Generated contracts and crawlable links pass | No private GSC baseline, Google ranking result or indexing guarantee. |
 | Accessibility | Automated checks pass across six palettes | Automated testing cannot establish all WCAG 2.2 AA requirements. |
 | Performance | Original budgets pass; heavy3D remains deferred | Field p75 LCP/INP/CLS unavailable; lab results are not field CWV. |
@@ -75,7 +79,7 @@ No unsupported10/10 score is assigned.
 
 1. Complete physical iOS/VoiceOver and virtual-keyboard checks, then evaluate real-user selection effort and Core Web Vitals.
 2. Expand exact manufacturer/SKU provenance across legacyGPU partners, CPUs, ECC/registered memory, storage, cases, PSUs and coolers. Current additions are a bounded verified batch, not exhaustive coverage.
-3. Add at least 58 more distinct core prebuilt configurations to meet the stricter 200 target, with evidence and rights-cleared photographs. Resolve held manufacturer inconsistencies.
+3. The stricter 200 core prebuilt configuration target is met at 209. Expand current retail diversity and rights-cleared photographs; resolve held manufacturer inconsistencies.
 4. Acquire exact product-photo and 3D redistribution rights; retain clearly labeled category/dimension illustrations meanwhile.
 5. Obtain authorized retailer accounts/feeds and any required server-side credentials before expanding commercial price coverage. No Amazon or other API is simulated.
 6. Review the 36 drafts with an accountable human editor before publication. Extend the retro game archive and licensed benchmark evidence independently of title counts.

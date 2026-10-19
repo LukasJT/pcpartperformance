@@ -3,7 +3,7 @@
   "status": "static_decorator_prepared",
   "confirmedDeployment": false,
   "productPages": 16,
-  "prebuiltPages": 219,
+  "prebuiltPages": 339,
   "gamePages": 10,
   "aliasRegistryVersion": "2026-10-09.1",
   "activeCatalogAliases": [],
@@ -1232,6 +1232,606 @@
       "route": "/prebuilts/total-us-lenovo-90y6004gus/",
       "kind": "regional_prebuilt_description",
       "description": "United States (USD) buying checklist for Lenovo Legion T7 34IAS10 90Y6004GUS 90Y6004GUS. Core Ultra 9 285K; GeForce RTX 5080; 64 GB DDR5-5600 UDIMM RAM; 2 × 1 TB NVMe SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ut001vus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26IRB8 90UT001VUS 90UT001VUS. Core i7-14700F; GeForce RTX 4070 Ti SUPER; 32 GB DDR5-5600 UDIMM RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ut001uus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26IRB8 90UT001UUS 90UT001UUS. Core i7-14700F; GeForce RTX 4070 SUPER; 32 GB DDR5-5600 UDIMM RAM; 1000 GB NVMe SSD + 1000 GB HDD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-ca-lenovo-90ut001tcf/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for Lenovo Legion T5 26IRB8 90UT001TCF 90UT001TCF. Core i7-14700F; GeForce RTX 4070 SUPER; 32 GB DDR5-5600 UDIMM RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ut001nus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26IRB8 90UT001NUS 90UT001NUS. Core i7-14700F; GeForce RTX 4070 Ti SUPER; 32 GB DDR5-5600 UDIMM RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ut001sus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26IRB8 90UT001SUS 90UT001SUS. Core i7-14700F; GeForce RTX 4070 Ti SUPER; 32 GB DDR5-5600 UDIMM RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ut001qus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26IRB8 90UT001QUS 90UT001QUS. Core i7-14700F; GeForce RTX 4060; 16 GB DDR5-5600 UDIMM RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ut001bus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26IRB8 90UT001BUS 90UT001BUS. Core i7-14700F; GeForce RTX 4070 SUPER; 16 GB DDR5-5600 UDIMM RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ut001cus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26IRB8 90UT001CUS 90UT001CUS. Core i7-14700F; GeForce RTX 4070 SUPER; 32 GB DDR5-5600 UDIMM RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-ca-lenovo-90ut001mfz/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for Lenovo Legion T5 26IRB8 90UT001MFZ 90UT001MFZ. Core i7-14700F; GeForce RTX 4070 SUPER; 16 GB DDR5-5600 UDIMM RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ut001pus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26IRB8 90UT001PUS 90UT001PUS. Core i7-14700F; GeForce RTX 4070 SUPER; 32 GB DDR5-5600 UDIMM RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ut001rus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26IRB8 90UT001RUS 90UT001RUS. Core i7-14700F; GeForce RTX 4070 SUPER; 32 GB DDR5-5600 UDIMM RAM; 1000 GB NVMe SSD + 1000 GB HDD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ut001hus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26IRB8 90UT001HUS 90UT001HUS. Core i7-14700F; GeForce RTX 4070; 16 GB DDR5-5600 UDIMM RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ut001jus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26IRB8 90UT001JUS 90UT001JUS. Core i7-14700F; GeForce RTX 4070; 32 GB DDR5-5600 UDIMM RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-ca-lenovo-90ut001kcf/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for Lenovo Legion T5 26IRB8 90UT001KCF 90UT001KCF. Core i7-14700F; GeForce RTX 4070; 32 GB DDR5-5600 UDIMM RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-ca-lenovo-90ut001lcf/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for Lenovo Legion T5 26IRB8 90UT001LCF 90UT001LCF. Core i5-14400F; GeForce RTX 4060; 32 GB DDR5-5600 UDIMM RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ut0019us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26IRB8 90UT0019US 90UT0019US. Core i5-14400F; GeForce RTX 4060; 16 GB DDR5-5600 UDIMM RAM; 512 GB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ut001dus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26IRB8 90UT001DUS 90UT001DUS. Core i7-14700F; GeForce RTX 4060; 16 GB DDR5-5600 UDIMM RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ut001eus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26IRB8 90UT001EUS 90UT001EUS. Core i7-14700F; GeForce RTX 4060; 32 GB DDR5-5600 UDIMM RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ut0010us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26IRB8 90UT0010US 90UT0010US. Core i5-13400F; GeForce RTX 4060; 16 GB DDR5-5600 UDIMM RAM; 512 GB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ut0011us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26IRB8 90UT0011US 90UT0011US. Core i5-13400F; GeForce RTX 4060; 16 GB DDR5-5600 UDIMM RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ut0012us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26IRB8 90UT0012US 90UT0012US. Core i5-13400F; GeForce RTX 4060; 16 GB DDR5-5600 UDIMM RAM; 512 GB NVMe SSD + 1000 GB HDD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ut0013us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26IRB8 90UT0013US 90UT0013US. Core i7-13700F; GeForce RTX 4060; 16 GB DDR5-5600 UDIMM RAM; 512 GB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ut0014us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26IRB8 90UT0014US 90UT0014US. Core i7-13700F; GeForce RTX 4060; 16 GB DDR5-5600 UDIMM RAM; 512 GB NVMe SSD + 1000 GB HDD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ut0015us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26IRB8 90UT0015US 90UT0015US. Core i7-13700F; GeForce RTX 4060 Ti; 16 GB DDR5-5600 UDIMM RAM; 512 GB NVMe SSD + 1000 GB HDD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ut0016us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26IRB8 90UT0016US 90UT0016US. Core i7-13700F; GeForce RTX 4060 Ti; 16 GB DDR5-5600 UDIMM RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-ca-lenovo-90ut000xfz/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for Lenovo Legion T5 26IRB8 90UT000XFZ 90UT000XFZ. Core i5-13400F; GeForce RTX 3060; 16 GB DDR5-5600 UDIMM RAM; 512 GB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-ca-lenovo-90ut000yfz/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for Lenovo Legion T5 26IRB8 90UT000YFZ 90UT000YFZ. Core i7-13700F; GeForce RTX 4070; 16 GB DDR5-5600 UDIMM RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ut000wus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26IRB8 90UT000WUS 90UT000WUS. Core i7-13700F; GeForce RTX 4070; 16 GB DDR5-5600 UDIMM RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ut000gus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26IRB8 90UT000GUS 90UT000GUS. Core i7-13700F; GeForce RTX 4070; 16 GB DDR5-5600 UDIMM RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ut000lus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26IRB8 90UT000LUS 90UT000LUS. Core i7-13700F; GeForce RTX 4070; 32 GB DDR5-5600 UDIMM RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ut000pus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26IRB8 90UT000PUS 90UT000PUS. Core i7-13700F; GeForce RTX 4070; 16 GB DDR5-5600 UDIMM RAM; 512 GB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-ca-lenovo-90ut000tfz/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for Lenovo Legion T5 26IRB8 90UT000TFZ 90UT000TFZ. Core i7-13700F; GeForce RTX 4070; 32 GB DDR5-5600 UDIMM RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-ca-lenovo-90ut000ufz/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for Lenovo Legion T5 26IRB8 90UT000UFZ 90UT000UFZ. Core i7-13700F; GeForce RTX 4070; 16 GB DDR5-5600 UDIMM RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ut000vus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26IRB8 90UT000VUS 90UT000VUS. Core i7-13700F; GeForce RTX 4070; 16 GB DDR5-5600 UDIMM RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ut0000us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26IRB8 90UT0000US 90UT0000US. Core i7-13700F; GeForce RTX 3060; 16 GB DDR5-4800 UDIMM RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ut0001us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26IRB8 90UT0001US 90UT0001US. Core i7-13700F; GeForce RTX 3060; 16 GB DDR5-5600 UDIMM RAM; 512 GB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ut0002us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26IRB8 90UT0002US 90UT0002US. Core i7-13700F; GeForce RTX 3060; 16 GB DDR5-5600 UDIMM RAM; 256 GB NVMe SSD + 1000 GB HDD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ut0004us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26IRB8 90UT0004US 90UT0004US. Core i7-13700F; GeForce RTX 3060; 16 GB DDR5-5600 UDIMM RAM; 512 GB NVMe SSD + 1000 GB HDD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ut0005us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26IRB8 90UT0005US 90UT0005US. Core i7-13700F; GeForce RTX 3060; 16 GB DDR5-4800 UDIMM RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ut0006us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26IRB8 90UT0006US 90UT0006US. Core i7-13700F; GeForce RTX 3060; 16 GB DDR5-5600 UDIMM RAM; 256 GB NVMe SSD + 1000 GB HDD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ut0008us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26IRB8 90UT0008US 90UT0008US. Core i7-13700F; GeForce RTX 3060; 16 GB DDR5-5600 UDIMM RAM; 512 GB NVMe SSD + 1000 GB HDD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ut0009us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26IRB8 90UT0009US 90UT0009US. Core i7-13700F; GeForce RTX 3060 Ti; 16 GB DDR5-5600 UDIMM RAM; 512 GB NVMe SSD + 1000 GB HDD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ut000aus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26IRB8 90UT000AUS 90UT000AUS. Core i7-13700F; GeForce RTX 3060; 16 GB DDR5-5600 UDIMM RAM; 512 GB NVMe SSD + 1000 GB HDD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ut000bus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26IRB8 90UT000BUS 90UT000BUS. Core i5-13400F; GeForce RTX 3060; 16 GB DDR5-5600 UDIMM RAM; 512 GB NVMe SSD + 1000 GB HDD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ut000cus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26IRB8 90UT000CUS 90UT000CUS. Core i7-13700F; GeForce RTX 4070 Ti; 16 GB DDR5-5600 UDIMM RAM; 512 GB NVMe SSD + 1000 GB HDD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ut000dus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26IRB8 90UT000DUS 90UT000DUS. Core i7-13700F; GeForce RTX 3060 Ti; 16 GB DDR5-5600 UDIMM RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ut000eus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26IRB8 90UT000EUS 90UT000EUS. Core i5-13400F; GeForce RTX 3050; 16 GB DDR5-5600 UDIMM RAM; 512 GB NVMe SSD + 1000 GB HDD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ut000fus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26IRB8 90UT000FUS 90UT000FUS. Core i5-13400F; GeForce RTX 3060; 16 GB DDR5-5600 UDIMM RAM; 512 GB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ut000hus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26IRB8 90UT000HUS 90UT000HUS. Core i7-13700F; GeForce RTX 3060 Ti; 16 GB DDR5-5600 UDIMM RAM; 512 GB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ut000jus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26IRB8 90UT000JUS 90UT000JUS. Core i5-13400F; GeForce RTX 3050; 8 GB DDR5-5600 UDIMM RAM; 512 GB NVMe SSD + 1000 GB HDD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ut000kus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26IRB8 90UT000KUS 90UT000KUS. Core i5-13400F; GeForce RTX 3050; 8 GB DDR5-5600 UDIMM RAM; 512 GB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ut000mus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26IRB8 90UT000MUS 90UT000MUS. Core i5-13400F; GeForce RTX 3050; 8 GB DDR5-5600 UDIMM RAM; 512 GB NVMe SSD + 1000 GB HDD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ut000nus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26IRB8 90UT000NUS 90UT000NUS. Core i7-13700F; GeForce RTX 3060 Ti; 8 GB DDR5-5600 UDIMM RAM; 512 GB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-ca-lenovo-90ut000qfz/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for Lenovo Legion T5 26IRB8 90UT000QFZ 90UT000QFZ. Core i5-13400F; GeForce RTX 3050; 16 GB DDR5-5600 UDIMM RAM; 512 GB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-ca-lenovo-90ut000rfz/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for Lenovo Legion T5 26IRB8 90UT000RFZ 90UT000RFZ. Core i5-13400F; GeForce RTX 3060; 16 GB DDR5-5600 UDIMM RAM; 512 GB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-ca-lenovo-90ut000sfz/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for Lenovo Legion T5 26IRB8 90UT000SFZ 90UT000SFZ. Core i5-13400F; GeForce RTX 3060; 32 GB DDR5-5600 UDIMM RAM; 512 GB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb002sus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB002SUS 90RB002SUS. Ryzen 7 5800; GeForce RTX 3060; 16 GB DDR4-3200 UDIMM RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb002rus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB002RUS 90RB002RUS. Ryzen 5 5600G; GeForce RTX 3060; 16 GB DDR4-3200 UDIMM RAM; 512 GB NVMe PCIe 3.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb002pus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB002PUS 90RB002PUS. Ryzen 7 5800; GeForce RTX 3060; 16 GB DDR4-3200 UDIMM RAM; 512 GB NVMe PCIe 3.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb002qus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB002QUS 90RB002QUS. Ryzen 5 5600G; GeForce RTX 3060; 16 GB DDR4-3200 UDIMM RAM; 512 GB NVMe PCIe 3.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb002mus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB002MUS 90RB002MUS. Ryzen 5 5600G; GeForce RTX 3060; 16 GB DDR4-3200 UDIMM RAM; 512 GB NVMe PCIe 3.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb002lus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB002LUS 90RB002LUS. Ryzen 5 5600G; GeForce RTX 3060; 16 GB DDR4-3200 UDIMM RAM; 512 GB NVMe PCIe 3.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb002hus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB002HUS 90RB002HUS. Ryzen 7 5800; GeForce RTX 3060; 16 GB DDR4-3200 UDIMM RAM; 512 GB NVMe SSD + 1000 GB HDD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb002jus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB002JUS 90RB002JUS. Ryzen 7 5800; GeForce RTX 3060; 16 GB DDR4-3200 UDIMM RAM; 512 GB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb002eus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB002EUS 90RB002EUS. Ryzen 7 5700G; GeForce RTX 3050; 16 GB DDR4-3200 UDIMM RAM; 512 GB NVMe SSD + 1000 GB HDD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb000wus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB000WUS 90RB000WUS. Ryzen 5 5600G; GeForce GTX 1660 SUPER; 16 GB DDR4-3200 UDIMM RAM; 512 GB NVMe SSD + 1000 GB HDD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb0013us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB0013US 90RB0013US. Ryzen 5 5600G; GeForce GTX 1660 SUPER; 16 GB DDR4-3200 UDIMM RAM; 512 GB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb0015us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB0015US 90RB0015US. Ryzen 5 5600G; GeForce RTX 3060; 16 GB DDR4-3200 UDIMM RAM; 512 GB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb0019us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB0019US 90RB0019US. Ryzen 5 5600G; GeForce RTX 3060; 16 GB DDR4-3200 UDIMM RAM; 512 GB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb001dus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB001DUS 90RB001DUS. Ryzen 7 5700G; GeForce GTX 1660 SUPER; 16 GB DDR4-3200 UDIMM RAM; 256 GB NVMe SSD + 1000 GB HDD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb001eus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB001EUS 90RB001EUS. Ryzen 7 5700G; GeForce RTX 3060; 16 GB DDR4-3200 UDIMM RAM; 512 GB NVMe SSD + 1000 GB HDD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb001fus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB001FUS 90RB001FUS. Ryzen 7 5700G; GeForce RTX 3060; 16 GB DDR4-3200 UDIMM RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb001gus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB001GUS 90RB001GUS. Ryzen 7 5700G; GeForce RTX 3060; 32 GB DDR4-3200 UDIMM RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb001hus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB001HUS 90RB001HUS. Ryzen 7 5700G; GeForce RTX 3070; 32 GB DDR4-3200 UDIMM RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb001jus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB001JUS 90RB001JUS. Ryzen 7 5700G; GeForce GTX 1660 SUPER; 16 GB DDR4-3200 UDIMM RAM; 512 GB NVMe SSD + 1000 GB HDD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb001kus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB001KUS 90RB001KUS. Ryzen 7 5700G; GeForce GTX 1660 SUPER; 8 GB DDR4-3200 UDIMM RAM; 512 GB NVMe SSD + 1000 GB HDD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb001mus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB001MUS 90RB001MUS. Ryzen 7 5700G; GeForce GTX 1660 SUPER; 8 GB DDR4-3200 UDIMM RAM; 512 GB NVMe SSD + 1000 GB HDD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb001nus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB001NUS 90RB001NUS. Ryzen 5 5600G; GeForce GTX 1660 SUPER; 16 GB DDR4-3200 UDIMM RAM; 512 GB NVMe SSD + 1000 GB HDD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb001pus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB001PUS 90RB001PUS. Ryzen 7 5700G; GeForce GTX 1660 SUPER; 16 GB DDR4-3200 UDIMM RAM; 256 GB NVMe SSD + 1000 GB HDD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb001qus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB001QUS 90RB001QUS. Ryzen 7 5700G; GeForce GTX 1660 SUPER; 16 GB DDR4-3200 UDIMM RAM; 512 GB NVMe SSD + 1000 GB HDD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb001rus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB001RUS 90RB001RUS. Ryzen 7 5700G; GeForce RTX 3060; 16 GB DDR4-3200 UDIMM RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb001sus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB001SUS 90RB001SUS. Ryzen 7 5700G; GeForce RTX 3060; 32 GB DDR4-3200 UDIMM RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb001tus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB001TUS 90RB001TUS. Ryzen 7 5700G; GeForce RTX 3060; 16 GB DDR4-3200 UDIMM RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb001uus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB001UUS 90RB001UUS. Ryzen 7 5700G; GeForce RTX 3070; 32 GB DDR4-3200 UDIMM RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb001xus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB001XUS 90RB001XUS. Ryzen 5 5600G; GeForce RTX 3060; 16 GB DDR4-3200 UDIMM RAM; 512 GB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb0023us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB0023US 90RB0023US. Ryzen 5 5600G; Radeon RX 6500 XT; 8 GB DDR4-3200 UDIMM RAM; 512 GB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb0027us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB0027US 90RB0027US. Ryzen 5 5600G; Radeon RX 6500 XT; 8 GB DDR4-3200 UDIMM RAM; 512 GB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb0029us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB0029US 90RB0029US. Ryzen 5 5600G; Radeon RX 6500 XT; 8 GB DDR4-3200 UDIMM RAM; 512 GB NVMe SSD + 1000 GB HDD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb002gus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB002GUS 90RB002GUS. Ryzen 7 5700G; GeForce RTX 3060 Ti; 16 GB DDR4-3200 UDIMM RAM; 256 GB NVMe SSD + 1000 GB HDD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb002fus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB002FUS 90RB002FUS. Ryzen 7 5700G; GeForce RTX 3060; 16 GB DDR4-3200 UDIMM RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb002dus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB002DUS 90RB002DUS. Ryzen 7 5800; GeForce RTX 3060 Ti; 16 GB DDR4-3200 UDIMM RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-ca-lenovo-90rb002cfz/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for Lenovo Legion T5 26AMR5 90RB002CFZ 90RB002CFZ. Ryzen 5 5600G; GeForce RTX 3060; 16 GB DDR4-3200 UDIMM RAM; 512 GB NVMe PCIe 3.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb002aus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB002AUS 90RB002AUS. Ryzen 7 5800; GeForce RTX 3060; 16 GB DDR4-3200 UDIMM RAM; 256 GB NVMe SSD + 1000 GB HDD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb0028us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB0028US 90RB0028US. Ryzen 7 5800; GeForce RTX 3060; 16 GB DDR4-3200 UDIMM RAM; 512 GB NVMe SSD + 1000 GB HDD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb0022us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB0022US 90RB0022US. Ryzen 7 5800; GeForce RTX 3060; 16 GB DDR4-3200 UDIMM RAM; 512 GB NVMe SSD + 1000 GB HDD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb0024us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB0024US 90RB0024US. Ryzen 7 5800; GeForce RTX 3060; 16 GB DDR4-3200 UDIMM RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb0025us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB0025US 90RB0025US. Ryzen 7 5800; GeForce RTX 3060; 16 GB DDR4-3200 UDIMM RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb0026us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB0026US 90RB0026US. Ryzen 7 5800; GeForce RTX 3060 Ti; 32 GB DDR4-3200 UDIMM RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb001yus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB001YUS 90RB001YUS. Ryzen 5 5600G; GeForce RTX 3060; 16 GB DDR4-3200 UDIMM RAM; 512 GB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb001lus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB001LUS 90RB001LUS. Ryzen 7 5700G; GeForce RTX 3060; 16 GB DDR4-3200 UDIMM RAM; 512 GB NVMe SSD + 1000 GB HDD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb0000us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB0000US 90RB0000US. Ryzen 7 3700X; GeForce GTX 1660 SUPER; 16 GB DDR4-3200 UDIMM RAM; 512 GB NVMe PCIe 3.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb0001us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB0001US 90RB0001US. Ryzen 5 3600; Radeon RX 5500; 8 GB DDR4-3200 UDIMM RAM; 512 GB NVMe PCIe 3.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb0002us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB0002US 90RB0002US. Ryzen 5 3600; GeForce GTX 1660 SUPER; 8 GB DDR4-3200 UDIMM RAM; 512 GB NVMe SSD + 1000 GB HDD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb0003us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB0003US 90RB0003US. Ryzen 5 3600; GeForce GTX 1660 SUPER; 8 GB DDR4-3200 UDIMM RAM; 256 GB NVMe SSD + 1000 GB HDD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb0005us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB0005US 90RB0005US. Ryzen 5 3600; Radeon RX 5500; 8 GB DDR4-3200 UDIMM RAM; 1000 GB NVMe SSD + 1000 GB HDD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb0006us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB0006US 90RB0006US. Ryzen 5 3600; GeForce GTX 1650 SUPER; 8 GB DDR4-3200 UDIMM RAM; 512 GB NVMe PCIe 3.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb0007us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB0007US 90RB0007US. Ryzen 5 3600; GeForce GTX 1660 SUPER; 8 GB DDR4-3200 UDIMM RAM; 512 GB NVMe PCIe 3.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb000aus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB000AUS 90RB000AUS. Ryzen 5 3600; GeForce GTX 1650 SUPER; 8 GB DDR4-3200 UDIMM RAM; 512 GB NVMe PCIe 3.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb000but/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB000BUT 90RB000BUT. Ryzen 7 3700X; GeForce GTX 1660 SUPER; 8 GB DDR4-3200 UDIMM RAM; 512 GB NVMe SSD + 1000 GB HDD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb000dus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB000DUS 90RB000DUS. Ryzen 5 3600; GeForce GTX 1650 SUPER; 8 GB DDR4-3200 UDIMM RAM; 512 GB NVMe PCIe 3.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb000eus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB000EUS 90RB000EUS. Ryzen 7 3700X; GeForce GTX 1660 SUPER; 16 GB DDR4-3200 UDIMM RAM; 256 GB NVMe SSD + 1000 GB HDD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb000sus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB000SUS 90RB000SUS. Ryzen 7 5800; GeForce GTX 1650 SUPER; 16 GB DDR4-3200 UDIMM RAM; 256 GB NVMe SSD + 1000 GB HDD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb000tus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB000TUS 90RB000TUS. Ryzen 7 5800; GeForce RTX 3060; 16 GB DDR4-3200 UDIMM RAM; 512 GB NVMe SSD + 1000 GB HDD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb000uus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB000UUS 90RB000UUS. Ryzen 7 3700X; GeForce RTX 2060 CD; 16 GB DDR4-3200 UDIMM RAM; 512 GB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb000xus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB000XUS 90RB000XUS. Ryzen 7 5800; GeForce GTX 1660 SUPER; 8 GB DDR4-3200 UDIMM RAM; 512 GB NVMe SSD + 1000 GB HDD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb000yus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB000YUS 90RB000YUS. Ryzen 7 5800; GeForce GTX 1660 SUPER; 16 GB DDR4-3200 UDIMM RAM; 512 GB NVMe SSD + 1000 GB HDD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb0010us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB0010US 90RB0010US. Ryzen 7 5800; GeForce RTX 3060; 16 GB DDR4-3200 UDIMM RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb0011us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB0011US 90RB0011US. Ryzen 7 5800; GeForce RTX 3060; 32 GB DDR4-3200 UDIMM RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb0014us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB0014US 90RB0014US. Ryzen 7 5800; GeForce RTX 3060; 16 GB DDR4-3200 UDIMM RAM; 512 GB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90rb001aus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26AMR5 90RB001AUS 90RB001AUS. Ryzen 7 5800; GeForce GTX 1660 SUPER; 16 GB DDR4-3200 UDIMM RAM; 256 GB NVMe SSD + 1000 GB HDD. Check the exact Lenovo listing and undisclosed components."
     },
     {
       "route": "/performance/games/",

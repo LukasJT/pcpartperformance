@@ -1,0 +1,562 @@
+{
+  "schema": 1,
+  "version": "2026-10-19.1",
+  "reviewedAt": "2026-10-19",
+  "scope": "Add evidence to ten existing exact identities only; no new products, prices, photos, aliases or installed-fit guarantees.",
+  "sources": {
+    "mini": {
+      "publisher": "Lian Li",
+      "url": "https://lian-li.com/product/o11-dynamic-mini/",
+      "checked": "2026-10-19",
+      "scope": "Exact O11DMINI-X / O11DMINI-W specification columns. Modular rear-panel/radiator layout remains a separate check; the page contradicts itself on GPU length.",
+      "locator": "Tech Specs",
+      "confidence": "manufacturer-verified",
+      "inspection": "Original manufacturer product page or exact manual inspected. Facts are specifications; no physical fit, electrical, thermal or acoustic testing is claimed."
+    },
+    "4000d": {
+      "publisher": "CORSAIR",
+      "url": "https://www.corsair.com/us/en/p/pc-cases/cc-9011198-ww/4000d-tempered-glass-mid-tower-atx-case-black-cc-9011198-ww",
+      "checked": "2026-10-19",
+      "scope": "Exact standard 4000D Black / CC-9011198-WW; not Airflow, RGB or FRAME. Nominal published limits only.",
+      "locator": "Tech Specs",
+      "confidence": "manufacturer-verified",
+      "inspection": "Original manufacturer product page or exact manual inspected. Facts are specifications; no physical fit, electrical, thermal or acoustic testing is claimed."
+    },
+    "200r": {
+      "publisher": "CORSAIR",
+      "url": "https://www.corsair.com/us/en/p/pc-cases/cc-9011023-ww/carbide-series-200r-compact-atx-case-cc-9011023-ww",
+      "checked": "2026-10-19",
+      "scope": "Exact CC-9011023-WW. Marketing body and Tech Specs disagree about GPU and CPU-cooler clearance, so neither number is promoted into a verified limit.",
+      "locator": "Tech Specs",
+      "confidence": "manufacturer-verified",
+      "inspection": "Original manufacturer product page or exact manual inspected. Facts are specifications; no physical fit, electrical, thermal or acoustic testing is claimed."
+    },
+    "h500": {
+      "publisher": "NZXT",
+      "url": "https://assets.cdn.nzxt.com/uploads/download/attachment/711/H500i_H500-manual-ver5-021119_-web.pdf",
+      "checked": "2026-10-19",
+      "scope": "Exact H500/H500i manual; standard H500 catalog record only. Does not inherit H510 specs. Manual publishes 325 mm nominal GPU clearance; H510 or later-case figures are not inherited.",
+      "locator": "Page1, Clearances and Specifications",
+      "confidence": "manufacturer-verified",
+      "sha256": "af10e66fe2c2235a8b1551e54dd1f2857332dfa43142fba79e5eea6b64e50f8f",
+      "bytes": 11908584,
+      "inspection": "Original manufacturer product page or exact manual inspected. Facts are specifications; no physical fit, electrical, thermal or acoustic testing is claimed."
+    },
+    "rmx2021": {
+      "publisher": "CORSAIR",
+      "url": "https://assets.corsair.com/image/upload/corsairmedia/sys_master/productcontent/WW_RMx_Series_2021_QSG_Web_AD.pdf",
+      "checked": "2026-10-19",
+      "scope": "Exact RMx2021 family manual. RM650x / RPS0122 / CP-9020198; RM750x / RPS0123 / CP-9020199; RM1000x / RPS0125 / CP-9020201. Regional AC suffixes and individual package contents are not inferred.",
+      "locator": "PDF pages 4/5/9, English and French tables",
+      "confidence": "manufacturer-verified",
+      "sha256": "d83b28552a7a6501ce60326c6c88bf98b6168662ea7fea8696b645ac88353674",
+      "bytes": 4579394,
+      "inspection": "Original manufacturer product page or exact manual inspected. Facts are specifications; no physical fit, electrical, thermal or acoustic testing is claimed."
+    },
+    "sf750": {
+      "publisher": "CORSAIR",
+      "url": "https://assets.corsair.com/image/upload/corsairmedia/sys_master/productcontent/SF_PLATINUM_User_Manual.pdf",
+      "checked": "2026-10-19",
+      "scope": "Original SF750 Platinum / CP-9020186 / RPS0115 manual, not newer SF750 revisions or SF750L. Named SF750 table and labeled dimension axes.",
+      "locator": "PDF page 4, SF750 power table and dimensions",
+      "confidence": "manufacturer-verified",
+      "sha256": "7fa4600ab181c6b7167b9ac632476bf3e35518368cd499e938a05cfb78992013",
+      "bytes": 3277209,
+      "inspection": "Original manufacturer product page or exact manual inspected. Facts are specifications; no physical fit, electrical, thermal or acoustic testing is claimed."
+    },
+    "sf750-page": {
+      "publisher": "CORSAIR",
+      "url": "https://www.corsair.com/us/en/p/psu/cp-9020186-na/sf-series-sf750-750-watt-80-plus-platinum-certified-high-performance-sfx-psu-cp-9020186-na",
+      "checked": "2026-10-19",
+      "scope": "Exact CP-9020186-NA product page corroborates 750 W and SFX. Website dimensions omit axes; the manual supplies the labeled 100 mm length.",
+      "locator": "Tech Specs",
+      "confidence": "manufacturer-verified",
+      "inspection": "Original manufacturer product page or exact manual inspected. Facts are specifications; no physical fit, electrical, thermal or acoustic testing is claimed."
+    },
+    "ax1600i": {
+      "publisher": "CORSAIR",
+      "url": "https://assets.corsair.com/image/upload/corsairmedia/sys_master/productcontent/AX1600i_C14_Manual_Web.pdf",
+      "checked": "2026-10-19",
+      "scope": "AX1600i exact manual with labeled 200 mm body length. Package AC lead and circuit requirements must be checked separately.",
+      "locator": "PDF page 4, Dimensions",
+      "confidence": "manufacturer-verified",
+      "sha256": "1cbe148743b3376b26af34413dd195a2b32b974330c43e41e1b10e0779ac81b6",
+      "bytes": 1433287,
+      "inspection": "Original manufacturer product page or exact manual inspected. Facts are specifications; no physical fit, electrical, thermal or acoustic testing is claimed."
+    },
+    "ax1600i-page": {
+      "publisher": "CORSAIR",
+      "url": "https://www.corsair.com/us/en/p/psu/cp-9020087-na/ax1600i-digital-atx-power-supply-1600-watt-fully-modular-psu-cp-9020087-na",
+      "checked": "2026-10-19",
+      "scope": "Exact CP-9020087-NA:1600W continuous rating and ATX form. No available-circuit or cable suitability guarantee.",
+      "locator": "Tech Specs",
+      "confidence": "manufacturer-verified",
+      "inspection": "Original manufacturer product page or exact manual inspected. Facts are specifications; no physical fit, electrical, thermal or acoustic testing is claimed."
+    }
+  },
+  "records": [
+    {
+      "id": "retail-lian-li-o11-dynamic-mini-black",
+      "identity": {
+        "name": "O11 Dynamic Mini Black",
+        "brand": "Lian Li",
+        "cat": "case",
+        "sku": "O11DMINI-X"
+      },
+      "fields": {
+        "forms": {
+          "value": [
+            "E-ATX",
+            "ATX",
+            "MICRO-ATX",
+            "MINI-ITX"
+          ],
+          "sourceId": "mini",
+          "unit": "",
+          "condition": "Supported motherboard formats only; the exact board width and installed layout still require checking."
+        },
+        "boardWidthMax": {
+          "value": 280,
+          "sourceId": "mini",
+          "unit": "mm",
+          "condition": "Published maximum E-ATX board width; mounting, standoffs and occupied connections remain separate checks.",
+          "comparison": "lte"
+        },
+        "psuFormats": {
+          "value": [
+            "SFX",
+            "SFX-L"
+          ],
+          "sourceId": "mini",
+          "unit": "",
+          "condition": "Native PSU form factor only; adapter brackets and side-facing connectors are not automatically accepted."
+        },
+        "coolerHeightMax": {
+          "value": 170,
+          "sourceId": "mini",
+          "unit": "mm",
+          "condition": "Nominal body/part dimension only; cables, drive cages, radiators, fans and adjacent hardware still need installed-clearance verification."
+        },
+        "gpuLengthMax": {
+          "value": null,
+          "sourceId": "mini",
+          "unit": "mm",
+          "condition": "Nominal body/part dimension only; cables, drive cages, radiators, fans and adjacent hardware still need installed-clearance verification.",
+          "conflicts": [
+            {
+              "sourceId": "mini",
+              "locator": "GPU LENGTH CLEARANCE",
+              "value": 395
+            },
+            {
+              "sourceId": "mini",
+              "locator": "VGA Length",
+              "value": 370
+            }
+          ]
+        }
+      },
+      "notes": "GPU limit held unknown: source table has395mm GPU LENGTH CLEARANCE and370mm VGA Length. No conventional ATX PSU support is inferred; this is O11 Dynamic Mini, not Air Mini."
+    },
+    {
+      "id": "retail-lian-li-o11-dynamic-mini-white",
+      "identity": {
+        "name": "O11 Dynamic Mini White",
+        "brand": "Lian Li",
+        "cat": "case",
+        "sku": "O11DMINI-W"
+      },
+      "fields": {
+        "forms": {
+          "value": [
+            "E-ATX",
+            "ATX",
+            "MICRO-ATX",
+            "MINI-ITX"
+          ],
+          "sourceId": "mini",
+          "unit": "",
+          "condition": "Supported motherboard formats only; the exact board width and installed layout still require checking."
+        },
+        "boardWidthMax": {
+          "value": 280,
+          "sourceId": "mini",
+          "unit": "mm",
+          "condition": "Published maximum E-ATX board width; mounting, standoffs and occupied connections remain separate checks.",
+          "comparison": "lte"
+        },
+        "psuFormats": {
+          "value": [
+            "SFX",
+            "SFX-L"
+          ],
+          "sourceId": "mini",
+          "unit": "",
+          "condition": "Native PSU form factor only; adapter brackets and side-facing connectors are not automatically accepted."
+        },
+        "coolerHeightMax": {
+          "value": 170,
+          "sourceId": "mini",
+          "unit": "mm",
+          "condition": "Nominal body/part dimension only; cables, drive cages, radiators, fans and adjacent hardware still need installed-clearance verification."
+        },
+        "gpuLengthMax": {
+          "value": null,
+          "sourceId": "mini",
+          "unit": "mm",
+          "condition": "Nominal body/part dimension only; cables, drive cages, radiators, fans and adjacent hardware still need installed-clearance verification.",
+          "conflicts": [
+            {
+              "sourceId": "mini",
+              "locator": "GPU LENGTH CLEARANCE",
+              "value": 395
+            },
+            {
+              "sourceId": "mini",
+              "locator": "VGA Length",
+              "value": 370
+            }
+          ]
+        }
+      },
+      "notes": "GPU limit held unknown: source table has395mm GPU LENGTH CLEARANCE and370mm VGA Length. No conventional ATX PSU support is inferred; this is O11 Dynamic Mini, not Air Mini."
+    },
+    {
+      "id": "retail-corsair-4000d-black",
+      "identity": {
+        "name": "4000D Black",
+        "brand": "Corsair",
+        "cat": "case",
+        "sku": "CC-9011198-WW"
+      },
+      "fields": {
+        "forms": {
+          "value": [
+            "E-ATX",
+            "ATX",
+            "MICRO-ATX",
+            "MINI-ITX"
+          ],
+          "sourceId": "4000d",
+          "unit": "",
+          "condition": "Supported motherboard formats only; the exact board width and installed layout still require checking."
+        },
+        "boardWidthMax": {
+          "value": 277,
+          "sourceId": "4000d",
+          "unit": "mm",
+          "condition": "Published maximum E-ATX board width; mounting, standoffs and occupied connections remain separate checks.",
+          "comparison": "lte"
+        },
+        "gpuLengthMax": {
+          "value": 360,
+          "sourceId": "4000d",
+          "unit": "mm",
+          "condition": "Nominal body/part dimension only; cables, drive cages, radiators, fans and adjacent hardware still need installed-clearance verification."
+        },
+        "coolerHeightMax": {
+          "value": 170,
+          "sourceId": "4000d",
+          "unit": "mm",
+          "condition": "Nominal body/part dimension only; cables, drive cages, radiators, fans and adjacent hardware still need installed-clearance verification."
+        },
+        "psuFormats": {
+          "value": [
+            "ATX"
+          ],
+          "sourceId": "4000d",
+          "unit": "",
+          "condition": "Native PSU form factor only; adapter brackets and side-facing connectors are not automatically accepted."
+        },
+        "psuLengthMax": {
+          "value": 220,
+          "sourceId": "4000d",
+          "unit": "mm",
+          "condition": "Nominal body/part dimension only; cables, drive cages, radiators, fans and adjacent hardware still need installed-clearance verification."
+        }
+      },
+      "notes": "Nominal published limits only. E-ATX page specifies305×277mm. Front radiator, GPU power cable and relocated drive cage need an exact installed-layout check."
+    },
+    {
+      "id": "retail-corsair-carbide-200r-black",
+      "identity": {
+        "name": "Carbide Series 200R",
+        "brand": "CORSAIR",
+        "cat": "case",
+        "sku": "CC-9011023-WW"
+      },
+      "fields": {
+        "forms": {
+          "value": [
+            "ATX",
+            "MICRO-ATX",
+            "MINI-ITX"
+          ],
+          "sourceId": "200r",
+          "unit": "",
+          "condition": "Supported motherboard formats only; the exact board width and installed layout still require checking."
+        },
+        "psuFormats": {
+          "value": [
+            "ATX"
+          ],
+          "sourceId": "200r",
+          "unit": "",
+          "condition": "Native PSU form factor only; adapter brackets and side-facing connectors are not automatically accepted."
+        },
+        "psuLengthMax": {
+          "value": 200,
+          "sourceId": "200r",
+          "unit": "mm",
+          "condition": "Nominal body/part dimension only; cables, drive cages, radiators, fans and adjacent hardware still need installed-clearance verification."
+        },
+        "gpuLengthMax": {
+          "value": null,
+          "sourceId": "200r",
+          "unit": "mm",
+          "condition": "Nominal body/part dimension only; cables, drive cages, radiators, fans and adjacent hardware still need installed-clearance verification.",
+          "conflicts": [
+            {
+              "sourceId": "200r",
+              "locator": "Serious Expansion",
+              "value": 430,
+              "condition": "300mm with drive cage"
+            },
+            {
+              "sourceId": "200r",
+              "locator": "Tech Specs",
+              "value": 420
+            }
+          ],
+          "supersedes": {
+            "value": 420,
+            "source": "https://www.corsair.com/us/en/p/pc-cases/cc-9011023-ww/carbide-series-200r-compact-atx-case-cc-9011023-ww",
+            "checked": "2026-10-16",
+            "model": "Carbide Series 200R / CC-9011023-WW"
+          }
+        },
+        "coolerHeightMax": {
+          "value": null,
+          "sourceId": "200r",
+          "unit": "mm",
+          "condition": "Nominal body/part dimension only; cables, drive cages, radiators, fans and adjacent hardware still need installed-clearance verification.",
+          "conflicts": [
+            {
+              "sourceId": "200r",
+              "locator": "Serious Expansion",
+              "value": 160
+            },
+            {
+              "sourceId": "200r",
+              "locator": "Tech Specs",
+              "value": 165
+            }
+          ],
+          "supersedes": {
+            "value": 165,
+            "source": "https://www.corsair.com/us/en/p/pc-cases/cc-9011023-ww/carbide-series-200r-compact-atx-case-cc-9011023-ww",
+            "checked": "2026-10-16",
+            "model": "Carbide Series 200R / CC-9011023-WW"
+          }
+        }
+      },
+      "notes": "Conflicting source clearance figures are held unknown; no convenient maximum is chosen."
+    },
+    {
+      "id": "retail-nzxt-h500",
+      "identity": {
+        "name": "H500",
+        "brand": "NZXT",
+        "cat": "case",
+        "sku": "CA-H500B-B1"
+      },
+      "fields": {
+        "forms": {
+          "value": [
+            "ATX",
+            "MICRO-ATX",
+            "MINI-ITX"
+          ],
+          "sourceId": "h500",
+          "unit": "",
+          "condition": "Supported motherboard formats only; the exact board width and installed layout still require checking."
+        },
+        "coolerHeightMax": {
+          "value": 165,
+          "sourceId": "h500",
+          "unit": "mm",
+          "condition": "Nominal body/part dimension only; cables, drive cages, radiators, fans and adjacent hardware still need installed-clearance verification."
+        },
+        "gpuLengthMax": {
+          "value": 325,
+          "sourceId": "h500",
+          "unit": "mm",
+          "condition": "Nominal body/part dimension only; cables, drive cages, radiators, fans and adjacent hardware still need installed-clearance verification."
+        }
+      },
+      "notes": "Exact H500 manual publishes 325 mm nominal GPU clearance. Fan, radiator, power-cable and bracket configurations still require an installed-layout check; H510 or newer-case figures are not inherited."
+    },
+    {
+      "id": "rm650x",
+      "identity": {
+        "name": "RM650x (2021)",
+        "brand": "CORSAIR",
+        "cat": "psu",
+        "sku": null
+      },
+      "fields": {
+        "psuOutput": {
+          "value": 650,
+          "sourceId": "rmx2021",
+          "unit": "W",
+          "condition": "Manufacturer rated output, not measured consumption or a complete system/cable safety verdict."
+        },
+        "psuFormat": {
+          "value": "ATX",
+          "sourceId": "rmx2021",
+          "unit": "",
+          "condition": "Native PSU form factor only; adapter brackets and side-facing connectors are not automatically accepted."
+        },
+        "psuLength": {
+          "value": 160,
+          "sourceId": "rmx2021",
+          "unit": "mm",
+          "condition": "Nominal body/part dimension only; cables, drive cages, radiators, fans and adjacent hardware still need installed-clearance verification."
+        }
+      },
+      "notes": "2021 model / RPS0122/CP-9020198only. Cable family, connector inventory, routing and actual package contents remain separate checks."
+    },
+    {
+      "id": "rm750x",
+      "identity": {
+        "name": "RM750x (2021)",
+        "brand": "CORSAIR",
+        "cat": "psu",
+        "sku": null
+      },
+      "fields": {
+        "psuOutput": {
+          "value": 750,
+          "sourceId": "rmx2021",
+          "unit": "W",
+          "condition": "Manufacturer rated output, not measured consumption or a complete system/cable safety verdict."
+        },
+        "psuFormat": {
+          "value": "ATX",
+          "sourceId": "rmx2021",
+          "unit": "",
+          "condition": "Native PSU form factor only; adapter brackets and side-facing connectors are not automatically accepted."
+        },
+        "psuLength": {
+          "value": 160,
+          "sourceId": "rmx2021",
+          "unit": "mm",
+          "condition": "Nominal body/part dimension only; cables, drive cages, radiators, fans and adjacent hardware still need installed-clearance verification."
+        }
+      },
+      "notes": "2021 model / RPS0123/CP-9020199only. Not RM750x2018, SHIFT or current unnamed revisions; no modular cable interchangeability is inferred."
+    },
+    {
+      "id": "rm1000x",
+      "identity": {
+        "name": "RM1000x (2021)",
+        "brand": "CORSAIR",
+        "cat": "psu",
+        "sku": null
+      },
+      "fields": {
+        "psuOutput": {
+          "value": 1000,
+          "sourceId": "rmx2021",
+          "unit": "W",
+          "condition": "Manufacturer rated output, not measured consumption or a complete system/cable safety verdict."
+        },
+        "psuFormat": {
+          "value": "ATX",
+          "sourceId": "rmx2021",
+          "unit": "",
+          "condition": "Native PSU form factor only; adapter brackets and side-facing connectors are not automatically accepted."
+        },
+        "psuLength": {
+          "value": null,
+          "sourceId": "rmx2021",
+          "unit": "mm",
+          "condition": "Nominal body/part dimension only; cables, drive cages, radiators, fans and adjacent hardware still need installed-clearance verification.",
+          "conflicts": [
+            {
+              "sourceId": "rmx2021",
+              "locator": "PDF page 5 English RM1000x",
+              "value": 160
+            },
+            {
+              "sourceId": "rmx2021",
+              "locator": "PDF page 9 French RM1000x",
+              "value": 180
+            }
+          ]
+        }
+      },
+      "notes": "2021 model / RPS0125/CP-9020201only. Manual English/French dimensions conflict; body length remains unverified."
+    },
+    {
+      "id": "sf750",
+      "identity": {
+        "name": "SF750 Platinum",
+        "brand": "CORSAIR",
+        "cat": "psu",
+        "sku": null
+      },
+      "fields": {
+        "psuOutput": {
+          "value": 750,
+          "sourceId": "sf750-page",
+          "unit": "W",
+          "condition": "Manufacturer rated output, not measured consumption or a complete system/cable safety verdict."
+        },
+        "psuFormat": {
+          "value": "SFX",
+          "sourceId": "sf750-page",
+          "unit": "",
+          "condition": "Native PSU form factor only; adapter brackets and side-facing connectors are not automatically accepted."
+        },
+        "psuLength": {
+          "value": 100,
+          "sourceId": "sf750",
+          "unit": "mm",
+          "condition": "Nominal body/part dimension only; cables, drive cages, radiators, fans and adjacent hardware still need installed-clearance verification."
+        }
+      },
+      "notes": "Original SF750 Platinum / CP-9020186 / RPS0115. The labeled manual establishes100mm body length. Does not inherit newer SF750/ SF750L specs or assume an adapter is present in used stock."
+    },
+    {
+      "id": "ax1600i",
+      "identity": {
+        "name": "AX1600i",
+        "brand": "CORSAIR",
+        "cat": "psu",
+        "sku": null
+      },
+      "fields": {
+        "psuOutput": {
+          "value": 1600,
+          "sourceId": "ax1600i-page",
+          "unit": "W",
+          "condition": "Manufacturer rated output, not measured consumption or a complete system/cable safety verdict."
+        },
+        "psuFormat": {
+          "value": "ATX",
+          "sourceId": "ax1600i-page",
+          "unit": "",
+          "condition": "Native PSU form factor only; adapter brackets and side-facing connectors are not automatically accepted."
+        },
+        "psuLength": {
+          "value": 200,
+          "sourceId": "ax1600i",
+          "unit": "mm",
+          "condition": "Nominal body/part dimension only; cables, drive cages, radiators, fans and adjacent hardware still need installed-clearance verification."
+        }
+      },
+      "notes": "Exact AX1600i / CP-9020087. Body length does not include cable bend space; rated output is not proof that a particular wall circuit, AC lead or modular cable is suitable."
+    }
+  ]
+}

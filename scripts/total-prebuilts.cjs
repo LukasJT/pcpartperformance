@@ -37,7 +37,7 @@ function validate(row,sources) {
   if(row.brand==='MSI'&&url&&decodeURIComponent(url.pathname.split('/').pop())!==row.model+'.pdf') fail('MSI PDF filename does not bind the exact model');
   if(row.brand==='CORSAIR'&&url&&!url.pathname.toLowerCase().includes('/'+row.manufacturerPartNumber.toLowerCase()+'/')) fail('CORSAIR URL does not bind the selected SKU');
   if(row.brand==='Lenovo'&&url&&(url.searchParams.get('M')!==row.manufacturerPartNumber||!/^\/(?:l\/)?Detail\//.test(url.pathname)))fail('Lenovo source must bind the exact model query');
-  if(source.tableUrl){let table;try{table=new URL(source.tableUrl);}catch{}if(!table||table.protocol!=='https:'||table.hostname!=='psref.lenovo.com'||!/^\/(?:product|WDProduct)\//.test(table.pathname))fail('invalid manufacturer model-table provenance');}
+  if(source.tableUrl){let table;try{table=new URL(source.tableUrl);}catch{}if(!table||table.protocol!=='https:'||table.hostname!=='psref.lenovo.com'||!/^\/(?:product|WDProduct)\//i.test(table.pathname))fail('invalid manufacturer model-table provenance');}
   const facts=source.facts;
   if(!facts||typeof facts!=='object'||Array.isArray(facts)) {fail('source facts required');return errors;}
   for(const [key,value] of Object.entries(facts)) {
@@ -122,13 +122,13 @@ function measure(records){
     regions:records.reduce((o,r)=>(o[r.region]=(o[r.region]||0)+1,o),{}),brands:records.reduce((o,r)=>(o[r.brand||'Unknown']=(o[r.brand||'Unknown']||0)+1,o),{})};
 }
 function coverage(existing=require('./oct14-prebuilt-data.cjs'),packets=readPackets()){
-  const result=stage(existing,packets),merged=[...existing,...result.additions];
+  const result=stage(existing,packets),merged=[...existing,...result.additions],after=measure(merged);
   return {schema:VERSION,inspectedAt:'2026-10-19',basis:'Bounded fixed-SKU manufacturer specification intake. Regional rows, exact model identifiers and shared core hardware configurations are distinct counts.',before:measure(existing),added:measure(result.additions),after:measure(merged),valid:result.ok,errors:result.errors,excludedCandidates:result.excluded,
     sourceRegisterEntries:Object.keys(packets.sources).length,
     inspectedPrimarySourceDocuments:new Set(Object.values(packets.sources).flatMap(source=>source.tableUrl?[source.tableUrl,...(source.detailCorroborated?[source.url]:[])]:[source.url])).size,
     addedExactPhotographs:0,addedLicensed3DModels:0,addedVerifiedRetailOffers:0,
     countQualification:'Manufacturer part-number counts only include records explicitly carrying the normalized manufacturer-part-number schema. A zero in the inherited cohort does not mean its products lack manufacturer part numbers. A model-family identifier may cover several exact SKUs.',
-    target:{distinctVerifiedConfigurations:200,met:false,note:'200 distinct verified configurations have not been established. Matching CPU/GPU/RAM/storage signatures are counted once regardless of manufacturer SKU or region; this is not proof that undisclosed components are identical.'},
+    target:{distinctVerifiedConfigurations:200,met:result.ok&&after.coreConfigurationSignatures>=200,note:'Threshold uses source-backed catalog CPU/GPU/RAM/storage signatures, counted once regardless of SKU or region. Historical configurations count as reference coverage, not current offers. This is not proof of complete market coverage, independently tested systems or identical undisclosed components.'},
     unknowns:{exactPsuModel:result.additions.filter(r=>!r.normalized.psuModel).length,exactMotherboard:result.additions.filter(r=>!r.board).length,ramModuleLayout:result.additions.filter(r=>!r.ramLayout).length,warranty:result.additions.filter(r=>!r.warranty).length,price:result.additions.length,stock:result.additions.length,exactPhoto:result.additions.length},
     gaps:['Additional fixed configurations from other manufacturers require exact source inspection.','No manufacturer photography redistribution licence acquired. Original category artwork is explicitly illustrative.','No current prices or stock are asserted; authorized retail offers are a separate system.','Existing retailer-source records retain their original data, dates and conflicts; this batch is not a re-verification of the inherited cohort.']};
 }

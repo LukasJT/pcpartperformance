@@ -1,95 +1,60 @@
 {
-  "checkedAt": "2026-10-19T20:27:25.683Z",
+  "checkedAt": "2026-10-19T22:45:27.794Z",
   "scope": "Cold isolated Edge mobile laboratory samples. CPU4x,150ms latency,1.6Mbps down/750Kbps up. Local Worker over HTTP; not Lighthouse, a physical iPhone, production field metrics or p75 INP. QA axe excluded. Event durations below16ms may not be reported.",
   "runs": [
     {
       "route": "/",
       "run": 1,
-      "lcp": 1236,
+      "lcp": 1248,
       "cls": 0,
       "longTasks": 1,
       "eventDurations": [
         {
           "name": "pointerdown",
-          "duration": 128
+          "duration": 280
         },
         {
           "name": "pointerup",
-          "duration": 128
+          "duration": 280
         },
         {
           "name": "click",
-          "duration": 128
+          "duration": 280
         },
         {
           "name": "pointerdown",
-          "duration": 40
+          "duration": 24
         },
         {
           "name": "pointerup",
-          "duration": 40
+          "duration": 24
         },
         {
           "name": "click",
-          "duration": 40
+          "duration": 24
         }
       ],
-      "bytes": 165700,
+      "bytes": 165705,
       "initial3D": 0
     },
     {
       "route": "/",
       "run": 2,
-      "lcp": 1184,
-      "cls": 0,
-      "longTasks": 2,
-      "eventDurations": [
-        {
-          "name": "pointerdown",
-          "duration": 72
-        },
-        {
-          "name": "pointerup",
-          "duration": 72
-        },
-        {
-          "name": "click",
-          "duration": 72
-        },
-        {
-          "name": "pointerdown",
-          "duration": 32
-        },
-        {
-          "name": "pointerup",
-          "duration": 32
-        },
-        {
-          "name": "click",
-          "duration": 32
-        }
-      ],
-      "bytes": 165700,
-      "initial3D": 0
-    },
-    {
-      "route": "/",
-      "run": 3,
-      "lcp": 1176,
+      "lcp": 1172,
       "cls": 0,
       "longTasks": 1,
       "eventDurations": [
         {
           "name": "pointerdown",
-          "duration": 72
+          "duration": 64
         },
         {
           "name": "pointerup",
-          "duration": 72
+          "duration": 64
         },
         {
           "name": "click",
-          "duration": 72
+          "duration": 64
         },
         {
           "name": "pointerdown",
@@ -104,13 +69,48 @@
           "duration": 24
         }
       ],
-      "bytes": 165700,
+      "bytes": 165705,
+      "initial3D": 0
+    },
+    {
+      "route": "/",
+      "run": 3,
+      "lcp": 1148,
+      "cls": 0,
+      "longTasks": 1,
+      "eventDurations": [
+        {
+          "name": "pointerdown",
+          "duration": 56
+        },
+        {
+          "name": "pointerup",
+          "duration": 56
+        },
+        {
+          "name": "click",
+          "duration": 56
+        },
+        {
+          "name": "pointerdown",
+          "duration": 24
+        },
+        {
+          "name": "pointerup",
+          "duration": 24
+        },
+        {
+          "name": "click",
+          "duration": 24
+        }
+      ],
+      "bytes": 165705,
       "initial3D": 0
     },
     {
       "route": "/builder/",
       "run": 1,
-      "lcp": 1280,
+      "lcp": 1268,
       "cls": 0,
       "longTasks": 2,
       "eventDurations": [
@@ -128,25 +128,25 @@
         },
         {
           "name": "pointerdown",
-          "duration": 24
+          "duration": 16
         },
         {
           "name": "pointerup",
-          "duration": 24
+          "duration": 16
         },
         {
           "name": "click",
-          "duration": 24
+          "duration": 16
         }
       ],
-      "bytes": 242282,
+      "bytes": 241416,
       "initial3D": 0
     },
     {
       "route": "/builder/",
       "run": 2,
-      "lcp": 1272,
-      "cls": 0.06319842796744148,
+      "lcp": 1268,
+      "cls": 0.032927223775016286,
       "longTasks": 2,
       "eventDurations": [
         {
@@ -174,27 +174,27 @@
           "duration": 16
         }
       ],
-      "bytes": 242282,
+      "bytes": 241416,
       "initial3D": 0
     },
     {
       "route": "/builder/",
       "run": 3,
-      "lcp": 1256,
-      "cls": 0.06319842796744148,
+      "lcp": 1288,
+      "cls": 0,
       "longTasks": 2,
       "eventDurations": [
         {
           "name": "pointerdown",
-          "duration": 48
+          "duration": 40
         },
         {
           "name": "pointerup",
-          "duration": 48
+          "duration": 40
         },
         {
           "name": "click",
-          "duration": 48
+          "duration": 40
         },
         {
           "name": "pointerdown",
@@ -209,7 +209,7 @@
           "duration": 16
         }
       ],
-      "bytes": 242282,
+      "bytes": 241416,
       "initial3D": 0
     },
     {
@@ -221,50 +221,50 @@
       "eventDurations": [
         {
           "name": "pointerdown",
-          "duration": 48
+          "duration": 40
         },
         {
           "name": "pointerup",
-          "duration": 48
+          "duration": 40
         },
         {
           "name": "click",
-          "duration": 48
+          "duration": 40
         },
         {
           "name": "pointerdown",
-          "duration": 16
+          "duration": 24
         },
         {
           "name": "pointerup",
-          "duration": 16
+          "duration": 24
         },
         {
           "name": "click",
-          "duration": 16
+          "duration": 24
         }
       ],
-      "bytes": 143756,
+      "bytes": 143761,
       "initial3D": 0
     },
     {
       "route": "/performance/",
       "run": 2,
-      "lcp": 1052,
+      "lcp": 1040,
       "cls": 0,
       "longTasks": 2,
       "eventDurations": [
         {
           "name": "pointerdown",
-          "duration": 48
+          "duration": 40
         },
         {
           "name": "pointerup",
-          "duration": 48
+          "duration": 40
         },
         {
           "name": "click",
-          "duration": 48
+          "duration": 40
         },
         {
           "name": "pointerdown",
@@ -279,27 +279,27 @@
           "duration": 24
         }
       ],
-      "bytes": 143756,
+      "bytes": 143761,
       "initial3D": 0
     },
     {
       "route": "/performance/",
       "run": 3,
-      "lcp": 1016,
+      "lcp": 1028,
       "cls": 0,
       "longTasks": 2,
       "eventDurations": [
         {
           "name": "pointerdown",
-          "duration": 48
+          "duration": 520
         },
         {
           "name": "pointerup",
-          "duration": 48
+          "duration": 520
         },
         {
           "name": "click",
-          "duration": 48
+          "duration": 520
         },
         {
           "name": "pointerdown",
@@ -314,7 +314,7 @@
           "duration": 24
         }
       ],
-      "bytes": 143756,
+      "bytes": 143761,
       "initial3D": 0
     }
   ],
@@ -322,9 +322,9 @@
     {
       "route": "/",
       "runs": 3,
-      "lcpMedianMs": 1184,
+      "lcpMedianMs": 1172,
       "clsMedian": 0,
-      "maxInteractionEventMs": 128,
+      "maxInteractionEventMs": 280,
       "initial3D": [
         0,
         0,
@@ -334,9 +334,9 @@
     {
       "route": "/builder/",
       "runs": 3,
-      "lcpMedianMs": 1272,
-      "clsMedian": 0.06319842796744148,
-      "maxInteractionEventMs": 48,
+      "lcpMedianMs": 1268,
+      "clsMedian": 0,
+      "maxInteractionEventMs": 40,
       "initial3D": [
         0,
         0,
@@ -348,7 +348,7 @@
       "runs": 3,
       "lcpMedianMs": 1028,
       "clsMedian": 0,
-      "maxInteractionEventMs": 48,
+      "maxInteractionEventMs": 520,
       "initial3D": [
         0,
         0,

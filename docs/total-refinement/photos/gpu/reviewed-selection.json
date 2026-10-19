@@ -1,0 +1,188 @@
+{
+  "reviewedAt": "2026-10-19T21:58:48.521Z",
+  "reviewer": "AI-assisted source and visual review; not physical hardware inspection",
+  "method": "Compared all20 color product images on the contact sheets with exact manufacturer datasheet names or exact product-gallery model pages. PDF masks and marketing graphics were rejected. Shared exterior artwork is only retained when independently included by the manufacturer in each exact variant datasheet.",
+  "rightsStatus": "Manufacturer-published product media; no open redistribution license or separate permission established.",
+  "rows": [
+    {
+      "id": "total-gpu-msi-geforce-gtx-950-gaming-2g",
+      "name": "GeForce GTX 950 GAMING 2G",
+      "candidateFile": "tmp/total-gpu-photos-oct19/total-gpu-msi-geforce-gtx-950-gaming-2g-I6.png",
+      "sourceSha256": "2c980fb050fe9108eda8ece344c9f29a0f30764981cb0870ea16ce6437ef8638",
+      "extractedSha256": "681e0e7f84286bc841b0f312cc088b0b5c8038aac1a0bd829d7fdc5e3a7bb13a",
+      "visualReviewSheet": "docs/total-refinement/photos/gpu/contact-1.jpg",
+      "visualReviewed": true
+    },
+    {
+      "id": "total-gpu-msi-geforce-gtx-960-gaming-2g",
+      "name": "GeForce GTX 960 GAMING 2G",
+      "candidateFile": "tmp/total-gpu-photos-oct19/total-gpu-msi-geforce-gtx-960-gaming-2g-I6.png",
+      "sourceSha256": "89bf7d622e1457f10e49c0ee3d498c318cc95ae3756c5f22f5cd3a17ec54b7af",
+      "extractedSha256": "cb2b68f8fa85df6a067965039ead2757bc23dbc261472e5a0752af67da4db262",
+      "visualReviewSheet": "docs/total-refinement/photos/gpu/contact-1.jpg",
+      "visualReviewed": true
+    },
+    {
+      "id": "total-gpu-msi-geforce-gtx-960-gaming-4g",
+      "name": "GeForce GTX 960 GAMING 4G",
+      "candidateFile": "tmp/total-gpu-photos-oct19/total-gpu-msi-geforce-gtx-960-gaming-4g-I6.png",
+      "sourceSha256": "1a8538c99b4a6d62d42dad2b2a784c87593752974384d912a7ba09104b8820b7",
+      "extractedSha256": "afd8d774705579a810dc2aa77faa8a727b5927031fc94dbacb5d2612572d05eb",
+      "visualReviewSheet": "docs/total-refinement/photos/gpu/contact-1.jpg",
+      "visualReviewed": true
+    },
+    {
+      "id": "total-gpu-msi-geforce-gtx-970-gaming-4g",
+      "name": "GeForce GTX 970 GAMING 4G",
+      "candidateFile": "tmp/total-gpu-photos-oct19/total-gpu-msi-geforce-gtx-970-gaming-4g-I8.png",
+      "sourceSha256": "9619046336e2c407bac9dcf797a141db70e3734b68bb42e95f9924a51c08d33c",
+      "extractedSha256": "ce5024937da31710667a29ddabc3590d5dcb5a19790a0cbb4abebf29060fd173",
+      "visualReviewSheet": "docs/total-refinement/photos/gpu/contact-1.jpg",
+      "visualReviewed": true
+    },
+    {
+      "id": "total-gpu-msi-geforce-gtx-980-gaming-4g",
+      "name": "GeForce GTX 980 GAMING 4G",
+      "candidateFile": "tmp/total-gpu-photos-oct19/total-gpu-msi-geforce-gtx-980-gaming-4g-I8.png",
+      "sourceSha256": "f8e6180c9bc768228fef7f3dc1736f13367677dbb52d57aec14d8577f52e0545",
+      "extractedSha256": "58e1d77f4dce2cb29c2be3fa3609d405a81e4bf6b965b5990ef4a9048326a1cc",
+      "visualReviewSheet": "docs/total-refinement/photos/gpu/contact-1.jpg",
+      "visualReviewed": true
+    },
+    {
+      "id": "total-gpu-msi-geforce-gtx-980-ti-gaming-6g",
+      "name": "GeForce GTX 980 Ti GAMING 6G",
+      "candidateFile": "tmp/total-gpu-photos-oct19/total-gpu-msi-geforce-gtx-980-ti-gaming-6g-I6.png",
+      "sourceSha256": "0e747f1122996fde447321b4f527385e546dca79a9be7baa45ac70f5f40248aa",
+      "extractedSha256": "e7372a3a99df2065db41b6f49fa3885f0a42cfe0b9bafd395d1d53a27309fdd9",
+      "visualReviewSheet": "docs/total-refinement/photos/gpu/contact-1.jpg",
+      "visualReviewed": true
+    },
+    {
+      "id": "total-gpu-msi-geforce-gtx-1050-gaming-x-2g",
+      "name": "GeForce GTX 1050 GAMING X 2G",
+      "candidateFile": "tmp/total-gpu-photos-oct19/total-gpu-msi-geforce-gtx-1050-gaming-x-2g-I6.png",
+      "sourceSha256": "e72d10d745a41a5b74292afa127065644e3730c033fd98f8978ca87f15a3fc04",
+      "extractedSha256": "8959e95e0b5c05e34414733e41a1be3f8ab05e754fb18edd952d1a149e91c8a4",
+      "visualReviewSheet": "docs/total-refinement/photos/gpu/contact-1.jpg",
+      "visualReviewed": true
+    },
+    {
+      "id": "total-gpu-msi-geforce-gtx-1050-ti-gaming-x-4g",
+      "name": "GeForce GTX 1050 Ti GAMING X 4G",
+      "candidateFile": "tmp/total-gpu-photos-oct19/total-gpu-msi-geforce-gtx-1050-ti-gaming-x-4g-I6.png",
+      "sourceSha256": "6086d59ab9184add794e088f38491800dc1883f382b902452fbc57140234dab2",
+      "extractedSha256": "8959e95e0b5c05e34414733e41a1be3f8ab05e754fb18edd952d1a149e91c8a4",
+      "visualReviewSheet": "docs/total-refinement/photos/gpu/contact-1.jpg",
+      "visualReviewed": true
+    },
+    {
+      "id": "total-gpu-msi-geforce-gtx-1060-gaming-x-3g",
+      "name": "GeForce GTX 1060 GAMING X 3G",
+      "candidateFile": "tmp/total-gpu-photos-oct19/total-gpu-msi-geforce-gtx-1060-gaming-x-3g-I6.png",
+      "sourceSha256": "8705b96f65bc00218be8612bf239d93da637c08932508165016fe942ae987663",
+      "extractedSha256": "879053849f41da61b2c9df6a3f52a52608ce8657c63259d1aa6156e6adc4703a",
+      "visualReviewSheet": "docs/total-refinement/photos/gpu/contact-1.jpg",
+      "visualReviewed": true
+    },
+    {
+      "id": "total-gpu-msi-geforce-gtx-1060-gaming-x-6g",
+      "name": "GeForce GTX 1060 GAMING X 6G",
+      "candidateFile": "tmp/total-gpu-photos-oct19/total-gpu-msi-geforce-gtx-1060-gaming-x-6g-I6.png",
+      "sourceSha256": "ec94949958843770aaf6c4cfe045b6da4d6157ba7407194125abe1fa8ec0612f",
+      "extractedSha256": "a9ece75ed775d34ca3c90f8857b8b8e667b0dc516ee05b870eece85667f3012b",
+      "visualReviewSheet": "docs/total-refinement/photos/gpu/contact-1.jpg",
+      "visualReviewed": true
+    },
+    {
+      "id": "total-gpu-msi-geforce-gtx-1070-gaming-x-8g",
+      "name": "GeForce GTX 1070 GAMING X 8G",
+      "candidateFile": "tmp/total-gpu-photos-oct19/total-gpu-msi-geforce-gtx-1070-gaming-x-8g-I6.png",
+      "sourceSha256": "44f41c1c61ca3efa829333a7377a317f3411d98de11ac00118012375cce24066",
+      "extractedSha256": "0c25aa0144c48bb5a8c07b7c1643c721104cf0fea4941abb5c8d182843af4ccd",
+      "visualReviewSheet": "docs/total-refinement/photos/gpu/contact-2.jpg",
+      "visualReviewed": true
+    },
+    {
+      "id": "total-gpu-msi-geforce-gtx-1070-ti-gaming-8g",
+      "name": "GeForce GTX 1070 Ti GAMING 8G",
+      "candidateFile": "tmp/total-gpu-photos-oct19/total-gpu-msi-geforce-gtx-1070-ti-gaming-8g-I6.png",
+      "sourceSha256": "c6782fea63b94d94bee7a8c833aaed1c89586f94dc234811fa03747c6d230d3b",
+      "extractedSha256": "8cafea6a63aa9b2d004069cf5d68d211863f4131b2ef6aa198ce4ecbd5cd2f8c",
+      "visualReviewSheet": "docs/total-refinement/photos/gpu/contact-2.jpg",
+      "visualReviewed": true
+    },
+    {
+      "id": "total-gpu-msi-geforce-gtx-1080-gaming-x-8g",
+      "name": "GeForce GTX 1080 GAMING X 8G",
+      "candidateFile": "tmp/total-gpu-photos-oct19/total-gpu-msi-geforce-gtx-1080-gaming-x-8g-I8.png",
+      "sourceSha256": "043eb76ea8dbbe054bccfab8719f17b2cd9e479a51534561cb094103262e4dd0",
+      "extractedSha256": "0c25aa0144c48bb5a8c07b7c1643c721104cf0fea4941abb5c8d182843af4ccd",
+      "visualReviewSheet": "docs/total-refinement/photos/gpu/contact-2.jpg",
+      "visualReviewed": true
+    },
+    {
+      "id": "total-gpu-msi-geforce-gtx-1080-ti-gaming-x-11g",
+      "name": "GeForce GTX 1080 Ti GAMING X 11G",
+      "candidateFile": "tmp/total-gpu-photos-oct19/total-gpu-msi-geforce-gtx-1080-ti-gaming-x-11g-I6.png",
+      "sourceSha256": "7f894b8bac70ec32a5d327a7e759ead0d1dfb001f6e34a5417bb0c94aeb6c8ab",
+      "extractedSha256": "e6041a6803f5c7c46b6a0c58aff39eda015bbc53166ee0f1e315033f1150780c",
+      "visualReviewSheet": "docs/total-refinement/photos/gpu/contact-2.jpg",
+      "visualReviewed": true
+    },
+    {
+      "id": "total-gpu-msi-geforce-gtx-1660-super-gaming-x",
+      "name": "GeForce GTX 1660 SUPER GAMING X",
+      "candidateFile": "tmp/total-gpu-photos-oct19/total-gpu-msi-geforce-gtx-1660-super-gaming-x-I6.png",
+      "sourceSha256": "b597067f59809e495bb52b3b2b00833cd2710c5003ac1a089bd7d7a49276b6e1",
+      "extractedSha256": "06154c9f2c66db31ef655913cf24afafc39221e947da3d246fb21f256a51b3b3",
+      "visualReviewSheet": "docs/total-refinement/photos/gpu/contact-2.jpg",
+      "visualReviewed": true
+    },
+    {
+      "id": "total-gpu-msi-geforce-gtx-1660-ti-gaming-x-6g",
+      "name": "GeForce GTX 1660 Ti GAMING X 6G",
+      "candidateFile": "tmp/total-gpu-photos-oct19/total-gpu-msi-geforce-gtx-1660-ti-gaming-x-6g-I6.png",
+      "sourceSha256": "a96b25b6c700a69de8b61f1410dcba634107809524233f4eda86da69e3335556",
+      "extractedSha256": "4e51d53c61df144813e7f7cab43cc09c793be50dd7d9771728ab0265d11333db",
+      "visualReviewSheet": "docs/total-refinement/photos/gpu/contact-2.jpg",
+      "visualReviewed": true
+    },
+    {
+      "id": "total-gpu-gigabyte-gv-n75toc-2gi",
+      "name": "GeForce GTX 750 Ti OC 2GB (GV-N75TOC-2GI)",
+      "candidateFile": "tmp/total-gpu-photos-oct19/total-gpu-gigabyte-gv-n75toc-2gi.media",
+      "sourceSha256": "fe1b112ed1f5ab5f01b70d3028d67d778d298831ecbe4172ec6bea5e4d637544",
+      "extractedSha256": "fe1b112ed1f5ab5f01b70d3028d67d778d298831ecbe4172ec6bea5e4d637544",
+      "visualReviewSheet": "docs/total-refinement/photos/gpu/contact-2.jpg",
+      "visualReviewed": true
+    },
+    {
+      "id": "total-gpu-asrock-a310-lp-4g",
+      "name": "Intel Arc A310 Low Profile 4GB",
+      "candidateFile": "tmp/total-gpu-photos-oct19/total-gpu-asrock-a310-lp-4g.media",
+      "sourceSha256": "b507ef8158fa6544f5d5d23b9428789dfce0c2792d3634d02c8f96ca976c4b9c",
+      "extractedSha256": "b507ef8158fa6544f5d5d23b9428789dfce0c2792d3634d02c8f96ca976c4b9c",
+      "visualReviewSheet": "docs/total-refinement/photos/gpu/contact-2.jpg",
+      "visualReviewed": true
+    },
+    {
+      "id": "total-gpu-asrock-a380-cli-6go",
+      "name": "Intel Arc A380 Challenger ITX 6GB OC",
+      "candidateFile": "tmp/total-gpu-photos-oct19/total-gpu-asrock-a380-cli-6go.media",
+      "sourceSha256": "bf4ba8ad16cadfae7903b57e30d28f92f3e74c2e438ff168020b9c07726249a4",
+      "extractedSha256": "bf4ba8ad16cadfae7903b57e30d28f92f3e74c2e438ff168020b9c07726249a4",
+      "visualReviewSheet": "docs/total-refinement/photos/gpu/contact-2.jpg",
+      "visualReviewed": true
+    },
+    {
+      "id": "total-gpu-asrock-a750-cld-8go",
+      "name": "Intel Arc A750 Challenger D 8GB OC",
+      "candidateFile": "tmp/total-gpu-photos-oct19/total-gpu-asrock-a750-cld-8go.media",
+      "sourceSha256": "b87298cd4f243916aa254f30e7055eb31c85767c043adb118acd46aaada4465c",
+      "extractedSha256": "b87298cd4f243916aa254f30e7055eb31c85767c043adb118acd46aaada4465c",
+      "visualReviewSheet": "docs/total-refinement/photos/gpu/contact-2.jpg",
+      "visualReviewed": true
+    }
+  ]
+}

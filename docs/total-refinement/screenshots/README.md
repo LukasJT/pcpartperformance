@@ -17,3 +17,12 @@ Isolated Edge at the named CSS width, reduced motion, synthetic clean browser st
 [New monitor calculator](monitor-mobile.png) · [Populated My PC workspace](workspace-mobile.png)
 
 Full local screenshot matrices remain under `qa/` and can be regenerated using the checked-in browser runners. JSON reports are versioned; only reviewed representative images are committed to avoid adding every repetitive viewport capture to the repository.
+
+## October 19 photo continuation
+
+The prior production pages and the tested continuation show the same exact product IDs at390px. These are product-page comparisons, not manufacturer permission grants. The new sources and any shared-gallery limitations are in the visible Image source disclosures.
+
+| Product | Before | After |
+| --- | --- | --- |
+| MSI GTX1060 GAMINGX3G | [Prior production](photos-before-gpu-390.png) | [Reviewed photo](photos-after-gpu-390.png) |
+| Kingston KVR56U46BD8-48 | [Prior production](photos-before-memory-390.png) | [Exact SKU gallery](photos-after-memory-390.png) |
