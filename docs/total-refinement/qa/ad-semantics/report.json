@@ -1,0 +1,353 @@
+{
+  "checkedAt": "2026-10-19T20:17:44.836Z",
+  "scope": "Actual rendered pages, axe-core aria-prohibited-attr only, two viewport widths; not a complete accessibility certification.",
+  "origin": "http://127.0.0.1:4200",
+  "reports": [
+    {
+      "route": "/",
+      "width": 390,
+      "status": 200,
+      "slots": [
+        {
+          "tag": "DIV",
+          "role": "group",
+          "name": "Advertisement",
+          "type": "native"
+        }
+      ],
+      "violations": [],
+      "passed": true
+    },
+    {
+      "route": "/upgrade/",
+      "width": 390,
+      "status": 200,
+      "slots": [
+        {
+          "tag": "DIV",
+          "role": "group",
+          "name": "Advertisement",
+          "type": "rectangle"
+        }
+      ],
+      "violations": [],
+      "passed": true
+    },
+    {
+      "route": "/tools/monitor-pixel-density/",
+      "width": 390,
+      "status": 200,
+      "slots": [
+        {
+          "tag": "DIV",
+          "role": "group",
+          "name": "Advertisement",
+          "type": "rectangle"
+        }
+      ],
+      "violations": [],
+      "passed": true
+    },
+    {
+      "route": "/hardware/",
+      "width": 390,
+      "status": 200,
+      "slots": [
+        {
+          "tag": "DIV",
+          "role": "group",
+          "name": "Advertisement",
+          "type": "responsive"
+        }
+      ],
+      "violations": [],
+      "passed": true
+    },
+    {
+      "route": "/build-school/",
+      "width": 390,
+      "status": 200,
+      "slots": [
+        {
+          "tag": "DIV",
+          "role": "group",
+          "name": "Advertisement",
+          "type": "rectangle"
+        }
+      ],
+      "violations": [],
+      "passed": true
+    },
+    {
+      "route": "/compatibility/",
+      "width": 390,
+      "status": 200,
+      "slots": [
+        {
+          "tag": "DIV",
+          "role": "group",
+          "name": "Advertisement",
+          "type": "rectangle"
+        }
+      ],
+      "violations": [],
+      "passed": true
+    },
+    {
+      "route": "/blog/",
+      "width": 390,
+      "status": 200,
+      "slots": [
+        {
+          "tag": "DIV",
+          "role": "group",
+          "name": "Advertisement",
+          "type": "responsive"
+        }
+      ],
+      "violations": [],
+      "passed": true
+    },
+    {
+      "route": "/blog/32gb-vs-64gb-ram-workloads/",
+      "width": 390,
+      "status": 200,
+      "slots": [
+        {
+          "tag": "DIV",
+          "role": "group",
+          "name": "Advertisement",
+          "type": "rectangle"
+        }
+      ],
+      "violations": [],
+      "passed": true
+    },
+    {
+      "route": "/tools/",
+      "width": 390,
+      "status": 200,
+      "slots": [
+        {
+          "tag": "DIV",
+          "role": "group",
+          "name": "Advertisement",
+          "type": "rectangle"
+        }
+      ],
+      "violations": [],
+      "passed": true
+    },
+    {
+      "route": "/news/",
+      "width": 390,
+      "status": 200,
+      "slots": [
+        {
+          "tag": "DIV",
+          "role": "group",
+          "name": "Advertisement",
+          "type": "rectangle"
+        }
+      ],
+      "violations": [],
+      "passed": true
+    },
+    {
+      "route": "/phones/size-compare/",
+      "width": 390,
+      "status": 200,
+      "slots": [
+        {
+          "tag": "DIV",
+          "role": "group",
+          "name": "Advertisement",
+          "type": "rectangle"
+        }
+      ],
+      "violations": [],
+      "passed": true
+    },
+    {
+      "route": "/builder/",
+      "width": 390,
+      "status": 200,
+      "slots": [],
+      "violations": [],
+      "passed": true
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "status": 200,
+      "slots": [
+        {
+          "tag": "DIV",
+          "role": "group",
+          "name": "Advertisement",
+          "type": "native"
+        }
+      ],
+      "violations": [],
+      "passed": true
+    },
+    {
+      "route": "/upgrade/",
+      "width": 1440,
+      "status": 200,
+      "slots": [
+        {
+          "tag": "DIV",
+          "role": "group",
+          "name": "Advertisement",
+          "type": "rectangle"
+        }
+      ],
+      "violations": [],
+      "passed": true
+    },
+    {
+      "route": "/tools/monitor-pixel-density/",
+      "width": 1440,
+      "status": 200,
+      "slots": [
+        {
+          "tag": "DIV",
+          "role": "group",
+          "name": "Advertisement",
+          "type": "rectangle"
+        }
+      ],
+      "violations": [],
+      "passed": true
+    },
+    {
+      "route": "/hardware/",
+      "width": 1440,
+      "status": 200,
+      "slots": [
+        {
+          "tag": "DIV",
+          "role": "group",
+          "name": "Advertisement",
+          "type": "responsive"
+        }
+      ],
+      "violations": [],
+      "passed": true
+    },
+    {
+      "route": "/build-school/",
+      "width": 1440,
+      "status": 200,
+      "slots": [
+        {
+          "tag": "DIV",
+          "role": "group",
+          "name": "Advertisement",
+          "type": "rectangle"
+        }
+      ],
+      "violations": [],
+      "passed": true
+    },
+    {
+      "route": "/compatibility/",
+      "width": 1440,
+      "status": 200,
+      "slots": [
+        {
+          "tag": "DIV",
+          "role": "group",
+          "name": "Advertisement",
+          "type": "rectangle"
+        }
+      ],
+      "violations": [],
+      "passed": true
+    },
+    {
+      "route": "/blog/",
+      "width": 1440,
+      "status": 200,
+      "slots": [
+        {
+          "tag": "DIV",
+          "role": "group",
+          "name": "Advertisement",
+          "type": "responsive"
+        }
+      ],
+      "violations": [],
+      "passed": true
+    },
+    {
+      "route": "/blog/32gb-vs-64gb-ram-workloads/",
+      "width": 1440,
+      "status": 200,
+      "slots": [
+        {
+          "tag": "DIV",
+          "role": "group",
+          "name": "Advertisement",
+          "type": "rectangle"
+        }
+      ],
+      "violations": [],
+      "passed": true
+    },
+    {
+      "route": "/tools/",
+      "width": 1440,
+      "status": 200,
+      "slots": [
+        {
+          "tag": "DIV",
+          "role": "group",
+          "name": "Advertisement",
+          "type": "rectangle"
+        }
+      ],
+      "violations": [],
+      "passed": true
+    },
+    {
+      "route": "/news/",
+      "width": 1440,
+      "status": 200,
+      "slots": [
+        {
+          "tag": "DIV",
+          "role": "group",
+          "name": "Advertisement",
+          "type": "rectangle"
+        }
+      ],
+      "violations": [],
+      "passed": true
+    },
+    {
+      "route": "/phones/size-compare/",
+      "width": 1440,
+      "status": 200,
+      "slots": [
+        {
+          "tag": "DIV",
+          "role": "group",
+          "name": "Advertisement",
+          "type": "rectangle"
+        }
+      ],
+      "violations": [],
+      "passed": true
+    },
+    {
+      "route": "/builder/",
+      "width": 1440,
+      "status": 200,
+      "slots": [],
+      "violations": [],
+      "passed": true
+    }
+  ]
+}

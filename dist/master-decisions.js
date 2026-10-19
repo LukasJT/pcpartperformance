@@ -239,7 +239,7 @@
     let systems = [], chosen = null, pending = read(), buyApplied = false;
     const prebuilt = $('[data-master-prebuilt]'), buyContext = $('[data-master-buy-context]'), buyForm = $('[data-buy-worksheet]');
     if (prebuilt) {
-      try { const raw = JSON.parse($('[data-master-system-data]').textContent); if (raw.schema === 1 && Array.isArray(raw.systems) && raw.systems.length <= 100) systems = raw.systems.filter(p => idOK(p?.id) && regionOK(p.region) && typeof p.name === 'string'); } catch {}
+      try { const packet=$('[data-master-system-data]').textContent;if(packet.length>4*1024*1024)throw Error('Configuration packet too large');const raw = JSON.parse(packet); if (raw.schema === 1 && Array.isArray(raw.systems) && raw.systems.length <= 2000) systems = raw.systems.filter(p => idOK(p?.id) && regionOK(p.region) && typeof p.name === 'string'); } catch {}
       const picker = $('[data-master-system]');
       const pick = id => systems.find(p => p.id === id) || null;
       chosen = pick(prebuilt.dataset.masterSystemId || (pending?.systemId ?? ''));
@@ -248,10 +248,10 @@
         const target = $('[data-master-system-evidence]'); target.replaceChildren();
         if (!chosen) { target.append(el('p', 'Choose an exact configuration to inspect its disclosures.')); return; }
         const overview = el('div', undefined, { class: 'md-system-overview' });
-        overview.append(el('h3', chosen.name + ' · ' + (chosen.model || chosen.sku)), el('p', (chosen.region === 'CA' ? 'Canada · CAD' : 'United States · USD') + ' · ' + text(chosen.merchant) + ' · retailer SKU ' + text(chosen.sku)));
+        overview.append(el('h3', chosen.name + ' · ' + (chosen.model || chosen.sku)), el('p', (chosen.region === 'CA' ? 'Canada · CAD' : 'United States · USD') + ' · ' + text(chosen.merchant) + (chosen.sourceKind==='manufacturer-specification'?' · manufacturer part number ':' · retailer SKU ') + text(chosen.sku)));
         const facts = el('dl');
         for (const [key, label] of [['cpu', 'Processor'], ['gpu', 'Graphics card'], ['ram', 'Memory'], ['storage', 'Storage']]) { const row = el('div'); row.append(el('dt', label), el('dd', text(chosen[key], 240) || 'Not disclosed')); facts.append(row); }
-        overview.append(facts); target.append(overview);
+        overview.append(facts);if(chosen.status)overview.append(el('p',text(chosen.status,350)));target.append(overview);
         const columns = el('div', undefined, { class: 'md-disclosure-list' }), evidence = disclosures(chosen);
         for (const [key, title] of [['listed', 'Listed in the researched record'], ['unresolved', 'Details to confirm with the seller']]) {
           const section = el('section'); section.append(el('h3', title)); const list = el('ul');
@@ -259,8 +259,8 @@
           if (!evidence[key].length) list.append(el('li', key === 'listed' ? 'None of these additional details is established by this record.' : 'Reconfirm the shipped components and current terms before ordering.'));
           section.append(list); columns.append(section);
         }
-        target.append(columns, el('p', 'Listing summary researched ' + text(chosen.checkedAt, 30) + '. Current price, stock and shipped components still require confirmation.'));
-        try { const url = new URL(chosen.url); if (url.protocol === 'https:') target.append(el('a', 'Open the exact retailer listing', { href: url.href, target: '_blank', rel: 'noopener' })); } catch {}
+        target.append(columns, el('p', 'Source inspected ' + text(chosen.checkedAt, 30) + '. Current price, stock and shipped components still require confirmation.'));
+        try { const url = new URL(chosen.url); if (url.protocol === 'https:') target.append(el('a', chosen.sourceKind==='manufacturer-specification'?'View manufacturer specifications':'Open the exact retailer listing', { href: url.href, target: '_blank', rel: 'noopener' })); } catch {}
       }
       const resetChecks = () => { all('[data-master-prebuilt-check]').forEach(input => { input.checked = false; }); say('[data-master-check-status]', 'No checks marked. This records your confirmations, not an automated certification.'); };
       if (picker) picker.addEventListener('change', () => { chosen = pick(picker.value); resetChecks(); if (chosen) setRegion(chosen.region); renderSystem(); });

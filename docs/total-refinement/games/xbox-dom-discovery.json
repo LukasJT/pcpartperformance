@@ -1,0 +1,8 @@
+{
+  "checkedAt": "2026-10-19T19:54:24.666Z",
+  "source": "https://www.xbox.com/en-US/games/optimized",
+  "clicks": 0,
+  "records": [],
+  "failure": "locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: /load more/i }).first() to be visible\u001b[22m\n",
+  "limitation": "Public optimized catalog DOM links are discovery evidence. Exact product metadata must still verify each game and platform; no FPS or prices imported."
+}

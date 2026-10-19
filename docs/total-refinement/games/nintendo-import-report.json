@@ -1,0 +1,39 @@
+{
+  "sources": [
+    {
+      "url": "https://www.nintendo.com/us/store/games/nintendo-switch-games/",
+      "verifiedAt": "2026-10-19T19:47:42.525Z"
+    },
+    {
+      "url": "https://www.nintendo.com/us/store/games/nintendo-switch-2-games/",
+      "verifiedAt": "2026-10-19T19:47:42.673Z"
+    }
+  ],
+  "counts": {
+    "switch": 136,
+    "switch2": 154
+  },
+  "rejected": [
+    {
+      "id": "nintendo-70010000000964",
+      "reason": "already-indexed-title-platform"
+    },
+    {
+      "id": "nintendo-70010000010192",
+      "reason": "already-indexed-title-platform"
+    },
+    {
+      "id": "nintendo-70010000000153",
+      "reason": "already-indexed-title-platform"
+    },
+    {
+      "id": "nintendo-70010000000964",
+      "reason": "already-indexed-title-platform"
+    },
+    {
+      "id": "nintendo-70010000096855",
+      "reason": "already-indexed-title-platform"
+    }
+  ],
+  "limitation": "Base-game IDs with explicit native-platform and available-now metadata only. DLC, upgrade packs, bundles and unconfirmed backward-compatibility associations excluded."
+}

@@ -1,0 +1,854 @@
+{
+  "checkedAt": "2026-10-19T20:08:56.529Z",
+  "basis": "Existing actual full rendered axe audit, before the source fix",
+  "cases": 146,
+  "violations": [
+    {
+      "route": "/",
+      "width": 390,
+      "palette": "midnight",
+      "id": "aria-prohibited-attr",
+      "nodes": [
+        {
+          "target": [
+            ".pcp-ad-slot"
+          ],
+          "summary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+        }
+      ]
+    },
+    {
+      "route": "/tools/monitor-pixel-density/",
+      "width": 390,
+      "palette": "midnight",
+      "id": "aria-prohibited-attr",
+      "nodes": [
+        {
+          "target": [
+            ".pcp-ad-slot"
+          ],
+          "summary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+        }
+      ]
+    },
+    {
+      "route": "/upgrade/",
+      "width": 390,
+      "palette": "midnight",
+      "id": "aria-prohibited-attr",
+      "nodes": [
+        {
+          "target": [
+            ".pcp-ad-slot"
+          ],
+          "summary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+        }
+      ]
+    },
+    {
+      "route": "/hardware/",
+      "width": 390,
+      "palette": "midnight",
+      "id": "aria-prohibited-attr",
+      "nodes": [
+        {
+          "target": [
+            ".pcp-ad-slot"
+          ],
+          "summary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+        }
+      ]
+    },
+    {
+      "route": "/compatibility/",
+      "width": 390,
+      "palette": "midnight",
+      "id": "aria-prohibited-attr",
+      "nodes": [
+        {
+          "target": [
+            ".pcp-ad-slot"
+          ],
+          "summary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+        }
+      ]
+    },
+    {
+      "route": "/build-school/",
+      "width": 390,
+      "palette": "midnight",
+      "id": "aria-prohibited-attr",
+      "nodes": [
+        {
+          "target": [
+            ".pcp-ad-slot"
+          ],
+          "summary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+        }
+      ]
+    },
+    {
+      "route": "/blog/",
+      "width": 390,
+      "palette": "midnight",
+      "id": "aria-prohibited-attr",
+      "nodes": [
+        {
+          "target": [
+            ".pcp-ad-slot"
+          ],
+          "summary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+        }
+      ]
+    },
+    {
+      "route": "/blog/32gb-vs-64gb-ram-workloads/",
+      "width": 390,
+      "palette": "midnight",
+      "id": "aria-prohibited-attr",
+      "nodes": [
+        {
+          "target": [
+            ".pcp-ad-slot"
+          ],
+          "summary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+        }
+      ]
+    },
+    {
+      "route": "/phones/size-compare/",
+      "width": 390,
+      "palette": "midnight",
+      "id": "aria-prohibited-attr",
+      "nodes": [
+        {
+          "target": [
+            ".pcp-ad-slot"
+          ],
+          "summary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+        }
+      ]
+    },
+    {
+      "route": "/tools/",
+      "width": 390,
+      "palette": "midnight",
+      "id": "aria-prohibited-attr",
+      "nodes": [
+        {
+          "target": [
+            ".pcp-ad-slot"
+          ],
+          "summary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+        }
+      ]
+    },
+    {
+      "route": "/news/",
+      "width": 390,
+      "palette": "midnight",
+      "id": "aria-prohibited-attr",
+      "nodes": [
+        {
+          "target": [
+            ".pcp-ad-slot"
+          ],
+          "summary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "palette": "midnight",
+      "id": "aria-prohibited-attr",
+      "nodes": [
+        {
+          "target": [
+            ".pcp-ad-slot"
+          ],
+          "summary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+        }
+      ]
+    },
+    {
+      "route": "/tools/monitor-pixel-density/",
+      "width": 1440,
+      "palette": "midnight",
+      "id": "aria-prohibited-attr",
+      "nodes": [
+        {
+          "target": [
+            ".pcp-ad-slot"
+          ],
+          "summary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+        }
+      ]
+    },
+    {
+      "route": "/upgrade/",
+      "width": 1440,
+      "palette": "midnight",
+      "id": "aria-prohibited-attr",
+      "nodes": [
+        {
+          "target": [
+            ".pcp-ad-slot"
+          ],
+          "summary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+        }
+      ]
+    },
+    {
+      "route": "/hardware/",
+      "width": 1440,
+      "palette": "midnight",
+      "id": "aria-prohibited-attr",
+      "nodes": [
+        {
+          "target": [
+            ".pcp-ad-slot"
+          ],
+          "summary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+        }
+      ]
+    },
+    {
+      "route": "/compatibility/",
+      "width": 1440,
+      "palette": "midnight",
+      "id": "aria-prohibited-attr",
+      "nodes": [
+        {
+          "target": [
+            ".pcp-ad-slot"
+          ],
+          "summary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+        }
+      ]
+    },
+    {
+      "route": "/build-school/",
+      "width": 1440,
+      "palette": "midnight",
+      "id": "aria-prohibited-attr",
+      "nodes": [
+        {
+          "target": [
+            ".pcp-ad-slot"
+          ],
+          "summary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+        }
+      ]
+    },
+    {
+      "route": "/blog/",
+      "width": 1440,
+      "palette": "midnight",
+      "id": "aria-prohibited-attr",
+      "nodes": [
+        {
+          "target": [
+            ".pcp-ad-slot"
+          ],
+          "summary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+        }
+      ]
+    },
+    {
+      "route": "/blog/32gb-vs-64gb-ram-workloads/",
+      "width": 1440,
+      "palette": "midnight",
+      "id": "aria-prohibited-attr",
+      "nodes": [
+        {
+          "target": [
+            ".pcp-ad-slot"
+          ],
+          "summary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+        }
+      ]
+    },
+    {
+      "route": "/phones/size-compare/",
+      "width": 1440,
+      "palette": "midnight",
+      "id": "aria-prohibited-attr",
+      "nodes": [
+        {
+          "target": [
+            ".pcp-ad-slot"
+          ],
+          "summary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+        }
+      ]
+    },
+    {
+      "route": "/tools/",
+      "width": 1440,
+      "palette": "midnight",
+      "id": "aria-prohibited-attr",
+      "nodes": [
+        {
+          "target": [
+            ".pcp-ad-slot"
+          ],
+          "summary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+        }
+      ]
+    },
+    {
+      "route": "/news/",
+      "width": 1440,
+      "palette": "midnight",
+      "id": "aria-prohibited-attr",
+      "nodes": [
+        {
+          "target": [
+            ".pcp-ad-slot"
+          ],
+          "summary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "palette": "arctic",
+      "id": "aria-prohibited-attr",
+      "nodes": [
+        {
+          "target": [
+            ".pcp-ad-slot"
+          ],
+          "summary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+        }
+      ]
+    },
+    {
+      "route": "/tools/monitor-pixel-density/",
+      "width": 390,
+      "palette": "arctic",
+      "id": "aria-prohibited-attr",
+      "nodes": [
+        {
+          "target": [
+            ".pcp-ad-slot"
+          ],
+          "summary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+        }
+      ]
+    },
+    {
+      "route": "/upgrade/",
+      "width": 390,
+      "palette": "arctic",
+      "id": "aria-prohibited-attr",
+      "nodes": [
+        {
+          "target": [
+            ".pcp-ad-slot"
+          ],
+          "summary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+        }
+      ]
+    },
+    {
+      "route": "/hardware/",
+      "width": 390,
+      "palette": "arctic",
+      "id": "aria-prohibited-attr",
+      "nodes": [
+        {
+          "target": [
+            ".pcp-ad-slot"
+          ],
+          "summary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+        }
+      ]
+    },
+    {
+      "route": "/compatibility/",
+      "width": 390,
+      "palette": "arctic",
+      "id": "aria-prohibited-attr",
+      "nodes": [
+        {
+          "target": [
+            ".pcp-ad-slot"
+          ],
+          "summary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+        }
+      ]
+    },
+    {
+      "route": "/build-school/",
+      "width": 390,
+      "palette": "arctic",
+      "id": "aria-prohibited-attr",
+      "nodes": [
+        {
+          "target": [
+            ".pcp-ad-slot"
+          ],
+          "summary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+        }
+      ]
+    },
+    {
+      "route": "/blog/",
+      "width": 390,
+      "palette": "arctic",
+      "id": "aria-prohibited-attr",
+      "nodes": [
+        {
+          "target": [
+            ".pcp-ad-slot"
+          ],
+          "summary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+        }
+      ]
+    },
+    {
+      "route": "/blog/32gb-vs-64gb-ram-workloads/",
+      "width": 390,
+      "palette": "arctic",
+      "id": "aria-prohibited-attr",
+      "nodes": [
+        {
+          "target": [
+            ".pcp-ad-slot"
+          ],
+          "summary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+        }
+      ]
+    },
+    {
+      "route": "/phones/size-compare/",
+      "width": 390,
+      "palette": "arctic",
+      "id": "aria-prohibited-attr",
+      "nodes": [
+        {
+          "target": [
+            ".pcp-ad-slot"
+          ],
+          "summary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+        }
+      ]
+    },
+    {
+      "route": "/tools/",
+      "width": 390,
+      "palette": "arctic",
+      "id": "aria-prohibited-attr",
+      "nodes": [
+        {
+          "target": [
+            ".pcp-ad-slot"
+          ],
+          "summary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+        }
+      ]
+    },
+    {
+      "route": "/news/",
+      "width": 390,
+      "palette": "arctic",
+      "id": "aria-prohibited-attr",
+      "nodes": [
+        {
+          "target": [
+            ".pcp-ad-slot"
+          ],
+          "summary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "palette": "arctic",
+      "id": "aria-prohibited-attr",
+      "nodes": [
+        {
+          "target": [
+            ".pcp-ad-slot"
+          ],
+          "summary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+        }
+      ]
+    },
+    {
+      "route": "/tools/monitor-pixel-density/",
+      "width": 1440,
+      "palette": "arctic",
+      "id": "aria-prohibited-attr",
+      "nodes": [
+        {
+          "target": [
+            ".pcp-ad-slot"
+          ],
+          "summary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+        }
+      ]
+    },
+    {
+      "route": "/upgrade/",
+      "width": 1440,
+      "palette": "arctic",
+      "id": "aria-prohibited-attr",
+      "nodes": [
+        {
+          "target": [
+            ".pcp-ad-slot"
+          ],
+          "summary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+        }
+      ]
+    },
+    {
+      "route": "/hardware/",
+      "width": 1440,
+      "palette": "arctic",
+      "id": "aria-prohibited-attr",
+      "nodes": [
+        {
+          "target": [
+            ".pcp-ad-slot"
+          ],
+          "summary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+        }
+      ]
+    },
+    {
+      "route": "/compatibility/",
+      "width": 1440,
+      "palette": "arctic",
+      "id": "aria-prohibited-attr",
+      "nodes": [
+        {
+          "target": [
+            ".pcp-ad-slot"
+          ],
+          "summary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+        }
+      ]
+    },
+    {
+      "route": "/build-school/",
+      "width": 1440,
+      "palette": "arctic",
+      "id": "aria-prohibited-attr",
+      "nodes": [
+        {
+          "target": [
+            ".pcp-ad-slot"
+          ],
+          "summary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+        }
+      ]
+    },
+    {
+      "route": "/blog/",
+      "width": 1440,
+      "palette": "arctic",
+      "id": "aria-prohibited-attr",
+      "nodes": [
+        {
+          "target": [
+            ".pcp-ad-slot"
+          ],
+          "summary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+        }
+      ]
+    },
+    {
+      "route": "/blog/32gb-vs-64gb-ram-workloads/",
+      "width": 1440,
+      "palette": "arctic",
+      "id": "aria-prohibited-attr",
+      "nodes": [
+        {
+          "target": [
+            ".pcp-ad-slot"
+          ],
+          "summary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+        }
+      ]
+    },
+    {
+      "route": "/phones/size-compare/",
+      "width": 1440,
+      "palette": "arctic",
+      "id": "aria-prohibited-attr",
+      "nodes": [
+        {
+          "target": [
+            ".pcp-ad-slot"
+          ],
+          "summary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+        }
+      ]
+    },
+    {
+      "route": "/tools/",
+      "width": 1440,
+      "palette": "arctic",
+      "id": "aria-prohibited-attr",
+      "nodes": [
+        {
+          "target": [
+            ".pcp-ad-slot"
+          ],
+          "summary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+        }
+      ]
+    },
+    {
+      "route": "/news/",
+      "width": 1440,
+      "palette": "arctic",
+      "id": "aria-prohibited-attr",
+      "nodes": [
+        {
+          "target": [
+            ".pcp-ad-slot"
+          ],
+          "summary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "palette": "solar",
+      "id": "aria-prohibited-attr",
+      "nodes": [
+        {
+          "target": [
+            ".pcp-ad-slot"
+          ],
+          "summary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+        }
+      ]
+    },
+    {
+      "route": "/tools/monitor-pixel-density/",
+      "width": 390,
+      "palette": "solar",
+      "id": "aria-prohibited-attr",
+      "nodes": [
+        {
+          "target": [
+            ".pcp-ad-slot"
+          ],
+          "summary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "palette": "solar",
+      "id": "aria-prohibited-attr",
+      "nodes": [
+        {
+          "target": [
+            ".pcp-ad-slot"
+          ],
+          "summary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+        }
+      ]
+    },
+    {
+      "route": "/tools/monitor-pixel-density/",
+      "width": 1440,
+      "palette": "solar",
+      "id": "aria-prohibited-attr",
+      "nodes": [
+        {
+          "target": [
+            ".pcp-ad-slot"
+          ],
+          "summary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "palette": "aurora",
+      "id": "aria-prohibited-attr",
+      "nodes": [
+        {
+          "target": [
+            ".pcp-ad-slot"
+          ],
+          "summary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+        }
+      ]
+    },
+    {
+      "route": "/tools/monitor-pixel-density/",
+      "width": 390,
+      "palette": "aurora",
+      "id": "aria-prohibited-attr",
+      "nodes": [
+        {
+          "target": [
+            ".pcp-ad-slot"
+          ],
+          "summary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "palette": "aurora",
+      "id": "aria-prohibited-attr",
+      "nodes": [
+        {
+          "target": [
+            ".pcp-ad-slot"
+          ],
+          "summary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+        }
+      ]
+    },
+    {
+      "route": "/tools/monitor-pixel-density/",
+      "width": 1440,
+      "palette": "aurora",
+      "id": "aria-prohibited-attr",
+      "nodes": [
+        {
+          "target": [
+            ".pcp-ad-slot"
+          ],
+          "summary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "palette": "neon",
+      "id": "aria-prohibited-attr",
+      "nodes": [
+        {
+          "target": [
+            ".pcp-ad-slot"
+          ],
+          "summary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+        }
+      ]
+    },
+    {
+      "route": "/tools/monitor-pixel-density/",
+      "width": 390,
+      "palette": "neon",
+      "id": "aria-prohibited-attr",
+      "nodes": [
+        {
+          "target": [
+            ".pcp-ad-slot"
+          ],
+          "summary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "palette": "neon",
+      "id": "aria-prohibited-attr",
+      "nodes": [
+        {
+          "target": [
+            ".pcp-ad-slot"
+          ],
+          "summary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+        }
+      ]
+    },
+    {
+      "route": "/tools/monitor-pixel-density/",
+      "width": 1440,
+      "palette": "neon",
+      "id": "aria-prohibited-attr",
+      "nodes": [
+        {
+          "target": [
+            ".pcp-ad-slot"
+          ],
+          "summary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "palette": "paper",
+      "id": "aria-prohibited-attr",
+      "nodes": [
+        {
+          "target": [
+            ".pcp-ad-slot"
+          ],
+          "summary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+        }
+      ]
+    },
+    {
+      "route": "/tools/monitor-pixel-density/",
+      "width": 390,
+      "palette": "paper",
+      "id": "aria-prohibited-attr",
+      "nodes": [
+        {
+          "target": [
+            ".pcp-ad-slot"
+          ],
+          "summary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "palette": "paper",
+      "id": "aria-prohibited-attr",
+      "nodes": [
+        {
+          "target": [
+            ".pcp-ad-slot"
+          ],
+          "summary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+        }
+      ]
+    },
+    {
+      "route": "/tools/monitor-pixel-density/",
+      "width": 1440,
+      "palette": "paper",
+      "id": "aria-prohibited-attr",
+      "nodes": [
+        {
+          "target": [
+            ".pcp-ad-slot"
+          ],
+          "summary": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+        }
+      ]
+    }
+  ],
+  "diagnosis": {
+    "file": "scripts/ads-injection.mjs",
+    "line": 7,
+    "defect": "Generic div ad placeholder had aria-label without a role that supports naming.",
+    "target": ".pcp-ad-slot",
+    "proposedFix": "Preserve div/class/data identity and add role=group to support the existing Advertisement accessible name."
+  }
+}

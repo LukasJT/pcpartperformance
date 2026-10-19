@@ -9,23 +9,23 @@
     "Inherited fields have not all been independently reverified.",
     "No individual images or 3D assets are relicensed by this aggregate report."
   ],
-  "total": 1236,
+  "total": 1299,
   "categories": [
     {
       "id": "gpu",
       "label": "Graphics cards",
-      "items": 165,
-      "atLeastThreeSpecs": 146,
+      "items": 185,
+      "atLeastThreeSpecs": 166,
       "strictExactImages": 35,
-      "missingImages": 0
+      "missingImages": 20
     },
     {
       "id": "cpu",
       "label": "Processors",
-      "items": 167,
-      "atLeastThreeSpecs": 167,
+      "items": 184,
+      "atLeastThreeSpecs": 184,
       "strictExactImages": 159,
-      "missingImages": 1
+      "missingImages": 18
     },
     {
       "id": "board",
@@ -38,18 +38,18 @@
     {
       "id": "ram",
       "label": "Memory",
-      "items": 66,
-      "atLeastThreeSpecs": 64,
+      "items": 87,
+      "atLeastThreeSpecs": 85,
       "strictExactImages": 1,
-      "missingImages": 2
+      "missingImages": 23
     },
     {
       "id": "ssd",
       "label": "SSDs",
-      "items": 78,
-      "atLeastThreeSpecs": 78,
+      "items": 83,
+      "atLeastThreeSpecs": 83,
       "strictExactImages": 2,
-      "missingImages": 1
+      "missingImages": 6
     },
     {
       "id": "hdd",
@@ -164,5 +164,5 @@
       "missingImages": 0
     }
   ],
-  "version": "eeecf0704213"
+  "version": "4629211e2ae2"
 }

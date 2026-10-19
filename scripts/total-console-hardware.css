@@ -1,0 +1,31 @@
+.total-console-navigation{display:flex;flex-wrap:wrap;gap:12px 24px;margin:16px 0 24px;font-size:.9375rem;line-height:1.5}
+.total-console-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;margin:24px 0}
+.total-console-card{padding:20px;border:1px solid var(--line);border-radius:14px;background:var(--surface);min-width:0;display:flex;flex-direction:column;gap:12px}
+.total-console-card-top{display:flex;align-items:center;gap:14px;min-width:0}
+.total-console-card-top>div{min-width:0}body main .total-console-card h2{font-size:1.2rem;line-height:1.3;margin:0}
+.total-console-card-top p{color:var(--muted);font-size:.875rem;line-height:1.5;margin:6px 0 0}
+.total-console-silhouette{width:100px;max-width:100%;height:auto;flex:none;color:var(--accent-ink)}
+.total-console-scope{font-size:.875rem;line-height:1.5;color:var(--muted);margin:0}
+.total-console-card details,.total-console-reference details{border:0;padding:0;font-size:.9375rem;line-height:1.65}
+.total-console-card summary,.total-console-reference summary,.total-console-sources summary,.total-retro-timeline summary{min-height:44px;padding:10px 0;cursor:pointer;font-size:.875rem;font-weight:600;line-height:1.5}
+.total-console-card details p,.total-console-reference details p{font-size:.875rem;line-height:1.65;margin:12px 0}
+.total-console-facts{margin:4px 0 16px;display:grid;gap:12px}.total-console-facts>div{display:grid;gap:4px}
+.total-console-facts dt{font-size:.8125rem;color:var(--muted)}.total-console-facts dd{margin:0;font-size:.9375rem;line-height:1.5}
+.total-console-actions{display:flex;flex-wrap:wrap;gap:10px 16px;margin-top:auto;font-size:.875rem;line-height:1.5}
+.total-console-sources{margin:24px 0;border:0;padding:0}.total-console-sources p,.total-console-sources li{font-size:.9375rem;line-height:1.7;max-width:80ch}.total-console-sources li{margin:12px 0}
+.total-console-reference{display:grid;grid-template-columns:120px minmax(0,1fr);gap:20px;margin-block:32px;padding:24px;border-radius:14px;background:var(--surface-2)}
+body main .total-console-reference h2{font-size:1.35rem;line-height:1.4;margin:0 0 8px}.total-console-reference>div>p{font-size:.9375rem;line-height:1.55;color:var(--muted)}
+.total-retro-intro{max-width:75ch;font-size:1rem;line-height:1.65;color:var(--muted)}
+.total-retro-timeline{list-style:none;padding:0;margin:24px 0;display:grid;grid-template-columns:1fr 1fr;gap:16px 24px}
+.total-retro-timeline>li{min-width:0;display:grid;grid-template-columns:92px minmax(0,1fr);gap:14px;padding:18px;border-radius:12px;background:var(--surface);border:1px solid var(--line);align-items:start}
+.total-retro-art{grid-row:1/3;min-width:0}.total-retro-art .total-console-silhouette{width:92px}
+.total-retro-year{font-size:.875rem;color:var(--accent-ink);font-weight:650;font-variant-numeric:tabular-nums}body main .total-retro-timeline h2{font-size:1.1rem;line-height:1.4;margin:4px 0 6px}
+.total-retro-timeline p{font-size:.875rem;color:var(--muted);line-height:1.6;margin:0 0 8px}.total-retro-timeline details{border:0;padding:0;font-size:.875rem}
+.total-retro-record{grid-column:2;font-size:.875rem;line-height:1.5}
+@media(max-width:1100px){.total-console-grid{grid-template-columns:1fr 1fr}.total-console-card-top{gap:10px}.total-console-card-top .total-console-silhouette{width:80px}}
+@media(max-width:700px){.total-console-grid,.total-retro-timeline{grid-template-columns:1fr;gap:14px}.total-console-card{padding:16px;gap:10px}.total-console-card-top .total-console-silhouette{width:84px}.total-console-reference{grid-template-columns:72px minmax(0,1fr);gap:14px;padding:18px}.total-retro-timeline>li{grid-template-columns:72px minmax(0,1fr);padding:16px;gap:12px}.total-retro-art .total-console-silhouette{width:72px}.total-console-navigation{gap:12px 18px}}
+@media(prefers-reduced-motion:no-preference){.total-console-card{transition:border-color .2s ease,box-shadow .2s ease}.total-console-card:focus-within{border-color:var(--accent-ink);box-shadow:0 4px 18px color-mix(in srgb,var(--accent-ink) 8%,transparent)}}
+.page-heading.total-console-heading{border:0}
+body main .page-heading.total-console-heading{padding-block:24px 12px;margin-block:0 16px;gap:16px}
+body main .total-console-heading.page-heading h1{font-size:clamp(1.8rem,3vw,2.5rem);line-height:1.15}
+body main .total-console-heading.page-heading p{font-size:1rem;line-height:1.55;margin-top:10px}

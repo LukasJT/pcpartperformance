@@ -1,0 +1,116 @@
+{
+  "schema": 1,
+  "evidenceDate": "2026-10-19",
+  "records": [
+    {
+      "id": "total-ssd-kingston-sedc600m-480g",
+      "cat": "ssd",
+      "brand": "Kingston",
+      "name": "DC600M 480GB (SEDC600M/480G)",
+      "sourceId": "kingston-dc600m",
+      "status": "evidence-checked",
+      "segment": "server",
+      "builderEligible": false,
+      "year": null,
+      "architecture": "SATA 6 Gb/s · 2.5-inch · enterprise",
+      "summary": "480 GB · hardware power-loss protection",
+      "identity": {
+        "manufacturer": "Kingston",
+        "commercialModel": "DC600M 480GB (SEDC600M/480G)",
+        "manufacturerPartNumber": "SEDC600M/480G",
+        "revision": null,
+        "productFamily": "DC600M",
+        "encryptionVariant": "Non-encrypted"
+      },
+      "note": "Exact DC600M capacity and part number; DC600ME encryption is not inherited. Manufacturer sequential specifications and enterprise-workload TBW are not real-world transfer guarantees or a replacement for the conditional warranty. Decimal capacity; formatted space is lower. Reference-only until a dedicated enterprise installation path is supported."
+    },
+    {
+      "id": "total-ssd-kingston-sedc600m-960g",
+      "cat": "ssd",
+      "brand": "Kingston",
+      "name": "DC600M 960GB (SEDC600M/960G)",
+      "sourceId": "kingston-dc600m",
+      "status": "evidence-checked",
+      "segment": "server",
+      "builderEligible": false,
+      "year": null,
+      "architecture": "SATA 6 Gb/s · 2.5-inch · enterprise",
+      "summary": "960 GB · hardware power-loss protection",
+      "identity": {
+        "manufacturer": "Kingston",
+        "commercialModel": "DC600M 960GB (SEDC600M/960G)",
+        "manufacturerPartNumber": "SEDC600M/960G",
+        "revision": null,
+        "productFamily": "DC600M",
+        "encryptionVariant": "Non-encrypted"
+      },
+      "note": "Exact DC600M capacity and part number; DC600ME encryption is not inherited. Manufacturer sequential specifications and enterprise-workload TBW are not real-world transfer guarantees or a replacement for the conditional warranty. Decimal capacity; formatted space is lower. Reference-only until a dedicated enterprise installation path is supported."
+    },
+    {
+      "id": "total-ssd-kingston-sedc600m-1920g",
+      "cat": "ssd",
+      "brand": "Kingston",
+      "name": "DC600M 1920GB (SEDC600M/1920G)",
+      "sourceId": "kingston-dc600m",
+      "status": "evidence-checked",
+      "segment": "server",
+      "builderEligible": false,
+      "year": null,
+      "architecture": "SATA 6 Gb/s · 2.5-inch · enterprise",
+      "summary": "1920 GB · hardware power-loss protection",
+      "identity": {
+        "manufacturer": "Kingston",
+        "commercialModel": "DC600M 1920GB (SEDC600M/1920G)",
+        "manufacturerPartNumber": "SEDC600M/1920G",
+        "revision": null,
+        "productFamily": "DC600M",
+        "encryptionVariant": "Non-encrypted"
+      },
+      "note": "Exact DC600M capacity and part number; DC600ME encryption is not inherited. Manufacturer sequential specifications and enterprise-workload TBW are not real-world transfer guarantees or a replacement for the conditional warranty. Decimal capacity; formatted space is lower. Reference-only until a dedicated enterprise installation path is supported."
+    },
+    {
+      "id": "total-ssd-kingston-sedc600m-3840g",
+      "cat": "ssd",
+      "brand": "Kingston",
+      "name": "DC600M 3840GB (SEDC600M/3840G)",
+      "sourceId": "kingston-dc600m",
+      "status": "evidence-checked",
+      "segment": "server",
+      "builderEligible": false,
+      "year": null,
+      "architecture": "SATA 6 Gb/s · 2.5-inch · enterprise",
+      "summary": "3840 GB · hardware power-loss protection",
+      "identity": {
+        "manufacturer": "Kingston",
+        "commercialModel": "DC600M 3840GB (SEDC600M/3840G)",
+        "manufacturerPartNumber": "SEDC600M/3840G",
+        "revision": null,
+        "productFamily": "DC600M",
+        "encryptionVariant": "Non-encrypted"
+      },
+      "note": "Exact DC600M capacity and part number; DC600ME encryption is not inherited. Manufacturer sequential specifications and enterprise-workload TBW are not real-world transfer guarantees or a replacement for the conditional warranty. Decimal capacity; formatted space is lower. Reference-only until a dedicated enterprise installation path is supported."
+    },
+    {
+      "id": "total-ssd-kingston-sedc600m-7680g",
+      "cat": "ssd",
+      "brand": "Kingston",
+      "name": "DC600M 7680GB (SEDC600M/7680G)",
+      "sourceId": "kingston-dc600m",
+      "status": "evidence-checked",
+      "segment": "server",
+      "builderEligible": false,
+      "year": null,
+      "architecture": "SATA 6 Gb/s · 2.5-inch · enterprise",
+      "summary": "7680 GB · hardware power-loss protection",
+      "identity": {
+        "manufacturer": "Kingston",
+        "commercialModel": "DC600M 7680GB (SEDC600M/7680G)",
+        "manufacturerPartNumber": "SEDC600M/7680G",
+        "revision": null,
+        "productFamily": "DC600M",
+        "encryptionVariant": "Non-encrypted"
+      },
+      "note": "Exact DC600M capacity and part number; DC600ME encryption is not inherited. Manufacturer sequential specifications and enterprise-workload TBW are not real-world transfer guarantees or a replacement for the conditional warranty. Decimal capacity; formatted space is lower. Reference-only until a dedicated enterprise installation path is supported."
+    }
+  ]
+}

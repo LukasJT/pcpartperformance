@@ -4,7 +4,7 @@ export function addAdPlacements(html) {
   const page = html.match(/<body\b[^>]*data-page="([^"]+)"/)?.[1];
   if (!ELIGIBLE.has(page) || !html.includes('</main>')) return html;
 
-  const slot = type => `<div class="pcp-ad-slot" data-pcp-ad="${type}" aria-label="Advertisement"></div>`;
+  const slot = type => `<div class="pcp-ad-slot" data-pcp-ad="${type}" role="group" aria-label="Advertisement"></div>`;
   html = html.replace('</head>', '<link rel="stylesheet" href="/ads.css"><script defer src="/ads.js"></script></head>');
   if (page === 'home') {
     html = html.replace(/(<section class="tech-intro"[\s\S]*?<\/section>)/, `$1${slot('responsive')}`);

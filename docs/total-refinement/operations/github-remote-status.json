@@ -1,0 +1,69 @@
+{
+  "checkedAt": "2026-10-19T19:38:07.543Z",
+  "repository": "LukasJT/pcpartperformance",
+  "access": "public-read-only-no-token",
+  "workflow": {
+    "state": "active",
+    "path": ".github/workflows/daily-public-prices.yml",
+    "url": "https://github.com/LukasJT/pcpartperformance/blob/main/.github/workflows/daily-public-prices.yml"
+  },
+  "runs": [
+    {
+      "id": 39294379893,
+      "event": "schedule",
+      "status": "completed",
+      "conclusion": "success",
+      "createdAt": "2026-10-19T17:28:11Z",
+      "updatedAt": "2026-10-19T17:29:01Z",
+      "headSha": "e9767a906ff41d6185333c763ecdd4ffc7c0dfa5",
+      "headBranch": "main",
+      "url": "https://github.com/LukasJT/pcpartperformance/actions/runs/39294379893"
+    },
+    {
+      "id": 39136541424,
+      "event": "schedule",
+      "status": "completed",
+      "conclusion": "success",
+      "createdAt": "2026-10-18T14:33:37Z",
+      "updatedAt": "2026-10-18T14:34:10Z",
+      "headSha": "e9767a906ff41d6185333c763ecdd4ffc7c0dfa5",
+      "headBranch": "main",
+      "url": "https://github.com/LukasJT/pcpartperformance/actions/runs/39136541424"
+    },
+    {
+      "id": 39039745053,
+      "event": "schedule",
+      "status": "completed",
+      "conclusion": "success",
+      "createdAt": "2026-10-17T14:12:18Z",
+      "updatedAt": "2026-10-17T14:12:53Z",
+      "headSha": "e9767a906ff41d6185333c763ecdd4ffc7c0dfa5",
+      "headBranch": "main",
+      "url": "https://github.com/LukasJT/pcpartperformance/actions/runs/39039745053"
+    },
+    {
+      "id": 38994335999,
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "createdAt": "2026-10-17T02:17:26Z",
+      "updatedAt": "2026-10-17T02:18:01Z",
+      "headSha": "e9767a906ff41d6185333c763ecdd4ffc7c0dfa5",
+      "headBranch": "main",
+      "url": "https://github.com/LukasJT/pcpartperformance/actions/runs/38994335999"
+    },
+    {
+      "id": 38923359256,
+      "event": "schedule",
+      "status": "completed",
+      "conclusion": "success",
+      "createdAt": "2026-10-16T15:22:10Z",
+      "updatedAt": "2026-10-16T15:22:36Z",
+      "headSha": "bc9f3741a77a582f57c6f9167bb14cfa47edf3f0",
+      "headBranch": "main",
+      "url": "https://github.com/LukasJT/pcpartperformance/actions/runs/38923359256"
+    }
+  ],
+  "localChangesActivated": false,
+  "scope": "Existing remote workflow status only. A previous scheduled success does not verify new local workflow code, the resulting website deploy, or a future daily run."
+}

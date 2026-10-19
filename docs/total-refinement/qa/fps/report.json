@@ -1,0 +1,2205 @@
+{
+  "checkedAt": "2026-10-19T20:24:06.716Z",
+  "origin": "http://127.0.0.1:4200",
+  "browser": "Isolated headless Edge Chromium; not iOS Safari",
+  "results": [
+    {
+      "width": 320,
+      "theme": "light",
+      "passed": true,
+      "consoleReleaseRecords": 508,
+      "nativeSwitch2Record": "nintendo-70010000096825",
+      "xboxAnnouncementRecord": "xbox-9n8brh7pgjmj",
+      "overflow": false,
+      "controls": [
+        {
+          "id": "select-trigger-1",
+          "height": 46,
+          "right": 287,
+          "left": 33
+        },
+        {
+          "id": "select-trigger-2",
+          "height": 46,
+          "right": 287,
+          "left": 33
+        },
+        {
+          "id": "select-trigger-3",
+          "height": 46,
+          "right": 287,
+          "left": 33
+        },
+        {
+          "id": "select-trigger-4",
+          "height": 46,
+          "right": 287,
+          "left": 33
+        },
+        {
+          "id": "select-trigger-5",
+          "height": 46,
+          "right": 287,
+          "left": 33
+        },
+        {
+          "id": "select-trigger-6",
+          "height": 46,
+          "right": 287,
+          "left": 33
+        }
+      ],
+      "buttons": [
+        {
+          "label": "PC",
+          "width": 67.5,
+          "height": 64,
+          "right": 83.5,
+          "left": 16,
+          "scrollWidth": 66,
+          "clientWidth": 66
+        },
+        {
+          "label": "PS5",
+          "width": 67.5,
+          "height": 64,
+          "right": 157,
+          "left": 89.5,
+          "scrollWidth": 66,
+          "clientWidth": 66
+        },
+        {
+          "label": "PS5 Pro",
+          "width": 67.5,
+          "height": 64,
+          "right": 230.5,
+          "left": 163,
+          "scrollWidth": 66,
+          "clientWidth": 66
+        },
+        {
+          "label": "Series X",
+          "width": 67.5,
+          "height": 64,
+          "right": 304,
+          "left": 236.5,
+          "scrollWidth": 66,
+          "clientWidth": 66
+        },
+        {
+          "label": "Series S",
+          "width": 67.5,
+          "height": 83.59375,
+          "right": 83.5,
+          "left": 16,
+          "scrollWidth": 66,
+          "clientWidth": 66
+        },
+        {
+          "label": "Switch 2",
+          "width": 67.5,
+          "height": 83.59375,
+          "right": 157,
+          "left": 89.5,
+          "scrollWidth": 66,
+          "clientWidth": 66
+        },
+        {
+          "label": "Switch",
+          "width": 67.5,
+          "height": 83.59375,
+          "right": 230.5,
+          "left": 163,
+          "scrollWidth": 66,
+          "clientWidth": 66
+        },
+        {
+          "label": "All consoles",
+          "width": 67.5,
+          "height": 83.59375,
+          "right": 304,
+          "left": 236.5,
+          "scrollWidth": 66,
+          "clientWidth": 66
+        }
+      ],
+      "setupHeight": 665.125
+    },
+    {
+      "width": 360,
+      "theme": "light",
+      "passed": true,
+      "consoleReleaseRecords": 508,
+      "nativeSwitch2Record": "nintendo-70010000096825",
+      "xboxAnnouncementRecord": "xbox-9n8brh7pgjmj",
+      "overflow": false,
+      "controls": [
+        {
+          "id": "select-trigger-1",
+          "height": 46,
+          "right": 327,
+          "left": 33
+        },
+        {
+          "id": "select-trigger-2",
+          "height": 46,
+          "right": 327,
+          "left": 33
+        },
+        {
+          "id": "select-trigger-3",
+          "height": 46,
+          "right": 327,
+          "left": 33
+        },
+        {
+          "id": "select-trigger-4",
+          "height": 46,
+          "right": 175,
+          "left": 33
+        },
+        {
+          "id": "select-trigger-5",
+          "height": 46,
+          "right": 327,
+          "left": 185
+        },
+        {
+          "id": "select-trigger-6",
+          "height": 46,
+          "right": 327,
+          "left": 33
+        }
+      ],
+      "buttons": [
+        {
+          "label": "PC",
+          "width": 77.5,
+          "height": 64,
+          "right": 93.5,
+          "left": 16,
+          "scrollWidth": 76,
+          "clientWidth": 76
+        },
+        {
+          "label": "PS5",
+          "width": 77.5,
+          "height": 64,
+          "right": 177,
+          "left": 99.5,
+          "scrollWidth": 76,
+          "clientWidth": 76
+        },
+        {
+          "label": "PS5 Pro",
+          "width": 77.5,
+          "height": 64,
+          "right": 260.5,
+          "left": 183,
+          "scrollWidth": 76,
+          "clientWidth": 76
+        },
+        {
+          "label": "Series X",
+          "width": 77.5,
+          "height": 64,
+          "right": 344,
+          "left": 266.5,
+          "scrollWidth": 76,
+          "clientWidth": 76
+        },
+        {
+          "label": "Series S",
+          "width": 77.5,
+          "height": 64,
+          "right": 93.5,
+          "left": 16,
+          "scrollWidth": 76,
+          "clientWidth": 76
+        },
+        {
+          "label": "Switch 2",
+          "width": 77.5,
+          "height": 64,
+          "right": 177,
+          "left": 99.5,
+          "scrollWidth": 76,
+          "clientWidth": 76
+        },
+        {
+          "label": "Switch",
+          "width": 77.5,
+          "height": 64,
+          "right": 260.5,
+          "left": 183,
+          "scrollWidth": 76,
+          "clientWidth": 76
+        },
+        {
+          "label": "All consoles",
+          "width": 77.5,
+          "height": 64,
+          "right": 344,
+          "left": 266.5,
+          "scrollWidth": 76,
+          "clientWidth": 76
+        }
+      ],
+      "setupHeight": 576.734375
+    },
+    {
+      "width": 375,
+      "theme": "light",
+      "passed": true,
+      "consoleReleaseRecords": 508,
+      "nativeSwitch2Record": "nintendo-70010000096825",
+      "xboxAnnouncementRecord": "xbox-9n8brh7pgjmj",
+      "overflow": false,
+      "controls": [
+        {
+          "id": "select-trigger-1",
+          "height": 46,
+          "right": 338,
+          "left": 37
+        },
+        {
+          "id": "select-trigger-2",
+          "height": 46,
+          "right": 338,
+          "left": 37
+        },
+        {
+          "id": "select-trigger-3",
+          "height": 46,
+          "right": 338,
+          "left": 37
+        },
+        {
+          "id": "select-trigger-4",
+          "height": 46,
+          "right": 182.5,
+          "left": 37
+        },
+        {
+          "id": "select-trigger-5",
+          "height": 46,
+          "right": 338,
+          "left": 192.5
+        },
+        {
+          "id": "select-trigger-6",
+          "height": 46,
+          "right": 338,
+          "left": 37
+        }
+      ],
+      "buttons": [
+        {
+          "label": "PC",
+          "width": 79.25,
+          "height": 64,
+          "right": 99.25,
+          "left": 20,
+          "scrollWidth": 77,
+          "clientWidth": 77
+        },
+        {
+          "label": "PS5",
+          "width": 79.25,
+          "height": 64,
+          "right": 184.5,
+          "left": 105.25,
+          "scrollWidth": 77,
+          "clientWidth": 77
+        },
+        {
+          "label": "PS5 Pro",
+          "width": 79.25,
+          "height": 64,
+          "right": 269.75,
+          "left": 190.5,
+          "scrollWidth": 77,
+          "clientWidth": 77
+        },
+        {
+          "label": "Series X",
+          "width": 79.25,
+          "height": 64,
+          "right": 355,
+          "left": 275.75,
+          "scrollWidth": 77,
+          "clientWidth": 77
+        },
+        {
+          "label": "Series S",
+          "width": 79.25,
+          "height": 64,
+          "right": 99.25,
+          "left": 20,
+          "scrollWidth": 77,
+          "clientWidth": 77
+        },
+        {
+          "label": "Switch 2",
+          "width": 79.25,
+          "height": 64,
+          "right": 184.5,
+          "left": 105.25,
+          "scrollWidth": 77,
+          "clientWidth": 77
+        },
+        {
+          "label": "Switch",
+          "width": 79.25,
+          "height": 64,
+          "right": 269.75,
+          "left": 190.5,
+          "scrollWidth": 77,
+          "clientWidth": 77
+        },
+        {
+          "label": "All consoles",
+          "width": 79.25,
+          "height": 64,
+          "right": 355,
+          "left": 275.75,
+          "scrollWidth": 77,
+          "clientWidth": 77
+        }
+      ],
+      "setupHeight": 576.734375
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "passed": true,
+      "consoleReleaseRecords": 508,
+      "nativeSwitch2Record": "nintendo-70010000096825",
+      "xboxAnnouncementRecord": "xbox-9n8brh7pgjmj",
+      "overflow": false,
+      "controls": [
+        {
+          "id": "select-trigger-1",
+          "height": 46,
+          "right": 353,
+          "left": 37
+        },
+        {
+          "id": "select-trigger-2",
+          "height": 46,
+          "right": 353,
+          "left": 37
+        },
+        {
+          "id": "select-trigger-3",
+          "height": 46,
+          "right": 353,
+          "left": 37
+        },
+        {
+          "id": "select-trigger-4",
+          "height": 46,
+          "right": 190,
+          "left": 37
+        },
+        {
+          "id": "select-trigger-5",
+          "height": 46,
+          "right": 353,
+          "left": 200
+        },
+        {
+          "id": "select-trigger-6",
+          "height": 46,
+          "right": 353,
+          "left": 37
+        }
+      ],
+      "buttons": [
+        {
+          "label": "PC",
+          "width": 83,
+          "height": 64,
+          "right": 103,
+          "left": 20,
+          "scrollWidth": 81,
+          "clientWidth": 81
+        },
+        {
+          "label": "PS5",
+          "width": 83,
+          "height": 64,
+          "right": 192,
+          "left": 109,
+          "scrollWidth": 81,
+          "clientWidth": 81
+        },
+        {
+          "label": "PS5 Pro",
+          "width": 83,
+          "height": 64,
+          "right": 281,
+          "left": 198,
+          "scrollWidth": 81,
+          "clientWidth": 81
+        },
+        {
+          "label": "Series X",
+          "width": 83,
+          "height": 64,
+          "right": 370,
+          "left": 287,
+          "scrollWidth": 81,
+          "clientWidth": 81
+        },
+        {
+          "label": "Series S",
+          "width": 83,
+          "height": 64,
+          "right": 103,
+          "left": 20,
+          "scrollWidth": 81,
+          "clientWidth": 81
+        },
+        {
+          "label": "Switch 2",
+          "width": 83,
+          "height": 64,
+          "right": 192,
+          "left": 109,
+          "scrollWidth": 81,
+          "clientWidth": 81
+        },
+        {
+          "label": "Switch",
+          "width": 83,
+          "height": 64,
+          "right": 281,
+          "left": 198,
+          "scrollWidth": 81,
+          "clientWidth": 81
+        },
+        {
+          "label": "All consoles",
+          "width": 83,
+          "height": 64,
+          "right": 370,
+          "left": 287,
+          "scrollWidth": 81,
+          "clientWidth": 81
+        }
+      ],
+      "setupHeight": 576.734375
+    },
+    {
+      "width": 430,
+      "theme": "light",
+      "passed": true,
+      "consoleReleaseRecords": 508,
+      "nativeSwitch2Record": "nintendo-70010000096825",
+      "xboxAnnouncementRecord": "xbox-9n8brh7pgjmj",
+      "overflow": false,
+      "controls": [
+        {
+          "id": "select-trigger-1",
+          "height": 46,
+          "right": 393,
+          "left": 37
+        },
+        {
+          "id": "select-trigger-2",
+          "height": 46,
+          "right": 393,
+          "left": 37
+        },
+        {
+          "id": "select-trigger-3",
+          "height": 46,
+          "right": 393,
+          "left": 37
+        },
+        {
+          "id": "select-trigger-4",
+          "height": 46,
+          "right": 210,
+          "left": 37
+        },
+        {
+          "id": "select-trigger-5",
+          "height": 46,
+          "right": 393,
+          "left": 220
+        },
+        {
+          "id": "select-trigger-6",
+          "height": 46,
+          "right": 393,
+          "left": 37
+        }
+      ],
+      "buttons": [
+        {
+          "label": "PC",
+          "width": 93,
+          "height": 64,
+          "right": 113,
+          "left": 20,
+          "scrollWidth": 91,
+          "clientWidth": 91
+        },
+        {
+          "label": "PS5",
+          "width": 93,
+          "height": 64,
+          "right": 212,
+          "left": 119,
+          "scrollWidth": 91,
+          "clientWidth": 91
+        },
+        {
+          "label": "PS5 Pro",
+          "width": 93,
+          "height": 64,
+          "right": 311,
+          "left": 218,
+          "scrollWidth": 91,
+          "clientWidth": 91
+        },
+        {
+          "label": "Series X",
+          "width": 93,
+          "height": 64,
+          "right": 410,
+          "left": 317,
+          "scrollWidth": 91,
+          "clientWidth": 91
+        },
+        {
+          "label": "Series S",
+          "width": 93,
+          "height": 64,
+          "right": 113,
+          "left": 20,
+          "scrollWidth": 91,
+          "clientWidth": 91
+        },
+        {
+          "label": "Switch 2",
+          "width": 93,
+          "height": 64,
+          "right": 212,
+          "left": 119,
+          "scrollWidth": 91,
+          "clientWidth": 91
+        },
+        {
+          "label": "Switch",
+          "width": 93,
+          "height": 64,
+          "right": 311,
+          "left": 218,
+          "scrollWidth": 91,
+          "clientWidth": 91
+        },
+        {
+          "label": "All consoles",
+          "width": 93,
+          "height": 64,
+          "right": 410,
+          "left": 317,
+          "scrollWidth": 91,
+          "clientWidth": 91
+        }
+      ],
+      "setupHeight": 576.734375
+    },
+    {
+      "width": 768,
+      "theme": "light",
+      "passed": true,
+      "consoleReleaseRecords": 508,
+      "nativeSwitch2Record": "nintendo-70010000096825",
+      "xboxAnnouncementRecord": "xbox-9n8brh7pgjmj",
+      "overflow": false,
+      "controls": [
+        {
+          "id": "select-trigger-1",
+          "height": 46,
+          "right": 716.28125,
+          "left": 51.71875
+        },
+        {
+          "id": "select-trigger-2",
+          "height": 46,
+          "right": 379,
+          "left": 51.71875
+        },
+        {
+          "id": "select-trigger-3",
+          "height": 46,
+          "right": 716.28125,
+          "left": 389
+        },
+        {
+          "id": "select-trigger-4",
+          "height": 46,
+          "right": 266.5625,
+          "left": 51.71875
+        },
+        {
+          "id": "select-trigger-5",
+          "height": 46,
+          "right": 491.421875,
+          "left": 276.5625
+        },
+        {
+          "id": "select-trigger-6",
+          "height": 46,
+          "right": 716.28125,
+          "left": 501.421875
+        }
+      ],
+      "buttons": [
+        {
+          "label": "PC",
+          "width": 170.640625,
+          "height": 48,
+          "right": 201.359375,
+          "left": 30.71875,
+          "scrollWidth": 169,
+          "clientWidth": 169
+        },
+        {
+          "label": "PS5",
+          "width": 170.640625,
+          "height": 48,
+          "right": 380,
+          "left": 209.359375,
+          "scrollWidth": 169,
+          "clientWidth": 169
+        },
+        {
+          "label": "PS5 Pro",
+          "width": 170.640625,
+          "height": 48,
+          "right": 558.640625,
+          "left": 388,
+          "scrollWidth": 169,
+          "clientWidth": 169
+        },
+        {
+          "label": "Series X",
+          "width": 170.640625,
+          "height": 48,
+          "right": 737.28125,
+          "left": 566.640625,
+          "scrollWidth": 169,
+          "clientWidth": 169
+        },
+        {
+          "label": "Series S",
+          "width": 170.640625,
+          "height": 48,
+          "right": 201.359375,
+          "left": 30.71875,
+          "scrollWidth": 169,
+          "clientWidth": 169
+        },
+        {
+          "label": "Switch 2",
+          "width": 170.640625,
+          "height": 48,
+          "right": 380,
+          "left": 209.359375,
+          "scrollWidth": 169,
+          "clientWidth": 169
+        },
+        {
+          "label": "Switch",
+          "width": 170.640625,
+          "height": 48,
+          "right": 558.640625,
+          "left": 388,
+          "scrollWidth": 169,
+          "clientWidth": 169
+        },
+        {
+          "label": "All consoles",
+          "width": 170.640625,
+          "height": 48,
+          "right": 737.28125,
+          "left": 566.640625,
+          "scrollWidth": 169,
+          "clientWidth": 169
+        }
+      ],
+      "setupHeight": 411.953125
+    },
+    {
+      "width": 1024,
+      "theme": "light",
+      "passed": true,
+      "consoleReleaseRecords": 508,
+      "nativeSwitch2Record": "nintendo-70010000096825",
+      "xboxAnnouncementRecord": "xbox-9n8brh7pgjmj",
+      "overflow": false,
+      "controls": [
+        {
+          "id": "select-trigger-1",
+          "height": 46,
+          "right": 962.046875,
+          "left": 61.953125
+        },
+        {
+          "id": "select-trigger-2",
+          "height": 46,
+          "right": 507,
+          "left": 61.953125
+        },
+        {
+          "id": "select-trigger-3",
+          "height": 46,
+          "right": 962.046875,
+          "left": 517
+        },
+        {
+          "id": "select-trigger-4",
+          "height": 46,
+          "right": 355.3125,
+          "left": 61.953125
+        },
+        {
+          "id": "select-trigger-5",
+          "height": 46,
+          "right": 658.671875,
+          "left": 365.3125
+        },
+        {
+          "id": "select-trigger-6",
+          "height": 46,
+          "right": 962.046875,
+          "left": 668.671875
+        }
+      ],
+      "buttons": [
+        {
+          "label": "PC",
+          "width": 229.515625,
+          "height": 48,
+          "right": 270.46875,
+          "left": 40.953125,
+          "scrollWidth": 228,
+          "clientWidth": 228
+        },
+        {
+          "label": "PS5",
+          "width": 229.53125,
+          "height": 48,
+          "right": 508,
+          "left": 278.46875,
+          "scrollWidth": 228,
+          "clientWidth": 228
+        },
+        {
+          "label": "PS5 Pro",
+          "width": 229.515625,
+          "height": 48,
+          "right": 745.515625,
+          "left": 516,
+          "scrollWidth": 228,
+          "clientWidth": 228
+        },
+        {
+          "label": "Series X",
+          "width": 229.53125,
+          "height": 48,
+          "right": 983.046875,
+          "left": 753.515625,
+          "scrollWidth": 228,
+          "clientWidth": 228
+        },
+        {
+          "label": "Series S",
+          "width": 229.515625,
+          "height": 48,
+          "right": 270.46875,
+          "left": 40.953125,
+          "scrollWidth": 228,
+          "clientWidth": 228
+        },
+        {
+          "label": "Switch 2",
+          "width": 229.53125,
+          "height": 48,
+          "right": 508,
+          "left": 278.46875,
+          "scrollWidth": 228,
+          "clientWidth": 228
+        },
+        {
+          "label": "Switch",
+          "width": 229.515625,
+          "height": 48,
+          "right": 745.515625,
+          "left": 516,
+          "scrollWidth": 228,
+          "clientWidth": 228
+        },
+        {
+          "label": "All consoles",
+          "width": 229.53125,
+          "height": 48,
+          "right": 983.046875,
+          "left": 753.515625,
+          "scrollWidth": 228,
+          "clientWidth": 228
+        }
+      ],
+      "setupHeight": 411.953125
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "passed": true,
+      "consoleReleaseRecords": 508,
+      "nativeSwitch2Record": "nintendo-70010000096825",
+      "xboxAnnouncementRecord": "xbox-9n8brh7pgjmj",
+      "overflow": false,
+      "controls": [
+        {
+          "id": "select-trigger-1",
+          "height": 46,
+          "right": 720.0625,
+          "left": 78.59375
+        },
+        {
+          "id": "select-trigger-2",
+          "height": 46,
+          "right": 394.328125,
+          "left": 78.59375
+        },
+        {
+          "id": "select-trigger-3",
+          "height": 46,
+          "right": 720.0625,
+          "left": 404.328125
+        },
+        {
+          "id": "select-trigger-4",
+          "height": 46,
+          "right": 285.75,
+          "left": 78.59375
+        },
+        {
+          "id": "select-trigger-5",
+          "height": 46,
+          "right": 502.90625,
+          "left": 295.75
+        },
+        {
+          "id": "select-trigger-6",
+          "height": 46,
+          "right": 720.0625,
+          "left": 512.90625
+        }
+      ],
+      "buttons": [
+        {
+          "label": "PC",
+          "width": 158.59375,
+          "height": 48,
+          "right": 216.1875,
+          "left": 57.59375,
+          "scrollWidth": 157,
+          "clientWidth": 157
+        },
+        {
+          "label": "PS5",
+          "width": 158.609375,
+          "height": 48,
+          "right": 382.796875,
+          "left": 224.1875,
+          "scrollWidth": 157,
+          "clientWidth": 157
+        },
+        {
+          "label": "PS5 Pro",
+          "width": 158.59375,
+          "height": 48,
+          "right": 549.390625,
+          "left": 390.796875,
+          "scrollWidth": 157,
+          "clientWidth": 157
+        },
+        {
+          "label": "Series X",
+          "width": 158.609375,
+          "height": 48,
+          "right": 716,
+          "left": 557.390625,
+          "scrollWidth": 157,
+          "clientWidth": 157
+        },
+        {
+          "label": "Series S",
+          "width": 158.59375,
+          "height": 48,
+          "right": 882.59375,
+          "left": 724,
+          "scrollWidth": 157,
+          "clientWidth": 157
+        },
+        {
+          "label": "Switch 2",
+          "width": 158.609375,
+          "height": 48,
+          "right": 1049.203125,
+          "left": 890.59375,
+          "scrollWidth": 157,
+          "clientWidth": 157
+        },
+        {
+          "label": "Switch",
+          "width": 158.59375,
+          "height": 48,
+          "right": 1215.796875,
+          "left": 1057.203125,
+          "scrollWidth": 157,
+          "clientWidth": 157
+        },
+        {
+          "label": "All consoles",
+          "width": 158.609375,
+          "height": 48,
+          "right": 1382.40625,
+          "left": 1223.796875,
+          "scrollWidth": 157,
+          "clientWidth": 157
+        }
+      ],
+      "setupHeight": 411.953125
+    },
+    {
+      "width": 1920,
+      "theme": "light",
+      "passed": true,
+      "consoleReleaseRecords": 508,
+      "nativeSwitch2Record": "nintendo-70010000096825",
+      "xboxAnnouncementRecord": "xbox-9n8brh7pgjmj",
+      "overflow": false,
+      "controls": [
+        {
+          "id": "select-trigger-1",
+          "height": 46,
+          "right": 959.75,
+          "left": 325
+        },
+        {
+          "id": "select-trigger-2",
+          "height": 46,
+          "right": 637.375,
+          "left": 325
+        },
+        {
+          "id": "select-trigger-3",
+          "height": 46,
+          "right": 959.75,
+          "left": 647.375
+        },
+        {
+          "id": "select-trigger-4",
+          "height": 46,
+          "right": 529.90625,
+          "left": 325
+        },
+        {
+          "id": "select-trigger-5",
+          "height": 46,
+          "right": 744.828125,
+          "left": 539.90625
+        },
+        {
+          "id": "select-trigger-6",
+          "height": 46,
+          "right": 959.75,
+          "left": 754.828125
+        }
+      ],
+      "buttons": [
+        {
+          "label": "PC",
+          "width": 157,
+          "height": 48,
+          "right": 461,
+          "left": 304,
+          "scrollWidth": 155,
+          "clientWidth": 155
+        },
+        {
+          "label": "PS5",
+          "width": 157,
+          "height": 48,
+          "right": 626,
+          "left": 469,
+          "scrollWidth": 155,
+          "clientWidth": 155
+        },
+        {
+          "label": "PS5 Pro",
+          "width": 157,
+          "height": 48,
+          "right": 791,
+          "left": 634,
+          "scrollWidth": 155,
+          "clientWidth": 155
+        },
+        {
+          "label": "Series X",
+          "width": 157,
+          "height": 48,
+          "right": 956,
+          "left": 799,
+          "scrollWidth": 155,
+          "clientWidth": 155
+        },
+        {
+          "label": "Series S",
+          "width": 157,
+          "height": 48,
+          "right": 1121,
+          "left": 964,
+          "scrollWidth": 155,
+          "clientWidth": 155
+        },
+        {
+          "label": "Switch 2",
+          "width": 157,
+          "height": 48,
+          "right": 1286,
+          "left": 1129,
+          "scrollWidth": 155,
+          "clientWidth": 155
+        },
+        {
+          "label": "Switch",
+          "width": 157,
+          "height": 48,
+          "right": 1451,
+          "left": 1294,
+          "scrollWidth": 155,
+          "clientWidth": 155
+        },
+        {
+          "label": "All consoles",
+          "width": 157,
+          "height": 48,
+          "right": 1616,
+          "left": 1459,
+          "scrollWidth": 155,
+          "clientWidth": 155
+        }
+      ],
+      "setupHeight": 411.953125
+    },
+    {
+      "width": 320,
+      "theme": "dark",
+      "passed": true,
+      "consoleReleaseRecords": 508,
+      "nativeSwitch2Record": "nintendo-70010000096825",
+      "xboxAnnouncementRecord": "xbox-9n8brh7pgjmj",
+      "overflow": false,
+      "controls": [
+        {
+          "id": "select-trigger-1",
+          "height": 46,
+          "right": 287,
+          "left": 33
+        },
+        {
+          "id": "select-trigger-2",
+          "height": 46,
+          "right": 287,
+          "left": 33
+        },
+        {
+          "id": "select-trigger-3",
+          "height": 46,
+          "right": 287,
+          "left": 33
+        },
+        {
+          "id": "select-trigger-4",
+          "height": 46,
+          "right": 287,
+          "left": 33
+        },
+        {
+          "id": "select-trigger-5",
+          "height": 46,
+          "right": 287,
+          "left": 33
+        },
+        {
+          "id": "select-trigger-6",
+          "height": 46,
+          "right": 287,
+          "left": 33
+        }
+      ],
+      "buttons": [
+        {
+          "label": "PC",
+          "width": 67.5,
+          "height": 64,
+          "right": 83.5,
+          "left": 16,
+          "scrollWidth": 66,
+          "clientWidth": 66
+        },
+        {
+          "label": "PS5",
+          "width": 67.5,
+          "height": 64,
+          "right": 157,
+          "left": 89.5,
+          "scrollWidth": 66,
+          "clientWidth": 66
+        },
+        {
+          "label": "PS5 Pro",
+          "width": 67.5,
+          "height": 64,
+          "right": 230.5,
+          "left": 163,
+          "scrollWidth": 66,
+          "clientWidth": 66
+        },
+        {
+          "label": "Series X",
+          "width": 67.5,
+          "height": 64,
+          "right": 304,
+          "left": 236.5,
+          "scrollWidth": 66,
+          "clientWidth": 66
+        },
+        {
+          "label": "Series S",
+          "width": 67.5,
+          "height": 83.59375,
+          "right": 83.5,
+          "left": 16,
+          "scrollWidth": 66,
+          "clientWidth": 66
+        },
+        {
+          "label": "Switch 2",
+          "width": 67.5,
+          "height": 83.59375,
+          "right": 157,
+          "left": 89.5,
+          "scrollWidth": 66,
+          "clientWidth": 66
+        },
+        {
+          "label": "Switch",
+          "width": 67.5,
+          "height": 83.59375,
+          "right": 230.5,
+          "left": 163,
+          "scrollWidth": 66,
+          "clientWidth": 66
+        },
+        {
+          "label": "All consoles",
+          "width": 67.5,
+          "height": 83.59375,
+          "right": 304,
+          "left": 236.5,
+          "scrollWidth": 66,
+          "clientWidth": 66
+        }
+      ],
+      "setupHeight": 665.125
+    },
+    {
+      "width": 360,
+      "theme": "dark",
+      "passed": true,
+      "consoleReleaseRecords": 508,
+      "nativeSwitch2Record": "nintendo-70010000096825",
+      "xboxAnnouncementRecord": "xbox-9n8brh7pgjmj",
+      "overflow": false,
+      "controls": [
+        {
+          "id": "select-trigger-1",
+          "height": 46,
+          "right": 327,
+          "left": 33
+        },
+        {
+          "id": "select-trigger-2",
+          "height": 46,
+          "right": 327,
+          "left": 33
+        },
+        {
+          "id": "select-trigger-3",
+          "height": 46,
+          "right": 327,
+          "left": 33
+        },
+        {
+          "id": "select-trigger-4",
+          "height": 46,
+          "right": 175,
+          "left": 33
+        },
+        {
+          "id": "select-trigger-5",
+          "height": 46,
+          "right": 327,
+          "left": 185
+        },
+        {
+          "id": "select-trigger-6",
+          "height": 46,
+          "right": 327,
+          "left": 33
+        }
+      ],
+      "buttons": [
+        {
+          "label": "PC",
+          "width": 77.5,
+          "height": 64,
+          "right": 93.5,
+          "left": 16,
+          "scrollWidth": 76,
+          "clientWidth": 76
+        },
+        {
+          "label": "PS5",
+          "width": 77.5,
+          "height": 64,
+          "right": 177,
+          "left": 99.5,
+          "scrollWidth": 76,
+          "clientWidth": 76
+        },
+        {
+          "label": "PS5 Pro",
+          "width": 77.5,
+          "height": 64,
+          "right": 260.5,
+          "left": 183,
+          "scrollWidth": 76,
+          "clientWidth": 76
+        },
+        {
+          "label": "Series X",
+          "width": 77.5,
+          "height": 64,
+          "right": 344,
+          "left": 266.5,
+          "scrollWidth": 76,
+          "clientWidth": 76
+        },
+        {
+          "label": "Series S",
+          "width": 77.5,
+          "height": 64,
+          "right": 93.5,
+          "left": 16,
+          "scrollWidth": 76,
+          "clientWidth": 76
+        },
+        {
+          "label": "Switch 2",
+          "width": 77.5,
+          "height": 64,
+          "right": 177,
+          "left": 99.5,
+          "scrollWidth": 76,
+          "clientWidth": 76
+        },
+        {
+          "label": "Switch",
+          "width": 77.5,
+          "height": 64,
+          "right": 260.5,
+          "left": 183,
+          "scrollWidth": 76,
+          "clientWidth": 76
+        },
+        {
+          "label": "All consoles",
+          "width": 77.5,
+          "height": 64,
+          "right": 344,
+          "left": 266.5,
+          "scrollWidth": 76,
+          "clientWidth": 76
+        }
+      ],
+      "setupHeight": 576.734375
+    },
+    {
+      "width": 375,
+      "theme": "dark",
+      "passed": true,
+      "consoleReleaseRecords": 508,
+      "nativeSwitch2Record": "nintendo-70010000096825",
+      "xboxAnnouncementRecord": "xbox-9n8brh7pgjmj",
+      "overflow": false,
+      "controls": [
+        {
+          "id": "select-trigger-1",
+          "height": 46,
+          "right": 338,
+          "left": 37
+        },
+        {
+          "id": "select-trigger-2",
+          "height": 46,
+          "right": 338,
+          "left": 37
+        },
+        {
+          "id": "select-trigger-3",
+          "height": 46,
+          "right": 338,
+          "left": 37
+        },
+        {
+          "id": "select-trigger-4",
+          "height": 46,
+          "right": 182.5,
+          "left": 37
+        },
+        {
+          "id": "select-trigger-5",
+          "height": 46,
+          "right": 338,
+          "left": 192.5
+        },
+        {
+          "id": "select-trigger-6",
+          "height": 46,
+          "right": 338,
+          "left": 37
+        }
+      ],
+      "buttons": [
+        {
+          "label": "PC",
+          "width": 79.25,
+          "height": 64,
+          "right": 99.25,
+          "left": 20,
+          "scrollWidth": 77,
+          "clientWidth": 77
+        },
+        {
+          "label": "PS5",
+          "width": 79.25,
+          "height": 64,
+          "right": 184.5,
+          "left": 105.25,
+          "scrollWidth": 77,
+          "clientWidth": 77
+        },
+        {
+          "label": "PS5 Pro",
+          "width": 79.25,
+          "height": 64,
+          "right": 269.75,
+          "left": 190.5,
+          "scrollWidth": 77,
+          "clientWidth": 77
+        },
+        {
+          "label": "Series X",
+          "width": 79.25,
+          "height": 64,
+          "right": 355,
+          "left": 275.75,
+          "scrollWidth": 77,
+          "clientWidth": 77
+        },
+        {
+          "label": "Series S",
+          "width": 79.25,
+          "height": 64,
+          "right": 99.25,
+          "left": 20,
+          "scrollWidth": 77,
+          "clientWidth": 77
+        },
+        {
+          "label": "Switch 2",
+          "width": 79.25,
+          "height": 64,
+          "right": 184.5,
+          "left": 105.25,
+          "scrollWidth": 77,
+          "clientWidth": 77
+        },
+        {
+          "label": "Switch",
+          "width": 79.25,
+          "height": 64,
+          "right": 269.75,
+          "left": 190.5,
+          "scrollWidth": 77,
+          "clientWidth": 77
+        },
+        {
+          "label": "All consoles",
+          "width": 79.25,
+          "height": 64,
+          "right": 355,
+          "left": 275.75,
+          "scrollWidth": 77,
+          "clientWidth": 77
+        }
+      ],
+      "setupHeight": 576.734375
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "passed": true,
+      "consoleReleaseRecords": 508,
+      "nativeSwitch2Record": "nintendo-70010000096825",
+      "xboxAnnouncementRecord": "xbox-9n8brh7pgjmj",
+      "overflow": false,
+      "controls": [
+        {
+          "id": "select-trigger-1",
+          "height": 46,
+          "right": 353,
+          "left": 37
+        },
+        {
+          "id": "select-trigger-2",
+          "height": 46,
+          "right": 353,
+          "left": 37
+        },
+        {
+          "id": "select-trigger-3",
+          "height": 46,
+          "right": 353,
+          "left": 37
+        },
+        {
+          "id": "select-trigger-4",
+          "height": 46,
+          "right": 190,
+          "left": 37
+        },
+        {
+          "id": "select-trigger-5",
+          "height": 46,
+          "right": 353,
+          "left": 200
+        },
+        {
+          "id": "select-trigger-6",
+          "height": 46,
+          "right": 353,
+          "left": 37
+        }
+      ],
+      "buttons": [
+        {
+          "label": "PC",
+          "width": 83,
+          "height": 64,
+          "right": 103,
+          "left": 20,
+          "scrollWidth": 81,
+          "clientWidth": 81
+        },
+        {
+          "label": "PS5",
+          "width": 83,
+          "height": 64,
+          "right": 192,
+          "left": 109,
+          "scrollWidth": 81,
+          "clientWidth": 81
+        },
+        {
+          "label": "PS5 Pro",
+          "width": 83,
+          "height": 64,
+          "right": 281,
+          "left": 198,
+          "scrollWidth": 81,
+          "clientWidth": 81
+        },
+        {
+          "label": "Series X",
+          "width": 83,
+          "height": 64,
+          "right": 370,
+          "left": 287,
+          "scrollWidth": 81,
+          "clientWidth": 81
+        },
+        {
+          "label": "Series S",
+          "width": 83,
+          "height": 64,
+          "right": 103,
+          "left": 20,
+          "scrollWidth": 81,
+          "clientWidth": 81
+        },
+        {
+          "label": "Switch 2",
+          "width": 83,
+          "height": 64,
+          "right": 192,
+          "left": 109,
+          "scrollWidth": 81,
+          "clientWidth": 81
+        },
+        {
+          "label": "Switch",
+          "width": 83,
+          "height": 64,
+          "right": 281,
+          "left": 198,
+          "scrollWidth": 81,
+          "clientWidth": 81
+        },
+        {
+          "label": "All consoles",
+          "width": 83,
+          "height": 64,
+          "right": 370,
+          "left": 287,
+          "scrollWidth": 81,
+          "clientWidth": 81
+        }
+      ],
+      "setupHeight": 576.734375
+    },
+    {
+      "width": 430,
+      "theme": "dark",
+      "passed": true,
+      "consoleReleaseRecords": 508,
+      "nativeSwitch2Record": "nintendo-70010000096825",
+      "xboxAnnouncementRecord": "xbox-9n8brh7pgjmj",
+      "overflow": false,
+      "controls": [
+        {
+          "id": "select-trigger-1",
+          "height": 46,
+          "right": 393,
+          "left": 37
+        },
+        {
+          "id": "select-trigger-2",
+          "height": 46,
+          "right": 393,
+          "left": 37
+        },
+        {
+          "id": "select-trigger-3",
+          "height": 46,
+          "right": 393,
+          "left": 37
+        },
+        {
+          "id": "select-trigger-4",
+          "height": 46,
+          "right": 210,
+          "left": 37
+        },
+        {
+          "id": "select-trigger-5",
+          "height": 46,
+          "right": 393,
+          "left": 220
+        },
+        {
+          "id": "select-trigger-6",
+          "height": 46,
+          "right": 393,
+          "left": 37
+        }
+      ],
+      "buttons": [
+        {
+          "label": "PC",
+          "width": 93,
+          "height": 64,
+          "right": 113,
+          "left": 20,
+          "scrollWidth": 91,
+          "clientWidth": 91
+        },
+        {
+          "label": "PS5",
+          "width": 93,
+          "height": 64,
+          "right": 212,
+          "left": 119,
+          "scrollWidth": 91,
+          "clientWidth": 91
+        },
+        {
+          "label": "PS5 Pro",
+          "width": 93,
+          "height": 64,
+          "right": 311,
+          "left": 218,
+          "scrollWidth": 91,
+          "clientWidth": 91
+        },
+        {
+          "label": "Series X",
+          "width": 93,
+          "height": 64,
+          "right": 410,
+          "left": 317,
+          "scrollWidth": 91,
+          "clientWidth": 91
+        },
+        {
+          "label": "Series S",
+          "width": 93,
+          "height": 64,
+          "right": 113,
+          "left": 20,
+          "scrollWidth": 91,
+          "clientWidth": 91
+        },
+        {
+          "label": "Switch 2",
+          "width": 93,
+          "height": 64,
+          "right": 212,
+          "left": 119,
+          "scrollWidth": 91,
+          "clientWidth": 91
+        },
+        {
+          "label": "Switch",
+          "width": 93,
+          "height": 64,
+          "right": 311,
+          "left": 218,
+          "scrollWidth": 91,
+          "clientWidth": 91
+        },
+        {
+          "label": "All consoles",
+          "width": 93,
+          "height": 64,
+          "right": 410,
+          "left": 317,
+          "scrollWidth": 91,
+          "clientWidth": 91
+        }
+      ],
+      "setupHeight": 576.734375
+    },
+    {
+      "width": 768,
+      "theme": "dark",
+      "passed": true,
+      "consoleReleaseRecords": 508,
+      "nativeSwitch2Record": "nintendo-70010000096825",
+      "xboxAnnouncementRecord": "xbox-9n8brh7pgjmj",
+      "overflow": false,
+      "controls": [
+        {
+          "id": "select-trigger-1",
+          "height": 46,
+          "right": 716.28125,
+          "left": 51.71875
+        },
+        {
+          "id": "select-trigger-2",
+          "height": 46,
+          "right": 379,
+          "left": 51.71875
+        },
+        {
+          "id": "select-trigger-3",
+          "height": 46,
+          "right": 716.28125,
+          "left": 389
+        },
+        {
+          "id": "select-trigger-4",
+          "height": 46,
+          "right": 266.5625,
+          "left": 51.71875
+        },
+        {
+          "id": "select-trigger-5",
+          "height": 46,
+          "right": 491.421875,
+          "left": 276.5625
+        },
+        {
+          "id": "select-trigger-6",
+          "height": 46,
+          "right": 716.28125,
+          "left": 501.421875
+        }
+      ],
+      "buttons": [
+        {
+          "label": "PC",
+          "width": 170.640625,
+          "height": 48,
+          "right": 201.359375,
+          "left": 30.71875,
+          "scrollWidth": 169,
+          "clientWidth": 169
+        },
+        {
+          "label": "PS5",
+          "width": 170.640625,
+          "height": 48,
+          "right": 380,
+          "left": 209.359375,
+          "scrollWidth": 169,
+          "clientWidth": 169
+        },
+        {
+          "label": "PS5 Pro",
+          "width": 170.640625,
+          "height": 48,
+          "right": 558.640625,
+          "left": 388,
+          "scrollWidth": 169,
+          "clientWidth": 169
+        },
+        {
+          "label": "Series X",
+          "width": 170.640625,
+          "height": 48,
+          "right": 737.28125,
+          "left": 566.640625,
+          "scrollWidth": 169,
+          "clientWidth": 169
+        },
+        {
+          "label": "Series S",
+          "width": 170.640625,
+          "height": 48,
+          "right": 201.359375,
+          "left": 30.71875,
+          "scrollWidth": 169,
+          "clientWidth": 169
+        },
+        {
+          "label": "Switch 2",
+          "width": 170.640625,
+          "height": 48,
+          "right": 380,
+          "left": 209.359375,
+          "scrollWidth": 169,
+          "clientWidth": 169
+        },
+        {
+          "label": "Switch",
+          "width": 170.640625,
+          "height": 48,
+          "right": 558.640625,
+          "left": 388,
+          "scrollWidth": 169,
+          "clientWidth": 169
+        },
+        {
+          "label": "All consoles",
+          "width": 170.640625,
+          "height": 48,
+          "right": 737.28125,
+          "left": 566.640625,
+          "scrollWidth": 169,
+          "clientWidth": 169
+        }
+      ],
+      "setupHeight": 411.953125
+    },
+    {
+      "width": 1024,
+      "theme": "dark",
+      "passed": true,
+      "consoleReleaseRecords": 508,
+      "nativeSwitch2Record": "nintendo-70010000096825",
+      "xboxAnnouncementRecord": "xbox-9n8brh7pgjmj",
+      "overflow": false,
+      "controls": [
+        {
+          "id": "select-trigger-1",
+          "height": 46,
+          "right": 962.046875,
+          "left": 61.953125
+        },
+        {
+          "id": "select-trigger-2",
+          "height": 46,
+          "right": 507,
+          "left": 61.953125
+        },
+        {
+          "id": "select-trigger-3",
+          "height": 46,
+          "right": 962.046875,
+          "left": 517
+        },
+        {
+          "id": "select-trigger-4",
+          "height": 46,
+          "right": 355.3125,
+          "left": 61.953125
+        },
+        {
+          "id": "select-trigger-5",
+          "height": 46,
+          "right": 658.671875,
+          "left": 365.3125
+        },
+        {
+          "id": "select-trigger-6",
+          "height": 46,
+          "right": 962.046875,
+          "left": 668.671875
+        }
+      ],
+      "buttons": [
+        {
+          "label": "PC",
+          "width": 229.515625,
+          "height": 48,
+          "right": 270.46875,
+          "left": 40.953125,
+          "scrollWidth": 228,
+          "clientWidth": 228
+        },
+        {
+          "label": "PS5",
+          "width": 229.53125,
+          "height": 48,
+          "right": 508,
+          "left": 278.46875,
+          "scrollWidth": 228,
+          "clientWidth": 228
+        },
+        {
+          "label": "PS5 Pro",
+          "width": 229.515625,
+          "height": 48,
+          "right": 745.515625,
+          "left": 516,
+          "scrollWidth": 228,
+          "clientWidth": 228
+        },
+        {
+          "label": "Series X",
+          "width": 229.53125,
+          "height": 48,
+          "right": 983.046875,
+          "left": 753.515625,
+          "scrollWidth": 228,
+          "clientWidth": 228
+        },
+        {
+          "label": "Series S",
+          "width": 229.515625,
+          "height": 48,
+          "right": 270.46875,
+          "left": 40.953125,
+          "scrollWidth": 228,
+          "clientWidth": 228
+        },
+        {
+          "label": "Switch 2",
+          "width": 229.53125,
+          "height": 48,
+          "right": 508,
+          "left": 278.46875,
+          "scrollWidth": 228,
+          "clientWidth": 228
+        },
+        {
+          "label": "Switch",
+          "width": 229.515625,
+          "height": 48,
+          "right": 745.515625,
+          "left": 516,
+          "scrollWidth": 228,
+          "clientWidth": 228
+        },
+        {
+          "label": "All consoles",
+          "width": 229.53125,
+          "height": 48,
+          "right": 983.046875,
+          "left": 753.515625,
+          "scrollWidth": 228,
+          "clientWidth": 228
+        }
+      ],
+      "setupHeight": 411.953125
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "passed": true,
+      "consoleReleaseRecords": 508,
+      "nativeSwitch2Record": "nintendo-70010000096825",
+      "xboxAnnouncementRecord": "xbox-9n8brh7pgjmj",
+      "overflow": false,
+      "controls": [
+        {
+          "id": "select-trigger-1",
+          "height": 46,
+          "right": 720.0625,
+          "left": 78.59375
+        },
+        {
+          "id": "select-trigger-2",
+          "height": 46,
+          "right": 394.328125,
+          "left": 78.59375
+        },
+        {
+          "id": "select-trigger-3",
+          "height": 46,
+          "right": 720.0625,
+          "left": 404.328125
+        },
+        {
+          "id": "select-trigger-4",
+          "height": 46,
+          "right": 285.75,
+          "left": 78.59375
+        },
+        {
+          "id": "select-trigger-5",
+          "height": 46,
+          "right": 502.90625,
+          "left": 295.75
+        },
+        {
+          "id": "select-trigger-6",
+          "height": 46,
+          "right": 720.0625,
+          "left": 512.90625
+        }
+      ],
+      "buttons": [
+        {
+          "label": "PC",
+          "width": 158.59375,
+          "height": 48,
+          "right": 216.1875,
+          "left": 57.59375,
+          "scrollWidth": 157,
+          "clientWidth": 157
+        },
+        {
+          "label": "PS5",
+          "width": 158.609375,
+          "height": 48,
+          "right": 382.796875,
+          "left": 224.1875,
+          "scrollWidth": 157,
+          "clientWidth": 157
+        },
+        {
+          "label": "PS5 Pro",
+          "width": 158.59375,
+          "height": 48,
+          "right": 549.390625,
+          "left": 390.796875,
+          "scrollWidth": 157,
+          "clientWidth": 157
+        },
+        {
+          "label": "Series X",
+          "width": 158.609375,
+          "height": 48,
+          "right": 716,
+          "left": 557.390625,
+          "scrollWidth": 157,
+          "clientWidth": 157
+        },
+        {
+          "label": "Series S",
+          "width": 158.59375,
+          "height": 48,
+          "right": 882.59375,
+          "left": 724,
+          "scrollWidth": 157,
+          "clientWidth": 157
+        },
+        {
+          "label": "Switch 2",
+          "width": 158.609375,
+          "height": 48,
+          "right": 1049.203125,
+          "left": 890.59375,
+          "scrollWidth": 157,
+          "clientWidth": 157
+        },
+        {
+          "label": "Switch",
+          "width": 158.59375,
+          "height": 48,
+          "right": 1215.796875,
+          "left": 1057.203125,
+          "scrollWidth": 157,
+          "clientWidth": 157
+        },
+        {
+          "label": "All consoles",
+          "width": 158.609375,
+          "height": 48,
+          "right": 1382.40625,
+          "left": 1223.796875,
+          "scrollWidth": 157,
+          "clientWidth": 157
+        }
+      ],
+      "setupHeight": 411.953125
+    },
+    {
+      "width": 1920,
+      "theme": "dark",
+      "passed": true,
+      "consoleReleaseRecords": 508,
+      "nativeSwitch2Record": "nintendo-70010000096825",
+      "xboxAnnouncementRecord": "xbox-9n8brh7pgjmj",
+      "overflow": false,
+      "controls": [
+        {
+          "id": "select-trigger-1",
+          "height": 46,
+          "right": 959.75,
+          "left": 325
+        },
+        {
+          "id": "select-trigger-2",
+          "height": 46,
+          "right": 637.375,
+          "left": 325
+        },
+        {
+          "id": "select-trigger-3",
+          "height": 46,
+          "right": 959.75,
+          "left": 647.375
+        },
+        {
+          "id": "select-trigger-4",
+          "height": 46,
+          "right": 529.90625,
+          "left": 325
+        },
+        {
+          "id": "select-trigger-5",
+          "height": 46,
+          "right": 744.828125,
+          "left": 539.90625
+        },
+        {
+          "id": "select-trigger-6",
+          "height": 46,
+          "right": 959.75,
+          "left": 754.828125
+        }
+      ],
+      "buttons": [
+        {
+          "label": "PC",
+          "width": 157,
+          "height": 48,
+          "right": 461,
+          "left": 304,
+          "scrollWidth": 155,
+          "clientWidth": 155
+        },
+        {
+          "label": "PS5",
+          "width": 157,
+          "height": 48,
+          "right": 626,
+          "left": 469,
+          "scrollWidth": 155,
+          "clientWidth": 155
+        },
+        {
+          "label": "PS5 Pro",
+          "width": 157,
+          "height": 48,
+          "right": 791,
+          "left": 634,
+          "scrollWidth": 155,
+          "clientWidth": 155
+        },
+        {
+          "label": "Series X",
+          "width": 157,
+          "height": 48,
+          "right": 956,
+          "left": 799,
+          "scrollWidth": 155,
+          "clientWidth": 155
+        },
+        {
+          "label": "Series S",
+          "width": 157,
+          "height": 48,
+          "right": 1121,
+          "left": 964,
+          "scrollWidth": 155,
+          "clientWidth": 155
+        },
+        {
+          "label": "Switch 2",
+          "width": 157,
+          "height": 48,
+          "right": 1286,
+          "left": 1129,
+          "scrollWidth": 155,
+          "clientWidth": 155
+        },
+        {
+          "label": "Switch",
+          "width": 157,
+          "height": 48,
+          "right": 1451,
+          "left": 1294,
+          "scrollWidth": 155,
+          "clientWidth": 155
+        },
+        {
+          "label": "All consoles",
+          "width": 157,
+          "height": 48,
+          "right": 1616,
+          "left": 1459,
+          "scrollWidth": 155,
+          "clientWidth": 155
+        }
+      ],
+      "setupHeight": 411.953125
+    }
+  ],
+  "failures": [],
+  "renderedStates": 72
+}

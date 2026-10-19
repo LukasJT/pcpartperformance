@@ -1,0 +1,4560 @@
+{
+  "checkedAt": "2026-10-19T20:19:11.078Z",
+  "scope": "Executed axe-core WCAG A/AA and best-practice checks in isolated Edge, six palettes, mobile/desktop. Automated testing does not certify full WCAG conformance or replace screen-reader and physical-device review.",
+  "reports": [
+    {
+      "route": "/",
+      "palette": "midnight",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "nodes": [
+            [
+              ".lab-hero-stages"
+            ]
+          ]
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "#home-title"
+            ],
+            [
+              ".lab-hero-copy > p:nth-child(2)"
+            ],
+            [
+              ".primary"
+            ],
+            [
+              ".secondary.button[href$=\"upgrade/\"]"
+            ],
+            [
+              ".secondary.button[href$=\"compare/\"]"
+            ],
+            [
+              ".program-help > a[href$=\"build-school/\"]"
+            ],
+            [
+              ".program-help > span"
+            ],
+            [
+              ".program-help > a[href$=\"my-pc/\"]"
+            ],
+            [
+              ".lab-hero-stages > span:nth-child(1)"
+            ],
+            [
+              ".lab-hero-stages > span:nth-child(3)"
+            ],
+            [
+              "span:nth-child(5)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/builder/",
+      "palette": "midnight",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              "#builder-select-trigger-1"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/builder/",
+      "palette": "midnight",
+      "width": 390,
+      "state": "menu",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ]
+          ]
+        },
+        {
+          "id": "skip-link",
+          "nodes": [
+            [
+              ".skip"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/builder/",
+      "palette": "midnight",
+      "width": 390,
+      "state": "PSU picker",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "label-content-name-mismatch",
+          "nodes": [
+            [
+              ".builder-picker-expand"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/performance/",
+      "palette": "midnight",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              "#select-trigger-1"
+            ],
+            [
+              "#select-trigger-2"
+            ],
+            [
+              "#select-trigger-3"
+            ],
+            [
+              "#select-trigger-4"
+            ],
+            [
+              "#select-trigger-5"
+            ],
+            [
+              "#select-trigger-6"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/my-pc/",
+      "palette": "midnight",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "h1"
+            ],
+            [
+              ".my-pc-heading > div:nth-child(2) > p"
+            ],
+            [
+              ".workspace-heading-actions > .primary.button[href$=\"builder/\"]"
+            ],
+            [
+              ".workspace-heading-actions > a[href$=\"upgrade/\"]"
+            ],
+            [
+              "a[href$=\"#workspace-watchlist\"]"
+            ],
+            [
+              "a[href$=\"#workspace-changes\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/tools/monitor-pixel-density/",
+      "palette": "midnight",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "text[y=\"186\"]"
+            ],
+            [
+              "text[y=\"378\"]"
+            ],
+            [
+              "text[x=\"32\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/upgrade/",
+      "palette": "midnight",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              "#select-trigger-1"
+            ],
+            [
+              "#select-trigger-2"
+            ],
+            [
+              "#select-trigger-3"
+            ],
+            [
+              "#select-trigger-4"
+            ],
+            [
+              "#select-trigger-5"
+            ],
+            [
+              "#select-trigger-6"
+            ],
+            [
+              "#select-trigger-7"
+            ],
+            [
+              "#select-trigger-8"
+            ],
+            [
+              "#select-trigger-9"
+            ],
+            [
+              "#select-trigger-10"
+            ],
+            [
+              "#select-trigger-11"
+            ],
+            [
+              "#select-trigger-12"
+            ],
+            [
+              "#select-trigger-13"
+            ],
+            [
+              "#select-trigger-14"
+            ],
+            [
+              "#select-trigger-15"
+            ],
+            [
+              "#select-trigger-16"
+            ],
+            [
+              "#select-trigger-17"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/compare/",
+      "palette": "midnight",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "nodes": [
+            [
+              "#compare-categories"
+            ]
+          ]
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              ".category-menu-chevron"
+            ],
+            [
+              "button[data-replace=\"0\"] > span[aria-hidden=\"true\"]"
+            ],
+            [
+              "button[data-replace=\"1\"] > span[aria-hidden=\"true\"]"
+            ]
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "nodes": [
+            [
+              "button[data-remove=\"rtx5070\"]"
+            ],
+            [
+              "button[data-remove=\"rtx5060ti16\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/hardware/",
+      "palette": "midnight",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              "#select-trigger-1"
+            ],
+            [
+              "#select-trigger-2"
+            ],
+            [
+              "#select-trigger-3"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/learn/rtx5070.html",
+      "palette": "midnight",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/compatibility/",
+      "palette": "midnight",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "nodes": [
+            [
+              ".ui-status-legend"
+            ]
+          ]
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/shop/",
+      "palette": "midnight",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/build-school/",
+      "palette": "midnight",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "h1"
+            ],
+            [
+              ".program-intro > p"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/",
+      "palette": "midnight",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/32gb-vs-64gb-ram-workloads/",
+      "palette": "midnight",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "caption"
+            ],
+            [
+              "tr:nth-child(1) > td:nth-child(3)"
+            ],
+            [
+              "tr:nth-child(2) > td:nth-child(2)"
+            ],
+            [
+              "tr:nth-child(2) > td:nth-child(3)"
+            ],
+            [
+              "tr:nth-child(3) > td:nth-child(3)"
+            ],
+            [
+              "tr:nth-child(4) > td:nth-child(3)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/search/",
+      "palette": "midnight",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/phones/size-compare/",
+      "palette": "midnight",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              "#select-trigger-1"
+            ],
+            [
+              "#select-trigger-2"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/prebuilts/",
+      "palette": "midnight",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              "#select-trigger-1"
+            ],
+            [
+              "#select-trigger-2"
+            ],
+            [
+              "#select-trigger-3"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/laptops/",
+      "palette": "midnight",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/tools/",
+      "palette": "midnight",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/news/",
+      "palette": "midnight",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/performance/consoles/",
+      "palette": "midnight",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/performance/retro/",
+      "palette": "midnight",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "palette": "midnight",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "nodes": [
+            [
+              ".lab-hero-stages"
+            ]
+          ]
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "#home-title"
+            ],
+            [
+              ".lab-hero-copy > p:nth-child(2)"
+            ],
+            [
+              ".primary"
+            ],
+            [
+              ".secondary.button[href$=\"upgrade/\"]"
+            ],
+            [
+              ".secondary.button[href$=\"compare/\"]"
+            ],
+            [
+              ".program-help > a[href$=\"build-school/\"]"
+            ],
+            [
+              ".program-help > span"
+            ],
+            [
+              ".program-help > a[href$=\"my-pc/\"]"
+            ],
+            [
+              "text[x=\"47\"]"
+            ],
+            [
+              "text[x=\"203\"]"
+            ],
+            [
+              "text[x=\"540\"]"
+            ],
+            [
+              "text[x=\"29\"]"
+            ],
+            [
+              ".lab-hero-stages > span:nth-child(1)"
+            ],
+            [
+              ".lab-hero-stages > span:nth-child(3)"
+            ],
+            [
+              "span:nth-child(5)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/builder/",
+      "palette": "midnight",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              "#builder-select-trigger-1"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "a[href$=\"#builder-guidance\"] > span > strong"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/builder/",
+      "palette": "midnight",
+      "width": 1440,
+      "state": "PSU picker",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "route": "/performance/",
+      "palette": "midnight",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              "#select-trigger-1"
+            ],
+            [
+              "#select-trigger-2"
+            ],
+            [
+              "#select-trigger-3"
+            ],
+            [
+              "#select-trigger-4"
+            ],
+            [
+              "#select-trigger-5"
+            ],
+            [
+              "#select-trigger-6"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/my-pc/",
+      "palette": "midnight",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "h1"
+            ],
+            [
+              ".my-pc-heading > div:nth-child(2) > p"
+            ],
+            [
+              ".workspace-heading-actions > .primary.button[href$=\"builder/\"]"
+            ],
+            [
+              ".workspace-heading-actions > a[href$=\"upgrade/\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/tools/monitor-pixel-density/",
+      "palette": "midnight",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "text[y=\"186\"]"
+            ],
+            [
+              "text[y=\"378\"]"
+            ],
+            [
+              "text[x=\"32\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/upgrade/",
+      "palette": "midnight",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              "#select-trigger-1"
+            ],
+            [
+              "#select-trigger-2"
+            ],
+            [
+              "#select-trigger-3"
+            ],
+            [
+              "#select-trigger-4"
+            ],
+            [
+              "#select-trigger-5"
+            ],
+            [
+              "#select-trigger-6"
+            ],
+            [
+              "#select-trigger-7"
+            ],
+            [
+              "#select-trigger-8"
+            ],
+            [
+              "#select-trigger-9"
+            ],
+            [
+              "#select-trigger-10"
+            ],
+            [
+              "#select-trigger-11"
+            ],
+            [
+              "#select-trigger-12"
+            ],
+            [
+              "#select-trigger-13"
+            ],
+            [
+              "#select-trigger-14"
+            ],
+            [
+              "#select-trigger-15"
+            ],
+            [
+              "#select-trigger-16"
+            ],
+            [
+              "#select-trigger-17"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/compare/",
+      "palette": "midnight",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "nodes": [
+            [
+              "#compare-categories"
+            ]
+          ]
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              ".category-menu-chevron"
+            ],
+            [
+              "button[data-replace=\"0\"] > span[aria-hidden=\"true\"]"
+            ],
+            [
+              "button[data-replace=\"1\"] > span[aria-hidden=\"true\"]"
+            ]
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "nodes": [
+            [
+              "button[data-remove=\"rtx5070\"]"
+            ],
+            [
+              "button[data-remove=\"rtx5060ti16\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/hardware/",
+      "palette": "midnight",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              "#select-trigger-1"
+            ],
+            [
+              "#select-trigger-2"
+            ],
+            [
+              "#select-trigger-3"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/learn/rtx5070.html",
+      "palette": "midnight",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/compatibility/",
+      "palette": "midnight",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "nodes": [
+            [
+              ".ui-status-legend"
+            ]
+          ]
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/shop/",
+      "palette": "midnight",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/build-school/",
+      "palette": "midnight",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "h1"
+            ],
+            [
+              ".program-intro > p"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/",
+      "palette": "midnight",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/32gb-vs-64gb-ram-workloads/",
+      "palette": "midnight",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/search/",
+      "palette": "midnight",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/phones/size-compare/",
+      "palette": "midnight",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              "#select-trigger-1"
+            ],
+            [
+              "#select-trigger-2"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/prebuilts/",
+      "palette": "midnight",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              "#select-trigger-1"
+            ],
+            [
+              "#select-trigger-2"
+            ],
+            [
+              "#select-trigger-3"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/laptops/",
+      "palette": "midnight",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/tools/",
+      "palette": "midnight",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/news/",
+      "palette": "midnight",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/performance/consoles/",
+      "palette": "midnight",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/performance/retro/",
+      "palette": "midnight",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "palette": "arctic",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "nodes": [
+            [
+              ".lab-hero-stages"
+            ]
+          ]
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "#home-title"
+            ],
+            [
+              ".lab-hero-copy > p:nth-child(2)"
+            ],
+            [
+              ".primary"
+            ],
+            [
+              ".secondary.button[href$=\"upgrade/\"]"
+            ],
+            [
+              ".secondary.button[href$=\"compare/\"]"
+            ],
+            [
+              ".program-help > a[href$=\"build-school/\"]"
+            ],
+            [
+              ".program-help > span"
+            ],
+            [
+              ".program-help > a[href$=\"my-pc/\"]"
+            ],
+            [
+              ".lab-hero-stages > span:nth-child(1)"
+            ],
+            [
+              ".lab-hero-stages > span:nth-child(3)"
+            ],
+            [
+              "span:nth-child(5)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/builder/",
+      "palette": "arctic",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              "#builder-select-trigger-1"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/builder/",
+      "palette": "arctic",
+      "width": 390,
+      "state": "menu",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ]
+          ]
+        },
+        {
+          "id": "skip-link",
+          "nodes": [
+            [
+              ".skip"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/builder/",
+      "palette": "arctic",
+      "width": 390,
+      "state": "PSU picker",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "label-content-name-mismatch",
+          "nodes": [
+            [
+              ".builder-picker-expand"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/performance/",
+      "palette": "arctic",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              "#select-trigger-1"
+            ],
+            [
+              "#select-trigger-2"
+            ],
+            [
+              "#select-trigger-3"
+            ],
+            [
+              "#select-trigger-4"
+            ],
+            [
+              "#select-trigger-5"
+            ],
+            [
+              "#select-trigger-6"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/my-pc/",
+      "palette": "arctic",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "h1"
+            ],
+            [
+              ".my-pc-heading > div:nth-child(2) > p"
+            ],
+            [
+              ".workspace-heading-actions > .primary.button[href$=\"builder/\"]"
+            ],
+            [
+              ".workspace-heading-actions > a[href$=\"upgrade/\"]"
+            ],
+            [
+              "a[href$=\"#workspace-watchlist\"]"
+            ],
+            [
+              "a[href$=\"#workspace-changes\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/tools/monitor-pixel-density/",
+      "palette": "arctic",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "text[y=\"186\"]"
+            ],
+            [
+              "text[y=\"378\"]"
+            ],
+            [
+              "text[x=\"32\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/upgrade/",
+      "palette": "arctic",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              "#select-trigger-1"
+            ],
+            [
+              "#select-trigger-2"
+            ],
+            [
+              "#select-trigger-3"
+            ],
+            [
+              "#select-trigger-4"
+            ],
+            [
+              "#select-trigger-5"
+            ],
+            [
+              "#select-trigger-6"
+            ],
+            [
+              "#select-trigger-7"
+            ],
+            [
+              "#select-trigger-8"
+            ],
+            [
+              "#select-trigger-9"
+            ],
+            [
+              "#select-trigger-10"
+            ],
+            [
+              "#select-trigger-11"
+            ],
+            [
+              "#select-trigger-12"
+            ],
+            [
+              "#select-trigger-13"
+            ],
+            [
+              "#select-trigger-14"
+            ],
+            [
+              "#select-trigger-15"
+            ],
+            [
+              "#select-trigger-16"
+            ],
+            [
+              "#select-trigger-17"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/compare/",
+      "palette": "arctic",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "nodes": [
+            [
+              "#compare-categories"
+            ]
+          ]
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              ".category-menu-chevron"
+            ],
+            [
+              "button[data-replace=\"0\"] > span[aria-hidden=\"true\"]"
+            ],
+            [
+              "button[data-replace=\"1\"] > span[aria-hidden=\"true\"]"
+            ]
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "nodes": [
+            [
+              "button[data-remove=\"rtx5070\"]"
+            ],
+            [
+              "button[data-remove=\"rtx5060ti16\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/hardware/",
+      "palette": "arctic",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              "#select-trigger-1"
+            ],
+            [
+              "#select-trigger-2"
+            ],
+            [
+              "#select-trigger-3"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/learn/rtx5070.html",
+      "palette": "arctic",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/compatibility/",
+      "palette": "arctic",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "nodes": [
+            [
+              ".ui-status-legend"
+            ]
+          ]
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/shop/",
+      "palette": "arctic",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/build-school/",
+      "palette": "arctic",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "h1"
+            ],
+            [
+              ".program-intro > p"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/",
+      "palette": "arctic",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/32gb-vs-64gb-ram-workloads/",
+      "palette": "arctic",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "caption"
+            ],
+            [
+              "tr:nth-child(1) > td:nth-child(3)"
+            ],
+            [
+              "tr:nth-child(2) > td:nth-child(2)"
+            ],
+            [
+              "tr:nth-child(2) > td:nth-child(3)"
+            ],
+            [
+              "tr:nth-child(3) > td:nth-child(3)"
+            ],
+            [
+              "tr:nth-child(4) > td:nth-child(3)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/search/",
+      "palette": "arctic",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/phones/size-compare/",
+      "palette": "arctic",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              "#select-trigger-1"
+            ],
+            [
+              "#select-trigger-2"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/prebuilts/",
+      "palette": "arctic",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              "#select-trigger-1"
+            ],
+            [
+              "#select-trigger-2"
+            ],
+            [
+              "#select-trigger-3"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/laptops/",
+      "palette": "arctic",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/tools/",
+      "palette": "arctic",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/news/",
+      "palette": "arctic",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/performance/consoles/",
+      "palette": "arctic",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/performance/retro/",
+      "palette": "arctic",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "palette": "arctic",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "nodes": [
+            [
+              ".lab-hero-stages"
+            ]
+          ]
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "#home-title"
+            ],
+            [
+              ".lab-hero-copy > p:nth-child(2)"
+            ],
+            [
+              ".primary"
+            ],
+            [
+              ".secondary.button[href$=\"upgrade/\"]"
+            ],
+            [
+              ".secondary.button[href$=\"compare/\"]"
+            ],
+            [
+              ".program-help > a[href$=\"build-school/\"]"
+            ],
+            [
+              ".program-help > span"
+            ],
+            [
+              ".program-help > a[href$=\"my-pc/\"]"
+            ],
+            [
+              "text[x=\"47\"]"
+            ],
+            [
+              "text[x=\"203\"]"
+            ],
+            [
+              "text[x=\"540\"]"
+            ],
+            [
+              "text[x=\"29\"]"
+            ],
+            [
+              ".lab-hero-stages > span:nth-child(1)"
+            ],
+            [
+              ".lab-hero-stages > span:nth-child(3)"
+            ],
+            [
+              "span:nth-child(5)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/builder/",
+      "palette": "arctic",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              "#builder-select-trigger-1"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "a[href$=\"#builder-guidance\"] > span > strong"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/builder/",
+      "palette": "arctic",
+      "width": 1440,
+      "state": "PSU picker",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "route": "/performance/",
+      "palette": "arctic",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              "#select-trigger-1"
+            ],
+            [
+              "#select-trigger-2"
+            ],
+            [
+              "#select-trigger-3"
+            ],
+            [
+              "#select-trigger-4"
+            ],
+            [
+              "#select-trigger-5"
+            ],
+            [
+              "#select-trigger-6"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/my-pc/",
+      "palette": "arctic",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "h1"
+            ],
+            [
+              ".my-pc-heading > div:nth-child(2) > p"
+            ],
+            [
+              ".workspace-heading-actions > .primary.button[href$=\"builder/\"]"
+            ],
+            [
+              ".workspace-heading-actions > a[href$=\"upgrade/\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/tools/monitor-pixel-density/",
+      "palette": "arctic",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "text[y=\"186\"]"
+            ],
+            [
+              "text[y=\"378\"]"
+            ],
+            [
+              "text[x=\"32\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/upgrade/",
+      "palette": "arctic",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              "#select-trigger-1"
+            ],
+            [
+              "#select-trigger-2"
+            ],
+            [
+              "#select-trigger-3"
+            ],
+            [
+              "#select-trigger-4"
+            ],
+            [
+              "#select-trigger-5"
+            ],
+            [
+              "#select-trigger-6"
+            ],
+            [
+              "#select-trigger-7"
+            ],
+            [
+              "#select-trigger-8"
+            ],
+            [
+              "#select-trigger-9"
+            ],
+            [
+              "#select-trigger-10"
+            ],
+            [
+              "#select-trigger-11"
+            ],
+            [
+              "#select-trigger-12"
+            ],
+            [
+              "#select-trigger-13"
+            ],
+            [
+              "#select-trigger-14"
+            ],
+            [
+              "#select-trigger-15"
+            ],
+            [
+              "#select-trigger-16"
+            ],
+            [
+              "#select-trigger-17"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/compare/",
+      "palette": "arctic",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "nodes": [
+            [
+              "#compare-categories"
+            ]
+          ]
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              ".category-menu-chevron"
+            ],
+            [
+              "button[data-replace=\"0\"] > span[aria-hidden=\"true\"]"
+            ],
+            [
+              "button[data-replace=\"1\"] > span[aria-hidden=\"true\"]"
+            ]
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "nodes": [
+            [
+              "button[data-remove=\"rtx5070\"]"
+            ],
+            [
+              "button[data-remove=\"rtx5060ti16\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/hardware/",
+      "palette": "arctic",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              "#select-trigger-1"
+            ],
+            [
+              "#select-trigger-2"
+            ],
+            [
+              "#select-trigger-3"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/learn/rtx5070.html",
+      "palette": "arctic",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/compatibility/",
+      "palette": "arctic",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "nodes": [
+            [
+              ".ui-status-legend"
+            ]
+          ]
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/shop/",
+      "palette": "arctic",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/build-school/",
+      "palette": "arctic",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "h1"
+            ],
+            [
+              ".program-intro > p"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/",
+      "palette": "arctic",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/32gb-vs-64gb-ram-workloads/",
+      "palette": "arctic",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/search/",
+      "palette": "arctic",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/phones/size-compare/",
+      "palette": "arctic",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              "#select-trigger-1"
+            ],
+            [
+              "#select-trigger-2"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/prebuilts/",
+      "palette": "arctic",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              "#select-trigger-1"
+            ],
+            [
+              "#select-trigger-2"
+            ],
+            [
+              "#select-trigger-3"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/laptops/",
+      "palette": "arctic",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/tools/",
+      "palette": "arctic",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/news/",
+      "palette": "arctic",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/performance/consoles/",
+      "palette": "arctic",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/performance/retro/",
+      "palette": "arctic",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "palette": "solar",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "nodes": [
+            [
+              ".lab-hero-stages"
+            ]
+          ]
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "#home-title"
+            ],
+            [
+              ".lab-hero-copy > p:nth-child(2)"
+            ],
+            [
+              ".primary"
+            ],
+            [
+              ".secondary.button[href$=\"upgrade/\"]"
+            ],
+            [
+              ".secondary.button[href$=\"compare/\"]"
+            ],
+            [
+              ".program-help > a[href$=\"build-school/\"]"
+            ],
+            [
+              ".program-help > span"
+            ],
+            [
+              ".program-help > a[href$=\"my-pc/\"]"
+            ],
+            [
+              ".lab-hero-stages > span:nth-child(1)"
+            ],
+            [
+              ".lab-hero-stages > span:nth-child(3)"
+            ],
+            [
+              "span:nth-child(5)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/builder/",
+      "palette": "solar",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              "#builder-select-trigger-1"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/builder/",
+      "palette": "solar",
+      "width": 390,
+      "state": "menu",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ]
+          ]
+        },
+        {
+          "id": "skip-link",
+          "nodes": [
+            [
+              ".skip"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/builder/",
+      "palette": "solar",
+      "width": 390,
+      "state": "PSU picker",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "label-content-name-mismatch",
+          "nodes": [
+            [
+              ".builder-picker-expand"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/performance/",
+      "palette": "solar",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              "#select-trigger-1"
+            ],
+            [
+              "#select-trigger-2"
+            ],
+            [
+              "#select-trigger-3"
+            ],
+            [
+              "#select-trigger-4"
+            ],
+            [
+              "#select-trigger-5"
+            ],
+            [
+              "#select-trigger-6"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/my-pc/",
+      "palette": "solar",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "h1"
+            ],
+            [
+              ".my-pc-heading > div:nth-child(2) > p"
+            ],
+            [
+              ".workspace-heading-actions > .primary.button[href$=\"builder/\"]"
+            ],
+            [
+              ".workspace-heading-actions > a[href$=\"upgrade/\"]"
+            ],
+            [
+              "a[href$=\"#workspace-watchlist\"]"
+            ],
+            [
+              "a[href$=\"#workspace-changes\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/tools/monitor-pixel-density/",
+      "palette": "solar",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "text[y=\"186\"]"
+            ],
+            [
+              "text[y=\"378\"]"
+            ],
+            [
+              "text[x=\"32\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "palette": "solar",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "nodes": [
+            [
+              ".lab-hero-stages"
+            ]
+          ]
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "#home-title"
+            ],
+            [
+              ".lab-hero-copy > p:nth-child(2)"
+            ],
+            [
+              ".primary"
+            ],
+            [
+              ".secondary.button[href$=\"upgrade/\"]"
+            ],
+            [
+              ".secondary.button[href$=\"compare/\"]"
+            ],
+            [
+              ".program-help > a[href$=\"build-school/\"]"
+            ],
+            [
+              ".program-help > span"
+            ],
+            [
+              ".program-help > a[href$=\"my-pc/\"]"
+            ],
+            [
+              "text[x=\"47\"]"
+            ],
+            [
+              "text[x=\"203\"]"
+            ],
+            [
+              "text[x=\"540\"]"
+            ],
+            [
+              "text[x=\"29\"]"
+            ],
+            [
+              ".lab-hero-stages > span:nth-child(1)"
+            ],
+            [
+              ".lab-hero-stages > span:nth-child(3)"
+            ],
+            [
+              "span:nth-child(5)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/builder/",
+      "palette": "solar",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              "#builder-select-trigger-1"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "a[href$=\"#builder-guidance\"] > span > strong"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/builder/",
+      "palette": "solar",
+      "width": 1440,
+      "state": "PSU picker",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "route": "/performance/",
+      "palette": "solar",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              "#select-trigger-1"
+            ],
+            [
+              "#select-trigger-2"
+            ],
+            [
+              "#select-trigger-3"
+            ],
+            [
+              "#select-trigger-4"
+            ],
+            [
+              "#select-trigger-5"
+            ],
+            [
+              "#select-trigger-6"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/my-pc/",
+      "palette": "solar",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "h1"
+            ],
+            [
+              ".my-pc-heading > div:nth-child(2) > p"
+            ],
+            [
+              ".workspace-heading-actions > .primary.button[href$=\"builder/\"]"
+            ],
+            [
+              ".workspace-heading-actions > a[href$=\"upgrade/\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/tools/monitor-pixel-density/",
+      "palette": "solar",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "text[y=\"186\"]"
+            ],
+            [
+              "text[y=\"378\"]"
+            ],
+            [
+              "text[x=\"32\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "palette": "aurora",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "nodes": [
+            [
+              ".lab-hero-stages"
+            ]
+          ]
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "#home-title"
+            ],
+            [
+              ".lab-hero-copy > p:nth-child(2)"
+            ],
+            [
+              ".primary"
+            ],
+            [
+              ".secondary.button[href$=\"upgrade/\"]"
+            ],
+            [
+              ".secondary.button[href$=\"compare/\"]"
+            ],
+            [
+              ".program-help > a[href$=\"build-school/\"]"
+            ],
+            [
+              ".program-help > span"
+            ],
+            [
+              ".program-help > a[href$=\"my-pc/\"]"
+            ],
+            [
+              ".lab-hero-stages > span:nth-child(1)"
+            ],
+            [
+              ".lab-hero-stages > span:nth-child(3)"
+            ],
+            [
+              "span:nth-child(5)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/builder/",
+      "palette": "aurora",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              "#builder-select-trigger-1"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/builder/",
+      "palette": "aurora",
+      "width": 390,
+      "state": "menu",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ]
+          ]
+        },
+        {
+          "id": "skip-link",
+          "nodes": [
+            [
+              ".skip"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/builder/",
+      "palette": "aurora",
+      "width": 390,
+      "state": "PSU picker",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "label-content-name-mismatch",
+          "nodes": [
+            [
+              ".builder-picker-expand"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/performance/",
+      "palette": "aurora",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              "#select-trigger-1"
+            ],
+            [
+              "#select-trigger-2"
+            ],
+            [
+              "#select-trigger-3"
+            ],
+            [
+              "#select-trigger-4"
+            ],
+            [
+              "#select-trigger-5"
+            ],
+            [
+              "#select-trigger-6"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/my-pc/",
+      "palette": "aurora",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "h1"
+            ],
+            [
+              ".my-pc-heading > div:nth-child(2) > p"
+            ],
+            [
+              ".workspace-heading-actions > .primary.button[href$=\"builder/\"]"
+            ],
+            [
+              ".workspace-heading-actions > a[href$=\"upgrade/\"]"
+            ],
+            [
+              "a[href$=\"#workspace-watchlist\"]"
+            ],
+            [
+              "a[href$=\"#workspace-changes\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/tools/monitor-pixel-density/",
+      "palette": "aurora",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "text[y=\"186\"]"
+            ],
+            [
+              "text[y=\"378\"]"
+            ],
+            [
+              "text[x=\"32\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "palette": "aurora",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "nodes": [
+            [
+              ".lab-hero-stages"
+            ]
+          ]
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "#home-title"
+            ],
+            [
+              ".lab-hero-copy > p:nth-child(2)"
+            ],
+            [
+              ".primary"
+            ],
+            [
+              ".secondary.button[href$=\"upgrade/\"]"
+            ],
+            [
+              ".secondary.button[href$=\"compare/\"]"
+            ],
+            [
+              ".program-help > a[href$=\"build-school/\"]"
+            ],
+            [
+              ".program-help > span"
+            ],
+            [
+              ".program-help > a[href$=\"my-pc/\"]"
+            ],
+            [
+              "text[x=\"47\"]"
+            ],
+            [
+              "text[x=\"203\"]"
+            ],
+            [
+              "text[x=\"540\"]"
+            ],
+            [
+              "text[x=\"29\"]"
+            ],
+            [
+              ".lab-hero-stages > span:nth-child(1)"
+            ],
+            [
+              ".lab-hero-stages > span:nth-child(3)"
+            ],
+            [
+              "span:nth-child(5)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/builder/",
+      "palette": "aurora",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              "#builder-select-trigger-1"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "a[href$=\"#builder-guidance\"] > span > strong"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/builder/",
+      "palette": "aurora",
+      "width": 1440,
+      "state": "PSU picker",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "route": "/performance/",
+      "palette": "aurora",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              "#select-trigger-1"
+            ],
+            [
+              "#select-trigger-2"
+            ],
+            [
+              "#select-trigger-3"
+            ],
+            [
+              "#select-trigger-4"
+            ],
+            [
+              "#select-trigger-5"
+            ],
+            [
+              "#select-trigger-6"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/my-pc/",
+      "palette": "aurora",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "h1"
+            ],
+            [
+              ".my-pc-heading > div:nth-child(2) > p"
+            ],
+            [
+              ".workspace-heading-actions > .primary.button[href$=\"builder/\"]"
+            ],
+            [
+              ".workspace-heading-actions > a[href$=\"upgrade/\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/tools/monitor-pixel-density/",
+      "palette": "aurora",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "text[y=\"186\"]"
+            ],
+            [
+              "text[y=\"378\"]"
+            ],
+            [
+              "text[x=\"32\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "palette": "neon",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "nodes": [
+            [
+              ".lab-hero-stages"
+            ]
+          ]
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "#home-title"
+            ],
+            [
+              ".lab-hero-copy > p:nth-child(2)"
+            ],
+            [
+              ".primary"
+            ],
+            [
+              ".secondary.button[href$=\"upgrade/\"]"
+            ],
+            [
+              ".secondary.button[href$=\"compare/\"]"
+            ],
+            [
+              ".program-help > a[href$=\"build-school/\"]"
+            ],
+            [
+              ".program-help > span"
+            ],
+            [
+              ".program-help > a[href$=\"my-pc/\"]"
+            ],
+            [
+              ".lab-hero-stages > span:nth-child(1)"
+            ],
+            [
+              ".lab-hero-stages > span:nth-child(3)"
+            ],
+            [
+              "span:nth-child(5)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/builder/",
+      "palette": "neon",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              "#builder-select-trigger-1"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/builder/",
+      "palette": "neon",
+      "width": 390,
+      "state": "menu",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ]
+          ]
+        },
+        {
+          "id": "skip-link",
+          "nodes": [
+            [
+              ".skip"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/builder/",
+      "palette": "neon",
+      "width": 390,
+      "state": "PSU picker",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "label-content-name-mismatch",
+          "nodes": [
+            [
+              ".builder-picker-expand"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/performance/",
+      "palette": "neon",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              "#select-trigger-1"
+            ],
+            [
+              "#select-trigger-2"
+            ],
+            [
+              "#select-trigger-3"
+            ],
+            [
+              "#select-trigger-4"
+            ],
+            [
+              "#select-trigger-5"
+            ],
+            [
+              "#select-trigger-6"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/my-pc/",
+      "palette": "neon",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "h1"
+            ],
+            [
+              ".my-pc-heading > div:nth-child(2) > p"
+            ],
+            [
+              ".workspace-heading-actions > .primary.button[href$=\"builder/\"]"
+            ],
+            [
+              ".workspace-heading-actions > a[href$=\"upgrade/\"]"
+            ],
+            [
+              "a[href$=\"#workspace-watchlist\"]"
+            ],
+            [
+              "a[href$=\"#workspace-changes\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/tools/monitor-pixel-density/",
+      "palette": "neon",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "text[y=\"186\"]"
+            ],
+            [
+              "text[y=\"378\"]"
+            ],
+            [
+              "text[x=\"32\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "palette": "neon",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "nodes": [
+            [
+              ".lab-hero-stages"
+            ]
+          ]
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "#home-title"
+            ],
+            [
+              ".lab-hero-copy > p:nth-child(2)"
+            ],
+            [
+              ".primary"
+            ],
+            [
+              ".secondary.button[href$=\"upgrade/\"]"
+            ],
+            [
+              ".secondary.button[href$=\"compare/\"]"
+            ],
+            [
+              ".program-help > a[href$=\"build-school/\"]"
+            ],
+            [
+              ".program-help > span"
+            ],
+            [
+              ".program-help > a[href$=\"my-pc/\"]"
+            ],
+            [
+              "text[x=\"47\"]"
+            ],
+            [
+              "text[x=\"203\"]"
+            ],
+            [
+              "text[x=\"540\"]"
+            ],
+            [
+              "text[x=\"29\"]"
+            ],
+            [
+              ".lab-hero-stages > span:nth-child(1)"
+            ],
+            [
+              ".lab-hero-stages > span:nth-child(3)"
+            ],
+            [
+              "span:nth-child(5)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/builder/",
+      "palette": "neon",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              "#builder-select-trigger-1"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "a[href$=\"#builder-guidance\"] > span > strong"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/builder/",
+      "palette": "neon",
+      "width": 1440,
+      "state": "PSU picker",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "route": "/performance/",
+      "palette": "neon",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              "#select-trigger-1"
+            ],
+            [
+              "#select-trigger-2"
+            ],
+            [
+              "#select-trigger-3"
+            ],
+            [
+              "#select-trigger-4"
+            ],
+            [
+              "#select-trigger-5"
+            ],
+            [
+              "#select-trigger-6"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/my-pc/",
+      "palette": "neon",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "h1"
+            ],
+            [
+              ".my-pc-heading > div:nth-child(2) > p"
+            ],
+            [
+              ".workspace-heading-actions > .primary.button[href$=\"builder/\"]"
+            ],
+            [
+              ".workspace-heading-actions > a[href$=\"upgrade/\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/tools/monitor-pixel-density/",
+      "palette": "neon",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "text[y=\"186\"]"
+            ],
+            [
+              "text[y=\"378\"]"
+            ],
+            [
+              "text[x=\"32\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "palette": "paper",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "nodes": [
+            [
+              ".lab-hero-stages"
+            ]
+          ]
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "#home-title"
+            ],
+            [
+              ".lab-hero-copy > p:nth-child(2)"
+            ],
+            [
+              ".primary"
+            ],
+            [
+              ".secondary.button[href$=\"upgrade/\"]"
+            ],
+            [
+              ".secondary.button[href$=\"compare/\"]"
+            ],
+            [
+              ".program-help > a[href$=\"build-school/\"]"
+            ],
+            [
+              ".program-help > span"
+            ],
+            [
+              ".program-help > a[href$=\"my-pc/\"]"
+            ],
+            [
+              ".lab-hero-stages > span:nth-child(1)"
+            ],
+            [
+              ".lab-hero-stages > span:nth-child(3)"
+            ],
+            [
+              "span:nth-child(5)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/builder/",
+      "palette": "paper",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              "#builder-select-trigger-1"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/builder/",
+      "palette": "paper",
+      "width": 390,
+      "state": "menu",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ]
+          ]
+        },
+        {
+          "id": "skip-link",
+          "nodes": [
+            [
+              ".skip"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/builder/",
+      "palette": "paper",
+      "width": 390,
+      "state": "PSU picker",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "label-content-name-mismatch",
+          "nodes": [
+            [
+              ".builder-picker-expand"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/performance/",
+      "palette": "paper",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              "#select-trigger-1"
+            ],
+            [
+              "#select-trigger-2"
+            ],
+            [
+              "#select-trigger-3"
+            ],
+            [
+              "#select-trigger-4"
+            ],
+            [
+              "#select-trigger-5"
+            ],
+            [
+              "#select-trigger-6"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/my-pc/",
+      "palette": "paper",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "h1"
+            ],
+            [
+              ".my-pc-heading > div:nth-child(2) > p"
+            ],
+            [
+              ".workspace-heading-actions > .primary.button[href$=\"builder/\"]"
+            ],
+            [
+              ".workspace-heading-actions > a[href$=\"upgrade/\"]"
+            ],
+            [
+              "a[href$=\"#workspace-watchlist\"]"
+            ],
+            [
+              "a[href$=\"#workspace-changes\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/tools/monitor-pixel-density/",
+      "palette": "paper",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "text[y=\"186\"]"
+            ],
+            [
+              "text[y=\"378\"]"
+            ],
+            [
+              "text[x=\"32\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "palette": "paper",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "nodes": [
+            [
+              ".lab-hero-stages"
+            ]
+          ]
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "#home-title"
+            ],
+            [
+              ".lab-hero-copy > p:nth-child(2)"
+            ],
+            [
+              ".primary"
+            ],
+            [
+              ".secondary.button[href$=\"upgrade/\"]"
+            ],
+            [
+              ".secondary.button[href$=\"compare/\"]"
+            ],
+            [
+              ".program-help > a[href$=\"build-school/\"]"
+            ],
+            [
+              ".program-help > span"
+            ],
+            [
+              ".program-help > a[href$=\"my-pc/\"]"
+            ],
+            [
+              "text[x=\"47\"]"
+            ],
+            [
+              "text[x=\"203\"]"
+            ],
+            [
+              "text[x=\"540\"]"
+            ],
+            [
+              "text[x=\"29\"]"
+            ],
+            [
+              ".lab-hero-stages > span:nth-child(1)"
+            ],
+            [
+              ".lab-hero-stages > span:nth-child(3)"
+            ],
+            [
+              "span:nth-child(5)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/builder/",
+      "palette": "paper",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              "#builder-select-trigger-1"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "a[href$=\"#builder-guidance\"] > span > strong"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/builder/",
+      "palette": "paper",
+      "width": 1440,
+      "state": "PSU picker",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "route": "/performance/",
+      "palette": "paper",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              "#select-trigger-1"
+            ],
+            [
+              "#select-trigger-2"
+            ],
+            [
+              "#select-trigger-3"
+            ],
+            [
+              "#select-trigger-4"
+            ],
+            [
+              "#select-trigger-5"
+            ],
+            [
+              "#select-trigger-6"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/my-pc/",
+      "palette": "paper",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "h1"
+            ],
+            [
+              ".my-pc-heading > div:nth-child(2) > p"
+            ],
+            [
+              ".workspace-heading-actions > .primary.button[href$=\"builder/\"]"
+            ],
+            [
+              ".workspace-heading-actions > a[href$=\"upgrade/\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/tools/monitor-pixel-density/",
+      "palette": "paper",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": [
+            [
+              ".lab-appearance-open"
+            ],
+            [
+              ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "text[y=\"186\"]"
+            ],
+            [
+              "text[y=\"378\"]"
+            ],
+            [
+              "text[x=\"32\"]"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

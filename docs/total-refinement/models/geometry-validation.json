@@ -1,0 +1,851 @@
+{
+  "checkedAt": "2026-10-19T20:04:46.999Z",
+  "method": "GLB2 self-contained geometry, reproducible hashes and actual reachable scene bounds, compared with manufacturer dimension evidence. No exact appearance or physical fit certification.",
+  "models": 20,
+  "bytes": 119148,
+  "externalAssetsAdded": 0,
+  "downloadedModelsAdded": 0,
+  "clearanceVerifiedAdded": 0,
+  "records": [
+    {
+      "id": "total-gpu-msi-geforce-gtx-950-gaming-2g",
+      "name": "GeForce GTX 950 GAMING 2G",
+      "category": "gpu",
+      "asset": "total-envelope-total-gpu-msi-geforce-gtx-950-gaming-2g.glb",
+      "status": "approximate",
+      "appearance": "original-dimension-envelope",
+      "dimensionsMm": [
+        270,
+        37,
+        137
+      ],
+      "axisOrder": [
+        "length",
+        "thickness",
+        "height"
+      ],
+      "source": "https://www.msi.com/Graphics-Card/GTX-950-GAMING-2G/Specification",
+      "sourceId": "msi-gtx-950-gaming-2g",
+      "publisher": "MSI",
+      "reviewedAt": "2026-10-19",
+      "evidenceSHA256": "7452055f4c5fbd7b77dd5533052f479cfd56cef73abdd32ee63aae104c67d0d8",
+      "manufacturerPartNumber": null,
+      "revision": null,
+      "rights": "Original measurement geometry authored for PC Part Performance from published factual dimensions. No manufacturer CAD, textures, photographs or third-party mesh redistributed.",
+      "limitations": "Outer dimensions only. Surface shape, fan layout, mounting, bracket, power connector and cable clearances are not modeled or certified.",
+      "bytes": 6068,
+      "sha256": "d05b6c92b8055378e4c42bff5a7468060536907ab1d455920a9aecc9f543570d",
+      "geometry": {
+        "bytes": 6068,
+        "sha256": "d05b6c92b8055378e4c42bff5a7468060536907ab1d455920a9aecc9f543570d",
+        "meshes": 21,
+        "triangles": 252,
+        "textures": 0,
+        "sourceBounds": [
+          0.27,
+          0.037,
+          0.137
+        ],
+        "animations": 0
+      }
+    },
+    {
+      "id": "total-gpu-msi-geforce-gtx-960-gaming-2g",
+      "name": "GeForce GTX 960 GAMING 2G",
+      "category": "gpu",
+      "asset": "total-envelope-total-gpu-msi-geforce-gtx-960-gaming-2g.glb",
+      "status": "approximate",
+      "appearance": "original-dimension-envelope",
+      "dimensionsMm": [
+        267,
+        36,
+        139
+      ],
+      "axisOrder": [
+        "length",
+        "thickness",
+        "height"
+      ],
+      "source": "https://www.msi.com/Graphics-Card/GTX-960-GAMING-2G/Specification",
+      "sourceId": "msi-gtx-960-gaming-2g",
+      "publisher": "MSI",
+      "reviewedAt": "2026-10-19",
+      "evidenceSHA256": "975f9bcf0477f529a80197d0b8c59cb755cd4f5c5a60e51fdfc3b9513f252eda",
+      "manufacturerPartNumber": null,
+      "revision": null,
+      "rights": "Original measurement geometry authored for PC Part Performance from published factual dimensions. No manufacturer CAD, textures, photographs or third-party mesh redistributed.",
+      "limitations": "Outer dimensions only. Surface shape, fan layout, mounting, bracket, power connector and cable clearances are not modeled or certified.",
+      "bytes": 6076,
+      "sha256": "5eaa0d354431f7281ec1b9218ee4cf2031a6d884c4ee298711bc343fb56d4cd0",
+      "geometry": {
+        "bytes": 6076,
+        "sha256": "5eaa0d354431f7281ec1b9218ee4cf2031a6d884c4ee298711bc343fb56d4cd0",
+        "meshes": 21,
+        "triangles": 252,
+        "textures": 0,
+        "sourceBounds": [
+          0.267,
+          0.036,
+          0.139
+        ],
+        "animations": 0
+      }
+    },
+    {
+      "id": "total-gpu-msi-geforce-gtx-960-gaming-4g",
+      "name": "GeForce GTX 960 GAMING 4G",
+      "category": "gpu",
+      "asset": "total-envelope-total-gpu-msi-geforce-gtx-960-gaming-4g.glb",
+      "status": "approximate",
+      "appearance": "original-dimension-envelope",
+      "dimensionsMm": [
+        267,
+        40,
+        139
+      ],
+      "axisOrder": [
+        "length",
+        "thickness",
+        "height"
+      ],
+      "source": "https://www.msi.com/Graphics-Card/GTX-960-GAMING-4G/Specification",
+      "sourceId": "msi-gtx-960-gaming-4g",
+      "publisher": "MSI",
+      "reviewedAt": "2026-10-19",
+      "evidenceSHA256": "bc522893712bf7ea1e475cd12a476405ab861cdfe8fb1140948dd0b652e9e391",
+      "manufacturerPartNumber": null,
+      "revision": null,
+      "rights": "Original measurement geometry authored for PC Part Performance from published factual dimensions. No manufacturer CAD, textures, photographs or third-party mesh redistributed.",
+      "limitations": "Outer dimensions only. Surface shape, fan layout, mounting, bracket, power connector and cable clearances are not modeled or certified.",
+      "bytes": 5956,
+      "sha256": "1cb5a372ffb327f244bb9b18f88098b1c34de102b2f9b616b4b50a59ea716388",
+      "geometry": {
+        "bytes": 5956,
+        "sha256": "1cb5a372ffb327f244bb9b18f88098b1c34de102b2f9b616b4b50a59ea716388",
+        "meshes": 21,
+        "triangles": 252,
+        "textures": 0,
+        "sourceBounds": [
+          0.267,
+          0.04,
+          0.139
+        ],
+        "animations": 0
+      }
+    },
+    {
+      "id": "total-gpu-msi-geforce-gtx-970-gaming-4g",
+      "name": "GeForce GTX 970 GAMING 4G",
+      "category": "gpu",
+      "asset": "total-envelope-total-gpu-msi-geforce-gtx-970-gaming-4g.glb",
+      "status": "approximate",
+      "appearance": "original-dimension-envelope",
+      "dimensionsMm": [
+        277,
+        35,
+        140
+      ],
+      "axisOrder": [
+        "length",
+        "thickness",
+        "height"
+      ],
+      "source": "https://www.msi.com/Graphics-Card/GTX-970-GAMING-4G/Specification",
+      "sourceId": "msi-gtx-970-gaming-4g",
+      "publisher": "MSI",
+      "reviewedAt": "2026-10-19",
+      "evidenceSHA256": "e1c03f1fdece04f4a066a5fac631b18154497cc29bda848626771b1900c7c207",
+      "manufacturerPartNumber": null,
+      "revision": null,
+      "rights": "Original measurement geometry authored for PC Part Performance from published factual dimensions. No manufacturer CAD, textures, photographs or third-party mesh redistributed.",
+      "limitations": "Outer dimensions only. Surface shape, fan layout, mounting, bracket, power connector and cable clearances are not modeled or certified.",
+      "bytes": 5956,
+      "sha256": "54ebebaf7a1b86e6fce279a1f445473f03a02850acb5df8d30a1ca2ba6565116",
+      "geometry": {
+        "bytes": 5956,
+        "sha256": "54ebebaf7a1b86e6fce279a1f445473f03a02850acb5df8d30a1ca2ba6565116",
+        "meshes": 21,
+        "triangles": 252,
+        "textures": 0,
+        "sourceBounds": [
+          0.277,
+          0.035,
+          0.14
+        ],
+        "animations": 0
+      }
+    },
+    {
+      "id": "total-gpu-msi-geforce-gtx-980-gaming-4g",
+      "name": "GeForce GTX 980 GAMING 4G",
+      "category": "gpu",
+      "asset": "total-envelope-total-gpu-msi-geforce-gtx-980-gaming-4g.glb",
+      "status": "approximate",
+      "appearance": "original-dimension-envelope",
+      "dimensionsMm": [
+        279,
+        36,
+        140
+      ],
+      "axisOrder": [
+        "length",
+        "thickness",
+        "height"
+      ],
+      "source": "https://www.msi.com/Graphics-Card/GTX-980-GAMING-4G/Specification",
+      "sourceId": "msi-gtx-980-gaming-4g",
+      "publisher": "MSI",
+      "reviewedAt": "2026-10-19",
+      "evidenceSHA256": "334495c668f67c42a10b2ff681ca08156d0a7cc8e151cbe2ce062b88bd8455a9",
+      "manufacturerPartNumber": null,
+      "revision": null,
+      "rights": "Original measurement geometry authored for PC Part Performance from published factual dimensions. No manufacturer CAD, textures, photographs or third-party mesh redistributed.",
+      "limitations": "Outer dimensions only. Surface shape, fan layout, mounting, bracket, power connector and cable clearances are not modeled or certified.",
+      "bytes": 6068,
+      "sha256": "1bb364170a6c5fbc8cd3bd3b964c4982edbd089762ed7eaabeeddd2c0756a3e2",
+      "geometry": {
+        "bytes": 6068,
+        "sha256": "1bb364170a6c5fbc8cd3bd3b964c4982edbd089762ed7eaabeeddd2c0756a3e2",
+        "meshes": 21,
+        "triangles": 252,
+        "textures": 0,
+        "sourceBounds": [
+          0.279,
+          0.036,
+          0.14
+        ],
+        "animations": 0
+      }
+    },
+    {
+      "id": "total-gpu-msi-geforce-gtx-980-ti-gaming-6g",
+      "name": "GeForce GTX 980 Ti GAMING 6G",
+      "category": "gpu",
+      "asset": "total-envelope-total-gpu-msi-geforce-gtx-980-ti-gaming-6g.glb",
+      "status": "approximate",
+      "appearance": "original-dimension-envelope",
+      "dimensionsMm": [
+        277,
+        40,
+        140
+      ],
+      "axisOrder": [
+        "length",
+        "thickness",
+        "height"
+      ],
+      "source": "https://www.msi.com/Graphics-Card/GTX-980-Ti-GAMING-6G/Specification",
+      "sourceId": "msi-gtx-980-ti-gaming-6g",
+      "publisher": "MSI",
+      "reviewedAt": "2026-10-19",
+      "evidenceSHA256": "d2841e5a4dde28e916861878a40fc6026c647b0d2082bea1718da18bccadc061",
+      "manufacturerPartNumber": null,
+      "revision": null,
+      "rights": "Original measurement geometry authored for PC Part Performance from published factual dimensions. No manufacturer CAD, textures, photographs or third-party mesh redistributed.",
+      "limitations": "Outer dimensions only. Surface shape, fan layout, mounting, bracket, power connector and cable clearances are not modeled or certified.",
+      "bytes": 5964,
+      "sha256": "c9658e09929a6e88c0d29a250cadbce6d3b1db68905141cb8703c31f6eaf7991",
+      "geometry": {
+        "bytes": 5964,
+        "sha256": "c9658e09929a6e88c0d29a250cadbce6d3b1db68905141cb8703c31f6eaf7991",
+        "meshes": 21,
+        "triangles": 252,
+        "textures": 0,
+        "sourceBounds": [
+          0.277,
+          0.04,
+          0.14
+        ],
+        "animations": 0
+      }
+    },
+    {
+      "id": "total-gpu-msi-geforce-gtx-1050-gaming-x-2g",
+      "name": "GeForce GTX 1050 GAMING X 2G",
+      "category": "gpu",
+      "asset": "total-envelope-total-gpu-msi-geforce-gtx-1050-gaming-x-2g.glb",
+      "status": "approximate",
+      "appearance": "original-dimension-envelope",
+      "dimensionsMm": [
+        229,
+        39,
+        131
+      ],
+      "axisOrder": [
+        "length",
+        "thickness",
+        "height"
+      ],
+      "source": "https://www.msi.com/Graphics-Card/GeForce-GTX-1050-GAMING-X-2G/Specification",
+      "sourceId": "msi-geforce-gtx-1050-gaming-x-2g",
+      "publisher": "MSI",
+      "reviewedAt": "2026-10-19",
+      "evidenceSHA256": "89ef311fa3c006b60575e085f13eaf7582b2b8d23c4f9e81f3988b401aec1a08",
+      "manufacturerPartNumber": null,
+      "revision": null,
+      "rights": "Original measurement geometry authored for PC Part Performance from published factual dimensions. No manufacturer CAD, textures, photographs or third-party mesh redistributed.",
+      "limitations": "Outer dimensions only. Surface shape, fan layout, mounting, bracket, power connector and cable clearances are not modeled or certified.",
+      "bytes": 5800,
+      "sha256": "de7eb7383076361ee2d7549bcf4c0d47eb3180598ed40aaa116c9f5047eb48a6",
+      "geometry": {
+        "bytes": 5800,
+        "sha256": "de7eb7383076361ee2d7549bcf4c0d47eb3180598ed40aaa116c9f5047eb48a6",
+        "meshes": 21,
+        "triangles": 252,
+        "textures": 0,
+        "sourceBounds": [
+          0.229,
+          0.039,
+          0.131
+        ],
+        "animations": 0
+      }
+    },
+    {
+      "id": "total-gpu-msi-geforce-gtx-1050-ti-gaming-x-4g",
+      "name": "GeForce GTX 1050 Ti GAMING X 4G",
+      "category": "gpu",
+      "asset": "total-envelope-total-gpu-msi-geforce-gtx-1050-ti-gaming-x-4g.glb",
+      "status": "approximate",
+      "appearance": "original-dimension-envelope",
+      "dimensionsMm": [
+        229,
+        39,
+        131
+      ],
+      "axisOrder": [
+        "length",
+        "thickness",
+        "height"
+      ],
+      "source": "https://www.msi.com/Graphics-Card/GeForce-GTX-1050-Ti-GAMING-X-4G/Specification",
+      "sourceId": "msi-geforce-gtx-1050-ti-gaming-x-4g",
+      "publisher": "MSI",
+      "reviewedAt": "2026-10-19",
+      "evidenceSHA256": "1bf8f55cae5ce2a05a880d54fc82a156ab1f3ce30c021a1b0714e7931b6a6eb7",
+      "manufacturerPartNumber": null,
+      "revision": null,
+      "rights": "Original measurement geometry authored for PC Part Performance from published factual dimensions. No manufacturer CAD, textures, photographs or third-party mesh redistributed.",
+      "limitations": "Outer dimensions only. Surface shape, fan layout, mounting, bracket, power connector and cable clearances are not modeled or certified.",
+      "bytes": 5812,
+      "sha256": "8415406d7b06c361f904df2f3a8cf9b2a732349fc8e0d0f0601465fe2cc0b4df",
+      "geometry": {
+        "bytes": 5812,
+        "sha256": "8415406d7b06c361f904df2f3a8cf9b2a732349fc8e0d0f0601465fe2cc0b4df",
+        "meshes": 21,
+        "triangles": 252,
+        "textures": 0,
+        "sourceBounds": [
+          0.229,
+          0.039,
+          0.131
+        ],
+        "animations": 0
+      }
+    },
+    {
+      "id": "total-gpu-msi-geforce-gtx-1060-gaming-x-3g",
+      "name": "GeForce GTX 1060 GAMING X 3G",
+      "category": "gpu",
+      "asset": "total-envelope-total-gpu-msi-geforce-gtx-1060-gaming-x-3g.glb",
+      "status": "approximate",
+      "appearance": "original-dimension-envelope",
+      "dimensionsMm": [
+        277,
+        39,
+        140
+      ],
+      "axisOrder": [
+        "length",
+        "thickness",
+        "height"
+      ],
+      "source": "https://www.msi.com/Graphics-Card/GeForce-GTX-1060-GAMING-X-3G/Specification",
+      "sourceId": "msi-geforce-gtx-1060-gaming-x-3g",
+      "publisher": "MSI",
+      "reviewedAt": "2026-10-19",
+      "evidenceSHA256": "d831facf68efbf397ec54b0a35b0bf44ccee4f28a13edd570c9e220f6da13a75",
+      "manufacturerPartNumber": null,
+      "revision": null,
+      "rights": "Original measurement geometry authored for PC Part Performance from published factual dimensions. No manufacturer CAD, textures, photographs or third-party mesh redistributed.",
+      "limitations": "Outer dimensions only. Surface shape, fan layout, mounting, bracket, power connector and cable clearances are not modeled or certified.",
+      "bytes": 5984,
+      "sha256": "112d72390f6daa7ec743598e54d4aed95de6e1729291edd25d36058fcc0952f1",
+      "geometry": {
+        "bytes": 5984,
+        "sha256": "112d72390f6daa7ec743598e54d4aed95de6e1729291edd25d36058fcc0952f1",
+        "meshes": 21,
+        "triangles": 252,
+        "textures": 0,
+        "sourceBounds": [
+          0.277,
+          0.039,
+          0.14
+        ],
+        "animations": 0
+      }
+    },
+    {
+      "id": "total-gpu-msi-geforce-gtx-1060-gaming-x-6g",
+      "name": "GeForce GTX 1060 GAMING X 6G",
+      "category": "gpu",
+      "asset": "total-envelope-total-gpu-msi-geforce-gtx-1060-gaming-x-6g.glb",
+      "status": "approximate",
+      "appearance": "original-dimension-envelope",
+      "dimensionsMm": [
+        277,
+        39,
+        140
+      ],
+      "axisOrder": [
+        "length",
+        "thickness",
+        "height"
+      ],
+      "source": "https://www.msi.com/Graphics-Card/GeForce-GTX-1060-GAMING-X-6G/Specification",
+      "sourceId": "msi-geforce-gtx-1060-gaming-x-6g",
+      "publisher": "MSI",
+      "reviewedAt": "2026-10-19",
+      "evidenceSHA256": "f411d15003d6d81fbfec57cd8a55db4584d3bb0cf037bc01a98be692b1841862",
+      "manufacturerPartNumber": null,
+      "revision": null,
+      "rights": "Original measurement geometry authored for PC Part Performance from published factual dimensions. No manufacturer CAD, textures, photographs or third-party mesh redistributed.",
+      "limitations": "Outer dimensions only. Surface shape, fan layout, mounting, bracket, power connector and cable clearances are not modeled or certified.",
+      "bytes": 5984,
+      "sha256": "65fdb444703244e416af486bb41d057cd27a67ba6be471410a4156fea79c8299",
+      "geometry": {
+        "bytes": 5984,
+        "sha256": "65fdb444703244e416af486bb41d057cd27a67ba6be471410a4156fea79c8299",
+        "meshes": 21,
+        "triangles": 252,
+        "textures": 0,
+        "sourceBounds": [
+          0.277,
+          0.039,
+          0.14
+        ],
+        "animations": 0
+      }
+    },
+    {
+      "id": "total-gpu-msi-geforce-gtx-1070-gaming-x-8g",
+      "name": "GeForce GTX 1070 GAMING X 8G",
+      "category": "gpu",
+      "asset": "total-envelope-total-gpu-msi-geforce-gtx-1070-gaming-x-8g.glb",
+      "status": "approximate",
+      "appearance": "original-dimension-envelope",
+      "dimensionsMm": [
+        279,
+        42,
+        140
+      ],
+      "axisOrder": [
+        "length",
+        "thickness",
+        "height"
+      ],
+      "source": "https://www.msi.com/Graphics-Card/GEFORCE-GTX-1070-GAMING-X-8G/Specification",
+      "sourceId": "msi-geforce-gtx-1070-gaming-x-8g",
+      "publisher": "MSI",
+      "reviewedAt": "2026-10-19",
+      "evidenceSHA256": "0ec75a8d1a2664a7c182e5e2a3f9cd30df0bea78ccb0684a4355f6b0f0008719",
+      "manufacturerPartNumber": null,
+      "revision": null,
+      "rights": "Original measurement geometry authored for PC Part Performance from published factual dimensions. No manufacturer CAD, textures, photographs or third-party mesh redistributed.",
+      "limitations": "Outer dimensions only. Surface shape, fan layout, mounting, bracket, power connector and cable clearances are not modeled or certified.",
+      "bytes": 5984,
+      "sha256": "85771eab2525ab015fe1430af43efe747e8579784b027ca0602fc8dc46173d6e",
+      "geometry": {
+        "bytes": 5984,
+        "sha256": "85771eab2525ab015fe1430af43efe747e8579784b027ca0602fc8dc46173d6e",
+        "meshes": 21,
+        "triangles": 252,
+        "textures": 0,
+        "sourceBounds": [
+          0.279,
+          0.042,
+          0.14
+        ],
+        "animations": 0
+      }
+    },
+    {
+      "id": "total-gpu-msi-geforce-gtx-1070-ti-gaming-8g",
+      "name": "GeForce GTX 1070 Ti GAMING 8G",
+      "category": "gpu",
+      "asset": "total-envelope-total-gpu-msi-geforce-gtx-1070-ti-gaming-8g.glb",
+      "status": "approximate",
+      "appearance": "original-dimension-envelope",
+      "dimensionsMm": [
+        279,
+        42,
+        140
+      ],
+      "axisOrder": [
+        "length",
+        "thickness",
+        "height"
+      ],
+      "source": "https://www.msi.com/Graphics-Card/GeForce-GTX-1070-Ti-GAMING-8G/Specification",
+      "sourceId": "msi-geforce-gtx-1070-ti-gaming-8g",
+      "publisher": "MSI",
+      "reviewedAt": "2026-10-19",
+      "evidenceSHA256": "6b3d2daa7a42331b102c17eff1782e1069a7825dcadb96b792c3d1588c10838d",
+      "manufacturerPartNumber": null,
+      "revision": null,
+      "rights": "Original measurement geometry authored for PC Part Performance from published factual dimensions. No manufacturer CAD, textures, photographs or third-party mesh redistributed.",
+      "limitations": "Outer dimensions only. Surface shape, fan layout, mounting, bracket, power connector and cable clearances are not modeled or certified.",
+      "bytes": 5988,
+      "sha256": "943c73ebc21a54d303dd567bf43cb7aaf605e713427a5af13080e7d3e0af0d30",
+      "geometry": {
+        "bytes": 5988,
+        "sha256": "943c73ebc21a54d303dd567bf43cb7aaf605e713427a5af13080e7d3e0af0d30",
+        "meshes": 21,
+        "triangles": 252,
+        "textures": 0,
+        "sourceBounds": [
+          0.279,
+          0.042,
+          0.14
+        ],
+        "animations": 0
+      }
+    },
+    {
+      "id": "total-gpu-msi-geforce-gtx-1080-gaming-x-8g",
+      "name": "GeForce GTX 1080 GAMING X 8G",
+      "category": "gpu",
+      "asset": "total-envelope-total-gpu-msi-geforce-gtx-1080-gaming-x-8g.glb",
+      "status": "approximate",
+      "appearance": "original-dimension-envelope",
+      "dimensionsMm": [
+        279,
+        42,
+        140
+      ],
+      "axisOrder": [
+        "length",
+        "thickness",
+        "height"
+      ],
+      "source": "https://www.msi.com/Graphics-Card/GeForce-GTX-1080-GAMING-X-8G/Specification",
+      "sourceId": "msi-geforce-gtx-1080-gaming-x-8g",
+      "publisher": "MSI",
+      "reviewedAt": "2026-10-19",
+      "evidenceSHA256": "2a3215d692807b13461c16070f9615342034ecaae65b96eb45c030df2898a49f",
+      "manufacturerPartNumber": null,
+      "revision": null,
+      "rights": "Original measurement geometry authored for PC Part Performance from published factual dimensions. No manufacturer CAD, textures, photographs or third-party mesh redistributed.",
+      "limitations": "Outer dimensions only. Surface shape, fan layout, mounting, bracket, power connector and cable clearances are not modeled or certified.",
+      "bytes": 5984,
+      "sha256": "7787d729488e131685abeb2539ebde01e302d4a0f99cd4be6b6567f9ddcf5cd8",
+      "geometry": {
+        "bytes": 5984,
+        "sha256": "7787d729488e131685abeb2539ebde01e302d4a0f99cd4be6b6567f9ddcf5cd8",
+        "meshes": 21,
+        "triangles": 252,
+        "textures": 0,
+        "sourceBounds": [
+          0.279,
+          0.042,
+          0.14
+        ],
+        "animations": 0
+      }
+    },
+    {
+      "id": "total-gpu-msi-geforce-gtx-1080-ti-gaming-x-11g",
+      "name": "GeForce GTX 1080 Ti GAMING X 11G",
+      "category": "gpu",
+      "asset": "total-envelope-total-gpu-msi-geforce-gtx-1080-ti-gaming-x-11g.glb",
+      "status": "approximate",
+      "appearance": "original-dimension-envelope",
+      "dimensionsMm": [
+        290,
+        51,
+        140
+      ],
+      "axisOrder": [
+        "length",
+        "thickness",
+        "height"
+      ],
+      "source": "https://www.msi.com/Graphics-Card/GeForce-GTX-1080-Ti-GAMING-X-11G/Specification",
+      "sourceId": "msi-geforce-gtx-1080-ti-gaming-x-11g",
+      "publisher": "MSI",
+      "reviewedAt": "2026-10-19",
+      "evidenceSHA256": "5b237369ba4257b5867fd834561a7700e04e15863a63026dedc4d18eba1c337b",
+      "manufacturerPartNumber": null,
+      "revision": null,
+      "rights": "Original measurement geometry authored for PC Part Performance from published factual dimensions. No manufacturer CAD, textures, photographs or third-party mesh redistributed.",
+      "limitations": "Outer dimensions only. Surface shape, fan layout, mounting, bracket, power connector and cable clearances are not modeled or certified.",
+      "bytes": 6220,
+      "sha256": "8a47136734d6d06c12fff06e38be1661ec248ea3caa9e45b67f00e06d15cdd3d",
+      "geometry": {
+        "bytes": 6220,
+        "sha256": "8a47136734d6d06c12fff06e38be1661ec248ea3caa9e45b67f00e06d15cdd3d",
+        "meshes": 21,
+        "triangles": 252,
+        "textures": 0,
+        "sourceBounds": [
+          0.29,
+          0.051,
+          0.14
+        ],
+        "animations": 0
+      }
+    },
+    {
+      "id": "total-gpu-msi-geforce-gtx-1660-super-gaming-x",
+      "name": "GeForce GTX 1660 SUPER GAMING X",
+      "category": "gpu",
+      "asset": "total-envelope-total-gpu-msi-geforce-gtx-1660-super-gaming-x.glb",
+      "status": "approximate",
+      "appearance": "original-dimension-envelope",
+      "dimensionsMm": [
+        247,
+        46,
+        127
+      ],
+      "axisOrder": [
+        "length",
+        "thickness",
+        "height"
+      ],
+      "source": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-SUPER-GAMING-X/Specification",
+      "sourceId": "msi-geforce-gtx-1660-super-gaming-x",
+      "publisher": "MSI",
+      "reviewedAt": "2026-10-19",
+      "evidenceSHA256": "3679636c1d6df60eec5ae6c2972aed34c0baf76d7ccb862c913e8a8f46b1806a",
+      "manufacturerPartNumber": null,
+      "revision": null,
+      "rights": "Original measurement geometry authored for PC Part Performance from published factual dimensions. No manufacturer CAD, textures, photographs or third-party mesh redistributed.",
+      "limitations": "Outer dimensions only. Surface shape, fan layout, mounting, bracket, power connector and cable clearances are not modeled or certified.",
+      "bytes": 5924,
+      "sha256": "0a4c70e230c61dd258f137c9b5bb04ff1e10643aff23af234d8acf752be5d528",
+      "geometry": {
+        "bytes": 5924,
+        "sha256": "0a4c70e230c61dd258f137c9b5bb04ff1e10643aff23af234d8acf752be5d528",
+        "meshes": 21,
+        "triangles": 252,
+        "textures": 0,
+        "sourceBounds": [
+          0.247,
+          0.046,
+          0.127
+        ],
+        "animations": 0
+      }
+    },
+    {
+      "id": "total-gpu-msi-geforce-gtx-1660-ti-gaming-x-6g",
+      "name": "GeForce GTX 1660 Ti GAMING X 6G",
+      "category": "gpu",
+      "asset": "total-envelope-total-gpu-msi-geforce-gtx-1660-ti-gaming-x-6g.glb",
+      "status": "approximate",
+      "appearance": "original-dimension-envelope",
+      "dimensionsMm": [
+        247,
+        46,
+        127
+      ],
+      "axisOrder": [
+        "length",
+        "thickness",
+        "height"
+      ],
+      "source": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-Ti-GAMING-X-6G/Specification",
+      "sourceId": "msi-geforce-gtx-1660-ti-gaming-x-6g",
+      "publisher": "MSI",
+      "reviewedAt": "2026-10-19",
+      "evidenceSHA256": "37de3f68d722710effc0efb395abc6cfea91a9f81b8f0d7d403ae5f9730cbc8b",
+      "manufacturerPartNumber": null,
+      "revision": null,
+      "rights": "Original measurement geometry authored for PC Part Performance from published factual dimensions. No manufacturer CAD, textures, photographs or third-party mesh redistributed.",
+      "limitations": "Outer dimensions only. Surface shape, fan layout, mounting, bracket, power connector and cable clearances are not modeled or certified.",
+      "bytes": 5924,
+      "sha256": "ae1d158289c5f9f567626f201a75048a4166f7516c7dc879a8a17162575d8fd3",
+      "geometry": {
+        "bytes": 5924,
+        "sha256": "ae1d158289c5f9f567626f201a75048a4166f7516c7dc879a8a17162575d8fd3",
+        "meshes": 21,
+        "triangles": 252,
+        "textures": 0,
+        "sourceBounds": [
+          0.247,
+          0.046,
+          0.127
+        ],
+        "animations": 0
+      }
+    },
+    {
+      "id": "total-gpu-gigabyte-gv-n75toc-2gi",
+      "name": "GeForce GTX 750 Ti OC 2GB (GV-N75TOC-2GI)",
+      "category": "gpu",
+      "asset": "total-envelope-total-gpu-gigabyte-gv-n75toc-2gi.glb",
+      "status": "approximate",
+      "appearance": "original-dimension-envelope",
+      "dimensionsMm": [
+        191,
+        27,
+        129
+      ],
+      "axisOrder": [
+        "length",
+        "thickness",
+        "height"
+      ],
+      "source": "https://www.gigabyte.com/vn/Graphics-Card/GV-N75TOC-2GI/sp",
+      "sourceId": "gigabyte-750ti",
+      "publisher": "Gigabyte",
+      "reviewedAt": "2026-10-19",
+      "evidenceSHA256": "a48b5a0143d44bcea4049fcfa8f3fcd8f779cdc7df856641f4732b0c83c815b7",
+      "manufacturerPartNumber": "GV-N75TOC-2GI",
+      "revision": null,
+      "rights": "Original measurement geometry authored for PC Part Performance from published factual dimensions. No manufacturer CAD, textures, photographs or third-party mesh redistributed.",
+      "limitations": "Outer dimensions only. Surface shape, fan layout, mounting, bracket, power connector and cable clearances are not modeled or certified.",
+      "bytes": 5764,
+      "sha256": "943929f0d5990a1b394497bacc10811960a37d18db2bac6e4196a21b090c71c6",
+      "geometry": {
+        "bytes": 5764,
+        "sha256": "943929f0d5990a1b394497bacc10811960a37d18db2bac6e4196a21b090c71c6",
+        "meshes": 21,
+        "triangles": 252,
+        "textures": 0,
+        "sourceBounds": [
+          0.191,
+          0.027,
+          0.129
+        ],
+        "animations": 0
+      }
+    },
+    {
+      "id": "total-gpu-asrock-a310-lp-4g",
+      "name": "Intel Arc A310 Low Profile 4GB",
+      "category": "gpu",
+      "asset": "total-envelope-total-gpu-asrock-a310-lp-4g.glb",
+      "status": "approximate",
+      "appearance": "original-dimension-envelope",
+      "dimensionsMm": [
+        169,
+        39,
+        69
+      ],
+      "axisOrder": [
+        "length",
+        "thickness",
+        "height"
+      ],
+      "source": "https://www.asrock.com/Graphics-Card/Intel/Intel%20Arc%20A310%20Low%20Profile%204GB/index.asp",
+      "sourceId": "asrock-a310-lp-4g",
+      "publisher": "ASRock",
+      "reviewedAt": "2026-10-19",
+      "evidenceSHA256": "394b2fc7f18898dfc0e5d984576eac7b738d06fe99e206156b3f3194aaa28b5a",
+      "manufacturerPartNumber": "A310 LP 4G",
+      "revision": null,
+      "rights": "Original measurement geometry authored for PC Part Performance from published factual dimensions. No manufacturer CAD, textures, photographs or third-party mesh redistributed.",
+      "limitations": "Outer dimensions only. Surface shape, fan layout, mounting, bracket, power connector and cable clearances are not modeled or certified.",
+      "bytes": 6004,
+      "sha256": "9bb33681817337daf3d61bb50ea5692236899ded46ee638e06da1ad26a996fb9",
+      "geometry": {
+        "bytes": 6004,
+        "sha256": "9bb33681817337daf3d61bb50ea5692236899ded46ee638e06da1ad26a996fb9",
+        "meshes": 21,
+        "triangles": 252,
+        "textures": 0,
+        "sourceBounds": [
+          0.169,
+          0.039,
+          0.069
+        ],
+        "animations": 0
+      }
+    },
+    {
+      "id": "total-gpu-asrock-a380-cli-6go",
+      "name": "Intel Arc A380 Challenger ITX 6GB OC",
+      "category": "gpu",
+      "asset": "total-envelope-total-gpu-asrock-a380-cli-6go.glb",
+      "status": "approximate",
+      "appearance": "original-dimension-envelope",
+      "dimensionsMm": [
+        190,
+        39,
+        124
+      ],
+      "axisOrder": [
+        "length",
+        "thickness",
+        "height"
+      ],
+      "source": "https://www.asrock.com/Graphics-Card/Intel/Intel%20Arc%20A380%20Challenger%20ITX%206GB%20OC/index.asp",
+      "sourceId": "asrock-a380-cli-6go",
+      "publisher": "ASRock",
+      "reviewedAt": "2026-10-19",
+      "evidenceSHA256": "eb421e9bf497fe943175ad446c1e69215862b107d080843c5d697e56b24772a2",
+      "manufacturerPartNumber": "A380 CLI 6GO",
+      "revision": null,
+      "rights": "Original measurement geometry authored for PC Part Performance from published factual dimensions. No manufacturer CAD, textures, photographs or third-party mesh redistributed.",
+      "limitations": "Outer dimensions only. Surface shape, fan layout, mounting, bracket, power connector and cable clearances are not modeled or certified.",
+      "bytes": 5800,
+      "sha256": "160ca20b42ba33f34e3868fdf3d2c32ce5630dd9a12133e531f5074233b6f371",
+      "geometry": {
+        "bytes": 5800,
+        "sha256": "160ca20b42ba33f34e3868fdf3d2c32ce5630dd9a12133e531f5074233b6f371",
+        "meshes": 21,
+        "triangles": 252,
+        "textures": 0,
+        "sourceBounds": [
+          0.19,
+          0.039,
+          0.124
+        ],
+        "animations": 0
+      }
+    },
+    {
+      "id": "total-gpu-asrock-a750-cld-8go",
+      "name": "Intel Arc A750 Challenger D 8GB OC",
+      "category": "gpu",
+      "asset": "total-envelope-total-gpu-asrock-a750-cld-8go.glb",
+      "status": "approximate",
+      "appearance": "original-dimension-envelope",
+      "dimensionsMm": [
+        271,
+        48,
+        132
+      ],
+      "axisOrder": [
+        "length",
+        "thickness",
+        "height"
+      ],
+      "source": "https://www.asrock.com/Graphics-Card/Intel/Intel%20Arc%20A750%20Challenger%20D%208GB%20OC/index.asp",
+      "sourceId": "asrock-a750-cld-8go",
+      "publisher": "ASRock",
+      "reviewedAt": "2026-10-19",
+      "evidenceSHA256": "563c6f30083aabb657f0645cf706cdfddd0079a0b585c0b94bc5a8a215d38aef",
+      "manufacturerPartNumber": "A750 CLD 8GO",
+      "revision": null,
+      "rights": "Original measurement geometry authored for PC Part Performance from published factual dimensions. No manufacturer CAD, textures, photographs or third-party mesh redistributed.",
+      "limitations": "Outer dimensions only. Surface shape, fan layout, mounting, bracket, power connector and cable clearances are not modeled or certified.",
+      "bytes": 5888,
+      "sha256": "fc6b532f50d378debad25d36a8abfb6acc0b80677d8cc9a4f1499deb17a11ea8",
+      "geometry": {
+        "bytes": 5888,
+        "sha256": "fc6b532f50d378debad25d36a8abfb6acc0b80677d8cc9a4f1499deb17a11ea8",
+        "meshes": 21,
+        "triangles": 252,
+        "textures": 0,
+        "sourceBounds": [
+          0.271,
+          0.048,
+          0.132
+        ],
+        "animations": 0
+      }
+    }
+  ]
+}

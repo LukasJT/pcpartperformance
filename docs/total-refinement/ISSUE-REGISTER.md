@@ -1,0 +1,30 @@
+# Screenshot defect register
+
+Evidence date: October 19, 2026. Owner photos are the reported production defects. Baselines were captured from the previous verified release in isolated Edge. Browser and operating-system chrome is outside the website. Widths: 320, 360, 375, 390, 430, 768, 1024, 1440 and 1920 CSS pixels; Arctic/Midnight, with additional six-palette accessibility checks.
+
+| ID / owner photo | Route / severity | Root cause | Implemented correction | Regression and screenshot evidence |
+| --- | --- | --- | --- | --- |
+| VR-01 / Photo2 | `/`, P0 | The home route's stylesheet scope omitted feature-row rules; inline title and description text had no layout contract. | Reusable escaped icon/copy/arrow markup; explicit columns, minimum widths and stacked description. Retain its CSS in the home bundle. | `total-refinement.test.cjs`, `total-layout-qa.cjs`; `qa/before/home-features-390-light.png` and `qa/after/home-features-390-light.png`. Actual title/description rectangles tested. |
+| VR-02 / Photo1 | Mobile menu, P0 | Preferences heading and appearance control shared an underspecified utility layout. Long text could paint outside its box; an inherited explicit country-control grid row also defeated auto-placement. | Dedicated heading row, adaptive preference columns, reset the legacy row, compact country control and one appearance entry. | Menu keyboard/focus journey; actual heading text-range collision and heading-before-controls tests; `menu-preferences-390-light.png` before/after. |
+| VR-03 / Photo3 | `/`, P1 | Repeated large editorial blocks, tall image areas and verbose summaries inflated the mobile page. | Four compact icon-led guide rows, concise category names, preserved real photos and tighter section rhythm. | Guide/category height measurements and reviewed `home-guides`/`home-categories` captures at nine widths. At390px guide rows are about75px instead of roughly193–223px. |
+| VR-04 / Photo4 | `/performance/`, P1 | Generic form spacing and prose-heavy evidence rendering; synthetic legacy demonstration competed with real evidence. | Visual platform/game selection, compact settings and one concise evidence result; methodology disclosed on demand. Synthetic demo removed from the decision interface. | `total-fps.test.cjs`, platform/source tests, FPS browser suite and `fps-settings` captures. No new measured benchmark data. |
+| VR-05 / Photo5 | Mobile menu, P0 | Three fixed columns and inherited emergency word breaking allowed short navigation labels to split. | Adaptive columns with sufficient minimum width; normal word handling and nonwrapping primary labels. Secondary groups collapsed. | All nine widths plus150% root-text scaling on phone widths. Original mid-word failure was not reproduced in the100% baseline; regression guard tests the reported failure mode. |
+| VR-06 / Photo6 | `/builder/#readiness-report`, P1 | Primary and secondary actions shared large generic button/layout rules; report actions were scattered and privacy copy dominated. | Compact save form, Save build primary action, icon-supported secondary toolbar, matched Download/Print and separate backups/privacy disclosures. Existing IDs and handlers preserved. | Actual save/restore, clipboard privacy, JSON report download and print invocation; toolbar hook tests; `builder-save-390-light.png` before/after. |
+| VR-07 / Photo7 | `/builder/`, CPU/PSU picker, P0 | Oversized full-screen modal, large rows, listbox focus borders and pagination inside listbox. | Default78dvh mobile sheet with explicit expansion, single result scroller, compact real thumbnails, search/filter/sort, secondary skip. More-results button is a sibling of listbox. | Open/search/filter/sort/exact-SKU/keyboard/select/skip/close/short-viewport/expansion tests; `picker-cpu-390-light.png` before/after. Emulated short viewport is not proof of actual iOS keyboard behavior. |
+| VR-08 / Photo8 | `/builder/`, P1 | Nested generic card/detail spacing and repeated explanatory copy. | Compact preference group, shorter Budget & goals / Find an alternative disclosures and less nested border weight. | Advanced settings remain reachable; `builder-preferences-390-light.png` before/after and guided/expert interactions. |
+
+## Additional defects found during implementation
+
+| Finding | Correction / proof |
+| --- | --- |
+| Restoring a US build while global header remained CA showed Canadian picker offers. | Active build-session region takes precedence; disposableUSD/CAD fixtures cover both revision-load and restore-URL paths. |
+| Expanded prebuilt data exceeded an old100-system cap, rejecting the whole payload. | Bounded2000-record/4MB parser; existing and expanded fixtures. |
+| Manufacturer specification/withdrawn-system qualifiers disappeared in checklist projection. | Preserve sourceKind/status/source; exact MPN and manufacturer action labels, historical status and unknown seller remain visible. |
+| Multiple CORSAIR configurations generated identical titles. | Include exact SKU in titles/descriptions and search. Generated metadata audit rejects duplicates. |
+| My PC notes button focused a field hidden in nested closed disclosures. | Open every ancestor disclosure before focus; saved-data privacy/import/revision tests retained. |
+| Existing ad container labeled a generic div without a naming role. | Add `role="group"`, preserve placement hooks. Three source tests and24 actual Worker checks; full axe rerun recorded separately. |
+| Catalog expansion and builder runtime exceeded original transfer budgets. | Idle-load additions on every hardware category route, project only needed builder data, sort for compression and minify the established engine with parity tests. No budget increase. |
+
+## Limits
+
+Automated screenshots and Edge touch emulation do not certify WCAG conformance, physical iPhone Safari, VoiceOver, dynamic browser chrome or software-keyboard behavior. Those manual device checks remain open. Reports record actual failures rather than treating a CSS edit as verification.

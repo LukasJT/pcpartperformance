@@ -62,12 +62,12 @@
       return { option, part, id: option.value, name: part?.name || option.textContent.trim(), brand: part?.brand || option.dataset?.brand || '', series: facet(part), hasModel: models.has(option.value), text: normalize(text) };
     }).filter(row => !row.option.disabled && !row.option.hidden);
   }
-  function filterOptions(rows, { query = '', brands = new Set(), series = '', modelsOnly = false, selected = '' } = {}) {
+  function filterOptions(rows, { query = '', brands = new Set(), series = '', modelsOnly = false, selected = '', sort = 'recommended' } = {}) {
     const tokens = normalize(query).split(' ').filter(Boolean), chosenBrands = brands instanceof Set ? brands : new Set(brands);
     return rows.filter(row => {
       if (!row.id) return !tokens.length && !chosenBrands.size && !series && !modelsOnly;
       return (!chosenBrands.size || chosenBrands.has(row.brand)) && (!series || row.series === series) && (!modelsOnly || row.hasModel) && tokens.every(token => row.text.includes(token));
-    }).sort((a, b) => Number(b.id === selected && !!b.id) - Number(a.id === selected && !!a.id) || Number(!b.id) - Number(!a.id) || Number(b.hasModel) - Number(a.hasModel));
+    }).sort((a, b) => Number(b.id === selected && !!b.id) - Number(a.id === selected && !!a.id) || Number(!b.id) - Number(!a.id) || (sort === 'name' ? a.name.localeCompare(b.name, undefined, {numeric:true}) : sort === 'brand' ? a.brand.localeCompare(b.brand) || a.name.localeCompare(b.name,undefined,{numeric:true}) : Number(b.hasModel) - Number(a.hasModel)));
   }
   // Skip is a separate action, never an option competing with actual products.
   // Keeping this projection separate also preserves row/cursor index identity.
@@ -85,15 +85,16 @@
     const dialog = document.createElement('dialog');
     dialog.className = 'select-dialog builder-picker'; dialog.dataset.builderPicker = ''; dialog.id = 'builder-picker';
     dialog.setAttribute('aria-labelledby', 'builder-picker-title');
-    dialog.innerHTML = '<div class="select-dialog-head"><div><span class="builder-picker-kicker" hidden>Choose an exact model</span><strong id="builder-picker-title">Component choices</strong><span class="builder-picker-count" aria-live="polite"></span></div><button type="button" class="select-close" aria-label="Close choices">' + icon('close') + '</button></div>' +
+    dialog.innerHTML = '<div class="select-dialog-head"><div><span class="builder-picker-kicker" hidden>Choose an exact model</span><strong id="builder-picker-title">Component choices</strong><span class="builder-picker-count" aria-live="polite"></span></div><div class="builder-picker-window"><button type="button" class="builder-picker-expand" aria-label="Expand choices" aria-expanded="false">↕</button><button type="button" class="select-close" aria-label="Close choices">' + icon('close') + '</button></div></div>' +
       '<p class="builder-picker-current" hidden></p><div class="select-search-wrap">' + icon('search') + '<label class="sr-only" for="builder-picker-search">Search exact model, capacity or SKU</label><input type="search" id="builder-picker-search" class="select-search" role="combobox" aria-autocomplete="list" aria-expanded="true" aria-controls="builder-picker-options" placeholder="Search model or brand" autocomplete="off"></div>' +
-      '<div class="builder-picker-tools"><details class="builder-picker-filters"><summary>Filters <span class="builder-picker-filter-count"></span></summary><div class="builder-picker-filter-content"><div class="builder-picker-facets"><label>Category<select data-picker-category></select></label><label><span data-picker-series-label>Series</span><select data-picker-series><option value="">All series</option></select></label></div><fieldset class="builder-picker-brands"><legend>Brands</legend><div class="select-brand-filters"></div></fieldset><label class="builder-picker-models"><input type="checkbox"> 3D models only</label></div></details><button type="button" class="builder-picker-reset" hidden>Reset</button></div>' +
-      '<div class="select-results" id="builder-picker-options" role="listbox" aria-label="Available choices" tabindex="0" autofocus></div><button type="button" class="builder-picker-more" hidden>Show more choices</button><div class="builder-picker-footer"><button type="button" class="builder-picker-skip" hidden aria-describedby="builder-picker-skip-help">Skip for now</button><span class="sr-only" id="builder-picker-skip-help">This category remains unselected. The build review will show any required components still missing.</span><p class="select-hint">Arrow keys to browse · Enter to select</p></div>';
+      '<div class="builder-picker-tools"><details class="builder-picker-filters"><summary>Filters <span class="builder-picker-filter-count"></span></summary><div class="builder-picker-filter-content"><div class="builder-picker-facets"><label>Category<select data-picker-category></select></label><label><span data-picker-series-label>Series</span><select data-picker-series><option value="">All series</option></select></label></div><fieldset class="builder-picker-brands"><legend>Brands</legend><div class="select-brand-filters"></div></fieldset><label class="builder-picker-models"><input type="checkbox"> 3D models only</label></div></details><label class="builder-picker-sort"><span class="sr-only">Sort models</span><select aria-label="Sort models"><option value="recommended">Default order</option><option value="name">Model name</option><option value="brand">Brand</option></select></label><button type="button" class="builder-picker-reset" hidden>Reset</button></div>' +
+      '<div class="builder-picker-scroll"><div class="select-results" id="builder-picker-options" role="listbox" aria-label="Available choices" tabindex="0" autofocus></div><button type="button" class="builder-picker-more" hidden>Show more choices</button></div><div class="builder-picker-footer"><button type="button" class="builder-picker-skip" hidden aria-describedby="builder-picker-skip-help">Skip for now</button><span class="sr-only" id="builder-picker-skip-help">This category remains unselected. The build review will show any required components still missing.</span><p class="select-hint">Arrow keys to browse · Enter to select</p></div>';
     document.body.append(dialog);
     const results = dialog.querySelector('.select-results'), search = dialog.querySelector('.select-search');
     results.setAttribute('aria-description','Use Arrow keys to browse, Enter to select, or / to search. Escape closes the picker.');
     const modelCheck = dialog.querySelector('.builder-picker-models input'), categorySelect = dialog.querySelector('[data-picker-category]'), seriesSelect = dialog.querySelector('[data-picker-series]');
     const reset = dialog.querySelector('.builder-picker-reset'), more = dialog.querySelector('.builder-picker-more'), filters = dialog.querySelector('.builder-picker-filters'), skip = dialog.querySelector('.builder-picker-skip');
+    const sort = dialog.querySelector('.builder-picker-sort select'), expand = dialog.querySelector('.builder-picker-expand');
     let active = null, rows = [], cursor = 0, limit = 80, serial = 0, sourceRows = [];
     document.addEventListener('pcp:images',()=>{images=window.PCP_IMAGES||{};if(active)render();});
     const brands = new Set();
@@ -152,7 +153,7 @@
     }
     function render() {
       if (!active) return;
-      rows = visibleOptions(filterOptions(sourceRows, { query: search.value, brands, series: seriesSelect.value, modelsOnly: modelCheck.checked, selected: active.value }), !!category(active));
+      rows = visibleOptions(filterOptions(sourceRows, { query: search.value, brands, series: seriesSelect.value, modelsOnly: modelCheck.checked, selected: active.value, sort:sort.value }), !!category(active));
       results.replaceChildren();
       const identities = new Map();
       for (const row of sourceRows) { const name = normalize(row.name); if (!identities.has(name)) identities.set(name, new Set()); identities.get(name).add(row.id); }
@@ -167,10 +168,12 @@
         if (row.part) {
           const details = document.createElement('small'); details.textContent = [row.brand, row.part.summary].filter(Boolean).join(' · '); text.append(details);
           if(row.part.sku)button.title=row.part.sku;
-          if(row.hasModel){const badge=document.createElement('span');badge.className='builder-picker-model-badge';badge.textContent='3D';badge.setAttribute('aria-label','3D model available');text.append(badge);}
+          if(row.hasModel){const badge=document.createElement('span');badge.className='builder-picker-model-badge';badge.textContent='3D';badge.setAttribute('aria-label','3D model available');details.append(' ',badge);}
           if ((identities.get(normalize(row.name))?.size || 0) > 1) { const identity = document.createElement('small'); identity.textContent = 'Catalog ID: ' + row.id + ' · identity review pending'; text.append(identity); }
         }
-        const mark = document.createElement('span'); mark.className = 'select-check'; mark.setAttribute('aria-hidden', 'true'); if (row.id === active.value) mark.innerHTML = icon('check');
+        const mark = document.createElement('span'); mark.className = 'select-check'; mark.setAttribute('aria-hidden', 'true'); mark.innerHTML = row.id === active.value ? icon('check') : '<span>Add</span>';
+        const region=window.PCP_BUILD_SESSION?.current()?.region||document.documentElement.dataset.region||'CA',offer=window.PCP_PUBLIC_PRICES?.offersFor(row.id,region)?.[0];
+        if(offer){const price=document.createElement('small');price.className='builder-picker-price';price.textContent=new Intl.NumberFormat(region==='US'?'en-US':'en-CA',{style:'currency',currency:region==='US'?'USD':'CAD',currencyDisplay:'code'}).format(offer.price);price.title='Checked '+new Date(offer.checkedAt).toLocaleString()+' · '+(offer.store||offer.merchant);text.append(price);}
         button.append(frame, text, mark); button.addEventListener('click', () => choose(index)); results.append(button);
       });
       if (!rows.length) { const empty = document.createElement('p'); empty.className = 'select-empty'; empty.textContent = 'No matches. Try another name or reset the filters.'; results.append(empty); }
@@ -190,7 +193,8 @@
     }
     function configure(select) {
       if (active && active !== select) registry.get(active)?.button.setAttribute('aria-expanded', 'false');
-      active = select; limit = 80; brands.clear(); search.value = ''; modelCheck.checked = false;
+      active = select; limit = 80; brands.clear(); search.value = ''; modelCheck.checked = false; sort.value='recommended';
+      dialog.dataset.expanded='false';expand.setAttribute('aria-expanded','false');expand.setAttribute('aria-label','Expand choices');
       const isPart = !!category(select);
       dialog.querySelector('.builder-picker-kicker').textContent = isPart ? 'Choose an exact model' : 'Build preferences';
       dialog.querySelector('#builder-picker-title').textContent = ({cpu:'Choose a processor',board:'Choose a motherboard',gpu:'Choose a graphics card',ram:'Choose memory',ssd:'Choose an SSD',hdd:'Choose a hard drive',psu:'Choose a power supply',case:'Choose a case',fan:'Choose case fans',cooler:'Choose a CPU cooler'})[category(select)] || selectLabel(select);
@@ -231,6 +235,7 @@
       if (!dialog.open || !window.visualViewport) return;
       dialog.style.setProperty('--picker-viewport-height', Math.round(window.visualViewport.height) + 'px');
       dialog.style.setProperty('--picker-viewport-top', Math.round(window.visualViewport.offsetTop) + 'px');
+      dialog.style.setProperty('--picker-viewport-bottom', Math.max(0,Math.round(innerHeight-window.visualViewport.height-window.visualViewport.offsetTop)) + 'px');
     }
     function enhance() {
       for (const select of main.querySelectorAll('select:not(.sr-only)')) {
@@ -250,6 +255,8 @@
       search.focus({ preventScroll: true });
     }
     dialog.querySelector('.select-close').addEventListener('click', () => close()); reset.addEventListener('click', resetFilters); skip.addEventListener('click', clearSelection);
+    expand.addEventListener('click',()=>{const enlarged=dialog.dataset.expanded!=='true';dialog.dataset.expanded=String(enlarged);expand.setAttribute('aria-expanded',String(enlarged));expand.setAttribute('aria-label',enlarged?'Compact choices':'Expand choices');});
+    sort.addEventListener('change',()=>{limit=80;render();});
     search.addEventListener('input', () => { limit = 80; render(); }); modelCheck.addEventListener('change', () => { limit = 80; render(); });
     search.addEventListener('focus', () => { filters.open = false; });
     seriesSelect.addEventListener('change', () => { limit = 80; render(); });

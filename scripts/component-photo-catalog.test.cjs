@@ -44,11 +44,15 @@ test('compact catalog delivery restores every image and pictured identity withou
  vm.runInNewContext(fs.readFileSync('dist/image-catalog-lite.js','utf8'),context);
  assert(Object.keys(context.window.PCP_IMAGES).length>=Object.keys(images).length);
 });
-test('the formerly missing graphics cards all have bound pictures and IBM memory uses the documented GB unit',()=>{
+test('the repaired GPU photo cohort remains covered; new intake without licensed photos stays explicitly illustrated',()=>{
  assert.equal(part('ibm-vga').specs.Memory,0.000256);
  assert.equal(images['ibm-vga'].memoryKB,256);
  const generated=JSON.parse(fs.readFileSync('dist/images.json','utf8'));
- for(const p of parts.filter(p=>p.cat==='gpu'))assert(delivery.entry(p,generated[p.id],root),p.id+' graphics-card photo is missing');
+ const newIds=new Set(require('./total-catalog.cjs').loadPackets().records.map(p=>p.id)),coverage=require('../docs/total-refinement/catalog/coverage.json');
+ for(const p of parts.filter(p=>p.cat==='gpu')){
+  if(newIds.has(p.id)&&!generated[p.id]){assert(coverage.gaps.newExactImagesMissing.includes(p.id),p.id+' missing photo must remain in the coverage report');assert(require('./builder-selectors.js').icon('gpu').includes('<circle'));continue;}
+  assert(delivery.entry(p,generated[p.id],root),p.id+' previously covered graphics-card photo is missing');
+ }
 });
 test('the generated image map is consistent with all reviewed corrections and never substitutes an unmatched component',()=>{
  const generated=JSON.parse(fs.readFileSync('dist/images.json','utf8'));

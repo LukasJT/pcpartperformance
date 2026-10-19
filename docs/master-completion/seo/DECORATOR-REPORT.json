@@ -3,8 +3,8 @@
   "status": "static_decorator_prepared",
   "confirmedDeployment": false,
   "productPages": 16,
-  "prebuiltPages": 84,
-  "gamePages": 5,
+  "prebuiltPages": 219,
+  "gamePages": 10,
   "aliasRegistryVersion": "2026-10-09.1",
   "activeCatalogAliases": [],
   "catalogIDsChanged": false,
@@ -156,452 +156,1172 @@
     {
       "route": "/prebuilts/asus-gm700-ca/",
       "kind": "regional_prebuilt_description",
-      "description": "Canada (CAD) buying checklist for ASUS ROG GM700 GM700TZ-BSR79070-CB. Ryzen 7 9700X; ASUS Prime Radeon RX 9070 XT; 32 GB DDR5 RAM; 2 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+      "description": "Canada (CAD) buying checklist for ASUS ROG GM700 19349060. Ryzen 7 9700X; ASUS Prime Radeon RX 9070 XT; 32 GB DDR5 RAM; 2 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
     },
     {
       "route": "/prebuilts/cyberpower-gma6200bstv3-ca/",
       "kind": "regional_prebuilt_description",
-      "description": "Canada (CAD) buying checklist for CyberPowerPC Gamer Master GMA6200BSTV3. Ryzen 7 8700F; GeForce RTX 5060; 16 GB RAM; 1 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+      "description": "Canada (CAD) buying checklist for CyberPowerPC Gamer Master 19807119. Ryzen 7 8700F; GeForce RTX 5060; 16 GB RAM; 1 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
     },
     {
       "route": "/prebuilts/msi-aegis-c9nvp-1448us/",
       "kind": "regional_prebuilt_description",
-      "description": "United States (USD) buying checklist for MSI Aegis ZS2 Aegis ZS2 C9NVP-1448US. Ryzen 7 9700X; GeForce RTX 5070; 32 GB DDR5 RAM; 2 TB SSD. Check the exact Best Buy listing and undisclosed components."
+      "description": "United States (USD) buying checklist for MSI Aegis ZS2 12292532. Ryzen 7 9700X; GeForce RTX 5070; 32 GB DDR5 RAM; 2 TB SSD. Check the exact Best Buy listing and undisclosed components."
     },
     {
       "route": "/prebuilts/abs-c1a45n56r2/",
       "kind": "regional_prebuilt_description",
-      "description": "United States (USD) buying checklist for ABS Cyclone Aqua C1A45N56R2. Core i5-14400F; MSI Shadow GeForce RTX 5060; 32 GB DDR4-3200 RAM; MSI M461 1 TB NVMe SSD. Check the exact Newegg listing and undisclosed components."
+      "description": "United States (USD) buying checklist for ABS Cyclone Aqua N82E16883362050. Core i5-14400F; MSI Shadow GeForce RTX 5060; 32 GB DDR4-3200 RAM; MSI M461 1 TB NVMe SSD. Check the exact Newegg listing and undisclosed components."
     },
     {
       "route": "/prebuilts/zotac-mek5060a5500br1/",
       "kind": "regional_prebuilt_description",
-      "description": "United States (USD) buying checklist for ZOTAC Gaming MEK MEK5060A5500BR1. Ryzen 5 5500; ZOTAC GeForce RTX 5060; 16 GB DDR4-3200 RAM; 1 TB NVMe SSD. Check the exact Newegg listing and undisclosed components."
+      "description": "United States (USD) buying checklist for ZOTAC Gaming MEK N82E16883218108. Ryzen 5 5500; ZOTAC GeForce RTX 5060; 16 GB DDR4-3200 RAM; 1 TB NVMe SSD. Check the exact Newegg listing and undisclosed components."
     },
     {
       "route": "/prebuilts/msi-codex-a8nvl-484us/",
       "kind": "regional_prebuilt_description",
-      "description": "United States (USD) buying checklist for MSI Codex Z2 Codex Z2 A8NVL-484US. Ryzen 7 8700F; GeForce RTX 5060; 16 GB DDR5 RAM; 2 TB NVMe SSD. Check the exact Newegg listing and undisclosed components."
+      "description": "United States (USD) buying checklist for MSI Codex Z2 N82E16883151716. Ryzen 7 8700F; GeForce RTX 5060; 16 GB DDR5 RAM; 2 TB NVMe SSD. Check the exact Newegg listing and undisclosed components."
     },
     {
       "route": "/prebuilts/ca-thermaltake-c27b-b760-570-lcs/",
       "kind": "regional_prebuilt_description",
-      "description": "Canada (CAD) buying checklist for Thermaltake LCGS View C27B-B760-570-LCS. Core i7-14700F; GeForce RTX 5070; 32 GB RAM; 1 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+      "description": "Canada (CAD) buying checklist for Thermaltake LCGS View 19726431. Core i7-14700F; GeForce RTX 5070; 32 GB RAM; 1 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
     },
     {
       "route": "/prebuilts/ca-quoted-tech-qtcshld78x3d5070321/",
       "kind": "regional_prebuilt_description",
-      "description": "Canada (CAD) buying checklist for Quoted Tech Shield QTCSHLD78X3D5070321. Ryzen 7 7800X3D; GeForce RTX 5070; 32 GB RAM; 1 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+      "description": "Canada (CAD) buying checklist for Quoted Tech Shield 16644921. Ryzen 7 7800X3D; GeForce RTX 5070; 32 GB RAM; 1 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
     },
     {
       "route": "/prebuilts/ca-asus-gm700tz-dr9x3d5080wp/",
       "kind": "regional_prebuilt_description",
-      "description": "Canada (CAD) buying checklist for ASUS GM700 GM700TZ-DR9X3D5080WP. Ryzen 9 9950X3D; GeForce RTX 5080; 64 GB RAM; 2 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+      "description": "Canada (CAD) buying checklist for ASUS GM700 19901747. Ryzen 9 9950X3D; GeForce RTX 5080; 64 GB RAM; 2 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
     },
     {
       "route": "/prebuilts/ca-msi-cod-r2-a2nvl7-478ca/",
       "kind": "regional_prebuilt_description",
-      "description": "Canada (CAD) buying checklist for MSI Codex R2 AI Cod R2 A2NVL7-478CA. Core Ultra 7 265F; GeForce RTX 5060. Check the exact Best Buy Canada listing and undisclosed components."
+      "description": "Canada (CAD) buying checklist for MSI Codex R2 AI 19396815. Core Ultra 7 265F; GeForce RTX 5060. Check the exact Best Buy Canada listing and undisclosed components."
     },
     {
       "route": "/prebuilts/ca-lenovo-90y6006hcf/",
       "kind": "regional_prebuilt_description",
-      "description": "Canada (CAD) buying checklist for Lenovo Legion Tower 7i Gen 10 90Y6006HCF. Core Ultra 7 265K; GeForce RTX 5080; 32 GB RAM; 2 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+      "description": "Canada (CAD) buying checklist for Lenovo Legion Tower 7i Gen 10 19419881. Core Ultra 7 265K; GeForce RTX 5080; 32 GB RAM; 2 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
     },
     {
       "route": "/prebuilts/ca-msi-agszs2b9nvv1615ca/",
       "kind": "regional_prebuilt_description",
-      "description": "Canada (CAD) buying checklist for MSI Aegis AgsZS2B9NVV1615CA. Ryzen 9 9900X; GeForce RTX 5080; 32 GB RAM; 2 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+      "description": "Canada (CAD) buying checklist for MSI Aegis 19382403. Ryzen 9 9900X; GeForce RTX 5080; 32 GB RAM; 2 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
     },
     {
       "route": "/prebuilts/ca-lenovo-90ya003gus/",
       "kind": "regional_prebuilt_description",
-      "description": "Canada (CAD) buying checklist for Lenovo Legion Tower 5i 90YA003GUS. Core Ultra 7 265F; GeForce RTX 5060 Ti; 32 GB RAM; 1 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+      "description": "Canada (CAD) buying checklist for Lenovo Legion Tower 5i 19823933. Core Ultra 7 265F; GeForce RTX 5060 Ti; 32 GB RAM; 1 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
     },
     {
       "route": "/prebuilts/ca-acer-n65-100-eb17/",
       "kind": "regional_prebuilt_description",
-      "description": "Canada (CAD) buying checklist for Acer Aspire Nitro 65 N65-100-EB17. Ryzen 7 8700F; GeForce RTX 5070; 32 GB RAM; 1 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+      "description": "Canada (CAD) buying checklist for Acer Aspire Nitro 65 19862690. Ryzen 7 8700F; GeForce RTX 5070; 32 GB RAM; 1 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
     },
     {
       "route": "/prebuilts/ca-acer-n65-100-eb14/",
       "kind": "regional_prebuilt_description",
-      "description": "Canada (CAD) buying checklist for Acer Aspire Nitro 65 N65-100-EB14. Ryzen 7 8700F; GeForce RTX 5060 Ti; 16 GB RAM; 1 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+      "description": "Canada (CAD) buying checklist for Acer Aspire Nitro 65 19862694. Ryzen 7 8700F; GeForce RTX 5060 Ti; 16 GB RAM; 1 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
     },
     {
       "route": "/prebuilts/ca-msi-codex-z2-a8nvm-679ca/",
       "kind": "regional_prebuilt_description",
-      "description": "Canada (CAD) buying checklist for MSI Codex Z2 Codex Z2 A8NVM-679CA. Ryzen 7 8700F; GeForce RTX 5060 Ti; 16 GB RAM; 1 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+      "description": "Canada (CAD) buying checklist for MSI Codex Z2 19807289. Ryzen 7 8700F; GeForce RTX 5060 Ti; 16 GB RAM; 1 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
     },
     {
       "route": "/prebuilts/ca-lenovo-90ya009dcf/",
       "kind": "regional_prebuilt_description",
-      "description": "Canada (CAD) buying checklist for Lenovo Legion Tower 5i 90YA009DCF. Core Ultra 7 265F; GeForce RTX 5060 Ti; 32 GB RAM; 2 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+      "description": "Canada (CAD) buying checklist for Lenovo Legion Tower 5i 19781814. Core Ultra 7 265F; GeForce RTX 5060 Ti; 32 GB RAM; 2 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
     },
     {
       "route": "/prebuilts/ca-ibuypower-sbi9n5702/",
       "kind": "regional_prebuilt_description",
-      "description": "Canada (CAD) buying checklist for iBUYPOWER Slate 9 SBI9N5702. Core Ultra 9 285; GeForce RTX 5070; 32 GB RAM; 2 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+      "description": "Canada (CAD) buying checklist for iBUYPOWER Slate 9 19831817. Core Ultra 9 285; GeForce RTX 5070; 32 GB RAM; 2 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
     },
     {
       "route": "/prebuilts/ca-ibuypower-sbi7n5604/",
       "kind": "regional_prebuilt_description",
-      "description": "Canada (CAD) buying checklist for iBUYPOWER Slate 9 SBI7N5604. Core i7-14700F; GeForce RTX 5060; 16 GB RAM; 1 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+      "description": "Canada (CAD) buying checklist for iBUYPOWER Slate 9 19893114. Core i7-14700F; GeForce RTX 5060; 16 GB RAM; 1 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
     },
     {
       "route": "/prebuilts/ca-ibuypower-exwa7n5701/",
       "kind": "regional_prebuilt_description",
-      "description": "Canada (CAD) buying checklist for iBUYPOWER Element EXWA7N5701. Ryzen 7 9700F; GeForce RTX 5070; 32 GB DDR5 RAM; 1 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+      "description": "Canada (CAD) buying checklist for iBUYPOWER Element 20012906. Ryzen 7 9700F; GeForce RTX 5070; 32 GB DDR5 RAM; 1 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
     },
     {
       "route": "/prebuilts/ca-ibuypower-tbi7n5701/",
       "kind": "regional_prebuilt_description",
-      "description": "Canada (CAD) buying checklist for iBUYPOWER Trace TBI7N5701. Core Ultra 7 265F; GeForce RTX 5070; 32 GB DDR5 RAM; 2 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+      "description": "Canada (CAD) buying checklist for iBUYPOWER Trace 20012903. Core Ultra 7 265F; GeForce RTX 5070; 32 GB DDR5 RAM; 2 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
     },
     {
       "route": "/prebuilts/ca-ibuypower-exwa7n5601/",
       "kind": "regional_prebuilt_description",
-      "description": "Canada (CAD) buying checklist for iBUYPOWER Element EXWA7N5601. Ryzen 7 8700F; GeForce RTX 5060; 16 GB DDR5 RAM; 1 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+      "description": "Canada (CAD) buying checklist for iBUYPOWER Element 20012905. Ryzen 7 8700F; GeForce RTX 5060; 16 GB DDR5 RAM; 1 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
     },
     {
       "route": "/prebuilts/ca-ibuypower-tbi7n5601/",
       "kind": "regional_prebuilt_description",
-      "description": "Canada (CAD) buying checklist for iBUYPOWER Trace TBI7N5601. Core Ultra 7 265F; GeForce RTX 5060; 32 GB DDR5 RAM; 1 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+      "description": "Canada (CAD) buying checklist for iBUYPOWER Trace 20012904. Core Ultra 7 265F; GeForce RTX 5060; 32 GB DDR5 RAM; 1 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
     },
     {
       "route": "/prebuilts/ca-cyberpowerpc-slc9000bstv4/",
       "kind": "regional_prebuilt_description",
-      "description": "Canada (CAD) buying checklist for CyberPowerPC Gamer Supreme SLC9000BSTV4. Ryzen 7 9800X3D; GeForce RTX 5070; 32 GB RAM; 2 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+      "description": "Canada (CAD) buying checklist for CyberPowerPC Gamer Supreme 19807118. Ryzen 7 9800X3D; GeForce RTX 5070; 32 GB RAM; 2 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
     },
     {
       "route": "/prebuilts/ca-cyberpowerpc-gxi3800bstv2/",
       "kind": "regional_prebuilt_description",
-      "description": "Canada (CAD) buying checklist for CyberPowerPC Gamer Xtreme GXI3800BSTV2. Core Ultra 7 270K Plus; GeForce RTX 5070; 32 GB RAM; 2 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+      "description": "Canada (CAD) buying checklist for CyberPowerPC Gamer Xtreme 19807115. Core Ultra 7 270K Plus; GeForce RTX 5070; 32 GB RAM; 2 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
     },
     {
       "route": "/prebuilts/ca-cyberpowerpc-gma5600bstv5/",
       "kind": "regional_prebuilt_description",
-      "description": "Canada (CAD) buying checklist for CyberPowerPC Gamer Master GMA5600BSTV5. Ryzen 5 8400F; GeForce RTX 3050; 16 GB RAM; 1 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+      "description": "Canada (CAD) buying checklist for CyberPowerPC Gamer Master 19807112. Ryzen 5 8400F; GeForce RTX 3050; 16 GB RAM; 1 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
     },
     {
       "route": "/prebuilts/ca-cyberpowerpc-gma6000bstv5/",
       "kind": "regional_prebuilt_description",
-      "description": "Canada (CAD) buying checklist for CyberPowerPC Gamer Master GMA6000BSTV5. Ryzen 7 8700F; Radeon RX 7700; 16 GB RAM; 1 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+      "description": "Canada (CAD) buying checklist for CyberPowerPC Gamer Master 19807117. Ryzen 7 8700F; Radeon RX 7700; 16 GB RAM; 1 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
     },
     {
       "route": "/prebuilts/ca-cyberpowerpc-slc11180cpg/",
       "kind": "regional_prebuilt_description",
-      "description": "Canada (CAD) buying checklist for CyberPowerPC Gamer Supreme SLC11180CPG. Ryzen 9 9900X; Radeon RX 9070 XT; 32 GB RAM; 2 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+      "description": "Canada (CAD) buying checklist for CyberPowerPC Gamer Supreme 19867680. Ryzen 9 9900X; Radeon RX 9070 XT; 32 GB RAM; 2 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
     },
     {
       "route": "/prebuilts/ca-cyberpowerpc-slc8800bstv11/",
       "kind": "regional_prebuilt_description",
-      "description": "Canada (CAD) buying checklist for CyberPowerPC Gamer Supreme SLC8800BSTV11. Core Ultra 7 265F; GeForce RTX 5070; 16 GB RAM; 1 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+      "description": "Canada (CAD) buying checklist for CyberPowerPC Gamer Supreme 19807120. Core Ultra 7 265F; GeForce RTX 5070; 16 GB RAM; 1 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
     },
     {
       "route": "/prebuilts/ca-cyberpowerpc-slc4400bsdfv8/",
       "kind": "regional_prebuilt_description",
-      "description": "Canada (CAD) buying checklist for CyberPowerPC Gamer Supreme SLC4400BSDFV8. Ryzen 7 9800X3D; Radeon RX 9070; 32 GB RAM; 1 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+      "description": "Canada (CAD) buying checklist for CyberPowerPC Gamer Supreme 19807116. Ryzen 7 9800X3D; Radeon RX 9070; 32 GB RAM; 1 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
     },
     {
       "route": "/prebuilts/ca-cyberpowerpc-gxi3200bstv11/",
       "kind": "regional_prebuilt_description",
-      "description": "Canada (CAD) buying checklist for CyberPowerPC Gamer Xtreme GXI3200BSTV11. Core Ultra 5 225F; GeForce RTX 5060; 16 GB RAM; 1 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+      "description": "Canada (CAD) buying checklist for CyberPowerPC Gamer Xtreme 19807113. Core Ultra 5 225F; GeForce RTX 5060; 16 GB RAM; 1 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
     },
     {
       "route": "/prebuilts/ca-cyberpowerpc-gxi3400bstv18/",
       "kind": "regional_prebuilt_description",
-      "description": "Canada (CAD) buying checklist for CyberPowerPC Gamer Xtreme GXI3400BSTV18. Core Ultra 7 265F; GeForce RTX 5060 Ti; 16 GB RAM; 1 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+      "description": "Canada (CAD) buying checklist for CyberPowerPC Gamer Xtreme 19807114. Core Ultra 7 265F; GeForce RTX 5060 Ti; 16 GB RAM; 1 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
     },
     {
       "route": "/prebuilts/ca-cyberpowerpc-slc11000cpgv5/",
       "kind": "regional_prebuilt_description",
-      "description": "Canada (CAD) buying checklist for CyberPowerPC Gamer Supreme SLC11000CPGV5. Ryzen 7 9800X3D; GeForce RTX 5070; 32 GB RAM; 1 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+      "description": "Canada (CAD) buying checklist for CyberPowerPC Gamer Supreme 19867671. Ryzen 7 9800X3D; GeForce RTX 5070; 32 GB RAM; 1 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
     },
     {
       "route": "/prebuilts/ca-cyberpowerpc-slc11140cpg/",
       "kind": "regional_prebuilt_description",
-      "description": "Canada (CAD) buying checklist for CyberPowerPC Gamer Supreme SLC11140CPG. Ryzen 7 9800X3D; Radeon RX 9070 XT; 32 GB RAM; 2 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+      "description": "Canada (CAD) buying checklist for CyberPowerPC Gamer Supreme 19867672. Ryzen 7 9800X3D; Radeon RX 9070 XT; 32 GB RAM; 2 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
     },
     {
       "route": "/prebuilts/ca-cyberpowerpc-slc8960cpgv20/",
       "kind": "regional_prebuilt_description",
-      "description": "Canada (CAD) buying checklist for CyberPowerPC Gamer Supreme SLC8960CPGV20. Core Ultra 7 265KF; GeForce RTX 5070; 32 GB RAM; 2 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+      "description": "Canada (CAD) buying checklist for CyberPowerPC Gamer Supreme 19867684. Core Ultra 7 265KF; GeForce RTX 5070; 32 GB RAM; 2 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
     },
     {
       "route": "/prebuilts/ca-cyberpowerpc-slc11380cpg/",
       "kind": "regional_prebuilt_description",
-      "description": "Canada (CAD) buying checklist for CyberPowerPC Gamer Supreme SLC11380CPG. Ryzen 7 9700X; Radeon RX 9060 XT; 32 GB RAM; 2 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+      "description": "Canada (CAD) buying checklist for CyberPowerPC Gamer Supreme 19867668. Ryzen 7 9700X; Radeon RX 9060 XT; 32 GB RAM; 2 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
     },
     {
       "route": "/prebuilts/ca-cyberpowerpc-gmai5200cpg/",
       "kind": "regional_prebuilt_description",
-      "description": "Canada (CAD) buying checklist for CyberPowerPC Gamer Master GMAI5200CPG. Ryzen 5 8400F; GeForce RTX 5060; 16 GB RAM; 2 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+      "description": "Canada (CAD) buying checklist for CyberPowerPC Gamer Master 19867687. Ryzen 5 8400F; GeForce RTX 5060; 16 GB RAM; 2 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
     },
     {
       "route": "/prebuilts/ca-cyberpowerpc-slc11140cpgv2/",
       "kind": "regional_prebuilt_description",
-      "description": "Canada (CAD) buying checklist for CyberPowerPC Gamer Supreme SLC11140CPGV2. Ryzen 7 9850X3D; Radeon RX 9070 XT; 32 GB RAM; 2 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+      "description": "Canada (CAD) buying checklist for CyberPowerPC Gamer Supreme 19867677. Ryzen 7 9850X3D; Radeon RX 9070 XT; 32 GB RAM; 2 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
     },
     {
       "route": "/prebuilts/ca-cyberpowerpc-gxi11240cpgv23/",
       "kind": "regional_prebuilt_description",
-      "description": "Canada (CAD) buying checklist for CyberPowerPC Gamer Xtreme GXi11240CPGV23. Core Ultra 5 225F; GeForce RTX 5050; 16 GB RAM; 1 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+      "description": "Canada (CAD) buying checklist for CyberPowerPC Gamer Xtreme 19867697. Core Ultra 5 225F; GeForce RTX 5050; 16 GB RAM; 1 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
     },
     {
       "route": "/prebuilts/ca-hp-tg03-0089/",
       "kind": "regional_prebuilt_description",
-      "description": "Canada (CAD) buying checklist for HP OMEN TG03-0089. Core i5-14400F; GeForce RTX 5050; 16 GB RAM; 512 GB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+      "description": "Canada (CAD) buying checklist for HP OMEN 19901679. Core i5-14400F; GeForce RTX 5050; 16 GB RAM; 512 GB SSD. Check the exact Best Buy Canada listing and undisclosed components."
     },
     {
       "route": "/prebuilts/ca-hp-tg03-0109/",
       "kind": "regional_prebuilt_description",
-      "description": "Canada (CAD) buying checklist for HP OMEN 16L TG03-0109. Ryzen 7 8700F; GeForce RTX 4060; 32 GB RAM; 2 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+      "description": "Canada (CAD) buying checklist for HP OMEN 16L 19336203. Ryzen 7 8700F; GeForce RTX 4060; 32 GB RAM; 2 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
     },
     {
       "route": "/prebuilts/ca-hp-tg03-0009/",
       "kind": "regional_prebuilt_description",
-      "description": "Canada (CAD) buying checklist for HP OMEN 16L TG03-0009. Ryzen 7 8700F; GeForce RTX 5060 Ti; 16 GB RAM; 1 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+      "description": "Canada (CAD) buying checklist for HP OMEN 16L 19215745. Ryzen 7 8700F; GeForce RTX 5060 Ti; 16 GB RAM; 1 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
     },
     {
       "route": "/prebuilts/ca-hp-gt16-0129/",
       "kind": "regional_prebuilt_description",
-      "description": "Canada (CAD) buying checklist for HP Omen 35L GT16-0129. Ryzen 7 8700F; GeForce RTX 5070; 32 GB RAM; 2 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+      "description": "Canada (CAD) buying checklist for HP Omen 35L 19190409. Ryzen 7 8700F; GeForce RTX 5070; 32 GB RAM; 2 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
     },
     {
       "route": "/prebuilts/ca-alienware-dact1250-9876blk-pca/",
       "kind": "regional_prebuilt_description",
-      "description": "Canada (CAD) buying checklist for Alienware Aurora DACT1250-9876BLK-PCA. Core Ultra 9 285; GeForce RTX 5070; 32 GB RAM; 2 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
+      "description": "Canada (CAD) buying checklist for Alienware Aurora 19277768. Core Ultra 9 285; GeForce RTX 5070; 32 GB RAM; 2 TB SSD. Check the exact Best Buy Canada listing and undisclosed components."
     },
     {
       "route": "/prebuilts/us-ibuypower-sbi9n5702/",
       "kind": "regional_prebuilt_description",
-      "description": "United States (USD) buying checklist for iBUYPOWER Slate SBI9N5702. Core Ultra 9 285; GeForce RTX 5070; 32 GB DDR5 RAM; 2 TB SSD. Check the exact Best Buy listing and undisclosed components."
+      "description": "United States (USD) buying checklist for iBUYPOWER Slate 6668976. Core Ultra 9 285; GeForce RTX 5070; 32 GB DDR5 RAM; 2 TB SSD. Check the exact Best Buy listing and undisclosed components."
     },
     {
       "route": "/prebuilts/us-ibuypower-exwa7n5701/",
       "kind": "regional_prebuilt_description",
-      "description": "United States (USD) buying checklist for iBUYPOWER Element EXWA7N5701. Ryzen 7 9700F; GeForce RTX 5070; 32 GB DDR5 RAM; 1 TB SSD. Check the exact Best Buy listing and undisclosed components."
+      "description": "United States (USD) buying checklist for iBUYPOWER Element 6668975. Ryzen 7 9700F; GeForce RTX 5070; 32 GB DDR5 RAM; 1 TB SSD. Check the exact Best Buy listing and undisclosed components."
     },
     {
       "route": "/prebuilts/us-ibuypower-tbi7n5701/",
       "kind": "regional_prebuilt_description",
-      "description": "United States (USD) buying checklist for iBUYPOWER Trace TBI7N5701. Core Ultra 7 265F; GeForce RTX 5070; 32 GB DDR5 RAM; 2 TB SSD. Check the exact Best Buy listing and undisclosed components."
+      "description": "United States (USD) buying checklist for iBUYPOWER Trace 6668972. Core Ultra 7 265F; GeForce RTX 5070; 32 GB DDR5 RAM; 2 TB SSD. Check the exact Best Buy listing and undisclosed components."
     },
     {
       "route": "/prebuilts/us-ibuypower-ewa9n5701/",
       "kind": "regional_prebuilt_description",
-      "description": "United States (USD) buying checklist for iBUYPOWER Element EWA9N5701. Ryzen 9 9900X; GeForce RTX 5070; 32 GB DDR5 RAM; 2 TB NVME. Check the exact Best Buy listing and undisclosed components."
+      "description": "United States (USD) buying checklist for iBUYPOWER Element 12069519. Ryzen 9 9900X; GeForce RTX 5070; 32 GB DDR5 RAM; 2 TB NVME. Check the exact Best Buy listing and undisclosed components."
     },
     {
       "route": "/prebuilts/us-ibuypower-swi9n5701/",
       "kind": "regional_prebuilt_description",
-      "description": "United States (USD) buying checklist for iBUYPOWER Slate SWI9N5701. Core Ultra 9 285K; GeForce RTX 5070; 32 GB DDR5 RAM; 2 TB NVME. Check the exact Best Buy listing and undisclosed components."
+      "description": "United States (USD) buying checklist for iBUYPOWER Slate 6617838. Core Ultra 9 285K; GeForce RTX 5070; 32 GB DDR5 RAM; 2 TB NVME. Check the exact Best Buy listing and undisclosed components."
     },
     {
       "route": "/prebuilts/us-ibuypower-twi7n5701/",
       "kind": "regional_prebuilt_description",
-      "description": "United States (USD) buying checklist for iBUYPOWER Trace TWI7N5701. Core Ultra 7 265F; GeForce RTX 5070; 32 GB DDR5 RAM; 2 TB SSD. Check the exact Best Buy listing and undisclosed components."
+      "description": "United States (USD) buying checklist for iBUYPOWER Trace 12711980. Core Ultra 7 265F; GeForce RTX 5070; 32 GB DDR5 RAM; 2 TB SSD. Check the exact Best Buy listing and undisclosed components."
     },
     {
       "route": "/prebuilts/us-ibuypower-epbi7n5701/",
       "kind": "regional_prebuilt_description",
-      "description": "United States (USD) buying checklist for iBUYPOWER Element Pro EPBI7N5701. Ultra 7 265KF; GeForce RTX 5070; 32 GB RAM; 2 TB SSD. Check the exact Best Buy listing and undisclosed components."
+      "description": "United States (USD) buying checklist for iBUYPOWER Element Pro 12069520. Ultra 7 265KF; GeForce RTX 5070; 32 GB RAM; 2 TB SSD. Check the exact Best Buy listing and undisclosed components."
     },
     {
       "route": "/prebuilts/us-ibuypower-epbi9n5701/",
       "kind": "regional_prebuilt_description",
-      "description": "United States (USD) buying checklist for iBUYPOWER Element Pro EPBI9N5701. Core i9-14900KF; GeForce RTX 5070; 32 GB DDR5 RAM; 2 TB SSD. Check the exact Best Buy listing and undisclosed components."
+      "description": "United States (USD) buying checklist for iBUYPOWER Element Pro 12243890. Core i9-14900KF; GeForce RTX 5070; 32 GB DDR5 RAM; 2 TB SSD. Check the exact Best Buy listing and undisclosed components."
     },
     {
       "route": "/prebuilts/us-ibuypower-sba9n5701/",
       "kind": "regional_prebuilt_description",
-      "description": "United States (USD) buying checklist for iBUYPOWER Slate SBA9N5701. Ryzen 9 9900X3D; GeForce RTX 5070; 32 GB DDR5 RAM; 1 TB SSD. Check the exact Best Buy listing and undisclosed components."
+      "description": "United States (USD) buying checklist for iBUYPOWER Slate 6686145. Ryzen 9 9900X3D; GeForce RTX 5070; 32 GB DDR5 RAM; 1 TB SSD. Check the exact Best Buy listing and undisclosed components."
     },
     {
       "route": "/prebuilts/us-ibuypower-y40ba7n5703/",
       "kind": "regional_prebuilt_description",
-      "description": "United States (USD) buying checklist for iBUYPOWER Y40 Y40BA7N5703. Ryzen 7 9800X3D; GeForce RTX 5070; 32 GB DDR5 RAM; 1 TB SSD. Check the exact Best Buy listing and undisclosed components."
+      "description": "United States (USD) buying checklist for iBUYPOWER Y40 12347186. Ryzen 7 9800X3D; GeForce RTX 5070; 32 GB DDR5 RAM; 1 TB SSD. Check the exact Best Buy listing and undisclosed components."
     },
     {
       "route": "/prebuilts/us-ibuypower-y40bi7n5701/",
       "kind": "regional_prebuilt_description",
-      "description": "United States (USD) buying checklist for iBUYPOWER Y40 Y40BI7N5701. Core Ultra 7 265F; GeForce RTX 5070; 32 GB DDR5 RAM; 1 TB SSD. Check the exact Best Buy listing and undisclosed components."
+      "description": "United States (USD) buying checklist for iBUYPOWER Y40 12588080. Core Ultra 7 265F; GeForce RTX 5070; 32 GB DDR5 RAM; 1 TB SSD. Check the exact Best Buy listing and undisclosed components."
     },
     {
       "route": "/prebuilts/us-ibuypower-ebi5n5701/",
       "kind": "regional_prebuilt_description",
-      "description": "United States (USD) buying checklist for iBUYPOWER Element EBI5N5701. Core Ultra 5 250KF Plus; GeForce RTX 5070; 16 GB DDR5 RAM; 1 TB SSD. Check the exact Best Buy listing and undisclosed components."
+      "description": "United States (USD) buying checklist for iBUYPOWER Element 12637967. Core Ultra 5 250KF Plus; GeForce RTX 5070; 16 GB DDR5 RAM; 1 TB SSD. Check the exact Best Buy listing and undisclosed components."
     },
     {
       "route": "/prebuilts/us-ibuypower-swi9n5703/",
       "kind": "regional_prebuilt_description",
-      "description": "United States (USD) buying checklist for iBUYPOWER Slate SWI9N5703. Core Ultra 9 285; GeForce RTX 5070; 32 GB DDR5 RAM; 2 TB SSD. Check the exact Best Buy listing and undisclosed components."
+      "description": "United States (USD) buying checklist for iBUYPOWER Slate 12638401. Core Ultra 9 285; GeForce RTX 5070; 32 GB DDR5 RAM; 2 TB SSD. Check the exact Best Buy listing and undisclosed components."
     },
     {
       "route": "/prebuilts/us-ibuypower-sba7n5702/",
       "kind": "regional_prebuilt_description",
-      "description": "United States (USD) buying checklist for iBUYPOWER Slate SBA7N5702. Ryzen 7 8700F; GeForce RTX 5070; 32 GB DDR5 RAM; 1 TB SSD. Check the exact Best Buy listing and undisclosed components."
+      "description": "United States (USD) buying checklist for iBUYPOWER Slate 12347297. Ryzen 7 8700F; GeForce RTX 5070; 32 GB DDR5 RAM; 1 TB SSD. Check the exact Best Buy listing and undisclosed components."
     },
     {
       "route": "/prebuilts/us-ibuypower-sbi7n5701/",
       "kind": "regional_prebuilt_description",
-      "description": "United States (USD) buying checklist for iBUYPOWER Slate SBI7N5701. Core Ultra 7 265F; GeForce RTX 5070; 32 GB DDR5 RAM; 1 TB SSD. Check the exact Best Buy listing and undisclosed components."
+      "description": "United States (USD) buying checklist for iBUYPOWER Slate 12492738. Core Ultra 7 265F; GeForce RTX 5070; 32 GB DDR5 RAM; 1 TB SSD. Check the exact Best Buy listing and undisclosed components."
     },
     {
       "route": "/prebuilts/us-cyberpowerpc-slc9000bstv4/",
       "kind": "regional_prebuilt_description",
-      "description": "United States (USD) buying checklist for CyberPowerPC SLC9000BSTV4. Ryzen 7 9800X3D; GeForce RTX 5070; 32 GB DDR5 RAM; 2 TB SSD. Check the exact Best Buy listing and undisclosed components."
+      "description": "United States (USD) buying checklist for CyberPowerPC 6668816. Ryzen 7 9800X3D; GeForce RTX 5070; 32 GB DDR5 RAM; 2 TB SSD. Check the exact Best Buy listing and undisclosed components."
     },
     {
       "route": "/prebuilts/us-asus-gm700tz-r79800x3d5070ti/",
       "kind": "regional_prebuilt_description",
-      "description": "United States (USD) buying checklist for ASUS ROG GM700 GM700TZ-R79800X3D5070TI. Ryzen 7 9800X3D; GeForce RTX 5070 Ti; 32 GB RAM; 2 TB storage; interface not disclosed. Check the exact Best Buy listing and undisclosed components."
+      "description": "United States (USD) buying checklist for ASUS ROG GM700 6628292. Ryzen 7 9800X3D; GeForce RTX 5070 Ti; 32 GB RAM; 2 TB storage; interface not disclosed. Check the exact Best Buy listing and undisclosed components."
     },
     {
       "route": "/prebuilts/us-cyberpowerpc-gma5600bstv5/",
       "kind": "regional_prebuilt_description",
-      "description": "United States (USD) buying checklist for CyberPowerPC GMA5600BSTV5. Ryzen 5 8400F; GeForce RTX 3050; 16 GB DDR5 RAM; 1 TB SSD. Check the exact Best Buy listing and undisclosed components."
+      "description": "United States (USD) buying checklist for CyberPowerPC 6668819. Ryzen 5 8400F; GeForce RTX 3050; 16 GB DDR5 RAM; 1 TB SSD. Check the exact Best Buy listing and undisclosed components."
     },
     {
       "route": "/prebuilts/us-asus-g700tf-u5f5060/",
       "kind": "regional_prebuilt_description",
-      "description": "United States (USD) buying checklist for ASUS ROG G700 G700TF-U5F5060. Core Ultra 5 225F; GeForce RTX 5060; 16 GB RAM; 1 TB storage; interface not disclosed. Check the exact Best Buy listing and undisclosed components."
+      "description": "United States (USD) buying checklist for ASUS ROG G700 6613425. Core Ultra 5 225F; GeForce RTX 5060; 16 GB RAM; 1 TB storage; interface not disclosed. Check the exact Best Buy listing and undisclosed components."
     },
     {
       "route": "/prebuilts/us-cyberpowerpc-slc8800bstv11/",
       "kind": "regional_prebuilt_description",
-      "description": "United States (USD) buying checklist for CyberPowerPC SLC8800BSTV11. Core Ultra 7 265F; GeForce RTX 5070; 16 GB DDR5 RAM; 1 TB SSD. Check the exact Best Buy listing and undisclosed components."
+      "description": "United States (USD) buying checklist for CyberPowerPC 6668825. Core Ultra 7 265F; GeForce RTX 5070; 16 GB DDR5 RAM; 1 TB SSD. Check the exact Best Buy listing and undisclosed components."
     },
     {
       "route": "/prebuilts/us-msi-codex-r2-b14nvk5-669us/",
       "kind": "regional_prebuilt_description",
-      "description": "United States (USD) buying checklist for MSI Codex R2 Codex R2 B14NVK5-669US. i5-14400F; GeForce RTX 5050; 16 GB RAM; 1 TB storage; interface not disclosed. Check the exact Best Buy listing and undisclosed components."
+      "description": "United States (USD) buying checklist for MSI Codex R2 6670715. i5-14400F; GeForce RTX 5050; 16 GB RAM; 1 TB storage; interface not disclosed. Check the exact Best Buy listing and undisclosed components."
     },
     {
       "route": "/prebuilts/us-msi-codex-r2-b14nvl5-803us/",
       "kind": "regional_prebuilt_description",
-      "description": "United States (USD) buying checklist for MSI Codex R2 CODEX R2 B14NVL5-803US. i5-14400F; GeForce RTX 5060; 16 GB RAM; 1 TB SSD. Check the exact Best Buy listing and undisclosed components."
+      "description": "United States (USD) buying checklist for MSI Codex R2 6680895. i5-14400F; GeForce RTX 5060; 16 GB RAM; 1 TB SSD. Check the exact Best Buy listing and undisclosed components."
     },
     {
       "route": "/prebuilts/us-ibuypower-sbi5i5701/",
       "kind": "regional_prebuilt_description",
-      "description": "United States (USD) buying checklist for iBUYPOWER Slate SBI5I5701. Core Ultra 5 225F; Intel Arc B570; 16 GB DDR5 RAM; 1 TB SSD. Check the exact Best Buy listing and undisclosed components."
+      "description": "United States (USD) buying checklist for iBUYPOWER Slate 6668984. Core Ultra 5 225F; Intel Arc B570; 16 GB DDR5 RAM; 1 TB SSD. Check the exact Best Buy listing and undisclosed components."
     },
     {
       "route": "/prebuilts/us-cyberpowerpc-gxi3400bstv18/",
       "kind": "regional_prebuilt_description",
-      "description": "United States (USD) buying checklist for CyberPowerPC GXi3400BSTV18. Core Ultra 7 265F; GeForce RTX 5060 Ti; 16 GB DDR5 RAM; 1 TB SSD. Check the exact Best Buy listing and undisclosed components."
+      "description": "United States (USD) buying checklist for CyberPowerPC 6668818. Core Ultra 7 265F; GeForce RTX 5060 Ti; 16 GB DDR5 RAM; 1 TB SSD. Check the exact Best Buy listing and undisclosed components."
     },
     {
       "route": "/prebuilts/us-ibuypower-twra7r97xt01/",
       "kind": "regional_prebuilt_description",
-      "description": "United States (USD) buying checklist for iBUYPOWER Trace TWRA7R97XT01. Ryzen 7 9800X3D; Radeon RX 9070 XT; 32 GB DDR5 RAM; 2 TB SSD. Check the exact Best Buy listing and undisclosed components."
+      "description": "United States (USD) buying checklist for iBUYPOWER Trace 6668979. Ryzen 7 9800X3D; Radeon RX 9070 XT; 32 GB DDR5 RAM; 2 TB SSD. Check the exact Best Buy listing and undisclosed components."
     },
     {
       "route": "/prebuilts/us-skytech-gaming-st-king95-2062-w-bu/",
       "kind": "regional_prebuilt_description",
-      "description": "United States (USD) buying checklist for Skytech Gaming KING95 ST-KING95-2062-W-BU. Ryzen 7 9700X; GeForce RTX 5060 Ti; 16 GB RAM; 1 TB storage; interface not disclosed. Check the exact Best Buy listing and undisclosed components."
+      "description": "United States (USD) buying checklist for Skytech Gaming KING95 6633460. Ryzen 7 9700X; GeForce RTX 5060 Ti; 16 GB RAM; 1 TB storage; interface not disclosed. Check the exact Best Buy listing and undisclosed components."
     },
     {
       "route": "/prebuilts/us-hp-gt16-0884/",
       "kind": "regional_prebuilt_description",
-      "description": "United States (USD) buying checklist for HP OMEN 35L VALORANT Ltd. Ed. GT16-0884. Core i7-14700F; GeForce RTX 5060 Ti; 16 GB RAM; 1 TB SSD. Check the exact Best Buy listing and undisclosed components."
+      "description": "United States (USD) buying checklist for HP OMEN 35L VALORANT Ltd. Ed. 6643210. Core i7-14700F; GeForce RTX 5060 Ti; 16 GB RAM; 1 TB SSD. Check the exact Best Buy listing and undisclosed components."
     },
     {
       "route": "/prebuilts/us-cyberpowerpc-slc4400bsdfv8/",
       "kind": "regional_prebuilt_description",
-      "description": "United States (USD) buying checklist for CyberPowerPC SLC4400BSDFV8. Ryzen 7 9800X3D; Radeon RX 9070; 32 GB DDR5 RAM; 1 TB SSD. Check the exact Best Buy listing and undisclosed components."
+      "description": "United States (USD) buying checklist for CyberPowerPC 6668823. Ryzen 7 9800X3D; Radeon RX 9070; 32 GB DDR5 RAM; 1 TB SSD. Check the exact Best Buy listing and undisclosed components."
     },
     {
       "route": "/prebuilts/us-cyberpowerpc-slc8000bsdf/",
       "kind": "regional_prebuilt_description",
-      "description": "United States (USD) buying checklist for CyberPowerPC SLC8000BSDF. Ryzen 7 9700F; GeForce RTX 5070; 32 GB DDR5 RAM; 1 TB SSD. Check the exact Best Buy listing and undisclosed components."
+      "description": "United States (USD) buying checklist for CyberPowerPC 6668824. Ryzen 7 9700F; GeForce RTX 5070; 32 GB DDR5 RAM; 1 TB SSD. Check the exact Best Buy listing and undisclosed components."
     },
     {
       "route": "/prebuilts/us-hp-gt22-3090/",
       "kind": "regional_prebuilt_description",
-      "description": "United States (USD) buying checklist for OMEN by HP 45L GT22-3090. Ultra 9 285K; GeForce RTX 5090; 64 GB DDR5 RAM; 2 TB SSD. Check the exact Best Buy listing and undisclosed components."
+      "description": "United States (USD) buying checklist for OMEN by HP 45L 11006062. Ultra 9 285K; GeForce RTX 5090; 64 GB DDR5 RAM; 2 TB SSD. Check the exact Best Buy listing and undisclosed components."
     },
     {
       "route": "/prebuilts/us-acer-n65-100-ub13/",
       "kind": "regional_prebuilt_description",
-      "description": "United States (USD) buying checklist for Acer Nitro 65 N65-100-UB13. Ryzen 7 8700F; Radeon RX 9060 XT; 16 GB DDR5 RAM; 1 TB storage; interface not disclosed. Check the exact Best Buy listing and undisclosed components."
+      "description": "United States (USD) buying checklist for Acer Nitro 65 6671953. Ryzen 7 8700F; Radeon RX 9060 XT; 16 GB DDR5 RAM; 1 TB storage; interface not disclosed. Check the exact Best Buy listing and undisclosed components."
     },
     {
       "route": "/prebuilts/us-acer-n65-100-ub12/",
       "kind": "regional_prebuilt_description",
-      "description": "United States (USD) buying checklist for Acer Nitro 65 N65-100-UB12. Ryzen 7 8700F; GeForce RTX 5060; 16 GB DDR5 RAM; 1 TB storage; interface not disclosed. Check the exact Best Buy listing and undisclosed components."
+      "description": "United States (USD) buying checklist for Acer Nitro 65 6671955. Ryzen 7 8700F; GeForce RTX 5060; 16 GB DDR5 RAM; 1 TB storage; interface not disclosed. Check the exact Best Buy listing and undisclosed components."
     },
     {
       "route": "/prebuilts/us-msi-aegis-r2-ai-a2nvn7-1899us/",
       "kind": "regional_prebuilt_description",
-      "description": "United States (USD) buying checklist for MSI Aegis R2 AI Aegis R2 AI A2NVN7-1899US. Ultra 7 265; GeForce RTX 5060 Ti; 32 GB RAM; 2 TB storage; interface not disclosed. Check the exact Best Buy listing and undisclosed components."
+      "description": "United States (USD) buying checklist for MSI Aegis R2 AI 6670090. Ultra 7 265; GeForce RTX 5060 Ti; 32 GB RAM; 2 TB storage; interface not disclosed. Check the exact Best Buy listing and undisclosed components."
     },
     {
       "route": "/prebuilts/us-nzxt-player-one-14400f-5060/",
       "kind": "regional_prebuilt_description",
-      "description": "United States (USD) buying checklist for NZXT Player One Player One. Core i5-14400F; GeForce RTX 5060; 16 GB DDR5-5200 RAM; 1 TB NVMe M.2 SSD. Check the exact NZXT listing and undisclosed components."
+      "description": "United States (USD) buying checklist for NZXT Player One Player One / Core i5-14400F / GeForce RTX 5060 / 16 GB DDR5-5200 / 1 TB NVMe M.2 SSD. Core i5-14400F; GeForce RTX 5060; 16 GB DDR5-5200 RAM; 1 TB NVMe M.2 SSD. Check the exact NZXT listing and undisclosed components."
     },
     {
       "route": "/prebuilts/us-nzxt-player-two-270k-plus-5070/",
       "kind": "regional_prebuilt_description",
-      "description": "United States (USD) buying checklist for NZXT Player Two Player Two. Core Ultra 7 270K Plus; GeForce RTX 5070; 32 GB DDR5-6000 RAM; 2 TB NVMe M.2 SSD. Check the exact NZXT listing and undisclosed components."
+      "description": "United States (USD) buying checklist for NZXT Player Two Player Two / Core Ultra 7 270K Plus / GeForce RTX 5070 / 32 GB DDR5-6000 / 2 TB NVMe M.2 SSD. Core Ultra 7 270K Plus; GeForce RTX 5070; 32 GB DDR5-6000 RAM; 2 TB NVMe M.2 SSD. Check the exact NZXT listing and undisclosed components."
     },
     {
       "route": "/prebuilts/us-nzxt-player-three-9800x3d-5080/",
       "kind": "regional_prebuilt_description",
-      "description": "United States (USD) buying checklist for NZXT Player Three Player Three. Ryzen 7 9800X3D; GeForce RTX 5080; 32 GB DDR5-6000 RAM; 4 TB NVMe M.2 SSD. Check the exact NZXT listing and undisclosed components."
+      "description": "United States (USD) buying checklist for NZXT Player Three Player Three / Ryzen 7 9800X3D / GeForce RTX 5080 / 32 GB DDR5-6000 / 4 TB NVMe M.2 SSD. Ryzen 7 9800X3D; GeForce RTX 5080; 32 GB DDR5-6000 RAM; 4 TB NVMe M.2 SSD. Check the exact NZXT listing and undisclosed components."
     },
     {
       "route": "/prebuilts/us-nzxt-player-three-prime-9950x3d-5090/",
       "kind": "regional_prebuilt_description",
-      "description": "United States (USD) buying checklist for NZXT Player Three Prime Player Three Prime. Ryzen 9 9950X3D; GeForce RTX 5090; 64 GB DDR5-6000 RAM; 4 TB NVMe M.2 SSD. Check the exact NZXT listing and undisclosed components."
+      "description": "United States (USD) buying checklist for NZXT Player Three Prime Player Three Prime / Ryzen 9 9950X3D / GeForce RTX 5090 / 64 GB DDR5-6000 / 4 TB NVMe M.2 SSD. Ryzen 9 9950X3D; GeForce RTX 5090; 64 GB DDR5-6000 RAM; 4 TB NVMe M.2 SSD. Check the exact NZXT listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-msi-aer2aic2nvr1452/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for MSI Aegis R2 AI C2NVR9-1452US AeR2AIC2NVR1452. Core Ultra 9 285; GeForce RTX 5070 Ti; 32 GB DDR5 RAM; 2 TB NVMe PCIe 4.0 SSD. Check the exact MSI listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-msi-aer2aia2nvr71451/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for MSI Aegis R2 AI A2NVR7-1451US AeR2AIA2NVR71451. Core Ultra 7 265; GeForce RTX 5070 Ti; 32 GB DDR5 RAM; 2 TB NVMe PCIe 4.0 SSD. Check the exact MSI listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-msi-aer2aib2nvv91411/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for MSI Aegis R2 AI B2NVV9-1411US AeR2AIB2NVV91411. Core Ultra 9 285; GeForce RTX 5080; 64 GB DDR5 RAM; 2 TB NVMe PCIe 4.0 SSD. Check the exact MSI listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-msi-aer2aib2nvr91450/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for MSI Aegis R2 AI B2NVR9-1450US AeR2AIB2NVR91450. Core Ultra 9 285; GeForce RTX 5070 Ti; 32 GB DDR5 RAM; 2 TB NVMe PCIe 4.0 SSD. Check the exact MSI listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-msi-aegisrsaic2nvp92069/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for MSI Aegis R2 AI C2NVP9-2069US AegisRsAIC2NVP92069. Core Ultra 9 285; GeForce RTX 5070; 32 GB DDR5 RAM; 2 TB NVMe PCIe 4.0 SSD. Check the exact MSI listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-msi-aegisr2aic2nvp72070/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for MSI Aegis R2 AI C2NVP7-2070US AegisR2AIC2NVP72070. Core Ultra 7 265; GeForce RTX 5070; 32 GB DDR5 RAM; 2 TB NVMe PCIe 4.0 SSD. Check the exact MSI listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-msi-aer2a14nvp92058/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for MSI Aegis R2 A14NVP9-2058US AeR2A14NVP92058. Core i9-14900F; GeForce RTX 5070; 32 GB DDR5 RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact MSI listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-msi-aer2a2nvv92218/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for MSI Aegis R2 AI A2NVV9-2218US AeR2A2NVV92218. Core Ultra 9 285; GeForce RTX 5080; 32 GB DDR5 RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact MSI listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-msi-aer2a2nvr72221/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for MSI Aegis R2 AI A2NVR7-2221US AeR2A2NVR72221. Core Ultra 7 265; GeForce RTX 5070 Ti; 24 GB DDR5 RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact MSI listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-msi-codr2b14nuc5091/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for MSI Codex R2 B14NUC5-091US CodR2B14NUC5091. Core i5-14400F; GeForce RTX 4060; 16 GB DDR5 RAM; 2 TB NVMe PCIe 3.0 SSD. Check the exact MSI listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-msi-codr2b14nud7092/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for MSI Codex R2 B14NUD7-092US CodR2B14NUD7092. Core i7-14700F; GeForce RTX 4060 Ti; 32 GB DDR5 RAM; 2 TB NVMe PCIe 3.0 SSD. Check the exact MSI listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-msi-codr2b14nud7093/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for MSI Codex R2 B14NUD7-093US CodR2B14NUD7093. Core i7-14700F; GeForce RTX 4060 Ti; 16 GB DDR5 RAM; 1 TB NVMe PCIe 3.0 SSD. Check the exact MSI listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-msi-codr2b14nuc7095/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for MSI Codex R2 B14NUC7-095US CodR2B14NUC7095. Core i7-14700F; GeForce RTX 4060; 32 GB DDR5 RAM; 2 TB NVMe PCIe 3.0 SSD. Check the exact MSI listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-msi-codr2b14nuc5216/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for MSI Codex R2 B14NUC5-216US CodR2B14NUC5216. Core i5-14400F; GeForce RTX 4060; 16 GB DDR5 RAM; 1 TB NVMe PCIe 3.0 SSD. Check the exact MSI listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-msi-codr2a14nud5213/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for MSI Codex R2 A14NUD5-213US CodR2A14NUD5213. Core i5-14400F; GeForce RTX 4060 Ti; 16 GB DDR5 RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact MSI listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-msi-codr2c14nud7214/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for MSI Codex R2 C14NUD7-214US CodR2C14NUD7214. Core i7-14700F; GeForce RTX 4060 Ti; 16 GB DDR5 RAM; 1 TB NVMe PCIe 3.0 SSD. Check the exact MSI listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-msi-codr2b14nuc5212/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for MSI Codex R2 B14NUC5-212US CodR2B14NUC5212. Core i5-14400F; GeForce RTX 4060; 32 GB DDR5 RAM; 2 TB NVMe PCIe 3.0 SSD. Check the exact MSI listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-msi-codr2c14nuc7215/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for MSI Codex R2 C14NUC7-215US CodR2C14NUC7215. Core i7-14700F; GeForce RTX 4060; 32 GB DDR5 RAM; 1 TB NVMe PCIe 3.0 SSD. Check the exact MSI listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-msi-codr2a13nuc7217/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for MSI Codex R2 A13NUC7-217US CodR2A13NUC7217. Core i7-13700F; GeForce RTX 4060; 16 GB DDR5 RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact MSI listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-msi-codr2c13nuc5218/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for MSI Codex R2 C13NUC5-218US CodR2C13NUC5218. Core i5-13400F; GeForce RTX 4060; 16 GB DDR5 RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact MSI listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-msi-codr2a12ta219/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for MSI Codex R2 A12TA-219US CodR2A12TA219. Core i5-12400F; GeForce RTX 3050; 16 GB DDR5 RAM; 500 GB M.2; protocol not disclosed SSD. Check the exact MSI listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-msi-codr2c12ta220/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for MSI Codex R2 C12TA-220US CodR2C12TA220. Core i5-12400F; GeForce RTX 3050; 16 GB DDR5 RAM; 500 GB M.2; protocol not disclosed SSD. Check the exact MSI listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-msi-codr2c14nuc7226/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for MSI Codex R2 C14NUC7-226US CodR2C14NUC7226. Core i7-14700F; GeForce RTX 4060; 32 GB DDR5 RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact MSI listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-msi-codr2c14nue7228/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for MSI Codex R2 C14NUE7-228US CodR2C14NUE7228. Core i7-14700F; GeForce RTX 4070 SUPER; 32 GB DDR5 RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact MSI listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-msi-codr2c14nuc5229/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for MSI Codex R2 C14NUC5-229US CodR2C14NUC5229. Core i5-14400F; GeForce RTX 4060; 32 GB DDR5 RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact MSI listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-msi-codr2a14nuc5232/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for MSI Codex R2 A14NUC5-232US CodR2A14NUC5232. Core i5-14400F; GeForce RTX 4060; 16 GB DDR5 RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact MSI listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-msi-codr2a12ta237/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for MSI Codex R2 A12TA-237US CodR2A12TA237. Core i5-12400F; GeForce RTX 3050; 16 GB DDR5 RAM; 500 GB M.2; protocol not disclosed SSD. Check the exact MSI listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-msi-codr2b14nuc7240/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for MSI Codex R2 B14NUC7-240US CodR2B14NUC7240. Core i7-14700F; GeForce RTX 4060; 32 GB DDR5 RAM; 2 TB NVMe PCIe 4.0 SSD. Check the exact MSI listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-msi-codr2b14nvm7438/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for MSI Codex R2 B14NVM7-438US CodR2B14NVM7438. Core i7-14700F; GeForce RTX 5060 Ti; 32 GB DDR5 RAM; 2 TB NVMe PCIe 4.0 SSD. Check the exact MSI listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-msi-codr2b14nvl5447/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for MSI Codex R2 B14NVL5-447US CodR2B14NVL5447. Core i5-14400F; GeForce RTX 5060; 16 GB DDR5 RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact MSI listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-msi-codr2d14nvl5474/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for MSI Codex R2 D14NVL5-474US CodR2D14NVL5474. Core i5-14400F; GeForce RTX 5060; 16 GB DDR5 RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact MSI listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-msi-codr2c14nvl5473/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for MSI Codex R2 C14NVL5-473US CodR2C14NVL5473. Core i5-14400F; GeForce RTX 5060; 16 GB DDR5 RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact MSI listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-msi-codr2b14nvl5449/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for MSI Codex R2 B14NVL5-449US CodR2B14NVL5449. Core i5-14400F; GeForce RTX 5060; 32 GB DDR5 RAM; 2 TB NVMe PCIe 4.0 SSD. Check the exact MSI listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-msi-codr2d14nvk5605/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for MSI Codex R2 D14NVK5-605US CodR2D14NVK5605. Core i5-14400F; GeForce RTX 5050; 16 GB DDR5 RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact MSI listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-msi-codr2c13nvl7487/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for MSI Codex R2 C13NVL7-487US CodR2C13NVL7487. Core i7-13700F; GeForce RTX 5060; 32 GB DDR5 RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact MSI listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-msi-codr2d14nvp5613/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for MSI Codex R2 D14NVP5-613US CodR2D14NVP5613. Core i5-14400F; GeForce RTX 5070; 32 GB DDR5 RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact MSI listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-corsair-cs-9050131-na/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for CORSAIR VENGEANCE i7600 CS-9050131-NA. Core Ultra 7 265KF; GeForce RTX 5070; 32 GB DDR5 RAM; 1 TB NVMe SSD. Check the exact CORSAIR listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-corsair-cs-9050158-na/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for CORSAIR VENGEANCE a7500 CS-9050158-NA. Ryzen 7 9800X3D; GeForce RTX 5070; 32 GB DDR5 RAM; 1 TB NVMe SSD. Check the exact CORSAIR listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-corsair-cs-9050121-na/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for CORSAIR VENGEANCE a7500 CS-9050121-NA. Ryzen 7 9800X3D; GeForce RTX 5080; 32 GB DDR5 RAM; 2 TB NVMe SSD. Check the exact CORSAIR listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-corsair-cs-9050138-na/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for CORSAIR VENGEANCE i7600 CS-9050138-NA. Core Ultra 7 265KF; GeForce RTX 5080; 32 GB DDR5 RAM; 2 TB NVMe SSD. Check the exact CORSAIR listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-corsair-cs-9050146-na/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for CORSAIR VENGEANCE i7600 AIR CS-9050146-NA. Core Ultra 9 285K; GeForce RTX 5080; 32 GB DDR5 RAM; 2 TB NVMe SSD. Check the exact CORSAIR listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-corsair-cs-9060028-na/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for CORSAIR VENGEANCE i8200 CS-9060028-NA. Core i9-14900KF; GeForce RTX 5080; 64 GB DDR5-6000 RAM; 2 × 2 TB NVMe SSD. Check the exact CORSAIR listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-corsair-cs-9060029-na/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for CORSAIR VENGEANCE a8200 CS-9060029-NA. Ryzen 9 9950X3D; GeForce RTX 5080; 64 GB DDR5 RAM; 2 × 2 TB NVMe SSD. Check the exact CORSAIR listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-corsair-cs-9060021-na/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for CORSAIR VENGEANCE i8300 CS-9060021-NA. Core Ultra 9 285K; GeForce RTX 5080; 64 GB DDR5 RAM; 2 × 2 TB NVMe SSD. Check the exact CORSAIR listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-corsair-cs-9050157-na/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for CORSAIR VENGEANCE a7500 CS-9050157-NA. Ryzen 5 9600X; GeForce RTX 5060; 16 GB DDR5 RAM; 1 TB NVMe SSD. Check the exact CORSAIR listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ux0017us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26ARA8 90UX0017US 90UX0017US. Ryzen 5 7600; Radeon RX 7600; 16 GB DDR5-5600 RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ux0018us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26ARA8 90UX0018US 90UX0018US. Ryzen 5 7600; GeForce RTX 4060; 32 GB DDR5-5600 RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ux0019us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26ARA8 90UX0019US 90UX0019US. Ryzen 7 7700X; GeForce RTX 4060; 32 GB DDR5-5600 RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ux0012us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26ARA8 90UX0012US 90UX0012US. Ryzen 7 7700; GeForce RTX 4070 SUPER; 16 GB DDR5-5600 RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ux0013us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26ARA8 90UX0013US 90UX0013US. Ryzen 7 7700; GeForce RTX 4070 Ti SUPER; 32 GB DDR5-5600 RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ux0014us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26ARA8 90UX0014US 90UX0014US. Ryzen 5 7600; Radeon RX 7600; 16 GB DDR5-5600 RAM; 512 GB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-ca-lenovo-90ux000ycf/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for Lenovo Legion T5 26ARA8 90UX000YCF 90UX000YCF. Ryzen 7 7700; GeForce RTX 4060; 32 GB DDR5-5600 RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-ca-lenovo-90ux0011fz/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for Lenovo Legion T5 26ARA8 90UX0011FZ 90UX0011FZ. Ryzen 5 7600; GeForce RTX 4060; 16 GB DDR5-5600 RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ux0015us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26ARA8 90UX0015US 90UX0015US. Ryzen 7 7700; GeForce RTX 4060; 32 GB DDR5-5600 RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-ca-lenovo-90ux0010cf/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for Lenovo Legion T5 26ARA8 90UX0010CF 90UX0010CF. Ryzen 5 7600; GeForce RTX 4060; 16 GB DDR5-5600 RAM; 512 GB NVMe SSD + 1000 GB HDD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ux000xus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26ARA8 90UX000XUS 90UX000XUS. Ryzen 7 7700; Radeon RX 7600; 16 GB DDR5-5600 RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ux0016us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26ARA8 90UX0016US 90UX0016US. Ryzen 7 7700; Radeon RX 7600; 16 GB DDR5-5600 RAM; 512 GB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ux000qus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26ARA8 90UX000QUS 90UX000QUS. Ryzen 7 7700; GeForce RTX 4060; 16 GB DDR5-5600 RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ux000rus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26ARA8 90UX000RUS 90UX000RUS. Ryzen 5 7600; GeForce RTX 4060; 16 GB DDR5-5600 RAM; 512 GB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ux000sus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26ARA8 90UX000SUS 90UX000SUS. Ryzen 5 7600; GeForce RTX 4060; 16 GB DDR5-5600 RAM; 512 GB NVMe SSD + 1000 GB HDD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ux000tus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26ARA8 90UX000TUS 90UX000TUS. Ryzen 7 7700; GeForce RTX 4060; 16 GB DDR5-5600 RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ux000uus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26ARA8 90UX000UUS 90UX000UUS. Ryzen 7 7700; GeForce RTX 4060 Ti; 16 GB DDR5-5600 RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ux000vus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26ARA8 90UX000VUS 90UX000VUS. Ryzen 7 7700X; GeForce RTX 4060 Ti; 16 GB DDR5-5600 RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ux000wus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26ARA8 90UX000WUS 90UX000WUS. Ryzen 7 7700; GeForce RTX 4060 Ti; 16 GB DDR5-5600 RAM; 512 GB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ux0009us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26ARA8 90UX0009US 90UX0009US. Ryzen 7 7700X; GeForce RTX 4070; 16 GB DDR5-5600 RAM; 512 GB NVMe SSD + 1000 GB HDD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ux000aus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26ARA8 90UX000AUS 90UX000AUS. Ryzen 7 7700X; GeForce RTX 4070; 32 GB DDR5-5600 RAM; 1000 GB NVMe SSD + 1000 GB HDD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ux000bus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26ARA8 90UX000BUS 90UX000BUS. Ryzen 7 7700; GeForce RTX 4070; 16 GB DDR5-5600 RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ux000cus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26ARA8 90UX000CUS 90UX000CUS. Ryzen 7 7700; GeForce RTX 4070; 16 GB DDR5-5600 RAM; 512 GB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ux000gus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26ARA8 90UX000GUS 90UX000GUS. Ryzen 7 7700; GeForce RTX 4070; 32 GB DDR5-5600 RAM; 512 GB NVMe SSD + 1000 GB HDD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-ca-lenovo-90ux000hfz/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for Lenovo Legion T5 26ARA8 90UX000HFZ 90UX000HFZ. Ryzen 7 7700; GeForce RTX 4070; 32 GB DDR5-5600 RAM; 512 GB NVMe SSD + 1000 GB HDD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-ca-lenovo-90ux000lcf/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for Lenovo Legion T5 26ARA8 90UX000LCF 90UX000LCF. Ryzen 7 7700; GeForce RTX 4070; 16 GB DDR5-5600 RAM; 512 GB NVMe SSD + 1000 GB HDD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-ca-lenovo-90ux000mfz/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for Lenovo Legion T5 26ARA8 90UX000MFZ 90UX000MFZ. Ryzen 7 7700; GeForce RTX 4070; 16 GB DDR5-5600 RAM; 512 GB NVMe SSD + 1000 GB HDD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-ca-lenovo-90ux000pfz/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for Lenovo Legion T5 26ARA8 90UX000PFZ 90UX000PFZ. Ryzen 7 7700; GeForce RTX 4070; 16 GB DDR5-5600 RAM; 512 GB NVMe SSD + 1000 GB HDD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-ca-lenovo-90ux000nfz/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for Lenovo Legion T5 26ARA8 90UX000NFZ 90UX000NFZ. Ryzen 5 7600; GeForce RTX 3060; 16 GB DDR5-5600 RAM; 512 GB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ux0000us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26ARA8 90UX0000US 90UX0000US. Ryzen 7 7700X; GeForce RTX 4070 Ti; 16 GB DDR5-5600 RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90ux0006us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T5 26ARA8 90UX0006US 90UX0006US. Ryzen 5 7600; GeForce RTX 3050; 16 GB DDR5-5600 RAM; 512 GB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90v60015us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T7 34IRZ8 90V60015US 90V60015US. Core i7-14700KF; GeForce RTX 4080 SUPER; 32 GB DDR5-5600 RAM; 2 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90v6000xut/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T7 34IRZ8 90V6000XUT 90V6000XUT. Core i9-14900KF; GeForce RTX 4080 SUPER; 64 GB DDR5-5600 RAM; 2 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90v6000tus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T7 34IRZ8 90V6000TUS 90V6000TUS. Core i9-14900KF; GeForce RTX 4080 SUPER; 32 GB DDR5-5600 RAM; 2 × 1 TB NVMe SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90v6000wus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T7 34IRZ8 90V6000WUS 90V6000WUS. Core i9-14900KF; GeForce RTX 4080 SUPER; 32 GB DDR5-5600 RAM; 2 × 1 TB NVMe SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90v6000lus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T7 34IRZ8 90V6000LUS 90V6000LUS. Core i9-14900KF; GeForce RTX 4080 SUPER; 32 GB DDR5-5600 RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90v6000mus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T7 34IRZ8 90V6000MUS 90V6000MUS. Core i9-14900KF; GeForce RTX 4080 SUPER; 32 GB DDR5-5600 RAM; 2 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90v6000nus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T7 34IRZ8 90V6000NUS 90V6000NUS. Core i9-14900KF; GeForce RTX 4080 SUPER; 32 GB DDR5-5600 RAM; 2 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-ca-lenovo-90v6000rcf/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for Lenovo Legion T7 34IRZ8 90V6000RCF 90V6000RCF. Core i9-14900KF; GeForce RTX 4080 SUPER; 32 GB DDR5-5600 RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90v6000uus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T7 34IRZ8 90V6000UUS 90V6000UUS. Core i9-14900KF; GeForce RTX 4080 SUPER; 32 GB DDR5-5600 RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90v6000vus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T7 34IRZ8 90V6000VUS 90V6000VUS. Core i9-14900KF; GeForce RTX 4070 Ti SUPER; 32 GB DDR5-5600 RAM; 2 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90v6000kus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T7 34IRZ8 90V6000KUS 90V6000KUS. Core i9-14900KF; GeForce RTX 4070 Ti SUPER; 32 GB DDR5-5600 RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-ca-lenovo-90v6000scf/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for Lenovo Legion T7 34IRZ8 90V6000SCF 90V6000SCF. Core i7-14700KF; GeForce RTX 4070 Ti SUPER; 32 GB DDR5-5600 RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90v6000pus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T7 34IRZ8 90V6000PUS 90V6000PUS. Core i9-14900KF; GeForce RTX 4070 Ti; 32 GB DDR5-5600 RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90v6000qus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T7 34IRZ8 90V6000QUS 90V6000QUS. Core i9-14900KF; GeForce RTX 4080; 32 GB DDR5-5600 RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90v7003jus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T7 34IRZ8 90V7003JUS 90V7003JUS. Core i7-13700KF; GeForce RTX 4070 Ti; 16 GB DDR5-5600 RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90v6000aus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T7 34IRZ8 90V6000AUS 90V6000AUS. Core i7-13700KF; GeForce RTX 4070 Ti; 32 GB DDR5-5600 RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90v6000hus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T7 34IRZ8 90V6000HUS 90V6000HUS. Core i7-13700KF; GeForce RTX 4070 Ti; 32 GB DDR5-5600 RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90v6000eut/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T7 34IRZ8 90V6000EUT 90V6000EUT. Core i7-13700KF; GeForce RTX 4070; 64 GB DDR5-4800 RAM; 2 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-ca-lenovo-90v6000gfz/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for Lenovo Legion T7 34IRZ8 90V6000GFZ 90V6000GFZ. Core i7-13700KF; GeForce RTX 4080; 32 GB DDR5-5600 RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90v6000dus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T7 34IRZ8 90V6000DUS 90V6000DUS. Core i7-13700KF; GeForce RTX 4070 Ti; 32 GB DDR5-5600 RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90v70051us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T7 34IRZ8 90V70051US 90V70051US. Core i9-13900KF; GeForce RTX 4080; 32 GB DDR5-5600 RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90v6000cus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T7 34IRZ8 90V6000CUS 90V6000CUS. Core i9-13900KF; GeForce RTX 4080; 32 GB DDR5-5600 RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90v6000bus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T7 34IRZ8 90V6000BUS 90V6000BUS. Core i9-13900KF; GeForce RTX 4080; 32 GB DDR5-5600 RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90v7004lus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T7 34IRZ8 90V7004LUS 90V7004LUS. Core i9-13900KF; GeForce RTX 4080; 32 GB DDR5-5600 RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90v7003nus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T7 34IRZ8 90V7003NUS 90V7003NUS. Core i7-13700KF; GeForce RTX 4080; 16 GB DDR5-5600 RAM; 512 GB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90v7003pus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T7 34IRZ8 90V7003PUS 90V7003PUS. Core i7-13700KF; GeForce RTX 4080; 16 GB DDR5-5600 RAM; 1000 GB NVMe SSD + 1000 GB HDD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90v60009us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T7 34IRZ8 90V60009US 90V60009US. Core i7-13700KF; GeForce RTX 4080; 32 GB DDR5-5600 RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90v7003hus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T7 34IRZ8 90V7003HUS 90V7003HUS. Core i7-13700KF; GeForce RTX 4080; 32 GB DDR5-5600 RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90v60008us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T7 34IRZ8 90V60008US 90V60008US. Core i9-13900KF; GeForce RTX 4080; 32 GB DDR5-5600 RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90v7003aus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T7 34IRZ8 90V7003AUS 90V7003AUS. Core i9-13900KF; GeForce RTX 4080; 32 GB DDR5-5600 RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90y50001us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T7 34IAS10 90Y50001US 90Y50001US. Core Ultra 9 285K; GeForce RTX 5080; 32 GB DDR5-5600 UDIMM RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90y50000us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T7 34IAS10 90Y50000US 90Y50000US. Core Ultra 7 270K Plus; GeForce RTX 5080; 32 GB DDR5-6400 CUDIMM RAM; 2 × 1 TB NVMe SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90y600baus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T7 34IAS10 90Y600BAUS 90Y600BAUS. Core Ultra 7 270K Plus; GeForce RTX 5080; 32 GB DDR5-5600 UDIMM RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90y600bdus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T7 34IAS10 90Y600BDUS 90Y600BDUS. Core Ultra 7 270K Plus; GeForce RTX 5070 Ti; 32 GB DDR5-5600 UDIMM RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90y600beus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T7 34IAS10 90Y600BEUS 90Y600BEUS. Core Ultra 7 270K Plus; GeForce RTX 5080; 32 GB DDR5-5600 UDIMM RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90y80004us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T7 34IAS10 90Y80004US 90Y80004US. Core Ultra 9 285K; GeForce RTX 5090; 64 GB DDR5-5600 UDIMM RAM; 2 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90y80003us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T7 34IAS10 90Y80003US 90Y80003US. Core Ultra 9 285K; GeForce RTX 5090; 64 GB DDR5-5600 UDIMM RAM; 2 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90y80000us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T7 34IAS10 90Y80000US 90Y80000US. Core Ultra 9 285K; GeForce RTX 5090; 64 GB DDR5-5600 UDIMM RAM; 2 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-ca-lenovo-90y80002cf/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for Lenovo Legion T7 34IAS10 90Y80002CF 90Y80002CF. Core Ultra 9 285K; GeForce RTX 5090; 64 GB DDR5-5600 UDIMM RAM; 2 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90y6007mus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T7 34IAS10 90Y6007MUS 90Y6007MUS. Core Ultra 9 285K; GeForce RTX 5080; 32 GB DDR5-5600 UDIMM RAM; 2 × 1 TB NVMe SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-ca-lenovo-90y6007ncf/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for Lenovo Legion T7 34IAS10 90Y6007NCF 90Y6007NCF. Core Ultra 9 285K; GeForce RTX 5080; 32 GB DDR5-5600 UDIMM RAM; 2 × 1 TB NVMe SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90y6000pus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T7 34IAS10 90Y6000PUS 90Y6000PUS. Core Ultra 9 285K; GeForce RTX 4080 SUPER; 32 GB DDR5-6400 CUDIMM RAM; 2 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90y6003hus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T7 34IAS10 90Y6003HUS 90Y6003HUS. Core Ultra 9 285K; GeForce RTX 5070 Ti; 32 GB DDR5-5600 UDIMM RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-ca-lenovo-90y6006jcf/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for Lenovo Legion T7 34IAS10 90Y6006JCF 90Y6006JCF. Core Ultra 9 285K; GeForce RTX 5070 Ti; 32 GB DDR5-5600 UDIMM RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-ca-lenovo-90y6006kcf/",
+      "kind": "regional_prebuilt_description",
+      "description": "Canada (CAD) buying checklist for Lenovo Legion T7 34IAS10 90Y6006KCF 90Y6006KCF. Core Ultra 9 285K; GeForce RTX 5080; 32 GB DDR5-5600 UDIMM RAM; 2 × 1 TB NVMe SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90y60001us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T7 34IAS10 90Y60001US 90Y60001US. Core Ultra 9 285K; GeForce RTX 4080 SUPER; 32 GB DDR5-5600 UDIMM RAM; 2 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90y6000qus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T7 34IAS10 90Y6000QUS 90Y6000QUS. Core Ultra 9 285K; GeForce RTX 4080 SUPER; 32 GB DDR5-5600 UDIMM RAM; 2 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90y6000yus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T7 34IAS10 90Y6000YUS 90Y6000YUS. Core Ultra 9 285K; No discrete graphics supplied; 64 GB DDR5-5600 UDIMM RAM; 2 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90y60010us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T7 34IAS10 90Y60010US 90Y60010US. Core Ultra 9 285K; No discrete graphics supplied; 64 GB DDR5-5600 UDIMM RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90y60015us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T7 34IAS10 90Y60015US 90Y60015US. Core Ultra 9 285K; GeForce RTX 4080 SUPER; 64 GB DDR5-5600 UDIMM RAM; 2 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90y60016us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T7 34IAS10 90Y60016US 90Y60016US. Core Ultra 9 285K; GeForce RTX 4080 SUPER; 64 GB DDR5-5600 UDIMM RAM; 2 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90y6001jus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T7 34IAS10 90Y6001JUS 90Y6001JUS. Core Ultra 7 265K; GeForce RTX 5080; 32 GB DDR5-5600 UDIMM RAM; 2 × 1 TB NVMe SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90y60032us/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T7 34IAS10 90Y60032US 90Y60032US. Core Ultra 7 265KF; GeForce RTX 5080; 32 GB DDR5-5600 UDIMM RAM; 2 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90y6003jus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T7 34IAS10 90Y6003JUS 90Y6003JUS. Core Ultra 9 285K; GeForce RTX 5080; 64 GB DDR5-5600 UDIMM RAM; 2 × 1 TB NVMe SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90y6003kus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T7 34IAS10 90Y6003KUS 90Y6003KUS. Core Ultra 7 265KF; GeForce RTX 5080; 32 GB DDR5-5600 UDIMM RAM; 1 TB NVMe PCIe 4.0 SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90y6003rus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T7 34IAS10 90Y6003RUS 90Y6003RUS. Core Ultra 9 285K; GeForce RTX 5080; 64 GB DDR5-5600 UDIMM RAM; 2 × 1 TB NVMe SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90y6003wus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T7 34IAS10 90Y6003WUS 90Y6003WUS. Core Ultra 9 285K; GeForce RTX 5080; 32 GB DDR5-5600 UDIMM RAM; 2 × 1 TB NVMe SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90y6004fus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T7 34IAS10 90Y6004FUS 90Y6004FUS. Core Ultra 9 285K; No discrete graphics supplied; 64 GB DDR5-5600 UDIMM RAM; 2 × 1 TB NVMe SSD. Check the exact Lenovo listing and undisclosed components."
+    },
+    {
+      "route": "/prebuilts/total-us-lenovo-90y6004gus/",
+      "kind": "regional_prebuilt_description",
+      "description": "United States (USD) buying checklist for Lenovo Legion T7 34IAS10 90Y6004GUS 90Y6004GUS. Core Ultra 9 285K; GeForce RTX 5080; 64 GB DDR5-5600 UDIMM RAM; 2 × 1 TB NVMe SSD. Check the exact Lenovo listing and undisclosed components."
     },
     {
       "route": "/performance/games/",
       "kind": "game_pagination",
-      "title": "PC Game Directory — Page 1 of 5 | PC Part Performance",
-      "description": "Browse games 1–24 of 107, including Fortnite and Call of Duty 4: Modern Warfare. Page 1 of 5; open a game to check available performance evidence.",
+      "title": "PC Game Directory — Page 1 of 10 | PC Part Performance",
+      "description": "Browse games 1–24 of 217, including Fortnite and Call of Duty 4: Modern Warfare. Page 1 of 10; open a game to check available performance evidence.",
       "first": 1,
       "last": 24,
-      "total": 107
+      "total": 217
     },
     {
       "route": "/performance/games/page/2/",
       "kind": "game_pagination",
-      "title": "PC Game Directory — Page 2 of 5 | PC Part Performance",
-      "description": "Browse games 25–48 of 107, including Call of Duty: Modern Warfare 2 and Max Payne 3. Page 2 of 5; open a game to check available performance evidence.",
+      "title": "PC Game Directory — Page 2 of 10 | PC Part Performance",
+      "description": "Browse games 25–48 of 217, including Call of Duty: Modern Warfare 2 and Max Payne 3. Page 2 of 10; open a game to check available performance evidence.",
       "first": 25,
       "last": 48,
-      "total": 107
+      "total": 217
     },
     {
       "route": "/performance/games/page/3/",
       "kind": "game_pagination",
-      "title": "PC Game Directory — Page 3 of 5 | PC Part Performance",
-      "description": "Browse games 49–72 of 107, including Raft and Farming Simulator 22. Page 3 of 5; open a game to check available performance evidence.",
+      "title": "PC Game Directory — Page 3 of 10 | PC Part Performance",
+      "description": "Browse games 49–72 of 217, including Raft and Farming Simulator 22. Page 3 of 10; open a game to check available performance evidence.",
       "first": 49,
       "last": 72,
-      "total": 107
+      "total": 217
     },
     {
       "route": "/performance/games/page/4/",
       "kind": "game_pagination",
-      "title": "PC Game Directory — Page 4 of 5 | PC Part Performance",
-      "description": "Browse games 73–96 of 107, including Farming Simulator 25 and Black Myth: Wukong. Page 4 of 5; open a game to check available performance evidence.",
+      "title": "PC Game Directory — Page 4 of 10 | PC Part Performance",
+      "description": "Browse games 73–96 of 217, including Farming Simulator 25 and Black Myth: Wukong. Page 4 of 10; open a game to check available performance evidence.",
       "first": 73,
       "last": 96,
-      "total": 107
+      "total": 217
     },
     {
       "route": "/performance/games/page/5/",
       "kind": "game_pagination",
-      "title": "PC Game Directory — Page 5 of 5 | PC Part Performance",
-      "description": "Browse games 97–107 of 107, including Elden Ring and Rocket League. Page 5 of 5; open a game to check available performance evidence.",
+      "title": "PC Game Directory — Page 5 of 10 | PC Part Performance",
+      "description": "Browse games 97–120 of 217, including Elden Ring and Fallout: New Vegas. Page 5 of 10; open a game to check available performance evidence.",
       "first": 97,
-      "last": 107,
-      "total": 107
+      "last": 120,
+      "total": 217
+    },
+    {
+      "route": "/performance/games/page/6/",
+      "kind": "game_pagination",
+      "title": "PC Game Directory — Page 6 of 10 | PC Part Performance",
+      "description": "Browse games 121–144 of 217, including Fallout 3: Game of the Year Edition and Hades. Page 6 of 10; open a game to check available performance evidence.",
+      "first": 121,
+      "last": 144,
+      "total": 217
+    },
+    {
+      "route": "/performance/games/page/7/",
+      "kind": "game_pagination",
+      "title": "PC Game Directory — Page 7 of 10 | PC Part Performance",
+      "description": "Browse games 145–168 of 217, including Hades II and Dead Space. Page 7 of 10; open a game to check available performance evidence.",
+      "first": 145,
+      "last": 168,
+      "total": 217
+    },
+    {
+      "route": "/performance/games/page/8/",
+      "kind": "game_pagination",
+      "title": "PC Game Directory — Page 8 of 10 | PC Part Performance",
+      "description": "Browse games 169–192 of 217, including Dead Space (2008) and Grand Theft Auto V Legacy. Page 8 of 10; open a game to check available performance evidence.",
+      "first": 169,
+      "last": 192,
+      "total": 217
+    },
+    {
+      "route": "/performance/games/page/9/",
+      "kind": "game_pagination",
+      "title": "PC Game Directory — Page 9 of 10 | PC Part Performance",
+      "description": "Browse games 193–216 of 217, including The Elder Scrolls® Online and ROUNDS. Page 9 of 10; open a game to check available performance evidence.",
+      "first": 193,
+      "last": 216,
+      "total": 217
+    },
+    {
+      "route": "/performance/games/page/10/",
+      "kind": "game_pagination",
+      "title": "PC Game Directory — Page 10 of 10 | PC Part Performance",
+      "description": "Browse games 217–217 of 217, including Golf With Your Friends and Golf With Your Friends. Page 10 of 10; open a game to check available performance evidence.",
+      "first": 217,
+      "last": 217,
+      "total": 217
     }
   ],
   "redirects": [

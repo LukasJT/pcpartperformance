@@ -1,0 +1,14 @@
+{
+  "checkedAt": "2026-10-19T19:41:24.110Z",
+  "scope": "Local data normalization only; no Git push or deployment",
+  "files": [
+    "data/public-price-snapshot.json",
+    "data/public-price-history.json",
+    "data/operations-source-state.json",
+    "data/operations-review-queue.json",
+    "data/operations-status.json"
+  ],
+  "observations": 10,
+  "reviewLeads": 39,
+  "articlesPublished": 0
+}

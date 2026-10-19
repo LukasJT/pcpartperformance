@@ -12,6 +12,9 @@ function main(){
  if(normalize(git(['show','origin/main:'+workflow]))===normalize(source)){console.log(JSON.stringify({state:'already_current',defaultBranchCommit:parent,changedFiles:[]}));return;}
  if(normalize(git(['show',production+':'+workflow]))!==normalize(source))throw Error('Deploy and push the tested production workflow before activating its default-branch schedule.');
  git(['cat-file','-e',production+':scripts/completion-price-history.test.mjs']);
+ for(const required of ['scripts/total-operations.mjs','scripts/total-operations-sources.mjs','scripts/total-operations-publish.mjs','scripts/total-operations.test.mjs']){
+  if(normalize(git(['show',production+':'+required]))!==normalize(fs.readFileSync(required,'utf8')))throw Error('Deploy the tested daily-operations source before activating its default-branch workflow: '+required);
+ }
  if(!push){console.log(JSON.stringify({state:'ready_for_explicit_push',base:parent,changedFiles:[workflow]}));return;}
  const dir=path.resolve('tmp');fs.mkdirSync(dir,{recursive:true});const index=path.join(dir,'workflow-index-'+crypto.randomUUID()),env={...process.env,GIT_INDEX_FILE:index};
  let commit;

@@ -1,0 +1,155 @@
+{
+  "checkedAt": "2026-10-19T20:24:19.937Z",
+  "scope": "Game FPS screenshot stabilization, official game-release expansion, console hardware and selected retro history",
+  "baseline": {
+    "pcProfiles": 107,
+    "consoleGameModelRows": 45
+  },
+  "additions": {
+    "pcWindowsEditions": 110,
+    "consoleReleaseEditions": 508,
+    "byConsolePlatform": {
+      "ps5": 110,
+      "switch": 136,
+      "switch2": 154,
+      "xbox-series": 108
+    },
+    "totalReleaseEditionRecords": 618,
+    "byEvidenceType": {
+      "official-platform-product-page": 421,
+      "official-platform-release-announcement": 87
+    },
+    "newMeasuredBenchmarks": 0,
+    "newLicensedThirdPartyArtwork": 0,
+    "originalFallbackIllustrations": 1,
+    "modernConsoleReferences": 6,
+    "retroHardwareLandmarks": 16
+  },
+  "resultingCatalog": {
+    "pcProfiles": 217,
+    "consoleGameModelRows": 553
+  },
+  "identity": {
+    "distinctCanonicalIdsInNewData": 573,
+    "meaning": "Canonical IDs group reviewed same-game editions where established. This count is not a claim of that many newly discovered unique underlying games. Cross-store aliases, remasters and editions may need additional curation.",
+    "examples": [
+      "Fallout 3 and its GOTY edition share one canonical game ID while keeping their separate Steam app IDs.",
+      "Dark Souls II and Scholar retain separate edition records with a shared reviewed canonical game ID.",
+      "Nintendo native Switch 2 releases are separate from Switch releases; no blanket backward-compatibility claim is generated.",
+      "Xbox Series X|S official family listings stay grouped and cannot create individual measured Series X or Series S results."
+    ]
+  },
+  "targets": [
+    {
+      "platform": "PC Windows",
+      "targetAdditional": 100,
+      "verifiedAdditional": 110,
+      "status": "met"
+    },
+    {
+      "platform": "ps5",
+      "targetAdditional": 100,
+      "verifiedAdditional": 110,
+      "status": "met",
+      "remaining": 0
+    },
+    {
+      "platform": "switch",
+      "targetAdditional": 100,
+      "verifiedAdditional": 136,
+      "status": "met",
+      "remaining": 0
+    },
+    {
+      "platform": "switch2",
+      "targetAdditional": 100,
+      "verifiedAdditional": 154,
+      "status": "met",
+      "remaining": 0
+    },
+    {
+      "platform": "xbox-series",
+      "targetAdditional": 100,
+      "verifiedAdditional": 108,
+      "status": "met",
+      "remaining": 0
+    }
+  ],
+  "evidence": {
+    "pc": "Steam public store listing metadata: exact app ID, Windows platform, developer, publisher, release information, observed timestamp and extracted-fact SHA-256.",
+    "sony": "Exact title and product-specific PS5 platform field from official PlayStation game pages, not mentions of PS5 in site navigation.",
+    "nintendo": "Exact base-game NSUID, available-now status and native platform code from official Nintendo collection metadata. DLC, upgrade packs and bundles excluded.",
+    "xbox": "21 exact Game product records from the official optimized catalog plus 87 exact SKU/platform announcements from five Xbox Wire weekly articles. Announcement dates stay separately labeled and do not prove current availability. No undocumented seller API or FPS estimate used.",
+    "hardware": "12 cited manufacturer specification/history pages; original 2020 PS5 scope, exact Switch revision and Xbox storage variants remain explicit."
+  },
+  "publication": {
+    "pcCatalogPages": 10,
+    "newConsoleCatalogPages": 23,
+    "newConsoleReferenceRoutes": [
+      "/performance/consoles/",
+      "/performance/retro/"
+    ],
+    "newIndividualGameRoutes": 0,
+    "pcUnknownOrFutureReleaseHandling": "Existing announced titles remain clearly labeled; no FPS is derived from an unconfirmed PC release.",
+    "futurePS5Listings": 0,
+    "sourceDateNotSupplied": 2
+  },
+  "performance": {
+    "initialPcExpansionJavaScript": "Compact metadata only; approximately 3.6 KB gzip for the current 110 records.",
+    "consoleMetadata": "Full console evidence JSON is requested only when a visitor opens a console view.",
+    "renderedPcTilesInitially": 12,
+    "renderedConsoleCardsInitially": 24,
+    "moreResultsStep": 24,
+    "heavyVisualDependenciesAdded": 0
+  },
+  "screenshotIssue": {
+    "id": "PHOTO-4",
+    "before": "docs/total-refinement/qa/fps/before-user-iphone-4.jpg",
+    "after": "docs/total-refinement/qa/fps/pc-light-390.png",
+    "rootCause": "Oversized legacy form styling, repeated missing-evidence prose, always-promoted synthetic demonstration and unbounded game result rendering.",
+    "fix": "Scoped compact form, eight visual platform controls, one concise evidence result, optional methodology, removed synthetic estimator, bounded game lists and truthful image fallback.",
+    "unitCommand": "node --test scripts/total-fps.test.cjs scripts/total-fps-games.test.cjs scripts/total-console-hardware.test.cjs",
+    "browserCommand": "node scripts/total-fps.browser.cjs"
+  },
+  "browserQA": {
+    "fps": {
+      "checkedAt": "2026-10-19T20:24:06.716Z",
+      "browser": "Isolated headless Edge Chromium; not iOS Safari",
+      "passed": 18,
+      "failed": 0,
+      "report": "docs/total-refinement/qa/fps/report.json"
+    },
+    "consoleHardware": {
+      "checkedAt": "2026-10-19T20:17:49.446Z",
+      "browser": "Isolated headless Edge Chromium; not iOS Safari",
+      "passed": 36,
+      "failed": 0,
+      "report": "docs/total-refinement/qa/consoles/report.json"
+    }
+  },
+  "importCommands": [
+    "node --use-system-ca scripts/total-fps-games.cjs --fetch",
+    "node --use-system-ca scripts/total-fps-platforms.cjs --fetch-sony",
+    "node --use-system-ca scripts/total-fps-platforms.cjs --fetch-nintendo",
+    "node --use-system-ca scripts/total-fps-platforms.cjs --fetch-xbox",
+    "node --use-system-ca scripts/total-fps-xbox-wire.cjs --fetch"
+  ],
+  "limitations": [
+    "Xbox catalog availability metadata covers 21 additional listings; another 87 exact SKU/platform entries are verified through dated official release announcements. Those 87 entries are not claimed to have a currently rechecked store availability or unchanged release date.",
+    "No newly measured PC or console FPS records were acquired. A verified game listing never becomes a measured benchmark.",
+    "No third-party game artwork redistribution rights were established. New entries use one clearly labeled original category illustration; existing legacy artwork needs its separate rights audit.",
+    "The retro section contains 16 hardware history landmarks. It is not a comprehensive retro game library.",
+    "Browser QA uses isolated Chromium Edge. Native iPhone Safari, virtual keyboards, screen-reader output and real-user Core Web Vitals remain separate checks.",
+    "Importers are bounded research commands, not an installed daily scheduler. Cached accepted records retain their original observation dates; invoking a command does not guarantee every old source was refreshed.",
+    "Platform storefront release dates can describe a port or edition rather than the original game launch. Exact regional scope is retained.",
+    "Console GPU output capability and display refresh rates do not establish game FPS or desktop GPU equivalence."
+  ],
+  "exactNextActions": [
+    "Cross-check the 87 Xbox announcement entries against current exact store metadata before promoting their dates or availability beyond announcement status.",
+    "Extend the retro archive with individually verified game-platform releases before presenting it as a game library.",
+    "Obtain permitted benchmark datasets and exact test conditions; keep unsupported setups unmeasured.",
+    "Acquire properly licensed exact game artwork when redistribution permission is established.",
+    "Review cross-store edition and remaster relationships before making unique-game coverage claims.",
+    "Integrate the validated importers into the parent operations workflow with source freshness and review safeguards."
+  ]
+}

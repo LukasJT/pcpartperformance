@@ -1,0 +1,50 @@
+[
+  {
+    "model": "Codex R2 B14NUD7-096US",
+    "url": "https://storage-asset.msi.com/excelSku/us/desktop/Codex%20R2%20B14NUD7-096US.pdf",
+    "reason": "Title says NUD; manufacturer part code says CodR2B14NUC7096. Exact identity requires clarification.",
+    "status": "review-required"
+  },
+  {
+    "model": "Codex R2 B14NVN7-440US",
+    "url": "https://storage-asset.msi.com/excelSku/us/desktop/Codex%20R2%20B14NVN7-440US.pdf",
+    "reason": "Title says NVN; manufacturer part code says CodR2B14NVB7440. Exact identity requires clarification.",
+    "status": "review-required"
+  },
+  {
+    "model": "Codex R2 C14NUB7-227US",
+    "url": "https://storage-asset.msi.com/excelSku/us/desktop/Codex%20R2%20C14NUB7-227US.pdf",
+    "reason": "Exact PDF could not be retrieved in this review. Search snippets are not a completed specification record.",
+    "status": "source-unavailable"
+  },
+  {
+    "model": "Codex R2 B14NVK5-604US",
+    "url": "https://storage-asset.msi.com/excelSku/us/desktop/Codex%20R2%20B14NVK5-604US.pdf",
+    "reason": "Exact PDF request failed; no sibling-SKU specifications inherited.",
+    "status": "source-unavailable"
+  },
+  {
+    "model": "Codex R2 A14NUD5-258US",
+    "url": "https://storage-asset.msi.com/excelSku/us/desktop/Codex%20R2%20A14NUD5-258US.pdf",
+    "reason": "Source opened but extraction did not expose enough specification text for this bounded batch.",
+    "status": "review-required"
+  },
+  {
+    "model": "CORSAIR ONE CS-9020069-NA",
+    "url": "https://www.corsair.com/us/en/p/gaming-computers/cs-9020069-na/corsair-one-a600-pc-metal-dark-liquid-cooled-amd-ryzen-7-9800x3d-geforce-rtx-5080-32gb-ddr5-2tb-m2-ssd-win11-home-cs-9020069-na",
+    "reason": "Product heading prints 9800X35 while selected specification says 9800X3D. Held for editorial identity review; selector contains other SKUs.",
+    "status": "review-required"
+  },
+  {
+    "model": "VENGEANCE CS-9050136-NA",
+    "url": "https://www.corsair.com/us/en/p/gaming-computers/cs-9050136-na/vengeance-a7500-gaming-pc-amd-ryzen-9-9900x3d-geforce-rtx-5080-32gb-ddr5-2tb-ssd-win11-home-cs-9050136-na",
+    "reason": "Exact selected page could not be retrieved; comparison-card-only facts not published as a completed record.",
+    "status": "source-unavailable"
+  },
+  {
+    "model": "Legion T7 34IAS10 90Y6006HCF",
+    "url": "https://psref.lenovo.com/Detail/Legion_T7_34IAS10?M=90Y6006HCF",
+    "reason": "Exact model already exists in the inherited Canadian retailer cohort. Manufacturer column inspected but not counted or imported as a new configuration.",
+    "status": "already-indexed"
+  }
+]

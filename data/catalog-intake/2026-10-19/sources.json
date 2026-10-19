@@ -1,0 +1,3700 @@
+{
+  "msi-gtx-950-gaming-2g": {
+    "publisher": "MSI",
+    "url": "https://www.msi.com/Graphics-Card/GTX-950-GAMING-2G/Specification",
+    "inspectedAt": "2026-10-19",
+    "confidence": "manufacturer-verified",
+    "inspection": "Original specification table inspected; source facts transcribed and normalized. AI-assisted evidence review, not first-party hardware testing.",
+    "scope": "Exact named MSI variant only. Gaming-mode boost when multiple profiles are listed. Published power/PSU figures are specifications, not system measurements. Dimensions exclude proof of cable clearance; no exact manufacturing part number or board revision is asserted.",
+    "models": {
+      "GeForce GTX 950 GAMING 2G": {
+        "manufacturerPartNumber": null,
+        "revision": null,
+        "facts": {
+          "gpuChip": {
+            "value": "GTX 950",
+            "unit": ""
+          },
+          "memoryGB": {
+            "value": 2,
+            "unit": "GB"
+          },
+          "memoryType": {
+            "value": "GDDR5",
+            "unit": ""
+          },
+          "memoryBus": {
+            "value": 128,
+            "unit": "bit"
+          },
+          "boostGHz": {
+            "value": 1279,
+            "unit": "MHz"
+          },
+          "boardPowerW": {
+            "value": 90,
+            "unit": "W"
+          },
+          "recommendedPsuW": {
+            "value": 350,
+            "unit": "W"
+          },
+          "lengthMm": {
+            "value": 270,
+            "unit": "mm"
+          },
+          "heightMm": {
+            "value": 137,
+            "unit": "mm"
+          },
+          "thicknessMm": {
+            "value": 37,
+            "unit": "mm"
+          },
+          "connectors": {
+            "value": "1 × PCIe 6-pin",
+            "unit": ""
+          },
+          "pcie": {
+            "value": "PCIe 3.0 ×16",
+            "unit": ""
+          }
+        }
+      }
+    }
+  },
+  "msi-gtx-960-gaming-2g": {
+    "publisher": "MSI",
+    "url": "https://www.msi.com/Graphics-Card/GTX-960-GAMING-2G/Specification",
+    "inspectedAt": "2026-10-19",
+    "confidence": "manufacturer-verified",
+    "inspection": "Original specification table inspected; source facts transcribed and normalized. AI-assisted evidence review, not first-party hardware testing.",
+    "scope": "Exact named MSI variant only. Gaming-mode boost when multiple profiles are listed. Published power/PSU figures are specifications, not system measurements. Dimensions exclude proof of cable clearance; no exact manufacturing part number or board revision is asserted.",
+    "models": {
+      "GeForce GTX 960 GAMING 2G": {
+        "manufacturerPartNumber": null,
+        "revision": null,
+        "facts": {
+          "gpuChip": {
+            "value": "GTX 960",
+            "unit": ""
+          },
+          "memoryGB": {
+            "value": 2,
+            "unit": "GB"
+          },
+          "memoryType": {
+            "value": "GDDR5",
+            "unit": ""
+          },
+          "memoryBus": {
+            "value": 128,
+            "unit": "bit"
+          },
+          "boostGHz": {
+            "value": 1253,
+            "unit": "MHz"
+          },
+          "boardPowerW": {
+            "value": 120,
+            "unit": "W"
+          },
+          "recommendedPsuW": {
+            "value": 400,
+            "unit": "W"
+          },
+          "lengthMm": {
+            "value": 267,
+            "unit": "mm"
+          },
+          "heightMm": {
+            "value": 139,
+            "unit": "mm"
+          },
+          "thicknessMm": {
+            "value": 36,
+            "unit": "mm"
+          },
+          "connectors": {
+            "value": "1 × PCIe 8-pin",
+            "unit": ""
+          },
+          "pcie": {
+            "value": "PCIe 3.0 ×16",
+            "unit": ""
+          }
+        }
+      }
+    }
+  },
+  "msi-gtx-960-gaming-4g": {
+    "publisher": "MSI",
+    "url": "https://www.msi.com/Graphics-Card/GTX-960-GAMING-4G/Specification",
+    "inspectedAt": "2026-10-19",
+    "confidence": "manufacturer-verified",
+    "inspection": "Original specification table inspected; source facts transcribed and normalized. AI-assisted evidence review, not first-party hardware testing.",
+    "scope": "Exact named MSI variant only. Gaming-mode boost when multiple profiles are listed. Published power/PSU figures are specifications, not system measurements. Dimensions exclude proof of cable clearance; no exact manufacturing part number or board revision is asserted.",
+    "models": {
+      "GeForce GTX 960 GAMING 4G": {
+        "manufacturerPartNumber": null,
+        "revision": null,
+        "facts": {
+          "gpuChip": {
+            "value": "GTX 960",
+            "unit": ""
+          },
+          "memoryGB": {
+            "value": 4,
+            "unit": "GB"
+          },
+          "memoryType": {
+            "value": "GDDR5",
+            "unit": ""
+          },
+          "memoryBus": {
+            "value": 128,
+            "unit": "bit"
+          },
+          "boostGHz": {
+            "value": 1279,
+            "unit": "MHz"
+          },
+          "boardPowerW": {
+            "value": 120,
+            "unit": "W"
+          },
+          "recommendedPsuW": {
+            "value": 400,
+            "unit": "W"
+          },
+          "lengthMm": {
+            "value": 267,
+            "unit": "mm"
+          },
+          "heightMm": {
+            "value": 139,
+            "unit": "mm"
+          },
+          "thicknessMm": {
+            "value": 40,
+            "unit": "mm"
+          },
+          "connectors": {
+            "value": "1 × PCIe 8-pin",
+            "unit": ""
+          },
+          "pcie": {
+            "value": "PCIe 3.0 ×16",
+            "unit": ""
+          }
+        }
+      }
+    }
+  },
+  "msi-gtx-970-gaming-4g": {
+    "publisher": "MSI",
+    "url": "https://www.msi.com/Graphics-Card/GTX-970-GAMING-4G/Specification",
+    "inspectedAt": "2026-10-19",
+    "confidence": "manufacturer-verified",
+    "inspection": "Original specification table inspected; source facts transcribed and normalized. AI-assisted evidence review, not first-party hardware testing.",
+    "scope": "Exact named MSI variant only. Gaming-mode boost when multiple profiles are listed. Published power/PSU figures are specifications, not system measurements. Dimensions exclude proof of cable clearance; no exact manufacturing part number or board revision is asserted.",
+    "models": {
+      "GeForce GTX 970 GAMING 4G": {
+        "manufacturerPartNumber": null,
+        "revision": null,
+        "facts": {
+          "gpuChip": {
+            "value": "GTX 970",
+            "unit": ""
+          },
+          "memoryGB": {
+            "value": 4,
+            "unit": "GB"
+          },
+          "memoryType": {
+            "value": "GDDR5",
+            "unit": ""
+          },
+          "memoryBus": {
+            "value": 256,
+            "unit": "bit"
+          },
+          "boostGHz": {
+            "value": 1253,
+            "unit": "MHz"
+          },
+          "boardPowerW": {
+            "value": 145,
+            "unit": "W"
+          },
+          "recommendedPsuW": {
+            "value": 500,
+            "unit": "W"
+          },
+          "lengthMm": {
+            "value": 277,
+            "unit": "mm"
+          },
+          "heightMm": {
+            "value": 140,
+            "unit": "mm"
+          },
+          "thicknessMm": {
+            "value": 35,
+            "unit": "mm"
+          },
+          "connectors": {
+            "value": "1 × PCIe 8-pin + 1 × PCIe 6-pin",
+            "unit": ""
+          },
+          "pcie": {
+            "value": "PCIe 3.0 ×16",
+            "unit": ""
+          }
+        }
+      }
+    }
+  },
+  "msi-gtx-980-gaming-4g": {
+    "publisher": "MSI",
+    "url": "https://www.msi.com/Graphics-Card/GTX-980-GAMING-4G/Specification",
+    "inspectedAt": "2026-10-19",
+    "confidence": "manufacturer-verified",
+    "inspection": "Original specification table inspected; source facts transcribed and normalized. AI-assisted evidence review, not first-party hardware testing.",
+    "scope": "Exact named MSI variant only. Gaming-mode boost when multiple profiles are listed. Published power/PSU figures are specifications, not system measurements. Dimensions exclude proof of cable clearance; no exact manufacturing part number or board revision is asserted.",
+    "models": {
+      "GeForce GTX 980 GAMING 4G": {
+        "manufacturerPartNumber": null,
+        "revision": null,
+        "facts": {
+          "gpuChip": {
+            "value": "GTX 980",
+            "unit": ""
+          },
+          "memoryGB": {
+            "value": 4,
+            "unit": "GB"
+          },
+          "memoryType": {
+            "value": "GDDR5",
+            "unit": ""
+          },
+          "memoryBus": {
+            "value": 256,
+            "unit": "bit"
+          },
+          "boostGHz": {
+            "value": 1291,
+            "unit": "MHz"
+          },
+          "boardPowerW": {
+            "value": 165,
+            "unit": "W"
+          },
+          "recommendedPsuW": {
+            "value": 500,
+            "unit": "W"
+          },
+          "lengthMm": {
+            "value": 279,
+            "unit": "mm"
+          },
+          "heightMm": {
+            "value": 140,
+            "unit": "mm"
+          },
+          "thicknessMm": {
+            "value": 36,
+            "unit": "mm"
+          },
+          "connectors": {
+            "value": "2 × PCIe 8-pin",
+            "unit": ""
+          },
+          "pcie": {
+            "value": "PCIe 3.0 ×16",
+            "unit": ""
+          }
+        }
+      }
+    }
+  },
+  "msi-gtx-980-ti-gaming-6g": {
+    "publisher": "MSI",
+    "url": "https://www.msi.com/Graphics-Card/GTX-980-Ti-GAMING-6G/Specification",
+    "inspectedAt": "2026-10-19",
+    "confidence": "manufacturer-verified",
+    "inspection": "Original specification table inspected; source facts transcribed and normalized. AI-assisted evidence review, not first-party hardware testing.",
+    "scope": "Exact named MSI variant only. Gaming-mode boost when multiple profiles are listed. Published power/PSU figures are specifications, not system measurements. Dimensions exclude proof of cable clearance; no exact manufacturing part number or board revision is asserted.",
+    "models": {
+      "GeForce GTX 980 Ti GAMING 6G": {
+        "manufacturerPartNumber": null,
+        "revision": null,
+        "facts": {
+          "gpuChip": {
+            "value": "GTX 980 Ti",
+            "unit": ""
+          },
+          "memoryGB": {
+            "value": 6,
+            "unit": "GB"
+          },
+          "memoryType": {
+            "value": "GDDR5",
+            "unit": ""
+          },
+          "memoryBus": {
+            "value": 384,
+            "unit": "bit"
+          },
+          "boostGHz": {
+            "value": 1228,
+            "unit": "MHz"
+          },
+          "boardPowerW": {
+            "value": 250,
+            "unit": "W"
+          },
+          "recommendedPsuW": {
+            "value": 600,
+            "unit": "W"
+          },
+          "lengthMm": {
+            "value": 277,
+            "unit": "mm"
+          },
+          "heightMm": {
+            "value": 140,
+            "unit": "mm"
+          },
+          "thicknessMm": {
+            "value": 40,
+            "unit": "mm"
+          },
+          "connectors": {
+            "value": "2 × PCIe 8-pin",
+            "unit": ""
+          },
+          "pcie": {
+            "value": "PCIe 3.0 ×16",
+            "unit": ""
+          }
+        }
+      }
+    }
+  },
+  "msi-geforce-gtx-1050-gaming-x-2g": {
+    "publisher": "MSI",
+    "url": "https://www.msi.com/Graphics-Card/GeForce-GTX-1050-GAMING-X-2G/Specification",
+    "inspectedAt": "2026-10-19",
+    "confidence": "manufacturer-verified",
+    "inspection": "Original specification table inspected; source facts transcribed and normalized. AI-assisted evidence review, not first-party hardware testing.",
+    "scope": "Exact named MSI variant only. Gaming-mode boost when multiple profiles are listed. Published power/PSU figures are specifications, not system measurements. Dimensions exclude proof of cable clearance; no exact manufacturing part number or board revision is asserted.",
+    "models": {
+      "GeForce GTX 1050 GAMING X 2G": {
+        "manufacturerPartNumber": null,
+        "revision": null,
+        "facts": {
+          "gpuChip": {
+            "value": "GTX 1050",
+            "unit": ""
+          },
+          "memoryGB": {
+            "value": 2,
+            "unit": "GB"
+          },
+          "memoryType": {
+            "value": "GDDR5",
+            "unit": ""
+          },
+          "memoryBus": {
+            "value": 128,
+            "unit": "bit"
+          },
+          "boostGHz": {
+            "value": 1531,
+            "unit": "MHz"
+          },
+          "boardPowerW": {
+            "value": 75,
+            "unit": "W"
+          },
+          "recommendedPsuW": {
+            "value": 300,
+            "unit": "W"
+          },
+          "lengthMm": {
+            "value": 229,
+            "unit": "mm"
+          },
+          "heightMm": {
+            "value": 131,
+            "unit": "mm"
+          },
+          "thicknessMm": {
+            "value": 39,
+            "unit": "mm"
+          },
+          "connectors": {
+            "value": "1 × PCIe 6-pin",
+            "unit": ""
+          },
+          "pcie": {
+            "value": "PCIe 3.0 ×16",
+            "unit": ""
+          }
+        }
+      }
+    }
+  },
+  "msi-geforce-gtx-1050-ti-gaming-x-4g": {
+    "publisher": "MSI",
+    "url": "https://www.msi.com/Graphics-Card/GeForce-GTX-1050-Ti-GAMING-X-4G/Specification",
+    "inspectedAt": "2026-10-19",
+    "confidence": "manufacturer-verified",
+    "inspection": "Original specification table inspected; source facts transcribed and normalized. AI-assisted evidence review, not first-party hardware testing.",
+    "scope": "Exact named MSI variant only. Gaming-mode boost when multiple profiles are listed. Published power/PSU figures are specifications, not system measurements. Dimensions exclude proof of cable clearance; no exact manufacturing part number or board revision is asserted.",
+    "models": {
+      "GeForce GTX 1050 Ti GAMING X 4G": {
+        "manufacturerPartNumber": null,
+        "revision": null,
+        "facts": {
+          "gpuChip": {
+            "value": "GTX 1050 Ti",
+            "unit": ""
+          },
+          "memoryGB": {
+            "value": 4,
+            "unit": "GB"
+          },
+          "memoryType": {
+            "value": "GDDR5",
+            "unit": ""
+          },
+          "memoryBus": {
+            "value": 128,
+            "unit": "bit"
+          },
+          "boostGHz": {
+            "value": 1468,
+            "unit": "MHz"
+          },
+          "boardPowerW": {
+            "value": 75,
+            "unit": "W"
+          },
+          "recommendedPsuW": {
+            "value": 300,
+            "unit": "W"
+          },
+          "lengthMm": {
+            "value": 229,
+            "unit": "mm"
+          },
+          "heightMm": {
+            "value": 131,
+            "unit": "mm"
+          },
+          "thicknessMm": {
+            "value": 39,
+            "unit": "mm"
+          },
+          "connectors": {
+            "value": "1 × PCIe 6-pin",
+            "unit": ""
+          },
+          "pcie": {
+            "value": "PCIe 3.0 ×16",
+            "unit": ""
+          }
+        }
+      }
+    }
+  },
+  "msi-geforce-gtx-1060-gaming-x-3g": {
+    "publisher": "MSI",
+    "url": "https://www.msi.com/Graphics-Card/GeForce-GTX-1060-GAMING-X-3G/Specification",
+    "inspectedAt": "2026-10-19",
+    "confidence": "manufacturer-verified",
+    "inspection": "Original specification table inspected; source facts transcribed and normalized. AI-assisted evidence review, not first-party hardware testing.",
+    "scope": "Exact named MSI variant only. Gaming-mode boost when multiple profiles are listed. Published power/PSU figures are specifications, not system measurements. Dimensions exclude proof of cable clearance; no exact manufacturing part number or board revision is asserted.",
+    "models": {
+      "GeForce GTX 1060 GAMING X 3G": {
+        "manufacturerPartNumber": null,
+        "revision": null,
+        "facts": {
+          "gpuChip": {
+            "value": "GTX 1060",
+            "unit": ""
+          },
+          "memoryGB": {
+            "value": 3,
+            "unit": "GB"
+          },
+          "memoryType": {
+            "value": "GDDR5",
+            "unit": ""
+          },
+          "memoryBus": {
+            "value": 192,
+            "unit": "bit"
+          },
+          "boostGHz": {
+            "value": 1784,
+            "unit": "MHz"
+          },
+          "boardPowerW": {
+            "value": 120,
+            "unit": "W"
+          },
+          "recommendedPsuW": {
+            "value": 400,
+            "unit": "W"
+          },
+          "lengthMm": {
+            "value": 277,
+            "unit": "mm"
+          },
+          "heightMm": {
+            "value": 140,
+            "unit": "mm"
+          },
+          "thicknessMm": {
+            "value": 39,
+            "unit": "mm"
+          },
+          "connectors": {
+            "value": "1 × PCIe 8-pin",
+            "unit": ""
+          },
+          "pcie": {
+            "value": "PCIe 3.0 ×16",
+            "unit": ""
+          },
+          "shaderUnits": {
+            "value": 1152,
+            "unit": ""
+          }
+        }
+      }
+    }
+  },
+  "msi-geforce-gtx-1060-gaming-x-6g": {
+    "publisher": "MSI",
+    "url": "https://www.msi.com/Graphics-Card/GeForce-GTX-1060-GAMING-X-6G/Specification",
+    "inspectedAt": "2026-10-19",
+    "confidence": "manufacturer-verified",
+    "inspection": "Original specification table inspected; source facts transcribed and normalized. AI-assisted evidence review, not first-party hardware testing.",
+    "scope": "Exact named MSI variant only. Gaming-mode boost when multiple profiles are listed. Published power/PSU figures are specifications, not system measurements. Dimensions exclude proof of cable clearance; no exact manufacturing part number or board revision is asserted.",
+    "models": {
+      "GeForce GTX 1060 GAMING X 6G": {
+        "manufacturerPartNumber": null,
+        "revision": null,
+        "facts": {
+          "gpuChip": {
+            "value": "GTX 1060",
+            "unit": ""
+          },
+          "memoryGB": {
+            "value": 6,
+            "unit": "GB"
+          },
+          "memoryType": {
+            "value": "GDDR5",
+            "unit": ""
+          },
+          "memoryBus": {
+            "value": 192,
+            "unit": "bit"
+          },
+          "boostGHz": {
+            "value": 1784,
+            "unit": "MHz"
+          },
+          "boardPowerW": {
+            "value": 120,
+            "unit": "W"
+          },
+          "recommendedPsuW": {
+            "value": 400,
+            "unit": "W"
+          },
+          "lengthMm": {
+            "value": 277,
+            "unit": "mm"
+          },
+          "heightMm": {
+            "value": 140,
+            "unit": "mm"
+          },
+          "thicknessMm": {
+            "value": 39,
+            "unit": "mm"
+          },
+          "connectors": {
+            "value": "1 × PCIe 8-pin",
+            "unit": ""
+          },
+          "pcie": {
+            "value": "PCIe 3.0 ×16",
+            "unit": ""
+          },
+          "shaderUnits": {
+            "value": 1280,
+            "unit": ""
+          }
+        }
+      }
+    }
+  },
+  "msi-geforce-gtx-1070-gaming-x-8g": {
+    "publisher": "MSI",
+    "url": "https://www.msi.com/Graphics-Card/GEFORCE-GTX-1070-GAMING-X-8G/Specification",
+    "inspectedAt": "2026-10-19",
+    "confidence": "manufacturer-verified",
+    "inspection": "Original specification table inspected; source facts transcribed and normalized. AI-assisted evidence review, not first-party hardware testing.",
+    "scope": "Exact named MSI variant only. Gaming-mode boost when multiple profiles are listed. Published power/PSU figures are specifications, not system measurements. Dimensions exclude proof of cable clearance; no exact manufacturing part number or board revision is asserted.",
+    "models": {
+      "GeForce GTX 1070 GAMING X 8G": {
+        "manufacturerPartNumber": null,
+        "revision": null,
+        "facts": {
+          "gpuChip": {
+            "value": "GTX 1070",
+            "unit": ""
+          },
+          "memoryGB": {
+            "value": 8,
+            "unit": "GB"
+          },
+          "memoryType": {
+            "value": "GDDR5",
+            "unit": ""
+          },
+          "memoryBus": {
+            "value": 256,
+            "unit": "bit"
+          },
+          "boostGHz": {
+            "value": 1771,
+            "unit": "MHz"
+          },
+          "boardPowerW": {
+            "value": 150,
+            "unit": "W"
+          },
+          "recommendedPsuW": {
+            "value": 500,
+            "unit": "W"
+          },
+          "lengthMm": {
+            "value": 279,
+            "unit": "mm"
+          },
+          "heightMm": {
+            "value": 140,
+            "unit": "mm"
+          },
+          "thicknessMm": {
+            "value": 42,
+            "unit": "mm"
+          },
+          "connectors": {
+            "value": "1 × PCIe 6-pin + 1 × PCIe 8-pin",
+            "unit": ""
+          },
+          "pcie": {
+            "value": "PCIe 3.0 ×16",
+            "unit": ""
+          },
+          "shaderUnits": {
+            "value": 1920,
+            "unit": ""
+          }
+        }
+      }
+    }
+  },
+  "msi-geforce-gtx-1070-ti-gaming-8g": {
+    "publisher": "MSI",
+    "url": "https://www.msi.com/Graphics-Card/GeForce-GTX-1070-Ti-GAMING-8G/Specification",
+    "inspectedAt": "2026-10-19",
+    "confidence": "manufacturer-verified",
+    "inspection": "Original specification table inspected; source facts transcribed and normalized. AI-assisted evidence review, not first-party hardware testing.",
+    "scope": "Exact named MSI variant only. Gaming-mode boost when multiple profiles are listed. Published power/PSU figures are specifications, not system measurements. Dimensions exclude proof of cable clearance; no exact manufacturing part number or board revision is asserted.",
+    "models": {
+      "GeForce GTX 1070 Ti GAMING 8G": {
+        "manufacturerPartNumber": null,
+        "revision": null,
+        "facts": {
+          "gpuChip": {
+            "value": "GTX 1070 Ti",
+            "unit": ""
+          },
+          "memoryGB": {
+            "value": 8,
+            "unit": "GB"
+          },
+          "memoryType": {
+            "value": "GDDR5",
+            "unit": ""
+          },
+          "memoryBus": {
+            "value": 256,
+            "unit": "bit"
+          },
+          "boostGHz": {
+            "value": 1683,
+            "unit": "MHz"
+          },
+          "boardPowerW": {
+            "value": 180,
+            "unit": "W"
+          },
+          "recommendedPsuW": {
+            "value": 500,
+            "unit": "W"
+          },
+          "lengthMm": {
+            "value": 279,
+            "unit": "mm"
+          },
+          "heightMm": {
+            "value": 140,
+            "unit": "mm"
+          },
+          "thicknessMm": {
+            "value": 42,
+            "unit": "mm"
+          },
+          "connectors": {
+            "value": "1 × PCIe 6-pin + 1 × PCIe 8-pin",
+            "unit": ""
+          },
+          "pcie": {
+            "value": "PCIe 3.0 ×16",
+            "unit": ""
+          },
+          "shaderUnits": {
+            "value": 2432,
+            "unit": ""
+          }
+        }
+      }
+    }
+  },
+  "msi-geforce-gtx-1080-gaming-x-8g": {
+    "publisher": "MSI",
+    "url": "https://www.msi.com/Graphics-Card/GeForce-GTX-1080-GAMING-X-8G/Specification",
+    "inspectedAt": "2026-10-19",
+    "confidence": "manufacturer-verified",
+    "inspection": "Original specification table inspected; source facts transcribed and normalized. AI-assisted evidence review, not first-party hardware testing.",
+    "scope": "Exact named MSI variant only. Gaming-mode boost when multiple profiles are listed. Published power/PSU figures are specifications, not system measurements. Dimensions exclude proof of cable clearance; no exact manufacturing part number or board revision is asserted.",
+    "models": {
+      "GeForce GTX 1080 GAMING X 8G": {
+        "manufacturerPartNumber": null,
+        "revision": null,
+        "facts": {
+          "gpuChip": {
+            "value": "GTX 1080",
+            "unit": ""
+          },
+          "memoryGB": {
+            "value": 8,
+            "unit": "GB"
+          },
+          "memoryType": {
+            "value": "GDDR5X",
+            "unit": ""
+          },
+          "memoryBus": {
+            "value": 256,
+            "unit": "bit"
+          },
+          "boostGHz": {
+            "value": 1822,
+            "unit": "MHz"
+          },
+          "boardPowerW": {
+            "value": 180,
+            "unit": "W"
+          },
+          "recommendedPsuW": {
+            "value": 500,
+            "unit": "W"
+          },
+          "lengthMm": {
+            "value": 279,
+            "unit": "mm"
+          },
+          "heightMm": {
+            "value": 140,
+            "unit": "mm"
+          },
+          "thicknessMm": {
+            "value": 42,
+            "unit": "mm"
+          },
+          "connectors": {
+            "value": "1 × PCIe 6-pin + 1 × PCIe 8-pin",
+            "unit": ""
+          },
+          "pcie": {
+            "value": "PCIe 3.0 ×16",
+            "unit": ""
+          },
+          "shaderUnits": {
+            "value": 2560,
+            "unit": ""
+          }
+        }
+      }
+    }
+  },
+  "msi-geforce-gtx-1080-ti-gaming-x-11g": {
+    "publisher": "MSI",
+    "url": "https://www.msi.com/Graphics-Card/GeForce-GTX-1080-Ti-GAMING-X-11G/Specification",
+    "inspectedAt": "2026-10-19",
+    "confidence": "manufacturer-verified",
+    "inspection": "Original specification table inspected; source facts transcribed and normalized. AI-assisted evidence review, not first-party hardware testing.",
+    "scope": "Exact named MSI variant only. Gaming-mode boost when multiple profiles are listed. Published power/PSU figures are specifications, not system measurements. Dimensions exclude proof of cable clearance; no exact manufacturing part number or board revision is asserted.",
+    "models": {
+      "GeForce GTX 1080 Ti GAMING X 11G": {
+        "manufacturerPartNumber": null,
+        "revision": null,
+        "facts": {
+          "gpuChip": {
+            "value": "GTX 1080 Ti",
+            "unit": ""
+          },
+          "memoryGB": {
+            "value": 11,
+            "unit": "GB"
+          },
+          "memoryType": {
+            "value": "GDDR5X",
+            "unit": ""
+          },
+          "memoryBus": {
+            "value": 352,
+            "unit": "bit"
+          },
+          "boostGHz": {
+            "value": 1657,
+            "unit": "MHz"
+          },
+          "boardPowerW": {
+            "value": 250,
+            "unit": "W"
+          },
+          "recommendedPsuW": {
+            "value": 600,
+            "unit": "W"
+          },
+          "lengthMm": {
+            "value": 290,
+            "unit": "mm"
+          },
+          "heightMm": {
+            "value": 140,
+            "unit": "mm"
+          },
+          "thicknessMm": {
+            "value": 51,
+            "unit": "mm"
+          },
+          "connectors": {
+            "value": "2 × PCIe 8-pin",
+            "unit": ""
+          },
+          "pcie": {
+            "value": "PCIe 3.0 ×16",
+            "unit": ""
+          },
+          "shaderUnits": {
+            "value": 3584,
+            "unit": ""
+          }
+        }
+      }
+    }
+  },
+  "msi-geforce-gtx-1660-super-gaming-x": {
+    "publisher": "MSI",
+    "url": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-SUPER-GAMING-X/Specification",
+    "inspectedAt": "2026-10-19",
+    "confidence": "manufacturer-verified",
+    "inspection": "Original specification table inspected; source facts transcribed and normalized. AI-assisted evidence review, not first-party hardware testing.",
+    "scope": "Exact named MSI variant only. Gaming-mode boost when multiple profiles are listed. Published power/PSU figures are specifications, not system measurements. Dimensions exclude proof of cable clearance; no exact manufacturing part number or board revision is asserted.",
+    "models": {
+      "GeForce GTX 1660 SUPER GAMING X": {
+        "manufacturerPartNumber": null,
+        "revision": null,
+        "facts": {
+          "gpuChip": {
+            "value": "GTX 1660 SUPER",
+            "unit": ""
+          },
+          "memoryGB": {
+            "value": 6,
+            "unit": "GB"
+          },
+          "memoryType": {
+            "value": "GDDR6",
+            "unit": ""
+          },
+          "memoryBus": {
+            "value": 192,
+            "unit": "bit"
+          },
+          "boostGHz": {
+            "value": 1830,
+            "unit": "MHz"
+          },
+          "boardPowerW": {
+            "value": 125,
+            "unit": "W"
+          },
+          "recommendedPsuW": {
+            "value": 450,
+            "unit": "W"
+          },
+          "lengthMm": {
+            "value": 247,
+            "unit": "mm"
+          },
+          "heightMm": {
+            "value": 127,
+            "unit": "mm"
+          },
+          "thicknessMm": {
+            "value": 46,
+            "unit": "mm"
+          },
+          "connectors": {
+            "value": "1 × PCIe 8-pin",
+            "unit": ""
+          },
+          "pcie": {
+            "value": "PCIe 3.0 ×16",
+            "unit": ""
+          },
+          "shaderUnits": {
+            "value": 1408,
+            "unit": ""
+          }
+        }
+      }
+    }
+  },
+  "msi-geforce-gtx-1660-ti-gaming-x-6g": {
+    "publisher": "MSI",
+    "url": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-Ti-GAMING-X-6G/Specification",
+    "inspectedAt": "2026-10-19",
+    "confidence": "manufacturer-verified",
+    "inspection": "Original specification table inspected; source facts transcribed and normalized. AI-assisted evidence review, not first-party hardware testing.",
+    "scope": "Exact named MSI variant only. Gaming-mode boost when multiple profiles are listed. Published power/PSU figures are specifications, not system measurements. Dimensions exclude proof of cable clearance; no exact manufacturing part number or board revision is asserted.",
+    "models": {
+      "GeForce GTX 1660 Ti GAMING X 6G": {
+        "manufacturerPartNumber": null,
+        "revision": null,
+        "facts": {
+          "gpuChip": {
+            "value": "GTX 1660 Ti",
+            "unit": ""
+          },
+          "memoryGB": {
+            "value": 6,
+            "unit": "GB"
+          },
+          "memoryType": {
+            "value": "GDDR6",
+            "unit": ""
+          },
+          "memoryBus": {
+            "value": 192,
+            "unit": "bit"
+          },
+          "boostGHz": {
+            "value": 1875,
+            "unit": "MHz"
+          },
+          "boardPowerW": {
+            "value": 130,
+            "unit": "W"
+          },
+          "recommendedPsuW": {
+            "value": 450,
+            "unit": "W"
+          },
+          "lengthMm": {
+            "value": 247,
+            "unit": "mm"
+          },
+          "heightMm": {
+            "value": 127,
+            "unit": "mm"
+          },
+          "thicknessMm": {
+            "value": 46,
+            "unit": "mm"
+          },
+          "connectors": {
+            "value": "1 × PCIe 8-pin",
+            "unit": ""
+          },
+          "pcie": {
+            "value": "PCIe 3.0 ×16",
+            "unit": ""
+          },
+          "shaderUnits": {
+            "value": 1536,
+            "unit": ""
+          }
+        }
+      }
+    }
+  },
+  "gigabyte-750ti": {
+    "publisher": "Gigabyte",
+    "url": "https://www.gigabyte.com/vn/Graphics-Card/GV-N75TOC-2GI/sp",
+    "inspectedAt": "2026-10-19",
+    "confidence": "manufacturer-verified",
+    "inspection": "Original specification table inspected; source facts transcribed and normalized. AI-assisted evidence review, not first-party hardware testing.",
+    "scope": "Exact GV-N75TOC-2GI product table. Dimensions explicitly H=27 L=191 W=129 mm; normalized to length/height/thickness. A separate hardware revision is not documented here. Board power and auxiliary connector requirements remain unknown.",
+    "models": {
+      "GeForce GTX 750 Ti OC 2GB (GV-N75TOC-2GI)": {
+        "manufacturerPartNumber": "GV-N75TOC-2GI",
+        "revision": null,
+        "facts": {
+          "gpuChip": {
+            "value": "GTX 750 Ti",
+            "unit": ""
+          },
+          "memoryGB": {
+            "value": 2048,
+            "unit": "MiB"
+          },
+          "memoryType": {
+            "value": "GDDR5",
+            "unit": ""
+          },
+          "memoryBus": {
+            "value": 128,
+            "unit": "bit"
+          },
+          "baseGHz": {
+            "value": 1033,
+            "unit": "MHz"
+          },
+          "boostGHz": {
+            "value": 1111,
+            "unit": "MHz"
+          },
+          "recommendedPsuW": {
+            "value": 400,
+            "unit": "W"
+          },
+          "lengthMm": {
+            "value": 191,
+            "unit": "mm"
+          },
+          "heightMm": {
+            "value": 129,
+            "unit": "mm"
+          },
+          "thicknessMm": {
+            "value": 27,
+            "unit": "mm"
+          },
+          "displayOutputs": {
+            "value": "Dual-link DVI-I ×1; DVI-D ×1; HDMI ×2",
+            "unit": ""
+          },
+          "pcie": {
+            "value": "PCIe 3.0 ×16",
+            "unit": ""
+          }
+        }
+      }
+    }
+  },
+  "asrock-a310-lp-4g": {
+    "publisher": "ASRock",
+    "url": "https://www.asrock.com/Graphics-Card/Intel/Intel%20Arc%20A310%20Low%20Profile%204GB/index.asp",
+    "inspectedAt": "2026-10-19",
+    "confidence": "manufacturer-verified",
+    "inspection": "Original specification table inspected; source facts transcribed and normalized. AI-assisted evidence review, not first-party hardware testing.",
+    "scope": "Exact ASRock commercial model and printed model code. Intel engine/base clock is not renamed a boost clock. Exact dimensions and PSU recommendation only; board power is not disclosed in this table. A310 auxiliary power remains unasserted; A750 DP certification note must still be consulted.",
+    "models": {
+      "Intel Arc A310 Low Profile 4GB": {
+        "manufacturerPartNumber": "A310 LP 4G",
+        "revision": null,
+        "facts": {
+          "gpuChip": {
+            "value": "Arc A310",
+            "unit": ""
+          },
+          "memoryGB": {
+            "value": 4,
+            "unit": "GB"
+          },
+          "memoryType": {
+            "value": "GDDR6",
+            "unit": ""
+          },
+          "memoryBus": {
+            "value": 64,
+            "unit": "bit"
+          },
+          "baseGHz": {
+            "value": 2000,
+            "unit": "MHz"
+          },
+          "lengthMm": {
+            "value": 169,
+            "unit": "mm"
+          },
+          "heightMm": {
+            "value": 69,
+            "unit": "mm"
+          },
+          "thicknessMm": {
+            "value": 39,
+            "unit": "mm"
+          },
+          "recommendedPsuW": {
+            "value": 450,
+            "unit": "W"
+          },
+          "pcie": {
+            "value": "PCIe 4.0 ×8",
+            "unit": ""
+          },
+          "displayOutputs": {
+            "value": "HDMI 2.0b ×1; DisplayPort 2.0 with DSC ×1",
+            "unit": ""
+          }
+        }
+      }
+    }
+  },
+  "asrock-a380-cli-6go": {
+    "publisher": "ASRock",
+    "url": "https://www.asrock.com/Graphics-Card/Intel/Intel%20Arc%20A380%20Challenger%20ITX%206GB%20OC/index.asp",
+    "inspectedAt": "2026-10-19",
+    "confidence": "manufacturer-verified",
+    "inspection": "Original specification table inspected; source facts transcribed and normalized. AI-assisted evidence review, not first-party hardware testing.",
+    "scope": "Exact ASRock commercial model and printed model code. Intel engine/base clock is not renamed a boost clock. Exact dimensions and PSU recommendation only; board power is not disclosed in this table. A310 auxiliary power remains unasserted; A750 DP certification note must still be consulted.",
+    "models": {
+      "Intel Arc A380 Challenger ITX 6GB OC": {
+        "manufacturerPartNumber": "A380 CLI 6GO",
+        "revision": null,
+        "facts": {
+          "gpuChip": {
+            "value": "Arc A380",
+            "unit": ""
+          },
+          "memoryGB": {
+            "value": 6,
+            "unit": "GB"
+          },
+          "memoryType": {
+            "value": "GDDR6",
+            "unit": ""
+          },
+          "memoryBus": {
+            "value": 96,
+            "unit": "bit"
+          },
+          "baseGHz": {
+            "value": 2250,
+            "unit": "MHz"
+          },
+          "lengthMm": {
+            "value": 190,
+            "unit": "mm"
+          },
+          "heightMm": {
+            "value": 124,
+            "unit": "mm"
+          },
+          "thicknessMm": {
+            "value": 39,
+            "unit": "mm"
+          },
+          "recommendedPsuW": {
+            "value": 500,
+            "unit": "W"
+          },
+          "pcie": {
+            "value": "PCIe 4.0 ×8",
+            "unit": ""
+          },
+          "displayOutputs": {
+            "value": "HDMI 2.0b ×1; DisplayPort 2.0 with DSC ×3",
+            "unit": ""
+          },
+          "connectors": {
+            "value": "1 × PCIe 8-pin",
+            "unit": ""
+          }
+        }
+      }
+    }
+  },
+  "asrock-a750-cld-8go": {
+    "publisher": "ASRock",
+    "url": "https://www.asrock.com/Graphics-Card/Intel/Intel%20Arc%20A750%20Challenger%20D%208GB%20OC/index.asp",
+    "inspectedAt": "2026-10-19",
+    "confidence": "manufacturer-verified",
+    "inspection": "Original specification table inspected; source facts transcribed and normalized. AI-assisted evidence review, not first-party hardware testing.",
+    "scope": "Exact ASRock commercial model and printed model code. Intel engine/base clock is not renamed a boost clock. Exact dimensions and PSU recommendation only; board power is not disclosed in this table. A310 auxiliary power remains unasserted; A750 DP certification note must still be consulted.",
+    "models": {
+      "Intel Arc A750 Challenger D 8GB OC": {
+        "manufacturerPartNumber": "A750 CLD 8GO",
+        "revision": null,
+        "facts": {
+          "gpuChip": {
+            "value": "Arc A750",
+            "unit": ""
+          },
+          "memoryGB": {
+            "value": 8,
+            "unit": "GB"
+          },
+          "memoryType": {
+            "value": "GDDR6",
+            "unit": ""
+          },
+          "memoryBus": {
+            "value": 256,
+            "unit": "bit"
+          },
+          "baseGHz": {
+            "value": 2200,
+            "unit": "MHz"
+          },
+          "lengthMm": {
+            "value": 271,
+            "unit": "mm"
+          },
+          "heightMm": {
+            "value": 132,
+            "unit": "mm"
+          },
+          "thicknessMm": {
+            "value": 48,
+            "unit": "mm"
+          },
+          "recommendedPsuW": {
+            "value": 650,
+            "unit": "W"
+          },
+          "pcie": {
+            "value": "PCIe 4.0 ×16",
+            "unit": ""
+          },
+          "displayOutputs": {
+            "value": "DisplayPort 2.0 ×2; HDMI 2.1 ×1; HDMI 2.0b ×1",
+            "unit": ""
+          },
+          "connectors": {
+            "value": "2 × PCIe 8-pin",
+            "unit": ""
+          }
+        }
+      }
+    }
+  },
+  "intel-e5-1620-v4": {
+    "publisher": "Intel",
+    "url": "https://www.intel.com/content/www/us/en/products/sku/92991/intel-xeon-processor-e51620-v4-10m-cache-3-50-ghz/specifications.html",
+    "inspectedAt": "2026-10-19",
+    "confidence": "manufacturer-verified",
+    "inspection": "Original specification table inspected; source facts transcribed and normalized. AI-assisted evidence review, not first-party hardware testing.",
+    "scope": "Exact Intel ARK processor number, Broadwell generation, cores/threads, base/max turbo, cache, TDP, 2016 launch and socket/platform information. Retail boxed/tray order codes are not inferred. Intel labels the socket FCLGA2011; exact v4 board/firmware support is a separate requirement.",
+    "models": {
+      "Xeon E5-1620 v4": {
+        "manufacturerPartNumber": null,
+        "revision": null,
+        "facts": {
+          "cores": {
+            "value": 4,
+            "unit": ""
+          },
+          "threads": {
+            "value": 8,
+            "unit": ""
+          },
+          "baseGHz": {
+            "value": 3.5,
+            "unit": "GHz"
+          },
+          "boostGHz": {
+            "value": 3.8,
+            "unit": "GHz"
+          },
+          "l3MB": {
+            "value": 10,
+            "unit": "MB"
+          },
+          "tdpW": {
+            "value": 140,
+            "unit": "W"
+          },
+          "cpuSegment": {
+            "value": "Server",
+            "unit": ""
+          },
+          "socket": {
+            "value": "FCLGA2011 (Xeon E5 v4 platform)",
+            "unit": ""
+          },
+          "maxSockets": {
+            "value": 1,
+            "unit": ""
+          }
+        }
+      }
+    }
+  },
+  "intel-e5-1630-v4": {
+    "publisher": "Intel",
+    "url": "https://www.intel.com/content/www/us/en/products/sku/92987/intel-xeon-processor-e51630-v4-10m-cache-3-70-ghz/specifications.html",
+    "inspectedAt": "2026-10-19",
+    "confidence": "manufacturer-verified",
+    "inspection": "Original specification table inspected; source facts transcribed and normalized. AI-assisted evidence review, not first-party hardware testing.",
+    "scope": "Exact Intel ARK processor number, Broadwell generation, cores/threads, base/max turbo, cache, TDP, 2016 launch and socket/platform information. Retail boxed/tray order codes are not inferred. Intel labels the socket FCLGA2011; exact v4 board/firmware support is a separate requirement.",
+    "models": {
+      "Xeon E5-1630 v4": {
+        "manufacturerPartNumber": null,
+        "revision": null,
+        "facts": {
+          "cores": {
+            "value": 4,
+            "unit": ""
+          },
+          "threads": {
+            "value": 8,
+            "unit": ""
+          },
+          "baseGHz": {
+            "value": 3.7,
+            "unit": "GHz"
+          },
+          "boostGHz": {
+            "value": 4,
+            "unit": "GHz"
+          },
+          "l3MB": {
+            "value": 10,
+            "unit": "MB"
+          },
+          "tdpW": {
+            "value": 140,
+            "unit": "W"
+          },
+          "cpuSegment": {
+            "value": "Server",
+            "unit": ""
+          },
+          "socket": {
+            "value": "FCLGA2011 (Xeon E5 v4 platform)",
+            "unit": ""
+          },
+          "maxSockets": {
+            "value": 1,
+            "unit": ""
+          }
+        }
+      }
+    }
+  },
+  "intel-e5-1650-v4": {
+    "publisher": "Intel",
+    "url": "https://www.intel.com/content/www/us/en/products/sku/92994/intel-xeon-processor-e51650-v4-15m-cache-3-60-ghz/specifications.html",
+    "inspectedAt": "2026-10-19",
+    "confidence": "manufacturer-verified",
+    "inspection": "Original specification table inspected; source facts transcribed and normalized. AI-assisted evidence review, not first-party hardware testing.",
+    "scope": "Exact Intel ARK processor number, Broadwell generation, cores/threads, base/max turbo, cache, TDP, 2016 launch and socket/platform information. Retail boxed/tray order codes are not inferred. Intel labels the socket FCLGA2011; exact v4 board/firmware support is a separate requirement.",
+    "models": {
+      "Xeon E5-1650 v4": {
+        "manufacturerPartNumber": null,
+        "revision": null,
+        "facts": {
+          "cores": {
+            "value": 6,
+            "unit": ""
+          },
+          "threads": {
+            "value": 12,
+            "unit": ""
+          },
+          "baseGHz": {
+            "value": 3.6,
+            "unit": "GHz"
+          },
+          "boostGHz": {
+            "value": 4,
+            "unit": "GHz"
+          },
+          "l3MB": {
+            "value": 15,
+            "unit": "MB"
+          },
+          "tdpW": {
+            "value": 140,
+            "unit": "W"
+          },
+          "cpuSegment": {
+            "value": "Server",
+            "unit": ""
+          },
+          "socket": {
+            "value": "FCLGA2011 (Xeon E5 v4 platform)",
+            "unit": ""
+          },
+          "maxSockets": {
+            "value": 1,
+            "unit": ""
+          }
+        }
+      }
+    }
+  },
+  "intel-e5-1660-v4": {
+    "publisher": "Intel",
+    "url": "https://www.intel.com/content/www/us/en/products/sku/92985/intel-xeon-processor-e51660-v4-20m-cache-3-20-ghz/specifications.html",
+    "inspectedAt": "2026-10-19",
+    "confidence": "manufacturer-verified",
+    "inspection": "Original specification table inspected; source facts transcribed and normalized. AI-assisted evidence review, not first-party hardware testing.",
+    "scope": "Exact Intel ARK processor number, Broadwell generation, cores/threads, base/max turbo, cache, TDP, 2016 launch and socket/platform information. Retail boxed/tray order codes are not inferred. Intel labels the socket FCLGA2011; exact v4 board/firmware support is a separate requirement.",
+    "models": {
+      "Xeon E5-1660 v4": {
+        "manufacturerPartNumber": null,
+        "revision": null,
+        "facts": {
+          "cores": {
+            "value": 8,
+            "unit": ""
+          },
+          "threads": {
+            "value": 16,
+            "unit": ""
+          },
+          "baseGHz": {
+            "value": 3.2,
+            "unit": "GHz"
+          },
+          "boostGHz": {
+            "value": 3.8,
+            "unit": "GHz"
+          },
+          "l3MB": {
+            "value": 20,
+            "unit": "MB"
+          },
+          "tdpW": {
+            "value": 140,
+            "unit": "W"
+          },
+          "cpuSegment": {
+            "value": "Server",
+            "unit": ""
+          },
+          "socket": {
+            "value": "FCLGA2011 (Xeon E5 v4 platform)",
+            "unit": ""
+          },
+          "maxSockets": {
+            "value": 1,
+            "unit": ""
+          }
+        }
+      }
+    }
+  },
+  "intel-e5-1680-v4": {
+    "publisher": "Intel",
+    "url": "https://www.intel.com/content/www/us/en/products/sku/92992/intel-xeon-processor-e51680-v4-20m-cache-3-40-ghz/specifications.html",
+    "inspectedAt": "2026-10-19",
+    "confidence": "manufacturer-verified",
+    "inspection": "Original specification table inspected; source facts transcribed and normalized. AI-assisted evidence review, not first-party hardware testing.",
+    "scope": "Exact Intel ARK processor number, Broadwell generation, cores/threads, base/max turbo, cache, TDP, 2016 launch and socket/platform information. Retail boxed/tray order codes are not inferred. Intel labels the socket FCLGA2011; exact v4 board/firmware support is a separate requirement.",
+    "models": {
+      "Xeon E5-1680 v4": {
+        "manufacturerPartNumber": null,
+        "revision": null,
+        "facts": {
+          "cores": {
+            "value": 8,
+            "unit": ""
+          },
+          "threads": {
+            "value": 16,
+            "unit": ""
+          },
+          "baseGHz": {
+            "value": 3.4,
+            "unit": "GHz"
+          },
+          "boostGHz": {
+            "value": 4,
+            "unit": "GHz"
+          },
+          "l3MB": {
+            "value": 20,
+            "unit": "MB"
+          },
+          "tdpW": {
+            "value": 140,
+            "unit": "W"
+          },
+          "cpuSegment": {
+            "value": "Server",
+            "unit": ""
+          },
+          "socket": {
+            "value": "FCLGA2011 (Xeon E5 v4 platform)",
+            "unit": ""
+          },
+          "maxSockets": {
+            "value": 1,
+            "unit": ""
+          }
+        }
+      }
+    }
+  },
+  "intel-e5-2620-v4": {
+    "publisher": "Intel",
+    "url": "https://www.intel.com/content/www/us/en/products/sku/92986/intel-xeon-processor-e52620-v4-20m-cache-2-10-ghz/specifications.html",
+    "inspectedAt": "2026-10-19",
+    "confidence": "manufacturer-verified",
+    "inspection": "Original specification table inspected; source facts transcribed and normalized. AI-assisted evidence review, not first-party hardware testing.",
+    "scope": "Exact Intel ARK processor number, Broadwell generation, cores/threads, base/max turbo, cache, TDP, 2016 launch and socket/platform information. Retail boxed/tray order codes are not inferred. Intel labels the socket FCLGA2011; exact v4 board/firmware support is a separate requirement.",
+    "models": {
+      "Xeon E5-2620 v4": {
+        "manufacturerPartNumber": null,
+        "revision": null,
+        "facts": {
+          "cores": {
+            "value": 8,
+            "unit": ""
+          },
+          "threads": {
+            "value": 16,
+            "unit": ""
+          },
+          "baseGHz": {
+            "value": 2.1,
+            "unit": "GHz"
+          },
+          "boostGHz": {
+            "value": 3,
+            "unit": "GHz"
+          },
+          "l3MB": {
+            "value": 20,
+            "unit": "MB"
+          },
+          "tdpW": {
+            "value": 85,
+            "unit": "W"
+          },
+          "cpuSegment": {
+            "value": "Server",
+            "unit": ""
+          },
+          "socket": {
+            "value": "FCLGA2011 (Xeon E5 v4 platform)",
+            "unit": ""
+          },
+          "maxSockets": {
+            "value": 2,
+            "unit": ""
+          }
+        }
+      }
+    }
+  },
+  "intel-e5-2630-v4": {
+    "publisher": "Intel",
+    "url": "https://www.intel.com/content/www/us/en/products/sku/92981/intel-xeon-processor-e52630-v4-25m-cache-2-20-ghz/specifications.html",
+    "inspectedAt": "2026-10-19",
+    "confidence": "manufacturer-verified",
+    "inspection": "Original specification table inspected; source facts transcribed and normalized. AI-assisted evidence review, not first-party hardware testing.",
+    "scope": "Exact Intel ARK processor number, Broadwell generation, cores/threads, base/max turbo, cache, TDP, 2016 launch and socket/platform information. Retail boxed/tray order codes are not inferred. Intel labels the socket FCLGA2011; exact v4 board/firmware support is a separate requirement.",
+    "models": {
+      "Xeon E5-2630 v4": {
+        "manufacturerPartNumber": null,
+        "revision": null,
+        "facts": {
+          "cores": {
+            "value": 10,
+            "unit": ""
+          },
+          "threads": {
+            "value": 20,
+            "unit": ""
+          },
+          "baseGHz": {
+            "value": 2.2,
+            "unit": "GHz"
+          },
+          "boostGHz": {
+            "value": 3.1,
+            "unit": "GHz"
+          },
+          "l3MB": {
+            "value": 25,
+            "unit": "MB"
+          },
+          "tdpW": {
+            "value": 85,
+            "unit": "W"
+          },
+          "cpuSegment": {
+            "value": "Server",
+            "unit": ""
+          },
+          "socket": {
+            "value": "FCLGA2011 (Xeon E5 v4 platform)",
+            "unit": ""
+          },
+          "maxSockets": {
+            "value": 2,
+            "unit": ""
+          }
+        }
+      }
+    }
+  },
+  "intel-e5-2650-v4": {
+    "publisher": "Intel",
+    "url": "https://www.intel.com/content/www/us/en/products/sku/91767/intel-xeon-processor-e52650-v4-30m-cache-2-20-ghz/specifications.html",
+    "inspectedAt": "2026-10-19",
+    "confidence": "manufacturer-verified",
+    "inspection": "Original specification table inspected; source facts transcribed and normalized. AI-assisted evidence review, not first-party hardware testing.",
+    "scope": "Exact Intel ARK processor number, Broadwell generation, cores/threads, base/max turbo, cache, TDP, 2016 launch and socket/platform information. Retail boxed/tray order codes are not inferred. Intel labels the socket FCLGA2011; exact v4 board/firmware support is a separate requirement.",
+    "models": {
+      "Xeon E5-2650 v4": {
+        "manufacturerPartNumber": null,
+        "revision": null,
+        "facts": {
+          "cores": {
+            "value": 12,
+            "unit": ""
+          },
+          "threads": {
+            "value": 24,
+            "unit": ""
+          },
+          "baseGHz": {
+            "value": 2.2,
+            "unit": "GHz"
+          },
+          "boostGHz": {
+            "value": 2.9,
+            "unit": "GHz"
+          },
+          "l3MB": {
+            "value": 30,
+            "unit": "MB"
+          },
+          "tdpW": {
+            "value": 105,
+            "unit": "W"
+          },
+          "cpuSegment": {
+            "value": "Server",
+            "unit": ""
+          },
+          "socket": {
+            "value": "FCLGA2011 (Xeon E5 v4 platform)",
+            "unit": ""
+          },
+          "maxSockets": {
+            "value": 2,
+            "unit": ""
+          }
+        }
+      }
+    }
+  },
+  "intel-e5-2680-v4": {
+    "publisher": "Intel",
+    "url": "https://www.intel.com/content/www/us/en/products/sku/91754/intel-xeon-processor-e52680-v4-35m-cache-2-40-ghz/specifications.html",
+    "inspectedAt": "2026-10-19",
+    "confidence": "manufacturer-verified",
+    "inspection": "Original specification table inspected; source facts transcribed and normalized. AI-assisted evidence review, not first-party hardware testing.",
+    "scope": "Exact Intel ARK processor number, Broadwell generation, cores/threads, base/max turbo, cache, TDP, 2016 launch and socket/platform information. Retail boxed/tray order codes are not inferred. Intel labels the socket FCLGA2011; exact v4 board/firmware support is a separate requirement.",
+    "models": {
+      "Xeon E5-2680 v4": {
+        "manufacturerPartNumber": null,
+        "revision": null,
+        "facts": {
+          "cores": {
+            "value": 14,
+            "unit": ""
+          },
+          "threads": {
+            "value": 28,
+            "unit": ""
+          },
+          "baseGHz": {
+            "value": 2.4,
+            "unit": "GHz"
+          },
+          "boostGHz": {
+            "value": 3.3,
+            "unit": "GHz"
+          },
+          "l3MB": {
+            "value": 35,
+            "unit": "MB"
+          },
+          "tdpW": {
+            "value": 120,
+            "unit": "W"
+          },
+          "cpuSegment": {
+            "value": "Server",
+            "unit": ""
+          },
+          "socket": {
+            "value": "FCLGA2011 (Xeon E5 v4 platform)",
+            "unit": ""
+          },
+          "maxSockets": {
+            "value": 2,
+            "unit": ""
+          }
+        }
+      }
+    }
+  },
+  "amd-tr7000": {
+    "publisher": "AMD",
+    "url": "https://www.amd.com/en/newsroom/press-releases/2023-10-19-amd-introduces-new-amd-ryzen-threadripper-7000-ser.html",
+    "inspectedAt": "2026-10-19",
+    "confidence": "manufacturer-verified",
+    "inspection": "Original specification table inspected; source facts transcribed and normalized. AI-assisted evidence review, not first-party hardware testing.",
+    "scope": "Dated 2023 announcement: exact Threadripper 7000 and PRO 7000 WX product table, cores/threads, base/up-to boost, total L2+L3 cache and TDP. TRX50/WRX90 use DDR5 RDIMM; capacity and channels depend on platform. Launch prices are deliberately not imported as current offers.",
+    "models": {
+      "Ryzen Threadripper 7960X": {
+        "manufacturerPartNumber": null,
+        "revision": null,
+        "facts": {
+          "cores": {
+            "value": 24,
+            "unit": ""
+          },
+          "threads": {
+            "value": 48,
+            "unit": ""
+          },
+          "baseGHz": {
+            "value": 4.2,
+            "unit": "GHz"
+          },
+          "boostGHz": {
+            "value": 5.3,
+            "unit": "GHz"
+          },
+          "totalCacheMB": {
+            "value": 152,
+            "unit": "MB"
+          },
+          "tdpW": {
+            "value": 350,
+            "unit": "W"
+          },
+          "cpuSegment": {
+            "value": "Workstation",
+            "unit": ""
+          },
+          "cpuMemory": {
+            "value": "DDR5 RDIMM; exact board/platform support required",
+            "unit": ""
+          }
+        }
+      },
+      "Ryzen Threadripper 7970X": {
+        "manufacturerPartNumber": null,
+        "revision": null,
+        "facts": {
+          "cores": {
+            "value": 32,
+            "unit": ""
+          },
+          "threads": {
+            "value": 64,
+            "unit": ""
+          },
+          "baseGHz": {
+            "value": 4,
+            "unit": "GHz"
+          },
+          "boostGHz": {
+            "value": 5.3,
+            "unit": "GHz"
+          },
+          "totalCacheMB": {
+            "value": 160,
+            "unit": "MB"
+          },
+          "tdpW": {
+            "value": 350,
+            "unit": "W"
+          },
+          "cpuSegment": {
+            "value": "Workstation",
+            "unit": ""
+          },
+          "cpuMemory": {
+            "value": "DDR5 RDIMM; exact board/platform support required",
+            "unit": ""
+          }
+        }
+      },
+      "Ryzen Threadripper 7980X": {
+        "manufacturerPartNumber": null,
+        "revision": null,
+        "facts": {
+          "cores": {
+            "value": 64,
+            "unit": ""
+          },
+          "threads": {
+            "value": 128,
+            "unit": ""
+          },
+          "baseGHz": {
+            "value": 3.2,
+            "unit": "GHz"
+          },
+          "boostGHz": {
+            "value": 5.1,
+            "unit": "GHz"
+          },
+          "totalCacheMB": {
+            "value": 320,
+            "unit": "MB"
+          },
+          "tdpW": {
+            "value": 350,
+            "unit": "W"
+          },
+          "cpuSegment": {
+            "value": "Workstation",
+            "unit": ""
+          },
+          "cpuMemory": {
+            "value": "DDR5 RDIMM; exact board/platform support required",
+            "unit": ""
+          }
+        }
+      },
+      "Ryzen Threadripper PRO 7945WX": {
+        "manufacturerPartNumber": null,
+        "revision": null,
+        "facts": {
+          "cores": {
+            "value": 12,
+            "unit": ""
+          },
+          "threads": {
+            "value": 24,
+            "unit": ""
+          },
+          "baseGHz": {
+            "value": 4.7,
+            "unit": "GHz"
+          },
+          "boostGHz": {
+            "value": 5.3,
+            "unit": "GHz"
+          },
+          "totalCacheMB": {
+            "value": 76,
+            "unit": "MB"
+          },
+          "tdpW": {
+            "value": 350,
+            "unit": "W"
+          },
+          "cpuSegment": {
+            "value": "Workstation",
+            "unit": ""
+          },
+          "cpuMemory": {
+            "value": "DDR5 RDIMM; exact board/platform support required",
+            "unit": ""
+          }
+        }
+      },
+      "Ryzen Threadripper PRO 7955WX": {
+        "manufacturerPartNumber": null,
+        "revision": null,
+        "facts": {
+          "cores": {
+            "value": 16,
+            "unit": ""
+          },
+          "threads": {
+            "value": 32,
+            "unit": ""
+          },
+          "baseGHz": {
+            "value": 4.5,
+            "unit": "GHz"
+          },
+          "boostGHz": {
+            "value": 5.3,
+            "unit": "GHz"
+          },
+          "totalCacheMB": {
+            "value": 80,
+            "unit": "MB"
+          },
+          "tdpW": {
+            "value": 350,
+            "unit": "W"
+          },
+          "cpuSegment": {
+            "value": "Workstation",
+            "unit": ""
+          },
+          "cpuMemory": {
+            "value": "DDR5 RDIMM; exact board/platform support required",
+            "unit": ""
+          }
+        }
+      },
+      "Ryzen Threadripper PRO 7965WX": {
+        "manufacturerPartNumber": null,
+        "revision": null,
+        "facts": {
+          "cores": {
+            "value": 24,
+            "unit": ""
+          },
+          "threads": {
+            "value": 48,
+            "unit": ""
+          },
+          "baseGHz": {
+            "value": 4.2,
+            "unit": "GHz"
+          },
+          "boostGHz": {
+            "value": 5.3,
+            "unit": "GHz"
+          },
+          "totalCacheMB": {
+            "value": 152,
+            "unit": "MB"
+          },
+          "tdpW": {
+            "value": 350,
+            "unit": "W"
+          },
+          "cpuSegment": {
+            "value": "Workstation",
+            "unit": ""
+          },
+          "cpuMemory": {
+            "value": "DDR5 RDIMM; exact board/platform support required",
+            "unit": ""
+          }
+        }
+      },
+      "Ryzen Threadripper PRO 7975WX": {
+        "manufacturerPartNumber": null,
+        "revision": null,
+        "facts": {
+          "cores": {
+            "value": 32,
+            "unit": ""
+          },
+          "threads": {
+            "value": 64,
+            "unit": ""
+          },
+          "baseGHz": {
+            "value": 4,
+            "unit": "GHz"
+          },
+          "boostGHz": {
+            "value": 5.3,
+            "unit": "GHz"
+          },
+          "totalCacheMB": {
+            "value": 160,
+            "unit": "MB"
+          },
+          "tdpW": {
+            "value": 350,
+            "unit": "W"
+          },
+          "cpuSegment": {
+            "value": "Workstation",
+            "unit": ""
+          },
+          "cpuMemory": {
+            "value": "DDR5 RDIMM; exact board/platform support required",
+            "unit": ""
+          }
+        }
+      },
+      "Ryzen Threadripper PRO 7985WX": {
+        "manufacturerPartNumber": null,
+        "revision": null,
+        "facts": {
+          "cores": {
+            "value": 64,
+            "unit": ""
+          },
+          "threads": {
+            "value": 128,
+            "unit": ""
+          },
+          "baseGHz": {
+            "value": 3.2,
+            "unit": "GHz"
+          },
+          "boostGHz": {
+            "value": 5.1,
+            "unit": "GHz"
+          },
+          "totalCacheMB": {
+            "value": 320,
+            "unit": "MB"
+          },
+          "tdpW": {
+            "value": 350,
+            "unit": "W"
+          },
+          "cpuSegment": {
+            "value": "Workstation",
+            "unit": ""
+          },
+          "cpuMemory": {
+            "value": "DDR5 RDIMM; exact board/platform support required",
+            "unit": ""
+          }
+        }
+      }
+    }
+  },
+  "amd-tr7000-platform": {
+    "publisher": "AMD",
+    "url": "https://www.amd.com/en/partner/articles/unchained-creativity-threadripper-7000-series.html",
+    "inspectedAt": "2026-10-19",
+    "confidence": "manufacturer-verified",
+    "inspection": "Original specification table inspected; source facts transcribed and normalized. AI-assisted evidence review, not first-party hardware testing.",
+    "scope": "Exact product family tables establish sTR5 and PRO-model L3 versus non-PRO total-cache labels. No performance chart or benchmark results are copied.",
+    "models": {
+      "Ryzen Threadripper 7960X": {
+        "manufacturerPartNumber": null,
+        "revision": null,
+        "facts": {
+          "socket": {
+            "value": "sTR5",
+            "unit": ""
+          }
+        }
+      },
+      "Ryzen Threadripper 7970X": {
+        "manufacturerPartNumber": null,
+        "revision": null,
+        "facts": {
+          "socket": {
+            "value": "sTR5",
+            "unit": ""
+          }
+        }
+      },
+      "Ryzen Threadripper 7980X": {
+        "manufacturerPartNumber": null,
+        "revision": null,
+        "facts": {
+          "socket": {
+            "value": "sTR5",
+            "unit": ""
+          }
+        }
+      },
+      "Ryzen Threadripper PRO 7945WX": {
+        "manufacturerPartNumber": null,
+        "revision": null,
+        "facts": {
+          "socket": {
+            "value": "sTR5",
+            "unit": ""
+          }
+        }
+      },
+      "Ryzen Threadripper PRO 7955WX": {
+        "manufacturerPartNumber": null,
+        "revision": null,
+        "facts": {
+          "socket": {
+            "value": "sTR5",
+            "unit": ""
+          }
+        }
+      },
+      "Ryzen Threadripper PRO 7965WX": {
+        "manufacturerPartNumber": null,
+        "revision": null,
+        "facts": {
+          "socket": {
+            "value": "sTR5",
+            "unit": ""
+          }
+        }
+      },
+      "Ryzen Threadripper PRO 7975WX": {
+        "manufacturerPartNumber": null,
+        "revision": null,
+        "facts": {
+          "socket": {
+            "value": "sTR5",
+            "unit": ""
+          }
+        }
+      },
+      "Ryzen Threadripper PRO 7985WX": {
+        "manufacturerPartNumber": null,
+        "revision": null,
+        "facts": {
+          "socket": {
+            "value": "sTR5",
+            "unit": ""
+          }
+        }
+      }
+    }
+  },
+  "kingston-ddr4-udimm": {
+    "publisher": "Kingston",
+    "url": "https://www.kingston.com/en/memory/client/ddr4-3200mts-non_ecc-unbuffered-d%C4%B1mm",
+    "inspectedAt": "2026-10-19",
+    "confidence": "manufacturer-verified",
+    "inspection": "Original specification table inspected; source facts transcribed and normalized. AI-assisted evidence review, not first-party hardware testing.",
+    "scope": "Exact part-number table, nominal per-module capacity, generation, data rate, unbuffered/registered and system ECC class, chip organization and ranks. Part numbers are individual modules, not two-stick kits. Chip/die suffixes are retained as distinct identities.",
+    "models": {
+      "ValueRAM KVR32N22S6/4 4GB DDR4-3200": {
+        "manufacturerPartNumber": "KVR32N22S6/4",
+        "revision": null,
+        "facts": {
+          "capacityGB": {
+            "value": 4,
+            "unit": "GB"
+          },
+          "generation": {
+            "value": "DDR4",
+            "unit": ""
+          },
+          "transferMTs": {
+            "value": 3200,
+            "unit": "MT/s"
+          },
+          "modules": {
+            "value": 1,
+            "unit": ""
+          },
+          "ranks": {
+            "value": 1,
+            "unit": ""
+          },
+          "chipWidth": {
+            "value": 16,
+            "unit": "bit"
+          },
+          "form": {
+            "value": "UDIMM",
+            "unit": ""
+          },
+          "ecc": {
+            "value": false,
+            "unit": ""
+          },
+          "registered": {
+            "value": false,
+            "unit": ""
+          },
+          "dramDensityGbit": {
+            "value": 8,
+            "unit": "Gbit"
+          }
+        }
+      }
+    }
+  },
+  "kingston-kvr32n22s6-8": {
+    "publisher": "Kingston",
+    "url": "https://www.kingston.com/datasheets/KVR32N22S6_8.pdf",
+    "inspectedAt": "2026-10-19",
+    "confidence": "manufacturer-verified",
+    "inspection": "Original specification table inspected; source facts transcribed and normalized. AI-assisted evidence review, not first-party hardware testing.",
+    "scope": "Exact single-module datasheet and matching family table: capacity, rank, chip width, DDR generation, JEDEC SPD data rate/timing, voltage and form. Non-ECC means no system-level ECC guarantee; DDR5 on-die ECC is a different mechanism.",
+    "models": {
+      "ValueRAM KVR32N22S6/8 8GB DDR4-3200": {
+        "manufacturerPartNumber": "KVR32N22S6/8",
+        "revision": null,
+        "facts": {
+          "capacityGB": {
+            "value": 8,
+            "unit": "GB"
+          },
+          "generation": {
+            "value": "DDR4",
+            "unit": ""
+          },
+          "transferMTs": {
+            "value": 3200,
+            "unit": "MT/s"
+          },
+          "modules": {
+            "value": 1,
+            "unit": ""
+          },
+          "ranks": {
+            "value": 1,
+            "unit": ""
+          },
+          "chipWidth": {
+            "value": 16,
+            "unit": "bit"
+          },
+          "form": {
+            "value": "UDIMM",
+            "unit": ""
+          },
+          "ecc": {
+            "value": false,
+            "unit": ""
+          },
+          "registered": {
+            "value": false,
+            "unit": ""
+          },
+          "dramDensityGbit": {
+            "value": 16,
+            "unit": "Gbit"
+          },
+          "cas": {
+            "value": 22,
+            "unit": "cycles"
+          },
+          "voltage": {
+            "value": 1.2,
+            "unit": "V"
+          },
+          "pins": {
+            "value": 288,
+            "unit": ""
+          }
+        }
+      }
+    }
+  },
+  "kingston-kvr32n22s8-8": {
+    "publisher": "Kingston",
+    "url": "https://www.kingston.com/datasheets/KVR32N22S8_8.pdf",
+    "inspectedAt": "2026-10-19",
+    "confidence": "manufacturer-verified",
+    "inspection": "Original specification table inspected; source facts transcribed and normalized. AI-assisted evidence review, not first-party hardware testing.",
+    "scope": "Exact single-module datasheet and matching family table: capacity, rank, chip width, DDR generation, JEDEC SPD data rate/timing, voltage and form. Non-ECC means no system-level ECC guarantee; DDR5 on-die ECC is a different mechanism.",
+    "models": {
+      "ValueRAM KVR32N22S8/8 8GB DDR4-3200": {
+        "manufacturerPartNumber": "KVR32N22S8/8",
+        "revision": null,
+        "facts": {
+          "capacityGB": {
+            "value": 8,
+            "unit": "GB"
+          },
+          "generation": {
+            "value": "DDR4",
+            "unit": ""
+          },
+          "transferMTs": {
+            "value": 3200,
+            "unit": "MT/s"
+          },
+          "modules": {
+            "value": 1,
+            "unit": ""
+          },
+          "ranks": {
+            "value": 1,
+            "unit": ""
+          },
+          "chipWidth": {
+            "value": 8,
+            "unit": "bit"
+          },
+          "form": {
+            "value": "UDIMM",
+            "unit": ""
+          },
+          "ecc": {
+            "value": false,
+            "unit": ""
+          },
+          "registered": {
+            "value": false,
+            "unit": ""
+          },
+          "dramDensityGbit": {
+            "value": 8,
+            "unit": "Gbit"
+          },
+          "cas": {
+            "value": 22,
+            "unit": "cycles"
+          },
+          "voltage": {
+            "value": 1.2,
+            "unit": "V"
+          },
+          "pins": {
+            "value": 288,
+            "unit": ""
+          }
+        }
+      }
+    }
+  },
+  "kingston-kvr32n22d8-16": {
+    "publisher": "Kingston",
+    "url": "https://www.kingston.com/datasheets/KVR32N22D8_16.pdf",
+    "inspectedAt": "2026-10-19",
+    "confidence": "manufacturer-verified",
+    "inspection": "Original specification table inspected; source facts transcribed and normalized. AI-assisted evidence review, not first-party hardware testing.",
+    "scope": "Exact single-module datasheet and matching family table: capacity, rank, chip width, DDR generation, JEDEC SPD data rate/timing, voltage and form. Non-ECC means no system-level ECC guarantee; DDR5 on-die ECC is a different mechanism.",
+    "models": {
+      "ValueRAM KVR32N22D8/16 16GB DDR4-3200": {
+        "manufacturerPartNumber": "KVR32N22D8/16",
+        "revision": null,
+        "facts": {
+          "capacityGB": {
+            "value": 16,
+            "unit": "GB"
+          },
+          "generation": {
+            "value": "DDR4",
+            "unit": ""
+          },
+          "transferMTs": {
+            "value": 3200,
+            "unit": "MT/s"
+          },
+          "modules": {
+            "value": 1,
+            "unit": ""
+          },
+          "ranks": {
+            "value": 2,
+            "unit": ""
+          },
+          "chipWidth": {
+            "value": 8,
+            "unit": "bit"
+          },
+          "form": {
+            "value": "UDIMM",
+            "unit": ""
+          },
+          "ecc": {
+            "value": false,
+            "unit": ""
+          },
+          "registered": {
+            "value": false,
+            "unit": ""
+          },
+          "dramDensityGbit": {
+            "value": 8,
+            "unit": "Gbit"
+          },
+          "cas": {
+            "value": 22,
+            "unit": "cycles"
+          },
+          "voltage": {
+            "value": 1.2,
+            "unit": "V"
+          },
+          "pins": {
+            "value": 288,
+            "unit": ""
+          }
+        }
+      }
+    }
+  },
+  "kingston-kvr32n22s8-16": {
+    "publisher": "Kingston",
+    "url": "https://www.kingston.com/datasheets/KVR32N22S8_16.pdf",
+    "inspectedAt": "2026-10-19",
+    "confidence": "manufacturer-verified",
+    "inspection": "Original specification table inspected; source facts transcribed and normalized. AI-assisted evidence review, not first-party hardware testing.",
+    "scope": "Exact single-module datasheet and matching family table: capacity, rank, chip width, DDR generation, JEDEC SPD data rate/timing, voltage and form. Non-ECC means no system-level ECC guarantee; DDR5 on-die ECC is a different mechanism.",
+    "models": {
+      "ValueRAM KVR32N22S8/16 16GB DDR4-3200": {
+        "manufacturerPartNumber": "KVR32N22S8/16",
+        "revision": null,
+        "facts": {
+          "capacityGB": {
+            "value": 16,
+            "unit": "GB"
+          },
+          "generation": {
+            "value": "DDR4",
+            "unit": ""
+          },
+          "transferMTs": {
+            "value": 3200,
+            "unit": "MT/s"
+          },
+          "modules": {
+            "value": 1,
+            "unit": ""
+          },
+          "ranks": {
+            "value": 1,
+            "unit": ""
+          },
+          "chipWidth": {
+            "value": 8,
+            "unit": "bit"
+          },
+          "form": {
+            "value": "UDIMM",
+            "unit": ""
+          },
+          "ecc": {
+            "value": false,
+            "unit": ""
+          },
+          "registered": {
+            "value": false,
+            "unit": ""
+          },
+          "dramDensityGbit": {
+            "value": 16,
+            "unit": "Gbit"
+          },
+          "cas": {
+            "value": 22,
+            "unit": "cycles"
+          },
+          "voltage": {
+            "value": 1.2,
+            "unit": "V"
+          },
+          "pins": {
+            "value": 288,
+            "unit": ""
+          }
+        }
+      }
+    }
+  },
+  "kingston-kvr32n22d8-32": {
+    "publisher": "Kingston",
+    "url": "https://www.kingston.com/datasheets/KVR32N22D8_32.pdf",
+    "inspectedAt": "2026-10-19",
+    "confidence": "manufacturer-verified",
+    "inspection": "Original specification table inspected; source facts transcribed and normalized. AI-assisted evidence review, not first-party hardware testing.",
+    "scope": "Exact single-module datasheet and matching family table: capacity, rank, chip width, DDR generation, JEDEC SPD data rate/timing, voltage and form. Non-ECC means no system-level ECC guarantee; DDR5 on-die ECC is a different mechanism.",
+    "models": {
+      "ValueRAM KVR32N22D8/32 32GB DDR4-3200": {
+        "manufacturerPartNumber": "KVR32N22D8/32",
+        "revision": null,
+        "facts": {
+          "capacityGB": {
+            "value": 32,
+            "unit": "GB"
+          },
+          "generation": {
+            "value": "DDR4",
+            "unit": ""
+          },
+          "transferMTs": {
+            "value": 3200,
+            "unit": "MT/s"
+          },
+          "modules": {
+            "value": 1,
+            "unit": ""
+          },
+          "ranks": {
+            "value": 2,
+            "unit": ""
+          },
+          "chipWidth": {
+            "value": 8,
+            "unit": "bit"
+          },
+          "form": {
+            "value": "UDIMM",
+            "unit": ""
+          },
+          "ecc": {
+            "value": false,
+            "unit": ""
+          },
+          "registered": {
+            "value": false,
+            "unit": ""
+          },
+          "dramDensityGbit": {
+            "value": 16,
+            "unit": "Gbit"
+          },
+          "cas": {
+            "value": 22,
+            "unit": "cycles"
+          },
+          "voltage": {
+            "value": 1.2,
+            "unit": "V"
+          },
+          "pins": {
+            "value": 288,
+            "unit": ""
+          }
+        }
+      }
+    }
+  },
+  "kingston-ddr5-udimm": {
+    "publisher": "Kingston",
+    "url": "https://www.kingston.com/en/memory/client/ddr5-5600mts-non_ecc-unbuffered-dimm",
+    "inspectedAt": "2026-10-19",
+    "confidence": "manufacturer-verified",
+    "inspection": "Original specification table inspected; source facts transcribed and normalized. AI-assisted evidence review, not first-party hardware testing.",
+    "scope": "Exact part-number table, nominal per-module capacity, generation, data rate, unbuffered/registered and system ECC class, chip organization and ranks. Part numbers are individual modules, not two-stick kits. Chip/die suffixes are retained as distinct identities.",
+    "models": {}
+  },
+  "kingston-kvr56u46bs6-8": {
+    "publisher": "Kingston",
+    "url": "https://www.kingston.com/datasheets/KVR56U46BS6-8.pdf",
+    "inspectedAt": "2026-10-19",
+    "confidence": "manufacturer-verified",
+    "inspection": "Original specification table inspected; source facts transcribed and normalized. AI-assisted evidence review, not first-party hardware testing.",
+    "scope": "Exact single-module datasheet and matching family table: capacity, rank, chip width, DDR generation, JEDEC SPD data rate/timing, voltage and form. Non-ECC means no system-level ECC guarantee; DDR5 on-die ECC is a different mechanism.",
+    "models": {
+      "ValueRAM KVR56U46BS6-8 8GB DDR5-5600": {
+        "manufacturerPartNumber": "KVR56U46BS6-8",
+        "revision": null,
+        "facts": {
+          "capacityGB": {
+            "value": 8,
+            "unit": "GB"
+          },
+          "generation": {
+            "value": "DDR5",
+            "unit": ""
+          },
+          "transferMTs": {
+            "value": 5600,
+            "unit": "MT/s"
+          },
+          "modules": {
+            "value": 1,
+            "unit": ""
+          },
+          "ranks": {
+            "value": 1,
+            "unit": ""
+          },
+          "chipWidth": {
+            "value": 16,
+            "unit": "bit"
+          },
+          "form": {
+            "value": "UDIMM",
+            "unit": ""
+          },
+          "ecc": {
+            "value": false,
+            "unit": ""
+          },
+          "registered": {
+            "value": false,
+            "unit": ""
+          },
+          "dramDensityGbit": {
+            "value": 16,
+            "unit": "Gbit"
+          },
+          "cas": {
+            "value": 46,
+            "unit": "cycles"
+          },
+          "voltage": {
+            "value": 1.1,
+            "unit": "V"
+          },
+          "pins": {
+            "value": 288,
+            "unit": ""
+          }
+        }
+      }
+    }
+  },
+  "kingston-kvr56u46bs8-16": {
+    "publisher": "Kingston",
+    "url": "https://www.kingston.com/datasheets/KVR56U46BS8-16.pdf",
+    "inspectedAt": "2026-10-19",
+    "confidence": "manufacturer-verified",
+    "inspection": "Original specification table inspected; source facts transcribed and normalized. AI-assisted evidence review, not first-party hardware testing.",
+    "scope": "Exact single-module datasheet and matching family table: capacity, rank, chip width, DDR generation, JEDEC SPD data rate/timing, voltage and form. Non-ECC means no system-level ECC guarantee; DDR5 on-die ECC is a different mechanism.",
+    "models": {
+      "ValueRAM KVR56U46BS8-16 16GB DDR5-5600": {
+        "manufacturerPartNumber": "KVR56U46BS8-16",
+        "revision": null,
+        "facts": {
+          "capacityGB": {
+            "value": 16,
+            "unit": "GB"
+          },
+          "generation": {
+            "value": "DDR5",
+            "unit": ""
+          },
+          "transferMTs": {
+            "value": 5600,
+            "unit": "MT/s"
+          },
+          "modules": {
+            "value": 1,
+            "unit": ""
+          },
+          "ranks": {
+            "value": 1,
+            "unit": ""
+          },
+          "chipWidth": {
+            "value": 8,
+            "unit": "bit"
+          },
+          "form": {
+            "value": "UDIMM",
+            "unit": ""
+          },
+          "ecc": {
+            "value": false,
+            "unit": ""
+          },
+          "registered": {
+            "value": false,
+            "unit": ""
+          },
+          "dramDensityGbit": {
+            "value": 16,
+            "unit": "Gbit"
+          },
+          "cas": {
+            "value": 46,
+            "unit": "cycles"
+          },
+          "voltage": {
+            "value": 1.1,
+            "unit": "V"
+          },
+          "pins": {
+            "value": 288,
+            "unit": ""
+          }
+        }
+      }
+    }
+  },
+  "kingston-kvr56u46bd8-32": {
+    "publisher": "Kingston",
+    "url": "https://www.kingston.com/datasheets/KVR56U46BD8-32.pdf",
+    "inspectedAt": "2026-10-19",
+    "confidence": "manufacturer-verified",
+    "inspection": "Original specification table inspected; source facts transcribed and normalized. AI-assisted evidence review, not first-party hardware testing.",
+    "scope": "Exact single-module datasheet and matching family table: capacity, rank, chip width, DDR generation, JEDEC SPD data rate/timing, voltage and form. Non-ECC means no system-level ECC guarantee; DDR5 on-die ECC is a different mechanism.",
+    "models": {
+      "ValueRAM KVR56U46BD8-32 32GB DDR5-5600": {
+        "manufacturerPartNumber": "KVR56U46BD8-32",
+        "revision": null,
+        "facts": {
+          "capacityGB": {
+            "value": 32,
+            "unit": "GB"
+          },
+          "generation": {
+            "value": "DDR5",
+            "unit": ""
+          },
+          "transferMTs": {
+            "value": 5600,
+            "unit": "MT/s"
+          },
+          "modules": {
+            "value": 1,
+            "unit": ""
+          },
+          "ranks": {
+            "value": 2,
+            "unit": ""
+          },
+          "chipWidth": {
+            "value": 8,
+            "unit": "bit"
+          },
+          "form": {
+            "value": "UDIMM",
+            "unit": ""
+          },
+          "ecc": {
+            "value": false,
+            "unit": ""
+          },
+          "registered": {
+            "value": false,
+            "unit": ""
+          },
+          "dramDensityGbit": {
+            "value": 16,
+            "unit": "Gbit"
+          },
+          "cas": {
+            "value": 46,
+            "unit": "cycles"
+          },
+          "voltage": {
+            "value": 1.1,
+            "unit": "V"
+          },
+          "pins": {
+            "value": 288,
+            "unit": ""
+          }
+        }
+      }
+    }
+  },
+  "kingston-kvr56u46bs8-32": {
+    "publisher": "Kingston",
+    "url": "https://www.kingston.com/datasheets/KVR56U46BS8-32.pdf",
+    "inspectedAt": "2026-10-19",
+    "confidence": "manufacturer-verified",
+    "inspection": "Original specification table inspected; source facts transcribed and normalized. AI-assisted evidence review, not first-party hardware testing.",
+    "scope": "Exact single-module datasheet and matching family table: capacity, rank, chip width, DDR generation, JEDEC SPD data rate/timing, voltage and form. Non-ECC means no system-level ECC guarantee; DDR5 on-die ECC is a different mechanism.",
+    "models": {
+      "ValueRAM KVR56U46BS8-32 32GB DDR5-5600": {
+        "manufacturerPartNumber": "KVR56U46BS8-32",
+        "revision": null,
+        "facts": {
+          "capacityGB": {
+            "value": 32,
+            "unit": "GB"
+          },
+          "generation": {
+            "value": "DDR5",
+            "unit": ""
+          },
+          "transferMTs": {
+            "value": 5600,
+            "unit": "MT/s"
+          },
+          "modules": {
+            "value": 1,
+            "unit": ""
+          },
+          "ranks": {
+            "value": 1,
+            "unit": ""
+          },
+          "chipWidth": {
+            "value": 8,
+            "unit": "bit"
+          },
+          "form": {
+            "value": "UDIMM",
+            "unit": ""
+          },
+          "ecc": {
+            "value": false,
+            "unit": ""
+          },
+          "registered": {
+            "value": false,
+            "unit": ""
+          },
+          "dramDensityGbit": {
+            "value": 32,
+            "unit": "Gbit"
+          },
+          "cas": {
+            "value": 46,
+            "unit": "cycles"
+          },
+          "voltage": {
+            "value": 1.1,
+            "unit": "V"
+          },
+          "pins": {
+            "value": 288,
+            "unit": ""
+          }
+        }
+      }
+    }
+  },
+  "kingston-kvr56u46bd8-48": {
+    "publisher": "Kingston",
+    "url": "https://www.kingston.com/datasheets/KVR56U46BD8-48.pdf",
+    "inspectedAt": "2026-10-19",
+    "confidence": "manufacturer-verified",
+    "inspection": "Original specification table inspected; source facts transcribed and normalized. AI-assisted evidence review, not first-party hardware testing.",
+    "scope": "Exact single-module datasheet and matching family table: capacity, rank, chip width, DDR generation, JEDEC SPD data rate/timing, voltage and form. Non-ECC means no system-level ECC guarantee; DDR5 on-die ECC is a different mechanism.",
+    "models": {
+      "ValueRAM KVR56U46BD8-48 48GB DDR5-5600": {
+        "manufacturerPartNumber": "KVR56U46BD8-48",
+        "revision": null,
+        "facts": {
+          "capacityGB": {
+            "value": 48,
+            "unit": "GB"
+          },
+          "generation": {
+            "value": "DDR5",
+            "unit": ""
+          },
+          "transferMTs": {
+            "value": 5600,
+            "unit": "MT/s"
+          },
+          "modules": {
+            "value": 1,
+            "unit": ""
+          },
+          "ranks": {
+            "value": 2,
+            "unit": ""
+          },
+          "chipWidth": {
+            "value": 8,
+            "unit": "bit"
+          },
+          "form": {
+            "value": "UDIMM",
+            "unit": ""
+          },
+          "ecc": {
+            "value": false,
+            "unit": ""
+          },
+          "registered": {
+            "value": false,
+            "unit": ""
+          },
+          "dramDensityGbit": {
+            "value": 24,
+            "unit": "Gbit"
+          },
+          "cas": {
+            "value": 46,
+            "unit": "cycles"
+          },
+          "voltage": {
+            "value": 1.1,
+            "unit": "V"
+          },
+          "pins": {
+            "value": 288,
+            "unit": ""
+          }
+        }
+      }
+    }
+  },
+  "kingston-kvr56u46bd8-64": {
+    "publisher": "Kingston",
+    "url": "https://www.kingston.com/datasheets/KVR56U46BD8-64.pdf",
+    "inspectedAt": "2026-10-19",
+    "confidence": "manufacturer-verified",
+    "inspection": "Original specification table inspected; source facts transcribed and normalized. AI-assisted evidence review, not first-party hardware testing.",
+    "scope": "Exact single-module datasheet and matching family table: capacity, rank, chip width, DDR generation, JEDEC SPD data rate/timing, voltage and form. Non-ECC means no system-level ECC guarantee; DDR5 on-die ECC is a different mechanism.",
+    "models": {
+      "ValueRAM KVR56U46BD8-64 64GB DDR5-5600": {
+        "manufacturerPartNumber": "KVR56U46BD8-64",
+        "revision": null,
+        "facts": {
+          "capacityGB": {
+            "value": 64,
+            "unit": "GB"
+          },
+          "generation": {
+            "value": "DDR5",
+            "unit": ""
+          },
+          "transferMTs": {
+            "value": 5600,
+            "unit": "MT/s"
+          },
+          "modules": {
+            "value": 1,
+            "unit": ""
+          },
+          "ranks": {
+            "value": 2,
+            "unit": ""
+          },
+          "chipWidth": {
+            "value": 8,
+            "unit": "bit"
+          },
+          "form": {
+            "value": "UDIMM",
+            "unit": ""
+          },
+          "ecc": {
+            "value": false,
+            "unit": ""
+          },
+          "registered": {
+            "value": false,
+            "unit": ""
+          },
+          "dramDensityGbit": {
+            "value": 32,
+            "unit": "Gbit"
+          },
+          "cas": {
+            "value": 46,
+            "unit": "cycles"
+          },
+          "voltage": {
+            "value": 1.1,
+            "unit": "V"
+          },
+          "pins": {
+            "value": 288,
+            "unit": ""
+          }
+        }
+      }
+    }
+  },
+  "kingston-ddr4-rdimm": {
+    "publisher": "Kingston",
+    "url": "https://www.kingston.com/unitedkingdom/en/memory/server-premier/ddr4-3200mts-ecc-registered-d%C4%B1mm",
+    "inspectedAt": "2026-10-19",
+    "confidence": "manufacturer-verified",
+    "inspection": "Original specification table inspected; source facts transcribed and normalized. AI-assisted evidence review, not first-party hardware testing.",
+    "scope": "Exact part-number table, nominal per-module capacity, generation, data rate, unbuffered/registered and system ECC class, chip organization and ranks. Part numbers are individual modules, not two-stick kits. Chip/die suffixes are retained as distinct identities.",
+    "models": {
+      "Server Premier KSM32RS8/16HD 16GB DDR4-3200": {
+        "manufacturerPartNumber": "KSM32RS8/16HD",
+        "revision": null,
+        "facts": {
+          "capacityGB": {
+            "value": 16,
+            "unit": "GB"
+          },
+          "generation": {
+            "value": "DDR4",
+            "unit": ""
+          },
+          "transferMTs": {
+            "value": 3200,
+            "unit": "MT/s"
+          },
+          "modules": {
+            "value": 1,
+            "unit": ""
+          },
+          "ranks": {
+            "value": 1,
+            "unit": ""
+          },
+          "chipWidth": {
+            "value": 8,
+            "unit": "bit"
+          },
+          "form": {
+            "value": "RDIMM",
+            "unit": ""
+          },
+          "ecc": {
+            "value": true,
+            "unit": ""
+          },
+          "registered": {
+            "value": true,
+            "unit": ""
+          },
+          "dramManufacturer": {
+            "value": "SK hynix",
+            "unit": ""
+          },
+          "die": {
+            "value": "D",
+            "unit": ""
+          }
+        }
+      },
+      "Server Premier KSM32RD8/32HD 32GB DDR4-3200": {
+        "manufacturerPartNumber": "KSM32RD8/32HD",
+        "revision": null,
+        "facts": {
+          "capacityGB": {
+            "value": 32,
+            "unit": "GB"
+          },
+          "generation": {
+            "value": "DDR4",
+            "unit": ""
+          },
+          "transferMTs": {
+            "value": 3200,
+            "unit": "MT/s"
+          },
+          "modules": {
+            "value": 1,
+            "unit": ""
+          },
+          "ranks": {
+            "value": 2,
+            "unit": ""
+          },
+          "chipWidth": {
+            "value": 8,
+            "unit": "bit"
+          },
+          "form": {
+            "value": "RDIMM",
+            "unit": ""
+          },
+          "ecc": {
+            "value": true,
+            "unit": ""
+          },
+          "registered": {
+            "value": true,
+            "unit": ""
+          },
+          "dramManufacturer": {
+            "value": "SK hynix",
+            "unit": ""
+          },
+          "die": {
+            "value": "D",
+            "unit": ""
+          }
+        }
+      },
+      "Server Premier KSM32RS4/32HCR 32GB DDR4-3200": {
+        "manufacturerPartNumber": "KSM32RS4/32HCR",
+        "revision": null,
+        "facts": {
+          "capacityGB": {
+            "value": 32,
+            "unit": "GB"
+          },
+          "generation": {
+            "value": "DDR4",
+            "unit": ""
+          },
+          "transferMTs": {
+            "value": 3200,
+            "unit": "MT/s"
+          },
+          "modules": {
+            "value": 1,
+            "unit": ""
+          },
+          "ranks": {
+            "value": 1,
+            "unit": ""
+          },
+          "chipWidth": {
+            "value": 4,
+            "unit": "bit"
+          },
+          "form": {
+            "value": "RDIMM",
+            "unit": ""
+          },
+          "ecc": {
+            "value": true,
+            "unit": ""
+          },
+          "registered": {
+            "value": true,
+            "unit": ""
+          },
+          "dramManufacturer": {
+            "value": "SK hynix",
+            "unit": ""
+          },
+          "die": {
+            "value": "C",
+            "unit": ""
+          }
+        }
+      },
+      "Server Premier KSM32RS4/32MFR 32GB DDR4-3200": {
+        "manufacturerPartNumber": "KSM32RS4/32MFR",
+        "revision": null,
+        "facts": {
+          "capacityGB": {
+            "value": 32,
+            "unit": "GB"
+          },
+          "generation": {
+            "value": "DDR4",
+            "unit": ""
+          },
+          "transferMTs": {
+            "value": 3200,
+            "unit": "MT/s"
+          },
+          "modules": {
+            "value": 1,
+            "unit": ""
+          },
+          "ranks": {
+            "value": 1,
+            "unit": ""
+          },
+          "chipWidth": {
+            "value": 4,
+            "unit": "bit"
+          },
+          "form": {
+            "value": "RDIMM",
+            "unit": ""
+          },
+          "ecc": {
+            "value": true,
+            "unit": ""
+          },
+          "registered": {
+            "value": true,
+            "unit": ""
+          },
+          "dramManufacturer": {
+            "value": "Micron",
+            "unit": ""
+          },
+          "die": {
+            "value": "F",
+            "unit": ""
+          }
+        }
+      },
+      "Server Premier KSM32RD4/64HCR 64GB DDR4-3200": {
+        "manufacturerPartNumber": "KSM32RD4/64HCR",
+        "revision": null,
+        "facts": {
+          "capacityGB": {
+            "value": 64,
+            "unit": "GB"
+          },
+          "generation": {
+            "value": "DDR4",
+            "unit": ""
+          },
+          "transferMTs": {
+            "value": 3200,
+            "unit": "MT/s"
+          },
+          "modules": {
+            "value": 1,
+            "unit": ""
+          },
+          "ranks": {
+            "value": 2,
+            "unit": ""
+          },
+          "chipWidth": {
+            "value": 4,
+            "unit": "bit"
+          },
+          "form": {
+            "value": "RDIMM",
+            "unit": ""
+          },
+          "ecc": {
+            "value": true,
+            "unit": ""
+          },
+          "registered": {
+            "value": true,
+            "unit": ""
+          },
+          "dramManufacturer": {
+            "value": "SK hynix",
+            "unit": ""
+          },
+          "die": {
+            "value": "C",
+            "unit": ""
+          }
+        }
+      },
+      "Server Premier KSM32RD4/64HD 64GB DDR4-3200": {
+        "manufacturerPartNumber": "KSM32RD4/64HD",
+        "revision": null,
+        "facts": {
+          "capacityGB": {
+            "value": 64,
+            "unit": "GB"
+          },
+          "generation": {
+            "value": "DDR4",
+            "unit": ""
+          },
+          "transferMTs": {
+            "value": 3200,
+            "unit": "MT/s"
+          },
+          "modules": {
+            "value": 1,
+            "unit": ""
+          },
+          "ranks": {
+            "value": 2,
+            "unit": ""
+          },
+          "chipWidth": {
+            "value": 4,
+            "unit": "bit"
+          },
+          "form": {
+            "value": "RDIMM",
+            "unit": ""
+          },
+          "ecc": {
+            "value": true,
+            "unit": ""
+          },
+          "registered": {
+            "value": true,
+            "unit": ""
+          },
+          "dramManufacturer": {
+            "value": "SK hynix",
+            "unit": ""
+          },
+          "die": {
+            "value": "D",
+            "unit": ""
+          }
+        }
+      },
+      "Server Premier KSM32RD4/64MFR 64GB DDR4-3200": {
+        "manufacturerPartNumber": "KSM32RD4/64MFR",
+        "revision": null,
+        "facts": {
+          "capacityGB": {
+            "value": 64,
+            "unit": "GB"
+          },
+          "generation": {
+            "value": "DDR4",
+            "unit": ""
+          },
+          "transferMTs": {
+            "value": 3200,
+            "unit": "MT/s"
+          },
+          "modules": {
+            "value": 1,
+            "unit": ""
+          },
+          "ranks": {
+            "value": 2,
+            "unit": ""
+          },
+          "chipWidth": {
+            "value": 4,
+            "unit": "bit"
+          },
+          "form": {
+            "value": "RDIMM",
+            "unit": ""
+          },
+          "ecc": {
+            "value": true,
+            "unit": ""
+          },
+          "registered": {
+            "value": true,
+            "unit": ""
+          },
+          "dramManufacturer": {
+            "value": "Micron",
+            "unit": ""
+          },
+          "die": {
+            "value": "F",
+            "unit": ""
+          }
+        }
+      }
+    }
+  },
+  "kingston-ddr4-sodimm": {
+    "publisher": "Kingston",
+    "url": "https://www.kingston.com/datasheets/KVR32S22S8_16.pdf",
+    "inspectedAt": "2026-10-19",
+    "confidence": "manufacturer-verified",
+    "inspection": "Original specification table inspected; source facts transcribed and normalized. AI-assisted evidence review, not first-party hardware testing.",
+    "scope": "Exact part-number table, nominal per-module capacity, generation, data rate, unbuffered/registered and system ECC class, chip organization and ranks. Part numbers are individual modules, not two-stick kits. Chip/die suffixes are retained as distinct identities.",
+    "models": {}
+  },
+  "kingston-kvr32s22s8-16": {
+    "publisher": "Kingston",
+    "url": "https://www.kingston.com/datasheets/KVR32S22S8_16.pdf",
+    "inspectedAt": "2026-10-19",
+    "confidence": "manufacturer-verified",
+    "inspection": "Original specification table inspected; source facts transcribed and normalized. AI-assisted evidence review, not first-party hardware testing.",
+    "scope": "Exact single-module datasheet and matching family table: capacity, rank, chip width, DDR generation, JEDEC SPD data rate/timing, voltage and form. Non-ECC means no system-level ECC guarantee; DDR5 on-die ECC is a different mechanism.",
+    "models": {
+      "ValueRAM KVR32S22S8/16 16GB DDR4-3200": {
+        "manufacturerPartNumber": "KVR32S22S8/16",
+        "revision": null,
+        "facts": {
+          "capacityGB": {
+            "value": 16,
+            "unit": "GB"
+          },
+          "generation": {
+            "value": "DDR4",
+            "unit": ""
+          },
+          "transferMTs": {
+            "value": 3200,
+            "unit": "MT/s"
+          },
+          "modules": {
+            "value": 1,
+            "unit": ""
+          },
+          "ranks": {
+            "value": 1,
+            "unit": ""
+          },
+          "chipWidth": {
+            "value": 8,
+            "unit": "bit"
+          },
+          "form": {
+            "value": "SO-DIMM",
+            "unit": ""
+          },
+          "ecc": {
+            "value": false,
+            "unit": ""
+          },
+          "registered": {
+            "value": false,
+            "unit": ""
+          },
+          "dramDensityGbit": {
+            "value": 16,
+            "unit": "Gbit"
+          },
+          "cas": {
+            "value": 22,
+            "unit": "cycles"
+          },
+          "voltage": {
+            "value": 1.2,
+            "unit": "V"
+          },
+          "pins": {
+            "value": 260,
+            "unit": ""
+          }
+        }
+      }
+    }
+  },
+  "kingston-kvr32s22d8-32": {
+    "publisher": "Kingston",
+    "url": "https://www.kingston.com/datasheets/KVR32S22D8_32.pdf",
+    "inspectedAt": "2026-10-19",
+    "confidence": "manufacturer-verified",
+    "inspection": "Original specification table inspected; source facts transcribed and normalized. AI-assisted evidence review, not first-party hardware testing.",
+    "scope": "Exact single-module datasheet and matching family table: capacity, rank, chip width, DDR generation, JEDEC SPD data rate/timing, voltage and form. Non-ECC means no system-level ECC guarantee; DDR5 on-die ECC is a different mechanism.",
+    "models": {
+      "ValueRAM KVR32S22D8/32 32GB DDR4-3200": {
+        "manufacturerPartNumber": "KVR32S22D8/32",
+        "revision": null,
+        "facts": {
+          "capacityGB": {
+            "value": 32,
+            "unit": "GB"
+          },
+          "generation": {
+            "value": "DDR4",
+            "unit": ""
+          },
+          "transferMTs": {
+            "value": 3200,
+            "unit": "MT/s"
+          },
+          "modules": {
+            "value": 1,
+            "unit": ""
+          },
+          "ranks": {
+            "value": 2,
+            "unit": ""
+          },
+          "chipWidth": {
+            "value": 8,
+            "unit": "bit"
+          },
+          "form": {
+            "value": "SO-DIMM",
+            "unit": ""
+          },
+          "ecc": {
+            "value": false,
+            "unit": ""
+          },
+          "registered": {
+            "value": false,
+            "unit": ""
+          },
+          "dramDensityGbit": {
+            "value": 16,
+            "unit": "Gbit"
+          },
+          "cas": {
+            "value": 22,
+            "unit": "cycles"
+          },
+          "voltage": {
+            "value": 1.2,
+            "unit": "V"
+          },
+          "pins": {
+            "value": 260,
+            "unit": ""
+          }
+        }
+      }
+    }
+  },
+  "kingston-dc600m": {
+    "publisher": "Kingston",
+    "url": "https://www.kingston.com/datasheets/SEDC600M_en.pdf",
+    "inspectedAt": "2026-10-19",
+    "confidence": "manufacturer-verified",
+    "inspection": "Original specification table inspected; source facts transcribed and normalized. AI-assisted evidence review, not first-party hardware testing.",
+    "scope": "Current 2026 three-page DC600M/DC600ME manufacturer datasheet inspected, including part-number matrix and JEDEC enterprise TBW conditions. This batch indexes DC600M only: no hardware encryption. DC600ME is a separate encrypted variant. Read/write values are advertised sequential specifications, not measured application performance.",
+    "models": {
+      "DC600M 480GB (SEDC600M/480G)": {
+        "manufacturerPartNumber": "SEDC600M/480G",
+        "revision": null,
+        "facts": {
+          "storageGB": {
+            "value": 480,
+            "unit": "GB"
+          },
+          "storageInterface": {
+            "value": "SATA",
+            "unit": ""
+          },
+          "storageForm": {
+            "value": "2.5-inch, 7 mm",
+            "unit": ""
+          },
+          "readMBs": {
+            "value": 560,
+            "unit": "MB/s"
+          },
+          "writeMBs": {
+            "value": 470,
+            "unit": "MB/s"
+          },
+          "enduranceTBW": {
+            "value": 876,
+            "unit": "TBW"
+          },
+          "powerLossProtection": {
+            "value": true,
+            "unit": ""
+          },
+          "encryption": {
+            "value": "No (DC600M; DC600ME is distinct)",
+            "unit": ""
+          }
+        }
+      },
+      "DC600M 960GB (SEDC600M/960G)": {
+        "manufacturerPartNumber": "SEDC600M/960G",
+        "revision": null,
+        "facts": {
+          "storageGB": {
+            "value": 960,
+            "unit": "GB"
+          },
+          "storageInterface": {
+            "value": "SATA",
+            "unit": ""
+          },
+          "storageForm": {
+            "value": "2.5-inch, 7 mm",
+            "unit": ""
+          },
+          "readMBs": {
+            "value": 560,
+            "unit": "MB/s"
+          },
+          "writeMBs": {
+            "value": 530,
+            "unit": "MB/s"
+          },
+          "enduranceTBW": {
+            "value": 1752,
+            "unit": "TBW"
+          },
+          "powerLossProtection": {
+            "value": true,
+            "unit": ""
+          },
+          "encryption": {
+            "value": "No (DC600M; DC600ME is distinct)",
+            "unit": ""
+          }
+        }
+      },
+      "DC600M 1920GB (SEDC600M/1920G)": {
+        "manufacturerPartNumber": "SEDC600M/1920G",
+        "revision": null,
+        "facts": {
+          "storageGB": {
+            "value": 1920,
+            "unit": "GB"
+          },
+          "storageInterface": {
+            "value": "SATA",
+            "unit": ""
+          },
+          "storageForm": {
+            "value": "2.5-inch, 7 mm",
+            "unit": ""
+          },
+          "readMBs": {
+            "value": 560,
+            "unit": "MB/s"
+          },
+          "writeMBs": {
+            "value": 530,
+            "unit": "MB/s"
+          },
+          "enduranceTBW": {
+            "value": 3504,
+            "unit": "TBW"
+          },
+          "powerLossProtection": {
+            "value": true,
+            "unit": ""
+          },
+          "encryption": {
+            "value": "No (DC600M; DC600ME is distinct)",
+            "unit": ""
+          }
+        }
+      },
+      "DC600M 3840GB (SEDC600M/3840G)": {
+        "manufacturerPartNumber": "SEDC600M/3840G",
+        "revision": null,
+        "facts": {
+          "storageGB": {
+            "value": 3840,
+            "unit": "GB"
+          },
+          "storageInterface": {
+            "value": "SATA",
+            "unit": ""
+          },
+          "storageForm": {
+            "value": "2.5-inch, 7 mm",
+            "unit": ""
+          },
+          "readMBs": {
+            "value": 560,
+            "unit": "MB/s"
+          },
+          "writeMBs": {
+            "value": 530,
+            "unit": "MB/s"
+          },
+          "enduranceTBW": {
+            "value": 7008,
+            "unit": "TBW"
+          },
+          "powerLossProtection": {
+            "value": true,
+            "unit": ""
+          },
+          "encryption": {
+            "value": "No (DC600M; DC600ME is distinct)",
+            "unit": ""
+          }
+        }
+      },
+      "DC600M 7680GB (SEDC600M/7680G)": {
+        "manufacturerPartNumber": "SEDC600M/7680G",
+        "revision": null,
+        "facts": {
+          "storageGB": {
+            "value": 7680,
+            "unit": "GB"
+          },
+          "storageInterface": {
+            "value": "SATA",
+            "unit": ""
+          },
+          "storageForm": {
+            "value": "2.5-inch, 7 mm",
+            "unit": ""
+          },
+          "readMBs": {
+            "value": 560,
+            "unit": "MB/s"
+          },
+          "writeMBs": {
+            "value": 530,
+            "unit": "MB/s"
+          },
+          "enduranceTBW": {
+            "value": 14016,
+            "unit": "TBW"
+          },
+          "powerLossProtection": {
+            "value": true,
+            "unit": ""
+          },
+          "encryption": {
+            "value": "No (DC600M; DC600ME is distinct)",
+            "unit": ""
+          }
+        }
+      }
+    }
+  }
+}

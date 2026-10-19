@@ -1,0 +1,49 @@
+{
+  "origin": "http://127.0.0.1:4200",
+  "testedAt": "2026-10-19T20:18:30.055Z",
+  "fixtureOnly": true,
+  "checks": [
+    {
+      "name": "load-revision",
+      "passed": true,
+      "fixtureRoute": "/builder/",
+      "initialPreference": "CA",
+      "restoredRegion": "US",
+      "headerRegion": "CA",
+      "priceFixture": "USD 199.11; no real price asserted",
+      "offerCalls": 1
+    },
+    {
+      "name": "restore-url",
+      "passed": true,
+      "fixtureRoute": "/builder/?build=9600x%2C%2C%2C%2C%2C%2C%2C%2C%2C&plan=%7E%7E%7E%7E&restore=total-us-price-fixture",
+      "initialPreference": "CA",
+      "restoredRegion": "US",
+      "headerRegion": "CA",
+      "priceFixture": "USD 199.11; no real price asserted",
+      "offerCalls": 1
+    },
+    {
+      "name": "MSI source-only prebuilt",
+      "passed": true,
+      "id": "total-us-msi-aer2aic2nvr1452",
+      "sourceKind": "manufacturer-specification",
+      "status": "Manufacturer fixed configuration inspected; current availability unverified",
+      "liveOfferAsserted": false
+    },
+    {
+      "name": "Lenovo source-only prebuilt",
+      "passed": true,
+      "id": "total-us-lenovo-90ux0017us",
+      "sourceKind": "manufacturer-specification",
+      "status": "Withdrawn manufacturer configuration; historical reference",
+      "liveOfferAsserted": false
+    },
+    {
+      "name": "Picker pagination remains outside the listbox",
+      "passed": true,
+      "before": 80,
+      "after": 160
+    }
+  ]
+}

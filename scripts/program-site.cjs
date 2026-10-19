@@ -61,7 +61,7 @@ module.exports=({root,records,images,shell,write,esc})=>{
  fs.writeFileSync(searchPath,JSON.stringify(search));
  const performanceCatalog=records.filter(p=>p.builderEligible!==false&&(p.cat==='gpu'||p.cat==='cpu')).map(p=>({id:p.id,name:p.name,cat:p.cat,year:p.year,specs:Object.fromEntries(Object.entries(p.specs||{}).filter(([k])=>['PassMark G3D','Memory bandwidth','Memory','CPU cores','Boost clock'].includes(k)))}));
  fs.writeFileSync(path.join(root,'performance-catalog.js'),'const catalog='+JSON.stringify(performanceCatalog).replace(/</g,'\\u003c')+';');
- const builderParts=records.filter(p=>p.builderEligible!==false&&['cpu','board','gpu','ram','ssd','hdd','psu','case','fan','cooler'].includes(p.cat)).map(require('./completion-catalog-delivery.cjs').builderPart);
+ const builderParts=records.filter(p=>p.builderEligible!==false&&['cpu','board','gpu','ram','ssd','hdd','psu','case','fan','cooler'].includes(p.cat)).map(require('./completion-catalog-delivery.cjs').builderPart).sort((a,b)=>a.cat.localeCompare(b.cat)||a.brand.localeCompare(b.brand)||a.name.localeCompare(b.name));
  fs.writeFileSync(path.join(root,'builder-catalog.js'),'window.PCP_BUILDER_CATALOG='+JSON.stringify(builderParts).replace(/</g,'\\u003c')+';');
  // Match the existing photo preview contract; full provenance stays on product pages.
  const imageDelivery=require('./program-image-delivery.cjs');

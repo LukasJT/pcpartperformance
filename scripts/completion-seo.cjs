@@ -164,7 +164,7 @@ function prebuiltDescription(p) {
   const region = { CA: { name: 'Canada', currency: 'CAD' }, US: { name: 'United States', currency: 'USD' } }[p.region];
   if (!region || p.currency !== region.currency) throw Error('Unresolved prebuilt region/currency ' + p.id);
   const fields = [p.cpu, p.gpu, p.ram && p.ram + ' RAM', p.storage].filter(v => typeof v === 'string' && v.trim());
-  return region.name + ' (' + region.currency + ') buying checklist for ' + p.name + ' ' + (p.model || p.sku) + '. ' + fields.join('; ') + '. Check the exact ' + p.merchant + ' listing and undisclosed components.';
+  return region.name + ' (' + region.currency + ') buying checklist for ' + p.name + ' ' + (p.sku || p.model) + '. ' + fields.join('; ') + '. Check the exact ' + p.merchant + ' listing and undisclosed components.';
 }
 function embeddedLegacy(html) {
   const old = html.match(/<script type="application\/json" data-master-system-data>([\s\S]*?)<\/script>/)?.[1];

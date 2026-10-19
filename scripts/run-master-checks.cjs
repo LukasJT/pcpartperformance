@@ -16,6 +16,11 @@ tasks.push('node scripts/ui-refinement.test.cjs');
 tasks.push('node scripts/builder-photo-delivery.test.cjs');
 tasks.push('node scripts/component-photo-catalog.test.cjs');
 tasks.push("node scripts/ad-assets-indexing.test.cjs");
+tasks.push('node scripts/total-ads-semantics.test.mjs');
+tasks.push('node scripts/total-models.test.mjs','node scripts/total-console-hardware.test.cjs');
+tasks.push('node scripts/total-prebuilts.test.cjs','node scripts/total-fps-games.test.cjs');
+tasks.push('node scripts/total-display.test.cjs','node scripts/total-seo.test.cjs');
+tasks.push('node scripts/total-catalog.test.cjs','node scripts/total-fps.test.cjs','node scripts/total-refinement.test.cjs','node scripts/total-operations.test.mjs');
 tasks.push('node scripts/evolution-builder.test.cjs','node scripts/evolution-diagrams.test.cjs','node scripts/evolution-publisher.test.cjs','node scripts/evolution-scene.test.cjs','node scripts/evolution-theme.test.cjs','node scripts/evolution-site.test.cjs','node scripts/evolution-editorial.test.cjs','node scripts/evolution-style-scope.test.cjs','node scripts/evolution-review-render.test.cjs');
 for(const task of tasks){const args=task.split(' ');if(args.shift()!=='node')throw Error('Unexpected test command');const r=cp.spawnSync(process.execPath,args,{encoding:'utf8',maxBuffer:12*1024*1024});results.push({command:task,exitCode:r.status,passed:r.status===0});console.log((r.status===0?'PASS ':'FAIL ')+task);if(r.status!==0)console.log(((r.stdout||'')+(r.stderr||'')).slice(-3500));}
 fs.mkdirSync('docs/master/qa',{recursive:true});fs.writeFileSync(path.join('docs/master/qa','test-commands.json'),JSON.stringify({checkedAt:new Date().toISOString(),commands:results.length,passed:results.filter(x=>x.passed).length,results},null,2));

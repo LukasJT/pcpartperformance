@@ -1,0 +1,40 @@
+{
+  "checkedAt": "2026-10-19T20:12:32.767Z",
+  "observed": [
+    {
+      "url": "https://news.xbox.com/en-us/2026/06/05/next-week-on-xbox-new-games-for-june-8-to-12/",
+      "verifiedAt": "2026-10-19T20:12:32.053Z",
+      "candidateRecords": 17
+    },
+    {
+      "url": "https://news.xbox.com/en-us/2026/06/12/next-week-on-xbox-new-games-for-june-15-to-19/",
+      "verifiedAt": "2026-10-19T20:12:32.200Z",
+      "candidateRecords": 25
+    },
+    {
+      "url": "https://news.xbox.com/en-us/2026/06/19/next-week-on-xbox-new-games-for-june-22-to-26/",
+      "verifiedAt": "2026-10-19T20:12:32.416Z",
+      "candidateRecords": 16
+    },
+    {
+      "url": "https://news.xbox.com/en-us/2026/07/03/next-week-on-xbox-new-games-for-july-6-to-10/",
+      "verifiedAt": "2026-10-19T20:12:32.548Z",
+      "candidateRecords": 15
+    },
+    {
+      "url": "https://news.xbox.com/en-us/2026/07/31/next-week-on-xbox-new-games-for-august-3-to-7/",
+      "verifiedAt": "2026-10-19T20:12:32.747Z",
+      "candidateRecords": 15
+    }
+  ],
+  "accepted": 87,
+  "xboxTotal": 108,
+  "rejected": [
+    {
+      "id": "xbox-9pnhj76pz138",
+      "name": "Damways",
+      "reason": "already-indexed-exact-SKU-or-game-family"
+    }
+  ],
+  "scope": "Exact game-specific store SKU plus explicit optimized Series X|S statement in the same Xbox Wire announcement paragraph. Announcement dates are retained as announcements, not proof of current release or availability. No descriptions, images, prices or FPS imported."
+}

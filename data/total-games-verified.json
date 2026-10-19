@@ -1,0 +1,3934 @@
+{
+  "schemaVersion": 1,
+  "evidenceType": "official-store-listing",
+  "generatedAt": "2026-10-19T19:36:12.149Z",
+  "measurementStatus": "not-benchmark-data",
+  "records": [
+    {
+      "id": "steam-400",
+      "appId": 400,
+      "type": "game",
+      "name": "Portal",
+      "developer": [
+        "Valve"
+      ],
+      "publisher": [
+        "Valve"
+      ],
+      "genres": [
+        "Action"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": true
+      },
+      "release": {
+        "date": "Oct 10, 2007",
+        "year": 2007,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/400/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=400&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:34:03.699Z",
+      "evidenceHash": "8ae3ac6df0af1b1d460dedfbd5b244d7d61f2e3e2a5d658ee57302c636cd5855",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-620",
+      "appId": 620,
+      "type": "game",
+      "name": "Portal 2",
+      "developer": [
+        "Valve"
+      ],
+      "publisher": [
+        "Valve"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": true
+      },
+      "release": {
+        "date": "Apr 18, 2011",
+        "year": 2011,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/620/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=620&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:34:04.816Z",
+      "evidenceHash": "3e1062d6a52be38fe9d1d953773ddbf77fb7608b72a1922e55c6faba505f9e1a",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-70",
+      "appId": 70,
+      "type": "game",
+      "name": "Half-Life",
+      "developer": [
+        "Valve"
+      ],
+      "publisher": [
+        "Valve"
+      ],
+      "genres": [
+        "Action"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "release": {
+        "date": "Nov 19, 1998",
+        "year": 1998,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/70/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=70&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:34:05.930Z",
+      "evidenceHash": "37fded2f2f01fe02c514eb387a87034bea18140ac1fb760069e6f5500921d6e5",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-220",
+      "appId": 220,
+      "type": "game",
+      "name": "Half-Life 2",
+      "developer": [
+        "Valve"
+      ],
+      "publisher": [
+        "Valve"
+      ],
+      "genres": [
+        "Action"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": true
+      },
+      "release": {
+        "date": "Nov 16, 2004",
+        "year": 2004,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/220/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=220&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:34:07.101Z",
+      "evidenceHash": "4fa7bdfbc194e590379af0841e0feb4875f415c35083340d8698cf9876bbedd0",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-380",
+      "appId": 380,
+      "type": "game",
+      "name": "Half-Life 2: Episode One",
+      "developer": [
+        "Valve"
+      ],
+      "publisher": [
+        "Valve"
+      ],
+      "genres": [
+        "Action"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": true
+      },
+      "release": {
+        "date": "Jun 1, 2006",
+        "year": 2006,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/380/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=380&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:34:08.264Z",
+      "evidenceHash": "e5a8e61e8e879e466ad5a105c5db18384cce0aea1fd72bebf160423653693ae5",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-420",
+      "appId": 420,
+      "type": "game",
+      "name": "Half-Life 2: Episode Two",
+      "developer": [
+        "Valve"
+      ],
+      "publisher": [
+        "Valve"
+      ],
+      "genres": [
+        "Action"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": true
+      },
+      "release": {
+        "date": "Oct 10, 2007",
+        "year": 2007,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/420/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=420&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:34:09.419Z",
+      "evidenceHash": "2f56c9dcdaa168a5630848fc0ae5d482321e3bacd3e5b0452f833b0c6a72920f",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-500",
+      "appId": 500,
+      "type": "game",
+      "name": "Left 4 Dead",
+      "developer": [
+        "Valve"
+      ],
+      "publisher": [
+        "Valve"
+      ],
+      "genres": [
+        "Action"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Nov 17, 2008",
+        "year": 2008,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/500/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=500&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:34:10.516Z",
+      "evidenceHash": "433d5293fde7ed03b17bdae20d7f548f1575dd248e13ac9d4e7016cd967e23aa",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-550",
+      "appId": 550,
+      "type": "game",
+      "name": "Left 4 Dead 2",
+      "developer": [
+        "Valve"
+      ],
+      "publisher": [
+        "Valve"
+      ],
+      "genres": [
+        "Action"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": true
+      },
+      "release": {
+        "date": "Nov 16, 2009",
+        "year": 2009,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/550/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=550&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:34:11.658Z",
+      "evidenceHash": "f3290757ff21913fdfabd65acdce50fc0825f9e37480d663412f49578be34c25",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-546560",
+      "appId": 546560,
+      "type": "game",
+      "name": "Half-Life: Alyx",
+      "developer": [
+        "Valve"
+      ],
+      "publisher": [
+        "Valve"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Mar 23, 2020",
+        "year": 2020,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/546560/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=546560&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:34:12.768Z",
+      "evidenceHash": "d76528057a591cefdf70788c8198c0eb380e76f7d355f70438c5585324443f42",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-239140",
+      "appId": 239140,
+      "type": "game",
+      "name": "Dying Light",
+      "developer": [
+        "Techland"
+      ],
+      "publisher": [
+        "Techland"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "RPG"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "release": {
+        "date": "Jan 26, 2015",
+        "year": 2015,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/239140/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=239140&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:34:13.917Z",
+      "evidenceHash": "7258c94e17cd24447455455346adf1031f7a6a41421eb47323e5c2b8781d7403",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-534380",
+      "appId": 534380,
+      "type": "game",
+      "name": "Dying Light 2 Stay Human: Reloaded Edition",
+      "developer": [
+        "Techland"
+      ],
+      "publisher": [
+        "Techland"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "RPG"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Feb 3, 2022",
+        "year": 2022,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/534380/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=534380&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:34:15.053Z",
+      "evidenceHash": "3b605baf3f7a8831713f84727e82bd9190bf67e43b991990f7f4ff3cbd785358",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-377160",
+      "appId": 377160,
+      "type": "game",
+      "name": "Fallout 4",
+      "developer": [
+        "Bethesda Game Studios"
+      ],
+      "publisher": [
+        "Bethesda Softworks"
+      ],
+      "genres": [
+        "RPG"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Nov 9, 2015",
+        "year": 2015,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/377160/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=377160&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:34:17.509Z",
+      "evidenceHash": "3206881816218a699a1f30f55423f515308a27571cd949e810d289ecaa106a95",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-22380",
+      "appId": 22380,
+      "type": "game",
+      "name": "Fallout: New Vegas",
+      "developer": [
+        "Obsidian Entertainment"
+      ],
+      "publisher": [
+        "Bethesda Softworks"
+      ],
+      "genres": [
+        "Action",
+        "RPG"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Oct 19, 2010",
+        "year": 2010,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/22380/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=22380&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:34:18.964Z",
+      "evidenceHash": "4aeb7db8e0aa287373da9c29b48c85f57fd8059767924df3df61b6e5510d25b2",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-22370",
+      "appId": 22370,
+      "type": "game",
+      "name": "Fallout 3: Game of the Year Edition",
+      "developer": [
+        "Bethesda Game Studios"
+      ],
+      "publisher": [
+        "Bethesda Softworks"
+      ],
+      "genres": [
+        "RPG"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Dec 17, 2009",
+        "year": 2009,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/22370/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=22370&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:34:20.081Z",
+      "evidenceHash": "bdc15894a0920d77efdcc39ab3816514e474e14510723fc3a818dca77d5ee413",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-38400",
+      "appId": 38400,
+      "type": "game",
+      "name": "Fallout: A Post Nuclear Role Playing Game",
+      "developer": [
+        "Interplay Inc."
+      ],
+      "publisher": [
+        "Bethesda Softworks"
+      ],
+      "genres": [
+        "RPG"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Nov 1, 2015",
+        "year": 2015,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/38400/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=38400&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:34:21.221Z",
+      "evidenceHash": "5a5c1258eafe9bc97905aabf08c3a955b41ecf7a7b24bd8dcb9898890b59c44f",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-38410",
+      "appId": 38410,
+      "type": "game",
+      "name": "Fallout 2: A Post Nuclear Role Playing Game",
+      "developer": [
+        "Black Isle Studios"
+      ],
+      "publisher": [
+        "Bethesda Softworks"
+      ],
+      "genres": [
+        "RPG"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Aug 19, 2009",
+        "year": 2009,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/38410/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=38410&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:34:22.300Z",
+      "evidenceHash": "939f7d6f33a8fb1405807e820e5a9cab850089becfc677e47717115d9d2dedee",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-22300",
+      "appId": 22300,
+      "type": "game",
+      "name": "Fallout 3",
+      "developer": [
+        "Bethesda Game Studios"
+      ],
+      "publisher": [
+        "Bethesda Softworks"
+      ],
+      "genres": [
+        "RPG"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Oct 28, 2008",
+        "year": 2008,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/22300/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=22300&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:34:23.527Z",
+      "evidenceHash": "d54caa40868b48279a04d4a8e9e8dc2a207e7b5374b029b6aa1d30eb8ddf6773",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-22330",
+      "appId": 22330,
+      "type": "game",
+      "name": "The Elder Scrolls IV: Oblivion® Game of the Year Edition (2009)",
+      "developer": [
+        "Bethesda Game Studios"
+      ],
+      "publisher": [
+        "Bethesda Softworks"
+      ],
+      "genres": [
+        "RPG"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Jun 16, 2009",
+        "year": 2009,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/22330/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=22330&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:34:24.664Z",
+      "evidenceHash": "853befd3dd013e353b1910170e48789b984a056ad024747563edcd91517bdfdf",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-812140",
+      "appId": 812140,
+      "type": "game",
+      "name": "Assassin's Creed® Odyssey",
+      "developer": [
+        "Ubisoft Quebec",
+        "Ubisoft Montreal",
+        "Ubisoft Bucharest",
+        "Ubisoft Singapore",
+        "Ubisoft Montpellier",
+        "Ubisoft Kiev",
+        "Ubisoft Shanghai"
+      ],
+      "publisher": [
+        "Ubisoft"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "RPG"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Oct 5, 2018",
+        "year": 2018,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/812140/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=812140&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:34:25.767Z",
+      "evidenceHash": "716707a9acd2b03e754eaf55b5c823c3328b7d351220f3d98c442159d0654e5d",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-582160",
+      "appId": 582160,
+      "type": "game",
+      "name": "Assassin's Creed® Origins",
+      "developer": [
+        "Ubisoft Montreal"
+      ],
+      "publisher": [
+        "Ubisoft"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "RPG"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Oct 26, 2017",
+        "year": 2017,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/582160/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=582160&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:34:26.870Z",
+      "evidenceHash": "dcdf28bfda8f184f7ccbe8cbd64289952d1d4972859da7b02aa8df3e5ea690ed",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-48190",
+      "appId": 48190,
+      "type": "game",
+      "name": "Assassin’s Creed® Brotherhood",
+      "developer": [
+        "Ubisoft Montreal"
+      ],
+      "publisher": [
+        "Ubisoft"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Mar 22, 2011",
+        "year": 2011,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/48190/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=48190&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:34:28.174Z",
+      "evidenceHash": "0cb0484cf537dfc4ce4a0d53f7f4e1fe4a1706ea72377fe13f2143cc3cc6adee",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-15100",
+      "appId": 15100,
+      "type": "game",
+      "name": "Assassin's Creed™: Director's Cut Edition",
+      "developer": [
+        "Ubisoft Montreal"
+      ],
+      "publisher": [
+        "Ubisoft"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Apr 9, 2008",
+        "year": 2008,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/15100/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=15100&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:34:29.333Z",
+      "evidenceHash": "9ee2987e2adf7bd96ff27bfaf5700e5ecf891eab1d827fc251c39ff2114a87dd",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-33230",
+      "appId": 33230,
+      "type": "game",
+      "name": "Assassin's Creed 2",
+      "developer": [
+        "Ubisoft Montreal"
+      ],
+      "publisher": [
+        "Ubisoft"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Mar 9, 2010",
+        "year": 2010,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/33230/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=33230&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:34:30.431Z",
+      "evidenceHash": "d1c175b4626e4e76a966e652c64bf9dc90cfe5d07554604b70c62c9777b288a4",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-242050",
+      "appId": 242050,
+      "type": "game",
+      "name": "Assassin’s Creed® IV Black Flag™",
+      "developer": [
+        "Ubisoft Montreal"
+      ],
+      "publisher": [
+        "Ubisoft"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": null,
+        "year": null,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/242050/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=242050&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:34:31.605Z",
+      "evidenceHash": "e3dc707eec2a5add731e56e92d409c24e381f2394e31de751cfe47ec820540be",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-311560",
+      "appId": 311560,
+      "type": "game",
+      "name": "Assassin’s Creed® Rogue",
+      "developer": [
+        "Ubisoft Sofia",
+        "Ubisoft Kiev"
+      ],
+      "publisher": [
+        "Ubisoft"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Mar 9, 2015",
+        "year": 2015,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/311560/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=311560&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:34:32.827Z",
+      "evidenceHash": "4cb4bdc36d9c8889fb20d7a1b4399cca659df39d53238cbdcb690859a2148ad1",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-368500",
+      "appId": 368500,
+      "type": "game",
+      "name": "Assassin's Creed® Syndicate",
+      "developer": [
+        "Ubisoft Quebec, in collaboration with Ubisoft Annecy, Bucharest, Kiev, Montreal, Montpellier, Shanghai, Singapore, Sofia, Toronto studios"
+      ],
+      "publisher": [
+        "Ubisoft"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Nov 18, 2015",
+        "year": 2015,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/368500/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=368500&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:34:34.455Z",
+      "evidenceHash": "521c831d4b593c37b372be1705b5e5988f2096342c0b7b22009cadcf5a03482b",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-460930",
+      "appId": 460930,
+      "type": "game",
+      "name": "Tom Clancy's Ghost Recon® Wildlands",
+      "developer": [
+        "Ubisoft Paris",
+        "Ubisoft Annecy",
+        "Ubisoft Bucharest",
+        "Ubisoft Montpellier",
+        "Ubisoft Milan",
+        "Reflections",
+        "Ubisoft Belgrade"
+      ],
+      "publisher": [
+        "Ubisoft"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Mar 6, 2017",
+        "year": 2017,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/460930/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=460930&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:34:35.575Z",
+      "evidenceHash": "1034392ac45243928b64bf1aa88e8fd7460e0d7068579136aed27b54e31f6bba",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-2208920",
+      "appId": 2208920,
+      "type": "game",
+      "name": "Assassin's Creed Valhalla",
+      "developer": [
+        "Ubisoft Montreal"
+      ],
+      "publisher": [
+        "Ubisoft"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "RPG"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Dec 6, 2022",
+        "year": 2022,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/2208920/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=2208920&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:34:36.996Z",
+      "evidenceHash": "6dcfa82e5c30a41ece38bc2dd4b6309cbc53283f3111969cd7454b387edc5d4b",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-916440",
+      "appId": 916440,
+      "type": "game",
+      "name": "Anno 1800",
+      "developer": [
+        "Ubisoft Mainz"
+      ],
+      "publisher": [
+        "Ubisoft"
+      ],
+      "genres": [
+        "Simulation",
+        "Strategy"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Apr 16, 2019",
+        "year": 2019,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/916440/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=916440&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:34:38.174Z",
+      "evidenceHash": "1ab20a1210709fefca0ea4eacdda16e3fc8419c3c59eb40af87062422fc51a30",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-236850",
+      "appId": 236850,
+      "type": "game",
+      "name": "Europa Universalis IV",
+      "developer": [
+        "Paradox Development Studio",
+        "Paradox Tinto"
+      ],
+      "publisher": [
+        "Paradox Interactive"
+      ],
+      "genres": [
+        "Simulation",
+        "Strategy"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "release": {
+        "date": "Aug 13, 2013",
+        "year": 2013,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/236850/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=236850&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:34:39.380Z",
+      "evidenceHash": "813d64beebaa6f896307f03305a8f304f739b007f321ec93c10b9fb13f66723a",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-394360",
+      "appId": 394360,
+      "type": "game",
+      "name": "Hearts of Iron IV",
+      "developer": [
+        "Paradox Development Studio"
+      ],
+      "publisher": [
+        "Paradox Interactive"
+      ],
+      "genres": [
+        "Simulation",
+        "Strategy"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "release": {
+        "date": "Jun 6, 2016",
+        "year": 2016,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/394360/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=394360&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:34:40.461Z",
+      "evidenceHash": "039bbbd2c1caee3e37fca30cf026d19074f70bbcf5b6e956ff2193c2c82f2802",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-1158310",
+      "appId": 1158310,
+      "type": "game",
+      "name": "Crusader Kings III",
+      "developer": [
+        "Paradox Development Studio"
+      ],
+      "publisher": [
+        "Paradox Interactive"
+      ],
+      "genres": [
+        "RPG",
+        "Simulation",
+        "Strategy"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "release": {
+        "date": "Sep 1, 2020",
+        "year": 2020,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/1158310/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=1158310&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:34:41.567Z",
+      "evidenceHash": "fb7bdbcb1b40ad55302fcc2994e6ffefdbb0d0ad2f5efa48f23e2f4ef88e2e75",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-529340",
+      "appId": 529340,
+      "type": "game",
+      "name": "Victoria 3",
+      "developer": [
+        "Paradox Development Studio"
+      ],
+      "publisher": [
+        "Paradox Interactive"
+      ],
+      "genres": [
+        "Simulation",
+        "Strategy"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "release": {
+        "date": "Oct 25, 2022",
+        "year": 2022,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/529340/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=529340&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:34:42.695Z",
+      "evidenceHash": "f2b99b5fe6820a637c1cbc512ca7039286273077114ae3a7f690acf27406f2ca",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-289070",
+      "appId": 289070,
+      "type": "game",
+      "name": "Sid Meier’s Civilization® VI",
+      "developer": [
+        "Firaxis Games",
+        "Aspyr (Mac)",
+        "Aspyr (Linux)"
+      ],
+      "publisher": [
+        "2K",
+        "Aspyr (Mac)",
+        "Aspyr (Linux)"
+      ],
+      "genres": [
+        "Strategy"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "release": {
+        "date": "Oct 20, 2016",
+        "year": 2016,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/289070/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=289070&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:34:43.905Z",
+      "evidenceHash": "1d99f3bc19463d213fb7c150ee6fb076a492a7db2db1e8961e9e532a93ceee60",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-8930",
+      "appId": 8930,
+      "type": "game",
+      "name": "Sid Meier's Civilization® V",
+      "developer": [
+        "Firaxis Games",
+        "Aspyr (Mac)",
+        "Aspyr (Linux)"
+      ],
+      "publisher": [
+        "2K",
+        "Aspyr (Mac)",
+        "Aspyr (Linux)"
+      ],
+      "genres": [
+        "Strategy"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "release": {
+        "date": "Sep 21, 2010",
+        "year": 2010,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/8930/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=8930&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:34:45.022Z",
+      "evidenceHash": "64f636ed019937d14252a7bd4406e6e8564faaa2363bf8dc8772b8f228be5747",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-294100",
+      "appId": 294100,
+      "type": "game",
+      "name": "RimWorld",
+      "developer": [
+        "Ludeon Studios"
+      ],
+      "publisher": [
+        "Ludeon Studios"
+      ],
+      "genres": [
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "release": {
+        "date": "Oct 17, 2018",
+        "year": 2018,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/294100/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=294100&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:34:46.115Z",
+      "evidenceHash": "910147aba8e031a4622a2a48d56f879c1d0ea3eec189caad1372c84e61d0de56",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-1145360",
+      "appId": 1145360,
+      "type": "game",
+      "name": "Hades",
+      "developer": [
+        "Supergiant Games"
+      ],
+      "publisher": [
+        "Supergiant Games"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "RPG"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "release": {
+        "date": "Sep 17, 2020",
+        "year": 2020,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/1145360/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=1145360&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:34:47.348Z",
+      "evidenceHash": "07ecadac9ddcfdf138e6afa7ff0b3106327efe73550baf0473a9e32f7db52d30",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-1145350",
+      "appId": 1145350,
+      "type": "game",
+      "name": "Hades II",
+      "developer": [
+        "Supergiant Games"
+      ],
+      "publisher": [
+        "Supergiant Games"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "RPG"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "release": {
+        "date": "Sep 25, 2025",
+        "year": 2025,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/1145350/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=1145350&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:34:48.464Z",
+      "evidenceHash": "0fddd6c68ea302fe9adfe6449ee059832ca18b00f18628639c217f4ba8bf929a",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-367520",
+      "appId": 367520,
+      "type": "game",
+      "name": "Hollow Knight",
+      "developer": [
+        "Team Cherry"
+      ],
+      "publisher": [
+        "Team Cherry"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "release": {
+        "date": "Feb 24, 2017",
+        "year": 2017,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/367520/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=367520&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:34:49.539Z",
+      "evidenceHash": "6721dab858e2d0a8bbaa2369e8f6b6a851bfc3318c1c7af213c89bee86de0136",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-646570",
+      "appId": 646570,
+      "type": "game",
+      "name": "Slay the Spire",
+      "developer": [
+        "Mega Crit"
+      ],
+      "publisher": [
+        "Mega Crit"
+      ],
+      "genres": [
+        "Indie",
+        "Strategy"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "release": {
+        "date": "Jan 23, 2019",
+        "year": 2019,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/646570/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=646570&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:34:50.639Z",
+      "evidenceHash": "aa1d192037afe9ce417a3706317f4fbfc8c88fd98c63154eccd7f60bb56419b1",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-1092790",
+      "appId": 1092790,
+      "type": "game",
+      "name": "Inscryption",
+      "developer": [
+        "Daniel Mullins Games"
+      ],
+      "publisher": [
+        "Devolver Digital"
+      ],
+      "genres": [
+        "Adventure",
+        "Indie",
+        "Strategy"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "release": {
+        "date": "Oct 19, 2021",
+        "year": 2021,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/1092790/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=1092790&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:34:51.684Z",
+      "evidenceHash": "efe0a25de65a0312e2492369ad1901155bc8c52f90ca8530e4890678346b8829",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-2379780",
+      "appId": 2379780,
+      "type": "game",
+      "name": "Balatro",
+      "developer": [
+        "LocalThunk"
+      ],
+      "publisher": [
+        "Playstack"
+      ],
+      "genres": [
+        "Casual",
+        "Indie",
+        "Strategy"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "release": {
+        "date": "Feb 20, 2024",
+        "year": 2024,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/2379780/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=2379780&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:34:52.753Z",
+      "evidenceHash": "92a540cc1c4067eea61c78a9f7bfd4143760725a33747d01c8c40cf2157758f3",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-881100",
+      "appId": 881100,
+      "type": "game",
+      "name": "Noita",
+      "developer": [
+        "Nolla Games"
+      ],
+      "publisher": [
+        "Nolla Games"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie",
+        "RPG",
+        "Simulation"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Oct 15, 2020",
+        "year": 2020,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/881100/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=881100&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:34:53.790Z",
+      "evidenceHash": "f54c3c5d6d837c448bbd140242e856413fd99259337003f6300a8044216d3b44",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-552520",
+      "appId": 552520,
+      "type": "game",
+      "name": "Far Cry® 5",
+      "developer": [
+        "Ubisoft Montreal",
+        "Red Storm",
+        "Ubisoft Shanghai",
+        "Ubisoft Toronto",
+        "Ubisoft Kiev"
+      ],
+      "publisher": [
+        "Ubisoft"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Mar 26, 2018",
+        "year": 2018,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/552520/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=552520&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:34:54.877Z",
+      "evidenceHash": "1c77118fa90551fd4156b20b6a14be24252e41875da07c7a0989098f49295843",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-298110",
+      "appId": 298110,
+      "type": "game",
+      "name": "Far Cry® 4",
+      "developer": [
+        "Ubisoft Montreal, Red Storm, Shanghai, Toronto, Kiev"
+      ],
+      "publisher": [
+        "Ubisoft"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Nov 17, 2014",
+        "year": 2014,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/298110/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=298110&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:34:56.035Z",
+      "evidenceHash": "761d357a0fa21f4399f518208c413d8e039247a81516e1315a9980eaea67e333",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-220240",
+      "appId": 220240,
+      "type": "game",
+      "name": "Far Cry 3",
+      "developer": [
+        "Ubisoft Montreal, Massive Entertainment, and Ubisoft Shanghai"
+      ],
+      "publisher": [
+        "Ubisoft"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Dec 4, 2012",
+        "year": 2012,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/220240/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=220240&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:34:57.984Z",
+      "evidenceHash": "e5115a9aa726e735ef4a999defd60ab1416732ff5abe4a805b19898f55dd998c",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-1358700",
+      "appId": 1358700,
+      "type": "game",
+      "name": "STRANGER OF PARADISE FINAL FANTASY ORIGIN",
+      "developer": [
+        "Square Enix",
+        "KOEI TECMO GAMES CO., LTD."
+      ],
+      "publisher": [
+        "Square Enix"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "RPG"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Apr 6, 2023",
+        "year": 2023,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/1358700/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=1358700&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:34:59.058Z",
+      "evidenceHash": "24d8b8c50367c26310bac434e114a2e1b6b8175b9a85ce1ca3cc7cd2a2a4855e",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-21690",
+      "appId": 21690,
+      "type": "game",
+      "name": "Resident Evil 5",
+      "developer": [
+        "Capcom"
+      ],
+      "publisher": [
+        "Capcom"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Sep 15, 2009",
+        "year": 2009,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/21690/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=21690&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:35:00.313Z",
+      "evidenceHash": "e9222b55fc767903a844ffdef10221c8008bdc62eda3b0c0cb41b337e25cf196",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-254700",
+      "appId": 254700,
+      "type": "game",
+      "name": "Resident Evil 4 (2005)",
+      "developer": [
+        "Capcom"
+      ],
+      "publisher": [
+        "Capcom"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Feb 27, 2014",
+        "year": 2014,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/254700/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=254700&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:35:01.379Z",
+      "evidenceHash": "7be471bcff29d8ca7977901accb3da4195799dd2a776f5a2750f296e8878de3a",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-883710",
+      "appId": 883710,
+      "type": "game",
+      "name": "Resident Evil 2",
+      "developer": [
+        "CAPCOM Co., Ltd."
+      ],
+      "publisher": [
+        "CAPCOM Co., Ltd."
+      ],
+      "genres": [
+        "Action"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Jan 24, 2019",
+        "year": 2019,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/883710/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=883710&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:35:02.479Z",
+      "evidenceHash": "167d721176ff88bc4d83783cd7248d8c24b48f8208b88f1010edc641f71306e3",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-952060",
+      "appId": 952060,
+      "type": "game",
+      "name": "Resident Evil 3",
+      "developer": [
+        "CAPCOM Co., Ltd."
+      ],
+      "publisher": [
+        "CAPCOM Co., Ltd."
+      ],
+      "genres": [
+        "Action"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Apr 2, 2020",
+        "year": 2020,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/952060/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=952060&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:35:03.853Z",
+      "evidenceHash": "bbeeb9ac5d2a947c4777b7b5d171d5ebcd7fa7045eb011c1c9d8d67141efd47c",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-418370",
+      "appId": 418370,
+      "type": "game",
+      "name": "Resident Evil 7 Biohazard",
+      "developer": [
+        "CAPCOM Co., Ltd."
+      ],
+      "publisher": [
+        "CAPCOM Co., Ltd."
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Jan 23, 2017",
+        "year": 2017,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/418370/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=418370&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:35:04.895Z",
+      "evidenceHash": "db6c53ce6722c276bfccb88db27c520b314f4f4b8d4ee52b216e732bfa7e90af",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-1196590",
+      "appId": 1196590,
+      "type": "game",
+      "name": "Resident Evil Village",
+      "developer": [
+        "CAPCOM Co., Ltd."
+      ],
+      "publisher": [
+        "CAPCOM Co., Ltd."
+      ],
+      "genres": [
+        "Action"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "May 6, 2021",
+        "year": 2021,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/1196590/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=1196590&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:35:05.945Z",
+      "evidenceHash": "7f163cf39b7b07e3055d2e62f2aa3c63f8d50dea1d079fe7dae1fd839573afd2",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-304240",
+      "appId": 304240,
+      "type": "game",
+      "name": "Resident Evil",
+      "developer": [
+        "CAPCOM Co., Ltd."
+      ],
+      "publisher": [
+        "CAPCOM Co., Ltd."
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Jan 19, 2015",
+        "year": 2015,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/304240/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=304240&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:35:07.095Z",
+      "evidenceHash": "3bedac6913605c8bf9d3739f1a132d6a17dca5b55b1de40cfac1f457be17f2cc",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-339340",
+      "appId": 339340,
+      "type": "game",
+      "name": "Resident Evil 0",
+      "developer": [
+        "CAPCOM Co., Ltd."
+      ],
+      "publisher": [
+        "CAPCOM Co., Ltd."
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Jan 19, 2016",
+        "year": 2016,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/339340/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=339340&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:35:08.457Z",
+      "evidenceHash": "3e0e53b84ecd7666846d955fdf4461e6ebbb8260eb462db4bcbdbcb0640aa7d8",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-221040",
+      "appId": 221040,
+      "type": "game",
+      "name": "Resident Evil 6",
+      "developer": [
+        "Capcom"
+      ],
+      "publisher": [
+        "Capcom"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Mar 21, 2013",
+        "year": 2013,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/221040/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=221040&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:35:09.593Z",
+      "evidenceHash": "cfc6fdbbe45be8be4475a84d0dc0693c2bdb351fdb3e79c6b2d0bb18988b2802",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-304430",
+      "appId": 304430,
+      "type": "game",
+      "name": "INSIDE",
+      "developer": [
+        "Playdead"
+      ],
+      "publisher": [
+        "Playdead"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Jul 7, 2016",
+        "year": 2016,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/304430/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=304430&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:35:10.651Z",
+      "evidenceHash": "c6f36ab4fa101e46cd99468997ca282e62df6936c437c5af7b94623ea0017e09",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-329430",
+      "appId": 329430,
+      "type": "game",
+      "name": "State of Decay: YOSE",
+      "developer": [
+        "Undead Labs"
+      ],
+      "publisher": [
+        "Xbox Game Studios"
+      ],
+      "genres": [
+        "Action",
+        "RPG",
+        "Simulation"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Apr 27, 2015",
+        "year": 2015,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/329430/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=329430&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:35:11.725Z",
+      "evidenceHash": "c61d82d67b838b62d1d66373e33af44de891d8a559e5ce7c28e2c3d13df63d85",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-287290",
+      "appId": 287290,
+      "type": "game",
+      "name": "Resident Evil Revelations 2",
+      "developer": [
+        "CAPCOM Co., Ltd."
+      ],
+      "publisher": [
+        "CAPCOM Co., Ltd."
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Feb 24, 2015",
+        "year": 2015,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/287290/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=287290&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:35:12.878Z",
+      "evidenceHash": "af5360115e6d0fe0b9b775b6e9e1a9e63c665c3ad20035e3395fb164c2d86359",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-1544020",
+      "appId": 1544020,
+      "type": "game",
+      "name": "The Callisto Protocol™",
+      "developer": [
+        "Striking Distance Studios"
+      ],
+      "publisher": [
+        "KRAFTON, Inc."
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Dec 1, 2022",
+        "year": 2022,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/1544020/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=1544020&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:35:13.969Z",
+      "evidenceHash": "64a2e3be88b2feec93488e0726f927e1babd52a24df40b941246ba77f3d7f184",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-1693980",
+      "appId": 1693980,
+      "type": "game",
+      "name": "Dead Space",
+      "developer": [
+        "Motive"
+      ],
+      "publisher": [
+        "Electronic Arts"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Jan 27, 2023",
+        "year": 2023,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/1693980/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=1693980&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:35:15.059Z",
+      "evidenceHash": "fc93a8b3064f195925f7de0de4bfed73a710fc10297d2882fcd1c62ea8b8f068",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-17470",
+      "appId": 17470,
+      "type": "game",
+      "name": "Dead Space (2008)",
+      "developer": [
+        "EA Redwood Shores"
+      ],
+      "publisher": [
+        "Electronic Arts"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Jan 9, 2009",
+        "year": 2009,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/17470/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=17470&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:35:16.134Z",
+      "evidenceHash": "d79372921be7cce5263688252689b341c4d844bf790529f279586d02776df9e0",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-47780",
+      "appId": 47780,
+      "type": "game",
+      "name": "Dead Space™ 2",
+      "developer": [
+        "Visceral Games"
+      ],
+      "publisher": [
+        "Electronic Arts"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Jan 25, 2011",
+        "year": 2011,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/47780/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=47780&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:35:17.404Z",
+      "evidenceHash": "81ad221570e3e94f523e8d25c311e6c70d39a713b8ae3936ac40c79c9a972f35",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-1238060",
+      "appId": 1238060,
+      "type": "game",
+      "name": "Dead Space™ 3",
+      "developer": [
+        "Visceral Games"
+      ],
+      "publisher": [
+        "Electronic Arts"
+      ],
+      "genres": [
+        "Action"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Jun 18, 2020",
+        "year": 2020,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/1238060/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=1238060&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:35:18.549Z",
+      "evidenceHash": "f5d57ee7b99830c1fd8213baa3231083c9cf4e75a18f5a2c46a5aceddf340bd9",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-247080",
+      "appId": 247080,
+      "type": "game",
+      "name": "Crypt of the NecroDancer",
+      "developer": [
+        "Brace Yourself Games"
+      ],
+      "publisher": [
+        "Brace Yourself Games",
+        "Klei Entertainment"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "RPG"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "release": {
+        "date": "Apr 23, 2015",
+        "year": 2015,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/247080/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=247080&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:35:19.580Z",
+      "evidenceHash": "72ebe06ec57f0f83617525521810ebc7f6dede53813a7d6c8fb083e14a71b318",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-268910",
+      "appId": 268910,
+      "type": "game",
+      "name": "Cuphead",
+      "developer": [
+        "Studio MDHR Entertainment Inc."
+      ],
+      "publisher": [
+        "Studio MDHR Entertainment Inc."
+      ],
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "release": {
+        "date": "Sep 29, 2017",
+        "year": 2017,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/268910/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=268910&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:35:20.635Z",
+      "evidenceHash": "89643ec7639a797801c5f671200be4d32a387e33c58e00e15c2e84340f57cb4e",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-588650",
+      "appId": 588650,
+      "type": "game",
+      "name": "Dead Cells",
+      "developer": [
+        "Motion Twin"
+      ],
+      "publisher": [
+        "Motion Twin"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "release": {
+        "date": "Aug 6, 2018",
+        "year": 2018,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/588650/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=588650&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:35:21.681Z",
+      "evidenceHash": "2b1f800dea92f501a62a85ad1136dd8685bccc5b04a9a347e8aaab575e3683a6",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-504230",
+      "appId": 504230,
+      "type": "game",
+      "name": "Celeste",
+      "developer": [
+        "Maddy Makes Games Inc.",
+        "Extremely OK Games, Ltd."
+      ],
+      "publisher": [
+        "Maddy Makes Games Inc."
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "release": {
+        "date": "Jan 25, 2018",
+        "year": 2018,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/504230/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=504230&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:35:23.006Z",
+      "evidenceHash": "ed88e8afaa5b8e2090c4b4b1fedeef3434f46c5cd7da54034aae8357c5c04c99",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-240720",
+      "appId": 240720,
+      "type": "game",
+      "name": "Getting Over It with Bennett Foddy",
+      "developer": [
+        "Bennett Foddy"
+      ],
+      "publisher": [
+        "Bennett Foddy"
+      ],
+      "genres": [
+        "Action"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "release": {
+        "date": "Dec 6, 2017",
+        "year": 2017,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/240720/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=240720&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:35:24.131Z",
+      "evidenceHash": "240e0a400100a271d673be6b50f5f4503bc4a4fc4d8d9734303d265a8ab01547",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-250900",
+      "appId": 250900,
+      "type": "game",
+      "name": "The Binding of Isaac: Rebirth",
+      "developer": [
+        "Nicalis, Inc.",
+        "Edmund McMillen"
+      ],
+      "publisher": [
+        "Nicalis, Inc."
+      ],
+      "genres": [
+        "Action"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "release": {
+        "date": "Nov 4, 2014",
+        "year": 2014,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/250900/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=250900&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:35:25.418Z",
+      "evidenceHash": "0d0cc0d9bcab3b4b2294c76cbcc05cedaf09041b2ff5711edd73a5a963e1915c",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-203160",
+      "appId": 203160,
+      "type": "game",
+      "name": "Tomb Raider Game of the Year",
+      "developer": [
+        "Crystal Dynamics",
+        "Eidos-Montréal",
+        "Feral Interactive (Mac)",
+        "Nixxes"
+      ],
+      "publisher": [
+        "Crystal Dynamics",
+        "Feral Interactive (Mac)"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "release": {
+        "date": "Mar 4, 2013",
+        "year": 2013,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/203160/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=203160&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:35:26.590Z",
+      "evidenceHash": "3fdbaf1c5154057286ff7e64a70a3d720baeaa4990ba296c759ba1132c45830f",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-391220",
+      "appId": 391220,
+      "type": "game",
+      "name": "Rise of the Tomb Raider™",
+      "developer": [
+        "Crystal Dynamics",
+        "Eidos-Montréal",
+        "Feral Interactive (Mac)",
+        "Feral Interactive (Linux)",
+        "Nixxes"
+      ],
+      "publisher": [
+        "Crystal Dynamics",
+        "Feral Interactive (Mac)",
+        "Feral Interactive (Linux)"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "release": {
+        "date": "Feb 9, 2016",
+        "year": 2016,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/391220/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=391220&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:35:27.743Z",
+      "evidenceHash": "3a607608a57921620276ad8641bf33b8d53dc4cd888026b30da8ae1d93bd09c9",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-750920",
+      "appId": 750920,
+      "type": "game",
+      "name": "Shadow of the Tomb Raider: Definitive Edition",
+      "developer": [
+        "Eidos-Montréal",
+        "Crystal Dynamics",
+        "Nixxes",
+        "Feral Interactive (Mac)",
+        "Feral interactive (Linux)"
+      ],
+      "publisher": [
+        "Crystal Dynamics",
+        "Feral Interactive (Mac)",
+        "Feral interactive (Linux)"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "release": {
+        "date": "Sep 14, 2018",
+        "year": 2018,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/750920/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=750920&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:35:28.920Z",
+      "evidenceHash": "80319749e61fdc95b4ec0e499fda8d6784cfa6f0ade40948caecfd4f2e949c3b",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-814380",
+      "appId": 814380,
+      "type": "game",
+      "name": "Sekiro™: Shadows Die Twice - GOTY Edition",
+      "developer": [
+        "FromSoftware, Inc."
+      ],
+      "publisher": [
+        "Activision (Excluding Japan and Asia)",
+        "FromSoftware, Inc. (Japan)",
+        "方块游戏 (Asia)"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Mar 21, 2019",
+        "year": 2019,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/814380/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=814380&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:35:30.013Z",
+      "evidenceHash": "39d7e474fa0fbf7b86835546b2d665671b17dd2a9e32e4fbb3d3db06968be12c",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-374320",
+      "appId": 374320,
+      "type": "game",
+      "name": "DARK SOULS™ III",
+      "developer": [
+        "FromSoftware, Inc."
+      ],
+      "publisher": [
+        "FromSoftware, Inc.",
+        "Bandai Namco Entertainment"
+      ],
+      "genres": [
+        "Action"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Apr 11, 2016",
+        "year": 2016,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/374320/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=374320&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:35:31.204Z",
+      "evidenceHash": "f95e9030e34e4e206cd54d752aa2b0ce18e9dbd27dc58788d27530504c9538a1",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-335300",
+      "appId": 335300,
+      "type": "game",
+      "name": "DARK SOULS™ II: Scholar of the First Sin",
+      "developer": [
+        "FromSoftware, Inc."
+      ],
+      "publisher": [
+        "Bandai Namco Entertainment",
+        "FromSoftware, Inc."
+      ],
+      "genres": [
+        "Action",
+        "RPG"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Apr 1, 2015",
+        "year": 2015,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/335300/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=335300&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:35:32.529Z",
+      "evidenceHash": "7a2dd5f1bdf2b9866d3233916212b1f805373a991ab21bd18efa41c2686fb84e",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-211420",
+      "appId": 211420,
+      "type": "game",
+      "name": "DARK SOULS™: Prepare To Die™ Edition",
+      "developer": [
+        "FromSoftware, Inc."
+      ],
+      "publisher": [
+        "Bandai Namco Entertainment"
+      ],
+      "genres": [
+        "Action",
+        "RPG"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Aug 24, 2012",
+        "year": 2012,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/211420/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=211420&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:35:33.652Z",
+      "evidenceHash": "4cd338df33c4383c67857206d038ca870f74f8400ca68bbfc8a72058f55d1b58",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-1217060",
+      "appId": 1217060,
+      "type": "game",
+      "name": "Gunfire Reborn",
+      "developer": [
+        "Gunfire Reborn Studio"
+      ],
+      "publisher": [
+        "Duoyi Games"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie",
+        "RPG"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Nov 17, 2021",
+        "year": 2021,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/1217060/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=1217060&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:35:34.783Z",
+      "evidenceHash": "efcbee0d3bd4e42f90a28873ef00dd527588dfe7af86e66c782509814fdcc8b9",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-322170",
+      "appId": 322170,
+      "type": "game",
+      "name": "Geometry Dash",
+      "developer": [
+        "RobTop Games"
+      ],
+      "publisher": [
+        "RobTop Games"
+      ],
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "release": {
+        "date": "Dec 22, 2014",
+        "year": 2014,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/322170/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=322170&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:35:35.832Z",
+      "evidenceHash": "2ed81798eeb8a8189f16b50ffe4b4bb7f6d4799cbab72e6d538ae80f2922bca8",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-359320",
+      "appId": 359320,
+      "type": "game",
+      "name": "Elite Dangerous",
+      "developer": [
+        "Frontier Developments"
+      ],
+      "publisher": [
+        "Frontier Developments"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "Massively Multiplayer",
+        "RPG",
+        "Simulation",
+        "Strategy"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Apr 2, 2015",
+        "year": 2015,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/359320/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=359320&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:35:36.861Z",
+      "evidenceHash": "0e1561adb190c0a57c5175f54a72e555d4c8925e72639c60e66a962ef4fc5986",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-236430",
+      "appId": 236430,
+      "type": "game",
+      "name": "DARK SOULS™ II",
+      "developer": [
+        "FromSoftware, Inc."
+      ],
+      "publisher": [
+        "BANDAI NAMCO Entertainment",
+        "FromSoftware, Inc."
+      ],
+      "genres": [
+        "Action",
+        "RPG"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Apr 25, 2014",
+        "year": 2014,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/236430/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=236430&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:35:38.153Z",
+      "evidenceHash": "80186bfff45f83805de8915238cc1a0b305091cd515fa61f32aee3982c9a5246",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-674940",
+      "appId": 674940,
+      "type": "game",
+      "name": "Stick Fight: The Game",
+      "developer": [
+        "Landfall West"
+      ],
+      "publisher": [
+        "Landfall"
+      ],
+      "genres": [
+        "Action",
+        "Casual",
+        "Indie"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "release": {
+        "date": "Sep 28, 2017",
+        "year": 2017,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/674940/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=674940&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:35:39.247Z",
+      "evidenceHash": "bc6086ae407861e31de5905998162491f4ed774374de1d39521bcd304f7984ba",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-322330",
+      "appId": 322330,
+      "type": "game",
+      "name": "Don't Starve Together",
+      "developer": [
+        "Klei Entertainment"
+      ],
+      "publisher": [
+        "Klei Entertainment"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie",
+        "RPG",
+        "Simulation",
+        "Strategy"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "release": {
+        "date": "Apr 21, 2016",
+        "year": 2016,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/322330/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=322330&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:35:40.311Z",
+      "evidenceHash": "4d71f9ed2c14b7278aac5e505c4aa95ab0faa1b513723b7f6e4ab1dbd4a8359f",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-219740",
+      "appId": 219740,
+      "type": "game",
+      "name": "Don't Starve",
+      "developer": [
+        "Klei Entertainment"
+      ],
+      "publisher": [
+        "Klei Entertainment"
+      ],
+      "genres": [
+        "Adventure",
+        "Indie",
+        "Simulation"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "release": {
+        "date": "Apr 23, 2013",
+        "year": 2013,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/219740/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=219740&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:35:41.350Z",
+      "evidenceHash": "ba84a8a5142f3dd83a038598acb604ab704de28e1b0455ad4ad56c037fdfacee",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-271590",
+      "appId": 271590,
+      "type": "game",
+      "name": "Grand Theft Auto V Legacy",
+      "developer": [
+        "Rockstar North"
+      ],
+      "publisher": [
+        "Rockstar Games"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Apr 13, 2015",
+        "year": 2015,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/271590/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=271590&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:35:42.451Z",
+      "evidenceHash": "3673014a63102b6dc0dc527a79751d8e2ce79fa98ce083cd6bf7180292e6a6cb",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-306130",
+      "appId": 306130,
+      "type": "game",
+      "name": "The Elder Scrolls® Online",
+      "developer": [
+        "ZeniMax Online Studios"
+      ],
+      "publisher": [
+        "Bethesda Softworks"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "Massively Multiplayer",
+        "RPG"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "release": {
+        "date": "May 22, 2017",
+        "year": 2017,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/306130/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=306130&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:35:43.792Z",
+      "evidenceHash": "e6ada531be20dfce821c218bf5cca51b0f0297b3c371f4d1d1a2056bc3aeed5d",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-632360",
+      "appId": 632360,
+      "type": "game",
+      "name": "Risk of Rain 2",
+      "developer": [
+        "Hopoo Games"
+      ],
+      "publisher": [
+        "Gearbox Publishing",
+        "2K"
+      ],
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Aug 11, 2020",
+        "year": 2020,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/632360/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=632360&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:35:44.897Z",
+      "evidenceHash": "8be5703e6a1eaabd4e890ea9146fb98a68e7ed3ddbf4abdfd0cf6a209be66a17",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-548430",
+      "appId": 548430,
+      "type": "game",
+      "name": "Deep Rock Galactic",
+      "developer": [
+        "Ghost Ship Games"
+      ],
+      "publisher": [
+        "Coffee Stain Publishing"
+      ],
+      "genres": [
+        "Action"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "May 13, 2020",
+        "year": 2020,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/548430/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=548430&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:35:46.001Z",
+      "evidenceHash": "8cf561ed22a7eabc803fcf7cab48bab9a80318d32485cf7361a7dba8d613ca32",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-548570",
+      "appId": 548570,
+      "type": "game",
+      "name": "RAGE 2",
+      "developer": [
+        "id Software",
+        "Avalanche Studios"
+      ],
+      "publisher": [
+        "Bethesda Softworks"
+      ],
+      "genres": [
+        "Action"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "May 13, 2019",
+        "year": 2019,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/548570/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=548570&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:35:47.139Z",
+      "evidenceHash": "24d575a5924e23c10563bf3bce47703988b29e8214c4eff8a7961b4be98119ca",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-2280",
+      "appId": 2280,
+      "type": "game",
+      "name": "DOOM + DOOM II",
+      "developer": [
+        "id Software",
+        "Night Dive Studios",
+        "Romero Games Ltd",
+        "MachineGames"
+      ],
+      "publisher": [
+        "Bethesda Softworks"
+      ],
+      "genres": [
+        "Action"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Aug 3, 2007",
+        "year": 2007,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/2280/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=2280&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:35:48.278Z",
+      "evidenceHash": "9f75dae40c7fe3557a023464821e69128f5cf04ec4d7dadb5665f0ace77325a5",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-2300",
+      "appId": 2300,
+      "type": "game",
+      "name": "DOOM II",
+      "developer": [
+        "id Software"
+      ],
+      "publisher": [
+        "id Software"
+      ],
+      "genres": [
+        "Action"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Aug 3, 2007",
+        "year": 2007,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/2300/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=2300&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:35:49.362Z",
+      "evidenceHash": "df208edd0f9d0e2b58cd5c83239f96bf46adb15046fa7a713a26ed556283561b",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-379720",
+      "appId": 379720,
+      "type": "game",
+      "name": "DOOM",
+      "developer": [
+        "id Software"
+      ],
+      "publisher": [
+        "Bethesda Softworks"
+      ],
+      "genres": [
+        "Action"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "May 12, 2016",
+        "year": 2016,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/379720/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=379720&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:35:50.513Z",
+      "evidenceHash": "73df339c870e7da0920fca28223cfbfa3124d989fb2205fdb84c956b4622124a",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-379430",
+      "appId": 379430,
+      "type": "game",
+      "name": "Kingdom Come: Deliverance",
+      "developer": [
+        "Warhorse Studios"
+      ],
+      "publisher": [
+        "Warhorse Studios",
+        "Deep Silver"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "RPG"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Feb 13, 2018",
+        "year": 2018,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/379430/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=379430&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:35:51.617Z",
+      "evidenceHash": "0177bb7c276584f0da38b634c3f071c5c586b5bf0f38bc5c0c6bc1505dd90718",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-1151640",
+      "appId": 1151640,
+      "type": "game",
+      "name": "Horizon Zero Dawn™ Complete Edition",
+      "developer": [
+        "Guerrilla"
+      ],
+      "publisher": [
+        "PlayStation Publishing LLC"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "RPG"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Aug 7, 2020",
+        "year": 2020,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/1151640/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=1151640&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:35:52.851Z",
+      "evidenceHash": "3a3b4cbe612321fca74dbaa168a0a1d9f08e3fec295f5a59ea705a2d76b6278b",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-2420110",
+      "appId": 2420110,
+      "type": "game",
+      "name": "Horizon Forbidden West™ Complete Edition",
+      "developer": [
+        "Guerrilla",
+        "Nixxes Software"
+      ],
+      "publisher": [
+        "PlayStation Publishing LLC"
+      ],
+      "genres": [
+        "Action",
+        "RPG"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Mar 21, 2024",
+        "year": 2024,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/2420110/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=2420110&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:35:53.948Z",
+      "evidenceHash": "ccdd5b812016719b95ac20bdd6d59f1f6a554292e640157c37693a0c3dcdcb97",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-1659040",
+      "appId": 1659040,
+      "type": "game",
+      "name": "HITMAN World of Assassination",
+      "developer": [
+        "IO Interactive A/S"
+      ],
+      "publisher": [
+        "IO Interactive A/S"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "release": {
+        "date": "Jan 20, 2022",
+        "year": 2022,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/1659040/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=1659040&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:35:55.068Z",
+      "evidenceHash": "8bb23977dac05fe04dda77843348065f01a1c08da3e34115da125859a7a767d7",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-2215430",
+      "appId": 2215430,
+      "type": "game",
+      "name": "Ghost of Tsushima DIRECTOR'S CUT",
+      "developer": [
+        "Sucker Punch Productions",
+        "Nixxes Software"
+      ],
+      "publisher": [
+        "PlayStation Publishing LLC"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "May 16, 2024",
+        "year": 2024,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/2215430/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=2215430&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:35:56.289Z",
+      "evidenceHash": "e5a19e797427b9dc01e6c845b0037326e875d44d91e91ea69edb6f30ed173a13",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-1151340",
+      "appId": 1151340,
+      "type": "game",
+      "name": "Fallout 76",
+      "developer": [
+        "Bethesda Game Studios"
+      ],
+      "publisher": [
+        "Bethesda Softworks"
+      ],
+      "genres": [
+        "RPG"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Apr 14, 2020",
+        "year": 2020,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/1151340/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=1151340&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:35:57.423Z",
+      "evidenceHash": "7a3dfec0fe8600d559105448ec97995e744bfbdeff7be9443cc0056dd659541d",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-200260",
+      "appId": 200260,
+      "type": "game",
+      "name": "Batman: Arkham City - Game of the Year Edition",
+      "developer": [
+        "Rocksteady Studios"
+      ],
+      "publisher": [
+        "WB Games"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Sep 7, 2012",
+        "year": 2012,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/200260/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=200260&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:35:58.668Z",
+      "evidenceHash": "35ba8aa4d0559a0133d1a2de610550172cdb58112f85953c9ef7d45679b91bee",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-209000",
+      "appId": 209000,
+      "type": "game",
+      "name": "Batman™: Arkham Origins",
+      "developer": [
+        "WB Games Montreal",
+        "Splash Damage"
+      ],
+      "publisher": [
+        "Warner Bros. Interactive Entertainment"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Oct 24, 2013",
+        "year": 2013,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/209000/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=209000&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:35:59.887Z",
+      "evidenceHash": "0bf0f7692de40916a64bf9d1c79019d10c49952578ba5c375656af1f8cde9561",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-208650",
+      "appId": 208650,
+      "type": "game",
+      "name": "Batman™: Arkham Knight",
+      "developer": [
+        "Rocksteady Studios"
+      ],
+      "publisher": [
+        "WB Games"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Jun 23, 2015",
+        "year": 2015,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/208650/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=208650&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:36:01.018Z",
+      "evidenceHash": "ae7c6d22071e40f8c6e64dabb64e25389023f28920f435ceae8778f91c4beedc",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-35140",
+      "appId": 35140,
+      "type": "game",
+      "name": "Batman: Arkham Asylum Game of the Year Edition",
+      "developer": [
+        "Rocksteady Studios"
+      ],
+      "publisher": [
+        "WB Games"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Mar 26, 2010",
+        "year": 2010,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/35140/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=35140&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:36:02.104Z",
+      "evidenceHash": "7732bba65d9585c995d5ed1178c1cb2be552b2a881ccb0af5d9fa70ea343c4b1",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-22320",
+      "appId": 22320,
+      "type": "game",
+      "name": "The Elder Scrolls III: Morrowind® Game of the Year Edition",
+      "developer": [
+        "Bethesda Game Studios"
+      ],
+      "publisher": [
+        "Bethesda Softworks"
+      ],
+      "genres": [
+        "RPG"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Jun 16, 2009",
+        "year": 2009,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/22320/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=22320&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:36:03.157Z",
+      "evidenceHash": "5e1110b556b9ce40ffabc4d65edacc8d6afdeb1ed8a5b9c06d86d19ca536518a",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-236090",
+      "appId": 236090,
+      "type": "game",
+      "name": "Dust: An Elysian Tail",
+      "developer": [
+        "Humble Hearts LLC"
+      ],
+      "publisher": [
+        "Xbox Game Studios"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie",
+        "RPG"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "release": {
+        "date": "May 24, 2013",
+        "year": 2013,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/236090/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=236090&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:36:04.452Z",
+      "evidenceHash": "7a4ced32429b1225950ac27464fa16755ee4e06a946a880c84eb32150af806b9",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-257850",
+      "appId": 257850,
+      "type": "game",
+      "name": "Hyper Light Drifter",
+      "developer": [
+        "Heart Machine"
+      ],
+      "publisher": [
+        "Heart Machine"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie",
+        "RPG"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "release": {
+        "date": "Mar 31, 2016",
+        "year": 2016,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/257850/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=257850&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:36:05.540Z",
+      "evidenceHash": "f346ecd1fc4f75ce36d6f23862a0822b93f0f190d0720e22789f5a58359c41e7",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-311690",
+      "appId": 311690,
+      "type": "game",
+      "name": "Enter the Gungeon",
+      "developer": [
+        "Dodge Roll"
+      ],
+      "publisher": [
+        "Devolver Digital"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": true
+      },
+      "release": {
+        "date": "Apr 5, 2016",
+        "year": 2016,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/311690/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=311690&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:36:06.586Z",
+      "evidenceHash": "e41989c1ad6d8c66f56bb6987a379d54cb801a070bc5c6b509b0992279e69567",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-552500",
+      "appId": 552500,
+      "type": "game",
+      "name": "Warhammer: Vermintide 2",
+      "developer": [
+        "Fatshark"
+      ],
+      "publisher": [
+        "Fatshark"
+      ],
+      "genres": [
+        "Action",
+        "Indie",
+        "RPG"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Mar 8, 2018",
+        "year": 2018,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/552500/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=552500&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:36:07.683Z",
+      "evidenceHash": "ab587d8754ba0f4dd08517c6945559cc9e447a84348deefe3fa84e3612817c24",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-235540",
+      "appId": 235540,
+      "type": "game",
+      "name": "Warhammer: End Times - Vermintide",
+      "developer": [
+        "Fatshark"
+      ],
+      "publisher": [
+        "Fatshark"
+      ],
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "release": {
+        "date": "Oct 23, 2015",
+        "year": 2015,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/235540/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=235540&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:36:08.840Z",
+      "evidenceHash": "0c6df5c6bf245e1b4b9958e1d7048e23e90c7da8a586cacd57298d14d27ffc3b",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-1557740",
+      "appId": 1557740,
+      "type": "game",
+      "name": "ROUNDS",
+      "developer": [
+        "Landfall"
+      ],
+      "publisher": [
+        "Landfall"
+      ],
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "release": {
+        "date": "Apr 1, 2021",
+        "year": 2021,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/1557740/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=1557740&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:36:09.901Z",
+      "evidenceHash": "db4828ae556027acce84f38effb60a6568e42c690efa710ea9125b5fe345f1c8",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    },
+    {
+      "id": "steam-431240",
+      "appId": 431240,
+      "type": "game",
+      "name": "Golf With Your Friends",
+      "developer": [
+        "Blacklight Interactive",
+        "Team17"
+      ],
+      "publisher": [
+        "Team17"
+      ],
+      "genres": [
+        "Casual",
+        "Indie",
+        "Sports"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "release": {
+        "date": "May 19, 2020",
+        "year": 2020,
+        "comingSoon": false
+      },
+      "sourceUrl": "https://store.steampowered.com/app/431240/",
+      "metadataUrl": "https://store.steampowered.com/api/appdetails?appids=431240&cc=us&l=en",
+      "verifiedAt": "2026-10-19T19:36:11.237Z",
+      "evidenceHash": "94555cb66d75aac3cfefc30d407363b6f0a18f647c8c07ffab1aff2e3a185e47",
+      "scope": "Official store listing verifies Windows release identity, publisher/developer and listed release date; no FPS, requirements interpretation or artwork redistribution rights imported.",
+      "artwork": {
+        "status": "not-imported",
+        "reason": "No redistribution license established; original category illustration used."
+      }
+    }
+  ]
+}

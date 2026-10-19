@@ -1,0 +1,102 @@
+/* Game selection has its own compact hierarchy. Shared themes remain authoritative. */
+body[data-total-fps] .fps-view[hidden]{display:none!important}
+body[data-total-fps] .fps-workbench,body[data-total-fps] .fps-control-grid,body[data-total-fps] .game-library-grid,body[data-total-fps] .console-results{display:grid}
+body[data-total-fps] .fps-controls,body[data-total-fps] .fps-result,body[data-total-fps] .console-card{border:1px solid var(--line);background:var(--surface);min-width:0}
+body[data-total-fps] .result-game-art{display:grid;align-items:center;border-bottom:1px solid var(--line)}
+body[data-total-fps] .fps-result-body{display:block;min-width:0}
+body[data-total-fps] .fps-hardware{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+body[data-total-fps] .fps-hardware>span{display:grid;gap:4px;font-size:.8125rem;color:var(--muted)}
+body[data-total-fps] .fps-hardware strong{color:var(--ink);overflow-wrap:anywhere}
+body[data-total-fps] .game-tile{display:block;min-width:0;border:1px solid var(--line);border-radius:10px;overflow:hidden;text-align:left;background:var(--surface);color:var(--ink);padding:0;cursor:pointer}
+body[data-total-fps] .game-tile.selected{border-color:var(--accent-ink);box-shadow:0 0 0 1px var(--accent-ink)}
+body[data-total-fps] .game-art{display:block;aspect-ratio:16/9;background:var(--surface-2);overflow:hidden}
+body[data-total-fps] .game-art img{display:block;width:100%;height:100%;object-fit:contain}
+body[data-total-fps] .game-art img.logo-art{padding:16px;background:#e5ebf5}
+body[data-total-fps] .game-tile-copy{display:grid}
+body[data-total-fps] .game-library-head{display:flex;align-items:end;justify-content:space-between}
+body[data-total-fps] .game-search,body[data-total-fps] .console-search{display:flex;align-items:center;gap:10px;border:1px solid var(--line);border-radius:8px;background:var(--surface);padding:0 12px;min-height:46px}
+body[data-total-fps] .game-search input,body[data-total-fps] .console-search input{width:100%;min-width:0;padding:10px 0;border:0;background:none;color:var(--ink);font:400 1rem/1.4 var(--sans)}
+body[data-total-fps] .game-search svg,body[data-total-fps] .console-search svg{width:20px;height:20px;flex:none}
+body[data-total-fps] .game-genres,body[data-total-fps] .console-filters{display:flex;flex-wrap:wrap;gap:8px}
+body[data-total-fps] .game-genres button,body[data-total-fps] .console-filters button{border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink);cursor:pointer}
+body[data-total-fps] .console-results{gap:18px}
+body[data-total-fps] .console-card{display:flex;flex-direction:column;overflow:hidden}
+body[data-total-fps] .console-art{overflow:hidden}
+body[data-total-fps] .console-art img{width:100%;height:100%;object-fit:contain}
+body[data-total-fps] .console-modes>div>span{display:grid;gap:4px;min-width:0}
+body[data-total-fps] .console-evidence{margin-top:auto}
+body[data-total-fps] .console-count{display:block}
+body[data-total-fps] .total-console-catalog-links{display:flex;gap:8px 16px;flex-wrap:wrap;font-size:.875rem;margin:6px 0}
+body[data-total-fps] .total-fps-heading{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:8px 24px;padding-block:24px 20px}
+body[data-total-fps] .total-fps-heading h1{font-size:clamp(1.8rem,3vw,2.6rem);line-height:1.15;margin:0}
+body[data-total-fps] .total-fps-heading p{grid-column:1;margin:0;color:var(--muted);font-size:1rem;line-height:1.5}
+body[data-total-fps] .total-fps-research{grid-column:2;grid-row:1/3;display:flex;align-items:center;flex-wrap:wrap;gap:8px 18px;font-size:.875rem;line-height:1.5;max-width:400px}
+body[data-total-fps] .total-fps-research a{display:flex;align-items:center;min-height:44px}
+body[data-total-fps] .total-platforms{margin:0 0 20px}
+body[data-total-fps] .total-platforms h2{font-size:1rem;line-height:1.4;margin:0 0 10px}
+body[data-total-fps] .total-platforms>div{display:grid;grid-template-columns:repeat(8,minmax(0,1fr));gap:8px}
+body[data-total-fps] .total-platforms button{display:flex;align-items:center;justify-content:center;gap:8px;min-width:0;min-height:48px;padding:8px;border:1px solid var(--line);border-radius:10px;background:var(--surface);color:var(--ink);font:600 .875rem/1.3 var(--sans);cursor:pointer;transition:background .18s ease,border-color .18s ease}
+body[data-total-fps] .total-platforms button svg{width:24px;height:24px;flex:none}
+body[data-total-fps] .total-platforms button span{white-space:nowrap;word-break:normal;overflow-wrap:normal}
+body[data-total-fps] .total-platforms button[aria-pressed=true]{border-color:var(--accent-ink);background:color-mix(in srgb,var(--accent-ink) 10%,var(--surface));box-shadow:inset 0 -2px var(--accent-ink)}
+body[data-total-fps] .total-platforms button:focus-visible{outline:2px solid var(--accent-ink);outline-offset:3px}
+body[data-total-fps] .fps-view{padding-top:0}
+body[data-total-fps] .fps-workbench{grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:20px!important;align-items:start}
+body[data-total-fps] .total-fps-controls{display:grid;grid-template-columns:1fr;gap:18px;padding:20px!important;border-radius:14px!important;background:var(--surface)}
+body[data-total-fps] .total-fps-controls fieldset{min-width:0;margin:0;padding:0;border:0;display:grid;gap:10px}
+body[data-total-fps] .total-fps-controls legend{font-size:1rem;line-height:1.4;font-weight:650;margin:0 0 10px;padding:0}
+body[data-total-fps] .total-fps-controls label{display:grid;gap:6px;margin:0!important;font:500 .875rem/1.4 var(--sans);color:var(--ink);letter-spacing:0;text-transform:none;min-width:0}
+body[data-total-fps] .total-game-selection>label{position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+body[data-total-fps] .total-fps-controls .total-game-browse{font-size:.875rem;line-height:1.4;justify-self:start;min-height:24px}
+body[data-total-fps] .total-hardware-selection{grid-template-columns:1fr 1fr}
+body[data-total-fps] .total-hardware-selection legend{grid-column:1/-1}
+body[data-total-fps] .fps-controls select,body[data-total-fps] .fps-controls .select-trigger{height:46px;min-height:46px;max-height:none;width:100%;padding:9px 32px 9px 12px;font:400 1rem/1.4 var(--sans);border-radius:8px}
+body[data-total-fps] .fps-controls .modern-select{min-width:0;width:100%}
+body[data-total-fps] .fps-controls .select-trigger>span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
+body[data-total-fps] .fps-control-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:10px!important;margin:0!important}
+body[data-total-fps] .fps-result{padding:0!important;border-radius:14px!important;overflow:hidden}
+body[data-total-fps] .result-game-art{grid-template-columns:92px minmax(0,1fr);padding:16px;gap:14px}
+body[data-total-fps] .result-game-art img{width:92px;aspect-ratio:16/10;object-fit:contain;height:auto}
+body[data-total-fps] .result-game-art h2{font-size:1.15rem;margin:3px 0 0}
+body[data-total-fps] .fps-result-body{padding:18px}
+body[data-total-fps] .fps-result-body h3{font-size:1.15rem;line-height:1.4;margin:0 0 8px}
+body[data-total-fps] .fps-result-body p{font-size:.9375rem;line-height:1.55;margin:0 0 12px}
+body[data-total-fps] .total-result-links{display:flex;flex-wrap:wrap;gap:10px 18px;font-size:.875rem;line-height:1.5}
+body[data-total-fps] .total-result-details{margin-top:12px;border:0}
+body[data-total-fps] .total-result-details summary{padding:8px 0;min-height:40px;font-size:.875rem;cursor:pointer}
+body[data-total-fps] .total-result-details .fps-hardware{margin-top:4px}
+body[data-total-fps] .total-result-details .fps-hardware strong{font-size:.875rem}
+body[data-total-fps] .total-fps-method{margin:18px 0 28px;padding:0;border:0}
+body[data-total-fps] .total-fps-method summary{font-size:.875rem;line-height:1.5;min-height:44px;padding:10px 0;cursor:pointer}
+body[data-total-fps] .total-fps-method p{max-width:76ch;font-size:.9375rem;line-height:1.65;margin:8px 0 12px}
+body[data-total-fps] .game-library{padding:8px 0 32px}
+body[data-total-fps] .game-library-head{gap:14px;margin-bottom:14px}
+body[data-total-fps] .game-library-head h2,body[data-total-fps] .console-head h2{font-size:1.35rem}
+body[data-total-fps] .game-library-head p{font-size:.875rem;margin-top:4px}
+body[data-total-fps] .game-library-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:14px!important}
+body[data-total-fps] .game-tile-copy{min-height:0;padding:12px;gap:4px}
+body[data-total-fps] .game-tile-copy>strong{font-size:.95rem}
+body[data-total-fps] .game-tile-copy>span{font-size:.8125rem}
+body[data-total-fps] .game-tile-copy i{display:none}
+body[data-total-fps] .fps-filter-panel{padding:8px 14px;margin-bottom:16px}
+body[data-total-fps] .fps-filter-panel summary{padding-block:8px;font-size:.875rem}
+body[data-total-fps] .fps-reset{top:8px}
+body[data-total-fps] .console-head{gap:12px;margin-bottom:16px}
+body[data-total-fps] #console-fps-view:not([data-total-platform=other]) .console-filters{display:none}
+body[data-total-fps] .console-filter-panel{padding:10px 16px;margin-bottom:18px}
+body[data-total-fps] .console-filter-bottom{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:6px;padding-top:8px;flex-wrap:wrap}
+body[data-total-fps] .console-filter-bottom>label{display:flex;align-items:center;gap:8px;min-height:44px;font-size:.875rem;line-height:1.5;min-width:0}
+body[data-total-fps] .console-filter-bottom input{width:18px;height:18px;flex:none;margin:0;accent-color:var(--accent-ink)}
+body[data-total-fps] .console-filter-bottom>button{min-height:44px;padding:9px 12px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink);font:500 .875rem/1.5 var(--sans);cursor:pointer}
+body[data-total-fps] .console-platform{min-height:64px;padding:12px 16px;gap:10px}
+body[data-total-fps] .console-platform svg{width:36px;height:36px}
+body[data-total-fps] .console-card-body{padding:16px}
+body[data-total-fps] .console-modes{margin:10px 0}
+body[data-total-fps] .console-modes>div{padding:10px 0}
+body[data-total-fps] .console-empty{padding:20px 0}
+body[data-total-fps] .total-console-more{margin:20px auto;display:block}
+body[data-total-fps] .total-console-more[hidden],body[data-total-fps] .total-fps-legacy-tabs{display:none!important}
+@media(max-width:1050px){body[data-total-fps] .total-platforms>div{grid-template-columns:repeat(4,minmax(0,1fr))}body[data-total-fps] .fps-workbench{grid-template-columns:1fr}body[data-total-fps] .game-library-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:600px){body[data-total-fps] .total-fps-heading{grid-template-columns:1fr;padding-block:16px;gap:8px}body[data-total-fps] .total-fps-research{grid-column:1;grid-row:auto;gap:4px 16px;max-width:none}body[data-total-fps] .total-fps-heading p{font-size:.9375rem}body[data-total-fps] .total-platforms>div{gap:6px}body[data-total-fps] .total-platforms button{flex-direction:column;gap:4px;font-size:.75rem;padding:8px 3px;min-height:64px}body[data-total-fps] .total-platforms button svg{width:22px;height:22px}body[data-total-fps] .total-fps-controls{padding:16px!important;gap:16px}body[data-total-fps] .total-hardware-selection{grid-template-columns:1fr}body[data-total-fps] .fps-control-grid{grid-template-columns:1fr 1fr!important;gap:10px!important}body[data-total-fps] .fps-control-grid>label:last-child{grid-column:1/-1}body[data-total-fps] .game-library-grid{grid-template-columns:1fr 1fr;gap:10px!important}body[data-total-fps] .game-tile-copy{padding:10px}body[data-total-fps] .game-tile-copy>strong{font-size:.875rem}body[data-total-fps] .game-library-head{display:grid}body[data-total-fps] .game-search{width:100%}body[data-total-fps] .console-filters{gap:6px}body[data-total-fps] .console-filters button{padding:8px 10px;font-size:.8125rem}body[data-total-fps] .console-filter-bottom{flex-wrap:wrap}body[data-total-fps] .console-platform strong{font-size:.9375rem}}
+@media(max-width:350px){body[data-total-fps] .total-platforms>div{grid-template-columns:repeat(4,minmax(0,1fr))}body[data-total-fps] .total-platforms button{font-size:.75rem}body[data-total-fps] .total-platforms button[data-total-platform=other] span{white-space:normal;text-wrap:balance}body[data-total-fps] .fps-control-grid{grid-template-columns:1fr!important}body[data-total-fps] .fps-control-grid>label:last-child{grid-column:auto}}
+@media(prefers-reduced-motion:reduce){body[data-total-fps] .total-platforms button{transition:none}}

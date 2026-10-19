@@ -1,0 +1,3099 @@
+{
+  "checkedAt": "2026-10-19T19:42:20.143Z",
+  "origin": "http://127.0.0.1:4200",
+  "phase": "before",
+  "widths": [
+    320,
+    390
+  ],
+  "themes": [
+    "light"
+  ],
+  "reports": [
+    {
+      "name": "home-features",
+      "width": 320,
+      "theme": "light",
+      "screenshot": "home-features-320-light.png",
+      "viewport": 320,
+      "documentWidth": 320,
+      "target": {
+        "x": 16,
+        "y": 343.265625,
+        "w": 288,
+        "h": 257.953125,
+        "right": 304,
+        "bottom": 601.21875
+      },
+      "features": [
+        {
+          "title": "Compare phones",
+          "titleBox": {
+            "x": 16,
+            "y": 366.265625,
+            "w": 134.40625,
+            "h": 21,
+            "right": 150.40625,
+            "bottom": 387.265625
+          },
+          "descriptionBox": {
+            "x": 150.40625,
+            "y": 369.265625,
+            "w": 140.296875,
+            "h": 17,
+            "right": 290.703125,
+            "bottom": 386.265625
+          },
+          "row": {
+            "x": 16,
+            "y": 343.265625,
+            "w": 288,
+            "h": 68.390625,
+            "right": 304,
+            "bottom": 411.65625
+          }
+        },
+        {
+          "title": "Find a prebuilt PC",
+          "titleBox": {
+            "x": 16,
+            "y": 434.65625,
+            "w": 138.390625,
+            "h": 21,
+            "right": 154.390625,
+            "bottom": 455.65625
+          },
+          "descriptionBox": {
+            "x": 16,
+            "y": 437.65625,
+            "w": 209.21875,
+            "h": 43.390625,
+            "right": 225.21875,
+            "bottom": 481.046875
+          },
+          "row": {
+            "x": 16,
+            "y": 411.65625,
+            "w": 288,
+            "h": 94.78125,
+            "right": 304,
+            "bottom": 506.4375
+          }
+        },
+        {
+          "title": "Explore Game FPS",
+          "titleBox": {
+            "x": 16,
+            "y": 529.4375,
+            "w": 141.453125,
+            "h": 21,
+            "right": 157.453125,
+            "bottom": 550.4375
+          },
+          "descriptionBox": {
+            "x": 16,
+            "y": 532.4375,
+            "w": 237.421875,
+            "h": 43.390625,
+            "right": 253.421875,
+            "bottom": 575.828125
+          },
+          "row": {
+            "x": 16,
+            "y": 506.4375,
+            "w": 288,
+            "h": 94.78125,
+            "right": 304,
+            "bottom": 601.21875
+          }
+        }
+      ],
+      "nav": [],
+      "preferences": [],
+      "guideCards": [
+        {
+          "h": 222.6875
+        },
+        {
+          "h": 193.578125
+        },
+        {
+          "h": 218.78125
+        },
+        {
+          "h": 192.578125
+        }
+      ],
+      "categoryCards": [
+        {
+          "h": 267.265625
+        },
+        {
+          "h": 267.265625
+        },
+        {
+          "h": 265.015625
+        },
+        {
+          "h": 265.015625
+        }
+      ],
+      "picker": null,
+      "collisions": [
+        "Compare phones",
+        "Find a prebuilt PC",
+        "Explore Game FPS"
+      ],
+      "wrapped": [],
+      "preferenceCollisions": []
+    },
+    {
+      "name": "home-categories",
+      "width": 320,
+      "theme": "light",
+      "screenshot": "home-categories-320-light.png",
+      "viewport": 320,
+      "documentWidth": 320,
+      "target": {
+        "x": 16,
+        "y": 203.21875,
+        "w": 288,
+        "h": 641.1875,
+        "right": 304,
+        "bottom": 844.40625
+      },
+      "features": [
+        {
+          "title": "Compare phones",
+          "titleBox": {
+            "x": 16,
+            "y": -75.734375,
+            "w": 134.40625,
+            "h": 21,
+            "right": 150.40625,
+            "bottom": -54.734375
+          },
+          "descriptionBox": {
+            "x": 150.40625,
+            "y": -72.734375,
+            "w": 140.296875,
+            "h": 17,
+            "right": 290.703125,
+            "bottom": -55.734375
+          },
+          "row": {
+            "x": 16,
+            "y": -98.734375,
+            "w": 288,
+            "h": 68.390625,
+            "right": 304,
+            "bottom": -30.34375
+          }
+        },
+        {
+          "title": "Find a prebuilt PC",
+          "titleBox": {
+            "x": 16,
+            "y": -7.34375,
+            "w": 138.390625,
+            "h": 21,
+            "right": 154.390625,
+            "bottom": 13.65625
+          },
+          "descriptionBox": {
+            "x": 16,
+            "y": -4.34375,
+            "w": 209.21875,
+            "h": 43.390625,
+            "right": 225.21875,
+            "bottom": 39.046875
+          },
+          "row": {
+            "x": 16,
+            "y": -30.34375,
+            "w": 288,
+            "h": 94.78125,
+            "right": 304,
+            "bottom": 64.4375
+          }
+        },
+        {
+          "title": "Explore Game FPS",
+          "titleBox": {
+            "x": 16,
+            "y": 87.4375,
+            "w": 141.453125,
+            "h": 21,
+            "right": 157.453125,
+            "bottom": 108.4375
+          },
+          "descriptionBox": {
+            "x": 16,
+            "y": 90.4375,
+            "w": 237.421875,
+            "h": 43.390625,
+            "right": 253.421875,
+            "bottom": 133.828125
+          },
+          "row": {
+            "x": 16,
+            "y": 64.4375,
+            "w": 288,
+            "h": 94.78125,
+            "right": 304,
+            "bottom": 159.21875
+          }
+        }
+      ],
+      "nav": [],
+      "preferences": [],
+      "guideCards": [
+        {
+          "h": 222.6875
+        },
+        {
+          "h": 193.578125
+        },
+        {
+          "h": 218.78125
+        },
+        {
+          "h": 192.578125
+        }
+      ],
+      "categoryCards": [
+        {
+          "h": 267.265625
+        },
+        {
+          "h": 267.265625
+        },
+        {
+          "h": 265.015625
+        },
+        {
+          "h": 265.015625
+        }
+      ],
+      "picker": null,
+      "collisions": [
+        "Compare phones",
+        "Find a prebuilt PC",
+        "Explore Game FPS"
+      ],
+      "wrapped": [],
+      "preferenceCollisions": []
+    },
+    {
+      "name": "home-guides",
+      "width": 320,
+      "theme": "light",
+      "screenshot": "home-guides-320-light.png",
+      "viewport": 320,
+      "documentWidth": 320,
+      "target": {
+        "x": 16,
+        "y": -31.59375,
+        "w": 288,
+        "h": 1007.21875,
+        "right": 304,
+        "bottom": 975.625
+      },
+      "features": [
+        {
+          "title": "Compare phones",
+          "titleBox": {
+            "x": 16,
+            "y": -995.734375,
+            "w": 134.40625,
+            "h": 21,
+            "right": 150.40625,
+            "bottom": -974.734375
+          },
+          "descriptionBox": {
+            "x": 150.40625,
+            "y": -992.734375,
+            "w": 140.296875,
+            "h": 17,
+            "right": 290.703125,
+            "bottom": -975.734375
+          },
+          "row": {
+            "x": 16,
+            "y": -1018.734375,
+            "w": 288,
+            "h": 68.390625,
+            "right": 304,
+            "bottom": -950.34375
+          }
+        },
+        {
+          "title": "Find a prebuilt PC",
+          "titleBox": {
+            "x": 16,
+            "y": -927.34375,
+            "w": 138.390625,
+            "h": 21,
+            "right": 154.390625,
+            "bottom": -906.34375
+          },
+          "descriptionBox": {
+            "x": 16,
+            "y": -924.34375,
+            "w": 209.21875,
+            "h": 43.390625,
+            "right": 225.21875,
+            "bottom": -880.953125
+          },
+          "row": {
+            "x": 16,
+            "y": -950.34375,
+            "w": 288,
+            "h": 94.78125,
+            "right": 304,
+            "bottom": -855.5625
+          }
+        },
+        {
+          "title": "Explore Game FPS",
+          "titleBox": {
+            "x": 16,
+            "y": -832.5625,
+            "w": 141.453125,
+            "h": 21,
+            "right": 157.453125,
+            "bottom": -811.5625
+          },
+          "descriptionBox": {
+            "x": 16,
+            "y": -829.5625,
+            "w": 237.421875,
+            "h": 43.390625,
+            "right": 253.421875,
+            "bottom": -786.171875
+          },
+          "row": {
+            "x": 16,
+            "y": -855.5625,
+            "w": 288,
+            "h": 94.78125,
+            "right": 304,
+            "bottom": -760.78125
+          }
+        }
+      ],
+      "nav": [],
+      "preferences": [],
+      "guideCards": [
+        {
+          "h": 222.6875
+        },
+        {
+          "h": 193.578125
+        },
+        {
+          "h": 218.78125
+        },
+        {
+          "h": 192.578125
+        }
+      ],
+      "categoryCards": [
+        {
+          "h": 267.265625
+        },
+        {
+          "h": 267.265625
+        },
+        {
+          "h": 265.015625
+        },
+        {
+          "h": 265.015625
+        }
+      ],
+      "picker": null,
+      "collisions": [
+        "Compare phones",
+        "Find a prebuilt PC",
+        "Explore Game FPS"
+      ],
+      "wrapped": [],
+      "preferenceCollisions": []
+    },
+    {
+      "name": "menu-primary",
+      "width": 320,
+      "theme": "light",
+      "screenshot": "menu-primary-320-light.png",
+      "viewport": 320,
+      "documentWidth": 320,
+      "target": {
+        "x": 8,
+        "y": 8,
+        "w": 304,
+        "h": 828,
+        "right": 312,
+        "bottom": 836
+      },
+      "features": [
+        {
+          "title": "Compare phones",
+          "titleBox": {
+            "x": 16,
+            "y": 3089.265625,
+            "w": 134.40625,
+            "h": 21,
+            "right": 150.40625,
+            "bottom": 3110.265625
+          },
+          "descriptionBox": {
+            "x": 150.40625,
+            "y": 3092.265625,
+            "w": 140.296875,
+            "h": 17,
+            "right": 290.703125,
+            "bottom": 3109.265625
+          },
+          "row": {
+            "x": 16,
+            "y": 3066.265625,
+            "w": 288,
+            "h": 68.390625,
+            "right": 304,
+            "bottom": 3134.65625
+          }
+        },
+        {
+          "title": "Find a prebuilt PC",
+          "titleBox": {
+            "x": 16,
+            "y": 3157.65625,
+            "w": 138.390625,
+            "h": 21,
+            "right": 154.390625,
+            "bottom": 3178.65625
+          },
+          "descriptionBox": {
+            "x": 16,
+            "y": 3160.65625,
+            "w": 209.21875,
+            "h": 43.390625,
+            "right": 225.21875,
+            "bottom": 3204.046875
+          },
+          "row": {
+            "x": 16,
+            "y": 3134.65625,
+            "w": 288,
+            "h": 94.78125,
+            "right": 304,
+            "bottom": 3229.4375
+          }
+        },
+        {
+          "title": "Explore Game FPS",
+          "titleBox": {
+            "x": 16,
+            "y": 3252.4375,
+            "w": 141.453125,
+            "h": 21,
+            "right": 157.453125,
+            "bottom": 3273.4375
+          },
+          "descriptionBox": {
+            "x": 16,
+            "y": 3255.4375,
+            "w": 237.421875,
+            "h": 43.390625,
+            "right": 253.421875,
+            "bottom": 3298.828125
+          },
+          "row": {
+            "x": 16,
+            "y": 3229.4375,
+            "w": 288,
+            "h": 94.78125,
+            "right": 304,
+            "bottom": 3324.21875
+          }
+        }
+      ],
+      "nav": [
+        {
+          "text": "Build",
+          "lines": [
+            {
+              "y": 116.140625,
+              "h": 18,
+              "w": 33.75
+            }
+          ],
+          "box": {
+            "x": 68,
+            "y": 116.140625,
+            "w": 33.75,
+            "h": 19.703125,
+            "right": 101.75,
+            "bottom": 135.84375
+          }
+        },
+        {
+          "text": "Upgrade",
+          "lines": [
+            {
+              "y": 116.140625,
+              "h": 18,
+              "w": 57.546875
+            }
+          ],
+          "box": {
+            "x": 208,
+            "y": 116.140625,
+            "w": 57.546875,
+            "h": 19.703125,
+            "right": 265.546875,
+            "bottom": 135.84375
+          }
+        },
+        {
+          "text": "Compare",
+          "lines": [
+            {
+              "y": 184.140625,
+              "h": 18,
+              "w": 62.796875
+            }
+          ],
+          "box": {
+            "x": 68,
+            "y": 184.140625,
+            "w": 62.796875,
+            "h": 19.703125,
+            "right": 130.796875,
+            "bottom": 203.84375
+          }
+        },
+        {
+          "text": "Hardware",
+          "lines": [
+            {
+              "y": 184.140625,
+              "h": 18,
+              "w": 65.375
+            }
+          ],
+          "box": {
+            "x": 208,
+            "y": 184.140625,
+            "w": 65.375,
+            "h": 19.703125,
+            "right": 273.375,
+            "bottom": 203.84375
+          }
+        },
+        {
+          "text": "Learn",
+          "lines": [
+            {
+              "y": 252.140625,
+              "h": 18,
+              "w": 37.96875
+            }
+          ],
+          "box": {
+            "x": 68,
+            "y": 252.140625,
+            "w": 37.96875,
+            "h": 19.703125,
+            "right": 105.96875,
+            "bottom": 271.84375
+          }
+        },
+        {
+          "text": "My PC",
+          "lines": [
+            {
+              "y": 252.140625,
+              "h": 18,
+              "w": 42.828125
+            }
+          ],
+          "box": {
+            "x": 208,
+            "y": 252.140625,
+            "w": 42.828125,
+            "h": 19.703125,
+            "right": 250.828125,
+            "bottom": 271.84375
+          }
+        }
+      ],
+      "preferences": [
+        {
+          "name": "lab-preference-heading",
+          "box": {
+            "x": 25,
+            "y": 807.984375,
+            "w": 12,
+            "h": 22.96875,
+            "right": 37,
+            "bottom": 830.953125
+          },
+          "display": "block"
+        },
+        {
+          "name": "country-switch",
+          "box": {
+            "x": 25,
+            "y": 727.765625,
+            "w": 98.109375,
+            "h": 48,
+            "right": 123.109375,
+            "bottom": 775.765625
+          },
+          "display": "flex"
+        },
+        {
+          "name": "theme-toggle",
+          "box": {
+            "x": 185,
+            "y": 718.0625,
+            "w": 110,
+            "h": 67.40625,
+            "right": 295,
+            "bottom": 785.46875
+          },
+          "display": "flex"
+        },
+        {
+          "name": "lab-appearance-open",
+          "box": {
+            "x": 49,
+            "y": 797.46875,
+            "w": 124,
+            "h": 46,
+            "right": 173,
+            "bottom": 843.46875
+          },
+          "display": "flex"
+        }
+      ],
+      "guideCards": [
+        {
+          "h": 222.6875
+        },
+        {
+          "h": 193.578125
+        },
+        {
+          "h": 218.78125
+        },
+        {
+          "h": 192.578125
+        }
+      ],
+      "categoryCards": [
+        {
+          "h": 267.265625
+        },
+        {
+          "h": 267.265625
+        },
+        {
+          "h": 265.015625
+        },
+        {
+          "h": 265.015625
+        }
+      ],
+      "picker": null,
+      "collisions": [
+        "Compare phones",
+        "Find a prebuilt PC",
+        "Explore Game FPS"
+      ],
+      "wrapped": [],
+      "preferenceCollisions": []
+    },
+    {
+      "name": "menu-preferences",
+      "width": 320,
+      "theme": "light",
+      "screenshot": "menu-preferences-320-light.png",
+      "viewport": 320,
+      "documentWidth": 320,
+      "target": {
+        "x": 25,
+        "y": 685.0625,
+        "w": 270,
+        "h": 150.40625,
+        "right": 295,
+        "bottom": 835.46875
+      },
+      "features": [
+        {
+          "title": "Compare phones",
+          "titleBox": {
+            "x": 16,
+            "y": 3089.265625,
+            "w": 134.40625,
+            "h": 21,
+            "right": 150.40625,
+            "bottom": 3110.265625
+          },
+          "descriptionBox": {
+            "x": 150.40625,
+            "y": 3092.265625,
+            "w": 140.296875,
+            "h": 17,
+            "right": 290.703125,
+            "bottom": 3109.265625
+          },
+          "row": {
+            "x": 16,
+            "y": 3066.265625,
+            "w": 288,
+            "h": 68.390625,
+            "right": 304,
+            "bottom": 3134.65625
+          }
+        },
+        {
+          "title": "Find a prebuilt PC",
+          "titleBox": {
+            "x": 16,
+            "y": 3157.65625,
+            "w": 138.390625,
+            "h": 21,
+            "right": 154.390625,
+            "bottom": 3178.65625
+          },
+          "descriptionBox": {
+            "x": 16,
+            "y": 3160.65625,
+            "w": 209.21875,
+            "h": 43.390625,
+            "right": 225.21875,
+            "bottom": 3204.046875
+          },
+          "row": {
+            "x": 16,
+            "y": 3134.65625,
+            "w": 288,
+            "h": 94.78125,
+            "right": 304,
+            "bottom": 3229.4375
+          }
+        },
+        {
+          "title": "Explore Game FPS",
+          "titleBox": {
+            "x": 16,
+            "y": 3252.4375,
+            "w": 141.453125,
+            "h": 21,
+            "right": 157.453125,
+            "bottom": 3273.4375
+          },
+          "descriptionBox": {
+            "x": 16,
+            "y": 3255.4375,
+            "w": 237.421875,
+            "h": 43.390625,
+            "right": 253.421875,
+            "bottom": 3298.828125
+          },
+          "row": {
+            "x": 16,
+            "y": 3229.4375,
+            "w": 288,
+            "h": 94.78125,
+            "right": 304,
+            "bottom": 3324.21875
+          }
+        }
+      ],
+      "nav": [
+        {
+          "text": "Build",
+          "lines": [
+            {
+              "y": 108.140625,
+              "h": 18,
+              "w": 33.75
+            }
+          ],
+          "box": {
+            "x": 68,
+            "y": 108.140625,
+            "w": 33.75,
+            "h": 19.703125,
+            "right": 101.75,
+            "bottom": 127.84375
+          }
+        },
+        {
+          "text": "Upgrade",
+          "lines": [
+            {
+              "y": 108.140625,
+              "h": 18,
+              "w": 57.546875
+            }
+          ],
+          "box": {
+            "x": 208,
+            "y": 108.140625,
+            "w": 57.546875,
+            "h": 19.703125,
+            "right": 265.546875,
+            "bottom": 127.84375
+          }
+        },
+        {
+          "text": "Compare",
+          "lines": [
+            {
+              "y": 176.140625,
+              "h": 18,
+              "w": 62.796875
+            }
+          ],
+          "box": {
+            "x": 68,
+            "y": 176.140625,
+            "w": 62.796875,
+            "h": 19.703125,
+            "right": 130.796875,
+            "bottom": 195.84375
+          }
+        },
+        {
+          "text": "Hardware",
+          "lines": [
+            {
+              "y": 176.140625,
+              "h": 18,
+              "w": 65.375
+            }
+          ],
+          "box": {
+            "x": 208,
+            "y": 176.140625,
+            "w": 65.375,
+            "h": 19.703125,
+            "right": 273.375,
+            "bottom": 195.84375
+          }
+        },
+        {
+          "text": "Learn",
+          "lines": [
+            {
+              "y": 244.140625,
+              "h": 18,
+              "w": 37.96875
+            }
+          ],
+          "box": {
+            "x": 68,
+            "y": 244.140625,
+            "w": 37.96875,
+            "h": 19.703125,
+            "right": 105.96875,
+            "bottom": 263.84375
+          }
+        },
+        {
+          "text": "My PC",
+          "lines": [
+            {
+              "y": 244.140625,
+              "h": 18,
+              "w": 42.828125
+            }
+          ],
+          "box": {
+            "x": 208,
+            "y": 244.140625,
+            "w": 42.828125,
+            "h": 19.703125,
+            "right": 250.828125,
+            "bottom": 263.84375
+          }
+        }
+      ],
+      "preferences": [
+        {
+          "name": "lab-preference-heading",
+          "box": {
+            "x": 25,
+            "y": 799.984375,
+            "w": 12,
+            "h": 22.96875,
+            "right": 37,
+            "bottom": 822.953125
+          },
+          "display": "block"
+        },
+        {
+          "name": "country-switch",
+          "box": {
+            "x": 25,
+            "y": 719.765625,
+            "w": 98.109375,
+            "h": 48,
+            "right": 123.109375,
+            "bottom": 767.765625
+          },
+          "display": "flex"
+        },
+        {
+          "name": "theme-toggle",
+          "box": {
+            "x": 185,
+            "y": 710.0625,
+            "w": 110,
+            "h": 67.40625,
+            "right": 295,
+            "bottom": 777.46875
+          },
+          "display": "flex"
+        },
+        {
+          "name": "lab-appearance-open",
+          "box": {
+            "x": 49,
+            "y": 789.46875,
+            "w": 124,
+            "h": 46,
+            "right": 173,
+            "bottom": 835.46875
+          },
+          "display": "flex"
+        }
+      ],
+      "guideCards": [
+        {
+          "h": 222.6875
+        },
+        {
+          "h": 193.578125
+        },
+        {
+          "h": 218.78125
+        },
+        {
+          "h": 192.578125
+        }
+      ],
+      "categoryCards": [
+        {
+          "h": 267.265625
+        },
+        {
+          "h": 267.265625
+        },
+        {
+          "h": 265.015625
+        },
+        {
+          "h": 265.015625
+        }
+      ],
+      "picker": null,
+      "collisions": [
+        "Compare phones",
+        "Find a prebuilt PC",
+        "Explore Game FPS"
+      ],
+      "wrapped": [],
+      "preferenceCollisions": []
+    },
+    {
+      "name": "builder-menu-primary",
+      "width": 320,
+      "theme": "light",
+      "screenshot": "builder-menu-primary-320-light.png",
+      "viewport": 320,
+      "documentWidth": 320,
+      "target": {
+        "x": 8,
+        "y": 8,
+        "w": 304,
+        "h": 828,
+        "right": 312,
+        "bottom": 836
+      },
+      "features": [],
+      "nav": [
+        {
+          "text": "Build",
+          "lines": [
+            {
+              "y": 116.140625,
+              "h": 18,
+              "w": 34.140625
+            }
+          ],
+          "box": {
+            "x": 68,
+            "y": 116.140625,
+            "w": 34.140625,
+            "h": 19.703125,
+            "right": 102.140625,
+            "bottom": 135.84375
+          }
+        },
+        {
+          "text": "Upgrade",
+          "lines": [
+            {
+              "y": 116.140625,
+              "h": 18,
+              "w": 58.046875
+            }
+          ],
+          "box": {
+            "x": 208,
+            "y": 116.140625,
+            "w": 58.046875,
+            "h": 19.703125,
+            "right": 266.046875,
+            "bottom": 135.84375
+          }
+        },
+        {
+          "text": "Compare",
+          "lines": [
+            {
+              "y": 184.140625,
+              "h": 18,
+              "w": 63.34375
+            }
+          ],
+          "box": {
+            "x": 68,
+            "y": 184.140625,
+            "w": 63.34375,
+            "h": 19.703125,
+            "right": 131.34375,
+            "bottom": 203.84375
+          }
+        },
+        {
+          "text": "Hardware",
+          "lines": [
+            {
+              "y": 184.140625,
+              "h": 18,
+              "w": 66.09375
+            }
+          ],
+          "box": {
+            "x": 208,
+            "y": 184.140625,
+            "w": 66.09375,
+            "h": 19.703125,
+            "right": 274.09375,
+            "bottom": 203.84375
+          }
+        },
+        {
+          "text": "Learn",
+          "lines": [
+            {
+              "y": 252.140625,
+              "h": 18,
+              "w": 38.375
+            }
+          ],
+          "box": {
+            "x": 68,
+            "y": 252.140625,
+            "w": 38.375,
+            "h": 19.703125,
+            "right": 106.375,
+            "bottom": 271.84375
+          }
+        },
+        {
+          "text": "My PC",
+          "lines": [
+            {
+              "y": 252.140625,
+              "h": 18,
+              "w": 43.09375
+            }
+          ],
+          "box": {
+            "x": 208,
+            "y": 252.140625,
+            "w": 43.09375,
+            "h": 19.703125,
+            "right": 251.09375,
+            "bottom": 271.84375
+          }
+        }
+      ],
+      "preferences": [
+        {
+          "name": "lab-preference-heading",
+          "box": {
+            "x": 25,
+            "y": 807.984375,
+            "w": 12,
+            "h": 22.96875,
+            "right": 37,
+            "bottom": 830.953125
+          },
+          "display": "block"
+        },
+        {
+          "name": "country-switch",
+          "box": {
+            "x": 25,
+            "y": 727.765625,
+            "w": 98.109375,
+            "h": 48,
+            "right": 123.109375,
+            "bottom": 775.765625
+          },
+          "display": "flex"
+        },
+        {
+          "name": "theme-toggle",
+          "box": {
+            "x": 185,
+            "y": 718.0625,
+            "w": 110,
+            "h": 67.40625,
+            "right": 295,
+            "bottom": 785.46875
+          },
+          "display": "flex"
+        },
+        {
+          "name": "lab-appearance-open",
+          "box": {
+            "x": 49,
+            "y": 797.46875,
+            "w": 124,
+            "h": 46,
+            "right": 173,
+            "bottom": 843.46875
+          },
+          "display": "flex"
+        }
+      ],
+      "guideCards": [],
+      "categoryCards": [],
+      "picker": null,
+      "collisions": [],
+      "wrapped": [],
+      "preferenceCollisions": []
+    },
+    {
+      "name": "builder-menu-preferences",
+      "width": 320,
+      "theme": "light",
+      "screenshot": "builder-menu-preferences-320-light.png",
+      "viewport": 320,
+      "documentWidth": 320,
+      "target": {
+        "x": 25,
+        "y": 685.0625,
+        "w": 270,
+        "h": 150.40625,
+        "right": 295,
+        "bottom": 835.46875
+      },
+      "features": [],
+      "nav": [
+        {
+          "text": "Build",
+          "lines": [
+            {
+              "y": 108.140625,
+              "h": 18,
+              "w": 34.140625
+            }
+          ],
+          "box": {
+            "x": 68,
+            "y": 108.140625,
+            "w": 34.140625,
+            "h": 19.703125,
+            "right": 102.140625,
+            "bottom": 127.84375
+          }
+        },
+        {
+          "text": "Upgrade",
+          "lines": [
+            {
+              "y": 108.140625,
+              "h": 18,
+              "w": 58.046875
+            }
+          ],
+          "box": {
+            "x": 208,
+            "y": 108.140625,
+            "w": 58.046875,
+            "h": 19.703125,
+            "right": 266.046875,
+            "bottom": 127.84375
+          }
+        },
+        {
+          "text": "Compare",
+          "lines": [
+            {
+              "y": 176.140625,
+              "h": 18,
+              "w": 63.34375
+            }
+          ],
+          "box": {
+            "x": 68,
+            "y": 176.140625,
+            "w": 63.34375,
+            "h": 19.703125,
+            "right": 131.34375,
+            "bottom": 195.84375
+          }
+        },
+        {
+          "text": "Hardware",
+          "lines": [
+            {
+              "y": 176.140625,
+              "h": 18,
+              "w": 66.09375
+            }
+          ],
+          "box": {
+            "x": 208,
+            "y": 176.140625,
+            "w": 66.09375,
+            "h": 19.703125,
+            "right": 274.09375,
+            "bottom": 195.84375
+          }
+        },
+        {
+          "text": "Learn",
+          "lines": [
+            {
+              "y": 244.140625,
+              "h": 18,
+              "w": 38.375
+            }
+          ],
+          "box": {
+            "x": 68,
+            "y": 244.140625,
+            "w": 38.375,
+            "h": 19.703125,
+            "right": 106.375,
+            "bottom": 263.84375
+          }
+        },
+        {
+          "text": "My PC",
+          "lines": [
+            {
+              "y": 244.140625,
+              "h": 18,
+              "w": 43.09375
+            }
+          ],
+          "box": {
+            "x": 208,
+            "y": 244.140625,
+            "w": 43.09375,
+            "h": 19.703125,
+            "right": 251.09375,
+            "bottom": 263.84375
+          }
+        }
+      ],
+      "preferences": [
+        {
+          "name": "lab-preference-heading",
+          "box": {
+            "x": 25,
+            "y": 799.984375,
+            "w": 12,
+            "h": 22.96875,
+            "right": 37,
+            "bottom": 822.953125
+          },
+          "display": "block"
+        },
+        {
+          "name": "country-switch",
+          "box": {
+            "x": 25,
+            "y": 719.765625,
+            "w": 98.109375,
+            "h": 48,
+            "right": 123.109375,
+            "bottom": 767.765625
+          },
+          "display": "flex"
+        },
+        {
+          "name": "theme-toggle",
+          "box": {
+            "x": 185,
+            "y": 710.0625,
+            "w": 110,
+            "h": 67.40625,
+            "right": 295,
+            "bottom": 777.46875
+          },
+          "display": "flex"
+        },
+        {
+          "name": "lab-appearance-open",
+          "box": {
+            "x": 49,
+            "y": 789.46875,
+            "w": 124,
+            "h": 46,
+            "right": 173,
+            "bottom": 835.46875
+          },
+          "display": "flex"
+        }
+      ],
+      "guideCards": [],
+      "categoryCards": [],
+      "picker": null,
+      "collisions": [],
+      "wrapped": [],
+      "preferenceCollisions": []
+    },
+    {
+      "name": "builder-save",
+      "width": 320,
+      "theme": "light",
+      "screenshot": "builder-save-320-light.png",
+      "viewport": 320,
+      "documentWidth": 320,
+      "target": {
+        "x": 16,
+        "y": -10.484375,
+        "w": 288,
+        "h": 1079.75,
+        "right": 304,
+        "bottom": 1069.265625
+      },
+      "features": [],
+      "nav": [],
+      "preferences": [],
+      "guideCards": [],
+      "categoryCards": [],
+      "picker": null,
+      "collisions": [],
+      "wrapped": [],
+      "preferenceCollisions": []
+    },
+    {
+      "name": "picker-cpu",
+      "width": 320,
+      "theme": "light",
+      "screenshot": "picker-cpu-320-light.png",
+      "viewport": 320,
+      "documentWidth": 320,
+      "target": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 844,
+        "right": 320,
+        "bottom": 844
+      },
+      "features": [],
+      "nav": [],
+      "preferences": [],
+      "guideCards": [],
+      "categoryCards": [],
+      "picker": {
+        "box": {
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 844,
+          "right": 320,
+          "bottom": 844
+        },
+        "rows": [
+          {
+            "x": 12,
+            "y": 250.046875,
+            "w": 296,
+            "h": 113.125,
+            "right": 308,
+            "bottom": 363.171875
+          },
+          {
+            "x": 12,
+            "y": 373.171875,
+            "w": 296,
+            "h": 113.125,
+            "right": 308,
+            "bottom": 486.296875
+          },
+          {
+            "x": 12,
+            "y": 496.296875,
+            "w": 296,
+            "h": 113.125,
+            "right": 308,
+            "bottom": 609.421875
+          },
+          {
+            "x": 12,
+            "y": 619.421875,
+            "w": 296,
+            "h": 113.125,
+            "right": 308,
+            "bottom": 732.546875
+          },
+          {
+            "x": 12,
+            "y": 742.546875,
+            "w": 296,
+            "h": 113.125,
+            "right": 308,
+            "bottom": 855.671875
+          },
+          {
+            "x": 12,
+            "y": 865.671875,
+            "w": 296,
+            "h": 113.125,
+            "right": 308,
+            "bottom": 978.796875
+          }
+        ],
+        "search": {
+          "x": 20,
+          "y": 95.390625,
+          "w": 280,
+          "h": 56.390625,
+          "right": 300,
+          "bottom": 151.78125
+        },
+        "close": {
+          "x": 256,
+          "y": 22,
+          "w": 44,
+          "h": 44,
+          "right": 300,
+          "bottom": 66
+        }
+      },
+      "collisions": [],
+      "wrapped": [],
+      "preferenceCollisions": []
+    },
+    {
+      "name": "builder-preferences",
+      "width": 320,
+      "theme": "light",
+      "screenshot": "builder-preferences-320-light.png",
+      "viewport": 320,
+      "documentWidth": 320,
+      "target": {
+        "x": 16,
+        "y": 409.234375,
+        "w": 288,
+        "h": 421.984375,
+        "right": 304,
+        "bottom": 831.21875
+      },
+      "features": [],
+      "nav": [],
+      "preferences": [],
+      "guideCards": [],
+      "categoryCards": [],
+      "picker": null,
+      "collisions": [],
+      "wrapped": [],
+      "preferenceCollisions": []
+    },
+    {
+      "name": "fps-settings",
+      "width": 320,
+      "theme": "light",
+      "screenshot": "fps-settings-320-light.png",
+      "viewport": 320,
+      "documentWidth": 320,
+      "target": {
+        "x": 16,
+        "y": 99.9375,
+        "w": 288,
+        "h": 1411.75,
+        "right": 304,
+        "bottom": 1511.6875
+      },
+      "features": [],
+      "nav": [],
+      "preferences": [],
+      "guideCards": [],
+      "categoryCards": [],
+      "picker": null,
+      "collisions": [],
+      "wrapped": [],
+      "preferenceCollisions": []
+    },
+    {
+      "name": "home-features",
+      "width": 390,
+      "theme": "light",
+      "screenshot": "home-features-390-light.png",
+      "viewport": 390,
+      "documentWidth": 390,
+      "target": {
+        "x": 20,
+        "y": 369.890625,
+        "w": 350,
+        "h": 205.171875,
+        "right": 370,
+        "bottom": 575.0625
+      },
+      "features": [
+        {
+          "title": "Compare phones",
+          "titleBox": {
+            "x": 20,
+            "y": 392.890625,
+            "w": 134.40625,
+            "h": 21,
+            "right": 154.40625,
+            "bottom": 413.890625
+          },
+          "descriptionBox": {
+            "x": 154.40625,
+            "y": 395.890625,
+            "w": 140.296875,
+            "h": 17,
+            "right": 294.703125,
+            "bottom": 412.890625
+          },
+          "row": {
+            "x": 20,
+            "y": 369.890625,
+            "w": 350,
+            "h": 68.390625,
+            "right": 370,
+            "bottom": 438.28125
+          }
+        },
+        {
+          "title": "Find a prebuilt PC",
+          "titleBox": {
+            "x": 20,
+            "y": 461.28125,
+            "w": 138.390625,
+            "h": 21,
+            "right": 158.390625,
+            "bottom": 482.28125
+          },
+          "descriptionBox": {
+            "x": 158.390625,
+            "y": 464.28125,
+            "w": 162.8125,
+            "h": 17,
+            "right": 321.203125,
+            "bottom": 481.28125
+          },
+          "row": {
+            "x": 20,
+            "y": 438.28125,
+            "w": 350,
+            "h": 68.390625,
+            "right": 370,
+            "bottom": 506.671875
+          }
+        },
+        {
+          "title": "Explore Game FPS",
+          "titleBox": {
+            "x": 20,
+            "y": 529.671875,
+            "w": 141.453125,
+            "h": 21,
+            "right": 161.453125,
+            "bottom": 550.671875
+          },
+          "descriptionBox": {
+            "x": 161.453125,
+            "y": 532.671875,
+            "w": 179.4375,
+            "h": 17,
+            "right": 340.890625,
+            "bottom": 549.671875
+          },
+          "row": {
+            "x": 20,
+            "y": 506.671875,
+            "w": 350,
+            "h": 68.390625,
+            "right": 370,
+            "bottom": 575.0625
+          }
+        }
+      ],
+      "nav": [],
+      "preferences": [],
+      "guideCards": [
+        {
+          "h": 193.578125
+        },
+        {
+          "h": 193.578125
+        },
+        {
+          "h": 193.578125
+        },
+        {
+          "h": 192.578125
+        }
+      ],
+      "categoryCards": [
+        {
+          "h": 255.1875
+        },
+        {
+          "h": 255.1875
+        },
+        {
+          "h": 255.1875
+        },
+        {
+          "h": 255.1875
+        }
+      ],
+      "picker": null,
+      "collisions": [
+        "Compare phones",
+        "Find a prebuilt PC",
+        "Explore Game FPS"
+      ],
+      "wrapped": [],
+      "preferenceCollisions": []
+    },
+    {
+      "name": "home-categories",
+      "width": 390,
+      "theme": "light",
+      "screenshot": "home-categories-390-light.png",
+      "viewport": 390,
+      "documentWidth": 390,
+      "target": {
+        "x": 20,
+        "y": 230.0625,
+        "w": 350,
+        "h": 613.96875,
+        "right": 370,
+        "bottom": 844.03125
+      },
+      "features": [
+        {
+          "title": "Compare phones",
+          "titleBox": {
+            "x": 20,
+            "y": 3.890625,
+            "w": 134.40625,
+            "h": 21,
+            "right": 154.40625,
+            "bottom": 24.890625
+          },
+          "descriptionBox": {
+            "x": 154.40625,
+            "y": 6.890625,
+            "w": 140.296875,
+            "h": 17,
+            "right": 294.703125,
+            "bottom": 23.890625
+          },
+          "row": {
+            "x": 20,
+            "y": -19.109375,
+            "w": 350,
+            "h": 68.390625,
+            "right": 370,
+            "bottom": 49.28125
+          }
+        },
+        {
+          "title": "Find a prebuilt PC",
+          "titleBox": {
+            "x": 20,
+            "y": 72.28125,
+            "w": 138.390625,
+            "h": 21,
+            "right": 158.390625,
+            "bottom": 93.28125
+          },
+          "descriptionBox": {
+            "x": 158.390625,
+            "y": 75.28125,
+            "w": 162.8125,
+            "h": 17,
+            "right": 321.203125,
+            "bottom": 92.28125
+          },
+          "row": {
+            "x": 20,
+            "y": 49.28125,
+            "w": 350,
+            "h": 68.390625,
+            "right": 370,
+            "bottom": 117.671875
+          }
+        },
+        {
+          "title": "Explore Game FPS",
+          "titleBox": {
+            "x": 20,
+            "y": 140.671875,
+            "w": 141.453125,
+            "h": 21,
+            "right": 161.453125,
+            "bottom": 161.671875
+          },
+          "descriptionBox": {
+            "x": 161.453125,
+            "y": 143.671875,
+            "w": 179.4375,
+            "h": 17,
+            "right": 340.890625,
+            "bottom": 160.671875
+          },
+          "row": {
+            "x": 20,
+            "y": 117.671875,
+            "w": 350,
+            "h": 68.390625,
+            "right": 370,
+            "bottom": 186.0625
+          }
+        }
+      ],
+      "nav": [],
+      "preferences": [],
+      "guideCards": [
+        {
+          "h": 193.578125
+        },
+        {
+          "h": 193.578125
+        },
+        {
+          "h": 193.578125
+        },
+        {
+          "h": 192.578125
+        }
+      ],
+      "categoryCards": [
+        {
+          "h": 255.1875
+        },
+        {
+          "h": 255.1875
+        },
+        {
+          "h": 255.1875
+        },
+        {
+          "h": 255.1875
+        }
+      ],
+      "picker": null,
+      "collisions": [
+        "Compare phones",
+        "Find a prebuilt PC",
+        "Explore Game FPS"
+      ],
+      "wrapped": [],
+      "preferenceCollisions": []
+    },
+    {
+      "name": "home-guides",
+      "width": 390,
+      "theme": "light",
+      "screenshot": "home-guides-390-light.png",
+      "viewport": 390,
+      "documentWidth": 390,
+      "target": {
+        "x": 20,
+        "y": -3.96875,
+        "w": 350,
+        "h": 952.90625,
+        "right": 370,
+        "bottom": 948.9375
+      },
+      "features": [
+        {
+          "title": "Compare phones",
+          "titleBox": {
+            "x": 20,
+            "y": -888.109375,
+            "w": 134.40625,
+            "h": 21,
+            "right": 154.40625,
+            "bottom": -867.109375
+          },
+          "descriptionBox": {
+            "x": 154.40625,
+            "y": -885.109375,
+            "w": 140.296875,
+            "h": 17,
+            "right": 294.703125,
+            "bottom": -868.109375
+          },
+          "row": {
+            "x": 20,
+            "y": -911.109375,
+            "w": 350,
+            "h": 68.390625,
+            "right": 370,
+            "bottom": -842.71875
+          }
+        },
+        {
+          "title": "Find a prebuilt PC",
+          "titleBox": {
+            "x": 20,
+            "y": -819.71875,
+            "w": 138.390625,
+            "h": 21,
+            "right": 158.390625,
+            "bottom": -798.71875
+          },
+          "descriptionBox": {
+            "x": 158.390625,
+            "y": -816.71875,
+            "w": 162.8125,
+            "h": 17,
+            "right": 321.203125,
+            "bottom": -799.71875
+          },
+          "row": {
+            "x": 20,
+            "y": -842.71875,
+            "w": 350,
+            "h": 68.390625,
+            "right": 370,
+            "bottom": -774.328125
+          }
+        },
+        {
+          "title": "Explore Game FPS",
+          "titleBox": {
+            "x": 20,
+            "y": -751.328125,
+            "w": 141.453125,
+            "h": 21,
+            "right": 161.453125,
+            "bottom": -730.328125
+          },
+          "descriptionBox": {
+            "x": 161.453125,
+            "y": -748.328125,
+            "w": 179.4375,
+            "h": 17,
+            "right": 340.890625,
+            "bottom": -731.328125
+          },
+          "row": {
+            "x": 20,
+            "y": -774.328125,
+            "w": 350,
+            "h": 68.390625,
+            "right": 370,
+            "bottom": -705.9375
+          }
+        }
+      ],
+      "nav": [],
+      "preferences": [],
+      "guideCards": [
+        {
+          "h": 193.578125
+        },
+        {
+          "h": 193.578125
+        },
+        {
+          "h": 193.578125
+        },
+        {
+          "h": 192.578125
+        }
+      ],
+      "categoryCards": [
+        {
+          "h": 255.1875
+        },
+        {
+          "h": 255.1875
+        },
+        {
+          "h": 255.1875
+        },
+        {
+          "h": 255.1875
+        }
+      ],
+      "picker": null,
+      "collisions": [
+        "Compare phones",
+        "Find a prebuilt PC",
+        "Explore Game FPS"
+      ],
+      "wrapped": [],
+      "preferenceCollisions": []
+    },
+    {
+      "name": "menu-primary",
+      "width": 390,
+      "theme": "light",
+      "screenshot": "menu-primary-390-light.png",
+      "viewport": 390,
+      "documentWidth": 390,
+      "target": {
+        "x": 12,
+        "y": 12,
+        "w": 366,
+        "h": 820,
+        "right": 378,
+        "bottom": 832
+      },
+      "features": [
+        {
+          "title": "Compare phones",
+          "titleBox": {
+            "x": 20,
+            "y": 2943.890625,
+            "w": 134.40625,
+            "h": 21,
+            "right": 154.40625,
+            "bottom": 2964.890625
+          },
+          "descriptionBox": {
+            "x": 154.40625,
+            "y": 2946.890625,
+            "w": 140.296875,
+            "h": 17,
+            "right": 294.703125,
+            "bottom": 2963.890625
+          },
+          "row": {
+            "x": 20,
+            "y": 2920.890625,
+            "w": 350,
+            "h": 68.390625,
+            "right": 370,
+            "bottom": 2989.28125
+          }
+        },
+        {
+          "title": "Find a prebuilt PC",
+          "titleBox": {
+            "x": 20,
+            "y": 3012.28125,
+            "w": 138.390625,
+            "h": 21,
+            "right": 158.390625,
+            "bottom": 3033.28125
+          },
+          "descriptionBox": {
+            "x": 158.390625,
+            "y": 3015.28125,
+            "w": 162.8125,
+            "h": 17,
+            "right": 321.203125,
+            "bottom": 3032.28125
+          },
+          "row": {
+            "x": 20,
+            "y": 2989.28125,
+            "w": 350,
+            "h": 68.390625,
+            "right": 370,
+            "bottom": 3057.671875
+          }
+        },
+        {
+          "title": "Explore Game FPS",
+          "titleBox": {
+            "x": 20,
+            "y": 3080.671875,
+            "w": 141.453125,
+            "h": 21,
+            "right": 161.453125,
+            "bottom": 3101.671875
+          },
+          "descriptionBox": {
+            "x": 161.453125,
+            "y": 3083.671875,
+            "w": 179.4375,
+            "h": 17,
+            "right": 340.890625,
+            "bottom": 3100.671875
+          },
+          "row": {
+            "x": 20,
+            "y": 3057.671875,
+            "w": 350,
+            "h": 68.390625,
+            "right": 370,
+            "bottom": 3126.0625
+          }
+        }
+      ],
+      "nav": [
+        {
+          "text": "Build",
+          "lines": [
+            {
+              "y": 123.46875,
+              "h": 20,
+              "w": 36.046875
+            }
+          ],
+          "box": {
+            "x": 85,
+            "y": 123.46875,
+            "w": 36.046875,
+            "h": 21.0625,
+            "right": 121.046875,
+            "bottom": 144.53125
+          }
+        },
+        {
+          "text": "Upgrade",
+          "lines": [
+            {
+              "y": 123.46875,
+              "h": 20,
+              "w": 61.484375
+            }
+          ],
+          "box": {
+            "x": 248,
+            "y": 123.46875,
+            "w": 61.484375,
+            "h": 21.0625,
+            "right": 309.484375,
+            "bottom": 144.53125
+          }
+        },
+        {
+          "text": "Compare",
+          "lines": [
+            {
+              "y": 191.46875,
+              "h": 20,
+              "w": 67.078125
+            }
+          ],
+          "box": {
+            "x": 85,
+            "y": 191.46875,
+            "w": 67.078125,
+            "h": 21.0625,
+            "right": 152.078125,
+            "bottom": 212.53125
+          }
+        },
+        {
+          "text": "Hardware",
+          "lines": [
+            {
+              "y": 191.46875,
+              "h": 20,
+              "w": 69.84375
+            }
+          ],
+          "box": {
+            "x": 248,
+            "y": 191.46875,
+            "w": 69.84375,
+            "h": 21.0625,
+            "right": 317.84375,
+            "bottom": 212.53125
+          }
+        },
+        {
+          "text": "Learn",
+          "lines": [
+            {
+              "y": 259.46875,
+              "h": 20,
+              "w": 40.546875
+            }
+          ],
+          "box": {
+            "x": 85,
+            "y": 259.46875,
+            "w": 40.546875,
+            "h": 21.0625,
+            "right": 125.546875,
+            "bottom": 280.53125
+          }
+        },
+        {
+          "text": "My PC",
+          "lines": [
+            {
+              "y": 259.46875,
+              "h": 20,
+              "w": 45.75
+            }
+          ],
+          "box": {
+            "x": 248,
+            "y": 259.46875,
+            "w": 45.75,
+            "h": 21.0625,
+            "right": 293.75,
+            "bottom": 280.53125
+          }
+        }
+      ],
+      "preferences": [
+        {
+          "name": "lab-preference-heading",
+          "box": {
+            "x": 37,
+            "y": 786.765625,
+            "w": 46.65625,
+            "h": 22.96875,
+            "right": 83.65625,
+            "bottom": 809.734375
+          },
+          "display": "block"
+        },
+        {
+          "name": "country-switch",
+          "box": {
+            "x": 37,
+            "y": 716.25,
+            "w": 98.109375,
+            "h": 48,
+            "right": 135.109375,
+            "bottom": 764.25
+          },
+          "display": "flex"
+        },
+        {
+          "name": "theme-toggle",
+          "box": {
+            "x": 235.484375,
+            "y": 717.890625,
+            "w": 117.515625,
+            "h": 44.703125,
+            "right": 353,
+            "bottom": 762.59375
+          },
+          "display": "flex"
+        },
+        {
+          "name": "lab-appearance-open",
+          "box": {
+            "x": 95.65625,
+            "y": 776.25,
+            "w": 127.828125,
+            "h": 46,
+            "right": 223.484375,
+            "bottom": 822.25
+          },
+          "display": "flex"
+        }
+      ],
+      "guideCards": [
+        {
+          "h": 193.578125
+        },
+        {
+          "h": 193.578125
+        },
+        {
+          "h": 193.578125
+        },
+        {
+          "h": 192.578125
+        }
+      ],
+      "categoryCards": [
+        {
+          "h": 255.1875
+        },
+        {
+          "h": 255.1875
+        },
+        {
+          "h": 255.1875
+        },
+        {
+          "h": 255.1875
+        }
+      ],
+      "picker": null,
+      "collisions": [
+        "Compare phones",
+        "Find a prebuilt PC",
+        "Explore Game FPS"
+      ],
+      "wrapped": [],
+      "preferenceCollisions": []
+    },
+    {
+      "name": "menu-preferences",
+      "width": 390,
+      "theme": "light",
+      "screenshot": "menu-preferences-390-light.png",
+      "viewport": 390,
+      "documentWidth": 390,
+      "target": {
+        "x": 37,
+        "y": 691.25,
+        "w": 316,
+        "h": 131,
+        "right": 353,
+        "bottom": 822.25
+      },
+      "features": [
+        {
+          "title": "Compare phones",
+          "titleBox": {
+            "x": 20,
+            "y": 2943.890625,
+            "w": 134.40625,
+            "h": 21,
+            "right": 154.40625,
+            "bottom": 2964.890625
+          },
+          "descriptionBox": {
+            "x": 154.40625,
+            "y": 2946.890625,
+            "w": 140.296875,
+            "h": 17,
+            "right": 294.703125,
+            "bottom": 2963.890625
+          },
+          "row": {
+            "x": 20,
+            "y": 2920.890625,
+            "w": 350,
+            "h": 68.390625,
+            "right": 370,
+            "bottom": 2989.28125
+          }
+        },
+        {
+          "title": "Find a prebuilt PC",
+          "titleBox": {
+            "x": 20,
+            "y": 3012.28125,
+            "w": 138.390625,
+            "h": 21,
+            "right": 158.390625,
+            "bottom": 3033.28125
+          },
+          "descriptionBox": {
+            "x": 158.390625,
+            "y": 3015.28125,
+            "w": 162.8125,
+            "h": 17,
+            "right": 321.203125,
+            "bottom": 3032.28125
+          },
+          "row": {
+            "x": 20,
+            "y": 2989.28125,
+            "w": 350,
+            "h": 68.390625,
+            "right": 370,
+            "bottom": 3057.671875
+          }
+        },
+        {
+          "title": "Explore Game FPS",
+          "titleBox": {
+            "x": 20,
+            "y": 3080.671875,
+            "w": 141.453125,
+            "h": 21,
+            "right": 161.453125,
+            "bottom": 3101.671875
+          },
+          "descriptionBox": {
+            "x": 161.453125,
+            "y": 3083.671875,
+            "w": 179.4375,
+            "h": 17,
+            "right": 340.890625,
+            "bottom": 3100.671875
+          },
+          "row": {
+            "x": 20,
+            "y": 3057.671875,
+            "w": 350,
+            "h": 68.390625,
+            "right": 370,
+            "bottom": 3126.0625
+          }
+        }
+      ],
+      "nav": [
+        {
+          "text": "Build",
+          "lines": [
+            {
+              "y": 123.46875,
+              "h": 20,
+              "w": 36.046875
+            }
+          ],
+          "box": {
+            "x": 85,
+            "y": 123.46875,
+            "w": 36.046875,
+            "h": 21.0625,
+            "right": 121.046875,
+            "bottom": 144.53125
+          }
+        },
+        {
+          "text": "Upgrade",
+          "lines": [
+            {
+              "y": 123.46875,
+              "h": 20,
+              "w": 61.484375
+            }
+          ],
+          "box": {
+            "x": 248,
+            "y": 123.46875,
+            "w": 61.484375,
+            "h": 21.0625,
+            "right": 309.484375,
+            "bottom": 144.53125
+          }
+        },
+        {
+          "text": "Compare",
+          "lines": [
+            {
+              "y": 191.46875,
+              "h": 20,
+              "w": 67.078125
+            }
+          ],
+          "box": {
+            "x": 85,
+            "y": 191.46875,
+            "w": 67.078125,
+            "h": 21.0625,
+            "right": 152.078125,
+            "bottom": 212.53125
+          }
+        },
+        {
+          "text": "Hardware",
+          "lines": [
+            {
+              "y": 191.46875,
+              "h": 20,
+              "w": 69.84375
+            }
+          ],
+          "box": {
+            "x": 248,
+            "y": 191.46875,
+            "w": 69.84375,
+            "h": 21.0625,
+            "right": 317.84375,
+            "bottom": 212.53125
+          }
+        },
+        {
+          "text": "Learn",
+          "lines": [
+            {
+              "y": 259.46875,
+              "h": 20,
+              "w": 40.546875
+            }
+          ],
+          "box": {
+            "x": 85,
+            "y": 259.46875,
+            "w": 40.546875,
+            "h": 21.0625,
+            "right": 125.546875,
+            "bottom": 280.53125
+          }
+        },
+        {
+          "text": "My PC",
+          "lines": [
+            {
+              "y": 259.46875,
+              "h": 20,
+              "w": 45.75
+            }
+          ],
+          "box": {
+            "x": 248,
+            "y": 259.46875,
+            "w": 45.75,
+            "h": 21.0625,
+            "right": 293.75,
+            "bottom": 280.53125
+          }
+        }
+      ],
+      "preferences": [
+        {
+          "name": "lab-preference-heading",
+          "box": {
+            "x": 37,
+            "y": 786.765625,
+            "w": 46.65625,
+            "h": 22.96875,
+            "right": 83.65625,
+            "bottom": 809.734375
+          },
+          "display": "block"
+        },
+        {
+          "name": "country-switch",
+          "box": {
+            "x": 37,
+            "y": 716.25,
+            "w": 98.109375,
+            "h": 48,
+            "right": 135.109375,
+            "bottom": 764.25
+          },
+          "display": "flex"
+        },
+        {
+          "name": "theme-toggle",
+          "box": {
+            "x": 235.484375,
+            "y": 717.890625,
+            "w": 117.515625,
+            "h": 44.703125,
+            "right": 353,
+            "bottom": 762.59375
+          },
+          "display": "flex"
+        },
+        {
+          "name": "lab-appearance-open",
+          "box": {
+            "x": 95.65625,
+            "y": 776.25,
+            "w": 127.828125,
+            "h": 46,
+            "right": 223.484375,
+            "bottom": 822.25
+          },
+          "display": "flex"
+        }
+      ],
+      "guideCards": [
+        {
+          "h": 193.578125
+        },
+        {
+          "h": 193.578125
+        },
+        {
+          "h": 193.578125
+        },
+        {
+          "h": 192.578125
+        }
+      ],
+      "categoryCards": [
+        {
+          "h": 255.1875
+        },
+        {
+          "h": 255.1875
+        },
+        {
+          "h": 255.1875
+        },
+        {
+          "h": 255.1875
+        }
+      ],
+      "picker": null,
+      "collisions": [
+        "Compare phones",
+        "Find a prebuilt PC",
+        "Explore Game FPS"
+      ],
+      "wrapped": [],
+      "preferenceCollisions": []
+    },
+    {
+      "name": "builder-menu-primary",
+      "width": 390,
+      "theme": "light",
+      "screenshot": "builder-menu-primary-390-light.png",
+      "viewport": 390,
+      "documentWidth": 390,
+      "target": {
+        "x": 12,
+        "y": 12,
+        "w": 366,
+        "h": 820,
+        "right": 378,
+        "bottom": 832
+      },
+      "features": [],
+      "nav": [
+        {
+          "text": "Build",
+          "lines": [
+            {
+              "y": 123.46875,
+              "h": 20,
+              "w": 36.46875
+            }
+          ],
+          "box": {
+            "x": 85,
+            "y": 123.46875,
+            "w": 36.46875,
+            "h": 21.0625,
+            "right": 121.46875,
+            "bottom": 144.53125
+          }
+        },
+        {
+          "text": "Upgrade",
+          "lines": [
+            {
+              "y": 123.46875,
+              "h": 20,
+              "w": 62.015625
+            }
+          ],
+          "box": {
+            "x": 248,
+            "y": 123.46875,
+            "w": 62.015625,
+            "h": 21.0625,
+            "right": 310.015625,
+            "bottom": 144.53125
+          }
+        },
+        {
+          "text": "Compare",
+          "lines": [
+            {
+              "y": 191.46875,
+              "h": 20,
+              "w": 67.671875
+            }
+          ],
+          "box": {
+            "x": 85,
+            "y": 191.46875,
+            "w": 67.671875,
+            "h": 21.0625,
+            "right": 152.671875,
+            "bottom": 212.53125
+          }
+        },
+        {
+          "text": "Hardware",
+          "lines": [
+            {
+              "y": 191.46875,
+              "h": 20,
+              "w": 70.609375
+            }
+          ],
+          "box": {
+            "x": 248,
+            "y": 191.46875,
+            "w": 70.609375,
+            "h": 21.0625,
+            "right": 318.609375,
+            "bottom": 212.53125
+          }
+        },
+        {
+          "text": "Learn",
+          "lines": [
+            {
+              "y": 259.46875,
+              "h": 20,
+              "w": 40.984375
+            }
+          ],
+          "box": {
+            "x": 85,
+            "y": 259.46875,
+            "w": 40.984375,
+            "h": 21.0625,
+            "right": 125.984375,
+            "bottom": 280.53125
+          }
+        },
+        {
+          "text": "My PC",
+          "lines": [
+            {
+              "y": 259.46875,
+              "h": 20,
+              "w": 46.03125
+            }
+          ],
+          "box": {
+            "x": 248,
+            "y": 259.46875,
+            "w": 46.03125,
+            "h": 21.0625,
+            "right": 294.03125,
+            "bottom": 280.53125
+          }
+        }
+      ],
+      "preferences": [
+        {
+          "name": "lab-preference-heading",
+          "box": {
+            "x": 37,
+            "y": 786.765625,
+            "w": 46.65625,
+            "h": 22.96875,
+            "right": 83.65625,
+            "bottom": 809.734375
+          },
+          "display": "block"
+        },
+        {
+          "name": "country-switch",
+          "box": {
+            "x": 37,
+            "y": 716.25,
+            "w": 98.109375,
+            "h": 48,
+            "right": 135.109375,
+            "bottom": 764.25
+          },
+          "display": "flex"
+        },
+        {
+          "name": "theme-toggle",
+          "box": {
+            "x": 235.484375,
+            "y": 717.890625,
+            "w": 117.515625,
+            "h": 44.703125,
+            "right": 353,
+            "bottom": 762.59375
+          },
+          "display": "flex"
+        },
+        {
+          "name": "lab-appearance-open",
+          "box": {
+            "x": 95.65625,
+            "y": 776.25,
+            "w": 127.828125,
+            "h": 46,
+            "right": 223.484375,
+            "bottom": 822.25
+          },
+          "display": "flex"
+        }
+      ],
+      "guideCards": [],
+      "categoryCards": [],
+      "picker": null,
+      "collisions": [],
+      "wrapped": [],
+      "preferenceCollisions": []
+    },
+    {
+      "name": "builder-menu-preferences",
+      "width": 390,
+      "theme": "light",
+      "screenshot": "builder-menu-preferences-390-light.png",
+      "viewport": 390,
+      "documentWidth": 390,
+      "target": {
+        "x": 37,
+        "y": 691.25,
+        "w": 316,
+        "h": 131,
+        "right": 353,
+        "bottom": 822.25
+      },
+      "features": [],
+      "nav": [
+        {
+          "text": "Build",
+          "lines": [
+            {
+              "y": 123.46875,
+              "h": 20,
+              "w": 36.46875
+            }
+          ],
+          "box": {
+            "x": 85,
+            "y": 123.46875,
+            "w": 36.46875,
+            "h": 21.0625,
+            "right": 121.46875,
+            "bottom": 144.53125
+          }
+        },
+        {
+          "text": "Upgrade",
+          "lines": [
+            {
+              "y": 123.46875,
+              "h": 20,
+              "w": 62.015625
+            }
+          ],
+          "box": {
+            "x": 248,
+            "y": 123.46875,
+            "w": 62.015625,
+            "h": 21.0625,
+            "right": 310.015625,
+            "bottom": 144.53125
+          }
+        },
+        {
+          "text": "Compare",
+          "lines": [
+            {
+              "y": 191.46875,
+              "h": 20,
+              "w": 67.671875
+            }
+          ],
+          "box": {
+            "x": 85,
+            "y": 191.46875,
+            "w": 67.671875,
+            "h": 21.0625,
+            "right": 152.671875,
+            "bottom": 212.53125
+          }
+        },
+        {
+          "text": "Hardware",
+          "lines": [
+            {
+              "y": 191.46875,
+              "h": 20,
+              "w": 70.609375
+            }
+          ],
+          "box": {
+            "x": 248,
+            "y": 191.46875,
+            "w": 70.609375,
+            "h": 21.0625,
+            "right": 318.609375,
+            "bottom": 212.53125
+          }
+        },
+        {
+          "text": "Learn",
+          "lines": [
+            {
+              "y": 259.46875,
+              "h": 20,
+              "w": 40.984375
+            }
+          ],
+          "box": {
+            "x": 85,
+            "y": 259.46875,
+            "w": 40.984375,
+            "h": 21.0625,
+            "right": 125.984375,
+            "bottom": 280.53125
+          }
+        },
+        {
+          "text": "My PC",
+          "lines": [
+            {
+              "y": 259.46875,
+              "h": 20,
+              "w": 46.03125
+            }
+          ],
+          "box": {
+            "x": 248,
+            "y": 259.46875,
+            "w": 46.03125,
+            "h": 21.0625,
+            "right": 294.03125,
+            "bottom": 280.53125
+          }
+        }
+      ],
+      "preferences": [
+        {
+          "name": "lab-preference-heading",
+          "box": {
+            "x": 37,
+            "y": 786.765625,
+            "w": 46.65625,
+            "h": 22.96875,
+            "right": 83.65625,
+            "bottom": 809.734375
+          },
+          "display": "block"
+        },
+        {
+          "name": "country-switch",
+          "box": {
+            "x": 37,
+            "y": 716.25,
+            "w": 98.109375,
+            "h": 48,
+            "right": 135.109375,
+            "bottom": 764.25
+          },
+          "display": "flex"
+        },
+        {
+          "name": "theme-toggle",
+          "box": {
+            "x": 235.484375,
+            "y": 717.890625,
+            "w": 117.515625,
+            "h": 44.703125,
+            "right": 353,
+            "bottom": 762.59375
+          },
+          "display": "flex"
+        },
+        {
+          "name": "lab-appearance-open",
+          "box": {
+            "x": 95.65625,
+            "y": 776.25,
+            "w": 127.828125,
+            "h": 46,
+            "right": 223.484375,
+            "bottom": 822.25
+          },
+          "display": "flex"
+        }
+      ],
+      "guideCards": [],
+      "categoryCards": [],
+      "picker": null,
+      "collisions": [],
+      "wrapped": [],
+      "preferenceCollisions": []
+    },
+    {
+      "name": "builder-save",
+      "width": 390,
+      "theme": "light",
+      "screenshot": "builder-save-390-light.png",
+      "viewport": 390,
+      "documentWidth": 390,
+      "target": {
+        "x": 20,
+        "y": 32.390625,
+        "w": 350,
+        "h": 993.34375,
+        "right": 370,
+        "bottom": 1025.734375
+      },
+      "features": [],
+      "nav": [],
+      "preferences": [],
+      "guideCards": [],
+      "categoryCards": [],
+      "picker": null,
+      "collisions": [],
+      "wrapped": [],
+      "preferenceCollisions": []
+    },
+    {
+      "name": "picker-cpu",
+      "width": 390,
+      "theme": "light",
+      "screenshot": "picker-cpu-390-light.png",
+      "viewport": 390,
+      "documentWidth": 390,
+      "target": {
+        "x": 0,
+        "y": 0,
+        "w": 390,
+        "h": 844,
+        "right": 390,
+        "bottom": 844
+      },
+      "features": [],
+      "nav": [],
+      "preferences": [],
+      "guideCards": [],
+      "categoryCards": [],
+      "picker": {
+        "box": {
+          "x": 0,
+          "y": 0,
+          "w": 390,
+          "h": 844,
+          "right": 390,
+          "bottom": 844
+        },
+        "rows": [
+          {
+            "x": 12,
+            "y": 250.046875,
+            "w": 366,
+            "h": 113.125,
+            "right": 378,
+            "bottom": 363.171875
+          },
+          {
+            "x": 12,
+            "y": 373.171875,
+            "w": 366,
+            "h": 113.125,
+            "right": 378,
+            "bottom": 486.296875
+          },
+          {
+            "x": 12,
+            "y": 496.296875,
+            "w": 366,
+            "h": 113.125,
+            "right": 378,
+            "bottom": 609.421875
+          },
+          {
+            "x": 12,
+            "y": 619.421875,
+            "w": 366,
+            "h": 113.125,
+            "right": 378,
+            "bottom": 732.546875
+          },
+          {
+            "x": 12,
+            "y": 742.546875,
+            "w": 366,
+            "h": 113.125,
+            "right": 378,
+            "bottom": 855.671875
+          },
+          {
+            "x": 12,
+            "y": 865.671875,
+            "w": 366,
+            "h": 113.125,
+            "right": 378,
+            "bottom": 978.796875
+          }
+        ],
+        "search": {
+          "x": 20,
+          "y": 95.390625,
+          "w": 350,
+          "h": 56.390625,
+          "right": 370,
+          "bottom": 151.78125
+        },
+        "close": {
+          "x": 326,
+          "y": 22,
+          "w": 44,
+          "h": 44,
+          "right": 370,
+          "bottom": 66
+        }
+      },
+      "collisions": [],
+      "wrapped": [],
+      "preferenceCollisions": []
+    },
+    {
+      "name": "builder-preferences",
+      "width": 390,
+      "theme": "light",
+      "screenshot": "builder-preferences-390-light.png",
+      "viewport": 390,
+      "documentWidth": 390,
+      "target": {
+        "x": 20,
+        "y": 409.28125,
+        "w": 350,
+        "h": 421.984375,
+        "right": 370,
+        "bottom": 831.265625
+      },
+      "features": [],
+      "nav": [],
+      "preferences": [],
+      "guideCards": [],
+      "categoryCards": [],
+      "picker": null,
+      "collisions": [],
+      "wrapped": [],
+      "preferenceCollisions": []
+    },
+    {
+      "name": "fps-settings",
+      "width": 390,
+      "theme": "light",
+      "screenshot": "fps-settings-390-light.png",
+      "viewport": 390,
+      "documentWidth": 390,
+      "target": {
+        "x": 20,
+        "y": 99.78125,
+        "w": 350,
+        "h": 1290.53125,
+        "right": 370,
+        "bottom": 1390.3125
+      },
+      "features": [],
+      "nav": [],
+      "preferences": [],
+      "guideCards": [],
+      "categoryCards": [],
+      "picker": null,
+      "collisions": [],
+      "wrapped": [],
+      "preferenceCollisions": []
+    }
+  ],
+  "scope": "Actual isolated Edge with emulated viewport/touch; physical iPhone/browser chrome and software keyboard remain separate."
+}

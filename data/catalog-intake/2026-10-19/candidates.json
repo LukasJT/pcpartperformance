@@ -1,0 +1,30 @@
+[
+  {
+    "id": "evga-750ti-ftw",
+    "name": "GeForce GTX 750 Ti FTW ACX / 02G-P4-3757-KR",
+    "source": "https://www.evga.com/products/pdf/02G-P4-3757.pdf",
+    "status": "blocked-source",
+    "reason": "Search indexed an official historical datasheet, but direct opening redirected to EVGA homepage. Do not publish specs from a snippet. Need an inspectable original/archive source and exact regional suffix verification."
+  },
+  {
+    "id": "evga-750ti-sc",
+    "name": "GeForce GTX 750 Ti Superclocked / 02G-P4-3753-KR",
+    "source": "https://www.evga.com/marketing/EVGA_RoadMap_2017_Q1.pdf",
+    "status": "blocked-source",
+    "reason": "Official roadmap is search-discoverable but currently redirects on direct fetch. Historical source inspection is unresolved."
+  },
+  {
+    "id": "kingston-ecc-udimm-32",
+    "name": "KSM32ED8/32HC",
+    "source": "https://www.kingston.com/datasheets/KSM32ED8_32HC.pdf",
+    "status": "needs-review",
+    "reason": "Exact ECC module datasheet inspected, but this batch has not independently corroborated unbuffered platform classification. Do not infer supported consumer systems from DDR4 alone."
+  },
+  {
+    "id": "kingston-ecc-udimm-16",
+    "name": "KSM32ES8/16MF",
+    "source": "https://www.kingston.com/datasheets/KSM32ES8_16MF.pdf",
+    "status": "needs-review",
+    "reason": "Exact ECC datasheet inspected; require corroborated module-class and platform scope before publishing."
+  }
+]

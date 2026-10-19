@@ -1,0 +1,98 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-19T20:31:17.449Z",
+  "basis": "Final generated HTML and existing publication ledgers; not private Search Console, Google indexing confirmation or rendered ad testing",
+  "pages": 1868,
+  "indexableURLs": 1323,
+  "issues": [],
+  "news": {
+    "publicationRecords": 4,
+    "recentEligible": 0,
+    "sitemapEntries": 0,
+    "issues": [],
+    "scope": "Published site records and actual sitemap dates; source-discovery leads are not publications."
+  },
+  "intentPages": [
+    {
+      "route": "/performance/",
+      "title": "Game FPS & Console Performance: Benchmark Evidence",
+      "description": "Choose a game and platform, check available PC benchmark evidence and compare documented console graphics modes. Missing results stay clearly identified.",
+      "intended": {
+        "title": "Game FPS & Console Performance: Benchmark Evidence",
+        "description": "Choose a game and platform, check available PC benchmark evidence and compare documented console graphics modes. Missing results stay clearly identified.",
+        "intent": "Find game-performance evidence for a chosen setup, not a promised FPS prediction."
+      }
+    },
+    {
+      "route": "/phones/size-compare/",
+      "title": "Phone Size Comparison: Height, Width & 3D Models",
+      "description": "Compare phone height, width, thickness and weight at the same scale. Rotate available 3D models and inspect the manufacturer dimensions.",
+      "intended": {
+        "title": "Phone Size Comparison: Height, Width & 3D Models",
+        "description": "Compare phone height, width, thickness and weight at the same scale. Rotate available 3D models and inspect the manufacturer dimensions.",
+        "intent": "Compare how phones differ in physical size, with clearly scoped optional 3D appearance."
+      }
+    },
+    {
+      "route": "/tools/monitor-pixel-density/",
+      "title": "Monitor PPI Calculator: Screen Size, Width & Height",
+      "description": "Calculate monitor pixels per inch, width and height from resolution and diagonal size. Compare the physical dimensions of rectangular displays.",
+      "intended": {
+        "title": "Monitor PPI Calculator: Screen Size, Width & Height",
+        "description": "Calculate monitor pixels per inch, width and height from resolution and diagonal size. Compare the physical dimensions of rectangular displays.",
+        "intent": "Calculate screen pixel density and physical rectangular dimensions."
+      }
+    },
+    {
+      "route": "/blog/",
+      "title": "PC Building Guides, Compatibility & Upgrade Advice",
+      "description": "Learn how to choose PC parts, check fit and BIOS support, plan upgrades and troubleshoot a build. Browse source-linked guides and practical tools.",
+      "intended": {
+        "title": "PC Building Guides, Compatibility & Upgrade Advice",
+        "description": "Learn how to choose PC parts, check fit and BIOS support, plan upgrades and troubleshoot a build. Browse source-linked guides and practical tools.",
+        "intent": "Browse practical PC-building and upgrade education rather than a generic AI-news archive."
+      }
+    },
+    {
+      "route": "/prebuilts/",
+      "title": "Compare Prebuilt Gaming PCs in Canada & the US",
+      "description": "Compare researched prebuilt PC configurations, regional buying links and upgradeability checks. Use the build-versus-buy worksheet to compare complete quotes.",
+      "intended": {
+        "title": "Compare Prebuilt Gaming PCs in Canada & the US",
+        "description": "Compare researched prebuilt PC configurations, regional buying links and upgradeability checks. Use the build-versus-buy worksheet to compare complete quotes.",
+        "intent": "Investigate actual regional configurations and complete purchase costs, without an unsupported best-PC ranking."
+      }
+    }
+  ],
+  "articleCorrection": {
+    "route": "/blog/how-to-choose-a-graphics-card/",
+    "staleTextPresent": false
+  },
+  "ownerReadiness": {
+    "searchConsole": "unavailable_no_connected_account",
+    "ga4": "unavailable_no_connected_account",
+    "journeyEligibility": "unverified_requires_actual_provider_account_and_analytics",
+    "publisherLandmarks": {
+      "checked": 58,
+      "semanticLandmarks": 58,
+      "issues": []
+    },
+    "analytics": {
+      "valid": true,
+      "requestedEnabled": false,
+      "activationAllowed": false,
+      "state": "prepared_only_no_runtime_adapter",
+      "issues": [],
+      "pagesWithStaticGoogleTag": 0,
+      "networkBehaviorVerified": false
+    },
+    "existingAdProviderPreserved": true,
+    "journeyInstalled": false
+  },
+  "fieldPerformance": {
+    "LCP": null,
+    "INP": null,
+    "CLS": null
+  },
+  "trafficAndRankings": null
+}

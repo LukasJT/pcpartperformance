@@ -11,7 +11,10 @@ const root=path.resolve('dist'),context={window:{},document:{querySelector(){}}}
 require('./prepare-program.cjs')(root);
 for(const file of ['data','history-data','universe-data','component-data','core','retail-data','phone-catalog','cooling-data','completion-catalog'])vm.runInContext(fs.readFileSync(path.join(root,file+'.js'),'utf8'),context);
 vm.runInContext('globalThis.records=catalog;globalThis.unitMap=units;globalThis.groups=categories;',context);
-const records=context.records,images=require('./apply-verified-photos.cjs')(records,require('./completion-model-images.cjs').overrides());
+const records=context.records;
+require('./total-catalog.cjs').prepare({root,records});
+require('./total-prebuilts.cjs').prepare({root});
+const images=require('./apply-verified-photos.cjs')(records,require('./completion-model-images.cjs').overrides());
 // HTML, compatibility and builder payloads consume the full researched records;
 // non-builder catalog controls receive only their display/search fields.
 for(const cooler of require('./oct16-cooling-data.cjs').COOLERS)Object.assign(records.find(part=>part.id===cooler.id),cooler);
@@ -149,6 +152,10 @@ require("./evolution-builder.cjs").prepare({root});
 require("./evolution-scene.cjs").prepare({root});
 require("./evolution-diagrams.cjs").prepare({root,shell,write,esc});
 require("./evolution-publisher.cjs").prepare({root,shell,write,esc});
+require('./total-refinement.cjs').prepare({root});
+require('./total-display.cjs').prepare({root});
+require('./total-fps.cjs').prepare({root});
+require('./total-console-hardware.cjs').prepare({root,shell,write,esc});
 require("./seo-pass.cjs")({root,records,shell,write,esc});
 const completionSEO=require("./completion-seo.cjs")({root,records},{reportDirectory:path.resolve('docs/master-completion/seo')});
 const priceSnapshot=path.join(__dirname,'../data/public-price-snapshot.json');

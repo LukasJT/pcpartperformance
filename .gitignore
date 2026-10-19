@@ -9,3 +9,6 @@ tools/quality/node_modules/
 docs/component-photos-catalog-oct17/**/*.bin
 docs/component-photos-catalog-oct17/**/*.html
 docs/component-photos-catalog-oct17/*-research/
+
+# Full reproducible visual runs stay local; reviewed comparison pairs and JSON receipts are versioned.
+docs/total-refinement/qa/**/*.png

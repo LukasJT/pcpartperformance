@@ -1,0 +1,251 @@
+{
+  "schema": 1,
+  "startedAt": "2026-10-19T20:12:33.935Z",
+  "completedAt": "2026-10-19T20:12:49.748Z",
+  "mode": "bounded-network",
+  "status": "degraded",
+  "catalog": {
+    "records": 1299,
+    "counts": {
+      "gpu": 185,
+      "ram": 87,
+      "cpu": 184,
+      "board": 120,
+      "ssd": 83,
+      "hdd": 45,
+      "psu": 70,
+      "console": 64,
+      "handheld": 10,
+      "phone": 175,
+      "case": 86,
+      "monitor": 30,
+      "mouse": 25,
+      "keyboard": 23,
+      "microphone": 17,
+      "headset": 14,
+      "controller": 18,
+      "fan": 50,
+      "cooler": 13
+    },
+    "issues": [],
+    "provenance": "Identity/image-path audit of the existing generated shopping catalog; not verification of every underlying specification or SKU."
+  },
+  "prices": {
+    "registeredListings": 12,
+    "registeredProducts": 9,
+    "merchants": [
+      "canada-computers",
+      "newegg-us",
+      "corsair"
+    ],
+    "currentObservations": 10,
+    "currentNewInStock": 6,
+    "expiredObservations": 0,
+    "invalidObservations": 0,
+    "envelopeValid": true,
+    "historyValid": true,
+    "historyObservations": 86,
+    "generatedAt": "2026-10-19T20:12:44.048Z",
+    "policy": "At most 24-hour exact-listing observations; missing/expired offers never become current prices. Tax/shipping excluded."
+  },
+  "collection": {
+    "requested": 12,
+    "refreshed": 10,
+    "retained": 0,
+    "failed": 2,
+    "accessMode": "ordinary-public-get-no-proxy-no-cookies-no-challenge-bypass"
+  },
+  "listingRuns": [
+    {
+      "productId": "9800x3d",
+      "merchantId": "canada-computers",
+      "region": "CA",
+      "state": "refreshed",
+      "attemptedAt": "2026-10-19T20:12:33.943Z"
+    },
+    {
+      "productId": "b650",
+      "merchantId": "canada-computers",
+      "region": "CA",
+      "state": "unavailable",
+      "errorCode": "offer_identity_invalid",
+      "attemptedAt": "2026-10-19T20:12:33.960Z"
+    },
+    {
+      "productId": "ddr5",
+      "merchantId": "canada-computers",
+      "region": "CA",
+      "state": "refreshed",
+      "attemptedAt": "2026-10-19T20:12:34.758Z"
+    },
+    {
+      "productId": "990pro",
+      "merchantId": "canada-computers",
+      "region": "CA",
+      "state": "refreshed",
+      "attemptedAt": "2026-10-19T20:12:36.745Z"
+    },
+    {
+      "productId": "retail-msi-geforce-rtx-5070-12g-ventus-3x-oc",
+      "merchantId": "canada-computers",
+      "region": "CA",
+      "state": "refreshed",
+      "attemptedAt": "2026-10-19T20:12:37.272Z"
+    },
+    {
+      "productId": "9800x3d",
+      "merchantId": "newegg-us",
+      "region": "US",
+      "state": "unavailable",
+      "errorCode": "source_access_restricted",
+      "attemptedAt": "2026-10-19T20:12:38.293Z"
+    },
+    {
+      "productId": "ddr4",
+      "merchantId": "canada-computers",
+      "region": "CA",
+      "state": "refreshed",
+      "attemptedAt": "2026-10-19T20:12:38.425Z"
+    },
+    {
+      "productId": "5600",
+      "merchantId": "canada-computers",
+      "region": "CA",
+      "state": "refreshed",
+      "attemptedAt": "2026-10-19T20:12:39.390Z"
+    },
+    {
+      "productId": "5500",
+      "merchantId": "canada-computers",
+      "region": "CA",
+      "state": "refreshed",
+      "attemptedAt": "2026-10-19T20:12:40.913Z"
+    },
+    {
+      "productId": "retail-samsung-990-evo-plus-1-tb",
+      "merchantId": "canada-computers",
+      "region": "CA",
+      "state": "refreshed",
+      "attemptedAt": "2026-10-19T20:12:41.008Z"
+    },
+    {
+      "productId": "ddr4",
+      "merchantId": "corsair",
+      "region": "US",
+      "state": "refreshed",
+      "attemptedAt": "2026-10-19T20:12:43.362Z"
+    },
+    {
+      "productId": "ddr4",
+      "merchantId": "corsair",
+      "region": "CA",
+      "state": "refreshed",
+      "attemptedAt": "2026-10-19T20:12:43.695Z"
+    }
+  ],
+  "sources": {
+    "requested": 7,
+    "successful": 7,
+    "failed": 0,
+    "outcomes": [
+      {
+        "id": "amd-announcements",
+        "status": "unchanged",
+        "bytes": 64102,
+        "requests": 1,
+        "lastSuccessAt": "2026-10-19T20:12:44.549Z"
+      },
+      {
+        "id": "nvidia-announcements",
+        "status": "unchanged",
+        "bytes": 69444,
+        "requests": 1,
+        "lastSuccessAt": "2026-10-19T20:12:44.668Z"
+      },
+      {
+        "id": "intel-security",
+        "status": "unchanged",
+        "bytes": 411834,
+        "requests": 1,
+        "lastSuccessAt": "2026-10-19T20:12:45.190Z"
+      },
+      {
+        "id": "asus-security",
+        "status": "unchanged",
+        "bytes": 293311,
+        "requests": 1,
+        "lastSuccessAt": "2026-10-19T20:12:47.465Z"
+      },
+      {
+        "id": "nintendo-announcements",
+        "status": "unchanged",
+        "bytes": 356251,
+        "requests": 1,
+        "lastSuccessAt": "2026-10-19T20:12:48.209Z"
+      },
+      {
+        "id": "google-documentation",
+        "status": "unchanged",
+        "bytes": 40717,
+        "requests": 1,
+        "lastSuccessAt": "2026-10-19T20:12:48.589Z"
+      },
+      {
+        "id": "google-learning",
+        "status": "unchanged",
+        "bytes": 620692,
+        "requests": 1,
+        "lastSuccessAt": "2026-10-19T20:12:49.742Z"
+      }
+    ]
+  },
+  "review": {
+    "queued": 39,
+    "newCandidates": 0,
+    "articlesPublished": 0,
+    "catalogRecordsPublished": 0,
+    "publicationDatesChanged": 0
+  },
+  "deployment": {
+    "attempted": false,
+    "verified": false
+  },
+  "blockers": [
+    {
+      "id": "amazon-ca-us",
+      "status": "owner_source_account_required",
+      "next": "Enroll/qualify in the correct Amazon Associates marketplace, register Creators API access, confirm display/cache/image terms, then configure server-side credentials. PA-API 5 is deprecated. No Amazon collector is enabled."
+    },
+    {
+      "id": "retailer-feeds",
+      "status": "authorized_feed_or_agreement_required",
+      "next": "Best Buy, Memory Express, Micro Center, B&H and other unconnected shops remain search links until a suitable publisher API/feed agreement and exact listing mapping exist. Seller-management APIs are not a public price feed."
+    },
+    {
+      "id": "editorial-publication",
+      "status": "human_editorial_review_required",
+      "next": "Source leads and changed-page fingerprints are not verified stories or article approvals. No automated article publication."
+    },
+    {
+      "id": "analytics",
+      "status": "authorized_private_data_required",
+      "next": "Provide authorized Search Console and GA4 access to measure actual queries, eligible sessions and indexing. No traffic, rankings or Journey eligibility inferred here."
+    },
+    {
+      "id": "remote-schedule",
+      "status": "verify_after_workflow_release",
+      "next": "A successful local run is not proof of a scheduled GitHub run. Inspect the workflow run and resulting production commit after authorized release."
+    }
+  ],
+  "limits": {
+    "bytes": 1048576,
+    "timeoutMs": 12000,
+    "redirects": 2,
+    "retries": 1,
+    "sources": 12,
+    "queue": 200,
+    "candidatesPerSource": 12,
+    "stateBytes": 524288
+  },
+  "scope": "Operational observations and review proposals, not a complete news/game feed, source-content license, human editorial check, security certification or production deployment."
+}

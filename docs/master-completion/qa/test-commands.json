@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-10-19T13:39:22.716Z",
-  "commands": 86,
-  "passed": 86,
+  "checkedAt": "2026-10-19T20:31:45.443Z",
+  "commands": 97,
+  "passed": 97,
   "results": [
     {
       "command": "node scripts/check-program.cjs",
@@ -385,6 +385,61 @@
     },
     {
       "command": "node scripts/ad-assets-indexing.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/total-ads-semantics.test.mjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/total-models.test.mjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/total-console-hardware.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/total-prebuilts.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/total-fps-games.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/total-display.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/total-seo.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/total-catalog.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/total-fps.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/total-refinement.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node scripts/total-operations.test.mjs",
       "exitCode": 0,
       "passed": true
     },
