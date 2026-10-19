@@ -66,6 +66,14 @@ Revert the workflow file through the existing file-only helper to restore its pr
 
 Saved visitor work remains in the visitor's browser. The existing My PC export contains private notes/acquisition records; builder revisions export separately. The tests use synthetic in-memory fixtures, not any person's browser storage. No central backup can recover a browser that was cleared before export. Store exported private backups securely and test import on a separate browser profile before deleting originals.
 
+## Actual remote activation and CI correction
+
+The tested source was deployed through production commit `dfda28db`. The default branch received only the workflow file, preserving its unrelated content. First run39320708217 collected successfully but skipped the hidden `.operations-run/` upload. The publisher stopped without data mutation. Actual GitHub warnings are retained.
+
+Correction `ea4a6e0b` adds `include-hidden-files: true` for that one fixed generated folder and `if-no-files-found: error`;20 operations tests pass. Corrected run39321102310 uploaded its15,093-byte report, downloaded/revalidated it and published the fixed data set in `fc71a500`. Ten observations and96 historical rows are now recorded. Seven official source indexes succeeded,39 leads remain unpublished,zero invalid records andtwo unavailable retailer reads were reported. The intentional final health step failed: this is a real **degraded run**, not a fabricated all-green success. See `corrected-remote-run.json` and the current repository data status.
+
+The active default-branch definition matches the local reviewed workflow. Future07:17 America/Toronto schedule executions remain future events; scheduling delays are possible. Existing pinned v4 actions emitted Node20 deprecation warnings while GitHub forced their runtime to Node24; their actual steps succeeded. Review newer action revisions separately instead of unpinning to floating tags.
+
 ## Next commands
 
 ```text

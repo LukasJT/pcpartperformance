@@ -1,0 +1,132 @@
+{
+  "checkedAt": "2026-10-19T20:40:57.023Z",
+  "runId": 39321102310,
+  "jobs": [
+    {
+      "name": "collect",
+      "status": "completed",
+      "conclusion": "success",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Check out reviewed production source without persisted credentials",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Set up Node",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Validate parsers, history, operation boundaries and publication rules",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Collect registered prices and inspect fixed primary-source indexes",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Preserve the report and unpublished review proposals",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Write the run summary",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Set up Node",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Check out reviewed production source without persisted credentials",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success"
+        }
+      ],
+      "checkRunUrl": "https://api.github.com/repos/LukasJT/pcpartperformance/check-runs/118295064495"
+    },
+    {
+      "name": "publish-data",
+      "status": "completed",
+      "conclusion": "failure",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Check out the latest production branch",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Set up Node",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Download only this run's fixed data artifact",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Revalidate and normalize all artifact data before staging",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Publish observations and review-only operational metadata",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Surface source failures without suppressing a valid freshness update",
+          "status": "completed",
+          "conclusion": "failure"
+        },
+        {
+          "name": "Post Set up Node",
+          "status": "completed",
+          "conclusion": "skipped"
+        },
+        {
+          "name": "Post Check out the latest production branch",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success"
+        }
+      ],
+      "checkRunUrl": "https://api.github.com/repos/LukasJT/pcpartperformance/check-runs/118295448121"
+    }
+  ],
+  "artifacts": [
+    {
+      "name": "daily-operations-39321102310",
+      "bytes": 15093,
+      "expired": false,
+      "id": 12220266352
+    }
+  ],
+  "productionCommit": "fc71a500d83cc74b3345c044c0a109d524cf1886",
+  "productionMessage": "Refresh dated prices and unpublished maintenance leads"
+}

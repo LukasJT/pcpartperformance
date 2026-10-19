@@ -1,0 +1,58 @@
+{
+  "checkedAt": "2026-10-19T20:37:51.182Z",
+  "origin": "https://www.pcpartperformance.com",
+  "scope": "Bounded read-only actual public data and new destination checks; no retailer offers or measured FPS inferred.",
+  "passed": true,
+  "checks": [
+    {
+      "route": "/api/v1/catalog-coverage.json",
+      "status": 200,
+      "count": 1299
+    },
+    {
+      "route": "/data/prebuilts.json",
+      "status": 200,
+      "count": 219
+    },
+    {
+      "route": "/data/game-release-evidence.json",
+      "status": 200,
+      "count": 110
+    },
+    {
+      "route": "/data/console-release-evidence.json",
+      "status": 200,
+      "count": 508
+    },
+    {
+      "route": "/performance/consoles/",
+      "finalURL": "https://www.pcpartperformance.com/performance/consoles/",
+      "status": 200,
+      "identity": "Console hardware"
+    },
+    {
+      "route": "/performance/retro/",
+      "finalURL": "https://www.pcpartperformance.com/performance/retro/",
+      "status": 200,
+      "identity": "Retro"
+    },
+    {
+      "route": "/performance/games/xbox-series/page/5/",
+      "finalURL": "https://www.pcpartperformance.com/performance/games/xbox-series/page/5/",
+      "status": 200,
+      "identity": "Xbox"
+    },
+    {
+      "route": "/learn/total-gpu-msi-geforce-gtx-950-gaming-2g.html",
+      "finalURL": "https://www.pcpartperformance.com/learn/total-gpu-msi-geforce-gtx-950-gaming-2g.html",
+      "status": 200,
+      "identity": "GeForce GTX 950 GAMING 2G"
+    },
+    {
+      "route": "/prebuilts/total-us-msi-aer2aic2nvr1452/",
+      "finalURL": "https://www.pcpartperformance.com/prebuilts/total-us-msi-aer2aic2nvr1452/",
+      "status": 200,
+      "identity": "AeR2AIC2NVR1452"
+    }
+  ]
+}
