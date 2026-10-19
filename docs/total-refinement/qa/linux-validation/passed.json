@@ -1,0 +1,108 @@
+{
+  "checkedAt": "2026-10-19T23:13:34.017Z",
+  "commit": "4d48bb72e9b0e7aa0dddb86212a2e94aea9347bc",
+  "passed": true,
+  "workflowRun": "https://github.com/LukasJT/pcpartperformance/actions/runs/39339825603",
+  "scope": "Actual Ubuntu24.04 Node24 clean build before development install; frozen pnpm install;109 command groups;TypeScript;delivered photo decode/hash check. Public job/step/artifact metadata, not fabricated downloadable private logs.",
+  "checks": [
+    {
+      "name": "Workers Builds: pcpartperformance-live",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://dash.cloudflare.com/544465516a580e551501b219bd8f089f/workers/services/view/pcpartperformance-live/production/builds/9116bd3c-6242-44e1-8730-ea193a3bee32"
+    },
+    {
+      "name": "validate",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/LukasJT/pcpartperformance/actions/runs/39339825603/job/118358320942"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 118358320942,
+      "name": "validate",
+      "conclusion": "success",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Check out the exact pushed source without saved credentials",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Set up Node",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Build from tracked source before installing development dependencies",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Set up the pinned project package manager",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Install locked verification tools without lifecycle scripts",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run the complete source, data, security and SEO regression suite",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Check types",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Decode and hash-check delivered component photographs",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Retain bounded validation evidence, including failed build logs",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Set up the pinned project package manager",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Set up Node",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Check out the exact pushed source without saved credentials",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success"
+        }
+      ]
+    }
+  ],
+  "artifacts": [
+    {
+      "id": 12228377668,
+      "name": "release-validation-4d48bb72e9b0e7aa0dddb86212a2e94aea9347bc",
+      "bytes": 3920,
+      "expired": false
+    }
+  ]
+}

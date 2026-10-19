@@ -1,0 +1,1130 @@
+{
+  "checkedAt": "2026-10-19T23:12:51.097Z",
+  "commit": "4d48bb72e9b0e7aa0dddb86212a2e94aea9347bc",
+  "passed": true,
+  "newPhotoBindings": 79,
+  "checks": [
+    {
+      "route": "/assets/hardware/catalog-total-gpu-oct19/total-gpu-msi-geforce-gtx-950-gaming-2g.webp",
+      "sha256": "354bd2f85f10902b434ab8f59e22867d92dde0d077a37e2d77ce49715fb95530",
+      "bytes": 68310
+    },
+    {
+      "route": "/assets/hardware/catalog-total-gpu-oct19/total-gpu-msi-geforce-gtx-950-gaming-2g-320.webp",
+      "sha256": "f5367e22bc4cb58ca4ee0e6f5ae76d59fb9375538969c2b9c1fde2c86e9f2247",
+      "bytes": 17170
+    },
+    {
+      "route": "/assets/hardware/catalog-total-gpu-oct19/total-gpu-msi-geforce-gtx-960-gaming-2g.webp",
+      "sha256": "712936ba835709baea4784d29b0128482a3683f2b8de54f352f7dcfd5908db56",
+      "bytes": 70194
+    },
+    {
+      "route": "/assets/hardware/catalog-total-gpu-oct19/total-gpu-msi-geforce-gtx-960-gaming-2g-320.webp",
+      "sha256": "bf155afaa2d07769186c259669e5b328d2bdb9a22e8a865897bc5569666a1dee",
+      "bytes": 18176
+    },
+    {
+      "route": "/assets/hardware/catalog-total-gpu-oct19/total-gpu-msi-geforce-gtx-960-gaming-4g.webp",
+      "sha256": "2adeda4211a00f1bd0e4e4c535441c6e45bee2f49f9fcb5ee5cd1b0f70ebfa77",
+      "bytes": 62356
+    },
+    {
+      "route": "/assets/hardware/catalog-total-gpu-oct19/total-gpu-msi-geforce-gtx-960-gaming-4g-320.webp",
+      "sha256": "ff29cae8390c7e2fdfd2aa5fc53880e5d9f473d92dc4bd7aa5e370e775627fb0",
+      "bytes": 14074
+    },
+    {
+      "route": "/assets/hardware/catalog-total-gpu-oct19/total-gpu-msi-geforce-gtx-970-gaming-4g.webp",
+      "sha256": "d145bea22209e44ddb31bafc75d496441c3d7ed34c0c8575c12311c4b2019f59",
+      "bytes": 64582
+    },
+    {
+      "route": "/assets/hardware/catalog-total-gpu-oct19/total-gpu-msi-geforce-gtx-970-gaming-4g-320.webp",
+      "sha256": "edeff07e0fa8f849b9597cbaef09748bc1bccff437879aab68c8502d8b88c266",
+      "bytes": 16194
+    },
+    {
+      "route": "/assets/hardware/catalog-total-gpu-oct19/total-gpu-msi-geforce-gtx-980-gaming-4g.webp",
+      "sha256": "843d21a3bd3e3cc9b8b043949b637117adfbb1f580325399c7c4f75b0842eba0",
+      "bytes": 69644
+    },
+    {
+      "route": "/assets/hardware/catalog-total-gpu-oct19/total-gpu-msi-geforce-gtx-980-gaming-4g-320.webp",
+      "sha256": "f24516c9a09ef6556b7a26c0ec2638e18e7e5b813229d5eedd3633fc60bdc3fd",
+      "bytes": 17374
+    },
+    {
+      "route": "/assets/hardware/catalog-total-gpu-oct19/total-gpu-msi-geforce-gtx-980-ti-gaming-6g.webp",
+      "sha256": "ca1ac8657ac87a9f2fb9e6628f79c9e64f3266dc732b762d311a0f72d7d98a2a",
+      "bytes": 62658
+    },
+    {
+      "route": "/assets/hardware/catalog-total-gpu-oct19/total-gpu-msi-geforce-gtx-980-ti-gaming-6g-320.webp",
+      "sha256": "484244a18684032f436bbb6a7967a2073a428086c3f1eb903bff463fc396f68d",
+      "bytes": 14438
+    },
+    {
+      "route": "/assets/hardware/catalog-total-gpu-oct19/total-gpu-msi-geforce-gtx-1050-gaming-x-2g.webp",
+      "sha256": "4ce140d142fc25e0706493b5a24bfcceecde2f8fd7b19f3353d5066714d85f56",
+      "bytes": 72126
+    },
+    {
+      "route": "/assets/hardware/catalog-total-gpu-oct19/total-gpu-msi-geforce-gtx-1050-gaming-x-2g-320.webp",
+      "sha256": "d9e8547135b2514c1545cc2c44ab1351a601f61fea42d0c0d12106074be87aa2",
+      "bytes": 15750
+    },
+    {
+      "route": "/assets/hardware/catalog-total-gpu-oct19/total-gpu-msi-geforce-gtx-1050-ti-gaming-x-4g.webp",
+      "sha256": "4ce140d142fc25e0706493b5a24bfcceecde2f8fd7b19f3353d5066714d85f56",
+      "bytes": 72126
+    },
+    {
+      "route": "/assets/hardware/catalog-total-gpu-oct19/total-gpu-msi-geforce-gtx-1050-ti-gaming-x-4g-320.webp",
+      "sha256": "d9e8547135b2514c1545cc2c44ab1351a601f61fea42d0c0d12106074be87aa2",
+      "bytes": 15750
+    },
+    {
+      "route": "/assets/hardware/catalog-total-gpu-oct19/total-gpu-msi-geforce-gtx-1060-gaming-x-3g.webp",
+      "sha256": "e12d6ec01ab881ed54a64a0255baed7e04b515e44e9873c0c2fdd0278ac2c9d7",
+      "bytes": 64964
+    },
+    {
+      "route": "/assets/hardware/catalog-total-gpu-oct19/total-gpu-msi-geforce-gtx-1060-gaming-x-3g-320.webp",
+      "sha256": "6f843cfb6f569b3f3aef2db4de452887d2f482a7feb8be0c14be4d6fe37f9594",
+      "bytes": 14308
+    },
+    {
+      "route": "/assets/hardware/catalog-total-gpu-oct19/total-gpu-msi-geforce-gtx-1060-gaming-x-6g.webp",
+      "sha256": "1659f909500f8a7caf18e9ffd8dd55b557861a17017ffa92afed4d562938602e",
+      "bytes": 64754
+    },
+    {
+      "route": "/assets/hardware/catalog-total-gpu-oct19/total-gpu-msi-geforce-gtx-1060-gaming-x-6g-320.webp",
+      "sha256": "814f923bec740b640eefa87267b272cc0f63f22f94f1d2ee89c5d98cbe9f63a1",
+      "bytes": 14234
+    },
+    {
+      "route": "/assets/hardware/catalog-total-gpu-oct19/total-gpu-msi-geforce-gtx-1070-gaming-x-8g.webp",
+      "sha256": "d8968e89e8694d9ef50b30066ebb1c266480aa2199d8fd98dc6eb95d60070a36",
+      "bytes": 71068
+    },
+    {
+      "route": "/assets/hardware/catalog-total-gpu-oct19/total-gpu-msi-geforce-gtx-1070-gaming-x-8g-320.webp",
+      "sha256": "e11cec52f596a5a7aa6e2efbd679bf5827b846026dc949bdc45c216e28ca0072",
+      "bytes": 15218
+    },
+    {
+      "route": "/assets/hardware/catalog-total-gpu-oct19/total-gpu-msi-geforce-gtx-1070-ti-gaming-8g.webp",
+      "sha256": "3049a28a6e9adcf355e115d14df7595faa2349e35e7378433089edea18dab13a",
+      "bytes": 71374
+    },
+    {
+      "route": "/assets/hardware/catalog-total-gpu-oct19/total-gpu-msi-geforce-gtx-1070-ti-gaming-8g-320.webp",
+      "sha256": "55c8c657a78c29a8cef901416faaa0c454ab9d7ad69b2acab3334a92cc5045a3",
+      "bytes": 15060
+    },
+    {
+      "route": "/assets/hardware/catalog-total-gpu-oct19/total-gpu-msi-geforce-gtx-1080-gaming-x-8g.webp",
+      "sha256": "d8968e89e8694d9ef50b30066ebb1c266480aa2199d8fd98dc6eb95d60070a36",
+      "bytes": 71068
+    },
+    {
+      "route": "/assets/hardware/catalog-total-gpu-oct19/total-gpu-msi-geforce-gtx-1080-gaming-x-8g-320.webp",
+      "sha256": "e11cec52f596a5a7aa6e2efbd679bf5827b846026dc949bdc45c216e28ca0072",
+      "bytes": 15218
+    },
+    {
+      "route": "/assets/hardware/catalog-total-gpu-oct19/total-gpu-msi-geforce-gtx-1080-ti-gaming-x-11g.webp",
+      "sha256": "d43fbe51854eb5ebffa228ac56b3b093ae1eff81a3cb50b5696a9542acb14f4c",
+      "bytes": 68748
+    },
+    {
+      "route": "/assets/hardware/catalog-total-gpu-oct19/total-gpu-msi-geforce-gtx-1080-ti-gaming-x-11g-320.webp",
+      "sha256": "74968a07ff8fd69f0277b5d63d0ded8643728e43a36342560370f9d4fc4b0ac9",
+      "bytes": 15466
+    },
+    {
+      "route": "/assets/hardware/catalog-total-gpu-oct19/total-gpu-msi-geforce-gtx-1660-super-gaming-x.webp",
+      "sha256": "f449b7e50ca490ed6003ff2c4de099508e537b409ece4f4ac0d86bdb3128dabd",
+      "bytes": 103628
+    },
+    {
+      "route": "/assets/hardware/catalog-total-gpu-oct19/total-gpu-msi-geforce-gtx-1660-super-gaming-x-320.webp",
+      "sha256": "6661efa84533b9cd32aaaef61808855fe4a26c037be6617f40be8fdb6b033d85",
+      "bytes": 19376
+    },
+    {
+      "route": "/assets/hardware/catalog-total-gpu-oct19/total-gpu-msi-geforce-gtx-1660-ti-gaming-x-6g.webp",
+      "sha256": "f8984c9db8ca76075c38c612a88246c3d18dca12534d47e697821d8333df41f4",
+      "bytes": 107228
+    },
+    {
+      "route": "/assets/hardware/catalog-total-gpu-oct19/total-gpu-msi-geforce-gtx-1660-ti-gaming-x-6g-320.webp",
+      "sha256": "fea5b1ebe5acf805b562cc008eb10db1e46efe2dd2512ac3b44047f7dd2d7e03",
+      "bytes": 19638
+    },
+    {
+      "route": "/assets/hardware/catalog-total-gpu-oct19/total-gpu-gigabyte-gv-n75toc-2gi.webp",
+      "sha256": "f3397ad4b4474d25c6d5b0f59b21ba449342ac9bce30c4dfeb3fea704a014003",
+      "bytes": 154558
+    },
+    {
+      "route": "/assets/hardware/catalog-total-gpu-oct19/total-gpu-gigabyte-gv-n75toc-2gi-320.webp",
+      "sha256": "e85fe66295069596add5ac72c16bec754d62c0c2e459e029a092550fd169d207",
+      "bytes": 29440
+    },
+    {
+      "route": "/assets/hardware/catalog-total-gpu-oct19/total-gpu-asrock-a310-lp-4g.webp",
+      "sha256": "2b2dbd7a0d9d973cab31acc8c1ba62f6afac4345de9dee18b030d8b7af5c4ab0",
+      "bytes": 41488
+    },
+    {
+      "route": "/assets/hardware/catalog-total-gpu-oct19/total-gpu-asrock-a310-lp-4g-320.webp",
+      "sha256": "f5cabdfb80ba637b82132e79cc4529e0519bcc9fa49e26efc25158fb26440d80",
+      "bytes": 17888
+    },
+    {
+      "route": "/assets/hardware/catalog-total-gpu-oct19/total-gpu-asrock-a380-cli-6go.webp",
+      "sha256": "c7a6bf41b799efb41f51fae7cc0b4cd51b1ac5bfe9d69e1c250b08b7ed258a3f",
+      "bytes": 54144
+    },
+    {
+      "route": "/assets/hardware/catalog-total-gpu-oct19/total-gpu-asrock-a380-cli-6go-320.webp",
+      "sha256": "e42dd70f60d184c0f8baa38695bbe997b92841f28e4107aa1cbfdd4c0890b35d",
+      "bytes": 19816
+    },
+    {
+      "route": "/assets/hardware/catalog-total-gpu-oct19/total-gpu-asrock-a750-cld-8go.webp",
+      "sha256": "34eb4915b147dc8bb0f0892d92e700a4e3aff0bc7e548f261d73a7ab9308dd8e",
+      "bytes": 59502
+    },
+    {
+      "route": "/assets/hardware/catalog-total-gpu-oct19/total-gpu-asrock-a750-cld-8go-320.webp",
+      "sha256": "7b6d0cbb14645f8996dd54462ff503480fe936ad5237d9ba6dd00f4399b071af",
+      "bytes": 22098
+    },
+    {
+      "route": "/assets/hardware/catalog-total-kingston-oct19/total-ram-kingston-kvr32n22s6-8-8bd004d811.webp",
+      "sha256": "77cb3087f103afd67624f4b242c5201f53c3069a13f1d84f156ff347ab8b59ca",
+      "bytes": 31424
+    },
+    {
+      "route": "/assets/hardware/catalog-total-kingston-oct19/total-ram-kingston-kvr32n22s6-8-8bd004d811-320.webp",
+      "sha256": "4d5cd90c33c00700f5db89bf66e797f06ee7f6f4bb25a36c40f64e5ccc32f421",
+      "bytes": 7150
+    },
+    {
+      "route": "/assets/hardware/catalog-total-kingston-oct19/total-ram-kingston-kvr32n22s8-8-8bd004d811.webp",
+      "sha256": "77cb3087f103afd67624f4b242c5201f53c3069a13f1d84f156ff347ab8b59ca",
+      "bytes": 31424
+    },
+    {
+      "route": "/assets/hardware/catalog-total-kingston-oct19/total-ram-kingston-kvr32n22s8-8-8bd004d811-320.webp",
+      "sha256": "4d5cd90c33c00700f5db89bf66e797f06ee7f6f4bb25a36c40f64e5ccc32f421",
+      "bytes": 7150
+    },
+    {
+      "route": "/assets/hardware/catalog-total-kingston-oct19/total-ram-kingston-kvr32n22d8-16-8bd004d811.webp",
+      "sha256": "77cb3087f103afd67624f4b242c5201f53c3069a13f1d84f156ff347ab8b59ca",
+      "bytes": 31424
+    },
+    {
+      "route": "/assets/hardware/catalog-total-kingston-oct19/total-ram-kingston-kvr32n22d8-16-8bd004d811-320.webp",
+      "sha256": "4d5cd90c33c00700f5db89bf66e797f06ee7f6f4bb25a36c40f64e5ccc32f421",
+      "bytes": 7150
+    },
+    {
+      "route": "/assets/hardware/catalog-total-kingston-oct19/total-ram-kingston-kvr32n22s8-16-8bd004d811.webp",
+      "sha256": "77cb3087f103afd67624f4b242c5201f53c3069a13f1d84f156ff347ab8b59ca",
+      "bytes": 31424
+    },
+    {
+      "route": "/assets/hardware/catalog-total-kingston-oct19/total-ram-kingston-kvr32n22s8-16-8bd004d811-320.webp",
+      "sha256": "4d5cd90c33c00700f5db89bf66e797f06ee7f6f4bb25a36c40f64e5ccc32f421",
+      "bytes": 7150
+    },
+    {
+      "route": "/assets/hardware/catalog-total-kingston-oct19/total-ram-kingston-kvr32n22d8-32-8bd004d811.webp",
+      "sha256": "77cb3087f103afd67624f4b242c5201f53c3069a13f1d84f156ff347ab8b59ca",
+      "bytes": 31424
+    },
+    {
+      "route": "/assets/hardware/catalog-total-kingston-oct19/total-ram-kingston-kvr32n22d8-32-8bd004d811-320.webp",
+      "sha256": "4d5cd90c33c00700f5db89bf66e797f06ee7f6f4bb25a36c40f64e5ccc32f421",
+      "bytes": 7150
+    },
+    {
+      "route": "/assets/hardware/catalog-total-kingston-oct19/total-ram-kingston-kvr56u46bs6-8-4964ea2f5d.webp",
+      "sha256": "78b9e24c0ce910a74bdafc8eeb2549496aba9a8758aebe38eb472f476974c3c1",
+      "bytes": 25954
+    },
+    {
+      "route": "/assets/hardware/catalog-total-kingston-oct19/total-ram-kingston-kvr56u46bs6-8-4964ea2f5d-320.webp",
+      "sha256": "344492fc1030a532e03ba8661a5205685f81470ef49b69ac55762db22c7f7d7e",
+      "bytes": 5166
+    },
+    {
+      "route": "/assets/hardware/catalog-total-kingston-oct19/total-ram-kingston-kvr56u46bs8-16-4964ea2f5d.webp",
+      "sha256": "78b9e24c0ce910a74bdafc8eeb2549496aba9a8758aebe38eb472f476974c3c1",
+      "bytes": 25954
+    },
+    {
+      "route": "/assets/hardware/catalog-total-kingston-oct19/total-ram-kingston-kvr56u46bs8-16-4964ea2f5d-320.webp",
+      "sha256": "344492fc1030a532e03ba8661a5205685f81470ef49b69ac55762db22c7f7d7e",
+      "bytes": 5166
+    },
+    {
+      "route": "/assets/hardware/catalog-total-kingston-oct19/total-ram-kingston-kvr56u46bd8-32-4964ea2f5d.webp",
+      "sha256": "78b9e24c0ce910a74bdafc8eeb2549496aba9a8758aebe38eb472f476974c3c1",
+      "bytes": 25954
+    },
+    {
+      "route": "/assets/hardware/catalog-total-kingston-oct19/total-ram-kingston-kvr56u46bd8-32-4964ea2f5d-320.webp",
+      "sha256": "344492fc1030a532e03ba8661a5205685f81470ef49b69ac55762db22c7f7d7e",
+      "bytes": 5166
+    },
+    {
+      "route": "/assets/hardware/catalog-total-kingston-oct19/total-ram-kingston-kvr56u46bs8-32-4964ea2f5d.webp",
+      "sha256": "78b9e24c0ce910a74bdafc8eeb2549496aba9a8758aebe38eb472f476974c3c1",
+      "bytes": 25954
+    },
+    {
+      "route": "/assets/hardware/catalog-total-kingston-oct19/total-ram-kingston-kvr56u46bs8-32-4964ea2f5d-320.webp",
+      "sha256": "344492fc1030a532e03ba8661a5205685f81470ef49b69ac55762db22c7f7d7e",
+      "bytes": 5166
+    },
+    {
+      "route": "/assets/hardware/catalog-total-kingston-oct19/total-ram-kingston-kvr56u46bd8-48-4964ea2f5d.webp",
+      "sha256": "78b9e24c0ce910a74bdafc8eeb2549496aba9a8758aebe38eb472f476974c3c1",
+      "bytes": 25954
+    },
+    {
+      "route": "/assets/hardware/catalog-total-kingston-oct19/total-ram-kingston-kvr56u46bd8-48-4964ea2f5d-320.webp",
+      "sha256": "344492fc1030a532e03ba8661a5205685f81470ef49b69ac55762db22c7f7d7e",
+      "bytes": 5166
+    },
+    {
+      "route": "/assets/hardware/catalog-total-kingston-oct19/total-ram-kingston-kvr56u46bd8-64-4964ea2f5d.webp",
+      "sha256": "78b9e24c0ce910a74bdafc8eeb2549496aba9a8758aebe38eb472f476974c3c1",
+      "bytes": 25954
+    },
+    {
+      "route": "/assets/hardware/catalog-total-kingston-oct19/total-ram-kingston-kvr56u46bd8-64-4964ea2f5d-320.webp",
+      "sha256": "344492fc1030a532e03ba8661a5205685f81470ef49b69ac55762db22c7f7d7e",
+      "bytes": 5166
+    },
+    {
+      "route": "/assets/hardware/catalog-total-kingston-oct19/total-ram-kingston-ksm32rd8-32hd-2ddbf27024.webp",
+      "sha256": "5d1428e83d6b37fb27ce451f75c14d0469c2c98a8e802fa832a4cfc281f00822",
+      "bytes": 41624
+    },
+    {
+      "route": "/assets/hardware/catalog-total-kingston-oct19/total-ram-kingston-ksm32rd8-32hd-2ddbf27024-320.webp",
+      "sha256": "b1c359e4896e6bbda7ddca9b15aa800dd53ce719a01587e9bba99b9f3b6459d4",
+      "bytes": 9550
+    },
+    {
+      "route": "/assets/hardware/catalog-total-kingston-oct19/total-ram-kingston-ksm32rd4-64hcr-ef6f9c1c34.webp",
+      "sha256": "ce16b1653402658604082a80c449ea0024a1df158a28ba0dc1872cbe742c947e",
+      "bytes": 37834
+    },
+    {
+      "route": "/assets/hardware/catalog-total-kingston-oct19/total-ram-kingston-ksm32rd4-64hcr-ef6f9c1c34-320.webp",
+      "sha256": "a070b6a62e5bc276a3a597062e89306a506e3e9d327755dcb778bdab5a0fed24",
+      "bytes": 7552
+    },
+    {
+      "route": "/assets/hardware/catalog-total-kingston-oct19/total-ram-kingston-ksm32rd4-64hd-5c00122ed6.webp",
+      "sha256": "a042d456ce7236b9e8612ce5cf5416e8b4e6a6e7d9d289245b313ca63a07f595",
+      "bytes": 13376
+    },
+    {
+      "route": "/assets/hardware/catalog-total-kingston-oct19/total-ram-kingston-ksm32rd4-64hd-5c00122ed6-320.webp",
+      "sha256": "886353cdf46bb8c7693a11570220df799d776052fcd361f267cba2ac2e1e7869",
+      "bytes": 5766
+    },
+    {
+      "route": "/assets/hardware/catalog-total-kingston-oct19/total-ram-kingston-ksm32rd4-64mfr-615c688ce1.webp",
+      "sha256": "cc5ef59c5ba5c1ae24038eba0fd99f032e3c9b0507e372b26b00c39524542d14",
+      "bytes": 35340
+    },
+    {
+      "route": "/assets/hardware/catalog-total-kingston-oct19/total-ram-kingston-ksm32rd4-64mfr-615c688ce1-320.webp",
+      "sha256": "8325961d8a9ee6675fcecd0142f64907ca9ade849bfd7fc0b47a64bbd4b37ffb",
+      "bytes": 7236
+    },
+    {
+      "route": "/assets/hardware/catalog-total-kingston-oct19/total-ram-kingston-kvr32s22s8-16-af0f9c927e.webp",
+      "sha256": "236f22379b641bff8c110a77a68c56d7e5ae4111f732a6762c14357c0fdf7433",
+      "bytes": 57014
+    },
+    {
+      "route": "/assets/hardware/catalog-total-kingston-oct19/total-ram-kingston-kvr32s22s8-16-af0f9c927e-320.webp",
+      "sha256": "d831e92b83ebc0bcfec14a5bd5beb63d7fce214c9a8748ed8741f8654bd9bf6a",
+      "bytes": 9082
+    },
+    {
+      "route": "/assets/hardware/catalog-total-kingston-oct19/total-ram-kingston-kvr32s22d8-32-3fa2d9cff6.webp",
+      "sha256": "42aefdc7049ae844ffadce908c17f0cf9141f5186387eb3a9717aa935fd41e15",
+      "bytes": 64832
+    },
+    {
+      "route": "/assets/hardware/catalog-total-kingston-oct19/total-ram-kingston-kvr32s22d8-32-3fa2d9cff6-320.webp",
+      "sha256": "c7e05d8235d5bb496c40ec7303d80242fcc67cfe340bbac49f21c1f3b69728d8",
+      "bytes": 10594
+    },
+    {
+      "route": "/assets/hardware/catalog-total-kingston-oct19/total-ssd-kingston-sedc600m-480g-4d42a3a205.webp",
+      "sha256": "63585b0ce5bc3d7ec43fa79bfcb8b1eea35bc4b09108544150e45fd312f1d551",
+      "bytes": 41276
+    },
+    {
+      "route": "/assets/hardware/catalog-total-kingston-oct19/total-ssd-kingston-sedc600m-480g-4d42a3a205-320.webp",
+      "sha256": "36dab3c0e08d07499f12f3aaac948595be3af72525e08564b6ff99327ae7c544",
+      "bytes": 6646
+    },
+    {
+      "route": "/assets/hardware/catalog-total-kingston-oct19/total-ssd-kingston-sedc600m-960g-de9b3fa5e8.webp",
+      "sha256": "36d5ac6289bfce2a7e3800c7d367beca620ac291d1866641bb8bedd2a48cb7fc",
+      "bytes": 41220
+    },
+    {
+      "route": "/assets/hardware/catalog-total-kingston-oct19/total-ssd-kingston-sedc600m-960g-de9b3fa5e8-320.webp",
+      "sha256": "98d4e7fdccd0a7955d92c2f8df6bebdaeb09c6f513aa85e63a35188c7a61f574",
+      "bytes": 6660
+    },
+    {
+      "route": "/assets/hardware/catalog-total-kingston-oct19/total-ssd-kingston-sedc600m-1920g-83790a2fe0.webp",
+      "sha256": "422cec0be74418964bba9edf0592e0685c632c9cd407a3e0155ca6ea9f66b157",
+      "bytes": 40900
+    },
+    {
+      "route": "/assets/hardware/catalog-total-kingston-oct19/total-ssd-kingston-sedc600m-1920g-83790a2fe0-320.webp",
+      "sha256": "f95deb2bfceda4bc5c604d95209d8b4c9265722cfa0265c0cc3d78c6ab98cde4",
+      "bytes": 6522
+    },
+    {
+      "route": "/assets/hardware/catalog-total-kingston-oct19/total-ssd-kingston-sedc600m-3840g-ca6237bf1a.webp",
+      "sha256": "127bbc5f205264d27ca23a23e052de1e29b3fda8919f4b7b7b2f00b705c9ab63",
+      "bytes": 41096
+    },
+    {
+      "route": "/assets/hardware/catalog-total-kingston-oct19/total-ssd-kingston-sedc600m-3840g-ca6237bf1a-320.webp",
+      "sha256": "3374553b6ae1a6ae072657d0dffc8234963f32598314dd8a1d5a1e9a289105f2",
+      "bytes": 6542
+    },
+    {
+      "route": "/assets/hardware/catalog-total-kingston-oct19/total-ssd-kingston-sedc600m-7680g-57b57a6b89.webp",
+      "sha256": "29455690ec5696903924aff83ae6f6b71dd3b878c13bbe7df12e454fa9761cad",
+      "bytes": 37180
+    },
+    {
+      "route": "/assets/hardware/catalog-total-kingston-oct19/total-ssd-kingston-sedc600m-7680g-57b57a6b89-320.webp",
+      "sha256": "c4d7f1cf224973dfc3ad5b8fd62dbc5edf3b6516b45d5e69f7fb9fd28df9245b",
+      "bytes": 6466
+    },
+    {
+      "route": "/assets/hardware/catalog-total-kingston-oct19/total-ram-kingston-kvr32n22s6-4-8bd004d811.webp",
+      "sha256": "77cb3087f103afd67624f4b242c5201f53c3069a13f1d84f156ff347ab8b59ca",
+      "bytes": 31424
+    },
+    {
+      "route": "/assets/hardware/catalog-total-kingston-oct19/total-ram-kingston-kvr32n22s6-4-8bd004d811-320.webp",
+      "sha256": "4d5cd90c33c00700f5db89bf66e797f06ee7f6f4bb25a36c40f64e5ccc32f421",
+      "bytes": 7150
+    },
+    {
+      "route": "/assets/hardware/catalog-total-kingston-oct19/total-ram-kingston-ksm32rs8-16hd-2ddbf27024.webp",
+      "sha256": "5d1428e83d6b37fb27ce451f75c14d0469c2c98a8e802fa832a4cfc281f00822",
+      "bytes": 41624
+    },
+    {
+      "route": "/assets/hardware/catalog-total-kingston-oct19/total-ram-kingston-ksm32rs8-16hd-2ddbf27024-320.webp",
+      "sha256": "b1c359e4896e6bbda7ddca9b15aa800dd53ce719a01587e9bba99b9f3b6459d4",
+      "bytes": 9550
+    },
+    {
+      "route": "/assets/hardware/catalog-total-kingston-oct19/total-ram-kingston-ksm32rs4-32hcr-ef6f9c1c34.webp",
+      "sha256": "ce16b1653402658604082a80c449ea0024a1df158a28ba0dc1872cbe742c947e",
+      "bytes": 37834
+    },
+    {
+      "route": "/assets/hardware/catalog-total-kingston-oct19/total-ram-kingston-ksm32rs4-32hcr-ef6f9c1c34-320.webp",
+      "sha256": "a070b6a62e5bc276a3a597062e89306a506e3e9d327755dcb778bdab5a0fed24",
+      "bytes": 7552
+    },
+    {
+      "route": "/assets/hardware/catalog-total-kingston-oct19/total-ram-kingston-ksm32rs4-32mfr-ef6f9c1c34.webp",
+      "sha256": "ce16b1653402658604082a80c449ea0024a1df158a28ba0dc1872cbe742c947e",
+      "bytes": 37834
+    },
+    {
+      "route": "/assets/hardware/catalog-total-kingston-oct19/total-ram-kingston-ksm32rs4-32mfr-ef6f9c1c34-320.webp",
+      "sha256": "a070b6a62e5bc276a3a597062e89306a506e3e9d327755dcb778bdab5a0fed24",
+      "bytes": 7552
+    },
+    {
+      "route": "/assets/hardware/catalog-total-cpu-oct19/total-cpu-intel-xeon-e5-1620-v4-4c27ce50d0.webp",
+      "sha256": "d23fe0c6645ac5424c450eb131f0a7eb36995d6256a7a1387341c1335072213e",
+      "bytes": 29158
+    },
+    {
+      "route": "/assets/hardware/catalog-total-cpu-oct19/total-cpu-intel-xeon-e5-1620-v4-4c27ce50d0-320.webp",
+      "sha256": "201abd0af948fdcdec969c4b4d0fc5384e3c2b13d4e373fdcca3451885cc6181",
+      "bytes": 6632
+    },
+    {
+      "route": "/assets/hardware/catalog-total-cpu-oct19/total-cpu-intel-xeon-e5-1630-v4-3485344adc.webp",
+      "sha256": "e47fd5fcb56441e4cd49aeb9e66e3cf454e302d81e81ad8a9bfb4b3966a66773",
+      "bytes": 60518
+    },
+    {
+      "route": "/assets/hardware/catalog-total-cpu-oct19/total-cpu-intel-xeon-e5-1630-v4-3485344adc-320.webp",
+      "sha256": "6c55bffb6c8630617f6624e17cd016807b8b22a08c1001b874d8dd5efd020dc2",
+      "bytes": 7550
+    },
+    {
+      "route": "/assets/hardware/catalog-total-cpu-oct19/total-cpu-intel-xeon-e5-1650-v4-b2a08e1d82.webp",
+      "sha256": "dcb132d2be663b946010c2ef952ac6a5b56deb4a5a61145cf5d779aa399bd83e",
+      "bytes": 29760
+    },
+    {
+      "route": "/assets/hardware/catalog-total-cpu-oct19/total-cpu-intel-xeon-e5-1650-v4-b2a08e1d82-320.webp",
+      "sha256": "9160f2e7b0506bd60c7ef8f78a6eaab017fc73be569c6dcdab85a4d06bf61ffa",
+      "bytes": 6830
+    },
+    {
+      "route": "/assets/hardware/catalog-total-cpu-oct19/total-cpu-intel-xeon-e5-1660-v4-adda0f8bfe.webp",
+      "sha256": "6130b48fd9dfe84443478393b6481ea6774788590b96c7d87466ba98ad1c465a",
+      "bytes": 64676
+    },
+    {
+      "route": "/assets/hardware/catalog-total-cpu-oct19/total-cpu-intel-xeon-e5-1660-v4-adda0f8bfe-320.webp",
+      "sha256": "631ab050a754143aad6efc157cdbe5626494ffb21fa6b32681e54ef87920fbeb",
+      "bytes": 9554
+    },
+    {
+      "route": "/assets/hardware/catalog-total-cpu-oct19/total-cpu-intel-xeon-e5-1680-v4-2071b74009.webp",
+      "sha256": "ba80df351fb0bfb3115b94b6a151c5978eee88796efc0b2d36a78ddd2abcfe06",
+      "bytes": 92286
+    },
+    {
+      "route": "/assets/hardware/catalog-total-cpu-oct19/total-cpu-intel-xeon-e5-1680-v4-2071b74009-320.webp",
+      "sha256": "fc285a52c72954183eff5a06657a7d78c073dfcef94104028c0cec4e8e16ce2a",
+      "bytes": 10398
+    },
+    {
+      "route": "/assets/hardware/catalog-total-cpu-oct19/total-cpu-intel-xeon-e5-2620-v4-f2221397b5.webp",
+      "sha256": "d08a0c19409d9668857a9d8f18deab5c9ae434b729ae7d14ecc9e5ffa1d26a9b",
+      "bytes": 48188
+    },
+    {
+      "route": "/assets/hardware/catalog-total-cpu-oct19/total-cpu-intel-xeon-e5-2620-v4-f2221397b5-320.webp",
+      "sha256": "52c1f45c7175df9c789a3771aa99bee59400f74d62db41aaa07793f8ad6e0c84",
+      "bytes": 7860
+    },
+    {
+      "route": "/assets/hardware/catalog-total-cpu-oct19/total-cpu-intel-xeon-e5-2630-v4-57cc90adfc.webp",
+      "sha256": "f477ed7d1d15e2cc748801293c593e444d7c13e6a40e6eed30f0e1f39f51fd44",
+      "bytes": 35654
+    },
+    {
+      "route": "/assets/hardware/catalog-total-cpu-oct19/total-cpu-intel-xeon-e5-2630-v4-57cc90adfc-320.webp",
+      "sha256": "15f91954c35fcb2ec502f54bedeaecfbab74265586c3c236b52938eb8e45df1e",
+      "bytes": 6764
+    },
+    {
+      "route": "/assets/hardware/catalog-total-cpu-oct19/total-cpu-intel-xeon-e5-2650-v4-8d46bfe9f7.webp",
+      "sha256": "d32da7534f90af7a09948d476d89035a4f02350d9ac85b6788f140d831d5daf8",
+      "bytes": 34136
+    },
+    {
+      "route": "/assets/hardware/catalog-total-cpu-oct19/total-cpu-intel-xeon-e5-2650-v4-8d46bfe9f7-320.webp",
+      "sha256": "81578098634a48800bab6b33dce3bb638d5b93b9b105658b387ae85eae1f3a3e",
+      "bytes": 7044
+    },
+    {
+      "route": "/assets/hardware/catalog-total-cpu-oct19/total-cpu-intel-xeon-e5-2680-v4-400f10c1e4.webp",
+      "sha256": "8c8909776ad6efaf46f4c3ec8f23912efdde5b2c58ed46cc14a6d51e1d8e0aed",
+      "bytes": 43788
+    },
+    {
+      "route": "/assets/hardware/catalog-total-cpu-oct19/total-cpu-intel-xeon-e5-2680-v4-400f10c1e4-320.webp",
+      "sha256": "59e6ee2071c8443413e54b1c697b5624fae50b15fac8e802583bda5dd01bd19b",
+      "bytes": 6608
+    },
+    {
+      "route": "/assets/hardware/catalog-total-cpu-oct19/total-cpu-amd-ryzen-threadripper-7960x-04b2c88fdf.webp",
+      "sha256": "808d4297fdc152425fe04a679d7622c384c953df9341f9fb56afaa36ecdb2672",
+      "bytes": 19804
+    },
+    {
+      "route": "/assets/hardware/catalog-total-cpu-oct19/total-cpu-amd-ryzen-threadripper-7960x-04b2c88fdf-320.webp",
+      "sha256": "321346b9ae3749363f24ecad9792a650d2cf155a1f2c4c4e9e9bb29ac96c7331",
+      "bytes": 8334
+    },
+    {
+      "route": "/assets/hardware/catalog-total-cpu-oct19/total-cpu-amd-ryzen-threadripper-7970x-20dad4dd10.webp",
+      "sha256": "10ccec78cc0a3790b1000806fa0157f7fe1c49b5c0fb6224e0ede83eda754974",
+      "bytes": 57306
+    },
+    {
+      "route": "/assets/hardware/catalog-total-cpu-oct19/total-cpu-amd-ryzen-threadripper-7970x-20dad4dd10-320.webp",
+      "sha256": "6c333c58fc45303be6dbe26cd12fc73c59072091b86ef90888b3d7db62048f5a",
+      "bytes": 9858
+    },
+    {
+      "route": "/assets/hardware/catalog-total-cpu-oct19/total-cpu-amd-ryzen-threadripper-7980x-4dd2bbcc56.webp",
+      "sha256": "3d556de672c5ecf7fb86984e49f6f2232a04f8c7e9fc67935532bc8cdad63619",
+      "bytes": 25834
+    },
+    {
+      "route": "/assets/hardware/catalog-total-cpu-oct19/total-cpu-amd-ryzen-threadripper-7980x-4dd2bbcc56-320.webp",
+      "sha256": "2238ce9c4896b05b24a38c43d7505c42d035f37c76c8f5edc775e99e52e9abcd",
+      "bytes": 8800
+    },
+    {
+      "route": "/assets/hardware/catalog-total-cpu-oct19/total-cpu-amd-ryzen-threadripper-pro-7945wx-b3fe283f54.webp",
+      "sha256": "ddbb4090bc9addad3c311785d2618a83196cb40b461d6fcd689f3e20c9b8a132",
+      "bytes": 16306
+    },
+    {
+      "route": "/assets/hardware/catalog-total-cpu-oct19/total-cpu-amd-ryzen-threadripper-pro-7945wx-b3fe283f54-320.webp",
+      "sha256": "e3046b77fdf7e0247bc21c0cd372ef63a60a79b4fe86cfb9594b3d61fa1d7283",
+      "bytes": 4022
+    },
+    {
+      "route": "/assets/hardware/catalog-total-cpu-oct19/total-cpu-amd-ryzen-threadripper-pro-7955wx-9f027f3055.webp",
+      "sha256": "4e92008a716dfd43ed395603c9e6ec98dac6dc524d2cdcde18ebc4b0334cd979",
+      "bytes": 157832
+    },
+    {
+      "route": "/assets/hardware/catalog-total-cpu-oct19/total-cpu-amd-ryzen-threadripper-pro-7955wx-9f027f3055-320.webp",
+      "sha256": "a466db055666682ce5eb0d0bdab4874c823fbbe6cb27c019428bd84c6cfb0db1",
+      "bytes": 13684
+    },
+    {
+      "route": "/assets/hardware/catalog-total-cpu-oct19/total-cpu-amd-ryzen-threadripper-pro-7965wx-fb4586114d.webp",
+      "sha256": "22f4b1d1a21f559dfad180cbe144baf1d68b4b831033ccd3fc20c26aaa0d5100",
+      "bytes": 156824
+    },
+    {
+      "route": "/assets/hardware/catalog-total-cpu-oct19/total-cpu-amd-ryzen-threadripper-pro-7965wx-fb4586114d-320.webp",
+      "sha256": "a6d8e538f07659a922a9e2491862983105b485f4cd8681c313f08c15b4519609",
+      "bytes": 10554
+    },
+    {
+      "route": "/assets/hardware/catalog-total-cpu-oct19/total-cpu-amd-ryzen-threadripper-pro-7975wx-eb85b95607.webp",
+      "sha256": "657e62c9879386186495503a59f7d238b493900f22cdcb83996b2a3cfe28a14d",
+      "bytes": 25664
+    },
+    {
+      "route": "/assets/hardware/catalog-total-cpu-oct19/total-cpu-amd-ryzen-threadripper-pro-7975wx-eb85b95607-320.webp",
+      "sha256": "c46c38c2446ea9473e5dcc7ccdd46488b5c14c510d96191f3d19ced8b520c7e2",
+      "bytes": 6952
+    },
+    {
+      "route": "/assets/hardware/catalog-total-cpu-oct19/total-cpu-amd-ryzen-threadripper-pro-7985wx-f70cac1df5.webp",
+      "sha256": "24adcb2bbf446311e2c49d9300807d4b244d543a8354aaeb196022b3cf0200dd",
+      "bytes": 18626
+    },
+    {
+      "route": "/assets/hardware/catalog-total-cpu-oct19/total-cpu-amd-ryzen-threadripper-pro-7985wx-f70cac1df5-320.webp",
+      "sha256": "3e953e480e9a2e17ebe7e4d030edb51d2075197c5f96359e5fff44a4225058b0",
+      "bytes": 4914
+    },
+    {
+      "route": "/assets/hardware/catalog-total-cpu-oct19/intel4004-5825b8b9ee.webp",
+      "sha256": "4840e569e713a9dcbf7321565644d6fd4d0b58c9d648951c009700ee521dcc10",
+      "bytes": 15578
+    },
+    {
+      "route": "/assets/hardware/catalog-total-cpu-oct19/intel4004-5825b8b9ee-320.webp",
+      "sha256": "ef3e88dfb176f63fb46405c2f3e15d844c7cbe892d4383d7748407bb622ecd42",
+      "bytes": 14472
+    },
+    {
+      "route": "/assets/hardware/catalog-total-hardware-next-oct19/total-cooler-msi-mag-coreliquid-e240.webp",
+      "sha256": "0c49479d6083ce1fcc40fa673342d53fd22af5a88e9d8b4016ec70b13ecf4c2a",
+      "bytes": 40102
+    },
+    {
+      "route": "/assets/hardware/catalog-total-hardware-next-oct19/total-cooler-msi-mag-coreliquid-e240-320.webp",
+      "sha256": "8ff9203dd0efb2d277f5c7e6f4ac9b89c7c9230b62aa4b15644977823dd15550",
+      "bytes": 9226
+    },
+    {
+      "route": "/assets/hardware/catalog-total-hardware-next-oct19/total-cooler-msi-mag-coreliquid-e360.webp",
+      "sha256": "8623a27d99216c7627867804d6604cb4076d444cd011e77a8941a6160d9e9bd6",
+      "bytes": 35530
+    },
+    {
+      "route": "/assets/hardware/catalog-total-hardware-next-oct19/total-cooler-msi-mag-coreliquid-e360-320.webp",
+      "sha256": "b656d4a96af70e08c13eb9171a95388bc1b779fc86df3766905a59d5faad6975",
+      "bytes": 8446
+    },
+    {
+      "route": "/assets/hardware/catalog-total-hardware-next-oct19/total-cooler-msi-mag-coreliquid-i240.webp",
+      "sha256": "2277784b208f1c2a6a079503710fd5687996a503cb53aada69341affc3fbf5a7",
+      "bytes": 42552
+    },
+    {
+      "route": "/assets/hardware/catalog-total-hardware-next-oct19/total-cooler-msi-mag-coreliquid-i240-320.webp",
+      "sha256": "096b96604ee47e42c79f5c99427daf3cfab9b908d016ce42c7e387c596dd82a6",
+      "bytes": 10740
+    },
+    {
+      "route": "/assets/hardware/catalog-total-hardware-next-oct19/total-cooler-msi-mag-coreliquid-i360.webp",
+      "sha256": "205c3f94b1cda9eebfacd2a91d010e232ba58be64266d3ec485fc15cd6c274f7",
+      "bytes": 39322
+    },
+    {
+      "route": "/assets/hardware/catalog-total-hardware-next-oct19/total-cooler-msi-mag-coreliquid-i360-320.webp",
+      "sha256": "379dcc700064549f12d4efe6d347020c76669b3e0f05dd3288355e8aca2aca10",
+      "bytes": 10166
+    },
+    {
+      "route": "/assets/hardware/catalog-total-hardware-next-oct19/total-cooler-msi-mag-coreliquid-p240.webp",
+      "sha256": "33bdb995bc07d78c0fe65d5a81bdf181c639cd73e55db92533612390dec0070f",
+      "bytes": 39368
+    },
+    {
+      "route": "/assets/hardware/catalog-total-hardware-next-oct19/total-cooler-msi-mag-coreliquid-p240-320.webp",
+      "sha256": "a35729e17ae58936f1060be11d76caaa16d1f22e2c089ad7c3fdfe454f0004d4",
+      "bytes": 10552
+    },
+    {
+      "route": "/assets/hardware/catalog-total-hardware-next-oct19/total-cooler-msi-mag-coreliquid-p360.webp",
+      "sha256": "67e8f92f7f0f6efe0f59af61c62d22fca8487faf985bfcbd5b909345ba7f670d",
+      "bytes": 33434
+    },
+    {
+      "route": "/assets/hardware/catalog-total-hardware-next-oct19/total-cooler-msi-mag-coreliquid-p360-320.webp",
+      "sha256": "81474db18a11f23f8271e312a1ba1e1fcc0a2208cc70de92c4587c1e2a3e7233",
+      "bytes": 9148
+    },
+    {
+      "route": "/assets/hardware/catalog-total-hardware-next-oct19/total-cooler-msi-mag-coreliquid-c240.webp",
+      "sha256": "165730eba4210ba5959627722b68fbb3239d9b968aaf1c92ce55ada214cab779",
+      "bytes": 26008
+    },
+    {
+      "route": "/assets/hardware/catalog-total-hardware-next-oct19/total-cooler-msi-mag-coreliquid-c240-320.webp",
+      "sha256": "1866f9bf9fea07caa31393e172e408429e9cd94ed804613a034e9364cec469e4",
+      "bytes": 7428
+    },
+    {
+      "route": "/assets/hardware/catalog-total-hardware-next-oct19/total-cooler-msi-mag-coreliquid-c280.webp",
+      "sha256": "337638a5b7747390e51b50c3c1d1e19f7b66ed757c695ad34a125cbad0db270c",
+      "bytes": 25998
+    },
+    {
+      "route": "/assets/hardware/catalog-total-hardware-next-oct19/total-cooler-msi-mag-coreliquid-c280-320.webp",
+      "sha256": "93c468502d734e96be34cf7ea07037603f11a2e0949010468de77a98d2a9c516",
+      "bytes": 7544
+    },
+    {
+      "route": "/assets/hardware/catalog-total-hardware-next-oct19/total-cooler-msi-mag-coreliquid-c360.webp",
+      "sha256": "654617747970d4ecf02eb82e61fe7a36deef0675f8a1d547f4a774c9864ae421",
+      "bytes": 35426
+    },
+    {
+      "route": "/assets/hardware/catalog-total-hardware-next-oct19/total-cooler-msi-mag-coreliquid-c360-320.webp",
+      "sha256": "415ebebb7a9ee796d19646f628edb14188ddc214a5dad255455ccdb904a5081a",
+      "bytes": 9940
+    },
+    {
+      "route": "/assets/hardware/catalog-total-hardware-next-oct19/total-cooler-msi-mpg-coreliquid-k240.webp",
+      "sha256": "8f6532f9462bf8ded0b424651e6a04c7834cff8c9203028f92a482ccec53b11e",
+      "bytes": 71600
+    },
+    {
+      "route": "/assets/hardware/catalog-total-hardware-next-oct19/total-cooler-msi-mpg-coreliquid-k240-320.webp",
+      "sha256": "d93cafde6448b80aeedd863c5ba03a75d3795779a5e003028b9d418e74cf0c59",
+      "bytes": 18298
+    },
+    {
+      "route": "/assets/hardware/catalog-total-hardware-next-oct19/total-cooler-msi-mpg-coreliquid-k360.webp",
+      "sha256": "fddee2fdefe7aa95b723be9e1ead8d652355c3ef7225b59dbe21f8373be9f5aa",
+      "bytes": 54370
+    },
+    {
+      "route": "/assets/hardware/catalog-total-hardware-next-oct19/total-cooler-msi-mpg-coreliquid-k360-320.webp",
+      "sha256": "8da5358ac4cd421a6881b3233141192a853b358ddc1ad66cf475aeb52e29a5da",
+      "bytes": 14046
+    },
+    {
+      "route": "/assets/hardware/catalog-total-hardware-next-oct19/total-cooler-msi-meg-coreliquid-s360.webp",
+      "sha256": "17f3c07ea99814bc8514100055e20eb91cd904d759980c2b4493ec72e22efab2",
+      "bytes": 31042
+    },
+    {
+      "route": "/assets/hardware/catalog-total-hardware-next-oct19/total-cooler-msi-meg-coreliquid-s360-320.webp",
+      "sha256": "689e25da0a1f97eb8b52b9f284155866dba160907b2f2eb9b249e9c1f5031e1f",
+      "bytes": 8562
+    },
+    {
+      "route": "/assets/hardware/catalog-total-reference-oct19/retail-asus-z170-p-c9057c8e06.webp",
+      "sha256": "84b0659e498bfcfadca6e9bbc89138c10b67623ea184de1c7eb511fcbf1177f8",
+      "bytes": 59106
+    },
+    {
+      "route": "/assets/hardware/catalog-total-reference-oct19/retail-asus-z170-p-c9057c8e06-320.webp",
+      "sha256": "9ece80b108e22e5471585c3c50d341452d59f10e624f6dd1dde2f5b9b422e1c8",
+      "bytes": 16834
+    },
+    {
+      "route": "/assets/hardware/catalog-total-reference-oct19/retail-cooler-master-masterbox-lite-5-913199f0c6.webp",
+      "sha256": "1ae916a429c134427f12f9910d9256cfd421805af98cca5b6996befb6cddf109",
+      "bytes": 22048
+    },
+    {
+      "route": "/assets/hardware/catalog-total-reference-oct19/retail-cooler-master-masterbox-lite-5-913199f0c6-320.webp",
+      "sha256": "27b472fcd1573d2a142af34c535a4bcbde57b592fa5586e06c162af12596954a",
+      "bytes": 4784
+    },
+    {
+      "route": "/assets/hardware/catalog-total-reference-oct19/completion-cpu-intel-core-i5-661-1ebf9055fb.webp",
+      "sha256": "125b63957fb6237f12a35f8ae7b16904ee13e4f8c09153da977ebffc3eddf6ab",
+      "bytes": 128386
+    },
+    {
+      "route": "/assets/hardware/catalog-total-reference-oct19/completion-cpu-intel-core-i5-661-1ebf9055fb-320.webp",
+      "sha256": "5dad00145f568db63900523800b228eed371021f690cdd85e71c7584bc278a6a",
+      "bytes": 22384
+    },
+    {
+      "route": "/builder-images.js",
+      "matchesBuild": true
+    },
+    {
+      "route": "/image-catalog-lite.js",
+      "matchesBuild": true
+    },
+    {
+      "route": "/data/total-catalog-provenance.json",
+      "matchesBuild": true
+    },
+    {
+      "route": "/data/total-prebuilts-provenance.json",
+      "matchesBuild": true
+    },
+    {
+      "route": "/learn/total-gpu-msi-geforce-gtx-950-gaming-2g.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-gpu-msi-geforce-gtx-960-gaming-2g.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-gpu-msi-geforce-gtx-960-gaming-4g.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-gpu-msi-geforce-gtx-970-gaming-4g.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-gpu-msi-geforce-gtx-980-gaming-4g.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-gpu-msi-geforce-gtx-980-ti-gaming-6g.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-gpu-msi-geforce-gtx-1050-gaming-x-2g.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-gpu-msi-geforce-gtx-1050-ti-gaming-x-4g.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-gpu-msi-geforce-gtx-1060-gaming-x-3g.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-gpu-msi-geforce-gtx-1060-gaming-x-6g.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-gpu-msi-geforce-gtx-1070-gaming-x-8g.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-gpu-msi-geforce-gtx-1070-ti-gaming-8g.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-gpu-msi-geforce-gtx-1080-gaming-x-8g.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-gpu-msi-geforce-gtx-1080-ti-gaming-x-11g.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-gpu-msi-geforce-gtx-1660-super-gaming-x.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-gpu-msi-geforce-gtx-1660-ti-gaming-x-6g.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-gpu-gigabyte-gv-n75toc-2gi.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-gpu-asrock-a310-lp-4g.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-gpu-asrock-a380-cli-6go.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-gpu-asrock-a750-cld-8go.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-ram-kingston-kvr32n22s6-8.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-ram-kingston-kvr32n22s8-8.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-ram-kingston-kvr32n22d8-16.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-ram-kingston-kvr32n22s8-16.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-ram-kingston-kvr32n22d8-32.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-ram-kingston-kvr56u46bs6-8.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-ram-kingston-kvr56u46bs8-16.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-ram-kingston-kvr56u46bd8-32.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-ram-kingston-kvr56u46bs8-32.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-ram-kingston-kvr56u46bd8-48.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-ram-kingston-kvr56u46bd8-64.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-ram-kingston-ksm32rd8-32hd.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-ram-kingston-ksm32rd4-64hcr.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-ram-kingston-ksm32rd4-64hd.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-ram-kingston-ksm32rd4-64mfr.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-ram-kingston-kvr32s22s8-16.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-ram-kingston-kvr32s22d8-32.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-ssd-kingston-sedc600m-480g.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-ssd-kingston-sedc600m-960g.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-ssd-kingston-sedc600m-1920g.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-ssd-kingston-sedc600m-3840g.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-ssd-kingston-sedc600m-7680g.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-ram-kingston-kvr32n22s6-4.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-ram-kingston-ksm32rs8-16hd.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-ram-kingston-ksm32rs4-32hcr.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-ram-kingston-ksm32rs4-32mfr.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-cpu-intel-xeon-e5-1620-v4.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-cpu-intel-xeon-e5-1630-v4.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-cpu-intel-xeon-e5-1650-v4.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-cpu-intel-xeon-e5-1660-v4.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-cpu-intel-xeon-e5-1680-v4.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-cpu-intel-xeon-e5-2620-v4.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-cpu-intel-xeon-e5-2630-v4.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-cpu-intel-xeon-e5-2650-v4.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-cpu-intel-xeon-e5-2680-v4.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-cpu-amd-ryzen-threadripper-7960x.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-cpu-amd-ryzen-threadripper-7970x.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-cpu-amd-ryzen-threadripper-7980x.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-cpu-amd-ryzen-threadripper-pro-7945wx.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-cpu-amd-ryzen-threadripper-pro-7955wx.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-cpu-amd-ryzen-threadripper-pro-7965wx.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-cpu-amd-ryzen-threadripper-pro-7975wx.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-cpu-amd-ryzen-threadripper-pro-7985wx.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/intel4004.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-cooler-msi-mag-coreliquid-e240.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-cooler-msi-mag-coreliquid-e360.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-cooler-msi-mag-coreliquid-i240.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-cooler-msi-mag-coreliquid-i360.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-cooler-msi-mag-coreliquid-p240.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-cooler-msi-mag-coreliquid-p360.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-cooler-msi-mag-coreliquid-c240.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-cooler-msi-mag-coreliquid-c280.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-cooler-msi-mag-coreliquid-c360.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-cooler-msi-mpg-coreliquid-k240.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-cooler-msi-mpg-coreliquid-k360.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/total-cooler-msi-meg-coreliquid-s360.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/retail-asus-z170-p.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/retail-cooler-master-masterbox-lite-5.html",
+      "correctPhoto": true
+    },
+    {
+      "route": "/learn/completion-cpu-intel-core-i5-661.html",
+      "correctPhoto": true
+    }
+  ]
+}

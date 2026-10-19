@@ -1,0 +1,275 @@
+{
+  "checkedAt": "2026-10-19T23:12:37.221Z",
+  "expectedCommit": "4d48bb72e9b0e7aa0dddb86212a2e94aea9347bc",
+  "release": {
+    "schema": 1,
+    "program": "2026-10-11-continuation",
+    "commit": "4d48bb72e9b0e7aa0dddb86212a2e94aea9347bc",
+    "generatedAt": "2026-10-19T23:10:39.824Z",
+    "staging": false
+  },
+  "scope": "Bounded public HTTP/HTML/API/assets smoke checks; browser behavior and field performance are separate.",
+  "checks": [
+    {
+      "name": "actual production marker",
+      "route": "/data/release.json",
+      "status": 200,
+      "location": null,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "robots": null,
+      "type": "application/json",
+      "durationMs": 128
+    },
+    {
+      "name": "canonical live page",
+      "route": "/",
+      "status": 200,
+      "location": null,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "robots": null,
+      "type": "text/html",
+      "durationMs": 83
+    },
+    {
+      "name": "canonical live page",
+      "route": "/builder/",
+      "status": 200,
+      "location": null,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "robots": null,
+      "type": "text/html",
+      "durationMs": 59
+    },
+    {
+      "name": "canonical live page",
+      "route": "/phones/",
+      "status": 200,
+      "location": null,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "robots": null,
+      "type": "text/html",
+      "durationMs": 130
+    },
+    {
+      "name": "canonical live page",
+      "route": "/phones/size-compare/",
+      "status": 200,
+      "location": null,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "robots": null,
+      "type": "text/html",
+      "durationMs": 64
+    },
+    {
+      "name": "canonical live page",
+      "route": "/phones/iphone-17-pro/",
+      "status": 200,
+      "location": null,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "robots": null,
+      "type": "text/html",
+      "durationMs": 61
+    },
+    {
+      "name": "canonical live page",
+      "route": "/prebuilts/",
+      "status": 200,
+      "location": null,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "robots": null,
+      "type": "text/html",
+      "durationMs": 318
+    },
+    {
+      "name": "canonical live page",
+      "route": "/prebuilts/asus-gm700-ca/",
+      "status": 200,
+      "location": null,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "robots": null,
+      "type": "text/html",
+      "durationMs": 59
+    },
+    {
+      "name": "canonical live page",
+      "route": "/builder/model-credits/",
+      "status": 200,
+      "location": null,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "robots": null,
+      "type": "text/html",
+      "durationMs": 67
+    },
+    {
+      "name": "canonical live page",
+      "route": "/blog/",
+      "status": 200,
+      "location": null,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "robots": null,
+      "type": "text/html",
+      "durationMs": 31
+    },
+    {
+      "name": "canonical live page",
+      "route": "/build-school/",
+      "status": 200,
+      "location": null,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "robots": null,
+      "type": "text/html",
+      "durationMs": 81
+    },
+    {
+      "name": "canonical live page",
+      "route": "/upgrade/",
+      "status": 200,
+      "location": null,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "robots": null,
+      "type": "text/html",
+      "durationMs": 59
+    },
+    {
+      "name": "shared build is usable and excluded from indexing",
+      "route": "/builder/?build=%2C%2Cretail-msi-geforce-rtx-5070-12g-gaming-trio-oc%2C%2C%2C%2C%2C",
+      "status": 200,
+      "location": null,
+      "cacheControl": "no-store",
+      "robots": "noindex, follow",
+      "type": "text/html",
+      "durationMs": 36
+    },
+    {
+      "name": "sitemap follows exact owner publication authorization",
+      "route": "/sitemap.xml",
+      "status": 200,
+      "location": null,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "robots": null,
+      "type": "application/xml",
+      "durationMs": 84
+    },
+    {
+      "name": "draft or missing route is a real error",
+      "route": "/editorial-review/oct11/",
+      "status": 404,
+      "location": null,
+      "cacheControl": "no-store",
+      "robots": "noindex, follow",
+      "type": "text/html",
+      "durationMs": 55
+    },
+    {
+      "name": "draft or missing route is a real error",
+      "route": "/__release-missing-page-20261011/",
+      "status": 404,
+      "location": null,
+      "cacheControl": "no-store",
+      "robots": "noindex, follow",
+      "type": "text/html",
+      "durationMs": 52
+    },
+    {
+      "name": "preferred host uses one redirect and valid TLS",
+      "route": "/phones/",
+      "status": 301,
+      "location": "https://www.pcpartperformance.com/phones/",
+      "cacheControl": null,
+      "robots": null,
+      "type": null,
+      "durationMs": 193
+    },
+    {
+      "name": "truthful inactive regional price API",
+      "route": "/api/v1/morning-prices?ids=rtx5070&region=CA",
+      "status": 200,
+      "location": null,
+      "cacheControl": "no-store",
+      "robots": "noindex, follow",
+      "type": "application/json; charset=utf-8",
+      "durationMs": 42
+    },
+    {
+      "name": "truthful inactive regional price API",
+      "route": "/api/v1/morning-prices?ids=rtx5070&region=US",
+      "status": 200,
+      "location": null,
+      "cacheControl": "no-store",
+      "robots": "noindex, follow",
+      "type": "application/json; charset=utf-8",
+      "durationMs": 61
+    },
+    {
+      "name": "price source health is explicit",
+      "route": "/api/v1/morning-prices/status",
+      "status": 200,
+      "location": null,
+      "cacheControl": "no-store",
+      "robots": "noindex, follow",
+      "type": "application/json; charset=utf-8",
+      "durationMs": 37
+    },
+    {
+      "name": "updated unhashed code revalidates",
+      "route": "/continuation-common.css",
+      "status": 200,
+      "location": null,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "robots": null,
+      "type": "text/css",
+      "durationMs": 41
+    },
+    {
+      "name": "updated unhashed code revalidates",
+      "route": "/builder-workspace.js",
+      "status": 200,
+      "location": null,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "robots": null,
+      "type": "text/javascript",
+      "durationMs": 42
+    },
+    {
+      "name": "updated unhashed code revalidates",
+      "route": "/phone-comparison.js",
+      "status": 200,
+      "location": null,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "robots": null,
+      "type": "text/javascript",
+      "durationMs": 72
+    },
+    {
+      "name": "new exact model/image asset is deployed",
+      "route": "/assets/models/sketchfab-iphone-17-pro.glb",
+      "status": 200,
+      "location": null,
+      "cacheControl": "public, max-age=300",
+      "robots": null,
+      "type": "model/gltf-binary",
+      "durationMs": 59
+    },
+    {
+      "name": "new exact model/image asset is deployed",
+      "route": "/assets/models/sketchfab-msi-rtx-5070-gaming-trio-oc.glb",
+      "status": 200,
+      "location": null,
+      "cacheControl": "public, max-age=300",
+      "robots": null,
+      "type": "model/gltf-binary",
+      "durationMs": 62
+    },
+    {
+      "name": "new exact model/image asset is deployed",
+      "route": "/assets/hardware/exact-msi-rtx-5070-gaming-trio-oc.webp",
+      "status": 200,
+      "location": null,
+      "cacheControl": "public, max-age=300",
+      "robots": null,
+      "type": "image/webp",
+      "durationMs": 75
+    }
+  ],
+  "passed": true
+}

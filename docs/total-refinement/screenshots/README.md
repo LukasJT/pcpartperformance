@@ -20,7 +20,7 @@ Full local screenshot matrices remain under `qa/` and can be regenerated using t
 
 ## October 19 photo continuation
 
-The prior production pages and the tested continuation show the same exact product IDs at390px. These are product-page comparisons, not manufacturer permission grants. The new sources and any shared-gallery limitations are in the visible Image source disclosures.
+The prior production pages and the verified live continuation show the same exact product IDs at390px. These are product-page comparisons, not manufacturer permission grants. The new sources and any shared-gallery limitations are in the visible Image source disclosures.
 
 | Product | Before | After |
 | --- | --- | --- |

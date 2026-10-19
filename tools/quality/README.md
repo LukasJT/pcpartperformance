@@ -1,6 +1,6 @@
 # Reproducible verification tools
 
-Install with Node24 and pnpm10.34.7:
+Install with Node.js 24 and pnpm 10.34.7:
 
 ```sh
 pnpm --dir tools/quality install --frozen-lockfile --ignore-scripts
@@ -14,4 +14,4 @@ Image verification uses the locked Sharp package in this directory. `PCP_SHARP_P
 
 Delivery checks decode the shipped pixels and validate dimensions, byte lengths, hashes, exact catalog joins and frozen provenance. Preparing replacement images separately requires the original source bytes and their prior review hashes. A CI pass does not acquire image redistribution rights or certify physical hardware fit.
 
-Sharp0.35.5 fixes the high-severity upstream librsvg issue described in [GHSA-wq5f-xc86-pv6w](https://github.com/advisories/GHSA-wq5f-xc86-pv6w). The dated dependency-audit receipt is in `docs/total-refinement/qa/linux-validation/`; it is a current advisory check, not a security guarantee.
+Sharp 0.35.5 fixes the high-severity upstream librsvg issue described in [GHSA-wq5f-xc86-pv6w](https://github.com/advisories/GHSA-wq5f-xc86-pv6w). The dated dependency-audit receipt is in `docs/total-refinement/qa/linux-validation/`; it is a current advisory check, not a security guarantee.

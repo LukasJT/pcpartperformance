@@ -1,20 +1,62 @@
 # Release verification
 
-## Catalog and photograph continuation — final local verification
+## Current production release
 
-Production push is authorized; exact live verification follows before completion is claimed. The previous release evidence remains below as history.
+Published commit: `4d48bb72e9b0e7aa0dddb86212a2e94aea9347bc` on [PC Part Performance](https://www.pcpartperformance.com/). Cloudflare and the complete Linux validation succeeded. The exact public marker and 26 release checks passed at **2026-10-19 23:12:37 UTC**.
 
-- 79 new source-bound component photo assignments;894 builder-eligible parts,zero missing accepted image bindings. Seven ambiguous inherited identities remain nonselectable recovery references.
-- 1,311 hardware records;25 CPU coolers.120 additional exact prebuilt SKUs produce339 regional rows and209 distinct core configurations. Historical records are qualified.
-- 108/108 test-command groups,212 responsive layout states,146 automated accessibility cases,214 photo/product-selection checks and9 interaction journeys pass. All seven saved identity recovery cases pass.
-- 1,586 image derivatives decode; original seven transfer budgets,TypeScript and scopedESLint pass. SEO checks cover1,961 HTML pages and1,451 indexable URLs.
-- The final cold lab builder medianCLS is0 (maximum0.03293), down from0.10298 before the startup geometry fix. MedianLCP is1,172/1,268/1,028ms for homepage/builder/FPS; initial3D requests are0 in all nine runs. Intermittent first-menu presentation outliers remain open; fieldp75INP and physicaliOS are unmeasured.
+### Catalog, photographs and compatibility
 
-[Catalog/photo scope](CATALOG-PHOTOS-OCT19.md) · [Photo coverage](photos/final-coverage.json) · [Final layout](qa/catalog-final-layout/report.json) · [Photo interactions](qa/photos-oct19/report.json) · [Saved recovery](qa/identity-final/report.json) · [Performance](qa/performance/report.json) · [Before/after images](screenshots/README.md).
+- **79 additional reviewed photo assignments.** All 894 builder-eligible parts have accepted named-product or pictured-variant image bindings. Seven ambiguous inherited identities remain nonselectable recovery references. No neighboring SKU is substituted to fill those gaps.
+- **1,311 hardware reference records**, including 935 PC components and 25 CPU coolers. The bounded intake adds 75 models: 20 partner GPUs, 17 processors, 21 memory modules, five SSDs and 12 coolers. Exact MPN and revision coverage remains incomplete.
+- **120 additional exact prebuilt SKUs**, bringing the directory to 339 regional rows and 209 distinct CPU/GPU/RAM/storage signatures. The added Lenovo systems are historical/withdrawn; no current price or availability is inferred.
+- **34 manufacturer-backed observations** across five cases and five PSUs. Five conflicting dimensions remain unknown. Saved references, original URLs and private local records remain recoverable.
 
-## Public website
+Sources, gallery limitations and permissions are recorded in the [catalog/photo report](CATALOG-PHOTOS-OCT19.md). Supplier photography does not acquire an open license through this work.
 
-Final production marker: `fc71a500d83cc74b3345c044c0a109d524cf1886`, verified October19 at20:44:18UTC with all26 production checks. This is the automated data commit on top of the tested UI and CI-handoff correction. The live price-history endpoint separately returned all96 recorded rows. [Final marker receipt](qa/live/current-release.json) · [Public history receipt](qa/live/price-history.json).
+### Tests and production evidence
+
+| Check | Executed result |
+| --- | --- |
+| Full source/data/security/SEO suite | **109/109 command groups pass**, locally and in Ubuntu 24.04 / Node.js 24 |
+| Delivered component images | **1,586 derivatives decode and match reviewed metadata/hashes** |
+| Final public image/data verification | **241 checks pass**, including every new full/thumbnail hash, all 79 product-page images and delivered provenance/index data |
+| Actual live photo and selection interactions | **214 checks pass** across 320, 390 and 1440 px |
+| Responsive layouts | **212 local states and 70 public states pass**, including enlarged phone text, menus and pickers |
+| Real user journeys | **Nine public journeys pass**, including save/restore, sharing, downloads, print and 3D failure recovery |
+| Older saved identities | **All seven restore/save cases and My PC cards pass**; fresh selection and public search exclude them |
+| Automated accessibility | **146 cases, zero reported violations**, across six palettes; this is not full WCAG certification |
+| Generated SEO | **1,961 HTML pages / 1,451 indexable URLs** pass the generated contracts |
+| Delivery and source checks | Original seven transfer budgets, TypeScript and scoped ESLint pass |
+
+[Production marker](qa/photos-oct19-live/release.json) · [Image/hash verification](qa/photos-oct19-live/verification.json) · [Live photo interactions](qa/photos-oct19-live/report.json) · [Public layout](qa/catalog-live-layout/report.json) · [Public counts](qa/catalog-live-data/report.json) · [Saved recovery](qa/identity-final/report.json) · [Reviewed before/after screenshots](screenshots/README.md).
+
+### Performance evidence and limits
+
+Three cold Edge mobile lab samples per route used 4× CPU throttling, 150 ms latency and 1.6 Mbps downstream. Median LCP was 1,172 ms for the homepage, 1,268 ms for the builder and 1,028 ms for Game FPS. All nine samples made zero initial 3D requests.
+
+The builder startup shift was reproduced at CLS 0.10298. Applying static layout geometry before deferred initialization reduced the final builder median to **0**, with a maximum of **0.03293**. Intermittent first-menu presentation delays remain open (280 ms homepage and 520 ms FPS outliers in the final run). These are local observations, not physical iPhone results or field p75 Core Web Vitals.
+
+[Final lab measurements](qa/performance/report.json) · [Before the geometry fix](qa/catalog-performance-before/report.json) · [Controlled menu investigation](qa/menu-paint-oct19/report.json).
+
+### Deployment and reproducible CI
+
+The first managed build, 3270732a, failed. Its private log was unavailable through the broken browser-control connection. The application deployed successfully on the next managed build, 6ceeba45, and then on the final release above. No provider-failure cause is inferred.
+
+The new read-only Linux workflow initially exposed an incorrect npm bootstrap, followed by image/GLB dependencies and temporary files outside the repository. The correction uses the existing frozen pnpm lockfile, declared repository-owned tools and portable fixtures. Bounded, encoded public failure annotations provide diagnostic context without retrieving stored credentials. The normal site builds before development dependencies are installed.
+
+Sharp **0.35.5** fixes the [reviewed high-severity upstream advisory](https://github.com/advisories/GHSA-wq5f-xc86-pv6w). The dated final dependency audit reports **zero known vulnerabilities**; this is not a guarantee against future advisories. These tools do not enter the public browser bundles.
+
+[Successful Linux run](https://github.com/LukasJT/pcpartperformance/actions/runs/39339825603) · [Actual job and artifact receipt](qa/linux-validation/passed.json) · [Dependency audit](qa/linux-validation/dependency-audit.json) · [Tracked-source reproduction](qa/clean-source-oct19/report.json).
+
+### Remaining scope
+
+The entire master specification is not complete. Exhaustive catalog coverage, seven unresolved exact identities, supplier-photo permission records, licensed appearance models, measured benchmark coverage, human review of 36 article drafts, physical iOS/VoiceOver testing, further page refinement and broader authorized retailer feeds remain open. GA4/GSC evidence and Journey activation require the owner's accounts and provider steps. No unverified content, prices, FPS, acceptance or 10/10 score is claimed.
+
+See the [quality rubric](README.md), [implementation board](TASKS.md) and [catalog/photo limitations](CATALOG-PHOTOS-OCT19.md).
+
+## Previous release — website and daily workflow
+
+Previous production marker: `fc71a500d83cc74b3345c044c0a109d524cf1886`, verified October19 at20:44:18UTC with all26 production checks. This is the automated data commit on top of the tested UI and CI-handoff correction. The live price-history endpoint separately returned all96 recorded rows. [Final marker receipt](qa/live/current-release.json) · [Public history receipt](qa/live/price-history.json).
 
 - UI/data release: `dfda28db6f87a97231e04d55a63b649384a95fac`.
 - Domain: https://www.pcpartperformance.com/

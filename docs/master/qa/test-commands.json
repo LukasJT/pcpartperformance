@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-10-19T22:44:16.087Z",
-  "commands": 108,
-  "passed": 108,
+  "checkedAt": "2026-10-19T23:11:21.041Z",
+  "commands": 109,
+  "passed": 109,
   "results": [
     {
       "command": "node scripts/check-program.cjs",
@@ -235,6 +235,11 @@
     },
     {
       "command": "node scripts/test-guide-directory.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node --test scripts/release-ci-annotations.test.cjs",
       "exitCode": 0,
       "passed": true
     },
