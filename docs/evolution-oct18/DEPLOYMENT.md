@@ -2,7 +2,11 @@
 
 ## Current release state
 
-**Verified locally; production publication in progress.** The owner explicitly requested an iPhone-accessible preview or a live-domain push. Browser approval is now functioning. This record supersedes the initial blocked checkpoint's browser/Git status. Do not infer completed production deployment from this preparation; the final public commit-marker receipt establishes it.
+**Verified live at https://www.pcpartperformance.com/.** Release commit `fe517b104c11d36400fb40971f3b12e1a0c320b9` was successfully pushed to the existing production branch, preserving prior `cf9f7a0`. The public marker matched that exact commit at `2026-10-19T13:49:04.938Z`; all 26 bounded public HTTP/HTML/API/asset smoke checks passed. A subsequent real-browser run checked 22 live mobile/desktop/light/dark page, picker and menu states with zero failures. The owner explicitly requested an iPhone-accessible preview or a live-domain push. Browser approval recovered; this record supersedes the initial blocked checkpoint's browser/Git status.
+
+Public links: [homepage](https://www.pcpartperformance.com/), [PC builder](https://www.pcpartperformance.com/builder/), [phone size comparison](https://www.pcpartperformance.com/phones/size-compare/). These are public HTTPS routes, not computer-only loopback previews. The app browser handoff was queued; this does not claim remote control of an iPhone or Safari.
+
+Live receipts: `docs/program-2026-10-11/live-release-verification.json` and `docs/evolution-oct18/qa/live/report.json`. Screenshots are in `qa/live/`. The published code revision is the release SHA above; any later local documentation-only checkpoint is not a second deployment.
 
 ## Release verification
 

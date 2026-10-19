@@ -10,16 +10,16 @@ Branch: `codex/liquid-evolution-2026-10-18`. Baseline code: `6b272bd`; verified 
 
 | ID | Dependency | Deliverable / affected source | Status |
 | --- | --- | --- | --- |
-| EV-01 | — | Rendered nine-width light/dark audit, issue register and baseline screenshots | Source audit complete; new rendered audit blocked because automatic approval review could not authorize browser launch. Historical screenshots clearly distinguished. |
+| EV-01 | — | Rendered nine-width light/dark audit, issue register and baseline screenshots | Approval recovered. 348 accepted responsive states from 366 captures; product-table overflow corrected and rechecked. Historical baseline remains explicitly historical. |
 | EV-02 | EV-01 | Six named coordinated palettes, system preference, high contrast, persistence and preview picker | Implemented locally; 20 theme/runtime/contrast tests pass. Rendered six-theme verification remains pending. |
 | EV-03 | EV-02 | Shared motion primitives, pause/reduced-motion controls, offscreen suspension and efficient transitions | Implemented with native CSS/WAAPI and deferred runtime; source/runtime tests pass; rendered smoothness and device performance unmeasured. |
-| EV-04 | EV-01 | Stage-based builder, intentional picker, expert capability preservation and PC-first catalog | Implemented and generated; actual browser and save/restore journey gate pending. |
+| EV-04 | EV-01 | Stage-based builder, intentional picker, expert capability preservation and PC-first catalog | Implemented, generated and browser verified: stages, CPU/PSU pickers, filtering, exact search, keyboard selection and local save/restore pass. |
 | EV-05 | EV-02 | Page-family visual hierarchy, original SVG hardware assets, diagrams and editorial reading layout | Implemented across 15 shared page-family styles; 13 hardware SVGs, studio hero and 8 interactive diagrams. Source artwork decoded/inspected; full layout QA pending. |
 | EV-06 | EV-01 | Existing-intent inventory, at least36 distinct researched article projects with complete copy, sources and diagrams | 36 complete drafts, 42 primary sources, 36 original diagrams and 36 local HTML previews. Zero human-reviewed/publishable/published. |
 | EV-07 | EV-05 | Crawlable HTML, metadata, internal links, accurate schema, route exclusions and image delivery | Normal generation and automated SEO/HTML checks pass: 1,594 pages, 1,089 intended indexable, zero HTML audit issues. New drafts remain outside public output. |
 | EV-08 | — | Official Journey/GA4/custom-site research, noindex owner checklist, semantic article landmarks and disabled dependencies | Implemented preparation and 58 semantic article landmarks; actual GA4, qualifying audience, application, issued assets and provider launch remain owner dependencies. |
-| EV-09 | EV-02…08 | Theme/mobile/keyboard/functional/visual/HTML/security/performance regressions | All 86 repository groups, 7 unchanged payload budgets, types, lint and HTML/resource audits pass. New browser/physical-device/field tests not executed. |
-| EV-10 | EV-09 | Reviewed commit, deployment through existing Git integration and exact live verification | Release withheld pending required browser QA. Git staging also not executed because automatic approval review failed at capacity; files saved but uncommitted. No production deployment. See IMPLEMENTATION-REPORT.md. |
+| EV-09 | EV-02…08 | Theme/mobile/keyboard/functional/visual/HTML/security/performance regressions | All 86 repository groups, 7 unchanged payload budgets, types, lint and HTML/resource audits pass. 348 accepted responsive states and 7 actual interaction flows pass, including 3D error/retry/render/close. Physical-device and field metrics remain unmeasured. |
+| EV-10 | EV-09 | Reviewed commit, deployment through existing Git integration and exact live verification | Deployed fe517b104c11d36400fb40971f3b12e1a0c320b9 via the existing production branch. Exact marker, 26 HTTP smoke checks and 22 live browser states pass. See DEPLOYMENT.md. |
 
 ## Evidence and quality rubric
 

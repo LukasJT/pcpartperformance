@@ -1,0 +1,2130 @@
+{
+  "checkedAt": "2026-10-19T13:49:35.474Z",
+  "phase": "after",
+  "origin": "https://www.pcpartperformance.com",
+  "widths": [
+    390,
+    1440
+  ],
+  "themes": [
+    "dark",
+    "light"
+  ],
+  "reports": [
+    {
+      "route": "/",
+      "name": "home",
+      "requestedWidth": 390,
+      "width": 390,
+      "theme": "dark",
+      "status": 200,
+      "title": "PC Builder, Part Comparisons & Upgrade Planning | PC Part Performance",
+      "viewport": 390,
+      "palette": "midnight",
+      "headerHeight": 72,
+      "h1": "Build smarter. Upgrade with confidence.",
+      "headings": [
+        "Understand the connections.",
+        "RTX 5070 vs RTX 5060 Ti",
+        "The upgrade desk",
+        "Explore the hardware",
+        "Before you buy",
+        "Explore the details",
+        "Use the numbers that matter",
+        "Useful reading before the next purchase",
+        "Source-led hardware reports"
+      ],
+      "initialText": "Build smarter.\nUpgrade with confidence.\n\nChoose your parts. Check compatibility and costs before you buy.\n\nBuild a PC\nUpgrade my PC\nCompare parts\n\nNew to building?\n·\nYour saved work\n\nChoose parts\nExplore in 3D\nReview & save\nFind a part, guide or tool\nTry RTX 5070, BIOS support, or first boot\n\nExample build review\n\nUnderstand the connections.\n\nSee the connections that match and the checks to finish before buying.\n\nCPU socket\nDocumented match\nBIOS & clearances\nExact support still needs checking\nSee your build report\nAll comparisons\nRTX 5070 vs RTX 5060 Ti\n\nTwo Blackwell GPUs. Different memory, power, and priorities.\n\nGeForce RTX 5070\n12 GB GDDR7\nVS\nGeForce RTX 5060 Ti\n16 GB GDDR7\n\nMore VRAM doesn’t tell the whole story.See the specifications side by side.\n\nCompare these GPUs\nThe upgrade desk\nGRAPHICS\nWhat actually matters in a graphics card?\n\nStart with VRAM, bandwidth, and board power.\n\nRead the GPU guide\nPROCESSORS\nThere’s more to a CPU than GHz.\n\nGet to know cores, clocks, and platform support.\n\nRead the CPU guide\nPlanning a whole PC?\n\nChoose parts and check how they fit together.\n\nOpen PC builder\nCompare phonesSee size, specs and 3D\nFind a prebuilt PCBrowse real configurations\nExplore Game FPSPC and console performance\nExplore the hardware\nBrowse all 1,236 parts\n165 PARTS\nGraphics cards\n\nVideo memory, power & architecture\n\n167 PARTS\nProcessors\n\nCores, clocks & platform\n\n66 PARTS\nMemory\n\nCapacity, speed & generation\n\n78 PARTS\nSolid-state drives\n\nCapacity, interface & endurance\n\nBefore you buy\nAll hardware guides\n01 / GAME FPS\nWhat performance can you target?\n\nCheck the evi",
+      "overflows": [],
+      "brokenImages": [],
+      "pendingImages": [],
+      "navigation": [
+        {
+          "responseStart": 177.39999997615814,
+          "domContentLoaded": 498.89999997615814,
+          "transferSize": 10245
+        }
+      ],
+      "assets": [
+        {
+          "url": "/theme.js",
+          "transferSize": 2096,
+          "decodedBodySize": 4311
+        },
+        {
+          "url": "/indexing-policy.js",
+          "transferSize": 855,
+          "decodedBodySize": 926
+        },
+        {
+          "url": "/assets/css/site-179616743c41.css",
+          "transferSize": 27001,
+          "decodedBodySize": 122063
+        },
+        {
+          "url": "/program-events.js",
+          "transferSize": 1283,
+          "decodedBodySize": 1795
+        },
+        {
+          "url": "/assets/fonts/dm-sans-latin-v17.woff2",
+          "transferSize": 37232,
+          "decodedBodySize": 36932
+        },
+        {
+          "url": "/continuation-ui.js",
+          "transferSize": 1947,
+          "decodedBodySize": 3929
+        },
+        {
+          "url": "/site-ui.js",
+          "transferSize": 1221,
+          "decodedBodySize": 1664
+        },
+        {
+          "url": "/ads.css",
+          "transferSize": 870,
+          "decodedBodySize": 1163
+        },
+        {
+          "url": "/assets/flag-ca.svg",
+          "transferSize": 672,
+          "decodedBodySize": 658
+        },
+        {
+          "url": "/ads.js",
+          "transferSize": 1705,
+          "decodedBodySize": 3042
+        },
+        {
+          "url": "/assets/flag-us.svg",
+          "transferSize": 656,
+          "decodedBodySize": 765
+        },
+        {
+          "url": "/assets/hardware/catalog-gpu-oct17/rtx5070-retained.webp",
+          "transferSize": 34744,
+          "decodedBodySize": 34444
+        },
+        {
+          "url": "/assets/fonts/space-grotesk-latin-v22.woff2",
+          "transferSize": 22588,
+          "decodedBodySize": 22288
+        },
+        {
+          "url": "/assets/hardware/catalog-gpu-oct17/rtx5060ti16-retained.webp",
+          "transferSize": 26932,
+          "decodedBodySize": 26632
+        }
+      ],
+      "errors": [],
+      "assetErrors": [],
+      "screenshot": "home-390-dark.png"
+    },
+    {
+      "route": "/",
+      "state": "mobile menu",
+      "width": 390,
+      "theme": "dark",
+      "screenshot": "menu-390-dark.png",
+      "mainInert": true
+    },
+    {
+      "route": "/builder/",
+      "name": "builder",
+      "requestedWidth": 390,
+      "width": 390,
+      "theme": "dark",
+      "status": 200,
+      "title": "PC Builder & Compatibility Checker | PC Part Performance",
+      "viewport": 390,
+      "palette": "midnight",
+      "headerHeight": 72,
+      "h1": "Build your PC",
+      "headings": [
+        "Choose parts",
+        "Core components",
+        "Storage",
+        "Case & cooling",
+        "Build preferences",
+        "Build Readiness Report",
+        "No current total",
+        "Save, compare and share"
+      ],
+      "initialText": "Home\n/\nBuild your PC\nBuild your PC\n\nChoose parts. Explore in 3D. Save your plan.\n\nReset build\nTry a starter build\nChoose parts\nExplore build\nReview & save\nChoose parts\nGuided\nExpert\nProcessor\nStep 1 of 10 · Processor\nChoose your first part\n01\nProcessor\nRequired · 164 choices\nChoose primary Processor\nSelect a component\nBack\nContinue\nYour components\nBuild preferences\nBuild preferences\n\nConfirm exact dimensions, cooling, BIOS, and connectors with the manufacturer. What we check ",
+      "overflows": [],
+      "brokenImages": [],
+      "pendingImages": [],
+      "navigation": [
+        {
+          "responseStart": 49.30000001192093,
+          "domContentLoaded": 326.5999999642372,
+          "transferSize": 8272
+        }
+      ],
+      "assets": [
+        {
+          "url": "/theme.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/assets/css/site-067bd65b65e5.css",
+          "transferSize": 40966,
+          "decodedBodySize": 198632
+        },
+        {
+          "url": "/program-events.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/indexing-policy.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/site-ui.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/builder-catalog.js",
+          "transferSize": 41048,
+          "decodedBodySize": 342060
+        },
+        {
+          "url": "/oct16-builder-images.js",
+          "transferSize": 791,
+          "decodedBodySize": 917
+        },
+        {
+          "url": "/core.js",
+          "transferSize": 8564,
+          "decodedBodySize": 22576
+        },
+        {
+          "url": "/interface.js",
+          "transferSize": 8226,
+          "decodedBodySize": 21609
+        },
+        {
+          "url": "/builder-organize.js",
+          "transferSize": 1065,
+          "decodedBodySize": 1622
+        },
+        {
+          "url": "/model-options.js",
+          "transferSize": 1492,
+          "decodedBodySize": 3421
+        },
+        {
+          "url": "/compatibility-evidence.js",
+          "transferSize": 14764,
+          "decodedBodySize": 40957
+        },
+        {
+          "url": "/builder-v2.js",
+          "transferSize": 10112,
+          "decodedBodySize": 29216
+        },
+        {
+          "url": "/builder-cooling.js",
+          "transferSize": 2291,
+          "decodedBodySize": 4624
+        },
+        {
+          "url": "/assembly-3d.js",
+          "transferSize": 6109,
+          "decodedBodySize": 16550
+        },
+        {
+          "url": "/continuation-ui.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/builder-program.js",
+          "transferSize": 11152,
+          "decodedBodySize": 27537
+        },
+        {
+          "url": "/oct16-builder-journey.js",
+          "transferSize": 3839,
+          "decodedBodySize": 8334
+        },
+        {
+          "url": "/builder-workspace.js",
+          "transferSize": 2024,
+          "decodedBodySize": 3715
+        },
+        {
+          "url": "/shopping.js",
+          "transferSize": 4867,
+          "decodedBodySize": 10862
+        },
+        {
+          "url": "/builder-selectors.js",
+          "transferSize": 7154,
+          "decodedBodySize": 17513
+        },
+        {
+          "url": "/assets/fonts/dm-sans-latin-v17.woff2",
+          "transferSize": 0,
+          "decodedBodySize": 36932
+        },
+        {
+          "url": "/evolution-builder.css",
+          "transferSize": 5031,
+          "decodedBodySize": 22074
+        },
+        {
+          "url": "/evolution-builder.js",
+          "transferSize": 2141,
+          "decodedBodySize": 4220
+        },
+        {
+          "url": "/assets/flag-ca.svg",
+          "transferSize": 0,
+          "decodedBodySize": 658
+        },
+        {
+          "url": "/assets/flag-us.svg",
+          "transferSize": 0,
+          "decodedBodySize": 765
+        },
+        {
+          "url": "/assets/fonts/space-grotesk-latin-v22.woff2",
+          "transferSize": 0,
+          "decodedBodySize": 22288
+        }
+      ],
+      "errors": [],
+      "assetErrors": [],
+      "screenshot": "builder-390-dark.png"
+    },
+    {
+      "route": "/builder/",
+      "state": "picker CPU",
+      "width": 390,
+      "theme": "dark",
+      "screenshot": "picker-cpu-390-dark.png",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 844
+      },
+      "activeElement": {
+        "tag": "DIV",
+        "role": "listbox"
+      }
+    },
+    {
+      "route": "/builder/",
+      "state": "picker Power supply",
+      "width": 390,
+      "theme": "dark",
+      "screenshot": "picker-psu-390-dark.png",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 844
+      },
+      "activeElement": {
+        "tag": "DIV",
+        "role": "listbox"
+      }
+    },
+    {
+      "route": "/learn/rtx5070.html",
+      "name": "product",
+      "requestedWidth": 390,
+      "width": 390,
+      "theme": "dark",
+      "status": 200,
+      "title": "NVIDIA GeForce RTX 5070: Specs & Compatibility · PC Part Performance",
+      "viewport": 390,
+      "palette": "midnight",
+      "headerHeight": 72,
+      "h1": "GeForce RTX 5070",
+      "headings": [
+        "Where to buy",
+        "What to know before choosing it",
+        "Specifications",
+        "Model notes",
+        "Use this specification in a decision"
+      ],
+      "initialText": "Home\n/\nHardware\n/\nGeForce RTX 5070\nNVIDIA\nGeForce RTX 5070\n\n12 GB GDDR7\n\nBlackwell\n2025\nCompare this part\nUse in PC builder\nWhere to buy\n\nFind GeForce RTX 5070 at a retailer.\n\nCanada · CAD\nSearch Newegg Canada  Search Newegg USA \n\nEach checked price shows its time and expiry. Morning observations expire after 24 hours. Tax and shipping are extra. Store search results may include other variants or used items; confirm the model before buying. About prices\n\nSave to watchlist\nWhat to know before choosing it\n\nThe RTX 5070 is a 12 GB GDDR7 base GPU specification. Pick the exact partner card before deciding whether it fits your case or matches your PSU cables.\n\nCompare it with the RX 9070 and an exact RTX 5070 board. The useful questions are your game settings, required software features, delivered price and the physical card you can buy. Memory capacity alone cannot establish a performance winner.\n\nSource-checked specifications\nManufacturer specifications for the stated model scope\nSpecification\tValue\tEvidence\nGraphics memory\t12 GB\tNVIDIA specification\nMemory type\tGDDR7\tNVIDIA specification\nMemory interface\t192 bit\tNVIDIA specification\nTotal graphics power\t250 W\nReference specification; system power is a different quantity.\n\tNVIDIA specification\nBoost clock\t2.51 GHz\nReference gaming clock; partner clocks vary.\n\tNVIDIA specification\nExact partner dimensions\tNeeds verification\tUnknown\nCheck in your build\nPartner-card length, height, thickness and connector position are not established by this base record.\nCheck the exact card manual and the case layout with planned radiators and ca",
+      "overflows": [],
+      "brokenImages": [],
+      "pendingImages": [],
+      "navigation": [
+        {
+          "responseStart": 98.80000001192093,
+          "domContentLoaded": 253.10000002384186,
+          "transferSize": 7587
+        }
+      ],
+      "assets": [
+        {
+          "url": "/theme.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/program-events.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/assets/css/site-2c9d0b10cbfa.css",
+          "transferSize": 23385,
+          "decodedBodySize": 103687
+        },
+        {
+          "url": "/continuation-ui.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/site-ui.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/indexing-policy.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/publication-ui.js",
+          "transferSize": 2858,
+          "decodedBodySize": 5762
+        },
+        {
+          "url": "/program-retention.js",
+          "transferSize": 1369,
+          "decodedBodySize": 1983
+        },
+        {
+          "url": "/assets/fonts/dm-sans-latin-v17.woff2",
+          "transferSize": 0,
+          "decodedBodySize": 36932
+        },
+        {
+          "url": "/assets/flag-ca.svg",
+          "transferSize": 0,
+          "decodedBodySize": 658
+        },
+        {
+          "url": "/assets/flag-us.svg",
+          "transferSize": 0,
+          "decodedBodySize": 765
+        },
+        {
+          "url": "/assets/hardware/catalog-gpu-oct17/rtx5070-retained.webp",
+          "transferSize": 0,
+          "decodedBodySize": 34444
+        },
+        {
+          "url": "/assets/fonts/space-grotesk-latin-v22.woff2",
+          "transferSize": 0,
+          "decodedBodySize": 22288
+        }
+      ],
+      "errors": [],
+      "assetErrors": [],
+      "screenshot": "product-390-dark.png"
+    },
+    {
+      "route": "/phones/size-compare/",
+      "name": "phones",
+      "requestedWidth": 390,
+      "width": 390,
+      "theme": "dark",
+      "status": 200,
+      "title": "Compare phone designs and sizes · PC Part Performance",
+      "viewport": 390,
+      "palette": "midnight",
+      "headerHeight": 72,
+      "h1": "Compare phones",
+      "headings": [
+        "iPhone 16",
+        "Pixel 9",
+        "Side by side",
+        "Dimensions"
+      ],
+      "initialText": "Home\n/\nPhones\n/\nCompare phones\nPhones\nBrowse models\nSoftware support\nCompare phones\n\nChoose two phones. Switch between size, 3D and specifications.\n\nFirst phone\niPhone 16\nSwap\nSecond phone\nPixel 9\n3D views\nSize\nSpecs\nSide by side\nOverlay phones\niPhone 16\nPixel 9\n\nSame-scale outlines. Not actual size on your screen.\n\nDimensions\nChoose two phones to compare their dimensions.\nShare comparison",
+      "overflows": [],
+      "brokenImages": [],
+      "pendingImages": [],
+      "navigation": [
+        {
+          "responseStart": 39.69999998807907,
+          "domContentLoaded": 148.5,
+          "transferSize": 8225
+        }
+      ],
+      "assets": [
+        {
+          "url": "/theme.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/assets/css/site-6caeb48803d0.css",
+          "transferSize": 30703,
+          "decodedBodySize": 142879
+        },
+        {
+          "url": "/site-ui.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/indexing-policy.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/research-tools.js",
+          "transferSize": 961,
+          "decodedBodySize": 1085
+        },
+        {
+          "url": "/program-events.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/planning-math.js",
+          "transferSize": 1514,
+          "decodedBodySize": 2284
+        },
+        {
+          "url": "/publication-ui.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/select-ui.js",
+          "transferSize": 3797,
+          "decodedBodySize": 9003
+        },
+        {
+          "url": "/continuation-ui.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/phone-preview.js",
+          "transferSize": 2896,
+          "decodedBodySize": 6420
+        },
+        {
+          "url": "/phone-comparison.js",
+          "transferSize": 4226,
+          "decodedBodySize": 10170
+        },
+        {
+          "url": "/assets/fonts/dm-sans-latin-v17.woff2",
+          "transferSize": 0,
+          "decodedBodySize": 36932
+        },
+        {
+          "url": "/assets/flag-ca.svg",
+          "transferSize": 0,
+          "decodedBodySize": 658
+        },
+        {
+          "url": "/assets/flag-us.svg",
+          "transferSize": 0,
+          "decodedBodySize": 765
+        },
+        {
+          "url": "/ads.css",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/ads.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/assets/fonts/space-grotesk-latin-v22.woff2",
+          "transferSize": 0,
+          "decodedBodySize": 22288
+        }
+      ],
+      "errors": [],
+      "assetErrors": [],
+      "screenshot": "phones-390-dark.png"
+    },
+    {
+      "route": "/",
+      "name": "home",
+      "requestedWidth": 1440,
+      "width": 1440,
+      "theme": "dark",
+      "status": 200,
+      "title": "PC Builder, Part Comparisons & Upgrade Planning | PC Part Performance",
+      "viewport": 1440,
+      "palette": "midnight",
+      "headerHeight": 80,
+      "h1": "Build smarter. Upgrade with confidence.",
+      "headings": [
+        "Understand the connections.",
+        "RTX 5070 vs RTX 5060 Ti",
+        "The upgrade desk",
+        "Explore the hardware",
+        "Before you buy",
+        "Explore the details",
+        "Use the numbers that matter",
+        "Useful reading before the next purchase",
+        "Source-led hardware reports"
+      ],
+      "initialText": "Build smarter.\nUpgrade with confidence.\n\nChoose your parts. Check compatibility and costs before you buy.\n\nBuild a PC\nUpgrade my PC\nCompare parts\n\nNew to building?\n·\nYour saved work\n\nPROCESSOR\nYOUR BUILD\nAIRFLOW\nGRAPHICS\nChoose parts\nExplore in 3D\nReview & save\nFind a part, guide or tool\nTry RTX 5070, BIOS support, or first boot\n\nExample build review\n\nUnderstand the connections.\n\nSee the connections that match and the checks to finish before buying.\n\nCPU socket\nDocumented match\nBIOS & clearances\nExact support still needs checking\nSee your build report\nAll comparisons\nRTX 5070 vs RTX 5060 Ti\n\nTwo Blackwell GPUs. Different memory, power, and priorities.\n\nGeForce RTX 5070\n12 GB GDDR7\nVS\nGeForce RTX 5060 Ti\n16 GB GDDR7\n\nMore VRAM doesn’t tell the whole story.\nSee the specifications side by side.\n\nCompare these GPUs\nThe upgrade desk\nGRAPHICS\nWhat actually matters in a graphics card?\n\nStart with VRAM, bandwidth, and board power.\n\nRead the GPU guide\nPROCESSORS\nThere’s more to a CPU than GHz.\n\nGet to know cores, clocks, and platform support.\n\nRead the CPU guide\nPlanning a whole PC?\n\nChoose parts and check how they fit together.\n\nOpen PC builder\nCompare phonesSee size, specs and 3D\nFind a prebuilt PCBrowse real configurations\nExplore Game FPSPC and console performance\nExplore the hardware\nBrowse all 1,236 parts\n165 PARTS\nGraphics cards\n\nVideo memory, power & architecture\n\n167 PARTS\nProcessors\n\nCores, clocks & platform\n\n66 PARTS\nMemory\n\nCapacity, speed & generation\n\n78 PARTS\nSolid-state drives\n\nCapacity, interface & endurance\n\nBefore you buy\nAll hardware guides\n01 / GAME FPS\nWhat per",
+      "overflows": [],
+      "brokenImages": [],
+      "pendingImages": [],
+      "navigation": [
+        {
+          "responseStart": 98.10000002384186,
+          "domContentLoaded": 287.30000001192093,
+          "transferSize": 10245
+        }
+      ],
+      "assets": [
+        {
+          "url": "/theme.js",
+          "transferSize": 2096,
+          "decodedBodySize": 4311
+        },
+        {
+          "url": "/assets/css/site-179616743c41.css",
+          "transferSize": 26995,
+          "decodedBodySize": 122063
+        },
+        {
+          "url": "/indexing-policy.js",
+          "transferSize": 855,
+          "decodedBodySize": 926
+        },
+        {
+          "url": "/program-events.js",
+          "transferSize": 1283,
+          "decodedBodySize": 1795
+        },
+        {
+          "url": "/ads.css",
+          "transferSize": 870,
+          "decodedBodySize": 1163
+        },
+        {
+          "url": "/assets/hardware/catalog-gpu-oct17/rtx5070-retained.webp",
+          "transferSize": 34744,
+          "decodedBodySize": 34444
+        },
+        {
+          "url": "/assets/fonts/dm-sans-latin-v17.woff2",
+          "transferSize": 37232,
+          "decodedBodySize": 36932
+        },
+        {
+          "url": "/assets/flag-us.svg",
+          "transferSize": 656,
+          "decodedBodySize": 765
+        },
+        {
+          "url": "/assets/flag-ca.svg",
+          "transferSize": 672,
+          "decodedBodySize": 658
+        },
+        {
+          "url": "/ads.js",
+          "transferSize": 1705,
+          "decodedBodySize": 3042
+        },
+        {
+          "url": "/continuation-ui.js",
+          "transferSize": 1947,
+          "decodedBodySize": 3929
+        },
+        {
+          "url": "/site-ui.js",
+          "transferSize": 1221,
+          "decodedBodySize": 1664
+        },
+        {
+          "url": "/assets/fonts/space-grotesk-latin-v22.woff2",
+          "transferSize": 22588,
+          "decodedBodySize": 22288
+        },
+        {
+          "url": "/assets/hardware/catalog-gpu-oct17/rtx5060ti16-retained.webp",
+          "transferSize": 26932,
+          "decodedBodySize": 26632
+        }
+      ],
+      "errors": [],
+      "assetErrors": [],
+      "screenshot": "home-1440-dark.png"
+    },
+    {
+      "route": "/builder/",
+      "name": "builder",
+      "requestedWidth": 1440,
+      "width": 1440,
+      "theme": "dark",
+      "status": 200,
+      "title": "PC Builder & Compatibility Checker | PC Part Performance",
+      "viewport": 1440,
+      "palette": "midnight",
+      "headerHeight": 80,
+      "h1": "Build your PC",
+      "headings": [
+        "Choose parts",
+        "Core components",
+        "Storage",
+        "Case & cooling",
+        "Build preferences",
+        "Build Readiness Report",
+        "No current total",
+        "Save, compare and share"
+      ],
+      "initialText": "Home\n/\nBuild your PC\nBuild your PC\n\nChoose parts. Explore in 3D. Save your plan.\n\nReset buildTry a starter build\nChoose parts\nExplore build\nReview & save\nChoose parts\nGuided\nExpert\nProcessor\nStep 1 of 10 · Processor\nChoose your first part\n01\nProcessor\nRequired · 164 choices\nChoose primary Processor\nSelect a component\nBack\nContinue\nYour components\nBuild preferences\nBuild preferences\nBudget, workload & display\n\nConfirm exact dimensions, cooling, BIOS, and connectors with the manufacturer. What we check ",
+      "overflows": [],
+      "brokenImages": [],
+      "pendingImages": [],
+      "navigation": [
+        {
+          "responseStart": 32.69999998807907,
+          "domContentLoaded": 267.80000001192093,
+          "transferSize": 8341
+        }
+      ],
+      "assets": [
+        {
+          "url": "/theme.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/assets/css/site-067bd65b65e5.css",
+          "transferSize": 40917,
+          "decodedBodySize": 198632
+        },
+        {
+          "url": "/program-events.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/indexing-policy.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/site-ui.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/oct16-builder-images.js",
+          "transferSize": 791,
+          "decodedBodySize": 917
+        },
+        {
+          "url": "/core.js",
+          "transferSize": 8542,
+          "decodedBodySize": 22576
+        },
+        {
+          "url": "/builder-catalog.js",
+          "transferSize": 41152,
+          "decodedBodySize": 342060
+        },
+        {
+          "url": "/builder-organize.js",
+          "transferSize": 1065,
+          "decodedBodySize": 1622
+        },
+        {
+          "url": "/builder-cooling.js",
+          "transferSize": 2291,
+          "decodedBodySize": 4624
+        },
+        {
+          "url": "/builder-selectors.js",
+          "transferSize": 7161,
+          "decodedBodySize": 17513
+        },
+        {
+          "url": "/model-options.js",
+          "transferSize": 1492,
+          "decodedBodySize": 3421
+        },
+        {
+          "url": "/assembly-3d.js",
+          "transferSize": 6057,
+          "decodedBodySize": 16550
+        },
+        {
+          "url": "/interface.js",
+          "transferSize": 8164,
+          "decodedBodySize": 21609
+        },
+        {
+          "url": "/builder-v2.js",
+          "transferSize": 10114,
+          "decodedBodySize": 29216
+        },
+        {
+          "url": "/compatibility-evidence.js",
+          "transferSize": 14782,
+          "decodedBodySize": 40957
+        },
+        {
+          "url": "/builder-program.js",
+          "transferSize": 11101,
+          "decodedBodySize": 27537
+        },
+        {
+          "url": "/builder-workspace.js",
+          "transferSize": 2024,
+          "decodedBodySize": 3715
+        },
+        {
+          "url": "/shopping.js",
+          "transferSize": 4797,
+          "decodedBodySize": 10862
+        },
+        {
+          "url": "/continuation-ui.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/oct16-builder-journey.js",
+          "transferSize": 3839,
+          "decodedBodySize": 8334
+        },
+        {
+          "url": "/assets/fonts/dm-sans-latin-v17.woff2",
+          "transferSize": 0,
+          "decodedBodySize": 36932
+        },
+        {
+          "url": "/evolution-builder.css",
+          "transferSize": 5100,
+          "decodedBodySize": 22074
+        },
+        {
+          "url": "/evolution-builder.js",
+          "transferSize": 2141,
+          "decodedBodySize": 4220
+        },
+        {
+          "url": "/assets/flag-ca.svg",
+          "transferSize": 0,
+          "decodedBodySize": 658
+        },
+        {
+          "url": "/assets/flag-us.svg",
+          "transferSize": 0,
+          "decodedBodySize": 765
+        },
+        {
+          "url": "/assets/fonts/space-grotesk-latin-v22.woff2",
+          "transferSize": 0,
+          "decodedBodySize": 22288
+        }
+      ],
+      "errors": [],
+      "assetErrors": [],
+      "screenshot": "builder-1440-dark.png"
+    },
+    {
+      "route": "/learn/rtx5070.html",
+      "name": "product",
+      "requestedWidth": 1440,
+      "width": 1440,
+      "theme": "dark",
+      "status": 200,
+      "title": "NVIDIA GeForce RTX 5070: Specs & Compatibility · PC Part Performance",
+      "viewport": 1440,
+      "palette": "midnight",
+      "headerHeight": 80,
+      "h1": "GeForce RTX 5070",
+      "headings": [
+        "Where to buy",
+        "What to know before choosing it",
+        "Specifications",
+        "Model notes",
+        "Use this specification in a decision"
+      ],
+      "initialText": "Home\n/\nHardware\n/\nGeForce RTX 5070\nNVIDIA\nGeForce RTX 5070\n\n12 GB GDDR7\n\nBlackwell\n2025\nCompare this part\nUse in PC builder\nWhere to buy\n\nFind GeForce RTX 5070 at a retailer.\n\nCanada · CAD\nSearch Newegg Canada  Search Newegg USA \n\nEach checked price shows its time and expiry. Morning observations expire after 24 hours. Tax and shipping are extra. Store search results may include other variants or used items; confirm the model before buying. About prices\n\nSave to watchlist\nWhat to know before choosing it\n\nThe RTX 5070 is a 12 GB GDDR7 base GPU specification. Pick the exact partner card before deciding whether it fits your case or matches your PSU cables.\n\nCompare it with the RX 9070 and an exact RTX 5070 board. The useful questions are your game settings, required software features, delivered price and the physical card you can buy. Memory capacity alone cannot establish a performance winner.\n\nSource-checked specifications\nManufacturer specifications for the stated model scope\nSpecification\tValue\tEvidence\nGraphics memory\t12 GB\tNVIDIA specification\nMemory type\tGDDR7\tNVIDIA specification\nMemory interface\t192 bit\tNVIDIA specification\nTotal graphics power\t250 W\nReference specification; system power is a different quantity.\n\tNVIDIA specification\nBoost clock\t2.51 GHz\nReference gaming clock; partner clocks vary.\n\tNVIDIA specification\nExact partner dimensions\tNeeds verification\tUnknown\nCheck in your build\nPartner-card length, height, thickness and connector position are not established by this base record.\nCheck the exact card manual and the case layout with planned radiators and ca",
+      "overflows": [],
+      "brokenImages": [],
+      "pendingImages": [],
+      "navigation": [
+        {
+          "responseStart": 43,
+          "domContentLoaded": 225.19999998807907,
+          "transferSize": 7506
+        }
+      ],
+      "assets": [
+        {
+          "url": "/theme.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/assets/css/site-2c9d0b10cbfa.css",
+          "transferSize": 23277,
+          "decodedBodySize": 103687
+        },
+        {
+          "url": "/program-events.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/site-ui.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/indexing-policy.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/publication-ui.js",
+          "transferSize": 2858,
+          "decodedBodySize": 5762
+        },
+        {
+          "url": "/continuation-ui.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/program-retention.js",
+          "transferSize": 1369,
+          "decodedBodySize": 1983
+        },
+        {
+          "url": "/assets/fonts/dm-sans-latin-v17.woff2",
+          "transferSize": 0,
+          "decodedBodySize": 36932
+        },
+        {
+          "url": "/assets/flag-ca.svg",
+          "transferSize": 0,
+          "decodedBodySize": 658
+        },
+        {
+          "url": "/assets/flag-us.svg",
+          "transferSize": 0,
+          "decodedBodySize": 765
+        },
+        {
+          "url": "/assets/hardware/catalog-gpu-oct17/rtx5070-retained.webp",
+          "transferSize": 0,
+          "decodedBodySize": 34444
+        },
+        {
+          "url": "/assets/fonts/space-grotesk-latin-v22.woff2",
+          "transferSize": 0,
+          "decodedBodySize": 22288
+        }
+      ],
+      "errors": [],
+      "assetErrors": [],
+      "screenshot": "product-1440-dark.png"
+    },
+    {
+      "route": "/phones/size-compare/",
+      "name": "phones",
+      "requestedWidth": 1440,
+      "width": 1440,
+      "theme": "dark",
+      "status": 200,
+      "title": "Compare phone designs and sizes · PC Part Performance",
+      "viewport": 1440,
+      "palette": "midnight",
+      "headerHeight": 80,
+      "h1": "Compare phones",
+      "headings": [
+        "iPhone 16",
+        "Pixel 9",
+        "Side by side",
+        "Dimensions"
+      ],
+      "initialText": "Home\n/\nPhones\n/\nCompare phones\nPhones\nBrowse models\nSoftware support\nCompare phones\n\nChoose two phones. Switch between size, 3D and specifications.\n\nFirst phone\niPhone 16\nSwap\nSecond phone\nPixel 9\n3D views\nSize\nSpecs\n\nCompare verified body dimensions at the same scale.\n\nSide by side\nOverlay phones\niPhone 16\nPixel 9\n\nSame-scale outlines. Not actual size on your screen.\n\nDimensions\nChoose two phones to compare their dimensions.\nShare comparison",
+      "overflows": [],
+      "brokenImages": [],
+      "pendingImages": [],
+      "navigation": [
+        {
+          "responseStart": 40.90000003576279,
+          "domContentLoaded": 155,
+          "transferSize": 8224
+        }
+      ],
+      "assets": [
+        {
+          "url": "/theme.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/assets/css/site-6caeb48803d0.css",
+          "transferSize": 30752,
+          "decodedBodySize": 142879
+        },
+        {
+          "url": "/program-events.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/indexing-policy.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/site-ui.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/planning-math.js",
+          "transferSize": 1514,
+          "decodedBodySize": 2284
+        },
+        {
+          "url": "/research-tools.js",
+          "transferSize": 961,
+          "decodedBodySize": 1085
+        },
+        {
+          "url": "/phone-comparison.js",
+          "transferSize": 4226,
+          "decodedBodySize": 10170
+        },
+        {
+          "url": "/select-ui.js",
+          "transferSize": 3797,
+          "decodedBodySize": 9003
+        },
+        {
+          "url": "/publication-ui.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/continuation-ui.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/phone-preview.js",
+          "transferSize": 2896,
+          "decodedBodySize": 6420
+        },
+        {
+          "url": "/assets/fonts/dm-sans-latin-v17.woff2",
+          "transferSize": 0,
+          "decodedBodySize": 36932
+        },
+        {
+          "url": "/ads.css",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/assets/flag-ca.svg",
+          "transferSize": 0,
+          "decodedBodySize": 658
+        },
+        {
+          "url": "/ads.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/assets/flag-us.svg",
+          "transferSize": 0,
+          "decodedBodySize": 765
+        },
+        {
+          "url": "/assets/fonts/space-grotesk-latin-v22.woff2",
+          "transferSize": 0,
+          "decodedBodySize": 22288
+        }
+      ],
+      "errors": [],
+      "assetErrors": [],
+      "screenshot": "phones-1440-dark.png"
+    },
+    {
+      "route": "/",
+      "name": "home",
+      "requestedWidth": 390,
+      "width": 390,
+      "theme": "light",
+      "status": 200,
+      "title": "PC Builder, Part Comparisons & Upgrade Planning | PC Part Performance",
+      "viewport": 390,
+      "palette": "arctic",
+      "headerHeight": 72,
+      "h1": "Build smarter. Upgrade with confidence.",
+      "headings": [
+        "Understand the connections.",
+        "RTX 5070 vs RTX 5060 Ti",
+        "The upgrade desk",
+        "Explore the hardware",
+        "Before you buy",
+        "Explore the details",
+        "Use the numbers that matter",
+        "Useful reading before the next purchase",
+        "Source-led hardware reports"
+      ],
+      "initialText": "Build smarter.\nUpgrade with confidence.\n\nChoose your parts. Check compatibility and costs before you buy.\n\nBuild a PC\nUpgrade my PC\nCompare parts\n\nNew to building?\n·\nYour saved work\n\nChoose parts\nExplore in 3D\nReview & save\nFind a part, guide or tool\nTry RTX 5070, BIOS support, or first boot\n\nExample build review\n\nUnderstand the connections.\n\nSee the connections that match and the checks to finish before buying.\n\nCPU socket\nDocumented match\nBIOS & clearances\nExact support still needs checking\nSee your build report\nAll comparisons\nRTX 5070 vs RTX 5060 Ti\n\nTwo Blackwell GPUs. Different memory, power, and priorities.\n\nGeForce RTX 5070\n12 GB GDDR7\nVS\nGeForce RTX 5060 Ti\n16 GB GDDR7\n\nMore VRAM doesn’t tell the whole story.See the specifications side by side.\n\nCompare these GPUs\nThe upgrade desk\nGRAPHICS\nWhat actually matters in a graphics card?\n\nStart with VRAM, bandwidth, and board power.\n\nRead the GPU guide\nPROCESSORS\nThere’s more to a CPU than GHz.\n\nGet to know cores, clocks, and platform support.\n\nRead the CPU guide\nPlanning a whole PC?\n\nChoose parts and check how they fit together.\n\nOpen PC builder\nCompare phonesSee size, specs and 3D\nFind a prebuilt PCBrowse real configurations\nExplore Game FPSPC and console performance\nExplore the hardware\nBrowse all 1,236 parts\n165 PARTS\nGraphics cards\n\nVideo memory, power & architecture\n\n167 PARTS\nProcessors\n\nCores, clocks & platform\n\n66 PARTS\nMemory\n\nCapacity, speed & generation\n\n78 PARTS\nSolid-state drives\n\nCapacity, interface & endurance\n\nBefore you buy\nAll hardware guides\n01 / GAME FPS\nWhat performance can you target?\n\nCheck the evi",
+      "overflows": [],
+      "brokenImages": [],
+      "pendingImages": [],
+      "navigation": [
+        {
+          "responseStart": 103.70000004768372,
+          "domContentLoaded": 266.10000002384186,
+          "transferSize": 10245
+        }
+      ],
+      "assets": [
+        {
+          "url": "/theme.js",
+          "transferSize": 2096,
+          "decodedBodySize": 4311
+        },
+        {
+          "url": "/assets/css/site-179616743c41.css",
+          "transferSize": 26977,
+          "decodedBodySize": 122063
+        },
+        {
+          "url": "/program-events.js",
+          "transferSize": 1283,
+          "decodedBodySize": 1795
+        },
+        {
+          "url": "/indexing-policy.js",
+          "transferSize": 855,
+          "decodedBodySize": 926
+        },
+        {
+          "url": "/site-ui.js",
+          "transferSize": 1221,
+          "decodedBodySize": 1664
+        },
+        {
+          "url": "/ads.css",
+          "transferSize": 870,
+          "decodedBodySize": 1163
+        },
+        {
+          "url": "/continuation-ui.js",
+          "transferSize": 1947,
+          "decodedBodySize": 3929
+        },
+        {
+          "url": "/assets/fonts/dm-sans-latin-v17.woff2",
+          "transferSize": 37232,
+          "decodedBodySize": 36932
+        },
+        {
+          "url": "/ads.js",
+          "transferSize": 1705,
+          "decodedBodySize": 3042
+        },
+        {
+          "url": "/assets/flag-us.svg",
+          "transferSize": 656,
+          "decodedBodySize": 765
+        },
+        {
+          "url": "/assets/flag-ca.svg",
+          "transferSize": 672,
+          "decodedBodySize": 658
+        },
+        {
+          "url": "/assets/hardware/catalog-gpu-oct17/rtx5070-retained.webp",
+          "transferSize": 34744,
+          "decodedBodySize": 34444
+        },
+        {
+          "url": "/assets/fonts/space-grotesk-latin-v22.woff2",
+          "transferSize": 22588,
+          "decodedBodySize": 22288
+        }
+      ],
+      "errors": [],
+      "assetErrors": [],
+      "screenshot": "home-390-light.png"
+    },
+    {
+      "route": "/",
+      "state": "mobile menu",
+      "width": 390,
+      "theme": "light",
+      "screenshot": "menu-390-light.png",
+      "mainInert": true
+    },
+    {
+      "route": "/builder/",
+      "name": "builder",
+      "requestedWidth": 390,
+      "width": 390,
+      "theme": "light",
+      "status": 200,
+      "title": "PC Builder & Compatibility Checker | PC Part Performance",
+      "viewport": 390,
+      "palette": "arctic",
+      "headerHeight": 72,
+      "h1": "Build your PC",
+      "headings": [
+        "Choose parts",
+        "Core components",
+        "Storage",
+        "Case & cooling",
+        "Build preferences",
+        "Build Readiness Report",
+        "No current total",
+        "Save, compare and share"
+      ],
+      "initialText": "Home\n/\nBuild your PC\nBuild your PC\n\nChoose parts. Explore in 3D. Save your plan.\n\nReset build\nTry a starter build\nChoose parts\nExplore build\nReview & save\nChoose parts\nGuided\nExpert\nProcessor\nStep 1 of 10 · Processor\nChoose your first part\n01\nProcessor\nRequired · 164 choices\nChoose primary Processor\nSelect a component\nBack\nContinue\nYour components\nBuild preferences\nBuild preferences\n\nConfirm exact dimensions, cooling, BIOS, and connectors with the manufacturer. What we check ",
+      "overflows": [],
+      "brokenImages": [],
+      "pendingImages": [],
+      "navigation": [
+        {
+          "responseStart": 44.39999997615814,
+          "domContentLoaded": 234.80000001192093,
+          "transferSize": 8266
+        }
+      ],
+      "assets": [
+        {
+          "url": "/theme.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/assets/css/site-067bd65b65e5.css",
+          "transferSize": 40966,
+          "decodedBodySize": 198632
+        },
+        {
+          "url": "/program-events.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/site-ui.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/oct16-builder-images.js",
+          "transferSize": 791,
+          "decodedBodySize": 917
+        },
+        {
+          "url": "/indexing-policy.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/builder-catalog.js",
+          "transferSize": 41133,
+          "decodedBodySize": 342060
+        },
+        {
+          "url": "/model-options.js",
+          "transferSize": 1492,
+          "decodedBodySize": 3421
+        },
+        {
+          "url": "/core.js",
+          "transferSize": 8564,
+          "decodedBodySize": 22576
+        },
+        {
+          "url": "/interface.js",
+          "transferSize": 8164,
+          "decodedBodySize": 21609
+        },
+        {
+          "url": "/builder-organize.js",
+          "transferSize": 1065,
+          "decodedBodySize": 1622
+        },
+        {
+          "url": "/compatibility-evidence.js",
+          "transferSize": 14793,
+          "decodedBodySize": 40957
+        },
+        {
+          "url": "/assembly-3d.js",
+          "transferSize": 6057,
+          "decodedBodySize": 16550
+        },
+        {
+          "url": "/builder-selectors.js",
+          "transferSize": 7127,
+          "decodedBodySize": 17513
+        },
+        {
+          "url": "/builder-workspace.js",
+          "transferSize": 2024,
+          "decodedBodySize": 3715
+        },
+        {
+          "url": "/shopping.js",
+          "transferSize": 4797,
+          "decodedBodySize": 10862
+        },
+        {
+          "url": "/builder-program.js",
+          "transferSize": 11152,
+          "decodedBodySize": 27537
+        },
+        {
+          "url": "/builder-v2.js",
+          "transferSize": 10041,
+          "decodedBodySize": 29216
+        },
+        {
+          "url": "/builder-cooling.js",
+          "transferSize": 2291,
+          "decodedBodySize": 4624
+        },
+        {
+          "url": "/oct16-builder-journey.js",
+          "transferSize": 3897,
+          "decodedBodySize": 8334
+        },
+        {
+          "url": "/continuation-ui.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/assets/fonts/dm-sans-latin-v17.woff2",
+          "transferSize": 0,
+          "decodedBodySize": 36932
+        },
+        {
+          "url": "/evolution-builder.css",
+          "transferSize": 5094,
+          "decodedBodySize": 22074
+        },
+        {
+          "url": "/evolution-builder.js",
+          "transferSize": 2141,
+          "decodedBodySize": 4220
+        },
+        {
+          "url": "/assets/flag-ca.svg",
+          "transferSize": 0,
+          "decodedBodySize": 658
+        },
+        {
+          "url": "/assets/flag-us.svg",
+          "transferSize": 0,
+          "decodedBodySize": 765
+        },
+        {
+          "url": "/assets/fonts/space-grotesk-latin-v22.woff2",
+          "transferSize": 0,
+          "decodedBodySize": 22288
+        }
+      ],
+      "errors": [],
+      "assetErrors": [],
+      "screenshot": "builder-390-light.png"
+    },
+    {
+      "route": "/builder/",
+      "state": "picker CPU",
+      "width": 390,
+      "theme": "light",
+      "screenshot": "picker-cpu-390-light.png",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 844
+      },
+      "activeElement": {
+        "tag": "DIV",
+        "role": "listbox"
+      }
+    },
+    {
+      "route": "/builder/",
+      "state": "picker Power supply",
+      "width": 390,
+      "theme": "light",
+      "screenshot": "picker-psu-390-light.png",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 844
+      },
+      "activeElement": {
+        "tag": "DIV",
+        "role": "listbox"
+      }
+    },
+    {
+      "route": "/learn/rtx5070.html",
+      "name": "product",
+      "requestedWidth": 390,
+      "width": 390,
+      "theme": "light",
+      "status": 200,
+      "title": "NVIDIA GeForce RTX 5070: Specs & Compatibility · PC Part Performance",
+      "viewport": 390,
+      "palette": "arctic",
+      "headerHeight": 72,
+      "h1": "GeForce RTX 5070",
+      "headings": [
+        "Where to buy",
+        "What to know before choosing it",
+        "Specifications",
+        "Model notes",
+        "Use this specification in a decision"
+      ],
+      "initialText": "Home\n/\nHardware\n/\nGeForce RTX 5070\nNVIDIA\nGeForce RTX 5070\n\n12 GB GDDR7\n\nBlackwell\n2025\nCompare this part\nUse in PC builder\nWhere to buy\n\nFind GeForce RTX 5070 at a retailer.\n\nCanada · CAD\nSearch Newegg Canada  Search Newegg USA \n\nEach checked price shows its time and expiry. Morning observations expire after 24 hours. Tax and shipping are extra. Store search results may include other variants or used items; confirm the model before buying. About prices\n\nSave to watchlist\nWhat to know before choosing it\n\nThe RTX 5070 is a 12 GB GDDR7 base GPU specification. Pick the exact partner card before deciding whether it fits your case or matches your PSU cables.\n\nCompare it with the RX 9070 and an exact RTX 5070 board. The useful questions are your game settings, required software features, delivered price and the physical card you can buy. Memory capacity alone cannot establish a performance winner.\n\nSource-checked specifications\nManufacturer specifications for the stated model scope\nSpecification\tValue\tEvidence\nGraphics memory\t12 GB\tNVIDIA specification\nMemory type\tGDDR7\tNVIDIA specification\nMemory interface\t192 bit\tNVIDIA specification\nTotal graphics power\t250 W\nReference specification; system power is a different quantity.\n\tNVIDIA specification\nBoost clock\t2.51 GHz\nReference gaming clock; partner clocks vary.\n\tNVIDIA specification\nExact partner dimensions\tNeeds verification\tUnknown\nCheck in your build\nPartner-card length, height, thickness and connector position are not established by this base record.\nCheck the exact card manual and the case layout with planned radiators and ca",
+      "overflows": [],
+      "brokenImages": [],
+      "pendingImages": [],
+      "navigation": [
+        {
+          "responseStart": 29,
+          "domContentLoaded": 130.19999998807907,
+          "transferSize": 7506
+        }
+      ],
+      "assets": [
+        {
+          "url": "/theme.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/assets/css/site-2c9d0b10cbfa.css",
+          "transferSize": 23385,
+          "decodedBodySize": 103687
+        },
+        {
+          "url": "/site-ui.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/indexing-policy.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/program-events.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/program-retention.js",
+          "transferSize": 1369,
+          "decodedBodySize": 1983
+        },
+        {
+          "url": "/publication-ui.js",
+          "transferSize": 2858,
+          "decodedBodySize": 5762
+        },
+        {
+          "url": "/assets/fonts/dm-sans-latin-v17.woff2",
+          "transferSize": 0,
+          "decodedBodySize": 36932
+        },
+        {
+          "url": "/continuation-ui.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/assets/flag-ca.svg",
+          "transferSize": 0,
+          "decodedBodySize": 658
+        },
+        {
+          "url": "/assets/flag-us.svg",
+          "transferSize": 0,
+          "decodedBodySize": 765
+        },
+        {
+          "url": "/assets/hardware/catalog-gpu-oct17/rtx5070-retained.webp",
+          "transferSize": 0,
+          "decodedBodySize": 34444
+        },
+        {
+          "url": "/assets/fonts/space-grotesk-latin-v22.woff2",
+          "transferSize": 0,
+          "decodedBodySize": 22288
+        }
+      ],
+      "errors": [],
+      "assetErrors": [],
+      "screenshot": "product-390-light.png"
+    },
+    {
+      "route": "/phones/size-compare/",
+      "name": "phones",
+      "requestedWidth": 390,
+      "width": 390,
+      "theme": "light",
+      "status": 200,
+      "title": "Compare phone designs and sizes · PC Part Performance",
+      "viewport": 390,
+      "palette": "arctic",
+      "headerHeight": 72,
+      "h1": "Compare phones",
+      "headings": [
+        "iPhone 16",
+        "Pixel 9",
+        "Side by side",
+        "Dimensions"
+      ],
+      "initialText": "Home\n/\nPhones\n/\nCompare phones\nPhones\nBrowse models\nSoftware support\nCompare phones\n\nChoose two phones. Switch between size, 3D and specifications.\n\nFirst phone\niPhone 16\nSwap\nSecond phone\nPixel 9\n3D views\nSize\nSpecs\nSide by side\nOverlay phones\niPhone 16\nPixel 9\n\nSame-scale outlines. Not actual size on your screen.\n\nDimensions\nChoose two phones to compare their dimensions.\nShare comparison",
+      "overflows": [],
+      "brokenImages": [],
+      "pendingImages": [],
+      "navigation": [
+        {
+          "responseStart": 27.5,
+          "domContentLoaded": 128.30000001192093,
+          "transferSize": 8241
+        }
+      ],
+      "assets": [
+        {
+          "url": "/theme.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/assets/css/site-6caeb48803d0.css",
+          "transferSize": 30703,
+          "decodedBodySize": 142879
+        },
+        {
+          "url": "/program-events.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/site-ui.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/research-tools.js",
+          "transferSize": 961,
+          "decodedBodySize": 1085
+        },
+        {
+          "url": "/indexing-policy.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/planning-math.js",
+          "transferSize": 1514,
+          "decodedBodySize": 2284
+        },
+        {
+          "url": "/phone-comparison.js",
+          "transferSize": 4289,
+          "decodedBodySize": 10170
+        },
+        {
+          "url": "/publication-ui.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/select-ui.js",
+          "transferSize": 3797,
+          "decodedBodySize": 9003
+        },
+        {
+          "url": "/phone-preview.js",
+          "transferSize": 2896,
+          "decodedBodySize": 6420
+        },
+        {
+          "url": "/continuation-ui.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/assets/fonts/dm-sans-latin-v17.woff2",
+          "transferSize": 0,
+          "decodedBodySize": 36932
+        },
+        {
+          "url": "/ads.css",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/ads.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/assets/flag-ca.svg",
+          "transferSize": 0,
+          "decodedBodySize": 658
+        },
+        {
+          "url": "/assets/flag-us.svg",
+          "transferSize": 0,
+          "decodedBodySize": 765
+        },
+        {
+          "url": "/assets/fonts/space-grotesk-latin-v22.woff2",
+          "transferSize": 0,
+          "decodedBodySize": 22288
+        }
+      ],
+      "errors": [],
+      "assetErrors": [],
+      "screenshot": "phones-390-light.png"
+    },
+    {
+      "route": "/",
+      "name": "home",
+      "requestedWidth": 1440,
+      "width": 1440,
+      "theme": "light",
+      "status": 200,
+      "title": "PC Builder, Part Comparisons & Upgrade Planning | PC Part Performance",
+      "viewport": 1440,
+      "palette": "arctic",
+      "headerHeight": 80,
+      "h1": "Build smarter. Upgrade with confidence.",
+      "headings": [
+        "Understand the connections.",
+        "RTX 5070 vs RTX 5060 Ti",
+        "The upgrade desk",
+        "Explore the hardware",
+        "Before you buy",
+        "Explore the details",
+        "Use the numbers that matter",
+        "Useful reading before the next purchase",
+        "Source-led hardware reports"
+      ],
+      "initialText": "Build smarter.\nUpgrade with confidence.\n\nChoose your parts. Check compatibility and costs before you buy.\n\nBuild a PC\nUpgrade my PC\nCompare parts\n\nNew to building?\n·\nYour saved work\n\nPROCESSOR\nYOUR BUILD\nAIRFLOW\nGRAPHICS\nChoose parts\nExplore in 3D\nReview & save\nFind a part, guide or tool\nTry RTX 5070, BIOS support, or first boot\n\nExample build review\n\nUnderstand the connections.\n\nSee the connections that match and the checks to finish before buying.\n\nCPU socket\nDocumented match\nBIOS & clearances\nExact support still needs checking\nSee your build report\nAll comparisons\nRTX 5070 vs RTX 5060 Ti\n\nTwo Blackwell GPUs. Different memory, power, and priorities.\n\nGeForce RTX 5070\n12 GB GDDR7\nVS\nGeForce RTX 5060 Ti\n16 GB GDDR7\n\nMore VRAM doesn’t tell the whole story.\nSee the specifications side by side.\n\nCompare these GPUs\nThe upgrade desk\nGRAPHICS\nWhat actually matters in a graphics card?\n\nStart with VRAM, bandwidth, and board power.\n\nRead the GPU guide\nPROCESSORS\nThere’s more to a CPU than GHz.\n\nGet to know cores, clocks, and platform support.\n\nRead the CPU guide\nPlanning a whole PC?\n\nChoose parts and check how they fit together.\n\nOpen PC builder\nCompare phonesSee size, specs and 3D\nFind a prebuilt PCBrowse real configurations\nExplore Game FPSPC and console performance\nExplore the hardware\nBrowse all 1,236 parts\n165 PARTS\nGraphics cards\n\nVideo memory, power & architecture\n\n167 PARTS\nProcessors\n\nCores, clocks & platform\n\n66 PARTS\nMemory\n\nCapacity, speed & generation\n\n78 PARTS\nSolid-state drives\n\nCapacity, interface & endurance\n\nBefore you buy\nAll hardware guides\n01 / GAME FPS\nWhat per",
+      "overflows": [],
+      "brokenImages": [],
+      "pendingImages": [],
+      "navigation": [
+        {
+          "responseStart": 88.69999998807907,
+          "domContentLoaded": 282.30000001192093,
+          "transferSize": 10305
+        }
+      ],
+      "assets": [
+        {
+          "url": "/theme.js",
+          "transferSize": 2096,
+          "decodedBodySize": 4311
+        },
+        {
+          "url": "/assets/css/site-179616743c41.css",
+          "transferSize": 27056,
+          "decodedBodySize": 122063
+        },
+        {
+          "url": "/program-events.js",
+          "transferSize": 1283,
+          "decodedBodySize": 1795
+        },
+        {
+          "url": "/site-ui.js",
+          "transferSize": 1221,
+          "decodedBodySize": 1664
+        },
+        {
+          "url": "/indexing-policy.js",
+          "transferSize": 855,
+          "decodedBodySize": 926
+        },
+        {
+          "url": "/assets/fonts/dm-sans-latin-v17.woff2",
+          "transferSize": 37232,
+          "decodedBodySize": 36932
+        },
+        {
+          "url": "/continuation-ui.js",
+          "transferSize": 1947,
+          "decodedBodySize": 3929
+        },
+        {
+          "url": "/ads.css",
+          "transferSize": 870,
+          "decodedBodySize": 1163
+        },
+        {
+          "url": "/ads.js",
+          "transferSize": 1705,
+          "decodedBodySize": 3042
+        },
+        {
+          "url": "/assets/flag-ca.svg",
+          "transferSize": 672,
+          "decodedBodySize": 658
+        },
+        {
+          "url": "/assets/hardware/catalog-gpu-oct17/rtx5070-retained.webp",
+          "transferSize": 34744,
+          "decodedBodySize": 34444
+        },
+        {
+          "url": "/assets/flag-us.svg",
+          "transferSize": 656,
+          "decodedBodySize": 765
+        },
+        {
+          "url": "/assets/fonts/space-grotesk-latin-v22.woff2",
+          "transferSize": 22588,
+          "decodedBodySize": 22288
+        }
+      ],
+      "errors": [],
+      "assetErrors": [],
+      "screenshot": "home-1440-light.png"
+    },
+    {
+      "route": "/builder/",
+      "name": "builder",
+      "requestedWidth": 1440,
+      "width": 1440,
+      "theme": "light",
+      "status": 200,
+      "title": "PC Builder & Compatibility Checker | PC Part Performance",
+      "viewport": 1440,
+      "palette": "arctic",
+      "headerHeight": 80,
+      "h1": "Build your PC",
+      "headings": [
+        "Choose parts",
+        "Core components",
+        "Storage",
+        "Case & cooling",
+        "Build preferences",
+        "Build Readiness Report",
+        "No current total",
+        "Save, compare and share"
+      ],
+      "initialText": "Home\n/\nBuild your PC\nBuild your PC\n\nChoose parts. Explore in 3D. Save your plan.\n\nReset buildTry a starter build\nChoose parts\nExplore build\nReview & save\nChoose parts\nGuided\nExpert\nProcessor\nStep 1 of 10 · Processor\nChoose your first part\n01\nProcessor\nRequired · 164 choices\nChoose primary Processor\nSelect a component\nBack\nContinue\nYour components\nBuild preferences\nBuild preferences\nBudget, workload & display\n\nConfirm exact dimensions, cooling, BIOS, and connectors with the manufacturer. What we check ",
+      "overflows": [],
+      "brokenImages": [],
+      "pendingImages": [],
+      "navigation": [
+        {
+          "responseStart": 39.39999997615814,
+          "domContentLoaded": 309.19999998807907,
+          "transferSize": 8272
+        }
+      ],
+      "assets": [
+        {
+          "url": "/theme.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/assets/css/site-067bd65b65e5.css",
+          "transferSize": 40917,
+          "decodedBodySize": 198632
+        },
+        {
+          "url": "/program-events.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/site-ui.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/indexing-policy.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/builder-catalog.js",
+          "transferSize": 41058,
+          "decodedBodySize": 342060
+        },
+        {
+          "url": "/oct16-builder-images.js",
+          "transferSize": 791,
+          "decodedBodySize": 917
+        },
+        {
+          "url": "/core.js",
+          "transferSize": 8542,
+          "decodedBodySize": 22576
+        },
+        {
+          "url": "/interface.js",
+          "transferSize": 8226,
+          "decodedBodySize": 21609
+        },
+        {
+          "url": "/builder-organize.js",
+          "transferSize": 1065,
+          "decodedBodySize": 1622
+        },
+        {
+          "url": "/model-options.js",
+          "transferSize": 1492,
+          "decodedBodySize": 3421
+        },
+        {
+          "url": "/compatibility-evidence.js",
+          "transferSize": 14782,
+          "decodedBodySize": 40957
+        },
+        {
+          "url": "/assembly-3d.js",
+          "transferSize": 6110,
+          "decodedBodySize": 16550
+        },
+        {
+          "url": "/builder-v2.js",
+          "transferSize": 10041,
+          "decodedBodySize": 29216
+        },
+        {
+          "url": "/builder-cooling.js",
+          "transferSize": 2291,
+          "decodedBodySize": 4624
+        },
+        {
+          "url": "/builder-selectors.js",
+          "transferSize": 7127,
+          "decodedBodySize": 17513
+        },
+        {
+          "url": "/builder-workspace.js",
+          "transferSize": 2024,
+          "decodedBodySize": 3715
+        },
+        {
+          "url": "/shopping.js",
+          "transferSize": 4797,
+          "decodedBodySize": 10862
+        },
+        {
+          "url": "/builder-program.js",
+          "transferSize": 11107,
+          "decodedBodySize": 27537
+        },
+        {
+          "url": "/continuation-ui.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/oct16-builder-journey.js",
+          "transferSize": 3839,
+          "decodedBodySize": 8334
+        },
+        {
+          "url": "/assets/fonts/dm-sans-latin-v17.woff2",
+          "transferSize": 0,
+          "decodedBodySize": 36932
+        },
+        {
+          "url": "/evolution-builder.css",
+          "transferSize": 5031,
+          "decodedBodySize": 22074
+        },
+        {
+          "url": "/evolution-builder.js",
+          "transferSize": 2141,
+          "decodedBodySize": 4220
+        },
+        {
+          "url": "/assets/flag-ca.svg",
+          "transferSize": 0,
+          "decodedBodySize": 658
+        },
+        {
+          "url": "/assets/flag-us.svg",
+          "transferSize": 0,
+          "decodedBodySize": 765
+        },
+        {
+          "url": "/assets/fonts/space-grotesk-latin-v22.woff2",
+          "transferSize": 0,
+          "decodedBodySize": 22288
+        }
+      ],
+      "errors": [],
+      "assetErrors": [],
+      "screenshot": "builder-1440-light.png"
+    },
+    {
+      "route": "/learn/rtx5070.html",
+      "name": "product",
+      "requestedWidth": 1440,
+      "width": 1440,
+      "theme": "light",
+      "status": 200,
+      "title": "NVIDIA GeForce RTX 5070: Specs & Compatibility · PC Part Performance",
+      "viewport": 1440,
+      "palette": "arctic",
+      "headerHeight": 80,
+      "h1": "GeForce RTX 5070",
+      "headings": [
+        "Where to buy",
+        "What to know before choosing it",
+        "Specifications",
+        "Model notes",
+        "Use this specification in a decision"
+      ],
+      "initialText": "Home\n/\nHardware\n/\nGeForce RTX 5070\nNVIDIA\nGeForce RTX 5070\n\n12 GB GDDR7\n\nBlackwell\n2025\nCompare this part\nUse in PC builder\nWhere to buy\n\nFind GeForce RTX 5070 at a retailer.\n\nCanada · CAD\nSearch Newegg Canada  Search Newegg USA \n\nEach checked price shows its time and expiry. Morning observations expire after 24 hours. Tax and shipping are extra. Store search results may include other variants or used items; confirm the model before buying. About prices\n\nSave to watchlist\nWhat to know before choosing it\n\nThe RTX 5070 is a 12 GB GDDR7 base GPU specification. Pick the exact partner card before deciding whether it fits your case or matches your PSU cables.\n\nCompare it with the RX 9070 and an exact RTX 5070 board. The useful questions are your game settings, required software features, delivered price and the physical card you can buy. Memory capacity alone cannot establish a performance winner.\n\nSource-checked specifications\nManufacturer specifications for the stated model scope\nSpecification\tValue\tEvidence\nGraphics memory\t12 GB\tNVIDIA specification\nMemory type\tGDDR7\tNVIDIA specification\nMemory interface\t192 bit\tNVIDIA specification\nTotal graphics power\t250 W\nReference specification; system power is a different quantity.\n\tNVIDIA specification\nBoost clock\t2.51 GHz\nReference gaming clock; partner clocks vary.\n\tNVIDIA specification\nExact partner dimensions\tNeeds verification\tUnknown\nCheck in your build\nPartner-card length, height, thickness and connector position are not established by this base record.\nCheck the exact card manual and the case layout with planned radiators and ca",
+      "overflows": [],
+      "brokenImages": [],
+      "pendingImages": [],
+      "navigation": [
+        {
+          "responseStart": 69.09999996423721,
+          "domContentLoaded": 223.0999999642372,
+          "transferSize": 7586
+        }
+      ],
+      "assets": [
+        {
+          "url": "/theme.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/assets/css/site-2c9d0b10cbfa.css",
+          "transferSize": 23321,
+          "decodedBodySize": 103687
+        },
+        {
+          "url": "/program-events.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/assets/fonts/dm-sans-latin-v17.woff2",
+          "transferSize": 0,
+          "decodedBodySize": 36932
+        },
+        {
+          "url": "/indexing-policy.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/publication-ui.js",
+          "transferSize": 2858,
+          "decodedBodySize": 5762
+        },
+        {
+          "url": "/program-retention.js",
+          "transferSize": 1369,
+          "decodedBodySize": 1983
+        },
+        {
+          "url": "/site-ui.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/continuation-ui.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/assets/flag-ca.svg",
+          "transferSize": 0,
+          "decodedBodySize": 658
+        },
+        {
+          "url": "/assets/flag-us.svg",
+          "transferSize": 0,
+          "decodedBodySize": 765
+        },
+        {
+          "url": "/assets/hardware/catalog-gpu-oct17/rtx5070-retained.webp",
+          "transferSize": 0,
+          "decodedBodySize": 34444
+        },
+        {
+          "url": "/assets/fonts/space-grotesk-latin-v22.woff2",
+          "transferSize": 0,
+          "decodedBodySize": 22288
+        }
+      ],
+      "errors": [],
+      "assetErrors": [],
+      "screenshot": "product-1440-light.png"
+    },
+    {
+      "route": "/phones/size-compare/",
+      "name": "phones",
+      "requestedWidth": 1440,
+      "width": 1440,
+      "theme": "light",
+      "status": 200,
+      "title": "Compare phone designs and sizes · PC Part Performance",
+      "viewport": 1440,
+      "palette": "arctic",
+      "headerHeight": 80,
+      "h1": "Compare phones",
+      "headings": [
+        "iPhone 16",
+        "Pixel 9",
+        "Side by side",
+        "Dimensions"
+      ],
+      "initialText": "Home\n/\nPhones\n/\nCompare phones\nPhones\nBrowse models\nSoftware support\nCompare phones\n\nChoose two phones. Switch between size, 3D and specifications.\n\nFirst phone\niPhone 16\nSwap\nSecond phone\nPixel 9\n3D views\nSize\nSpecs\n\nCompare verified body dimensions at the same scale.\n\nSide by side\nOverlay phones\niPhone 16\nPixel 9\n\nSame-scale outlines. Not actual size on your screen.\n\nDimensions\nChoose two phones to compare their dimensions.\nShare comparison",
+      "overflows": [],
+      "brokenImages": [],
+      "pendingImages": [],
+      "navigation": [
+        {
+          "responseStart": 26.899999976158142,
+          "domContentLoaded": 170.5,
+          "transferSize": 8176
+        }
+      ],
+      "assets": [
+        {
+          "url": "/theme.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/assets/css/site-6caeb48803d0.css",
+          "transferSize": 30703,
+          "decodedBodySize": 142879
+        },
+        {
+          "url": "/program-events.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/indexing-policy.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/publication-ui.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/planning-math.js",
+          "transferSize": 1514,
+          "decodedBodySize": 2284
+        },
+        {
+          "url": "/research-tools.js",
+          "transferSize": 961,
+          "decodedBodySize": 1085
+        },
+        {
+          "url": "/site-ui.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/select-ui.js",
+          "transferSize": 3868,
+          "decodedBodySize": 9003
+        },
+        {
+          "url": "/phone-preview.js",
+          "transferSize": 2896,
+          "decodedBodySize": 6420
+        },
+        {
+          "url": "/phone-comparison.js",
+          "transferSize": 4226,
+          "decodedBodySize": 10170
+        },
+        {
+          "url": "/assets/fonts/dm-sans-latin-v17.woff2",
+          "transferSize": 0,
+          "decodedBodySize": 36932
+        },
+        {
+          "url": "/ads.css",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/continuation-ui.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/assets/flag-ca.svg",
+          "transferSize": 0,
+          "decodedBodySize": 658
+        },
+        {
+          "url": "/ads.js",
+          "transferSize": 300,
+          "decodedBodySize": 0
+        },
+        {
+          "url": "/assets/flag-us.svg",
+          "transferSize": 0,
+          "decodedBodySize": 765
+        },
+        {
+          "url": "/assets/fonts/space-grotesk-latin-v22.woff2",
+          "transferSize": 0,
+          "decodedBodySize": 22288
+        }
+      ],
+      "errors": [],
+      "assetErrors": [],
+      "screenshot": "phones-1440-light.png"
+    }
+  ],
+  "scope": "Isolated headless Edge, emulated sizes and touch; reduced motion for reproducible screenshots; local consent declined. Navigation/resource timings are lab observations, not field Core Web Vitals or proof of a physical mobile keyboard."
+}
