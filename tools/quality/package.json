@@ -2,8 +2,14 @@
   "name": "pcpartperformance-quality",
   "private": true,
   "devDependencies": {
+    "@gltf-transform/core": "4.5.0",
+    "@gltf-transform/extensions": "4.5.0",
+    "@gltf-transform/functions": "4.5.0",
     "@types/node": "^24.0.0",
     "eslint": "^10.12.0",
+    "gltf-validator": "2.0.0-dev.3.10",
+    "meshoptimizer": "1.2.0",
+    "sharp": "0.35.5",
     "terser": "^5.51.2",
     "typescript": "^5.9.3"
   }

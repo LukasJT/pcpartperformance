@@ -6,7 +6,7 @@ const path=require('node:path');
 const {articles}=require('./evolution-editorial-data.cjs');
 const root=path.resolve(__dirname,'..');
 const output=path.join(root,'docs/evolution-oct18/editorial/qa');
-const sharp=require(process.env.PCP_SHARP_MODULE||'C:/Users/slowf/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp');
+const sharp=require(process.env.PCP_SHARP_MODULE||'../tools/quality/node_modules/sharp');
 const {chromium}=require(process.env.PCP_PLAYWRIGHT_MODULE||'C:/Users/slowf/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
 async function main(){
   fs.mkdirSync(output,{recursive:true});

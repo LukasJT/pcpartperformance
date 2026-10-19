@@ -1,7 +1,7 @@
 'use strict';
 const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto');
 const ROOT=path.resolve(__dirname,'..'),INTAKE=path.join(ROOT,'data/photo-intake/2026-10-19/total-reference.json'),FILE=path.join(__dirname,'component-photo-total-reference-oct19.json');
-const sha=b=>crypto.createHash('sha256').update(b).digest('hex'),sharp=()=>require(process.env.PCP_SHARP_PATH||'C:/Users/slowf/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp');
+const sha=b=>crypto.createHash('sha256').update(b).digest('hex'),sharp=()=>require(process.env.PCP_SHARP_PATH||'../tools/quality/node_modules/sharp');
 const IDS=['retail-asus-z170-p','retail-cooler-master-masterbox-lite-5','completion-cpu-intel-core-i5-661'];
 function validateRows(rows,parts){
  if(!Array.isArray(rows)||rows.length!==3||new Set(rows.map(r=>r.id)).size!==3)throw Error('Expected exactly three reviewed identities');

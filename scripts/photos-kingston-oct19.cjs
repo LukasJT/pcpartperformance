@@ -28,7 +28,7 @@ async function fetchBytes(url,limit,fetcher=fetch){
  throw Error('Too many redirects');
 }
 async function collect(){
- const sharp=require(process.env.PCP_SHARP_PATH||'C:/Users/slowf/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp');
+ const sharp=require(process.env.PCP_SHARP_PATH||'../tools/quality/node_modules/sharp');
  const catalog=require('./total-catalog.cjs'),parts=catalog.prepareCatalog(catalog.loadExisting()),byId=new Map(parts.map(p=>[p.id,p]));
  const candidates=JSON.parse(fs.readFileSync(INPUT,'utf8')),registry=fs.existsSync(REGISTRY)?JSON.parse(fs.readFileSync(REGISTRY,'utf8')):{},report=[];
  const assetDir=path.join(ROOT,'dist/assets/hardware/catalog-total-kingston-oct19'),cache=path.join(ROOT,'tmp/photo-coverage-oct19');fs.mkdirSync(assetDir,{recursive:true});fs.mkdirSync(cache,{recursive:true});

@@ -1,7 +1,7 @@
 'use strict';
 /* SVG geometry inspection only. This is not a substitute for browser layout QA. */
 const fs = require('node:fs'), path = require('node:path');
-const sharp = require('C:/Users/slowf/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp');
+const sharp = require('../tools/quality/node_modules/sharp');
 const { TOPICS } = require('./evolution-diagrams.cjs'), { artwork } = require('./evolution-diagrams.js');
 (async () => {
   const output = path.resolve(__dirname, '../docs/evolution-oct18/qa'); fs.mkdirSync(output, { recursive: true });

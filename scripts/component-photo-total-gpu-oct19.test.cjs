@@ -1,6 +1,6 @@
 'use strict';
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto');
-const sharp=require(process.env.PCP_SHARP_PATH||'C:/Users/slowf/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp');
+const sharp=require(process.env.PCP_SHARP_PATH||'../tools/quality/node_modules/sharp');
 const root=path.resolve(__dirname,'..'),parts=require('../data/catalog-intake/2026-10-19/batch-gpu.json').records,photos=require('./component-photo-total-gpu-oct19.json'),validator=require('./component-photo-catalog.cjs');
 const sha=bytes=>crypto.createHash('sha256').update(bytes).digest('hex');
 test('twenty exact partner GPU photos match their catalog names and retain truthful rights status',()=>{
@@ -12,5 +12,9 @@ test('every full photo and thumbnail decodes, meets size limits and matches its 
 });
 test('variant-name drift and changed photo bytes are rejected before parent integration',()=>{
  const id=parts[0].id,r=photos[id];assert(validator.validate(parts,{[id]:{...r,catalogName:'GeForce GTX 960 GAMING 4G'}}).some(e=>e.includes('identity')));assert(validator.validate(parts,{[id]:{...r,sha256:'0'.repeat(64)}}).some(e=>e.includes('changed after review')));
- const extracted=require('../docs/total-refinement/photos/gpu/extraction.json').rows,reviewed=require('../docs/total-refinement/photos/gpu/reviewed-selection.json').rows;for(const record of extracted){const original=fs.readFileSync(path.join(root,record.candidateFile));assert.equal(sha(original),reviewed.find(x=>x.id===record.id).extractedSha256);if(record.brand==='MSI'){assert.equal(record.exactModelTextVerified,true);assert(['I6.png','I8.png'].includes(record.sourceImageObject));}}
+ // Delivery CI checks the frozen source/review/registry hash joins and actual
+ // shipped pixels above. Source preparation separately requires native cached
+ // bytes to match the review before creating any derivative; ignored download
+ // caches are deliberately not CI fixtures or redistributed source assets.
+ const extracted=require('../docs/total-refinement/photos/gpu/extraction.json').rows,reviewed=require('../docs/total-refinement/photos/gpu/reviewed-selection.json').rows;for(const record of extracted){const review=reviewed.find(x=>x.id===record.id),image=photos[record.id];assert.equal(record.extractedSha256,review.extractedSha256);assert.equal(image.extractedSha256,review.extractedSha256);assert.equal(image.sourceSha256,record.sourceSha256);assert.equal(image.sourceSha256,review.sourceSha256);if(record.brand==='MSI'){assert.equal(record.exactModelTextVerified,true);assert(['I6.png','I8.png'].includes(record.sourceImageObject));}}
 });

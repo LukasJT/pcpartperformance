@@ -4,12 +4,9 @@ import crypto from 'node:crypto';
 import assert from 'node:assert/strict';
 import {fileURLToPath} from 'node:url';
 import {createRequire} from 'node:module';
-import {NodeIO} from '../../model-tools/node_modules/@gltf-transform/core/dist/index.js';
-import {ALL_EXTENSIONS} from '../../model-tools/node_modules/@gltf-transform/extensions/dist/index.js';
-import {getBounds} from '../../model-tools/node_modules/@gltf-transform/functions/dist/index.js';
-import {MeshoptDecoder} from '../../model-tools/node_modules/meshoptimizer/index.js';
+import {NodeIO, ALL_EXTENSIONS, getBounds, MeshoptDecoder, validator} from '../tools/quality/model-validation.mjs';
 
-const require=createRequire(import.meta.url),validator=require('../../work/gltf-validator');
+const require=createRequire(import.meta.url);
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const registry=require('./sketchfab-models.json'),batch=require('../docs/growth/master-model-assets.json');
 const io=new NodeIO().registerExtensions(ALL_EXTENSIONS).registerDependencies({'meshopt.decoder':MeshoptDecoder});

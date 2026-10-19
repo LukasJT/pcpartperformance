@@ -1,6 +1,6 @@
 'use strict';
-// Development QA. Use the bundled Sharp runtime via PCP_SHARP_PATH when needed.
-const fs=require('node:fs'),sharp=require(process.env.PCP_SHARP_PATH||'sharp');
+// Development QA. A custom runtime can still be selected with PCP_SHARP_PATH.
+const fs=require('node:fs'),sharp=require(process.env.PCP_SHARP_PATH||'../tools/quality/node_modules/sharp');
 const total=require('./total-catalog.cjs');
 const images=require('./component-photo-catalog.cjs').load(total.prepareCatalog(total.loadExisting()));
 async function main(){

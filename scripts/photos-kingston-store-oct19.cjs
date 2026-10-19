@@ -17,7 +17,7 @@ async function bytes(url){
 }
 function unchangedReview(previous,row,source,sourceHash){return previous?.visualReviewed===true&&previous.manufacturerSku===row.sku&&previous.sourceUrl===source.sourceUrl&&previous.imageUrl===source.imageUrl&&previous.sourceSha256===sourceHash;}
 async function collect(){
- const sharp=require(process.env.PCP_SHARP_PATH||'C:/Users/slowf/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp');
+ const sharp=require(process.env.PCP_SHARP_PATH||'../tools/quality/node_modules/sharp');
  const total=require('./total-catalog.cjs'),parts=total.prepareCatalog(total.loadExisting()),index=new Map(parts.map(p=>[p.id,p]));
  const rows=require('../data/photo-intake/2026-10-19/kingston-store.json'),registry=JSON.parse(fs.readFileSync(FILE,'utf8'));
  const hd={id:'total-ram-kingston-ksm32rd4-64hd',sku:'KSM32RD4/64HD',sourceUrl:'https://www.canadacomputers.com/en/server-memory/281907/kingston-64gb-3200mhz-cl22-ecc-dimm-ksm32rd4-64hd.html',imageUrl:'https://ccimg.canadacomputers.com/Products/800x800/119/281907/47060.jpg',inspected:true};

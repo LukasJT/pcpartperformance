@@ -1,6 +1,6 @@
 'use strict';
 const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto');
-const sharp=require(process.env.PCP_SHARP_PATH||'C:/Users/slowf/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp');
+const sharp=require(process.env.PCP_SHARP_PATH||'../tools/quality/node_modules/sharp');
 const root=path.resolve(__dirname,'..'),rows=require('../docs/total-refinement/photos/gpu/extraction.json').rows,selection=require('../docs/total-refinement/photos/gpu/reviewed-selection.json'),parts=require('../data/catalog-intake/2026-10-19/batch-gpu.json').records;
 const directory='assets/hardware/catalog-total-gpu-oct19',sha=b=>crypto.createHash('sha256').update(b).digest('hex');
 async function main(){

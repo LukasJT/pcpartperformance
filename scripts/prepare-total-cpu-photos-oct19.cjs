@@ -6,7 +6,7 @@ const ROOT=path.resolve(__dirname,'..'),INTAKE=path.join(ROOT,'data/photo-intake
 const DIRECTORY='assets/hardware/catalog-total-cpu-oct19',REGISTRY=path.join(__dirname,'component-photo-total-cpu-oct19.json'),CACHE=path.join(ROOT,'tmp/total-cpu-photos-oct19');
 const sha=buffer=>crypto.createHash('sha256').update(buffer).digest('hex');
 const normalized=value=>String(value).toLowerCase().replace(/[^a-z0-9]/g,'');
-const sharp=()=>require(process.env.PCP_SHARP_PATH||'C:/Users/slowf/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp');
+const sharp=()=>require(process.env.PCP_SHARP_PATH||'../tools/quality/node_modules/sharp');
 function records(){const c=require('./total-catalog.cjs');return c.prepareCatalog(c.loadExisting());}
 function validateIntake(rows,parts=records()){
  const expected=require('../data/catalog-intake/2026-10-19/batch-cpu.json').records.map(p=>p.id).concat('intel4004'),byId=new Map(parts.map(p=>[p.id,p])),seen=new Set();

@@ -2,7 +2,7 @@
 // Bounded transcription from twelve individually inspected named MSI PDFs.
 // This writes a separate intake packet and its own photo registry only.
 const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto');
-const sharp=require(process.env.PCP_SHARP_PATH||'C:/Users/slowf/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp');
+const sharp=require(process.env.PCP_SHARP_PATH||'../tools/quality/node_modules/sharp');
 const root=path.resolve(__dirname,'..'),intakeDir=path.join(root,'data/catalog-intake/2026-10-19-hardware-next'),photoDocs=path.join(root,'docs/total-refinement/photos/hardware-next'),catalogDocs=path.join(root,'docs/total-refinement/catalog/hardware-next');
 const extracted=require('../docs/total-refinement/photos/hardware-next/extraction.json').rows;
 const sha=value=>crypto.createHash('sha256').update(value).digest('hex');

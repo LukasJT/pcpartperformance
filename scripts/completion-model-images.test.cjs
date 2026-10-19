@@ -1,9 +1,8 @@
 'use strict';
 const test = require('node:test'), assert = require('node:assert/strict'), fs = require('node:fs'), path = require('node:path'), crypto = require('node:crypto');
-const { pathToFileURL } = require('node:url');
 const images = require('./completion-model-images.json'), photos = require('./completion-model-images.cjs'), sources = require('./completion-model-images-sources.json'), models = require('./completion-models-data.cjs').MODEL_ADDITIONS;
 const root = path.resolve(__dirname, '..'), clone = () => structuredClone(images), sha = bytes => crypto.createHash('sha256').update(bytes).digest('hex');
-const sharp = import(pathToFileURL(path.resolve(__dirname, '../../model-tools/node_modules/.pnpm/sharp@0.35.4/node_modules/sharp/dist/index.mjs')).href).then(module => module.default);
+const sharp = Promise.resolve(require(process.env.PCP_SHARP_PATH || '../tools/quality/node_modules/sharp'));
 
 test('all eight new identities have reviewed local images, with five exact official images and three licensed model renders', () => {
   assert.equal(Object.keys(photos.targets).length, 8);assert.deepEqual(Object.keys(images).sort(), Object.keys(photos.targets).sort());

@@ -13,7 +13,7 @@ concurrency:
 
 jobs:
   validate:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 20
     env:
       CI: 'true'
@@ -48,6 +48,8 @@ jobs:
           node scripts/run-master-checks.cjs 2>&1 | tee .release-validation/tests.log
       - name: Check types
         run: node tools/quality/node_modules/typescript/bin/tsc -p tools/quality/tsconfig.json
+      - name: Decode and hash-check delivered component photographs
+        run: node scripts/check-component-photo-files.cjs
       - name: Retain bounded validation evidence, including failed build logs
         if: always()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
