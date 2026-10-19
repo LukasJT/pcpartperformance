@@ -52,7 +52,8 @@ jobs:
         with:
           name: daily-operations-${{ github.run_id }}
           path: .operations-run/
-          if-no-files-found: warn
+          include-hidden-files: true
+          if-no-files-found: error
           retention-days: 30
       - name: Write the run summary
         if: always()
