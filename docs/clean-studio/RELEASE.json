@@ -1,0 +1,65 @@
+{
+  "checkedAt": "2026-10-20T23:09:38.278Z",
+  "deployment": "awaiting_public_verification",
+  "productionCommit": null,
+  "implementationBranch": "codex/clean-studio-2026-10-20",
+  "preservedProductionUpdate": "6ba35697",
+  "local": {
+    "commandGroups": 111,
+    "passedCommandGroups": 111,
+    "browserStates": 285,
+    "browserFailures": 0,
+    "accessibilityCases": 146,
+    "accessibilityViolations": 0,
+    "journeys": 9,
+    "journeysPassed": true,
+    "decodedImageFiles": 1586,
+    "performance": [
+      {
+        "route": "/",
+        "runs": 3,
+        "lcpMedianMs": 1160,
+        "clsMedian": 0,
+        "maxInteractionEventMs": 184,
+        "initial3D": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "route": "/builder/",
+        "runs": 3,
+        "lcpMedianMs": 1332,
+        "clsMedian": 0,
+        "maxInteractionEventMs": 176,
+        "initial3D": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "route": "/performance/",
+        "runs": 3,
+        "lcpMedianMs": 1064,
+        "clsMedian": 0,
+        "maxInteractionEventMs": 64,
+        "initial3D": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "typecheckPassed": true,
+    "lintPassed": true
+  },
+  "scope": "Local isolated Edge, emulated widths and touch, six-palette automated accessibility, source/data/privacy/SEO regressions. Not physical iOS Safari, full WCAG certification or field Core Web Vitals.",
+  "remaining": [
+    "Physical iPhone Safari and VoiceOver review",
+    "Actual software keyboard and device text settings",
+    "Real-user performance and conversion measurement",
+    "Existing image rights and ambiguous legacy identity qualifications remain"
+  ]
+}

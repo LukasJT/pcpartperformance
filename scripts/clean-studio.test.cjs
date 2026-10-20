@@ -24,6 +24,7 @@ test('photography preserves the registry source and escapes its exact pictured i
  const result=studio.photo('test',{test:{src:'/source.webp',thumbnailSrc:'/thumb.webp',picturedModel:'Model <variant> "OC"'}});
  assert(result.includes('src="/thumb.webp"'));assert(result.includes('Model &lt;variant&gt; &quot;OC&quot;'));assert(result.includes('loading="lazy"'));
  assert(studio.photo('test',{test:{src:'/source.webp',picturedModel:'Actual model'}},{eager:true}).includes('fetchpriority="high"'));
+ const responsive=studio.photo('test',{test:{src:'/source.webp',thumbnailSrc:'/thumb.webp',width:800,picturedModel:'Exact model'}});assert(responsive.includes('/thumb.webp 320w, /source.webp 800w'));assert(responsive.includes('sizes="'));
 });
 test('workspace overview starts without invented data and preserves existing forms',()=>{
  const html=studio.polish(base.replace('<h1>Old title</h1>','<header class="my-pc-heading"><h1>Old title</h1></header><form data-workspace-notes><textarea name="note"></textarea></form>'),'/my-pc/');
@@ -40,6 +41,8 @@ test('destination CSS is scoped while shared controls and reduced-motion fallbac
  assert.equal(studio.family('/blog/guide/'),'article');assert.equal(studio.family('/my-pc/'),'workspace');
 });
 test('every major generated destination receives the same system without extra visual JavaScript',()=>{
+ const catalogCSS=studio.catalogSelectorCSS(fs.readFileSync('dist/builder-refresh.css','utf8'));assert.equal(fs.readFileSync('dist/clean-studio-catalog-selects.css','utf8'),catalogCSS);assert(catalogCSS.includes('.modern-select'));assert(catalogCSS.includes('.select-option'));assert(catalogCSS.includes('.catalog-tools'));assert(!catalogCSS.includes('.assembly-'));assert(!catalogCSS.includes('data-page=builder'));
+ for(const family of ['common','home','builder','workspace','catalog','product','compare','guides','article','school'])assert.equal(fs.readFileSync('dist/clean-studio-'+family+'.css','utf8'),studio.scopedCSS(fs.readFileSync('scripts/clean-studio.css','utf8'),family),'Stale studio styles: '+family);
  for(const route of ['','builder','my-pc','upgrade','hardware','compare','blog','build-school']){
   const html=fs.readFileSync('dist/'+(route?route+'/':'')+'index.html','utf8');
   assert(html.includes('data-clean-studio'),route);assert.equal((html.match(/data-clean-studio/g)||[]).length,1);

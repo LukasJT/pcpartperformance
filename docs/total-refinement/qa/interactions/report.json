@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-10-19T23:00:29.284Z",
-  "origin": "https://www.pcpartperformance.com",
+  "checkedAt": "2026-10-20T23:03:16.835Z",
+  "origin": "http://127.0.0.1:4212",
   "checks": [
     {
       "name": "Compact menu, focus loop, consent inertness and appearance handoff at 320px",
       "passed": true,
       "evidence": {
-        "headerHeight": 72,
+        "headerHeight": 68,
         "client": 320,
         "scroll": 320,
         "consentFixture": "checks late DOM addition; not proof of live ad networking"

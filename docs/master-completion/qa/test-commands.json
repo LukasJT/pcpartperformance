@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-10-20T22:34:11.403Z",
+  "checkedAt": "2026-10-20T23:04:36.704Z",
   "commands": 111,
-  "passed": 108,
+  "passed": 111,
   "results": [
     {
       "command": "node scripts/check-program.cjs",
@@ -140,8 +140,8 @@
     },
     {
       "command": "node scripts/check-growth-release.cjs",
-      "exitCode": 1,
-      "passed": false
+      "exitCode": 0,
+      "passed": true
     },
     {
       "command": "node scripts/test-master-publication.cjs",
@@ -180,8 +180,8 @@
     },
     {
       "command": "node scripts/check-program-performance.cjs",
-      "exitCode": 1,
-      "passed": false
+      "exitCode": 0,
+      "passed": true
     },
     {
       "command": "node scripts/release-preflight.cjs",
@@ -355,8 +355,8 @@
     },
     {
       "command": "node scripts/oct16-delivery.test.cjs",
-      "exitCode": 1,
-      "passed": false
+      "exitCode": 0,
+      "passed": true
     },
     {
       "command": "node scripts/completion-editorial.test.cjs",

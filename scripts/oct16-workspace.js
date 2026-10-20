@@ -214,7 +214,7 @@
     function renderStudioSummary() {
       for(const [selector,value] of [['[data-studio-build-count]',builds.available?builds.revisions.length:'—'],['[data-studio-watch-count]',writable?watched().length:'—'],['[data-studio-comparison-count]',retainedWritable?retainedState.comparisons.length:'—']]){const node=$(selector);if(node)node.textContent=String(value);}
       const link=$('[data-studio-continue]'),latest=[...builds.revisions].sort((a,b)=>String(b.savedAt||'').localeCompare(String(a.savedAt||'')))[0];
-      if(link){link.href=latest?revisionLink(latest):'/builder/';link.textContent=latest?'Continue build ↗':'Start a build ↗';if(latest)link.setAttribute('aria-label','Continue '+latest.name);else link.removeAttribute('aria-label');}
+      if(link){link.href=latest?revisionLink(latest):'/builder/';link.textContent=latest?'Continue build ↗':'Start a build ↗';link.ariaLabel=latest?'Continue '+latest.name:'Start a build';}
     }
     function renderWatchlist() { renderStudioSummary(); const ids = watched(); $('[data-workspace-watchlist]').innerHTML = ids.length ? `<ul class="workspace-watch-list">${ids.map(id => `<li>${partLink(id)}<button type="button" class="workspace-text-button" data-workspace-unwatch="${esc(id)}">Remove</button></li>`).join('')}</ul>` : '<p class="workspace-detail">Watch a part here or save a product from its page.</p>'; }
     function renderChanges() {

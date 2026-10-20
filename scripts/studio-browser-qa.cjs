@@ -2,12 +2,12 @@
 const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
 const {chromium}=require(process.env.PCP_PLAYWRIGHT_MODULE||'C:/Users/slowf/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
 const origin=process.env.PCP_STUDIO_ORIGIN||'http://127.0.0.1:4212',directory=path.resolve('docs/clean-studio/qa');
-const widths=[320,360,375,390,430,768,1024,1440,1920];
+const widths=(process.env.PCP_STUDIO_WIDTHS||'320,360,375,390,430,768,1024,1440,1920').split(',').map(Number);
 const routes=['/','/builder/','/my-pc/','/upgrade/','/compare/?parts=rtx5070,rtx5060ti16&mode=interactive','/hardware/','/learn/9800x3d.html','/blog/','/blog/understanding-pc-memory/','/build-school/'];
 async function main(){
  fs.mkdirSync(directory,{recursive:true});const browser=await chromium.launch({headless:true,executablePath:'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe'}),reports=[];
  try{
-  for(const palette of ['arctic','midnight'])for(const width of widths){
+  for(const palette of (process.env.PCP_STUDIO_PALETTES||'arctic,midnight').split(','))for(const width of widths){
    const context=await browser.newContext({viewport:{width,height:width<600?844:1000},hasTouch:width<600,isMobile:width<600,reducedMotion:'reduce',colorScheme:palette==='arctic'?'light':'dark'});
    await context.addInitScript(palette=>{localStorage.setItem('pcp-theme-palette',palette);localStorage.setItem('pcp-ad-consent','declined');},palette);
    const page=await context.newPage(),errors=[];page.setDefaultTimeout(15000);
@@ -42,6 +42,7 @@ async function main(){
      assert.equal(await page.locator('#builder-picker[open]').count(),0);
     }
    }
+   if(width===320||width===390)for(const route of ['/','/builder/','/my-pc/','/blog/understanding-pc-memory/']){await page.goto(origin+route,{waitUntil:'networkidle'});await page.evaluate(()=>document.documentElement.style.fontSize='150%');await audit('page enlarged text');await page.evaluate(()=>document.documentElement.style.fontSize='');}
    await context.close();console.log(JSON.stringify({palette,width,cases:reports.filter(r=>r.palette===palette&&r.width===width).length,failures:reports.filter(r=>r.palette===palette&&r.width===width&&!r.passed).length}));
   }
   // A populated local fixture checks real dashboard counts and restore links.

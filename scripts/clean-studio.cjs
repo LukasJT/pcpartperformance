@@ -3,12 +3,13 @@ const fs=require('node:fs'),path=require('node:path');
 const {replaceElement,icon}=require('./clarity-site.cjs');
 const esc=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const arrow='<span class="studio-arrow" aria-hidden="true">↗</span>';
-function photo(id,images,{eager=false,cls=''}={}){
+function photo(id,images,{eager=false,cls='',sizes=eager?'(max-width:767px) 90vw, 540px':'(max-width:600px) 45vw, 320px'}={}){
  const image=images[id];if(!image)return '';
  const variants=require('./program-image-variants.json')[id];
  const responsive=variants?.original===image.src;
  const src=responsive?variants.variants.at(-1).src:eager?image.src:image.thumbnailSrc||image.src;
- const srcset=responsive?' srcset="'+variants.variants.map(v=>esc(v.src)+' '+v.width+'w').join(', ')+'" sizes="(max-width:600px) 45vw, 320px"':'';
+ const choices=responsive?variants.variants:image.thumbnailSrc&&image.width>320?[{src:image.thumbnailSrc,width:320},{src:image.src,width:image.width}]:[];
+ const srcset=choices.length?' srcset="'+choices.map(v=>esc(v.src)+' '+v.width+'w').join(', ')+'" sizes="'+esc(sizes)+'"':'';
  return '<img class="'+cls+'" src="'+esc(src)+'"'+srcset+' alt="'+esc(image.picturedModel)+'" width="640" height="400" loading="'+(eager?'eager':'lazy')+'" decoding="async"'+(eager?' fetchpriority="high"':'')+'>';
 }
 function home({records,images}){
@@ -42,6 +43,7 @@ function polish(html,route,context={}){
  html=html.replace(/<body(?=\s|>)/,'<body data-clean-studio');
  html=html.replace('</head>','<link rel="stylesheet" href="/clean-studio-'+family(route)+'.css"></head>');
  if(route==='/')html=html.replace(/<link rel="stylesheet" href="\/(?:homepage|growth-home|oct16-home|evolution-view-home)\.css">/g,'');
+ if(route.startsWith('/hardware/'))html=html.replace('href="/builder-refresh.css"','href="/clean-studio-catalog-selects.css"');
  if(route==='/'&&context.records&&context.images)html=replaceElement(html,/<main\b[^>]*>/,'main',old=>old.slice(0,old.indexOf('>')+1)+home(context)+'</main>');
  if(route==='/builder/'){
   html=html.replace('<strong>Choose parts</strong>','<strong>Parts</strong>').replace('<strong>Explore build</strong>','<strong>Preview</strong>').replace('<strong>Review &amp; save</strong>','<strong>Review</strong>');
@@ -52,7 +54,7 @@ function polish(html,route,context={}){
   html=replaceElement(html,/<nav class="workspace-tabs[^>]*>/,'nav',()=>'<nav class="workspace-tabs lab-workspace-shortcuts studio-choice-pills" aria-label="Workspace shortcuts"><a href="#workspace-builds">Builds</a><a href="#workspace-watchlist">Watchlist</a><a href="#workspace-saved-comparisons">Comparisons</a><a href="#workspace-notebook">Records</a></nav>');
  }
  if(route==='/blog/'){
-  html=replaceElement(html,/<div class="ui-hero-art[^>]*>/,'div',()=>'<div class="studio-learn-art">'+photo('ddr5',context.images||{})+'</div>');
+  html=replaceElement(html,/<div class="ui-hero-art[^>]*>/,'div',()=>'<div class="studio-learn-art">'+photo('ddr5',context.images||{},{sizes:'(max-width:1100px) 40vw, 480px'})+'</div>');
   html=html.replace('<h1>PC building &amp; upgrade guides</h1>','<h1>Know your hardware.<br>Build your confidence.</h1>').replace('<h1>PC building & upgrade guides</h1>','<h1>Know your hardware.<br>Build your confidence.</h1>');
   html=replaceElement(html,/<nav\b[^>]*aria-label="Learning paths"[^>]*>/,'nav',()=>'<nav class="studio-learning-paths" aria-label="Learning paths"><a href="/build-school/">Build your first PC '+arrow+'</a><a href="#guides-build">Check the fit '+arrow+'</a><a href="#guides-cpu">Plan an upgrade '+arrow+'</a></nav>');
   html=html.replace('<div class="guide-directory-controls">','<section class="studio-editorial-pick" aria-labelledby="studio-editorial-title"><a class="studio-editorial-photo" href="/blog/choosing-an-ssd/">'+photo('990pro',context.images||{})+'</a><div><span class="studio-eyebrow">A good place to start</span><h2 id="studio-editorial-title"><a href="/blog/choosing-an-ssd/">Small drive.<br>Important details.</a></h2><p>M.2 is a shape. NVMe is an interface. Find the storage that fits your PC.</p><a class="studio-text-link" href="/blog/choosing-an-ssd/">Read the storage guide '+arrow+'</a></div><aside><a href="/blog/how-to-choose-a-graphics-card/"><strong>Know your graphics card</strong><span>Memory, power and the bigger picture.</span>'+arrow+'</a><a href="/blog/how-to-choose-a-processor/"><strong>Look beyond GHz</strong><span>Cores, clocks and platform support.</span>'+arrow+'</a></aside></section><div class="guide-directory-controls">');
@@ -73,17 +75,20 @@ const styleFamilies={
 function family(route){if(route==='/')return 'home';if(route==='/builder/')return 'builder';if(route==='/my-pc/')return 'workspace';if(route.startsWith('/hardware/'))return 'catalog';if(route.startsWith('/learn/'))return 'product';if(route.startsWith('/compare/'))return 'compare';if(route==='/blog/')return 'guides';if(/^\/(?:blog|news)\/[^/]+\/$/.test(route))return 'article';if(route.startsWith('/build-school/'))return 'school';return 'common';}
 // Scope only this owned stylesheet. Shared controls, media fallbacks and theme
 // rules survive on every page; destination-specific rules are never global payload.
-function scopedCSS(input,selected){
+function filterCSS(input,allow){
  const split=require('./evolution-style-scope.cjs').splitSelectors;
  const css=input.replace(/\/\*[\s\S]*?\*\//g,'');let out='',i=0;
  while(i<css.length){const open=css.indexOf('{',i);if(open===-1)break;const header=css.slice(i,open).trim();let depth=1,quote='',end=open+1;
   for(;end<css.length&&depth;end++){const c=css[end];if(quote){if(c==='\\')end++;else if(c===quote)quote='';}else if(c==='"'||c==="'")quote=c;else if(c==='{')depth++;else if(c==='}')depth--;}
   if(depth)throw Error('Unbalanced Clean Studio CSS');const body=css.slice(open+1,end-1);
-  if(/^@(?:media|supports)\b/.test(header)){const nested=scopedCSS(body,selected);if(nested)out+=header+'{'+nested+'}';}
-  else{const selectors=split(header).filter(selector=>{if(/\.studio-(?:arrow|eyebrow)/.test(selector)&&!['home','workspace','guides'].includes(selected))return false;if(selected==='catalog'&&/\.ui-destination-hero|\.ui-hero-art|\.lab-ambient|\.program-panel|\.tech-button/.test(selector))return false;const groups=Object.entries(styleFamilies).filter(([,pattern])=>pattern.test(selector)).map(([name])=>name);return !groups.length||groups.includes(selected);});if(selectors.length)out+=selectors.join(',')+'{'+body+'}';}
+  if(/^@(?:media|supports)\b/.test(header)){const nested=filterCSS(body,allow);if(nested)out+=header+'{'+nested+'}';}
+  else if(/^@(?:-webkit-)?keyframes\b/.test(header))out+=header+'{'+body+'}';
+  else{const selectors=split(header).filter(allow);if(selectors.length)out+=selectors.join(',')+'{'+body+'}';}
   i=end;
  }
  return out;
 }
-function prepare({root}){const css=fs.readFileSync(path.join(__dirname,'clean-studio.css'),'utf8');for(const name of ['common',...Object.keys(styleFamilies)])fs.writeFileSync(path.join(root,'clean-studio-'+name+'.css'),scopedCSS(css,name));}
-module.exports={polish,prepare,home,photo,dashboard,scopedCSS,family};
+function scopedCSS(input,selected){return filterCSS(input,selector=>{if(/\.studio-(?:arrow|eyebrow)/.test(selector)&&!['home','workspace','guides'].includes(selected))return false;const groups=Object.entries(styleFamilies).filter(([,pattern])=>pattern.test(selector)).map(([name])=>name);return !groups.length||groups.includes(selected);});}
+function catalogSelectorCSS(input){return filterCSS(input,selector=>!/builder|assembly-/.test(selector)&&/\.modern-select|\.select-|\.catalog-tools/.test(selector));}
+function prepare({root}){const css=fs.readFileSync(path.join(__dirname,'clean-studio.css'),'utf8');for(const name of ['common',...Object.keys(styleFamilies)])fs.writeFileSync(path.join(root,'clean-studio-'+name+'.css'),scopedCSS(css,name));fs.writeFileSync(path.join(root,'clean-studio-catalog-selects.css'),catalogSelectorCSS(fs.readFileSync(path.join(root,'builder-refresh.css'),'utf8')));}
+module.exports={polish,prepare,home,photo,dashboard,scopedCSS,family,catalogSelectorCSS};
