@@ -35,6 +35,17 @@
     }
     function render() {
       const snapshot = bridge.snapshot(), summary = selectionSummary(snapshot, records, window.PCP_BUILD_RULES);
+      const overview = builder.querySelector('.builder-overview');
+      if (overview) {
+        const categories = Object.values(snapshot.parts || {}).filter(ids => ids.length).length;
+        for (const [key, value] of [['category', categories], ['part', summary.count], ['missing', summary.missing.length]]) {
+          const node = overview.querySelector('[data-build-' + key + '-count]');
+          if (node.textContent !== String(value)) node.textContent = value;
+        }
+        overview.querySelector('.builder-meter-value').setAttribute('stroke-dasharray', categories + ' 10');
+        const checks = overview.querySelector('[data-build-check-summary]');
+        checks.textContent = summary.conflicts ? summary.conflicts + ' documented conflicts to review.' : summary.count ? 'Review documented matches and outstanding checks.' : 'Add parts to begin the compatibility review.';
+      }
       const completion = builder.querySelector('[data-builder-completion]');
       const completionText = !summary.count ? 'Start with a processor or load the starter build.' : summary.count + (summary.count === 1 ? ' part selected' : ' parts selected') + (summary.missing.length ? ' · ' + summary.missing.length + ' required categories still missing' : ' · required categories selected');
       if (completion && completion.textContent !== completionText) completion.textContent = completionText;

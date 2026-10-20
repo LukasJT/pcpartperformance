@@ -28,7 +28,7 @@
     if (!workflow) return;
     const links = [...workflow.querySelectorAll('a[href^="#"]')];
     const panels = {
-      parts: [builder.querySelector('.builder-parts'), builder.querySelector('#build-plan')],
+      parts: [builder.querySelector('.builder-parts'), builder.querySelector('#build-plan'), builder.querySelector('.builder-overview')],
       preview: [builder.querySelector('#build-preview')],
       review: [builder.querySelector('#readiness-report'), builder.querySelector('#build-status'), builder.querySelector('#build-revisions')]
     };

@@ -267,6 +267,7 @@
     });
     more.addEventListener('click', () => { const next = limit; limit += 80; render(); results.focus({ preventScroll: true }); activate(next); });
     dialog.addEventListener('keydown', event => {
+      if (event.key === 'Escape') { event.preventDefault(); event.stopPropagation(); close(); return; }
       if (event.key === '/' && event.target === results) { event.preventDefault(); startSearch(); return; }
       if (event.target !== results && event.target !== search) return;
       if (['ArrowDown', 'ArrowUp', 'Home', 'End', 'Enter'].includes(event.key)) {

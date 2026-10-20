@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-20T23:07:02.118Z",
+  "checkedAt": "2026-10-20T23:49:04.708Z",
   "scope": "Executed axe-core WCAG A/AA and best-practice checks in isolated Edge, six palettes, mobile/desktop. Automated testing does not certify full WCAG conformance or replace screen-reader and physical-device review.",
   "reports": [
     {
@@ -49,6 +49,33 @@
               "#builder-select-trigger-1"
             ],
             [
+              "#builder-select-trigger-2"
+            ],
+            [
+              "#builder-select-trigger-3"
+            ],
+            [
+              "#builder-select-trigger-4"
+            ],
+            [
+              "#builder-select-trigger-5"
+            ],
+            [
+              "#builder-select-trigger-6"
+            ],
+            [
+              "#builder-select-trigger-7"
+            ],
+            [
+              "#builder-select-trigger-8"
+            ],
+            [
+              "#builder-select-trigger-9"
+            ],
+            [
+              "#builder-select-trigger-10"
+            ],
+            [
               ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
             ]
           ]
@@ -57,7 +84,7 @@
           "id": "color-contrast",
           "nodes": [
             [
-              "a[href$=\"#builder-guidance\"] > span > strong"
+              "strong[data-build-category-count=\"\"]"
             ]
           ]
         }
@@ -677,6 +704,33 @@
               "#builder-select-trigger-1"
             ],
             [
+              "#builder-select-trigger-2"
+            ],
+            [
+              "#builder-select-trigger-3"
+            ],
+            [
+              "#builder-select-trigger-4"
+            ],
+            [
+              "#builder-select-trigger-5"
+            ],
+            [
+              "#builder-select-trigger-6"
+            ],
+            [
+              "#builder-select-trigger-7"
+            ],
+            [
+              "#builder-select-trigger-8"
+            ],
+            [
+              "#builder-select-trigger-9"
+            ],
+            [
+              "#builder-select-trigger-10"
+            ],
+            [
               ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
             ]
           ]
@@ -685,7 +739,10 @@
           "id": "color-contrast",
           "nodes": [
             [
-              "a[href$=\"#builder-guidance\"] > span > strong"
+              "strong[data-build-category-count=\"\"]"
+            ],
+            [
+              ".builder-overview-meter > div > span"
             ]
           ]
         }
@@ -1294,6 +1351,33 @@
               "#builder-select-trigger-1"
             ],
             [
+              "#builder-select-trigger-2"
+            ],
+            [
+              "#builder-select-trigger-3"
+            ],
+            [
+              "#builder-select-trigger-4"
+            ],
+            [
+              "#builder-select-trigger-5"
+            ],
+            [
+              "#builder-select-trigger-6"
+            ],
+            [
+              "#builder-select-trigger-7"
+            ],
+            [
+              "#builder-select-trigger-8"
+            ],
+            [
+              "#builder-select-trigger-9"
+            ],
+            [
+              "#builder-select-trigger-10"
+            ],
+            [
               ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
             ]
           ]
@@ -1302,7 +1386,7 @@
           "id": "color-contrast",
           "nodes": [
             [
-              "a[href$=\"#builder-guidance\"] > span > strong"
+              "strong[data-build-category-count=\"\"]"
             ]
           ]
         }
@@ -1922,6 +2006,33 @@
               "#builder-select-trigger-1"
             ],
             [
+              "#builder-select-trigger-2"
+            ],
+            [
+              "#builder-select-trigger-3"
+            ],
+            [
+              "#builder-select-trigger-4"
+            ],
+            [
+              "#builder-select-trigger-5"
+            ],
+            [
+              "#builder-select-trigger-6"
+            ],
+            [
+              "#builder-select-trigger-7"
+            ],
+            [
+              "#builder-select-trigger-8"
+            ],
+            [
+              "#builder-select-trigger-9"
+            ],
+            [
+              "#builder-select-trigger-10"
+            ],
+            [
               ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
             ]
           ]
@@ -1930,7 +2041,10 @@
           "id": "color-contrast",
           "nodes": [
             [
-              "a[href$=\"#builder-guidance\"] > span > strong"
+              "strong[data-build-category-count=\"\"]"
+            ],
+            [
+              ".builder-overview-meter > div > span"
             ]
           ]
         }
@@ -2539,6 +2653,33 @@
               "#builder-select-trigger-1"
             ],
             [
+              "#builder-select-trigger-2"
+            ],
+            [
+              "#builder-select-trigger-3"
+            ],
+            [
+              "#builder-select-trigger-4"
+            ],
+            [
+              "#builder-select-trigger-5"
+            ],
+            [
+              "#builder-select-trigger-6"
+            ],
+            [
+              "#builder-select-trigger-7"
+            ],
+            [
+              "#builder-select-trigger-8"
+            ],
+            [
+              "#builder-select-trigger-9"
+            ],
+            [
+              "#builder-select-trigger-10"
+            ],
+            [
               ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
             ]
           ]
@@ -2547,7 +2688,7 @@
           "id": "color-contrast",
           "nodes": [
             [
-              "a[href$=\"#builder-guidance\"] > span > strong"
+              "strong[data-build-category-count=\"\"]"
             ]
           ]
         }
@@ -2739,6 +2880,33 @@
               "#builder-select-trigger-1"
             ],
             [
+              "#builder-select-trigger-2"
+            ],
+            [
+              "#builder-select-trigger-3"
+            ],
+            [
+              "#builder-select-trigger-4"
+            ],
+            [
+              "#builder-select-trigger-5"
+            ],
+            [
+              "#builder-select-trigger-6"
+            ],
+            [
+              "#builder-select-trigger-7"
+            ],
+            [
+              "#builder-select-trigger-8"
+            ],
+            [
+              "#builder-select-trigger-9"
+            ],
+            [
+              "#builder-select-trigger-10"
+            ],
+            [
               ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
             ]
           ]
@@ -2747,7 +2915,10 @@
           "id": "color-contrast",
           "nodes": [
             [
-              "a[href$=\"#builder-guidance\"] > span > strong"
+              "strong[data-build-category-count=\"\"]"
+            ],
+            [
+              ".builder-overview-meter > div > span"
             ]
           ]
         }
@@ -2900,6 +3071,33 @@
               "#builder-select-trigger-1"
             ],
             [
+              "#builder-select-trigger-2"
+            ],
+            [
+              "#builder-select-trigger-3"
+            ],
+            [
+              "#builder-select-trigger-4"
+            ],
+            [
+              "#builder-select-trigger-5"
+            ],
+            [
+              "#builder-select-trigger-6"
+            ],
+            [
+              "#builder-select-trigger-7"
+            ],
+            [
+              "#builder-select-trigger-8"
+            ],
+            [
+              "#builder-select-trigger-9"
+            ],
+            [
+              "#builder-select-trigger-10"
+            ],
+            [
               ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
             ]
           ]
@@ -2908,7 +3106,7 @@
           "id": "color-contrast",
           "nodes": [
             [
-              "a[href$=\"#builder-guidance\"] > span > strong"
+              "strong[data-build-category-count=\"\"]"
             ]
           ]
         }
@@ -3100,6 +3298,33 @@
               "#builder-select-trigger-1"
             ],
             [
+              "#builder-select-trigger-2"
+            ],
+            [
+              "#builder-select-trigger-3"
+            ],
+            [
+              "#builder-select-trigger-4"
+            ],
+            [
+              "#builder-select-trigger-5"
+            ],
+            [
+              "#builder-select-trigger-6"
+            ],
+            [
+              "#builder-select-trigger-7"
+            ],
+            [
+              "#builder-select-trigger-8"
+            ],
+            [
+              "#builder-select-trigger-9"
+            ],
+            [
+              "#builder-select-trigger-10"
+            ],
+            [
               ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
             ]
           ]
@@ -3108,7 +3333,10 @@
           "id": "color-contrast",
           "nodes": [
             [
-              "a[href$=\"#builder-guidance\"] > span > strong"
+              "strong[data-build-category-count=\"\"]"
+            ],
+            [
+              ".builder-overview-meter > div > span"
             ]
           ]
         }
@@ -3261,6 +3489,33 @@
               "#builder-select-trigger-1"
             ],
             [
+              "#builder-select-trigger-2"
+            ],
+            [
+              "#builder-select-trigger-3"
+            ],
+            [
+              "#builder-select-trigger-4"
+            ],
+            [
+              "#builder-select-trigger-5"
+            ],
+            [
+              "#builder-select-trigger-6"
+            ],
+            [
+              "#builder-select-trigger-7"
+            ],
+            [
+              "#builder-select-trigger-8"
+            ],
+            [
+              "#builder-select-trigger-9"
+            ],
+            [
+              "#builder-select-trigger-10"
+            ],
+            [
               ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
             ]
           ]
@@ -3269,7 +3524,7 @@
           "id": "color-contrast",
           "nodes": [
             [
-              "a[href$=\"#builder-guidance\"] > span > strong"
+              "strong[data-build-category-count=\"\"]"
             ]
           ]
         }
@@ -3461,6 +3716,33 @@
               "#builder-select-trigger-1"
             ],
             [
+              "#builder-select-trigger-2"
+            ],
+            [
+              "#builder-select-trigger-3"
+            ],
+            [
+              "#builder-select-trigger-4"
+            ],
+            [
+              "#builder-select-trigger-5"
+            ],
+            [
+              "#builder-select-trigger-6"
+            ],
+            [
+              "#builder-select-trigger-7"
+            ],
+            [
+              "#builder-select-trigger-8"
+            ],
+            [
+              "#builder-select-trigger-9"
+            ],
+            [
+              "#builder-select-trigger-10"
+            ],
+            [
               ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
             ]
           ]
@@ -3469,7 +3751,10 @@
           "id": "color-contrast",
           "nodes": [
             [
-              "a[href$=\"#builder-guidance\"] > span > strong"
+              "strong[data-build-category-count=\"\"]"
+            ],
+            [
+              ".builder-overview-meter > div > span"
             ]
           ]
         }
@@ -3622,6 +3907,33 @@
               "#builder-select-trigger-1"
             ],
             [
+              "#builder-select-trigger-2"
+            ],
+            [
+              "#builder-select-trigger-3"
+            ],
+            [
+              "#builder-select-trigger-4"
+            ],
+            [
+              "#builder-select-trigger-5"
+            ],
+            [
+              "#builder-select-trigger-6"
+            ],
+            [
+              "#builder-select-trigger-7"
+            ],
+            [
+              "#builder-select-trigger-8"
+            ],
+            [
+              "#builder-select-trigger-9"
+            ],
+            [
+              "#builder-select-trigger-10"
+            ],
+            [
               ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
             ]
           ]
@@ -3630,7 +3942,7 @@
           "id": "color-contrast",
           "nodes": [
             [
-              "a[href$=\"#builder-guidance\"] > span > strong"
+              "strong[data-build-category-count=\"\"]"
             ]
           ]
         }
@@ -3822,6 +4134,33 @@
               "#builder-select-trigger-1"
             ],
             [
+              "#builder-select-trigger-2"
+            ],
+            [
+              "#builder-select-trigger-3"
+            ],
+            [
+              "#builder-select-trigger-4"
+            ],
+            [
+              "#builder-select-trigger-5"
+            ],
+            [
+              "#builder-select-trigger-6"
+            ],
+            [
+              "#builder-select-trigger-7"
+            ],
+            [
+              "#builder-select-trigger-8"
+            ],
+            [
+              "#builder-select-trigger-9"
+            ],
+            [
+              "#builder-select-trigger-10"
+            ],
+            [
               ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
             ]
           ]
@@ -3830,7 +4169,10 @@
           "id": "color-contrast",
           "nodes": [
             [
-              "a[href$=\"#builder-guidance\"] > span > strong"
+              "strong[data-build-category-count=\"\"]"
+            ],
+            [
+              ".builder-overview-meter > div > span"
             ]
           ]
         }

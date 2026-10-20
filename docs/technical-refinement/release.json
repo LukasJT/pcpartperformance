@@ -1,0 +1,171 @@
+{
+  "checkedAt": "2026-10-20T23:52:21.236Z",
+  "status": "verified_local_pending_publication",
+  "branch": "codex/technical-builder-2026-10-20",
+  "baselineProductionCommit": "849fb96d3030712dd990cbf68928dd7cef033f8d",
+  "scope": "Correct the rejected soft geometry while retaining the green palette and persisted appearance preferences. Rebuild the builder presentation without replacing its selection, evidence, price or storage engines.",
+  "changes": [
+    {
+      "id": "TECH-01",
+      "status": "Verified",
+      "problem": "Oversized guided card and competing navigation",
+      "solution": "Default to the complete aligned parts list; preserve saved Guided preference; retain Parts/Preview/Review; remove redundant section shortcuts.",
+      "files": [
+        "scripts/oct16-builder-journey.js",
+        "scripts/clean-studio.css"
+      ]
+    },
+    {
+      "id": "TECH-02",
+      "status": "Verified",
+      "problem": "Weak build overview and excessive empty desktop space",
+      "solution": "Add a desktop summary and compact mobile bar using actual selected categories, selected parts and missing required categories. Compatibility remains separate.",
+      "files": [
+        "scripts/clean-studio.cjs",
+        "scripts/builder-workspace.js",
+        "scripts/evolution-builder.js"
+      ]
+    },
+    {
+      "id": "TECH-03",
+      "status": "Verified",
+      "problem": "Pill-heavy controls and repeated mobile price labels",
+      "solution": "Use sharper controls, consistent row columns, a single list surface and compact exact-price disclosure rows. Preserve photographs and offer evidence.",
+      "files": [
+        "scripts/clean-studio.css"
+      ]
+    },
+    {
+      "id": "TECH-04",
+      "status": "Verified",
+      "problem": "Escape cleared a populated native search before closing the picker",
+      "solution": "Explicitly handle Escape in the picker and return focus through the existing close routine.",
+      "files": [
+        "scripts/builder-selectors.js"
+      ]
+    }
+  ],
+  "verification": {
+    "commandGroups": 111,
+    "passedCommandGroups": 111,
+    "sharedBrowserStates": 285,
+    "browserFailures": 0,
+    "builderStates": 72,
+    "axeCases": 146,
+    "axeViolations": 0,
+    "journeys": 9,
+    "journeysPassed": true,
+    "performance": [
+      {
+        "route": "/",
+        "runs": 3,
+        "lcpMedianMs": 1200,
+        "clsMedian": 0,
+        "maxInteractionEventMs": 200,
+        "initial3D": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "route": "/builder/",
+        "runs": 3,
+        "lcpMedianMs": 1408,
+        "clsMedian": 0,
+        "maxInteractionEventMs": 104,
+        "initial3D": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "route": "/performance/",
+        "runs": 3,
+        "lcpMedianMs": 1104,
+        "clsMedian": 0,
+        "maxInteractionEventMs": 48,
+        "initial3D": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "transferBudgets": [
+      {
+        "route": "/",
+        "scriptGzip": 5637,
+        "scriptLimit": 9700,
+        "styleBytes": 122626,
+        "styleLimit": 142000
+      },
+      {
+        "route": "/hardware/graphics-cards/",
+        "scriptGzip": 96401,
+        "scriptLimit": 98000,
+        "styleBytes": 125047,
+        "styleLimit": 138000
+      },
+      {
+        "route": "/learn/rtx5070.html",
+        "scriptGzip": 9109,
+        "scriptLimit": 13100,
+        "styleBytes": 110993,
+        "styleLimit": 133000
+      },
+      {
+        "route": "/compare/rtx-5070-vs-rx-9070/",
+        "scriptGzip": 6283,
+        "scriptLimit": 10100,
+        "styleBytes": 97661,
+        "styleLimit": 125000
+      },
+      {
+        "route": "/builder/",
+        "scriptGzip": 121187,
+        "scriptLimit": 122000,
+        "styleBytes": 222820,
+        "styleLimit": 224000
+      },
+      {
+        "route": "/performance/",
+        "scriptGzip": 38893,
+        "scriptLimit": 40000,
+        "styleBytes": 158896,
+        "styleLimit": 169000
+      },
+      {
+        "route": "/blog/how-to-choose-a-graphics-card/",
+        "scriptGzip": 6283,
+        "scriptLimit": 10100,
+        "styleBytes": 102838,
+        "styleLimit": 125000
+      }
+    ]
+  },
+  "visualEvidence": {
+    "beforeMobile": "../clean-studio/screenshots/after/builder-390.png",
+    "beforeDesktop": "../clean-studio/screenshots/after/builder-1440.png",
+    "afterMobile": "builder-empty-390-arctic.png",
+    "afterDesktop": "builder-empty-1440-arctic.png",
+    "darkDesktop": "builder-empty-1440-midnight.png",
+    "populatedMobile": "builder-populated-390-arctic.png",
+    "majorPages": "../clean-studio/screenshots/technical-after/report.json"
+  },
+  "sourceHashes": {
+    "clean-studio.cjs": "674722d43c690a3d6b7e154a489232a639ec121a48db28e4b0b033c6c294d90b",
+    "clean-studio.css": "61847db97de3ff5f057d36751194f33e52eb545a61856d686900eb4bdeb43e63",
+    "builder-workspace.js": "5c613acf256a88ba9788355eb442a33f968c759dc70d716df9831649565f0d2a",
+    "evolution-builder.js": "4c53ce4b0e22a3b9f54674f4c53e6eb37aa6c14267eb69b7e713457a7201d65f",
+    "oct16-builder-journey.js": "6b0d0695abebe4f3355ba74283d52b846f0f0dd7b97a285e081a370005846e34",
+    "builder-selectors.js": "26953973eec3d7e90e83c35061364d94248d38e729e0302b1275af9d52ba44d5"
+  },
+  "limits": [
+    "Browser verification used isolated Edge, including iPhone-width and reduced-height layouts; physical iOS Safari is not tested.",
+    "Automated axe checks are not full WCAG certification.",
+    "Performance samples are throttled local laboratory results, not real-user Core Web Vitals.",
+    "Earlier catalog, data licensing and owner-account work is outside this visual correction; no new coverage or service acceptance is claimed."
+  ]
+}

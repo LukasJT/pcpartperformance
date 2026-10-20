@@ -7,7 +7,7 @@
  function mount(){
   const builder=document.querySelector('#builder'),bridge=window.PCP_BUILD,session=window.PCP_BUILD_SESSION,rules=window.PCP_BUILD_RULES;
   if(!builder||!bridge||!session||!rules||document.querySelector('#builder-guidance')?.dataset.mounted)return;
-  let mode='guided',step=initialStep(bridge.snapshot().parts);try{if(localStorage.getItem('pcp-builder-mode-v1')==='expert')mode='expert';}catch{}
+  let mode='expert',step=initialStep(bridge.snapshot().parts);try{if(localStorage.getItem('pcp-builder-mode-v1')==='guided')mode='guided';}catch{}
   const host=builder.querySelector('#builder-guidance')||document.createElement('section');host.dataset.mounted='true';host.id='builder-guidance';host.className='oct16-guidance';host.setAttribute('aria-labelledby','builder-guidance-title');
   host.innerHTML=markup().header;
   const stepNav=builder.querySelector('.oct16-step-nav')||document.createElement('nav');stepNav.className='oct16-step-nav';stepNav.setAttribute('aria-label','Component steps');stepNav.innerHTML=markup().steps;
