@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-19T22:44:21.561Z",
+  "checkedAt": "2026-10-20T22:39:54.969Z",
   "scope": "Executed axe-core WCAG A/AA and best-practice checks in isolated Edge, six palettes, mobile/desktop. Automated testing does not certify full WCAG conformance or replace screen-reader and physical-device review.",
   "reports": [
     {
@@ -13,7 +13,7 @@
           "id": "aria-prohibited-attr",
           "nodes": [
             [
-              ".lab-hero-stages"
+              ".studio-workspace-preview"
             ]
           ]
         },
@@ -29,37 +29,7 @@
           "id": "color-contrast",
           "nodes": [
             [
-              "#home-title"
-            ],
-            [
-              ".lab-hero-copy > p:nth-child(2)"
-            ],
-            [
-              ".primary"
-            ],
-            [
-              ".secondary.button[href$=\"upgrade/\"]"
-            ],
-            [
-              ".secondary.button[href$=\"compare/\"]"
-            ],
-            [
-              ".program-help > a[href$=\"build-school/\"]"
-            ],
-            [
-              ".program-help > span"
-            ],
-            [
-              ".program-help > a[href$=\"my-pc/\"]"
-            ],
-            [
-              ".lab-hero-stages > span:nth-child(1)"
-            ],
-            [
-              ".lab-hero-stages > span:nth-child(3)"
-            ],
-            [
-              "span:nth-child(5)"
+              "div:nth-child(2) > .studio-status-icon[aria-hidden=\"true\"]"
             ]
           ]
         }
@@ -82,6 +52,14 @@
               ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
             ]
           ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "a[href$=\"#builder-guidance\"] > span > strong"
+            ]
+          ]
         }
       ]
     },
@@ -97,6 +75,14 @@
           "nodes": [
             [
               ".lab-appearance-open"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              ".ui-discover > a[href$=\"phones/\"] > span"
             ]
           ]
         },
@@ -174,29 +160,6 @@
           "nodes": [
             [
               ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
-            ]
-          ]
-        },
-        {
-          "id": "color-contrast",
-          "nodes": [
-            [
-              "h1"
-            ],
-            [
-              ".my-pc-heading > div:nth-child(2) > p"
-            ],
-            [
-              ".workspace-heading-actions > .primary.button[href$=\"builder/\"]"
-            ],
-            [
-              ".workspace-heading-actions > a[href$=\"upgrade/\"]"
-            ],
-            [
-              "a[href$=\"#workspace-watchlist\"]"
-            ],
-            [
-              "a[href$=\"#workspace-changes\"]"
             ]
           ]
         }
@@ -448,17 +411,6 @@
           "nodes": [
             [
               ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
-            ]
-          ]
-        },
-        {
-          "id": "color-contrast",
-          "nodes": [
-            [
-              "h1"
-            ],
-            [
-              ".program-intro > p"
             ]
           ]
         }
@@ -683,7 +635,7 @@
           "id": "aria-prohibited-attr",
           "nodes": [
             [
-              ".lab-hero-stages"
+              ".studio-workspace-preview"
             ]
           ]
         },
@@ -702,49 +654,7 @@
           "id": "color-contrast",
           "nodes": [
             [
-              "#home-title"
-            ],
-            [
-              ".lab-hero-copy > p:nth-child(2)"
-            ],
-            [
-              ".primary"
-            ],
-            [
-              ".secondary.button[href$=\"upgrade/\"]"
-            ],
-            [
-              ".secondary.button[href$=\"compare/\"]"
-            ],
-            [
-              ".program-help > a[href$=\"build-school/\"]"
-            ],
-            [
-              ".program-help > span"
-            ],
-            [
-              ".program-help > a[href$=\"my-pc/\"]"
-            ],
-            [
-              "text[x=\"47\"]"
-            ],
-            [
-              "text[x=\"203\"]"
-            ],
-            [
-              "text[x=\"540\"]"
-            ],
-            [
-              "text[x=\"29\"]"
-            ],
-            [
-              ".lab-hero-stages > span:nth-child(1)"
-            ],
-            [
-              ".lab-hero-stages > span:nth-child(3)"
-            ],
-            [
-              "span:nth-child(5)"
+              "div:nth-child(2) > .studio-status-icon[aria-hidden=\"true\"]"
             ]
           ]
         }
@@ -842,23 +752,6 @@
             ],
             [
               ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
-            ]
-          ]
-        },
-        {
-          "id": "color-contrast",
-          "nodes": [
-            [
-              "h1"
-            ],
-            [
-              ".my-pc-heading > div:nth-child(2) > p"
-            ],
-            [
-              ".workspace-heading-actions > .primary.button[href$=\"builder/\"]"
-            ],
-            [
-              ".workspace-heading-actions > a[href$=\"upgrade/\"]"
             ]
           ]
         }
@@ -1134,17 +1027,6 @@
             ],
             [
               ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
-            ]
-          ]
-        },
-        {
-          "id": "color-contrast",
-          "nodes": [
-            [
-              "h1"
-            ],
-            [
-              ".program-intro > p"
             ]
           ]
         }
@@ -1376,7 +1258,7 @@
           "id": "aria-prohibited-attr",
           "nodes": [
             [
-              ".lab-hero-stages"
+              ".studio-workspace-preview"
             ]
           ]
         },
@@ -1392,37 +1274,7 @@
           "id": "color-contrast",
           "nodes": [
             [
-              "#home-title"
-            ],
-            [
-              ".lab-hero-copy > p:nth-child(2)"
-            ],
-            [
-              ".primary"
-            ],
-            [
-              ".secondary.button[href$=\"upgrade/\"]"
-            ],
-            [
-              ".secondary.button[href$=\"compare/\"]"
-            ],
-            [
-              ".program-help > a[href$=\"build-school/\"]"
-            ],
-            [
-              ".program-help > span"
-            ],
-            [
-              ".program-help > a[href$=\"my-pc/\"]"
-            ],
-            [
-              ".lab-hero-stages > span:nth-child(1)"
-            ],
-            [
-              ".lab-hero-stages > span:nth-child(3)"
-            ],
-            [
-              "span:nth-child(5)"
+              "div:nth-child(2) > .studio-status-icon[aria-hidden=\"true\"]"
             ]
           ]
         }
@@ -1445,6 +1297,14 @@
               ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
             ]
           ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "a[href$=\"#builder-guidance\"] > span > strong"
+            ]
+          ]
         }
       ]
     },
@@ -1460,6 +1320,14 @@
           "nodes": [
             [
               ".lab-appearance-open"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              ".ui-discover > a[href$=\"phones/\"] > span"
             ]
           ]
         },
@@ -1537,29 +1405,6 @@
           "nodes": [
             [
               ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
-            ]
-          ]
-        },
-        {
-          "id": "color-contrast",
-          "nodes": [
-            [
-              "h1"
-            ],
-            [
-              ".my-pc-heading > div:nth-child(2) > p"
-            ],
-            [
-              ".workspace-heading-actions > .primary.button[href$=\"builder/\"]"
-            ],
-            [
-              ".workspace-heading-actions > a[href$=\"upgrade/\"]"
-            ],
-            [
-              "a[href$=\"#workspace-watchlist\"]"
-            ],
-            [
-              "a[href$=\"#workspace-changes\"]"
             ]
           ]
         }
@@ -1811,17 +1656,6 @@
           "nodes": [
             [
               ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
-            ]
-          ]
-        },
-        {
-          "id": "color-contrast",
-          "nodes": [
-            [
-              "h1"
-            ],
-            [
-              ".program-intro > p"
             ]
           ]
         }
@@ -2046,7 +1880,7 @@
           "id": "aria-prohibited-attr",
           "nodes": [
             [
-              ".lab-hero-stages"
+              ".studio-workspace-preview"
             ]
           ]
         },
@@ -2065,49 +1899,7 @@
           "id": "color-contrast",
           "nodes": [
             [
-              "#home-title"
-            ],
-            [
-              ".lab-hero-copy > p:nth-child(2)"
-            ],
-            [
-              ".primary"
-            ],
-            [
-              ".secondary.button[href$=\"upgrade/\"]"
-            ],
-            [
-              ".secondary.button[href$=\"compare/\"]"
-            ],
-            [
-              ".program-help > a[href$=\"build-school/\"]"
-            ],
-            [
-              ".program-help > span"
-            ],
-            [
-              ".program-help > a[href$=\"my-pc/\"]"
-            ],
-            [
-              "text[x=\"47\"]"
-            ],
-            [
-              "text[x=\"203\"]"
-            ],
-            [
-              "text[x=\"540\"]"
-            ],
-            [
-              "text[x=\"29\"]"
-            ],
-            [
-              ".lab-hero-stages > span:nth-child(1)"
-            ],
-            [
-              ".lab-hero-stages > span:nth-child(3)"
-            ],
-            [
-              "span:nth-child(5)"
+              "div:nth-child(2) > .studio-status-icon[aria-hidden=\"true\"]"
             ]
           ]
         }
@@ -2205,23 +1997,6 @@
             ],
             [
               ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
-            ]
-          ]
-        },
-        {
-          "id": "color-contrast",
-          "nodes": [
-            [
-              "h1"
-            ],
-            [
-              ".my-pc-heading > div:nth-child(2) > p"
-            ],
-            [
-              ".workspace-heading-actions > .primary.button[href$=\"builder/\"]"
-            ],
-            [
-              ".workspace-heading-actions > a[href$=\"upgrade/\"]"
             ]
           ]
         }
@@ -2499,17 +2274,6 @@
               ".lab-motion-footer > button[data-appearance-open=\"\"][aria-haspopup=\"dialog\"][aria-controls=\"lab-appearance\"]"
             ]
           ]
-        },
-        {
-          "id": "color-contrast",
-          "nodes": [
-            [
-              "h1"
-            ],
-            [
-              ".program-intro > p"
-            ]
-          ]
         }
       ]
     },
@@ -2739,7 +2503,7 @@
           "id": "aria-prohibited-attr",
           "nodes": [
             [
-              ".lab-hero-stages"
+              ".studio-workspace-preview"
             ]
           ]
         },
@@ -2755,37 +2519,7 @@
           "id": "color-contrast",
           "nodes": [
             [
-              "#home-title"
-            ],
-            [
-              ".lab-hero-copy > p:nth-child(2)"
-            ],
-            [
-              ".primary"
-            ],
-            [
-              ".secondary.button[href$=\"upgrade/\"]"
-            ],
-            [
-              ".secondary.button[href$=\"compare/\"]"
-            ],
-            [
-              ".program-help > a[href$=\"build-school/\"]"
-            ],
-            [
-              ".program-help > span"
-            ],
-            [
-              ".program-help > a[href$=\"my-pc/\"]"
-            ],
-            [
-              ".lab-hero-stages > span:nth-child(1)"
-            ],
-            [
-              ".lab-hero-stages > span:nth-child(3)"
-            ],
-            [
-              "span:nth-child(5)"
+              "div:nth-child(2) > .studio-status-icon[aria-hidden=\"true\"]"
             ]
           ]
         }
@@ -2808,6 +2542,14 @@
               ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
             ]
           ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "a[href$=\"#builder-guidance\"] > span > strong"
+            ]
+          ]
         }
       ]
     },
@@ -2823,6 +2565,14 @@
           "nodes": [
             [
               ".lab-appearance-open"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              ".ui-discover > a[href$=\"phones/\"] > span"
             ]
           ]
         },
@@ -2902,29 +2652,6 @@
               ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
             ]
           ]
-        },
-        {
-          "id": "color-contrast",
-          "nodes": [
-            [
-              "h1"
-            ],
-            [
-              ".my-pc-heading > div:nth-child(2) > p"
-            ],
-            [
-              ".workspace-heading-actions > .primary.button[href$=\"builder/\"]"
-            ],
-            [
-              ".workspace-heading-actions > a[href$=\"upgrade/\"]"
-            ],
-            [
-              "a[href$=\"#workspace-watchlist\"]"
-            ],
-            [
-              "a[href$=\"#workspace-changes\"]"
-            ]
-          ]
         }
       ]
     },
@@ -2970,7 +2697,7 @@
           "id": "aria-prohibited-attr",
           "nodes": [
             [
-              ".lab-hero-stages"
+              ".studio-workspace-preview"
             ]
           ]
         },
@@ -2989,49 +2716,7 @@
           "id": "color-contrast",
           "nodes": [
             [
-              "#home-title"
-            ],
-            [
-              ".lab-hero-copy > p:nth-child(2)"
-            ],
-            [
-              ".primary"
-            ],
-            [
-              ".secondary.button[href$=\"upgrade/\"]"
-            ],
-            [
-              ".secondary.button[href$=\"compare/\"]"
-            ],
-            [
-              ".program-help > a[href$=\"build-school/\"]"
-            ],
-            [
-              ".program-help > span"
-            ],
-            [
-              ".program-help > a[href$=\"my-pc/\"]"
-            ],
-            [
-              "text[x=\"47\"]"
-            ],
-            [
-              "text[x=\"203\"]"
-            ],
-            [
-              "text[x=\"540\"]"
-            ],
-            [
-              "text[x=\"29\"]"
-            ],
-            [
-              ".lab-hero-stages > span:nth-child(1)"
-            ],
-            [
-              ".lab-hero-stages > span:nth-child(3)"
-            ],
-            [
-              "span:nth-child(5)"
+              "div:nth-child(2) > .studio-status-icon[aria-hidden=\"true\"]"
             ]
           ]
         }
@@ -3131,23 +2816,6 @@
               ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
             ]
           ]
-        },
-        {
-          "id": "color-contrast",
-          "nodes": [
-            [
-              "h1"
-            ],
-            [
-              ".my-pc-heading > div:nth-child(2) > p"
-            ],
-            [
-              ".workspace-heading-actions > .primary.button[href$=\"builder/\"]"
-            ],
-            [
-              ".workspace-heading-actions > a[href$=\"upgrade/\"]"
-            ]
-          ]
         }
       ]
     },
@@ -3196,7 +2864,7 @@
           "id": "aria-prohibited-attr",
           "nodes": [
             [
-              ".lab-hero-stages"
+              ".studio-workspace-preview"
             ]
           ]
         },
@@ -3212,37 +2880,7 @@
           "id": "color-contrast",
           "nodes": [
             [
-              "#home-title"
-            ],
-            [
-              ".lab-hero-copy > p:nth-child(2)"
-            ],
-            [
-              ".primary"
-            ],
-            [
-              ".secondary.button[href$=\"upgrade/\"]"
-            ],
-            [
-              ".secondary.button[href$=\"compare/\"]"
-            ],
-            [
-              ".program-help > a[href$=\"build-school/\"]"
-            ],
-            [
-              ".program-help > span"
-            ],
-            [
-              ".program-help > a[href$=\"my-pc/\"]"
-            ],
-            [
-              ".lab-hero-stages > span:nth-child(1)"
-            ],
-            [
-              ".lab-hero-stages > span:nth-child(3)"
-            ],
-            [
-              "span:nth-child(5)"
+              "div:nth-child(2) > .studio-status-icon[aria-hidden=\"true\"]"
             ]
           ]
         }
@@ -3265,6 +2903,14 @@
               ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
             ]
           ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "a[href$=\"#builder-guidance\"] > span > strong"
+            ]
+          ]
         }
       ]
     },
@@ -3280,6 +2926,14 @@
           "nodes": [
             [
               ".lab-appearance-open"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              ".ui-discover > a[href$=\"phones/\"] > span"
             ]
           ]
         },
@@ -3359,29 +3013,6 @@
               ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
             ]
           ]
-        },
-        {
-          "id": "color-contrast",
-          "nodes": [
-            [
-              "h1"
-            ],
-            [
-              ".my-pc-heading > div:nth-child(2) > p"
-            ],
-            [
-              ".workspace-heading-actions > .primary.button[href$=\"builder/\"]"
-            ],
-            [
-              ".workspace-heading-actions > a[href$=\"upgrade/\"]"
-            ],
-            [
-              "a[href$=\"#workspace-watchlist\"]"
-            ],
-            [
-              "a[href$=\"#workspace-changes\"]"
-            ]
-          ]
         }
       ]
     },
@@ -3427,7 +3058,7 @@
           "id": "aria-prohibited-attr",
           "nodes": [
             [
-              ".lab-hero-stages"
+              ".studio-workspace-preview"
             ]
           ]
         },
@@ -3446,49 +3077,7 @@
           "id": "color-contrast",
           "nodes": [
             [
-              "#home-title"
-            ],
-            [
-              ".lab-hero-copy > p:nth-child(2)"
-            ],
-            [
-              ".primary"
-            ],
-            [
-              ".secondary.button[href$=\"upgrade/\"]"
-            ],
-            [
-              ".secondary.button[href$=\"compare/\"]"
-            ],
-            [
-              ".program-help > a[href$=\"build-school/\"]"
-            ],
-            [
-              ".program-help > span"
-            ],
-            [
-              ".program-help > a[href$=\"my-pc/\"]"
-            ],
-            [
-              "text[x=\"47\"]"
-            ],
-            [
-              "text[x=\"203\"]"
-            ],
-            [
-              "text[x=\"540\"]"
-            ],
-            [
-              "text[x=\"29\"]"
-            ],
-            [
-              ".lab-hero-stages > span:nth-child(1)"
-            ],
-            [
-              ".lab-hero-stages > span:nth-child(3)"
-            ],
-            [
-              "span:nth-child(5)"
+              "div:nth-child(2) > .studio-status-icon[aria-hidden=\"true\"]"
             ]
           ]
         }
@@ -3588,23 +3177,6 @@
               ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
             ]
           ]
-        },
-        {
-          "id": "color-contrast",
-          "nodes": [
-            [
-              "h1"
-            ],
-            [
-              ".my-pc-heading > div:nth-child(2) > p"
-            ],
-            [
-              ".workspace-heading-actions > .primary.button[href$=\"builder/\"]"
-            ],
-            [
-              ".workspace-heading-actions > a[href$=\"upgrade/\"]"
-            ]
-          ]
         }
       ]
     },
@@ -3653,7 +3225,7 @@
           "id": "aria-prohibited-attr",
           "nodes": [
             [
-              ".lab-hero-stages"
+              ".studio-workspace-preview"
             ]
           ]
         },
@@ -3669,37 +3241,7 @@
           "id": "color-contrast",
           "nodes": [
             [
-              "#home-title"
-            ],
-            [
-              ".lab-hero-copy > p:nth-child(2)"
-            ],
-            [
-              ".primary"
-            ],
-            [
-              ".secondary.button[href$=\"upgrade/\"]"
-            ],
-            [
-              ".secondary.button[href$=\"compare/\"]"
-            ],
-            [
-              ".program-help > a[href$=\"build-school/\"]"
-            ],
-            [
-              ".program-help > span"
-            ],
-            [
-              ".program-help > a[href$=\"my-pc/\"]"
-            ],
-            [
-              ".lab-hero-stages > span:nth-child(1)"
-            ],
-            [
-              ".lab-hero-stages > span:nth-child(3)"
-            ],
-            [
-              "span:nth-child(5)"
+              "div:nth-child(2) > .studio-status-icon[aria-hidden=\"true\"]"
             ]
           ]
         }
@@ -3722,6 +3264,14 @@
               ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
             ]
           ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "a[href$=\"#builder-guidance\"] > span > strong"
+            ]
+          ]
         }
       ]
     },
@@ -3737,6 +3287,14 @@
           "nodes": [
             [
               ".lab-appearance-open"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              ".ui-discover > a[href$=\"phones/\"] > span"
             ]
           ]
         },
@@ -3816,29 +3374,6 @@
               ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
             ]
           ]
-        },
-        {
-          "id": "color-contrast",
-          "nodes": [
-            [
-              "h1"
-            ],
-            [
-              ".my-pc-heading > div:nth-child(2) > p"
-            ],
-            [
-              ".workspace-heading-actions > .primary.button[href$=\"builder/\"]"
-            ],
-            [
-              ".workspace-heading-actions > a[href$=\"upgrade/\"]"
-            ],
-            [
-              "a[href$=\"#workspace-watchlist\"]"
-            ],
-            [
-              "a[href$=\"#workspace-changes\"]"
-            ]
-          ]
         }
       ]
     },
@@ -3884,7 +3419,7 @@
           "id": "aria-prohibited-attr",
           "nodes": [
             [
-              ".lab-hero-stages"
+              ".studio-workspace-preview"
             ]
           ]
         },
@@ -3903,49 +3438,7 @@
           "id": "color-contrast",
           "nodes": [
             [
-              "#home-title"
-            ],
-            [
-              ".lab-hero-copy > p:nth-child(2)"
-            ],
-            [
-              ".primary"
-            ],
-            [
-              ".secondary.button[href$=\"upgrade/\"]"
-            ],
-            [
-              ".secondary.button[href$=\"compare/\"]"
-            ],
-            [
-              ".program-help > a[href$=\"build-school/\"]"
-            ],
-            [
-              ".program-help > span"
-            ],
-            [
-              ".program-help > a[href$=\"my-pc/\"]"
-            ],
-            [
-              "text[x=\"47\"]"
-            ],
-            [
-              "text[x=\"203\"]"
-            ],
-            [
-              "text[x=\"540\"]"
-            ],
-            [
-              "text[x=\"29\"]"
-            ],
-            [
-              ".lab-hero-stages > span:nth-child(1)"
-            ],
-            [
-              ".lab-hero-stages > span:nth-child(3)"
-            ],
-            [
-              "span:nth-child(5)"
+              "div:nth-child(2) > .studio-status-icon[aria-hidden=\"true\"]"
             ]
           ]
         }
@@ -4045,23 +3538,6 @@
               ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
             ]
           ]
-        },
-        {
-          "id": "color-contrast",
-          "nodes": [
-            [
-              "h1"
-            ],
-            [
-              ".my-pc-heading > div:nth-child(2) > p"
-            ],
-            [
-              ".workspace-heading-actions > .primary.button[href$=\"builder/\"]"
-            ],
-            [
-              ".workspace-heading-actions > a[href$=\"upgrade/\"]"
-            ]
-          ]
         }
       ]
     },
@@ -4110,7 +3586,7 @@
           "id": "aria-prohibited-attr",
           "nodes": [
             [
-              ".lab-hero-stages"
+              ".studio-workspace-preview"
             ]
           ]
         },
@@ -4126,37 +3602,7 @@
           "id": "color-contrast",
           "nodes": [
             [
-              "#home-title"
-            ],
-            [
-              ".lab-hero-copy > p:nth-child(2)"
-            ],
-            [
-              ".primary"
-            ],
-            [
-              ".secondary.button[href$=\"upgrade/\"]"
-            ],
-            [
-              ".secondary.button[href$=\"compare/\"]"
-            ],
-            [
-              ".program-help > a[href$=\"build-school/\"]"
-            ],
-            [
-              ".program-help > span"
-            ],
-            [
-              ".program-help > a[href$=\"my-pc/\"]"
-            ],
-            [
-              ".lab-hero-stages > span:nth-child(1)"
-            ],
-            [
-              ".lab-hero-stages > span:nth-child(3)"
-            ],
-            [
-              "span:nth-child(5)"
+              "div:nth-child(2) > .studio-status-icon[aria-hidden=\"true\"]"
             ]
           ]
         }
@@ -4179,6 +3625,14 @@
               ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
             ]
           ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "a[href$=\"#builder-guidance\"] > span > strong"
+            ]
+          ]
         }
       ]
     },
@@ -4194,6 +3648,14 @@
           "nodes": [
             [
               ".lab-appearance-open"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              ".ui-discover > a[href$=\"phones/\"] > span"
             ]
           ]
         },
@@ -4273,29 +3735,6 @@
               ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
             ]
           ]
-        },
-        {
-          "id": "color-contrast",
-          "nodes": [
-            [
-              "h1"
-            ],
-            [
-              ".my-pc-heading > div:nth-child(2) > p"
-            ],
-            [
-              ".workspace-heading-actions > .primary.button[href$=\"builder/\"]"
-            ],
-            [
-              ".workspace-heading-actions > a[href$=\"upgrade/\"]"
-            ],
-            [
-              "a[href$=\"#workspace-watchlist\"]"
-            ],
-            [
-              "a[href$=\"#workspace-changes\"]"
-            ]
-          ]
         }
       ]
     },
@@ -4341,7 +3780,7 @@
           "id": "aria-prohibited-attr",
           "nodes": [
             [
-              ".lab-hero-stages"
+              ".studio-workspace-preview"
             ]
           ]
         },
@@ -4360,49 +3799,7 @@
           "id": "color-contrast",
           "nodes": [
             [
-              "#home-title"
-            ],
-            [
-              ".lab-hero-copy > p:nth-child(2)"
-            ],
-            [
-              ".primary"
-            ],
-            [
-              ".secondary.button[href$=\"upgrade/\"]"
-            ],
-            [
-              ".secondary.button[href$=\"compare/\"]"
-            ],
-            [
-              ".program-help > a[href$=\"build-school/\"]"
-            ],
-            [
-              ".program-help > span"
-            ],
-            [
-              ".program-help > a[href$=\"my-pc/\"]"
-            ],
-            [
-              "text[x=\"47\"]"
-            ],
-            [
-              "text[x=\"203\"]"
-            ],
-            [
-              "text[x=\"540\"]"
-            ],
-            [
-              "text[x=\"29\"]"
-            ],
-            [
-              ".lab-hero-stages > span:nth-child(1)"
-            ],
-            [
-              ".lab-hero-stages > span:nth-child(3)"
-            ],
-            [
-              "span:nth-child(5)"
+              "div:nth-child(2) > .studio-status-icon[aria-hidden=\"true\"]"
             ]
           ]
         }
@@ -4500,23 +3897,6 @@
             ],
             [
               ".lab-motion-footer > button[data-appearance-open=\"\"][aria-controls=\"lab-appearance\"][aria-haspopup=\"dialog\"]"
-            ]
-          ]
-        },
-        {
-          "id": "color-contrast",
-          "nodes": [
-            [
-              "h1"
-            ],
-            [
-              ".my-pc-heading > div:nth-child(2) > p"
-            ],
-            [
-              ".workspace-heading-actions > .primary.button[href$=\"builder/\"]"
-            ],
-            [
-              ".workspace-heading-actions > a[href$=\"upgrade/\"]"
             ]
           ]
         }

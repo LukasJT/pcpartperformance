@@ -1,6 +1,8 @@
 const fs=require('fs'),path=require('path'),crypto=require('crypto');
 const compactCSS=require('./css-compact.cjs');
 module.exports=({root,records,shell,write,esc})=>{
+ const studioImages=JSON.parse(fs.readFileSync(path.join(root,'images.json'),'utf8'));
+ const cssBundles=new Map();
  const programPreview=process.env.PROGRAM_PREVIEW==='1',retainedExclusions=new Set(require('../docs/program-2026-10-09/indexing-decisions.json').retained);
  const publication=JSON.parse(fs.readFileSync(path.join(root,'publication-metadata.json'),'utf8'));
  const continuation=JSON.parse(fs.readFileSync(path.join(root,'continuation-editorial-metadata.json'),'utf8'));
@@ -35,6 +37,7 @@ module.exports=({root,records,shell,write,esc})=>{
  h=h.replace(/href="\/hardware\/\?category=([a-z]+)"/g,(match,cat)=>{const slug=require('./seo-launch.cjs').categoryPaths[cat];return slug?'href="/hardware/'+slug+'/"':match});
  if(p){const title=`${p.brand} ${p.name.startsWith(p.brand)?p.name.slice(p.brand.length).trim():p.name}: Specs & Compatibility`;const desc=`${p.name}: ${p.summary}. Check ${p.cat==='fan'?'fan dimensions, connectors and airflow direction':'specifications and model details'}, source documentation and buying options.`;h=h.replace(/<title>[\s\S]*?<\/title>/,`<title>${esc(title)} · PC Part Performance</title>`).replace(/<meta name="description" content="[^"]*">/,`<meta name="description" content="${esc(desc)}">`)}
  h=require('./total-seo.cjs').polish(h,route);
+ h=require('./clean-studio.cjs').polish(h,route,{records,images:studioImages});
  h=h.replace(/<link rel="canonical"[^>]*>/g,'').replace(/<meta name="twitter:(?:title|description)"[^>]*>/g,'');
  h=h.replace(/<meta (?:name="twitter:card"|property="og:(?:title|description|url|site_name|type)") content="[^"]*">/g,'').replace(/<meta name="robots" content="[^"]*">/g,'');
  const title=h.match(/<title>(.*?)<\/title>/)?.[1]||'',desc=h.match(/<meta name="description" content="([^"]*)"/)?.[1]||'',preferred=p?productIdentities.resolve(p.id).record:null,alternate=preferred&&preferred.id!==p.id,canonical=domain+(alternate?'/learn/'+preferred.id+'.html':route),noindex=p?.indexable===false||programPreview||h.includes('data-program-draft')||h.includes('data-stage2-noindex')||route==='/404.html'||(retainedExclusions.has(route)&&!continuation[route]?.publicationAuthorized&&!master[route]?.publicationAuthorized);h=h.replace('</head>',`<link rel="canonical" href="${canonical}"></head>`);
@@ -43,7 +46,7 @@ module.exports=({root,records,shell,write,esc})=>{
  if(route!=='/404.html'&&route!=='/'){
   // One visible breadcrumb and one matching schema; preserve other structured data.
   h=h.replace(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g,(block,json)=>{try{const data=JSON.parse(json);if(data['@type']==='BreadcrumbList')return '';if(Array.isArray(data['@graph'])){data['@graph']=data['@graph'].filter(node=>node['@type']!=='BreadcrumbList');return '<script type="application/ld+json">'+JSON.stringify(data).replace(/</g,'\\u003c')+'</script>'}return block}catch{return block}});
-  const decode=s=>s.replace(/<[^>]*>/g,'').replace(/&amp;/g,'&').replace(/&quot;/g,'"').replace(/&#39;/g,"'").replace(/&lt;/g,'<').replace(/&gt;/g,'>').trim();
+  const decode=s=>s.replace(/<br\s*\/?\s*>/gi,' ').replace(/<[^>]*>/g,'').replace(/&amp;/g,'&').replace(/&quot;/g,'"').replace(/&#39;/g,"'").replace(/&lt;/g,'<').replace(/&gt;/g,'>').trim();
   const label=require('./clarity-site.cjs').compactBreadcrumb(route,decode(h.match(/<h1[^>]*>([\s\S]*?)<\/h1>/)?.[1]||title)),segments=route.split('/').filter(Boolean),crumbs=[{name:'Home',url:domain+'/'}];
   if(segments.length>1){const parent=segments[0]==='learn'?'/hardware/':'/'+segments[0]+'/';crumbs.push({name:({blog:'Guides',news:'Hardware news',learn:'Hardware',performance:'Game FPS',tools:'Tools',hardware:'Hardware',builder:'PC Builder',compare:'Comparisons',phones:'Phones',prebuilts:'Prebuilt PCs',laptops:'Gaming laptops'})[segments[0]]||segments[0],url:domain+parent})}
   crumbs.push({name:label,url:canonical});
@@ -57,7 +60,13 @@ module.exports=({root,records,shell,write,esc})=>{
  if(route==='/')h=h.replace('</head>',`<script type="application/ld+json">${JSON.stringify({'@context':'https://schema.org','@graph':[{'@type':'WebSite','@id':domain+'/#website',name:'PC Part Performance',url:domain+'/'},{'@type':'Organization','@id':domain+'/#publisher',name:'PC Part Performance',url:domain+'/about/',logo:domain+'/assets/logo.png'}]})}</script></head>`);
  if(route.startsWith('/hardware/')){const listed=[...h.matchAll(/href="\/learn\/([^"?#/]+)\.html/g)].map(m=>records.find(p=>p.id===m[1])).filter(Boolean);const data={'@context':'https://schema.org','@type':'ItemList',name:h.match(/<h1[^>]*>(.*?)<\/h1>/)?.[1],numberOfItems:listed.length,itemListElement:listed.map((p,i)=>({'@type':'ListItem',position:i+1,name:p.name,url:domain+'/learn/'+p.id+'.html'}))};h=h.replace('</head>','<script type="application/ld+json">'+JSON.stringify(data).replace(/</g,'\\u003c')+'</script></head>')}
  // Combine the ordered local stylesheets into a content-addressed file. Move font imports into the document head.
- const css=[...h.matchAll(/<link rel="stylesheet" href="(\/[^"?]+\.css)">/g)].map(m=>m[1]);if(css.length){const imports=new Set();let content=css.map(url=>fs.readFileSync(path.join(root,url),'utf8')).join('\n').replace(/\r\n/g,'\n');content=content.replace(/@import url\(([^)]+)\);/g,(_,u)=>{const fontURL=u.replace(/^['"]|['"]$/g,'');if(!h.includes('data-ui-refined')||!/^https:\/\/fonts\.googleapis\.com\//.test(fontURL))imports.add(fontURL);return''});content=compactCSS(content);const hash=crypto.createHash('sha256').update(content).digest('hex').slice(0,12),url='/assets/css/site-'+hash+'.css';fs.mkdirSync(path.join(root,'assets/css'),{recursive:true});const bundleFile=path.join(root,url);if(!fs.existsSync(bundleFile)||fs.readFileSync(bundleFile,'utf8')!==content)fs.writeFileSync(bundleFile,content);let first=true;h=h.replace(/<link rel="stylesheet" href="\/[^"?]+\.css">/g,()=>{if(!first)return'';first=false;return[...imports].map(u=>`<link rel="stylesheet" href="${u.replaceAll('&','&amp;')}">`).join('')+`<link rel="stylesheet" href="${url}">`});report.bundles.add(url)}
+ const css=[...h.matchAll(/<link rel="stylesheet" href="(\/[^"?]+\.css)">/g)].map(m=>m[1]);if(css.length){
+  // All source CSS is prepared before this pass. Identical ordered inputs have
+  // identical output; cache per build rather than recomputing for every SKU.
+  const key=JSON.stringify([h.includes('data-ui-refined'),css]);let bundle=cssBundles.get(key);
+  if(!bundle){const imports=new Set();let content=css.map(url=>fs.readFileSync(path.join(root,url),'utf8')).join('\n').replace(/\r\n/g,'\n');content=content.replace(/@import url\(([^)]+)\);/g,(_,u)=>{const fontURL=u.replace(/^['"]|['"]$/g,'');if(!h.includes('data-ui-refined')||!/^https:\/\/fonts\.googleapis\.com\//.test(fontURL))imports.add(fontURL);return''});content=compactCSS(content);const hash=crypto.createHash('sha256').update(content).digest('hex').slice(0,12),url='/assets/css/site-'+hash+'.css';fs.mkdirSync(path.join(root,'assets/css'),{recursive:true});const bundleFile=path.join(root,url);if(!fs.existsSync(bundleFile)||fs.readFileSync(bundleFile,'utf8')!==content)fs.writeFileSync(bundleFile,content);bundle={imports:[...imports],url};cssBundles.set(key,bundle);}
+  let first=true;h=h.replace(/<link rel="stylesheet" href="\/[^"?]+\.css">/g,()=>{if(!first)return'';first=false;return bundle.imports.map(u=>`<link rel="stylesheet" href="${u.replaceAll('&','&amp;')}">`).join('')+`<link rel="stylesheet" href="${bundle.url}">`});report.bundles.add(bundle.url);
+ }
  if(!h.includes('rel="canonical"'))h=h.replace('</head>',`<link rel="canonical" href="${domain+route}"></head>`);
  fs.writeFileSync(file,h);report.pages++;
  }

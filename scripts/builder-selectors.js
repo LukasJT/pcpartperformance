@@ -174,6 +174,7 @@
         const mark = document.createElement('span'); mark.className = 'select-check'; mark.setAttribute('aria-hidden', 'true'); mark.innerHTML = row.id === active.value ? icon('check') : '<span>Add</span>';
         const region=window.PCP_BUILD_SESSION?.current()?.region||document.documentElement.dataset.region||'CA',offer=window.PCP_PUBLIC_PRICES?.offersFor(row.id,region)?.[0];
         if(offer){const price=document.createElement('small');price.className='builder-picker-price';price.textContent=new Intl.NumberFormat(region==='US'?'en-US':'en-CA',{style:'currency',currency:region==='US'?'USD':'CAD',currencyDisplay:'code'}).format(offer.price);price.title='Checked '+new Date(offer.checkedAt).toLocaleString()+' · '+(offer.store||offer.merchant);text.append(price);}
+        else if(row.part){const price=document.createElement('small');price.className='builder-picker-price builder-picker-price-unknown';price.textContent='No checked price';text.append(price);}
         button.append(frame, text, mark); button.addEventListener('click', () => choose(index)); results.append(button);
       });
       if (!rows.length) { const empty = document.createElement('p'); empty.className = 'select-empty'; empty.textContent = 'No matches. Try another name or reset the filters.'; results.append(empty); }

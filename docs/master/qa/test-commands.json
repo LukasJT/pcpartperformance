@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-10-19T23:11:21.041Z",
-  "commands": 109,
-  "passed": 109,
+  "checkedAt": "2026-10-20T22:34:11.399Z",
+  "commands": 111,
+  "passed": 108,
   "results": [
     {
       "command": "node scripts/check-program.cjs",
@@ -140,8 +140,8 @@
     },
     {
       "command": "node scripts/check-growth-release.cjs",
-      "exitCode": 0,
-      "passed": true
+      "exitCode": 1,
+      "passed": false
     },
     {
       "command": "node scripts/test-master-publication.cjs",
@@ -180,8 +180,8 @@
     },
     {
       "command": "node scripts/check-program-performance.cjs",
-      "exitCode": 0,
-      "passed": true
+      "exitCode": 1,
+      "passed": false
     },
     {
       "command": "node scripts/release-preflight.cjs",
@@ -240,6 +240,16 @@
     },
     {
       "command": "node --test scripts/release-ci-annotations.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node --test scripts/clean-studio.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node --test scripts/css-compact.test.cjs",
       "exitCode": 0,
       "passed": true
     },
@@ -345,8 +355,8 @@
     },
     {
       "command": "node scripts/oct16-delivery.test.cjs",
-      "exitCode": 0,
-      "passed": true
+      "exitCode": 1,
+      "passed": false
     },
     {
       "command": "node scripts/completion-editorial.test.cjs",

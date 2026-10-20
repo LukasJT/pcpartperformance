@@ -5,6 +5,8 @@ tasks.push('node scripts/test-master-publication.cjs','node scripts/test-master-
 tasks.push('node scripts/test-clarity-site.cjs','node scripts/test-phone-clarity.cjs','node scripts/oct14-catalog.test.cjs','node scripts/oct14-editorial-content.test.cjs','node scripts/oct14-price-sources.test.mjs','node scripts/oct14-price-sources-newegg.test.mjs','node scripts/public-price-service.test.mjs','node scripts/test-shopping-price-ui.cjs','node scripts/public-price-client.test.mjs','node scripts/test-guide-directory.cjs');
 const results=[];
 tasks.push('node --test scripts/release-ci-annotations.test.cjs');
+tasks.push('node --test scripts/clean-studio.test.cjs');
+tasks.push('node --test scripts/css-compact.test.cjs');
 tasks.push('node scripts/total-photo-coverage-oct19.cjs');
 tasks.push('node --test scripts/oct19-delivery-packing.test.cjs');
 tasks.push('node --test scripts/component-photo-total-reference-oct19.test.cjs');
