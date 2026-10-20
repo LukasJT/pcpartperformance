@@ -1,0 +1,110 @@
+{
+  "checkedAt": "2026-10-20T23:13:26.690Z",
+  "commit": "849fb96d3030712dd990cbf68928dd7cef033f8d",
+  "passed": true,
+  "scope": "Actual public HTML and exact CSS byte comparisons. Browser journeys, field metrics and physical-device behavior are separate evidence.",
+  "checks": [
+    {
+      "route": "/",
+      "renderedStudioHTML": true
+    },
+    {
+      "route": "/builder/",
+      "renderedStudioHTML": true
+    },
+    {
+      "route": "/my-pc/",
+      "renderedStudioHTML": true
+    },
+    {
+      "route": "/upgrade/",
+      "renderedStudioHTML": true
+    },
+    {
+      "route": "/compare/",
+      "renderedStudioHTML": true
+    },
+    {
+      "route": "/hardware/",
+      "renderedStudioHTML": true
+    },
+    {
+      "route": "/blog/",
+      "renderedStudioHTML": true
+    },
+    {
+      "route": "/blog/understanding-pc-memory/",
+      "renderedStudioHTML": true
+    },
+    {
+      "route": "/learn/9800x3d.html",
+      "renderedStudioHTML": true
+    },
+    {
+      "route": "/build-school/",
+      "renderedStudioHTML": true
+    }
+  ],
+  "styleChecks": [
+    {
+      "url": "/assets/css/site-6b531058f94d.css",
+      "bytes": 122941,
+      "sha256": "6b531058f94d3fd4ac360659be41536340b262d53b0fd40f18f9bab6d2480248",
+      "matchesLocalBuild": true
+    },
+    {
+      "url": "/assets/css/site-6b2bd2b8ba52.css",
+      "bytes": 214602,
+      "sha256": "6b2bd2b8ba52d7d4ecfe85055b8ef1ab86921ec81603976c2aa010f03dfc259f",
+      "matchesLocalBuild": true
+    },
+    {
+      "url": "/assets/css/site-b59900ac5a43.css",
+      "bytes": 156521,
+      "sha256": "b59900ac5a431467ba9b1105277b40985e2a702e4b2b9b3f374a53058845bcd1",
+      "matchesLocalBuild": true
+    },
+    {
+      "url": "/assets/css/site-762a5bd34b44.css",
+      "bytes": 151493,
+      "sha256": "762a5bd34b444a4d50a7bf9c49dcaaf1d52e73f897c9403fb04572986c6d5e6f",
+      "matchesLocalBuild": true
+    },
+    {
+      "url": "/assets/css/site-153f12b7d3fe.css",
+      "bytes": 154196,
+      "sha256": "153f12b7d3fe5f61aea95859cfd6ecba3da080892e39fb62bcab9e86e411f8dc",
+      "matchesLocalBuild": true
+    },
+    {
+      "url": "/assets/css/site-d52c5c5ec4e6.css",
+      "bytes": 125360,
+      "sha256": "d52c5c5ec4e6267849eeaa9003b43ecb8bf98e3bdfe062c13bcc5c126309a266",
+      "matchesLocalBuild": true
+    },
+    {
+      "url": "/assets/css/site-4950e3ea1a30.css",
+      "bytes": 126212,
+      "sha256": "4950e3ea1a308fbe286155c6aee22d283d297d2ee9259c03d1b1e96dbaac34a9",
+      "matchesLocalBuild": true
+    },
+    {
+      "url": "/assets/css/site-3893270bac8f.css",
+      "bytes": 103149,
+      "sha256": "3893270bac8f465ec649acdb9ff3d28b1b6f4a095f617b73d9b71b0bff722ca1",
+      "matchesLocalBuild": true
+    },
+    {
+      "url": "/assets/css/site-356cb8f36207.css",
+      "bytes": 111924,
+      "sha256": "356cb8f36207af4cbd080bc79a4f1f4052cf0067277a9bb0df0695f45adb3114",
+      "matchesLocalBuild": true
+    },
+    {
+      "url": "/assets/css/site-db67ed9f4adc.css",
+      "bytes": 125263,
+      "sha256": "db67ed9f4adc187532ba16727d6deca2298518802d42c2e9d8d887e38f5a65dc",
+      "matchesLocalBuild": true
+    }
+  ]
+}

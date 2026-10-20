@@ -1,0 +1,7844 @@
+{
+  "checkedAt": "2026-10-20T23:15:38.020Z",
+  "origin": "https://www.pcpartperformance.com",
+  "scope": "Isolated Edge; viewport and touch emulation, not physical iOS Safari. Reduced-height picker approximates lost screen space, not a real software keyboard.",
+  "reports": [
+    {
+      "palette": "arctic",
+      "width": 320,
+      "route": "/",
+      "state": "page",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 320,
+        "documentWidth": 320,
+        "menu": [],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "arctic",
+      "width": 320,
+      "route": "/builder/",
+      "state": "page",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 320,
+        "documentWidth": 320,
+        "menu": [],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "arctic",
+      "width": 320,
+      "route": "/builder/",
+      "state": "menu",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 320,
+        "documentWidth": 320,
+        "menu": [
+          {
+            "text": "Build",
+            "lines": 1
+          },
+          {
+            "text": "Upgrade",
+            "lines": 1
+          },
+          {
+            "text": "Compare",
+            "lines": 1
+          },
+          {
+            "text": "Hardware",
+            "lines": 1
+          },
+          {
+            "text": "Learn",
+            "lines": 1
+          },
+          {
+            "text": "My PC",
+            "lines": 1
+          }
+        ],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "arctic",
+      "width": 320,
+      "route": "/builder/",
+      "state": "menu enlarged text",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 320,
+        "documentWidth": 320,
+        "menu": [
+          {
+            "text": "Build",
+            "lines": 1
+          },
+          {
+            "text": "Upgrade",
+            "lines": 1
+          },
+          {
+            "text": "Compare",
+            "lines": 1
+          },
+          {
+            "text": "Hardware",
+            "lines": 1
+          },
+          {
+            "text": "Learn",
+            "lines": 1
+          },
+          {
+            "text": "My PC",
+            "lines": 1
+          }
+        ],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "arctic",
+      "width": 320,
+      "route": "/builder/",
+      "state": "CPU picker",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 320,
+        "documentWidth": 320,
+        "menu": [],
+        "add": [
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          }
+        ],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": {
+          "x": 0,
+          "y": 185.6875,
+          "right": 320,
+          "bottom": 844,
+          "width": 320,
+          "height": 658.3125
+        },
+        "close": {
+          "x": 263,
+          "y": 204.5,
+          "right": 303,
+          "bottom": 248.5,
+          "width": 40,
+          "height": 44
+        }
+      }
+    },
+    {
+      "palette": "arctic",
+      "width": 320,
+      "route": "/builder/",
+      "state": "picker reduced visible height",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 320,
+        "documentWidth": 320,
+        "menu": [],
+        "add": [
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          }
+        ],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": {
+          "x": 0,
+          "y": 0,
+          "right": 320,
+          "bottom": 390,
+          "width": 320,
+          "height": 390
+        },
+        "close": {
+          "x": 263,
+          "y": 17,
+          "right": 303,
+          "bottom": 61,
+          "width": 40,
+          "height": 44
+        }
+      }
+    },
+    {
+      "palette": "arctic",
+      "width": 320,
+      "route": "/builder/",
+      "state": "CPU selected",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 320,
+        "documentWidth": 320,
+        "menu": [],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "arctic",
+      "width": 320,
+      "route": "/builder/",
+      "state": "PSU picker",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 320,
+        "documentWidth": 320,
+        "menu": [],
+        "add": [
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          }
+        ],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": {
+          "x": 0,
+          "y": 185.6875,
+          "right": 320,
+          "bottom": 844,
+          "width": 320,
+          "height": 658.3125
+        },
+        "close": {
+          "x": 263,
+          "y": 216.46875,
+          "right": 303,
+          "bottom": 260.46875,
+          "width": 40,
+          "height": 44
+        }
+      }
+    },
+    {
+      "palette": "arctic",
+      "width": 320,
+      "route": "/my-pc/",
+      "state": "page",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 320,
+        "documentWidth": 320,
+        "menu": [],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "arctic",
+      "width": 320,
+      "route": "/upgrade/",
+      "state": "page",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 320,
+        "documentWidth": 320,
+        "menu": [],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "arctic",
+      "width": 320,
+      "route": "/compare/",
+      "state": "page",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 320,
+        "documentWidth": 320,
+        "menu": [],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "arctic",
+      "width": 320,
+      "route": "/hardware/",
+      "state": "page",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 320,
+        "documentWidth": 320,
+        "menu": [],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "arctic",
+      "width": 320,
+      "route": "/learn/9800x3d.html",
+      "state": "page",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 320,
+        "documentWidth": 320,
+        "menu": [],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "arctic",
+      "width": 320,
+      "route": "/blog/",
+      "state": "page",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 320,
+        "documentWidth": 320,
+        "menu": [],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "arctic",
+      "width": 320,
+      "route": "/blog/understanding-pc-memory/",
+      "state": "page",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 320,
+        "documentWidth": 320,
+        "menu": [],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "arctic",
+      "width": 320,
+      "route": "/build-school/",
+      "state": "page",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 320,
+        "documentWidth": 320,
+        "menu": [],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "arctic",
+      "width": 320,
+      "route": "/",
+      "state": "page enlarged text",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 320,
+        "documentWidth": 320,
+        "menu": [],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "arctic",
+      "width": 320,
+      "route": "/builder/",
+      "state": "page enlarged text",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 320,
+        "documentWidth": 320,
+        "menu": [],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "arctic",
+      "width": 320,
+      "route": "/my-pc/",
+      "state": "page enlarged text",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 320,
+        "documentWidth": 320,
+        "menu": [],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "arctic",
+      "width": 320,
+      "route": "/blog/understanding-pc-memory/",
+      "state": "page enlarged text",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 320,
+        "documentWidth": 320,
+        "menu": [],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "arctic",
+      "width": 390,
+      "route": "/",
+      "state": "page",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "menu": [],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "arctic",
+      "width": 390,
+      "route": "/builder/",
+      "state": "page",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "menu": [],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "arctic",
+      "width": 390,
+      "route": "/builder/",
+      "state": "menu",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "menu": [
+          {
+            "text": "Build",
+            "lines": 1
+          },
+          {
+            "text": "Upgrade",
+            "lines": 1
+          },
+          {
+            "text": "Compare",
+            "lines": 1
+          },
+          {
+            "text": "Hardware",
+            "lines": 1
+          },
+          {
+            "text": "Learn",
+            "lines": 1
+          },
+          {
+            "text": "My PC",
+            "lines": 1
+          }
+        ],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "arctic",
+      "width": 390,
+      "route": "/builder/",
+      "state": "menu enlarged text",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "menu": [
+          {
+            "text": "Build",
+            "lines": 1
+          },
+          {
+            "text": "Upgrade",
+            "lines": 1
+          },
+          {
+            "text": "Compare",
+            "lines": 1
+          },
+          {
+            "text": "Hardware",
+            "lines": 1
+          },
+          {
+            "text": "Learn",
+            "lines": 1
+          },
+          {
+            "text": "My PC",
+            "lines": 1
+          }
+        ],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "arctic",
+      "width": 390,
+      "route": "/builder/",
+      "state": "CPU picker",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "menu": [],
+        "add": [
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          }
+        ],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": {
+          "x": 0,
+          "y": 185.6875,
+          "right": 390,
+          "bottom": 844,
+          "width": 390,
+          "height": 658.3125
+        },
+        "close": {
+          "x": 333,
+          "y": 204.5,
+          "right": 373,
+          "bottom": 248.5,
+          "width": 40,
+          "height": 44
+        }
+      }
+    },
+    {
+      "palette": "arctic",
+      "width": 390,
+      "route": "/builder/",
+      "state": "picker reduced visible height",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "menu": [],
+        "add": [
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          }
+        ],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": {
+          "x": 0,
+          "y": 0,
+          "right": 390,
+          "bottom": 390,
+          "width": 390,
+          "height": 390
+        },
+        "close": {
+          "x": 333,
+          "y": 17,
+          "right": 373,
+          "bottom": 61,
+          "width": 40,
+          "height": 44
+        }
+      }
+    },
+    {
+      "palette": "arctic",
+      "width": 390,
+      "route": "/builder/",
+      "state": "CPU selected",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "menu": [],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "arctic",
+      "width": 390,
+      "route": "/builder/",
+      "state": "PSU picker",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "menu": [],
+        "add": [
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          }
+        ],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": {
+          "x": 0,
+          "y": 185.6875,
+          "right": 390,
+          "bottom": 844,
+          "width": 390,
+          "height": 658.3125
+        },
+        "close": {
+          "x": 333,
+          "y": 204.5,
+          "right": 373,
+          "bottom": 248.5,
+          "width": 40,
+          "height": 44
+        }
+      }
+    },
+    {
+      "palette": "arctic",
+      "width": 390,
+      "route": "/my-pc/",
+      "state": "page",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "menu": [],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "arctic",
+      "width": 390,
+      "route": "/upgrade/",
+      "state": "page",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "menu": [],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "arctic",
+      "width": 390,
+      "route": "/compare/",
+      "state": "page",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "menu": [],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "arctic",
+      "width": 390,
+      "route": "/hardware/",
+      "state": "page",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "menu": [],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "arctic",
+      "width": 390,
+      "route": "/learn/9800x3d.html",
+      "state": "page",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "menu": [],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "arctic",
+      "width": 390,
+      "route": "/blog/",
+      "state": "page",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "menu": [],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "arctic",
+      "width": 390,
+      "route": "/blog/understanding-pc-memory/",
+      "state": "page",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "menu": [],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "arctic",
+      "width": 390,
+      "route": "/build-school/",
+      "state": "page",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "menu": [],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "arctic",
+      "width": 390,
+      "route": "/",
+      "state": "page enlarged text",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "menu": [],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "arctic",
+      "width": 390,
+      "route": "/builder/",
+      "state": "page enlarged text",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "menu": [],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "arctic",
+      "width": 390,
+      "route": "/my-pc/",
+      "state": "page enlarged text",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "menu": [],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "arctic",
+      "width": 390,
+      "route": "/blog/understanding-pc-memory/",
+      "state": "page enlarged text",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "menu": [],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "arctic",
+      "width": 1440,
+      "route": "/",
+      "state": "page",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "menu": [
+          {
+            "text": "Build",
+            "lines": 1
+          },
+          {
+            "text": "Upgrade",
+            "lines": 1
+          },
+          {
+            "text": "Compare",
+            "lines": 1
+          },
+          {
+            "text": "Hardware",
+            "lines": 1
+          },
+          {
+            "text": "Learn",
+            "lines": 1
+          },
+          {
+            "text": "My PC",
+            "lines": 1
+          }
+        ],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "arctic",
+      "width": 1440,
+      "route": "/builder/",
+      "state": "page",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "menu": [
+          {
+            "text": "Build",
+            "lines": 1
+          },
+          {
+            "text": "Upgrade",
+            "lines": 1
+          },
+          {
+            "text": "Compare",
+            "lines": 1
+          },
+          {
+            "text": "Hardware",
+            "lines": 1
+          },
+          {
+            "text": "Learn",
+            "lines": 1
+          },
+          {
+            "text": "My PC",
+            "lines": 1
+          }
+        ],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "arctic",
+      "width": 1440,
+      "route": "/builder/",
+      "state": "CPU picker",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "menu": [
+          {
+            "text": "Build",
+            "lines": 1
+          },
+          {
+            "text": "Upgrade",
+            "lines": 1
+          },
+          {
+            "text": "Compare",
+            "lines": 1
+          },
+          {
+            "text": "Hardware",
+            "lines": 1
+          },
+          {
+            "text": "Learn",
+            "lines": 1
+          },
+          {
+            "text": "My PC",
+            "lines": 1
+          }
+        ],
+        "add": [
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          }
+        ],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": {
+          "x": 250,
+          "y": 120,
+          "right": 1190,
+          "bottom": 880,
+          "width": 940,
+          "height": 760
+        },
+        "close": {
+          "x": 1121,
+          "y": 144.375,
+          "right": 1165,
+          "bottom": 188.375,
+          "width": 44,
+          "height": 44
+        }
+      }
+    },
+    {
+      "palette": "arctic",
+      "width": 1440,
+      "route": "/builder/",
+      "state": "CPU selected",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "menu": [
+          {
+            "text": "Build",
+            "lines": 1
+          },
+          {
+            "text": "Upgrade",
+            "lines": 1
+          },
+          {
+            "text": "Compare",
+            "lines": 1
+          },
+          {
+            "text": "Hardware",
+            "lines": 1
+          },
+          {
+            "text": "Learn",
+            "lines": 1
+          },
+          {
+            "text": "My PC",
+            "lines": 1
+          }
+        ],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "arctic",
+      "width": 1440,
+      "route": "/builder/",
+      "state": "PSU picker",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "menu": [
+          {
+            "text": "Build",
+            "lines": 1
+          },
+          {
+            "text": "Upgrade",
+            "lines": 1
+          },
+          {
+            "text": "Compare",
+            "lines": 1
+          },
+          {
+            "text": "Hardware",
+            "lines": 1
+          },
+          {
+            "text": "Learn",
+            "lines": 1
+          },
+          {
+            "text": "My PC",
+            "lines": 1
+          }
+        ],
+        "add": [
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          }
+        ],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": {
+          "x": 250,
+          "y": 120,
+          "right": 1190,
+          "bottom": 880,
+          "width": 940,
+          "height": 760
+        },
+        "close": {
+          "x": 1121,
+          "y": 144.375,
+          "right": 1165,
+          "bottom": 188.375,
+          "width": 44,
+          "height": 44
+        }
+      }
+    },
+    {
+      "palette": "arctic",
+      "width": 1440,
+      "route": "/my-pc/",
+      "state": "page",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "menu": [
+          {
+            "text": "Build",
+            "lines": 1
+          },
+          {
+            "text": "Upgrade",
+            "lines": 1
+          },
+          {
+            "text": "Compare",
+            "lines": 1
+          },
+          {
+            "text": "Hardware",
+            "lines": 1
+          },
+          {
+            "text": "Learn",
+            "lines": 1
+          },
+          {
+            "text": "My PC",
+            "lines": 1
+          }
+        ],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "arctic",
+      "width": 1440,
+      "route": "/upgrade/",
+      "state": "page",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "menu": [
+          {
+            "text": "Build",
+            "lines": 1
+          },
+          {
+            "text": "Upgrade",
+            "lines": 1
+          },
+          {
+            "text": "Compare",
+            "lines": 1
+          },
+          {
+            "text": "Hardware",
+            "lines": 1
+          },
+          {
+            "text": "Learn",
+            "lines": 1
+          },
+          {
+            "text": "My PC",
+            "lines": 1
+          }
+        ],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "arctic",
+      "width": 1440,
+      "route": "/compare/",
+      "state": "page",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "menu": [
+          {
+            "text": "Build",
+            "lines": 1
+          },
+          {
+            "text": "Upgrade",
+            "lines": 1
+          },
+          {
+            "text": "Compare",
+            "lines": 1
+          },
+          {
+            "text": "Hardware",
+            "lines": 1
+          },
+          {
+            "text": "Learn",
+            "lines": 1
+          },
+          {
+            "text": "My PC",
+            "lines": 1
+          }
+        ],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "arctic",
+      "width": 1440,
+      "route": "/hardware/",
+      "state": "page",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "menu": [
+          {
+            "text": "Build",
+            "lines": 1
+          },
+          {
+            "text": "Upgrade",
+            "lines": 1
+          },
+          {
+            "text": "Compare",
+            "lines": 1
+          },
+          {
+            "text": "Hardware",
+            "lines": 1
+          },
+          {
+            "text": "Learn",
+            "lines": 1
+          },
+          {
+            "text": "My PC",
+            "lines": 1
+          }
+        ],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "arctic",
+      "width": 1440,
+      "route": "/learn/9800x3d.html",
+      "state": "page",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "menu": [
+          {
+            "text": "Build",
+            "lines": 1
+          },
+          {
+            "text": "Upgrade",
+            "lines": 1
+          },
+          {
+            "text": "Compare",
+            "lines": 1
+          },
+          {
+            "text": "Hardware",
+            "lines": 1
+          },
+          {
+            "text": "Learn",
+            "lines": 1
+          },
+          {
+            "text": "My PC",
+            "lines": 1
+          }
+        ],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "arctic",
+      "width": 1440,
+      "route": "/blog/",
+      "state": "page",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "menu": [
+          {
+            "text": "Build",
+            "lines": 1
+          },
+          {
+            "text": "Upgrade",
+            "lines": 1
+          },
+          {
+            "text": "Compare",
+            "lines": 1
+          },
+          {
+            "text": "Hardware",
+            "lines": 1
+          },
+          {
+            "text": "Learn",
+            "lines": 1
+          },
+          {
+            "text": "My PC",
+            "lines": 1
+          }
+        ],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "arctic",
+      "width": 1440,
+      "route": "/blog/understanding-pc-memory/",
+      "state": "page",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "menu": [
+          {
+            "text": "Build",
+            "lines": 1
+          },
+          {
+            "text": "Upgrade",
+            "lines": 1
+          },
+          {
+            "text": "Compare",
+            "lines": 1
+          },
+          {
+            "text": "Hardware",
+            "lines": 1
+          },
+          {
+            "text": "Learn",
+            "lines": 1
+          },
+          {
+            "text": "My PC",
+            "lines": 1
+          }
+        ],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "arctic",
+      "width": 1440,
+      "route": "/build-school/",
+      "state": "page",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "menu": [
+          {
+            "text": "Build",
+            "lines": 1
+          },
+          {
+            "text": "Upgrade",
+            "lines": 1
+          },
+          {
+            "text": "Compare",
+            "lines": 1
+          },
+          {
+            "text": "Hardware",
+            "lines": 1
+          },
+          {
+            "text": "Learn",
+            "lines": 1
+          },
+          {
+            "text": "My PC",
+            "lines": 1
+          }
+        ],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "midnight",
+      "width": 320,
+      "route": "/",
+      "state": "page",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 320,
+        "documentWidth": 320,
+        "menu": [],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "midnight",
+      "width": 320,
+      "route": "/builder/",
+      "state": "page",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 320,
+        "documentWidth": 320,
+        "menu": [],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "midnight",
+      "width": 320,
+      "route": "/builder/",
+      "state": "menu",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 320,
+        "documentWidth": 320,
+        "menu": [
+          {
+            "text": "Build",
+            "lines": 1
+          },
+          {
+            "text": "Upgrade",
+            "lines": 1
+          },
+          {
+            "text": "Compare",
+            "lines": 1
+          },
+          {
+            "text": "Hardware",
+            "lines": 1
+          },
+          {
+            "text": "Learn",
+            "lines": 1
+          },
+          {
+            "text": "My PC",
+            "lines": 1
+          }
+        ],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "midnight",
+      "width": 320,
+      "route": "/builder/",
+      "state": "menu enlarged text",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 320,
+        "documentWidth": 320,
+        "menu": [
+          {
+            "text": "Build",
+            "lines": 1
+          },
+          {
+            "text": "Upgrade",
+            "lines": 1
+          },
+          {
+            "text": "Compare",
+            "lines": 1
+          },
+          {
+            "text": "Hardware",
+            "lines": 1
+          },
+          {
+            "text": "Learn",
+            "lines": 1
+          },
+          {
+            "text": "My PC",
+            "lines": 1
+          }
+        ],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "midnight",
+      "width": 320,
+      "route": "/builder/",
+      "state": "CPU picker",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 320,
+        "documentWidth": 320,
+        "menu": [],
+        "add": [
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          }
+        ],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": {
+          "x": 0,
+          "y": 185.6875,
+          "right": 320,
+          "bottom": 844,
+          "width": 320,
+          "height": 658.3125
+        },
+        "close": {
+          "x": 263,
+          "y": 204.5,
+          "right": 303,
+          "bottom": 248.5,
+          "width": 40,
+          "height": 44
+        }
+      }
+    },
+    {
+      "palette": "midnight",
+      "width": 320,
+      "route": "/builder/",
+      "state": "picker reduced visible height",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 320,
+        "documentWidth": 320,
+        "menu": [],
+        "add": [
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          }
+        ],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": {
+          "x": 0,
+          "y": 0,
+          "right": 320,
+          "bottom": 390,
+          "width": 320,
+          "height": 390
+        },
+        "close": {
+          "x": 263,
+          "y": 17,
+          "right": 303,
+          "bottom": 61,
+          "width": 40,
+          "height": 44
+        }
+      }
+    },
+    {
+      "palette": "midnight",
+      "width": 320,
+      "route": "/builder/",
+      "state": "CPU selected",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 320,
+        "documentWidth": 320,
+        "menu": [],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "midnight",
+      "width": 320,
+      "route": "/builder/",
+      "state": "PSU picker",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 320,
+        "documentWidth": 320,
+        "menu": [],
+        "add": [
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          }
+        ],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": {
+          "x": 0,
+          "y": 185.6875,
+          "right": 320,
+          "bottom": 844,
+          "width": 320,
+          "height": 658.3125
+        },
+        "close": {
+          "x": 263,
+          "y": 216.46875,
+          "right": 303,
+          "bottom": 260.46875,
+          "width": 40,
+          "height": 44
+        }
+      }
+    },
+    {
+      "palette": "midnight",
+      "width": 320,
+      "route": "/my-pc/",
+      "state": "page",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 320,
+        "documentWidth": 320,
+        "menu": [],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "midnight",
+      "width": 320,
+      "route": "/upgrade/",
+      "state": "page",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 320,
+        "documentWidth": 320,
+        "menu": [],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "midnight",
+      "width": 320,
+      "route": "/compare/",
+      "state": "page",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 320,
+        "documentWidth": 320,
+        "menu": [],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "midnight",
+      "width": 320,
+      "route": "/hardware/",
+      "state": "page",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 320,
+        "documentWidth": 320,
+        "menu": [],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "midnight",
+      "width": 320,
+      "route": "/learn/9800x3d.html",
+      "state": "page",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 320,
+        "documentWidth": 320,
+        "menu": [],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "midnight",
+      "width": 320,
+      "route": "/blog/",
+      "state": "page",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 320,
+        "documentWidth": 320,
+        "menu": [],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "midnight",
+      "width": 320,
+      "route": "/blog/understanding-pc-memory/",
+      "state": "page",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 320,
+        "documentWidth": 320,
+        "menu": [],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "midnight",
+      "width": 320,
+      "route": "/build-school/",
+      "state": "page",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 320,
+        "documentWidth": 320,
+        "menu": [],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "midnight",
+      "width": 320,
+      "route": "/",
+      "state": "page enlarged text",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 320,
+        "documentWidth": 320,
+        "menu": [],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "midnight",
+      "width": 320,
+      "route": "/builder/",
+      "state": "page enlarged text",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 320,
+        "documentWidth": 320,
+        "menu": [],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "midnight",
+      "width": 320,
+      "route": "/my-pc/",
+      "state": "page enlarged text",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 320,
+        "documentWidth": 320,
+        "menu": [],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "midnight",
+      "width": 320,
+      "route": "/blog/understanding-pc-memory/",
+      "state": "page enlarged text",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 320,
+        "documentWidth": 320,
+        "menu": [],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "midnight",
+      "width": 390,
+      "route": "/",
+      "state": "page",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "menu": [],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "midnight",
+      "width": 390,
+      "route": "/builder/",
+      "state": "page",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "menu": [],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "midnight",
+      "width": 390,
+      "route": "/builder/",
+      "state": "menu",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "menu": [
+          {
+            "text": "Build",
+            "lines": 1
+          },
+          {
+            "text": "Upgrade",
+            "lines": 1
+          },
+          {
+            "text": "Compare",
+            "lines": 1
+          },
+          {
+            "text": "Hardware",
+            "lines": 1
+          },
+          {
+            "text": "Learn",
+            "lines": 1
+          },
+          {
+            "text": "My PC",
+            "lines": 1
+          }
+        ],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "midnight",
+      "width": 390,
+      "route": "/builder/",
+      "state": "menu enlarged text",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "menu": [
+          {
+            "text": "Build",
+            "lines": 1
+          },
+          {
+            "text": "Upgrade",
+            "lines": 1
+          },
+          {
+            "text": "Compare",
+            "lines": 1
+          },
+          {
+            "text": "Hardware",
+            "lines": 1
+          },
+          {
+            "text": "Learn",
+            "lines": 1
+          },
+          {
+            "text": "My PC",
+            "lines": 1
+          }
+        ],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "midnight",
+      "width": 390,
+      "route": "/builder/",
+      "state": "CPU picker",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "menu": [],
+        "add": [
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          }
+        ],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": {
+          "x": 0,
+          "y": 185.6875,
+          "right": 390,
+          "bottom": 844,
+          "width": 390,
+          "height": 658.3125
+        },
+        "close": {
+          "x": 333,
+          "y": 204.5,
+          "right": 373,
+          "bottom": 248.5,
+          "width": 40,
+          "height": 44
+        }
+      }
+    },
+    {
+      "palette": "midnight",
+      "width": 390,
+      "route": "/builder/",
+      "state": "picker reduced visible height",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "menu": [],
+        "add": [
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          }
+        ],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": {
+          "x": 0,
+          "y": 0,
+          "right": 390,
+          "bottom": 390,
+          "width": 390,
+          "height": 390
+        },
+        "close": {
+          "x": 333,
+          "y": 17,
+          "right": 373,
+          "bottom": 61,
+          "width": 40,
+          "height": 44
+        }
+      }
+    },
+    {
+      "palette": "midnight",
+      "width": 390,
+      "route": "/builder/",
+      "state": "CPU selected",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "menu": [],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "midnight",
+      "width": 390,
+      "route": "/builder/",
+      "state": "PSU picker",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "menu": [],
+        "add": [
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          }
+        ],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": {
+          "x": 0,
+          "y": 185.6875,
+          "right": 390,
+          "bottom": 844,
+          "width": 390,
+          "height": 658.3125
+        },
+        "close": {
+          "x": 333,
+          "y": 204.5,
+          "right": 373,
+          "bottom": 248.5,
+          "width": 40,
+          "height": 44
+        }
+      }
+    },
+    {
+      "palette": "midnight",
+      "width": 390,
+      "route": "/my-pc/",
+      "state": "page",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "menu": [],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "midnight",
+      "width": 390,
+      "route": "/upgrade/",
+      "state": "page",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "menu": [],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "midnight",
+      "width": 390,
+      "route": "/compare/",
+      "state": "page",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "menu": [],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "midnight",
+      "width": 390,
+      "route": "/hardware/",
+      "state": "page",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "menu": [],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "midnight",
+      "width": 390,
+      "route": "/learn/9800x3d.html",
+      "state": "page",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "menu": [],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "midnight",
+      "width": 390,
+      "route": "/blog/",
+      "state": "page",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "menu": [],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "midnight",
+      "width": 390,
+      "route": "/blog/understanding-pc-memory/",
+      "state": "page",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "menu": [],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "midnight",
+      "width": 390,
+      "route": "/build-school/",
+      "state": "page",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "menu": [],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "midnight",
+      "width": 390,
+      "route": "/",
+      "state": "page enlarged text",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "menu": [],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "midnight",
+      "width": 390,
+      "route": "/builder/",
+      "state": "page enlarged text",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "menu": [],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "midnight",
+      "width": 390,
+      "route": "/my-pc/",
+      "state": "page enlarged text",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "menu": [],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "midnight",
+      "width": 390,
+      "route": "/blog/understanding-pc-memory/",
+      "state": "page enlarged text",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "menu": [],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "midnight",
+      "width": 1440,
+      "route": "/",
+      "state": "page",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "menu": [
+          {
+            "text": "Build",
+            "lines": 1
+          },
+          {
+            "text": "Upgrade",
+            "lines": 1
+          },
+          {
+            "text": "Compare",
+            "lines": 1
+          },
+          {
+            "text": "Hardware",
+            "lines": 1
+          },
+          {
+            "text": "Learn",
+            "lines": 1
+          },
+          {
+            "text": "My PC",
+            "lines": 1
+          }
+        ],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "midnight",
+      "width": 1440,
+      "route": "/builder/",
+      "state": "page",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "menu": [
+          {
+            "text": "Build",
+            "lines": 1
+          },
+          {
+            "text": "Upgrade",
+            "lines": 1
+          },
+          {
+            "text": "Compare",
+            "lines": 1
+          },
+          {
+            "text": "Hardware",
+            "lines": 1
+          },
+          {
+            "text": "Learn",
+            "lines": 1
+          },
+          {
+            "text": "My PC",
+            "lines": 1
+          }
+        ],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "midnight",
+      "width": 1440,
+      "route": "/builder/",
+      "state": "CPU picker",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "menu": [
+          {
+            "text": "Build",
+            "lines": 1
+          },
+          {
+            "text": "Upgrade",
+            "lines": 1
+          },
+          {
+            "text": "Compare",
+            "lines": 1
+          },
+          {
+            "text": "Hardware",
+            "lines": 1
+          },
+          {
+            "text": "Learn",
+            "lines": 1
+          },
+          {
+            "text": "My PC",
+            "lines": 1
+          }
+        ],
+        "add": [
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          }
+        ],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": {
+          "x": 250,
+          "y": 120,
+          "right": 1190,
+          "bottom": 880,
+          "width": 940,
+          "height": 760
+        },
+        "close": {
+          "x": 1121,
+          "y": 144.375,
+          "right": 1165,
+          "bottom": 188.375,
+          "width": 44,
+          "height": 44
+        }
+      }
+    },
+    {
+      "palette": "midnight",
+      "width": 1440,
+      "route": "/builder/",
+      "state": "CPU selected",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "menu": [
+          {
+            "text": "Build",
+            "lines": 1
+          },
+          {
+            "text": "Upgrade",
+            "lines": 1
+          },
+          {
+            "text": "Compare",
+            "lines": 1
+          },
+          {
+            "text": "Hardware",
+            "lines": 1
+          },
+          {
+            "text": "Learn",
+            "lines": 1
+          },
+          {
+            "text": "My PC",
+            "lines": 1
+          }
+        ],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "midnight",
+      "width": 1440,
+      "route": "/builder/",
+      "state": "PSU picker",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "menu": [
+          {
+            "text": "Build",
+            "lines": 1
+          },
+          {
+            "text": "Upgrade",
+            "lines": 1
+          },
+          {
+            "text": "Compare",
+            "lines": 1
+          },
+          {
+            "text": "Hardware",
+            "lines": 1
+          },
+          {
+            "text": "Learn",
+            "lines": 1
+          },
+          {
+            "text": "My PC",
+            "lines": 1
+          }
+        ],
+        "add": [
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          },
+          {
+            "text": "Add",
+            "lines": 1
+          }
+        ],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": {
+          "x": 250,
+          "y": 120,
+          "right": 1190,
+          "bottom": 880,
+          "width": 940,
+          "height": 760
+        },
+        "close": {
+          "x": 1121,
+          "y": 144.375,
+          "right": 1165,
+          "bottom": 188.375,
+          "width": 44,
+          "height": 44
+        }
+      }
+    },
+    {
+      "palette": "midnight",
+      "width": 1440,
+      "route": "/my-pc/",
+      "state": "page",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "menu": [
+          {
+            "text": "Build",
+            "lines": 1
+          },
+          {
+            "text": "Upgrade",
+            "lines": 1
+          },
+          {
+            "text": "Compare",
+            "lines": 1
+          },
+          {
+            "text": "Hardware",
+            "lines": 1
+          },
+          {
+            "text": "Learn",
+            "lines": 1
+          },
+          {
+            "text": "My PC",
+            "lines": 1
+          }
+        ],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "midnight",
+      "width": 1440,
+      "route": "/upgrade/",
+      "state": "page",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "menu": [
+          {
+            "text": "Build",
+            "lines": 1
+          },
+          {
+            "text": "Upgrade",
+            "lines": 1
+          },
+          {
+            "text": "Compare",
+            "lines": 1
+          },
+          {
+            "text": "Hardware",
+            "lines": 1
+          },
+          {
+            "text": "Learn",
+            "lines": 1
+          },
+          {
+            "text": "My PC",
+            "lines": 1
+          }
+        ],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "midnight",
+      "width": 1440,
+      "route": "/compare/",
+      "state": "page",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "menu": [
+          {
+            "text": "Build",
+            "lines": 1
+          },
+          {
+            "text": "Upgrade",
+            "lines": 1
+          },
+          {
+            "text": "Compare",
+            "lines": 1
+          },
+          {
+            "text": "Hardware",
+            "lines": 1
+          },
+          {
+            "text": "Learn",
+            "lines": 1
+          },
+          {
+            "text": "My PC",
+            "lines": 1
+          }
+        ],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "midnight",
+      "width": 1440,
+      "route": "/hardware/",
+      "state": "page",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "menu": [
+          {
+            "text": "Build",
+            "lines": 1
+          },
+          {
+            "text": "Upgrade",
+            "lines": 1
+          },
+          {
+            "text": "Compare",
+            "lines": 1
+          },
+          {
+            "text": "Hardware",
+            "lines": 1
+          },
+          {
+            "text": "Learn",
+            "lines": 1
+          },
+          {
+            "text": "My PC",
+            "lines": 1
+          }
+        ],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "midnight",
+      "width": 1440,
+      "route": "/learn/9800x3d.html",
+      "state": "page",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "menu": [
+          {
+            "text": "Build",
+            "lines": 1
+          },
+          {
+            "text": "Upgrade",
+            "lines": 1
+          },
+          {
+            "text": "Compare",
+            "lines": 1
+          },
+          {
+            "text": "Hardware",
+            "lines": 1
+          },
+          {
+            "text": "Learn",
+            "lines": 1
+          },
+          {
+            "text": "My PC",
+            "lines": 1
+          }
+        ],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "midnight",
+      "width": 1440,
+      "route": "/blog/",
+      "state": "page",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "menu": [
+          {
+            "text": "Build",
+            "lines": 1
+          },
+          {
+            "text": "Upgrade",
+            "lines": 1
+          },
+          {
+            "text": "Compare",
+            "lines": 1
+          },
+          {
+            "text": "Hardware",
+            "lines": 1
+          },
+          {
+            "text": "Learn",
+            "lines": 1
+          },
+          {
+            "text": "My PC",
+            "lines": 1
+          }
+        ],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "midnight",
+      "width": 1440,
+      "route": "/blog/understanding-pc-memory/",
+      "state": "page",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "menu": [
+          {
+            "text": "Build",
+            "lines": 1
+          },
+          {
+            "text": "Upgrade",
+            "lines": 1
+          },
+          {
+            "text": "Compare",
+            "lines": 1
+          },
+          {
+            "text": "Hardware",
+            "lines": 1
+          },
+          {
+            "text": "Learn",
+            "lines": 1
+          },
+          {
+            "text": "My PC",
+            "lines": 1
+          }
+        ],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "palette": "midnight",
+      "width": 1440,
+      "route": "/build-school/",
+      "state": "page",
+      "passed": true,
+      "failures": [],
+      "metrics": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "menu": [
+          {
+            "text": "Build",
+            "lines": 1
+          },
+          {
+            "text": "Upgrade",
+            "lines": 1
+          },
+          {
+            "text": "Compare",
+            "lines": 1
+          },
+          {
+            "text": "Hardware",
+            "lines": 1
+          },
+          {
+            "text": "Learn",
+            "lines": 1
+          },
+          {
+            "text": "My PC",
+            "lines": 1
+          }
+        ],
+        "add": [],
+        "collisions": [],
+        "brokenImages": [],
+        "dialog": null,
+        "close": null
+      }
+    },
+    {
+      "state": "populated workspace counts and public restore link",
+      "passed": true,
+      "builds": 1,
+      "watched": 2,
+      "comparisons": 0
+    }
+  ]
+}

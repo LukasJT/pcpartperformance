@@ -1,5 +1,7 @@
 # Clean Studio redesign
 
+Published on October 20, 2026: [PC Part Performance](https://www.pcpartperformance.com/), production commit `849fb96d3030712dd990cbf68928dd7cef033f8d`. Both Cloudflare production and [Linux validation](https://github.com/LukasJT/pcpartperformance/actions/runs/39513224142) succeeded. Final after screenshots were captured from the public deployment.
+
 ## Implemented scope
 
 The three supplied references inform one shared system: forest accents and photographic editorial layouts, strong rounded choices, and a soft dashboard built from real local records. Reference filenames were reordered in the attachment; interpretation follows their visual contents.
@@ -30,9 +32,24 @@ The baseline is the public production site before this work, captured in isolate
 
 The same directory includes upgrade, comparison, hardware catalog, exact product, article and Build School screenshots at 390px and 1440px.
 
+[Populated workspace example](screenshots/after/workspace-populated-390.png) uses explicitly synthetic local saved records in an isolated browser; no personal browser data was accessed.
+
 ## Verification
 
 Final release results and commit are recorded in `RELEASE.json`. Reproducible commands:
+
+| Check | Result | Receipt |
+| --- | --- | --- |
+| Source / data / security / SEO regression commands | 111/111, locally and successful Linux CI | `../master-completion/qa/test-commands.json`, `qa/linux-ci.json` |
+| Nine-width light/dark browser matrix | 285 states, zero failures | `qa/local-browser-report.json` |
+| Public 320 / 390 / 1440px browser verification | 107 states, zero failures | `qa/live-browser-report.json` |
+| Automated six-palette accessibility | 146 cases, zero violations | `../total-refinement/qa/accessibility/report.json` |
+| Real interaction journeys | 9/9, including save, restore, share, download, print and 3D recovery | `../total-refinement/qa/interactions/report.json` |
+| Photograph decoding and integrity | 1,586 files decoded; accepted source/hash joins retained | `../component-photos-catalog-oct17/qa/image-decode.json` |
+| Public release / style parity | 26 release checks, 10 canonical pages, 10 exact CSS hash matches | `qa/live-verification.json`, `../program-2026-10-11/live-release-verification.json` |
+| TypeScript / scoped ESLint / original delivery budgets | Passed | CLI verification and `../program-2026-10-09/performance-budget-results.json` |
+
+Nine cold mobile lab samples used 4× CPU slowdown, 150ms latency and 1.6Mbps download. Median LCP was 1,160ms on home, 1,332ms in the builder and 1,064ms on Game Performance. All nine recorded CLS values were zero; no initial 3D payload loaded. The largest captured interaction event duration was 184ms. These are bounded local lab samples, not field p75 INP or a guarantee of all-device performance.
 
 ```powershell
 node scripts/build-pages.cjs

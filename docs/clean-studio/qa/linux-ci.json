@@ -1,0 +1,105 @@
+{
+  "checkedAt": "2026-10-20T23:14:47.317Z",
+  "scope": "Public GitHub check and job metadata; no private logs, stored credentials or signed-in browser sessions used.",
+  "checks": [
+    {
+      "id": 118939849636,
+      "name": "Workers Builds: pcpartperformance-live",
+      "status": "completed",
+      "conclusion": "success",
+      "detailsURL": "https://dash.cloudflare.com/544465516a580e551501b219bd8f089f/workers/services/view/pcpartperformance-live/production/builds/6d2c692d-4b3e-4349-a503-7210ebd2d590",
+      "output": {
+        "title": "Workers Builds: pcpartperformance-live",
+        "summary": "\nBuild ID: [6d2c692d-4b3e-4349-a503-7210ebd2d590](https://dash.cloudflare.com/544465516a580e551501b219bd8f089f/workers/services/view/pcpartperformance-live/production/builds/6d2c692d-4b3e-4349-a503-7210ebd2d590)\nScript: [pcpartperformance-live](https://dash.cloudflare.com/544465516a580e551501b219bd8f089f/workers/services/view/pcpartperformance-live/production)\nVersion ID: 9ae5be27-75c1-4699-aff9-2b041ce75022\n",
+        "text": null,
+        "annotations_count": 0,
+        "annotations_url": "https://api.github.com/repos/LukasJT/pcpartperformance/check-runs/118939849636/annotations"
+      }
+    },
+    {
+      "id": 118939076896,
+      "name": "validate",
+      "status": "completed",
+      "conclusion": "success",
+      "detailsURL": "https://github.com/LukasJT/pcpartperformance/actions/runs/39513224142/job/118939076896",
+      "output": {
+        "title": null,
+        "summary": null,
+        "text": null,
+        "annotations_count": 1,
+        "annotations_url": "https://api.github.com/repos/LukasJT/pcpartperformance/check-runs/118939076896/annotations"
+      }
+    }
+  ],
+  "run": {
+    "id": 39513224142,
+    "status": "completed",
+    "conclusion": "success",
+    "head_sha": "849fb96d3030712dd990cbf68928dd7cef033f8d",
+    "html_url": "https://github.com/LukasJT/pcpartperformance/actions/runs/39513224142"
+  },
+  "jobs": [
+    {
+      "name": "validate",
+      "conclusion": "success",
+      "steps": [
+        {
+          "name": "Set up job",
+          "conclusion": "success"
+        },
+        {
+          "name": "Check out the exact pushed source without saved credentials",
+          "conclusion": "success"
+        },
+        {
+          "name": "Set up Node",
+          "conclusion": "success"
+        },
+        {
+          "name": "Build from tracked source before installing development dependencies",
+          "conclusion": "success"
+        },
+        {
+          "name": "Set up the pinned project package manager",
+          "conclusion": "success"
+        },
+        {
+          "name": "Install locked verification tools without lifecycle scripts",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run the complete source, data, security and SEO regression suite",
+          "conclusion": "success"
+        },
+        {
+          "name": "Check types",
+          "conclusion": "success"
+        },
+        {
+          "name": "Decode and hash-check delivered component photographs",
+          "conclusion": "success"
+        },
+        {
+          "name": "Retain bounded validation evidence, including failed build logs",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Set up the pinned project package manager",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Set up Node",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Check out the exact pushed source without saved credentials",
+          "conclusion": "success"
+        },
+        {
+          "name": "Complete job",
+          "conclusion": "success"
+        }
+      ]
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "checkedAt": "2026-10-20T23:09:38.278Z",
-  "deployment": "awaiting_public_verification",
-  "productionCommit": null,
+  "deployment": "verified_live",
+  "productionCommit": "849fb96d3030712dd990cbf68928dd7cef033f8d",
   "implementationBranch": "codex/clean-studio-2026-10-20",
   "preservedProductionUpdate": "6ba35697",
   "local": {
@@ -61,5 +61,22 @@
     "Actual software keyboard and device text settings",
     "Real-user performance and conversion measurement",
     "Existing image rights and ambiguous legacy identity qualifications remain"
-  ]
+  ],
+  "verifiedAt": "2026-10-20T23:16:48.127Z",
+  "public": {
+    "browserStates": 107,
+    "browserFailures": 0,
+    "releaseChecks": 26,
+    "canonicalPages": 10,
+    "exactStylesheetMatches": 10,
+    "linuxCI": "https://github.com/LukasJT/pcpartperformance/actions/runs/39513224142",
+    "linuxConclusion": "success",
+    "cloudflareConclusion": "success"
+  },
+  "evidence": {
+    "localBrowser": "qa/local-browser-report.json",
+    "publicBrowser": "qa/live-browser-report.json",
+    "publicStyles": "qa/live-verification.json",
+    "publicCI": "qa/linux-ci.json"
+  }
 }
