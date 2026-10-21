@@ -1,0 +1,50 @@
+{
+  "checkedAt": "2026-10-21T15:18:00.243Z",
+  "testedCommit": "aa8c33e27336707ce1e7ed7ed652f0f593f10202",
+  "productionBranch": "codex/stage2-publication-2026-10-04",
+  "release": {
+    "url": "https://www.pcpartperformance.com/data/release.json",
+    "http": 200,
+    "data": {
+      "schema": 1,
+      "program": "2026-10-11-continuation",
+      "commit": "7bb0204bed7620593a7b6a7bc7bf805eeae67533",
+      "generatedAt": "2026-10-20T23:56:11.572Z",
+      "staging": false
+    }
+  },
+  "checks": {
+    "url": "https://api.github.com/repos/LukasJT/pcpartperformance/commits/aa8c33e27336707ce1e7ed7ed652f0f593f10202/check-runs",
+    "http": 200,
+    "data": []
+  },
+  "actions": {
+    "url": "https://api.github.com/repos/LukasJT/pcpartperformance/actions/runs?head_sha=aa8c33e27336707ce1e7ed7ed652f0f593f10202&per_page=3",
+    "http": 200,
+    "data": []
+  },
+  "github": {
+    "url": "https://www.githubstatus.com/api/v2/summary.json",
+    "http": 200,
+    "data": {
+      "status": {
+        "indicator": "minor",
+        "description": "Partially Degraded Service"
+      },
+      "incidents": [
+        {
+          "name": "Delays for Pull Requests and Webhook deliveries",
+          "status": "investigating",
+          "url": "https://stspg.io/gnnt0tx9nxmk"
+        }
+      ]
+    }
+  },
+  "live": false,
+  "cloudFlareFallback": {
+    "cliLoginAvailable": false,
+    "targetBuildPage": "https://dash.cloudflare.com/544465516a580e551501b219bd8f089f/workers/services/view/pcpartperformance-live/production/builds",
+    "targetPageResult": "Page not found / permission required",
+    "accountSwitch": "Blocked by automatic approval review because the available account has not been confirmed as belonging to the target deployment; owner approval requested. No account content opened."
+  }
+}

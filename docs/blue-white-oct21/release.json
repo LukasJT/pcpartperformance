@@ -1,6 +1,6 @@
 {
   "checkedAt": "2026-10-21T15:03:00.157Z",
-  "status": "verified_local_pending_publication",
+  "status": "verified_local_pushed_pending_hosted_deployment",
   "branch": "codex/blue-white-2026-10-21",
   "baselineProductionCommit": "7bb0204bed7620593a7b6a7bc7bf805eeae67533",
   "paletteReferenceCommit": "6ba35697",
@@ -212,5 +212,13 @@
     "Automated isolated Edge checks, not physical iOS Safari testing or full WCAG certification.",
     "Performance is throttled local laboratory data, not real-user Core Web Vitals.",
     "Earlier catalog, editorial and owner-account programs are outside this theme/style correction."
-  ]
+  ],
+  "publication": {
+    "testedCommit": "aa8c33e27336707ce1e7ed7ed652f0f593f10202",
+    "productionBranch": "codex/stage2-publication-2026-10-04",
+    "lastCheckedAt": "2026-10-21T15:18:00.243Z",
+    "publicCommit": "7bb0204bed7620593a7b6a7bc7bf805eeae67533",
+    "live": false,
+    "evidence": "deployment-status.json"
+  }
 }
