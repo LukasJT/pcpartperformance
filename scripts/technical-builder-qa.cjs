@@ -30,7 +30,8 @@ async function main(){
    await audit('empty');
    if([390,1440].includes(width))await page.screenshot({path:path.join(directory,`builder-empty-${width}-${palette}.png`),animations:'disabled'});
    await page.locator('#builder-starter').click();await page.waitForFunction(()=>Number(document.querySelector('[data-build-part-count]').textContent)>0);await audit('starter');
-   assert(await page.locator('.builder-workspace-thumbnail img').count()>0);
+   await page.locator('.builder-workspace-thumbnail img').first().waitFor();
+   await page.waitForFunction(()=>[...document.querySelectorAll('.builder-workspace-thumbnail img')].filter(i=>{const r=i.getBoundingClientRect();return r.top<innerHeight&&r.bottom>0;}).every(i=>i.complete&&i.naturalWidth>0));
    if([390,1440].includes(width))await page.screenshot({path:path.join(directory,`builder-populated-${width}-${palette}.png`),animations:'disabled'});
    await page.locator('#builder-workflow a[href="#build-preview"]').click();assert.equal(await page.locator('.builder-overview').isVisible(),false);
    await page.locator('#builder-workflow a').first().click();assert(await page.locator('.builder-overview').isVisible());

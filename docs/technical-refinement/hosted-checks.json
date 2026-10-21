@@ -1,0 +1,101 @@
+{
+  "checkedAt": "2026-10-20T23:58:36.796Z",
+  "commit": "7bb0204bed7620593a7b6a7bc7bf805eeae67533",
+  "run": "https://github.com/LukasJT/pcpartperformance/actions/runs/39518114534",
+  "jobs": [
+    {
+      "id": 118955059980,
+      "name": "validate",
+      "status": "completed",
+      "conclusion": "success",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Check out the exact pushed source without saved credentials",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Set up Node",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Build from tracked source before installing development dependencies",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Set up the pinned project package manager",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Install locked verification tools without lifecycle scripts",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run the complete source, data, security and SEO regression suite",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Check types",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Decode and hash-check delivered component photographs",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Retain bounded validation evidence, including failed build logs",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Set up the pinned project package manager",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Set up Node",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Check out the exact pushed source without saved credentials",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success"
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "name": "Workers Builds: pcpartperformance-live",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://dash.cloudflare.com/544465516a580e551501b219bd8f089f/workers/services/view/pcpartperformance-live/production/builds/d2b7b028-8ef4-411d-9e62-46ee8e9e5c2c",
+      "summary": "\nBuild ID: [d2b7b028-8ef4-411d-9e62-46ee8e9e5c2c](https://dash.cloudflare.com/544465516a580e551501b219bd8f089f/workers/services/view/pcpartperformance-live/production/builds/d2b7b028-8ef4-411d-9e62-46ee8e9e5c2c)\nScript: [pcpartperformance-live](https://dash.cloudflare.com/544465516a580e551501b219bd8f089f/workers/services/view/pcpartperformance-live/production)\nVersion ID: 14cff5c7-4dd2-4bbd-94b9-25bbf2a0cc35\n"
+    },
+    {
+      "name": "validate",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/LukasJT/pcpartperformance/actions/runs/39518114534/job/118955059980",
+      "summary": null
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-10-20T23:52:21.236Z",
-  "status": "verified_local_pending_publication",
+  "checkedAt": "2026-10-21T00:01:29.709Z",
+  "status": "verified_live",
   "branch": "codex/technical-builder-2026-10-20",
   "baselineProductionCommit": "849fb96d3030712dd990cbf68928dd7cef033f8d",
   "scope": "Correct the rejected soft geometry while retaining the green palette and persisted appearance preferences. Rebuild the builder presentation without replacing its selection, evidence, price or storage engines.",
@@ -167,5 +167,24 @@
     "Automated axe checks are not full WCAG certification.",
     "Performance samples are throttled local laboratory results, not real-user Core Web Vitals.",
     "Earlier catalog, data licensing and owner-account work is outside this visual correction; no new coverage or service acceptance is claimed."
-  ]
+  ],
+  "productionCommit": "7bb0204bed7620593a7b6a7bc7bf805eeae67533",
+  "publicVerification": {
+    "builderStates": 72,
+    "failedBuilderStates": 0,
+    "decodedVisibleProductPhotos": true,
+    "httpChecks": 26,
+    "canonicalPages": 10,
+    "matchingStylesheetHashes": 10,
+    "hostedCI": "https://github.com/LukasJT/pcpartperformance/actions/runs/39518114534",
+    "cloudflareBuild": "d2b7b028-8ef4-411d-9e62-46ee8e9e5c2c",
+    "hostingResult": "success",
+    "ciResult": "success",
+    "qaCorrection": "The first public run asserted photo presence before the deferred index completed. The runner now waits for actual product images and visible photo decoding; the complete repeated public run passed."
+  },
+  "commitRecovery": {
+    "permissionsChanged": false,
+    "method": "Created separate writable Git metadata in the authorized workspace, committed identical verified files, published with ordinary Git authentication, fetched the commit into the original checkout and aligned its index without rewriting working files.",
+    "metadataDirectory": "../technical-release-2026-10-20.git"
+  }
 }

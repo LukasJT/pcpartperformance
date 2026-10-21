@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-10-20T23:13:26.690Z",
-  "commit": "849fb96d3030712dd990cbf68928dd7cef033f8d",
+  "checkedAt": "2026-10-20T23:57:58.632Z",
+  "commit": "7bb0204bed7620593a7b6a7bc7bf805eeae67533",
   "passed": true,
   "scope": "Actual public HTML and exact CSS byte comparisons. Browser journeys, field metrics and physical-device behavior are separate evidence.",
   "checks": [
@@ -47,63 +47,63 @@
   ],
   "styleChecks": [
     {
-      "url": "/assets/css/site-6b531058f94d.css",
-      "bytes": 122941,
-      "sha256": "6b531058f94d3fd4ac360659be41536340b262d53b0fd40f18f9bab6d2480248",
+      "url": "/assets/css/site-f38a07a549ba.css",
+      "bytes": 122626,
+      "sha256": "f38a07a549bac2855fa3a918221539b5e293eb161a9562fafedad2cc76625779",
       "matchesLocalBuild": true
     },
     {
-      "url": "/assets/css/site-6b2bd2b8ba52.css",
-      "bytes": 214602,
-      "sha256": "6b2bd2b8ba52d7d4ecfe85055b8ef1ab86921ec81603976c2aa010f03dfc259f",
+      "url": "/assets/css/site-1757ef3a9fd9.css",
+      "bytes": 222820,
+      "sha256": "1757ef3a9fd9fa5f1a326f9c4004180c885aa0f0a9245a5e47cacb1bf2f9f2e1",
       "matchesLocalBuild": true
     },
     {
-      "url": "/assets/css/site-b59900ac5a43.css",
-      "bytes": 156521,
-      "sha256": "b59900ac5a431467ba9b1105277b40985e2a702e4b2b9b3f374a53058845bcd1",
+      "url": "/assets/css/site-d5d7d748ae64.css",
+      "bytes": 156467,
+      "sha256": "d5d7d748ae6485a4ae07eb1c18d01004b74ee295ebe0c963e0002e24db6d2512",
       "matchesLocalBuild": true
     },
     {
-      "url": "/assets/css/site-762a5bd34b44.css",
-      "bytes": 151493,
-      "sha256": "762a5bd34b444a4d50a7bf9c49dcaaf1d52e73f897c9403fb04572986c6d5e6f",
+      "url": "/assets/css/site-14666865faa1.css",
+      "bytes": 151182,
+      "sha256": "14666865faa174c6f14c9d5f274f0628cf35d09209b0ff761ce06f7aea90a205",
       "matchesLocalBuild": true
     },
     {
-      "url": "/assets/css/site-153f12b7d3fe.css",
-      "bytes": 154196,
-      "sha256": "153f12b7d3fe5f61aea95859cfd6ecba3da080892e39fb62bcab9e86e411f8dc",
+      "url": "/assets/css/site-7aff6ddfd21b.css",
+      "bytes": 153885,
+      "sha256": "7aff6ddfd21b9537f4d8d125649ca8d7261b55152c669b122de4ac78e13a902a",
       "matchesLocalBuild": true
     },
     {
-      "url": "/assets/css/site-d52c5c5ec4e6.css",
-      "bytes": 125360,
-      "sha256": "d52c5c5ec4e6267849eeaa9003b43ecb8bf98e3bdfe062c13bcc5c126309a266",
+      "url": "/assets/css/site-9c24aaee6045.css",
+      "bytes": 125047,
+      "sha256": "9c24aaee60455d24565da27253e3af0cf140abd8be5a8349b56bfbd4ca6524a0",
       "matchesLocalBuild": true
     },
     {
-      "url": "/assets/css/site-4950e3ea1a30.css",
-      "bytes": 126212,
-      "sha256": "4950e3ea1a308fbe286155c6aee22d283d297d2ee9259c03d1b1e96dbaac34a9",
+      "url": "/assets/css/site-1480f9b4a339.css",
+      "bytes": 125796,
+      "sha256": "1480f9b4a3398354d5991a60cf6cbbe166aad1bd97f2a0b8cbbd68ec51a48c62",
       "matchesLocalBuild": true
     },
     {
-      "url": "/assets/css/site-3893270bac8f.css",
-      "bytes": 103149,
-      "sha256": "3893270bac8f465ec649acdb9ff3d28b1b6f4a095f617b73d9b71b0bff722ca1",
+      "url": "/assets/css/site-03b4ee3d3e24.css",
+      "bytes": 102838,
+      "sha256": "03b4ee3d3e247289e9c39100dc01a6ecdcce9af1a52606d2a268b0b021364fbb",
       "matchesLocalBuild": true
     },
     {
-      "url": "/assets/css/site-356cb8f36207.css",
-      "bytes": 111924,
-      "sha256": "356cb8f36207af4cbd080bc79a4f1f4052cf0067277a9bb0df0695f45adb3114",
+      "url": "/assets/css/site-c64a22de2a2f.css",
+      "bytes": 111613,
+      "sha256": "c64a22de2a2f8fe5fe7d5052f3b25a4f9e9422ea425434fdaee381c5d9c95f8c",
       "matchesLocalBuild": true
     },
     {
-      "url": "/assets/css/site-db67ed9f4adc.css",
-      "bytes": 125263,
-      "sha256": "db67ed9f4adc187532ba16727d6deca2298518802d42c2e9d8d887e38f5a65dc",
+      "url": "/assets/css/site-c916240b711e.css",
+      "bytes": 124952,
+      "sha256": "c916240b711e4bb87934fb30781644e498b3f442e0ce01225e666f3f9a754227",
       "matchesLocalBuild": true
     }
   ]
