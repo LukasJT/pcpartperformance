@@ -1,0 +1,216 @@
+{
+  "checkedAt": "2026-10-21T15:03:00.157Z",
+  "status": "verified_local_pending_publication",
+  "branch": "codex/blue-white-2026-10-21",
+  "baselineProductionCommit": "7bb0204bed7620593a7b6a7bc7bf805eeae67533",
+  "paletteReferenceCommit": "6ba35697",
+  "changes": [
+    {
+      "id": "BLUE-01",
+      "status": "Verified",
+      "problem": "Forest/mint theme no longer matches the requested PC hardware identity",
+      "solution": "Restore the original Arctic blue/white and Midnight navy/blue tokens, including pre-load fallbacks and browser theme color. Preserve palette IDs, other themes and saved preferences.",
+      "files": [
+        "scripts/evolution-themes.cjs",
+        "scripts/evolution-system.css",
+        "scripts/evolution-theme.js"
+      ]
+    },
+    {
+      "id": "BLUE-02",
+      "status": "Verified",
+      "problem": "The photographic hero replaced the preferred technical homepage",
+      "solution": "Restore the original PC system illustration and three-stage journey in a blueprint composition. Keep real component photos in comparisons and hardware discovery; use more direct technical headings.",
+      "files": [
+        "scripts/clean-studio.cjs",
+        "scripts/clean-studio.css"
+      ]
+    },
+    {
+      "id": "BLUE-03",
+      "status": "Verified",
+      "problem": "New builder layout needs more distinct technical selection styling",
+      "solution": "Keep the row layout and summary. Add blue selection rails, framed component imagery, larger model labels, clearer choose controls and blue active states. Keep selected metadata at full contrast.",
+      "files": [
+        "scripts/clean-studio.css"
+      ]
+    },
+    {
+      "id": "BLUE-04",
+      "status": "Verified",
+      "problem": "Narrow hero and comparison grid could overflow with enlarged text",
+      "solution": "Use shrinkable grid tracks, responsive heading sizing and wrapping comparison actions; verify 320px at 150% text.",
+      "files": [
+        "scripts/clean-studio.css"
+      ]
+    },
+    {
+      "id": "BLUE-05",
+      "status": "Verified",
+      "problem": "Consent accept button inherited an unsuitable fixed text color",
+      "solution": "Use the existing theme button/background tokens without changing consent behavior or advertising configuration.",
+      "files": [
+        "scripts/clean-studio.css"
+      ]
+    }
+  ],
+  "verification": {
+    "commandGroups": 111,
+    "passedCommandGroups": 111,
+    "layoutStates": 285,
+    "layoutFailures": 0,
+    "builderStates": 72,
+    "axeStates": 158,
+    "axeViolations": 0,
+    "consentStates": [
+      {
+        "palette": "arctic",
+        "viewportWidth": 320,
+        "violations": [],
+        "foreground": "rgb(255, 255, 255)",
+        "background": "rgb(35, 86, 201)",
+        "documentWidth": 320
+      },
+      {
+        "palette": "arctic",
+        "viewportWidth": 390,
+        "violations": [],
+        "foreground": "rgb(255, 255, 255)",
+        "background": "rgb(35, 86, 201)",
+        "documentWidth": 390
+      },
+      {
+        "palette": "midnight",
+        "viewportWidth": 320,
+        "violations": [],
+        "foreground": "rgb(255, 255, 255)",
+        "background": "rgb(54, 104, 231)",
+        "documentWidth": 320
+      },
+      {
+        "palette": "midnight",
+        "viewportWidth": 390,
+        "violations": [],
+        "foreground": "rgb(255, 255, 255)",
+        "background": "rgb(54, 104, 231)",
+        "documentWidth": 390
+      }
+    ],
+    "journeys": 9,
+    "journeysPassed": true,
+    "performance": [
+      {
+        "route": "/",
+        "runs": 3,
+        "lcpMedianMs": 1048,
+        "clsMedian": 0,
+        "maxInteractionEventMs": 136,
+        "initial3D": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "route": "/builder/",
+        "runs": 3,
+        "lcpMedianMs": 1388,
+        "clsMedian": 0,
+        "maxInteractionEventMs": 64,
+        "initial3D": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "route": "/performance/",
+        "runs": 3,
+        "lcpMedianMs": 1120,
+        "clsMedian": 0,
+        "maxInteractionEventMs": 48,
+        "initial3D": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "transferBudgets": [
+      {
+        "route": "/",
+        "scriptGzip": 5633,
+        "scriptLimit": 9700,
+        "styleBytes": 122589,
+        "styleLimit": 142000
+      },
+      {
+        "route": "/hardware/graphics-cards/",
+        "scriptGzip": 96397,
+        "scriptLimit": 98000,
+        "styleBytes": 125161,
+        "styleLimit": 138000
+      },
+      {
+        "route": "/learn/rtx5070.html",
+        "scriptGzip": 9105,
+        "scriptLimit": 13100,
+        "styleBytes": 111107,
+        "styleLimit": 133000
+      },
+      {
+        "route": "/compare/rtx-5070-vs-rx-9070/",
+        "scriptGzip": 6279,
+        "scriptLimit": 10100,
+        "styleBytes": 97775,
+        "styleLimit": 125000
+      },
+      {
+        "route": "/builder/",
+        "scriptGzip": 121183,
+        "scriptLimit": 122000,
+        "styleBytes": 223428,
+        "styleLimit": 224000
+      },
+      {
+        "route": "/performance/",
+        "scriptGzip": 38889,
+        "scriptLimit": 40000,
+        "styleBytes": 159010,
+        "styleLimit": 169000
+      },
+      {
+        "route": "/blog/how-to-choose-a-graphics-card/",
+        "scriptGzip": 6279,
+        "scriptLimit": 10100,
+        "styleBytes": 102952,
+        "styleLimit": 125000
+      }
+    ]
+  },
+  "evidence": {
+    "before": "../clean-studio/screenshots/blue-white-before/report.json",
+    "after": "../clean-studio/screenshots/blue-white-after/report.json",
+    "enlargedTextBefore": "qa-enlarged-text-before-320.png",
+    "enlargedTextAfter": "qa-enlarged-text-after-320.png"
+  },
+  "sourceHashes": {
+    "clean-studio.cjs": "adf521d6325b1511b67802c65fa83487268968af89a669ed0baa864b8c7bd22b",
+    "clean-studio.css": "392ca59dc48c3cf2758e896ccabf3769d42cf3581bb7b8bf97ba87b510fe68b9",
+    "evolution-themes.cjs": "fe3be63e5b11bc5ea5032147f93c77ff0dfba3342b6197eff65e8e4642898807",
+    "evolution-system.css": "8e5730bb6636a56798e3cb8d448eddbb493f770749197252e753da1c7bdca43f",
+    "evolution-theme.js": "f8b4b04d1898eb5b1de5a184f26e37123c53e103d26b4e5745dd0e8c9747f76e"
+  },
+  "preserved": [
+    "Product identity and photography provenance",
+    "Saved build formats and private-note boundaries",
+    "Compatibility and checked-price logic",
+    "Parts / Preview / Review layout and Guided / Expert workflow",
+    "Six palette choices and saved appearance preferences"
+  ],
+  "limits": [
+    "Automated isolated Edge checks, not physical iOS Safari testing or full WCAG certification.",
+    "Performance is throttled local laboratory data, not real-user Core Web Vitals.",
+    "Earlier catalog, editorial and owner-account programs are outside this theme/style correction."
+  ]
+}

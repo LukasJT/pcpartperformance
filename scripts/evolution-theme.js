@@ -8,7 +8,7 @@
   const legacy=read('pcp-theme');let choice=read('pcp-theme-palette')||(legacy==='dark'?'midnight':legacy==='light'?'arctic':'system'),contrast=read('pcp-high-contrast')==='true',less=read('pcp-reduce-motion')==='true',ambient=read('pcp-ambient')!=='false';
   if(!ids.includes(choice)&&choice!=='system')choice='system';
   function apply(){const palette=resolve(choice,system.matches),mode=light.includes(palette)?'light':'dark';root.dataset.palette=palette;root.dataset.theme=mode;root.dataset.contrast=contrast?'high':'standard';root.dataset.motion=reduced.matches||less?'reduced':'standard';root.dataset.ambient=ambient?'on':'off';
-   doc.querySelector('meta[name="theme-color"]')?.setAttribute('content',{midnight:'#111c19',arctic:'#f7f8f3',solar:'#171213',aurora:'#081c20',neon:'#0e1515',paper:'#f5f1e8'}[palette]);
+   doc.querySelector('meta[name="theme-color"]')?.setAttribute('content',{midnight:'#0c1220',arctic:'#f5f7fc',solar:'#171213',aurora:'#081c20',neon:'#0e1515',paper:'#f5f1e8'}[palette]);
    for(const b of doc.querySelectorAll('.theme-toggle')){const name='Switch to '+(mode==='dark'?'light':'dark')+' mode';b.setAttribute('aria-label',name);b.title=name;const label=b.querySelector('.theme-label');if(label)label.textContent=mode==='dark'?'Light mode':'Dark mode';}
    for(const b of doc.querySelectorAll('[data-palette-choice]'))b.setAttribute('aria-pressed',String(b.dataset.paletteChoice===choice));
    for(const [selector,value]of [['contrast',contrast],['reduce',less],['ambient',ambient]]){const control=doc.querySelector('[data-lab-'+selector+']');if(control)control.checked=value;}

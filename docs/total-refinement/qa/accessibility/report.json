@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-20T23:49:04.708Z",
+  "checkedAt": "2026-10-21T14:59:03.317Z",
   "scope": "Executed axe-core WCAG A/AA and best-practice checks in isolated Edge, six palettes, mobile/desktop. Automated testing does not certify full WCAG conformance or replace screen-reader and physical-device review.",
   "reports": [
     {
@@ -13,6 +13,9 @@
           "id": "aria-prohibited-attr",
           "nodes": [
             [
+              ".studio-blueprint-stages"
+            ],
+            [
               ".studio-workspace-preview"
             ]
           ]
@@ -28,6 +31,27 @@
         {
           "id": "color-contrast",
           "nodes": [
+            [
+              "text[x=\"47\"]"
+            ],
+            [
+              "text[x=\"203\"]"
+            ],
+            [
+              "text[x=\"540\"]"
+            ],
+            [
+              "text[x=\"29\"]"
+            ],
+            [
+              ".studio-blueprint-stages > span:nth-child(1)"
+            ],
+            [
+              ".studio-blueprint-stages > span:nth-child(2)"
+            ],
+            [
+              ".studio-blueprint-stages > span:nth-child(3)"
+            ],
             [
               "div:nth-child(2) > .studio-status-icon[aria-hidden=\"true\"]"
             ]
@@ -128,6 +152,23 @@
       "palette": "midnight",
       "width": 390,
       "state": "PSU picker",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "label-content-name-mismatch",
+          "nodes": [
+            [
+              ".builder-picker-expand"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/builder/",
+      "palette": "midnight",
+      "width": 390,
+      "state": "selected CPU picker",
       "violations": [],
       "incomplete": [
         {
@@ -662,6 +703,9 @@
           "id": "aria-prohibited-attr",
           "nodes": [
             [
+              ".studio-blueprint-stages"
+            ],
+            [
               ".studio-workspace-preview"
             ]
           ]
@@ -680,6 +724,27 @@
         {
           "id": "color-contrast",
           "nodes": [
+            [
+              "text[x=\"47\"]"
+            ],
+            [
+              "text[x=\"203\"]"
+            ],
+            [
+              "text[x=\"540\"]"
+            ],
+            [
+              "text[x=\"29\"]"
+            ],
+            [
+              ".studio-blueprint-stages > span:nth-child(1)"
+            ],
+            [
+              ".studio-blueprint-stages > span:nth-child(2)"
+            ],
+            [
+              ".studio-blueprint-stages > span:nth-child(3)"
+            ],
             [
               "div:nth-child(2) > .studio-status-icon[aria-hidden=\"true\"]"
             ]
@@ -753,6 +818,14 @@
       "palette": "midnight",
       "width": 1440,
       "state": "PSU picker",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "route": "/builder/",
+      "palette": "midnight",
+      "width": 1440,
+      "state": "selected CPU picker",
       "violations": [],
       "incomplete": []
     },
@@ -1315,6 +1388,9 @@
           "id": "aria-prohibited-attr",
           "nodes": [
             [
+              ".studio-blueprint-stages"
+            ],
+            [
               ".studio-workspace-preview"
             ]
           ]
@@ -1330,6 +1406,27 @@
         {
           "id": "color-contrast",
           "nodes": [
+            [
+              "text[x=\"47\"]"
+            ],
+            [
+              "text[x=\"203\"]"
+            ],
+            [
+              "text[x=\"540\"]"
+            ],
+            [
+              "text[x=\"29\"]"
+            ],
+            [
+              ".studio-blueprint-stages > span:nth-child(1)"
+            ],
+            [
+              ".studio-blueprint-stages > span:nth-child(2)"
+            ],
+            [
+              ".studio-blueprint-stages > span:nth-child(3)"
+            ],
             [
               "div:nth-child(2) > .studio-status-icon[aria-hidden=\"true\"]"
             ]
@@ -1430,6 +1527,23 @@
       "palette": "arctic",
       "width": 390,
       "state": "PSU picker",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "label-content-name-mismatch",
+          "nodes": [
+            [
+              ".builder-picker-expand"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/builder/",
+      "palette": "arctic",
+      "width": 390,
+      "state": "selected CPU picker",
       "violations": [],
       "incomplete": [
         {
@@ -1964,6 +2078,9 @@
           "id": "aria-prohibited-attr",
           "nodes": [
             [
+              ".studio-blueprint-stages"
+            ],
+            [
               ".studio-workspace-preview"
             ]
           ]
@@ -1982,6 +2099,27 @@
         {
           "id": "color-contrast",
           "nodes": [
+            [
+              "text[x=\"47\"]"
+            ],
+            [
+              "text[x=\"203\"]"
+            ],
+            [
+              "text[x=\"540\"]"
+            ],
+            [
+              "text[x=\"29\"]"
+            ],
+            [
+              ".studio-blueprint-stages > span:nth-child(1)"
+            ],
+            [
+              ".studio-blueprint-stages > span:nth-child(2)"
+            ],
+            [
+              ".studio-blueprint-stages > span:nth-child(3)"
+            ],
             [
               "div:nth-child(2) > .studio-status-icon[aria-hidden=\"true\"]"
             ]
@@ -2055,6 +2193,14 @@
       "palette": "arctic",
       "width": 1440,
       "state": "PSU picker",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "route": "/builder/",
+      "palette": "arctic",
+      "width": 1440,
+      "state": "selected CPU picker",
       "violations": [],
       "incomplete": []
     },
@@ -2617,6 +2763,9 @@
           "id": "aria-prohibited-attr",
           "nodes": [
             [
+              ".studio-blueprint-stages"
+            ],
+            [
               ".studio-workspace-preview"
             ]
           ]
@@ -2632,6 +2781,27 @@
         {
           "id": "color-contrast",
           "nodes": [
+            [
+              "text[x=\"47\"]"
+            ],
+            [
+              "text[x=\"203\"]"
+            ],
+            [
+              "text[x=\"540\"]"
+            ],
+            [
+              "text[x=\"29\"]"
+            ],
+            [
+              ".studio-blueprint-stages > span:nth-child(1)"
+            ],
+            [
+              ".studio-blueprint-stages > span:nth-child(2)"
+            ],
+            [
+              ".studio-blueprint-stages > span:nth-child(3)"
+            ],
             [
               "div:nth-child(2) > .studio-status-icon[aria-hidden=\"true\"]"
             ]
@@ -2745,6 +2915,23 @@
       ]
     },
     {
+      "route": "/builder/",
+      "palette": "solar",
+      "width": 390,
+      "state": "selected CPU picker",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "label-content-name-mismatch",
+          "nodes": [
+            [
+              ".builder-picker-expand"
+            ]
+          ]
+        }
+      ]
+    },
+    {
       "route": "/performance/",
       "palette": "solar",
       "width": 390,
@@ -2838,6 +3025,9 @@
           "id": "aria-prohibited-attr",
           "nodes": [
             [
+              ".studio-blueprint-stages"
+            ],
+            [
               ".studio-workspace-preview"
             ]
           ]
@@ -2856,6 +3046,27 @@
         {
           "id": "color-contrast",
           "nodes": [
+            [
+              "text[x=\"47\"]"
+            ],
+            [
+              "text[x=\"203\"]"
+            ],
+            [
+              "text[x=\"540\"]"
+            ],
+            [
+              "text[x=\"29\"]"
+            ],
+            [
+              ".studio-blueprint-stages > span:nth-child(1)"
+            ],
+            [
+              ".studio-blueprint-stages > span:nth-child(2)"
+            ],
+            [
+              ".studio-blueprint-stages > span:nth-child(3)"
+            ],
             [
               "div:nth-child(2) > .studio-status-icon[aria-hidden=\"true\"]"
             ]
@@ -2929,6 +3140,14 @@
       "palette": "solar",
       "width": 1440,
       "state": "PSU picker",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "route": "/builder/",
+      "palette": "solar",
+      "width": 1440,
+      "state": "selected CPU picker",
       "violations": [],
       "incomplete": []
     },
@@ -3035,6 +3254,9 @@
           "id": "aria-prohibited-attr",
           "nodes": [
             [
+              ".studio-blueprint-stages"
+            ],
+            [
               ".studio-workspace-preview"
             ]
           ]
@@ -3050,6 +3272,27 @@
         {
           "id": "color-contrast",
           "nodes": [
+            [
+              "text[x=\"47\"]"
+            ],
+            [
+              "text[x=\"203\"]"
+            ],
+            [
+              "text[x=\"540\"]"
+            ],
+            [
+              "text[x=\"29\"]"
+            ],
+            [
+              ".studio-blueprint-stages > span:nth-child(1)"
+            ],
+            [
+              ".studio-blueprint-stages > span:nth-child(2)"
+            ],
+            [
+              ".studio-blueprint-stages > span:nth-child(3)"
+            ],
             [
               "div:nth-child(2) > .studio-status-icon[aria-hidden=\"true\"]"
             ]
@@ -3163,6 +3406,23 @@
       ]
     },
     {
+      "route": "/builder/",
+      "palette": "aurora",
+      "width": 390,
+      "state": "selected CPU picker",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "label-content-name-mismatch",
+          "nodes": [
+            [
+              ".builder-picker-expand"
+            ]
+          ]
+        }
+      ]
+    },
+    {
       "route": "/performance/",
       "palette": "aurora",
       "width": 390,
@@ -3256,6 +3516,9 @@
           "id": "aria-prohibited-attr",
           "nodes": [
             [
+              ".studio-blueprint-stages"
+            ],
+            [
               ".studio-workspace-preview"
             ]
           ]
@@ -3274,6 +3537,27 @@
         {
           "id": "color-contrast",
           "nodes": [
+            [
+              "text[x=\"47\"]"
+            ],
+            [
+              "text[x=\"203\"]"
+            ],
+            [
+              "text[x=\"540\"]"
+            ],
+            [
+              "text[x=\"29\"]"
+            ],
+            [
+              ".studio-blueprint-stages > span:nth-child(1)"
+            ],
+            [
+              ".studio-blueprint-stages > span:nth-child(2)"
+            ],
+            [
+              ".studio-blueprint-stages > span:nth-child(3)"
+            ],
             [
               "div:nth-child(2) > .studio-status-icon[aria-hidden=\"true\"]"
             ]
@@ -3347,6 +3631,14 @@
       "palette": "aurora",
       "width": 1440,
       "state": "PSU picker",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "route": "/builder/",
+      "palette": "aurora",
+      "width": 1440,
+      "state": "selected CPU picker",
       "violations": [],
       "incomplete": []
     },
@@ -3453,6 +3745,9 @@
           "id": "aria-prohibited-attr",
           "nodes": [
             [
+              ".studio-blueprint-stages"
+            ],
+            [
               ".studio-workspace-preview"
             ]
           ]
@@ -3468,6 +3763,27 @@
         {
           "id": "color-contrast",
           "nodes": [
+            [
+              "text[x=\"47\"]"
+            ],
+            [
+              "text[x=\"203\"]"
+            ],
+            [
+              "text[x=\"540\"]"
+            ],
+            [
+              "text[x=\"29\"]"
+            ],
+            [
+              ".studio-blueprint-stages > span:nth-child(1)"
+            ],
+            [
+              ".studio-blueprint-stages > span:nth-child(2)"
+            ],
+            [
+              ".studio-blueprint-stages > span:nth-child(3)"
+            ],
             [
               "div:nth-child(2) > .studio-status-icon[aria-hidden=\"true\"]"
             ]
@@ -3581,6 +3897,23 @@
       ]
     },
     {
+      "route": "/builder/",
+      "palette": "neon",
+      "width": 390,
+      "state": "selected CPU picker",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "label-content-name-mismatch",
+          "nodes": [
+            [
+              ".builder-picker-expand"
+            ]
+          ]
+        }
+      ]
+    },
+    {
       "route": "/performance/",
       "palette": "neon",
       "width": 390,
@@ -3674,6 +4007,9 @@
           "id": "aria-prohibited-attr",
           "nodes": [
             [
+              ".studio-blueprint-stages"
+            ],
+            [
               ".studio-workspace-preview"
             ]
           ]
@@ -3692,6 +4028,27 @@
         {
           "id": "color-contrast",
           "nodes": [
+            [
+              "text[x=\"47\"]"
+            ],
+            [
+              "text[x=\"203\"]"
+            ],
+            [
+              "text[x=\"540\"]"
+            ],
+            [
+              "text[x=\"29\"]"
+            ],
+            [
+              ".studio-blueprint-stages > span:nth-child(1)"
+            ],
+            [
+              ".studio-blueprint-stages > span:nth-child(2)"
+            ],
+            [
+              ".studio-blueprint-stages > span:nth-child(3)"
+            ],
             [
               "div:nth-child(2) > .studio-status-icon[aria-hidden=\"true\"]"
             ]
@@ -3765,6 +4122,14 @@
       "palette": "neon",
       "width": 1440,
       "state": "PSU picker",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "route": "/builder/",
+      "palette": "neon",
+      "width": 1440,
+      "state": "selected CPU picker",
       "violations": [],
       "incomplete": []
     },
@@ -3871,6 +4236,9 @@
           "id": "aria-prohibited-attr",
           "nodes": [
             [
+              ".studio-blueprint-stages"
+            ],
+            [
               ".studio-workspace-preview"
             ]
           ]
@@ -3886,6 +4254,27 @@
         {
           "id": "color-contrast",
           "nodes": [
+            [
+              "text[x=\"47\"]"
+            ],
+            [
+              "text[x=\"203\"]"
+            ],
+            [
+              "text[x=\"540\"]"
+            ],
+            [
+              "text[x=\"29\"]"
+            ],
+            [
+              ".studio-blueprint-stages > span:nth-child(1)"
+            ],
+            [
+              ".studio-blueprint-stages > span:nth-child(2)"
+            ],
+            [
+              ".studio-blueprint-stages > span:nth-child(3)"
+            ],
             [
               "div:nth-child(2) > .studio-status-icon[aria-hidden=\"true\"]"
             ]
@@ -3999,6 +4388,23 @@
       ]
     },
     {
+      "route": "/builder/",
+      "palette": "paper",
+      "width": 390,
+      "state": "selected CPU picker",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "label-content-name-mismatch",
+          "nodes": [
+            [
+              ".builder-picker-expand"
+            ]
+          ]
+        }
+      ]
+    },
+    {
       "route": "/performance/",
       "palette": "paper",
       "width": 390,
@@ -4092,6 +4498,9 @@
           "id": "aria-prohibited-attr",
           "nodes": [
             [
+              ".studio-blueprint-stages"
+            ],
+            [
               ".studio-workspace-preview"
             ]
           ]
@@ -4110,6 +4519,27 @@
         {
           "id": "color-contrast",
           "nodes": [
+            [
+              "text[x=\"47\"]"
+            ],
+            [
+              "text[x=\"203\"]"
+            ],
+            [
+              "text[x=\"540\"]"
+            ],
+            [
+              "text[x=\"29\"]"
+            ],
+            [
+              ".studio-blueprint-stages > span:nth-child(1)"
+            ],
+            [
+              ".studio-blueprint-stages > span:nth-child(2)"
+            ],
+            [
+              ".studio-blueprint-stages > span:nth-child(3)"
+            ],
             [
               "div:nth-child(2) > .studio-status-icon[aria-hidden=\"true\"]"
             ]
@@ -4183,6 +4613,14 @@
       "palette": "paper",
       "width": 1440,
       "state": "PSU picker",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "route": "/builder/",
+      "palette": "paper",
+      "width": 1440,
+      "state": "selected CPU picker",
       "violations": [],
       "incomplete": []
     },

@@ -1,0 +1,37 @@
+{
+  "results": [
+    {
+      "palette": "arctic",
+      "viewportWidth": 320,
+      "violations": [],
+      "foreground": "rgb(255, 255, 255)",
+      "background": "rgb(35, 86, 201)",
+      "documentWidth": 320
+    },
+    {
+      "palette": "arctic",
+      "viewportWidth": 390,
+      "violations": [],
+      "foreground": "rgb(255, 255, 255)",
+      "background": "rgb(35, 86, 201)",
+      "documentWidth": 390
+    },
+    {
+      "palette": "midnight",
+      "viewportWidth": 320,
+      "violations": [],
+      "foreground": "rgb(255, 255, 255)",
+      "background": "rgb(54, 104, 231)",
+      "documentWidth": 320
+    },
+    {
+      "palette": "midnight",
+      "viewportWidth": 390,
+      "violations": [],
+      "foreground": "rgb(255, 255, 255)",
+      "background": "rgb(54, 104, 231)",
+      "documentWidth": 390
+    }
+  ],
+  "scope": "Actual fresh-visit banner rendering. Local QA button removed. No ad consent accepted."
+}

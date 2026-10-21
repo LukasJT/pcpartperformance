@@ -1,7 +1,7 @@
 'use strict';
 const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
 const {chromium}=require(process.env.PCP_PLAYWRIGHT_MODULE||'C:/Users/slowf/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
-const origin=process.env.PCP_STUDIO_ORIGIN||'http://127.0.0.1:4213',directory=path.resolve('docs/technical-refinement');
+const origin=process.env.PCP_STUDIO_ORIGIN||'http://127.0.0.1:4213',directory=path.resolve(process.env.PCP_TECHNICAL_QA_DIR||'docs/technical-refinement');
 async function main(){
  fs.mkdirSync(directory,{recursive:true});const browser=await chromium.launch({headless:true,executablePath:'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe'}),results=[];
  try{

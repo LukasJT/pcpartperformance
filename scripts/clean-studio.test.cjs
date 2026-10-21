@@ -36,7 +36,7 @@ test('destination CSS is scoped while shared controls and reduced-motion fallbac
  const css=fs.readFileSync('scripts/clean-studio.css','utf8');
  const builder=studio.scopedCSS(css,'builder'),home=studio.scopedCSS(css,'home'),catalog=studio.scopedCSS(css,'catalog');
  assert(builder.includes('.builder-picker'));assert(!builder.includes('.studio-scene-gpu'));assert(!builder.includes('.studio-dashboard'));
- assert(home.includes('.studio-scene-gpu'));assert(!home.includes('.builder-picker'));assert(!home.includes(' .catalog-product{'));
+ assert(home.includes('.studio-blueprint'));assert(!home.includes('.builder-picker'));assert(!home.includes(' .catalog-product{'));
  for(const output of [builder,home,catalog]){assert(output.includes('prefers-reduced-motion'));assert(output.includes('.button.primary'));assert(output.includes('.ui-site-menu'));}
  assert.equal(studio.family('/blog/guide/'),'article');assert.equal(studio.family('/my-pc/'),'workspace');
 });
