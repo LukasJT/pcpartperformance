@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-21T15:18:00.243Z",
+  "checkedAt": "2026-10-21T15:22:49.957Z",
   "testedCommit": "aa8c33e27336707ce1e7ed7ed652f0f593f10202",
   "productionBranch": "codex/stage2-publication-2026-10-04",
   "release": {
@@ -16,12 +16,26 @@
   "checks": {
     "url": "https://api.github.com/repos/LukasJT/pcpartperformance/commits/aa8c33e27336707ce1e7ed7ed652f0f593f10202/check-runs",
     "http": 200,
-    "data": []
+    "data": [
+      {
+        "name": "validate",
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/LukasJT/pcpartperformance/actions/runs/39624423119/job/119305974564"
+      }
+    ]
   },
   "actions": {
     "url": "https://api.github.com/repos/LukasJT/pcpartperformance/actions/runs?head_sha=aa8c33e27336707ce1e7ed7ed652f0f593f10202&per_page=3",
     "http": 200,
-    "data": []
+    "data": [
+      {
+        "id": 39624423119,
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/LukasJT/pcpartperformance/actions/runs/39624423119"
+      }
+    ]
   },
   "github": {
     "url": "https://www.githubstatus.com/api/v2/summary.json",
@@ -46,5 +60,13 @@
     "targetBuildPage": "https://dash.cloudflare.com/544465516a580e551501b219bd8f089f/workers/services/view/pcpartperformance-live/production/builds",
     "targetPageResult": "Page not found / permission required",
     "accountSwitch": "Blocked by automatic approval review because the available account has not been confirmed as belonging to the target deployment; owner approval requested. No account content opened."
+  },
+  "continuation": {
+    "verifyPublicCommands": [
+      "node --use-system-ca scripts/verify-live-release.cjs aa8c33e27336707ce1e7ed7ed652f0f593f10202",
+      "node --use-system-ca scripts/studio-live-verify.mjs aa8c33e27336707ce1e7ed7ed652f0f593f10202"
+    ],
+    "browserCommand": "Set PCP_STUDIO_ORIGIN=https://www.pcpartperformance.com and PCP_TECHNICAL_QA_DIR=docs/blue-white-oct21/live, then run node scripts/technical-builder-qa.cjs",
+    "requirement": "Only mark verified_live after the production marker, exact stylesheet comparison, and public browser checks pass."
   }
 }

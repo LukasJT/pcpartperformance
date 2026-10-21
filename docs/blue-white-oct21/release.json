@@ -216,9 +216,17 @@
   "publication": {
     "testedCommit": "aa8c33e27336707ce1e7ed7ed652f0f593f10202",
     "productionBranch": "codex/stage2-publication-2026-10-04",
-    "lastCheckedAt": "2026-10-21T15:18:00.243Z",
+    "lastCheckedAt": "2026-10-21T15:22:49.957Z",
     "publicCommit": "7bb0204bed7620593a7b6a7bc7bf805eeae67533",
     "live": false,
-    "evidence": "deployment-status.json"
+    "evidence": "deployment-status.json",
+    "ci": [
+      {
+        "id": 39624423119,
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/LukasJT/pcpartperformance/actions/runs/39624423119"
+      }
+    ]
   }
 }
