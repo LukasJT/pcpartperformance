@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "date": "2026-10-23",
+  "property": "https://www.pcpartperformance.com/",
+  "type": "URL prefix",
+  "method": "HTML tag in initial homepage head",
+  "status": "pending_live_verification",
+  "baseProductionCommit": "9a1e6e8dba34f27ce2e4e73b10867d0e912c423d",
+  "source": "scripts/build-pages.cjs",
+  "generatedPage": "dist/index.html",
+  "authorization": "The owner confirmed use of the currently signed-in Google account to add PC Part Performance.",
+  "checks": {
+    "localBuild": "passed",
+    "exactTagOnceInInitialCanonicalHead": "passed",
+    "regressionSuite": {
+      "commands": 111,
+      "passed": 111
+    },
+    "publicTag": "pending",
+    "googleOwnershipVerification": "pending",
+    "sitemapSubmission": "pending",
+    "typescript": "passed",
+    "latestSourcePriceObservationsPreserved": "passed"
+  },
+  "scope": {
+    "allSubdomainsVerified": false,
+    "nativeSearchConsoleAPIConnector": false,
+    "analyticsScriptAdded": false,
+    "privateAccountDetailsCommitted": false
+  },
+  "maintenance": "Keep the verification tag in the homepage source and deployed HTML after verification."
+}

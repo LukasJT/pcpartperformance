@@ -53,9 +53,11 @@ const groupName=id=>context.groups.find(g=>g[0]===id)?.[1]||id;
 function shell(title,route,body,options={}){
  const active=options.active||(route==='record'||route==='guide'?'learn':route);
  const interactive=['compare','hardware','builder','performance'].includes(route);
+ // Keep the owner's Search Console verification in the initial homepage HTML.
+ const searchConsoleVerification=route==='home'?'\n<meta name="google-site-verification" content="WAQdzNBYjc_h7M3XEOml6bRWf-QtdiObMxqkToeg1uA">':'';
  return `<!doctype html>
 <html lang="en"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">${searchConsoleVerification}
 <title>${esc(title)} · PC Part Performance</title><meta name="description" content="${esc(options.description||title+'. Compare specifications, explore product photos, and find compatible PC parts.')}">
 <meta name="theme-color" content="#101319"><meta name="color-scheme" content="dark light"><link rel="icon" href="/assets/favicon.png" type="image/png" sizes="256x256"><link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" sizes="180x180"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><script src="/theme.js"></script>
 ${route==='builder'?'<link rel="stylesheet" href="/builder-legacy.css">':''}<link rel="stylesheet" href="/design.css"><link rel="stylesheet" href="/refinement.css"><link rel="stylesheet" href="/motion.css">

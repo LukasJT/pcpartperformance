@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "policy": "daily-checked-snapshot",
-  "generatedAt": "2026-10-20T15:39:22.496Z",
+  "generatedAt": "2026-10-23T15:44:29.336Z",
   "observations": [
     {
       "schema": 1,
@@ -26,9 +26,9 @@
       "inStock": false,
       "availability": "out-of-stock",
       "url": "https://www.canadacomputers.com/en/amd-desktop-processors/216442/amd-ryzen-5-5500-6-core-12-thread-7nm-processor-with-cooler-65w-100-100000457box.html",
-      "checkedAt": "2026-10-20T15:39:17.090Z",
-      "availabilityCheckedAt": "2026-10-20T15:39:17.090Z",
-      "expiresAt": "2026-10-21T15:39:17.090Z",
+      "checkedAt": "2026-10-23T15:44:24.325Z",
+      "availabilityCheckedAt": "2026-10-23T15:44:24.325Z",
+      "expiresAt": "2026-10-24T15:44:24.325Z",
       "charges": {
         "tax": "excluded",
         "shipping": "excluded"
@@ -64,9 +64,9 @@
       "inStock": false,
       "availability": "out-of-stock",
       "url": "https://www.canadacomputers.com/en/amd-desktop-processors/216441/amd-ryzen-5-5600-6-core-12-thread-7nm-zen-3-processor-with-cooler-65w-100-100000927box.html",
-      "checkedAt": "2026-10-20T15:39:15.948Z",
-      "availabilityCheckedAt": "2026-10-20T15:39:15.948Z",
-      "expiresAt": "2026-10-21T15:39:15.948Z",
+      "checkedAt": "2026-10-23T15:44:23.724Z",
+      "availabilityCheckedAt": "2026-10-23T15:44:23.724Z",
+      "expiresAt": "2026-10-24T15:44:23.724Z",
       "charges": {
         "tax": "excluded",
         "shipping": "excluded"
@@ -102,9 +102,9 @@
       "inStock": true,
       "availability": "in-stock",
       "url": "https://www.canadacomputers.com/en/amd-desktop-processors/264908/amd-ryzen-7-9800x3d-8-core-4nm-am5-104mb-cache-120w-zen-5-cpu-100-100001084wof.html",
-      "checkedAt": "2026-10-20T15:39:11.609Z",
-      "availabilityCheckedAt": "2026-10-20T15:39:11.609Z",
-      "expiresAt": "2026-10-21T15:39:11.609Z",
+      "checkedAt": "2026-10-23T15:44:17.553Z",
+      "availabilityCheckedAt": "2026-10-23T15:44:17.553Z",
+      "expiresAt": "2026-10-24T15:44:17.553Z",
       "charges": {
         "tax": "excluded",
         "shipping": "excluded"
@@ -135,14 +135,14 @@
       "seller": "Canada Computers & Electronics",
       "region": "CA",
       "currency": "CAD",
-      "price": 439.99,
+      "price": 299.99,
       "condition": "new",
-      "inStock": true,
-      "availability": "in-stock",
+      "inStock": false,
+      "availability": "out-of-stock",
       "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/233285/samsung-990-pro-1tb-m-2-nvme-pcie-4-0-solid-state-drive-mz-v9p1t0b-am.html",
-      "checkedAt": "2026-10-20T15:39:13.642Z",
-      "availabilityCheckedAt": "2026-10-20T15:39:13.642Z",
-      "expiresAt": "2026-10-21T15:39:13.642Z",
+      "checkedAt": "2026-10-23T15:44:20.251Z",
+      "availabilityCheckedAt": "2026-10-23T15:44:20.251Z",
+      "expiresAt": "2026-10-24T15:44:20.251Z",
       "charges": {
         "tax": "excluded",
         "shipping": "excluded"
@@ -152,7 +152,7 @@
         "publisher": "Canada Computers",
         "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/233285/samsung-990-pro-1tb-m-2-nvme-pcie-4-0-solid-state-drive-mz-v9p1t0b-am.html"
       },
-      "eligibleForNewPurchaseMinimum": true,
+      "eligibleForNewPurchaseMinimum": false,
       "availabilityBasis": "retailer-product-online-offer-not-local-store-inventory"
     },
     {
@@ -178,9 +178,9 @@
       "inStock": true,
       "availability": "in-stock",
       "url": "https://www.canadacomputers.com/en/desktop-memory/183957/corsair-vengeance-lpx-32gb-2x16gb-ddr4-3200mhz-cl16-udimm-cmk32gx4m2e3200c16.html",
-      "checkedAt": "2026-10-20T15:39:15.514Z",
-      "availabilityCheckedAt": "2026-10-20T15:39:15.514Z",
-      "expiresAt": "2026-10-21T15:39:15.514Z",
+      "checkedAt": "2026-10-23T15:44:21.811Z",
+      "availabilityCheckedAt": "2026-10-23T15:44:21.811Z",
+      "expiresAt": "2026-10-24T15:44:21.811Z",
       "charges": {
         "tax": "excluded",
         "shipping": "excluded"
@@ -216,9 +216,9 @@
       "inStock": true,
       "availability": "in-stock",
       "url": "https://www.canadacomputers.com/en/desktop-memory/248739/corsair-vengeance-32gb-2x16gb-ddr5-6000mhz-cl30-udimm-cmk32gx5m2b6000c30.html",
-      "checkedAt": "2026-10-20T15:39:12.279Z",
-      "availabilityCheckedAt": "2026-10-20T15:39:12.279Z",
-      "expiresAt": "2026-10-21T15:39:12.279Z",
+      "checkedAt": "2026-10-23T15:44:18.181Z",
+      "availabilityCheckedAt": "2026-10-23T15:44:18.181Z",
+      "expiresAt": "2026-10-24T15:44:18.181Z",
       "charges": {
         "tax": "excluded",
         "shipping": "excluded"
@@ -254,9 +254,9 @@
       "inStock": false,
       "availability": "out-of-stock",
       "url": "https://www.canadacomputers.com/en/powered-by-nvidia/269805/msi-geforce-rtx-5070-ventus-3x-oc-gddr7-triple-fans-rtx-5070-12g-ventus-3x-oc.html",
-      "checkedAt": "2026-10-20T15:39:14.871Z",
-      "availabilityCheckedAt": "2026-10-20T15:39:14.871Z",
-      "expiresAt": "2026-10-21T15:39:14.871Z",
+      "checkedAt": "2026-10-23T15:44:21.450Z",
+      "availabilityCheckedAt": "2026-10-23T15:44:21.450Z",
+      "expiresAt": "2026-10-24T15:44:21.450Z",
       "charges": {
         "tax": "excluded",
         "shipping": "excluded"
@@ -289,12 +289,12 @@
       "currency": "CAD",
       "price": 394.99,
       "condition": "new",
-      "inStock": false,
-      "availability": "out-of-stock",
+      "inStock": true,
+      "availability": "in-stock",
       "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/265360/samsung-990-evo-plus-1tb-m-2-nvme-pcie-4-0-solid-state-drive-mz-v9s1t0b-am.html",
-      "checkedAt": "2026-10-20T15:39:18.460Z",
-      "availabilityCheckedAt": "2026-10-20T15:39:18.460Z",
-      "expiresAt": "2026-10-21T15:39:18.460Z",
+      "checkedAt": "2026-10-23T15:44:26.122Z",
+      "availabilityCheckedAt": "2026-10-23T15:44:26.122Z",
+      "expiresAt": "2026-10-24T15:44:26.122Z",
       "charges": {
         "tax": "excluded",
         "shipping": "excluded"
@@ -304,7 +304,7 @@
         "publisher": "Canada Computers",
         "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/265360/samsung-990-evo-plus-1tb-m-2-nvme-pcie-4-0-solid-state-drive-mz-v9s1t0b-am.html"
       },
-      "eligibleForNewPurchaseMinimum": false,
+      "eligibleForNewPurchaseMinimum": true,
       "availabilityBasis": "retailer-product-online-offer-not-local-store-inventory"
     },
     {
@@ -330,9 +330,9 @@
       "inStock": true,
       "availability": "in-stock",
       "url": "https://www.corsair.com/ca/en/p/memory/cmk32gx4m2e3200c16/vengeance-lpx-32gb-2-x-16gb-ddr4-dram-3200mhz-c16-memory-kit-black-cmk32gx4m2e3200c16",
-      "checkedAt": "2026-10-20T15:39:20.123Z",
-      "availabilityCheckedAt": "2026-10-20T15:39:20.123Z",
-      "expiresAt": "2026-10-21T15:39:20.123Z",
+      "checkedAt": "2026-10-23T15:44:27.379Z",
+      "availabilityCheckedAt": "2026-10-23T15:44:27.379Z",
+      "expiresAt": "2026-10-24T15:44:27.379Z",
       "charges": {
         "tax": "excluded",
         "shipping": "excluded"
@@ -368,9 +368,9 @@
       "inStock": true,
       "availability": "in-stock",
       "url": "https://www.corsair.com/us/en/p/memory/cmk32gx4m2e3200c16/vengeance-lpx-32gb-2-x-16gb-ddr4-dram-3200mhz-c16-memory-kit-black-cmk32gx4m2e3200c16",
-      "checkedAt": "2026-10-20T15:39:20.103Z",
-      "availabilityCheckedAt": "2026-10-20T15:39:20.103Z",
-      "expiresAt": "2026-10-21T15:39:20.103Z",
+      "checkedAt": "2026-10-23T15:44:27.073Z",
+      "availabilityCheckedAt": "2026-10-23T15:44:27.073Z",
+      "expiresAt": "2026-10-24T15:44:27.073Z",
       "charges": {
         "tax": "excluded",
         "shipping": "excluded"
