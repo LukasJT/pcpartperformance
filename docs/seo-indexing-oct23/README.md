@@ -1,5 +1,15 @@
 # Search Console and indexing corrections — October 23, 2026
 
+## Release result
+
+Published source commit `635829ae4aceabdc290fd300251cd2556891c86c` through the existing production workflow. Hosting and CI both succeeded. All 112 local regression command groups and TypeScript passed. The public receipt verifies 37 HTTP responses, the correct sole owner token, reference metadata, the comparison redirect, and retained private-state exclusions.
+
+Google confirmed zero unused ownership tokens and that the former token can no longer grant access. Its October 23 live test of the RTX 5070 reference now says **URL is available to Google**, **Page can be indexed**, and **1 valid breadcrumb item**. No invalid Product item is detected in the live result. Google accepted indexing requests for the RTX 5070 reference and the previously unknown phone comparison. The comparison is not claimed indexed. The older RTX indexed snapshot awaits recrawling.
+
+The release corrects 805 catalog reference pages and 43 phone reference pages; it does not create product offers or reviews. All 1,451 sitemap pages have incoming static links from another sitemap page, with zero orphan URLs and zero repeated manufacturer prefixes in the audited reference metadata. Google lists the sitemap as Success with 1,451 discovered pages; discovered is not the indexed count.
+
+Receipts: `release.json`, `ci-after.json`, `public-after.json`, and `local-discovery-after.json`. Private Google screenshots remain outside the repository.
+
 ## Scope and evidence
 
 Owner-authorized review of `https://www.pcpartperformance.com/`, followed by source fixes and production verification. This is a URL-prefix property, not a domain-wide verification. Private account identifiers and Google screenshots stay outside the public repository.
@@ -19,8 +29,8 @@ An enhancement error does not establish an indexing block. These specification r
 
 | ID | Evidence and cause | Implemented correction | Verification |
 | --- | --- | --- | --- |
-| GSC-01 | Property originally added to a different signed-in account | Verified the owner's intended account, removed the old user's access, and removed its homepage token in source | Correct account verified and old access removal confirmed in Google's UI; final public-token receipt recorded after deployment |
-| SEO-01 | Google live test rejects incomplete Product rich-result markup; catalog generator emits Product for specification-only records | Use WebPage metadata for catalog references; remove redundant Product markup from phone reference pages, which already have WebPage metadata | Structured-data regressions, unchanged visible specification tables and citations; Google live retest after deployment |
+| GSC-01 | Property originally added to a different signed-in account | Verified the owner's intended account, removed the old user's access, and removed its homepage token in source | Correct account verified; former access removed; public token absent; Google confirms zero unused tokens and successful revocation |
+| SEO-01 | Google live test rejects incomplete Product rich-result markup; catalog generator emits Product for specification-only records | Use WebPage metadata for catalog references; remove redundant Product markup from phone reference pages, which already have WebPage metadata | Structured-data regressions, unchanged visible specification tables and citations; Google live retest passed after deployment |
 | SEO-02 | 212 duplicate manufacturer prefixes in indexable reference metadata | Deduplicate the brand prefix while preserving exact model names | `local-discovery-before.json`, `local-discovery-after.json`, exact-name unit tests |
 | SEO-03 | `/phones/compare/iphone-16-vs-pixel-9/` has no incoming link from another sitemap page | Add a relevant static link in the phone hub's existing related-guides section | Every sitemap URL has an incoming link from another sitemap page; eight responsive states pass; before/after screenshots reviewed |
 | SEO-04 | Curated comparison alias redirects to an indexable canonical but carries a noindex header | Clear noindex only for recognized indexable destinations after resolved comparison state is removed | Source policy and actual Worker response tests; private state, unknown query, preview and withheld-route exclusions retained |
@@ -42,7 +52,7 @@ The responsive check uses isolated Edge at 320, 390 and 1440 px in light/dark, p
 
 ## Ownership and remaining Google processing
 
-The intended owner was verified before removing old access. The old account's public token must also disappear from production to prevent re-verification. The deployment receipt and final Google checks are recorded separately after publication.
+The intended owner was verified before removing old access. The old account's public token must also disappear from production to prevent re-verification. The public removal and Google token-revocation confirmation are recorded in `release.json` and `../search-console-oct23/connection.json`.
 
 Cached enhancement reports may continue to show older crawls after a successful live test. Indexing requests and sitemap processing do not guarantee inclusion or ranking. Aggregate reports must finish before a real search-performance baseline can be recorded.
 

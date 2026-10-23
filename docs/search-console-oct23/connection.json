@@ -4,7 +4,7 @@
   "property": "https://www.pcpartperformance.com/",
   "type": "URL prefix",
   "method": "HTML tag in initial homepage head",
-  "status": "correct_account_verified_old_user_removed_token_revocation_pending_publication",
+  "status": "correct_account_verified_former_access_and_token_revoked",
   "baseProductionCommit": "9a1e6e8dba34f27ce2e4e73b10867d0e912c423d",
   "source": "scripts/build-pages.cjs",
   "generatedPage": "dist/index.html",
@@ -17,7 +17,7 @@
       "passed": 112,
       "checkedAt": "2026-10-23T21:08:37.179Z"
     },
-    "publicTag": "passed",
+    "publicTag": "correct_token_only_verified_live",
     "googleOwnershipVerification": "Google displayed Ownership verified using HTML tag",
     "sitemapSubmission": {
       "url": "https://www.pcpartperformance.com/sitemap.xml",
@@ -28,7 +28,26 @@
       "discoveredVideos": 0
     },
     "typescript": "passed",
-    "latestSourcePriceObservationsPreserved": "passed"
+    "latestSourcePriceObservationsPreserved": "passed",
+    "googleLiveSEOInspection": {
+      "route": "/learn/rtx5070.html",
+      "testedAtLocal": "2026-10-23 17:13 America/Toronto",
+      "result": "URL is available to Google",
+      "availability": "Page can be indexed",
+      "breadcrumbs": "1 valid item detected",
+      "invalidProductItemsDetected": false,
+      "indexingRequest": "Google confirmed Indexing requested; added to a priority crawl queue",
+      "indexedSnapshot": "Older snapshot still has two invalid Product items; awaiting recrawl"
+    },
+    "comparisonDiscovery": {
+      "route": "/phones/compare/iphone-16-vs-pixel-9/",
+      "googleBefore": "URL is unknown to Google; no referring page detected",
+      "sourceFix": "Static link added from the indexable phone hub",
+      "liveHTTP": 200,
+      "canonical": "self",
+      "indexingRequest": "Google confirmed Indexing requested; added to a priority crawl queue",
+      "result": "Awaiting crawl and indexing decision, not claimed indexed"
+    }
   },
   "scope": {
     "allSubdomainsVerified": false,
@@ -40,7 +59,12 @@
   "verifiedAt": "2026-10-23",
   "publication": {
     "ownershipHandoverCommit": "7914d9ad6ad9284024f8ec213adad883172e8710",
-    "seoRelease": "pending_publication"
+    "seoRelease": {
+      "commit": "635829ae4aceabdc290fd300251cd2556891c86c",
+      "ci": "success",
+      "hosting": "success",
+      "generatedAt": "2026-10-23T21:10:32.269Z"
+    }
   },
   "reports": {
     "status": "Processing data; Google says to check again in a day or so",
@@ -50,10 +74,11 @@
   },
   "propertyURL": "https://search.google.com/search-console?resource_id=https%3A%2F%2Fwww.pcpartperformance.com%2F",
   "evidence": {
-    "publicHTML": "public-verification.json",
+    "publicHTML": "../seo-indexing-oct23/public-after.json",
     "regressions": "regression-results.json",
     "privateScreenshots": "Saved outside the repository in the task visualization folder; no account screenshots published.",
-    "currentAudit": "../seo-indexing-oct23/README.md"
+    "currentAudit": "../seo-indexing-oct23/README.md",
+    "currentRelease": "../seo-indexing-oct23/release.json"
   },
   "initialSetup": {
     "commit": "5fcf3a0010cef9a72ead469c0abb1b5acbe797c6",
@@ -66,7 +91,10 @@
     "newOwnerVerified": true,
     "oldUserAccessRemoved": true,
     "oldVerificationTokenRemovedFromSource": true,
-    "oldVerificationTokenAbsentPublicly": null
+    "oldVerificationTokenAbsentPublicly": true,
+    "googleVerifiedTokenRemoval": true,
+    "unusedOwnershipTokens": 0,
+    "result": "Google: Token successfully removed; this token can no longer be used to access the property"
   },
   "accountSelectionRequired": true
 }

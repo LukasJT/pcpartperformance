@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "status": "tested_ready_for_publication",
+  "status": "published_verified_publicly_and_by_google_live_test",
   "productionSourceBefore": "7914d9ad6ad9284024f8ec213adad883172e8710",
   "checks": {
     "build": "passed",
@@ -13,6 +13,46 @@
     "visualReview": "before/after 320px and enlarged-text dark state reviewed"
   },
   "dataChanges": "No catalog, price, benchmark or saved-user data changed",
-  "publication": null,
-  "googleLiveAfter": null
+  "publication": {
+    "commit": "635829ae4aceabdc290fd300251cd2556891c86c",
+    "ci": "success",
+    "hosting": "success",
+    "publicChecks": "public-after.json",
+    "publicHTTPRequests": 37
+  },
+  "googleLiveAfter": {
+    "route": "/learn/rtx5070.html",
+    "testedAtLocal": "2026-10-23 17:13 America/Toronto",
+    "result": "URL is available to Google",
+    "availability": "Page can be indexed",
+    "breadcrumbs": "1 valid item detected",
+    "invalidProductItemsDetected": false,
+    "indexingRequest": "Google confirmed Indexing requested; added to a priority crawl queue",
+    "indexedSnapshot": "Older snapshot still has two invalid Product items; awaiting recrawl"
+  },
+  "ownership": {
+    "correctAccountVerified": true,
+    "formerUserRemoved": true,
+    "formerTokenRemovedFromProduction": true,
+    "googleTokenRevocationConfirmed": true,
+    "unusedTokens": 0
+  },
+  "aggregateReports": {
+    "performance": "processing",
+    "pageIndexing": "processing",
+    "traffic": null,
+    "impressions": null,
+    "indexedTotal": null,
+    "rankChange": null
+  },
+  "discoveryFix": {
+    "route": "/phones/compare/iphone-16-vs-pixel-9/",
+    "googleBefore": "URL is unknown to Google; no referring page detected",
+    "sourceFix": "Static link added from the indexable phone hub",
+    "liveHTTP": 200,
+    "canonical": "self",
+    "indexingRequest": "Google confirmed Indexing requested; added to a priority crawl queue",
+    "result": "Awaiting crawl and indexing decision, not claimed indexed"
+  },
+  "completedAt": "2026-10-23T21:15:57.318Z"
 }
