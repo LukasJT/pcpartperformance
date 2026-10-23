@@ -4,7 +4,7 @@
   "property": "https://www.pcpartperformance.com/",
   "type": "URL prefix",
   "method": "HTML tag in initial homepage head",
-  "status": "pending_live_verification",
+  "status": "verified_live",
   "baseProductionCommit": "9a1e6e8dba34f27ce2e4e73b10867d0e912c423d",
   "source": "scripts/build-pages.cjs",
   "generatedPage": "dist/index.html",
@@ -16,9 +16,16 @@
       "commands": 111,
       "passed": 111
     },
-    "publicTag": "pending",
-    "googleOwnershipVerification": "pending",
-    "sitemapSubmission": "pending",
+    "publicTag": "passed",
+    "googleOwnershipVerification": "Google displayed Ownership verified using HTML tag",
+    "sitemapSubmission": {
+      "url": "https://www.pcpartperformance.com/sitemap.xml",
+      "status": "Success",
+      "submittedDate": "2026-10-23",
+      "lastReadDate": "2026-10-23",
+      "discoveredPages": 1451,
+      "discoveredVideos": 0
+    },
     "typescript": "passed",
     "latestSourcePriceObservationsPreserved": "passed"
   },
@@ -28,5 +35,24 @@
     "analyticsScriptAdded": false,
     "privateAccountDetailsCommitted": false
   },
-  "maintenance": "Keep the verification tag in the homepage source and deployed HTML after verification."
+  "maintenance": "Keep the verification tag in the homepage source and deployed HTML after verification.",
+  "verifiedAt": "2026-10-23T20:31:30.474Z",
+  "publication": {
+    "commit": "5fcf3a0010cef9a72ead469c0abb1b5acbe797c6",
+    "ci": "https://github.com/LukasJT/pcpartperformance/actions/runs/40019227357",
+    "ciResult": "success",
+    "hostingResult": "success"
+  },
+  "reports": {
+    "status": "Processing data; Google says to check again in a day or so",
+    "trafficBaseline": null,
+    "indexingCount": null,
+    "rankingChange": null
+  },
+  "propertyURL": "https://search.google.com/search-console?resource_id=https%3A%2F%2Fwww.pcpartperformance.com%2F",
+  "evidence": {
+    "publicHTML": "public-verification.json",
+    "regressions": "regression-results.json",
+    "privateScreenshots": "Saved outside the repository in the task visualization folder; no account screenshots published."
+  }
 }
