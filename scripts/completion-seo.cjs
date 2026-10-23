@@ -127,8 +127,9 @@ function productSchema(html, plan) {
     try { value = JSON.parse(json); } catch { return block; }
     const visit = item => {
       if (!item || typeof item !== 'object') return;
-      if (item['@type'] === 'Product' && (!item.url || item.url === DOMAIN + plan.route)) {
+      if (['Product','WebPage'].includes(item['@type']) && (!item.url || item.url === DOMAIN + plan.route)) {
         item.name = plan.name; item.description = plan.description;
+        if(item['@type']==='WebPage'&&item.about?.['@type']==='Thing')item.about.name=plan.name;
       }
       if (Array.isArray(item['@graph'])) item['@graph'].forEach(visit);
     };

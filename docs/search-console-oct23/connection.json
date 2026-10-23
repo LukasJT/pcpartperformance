@@ -1,20 +1,21 @@
 {
-  "schema": 1,
+  "schema": 2,
   "date": "2026-10-23",
   "property": "https://www.pcpartperformance.com/",
   "type": "URL prefix",
   "method": "HTML tag in initial homepage head",
-  "status": "verified_live",
+  "status": "correct_account_verified_old_user_removed_token_revocation_pending_publication",
   "baseProductionCommit": "9a1e6e8dba34f27ce2e4e73b10867d0e912c423d",
   "source": "scripts/build-pages.cjs",
   "generatedPage": "dist/index.html",
-  "authorization": "The owner confirmed use of the currently signed-in Google account to add PC Part Performance.",
+  "authorization": "Owner explicitly requested moving this property to the intended Google account, removing the former account access, and publishing SEO fixes.",
   "checks": {
     "localBuild": "passed",
     "exactTagOnceInInitialCanonicalHead": "passed",
     "regressionSuite": {
-      "commands": 111,
-      "passed": 111
+      "commands": 112,
+      "passed": 112,
+      "checkedAt": "2026-10-23T21:08:37.179Z"
     },
     "publicTag": "passed",
     "googleOwnershipVerification": "Google displayed Ownership verified using HTML tag",
@@ -36,12 +37,10 @@
     "privateAccountDetailsCommitted": false
   },
   "maintenance": "Keep the verification tag in the homepage source and deployed HTML after verification.",
-  "verifiedAt": "2026-10-23T20:31:30.474Z",
+  "verifiedAt": "2026-10-23",
   "publication": {
-    "commit": "5fcf3a0010cef9a72ead469c0abb1b5acbe797c6",
-    "ci": "https://github.com/LukasJT/pcpartperformance/actions/runs/40019227357",
-    "ciResult": "success",
-    "hostingResult": "success"
+    "ownershipHandoverCommit": "7914d9ad6ad9284024f8ec213adad883172e8710",
+    "seoRelease": "pending_publication"
   },
   "reports": {
     "status": "Processing data; Google says to check again in a day or so",
@@ -53,6 +52,21 @@
   "evidence": {
     "publicHTML": "public-verification.json",
     "regressions": "regression-results.json",
-    "privateScreenshots": "Saved outside the repository in the task visualization folder; no account screenshots published."
-  }
+    "privateScreenshots": "Saved outside the repository in the task visualization folder; no account screenshots published.",
+    "currentAudit": "../seo-indexing-oct23/README.md"
+  },
+  "initialSetup": {
+    "commit": "5fcf3a0010cef9a72ead469c0abb1b5acbe797c6",
+    "status": "superseded_by_owner_requested_account_handover",
+    "verifiedAt": "2026-10-23T20:31:30.474Z"
+  },
+  "handover": {
+    "date": "2026-10-23",
+    "correctAccountConfirmedInUI": true,
+    "newOwnerVerified": true,
+    "oldUserAccessRemoved": true,
+    "oldVerificationTokenRemovedFromSource": true,
+    "oldVerificationTokenAbsentPublicly": null
+  },
+  "accountSelectionRequired": true
 }

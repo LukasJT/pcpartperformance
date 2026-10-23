@@ -19,10 +19,15 @@ function policy(input,manifest,{local=false,staging=false}={}){
   const curated=CURATED[parts.slice().sort().join(',')];if(curated&&manifest.routes[curated]&&url.searchParams.get('mode')!=='interactive')destination=curated;
  }
  const recognized=manifest.routes[destination]||(manifest.assets.includes(destination)?{asset:true}:null);
- const dynamic=[...url.searchParams.keys()].some(k=>STATE_KEYS.has(k)||(!/^utm_[a-z_]+$/.test(k)&&!['gclid','fbclid'].includes(k)));
+ const hasQueryState=params=>[...params.keys()].some(k=>STATE_KEYS.has(k)||(!/^utm_[a-z_]+$/.test(k)&&!['gclid','fbclid'].includes(k)));
+ const dynamic=hasQueryState(url.searchParams);
  if(staging||recognized?.noindex||dynamic||!recognized)headers['X-Robots-Tag']='noindex, follow';
  const changed=destination!==pathname,preferred=!local&&(url.hostname!=='www.pcpartperformance.com'||url.protocol!=='https:');
- if(changed||preferred){let query=url.search;if(destination.startsWith('/compare/')&&destination!=='/compare/'&&url.searchParams.has('parts')){const q=new URLSearchParams(url.search);q.delete('parts');query=q.size?'?'+q.toString():''}return{status:301,headers:{...headers,Location:(local?url.origin:DOMAIN)+destination+query}}}
+ if(changed||preferred){const q=new URLSearchParams(url.search);let query=url.search;if(destination.startsWith('/compare/')&&destination!=='/compare/'&&url.searchParams.has('parts')){q.delete('parts');query=q.size?'?'+q.toString():'';}
+  // A curated comparison alias redirects to an indexable canonical page. Only
+  // remaining state, a withheld target, or a preview should retain noindex.
+  if(recognized&&!recognized.noindex&&!staging&&!hasQueryState(q))delete headers['X-Robots-Tag'];
+  return{status:301,headers:{...headers,Location:(local?url.origin:DOMAIN)+destination+query}}}
  return{status:recognized&&destination!=='/404.html'?200:404,headers,route:destination};
 }
 function buildManifest({root,records,extraRedirects={}}){

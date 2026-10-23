@@ -1,0 +1,119 @@
+{
+  "scope": "Isolated Edge responsive checks for the changed phone-hub link, not a physical iOS test",
+  "states": 8,
+  "passed": 8,
+  "results": [
+    {
+      "width": 320,
+      "scheme": "light",
+      "zoom": 100,
+      "passed": true,
+      "metrics": {
+        "scrollWidth": 320,
+        "width": 320,
+        "left": 16,
+        "right": 304,
+        "height": 26.390625,
+        "href": "/phones/compare/iphone-16-vs-pixel-9/"
+      }
+    },
+    {
+      "width": 390,
+      "scheme": "light",
+      "zoom": 100,
+      "passed": true,
+      "metrics": {
+        "scrollWidth": 390,
+        "width": 390,
+        "left": 20,
+        "right": 370,
+        "height": 26.390625,
+        "href": "/phones/compare/iphone-16-vs-pixel-9/"
+      }
+    },
+    {
+      "width": 1440,
+      "scheme": "light",
+      "zoom": 100,
+      "passed": true,
+      "metrics": {
+        "scrollWidth": 1440,
+        "width": 1440,
+        "left": 586.4375,
+        "right": 859.1875,
+        "height": 26.390625,
+        "href": "/phones/compare/iphone-16-vs-pixel-9/"
+      }
+    },
+    {
+      "width": 320,
+      "scheme": "dark",
+      "zoom": 100,
+      "passed": true,
+      "metrics": {
+        "scrollWidth": 320,
+        "width": 320,
+        "left": 16,
+        "right": 304,
+        "height": 26.390625,
+        "href": "/phones/compare/iphone-16-vs-pixel-9/"
+      }
+    },
+    {
+      "width": 390,
+      "scheme": "dark",
+      "zoom": 100,
+      "passed": true,
+      "metrics": {
+        "scrollWidth": 390,
+        "width": 390,
+        "left": 20,
+        "right": 370,
+        "height": 26.390625,
+        "href": "/phones/compare/iphone-16-vs-pixel-9/"
+      }
+    },
+    {
+      "width": 1440,
+      "scheme": "dark",
+      "zoom": 100,
+      "passed": true,
+      "metrics": {
+        "scrollWidth": 1440,
+        "width": 1440,
+        "left": 586.4375,
+        "right": 859.1875,
+        "height": 26.390625,
+        "href": "/phones/compare/iphone-16-vs-pixel-9/"
+      }
+    },
+    {
+      "width": 320,
+      "scheme": "light",
+      "zoom": 150,
+      "passed": true,
+      "metrics": {
+        "scrollWidth": 320,
+        "width": 320,
+        "left": 16,
+        "right": 304,
+        "height": 26.390625,
+        "href": "/phones/compare/iphone-16-vs-pixel-9/"
+      }
+    },
+    {
+      "width": 390,
+      "scheme": "dark",
+      "zoom": 150,
+      "passed": true,
+      "metrics": {
+        "scrollWidth": 390,
+        "width": 390,
+        "left": 20,
+        "right": 370,
+        "height": 26.390625,
+        "href": "/phones/compare/iphone-16-vs-pixel-9/"
+      }
+    }
+  ]
+}

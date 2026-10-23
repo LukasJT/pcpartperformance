@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "checkedAt": "2026-10-19T20:31:17.449Z",
+  "checkedAt": "2026-10-23T20:57:00.601Z",
   "basis": "Final generated HTML and existing publication ledgers; not private Search Console, Google indexing confirmation or rendered ad testing",
-  "pages": 1868,
-  "indexableURLs": 1323,
+  "pages": 2001,
+  "indexableURLs": 1451,
   "issues": [],
   "news": {
     "publicationRecords": 4,
@@ -69,7 +69,7 @@
     "staleTextPresent": false
   },
   "ownerReadiness": {
-    "searchConsole": "unavailable_no_connected_account",
+    "searchConsole": "no_automated_API_connection; owner browser verification recorded separately",
     "ga4": "unavailable_no_connected_account",
     "journeyEligibility": "unverified_requires_actual_provider_account_and_analytics",
     "publisherLandmarks": {

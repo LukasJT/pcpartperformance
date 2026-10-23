@@ -1,0 +1,691 @@
+{
+  "checkedAt": "2026-10-23T20:40:29.120Z",
+  "results": [
+    {
+      "route": "/builder",
+      "status": 301,
+      "location": "https://www.pcpartperformance.com/builder/",
+      "xRobots": null,
+      "contentType": null,
+      "h1Count": 0,
+      "emptyCatalog": false,
+      "schema": []
+    },
+    {
+      "route": "/",
+      "status": 200,
+      "location": null,
+      "xRobots": null,
+      "contentType": "text/html",
+      "canonical": "https://www.pcpartperformance.com/",
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "title": "PC Builder, Part Comparisons &amp; Upgrade Planning | PC Part Performance",
+      "h1Count": 1,
+      "emptyCatalog": false,
+      "schema": [
+        {
+          "graphTypes": [
+            "WebSite",
+            "Organization"
+          ],
+          "hasOffer": false,
+          "hasRating": false,
+          "hasReview": false
+        }
+      ]
+    },
+    {
+      "route": "/builder/",
+      "status": 200,
+      "location": null,
+      "xRobots": null,
+      "contentType": "text/html",
+      "canonical": "https://www.pcpartperformance.com/builder/",
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "title": "PC Builder &amp; Compatibility Checker | PC Part Performance",
+      "h1Count": 1,
+      "emptyCatalog": false,
+      "schema": [
+        {
+          "type": "BreadcrumbList",
+          "hasOffer": false,
+          "hasRating": false,
+          "hasReview": false
+        }
+      ]
+    },
+    {
+      "route": "/index.html",
+      "status": 301,
+      "location": "https://www.pcpartperformance.com/",
+      "xRobots": null,
+      "contentType": null,
+      "h1Count": 0,
+      "emptyCatalog": false,
+      "schema": []
+    },
+    {
+      "route": "/builder/index.html",
+      "status": 301,
+      "location": "https://www.pcpartperformance.com/builder/",
+      "xRobots": null,
+      "contentType": null,
+      "h1Count": 0,
+      "emptyCatalog": false,
+      "schema": []
+    },
+    {
+      "route": "/builder/?build=i512400f%2C%2C%2C%2C%2C%2C%2C%2C%2C",
+      "status": 200,
+      "location": null,
+      "xRobots": "noindex, follow",
+      "contentType": "text/html",
+      "canonical": "https://www.pcpartperformance.com/builder/",
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "title": "PC Builder &amp; Compatibility Checker | PC Part Performance",
+      "h1Count": 1,
+      "emptyCatalog": false,
+      "schema": [
+        {
+          "type": "BreadcrumbList",
+          "hasOffer": false,
+          "hasRating": false,
+          "hasReview": false
+        }
+      ]
+    },
+    {
+      "route": "/hardware/",
+      "status": 200,
+      "location": null,
+      "xRobots": null,
+      "contentType": "text/html",
+      "canonical": "https://www.pcpartperformance.com/hardware/",
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "title": "PC Hardware Catalog: Specifications &amp; Model Details",
+      "h1Count": 1,
+      "emptyCatalog": false,
+      "schema": [
+        {
+          "type": "BreadcrumbList",
+          "hasOffer": false,
+          "hasRating": false,
+          "hasReview": false
+        },
+        {
+          "type": "ItemList",
+          "hasOffer": false,
+          "hasRating": false,
+          "hasReview": false
+        }
+      ]
+    },
+    {
+      "route": "/hardware/graphics-cards/",
+      "status": 200,
+      "location": null,
+      "xRobots": null,
+      "contentType": "text/html",
+      "canonical": "https://www.pcpartperformance.com/hardware/graphics-cards/",
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "title": "Graphics cards · PC Part Performance",
+      "h1Count": 1,
+      "emptyCatalog": false,
+      "schema": [
+        {
+          "type": "BreadcrumbList",
+          "hasOffer": false,
+          "hasRating": false,
+          "hasReview": false
+        },
+        {
+          "type": "ItemList",
+          "hasOffer": false,
+          "hasRating": false,
+          "hasReview": false
+        }
+      ]
+    },
+    {
+      "route": "/hardware/solid-state-drives/",
+      "status": 200,
+      "location": null,
+      "xRobots": null,
+      "contentType": "text/html",
+      "canonical": "https://www.pcpartperformance.com/hardware/solid-state-drives/",
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "title": "SSDs · PC Part Performance",
+      "h1Count": 1,
+      "emptyCatalog": false,
+      "schema": [
+        {
+          "type": "BreadcrumbList",
+          "hasOffer": false,
+          "hasRating": false,
+          "hasReview": false
+        },
+        {
+          "type": "ItemList",
+          "hasOffer": false,
+          "hasRating": false,
+          "hasReview": false
+        }
+      ]
+    },
+    {
+      "route": "/hardware/ssds/",
+      "status": 404,
+      "location": null,
+      "xRobots": "noindex, follow",
+      "contentType": "text/html",
+      "canonical": "https://www.pcpartperformance.com/404.html",
+      "robots": "noindex,follow",
+      "title": "Page not found · PC Part Performance",
+      "h1Count": 1,
+      "emptyCatalog": false,
+      "schema": []
+    },
+    {
+      "route": "/hardware/processors/",
+      "status": 200,
+      "location": null,
+      "xRobots": null,
+      "contentType": "text/html",
+      "canonical": "https://www.pcpartperformance.com/hardware/processors/",
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "title": "Processors · PC Part Performance",
+      "h1Count": 1,
+      "emptyCatalog": false,
+      "schema": [
+        {
+          "type": "BreadcrumbList",
+          "hasOffer": false,
+          "hasRating": false,
+          "hasReview": false
+        },
+        {
+          "type": "ItemList",
+          "hasOffer": false,
+          "hasRating": false,
+          "hasReview": false
+        }
+      ]
+    },
+    {
+      "route": "/hardware/memory/",
+      "status": 200,
+      "location": null,
+      "xRobots": null,
+      "contentType": "text/html",
+      "canonical": "https://www.pcpartperformance.com/hardware/memory/",
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "title": "Memory · PC Part Performance",
+      "h1Count": 1,
+      "emptyCatalog": false,
+      "schema": [
+        {
+          "type": "BreadcrumbList",
+          "hasOffer": false,
+          "hasRating": false,
+          "hasReview": false
+        },
+        {
+          "type": "ItemList",
+          "hasOffer": false,
+          "hasRating": false,
+          "hasReview": false
+        }
+      ]
+    },
+    {
+      "route": "/compare/",
+      "status": 200,
+      "location": null,
+      "xRobots": null,
+      "contentType": "text/html",
+      "canonical": "https://www.pcpartperformance.com/compare/",
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "title": "Compare PC Parts: GPUs, CPUs, RAM and SSDs",
+      "h1Count": 1,
+      "emptyCatalog": false,
+      "schema": [
+        {
+          "type": "BreadcrumbList",
+          "hasOffer": false,
+          "hasRating": false,
+          "hasReview": false
+        }
+      ]
+    },
+    {
+      "route": "/compare/?parts=rtx5070,rtx5060ti16",
+      "status": 301,
+      "location": "https://www.pcpartperformance.com/compare/rtx-5070-vs-rtx-5060-ti-16gb/",
+      "xRobots": "noindex, follow",
+      "contentType": null,
+      "h1Count": 0,
+      "emptyCatalog": false,
+      "schema": []
+    },
+    {
+      "route": "/compare/rtx-5070-vs-rx-9070/",
+      "status": 200,
+      "location": null,
+      "xRobots": null,
+      "contentType": "text/html",
+      "canonical": "https://www.pcpartperformance.com/compare/rtx-5070-vs-rx-9070/",
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "title": "RTX 5070 vs RX 9070: specifications and upgrade checks · PC Part Performance",
+      "h1Count": 1,
+      "emptyCatalog": false,
+      "schema": [
+        {
+          "type": "BreadcrumbList",
+          "hasOffer": false,
+          "hasRating": false,
+          "hasReview": false
+        },
+        {
+          "graphTypes": [
+            "Article"
+          ],
+          "hasOffer": false,
+          "hasRating": false,
+          "hasReview": false
+        }
+      ]
+    },
+    {
+      "route": "/upgrade/",
+      "status": 200,
+      "location": null,
+      "xRobots": null,
+      "contentType": "text/html",
+      "canonical": "https://www.pcpartperformance.com/upgrade/",
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "title": "PC Upgrade Planner: Keep, Replace &amp; Reuse Parts | PC Part Performance",
+      "h1Count": 1,
+      "emptyCatalog": false,
+      "schema": [
+        {
+          "type": "BreadcrumbList",
+          "hasOffer": false,
+          "hasRating": false,
+          "hasReview": false
+        }
+      ]
+    },
+    {
+      "route": "/blog/",
+      "status": 200,
+      "location": null,
+      "xRobots": null,
+      "contentType": "text/html",
+      "canonical": "https://www.pcpartperformance.com/blog/",
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "title": "PC Building Guides, Compatibility &amp; Upgrade Advice",
+      "h1Count": 1,
+      "emptyCatalog": false,
+      "schema": [
+        {
+          "type": "BreadcrumbList",
+          "hasOffer": false,
+          "hasRating": false,
+          "hasReview": false
+        }
+      ]
+    },
+    {
+      "route": "/blog/understanding-pc-memory/",
+      "status": 200,
+      "location": null,
+      "xRobots": null,
+      "contentType": "text/html",
+      "canonical": "https://www.pcpartperformance.com/blog/understanding-pc-memory/",
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "title": "How to choose PC memory: capacity, DDR generation and timings · PC Part Performance",
+      "h1Count": 1,
+      "emptyCatalog": false,
+      "schema": [
+        {
+          "type": "BreadcrumbList",
+          "hasOffer": false,
+          "hasRating": false,
+          "hasReview": false
+        },
+        {
+          "graphTypes": [
+            "Article"
+          ],
+          "hasOffer": false,
+          "hasRating": false,
+          "hasReview": false
+        }
+      ]
+    },
+    {
+      "route": "/compatibility/",
+      "status": 200,
+      "location": null,
+      "xRobots": null,
+      "contentType": "text/html",
+      "canonical": "https://www.pcpartperformance.com/compatibility/",
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "title": "PC Compatibility Checker: CPU, RAM, Case &amp; PSU | PC Part Performance",
+      "h1Count": 1,
+      "emptyCatalog": false,
+      "schema": [
+        {
+          "type": "BreadcrumbList",
+          "hasOffer": false,
+          "hasRating": false,
+          "hasReview": false
+        }
+      ]
+    },
+    {
+      "route": "/blog/how-to-choose-a-graphics-card/",
+      "status": 200,
+      "location": null,
+      "xRobots": null,
+      "contentType": "text/html",
+      "canonical": "https://www.pcpartperformance.com/blog/how-to-choose-a-graphics-card/",
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "title": "How to choose a graphics card for your PC · PC Part Performance",
+      "h1Count": 1,
+      "emptyCatalog": false,
+      "schema": [
+        {
+          "type": "BreadcrumbList",
+          "hasOffer": false,
+          "hasRating": false,
+          "hasReview": false
+        },
+        {
+          "graphTypes": [
+            "Article"
+          ],
+          "hasOffer": false,
+          "hasRating": false,
+          "hasReview": false
+        }
+      ]
+    },
+    {
+      "route": "/learn/rtx5070",
+      "status": 301,
+      "location": "https://www.pcpartperformance.com/learn/rtx5070.html",
+      "xRobots": null,
+      "contentType": null,
+      "h1Count": 0,
+      "emptyCatalog": false,
+      "schema": []
+    },
+    {
+      "route": "/learn/9800x3d.html",
+      "status": 200,
+      "location": null,
+      "xRobots": null,
+      "contentType": "text/html",
+      "canonical": "https://www.pcpartperformance.com/learn/9800x3d.html",
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "title": "AMD Ryzen 7 9800X3D: Specs &amp; Compatibility · PC Part Performance",
+      "h1Count": 1,
+      "emptyCatalog": false,
+      "schema": [
+        {
+          "type": "BreadcrumbList",
+          "hasOffer": false,
+          "hasRating": false,
+          "hasReview": false
+        },
+        {
+          "type": "Product",
+          "hasOffer": false,
+          "hasRating": false,
+          "hasReview": false
+        }
+      ]
+    },
+    {
+      "route": "/learn/rtx5070.html",
+      "status": 200,
+      "location": null,
+      "xRobots": null,
+      "contentType": "text/html",
+      "canonical": "https://www.pcpartperformance.com/learn/rtx5070.html",
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "title": "NVIDIA GeForce RTX 5070: Specs &amp; Compatibility · PC Part Performance",
+      "h1Count": 1,
+      "emptyCatalog": false,
+      "schema": [
+        {
+          "type": "BreadcrumbList",
+          "hasOffer": false,
+          "hasRating": false,
+          "hasReview": false
+        },
+        {
+          "type": "Product",
+          "hasOffer": false,
+          "hasRating": false,
+          "hasReview": false
+        }
+      ]
+    },
+    {
+      "route": "/shop/",
+      "status": 200,
+      "location": null,
+      "xRobots": null,
+      "contentType": "text/html",
+      "canonical": "https://www.pcpartperformance.com/shop/",
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "title": "Shop PC parts in Canada and the USA · PC Part Performance",
+      "h1Count": 1,
+      "emptyCatalog": false,
+      "schema": [
+        {
+          "type": "BreadcrumbList",
+          "hasOffer": false,
+          "hasRating": false,
+          "hasReview": false
+        }
+      ]
+    },
+    {
+      "route": "/build-school/",
+      "status": 200,
+      "location": null,
+      "xRobots": null,
+      "contentType": "text/html",
+      "canonical": "https://www.pcpartperformance.com/build-school/",
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "title": "How to Build a PC: Step-by-Step Build School | PC Part Performance",
+      "h1Count": 1,
+      "emptyCatalog": false,
+      "schema": [
+        {
+          "type": "BreadcrumbList",
+          "hasOffer": false,
+          "hasRating": false,
+          "hasReview": false
+        }
+      ]
+    },
+    {
+      "route": "/phones/",
+      "status": 200,
+      "location": null,
+      "xRobots": null,
+      "contentType": "text/html",
+      "canonical": "https://www.pcpartperformance.com/phones/",
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "title": "Compare Phones: Size, Specifications &amp; 3D Views · PC Part Performance",
+      "h1Count": 1,
+      "emptyCatalog": false,
+      "schema": [
+        {
+          "type": "BreadcrumbList",
+          "hasOffer": false,
+          "hasRating": false,
+          "hasReview": false
+        }
+      ]
+    },
+    {
+      "route": "/tools/monitor-pixel-density/",
+      "status": 200,
+      "location": null,
+      "xRobots": null,
+      "contentType": "text/html",
+      "canonical": "https://www.pcpartperformance.com/tools/monitor-pixel-density/",
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "title": "Monitor PPI Calculator: Screen Size, Width &amp; Height",
+      "h1Count": 1,
+      "emptyCatalog": false,
+      "schema": [
+        {
+          "type": "BreadcrumbList",
+          "hasOffer": false,
+          "hasRating": false,
+          "hasReview": false
+        },
+        {
+          "type": "WebPage",
+          "hasOffer": false,
+          "hasRating": false,
+          "hasReview": false
+        }
+      ]
+    },
+    {
+      "route": "/prebuilts/",
+      "status": 200,
+      "location": null,
+      "xRobots": null,
+      "contentType": "text/html",
+      "canonical": "https://www.pcpartperformance.com/prebuilts/",
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "title": "Compare Prebuilt Gaming PCs in Canada &amp; the US",
+      "h1Count": 1,
+      "emptyCatalog": false,
+      "schema": [
+        {
+          "type": "BreadcrumbList",
+          "hasOffer": false,
+          "hasRating": false,
+          "hasReview": false
+        }
+      ]
+    },
+    {
+      "route": "/no-such-page-seo-audit-20261023/",
+      "status": 404,
+      "location": null,
+      "xRobots": "noindex, follow",
+      "contentType": "text/html",
+      "canonical": "https://www.pcpartperformance.com/404.html",
+      "robots": "noindex,follow",
+      "title": "Page not found · PC Part Performance",
+      "h1Count": 1,
+      "emptyCatalog": false,
+      "schema": []
+    },
+    {
+      "route": "/search/?q=ryzen",
+      "status": 200,
+      "location": null,
+      "xRobots": "noindex, follow",
+      "contentType": "text/html",
+      "canonical": "https://www.pcpartperformance.com/search/",
+      "robots": "noindex,follow",
+      "title": "Search PC Parts, Guides, Comparisons and Tools · PC Part Performance",
+      "h1Count": 1,
+      "emptyCatalog": false,
+      "schema": [
+        {
+          "type": "BreadcrumbList",
+          "hasOffer": false,
+          "hasRating": false,
+          "hasReview": false
+        }
+      ]
+    },
+    {
+      "route": "/search/",
+      "status": 200,
+      "location": null,
+      "xRobots": "noindex, follow",
+      "contentType": "text/html",
+      "canonical": "https://www.pcpartperformance.com/search/",
+      "robots": "noindex,follow",
+      "title": "Search PC Parts, Guides, Comparisons and Tools · PC Part Performance",
+      "h1Count": 1,
+      "emptyCatalog": false,
+      "schema": [
+        {
+          "type": "BreadcrumbList",
+          "hasOffer": false,
+          "hasRating": false,
+          "hasReview": false
+        }
+      ]
+    },
+    {
+      "route": "/my-pc/",
+      "status": 200,
+      "location": null,
+      "xRobots": null,
+      "contentType": "text/html",
+      "canonical": "https://www.pcpartperformance.com/my-pc/",
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "title": "My PC Workspace: Saved Builds, Notes &amp; Upgrade Plans · PC Part Performance",
+      "h1Count": 1,
+      "emptyCatalog": false,
+      "schema": [
+        {
+          "type": "BreadcrumbList",
+          "hasOffer": false,
+          "hasRating": false,
+          "hasReview": false
+        }
+      ]
+    },
+    {
+      "route": "/robots.txt",
+      "status": 200,
+      "location": null,
+      "xRobots": null,
+      "contentType": "text/plain",
+      "h1Count": 0,
+      "emptyCatalog": false,
+      "schema": []
+    },
+    {
+      "route": "/sitemap.xml",
+      "status": 200,
+      "location": null,
+      "xRobots": null,
+      "contentType": "application/xml",
+      "h1Count": 0,
+      "emptyCatalog": false,
+      "schema": []
+    },
+    {
+      "url": "https://pcpartperformance.com/",
+      "status": 301,
+      "location": "https://www.pcpartperformance.com/"
+    },
+    {
+      "url": "http://pcpartperformance.com/",
+      "status": 301,
+      "location": "https://www.pcpartperformance.com/"
+    },
+    {
+      "url": "http://www.pcpartperformance.com/",
+      "status": 301,
+      "location": "https://www.pcpartperformance.com/"
+    }
+  ]
+}

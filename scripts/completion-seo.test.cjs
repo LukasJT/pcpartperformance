@@ -117,9 +117,15 @@ test('visible scope replaces vague catalog subtitle and JSON-LD stays factual wi
     assert.equal((after.match(/data-completion-identity-scope=/g) || []).length, 1);
     assert.ok(!after.includes('<h1>MSI MAG B650 TOMAHAWK WIFI</h1><p>Desktop motherboard</p>'));
     const schemas = text => [...text.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map(m => JSON.parse(m[1]));
-    const a = schemas(before).find(s => s['@type'] === 'Product'), b = schemas(after).find(s => s['@type'] === 'Product');
+    const a = schemas(before).find(s => s['@type'] === 'WebPage'), b = schemas(after).find(s => s['@type'] === 'WebPage');
     assert.equal(b.name, 'MSI MAG B650 TOMAHAWK WIFI');
-    assert.deepEqual(b.additionalProperty, a.additionalProperty);
+    assert.equal(b.about.name, b.name);
+    assert.equal(b.citation, a.citation);
+    assert.deepEqual(b.primaryImageOfPage, a.primaryImageOfPage);
+    const tables = value => [...value.matchAll(/<table\b[^>]*>[\s\S]*?<\/table>/g)].map(m => m[0]);
+    assert.ok(tables(before).length > 0);
+    assert.deepEqual(tables(after), tables(before));
+    assert.ok(!schemas(after).some(s => s['@type'] === 'Product'));
     assert.equal(b.url, a.url);
     assert.equal(b.sku, undefined);
     assert.equal(b.offers, undefined);

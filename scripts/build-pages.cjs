@@ -53,8 +53,9 @@ const groupName=id=>context.groups.find(g=>g[0]===id)?.[1]||id;
 function shell(title,route,body,options={}){
  const active=options.active||(route==='record'||route==='guide'?'learn':route);
  const interactive=['compare','hardware','builder','performance'].includes(route);
- // Keep the owner's Search Console verification in the initial homepage HTML.
- const searchConsoleVerification=route==='home'?'\n<meta name="google-site-verification" content="WAQdzNBYjc_h7M3XEOml6bRWf-QtdiObMxqkToeg1uA">\n<meta name="google-site-verification" content="ycg3UOM77yWTZdFshXncQAeWpWUN1TBSi-BJ-vRb_dI">':'';
+ // The owner moved Search Console to the intended Google account.
+ // Keep only that account's verification tag after the completed handover.
+ const searchConsoleVerification=route==='home'?'\n<meta name="google-site-verification" content="ycg3UOM77yWTZdFshXncQAeWpWUN1TBSi-BJ-vRb_dI">':'';
  return `<!doctype html>
 <html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">${searchConsoleVerification}

@@ -573,7 +573,7 @@
     "/assets/css/site-5dd885fb52d9.css"
   ],
   "notes": [
-    "Traffic and field Core Web Vitals not measured; no Search Console connection available.",
+    "This build does not authenticate to Search Console. Owner-authorized browser inspections are recorded separately; traffic and field Core Web Vitals are not measured by the build.",
     "No meta keywords or ranking guarantees.",
     "Thin product entries remain accessible but are excluded from indexing and sitemap.",
     "Published explainers use Article, not NewsArticle.",
