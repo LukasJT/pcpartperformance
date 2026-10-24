@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-10-23T21:08:37.179Z",
-  "commands": 112,
-  "passed": 112,
+  "checkedAt": "2026-10-24T14:23:24.372Z",
+  "commands": 113,
+  "passed": 113,
   "results": [
     {
       "command": "node scripts/check-program.cjs",
@@ -250,6 +250,11 @@
     },
     {
       "command": "node --test scripts/search-console-seo.test.cjs",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "command": "node --test scripts/search-landing-content.test.cjs",
       "exitCode": 0,
       "passed": true
     },

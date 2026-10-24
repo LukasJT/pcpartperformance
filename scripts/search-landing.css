@@ -1,0 +1,6 @@
+.search-guide{max-width:75ch;margin:2rem 0;padding-top:1.5rem;border-top:1px solid var(--border)}
+.search-guide h2{font-size:1.5rem}.search-guide h3{font-size:1rem}
+.search-guide-steps{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;padding-left:1.3rem}
+.search-checks dd{margin:.3rem 0 1rem}.search-checks dt{font-weight:600}
+.search-guide-links a{display:block;padding:.7rem 0;text-decoration:underline}.search-guide summary{padding:.7rem 0}
+@media(max-width:700px){.search-guide-steps{display:block}}

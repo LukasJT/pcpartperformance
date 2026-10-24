@@ -1,0 +1,2 @@
+.ui-feature-grid--compact{grid-template-columns:repeat(auto-fit,minmax(min(100%,8rem),1fr))}
+.comparison-data .section-heading{flex-wrap:wrap}

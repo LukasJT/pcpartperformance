@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-24",
+  "status": "tested_ready_for_publication",
+  "baseCommit": "893b76b1f01db21656abcb0ec686ac07e00de40b",
+  "pages": [
+    "/builder/",
+    "/upgrade/",
+    "/compatibility/",
+    "/compare/",
+    "/blog/am5-upgrade-checklist/"
+  ],
+  "newIndexableRoutes": 0,
+  "sitemapURLs": 1451,
+  "tests": {
+    "regressionCommandGroups": 113,
+    "passed": 113,
+    "browserStates": 101,
+    "browserStatesPassed": 101,
+    "typescript": "passed",
+    "performanceBudgets": "passed_without_raising_limits",
+    "visualReview": "Mobile light/dark and desktop sections inspected"
+  },
+  "publication": null,
+  "searchOutcome": "Not yet measured; no impression, click or ranking gain claimed"
+}

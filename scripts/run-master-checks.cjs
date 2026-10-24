@@ -7,6 +7,7 @@ const results=[];
 tasks.push('node --test scripts/release-ci-annotations.test.cjs');
 tasks.push('node --test scripts/clean-studio.test.cjs');
 tasks.push('node --test scripts/search-console-seo.test.cjs');
+tasks.push('node --test scripts/search-landing-content.test.cjs');
 tasks.push('node --test scripts/css-compact.test.cjs');
 tasks.push('node scripts/total-photo-coverage-oct19.cjs');
 tasks.push('node --test scripts/oct19-delivery-packing.test.cjs');

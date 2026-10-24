@@ -1,0 +1,1334 @@
+{
+  "checkedAt": "2026-10-24T14:23:20.756Z",
+  "origin": "http://127.0.0.1:4238",
+  "scope": "Isolated Edge rendering; not physical iOS or field Core Web Vitals",
+  "states": 101,
+  "passed": 101,
+  "results": [
+    {
+      "route": "/builder/",
+      "palette": "arctic",
+      "width": 320,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 320,
+        "scrollWidth": 320,
+        "left": 16,
+        "right": 304,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/upgrade/",
+      "palette": "arctic",
+      "width": 320,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 320,
+        "scrollWidth": 320,
+        "left": 16,
+        "right": 304,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/compatibility/",
+      "palette": "arctic",
+      "width": 320,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 320,
+        "scrollWidth": 320,
+        "left": 16,
+        "right": 304,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/compare/",
+      "palette": "arctic",
+      "width": 320,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 320,
+        "scrollWidth": 320,
+        "left": 16,
+        "right": 304,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/blog/am5-upgrade-checklist/",
+      "palette": "arctic",
+      "width": 320,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 320,
+        "scrollWidth": 320,
+        "left": 16,
+        "right": 304,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/builder/",
+      "palette": "arctic",
+      "width": 360,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 360,
+        "scrollWidth": 360,
+        "left": 16,
+        "right": 344,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/upgrade/",
+      "palette": "arctic",
+      "width": 360,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 360,
+        "scrollWidth": 360,
+        "left": 16,
+        "right": 344,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/compatibility/",
+      "palette": "arctic",
+      "width": 360,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 360,
+        "scrollWidth": 360,
+        "left": 16,
+        "right": 344,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/compare/",
+      "palette": "arctic",
+      "width": 360,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 360,
+        "scrollWidth": 360,
+        "left": 16,
+        "right": 344,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/blog/am5-upgrade-checklist/",
+      "palette": "arctic",
+      "width": 360,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 360,
+        "scrollWidth": 360,
+        "left": 16,
+        "right": 344,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/builder/",
+      "palette": "arctic",
+      "width": 375,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 375,
+        "scrollWidth": 375,
+        "left": 20,
+        "right": 355,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/upgrade/",
+      "palette": "arctic",
+      "width": 375,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 375,
+        "scrollWidth": 375,
+        "left": 20,
+        "right": 355,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/compatibility/",
+      "palette": "arctic",
+      "width": 375,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 375,
+        "scrollWidth": 375,
+        "left": 20,
+        "right": 355,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/compare/",
+      "palette": "arctic",
+      "width": 375,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 375,
+        "scrollWidth": 375,
+        "left": 20,
+        "right": 355,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/blog/am5-upgrade-checklist/",
+      "palette": "arctic",
+      "width": 375,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 375,
+        "scrollWidth": 375,
+        "left": 20,
+        "right": 355,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/builder/",
+      "palette": "arctic",
+      "width": 390,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 390,
+        "scrollWidth": 390,
+        "left": 20,
+        "right": 370,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/upgrade/",
+      "palette": "arctic",
+      "width": 390,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 390,
+        "scrollWidth": 390,
+        "left": 20,
+        "right": 370,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/compatibility/",
+      "palette": "arctic",
+      "width": 390,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 390,
+        "scrollWidth": 390,
+        "left": 20,
+        "right": 370,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/compare/",
+      "palette": "arctic",
+      "width": 390,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 390,
+        "scrollWidth": 390,
+        "left": 20,
+        "right": 370,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/blog/am5-upgrade-checklist/",
+      "palette": "arctic",
+      "width": 390,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 390,
+        "scrollWidth": 390,
+        "left": 20,
+        "right": 370,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/builder/",
+      "palette": "arctic",
+      "width": 430,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 430,
+        "scrollWidth": 430,
+        "left": 20,
+        "right": 410,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/upgrade/",
+      "palette": "arctic",
+      "width": 430,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 430,
+        "scrollWidth": 430,
+        "left": 20,
+        "right": 410,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/compatibility/",
+      "palette": "arctic",
+      "width": 430,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 430,
+        "scrollWidth": 430,
+        "left": 20,
+        "right": 410,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/compare/",
+      "palette": "arctic",
+      "width": 430,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 430,
+        "scrollWidth": 430,
+        "left": 20,
+        "right": 410,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/blog/am5-upgrade-checklist/",
+      "palette": "arctic",
+      "width": 430,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 430,
+        "scrollWidth": 430,
+        "left": 20,
+        "right": 410,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/builder/",
+      "palette": "arctic",
+      "width": 768,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 768,
+        "scrollWidth": 768,
+        "left": 30.71875,
+        "right": 737.28125,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/upgrade/",
+      "palette": "arctic",
+      "width": 768,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 768,
+        "scrollWidth": 768,
+        "left": 30.71875,
+        "right": 737.28125,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/compatibility/",
+      "palette": "arctic",
+      "width": 768,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 768,
+        "scrollWidth": 768,
+        "left": 30.71875,
+        "right": 737.28125,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/compare/",
+      "palette": "arctic",
+      "width": 768,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 768,
+        "scrollWidth": 768,
+        "left": 30.71875,
+        "right": 737.28125,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/blog/am5-upgrade-checklist/",
+      "palette": "arctic",
+      "width": 768,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 768,
+        "scrollWidth": 768,
+        "left": 30.71875,
+        "right": 737.28125,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/builder/",
+      "palette": "arctic",
+      "width": 1024,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 1024,
+        "scrollWidth": 1024,
+        "left": 40.953125,
+        "right": 861.75,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/upgrade/",
+      "palette": "arctic",
+      "width": 1024,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 1024,
+        "scrollWidth": 1024,
+        "left": 40.953125,
+        "right": 861.75,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/compatibility/",
+      "palette": "arctic",
+      "width": 1024,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 1024,
+        "scrollWidth": 1024,
+        "left": 40.953125,
+        "right": 861.75,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/compare/",
+      "palette": "arctic",
+      "width": 1024,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 1024,
+        "scrollWidth": 1024,
+        "left": 40.953125,
+        "right": 861.75,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/blog/am5-upgrade-checklist/",
+      "palette": "arctic",
+      "width": 1024,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 1024,
+        "scrollWidth": 1024,
+        "left": 324.953125,
+        "right": 983.046875,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/builder/",
+      "palette": "arctic",
+      "width": 1440,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "left": 96,
+        "right": 916.796875,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/upgrade/",
+      "palette": "arctic",
+      "width": 1440,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "left": 96,
+        "right": 916.796875,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/compatibility/",
+      "palette": "arctic",
+      "width": 1440,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "left": 96,
+        "right": 916.796875,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/compare/",
+      "palette": "arctic",
+      "width": 1440,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "left": 96,
+        "right": 916.796875,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/blog/am5-upgrade-checklist/",
+      "palette": "arctic",
+      "width": 1440,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "left": 604,
+        "right": 1344,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/builder/",
+      "palette": "arctic",
+      "width": 1920,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 1920,
+        "scrollWidth": 1920,
+        "left": 336,
+        "right": 1156.796875,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/upgrade/",
+      "palette": "arctic",
+      "width": 1920,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 1920,
+        "scrollWidth": 1920,
+        "left": 336,
+        "right": 1156.796875,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/compatibility/",
+      "palette": "arctic",
+      "width": 1920,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 1920,
+        "scrollWidth": 1920,
+        "left": 336,
+        "right": 1156.796875,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/compare/",
+      "palette": "arctic",
+      "width": 1920,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 1920,
+        "scrollWidth": 1920,
+        "left": 336,
+        "right": 1156.796875,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/blog/am5-upgrade-checklist/",
+      "palette": "arctic",
+      "width": 1920,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 1920,
+        "scrollWidth": 1920,
+        "left": 844,
+        "right": 1584,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/builder/",
+      "palette": "midnight",
+      "width": 320,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 320,
+        "scrollWidth": 320,
+        "left": 16,
+        "right": 304,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/upgrade/",
+      "palette": "midnight",
+      "width": 320,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 320,
+        "scrollWidth": 320,
+        "left": 16,
+        "right": 304,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/compatibility/",
+      "palette": "midnight",
+      "width": 320,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 320,
+        "scrollWidth": 320,
+        "left": 16,
+        "right": 304,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/compare/",
+      "palette": "midnight",
+      "width": 320,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 320,
+        "scrollWidth": 320,
+        "left": 16,
+        "right": 304,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/blog/am5-upgrade-checklist/",
+      "palette": "midnight",
+      "width": 320,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 320,
+        "scrollWidth": 320,
+        "left": 16,
+        "right": 304,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/builder/",
+      "palette": "midnight",
+      "width": 360,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 360,
+        "scrollWidth": 360,
+        "left": 16,
+        "right": 344,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/upgrade/",
+      "palette": "midnight",
+      "width": 360,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 360,
+        "scrollWidth": 360,
+        "left": 16,
+        "right": 344,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/compatibility/",
+      "palette": "midnight",
+      "width": 360,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 360,
+        "scrollWidth": 360,
+        "left": 16,
+        "right": 344,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/compare/",
+      "palette": "midnight",
+      "width": 360,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 360,
+        "scrollWidth": 360,
+        "left": 16,
+        "right": 344,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/blog/am5-upgrade-checklist/",
+      "palette": "midnight",
+      "width": 360,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 360,
+        "scrollWidth": 360,
+        "left": 16,
+        "right": 344,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/builder/",
+      "palette": "midnight",
+      "width": 375,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 375,
+        "scrollWidth": 375,
+        "left": 20,
+        "right": 355,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/upgrade/",
+      "palette": "midnight",
+      "width": 375,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 375,
+        "scrollWidth": 375,
+        "left": 20,
+        "right": 355,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/compatibility/",
+      "palette": "midnight",
+      "width": 375,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 375,
+        "scrollWidth": 375,
+        "left": 20,
+        "right": 355,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/compare/",
+      "palette": "midnight",
+      "width": 375,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 375,
+        "scrollWidth": 375,
+        "left": 20,
+        "right": 355,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/blog/am5-upgrade-checklist/",
+      "palette": "midnight",
+      "width": 375,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 375,
+        "scrollWidth": 375,
+        "left": 20,
+        "right": 355,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/builder/",
+      "palette": "midnight",
+      "width": 390,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 390,
+        "scrollWidth": 390,
+        "left": 20,
+        "right": 370,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/builder/",
+      "palette": "midnight",
+      "width": 390,
+      "state": "text-200-percent",
+      "passed": true
+    },
+    {
+      "route": "/upgrade/",
+      "palette": "midnight",
+      "width": 390,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 390,
+        "scrollWidth": 390,
+        "left": 20,
+        "right": 370,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/upgrade/",
+      "palette": "midnight",
+      "width": 390,
+      "state": "text-200-percent",
+      "passed": true
+    },
+    {
+      "route": "/compatibility/",
+      "palette": "midnight",
+      "width": 390,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 390,
+        "scrollWidth": 390,
+        "left": 20,
+        "right": 370,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/compatibility/",
+      "palette": "midnight",
+      "width": 390,
+      "state": "text-200-percent",
+      "passed": true
+    },
+    {
+      "route": "/compare/",
+      "palette": "midnight",
+      "width": 390,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 390,
+        "scrollWidth": 390,
+        "left": 20,
+        "right": 370,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/compare/",
+      "palette": "midnight",
+      "width": 390,
+      "state": "text-200-percent",
+      "passed": true
+    },
+    {
+      "route": "/blog/am5-upgrade-checklist/",
+      "palette": "midnight",
+      "width": 390,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 390,
+        "scrollWidth": 390,
+        "left": 20,
+        "right": 370,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/blog/am5-upgrade-checklist/",
+      "palette": "midnight",
+      "width": 390,
+      "state": "text-200-percent",
+      "passed": true
+    },
+    {
+      "route": "/builder/",
+      "palette": "midnight",
+      "width": 430,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 430,
+        "scrollWidth": 430,
+        "left": 20,
+        "right": 410,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/upgrade/",
+      "palette": "midnight",
+      "width": 430,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 430,
+        "scrollWidth": 430,
+        "left": 20,
+        "right": 410,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/compatibility/",
+      "palette": "midnight",
+      "width": 430,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 430,
+        "scrollWidth": 430,
+        "left": 20,
+        "right": 410,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/compare/",
+      "palette": "midnight",
+      "width": 430,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 430,
+        "scrollWidth": 430,
+        "left": 20,
+        "right": 410,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/blog/am5-upgrade-checklist/",
+      "palette": "midnight",
+      "width": 430,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 430,
+        "scrollWidth": 430,
+        "left": 20,
+        "right": 410,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/builder/",
+      "palette": "midnight",
+      "width": 768,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 768,
+        "scrollWidth": 768,
+        "left": 30.71875,
+        "right": 737.28125,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/upgrade/",
+      "palette": "midnight",
+      "width": 768,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 768,
+        "scrollWidth": 768,
+        "left": 30.71875,
+        "right": 737.28125,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/compatibility/",
+      "palette": "midnight",
+      "width": 768,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 768,
+        "scrollWidth": 768,
+        "left": 30.71875,
+        "right": 737.28125,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/compare/",
+      "palette": "midnight",
+      "width": 768,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 768,
+        "scrollWidth": 768,
+        "left": 30.71875,
+        "right": 737.28125,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/blog/am5-upgrade-checklist/",
+      "palette": "midnight",
+      "width": 768,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 768,
+        "scrollWidth": 768,
+        "left": 30.71875,
+        "right": 737.28125,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/builder/",
+      "palette": "midnight",
+      "width": 1024,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 1024,
+        "scrollWidth": 1024,
+        "left": 40.953125,
+        "right": 861.75,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/upgrade/",
+      "palette": "midnight",
+      "width": 1024,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 1024,
+        "scrollWidth": 1024,
+        "left": 40.953125,
+        "right": 861.75,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/compatibility/",
+      "palette": "midnight",
+      "width": 1024,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 1024,
+        "scrollWidth": 1024,
+        "left": 40.953125,
+        "right": 861.75,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/compare/",
+      "palette": "midnight",
+      "width": 1024,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 1024,
+        "scrollWidth": 1024,
+        "left": 40.953125,
+        "right": 861.75,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/blog/am5-upgrade-checklist/",
+      "palette": "midnight",
+      "width": 1024,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 1024,
+        "scrollWidth": 1024,
+        "left": 324.953125,
+        "right": 983.046875,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/builder/",
+      "palette": "midnight",
+      "width": 1440,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "left": 96,
+        "right": 916.796875,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/upgrade/",
+      "palette": "midnight",
+      "width": 1440,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "left": 96,
+        "right": 916.796875,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/compatibility/",
+      "palette": "midnight",
+      "width": 1440,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "left": 96,
+        "right": 916.796875,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/compare/",
+      "palette": "midnight",
+      "width": 1440,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "left": 96,
+        "right": 916.796875,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/blog/am5-upgrade-checklist/",
+      "palette": "midnight",
+      "width": 1440,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "left": 604,
+        "right": 1344,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/builder/",
+      "palette": "midnight",
+      "width": 1920,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 1920,
+        "scrollWidth": 1920,
+        "left": 336,
+        "right": 1156.796875,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/upgrade/",
+      "palette": "midnight",
+      "width": 1920,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 1920,
+        "scrollWidth": 1920,
+        "left": 336,
+        "right": 1156.796875,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/compatibility/",
+      "palette": "midnight",
+      "width": 1920,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 1920,
+        "scrollWidth": 1920,
+        "left": 336,
+        "right": 1156.796875,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/compare/",
+      "palette": "midnight",
+      "width": 1920,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 1920,
+        "scrollWidth": 1920,
+        "left": 336,
+        "right": 1156.796875,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/blog/am5-upgrade-checklist/",
+      "palette": "midnight",
+      "width": 1920,
+      "state": "responsive",
+      "passed": true,
+      "metrics": {
+        "width": 1920,
+        "scrollWidth": 1920,
+        "left": 844,
+        "right": 1584,
+        "headingCount": 1
+      }
+    },
+    {
+      "route": "/builder/",
+      "state": "JavaScript-disabled",
+      "passed": true
+    },
+    {
+      "route": "/upgrade/",
+      "state": "JavaScript-disabled",
+      "passed": true
+    },
+    {
+      "route": "/compatibility/",
+      "state": "JavaScript-disabled",
+      "passed": true
+    },
+    {
+      "route": "/compare/",
+      "state": "JavaScript-disabled",
+      "passed": true
+    },
+    {
+      "route": "/blog/am5-upgrade-checklist/",
+      "state": "JavaScript-disabled",
+      "passed": true
+    },
+    {
+      "route": "/builder/",
+      "state": "CPU search/select and PSU dismiss",
+      "passed": true
+    }
+  ]
+}

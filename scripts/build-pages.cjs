@@ -164,6 +164,7 @@ require('./total-display.cjs').prepare({root});
 require('./total-fps.cjs').prepare({root});
 require('./total-console-hardware.cjs').prepare({root,shell,write,esc});
 require('./clean-studio.cjs').prepare({root});
+require('./search-landing-content.cjs').prepare({root});
 require("./seo-pass.cjs")({root,records,shell,write,esc});
 const completionSEO=require("./completion-seo.cjs")({root,records},{reportDirectory:path.resolve('docs/master-completion/seo')});
 require('./identity-integration-oct19.cjs').finalizeSEO({root,records});
