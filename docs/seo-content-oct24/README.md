@@ -1,5 +1,13 @@
 # Search landing pages and upgrade guidance — October 24, 2026
 
+## Release result
+
+Published `c753f52250e6c90171d15a8c209e736871b18302` through the existing production workflow. CI and Cloudflare hosting both succeeded. All 113 regression command groups, 101 isolated browser states, TypeScript and unchanged performance budgets passed. Four additional public browser checks passed after deployment. Public checks verify all five edited pages, 11 contextual link targets, six delivered stylesheets, the unchanged sitemap count, private-state exclusions and the intended ownership token.
+
+Google’s live test of the revised AM5 guide says **URL is available to Google**, **Page can be indexed** and **1 valid breadcrumb item**. The guide was already indexed in the earlier snapshot; this is not a claim that its new revision has been recrawled into the index. The manual recrawl request was not accepted because Google reported its daily quota was exceeded. A later appropriate retry is recorded in `release.json`; normal crawling remains available.
+
+Private Google evidence is saved outside the public repository. Search impressions, clicks and ranking effects remain unmeasured for this release.
+
 ## Purpose
 
 Improve existing search destinations while Google processes the recently verified property. The available private Search Console sample is insufficient for query-level CTR conclusions. This work addresses concrete content gaps and intent clarity; it does not claim more impressions, clicks or rankings have already resulted.
@@ -43,4 +51,4 @@ Intent research used qualitative search-result patterns for PC upgrades and CPU/
 - `../master-completion/qa/test-commands.json`: complete regression result.
 - `../program-2026-10-09/performance-budget-results.json`: unchanged static resource budgets; field Core Web Vitals are not measured here.
 
-Publication and public response checks are recorded in `release.json` and `public-after.json` after successful deployment. Private Google account/report screenshots remain outside the repository.
+Publication and public response checks are recorded in `release.json`, `public-after.json` and `public-browser.json`. Private Google account/report screenshots remain outside the repository.

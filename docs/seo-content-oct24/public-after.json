@@ -1,0 +1,69 @@
+{
+  "checkedAt": "2026-10-24T14:32:12.544Z",
+  "release": {
+    "schema": 1,
+    "program": "2026-10-11-continuation",
+    "commit": "c753f52250e6c90171d15a8c209e736871b18302",
+    "generatedAt": "2026-10-24T14:29:46.371Z",
+    "staging": false
+  },
+  "rows": [
+    {
+      "route": "/builder/",
+      "status": 200,
+      "title": "PC Builder & Compatibility Checker | PC Part Performance",
+      "canonical": "https://www.pcpartperformance.com/builder/",
+      "dates": null
+    },
+    {
+      "route": "/upgrade/",
+      "status": 200,
+      "title": "PC Upgrade Planner: Reuse Parts & Compare Costs",
+      "canonical": "https://www.pcpartperformance.com/upgrade/",
+      "dates": null
+    },
+    {
+      "route": "/compatibility/",
+      "status": 200,
+      "title": "CPU & Motherboard Compatibility Checker | PC Part Performance",
+      "canonical": "https://www.pcpartperformance.com/compatibility/",
+      "dates": null
+    },
+    {
+      "route": "/compare/",
+      "status": 200,
+      "title": "GPU & CPU Comparison: Specs, Power & Fit | PC Part Performance",
+      "canonical": "https://www.pcpartperformance.com/compare/",
+      "dates": null
+    },
+    {
+      "route": "/blog/am5-upgrade-checklist/",
+      "status": 200,
+      "title": "AM5 CPU upgrade checklist: BIOS, memory, cooling and storage · PC Part Performance",
+      "canonical": "https://www.pcpartperformance.com/blog/am5-upgrade-checklist/",
+      "dates": {
+        "published": "2026-10-03",
+        "modified": "2026-10-24"
+      }
+    }
+  ],
+  "contextualTargetsVerified": 11,
+  "stylesheetsVerified": 6,
+  "sitemapURLs": 1451,
+  "privateStateExcluded": true,
+  "correctOwnershipTokenPreserved": true,
+  "ci": [
+    {
+      "name": "Workers Builds: pcpartperformance-live",
+      "conclusion": "success",
+      "url": "https://github.com/LukasJT/pcpartperformance/runs/120898190938",
+      "summary": "\nBuild ID: [35b15f20-00e8-4639-b635-02b3c5f3b4d7](https://dash.cloudflare.com/544465516a580e551501b219bd8f089f/workers/services/view/pcpartperformance-live/production/builds/35b15f20-00e8-4639-b635-02b3c5f3b4d7)\nScript: [pcpartperformance-live](https://dash.cloudflare.com/544465516a580e551501b219bd8f089f/workers/services/view/pcpartperformance-live/production)\nVersion ID: 85ea10cb-925b-43cd-b60b-2709f356ba6f\n"
+    },
+    {
+      "name": "validate",
+      "conclusion": "success",
+      "url": "https://github.com/LukasJT/pcpartperformance/actions/runs/40102651031/job/120897792702",
+      "summary": null
+    }
+  ]
+}

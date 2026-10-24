@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-10-24T14:33:39.934Z",
+  "results": [
+    {
+      "route": "/compatibility/",
+      "width": 390,
+      "rendered": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "route": "/blog/am5-upgrade-checklist/",
+      "width": 390,
+      "rendered": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "route": "/compare/",
+      "width": 390,
+      "textZoom": 200,
+      "noHorizontalOverflow": true
+    },
+    {
+      "route": "/builder/",
+      "width": 390,
+      "realCPUSearchAndSelection": true,
+      "newGuidanceStillVisible": true
+    }
+  ]
+}

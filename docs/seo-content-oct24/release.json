@@ -1,6 +1,6 @@
 {
   "date": "2026-10-24",
-  "status": "tested_ready_for_publication",
+  "status": "published_and_verified",
   "baseCommit": "893b76b1f01db21656abcb0ec686ac07e00de40b",
   "pages": [
     "/builder/",
@@ -20,6 +20,24 @@
     "performanceBudgets": "passed_without_raising_limits",
     "visualReview": "Mobile light/dark and desktop sections inspected"
   },
-  "publication": null,
-  "searchOutcome": "Not yet measured; no impression, click or ranking gain claimed"
+  "publication": {
+    "commit": "c753f52250e6c90171d15a8c209e736871b18302",
+    "generatedAt": "2026-10-24T14:29:46.371Z",
+    "ci": "success",
+    "hosting": "success",
+    "publicPagesVerified": 5,
+    "contextualTargetsVerified": 11,
+    "stylesheetsVerified": 6,
+    "publicBrowserChecks": 4
+  },
+  "searchOutcome": "Not yet measured; no impression, click or ranking gain claimed",
+  "google": {
+    "route": "/blog/am5-upgrade-checklist/",
+    "indexedSnapshotBefore": "URL is on Google; page is indexed",
+    "liveTest": "URL is available to Google; page can be indexed; 1 valid breadcrumb item",
+    "testedAtLocal": "2026-10-24 10:31 America/Toronto",
+    "manualRecrawlRequest": "not_accepted_daily_quota_exceeded",
+    "nextAction": "When quota permits, inspect whether Google has recrawled the October 24 revision; request recrawl only if still appropriate. Do not repeatedly resubmit an accepted request."
+  },
+  "completedAt": "2026-10-24T14:36:13.102Z"
 }
