@@ -2,39 +2,39 @@
   "schema": 1,
   "sources": {
     "amd-announcements": {
-      "fingerprint": "968da690d5edd7f5fc72aebb2f97d229ee8e518b3fc112f2f97cecf55fca49f4",
+      "fingerprint": "3991aaed1cba384e837e280373e16959e3ee0a2c644009f15cef1612b049d1cd",
       "firstObservedAt": "2026-10-19T19:39:32.490Z",
-      "lastSuccessAt": "2026-11-09T22:19:41.681Z"
+      "lastSuccessAt": "2026-11-10T19:43:04.491Z"
     },
     "nvidia-announcements": {
-      "fingerprint": "a6f5fd03039d979c8066d4919d4bb06f821a096a264cbc4db10f4341821d22c6",
+      "fingerprint": "6d65aa17ec57469527eacb26d04247ce14ce99f59223bcee2fb915a8fb4220be",
       "firstObservedAt": "2026-10-19T19:39:32.736Z",
-      "lastSuccessAt": "2026-11-09T22:19:41.920Z"
+      "lastSuccessAt": "2026-11-10T19:43:04.715Z"
     },
     "intel-security": {
-      "fingerprint": "07119ce4942078e02824efa1c73dbaf969bd2005d2189bb916b2938bf9d7d8b2",
+      "fingerprint": "33c9c11e61af7011f85110a2f2cf56b04ff7acc99be4eeb26cb19eab2fa24c5a",
       "firstObservedAt": "2026-10-19T19:39:33.462Z",
-      "lastSuccessAt": "2026-11-09T22:19:42.326Z"
+      "lastSuccessAt": "2026-11-10T19:43:04.857Z"
     },
     "asus-security": {
       "fingerprint": "9561f0aecd34525b7f8e88ca763e0d635f603a8ef10a1305fc96144bf413b92e",
       "firstObservedAt": "2026-10-19T19:39:33.743Z",
-      "lastSuccessAt": "2026-11-09T22:19:43.547Z"
+      "lastSuccessAt": "2026-11-10T19:43:05.697Z"
     },
     "nintendo-announcements": {
-      "fingerprint": "4b6550139d1d4ca7506a8d262fb0674d146e6edc834e240acedc434d366a40ac",
+      "fingerprint": "a675337a05a74c45122e5c4b5a69912fbf136fcb91c954f618b78f8b8ad55ef2",
       "firstObservedAt": "2026-10-19T19:39:34.498Z",
-      "lastSuccessAt": "2026-11-09T22:19:44.486Z"
+      "lastSuccessAt": "2026-11-10T19:43:06.750Z"
     },
     "google-documentation": {
       "fingerprint": "52d71c295724d6d3fa1e39caa53037f5c2e399510842ec17322fc847407c4b55",
       "firstObservedAt": "2026-10-19T19:39:34.876Z",
-      "lastSuccessAt": "2026-11-09T22:19:44.719Z"
+      "lastSuccessAt": "2026-11-10T19:43:06.960Z"
     },
     "google-learning": {
       "fingerprint": "3a8043b9ff882dafaa6104546361f859a83e6447da1cf2b7a13067d907955f46",
       "firstObservedAt": "2026-10-19T19:39:36.426Z",
-      "lastSuccessAt": "2026-11-09T22:19:45.120Z"
+      "lastSuccessAt": "2026-11-10T19:43:07.488Z"
     }
   }
 }

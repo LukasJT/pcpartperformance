@@ -1,5 +1,304 @@
 [
   {
+    "id": "960f7e5855d3d2b17fe850a0",
+    "sourceId": "nintendo-announcements",
+    "publisher": "Nintendo",
+    "title": "11/05/26 Make the 5th anniversary of Pikmin Bloom sparkle! Read more",
+    "url": "https://www.nintendo.com/us/whatsnew/mobile-news-make-the-5th-anniversary-of-pikmin-bloom-sparkle/",
+    "kind": "game-announcements",
+    "discoveredAt": "2026-11-10T19:43:06.750Z",
+    "sourcePublishedAt": null,
+    "evidence": "primary-index-lead-needs-original-source-review",
+    "status": "needs_editorial_review",
+    "published": false,
+    "reason": "An announcement is a discovery lead. Confirm each platform release/edition separately; do not create FPS records from it.",
+    "relatedRoutes": [
+      "/performance/"
+    ],
+    "relatedProducts": [],
+    "suggestedVisual": "Use an original explanatory diagram only after the original source establishes the relevant technical facts."
+  },
+  {
+    "id": "5c3fe6c43aea4faa638fc999",
+    "sourceId": "intel-security",
+    "publisher": "Intel",
+    "title": "Intel® Graphics Advisory - 01440",
+    "url": "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01440.html",
+    "kind": "security-advisories",
+    "discoveredAt": "2026-11-10T19:43:04.857Z",
+    "sourcePublishedAt": null,
+    "evidence": "primary-index-lead-needs-original-source-review",
+    "status": "needs_editorial_review",
+    "published": false,
+    "reason": "A security advisory needs affected-product and mitigation verification; an index change is not proof a saved PC is vulnerable.",
+    "relatedRoutes": [
+      "/news/",
+      "/troubleshooting/"
+    ],
+    "relatedProducts": [],
+    "suggestedVisual": "Use an original explanatory diagram only after the original source establishes the relevant technical facts."
+  },
+  {
+    "id": "6141d7d6b99fc08fce60ad25",
+    "sourceId": "intel-security",
+    "publisher": "Intel",
+    "title": "Intel® VTune™ Profiler Software Advisory",
+    "url": "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01477.html",
+    "kind": "security-advisories",
+    "discoveredAt": "2026-11-10T19:43:04.857Z",
+    "sourcePublishedAt": null,
+    "evidence": "primary-index-lead-needs-original-source-review",
+    "status": "needs_editorial_review",
+    "published": false,
+    "reason": "A security advisory needs affected-product and mitigation verification; an index change is not proof a saved PC is vulnerable.",
+    "relatedRoutes": [
+      "/news/",
+      "/troubleshooting/"
+    ],
+    "relatedProducts": [],
+    "suggestedVisual": "Use an original explanatory diagram only after the original source establishes the relevant technical facts."
+  },
+  {
+    "id": "d609cdf8f037330688531232",
+    "sourceId": "intel-security",
+    "publisher": "Intel",
+    "title": "Intel® Neural Compressor Advisory",
+    "url": "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01490.html",
+    "kind": "security-advisories",
+    "discoveredAt": "2026-11-10T19:43:04.857Z",
+    "sourcePublishedAt": null,
+    "evidence": "primary-index-lead-needs-original-source-review",
+    "status": "needs_editorial_review",
+    "published": false,
+    "reason": "A security advisory needs affected-product and mitigation verification; an index change is not proof a saved PC is vulnerable.",
+    "relatedRoutes": [
+      "/news/",
+      "/troubleshooting/"
+    ],
+    "relatedProducts": [],
+    "suggestedVisual": "Use an original explanatory diagram only after the original source establishes the relevant technical facts."
+  },
+  {
+    "id": "b7df26f7eda39a150678734d",
+    "sourceId": "intel-security",
+    "publisher": "Intel",
+    "title": "Intel® QAT Software Drivers for Windows Advisory",
+    "url": "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01491.html",
+    "kind": "security-advisories",
+    "discoveredAt": "2026-11-10T19:43:04.857Z",
+    "sourcePublishedAt": null,
+    "evidence": "primary-index-lead-needs-original-source-review",
+    "status": "needs_editorial_review",
+    "published": false,
+    "reason": "A security advisory needs affected-product and mitigation verification; an index change is not proof a saved PC is vulnerable.",
+    "relatedRoutes": [
+      "/news/",
+      "/troubleshooting/"
+    ],
+    "relatedProducts": [],
+    "suggestedVisual": "Use an original explanatory diagram only after the original source establishes the relevant technical facts."
+  },
+  {
+    "id": "436ecc78f65a19fea707ac55",
+    "sourceId": "intel-security",
+    "publisher": "Intel",
+    "title": "Intel® oneAPI Deep Neural Network Library Software Advisory",
+    "url": "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01494.html",
+    "kind": "security-advisories",
+    "discoveredAt": "2026-11-10T19:43:04.857Z",
+    "sourcePublishedAt": null,
+    "evidence": "primary-index-lead-needs-original-source-review",
+    "status": "needs_editorial_review",
+    "published": false,
+    "reason": "A security advisory needs affected-product and mitigation verification; an index change is not proof a saved PC is vulnerable.",
+    "relatedRoutes": [
+      "/news/",
+      "/troubleshooting/"
+    ],
+    "relatedProducts": [],
+    "suggestedVisual": "Use an original explanatory diagram only after the original source establishes the relevant technical facts."
+  },
+  {
+    "id": "a936a0b98159cd680746dde2",
+    "sourceId": "intel-security",
+    "publisher": "Intel",
+    "title": "Intel® Application Optimization User Interface Software Advisory",
+    "url": "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01498.html",
+    "kind": "security-advisories",
+    "discoveredAt": "2026-11-10T19:43:04.857Z",
+    "sourcePublishedAt": null,
+    "evidence": "primary-index-lead-needs-original-source-review",
+    "status": "needs_editorial_review",
+    "published": false,
+    "reason": "A security advisory needs affected-product and mitigation verification; an index change is not proof a saved PC is vulnerable.",
+    "relatedRoutes": [
+      "/news/",
+      "/troubleshooting/"
+    ],
+    "relatedProducts": [],
+    "suggestedVisual": "Use an original explanatory diagram only after the original source establishes the relevant technical facts."
+  },
+  {
+    "id": "81da423230151cd1f4064ed6",
+    "sourceId": "intel-security",
+    "publisher": "Intel",
+    "title": "Intel® Media Transcode Accelerator Advisory",
+    "url": "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01510.html",
+    "kind": "security-advisories",
+    "discoveredAt": "2026-11-10T19:43:04.857Z",
+    "sourcePublishedAt": null,
+    "evidence": "primary-index-lead-needs-original-source-review",
+    "status": "needs_editorial_review",
+    "published": false,
+    "reason": "A security advisory needs affected-product and mitigation verification; an index change is not proof a saved PC is vulnerable.",
+    "relatedRoutes": [
+      "/news/",
+      "/troubleshooting/"
+    ],
+    "relatedProducts": [],
+    "suggestedVisual": "Use an original explanatory diagram only after the original source establishes the relevant technical facts."
+  },
+  {
+    "id": "2891038034cbe2be8b23a272",
+    "sourceId": "intel-security",
+    "publisher": "Intel",
+    "title": "Hyperscan Software Advisory",
+    "url": "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01511.html",
+    "kind": "security-advisories",
+    "discoveredAt": "2026-11-10T19:43:04.857Z",
+    "sourcePublishedAt": null,
+    "evidence": "primary-index-lead-needs-original-source-review",
+    "status": "needs_editorial_review",
+    "published": false,
+    "reason": "A security advisory needs affected-product and mitigation verification; an index change is not proof a saved PC is vulnerable.",
+    "relatedRoutes": [
+      "/news/",
+      "/troubleshooting/"
+    ],
+    "relatedProducts": [],
+    "suggestedVisual": "Use an original explanatory diagram only after the original source establishes the relevant technical facts."
+  },
+  {
+    "id": "4e9407278580c6fd5f5db920",
+    "sourceId": "intel-security",
+    "publisher": "Intel",
+    "title": "Intel® Multi-Buffer Crypto for IPSec Software Advisory",
+    "url": "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01512.html",
+    "kind": "security-advisories",
+    "discoveredAt": "2026-11-10T19:43:04.857Z",
+    "sourcePublishedAt": null,
+    "evidence": "primary-index-lead-needs-original-source-review",
+    "status": "needs_editorial_review",
+    "published": false,
+    "reason": "A security advisory needs affected-product and mitigation verification; an index change is not proof a saved PC is vulnerable.",
+    "relatedRoutes": [
+      "/news/",
+      "/troubleshooting/"
+    ],
+    "relatedProducts": [],
+    "suggestedVisual": "Use an original explanatory diagram only after the original source establishes the relevant technical facts."
+  },
+  {
+    "id": "f700a9c2badb865fda509aa5",
+    "sourceId": "intel-security",
+    "publisher": "Intel",
+    "title": "Intel® Graphics Advisory - 01513",
+    "url": "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01513.html",
+    "kind": "security-advisories",
+    "discoveredAt": "2026-11-10T19:43:04.857Z",
+    "sourcePublishedAt": null,
+    "evidence": "primary-index-lead-needs-original-source-review",
+    "status": "needs_editorial_review",
+    "published": false,
+    "reason": "A security advisory needs affected-product and mitigation verification; an index change is not proof a saved PC is vulnerable.",
+    "relatedRoutes": [
+      "/news/",
+      "/troubleshooting/"
+    ],
+    "relatedProducts": [],
+    "suggestedVisual": "Use an original explanatory diagram only after the original source establishes the relevant technical facts."
+  },
+  {
+    "id": "6a1bae942755aec931e7f4d8",
+    "sourceId": "intel-security",
+    "publisher": "Intel",
+    "title": "Intel® Intelligent Storage Acceleration Library (Intel® ISA-L) Software Advisory",
+    "url": "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01514.html",
+    "kind": "security-advisories",
+    "discoveredAt": "2026-11-10T19:43:04.857Z",
+    "sourcePublishedAt": null,
+    "evidence": "primary-index-lead-needs-original-source-review",
+    "status": "needs_editorial_review",
+    "published": false,
+    "reason": "A security advisory needs affected-product and mitigation verification; an index change is not proof a saved PC is vulnerable.",
+    "relatedRoutes": [
+      "/news/",
+      "/troubleshooting/"
+    ],
+    "relatedProducts": [],
+    "suggestedVisual": "Use an original explanatory diagram only after the original source establishes the relevant technical facts."
+  },
+  {
+    "id": "12ee0c6ff55754dff762ecd1",
+    "sourceId": "intel-security",
+    "publisher": "Intel",
+    "title": "Intel® CIP Software Advisory",
+    "url": "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01516.html",
+    "kind": "security-advisories",
+    "discoveredAt": "2026-11-10T19:43:04.857Z",
+    "sourcePublishedAt": null,
+    "evidence": "primary-index-lead-needs-original-source-review",
+    "status": "needs_editorial_review",
+    "published": false,
+    "reason": "A security advisory needs affected-product and mitigation verification; an index change is not proof a saved PC is vulnerable.",
+    "relatedRoutes": [
+      "/news/",
+      "/troubleshooting/"
+    ],
+    "relatedProducts": [],
+    "suggestedVisual": "Use an original explanatory diagram only after the original source establishes the relevant technical facts."
+  },
+  {
+    "id": "ece8ffee30926e9889573fc5",
+    "sourceId": "nvidia-announcements",
+    "publisher": "NVIDIA",
+    "title": "Statement From the Independent Members of the NVIDIA Board",
+    "url": "https://nvidianews.nvidia.com/news/statement-from-the-independent-members-of-the-nvidia-board",
+    "kind": "hardware-announcements",
+    "discoveredAt": "2026-11-10T19:43:04.715Z",
+    "sourcePublishedAt": null,
+    "evidence": "primary-index-lead-needs-original-source-review",
+    "status": "needs_editorial_review",
+    "published": false,
+    "reason": "Check the original announcement and exact market/variant before proposing a catalog or news change.",
+    "relatedRoutes": [
+      "/news/",
+      "/hardware/graphics-cards/"
+    ],
+    "relatedProducts": [],
+    "suggestedVisual": "Use an original explanatory diagram only after the original source establishes the relevant technical facts."
+  },
+  {
+    "id": "465532940dee86e968cb1360",
+    "sourceId": "amd-announcements",
+    "publisher": "AMD",
+    "title": "AMD Showcases 6th Gen AMD EPYC Processors to Lead Next Era of AI and Enterprise Computing",
+    "url": "https://ir.amd.com/news-events/press-releases/detail/1305/amd-showcases-6th-gen-amd-epyc-processors-to-lead-next-era-of-ai-and-enterprise-computing",
+    "kind": "hardware-announcements",
+    "discoveredAt": "2026-11-10T19:43:04.491Z",
+    "sourcePublishedAt": null,
+    "evidence": "primary-index-lead-needs-original-source-review",
+    "status": "needs_editorial_review",
+    "published": false,
+    "reason": "Manufacturer announcements can identify products or support changes that merit an original-source review.",
+    "relatedRoutes": [
+      "/news/",
+      "/hardware/processors/"
+    ],
+    "relatedProducts": [],
+    "suggestedVisual": "Use an original explanatory diagram only after the original source establishes the relevant technical facts."
+  },
+  {
     "id": "d08ef9f19387ea264e881726",
     "sourceId": "nintendo-announcements",
     "publisher": "Nintendo",

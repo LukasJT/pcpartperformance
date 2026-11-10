@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "lastAttemptAt": "2026-11-09T22:19:45.129Z",
+  "lastAttemptAt": "2026-11-10T19:43:07.499Z",
   "lastSuccessfulRunAt": null,
-  "lastFailedRunAt": "2026-11-09T22:19:45.129Z",
+  "lastFailedRunAt": "2026-11-10T19:43:07.499Z",
   "status": "degraded",
   "catalogRecords": 1302,
   "offersUpdated": 10,
@@ -10,6 +10,6 @@
   "invalidRecords": 0,
   "retailerFailures": 2,
   "sourceFailures": 0,
-  "reviewQueue": 75,
+  "reviewQueue": 90,
   "deploymentVerified": false
 }
