@@ -6,18 +6,12 @@
     let consent;try{consent=localStorage.getItem(key)}catch{}
     let observer;
     const allowed=()=>consent==='accepted'&&!gpc;
-    function size(slot){
-      if(slot.dataset.pcpAd==='rectangle')return ['300x250',300,250];
-      if(slot.dataset.pcpAd==='native')return ['native',Math.min(728,slot.clientWidth),280];
-      const width=slot.clientWidth;
-      return width>=728?['728x90',728,90]:width>=468?['468x60',468,60]:width>=320?['320x50',320,50]:null;
-    }
     function mount(slot){
       if(!allowed()||slot.dataset.loaded==='true'||slot.getClientRects().length===0)return false;
-      const format=size(slot);if(!format)return false;
-      const [name,width,height]=format;
+      // Adsterra currently serves only the 300×250 unit for this site.
+      if(slot.clientWidth<300)return false;
       const label=document.createElement('span');label.className='pcp-ad-label';label.textContent='Advertisement';
-      const frame=document.createElement('iframe');frame.className='pcp-ad-frame';frame.title='Advertisement';frame.src='https://pcpartperformance-live.lukastadros06.workers.dev/ads/'+name+'.html';frame.width=String(width);frame.height=String(height);frame.loading='eager';frame.referrerPolicy='no-referrer';frame.sandbox='allow-scripts allow-same-origin allow-forms';frame.setAttribute('allow','');
+      const frame=document.createElement('iframe');frame.className='pcp-ad-frame';frame.title='Advertisement';frame.src='https://pcpartperformance-live.lukastadros06.workers.dev/ads/300x250.html';frame.width='300';frame.height='250';frame.loading='eager';frame.referrerPolicy='no-referrer';frame.sandbox='allow-scripts allow-same-origin allow-forms';frame.setAttribute('allow','');
       slot.append(label,frame);slot.dataset.loaded='true';return true;
     }
     function unload(){observer?.disconnect();for(const slot of slots){slot.replaceChildren();delete slot.dataset.loaded}}
