@@ -19,7 +19,10 @@
       const format=size(slot);if(!format)return false;
       const [name,width,height]=format;
       const label=document.createElement('span');label.className='pcp-ad-label';label.textContent='Advertisement';
-      const frame=document.createElement('iframe');frame.className='pcp-ad-frame';frame.title='Advertisement';frame.src='https://pcpartperformance-live.lukastadros06.workers.dev/ads/'+name+'.html';frame.width=String(width);frame.height=String(height);frame.loading='eager';frame.referrerPolicy='no-referrer';frame.sandbox='allow-scripts allow-same-origin allow-forms';frame.setAttribute('allow','');
+      const frame=document.createElement('iframe');frame.className='pcp-ad-frame';frame.title='Advertisement';frame.src='https://pcpartperformance-live.lukastadros06.workers.dev/ads/'+name+'.html';frame.width=String(width);frame.height=String(height);frame.loading='eager';frame.referrerPolicy='no-referrer';
+      // Display ads use target="_blank". Keep the opener page isolated and its navigation blocked.
+      frame.sandbox='allow-scripts allow-same-origin allow-forms allow-popups allow-popups-to-escape-sandbox';
+      frame.setAttribute('allow','');
       slot.append(label,frame);slot.dataset.loaded='true';return true;
     }
     function unload(){observer?.disconnect();for(const slot of slots){slot.replaceChildren();delete slot.dataset.loaded}}
