@@ -25,6 +25,14 @@ test('semantic ad fix preserves existing placement identity, assets, controls an
  assert.equal(html.match(/<main>/g)?.length,1);assert.equal(html.match(/<\/main>/g)?.length,1);
 });
 
+test('the current homepage places a banner after the build review and a native unit at the end',()=>{
+ const review='<section class="studio-review home-passport" aria-labelledby="studio-review-title"><h2>Build review</h2></section>';
+ const html=addAdPlacements(page('home').replace(/<section class="tech-intro">.*?<\/section>/,review));
+ assert.equal(slots(html).length,2);
+ assert.ok(html.includes(review+'<div class="pcp-ad-slot" data-pcp-ad="responsive"'));
+ assert.match(html,/data-pcp-ad="native"[^>]*><\/div><\/main>/);
+});
+
 test('builder, performance and other ineligible workflows remain free of ad insertion',()=>{
  for(const kind of ['builder','resource','performance','workspace','unknown'])assert.equal(addAdPlacements(page(kind)),page(kind));
  const missingMain='<html><head></head><body data-page="guide"><footer></footer></body></html>';assert.equal(addAdPlacements(missingMain),missingMain);
