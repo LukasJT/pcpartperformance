@@ -66,7 +66,7 @@ test('controlled article renderer escapes text and table content rather than exe
 
 test('36 distinct original SVG files match the deterministic generator and contain no executable/external resources',()=>{
   const hashes=new Set();
-  for(const a of articles){const file=path.resolve(root,a.visual.path);assert(file.startsWith(path.join(root,'scripts/assets/evolution-editorial')+path.sep));const svg=fs.readFileSync(file,'utf8');assert.equal(svg,renderVisual(a));
+  for(const a of articles){const file=path.resolve(root,a.visual.path);assert(file.startsWith(path.join(root,'scripts/assets/evolution-editorial')+path.sep));const svg=fs.readFileSync(file,'utf8').replace(/\r\n/g,'\n');assert.equal(svg,renderVisual(a));
     assert(svg.includes('<title id="title">'));assert(svg.includes('<desc id="desc">'));assert.match(svg,/viewBox="0 0 960 520"/);
     assert(!/<script|<foreignObject|<image|<animate|<use|\bon[a-z]+\s*=|\bhref\s*=|url\s*\(/i.test(svg));
     assert(Buffer.byteLength(svg)<20000);hashes.add(crypto.createHash('sha256').update(svg).digest('hex'));

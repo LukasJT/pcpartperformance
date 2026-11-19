@@ -1,0 +1,67 @@
+{
+  "cases": 1812,
+  "scenarios": [
+    {
+      "width": 360,
+      "scheme": "light",
+      "cases": 151
+    },
+    {
+      "width": 375,
+      "scheme": "light",
+      "cases": 151
+    },
+    {
+      "width": 320,
+      "scheme": "light",
+      "cases": 151
+    },
+    {
+      "width": 390,
+      "scheme": "light",
+      "cases": 151
+    },
+    {
+      "width": 430,
+      "scheme": "light",
+      "cases": 151
+    },
+    {
+      "width": 768,
+      "scheme": "light",
+      "cases": 151
+    },
+    {
+      "width": 1024,
+      "scheme": "light",
+      "cases": 151
+    },
+    {
+      "width": 1440,
+      "scheme": "light",
+      "cases": 151
+    },
+    {
+      "width": 1920,
+      "scheme": "light",
+      "cases": 151
+    },
+    {
+      "width": 390,
+      "scheme": "dark",
+      "cases": 151
+    },
+    {
+      "width": 1440,
+      "scheme": "dark",
+      "cases": 151
+    },
+    {
+      "width": 390,
+      "scheme": "light",
+      "zoom": true,
+      "cases": 151
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,20 @@
+.hardware-research-article{overflow-wrap:anywhere}
+.hardware-research-article sup{white-space:nowrap}
+.research-collection{font-size:.875rem}
+.research-figure{margin:1.75rem 0;padding:clamp(.875rem,3vw,1.375rem);border:1px solid var(--line);border-radius:12px;background:var(--panel)}
+.research-figure figcaption{font-weight:650;margin-bottom:.875rem}
+.research-steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,11rem),1fr));gap:.625rem;padding:0;list-style:none}
+.hardware-research-article .research-steps li{display:grid;align-content:start;gap:.25rem;margin:0;padding:.625rem;border-top:3px solid var(--accent);line-height:1.5}
+.research-steps small{color:var(--muted)}
+.research-figure svg{display:block;width:100%;height:1.25rem;border-radius:4px}
+.research-legend{list-style:none;padding:0}
+.hardware-research-article .research-legend li{display:flex;align-items:baseline;flex-wrap:wrap;gap:.4rem;margin:.35rem 0}
+.research-swatch{display:inline-block;flex:none;width:.8rem;height:.8rem;border-radius:2px}
+.research-segment-0{background:#245cdb;fill:#245cdb}
+.research-segment-1{background:#477e73;fill:#477e73}
+.research-segment-2{background:#924e38;fill:#924e38}
+.research-segment-3{background:#7860a3;fill:#7860a3}
+.research-directory nav ul{display:flex;flex-wrap:wrap;gap:.4rem 1.125rem;padding:0;list-style:none}
+.research-directory-group{margin:2rem 0;scroll-margin-top:100px}
+.research-directory-group ul{columns:2 19rem;column-gap:2rem;padding-inline-start:1.25rem}
+.research-directory-group li{margin-block:.35rem;break-inside:avoid}
