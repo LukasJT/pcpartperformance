@@ -1,5 +1,44 @@
 [
   {
+    "id": "cb47a346e4ecaf992df83e7b",
+    "sourceId": "nintendo-announcements",
+    "publisher": "Nintendo",
+    "title": "11/18/26 The Keepsake Sea sets sail in Disney Dreamlight Valley Read more",
+    "url": "https://www.nintendo.com/us/whatsnew/the-keepsake-sea-sets-sail-in-disney-dreamlight-valley/",
+    "kind": "game-announcements",
+    "discoveredAt": "2026-11-20T20:14:01.273Z",
+    "sourcePublishedAt": null,
+    "evidence": "primary-index-lead-needs-original-source-review",
+    "status": "needs_editorial_review",
+    "published": false,
+    "reason": "An announcement is a discovery lead. Confirm each platform release/edition separately; do not create FPS records from it.",
+    "relatedRoutes": [
+      "/performance/"
+    ],
+    "relatedProducts": [],
+    "suggestedVisual": "Use an original explanatory diagram only after the original source establishes the relevant technical facts."
+  },
+  {
+    "id": "e31ebe03eff7738d4a692571",
+    "sourceId": "nvidia-announcements",
+    "publisher": "NVIDIA",
+    "title": "NVIDIA Announces Upcoming Event for Financial Community",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-announces-upcoming-event-for-financial-community-6929322",
+    "kind": "hardware-announcements",
+    "discoveredAt": "2026-11-20T20:14:00.852Z",
+    "sourcePublishedAt": null,
+    "evidence": "primary-index-lead-needs-original-source-review",
+    "status": "needs_editorial_review",
+    "published": false,
+    "reason": "Check the original announcement and exact market/variant before proposing a catalog or news change.",
+    "relatedRoutes": [
+      "/news/",
+      "/hardware/graphics-cards/"
+    ],
+    "relatedProducts": [],
+    "suggestedVisual": "Use an original explanatory diagram only after the original source establishes the relevant technical facts."
+  },
+  {
     "id": "b887195d6e40e9aa1bae99af",
     "sourceId": "nintendo-announcements",
     "publisher": "Nintendo",
