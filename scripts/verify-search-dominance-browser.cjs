@@ -7,13 +7,14 @@ const path = require('node:path');
 const { chromium } = require(process.env.EDITORIAL_PLAYWRIGHT || 'playwright');
 const { routeFor, library } = require('./search-dominance-publication.cjs');
 const articles = require('../data/search-dominance-articles.json');
+const { records } = require('./guide-expansion.cjs');
 
 const root = path.resolve(__dirname, '../dist');
 const resultDir = path.resolve(process.argv[2] || 'docs/search-dominance-release/qa');
 const viewports = [320, 360, 375, 390, 430, 768, 1024, 1440, 1920]
   .map(width => ({ width, scheme: 'light' }))
   .concat([{ width: 390, scheme: 'dark' }, { width: 1440, scheme: 'dark' }, { width: 390, scheme: 'light', zoom: true }]);
-const screenshots = new Set(['025', '032', '106', '117', '150', 'directory']);
+const screenshots = new Set(['151', '226', '251', '276', 'directory']);
 const types = { '.html': 'text/html', '.css': 'text/css', '.js': 'text/javascript', '.json': 'application/json', '.svg': 'image/svg+xml' };
 
 function serve() {
@@ -62,7 +63,7 @@ async function verify() {
         let cases = 0;
         try {
           for (const item of [{ id: 'directory', title: 'Hardware Research Guides', route: library },
-            ...articles.map(row => ({ ...row, route: routeFor(row) }))]) {
+            ...records.map(row => ({ ...row, route: routeFor(row) }))]) {
             const label = item.id + ' · ' + width + ' · ' + scheme + (zoom ? ' · enlarged' : '');
             await openPage(page, base, item.route);
             if (zoom) await page.addStyleTag({ content: 'html { font-size: 200% }' });
@@ -71,10 +72,10 @@ async function verify() {
             if (overflow) failures.push('Horizontal overflow ' + label);
             assert.equal(await page.locator('h1').innerText(), item.title, label);
             if (item.id === 'directory') {
-              assert.equal(await page.locator('.research-directory-group a').count(), articles.length, label);
+              assert.equal(await page.locator('.research-directory-group a').count(), articles.length + records.length, label);
             } else {
               assert.match(await page.locator('.master-byline').innerText(), /PC Part Performance/, label);
-              assert.equal(await page.locator('.research-figure figcaption').count(), 1, label);
+              assert(await page.locator('.hardware-guide-expansion figure, .hardware-guide-expansion table').count() > 0, label);
             }
             if (screenshots.has(item.id) && [390, 1440].includes(width) && !zoom && scheme === 'light') {
               await page.screenshot({ path: path.join(resultDir, item.id + '-' + width + '.png'), fullPage: true });
@@ -98,9 +99,12 @@ async function verify() {
     assert.equal(new URL(page.url()).hash, '#article-source-1');
     await page.locator('.master-contents a').first().click();
     assert.equal(new URL(page.url()).hash, '#guide-step-1');
+    await page.locator('.research-collection a').click();
+    await page.locator('.research-directory-group a[href="' + routeFor(records[0]) + '"]').click();
+    assert.equal(new URL(page.url()).pathname, routeFor(records[0]));
     await page.close();
     const cases = completed.reduce((count, scenario) => count + scenario.cases, 0);
-    assert.equal(cases, viewports.length * (articles.length + 1));
+    assert.equal(cases, viewports.length * (records.length + 1));
     await fs.writeFile(path.join(resultDir, 'browser.json'), JSON.stringify({ cases, scenarios: completed, failures }, null, 2) + '\n');
     console.log(JSON.stringify({ cases, failures: failures.slice(0, 20), totalFailures: failures.length, navigation: 'passed' }));
     assert.equal(failures.length, 0, failures[0]);

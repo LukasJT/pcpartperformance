@@ -8,6 +8,8 @@ const { DOMAIN } = require('./program-routing.cjs');
 const { routeFor, library } = require('./search-dominance-publication.cjs');
 const { checkArticle, checkDiscovery } = require('./search-dominance-release.test.cjs');
 const articles = require('../data/search-dominance-articles.json');
+const { records } = require('./guide-expansion.cjs');
+const { checkGuide } = require('./guide-expansion.test.cjs');
 
 async function get(route, expectedType) {
   for (let attempt = 0; attempt < 3; attempt++) {
@@ -41,8 +43,10 @@ async function main(commit, outputPath) {
   const builtURLs = [...builtSitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(([, url]) => url);
   assert.deepEqual([...urls].sort(), builtURLs.sort(), 'Live sitemap differs from the verified release build');
   const searchable = new Set(JSON.parse(searchIndex).map(entry => entry.url));
-  for (const row of articles) {
+  const cohort = [...articles, ...records];
+  for (const row of cohort) {
     const route = routeFor(row);
+    assert(urls.includes(DOMAIN + route) && directory.includes('href="' + route + '"'), route + ' missing from discovery');
     assert(searchable.has(route), route + ' missing from live site search');
     assert(feed.includes('<link>' + DOMAIN + route + '</link>'), route + ' missing from live RSS');
   }
@@ -50,11 +54,12 @@ async function main(commit, outputPath) {
   const verified = [];
   let cursor = 0;
   await Promise.all(Array.from({ length: 8 }, async () => {
-    while (cursor < articles.length) {
-      const row = articles[cursor++];
+    while (cursor < cohort.length) {
+      const row = cohort[cursor++];
       const route = routeFor(row);
       try {
-        checkArticle(row, await get(route, 'html'));
+        const check = row.body ? checkGuide : checkArticle;
+        check(row, await get(route, 'html'));
         verified.push(route);
       } catch (error) {
         errors.push({ route, error: error.message });
@@ -62,6 +67,7 @@ async function main(commit, outputPath) {
     }
   }));
   const report = { checkedAt: new Date().toISOString(), productionCommit: marker.commit, articlesVerified: verified.length,
+    expansionVerified: records.filter(row => verified.includes(routeFor(row))).length,
     sitemapUrls: urls.length, directory: DOMAIN + library, urls: verified.sort(), errors };
   if (outputPath) fs.writeFileSync(outputPath, JSON.stringify(report, null, 2) + '\n');
   console.log(JSON.stringify({ ...report, urls: undefined }));

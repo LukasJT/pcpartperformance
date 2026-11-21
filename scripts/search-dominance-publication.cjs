@@ -6,6 +6,7 @@ const path = require('node:path');
 const { createHash } = require('node:crypto');
 const articles = require('../data/search-dominance-articles.json');
 const authorization = require('../data/search-dominance-authorization.json');
+const expansion = require('./guide-expansion.cjs');
 const { DOMAIN } = require('./program-routing.cjs');
 
 const author = 'PC Part Performance';
@@ -120,9 +121,18 @@ function renderArticle(article, byId, esc, date) {
 
 function integrate({ root, shell, write, esc }) {
   if (process.env.PROGRAM_PREVIEW === '1') return;
-  const rows = validate(articles, authorization);
+  const first = validate(articles, authorization);
+  const next = expansion.validate(expansion.records, expansion.approval);
+  const rows = [...first, ...next];
+  for (const field of ['id', 'slug', 'title', 'description']) {
+    assert.equal(new Set(rows.map(row => row[field])).size, rows.length, 'Duplicate guide ' + field);
+  }
   const byId = new Map(rows.map(article => [article.id, article]));
-  const { releaseDate } = authorization;
+  const directoryGroups = new Map(groups);
+  for (const row of next) {
+    const id = 'guide-' + row.group.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-$/, '');
+    directoryGroups.set(row.group, [id, row.group]);
+  }
   const planned = new Set([library, ...rows.map(routeFor)]);
   const metadataFile = path.join(root, 'master-publication-metadata.json');
   const searchFile = path.join(root, 'data/search-index.json');
@@ -137,25 +147,28 @@ function integrate({ root, shell, write, esc }) {
     assert(!metadata[route], 'Existing published metadata ' + route);
   }
   for (const row of rows) {
-    for (const [, route] of row.actions) assert(fs.existsSync(fileFor(root, route)), 'Missing site destination ' + route);
+    for (const [, route] of row.actions || []) assert(fs.existsSync(fileFor(root, route)), 'Missing site destination ' + route);
   }
   const withCss = html => html.replace('</head>', '<link rel="stylesheet" href="/master-publication.css"><link rel="stylesheet" href="/hardware-research.css"></head>');
   const org = { '@type': 'Organization', name: author, url: DOMAIN + '/about/' };
   fs.copyFileSync(path.join(__dirname, 'hardware-research.css'), path.join(root, 'hardware-research.css'));
   for (const row of rows) {
     const route = routeFor(row);
-    const body = renderArticle(row, byId, esc, releaseDate);
+    const releaseDate = row.body ? expansion.approval.releaseDate : authorization.releaseDate;
+    const body = row.body
+      ? expansion.render(row, esc, author, library, directoryGroups.get(row.group)[0])
+      : renderArticle(row, byId, esc, releaseDate);
     const schema = { '@context': 'https://schema.org', '@type': 'Article', headline: row.title, description: row.description,
       url: DOMAIN + route, mainEntityOfPage: DOMAIN + route, datePublished: releaseDate, author: org, publisher: org,
-      citation: Object.values(row.sources).map(([, url]) => url) };
+      citation: row.body ? row.sources : Object.values(row.sources).map(([, url]) => url) };
     const html = withCss(shell(row.title, 'guide', body, { description: row.description }))
       .replace('</head>', '<script type="application/ld+json">' + JSON.stringify(schema).replace(/</g, '\\u003c') + '</script></head>');
     write(route.slice(1, -1), html);
     metadata[route] = { title: row.title, description: row.description, noindex: false, publicationAuthorized: true,
       editorialId: 'research-' + row.id, datePublished: releaseDate };
   }
-  const groupNav = [...groups.values()].map(([id, title]) => `<li><a href="#${id}">${esc(title)}</a></li>`).join('');
-  const groupSections = [...groups].map(([key, [id, title]]) => {
+  const groupNav = [...directoryGroups.values()].map(([id, title]) => `<li><a href="#${id}">${esc(title)}</a></li>`).join('');
+  const groupSections = [...directoryGroups].map(([key, [id, title]]) => {
     const links = rows.filter(row => row.group === key).map(row => `<li><a href="${routeFor(row)}">${esc(row.title)}</a></li>`).join('');
     return `<section id="${id}" class="research-directory-group"><h2>${esc(title)}</h2><ul>${links}</ul></section>`;
   }).join('');

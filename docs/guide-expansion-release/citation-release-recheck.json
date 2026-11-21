@@ -1,0 +1,317 @@
+{
+  "date": "2026-11-21",
+  "scope": "Rechecked all 62 flagged URLs using public web retrieval. Retrieved readable content at 61 originals and confirmed one equivalent vendor citation.",
+  "flagged": [
+    {
+      "url": "https://www.intel.com/content/www/us/en/products/sku/204836/intel-wifi-6e-ax210-gig/specifications.html",
+      "method": "public_web_retrieval",
+      "lines": 131
+    },
+    {
+      "url": "https://www.intel.com/content/www/us/en/products/sku/204837/intel-wifi-6e-ax211-gig/specifications.html",
+      "method": "public_web_retrieval",
+      "lines": 131
+    },
+    {
+      "url": "https://support.focusrite.com/hc/en-gb/articles/207546305-What-is-direct-monitoring",
+      "method": "public_web_retrieval",
+      "lines": 243
+    },
+    {
+      "url": "https://support.focusrite.com/hc/en-gb/articles/208814065-How-to-change-the-sample-rate-and-buffer-size-on-Windows",
+      "method": "public_web_retrieval",
+      "lines": 245
+    },
+    {
+      "url": "https://help.elgato.com/hc/en-us/articles/360060072892-4K-Capture-Utility-EDID-Configuration",
+      "method": "public_web_retrieval",
+      "lines": 248
+    },
+    {
+      "url": "https://help.elgato.com/hc/en-us/articles/23479175821069-Elgato-Game-Capture-4K-X-Supported-Resolutions-and-Frame-Rates",
+      "method": "public_web_retrieval",
+      "lines": 204
+    },
+    {
+      "url": "https://help.elgato.com/hc/en-us/articles/360042392672-Elgato-Capture-Devices-and-Multi-App-Support",
+      "method": "public_web_retrieval",
+      "lines": 159
+    },
+    {
+      "url": "https://help.elgato.com/hc/en-us/articles/23658118721421-Elgato-Game-Capture-4K-X-Technical-Specifications",
+      "method": "public_web_retrieval",
+      "lines": 145
+    },
+    {
+      "url": "https://helpx.adobe.com/uk/premiere/desktop/get-started/technical-requirements/supported-codecs-and-drivers-for-hardware-accelerated-decoding.html",
+      "method": "public_web_retrieval",
+      "lines": 1938
+    },
+    {
+      "url": "https://helpx.adobe.com/premiere/desktop/organize-media/ingest-proxy-workflow/create-proxies.html",
+      "method": "public_web_retrieval",
+      "lines": 1948
+    },
+    {
+      "url": "https://helpx.adobe.com/premiere/desktop/get-started/technical-requirements/hardware-accelerated-decoding-and-encoding.html",
+      "method": "public_web_retrieval",
+      "lines": 1920
+    },
+    {
+      "url": "https://helpx.adobe.com/premiere/desktop/get-started/download-and-install/mercury-playback-engine-gpu-accelerated-in-premiere.html",
+      "method": "public_web_retrieval",
+      "lines": 1942
+    },
+    {
+      "url": "https://www.intel.com/content/www/us/en/architecture-and-technology/thunderbolt/overview.html",
+      "method": "public_web_retrieval",
+      "lines": 311
+    },
+    {
+      "url": "https://www.dell.com/support/manuals/nl-nl/wd22tb4-dock/dell_wd22tb4_userguide/product-specifications?guid=guid-bb63fcdf-357e-408c-82f1-c7c56e8d5b4e&lang=en-us",
+      "method": "verified_official_replacement",
+      "replacement": "https://www.dell.com/support/manuals/en-us/wd22tb4-dock/dell_wd22tb4_userguide/product-specifications?guid=guid-bb63fcdf-357e-408c-82f1-c7c56e8d5b4e&lang=en-us",
+      "scope": "Dell’s US specification documents 90 W delivery to a non-Dell host with the 180 W adapter."
+    },
+    {
+      "url": "https://www.dell.com/support/kbdoc/en-py/000181877/industry-standard-compatibility-with-dell-usb-type-c-and-thunderbolt-docks-wd19-wd19s-wd19tb-wd19tbs-docking-stations",
+      "method": "public_web_retrieval",
+      "lines": 194
+    },
+    {
+      "url": "https://www.intel.com/content/www/us/en/support/articles/000005597/processors.html",
+      "method": "public_web_retrieval",
+      "lines": 87
+    },
+    {
+      "url": "https://www.intel.com/content/www/us/en/support/articles/000005791/processors/intel-core-processors.html",
+      "method": "public_web_retrieval",
+      "lines": 123
+    },
+    {
+      "url": "https://www.intel.com/content/www/us/en/support/articles/000039154/processors.html",
+      "method": "public_web_retrieval",
+      "lines": 77
+    },
+    {
+      "url": "https://www.noctua.at/en/support/faqs/how-do-i-optimise-my-fan-settings",
+      "method": "public_web_retrieval",
+      "lines": 171
+    },
+    {
+      "url": "https://www.noctua.at/en/support/faqs/microcontroller-guide-pwm-setup-and-rpm-monitoring",
+      "method": "public_web_retrieval",
+      "lines": 227
+    },
+    {
+      "url": "https://help.corsair.com/hc/en-us/articles/4415184478477-PSU-What-are-zero-RPM-PSUs",
+      "method": "public_web_retrieval",
+      "lines": 80
+    },
+    {
+      "url": "https://www.intel.com/content/www/us/en/support/articles/000023025/intel-nuc/intel-nuc-mini-pcs.html",
+      "method": "public_web_retrieval",
+      "lines": 65
+    },
+    {
+      "url": "https://www.intel.com/content/www/us/en/support/articles/000006047/processors.html",
+      "method": "public_web_retrieval",
+      "lines": 180
+    },
+    {
+      "url": "https://www.msi.com/support/technical_details/MB_SPEC_RGB",
+      "method": "public_web_retrieval",
+      "lines": 83
+    },
+    {
+      "url": "https://www.kingston.com/en/memory/search?partid=KSM32ED8/32HC",
+      "method": "public_web_retrieval",
+      "lines": 389
+    },
+    {
+      "url": "https://www.kingston.com/en/memory/search?partid=KSM32RD8/32HD",
+      "method": "public_web_retrieval",
+      "lines": 435
+    },
+    {
+      "url": "https://www.noctua.at/en/support/faqs/can-i-run-noctua-3-pin-fans-on-4-pin-pwm-connectors-or-4-pin-fans-on-3-pin-connectors",
+      "method": "public_web_retrieval",
+      "lines": 98
+    },
+    {
+      "url": "https://www.noctua.at/en/support/faqs/what-pin-configuration-do-noctua-fans-use",
+      "method": "public_web_retrieval",
+      "lines": 96
+    },
+    {
+      "url": "https://www.gigabyte.com/in/Support/Consumer/FAQ/864",
+      "method": "public_web_retrieval",
+      "lines": 334
+    },
+    {
+      "url": "https://www.gigabyte.com/Motherboard/B550M-DS3H-rev-10-11-12-13",
+      "method": "public_web_retrieval",
+      "lines": 764
+    },
+    {
+      "url": "https://www.gigabyte.com/Motherboard/B550M-DS3H-rev-17/support",
+      "method": "public_web_retrieval",
+      "lines": 704
+    },
+    {
+      "url": "https://www.kingston.com/en/ssd/ssd-faq",
+      "method": "public_web_retrieval",
+      "lines": 655
+    },
+    {
+      "url": "https://www.intel.com/content/www/us/en/support/articles/000058487/processors.html",
+      "method": "public_web_retrieval",
+      "lines": 67
+    },
+    {
+      "url": "https://www.intel.com/content/www/us/en/support/articles/000027144/processors/intel-core-processors.html",
+      "method": "public_web_retrieval",
+      "lines": 181
+    },
+    {
+      "url": "https://www.kingston.com/en/blog/pc-performance/mts-vs-mhz",
+      "method": "public_web_retrieval",
+      "lines": 1363
+    },
+    {
+      "url": "https://www.kingston.com/en/memory/kingston-glossary",
+      "method": "public_web_retrieval",
+      "lines": 989
+    },
+    {
+      "url": "https://help.corsair.com/hc/en-us/articles/34383413781777-RAM-FAQ",
+      "method": "public_web_retrieval",
+      "lines": 227
+    },
+    {
+      "url": "https://help.corsair.com/hc/en-us/articles/14238510858637-RAM-How-to-Test-RAM-Modules-for-Memory-Issues",
+      "method": "public_web_retrieval",
+      "lines": 131
+    },
+    {
+      "url": "https://www.intel.com/content/www/us/en/support/articles/000029613.html",
+      "method": "public_web_retrieval",
+      "lines": 90
+    },
+    {
+      "url": "https://www.intel.com/content/www/us/en/support/articles/000024255/processors.htm",
+      "method": "public_web_retrieval",
+      "lines": 73
+    },
+    {
+      "url": "https://nvidia.custhelp.com/app/answers/detail/a_id/5204/kw/software%20drivers",
+      "method": "public_web_retrieval",
+      "lines": 64
+    },
+    {
+      "url": "https://nvidia.custhelp.com/app/answers/detail/a_id/5202/",
+      "method": "public_web_retrieval",
+      "lines": 38
+    },
+    {
+      "url": "https://help.corsair.com/hc/en-us/articles/8528259685901-RAM-How-to-Read-the-CORSAIR-memory-part-number",
+      "method": "public_web_retrieval",
+      "lines": 80
+    },
+    {
+      "url": "https://www.noctua.at/en/support/faqs/which-noctua-cpu-coolers-are-compatible-with-amd-am5",
+      "method": "public_web_retrieval",
+      "lines": 116
+    },
+    {
+      "url": "https://www.noctua.at/en/products/nm-am5-l9al9i",
+      "method": "public_web_retrieval",
+      "lines": 160
+    },
+    {
+      "url": "https://www.noctua.at/en/support/faqs/how-many-fans-can-i-connect-to-the-na-fh1-fan-hub",
+      "method": "public_web_retrieval",
+      "lines": 131
+    },
+    {
+      "url": "https://www.noctua.at/en/products/na-fh1/features",
+      "method": "public_web_retrieval",
+      "lines": 169
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-GTX-1650-4GT-LP-OC/Specification",
+      "method": "public_web_retrieval",
+      "lines": 89
+    },
+    {
+      "url": "https://help.elgato.com/hc/en-us/articles/5293216945805-Elgato-Game-Capture-HD60-X-Technical-Specifications",
+      "method": "public_web_retrieval",
+      "lines": 143
+    },
+    {
+      "url": "https://help.elgato.com/hc/en-us/articles/5293283235469-Elgato-Game-Capture-HD60-X-Supported-Resolutions",
+      "method": "public_web_retrieval",
+      "lines": 109
+    },
+    {
+      "url": "https://www.dell.com/support/manuals/en-us/optiplex-9020-desktop/opt9020mtom-v2/system-board-components?guid=guid-907a87ff-7a2a-41c7-ae26-89f61ae94d02&lang=en-us",
+      "method": "public_web_retrieval",
+      "lines": 268
+    },
+    {
+      "url": "https://www.msi.com/Motherboard/B450-TOMAHAWK-MAX/Specification",
+      "method": "public_web_retrieval",
+      "lines": 233
+    },
+    {
+      "url": "https://www.startech.com/en-us/display-video-adapters/dp2hd4k60s",
+      "method": "public_web_retrieval",
+      "lines": 232
+    },
+    {
+      "url": "https://www.intel.com/content/www/us/en/support/articles/000092416/graphics.html",
+      "method": "public_web_retrieval",
+      "lines": 60
+    },
+    {
+      "url": "https://www.intel.com/content/www/us/en/support/articles/000091128/graphics.html",
+      "method": "public_web_retrieval",
+      "lines": 383
+    },
+    {
+      "url": "https://www.supermicro.com/en/products/motherboard/h12dsi-n6",
+      "method": "public_web_retrieval",
+      "lines": 339
+    },
+    {
+      "url": "https://www.supermicro.com/manuals/motherboard/EPYC7000/MNL-2363.pdf#page=31",
+      "method": "public_web_retrieval",
+      "lines": 3287
+    },
+    {
+      "url": "https://www.supermicro.com/en/support/faqs/faq.php?faq=38375",
+      "method": "public_web_retrieval",
+      "lines": 125
+    },
+    {
+      "url": "https://www.supermicro.com/manuals/motherboard/EPYC7000/MNL-2363.pdf",
+      "method": "public_web_retrieval",
+      "lines": 3287
+    },
+    {
+      "url": "https://help.corsair.com/hc/en-us/articles/360043469632-PSU-How-to-connect-a-PSU-to-a-4-pin-CPU-port",
+      "method": "public_web_retrieval",
+      "lines": 67
+    },
+    {
+      "url": "https://seasonic.com/insights/seasonic-psu-cables/",
+      "method": "public_web_retrieval",
+      "lines": 299
+    },
+    {
+      "url": "https://help.corsair.com/hc/en-us/articles/4424240380045-PSU-Spare-Parts",
+      "method": "public_web_retrieval",
+      "lines": 112
+    }
+  ]
+}
