@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "policy": "recorded-exact-listing-observations",
-  "updatedAt": "2026-11-24T22:24:54.805Z",
+  "updatedAt": "2026-11-25T21:40:25.117Z",
   "maxObservationsPerListing": 366,
   "observations": [
     {
@@ -17331,6 +17331,44 @@
       },
       "eligibleForNewPurchaseMinimum": true,
       "availabilityBasis": "manufacturer-direct-online-product-offer"
+    },
+    {
+      "schema": 1,
+      "policy": "daily-checked-snapshot",
+      "productId": "ddr5",
+      "name": "CORSAIR VENGEANCE 32 GB DDR5-6000 CL30",
+      "itemName": "CORSAIR VENGEANCE 32GB (2x16GB) DDR5 6000MHz CL30 UDIMM",
+      "sku": "CMK32GX5M2B6000C30",
+      "retailerMpn": "CMK32GX5M2B6000C30",
+      "retailerSku": "MECOI00647",
+      "exactVariant": true,
+      "variant": null,
+      "memoryVariant": null,
+      "revision": null,
+      "merchantId": "canada-computers",
+      "merchant": "Canada Computers",
+      "seller": "Canada Computers & Electronics",
+      "region": "CA",
+      "currency": "CAD",
+      "price": 859.99,
+      "condition": "new",
+      "inStock": true,
+      "availability": "in-stock",
+      "url": "https://www.canadacomputers.com/en/desktop-memory/248739/corsair-vengeance-32gb-2x16gb-ddr5-6000mhz-cl30-udimm-cmk32gx5m2b6000c30.html",
+      "checkedAt": "2026-11-25T21:39:54.290Z",
+      "availabilityCheckedAt": "2026-11-25T21:39:54.290Z",
+      "expiresAt": "2026-11-26T21:39:54.290Z",
+      "charges": {
+        "tax": "excluded",
+        "shipping": "excluded"
+      },
+      "source": {
+        "kind": "public-retailer-structured-data",
+        "publisher": "Canada Computers",
+        "url": "https://www.canadacomputers.com/en/desktop-memory/248739/corsair-vengeance-32gb-2x16gb-ddr5-6000mhz-cl30-udimm-cmk32gx5m2b6000c30.html"
+      },
+      "eligibleForNewPurchaseMinimum": true,
+      "availabilityBasis": "retailer-product-online-offer-not-local-store-inventory"
     }
   ]
 }
